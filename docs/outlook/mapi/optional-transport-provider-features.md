@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités facultatives de fournisseur de transport
+title: Fonctionnalités facultatives du fournisseur de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,32 +7,32 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0bec2c17-b41c-4e46-8961-a55bde1f7326
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b55e6518ee1f3f59ef0459b3aeb68461f00a7ab3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: df38350b049264e7e20ac0bb821c71d93b992d2a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348516"
 ---
-# <a name="optional-transport-provider-features"></a>Fonctionnalités facultatives de fournisseur de transport
+# <a name="optional-transport-provider-features"></a>Fonctionnalités facultatives du fournisseur de transport
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournisseurs de transport peuvent mettre en œuvre de fonctionnalités facultatives sont les suivantes :
+Fonctionnalités facultatives les fournisseurs de transport peuvent implémenter les éléments suivants:
   
-- Enregistrement de message et les options pour le destinataire spécifiques au fournisseur de transport.
+- Enregistrement des options de message et de destinataire spécifiques au fournisseur de transport.
     
-- Maintenance du profil, si nécessaire, pour stocker les informations de configuration et les informations d’identification pour le système de messagerie.
+- La maintenance d'un profil, si nécessaire, pour stocker les informations de configuration et les informations d'identification dans le système de messagerie.
     
-- Exécution de la vérification des informations d’identification requises par le système de messagerie.
+- Effectuer la vérification des informations d'identification requises par le système de messagerie.
     
-- Prise en charge les notifications pour les applications clientes intéressé par avec la méthode [IMAPISupport::Notify](imapisupport-notify.md) . 
+- Prise en charge de la notification d'événement pour les applications clientes intéressées à l'aide de la méthode [IMAPISupport:: Notify](imapisupport-notify.md) . 
     
-- Affichage des feuilles de propriétés de configuration et les boîtes de dialogue Assistant permettre aux utilisateurs de configurer les paramètres du fournisseur de transport.
+- Affichage des feuilles de propriétés de configuration et des boîtes de dialogue de l'Assistant pour permettre aux utilisateurs de configurer les paramètres du fournisseur de transport.
     
-- Fourniture de rapports de remise de message pour les applications clientes.
+- Fourniture de rapports de remise des messages aux applications clientes.
     
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1f93ee653c9365488432c4e797b171a199c30107
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6c565c088fd4ef7d5df141bf770c560f79535998
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349300"
 ---
 # <a name="iaddrbookgetpab"></a>IAddrBook::GetPAB
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583714"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie l’identificateur d’entrée du conteneur qui est désigné comme le carnet d’adresses personnel (CAP).
+Renvoie l'identificateur d'entrée du conteneur désigné comme carnet d'adresses personnel (PAB).
   
 ```cpp
 HRESULT GetPAB(
@@ -38,21 +38,21 @@ HRESULT GetPAB(
 
  _lpcbEntryID_
   
-> [out] Pointeur vers le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lppEntryID_ . 
+> remarquer Pointeur vers le nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lppEntryID_ . 
     
  _lppEntryID_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée du carnet d’adresses personnel. Le paramètre _lppEntryID_ contient zéro si aucun conteneur n’a été désigné comme le carnet d’adresses personnel. 
+> remarquer Pointeur vers un pointeur vers l'identificateur d'entrée du PAB. Le paramètre _lppEntryID_ contient la valeur zéro si aucun conteneur n'a été désigné comme PAB. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’identificateur d’entrée du carnet d’adresses personnel a été renvoyée avec succès.
+> L'identificateur d'entrée du PAB a été renvoyé.
     
 ## <a name="remarks"></a>Remarques
 
-Les clients appeler la méthode **GetPAB** pour récupérer l’identificateur d’entrée du conteneur désigné comme le carnet d’adresses personnel. Si un carnet d’adresses personnel n’a pas été établie dans le profil, MAPI sélectionne comme le carnet d’adresses personnel le premier conteneur dans la hiérarchie de carnets d’adresses qui permet de modifier. 
+Les clients appellent la méthode **GetPAB** pour récupérer l'identificateur d'entrée du conteneur désigné en tant que PAB. Si un PAB n'a pas été établi dans le profil, MAPI sélectionne comme PAB le premier conteneur de la hiérarchie des carnets d'adresses qui autorise les modifications. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -60,7 +60,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI utilise la méthode **GetPAB** pour obtenir l’ID de carnet d’adresses personnel de l’utilisateur.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnOpenPAB  <br/> |MFCMAPI utilise la méthode **GetPAB** pour obtenir l'ID du carnet d'adresses personnel de l'utilisateur.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

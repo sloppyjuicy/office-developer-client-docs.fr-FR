@@ -11,61 +11,61 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e5f0f83-c40b-4b3a-8492-61d1b53b1e3c
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: e365c78ea6457e7da79e3d1c749baa922a01acbb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345359"
 ---
 # <a name="pidlidappointmentstateflags-canonical-property"></a>Propriété canonique PidLidAppointmentStateFlags
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un champ de bits qui décrit l’état de l’objet.
+Spécifie un champ de bits qui décrit l'état de l'objet.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptStateFlags  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
-|ID de type long (capot) :  <br/> |0x00008217  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
+|ID long (couvercle):  <br/> |0x00008217  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est pas requise. Vous trouverez ci-dessous les indicateurs individuels qui peuvent être définies.
+Cette propriété n'est pas obligatoire. Vous trouverez ci-dessous les indicateurs individuels qui peuvent être définis.
   
-M (asfMeeting, 0 x 00000001)
+M (asfMeeting, 0x00000001)
   
-> Cet indicateur indique que l’objet est un objet de la réunion ou d’un objet liées à la réunion.
+> Cet indicateur indique que l'objet est un objet de réunion ou un objet de réunion.
     
-R (asfReceived, 0 x 00000002)
+R (asfReceived, 0x00000002)
   
-> Cet indicateur indique que l’objet représenté a été reçu à partir d’une autre personne.
+> Cet indicateur indique que l'objet représenté a été reçu d'une autre personne.
     
-C (asfCanceled, 0 x 00000004)
+C (asfCanceled, 0x00000004)
   
-> Cet indicateur indique que l’objet de la réunion représenté par l’objet a été annulée.
+> Cet indicateur indique que l'objet de réunion représenté par l'objet a été annulé.
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

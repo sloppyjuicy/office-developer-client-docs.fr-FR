@@ -1,5 +1,5 @@
 ---
-title: DocumentSheet, élément (VisioDocument_Type, complexType) (« Visio XML »)
+title: DocumentSheet, élément (VisioDocument_Type complexType) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,24 +8,24 @@ localization_priority: Normal
 ms.assetid: 9b8673e1-b913-52db-2d1d-b3e8f4b8f952
 description: Spécifie une structure DocumentSheet.
 ms.openlocfilehash: a2594e0325cc2743036a03998eb7ac71ed2183c8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356363"
 ---
-# <a name="documentsheet-element-visiodocumenttype-complextype-visio-xml"></a>DocumentSheet, élément (VisioDocument_Type, complexType) (« Visio XML »)
+# <a name="documentsheet-element-visiodocumenttype-complextype-visio-xml"></a>DocumentSheet, élément (VisioDocument_Type complexType) ('Visio XML')
 
 Spécifie une structure DocumentSheet.
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |document.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |document. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,13 +36,13 @@ Spécifie une structure DocumentSheet.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |L’élément racine d’un document Microsoft Visio.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Élément racine d'un document Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,10 +54,10 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|IsCustomName  <br/> |type xsd : Boolean  <br/> |facultatif  <br/> |Indique si le nom a été personnalisé par l’utilisateur.  <br/> |Valeurs du type de type xsd : Boolean.  <br/> |
-|IsCustomNameU  <br/> |type xsd : Boolean  <br/> |facultatif  <br/> |Indique si le nom universel a été personnalisé par l’utilisateur.  <br/> |Valeurs du type de type xsd : Boolean.  <br/> |
-|Nom  <br/> |XSD : String  <br/> |facultatif  <br/> |Spécifie le nom dépendant de la langue de la propriété DocumentSheet.  <br/> |Valeurs du type xsd : String.  <br/> |
-|NameU  <br/> |XSD : String  <br/> |facultatif  <br/> |Spécifie le nom indépendant du langage de la propriété DocumentSheet.  <br/> |Valeurs du type xsd : String.  <br/> |
-|UniqueID  <br/> |XSD : String  <br/> |facultatif  <br/> |Valeur string facultative. Un GUID (identificateur global unique) qui identifie la forme.  <br/> |Valeurs du type xsd : String.  <br/> |
+|IsCustomName  <br/> |xsd: Boolean  <br/> |facultatif  <br/> |Indique si le nom a été personnalisé par l'utilisateur.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
+|IsCustomNameU  <br/> |xsd: Boolean  <br/> |facultatif  <br/> |Indique si le nom universel a été personnalisé par l'utilisateur.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
+|Nom  <br/> |xsd: String  <br/> |facultatif  <br/> |Spécifie le nom dépendant de la langue de DocumentSheet.  <br/> |Valeurs du type xsd: String.  <br/> |
+|NameU  <br/> |xsd: String  <br/> |facultatif  <br/> |Spécifie le nom indépendant de la langue de DocumentSheet.  <br/> |Valeurs du type xsd: String.  <br/> |
+|UniqueID  <br/> |xsd: String  <br/> |facultatif  <br/> |Chaîne facultative. GUID (globally unique identifier) qui identifie la forme.  <br/> |Valeurs du type xsd: String.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Serveurs de formulaire MAPI
+title: Serveurs de formulaires MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,50 +7,50 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 855292b8-028e-4c1e-87ed-3f20b9ba584a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0b73e246ad5e396ef67e89bff5f1e04a47f6ebcb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 3c95f6a1d4d50dd6552c6e786d17c40da14f3f3c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351484"
 ---
-# <a name="mapi-form-servers"></a>Serveurs de formulaire MAPI
+# <a name="mapi-form-servers"></a>Serveurs de formulaires MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Point de vue de l’utilisateur, d’un formulaire est généralement une feuille de propriétés pour un message ou un formulaire de saisie de données qui permet aux utilisateurs d’entrer des informations structurées. Toutefois, il peut être une interface utilisateur qui est associée à une classe de message. À partir du point de vue du programmeur, un formulaire se compose de :
+Du point de vue de l'utilisateur, un formulaire est généralement une feuille des propriétés d'un message ou d'un formulaire de saisie de données qui permet aux utilisateurs d'entrer des informations structurées. Toutefois, il peut s'agir de n'importe quelle interface utilisateur associée à une classe de message. Du point de vue du programmeur, un formulaire se compose des éléments suivants:
   
-- Type de message MAPI avec son propre classe de message et l’identificateur OLE.
+- Type de message MAPI avec sa propre classe de message et identificateur OLE.
     
-- Le fichier exécutable qui implémente le serveur du formulaire.
+- Fichier exécutable qui implémente le serveur de formulaires.
     
-- Une collection de propriétés MAPI — personnalisé ou dans le cas contraire, qui utilise le serveur de formulaire. Certains ou tous ces peuvent être disponible pour les clients de messagerie à utiliser.
+- Collection de propriétés MAPI (personnalisé ou autre) utilisée par le serveur de formulaire. Une partie ou la totalité de ces éléments peut être disponible pour les clients de messagerie en vue de leur utilisation.
     
-- Le fichier de configuration qui décrit le formulaire et est utilisé par le Gestionnaire de formulaire.
+- Fichier de configuration qui décrit le formulaire et utilisé par le gestionnaire de formulaires.
     
-Étant donné que les formulaires sont des objets [IMessage](imessageimapiprop.md) , elles présentent les propriétés et le comportement est cohérent avec les objets de message MAPI. Toutefois, étant donné que les formulaires peuvent avoir un affichage rendu qui est spécifique à l’application, les contrôles et les propriétés personnalisées, les interfaces MAPI qui constitue l’utilisation sont suffisamment génériques pour permettre de tout type d’interface qui est nécessaire. La définition d’un formulaire est stockée dans une bibliothèque de formulaires, voir plus loin dans cette section. 
+Étant donné que les formulaires sont des objets [IMessage](imessageimapiprop.md) , ils présentent des propriétés et un comportement cohérent avec les objets Message MAPI. Toutefois, étant donné que les formulaires peuvent avoir des propriétés personnalisées, des contrôles et un rendu d'affichage propre à l'application, les interfaces MAPI utilisées par les formulaires sont suffisamment génériques pour permettre toute sorte d'interface nécessaire. La définition réelle d'un formulaire est stockée dans une bibliothèque de formulaires, qui est décrite plus loin dans cette section. 
   
 > [!NOTE]
-> Plus précisément, tous les messages sont des instances de formulaires MAPI. Toutefois, il est généralement plus facile de considérer les formulaires personnalisés comme cas particuliers de messages, depuis les formulaires de composition et lecture des messages électroniques par défaut sont les plus couramment utilisés forms. Le fait que tous les messages sont simplement les permet de formulaires personnalisés forms le même statut que tous les messages dans le système MAPI. 
+> Plus précisément, tous les messages sont des instances de formulaires MAPI. Toutefois, il est généralement plus facile de considérer les formulaires personnalisés comme des cas particuliers de messages, car les formulaires de composition et de lecture de messages électroniques classiques sont les formulaires les plus fréquemment utilisés. Le fait que tous les messages sont réellement des formulaires donne aux formulaires personnalisés le même statut que tout autre message dans le système MAPI. 
   
-Chaque formulaire dispose d’un ensemble de propriétés, dont certains sont visibles dans l’interface utilisateur du formulaire. En règle générale, les propriétés correspondent aux champs dans l’interface utilisateur du formulaire. Par exemple, un bon de commande peut avoir les champs d’élément, Description, prix, taxe et sous-total. Ces champs sont rendus visual simplement des propriétés de formulaire du même nom. Clients concernées les propriétés qui sont prises en charge par une classe de message particulier par le biais de la méthode [IMAPIFormInfo::CalcFormPropSet](imapiforminfo-calcformpropset.md) , qui est implémentée par le Gestionnaire de formulaire MAPI. 
+Chaque formulaire dispose d'un ensemble de propriétés, dont certaines sont visibles dans l'interface utilisateur du formulaire. En règle générale, les propriétés sont mises en correspondance avec les champs de l'interface utilisateur du formulaire. Par exemple, un formulaire de bon de commande peut avoir les champs Item, description, Price, Tax et subTotal. Ces champs sont simplement des rendus visuels des propriétés de formulaire portant le même nom. Les clients déterminent les propriétés prises en charge par une classe de message particulière par le biais de la méthode [IMAPIFormInfo:: CalcFormPropSet](imapiforminfo-calcformpropset.md) , qui est implémentée par le gestionnaire de formulaires MAPI. 
   
-Comme les messages de base, formulaires MAPI peuvent contenir toutes les propriétés de message standard telles que l’expéditeur, destinataire, et lorsque le message a été envoyé. Formulaires peuvent également contenir n’importe quel nombre de propriétés personnalisées qui sont spécifiques à l’écran. Par exemple un formulaire « Rapport de bogue » peut contenir des propriétés personnalisées de Type bogue, gravité des bogues et Version du produit.
+Comme les messages de base, les formulaires MAPI peuvent contenir toutes les propriétés de message standard telles que l'expéditeur, le destinataire prévu et le moment où le message a été envoyé. Les formulaires peuvent également contenir un nombre quelconque de propriétés personnalisées spécifiques au formulaire. Par exemple, un formulaire «rapport de bogue» peut contenir des propriétés personnalisées pour le type de bogue, la gravité des bogues et la version du produit.
   
-Pour créer un formulaire, vous devez implémenter un serveur de formulaire. Le serveur de formulaire est le fichier exécutable qui est chargé lorsqu’un client de messagerie a besoin afficher un message qui est le type pris en charge par le serveur de formulaire. Le serveur de formulaire crée à son tour des objets de formulaire que nécessaire pour afficher des messages spécifiques et gérer les interactions des utilisateurs avec ces messages.
+Pour créer un formulaire, vous devez implémenter un serveur de formulaire. Le serveur de formulaire est le fichier exécutable qui est chargé lorsqu'un client de messagerie doit afficher un message qui est le type pris en charge par le serveur de formulaire. Le serveur de formulaires crée à son tour des objets de formulaire, si nécessaire, pour afficher des messages spécifiques et gérer les interactions des utilisateurs avec ces messages.
   
-Chaque serveur du formulaire est associé à un fichier de configuration. Ce fichier contient des informations décrivant le serveur formulaire inscrivent dans le cadre du Gestionnaire de formulaire. Le Gestionnaire de formulaire utilise ces informations lorsque vous installez le serveur de formulaire dans une bibliothèque de formulaires.
+Un fichier de configuration est associé à chaque serveur de formulaire. Ce fichier contient des informations qui décrivent le serveur de formulaire au profit du gestionnaire de formulaires. Le gestionnaire de formulaires utilise ces informations lors de l'installation du serveur de formulaires dans une bibliothèque de formulaires.
   
-Pour plus d’informations sur la création des composants d’un formulaire, voir [Développement de serveurs de formulaire MAPI](developing-mapi-form-servers.md).
+Pour plus d'informations sur la création des parties d'un formulaire, voir [developING MAPI Form Servers](developing-mapi-form-servers.md).
   
-Serveurs de formulaire sont conformes à l’objet COM (Component Model). Serveurs de formulaire exécuter en tant qu’exécutables autonomes, pas en tant que serveurs in-process. Pour plus d’informations, consultez la section COM et ActiveX Object Services dans le SDK de Windows.
+Les serveurs de formulaires adhèrent au modèle COM (Component Object Model). Les serveurs de formulaires s'exécutent en tant que fichiers exécutables autonomes, et non en tant que serveurs in-process. Pour plus d'informations, reportez-vous à la section COM and ActiveX Object Services du kit de développement logiciel Windows.
   
-Un identificateur unique de classe (CLSID) identifie chaque serveur du formulaire. Il y a toujours une correspondance directe entre un identificateur de classe et de sa classe de message. Cela ne signifie pas, toutefois, qu’un serveur de formulaire peut ne fonctionnent qu’avec des messages d’une classe de message. Si aucun serveur de formulaire n’est disponible pour un message d’une classe spécifique de service, le Gestionnaire de formulaire utilisé doit essayer de trouver un serveur de formulaire pour une classe de message dans la hiérarchie de classe de message ; le Gestionnaire de formulaire par défaut fourni avec le Kit de développement Windows effectue cette action. Ce type de serveur formulaire sera probablement en mesure d’afficher uniquement un sous-ensemble des propriétés du message (ceux pris en charge par la superclasse), mais il ne sera pas toujours mieux que rien. Que se passe-t-il lorsque aucun serveur formulaire est trouvé tout est un détail d’implémentation spécifique au Gestionnaire de formulaire utilisé ; le Gestionnaire de formulaire par défaut n’ouvre pas les messages dans ce cas.
+Un identificateur de classe unique (CLSID) identifie chaque serveur de formulaire. Il y a toujours un mappage un-à-un entre un identificateur de classe et sa classe de message. Toutefois, cela ne signifie pas qu'un serveur de formulaire ne peut fonctionner qu'avec des messages d'une seule classe de message. Si aucun serveur de formulaires n'est disponible pour traiter un message d'une classe particulière, le gestionnaire de formulaires utilisé doit tenter de trouver un serveur de formulaire pour une classe de message plus haut dans la hiérarchie de la classe de message; le gestionnaire de formulaires par défaut fourni avec le kit de développement logiciel Windows effectue cette opération. Ce type de serveur de formulaire ne pourra probablement afficher qu'un sous-ensemble des propriétés du message (celles prises en charge par la superclasse), mais il sera préférable de ne rien faire. Que se passe-t-il si aucun serveur de formulaire correspondant n'est trouvé, il s'agit d'un détail d'implémentation spécifique au gestionnaire de formulaires qui est utilisé; le gestionnaire de formulaires par défaut n'ouvre pas les messages lorsque cela se produit.
   
-Pour plus d’informations, consultez [Classes de Message MAPI](mapi-message-classes.md).
+Pour plus d'informations, consultez la rubrique [MAPI message classes](mapi-message-classes.md).
   
 ## <a name="see-also"></a>Voir aussi
 

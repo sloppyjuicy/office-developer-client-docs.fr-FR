@@ -11,40 +11,40 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 352a95cb-e8ba-4c79-81d8-b22723ec71fb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cfe3eaa7a1d849fa5b192c83af0eb153b3f90ca7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d03a8b7eb39c819b865ae24189bbcf04dacbbe8b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346612"
 ---
 # <a name="pidtagincompletecopy-canonical-property"></a>Propriété canonique PidTagIncompleteCopy
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si ce message est une copie d’un autre message incomplète.
+Contient la valeur TRUE si ce message est une copie incomplète d'un autre message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INCOMPLETE_COPY  <br/> |
 |Identificateur :  <br/> |0x0035  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Propriétés de Message générales  <br/> |
+|Domaine :  <br/> |Propriétés générales des messages  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

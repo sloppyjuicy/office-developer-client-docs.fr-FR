@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 33adef7a8248e137869912afc2026583828b087e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9a5f8b44f9d795282ccfd61fd32a306c5478ed21
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342790"
 ---
 # <a name="msproviderinit"></a>MSProviderInit
 
@@ -25,12 +25,12 @@ ms.locfileid: "22570169"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Initialise un fournisseur de magasin de message pour l’opération.
+Initialise un fournisseur de banque de messages pour l'opération.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
-|Implémenté par :  <br/> |Fournisseurs de banque de messages  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de banques de messages  <br/> |
 |Appelé par :  <br/> |MAPI  <br/> |
    
 ```cpp
@@ -51,43 +51,43 @@ HRESULT MSProviderInit(
 
  _hInstance_
   
-> [in] L’instance du message stocker la bibliothèque de liens dynamiques du fournisseur (DLL) qui MAPI utilisé lorsqu’elle est liée. 
+> dans Instance de la bibliothèque de liens dynamiques (DLL) du fournisseur de banque de messages utilisée par MAPI lors de sa liaison. 
     
  _lpMalloc_
   
-> [in] Pointeur vers un objet d’allocation mémoire exposant l’interface OLE **IMalloc** . Vous devrez utiliser cette méthode de répartition lorsque vous travaillez avec certaines interfaces comme **IStream**le fournisseur de banque de messages. 
+> dans Pointeur vers un objet de l'allocation de mémoire qui expose **** l'interface OLE imalloc. Il se peut que le fournisseur de banque de messages doive utiliser cette méthode d'allocation lorsque vous travaillez avec certaines interfaces telles que **IStream**. 
     
  _lpAllocateBuffer_
   
-> [in] Pointeur vers la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) , à utiliser pour allouer de la mémoire. 
+> dans Pointeur vers la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire. 
     
  _lpAllocateMore_
   
-> [in] Pointeur vers la fonction [MAPIAllocateMore](mapiallocatemore.md) , à utiliser pour allouer plus de mémoire. 
+> dans Pointeur vers la fonction [MAPIAllocateMore](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire. 
     
  _lpFreeBuffer_
   
-> [in] Pointeur vers la fonction [MAPIFreeBuffer](mapifreebuffer.md) , à utiliser pour libérer de la mémoire. 
+> dans Pointeur vers la fonction [MAPIFreeBuffer](mapifreebuffer.md) à utiliser pour libérer de la mémoire. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs. Vous pouvez définir l’indicateur suivant :
+> dans Masque de réindicateur des indicateurs. L'indicateur suivant peut être défini:
     
 MAPI_NT_SERVICE 
   
-> Le fournisseur est chargé dans le contexte d’un service Windows, un type particulier de processus sans accès à une interface utilisateur. 
+> Le fournisseur est en cours de chargement dans le contexte d'un service Windows, un type spécial de processus sans accès à une interface utilisateur. 
     
  _ulMAPIVer_
   
-> [in] Numéro de version de l’interface de fournisseur de service (SPI) qui utilise MAPI. Pour le numéro de version actuelle, consultez le fichier d’en-tête Mapispi.h. 
+> dans Numéro de version de l'interface du fournisseur de services (SPI) utilisée par MAPI. Pour le numéro de version actuel, consultez le fichier d'en-tête Mapispi. h. 
     
  _lpulProviderVer_
   
-> [out] Pointeur vers le numéro de version de l’index SPI qui utilise ce fournisseur de banque de messages. 
+> remarquer Pointeur vers le numéro de version du SPI que ce fournisseur de banque de messages utilise. 
     
  _lppMSProvider_
   
-> [out] Pointeur vers un pointeur vers l’objet de fournisseur de magasin de message initialisé.
+> remarquer Pointeur vers un pointeur vers l'objet fournisseur de banque de messages initialisée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -97,23 +97,23 @@ S_OK
     
 MAPI_E_VERSION 
   
-> La version SPI utilisée par MAPI n’est pas compatible avec le SPI utilisé par ce fournisseur.
+> La version SPI utilisée par MAPI n'est pas compatible avec le SPI utilisé par ce fournisseur.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la fonction de point d’entrée **MSProviderInit** d’initialisation d’un fournisseur de magasins message après une ouverture de session client. 
+MAPI appelle la fonction de point d'entrée **MSProviderInit** pour initialiser un fournisseur de banque de messages à la suite d'une ouverture de session client. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Un fournisseur de magasin de message doit implémenter **MSProviderInit** en tant que fonction d’un point d’entrée dans la DLL du fournisseur. L’implémentation doit être basée sur le prototype de fonction **MSPROVIDERINIT** , également spécifié dans MAPISPI. H. MAPI définit **MSPROVIDERINIT** pour utiliser le type appel de l’initialisation de MAPI standard, STDMAPIINITCALLTYPE, ce qui entraîne **MSProviderInit** à suivre la convention d’appel CDECL. L’avantage de CDECL est que les appels peuvent être tentés, même si le nombre de paramètres d’appel ne correspond pas au nombre de paramètres définis. 
+Un fournisseur de banque de messages doit implémenter **MSProviderInit** comme fonction de point d'entrée dans la dll du fournisseur. L'implémentation doit être basée sur le prototype de fonction **MSPROVIDERINIT** , également spécifié dans MAPISPI. H. MAPI définit **MSPROVIDERINIT** pour utiliser le type d'appel d'initialisation MAPI standard, STDMAPIINITCALLTYPE, qui force **MSPROVIDERINIT** à suivre la Convention d'appel CDECL. L'un des avantages de CDECL est que les appels peuvent être tentés même si le nombre de paramètres d'appel ne correspond pas au nombre de paramètres définis. 
   
-Un fournisseur peut être initialisé plusieurs fois, à la suite d’apparaître dans plusieurs profils simultanées ou d’apparaître plusieurs fois dans le même profil. Étant donné que l’objet fournisseur contient contexte, **MSProviderInit** doit retourner un objet de fournisseur différent dans _lppMSProvider_ pour chaque d’initialisation, même pour plusieurs initialisations dans le même processus. 
+Un fournisseur peut être initialisé plusieurs fois, en raison de son affichage simultané dans plusieurs profils, ou de plusieurs fois dans le même profil. Étant donné que l'objet fournisseur contient le contexte, **MSProviderInit** doit renvoyer un objet fournisseur différent dans _lppMSProvider_ pour chaque initialisation, même pour plusieurs initialisations dans le même processus. 
   
-La DLL du fournisseur ne doit pas être lié avec Mapix.dll. Au lieu de cela, elle doit utiliser ces pointeurs d’allocation de mémoire ou désaffectation. 
+La DLL du fournisseur ne doit pas être liée à mapix. dll. Au lieu de cela, il doit utiliser ces pointeurs pour l'allocation ou la désallocation de la mémoire. 
   
-Le fournisseur de banque de message doit utiliser les fonctions désignées par _lpAllocateBuffer_, _lpAllocateMore_et _lpFreeBuffer_ pour la plupart des allocation de mémoire et libération. En particulier, le fournisseur doit utiliser ces fonctions pour allouer de la mémoire pour une utilisation par les applications clientes lors de l’appel des interfaces de l’objet tels que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). Si le fournisseur attend également utiliser l’allocation de mémoire OLE, il doit appeler la méthode **IUnknown::AddRef** de l’objet d’allocation désigné par le paramètre _lpMalloc_ . 
+Le fournisseur de banque de messages doit utiliser les fonctions pointées par _lpAllocateBuffer_, _lpAllocateMore_et _lpFreeBuffer_ pour la plupart de l'allocation et de la libération de mémoire. En particulier, le fournisseur doit utiliser ces fonctions pour allouer de la mémoire à utiliser par les applications clientes lors de l'appel d'interfaces d'objets telles que [IMAPIProp:: GetProps](imapiprop-getprops.md) et [IMAPITable:: QueryRows](imapitable-queryrows.md). Si le fournisseur s'attend également à utiliser l'allocateur de mémoire OLE, il doit appeler la méthode **IUnknown:: AddRef** de l'objet allocater pointé par le paramètre _lpMalloc_ . 
   
-Pour plus d’informations sur l’écriture de **MSProviderInit**, voir [Chargement de fournisseurs de banque de Message](loading-message-store-providers.md). Pour plus d’informations sur les fonctions de point d’entrée, voir [implémentation d’une fonction de Point de Service fournisseur de l’entrée](implementing-a-service-provider-entry-point-function.md). 
+Pour plus d'informations sur l'écriture de **MSProviderInit**, voir [chargement des fournisseurs de banques de messages](loading-message-store-providers.md). Pour plus d'informations sur les fonctions de point d'entrée, consultez [la rubrique implémentation d'une fonction de point d'entrée du fournisseur de services](implementing-a-service-provider-entry-point-function.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

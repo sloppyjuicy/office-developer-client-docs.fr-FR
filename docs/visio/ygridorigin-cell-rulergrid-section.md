@@ -1,5 +1,5 @@
 ---
-title: Cellule YGridOrigin (règle &amp; Section grille)
+title: Cellule YGridOrigin (section &amp; règle et grille)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: eeec59f8-f301-5639-ffd6-8a36b2bf9c8f
 description: Indique l'origine verticale de la grille.
-ms.openlocfilehash: 2d914fc15df8a100066ad17a2e35001fe8a4d587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa8ee15d5ef2b5d581a9532336d3983bed17b1dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351673"
 ---
-# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Cellule YGridOrigin (règle &amp; Section grille)
+# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Cellule YGridOrigin (section &amp; règle et grille)
 
 Indique l'origine verticale de la grille.
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l' **origine de la grille** verticale option dans le **règle &amp; grille** boîte de dialogue (sous l’onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l'option **origine** de la grille verticale dans la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
   
-Pour obtenir une référence à la cellule YGridOrigin par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule YGridOrigin par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule YGridOrigin par index dans un program
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visYGridOrigin** <br/> |
    

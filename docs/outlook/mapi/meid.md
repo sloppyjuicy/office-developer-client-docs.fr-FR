@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 'Dernière modification : 03 juillet 2012'
-ms.openlocfilehash: 24cc4b00f02c61395565fb7ddeb6a5b5a62afdc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 03 juillet 2012'
+ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356972"
 ---
 # <a name="meid"></a>MEID
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Identificateur pour un élément Outlook. Il contient un identificateur d’entrée et d’autres informations pertinentes.
+Identificateur d'un élément Outlook. Il contient un identificateur d'entrée et d'autres informations pertinentes.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -36,19 +36,19 @@ struct MEID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _abFlags_
   
-> identificateur d’entrée de 4 octets pour l’élément Outlook. Pour plus d’informations sur les identificateurs d’entrée MAPI, voir **[ENTRYID](entryid.md)**. 
+> identificateur d'entrée sur 4 octets pour l'élément Outlook. Pour plus d'informations sur les identificateurs d'entrée MAPI, voir **[EntryID](entryid.md)**. 
     
  _muid_
   
-> GUID qui identifie le fournisseur de banque. Voir mapidefs.h pour la définition du type de **MAPIUID**. 
+> GUID qui identifie le fournisseur de banque. Voir mapidefs. h pour la définition de type de **MAPIUID**. 
     
  _espace réservé_
   
-> Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.
     
  _ltidFld_
   
@@ -56,7 +56,7 @@ struct MEID
     
  _ltidMsg_
   
-> ID à long terme de l’élément Outlook.
+> ID à long terme de l'élément Outlook.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -68,7 +68,7 @@ struct MEID
   
 [LTID](ltid.md)
   
-[SYNC](sync.md)
+[SYNCHRONI](sync.md)
   
 [UPMSG](upmsg.md)
 

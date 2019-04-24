@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f403890d-4a3a-bacc-53d7-1b9920b23639
 description: Chaque élément de Microsoft Visio (chaque document, page, style, forme, groupe, forme ou objet appartenant à un groupe, forme de base, objet provenant d’un autre programme, repère et point de repère) a une feuille de calcul ShapeSheet où sont stockées les informations qui le concernent. Cette feuille de calcul contient des informations telles que la hauteur, l’épaisseur, l’angle, la couleur et d’autres attributs qui déterminent l’aspect et le comportement de la forme.
 ms.openlocfilehash: 37b2ae10b1f511197af5ccf739de91edb74e7819
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345160"
 ---
 # <a name="about-the-shapesheet-spreadsheet"></a>À propos de la feuille de calcul ShapeSheet
 
@@ -34,29 +34,29 @@ Vous pouvez afficher simultanément une fenêtre ShapeSheet et une fenêtre de d
   
 ## <a name="structure-of-the-shapesheet-window"></a>Structure de la fenêtre ShapeSheet
 
-Une feuille ShapeSheet est divisée en *sections* qui contrôlent les aspects spécifiques du comportement d’une forme ou l’apparence, par exemple, sa géométrie ou sa mise en forme. Chaque section contient une ou plusieurs *lignes* qui contiennent des *cellules* . Chaque cellule peut contenir une formule, son résultat (généralement appelée valeur de la cellule) et les informations d’erreur facultatives. Une formule peut être obligatoire ou facultatif, en fonction de la cellule. Les données d’une cellule (par exemple, sa formule ou la valeur) est définies localement ou, plus souvent, héritées de la cellule équivalente de la forme de base ou style. 
+Une feuille ShapeSheet est divisée en *sections* qui contrôlent un aspect particulier du comportement ou de l'apparence d'une forme, par exemple sa géométrie ou sa mise en forme. Chaque section contient une ou plusieurs *lignes* qui contiennent des *cellules* . Chaque cellule peut comprendre une formule, son résultat (appelé communément « valeur » de la cellule) et des informations d’erreur facultatives. Selon la cellule, une formule peut être requise ou facultative. Les données d’une cellule (sa formule ou sa valeur, par exemple) peuvent être définies localement ou, plus souvent, héritées de la cellule équivalente de la forme de base ou du style correspondant. 
   
-L’exemple suivant présente la barre de formule ![barre de formule](media/callout1_ZA01036259.gif), une section ![section](media/callout2_ZA01036260.gif), une cellule ![cellule](media/callout3_ZA01036261.gif)et une ligne ![row](media/callout4_ZA01036262.gif) dans la fenêtre ShapeSheet. 
+L'exemple suivant montre la barre de formule ![barre de formule](media/callout1_ZA01036259.gif), une section ![section](media/callout2_ZA01036260.gif), une cellule ![Cell](media/callout3_ZA01036261.gif)et une ligne ![row](media/callout4_ZA01036262.gif) dans la fenêtre ShapeSheet. 
   
-![Fenêtre feuille ShapeSheet](media/ShpSheetRef_CA_02a_ZA07645861.gif)
+![Fenêtre ShapeSheet](media/ShpSheetRef_CA_02a_ZA07645861.gif)
   
-Lorsque vous dessinez une forme, Visio l’enregistre en tant qu’une collection d’emplacements horizontaux et verticaux connectés avec les segments de ligne. Ces emplacements (appelés sommets) sont enregistrés dans les cellules X et Y de la section **Geometry** de la forme. Comme indiqué dans l’exemple suivant, lorsque vous cliquez sur les cellules X et Y dans la section **Geometry** de la fenêtre de feuille ShapeSheet d’une forme, vous verrez un cadre noir mettant en évidence le sommet sur la forme dans la fenêtre de dessin. 
+Lorsque vous dessinez une forme, Visio l’enregistre comme un ensemble d’emplacements horizontaux et verticaux reliés par des segments de trait. Ces emplacements (appelés sommets) sont enregistrés dans les cellules X et Y de la section **géométrie** de la forme. Comme le montre l'exemple suivant, lorsque vous cliquez sur les cellules X et Y dans **** la section Geometry de la fenêtre ShapeSheet d'une forme, vous verrez un cadre noir mettant en surbrillance le sommet sur la forme dans la fenêtre de dessin. 
   
-![Cadre noir mettant en évidence le sommet sur la forme dans la fenêtre de dessin](media/ShpSheetRef_CA_01_ZA07645860.gif)
+![Rectangle à bordure noire mettant en surbrillance le sommet sur la forme dans la fenêtre de dessin](media/ShpSheetRef_CA_01_ZA07645860.gif)
   
 ## <a name="editing-an-object-in-the-shapesheet-window"></a>Modification d’un objet dans la fenêtre ShapeSheet
 
 Lorsqu’une fenêtre ShapeSheet est active, le Ruban se transforme pour afficher les options spécifiques permettant de travailler dans cette fenêtre. Lorsque vous sélectionnez une cellule ShapeSheet, une barre de formule apparaît pour vous permettre d’entrer et de modifier les formules d’un objet. Vous pouvez toutefois également travailler directement dans la cellule.
   
-Dans une fenêtre feuille ShapeSheet, vous pouvez ajouter des sections à feuille d’une forme à ajouter de nouvelles caractéristiques à la forme sur la page de dessin. Par exemple, vous pouvez ajouter une section **Connection Points** pour créer une connexion. Lorsque vous n’avez plus besoin une section, vous pouvez le supprimer. 
+Dans une fenêtre ShapeSheet, vous pouvez ajouter des sections à la feuille de calcul d’une forme pour ajouter de nouvelles caractéristiques à la forme sur la page de dessin. Par exemple, vous pouvez ajouter une section **Connection points** pour créer une connexion. Lorsqu’une section n’est plus utile, vous pouvez la supprimer. 
   
-Vous pouvez également ajouter des lignes aux sections pour contenir les formules supplémentaires ou pour modifier l’apparence d’une forme. Par exemple, vous pouvez ajouter une ligne à une section **Geometry** pour ajouter un segment à une forme. De même, vous pouvez supprimer des lignes que vous n’avez plus besoin. 
+Vous pouvez également ajouter des lignes aux sections afin de recevoir des formules supplémentaires ou pour modifier l’aspect d’une forme. Par exemple, vous pouvez ajouter une ligne à une **** section Geometry pour ajouter un segment à une forme. De même, vous pouvez supprimer les lignes dont vous n’avez plus besoin. 
   
 Vous pouvez afficher des formules ou des valeurs dans les cellules. Affichez les formules lorsque vous en entrez une nouvelle, modifiez une formule existante ou souhaitez voir les relations existantes entre les formules de plusieurs cellules. Une valeur est le résultat de l’évaluation de la formule d’une cellule par Visio. Vous pouvez afficher les valeurs dans les cellules pour voir le résultat d’une évaluation.
   
 ## <a name="additional-shapesheet-references"></a>Autres références relatives à la feuille ShapeSheet
 
-Pour plus d’informations sur une section spécifique, une ligne ou une cellule dans la feuille ShapeSheet, consultez l’article correspondant dans cette [ShapeSheet Référence](reference-visio-shapesheet.md).
+Pour plus d'informations sur une section, une ligne ou une cellule particulière dans la feuille ShapeSheet, consultez l'article correspondant dans cette [référence ShapeSheet](reference-visio-shapesheet.md).
   
 Pour plus de détails sur l’accès à la feuille ShapeSheet par programme, reportez-vous à la Référence d’Automation de Microsoft Visio.
   

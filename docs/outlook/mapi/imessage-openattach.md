@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b680f5a7-0df3-4e7b-bf3b-f149eb42be8d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 48df5362106e849f061b0797736fad82fafa6584
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e0c3747b48526b715f976e7bf3c142097c85f29a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349251"
 ---
 # <a name="imessageopenattach"></a>IMessage::OpenAttach
 
@@ -40,49 +40,49 @@ HRESULT OpenAttach(
 
  _ulAttachmentNum_
   
-> [in] Numéro d’index de la pièce jointe à ouvrir, tel que stocké dans la propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de la pièce jointe. Ce numéro d’index identifie la pièce jointe dans le message unique et est valide uniquement dans le contexte du message.
+> dans Numéro d'index de la pièce jointe à ouvrir, tel qu'il est stocké dans la propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de la pièce jointe. Ce numéro d'index identifie de manière unique la pièce jointe dans le message et est valide uniquement dans le contexte du message.
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la pièce jointe. Transmission NULL génère interface standard de la pièce jointe, ou **IAttach**, renvoyée. 
+> dans Pointeur vers l'identificateur d'interface (IID) représentant l'interface à utiliser pour accéder à la pièce jointe. Le fait de transmettre des résultats NULL dans l'interface standard de la pièce jointe, ou **IAttach**, est renvoyé. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont la pièce jointe est ouverte. Les indicateurs suivants peuvent être définis : 
+> dans Masque de des indicateurs qui contrôle la manière dont la pièce jointe est ouverte. Les indicateurs suivants peuvent être définis: 
     
 MAPI_BEST_ACCESS 
   
-> Demande que la pièce jointe s’ouvre avec les autorisations de réseau maximale autorisées pour l’accès des utilisateurs et le nombre maximal de clients application. Par exemple, si le client a l’autorisation de lecture/écriture, la pièce jointe doit être ouvert avec l’autorisation de lecture/écriture ; Si le client dispose d’un accès en lecture seule, la pièce jointe doit être ouvert avec accès en lecture seule. 
+> Demande l'ouverture de la pièce jointe avec les autorisations réseau maximales accordées à l'utilisateur et l'accès maximal de l'application cliente. Par exemple, si le client dispose d'une autorisation en lecture/écriture, la pièce jointe doit être ouverte avec une autorisation en lecture/écriture; Si le client dispose d'un accès en lecture seule, la pièce jointe doit être ouverte avec un accès en lecture seule. 
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet **OpenAttach** renvoyer avec succès, éventuellement avant la pièce jointe est totalement disponible au client appelant. Si la pièce jointe n’est pas disponible, vous appelez suivante lui peut provoquer une erreur. 
+> Permet à **OpenAttach** de renvoyer correctement, éventuellement avant que la pièce jointe soit entièrement disponible pour le client appelant. Si la pièce jointe n'est pas disponible, un appel ultérieur de celle-ci peut entraîner une erreur. 
     
-N' 
+MAPI_MODIFY 
   
-> Demandes d’autorisation de lecture/écriture. Par défaut, les pièces jointes sont ouverts avec accès en lecture seule, et les clients ne doivent pas fonctionner en supposant que bénéficie des autorisations en lecture/écriture. 
+> Demande une autorisation en lecture/écriture. Par défaut, les pièces jointes sont ouvertes avec un accès en lecture seule, et les clients ne doivent pas travailler en supposant que l'autorisation de lecture/écriture a été octroyée. 
     
  _lppAttach_
   
-> [out] Pointeur vers un pointeur vers la pièce jointe ouverte.
+> remarquer Pointeur vers un pointeur vers la pièce jointe ouverte.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La pièce jointe a été ouvert avec succès.
+> La pièce jointe a été ouverte.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMessage::OpenAttach** ouvre la pièce jointe d’un message. 
+La méthode **IMessage:: OpenAttach** ouvre la pièce jointe d'un message. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour ouvrir une pièce jointe, vous devez avoir accès à son nombre de pièces jointes ou d’une propriété **PR_ATTACH_NUM** . Appelez [IMessage::GetAttachmentTable](imessage-getattachmenttable.md) pour récupérer la table des pièces jointes du message et la ligne qui représente la pièce jointe à ouvrir. Pour plus d’informations, consultez [ouverture d’une pièce jointe](opening-an-attachment.md) . 
+Pour ouvrir une pièce jointe, vous devez avoir accès à son numéro de pièce jointe ou à sa propriété **PR_ATTACH_NUM** . Appelez [IMessage:: GetAttachmentTable](imessage-getattachmenttable.md) pour récupérer la table de pièces jointes du message et recherchez la ligne qui représente la pièce jointe à ouvrir. Pour plus d'informations, consultez la rubrique [ouverture d'une pièce jointe](opening-an-attachment.md) . 
   
-N’essayez pas d’ouvrir une pièce jointe à plusieurs reprises ; les résultats sont undefined et varie selon le fournisseur de banque de messages.
+N'essayez pas d'ouvrir une pièce jointe plusieurs fois; les résultats ne sont pas définis et dépendants du fournisseur de banque de messages.
   
-Vous pouvez demander que la pièce jointe s’ouvre en mode lecture/écriture, au lieu du mode par défaut en lecture seule. Toutefois, si la pièce jointe sera réellement ouvert en mode lecture/écriture est le fournisseur de magasin de message. Vous pouvez modifier la pièce jointe, essayez préparation gérer la défaillance ou vérifier le niveau d’accès qui a été accordé en récupérant la propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) de la pièce jointe, si elle est disponible. 
+Vous pouvez demander que la pièce jointe soit ouverte en mode lecture/écriture, au lieu du mode de lecture seule par défaut. Toutefois, si la pièce jointe est ouverte en mode lecture/écriture, c'est au fournisseur de banque de messages de s'ouvrir. Vous pouvez essayer de modifier la pièce jointe, de préparer la gestion d'un échec possible ou de vérifier le niveau d'accès accordé en récupérant la propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) de la pièce jointe, si elle est disponible. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|AttachmentsDlg.cpp utilisé pour  <br/> |CAttachmentsDlg::OpenItemProp  <br/> |MFCMAPI utilise la méthode **IMessage::OpenAttach** pour ouvrir les objets attachment,  <br/> |
+|AttachmentsDlg. cpp utilisé pour  <br/> |CAttachmentsDlg:: OpenItemProp  <br/> |MFCMAPI utilise la méthode **IMessage:: OpenAttach** pour ouvrir les objets Attachment,  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

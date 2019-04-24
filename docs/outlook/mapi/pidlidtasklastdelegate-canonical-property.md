@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5eb8c1ce-063f-4273-acba-e6f9c994e7d3
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: ddf4b81ed35f500dad0029ea6375e9a75a996186
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392325"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355670"
 ---
 # <a name="pidlidtasklastdelegate-canonical-property"></a>Propriété canonique PidLidTaskLastDelegate
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
- Noms de l’utilisateur qui récemment ou a été affecté à la tâche. 
+ Nom de l'utilisateur auquel la tâche a été affectée la plus récemment. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskLastDelegate  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
-|ID de type long (capot) :  <br/> |0x00008125  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Task  <br/> |
+|ID long (couvercle):  <br/> |0x00008125  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Task  <br/> |
+|Domaine :  <br/> |Tâche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Avant d’envoyer une demande de tâche, le client définit cette propriété sur le nom de l’assigne de tâche. Avant d’envoyer une réponse de la tâche, le client définit cette propriété sur le nom du destinataire de la tâche.
+Avant d'envoyer une demande de tâche, le client définit cette propriété sur le nom de l'attribution de tâches. Avant d'envoyer une réponse à une tâche, le client définit cette propriété sur le nom de la tâche assignée.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de propriété et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit la définition des jeux de propriétés et les références aux spécifications du protocole Exchange Server associé.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.
+> Définit plusieurs objets qui modélisent l'équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

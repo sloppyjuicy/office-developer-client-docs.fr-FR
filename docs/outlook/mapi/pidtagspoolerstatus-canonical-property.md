@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d04144a4f5ef714b59b608bfe19367bcb3c1ced8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 426d26cae147faf3f843ac547de9d205d766ac44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348208"
 ---
 # <a name="pidtagspoolerstatus-canonical-property"></a>Propriété canonique PidTagSpoolerStatus
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le statut du message en fonction des informations qui est disponibles pour le spouleur MAPI.
+Contient l'état du message en fonction des informations qui sont disponibles pour le spouleur MAPI.
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Indique le statut du message en fonction des informations qui est disponibles po
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est calculée par MAPI sur les objets de message.
+Cette propriété est calculée par MAPI sur les objets message.
   
-Cette propriété s’affiche uniquement les messages entrants et est réservée dans tous les autres cas. Il indique si un message a été remis à son emplacement final ou si un fournisseur de messagerie crochet potentiellement a supprimé le message lors de son réacheminement.
+Cette propriété s'affiche sur les messages entrants uniquement et est réservée dans tous les autres cas. Il indique si un message a été remis ou non à son emplacement final ou si un fournisseur de service de raccordement de messagerie peut avoir supprimé le message lors de son reroutage.
   
-Applications clientes ne doivent jamais définir cette propriété. Pour un message entrant, un client ou fournisseur de services peut appeler [IMAPIProp::GetProps](imapiprop-getprops.md) sur cette propriété pour déterminer le statut du message. La valeur S_OK indique que le message a bien été remis à la banque de messages. La valeur MAPI_E_OBJECT_DELETED indique que le message a été supprimé et n’a jamais validé dans le magasin. 
+Les applications clientes ne doivent jamais définir cette propriété. Pour un message entrant, un client ou un fournisseur de services peut appeler [IMAPIProp:: GetProps](imapiprop-getprops.md) sur cette propriété pour déterminer l'état du message. La valeur S_OK indique que le message a bien été remis à la Banque de messages. La valeur MAPI_E_OBJECT_DELETED indique que le message a été supprimé et qu'il n'a jamais été validé dans la Banque. 
   
-Fournisseurs de magasins de message doivent prendre en charge cette propriété dans les messages, les tables de destinataires et la table sortant de la file d’attente. Fournisseurs et clients doivent être en mesure de définir les colonnes de la table sortant de la file d’attente et de restreindre en fonction de cette propriété.
+Les fournisseurs de banques de messages doivent prendre en charge cette propriété sur les messages, les tables de destinataires et la table de file d'attente sortante. Les clients et les fournisseurs doivent être en mesure de définir des colonnes sur la table de file d'attente sortante et de restreindre en fonction de cette propriété.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

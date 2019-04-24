@@ -1,41 +1,41 @@
 ---
-title: État inactif
+title: État inActif
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 46976bea-c6bb-2e37-2e67-4cbccaa03aec
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7b74ecb44d9a38fc73ceed4077d6f7a939f92f5f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3db4ead7e2485bbbae82f2a07659c934b394d6d5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351183"
 ---
-# <a name="idle-state"></a>État inactif
+# <a name="idle-state"></a>État inActif
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit le déroulement de l’état d’inactivité de l’ordinateur d’état de réplication. 
+ Cette rubrique décrit ce qui se passe lors de l'état d'inactivité de la machine à États de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d’état :  <br/> |**LR_SYNC_IDLE** <br/> |
-|Structure de données associées :  <br/> | *None*  <br/> |
-|À partir de cet état :  <br/> | *Non applicable*  <br/> |
-|Avec cet état :  <br/> |[État de synchronisation](synchronize-state.md) <br/> |
+|Identificateur d'État:  <br/> |**LR_SYNC_IDLE** <br/> |
+|Structure de données associée:  <br/> | *None*  <br/> |
+|À partir de cet État:  <br/> | *Non applicable*  <br/> |
+|À cet État:  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
    
 > [!NOTE]
-> L’ordinateur d’état de réplication est une machine à états déterministe. Un client au départ d’un état à l’autre doit renvoyer par la suite à l’ancienne à partir de ce dernier. 
+> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
   
 ## <a name="description"></a>Description
 
-Rien ne se passe dans cet état. Un magasin local est dans cet état avant la réplication et une fois que la réplication est terminée.
+Rien ne se produit dans cet État. Un magasin local est dans cet état avant l'initialisation de la réplication et une fois la réplication terminée.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1fbe6dc1-254b-4557-92c8-9fa42a8efd64
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0a93dd44960a01996672a55501a7626d0ff56986
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 8b2190f77c7575d3d4f5e25fa0863bec844158bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348901"
 ---
 # <a name="iabprovidershutdown"></a>IABProvider::Shutdown
 
@@ -37,7 +37,7 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> [In] Réservé ; doit être un pointeur vers zéro.
+> Dans MSR doit être un pointeur vers zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -45,9 +45,9 @@ S_OK
   
 > La connexion a été annulée.
     
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Dans votre implémentation de la méthode **Shutdown** , effectuez toutes les tâches estiment nécessaires. MAPI appelle votre méthode **Shutdown** uniquement une fois que vous avez publié tous les objets d’ouverture de session. 
+Dans votre implémentation de la méthode **Shutdown** , effectuez toutes les tâches que vous jugez nécessaires. MAPI appelle votre méthode d' **arrêt** uniquement une fois que vous avez publié tous vos objets d'ouverture de session. 
   
 ## <a name="see-also"></a>Voir aussi
 

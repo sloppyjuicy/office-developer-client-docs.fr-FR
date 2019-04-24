@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0735008575db5e1cab62dbde4b699b15e04cedb0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07e1c2104068a6eb242e8ba81f91655edaa92cd8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349258"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
@@ -34,7 +34,7 @@ HRESULT ModifyRecipients(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -50,13 +50,13 @@ MODRECIP_MODIFY
     
 MODRECIP_REMOVE 
   
-> Destinataires existants doivent être retirés de la liste des destinataires à l’aide sous forme d’index de la propriété **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) incluse dans le tableau de valeurs de propriété de chaque entrée du destinataire dans le paramètre _lpMods_ . 
+> Les destinataires existants doivent être supprimés de la liste des destinataires en tant qu'index la propriété **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) incluse dans le tableau de valeurs de propriété de chaque entrée de destinataire dans le paramètre _lpMods_ . 
     
  _lpMods_
   
 > [in] Pointeur vers une structure [ADRLIST](adrlist.md) qui contient une liste de destinataires pour �tre ajout�s, supprim�s ou modifi�s dans le message. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -68,13 +68,13 @@ La m�thode **IMessage::ModifyRecipients** modifie la liste des destinataires d
   
 La structure **ADRLIST** contient une structure [ADRENTRY](adrentry.md) pour chaque destinataire et chaque structure **ADRENTRY** contient un tableau de valeurs de propri�t�s d�crivant les propri�t�s du destinataire. 
   
-Destinataires de la structure **ADRLIST** peuvent �tre r�solus ou non r�solues. La diff�rence r�side dans le nombre et le type des propri�t�s qui sont inclus. Un destinataire non résolu contienne uniquement les **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) et les propriétés de **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) pendant un destinataire résolu contient ces deux propriétés ainsi que **TYPEADR_PR **([PidTagAddressType](pidtagaddresstype-canonical-property.md)) et **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Si **ADRESSE_EMAIL_PR** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) est disponible, il peut être inclus également.
+Destinataires de la structure **ADRLIST** peuvent �tre r�solus ou non r�solues. La diff�rence r�side dans le nombre et le type des propri�t�s qui sont inclus. Un destinataire non résolu contient uniquement les propriétés **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) et **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) tandis qu'un destinataire résolu contient ces deux propriétés plus **PR_ADDRTYPE **([PidTagAddressType](pidtagaddresstype-canonical-property.md)) et **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Si **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) est disponible, il peut également être inclus.
   
 Au moment o� qu'un message est envoy�, il doit inclure uniquement les destinataires r�solus dans sa liste des destinataires. Destinataires non r�solus provoquent des rapports de non-remise � �tre cr�� et envoy� � l'exp�diteur d'origine du message. Pour plus d'informations sur le processus de r�solution de nom � partir du point de vue du client, consultez la rubrique [r�solution d'un nom](resolving-a-recipient-name.md). Pour plus d'informations � partir du point de vue du fournisseur de carnet d'adresses, voir [Impl�mentation de la r�solution de noms](implementing-name-resolution.md).
   
 En plus des destinataires r�solus et non r�solus, un destinataire peut �tre NULL. Le membre **cValues** de la structure **ADRENTRY** pour le destinataire est d�fini sur z�ro et le membre **rgPropVals** est d�fini sur NULL. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 Vous pouvez cr�er une liste de destinataires en appelant [IAddrBook::Address](imapisupport-address.md) pour afficher la bo�te de dialogue commune et demandez � l'utilisateur de s�lectionner des entr�es. La liste d'adresses d�sign�e par le param�tre  _lppAdrList_ pour **Address** peut �tre transmise aux **ModifyRecipients** en tant que param�tre  _lpMods_. 
   
@@ -82,7 +82,7 @@ Lorsque vous sp�cifiez les propri�t�s d'un destinataire dans la structure 
   
  **ModifyRecipients** remplace toutes les entr�es dans la liste des destinataires en cours avec les informations d�sign�es par  _lpMods_ lorsque aucun des indicateurs sont d�finies dans le param�tre  _ulFlags_. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 Lorsque vous d�finissez l'indicateur MODRECIP_MODIFY, **ModifyRecipients** remplace chaque destinataire toute ligne par la ligne associ�e dans la structure [ADRLIST](adrlist.md) transmise dans  _lpMods_. Veillez � sp�cifier toutes les propri�t�s ayant un destinataire doit qu'elles ont chang� pour emp�cher leur involontairement supprim�.
   
@@ -112,7 +112,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |Ajouter destinataire  <br/> |MFCMAPI utilise la m�thode **IMessage::ModifyRecipients** pour ajouter un destinataire � un message.  <br/> |
+|MAPIABFunctions. cpp  <br/> |AddRecipient  <br/> |MFCMAPI utilise la m�thode **IMessage::ModifyRecipients** pour ajouter un destinataire � un message.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

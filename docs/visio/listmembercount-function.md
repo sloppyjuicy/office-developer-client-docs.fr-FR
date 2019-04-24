@@ -7,26 +7,27 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8d2276ac-f9fa-946c-aabf-45a5c6f8e1d0
 description: Renvoie le nombre de formes membres de la forme conteneur de liste.
-ms.openlocfilehash: 629b7e6bb8196b7e96d66ed6a31357008658c2d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce1f7ab87abab6de9f5c88c05575a14ae93c45e7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360675"
 ---
-# <a name="listmembercount-function"></a>LISTMEMBERCOUNT, fonction
+# <a name="listmembercount-function"></a>Fonction LISTMEMBERCOUNT
 
 Renvoie le nombre de formes membres de la forme conteneur de liste.
   
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Visio 2010 
+Version ajoutée : Visio 2010
+ 
   
 ## <a name="syntax"></a>Syntaxe
 
-LISTMEMBERCOUNT()
+LISTMEMBERCOUNT ()
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Entier
   

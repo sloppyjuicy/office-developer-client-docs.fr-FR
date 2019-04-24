@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30dd19d9-0840-49e9-aec6-ec8d19b1f91d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a8f4e62a8eb1b5e61cb0223c66b921e15ab9423b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 55cba4f7cfb3fa8035117348b10ab1d6d3082710
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358113"
 ---
 # <a name="spropattrarray"></a>SPropAttrArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’attributs pour les propriétés d’un objet. 
+Contient une liste d'attributs pour les propriétés d'un objet. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |IMessage.h  <br/> |
-|Macros connexes :  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
+|Fichier d’en-tête :  <br/> |IMessage. h  <br/> |
+|Macros connexes:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,11 +45,11 @@ typedef struct
 
  **cValues**
   
-> Nombre d’attributs de propriété dans le membre **aPropAttr** . 
+> Nombre d'attributs de propriété dans le membre **aPropAttr** . 
     
  **aPropAttr**
   
-> Tableau d’attributs de propriété. Les valeurs valides pour les attributs sont les suivantes :
+> Tableau d'attributs de propriété. Les valeurs valides pour les attributs sont les suivantes:
     
     - PROPATTR_MANDATORY
     
@@ -61,7 +61,7 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SPropAttrArray** est utilisée par les objets de données de propriété qui implémentent le [IPropData : IMAPIProp](ipropdataimapiprop.md) interface. Il est également utilisé par l’implémentation de MAPI de [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) qui est en fonction de stockage structuré. 
+La structure **SPropAttrArray** est utilisée par les objets de données de propriété qui implémentent l'interface [IPropData: IMAPIProp](ipropdataimapiprop.md) . Il est également utilisé par l'implémentation de MAPI de [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) basé sur le stockage structuré. 
   
 ## <a name="see-also"></a>Voir aussi
 

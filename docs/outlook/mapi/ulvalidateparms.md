@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02c66b46-1f01-43fb-832c-bac27aaae19f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b71d1f477435b4a9327b4156560d1aa2e6079536
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e0cdcb92238dd4dffbcd6514e698e5511b05bf45
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360493"
 ---
 # <a name="ulvalidateparms"></a>UlValidateParms
 
@@ -25,7 +25,7 @@ ms.locfileid: "22578702"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Appelle une fonction interne pour vérifier que les applications clientes de paramètres transmis à MAPI et les fournisseurs de services. 
+Appelle une fonction interne pour vérifier les paramètres que les applications clientes ont transmises aux fournisseurs de services et MAPI. 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ HRESULT UlValidateParms(
 
  _eMethod_
   
-> [in] Spécifie, par l’énumération, la méthode à valider. 
+> dans Spécifie, par énumération, la méthode à valider. 
     
- _Premier_
+ _First_
   
-> [in] Pointeur vers le premier argument dans la pile.
+> dans Pointeur vers le premier argument de la pile.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -58,12 +58,12 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur a empêché l’opération de se terminer.
+> Une erreur a empêché l'exécution de l'opération.
     
 ## <a name="remarks"></a>Remarques
 
-Paramètres passés entre MAPI et service fournisseurs sont supposés être correct et sont soumis à la validation de débogage uniquement avec la macro [CheckParms](checkparms.md) . Fournisseurs doivent vérifier tous les paramètres passés par les applications clientes, mais les clients doivent supposer que MAPI et le fournisseur de paramètres sont corrects. Utilisez la macro **HR_FAILED** pour tester les valeurs de retour. 
+Les paramètres transmis entre MAPI et les fournisseurs de services sont supposés être corrects et soumis à la validation de débogage uniquement avec la macro [CheckParms](checkparms.md) . Les fournisseurs doivent vérifier tous les paramètres transmis par les applications clientes, mais les clients doivent supposer que les paramètres MAPI et de fournisseur sont corrects. Utilisez la macro **HR_FAILED** pour tester les valeurs renvoyées. 
   
-La macro **UlValidateParms** est appelée différemment selon que le code appelant est C ou C++. Cette macro est utilisée pour valider les paramètres pour les quelques méthodes **IUnknown** et MAPI qui renvoient ULONG au lieu des valeurs HRESULT ; la macro [ValidateParms](validateparms.md) fonctionne pour tous les autres. 
+La macro **UlValidateParms** est appelée différemment selon que le code appelant est C ou C++. Cette macro permet de valider les paramètres pour les méthodes **IUnknown** et MAPI qui renvoient ulong au lieu de valeurs HRESULT; la macro [ValidateParms](validateparms.md) fonctionne pour tous les autres. 
   
 

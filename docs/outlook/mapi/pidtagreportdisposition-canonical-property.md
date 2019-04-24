@@ -9,60 +9,60 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1e84308f3a9f9457c5db23c1ad9d42d6e856519e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: dae31959cddad7ad61ea32f2372ea34bdbff658e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346353"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Propriété canonique PidTagReportDisposition
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l’état de l’accusé de réception pour les messages reçus de demande. 
+Indique l'état de réception des messages qui demandent des accusés de réception. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_DISPOSITION, PR_REPORT_DISPOSITION_A, PR_REPORT_DISPOSITION_W  <br/> |
-|Identificateur :  <br/> |0 x 0080  <br/> |
+|Identificateur :  <br/> |0x0080  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs valides sont les suivantes :
+Les valeurs suivantes sont valides :
   
-- « supprimer »
+- supprimés
     
-- « traitement »
+- traiter
     
-- « distribué »
+- distribuées
     
-- « refusé »
+- Verr
     
 - "failed"
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

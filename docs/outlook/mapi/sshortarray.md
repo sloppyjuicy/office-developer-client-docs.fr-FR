@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b684309211bbc008856311158c67864d958c96a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8ea7d51b15a6e6acd44a3c0b6158378661f311bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344498"
 ---
 # <a name="sshortarray"></a>SShortArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau d’entiers non signés sont utilisées pour décrire une propriété de type PT_MV_SHORT.
+Contient un tableau de valeurs entières non signées utilisées pour décrire une propriété de type PT_MV_SHORT.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SShortArray
@@ -44,15 +44,15 @@ typedef struct _SShortArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau indiqué par le membre **LPP** . 
+> Nombre de valeurs dans le tableau vers lequel pointe le membre **LPP** . 
     
  **LPP**
   
-> Pointeur vers un tableau de valeurs de nombre entier non signé.
+> Pointeur vers un tableau de valeurs entières non signées.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_SHORT et d’autres types de propriété, voir [Types de propriété](property-types.md). 
+Pour plus d'informations sur PT_MV_SHORT et d'autres types de propriétés, consultez la rubrique [types de propriétés](property-types.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,37 +9,37 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e43f3d29-7def-d36e-ac64-62f0a389d415
 description: Détermine si les formes positionnables se déplacent lorsque vous déposez une forme positionnable à côté d'une autre forme positionnable sur une page de dessin.
-ms.openlocfilehash: e180ce679f280cbccbda80b67170f2f26473bd8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ea85ddbaf7662305a2a82fc7f0b814019624841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344372"
 ---
 # <a name="plowcode-cell-page-layout-section"></a>PlowCode, cellule (section Page Layout)
 
 Détermine si les formes positionnables se déplacent lorsque vous déposez une forme positionnable à côté d'une autre forme positionnable sur une page de dessin.
   
-|**Valeur**|**Description**|**Constante d’Automation**|
+|**Value**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Ne pas déplacer les formes  <br/> |**visPLOPlowNone** <br/> |
-|1  <br/> |Déplacer les formes  <br/> |**visPLOPlowAll** <br/> |
+|0,1  <br/> |Déplacer les formes  <br/> |**visPLOPlowAll** <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule sous l’onglet **disposition et positionnement** dans la boîte de dialogue **Mise en Page** (sous l’onglet **Création** , cliquez sur la flèche **Mise en Page** ) à l’aide de la case à cocher **déplacer les autres formes lors de l’insertion** . 
+Vous pouvez également définir la valeur de cette cellule sous l'onglet **disposition et positionnement** de la boîte de dialogue mise en **page** (sous l'onglet **création** , cliquez sur la flèche **mise en page** ) à l'aide de la case à cocher déplacer les **autres formes lors de l'insertion** . 
   
-Pour obtenir une référence à la cellule PlowCode par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule PlowCode par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |PlowCode  <br/> |
    
-Pour obtenir une référence à la cellule PlowCode par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule PlowCode à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOPlowCode** <br/> |
    

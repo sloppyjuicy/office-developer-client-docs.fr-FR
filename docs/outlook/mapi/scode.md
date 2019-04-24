@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2348cce1-07c3-49ed-ae03-79e477d3c6c2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7f8ede3761ca10589c686e2ec4fac18fbe00fb2c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 4208f51af44055b03c65b51c9b3d94e947dc9b68
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351239"
 ---
 # <a name="scode"></a>SCODE
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une valeur d’état de 32 bits qui est utilisée pour décrire une erreur ou un avertissement. 
+Valeur d'État 32 bits utilisée pour décrire une erreur ou un avertissement. 
   
 ```cpp
 typedef ULONG SCODE;
@@ -32,24 +32,24 @@ typedef ULONG SCODE;
 
 ## <a name="remarks"></a>Remarques
 
-Le type de données **SCODE** est la même que le type de données [HRESULT](hresult.md) . 
+Le type de données **SCODE** est le même que le type de données [HRESULT](hresult.md) . 
   
-Une valeur **SCODE** est divisée en quatre champs : 
+Une valeur **SCODE** est divisée en quatre champs: 
   
-- Un code de gravité bits unique qui est défini sur 0 pour indiquer la réussite et 1 pour indiquer l’échec.
+- Code de gravité à un bit qui est défini sur 0 pour indiquer la réussite et 1 pour indiquer l'échec.
     
 - Un champ réservé 11 bits
     
-- Un code de fonction 4 bits qui indique la zone responsable de l’erreur ou avertissement.
+- Code de fonction à 4 bits qui indique la zone responsable de l'erreur ou de l'avertissement.
     
-- Une erreur de 16 bits ou un code d’avertissement qui décrit le problème qui est à l’origine de l’erreur ou avertissement.
+- Un code d'erreur ou d'avertissement 16 bits qui décrit le problème à l'origine de l'erreur ou de l'avertissement.
     
-La plupart des méthodes et fonctions MAPI renvoient des valeurs **SCODE** définis en tant que types de données **HRESULT** comme les fonctions et méthodes OLE. OLE définit plusieurs macros qui peuvent être utilisés pour convertir les **SCODE** un **HRESULT**.
+De nombreuses fonctions et méthodes MAPI renvoient des valeurs **SCODE** définies en tant que types de données **HRESULT** de la même manière que les fonctions et méthodes OLE. OLE définit plusieurs macros qui peuvent être utilisées pour effectuer une conversion entre un **SCODE** et un **HRESULT**.
   
 > [!NOTE]
-> 64 bits, MAPI, **SCODE** est toujours une valeur 32 bits. 
+> Dans MAPI 64 bits, **SCODE** est toujours une valeur 32 bits. 
   
-Pour plus d’informations sur l’utilisation de MAPI sur le type de données **SCODE** , voir [Gestion des erreurs](error-handling-in-mapi.md). Pour plus d’informations sur OLE et le type de données **SCODE** , voir la *référence du programmeur OLE* . 
+Pour plus d'informations sur la façon dont MAPI utilise le type de données **SCODE** , consultez la rubrique [gestion des erreurs](error-handling-in-mapi.md). Pour plus d'informations sur OLE et le type de données **SCODE** , consultez le *Guide OLE programmer's Reference* . 
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -58,5 +58,5 @@ Pour plus d’informations sur l’utilisation de MAPI sur le type de données *
 [[HRESULT]](hresult.md)
 
 
-[Types de données MAPI](mapi-data-types.md)
+[Types de donn�es MAPI](mapi-data-types.md)
 

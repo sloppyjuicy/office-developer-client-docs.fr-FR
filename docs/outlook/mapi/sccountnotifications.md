@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 923864c625cb032c3b351bb999ff7cc782eae588
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f5298620239d1e42e4ba613c22a98f0cf6f7d457
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351370"
 ---
 # <a name="sccountnotifications"></a>ScCountNotifications
 
@@ -25,13 +25,13 @@ ms.locfileid: "22567166"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine la taille, en octets, d’un tableau de notifications d’événements et valide la mémoire associée au tableau.
+Détermine la taille, en octets, d'un tableau de notifications d'événements et valide la mémoire associée au tableau.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 SCODE ScCountNotifications(
@@ -43,30 +43,30 @@ SCODE ScCountNotifications(
 
 ## <a name="parameters"></a>Paramètres
 
- _cntf_
+ _CNTF_
   
-> [in] Nombre de structures [NOTIFICATION](notification.md) dans le tableau indiqué par le paramètre _rgntf_ . 
+> dans Nombre de structures de [notification](notification.md) dans le tableau indiqué par le paramètre _rgntf_ . 
     
  _rgntf_
   
-> [in] Pointeur vers le tableau des structures **NOTIFICATION** dont la taille est déterminée. 
+> dans Pointeur vers le tableau de structures de **notification** dont la taille doit être déterminée. 
     
- _carte de circuit imprimé_
+ _circuits_
   
-> [out] Pointeur facultatif à la taille, en octets, du tableau indiqué par le paramètre _rgntf_ . Si la valeur NULL, **ScCountNotifications** valide le tableau des notifications. 
+> remarquer Pointeur facultatif vers la taille, en octets, du tableau désigné par le paramètre _rgntf_ . Si la valeur est NULL, **ScCountNotifications** valide le tableau de notifications. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Count a été correctement déterminé.
+> Le nombre a été déterminé avec succès.
     
 MAPI_E_INVALID_PARAMETER
   
-> Une notification non valide s’est produite.
+> Une notification incorrecte a été rencontrée.
     
 ## <a name="remarks"></a>Remarques
 
-Si NULL est indiqué dans le paramètre de la _carte de circuit imprimé_ , la fonction **ScCountNotifications** valide uniquement le tableau des notifications, mais aucun décompte n’effectué ; Si une valeur non nulle est passée dans une _carte de circuit imprimé_, **ScCountNotifications** détermine la taille du tableau et stocke la cause la _carte de circuit imprimé_. Le paramètre de la _carte de circuit imprimé_ doit être suffisant pour contenir l’intégralité du tableau. 
+Si NULL est transmis dans le paramètre _PCB_ , la fonction **ScCountNotifications** valide uniquement le tableau des notifications, mais aucun décompte n'est réalisé; Si une valeur non null est transmise dans _PCB_, **ScCountNotifications** détermine la taille du tableau et stocke la cause de la _PCB_. Le paramètre _PCB_ doit être assez grand pour contenir l'intégralité du tableau. 
   
 

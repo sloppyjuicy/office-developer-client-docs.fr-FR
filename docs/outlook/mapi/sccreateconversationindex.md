@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ccfc15d-f3c6-4c7b-b1cc-855af66036de
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5ae0c9f123ade599ca9bc1d3bdea3e9c89cfbc16
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 385660889c40e5f59dfc015ad92ce6a1398ab0cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351323"
 ---
 # <a name="sccreateconversationindex"></a>ScCreateConversationIndex
 
@@ -25,13 +25,13 @@ ms.locfileid: "22594150"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique où dans un thread de message, un message appartient. 
+Indique l'emplacement dans un thread de message auquel un message appartient. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 SCODE ScCreateConversationIndex(
@@ -46,19 +46,19 @@ SCODE ScCreateConversationIndex(
 
  _cbParent_
   
-> [in] Nombre d’octets dans l’index de conversation parent.
+> dans Nombre d'octets dans l'index de conversation parente.
     
  _lpbParent_
   
-> [in] Pointeur vers les octets dans l’index de conversation parent. Cela peut être NULL si _cbParent_ est égale à zéro. 
+> dans Pointeur vers des octets dans l'index de conversation parente. Cette valeur peut être NULL si _cbParent_ est égal à zéro. 
     
  _lpcbIndex_
   
-> [out] Pointeur vers le nombre d’octets dans le nouvel index de conversation renvoyé par l’appel. 
+> remarquer Pointeur vers le nombre d'octets dans le nouvel index de conversation renvoyé par l'appel. 
     
  _lppbIndex_
   
-> [out] Pointeur vers un pointeur vers le nouvel index de conversation renvoyé par l’appel.
+> remarquer Pointeur vers un pointeur vers le nouvel index de conversation renvoyé par l'appel.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

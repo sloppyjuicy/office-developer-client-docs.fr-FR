@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 32c40e1fbda3f0f851b52d29c073d95a5d636620
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349559"
 ---
 # <a name="create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-users-manager"></a>Création d’un élément de courrier, insertion d’un rapport en pièce jointe et envoi de l’élément au manager de l’utilisateur
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b801bdc06317738448a2205b60b94e1c9707d4f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 46bb9b2cc1a4d54807d6929b4e1439b58fb3a531
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565906"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350840"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565906"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Met à jour un objet de table MAPI.
+Met à jour un objet table MAPI.
   
 ```cpp
 HRESULT ModifyTable( 
@@ -35,35 +35,35 @@ HRESULT ModifyTable(
 
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Utilisez une des valeurs suivantes : 
+> dans Utilisez l'une des valeurs suivantes: 
     
 0 (zéro)
   
-> Utilisez la valeur du membre de la structure [ROWENTRY](rowentry.md) **ulRowFlags** . 
+> Utilisez la valeur du membre **ulRowFlags** de la structure [ROWENTRY](rowentry.md) . 
     
 ACLTABLE_FREEBUSY
   
-> Définit les nouveaux droits.
+> Définit de nouveaux droits.
     
 frightsFreeBusyDetailed
   
-> Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage détaillé des nouveaux droits et de disponibilité.
+> Lorsque ACLTABLE_FREEBUSY est transmis, fournit un affichage détaillé des nouveaux droits de disponibilité.
     
 frightsFreeBusySimple
   
-> Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage simple de nouveaux droits et de disponibilité.
+> Lorsque ACLTABLE_FREEBUSY est transmis, fournit un affichage simple des nouveaux droits de disponibilité.
     
 ROWLIST_REPLACE
   
-> Remplacer toutes les lignes dans le tableau.
+> Remplacez toutes les lignes du tableau.
     
  _lpMods_
   
-> [in] Pointe vers une structure [ROWLIST](rowlist.md) contenant les propriétés de l’objet table. 
+> dans Pointe vers une structure [ROWLIST](rowlist.md) contenant les propriétés de l'objet table. 
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -71,7 +71,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI utilise la méthode **IExchangeModifyTable::ModifyTable** pour écrire une règle modifiée dans la table des règles.  <br/> |
+|RulesDlg. cpp  <br/> |CRulesDlg:: OnModifySelectedItem  <br/> |MFCMAPI utilise la méthode **IExchangeModifyTable:: ModifyTable** pour réécrire une règle modifiée dans la table de règles.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e2d5190-e67a-470d-8177-0f0ba20c7b82
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fdd5d01b96c9ea756ee64f113ccb5119a9693668
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e43a1d7c57668ba930b4c4af7194bd298971e6ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356412"
 ---
 # <a name="servicewizarddlgproc"></a>SERVICEWIZARDDLGPROC
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel appelée par l’Assistant profil pour autoriser un fournisseur de services de réagir aux événements utilisateur lorsque les feuilles de propriétés ou des pages du fournisseur sont affichés. 
+Définit une fonction de rappel appelée par l'Assistant Profil pour permettre à un fournisseur de services de réagir aux événements de l'utilisateur lorsque les pages ou les feuilles de propriétés du fournisseur sont affichées. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiwz.h  <br/> |
-|Fonction implémentée par :  <br/> |Fournisseurs de services  <br/> |
-|Fonction appelée par :  <br/> |Assistant profil MAPI  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiwz. h  <br/> |
+|Fonction définie implémentée par:  <br/> |Fournisseurs de services  <br/> |
+|Fonction définie appelée par:  <br/> |Assistant Profil MAPI  <br/> |
    
 ```cpp
 BOOL SERVICEWIZARDDLGPROC(
@@ -44,27 +44,27 @@ BOOL SERVICEWIZARDDLGPROC(
 
 _hDlg_
   
-> [in] Handle de fenêtre pour la boîte de dialogue Assistant profil. 
+> dans Handle de fenêtre dans la boîte de dialogue Assistant Profil. 
     
 _wMsgID_
   
-> [in] Le message de fenêtre à traiter. Outre les messages de fenêtre normale attendus par une boîte de dialogue modale, les messages suivants peuvent être reçus :
+> dans Message de fenêtre à traiter. Outre les messages de fenêtre standard attendus par une boîte de dialogue modale, les messages suivants peuvent être reçus:
     
 WM_CLOSE 
   
-> L’Assistant profil est terminée. Le fournisseur de services doit faire tout le nettoyage requis tels que les libérer dynamiquement de mémoire allouée. 
+> L'Assistant Profil est terminé. Le fournisseur de services doit effectuer tout le nettoyage requis, par exemple en désallouant toute mémoire allouée dynamiquement. 
     
 WM_COMMAND 
   
-> Un des contrôles du fournisseur a été sélectionné, ou le bouton **suivant** ou **précédent** a été utilisé. La valeur du paramètre _wParam_ indique lequel de ces événements utilisateur s’est produite. 
+> L'un des contrôles du fournisseur a été sélectionné ou l'utilisateur a cliqué sur le bouton **suivant** ou **précédent** . La valeur dans le paramètre _wParam_ indique quels événements utilisateur ont eu lieu. 
     
 WM_INITDIALOG 
   
-> L’utilisateur a déplacé vers une autre page de propriétés, dont la boîte de dialogue doit être initialisée. Le fournisseur doit initialiser les contrôles de l’Assistant profil a ajouté à la boîte de dialogue. 
+> L'utilisateur a été déplacé vers une autre page de propriétés, pour laquelle la boîte de dialogue doit être initialisée. Le fournisseur doit initialiser les contrôles que l'Assistant Profil a ajoutés à la boîte de dialogue. 
     
 WIZ_QUERYNUMPAGES 
   
-> L’Assistant profil demande le nombre de pages que le fournisseur doit afficher. Le fournisseur doit renvoyer le nombre de pages au lieu de la valeur TRUE ou FALSE. Par exemple, utilisez l’instruction suivante de retour pour indiquer que trois pages doivent être affichée :
+> L'Assistant Profil demande le nombre de pages que le fournisseur doit afficher. Le fournisseur doit renvoyer le nombre de pages au lieu de TRUE ou FALSe. Par exemple, utilisez l'instruction return suivante pour indiquer que trois pages doivent être affichées:
     
    ```cpp
 return (BOOL)3;
@@ -73,48 +73,48 @@ return (BOOL)3;
 
 _wParam_
   
-> [in] Un paramètre de 32 bits associé à des messages de fenêtre. Le message spécifié dans le paramètre _wMsgID_ dépendent de valeurs possibles. Outre les valeurs prévus avec les messages de fenêtre normale pour une boîte de dialogue modale, les valeurs suivantes peuvent être reçus : 
+> dans Paramètre 32 bits associé aux messages de fenêtre. Les valeurs possibles dépendent du message spécifié dans le paramètre _wMsgID_ . En plus des valeurs attendues avec les messages de fenêtre standard pour une boîte de dialogue modale, les valeurs suivantes peuvent être reçues: 
     
 WIZ_NEXT 
   
-> Lorsque _wMsgID_ contient WM_COMMAND, l’utilisateur a cliqué sur le bouton **suivant** . 
+> Lorsque _wMsgID_ contient WM_COMMAND, l'utilisateur a cliqué sur le bouton **suivant** . 
     
 WIZ_PREV 
   
-> Lorsque _wMsgID_ contient WM_COMMAND, l’utilisateur a cliqué sur le bouton **précédent** . 
+> Lorsque _wMsgID_ contient WM_COMMAND, l'utilisateur a cliqué sur le bouton **précédent** . 
     
 _lParam_
   
-> [in] Un paramètre de 32 bits associé à des messages de fenêtre. Le message spécifié dans le paramètre _wMsgID_ dépendent de valeurs possibles. 
+> dans Paramètre 32 bits associé aux messages de fenêtre. Les valeurs possibles dépendent du message spécifié dans le paramètre _wMsgID_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La valeur renvoyée par une fonction **SERVICEWIZARDDLGPROC** en fonction de dépend de la fenêtre message reçu. Notez en particulier que les exceptionnelles renvoient la valeur pour le message WIZ_QUERYNUMPAGES. Les valeurs de retour normales sont : 
+La valeur renvoyée par une fonction basée sur **SERVICEWIZARDDLGPROC** dépend du message de fenêtre reçu. Notez en particulier la valeur de retour exceptionnelle pour le message WIZ_QUERYNUMPAGES. Les valeurs de retour normales sont les suivantes: 
   
 TRUE 
   
-> Le fournisseur de services a traité le message reçu. 
+> Le fournisseur de services a traité le message de fenêtre received. 
     
 FALSE 
   
-> Le fournisseur de services n’a pas traité le message reçu.
+> Le fournisseur de services n'a pas traité le message de fenêtre received.
     
 ## <a name="remarks"></a>Remarques
 
-Lorsque l’utilisateur passe d’une page de propriété à une autre, le fournisseur est chargé de masquer les contrôles de la page ancienne et affiche les contrôles de la page suivante ou précédente. Lorsque l’utilisateur clique sur le bouton **suivant** , la fonction **SERVICEWIZARDDLGPROC** en fonction est appelée avec le message WM_COMMAND et WIZ_NEXT dans le paramètre _wParam_ . Les étapes suivantes décrivent ce qui se produit entre le temps que l’utilisateur clique sur **suivant** et lors du rendu des pages de configuration du premier fournisseur. 
+Lorsque l'utilisateur passe d'une page de propriétés à une autre, le fournisseur est chargé de masquer les contrôles de l'ancienne page et d'afficher les contrôles de la page suivante ou précédente. Lorsque l'utilisateur clique sur le bouton **suivant** , la fonction basée sur **SERVICEWIZARDDLGPROC** est appelée avec le message WM_COMMAND et WIZ_NEXT dans le paramètre _wParam_ . Les étapes suivantes décrivent ce qui se passe entre le moment où l'utilisateur clique sur **suivant** et l'heure à laquelle les pages de configuration du premier fournisseur sont affichées. 
   
-1. L’Assistant profil masquer tous les contrôles qui se trouvent dans la fenêtre. 
+1. L'Assistant Profil masque tous les contrôles de la fenêtre. 
     
-2. L’Assistant profil ajoute les contrôles masqués du fournisseur à la page. 
+2. L'Assistant Profil ajoute les contrôles masqués du fournisseur à la page. 
     
-3. L’Assistant profil appelle **SERVICEWIZARDDLGPROC**, envoyer le message WM_INITDIALOG, afin que le fournisseur peut initialiser les contrôles. 
+3. L'Assistant Profil appelle **SERVICEWIZARDDLGPROC**, en envoyant le message WM_INITDIALOG, afin que le fournisseur puisse initialiser les contrôles. 
     
-4. L’Assistant profil appelle **SERVICEWIZARDDLGPROC**, l’envoi du message WIZ_QUERYNUMPAGES. Le fournisseur renvoie le nombre de pages à afficher. 
+4. L'Assistant Profil appelle **SERVICEWIZARDDLGPROC**, en envoyant le message WIZ_QUERYNUMPAGES. Le fournisseur renvoie le nombre de pages à afficher. 
     
-5. L’Assistant profil appelle **SERVICEWIZARDDLGPROC**, envoyer le message WM_COMMAND avec le paramètre _wParam_ défini sur WIZ_NEXT ou WIZ_PREV. À ce stade, le fournisseur soit renvoie la valeur FALSE {erreur} ou révèle ses contrôles et renvoie la valeur TRUE {réussite}. Si l’Assistant profil passe ID_NEXT, la première page du fournisseur s’affiche. Si ID_PREV est passé, la dernière page s’affiche. 
+5. L'Assistant Profil appelle **SERVICEWIZARDDLGPROC**, en envoyant le message WM_COMMAND avec le paramètre _wParam_ défini sur WIZ_NEXT ou WIZ_PREV. À ce stade, le fournisseur renvoie la valeur FALSe {erreur} ou révèle ses contrôles et renvoie la valeur TRUE {Success}. Si l'Assistant Profil passe dans ID_NEXT, la première page du fournisseur s'affiche. Si ID_PREV est transmis, la dernière page est affichée. 
     
-6. L’Assistant profil appelle fonction **SERVICEWIZARDDLGPROC** du fournisseur d’envoyer le message WM_COMMAND avec le paramètre _wParam_ défini sur WIZ_NEXT ou WIZ_PREV (selon le bouton sur lequel l’utilisateur a cliqué). Le fournisseur est responsable de l’affichage ou masquage de ses contrôles et écriture de ses données dans **IMAPIProp** passé à l’Assistant profil afin de parcourir la séquence de pages. Le fournisseur doit retourner la valeur TRUE si la page suivante ou précédente a été correctement affichée, et FALSE si ni la page suivante ou précédente peut être affichée. Le fournisseur doit tenir compte lorsqu’il est pas en dehors de la séquence de pages et répondre de façon appropriée en masquant ses contrôles et en écriture de ses données dans le profil. 
+6. L'Assistant Profil appelle la fonction **SERVICEWIZARDDLGPROC** du fournisseur, en envoyant le message WM_COMMAND avec le paramètre _wParam_ défini sur WIZ_NEXT ou WIZ_PREV (selon le bouton sur lequel l'utilisateur a cliqué). Le fournisseur est responsable de l'affichage ou du masquage de ses contrôles et de l'écriture de ses données dans le **IMAPIProp** transmis à l'Assistant Profil pour parcourir sa séquence de pages. Le fournisseur doit renvoyer la valeur TRUE si la page suivante ou précédente a été correctement affichée, et la valeur FALSe si ni la page suivante ni la page précédente ne peuvent être affichées. Le fournisseur doit être conscient lorsqu'il est pas à l'extérieur de sa séquence de pages et répond de manière appropriée en masquant ses contrôles et en écrivant ses données dans le profil. 
     
-7. Si les étapes de l’utilisateur en dehors de la plage du fournisseur de pages, l’Assistant profil supprime les contrôles masqués du fournisseur de la boîte de dialogue et appelle le fournisseur suivant ou affiche la page suivante, si c’était le dernier fournisseur. 
+7. Si l'utilisateur se trouve à l'extérieur de la plage de pages du fournisseur, l'Assistant Profil supprime les contrôles masqués du fournisseur dans la boîte de dialogue et appelle le fournisseur suivant ou affiche sa page suivante s'il s'agissait du dernier fournisseur. 
     
 

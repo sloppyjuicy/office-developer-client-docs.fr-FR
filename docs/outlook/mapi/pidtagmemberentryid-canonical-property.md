@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 27659b69e0ae050206de18c1258ee593737fbd3b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 83a645b49e5bb48051bbaedb26058d2da053348b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342496"
 ---
 # <a name="pidtagmemberentryid-canonical-property"></a>Propriété canonique PidTagMemberEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée directory objet d’un membre de table système access contrôle liste (SACL).
+Contient l'identificateur d'entrée d'objet d'annuaire d'un membre de la liste de contrôle d'accès système (SACL).
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient l’identificateur d’entrée directory objet d’un membre de table s
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée par l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) pour identifier de manière unique une personne ou un rôle auquel s’applique la liste. Après la création d’un membre de la table SACL, **propriété ENTRYID** ne peut pas être modifié. Pour le modifier, vous devez supprimer le membre de la table et recréer avec un autre **ID d’entrée**.
+Cette propriété est utilisée par l'interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) pour identifier de manière unique une personne ou un rôle auxquels s'applique la liste SACL. Après la création d'un membre dans la table SACL, la propriété **EntryID** ne peut pas être modifiée. Pour le modifier, vous devez supprimer le membre de la table et le recréer avec un **EntryID**différent.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

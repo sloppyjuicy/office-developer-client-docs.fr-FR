@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b248ed11-3d8a-4d4c-9b84-fa5bee7979c7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a3e46732f9b74b9cdf2dc4c961e7b6b66e3d91d4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 64fcbebbd71bc3f478f36c711e49db9a3518ef9a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347795"
 ---
 # <a name="hresult"></a>HRESULT
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une valeur de 32 bits qui est utilisée pour décrire une erreur ou un avertissement.
+Valeur 32 bits utilisée pour décrire une erreur ou un avertissement.
   
 ```cpp
 typedef LONG HRESULT;
@@ -33,24 +33,24 @@ typedef LONG HRESULT;
 
 ## <a name="remarks"></a>Remarques
 
-Le type de données **HRESULT** est la même que le type de données [SCODE](scode.md) . 
+Le type de données **HRESULT** est le même que le type de données [SCODE](scode.md) . 
   
-Une valeur **HRESULT** comprend les champs suivants : 
+Une valeur **HRESULT** se compose des champs suivants: 
   
-- Un code de 1 bit qui indique le niveau de gravité, où zéro réussite 1 représente et échec.
+- Code à 1 bit indiquant la gravité, où zéro représente la réussite et 1 représente échec.
     
-- Une valeur réservée 4 bits.
+- Valeur réservée 4 bits.
     
-- Un code 11 bits indiquant la responsabilité de l’erreur ou avertissement, également connu sous le nom d’un code de fonction.
+- Code 11 bits indiquant la responsabilité de l'erreur ou de l'avertissement, également appelé code de fonction.
     
-- Un code décrivant l’erreur ou avertissement de 16 bits.
+- Code 16 bits décrivant l'erreur ou l'avertissement.
     
-La plupart des fonctions et les méthodes d’interface MAPI retournent les valeurs **HRESULT** pour fournir la formation cause détaillée. Les valeurs **HRESULT** sont également utilisés largement dans les méthodes d’interface OLE. OLE fournit plusieurs macros pour la conversion entre les valeurs **HRESULT** et **SCODE** , des types de données communes une autre pour la gestion des erreurs. 
+La plupart des méthodes et fonctions de l'interface MAPI renvoient des valeurs **HRESULT** pour fournir des causes détaillées. Les valeurs **HRESULT** sont également largement utilisées dans les méthodes d'interface OLE. OLE fournit plusieurs macros pour la conversion entre des valeurs **HRESULT** et des valeurs **SCODE** , un autre type de données commun pour la gestion des erreurs. 
   
 > [!NOTE]
-> 64 bits, MAPI, **HRESULT** est toujours une valeur 32 bits. 
+> Dans MAPI 64 bits, **HRESULT** est toujours une valeur 32 bits. 
   
-Pour plus d’informations sur l’utilisation OLE de valeurs **HRESULT** , voir la *référence du programmeur OLE* . Pour plus d’informations sur l’utilisation de ces valeurs dans MAPI, voir [Gestion des erreurs](error-handling-in-mapi.md) et une des méthodes d’interface suivantes : 
+Pour plus d'informations sur l'utilisation OLE des valeurs **HRESULT** , consultez le *Guide de référence du programmeur OLE* . Pour plus d'informations sur l'utilisation de ces valeurs dans MAPI, consultez la rubrique [gestion des erreurs](error-handling-in-mapi.md) et l'une des méthodes d'interface suivantes: 
   
 [IABLogon::GetLastError](iablogon-getlasterror.md)
   
@@ -71,5 +71,5 @@ Pour plus d’informations sur l’utilisation OLE de valeurs **HRESULT** , voir
 [SCODE](scode.md)
 
 
-[Types de données MAPI](mapi-data-types.md)
+[Types de donn�es MAPI](mapi-data-types.md)
 

@@ -11,46 +11,46 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a436b590-63f3-413c-a9c2-7664567e0ff0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5514e0553f719e2e875aad7001bb38a6a52e8e08
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ea7f9e0ed57c56b48399b9ffd1ea42db28daf249
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356230"
 ---
 # <a name="pidtagminiicon-canonical-property"></a>Propriété canonique PidTagMiniIcon
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un bitmap d’une icône demi pour un formulaire.
+Contient une image bitmap d'une icône de demi-taille pour un formulaire.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MINI_ICON  <br/> |
 |Identificateur :  <br/> |0x0FFC  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient une image de 32 x 32 pixels d’une icône, le même que le contenu d’un. Fichier ICO, mais seuls les pixels du coin supérieur gauche de 16 x 16 sont considérées comme importantes. Cette propriété est normalement copiée à partir de la. Fichier ICO spécifié dans la ligne SmallIcon de la section [Description] appropriée du fichier de configuration du formulaire.
+Cette propriété contient une image 32 × 32 pixels d'une icône, le même que le contenu d'un. Fichier. ICO, mais seuls les 16 × 16 pixels du coin supérieur gauche sont considérés comme significatifs. Cette propriété est généralement copiée à partir du. Fichier. ICO spécifié dans la ligne SmallIcon de la section [Description] appropriée du fichier de configuration du formulaire.
   
- **Remarque** Certaines plateformes de ne pas les icônes prise en charge 16 x 16 pixels. Le format de 32 x 32 de cette propriété est utile dans ce cas, mais les applications clientes doivent être conscients de l’affichage incohérences. 
+ **Note** Certaines plateformes ne prennent pas en charge les icônes 16 x 16 pixels. Le format 32 × 32 de cette propriété est utilisable dans ce cas, mais les applications clientes doivent être conscientes des incohérences d'affichage. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

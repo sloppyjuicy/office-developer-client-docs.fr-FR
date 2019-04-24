@@ -1,5 +1,5 @@
 ---
-title: Définition d’une position de table avec un signet
+title: Définition d'une position de table avec un signet
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,41 +7,41 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f43e3a7e3376cb437620204a29aed9fb732d3427
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f0b041cecca92c0ced32631c67c72fcafdab2a16
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351232"
 ---
-# <a name="setting-a-table-position-with-a-bookmark"></a>Définition d’une position de table avec un signet
+# <a name="setting-a-table-position-with-a-bookmark"></a>Définition d'une position de table avec un signet
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un signet est une ressource qui indique un emplacement particulier dans une table. Définition d’un signet rend possible revenir à une position à une date ultérieure, une fonctionnalité qui peut améliorer sensiblement les performances des opérations de table. MAPI définit trois signets standards : 
+Un signet est une ressource qui indique un emplacement particulier dans un tableau. La définition d'un signet permet de revenir à une position ultérieure, ce qui permet d'améliorer considérablement les performances des opérations de tableau. MAPI définit trois signets standard: 
   
 |||
 |:-----|:-----|
-|BOOKMARK_CURRENT  <br/> |Points à la ligne active dans un tableau.  <br/> |
-|BOOKMARK_BEGINNING  <br/> |Points à la première ligne dans un tableau.  <br/> |
-|BOOKMARK_END  <br/> |Points à la dernière ligne dans une table.  <br/> |
+|BOOKMARK_CURRENT  <br/> |Pointe vers la ligne active dans un tableau.  <br/> |
+|BOOKMARK_BEGINNING  <br/> |Pointe vers la première ligne d'un tableau.  <br/> |
+|BOOKMARK_END  <br/> |Pointe vers la dernière ligne d'un tableau.  <br/> |
    
-L’implémentation de la table est nécessaires pour prendre en charge les signets standards et peut également prendre en charge d’autres personnes. Toutefois, étant donné que les signets sont des ressources et les ressources sont limitées, les utilisateurs de signet doivent libérer les dès que possible. 
+Les implémenteurs de tableau doivent prendre en charge ces signets standard et peuvent également prendre en charge d'autres. Toutefois, étant donné que les signets sont des ressources et que les ressources sont limitées, les utilisateurs de signets doivent les libérer dès que possible. 
   
- **Pour définir un signet à la position actuelle de la table**
+ **Pour définir un signet à la position actuelle du tableau**
   
-- Appelez [IMAPITable::CreateBookmark](imapitable-createbookmark.md). Il peut arriver que sera mémoire disponible insuffisante pour allouer le nouveau signet, entraînant **CreateBookmark** renvoyer la valeur d’erreur MAPI_E_UNABLE_TO_COMPLETE. 
+- Appeler [IMAPITable:: CreateBookmark](imapitable-createbookmark.md). Parfois, il n'y aura pas assez de mémoire disponible pour allouer le nouveau signet, provoquant l'échec de **CreateBookmark** pour renvoyer la valeur d'erreur MAPI_E_UNABLE_TO_COMPLETE. 
     
  **Pour libérer un signet**
   
-- Appelez [IMAPITable::FreeBookmark](imapitable-freebookmark.md).
+- Appeler [IMAPITable:: FreeBookmark](imapitable-freebookmark.md).
     
- **Pour déplacer le curseur vers une position marquée par un signet**
+ **Pour déplacer le curseur vers une position avec un signet**
   
-- Appelez [IMAPITable::SeekRow](imapitable-seekrow.md). **SeekRow** établit une nouvelle valeur pour la position BOOKMARK_CURRENT. **SeekRow** peut être utilisé, par exemple, pour positionner un lignes de tableau 10 à partir de la position actuelle ou recommencer au début. Clients ou fournisseurs de services peuvent rechercher en cours, à partir de, ou fin d’une table ou toute autre position qui est associée à un signet prédéfini. Ils peuvent déplacer dans un sens avancer ou reculer et le limite l’opération à un nombre spécifié de lignes. En règle générale, les appelants doivent seek pas plus de 50 lignes avec **SeekRow**; [IMAPI::SeekRowApprox](imapitable-seekrowapprox.md) doit être utilisé avec le plus grand nombre de lignes. 
+- Appeler [IMAPITable:: SeekRow](imapitable-seekrow.md). **SeekRow** établit une nouvelle valeur pour la position BOOKMARK_CURRENT. La fonction **SeekRow** peut être utilisée, par exemple, pour positionner un tableau sur dix lignes à partir de la position actuelle ou au début. Les clients ou fournisseurs de services peuvent rechercher le début, le début ou la fin d'une table ou toute autre position associée à un signet prédéfini. Ils peuvent se déplacer dans une direction vers l'avant ou vers l'arrière et limiter l'opération à un nombre spécifié de lignes. En règle générale, les appelants doivent s'efforcer de ne pas dépasser 50 lignes avec **SeekRow**; [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) doit être utilisé avec un grand nombre de lignes. 
     
 ## <a name="see-also"></a>Voir aussi
 

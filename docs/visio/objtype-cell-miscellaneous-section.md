@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3afee07b-e91a-a91c-fba2-0e3251dd6385
 description: Détermine si les objets sont positionnables ou repositionnables dans les diagrammes lorsque vous utilisez la boîte de dialogue Configurer la disposition pour disposer des formes.
-ms.openlocfilehash: 23887e1d265e9e5ac1dfa9750bab65e8428b1c76
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a607fdb53ad569e84976b6f9911fbd89f7f2628
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361011"
 ---
 # <a name="objtype-cell-miscellaneous-section"></a>ObjType, cellule (section Miscellaneous)
 
 Détermine si les objets sont positionnables ou repositionnables dans les diagrammes lorsque vous utilisez la boîte de dialogue **Configurer la disposition** pour disposer des formes. 
   
-|**Valeur**|**Description**|**Constante d’Automation**|
+|**Value**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-|&amp;H0  <br/> |Par défaut. L'application décide en fonction du contexte de dessin.  <br/> |**visLOFlagsVisDecides** <br/> |
+|&amp;H0  <br/> |Valeur par défaut. L'application décide en fonction du contexte de dessin.  <br/> |**visLOFlagsVisDecides** <br/> |
 |&amp;H1  <br/> |La forme est positionnable.  <br/> |**visLOFlagsPlacable** <br/> |
 |&amp;H2  <br/> |La forme est repositionnable. Il doit s'agir d'une forme à une dimension (1D).  <br/> |**visLOFlagsRoutable** <br/> |
 |&amp;H4  <br/> |La forme n'est ni positionnable ni repositionnable.  <br/> |**visLOFlagsDont** <br/> |
@@ -30,21 +30,21 @@ Détermine si les objets sont positionnables ou repositionnables dans les diagra
    
 ## <a name="remarks"></a>Remarques
 
-Par défaut, la cellule ObjType est définie sur aucune formule d’une forme, prend la valeur 0, ce qui signifie que l’application détermine si la forme peut être positionnable en fonction de son contexte. Par exemple, si vous dessinez un rectangle, la valeur de la cellule ObjType associée est 0. Si vous utilisez ensuite l’outil **connecteur** pour relier le rectangle à une autre forme, Visio rétablit la valeur de la cellule ObjType du rectangle 1 (positionnable). 
+Par défaut, la cellule ObjType est définie sur No Formula, ce qui renvoie la valeur 0 ; c’est donc l’application qui détermine si la forme peut être positionnée selon son contexte. Par exemple, si vous dessinez un rectangle, la valeur de la cellule ObjType associée est 0. Si vous utilisez ensuite l’outil **Connecteur** pour relier le rectangle à une autre forme, Visio rétablit la cellule ObjType du rectangle sur la valeur 1 (positionnable). 
   
-La valeur de la cellule ObjType peut être une combinaison de valeurs. Si le bit non positionnable est défini (&amp;H4), toutefois, il est prioritaire sur les autres valeurs, à l’exception de la valeur de groupe (&amp;H8).
+La valeur de la cellule ObjType peut être une combinaison de plusieurs valeurs. En revanche, si le bit non positionnable est défini&amp;(H4), il prend la priorité sur les autres valeurs à l'exception de&amp;la valeur de groupe (H8).
   
-Pour obtenir une référence à la cellule ObjType par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule ObjType par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Type de l’objet  <br/> |
+|Nom de la cellule :  <br/> |Déclaré  <br/> |
    
-Pour obtenir une référence à la cellule ObjType par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule ObjType à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowMisc** <br/> |
 |Index de la cellule :  <br/> |**visLOFlags** <br/> |
    

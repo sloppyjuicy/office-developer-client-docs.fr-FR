@@ -1,37 +1,37 @@
 ---
-title: Obtenir un message de contact donné une entrée de carnet d’adresses contacts
+title: Obtenir un message de contact à partir d'une entrée de carnet d'adresses de contacts
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
-description: 'Dernière modification : 13 août 2013'
-ms.openlocfilehash: 472b5847053c0a18026c76b8055a26551331d8dd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 13 août 2013'
+ms.openlocfilehash: be988a3036c2d882f65e2e588cc9a40bfda146a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345954"
 ---
-# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>Obtenir un message de contact donné une entrée de carnet d’adresses contacts
+# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>Obtenir un message de contact à partir d'une entrée de carnet d'adresses de contacts
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique contient un exemple en langage C++, `HrOpenContact`, qui montre comment utiliser la structure [CONTAB_ENTRYID](contab_entryid.md) qui identifie une entrée dans un carnet d’adresses de Contacts pour obtenir le message MAPI Contact associé. 
+Cette rubrique contient un exemple en C++, `HrOpenContact`qui montre comment utiliser la structure [CONTAB_ENTRYID](contab_entryid.md) qui identifie une entrée dans un carnet d'adresses de contacts pour obtenir le message de contact MAPI associé. 
   
-`HrOpenContact`présente les paramètres suivants : 
+`HrOpenContact`possède les paramètres suivants: 
   
--  *lpSession* est un paramètre d’entrée représentant la session active. **LPMAPISESSION** est défini dans le mapix.h de fichier d’en-tête MAPI comme un pointeur vers [IMAPISession : IUnknown](imapisessioniunknown.md).
+-  *lpSession* est un paramètre d'entrée représentant la session en cours. **LPMAPISESSION** est défini dans le fichier d'en-tête MAPI mapix. h en tant que pointeur vers [IMAPISession: IUnknown](imapisessioniunknown.md).
     
--  *cbEntryID* est un paramètre d’entrée représentant la taille de l’identificateur d’entrée associé *lpEntryID* . 
+-  *cbEntryID* est un paramètre d'entrée représentant la taille de l'identificateur d'entrée associé à *lpEntryID* . 
     
--  *lpEntryID* est un paramètre d’entrée qui représente un pointeur vers l’identificateur d’entrée d’une entrée dans un carnet d’adresses de contacts. 
+-  *lpEntryID* est un paramètre d'entrée représentant un pointeur vers l'identificateur d'entrée d'une entrée dans un carnet d'adresses de contacts. 
     
--  *ulFlags* est un paramètre d’entrée qui représente un masque de bits contenant des indicateurs d’accès objet au message MAPI Contact. 
+-  *ulFlags* est un paramètre d'entrée représentant un masque de masque contenant des indicateurs d'accès aux objets pour le message de contact MAPI. 
     
--  *lpContactMessage* est un paramètre de sortie qui représente un pointeur vers le message MAPI Contact. 
+-  *lpContactMessage* est un paramètre de sortie qui représente un pointeur vers le message de contact MAPI. 
     
-Pour ouvrir le message MAPI Contact sous-jacent, `HrOpenContact` affecte *lpEntryID* vers un pointeur vers **CONTAB_ENTRYID**. Il appelle ensuite [IMAPISession::OpenEntry](imapisession-openentry.md) pour obtenir le message MAPI Contact, en passant en tant que paramètres, les champs *cbeid* et *abeid* de l’entrée dans le carnet d’adresses de Contacts qui identifient respectivement la taille de l’identificateur d’entrée et la identificateur d’entrée du message MAPI Contact. 
+Pour ouvrir le message de contact MAPI sous `HrOpenContact` -jacent, convertit d'abord *lpEntryID* en pointeur vers **CONTAB_ENTRYID**. Il appelle ensuite [IMAPISession:: OpenEntry](imapisession-openentry.md) pour obtenir le message de contact MAPI, en transmettant en tant que paramètres les champs *cbeid* et *Abeid* de l'entrée dans le carnet d'adresses de contacts qui identifie respectivement la taille de l'identificateur d'entrée et le identificateur d'entrée du message de contact MAPI. 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

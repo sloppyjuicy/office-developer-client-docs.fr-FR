@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3b30cec6-da1e-4ef1-8c17-24b66f31cf0a
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 4bda4783012a3a5cd50d9c0aea6a37ccd238b660
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345492"
 ---
 # <a name="pidtagattachencoding-canonical-property"></a>Propriété canonique PidTagAttachEncoding
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur d’objet ASN.1 qui spécifie le codage d’une pièce jointe. 
+Contient un identificateur d'objet ASN. 1 qui spécifie le codage d'une pièce jointe. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient un identificateur d’objet ASN.1 qui spécifie le codage d’une pièc
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété identifie l’algorithme utilisé pour transformer les données dans une pièce jointe.
+Cette propriété identifie l'algorithme utilisé pour transformer les données dans une pièce jointe.
   
- **Remarque** Les **PR_ATTACH_ENCODING** et les propriétés de **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) ne doivent pas être confondues. Ils ne sont pas couplés ou liées. **PR_ATTACH_TAG** identifie l’application qui a généré la pièce jointe. « Objet » a une signification beaucoup plus générale X.400 et l’identificateur d’objet termes que dans la programmation orientée objet. 
+ **Note** Les propriétés **PR_ATTACH_ENCODING** et **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) ne doivent pas être confondues. Elles ne sont pas couplées ni associées. **PR_ATTACH_TAG** identifie l'application qui a initialement généré la pièce jointe. «Object» a une signification bien plus générale dans le terme identificateur d'objet et dans X. 400, que dans la programmation orientée objet. 
   
-Les identificateurs d’objets objet identificateur la syntaxe et les exemples sont définies dans le MAPIOID. Fichier d’en-tête H. Valeurs de **PR_ATTACH_ENCODING** ne sont pas limités à ceux définis dans MAPIOID. H. Par exemple, les fichiers Macintosh joints permet un identificateur tel que MacBinary. 
+La syntaxe de l'identificateur d'objet et des exemples d'identificateurs d'objet sont définis dans le MAPIOID. Fichier d'en-tête H. Les valeurs de **PR_ATTACH_ENCODING** ne sont pas limitées à celles définies dans MAPIOID. H. Par exemple, les fichiers Macintosh attachés peuvent utiliser un identificateur tel que MacBinary. 
   
-Pour plus d’informations sur ces identificateurs d’objet, consultez la documentation sur ASN.1, X.208 et X.209. L’identificateur d’objet est trouvé dans l’élément de référence de l’application de l’environnement FTBP (File Transfer Body Part). 
+Pour plus d'informations sur ces identificateurs d'objet, reportez-vous à la documentation sur ASN. 1, X. 208 et X. 209. L'identificateur de l'objet est disponible dans l'élément de référence de l'application de l'environnement FTBP (partie du corps du transfert de fichiers). 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

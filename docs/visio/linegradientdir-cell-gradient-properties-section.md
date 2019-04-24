@@ -1,46 +1,46 @@
 ---
-title: LineGradientDir, cellule (Section Propriétés de dégradé)
+title: LineGradientDir Cell (Gradient Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c603f9a5-f887-47ce-90bb-d41ec2d1a6a1
-description: Détermine la direction du dégradé ligne. Un dégradé peut être linéaire, radial, rectangulaire ou suivre un chemin d’accès.
-ms.openlocfilehash: 6243d7a6b470db0915ba6fc462f05b72a9814f66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Détermine la direction du dégradé de ligne. Un dégradé peut être linéaire, radial, rectangulaire ou suivre un tracé.
+ms.openlocfilehash: 05dcc6904a4e67d97c632dba44635936b1c14049
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350959"
 ---
-# <a name="linegradientdir-cell-gradient-properties-section"></a>LineGradientDir, cellule (Section Propriétés de dégradé)
+# <a name="linegradientdir-cell-gradient-properties-section"></a>LineGradientDir Cell (Gradient Properties Section)
 
-Détermine la direction du dégradé ligne. Un dégradé peut être linéaire, radial, rectangulaire ou suivre un chemin d’accès. 
+Détermine la direction du dégradé de ligne. Un dégradé peut être linéaire, radial, rectangulaire ou suivre un tracé. 
   
 > [!NOTE]
-> Dégradé linéaire est le seul dégradé qui prend une valeur d’angle supplémentaires (tel que déterminé par la cellule **LineGradientDir** ). Toutes les autres directions dégradées ont prédéfinie énumérations. 
+> Un dégradé linéaire est le seul dégradé qui prend une valeur d'angle supplémentaire (tel que déterminé par la cellule **LineGradientDir** ). Toutes les autres directions de dégradé ont des énumérations prédéfinies. 
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Dégradé linéaire. La cellule **LineGradientAngle** détermine la direction du dégradé.  <br/> |
-|1 à 7  <br/> |Dégradé radial. Dégradé s’étend vers l’extérieur d’un cercle à partir d’un point central.  <br/> |
-|8-12  <br/> |Dégradé rectangulaire. Dégradé étend par un trait de direction à partir d’une origine de fondu rectangulaire.  <br/> |
-|13  <br/> |Dégradé de chemin d’accès.  <br/> |
+|0  <br/> |Dégradé linéaire La cellule **LineGradientAngle** détermine la direction du dégradé.  <br/> |
+|1-7  <br/> |Dégradés radiaux Le dégradé s'étend vers l'extérieur d'un cercle à partir d'un point central.  <br/> |
+|8-12  <br/> |Dégradés rectangulaires. Le dégradé s'étend sous la forme d'un trait directionnel à partir d'une origine avec un fondu en forme rectangulaire.  <br/> |
+|kg  <br/> |Dégradé du tracé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **LineGradientDir** par un nom à partir d’une autre formule, par la valeur de l’attribut **N** d’un élément de **cellule** ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule **LineGradientDir** par un nom à partir d'une autre formule, par valeur de l'attribut **N** d'un élément de **cellule** ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | LineGradientDir  <br/> |
+| Nom de cellule :  <br/> | LineGradientDir  <br/> |
    
-Pour obtenir une référence à la cellule **LineGradientDir** par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule **LineGradientDir** à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants: 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowGradientProperties** <br/> |
 | Index de la cellule :  <br/> |**visLineGradientDir** <br/> |
    

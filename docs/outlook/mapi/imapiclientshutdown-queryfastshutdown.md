@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b743b5b6-4a7c-46b8-99eb-afd13ee947db
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 784a2f497811ba7c4ba0abf260ff32fde75de76a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 6a76488f56f9d1eb1b344c01de2615627dd5d3ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350868"
 ---
 # <a name="imapiclientshutdownqueryfastshutdown"></a>IMAPIClientShutdown::QueryFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584932"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Requêtes du sous-système MAPI pour arrêt rapide prennent en charge fournie par les fournisseurs MAPI chargés.
+Interroge le sous-système MAPI pour la prise en charge de l'arrêt rapide fourni par les fournisseurs MAPI chargés.
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,15 +35,15 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> Le sous-système MAPI prend en charge le client MAPI pour rapide de l’arrêt.
+> Le sous-système MAPI prend en charge le client MAPI pour l'arrêt rapide.
     
 MAPI_E_NO_SUPPORT
   
-> Le fournisseur MAPI ne gère pas le client MAPI pour rapide de l’arrêt.
+> Le fournisseur MAPI ne prend pas en charge le client MAPI pour l'arrêt rapide.
     
 ## <a name="remarks"></a>Remarques
 
-Si le sous-système MAPI prend en charge le client MAPI à rapide d’arrêt dépend du paramètre de Registre Windows de l’utilisateur ou le comportement par défaut du client MAPI pour l’arrêt rapide. Cela dépend également la possibilité des fournisseurs MAPI chargés pour prendre en charge l’arrêt rapide. Pour plus d’informations, voir [Options d’utilisateur de l’arrêt rapide](fast-shutdown-user-options.md).
+Le fait que le sous-système MAPI prenne en charge le client MAPI pour l'arrêt rapide dépend du paramètre de Registre Windows de l'utilisateur ou du comportement par défaut du client MAPI pour l'arrêt rapide. Cela dépend également de la capacité des fournisseurs MAPI chargés à prendre en charge la mise à l'arrêt rapide. Pour plus d'informations, consultez la rubrique options de l' [utilisateur à arrêt rapide](fast-shutdown-user-options.md).
   
 ## <a name="see-also"></a>Voir aussi
 

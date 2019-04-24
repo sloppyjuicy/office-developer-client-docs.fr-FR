@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fcb93346-db92-44b5-a447-59fd95f98f45
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 6b5def94096f7664169935a062d3b28171fb2919
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2d832b3a53f8056c034b5e87f1f309fa3058173d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355803"
 ---
 # <a name="pidtagmessagetoken-canonical-property"></a>Propriété canonique PidTagMessageToken
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un jeton de sécurité ASN.1 pour un message.
+Contient un jeton de sécurité ASN. 1 pour un message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_TOKEN  <br/> |
 |Identificateur :  <br/> |0x0C03  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Sécuriser les propriétés de messagerie  <br/> |
+|Domaine :  <br/> |Propriétés de la messagerie sécurisée  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété véhicule protégées informations liées à la sécurité de son créateur à son destinataire. Conjointement avec la propriété **PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)), elle garantit association l’étiquette avec le contenu du message. Conjointement avec la propriété **PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)), il vérifie que le contenu du message est inchangé.
+Cette propriété transmet les informations de sécurité protégées de son expéditeur à son destinataire. En association avec la propriété **PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)), elle garantit l'Association de l'étiquette au contenu du message. En combinaison avec la propriété **PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)), il vérifie que le contenu du message n'est pas modifié.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

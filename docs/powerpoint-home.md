@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: c76c7851-d68f-4f56-8111-e05c764f0ef8
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de PowerPoint.
 ms.openlocfilehash: 21105174e3d06151ef788ab0d81badd2c3e1d952
-ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355026"
 ---
 # <a name="powerpoint"></a>PowerPoint
 
@@ -42,7 +42,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
 
 - [Référence de langage VBA pour Office](https://docs.microsoft.com/office/vba/api/overview/language-reference) 
 
-- [Ouvrir le Kit de développement logiciel (SDK) XML](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
 
 - [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   

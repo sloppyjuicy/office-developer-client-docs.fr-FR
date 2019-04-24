@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f07fddf-4c42-6ea7-162d-57022166a83f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a40046a26efe118e48cdca4749d2e99212bb8bfe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e856044a1b6345c4e495a75dfb7ca0defa52ceec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349594"
 ---
 # <a name="sync"></a>SYNC
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations de démarrage de la synchronisation entre un magasin local et un serveur. Ces informations sont utilisées lors de l' [état de synchronisation](synchronize-state.md).
+Informations pour le démarrage de la synchronisation entre un magasin local et un serveur. Ces informations sont utilisées lors de l' [État Synchronize](synchronize-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -37,52 +37,52 @@ struct SYNC
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _ulFlags_
   
-- [out] / [in] un masque de bits des indicateurs suivants qui modifie le comportement lors de la synchronisation :
+- [out]/[in] masque de masque des indicateurs suivants qui modifie le comportement lors de la synchronisation:
     
 - UPS_UPLOAD_ONLY
     
-  - [in] Le client effectueront téléchargement uniquement. Outlook ne renvoie que les dossiers modifiés localement.
+  - dans Le client effectuera uniquement le chargement. Outlook retourne uniquement les dossiers modifiés localement.
     
 - UPS_DNLOAD_ONLY
     
-  - [in] Le client effectueront téléchargement uniquement. Outlook ne doit pas effacer les bits de téléchargement des dossiers.
+  - dans Le client effectue uniquement un téléchargement. Outlook ne doit pas effacer les bits de téléchargement pour les dossiers.
     
 - UPS_THESE_FOLDERS
     
-  - [in] Le client sera synchroniser un ensemble spécifié de dossiers avec l’identificateur d’entrée fourni. Cet indicateur peut être combiné avec indicateur le **UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY** . 
+  - dans Le client synchronise un ensemble spécifié de dossiers avec les ID d'entrée fournis. Cet indicateur peut être combiné avec l'indicateur **UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY** . 
     
 - UPS_OK
     
-  - [out] La synchronisation a réussi. Le client définit ce après avoir téléchargé ou une synchronisation complète est terminée.
+  - remarquer La synchronisation a réussi. Le client définit ceci après le téléchargement ou une synchronisation complète.
     
 - 
     
     > [!NOTE]
-    > Même si le client peut télécharger ou synchroniser entièrement (télécharger, puis téléchargez) des dossiers et des éléments avec l’API de réplication, le client spécifie *ulFlags* avec uniquement un sens de la réplication à la fois, **UPS_UPLOAD_ONLY** ou Indicateur **UPS_DNLOAD_ONLY** . Dans le cas d’une synchronisation complète, le client effectue tout d’abord un téléchargement avec l’indicateur **UPS_UPLOAD_ONLY** , puis un téléchargement avec l’indicateur **UPS_DNLOAD_ONLY** . 
+    > Même si le client peut télécharger des dossiers et des éléments avec l'API de réPlication ou les synchroniser entièrement (télécharger et télécharger), le client spécifie *ulFlags* avec une seule direction de la réplication à la fois, à savoir le **UPS_UPLOAD_ONLY** ou Indicateur **UPS_DNLOAD_ONLY** . Dans le cas d'une synchronisation complète, le client effectue d'abord un chargement avec l'indicateur **UPS_UPLOAD_ONLY** , puis un téléchargement avec l'indicateur **UPS_DNLOAD_ONLY** . 
   
  _pwzPath_
   
-- [out] Chemin d’accès dans le magasin local.
+- remarquer Chemin d'accès au magasin local.
     
  _Reserved1_
   
-- Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+- Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.
     
  _Reserved2_
   
-- Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+- Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.
     
  *PEL* 
   
-- [in] Il s’agit de la liste des identificateurs d’entrée de dossiers à synchroniser si **UPS_THESE_FOLDERS** a été définie. Voir mapidefs.h pour la définition du type de **LPENTRYLIST**. 
+- dans Il s'agit de la liste des identificateurs d'entrée des dossiers à synchroniser si **UPS_THESE_FOLDERS** a été défini. Voir mapidefs. h pour la définition de type de **LPENTRYLIST**. 
     
  _pulFolderOptions_
   
-- [in] Il s’agit d’un tableau des options de dossier pour les dossiers correspondants dans *pel* si **UPS_THESE_FOLDERS** a été définie. Ces options de dossier sont utilisées lors du téléchargement de chacun des dossiers répertoriés dans *pel* au cours de l' [état du dossier de téléchargement](upload-folder-state.md). Pour plus d’informations sur les options du dossier, voir **[UPFLD](upfld.md)**. 
+- dans Il s'agit d'un tableau d'options de dossier pour les dossiers correspondants dans *PEL* si **UPS_THESE_FOLDERS** a été défini. Ces options de dossiers sont utilisées lors du téléchargement de chaque dossier répertorié dans *PEL* lors de l' [État du dossier de chargement](upload-folder-state.md). Pour plus d'informations sur les options des dossiers, voir **[UPFLD](upfld.md)**. 
     
 ## <a name="see-also"></a>Voir aussi
 

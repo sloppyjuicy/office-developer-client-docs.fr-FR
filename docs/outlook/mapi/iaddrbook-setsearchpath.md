@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1d486344ab20ef49488dbb911f3dd7000d64942e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 8611249207811446ae47f056486ec498bf1e7eab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349307"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571758"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit un nouveau chemin d’accès de la recherche dans le profil qui est utilisé pour le processus de résolution de nom. 
+Définit un nouveau chemin de recherche dans le profil qui est utilisé pour le processus de résolution de noms. 
   
 ```cpp
 HRESULT SetSearchPath(
@@ -34,7 +34,7 @@ HRESULT SetSearchPath(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -42,23 +42,23 @@ HRESULT SetSearchPath(
     
  _lpSearchPath_
   
-> [in] Pointeur vers la structure [SRowSet](srowset.md) utilisée pour contenir le chemin de recherche. La première propriété de chaque membre **: UGAL** dans **SRowSet** doit être **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+> dans Pointeur vers la structure [SRowSet](srowset.md) utilisée pour conserver le chemin de recherche. La première propriété pour chaque membre du **aRow** dans **SRowSet** doit être **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le chemin de recherche a été défini.
+> Le chemin de recherche a été correctement défini.
     
 MAPI_E_MISSING_REQUIRED_COLUMN 
   
-> Un des conteneurs décrites dans la structure **SRowSet** ne comprend pas sa propriété **PR_ENTRYID** . 
+> L'un des conteneurs décrits dans la structure **SRowSet** n'inclut pas sa propriété **PR_ENTRYID** . 
     
 ## <a name="remarks"></a>Remarques
 
-Clients et fournisseurs de services appellent la méthode **SetSearchPath** pour enregistrer les modifications qui ont été apportées à l’ordre de recherche du conteneur qui est utilisé pour résoudre les noms avec la méthode [IAddrBook::ResolveName](iaddrbook-resolvename.md) . Le chemin d’accès de la recherche est enregistrée entre des instances d’une session. 
+Les clients et les fournisseurs de services appellent la méthode **SetSearchPath** pour enregistrer les modifications apportées à l'ordre de recherche de conteneur utilisé pour résoudre les noms à l'aide de la méthode [IAddrBook:: ResolveName](iaddrbook-resolvename.md) . Le chemin de recherche est enregistré entre les instances d'une session. 
   
-Clients et fournisseurs n’ont pas d’appeler la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour conserver les modifications de chemin d’accès de recherche. 
+Les clients et les fournisseurs n'ont pas besoin d'appeler la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) pour faire en sorte que le chemin de recherche change définitivement. 
   
 ## <a name="see-also"></a>Voir aussi
 

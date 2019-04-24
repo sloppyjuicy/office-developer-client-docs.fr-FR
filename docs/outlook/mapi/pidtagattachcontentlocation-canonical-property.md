@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: af2f776c-1b77-4942-827a-4363eda3924f
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: f279d8ea305c0b1e609881b15e39653c41d5828e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345478"
 ---
 # <a name="pidtagattachcontentlocation-canonical-property"></a>Propriété canonique PidTagAttachContentLocation
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’en-tête de l’emplacement du contenu d’une pièce jointe du message Multipurpose Internet Mail Extensions (MIME). 
+Contient l'en-tête d'emplacement de contenu d'une pièce jointe à un message MIME (Multipurpose Internet Mail Extensions). 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contient l’en-tête de l’emplacement du contenu d’une pièce jointe du mes
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont utilisées pour la prise en charge MHTML. Ils représentent l’en-tête de l’emplacement du contenu pour le composant de corps MIME approprié. 
+Ces propriétés sont utilisées pour la prise en charge de MHTML. Elles représentent l'en-tête d'emplacement de contenu pour la partie MIME appropriée. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

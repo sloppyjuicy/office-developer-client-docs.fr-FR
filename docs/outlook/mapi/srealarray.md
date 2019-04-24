@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8c7ce2805248bf91ce7da071c67ece28a5b8ca07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8439d6609ebece75699a1150a9d0c1a41277fd52
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564282"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344379"
 ---
 # <a name="srealarray"></a>SRealArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de valeurs float qui sont utilisées pour décrire une propriété de type PT_MV_R4. 
+Contient un tableau de valeurs de type float qui permettent de décrire une propriété de type PT_MV_R4. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SRealArray
@@ -44,15 +44,15 @@ typedef struct _SRealArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau indiqué par le membre **lpflt** . 
+> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpflt** . 
     
  **lpflt**
   
-> Pointeur vers un tableau de valeurs float.
+> Pointeur vers un tableau de valeurs de type float.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur le type de propriété PT_MV_R4, voir [Types de propriété](property-types.md).
+Pour plus d'informations sur le type de propriété PT_MV_R4, consultez la rubrique [types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

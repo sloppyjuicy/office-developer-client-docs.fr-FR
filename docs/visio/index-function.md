@@ -8,47 +8,47 @@ f1_keywords:
 - Vis_DSS.chm82251443
 localization_priority: Normal
 ms.assetid: cc46f91e-733f-e25a-17d2-19df8c8febd2
-description: Retourne la sous-chaîne dans l’index de l’emplacement de base zéro dans la liste délimitée par délimiteur. Ou, si l’index est hors plage, cette propriété renvoie une chaîne vide ou la valeur facultative fournie comme argument errorvalue.
-ms.openlocfilehash: b801f3b2a762f7767f32953806178be3eb264398
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la sous-chaîne à l'index d'emplacement de base zéro dans la liste délimité par délimiteur. Ou, si l'index est en dehors de la plage, renvoie une chaîne vide ou le jeton facultatif fourni en tant qu'argument ERRORVALUE.
+ms.openlocfilehash: 11362ed984a489682d57f007300e60de548ddf11
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344729"
 ---
-# <a name="index-function"></a>INDEX, fonction
+# <a name="index-function"></a>Fonction INDEX
 
-Retourne la sous-chaîne à l' emplacement de base zéro _index_ dans la _liste_ délimitée par _délimiteur_. Ou, si l’index est hors plage, cette propriété renvoie une chaîne vide ou la valeur facultative fournie comme argument *errorvalue* . 
+Renvoie la sous-chaîne à l' _index_ d'emplacement de base zéro dans la _liste_ délimité __ par délimiteur. Ou, si l'index est en dehors de la plage, renvoie une chaîne vide ou le jeton facultatif fourni en tant qu'argument *ERRORVALUE* . 
   
 ## <a name="syntax"></a>Syntaxe
 
-INDEX (** *index* **, « ** *liste* ** » [, [** *délimiteur* **] [, [** *errorvalue* **]]]) 
+Index (* * *index* * *, "* * *List* * *" [, [* * ** Delimiter * *] [, [* * *ERRORVALUE* * *]]]) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _index_ <br/> |Obligatoire  <br/> |**Number** <br/> |Emplacement à localiser.  <br/> |
-| _liste_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Liste dans laquelle effectuer la recherche.  <br/> |
-| _delimiter_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | La chaîne à utiliser comme délimiteur dans la _liste_. Une chaîne de _délimiteur_ peut comporter plusieurs caractères et inclure des caractères codés. La valeur par défaut est un point-virgule.  <br/> |
+| _liste_ <br/> |Obligatoire  <br/> |**String** <br/> |Liste dans laquelle effectuer la recherche.  <br/> |
+| _delimiter_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Chaîne à utiliser en tant que délimiteur dans la _liste_. Une __ chaîne de délimiteur peut contenir plusieurs caractères et inclure des caractères multioctets. La valeur par défaut est le point-virgule.  <br/> |
 | _ERRORVALUE_ <br/> |Facultatif  <br/> |**Number** <br/> | Valeur définie par l’utilisateur renvoyée si l’index est hors des limites admises. La valeur par défaut est une chaîne vide.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Si la liste commence ou se termine par un délimiteur, on considère qu’une chaîne nulle est placée avant ou après la liste. Si plusieurs délimiteurs se suivent, on considère qu’ils sont séparés par une chaîne nulle. 
   
-Si l’index est hors limites, Visio renvoie une chaîne vide ou la valeur facultative fournie comme argument *errorvalue* . 
+Si l'index est en dehors de la plage, Visio renvoie une chaîne vide ou le jeton facultatif fourni en tant qu'argument *ERRORVALUE* . 
   
 ## <a name="example-1"></a>Exemple 1
 
-INDEX(3,"chat;rat;;chèvre")
+INDEX (3, "cat; rat;; chèvre ")
   
 Renvoie « chèvre ».
   
 ## <a name="example-2"></a>Exemple 2
 
-INDEX(54,";1;2;3;",,"ERREUR")
+INDEX (54, "; 1; 2; 3;",, "ERREUR")
   
-Renvoie « Erreur ».
+Renvoie «erreur».
   
 

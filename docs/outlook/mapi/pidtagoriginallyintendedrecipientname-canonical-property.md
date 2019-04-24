@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c406fb-8778-4f85-bbdc-4cabfa140248
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7fae59d23d2d335513cbbddc22638ed623d894b7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8637ef8036ccec79b82bcfff4a9f6d21fd5c2e11
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342587"
 ---
 # <a name="pidtagoriginallyintendedrecipientname-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipientName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom du destinataire à l’origine d’un message transféré automatiquement codé.
+Contient le nom encodé du destinataire initial d'un message autoforwarded.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINALLY_INTENDED_RECIPIENT_NAME  <br/> |
-|Identificateur :  <br/> |0 x 0020  <br/> |
+|Identificateur :  <br/> |0x0020  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La propriété **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** doit être définie par l’agent automatique qui a transféré le message. 
+La propriété **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** doit être définie par l'agent automatique qui a transféré le message. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

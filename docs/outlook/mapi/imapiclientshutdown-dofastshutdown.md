@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 310cba9a-a343-484d-a029-fcd51b731460
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 41c4ee65ce6ae8f2e0d978f1e2bd95adb4f5872a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 32a0051207ae34f919523fbfe3e01601b7ea5d2a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350903"
 ---
 # <a name="imapiclientshutdowndofastshutdown"></a>IMAPIClientShutdown::DoFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575174"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l’intention du client MAPI pour quitter le processus de client immédiatement.
+Indique l'intention du client MAPI de quitter immédiatement le processus client.
   
 ```cpp
 HRESULT DoFastShutdown ();
@@ -35,15 +35,15 @@ HRESULT DoFastShutdown ();
 
 S_OK
   
-> Le sous-système MAPI a indiqué pour les fournisseurs MAPI chargés que le client MAPI vient de quitter immédiatement, et les fournisseurs MAPI sont prêts pour la sortie du client.
+> Le sous-système MAPI a indiqué à charger des fournisseurs MAPI que le client MAPI quitte immédiatement, et les fournisseurs MAPI sont prêts pour la fermeture du client.
     
 MAPI_E_NO_SUPPORT
   
-> Le sous-système MAPI ne gère pas l’arrêt rapide du client.
+> Le sous-système MAPI ne prend pas en charge l'arrêt rapide du client.
     
 ## <a name="remarks"></a>Remarques
 
-Pour éviter toute perte de données à partir de l’arrêt rapide d’un client MAPI, les clients MAPI doivent appeler les méthodes [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) et **IMAPIClientShutdown::DoFastShutdown** en fonction du résultat S_OK renvoyé par le sous-système MAPI dans la méthode [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Pour plus d’informations, voir [Meilleures pratiques pour l’arrêt rapide](best-practices-for-fast-shutdown.md).
+Pour éviter toute perte de données lors de l'arrêt rapide d'un client MAPI, les clients MAPI doivent appeler les [IMAPIClientShutdown:: NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) et **IMAPIClientShutdown::D ofastshutdown** méthodes basées sur le résultat S_OK renvoyé par le sous-système MAPI dans la méthode [IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Pour plus d'informations, consultez la rubrique [meilleures pratiques pour l'arrêt rapide](best-practices-for-fast-shutdown.md).
   
 ## <a name="see-also"></a>Voir aussi
 

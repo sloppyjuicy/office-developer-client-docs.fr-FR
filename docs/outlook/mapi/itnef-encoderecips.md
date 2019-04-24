@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3ce4b0e-4f48-4a7e-a30c-c4754bccb12c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6324dcc567aee48f190f8568c6c94b5ee87c731f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: d8caa503e557d35e259db743505d39ea4809dbfd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348656"
 ---
 # <a name="itnefencoderecips"></a>ITnef::EncodeRecips
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584564"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Encode un affichage pour la table des destinataires d’un message dans le flux de données de Transport-Neutral Encapsulation Format (TNEF) pour le message.
+Encode une vue pour la table de destinataires d'un message dans le flux de données TNEF (Transport-Neutral Encapsulation Format) du message.
   
 ```cpp
 HRESULT EncodeRecips(
@@ -34,7 +34,7 @@ HRESULT EncodeRecips(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -42,23 +42,23 @@ HRESULT EncodeRecips(
     
  _lpRecipientTable_
   
-> [in] Pointeur vers la table de destinataires pour lesquels l’affichage est codé. Le paramètre _lpRecipientTable_ peut être NULL. 
+> dans Pointeur vers la table de destinataire pour laquelle l'affichage est encodé. Le paramètre _lpRecipientTable_ peut être null. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et renvoyé la valeur attendue ou les valeurs.
+> L'appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-Transport, fournisseurs de banque de message et passerelles appel la méthode **ITnef::EncodeRecips** pour effectuer le codage TNEF pour un affichage tableau destinataire particulier. Le codage TNEF est utile, par exemple, si un fournisseur ou une passerelle nécessite un ensemble de colonnes particulier, ordre de tri ou restriction pour la table de destinataires. 
+Les fournisseurs de transport, les fournisseurs de banques de messages et les passerelles appellent la méthode **ITnef:: EncodeRecips** pour effectuer un codage TNEF pour une vue de table de destinataires particulière. Le codage TNEF est utile, par exemple, si un fournisseur ou une passerelle nécessite un jeu de colonnes, un ordre de tri ou une restriction particulière pour la table des destinataires. 
   
-Un fournisseur ou une passerelle transmet l’affichage tableau doivent être codées dans le paramètre _lpRecipientTable_ . L’implémentation TNEF encode la table de destinataires avec la vue spécifiée, à l’aide de la colonne donnée set, ordre de tri, les restrictions et position. Si un fournisseur ou une passerelle passe NULL _lpRecipientTable_, TNEF Obtient la table de destinataires du message encodé à l’aide de la méthode [IMessage::GetRecipientTable](imessage-getrecipienttable.md) , processus et chaque ligne du tableau dans le flux TNEF à l’aide de la paramètres actuels de la table. 
+Un fournisseur ou une passerelle passe l'affichage tableau à coder dans le paramètre _lpRecipientTable_ . L'implémentation TNEF encode la table de destinataires avec l'affichage donné à l'aide du jeu de colonnes donné, de l'ordre de tri, de la restriction et de la position. Si un fournisseur ou une passerelle transmet NULL dans _lpRecipientTable_, TNEF obtient la table de destinataires à partir du message en cours de codage à l'aide de la méthode [IMessage:: GetRecipientTable](imessage-getrecipienttable.md) , puis traite chaque ligne de la table dans le flux TNEF à l'aide du paramètres actuels de la table. 
   
-Appel **EncodeRecips** avec la valeur NULL dans _lpRecipientTable_ ainsi encode tous les destinataires du message et revient à appeler la méthode [ITnef::AddProps](itnef-addprops.md) avec l’indicateur TNEF_PROP_INCLUDE dans son paramètre _ulFlags_ et la **PR_ MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) propriété dans son paramètre _lpPropList_ . 
+L'appel de **EncodeRecips** avec NULL dans _lpRecipientTable_ code tous les destinataires de message et équivaut à l'appel de la méthode [ITnef:: AddProps](itnef-addprops.md) avec l'indicateur TNEF_PROP_INCLUDE dans son paramètre _ulFlags_ et le **PR_ MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) dans son paramètre _lpPropList_ . 
   
-Notez qu’il est rarement nécessaire d’appeler **EncodeRecips** sauf s’il existe une condition requise pour coder un affichage de tableau destinataire particulier. Systèmes de messagerie étrangers ont presque toujours des outils de gestion des listes de destinataires qui sont suffisamment puissants pour gérer les besoins courants de codage des listes de destinataires ; Par conséquent, ces systèmes nécessitent pratiquement jamais TNEF à cet effet. 
+Notez qu'il est rarement nécessaire d'appeler **EncodeRecips** à moins qu'il ne soit nécessaire de coder une vue de table de destinataires particulière. Les systèmes de messagerie étrangers disposent presque toujours de fonctionnalités permettant de gérer les listes de destinataires suffisamment puissantes pour répondre aux besoins communs d'encodage des listes de destinataires; par conséquent, ces systèmes n'ont presque jamais besoin de format TNEF à cet effet. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,41 +11,41 @@ api_name:
 api_type:
 - COM
 ms.assetid: d566ff39-92c1-4a14-85e5-1c406825f805
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ae2729ec5620b6b408a5c999d4b6ede7143bed2f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: db0c375218755c3a28475e2ebce2d097fb789f75
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351134"
 ---
 # <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère un formulaire dans l’Observateur d’une application cliente formulaire. 
+Gère un formulaire dans la visionneuse de formulaires d'une application cliente. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Exposés par :  <br/> |Afficher les objets de contexte  <br/> |
-|Implémentée par :  <br/> |Visionneuses de formulaire  <br/> |
-|Appelée par :  <br/> |Objets de formulaire  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPIViewContext  <br/> |
-|Type de pointeur :  <br/> |LPMAPIVIEWCONTEXT  <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Exposé par:  <br/> |Afficher les objets de contexte  <br/> |
+|Implémenté par :  <br/> |Visionneuses de formulaires  <br/> |
+|Appelé par :  <br/> |Objets de formulaires  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPIViewContext  <br/> |
+|Type de pointeur:  <br/> |LPMAPIVIEWCONTEXT  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Gère l’inscription d’un formulaire pour recevoir des notifications sur les modifications dans la visionneuse.  <br/> |
-|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Active le message suivant ou précédent dans la visionneuse de formulaire.  <br/> |
-|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Récupère les informations d’impression en cours.  <br/> |
-|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Récupère un flux de données à utiliser pour l’enregistrement du message en cours.  <br/> |
-|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Récupère l’état actuel de la visionneuse.  <br/> |
-|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui se produisent dans l’objet de contexte de vue.  <br/> |
+|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Gère l'inscription d'un formulaire pour recevoir des notifications sur les modifications apportées à la visionneuse.  <br/> |
+|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Active le message suivant ou précédent dans la visionneuse de formulaires.  <br/> |
+|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Récupère les informations d'impression actuelles.  <br/> |
+|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Récupère un flux à utiliser pour enregistrer le message actif.  <br/> |
+|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Récupère l'état actuel de la visionneuse.  <br/> |
+|[Généré](imapiviewcontext-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente qui s'est produite dans l'objet de contexte d'affichage.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

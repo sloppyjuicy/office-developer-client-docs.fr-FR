@@ -9,45 +9,45 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 96b8c503-67b3-8623-d99b-0dad7b15c224
 description: Indique si cette forme peut fractionner les formes fractionnables.
-ms.openlocfilehash: b782977bd5b7e828223675eb16f4e7e48f4ca55d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46b42e9be070b54095d3e9a5c247d63be6348f77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349118"
 ---
 # <a name="shapesplit-cell-shape-layout-section"></a>ShapeSplit, cellule (section Shape Layout)
 
 Indique si cette forme peut fractionner les formes fractionnables.
   
-|**Valeur**|**Description**|**Constante d’Automation**|
+|**Value**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Ne pas autoriser cette forme à en fractionner d’autres.  <br/> |**visSLOSplitNone** <br/> |
-| 1  <br/> | Autoriser cette forme à en fractionner d’autres.  <br/> |**visSLOSplitAllow** <br/> |
+| 0,1  <br/> | Autoriser cette forme à en fractionner d’autres.  <br/> |**visSLOSplitAllow** <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Une forme qui peut en fractionner d’autres doit être une forme 2D ou une forme 1D positionnable. 
   
 Le fractionnement automatique des formes est activé et désactivé à trois niveaux différents : application, page et forme. Par défaut, le fractionnement est activé aux niveaux application et page ; pour les formes, il varie en fonction du type de dessin. 
   
-Pour activer ou désactiver le fractionnement au niveau de l’application, utilisez le paramètre **Autoriser le fractionnement** sur l’onglet **Avancé** de la boîte de dialogue **Options Visio** (cliquez sur l’onglet **fichier** , cliquez sur **Options**, puis cliquez sur ** Avancés**). 
+Pour activer ou désactiver le fractionnement au niveau de l'application, utilisez le paramètre autoriser le fractionnement des **liens** sous l'onglet options **avancées** de la boîte de dialogue **options Visio** (cliquez sur l'onglet **fichier** , sur **options**, puis sur ** Avancé**). 
   
 Pour activer ou désactiver le fractionnement sur une page, reportez-vous à la cellule PageShapeSplit. 
   
 Pour rendre une forme 1D fractionnable, reportez-vous à la cellule ShapeSplittable.
   
-Pour obtenir une référence à la cellule ShapeSplit par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule ShapeSplit par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
   
 |||
 |:-----|:-----|
 | Nom de cellule :  <br/> | ShapeSplit  <br/> |
    
-Pour obtenir une référence à la cellule ShapeSplit par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule ShapeSplit à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 | Index de la cellule :  <br/> |**visSLOSplit** <br/> |
    

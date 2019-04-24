@@ -1,5 +1,5 @@
 ---
-title: Implémentation d’un objet récepteur de conseil
+title: Implémentation d'un objet de récepteur de notifications
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,40 +7,40 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7461c4f6-7030-4ba2-ada4-26ebfbbfa001
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b457fce208923ce01686812f20031e365842ccd8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ecaad65d28f74b843b86ca82dab9a833ade77363
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351099"
 ---
-# <a name="implementing-an-advise-sink-object"></a>Implémentation d’un objet récepteur de conseil
+# <a name="implementing-an-advise-sink-object"></a>Implémentation d'un objet de récepteur de notifications
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un client peut implémenter ses propres objets du récepteur advise ou utiliser une fonction utilitaire, [HrAllocAdviseSink](hrallocadvisesink.md). **HrAllocAdviseSink** crée un objet de récepteur advise avec une implémentation **OnNotify** qui appelle une fonction de rappel. 
+Un client peut implémenter ses propres objets de récepteur de notification ou utiliser une fonction utilitaire, [HrAllocAdviseSink](hrallocadvisesink.md). **HrAllocAdviseSink** crée un objet de récepteur de notifications avec une implémentation de **OnNotify** qui appelle une fonction de rappel. 
   
-Il existe des avantages et inconvénients **HrAllocAdviseSink**. Il peut enregistrer le travail, mais il ne permet de contrôler aucun décompte de l’objet récepteur advise qu’il crée. Par conséquent, les clients qui ont besoin de contrôler avec soin version du récepteur de leurs notifications ou qui ont des interdépendances entre leur récepteur de notifications et un autre objet client doivent créer leur propre implémentation **IMAPIAdviseSink** et éviter d’utiliser ** HrAllocAdviseSink** complètement. 
+L'utilisation de **HrAllocAdviseSink**présente des avantages et des inconvénients. Elle peut enregistrer le travail, mais elle ne fournit aucun contrôle sur le décompte de référence de l'objet récepteur de notification qu'il crée. Par conséquent, les clients qui doivent contrôler soigneusement la version du récepteur de notification ou qui ont des interdépendances entre leur récepteur de notification et un autre objet client doivent créer leur propre implémentation **IMAPIAdviseSink** et éviter d'utiliser ** HrAllocAdviseSink** . 
   
-Un client de mise en œuvre son propre récepteur de notifications doit rendre un objet indépendant non liés aux ou dépendent d’autres objets afin d’éliminer les problèmes potentiels de version de comptage et l’objet de référence. Toutefois, si vous devez implémenter votre récepteur de notifications dans le cadre d’un autre objet ou inclure un pointeur vers un autre objet en tant que membre de données arrière, il est recommandé que deux le nombre de référence séparée est mis à jour : un pour l’objet référencé par le récepteur de notifications et un pour le récepteur de notification. 
+Un client qui met en œuvre son propre récepteur de notification doit en faire un objet indépendant qui n'est pas lié à ou dépendant d'autres objets afin d'éviter toute complications potentielles dans le décompte de références et la version d'objet. Toutefois, si vous devez implémenter votre récepteur de notifications dans le cadre d'un autre objet ou inclure un pointeur vers un autre objet en tant que membre de données, il est recommandé de conserver deux compteurs de référence distincts: un pour l'objet référencé par le récepteur de notifications et un pour le récepteur de notifications. 
   
-Lorsque le décompte de références de l’objet référencé tombe à zéro, tous ses méthodes peuvent échouer et ses vtable peut être détruit, mais la mémoire pour le récepteur de notifications doit conservés jusqu'à après que son décompte de références également descend à zéro. Cela signifie que méthode de **publication** du récepteur advise doit décrémente le décompte de références et terminer la destruction de l’objet lorsque ce décompte atteint zéro. Si les deux comptes de référence distincts ne sont pas conservées, il est facile de détruire accidentellement le récepteur de notifications dans le cadre du processus de **publication** de l’objet de niveau supérieur. 
+Lorsque le décompte de références de l'objet référencé est égal à zéro, toutes ses méthodes peuvent échouer et sa vtable peut être détruite, mais la mémoire pour le récepteur de notifications doit demeurer intacte jusqu'à ce que son nombre de références tombe également à zéro. Cela signifie que la méthode **Release** du récepteur de notification doit décrémenter son décompte de référence et finir de détruire l'objet lorsque ce nombre atteint zéro. Si deux décomptes de références distincts ne sont pas maintenus, il est facile de détruire accidentellement le récepteur de notifications dans le cadre du processus de **publication** de l'objet englobant. 
   
-Clients à l’aide de **HrAllocAdviseSink** pour implémenter un récepteur de notifications doivent être également veiller à ne pas inclure de leur fonction de rappel en tant que méthode dans un autre objet récepteur de notifications. Pour les clients C++, il est tentant de faire passer le pointeur _this_ comme paramètre. Il s’agit d’une stratégie dangereuse parce que les clients libèrent généralement un objet lorsque son décompte de références atteint zéro. Libérer de la mémoire pour l’objet de récepteur advise se rendre le pointeur _this_ non valide. 
+Les clients qui utilisent **HrAllocAdviseSink** pour implémenter un récepteur de notifications doivent être également vigilants pour ne pas inclure leur fonction de rappel en tant que méthode dans un autre objet de récepteur de notification. Pour les clients C++, il est tentant de le faire et de transmettre le pointeur _This_ en tant que paramètre. Il s'agit d'une stratégie dangereuse, car les clients libèrent généralement un objet lorsque son nombre de références atteint zéro. La libération de la mémoire pour l'objet récepteur de notification rend le pointeur _This_ non valide. 
   
-Selon le type d’événement et la source de notifications, votre méthode **OnNotify** peut gérer les événements de différentes manières. Le tableau suivant propose des suggestions sur la façon de gérer certains événements standards. 
+Selon le type d'événement et la source de notification, votre méthode **OnNotify** peut gérer les événements de différentes manières. Le tableau suivant présente des suggestions de gestion de certains événements standard. 
   
-|**Type d’événement**|**Gestion de OnNotify**|
+|**Type d'événement**|**Gestion dans OnNotify**|
 |:-----|:-----|
-|Objet déplacé  <br/> |Si le parent d’origine de l’objet déplacé est lié au nouveau parent, mettre à jour le début de l’affichage du dossier ou du conteneur de carnet d’adresses la plus élevée dans la hiérarchie. Si les conteneurs deux parents ne sont pas liés, mettre à jour de leur point de vue.  <br/> |
-|Nouveau message  <br/> |Modifier l’interface utilisateur pour informer l’utilisateur de l’arrivée d’un ou plusieurs nouveaux messages. Placez le dossier de réception dans l’affichage actuel.  <br/> |
-|Error  <br/> |Pour tous les objets à l’exception de la session, ouvrez une session l’erreur si nécessaire et de retour. Pour l’objet session, fermez la session, si possible.  <br/> |
-|Recherche terminée  <br/> |Aucun traitement n’est nécessaire.  <br/> |
+|Objet déplacé  <br/> |Si le parent d'origine de l'objet déplacé est lié au nouveau parent, mettez à jour l'affichage en commençant par le conteneur ou le conteneur du carnet d'adresses le plus haut dans la hiérarchie. Si les deux conteneurs parents ne sont pas liés, mettez à jour ces deux vues.  <br/> |
+|Nouveau message  <br/> |Modifier l'interface utilisateur pour informer l'utilisateur de l'arrivée d'un ou plusieurs nouveaux messages. Placez le dossier de réception dans l'affichage actuel.  <br/> |
+|Error  <br/> |Pour tous les objets à l'exception de la session, consignez l'erreur si nécessaire et renvoyez-la. Pour l'objet session, déconnectez-vous dans la mesure du possible.  <br/> |
+|Recherche terminée  <br/> |Aucun traitement nécessaire.  <br/> |
    
 > [!NOTE]
-> Gestionnaires de notification doivent être réentrants. 
+> Les gestionnaires de notification doivent être réentrants. 
   
 

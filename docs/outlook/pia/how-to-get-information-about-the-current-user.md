@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b169eb1baadee92c08bcb68726ae4d18a9d79d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349391"
 ---
 # <a name="get-information-about-the-current-user"></a>Obtention des informations de l’utilisateur actuel
 
@@ -25,7 +25,7 @@ Cet exemple montre comment obtenir les informations (par exemple, le nom, la fon
 
 Pour obtenir un objet [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) à partir d’un objet [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)), appelez la méthode [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) sur l’objet **AddressEntry**. Dans la procédure suivante, GetCurrentUserInfo obtient la propriété [AddressEntry](https://msdn.microsoft.com/library/bb644359\(v=office.15\)) de l’objet [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) en utilisant la propriété [CurrentUser](https://msdn.microsoft.com/library/bb622574\(v=office.15\)). Si l’objet **AddressEntry** représente un utilisateur de boîte aux lettres Exchange, GetCurrentUserInfo appelle la méthode **GetExchangeUser** et un objet **ExchangeUser** est renvoyé. Les propriétés [Name](https://msdn.microsoft.com/library/bb622941\(v=office.15\)), [PrimarySmtpAddress](https://msdn.microsoft.com/library/bb645506\(v=office.15\)), [JobTitle](https://msdn.microsoft.com/library/bb645451\(v=office.15\)), [Department](https://msdn.microsoft.com/library/bb623789\(v=office.15\)), [OfficeLocation](https://msdn.microsoft.com/library/bb611429\(v=office.15\)), [BusinessTelephoneNumber](https://msdn.microsoft.com/library/bb612294\(v=office.15\)) et [MobileTelephoneNumber](https://msdn.microsoft.com/library/bb609292\(v=office.15\)) sont écrites dans les écouteurs de suivi de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

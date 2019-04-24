@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02e18d97-25d2-49a3-a63d-26a70895e21c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: fbadc9407a181ba58b4bcd726df05465b11dc789
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 04d97dfeeef28aac1d0bbf963074b4262d4fed3d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346304"
 ---
 # <a name="pidtagreportingmessagetransferagentcertificate-canonical-property"></a>Propriété canonique PidTagReportingMessageTransferAgentCertificate
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur de l’agent qui a généré un rapport.
+Contient un identificateur pour l'agent de transfert des messages qui a généré un rapport.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORTING_MTA_CERTIFICATE  <br/> |
-|Identificateur :  <br/> |0 x 1004  <br/> |
+|Identificateur :  <br/> |0x1004  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Message MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété correspond à un attribut de message de rapport X.400.
+Cette propriété correspond à l'attribut par message de l'État X. 400.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

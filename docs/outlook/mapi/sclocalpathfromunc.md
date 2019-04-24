@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef5eb5c6-251e-4a3a-8855-7c28804a29ab
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e303361f4f0dd3a08dbb362096d07b8b391a6d97
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e7607a57da5b618a20d6c8e360c7e3cb4f933856
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351246"
 ---
 # <a name="sclocalpathfromunc"></a>ScLocalPathFromUNC
 
@@ -25,13 +25,13 @@ ms.locfileid: "22594417"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Localise un équivalent du chemin d’accès local pour le chemin UNC (convention) d’affectation de noms universels. 
+Localise un chemin d'accès local équivalent au chemin d'accès UNC (Universal Naming Convention) donné. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 SCODE ScLocalPathFromUNC(
@@ -45,33 +45,33 @@ SCODE ScLocalPathFromUNC(
 
  _szUNC_
   
-> [in] Un chemin d’accès au format \\[ _server_]\[ _partager_]\[ _chemin d’accès_] d’un fichier ou un répertoire.
+> dans Un chemin d'accès au \\format [ _Server_]\[ _share_]\[ _path_] d'un fichier ou d'un répertoire.
     
  _szLocal_
   
-> [out] Un chemin d’accès dans le format [ _lecteur :_]\[ _chemin d’accès_] du même fichier ou répertoire que pour le paramètre _szUNC_ . 
+> remarquer Un chemin d'accès au format [ _lecteur:_]\[ _chemin d'accès_] du même fichier ou répertoire que le paramètre _szUNC_ . 
     
  _cchLocal_
   
-> [in] Taille de la mémoire tampon de la chaîne de sortie.
+> dans Taille de la mémoire tampon pour la chaîne de sortie.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Un chemin d’accès local a été trouvé.
+> Un chemin d'accès local a été correctement localisé.
     
 MAPI_E_TOO_BIG
   
->  _szLocal_ n’était pas suffisante pour contenir le résultat. 
+>  _szLocal_ n'était pas assez grand pour contenir le résultat. 
     
 S_FALSE
   
-> La chaîne UNC est déjà un chemin d’accès local.
+> La chaîne UNC était déjà un chemin d'accès local.
     
 MAPI_E_NOT_FOUND
   
-> Un chemin d’accès local est introuvable.
+> Un chemin d'accès local est introuvable.
     
 ## <a name="see-also"></a>Voir aussi
 

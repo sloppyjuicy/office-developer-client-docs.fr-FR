@@ -1,5 +1,5 @@
 ---
-title: Obtention des informations des collaborateurs directs du responsable de l’utilisateur actuel
+title: Obtention des informations des collaborateurs directs du manager de l’utilisateur actuel
 TOCTitle: Get information about direct reports of the current user's manager
 ms:assetid: 768bf573-1b10-4776-8947-a7f8dc3ebde0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184617(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d49e96138d8cd2d857c49cc293258e1493afc747
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349433"
 ---
 # <a name="get-information-about-direct-reports-of-the-current-users-manager"></a>Obtention des informations des collaborateurs directs du responsable de l’utilisateur actuel
 
@@ -29,7 +29,7 @@ Dans l’exemple suivant, la procédure GetManagerDirectReports appelle la méth
 > [!NOTE]
 > L’utilisateur doit être en ligne pour que cette méthode renvoie une collection **AddressEntries**. Sinon, **GetDirectReports** renvoie une référence Null. Pour le code de production, vous devez tester que l’utilisateur est hors connexion à l’aide de la propriété [\_NameSpace.ExchangeConnectionMode](https://msdn.microsoft.com/library/bb647638(v=office.15)) ou [\_Account.ExchangeConnectionMode](https://msdn.microsoft.com/library/ff185249(v=office.15)) pour plusieurs scénarios Exchange.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

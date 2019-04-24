@@ -11,40 +11,40 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e6413cb9-2633-44a0-b408-b5688c47433e
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 2ff1aa15966d4bd4803c19b3f3317eeb1d57ca9a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342531"
 ---
 # <a name="pidtagmessagesizeextended-canonical-property"></a>Propriété canonique PidTagMessageSizeExtended
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une version d’entier 64 bits de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
+Contient une version de l'entier 64 bits de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_SIZE_EXTENDED  <br/> |
 |Identificateur :  <br/> |0x0E08  <br/> |
 |Type de données :  <br/> |PT_I8  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -52,17 +52,17 @@ Contient une version d’entier 64 bits de la propriété **PR_MESSAGE_SIZE** ([
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Spécifie les opérations autorisées pour les objets de banque de messages principale.
+> Spécifie les opérations admissibles pour les objets principaux de la Banque de messages.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: 030d5c21-ab02-4047-bf2d-9a402a1e9102
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e600d309a5b545ddd46f93f68d7bcb23b763ca24
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 87df676dccdb067302d62da2bd1fda6b634ed4f8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350658"
 ---
 # <a name="pidtagxcoordinate-canonical-property"></a>Propriété canonique PidTagXCoordinate
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la coordonnée x de la position de départ (le coin supérieur gauche) d’un contrôle de boîte de dialogue, en unités de boîte de dialogue Windows standards.
+Contient la coordonnée x de la position de départ (angle supérieur gauche) d'un contrôle de boîte de dialogue, dans les unités de boîte de dialogue Windows standard.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_XPOS  <br/> |
 |Identificateur :  <br/> |0x3F05  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Afficher une table MAPI  <br/> |
+|Domaine :  <br/> |Table d'affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) et **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) propriétés position et la taille du contrôle de boîte de dialogue.
+Les propriétés de cette propriété, de **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) et **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) déplacent et dimensionnent le contrôle de boîte de dialogue.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

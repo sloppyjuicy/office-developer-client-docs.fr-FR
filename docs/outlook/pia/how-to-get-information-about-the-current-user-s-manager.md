@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fd5b49a2b1f1e494a494cf1bea4e105fa261e053
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349440"
 ---
 # <a name="get-information-about-the-current-users-manager"></a>Obtention des informations du manager de l’utilisateur actuel
 
@@ -25,7 +25,7 @@ Cet exemple montre comment obtenir les informations (par exemple, le nom, la fon
 
 Dans la procédure suivante, GetManagerInfo appelle la méthode [GetExchangeUserManager()](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) pour obtenir un objet [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) qui représente le manager d’un **ExchangeUser** dans la hiérarchie organisationnelle. La procédure teste si l’utilisateur connecté est en ligne pour vérifier que **GetExchangeUserManager** peut renvoyer un objet **ExchangeUser**. Si l’utilisateur n’est pas en ligne, **GetExchangeUserManager** renvoie une référence nulle. GetManagerInfo écrit ensuite les informations relatives au manager dans les écouteurs de suivi de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -66,5 +66,5 @@ private void GetManagerInfo()
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisateurs Exchange](exchange-users.md)
+- [Utilisateurs Exchange](exchange-users.md)
 

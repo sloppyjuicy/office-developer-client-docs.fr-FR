@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5908069f5fa887fd9d2e3f8c0df75f2e3d69515c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: ca42e91528cdb7e61ae3620989c4a89966db1061
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349279"
 ---
 # <a name="imessagegetrecipienttable"></a>IMessage::GetRecipientTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579535"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un tableau de destinataire du message.
+Renvoie la table de destinataires du message.
   
 ```cpp
 HRESULT GetRecipientTable(
@@ -34,23 +34,23 @@ HRESULT GetRecipientTable(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le retour de la table. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle le retour de la table. Les indicateurs suivants peuvent être définis:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet de **GetRecipientTable** renvoyer avec succès, éventuellement, avant de la table est totalement disponible au client appelant. Si le tableau n’est pas disponible, vous appelez suivante lui peut provoquer une erreur. 
+> Permet à **GetRecipientTable** de retourner correctement, éventuellement avant que la table soit entièrement disponible pour le client appelant. Si la table n'est pas disponible, un appel ultérieur de celle-ci peut entraîner une erreur. 
     
 MAPI_UNICODE 
   
-> Colonnes de la chaîne doivent être au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les colonnes de la chaîne doivent être au format ANSI.
+> Les colonnes de chaîne doivent être au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les colonnes de chaîne doivent être au format ANSI.
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers la table de destinataires.
+> remarquer Pointeur vers un pointeur vers le tableau de destinataires.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -60,25 +60,25 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMessage::GetRecipientTable** retourne un pointeur vers la table des destinataires du message, qui consacrée des informations sur tous les destinataires du message. Il existe une ligne pour chaque destinataire. 
+La méthode **IMessage:: GetRecipientTable** renvoie un pointeur vers la table de destinataires du message, qui inclut des informations sur tous les destinataires du message. Il y a une ligne pour chaque destinataire. 
   
-Tables de destinataires ont une colonne différente selon que le message a été envoyé. Pour obtenir une liste complète des colonnes dans une table de destinataires, voir [Les Tables de destinataire](recipient-tables.md).
+Les tables de destinataires ont un jeu de colonnes différent selon que le message a été envoyé ou non. Pour obtenir la liste complète des colonnes d'un tableau de destinataires, consultez la rubrique [tables](recipient-tables.md)des destinataires.
   
-Certaines tables de destinataires de prendre en charge une grande variété de restrictions ; d’autres ne le sont pas. Prise en charge des restrictions dépend de l’implémentation du fournisseur de banque de messages. 
+Certaines tables de destinataires prennent en charge un large éventail de restrictions; d'autres non. La prise en charge des restrictions dépend de l'implémentation du fournisseur de banque de messages. 
   
-Définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte les appels suivants de la table de destinataires : 
+La définition de l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte les appels suivants à la table de destinataires: 
   
-- [IMAPITable::QueryColumns](imapitable-querycolumns.md) pour extraire l’ensemble de colonnes. 
+- [IMAPITable:: QueryColumns](imapitable-querycolumns.md) pour récupérer le jeu de colonnes. 
     
-- [IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer des lignes. 
+- [IMAPITable:: QueryRows](imapitable-queryrows.md) pour extraire des lignes. 
     
-- [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) pour récupérer l’ordre de tri. 
+- [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) pour récupérer l'ordre de tri. 
     
-Si les demandes d’indicateur Unicode que les informations des colonnes de la chaîne retournée par ces appels au format Unicode. Toutefois, étant donné que tous les fournisseurs de banque de messages prennent en charge Unicode, définition de cet indicateur est uniquement une demande.
+Définition des demandes d'indicateur Unicode pour que les informations de toutes les colonnes de chaînes renvoyées à partir de ces appels soient au format Unicode. Toutefois, étant donné que tous les fournisseurs de banques de messages ne prennent pas en charge Unicode, la définition de cet indicateur n'est qu'une requête.
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez modifier une table de destinataires lorsqu’il est ouvert en appelant la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . **ModifyRecipients** ajoute des destinataires, supprime les destinataires ou modifie les propriétés de destinataire. 
+Vous pouvez modifier une table de destinataires lorsqu'elle est ouverte en appelant la méthode [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . **ModifyRecipients** ajoute des destinataires, supprime des destinataires ou modifie les propriétés des destinataires. 
   
 ## <a name="see-also"></a>Voir aussi
 

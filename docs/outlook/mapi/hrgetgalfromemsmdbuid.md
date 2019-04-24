@@ -7,27 +7,27 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9b824e70-ed9a-490c-b777-8902a793fece
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 4b05baf1f819a821da3496cc63c2b2980894efd7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b9a31fec93ec7fafc4d1565d63e4bc427ba4050e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347830"
 ---
 # <a name="hrgetgalfromemsmdbuid"></a>HrGetGALFromEmsmdbUID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie l’identificateur d’entrée du carnet d’adresses globale pour le service Exchange identifié par _pEmsmdbUID_. L’identificateur d’entrée renvoyée doit être libéré à l’aide de [MAPIFreeBuffer](mapifreebuffer.md).
+Renvoie l'identificateur d'entrée du carnet d'adresses global pour le service Exchange identifié par _pEmsmdbUID_. L'identificateur d'entrée retourné doit être libéré à l'aide de [MAPIFreeBuffer](mapifreebuffer.md).
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Fichier d’en-tête :  <br/> |abhelp. h  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 HRESULT HrGetGALFromEmsmdbUID(
@@ -43,22 +43,22 @@ HRESULT HrGetGALFromEmsmdbUID(
 
  _pSess_
   
-> [in] La session IMAPISession. Il ne peut pas être NULL.
+> dans Le IMAPISession connecté. Il ne peut pas être NULL.
     
  _pAddrBook_
   
-> [in] Le carnet d’adresses utilisée pour ouvrir l’identificateur d’entrée. Il ne peut pas être NULL.
+> dans Carnet d'adresses utilisé pour ouvrir l'identificateur d'entrée. Il ne peut pas être NULL.
     
  _pEmsmdbUID_
   
-> [in] Pointeur vers un **emsmdbUID** qui identifie la liste d’adresses globale du Service Exchange à récupérer. Si _pEmsmdbUID_ est NULL ou l’UID de zéro, cette fonction obtient la liste d’adresses globale héritée du Service Exchange. 
+> dans Pointeur vers un **emsmdbUID** qui identifie la liste d'adresses globale du service Exchange à récupérer. Si _pEmsmdbUID_ est null ou zéro uid, cette fonction obtient la lag héritée du service Exchange. 
     
  _lpcbeid_
   
-> [out] Pointeur vers le nombre d’octets de l’identificateur d’entrée de la liste d’adresses globale.
+> remarquer Pointeur vers le nombre d'octets de l'identificateur d'entrée de la liste d'adresses globale.
     
  _lppeid_
   
-> [out] Pointeur vers l’identificateur d’entrée de la liste d’adresses globale. Il doit être libéré à l’aide de [MAPIFreeBuffer](mapifreebuffer.md).
+> remarquer Pointeur vers l'identificateur d'entrée de la liste d'adresses globale. Cela doit être libéré à l'aide de [MAPIFreeBuffer](mapifreebuffer.md).
     
 

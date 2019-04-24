@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: aa2bebfc-a6bb-a6b3-3ae9-8553f96b5738
 description: Améliore la netteté d'une image bitmap. La valeur par défaut est 0 %. L'accentuation d'une image consiste essentiellement à augmenter le contraste de pixels adjacents.
-ms.openlocfilehash: fbc66f8c88cde67ad1f259f8392f6d3bd0457be7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e519cf6e5a168b64b4bc8aa083843163a47525ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349090"
 ---
 # <a name="sharpen-cell-image-properties-section"></a>Sharpen, cellule (section Image Properties)
 
 Améliore la netteté d'une image bitmap. La valeur par défaut est 0 %. L'accentuation d'une image consiste essentiellement à augmenter le contraste de pixels adjacents.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule Sharpen par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Sharpen par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Sharpen  <br/> |
+| Nom de la cellule :  <br/> | Sharp  <br/> |
    
 Pour obtenir une référence à la cellule Sharpen par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowImage** <br/> |
 | Index de la cellule :  <br/> |**visImageSharpen** <br/> |
    

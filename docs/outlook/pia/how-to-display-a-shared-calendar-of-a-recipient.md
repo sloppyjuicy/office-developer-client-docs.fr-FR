@@ -1,5 +1,5 @@
 ---
-title: Afficher un calendrier partagé d’un destinataire
+title: Affichage du calendrier partagé d’un destinataire
 TOCTitle: Display a shared calendar of a recipient
 ms:assetid: 3dcfec17-c836-4bd0-a177-33c911a94b1f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184606(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a9230a63af66e8143a7da488ce41dadafe359429
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356426"
 ---
 # <a name="display-a-shared-calendar-of-a-recipient"></a>Afficher un calendrier partagé d’un destinataire
 
@@ -30,11 +30,11 @@ Dans l’exemple de code suivant, DisplayManagerCalendar ouvre et afficher le do
 
 > [!NOTE]
 > Lorsque vous créez un objet **Recipient** à l'aide de la méthode **CreateRecipient** de l'objet **Namespace** ou de la méthode [Add(String)](https://msdn.microsoft.com/library/bb612668(v=office.15)) de la collection **Recipients**, vous devez spécifier un nom de destinataire. L’objet **Recipient** est ensuite résolu par rapport à ce nom. Le nom d’un destinataire peut être dans l’un des formats suivants :
-> - Nom d’affichage
+> - Nom
 > - Alias
 > - Adresse SMTP (Simple Mail Transfer Protocol)
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -79,5 +79,5 @@ private void DisplayManagerCalendar()
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Calendrier](calendar.md)
+- [Calendar](calendar.md)
 

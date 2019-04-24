@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251599
 localization_priority: Normal
 ms.assetid: 2b09eed1-1b01-e18e-d28e-674b8fc105fd
-description: Renvoie le texte de la zone de données 1 dans la boîte de dialogue Nom de la forme d’une forme (sous l’onglet Développeur, cliquez sur nom de la forme), sous forme de chaîne.
-ms.openlocfilehash: e24602ebf2f50d9321f556cad199cb3469a1e237
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le texte de la zone données 1 de la boîte de dialogue nom de la forme d'une forme (sous l'onglet Développeur, cliquez sur nom de la forme), sous la forme d'une chaîne.
+ms.openlocfilehash: 608a61f478e95c309051d5dc47919d6e68c7cb43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788403"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344652"
 ---
-# <a name="data1-function"></a>DATA1, fonction
+# <a name="data1-function"></a>Fonction DATA1
 
-Renvoie le texte de la zone de **données 1** dans la boîte de dialogue **Nom de la forme** d’une forme (sous l’onglet **développeur** , cliquez sur **Nom de la forme** ), sous forme de chaîne. 
+Renvoie le texte de la zone **données 1** de la boîte de dialogue nom de la **forme** d'une forme (sous l'onglet **développeur** , cliquez sur nom de la **forme** ), sous la forme d'une chaîne. 
   
 ## <a name="syntax"></a>Syntaxe
 

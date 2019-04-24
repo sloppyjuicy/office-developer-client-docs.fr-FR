@@ -1,5 +1,5 @@
 ---
-title: Obtention des informations de disponibilité du responsable d’un utilisateur Exchange
+title: Obtention des informations de disponibilité du manager d’un utilisateur Exchange
 TOCTitle: Get availability information for an Exchange user's manager
 ms:assetid: b59dd875-50c2-4f24-ba91-24429abf1b72
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb646996(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df3779a3b92368af75d152e662eedec1a30a97bd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349482"
 ---
 # <a name="get-availability-information-for-an-exchange-users-manager"></a>Obtention des informations de disponibilité du responsable d’un utilisateur Exchange
 

@@ -1,5 +1,5 @@
 ---
-title: Tables de files d’attente sortantes
+title: Tables de file d'attente sortantes
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,31 +7,31 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 070377ca-ba9e-42ef-ac6b-ff7548b5ccf5
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c5f136a0d26b7519bc1b7b3d8f448f5f382767ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4bf935f58fb20460bbf6baf4b1434be1f3ab8156
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348502"
 ---
-# <a name="outgoing-queue-tables"></a>Tables de files d’attente sortantes
+# <a name="outgoing-queue-tables"></a>Tables de file d'attente sortantes
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une table sortant de la file d’attente contient des informations sur tous les messages sortants pour une banque de messages. Implémentés par les fournisseurs de banque de message sortant tables de file d’attente pour le spouleur MAPI à utiliser. Magasins qui ne prennent pas en charge l’envoi ou la réception de messages ne doit pas mettre ce tableau. 
+Une table de file d'attente sortante contient des informations sur tous les messages sortants d'une banque de messages. Les fournisseurs de banque de messages implémentent des tables de file d'attente sortantes que le spouleur MAPI doit utiliser. Les banques qui ne prennent pas en charge l'envoi ou la réception de messages n'ont pas besoin d'implémenter ce tableau. 
   
-Pour accéder à une table de file d’attente sortante, le spouleur MAPI appelle la méthode [IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md) . 
+Pour accéder à une table de file d'attente de messages sortants, le spouleur MAPI appelle la méthode [IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md) . 
   
-Il est nécessaire que les messages prétraités et soumises au fournisseur de transport dans le même ordre qu’ils ont été envoyés par l’application cliente. Le spouleur MAPI est conçu pour accepter les messages de la banque de messages dans l’ordre croissant de l’heure de soumission. En raison de cette exigence, il peut être quelque temps avant que certains messages s’affichent dans le tableau sortant de la file d’attente. 
+Il est nécessaire que les messages soient prétraités et envoyés au fournisseur de transport dans l'ordre dans lequel ils ont été envoyés par l'application cliente. Le spouleur MAPI est conçu pour accepter les messages de la Banque de messages dans l'ordre croissant de la durée de dépôt. En raison de cette exigence, un certain délai peut s'écouler avant que certains messages apparaissent dans la table de file d'attente sortante. 
   
-Banques de messages doivent soit autoriser le tri de la table de file d’attente sortante afin que le spouleur MAPI permettre trier les messages par heure de soumission ou l’ordre de tri par défaut doit être par ordre croissant heure de soumission. 
+Les banques de messages doivent autoriser le tri sur la table de file d'attente sortante afin que le spouleur MAPI puisse trier les messages par heure de dépôt ou que l'ordre de tri par défaut soit défini par ordre croissant. 
   
-Le tableau sortant de la file d’attente doit envoyer des notifications lorsque le contenu de la file d’attente est modifié.
+La table de file d'attente sortante doit envoyer des notifications lorsque le contenu de la file d'attente est modifié.
   
-Les propriétés suivantes constituent la colonne requise définie dans les tableaux de file d’attente sortant :
+Les propriétés suivantes constituent le jeu de colonnes obligatoire dans les tables de file d'attente sortantes:
   
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ Les propriétés suivantes constituent la colonne requise définie dans les tabl
 |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
 |**PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md))  <br/> | <br/> |
    
-Pour plus d’informations sur l’utilisation de la table sortant de la file d’attente, consultez [Envoi de Messages par les fournisseurs de banque de Message à l’aide](sending-messages-by-using-message-store-providers.md).
+Pour plus d'informations sur l'utilisation de la table de file d'attente de messages sortants, consultez la rubrique [envoi de messages à l'aide de fournisseurs de banques de messages](sending-messages-by-using-message-store-providers.md).
   
 ## <a name="see-also"></a>Voir aussi
 

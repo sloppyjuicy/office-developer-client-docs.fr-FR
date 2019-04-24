@@ -9,21 +9,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 322b915f-d5b8-40cb-b41a-62d08f3d08f9
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: dafa251403740aca806efbb52962cc7323e55239
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b9ae59d99a683754ba00ed7363a948f9310adbf6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346367"
 ---
 # <a name="pidtagreportdispositiontonames-canonical-property"></a>Propriété canonique PidTagReportDispositionToNames
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique les noms des destinataires des rapports pour les messages reçus de demande.
+Indique les noms des destinataires des rapports pour les messages qui demandent des accusés de réception.
   
 |||
 |:-----|:-----|
@@ -32,23 +32,23 @@ Indique les noms des destinataires des rapports pour les messages reçus de dema
 |Type de données :  <br/> |PT_MV_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

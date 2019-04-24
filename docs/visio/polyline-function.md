@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm82251576
 localization_priority: Normal
 ms.assetid: 10baeec9-6c9b-b4ba-3138-7d1156a9e056
-description: Renvoie une polyligne. Cette fonction est utilisée dans la cellule A de PolyligneVers géométrie.
-ms.openlocfilehash: afe31b3963cca03d0273b8768f6cc5538d1850ee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie une polyligne. Cette fonction est utilisée dans la cellule A des lignes de géométrie de PolyLineTo.
+ms.openlocfilehash: d801c6f2c1a81cc5cc99b3517c4d86784421d7e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348278"
 ---
-# <a name="polyline-function"></a>POLYLINE, fonction
+# <a name="polyline-function"></a>Fonction POLYLINE
 
-Renvoie une polyligne. Cette fonction est utilisée dans la cellule A de PolyligneVers géométrie. 
+Renvoie une polyligne. Cette fonction est utilisée dans la cellule A des lignes de géométrie de PolyLineTo. 
   
 ## <a name="syntax"></a>Syntaxe
 
-POLYLINE (** *xType* **, ** *yType* **, ** *x1* **, ** *y1* **...) 
+PolyLINE (* * *xtype* * *, * * *yType* * *, * * *x1* * *, * * *Y1* * *...) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _xType_ <br/> |Obligatoire  <br/> |**Boolean** <br/> |Spécifie comment interpréter les données _x_ entrées. Si _xType_ a la valeur 0, l’entrée _x_-données sont interprétées comme un pourcentage de largeur. Si _xType_ a la valeur 1, l’entrée _x_-données sont interprétées comme une coordonnée locale.  <br/> |
-| _yType_ <br/> |Obligatoire  <br/> |**Boolean** <br/> |Spécifie comment interpréter les _y_-saisie. Si _yType_ a la valeur 0, l’entrée _y_-données sont interprétées comme un pourcentage de hauteur. Si _yType_ a la valeur 1, l’entrée _y_-données sont interprétées comme une coordonnée locale.  <br/> |
-| _x1_ <br/> |Obligatoire  <br/> |**Number** <br/> | _X_-coordonner.  <br/> |
-| _y1_ <br/> |Obligatoire  <br/> |**Number** <br/> |_Y_-coordonner.  <br/> |
+| _xType_ <br/> |Obligatoire  <br/> |**Booléen** <br/> |Indique comment interpréter les données _x_ d'entrée. Si _xtype_ a la valeur 0, les données _x_d'entrée sont interprétées comme un pourcentage de la largeur. Si _xtype_ a la 1, les données _x_d'entrée sont interprétées comme une coordonnée locale.  <br/> |
+| _yType_ <br/> |Obligatoire  <br/> |**Booléen** <br/> |Indique comment interpréter les données de l'entrée _y_. Si _yType_ a la valeur 0, les données _y_entrées sont interprétées comme un pourcentage de la hauteur. Si _yType_ a la valeurs 1, les données _y_entrées sont interprétées comme une coordonnée locale.  <br/> |
+| _mâle_ <br/> |Obligatoire  <br/> |**Number** <br/> | Coordonnée _x_.  <br/> |
+| _Y1_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée _y_.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour chaque argument *x* , il doit exister un argument *y* ; dans le cas contraire, une erreur est renvoyée. 
+Pour chaque argument *x* , il doit y avoir un argument *y* ; Sinon, une erreur est renvoyée. 
   
 ## <a name="example"></a>Exemple
 

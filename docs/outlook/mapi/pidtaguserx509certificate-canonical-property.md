@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 278bb9e4-3ff6-4bef-b208-7924f7a5e9b1
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 4e6446283116c39080271e5c2fb3ec128b25d32e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360717"
 ---
 # <a name="pidtaguserx509certificate-canonical-property"></a>Propriété canonique PidTagUserX509Certificate
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les certificats de sécurité X.509 version 3 pour un utilisateur de messagerie. 
+Contient les certificats de sécurité de la version 3 de X. 509 pour un utilisateur de messagerie. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient les certificats de sécurité X.509 version 3 pour un utilisateur de me
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée par les applications qui utilisent la sécurité de clé publique. Il conserve une représentation binaire d’un ou plusieurs certificats de sécurité 3 X.509 version. 
+Cette propriété est utilisée par les applications qui utilisent la sécurité à clé publique. Il contient une représentation binaire d'un ou plusieurs certificats de sécurité X. 509 version 3. 
   
-Des clients et des applications différentes peuvent utiliser cette propriété leurs propres certificats de sécurité. Le format des données X.509 binaire peut varier entre fournisseurs. 
+Plusieurs applications et clients peuvent utiliser cette propriété pour leurs propres certificats de sécurité. Le format binaire des données X. 509 peut varier d'un fournisseur à l'autre. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
+> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

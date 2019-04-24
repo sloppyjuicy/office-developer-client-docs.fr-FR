@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6fee29ce-9a34-4e0c-bb71-03120c3f1117
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 054625601b496a8ec8f7745aa4cbc4715eed81a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9b4ca4628f356142eb5303c064e3916474810fda
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345100"
 ---
 # <a name="sorrestriction"></a>SOrRestriction
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction **ou** qui est utilisée pour appliquer une opération **ou** logique à une restriction. 
+Décrit une restriction **ou** qui est utilisée pour appliquer une opération **or** logique à une restriction. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SOrRestriction
@@ -44,15 +44,15 @@ typedef struct _SOrRestriction
 
  **cRes**
   
-> Nombre de structures dans le tableau indiqué par le membre **lpRes** . 
+> Nombre de structures dans le tableau vers lequel pointe le membre **lpRes** . 
     
  **lpRes**
   
-> Pointeur vers la structure [SRestriction](srestriction.md) décrivant la restriction à être joint à l’aide de l’opération **OR** logique. 
+> Pointeur vers la structure [SRestriction](srestriction.md) décrivant la restriction à joindre à l'aide de l'opération **or** logique. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur la structure **SOrRestriction** , voir [à propos des Restrictions](about-restrictions.md). 
+Pour plus d'informations sur la structure **SOrRestriction** , consultez la rubrique [à propos des restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

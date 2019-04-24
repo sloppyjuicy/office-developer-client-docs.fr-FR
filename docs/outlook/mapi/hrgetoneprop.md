@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 99b63e7b0b31a603bf372b1d52e83af39784b628
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e5adc7d0c317d8b803645d78227777998d7d241f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347837"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
@@ -25,13 +25,13 @@ ms.locfileid: "22564156"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Extrait la valeur d’une propriété unique à partir d’une interface de propriété, autrement dit, une interface dérivée de [IMAPIProp](imapipropiunknown.md). 
+Récupère la valeur d'une propriété unique à partir d'une interface de propriété, c'est-à-dire une interface dérivée de [IMAPIProp](imapipropiunknown.md). 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 HrGetOneProp(
@@ -43,29 +43,29 @@ HrGetOneProp(
 
 ## <a name="parameters"></a>Paramètres
 
- _nous procure_
+ _PMP_
   
-> [in] Pointeur vers l’interface [IMAPIProp](imapipropiunknown.md) à partir de laquelle la valeur de la propriété doit être récupérée. 
+> dans Pointeur vers l'interface [IMAPIProp](imapipropiunknown.md) à partir de laquelle la valeur de propriété doit être récupérée. 
     
  _ulPropTag_
   
-> [in] Balise de propriété de la propriété à récupérer. 
+> dans Balise de propriété de la propriété à récupérer. 
     
  _ppprop_
   
-> [out] Pointeur vers un pointeur vers la structure [SPropValue](spropvalue.md) retournée définissant la valeur de la propriété extraite. 
+> remarquer Pointeur vers un pointeur vers la structure [SPropValue](spropvalue.md) renvoyée qui définit la valeur de la propriété récupérée. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 MAPI_E_NOT_FOUND 
   
-> La propriété demandée n’est pas disponible à partir de l’interface spécifiée.
+> La propriété demandée n'est pas disponible à partir de l'interface spécifiée.
     
 ## <a name="remarks"></a>Remarques
 
-Contrairement à la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) , la fonction **HrGetOneProp** ne retourne jamais aucun avertissement. Car il récupère une seule propriété, il suffit réussit ou échoue. Pour extraire plusieurs propriétés, **GetProps** est plus rapide. 
+Contrairement à la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) , la fonction **HrGetOneProp** ne renvoie aucun avertissement. Étant donné qu'elle récupère une seule propriété, elle réussit ou échoue. Pour récupérer plusieurs propriétés, **GetProps** est plus rapide. 
   
-Vous pouvez définir ou modifier une propriété unique avec la fonction [HrSetOneProp](hrsetoneprop.md) . 
+Vous pouvez définir ou modifier une seule propriété à l'aide de la fonction [HrSetOneProp](hrsetoneprop.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -73,7 +73,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI utilise la méthode **HrGetOneProp** pour récupérer le type d’un objet.  <br/> |
+|MAPIFunctions. cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI utilise la méthode **HrGetOneProp** pour récupérer le type d'un objet.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,21 +9,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 38d357fa87a8781173be118fdd2cd26f57e814df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e56d7851b1fe28ddea1703d9ec3ffb7737abeda6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345254"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>Propriété canonique PidTagReturnedMessageid
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si le message d’origine sont renvoyé avec un rapport nonread.
+Contient la valeur TRUE si le message d'origine est renvoyé avec un rapport non lu.
   
 |||
 |:-----|:-----|
@@ -34,19 +34,19 @@ Contient la valeur TRUE si le message d’origine sont renvoyé avec un rapport 
    
 ## <a name="remarks"></a>Remarques
 
-Un fournisseur de transport X.400 définit cette propriété dans le rapport non lu.
+Un fournisseur de transport X. 400 définit cette propriété dans le rapport non lu.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

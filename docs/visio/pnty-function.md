@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251482
 localization_priority: Normal
 ms.assetid: 8436cbe6-e0f6-ddbb-9489-21027e31bd51
-description: Renvoie la coordonnée y d’un point.
-ms.openlocfilehash: 317a6e4e769f6e82985e19357545ce96c870b069
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la coordonnée y d'un point.
+ms.openlocfilehash: 39f71dccd95602fe9578d09e941f360c82c48a3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348292"
 ---
-# <a name="pnty-function"></a>PNTY, fonction
+# <a name="pnty-function"></a>Fonction PNTY
 
-Renvoie la valeur _y_-coordonnées d’un point.
+Renvoie la coordonnée _y_d'un point.
   
 ## <a name="syntax"></a>Syntaxe
 
-PNTX (** *point* **) 
+PNTXN (* * *point* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Obligatoire  <br/> |**Number** <br/> |La valeur _y_-coordonnées du point.  <br/> |
+| _virgule_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée _y_du point.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   
 ## <a name="example"></a>Exemple
 
-PNTY(PNT(7;12)) 
+PNTY (PNT (7, 12)) 
   
 Renvoie 12. 
   

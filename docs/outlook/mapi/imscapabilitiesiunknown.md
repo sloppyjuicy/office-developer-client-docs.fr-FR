@@ -11,36 +11,36 @@ api_name:
 api_type:
 - COM
 ms.assetid: 18623a44-719e-f46f-0f04-d6089a19c85d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7dc60cf3c49032a2c871872765b19e96c49f6da5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d00766d0fa85e51874357f97f60e86ee7eb1abf9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348796"
 ---
 # <a name="imscapabilities--iunknown"></a>IMSCapabilities : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des informations qu’une banque peut prendre en charge.
+Fournit des informations sur ce qu'une banque peut prendre en charge.
   
 |||
 |:-----|:-----|
 |Fourni par :  <br/> |Fournisseur de banque de messages  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMSCapabilities  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMSCapabilities  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Renvoie les fonctionnalités d’un magasin en fonction de la sélection spécifiée.  <br/> |
+|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Renvoie les fonctionnalités d'une banque en fonction de la sélection spécifiée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
- **IMSCapabilities** fournit des informations sur qu’une banque peut prendre en charge si la banque prend en charge cette interface. 
+ **IMSCapabilities** fournit des informations sur ce qu'un magasin peut prendre en charge si le magasin prend en charge cette interface. 
   
 ## <a name="see-also"></a>Voir aussi
 

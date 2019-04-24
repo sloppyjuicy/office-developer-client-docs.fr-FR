@@ -7,49 +7,49 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0aebf536-dcfb-406d-86ac-65db98c78139
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7ba58cc87b0eefe6c6ff70994d887d7f83e713b3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 7fef84b7519c7a9d6373198283e903fba4fd0780
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345807"
 ---
 # <a name="mapi-objects-and-properties"></a>Propriétés et objets MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Certaines propriétés sont pris en charge par les différents types d’objets. Les propriétés suivantes sont des exemples de propriétés qui sont utilisées par plusieurs objets :
+Certaines propriétés sont prises en charge par de nombreux types d'objets. Les propriétés suivantes sont des exemples de propriétés utilisées par plusieurs objets:
   
 - **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) est un identificateur binaire utilisé pour ouvrir des objets.
     
-- **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) est une constante utilisée pour identifier le type d’objet.
+- **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) est une constante utilisée pour identifier le type d'objet.
     
-- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est une chaîne de caractères utilisée pour décrire un objet à l’utilisateur.
+- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est une chaîne de caractères utilisée pour décrire un objet à l'utilisateur.
     
-Autres propriétés pertinent pour un seul type d’objet. Les propriétés suivantes sont des exemples de propriétés qui s’appliquent à un type d’objet :
+D'autres propriétés ont un sens pour un seul type d'objet. Les propriétés suivantes sont des exemples de propriétés qui s'appliquent à un type d'objet:
   
-- **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) est une chaîne de caractères utilisée pour décrire le type d’un message.
+- **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) est une chaîne de caractères utilisée pour décrire le type d'un message.
     
-- **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) est un entier utilisé pour identifier une ligne dans une table.
+- **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) est un entier utilisé pour identifier une ligne dans un tableau.
     
-- **PR_ATTACH_SIZE** ([PidTagAttachSize](pidtagattachsize-canonical-property.md)) est un entier utilisé pour stocker le nombre d’octets dans une pièce jointe.
+- **PR_ATTACH_SIZE** ([PidTagAttachSize](pidtagattachsize-canonical-property.md)) est un entier utilisé pour stocker le nombre d'octets d'une pièce jointe.
     
-Toujours les autres propriétés sont applicables uniquement pour un seul type d’objet dans un état particulier. Propriétés de ce type sont généralement des propriétés de message. Lorsque vous créez un message, son jeu de propriétés est très faible. Il est envoyé par un client à un destinataire dans le système de messagerie, augmente le nombre de propriétés nécessaires pour décrire le message. Certaines de ces propriétés ajoutées apparaissent uniquement sur le message comme il est envoyé alors que d’autres personnes apparaissent uniquement sur le message lors de son envoi. Les messages ont également des propriétés qui sont associées à la classe à laquelle ils appartiennent. Signaler des messages, par exemple, ont des propriétés qui ne sont pas pris en charge par les messages d’autres classes, tels que les messages de la note. 
+Les autres propriétés ne s'appliquent qu'à un seul type d'objet dans un état particulier. Les propriétés de ce type sont généralement des propriétés de message. Lorsqu'un message est créé pour la première fois, son ensemble de propriétés est très petit. Lorsqu'il est envoyé par un client à un destinataire via le système de messagerie, le nombre de propriétés nécessaires pour décrire le message augmente. Certaines de ces propriétés ajoutées apparaissent uniquement sur le message lors de sa remise, tandis que d'autres apparaissent uniquement sur le message lors de son envoi. Les messages ont également des propriétés associées à la classe à laquelle ils appartiennent. Les messages de rapport, par exemple, ont des propriétés qui ne sont pas prises en charge par les messages d'autres classes, tels que les messages de note. 
   
-Chaque objet a certaines propriétés requises et peut ou peut-être pas les autres propriétés facultatives. Les propriétés requises doit exister sur un objet que l’objet puisse être correctement enregistré avec la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . Clients ou fournisseurs de services à l’aide d’un objet dépend de la disponibilité des propriétés requises après l’appel de **SaveChanges** . Autrement dit, ils peuvent être certain qu’un appel à la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ou la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) de l’objet à récupérer ces propriétés réussira. 
+Chaque objet possède des propriétés obligatoires et peut avoir d'autres propriétés facultatives ou non. Les propriétés obligatoires sont des propriétés qui doivent exister sur un objet pour pouvoir être enregistrées avec la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Les clients ou fournisseurs de services qui utilisent un objet peuvent dépendre de la disponibilité des propriétés requises après l'appel de **SaveChanges** . Autrement dit, ils peuvent s'assurer qu'un appel à la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) ou [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) pour récupérer ces propriétés réussit. 
   
-Facultatives les propriétés, en fonction de l’implémentation de l’objet, peut ou ne peut pas être pris en charge par un objet. Un client ou fournisseur de services à l’aide de l’objet ne vous attendez pas les propriétés facultatives disponibles via les méthodes **GetProps** ou **OpenProperty** et pour définir des valeurs valides. 
+Les propriétés facultatives sont des propriétés qui, en fonction de l'implémentation de l'objet, peuvent ou non être prises en charge par un objet. Un client ou un fournisseur de services qui utilise l'objet ne peut pas s'attendre à ce que les propriétés facultatives soient disponibles via les méthodes **GetProps** ou **OpenProperty** et soient définies sur des valeurs valides. 
   
-Pour une liste ou des propriétés dans cette référence, voir [Propriétés MAPI](mapi-properties.md). Stockent les descriptions de propriétés qui appartiennent à chaque message et objets de carnet d’adresses, voir la description de l’interface standard de l’objet. Par exemple, les propriétés de dossier sont abordées avec **IMAPIFolder** et des propriétés utilisateur messagerie sont présentées avec **IMailUser**. Propriétés de message, y compris les propriétés de message d’état, sont décrites avec **IMessage** et dans la [Vue d’ensemble des propriétés de Message](message-properties-overview.md). Propriétés qui appartiennent à chacune des différents types de tables sont décrits dans la rubrique appropriée de [MAPI Tables](mapi-tables.md) . Par exemple, les propriétés de table de hiérarchie sont décrits dans les [Tables de hiérarchie](hierarchy-tables.md). Propriétés qui appartiennent aux serveurs de formulaire sont décrivant lors du [choix de la valeur de propriété d’un formulaire](choosing-a-form-s-property-set.md).
+Pour obtenir une liste ou des propriétés dans la référence This, consultez la rubrique [MAPI Properties](mapi-properties.md). Vous trouverez des descriptions des propriétés appartenant à chacun des objets de banque de messages et de carnet d'adresses dans la rubrique relative à l'interface standard de l'objet. Par exemple, les propriétés de dossier sont abordées avec **IMAPIFolder** et les propriétés de l'utilisateur de messagerie sont traitées avec **IMailUser**. Les propriétés de message, y compris les propriétés de message de rapport, sont décrites avec **IMessage** et in [message Properties Overview](message-properties-overview.md). Les propriétés appartenant à chacun des différents types de tables sont décrites dans la rubrique [tables MAPI](mapi-tables.md) appropriées. Par exemple, les propriétés de la table de hiérarchie sont décrites dans la rubrique [tables de hiérarchie](hierarchy-tables.md). Les propriétés appartenant aux serveurs de formulaires décrivent [le choix du jeu de propriétés d'un formulaire](choosing-a-form-s-property-set.md).
   
-Lorsqu’un client ou fournisseur de services appelle la méthode **GetProps** d’un objet pour extraire plusieurs de ses propriétés et une de ces propriétés n’est pas disponible, **GetProps** renvoie l’avertissement MAPI_W_ERRORS_RETURNED. L’appel est considéré comme étant réussi, car certaines propriétés ont été retournés. Lorsqu’un client ou service fournisseur appelle **OpenProperty** et la propriété cible n’est pas disponible, la méthode échoue avec l’erreur MAPI_E_NOT_FOUND. Il est important de vérifier qu’une propriété demandée est retournée avant d’essayer de l’utiliser. 
+Lorsqu'un client ou un fournisseur de services appelle la méthode **GetProps** d'un objet pour récupérer plusieurs de ses propriétés et que l'une de ces propriétés n'est pas disponible, **GETPROPS** renvoie le MAPI_W_ERRORS_RETURNED d'avertissement. L'appel est considéré comme réussi, car certaines propriétés ont été renvoyées. Lorsqu'un client ou un fournisseur de services appelle **OpenProperty** et que la propriété cible n'est pas disponible, la méthode échoue avec l'erreur MAPI_E_NOT_FOUND. Il est important de vérifier qu'une propriété demandée est renvoyée avant d'essayer de l'utiliser. 
   
-En fonction de l’objet, le fournisseur de services en fournissant l’implémentation et la propriété, une propriété attribuable en lecture/écriture ou autorisation en lecture seule. Autorisation de lecture/écriture permet à un fournisseur de client ou le service à l’aide de la propriété pour modifier sa valeur ; autorisation en lecture seule permet uniquement le fournisseur de services propriétaire de l’objet apporter des modifications. 
+En fonction de l'objet, du fournisseur de services qui fournit l'implémentation et de la propriété, une propriété peut avoir une autorisation en lecture/écriture ou en lecture seule. L'autorisation de lecture/écriture permet à un client ou un fournisseur de services qui utilise la propriété de modifier sa valeur; l'autorisation en lecture seule permet uniquement au fournisseur de services d'effectuer des modifications. 
   
-Pour déterminer exactement quelles propriétés sont actuellement définies pour un objet, appelez [IMAPIProp::GetPropList](imapiprop-getproplist.md). La méthode **GetPropList** permet à un appelant de savoir ce qui est disponible avant une tentative d’ouvrir une propriété potentiellement inexistante. Car il n’existe aucun ensemble standard de propriétés qui prennent en charge de tous les objets d’un type spécifique, il est impossible à deviner ou non un objet prend en charge une propriété particulière. L’appel **GetPropList** élimine le travail. 
+Pour savoir exactement quelles propriétés sont actuellement définies pour un objet, appelez [IMAPIProp:: GetPropList](imapiprop-getproplist.md). La méthode **GetPropList** permet à un appelant de rechercher les éléments disponibles avant d'ouvrir une propriété potentiellement inexistante. Étant donné qu'il n'existe aucun ensemble standard de propriétés pris en charge par tous les objets d'un type spécifique, il est impossible de déterminer si un objet prend ou non en charge une propriété particulière. L'appel de **GetPropList** élimine le travail de découverte. 
   
 ## <a name="see-also"></a>Voir aussi
 
