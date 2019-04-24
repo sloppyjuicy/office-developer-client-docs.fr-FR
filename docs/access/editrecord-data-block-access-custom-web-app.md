@@ -1,56 +1,56 @@
 ---
-title: Bloc de données ModifierEnregistrement (accès personnalisé web app)
+title: Bloc de données ModifierEnregistrement (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 54975434-78b2-4010-b2f9-f277831fa92e
 description: Vous pouvez utiliser le bloc de données ModifierEnregistrement pour modifier les valeurs contenues dans un enregistrement existant.
-ms.openlocfilehash: 6c214e48326a93cff220b5436d7e7802cd6e3431
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d9ef6c7689b44a0304309a7537e744eff97c809
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302519"
 ---
-# <a name="editrecord-data-block-access-custom-web-app"></a><span data-ttu-id="d0f86-103">Bloc de données ModifierEnregistrement (accès personnalisé web app)</span><span class="sxs-lookup"><span data-stu-id="d0f86-103">EditRecord Data Block (Access custom web app)</span></span>
+# <a name="editrecord-data-block-access-custom-web-app"></a><span data-ttu-id="e248c-103">Bloc de données ModifierEnregistrement (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="e248c-103">EditRecord Data Block (Access custom web app)</span></span>
 
-<span data-ttu-id="d0f86-104">Vous pouvez utiliser le bloc de données **ModifierEnregistrement** pour modifier les valeurs contenues dans un enregistrement existant.</span><span class="sxs-lookup"><span data-stu-id="d0f86-104">You can use the **EditRecord** data block to change the values contained in an existing record.</span></span> 
+<span data-ttu-id="e248c-104">Vous pouvez utiliser le bloc de données **ModifierEnregistrement** pour modifier les valeurs contenues dans un enregistrement existant.</span><span class="sxs-lookup"><span data-stu-id="e248c-104">You can use the **EditRecord** data block to change the values contained in an existing record.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="d0f86-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="d0f86-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="e248c-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="e248c-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="d0f86-107">Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="d0f86-107">The **EditRecord** data block is available only in Data Macros.</span></span> 
+> <span data-ttu-id="e248c-107">Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="e248c-107">The **EditRecord** data block is available only in Data Macros.</span></span> 
   
-## <a name="setting"></a><span data-ttu-id="d0f86-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="d0f86-108">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="e248c-108">Setting</span><span class="sxs-lookup"><span data-stu-id="e248c-108">Setting</span></span>
 
-<span data-ttu-id="d0f86-109">Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="d0f86-109">The **EditRecord** data block has the following arguments.</span></span> 
+<span data-ttu-id="e248c-109">Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="e248c-109">The **EditRecord** data block has the following arguments.</span></span> 
   
-|<span data-ttu-id="d0f86-110">**Argument**</span><span class="sxs-lookup"><span data-stu-id="d0f86-110">**Argument**</span></span>|<span data-ttu-id="d0f86-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="d0f86-111">**Description**</span></span>|
+|<span data-ttu-id="e248c-110">**Argument**</span><span class="sxs-lookup"><span data-stu-id="e248c-110">**Argument**</span></span>|<span data-ttu-id="e248c-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="e248c-111">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="d0f86-112">**Alias**</span><span class="sxs-lookup"><span data-stu-id="d0f86-112">**Alias**</span></span> <br/> |<span data-ttu-id="d0f86-113">Une chaîne qui identifie l’enregistrement à modifier.</span><span class="sxs-lookup"><span data-stu-id="d0f86-113">A string that identifies the record to edit.</span></span> <span data-ttu-id="d0f86-114">Si l’argument *Alias* n’est pas spécifié, l’enregistrement actif est modifié.</span><span class="sxs-lookup"><span data-stu-id="d0f86-114">If the  *Alias*  argument is not specified, then the current record is edited.</span></span>  <br/> |
+|<span data-ttu-id="e248c-112">**Alias**</span><span class="sxs-lookup"><span data-stu-id="e248c-112">**Alias**</span></span> <br/> |<span data-ttu-id="e248c-113">Chaîne qui identifie l’enregistrement à modifier.</span><span class="sxs-lookup"><span data-stu-id="e248c-113">A string that identifies the record to edit.</span></span> <span data-ttu-id="e248c-114">Si l'argument *alias* n'est pas spécifié, l'enregistrement actif est modifié.</span><span class="sxs-lookup"><span data-stu-id="e248c-114">If the  *Alias*  argument is not specified, then the current record is edited.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d0f86-115">Note</span><span class="sxs-lookup"><span data-stu-id="d0f86-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e248c-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="e248c-115">Remarks</span></span>
 
-<span data-ttu-id="d0f86-116">Après l’instruction **EditRecord** , vous pouvez insérer un bloc de commandes qui sera exécuté avant que les modifications apportées à l’enregistrement sont validées.</span><span class="sxs-lookup"><span data-stu-id="d0f86-116">After the **EditRecord** statement, you can insert a block of commands that will execute before the changes to the record are committed.</span></span> <span data-ttu-id="d0f86-117">Les actions suivantes sont disponibles dans un bloc de données **ModifierEnregistrement** .</span><span class="sxs-lookup"><span data-stu-id="d0f86-117">The following actions are available in an **EditRecord** data block.</span></span> 
+<span data-ttu-id="e248c-116">Après l'instruction **ModifierEnregistrement** , vous pouvez insérer un bloc de commandes qui s'exécutera avant la validation des modifications apportées à l'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="e248c-116">After the **EditRecord** statement, you can insert a block of commands that will execute before the changes to the record are committed.</span></span> <span data-ttu-id="e248c-117">Les actions suivantes sont disponibles dans un bloc de données **ModifierEnregistrement** .</span><span class="sxs-lookup"><span data-stu-id="e248c-117">The following actions are available in an **EditRecord** data block.</span></span> 
   
 ||
 |:-----|
-|[<span data-ttu-id="d0f86-118">Action de Macro AnnulerModificationEnregistrement</span><span class="sxs-lookup"><span data-stu-id="d0f86-118">CancelRecordChange Macro Action</span></span>](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="d0f86-119">Instruction de Macro commentaire</span><span class="sxs-lookup"><span data-stu-id="d0f86-119">Comment Macro Statement</span></span>](comment-macro-block-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="d0f86-120">Group, instruction de Macro</span><span class="sxs-lookup"><span data-stu-id="d0f86-120">Group Macro Statement</span></span>](group-macro-block-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="d0f86-121">If... Procédez comme suit... Else, instruction de Macro</span><span class="sxs-lookup"><span data-stu-id="d0f86-121">If...Then...Else Macro Statement</span></span>](ifthenelse-macro-block-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="d0f86-122">Action de Macro SetField</span><span class="sxs-lookup"><span data-stu-id="d0f86-122">SetField Macro Action</span></span>](setfield-macro-action-access-custom-web-app.md) <br/> |
-|[<span data-ttu-id="d0f86-123">Action de Macro DéfinirVarLocale</span><span class="sxs-lookup"><span data-stu-id="d0f86-123">SetLocalVar Macro Action</span></span>](setlocalvar-macro-action-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="e248c-118">Action de macro AnnulerModificationEnregistrement</span><span class="sxs-lookup"><span data-stu-id="e248c-118">CancelRecordChange Macro Action</span></span>](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="e248c-119">Instruction de macro Comment</span><span class="sxs-lookup"><span data-stu-id="e248c-119">Comment Macro Statement</span></span>](comment-macro-block-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="e248c-120">Instruction de macro Group</span><span class="sxs-lookup"><span data-stu-id="e248c-120">Group Macro Statement</span></span>](group-macro-block-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="e248c-121">Instruction de macro If... Then... Else</span><span class="sxs-lookup"><span data-stu-id="e248c-121">If...Then...Else Macro Statement</span></span>](ifthenelse-macro-block-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="e248c-122">Action de macro DéfinirChamp</span><span class="sxs-lookup"><span data-stu-id="e248c-122">SetField Macro Action</span></span>](setfield-macro-action-access-custom-web-app.md) <br/> |
+|[<span data-ttu-id="e248c-123">Action de macro DéfinirVarLocale</span><span class="sxs-lookup"><span data-stu-id="e248c-123">SetLocalVar Macro Action</span></span>](setlocalvar-macro-action-access-custom-web-app.md) <br/> |
    
-<span data-ttu-id="d0f86-124">Utilisez l'action **DéfinirChamp** pour spécifier les nouvelles valeurs d'un champ dans l'enregistrement modifié.</span><span class="sxs-lookup"><span data-stu-id="d0f86-124">Use the **SetField** action to specify the new values of a field in the edited record.</span></span> 
+<span data-ttu-id="e248c-124">Utilisez l'action **DéfinirChamp** pour spécifier les nouvelles valeurs d'un champ dans l'enregistrement modifié.</span><span class="sxs-lookup"><span data-stu-id="e248c-124">Use the **SetField** action to specify the new values of a field in the edited record.</span></span> 
   
-<span data-ttu-id="d0f86-125">Vous pouvez utiliser un **Si... Procédez comme suit... Autre** instruction pour effectuer des opérations en fonction d’une condition.</span><span class="sxs-lookup"><span data-stu-id="d0f86-125">You can use an **If...Then...Else** statement to perform operations based on a condition.</span></span> 
+<span data-ttu-id="e248c-125">Vous pouvez utiliser une **If... Then... Else** pour effectuer des opérations en fonction d'une condition.</span><span class="sxs-lookup"><span data-stu-id="e248c-125">You can use an **If...Then...Else** statement to perform operations based on a condition.</span></span> 
   
-<span data-ttu-id="d0f86-p104">Pour annuler la modification d'un enregistrement, utilisez l'action **AnnulerModificationEnregistrement**. Cela empêche la validation des modifications et quitte le bloc de données **ModifierEnregistrement**.</span><span class="sxs-lookup"><span data-stu-id="d0f86-p104">To cancel the editing of a record, use the **CancelRecordChange** action. This prevents the changes from being committed and exits the **EditRecord** data block.</span></span> 
+<span data-ttu-id="e248c-p104">Pour annuler la modification d'un enregistrement, utilisez l'action **AnnulerModificationEnregistrement**. Cela empêche la validation des modifications et quitte le bloc de données **ModifierEnregistrement**.</span><span class="sxs-lookup"><span data-stu-id="e248c-p104">To cancel the editing of a record, use the **CancelRecordChange** action. This prevents the changes from being committed and exits the **EditRecord** data block.</span></span> 
   
-<span data-ttu-id="d0f86-128">Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**.</span><span class="sxs-lookup"><span data-stu-id="d0f86-128">You can use the **LastCreateRecordIdentity** local variable to work with last record created in a **CreateRecord** data block.</span></span> <span data-ttu-id="d0f86-129">Par exemple, utilisez la syntaxe suivante pour faire référence au champ AssignedTo du dernier enregistrement :</span><span class="sxs-lookup"><span data-stu-id="d0f86-129">For example, use the following syntax to refer to the AssignedTo field of the most recently created record:</span></span> 
+<span data-ttu-id="e248c-128">Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**.</span><span class="sxs-lookup"><span data-stu-id="e248c-128">You can use the **LastCreateRecordIdentity** local variable to work with last record created in a **CreateRecord** data block.</span></span> <span data-ttu-id="e248c-129">Par exemple, utilisez la syntaxe suivante pour faire référence au champ AffectéÀ du dernier enregistrement créé:</span><span class="sxs-lookup"><span data-stu-id="e248c-129">For example, use the following syntax to refer to the AssignedTo field of the most recently created record:</span></span> 
   
 `[LastCreateRecordIdentity].[AssignedTo]`
 

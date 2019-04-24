@@ -1,5 +1,5 @@
 ---
-title: Création de modèles de formulaire à l’aide du modèle objet InfoPath 2003
+title: Création de modèles de formulaire à l'aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,41 +8,41 @@ keywords:
 localization_priority: Normal
 ms.assetid: e0513178-ddcb-4086-ab19-1bc80cf114cc
 description: Cette section présente le code d'initialisation et de nettoyage, explique comment ajouter des gestionnaires d'événements, comment déboguer et déployer des modèles de formulaires InfoPath utilisant le modèle objet compatible avec InfoPath 2003 ; elle présente également la gestion des threads et l'utilisation de MSXML (Microsoft XML Core Services) à partir de solutions InfoPath avec code managé.
-ms.openlocfilehash: 16d49b24b2eed3b7fe15621d47663a94f1958cfa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5069636dde87eb473a2b8bef4b58a6006d557085
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303744"
 ---
-# <a name="creating-form-templates-using-the-infopath-2003-object-model"></a><span data-ttu-id="5e1ce-104">Création de modèles de formulaire à l’aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5e1ce-104">Creating Form Templates Using the InfoPath 2003 Object Model</span></span>
+# <a name="creating-form-templates-using-the-infopath-2003-object-model"></a><span data-ttu-id="5bf8b-104">Création de modèles de formulaire à l'aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5bf8b-104">Creating Form Templates Using the InfoPath 2003 Object Model</span></span>
 
-<span data-ttu-id="5e1ce-105">Cette section présente le code d'initialisation et de nettoyage, explique comment ajouter des gestionnaires d'événements, comment déboguer et déployer des modèles de formulaires InfoPath utilisant le modèle objet compatible avec InfoPath 2003 ; elle présente également la gestion des threads et l'utilisation de MSXML (Microsoft XML Core Services) à partir de solutions InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5e1ce-105">This section discusses initialization and clean-up code, how to add event handlers, how to debug and deploy InfoPath form templates that use the InfoPath 2003-compatible object model, threading support, and working with Microsoft XML Core Services (MSXML) from InfoPath managed-code solutions.</span></span>
+<span data-ttu-id="5bf8b-105">Cette section présente le code d'initialisation et de nettoyage, explique comment ajouter des gestionnaires d'événements, comment déboguer et déployer des modèles de formulaires InfoPath utilisant le modèle objet compatible avec InfoPath 2003 ; elle présente également la gestion des threads et l'utilisation de MSXML (Microsoft XML Core Services) à partir de solutions InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5bf8b-105">This section discusses initialization and clean-up code, how to add event handlers, how to debug and deploy InfoPath form templates that use the InfoPath 2003-compatible object model, threading support, and working with Microsoft XML Core Services (MSXML) from InfoPath managed-code solutions.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="5e1ce-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="5e1ce-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5bf8b-106">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="5bf8b-106">In this section</span></span>
 
-[<span data-ttu-id="5e1ce-107">Code d'initialisation et de nettoyage à l'aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5e1ce-107">Initialization and Clean-up Code Using InfoPath 2003 Object Model</span></span>](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
+[<span data-ttu-id="5bf8b-107">Code d'initialisation et de nettoyage à l'aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5bf8b-107">Initialization and Clean-up Code Using InfoPath 2003 Object Model</span></span>](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
   
-> <span data-ttu-id="5e1ce-108">Présente la création du code d'initialisation et de nettoyage dans les méthodes _Startup et _Shutdown de votre projet.</span><span class="sxs-lookup"><span data-stu-id="5e1ce-108">Discusses how to write initialization and clean-up code in the _Startup and _Shutdown methods of your project.</span></span>
+> <span data-ttu-id="5bf8b-108">Présente la création du code d'initialisation et de nettoyage dans les méthodes _Startup et _Shutdown de votre projet.</span><span class="sxs-lookup"><span data-stu-id="5bf8b-108">Discusses how to write initialization and clean-up code in the _Startup and _Shutdown methods of your project.</span></span>
     
-[<span data-ttu-id="5e1ce-109">Ajouter un gestionnaire d’événements à l’aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5e1ce-109">Add an Event Handler Using the InfoPath 2003 Object Model</span></span>](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="5bf8b-109">Ajout d'un gestionnaire d'événements à l'aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5bf8b-109">Add an Event Handler Using the InfoPath 2003 Object Model</span></span>](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="5e1ce-110">Présente l'ajout de gestionnaires d'événements et les attributs appliqués pour identifier les gestionnaires d'événements.</span><span class="sxs-lookup"><span data-stu-id="5e1ce-110">Discusses how to add event handlers and the attributes that are applied to identify event handlers.</span></span>
+> <span data-ttu-id="5bf8b-110">Présente l'ajout de gestionnaires d'événements et les attributs appliqués pour identifier les gestionnaires d'événements.</span><span class="sxs-lookup"><span data-stu-id="5bf8b-110">Discusses how to add event handlers and the attributes that are applied to identify event handlers.</span></span>
     
-[<span data-ttu-id="5e1ce-111">Débogage de projets InfoPath à l’aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5e1ce-111">Debug InfoPath Projects Using the InfoPath 2003 Object Model</span></span>](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="5bf8b-111">DéBogage de projets InfoPath à l'aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5bf8b-111">Debug InfoPath Projects Using the InfoPath 2003 Object Model</span></span>](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="5e1ce-112">Présente le débogage de projets InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5e1ce-112">Discusses how to debug InfoPath managed-code projects.</span></span>
+> <span data-ttu-id="5bf8b-112">Présente le débogage de projets InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5bf8b-112">Discusses how to debug InfoPath managed-code projects.</span></span>
     
-[<span data-ttu-id="5e1ce-113">Déployer des modèles de formulaire InfoPath avec Code</span><span class="sxs-lookup"><span data-stu-id="5e1ce-113">Deploy InfoPath Form Templates with Code</span></span>](how-to-deploy-infopath-form-templates-with-code.md)
+[<span data-ttu-id="5bf8b-113">Déployer des modèles de formulaire InfoPath avec code</span><span class="sxs-lookup"><span data-stu-id="5bf8b-113">Deploy InfoPath Form Templates with Code</span></span>](how-to-deploy-infopath-form-templates-with-code.md)
   
-> <span data-ttu-id="5e1ce-114">Présente le déploiement de projets InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5e1ce-114">Discusses how to deploy InfoPath managed-code projects.</span></span>
+> <span data-ttu-id="5bf8b-114">Présente le déploiement de projets InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5bf8b-114">Discusses how to deploy InfoPath managed-code projects.</span></span>
     
-[<span data-ttu-id="5e1ce-115">Prise en charge du threading dans les projets InfoPath à l'aide du modèle de projet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5e1ce-115">Threading Support in InfoPath Projects Using the InfoPath 2003 Object Model</span></span>](threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="5bf8b-115">Prise en charge du threading dans les projets InfoPath à l'aide du modèle de projet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5bf8b-115">Threading Support in InfoPath Projects Using the InfoPath 2003 Object Model</span></span>](threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="5e1ce-116">Présente la gestion des threads dans les projets InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5e1ce-116">Discusses threading support in InfoPath managed-code projects.</span></span>
+> <span data-ttu-id="5bf8b-116">Présente la gestion des threads dans les projets InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5bf8b-116">Discusses threading support in InfoPath managed-code projects.</span></span>
     
-[<span data-ttu-id="5e1ce-117">Utilisation de MSXML et de System.Xml avec le modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5e1ce-117">Working with MSXML and System.Xml Using the InfoPath 2003 Object Model</span></span>](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="5bf8b-117">Utilisation de MSXML et de System.Xml avec le modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="5bf8b-117">Working with MSXML and System.Xml Using the InfoPath 2003 Object Model</span></span>](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="5e1ce-118">Présente l'utilisation de code MSXML et System.Xml dans les projets InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5e1ce-118">Discusses how to work with MSXML and System.Xml code in InfoPath managed-code projects.</span></span>
+> <span data-ttu-id="5bf8b-118">Présente l'utilisation de code MSXML et System.Xml dans les projets InfoPath avec code managé.</span><span class="sxs-lookup"><span data-stu-id="5bf8b-118">Discusses how to work with MSXML and System.Xml code in InfoPath managed-code projects.</span></span>
     
 

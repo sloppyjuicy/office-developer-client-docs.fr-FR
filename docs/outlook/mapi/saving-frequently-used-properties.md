@@ -7,22 +7,22 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a8d4d575-7aa0-4542-91e2-322a6e400551
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5ef0da0c617bffc3820c7cd43f66ea07be2ad4a9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e32ed3388e95d32a4857a933fb735d170dd71688
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283106"
 ---
-# <a name="saving-frequently-used-properties"></a><span data-ttu-id="6e992-103">Enregistrement des propriétés fréquemment utilisées</span><span class="sxs-lookup"><span data-stu-id="6e992-103">Saving Frequently Used Properties</span></span>
+# <a name="saving-frequently-used-properties"></a><span data-ttu-id="1618a-103">Enregistrement des propriétés fréquemment utilisées</span><span class="sxs-lookup"><span data-stu-id="1618a-103">Saving Frequently Used Properties</span></span>
 
   
   
-<span data-ttu-id="6e992-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6e992-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1618a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1618a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6e992-105">Améliorer les performances en stockant les données qui prend du temps et des ressources à récupérer et sont accessible fréquemment.</span><span class="sxs-lookup"><span data-stu-id="6e992-105">Improve performance by storing data that takes time and resources to retrieve and is accessed frequently.</span></span> <span data-ttu-id="6e992-106">À l’aide de la mémoire supplémentaire peut être parfois préférable répétées récupérations.</span><span class="sxs-lookup"><span data-stu-id="6e992-106">Using extra memory can sometimes be a better option that repeated retrievals.</span></span> <span data-ttu-id="6e992-107">Utilisez des soins et mise en garde lors de la création d’un cache pour le stockage des données.</span><span class="sxs-lookup"><span data-stu-id="6e992-107">Use caution and care when creating a cache for storing this data.</span></span> <span data-ttu-id="6e992-108">N’oubliez pas qu’un cache mal conçu peut impact négatif sur les performances.</span><span class="sxs-lookup"><span data-stu-id="6e992-108">Keep in mind that a poorly designed cache can negatively impact performance.</span></span>
+<span data-ttu-id="1618a-105">Améliorer les performances en stockant les données qui prennent du temps et des ressources à récupérer et auxquelles il est fréquemment accédé.</span><span class="sxs-lookup"><span data-stu-id="1618a-105">Improve performance by storing data that takes time and resources to retrieve and is accessed frequently.</span></span> <span data-ttu-id="1618a-106">L'utilisation de la mémoire supplémentaire peut parfois être une meilleure option pour les extractions répétées.</span><span class="sxs-lookup"><span data-stu-id="1618a-106">Using extra memory can sometimes be a better option that repeated retrievals.</span></span> <span data-ttu-id="1618a-107">Soyez prudent lors de la création d'un cache pour le stockage de ces données.</span><span class="sxs-lookup"><span data-stu-id="1618a-107">Use caution and care when creating a cache for storing this data.</span></span> <span data-ttu-id="1618a-108">N'oubliez pas qu'un cache mal conçu peut avoir un impact négatif sur les performances.</span><span class="sxs-lookup"><span data-stu-id="1618a-108">Keep in mind that a poorly designed cache can negatively impact performance.</span></span>
   
-<span data-ttu-id="6e992-109">Par exemple, plus interpersonnel message (IPM) clients doivent afficher et ouvrir la sous-arborescence IPM de dossiers autant de fois pendant une session typique.</span><span class="sxs-lookup"><span data-stu-id="6e992-109">For example, most interpersonal message (IPM) clients need to display and open the IPM subtree of folders many times during a typical session.</span></span> <span data-ttu-id="6e992-110">Vous pouvez améliorer les performances en stockant les identificateurs d’entrée pour chacun de ces dossiers.</span><span class="sxs-lookup"><span data-stu-id="6e992-110">You can improve performance by storing the entry identifiers for each of these folders.</span></span> 
+<span data-ttu-id="1618a-109">Par exemple, la plupart des clients de message interpersonnes (IPM) doivent afficher et ouvrir la sous-arborescence IPM de dossiers plusieurs fois au cours d'une session standard.</span><span class="sxs-lookup"><span data-stu-id="1618a-109">For example, most interpersonal message (IPM) clients need to display and open the IPM subtree of folders many times during a typical session.</span></span> <span data-ttu-id="1618a-110">Vous pouvez améliorer les performances en stockant les identificateurs d'entrée pour chacun de ces dossiers.</span><span class="sxs-lookup"><span data-stu-id="1618a-110">You can improve performance by storing the entry identifiers for each of these folders.</span></span> 
   
 

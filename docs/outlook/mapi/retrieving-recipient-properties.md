@@ -1,5 +1,5 @@
 ---
-title: Récupération des propriétés de destinataire
+title: Récupération des propriétés d’un destinataire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,26 +7,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 358f892b-54a7-4213-b3c0-94f28f99716f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a48c6a8e043062bc6b48e09934fded1dccb507b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 38063cebe70b153decce6713ac5fc31d6916dbf6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279593"
 ---
-# <a name="retrieving-recipient-properties"></a><span data-ttu-id="990db-103">Récupération des propriétés de destinataire</span><span class="sxs-lookup"><span data-stu-id="990db-103">Retrieving recipient properties</span></span>
+# <a name="retrieving-recipient-properties"></a><span data-ttu-id="d71a0-103">Récupération des propriétés d’un destinataire</span><span class="sxs-lookup"><span data-stu-id="d71a0-103">Retrieving recipient properties</span></span>
   
-<span data-ttu-id="990db-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="990db-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d71a0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d71a0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a><span data-ttu-id="990db-105">Pour accéder à une ou plusieurs propriétés d’une entrée de carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="990db-105">To access one or more properties of an address book entry</span></span>
+### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a><span data-ttu-id="d71a0-105">Pour accéder à une ou plusieurs propriétés d'une entrée de carnet d'adresses</span><span class="sxs-lookup"><span data-stu-id="d71a0-105">To access one or more properties of an address book entry</span></span>
   
-1. <span data-ttu-id="990db-106">Pour chaque entrée de carnet d’adresse d’intérêt, appelez [IAddrBook::OpenEntry](iaddrbook-openentry.md), en passant l’identificateur d’entrée de l’utilisateur ou liste de distribution de messagerie cible.</span><span class="sxs-lookup"><span data-stu-id="990db-106">For each address book entry of interest, call [IAddrBook::OpenEntry](iaddrbook-openentry.md), passing the entry identifier of the target messaging user or distribution list.</span></span>
+1. <span data-ttu-id="d71a0-106">Pour chaque entrée de carnet d'adresses qui vous intéresse, appelez [IAddrBook:: OpenEntry](iaddrbook-openentry.md), en transmettant l'identificateur d'entrée de l'utilisateur de messagerie cible ou de la liste de distribution.</span><span class="sxs-lookup"><span data-stu-id="d71a0-106">For each address book entry of interest, call [IAddrBook::OpenEntry](iaddrbook-openentry.md), passing the entry identifier of the target messaging user or distribution list.</span></span>
     
-2. <span data-ttu-id="990db-107">Puis effectuez l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="990db-107">Then do one of the following:</span></span>
+2. <span data-ttu-id="d71a0-107">Effectuez ensuite l'une des opérations suivantes:</span><span class="sxs-lookup"><span data-stu-id="d71a0-107">Then do one of the following:</span></span>
     
-   - <span data-ttu-id="990db-108">Appelez la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de liste de distribution ou de l’utilisateur de messagerie pour chaque entrée de carnet d’adresse d’intérêt, avec une liste des propriétés pour récupérer un ou plusieurs.</span><span class="sxs-lookup"><span data-stu-id="990db-108">Call the messaging user or distribution list's [IMAPIProp::GetProps](imapiprop-getprops.md) method for each address book entry of interest, with a list of the one or more properties to retrieve.</span></span> 
+   - <span data-ttu-id="d71a0-108">Appelez la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) de la liste de distribution ou de l'utilisateur de messagerie pour chaque entrée de carnet d'adresses présentant un intérêt, avec une liste d'une ou plusieurs propriétés à récupérer.</span><span class="sxs-lookup"><span data-stu-id="d71a0-108">Call the messaging user or distribution list's [IMAPIProp::GetProps](imapiprop-getprops.md) method for each address book entry of interest, with a list of the one or more properties to retrieve.</span></span> 
     
-   - <span data-ttu-id="990db-109">Appelez [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), en passant une structure [ADRLIST](adrlist.md) qui conserve toutes les propriétés de toutes les entrées de carnet d’adresses de votre choix.</span><span class="sxs-lookup"><span data-stu-id="990db-109">Call [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), passing an [ADRLIST](adrlist.md) structure that holds all of the properties for all of the desired address book entries.</span></span> <span data-ttu-id="990db-110">Un appel à **PrepareRecips** peut retourner des informations d’adresse plusieurs entrées de carnet de, il est la stratégie préférable lorsque vous êtes intéressé par plusieurs destinataires.</span><span class="sxs-lookup"><span data-stu-id="990db-110">Because one call to **PrepareRecips** can return information for multiple address book entries, it is the preferable strategy when you are interested in more than one recipient.</span></span> 
+   - <span data-ttu-id="d71a0-109">Appelez [IAddrBook::P reparerecips](iaddrbook-preparerecips.md), en transmettant une structure [ADRLIST](adrlist.md) qui contient toutes les propriétés de toutes les entrées de carnet d'adresses souhaitées.</span><span class="sxs-lookup"><span data-stu-id="d71a0-109">Call [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), passing an [ADRLIST](adrlist.md) structure that holds all of the properties for all of the desired address book entries.</span></span> <span data-ttu-id="d71a0-110">Étant donné qu'un appel à **PrepareRecips** peut retourner des informations pour plusieurs entrées de carnet d'adresses, il s'agit de la stratégie préférable lorsque vous vous intéressez à plusieurs destinataires.</span><span class="sxs-lookup"><span data-stu-id="d71a0-110">Because one call to **PrepareRecips** can return information for multiple address book entries, it is the preferable strategy when you are interested in more than one recipient.</span></span> 
     
 

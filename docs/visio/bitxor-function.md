@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251401
 localization_priority: Normal
 ms.assetid: 672eacaf-a374-c7e2-b39b-8d42d2371aee
-description: Renvoie un nombre binaire de 16 bits dans lequel chaque bit a la valeur 1 si le bit correspondant dans soit binaire Numéro1 et numéro2 binaire est 1. Sinon, le bit est défini sur 0.
-ms.openlocfilehash: a0e03258bcfe694dc3bec5469095eff90fb94f1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie un nombre binaire de 16 bits dans lequel chaque bit prend la valeur 1 si le bit correspondant dans l'un ou l'autre des nombres binaire1 et binaire2 est 1. Dans le cas contraire, le bit prend la valeur 0.
+ms.openlocfilehash: ab8ff46fe98512d963ef4ecd5c37127353827725
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302988"
 ---
-# <a name="bitxor-function"></a><span data-ttu-id="38fb2-104">BITXOR, fonction</span><span class="sxs-lookup"><span data-stu-id="38fb2-104">BITXOR Function</span></span>
+# <a name="bitxor-function"></a><span data-ttu-id="5853e-104">Fonction BITXOR</span><span class="sxs-lookup"><span data-stu-id="5853e-104">BITXOR Function</span></span>
 
-<span data-ttu-id="38fb2-105">Renvoie un nombre binaire de 16 bits dans lequel chaque bit a la valeur 1 si le bit correspondant dans soit binaire Numéro1 et numéro2 binaire est 1.</span><span class="sxs-lookup"><span data-stu-id="38fb2-105">Returns a 16-bit binary number in which each bit is set to 1 if the corresponding bit in either but not both binary number1 and binary number2 is 1.</span></span> <span data-ttu-id="38fb2-106">Sinon, le bit est défini sur 0.</span><span class="sxs-lookup"><span data-stu-id="38fb2-106">Otherwise, the bit is set to 0.</span></span>
+<span data-ttu-id="5853e-105">Renvoie un nombre binaire de 16 bits dans lequel chaque bit prend la valeur 1 si le bit correspondant dans l'un ou l'autre des nombres binaire1 et binaire2 est 1.</span><span class="sxs-lookup"><span data-stu-id="5853e-105">Returns a 16-bit binary number in which each bit is set to 1 if the corresponding bit in either but not both binary number1 and binary number2 is 1.</span></span> <span data-ttu-id="5853e-106">Dans le cas contraire, le bit prend la valeur 0.</span><span class="sxs-lookup"><span data-stu-id="5853e-106">Otherwise, the bit is set to 0.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="38fb2-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="38fb2-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5853e-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="5853e-107">Syntax</span></span>
 
-<span data-ttu-id="38fb2-108">BITXOR (** *Numéro1 binaire* **, ** *Numéro2 binaire* **)</span><span class="sxs-lookup"><span data-stu-id="38fb2-108">BITXOR(** *binary number1* **, ** *binary number2* ** )</span></span> 
+<span data-ttu-id="5853e-108">BITXOR (\* \* \* \* *binaire nombre1* \* \*, \* \* *binaires binaire2* \* \*)</span><span class="sxs-lookup"><span data-stu-id="5853e-108">BITXOR(\*\* *binary number1* \*\*, \*\* *binary number2* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="38fb2-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="38fb2-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="5853e-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="5853e-109">Parameters</span></span>
 
-|<span data-ttu-id="38fb2-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="38fb2-110">**Name**</span></span>|<span data-ttu-id="38fb2-111">**Obligatoire/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="38fb2-111">**Required/Optional**</span></span>|<span data-ttu-id="38fb2-112">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="38fb2-112">**Data Type**</span></span>|<span data-ttu-id="38fb2-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="38fb2-113">**Description**</span></span>|
+|<span data-ttu-id="5853e-110">**Nom**</span><span class="sxs-lookup"><span data-stu-id="5853e-110">**Name**</span></span>|<span data-ttu-id="5853e-111">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="5853e-111">**Required/Optional**</span></span>|<span data-ttu-id="5853e-112">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="5853e-112">**Data Type**</span></span>|<span data-ttu-id="5853e-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="5853e-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="38fb2-114">_nombre1 binaire_</span><span class="sxs-lookup"><span data-stu-id="38fb2-114">_binary number1_</span></span> <br/> |<span data-ttu-id="38fb2-115">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="38fb2-115">Required</span></span>  <br/> |<span data-ttu-id="38fb2-116">**Numérique**</span><span class="sxs-lookup"><span data-stu-id="38fb2-116">**Numeric**</span></span> <br/> |<span data-ttu-id="38fb2-117">Premier nombre binaire de 16 bits.</span><span class="sxs-lookup"><span data-stu-id="38fb2-117">The first 16-bit binary number.</span></span>  <br/> |
-| <span data-ttu-id="38fb2-118">_nombre2 binaire_</span><span class="sxs-lookup"><span data-stu-id="38fb2-118">_binary number2_</span></span> <br/> |<span data-ttu-id="38fb2-119">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="38fb2-119">Required</span></span>  <br/> |<span data-ttu-id="38fb2-120">**Numérique**</span><span class="sxs-lookup"><span data-stu-id="38fb2-120">**Numeric**</span></span> <br/> |<span data-ttu-id="38fb2-121">Deuxième nombre binaire de 16 bits.</span><span class="sxs-lookup"><span data-stu-id="38fb2-121">The second 16-bit binary number.</span></span>  <br/> |
+| <span data-ttu-id="5853e-114">_valeurs binaire1 binaires_</span><span class="sxs-lookup"><span data-stu-id="5853e-114">_binary number1_</span></span> <br/> |<span data-ttu-id="5853e-115">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="5853e-115">Required</span></span>  <br/> |<span data-ttu-id="5853e-116">**Numérique**</span><span class="sxs-lookup"><span data-stu-id="5853e-116">**Numeric**</span></span> <br/> |<span data-ttu-id="5853e-117">Premier nombre binaire de 16 bits.</span><span class="sxs-lookup"><span data-stu-id="5853e-117">The first 16-bit binary number.</span></span>  <br/> |
+| <span data-ttu-id="5853e-118">_binaire binaire2_</span><span class="sxs-lookup"><span data-stu-id="5853e-118">_binary number2_</span></span> <br/> |<span data-ttu-id="5853e-119">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="5853e-119">Required</span></span>  <br/> |<span data-ttu-id="5853e-120">**Numérique**</span><span class="sxs-lookup"><span data-stu-id="5853e-120">**Numeric**</span></span> <br/> |<span data-ttu-id="5853e-121">Deuxième nombre binaire de 16 bits.</span><span class="sxs-lookup"><span data-stu-id="5853e-121">The second 16-bit binary number.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="38fb2-122">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="38fb2-122">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="5853e-122">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="5853e-122">Return value</span></span>
 
-<span data-ttu-id="38fb2-123">Binaire de 16 bits</span><span class="sxs-lookup"><span data-stu-id="38fb2-123">16-bit Binary</span></span>
+<span data-ttu-id="5853e-123">Binaire de 16 bits</span><span class="sxs-lookup"><span data-stu-id="5853e-123">16-bit Binary</span></span>
   
-## <a name="example"></a><span data-ttu-id="38fb2-124">Exemple</span><span class="sxs-lookup"><span data-stu-id="38fb2-124">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5853e-124">Exemple</span><span class="sxs-lookup"><span data-stu-id="5853e-124">Example</span></span>
 
-<span data-ttu-id="38fb2-125">BITXOR(12,6)</span><span class="sxs-lookup"><span data-stu-id="38fb2-125">BITXOR(12,6)</span></span>
+<span data-ttu-id="5853e-125">BITXOR (12, 6)</span><span class="sxs-lookup"><span data-stu-id="5853e-125">BITXOR(12,6)</span></span>
   
-<span data-ttu-id="38fb2-p103">Renvoie 10. Le 12 = 0...01100. Le 6 = 0...00110. Donc, BITXOR(12,6) = 0...01010.</span><span class="sxs-lookup"><span data-stu-id="38fb2-p103">Returns 10. The 12 = 0...01100. The 6 = 0...00110. Therefore, BITXOR(12,6) = 0...01010.</span></span>
+<span data-ttu-id="5853e-p103">Renvoie 10. Le 12 = 0...01100. Le 6 = 0...00110. Donc, BITXOR(12,6) = 0...01010.</span><span class="sxs-lookup"><span data-stu-id="5853e-p103">Returns 10. The 12 = 0...01100. The 6 = 0...00110. Therefore, BITXOR(12,6) = 0...01010.</span></span>
   
 

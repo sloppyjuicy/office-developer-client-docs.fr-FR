@@ -7,35 +7,35 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f40d5405-12e3-475b-b731-d2223ab70c1d
-description: Obtient une chaîne qui décrit les fonctionnalités du fournisseur.
-ms.openlocfilehash: 54e28f22f2dc8fdbe19821d8188087b78c327518
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient une valeur de type String qui décrit les fonctionnalités du fournisseur.
+ms.openlocfilehash: cf3d1418ac0ecbfc3f67bb550a24ec71781f2637
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285763"
 ---
-# <a name="isocialprovidergetcapabilities"></a><span data-ttu-id="a469c-103">ISocialProvider::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="a469c-103">ISocialProvider::GetCapabilities</span></span>
+# <a name="isocialprovidergetcapabilities"></a><span data-ttu-id="e576e-103">ISocialProvider::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="e576e-103">ISocialProvider::GetCapabilities</span></span>
 
-<span data-ttu-id="a469c-104">Obtient une chaîne qui décrit les fonctionnalités du fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a469c-104">Gets a string that describes provider capabilities.</span></span>
+<span data-ttu-id="e576e-104">Obtient une valeur de type String qui décrit les fonctionnalités du fournisseur.</span><span class="sxs-lookup"><span data-stu-id="e576e-104">Gets a string that describes provider capabilities.</span></span>
   
 ```cpp
 HRESULT _stdcall GetCapabilities([out, retval] BSTR* result);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a469c-105">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a469c-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e576e-105">Paramètres</span><span class="sxs-lookup"><span data-stu-id="e576e-105">Parameters</span></span>
 
-<span data-ttu-id="a469c-106">_résultat_</span><span class="sxs-lookup"><span data-stu-id="a469c-106">_result_</span></span>
+<span data-ttu-id="e576e-106">_result_</span><span class="sxs-lookup"><span data-stu-id="e576e-106">_result_</span></span>
   
-> <span data-ttu-id="a469c-107">[out] Chaîne XML qui représente les fonctionnalités d’un fournisseur Outlook Social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="a469c-107">[out] An XML string that represents the capabilities of an Outlook Social Connector (OSC) provider.</span></span>
+> <span data-ttu-id="e576e-107">remarquer Chaîne XML qui représente les fonctionnalités d'un fournisseur Outlook Social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="e576e-107">[out] An XML string that represents the capabilities of an Outlook Social Connector (OSC) provider.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="a469c-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="a469c-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e576e-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="e576e-108">Remarks</span></span>
 
-<span data-ttu-id="a469c-109">La chaîne XML renvoyée _résultat_ doit être conformes à la définition de schéma pour l’élément de **fonctionnalités** , comme défini dans le schéma XML d’extensibilité du fournisseur OSC.</span><span class="sxs-lookup"><span data-stu-id="a469c-109">The returned  _result_ XML string must comply with the schema definition for the **capabilities** element, as defined in the XML schema for OSC provider extensibility.</span></span> 
+<span data-ttu-id="e576e-109">La chaîne XML de _résultats_ renvoyée doit être conforme à la définition de schéma pour l'élément **Capabilities** , comme défini dans le schéma XML pour l'extensibilité du fournisseur OSC.</span><span class="sxs-lookup"><span data-stu-id="e576e-109">The returned  _result_ XML string must comply with the schema definition for the **capabilities** element, as defined in the XML schema for OSC provider extensibility.</span></span> 
   
-<span data-ttu-id="a469c-110">Le fournisseur doit renvoyer une chaîne de _résultat_ pour activer les appels suivants à partir de l’OSC au fournisseur fonctionner correctement.</span><span class="sxs-lookup"><span data-stu-id="a469c-110">The provider must return a  _result_ string to enable subsequent calls from the OSC to the provider to operate correctly.</span></span> 
+<span data-ttu-id="e576e-110">Le fournisseur doit retourner une chaîne de _résultats_ pour permettre aux appels suivants du OSC au fournisseur de fonctionner correctement.</span><span class="sxs-lookup"><span data-stu-id="e576e-110">The provider must return a  _result_ string to enable subsequent calls from the OSC to the provider to operate correctly.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="a469c-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a469c-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e576e-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e576e-111">See also</span></span>
 
-- [<span data-ttu-id="a469c-112">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a469c-112">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="e576e-112">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e576e-112">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 
