@@ -1,5 +1,5 @@
 ---
-title: Types (schéma des informations météo Outlook)
+title: Types (schéma d'informations météorologiques Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,22 +7,22 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1120ad84-577f-6a72-cd3d-bb9bf3ffaa08
-description: Cette rubrique répertorie les types dans le schéma XML d’informations Outlook météo.
-ms.openlocfilehash: 5d731dcc5bdf21736fb42b4295582c0a82c2276d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cette rubrique répertorie les types dans le schéma XML des informations météorologiques d'Outlook.
+ms.openlocfilehash: 8c8881caec8cde94c91bcdc258647959848974d5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355047"
 ---
-# <a name="types-outlook-weather-information-schema"></a><span data-ttu-id="84257-103">Types (schéma des informations météo Outlook)</span><span class="sxs-lookup"><span data-stu-id="84257-103">Types (Outlook Weather Information Schema)</span></span>
+# <a name="types-outlook-weather-information-schema"></a><span data-ttu-id="fc593-103">Types (schéma d'informations météorologiques Outlook)</span><span class="sxs-lookup"><span data-stu-id="fc593-103">Types (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="84257-104">Cette rubrique répertorie les types dans le schéma XML d’informations Outlook météo.</span><span class="sxs-lookup"><span data-stu-id="84257-104">This topic lists the types in the Outlook Weather Information XML schema.</span></span>
+<span data-ttu-id="fc593-104">Cette rubrique répertorie les types dans le schéma XML des informations météorologiques d'Outlook.</span><span class="sxs-lookup"><span data-stu-id="fc593-104">This topic lists the types in the Outlook Weather Information XML schema.</span></span>
   
-- [<span data-ttu-id="84257-105">type complexe currentType</span><span class="sxs-lookup"><span data-stu-id="84257-105">currentType complexType</span></span>](currenttype-complextype-outlook-weather-information-schema.md)
+- [<span data-ttu-id="fc593-105">currentType complexType</span><span class="sxs-lookup"><span data-stu-id="fc593-105">currentType complexType</span></span>](currenttype-complextype-outlook-weather-information-schema.md)
     
-- [<span data-ttu-id="84257-106">type complexe forecastType</span><span class="sxs-lookup"><span data-stu-id="84257-106">forecastType complexType</span></span>](forecasttype-complextype-outlook-weather-information-schema.md)
+- [<span data-ttu-id="fc593-106">forecastType complexType</span><span class="sxs-lookup"><span data-stu-id="fc593-106">forecastType complexType</span></span>](forecasttype-complextype-outlook-weather-information-schema.md)
     
-- [<span data-ttu-id="84257-107">type complexe weatherType</span><span class="sxs-lookup"><span data-stu-id="84257-107">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-information-schema.md)
+- [<span data-ttu-id="fc593-107">weatherType complexType</span><span class="sxs-lookup"><span data-stu-id="fc593-107">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-information-schema.md)
     
 

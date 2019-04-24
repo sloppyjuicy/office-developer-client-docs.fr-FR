@@ -11,71 +11,71 @@ api_name:
 api_type:
 - COM
 ms.assetid: 176245d9-724d-44f1-b7a3-eddf652533b2
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 2b7aef416beb9eee70aeff8cf20cb38ae8e7993f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355474"
 ---
-# <a name="pidtagoriginaldisplayname-canonical-property"></a><span data-ttu-id="47c89-103">Propriété canonique PidTagOriginalDisplayName</span><span class="sxs-lookup"><span data-stu-id="47c89-103">PidTagOriginalDisplayName Canonical Property</span></span>
+# <a name="pidtagoriginaldisplayname-canonical-property"></a><span data-ttu-id="a6d9e-103">Propriété canonique PidTagOriginalDisplayName</span><span class="sxs-lookup"><span data-stu-id="a6d9e-103">PidTagOriginalDisplayName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="47c89-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="47c89-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a6d9e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a6d9e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="47c89-105">Contient le nom complet d’origine pour une entrée copié à partir d’un carnet d’adresses dans un carnet d’adresses personnel ou autre carnet d’adresses accessible en écriture.</span><span class="sxs-lookup"><span data-stu-id="47c89-105">Contains the original display name for an entry copied from an address book to a personal address book or other writable address book.</span></span>
+<span data-ttu-id="a6d9e-105">Contient le nom d'affichage d'origine d'une entrée copiée à partir d'un carnet d'adresses dans un carnet d'adresses personnel ou un autre carnet d'adresses accessible en écriture.</span><span class="sxs-lookup"><span data-stu-id="a6d9e-105">Contains the original display name for an entry copied from an address book to a personal address book or other writable address book.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="47c89-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="47c89-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="47c89-107">PR_ORIGINAL_DISPLAY_NAME, PR_ORIGINAL_DISPLAY_NAME_A, PR_ORIGINAL_DISPLAY_NAME_W</span><span class="sxs-lookup"><span data-stu-id="47c89-107">PR_ORIGINAL_DISPLAY_NAME, PR_ORIGINAL_DISPLAY_NAME_A, PR_ORIGINAL_DISPLAY_NAME_W</span></span>  <br/> |
-|<span data-ttu-id="47c89-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="47c89-108">Identifier:</span></span>  <br/> |<span data-ttu-id="47c89-109">0x3A13</span><span class="sxs-lookup"><span data-stu-id="47c89-109">0x3A13</span></span>  <br/> |
-|<span data-ttu-id="47c89-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="47c89-110">Data type:</span></span>  <br/> |<span data-ttu-id="47c89-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="47c89-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="47c89-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="47c89-112">Area:</span></span>  <br/> |<span data-ttu-id="47c89-113">Général de messagerie</span><span class="sxs-lookup"><span data-stu-id="47c89-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="a6d9e-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="a6d9e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a6d9e-107">PR_ORIGINAL_DISPLAY_NAME, PR_ORIGINAL_DISPLAY_NAME_A, PR_ORIGINAL_DISPLAY_NAME_W</span><span class="sxs-lookup"><span data-stu-id="a6d9e-107">PR_ORIGINAL_DISPLAY_NAME, PR_ORIGINAL_DISPLAY_NAME_A, PR_ORIGINAL_DISPLAY_NAME_W</span></span>  <br/> |
+|<span data-ttu-id="a6d9e-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="a6d9e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="a6d9e-109">0x3A13</span><span class="sxs-lookup"><span data-stu-id="a6d9e-109">0x3A13</span></span>  <br/> |
+|<span data-ttu-id="a6d9e-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="a6d9e-110">Data type:</span></span>  <br/> |<span data-ttu-id="a6d9e-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="a6d9e-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="a6d9e-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="a6d9e-112">Area:</span></span>  <br/> |<span data-ttu-id="a6d9e-113">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="a6d9e-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="47c89-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="47c89-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a6d9e-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="a6d9e-114">Remarks</span></span>
 
-<span data-ttu-id="47c89-115">Ces propriétés contiennent des informations sur la source d’origine d’une entrée copiée.</span><span class="sxs-lookup"><span data-stu-id="47c89-115">These properties contain information about the original source of a copied entry.</span></span>
+<span data-ttu-id="a6d9e-115">Ces propriétés contiennent des informations sur la source d'origine d'une entrée copiée.</span><span class="sxs-lookup"><span data-stu-id="a6d9e-115">These properties contain information about the original source of a copied entry.</span></span>
   
-<span data-ttu-id="47c89-116">Pour un rapport nonread, ces propriétés contiennent une copie du nom complet du destinataire du message d’origine pour lequel le rapport est généré.</span><span class="sxs-lookup"><span data-stu-id="47c89-116">For a nonread report, these properties contain a copy of the display name of the original message recipient for which the report is generated.</span></span> <span data-ttu-id="47c89-117">Lorsque le destinataire d’origine fait partie d’une liste de distribution, le nom complet de la liste de distribution est conservé pour le rapport.</span><span class="sxs-lookup"><span data-stu-id="47c89-117">When the original recipient is part of a distribution list, the display name of the distribution list is preserved for the report.</span></span>
+<span data-ttu-id="a6d9e-116">Pour un rapport non lu, ces propriétés contiennent une copie du nom d'affichage du destinataire du message d'origine pour lequel le rapport est généré.</span><span class="sxs-lookup"><span data-stu-id="a6d9e-116">For a nonread report, these properties contain a copy of the display name of the original message recipient for which the report is generated.</span></span> <span data-ttu-id="a6d9e-117">Lorsque le destinataire d'origine fait partie d'une liste de distribution, le nom d'affichage de la liste de distribution est préservé pour le rapport.</span><span class="sxs-lookup"><span data-stu-id="a6d9e-117">When the original recipient is part of a distribution list, the display name of the distribution list is preserved for the report.</span></span>
   
-<span data-ttu-id="47c89-118">Une application cliente peut utiliser ces propriétés pour éviter toute altération ou « usurpation d’identité » des entrées, en donnant une copie intacte du nom complet à comparer.</span><span class="sxs-lookup"><span data-stu-id="47c89-118">A client application can use these properties to prevent alteration or "spoofing" of entries, by giving an unaltered copy of the display name to compare.</span></span>
+<span data-ttu-id="a6d9e-118">Une application cliente peut utiliser ces propriétés pour empêcher la modification ou l'usurpation d'entrées, en donnant une copie non modifiée du nom d'affichage à comparer.</span><span class="sxs-lookup"><span data-stu-id="a6d9e-118">A client application can use these properties to prevent alteration or "spoofing" of entries, by giving an unaltered copy of the display name to compare.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="47c89-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="47c89-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="a6d9e-119">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="a6d9e-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="47c89-120">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="47c89-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="a6d9e-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="a6d9e-120">Protocol specifications</span></span>
 
-<span data-ttu-id="47c89-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="47c89-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a6d9e-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a6d9e-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="47c89-122">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="47c89-122">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="a6d9e-122">Fournit des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="a6d9e-122">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="47c89-123">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="47c89-123">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a6d9e-123">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a6d9e-123">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="47c89-124">Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.</span><span class="sxs-lookup"><span data-stu-id="47c89-124">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
+> <span data-ttu-id="a6d9e-124">Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.</span><span class="sxs-lookup"><span data-stu-id="a6d9e-124">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="47c89-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="47c89-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="a6d9e-125">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="a6d9e-125">Header files</span></span>
 
-<span data-ttu-id="47c89-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="47c89-126">Mapidefs.h</span></span>
+<span data-ttu-id="a6d9e-126">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="a6d9e-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="47c89-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="47c89-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="a6d9e-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="a6d9e-127">Provides data type definitions.</span></span>
     
-<span data-ttu-id="47c89-128">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="47c89-128">Mapitags.h</span></span>
+<span data-ttu-id="a6d9e-128">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="a6d9e-128">Mapitags.h</span></span>
   
-> <span data-ttu-id="47c89-129">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="47c89-129">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="a6d9e-129">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="a6d9e-129">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="47c89-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="47c89-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a6d9e-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a6d9e-130">See also</span></span>
 
 
 
-[<span data-ttu-id="47c89-131">Propriété canonique PidTagTransmittableDisplayName</span><span class="sxs-lookup"><span data-stu-id="47c89-131">PidTagTransmittableDisplayName Canonical Property</span></span>](pidtagtransmittabledisplayname-canonical-property.md)
+[<span data-ttu-id="a6d9e-131">Propriété canonique PidTagTransmittableDisplayName</span><span class="sxs-lookup"><span data-stu-id="a6d9e-131">PidTagTransmittableDisplayName Canonical Property</span></span>](pidtagtransmittabledisplayname-canonical-property.md)
 
 
-[<span data-ttu-id="47c89-132">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="47c89-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="a6d9e-132">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="a6d9e-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="47c89-133">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="47c89-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="a6d9e-133">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="a6d9e-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="47c89-134">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="47c89-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="a6d9e-134">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="a6d9e-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="47c89-135">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="47c89-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="a6d9e-135">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="a6d9e-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

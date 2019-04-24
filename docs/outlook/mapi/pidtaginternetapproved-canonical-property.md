@@ -11,56 +11,56 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 319be396-89fe-48a6-a229-c62ad48b1692
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 19a6341f8800bf44f3e763b47ee487cd09f20fdd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 215e52dd7dd346ef598a8e99cedcc1edda15a7ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358785"
 ---
-# <a name="pidtaginternetapproved-canonical-property"></a><span data-ttu-id="1c6f8-103">Propriété canonique PidTagInternetApproved</span><span class="sxs-lookup"><span data-stu-id="1c6f8-103">PidTagInternetApproved Canonical Property</span></span>
+# <a name="pidtaginternetapproved-canonical-property"></a><span data-ttu-id="95818-103">Propriété canonique PidTagInternetApproved</span><span class="sxs-lookup"><span data-stu-id="95818-103">PidTagInternetApproved Canonical Property</span></span>
 
   
   
-<span data-ttu-id="1c6f8-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1c6f8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="95818-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="95818-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1c6f8-105">Correspond à l’en-tête MIME approuvé.</span><span class="sxs-lookup"><span data-stu-id="1c6f8-105">Maps to the MIME Approved header.</span></span>
+<span data-ttu-id="95818-105">Correspond à l'en-tête MIME approuvé.</span><span class="sxs-lookup"><span data-stu-id="95818-105">Maps to the MIME Approved header.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1c6f8-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="1c6f8-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1c6f8-107">PR_INTERNET_APPROVED, PR_INTERNET_APPROVED_A, PR_INTERNET_APPROVED_W</span><span class="sxs-lookup"><span data-stu-id="1c6f8-107">PR_INTERNET_APPROVED, PR_INTERNET_APPROVED_A, PR_INTERNET_APPROVED_W</span></span>  <br/> |
-|<span data-ttu-id="1c6f8-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="1c6f8-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1c6f8-109">0x1030</span><span class="sxs-lookup"><span data-stu-id="1c6f8-109">0x1030</span></span>  <br/> |
-|<span data-ttu-id="1c6f8-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="1c6f8-110">Data type:</span></span>  <br/> |<span data-ttu-id="1c6f8-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="1c6f8-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="1c6f8-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="1c6f8-112">Area:</span></span>  <br/> |<span data-ttu-id="1c6f8-113">MIME</span><span class="sxs-lookup"><span data-stu-id="1c6f8-113">MIME</span></span>  <br/> |
+|<span data-ttu-id="95818-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="95818-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="95818-107">PR_INTERNET_APPROVED, PR_INTERNET_APPROVED_A, PR_INTERNET_APPROVED_W</span><span class="sxs-lookup"><span data-stu-id="95818-107">PR_INTERNET_APPROVED, PR_INTERNET_APPROVED_A, PR_INTERNET_APPROVED_W</span></span>  <br/> |
+|<span data-ttu-id="95818-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="95818-108">Identifier:</span></span>  <br/> |<span data-ttu-id="95818-109">0x1030</span><span class="sxs-lookup"><span data-stu-id="95818-109">0x1030</span></span>  <br/> |
+|<span data-ttu-id="95818-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="95818-110">Data type:</span></span>  <br/> |<span data-ttu-id="95818-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="95818-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="95818-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="95818-112">Area:</span></span>  <br/> |<span data-ttu-id="95818-113">MIME</span><span class="sxs-lookup"><span data-stu-id="95818-113">MIME</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="1c6f8-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="1c6f8-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="95818-114">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="95818-114">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="1c6f8-115">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="1c6f8-115">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="95818-115">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="95818-115">Protocol specifications</span></span>
 
-<span data-ttu-id="1c6f8-116">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="1c6f8-116">[[MS-OXPROPS]]</span></span> 
+<span data-ttu-id="95818-116">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="95818-116">[[MS-OXPROPS]]</span></span> 
   
-> <span data-ttu-id="1c6f8-117">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="1c6f8-117">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="95818-117">Fournit des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="95818-117">Provides references to related Exchange Server protocol specifications.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="1c6f8-118">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="1c6f8-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="95818-118">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="95818-118">Header files</span></span>
 
-<span data-ttu-id="1c6f8-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1c6f8-119">Mapidefs.h</span></span>
+<span data-ttu-id="95818-119">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="95818-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="1c6f8-120">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="1c6f8-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="95818-120">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="95818-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="1c6f8-121">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="1c6f8-121">Mapitags.h</span></span>
+<span data-ttu-id="95818-121">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="95818-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="1c6f8-122">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="1c6f8-122">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="95818-122">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="95818-122">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="1c6f8-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1c6f8-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="95818-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="95818-123">See also</span></span>
 
 
 
-[<span data-ttu-id="1c6f8-124">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="1c6f8-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="95818-124">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="95818-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="1c6f8-125">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="1c6f8-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="95818-125">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="95818-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="1c6f8-126">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="1c6f8-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="95818-126">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="95818-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="1c6f8-127">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="1c6f8-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="95818-127">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="95818-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

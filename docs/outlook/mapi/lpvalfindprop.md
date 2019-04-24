@@ -7,27 +7,27 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 67461a38-bb60-467b-901b-39c645e764f7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c4a201411e2232a3e5fdcd97dcbc9460f657b12a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: fa1588d4a58824b57c132fc8e66a0abd6e9acd0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357427"
 ---
-# <a name="lpvalfindprop"></a><span data-ttu-id="959a1-103">LpValFindProp</span><span class="sxs-lookup"><span data-stu-id="959a1-103">LpValFindProp</span></span>
+# <a name="lpvalfindprop"></a><span data-ttu-id="ff733-103">LpValFindProp</span><span class="sxs-lookup"><span data-stu-id="ff733-103">LpValFindProp</span></span>
 
   
   
-<span data-ttu-id="959a1-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="959a1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ff733-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ff733-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="959a1-105">Recherche une propriété spécifiée dans une propriété définie.</span><span class="sxs-lookup"><span data-stu-id="959a1-105">Searches for a specified property in a property set.</span></span>
+<span data-ttu-id="ff733-105">Recherche une propriété spécifiée dans un jeu de propriétés.</span><span class="sxs-lookup"><span data-stu-id="ff733-105">Searches for a specified property in a property set.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="959a1-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="959a1-106">Header file:</span></span>  <br/> |<span data-ttu-id="959a1-107">mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="959a1-107">mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="959a1-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="959a1-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="959a1-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="959a1-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="959a1-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="959a1-110">Called by:</span></span>  <br/> |<span data-ttu-id="959a1-111">Applications clientes et des fournisseurs de services.</span><span class="sxs-lookup"><span data-stu-id="959a1-111">Client applications and service providers.</span></span>  <br/> |
+|<span data-ttu-id="ff733-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="ff733-106">Header file:</span></span>  <br/> |<span data-ttu-id="ff733-107">mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="ff733-107">mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="ff733-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="ff733-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="ff733-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="ff733-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="ff733-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="ff733-110">Called by:</span></span>  <br/> |<span data-ttu-id="ff733-111">Applications clientes et fournisseurs de services.</span><span class="sxs-lookup"><span data-stu-id="ff733-111">Client applications and service providers.</span></span>  <br/> |
    
 ```cpp
 LPSPropValue LpValFindProp(
@@ -37,33 +37,33 @@ LPSPropValue LpValFindProp(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="959a1-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="959a1-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ff733-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="ff733-112">Parameters</span></span>
 
- <span data-ttu-id="959a1-113">_ulPropTag_</span><span class="sxs-lookup"><span data-stu-id="959a1-113">_ulPropTag_</span></span>
+ <span data-ttu-id="ff733-113">_ulPropTag_</span><span class="sxs-lookup"><span data-stu-id="ff733-113">_ulPropTag_</span></span>
   
-> <span data-ttu-id="959a1-114">[in] Balise de la propriété à rechercher dans le jeu de propriétés, indiqué par le paramètre _lpPropArray_ .</span><span class="sxs-lookup"><span data-stu-id="959a1-114">[in] Tag for the property to search for in the property set, indicated by the  _lpPropArray_ parameter.</span></span> 
+> <span data-ttu-id="ff733-114">dans Pour la propriété à rechercher dans le jeu de propriétés, indiqué par le paramètre _lpPropArray_ .</span><span class="sxs-lookup"><span data-stu-id="ff733-114">[in] Tag for the property to search for in the property set, indicated by the  _lpPropArray_ parameter.</span></span> 
     
- <span data-ttu-id="959a1-115">_cValues_</span><span class="sxs-lookup"><span data-stu-id="959a1-115">_cValues_</span></span>
+ <span data-ttu-id="ff733-115">_cValues_</span><span class="sxs-lookup"><span data-stu-id="ff733-115">_cValues_</span></span>
   
-> <span data-ttu-id="959a1-116">[in] Nombre de propriétés dans le jeu de propriétés, indiquée par le paramètre _lpPropArray_ .</span><span class="sxs-lookup"><span data-stu-id="959a1-116">[in] Count of properties in the property set, indicated by the  _lpPropArray_ parameter.</span></span> 
+> <span data-ttu-id="ff733-116">dans Nombre de propriétés dans le jeu de propriétés, indiqué par le paramètre _lpPropArray_ .</span><span class="sxs-lookup"><span data-stu-id="ff733-116">[in] Count of properties in the property set, indicated by the  _lpPropArray_ parameter.</span></span> 
     
- <span data-ttu-id="959a1-117">_lpPropArray_</span><span class="sxs-lookup"><span data-stu-id="959a1-117">_lpPropArray_</span></span>
+ <span data-ttu-id="ff733-117">_lpPropArray_</span><span class="sxs-lookup"><span data-stu-id="ff733-117">_lpPropArray_</span></span>
   
-> <span data-ttu-id="959a1-118">[in] Tableau des structures **SPropValue** qui définit les propriétés à rechercher.</span><span class="sxs-lookup"><span data-stu-id="959a1-118">[in] Array of **SPropValue** structures that defines the properties to be searched.</span></span> 
+> <span data-ttu-id="ff733-118">dans Tableau de structures **SPropValue** qui définit les propriétés à rechercher.</span><span class="sxs-lookup"><span data-stu-id="ff733-118">[in] Array of **SPropValue** structures that defines the properties to be searched.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="959a1-119">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="959a1-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ff733-119">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="ff733-119">Return value</span></span>
 
-<span data-ttu-id="959a1-120">La fonction **LpValFindProp** renvoie une structure **SPropValue** qui définit la propriété qui correspond à la balise de propriété d’entrée, ou NULL si aucune correspondance n’existe.</span><span class="sxs-lookup"><span data-stu-id="959a1-120">The **LpValFindProp** function returns an **SPropValue** structure that defines the property that matches the input property tag, or NULL if there is no match.</span></span> 
+<span data-ttu-id="ff733-120">La fonction **LpValFindProp** renvoie une structure **SPropValue** qui définit la propriété correspondant à la balise de la propriété Input ou null s'il n'y a aucune correspondance.</span><span class="sxs-lookup"><span data-stu-id="ff733-120">The **LpValFindProp** function returns an **SPropValue** structure that defines the property that matches the input property tag, or NULL if there is no match.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="959a1-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="959a1-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ff733-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="ff733-121">Remarks</span></span>
 
-<span data-ttu-id="959a1-122">La fonction **LpValFindProp** est identique à **PpropFindProp**.</span><span class="sxs-lookup"><span data-stu-id="959a1-122">The **LpValFindProp** function is identical to **PpropFindProp**.</span></span>
+<span data-ttu-id="ff733-122">La fonction **LpValFindProp** est identique à **PpropFindProp**.</span><span class="sxs-lookup"><span data-stu-id="ff733-122">The **LpValFindProp** function is identical to **PpropFindProp**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="959a1-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="959a1-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ff733-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ff733-123">See also</span></span>
 
 
 
-[<span data-ttu-id="959a1-124">PpropFindProp</span><span class="sxs-lookup"><span data-stu-id="959a1-124">PpropFindProp</span></span>](ppropfindprop.md)
+[<span data-ttu-id="ff733-124">PpropFindProp</span><span class="sxs-lookup"><span data-stu-id="ff733-124">PpropFindProp</span></span>](ppropfindprop.md)
   
-[<span data-ttu-id="959a1-125">SPropValue</span><span class="sxs-lookup"><span data-stu-id="959a1-125">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="ff733-125">SPropValue</span><span class="sxs-lookup"><span data-stu-id="ff733-125">SPropValue</span></span>](spropvalue.md)
 

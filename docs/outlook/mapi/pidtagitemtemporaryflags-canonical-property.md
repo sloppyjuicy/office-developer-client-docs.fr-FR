@@ -11,64 +11,64 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8066de8e-2b77-4bac-8df3-e64b03ee42b9
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: ec092e6cc6174e156dbfe7784143c9d74715eef7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357700"
 ---
-# <a name="pidtagitemtemporaryflags-canonical-property"></a><span data-ttu-id="fb7b4-103">Propriété canonique PidTagItemTemporaryflags</span><span class="sxs-lookup"><span data-stu-id="fb7b4-103">PidTagItemTemporaryflags Canonical Property</span></span>
+# <a name="pidtagitemtemporaryflags-canonical-property"></a><span data-ttu-id="8e2eb-103">Propriété canonique PidTagItemTemporaryflags</span><span class="sxs-lookup"><span data-stu-id="8e2eb-103">PidTagItemTemporaryflags Canonical Property</span></span>
 
   
   
-<span data-ttu-id="fb7b4-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fb7b4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8e2eb-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8e2eb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="fb7b4-105">Contient un indicateur qui indique qu’un message a été lu, mais ne pas marqué comme lus.</span><span class="sxs-lookup"><span data-stu-id="fb7b4-105">Contains a flag that indicates that a message has been read, but not marked as read.</span></span>
+<span data-ttu-id="8e2eb-105">Contient un indicateur qui indique qu'un message a été lu, mais qu'il n'a pas été marqué comme lu.</span><span class="sxs-lookup"><span data-stu-id="8e2eb-105">Contains a flag that indicates that a message has been read, but not marked as read.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="fb7b4-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="fb7b4-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="fb7b4-107">PR_ITEM_TMPFLAGS</span><span class="sxs-lookup"><span data-stu-id="fb7b4-107">PR_ITEM_TMPFLAGS</span></span>  <br/> |
-|<span data-ttu-id="fb7b4-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="fb7b4-108">Identifier:</span></span>  <br/> |<span data-ttu-id="fb7b4-109">0x1097</span><span class="sxs-lookup"><span data-stu-id="fb7b4-109">0x1097</span></span>  <br/> |
-|<span data-ttu-id="fb7b4-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="fb7b4-110">Data type:</span></span>  <br/> |<span data-ttu-id="fb7b4-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="fb7b4-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="fb7b4-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="fb7b4-112">Area:</span></span>  <br/> |<span data-ttu-id="fb7b4-113">Général de messagerie</span><span class="sxs-lookup"><span data-stu-id="fb7b4-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="8e2eb-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="8e2eb-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8e2eb-107">PR_ITEM_TMPFLAGS</span><span class="sxs-lookup"><span data-stu-id="8e2eb-107">PR_ITEM_TMPFLAGS</span></span>  <br/> |
+|<span data-ttu-id="8e2eb-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="8e2eb-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8e2eb-109">0x1097</span><span class="sxs-lookup"><span data-stu-id="8e2eb-109">0x1097</span></span>  <br/> |
+|<span data-ttu-id="8e2eb-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="8e2eb-110">Data type:</span></span>  <br/> |<span data-ttu-id="8e2eb-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="8e2eb-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="8e2eb-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="8e2eb-112">Area:</span></span>  <br/> |<span data-ttu-id="8e2eb-113">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="8e2eb-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="fb7b4-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="fb7b4-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8e2eb-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="8e2eb-114">Remarks</span></span>
 
-<span data-ttu-id="fb7b4-115">Cette propriété est utilisée dans le dossier de recherche de Messages non lus d’Outlook pour suivre les messages qui ont été lus sans réellement les marquer comme lu, les supprimer à partir du dossier.</span><span class="sxs-lookup"><span data-stu-id="fb7b4-115">This property is used in Outlook's Unread Messages search folder to keep track of which messages have been read without actually marking them as read, which would remove them from the folder.</span></span> <span data-ttu-id="fb7b4-116">Lorsque cette propriété est supprimée les modifications d’affichage et de l’élément est marqué comme étant en lecture.</span><span class="sxs-lookup"><span data-stu-id="fb7b4-116">When the view changes this property is removed and the item is marked as read.</span></span> <span data-ttu-id="fb7b4-117">Cette propriété ne sera pas synchronisé sur le serveur Exchange.</span><span class="sxs-lookup"><span data-stu-id="fb7b4-117">This property will not synchronize to the Exchange Server.</span></span>
+<span data-ttu-id="8e2eb-115">Cette propriété est utilisée dans le dossier de recherche messages non lus d'Outlook pour assurer le suivi des messages lus sans les marquer comme lus, ce qui les supprime du dossier.</span><span class="sxs-lookup"><span data-stu-id="8e2eb-115">This property is used in Outlook's Unread Messages search folder to keep track of which messages have been read without actually marking them as read, which would remove them from the folder.</span></span> <span data-ttu-id="8e2eb-116">Lorsque la vue change, cette propriété est supprimée et l'élément est marqué comme lu.</span><span class="sxs-lookup"><span data-stu-id="8e2eb-116">When the view changes this property is removed and the item is marked as read.</span></span> <span data-ttu-id="8e2eb-117">Cette propriété n'est pas synchronisée avec le serveur Exchange.</span><span class="sxs-lookup"><span data-stu-id="8e2eb-117">This property will not synchronize to the Exchange Server.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="fb7b4-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="fb7b4-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="8e2eb-118">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="8e2eb-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="fb7b4-119">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="fb7b4-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="8e2eb-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="8e2eb-119">Protocol specifications</span></span>
 
-<span data-ttu-id="fb7b4-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="fb7b4-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="8e2eb-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8e2eb-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="fb7b4-121">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="fb7b4-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="8e2eb-121">Fournit des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="8e2eb-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="fb7b4-122">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="fb7b4-122">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="8e2eb-122">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8e2eb-122">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="fb7b4-123">Gère les opérations de dossier.</span><span class="sxs-lookup"><span data-stu-id="fb7b4-123">Handles folder operations.</span></span>
+> <span data-ttu-id="8e2eb-123">Gère les opérations de dossier.</span><span class="sxs-lookup"><span data-stu-id="8e2eb-123">Handles folder operations.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="fb7b4-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="fb7b4-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="8e2eb-124">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="8e2eb-124">Header files</span></span>
 
-<span data-ttu-id="fb7b4-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="fb7b4-125">Mapidefs.h</span></span>
+<span data-ttu-id="8e2eb-125">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="8e2eb-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="fb7b4-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="fb7b4-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="8e2eb-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="8e2eb-126">Provides data type definitions.</span></span>
     
-<span data-ttu-id="fb7b4-127">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="fb7b4-127">Mapitags.h</span></span>
+<span data-ttu-id="8e2eb-127">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="8e2eb-127">Mapitags.h</span></span>
   
-> <span data-ttu-id="fb7b4-128">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="fb7b4-128">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="8e2eb-128">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="8e2eb-128">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="fb7b4-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fb7b4-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e2eb-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8e2eb-129">See also</span></span>
 
 
 
-[<span data-ttu-id="fb7b4-130">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="fb7b4-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="8e2eb-130">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="8e2eb-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="fb7b4-131">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="fb7b4-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="8e2eb-131">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="8e2eb-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="fb7b4-132">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="fb7b4-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="8e2eb-132">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="8e2eb-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="fb7b4-133">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="fb7b4-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="8e2eb-133">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="8e2eb-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

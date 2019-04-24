@@ -11,69 +11,69 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: fe5528f7605412d0cfd4b4b914e9b221c715e1b1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359555"
 ---
-# <a name="pidtagroamingdatatypes-canonical-property"></a><span data-ttu-id="b789d-103">Propriété canonique PidTagRoamingDatatypes</span><span class="sxs-lookup"><span data-stu-id="b789d-103">PidTagRoamingDatatypes Canonical Property</span></span>
+# <a name="pidtagroamingdatatypes-canonical-property"></a><span data-ttu-id="270e5-103">Propriété canonique PidTagRoamingDatatypes</span><span class="sxs-lookup"><span data-stu-id="270e5-103">PidTagRoamingDatatypes Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b789d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b789d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="270e5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="270e5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b789d-105">Contient un masque de bits indiquant le flux de propriétés existent sur le message.</span><span class="sxs-lookup"><span data-stu-id="b789d-105">Contains a bitmask that indicates which stream properties exist on the message.</span></span>
+<span data-ttu-id="270e5-105">Contient un masque de qui indique quelles propriétés de flux existent sur le message.</span><span class="sxs-lookup"><span data-stu-id="270e5-105">Contains a bitmask that indicates which stream properties exist on the message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b789d-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="b789d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b789d-107">PR_ROAMING_DATATYPES</span><span class="sxs-lookup"><span data-stu-id="b789d-107">PR_ROAMING_DATATYPES</span></span>  <br/> |
-|<span data-ttu-id="b789d-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="b789d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b789d-109">0x7C06</span><span class="sxs-lookup"><span data-stu-id="b789d-109">0x7C06</span></span>  <br/> |
-|<span data-ttu-id="b789d-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="b789d-110">Data type:</span></span>  <br/> |<span data-ttu-id="b789d-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="b789d-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="b789d-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="b789d-112">Area:</span></span>  <br/> |<span data-ttu-id="b789d-113">Configuration</span><span class="sxs-lookup"><span data-stu-id="b789d-113">Configuration</span></span>  <br/> |
+|<span data-ttu-id="270e5-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="270e5-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="270e5-107">PR_ROAMING_DATATYPES</span><span class="sxs-lookup"><span data-stu-id="270e5-107">PR_ROAMING_DATATYPES</span></span>  <br/> |
+|<span data-ttu-id="270e5-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="270e5-108">Identifier:</span></span>  <br/> |<span data-ttu-id="270e5-109">0x7C06</span><span class="sxs-lookup"><span data-stu-id="270e5-109">0x7C06</span></span>  <br/> |
+|<span data-ttu-id="270e5-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="270e5-110">Data type:</span></span>  <br/> |<span data-ttu-id="270e5-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="270e5-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="270e5-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="270e5-112">Area:</span></span>  <br/> |<span data-ttu-id="270e5-113">Configuration</span><span class="sxs-lookup"><span data-stu-id="270e5-113">Configuration</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b789d-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="b789d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="270e5-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="270e5-114">Remarks</span></span>
 
-<span data-ttu-id="b789d-115">Cette propriété doit être définie à une ou plusieurs des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="b789d-115">This property must be set to one or more of the following values:</span></span>
+<span data-ttu-id="270e5-115">Cette propriété doit être définie sur une ou plusieurs des valeurs suivantes:</span><span class="sxs-lookup"><span data-stu-id="270e5-115">This property must be set to one or more of the following values:</span></span>
   
-|<span data-ttu-id="b789d-116">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="b789d-116">**Value**</span></span>|<span data-ttu-id="b789d-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="b789d-117">**Description**</span></span>|
+|<span data-ttu-id="270e5-116">**Value**</span><span class="sxs-lookup"><span data-stu-id="270e5-116">**Value**</span></span>|<span data-ttu-id="270e5-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="270e5-117">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b789d-118">0x00000002</span><span class="sxs-lookup"><span data-stu-id="b789d-118">0x00000002</span></span>  <br/> |<span data-ttu-id="b789d-119">Indique que le message du dossier associé informations (FAI) doit contenir un flux de dictionnaire, sérialisées dans un schéma XML fixe et stockées dans la propriété **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="b789d-119">Indicates that the Folder Associated Information (FAI) message should contain a Dictionary stream, serialized into a fixed XML schema and stored in the **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)) property.</span></span> <span data-ttu-id="b789d-120">Si le message FAI ne contient pas un flux de dictionnaire, l’application doit traiter le dictionnaire qu’aucune entrée.</span><span class="sxs-lookup"><span data-stu-id="b789d-120">If the FAI message does not contain a Dictionary stream, the application must treat the Dictionary as having no entries.</span></span>  <br/> |
-|<span data-ttu-id="b789d-121">0 x 00000004</span><span class="sxs-lookup"><span data-stu-id="b789d-121">0x00000004</span></span>  <br/> |<span data-ttu-id="b789d-122">Indique que le message FAI doit contenir un flux de données XML stockée dans la propriété **PR_ROAMING_XMLSTREAM** ([PidTagRoamingXmlStream](pidtagroamingxmlstream-canonical-property.md)) qui utilise un schéma XML arbitraire.</span><span class="sxs-lookup"><span data-stu-id="b789d-122">Indicates that the FAI message must contain an XML stream stored in the **PR_ROAMING_XMLSTREAM** ([PidTagRoamingXmlStream](pidtagroamingxmlstream-canonical-property.md)) property that uses an arbitrary XML schema.</span></span>  <br/> |
+|<span data-ttu-id="270e5-118">0x00000002</span><span class="sxs-lookup"><span data-stu-id="270e5-118">0x00000002</span></span>  <br/> |<span data-ttu-id="270e5-119">Indique que le message FAI (informations associées aux dossiers) doit contenir un flux de dictionnaire, sérialisé dans un schéma XML fixe et stocké dans la propriété **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="270e5-119">Indicates that the Folder Associated Information (FAI) message should contain a Dictionary stream, serialized into a fixed XML schema and stored in the **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)) property.</span></span> <span data-ttu-id="270e5-120">Si le message FAI ne contient pas de flux de dictionnaire, l'application doit traiter le dictionnaire comme n'ayant pas d'entrées.</span><span class="sxs-lookup"><span data-stu-id="270e5-120">If the FAI message does not contain a Dictionary stream, the application must treat the Dictionary as having no entries.</span></span>  <br/> |
+|<span data-ttu-id="270e5-121">0x00000004</span><span class="sxs-lookup"><span data-stu-id="270e5-121">0x00000004</span></span>  <br/> |<span data-ttu-id="270e5-122">Indique que le message FAI doit contenir un flux XML stocké dans la propriété **PR_ROAMING_XMLSTREAM** ([PidTagRoamingXmlStream](pidtagroamingxmlstream-canonical-property.md)) qui utilise un schéma XML arbitraire.</span><span class="sxs-lookup"><span data-stu-id="270e5-122">Indicates that the FAI message must contain an XML stream stored in the **PR_ROAMING_XMLSTREAM** ([PidTagRoamingXmlStream](pidtagroamingxmlstream-canonical-property.md)) property that uses an arbitrary XML schema.</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="b789d-123">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="b789d-123">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="270e5-123">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="270e5-123">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b789d-124">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="b789d-124">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="270e5-124">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="270e5-124">Protocol specifications</span></span>
 
-<span data-ttu-id="b789d-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b789d-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="270e5-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="270e5-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b789d-126">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="b789d-126">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="270e5-126">Fournit des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="270e5-126">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="b789d-127">[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b789d-127">[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="270e5-127">[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="270e5-127">[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b789d-128">Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que des listes de catégorie partagée et les heures de travail.</span><span class="sxs-lookup"><span data-stu-id="b789d-128">Specifies the location and properties of client and server configuration data, such as shared category lists and working hours.</span></span>
+> <span data-ttu-id="270e5-128">Spécifie l'emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.</span><span class="sxs-lookup"><span data-stu-id="270e5-128">Specifies the location and properties of client and server configuration data, such as shared category lists and working hours.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b789d-129">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="b789d-129">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="270e5-129">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="270e5-129">Header files</span></span>
 
-<span data-ttu-id="b789d-130">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b789d-130">Mapidefs.h</span></span>
+<span data-ttu-id="270e5-130">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="270e5-130">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b789d-131">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="b789d-131">Provides data type definitions.</span></span>
+> <span data-ttu-id="270e5-131">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="270e5-131">Provides data type definitions.</span></span>
     
-<span data-ttu-id="b789d-132">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="b789d-132">Mapitags.h</span></span>
+<span data-ttu-id="270e5-132">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="270e5-132">Mapitags.h</span></span>
   
-> <span data-ttu-id="b789d-133">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="b789d-133">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="270e5-133">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="270e5-133">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b789d-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b789d-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="270e5-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="270e5-134">See also</span></span>
 
 
 
-[<span data-ttu-id="b789d-135">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="b789d-135">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="270e5-135">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="270e5-135">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b789d-136">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="b789d-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="270e5-136">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="270e5-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b789d-137">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="b789d-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="270e5-137">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="270e5-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b789d-138">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="b789d-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="270e5-138">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="270e5-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

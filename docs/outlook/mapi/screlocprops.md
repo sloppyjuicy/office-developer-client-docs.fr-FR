@@ -11,27 +11,27 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 241fac608552036e4706956cbe79524aaedacec9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c73fb96c9620a90ab0505b394fcb9853d02dcde5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360689"
 ---
-# <a name="screlocprops"></a><span data-ttu-id="e2834-103">ScRelocProps</span><span class="sxs-lookup"><span data-stu-id="e2834-103">ScRelocProps</span></span>
+# <a name="screlocprops"></a><span data-ttu-id="4a6a8-103">ScRelocProps</span><span class="sxs-lookup"><span data-stu-id="4a6a8-103">ScRelocProps</span></span>
 
   
   
-<span data-ttu-id="e2834-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e2834-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4a6a8-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4a6a8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e2834-105">Ajuster les pointeurs dans un tableau [SPropValue](spropvalue.md) après que le tableau et ses données ont été copiés ou déplacés vers un nouvel emplacement.</span><span class="sxs-lookup"><span data-stu-id="e2834-105">Adjusts the pointers in an [SPropValue](spropvalue.md) array after the array and its data have been copied or moved to a new location.</span></span> 
+<span data-ttu-id="4a6a8-105">Ajuste les pointeurs dans un tableau [SPropValue](spropvalue.md) après que le tableau et ses données ont été copiés ou déplacés vers un nouvel emplacement.</span><span class="sxs-lookup"><span data-stu-id="4a6a8-105">Adjusts the pointers in an [SPropValue](spropvalue.md) array after the array and its data have been copied or moved to a new location.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e2834-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="e2834-106">Header file:</span></span>  <br/> |<span data-ttu-id="e2834-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e2834-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="e2834-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="e2834-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="e2834-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="e2834-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="e2834-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="e2834-110">Called by:</span></span>  <br/> |<span data-ttu-id="e2834-111">Les applications clientes et des fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="e2834-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="4a6a8-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="4a6a8-106">Header file:</span></span>  <br/> |<span data-ttu-id="4a6a8-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="4a6a8-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="4a6a8-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="4a6a8-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="4a6a8-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="4a6a8-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="4a6a8-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="4a6a8-110">Called by:</span></span>  <br/> |<span data-ttu-id="4a6a8-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="4a6a8-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE ScRelocProps(
@@ -43,59 +43,59 @@ SCODE ScRelocProps(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e2834-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="e2834-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4a6a8-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4a6a8-112">Parameters</span></span>
 
- <span data-ttu-id="e2834-113">_cprop_</span><span class="sxs-lookup"><span data-stu-id="e2834-113">_cprop_</span></span>
+ <span data-ttu-id="4a6a8-113">_cprop_</span><span class="sxs-lookup"><span data-stu-id="4a6a8-113">_cprop_</span></span>
   
-> <span data-ttu-id="e2834-114">[in] Nombre de propriétés dans le tableau indiqué par le paramètre _rgprop_ .</span><span class="sxs-lookup"><span data-stu-id="e2834-114">[in] Count of properties in the array pointed to by the  _rgprop_ parameter.</span></span> 
+> <span data-ttu-id="4a6a8-114">dans Nombre de propriétés dans le tableau vers lequel pointe le paramètre _rgprop_ .</span><span class="sxs-lookup"><span data-stu-id="4a6a8-114">[in] Count of properties in the array pointed to by the  _rgprop_ parameter.</span></span> 
     
- <span data-ttu-id="e2834-115">_rgprop_</span><span class="sxs-lookup"><span data-stu-id="e2834-115">_rgprop_</span></span>
+ <span data-ttu-id="4a6a8-115">_rgprop_</span><span class="sxs-lookup"><span data-stu-id="4a6a8-115">_rgprop_</span></span>
   
-> <span data-ttu-id="e2834-116">[in] Pointeur vers un tableau de structures [SPropValue](spropvalue.md) pour lequel des pointeurs doivent être ajustés.</span><span class="sxs-lookup"><span data-stu-id="e2834-116">[in] Pointer to an array of [SPropValue](spropvalue.md) structures for which pointers are to be adjusted.</span></span> 
+> <span data-ttu-id="4a6a8-116">dans Pointeur vers un tableau de structures [SPropValue](spropvalue.md) pour lesquelles les pointeurs doivent être ajustés.</span><span class="sxs-lookup"><span data-stu-id="4a6a8-116">[in] Pointer to an array of [SPropValue](spropvalue.md) structures for which pointers are to be adjusted.</span></span> 
     
- <span data-ttu-id="e2834-117">_pvBaseOld_</span><span class="sxs-lookup"><span data-stu-id="e2834-117">_pvBaseOld_</span></span>
+ <span data-ttu-id="4a6a8-117">_pvBaseOld_</span><span class="sxs-lookup"><span data-stu-id="4a6a8-117">_pvBaseOld_</span></span>
   
-> <span data-ttu-id="e2834-118">[in] Pointeur vers l’adresse de base d’origine du tableau indiqué par le paramètre _rgprop_ .</span><span class="sxs-lookup"><span data-stu-id="e2834-118">[in] Pointer to the original base address of the array pointed to by the  _rgprop_ parameter.</span></span> 
+> <span data-ttu-id="4a6a8-118">dans Pointeur vers l'adresse de base d'origine du tableau vers lequel pointe le paramètre _rgprop_ .</span><span class="sxs-lookup"><span data-stu-id="4a6a8-118">[in] Pointer to the original base address of the array pointed to by the  _rgprop_ parameter.</span></span> 
     
- <span data-ttu-id="e2834-119">_pvBaseNew_</span><span class="sxs-lookup"><span data-stu-id="e2834-119">_pvBaseNew_</span></span>
+ <span data-ttu-id="4a6a8-119">_pvBaseNew_</span><span class="sxs-lookup"><span data-stu-id="4a6a8-119">_pvBaseNew_</span></span>
   
-> <span data-ttu-id="e2834-120">[in] Pointeur vers la nouvelle adresse de base du tableau indiqué par le paramètre _rgprop_ .</span><span class="sxs-lookup"><span data-stu-id="e2834-120">[in] Pointer to the new base address of the array pointed to by the  _rgprop_ parameter.</span></span> 
+> <span data-ttu-id="4a6a8-120">dans Pointeur vers la nouvelle adresse de base du tableau désigné par le paramètre _rgprop_ .</span><span class="sxs-lookup"><span data-stu-id="4a6a8-120">[in] Pointer to the new base address of the array pointed to by the  _rgprop_ parameter.</span></span> 
     
- <span data-ttu-id="e2834-121">_carte de circuit imprimé_</span><span class="sxs-lookup"><span data-stu-id="e2834-121">_pcb_</span></span>
+ <span data-ttu-id="4a6a8-121">_circuits_</span><span class="sxs-lookup"><span data-stu-id="4a6a8-121">_pcb_</span></span>
   
-> <span data-ttu-id="e2834-122">[entrée, sortie] Pointeur facultatif à la taille, en octets, du tableau indiquée par le paramètre _pvBaseNew_ .</span><span class="sxs-lookup"><span data-stu-id="e2834-122">[in, out] Optional pointer to the size, in bytes, of the array indicated by the  _pvBaseNew_ parameter.</span></span> <span data-ttu-id="e2834-123">Si ce n’est pas NULL, le paramètre de la _carte de circuits imprimés_ est défini sur le nombre d’octets stocké dans le paramètre _pvD_ .</span><span class="sxs-lookup"><span data-stu-id="e2834-123">If not NULL, the  _pcb_ parameter is set to the number of bytes stored in the  _pvD_ parameter.</span></span> 
+> <span data-ttu-id="4a6a8-122">[in, out] Pointeur facultatif vers la taille, en octets, du tableau indiqué par le paramètre _pvBaseNew_ .</span><span class="sxs-lookup"><span data-stu-id="4a6a8-122">[in, out] Optional pointer to the size, in bytes, of the array indicated by the  _pvBaseNew_ parameter.</span></span> <span data-ttu-id="4a6a8-123">Si la valeur n'est pas NULL, le paramètre _PCB_ est défini sur le nombre d'octets stockés dans le paramètre _pvD_ .</span><span class="sxs-lookup"><span data-stu-id="4a6a8-123">If not NULL, the  _pcb_ parameter is set to the number of bytes stored in the  _pvD_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="e2834-124">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="e2834-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4a6a8-124">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="4a6a8-124">Return value</span></span>
 
-<span data-ttu-id="e2834-125">S_OK</span><span class="sxs-lookup"><span data-stu-id="e2834-125">S_OK</span></span>
+<span data-ttu-id="4a6a8-125">S_OK</span><span class="sxs-lookup"><span data-stu-id="4a6a8-125">S_OK</span></span>
   
-> <span data-ttu-id="e2834-126">Pointeurs ont été ajustés avec succès.</span><span class="sxs-lookup"><span data-stu-id="e2834-126">Pointers were adjusted successfully.</span></span>
+> <span data-ttu-id="4a6a8-126">Les pointeurs ont été ajustés avec succès.</span><span class="sxs-lookup"><span data-stu-id="4a6a8-126">Pointers were adjusted successfully.</span></span>
     
-<span data-ttu-id="e2834-127">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="e2834-127">MAPI_E_INVALID_PARAMETER</span></span>
+<span data-ttu-id="4a6a8-127">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="4a6a8-127">MAPI_E_INVALID_PARAMETER</span></span>
   
-> <span data-ttu-id="e2834-128">Un ou les deux paramètres ne sont pas valides, ou un type de propriété inconnue s’est produite.</span><span class="sxs-lookup"><span data-stu-id="e2834-128">One or both parameters were invalid, or an unknown property type was encountered.</span></span>
+> <span data-ttu-id="4a6a8-128">Un ou les deux paramètres n'étaient pas valides ou un type de propriété inconnu a été rencontré.</span><span class="sxs-lookup"><span data-stu-id="4a6a8-128">One or both parameters were invalid, or an unknown property type was encountered.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="e2834-129">Remarques</span><span class="sxs-lookup"><span data-stu-id="e2834-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4a6a8-129">Remarques</span><span class="sxs-lookup"><span data-stu-id="4a6a8-129">Remarks</span></span>
 
-<span data-ttu-id="e2834-130">La fonction **ScRelocProps** fonctionne sur l’hypothèse que le tableau de valeurs de propriété pour laquelle des pointeurs sont ajustées alloué initialement en un seul appel semblable à un appel à la fonction **ScCopyProps** .</span><span class="sxs-lookup"><span data-stu-id="e2834-130">The **ScRelocProps** function operates on the assumption that the property value array for which pointers are adjusted was originally allocated in a single call similar to a call to the **ScCopyProps** function.</span></span> <span data-ttu-id="e2834-131">Si une application cliente ou un fournisseur de services fonctionne avec une valeur de propriété qui est générée à partir des blocs de mémoire, il doit utiliser [ScCopyProps](sccopyprops.md) pour copier les propriétés.</span><span class="sxs-lookup"><span data-stu-id="e2834-131">If a client application or service provider is working with a property value that is built from disjointed blocks of memory, it should use [ScCopyProps](sccopyprops.md) to copy properties instead.</span></span> 
+<span data-ttu-id="4a6a8-130">La fonction **ScRelocProps** agit sur l'hypothèse que le tableau de valeurs de propriété pour lequel les pointeurs sont ajustés a été alloué à l'origine dans un appel unique semblable à un appel à la fonction **ScCopyProps** .</span><span class="sxs-lookup"><span data-stu-id="4a6a8-130">The **ScRelocProps** function operates on the assumption that the property value array for which pointers are adjusted was originally allocated in a single call similar to a call to the **ScCopyProps** function.</span></span> <span data-ttu-id="4a6a8-131">Si une application cliente ou un fournisseur de services travaille avec une valeur de propriété qui est générée à partir de blocs de mémoire disjoints, elle doit utiliser [ScCopyProps](sccopyprops.md) pour copier les propriétés.</span><span class="sxs-lookup"><span data-stu-id="4a6a8-131">If a client application or service provider is working with a property value that is built from disjointed blocks of memory, it should use [ScCopyProps](sccopyprops.md) to copy properties instead.</span></span> 
   
- <span data-ttu-id="e2834-132">**ScRelocProps** est utilisée pour mettre à jour de la validité des pointeurs dans un tableau [SPropValue](spropvalue.md) .</span><span class="sxs-lookup"><span data-stu-id="e2834-132">**ScRelocProps** is used to maintain the validity of pointers in an [SPropValue](spropvalue.md) array.</span></span> <span data-ttu-id="e2834-133">Pour maintenir la validité des pointeurs lorsque vous écrivez de ce type de tableau à et lire à partir d’un disque, effectuez les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="e2834-133">To maintain pointers' validity when writing such an array to and reading it from a disk, perform the following operations:</span></span> 
+ <span data-ttu-id="4a6a8-132">**ScRelocProps** est utilisé pour maintenir la validité des pointeurs dans un tableau [SPropValue](spropvalue.md) .</span><span class="sxs-lookup"><span data-stu-id="4a6a8-132">**ScRelocProps** is used to maintain the validity of pointers in an [SPropValue](spropvalue.md) array.</span></span> <span data-ttu-id="4a6a8-133">Pour maintenir la validité des pointeurs lors de l'écriture et de la lecture d'un tel tableau sur un disque, effectuez les opérations suivantes:</span><span class="sxs-lookup"><span data-stu-id="4a6a8-133">To maintain pointers' validity when writing such an array to and reading it from a disk, perform the following operations:</span></span> 
   
-1. <span data-ttu-id="e2834-134">Avant d’écrire le tableau et les données sur un disque, appelez **ScRelocProps** dans le tableau avec le paramètre _pvBaseNew_ pointe vers une valeur standard zéro, par exemple.</span><span class="sxs-lookup"><span data-stu-id="e2834-134">Before writing the array and data to a disk, call **ScRelocProps** on the array with the  _pvBaseNew_ parameter pointing to some standard value zero, for instance.</span></span> 
+1. <span data-ttu-id="4a6a8-134">Avant d'écrire le tableau et les données sur un disque, appelez **ScRelocProps** sur le tableau avec le paramètre _pvBaseNew_ pointant vers un zéro de valeur standard, par exemple.</span><span class="sxs-lookup"><span data-stu-id="4a6a8-134">Before writing the array and data to a disk, call **ScRelocProps** on the array with the  _pvBaseNew_ parameter pointing to some standard value zero, for instance.</span></span> 
     
-2. <span data-ttu-id="e2834-135">Après avoir lu le tableau et les données d’un disque, appelez **ScRelocProps** dans le tableau avec le paramètre _pvBaseOld_ égale à la même valeur standard utilisée à l’étape 1.</span><span class="sxs-lookup"><span data-stu-id="e2834-135">After reading the array and data from a disk, call **ScRelocProps** on the array with the  _pvBaseOld_ parameter equal to the same standard value used in Step 1.</span></span> <span data-ttu-id="e2834-136">Le tableau et les données doivent être lus dans un tampon créé en une seule fois.</span><span class="sxs-lookup"><span data-stu-id="e2834-136">The array and data must be read into a buffer created with a single allocation.</span></span> 
+2. <span data-ttu-id="4a6a8-135">Après avoir lu le tableau et les données à partir d'un disque, appelez **ScRelocProps** sur le tableau avec le paramètre _pvBaseOld_ égal à la même valeur standard utilisée à l'étape 1.</span><span class="sxs-lookup"><span data-stu-id="4a6a8-135">After reading the array and data from a disk, call **ScRelocProps** on the array with the  _pvBaseOld_ parameter equal to the same standard value used in Step 1.</span></span> <span data-ttu-id="4a6a8-136">Le tableau et les données doivent être lus dans une mémoire tampon créée avec une seule allocation.</span><span class="sxs-lookup"><span data-stu-id="4a6a8-136">The array and data must be read into a buffer created with a single allocation.</span></span> 
     
-3. <span data-ttu-id="e2834-137">Le paramètre de la _carte de circuit imprimé_ à **ScRelocProps** est facultatif.</span><span class="sxs-lookup"><span data-stu-id="e2834-137">The  _pcb_ parameter to **ScRelocProps** is optional.</span></span> 
+3. <span data-ttu-id="4a6a8-137">Le paramètre _PCB_ vers **ScRelocProps** est facultatif.</span><span class="sxs-lookup"><span data-stu-id="4a6a8-137">The  _pcb_ parameter to **ScRelocProps** is optional.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="e2834-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e2834-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4a6a8-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4a6a8-138">See also</span></span>
 
 
 
-[<span data-ttu-id="e2834-139">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="e2834-139">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
+[<span data-ttu-id="4a6a8-139">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="4a6a8-139">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
   
-[<span data-ttu-id="e2834-140">ScCountProps</span><span class="sxs-lookup"><span data-stu-id="e2834-140">ScCountProps</span></span>](sccountprops.md)
+[<span data-ttu-id="4a6a8-140">ScCountProps</span><span class="sxs-lookup"><span data-stu-id="4a6a8-140">ScCountProps</span></span>](sccountprops.md)
   
-[<span data-ttu-id="e2834-141">ScDupPropset</span><span class="sxs-lookup"><span data-stu-id="e2834-141">ScDupPropset</span></span>](scduppropset.md)
+[<span data-ttu-id="4a6a8-141">ScDupPropset</span><span class="sxs-lookup"><span data-stu-id="4a6a8-141">ScDupPropset</span></span>](scduppropset.md)
   
-[<span data-ttu-id="e2834-142">ScRelocNotifications</span><span class="sxs-lookup"><span data-stu-id="e2834-142">ScRelocNotifications</span></span>](screlocnotifications.md)
+[<span data-ttu-id="4a6a8-142">ScRelocNotifications</span><span class="sxs-lookup"><span data-stu-id="4a6a8-142">ScRelocNotifications</span></span>](screlocnotifications.md)
 

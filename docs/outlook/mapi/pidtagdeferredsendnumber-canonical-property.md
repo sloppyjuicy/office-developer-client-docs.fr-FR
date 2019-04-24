@@ -11,62 +11,62 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 9e3a30dad433b255573e4e3f041e6475b9227a54
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357735"
 ---
-# <a name="pidtagdeferredsendnumber-canonical-property"></a><span data-ttu-id="dccd7-103">Propriété canonique PidTagDeferredSendNumber</span><span class="sxs-lookup"><span data-stu-id="dccd7-103">PidTagDeferredSendNumber Canonical Property</span></span>
+# <a name="pidtagdeferredsendnumber-canonical-property"></a><span data-ttu-id="85362-103">Propriété canonique PidTagDeferredSendNumber</span><span class="sxs-lookup"><span data-stu-id="85362-103">PidTagDeferredSendNumber Canonical Property</span></span>
 
   
   
-<span data-ttu-id="dccd7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dccd7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="85362-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="85362-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="dccd7-105">Contient un nombre qui peut être utilisé pour calculer l’ajournement d’envoyer un message.</span><span class="sxs-lookup"><span data-stu-id="dccd7-105">Contains a number that can be used to compute the deferment of sending a message.</span></span>
+<span data-ttu-id="85362-105">Contient un nombre qui peut être utilisé pour calculer l'ajournement de l'envoi d'un message.</span><span class="sxs-lookup"><span data-stu-id="85362-105">Contains a number that can be used to compute the deferment of sending a message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="dccd7-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="dccd7-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="dccd7-107">PR_DEFERRED_SEND_NUMBER</span><span class="sxs-lookup"><span data-stu-id="dccd7-107">PR_DEFERRED_SEND_NUMBER</span></span>  <br/> |
-|<span data-ttu-id="dccd7-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="dccd7-108">Identifier:</span></span>  <br/> |<span data-ttu-id="dccd7-109">0x3FEB</span><span class="sxs-lookup"><span data-stu-id="dccd7-109">0x3FEB</span></span>  <br/> |
-|<span data-ttu-id="dccd7-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="dccd7-110">Data type:</span></span>  <br/> |<span data-ttu-id="dccd7-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="dccd7-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="dccd7-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="dccd7-112">Area:</span></span>  <br/> |<span data-ttu-id="dccd7-113">État MAPI</span><span class="sxs-lookup"><span data-stu-id="dccd7-113">MAPI status</span></span>  <br/> |
+|<span data-ttu-id="85362-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="85362-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="85362-107">PR_DEFERRED_SEND_NUMBER</span><span class="sxs-lookup"><span data-stu-id="85362-107">PR_DEFERRED_SEND_NUMBER</span></span>  <br/> |
+|<span data-ttu-id="85362-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="85362-108">Identifier:</span></span>  <br/> |<span data-ttu-id="85362-109">0x3FEB</span><span class="sxs-lookup"><span data-stu-id="85362-109">0x3FEB</span></span>  <br/> |
+|<span data-ttu-id="85362-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="85362-110">Data type:</span></span>  <br/> |<span data-ttu-id="85362-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="85362-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="85362-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="85362-112">Area:</span></span>  <br/> |<span data-ttu-id="85362-113">État MAPI</span><span class="sxs-lookup"><span data-stu-id="85362-113">MAPI status</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="dccd7-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="dccd7-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="85362-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="85362-114">Remarks</span></span>
 
-<span data-ttu-id="dccd7-115">Cette propriété est utilisée pour le calcul de la propriété **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) lorsqu’il n’est pas présent.</span><span class="sxs-lookup"><span data-stu-id="dccd7-115">This property is used for computing the **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) property when it is not present.</span></span> <span data-ttu-id="dccd7-116">Lors de l’envoi d’un message est différé, la propriété **PR_DEFERRED_SEND_NUMBER** doit être définie avec la propriété **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), si la propriété **PR_DEFERRED_SEND_TIME** est absente.</span><span class="sxs-lookup"><span data-stu-id="dccd7-116">When sending a message is deferred, the **PR_DEFERRED_SEND_NUMBER** property should be set along with the **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) property, if the **PR_DEFERRED_SEND_TIME** property is absent.</span></span> 
+<span data-ttu-id="85362-115">Cette propriété est utilisée pour calculer la propriété **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) lorsqu'elle n'est pas présente.</span><span class="sxs-lookup"><span data-stu-id="85362-115">This property is used for computing the **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) property when it is not present.</span></span> <span data-ttu-id="85362-116">Lorsque l'envoi d'un message est différé, la propriété **PR_DEFERRED_SEND_NUMBER** doit être définie avec la propriété **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), si la propriété **PR_DEFERRED_SEND_TIME** est absente.</span><span class="sxs-lookup"><span data-stu-id="85362-116">When sending a message is deferred, the **PR_DEFERRED_SEND_NUMBER** property should be set along with the **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) property, if the **PR_DEFERRED_SEND_TIME** property is absent.</span></span> 
   
-<span data-ttu-id="dccd7-117">La valeur **PR_DEFERRED_SEND_NUMBER** doit être définie entre 0 et 999.</span><span class="sxs-lookup"><span data-stu-id="dccd7-117">The **PR_DEFERRED_SEND_NUMBER** value must be set between 0 and 999.</span></span> 
+<span data-ttu-id="85362-117">La valeur **PR_DEFERRED_SEND_NUMBER** doit être comprise entre 0 et 999.</span><span class="sxs-lookup"><span data-stu-id="85362-117">The **PR_DEFERRED_SEND_NUMBER** value must be set between 0 and 999.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="dccd7-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="dccd7-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="85362-118">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="85362-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="dccd7-119">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="dccd7-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="85362-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="85362-119">Protocol specifications</span></span>
 
-<span data-ttu-id="dccd7-120">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="dccd7-120">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="85362-120">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="85362-120">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="dccd7-121">Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.</span><span class="sxs-lookup"><span data-stu-id="dccd7-121">Specifies the properties and operations that are permissible for email message objects.</span></span>
+> <span data-ttu-id="85362-121">Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.</span><span class="sxs-lookup"><span data-stu-id="85362-121">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="dccd7-122">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="dccd7-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="85362-122">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="85362-122">Header files</span></span>
 
-<span data-ttu-id="dccd7-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="dccd7-123">Mapidefs.h</span></span>
+<span data-ttu-id="85362-123">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="85362-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="dccd7-124">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="dccd7-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="85362-124">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="85362-124">Provides data type definitions.</span></span>
     
-<span data-ttu-id="dccd7-125">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="dccd7-125">Mapitags.h</span></span>
+<span data-ttu-id="85362-125">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="85362-125">Mapitags.h</span></span>
   
-> <span data-ttu-id="dccd7-126">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="dccd7-126">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="85362-126">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="85362-126">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="dccd7-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="dccd7-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="85362-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="85362-127">See also</span></span>
 
 
 
-[<span data-ttu-id="dccd7-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="dccd7-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="85362-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="85362-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="dccd7-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="dccd7-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="85362-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="85362-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="dccd7-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="dccd7-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="85362-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="85362-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="dccd7-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="dccd7-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="85362-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="85362-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

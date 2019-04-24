@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251587
 localization_priority: Normal
 ms.assetid: a157c27e-afae-7c67-e96d-4ace7b7a82be
-description: Renvoie le texte du champ de mots clés des propriétés d’un document.
-ms.openlocfilehash: c1b7bd6c39a2cc430e425eae84834f62f92d4246
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le texte du champ Mots clés des propriétés d'un document.
+ms.openlocfilehash: d5a5aa00248a016d209c17016e248a2fe93bccde
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360458"
 ---
-# <a name="keywords-function"></a><span data-ttu-id="96dbe-103">KEYWORDS, fonction</span><span class="sxs-lookup"><span data-stu-id="96dbe-103">KEYWORDS Function</span></span>
+# <a name="keywords-function"></a><span data-ttu-id="66d58-103">Fonction KEYWORDS</span><span class="sxs-lookup"><span data-stu-id="66d58-103">KEYWORDS Function</span></span>
 
-<span data-ttu-id="96dbe-104">Renvoie le texte du champ de **mots clés** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="96dbe-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
+<span data-ttu-id="66d58-104">Renvoie le texte du champ **Mots clés** des propriétés d'un document.</span><span class="sxs-lookup"><span data-stu-id="66d58-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="96dbe-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="96dbe-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="66d58-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="66d58-105">Syntax</span></span>
 
-<span data-ttu-id="96dbe-106">MOTS CLÉS ()</span><span class="sxs-lookup"><span data-stu-id="96dbe-106">KEYWORDS ()</span></span>
+<span data-ttu-id="66d58-106">Mots clés ()</span><span class="sxs-lookup"><span data-stu-id="66d58-106">KEYWORDS ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="96dbe-107">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="96dbe-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="66d58-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="66d58-107">Return value</span></span>
 
-<span data-ttu-id="96dbe-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="96dbe-108">String</span></span>
+<span data-ttu-id="66d58-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="66d58-108">String</span></span>
   
 

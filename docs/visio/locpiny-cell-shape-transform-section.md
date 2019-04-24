@@ -8,34 +8,34 @@ f1_keywords:
 - vis_sdr.chm685
 localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
-description: 'Représente la valeur y-coordonnées de l’axe de la forme (centre de rotation) par rapport à l’origine de la forme. La formule par défaut permettant de déterminer LocPinY est la suivante :'
-ms.openlocfilehash: 8d98906e8082af0fc54bc01fe3a8537b66ac56b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: "Représente la coordonnée y de l'axe de la forme (Centre de rotation) par rapport à l'origine de la forme. La formule par défaut permettant de déterminer LocPinY est la suivante :"
+ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358043"
 ---
-# <a name="locpiny-cell-shape-transform-section"></a><span data-ttu-id="50df8-104">LocPinY, cellule (section Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="50df8-104">LocPinY Cell (Shape Transform Section)</span></span>
+# <a name="locpiny-cell-shape-transform-section"></a><span data-ttu-id="08493-104">LocPinY, cellule (section Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="08493-104">LocPinY Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="50df8-105">Représente la valeur *y* -coordonnées de l’axe de la forme (centre de rotation) par rapport à l’origine de la forme.</span><span class="sxs-lookup"><span data-stu-id="50df8-105">Represents the  *y*  -coordinate of the shape's pin (center of rotation) in relation to the origin of the shape.</span></span> <span data-ttu-id="50df8-106">La formule par défaut permettant de déterminer LocPinY est la suivante :</span><span class="sxs-lookup"><span data-stu-id="50df8-106">The default formula for determining LocPinY is:</span></span> 
+<span data-ttu-id="08493-105">Représente la coordonnée *y* de l'axe de la forme (Centre de rotation) par rapport à l'origine de la forme.</span><span class="sxs-lookup"><span data-stu-id="08493-105">Represents the  *y*  -coordinate of the shape's pin (center of rotation) in relation to the origin of the shape.</span></span> <span data-ttu-id="08493-106">La formule par défaut permettant de déterminer LocPinY est la suivante :</span><span class="sxs-lookup"><span data-stu-id="08493-106">The default formula for determining LocPinY is:</span></span> 
   
-<span data-ttu-id="50df8-107">= Hauteur \* 0,5</span><span class="sxs-lookup"><span data-stu-id="50df8-107">= Height \* 0.5</span></span>
+<span data-ttu-id="08493-107">= Hauteur \* 0,5</span><span class="sxs-lookup"><span data-stu-id="08493-107">= Height \* 0.5</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="50df8-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="50df8-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="08493-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="08493-108">Remarks</span></span>
 
-<span data-ttu-id="50df8-109">Pour obtenir une référence à la cellule LocPinY par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez :</span><span class="sxs-lookup"><span data-stu-id="50df8-109">To get a reference to the LocPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="08493-109">Pour obtenir une référence à la cellule LocPinY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="08493-109">To get a reference to the LocPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="50df8-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="50df8-110">Cell name:</span></span>  <br/> | <span data-ttu-id="50df8-111">LocPinY</span><span class="sxs-lookup"><span data-stu-id="50df8-111">LocPinY</span></span>  <br/> |
+| <span data-ttu-id="08493-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="08493-110">Cell name:</span></span>  <br/> | <span data-ttu-id="08493-111">LocPinY</span><span class="sxs-lookup"><span data-stu-id="08493-111">LocPinY</span></span>  <br/> |
    
-<span data-ttu-id="50df8-112">Pour obtenir une référence à la cellule LocPinY par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="50df8-112">To get a reference to the LocPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="08493-112">Pour obtenir une référence à la cellule LocPinY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="08493-112">To get a reference to the LocPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="50df8-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="50df8-113">Section index:</span></span>  <br/> |<span data-ttu-id="50df8-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="50df8-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="50df8-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="50df8-115">Row index:</span></span>  <br/> |<span data-ttu-id="50df8-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="50df8-116">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="50df8-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="50df8-117">Cell index:</span></span>  <br/> |<span data-ttu-id="50df8-118">**visXFormLocPinY**</span><span class="sxs-lookup"><span data-stu-id="50df8-118">**visXFormLocPinY**</span></span> <br/> |
+| <span data-ttu-id="08493-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="08493-113">Section index:</span></span>  <br/> |<span data-ttu-id="08493-114">**Définis**</span><span class="sxs-lookup"><span data-stu-id="08493-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="08493-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="08493-115">Row index:</span></span>  <br/> |<span data-ttu-id="08493-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="08493-116">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="08493-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="08493-117">Cell index:</span></span>  <br/> |<span data-ttu-id="08493-118">**visXFormLocPinY**</span><span class="sxs-lookup"><span data-stu-id="08493-118">**visXFormLocPinY**</span></span> <br/> |
    
 
