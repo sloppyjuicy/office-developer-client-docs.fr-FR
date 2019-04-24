@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ebf66729-d794-a398-268a-84d761bf06b6
 description: Indique si une option d’un menu contextuel ou de balise d’action est désactivée.
-ms.openlocfilehash: 3956b6cf5ccb870255d6943e74b4f02650952d09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddf55f40056d7df7a2403e500bb4bae335930433
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332577"
 ---
 # <a name="disabled-cell-actions-section"></a>Disabled, cellule (section Actions)
 
@@ -23,20 +23,20 @@ Indique si une option d’un menu contextuel ou de balise d’action est désact
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Désactive (fait apparaître en grisé) le nom de la commande.  <br/> |
 |FALSE  <br/> |Active le nom de la commande (valeur par défaut).  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule Disabled par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Disabled à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Actions. *nom* . Désactivé où Actions. *nom* est le nom de la ligne Actions  <br/> |
+|Nom de cellule :  <br/> |Mesures. *nom* . Désactivé pour les actions. *Name* est le nom de la ligne d'actions  <br/> |
    
-Pour obtenir une référence à la cellule Disabled par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Disabled à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

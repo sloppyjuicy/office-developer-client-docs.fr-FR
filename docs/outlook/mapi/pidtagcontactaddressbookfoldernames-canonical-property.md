@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 5c7cabcd01ab91fa81f050ba635ece8d6b7aba02
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6fb6f1c8def0e772c580ddb8abf7b5ed0f3d9e74
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334544"
 ---
 # <a name="pidtagcontactaddressbookfoldernames-canonical-property"></a>Propriété canonique PidTagContactAddressBookFolderNames
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les noms des dossiers de Contacts où les utilisateurs de messagerie sont conservés.
+Contient les noms des dossiers de contacts où les utilisateurs de messagerie sont conservés.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_FOLDER_NAMES  <br/> |
 |Identificateur :  <br/> |0x6623  <br/> |
 |Type de données :  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
-|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Il s’agit des propriétés d’une section de profil du carnet d’adresses de contacts.
+Il s'agit de propriétés d'une section profil de carnet d'adresses de contacts.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidef.h
+Mapidef. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

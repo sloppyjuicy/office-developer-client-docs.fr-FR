@@ -1,47 +1,47 @@
 ---
-title: Télécharger l’état du message
+title: Charger l'état du message
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 430734fe98799c386e71612355b194a6b8edf00a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 61cda23557a501a2651385d192f1dc7432ef1cb5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332633"
 ---
-# <a name="upload-message-state"></a>Télécharger l’état du message
+# <a name="upload-message-state"></a>Charger l'état du message
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit le déroulement de l’état du message de téléchargement de l’ordinateur d’état de réplication. 
+ Cette rubrique décrit ce qui se passe lors de l'état du message de téléchargement de la machine à États de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |
-|Structure de données associées :  <br/> |**[UPMSG](upmsg.md)** <br/> |
-|À partir de cet état :  <br/> |[Télécharger l’état de la table](upload-table-state.md) <br/> |
-|Avec cet état :  <br/> |Télécharger l’état de la table  <br/> |
+|Identificateur d'État:  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |
+|Structure de données associée:  <br/> |**[UPMSG](upmsg.md)** <br/> |
+|À partir de cet État:  <br/> |[Charger l'état de la table](upload-table-state.md) <br/> |
+|À cet État:  <br/> |Charger l'état de la table  <br/> |
    
 > [!NOTE]
-> L’ordinateur d’état de réplication est une machine à états déterministe. Un client au départ d’un état à l’autre doit renvoyer par la suite à l’ancienne à partir de ce dernier. 
+> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
   
 ## <a name="description"></a>Description
 
-Cet état lance le téléchargement d’un élément Outlook (courrier, calendrier, contact, tâche, une note ou journal) qui est nouveau ou a été déplacé vers le dossier actif, ou qui ont été modifiée. Outlook initialise la structure de données correpsonding **UPMSG** avec les informations appropriées pour l’élément comme étant ajouté, déplacé ou modifié. 
+Cet État lance le téléchargement d'un élément Outlook (courrier, calendrier, contact, tâche, note ou journal) qui est nouveau ou qui a été déplacé vers le dossier actif ou qui a été modifié. Outlook initialise la structure de données correpsonding **UPMSG** avec les informations appropriées pour l'élément comme étant ajoutée, déplacée ou modifiée. 
   
-Si l’élément a été ajouté ou déplacé, le client puis correctement ajoute ou met à jour l’élément sur le serveur. 
+Si l'élément a été ajouté ou déplacé, le client ajoute ou met à jour de manière appropriée l'élément sur le serveur. 
   
-Si l’élément a été modifié, Outlook plus spécifie dans la structure de données **UPMSG** si les modifications sont dans un en-tête de message (dans ce cas, l’élément est l’en-tête de message), dans les propriétés d’élément ou dans l’élément lui-même qui nécessite de conflit résolution. Le client met à jour l’élément sur le serveur. 
+Si l'élément a été modifié, Outlook spécifie, dans la structure de données **UPMSG** , si les modifications figurent dans un en-tête de message (auquel cas l'élément est l'en-tête du message), dans les propriétés de l'élément ou dans l'élément lui-même qui nécessite un conflit. résolution. Le client met ensuite à jour l'élément sur le serveur. 
   
-Lorsque le téléchargement de l’élément se termine, Outlook indique que le message a été téléchargé, afin qu’il ne sera pas traité dans un téléchargement suivant. Le magasin local renvoie l’état de la table de téléchargement.
+Une fois le téléchargement de l'élément terminé, Outlook note que le message a été téléchargé, afin qu'il ne soit pas traité lors d'un téléchargement ultérieur. Le magasin local revient à l'état de la table de chargement.
   
 ## <a name="see-also"></a>Voir aussi
 

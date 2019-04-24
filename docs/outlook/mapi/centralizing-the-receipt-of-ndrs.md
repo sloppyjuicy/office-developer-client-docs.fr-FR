@@ -1,5 +1,5 @@
 ---
-title: Centralisation de la réception de rapports de non-remise
+title: Centralisation de la réception des notifications d’échec de remise
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,26 +7,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: fbe1f4f6-28f8-40b8-b551-192c0ba48c18
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 16a150105211231af54ccfdc5d1565aeecea729e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: af2531076755d1e183409f50fe1a0c97d28063f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332661"
 ---
-# <a name="centralizing-the-receipt-of-ndrs"></a>Centralisation de la réception de rapports de non-remise
+# <a name="centralizing-the-receipt-of-ndrs"></a>Centralisation de la réception des notifications d’échec de remise
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-**Pour que les rapports de non-remise (NDR) arrive à un emplacement central lorsque plusieurs instances de votre client exécutent simultanément**
+**Pour que les rapports de non-remise (NDR) arrivent à un emplacement central lorsque plusieurs instances de votre client fonctionnent simultanément**
   
-1. Les valeurs appropriées pour le compte qui doit recevoir la valeur **PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md)), **PR_REPORT_NAME** ([PidTagReportName](pidtagreportname-canonical-property.md)) et **PR_REPORT_SEARCH_KEY** ([PidTagReportSearchKey](pidtagreportsearchkey-canonical-property.md)) les rapports. Créer l’identificateur d’entrée en appelant [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md) si nécessaire. 
+1. Définissez **PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md)), **PR_REPORT_NAME** ([PidTagReportName](pidtagreportname-canonical-property.md)) et **PR_REPORT_SEARCH_KEY** ([PidTagReportSearchKey](pidtagreportsearchkey-canonical-property.md)) sur les valeurs appropriées pour le compte à recevoir. les rapports. Créez l'identificateur d'entrée en appelant [IAddrBook:: CreateOneOff](iaddrbook-createoneoff.md) si nécessaire. 
     
-2. Comprendre les systèmes de messagerie qui ne tient pas compte le compte que vous avez demandé pour les rapports et les envoyez à l’expéditeur. Réduisez l’impact qu’il aura sur administrateurs que vous devrez déplacer les rapports :
+2. SaChez qu'il existe des systèmes de messagerie qui ignorent le compte que vous avez demandé pour les rapports et les envoie à l'expéditeur. Réduisez l'impact que cela aura sur les administrateurs qui devront déplacer des rapports en procédant comme suit:
     
-- Donner à votre message d’origine à une classe de message distinctes, par exemple IPM. Note.MSNNews. Rechercher les messages entrants avec la classe Report.IPM.Note.MSNNews.NDR et les transférer vers le compte que vous avez l’intention de rapports placés au premier. En même temps, envoyer à un système de messagerie ignorée votre compte de rapport de non-remise pour communiquer qu’il doit respecter la propriété **PR_REPORT_ENTRYID** . 
+- Donner à votre message d'origine une classe de message distincte, telle que IPM. Note. MSNNews. Recherchez les messages entrants avec la classe Report. IPM. note. MSNNews. NDR et transférez-les vers le compte auquel vous avez prévu des rapports. En même temps, envoyez un message électronique au système de messagerie qui a ignoré votre compte de notification de remise indisponible pour communiquer qu'il doit honorer la propriété **PR_REPORT_ENTRYID** . 
     
-- Les systèmes de messagerie plus qui n’effectue pas de **PR_REPORT_ENTRYID** pas respecte les conventions de classe de message MAPI soit. Par conséquent, vous serez invité à quelque chose qui ressemble à une note. Il s’agit d’un peu plus difficile à gérer, car l’entrée est donc variable. Examinez l’objet et le transmet si vous trouvez soit quelque chose à partir d’une liste de mots que moyenne « non remis » ou quelque chose à partir de l’objet d’origine. Préparez-vous à régler ces listes au fil du temps. 
+- La plupart des systèmes de messagerie qui ne respectent pas **PR_REPORT_ENTRYID** n'honoreront pas les conventions de classe de message MAPI. Par conséquent, vous recevrez un message ressemblant à une note. Il s'agit d'un peu plus difficile à traiter car l'entrée est tellement variable. Examinez l'objet et transférez-le si vous trouvez un article dans une liste de mots signifiant «non remis» ou un autre sujet de votre objet d'origine. Soyez prêt à ajuster ces listes au fil du temps. 
     
 

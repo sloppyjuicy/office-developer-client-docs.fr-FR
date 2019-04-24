@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: dcbd12b4-4b50-4be6-a201-45e5d4611ce0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e25c265f3136fa7caf407e4b2bf160b67ba0111
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: bfdb98d5a5b768fad162d60a79cb1f541dc32866
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334369"
 ---
 # <a name="pidtagcontactaddressbooksortflag-canonical-property"></a>Propriété canonique PidTagContactAddressBookSortFlag
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un indicateur qui a la valeur TRUE lorsque les contacts doivent être triées par le fichier sous et FALSE lorsqu’ils doivent être triés par nom complet. 
+Contient un indicateur qui est vrai lorsque les contacts doivent être triés par fichier sous et FALSe lorsqu'ils doivent être triés par nom d'affichage. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_SORT_FLAG  <br/> |
 |Identificateur :  <br/> |0x6602  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Il s’agit d’une propriété sur une section de profil du carnet d’adresses de contacts.
+Il s'agit d'une propriété dans la section profil de carnet d'adresses de contacts.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

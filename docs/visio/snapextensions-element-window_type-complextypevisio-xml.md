@@ -1,31 +1,31 @@
 ---
-title: SnapExtensions, élément (Window_Type, complexType) (« Visio XML »)
+title: Élément SnapExtensions (complexType Window_Type) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a12ae10-6aa4-c845-5ede-1c14c6dac80f
-description: Spécifie si un paramètre d’extension de composant logiciel enfichable spécifique est activé ou désactivé pour la fenêtre active. La valeur peut être une somme des valeurs dans le tableau suivant.
+description: Indique si un paramètre d'extension d'alignement spécifique est activé ou désactivé pour la fenêtre active. La valeur peut être une somme des valeurs du tableau suivant.
 ms.openlocfilehash: 57fde520d3dc8e0582c0062a599d5f38a73169b4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394404"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334418"
 ---
-# <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>SnapExtensions, élément (Window_Type, complexType) (« Visio XML »)
+# <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>Élément SnapExtensions (complexType Window_Type) ('Visio XML')
 
-Spécifie si un paramètre d’extension de composant logiciel enfichable spécifique est activé ou désactivé pour la fenêtre active. La valeur peut être une somme des valeurs dans le tableau suivant.
+Indique si un paramètre d'extension d'alignement spécifique est activé ou désactivé pour la fenêtre active. La valeur peut être une somme des valeurs du tableau suivant.
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |Windows.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |Windows. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,7 +36,7 @@ Spécifie si un paramètre d’extension de composant logiciel enfichable spéci
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -50,27 +50,27 @@ Aucun.
   
 ### <a name="attributes"></a>Attributs
 
-Aucune.
+Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-La valeur de l’élément **SnapExtensions** peut être une somme des valeurs dans le tableau suivant. 
+La valeur de l'élément **SnapExtensions** peut être une somme des valeurs indiquées dans le tableau suivant. 
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aligne sur rien.  <br/> |
-|1  <br/> |Aligner sur l’extension du rectangle de sélection.  <br/> |
-|2  <br/> |Aligner sur l’extension de l’axe centre.  <br/> |
-|4  <br/> |Aligner sur l’extension tangentes de courbe.  <br/> |
-|8  <br/> |Aligner sur l’extension de point de terminaison.  <br/> |
-|16  <br/> |Aligner sur l’extension du milieu.  <br/> |
-|32  <br/> |Aligner sur l’extension linéaire.  <br/> |
-|64  <br/> |Aligner sur l’extension de la courbe.  <br/> |
-|128  <br/> |Aligner sur l’extension perpendiculaire du reste du point de terminaison.  <br/> |
-|256  <br/> |Aligner sur l’extension perpendiculaires du milieu.  <br/> |
-|512  <br/> |Aligner sur l’extension horizontale du point de terminaison.  <br/> |
-|1024  <br/> |Aligner sur extension verticale du point de terminaison.  <br/> |
-|2048  <br/> |Aligner sur l’extension du centre ellipse.  <br/> |
-|4096  <br/> |Aligner sur l’extension d’angle isométrique.  <br/> |
+|0,1  <br/> |Ancrer à l'extension du rectangle de sélection.  <br/> |
+|n°2  <br/> |Extension de l'axe aligner sur le centre.  <br/> |
+|4  <br/> |Magnétisme de l'extension tangente Curve.  <br/> |
+|8bits  <br/> |Ancrer sur l'extension de point de terminaison.  <br/> |
+|Seiz  <br/> |Ancrer sur l'extension de milieu.  <br/> |
+|32  <br/> |Aligner sur l'extension linéaire.  <br/> |
+|64  <br/> |Magnétisme de l'extension de courbe.  <br/> |
+|128  <br/> |Aligner sur le point de terminaison perpendiculaire.  <br/> |
+|256  <br/> |Magnétisme de l'extension perpendiculaire au milieu.  <br/> |
+|512  <br/> |Aligner sur l'extension horizontale du point de terminaison.  <br/> |
+|1024  <br/> |Aligner sur l'extension verticale du point de terminaison.  <br/> |
+|2048  <br/> |Aligner sur le poste du centre de l'ellipse.  <br/> |
+|4096  <br/> |Magnétisme de l'extension angles isométriques.  <br/> |
    
 

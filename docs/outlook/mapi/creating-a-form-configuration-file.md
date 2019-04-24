@@ -1,5 +1,5 @@
 ---
-title: Création d’un fichier de configuration de formulaire
+title: Création d'un fichier de configuration de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: aaf3b33d-ad2d-4ef8-847f-1ab1eaf08706
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d8159d93aef020d7c9c1b56be4cf6256f80b8aa3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 97ecafb2e4159c680fd23607f5ed6f8ea3156de7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333018"
 ---
-# <a name="creating-a-form-configuration-file"></a>Création d’un fichier de configuration de formulaire
+# <a name="creating-a-form-configuration-file"></a>Création d'un fichier de configuration de formulaire
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un fichier de configuration de formulaire fournit des informations sur un formulaire à la fois dans le Gestionnaire de formulaire utilisée et pour les applications clientes. Un fichier de configuration de formulaire contient une spécification d’étendue pour un formulaire, y compris les propriétés publiées par le formulaire pour une utilisation par les clients, les verbes implémentées par le formulaire et les plateformes prises en charge par le formulaire de messagerie.
+Un fichier de configuration de formulaire fournit des informations sur un formulaire à la fois au gestionnaire de formulaires utilisé et aux applications clientes. Un fichier de configuration de formulaire contient une spécification complète pour un formulaire, notamment les propriétés publiées par le formulaire pour une utilisation par les clients de messagerie, les verbes implémentés par le formulaire et les plateformes prises en charge par le formulaire.
   
-Un fichier de configuration de formulaire est un fichier avec l’extension .cfg et a un format similaire à un fichier d’initialisation de Windows. Il est un fichier texte brut avec un nombre de sections. Chaque section commence par un nom de section, placés entouré crochets. Chaque section contient une ou plusieurs lignes qui définissent les valeurs et les paramètres relatifs à la section. Valeurs de disposer d’un des types suivants :
+Un fichier de configuration de formulaire est un fichier avec une extension. cfg et possède un format similaire à celui d'un fichier d'initialisation Windows. Il s'agit d'un fichier en texte brut comportant un certain nombre de sections. Chaque section commence par un nom de section, placé entre crochets. Chaque section contient une ou plusieurs lignes qui définissent les valeurs et les paramètres relatifs à cette section. Les valeurs ont l'un des types suivants:
   
 - String
     
@@ -31,13 +31,13 @@ Un fichier de configuration de formulaire est un fichier avec l’extension .cfg
     
 - Chaîne de plateforme
     
-- Nom de chemin d’accès
+- Nom de chemin d'accès
     
 - Entier
     
 - GUID
     
-Pour plus d’informations sur les sections d’un fichier .cfg, voir [Fichier fichiers au Format de formulaire Configuration](file-format-of-form-configuration-files.md).
+Pour plus d'informations sur les sections d'un fichier. cfg, voir [format de fichier des fichiers de configuration de formulaire](file-format-of-form-configuration-files.md).
   
 ## <a name="see-also"></a>Voir aussi
 

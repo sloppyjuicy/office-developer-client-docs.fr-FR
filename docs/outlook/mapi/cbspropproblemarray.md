@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c4510cdffa711f6b8aa0cc5ba1622d4d55557871
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 09dfe769eec5c2d1272732e2a0d8b1f5d484131c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332227"
 ---
 # <a name="cbspropproblemarray"></a>CbSPropProblemArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets dans une structure [SPropProblemArray](spropproblemarray.md) existante. 
+Calcule le nombre d'octets dans une structure [SPropProblemArray](spropproblemarray.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SPropProblemArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbSPropProblemArray (_lparray)
@@ -38,7 +38,7 @@ CbSPropProblemArray (_lparray)
 
 ## <a name="parameters"></a>Paramètres
 
- __lparray_
+ __LPArray_
   
 > Pointeur vers la structure **SPropProblemArray** existante. 
     

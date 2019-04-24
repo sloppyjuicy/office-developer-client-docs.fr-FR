@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a18b560a-e054-45b3-946d-6504465db5b7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e5d9261a9f33d77d52cfd6e448e69a2c1e8df415
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 972df747e0ee459996b9b4da5732be1490fbd08a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334663"
 ---
 # <a name="pidtagconversionwithlossprohibited-canonical-property"></a>Propriété canonique PidTagConversionWithLossProhibited
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un message transfert agent d’est interdite d’effectuer des conversions de texte de perdre des informations de message. 
+Contient la valeur TRUE si un agent de transfert des messages (MTA) ne peut pas procéder à des conversions de texte de message qui perdent des informations. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONVERSION_WITH_LOSS_PROHIBITED  <br/> |
-|Identificateur :  <br/> |0x000d  <br/> |
+|Identificateur :  <br/> |0x000D  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Configuration générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Est un exemple du type de conversion en cours interdit le mappage « avec perte » Unicode (deux octets par caractère) à un jeu de caractères sur un octet. 
+Le mappage «avec perte» d'Unicode (deux octets par caractère) dans un jeu de caractères codés sur un octet constitue un exemple du type de conversion interdit. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

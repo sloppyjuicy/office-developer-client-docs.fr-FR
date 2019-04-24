@@ -9,29 +9,29 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 56430658-a798-c004-b4ba-363443f43ded
 description: Des valeurs d'erreur s'affichent dans les cellules contenant une formule incorrecte.
-ms.openlocfilehash: 301f566151362727daf8236f8ca88fca8758054e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5219becdd1af888e424a2fe33faa7df5a06f61fb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332605"
 ---
-# <a name="about-error-values"></a>À propos des valeurs d'erreur
+# <a name="about-error-values"></a>À propos des valeurs d’erreur
 
 Des valeurs d'erreur s'affichent dans les cellules contenant une formule incorrecte.
   
 Si une formule fait référence à une cellule qui contient une valeur d'erreur, elle affiche également une valeur d'erreur. Utilisez les fonctions ISERR, ISERRNA, ISERROR ou ISERRVALUE pour déterminer le sens de ces valeurs d'erreur.
   
-**Valeurs d’erreur**
+**Valeurs d'erreur**
 
 ||||
 |:-----|:-----|:-----|
 |**Si la cellule affiche** <br/> |**La formule contient** <br/> |**Exemple** <br/> |
-| #DIV/0!  <br/> |Division par 0  <br/> |10/0  <br/> |
-| #VALUE!  <br/> | Un argument ou un opérande de type incorrect  <br/> | 5 + « Maison »  <br/> |
-| #REF!  <br/> | Une référence à une cellule qui n’existe pas  <br/> | Une cellule qui fait référence à une cellule qui n’existe plus  <br/> |
-| #NUM!  <br/> | Un nombre non valide  <br/> | Racine carrée d’un nombre négatif  <br/> |
-| #N/A!  <br/> | Pas une valeur disponible  <br/> | Fonction NA)  <br/> |
-| #DIM !  <br/> | Une valeur de cote qui dépasse la plage autorisée (les puissances correctes sont des entiers -128 \<= n \<= 127)  <br/> Une valeur de cote utilisée avec une opération non appropriée  <br/> |1 en ^ 100 \* 1 en ^ 100 (le résultat est 1 dans ^ 200, qui dépasse la plage des cotes)  <br/> 5,2 cm ^ 1,5 (pas une puissance entière)  <br/> |
+| #DIV/0!  <br/> |Une division par 0  <br/> |10/0  <br/> |
+| #VALUE!  <br/> | Un argument ou un opérande de type incorrect  <br/> | 5 + "Maison"  <br/> |
+| #REF!  <br/> | Une référence à une cellule qui n'existe pas  <br/> | Une cellule faisant référence à une cellule qui n'existe plus  <br/> |
+| #NUM!  <br/> | Un nombre incorrect  <br/> | La racine carrée d'un nombre négatif  <br/> |
+| #N/A!  <br/> | Pas une valeur disponible  <br/> | Fonction NA( )  <br/> |
+| #DIM!  <br/> | Une valeur dimensionnelle qui dépasse la plage de dimensions (les puissances valides sont des \<entiers \<-128 = n = 127)  <br/> Une valeur de cote utilisée dans une opération non appropriée  <br/> |1Dans ^ 100 \* cm ^ 100 (le résultat est 1 cm ^ 200, qui se trouve au-delà de la plage de dimensions)  <br/> 5,2 cm^1,5 (la puissance n'est pas un entier)  <br/> |
    
 

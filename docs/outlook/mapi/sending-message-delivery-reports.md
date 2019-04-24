@@ -7,20 +7,20 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: abb12ec5-f0b7-488a-a75d-446f4be53e96
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 717494f30fd4d43e94a7c6a37770e2eab8ebb59e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2a31e7d088d5c1f94b272cb4d307f3aff99f32ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332836"
 ---
 # <a name="sending-message-delivery-reports"></a>Envoi de rapports de remise de messages
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Certains systèmes de messagerie sous-jacent prend en charge les rapports de remise et d’autres pas. Comment le fournisseur de transport détermine si les rapports de remise ou de non-remise du message peuvent être envoyés vers des applications clientes est un détail d’implémentation spécifique à un fournisseur de transport individuels. Si les rapports de remise peuvent être envoyés vers les applications clientes, fournisseurs de transport utilisent la méthode [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) pour notifier MAPI de remise réussi ou échoué pour un ou plusieurs destinataires. MAPI puis génère des rapports de remise ou de non-remise correspondant à des destinataires. Fournisseurs de transport peuvent également traduire les rapports de remise et de non-remise entrants natifs au système de messagerie dans remise MAPI et les rapports de non-remise prenait **StatusRecips**.
+Certains systèmes de messagerie sous-jacents prennent en charge les rapports de remise et d'autres non. La manière dont le fournisseur de transport détermine si les rapports de remise de messages ou de non-remise peuvent être envoyés aux applications clientes est un détail d'implémentation spécifique aux fournisseurs de transport individuels. Si des rapports de remise peuvent être envoyés aux applications clientes, les fournisseurs de transport utilisent la méthode [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) pour informer MAPI de la réussite ou de l'échec de la remise d'un ou de plusieurs destinataires. MAPI génère ensuite des rapports de remise ou de livraison correspondant à ces destinataires. Les fournisseurs de transport peuvent également convertir les rapports de remise et de non remise entrants natifs du système de messagerie en rapports de remise et de non remise MAPI au moyen de **StatusRecips**.
   
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43569b22cace7b2700d37ace49fd734b45fec73c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7abafafd3d4bd9618d85a7dac34e4556545167bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334754"
 ---
 # <a name="iaddrbookadvise"></a>IAddrBook::Advise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22580879"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Enregistre un fournisseur de service ou client pour recevoir des notifications sur les modifications apportées à une ou plusieurs entrées dans le carnet d’adresses.
+Inscrit un client ou un fournisseur de services pour recevoir des notifications sur les modifications apportées à une ou plusieurs entrées du carnet d'adresses.
   
 ```cpp
 HRESULT Advise(
@@ -41,17 +41,17 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée du conteneur de carnet d’adresses, messagerie utilisateur ou liste de distribution qui générera une notification en cas de modification du type ou de types décrits dans le paramètre _ulEventMask_ . 
+> dans Pointeur vers l'identificateur d'entrée du conteneur de carnet d'adresses, de l'utilisateur de messagerie ou de la liste de distribution qui générera une notification lorsqu'une modification est apportée au type ou aux types décrits dans le paramètre _ulEventMask_ . 
     
  _ulEventMask_
   
-> [in] Un ou plusieurs événements de notification qui inscrit pour la réception de l’appelant. Chaque événement est associé à une structure de notification spécifique qui contient des informations sur les modifications apportées. Le tableau suivant répertorie les valeurs valides pour _ulEventMask_ et leurs structures correspondantes. 
+> dans Un ou plusieurs événements de notification que l'appelant s'inscrit à recevoir. Chaque événement est associé à une structure de notification spécifique qui contient des informations sur la modification qui s'est produite. Le tableau suivant répertorie les valeurs valides pour _ulEventMask_ et leurs structures correspondantes. 
     
-|**Événement de notification**|**Structure correspondante**|
+|**Notification, événement**|**Structure correspondante**|
 |:-----|:-----|
 |**fnevCriticalError** <br/> |[ERROR_NOTIFICATION](error_notification.md) <br/> |
 |**fnevObjectCreated** <br/> |[OBJECT_NOTIFICATION](object_notification.md) <br/> |
@@ -63,43 +63,43 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> [in] Pointeur vers l’objet de récepteur advise à appeler lorsque l’événement pour lequel la notification a été demandée.
+> dans Pointeur vers l'objet de récepteur de Conseil à appeler lorsque l'événement pour lequel la notification a été demandée se produit.
     
  _lpulConnection_
   
-> [out] Pointeur vers un numéro de connexion différente de zéro qui représente l’enregistrement de notification.
+> remarquer Pointeur vers un numéro de connexion différent de zéro qui représente l'enregistrement de la notification.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’inscription de notification a réussi.
+> L'enregistrement de la notification a réussi.
     
 MAPI_E_INVALID_ENTRYID 
   
-> Le fournisseur de carnet d’adresses responsable de l’identificateur d’entrée passé _lpEntryID_ n’a pas pu enregistrer une notification de l’entrée correspondante. 
+> Le fournisseur de carnet d'adresses responsable de l'identificateur d'entrée passé dans _lpEntryID_ n'a pas pu enregistrer une notification pour l'entrée correspondante. 
     
 MAPI_E_NO_SUPPORT 
   
-> Notification n’est pas pris en charge par le fournisseur de carnet d’adresses responsable de l’objet identifié par l’identificateur d’entrée passé dans le paramètre _lpEntryID_ . 
+> La notification n'est pas prise en charge par le fournisseur de carnet d'adresses responsable de l'objet identifié par l'identificateur d'entrée passé dans le paramètre _lpEntryID_ . 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur d’entrée passé _lpEntryID_ ne peuvent pas être géré par des fournisseurs du carnet d’adresses dans le profil. 
+> L'identificateur d'entrée passé dans _lpEntryID_ ne peut être géré par aucun des fournisseurs de carnet d'adresses dans le profil. 
     
 ## <a name="remarks"></a>Remarques
 
-Clients et fournisseurs de services appellent la méthode **Advise** pour inscrire pour un type particulier ou les types de notification sur une entrée de carnet d’adresses. Les types de notification sont indiqués par le masque d’événement passé avec le paramètre _ulEventMask_ . 
+Les clients et les fournisseurs de **** services appellent la méthode Advise pour s'inscrire à un type particulier ou à des types de notifications sur une entrée de carnet d'adresses. Les types de notifications sont indiqués par le masque d'événement transmis avec le paramètre _ulEventMask_ . 
   
-MAPI transfère cet appel **Advise** pour le fournisseur de carnet d’adresses qui est responsable de l’entrée telle qu’indiquée par l’identificateur d’entrée dans le paramètre _lpEntryID_ . Le fournisseur de carnet d’adresses gère l’inscription proprement dite ou appelle la méthode de prise en charge, [IMAPISupport::Subscribe](imapisupport-subscribe.md), pour demander MAPI pour inscrire l’appelant. Un numéro de connexion différente de zéro est renvoyé pour représenter l’inscription réussie.
+MAPI transmet cet appel **** au fournisseur de carnets d'adresses qui est responsable de l'entrée comme indiqué par l'identificateur d'entrée dans le paramètre _lpEntryID_ . Le fournisseur de carnet d'adresses gère l'inscription proprement dite ou appelle la méthode de prise en charge, [IMAPISupport:: subscribe](imapisupport-subscribe.md), pour inviter MAPI à inscrire l'appelant. Un numéro de connexion différent de zéro est renvoyé pour représenter la réussite de l'inscription.
   
-Chaque fois qu’une modification est apportée à l’entrée du type indiqué par l’inscription de notification, le fournisseur de carnet d’adresses appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de récepteur advise spécifié dans le paramètre _lpAdviseSink_ . La méthode **OnNotify** inclut une structure [NOTIFICATION](notification.md) comme paramètre d’entrée qui contient des données pour l’événement. 
+Chaque fois qu'une modification est apportée à l'entrée du type indiqué par l'enregistrement des notifications, le fournisseur de carnet d'adresses appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) pour l'objet récepteur de notification spécifié dans le paramètre _lpAdviseSink_ . La méthode **OnNotify** inclut une structure de [notification](notification.md) sous la forme d'un paramètre d'entrée qui contient les données de description de l'événement. 
   
-Selon le fournisseur de carnet d’adresses, l’appel de **OnNotify** peut se produire immédiatement après la modification de l’objet inscrit ou à une date ultérieure. Sur les systèmes qui prennent en charge plusieurs threads d’exécution, l’appel de **OnNotify** peut se produire sur n’importe quel thread. Les clients peuvent demander que ces notifications se produisent sur un thread particulier en appelant la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour créer l’objet récepteur advise qui est transmis à **Advise**. 
+En fonction du fournisseur de carnet d'adresses, l'appel à **OnNotify** peut se produire immédiatement après la modification de l'objet inscrit ou ultérieurement. Sur les systèmes qui prennent en charge plusieurs threads d'exécution, l'appel à **OnNotify** peut se produire sur n'importe quel thread. Les clients peuvent demander que ces notifications se produisent sur un thread particulier en appelant la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour créer l'objet de récepteur de notifications qui est transmis à Advise. **** 
   
-Car un fournisseur de carnet d’adresses peut libérer l’objet de récepteur advise passé par les clients à tout moment après l’exécution réussie de **notification** d’appel et avant une [IAddrBook::Unadvise](iaddrbook-unadvise.md) pour annuler la notification d’appel, les clients doivent version leurs objets récepteur advise **Advise** retourne. 
+Étant donné qu'un fournisseur de carnet d'adresses peut libérer l'objet de récepteur de notifications transmis par les clients à tout **** moment après l'exécution réussie de l'appel de la méthode Advise et avant un appel [IAddrBook::](iaddrbook-unadvise.md) Unadvise pour annuler la notification, les clients doivent le libérer. leurs objets de récepteur de **** notification lorsque la fonction Advise renvoie. 
   
-Pour plus d’informations sur le processus de notification, reportez-vous à la section [Notification d’événement MAPI](event-notification-in-mapi.md).
+Pour plus d'informations sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md).
   
 ## <a name="see-also"></a>Voir aussi
 

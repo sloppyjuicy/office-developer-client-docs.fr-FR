@@ -7,33 +7,33 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cca4c70d-b73a-4834-80b5-9cb5889f63cc
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: a91ab8497a690fd4b99f76274d0213284253fd06
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334467"
 ---
 # <a name="component-object-model-and-mapi"></a>COM (Component Object Model) et MAPI
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La documentation du Kit de développement logiciel Windows comprend des informations complètes sur les règles d’implémentation des objets qui sont conformes à l’objet COM (Component Model). Ces règles expliquent comment effectuer les opérations suivantes :
+La documentation du kit de développement logiciel (SDK) Windows inclut une présentation complète des règles d'implémentation des objets conformes au modèle COM (Component Object Model). Ces règles permettent d'effectuer les opérations suivantes:
   
-- Concevoir des interfaces et les objets.
+- Concevoir des interfaces et des objets.
     
-- Implémenter l’interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) . 
+- Implémentez l'interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) . 
     
-- Gérer la mémoire.
+- Gestion de la mémoire.
     
 - Gérer le décompte de références.
     
-- Implémenter des objets apartment de thread.
+- Implémenter des objets thread cloisonnés.
     
-Bien que tous les objets MAPI sont considérés comme reposant sur COM, car ils implémentent des interfaces qui héritent de [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx), MAPI écart et dans certaines situations, les règles COM standards. Cette déviation permet aux développeurs une plus grande flexibilité dans leurs implémentations. Par exemple, une interface MAPI, comme une interface COM, décrit un contrat entre l’implémentation et de l’appelant. Une fois que l’interface est créée et publiée, sa définition ne peut pas et ne change pas. MAPI ne s’écarte pas cette description, mais il relâche la description quelque peu. L’implémentation de la possibilité ne pas implémenter des méthodes, renvoi d’une des valeurs d’erreur à l’appelant : 
+Bien que tous les objets MAPI soient considérés comme COM, car ils implémentent des interfaces qui héritent de [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx), MAPI s'écarte parfois des règles com standard. Cette déviation offre aux développeurs une plus grande flexibilité dans leurs implémentations. Par exemple, une interface MAPI, comme n'importe quelle interface COM, décrit un contrat entre l'implémenteur et l'appelant. Une fois que l'interface est créée et publiée, sa définition ne peut pas et ne change pas. MAPI ne s'écarte pas de cette description, mais il assouplit légèrement la description. Les implémenteurs peuvent choisir de ne pas implémenter des méthodes spécifiques, en renvoyant l'une des valeurs d'erreur suivantes à l'appelant: 
   
 - MAPI_E_NO_SUPPORT
     
@@ -43,15 +43,15 @@ Bien que tous les objets MAPI sont considérés comme reposant sur COM, car ils 
     
 - MAPI_E_TYPE_NO_SUPPORT
     
-Les autres variations de règles COM standard sont décrits dans le tableau suivant.
+Les autres écarts par rapport aux règles COM standard sont décrits dans le tableau suivant.
   
 |**Règle de programmation COM**|**Variante MAPI**|
 |:-----|:-----|
-|Tous les paramètres de chaîne dans les méthodes d’interface doivent être Unicode.  <br/> |Les interfaces MAPI sont définies pour autoriser les paramètres de chaîne Unicode ou ANSI. De nombreuses méthodes qui ont un paramètre de chaîne ont également un paramètre **ulFlags** ; la largeur d’un paramètre de chaîne est indiquée par la valeur de l’indicateur MAPI_UNICODE dans **ulFlags**. Certaines interfaces MAPI ne prend en charge Unicode et renvoyer MAPI_E_BAD_CHARWIDTH lors de l’indicateur MAPI_UNICODE est défini.  <br/> |
-|Toutes les méthodes d’interface doivent avoir un type de retour de HRESULT.  <br/> |MAPI a au moins une méthode qui retourne une valeur HRESULT non : [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md).  <br/> |
-|Les appelants et les responsables de l’implémentation doivent allouer et libérer de la mémoire pour les paramètres de l’interface à l’aide des norme allocateurs de tâche COM.  <br/> |Toutes les méthodes MAPI permet de gérer la mémoire pour les paramètres de l’interface les allocateurs liés [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md) . Toutes les implémentations de MAPI des interfaces définies par OLE, tels [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx), utilisent les allocateurs de tâche COM standards.  <br/> |
-|Toutes les paramètres pointeurs doivent explicitement être définies sur la valeur NULL en cas d’échec d’une méthode.  <br/> |Interfaces MAPI nécessitent que les paramètres pointeurs qu'être défini sur NULL ou restent inchangés lorsqu’une méthode échoue. Toutes les implémentations de MAPI des interfaces définies par OLE définir explicitement des paramètres sur la valeur NULL en cas d’échec.  <br/> |
-|Implémenter des objets agrégées autant que possible.  <br/> |Interfaces MAPI ne sont pas agrégées.  <br/> |
+|Tous les paramètres de chaîne dans les méthodes d'interface doivent être au format Unicode.  <br/> |Les interfaces MAPI sont définies pour autoriser les paramètres de chaîne Unicode ou ANSI. De nombreuses méthodes qui ont un paramètre de chaîne ont également un paramètre **ulFlags** ; la largeur d'un paramètre de type chaîne est indiquée par la valeur de l'indicateur MAPI_UNICODE dans **ulFlags**. Certaines interfaces MAPI ne prennent pas en charge Unicode et renvoient MAPI_E_BAD_CHARWIDTH lorsque l'indicateur MAPI_UNICODE est défini.  <br/> |
+|Toutes les méthodes d'interface doivent avoir un type de retour de HRESULT.  <br/> |MAPI a au moins une méthode qui renvoie une valeur autre que HRESULT: [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md).  <br/> |
+|Les appelants et les implémenteurs doivent allouer et libérer de la mémoire pour les paramètres d'interface à l'aide des allocateurs de tâches COM standard.  <br/> |Toutes les méthodes MAPI utilisent les allocateurs liés [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md) pour gérer la mémoire des paramètres d'interface. Toutes les implémentations MAPI d'interfaces définies par OLE, telles que [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx), utilisent les allocateurs de tâches com standard.  <br/> |
+|Tous les paramètres de pointeur de sortie doivent être explicitement définis sur NULL lorsqu'une méthode échoue.  <br/> |Les interfaces MAPI exigent que les paramètres de pointeur de sortie soient définis sur NULL ou demeurent inchangés lorsqu'une méthode échoue. Toutes les implémentations MAPI d'interfaces définies par OLE définissent explicitement les paramètres sur NULL en cas d'échec.  <br/> |
+|Implémentez les objets agrégeables autant que possible.  <br/> |Les interfaces MAPI ne peuvent pas être regroupées.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -64,5 +64,5 @@ Les autres variations de règles COM standard sont décrits dans le tableau suiv
 [MAPIFreeBuffer](mapifreebuffer.md)
 
 
-[Objet MAPI et vue d’ensemble de l’Interface](mapi-object-and-interface-overview.md)
+[Vue d'ensemble de l'objet et de l'interface MAPI](mapi-object-and-interface-overview.md)
 

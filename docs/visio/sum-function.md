@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251501
 localization_priority: Normal
 ms.assetid: fc97cef7-59c3-5be1-34fe-a40b4b33d1d6
-description: Renvoie la somme d’une liste de numéros.
-ms.openlocfilehash: a64de440868c055ed917b7646a7c1d81318e3eff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la somme d'une liste de nombres.
+ms.openlocfilehash: 749bf1620a26c6f4cf793a2f9e596d5720175be0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332494"
 ---
-# <a name="sum-function"></a>SUM, fonction
+# <a name="sum-function"></a>Fonction SUM
 
-Renvoie la somme d’une liste de numéros.
+Renvoie la somme d'une liste de nombres.
   
 ## <a name="syntax"></a>Syntaxe
 
-Somme (** *Numéro1* **, ** *Numéro2* **,..., ** *[numberN]* **) 
+SUM (* * *nombre1* * *, * * *nombre2* * *,..., * * *[nombre]* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _nombre1_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Premier nombre  <br/> |
-| _nombre2_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Deuxième nombre  <br/> |
-| _numberN_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Nième nombre  <br/> |
+| _number1_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Premier nombre  <br/> |
+| _number2_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Deuxième nombre  <br/> |
+| _Numéro de série_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Nième nombre  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Numérique
   
 ## <a name="example"></a>Exemple
 
-SUM(5;7;12)
+SUM (5, 7, 12)
   
 Renvoie 24.
   

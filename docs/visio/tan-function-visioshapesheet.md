@@ -1,5 +1,5 @@
 ---
-title: TAN, fonction (VisioShapeSheet)
+title: TAN Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,34 +9,34 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c820cb95-92e8-5d56-22d7-0a984acc6c59
 description: Renvoie la tangente d’un angle.
-ms.openlocfilehash: 508bc704c3256072a927143ea2f7f656357da0a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9ece28baa29f1fdc7d7d31938dc83d8f68f8982d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332346"
 ---
-# <a name="tan-function-visioshapesheet"></a>TAN, fonction (VisioShapeSheet)
+# <a name="tan-function-visioshapesheet"></a>TAN Function (VisioShapeSheet)
 
 Renvoie la tangente d’un angle.
   
 ## <a name="syntax"></a>Syntaxe
 
-TAN (** *angle* **) 
+BRUN (* * *angle* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle pour lequel la tangente.  <br/> |
+| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle d'obtention de la tangente.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Numérique
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-La fonction TAN utilise des radians, sauf si vous spécifiez une autre unité de mesure dans *angle* . 
+La fonction TAN utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *angle* . 
   
 ## <a name="example"></a>Exemple
 

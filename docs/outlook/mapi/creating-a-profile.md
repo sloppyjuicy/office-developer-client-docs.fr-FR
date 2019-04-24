@@ -1,5 +1,5 @@
 ---
-title: Création d’un profil
+title: Création d'un profil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,30 +7,30 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 80867adf-6786-47a9-9d3f-4aef4a7d7c66
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5c6a16b62987a5338e1f14d362ba9d0ba9836e8e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 842a8d9f2f08125fbede037dabf8ae6f6790d547
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332948"
 ---
-# <a name="creating-a-profile"></a>Création d’un profil
+# <a name="creating-a-profile"></a>Création d'un profil
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un client peut créer un profil d’une des deux façons, à l’aide de l’Assistant profil, ou en écrivant du code personnalisé.
+Un client peut créer un profil de l'une des deux façons suivantes, à l'aide de l'Assistant Profil ou en écrivant du code personnalisé.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-[Création d’un profil à l’aide de l’Assistant Profil](creating-a-profile-by-using-the-profile-wizard.md)
+[Création d'un profil à l'aide de l'Assistant Profil](creating-a-profile-by-using-the-profile-wizard.md)
   
-> Décrit comment appeler l’Assistant profil, une application qui crée un profil à l’activation de l’utilisateur de choisir message les services et les fournisseurs de services de manière interactive.
+> Décrit comment appeler l'Assistant Profil, une application qui crée un profil en permettant à l'utilisateur de choisir les services de messagerie et les fournisseurs de services de manière interactive.
     
-[Création d’un profil à l’aide de code personnalisé](creating-a-profile-by-using-custom-code.md)
+[Création d'un profil à l'aide d'un code personnalisé](creating-a-profile-by-using-custom-code.md)
   
-> Explique comment écrire du code C ou C++, souvent le meilleur choix pour les applications clientes non interactif qui nécessitent un ensemble spécifique de services de messagerie.
+> Décrit comment écrire du code C ou C++, souvent le meilleur choix pour les applications clientes non interactives qui nécessitent un ensemble spécifique de services de messagerie.
     
 

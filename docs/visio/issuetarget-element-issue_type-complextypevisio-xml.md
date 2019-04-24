@@ -1,31 +1,31 @@
 ---
-title: Élément IssueTarget (Issue_Type, complexType) (« Visio XML »)
+title: Élément IssueTarget (complexType Issue_Type) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: bd9a5d5f-16fe-29b4-5af0-913b14d2be16
-description: En fonction de la cible de l’objet parent de validation, spécifie soit la page, ou la page et la forme, associé à ce problème de validation parent. Si la cible de la publication de validation parent est un document IssueTarget spécifie une page ni une forme.
+description: En fonction de la cible du problème de validation parent, spécifie soit la page, soit la page et la forme, associées au problème de validation parent. Si la cible du problème de validation parent est un document, IssueTarget ne spécifie ni une page ni une forme.
 ms.openlocfilehash: 74005bfb6035e32b7b34fdd5a8a5737813a562a0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332521"
 ---
-# <a name="issuetarget-element-issuetype-complextype-visio-xml"></a>Élément IssueTarget (Issue_Type, complexType) (« Visio XML »)
+# <a name="issuetarget-element-issuetype-complextype-visio-xml"></a>Élément IssueTarget (complexType Issue_Type) ('Visio XML')
 
-En fonction de la cible de l’objet parent de validation, spécifie soit la page, ou la page et la forme, associé à ce problème de validation parent. Si la cible de la publication de validation parent est un document **IssueTarget** spécifie une page ni une forme. 
+En fonction de la cible du problème de validation parent, spécifie soit la page, soit la page et la forme, associées au problème de validation parent. Si la cible du problème de validation parent est un document, **IssueTarget** ne spécifie ni une page ni une forme. 
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |validation.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |validation. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,7 +36,7 @@ En fonction de la cible de l’objet parent de validation, spécifie soit la pag
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,7 +52,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> |Spécifie l’identificateur unique de la page qui est associée au problème de validation parent. Si la cible est le document, la valeur PageID peut être 0xFFFFFFFF.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|ShapeID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> |Spécifie l’identificateur unique de la forme qui est associée au problème de validation parent. Si la cible est le document ou une page, la valeur ShapeID peut être 0xFFFFFFFF.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|PageID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Spécifie l'identificateur unique de la page associée au problème de validation parent. Si la cible est le document, la valeur PageID peut être 0xFFFFFFFF.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|ShapeID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Spécifie l'identificateur unique de la forme associée au problème de validation parent. Si la cible est le document ou une page, la valeur ShapeID peut être 0xFFFFFFFF.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

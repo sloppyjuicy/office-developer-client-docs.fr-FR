@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
-description: 'Dernière modification : 02 juillet 2012'
-ms.openlocfilehash: 3e534f91863e2a1300e03d112d1f532f486eedd9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification le: 02 juillet 2012'
+ms.openlocfilehash: 88716719857cfd623d30a3684fc997ea8019455e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334838"
 ---
 # <a name="feid"></a>FEID
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Identificateur d’un dossier. Il contient un identificateur d’entrée et d’autres informations pertinentes.
+Identificateur d'un dossier. Il contient un identificateur d'entrée et d'autres informations pertinentes.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,21 +35,21 @@ struct FEID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _abFlags_
   
-> identificateur d’entrée de 4 octets pour le dossier. Pour plus d’informations sur les identificateurs d’entrée MAPI, voir **[ENTRYID](entryid.md)**. 
+> identificateur d'entrée sur 4 octets pour le dossier. Pour plus d'informations sur les identificateurs d'entrée MAPI, voir **[EntryID](entryid.md)**. 
     
  _muid_
   
-> GUID qui identifie le fournisseur de banque. Voir mapidefs.h pour la définition du type de **MAPIUID**. 
+> GUID qui identifie le fournisseur de banque. Voir mapidefs. h pour la définition de type de **MAPIUID**. 
     
  _espace réservé_
   
-> Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.
     
- _ltid_
+ _LTID_
   
 > ID à long terme du dossier.
     
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[SYNC](sync.md)
+[SYNCHRONI](sync.md)
 

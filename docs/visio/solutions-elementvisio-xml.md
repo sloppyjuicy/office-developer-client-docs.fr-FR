@@ -1,5 +1,5 @@
 ---
-title: Élément de solutions (« Visio XML »)
+title: Solutions, élément ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,24 +8,24 @@ localization_priority: Normal
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: Spécifie les propriétés des solutions stockées dans le document.
 ms.openlocfilehash: 65f6d3a34a62cd5e7b63ca0f6518a6e839b48360
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334845"
 ---
-# <a name="solutions-element-visio-xml"></a>Élément de solutions (« Visio XML »)
+# <a name="solutions-element-visio-xml"></a>Solutions, élément ('Visio XML')
 
 Spécifie les propriétés des solutions stockées dans le document.
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |solutions.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |solutions. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -35,7 +35,7 @@ Spécifie les propriétés des solutions stockées dans le document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -45,7 +45,7 @@ Aucune.
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Probl?me](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Spécifie une instance d’une solution que XML stocké dans le dessin.  <br/> |
+|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Spécifie une instance du code XML de la solution stockée dans le dessin.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

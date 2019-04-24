@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4af8e79a-697e-44a1-8576-fdc57726e9ef
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d58a216a41ff8fe93387ce6d9d1d6aa16f36f224
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 00355546717ca61492750cb1dd113d20114b0695
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334810"
 ---
 # <a name="filetime"></a>FILETIME
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une date de 64 bits non signé et d’une valeur d’heure d’un fichier. Cette valeur représente le nombre d’unités de 100 nanosecondes depuis le début du 1er janvier 1601. 
+Contient une valeur de date et d'heure 64 bits non signée pour un fichier. Cette valeur représente le nombre d'unités de 100 nanosecondes depuis le 1er janvier 1601. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _FILETIME
@@ -44,17 +44,17 @@ typedef struct _FILETIME
 
  **dwLowDateTime**
   
-> Valeur de temps 32 bits de poids faible du fichier. 
+> Ordre bas 32 bits de la valeur de l'heure du fichier. 
     
- **FILETIME**
+ **dwHighDateTime**
   
-> Ordre haut 32 bits de la valeur d’heure de fichier.
+> Ordre 32 bits de poids fort de la valeur de l'heure du fichier.
     
 ## <a name="remarks"></a>Remarques
 
-Une propriété de type PT_SYSTIME possède une structure **FILETIME** pour sa valeur. Ces propriétés a un type de données **FILETIME** pour le membre de la **valeur** de sa définition dans une structure [SPropValue](spropvalue.md) . 
+Une propriété de type PT_SYSTIME a une structure **fileTime** pour sa valeur. Une telle propriété a un type de données **fileTime** pour le membre de **valeur** dans sa définition dans une structure [SPropValue](spropvalue.md) . 
   
-La définition de la structure **FILETIME** est dans la _référence du programmeur Win32_ et dans le fichier d’en-tête Mapidefs.h MAPI. MAPI définit la structure conditionnelle pour vous assurer qu’elle est définie lorsque la définition de Win32 n’est pas disponible. 
+La définition de la structure **fileTime** se trouve dans le _Guide de référence du programmeur Win32_ et dans le fichier d'en-tête MAPI Mapidefs. h. MAPI définit la structure de façon conditionnelle pour s'assurer qu'elle est définie lorsque la définition Win32 n'est pas disponible. 
   
 ## <a name="see-also"></a>Voir aussi
 

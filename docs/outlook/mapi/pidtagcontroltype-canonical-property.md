@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3c1d415cc9aa4e66b6c4b17262f9a491fc01f6bd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8614441ffa60181366c860b66ef4618ce32106be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334733"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>Propriété canonique PidTagControlType
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient une valeur qui indique un type de contrôle pour un contrôle utilisé dans une boîte de dialogue. 
   
@@ -32,71 +32,71 @@ Contient une valeur qui indique un type de contrôle pour un contrôle utilisé 
 |Propriétés associées :  <br/> |PR_CONTROL_TYPE  <br/> |
 |Identificateur :  <br/> |0x3F02  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Afficher une table MAPI  <br/> |
+|Domaine :  <br/> |Table d'affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement une des valeurs suivantes :
+Cette propriété peut avoir exactement l'une des valeurs suivantes:
   
 DTCT_BUTTON 
   
-> Un contrôle bouton de la boîte de dialogue.
+> Contrôle de bouton de boîte de dialogue.
     
 DTCT_CHECKBOX 
   
-> Une case à cocher de la boîte de dialogue.
+> Case à cocher de boîte de dialogue.
     
 DTCT_COMBOBOX 
   
-> Boîte de dialogue liste déroulante.
+> Zone de liste déroulante de boîte de dialogue.
     
 DTCT_DDLBX 
   
-> Boîte de dialogue liste déroulante.
+> Zone de liste déroulante de dialogue.
     
 DTCT_EDIT 
   
-> Une zone de texte de boîte de dialogue Modifier.
+> Zone de texte d'édition d'une boîte de dialogue.
     
 DTCT_GROUPBOX 
   
-> Boîte de dialogue groupe.
+> Une boîte de dialogue.
     
 DTCT_LABEL 
   
-> Une étiquette de la boîte de dialogue.
+> Étiquette de boîte de dialogue.
     
 DTCT_LBX 
   
-> Boîte de dialogue liste.
+> Une zone de liste de boîte de dialogue.
     
 DTCT_LISTBOX 
   
-> Boîte de dialogue liste.
+> Une zone de liste de boîte de dialogue.
     
 DTCT_MVDDLBX 
   
-> Une zone de liste à valeurs multiples remplie par une propriété de type chaîne à valeurs multiples.
+> Zone de liste à plusieurs valeurs remplie par une propriété à valeurs multiples de type String.
     
 DTCT_PAGE 
   
-> Une page à onglets de boîte de dialogue.
+> Page à onglets de boîte de dialogue.
     
 DTCT_RADIOBUTTON 
   
-> Une case d’option de boîte de dialogue.
+> Case d'option de boîte de dialogue.
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
-description: 'Dernière modification : 03 juillet 2012'
-ms.openlocfilehash: a40d4e62a930219a738c7b431f3d2192007c3d9d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 03 juillet 2012'
+ms.openlocfilehash: 864c2d2dfd17c285b0d8a401d59ce5b7d0463864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332185"
 ---
 # <a name="iostxsynchdrend"></a>IOSTX::SyncHdrEnd
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fin de la synchronisation pour un en-tête de message.
+Met fin à la synchronisation pour un en-tête de message.
   
 ```cpp
 HRESULT SyncHdrEnd( 
@@ -37,13 +37,13 @@ HRESULT SyncHdrEnd(
 
  _pprog_
   
-> [in] Interface **[IMAPIProgress](imapiprogressiunknown.md)** pour la synchronisation de déplacé ou copié des messages. Voir mapidefs.h pour la définition du type de **LPMAPIPROGRESS**. 
+> dans Interface **[méthode imapiprogress](imapiprogressiunknown.md)** pour la synchronisation des messages déplacés ou copiés. Voir mapidefs. h pour la définition de type de **LPMAPIPROGRESS**. 
     
 ## <a name="remarks"></a>Remarques
 
-Lors de l' **[IOSTX::SyncBeg](iostx-syncbeg.md)**, du stockage local passe l' [état d’en-tête de message du téléchargement](download-message-header-state.md). Le client télécharge un élément de message complète (comme *pmsgFull* dans **[HDRSYNC](hdrsync.md)** ). Si l’opération réussit, le client définit également *ulFlags* **HDRSYNC** en tant que **HSF_OK**. Fonction **IOSTX::SyncHdrEnd**, Outlook vérifie le résultat dans **HDRSYNC** et utilise *pprog* et les informations **HDRSYNC** pour mettre à jour l’en-tête de message local. 
+Sur **[IOSTX:: SyncBeg](iostx-syncbeg.md)**, le magasin local entre l' [État de l'en-tête du message de téléchargement](download-message-header-state.md). Le client télécharge un élément de message complet (en tant que *pmsgFull* dans **[HDRSYNC](hdrsync.md)** ). Si cette opération réussit, le client définit également *ulFlags* dans **HDRSYNC** en tant que **HSF_OK**. Sur **IOSTX:: SyncHdrEnd**, Outlook vérifie le résultat dans **HDRSYNC** et utilise *Pprog* et les informations dans **HDRSYNC** pour mettre à jour l'en-tête de message local. 
   
-Le magasin local renvoie à l’état, qu'il se trouvait avant précédente **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)**. 
+La banque locale revient à l'État dans lequel elle se trouvait avant le précédent **[IOSTX:: SyncHdrBeg](iostx-synchdrbeg.md)**. 
   
 ## <a name="see-also"></a>Voir aussi
 

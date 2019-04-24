@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251594
 localization_priority: Normal
 ms.assetid: 9587283b-4f4d-0ad6-34aa-58e2001f085e
-description: Renvoie la date et l’heure de que dernière impression d’un document, sous forme de valeur sérielle.
-ms.openlocfilehash: 70404945ebb0ca5da0dda882bd7b0abd6656f1eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la date et l'heure de la dernière impression d'un document, sous la forme d'une valeur sérielle.
+ms.openlocfilehash: 3198b98b58e2b68e58ae16643e396e1a91635940
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334404"
 ---
-# <a name="doclastprint-function"></a>DOCLASTPRINT, fonction
+# <a name="doclastprint-function"></a>Fonction DOCLASTPRINT
 
-Renvoie la date et l’heure de que dernière impression d’un document, sous forme de valeur sérielle.
+Renvoie la date et l'heure de la dernière impression d'un document, sous la forme d'une valeur sérielle.
   
 ## <a name="syntax"></a>Syntaxe
 

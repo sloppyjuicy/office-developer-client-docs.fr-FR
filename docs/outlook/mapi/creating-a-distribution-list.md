@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b63a6024-910d-4569-a3b4-c3ebf0b32c3d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f0a6b7af196073d52ce98037b443569dcd1f41e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 7108ae215562169244100a56cc9b9208d78b1893
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333025"
 ---
 # <a name="creating-a-distribution-list"></a>Création d’une liste de distribution
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les clients peuvent créer une liste de distribution directement dans un conteneur modifiable telles que le carnet d’adresses personnel (CAP).
+Les clients peuvent créer une liste de distribution directement dans un conteneur modifiable tel que le carnet d'adresses personnel (PAB).
   
-**Pour créer une liste de distribution dans le carnet d’adresses personnel**
+**Pour créer une liste de distribution dans le PAB**
   
-1. Créez un tableau de balise de propriété ajustés avec la balise d’une propriété, **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)), comme suit :
+1. Créez un tableau de balises de propriété dimensionnée avec une balise de propriété, **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)), comme suit:
     
    ```cpp
     SizedPropTagArray(1, tagaDefaultDL) =
@@ -35,7 +35,7 @@ Les clients peuvent créer une liste de distribution directement dans un contene
     };
    ```
 
-2. Appelez [IAddrBook::GetPAB](iaddrbook-getpab.md) pour récupérer l’identificateur d’entrée du carnet d’adresses personnel. Si une erreur se produit ou **GetPAB** renvoie zéro ou NULL, ne continuez pas. 
+2. Appelez [IAddrBook:: GetPAB](iaddrbook-getpab.md) pour récupérer l'identificateur d'entrée du PAB. S'il y a une erreur ou **GetPAB** renvoie zéro ou null, ne continuez pas. 
     
    ```cpp
     LPENTRYID peidPAB = NULL;
@@ -43,7 +43,7 @@ Les clients peuvent créer une liste de distribution directement dans un contene
     lpIAddrBook->GetPAB(&cbeidPAB, &peidPAB);
    ```
 
-3. Appelez [IAddrBook::OpenEntry](iaddrbook-openentry.md) pour ouvrir le carnet d’adresses personnel. Le paramètre de sortie _ulObjType_ doit être défini sur MAPI_ABCONT. 
+3. Appelez [IAddrBook:: OpenEntry](iaddrbook-openentry.md) pour ouvrir le PAB. Le paramètre de sortie _ulObjType_ doit être défini sur MAPI_ABCONT. 
     
    ```cpp
     ULONG ulObjType = 0;
@@ -55,7 +55,7 @@ Les clients peuvent créer une liste de distribution directement dans un contene
                     &lpPABCont);
    ```
 
-4. Appeler [IMAPIProp::GetProps](imapiprop-getprops.md) méthode le carnet d’adresses du personnel pour récupérer la propriété PR_DEF_CREATE_DL, le modèle utilisé pour créer une liste de distribution. 
+4. Appelez la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) de PAB pour récupérer la propriété PR_DEF_CREATE_DL, le modèle utilisé pour créer une liste de distribution. 
     
    ```cpp
     lpPABCont->GetProps(0,
@@ -64,15 +64,15 @@ Les clients peuvent créer une liste de distribution directement dans un contene
     
    ```
 
-5. En cas d’échec de **GetProps** : 
+5. Si **GetProps** échoue: 
     
-   1. Appelez le carnet d’adresses du personnel [IMAPIProp::OpenProperty](imapiprop-openproperty.md) pour ouvrir la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) avec l’interface **IMAPITable** . 
+   1. Appelez la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) du PAB pour ouvrir la **propriété PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) avec l'interface **IMAPITable** . 
       
-   2. Créer une restriction de propriété pour rechercher la ligne contenant la colonne **TYPEADR_PR** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) égale à « MAPIPDL ». 
+   2. Créez une restriction de propriété pour rechercher la ligne dont la colonne **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) est égale à «MAPIPDL». 
       
-   3. Appel [IMAPITable::FindRow](imapitable-findrow.md) pour rechercher cette ligne. 
+   3. Appelez [IMAPITable:: FindRow](imapitable-findrow.md) pour localiser cette ligne. 
     
-6. Enregistrez l’identificateur d’entrée renvoyée par **GetProps** ou **FindRow**.
+6. Enregistrez l'identificateur d'entrée renvoyé par **GetProps** ou **FindRow**.
     
    ```cpp
     peidDefDLTpl = lpspvDefDLTpl->Value.bin.pb;
@@ -80,7 +80,7 @@ Les clients peuvent créer une liste de distribution directement dans un contene
     
    ```
 
-7. Appelez le carnet d’adresses du personnel [IABContainer::CreateEntry](iabcontainer-createentry.md) pour créer une nouvelle entrée à l’aide du modèle représenté par l’identificateur d’entrée enregistrée. Ne pensez pas que l’objet retourné sera une liste de distribution plutôt que d’un utilisateur de messagerie lorsque cet appel est distant. Notez que l’indicateur CREATE_CHECK_DUP est passé dans le paramètre _ulFlags_ pour empêcher que l’entrée ajoutée à deux reprises. 
+7. Appelez la méthode [IABContainer:: CreateEntry](iabcontainer-createentry.md) de PAB pour créer une nouvelle entrée à l'aide du modèle représenté par l'identificateur d'entrée enregistré. Ne partez pas du principe que l'objet renvoyé sera une liste de distribution plutôt qu'un utilisateur de messagerie lorsque cet appel est distant. Notez que l'indicateur CREATE_CHECK_DUP est transmis dans le paramètre _ulFlags_ pour empêcher l'ajout de l'entrée deux fois. 
     
    ```cpp
     lpPABCont->CreateEntry(cbeidDefDLTpl,
@@ -89,16 +89,16 @@ Les clients peuvent créer une liste de distribution directement dans un contene
                     &lpNewPABEntry);
    ```
 
-8. Appeler la méthode **IUnknown::QueryInterface** de la nouvelle entrée, en passant IID_IDistList comme l’identificateur d’interface pour déterminer si l’entrée est une liste de distribution et prend en charge la [IDistList : IMAPIContainer](idistlistimapicontainer.md) interface. **CreateEntry** renvoie un pointeur **IMAPIProp** plutôt que le pointeur **IMailUser** ou **IDistList** plus spécifique, vérifiez que l’objet d’une liste de distribution a été créé. Si **QueryInterface** réussit, vous pouvez être sûr que vous avez créé une liste de distribution plutôt que d’un utilisateur de messagerie. 
+8. Appelez la méthode **IUnknown:: QueryInterface** de la nouvelle entrée, en transmettant IID_IDistList comme identificateur d'interface, afin de déterminer si l'entrée est une liste de distribution et prend en charge l'interface [IDistList: IMAPIContainer](idistlistimapicontainer.md) . Étant donné que **CreateEntry** renvoie un pointeur **IMAPIProp** au lieu du pointeur **IMailUser** ou **IDistList** plus spécifique, vérifiez qu'un objet de liste de distribution a été créé. Si **QueryInterface** réussit, vous pouvez vous assurer que vous avez créé une liste de distribution plutôt qu'un utilisateur de messagerie. 
     
-9. Appelez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) de la liste de distribution pour définir son nom d’affichage et d’autres propriétés. 
+9. Appelez la méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) de la liste de distribution pour définir son nom d'affichage et d'autres propriétés. 
     
-10. Appelez la méthode [IABContainer::CreateEntry](iabcontainer-createentry.md) de la liste de distribution pour ajouter un ou plusieurs utilisateurs de messagerie. 
+10. Appelez la méthode [IABContainer:: CreateEntry](iabcontainer-createentry.md) de la liste de distribution pour ajouter un ou plusieurs utilisateurs de messagerie. 
     
-11. Appelez la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de la liste de distribution lorsque vous êtes prêt à enregistrer. Pour récupérer l’identificateur d’entrée de la liste de distribution enregistrée, définir l’indicateur KEEP_OPEN_READWRITE, puis appelez [IMAPIProp::GetProps](imapiprop-getprops.md) demande la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+11. Appelez la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) de la liste de distribution lorsque vous êtes prêt à l'enregistrer. Pour récupérer l'identificateur d'entrée de la liste de distribution enregistrée, définissez l'indicateur KEEP_OPEN_READWRITE, puis appelez [IMAPIProp:: GetProps](imapiprop-getprops.md) pour demander la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
-12. Publier la nouvelle liste de distribution et le carnet d’adresses personnel en appelant leurs méthodes **IUnknown::Release** . 
+12. Libérez la nouvelle liste de distribution et le carnet d'appels en appelant les méthodes **IUnknown:: Release** . 
     
-13. Appelez [MAPIFreeBuffer](mapifreebuffer.md) pour libérer de la mémoire pour l’identificateur d’entrée du carnet d’adresses personnel et le tableau de balise de propriété ajustés. 
+13. Appelez [MAPIFreeBuffer](mapifreebuffer.md) pour libérer la mémoire pour l'identificateur d'entrée du PAB et le tableau de la balise de propriété dimensionnée. 
     
 

@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95513b5a-fd3b-46f2-a6c0-094500ae4ca7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3d9db53dd752367570fc10aaabe3143b3b3ea917
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3ee1b84e36ef014fab87ca910115675c905f6a09
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332640"
 ---
 # <a name="changeproptype"></a>CHANGE_PROP_TYPE
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Met à jour le type de propriété d’une balise de propriété à une valeur spécifiée. Identificateur de la propriété est inchangée. 
+Met à jour le type de propriété d'une balise de propriété sur une valeur spécifiée. L'identificateur de la propriété est inchangé. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |[SPropValue](spropvalue.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 CHANGE_PROP_TYPE (ulPropTag, ulPropType)
@@ -40,11 +40,11 @@ CHANGE_PROP_TYPE (ulPropTag, ulPropType)
 
  _ulPropTag_
   
-> La balise de propriété à modifier.
+> Balise de propriété à modifier.
     
  _ulPropType_
   
-> La nouvelle valeur pour le type de propriété.
+> Nouvelle valeur du type de propriété.
     
 ## <a name="see-also"></a>Voir aussi
 

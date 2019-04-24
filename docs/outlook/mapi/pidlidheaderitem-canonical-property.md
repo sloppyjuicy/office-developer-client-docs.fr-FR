@@ -11,41 +11,41 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69b308dd-d3f5-44fe-8976-e4ed9a433ad8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 916797012d62c5ce0b67dedf957dde09ba9ba27b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7d883faa6266086127a7722990e84bca00090f0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332647"
 ---
 # <a name="pidlidheaderitem-canonical-property"></a>Propriété canonique PidLidHeaderItem
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie si Microsoft Outlook a téléchargé sur l’ordinateur client uniquement l’en-tête d’un message, ou l’en-tête et le corps du message, lorsqu’Outlook est configuré en Mode Exchange mis en cache.
+Indique si Microsoft Outlook a téléchargé sur l'ordinateur client uniquement l'en-tête d'un message, ou à la fois l'en-tête et le corps du message, quand Outlook est configuré en mode Exchange mis en cache.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidHeaderItem  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
-|ID de type long (capot) :  <br/> |0x00008578  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
+|ID long (couvercle):  <br/> |0x00008578  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

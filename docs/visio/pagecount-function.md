@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a8c6c1d9-3452-a31e-ec91-345d201a4b82
 description: Renvoie le nombre de pages de premier plan dans un document.
-ms.openlocfilehash: 53bf54d131c72d34aba3d4d307c80387f07c0555
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f862f8285a30531a64f995dfbfd7070a6de9509f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334383"
 ---
-# <a name="pagecount-function"></a>PAGECOUNT, fonction
+# <a name="pagecount-function"></a>Fonction PAGECOUNT
 
 Renvoie le nombre de pages de premier plan dans un document. 
   
@@ -24,7 +24,7 @@ Renvoie le nombre de pages de premier plan dans un document.
 
 PAGECOUNT ()
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   

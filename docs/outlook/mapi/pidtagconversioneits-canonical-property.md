@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 601734fbaf3157fd0f3f3637b807a511076a6124
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ceb9181a3d8669f8cf9a62eff12ad07148b42e48
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334677"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>Propriété canonique PidTagConversionEits
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les types d’informations codées (EITs) qui sont appliquées à un message en transit pour décrire les conversions.
+Contient les types d'informations codées (EITs) qui sont appliquées à un message en transit pour décrire les conversions.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient les types d’informations codées (EITs) qui sont appliquées à un me
    
 ## <a name="remarks"></a>Remarques
 
-Environnements X.400 utilisent cette propriété pour les rapports de non-remise et de remise.
+Les environnements X. 400 utilisent cette propriété pour les rapports de non-remise et de remise.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

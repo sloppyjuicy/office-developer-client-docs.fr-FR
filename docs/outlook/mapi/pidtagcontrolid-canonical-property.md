@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 2868533e0383309e013bb82aaa4300a0a40e335a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b27f59e0bfdcac8eca1751af2f07139f12e2b3a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577512"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334740"
 ---
 # <a name="pidtagcontrolid-canonical-property"></a>Propriété canonique PidTagControlId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un identificateur unique pour un contrôle utilisé dans une boîte de dialogue. 
   
@@ -32,25 +32,25 @@ Contient un identificateur unique pour un contrôle utilisé dans une boîte de 
 |Propriétés associées :  <br/> |PR_CONTROL_ID  <br/> |
 |Identificateur :  <br/> |0x3F07  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Afficher une table MAPI  <br/> |
+|Domaine :  <br/> |Table d'affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient un identificateur unique pour le contrôle. Cet identificateur doit contenir une structure [GUID](guid.md) et une valeur de type **LONG**binary. Tous les contrôles dans la boîte de dialogue doivent utiliser le même **GUID** pour identifier le fournisseur de services, et chaque contrôle doit utiliser un unique valeur de **type LONG** pour s’assurer que les contrôles n’entrent pas en conflit. 
+Cette propriété contient un identificateur unique pour le contrôle. Cet identificateur doit contenir une structure de [GUID](guid.md) et une valeur binaire de type **long**. Tous les contrôles de la boîte de dialogue doivent utiliser le même **GUID** pour identifier le fournisseur de services, et chaque contrôle doit utiliser une valeur de **type long** unique pour s'assurer que les contrôles ne sont pas en conflit. 
   
-Cette propriété est utilisée dans les notifications. Par exemple, notifications envoyées sur le tableau de l’affichage doivent définir cette propriété pour identifier le contrôle à mettre à jour. 
+Cette propriété est utilisée dans les notifications. Par exemple, les notifications envoyées sur la table d'affichage doivent définir cette propriété pour identifier de manière unique le contrôle à mettre à jour. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

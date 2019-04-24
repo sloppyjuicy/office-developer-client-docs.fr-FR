@@ -1,5 +1,5 @@
 ---
-title: Format de fichier des fichiers de configuration de formulaire
+title: Format des fichiers config des formulaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,22 +7,22 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 86e4ebd9-6df2-4346-9ce9-580f80a83884
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 95add2ca747a267b825648f0de82e8c8a83d3eb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: d07d88d7b8b892a82832f91989e322ea3b32e040
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334824"
 ---
-# <a name="file-format-of-form-configuration-files"></a>Format de fichier des fichiers de configuration de formulaire
+# <a name="file-format-of-form-configuration-files"></a>Format des fichiers config des formulaires
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un fichier de configuration de formulaire est un fichier de mise en forme créé par les développeurs de formulaires pour définir un formulaire.
+Un fichier de configuration de formulaire est un fichier mis en forme créé par les développeurs de formulaires pour définir un formulaire.
   
-Étant donné que les fichiers de configuration de formulaire sont utilisés par les responsables de formulaire pour charger des formulaires, chaque formulaire doit être défini à l’aide d’un fichier de configuration du formulaire. Fichiers de configuration de formulaire doivent avoir l’extension de nom de fichier .cfg. Le fichier suit la syntaxe générale d’un fichier d’initialisation de Windows (fichier .ini). 
+Étant donné que les fichiers de configuration de formulaire sont utilisés par les gestionnaires de formulaires pour charger des formulaires, chaque formulaire doit être défini à l'aide d'un fichier de configuration de formulaire. Les fichiers de configuration de formulaire doivent être dotés de l'extension de nom de fichier. cfg. Le fichier suit la syntaxe générale d'un fichier d'initialisation Windows (fichier. ini). 
 
-Il est divisé en sections nommées, et chaque section contient une série d’entrées et les valeurs. Valeurs de doivent d’un des types suivants : chaîne, chaîne affichée, chaîne de plateforme, chemin d’accès, integer ou **GUID**, identificateur global unique. Fichiers de configuration de formulaire peuvent être créés avec n’importe quel éditeur de texte ou le traitement de texte qui est capable d’enregistrer des fichiers texte.
+Elle est divisée en sections nommées et chaque section contient une série d'entrées et de valeurs. Les valeurs ont l'un des types suivants: String, chaîne affichée, chaîne de plateforme, chemin d'accès, entier ou identificateur global unique, **GUID**. Les fichiers de configuration de formulaire peuvent être créés avec un éditeur de texte ou un traitement de texte capable d'enregistrer des fichiers texte.
   
 

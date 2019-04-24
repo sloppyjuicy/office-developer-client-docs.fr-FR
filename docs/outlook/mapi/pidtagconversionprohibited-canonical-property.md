@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9bd67185-9449-4db2-b3ee-93ea513e10e2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1e15a0b09057d9aab1e6c5bec6c314463f15e329
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 1badffdb3dfcb154e69beaa18fe850b545496707
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334670"
 ---
 # <a name="pidtagconversionprohibited-canonical-property"></a>Propriété canonique PidTagConversionProhibited
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si les conversions de messages sont interdits par la valeur par défaut de l’utilisateur de messagerie associé.
+Contient la valeur TRUE si les conversions de messages sont interdites par défaut pour l'utilisateur de messagerie associé.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Contient la valeur TRUE si les conversions de messages sont interdits par la val
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Address  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

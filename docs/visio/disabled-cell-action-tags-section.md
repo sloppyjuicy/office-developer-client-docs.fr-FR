@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 description: Indique si la balise d’action s’affiche dans la fenêtre de dessin.
-ms.openlocfilehash: 409327365f3daf78dba20b1874be5911a517df0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 867d36e27cb890509b0687500caf719362a711fb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332563"
 ---
 # <a name="disabled-cell-action-tags-section"></a>Disabled, cellule (section Action Tags)
 
@@ -23,22 +23,22 @@ Indique si la balise d’action s’affiche dans la fenêtre de dessin.
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La balise d’action est désactivée.  <br/> |
 | FALSE  <br/> | La balise d’action est activée (valeur par défaut).  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Lorsqu’une balise d’action est désactivée, elle ne s’affiche plus du tout tant qu’elle n’est pas réactivée. 
   
-Pour obtenir une référence à la cellule Disabled par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Disabled à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Balises actives.  *nom* . Désactivé où SmartTags. *nom* est le nom de la ligne de balise d’action  <br/> |
+| Nom de cellule :  <br/> | SmartTag.  *nom* . Désactivé où SmartTags. *Name* est le nom de la ligne de balise d'action  <br/> |
    
-Pour obtenir une référence à la cellule Disabled par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Disabled à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

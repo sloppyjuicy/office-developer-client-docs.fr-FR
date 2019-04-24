@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fa7a176d-ce9c-1ae6-490f-0646b2ee432f
-description: Obtient les paramètres de format du thème actif.
-ms.openlocfilehash: d781a4bd42ea272c6be4323078bec1a47f525ac5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient les paramètres de mise en forme du thème actuel.
+ms.openlocfilehash: 949619b5bd4ca8dd0751c09d0b732768d02706c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332248"
 ---
-# <a name="theme-function"></a>THEME, fonction
+# <a name="theme-function"></a>Fonction THEME
 
-Obtient les paramètres de format du thème actif.
+Obtient les paramètres de mise en forme du thème actuel.
   
 ## <a name="syntax"></a>Syntaxe
 
-THEME()
+Thème ()
   
 ## <a name="example"></a>Exemple
 

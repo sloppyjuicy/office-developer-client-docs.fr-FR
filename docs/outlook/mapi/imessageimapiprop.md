@@ -11,46 +11,46 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b594297d364ba4f5a3ff7da603d2fe7c2fe8cf07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 217411dc8bae12a3d7544a4cfd189c4c8f863195
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332871"
 ---
 # <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Gère les messages, les pièces jointes et les destinataires.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Exposés par :  <br/> |Message, objet  <br/> |
-|Implémentée par :  <br/> |Fournisseurs de banque de messages  <br/> |
-|Appelée par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMessage  <br/> |
-|Type de pointeur :  <br/> |LPMESSAGE  <br/> |
-|Modèle de transaction :  <br/> |Traitées  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Exposé par:  <br/> |Message, objet  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de banques de messages  <br/> |
+|Appelé par :  <br/> |Applications clientes  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMessage  <br/> |
+|Type de pointeur:  <br/> |LPMESSAGE  <br/> |
+|Modèle de transaction:  <br/> |Traitées  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Renvoie un tableau de pièce jointe du message.  <br/> |
+|[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Renvoie la table de pièces jointes du message.  <br/> |
 |[OpenAttach](imessage-openattach.md) <br/> |Ouvre une pièce jointe.  <br/> |
-|[CreateAttach](imessage-createattach.md) <br/> |Crée une pièce jointe.  <br/> |
+|[CreateAttach](imessage-createattach.md) <br/> |Crée une nouvelle pièce jointe.  <br/> |
 |[DeleteAttach](imessage-deleteattach.md) <br/> |Supprime une pièce jointe.  <br/> |
-|[GetRecipientTable](imessage-getrecipienttable.md) <br/> |Renvoie un tableau de destinataire du message.  <br/> |
+|[GetRecipientTable](imessage-getrecipienttable.md) <br/> |Renvoie la table de destinataires du message.  <br/> |
 |[ModifyRecipients](imessage-modifyrecipients.md) <br/> |Ajoute, supprime ou modifie des destinataires du message.  <br/> |
-|[SubmitMessage](imessage-submitmessage.md) <br/> |Enregistre toutes les modifications dans le message et le marque comme étant prêt pour l’envoi.  <br/> |
-|[SetReadFlag](imessage-setreadflag.md) <br/> |Définit ou supprime l’indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message et gère l’envoi de rapports de lecture.  <br/> |
+|[SubmitMessage](imessage-submitmessage.md) <br/> |Enregistre toutes les modifications apportées au message et les marque comme prêtes pour l'envoi.  <br/> |
+|[SetReadFlag](imessage-setreadflag.md) <br/> |Définit ou efface l'indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message et gère l'envoi des rapports de lecture.  <br/> |
    
-Les propriétés suivantes sont requis pour les messages à un moment donné au cours de leur cycle de vie. La plupart des propriétés en lecture seule est définie par le fournisseur de banque de message lorsqu’un client appelle la méthode de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) d’un message. Autres propriétés en lecture seule sont définies par le fournisseur de transport. 
+Les propriétés suivantes sont requises sur les messages à un moment donné de leur cycle de vie. La plupart des propriétés en lecture seule sont définies par le fournisseur de banque de messages lorsqu'un client appelle la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) d'un message. D'autres propriétés en lecture seule sont définies par le fournisseur de transport. 
   
 |**Propriétés requises pour les messages de toutes les classes**|**Access**|
 |:-----|:-----|
@@ -75,12 +75,12 @@ Les propriétés suivantes sont requis pour les messages à un moment donné au 
 |Propriétés **PR_RECEIVED_BY**  <br/> |Lecture seule  <br/> |
 |**PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Lecture seule  <br/> |
-|**Clé PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Lecture seule  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |Propriétés **PR_SENDER**  <br/> |Lecture seule  <br/> |
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Lecture seule  <br/> |
    
-Les propriétés suivantes sont toutes en lecture seule aux clients, à l’exception de **PR_BODY**. Clients construire cette propriété lorsqu’ils traitent un rapport.
+Les propriétés suivantes sont toutes en lecture seule pour les clients, à l'exception de **PR_BODY**. Les clients construisent cette propriété lorsqu'ils traitent un rapport.
   
 |**Propriétés des messages de rapport**|
 |:-----|
@@ -102,12 +102,12 @@ Les propriétés suivantes sont toutes en lecture seule aux clients, à l’exce
 |Propriétés **PR_SENDER**  <br/> |
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
-|**Propriétés des destinataires du message**|**Access**|**Obligatoire ou facultatif**|
+|**Propriétés des destinataires des messages**|**Access**|**Obligatoire ou facultatif**|
 |:-----|:-----|:-----|
-|**TYPEADR_PR** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lecture seule  <br/> |Obligatoire  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lecture seule  <br/> |Obligatoire  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |Obligatoire  <br/> |
 |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |Obligatoire  <br/> |
-|**ADRESSE_EMAIL_PR** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Lecture seule  <br/> |Facultatif  <br/> |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Lecture seule  <br/> |Facultatif  <br/> |
 |**PR_ENTRYID** <br/> |Lecture seule  <br/> |Obligatoire  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Lecture seule  <br/> |Obligatoire  <br/> |
 |**PR_SEARCH_KEY** <br/> |Lecture seule  <br/> |Facultatif  <br/> |

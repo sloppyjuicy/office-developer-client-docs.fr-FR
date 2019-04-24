@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1df3a50e-7ea5-9244-1286-c1d00c217a9a
 description: Détermine le sens des caractères dans un bloc de texte.
-ms.openlocfilehash: c238b6b2a47c968809869f8eb3e38b6f0db1dcad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 559a2930d9ef62612cabab79ccf55ca2c30e877b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332369"
 ---
 # <a name="textdirection-cell-text-block-format-section"></a>TextDirection, cellule (section Text Block Format)
 
 Détermine le sens des caractères dans un bloc de texte.
   
-|**Valeur**|**Direction**|**Constante d’Automation**|
+|**Valeur**|**Direction**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Horizontal  <br/> |**visTxtBlkLeftToRight** <br/> |
-| 1  <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
+| 0,1  <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Dans la version japonaise 5.0 de Visio, la valeur de cette cellule était stockée dans la cellule VerticalText de la section Miscellaneous.
   
-Pour obtenir une référence à la cellule TextDirection par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule TextDirection par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ Pour obtenir une référence à la cellule TextDirection par index dans un progr
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowText** <br/> |
 | Index de la cellule :  <br/> |**visTxtBlkDirection** <br/> |
    

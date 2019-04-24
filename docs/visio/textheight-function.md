@@ -8,30 +8,30 @@ f1_keywords:
 - Vis_DSS.chm82251504
 localization_priority: Normal
 ms.assetid: 5a10892f-c8fa-c127-2f5a-564009ce5411
-description: Renvoie la hauteur du texte composé dans une forme où aucune ligne ne dépasse la valeur largeurmaximale.
-ms.openlocfilehash: 9a80dafcf80a1dcba968a0f60465aae4e2a2758b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la hauteur du texte composé dans une forme où aucune ligne de texte ne dépasse MaximumWidth.
+ms.openlocfilehash: 7455f58f14f9a4a0ae1fcd5375dba5d5860d3852
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332342"
 ---
-# <a name="textheight-function"></a>TEXTHEIGHT, fonction
+# <a name="textheight-function"></a>Fonction TEXTHEIGHT
 
-Renvoie la hauteur du texte composé dans une forme où aucune ligne ne dépasse la _valeur largeurmaximale_. 
+Renvoie la hauteur du texte composé dans une forme où aucune ligne de texte ne dépasse _MaximumWidth_. 
   
 ## <a name="syntax"></a>Syntaxe
 
-TEXTHEIGHT (** shapename *! TheText* ** ** *[, largeurmaximale]* **) 
+TEXTHEIGHT (* * *ShapeName! TheText* * * * * *[, MaximumWidth]* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _l’argument shapename ! theText_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Une référence à la cellule nommée TheText dans la forme cible.  _argument shapename !_ est le nom de la forme à partir de laquelle vous souhaitez récupérer le texte.  <br/> |
-| _largeurmaximale_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Largeur maximale du bloc de texte.  <br/> |
+| _ShapeName! theText_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à la cellule nommée TheText dans la forme cible.  _ShapeName!_ est le nom de la forme à partir de laquelle vous souhaitez récupérer le texte.  <br/> |
+| _MaximumWidth_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Largeur maximale du bloc de texte.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   

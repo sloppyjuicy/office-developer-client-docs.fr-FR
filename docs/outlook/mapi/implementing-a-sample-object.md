@@ -1,5 +1,5 @@
 ---
-title: L’implémentation d’un exemple d’objet
+title: Implémentation d’un exemple d’objet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: a681e68c0718e49da331946d75ecb7b4fab7afe2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332829"
 ---
-# <a name="implementing-a-sample-object"></a>L’implémentation d’un exemple d’objet
+# <a name="implementing-a-sample-object"></a>Implémentation d’un exemple d’objet
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Objets de récepteur de notification — les objets qui prennent en charge la [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — sont des objets MAPI que les applications clientes implémentent pour traiter les notifications. **IMAPIAdviseSink** hérite directement de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) et contient une seule méthode, **OnNotify**. Par conséquent, pour implémenter un objet de récepteur advise, un client crée du code pour les trois méthodes de **IUnknown** et [OnNotify](imapiadvisesink-onnotify.md).
+Les objets de récepteur conseillers, objets qui prennent en charge l'interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) , sont des objets MAPI que les applications clientes implémentent pour traiter les notifications. **IMAPIAdviseSink** hérite directement de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) et ne contient qu'une seule méthode, **OnNotify**. Par conséquent, pour implémenter un objet de récepteur de notifications, un client crée du code pour les trois méthodes dans **IUnknown** et pour [OnNotify](imapiadvisesink-onnotify.md).
   
-Le fichier d’en-tête Mapidefs.h définit une implémentation d’interface **IMAPIAdviseSink** à l’aide de **DECLARE_MAPI_INTERFACE**, comme suit :
+Le fichier d'en-tête Mapidefs. h définit une implémentation d'interface **IMAPIAdviseSink** à l'aide de **DECLARE_MAPI_INTERFACE**, comme suit:
   
 ```cpp
 #define      INTERFACE  IMAPIAdviseSink
@@ -34,9 +34,9 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
  
 ```
 
-Clients qui implémentent des objets récepteurs peuvent définir leurs interfaces dans leurs objets manuellement ou avec les macros **MAPI_IUNKNOWN_METHODS** et **MAPI_IMAPIADVISESINK_METHODS** de notification. L’implémentation d’objet doit utiliser les macros d’interface chaque fois que possible pour assurer la cohérence entre les objets et de gagner du temps. 
+Les clients qui implémentent les objets de récepteur de notifications peuvent définir leurs interfaces dans leurs objets manuellement ou à l'aide des macros **MAPI_IUNKNOWN_METHODS** et **MAPI_IMAPIADVISESINK_METHODS** . Les implémenteurs d'objets doivent utiliser les macros d'interface chaque fois que cela est possible pour garantir la cohérence entre les objets et gagner du temps et de l'énergie. 
   
-Implémentez les méthodes [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) est relativement simple, car il est généralement uniquement quelques lignes de code sont nécessaires. Par conséquent, les clients et les fournisseurs de services qui implémentent des objets peut-il leur inline implémentations **AddRef** et **Release** . Le code suivant montre comment définir un C++ conseiller objet récepteur avec des implémentations inline **AddRef** et **Release**.
+L'implémentation des méthodes [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) et [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) est relativement simple, car généralement seulement quelques lignes de code sont nécessaires. Par conséquent, les clients et les fournisseurs de services qui implémentent des objets peuvent transformer leurs implémentations de **AddRef** et de **libération** en lignes. Le code suivant montre comment définir un objet récepteur de notifications C++ avec des implémentations incorporées de **AddRef** et **Release**.
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink
@@ -75,13 +75,13 @@ private :
  
 ```
 
-Dans C, l’objet de récepteur advise est composée des éléments suivants :
+Dans C, l'objet de récepteur Advise se compose des éléments suivants:
   
 - Pointeur vers un vtable qui contient des pointeurs vers des implémentations de chacune des méthodes dans **IUnknown** et **IMAPIAdviseSink**.
     
 - Membres de données.
     
-L’exemple de code suivant montre comment définir l’objet récepteur advise dans C et construire ses vtable. 
+L'exemple de code suivant montre comment définir un objet récepteur de notifications dans C et créer sa vtable. 
   
 ```cpp
 // Object definition.
@@ -103,7 +103,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-Une fois que vous déclarez un objet C, vous devez l’initialiser en définissant le pointeur vtable à l’adresse de la vtable construite, comme indiqué dans le code suivant :
+Après avoir déclaré un objet dans C, vous devez l'initialiser en définissant le pointeur vtable sur l'adresse du vtable construit, comme illustré dans le code suivant:
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;
@@ -116,5 +116,5 @@ lpMyObj->lpVtbl = &vtblADVISE;
 ## <a name="see-also"></a>Voir aussi
 
 - [Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
-- [Implémentation d’objets MAPI](implementing-mapi-objects.md)
+- [Implémentation d'objets MAPI](implementing-mapi-objects.md)
 

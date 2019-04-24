@@ -11,47 +11,47 @@ api_name:
 api_type:
 - COM
 ms.assetid: d0a2f7ea-df6a-89e8-18c2-ac92e0a20edc
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cc8ff946081fb7817f0f6018acefbe31293a13a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: cc3fcedb73b4acbd85529615d857403b4c268f3d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333046"
 ---
 # <a name="crawlsourcesupportmask"></a>CrawlSourceSupportMask
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie si Microsoft Office Outlook doit analyser les dossiers d’une banque, y compris les dossiers Contacts, calendrier et tâches au démarrage pour remplir le volet de Navigation.
+Indique si Microsoft Office Outlook doit analyser les dossiers d'une banque, y compris les dossiers contacts, calendrier et tâches, au démarrage pour renseigner le volet de navigation.
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Exposée sur :  <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) objet  <br/> |
-|Créé par :  <br/> |Fournisseur de banque  <br/> |
-|Accessible par :  <br/> |Outlook et autres clients  <br/> |
-|Type de propriété :  <br/> |PT_LONG  <br/> |
-|Type d’accès :  <br/> |En lecture seule ou en lecture/écriture, selon le fournisseur de banque  <br/> |
+|Exposé sur:  <br/> |[IMsgStore: objet IMAPIProp](imsgstoreimapiprop.md)  <br/> |
+|Créé par:  <br/> |Fournisseur de magasin  <br/> |
+|Accès par:  <br/> |Outlook et d'autres clients  <br/> |
+|Type de propriété:  <br/> |PT_LONG  <br/> |
+|Type d'accès:  <br/> |Lecture seule ou lecture/écriture en fonction du fournisseur de la Banque  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour fournir une des fonctionnalités de magasin, le fournisseur de banque doit implémenter [IMAPIProp : IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour une de ces propriétés passées à un appel [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Lorsque la balise de propriété pour une de ces propriétés est transmise à [IMAPIProp::GetProps](imapiprop-getprops.md), le fournisseur de banque doit également retourner la valeur de la propriété adéquate. Fournisseurs de magasins peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
+Pour fournir l'une des fonctionnalités de magasin, le fournisseur de banque doit implémenter [IMAPIProp: IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour l'une des propriétés transmises à un appel [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Lorsque la balise de propriété de l'une de ces propriétés est transmise à [IMAPIProp:: GetProps](imapiprop-getprops.md), le fournisseur Store doit également renvoyer la valeur de propriété correcte. Les fournisseurs de magasins peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
   
-Pour récupérer la valeur de cette propriété, le client doit d’abord utiliser [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété, puis spécifiez cette balise de propriété dans [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lors de l’appel [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), spécifiez les valeurs suivantes pour la structure [MAPINAMEID](mapinameid.md) sur laquelle pointé le paramètre d’entrée _lppPropNames_:
+Pour récupérer la valeur de cette propriété, le client doit d'abord utiliser [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété, puis spécifier cette balise de propriété dans [IMAPIProp:: GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lors de l'appel de [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md), spécifiez les valeurs suivantes pour la structure [MAPINAMEID](mapinameid.md) pointée par le paramètre d'entrée _lppPropNames_:
   
 |||
 |:-----|:-----|
-|lpGuid :  <br/> |PSETID_Common  <br/> |
-|ulKind :  <br/> |MNID_STRING  <br/> |
-|Kind.lpwstrName :  <br/> |L « CrawlSourceSupportMask »  <br/> |
+|lpGuid:  <br/> |PSETID_Common  <br/> |
+|ulKind:  <br/> |MNID_STRING  <br/> |
+|Kind. lpwstrName:  <br/> |L "CrawlSourceSupportMask"  <br/> |
    
-Cette propriété fournit un moyen pour les fournisseurs de banque spécifier si Outlook doit rechercher les différents dossiers d’une banque. Il est utilisé au démarrage lorsqu’Outlook analyse les dossiers existants sur chaque magasin ouvert pour remplir le volet de **Navigation** ; Outlook vérifie la présence et la valeur de cette propriété sur une banque avant de lancer l’analyse. 
+Cette propriété permet aux fournisseurs de magasins de spécifier si Outlook doit analyser les différents dossiers d'une banque. Elle est utilisée au démarrage quand Outlook analyse les dossiers existants sur chaque banque ouverte pour remplir le volet de **navigation** ; Outlook vérifie la présence et la valeur de cette propriété sur un magasin avant de lancer l'analyse. 
   
-Par défaut, cette propriété n’est pas exposée dans une banque, ce qui signifie qu’Outlook peut analyser les dossiers sur le magasin. Si la propriété est exposée, les valeurs possibles sont les éléments suivants :
+Par défaut, cette propriété n'est pas exposée sur un magasin, ce qui signifie qu'Outlook peut analyser les dossiers de la Banque. Si la propriété est exposée, les valeurs possibles sont les suivantes:
   
 ```
 enum { 
@@ -63,14 +63,14 @@ enum {
 
 CSM_DEFAULT
   
-- Outlook peut analyser les dossiers sur le magasin.
+- Outlook peut analyser les dossiers de la Banque.
     
 CSM_DO_NOT_CRAWL
   
-- Outlook n’a pas doit analyser les dossiers sur le magasin.
+- Outlook ne doit pas analyser les dossiers de la Banque.
     
 CSM_CLIENT_DO_NOT_CHANGE
   
-- Ne pas autoriser les clients à modifier cette propriété dans le magasin. Notez que la constante **CSM_CLIENT_DO_NOT_CHANGE** est pour servir ultérieurement de référence et n’est pas implémenté actuellement. À ce stade, un magasin peut empêcher les clients cet indicateur à coder la valeur de cette propriété renvoie le magasin. 
+- Ne pas autoriser les clients à modifier cette propriété sur le magasin. Notez que la constante **CSM_CLIENT_DO_NOT_CHANGE** est destinée à des fins de référence ultérieure et qu'elle n'est pas actuellement implémentée. Pour le moment, un magasin peut empêcher les clients de modifier cet indicateur en codage en dur la valeur renvoyée par la Banque pour cette propriété. 
     
 

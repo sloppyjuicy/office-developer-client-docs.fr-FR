@@ -11,58 +11,58 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: db852b99-ce04-49bf-a714-7549571502e2
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: dfd437fac3a784212807c495f6e8f1adbe759cb0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334684"
 ---
 # <a name="pidtagconversationtopic-canonical-property"></a>Propriété canonique PidTagConversationTopic
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la rubrique du premier message dans un thread de conversation. 
+Contient le sujet du premier message dans un thread de conversation. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONVERSATION_TOPIC, PR_CONVERSATION_TOPIC_A, PR_CONVERSATION_TOPIC_W  <br/> |
-|Identificateur :  <br/> |0 x 0070  <br/> |
+|Identificateur :  <br/> |0x0070  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un thread de conversations représente une série de messages et de réponses. Ces propriétés sont définies pour le premier message dans un thread, généralement à la propriété **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). Les messages suivants dans le thread doivent utiliser la même rubrique sans modification. 
+Un thread de conversation représente une série de messages et de réponses. Ces propriétés sont définies pour le premier message dans un thread, généralement pour la propriété **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). Les messages suivants dans le thread doivent utiliser la même rubrique sans modification. 
   
-La propriété **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) indique la relation entre les messages et les réponses d’ordre. Son utilisation est facultative, même si ces propriétés sont définies. 
+La propriété **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) indique la relation de commande entre les messages et les réponses suivants. Son utilisation est facultative, même si ces propriétés sont définies. 
   
-Un fournisseur de banque de messages a la possibilité de garantir que ces propriétés sont toujours définies sur les messages entrants ou sortants. Si ces propriétés sont déjà définies qu’ils ne doivent pas être modifiés. Si ce n’est pas le cas, elles peuvent être définies pour **PR_NORMALIZED_SUBJECT**. N’importe quelle action doit être prise avant l’appel de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
+Un fournisseur de banque de messages a la possibilité de s'assurer que ces propriétés sont toujours définies sur les messages entrants ou sortants. Si ces propriétés sont déjà définies, elles ne doivent pas être modifiées. Si ce n'est pas le cas, ils peuvent être définis sur **PR_NORMALIZED_SUBJECT**. N'importe quelle action doit être effectuée avant l'appel de [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées sur les objets de message électronique.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 
