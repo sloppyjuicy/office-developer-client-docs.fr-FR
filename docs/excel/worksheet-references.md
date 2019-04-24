@@ -5,44 +5,44 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- références [excel 2007], feuille de calcul, références de feuille de calcul [Excel 2007], références de feuille de calcul externes [Excel 2007], feuille de calcul active [Excel 2007], [Excel 2007] de feuille de calcul active, feuille de calcul interne fait référence [Excel 2007]
+- références [Excel 2007], feuille de calcul, références de feuille de calcul [Excel 2007], références de feuille de calcul externes [Excel 2007], feuille de calcul active [Excel 2007], feuille de calcul active [Excel 2007], références de feuille de calcul interne [Excel 2007]
 localization_priority: Normal
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: b7089fb891c96be9182189e3a5f30057721cebbc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2944f73a3144837a4be8aff7c7fed9a8d2158203
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304024"
 ---
 # <a name="worksheet-references"></a>Références de feuille de calcul
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Une référence dans Microsoft Excel est un type de données qui fait référence à un bloc rectangulaire de cellules (qui peuvent être qu’une seule cellule), ou dans certains cas, un nombre de blocs disjoints de cellules. En interne, Excel utilise un type de référence pour les cellules de la feuille en cours, appelé une référence interne. N’importe quelle cellule qui n’est pas dans la feuille actuelle est décrit par un autre type de référence appelé référence externe. Voir la section suivante pour la définition d’active et en cours.
+Une référence dans Microsoft Excel est un type de données qui fait référence à un bloc de cellules rectangulaire (qui peut être une seule cellule) ou dans certains cas, un certain nombre de blocs de cellules disjoints. En interne, Excel utilise un type référence pour les cellules de la feuille actuelle, appelée référence interne. Toute cellule qui ne figure pas dans la feuille actuelle est décrite par un autre type de référence appelé référence externe. Consultez la section suivante pour obtenir la définition des actifs et des actuels.
   
-## <a name="active-vs-current"></a>Active et en cours
+## <a name="active-vs-current"></a>Actif et actuel
 
-Dans Excel, le terme actif fait référence à ce que l’utilisateur visualise. Le classeur actif et la feuille de calcul sont celles que l’utilisateur est actuellement affiché ou, si Excel a perdu le focus vers une autre application, a été consultant Excel dernière lorsque le focus. La feuille active est toujours dans le classeur actif. Une ou plusieurs cellules sont sélectionnées dans la feuille active sont appelés des cellules actives. Si un objet incorporé a le focus, les cellules sélectionnées au dernier sont toujours actives. 
+Dans Excel, le terme actif fait référence à ce que l'utilisateur visualise. Le classeur et la feuille de calcul actifs sont ceux que l'utilisateur consulte actuellement, ou si Excel a perdu le focus vers une autre application, il consultait la dernière fois qu'Excel avait le focus. La feuille active se trouve toujours dans le classeur actif. La ou les cellules sélectionnées dans la feuille active sont connues sous le nom de cellules actives. Si un objet incorporé a le focus, les cellules de dernière sélection sont toujours actives. 
   
-Le terme actuel fait référence à ce qui est le recalcul Excel. Le classeur actif et la feuille de calcul sont ceux qui sont actuellement en cours de recalcul. La feuille en cours est toujours dans le classeur actif. La cellule en cours de recalcul est appelée en tant que la cellule actuelle, ou, dans le cas d’une formule de tableau en cours de recalcul, les cellules en cours. 
+Le terme «actuel» fait référence à ce qu'Excel recalcule. Le classeur actif et la feuille de calcul sont ceux qui sont actuellement recalculés. La feuille active se trouve toujours dans le classeur actif. La cellule en cours de Recalculation est appelée cellule active ou, dans le cas d'une formule matricielle recalculée, les cellules actives. 
   
-Les points importants à retenir sont les suivantes :
+Les points importants à garder à l'esprit sont les suivants:
   
-- La cellule active de classeur/feuille de calcul / n’est pas généralement celle en cours, bien qu’il puisse être.
+- Le classeur/feuille de calcul/cellule actif n'est généralement pas l'actuel, bien qu'il puisse l'être.
     
-- Une fonction d’ajouter un Visual Basic pour le module d’Applications (VBA) ou une DLL ou XLL, est toujours appelée à partir de la cellule active dans la feuille en cours ou d’un d'entre eux dans le cas de recalcul multithread (MTR).
+- Une fonction de complément, qu'elle se trouve dans un module Visual Basic pour applications (VBA) ou une DLL ou XLL, est toujours appelée à partir de la cellule active de la feuille active ou de l'une d'elles dans le cas d'un recalcul multithread (du recalcul MULTITHREAD).
     
-Nombreuses fonctions Excel qui fournissent des informations sur une cellule, une plage de cellules ou une feuille dans un classeur de faire la distinction entre le classeur actif, feuille, ou cellule et le classeur actif, feuille ou de la cellule. Cette différence est répercutée dans les types de données utilisés pour décrire les références aux blocs de cellules, comme décrit dans la section suivante.
+De nombreuses fonctions Excel qui fournissent des informations sur une cellule, une plage de cellules ou une feuille dans un classeur font la distinction entre le classeur, la feuille ou la cellule actif et le classeur, feuille ou cellule actif. Cette différence est reflétée dans les types de données utilisés pour décrire les références à des blocs de cellules, comme décrit dans la section suivante.
   
-## <a name="internal-and-external-worksheet-references"></a>Références de feuille de calcul internes et externes
+## <a name="internal-and-external-worksheet-references"></a>Références de feuille de calcul interne et externe
 
-La principale différence entre les références internes et externes est que le type de données de référence externe contient un identificateur pour la feuille de calcul et une description des cellules sont désignés. Une référence interne ne contient aucune référence à la feuille, il est implicite que la feuille est la feuille active. 
+La principale différence entre les références internes et externes est que le type de données de référence externe contient un ID pour la feuille de calcul, ainsi qu'une description des cellules auxquelles il est fait référence. Une référence interne ne contient aucune référence à la feuille: il s'agit implicite de la feuille active. 
   
-De nombreuses fonctions API C renvoient des références ou prennent des arguments de référence. Toutes les fonctions API C qui prend référence arguments accepte les références internes ou externes, à l’exception de la fonction **xlSheetNm** , qui requiert une référence externe. Certaines fonctions ne retournent que des références internes ou externes. Par exemple, la fonction de API C [xlfCaller](xlfcaller.md) renvoie une référence pour les cellules d’appel, par définition, dans la feuille active. La référence renvoyée est toujours une référence interne, bien que la fonction peut retourner les types non référence où la fonction n’est pas appelée à partir d’une cellule de feuille de calcul. La fonction de API C [xlSheetId](xlsheetid.md) renvoie toujours l’ID d’une feuille de calcul contenue dans un type de données de référence externe. 
+De nombreuses fonctions de l'API C renvoient des références ou prennent des arguments de référence. Toute fonction d'API C qui prend des arguments de référence accepte des références internes ou externes, à l'exception de la fonction **xlSheetNm** , qui requiert une référence externe. Certaines fonctions renvoient des références internes ou externes. Par exemple, la fonction API C [xlfCaller](xlfcaller.md) renvoie une référence aux cellules d'appel, par définition, sur la feuille actuelle. La référence renvoyée est toujours une référence interne, bien que la fonction puisse renvoyer des types non référencés où la fonction n'est pas appelée à partir d'une cellule de feuille de calcul. La fonction API C [xlSheetId](xlsheetid.md) renvoie toujours l'ID d'une feuille de calcul contenue dans un type de données de référence externe. 
   
-Les autres différences majeures entre les types de références internes et externes est que le type de données de référence externe peut décrire plusieurs blocs disjoints de cellules sur la même feuille. Références internes peuvent décrire uniquement un seul bloc dans la feuille active. Références disjoints peuvent être passés à une fonction qui prend un argument de plage.
+L'autre différence clé entre les types de référence interne et externe est que le type de données de référence externe peut décrire plusieurs blocs de cellules disjoints dans la même feuille. Les références internes ne peuvent décrire qu'un seul bloc sur la feuille actuelle. Les références disjointes peuvent être transmises à toute fonction qui prend un argument de plage.
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -52,5 +52,5 @@ Les autres différences majeures entre les types de références internes et ext
   
 [�valuer les noms et les autres Expressions de formule de feuille de calcul](evaluating-names-and-other-worksheet-formula-expressions.md)
   
-[Feuille de calcul Excel et d’évaluation d’Expression](excel-worksheet-and-expression-evaluation.md)
+[Feuille de calcul et évaluation des expressions Excel](excel-worksheet-and-expression-evaluation.md)
 

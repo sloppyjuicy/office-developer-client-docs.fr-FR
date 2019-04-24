@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 87235fd2-6527-41a1-98ba-b951632a1c81
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a9e596ff8561d5aabc71ffe3540efaeef8f5b83d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2c504f98655e35af62810dd428e8e04878a36dec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309596"
 ---
 # <a name="iprofadminadminservices"></a>IProfAdmin::AdminServices
 
@@ -25,7 +25,7 @@ ms.locfileid: "22593983"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Donne accès à un objet de l’administration de service de message pour apporter des modifications aux services de message dans un profil.
+Permet d'accéder à un objet d'administration de service de messagerie pour apporter des modifications aux services de messagerie dans un profil.
   
 ```cpp
 HRESULT AdminServices(
@@ -41,63 +41,63 @@ HRESULT AdminServices(
 
  _lpszProfileName_
   
-> [in] Pointeur vers le nom du profil à modifier. Le paramètre _lpszProfileName_ ne doit pas être NULL. 
+> dans Pointeur vers le nom du profil à modifier. Le paramètre _lpszProfileName_ ne doit pas être null. 
     
  _lpszPassword_
   
-> [in] Toujours NULL. 
+> dans Toujours NULL. 
     
  _ulUIParam_
   
-> [in] Handle de la fenêtre parente pour les boîtes de dialogue ou windows qui affiche cette méthode.
+> dans Un handle de la fenêtre parente pour les boîtes de dialogue ou les fenêtres que cette méthode affiche.
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la récupération de l’objet de l’administration du service de message. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle la récupération de l'objet d'administration du service de messagerie. Les indicateurs suivants peuvent être définis:
     
 MAPI_DIALOG 
   
-> Active l’affichage d’une interface utilisateur. 
+> Active l'affichage d'une interface utilisateur. 
     
 MAPI_UNICODE 
   
-> Le nom de profil est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, le nom est au format ANSI.
+> Le nom du profil est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, le nom est au format ANSI.
     
  _lppServiceAdmin_
   
-> [out] Pointeur vers un pointeur vers un objet de l’administration de service de message.
+> remarquer Pointeur vers un pointeur vers un objet d'administration de service de messagerie.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’objet de l’administration du service de message a été renvoyée avec succès.
+> L'objet d'administration du service de messagerie a été renvoyé.
     
 MAPI_E_LOGON_FAILED 
   
-> Le profil spécifié n’existe pas, ou le mot de passe est incorrecte et une boîte de dialogue ne peut pas être affichée à l’utilisateur de demander le mot de passe, car MAPI_DIALOG n’a pas été défini dans _ulFlags_.
+> Le profil spécifié n'existe pas ou le mot de passe est incorrect et aucune boîte de dialogue n'a pu être affichée pour demander le mot de passe correct car MAPI_DIALOG n'a pas été défini dans _ulFlags_.
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération de généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** d'une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProfAdmin::AdminServices** permet d’accéder à un objet de l’administration de service de message pour apporter des modifications de configuration pour les services de messagerie dans un profil. 
+La méthode **IProfAdmin:: AdminServices** permet d'accéder à un objet d'administration du service de messagerie pour apporter des modifications à la configuration des services de messagerie dans un profil. 
   
- Le paramètre _lpszPassword_ doit être NULL ou un pointeur vers une chaîne de longueur nulle. 
+ Le paramètre _lpszPassword_ doit être null ou un pointeur vers une chaîne de longueur nulle. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Bien que vous pouvez récupérer un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) en appelant cette méthode ou [IMAPISession::AdminServices](imapisession-adminservices.md), appelez **IProfAdmin::AdminServices** si vous avez strictement un client de configuration et n’offre aucune des fonctionnalités de messagerie. **IProfAdmin::AdminServices** ne crée pas d’un objet de la session et ne se charge pas les fournisseurs de services, ce qui améliore les performances. 
+Bien que vous puissiez récupérer un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) en appelant cette méthode ou [IMAPISession:: AdminServices](imapisession-adminservices.md), appelez **IProfAdmin:: AdminServices** si vous disposez strictement d'un client de configuration et que vous n'avez pas besoin de fonctionnalités de messagerie. **IProfAdmin:: AdminServices** ne crée pas d'objet session et ne charge pas de fournisseurs de services, ce qui améliore les performances. 
   
-Vous ne pouvez pas utiliser **IProfAdmin::AdminServices** pour créer un profil. Par conséquent, vous devez spécifier un profil existant valid dans _lpszProfileName_. Si le profil spécifié n’existe pas, **IProfAdmin::AdminServices** renvoie MAPI_E_LOGON_FAILED. 
+Vous ne pouvez pas utiliser **IProfAdmin:: AdminServices** pour créer un profil. Par conséquent, vous devez spécifier un profil valide existant dans _lpszProfileName_. Si le profil spécifié n'existe pas, **IProfAdmin:: AdminServices** renvoie MAPI_E_LOGON_FAILED. 
   
-Le nom du profil peut être jusqu'à 64 caractères et peut inclure les caractères suivants :
+Le nom du profil peut contenir jusqu'à 64 caractères et peut contenir les caractères suivants:
   
-- Tous les caractères alphanumériques, y compris les caractères d’accentuation et le caractère de soulignement. 
+- Tous les caractères alphanumériques, y compris les caractères d'accentuation et le trait de soulignement. 
     
-- Des espaces, mais pas espaces à gauche ou.
+- Espaces incorporés, mais pas d'espaces de début ou de fin.
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -105,7 +105,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI utilise la méthode **IProfAdmin::AdminServices** pour ouvrir un objet de l’administration de service de message pour le profil sélectionné Ajouter des services.  <br/> |
+|MAPIProfileFunctions. cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI utilise la méthode **IProfAdmin:: AdminServices** pour ouvrir un objet d'administration de service de messagerie pour le profil sélectionné et ajouter des services.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

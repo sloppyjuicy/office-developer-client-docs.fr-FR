@@ -1,34 +1,34 @@
 ---
-title: UPPER, fonction (accès personnalisé web app)
+title: Fonction Upper (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7c9737cc-4da6-46da-9dfa-57dfe91641bf
-description: Renvoie une expression de texte en minuscules en caractères en majuscules.
-ms.openlocfilehash: 4bcb1e75d7bbd63fdf7f5c285e76a6735b5d9922
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie une expression de texte avec des données de caractères en minuscules converties en majuscules.
+ms.openlocfilehash: 831e633fbb588994091fb54dcf150ba306d7f670
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304213"
 ---
-# <a name="upper-function-access-custom-web-app"></a>UPPER, fonction (accès personnalisé web app)
+# <a name="upper-function-access-custom-web-app"></a>Fonction Upper (application Web personnalisée Access)
 
-Renvoie une expression de texte en minuscules en caractères en majuscules.
+Renvoie une expression de texte avec des données de caractères en minuscules converties en majuscules.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="syntax"></a>Syntaxe
 
  **Supérieur** (*TextExpression*) 
   
-La fonction **supérieur** contient l’argument suivant. 
+La fonction **Upper** contient l'argument suivant. 
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Une expression de texte.  <br/> |
+| *TextExpression*  <br/> |Expression de texte.  <br/> |
    
 

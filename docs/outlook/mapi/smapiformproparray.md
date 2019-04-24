@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 389984f9d98ece6b2040edd741e3028fd7d766ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 50b6581dec8211968a49b204c6d9b1ba1c65bb62
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309512"
 ---
 # <a name="smapiformproparray"></a>SMAPIFormPropArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un tableau de structures [SMAPIFormProp](smapiformprop.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Macro connexe :  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Macro connexe:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -50,15 +50,15 @@ typedef struct
     
  **ulPad**
   
->  Huit octets de remplissage utilisé pour garantir l’alignement correct. 
+>  Huit octets de remplissage utilisés pour garantir un alignement correct. 
     
  **aFormProp**
   
-> Tableau de propriétés du formulaire.
+> Tableau de propriétés de formulaire.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMAPIFormPropArray** est transmise en tant que paramètre aux méthodes suivantes : 
+La structure **SMAPIFormPropArray** est transmise en tant que paramètre aux méthodes suivantes: 
   
 - [IMAPIFormInfo::CalcFormPropSet](imapiforminfo-calcformpropset.md)
     

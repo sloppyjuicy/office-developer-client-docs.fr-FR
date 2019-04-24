@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - Func1
 keywords:
-- fonction func1 [excel 2007]
+- fonction func1 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 26439f1fb05aae2077844ce19935d9ff99e4f701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a3d3c6bbd529f43bd75b31b9348498928390a8f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304080"
 ---
 # <a name="func1"></a>Func1
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Exemple de fonction définie par l’utilisateur la feuille de calcul illustre le retour d’une valeur de chaîne statique. Lorsque GENERIC.xll est chargé, il enregistre cette fonction afin qu’elle peut être appelée à partir de la feuille de calcul.
+Exemple de fonction de feuille de calcul définie par l'utilisateur illustre le retour d'une valeur de chaîne statique. Lorsque GENERIC. xll est chargé, il enregistre cette fonction afin qu'elle puisse être appelée à partir de la feuille de calcul.
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
@@ -30,21 +30,21 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 ## <a name="parameters"></a>Paramètres
 
- _px_ (**LPXLOPER**)
+ _PX_ (**LPXLOPER**)
   
-Cet argument est ignoré et sert uniquement à Microsoft Excel pour appeler la fonction de déclencheur.
+Cet argument est ignoré et sert uniquement à déclencher Microsoft Excel pour appeler la fonction.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
- **LPXLOPER12**: toujours la chaîne « Func1 »
+ **LPXLOPER12**: toujours la chaîne «func1»
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Fonctions de la DLL générique](functions-in-the-generic-dll.md)
+[Fonctions dans le fichier DLL générique](functions-in-the-generic-dll.md)
 

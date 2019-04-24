@@ -1,5 +1,5 @@
 ---
-title: Types de données MAPI
+title: Types de donn�es MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,25 +9,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 85b31361ad39370cf4c935363b341c8378f85e19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e09e77020d3f2c45ec4033c6945c21850aa1a5bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307790"
 ---
-# <a name="mapi-data-types"></a>Types de données MAPI
+# <a name="mapi-data-types"></a>Types de donn�es MAPI
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les entrées suivantes alphabétique contiennent documentation pour les types de données utilisés dans les méthodes, les fonctions et les structures de MAPI. 
+Les entrées alphabétiques suivantes contiennent une documentation sur les types de données utilisés dans les méthodes, les fonctions et les structures MAPI. 
   
 ||
 |:-----|
-|[BOOKMARK](bookmark.md) <br/> |
+|[Signet](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |
 |[DNTBL](dntbl.md) <br/> |
 |[DNTBLE](dntble.md) <br/> |
@@ -48,7 +48,7 @@ Les entrées suivantes alphabétique contiennent documentation pour les types de
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[SYNC](sync.md) <br/> |
+|[SYNCHRONI](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
 |[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |
@@ -67,5 +67,5 @@ Les entrées suivantes alphabétique contiennent documentation pour les types de
 
 
 
-[R�f�rence MAPI (en anglais)](mapi-reference.md)
+[Référence MAPI](mapi-reference.md)
 

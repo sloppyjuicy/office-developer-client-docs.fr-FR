@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 11f11ae2d90a951a119895f3e0e3e3ca0dbc0fc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3ef284a2c036abb9eac10ecf33de4adbf61f3c54
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309484"
 ---
 # <a name="smapiverb"></a>SMAPIVerb
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Décrit un verbe MAPI.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
    
 ```cpp
 typedef struct
@@ -47,11 +47,11 @@ typedef struct
 
  **lVerb**
   
-> Code représentant le verbe qui est transmis à [IMAPIForm::DoVerb](imapiform-doverb.md). Les verbes standard sont définies dans le fichier d’en-tête Exchform.h.
+> Code représentant le verbe passé à [IMAPIForm::D overb](imapiform-doverb.md). Les verbes standard sont définis dans le fichier d'en-tête Exchform. h.
     
  **szVerbname**
   
-> Nom complet du verbe telle qu’elle apparaît dans le menu formulaire.
+> Nom complet du verbe tel qu'il apparaît dans le menu formulaire.
     
  **fuFlags**
   
@@ -63,15 +63,15 @@ typedef struct
     
  **ulFlags**
   
-> Indicateur indiquant le format du nom d’affichage du verbe. Vous pouvez définir l’indicateur suivant :
+> Indicateur qui indique le format du nom d'affichage du verbe. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Le nom complet est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, le nom complet est au format ANSI.
+> Le nom complet est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, le nom d'affichage est au format ANSI.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMAPIVerb** est transmise en tant que paramètre dans les méthodes suivantes : 
+La structure **SMAPIVerb** est transmise en tant que paramètre dans les méthodes suivantes: 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     

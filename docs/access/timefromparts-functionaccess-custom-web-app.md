@@ -1,40 +1,40 @@
 ---
-title: Fonction TimeFromParts (accès personnalisé web app)
+title: Fonction TimeFromParts (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7f631b7e-6e3c-46dc-a05f-6a07f9a91268
-description: Renvoie une valeur de temps en fonction de composants spécifiés.
-ms.openlocfilehash: 55a4d1c31fdd2248e3e154d83e803d9f5a5ebb06
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie une valeur d'heure basée sur des parties spécifiées.
+ms.openlocfilehash: 8e2105140056bc65e9af0a6eda6e40fc44caed1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304248"
 ---
-# <a name="timefromparts-function-access-custom-web-app"></a>Fonction TimeFromParts (accès personnalisé web app)
+# <a name="timefromparts-function-access-custom-web-app"></a>Fonction TimeFromParts (application Web personnalisée Access)
 
-Renvoie une valeur de temps en fonction de composants spécifiés.
+Renvoie une valeur d'heure basée sur des parties spécifiées.
   
 > [!NOTE]
-> La fonctionnalité de stockage dans le nuage décrite dans cet article n’est plus pris en charge dans Office 2013 et Office 2016 et peut entraîner l’erreur suivante : > *Désolé, nous avons des problèmes de serveur, afin que nous ne pouvons pas ajouter \<service\> maintenant. Réessayez ultérieurement.* > Pour le stockage en nuage pour Office Online, Office pour iOS et Office pour Android, vous pouvez rechercher dans notre [Programme de partenariat de stockage dans le nuage Office](https://dev.office.com/programs/officecloudstorage). 
+> La fonctionnalité de stockage cloud décrite dans cet article n’est plus prise en charge dans Office 2013 et Office 2016 et peut entraîner le message d’erreur suivant : > *Sorry, we’re having server problems, so we can’t add \<service\> right now. Please try again later.* (« Nous rencontrons actuellement des problèmes de serveur et nous sommes dans l’incapacité d’ajouter le service. Merci de réessayer ultérieurement. ») > En ce qui concerne le stockage cloud pour Office Online, Office pour iOS et Office pour Android, consultez notre [programme de partenariat de stockage cloud Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Syntaxe
 
- **TimeFromParts** (*Heure*, *Minute*, *seconde*) 
+ **TimeFromParts** (*Heure*, *minute*, *seconde*) 
   
 La fonction **TimeFromParts** contient les arguments suivants. 
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Heure*  <br/> |Expression d’entier spécifiant les heures.  <br/> |
-| *Minute*  <br/> |Expression d’entier indiquant les minutes.  <br/> |
-| *Seconde*  <br/> |Expression d’entier indiquant les secondes.  <br/> |
+| *Hour*  <br/> |Expression de type Integer qui spécifie les heures.  <br/> |
+| *Minute*  <br/> |Expression de nombre entier spécifiant des minutes.  <br/> |
+| *Second*  <br/> |Expression de type Integer qui spécifie les secondes.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
- **TimeFromParts** renvoie une valeur d’heure entièrement initialisé. Si les arguments ne sont pas valides, une erreur est générée. Si un des paramètres est null, la valeur null est renvoyée. 
+ **TimeFromParts** renvoie une valeur d'heure entièrement initialisée. Si les arguments ne sont pas valides, une erreur est générée. Si l'un des paramètres est null, NULL est renvoyé. 
   
 

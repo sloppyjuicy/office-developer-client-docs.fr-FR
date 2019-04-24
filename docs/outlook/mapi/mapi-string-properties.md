@@ -1,5 +1,5 @@
 ---
-title: Propriétés de type chaîne MAPI
+title: Propriétés de chaîne MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 63d7360a-e3a3-4365-9d46-50df1c715bde
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3e16a373ec35696f6d1a8ccc52263a1cf8570cfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 9720b649eadecc73d84d98926674a1786796ba70
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572325"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309519"
 ---
-# <a name="mapi-string-properties"></a>Propriétés de type chaîne MAPI
+# <a name="mapi-string-properties"></a>Propriétés de chaîne MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI propose trois différents types de propriété pour décrire les propriétés de type chaîne :
+MAPI fournit trois types de propriétés différents pour décrire les propriétés de chaîne:
   
 PT_TSTRING
   
@@ -29,27 +29,27 @@ PT_STRING8
   
 PT_UNICODE
   
-Propriétés de type chaîne sont généralement définies comme PT_TSTRING. Le type de propriété PT_TSTRING compilation conditionnelle à un des autres types de propriété de chaîne, selon selon si la macro UNICODE a été définie. PT_STRING8 décrit des chaînes de caractères terminée par le caractère null de 8 bits au format ANSI ; PT_UNICODE décrit les chaînes de caractères terminée par le caractère null. 
+Les propriétés de chaîne sont généralement définies comme PT_TSTRING. Le type de propriété PT_TSTRING est compilé de manière conditionnelle sur l'un des autres types de propriété de chaîne, selon que la macro UNICODE a été définie ou non. PT_STRING8 décrit les chaînes de caractères de 8 bits se terminant par null au format ANSI; PT_UNICODE décrit les chaînes de caractères codés sur deux octets qui se terminent par null. 
   
-Soit un client ou un fournisseur de services, ou à la fois client et fournisseur la possibilité de prendre en charge des chaînes de caractères Unicode. Il n’est pas obligatoire. Un client qui prend en charge uniquement les chaînes PT_STRING8 peut fonctionner avec un fournisseur qui prend en charge Unicode et vice versa. Pour activer cette interopérabilité, clients et fournisseurs de services de transmettent un indicateur, l’indicateur MAPI_UNICODE, pour indiquer que Unicode est pris en charge dans les méthodes qui impliquent l’échange des chaînes de caractères. 
+Un fournisseur de services ou client, ou le client et le fournisseur peuvent choisir de prendre en charge les chaînes de caractères Unicode. Elle n'est pas obligatoire. Un client qui prend en charge uniquement les chaînes PT_STRING8 peut fonctionner avec un fournisseur qui prend en charge Unicode, et inversement. Pour activer cette interopérabilité, les clients et les fournisseurs de services transmettent un indicateur, l'indicateur MAPI_UNICODE, pour indiquer qu'Unicode est pris en charge dans les méthodes qui impliquent l'échange de chaînes de caractères. 
   
-Par exemple, supposons qu’un client prend en charge Unicode et a besoin de récupérer le nom complet d’un dossier. Toutes les propriétés PT_TSTRING du client sont compilés en type PT_UNICODE. Lorsque le client appelle la méthode de [IMAPIProp::GetProps](imapiprop-getprops.md) du dossier à récupérer sa propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), il passe l’indicateur MAPI_UNICODE pour demander que renvoyer la chaîne du nom complet dans le format Unicode . 
+Par exemple, supposons qu'un client prend en charge Unicode et qu'il doive récupérer le nom d'affichage d'un dossier. Toutes les propriétés PT_TSTRING du client sont compilées en type PT_UNICODE. Lorsque le client appelle la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) du dossier pour récupérer sa propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), il passe l'indicateur MAPI_UNICODE pour demander que la chaîne de nom d'affichage soit renvoyée au format Unicode. . 
   
-Fournisseurs de services et les clients doivent connaître spécifiant un jeu de caractères dans un appel de méthode est uniquement une demande. Prise en charge d’un ou deux jeux de caractères dépend de l’implémentation de l’objet. Toutefois, les fournisseurs de services sont invités à prendre en charge les deux jeux de caractères, car il leur permet d’atteindre la distribution plus large que les fournisseurs qui prennent en charge qu’un seul ensemble. 
+Les clients et fournisseurs de services doivent savoir que la spécification d'un jeu de caractères dans un appel de méthode n'est qu'une requête. La prise en charge d'un ou des deux jeux de caractères est jusqu'à l'implémentation de l'objet. Toutefois, les fournisseurs de services sont encouragés à prendre en charge les deux jeux de caractères, car cela leur permet d'obtenir une distribution plus répandue que les fournisseurs qui ne prennent en charge qu'un seul ensemble. 
   
-Propriétés de type chaîne peuvent devenir très volumineux comme propriétés binaires, les propriétés qui utilisent la propriété type PT_BINARY. Pour faciliter l’utilisation des propriétés de grande taille, MAPI permet de fournisseurs de services de définition de ces propriétés appliquer des limites de taille. Ces limites peuvent varier, en fonction de :
+Les propriétés de chaîne peuvent devenir assez volumineuses en ce qui concerne les propriétés binaires, qui utilisent le type de propriété PT_BINARY. Pour faciliter l'utilisation des propriétés volumineuses, MAPI permet aux fournisseurs de services de définir ces propriétés afin d'appliquer des limites de taille. Ces limites peuvent varier en fonction des éléments suivants:
   
-- Indique si les propriétés sont en cours lu ou écrit.
+- Indique si les propriétés sont en cours de lecture ou d'écriture.
     
 - Comment le fournisseur de services implémente les méthodes **IMAPIProp** . 
     
-- Considérations de runtime, telles que des contraintes de mémoire.
+- Considérations relatives à l'exécution, telles que les contraintes de mémoire.
     
-- Problèmes de traduction du jeu de caractères. 
+- Problèmes de conversion des jeux de caractères. 
     
-Limites de taille peuvent également être placés sur une chaîne et propriétés binaires lorsqu’ils sont utilisés dans la colonne valeur d’une table car il est parfois impossible afficher tous les valeur d’une propriété de grande taille. Plusieurs fournisseurs de services tronquent la chaîne de grande taille ou des propriétés binaires qui sont utilisées dans les tableaux à 255 octets. 
+Les limites de taille peuvent également être placées sur les propriétés de chaîne et binaires lorsqu'elles sont utilisées dans le jeu de colonnes d'un tableau car il est parfois impossible de rendre entièrement visible la valeur de la propriété large. De nombreux fournisseurs de services tronquent les grandes propriétés de chaîne ou binaires qui sont utilisées dans les tableaux à 255 octets. 
   
-Lorsqu’un client appelle la méthode **GetProps** ou **SetProps** d’un objet pour travailler avec une chaîne de grande taille ou une propriété binaire et l’appel échoue en raison de la taille de la propriété, la méthode renvoie la valeur d’erreur MAPI_E_NOT_ENOUGH_MEMORY. S’il est **GetProps** qui ont échoué pour une propriété spécifique, le client peut récupérer en appelant [IMAPIProp::OpenProperty](imapiprop-openproperty.md) et en demandant **IStream** pour l’accès en spécifiant l’identificateur d’interface IID_IStream. À l’aide de **OpenProperty**, le client peut extraire une propriété de grande taille à l’aide d’une interface comme **IStream** qui convient mieux pour l’utilisation des propriétés de grande taille. 
+Lorsqu'un client appelle la méthode **GetProps** ou **SetProps** d'un objet pour fonctionner avec une chaîne ou une propriété binaire de grande taille et si l'appel échoue en raison de la taille de la propriété, la méthode renvoie la valeur d'erreur MAPI_E_NOT_ENOUGH_MEMORY. S'il s'agit d' **GetProps** qui échoue pour une propriété spécifique, le client peut effectuer une récupération en appelant [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) et en demandant à l'accès **IStream** en spécifiant IID_IStream comme identificateur d'interface. À l'aide de **OpenProperty**, le client peut récupérer une grande propriété à l'aide d'une interface telle que **IStream** , mieux adaptée à l'utilisation de propriétés volumineuses. 
   
 ## <a name="see-also"></a>Voir aussi
 

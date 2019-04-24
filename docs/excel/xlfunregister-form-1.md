@@ -1,5 +1,5 @@
 ---
-title: xlfUnregister (formulaire 1)
+title: xlfUnregister (formulaire 1)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,32 +7,32 @@ ms.topic: reference
 f1_keywords:
 - xlfUnregister
 keywords:
-- fonction xlfunregister [excel 2007]
+- fonction xlfUnregister [Excel 2007]
 localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 6077027a27c054c5a5e65a751373c41a87cb3836
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f5ebc08f89651331186990d8574e3150d4f484a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303891"
 ---
-# <a name="xlfunregister-form-1"></a>xlfUnregister (formulaire 1)
+# <a name="xlfunregister-form-1"></a>xlfUnregister (formulaire 1)
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Peut être appelée à partir d’une commande DLL ou XLL lui-même a été appelée par Microsoft Excel. Cela équivaut à appeler **Annuler l’inscription** d’une feuille de macro Excel XLM. 
+Peut être appelée à partir d'une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **Unregister** à partir d'une feuille macro XLM Excel. 
   
-**xlfUnregister** peut être appelée sous deux formes : 
+**xlfUnregister** peut être appelé sous deux formes: 
   
-- Formulaire 1 : Annule l’enregistrement d’une commande ou une fonction.
+- Formulaire 1: annule l'inscription d'une commande ou d'une fonction individuelle.
     
-- Formulaire 2 : Décharge et désactive une solution XLL.
+- Formulaire 2: décharge et désactive un XLL.
     
-Appelée dans l’écran 1, cette fonction réduit le nombre d’utilisation d’une fonction DLL ou d’une commande qui a été précédemment inscrit à l’aide de **xlfRegister** ou **enregistrez**. Si le nombre d’utilisation est déjà égale à zéro, cette fonction est sans effet. Lorsque le nombre d’utilisations de toutes les fonctions dans une DLL atteint zéro, la DLL est déchargée de la mémoire.
+Appelée dans le formulaire 1, cette fonction réduit le nombre d'utilisations d'une fonction ou commande DLL précédemment inscrite à l'aide de **xlfRegister** ou **Register**. Si le nombre d'utilisations est déjà égal à zéro, cette fonction n'a aucun effet. Lorsque le nombre d'utilisations de toutes les fonctions dans une DLL atteint zéro, la DLL est déchargée de la mémoire.
   
-**xlfRegister** (Formulaire 1) définit également le nom masqué qui est l’argument texte fonction, _pxFunctionText_, et qui correspond à la fonction ou ID de l’enregistrement. de la commande Lors de la désinscription de la fonction, ce nom doit être supprimé à l’aide de **xlfSetName** afin que le nom de la fonction n’est plus répertorié par l’Assistant fonction. Pour plus d�informations, consultez [Probl�mes connus concernant le d�veloppement de XLL Excel](known-issues-in-excel-xll-development.md).
+**xlfRegister** (Formulaire 1) définit également un nom masqué qui est l'argument de texte de la fonction, _pxFunctionText_, et qui prend la valeur de l'ID d'enregistrement de la fonction ou de la commande. Lors de l'annulation de l'inscription de la fonction, ce nom doit être supprimé à l'aide de **xlfSetName** afin que le nom de la fonction ne soit plus mentionné par l'Assistant fonction. Pour plus d�informations, consultez [Probl�mes connus concernant le d�veloppement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
@@ -42,15 +42,15 @@ Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
 
 _pxRegisterId_ (**xltypeNum**)
   
-L’ID de l’enregistrement de la fonction doit être annulée.
+ID d'inscription de la fonction dont l'inscription doit être annulée.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Si l’opération réussit, renvoie **la valeur TRUE** (**xltypeBool**), sinon il renvoie la valeur FALSE.
+Si elle réussit, renvoie la **valeur true** (**xltypeBool**), sinon elle renvoie la valeur false.
   
 ## <a name="remarks"></a>Remarques
 
-L’inscription de le QU'ID de la fonction est retourné par **xlfRegister** lors de la fonction inscrit. Il peut également être obtenu en appelant la [fonction xlfRegisterId](xlfregisterid.md) ou la [fonction xlfEvaluate](xlfevaluate.md). Notez que xlfRegisterId tente d’inscrire la fonction si elle n’a pas déjà été enregistré. Pour cette raison, si vous essayez uniquement obtenir l’ID de sorte que vous pouvez annuler l’inscription de la fonction, il est préférable de se le procurer en transmettant le nom enregistré à **xlfEvaluate**. Si la fonction n’a pas été enregistrée, **xlfEvaluate** échoue avec une #NAME ? erreur. 
+L'ID d'inscription de la fonction est retourné par **xlfRegister** lorsque la fonction est inscrite pour la première fois. Elle peut également être obtenue en appelant la [fonction xlfRegisterId](xlfregisterid.md) ou la [fonction xlfEvaluate](xlfevaluate.md). Notez que xlfRegisterId essaie d'enregistrer la fonction si elle n'a pas encore été inscrite. Pour cette raison, si vous tentez d'obtenir l'ID de sorte que vous puissiez annuler l'inscription de la fonction, il est préférable de l'obtenir en transmettant le nom enregistré à **xlfEvaluate**. Si la fonction n'a pas été enregistrée, **xlfEvaluate** échoue avec une #NAME? «. 
   
 ## <a name="example"></a>Exemple
 
@@ -91,8 +91,8 @@ int WINAPI fExit(void)
 
 ## <a name="see-also"></a>Voir aussi
 
-- [xlfRegister (formulaire 1)](xlfregister-form-1.md)
+- [xlfRegister (formulaire 1)](xlfregister-form-1.md)
 - [xlfRegisterId](xlfregisterid.md)
-- [xlfUnregister (formulaire 2)](xlfunregister-form-2.md)
-- [Fonctions XLM API C essentielles et utiles](essential-and-useful-c-api-xlm-functions.md)
+- [xlfUnregister (formulaire 2)](xlfunregister-form-2.md)
+- [Fonctions XLM essentielles et utiles de l’API C](essential-and-useful-c-api-xlm-functions.md)
 

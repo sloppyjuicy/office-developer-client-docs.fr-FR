@@ -1,49 +1,49 @@
 ---
-title: Fonctions de texte (accès personnalisé web app)
+title: Fonctions de texte (application Web personnalisée Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 31bda053-637f-4e1c-b9e0-817e5c3c5170
-ms.openlocfilehash: 225ad09c7920772468954e1d0e1d42d3c73553c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc911f9598b9c5586b5be727d28195ab5f2662cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307860"
 ---
-# <a name="text-functions-access-custom-web-app"></a>Fonctions de texte (accès personnalisé web app)
+# <a name="text-functions-access-custom-web-app"></a>Fonctions de texte (application Web personnalisée Access)
 
 ## <a name="in-this-section"></a>Dans cette section
 
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-- [Fonction CharIndex (accès personnalisé web app)](charindex-function-access-custom-web-app.md)
+- [Fonction CharIndex (application Web personnalisée Access)](charindex-function-access-custom-web-app.md)
     
-- [Fonction concat (accès personnalisé web app)](concat-function-access-custom-web-app.md)
+- [Fonction concat (application Web personnalisée Access)](concat-function-access-custom-web-app.md)
     
-- [Fonction Left (accès personnalisé web app)](left-function-access-custom-web-app.md)
+- [Fonction Left (application Web personnalisée Access)](left-function-access-custom-web-app.md)
     
-- [Fonction Len (accès personnalisé web app)](len-function-access-custom-web-app.md)
+- [Fonction Len (application Web personnalisée Access)](len-function-access-custom-web-app.md)
     
-- [LOWER, fonction (accès personnalisé web app)](lower-function-access-custom-web-app.md)
+- [Fonction Lower (application Web personnalisée Access)](lower-function-access-custom-web-app.md)
     
-- [Fonction LTrim (accès personnalisé web app)](ltrim-function-access-custom-web-app.md)
+- [Fonction LTrim (application Web personnalisée Access)](ltrim-function-access-custom-web-app.md)
     
-- [Replace, fonction (accès personnalisé web app)](replace-function-access-custom-web-app.md)
+- [Fonction rePlace (application Web personnalisée Access)](replace-function-access-custom-web-app.md)
     
-- [Répliquer fonction (accès personnalisé web app)](replicate-function-access-custom-web-app.md)
+- [Fonction rePlicate (application Web personnalisée Access)](replicate-function-access-custom-web-app.md)
     
-- [Fonction Right (accès personnalisé web app)](right-function-access-custom-web-app.md)
+- [Fonction Right (application Web personnalisée Access)](right-function-access-custom-web-app.md)
     
-- [Fonction RTrim (accès personnalisé web app)](rtrim-function-access-custom-web-app.md)
+- [Fonction RTrim (application Web personnalisée Access)](rtrim-function-access-custom-web-app.md)
     
-- [Fonction de sélections (accès personnalisé web app)](stuff-function-access-custom-web-app.md)
+- [Fonction Stuff (application Web personnalisée Access)](stuff-function-access-custom-web-app.md)
     
-- [Fonction sous-chaîne (accès personnalisé web app)](substring-function-access-custom-web-app.md)
+- [Fonction SUBSTRING (application Web personnalisée Access)](substring-function-access-custom-web-app.md)
     
-- [UPPER, fonction (accès personnalisé web app)](upper-function-access-custom-web-app.md)
+- [Fonction Upper (application Web personnalisée Access)](upper-function-access-custom-web-app.md)
     
 

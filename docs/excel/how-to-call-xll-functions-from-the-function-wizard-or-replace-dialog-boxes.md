@@ -1,45 +1,45 @@
 ---
-title: Appel des fonctions XLL à partir de l’Assistant fonction ou remplacer des boîtes de dialogue
+title: Appeler des fonctions XLL à partir de l'Assistant fonction ou des boîtes de dialogue remplacer
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- fonctions de XLL [excel 2007], appel à partir de la boîte de dialogue Remplacer, boîte de dialogue Remplacer zone fonctions XLL [Excel 2007], appel, Assistant fonction [Excel 2007], appeler des fonctions XLL, fonctions XLL [Excel 2007], appel à partir de l’Assistant fonction
+- fonctions XLL [Excel 2007], appel de la boîte de dialogue remplacer, boîte de dialogue remplacer [Excel 2007], appel des fonctions XLL, Assistant fonction [Excel 2007], appel des fonctions XLL, fonctions XLL [Excel 2007], appel à partir de l'Assistant fonction
 localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 7ebb33a5b98cebedfca7fb5923e62486bfd85696
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11189beed13e2ceb99ef04b7a2f966cb4171915c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304017"
 ---
-# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Appel des fonctions XLL à partir de l’Assistant fonction ou remplacer des boîtes de dialogue
+# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Appeler des fonctions XLL à partir de l'Assistant fonction ou des boîtes de dialogue remplacer
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Si le calcul est sous le contrôle d’une macro, Microsoft Excel appelle généralement fonctions XLL pendant le recalcul normal du classeur, ou une partie de celle-ci. N’oubliez pas que la fonction ne peut pas résider dans une formule de cellule, mais peut-être faire partie d’une définition de la plage nommée ou une expression de mise en forme conditionnelle.
+Microsoft Excel appelle généralement des fonctions XLL lors du recalcul normal du classeur ou d'une partie de celui-ci si le calcul est sous le contrôle d'une macro. N'oubliez pas que la fonction ne se trouve pas dans une formule de cellule, mais peut faire partie d'une définition de plage nommée ou d'une expression conditionnelle de mise en forme.
   
-Il existe deux cas où une fonction peut être appelée à partir d’une boîte de dialogue Excel. Une est la boîte de dialogue **Arguments de la fonction Coller** , où les utilisateurs sont en mesure de construire un un argument appel de fonction à la fois. L’autre est lorsque les formules sont modifiées et réentrées par Excel dans la boîte de dialogue **Remplacer** . Pour la boîte de dialogue **Arguments de la fonction Coller** , vous pouvez ne pas vouloir votre fonction s’exécuter normalement. Cela peut être, car elle prend beaucoup de temps d’exécution et vous ne souhaitez pas l’utilisation de la boîte de dialogue de ralentir. 
+Il existe deux cas dans lesquels une fonction peut être appelée à partir d'une boîte de dialogue Excel. La première est la boîte de dialogue de **collage des arguments** de la fonction, dans laquelle les utilisateurs peuvent construire une fonction appeler un argument à la fois. L'autre est lorsque les formules sont modifiées et resaisies par Excel dans la boîte de dialogue **remplacer** . Pour la boîte de dialogue **coller les arguments** de la fonction, il se peut que vous ne voulez pas que votre fonction s'exécute normalement. Cela peut être dû à une longue durée d'exécution et vous ne voulez pas ralentir l'utilisation de la boîte de dialogue. 
   
-La boîte de dialogue **Coller une fonction** et de la boîte de dialogue **Remplacer** ont Windows classe nom **bosa_sdm_XL**n, où n est un nombre. Windows propose une fonction d’API, **GetClassName**, qui obtient ce nom à partir d’une poignée de Windows, un type de variable HWND. Il fournit également une autre fonction, **EnumWindows**, qui appelle une fonction de rappel fourni (au sein de votre DLL) qu’une seule fois pour chaque fenêtre de niveau supérieur qui est actuellement ouvert.
+La boîte de dialogue **coller une fonction** et la boîte de dialogue **remplacer** portent le nom de classe Windows **bosa_sdm_XL**n, où n est un nombre. Windows fournit une fonction d'API, **GetClassName**, qui obtient ce nom à partir d'un handle Windows, un type de variable HWND. Elle fournit également une autre fonction, **EnumWindows**, qui appelle une fonction de rappel fournie (dans votre dll) une fois pour chaque fenêtre de niveau supérieur ouverte.
   
-La fonction de rappel doit effectuer les étapes suivantes uniquement :
+La fonction de rappel doit effectuer uniquement les étapes suivantes:
   
-1. Vérifiez si le parent de la fenêtre est l’instance actuelle de Microsoft Excel (au cas où il existe plusieurs instances en cours d’exécution).
+1. Vérifiez si le parent de cette fenêtre est l'instance actuelle d'Excel (si plusieurs instances sont en cours d'exécution).
     
-2. Obtenir le nom de classe à partir du handle passé par Windows.
+2. Obtenez le nom de la classe à partir du handle transmis par Windows.
     
-3. Vérifiez si le nom de classe de formulaire **bosa_sdm_XL**n.
+3. Vérifiez si le nom de la classe se présente sous la forme **bosa_sdm_XL**n.
     
-4. Si vous devez faire la distinction entre les deux boîtes de dialogue, vérifiez si le titre de la boîte de dialogue contient du texte d’identification. Titre de la fenêtre est obtenu à l’aide de l’appel d’API Windows **GetWindowText**.
+4. Si vous devez faire la distinction entre les deux boîtes de dialogue, vérifiez si le titre de la boîte de dialogue contient du texte d'identification. Le titre de la fenêtre est obtenu à l'aide **** de l'API Windows.
     
-Le code C++ suivant illustre une classe et un rappel à transmettre à Windows qui effectue ces étapes. Il s’agit par les fonctions de ce test d’appel spécifiquement pour une des boîtes de dialogue concernés. 
+Le code C++ suivant montre une classe et un rappel à transmettre à Windows qui effectue ces étapes. Cela est appelé par les fonctions qui appellent un test spécifique pour l'une des boîtes de dialogue concernées. 
   
 > [!NOTE]
-> Titres des fenêtres de futures versions d’Excel peuvent modifier et invalider ce code. Notez également que la définition de **window_title_text** sur **NULL** a pour effet d’ignorer le titre de la fenêtre de la recherche de rappel. 
+> Les titres des fenêtres des versions ultérieures d'Excel pourraient modifier et invalider ce code. Notez également que le fait de définir **window_title_text** sur **null** a pour effet d'ignorer le titre de la fenêtre dans la recherche de rappel. 
   
 ```cs
 #define CLASS_NAME_BUFFSIZE  50
@@ -98,7 +98,7 @@ BOOL CALLBACK xldlg_enum_proc(HWND hwnd, xldlg_enum_struct *p_enum)
 }
 ```
 
-La boîte de dialogue **Coller une fonction** ne dispose pas d’un titre, afin que la fonction suivante transmet une chaîne de titre de recherche de « », c'est-à-dire, une chaîne vide au rappel pour indiquer que la condition de correspondance est que la fenêtre ne doit pas comporter un titre. 
+La boîte de dialogue **coller une fonction** n'a pas de titre, de sorte que la fonction suivante transmet une chaîne de titre de recherche de «», c'est-à-dire une chaîne vide, au rappel pour indiquer que la condition de correspondance est que la fenêtre ne doit pas avoir de titre. 
   
 ```cs
 bool called_from_paste_fn_dlg(void)

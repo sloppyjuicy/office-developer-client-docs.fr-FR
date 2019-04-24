@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a353e1a3-0187-20af-b9ba-43438f6024d5
-description: Définit le démarrage de l’heure, quand le retour à l’heure standard se produit et le nombre d’heures du passage de MAJ est.
-ms.openlocfilehash: 85812ab053d77c07f9360b6bf3a1faaf72cae573
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Définit à quel moment l'heure d'été commence, lorsque le retour à l'heure standard se produit, et le nombre d'heures d'évolution de l'heure d'été.
+ms.openlocfilehash: 136ff6ad0c1a9bc2ad61ef7ba698d66d645165d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307839"
 ---
 # <a name="tzreg"></a>TZREG
 
-Définit le démarrage de l’heure, quand le retour à l’heure standard se produit et le nombre d’heures du passage de MAJ est.
+Définit à quel moment l'heure d'été commence, lorsque le retour à l'heure standard se produit, et le nombre d'heures d'évolution de l'heure d'été.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,27 +35,27 @@ typedef struct RenTimeZone {
 
 _lBias_
   
-> Décalage de l’heure de Greenwich (GMT).
+> Décalage par rapport à l'heure de Greenwich (GMT).
     
 _lStandardBias_
   
-> Décalage de décalage au cours de l’heure standard.
+> Décalage par rapport au décalage pendant l'heure standard.
     
 _lDaylightBias_
   
-> Décalage de décalage de l’heure d’été.
+> Décalage par rapport à l'heure d'été.
     
 _stStandardDate_
   
-> Le temps de passer à l’heure standard.
+> Temps de basculement vers l'heure standard.
     
 _stDaylightDate_
   
-> Le temps de passer à l’heure d’été.
+> Durée de passage à l'heure d'été.
     
 ## <a name="remarks"></a>Remarques
 
-Cette structure est similaire à **TIME_ZONE_INFORMATION**. Il s’agit de la structure permet de stocker les informations de fuseau horaire pour les réunions périodiques par les clients hérités.
+Cette structure est similaire à **TIME_ZONE_INFORMATION**. Il s'agit de la structure utilisée par les clients hérités pour stocker les informations de fuseau horaire pour les réunions périodiques.
   
 ## <a name="see-also"></a>Voir aussi
 

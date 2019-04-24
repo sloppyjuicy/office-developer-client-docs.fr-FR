@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2c49a17389a9bfc998f892e0becf96dca4cd773f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 353bc574ca5987d71faf4841744de30a3d6c3f19
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309491"
 ---
 # <a name="smapiformpropenumval"></a>SMAPIFormPropEnumVal
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Mappe une valeur entière énumérée à un nom d’affichage pour cette valeur. 
+Mappe une valeur entière énumérée à un nom complet pour cette valeur. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormPropEnumVal
@@ -48,11 +48,11 @@ typedef struct _SMAPIFormPropEnumVal
     
  **nVal**
   
-> Une valeur d’énumération pour le nom complet vers laquelle pointe le membre **pszDisplayName** . 
+> Valeur d'énumération pour le nom complet désigné par le membre **pszDisplayName** . 
     
 ## <a name="remarks"></a>Remarques
 
-Lorsqu’un utilisateur sélectionne un nom d’affichage d’un formulaire, la valeur d’énumération du nom correspondant est stocké à l’aide de l’implémentation d’interface [IMAPIProp](imapipropiunknown.md) qui est associée au formulaire. 
+Lorsqu'un utilisateur sélectionne un nom d'affichage dans un formulaire, la valeur d'énumération correspondante du nom est stockée à l'aide de l'implémentation de l'interface [IMAPIProp](imapipropiunknown.md) associée au formulaire. 
   
 ## <a name="see-also"></a>Voir aussi
 

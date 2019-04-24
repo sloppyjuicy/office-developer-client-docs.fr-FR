@@ -7,16 +7,16 @@ ms.topic: reference
 f1_keywords:
 - xlDisableXLMsgs
 keywords:
-- fonction xldisablexlmsgs [excel 2007]
+- fonction xldisablexlmsgs [Excel 2007]
 localization_priority: Normal
 ms.assetid: b29d4720-7855-4252-9dbe-b4fc4eb8f995
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: f7d422f59c9cab40918b3ec1b4b4752f6044f3b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8da007535168628d46751a7fbbac5766b391eada
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303940"
 ---
 # <a name="xldisablexlmsgs"></a>xlDisableXLMsgs
 
@@ -32,5 +32,5 @@ Excel12(xlDisableXLMsgs, 0, 0);
 
 
 
-[Fonctions de l’API C qui peuvent être appelées uniquement à partir d’une DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

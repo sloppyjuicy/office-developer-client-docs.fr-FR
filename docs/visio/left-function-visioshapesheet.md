@@ -1,5 +1,5 @@
 ---
-title: Fonction LEFT (VisioShapeSheet)
+title: LEFT Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,38 +8,38 @@ f1_keywords:
 - Vis_DSS.chm1021757
 localization_priority: Normal
 ms.assetid: 0c2f6e06-b772-2006-ec7b-8695d097f146
-description: Renvoie l’ou les caractères de la plus à gauche dans une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
-ms.openlocfilehash: 4e8deb3098ce6d217dcce0cae23d07ed723d9fb8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le ou les caractères les plus à gauche d'une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
+ms.openlocfilehash: aa4141cfc53bd41a6d58e8bc666b18a06fc80245
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309463"
 ---
-# <a name="left-function-visioshapesheet"></a>Fonction LEFT (VisioShapeSheet)
+# <a name="left-function-visioshapesheet"></a>LEFT Function (VisioShapeSheet)
 
-Renvoie l’ou les caractères de la plus à gauche dans une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
+Renvoie le ou les caractères les plus à gauche d'une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
   
 ## <a name="syntax"></a>Syntaxe
 
-GAUCHE (** *texte* **, [, ** *nb_cars_opt* **]) 
+Gauche (* * *texte* * *, [, * * *num_chars_opt* * *]) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Chaîne de texte qui contient les caractères à extraire.  <br/> |
-| _nb_cars_opt_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Nombre de caractères à extraire.  <br/> |
+| _text_ <br/> |Obligatoire  <br/> |**String** <br/> |Chaîne de texte qui contient les caractères à extraire.  <br/> |
+| _num_chars_opt_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Nombre de caractères à extraire.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   
 ## <a name="remarks"></a>Remarques
 
-La valeur de _nb_cars_opt_ doit être supérieure ou égale à zéro (0). 
+La valeur de _num_chars_opt_ doit être supérieure ou égale à zéro (0). 
   
-Si _nb_cars_opt_ est supérieur à la longueur du texte, gauche renvoie tout le texte. Si _nb_cars_opt_ est omis, il est supposé pour être 1. 
+Si _num_chars_opt_ est supérieur à la longueur du texte, Left renvoie tout le texte. Si _num_chars_opt_ est omis, il est considéré comme étant égal à 1. 
   
 ## <a name="example"></a>Exemple
 

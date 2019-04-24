@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 77eeb468-3432-4ccd-9c1e-1df9ce605193
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 3f0d98b8ffa13fe238fc0fcf8ff0ec76a3a284eb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309624"
 ---
 # <a name="ipersistmessagegetclassid"></a>IPersistMessage::GetClassID
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un identificateur qui représente le serveur de formulaire qui peut gérer le formulaire. 
+Renvoie un identificateur qui représente le serveur de formulaires qui peut gérer le formulaire. 
   
 ```cpp
 HRESULT GetClassID(
@@ -37,19 +37,19 @@ HRESULT GetClassID(
 
  _lpClassID_
   
-> [entrée, sortie] Pointeur vers l’identificateur de classe (CLSID) du formulaire.
+> [in, out] Pointeur vers l'identificateur de classe (CLSID) du formulaire.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’identificateur de classe a été renvoyée avec succès.
+> L'identificateur de classe a été renvoyé.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IPersistMessge::GetClassID** définit le contenu du paramètre _lpClassID_ sur l’identificateur de classe du serveur du formulaire et renvoie S_OK. Lorsqu’une visionneuse de formulaire appelle **GetClassID** et elle renvoie avec succès, le formulaire est placé dans l’état [Uninitialized](uninitialized-state.md) . 
+La méthode **IPersistMessge:: GetClassID** définit le contenu du paramètre _lpClassID_ sur l'identificateur de classe du serveur de formulaire et renvoie S_OK. Lorsqu'une visionneuse de formulaires appelle **GetClassID** et qu'elle renvoie correctement, le formulaire est placé en état [non initialisé](uninitialized-state.md) . 
   
-Pour plus d’informations sur l’utilisation des identificateurs de classe des objets de stockage structuré, consultez la documentation de la méthode [IPersist::GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) . 
+Pour plus d'informations sur l'utilisation des identificateurs de classe avec des objets de stockage structurés, consultez la documentation de la méthode [IPersist:: GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) . 
   
 ## <a name="see-also"></a>Voir aussi
 

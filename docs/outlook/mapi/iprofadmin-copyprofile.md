@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9e22111ec920d89e0874baf71946681c204cacd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: c3c4ac10003aad8949de94e0f144410af10078b1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309568"
 ---
 # <a name="iprofadmincopyprofile"></a>IProfAdmin::CopyProfile
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571205"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Copie d’un profil.
+Copie un profil.
   
 ```cpp
 HRESULTCopyProfile(
@@ -41,27 +41,27 @@ HRESULTCopyProfile(
 
  _lpszOldProfileName_
   
-> [in] Pointeur vers le nom du profil à copier.
+> dans Pointeur vers le nom du profil à copier.
     
  _lpszOldPassword_
   
-> [in] Pointeur vers le mot de passe du profil à copier.
+> dans Pointeur vers le mot de passe du profil à copier.
     
  _lpszNewProfileName_
   
-> [in] Pointeur vers le nouveau nom du profil copié.
+> dans Pointeur vers le nouveau nom du profil copié.
     
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parente de toutes les boîtes de dialogue ou windows qui affiche cette méthode.
+> dans Handle de la fenêtre parente des boîtes de dialogue ou des fenêtres que cette méthode affiche.
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont le profil est copié. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle la manière dont le profil est copié. Les indicateurs suivants peuvent être définis:
     
 MAPI_DIALOG 
   
-> Affiche une boîte de dialogue qui invite l’utilisateur pour le mot de passe du profil à copier. Si cet indicateur n’est pas défini, aucune boîte de dialogue ne s’affiche.
+> Affiche une boîte de dialogue qui invite l'utilisateur à indiquer le mot de passe correct du profil à copier. Si cet indicateur n'est pas défini, aucune boîte de dialogue ne s'affiche.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -71,33 +71,33 @@ S_OK
     
 MAPI_E_ACCESS_DENIED 
   
-> Le nom du nouveau profil est identique à celui d’un profil existant.
+> Le nouveau nom de profil est identique à celui d'un profil existant.
     
 MAPI_E_LOGON_FAILED 
   
-> Le mot de passe pour le profil à copier est incorrect, et une boîte de dialogue ne peut pas être affichée à l’utilisateur de demander le mot de passe, car MAPI_DIALOG n’a pas été défini dans le paramètre _ulFlags_ . 
+> Le mot de passe du profil à copier est incorrect et une boîte de dialogue n'a pas pu être affichée à l'utilisateur pour demander le mot de passe correct car MAPI_DIALOG n'a pas été défini dans le paramètre _ulFlags_ . 
     
 MAPI_E_NOT_FOUND 
   
-> Le profil spécifié n’existe pas.
+> Le profil spécifié n'existe pas.
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération de généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** d'une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProfAdmin::CopyProfile** effectue une copie du profil désigné par _lpszOldProfileName_, en lui donnant le nom désignée par _lpszNewProfileName_. Copie d’un profil laisse la copie avec le même mot de passe d’origine.
+La méthode **IProfAdmin:: CopyProfile** effectue une copie du profil désigné par _lpszOldProfileName_, lui donnant le nom indiqué par _lpszNewProfileName_. La copie d'un profil laisse la copie avec le même mot de passe que l'original.
   
-Le nom de la copie du profil d’origine et son mot de passe peut être jusqu'à 64 caractères et peut inclure les caractères suivants :
+Le nom du profil d'origine, son mot de passe et la copie peuvent contenir jusqu'à 64 caractères et peuvent inclure les caractères suivants:
   
-- Tous les caractères alphanumériques, y compris les caractères d’accentuation et le caractère de soulignement.
+- Tous les caractères alphanumériques, y compris les caractères d'accentuation et le trait de soulignement.
     
-- Des espaces, mais pas espaces à gauche ou.
+- Espaces incorporés, mais pas d'espaces de début ou de fin.
     
-Profil des mots de passe ne sont pas pris en charge sur tous les systèmes d’exploitation. Sur les systèmes d’exploitation qui ne prennent pas en charge les mots de passe de profil, _lpszOldPassword_ peut être NULL ou un pointeur vers une chaîne de longueur nulle. 
+Les mots de passe de profil ne sont pas pris en charge sur tous les systèmes d'exploitation. Sur les systèmes d'exploitation qui ne prennent pas en charge les mots de passe de profil, _lpszOldPassword_ peut être null ou un pointeur vers une chaîne de longueur nulle. 
   
-Si _lpszOldPassword_ est défini sur NULL, le profil doit être copié requiert un mot de passe, et l’indicateur MAPI_DIALOG est défini ; une boîte de dialogue qui invite l’utilisateur à fournir le mot de passe s’affiche. Si un mot de passe est requis, mais _lpszOldPassword_ est définie sur NULL et l’indicateur MAPI_DIALOG n’est pas défini, **CopyProfile** renvoie MAPI_E_LOGON_FAILED. 
+Si _lpszOldPassword_ est défini sur null, le profil à copier requiert un mot de passe et l'indicateur MAPI_DIALOG est défini; une boîte de dialogue invitant l'utilisateur à indiquer le mot de passe est affichée. Si un mot de passe est requis, mais que _lpszOldPassword_ est défini sur null et que l'indicateur MAPI_DIALOG n'est pas défini, **CopyProfile** renvoie MAPI_E_LOGON_FAILED. 
   
 ## <a name="see-also"></a>Voir aussi
 

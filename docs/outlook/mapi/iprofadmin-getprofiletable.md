@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: cebccd2d-8215-486e-9964-7fc42412cec6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8b1b037cf24c1bb5a0c84da3d59892ab15763f37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2db7dba67e7b71df6921ecd97189255a0ef7823a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309547"
 ---
 # <a name="iprofadmingetprofiletable"></a>IProfAdmin::GetProfileTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588243"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table de profil, un tableau qui contient des informations sur tous les profils disponibles.
+Fournit l'accès à la table de profils, une table qui contient des informations sur tous les profils disponibles.
   
 ```cpp
 HRESULT GetProfileTable(
@@ -34,31 +34,31 @@ HRESULT GetProfileTable(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Toujours NULL.
+> dans Toujours NULL.
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers la table de profils.
+> remarquer Pointeur vers un pointeur vers le tableau de profils.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le tableau de profil a été récupéré correctement.
+> La table de profils a été correctement récupérée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProfAdmin::GetProfileTable** permet d’accéder à la table de profil, qui contient une ligne pour chaque profil disponible. Il existe deux colonnes dans chaque ligne : nom d’affichage du profil et d’un indicateur qui indique si le profil est la valeur par défaut. 
+La méthode **IProfAdmin:: GetProfileTable** fournit l'accès à la table de profils, qui contient une ligne pour chaque profil disponible. Chaque ligne comporte uniquement deux colonnes: le nom d'affichage du profil et un indicateur qui indique si le profil est la valeur par défaut. 
   
-Profils qui ont été supprimés, ou qui ont été marquées pour suppression, mais qui sont en cours d’utilisation ne sont pas inclus dans la table de profils. Le tableau de profil est statique ; les ajouts et suppressions de profils ne sont pas reflétées dans la table. 
+Les profils qui ont été supprimés, ou qui sont en cours d'utilisation mais qui ont été marqués pour suppression, ne sont pas inclus dans la table de profils. La table de profils est statique; les ajouts et suppressions de profils suivants ne sont pas répercutés dans le tableau. 
   
-Si aucun profil n’existe pas, **GetProfileTable** renvoie un tableau avec des lignes de zéro. 
+Si aucun profil n'existe, **GetProfileTable** renvoie un tableau sans aucune ligne. 
   
-Pour plus d’informations sur la table de profils, voir [Les Tables de profil](profile-tables.md). 
+Pour plus d'informations sur la table de profils, voir [Profile tables](profile-tables.md). 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -66,7 +66,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI utilise la méthode **IProfAdmin::GetProfileTable** pour obtenir le tableau de profil à afficher dans une boîte de dialogue.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnShowProfiles  <br/> |MFCMAPI utilise la méthode **IProfAdmin:: GetProfileTable** pour obtenir la table de profil à afficher dans une nouvelle boîte de dialogue.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

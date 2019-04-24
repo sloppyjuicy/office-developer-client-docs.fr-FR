@@ -7,29 +7,29 @@ ms.topic: reference
 f1_keywords:
 - xlAutoRegister
 keywords:
-- fonction xlautoregister [excel 2007]
+- fonction xlAutoRegister [Excel 2007]
 localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: e6430a54b0c0ed3b6e08d3c9256cae7dcde926ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f043558f3f642001e9ba11ee5b18a2721c3dddfb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19782207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303947"
 ---
 # <a name="xlautoregisterxlautoregister12"></a>xlAutoRegister/xlAutoRegister12
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Excel appelle la [fonction xlAutoRegister](xlautoregister-xlautoregister12.md) chaque fois qu’un appel a été effectué pour la fonction XLM **inscrire**ou l' équivalent API C [fonction xlfRegister](xlfregister-form-1.md), avec les types de retour et l’argument de la fonction en cours d’enregistrement manquant. Il permet la ressource XLL à rechercher ses listes internes de fonctions exportées et commandes pour enregistrer la fonction avec l’argument et retournent des types spécifiés.
+Excel appelle la [fonction xlAutoRegister](xlautoregister-xlautoregister12.md) chaque fois qu'un appel a été passé à la **** fonction XLM, ou à la [fonction xlfRegister](xlfregister-form-1.md)de l'API C, avec les types de retour et d'argument de la fonction inscrite manquants. Elle permet à la XLL d'effectuer des recherches dans ses listes internes de fonctions et de commandes exportées pour enregistrer la fonction avec l'argument et les types de retour spécifiés.
   
-À compter d’Excel 2007, Excel appelle la fonction **xlAutoRegister12** plutôt que la fonction **xlAutoRegister** , si elle est exportée par la ressource XLL. 
+À partir d'Excel 2007, Excel appelle la fonction **xlAutoRegister12** de préférence à la fonction **xlAutoRegister** si elle est exportée par le XLL. 
   
-Excel ne nécessite pas un ressource XLL à mettre en œuvre et exporter une de ces fonctions.
+Excel ne nécessite pas de XLL pour implémenter et exporter l'une ou l'autre de ces fonctions.
   
 > [!NOTE]
-> Si **xlAutoRegister**/ **xlAutoRegister12** tente d’inscrire la fonction sans fournir l’argument et types de retour, cet événement produit une boucle appelant récursive finalement de dépassement de la pile des appels et se bloque Excel. 
+> Si **xlAutoRegister**/ **xlAutoRegister12** tente d'inscrire la fonction sans fournir les types d'argument et de retour, une boucle d'appel récursive a lieu, ce qui finit par déborder la pile des appels et provoquer l'arrêt d'Excel. 
   
 ```cs
 LPXLOPER12 WINAPI xlAutoRegister12(LPXLOPER12 pxName);
@@ -40,25 +40,25 @@ LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 
  _pxName_ (**xltypeStr**)
   
-Le nom de la fonction XLL qui est enregistré.
+Nom de la fonction XLL en cours d'enregistrement.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-La fonction doit renvoyer le résultat de la tentative d’inscrire le de fonction XLL _pxName_ à l’aide de la fonction **xlfRegister** . Si la fonction spécifiée ne fait pas partie des exportations du XLL, elle doit retourner la **#VALUE !** erreur ou **NULL** qui Excel interprète à **#VALUE !**.
+La fonction doit renvoyer le résultat de la tentative d'enregistrement de la fonction XLL _pxName_ à l'aide de la fonction **xlfRegister** . Si la fonction spécifiée n'est pas l'une des exportations de la XLL, elle doit renvoyer le **#VALUE!** erreur ou **valeur null** qu'Excel interprète sur **#VALUE!**.
   
 ## <a name="remarks"></a>Remarques
 
-Votre implémentation de **xlAutoRegister** doit effectuer une recherche par le biais de listes internes de votre XLL des fonctions et des commandes qu'exporte vous recherchez une correspondance avec le nom passé pas la casse. Si la fonction ou la commande est trouvée, **xlAutoRegister** doit essayer de l’enregistrer à l’aide de la fonction **xlfRegister** , en veillant à fournir la chaîne qui indique les types de retour et l’argument de la fonction, ainsi que les autres requis à Excel informations sur la fonction. Il doit ensuite retourner vers Excel quelle que soit l’appel de **xlfRegister** renvoyé. Si la fonction a été enregistrée avec succès, **xlfRegister** renvoie une valeur de **xltypeNum** contenant l’ID de la fonction Enregistrer. 
+Votre implémentation de **xlAutoRegister** doit effectuer une recherche ne respectant pas la casse dans les listes internes de votre XLL des fonctions et des commandes qu'elle exporte en recherchant une correspondance avec le nom transmis. Si la fonction ou commande est trouvée, **xlAutoRegister** doit essayer de l'enregistrer, à l'aide de la fonction **xlfRegister** , en veillant à fournir la chaîne qui indique à Excel les types de retour et d'argument de la fonction, ainsi que les autres informations sur la fonction. Elle doit ensuite retourner à Excel tout en renvoyant l'appel à **xlfRegister** . Si la fonction a été enregistrée, **xlfRegister** renvoie une valeur **XLTYPENUM** contenant l'ID de la fonction. 
   
 ### <a name="example"></a>Exemple
 
-Consultez le fichier `SAMPLES\EXAMPLE\EXAMPLE.C` pour un exemple d’implémentation de cette fonction. 
+Pour obtenir un `SAMPLES\EXAMPLE\EXAMPLE.C` exemple d'implémentation de cette fonction, consultez le fichier. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[INSCRIRE](xlfregister-form-1.md)
+[CASIER](xlfregister-form-1.md)
   
-[ANNULER L’INSCRIPTION](xlfunregister-form-1.md)
+[ANNULER l'inscription](xlfunregister-form-1.md)
 

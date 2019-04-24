@@ -1,25 +1,25 @@
 ---
-title: If... Procédez comme suit... Bloc de Macro else (accès personnalisé web app)
+title: If... Then... Sinon, bloc de macros (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 18d28dc1-c41f-47c6-b5c7-258d5f877d01
-description: Vous pouvez utiliser If bloc de macro à exécuter de façon conditionnelle un groupe d’actions, selon la valeur d’une expression.
-ms.openlocfilehash: 8ac78ff0eaf22c1d821e306654ebfa8fac4ed34a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Vous pouvez utiliser le bloc de macro If pour exécuter de façon conditionnelle un groupe d'actions, selon la valeur d'une expression.
+ms.openlocfilehash: 6fe82e2c42f8e5d93cdc26798e7572e32d6cdc7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304262"
 ---
-# <a name="ifthenelse-macro-block-access-custom-web-app"></a>If... Procédez comme suit... Bloc de Macro else (accès personnalisé web app)
+# <a name="ifthenelse-macro-block-access-custom-web-app"></a>If... Then... Sinon, bloc de macros (application Web personnalisée Access)
 
 Vous pouvez utiliser le bloc de macro **If** pour exécuter de façon conditionnelle un groupe d'actions, selon la valeur d'une expression. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -33,15 +33,15 @@ Else
 End If
 ```
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-Pour les deux **Si** et ** Else If **, les arguments suivants sont requis. 
+For both **If** and ** Else If **, the following arguments are required. 
   
 |**Argument de l'action**|**Description**|
 |:-----|:-----|
-|**Expression** <br/> |La condition que vous souhaitez tester. Il doit être une expression qui prend la valeur True ou False.  <br/> |
+|**Expression** <br/> |Condition que vous souhaitez tester. Il doit s’agir d’une expression évaluée à True ou False.  <br/> |
    
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous sélectionnez le bloc de macro **If**, une zone de texte s'affiche afin de vous permettre d'entrer une expression qui représente la condition à tester. De plus, une zone de liste déroulante s'affiche, dans laquelle vous pouvez insérer une action de macro, sous laquelle le texte « End If » s'affiche automatiquement. If et End If entourent une zone dans laquelle vous pouvez entrer un groupe, ou bloc, d'actions. Le bloc s'exécute seulement si l'expression que vous entrez a la valeur True. 
   

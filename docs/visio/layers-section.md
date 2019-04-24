@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 89bcde81-4530-bd00-6e2e-fab7deec175b
 description: Indique tous les calques définis pour la page ainsi que les propriétés attribuées à chaque calque.
-ms.openlocfilehash: 36be01460351ae9934bc0c94910b252095fca1d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 058c8cbe2ee38a0ebc52935f7108d51ec4f2aef5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788925"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309470"
 ---
 # <a name="layers-section"></a>Layers, section
 
 Indique tous les calques définis pour la page ainsi que les propriétés attribuées à chaque calque. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Cette section est une propriété de page qui peut être affichée uniquement dans la fenêtre feuille ShapeSheet d’une page. Ses cellules correspondent aux options dans la boîte de dialogue **Propriétés des calques** (sous l’onglet **accueil** , dans le groupe **modification** , cliquez sur **calques**, puis cliquez sur **Propriétés des calques**).
+Cette section est une propriété de page qui peut être affichée uniquement dans la fenêtre Feuille ShapeSheet pour une page. Ses cellules correspondent aux options de la boîte de dialogue **Propriétés des calques** (sous l’onglet **Accueil**, dans le groupe **Modification**, cliquez sur **Calques**, puis cliquez sur **Propriétés des calques**).
   
 
