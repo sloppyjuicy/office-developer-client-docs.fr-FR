@@ -1,5 +1,5 @@
 ---
-title: RecordStatusEnum (référence de base de données du bureau Access)
+title: RecordStatusEnum (référence de base de données de bureau Access)
 TOCTitle: RecordStatusEnum
 ms:assetid: 302915b8-494d-0be2-6dce-eaf91a0ea8ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249080(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a83de7730224c5ecd5080c795d38cf2e9a3305a9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309379"
 ---
-# <a name="recordstatusenum"></a><span data-ttu-id="2b2d2-102">RecordStatusEnum</span><span class="sxs-lookup"><span data-stu-id="2b2d2-102">RecordStatusEnum</span></span>
+# <a name="recordstatusenum"></a><span data-ttu-id="046d1-102">RecordStatusEnum</span><span class="sxs-lookup"><span data-stu-id="046d1-102">RecordStatusEnum</span></span>
 
-<span data-ttu-id="2b2d2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b2d2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="046d1-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="046d1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2b2d2-104">Spécifie l'état d'un enregistrement en cas de mise à jour par lots et autres opérations globales de ce type.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-104">Specifies the status of a record with regard to batch updates and other bulk operations.</span></span>
+<span data-ttu-id="046d1-104">Spécifie l'état d'un enregistrement en cas de mise à jour par lots et autres opérations globales de ce type.</span><span class="sxs-lookup"><span data-stu-id="046d1-104">Specifies the status of a record with regard to batch updates and other bulk operations.</span></span>
 
 <br/>
 
@@ -30,111 +30,111 @@ ms.locfileid: "28722710"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2b2d2-105">Constante</span><span class="sxs-lookup"><span data-stu-id="2b2d2-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="2b2d2-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="2b2d2-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="2b2d2-107">Description</span><span class="sxs-lookup"><span data-stu-id="2b2d2-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="046d1-105">Constante</span><span class="sxs-lookup"><span data-stu-id="046d1-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="046d1-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="046d1-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="046d1-107">Description</span><span class="sxs-lookup"><span data-stu-id="046d1-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-108"><strong>adRecCanceled</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-108"><strong>adRecCanceled</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-109">0 x 100</span><span class="sxs-lookup"><span data-stu-id="2b2d2-109">0x100</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-110">Indique que l'enregistrement n'a pas été sauvegardé car l'opération a été annulée.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-110">Indicates that the record was not saved because the operation was canceled.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-108"><strong>adRecCanceled</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-108"><strong>adRecCanceled</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-109">0x100</span><span class="sxs-lookup"><span data-stu-id="046d1-109">0x100</span></span></p></td>
+<td><p><span data-ttu-id="046d1-110">Indique que l'enregistrement n'a pas été sauvegardé car l'opération a été annulée.</span><span class="sxs-lookup"><span data-stu-id="046d1-110">Indicates that the record was not saved because the operation was canceled.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-111"><strong>adRecCantRelease</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-111"><strong>adRecCantRelease</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-112">0 x 400</span><span class="sxs-lookup"><span data-stu-id="2b2d2-112">0x400</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-113">Indique que le nouvel enregistrement n'a pas été sauvegardé car l'enregistrement existant était verrouillé.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-113">Indicates that the new record was not saved because the existing record was locked.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-111"><strong>adRecCantRelease</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-111"><strong>adRecCantRelease</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-112">0x400</span><span class="sxs-lookup"><span data-stu-id="046d1-112">0x400</span></span></p></td>
+<td><p><span data-ttu-id="046d1-113">Indique que le nouvel enregistrement n'a pas été sauvegardé car l'enregistrement existant était verrouillé.</span><span class="sxs-lookup"><span data-stu-id="046d1-113">Indicates that the new record was not saved because the existing record was locked.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-114"><strong>adRecConcurrencyViolation</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-114"><strong>adRecConcurrencyViolation</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-115">0 x 800</span><span class="sxs-lookup"><span data-stu-id="2b2d2-115">0x800</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-116">Indique que l'enregistrement n'a pas été sauvegardé car une concurrence optimiste était en cours.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-116">Indicates that the record was not saved because optimistic concurrency was in use.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-114"><strong>adRecConcurrencyViolation</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-114"><strong>adRecConcurrencyViolation</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-115">0x800</span><span class="sxs-lookup"><span data-stu-id="046d1-115">0x800</span></span></p></td>
+<td><p><span data-ttu-id="046d1-116">Indique que l'enregistrement n'a pas été sauvegardé car une concurrence optimiste était en cours.</span><span class="sxs-lookup"><span data-stu-id="046d1-116">Indicates that the record was not saved because optimistic concurrency was in use.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-117"><strong>adRecDBDeleted</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-117"><strong>adRecDBDeleted</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-118">0 x 40000</span><span class="sxs-lookup"><span data-stu-id="2b2d2-118">0x40000</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-119">Indique que l'enregistrement a déjà été supprimé de la source de données.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-119">Indicates that the record has already been deleted from the data source.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-117"><strong>adRecDBDeleted</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-117"><strong>adRecDBDeleted</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-118">0x40000</span><span class="sxs-lookup"><span data-stu-id="046d1-118">0x40000</span></span></p></td>
+<td><p><span data-ttu-id="046d1-119">Indique que l'enregistrement a déjà été supprimé de la source de données.</span><span class="sxs-lookup"><span data-stu-id="046d1-119">Indicates that the record has already been deleted from the data source.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-120"><strong>adRecDeleted</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-120"><strong>adRecDeleted</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-121">0 x 4</span><span class="sxs-lookup"><span data-stu-id="2b2d2-121">0x4</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-122">Indique que l'enregistrement a été supprimé.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-122">Indicates that the record was deleted.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-120"><strong>adRecDeleted</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-120"><strong>adRecDeleted</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-121">0x4</span><span class="sxs-lookup"><span data-stu-id="046d1-121">0x4</span></span></p></td>
+<td><p><span data-ttu-id="046d1-122">Indique que l'enregistrement a été supprimé.</span><span class="sxs-lookup"><span data-stu-id="046d1-122">Indicates that the record was deleted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-123"><strong>adRecIntegrityViolation</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-123"><strong>adRecIntegrityViolation</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-124">0x1000</span><span class="sxs-lookup"><span data-stu-id="2b2d2-124">0x1000</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-125">Indique que l'enregistrement n'a pas été sauvegardé car l'utilisateur n'a pas respecté les contraintes d'intégrité.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-125">Indicates that the record was not saved because the user violated integrity constraints.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-123"><strong>adRecIntegrityViolation</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-123"><strong>adRecIntegrityViolation</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-124">0x1000</span><span class="sxs-lookup"><span data-stu-id="046d1-124">0x1000</span></span></p></td>
+<td><p><span data-ttu-id="046d1-125">Indique que l'enregistrement n'a pas été sauvegardé car l'utilisateur n'a pas respecté les contraintes d'intégrité.</span><span class="sxs-lookup"><span data-stu-id="046d1-125">Indicates that the record was not saved because the user violated integrity constraints.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-126"><strong>adRecInvalid</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-126"><strong>adRecInvalid</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-127">0 x 10</span><span class="sxs-lookup"><span data-stu-id="2b2d2-127">0x10</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-128">Indique que l'enregistrement n'a pas été sauvegardé car son signet n'est pas valide.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-128">Indicates that the record was not saved because its bookmark is invalid.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-126"><strong>adRecInvalid</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-126"><strong>adRecInvalid</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-127">0x10</span><span class="sxs-lookup"><span data-stu-id="046d1-127">0x10</span></span></p></td>
+<td><p><span data-ttu-id="046d1-128">Indique que l'enregistrement n'a pas été sauvegardé car son signet n'est pas valide.</span><span class="sxs-lookup"><span data-stu-id="046d1-128">Indicates that the record was not saved because its bookmark is invalid.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-129"><strong>adRecMaxChangesExceeded</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-129"><strong>adRecMaxChangesExceeded</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-130">0 x 2000</span><span class="sxs-lookup"><span data-stu-id="2b2d2-130">0x2000</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-131">Indique que l'enregistrement n'a pas été sauvegardé car il existait trop de modifications en attente.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-131">Indicates that the record was not saved because there were too many pending changes.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-129"><strong>adRecMaxChangesExceeded</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-129"><strong>adRecMaxChangesExceeded</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-130">0 x 2000</span><span class="sxs-lookup"><span data-stu-id="046d1-130">0x2000</span></span></p></td>
+<td><p><span data-ttu-id="046d1-131">Indique que l'enregistrement n'a pas été sauvegardé car il existait trop de modifications en attente.</span><span class="sxs-lookup"><span data-stu-id="046d1-131">Indicates that the record was not saved because there were too many pending changes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-132"><strong>adRecModified</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-132"><strong>adRecModified</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-133">0x2</span><span class="sxs-lookup"><span data-stu-id="2b2d2-133">0x2</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-134">Indique que l'enregistrement a été modifié.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-134">Indicates that the record was modified.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-132"><strong>adRecModified</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-132"><strong>adRecModified</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-133">0x2</span><span class="sxs-lookup"><span data-stu-id="046d1-133">0x2</span></span></p></td>
+<td><p><span data-ttu-id="046d1-134">Indique que l'enregistrement a été modifié.</span><span class="sxs-lookup"><span data-stu-id="046d1-134">Indicates that the record was modified.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-135"><strong>adRecMultipleChanges</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-135"><strong>adRecMultipleChanges</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-136">0 x 40</span><span class="sxs-lookup"><span data-stu-id="2b2d2-136">0x40</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-137">Indique que l'enregistrement n'a pas été sauvegardé car il aurait affecté plusieurs enregistrements.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-137">Indicates that the record was not saved because it would have affected multiple records.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-135"><strong>adRecMultipleChanges</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-135"><strong>adRecMultipleChanges</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-136">0x40</span><span class="sxs-lookup"><span data-stu-id="046d1-136">0x40</span></span></p></td>
+<td><p><span data-ttu-id="046d1-137">Indique que l'enregistrement n'a pas été sauvegardé car il aurait affecté plusieurs enregistrements.</span><span class="sxs-lookup"><span data-stu-id="046d1-137">Indicates that the record was not saved because it would have affected multiple records.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-138"><strong>adRecNew</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-138"><strong>adRecNew</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-139">0x1</span><span class="sxs-lookup"><span data-stu-id="2b2d2-139">0x1</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-140">Indique qu'il s'agit d'un nouvel enregistrement.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-140">Indicates that the record is new.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-138"><strong>adRecNew</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-138"><strong>adRecNew</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-139">0x1</span><span class="sxs-lookup"><span data-stu-id="046d1-139">0x1</span></span></p></td>
+<td><p><span data-ttu-id="046d1-140">Indique qu'il s'agit d'un nouvel enregistrement.</span><span class="sxs-lookup"><span data-stu-id="046d1-140">Indicates that the record is new.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-141"><strong>adRecObjectOpen</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-141"><strong>adRecObjectOpen</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-142">0x4000</span><span class="sxs-lookup"><span data-stu-id="2b2d2-142">0x4000</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-143">Indique que l'enregistrement n'a pas été sauvegardé en raison d'un conflit avec un objet de stockage ouvert.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-143">Indicates that the record was not saved because of a conflict with an open storage object.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-141"><strong>adRecObjectOpen</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-141"><strong>adRecObjectOpen</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-142">0x4000</span><span class="sxs-lookup"><span data-stu-id="046d1-142">0x4000</span></span></p></td>
+<td><p><span data-ttu-id="046d1-143">Indique que l'enregistrement n'a pas été sauvegardé en raison d'un conflit avec un objet de stockage ouvert.</span><span class="sxs-lookup"><span data-stu-id="046d1-143">Indicates that the record was not saved because of a conflict with an open storage object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-144"><strong>adRecOK</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-144"><strong>adRecOK</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-145">0</span><span class="sxs-lookup"><span data-stu-id="2b2d2-145">0</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-146">Indique que l'enregistrement a été mis à jour avec succès.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-146">Indicates that the record was successfully updated.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-144"><strong>adRecOK</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-144"><strong>adRecOK</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-145">0</span><span class="sxs-lookup"><span data-stu-id="046d1-145">0</span></span></p></td>
+<td><p><span data-ttu-id="046d1-146">Indique que l'enregistrement a été mis à jour avec succès.</span><span class="sxs-lookup"><span data-stu-id="046d1-146">Indicates that the record was successfully updated.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-147"><strong>adRecOutOfMemory</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-147"><strong>adRecOutOfMemory</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-148">0 x 8000</span><span class="sxs-lookup"><span data-stu-id="2b2d2-148">0x8000</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-149">Indique que l'enregistrement n'a pas été sauvegardé car l'ordinateur manque de mémoire.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-149">Indicates that the record was not saved because the computer has run out of memory.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-147"><strong>adRecOutOfMemory</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-147"><strong>adRecOutOfMemory</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-148">0x8000</span><span class="sxs-lookup"><span data-stu-id="046d1-148">0x8000</span></span></p></td>
+<td><p><span data-ttu-id="046d1-149">Indique que l'enregistrement n'a pas été sauvegardé car l'ordinateur manque de mémoire.</span><span class="sxs-lookup"><span data-stu-id="046d1-149">Indicates that the record was not saved because the computer has run out of memory.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-150"><strong>adRecPendingChanges</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-150"><strong>adRecPendingChanges</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-151">0 x 80</span><span class="sxs-lookup"><span data-stu-id="2b2d2-151">0x80</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-152">Indique que l'enregistrement n'a pas été sauvegardé car il fait référence à une insertion en attente.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-152">Indicates that the record was not saved because it refers to a pending insert.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-150"><strong>adRecPendingChanges</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-150"><strong>adRecPendingChanges</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-151">0x80</span><span class="sxs-lookup"><span data-stu-id="046d1-151">0x80</span></span></p></td>
+<td><p><span data-ttu-id="046d1-152">Indique que l'enregistrement n'a pas été sauvegardé car il fait référence à une insertion en attente.</span><span class="sxs-lookup"><span data-stu-id="046d1-152">Indicates that the record was not saved because it refers to a pending insert.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-153"><strong>adRecPermissionDenied</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-153"><strong>adRecPermissionDenied</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-154">0 x 10000</span><span class="sxs-lookup"><span data-stu-id="2b2d2-154">0x10000</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-155">Indique que l'enregistrement n'a pas été sauvegardé car l'utilisateur ne dispose pas des autorisations suffisantes.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-155">Indicates that the record was not saved because the user has insufficient permissions.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-153"><strong>adRecPermissionDenied</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-153"><strong>adRecPermissionDenied</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-154">0x10000</span><span class="sxs-lookup"><span data-stu-id="046d1-154">0x10000</span></span></p></td>
+<td><p><span data-ttu-id="046d1-155">Indique que l'enregistrement n'a pas été sauvegardé car l'utilisateur ne dispose pas des autorisations suffisantes.</span><span class="sxs-lookup"><span data-stu-id="046d1-155">Indicates that the record was not saved because the user has insufficient permissions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-156"><strong>adRecSchemaViolation</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-156"><strong>adRecSchemaViolation</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-157">0 x 20000</span><span class="sxs-lookup"><span data-stu-id="2b2d2-157">0x20000</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-158">Indique que l'enregistrement n'a pas été sauvegardé car il ne respecte pas la structure de la base de données sous-jacente.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-158">Indicates that the record was not saved because it violates the structure of the underlying database.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-156"><strong>adRecSchemaViolation</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-156"><strong>adRecSchemaViolation</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-157">0x20000</span><span class="sxs-lookup"><span data-stu-id="046d1-157">0x20000</span></span></p></td>
+<td><p><span data-ttu-id="046d1-158">Indique que l'enregistrement n'a pas été sauvegardé car il ne respecte pas la structure de la base de données sous-jacente.</span><span class="sxs-lookup"><span data-stu-id="046d1-158">Indicates that the record was not saved because it violates the structure of the underlying database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-159"><strong>adRecUnmodified</strong></span><span class="sxs-lookup"><span data-stu-id="2b2d2-159"><strong>adRecUnmodified</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-160">0 x 8</span><span class="sxs-lookup"><span data-stu-id="2b2d2-160">0x8</span></span></p></td>
-<td><p><span data-ttu-id="2b2d2-161">Indique que l'enregistrement n'a pas été modifié.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-161">Indicates that the record was not modified.</span></span></p></td>
+<td><p><span data-ttu-id="046d1-159"><strong>adRecUnmodified</strong></span><span class="sxs-lookup"><span data-stu-id="046d1-159"><strong>adRecUnmodified</strong></span></span></p></td>
+<td><p><span data-ttu-id="046d1-160">0x8</span><span class="sxs-lookup"><span data-stu-id="046d1-160">0x8</span></span></p></td>
+<td><p><span data-ttu-id="046d1-161">Indique que l'enregistrement n'a pas été modifié.</span><span class="sxs-lookup"><span data-stu-id="046d1-161">Indicates that the record was not modified.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="2b2d2-162">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="2b2d2-162">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="046d1-162">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="046d1-162">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="2b2d2-163">AdoEnums.RecordStatus.</span><span class="sxs-lookup"><span data-stu-id="2b2d2-163">AdoEnums.RecordStatus.</span></span>
+<span data-ttu-id="046d1-163">AdoEnums. RecordStatus.</span><span class="sxs-lookup"><span data-stu-id="046d1-163">AdoEnums.RecordStatus.</span></span>
 
-<span data-ttu-id="2b2d2-164">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="2b2d2-164">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="046d1-164">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="046d1-164">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -142,63 +142,63 @@ ms.locfileid: "28722710"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2b2d2-165">Constante</span><span class="sxs-lookup"><span data-stu-id="2b2d2-165">Constant</span></span></p></th>
+<th><p><span data-ttu-id="046d1-165">Constante</span><span class="sxs-lookup"><span data-stu-id="046d1-165">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-166">AdoEnums.RecordStatus.CANCELED</span><span class="sxs-lookup"><span data-stu-id="2b2d2-166">AdoEnums.RecordStatus.CANCELED</span></span></p></td>
+<td><p><span data-ttu-id="046d1-166">AdoEnums. RecordStatus. CANCELed</span><span class="sxs-lookup"><span data-stu-id="046d1-166">AdoEnums.RecordStatus.CANCELED</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-167">AdoEnums.RecordStatus.CANTRELEASE</span><span class="sxs-lookup"><span data-stu-id="2b2d2-167">AdoEnums.RecordStatus.CANTRELEASE</span></span></p></td>
+<td><p><span data-ttu-id="046d1-167">AdoEnums. RecordStatus. CANTRELEASE</span><span class="sxs-lookup"><span data-stu-id="046d1-167">AdoEnums.RecordStatus.CANTRELEASE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-168">AdoEnums.RecordStatus.CONCURRENCYVIOLATION</span><span class="sxs-lookup"><span data-stu-id="2b2d2-168">AdoEnums.RecordStatus.CONCURRENCYVIOLATION</span></span></p></td>
+<td><p><span data-ttu-id="046d1-168">AdoEnums. RecordStatus. CONCURRENCYVIOLATION</span><span class="sxs-lookup"><span data-stu-id="046d1-168">AdoEnums.RecordStatus.CONCURRENCYVIOLATION</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-169">AdoEnums.RecordStatus.DBDELETED</span><span class="sxs-lookup"><span data-stu-id="2b2d2-169">AdoEnums.RecordStatus.DBDELETED</span></span></p></td>
+<td><p><span data-ttu-id="046d1-169">AdoEnums. RecordStatus. DBDELETED</span><span class="sxs-lookup"><span data-stu-id="046d1-169">AdoEnums.RecordStatus.DBDELETED</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-170">AdoEnums.RecordStatus.DELETED</span><span class="sxs-lookup"><span data-stu-id="2b2d2-170">AdoEnums.RecordStatus.DELETED</span></span></p></td>
+<td><p><span data-ttu-id="046d1-170">AdoEnums. RecordStatus. DELETEd</span><span class="sxs-lookup"><span data-stu-id="046d1-170">AdoEnums.RecordStatus.DELETED</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-171">AdoEnums.RecordStatus.INTEGRITYVIOLATION</span><span class="sxs-lookup"><span data-stu-id="2b2d2-171">AdoEnums.RecordStatus.INTEGRITYVIOLATION</span></span></p></td>
+<td><p><span data-ttu-id="046d1-171">AdoEnums. RecordStatus. INTEGRITYVIOLATION</span><span class="sxs-lookup"><span data-stu-id="046d1-171">AdoEnums.RecordStatus.INTEGRITYVIOLATION</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-172">AdoEnums.RecordStatus.INVALID</span><span class="sxs-lookup"><span data-stu-id="2b2d2-172">AdoEnums.RecordStatus.INVALID</span></span></p></td>
+<td><p><span data-ttu-id="046d1-172">AdoEnums. RecordStatus. inVALID</span><span class="sxs-lookup"><span data-stu-id="046d1-172">AdoEnums.RecordStatus.INVALID</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-173">AdoEnums.RecordStatus.MAXCHANGESEXCEEDED</span><span class="sxs-lookup"><span data-stu-id="2b2d2-173">AdoEnums.RecordStatus.MAXCHANGESEXCEEDED</span></span></p></td>
+<td><p><span data-ttu-id="046d1-173">AdoEnums. RecordStatus. MAXCHANGESEXCEEDED</span><span class="sxs-lookup"><span data-stu-id="046d1-173">AdoEnums.RecordStatus.MAXCHANGESEXCEEDED</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-174">AdoEnums.RecordStatus.MODIFIED</span><span class="sxs-lookup"><span data-stu-id="2b2d2-174">AdoEnums.RecordStatus.MODIFIED</span></span></p></td>
+<td><p><span data-ttu-id="046d1-174">AdoEnums. RecordStatus. MODIFIEd</span><span class="sxs-lookup"><span data-stu-id="046d1-174">AdoEnums.RecordStatus.MODIFIED</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-175">AdoEnums.RecordStatus.MULTIPLECHANGES</span><span class="sxs-lookup"><span data-stu-id="2b2d2-175">AdoEnums.RecordStatus.MULTIPLECHANGES</span></span></p></td>
+<td><p><span data-ttu-id="046d1-175">AdoEnums. RecordStatus. MULTIPLECHANGES</span><span class="sxs-lookup"><span data-stu-id="046d1-175">AdoEnums.RecordStatus.MULTIPLECHANGES</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-176">AdoEnums.RecordStatus.NEW</span><span class="sxs-lookup"><span data-stu-id="2b2d2-176">AdoEnums.RecordStatus.NEW</span></span></p></td>
+<td><p><span data-ttu-id="046d1-176">AdoEnums. RecordStatus. NEW</span><span class="sxs-lookup"><span data-stu-id="046d1-176">AdoEnums.RecordStatus.NEW</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-177">AdoEnums.RecordStatus.OBJECTOPEN</span><span class="sxs-lookup"><span data-stu-id="2b2d2-177">AdoEnums.RecordStatus.OBJECTOPEN</span></span></p></td>
+<td><p><span data-ttu-id="046d1-177">AdoEnums. RecordStatus. OBJETOPEN,</span><span class="sxs-lookup"><span data-stu-id="046d1-177">AdoEnums.RecordStatus.OBJECTOPEN</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-178">AdoEnums.RecordStatus.OK</span><span class="sxs-lookup"><span data-stu-id="2b2d2-178">AdoEnums.RecordStatus.OK</span></span></p></td>
+<td><p><span data-ttu-id="046d1-178">AdoEnums. RecordStatus. OK</span><span class="sxs-lookup"><span data-stu-id="046d1-178">AdoEnums.RecordStatus.OK</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-179">AdoEnums.RecordStatus.OUTOFMEMORY</span><span class="sxs-lookup"><span data-stu-id="2b2d2-179">AdoEnums.RecordStatus.OUTOFMEMORY</span></span></p></td>
+<td><p><span data-ttu-id="046d1-179">AdoEnums. RecordStatus. OUTOFMEMORY</span><span class="sxs-lookup"><span data-stu-id="046d1-179">AdoEnums.RecordStatus.OUTOFMEMORY</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-180">AdoEnums.RecordStatus.PENDINGCHANGES</span><span class="sxs-lookup"><span data-stu-id="2b2d2-180">AdoEnums.RecordStatus.PENDINGCHANGES</span></span></p></td>
+<td><p><span data-ttu-id="046d1-180">AdoEnums. RecordStatus. PENDINGCHANGES</span><span class="sxs-lookup"><span data-stu-id="046d1-180">AdoEnums.RecordStatus.PENDINGCHANGES</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-181">AdoEnums.RecordStatus.PERMISSIONDENIED</span><span class="sxs-lookup"><span data-stu-id="2b2d2-181">AdoEnums.RecordStatus.PERMISSIONDENIED</span></span></p></td>
+<td><p><span data-ttu-id="046d1-181">AdoEnums. RecordStatus. PERMISSIONDENIED</span><span class="sxs-lookup"><span data-stu-id="046d1-181">AdoEnums.RecordStatus.PERMISSIONDENIED</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b2d2-182">AdoEnums.RecordStatus.SCHEMAVIOLATION</span><span class="sxs-lookup"><span data-stu-id="2b2d2-182">AdoEnums.RecordStatus.SCHEMAVIOLATION</span></span></p></td>
+<td><p><span data-ttu-id="046d1-182">AdoEnums. RecordStatus. SCHEMAVIOLATION</span><span class="sxs-lookup"><span data-stu-id="046d1-182">AdoEnums.RecordStatus.SCHEMAVIOLATION</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b2d2-183">AdoEnums.RecordStatus.UNMODIFIED</span><span class="sxs-lookup"><span data-stu-id="2b2d2-183">AdoEnums.RecordStatus.UNMODIFIED</span></span></p></td>
+<td><p><span data-ttu-id="046d1-183">AdoEnums. RecordStatus. unMODIFIEd</span><span class="sxs-lookup"><span data-stu-id="046d1-183">AdoEnums.RecordStatus.UNMODIFIED</span></span></p></td>
 </tr>
 </tbody>
 </table>

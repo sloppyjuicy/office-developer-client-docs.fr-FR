@@ -1,5 +1,5 @@
 ---
-title: Commandes hybrides (référence de base de données du bureau Access)
+title: Commandes hybrides (référence de base de données de bureau Access)
 TOCTitle: Hybrid commands
 ms:assetid: 55654274-0494-349f-820d-92108284449d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249286(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7fe3e6d0afbba82cacd5a55c630f1ca41f3e318a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291907"
 ---
-# <a name="hybrid-commands"></a><span data-ttu-id="ae752-102">Commandes hybrides</span><span class="sxs-lookup"><span data-stu-id="ae752-102">Hybrid commands</span></span>
+# <a name="hybrid-commands"></a><span data-ttu-id="df988-102">Commandes hybrides</span><span class="sxs-lookup"><span data-stu-id="df988-102">Hybrid commands</span></span>
 
 
-<span data-ttu-id="ae752-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae752-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="df988-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="df988-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ae752-p101">Les commandes hybrides sont des commandes partiellement paramétrées. Par exemple :</span><span class="sxs-lookup"><span data-stu-id="ae752-p101">Hybrid commands are partially parameterized commands. For example:</span></span>
+<span data-ttu-id="df988-p101">Les commandes hybrides sont des commandes partiellement paramétrées. Par exemple :</span><span class="sxs-lookup"><span data-stu-id="df988-p101">Hybrid commands are partially parameterized commands. For example:</span></span>
 
 ```vb 
  
@@ -29,5 +29,5 @@ SHAPE {select * from plants}
  PlantRegion TO CustomerRegion ) 
 ```
 
-<span data-ttu-id="ae752-106">Le comportement de mise en cache d'une commande hybride est identique à celui des commandes paramétrées standard.</span><span class="sxs-lookup"><span data-stu-id="ae752-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
+<span data-ttu-id="df988-106">Le comportement de mise en cache d'une commande hybride est identique à celui des commandes paramétrées standard.</span><span class="sxs-lookup"><span data-stu-id="df988-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
 

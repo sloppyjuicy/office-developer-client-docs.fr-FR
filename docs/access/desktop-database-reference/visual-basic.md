@@ -1,5 +1,5 @@
 ---
-title: Visual Basic (référence de base de données du bureau Access)
+title: Visual Basic (référence de base de données de bureau Access)
 TOCTitle: Visual Basic
 ms:assetid: 9d153b6c-c860-7350-cb3c-b9bd08f75ba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249714(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3045cf3861409d2909f31536670a27c282eb2cdc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312137"
 ---
-# <a name="visual-basic"></a><span data-ttu-id="4d4a6-102">Visual Basic</span><span class="sxs-lookup"><span data-stu-id="4d4a6-102">Visual Basic</span></span>
+# <a name="visual-basic"></a><span data-ttu-id="70482-102">Visual Basic</span><span class="sxs-lookup"><span data-stu-id="70482-102">Visual Basic</span></span>
 
 
-<span data-ttu-id="4d4a6-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d4a6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="70482-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="70482-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4d4a6-p101">Pour gérer les événements ADO dans Microsoft Visual Basic, vous devez déclarer une variable au niveau du module à l'aide du mot-clé **WithEvents**. La variable ne peut être déclarée qu'au sein d'un module de classe et doit être déclarée au niveau du module. Ce n'est toutefois pas aussi restrictif qu'il n'y paraît car les objets **Form** Visual Basic sont également des classes. La manière la plus simple de gérer les événements ADO est de déclarer une variable avec **WithEvents**. L'exemple suivant gère l'événement **ConnectComplete** pour un objet **Connection**:</span><span class="sxs-lookup"><span data-stu-id="4d4a6-p101">In order to handle ADO events in Microsoft Visual Basic, you must declare a module-level variable using the **WithEvents** keyword. The variable can be declared only as part of a class module and must be declared at the module level. This is not as restrictive as it seems, however, because Visual Basic **Form** objects are also classes. The simplest way to handle ADO events is to declare a variable using **WithEvents**. The following example handles the **ConnectComplete** event for a **Connection** object:</span></span>
+<span data-ttu-id="70482-p101">Pour gérer les événements ADO dans Microsoft Visual Basic, vous devez déclarer une variable au niveau du module à l'aide du mot-clé **WithEvents**. La variable ne peut être déclarée qu'au sein d'un module de classe et doit être déclarée au niveau du module. Ce n'est toutefois pas aussi restrictif qu'il n'y paraît car les objets **Form** Visual Basic sont également des classes. La manière la plus simple de gérer les événements ADO est de déclarer une variable avec **WithEvents**. L'exemple suivant gère l'événement **ConnectComplete** pour un objet **Connection**:</span><span class="sxs-lookup"><span data-stu-id="70482-p101">In order to handle ADO events in Microsoft Visual Basic, you must declare a module-level variable using the **WithEvents** keyword. The variable can be declared only as part of a class module and must be declared at the module level. This is not as restrictive as it seems, however, because Visual Basic **Form** objects are also classes. The simplest way to handle ADO events is to declare a variable using **WithEvents**. The following example handles the **ConnectComplete** event for a **Connection** object:</span></span>
 
 ```vb 
  
@@ -77,5 +77,5 @@ End Sub
 ' EndEventExampleVB02 
 ```
 
-<span data-ttu-id="4d4a6-109">L'objet **Connection** est déclaré au niveau **Form** avec le mot-clé **WithEvents** pour activer la gestion de l'événement.</span><span class="sxs-lookup"><span data-stu-id="4d4a6-109">The **Connection** object is declared at the **Form** level using the **WithEvents** keyword to enable event handling.</span></span> <span data-ttu-id="4d4a6-110">Le formulaire\_Gestionnaire d’événements Load crée l’objet en affectant un nouvel objet **Connection** à *connEvent* et ouvre la connexion.</span><span class="sxs-lookup"><span data-stu-id="4d4a6-110">The Form\_Load event handler actually creates the object by assigning a new **Connection** object to *connEvent* and then opens the connection.</span></span> <span data-ttu-id="4d4a6-111">Bien sûr, une application réelle serait effectuer un traitement plus sous la forme\_Gestionnaire d’événements Load qu’est indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="4d4a6-111">Of course, a real application would do more processing in the Form\_Load event handler than is shown here.</span></span>
+<span data-ttu-id="70482-109">L'objet **Connection** est déclaré au niveau **Form** avec le mot-clé **WithEvents** pour activer la gestion de l'événement.</span><span class="sxs-lookup"><span data-stu-id="70482-109">The **Connection** object is declared at the **Form** level using the **WithEvents** keyword to enable event handling.</span></span> <span data-ttu-id="70482-110">Le gestionnaire\_d'événements Form Load crée en fait l'objet en affectant un nouvel objet **Connection** à *connEvent* , puis il ouvre la connexion.</span><span class="sxs-lookup"><span data-stu-id="70482-110">The Form\_Load event handler actually creates the object by assigning a new **Connection** object to *connEvent* and then opens the connection.</span></span> <span data-ttu-id="70482-111">Bien entendu, une vraie application effectue un traitement plus long dans le\_gestionnaire d'événements Form Load que ce qui est indiqué ici.</span><span class="sxs-lookup"><span data-stu-id="70482-111">Of course, a real application would do more processing in the Form\_Load event handler than is shown here.</span></span>
 

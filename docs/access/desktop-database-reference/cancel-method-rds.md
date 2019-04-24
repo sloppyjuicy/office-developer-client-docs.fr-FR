@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 35322ec058d31f92288fd06a4e8434a4256c2d74
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296646"
 ---
-# <a name="cancel-method-rds"></a><span data-ttu-id="7ee26-102">Cancel, méthode (RDS)</span><span class="sxs-lookup"><span data-stu-id="7ee26-102">Cancel method (RDS)</span></span>
+# <a name="cancel-method-rds"></a><span data-ttu-id="84a26-102">Cancel, méthode (RDS)</span><span class="sxs-lookup"><span data-stu-id="84a26-102">Cancel method (RDS)</span></span>
 
 
-<span data-ttu-id="7ee26-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ee26-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="84a26-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="84a26-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7ee26-104">Annule l'exécution d'un appel de méthode asynchrone en attente.</span><span class="sxs-lookup"><span data-stu-id="7ee26-104">Cancels execution of a pending, asynchronous method call.</span></span>
+<span data-ttu-id="84a26-104">Annule l’exécution d’un appel de méthode asynchrone en attente.</span><span class="sxs-lookup"><span data-stu-id="84a26-104">Cancels execution of a pending, asynchronous method call.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7ee26-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7ee26-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="84a26-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="84a26-105">Syntax</span></span>
 
-<span data-ttu-id="7ee26-106">*RDS*.</span><span class="sxs-lookup"><span data-stu-id="7ee26-106">*RDS*.</span></span> <span data-ttu-id="7ee26-107">*DataControl*. Annuler</span><span class="sxs-lookup"><span data-stu-id="7ee26-107">*DataControl*.Cancel</span></span>
+<span data-ttu-id="84a26-106">*RDS*.</span><span class="sxs-lookup"><span data-stu-id="84a26-106">*RDS*.</span></span> <span data-ttu-id="84a26-107">*DataControl*. Annuler</span><span class="sxs-lookup"><span data-stu-id="84a26-107">*DataControl*.Cancel</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7ee26-108">Notes</span><span class="sxs-lookup"><span data-stu-id="7ee26-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="84a26-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="84a26-108">Remarks</span></span>
 
-<span data-ttu-id="7ee26-109">Lorsque vous appelez **Cancel**, [ReadyState](readystate-property-rds.md) prend automatiquement la valeur **adcReadyStateLoaded** et l'objet [Recordset](recordset-object-ado.md) sera vide.</span><span class="sxs-lookup"><span data-stu-id="7ee26-109">When you call **Cancel**, [ReadyState](readystate-property-rds.md) is automatically set to **adcReadyStateLoaded**, and the [Recordset](recordset-object-ado.md) will be empty.</span></span>
+<span data-ttu-id="84a26-109">Lorsque vous appelez **Cancel**, [ReadyState](readystate-property-rds.md) prend automatiquement la valeur **adcReadyStateLoaded** et l’objet [Recordset](recordset-object-ado.md) sera vide.</span><span class="sxs-lookup"><span data-stu-id="84a26-109">When you call **Cancel**, [ReadyState](readystate-property-rds.md) is automatically set to **adcReadyStateLoaded**, and the [Recordset](recordset-object-ado.md) will be empty.</span></span>
 

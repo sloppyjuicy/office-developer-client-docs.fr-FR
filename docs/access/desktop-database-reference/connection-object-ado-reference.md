@@ -1,5 +1,5 @@
 ---
-title: Référence de connexion, objet (ADO)
+title: Référence d'objet Connection (ADO)
 TOCTitle: Connection object (ADO)
 ms:assetid: 817875e9-0970-4d26-8c35-6c6257279bd0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249556(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9024d2e226b4b30e2dce3b12e41f87b84127361c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295897"
 ---
-# <a name="connection-object-ado-reference"></a><span data-ttu-id="0aad5-102">Référence de connexion, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="0aad5-102">Connection object (ADO) reference</span></span>
+# <a name="connection-object-ado-reference"></a><span data-ttu-id="d4bc8-102">Référence d'objet Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="d4bc8-102">Connection object (ADO) reference</span></span>
 
-<span data-ttu-id="0aad5-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0aad5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d4bc8-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4bc8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="0aad5-104">Connection, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="0aad5-104">Connection object (ADO)</span></span>](connection-object-ado.md)
-- [<span data-ttu-id="0aad5-105">Propriétés de connexion, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="0aad5-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="d4bc8-104">Connection, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="d4bc8-104">Connection object (ADO)</span></span>](connection-object-ado.md)
+- [<span data-ttu-id="d4bc8-105">Propriétés, méthodes et événements de connexion (ADO)</span><span class="sxs-lookup"><span data-stu-id="d4bc8-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Référence de l’enregistrement, objet (ADO)
+title: Référence d'objet Record (ADO)
 TOCTitle: Record object (ADO)
 ms:assetid: 19cdd7b8-1dde-40f6-b971-b30cf0bfbf4e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248943(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 98e62229cdd0422e03ce83e0f6c7968d4ece7cf3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300720"
 ---
-# <a name="record-object-ado-reference"></a><span data-ttu-id="ba8cf-102">Référence de l’enregistrement, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="ba8cf-102">Record object (ADO) reference</span></span>
+# <a name="record-object-ado-reference"></a><span data-ttu-id="7b85e-102">Référence d'objet Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="7b85e-102">Record object (ADO) reference</span></span>
 
-<span data-ttu-id="ba8cf-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ba8cf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7b85e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7b85e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ba8cf-104">Record, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="ba8cf-104">Record object (ADO)</span></span>](record-object-ado.md)
-- [<span data-ttu-id="ba8cf-105">Propriétés de l’enregistrement, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="ba8cf-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="7b85e-104">Record, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="7b85e-104">Record object (ADO)</span></span>](record-object-ado.md)
+- [<span data-ttu-id="7b85e-105">Propriétés, méthodes et événements d'enregistrement (ADO)</span><span class="sxs-lookup"><span data-stu-id="7b85e-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
 

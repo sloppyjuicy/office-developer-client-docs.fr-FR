@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 26f41181f1233931f24ff091b3009dfa7a5d6ff3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306410"
 ---
-# <a name="source-property-ado-recordset"></a><span data-ttu-id="b6700-102">Source, propriété (objet Recordset ADO)</span><span class="sxs-lookup"><span data-stu-id="b6700-102">Source property (ADO Recordset)</span></span>
+# <a name="source-property-ado-recordset"></a><span data-ttu-id="123b9-102">Source, propriété (objet Recordset ADO)</span><span class="sxs-lookup"><span data-stu-id="123b9-102">Source property (ADO Recordset)</span></span>
 
 
-<span data-ttu-id="b6700-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b6700-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="123b9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="123b9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b6700-104">Indique la source de données d'un objet [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="b6700-104">Indicates the data source for a [Recordset](recordset-object-ado.md) object.</span></span>
+<span data-ttu-id="123b9-104">Indique la source de données d'un objet [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="123b9-104">Indicates the data source for a [Recordset](recordset-object-ado.md) object.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="b6700-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="b6700-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="123b9-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="123b9-105">Settings and return values</span></span>
 
-<span data-ttu-id="b6700-106">Définit une valeur **String** ou une référence à un objet [Command](command-object-ado.md) ; renvoie uniquement une valeur **String** qui indique la source du **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="b6700-106">Sets a **String** value or [Command](command-object-ado.md) object reference; returns only a **String** value that indicates the source of the **Recordset**.</span></span>
+<span data-ttu-id="123b9-106">Définit une valeur **String** ou une référence à un objet [Command](command-object-ado.md) ; renvoie uniquement une valeur **String** qui indique la source du **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="123b9-106">Sets a **String** value or [Command](command-object-ado.md) object reference; returns only a **String** value that indicates the source of the **Recordset**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b6700-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="b6700-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="123b9-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="123b9-107">Remarks</span></span>
 
-<span data-ttu-id="b6700-108">Utilisez la propriété **Source** pour spécifier la source de données d'un objet **Recordset** en utilisant l'une des options suivantes : une variable d'objet **Command**, une instruction SQL, une procédure stockée ou le nom d'une table.</span><span class="sxs-lookup"><span data-stu-id="b6700-108">Use the **Source** property to specify a data source for a **Recordset** object using one of the following: a **Command** object variable, an SQL statement, a stored procedure, or a table name.</span></span>
+<span data-ttu-id="123b9-108">Utilisez la propriété **Source** pour spécifier la source de données d'un objet **Recordset** en utilisant l'une des options suivantes : une variable d'objet **Command**, une instruction SQL, une procédure stockée ou le nom d'une table.</span><span class="sxs-lookup"><span data-stu-id="123b9-108">Use the **Source** property to specify a data source for a **Recordset** object using one of the following: a **Command** object variable, an SQL statement, a stored procedure, or a table name.</span></span>
 
-<span data-ttu-id="b6700-p101">Si vous définissez que la propriété **Source** est un objet **Command**, la propriété [ActiveConnection](activeconnection-property-ado.md) de l'objet **Recordset** hérite sa valeur de la propriété **ActiveConnection** de l'objet **Command** spécifié. Toutefois, la lecture de la propriété **Source** ne renvoie pas un objet **Command**, mais la propriété [CommandText](commandtext-property-ado.md) de l'objet **Command** pour lequel vous avez défini la propriété **Source**.</span><span class="sxs-lookup"><span data-stu-id="b6700-p101">If you set the **Source** property to a **Command** object, the [ActiveConnection](activeconnection-property-ado.md) property of the **Recordset** object will inherit the value of the **ActiveConnection** property for the specified **Command** object. However, reading the **Source** property does not return a **Command** object; instead, it returns the [CommandText](commandtext-property-ado.md) property of the **Command** object to which you set the **Source** property.</span></span>
+<span data-ttu-id="123b9-p101">Si vous définissez que la propriété **Source** est un objet **Command**, la propriété [ActiveConnection](activeconnection-property-ado.md) de l'objet **Recordset** hérite sa valeur de la propriété **ActiveConnection** de l'objet **Command** spécifié. Toutefois, la lecture de la propriété **Source** ne renvoie pas un objet **Command**, mais la propriété [CommandText](commandtext-property-ado.md) de l'objet **Command** pour lequel vous avez défini la propriété **Source**.</span><span class="sxs-lookup"><span data-stu-id="123b9-p101">If you set the **Source** property to a **Command** object, the [ActiveConnection](activeconnection-property-ado.md) property of the **Recordset** object will inherit the value of the **ActiveConnection** property for the specified **Command** object. However, reading the **Source** property does not return a **Command** object; instead, it returns the [CommandText](commandtext-property-ado.md) property of the **Command** object to which you set the **Source** property.</span></span>
 
-<span data-ttu-id="b6700-111">Si la propriété **Source** est une instruction SQL, une procédure stockée ou un nom de table, vous pouvez optimiser les performances en passant l’argument *Options* approprié avec l’appel de la méthode [Open](open-method-ado-recordset.md) .</span><span class="sxs-lookup"><span data-stu-id="b6700-111">If the **Source** property is an SQL statement, a stored procedure, or a table name, you can optimize performance by passing the appropriate *Options* argument with the [Open](open-method-ado-recordset.md) method call.</span></span>
+<span data-ttu-id="123b9-111">Si la propriété **Source** est une instruction SQL, une procédure stockée ou un nom de table, vous pouvez optimiser les performances en passant l’argument *Options* approprié avec l’appel de méthode [Open](open-method-ado-recordset.md).</span><span class="sxs-lookup"><span data-stu-id="123b9-111">If the **Source** property is an SQL statement, a stored procedure, or a table name, you can optimize performance by passing the appropriate *Options* argument with the [Open](open-method-ado-recordset.md) method call.</span></span>
 
-<span data-ttu-id="b6700-112">La propriété **Source** est en lecture/écriture pour les objets **Recordset** fermés et lecture seule pour les objets **Recordset** ouverts.</span><span class="sxs-lookup"><span data-stu-id="b6700-112">The **Source** property is read/write for closed **Recordset** objects and read-only for open **Recordset** objects.</span></span>
+<span data-ttu-id="123b9-112">La propriété **Source** est en lecture/écriture pour les objets **Recordset** fermés et lecture seule pour les objets **Recordset** ouverts.</span><span class="sxs-lookup"><span data-stu-id="123b9-112">The **Source** property is read/write for closed **Recordset** objects and read-only for open **Recordset** objects.</span></span>
 

@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fd09eb22d9f751ab1140db948356d2b168b30afb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308616"
 ---
-# <a name="sortdirection-property-rds"></a><span data-ttu-id="fdd3b-102">SortDirection, propriété (RDS)</span><span class="sxs-lookup"><span data-stu-id="fdd3b-102">SortDirection property (RDS)</span></span>
+# <a name="sortdirection-property-rds"></a><span data-ttu-id="21a65-102">SortDirection, propriété (RDS)</span><span class="sxs-lookup"><span data-stu-id="21a65-102">SortDirection property (RDS)</span></span>
 
-<span data-ttu-id="fdd3b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fdd3b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="21a65-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="21a65-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fdd3b-104">Indique si l'ordre de tri est croissant ou décroissant.</span><span class="sxs-lookup"><span data-stu-id="fdd3b-104">Indicates whether a sort order is ascending or descending.</span></span>
+<span data-ttu-id="21a65-104">Indique si l'ordre de tri est croissant ou décroissant.</span><span class="sxs-lookup"><span data-stu-id="21a65-104">Indicates whether a sort order is ascending or descending.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fdd3b-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="fdd3b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="21a65-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="21a65-105">Syntax</span></span>
 
-<span data-ttu-id="fdd3b-106">*DataControl*. SortDirection = *valeur*</span><span class="sxs-lookup"><span data-stu-id="fdd3b-106">*DataControl*.SortDirection = *value*</span></span>
+<span data-ttu-id="21a65-106">*DataControl*. SortDirection = *valeur*</span><span class="sxs-lookup"><span data-stu-id="21a65-106">*DataControl*.SortDirection = *value*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="fdd3b-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="fdd3b-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="21a65-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="21a65-107">Parameters</span></span>
 
-|<span data-ttu-id="fdd3b-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="fdd3b-108">Parameter</span></span>|<span data-ttu-id="fdd3b-109">Description</span><span class="sxs-lookup"><span data-stu-id="fdd3b-109">Description</span></span>|
+|<span data-ttu-id="21a65-108">Parameter</span><span class="sxs-lookup"><span data-stu-id="21a65-108">Parameter</span></span>|<span data-ttu-id="21a65-109">Description</span><span class="sxs-lookup"><span data-stu-id="21a65-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="fdd3b-110">*DataControl*</span><span class="sxs-lookup"><span data-stu-id="fdd3b-110">*DataControl*</span></span> |<span data-ttu-id="fdd3b-111">Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).</span><span class="sxs-lookup"><span data-stu-id="fdd3b-111">An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>|
-|<span data-ttu-id="fdd3b-112">*Value*</span><span class="sxs-lookup"><span data-stu-id="fdd3b-112">*Value*</span></span> |<span data-ttu-id="fdd3b-p101">Une valeur **booléenne** qui, lorsqu'elle est égale à **True**, indique que l'ordre de tri est croissant. **False** indique un ordre décroissant.</span><span class="sxs-lookup"><span data-stu-id="fdd3b-p101">A **Boolean** value that, when set to **True**, indicates the sort direction is ascending. **False** indicates descending order.</span></span>|
+|<span data-ttu-id="21a65-110">*DataControl*</span><span class="sxs-lookup"><span data-stu-id="21a65-110">*DataControl*</span></span> |<span data-ttu-id="21a65-111">Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).</span><span class="sxs-lookup"><span data-stu-id="21a65-111">An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>|
+|<span data-ttu-id="21a65-112">*Value*</span><span class="sxs-lookup"><span data-stu-id="21a65-112">*Value*</span></span> |<span data-ttu-id="21a65-p101">Une valeur **booléenne** qui, lorsqu'elle est égale à **True**, indique que l'ordre de tri est croissant. **False** indique un ordre décroissant.</span><span class="sxs-lookup"><span data-stu-id="21a65-p101">A **Boolean** value that, when set to **True**, indicates the sort direction is ascending. **False** indicates descending order.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="fdd3b-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="fdd3b-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="21a65-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="21a65-115">Remarks</span></span>
 
-<span data-ttu-id="fdd3b-p102">Les propriétés [SortColumn](sortcolumn-property-rds.md), **SortDirection**, [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md) et [FilterColumn](filtercolumn-property-rds.md) fournissent les fonctionnalités de tri et filtrage sur le cache côté client. La fonctionnalité de tri organise les enregistrements par valeur dans une colonne. La fonctionnalité de filtrage affiche un sous-ensemble d'enregistrements basés sur des critères de recherche tandis que le [Recordset](recordset-object-ado.md) complet est conservé dans le cache. La méthode **Reset** exécute les critères et remplace le **Recordset** actuel par un **Recordset** actualisable.</span><span class="sxs-lookup"><span data-stu-id="fdd3b-p102">The [SortColumn](sortcolumn-property-rds.md), **SortDirection**, [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md), and [FilterColumn](filtercolumn-property-rds.md) properties provide sorting and filtering functionality on the client-side cache. The sorting functionality orders records by values from one column. The filtering functionality displays a subset of records based on find criteria, while the full [Recordset](recordset-object-ado.md) is maintained in the cache. The **Reset** method will execute the criteria and replace the current **Recordset** with an updatable **Recordset**.</span></span>
+<span data-ttu-id="21a65-p102">Les propriétés [SortColumn](sortcolumn-property-rds.md), **SortDirection**, [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md) et [FilterColumn](filtercolumn-property-rds.md) fournissent les fonctionnalités de tri et filtrage sur le cache côté client. La fonctionnalité de tri organise les enregistrements par valeur dans une colonne. La fonctionnalité de filtrage affiche un sous-ensemble d’enregistrements basés sur des critères de recherche tandis que le [Recordset](recordset-object-ado.md) complet est conservé dans le cache. La méthode **Reset** exécute les critères et remplace le **Recordset** actuel par un **Recordset** actualisable.</span><span class="sxs-lookup"><span data-stu-id="21a65-p102">The [SortColumn](sortcolumn-property-rds.md), **SortDirection**, [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md), and [FilterColumn](filtercolumn-property-rds.md) properties provide sorting and filtering functionality on the client-side cache. The sorting functionality orders records by values from one column. The filtering functionality displays a subset of records based on find criteria, while the full [Recordset](recordset-object-ado.md) is maintained in the cache. The **Reset** method will execute the criteria and replace the current **Recordset** with an updatable **Recordset**.</span></span>
 

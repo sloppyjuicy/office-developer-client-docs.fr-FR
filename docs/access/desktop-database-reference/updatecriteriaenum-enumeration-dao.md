@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e27eb1bdfb9b393df76af8bdf54bc7f05fd82c2e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306369"
 ---
-# <a name="updatecriteriaenum-enumeration-dao"></a><span data-ttu-id="8918b-102">UpdateCriteriaEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="8918b-102">UpdateCriteriaEnum enumeration (DAO)</span></span>
+# <a name="updatecriteriaenum-enumeration-dao"></a><span data-ttu-id="4b72f-102">UpdateCriteriaEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="4b72f-102">UpdateCriteriaEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="8918b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8918b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4b72f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4b72f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8918b-104">Cette énumération est utilisée avec la méthode **UpdateOptions** pour spécifier la construction d'une mise à jour par lot.</span><span class="sxs-lookup"><span data-stu-id="8918b-104">Used with the **UpdateOptions** method to specify how a batch update is constructed.</span></span>
+<span data-ttu-id="4b72f-104">Cette énumération est utilisée avec la méthode **UpdateOptions** pour spécifier la construction d'une mise à jour par lot.</span><span class="sxs-lookup"><span data-stu-id="4b72f-104">Used with the **UpdateOptions** method to specify how a batch update is constructed.</span></span>
 
 <table>
 <colgroup>
@@ -29,41 +29,41 @@ ms.locfileid: "28725958"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8918b-105">Nom</span><span class="sxs-lookup"><span data-stu-id="8918b-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="8918b-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="8918b-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="8918b-107">Description</span><span class="sxs-lookup"><span data-stu-id="8918b-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="4b72f-105">Nom</span><span class="sxs-lookup"><span data-stu-id="4b72f-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="4b72f-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="4b72f-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="4b72f-107">Description</span><span class="sxs-lookup"><span data-stu-id="4b72f-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8918b-108">dbCriteriaAllCols</span><span class="sxs-lookup"><span data-stu-id="8918b-108">dbCriteriaAllCols</span></span></p></td>
-<td><p><span data-ttu-id="8918b-109">4</span><span class="sxs-lookup"><span data-stu-id="8918b-109">4</span></span></p></td>
-<td><p><span data-ttu-id="8918b-110">Utilise les colonnes clé et toutes les colonnes dans la clause WHERE.</span><span class="sxs-lookup"><span data-stu-id="8918b-110">Uses the key column(s) and all the columns in the where clause.</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-108">dbCriteriaAllCols</span><span class="sxs-lookup"><span data-stu-id="4b72f-108">dbCriteriaAllCols</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-109">4</span><span class="sxs-lookup"><span data-stu-id="4b72f-109">4</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-110">Utilise les colonnes clé et toutes les colonnes dans la clause WHERE.</span><span class="sxs-lookup"><span data-stu-id="4b72f-110">Uses the key column(s) and all the columns in the where clause.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8918b-111">dbCriteriaDeleteInsert</span><span class="sxs-lookup"><span data-stu-id="8918b-111">dbCriteriaDeleteInsert</span></span></p></td>
-<td><p><span data-ttu-id="8918b-112">16</span><span class="sxs-lookup"><span data-stu-id="8918b-112">16</span></span></p></td>
-<td><p><span data-ttu-id="8918b-113">Utilise une instruction DELETE et une instruction INSERT pour chaque ligne modifiée.</span><span class="sxs-lookup"><span data-stu-id="8918b-113">Uses a pair of DELETE and INSERT statements for each modified row.</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-111">dbCriteriaDeleteInsert</span><span class="sxs-lookup"><span data-stu-id="4b72f-111">dbCriteriaDeleteInsert</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-112">Seiz</span><span class="sxs-lookup"><span data-stu-id="4b72f-112">16</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-113">Utilise une instruction DELETE et une instruction INSERT pour chaque ligne modifiée.</span><span class="sxs-lookup"><span data-stu-id="4b72f-113">Uses a pair of DELETE and INSERT statements for each modified row.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8918b-114">dbCriteriaKey</span><span class="sxs-lookup"><span data-stu-id="8918b-114">dbCriteriaKey</span></span></p></td>
-<td><p><span data-ttu-id="8918b-115">1</span><span class="sxs-lookup"><span data-stu-id="8918b-115">1</span></span></p></td>
-<td><p><span data-ttu-id="8918b-116">Utilise les colonnes clé dans la clause WHERE.</span><span class="sxs-lookup"><span data-stu-id="8918b-116">Uses just the key column(s) in the where clause.</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-114">dbCriteriaKey</span><span class="sxs-lookup"><span data-stu-id="4b72f-114">dbCriteriaKey</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-115">0,1</span><span class="sxs-lookup"><span data-stu-id="4b72f-115">1</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-116">Utilise les colonnes clé dans la clause WHERE.</span><span class="sxs-lookup"><span data-stu-id="4b72f-116">Uses just the key column(s) in the where clause.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8918b-117">dbCriteriaModValues</span><span class="sxs-lookup"><span data-stu-id="8918b-117">dbCriteriaModValues</span></span></p></td>
-<td><p><span data-ttu-id="8918b-118">2</span><span class="sxs-lookup"><span data-stu-id="8918b-118">2</span></span></p></td>
-<td><p><span data-ttu-id="8918b-119">Utilise les colonnes clé et toutes les colonnes mises à jour dans la clause WHERE.</span><span class="sxs-lookup"><span data-stu-id="8918b-119">Uses the key column(s) and all updated columns in the where clause.</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-117">dbCriteriaModValues</span><span class="sxs-lookup"><span data-stu-id="4b72f-117">dbCriteriaModValues</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-118">n°2</span><span class="sxs-lookup"><span data-stu-id="4b72f-118">2</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-119">Utilise les colonnes clé et toutes les colonnes mises à jour dans la clause WHERE.</span><span class="sxs-lookup"><span data-stu-id="4b72f-119">Uses the key column(s) and all updated columns in the where clause.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8918b-120">dbCriteriaTimestamp</span><span class="sxs-lookup"><span data-stu-id="8918b-120">dbCriteriaTimestamp</span></span></p></td>
-<td><p><span data-ttu-id="8918b-121">8</span><span class="sxs-lookup"><span data-stu-id="8918b-121">8</span></span></p></td>
-<td><p><span data-ttu-id="8918b-122">Utilise la colonne horodateur si elle est disponible (génère une erreur d'exécution si aucune colonne horodateur ne se trouve dans le jeu de résultats).</span><span class="sxs-lookup"><span data-stu-id="8918b-122">Uses just the timestamp column if available (will generate a run-time error if no timestamp column is in the result set).</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-120">dbCriteriaTimestamp</span><span class="sxs-lookup"><span data-stu-id="4b72f-120">dbCriteriaTimestamp</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-121">8bits</span><span class="sxs-lookup"><span data-stu-id="4b72f-121">8</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-122">Utilise la colonne horodateur si elle est disponible (génère une erreur d'exécution si aucune colonne horodateur ne se trouve dans le jeu de résultats).</span><span class="sxs-lookup"><span data-stu-id="4b72f-122">Uses just the timestamp column if available (will generate a run-time error if no timestamp column is in the result set).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8918b-123">dbCriteriaUpdate</span><span class="sxs-lookup"><span data-stu-id="8918b-123">dbCriteriaUpdate</span></span></p></td>
-<td><p><span data-ttu-id="8918b-124">32</span><span class="sxs-lookup"><span data-stu-id="8918b-124">32</span></span></p></td>
-<td><p><span data-ttu-id="8918b-125">Utilise une instruction UPDATE pour chaque ligne modifiée.</span><span class="sxs-lookup"><span data-stu-id="8918b-125">Uses an UPDATE statement for each modified row.</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-123">dbCriteriaUpdate</span><span class="sxs-lookup"><span data-stu-id="4b72f-123">dbCriteriaUpdate</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-124">32</span><span class="sxs-lookup"><span data-stu-id="4b72f-124">32</span></span></p></td>
+<td><p><span data-ttu-id="4b72f-125">Utilise une instruction UPDATE pour chaque ligne modifiée.</span><span class="sxs-lookup"><span data-stu-id="4b72f-125">Uses an UPDATE statement for each modified row.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2764b21955670e0bc2f4962b683fac980556e366
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306691"
 ---
-# <a name="replicatypeenum-enumeration-dao"></a><span data-ttu-id="a016b-102">ReplicaTypeEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="a016b-102">ReplicaTypeEnum enumeration (DAO)</span></span>
+# <a name="replicatypeenum-enumeration-dao"></a><span data-ttu-id="42531-102">ReplicaTypeEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="42531-102">ReplicaTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="a016b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a016b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="42531-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="42531-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a016b-104">Cette énumération est utilisée avec la méthode **MakeReplica** pour spécifier le type de réplica à créer.</span><span class="sxs-lookup"><span data-stu-id="a016b-104">Used with the **MakeReplica** method to specify the type of replica to create.</span></span>
+<span data-ttu-id="42531-104">Cette énumération est utilisée avec la méthode **MakeReplica** pour spécifier le type de réplica à créer.</span><span class="sxs-lookup"><span data-stu-id="42531-104">Used with the **MakeReplica** method to specify the type of replica to create.</span></span>
 
 <table>
 <colgroup>
@@ -29,21 +29,21 @@ ms.locfileid: "28715900"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a016b-105">Nom</span><span class="sxs-lookup"><span data-stu-id="a016b-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="a016b-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="a016b-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="a016b-107">Description</span><span class="sxs-lookup"><span data-stu-id="a016b-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="42531-105">Nom</span><span class="sxs-lookup"><span data-stu-id="42531-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="42531-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="42531-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="42531-107">Description</span><span class="sxs-lookup"><span data-stu-id="42531-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a016b-108">dbRepMakePartial</span><span class="sxs-lookup"><span data-stu-id="a016b-108">dbRepMakePartial</span></span></p></td>
-<td><p><span data-ttu-id="a016b-109">1</span><span class="sxs-lookup"><span data-stu-id="a016b-109">1</span></span></p></td>
-<td><p><span data-ttu-id="a016b-110">Crée un réplica partiel.</span><span class="sxs-lookup"><span data-stu-id="a016b-110">Creates a partial replica.</span></span></p></td>
+<td><p><span data-ttu-id="42531-108">dbRepMakePartial</span><span class="sxs-lookup"><span data-stu-id="42531-108">dbRepMakePartial</span></span></p></td>
+<td><p><span data-ttu-id="42531-109">0,1</span><span class="sxs-lookup"><span data-stu-id="42531-109">1</span></span></p></td>
+<td><p><span data-ttu-id="42531-110">Crée un réplica partiel.</span><span class="sxs-lookup"><span data-stu-id="42531-110">Creates a partial replica.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a016b-111">dbRepMakeReadOnly</span><span class="sxs-lookup"><span data-stu-id="a016b-111">dbRepMakeReadOnly</span></span></p></td>
-<td><p><span data-ttu-id="a016b-112">2</span><span class="sxs-lookup"><span data-stu-id="a016b-112">2</span></span></p></td>
-<td><p><span data-ttu-id="a016b-113">Affecte l'attribut de lecture seule aux éléments réplicables de la nouvelle base de données.</span><span class="sxs-lookup"><span data-stu-id="a016b-113">Makes replicable elements of new database read-only.</span></span></p></td>
+<td><p><span data-ttu-id="42531-111">dbRepMakeReadOnly</span><span class="sxs-lookup"><span data-stu-id="42531-111">dbRepMakeReadOnly</span></span></p></td>
+<td><p><span data-ttu-id="42531-112">n°2</span><span class="sxs-lookup"><span data-stu-id="42531-112">2</span></span></p></td>
+<td><p><span data-ttu-id="42531-113">Affecte l'attribut de lecture seule aux éléments réplicables de la nouvelle base de données.</span><span class="sxs-lookup"><span data-stu-id="42531-113">Makes replicable elements of new database read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

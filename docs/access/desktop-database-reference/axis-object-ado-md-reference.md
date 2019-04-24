@@ -1,5 +1,5 @@
 ---
-title: Axis, objet (référence ADO MD)
+title: AXIS, objet (référence ADO MD)
 TOCTitle: Axis object (ADO MD)
 ms:assetid: 4ba92ac6-fa67-4eea-8231-3fc5168f342c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249239(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f0ef026bdb4f15e78286599705f741c194741194
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296891"
 ---
-# <a name="axis-object-ado-md-reference"></a><span data-ttu-id="428a5-102">Axis, objet (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="428a5-102">Axis object (ADO MD reference)</span></span>
+# <a name="axis-object-ado-md-reference"></a><span data-ttu-id="ec43b-102">AXIS, objet (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ec43b-102">Axis object (ADO MD reference)</span></span>
 
-<span data-ttu-id="428a5-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="428a5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ec43b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec43b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="428a5-104">Axis, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="428a5-104">Axis object (ADO MD)</span></span>](axis-object-ado-md.md)
-- [<span data-ttu-id="428a5-105">Propriétés de l’axe, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="428a5-105">Axis properties, methods, and events (ADO MD)</span></span>](axis-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="ec43b-104">AXIS, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ec43b-104">Axis object (ADO MD)</span></span>](axis-object-ado-md.md)
+- [<span data-ttu-id="ec43b-105">Propriétés d'axe, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ec43b-105">Axis properties, methods, and events (ADO MD)</span></span>](axis-properties-methods-and-events-ado-md.md)
 

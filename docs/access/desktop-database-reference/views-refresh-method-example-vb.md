@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9018ae314f814f3adca3268beba2f82e4e0ea2fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312158"
 ---
-# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="f46ee-102">Views Refresh, méthode — Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="f46ee-102">Views Refresh method example (VB)</span></span>
+# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="ec543-102">Views Refresh, méthode — Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="ec543-102">Views Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="f46ee-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f46ee-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ec543-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec543-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f46ee-p101">Le code suivant montre comment actualiser la collection [Views](views-collection-adox.md) d'un objet [Catalog](catalog-object-adox.md). Cette opération est requise afin de pouvoir accéder aux objets [View](view-object-adox.md) de l'objet **Catalog**.</span><span class="sxs-lookup"><span data-stu-id="f46ee-p101">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="ec543-p101">Le code suivant montre comment actualiser la collection [Views](views-collection-adox.md) d'un objet [Catalog](catalog-object-adox.md). Cette opération est requise afin de pouvoir accéder aux objets [View](view-object-adox.md) de l'objet **Catalog**.</span><span class="sxs-lookup"><span data-stu-id="ec543-p101">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4216aafa4992f82ef0201802b72ae0e261cefc11
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295226"
 ---
-# <a name="cursortype-locktype-and-editmode-properties-example-vb"></a><span data-ttu-id="af7b2-102">CursorType, LockType et EditMode, propriétés – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="af7b2-102">CursorType, LockType, and EditMode properties example (VB)</span></span>
+# <a name="cursortype-locktype-and-editmode-properties-example-vb"></a><span data-ttu-id="a977a-102">CursorType, LockType et EditMode, propriétés – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="a977a-102">CursorType, LockType, and EditMode properties example (VB)</span></span>
 
 
-<span data-ttu-id="af7b2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="af7b2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a977a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a977a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="af7b2-p101">Cet exemple illustre la définition des propriétés [CursorType](cursortype-property-ado.md) et [LockType](locktype-property-ado.md) avant l'ouverture d'un objet [Recordset](recordset-object-ado.md). Il indique également la valeur de la propriété [EditMode](editmode-property-ado.md) dans différentes conditions. La fonction **EditModeOutput** est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="af7b2-p101">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The **EditModeOutput** function is required for this procedure to run.</span></span>
+<span data-ttu-id="a977a-p101">Cet exemple illustre la définition des propriétés [CursorType](cursortype-property-ado.md) et [LockType](locktype-property-ado.md) avant l’ouverture d’un objet [Recordset](recordset-object-ado.md). Il indique également la valeur de la propriété [EditMode](editmode-property-ado.md) dans différentes conditions. La fonction **EditModeOutput** est nécessaire à l’exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="a977a-p101">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The **EditModeOutput** function is required for this procedure to run.</span></span>
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Référence de la collection (ADOX) affichages
+title: Référence de la collection views (ADOX)
 TOCTitle: Views collection (ADOX)
 ms:assetid: 7f92e594-160d-4e4d-afc4-e422c2b5b305
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249542(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 03f662221fe91a35b574ee991a785384df5e1314
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306061"
 ---
-# <a name="views-collection-adox-reference"></a><span data-ttu-id="79073-102">Référence de la collection (ADOX) affichages</span><span class="sxs-lookup"><span data-stu-id="79073-102">Views collection (ADOX) reference</span></span>
+# <a name="views-collection-adox-reference"></a><span data-ttu-id="123ea-102">Référence de la collection views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="123ea-102">Views collection (ADOX) reference</span></span>
 
-<span data-ttu-id="79073-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79073-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="123ea-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="123ea-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="79073-104">Views, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="79073-104">Views collection (ADOX)</span></span>](views-collection-adox.md)
-- [<span data-ttu-id="79073-105">Views, collection – Propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="79073-105">Views collection properties, methods, and events (ADOX)</span></span>](views-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="123ea-104">Views, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="123ea-104">Views collection (ADOX)</span></span>](views-collection-adox.md)
+- [<span data-ttu-id="123ea-105">Views, collection-propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="123ea-105">Views collection properties, methods, and events (ADOX)</span></span>](views-collection-properties-methods-and-events-adox.md)
 
