@@ -1,5 +1,5 @@
 ---
-title: Query, méthode (RDS - référence du bureau de la base de données Access)
+title: Query, méthode (référence de la base de données Bureau à distance)
 TOCTitle: Query method (RDS)
 ms:assetid: c88d82bd-2139-7f1e-4e5e-9030f3795816
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 92c72bf78f8f01a675038f63b065aceb6869fcd0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301112"
 ---
-# <a name="query-method-rds"></a><span data-ttu-id="7e30a-102">Query, méthode (RDS)</span><span class="sxs-lookup"><span data-stu-id="7e30a-102">Query method (RDS)</span></span>
+# <a name="query-method-rds"></a><span data-ttu-id="22a61-102">Query, méthode (RDS)</span><span class="sxs-lookup"><span data-stu-id="22a61-102">Query method (RDS)</span></span>
 
-<span data-ttu-id="7e30a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e30a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="22a61-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="22a61-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7e30a-104">Utilise une chaîne de requête SQL valide qui retourne un objet [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="7e30a-104">Uses a valid SQL query string to return a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="22a61-104">Utilise une chaîne de requête SQL valide qui retourne un objet [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="22a61-104">Uses a valid SQL query string to return a [Recordset](recordset-object-ado.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7e30a-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7e30a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="22a61-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="22a61-105">Syntax</span></span>
 
-<span data-ttu-id="7e30a-106">Définir le*jeu d’enregistrements* = *DataFactory*. Requête (*connexion*, *requête*)</span><span class="sxs-lookup"><span data-stu-id="7e30a-106">Set*Recordset* = *DataFactory*.Query(*Connection*, *Query*)</span></span>
+<span data-ttu-id="22a61-106">Définir le jeu*d'enregistrements* = *DataFactory*. Requête (*connexion*, *requête*)</span><span class="sxs-lookup"><span data-stu-id="22a61-106">Set*Recordset* = *DataFactory*.Query(*Connection*, *Query*)</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="7e30a-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="7e30a-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="22a61-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="22a61-107">Parameters</span></span>
 
-|<span data-ttu-id="7e30a-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="7e30a-108">Parameter</span></span>|<span data-ttu-id="7e30a-109">Description</span><span class="sxs-lookup"><span data-stu-id="7e30a-109">Description</span></span>|
+|<span data-ttu-id="22a61-108">Parameter</span><span class="sxs-lookup"><span data-stu-id="22a61-108">Parameter</span></span>|<span data-ttu-id="22a61-109">Description</span><span class="sxs-lookup"><span data-stu-id="22a61-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="7e30a-110">*Recordset*</span><span class="sxs-lookup"><span data-stu-id="7e30a-110">*Recordset*</span></span> |<span data-ttu-id="7e30a-111">Une variable objet qui représente un objet **Recordset**</span><span class="sxs-lookup"><span data-stu-id="7e30a-111">An object variable that represents a **Recordset** object.</span></span>|
-|<span data-ttu-id="7e30a-112">*DataFactory*</span><span class="sxs-lookup"><span data-stu-id="7e30a-112">*DataFactory*</span></span> |<span data-ttu-id="7e30a-113">Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md).</span><span class="sxs-lookup"><span data-stu-id="7e30a-113">An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.</span></span>|
-|<span data-ttu-id="7e30a-114">*Connexion*</span><span class="sxs-lookup"><span data-stu-id="7e30a-114">*Connection*</span></span> |<span data-ttu-id="7e30a-p101">Valeur de type **String** qui contient les informations de connexion de serveur. Ce paramètre est similaire à la propriété [Connect](connect-property-rds.md).</span><span class="sxs-lookup"><span data-stu-id="7e30a-p101">A **String** value that contains the server connection information. This is similar to the [Connect](connect-property-rds.md) property.</span></span>|
-|<span data-ttu-id="7e30a-117">*Requête*</span><span class="sxs-lookup"><span data-stu-id="7e30a-117">*Query*</span></span> |<span data-ttu-id="7e30a-118">Valeur de type **String** qui contient la requête SQL.</span><span class="sxs-lookup"><span data-stu-id="7e30a-118">A **String** that contains the SQL query.</span></span>|
+|<span data-ttu-id="22a61-110">*Recordset*</span><span class="sxs-lookup"><span data-stu-id="22a61-110">*Recordset*</span></span> |<span data-ttu-id="22a61-111">Une variable objet qui représente un objet **Recordset**</span><span class="sxs-lookup"><span data-stu-id="22a61-111">An object variable that represents a **Recordset** object.</span></span>|
+|<span data-ttu-id="22a61-112">*DataFactory*</span><span class="sxs-lookup"><span data-stu-id="22a61-112">*DataFactory*</span></span> |<span data-ttu-id="22a61-113">Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md).</span><span class="sxs-lookup"><span data-stu-id="22a61-113">An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.</span></span>|
+|<span data-ttu-id="22a61-114">*Connexion*</span><span class="sxs-lookup"><span data-stu-id="22a61-114">*Connection*</span></span> |<span data-ttu-id="22a61-p101">Valeur de type **String** qui contient les informations de connexion de serveur. Ce paramètre est similaire à la propriété [Connect](connect-property-rds.md).</span><span class="sxs-lookup"><span data-stu-id="22a61-p101">A **String** value that contains the server connection information. This is similar to the [Connect](connect-property-rds.md) property.</span></span>|
+|<span data-ttu-id="22a61-117">*Requête*</span><span class="sxs-lookup"><span data-stu-id="22a61-117">*Query*</span></span> |<span data-ttu-id="22a61-118">Valeur de type **String** qui contient la requête SQL.</span><span class="sxs-lookup"><span data-stu-id="22a61-118">A **String** that contains the SQL query.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="7e30a-119">Notes</span><span class="sxs-lookup"><span data-stu-id="7e30a-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="22a61-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="22a61-119">Remarks</span></span>
 
-<span data-ttu-id="7e30a-p102">La requête doit utiliser le langage SQL du serveur de base de données. Un état de résultat est retourné en cas d'erreur liée à la requête exécutée. La méthode **Query** ne procède à aucun vérification syntaxique de la chaîne du paramètre **Requête**.</span><span class="sxs-lookup"><span data-stu-id="7e30a-p102">The query should use the SQL dialect of the database server. A result status is returned if there is an error with the query that was executed. The **Query** method doesn't perform any syntax checking on the **Query** string.</span></span>
+<span data-ttu-id="22a61-p102">La requête doit utiliser le langage SQL du serveur de base de données. Un état de résultat est retourné en cas d'erreur liée à la requête exécutée. La méthode **Query** ne procède à aucun vérification syntaxique de la chaîne du paramètre **Requête**.</span><span class="sxs-lookup"><span data-stu-id="22a61-p102">The query should use the SQL dialect of the database server. A result status is returned if there is an error with the query that was executed. The **Query** method doesn't perform any syntax checking on the **Query** string.</span></span>
 

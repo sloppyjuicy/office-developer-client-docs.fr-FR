@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b4f4efc2ffab9f7996b2d805658b985badbaf87e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296394"
 ---
-# <a name="chapter-property-ado"></a><span data-ttu-id="417b6-102">Chapter, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="417b6-102">Chapter property (ADO)</span></span>
+# <a name="chapter-property-ado"></a><span data-ttu-id="5edd7-102">Chapter, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="5edd7-102">Chapter property (ADO)</span></span>
 
-<span data-ttu-id="417b6-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="417b6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5edd7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5edd7-103">**Applies to**: Access 2013, Office 2013</span></span>
  
-<span data-ttu-id="417b6-104">Extrait ou définit un objet **Chapter** OLE DB à partir de ou sur un objet **ADORecordsetConstruction**.</span><span class="sxs-lookup"><span data-stu-id="417b6-104">Gets or sets an OLE DB **Chapter** object from/on an **ADORecordsetConstruction** object.</span></span> <span data-ttu-id="417b6-105">Lorsque vous utilisez **put\_chapitre** pour définir l’objet **Chapter** , un sous-ensemble de lignes est transformé en un objet **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="417b6-105">When you use **put\_Chapter** to set the **Chapter** object, a subset of rows is turned into an ADO **Recordset** object.</span></span> <span data-ttu-id="417b6-106">Cette opération définit le chapitre actif de l'objet **Rowset**.</span><span class="sxs-lookup"><span data-stu-id="417b6-106">This sets the current chapter of the **Rowset** object.</span></span> <span data-ttu-id="417b6-107">En lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="417b6-107">Read/write.</span></span>
+<span data-ttu-id="5edd7-104">Extrait ou définit un objet **Chapter** OLE DB à partir de ou sur un objet **ADORecordsetConstruction**.</span><span class="sxs-lookup"><span data-stu-id="5edd7-104">Gets or sets an OLE DB **Chapter** object from/on an **ADORecordsetConstruction** object.</span></span> <span data-ttu-id="5edd7-105">Lorsque vous utilisez **l'\_instruction Put Chapter** pour définir l'objet **Chapter** , un sous-ensemble de lignes est transformé en objet **Recordset** ADO.</span><span class="sxs-lookup"><span data-stu-id="5edd7-105">When you use **put\_Chapter** to set the **Chapter** object, a subset of rows is turned into an ADO **Recordset** object.</span></span> <span data-ttu-id="5edd7-106">Cette opération définit le chapitre actif de l'objet **Rowset**.</span><span class="sxs-lookup"><span data-stu-id="5edd7-106">This sets the current chapter of the **Rowset** object.</span></span> <span data-ttu-id="5edd7-107">En lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="5edd7-107">Read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="417b6-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="417b6-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5edd7-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="5edd7-108">Syntax</span></span>
 
-<span data-ttu-id="417b6-109">Get HRESULT\_chapitre (\[out, retval\] long\* plChapter) ;</span><span class="sxs-lookup"><span data-stu-id="417b6-109">HRESULT get\_Chapter(\[out, retval\] long\* plChapter);</span></span>
+<span data-ttu-id="5edd7-109">HRESULT get\_chapitre (\[out, retval\] long\* plChapter);</span><span class="sxs-lookup"><span data-stu-id="5edd7-109">HRESULT get\_Chapter(\[out, retval\] long\* plChapter);</span></span>
 
-<span data-ttu-id="417b6-110">Placer HRESULT\_chapitre (\[dans\] lChapter long) ;</span><span class="sxs-lookup"><span data-stu-id="417b6-110">HRESULT put\_Chapter(\[in\] long lChapter);</span></span>
+<span data-ttu-id="5edd7-110">HRESULT put\_Chapter (\[in\] long lChapter);</span><span class="sxs-lookup"><span data-stu-id="5edd7-110">HRESULT put\_Chapter(\[in\] long lChapter);</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="417b6-111">Parameters</span><span class="sxs-lookup"><span data-stu-id="417b6-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5edd7-111">Paramètres</span><span class="sxs-lookup"><span data-stu-id="5edd7-111">Parameters</span></span>
 
-|<span data-ttu-id="417b6-112">Paramètre</span><span class="sxs-lookup"><span data-stu-id="417b6-112">Parameter</span></span>|<span data-ttu-id="417b6-113">Description</span><span class="sxs-lookup"><span data-stu-id="417b6-113">Description</span></span>|
+|<span data-ttu-id="5edd7-112">Parameter</span><span class="sxs-lookup"><span data-stu-id="5edd7-112">Parameter</span></span>|<span data-ttu-id="5edd7-113">Description</span><span class="sxs-lookup"><span data-stu-id="5edd7-113">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="417b6-114">*plChapter*</span><span class="sxs-lookup"><span data-stu-id="417b6-114">*plChapter*</span></span> |<span data-ttu-id="417b6-115">Pointeur vers le descripteur d'un chapitre.</span><span class="sxs-lookup"><span data-stu-id="417b6-115">Pointer to the handle of a chapter.</span></span>|
-|<span data-ttu-id="417b6-116">*LChapter*</span><span class="sxs-lookup"><span data-stu-id="417b6-116">*LChapter*</span></span> |<span data-ttu-id="417b6-117">Descripteur d'un chapitre.</span><span class="sxs-lookup"><span data-stu-id="417b6-117">Handle of a chapter.</span></span>|
+|<span data-ttu-id="5edd7-114">*plChapter*</span><span class="sxs-lookup"><span data-stu-id="5edd7-114">*plChapter*</span></span> |<span data-ttu-id="5edd7-115">Pointeur vers le descripteur d'un chapitre.</span><span class="sxs-lookup"><span data-stu-id="5edd7-115">Pointer to the handle of a chapter.</span></span>|
+|<span data-ttu-id="5edd7-116">*LChapter*</span><span class="sxs-lookup"><span data-stu-id="5edd7-116">*LChapter*</span></span> |<span data-ttu-id="5edd7-117">Descripteur d'un chapitre.</span><span class="sxs-lookup"><span data-stu-id="5edd7-117">Handle of a chapter.</span></span>|
 
-## <a name="return-values"></a><span data-ttu-id="417b6-118">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="417b6-118">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="5edd7-118">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="5edd7-118">Return values</span></span>
 
-<span data-ttu-id="417b6-119">Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S\_OK et E\_ÉCHOUE.</span><span class="sxs-lookup"><span data-stu-id="417b6-119">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
+<span data-ttu-id="5edd7-119">Cette méthode de propriété renvoie les valeurs HRESULT standard, y\_compris S OK\_et E Fail.</span><span class="sxs-lookup"><span data-stu-id="5edd7-119">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
 
-## <a name="applies-to"></a><span data-ttu-id="417b6-120">Champ d'application</span><span class="sxs-lookup"><span data-stu-id="417b6-120">Applies To</span></span>
+## <a name="applies-to"></a><span data-ttu-id="5edd7-120">Champ d'application</span><span class="sxs-lookup"><span data-stu-id="5edd7-120">Applies To</span></span>
 
-[<span data-ttu-id="417b6-121">ADORecordsetConstruction</span><span class="sxs-lookup"><span data-stu-id="417b6-121">ADORecordsetConstruction</span></span>](adorecordsetconstruction-interface-ado.md)
+[<span data-ttu-id="5edd7-121">ADORecordsetConstruction</span><span class="sxs-lookup"><span data-stu-id="5edd7-121">ADORecordsetConstruction</span></span>](adorecordsetconstruction-interface-ado.md)
 

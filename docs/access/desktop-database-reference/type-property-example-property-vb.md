@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 56e47b32bb85da237464842dcb049092750d77a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306271"
 ---
-# <a name="type-property-example-property-vb"></a><span data-ttu-id="3803f-102">Type, propriété – Exemple (propriété) (VB)</span><span class="sxs-lookup"><span data-stu-id="3803f-102">Type property example (Property) (VB)</span></span>
+# <a name="type-property-example-property-vb"></a><span data-ttu-id="52a7f-102">Type, propriété – Exemple (propriété) (VB)</span><span class="sxs-lookup"><span data-stu-id="52a7f-102">Type property example (Property) (VB)</span></span>
 
 
-<span data-ttu-id="3803f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3803f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="52a7f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="52a7f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3803f-p101">Cet exemple illustre la propriété [Type](type-property-ado.md). C'est un modèle d'utilitaire permettant de répertorier les noms et les types d'une collection ([Properties](properties-collection-ado.md) ou [Fields](fields-collection-ado.md), par exemple).</span><span class="sxs-lookup"><span data-stu-id="3803f-p101">This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
+<span data-ttu-id="52a7f-p101">Cet exemple illustre la propriété [Type](type-property-ado.md). C'est un modèle d'utilitaire permettant de répertorier les noms et les types d'une collection ([Properties](properties-collection-ado.md) ou [Fields](fields-collection-ado.md), par exemple).</span><span class="sxs-lookup"><span data-stu-id="52a7f-p101">This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
 
-<span data-ttu-id="3803f-p102">Il n'est pas nécessaire d'ouvrir le [Recordset](recordset-object-ado.md) pour accéder à la collection **Properties** qui lui correspond ; ses propriétés sont générées lorsque l'objet **Recordset** est instancié. Toutefois, si l'on attribue à la propriété [CursorLocation](cursorlocation-property-ado.md) la valeur **adUseClient**, cela ajoute plusieurs propriétés dynamiques à la collection **Properties** de l'objet **Recordset**, ce qui rend l'exemple un peu plus intéressant. Pour les besoins de l'illustration, nous utilisons explicitement la propriété [Item](item-property-ado.md) pour accéder à chaque objet [Property](property-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="3803f-p102">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated. However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting. For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
+<span data-ttu-id="52a7f-p102">Il n'est pas nécessaire d'ouvrir le [Recordset](recordset-object-ado.md) pour accéder à la collection **Properties** qui lui correspond ; ses propriétés sont générées lorsque l'objet **Recordset** est instancié. Toutefois, si l'on attribue à la propriété [CursorLocation](cursorlocation-property-ado.md) la valeur **adUseClient**, cela ajoute plusieurs propriétés dynamiques à la collection **Properties** de l'objet **Recordset**, ce qui rend l'exemple un peu plus intéressant. Pour les besoins de l'illustration, nous utilisons explicitement la propriété [Item](item-property-ado.md) pour accéder à chaque objet [Property](property-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="52a7f-p102">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated. However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting. For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
 
 ```vb 
  
