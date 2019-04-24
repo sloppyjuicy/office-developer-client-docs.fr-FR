@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 79d4bcb9547cdfd9b72dda71c8591a1ad009890b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295344"
 ---
 # <a name="createrecordset-method-example-vb"></a>CreateRecordset, méthode – Exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez créer un objet [Recordset](recordset-object-ado.md) et spécifier les informations de colonne, puis insérer des données dans cet objet **Recordset**; l'ensemble de lignes sous-jacent place les insertions dans la mémoire tampon.
 

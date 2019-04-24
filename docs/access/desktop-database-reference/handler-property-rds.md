@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c3ad91f0a288b9908a5af5f92d7bfca3b23cdfe9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292068"
 ---
 # <a name="handler-property-rds"></a>Handler, propriété (RDS)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le nom d’un programme de personnalisation coté serveur (gestionnaire) qui étend la fonctionnalité de [RDSServer.DataFactory](datafactory-object-rdsserver.md) et tous les paramètres utilisés par le *gestionnaire (handler)*.
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. Gestionnaire = *chaîne*
+*DataControl*. Handler = *chaîne*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Une valeur de **type String** qui contient le nom du gestionnaire et des paramètres, séparés par des virgules (par exemple, « handlerName, parm1, parm2,..., parm *N*»).|
+|*String* |Valeur de **type String** contenant le nom du gestionnaire et tous les paramètres, séparés par des virgules (par exemple, «HandlerName, parm1, parm2,..., paramètre *N*»).|
 
 ## <a name="remarks"></a>Remarques
 
@@ -39,5 +39,5 @@ Les noms du gestionnaire et de ses paramètres, le cas échéant, sont séparés
 
 Le gestionnaire par défaut s'appelle **MSDFMAP.Handler**, son paramètre par défaut est un fichier de personnalisation appelé **MSDFMAP.INI**. Utilisez cette propriété pour appeler les autres fichiers de personnalisation créés par votre administrateur serveur.
 
-Définir la propriété **Handler** consiste à spécifier un gestionnaire et des paramètres dans la propriété [ConnectionString](connectionstring-property-ado.md) . Autrement dit, « **Gestionnaire = *** handlerName, parm1, parm2,... ;*».
+Au lieu de définir la propriété **handler** , vous pouvez spécifier un gestionnaire et des paramètres dans la propriété [ConnectionString](connectionstring-property-ado.md) ; c'est-à-dire, «**handler = * * * HandlerName, parm1, parm2,...;*».
 

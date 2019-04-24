@@ -1,5 +1,5 @@
 ---
-title: Charset, propriété (ADO)
+title: CharSet, propriété (ADO)
 TOCTitle: Charset property (ADO)
 ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ca4640940c217fd81cac4ba1d8ffaf769b506fe0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296387"
 ---
-# <a name="charset-property-ado"></a>Charset, propriété (ADO)
+# <a name="charset-property-ado"></a>CharSet, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le jeu de caractères dans lequel le contenu d'un objet [Stream](stream-object-ado.md) de type texte doit être converti pour être stocké dans la mémoire tampon interne des objets Stream.
 
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
 
-Définit ou renvoie une valeur de type **String** qui spécifie le jeu de caractères dans lequel le contenu de l'objet **Stream** est converti. La valeur par défaut est « Unicode ». Les valeurs admises sont des chaînes classiques transmises via l'interface sous forme de chaînes de jeu de caractères Internet (par exemple, « ISO-8859-1 », « Windows-1252 », etc.). Pour obtenir la liste des chaînes de jeu de caractères qui est appelée par un système, voir les sous-clés de HKEY\_CLASSES\_racine\\MIME\\base de données\\jeu de caractères dans le Registre Windows.
+Définit ou renvoie une valeur de type **String** qui spécifie le jeu de caractères dans lequel le contenu de l'objet **Stream** est converti. La valeur par défaut est « Unicode ». Les valeurs admises sont des chaînes classiques transmises via l'interface sous forme de chaînes de jeu de caractères Internet (par exemple, « ISO-8859-1 », « Windows-1252 », etc.). Pour obtenir la liste des chaînes de jeu de caractères connues par un système, consultez les sous-clés de\_la\_base\\de\\données\\racine MIME de la classe HKEY dans le Registre Windows.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans un objet **Stream** de type texte, les données de texte sont stockées dans le jeu de caractères spécifié par la propriété **Charset**. La valeur par défaut est Unicode. La propriété **Charset** est utilisée pour convertir des données accédant à l'objet **Stream** ou provenant de l'objet **Stream**. Par exemple, si l'objet **Stream** contient des données au format ISO-8859-1 et que ces données sont copiées dans un BSTR, l'objet **Stream** convertit les données au format Unicode. L'inverse est vrai également.
 

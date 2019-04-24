@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b6da2dc9ff721adbb4bc0e533a02085adb534b0b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292229"
 ---
 # <a name="getrows-method-example-jscript"></a>GetRows, méthode – Exemple (JScript)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cet exemple utilise la méthode [GetRows](getrows-method-ado.md) pour récupérer toutes les lignes de la table *Customers* à partir d’un [objet Recordset](recordset-object-ado.md) et remplir un tableau avec les données résultantes. La méthode **GetRows** renverra moins de lignes que le nombre voulu dans deux cas : si la [fin de fichier](bof-eof-properties-ado.md) a été atteinte ou si la méthode **GetRows** a tenté de récupérer un enregistrement qui a été supprimé par un autre utilisateur. La fonction retourne **False** uniquement dans le second cas. Coupez et collez le code suivant dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **GetRowsJS.asp**.
+Cet exemple utilise la méthode [GetRows](getrows-method-ado.md) pour récupérer toutes les lignes de la table *Customers* d’un objet [Recordset](recordset-object-ado.md) et remplir un tableau avec les données récupérées. La méthode **GetRows** retourne un nombre inférieur de lignes dans deux cas : si la fin du fichier ([EOF](bof-eof-properties-ado.md)) a été atteinte ou si la méthode **GetRows** a tenté de récupérer un enregistrement supprimé par un autre utilisateur. La fonction retourne **False** uniquement dans le second cas. Coupez et collez le code suivant dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **GetRowsJS.asp**.
 
 ```javascript 
  

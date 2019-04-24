@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f8115ef48423a51ae044e7832e3d429f8ebb5e11
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295323"
 ---
 # <a name="cubedef-object-ado-md-reference"></a>CubeDef, objet (référence ADO MD)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 - [CubeDef, objet (ADO MD)](cubedef-object-ado-md.md)
-- [CubeDef propriétés, méthodes et événements (ADO MD)](cubedef-properties-methods-and-events-ado-md.md)
+- [CubeDef, propriétés, méthodes et événements (ADO MD)](cubedef-properties-methods-and-events-ado-md.md)
 

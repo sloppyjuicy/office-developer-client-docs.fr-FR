@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c92a43ce2f4417fde83a544022a90cfca572bf60
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292348"
 ---
 # <a name="findnextrecord-macro-action"></a>FindNextRecord, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez l'action **RechercherEnregistrementSuivant** pour trouver l'enregistrement suivant qui répond aux critères spécifiés par l'action **TrouverEnregistrement** précédente ou par la valeur de la boîte de dialogue **Rechercher et remplacer** (sous l'onglet **Accueil**, cliquez sur **Rechercher**). Vous pouvez également utiliser l'action **RechercherEnregistrementSuivant** pour rechercher un à un des enregistrements, par exemple des enregistrements relatifs à un client spécifique.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L’action **Rechercherenregistrementsuivant** ne possède aucun argument. L’action **Rechercherenregistrementsuivant** recherche l’enregistrement suivant qui répond aux critères définis par l’action **TrouverEnregistrement** ou dans la boîte de dialogue **Rechercher et remplacer** . Les arguments de l’action **TrouverEnregistrement** sont partagés avec les options dans la boîte de dialogue **Rechercher et remplacer** .
+The **FindNextRecord** action doesn't have any arguments. The **FindNextRecord** action finds the next record that meets the criteria set either by the **FindRecord** action or in the **Find and Replace** dialog box. The arguments for the **FindRecord** action are shared with the options in the **Find and Replace** dialog box.
 
 Pour définir les critères de recherche, utilisez l'action **TrouverEnregistrement**. Généralement, vous entrez une action **TrouverEnregistrement** dans une macro, puis utilisez l'action **RechercherEnregistrementSuivant** pour rechercher un à un les enregistrements répondant aux mêmes critères. Pour rechercher des enregistrements uniquement lorsqu'une certaine condition est remplie, vous pouvez entrer une expression conditionnelle dans la colonne **Condition** de la ligne correspondant à l'action **RechercherEnregistrementSuivant**.
 

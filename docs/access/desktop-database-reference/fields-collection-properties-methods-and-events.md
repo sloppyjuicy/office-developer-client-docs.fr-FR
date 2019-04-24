@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a3a9fdbadd365334a38dc831d86d4072dbc1938
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292551"
 ---
 # <a name="fields-collection-properties-methods-and-events"></a>Fields, collection – Propriétés, méthodes et événements
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="properties"></a>Propriétés
 
 - [Propriété Count](count-property-ado.md)
-- [Item, propriété](item-property-ado.md)
+- [Propriété Item](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes
 
 - [Append, méthode](append-method-ado.md)
 - [CancelUpdate, méthode](cancelupdate-method-ado.md)
-- [DELETE, méthode (Collection de champs ADO)](delete-method-ado-fields-collection.md)
+- [Delete, méthode (collection Fields ADO)](delete-method-ado-fields-collection.md)
 - [Refresh, méthode](refresh-method-ado.md)
 - [Resync, méthode](resync-method-ado.md)
 - [Update, méthode](update-method-ado.md)
 
-## <a name="events"></a>Événements
+## <a name="events"></a>Events
 
 Aucun.
 

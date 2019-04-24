@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fa483d86dc345968607a0752f0552ddccfe7fef5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306572"
 ---
 # <a name="resync-method-ado"></a>Resync, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cette méthode actualise les données de l'objet [Recordset](recordset-object-ado.md) actif ou la collection [Fields](fields-collection-ado.md) d'un objet [Record](record-object-ado.md) à partir de la base de données sous-jacente.
+Cette méthode actualise les données de l’objet [Recordset](recordset-object-ado.md) actif ou la collection [Fields](fields-collection-ado.md) d’un objet [Record](record-object-ado.md) à partir de la base de données sous-jacente.
 
 ## <a name="syntax"></a>Syntaxe
 
-*Jeu d’enregistrements*. Resync*AffectRecords*, *ResyncValues*
+*Recordset*. Resync*AffectRecords*, *ResyncValues*
 
 *Enregistrement*. *Champs*. Resync*ResyncValues*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*AffectRecords* |Facultatif. La valeur [AffectEnum](affectenum.md) détermine combien d'enregistrements sont affectés par la méthode **Resync**. La valeur **adAffectAll** est utilisée par défaut ; elles n'est pas disponible avec la méthode **Resync** de la collection **Fields** d'un objet **Record**.|
 |*ResyncValues* |Facultatif. La valeur [ResyncEnum](resyncenum.md) indique si les valeurs sous-jacentes sont remplacées. La valeur par défaut est **adResyncAllValues**.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="recordset"></a>Recordset
 
@@ -47,13 +47,13 @@ Si la tentative de resynchronisation échoue à cause d’un conflit avec les do
 
 Si les propriétés dynamiques [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) et [Resync Command](resync-command-property-dynamic-ado.md) sont définies et que l'objet **Recordset** obtenu provient de l'exécution d'une opération JOIN sur plusieurs tables, la méthode **Resync** exécute la commande fournie dans la propriété **Resync Command** uniquement au niveau de la table désignée dans la propriété **Unique Table**.
 
-### <a name="fields"></a>Champs
+### <a name="fields"></a>Fields
 
-Faites appel à la méthode **Resync** pour resynchroniser les valeurs de la collection **Fields** d'un objet **Record** sur la source de données sous-jacente. La propriété [Count](count-property-ado.md) n'est pas affectée par cette méthode.
+Faites appel à la méthode **Resync** pour resynchroniser les valeurs de la collection **Fields** d’un objet **Record** sur la source de données sous-jacente. La propriété [Count](count-property-ado.md) n’est pas affectée par cette méthode.
 
-Si *ResyncValues* a la valeur **adResyncAllValues** (valeur par défaut), puis le [UnderlyingValue](underlyingvalue-property-ado.md), [valeur](value-property-ado.md)et propriétés [OriginalValue](originalvalue-property-ado.md) des objets [Field](field-object-ado.md) dans la collection sont synchronisées. Si *ResyncValues* a la valeur **adResyncUnderlyingValues**, seule la propriété **UnderlyingValue** est synchronisée.
+Si *ResyncValues* a la valeur par défaut **adResyncAllValues**, les propriétés [UnderlyingValue](underlyingvalue-property-ado.md), [Value](value-property-ado.md) et [OriginalValue](originalvalue-property-ado.md) des objets [Field](field-object-ado.md) de la collection sont synchronisés. Si *ResyncValues* a la valeur **adResyncUnderlyingValues**, seule la propriété **UnderlyingValue** est synchronisée.
 
-La valeur de la propriété **Status** de chaque objet **Field** au moment de l’appel affecte également le comportement de **Resync**. Pour les objets **Field** avec les valeurs **d’état** **adFieldPendingUnknown** ou **adFieldPendingInsert**, **Resync** n’a aucun effet. Pour des valeurs **Status** **égales à adFieldPendingChange** ou **adFieldPendingDelete**, **elle** synchronise les valeurs de données pour les champs qui existent toujours dans la source de données.
+The value of the **Status** property for each **Field** object at the time of the call also affects the behavior of **Resync**. For **Field** objects with **Status** values of **adFieldPendingUnknown** or **adFieldPendingInsert**, **Resync** has no effect. For **Status** values of **adFieldPendingChange** or **adFieldPendingDelete**, **Resync** synchronizes data values for fields that still exist at the data source.
 
-**Resync** ne modifie pas les valeurs **d’état** d’objets **Field** , sauf si une erreur se produit **lorsqu’elle** est appelée. Par exemple, si le champ n’existe plus, le fournisseur retourne une valeur **Status** appropriée pour l’objet **Field** , comme **adFieldDoesNotExist**. Valeurs **d’état** renvoyées peuvent être associées logiquement dans la valeur de la propriété **Status** .
+**Resync** will not modify **Status** values of **Field** objects unless an error occurs when **Resync** is called. For example, if the field no longer exists, the provider will return an appropriate **Status** value for the **Field** object, such as **adFieldDoesNotExist**. Returned **Status** values may be logically combined within the value of the **Status** property.
 

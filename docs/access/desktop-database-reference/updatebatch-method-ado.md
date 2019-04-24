@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9d269a9012588a7b82505ac2e28466151715cbb0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313575"
 ---
 # <a name="updatebatch-method-ado"></a>UpdateBatch, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Écrit toutes les mises à jour par lot en attente sur le disque.
 
 ## <a name="syntax"></a>Syntaxe
 
-*jeu d’enregistrements*. UpdateBatch*AffectRecords*
+*Recordset*. UpdateBatch*AffectRecords*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*AffectRecords* |Facultatif. Valeur [AffectEnum](affectenum.md) indiquant le nombre d'enregistrements affectés par la méthode **UpdateBatch**.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la méthode **UpdateBatch** lorsque vous modifiez un objet **Recordset** en mode de mise à jour par lot pour transmettre toutes les modifications apportées à un objet **Recordset** dans la base de données sous-jacente.
 

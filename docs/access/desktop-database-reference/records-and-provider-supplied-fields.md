@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ebbfeb303bb575928f09858db5d3a34cf2171ce0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300755"
 ---
 # <a name="records-and-provider-supplied-fields"></a>Enregistrements et champs fournis par le fournisseur
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Lorsqu'un objet [Record](record-object-ado.md) est ouvert, sa source peut être la ligne active d'un objet [Recordset](recordset-object-ado.md) ouvert, une URL absolue ou une URL relative à un objet [Connection](connection-object-ado.md) ouvert.
 
@@ -24,7 +24,7 @@ Si l'objet **Record** est ouvert depuis un objet **Recordset**, la collection **
 
 Le fournisseur peut insérer d'autres champs utilisés comme caractéristiques supplémentaires de l'objet **Record**. Par conséquent, un objet **Record** peut comporter des champs uniques, non présents dans l'objet **Recordset** ou tout objet **Record** dérivé d'une autre ligne de l'objet **Recordset**.
 
-Par exemple, toutes les lignes d’un **objet Recordset** dérivé d’une source de données de messagerie peuvent comporter des colonnes, telles que de, à et de l’objet. Un objet **Record** dérivé de cet objet **Recordset** comportera les mêmes champs. Cependant, l'objet **Record** peut également comporter d'autres champs uniques et spécifiques au message représenté par cet objet **Record**, Pièce jointe et CC, par exemple.
+Par exemple, toutes les lignes d'un **objet Recordset** dérivé d'une source de données de messagerie électronique peuvent contenir des colonnes telles que de, à et objet. Un objet **Record** dérivé de cet objet **Recordset** comportera les mêmes champs. Cependant, l'objet **Record** peut également comporter d'autres champs uniques et spécifiques au message représenté par cet objet **Record**, Pièce jointe et CC, par exemple.
 
 Bien que l'objet **Record** et la ligne active de l'objet **Recordset** comportent les mêmes champs, ceux-ci diffèrent, car les objets **Record** et **Recordset** possèdent des méthodes et des propriétés différentes.
 
@@ -84,7 +84,7 @@ Un *objet Recordset de ressources* comporte les colonnes suivantes.
 <td><p>En lecture seule. Indique l'URL absolue de la ressource, qui est la concaténation de PARENTNAME et PARSENAME.</p></td>
 </tr>
 <tr class="even">
-<td><p>PROPRIÉTÉ RESOURCE_ISHIDDEN</p></td>
+<td><p>RESOURCE_ISHIDDEN</p></td>
 <td><p>AdBoolean</p></td>
 <td><p>True si la ressource est cachée. Aucune ligne n'est retournée sauf si la commande qui crée le jeu de lignes sélectionne de façon explicite les lignes dont la propriété RESOURCE_ISHIDDEN a la valeur True.</p></td>
 </tr>
@@ -96,12 +96,12 @@ Un *objet Recordset de ressources* comporte les colonnes suivantes.
 <tr class="even">
 <td><p>RESOURCE_CONTENTTYPE</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indique l’utilisation probable du document — par exemple, un dossier d’avocat. Cela peut correspondre au modèle Office utilisé pour créer le document.&quot;&quot;</p></td>
+<td><p>Indique l'utilisation probable du document, par exemple, un dossier d'avocat. Cela peut correspondre au modèle Office utilisé pour créer le document.&quot;&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>RESOURCE_CONTENTCLASS</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indique le type MIME du document, spécifiant le format tel que &quot;texte/html&quot;. »</p></td>
+<td><p>Indique le type MIME du document, en &quot;indiquant le format comme text/html&quot;. '</p></td>
 </tr>
 <tr class="even">
 <td><p>RESOURCE_CONTENTLANGUAGE</p></td>

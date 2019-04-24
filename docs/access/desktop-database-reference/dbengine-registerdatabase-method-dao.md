@@ -1,5 +1,5 @@
 ---
-title: Méthode DBEngine.RegisterDatabase (DAO)
+title: DBEngine. RegisterDatabase, méthode (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 632f6e10d79d74dfef295b34a52ce62f1690101b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294224"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a>Méthode DBEngine.RegisterDatabase (DAO)
+# <a name="dbengineregisterdatabase-method-dao"></a>DBEngine. RegisterDatabase, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Entre les informations de connexion pour une source de données ODBC dans le Registre Windows. Le pilote ODBC a besoin des informations de connexion lorsque la source de données ODBC est ouverte au cours d'une session.
+Entre les informations de connexion pour une source de données ODBC dans le Registre Windows. Le pilote ODBC a besoin des informations de connexion lorsque la source de données ODBC est ouverte au cours d’une session.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . RegisterDatabase (***Dsn***, ***pilote***, ***en mode silencieux***, ***attributs***)
+*expression* . RegisterDatabase (***DSN***, ***pilote***, ***silencieux***, ***attributs***)
 
 *expression* Variable qui représente un objet **DBEngine** .
 
@@ -42,17 +42,17 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>DSN</em></p></td>
+<td><p><em>Source</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Nom utilisé dans la méthode <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong>. Il désigne un bloc d’informations descriptives se rapportant à la source de données. Par exemple, si la source de données est une base de données distante ODBC, il peut s’agir du nom du serveur.</p></td>
+<td><p>nom utilisé dans la méthode <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> . Il désigne un bloc d’informations descriptives se rapportant à la source de données. Par exemple, si la source de données est une base de données distante ODBC, il peut s’agir du nom du serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Driver</em></p></td>
@@ -61,10 +61,10 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 <td><p>Nom du pilote ODBC. Il ne s'agit pas du fichier DLL du pilote ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>En mode silencieux</em></p></td>
+<td><p><em>Manière</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Boolean</strong></p></td>
-<td><p><strong>True</strong> si vous ne souhaitez pas afficher les boîtes de dialogue de pilote ODBC qui demandent des informations spécifiques au pilote ; ou <strong>False</strong> si vous souhaitez afficher les boîtes de dialogue du pilote ODBC. Si en mode silencieux a la <strong>valeur True</strong>, les attributs doivent contenir toutes les informations spécifiques au pilote nécessaires ou les boîtes de dialogue sont affichées.</p></td>
+<td><p><strong>Booléen</strong></p></td>
+<td><p><strong>True</strong> si vous ne souhaitez pas afficher les boîtes de dialogue du pilote ODBC, qui invitent à saisir des informations spécifiques au pilote, ou <strong>False</strong> si vous souhaitez les afficher. Si Silent est <strong>true</strong>, les attributs doivent contenir toutes les informations propres au pilote requises ou les boîtes de dialogue s'affichent quand même.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Attributs</em></p></td>

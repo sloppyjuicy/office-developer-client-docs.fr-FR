@@ -1,5 +1,5 @@
 ---
-title: Close, méthode - ActiveX Data Objects (ADO)
+title: Close, méthode-ActiveX Data Objects (ADO)
 TOCTitle: Close method (ADO)
 ms:assetid: 26a7cced-ebeb-70be-f5de-96a35711bc37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249029(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 269a782e85fab1e5dc47cd32f2e2c11306e11470
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720771"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296310"
 ---
 # <a name="close-method-ado"></a>Close, méthode (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Ferme un objet ouvert, ainsi que tous les objets qui en dépendent.
 
@@ -25,9 +25,9 @@ Ferme un objet ouvert, ainsi que tous les objets qui en dépendent.
 
 *object*.Close
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **Close** pour fermer un objet [Connection](connection-object-ado.md), [Record](record-object-ado.md), [Recordset](recordset-object-ado.md) ou [Stream](stream-object-ado.md) et libérer ainsi toutes les ressources système associées. La fermeture d'un objet n'entraîne pas sa suppression de la mémoire ; vous pouvez modifier ses paramètres de propriété et le rouvrir ultérieurement. Pour supprimer définitivement un objet de la mémoire, définissez la variable d’objet sur *Nothing* (dans Visual Basic) après la fermeture de l’objet.
+Utilisez la méthode **Close** pour fermer un objet [Connection](connection-object-ado.md), [Record](record-object-ado.md), [Recordset](recordset-object-ado.md) ou [Stream](stream-object-ado.md) et libérer ainsi toutes les ressources système associées. La fermeture d'un objet n'entraîne pas sa suppression de la mémoire ; vous pouvez modifier ses paramètres de propriété et le rouvrir ultérieurement. Pour éliminer définitivement un objet de la mémoire, affectez à la variable objet la valeur *Nothing* (dans Visual Basic) après avoir fermé l'objet.
 
 **Objet Connection**
 

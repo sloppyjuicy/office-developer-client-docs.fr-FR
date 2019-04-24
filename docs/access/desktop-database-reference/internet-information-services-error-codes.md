@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c67c43922316c6c77876525c79993beba1d4131
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291278"
 ---
 # <a name="internet-information-services-error-codes"></a>Codes d’erreur Internet Information Services
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le tableau suivant répertorie les codes d'erreur des services Internet de Microsoft (IIS) liés à l'utilisation du service de données à distance (RDS). Il affiche la traduction décimale positive des deux octets bas, la traduction décimale négative du code d'erreur complet et les valeurs hexadécimales.
 
@@ -29,7 +29,7 @@ Le tableau suivant répertorie les codes d'erreur des services Internet de Micro
 <thead>
 <tr class="header">
 <th><p>Erreurs des services Internet (IIS)</p></th>
-<th><p>Code</p></th>
+<th><p>Nombre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

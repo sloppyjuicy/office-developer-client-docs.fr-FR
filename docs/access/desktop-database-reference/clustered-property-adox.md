@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f305cd5a9af2c4baae16c783996257fe59067032
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296282"
 ---
 # <a name="clustered-property-adox"></a>Clustered, propriété (ADOX)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique s'il s'agit d'un index cluster.
 
@@ -25,7 +25,7 @@ Indique s'il s'agit d'un index cluster.
 
 Définit et renvoie une valeur de type **Boolean**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **False** est la valeur par défaut.
 

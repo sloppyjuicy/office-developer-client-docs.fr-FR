@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8bf2234e5935c2a1a13871e7e45c980fb9f33109
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312060"
 ---
-# <a name="using-visual-c-extensions"></a>Utilisation des extensions Visual C++
+# <a name="using-visual-c-extensions"></a>Utilisation d’extensions Visual C++
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="the-iadorecordbinding-interface"></a>Interface IADORecordBinding
 
@@ -35,7 +35,7 @@ En interne, ADO mappe les paramètres de ces macros à une structure **DBBINDING
 
 ## <a name="header-file"></a>Fichier d'en-tête
 
-Incluez le fichier suivant dans votre application pour pouvoir utiliser les extensions Visual C++ pour ADO :
+Incluez le fichier suivant dans votre application pour pouvoir utiliser les extensions Visual C++ pour ADO :
 
 ```cpp 
  
@@ -48,11 +48,11 @@ Incluez le fichier suivant dans votre application pour pouvoir utiliser les exte
 
 1.  Créez une classe dérivée de la classe **CADORecordBinding**.
 
-2.  Spécifiez les entrées de liaison et les variables C/C++ correspondantes dans la classe dérivée. Les entrées de liaison entre **commencer\_ADO\_liaison** et **fin\_ADO\_liaison** macros. Les macros ne doivent pas se terminer par des virgules ou des points-virgules. Les délimiteurs appropriés sont spécifiés automatiquement par chaque macro. Spécifiez une entrée de liaison pour chaque champ à mapper à une variable C/C++. Utilisez un membre approprié de la **ADO\_fixe\_longueur\_entrée**, **ADO\_numérique\_entrée**, ou **ADO\_VARIABLE\_longueur\_entrée** famille de macros.
+2.  Spécifiez les entrées de liaison et les variables C/C++ correspondantes dans la classe dérivée. Mettez en fourchette les entrées de liaison entre les macros **Begin\_Binding ADO\_** et **End\_ADO\_Binding** . Les macros ne doivent pas se terminer par des virgules ou des points-virgules. Les délimiteurs appropriés sont spécifiés automatiquement par chaque macro. Spécifiez une entrée de liaison pour chaque champ à mapper à une variable C/C++. Utilisez un membre approprié à partir de l'entrée **ADO\_de longueur\_\_fixe**, d'une **entrée numérique\_\_ADO**ou d'une famille de macros d'entrée de **longueur\_\_\_variable ADO** .
 
 3.  Dans votre application, créez une instance de la classe dérivée de **CADORecordBinding**. Obtenez l'interface **IADORecordBinding** de l'objet **Recordset**, puis appelez la méthode **BindToRecordset** pour lier les champs de l'objet **Recordset** aux variables C/C++.
 
-Pour plus d'informations, voir [Exemple d'extensions Visual C++](visual-c-extensions-example.md).
+Pour plus d’informations, voir [Exemple d’extensions Visual C++](visual-c-extensions-example.md).
 
 ## <a name="interface-methods"></a>Méthodes d'interface
 
@@ -68,7 +68,7 @@ La méthode **AddNew** appelle la méthode ADO éponyme, à savoir la méthode [
 
 `AddNew(CADORecordBinding *binding)` 
 
-La méthode **Update** appelle la méthode ADO éponyme, à savoir la méthode [Update](update-method-ado.md) ADO, pour mettre à jour l'objet **Recordset**.
+La méthode **Update** appelle la méthode ADO éponyme, à savoir la méthode [Update](update-method-ado.md) ADO, pour mettre à jour l’objet **Recordset**.
 
 `Update(CADORecordBinding *binding)` 
 
@@ -78,32 +78,32 @@ Les macros d'entrées de liaison définissent l'association entre un champ d'un 
 
 Des familles de macros sont fournies pour les données de longueur fixe, telles que **adDate** ou **adBoolean**, les donnés numériques, telles que **adTinyInt**, **adInteger** ou **adDouble** et les données de longueur variable, telles que **adChar**, **adVarChar** ou **adVarBinary**. Tous les types numériques, à l'exception de **adVarNumeric**, sont également des données de longueur fixe. Chaque famille possède des jeux de paramètres différents, ce qui vous permet d'exclure des informations de liaison superflues.
 
-Consultez la rubrique *de référence du programmeur OLE DB,* Appendix A: Data Types pour plus d’informations.
+Pour plus d'informations, consultez le manuel *OLE DB Programmer's Reference*, Appendix A: Data Types (en anglais).
 
-_**Commencer les entrées de liaison**_
+_**Début des entrées de liaison**_
 
-**COMMENCER\_ADO\_liaison**(*classe*)
+**DÉBUT\_de\_la liaison ADO**(*classe*)
 
 _**Données de longueur fixe**_
 
-**ADO\_fixe\_longueur\_entrée**(*Ordinal, type de données, mémoire tampon, état, modifier*)  
-**ADO\_fixe\_longueur\_ENTRY2**(*Ordinal, type de données, mémoire tampon, modifier*)
+**Entrée\_ADO\_de\_longueur fixe**(*ordinal, type de données, mémoire tampon, État, modifier*)  
+**ENTRY2\_de\_longueur\_fixe ADO**(*ordinal, type de données, mémoire tampon, modifier*)
 
 _**Données numériques**_
 
-**ADO\_numérique\_entrée**(*Ordinal, type de données, mémoire tampon, précision, échelle, état, modifier*)  
-**ADO\_numérique\_ENTRY2**(*Ordinal, type de données, mémoire tampon, précision, échelle, modifier*)
+**Entrée\_numérique\_ADO**(*ordinal, type de données, mémoire tampon, précision, taille, État, modifier*)  
+**ENTRY2\_numérique\_ADO**(*ordinal, type de données, mémoire tampon, précision, homothétie, modifier*)
 
 _**Données de longueur variable**_
 
-**ADO\_VARIABLE\_longueur\_entrée**(*Ordinal, type de données, mémoire tampon, taille, état, longueur, modifier*)  
-**ADO\_VARIABLE\_longueur\_ENTRY2**(*Ordinal, type de données, mémoire tampon, taille, état, modifier*)  
-**ADO\_VARIABLE\_longueur\_Anywhere3**(*Ordinal, type de données, mémoire tampon, taille, longueur, modifier*)  
-**ADO\_VARIABLE\_longueur\_ENTRY4**(*Ordinal, type de données, mémoire tampon, taille, modifier*)
+**Entrée\_de\_longueur\_variable ADO**(*ordinal, type de données, mémoire tampon, taille, État, longueur, modifier*)  
+**ENTRY2\_de\_longueur\_variable ADO**(*ordinal, type de données, mémoire tampon, taille, État, modifier*)  
+**ENTRY3\_de\_longueur\_variable ADO**(*ordinal, type de données, mémoire tampon, taille, longueur, modifier*)  
+**ENTRY4\_de\_longueur\_variable ADO**(*ordinal, type de données, mémoire tampon, taille, modifier*)
 
-_**Fin d’entrées de liaison**_
+_**Entrées de liaison de fin**_
 
-**Fin\_ADO\_liaison** ()
+**Fin\_de\_la liaison ADO** ()
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ _**Fin d’entrées de liaison**_
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Parameter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -139,8 +139,7 @@ _**Fin d’entrées de liaison**_
 </tr>
 <tr class="even">
 <td><p><em>Status</em></p></td>
-<td><p>Nom d'une variable qui indique si le contenu du paramètre <em>Mémoire tampon</em> est valide et si la conversion du champ en <em>Type de données</em> s'est correctement déroulée.
- Les deux valeurs les plus importantes de cette variable sont <strong>adFldOK</strong>, qui indique que la conversion s'est correctement déroulée, et <strong>adFldNull</strong>, qui indique que la valeur du champ est un VARIANT de type VT_NULL et que ce champ n'est pas simplement vide. Les valeurs possibles pour <em>l’état</em> sont répertoriées dans le tableau suivant, &quot;valeurs d’état.&quot;</p></td>
+<td><p>Nom d'une variable qui indique si le contenu du paramètre <em>Mémoire tampon</em> est valide et si la conversion du champ en <em>Type de données</em> s'est correctement déroulée. Les deux valeurs les plus importantes de cette variable sont <strong>adFldOK</strong>, qui indique que la conversion s'est correctement déroulée, et <strong>adFldNull</strong>, qui indique que la valeur du champ est un VARIANT de type VT_NULL et que ce champ n'est pas simplement vide. Les valeurs possibles de l' <em>État</em> sont répertoriées dans le &quot;tableau suivant, Values Status.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Modify</em></p></td>
@@ -148,7 +147,7 @@ _**Fin d’entrées de liaison**_
  Affectez la valeur TRUE au paramètre <em>modifier</em> booléen pour permettre à ADO de mettre à jour le champ lié et la valeur FALSE si vous voulez examiner le champ sans le modifier.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Précision</em></p></td>
+<td><p><em>Dell</em></p></td>
 <td><p>Nombre de chiffres pouvant être représenté dans une variable numérique.</p></td>
 </tr>
 <tr class="odd">
@@ -165,7 +164,7 @@ _**Fin d’entrées de liaison**_
 
 ## <a name="status-values"></a>Valeurs du paramètre État
 
-La valeur de la variable *état* indique si un champ a été correctement copié dans une variable.
+La valeur de la variable *État* indique si un champ a été correctement copié dans une variable.
 
 Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur **adFldNull** pour indiquer que le champ de l'objet **Recordset** doit avoir une valeur null.
 
@@ -190,19 +189,18 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="even">
 <td><p><strong>adFldBadAccessor</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Liaison non valide.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldCantConvertValue</strong></p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>La valeur n'a pas pu être convertie pour une raison autre qu'une non correspondance de signes ou un dépassement de capacité.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldNull</strong></p></td>
 <td><p>3</p></td>
-<td><p>Lors de l'obtention d'un champ, indique qu'une valeur null a été retournée.
- Lors de la définition d'un champ, indique que le champ doit être affecté de la valeur <strong>NULL</strong> lorsqu'il ne peut pas coder lui-même la valeur <strong>NULL</strong> (par exemple, un tableau de caractères ou un nombre entier).</p></td>
+<td><p>Lors de l'obtention d'un champ, indique qu'une valeur null a été retournée. Lors de la définition d'un champ, indique que le champ doit être affecté de la valeur <strong>NULL</strong> lorsqu'il ne peut pas coder lui-même la valeur <strong>NULL</strong> (par exemple, un tableau de caractères ou un nombre entier).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldTruncated</strong></p></td>
@@ -211,27 +209,27 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="even">
 <td><p><strong>adFldSignMismatch</strong></p></td>
-<td><p>5</p></td>
+<td><p>disque</p></td>
 <td><p>La valeur est signée et le type de données de la variable ne l'est pas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldDataOverFlow</strong></p></td>
-<td><p>6</p></td>
+<td><p>6.x</p></td>
 <td><p>La valeur est supérieure à la capacité de stockage du type de données de la variable.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldCantCreate</strong></p></td>
-<td><p>7</p></td>
+<td><p>7j/7</p></td>
 <td><p>Type de colonne inconnu et champ déjà ouvert.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldUnavailable</strong></p></td>
-<td><p>8</p></td>
+<td><p>8bits</p></td>
 <td><p>La valeur du champ n'a pas pu être déterminée, par exemple, sur un nouveau champ non assigné et ne comportant aucune valeur par défaut.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldPermissionDenied</strong></p></td>
-<td><p>9</p></td>
+<td><p>4,9</p></td>
 <td><p>Lors d'une mise à jour, absence d'autorisation d'écriture des données.</p></td>
 </tr>
 <tr class="odd">
@@ -241,17 +239,17 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="even">
 <td><p><strong>adFldSchemaViolation</strong></p></td>
-<td><p>11</p></td>
+<td><p>a4</p></td>
 <td><p>Lors d'une mise à jour, la valeur du champ ne respecte pas le schéma de colonne.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldBadStatus</strong></p></td>
-<td><p>12</p></td>
+<td><p>an</p></td>
 <td><p>Lors d'une mise à jour, paramètre d'état incorrect.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldDefault</strong></p></td>
-<td><p>13</p></td>
+<td><p>kg</p></td>
 <td><p>Lors d'une mise à jour, une valeur par défaut a été utilisée.</p></td>
 </tr>
 </tbody>

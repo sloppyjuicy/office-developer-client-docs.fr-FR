@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9316bc4302a559fa44082a0576595707157e9d64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289884"
 ---
 # <a name="loadfromfile-method-ado"></a>LoadFromFile, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Charge le contenu d'un fichier existant dans un objet [Stream](stream-object-ado.md).
+Charge le contenu d’un fichier existant dans un objet [Stream](stream-object-ado.md).
 
 ## <a name="syntax"></a>Syntaxe
 
-*Flux de données*. LoadFromFile, *nom de fichier*
+*Stream*. LoadFromFile *nom de fichier*
 
 ## <a name="parameters"></a>Paramètres
 
 |Nom |Description|
 |:----|:----------|
-|*FileName* |Valeur de type **String** qui contient le nom d'un fichier à charger dans l'objet **Stream**. *Nom de fichier* peut contenir n’importe quel chemin d’accès valide et un nom au format UNC. Si le fichier spécifié n'existe pas, une erreur d'exécution se produit.|
+|*FileName* |Valeur de type **String** qui contient le nom d'un fichier à charger dans l'objet **Stream**.  *NomFichier* peut contenir n'importe quel chemin d'accès et nom valide au format UNC. Si le fichier spécifié n'existe pas, une erreur d'exécution se produit.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être utilisée pour charger le contenu d'un fichier local dans un objet **Stream**. Cela permet de télécharger le contenu d'un fichier local sur un serveur.
 

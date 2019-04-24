@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5a9498a24b858de013aa717e9ce54963a81ab137
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308742"
 ---
 # <a name="seek-method-and-index-property-example-vc"></a>Seek (méthode) et Index (propriété) – Exemple (VC++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple utilise la méthode [Seek](seek-method-ado.md) et la propriété [Index](index-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) avec une valeur ***Employee ID*** donnée pour trouver le nom de l’employé dans la table ***Employees*** de la base de données Nwind.mdb.
 
@@ -243,7 +243,7 @@ void PrintComError(_com_error &e)
 // EndSeekCpp 
 ```
 
-**SeekX.h**
+**SeekX. h**
 
 ```cpp 
  

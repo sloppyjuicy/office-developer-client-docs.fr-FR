@@ -1,5 +1,5 @@
 ---
-title: Propriété Field.Required (DAO)
+title: Field. Required, propriété (DAO)
 TOCTitle: Required Property
 ms:assetid: 2f1dbdeb-a37a-59b2-fdc2-f16c7ae1a575
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 52900d4a60002695866b9960fb6b80cefeb2b2ea
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292978"
 ---
-# <a name="fieldrequired-property-dao"></a>Propriété Field.Required (DAO)
+# <a name="fieldrequired-property-dao"></a>Field. Required, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui indique si un objet **[Field](field-object-dao.md)** requiert une valeur non Null.
 
@@ -46,23 +46,23 @@ La disponibilité de la propriété **Required** dépend de l'objet qui contient
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							objet <strong>Index</strong></p></td>
+<td><p>objet <strong>Index</strong></p></td>
 <td><p>Non pris en charge</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>QueryDef</strong></p></td>
+<td><p>objet <strong>QueryDef</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p>							objet <strong>Recordset</strong></p></td>
+<td><p>objet <strong>Recordset</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>objet <strong>Relation</strong></p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
-<td><p>							objet <strong>TableDef</strong></p></td>
+<td><p>objet <strong>TableDef</strong></p></td>
 <td><p>En lecture-écriture.</p></td>
 </tr>
 </tbody>

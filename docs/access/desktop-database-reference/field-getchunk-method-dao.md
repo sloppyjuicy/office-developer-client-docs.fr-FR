@@ -1,5 +1,5 @@
 ---
-title: Méthode Field.GetChunk (DAO)
+title: Field. GetChunk, méthode (DAO)
 TOCTitle: GetChunk Method
 ms:assetid: b8984e79-54f7-8052-85a3-d12033daf7a1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822448(v=office.15)
@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c7eabceb1f7c130e349428aeb6b2dc079fe4319d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293097"
 ---
-# <a name="fieldgetchunk-method-dao"></a>Méthode Field.GetChunk (DAO)
+# <a name="fieldgetchunk-method-dao"></a>Field. GetChunk, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Renvoie tout ou partie du contenu d'un objet ****Field**** de type [Memo](field-object-dao.md) ou **Long Binary** appartenant à la collection **[Fields](fields-collection-dao.md)** d'un objet **[Recordset](recordset-object-dao.md)**.
+Renvoie la totalité ou une partie du contenu d'un objet **[Field](field-object-dao.md)** de type **Mémo** ou **binaire long** de la collection **[Fields](fields-collection-dao.md)** d'un objet **[Recordset](recordset-object-dao.md)** .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,7 +42,7 @@ Renvoie tout ou partie du contenu d'un objet ****Field**** de type [Memo](field-
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -51,13 +51,13 @@ Renvoie tout ou partie du contenu d'un objet ****Field**** de type [Memo](field-
 <tr class="odd">
 <td><p><em>Offset</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Long</strong></p></td>
+<td><p><strong>Entier long</strong></p></td>
 <td><p>Nombre d'octets à ignorer avant que la copie ne commence.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Octets</em></p></td>
+<td><p><em>Taille</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Long</strong></p></td>
+<td><p><strong>Entier long</strong></p></td>
 <td><p>Nombre d'octets que vous souhaitez renvoyer.</p></td>
 </tr>
 </tbody>
@@ -72,9 +72,9 @@ Variant
 
 Les octets renvoyés par **GetChunk** sont affectés à une variable. Utilisez **GetChunk** pour renvoyer une partie de la valeur totale des données à la fois. Vous pouvez avoir recours à **[AppendChunk](field-appendchunk-method-dao.md)** pour reconstituer les différentes parties.
 
-Si le décalage est égal à 0, **GetChunk** commence la copie à partir du premier octet du champ.
+Si décalage est égal à 0, **GetChunk** commence la copie à partir du premier octet du champ.
 
-Si la valeur du paramètre NbOctets est supérieur au nombre d’octets dans le champ, **GetChunk** renvoie le nombre réel d’octets restant dans le champ.
+Si NbOctets est supérieur au nombre d'octets contenus dans le champ, **GetChunk** renvoie le nombre réel d'octets restants dans le champ.
 
 > [!NOTE]
 > [!REMARQUE] Utilisez un champ de type **Memo** pour du texte et placez les données binaires uniquement dans des champs de type **Long Binary**. Sinon, vous n'obtiendrez pas les résultats escomptés.

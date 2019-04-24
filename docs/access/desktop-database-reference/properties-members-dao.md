@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 137616721dab202e0122ccf8947d2a20a7a0509d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301259"
 ---
 # <a name="properties-members-dao"></a>Properties, membres (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Une collection Properties contient tous les objets **[Property](property-object-dao.md)** d’une instance spécifique d’un objet.
+Une collection Properties contient tous les objets **[Property](property-object-dao.md)** d'une instance spécifique d'un objet.
 
 ## <a name="methods"></a>Méthodes
 
@@ -36,7 +36,7 @@ Une collection Properties contient tous les objets **[Property](property-object-
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="properties-append-method-dao.md">Ajouter</a></strong></p></td>
+<td><p><strong><a href="properties-append-method-dao.md">Annexe</a></strong></p></td>
 <td><p>Ajoute un nouvel objet <strong>Property</strong> à la collection <strong>Properties</strong>.</p></td>
 </tr>
 <tr class="even">

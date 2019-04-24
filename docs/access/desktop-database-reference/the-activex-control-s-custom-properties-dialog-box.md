@@ -1,7 +1,7 @@
 ---
 title: Boîte de dialogue Propriétés personnalisées d’un contrôle ActiveX
 TOCTitle: ActiveX control custom properties dialog box
-description: Cette boîte de dialogue des propriétés personnalisée propose une alternative à la liste des propriétés figurant dans la feuille des propriétés Microsoft Access pour définir les propriétés d'un contrôle ActiveX en mode Création de formulaire.
+description: Cette boîte de dialogue des propriétés personnalisée propose une alternative à la liste des propriétés figurant dans la feuille des propriétés Microsoft Access pour définir les propriétés d'un contrôle ActiveX en mode Création.
 ms:assetid: 124cf679-6efc-567a-84d1-8057dec93bde
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845396(v=office.15)
 ms:contentKeyID: 48543338
@@ -13,15 +13,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f4574abc86e6eacd38721e601d26c8b8fbf0a0d3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314104"
 ---
 # <a name="activex-control-custom-properties-dialog-box"></a>Boîte de dialogue Propriétés personnalisées d’un contrôle ActiveX
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Lors de la définition des propriétés d'un contrôle ActiveX, vous devrez ou souhaiterez peut-être utiliser la boîte de dialogue des propriétés personnalisée du contrôle. Cette boîte de dialogue des propriétés personnalisée propose une alternative à la liste des propriétés figurant dans la feuille des propriétés Microsoft Access pour définir les propriétés d'un contrôle ActiveX en mode Création de formulaire.
 
@@ -39,15 +39,15 @@ Pour certaines propriétés de contrôle ActiveX, vous pouvez choisir un des deu
 
 Dans certains cas, la boîte de dialogue des propriétés personnalisée est la seule manière de définir une propriété en mode Création. Cela est généralement le cas lorsque l'interface nécessaire pour définir une propriété ne fonctionne pas avec la feuille des propriétés de Microsoft Access. Par exemple, la propriété **GridFont** du contrôle Calendrier dispose d'un certain nombre d'éléments, mais vous ne pouvez en définir qu'un seul par propriété à l'aide de la feuille des propriétés de Microsoft Access.
 
-## <a name="finding-the-custom-properties-dialog-box"></a>Recherche de la boîte de dialogue Propriétés personnalisées
+## <a name="finding-the-custom-properties-dialog-box"></a>Recherche de la boîte de dialogue des propriétés personnalisée
 
 Tous les contrôles ActiveX ne fournissent pas une boîte de dialogue des propriétés personnalisée. Pour voir si un contrôle fournit cette boîte de dialogue des propriétés personnalisée, recherchez la propriété **Personnalisé** de ce contrôle dans la feuille des propriétés de Microsoft Access. Si la liste des propriétés contient le nom **personnalisé**, le contrôle fournit la boîte de dialogue Propriétés personnalisées.
 
-## <a name="using-the-custom-properties-dialog-box"></a>À l’aide de la boîte de dialogue Propriétés personnalisées
+## <a name="using-the-custom-properties-dialog-box"></a>Utilisation de la boîte de dialogue Propriétés personnalisées
 
-Une fois que vous choisissez la zone de propriété **personnalisée** dans la feuille des propriétés Microsoft Access, cliquez sur le bouton **Générer** à droite de la zone de propriété pour afficher la boîte de dialogue des propriétés personnalisées du contrôle, souvent présentée en tant qu’une boîte de dialogue à onglets. Choisissez l'onglet contenant l'interface permettant de définir les propriétés souhaitées.
+Une fois que vous avez choisi la zone de propriété **personnalisée** dans la feuille des propriétés Microsoft Access, cliquez sur le bouton **générer** situé à droite de la zone de propriété pour afficher la boîte de dialogue des propriétés personnalisée du contrôle, souvent présentée sous la forme d'une boîte de dialogue à onglets. Choisissez l'onglet contenant l'interface permettant de définir les propriétés que vous souhaitez définir.
 
-Après avoir apporté des modifications dans un onglet, vous pouvez souvent les appliquer immédiatement en cliquant sur le bouton **Appliquer** (le cas échéant). Vous pouvez choisir les autres onglets pour définir les autres propriétés selon vos besoins. Pour approuver toutes les modifications apportées dans la boîte de dialogue Propriétés personnalisées, choisissez le bouton **OK** . Pour revenir à la feuille des propriétés Microsoft Access sans modifier les paramètres de propriété, cliquez sur le bouton **Annuler** .
+Une fois que vous avez apporté des modifications à un onglet, vous pouvez souvent appliquer ces modifications immédiatement en cliquant sur le bouton **appliquer** (le cas échéant). Vous pouvez choisir d'autres onglets pour définir d'autres propriétés selon vos besoins. Pour approuver toutes les modifications apportées dans la boîte de dialogue Propriétés personnalisées, cliquez sur le bouton **OK** . Pour revenir à la feuille des propriétés de Microsoft Access sans modifier les paramètres des propriétés, cliquez sur le bouton **Annuler** .
 
-Vous pouvez également afficher la boîte de dialogue des propriétés personnalisées en cliquant sur la sous-commande **Propriétés** du contrôle ActiveX **objet** , commande (par exemple, l' **Objet de contrôle calendrier**) dans le menu **Edition** , ou en sélectionnant la même sous-commande sur le menu contextuel pour le contrôle ActiveX. De plus, certaines propriétés dans la feuille des propriétés de Microsoft Access du contrôle ActiveX, comme la propriété **GridFontColor** du contrôle Calendrier, disposent d'un bouton **Générer** à droite de la zone des propriétés. Lorsque vous choisissez le bouton **Générer** , la boîte de dialogue Propriétés personnalisées s’affiche avec l’onglet approprié est sélectionné (par exemple, des **couleurs**).
+Vous pouvez également afficher la boîte de dialogue Propriétés personnalisées en choisissant la sous-commande **Propriétés** de la commande **objet** de contrôle ActiveX (par exemple, **objet de contrôle calendrier**) dans le menu **Edition** ou en choisissant cette même sous-commande dans menu contextuel pour le contrôle ActiveX. De plus, certaines propriétés dans la feuille des propriétés de Microsoft Access du contrôle ActiveX, comme la propriété **GridFontColor** du contrôle Calendrier, disposent d'un bouton **Générer** à droite de la zone des propriétés. Lorsque vous cliquez sur le bouton **générer** , la boîte de dialogue Propriétés personnalisées s'affiche avec l'onglet approprié sélectionné (par exemple, **couleurs**).
 

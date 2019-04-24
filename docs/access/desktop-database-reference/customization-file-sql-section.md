@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8ae259589cc8d4945068901c59105425599edc64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295134"
 ---
 # <a name="customization-file-sql-section"></a>Section SQL du fichier de personnalisation
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 La section **sql** peut contenir une nouvelle chaîne SQL qui remplace la chaîne de commande cliente. Si aucune chaîne SQL ne figure dans la section, celle-ci est ignorée.
 
 La nouvelle chaîne SQL peut être *paramétrée*. En d'autres termes, les paramètres dans la chaîne SQL de la section **sql** (signalée par le caractère '?') peuvent être remplacés par les arguments correspondants dans un *identificateur* de la chaîne de commande cliente (il s'agit d'une liste séparée par des virgules entre parenthèses). L'identificateur et la liste des arguments ont un comportement similaire à celui d'un appel de fonction.
 
-Par exemple, supposons que la chaîne de commande cliente est « CustomerById (4) », l’en-tête de section SQL \[SQL CustomerByID\] , et la nouvelle chaîne de section SQL est « sélectionnez \* FROM Customers WHERE CustomerID = ? ». Le gestionnaire générera, l’en-tête de section SQL \[SQL CustomerByID\] , et la nouvelle chaîne de section SQL est « sélectionnez \* FROM Customers WHERE CustomerID = ? ». Le gestionnaire générera « sélectionnez \* FROM Customers WHERE CustomerID = 4 » et utilisera cette chaîne pour interroger la source de données.
+Par exemple, supposons que la chaîne de commande cliente est "CustomerByID (4)", l' \[en-\] tête de section SQL CustomerByID, et la nouvelle chaîne \* de section SQL est "SELECT FROM Customers WHERE CustomerID = ?". Le gestionnaire générera, l'en-tête de \[la section\] SQL est SQL CustomerByID et la nouvelle chaîne de section \* SQL est "SELECT FROM Customers WHERE CustomerID = ?". Le gestionnaire génère «SELECT \* from Customers WHERE CustomerID = 4» et utilise cette chaîne pour interroger la source de données.
 
 Si la nouvelle instruction SQL est une chaîne vide (""), la section est ignorée.
 
@@ -37,9 +37,9 @@ SQL = " "
 
 ## <a name="syntax"></a>Syntaxe
 
-Une chaîne d'entrée SQL de remplacement a la forme suivante :
+Une chaîne d'entrée SQL de remplacement a la forme suivante :
 
-**SQL = * chaîne-SQL***
+**SQL = * sqlString***
 
 <table>
 <colgroup>
@@ -58,7 +58,7 @@ Une chaîne d'entrée SQL de remplacement a la forme suivante :
 <td><p>Chaîne littérale qui indique qu'il s'agit d'une entrée de section SQL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>chaîne-SQL</em></strong></p></td>
+<td><p><strong><em>Chaîne-</em></strong></p></td>
 <td><p>Chaîne SQL qui remplace la chaîne cliente.</p></td>
 </tr>
 </tbody>

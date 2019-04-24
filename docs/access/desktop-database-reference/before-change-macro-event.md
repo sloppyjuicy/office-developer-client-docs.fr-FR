@@ -14,26 +14,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296856"
 ---
 # <a name="before-change-macro-event"></a>Before Change, événement de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'événement **Avant la modification** se produit lorsqu'un enregistrement change, mais avant la validation de la modification.
+L’événement **Avant la modification** se produit lorsqu’un enregistrement change, mais avant la validation de la modification.
 
 > [!NOTE]
-> [!REMARQUE] L'événement **Avant la modification** est disponible uniquement dans les macros de données.
+> L’événement **Avant la modification** est disponible uniquement dans les macros de données.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez l'événement **Avant la modification** pour effectuer toute action souhaitée avant qu'un enregistrement soit modifié. **Avant la modification** s'utilise couramment pour effectuer une validation et pour déclencher des messages d'erreur personnalisés.
+Utilisez l’événement **Avant la modification** pour effectuer toute action souhaitée avant qu’un enregistrement soit modifié. **Avant la modification** s’utilise couramment pour effectuer une validation et pour déclencher des messages d’erreur personnalisés.
 
-Vous pouvez utiliser la fonction de **mise à jour («*Nom de champ*»)** pour déterminer si un champ a été modifié. L’exemple de code suivant montre comment utiliser une instruction **If** pour déterminer si le champ PaidInFull a été modifié.
+Vous pouvez utiliser la fonction **Updated («*nom de champ*»)** pour déterminer si un champ a été modifié. L'exemple de code suivant montre comment utiliser une instruction **If** pour déterminer si le champ PaidInFull a été modifié.
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -73,7 +73,7 @@ Par exemple, pour accéder à la valeur précédente du champ QuantityInStock, u
 
 Les valeurs précédentes sont supprimées de manière définitive lorsque l'événement **Avant la modification** se termine.
 
-Vous pouvez annuler l'événement **Avant la modification** à l'aide de l'action **DéclencherErreur**. Lorsqu'une erreur est levée, les modifications contenues dans l'événement **Avant la modification** sont ignorées.
+Vous pouvez annuler l’événement **Avant la modification** à l’aide de l’action **DéclencherErreur**. Lorsqu’une erreur est levée, les modifications contenues dans l’événement **Avant la modification** sont ignorées.
 
 Le tableau suivant répertorie les commandes de macros qui peuvent être utilisées dans l’événement **Avant la modification**.
 
@@ -85,7 +85,7 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <thead>
 <tr class="header">
 <th><p>Type de commande</p></th>
-<th><p>Commande</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>
@@ -103,7 +103,7 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="lookuprecord-data-block.md">Action de macro RechercherEnregistrement</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">RechercherEnregistrement, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Action de données</p></td>
@@ -133,17 +133,17 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 </table>
 
 
-Pour créer une macro de données qui capture l'événement **Avant la modification**, procédez comme suit :
+Pour créer une macro de données qui capture l’événement **Avant la modification**, procédez comme suit :
 
-1.  Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Avant la modification**.
+1.  Ouvrez la table pour laquelle vous souhaitez capturer l’événement **Avant la modification**.
 
-2.  Sous l'onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.
+2.  Sous l’onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.
 
-Une macro de données vide s'affiche dans le concepteur de macros
+Une macro de données vide s’affiche dans le concepteur de macros
 
 ## <a name="example"></a>Exemple
 
-L’exemple de code suivant utilise l’événement **Avant la modification** pour valider les champs de statut. Une erreur est levée si une valeur incorrecte est stockée dans le champ Resolution.
+L'exemple de code suivant utilise l'événement **avant la modification** pour valider les champs d'État. Une erreur est levée si une valeur incorrecte est stockée dans le champ Resolution.
 
 ```vb 
  
@@ -174,13 +174,13 @@ End If
 
 Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 
-1.  Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Avant la modification**.
+1.  Ouvrez la table pour laquelle vous souhaitez capturer l’événement **Avant la modification**.
 
-2.  Sous l'onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.
+2.  Sous l’onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.
 
-3.  Sélectionnez le code dans l’exemple de code suivant et appuyez sur **CTRL + C** pour le copier dans le Presse-papiers.
+3.  Sélectionnez le code dans l'exemple de code suivant, puis appuyez sur **Ctrl + C** pour le copier dans le presse-papiers.
 
-4.  Activer la fenêtre du Concepteur de macros, puis appuyez sur **CTRL + V**.
+4.  Activez la fenêtre du concepteur de macros, puis appuyez sur **Ctrl + V**.
 
 
 
@@ -228,9 +228,9 @@ Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 </DataMacros>
 ```
 
-L’exemple suivant montre comment utiliser l’action Déclenchererreur pour annuler l’événement de macro de données avant la modification. Lorsque le champ AssignedTo est mis à jour, un bloc de données RechercherEnregistrement permet de déterminer si le technicien affecté est actuellement affecté à une demande de service en cours. Si cela est vrai, puis l’événement avant la modification est annulée et l’enregistrement n’est pas mis à jour.
+L'exemple suivant montre comment utiliser l'action Déclenchererreur pour annuler l'événement de macro avant la modification des données. Lorsque le champ AffectéÀ est mis à jour, un bloc de données RechercherEnregistrement est utilisé pour déterminer si le technicien affecté est actuellement affecté à une demande de service ouverte. Si la valeur est true, l'événement avant la modification est annulé et l'enregistrement n'est pas mis à jour.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* Get the name of the technician  */

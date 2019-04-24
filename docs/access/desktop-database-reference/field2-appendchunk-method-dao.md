@@ -1,5 +1,5 @@
 ---
-title: Méthode Field2.AppendChunk (DAO)
+title: Field2. AppendChunk, méthode (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: 540cd02d-1fc6-81d1-ac08-1e3df72a7208
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194088(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fda1ab5a3e339d951225f4f43ab4275cce2cdb80
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292880"
 ---
-# <a name="field2appendchunk-method-dao"></a>Méthode Field2.AppendChunk (DAO)
+# <a name="field2appendchunk-method-dao"></a>Field2. AppendChunk, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Ajoute des données issues d'une expression de chaîne à un objet **Field2** de type mémo ou binaire long dans un objet **[Recordset](recordset-object-dao.md)**.
 
@@ -42,7 +42,7 @@ Ajoute des données issues d'une expression de chaîne à un objet **Field2** de
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>

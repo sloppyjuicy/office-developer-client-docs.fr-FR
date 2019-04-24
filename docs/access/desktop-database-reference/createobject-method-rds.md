@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 47ad61495bcc96b3099af6273796626e9442cbf0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295372"
 ---
 # <a name="createobject-method-rds"></a>CreateObject, méthode (RDS)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Crée le proxy pour l'objet métier cible et retourne un pointeur vers ce proxy. Le proxy procède à l'empaquetage des données et à leur marshaling sur le stub côté serveur afin d'autoriser les communications avec l'objet métier et d'envoyer des requêtes et des données sur Internet. Pour les objets de composant in-process, aucun proxy n'est utilisé, seul un pointeur vers l'objet est fourni.
 
@@ -38,34 +38,34 @@ RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS
 <tbody>
 <tr class="odd">
 <td><p>HTTP</p></td>
-<td><p>Définir<em>l’objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgId</em>&quot;, &quot; <em>https://awebsrvr</em> &quot;)</p></td>
+<td><p>Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot; &quot; <em>https://awebsrvr</em>, &quot;)</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS</p></td>
-<td><p>Définir<em>l’objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgId</em>&quot;, &quot; <em>https://awebsrvr</em> &quot;)</p></td>
+<td><p>Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot; &quot; <em>https://awebsrvr</em>, &quot;)</p></td>
 </tr>
 <tr class="odd">
-<td><p>DCOM</p></td>
-<td><p>Définir<em>l’objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgId</em>&quot;, &quot; <em>nom_ordinateur</em>&quot;)</p></td>
+<td><p>APPELER</p></td>
+<td><p>Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot;, &quot; <em>nomordinateur</em>&quot;)</p></td>
 </tr>
 <tr class="even">
 <td><p>In-process</p></td>
-<td><p>Définir<em>l’objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgId</em>&quot;, &quot; &quot;)</p></td>
+<td><p>Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot;, &quot; &quot;)</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*Object* |Variable objet correspondant à un objet du type spécifié dans *ProgID*.|
 |*DataSpace* |Variable objet représentant un objet [RDS.DataSpace](dataspace-object-rds.md) utilisé pour créer une instance du nouvel objet.|
 |*ProgID* |Valeur de type **String** contenant l'identificateur programmatique spécifiant un objet métier côté serveur qui implémente les règles métier de votre application.|
-|*awebsrvr* ou *computername* |Une valeur de **type String** qui représente une URL qui identifie le serveur web Internet Information Services (IIS) où une instance de l’objet métier du serveur est créée.|
+|*awebsrvr* ou *computername* |Valeur de **type String** qui représente une URL qui identifie le serveur Web IIS sur lequel une instance de l'objet métier du serveur est créée.|
 
 ## <a name="remarks"></a>Remarques
 
-Le *protocole HTTP* est le protocole web standard ; *HTTPS* est un protocole web sécurisé. Utiliser le *protocole DCOM* lors de l’exécution d’un réseau local sans protocole HTTP. Le protocole *in-process* est une bibliothèque de liens dynamiques (DLL) ; locale Il n’utilise pas un réseau.
+Le *protocole http* est le protocole Web standard; *Https* est un protocole Web sécurisé. Utilisez le *protocole DCOM* en cas d'exécution sur un réseau local sans protocole HTTP. Le protocole *in-process* est une bibliothèque DLL locale et n'utilise pas de réseau.
 

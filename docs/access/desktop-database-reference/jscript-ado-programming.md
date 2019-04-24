@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88a84f6fa3604286ca27651cefc999c96ff41d0e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290890"
 ---
 # <a name="jscript-ado-programming"></a>Programmation ADO JScript
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 ## <a name="creating-an-ado-project"></a>Création d'un projet ADO
@@ -26,11 +26,11 @@ Microsoft JScript ne prend pas en charge les bibliothèque de types ; vous n'ave
 
 En revanche, ADO comporte deux fichiers contenant les définitions suivantes à utiliser avec JScript :
 
-- Pour côté serveur scripts, utilisez Adojavas.inc, installé dans le répertoire c:\\Program Files\\Common Files\\système\\ado\\ dossier par défaut.
+- Pour les scripts côté serveur, utilisez Adojavas. Inc, qui est installé par défaut dans le\\dossier ADO\\\\\\\\ du système de fichiers communs c: Program Files.
 
-- Pour côté client scripts, utilisez Adcjavas.inc, installé dans le répertoire c:\\Program Files\\Common Files\\système\\msdac\\ dossier par défaut.
+- Pour les scripts côté client, utilisez Adcjavas. Inc, qui est installé par défaut dans le\\dossier du\\système\\\\de fichiers communs\\ c: Program Files MSDAC.
 
-Vous pouvez soit copier et coller les définitions des constantes de ces fichiers dans vos pages ASP ou, si vous effectuez des scripts côté serveur, copiez le fichier Adojavas.inc dans un dossier sur votre site Web et fait référence à partir de votre page ASP comme suit :
+Vous pouvez copier et coller les définitions des constantes de ces fichiers dans vos pages ASP ou, si vous effectuez un script côté serveur, copiez le fichier Adojavas. Inc dans un dossier de votre site Web et référencez-le à partir de votre page ASP comme suit:
 
 ```javascript  
  
@@ -39,7 +39,7 @@ Vous pouvez soit copier et coller les définitions des constantes de ces fichier
 
 ## <a name="creating-ado-objects-in-jscript"></a>Création d'objets ADO en JScript
 
-Vous devez, pour cela, utiliser l'appel de fonction **CreateObject**:
+Vous devez, pour cela, utiliser l'appel de fonction **CreateObject** :
 
 ```javascript  
  
@@ -49,7 +49,7 @@ Rs1 = Server.CreateObject("ADODB.Recordset");
 
 ## <a name="jscript-example"></a>Exemple JScript
 
-Le code suivant est un exemple générique de programmation côté serveur en JScript dans un fichier ASP (Active Server Page) qui ouvre un objet **Recordset**:
+Le code suivant est un exemple générique de programmation côté serveur en JScript dans un fichier ASP (Active Server Page) qui ouvre un objet **Recordset** :
 
 ```javascript 
  

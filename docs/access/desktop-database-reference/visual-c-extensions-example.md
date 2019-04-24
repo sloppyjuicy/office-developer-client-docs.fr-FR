@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 080281ae0deb25fa10fcdccd8577d3aab076c2cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312067"
 ---
 # <a name="visual-c-extensions-example"></a>Exemple d’extensions Visual C++
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Ce programme montre comment les valeurs sont extraites des champs, puis converties en variables C/C++.
 
-Cet exemple tire également parti des « pointeurs intelligents » qui gèrent automatiquement les détails spécifiques à COM de l’appel et de décompte de références pour l’interface **IADORecordBinding** .
+Cet exemple tire également parti des «pointeurs intelligents» qui gèrent automatiquement les détails spécifiques à COM de l'appel et du décompte des références pour l'interface **IADORecordBinding** .
 
 Sans pointeurs intelligents, le code se présenterait comme ceci :
 
@@ -35,7 +35,7 @@ TESTHR(pRs->QueryInterface(
 if (picRs) picRs->Release(); 
 ```
 
-Avec des pointeurs intelligents, vous dérivez le type IADORecordBindingPtr à partir du type de l’interface IADORecordBinding avec l’instruction suivante :
+Avec des pointeurs intelligents, vous dérivez le type IADORecordBindingPtr du type de l'interface IADORecordBinding à l'aide de l'instruction suivante:
 
 ```cpp 
  
@@ -49,7 +49,7 @@ Et vous instanciez le pointeur comme suit :
 IADORecordBindingPtr picRs(pRs); 
 ```
 
-Étant donné que les Extensions Visual C++ sont implémentées par l’objet **Recordset** , le constructeur du pointeur intelligent picRs prend le \_pointeur RecordsetPtr, pRs. Le constructeur appelle QueryInterface à l’aide de pRs pour rechercher la, prend la \_pointeur RecordsetPtr, pRs. Le constructeur appelle QueryInterface à l’aide de pRs pour rechercher l’interface IADORecordBinding.
+Étant donné que les extensions Visual C++ sont implémentées par l'objet **Recordset** , le constructeur du pointeur intelligent, picRs, \_prend le pointeur RecordsetPtr, prs. Le constructeur appelle QueryInterface à l'aide de pRs pour trouver le \_, prend le pointeur RecordsetPtr, prs. Le constructeur appelle QueryInterface à l'aide de pRs pour trouver l'interface IADORecordBinding.
 
 ```cpp 
  

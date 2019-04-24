@@ -1,5 +1,5 @@
 ---
-title: Méthode DBEngine.Idle (DAO)
+title: DBEngine. Idle, méthode (DAO)
 TOCTitle: Idle Method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7a84e3cc4b35886a12b2e6b4cf92b7483fea293a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294329"
 ---
-# <a name="dbengineidle-method-dao"></a>Méthode DBEngine.Idle (DAO)
+# <a name="dbengineidle-method-dao"></a>DBEngine. Idle, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Suspend le traitement des données, ce qui permet au moteur de base de données Microsoft Access de terminer les tâches en cours, telles que l'optimisation de la mémoire ou les expirations de délai des pages (espaces de travail Microsoft Access uniquement).
+Suspend le traitement des données, ce qui permet au moteur de base de données Microsoft Access de terminer les tâches en cours, telles que l’optimisation de la mémoire ou les expirations de délai des pages (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Inactivité (***Action***)
+*expression* . InActif (***action***)
 
 *expression* Variable qui représente un objet **DBEngine** .
 
@@ -42,7 +42,7 @@ Suspend le traitement des données, ce qui permet au moteur de base de données 
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -52,7 +52,7 @@ Suspend le traitement des données, ce qui permet au moteur de base de données 
 <td><p><em>Action</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Spécifie l’action à effectuer. Il peut s’agir de l’une des constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong>.</p></td>
+<td><p>Spécifie l’action à effectuer. Il peut s'agir de l'une des constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> .</p></td>
 </tr>
 </tbody>
 </table>

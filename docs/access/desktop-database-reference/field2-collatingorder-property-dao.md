@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.CollatingOrder (DAO)
+title: Field2. CollatingOrder, propriété (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: cb1d6fc9-a2a6-54c2-abf5-48b609e38738
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834380(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 02711fbbf39b058bb88e9568716169825ae4a923
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292866"
 ---
-# <a name="field2collatingorder-property-dao"></a>Propriété Field2.CollatingOrder (DAO)
+# <a name="field2collatingorder-property-dao"></a>Field2. CollatingOrder, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Renvoie une valeur qui spécifie la séquence de l'ordre de tri du texte pour la comparaison ou le tri de chaînes de caractères (espaces de travail Microsoft Access uniquement). Valeur **Long** en lecture seule.
 
@@ -49,7 +49,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortArabic</strong></p></td>
-<td><p>Arabe</p></td>
+<td><p>Arabic</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortChineseSimplified</strong></p></td>
@@ -166,16 +166,16 @@ La disponibilité de la propriété **CollatingOrder** dépend de l'objet conten
 <td><p>Non pris en charge</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>QueryDef</strong></p></td>
+<td><p>objet <strong>QueryDef</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p>							objet <strong>Recordset</strong></p></td>
+<td><p>objet <strong>Recordset</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>objet <strong>Relation</strong></p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
 <td><p>objet <strong>TableDef</strong></p></td>
@@ -185,7 +185,7 @@ La disponibilité de la propriété **CollatingOrder** dépend de l'objet conten
 </table>
 
 
-Le paramètre de propriété **CollatingOrder** correspond à l’argument paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou de la méthode **CompactDatabase** lors du dernier compactage de la base de données.
+Le paramètre de la propriété **CollatingOrder** correspond à l'argument paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou de la méthode **CompactDatabase** lors du dernier compactage de la base de données.
 
 Les paramètres de propriété **CollatingOrder** et **Attributes** d'un objet **Field2** d'une collection **Fields** d'un objet **Index** déterminent ensemble la séquence et la direction de l'ordre de tri dans un index. Toutefois, vous ne pouvez définir aucun ordre de tri pour un index individuel, vous pouvez uniquement le faire pour une table entière.
 

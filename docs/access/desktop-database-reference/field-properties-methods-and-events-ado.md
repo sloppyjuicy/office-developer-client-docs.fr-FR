@@ -1,5 +1,5 @@
 ---
-title: Propriétés de champ, méthodes et événements (ADO)
+title: Propriétés, méthodes et événements de champ (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 41169853-7c6b-500e-df6b-cf7083a930a9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249186(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 62e3ecdc2ab341314902d453ecbf745da4ab4dd3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293048"
 ---
-# <a name="field-properties-methods-and-events-ado"></a>Propriétés de champ, méthodes et événements (ADO)
+# <a name="field-properties-methods-and-events-ado"></a>Propriétés, méthodes et événements de champ (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propriétés/Collections
 
@@ -39,7 +39,7 @@ ms.locfileid: "28702823"
 - [AppendChunk, méthode](appendchunk-method-ado.md)
 - [GetChunk, méthode](getchunk-method-ado.md)
 
-## <a name="events"></a>Événements
+## <a name="events"></a>Events
 
 Aucun.
 

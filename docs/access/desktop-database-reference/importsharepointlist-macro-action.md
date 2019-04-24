@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: df77d2375b66df907832b6ff2717427ae54a35a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291858"
 ---
 # <a name="importsharepointlist-macro-action"></a>ImportSharePointList, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'action **ImporterListeSharePoint** permet d'importer ou de lier des données à partir d'un site Microsoft SharePoint Foundation.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L'action **ImporterListeSharePoint** utilise les arguments suivants :
+L’action **ImporterListeSharePoint** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -47,8 +47,8 @@ L'action **ImporterListeSharePoint** utilise les arguments suivants :
 <td><p><strong>Type de transfert</strong></p></td>
 <td><p>Sélectionnez le type de transfert.</p>
 <ul>
-<li><p>Sélectionnez <strong>Importer</strong> pour copier les données Windows SharePoint Services dans une table Microsoft Access. Mises à jour les données dans Access n’affectent pas les données dans Windows SharePoint Services. De même, les mises à jour les données dans Windows SharePoint Services n’affectent pas les données dans Access.</p></li>
-<li><p>Sélectionnez le <strong>lien</strong> pour créer une table attachée dans Access liée aux données dans Windows SharePoint Services. Mises à jour les données dans Access sont reflétées dans Windows SharePoint Services. De même, les mises à jour les données dans Windows SharePoint Services sont répercutées dans Access.</p></li>
+<li><p>Sélectionnez <strong>Importer</strong> pour copier les données SharePoint Foundation dans un tableau dans Microsoft Access. Les mises à jour des données dans Access n'ont pas d'incidence sur les données dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation n'affectent pas les données dans Access.</p></li>
+<li><p>Sélectionnez <strong>lien</strong> pour créer une table attachée dans Access qui lie les données dans SharePoint Foundation. Les mises à jour des données dans Access sont reflétées dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation sont reflétées dans Access.</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -94,9 +94,9 @@ L'action **ImporterListeSharePoint** utilise les arguments suivants :
     
   2. Si l'affichage que vous recherchez n'est pas dans la liste, cliquez sur la flèche de la liste déroulante **Affichage** et sélectionnez l'affichage voulu.
     
-  3. Cliquez sur la flèche de la liste déroulante **Affichage**, puis sélectionnez **Modifier cet affichage**.L'adresse dans la barre d'adresse du navigateur contient les GUID de la liste et de l'affichage. Le GUID de la liste est à la suite de **Liste=** et celui de l'affichage est à la suite de **Affichage=**. Cependant, dans l'adresse, chaque caractère **{** (accolade de gauche) est représenté par la chaîne **%7B**, chaque caractère **-** (tiret) est représenté par la chaîne **%2D** et chaque caractère **}** (accolade de droite) est représenté par la chaîne **%7D**. Par exemple:
+  3. Cliquez sur la flèche de la liste déroulante **Affichage**, puis sélectionnez **Modifier cet affichage**.L'adresse dans la barre d'adresse du navigateur contient les GUID de la liste et de l'affichage. Le GUID de la liste est à la suite de **Liste=** et celui de l'affichage est à la suite de **Affichage=**. Cependant, dans l'adresse, chaque caractère **{** (accolade de gauche) est représenté par la chaîne **%7B**, chaque caractère **-** (tiret) est représenté par la chaîne **%2D** et chaque caractère **}** (accolade de droite) est représenté par la chaîne **%7D**. Par exemple :
         
      `https://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D`
         
-  Avant de pouvoir utiliser le GUID de l’adresse en tant qu’arguments dans cette action de macro, vous devez remplacer chaque chaîne **7 b %** avec le caractère **{** , remplacer chaque **% 2D** chaîne avec la **-** de caractères et remplacez chaque chaîne **% 7 D** avec le caractère **}** . N'incluez pas le caractère **&** (et commercial) qui suit la chaîne **%7D** dans le GUID de la liste.
+  Avant de pouvoir utiliser les GUID de l'adresse comme arguments dans cette action de macro, vous devez remplacer chaque chaîne **% 7B** par le caractère **{** , remplacer chaque chaîne **% 2D** par le **-** caractère et remplacer chaque chaîne **% 7D** par la chaîne **}** . N'incluez pas le caractère **&** (et commercial) qui suit la chaîne **%7D** dans le GUID de la liste.
 

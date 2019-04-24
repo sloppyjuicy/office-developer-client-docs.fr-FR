@@ -1,5 +1,5 @@
 ---
-title: Méthode Index.CreateField (DAO)
+title: Index. CreateField, méthode (DAO)
 TOCTitle: CreateField Method
 ms:assetid: fc82b785-8768-b144-a2a4-c1f1798865a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aedda14273446ff6823776e535eb7995aa127fa5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291830"
 ---
-# <a name="indexcreatefield-method-dao"></a>Méthode Index.CreateField (DAO)
+# <a name="indexcreatefield-method-dao"></a>Index. CreateField, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CreateField (***nom***, ***Type***, ***taille***)
+*expression* . CreateField (***nom***, ***type***, ***taille***)
 
-*expression* Variable qui représente un objet **Index** .
+*expression* Variable qui représente un objet **index** .
 
 ## <a name="parameters"></a>Paramètres
 
@@ -38,7 +38,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -68,15 +68,15 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Champ
+Field
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser la méthode **CreateField** pour créer un champ, spécifier le nom, le type de données et la taille du champ. Si vous omettez une ou plusieurs des parties facultatives lorsque vous utilisez la méthode **CreateField**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d'ajouter le nouvel objet à la collection. Une fois que vous avez ajouté le nouvel objet, vous pouvez modifier une partie de ses paramètres de propriété, mais pas tous. Pour plus d'informations, reportez-vous aux rubriques concernant cette propriété.
+Vous pouvez utiliser la méthode **CreateField** pour créer un champ, spécifier le nom, le type de données et la taille du champ. Si vous omettez une ou plusieurs des parties facultatives lorsque vous utilisez la méthode **CreateField**, vous pouvez utiliser une instruction d’affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d’ajouter le nouvel objet à la collection. Une fois que vous avez ajouté le nouvel objet, vous pouvez modifier une partie de ses paramètres de propriété, mais pas tous. Pour plus d’informations, reportez-vous aux rubriques concernant cette propriété.
 
-Les arguments de type et la taille s’appliquent uniquement aux objets **Field** dans un objet **TableDef** . Ces arguments sont ignorés lorsqu'un objet **Field** est associé à un objet **Index** ou **Relation**.
+Les arguments type et Size s'appliquent uniquement aux objets **Field** dans un objet **TableDef** . Ces arguments sont ignorés lorsqu'un objet **Field** est associé à un objet **Index** ou **Relation**.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’exécution se produit lorsque vous utilisez la méthode **[Append](fields-append-method-dao.md)** .
+Si name fait référence à un objet qui est déjà membre de la collection, une erreur d'exécution se produit lorsque vous utilisez la méthode **[Append](fields-append-method-dao.md)** .
 
 Pour supprimer un objet **Field** d'une collection **Fields**, utilisez la méthode **[Delete](fields-delete-method-dao.md)** dans la collection. Vous ne pouvez pas supprimer un objet **Field** dans la collection **Fields** d'un objet **TableDef** une fois que vous avez créé un index qui renvoie à ce champ.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété QueryDef.ODBCTimeout (DAO)
+title: QueryDef. ODBCTimeout, propriété (DAO)
 TOCTitle: ODBCTimeout Property
 ms:assetid: b251c4fb-64a8-aa95-deed-64425df3e00c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822019(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d34aee30e649b1c25ddc6af8078da2af9dd3b84
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301000"
 ---
-# <a name="querydefodbctimeout-property-dao"></a>Propriété QueryDef.ODBCTimeout (DAO)
+# <a name="querydefodbctimeout-property-dao"></a>QueryDef. ODBCTimeout, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le nombre de secondes d'attente avant que ne survienne une erreur d'expiration lors de l'exécution d'un objet **[QueryDef](querydef-object-dao.md)** sur une base de données ODBC.
 
@@ -41,7 +41,7 @@ La définition de la propriété **ODBCTimeout** d'un objet **QueryDef** écrase
 
 ## <a name="example"></a>Exemple
 
-L'exemple ci-dessous fait appel aux propriétés **ODBCTimeout** et **QueryTimeout** pour indiquer comment le paramètre **QueryTimeout** d'un objet **Database** définit le paramètre **ODBCTimeout** par défaut des objets **QueryDef** créés à partir de l'objet **Database**.
+Cet exemple utilise les propriétés **ODBCTimeout** et **QueryTimeout** pour montrer comment le paramètre **QueryTimeout** d'un objet **Database** définit le paramètre **ODBCTimeout** par défaut sur tout objet **QueryDef** créé à partir de l'objet **Database**.
 
 ```vb 
 Sub ODBCTimeoutX() 

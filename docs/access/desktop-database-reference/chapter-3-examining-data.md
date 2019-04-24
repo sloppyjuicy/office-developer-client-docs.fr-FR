@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fcf837a02c40d11fecfa56b8aa34ac80a848411
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296457"
 ---
 # <a name="chapter-3-examining-data"></a>Chapitre 3 : Examen de données
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le chapitre 2 vous a appris à récupérer des données à partir d'une source de données présentée sous la forme d'un objet **Recordset**. Ce chapitre décrit l'objet **Recordset** plus en détail et explique notamment comment naviguer dans un **Recordset** afin d'afficher ses données.
 
@@ -72,43 +72,43 @@ Nom = ProductID</p></th>
 <th><p>CHAMP 1<br />
 Nom = ProductName</p></th>
 <th><p>CHAMP 2<br />
-Nom = UnitPrice</p></th>
+Nom = PrixUnitaire</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>7</p></td>
+<td><p>7j/7</p></td>
 <td><p>Pêches séchées bio Oncle Bob</p></td>
-<td><p>30.0000</p></td>
+<td><p>30,0000</p></td>
 </tr>
 <tr class="even">
-<td><p>14</p></td>
-<td><p>Tofu</p></td>
-<td><p>23.2500</p></td>
+<td><p>13</p></td>
+<td><p>Longvi</p></td>
+<td><p>23,2500</p></td>
 </tr>
 <tr class="odd">
-<td><p>28</p></td>
+<td><p>vingt</p></td>
 <td><p>Choucroute Frau Kraut</p></td>
-<td><p>45.6000</p></td>
+<td><p>45,6000</p></td>
 </tr>
 <tr class="even">
 <td><p>51</p></td>
 <td><p>Pommes séchées Manjimup</p></td>
-<td><p>53.0000</p></td>
+<td><p>53,0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>74</p></td>
 <td><p>Tofu LongVi</p></td>
-<td><p>10.0000</p></td>
+<td><p>10,0000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-La section suivante explique comment trouver la position actuelle du curseur dans cet exemple de **jeu d’enregistrements**.
+La section suivante explique comment trouver la position actuelle du curseur dans cet exemple d' **objet Recordset**.
 
 Ce chapitre présente les rubriques suivantes :
 
-- [Localisation de l’enregistrement actif (ADO)](locating-the-current-record.md)
-- [Naviguer dans les données (ADO)](navigating-through-the-data.md)
-- [Présentation de la structure de l’objet Recordset (ADO)](understanding-recordset-structure.md)
+- [Localisation de l'enregistrement actif (ADO)](locating-the-current-record.md)
+- [Navigation dans les données (ADO)](navigating-through-the-data.md)
+- [Présentation de la structure du recordset (ADO)](understanding-recordset-structure.md)

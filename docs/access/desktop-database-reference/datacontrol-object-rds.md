@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2ffe674f3aa02e5cc8b1f89375ca66b4efa623f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294518"
 ---
 # <a name="datacontrol-object-rds"></a>DataControl, objet (RDS)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Lie un [objet Recordset](recordset-object-ado.md) de requête de données à un ou plusieurs contrôles (par exemple, une zone de texte, contrôle de grille ou zone de liste déroulante) pour afficher les données du **jeu d’enregistrements** sur une page Web.
+Lie un [objet Recordset](recordset-object-ado.md) de requête de données à un ou plusieurs contrôles (par exemple, une zone de texte, un contrôle Grid ou une zone de liste déroulante) pour afficher les données du **jeu d'enregistrements** sur une page Web.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -30,7 +30,7 @@ Lie un [objet Recordset](recordset-object-ado.md) de requête de données à un 
     </OBJECT>
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L'identificateur de classe (Class ID) de l'objet **RDS.DataControl** est BD96C556-65A3-11D0-983A-00C04FC29E33.
 
@@ -44,7 +44,7 @@ Toutes les propriétés de l'objet **RDS.DataControl** sont facultatives car des
 > [!NOTE]
 > [!REMARQUE] Si votre requête porte sur des résultats multiples, seul le premier [Recordset](recordset-object-ado.md) (jeu d'enregistrements) est renvoyé. Si des jeux multiples de résultats sont nécessaires, affectez chacun d'entre eux à un **DataControl** individuel. 
 > 
-> Un exemple d’une requête de résultats multiples peut être la suivante : `"Select * from Authors, Select * from Topics"`.
+> Voici un exemple de requête pour plusieurs résultats: `"Select * from Authors, Select * from Topics"`.
 
 En ajoutant « DFMode=20; » à la chaîne de connexion lorsque vous utilisez l'objet **RDS.DataControl**, vous améliorerez les performances du serveur lors de la mise à jour des données. Avec ce paramètre, l'objet **RDSServer.DataFactory** utilise moins de ressources au niveau du serveur. Toutefois, les fonctions suivantes ne sont pas disponibles dans cette configuration :
 
@@ -81,19 +81,19 @@ Utilisez un objet **RDS.DataControl** pour lier les résultats d'une seule requ�
 
 Utilisez des objets **RDS.DataControl** différents pour lier les résultats de requêtes multiples à des contrôles visuels distincts. Supposons par exemple que vous utilisiez une requête pour obtenir des informations sur un client et une deuxième requête pour obtenir des informations sur les articles achetés par ce client. Vous voulez afficher les résultats de la première requête dans trois zones de texte et à l'aide d'une case à cocher, et ceux de la deuxième requête dans un contrôle de grille. Si vous utilisez l'objet métier par défaut (**RDSServer.DataFactory**), vous devez procéder comme suit :
 
-  - Ajoutez deux **RDS. DataControl** objets à votre page Web.
+  - Ajoutez deux objets **RDS. DataControl** à votre page Web.
 
   - Rédiger deux requêtes, une pour chaque propriété **SQL** des deux objets **RDS.DataControl**. Un objet **RDS.DataControl** contiendra une requête SQL demandant des informations client ; le deuxième objet contiendra une requête demandant la liste des articles achetés par le client.
 
   - Dans chaque balise OBJECT des contrôles liés, indiquez la valeur DATAFLD pour définir les valeurs des données à afficher dans chaque contrôle visuel.
 
-Il n’existe aucune restriction de comptage du nombre de **RDS. DataControl** objets que vous pouvez imbriquer via des balises OBJECT dans une seule page Web.
+Il n'y a aucune restriction de nombre sur le nombre d'objets **RDS. **Les objets DataControl que vous pouvez incorporer via des balises d'objet sur une page Web unique.
 
-Lorsque vous définissez la **RDS. DataControl** d’objets sur une page Web, utilisez des valeurs différentes de zéro de **hauteur** et la **largeur** tel que 1 (pour éviter d’inclure des espaces inutiles).
+Lorsque vous définissez l' **objet RDS. DataControl** dans une page Web, utilisez des valeurs autres que zéro pour la **hauteur** et la **largeur** , telles que 1 (pour éviter d'inclure des espaces inutiles).
 
 Les composants clients Remote Data Service sont déjà inclus dans Internet Explorer 4.0 ; vous n'avez donc pas besoin d'inclure un paramètre CODEBASE dans votre balise d'objet **RDS.DataControl**.
 
-Avec Internet Explorer 4.0 ou version ultérieure, vous pouvez lier aux données à l’aide de contrôles HTML et les contrôles ActiveX uniquement s’ils sont marqués comme des contrôles de modèle apartment.
+Avec Internet Explorer 4,0 ou une version ultérieure, vous pouvez lier des données à l'aide de contrôles HTML et de contrôles ActiveX uniquement s'ils sont marqués comme contrôles de modèle cloisonné.
 
-**Utilisateurs de Microsoft Visual Basic** **RDS. DataControl** est utilisé uniquement dans les applications Web. Les applications clientes Visual Basic n'en ont pas besoin.
+**Utilisateurs de Microsoft Visual Basic** L' **objet RDS. DataControl** est utilisé uniquement dans les applications Web. Les applications clientes Visual Basic n'en ont pas besoin.
 

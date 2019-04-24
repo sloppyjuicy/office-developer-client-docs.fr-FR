@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.RecordsetType (DAO)
+title: Recordset. RecordsetType, propriété (DAO)
 TOCTitle: RecordsetType Property
 ms:assetid: a66d4043-08cc-ead1-f9ff-efc7d7ea21bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821178(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 64f7dda8bec7806ef510d265deab350dc3cdad6b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709655"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307629"
 ---
-# <a name="recordsetrecordsettype-property-dao"></a>Propriété Recordset.RecordsetType (DAO)
+# <a name="recordsetrecordsettype-property-dao"></a>Recordset. RecordsetType, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-La propriété **RecordsetType** permet de spécifier le genre de jeu d'enregistrement disponible pour un formulaire. Type de données **Byte** en lecture-écriture.
+La propriété **RecordsetType** permet de spécifier le genre de jeu d'enregistrement disponible pour un formulaire. Type de données **Octet** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
 *expression* . RecordsetType
 
-*expression* Une variable qui représente un objet **Form**.
+*expression* Variable qui représente un objet **Form**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -42,7 +42,7 @@ La propriété **RecordsetType** utilise les paramètres suivants dans une base 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Setting</p></th>
 <th><p>Type de jeu d'enregistrement</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -50,16 +50,16 @@ La propriété **RecordsetType** utilise les paramètres suivants dans une base 
 <tbody>
 <tr class="odd">
 <td><p>0</p></td>
-<td><p>Feuille de réponse dynamique</p></td>
-<td><p>(Valeur par défaut) Vous pouvez modifier les contrôles dépendants basés sur une seule table ou des tables avec une relation. Pour les contrôles liés à des champs basés sur des tables avec une relation un-à-plusieurs, vous ne pouvez pas modifier les données du champ sur la &quot;un&quot; côté de la relation, sauf si la mise à jour en cascade est activée entre les tables.</p></td>
+<td><p>Jeu</p></td>
+<td><p>(Valeur par défaut) Vous pouvez modifier des contrôles dépendants basés sur une seule ou plusieurs tables avec une relation un-à-un. Pour les contrôles liés à des champs basés sur des tables avec une relation un-à-plusieurs, vous ne pouvez pas modifier les données &quot;du&quot; champ de jointure du côté un de la relation, sauf si la mise à jour en cascade est activée entre les tables.</p></td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Feuille rép.dyn.(MAJ globale)</p></td>
 <td><p>Toutes les tables et tous les contrôles correspondant à leurs champs peuvent être édités.</p></td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Instantané</p></td>
 <td><p>Aucune table ou aucun contrôle correspondant à leurs champs ne peut être édité.</p></td>
 </tr>
@@ -79,7 +79,7 @@ Dans un projet Microsoft Access (.adp), la propriété **RecordsetType** utilise
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Setting</p></th>
 <th><p>Type de jeu d'enregistrement</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -103,7 +103,7 @@ Dans un projet Microsoft Access (.adp), la propriété **RecordsetType** utilise
 
 Vous pouvez créer des formulaires basés sur des tables sous-jacentes multiples avec des champs correspondants à des contrôles dans les formulaires. En fonction du paramètre de la propriété **RecordsetType**, vous pouvez choisir lesquels de ces contrôles dépendants pourront être édités.
 
-Outre le contrôle d’édition fourni par la **propriété RecordsetType**, chaque contrôle d’un formulaire a une propriété **Locked** que vous pouvez définir pour spécifier si le contrôle et ses données sous-jacentes peuvent être modifiés. Si la propriété **Locked** est définie sur Oui, vous ne pouvez pas modifier les données.
+Outre le contrôle d'édition fourni par la propriété **RecordsetType**, chaque contrôle d'un formulaire possède une propriété **Locked** que vous pouvez définir pour spécifier si le contrôle et ses données sous-jacentes peuvent être modifiés. Si la propriété **Locked** est définie sur Oui, vous ne pouvez pas modifier les données.
 
 ## <a name="example"></a>Exemple
 

@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e0cdf85461276d26005bc3066a387031a1086691
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291886"
 ---
 # <a name="importexportdata-macro-action"></a>ImportExportData, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'action **ImporterExporterDonnées** permet d'importer ou d'exporter des données entre la base de données Access (.mdb ou .accdb) active, ou le projet Access (.adp) actif et une autre base de données. Pour les bases de données Microsoft Access, vous pouvez également attacher une table à la base de données Access active, à partir d'une autre base de données. Avec une table attachée, vous pouvez accéder aux données de la table sans déplacer celle-ci de l'autre base de données.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 ## <a name="settings"></a>Paramètres
 
-L'action **ImporterExporterDonnées** utilise les arguments suivants :
+L’action **ImporterExporterDonnées** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ L'action **ImporterExporterDonnées** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><strong>Type de transfert</strong></p></td>
-<td><p>Type de transfert à effectuer. Sélectionnez <strong>Importation</strong>, <strong>Exportation</strong>, ou <strong>Attache</strong> dans la zone <strong>Type de transfert</strong> de la section <strong>Arguments de l'action</strong> du Générateur de macro. La valeur par défaut est <strong>Importation</strong>.  </p><p><strong>Remarque</strong>: le type de transfert <strong>lien</strong> n’est pas pris en charge pour les projets Access (.adp).</p></td>
+<td><p>Type de transfert à effectuer. Sélectionnez <strong>Importation</strong>, <strong>Exportation</strong>, ou <strong>Attache</strong> dans la zone <strong>Type de transfert</strong> de la section <strong>Arguments de l'action</strong> du Générateur de macro. La valeur par défaut est <strong>Importation</strong>.  </p><p><strong>REMARQUE</strong> : le type de transfert <strong>Link</strong> n’est pas pris en charge pour les projets Access (.adp).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type de base de données</strong></p></td>
@@ -61,7 +61,7 @@ L'action **ImporterExporterDonnées** utilise les arguments suivants :
 <li><p>Sélectionnez une table dans la boîte de dialogue <strong>Attacher les tables</strong>, puis cliquez sur <strong>OK</strong>.</p></li>
 </ol>
 <p>Ouvrez la table attachée en mode Création et affichez les propriétés de la table en cliquant sur <strong>Feuille de propriétés</strong> sous l'onglet <strong>Créer</strong> du groupe <strong>Outils</strong>. Le texte affiché dans le paramètre de propriété <strong>Description</strong> est la chaîne de connexion de cette table.  </p>
-<p>Pour plus d’informations sur les chaînes de connexion ODBC, consultez le fichier d’aide ou la documentation du pilote ODBC de ce type de base de données ODBC.</p></td>
+<p>Pour plus d'informations sur les chaînes de connexion ODBC, consultez le fichier d'aide ou une autre documentation pour le pilote ODBC de ce type de base de données ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type d'objet</strong></p></td>

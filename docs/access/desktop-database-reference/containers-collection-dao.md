@@ -1,5 +1,5 @@
 ---
-title: Collection Containers (DAO)
+title: Containers, collection (DAO)
 TOCTitle: Containers Object
 ms:assetid: 4996ee39-ea13-f560-3069-dd7bc6022119
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9c874a1555fa6a6f5f948275176c57b5fb1c48bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295603"
 ---
-# <a name="containers-collection-dao"></a>Collection Containers (DAO)
+# <a name="containers-collection-dao"></a>Containers, collection (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Une collection **Containers** contient tous les objets **Container** définis dans une base de données.
+Une **** collection containers contient tous les objets **Container** définis dans une base de données.
 
 ## <a name="remarks"></a>Remarques
 
-Chaque objet de **base de données** possède une collection **Containers** composée d’objets **Container** intégrés. Certains de ces objets **Container** sont définis par le moteur de base de données Microsoft Access alors que les autres peuvent définis par d'autres applications.
+Chaque objet **Database** possède une collection **Containers** composée d'objets **Container** intégrés. Certains de ces objets **Container** sont définis par le moteur de base de données Microsoft Access alors que les autres peuvent définis par d'autres applications.
 
 ## <a name="example"></a>Exemple
 

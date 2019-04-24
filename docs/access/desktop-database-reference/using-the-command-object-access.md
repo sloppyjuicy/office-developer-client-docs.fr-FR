@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9b89d292d86035e565ad18413062274dfbfc74db
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312025"
 ---
-# <a name="using-the-command-object-access"></a>À l’aide de l’objet Command (accès)
+# <a name="using-the-command-object-access"></a>Utilisation de l'objet Command (Access)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une fois connecté à une source de données, vous devez y exécuter des requêtes pour obtenir des jeux de résultats. ADO encapsule ce type de fonctionnalité de commande dans l'objet **Command**.
 
@@ -26,9 +26,9 @@ Vous pouvez utiliser l'objet **Command** pour demander au fournisseur n'importe 
 Il n'est pas toujours nécessaire de créer un objet **Command** pour exécuter une commande sur une source de données. Vous pouvez utiliser la méthode **Execute** sur l'objet **Connection**, ou la méthode **Open** sur l'objet **Recordset**. Toutefois, vous devez impérativement utiliser un objet **Command** si vous devez réutiliser une commande dans votre code ou si vous devez transmettre des informations de paramétrage avec votre commande. Ces scénarios sont présentés en détail dans une autre section du présent chapitre.
 
 > [!NOTE]
-> Certaines commandes peuvent renvoyer un résultat sous forme de flux binaire ou en tant qu’un seul enregistrement au lieu d’un jeu d’enregistrements, si cela est pris en charge par le fournisseur. En outre, certaines commandes ne sont pas destinés à renvoyer de jeu de résultats (par exemple, une requête SQL Update). Ce chapitre présente le scénario le plus courant, toutefois : exécution des commandes qui retournent des résultats dans un objet Recordset. Pour plus d’informations sur le renvoi des résultats en enregistrements ou en flux, voir [chapitre 10 : enregistrements et flux](chapter-10-records-and-streams.md).
+> Certains objets Command peuvent renvoyer un jeu de résultats sous la forme d’un flux binaire ou d’un objet Record unique, plutôt que sous forme d’un objet Recordset, si le fournisseur le prend en charge. En outre, certains objets Command ne sont pas conçus pour renvoyer de jeu de résultats (par exemple, une requête SQL Update). Ce chapitre présente le scénario le plus courant, c’est-à-dire l’exécution d’objets Command renvoyant ses résultats dans un objet Recordset. Pour plus d’informations sur le renvoi de résultats dans les objets Recordset ou Stream,  consultez le [Chapitre 10 : Enregistrements et flux](chapter-10-records-and-streams.md).
 
-Cette section comprend les rubriques suivantes :
+Cette section contient les rubriques suivantes :
 
 - [Vue d’ensemble de l’objet Command](command-object-overview.md)
 - [Création et exécution d’une commande simple](creating-and-executing-a-simple-command.md)

@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 63e189143e77f9fcc42fa8d48c3ebfb2feda6633
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719815"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295351"
 ---
 # <a name="createrecord-data-block"></a>Bloc de données CréerEnregistrement
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser le bloc de données **CréerEnregistrement** pour créer un nouvel enregistrement dans la table spécifiée.
 
 > [!NOTE]
-> [!REMARQUE] Le bloc de données **CréerEnregistrement** est disponible uniquement dans les macros de données.
+> Le bloc de données **CréerEnregistrement** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-Le bloc de données **SupprimerEnregistrement** utilise les arguments suivants.
+Le bloc de données **CréerEnregistrement** utilise les arguments suivants.
 
 <table>
 <colgroup>
@@ -56,11 +56,11 @@ Le bloc de données **SupprimerEnregistrement** utilise les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L'enregistrement créé par **CréerEnregistrement** devient automatiquement l'enregistrement actif.
+L’enregistrement créé par **CréerEnregistrement ** devient automatiquement l’enregistrement actif.
 
-Après l’instruction **CréerEnregistrement** , vous pouvez insérer un bloc de commandes qui sera exécuté avant que le nouvel enregistrement est validé. Les actions suivantes sont disponibles dans un bloc de données **CréerEnregistrement**.
+Après l'instruction **CréerEnregistrement** , vous pouvez insérer un bloc de commandes qui s'exécutera avant la validation du nouvel enregistrement. Les actions suivantes sont disponibles dans un bloc de données **CréerEnregistrement**.
 
 <table>
 <colgroup>
@@ -77,7 +77,7 @@ Après l’instruction **CréerEnregistrement** , vous pouvez insérer un bloc d
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">If... Procédez comme suit... Else, instruction de macro</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... Then... Else, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">SetField, action de macro</a></p></td>
@@ -95,7 +95,7 @@ Vous pouvez utiliser une instruction **If... Then... Else** pour effectuer des o
 
 Pour annuler la création d'un enregistrement, utilisez l'action **AnnulerModificationEnregistrement**. Cela empêche la validation des modifications et quitte le bloc de données **CréerEnregistrement**.
 
-Une fois le nouvel enregistrement validé, vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec l'enregistrement. Par exemple, utilisez la syntaxe suivante pour faire référence au champ AssignedTo du dernier enregistrement.
+Une fois le nouvel enregistrement validé, vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec l’enregistrement. Par exemple, utilisez la syntaxe suivante pour faire référence au champ AffectéÀ du dernier enregistrement créé.
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

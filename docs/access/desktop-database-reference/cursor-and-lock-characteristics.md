@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 41a42aa3b0c49a5d871fa7b079a26c7d8076116a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295288"
 ---
 # <a name="cursor-and-lock-characteristics"></a>Caractéristiques du curseur et du verrou
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 S'il est vrai que les caractéristiques d'un curseur dépendent des fonctionnalités du fournisseur, les avantages et inconvénients suivants s'appliquent généralement aux différents types de curseurs et de verrous.
 
@@ -52,7 +52,7 @@ S'il est vrai que les caractéristiques d'un curseur dépendent des fonctionnali
 <td><p><strong>adOpenStatic</strong></p></td>
 <td><p></p>
 <ul>
-<li><p>Défilement possible</p></li>
+<li><p>Défilement</p></li>
 </ul>
 <p></p></td>
 <td><p></p>
@@ -66,7 +66,7 @@ S'il est vrai que les caractéristiques d'un curseur dépendent des fonctionnali
 <td><p></p>
 <ul>
 <li><p>Accès concurrentiel aux données possible mais limité</p></li>
-<li><p>Défilement possible</p></li>
+<li><p>Défilement</p></li>
 </ul>
 <p></p></td>
 <td><p></p>
@@ -81,7 +81,7 @@ S'il est vrai que les caractéristiques d'un curseur dépendent des fonctionnali
 <td><p></p>
 <ul>
 <li><p>Accès concurrentiel aux données élevé</p></li>
-<li><p>Défilement possible</p></li>
+<li><p>Défilement</p></li>
 </ul>
 <p></p></td>
 <td><p></p>

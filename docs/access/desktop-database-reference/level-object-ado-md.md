@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 70fb359aa4faa0bcfc99f0b1700b0eb51f665bc0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290113"
 ---
 # <a name="level-object-ado-md"></a>Level, objet (ADO MD)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Contient un ensemble de membres, chacun occupant le même rang dans une hiérarchie.
 
 ## <a name="remarks"></a>Remarques
 
-Avec les collections et propriétés d'un objet **Level**, vous pouvez :
+Avec les collections et propriétés d'un objet **Level**, vous pouvez :
 
-  - Identifier le **niveau** à l'aide des propriétés [Name](name-property-ado-md.md) et [UniqueName](uniquename-property-ado-md.md).
+  - Identifier le **niveau** à l’aide des propriétés [Name](name-property-ado-md.md) et [UniqueName](uniquename-property-ado-md.md).
 
-  - Renvoyer une chaîne à utiliser lors de l'affichage du **niveau** à l'aide de la propriété [Caption](caption-property-ado-md.md).
+  - Renvoyer une chaîne à utiliser lors de l’affichage du **niveau** à l’aide de la propriété [Caption](caption-property-ado-md.md).
 
-  - Renvoyer une chaîne significative qui décrit le **niveau** à l'aide de la propriété [Description](description-property-ado-md.md).
+  - Renvoyer une chaîne significative qui décrit le **niveau** à l’aide de la propriété [Description](description-property-ado-md.md).
 
-  - Renvoyer les objets [Member](member-object-ado-md.md) qui constituent le **niveau** à l'aide de la collection [Members](members-collection-ado-md.md).
+  - Renvoyer les objets [Member](member-object-ado-md.md) qui constituent le **niveau** à l’aide de la collection [Members](members-collection-ado-md.md).
 
-  - Renvoyer le nombre de niveaux à partir de la racine du **niveau** à l'aide de la propriété [Depth](depth-property-ado-md.md).
+  - Renvoyer le nombre de niveaux à partir de la racine du **niveau** à l’aide de la propriété [Depth](depth-property-ado-md.md).
 
-  - Utiliser la collection ADO standard [Properties](properties-collection-ado.md) pour obtenir des informations supplémentaires à propos de l'objet **Level**.
+  - Utiliser la collection ADO standard [Properties](properties-collection-ado.md) pour obtenir des informations supplémentaires à propos de l’objet **Level**.
 
 La collection **Properties** renferme les propriétés fournies par le fournisseur. Le tableau suivant dresse la liste des propriétés potentiellement disponibles. La liste réelle des propriétés peut varier en fonction de la mise en œuvre du fournisseur. Reportez-vous à la documentation de votre fournisseur pour une liste plus complète des propriétés disponibles.
 
@@ -52,11 +52,11 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nom de catalogue</p></td>
+<td><p>Nomcatalogue</p></td>
 <td><p>Le nom du catalogue auquel ce cube appartient.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nom du cube</p></td>
+<td><p>CubeName</p></td>
 <td><p>Le nom du cube.</p></td>
 </tr>
 <tr class="odd">
@@ -84,7 +84,7 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 <td><p>Le GUID du niveau.</p></td>
 </tr>
 <tr class="odd">
-<td><p>LevelName</p></td>
+<td><p>LevelName,</p></td>
 <td><p>Le nom du niveau.</p></td>
 </tr>
 <tr class="even">

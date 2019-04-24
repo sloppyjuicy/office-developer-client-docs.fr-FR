@@ -1,5 +1,5 @@
 ---
-title: Méthode Database.CreateRelation (DAO)
+title: Méthode Database. CreateRelation (DAO)
 TOCTitle: CreateRelation Method
 ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835692(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 365835bc579a431d34b65cd27ed4de4e12bca309
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294952"
 ---
-# <a name="databasecreaterelation-method-dao"></a>Méthode Database.CreateRelation (DAO)
+# <a name="databasecreaterelation-method-dao"></a>Méthode Database. CreateRelation (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail Microsoft Access uniquement).
+Crée un nouvel objet **[relation](relation-object-dao.md)** (espaces de travail Microsoft Access uniquement). .
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CreateRelation (***nom de*** ***Table***, ***ForeignTable***, ***attributs***)
+*expression* . CreateRelation (***Name***, ***table***, ***ForeignTable***, ***attributes***)
 
-*expression* Variable qui représente un objet de **base de données** .
+*expression* Variable qui représente un objet **Database** .
 
 ## <a name="parameters"></a>Paramètres
 
@@ -42,7 +42,7 @@ Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -52,7 +52,7 @@ Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail
 <td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms d’objets <strong>Relation</strong> valides.</p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d'informations sur les noms de <strong>relations</strong> valides.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Table</em></p></td>
@@ -70,7 +70,7 @@ Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail
 <td><p><em>Attributes</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante ou combinaison de constantes contenant des informations sur le type de relation. Pour plus d’informations, consultez la propriété <strong><a href="field-attributes-property-dao.md">Attributes</a></strong>.</p></td>
+<td><p>Constante ou combinaison de constantes contenant des informations sur le type de relation. Pour plus <strong><a href="field-attributes-property-dao.md"></a></strong> d'informations, voir la propriété Attributes.</p></td>
 </tr>
 </tbody>
 </table>
@@ -88,7 +88,7 @@ Si vous omettez un ou plusieurs arguments facultatifs avec la méthode **CreateR
 
 Avant de pouvoir appeler la méthode **[Append](fields-append-method-dao.md)** sur un objet **Relation**, vous devez ajouter les objets **[Field](field-object-dao.md)** appropriés pour définir la relation des tables de clé primaire et étrangère.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection ou si les noms des objets **champ** fournies dans la collection **Fields** subordonnée ne sont pas valides, une erreur d’exécution se produit lorsque vous utilisez la méthode **Append** .
+Si l'argument name fait référence à un objet qui est déjà membre de la collection ou si les noms d'objet de **champ** fournis dans la collection de **champs** subordonnés ne sont pas valides, une erreur d'exécution se produit lorsque vous utilisez la méthode **Append** .
 
 Vous ne pouvez ni établir ni conserver de relation entre une table répliquée et une table locale.
 
@@ -96,7 +96,7 @@ Pour supprimer un objet **Relation** de la collection **[Relations](relations-co
 
 ## <a name="example"></a>Exemple
 
-L'exemple ci-dessous fait appel à la méthode **CreateRelation** pour créer un objet **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** nommé Departments. Il illustre également comment la création d'un objet **Relation** entraîne celle des objets **Indexes** nécessaires dans la table étrangère (index DepartmentsEmployees de la table Employees).
+Cet exemple utilise la méthode **CreateRelation** pour créer une **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** appelé Departments. Cet exemple illustre également comment la création d'une nouvelle **Relation** entraîne la création de tout **Indexes** nécessaire dans la table étrangère (l'index DepartmentsEmployees de la table Employees).
 
 ```vb
     Sub CreateRelationX() 

@@ -1,5 +1,5 @@
 ---
-title: Find, méthode - ActiveX Data Objects (ADO)
+title: Find, méthode-ActiveX Data Objects (ADO)
 TOCTitle: Find method (ADO)
 ms:assetid: a7cc9ceb-fdb9-73e2-8328-70b174f93cda
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
@@ -8,38 +8,38 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 32f14e4aeed669e68d976559932306c3cb76c696
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292411"
 ---
 # <a name="find-method-ado"></a>Find, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Recherche un objet [Recordset](recordset-object-ado.md) pour la ligne qui répond aux critères spécifiés. Il est éventuellement possible de spécifier des paramètres facultatifs, tels que la direction de la recherche, la ligne de début et un décalage par rapport à la ligne de début. Si les critères sont satisfaits, la position de ligne actuelle est définie sur l'enregistrement identifié ; sinon la position est définie à la fin (ou au début) de l'objet **Recordset**.
 
 ## <a name="syntax"></a>Syntaxe
 
-Rechercher (*critères*, *SkipRows*, *SearchDirection*, *Démarrer*)
+Find (*Criteria*, *SkipRows*, *SearchDirection*, *Start*)
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*Critères* |Une valeur de type **String** qui contient une instruction spécifiant le nom de colonne, l'opérateur de comparaison et la valeur à utiliser dans la recherche.|
-|*SkipRows* |Facultatif. Une valeur de **type Long** , dont la valeur par défaut est zéro, qui spécifie le décalage de ligne de la ligne active ou de *Démarrer* un signet pour commencer la recherche. Par défaut, la recherche commence à partir de la ligne active.|
+|*SkipRows* |Facultatif. Valeur de type **Long**, dont la valeur par défaut est zéro et qui spécifie le décalage de lignes par rapport à la ligne active ou un signet *Start* à partir duquel commencer la recherche. Par défaut, la recherche commence à partir de la ligne active.|
 |*SearchDirection* |Facultatif. Valeur [SearchDirectionEnum](searchdirectionenum.md) qui spécifie si la recherche doit commencer à partir de la ligne active ou de la ligne disponible suivante selon la direction de la recherche. Une recherche qui ne donne aucun résultat s'arrête à la fin de l'objet **Recordset** si la valeur est **adSearchForward**. En revanche, elle s'arrête au début de l'objet **Recordset** si la valeur est **adSearchBackward**.|
 |*Début* |Facultatif. Signet de type **Variant** qui indique la position de début de la recherche.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un seul nom de colonne peut être spécifié dans *Critères*. Cette méthode ne prend pas en charge les recherches dans plusieurs colonnes.
 
-L’opérateur de comparaison dans *critères* peut être «**\>**« (supérieur à), »**\<**« (inférieur à), « = » (égal à), »\>= » (supérieur ou égal à), «\<= » (inférieur ou égal à), «\<\>» (différent de), ou « like » (correspondance).
+L'opérateur de comparaison dans les *critères* peut**\>** être «» (supérieur à)**\<**, «» (inférieur à), «=» (égal à\>), «=» (supérieur ou égal à\<), «=» (inférieur ou égal à\<\>), «» (différent de) ou «like» (critères spéciaux).
 
-La valeur de *critères* peut être une chaîne, un nombre à virgule flottante ou une date. Valeurs de chaîne sont délimitées par des guillemets simples ou «\#» (signe dièse) marque (par exemple, « état = 'WA' » ou « état = \#WA\#»). Valeurs de date sont délimitées par des «\#» (signe dièse) marque (par exemple, « démarrer\_date \> \#7/22/97\#») et peuvent contenir des heures, minutes et secondes pour indiquer l’horodatage mais ne doivent pas contenir de millisecondes ou erreurs seront produit .
+La valeur figurant dans *Critères* peut être une chaîne, un nombre à virgule flottante ou une date. Les valeurs de chaîne sont délimitées par des\#guillemets simples ou des signes «» (dièse) (par exemple, «State = 'wa' \#»\#ou «state = WA»). les valeurs de Date sont délimitées par des signes «\#» (dièse) (par exemple\_, \> \#«\#date de début 7/22/97») et peuvent contenir des heures, minutes et secondes pour indiquer les horodatages, mais ne doivent pas contenir de millisecondes ou des erreurs se produisent. .
 
 Si l'opérateur de comparaison est « like », la valeur de chaîne peut contenir un astérisque (\*) pour rechercher une ou plusieurs occurrences d'un caractère ou sous-chaîne. Par exemple, « state like 'M\*' »" correspond aux états du Maine et du Massachusetts. Vous pouvez également utiliser des astérisques de début ou de fin pour rechercher une sous-chaîne contenue dans les valeurs. Par exemple, « state like '\*as\*' »" correspond aux états de l'Alaska, de l'Arkansas et du Massachusetts.
 

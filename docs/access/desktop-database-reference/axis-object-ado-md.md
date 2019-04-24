@@ -1,5 +1,5 @@
 ---
-title: Axis, objet (ADO MD)
+title: AXIS, objet (ADO MD)
 TOCTitle: Axis object (ADO MD)
 ms:assetid: a4332b69-8900-08f1-a4e2-9395d005ed42
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 23fdb0d9ba636ae58fa19b42d5a8a47cb01d4ab2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296898"
 ---
-# <a name="axis-object-ado-md"></a>Axis, objet (ADO MD)
+# <a name="axis-object-ado-md"></a>AXIS, objet (ADO MD)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente un axe de position ou de filtrage d'un ensemble de cellules, contenant des membres sélectionnés d'une ou plusieurs dimensions.
 
 ## <a name="remarks"></a>Remarques
 
-Un objet **Axis** peut faire partie d'une collection [Axes](axes-collection-ado-md.md) ou être renvoyé par la propriété [FilterAxis](filteraxis-property-ado-md.md) d'un [ensemble de cellules](cellset-object-ado-md.md).
+Un objet **Axis** peut faire partie d’une collection [Axes](axes-collection-ado-md.md) ou être renvoyé par la propriété [FilterAxis](filteraxis-property-ado-md.md) d’un [ensemble de cellules](cellset-object-ado-md.md).
 
 Avec les collections et propriétés d'un objet **Axis**, vous pouvez :
 

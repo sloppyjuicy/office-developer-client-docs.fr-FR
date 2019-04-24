@@ -1,5 +1,5 @@
 ---
-title: Paramètres de l’événement (référence de base de données du bureau Access)
+title: Paramètres d'événement (référence de base de données de bureau Access)
 TOCTitle: Event parameters
 ms:assetid: 626de9b1-4d45-d77e-ccf2-23f2ea31c043
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249371(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dd4a99ec24a05084a2ae137ded3219c2997f8cf3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293314"
 ---
 # <a name="event-parameters"></a>Paramètres d’événement
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Chaque gestionnaire d'événements comporte un paramètre d'état qui le contrôle. Dans le cas des événements Complete, ce paramètre est également utilisé pour indiquer la réussite ou l'échec de l'opération qui a généré l'événement. La plupart des événements Complete peuvent également comporter un paramètre d'erreur qui fournit des informations concernant une erreur qui a pu se produire, ainsi que des paramètres d'objets qui font référence à des objets ADO utilisés pour effectuer l'opération. Par exemple, l'événement [ExecuteComplete](executecomplete-event-ado.md) comporte des paramètres pour les objets **Command**, **Recordset** et **Connection** associés à l'événement. Dans l'exemple Microsoft Visual Basic suivant, les objets pCommand, pRecordset et pConnection représentent les objets **Command**, **Recordset** et **Connection** utilisés par la méthode **Execute**.
 
@@ -96,7 +96,7 @@ Si vous ne voulez plus traiter un événement, affectez au paramètre *Status* l
 
 ## <a name="error-parameter"></a>Paramètre Error
 
-Le paramètre *Error* est une référence à un objet ADO [erreur](error-object-ado.md) . Lorsque le paramètre *Status* est défini avec la **valeur adStatusErrorsOccurred**, l’objet **Error** contient plus d’informations sur l’échec de l’opération. Si l’événement Will associé à un événement Complete a annulé l’opération en définissant le paramètre *Status* à **adStatusCancel**, l’objet error est toujours défini avec la **valeur adErrOperationCancelled**.
+Le paramètre *Error* est une référence à un objet [Error](error-object-ado.md) ADO . Lorsque le paramètre *Status* est défini avec la valeur **adStatusErrorsOccurred**, l’objet **Error** contient le détail des raisons de l’échec de l’opération. Si l’événement Will associé à un événement Complete a annulé l’opération en affectant au paramètre *Status* la valeur **adStatusCancel**, l’objet Error est toujours défini avec la valeur **adErrOperationCancelled**.
 
 ## <a name="object-parameter"></a>Paramètre Object
 
@@ -124,5 +124,5 @@ End Sub
 
 Dans ce cas, la notification peut éventuellement se déclencher pour chacune des autres raisons. Cependant, elle ne se produira qu'une fois pour chaque raison. Après avoir reçu une notification pour chaque raison, vous ne recevrez une notification que lors de l'ajout d'un nouvel enregistrement.
 
-En revanche, vous devez définir le paramètre *adStatus* avec la **valeur adStatusUnwantedEvent** qu’une seule fois pour demander qu’un gestionnaire d’événements sans **paramètre adReason recevoir des notifications d’événement** .
+En revanche, vous ne devez définir le paramètre *adStatus* avec la valeur **adStatusUnwantedEvent** qu'une seule fois pour demander qu'un gestionnaire d'événements sans paramètre **adReason** ne reçoive plus de notifications d'événements.
 

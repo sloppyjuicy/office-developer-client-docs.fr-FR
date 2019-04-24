@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ddd7566be2581fe449872eb576bf7f11e5a806fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293923"
 ---
 # <a name="detecting-and-resolving-conflicts"></a>Détection et résolution des conflits
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="detecting-and-resolving-conflicts"></a>Détection et résolution des conflits
 
-Si vous manipulez votre objet **Recordset** en mode de mise à jour immédiate, les problèmes d'accès concurrentiel sont fortement réduits. En revanche, si votre application utilise le mode de mise à jour par lot, il est fort probable qu'un utilisateur modifie un enregistrement avant que des modifications apportées par un autre utilisateur à ce même enregistrement soient enregistrées. Dans une tel cas, vous pouvez souhaiter que l'application gère correctement le conflit. Vous voulez peut-être que la dernière personne à avoir envoyé une mise à jour au serveur « gagne » ou que le dernier utilisateur décide de la mise à jour prioritaire en lui donnant le choix entre les deux valeurs conflictuelles.
+Si vous manipulez votre objet **Recordset** en mode de mise à jour immédiate, les problèmes d'accès concurrentiel sont fortement réduits. En revanche, si votre application utilise le mode de mise à jour par lot, il est fort probable qu'un utilisateur modifie un enregistrement avant que des modifications apportées par un autre utilisateur à ce même enregistrement soient enregistrées. Dans une tel cas, vous pouvez souhaiter que l'application gère correctement le conflit. Vous voulez peut-être que la dernière personne à avoir envoyé une mise à jour au serveur « gagne » ou que le dernier utilisateur décide de la mise à jour prioritaire en lui donnant le choix entre les deux valeurs conflictuelles.
 
 Quoi qu'il en soit, ADO fournit les propriétés **UnderlyingValue** et **OriginalValue** de l'objet **Field** afin de gérer ces types de conflits. Utilisez ces propriétés avec la méthode **Resync** et la propriété **Filter** de l'objet **Recordset**.
 
@@ -30,7 +30,7 @@ En cas de conflit détecté par ADO au cours d'une mise à jour par lot, un aver
 
 Lorsque vous appelez **BatchUpdate**, ADO et le fournisseur génèrent des instructions SQL pour effectuer des mises à jour sur la source de données. N'oubliez pas que certaines sources de données possèdent des restrictions quant aux types de colonnes autorisés dans une clause WHERE.
 
-Ensuite, appelez la méthode **Resync** sur le **jeu d’enregistrements** avec l’argument *AffectRecords* égal à **adAffectGroup** et l’argument *ResyncValues* égal à **adResyncUnderlyingValues**. La méthode **Resync** actualise les données dans l'objet **Recordset** actif à partir de la base de données sous-jacente. Si vous utilisez **adAffectGroup**, seuls les enregistrements visibles avec le paramètre de filtre actuel, à savoir les enregistrements présentant un conflit, sont resynchronisés avec la base de données. Ceci permet d'améliorer sensiblement les performances lorsque vous travaillez avec un objet **Recordset** volumineux. En définissant l’argument *ResyncValues* **adResyncUnderlyingValues** lors de l’appel de **Resync**, vous assurez que la propriété **UnderlyingValue** contiendra la valeur (conflictuelle) de la base de données que la **valeur** propriété conserve la valeur saisie par l’utilisateur, et que la propriété **OriginalValue** doit contenir la valeur d’origine pour le champ (la valeur qu’il avait avant le dernier appel réussi de **UpdateBatch** a été effectué). Vous pouvez alors utiliser ces valeurs pour résoudre le conflit par programme ou demander à l'utilisateur de choisir la valeur à utiliser.
+Vous devez ensuite appeler la méthode **Resync** sur l'objet **Recordset** avec l'argument *AffectRecords* égal à **adAffectGroup** et l'argument *ResyncValues* égal à **adResyncUnderlyingValues**. La méthode **Resync** actualise les données dans l'objet **Recordset** actif à partir de la base de données sous-jacente. Si vous utilisez **adAffectGroup**, seuls les enregistrements visibles avec le paramètre de filtre actuel, à savoir les enregistrements présentant un conflit, sont resynchronisés avec la base de données. Ceci permet d'améliorer sensiblement les performances lorsque vous travaillez avec un objet **Recordset** volumineux. En affectant à l'argument *ResyncValues* la valeur **adResyncUnderlyingValues** lors d'un appel de **Resync**, la propriété **UnderlyingValue** contiendra la valeur (conflictuelle) de la base de données, la propriété **Value** gèrera la valeur entrée par l'utilisateur et la propriété **OriginalValue** conservera la valeur initiale du champ (à savoir, la valeur du champ avant le dernier appel réussi de **UpdateBatch**). Vous pouvez alors utiliser ces valeurs pour résoudre le conflit par programme ou demander à l'utilisateur de choisir la valeur à utiliser.
 
 Cette technique est illustrée dans l'exemple de code suivant. Un conflit y est artificiellement créé en utilisant un objet **Recordset** distinct pour modifier une valeur dans la table sous-jacente avant l'appel de **UpdateBatch**.
 

@@ -1,5 +1,5 @@
 ---
-title: Référence d’objet conteneurs (DAO)
+title: Containers, référence d'objet (DAO)
 TOCTitle: Containers Object
 ms:assetid: 62cc5de0-4528-4068-9104-581b0c987c05
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142215(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: edd047be0c7f2bbdabd5644bfcb584d730d63888
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295561"
 ---
-# <a name="containers-object-reference-dao"></a>Référence d’objet conteneurs (DAO)
+# <a name="containers-object-reference-dao"></a>Containers, référence d'objet (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Collection Containers (DAO)](containers-collection-dao.md)
-- [Membres conteneurs (DAO)](containers-members-dao.md)
-- [Propriétés de conteneurs (DAO)](containers-properties-dao.md)
-- [Méthodes de conteneurs (DAO)](containers-methods-dao.md)
+- [Containers, collection (DAO)](containers-collection-dao.md)
+- [Containers, membres (DAO)](containers-members-dao.md)
+- [Propriétés des conteneurs (DAO)](containers-properties-dao.md)
+- [Containers, méthodes (DAO)](containers-methods-dao.md)
 

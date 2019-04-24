@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a85faf900860dabb809a10a92985559b7a7cf2ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297129"
 ---
 # <a name="append-method-ado"></a>Append, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Ajoute un objet à une collection. S'il s'agit de la collection [Fields](fields-collection-ado.md), un nouvel objet [Field](field-object-ado.md) peut être créé avant d'être ajouté à la collection.
 
 ## <a name="syntax"></a>Syntaxe
 
-la *collection*. Ajouter *l’objet*
+*collection*. Append, *objet*
 
-*champs*. Ajouter le *nom*, *Type*, *DefinedSize*, *attributs*, *FieldValue*
+*champs*. Append *Name*, *type*, *DefinedSize*, *Attrib*, *FieldValue*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*collection* |Objet Collection.|
 |*fields* |Collection **Fields**.|
@@ -39,7 +39,7 @@ la *collection*. Ajouter *l’objet*
 |*Attrib* |Facultatif. Valeur [FieldAttributeEnum](fieldattributeenum.md), définie par défaut à **adFldDefault**, qui spécifie les attributs du nouveau champ. Si cette valeur n’est pas spécifiée, le champ contient les attributs dérivés de *Type*.|
 |*FieldValue* |Facultatif. **Variant** représentant la valeur du nouveau champ. S'il n'est pas spécifié, le champ est ajouté avec la valeur Null.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="parameters-collection"></a>Parameters, collection
 
@@ -51,18 +51,18 @@ Faites appel à la méthode [CreateParameter](createparameter-method-ado.md) pou
 
 ### <a name="fields-collection"></a>Fields, collection
 
-Le paramètre *FieldValue* n’est valide que lorsque vous ajoutez un objet **Field** à un objet [Record](record-object-ado.md) , pas à un objet **Recordset** . Avec un objet **Record** , vous pouvez ajouter des champs et fournir des valeurs en même temps. Avec un objet **Recordset** , vous devez créer des champs lorsque le **Recordset** est fermé, puis ouvrir le **jeu d’enregistrements** et affecter des valeurs aux champs.
+Le paramètre *FieldValue* n’est valide que lorsque vous ajoutez un objet **Field** à un objet [Record](record-object-ado.md) et pas à un objet **Recordset**. Avec un objet **Record**, vous pouvez ajouter des champs et fournir des valeurs en même temps, alors qu’avec un objet **Recordset**, vous devez créer des champs lorsque l’objet **Recordset** est fermé, puis ouvrir l’objet **Recordset** et assigner des valeurs aux champs.
 
 
 > [!NOTE]
-> [!REMARQUE] Pour les nouveaux objets **Field** qui ont été ajoutés à la collection **Fields** d'un objet **Record**, la propriété [Value](value-property-ado.md) doit être définie pour qu'une propriété **Field** puisse être spécifiée. Une valeur spécifique doit avoir été affectée au préalable à la propriété **Value** et la méthode [Update](update-method-ado.md) doit avoir été appelée sur la collection **Fields**. Vous pouvez alors accéder à d'autres propriétés comme [Type](type-property-ado.md) ou [Attributes](attributes-property-ado.md).
+> Pour les nouveaux objets **Field** qui ont été ajoutés à la collection **Fields** d’un objet **Record**, la propriété [Value](value-property-ado.md) doit être définie pour qu’une propriété **Field** puisse être spécifiée. Une valeur spécifique doit avoir été affectée au préalable à la propriété **Value** et la méthode [Update](update-method-ado.md) doit avoir été appelée sur la collection **Fields**. Vous pouvez alors accéder à d’autres propriétés comme [Type](type-property-ado.md) ou [Attributes](attributes-property-ado.md).
 
 
 Une erreur se produit si vous tentez d'ajouter des objets **Field** ayant les types de données suivants (**DataTypeEnum**) à la collection **Fields** : **adArray**, **adChapter**, **adEmpty**, **adPropVariant** et **adUserDefined**. De même, les types de données suivants ne sont pas pris en charge par ADO : **adIDispatch**, **adIUnknown** et **adIVariant**. L'ajout de ces derniers ne génère pas d'erreur mais vous risquez d'obtenir des résultats imprévisibles et notamment des pertes de mémoire lorsque vous les utilisez.
 
 ### <a name="recordset"></a>Recordset
 
-Si vous ne définissez pas la propriété [CursorLocation](cursorlocation-property-ado.md) avant d'appeler la méthode **Append**, **CursorLocation** prend automatiquement la valeur **adUseClient** (une valeur [CursorLocationEnum](cursorlocationenum.md)) lorsque la méthode [Open](recordset-object-ado.md) de l'objet [Recordset](open-method-ado-recordset.md) est appelée.
+Si vous ne définissez pas la propriété [CursorLocation](cursorlocation-property-ado.md) avant d’appeler la méthode **Append**, **CursorLocation** prend automatiquement la valeur **adUseClient** (une valeur [CursorLocationEnum](cursorlocationenum.md)) lorsque la méthode [Open](open-method-ado-recordset.md) de l’objet [Recordset](recordset-object-ado.md) est appelée.
 
 Vous obtenez une erreur d'exécution lorsque la méthode **Append** est appelée sur la collection **Fields** d'un objet **Recordset** ouvert ou d'un objet **Recordset** dont la propriété [ActiveConnection](activeconnection-property-ado.md) a été définie. Vous ne pouvez ajouter des champs qu'à un objet **Recordset** qui est fermé et qui n'a pas encore été connecté à une source de données. Ceci se produit, en principe, lorsqu'un objet **Recordset** est créé à l'aide d'une méthode [CreateRecordset](createrecordset-method-rds.md) ou qu'il est assigné à une variable objet.
 

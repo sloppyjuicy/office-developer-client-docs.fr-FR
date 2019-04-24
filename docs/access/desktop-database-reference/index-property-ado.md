@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7d436ec9102c4c75688b6c6ac973ca85e8c280d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291705"
 ---
 # <a name="index-property-ado"></a>Index, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le nom de l'index utilisé pour un objet [Recordset](recordset-object-ado.md).
 
@@ -43,7 +43,7 @@ Si l'index peut être défini, il se peut que la position de la ligne active soi
 
 Si l'index peut être défini et que la valeur de la propriété [LockType](locktype-property-ado.md) est **adLockPessimistic** ou **adLockOptimistic**, une opération [UpdateBatch](updatebatch-method-ado.md) implicite est réalisée. Cela libère le groupe actuel et le groupe attribué. S'il existe un filtre, il est libéré, et la ligne active devient la première ligne du **Recordset** réorganisé.
 
-La propriété **Index** est utilisée en association avec la méthode [Seek](seek-method-ado.md). Si le fournisseur sous-jacent ne prend pas en charge la propriété **Index** (et donc la méthode **Seek** ), pensez à utiliser plutôt la méthode [Find](find-method-ado.md). Déterminer si l’objet **Recordset** prend en charge les index avec la méthode **(adIndex)** [prend en charge](supports-method-ado.md).
+La propriété **Index** est utilisée en association avec la méthode [Seek](seek-method-ado.md). Si le fournisseur sous-jacent ne prend pas en charge la propriété **Index** (et donc la méthode **Seek** ), pensez à utiliser plutôt la méthode [Find](find-method-ado.md). Déterminer si l' **** objet Recordset prend en charge les index avec la méthode [supports](supports-method-ado.md)**(adIndex)** .
 
 La propriété **Index** intégrée n'a aucun rapport avec la propriété [Optimize](optimize-property-dynamic-ado.md) dynamique, même si toutes deux portent sur les index.
 
