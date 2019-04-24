@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ce5e8c43-06af-4afc-9138-5cc51d8fc401
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e6803c54ddd60c1bcebbe7a139c2edf2e7f4449d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bbb79097d03a8ea09cb4aff374231ee780e15395
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328839"
 ---
 # <a name="imapitableseekrowapprox"></a>IMAPITable::SeekRowApprox
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572086"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Déplace le curseur à une position en fraction approximative dans le tableau. 
+Place le curseur sur une position fractionnaire approximative dans le tableau. 
   
 ```cpp
 HRESULT SeekRowApprox(
@@ -38,31 +38,31 @@ ULONG ulDenominator
 
  _ulNumerator_
   
-> [in] Pointeur vers le numérateur de la fraction qui représente la position de la table. Si le paramètre _ulNumerator_ est égale à zéro, le curseur est positionné au début de la table indépendamment de la valeur du dénominateur. Si _ulNumerator_ est égal au paramètre _ulDenominator_ , le curseur est positionné après la dernière ligne du tableau. 
+> dans Pointeur vers le numérateur de la fraction représentant la position de la table. Si le paramètre _ulNumerator_ est égal à zéro, le curseur est positionné au début de la table, quelle que soit la valeur du dénominateur. Si _ulNumerator_ est égal au paramètre _ulDenominator_ , le curseur est positionné après la dernière ligne de tableau. 
     
  _ulDenominator_
   
-> [in] Pointeur vers le dénominateur de la fraction qui représente la position de la table. Le paramètre _ulDenominator_ ne peut pas être égal à zéro. 
+> dans Pointeur vers le dénominateur de la fraction représentant la position de la table. Le paramètre _ulDenominator_ ne peut pas être égal à zéro. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’opération de recherche a réussi.
+> L'opération Seek a réussi.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours qui empêche la ligne opération de démarrage de recherche. L’opération en cours doit être autorisée à effectuer ou il doit être arrêté.
+> Une autre opération est en cours, ce qui empêche le démarrage de l'opération de recherche de ligne. L'opération en cours doit être autorisée ou elle doit être arrêtée.
     
 ## <a name="remarks"></a>Remarques
 
-La position du curseur dans une table après un appel à la méthode **IMAPI::SeekRowApprox** correspond à la fraction heuristique et peuvent ne pas être exacte. Par exemple, certains fournisseurs peuvent implémenter une table par-dessus un arbre binaire, traitement mi-chemin la table en tant que la partie supérieure de l’arborescence pour des raisons de performances. Si l’arborescence n’est pas équilibrée, le point à mi-chemin utilisé ne peut pas être exactement au cours de la table. 
+La position du curseur dans un tableau après un appel à la méthode **IMAPITable:: SeekRowApprox** est la fraction de manière heuristique et peut ne pas être exacte. Par exemple, certains fournisseurs peuvent implémenter une table en haut d'une arborescence binaire, en traitant le point central de la table en tant que haut de l'arborescence pour des raisons de performances. Si l'arborescence n'est pas équilibrée, le point central utilisé peut ne pas être exactement au milieu de la table. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **SeekRowApprox** pour fournir les données pour une implémentation de barre de défilement. Par exemple, si l’utilisateur place le défilement zone 2/3 vers le bas de la barre de défilement, vous pouvez modéliser cette action en appelant **SeekRowApprox** et en passant une valeur décimale équivalente à l’aide de _ulNumerator_ et _ulDenominator_. La recherche **SeekRowApprox** est toujours absolue depuis le début de la table. Pour déplacer vers la fin de la table, les valeurs dans _ulNumerator_ et _ulDenominator_ doivent être identiques. 
+Appelez **SeekRowApprox** pour fournir les données d'une implémentation de barre de défilement. Par exemple, si l'utilisateur positionne la case de défilement 2/3 vers le bas dans la barre de défilement, vous pouvez modéliser cette action en appelant **SeekRowApprox** et en transmettant une valeur fractionnaire équivalente à l'aide de _UlNumerator_ et de _ulDenominator_. La recherche **SeekRowApprox** est toujours absolue à partir du début de la table. Pour accéder à la fin de la table, les valeurs dans _ulNumerator_ et _ulDenominator_ doivent être identiques. 
   
-Utilisez le modèle de numéros est approprié. Autrement dit, pour rechercher une position à mi-chemin par le biais de la table, vous pouvez spécifier 1/2, 10/20 ou 50/100. 
+Utilisez un modèle de nombre approprié. Autrement dit, pour rechercher une position à mi-parcours de la table, vous pouvez spécifier 1/2, 10/20 ou 50/100. 
   
 ## <a name="see-also"></a>Voir aussi
 

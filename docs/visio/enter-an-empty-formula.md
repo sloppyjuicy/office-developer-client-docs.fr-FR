@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5df5c253-f491-7039-ce00-e66417590bb2
 description: ''
-ms.openlocfilehash: 46feb04453025824c2d24358bf82b8e967cba84e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc97a64da977d20d3c76f3d3a083268b4c93bbb3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328973"
 ---
-# <a name="enter-an-empty-formula"></a>Saisie d'une formule vide
+# <a name="enter-an-empty-formula"></a>Entrer une formule vide
 
 1. Sélectionnez la cellule devant contenir la formule.
     
 2. Appuyez sur Suppr, puis sur Entrée.
     
 > [!NOTE]
-> Essayez ceci dans une cellule **de montage** après insertion une formule locale. La cellule revient à « Aucune formule », car il n’existe aucune formule à hériter de la forme de base. 
+> Essayez ceci dans une cellule **Scratch** après avoir inséré une formule locale. La cellule est restaurée sur «aucune formule», car il n'existe pas de formule pour hériter de la forme de base. 
   
 

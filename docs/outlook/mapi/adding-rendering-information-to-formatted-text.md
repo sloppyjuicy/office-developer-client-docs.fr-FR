@@ -1,5 +1,5 @@
 ---
-title: Ajout d’informations de rendu au texte mis en forme
+title: Ajout d'informations de rendu au texte mis en forme
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,25 +8,25 @@ api_type:
 - COM
 ms.assetid: 790180f9-8864-47d4-97fb-35fe16b957c0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a6018c05d1191211242066425e4ae546c1618094
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a67fc7cbb3be5c7a23cb85e60dc33d853614cda2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331121"
 ---
-# <a name="adding-rendering-information-to-formatted-text"></a>Ajout d’informations de rendu au texte mis en forme
+# <a name="adding-rendering-information-to-formatted-text"></a>Ajout d'informations de rendu au texte mis en forme
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour indiquer l’emplacement dans le texte mis en forme, où une pièce jointe est rendue, vous devez insérer une séquence de caractères d’espace réservé dans la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) du message. La séquence d’espace réservé est composée des caractères suivants : `\objattph`.
+Pour indiquer l'emplacement du texte mis en forme dans lequel une pièce jointe est affichée, vous devez insérer une séquence de caractères d'espace réservé dans la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) du message. La séquence d'espace réservé est composée des caractères suivants: `\objattph`.
   
- **Pour ajouter des informations de rendu pour le texte du message mis en forme**
+ **Pour ajouter des informations de rendu au texte du message mis en forme**
   
-- Lors de l’écriture du flux de texte à la propriété du message **PR_RTF_COMPRESSED** , insérez la séquence d’espace réservé et un espace à l’emplacement où la pièce jointe doit être affichée. 
+- Lors de l'écriture du flux de texte dans la propriété **PR_RTF_COMPRESSED** du message, insérez la séquence d'espace réservé et un espace à la position où la pièce jointe doit être affichée. 
     
-- Définissez la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) de chaque pièce jointe à une valeur numérique. La valeur la plus faible doit être affectée à la propriété **PR_RENDERING_POSITION** de la première pièce jointe dans le texte mis en forme ; la valeur la plus élevée pour la dernière pièce jointe. 
+- Définissez la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) de chaque pièce jointe sur une valeur numérique. La valeur la plus faible doit être affectée à la propriété **PR_RENDERING_POSITION** de la première pièce jointe qui doit apparaître dans le texte mis en forme; valeur la plus élevée à la dernière pièce jointe. 
     
 
