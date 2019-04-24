@@ -6,16 +6,16 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7f2b4e04-2f25-44fd-8167-6fe97fa2b719
-ms.openlocfilehash: e3bf7af0e3ee5a49502f3b71890a6c3cedfff6f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f69d1286cc8eb2f42dd742288b961803155664a4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360535"
 ---
 # <a name="rows-visio-shapesheet-reference"></a>Lignes (référence Visio ShapeSheet)
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [Actions, ligne (section Actions)](actions-row-actions-section.md)
     
@@ -29,9 +29,9 @@ ms.locfileid: "19789544"
     
 - [EllipticalArcTo, ligne (section Geometry)](ellipticalarcto-row-geometry-section.md)
     
-- [Dégradé Stop ligne (Section dégradé de remplissage)](gradient-stop-row-fill-gradient-section.md)
+- [Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md)
     
-- [Dégradé Stop ligne (Section dégradé ligne)](gradient-stop-row-line-gradient-section.md)
+- [Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md)
     
 - [Hyperlink, ligne (section Hyperlinks)](hyperlink-row-hyperlinks-section.md)
     
@@ -45,15 +45,15 @@ ms.locfileid: "19789544"
     
 - [PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md)
     
-- [RelCubBezTo, ligne (Section Geometry)](relcubbezto-row-geometry-section.md)
+- [RelCubBezTo Row (Geometry Section)](relcubbezto-row-geometry-section.md)
     
-- [RelEllipticalArcTo, ligne (Section Geometry)](relellipticalarcto-row-geometry-section.md)
+- [RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md)
     
-- [RelLineTo, ligne (Section Geometry)](rellineto-row-geometry-section.md)
+- [RelLineTo Row (Geometry Section)](rellineto-row-geometry-section.md)
     
-- [RelMoveTo, ligne (Section Geometry)](relmoveto-row-geometry-section.md)
+- [RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md)
     
-- [RelQuadBezTo, ligne (Section Geometry)](relquadbezto-row-geometry-section.md)
+- [RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md)
     
 - [Shape Data, ligne (section Shape Data)](shape-data-row-shape-data-section.md)
     

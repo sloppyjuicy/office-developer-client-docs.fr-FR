@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8316bfa1-3077-401f-aa1e-e9492aca12a8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 47ea122fce7969b326dbd48f875696b91de464f5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 68eb74f53d6cee4661c98604ec2ea37609e20ab5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351120"
 ---
 # <a name="imapiviewcontextgetsavestream"></a>IMAPIViewContext::GetSaveStream
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568573"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère un flux de données à utiliser pour l’enregistrement du message en cours.
+Récupère un flux à utiliser pour enregistrer le message actif.
   
 ```cpp
 HRESULT GetSaveStream(
@@ -39,19 +39,19 @@ LPSTREAM FAR * ppstm
 
  _pulFlags_
   
-> [out] Pointeur vers un masque de bits d’indicateurs qui contrôle la façon dont le texte du message doit être enregistré. Vous pouvez définir l’indicateur suivant :
+> remarquer Pointeur vers un masque de des indicateurs qui contrôle la manière dont le texte du message doit être enregistré. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Le texte du message est enregistré au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, le texte est enregistré au format ANSI.
+> Le texte du message est enregistré au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, le texte est enregistré au format ANSI.
     
  _pulFormat_
   
-> [out] Pointeur vers un masque de bits d’indicateurs qui contrôle le format du texte enregistré. Les indicateurs suivants peuvent être définis :
+> remarquer Pointeur vers un masque de des indicateurs qui contrôle le format du texte enregistré. Les indicateurs suivants peuvent être définis:
     
 SAVE_FORMAT_RICHTEXT 
   
-> Le texte du message doit être enregistré en tant que texte mis en forme dans le Format de texte enrichi (RTF). 
+> Le texte du message doit être enregistré sous forme de texte mis en forme au format RTF (Rich Text Format). 
     
 SAVE_FORMAT_TEXT 
   
@@ -59,21 +59,21 @@ SAVE_FORMAT_TEXT
     
  _ppstm_
   
-> [out] Pointeur vers un pointeur vers le flux qui contiendra le message enregistré.
+> remarquer Pointeur vers un pointeur vers le flux qui contiendra le message enregistré.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le flux de données a été récupéré correctement.
+> Le flux a été correctement récupéré.
     
 ## <a name="remarks"></a>Remarques
 
-Objets de formulaire appeler la méthode **IMAPIViewContext::GetSaveStream** pour récupérer un objet qui implémente l’interface **IStream** pour prendre en charge la gestion de l’action Enregistrer sous dans la visionneuse de formulaire de flux. La méthode [IMAPIForm::DoVerb](imapiform-doverb.md) , qui est implémentée sous la forme et appelée par la visionneuse de formulaire pour appeler un verbe, ne doit pas renvoyer jusqu'à ce que le message est entièrement converti au format texte approprié et placé dans le flux approprié. 
+Les objets Form appellent la méthode **IMAPIViewContext:: GetSaveStream** pour récupérer un objet qui implémente l'interface **IStream** afin de prendre en charge la gestion du verbe enregistrer sous dans la visionneuse de formulaires. La méthode [IMAPIForm::D overb](imapiform-doverb.md) , qui est implémentée dans le serveur de formulaires et appelée par la visionneuse de formulaires pour appeler un verbe, ne doit pas retourner tant que le message n'est pas entièrement converti au format de texte approprié et placé dans le flux approprié. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Ne pas écrire dans le flux indiqué par _ppstm_ avant d’appeler **GetSaveStream**. Lorsque **GetSaveStream** renvoie, ne pas réinitialiser la position du pointeur de la recherche. Ce pointeur doit rester à la fin du texte du message enregistré. 
+N'écrivez pas dans le flux vers lequel pointe _ppstm_ avant d'appeler **GetSaveStream**. Lorsque **GetSaveStream** renvoie, ne réinitialisez pas la position du pointeur de recherche. Ce pointeur doit rester à la fin du texte du message enregistré. 
   
 ## <a name="see-also"></a>Voir aussi
 

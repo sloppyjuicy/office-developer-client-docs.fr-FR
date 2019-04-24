@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2d8a025-c2a3-4edb-b6e4-022e07e854dd
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2d9a58ff05bb0da07762b9eafddef7303e8b9bc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: a57a72b413ba412154a27a08244e86b117cbea7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357196"
 ---
 # <a name="ixpprovidershutdown"></a>IXPProvider::Shutdown
 
@@ -43,11 +43,11 @@ HRESULT Shutdown (
 
 S_OK 
   
-> L’appel a réussi à l’arrêt du fournisseur de transport.
+> L'appel a réussi à arrêter le fournisseur de transport.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle la méthode **IXPProvider::Shutdown** juste avant la libération d’un objet de fournisseur de transport. Avant d’appeler **l’arrêt**, MAPI libère tous les objets d’ouverture de session pour un fournisseur.
+Le spouleur MAPI appelle la méthode **IXPProvider:: Shutdown** juste avant de publier un objet de fournisseur de transport. Avant d'appeler **Shutdown**, MAPI libère tous les objets d'ouverture de session pour un fournisseur.
   
 ## <a name="see-also"></a>Voir aussi
 

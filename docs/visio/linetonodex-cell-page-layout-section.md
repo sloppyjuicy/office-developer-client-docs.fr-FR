@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 9d58e23e-b411-c5c1-b785-5014488d42c8
 description: Définit l'écart horizontal entre tous les connecteurs et les formes de la page de dessin.
-ms.openlocfilehash: 75f7e8150711421138a01175be34003d124e88ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5a27edb25ce7b1449ad6e2988027b474bd79fdb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358932"
 ---
 # <a name="linetonodex-cell-page-layout-section"></a>LineToNodeX, cellule (section Page Layout)
 
@@ -22,19 +22,19 @@ Définit l'écart horizontal entre tous les connecteurs et les formes de la page
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **disposition et positionnement** . (Sous l’onglet **Création** , cliquez sur la flèche **Mise en Page** , cliquez sur **disposition et positionnement**, puis cliquez sur **espacement**.)
+Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Disposition et positionnement** (sous l’onglet **Création**, cliquez sur la flèche **Mise en page**, cliquez sur **Disposition et positionnement**, puis sur **Espacement**).
   
-Pour obtenir une référence à la cellule LineToNodeY par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule LineToNodeY par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |LineToNodeX  <br/> |
    
-Pour obtenir une référence à la cellule LineToNodeX par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule LineToNodeX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOLineToNodeX** <br/> |
    

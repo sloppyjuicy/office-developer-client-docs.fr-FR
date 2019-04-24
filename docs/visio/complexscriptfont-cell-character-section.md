@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e1cf9e97-101b-384f-65fe-0169c89dfccc
 description: Contient le numéro de la police utilisée pour mettre en forme du texte composé de caractères de script complexe. Les numéros de police varient en fonction des polices installées sur votre système.
-ms.openlocfilehash: 0aae3a22be26f206763f18107eaced74f1078503
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ec8deb59b875a01592b6d7b652204089ecf11e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359380"
 ---
 # <a name="complexscriptfont-cell-character-section"></a>ComplexScriptFont, cellule (section Character)
 
@@ -22,17 +22,17 @@ Contient le numéro de la police utilisée pour mettre en forme du texte compos�
   
 ## <a name="remarks"></a>Remarques
 
-Tailles de police des scripts complexes sont répertoriés sous l’onglet **police** de la boîte de dialogue **texte** (cliquez sur la flèche dans la **police** de groupe sous l’onglet **accueil** ). Cette liste apparaît uniquement si vous avez ajouté une langue qui contienne des caractères asiatiques ou à script complexe, dans la boîte de dialogue **Préférences linguistiques de Microsoft Office** . (Cliquez sur **Démarrer**, sur **Tous les programmes**, sur **Microsoft Office**, sur **Outils Microsoft Office**, puis cliquez sur **Préférences linguistiques de Microsoft Office**.
+Les tailles de police de script complexe sont répertoriées sous l'onglet **police** de la boîte de dialogue **texte** (cliquez sur la flèche dans le groupe **police** de l'onglet **Accueil** ). Cette liste apparaît uniquement si vous avez ajouté une langue qui contient des caractères asiatiques ou des caractères de script complexe dans la boîte de dialogue **Préférences de langue Microsoft Office**. (Cliquez sur **Démarrer**, cliquez sur **Tous les programmes**, cliquez sur **Microsoft Office**, cliquez sur **Outils Microsoft Office**, puis cliquez sur **Préférences de langue Microsoft Office**.
   
-Le nombre 0 (zéro) signifie qu’aucune police n’est spécifiée. La police Latin ou les polices par défaut sont utilisés.
+Le numéro 0 (zéro) signifie qu'aucune police n'est spécifiée. La police Latin ou les polices par défaut sont utilisées.
   
-Pour obtenir une référence à la cellule ComplexScriptSize par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule ComplexScriptSize par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Char.ComplexScriptFont [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Char. ComplexScriptFont [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule ComplexScriptFont par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule ComplexScriptFont à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

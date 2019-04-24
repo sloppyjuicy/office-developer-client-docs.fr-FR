@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6f52ed60-d58b-86e6-f7e2-2ef19d4afa75
 description: Contient le texte de commentaire au format chaîne d'une forme.
-ms.openlocfilehash: f5222836b29a26cc26ca8093576d0962f0592fae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6f21875928bce31dc2004d88f2d281e31265d65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357112"
 ---
 # <a name="comment-cell-miscellaneous-section"></a>Comment, cellule (section Miscellaneous)
 
@@ -22,19 +22,19 @@ Contient le texte de commentaire au format chaîne d'une forme.
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également insérer un commentaire en cliquant sur **Nouveau commentaire** sous l’onglet **révision** . 
+Vous pouvez également insérer un commentaire en cliquant sur **Nouveau commentaire** sous l’onglet **Révision** 
   
-Pour obtenir une référence à la cellule Comment par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Comment par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Commentaires  <br/> |
+|Nom de cellule :  <br/> |Commentaire  <br/> |
    
-Pour obtenir une référence à la cellule Comment par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Comment à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowMisc** <br/> |
 |Index de la cellule :  <br/> |**visComment** <br/> |
    

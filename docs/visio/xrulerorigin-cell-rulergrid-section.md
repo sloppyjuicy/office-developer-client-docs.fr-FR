@@ -1,5 +1,5 @@
 ---
-title: Cellule XRulerOrigin (règle &amp; Section grille)
+title: Cellule XRulerOrigin (section &amp; règle et grille)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm1170
 localization_priority: Normal
 ms.assetid: 328f8ab5-217f-0336-0d56-611eff509fe8
-description: Indique le point zéro de la règle de l’axe des x pour la page.
-ms.openlocfilehash: 78fab70c8489ddcdfe450ef9f9fd88b6c5040211
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Indique le point zéro sur l'axe x de la règle de la page.
+ms.openlocfilehash: d66fd324718ec46b1209c4726eeb2d27c21db8b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346451"
 ---
-# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>Cellule XRulerOrigin (règle &amp; Section grille)
+# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>Cellule XRulerOrigin (section &amp; règle et grille)
 
-Indique le point zéro de la règle de l’axe des x pour la page.
+Indique le point zéro sur l'axe x de la règle de la page.
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l’option **zéro de la règle** horizontale de la **règle &amp; grille** boîte de dialogue (sous l’onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l'option **zéro** de la règle horizontale dans la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
   
-Pour obtenir une référence à la cellule XRulerOrigin par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule XRulerOrigin par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule XRulerOrigin par index dans un progra
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visXRulerOrigin** <br/> |
    

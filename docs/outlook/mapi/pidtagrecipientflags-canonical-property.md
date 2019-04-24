@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9fbe537f-b5fe-48a2-803c-653c50c82efd
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 7b791d75c2a76ea1a504c0d8862dd20f5365b475
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356699"
 ---
 # <a name="pidtagrecipientflags-canonical-property"></a>Propriété canonique PidTagRecipientFlags
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un champ de bits qui décrit l’état du destinataire.
+Spécifie un champ de bits qui décrit l'état du destinataire.
   
 |||
 |:-----|:-----|
@@ -36,40 +36,40 @@ Spécifie un champ de bits qui décrit l’état du destinataire.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est pas requise. Voici les indicateurs individuels qui peuvent être définies.
+Cette propriété n'est pas obligatoire. Les indicateurs suivants peuvent être définis.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|S (recipSendable, 0 x 00000001)  <br/> |Le destinataire est un participant **Sendable** . Cet indicateur est utilisé uniquement dans la propriété **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).  <br/> |
-|O (recipOrganizer, 0x0000002)  <br/> |Le **RecipientRow** sur lequel il est défini représente l’organisateur de la réunion.  <br/> |
-|Restauration d’urgence (recipExceptionalResponse, 0 x 00000010)  <br/> |Indique que le participant a donné une réponse de l’exception sur lequel réside cette **RecipientRow** . Cet indicateur est utilisé uniquement dans un **RecipientRow** d’un objet de messages incorporés d’exception de l’objet de réunion de l’organisateur.  <br/> |
-|ED (recipExceptionalDeleted, 0 x 00000020)  <br/> |Indique que bien que l' **RecipientRow** existe, il doit être traitée comme si le destinataire n’a pas. Cet indicateur est utilisé uniquement dans un **RecipientRow** d’un objet de messages incorporés d’exception de l’objet de réunion de l’organisateur.  <br/> |
-|X (0 x 00000040 réservés,)  <br/> |Ne doit pas être définie.  <br/> |
-|X (0x00000080 réservés,)  <br/> |Ne doit pas être définie.  <br/> |
-|G (recipOriginal, 0 x 00000100)  <br/> |Indique que le destinataire est un participant d’origine. Cet indicateur est utilisé uniquement dans la propriété **dispidApptUnsendableRecips** .  <br/> |
-|X (0 x 00000200 réservés,)  <br/> |Réservé.  <br/> |
+|S (recipSendable, 0x00000001)  <br/> |Le destinataire est un participant qui peut être **envoyé** . Cet indicateur est utilisé uniquement dans la propriété **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).  <br/> |
+|O (recipOrganizer, 0x0000002)  <br/> |Le **RecipientRow** sur lequel cet indicateur est défini représente l'organisateur de la réunion.  <br/> |
+|ER (recipExceptionalResponse, 0x00000010)  <br/> |Indique que le participant a fourni une réponse à l'exception sur laquelle réside cette **RecipientRow** . Cet indicateur est utilisé uniquement dans un **RecipientRow** d'un objet de message d'exception incorporé de l'objet de réunion de l'organisateur.  <br/> |
+|ED (recipExceptionalDeleted, 0x00000020)  <br/> |Indique que même si le **RecipientRow** existe, il doit être traité comme si le destinataire correspondant ne le soit pas. Cet indicateur est utilisé uniquement dans un **RecipientRow** d'un objet de message d'exception incorporé de l'objet de réunion de l'organisateur.  <br/> |
+|X (réservé, 0x00000040)  <br/> |Ne doit pas être défini.  <br/> |
+|X (réservé, 0x00000080)  <br/> |Ne doit pas être défini.  <br/> |
+|G (recipOriginal, 0x00000100)  <br/> |Indique que le destinataire est un participant d'origine. Cet indicateur est utilisé uniquement dans la propriété **dispidApptUnsendableRecips** .  <br/> |
+|X (réservé, 0x00000200)  <br/> |Réservé.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

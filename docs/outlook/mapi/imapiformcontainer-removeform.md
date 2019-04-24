@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a1d11db538d9b5368d80962e44b9eab38b490d2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e53c0cbd9946ff04516594a7ce99fdc2daf4ff4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355741"
 ---
 # <a name="imapiformcontainerremoveform"></a>IMAPIFormContainer::RemoveForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575650"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime un formulaire particulier à partir d’un conteneur de formulaire.
+Supprime un formulaire particulier d'un conteneur de formulaires.
   
 ```cpp
 HRESULT RemoveForm(
@@ -37,7 +37,7 @@ HRESULT RemoveForm(
 
  _szMessageClass_
   
-> [in] Chaîne qui nomme la classe de message du formulaire à supprimer du conteneur de formulaire. Noms de classe de message sont toujours des chaînes ANSI, Unicode jamais.
+> dans Chaîne qui nomme la classe de message du formulaire à supprimer du conteneur de formulaire. Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,7 +47,7 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La classe de message transmise dans le paramètre _szMessageClass_ ne correspond pas à la classe de message de n’importe quel formulaire dans le conteneur du formulaire. 
+> La classe de message passée dans le paramètre _szMessageClass_ ne correspond pas à la classe de message d'un formulaire dans le conteneur de formulaire. 
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -55,7 +55,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::RemoveForm** pour supprimer un formulaire à partir d’un conteneur de formulaire.  <br/> |
+|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer:: RemoveForm** pour supprimer un formulaire d'un conteneur de formulaire.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

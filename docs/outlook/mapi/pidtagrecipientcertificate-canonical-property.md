@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 464db3d360f6e872ac28f8d7cbec842d8b521f7e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c659b77767fddc4c783732082c2eb65c68af8dbf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356713"
 ---
 # <a name="pidtagrecipientcertificate-canonical-property"></a>Propriété canonique PidTagRecipientCertificate
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un certificat ASN.1 d’un destinataire de message pour une utilisation dans un rapport.
+Contient le certificat ASN. 1 d'un destinataire de message à utiliser dans un rapport.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient un certificat ASN.1 d’un destinataire de message pour une utilisation
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une copie de la propriété du destinataire **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) pour une utilisation dans un rapport. Il peut être utilisé pour prouver à l’expéditeur que le destinataire a effectivement reçu le message, un rapport de remise n’indique pas nécessairement.
+Cette propriété est une copie de la propriété **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) du destinataire pour une utilisation dans un rapport. Elle peut être utilisée pour prouver à l'expéditeur que le destinataire a réellement reçu le message, ce qui n'est pas nécessairement indiqué par un rapport de remise.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

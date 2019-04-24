@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b74d4350-4ad6-4c3f-8326-bd28537dfa0f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 0a9d6bbe6807c2893c1bb208976dae9e695aa125
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b2a7a415f97af6aee4b9aa62b4349d2c40bfb55c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355131"
 ---
 # <a name="pidtagremoteprogresstext-canonical-property"></a>Propriété canonique PidTagRemoteProgressText
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient une chaîne qui indique l’état d’un transfert à distance.
+Cette propriété contient une chaîne qui indique l'état d'un transfert distant.
   
 |||
 |:-----|:-----|
@@ -38,17 +38,17 @@ Cette propriété contient une chaîne qui indique l’état d’un transfert à
 
 Un code numérique associé à ce texte est transmis dans la propriété **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

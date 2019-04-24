@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d99a3b6-d0b4-4e8a-8f08-f46fdeb6b3e7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: eabcaaf1db6149ef200e640f5af152758261581b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d5c6e1dc30c3ee7862341bce204b4a78bd6d379b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359443"
 ---
 # <a name="pidtagserviceuid-canonical-property"></a>Propriété canonique PidTagServiceUid
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la structure [MAPIUID](mapiuid.md) d’un service de message. 
+Contient la structure [MAPIUID](mapiuid.md) pour un service de messagerie. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la structure [MAPIUID](mapiuid.md) d’un service de message.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est calculée par MAPI sur les objets section de profil. MAPI utilise pour tous les fournisseurs qui appartiennent au même service de message de groupe. Cette propriété est fournie en tant que paramètre à la plupart des méthodes [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Il ne doit pas apparaître dans le fichier Mapisvc.inf. 
+Cette propriété est calculée par MAPI sur les objets de section de profil. MAPI l'utilise pour regrouper tous les fournisseurs qui appartiennent au même service de messagerie. Cette propriété est fournie en tant que paramètre à la plupart des méthodes [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Il ne doit pas apparaître dans MAPISVC. inf. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

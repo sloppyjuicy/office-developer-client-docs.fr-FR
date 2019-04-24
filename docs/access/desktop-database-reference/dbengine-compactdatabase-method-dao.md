@@ -1,5 +1,5 @@
 ---
-title: Méthode DBEngine.CompactDatabase (DAO)
+title: DBEngine.CompactDatabase Method (DAO)
 TOCTitle: CompactDatabase Method
 ms:assetid: 03f3a156-005a-4b71-81b0-598f326f7d42
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844821(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: b50cb0453df1fa357fbd0b089af2e74fdd4b4c1e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294336"
 ---
-# <a name="dbenginecompactdatabase-method-dao"></a>Méthode DBEngine.CompactDatabase (DAO)
+# <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase Method (DAO)
 
-**S’applique à**: Access 2013 | Accès 2016
+**S’applique à :** Access 2013 | Access 2016
 
-Copie et compacte une base de données fermée et vous donne la possibilité de changer sa version, l’ordre de classement et le chiffrement. (Espaces de travail Microsoft Access uniquement).
+Copie et compacte une base de données fermée, et vous donne la possibilité de changer sa version, son ordre de tri, et son chiffrement. (Espaces de travail Microsoft Access uniquement).
 
 > [!NOTE]
-> Lors de l’utilisation de tables liées chiffrées pour action, mise à jour et les requêtes SQL [par exemple une instruction SQL UPDATE (« Mise à jour … » CurrentDb.Execute)], vous devez fournir la clé de chiffrement. En outre, les tables liées sont limités à 19 caractères pour la clé de chiffrement. Consultez la section **Encrypted des tables liées** à la fin de cette rubrique.
+> Lorsque vous utilisez les tableaux liés chiffrés pour une action, mise à jour et requêtes SQL [par exemple, une instruction SQL de mise à jour (CurrentDb.Execute « Mettre à jour... »)], vous devez fournir la clé de chiffrement. Par ailleurs, les tableaux liés sont limités à 19 caractères pour la clé de chiffrement. Voir la section**Tables liés chiffrés** à la fin de cette rubrique.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CompactDatabase (***NomSource***, ***NomDest***, ***ParamètresRégionauxDst***, ***Options***, ***le mot de passe***)
+*expression* .CompactDatabase(***SrcName***, ***DstName***, ***DstLocale***, ***Options***, ***password***)
 
-*expression* Expression qui renvoie un objet **DBEngine** .
+*expression*Expression renvoyant un objet **DBEngine**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -45,33 +45,33 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>NomSource</em></p></td>
+<td><p><em>SrcName</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Identifie une base de données existante et fermée. Il peut être un chemin d’accès complet et le nom de fichier, tel que &quot;C:\db1.mdb&quot;. Si le nom de fichier doté d’une extension, vous devez le spécifier. Si votre réseau prend en charge, vous pouvez également spécifier un chemin d’accès réseau, tel que &quot; \\server1\share1\dir1\db1.mdb&quot;</p></td>
+<td><p>Identifie une base de données existante, fermée. Il peut s'agir d'un nom de fichier et chemin d'accès complet, par exemple&quot;C:\db1.mdb&quot;. Si le nom de fichier a une extension, vous devez la spécifier. Si votre réseau assure la prise en charge des chemins d'accès réseau, vous pouvez également préciser celui-ci, par exemple &quot;\\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
-<td><p><em>NomDest</em></p></td>
+<td><p><em>DstName</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>nom de fichier (et chemin d’accès) de la base de données compactée que vous créez. Vous pouvez également spécifier un chemin d’accès réseau. Vous ne pouvez pas utiliser cet argument pour spécifier le même fichier de base de données que NomSource.</p></td>
+<td><p>Nom de fichier (et chemin d'accès) de la base de données compactée que vous créez. Il est également possible de spécifier un chemin d'accès réseau. Vous ne pouvez pas utiliser cet argument pour indiquer le même fichier de base de données que SrcName.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>ParamètresRégionauxDst</em></p></td>
+<td><p><em>DstLocale</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Expression de chaîne qui indique un ordre de classement pour la création de NomDest, de la façon décrite dans la section Remarques.</p>
+<td><p>Expression en chaîne qui spécifie un ordre d’assemblage pour créer DstName, comme spécifié dans Remarques.</p>
 <ul>
-<li><p>Si vous omettez cet argument, les paramètres régionaux de NomDest et NomSource seront identiques.</p></li>
-<li><p>Vous pouvez également créer un mot de passe pour NomDest par la concaténation de la chaîne de mot de passe (commençant par &quot;; pwd =&quot;) avec une constante dans l’argument ParamètresRégionauxDst, comme suit : dbLangSpanish &amp; &quot;; pwd = NewPassword&quot;.</p></li>
-<li><p>Si vous souhaitez utiliser le même argument ParamètresRégionauxDst que NomSource (valeur par défaut), mais un nouveau mot de passe, entrez simplement une chaîne de mot de passe pour ParamètresRégionauxDst : &quot;; pwd = NewPassword&quot;</p></li>
+<li><p>Si vous omettez cet argument, les paramètres régionaux de DstName sont identiques à SrcName.</p></li>
+<li><p>Vous pouvez également créer un mot de passe pour DstName par la concaténation de la chaîne de mot de passe (en commençant par &quot;;pwd=&quot;) avec une constante dans l'argument DstLocale, comme suit : dbLangSpanish &amp; &quot;;pwd=NewPassword&quot;.</p></li>
+<li><p>Pour utiliser le même argument DstLocale que SrcName (valeur par défaut) mais un nouveau mot de passe, entrez simplement une chaîne de mot de passe pour DstLocale: &quot;;pwd=NewPassword&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -84,7 +84,7 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 <td><p><em>mot de passe</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Expression chaîne contenant une clé de chiffrement, si la base de données est chiffrée. La chaîne &quot;; pwd =&quot; doivent précéder le mot de passe. Si vous incluez un paramètre de mot de passe dans ParamètresRégionauxDst, ce paramètre est ignoré.</p><p><strong>Remarque</strong>: il s’agit du paramètre désapprouvé et n’est pas pris en charge. Format de fichier ACCDB. Pour chiffrer une. Fichier ACCDB, utilisez le « pwd = « chaîne d’option. Il est recommandé d'utiliser des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des signes. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</p>
+<td><p>Expression de chaîne contenant une clé de chiffrement, si la base de données est chiffrée. La chaîne &quot;; pwd =&quot; doit précéder le mot de passe réel. Si vous incluez un paramètre de mot de passe dans DstLocale, ce paramètre est ignoré.</p><p><strong>Remarque</strong>: il s’agit d’un paramètre obsolète et n’est pas pris en charge dans le format .ACCDB. Pour chiffrer un fichier .ACCDB, utilisez le « pwd = » option chaîne. Il est recommandé d'utiliser des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des signes. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
 </td>
 </tr>
 </tbody>
@@ -93,7 +93,7 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l'une des constantes suivantes pour l'argument ParamètresRégionauxDst afin de définir la propriété **CollatingOrder** pour des comparaisons de chaînes de texte.
+Vous pouvez utiliser l'une des constantes suivantes pour l'argument DstLocale afin de spécifier la propriété **CollatingOrder**du texte pour des comparaisons de chaînes.
 
 <table>
 <colgroup>
@@ -199,7 +199,7 @@ Vous pouvez utiliser l'une des constantes suivantes pour l'argument ParamètresR
 Vous pouvez utiliser l'une des constantes suivantes dans l'argument options pour spécifier s'il faut chiffrer ou déchiffrer la base de données pendant son compactage.
 
 > [!NOTE]
-> Les constantes dbEncrypt dbDecrypt déconseillée et sont pas pris en charge. Formats de fichier ACCDB.
+> Les constantes dbEncrypt dbDecrypt sont déconseillées et sont pas prises en charge dans les formats de fichier .ACCDB.
 
 <table>
 <colgroup>
@@ -226,7 +226,7 @@ Vous pouvez utiliser l'une des constantes suivantes dans l'argument options pour
 
 <br/>
 
-Si vous omettez la constante de chiffrement ou que vous incluez à la fois **dbDecrypt** et **dbEncrypt**, NomDest aura le même chiffrement que NomSource.
+Si vous ne spécifiez pas de constante de chiffrement ou que vous incluez à la fois **dbDecrypt** et **dbEncrypt**, DstName aura le même chiffrement que SrcName.
 
 Vous pouvez utiliser l'une des constantes suivantes dans l'argument options pour spécifier la version du format de données de la base de données compactée. Cette constante n'affecte que la version du format des données de NomDest mais non la version des objets définis par Microsoft Access, tels que les formulaires et les états.
 
@@ -264,34 +264,34 @@ Vous pouvez utiliser l'une des constantes suivantes dans l'argument options pour
 </tr>
 <tr class="even">
 <td><p><strong>dbVersion120</strong></p></td>
-<td><p>Crée une base de données qui utilise le format de fichier de la version 12.0 du moteur de base de données Microsoft Access pendant le compactage.</p></td>
+<td><p>Crée une base de données qui utilise le format fichier version 12.0 de moteur de base de données Microsoft Access pendant le compactage.</p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-Vous ne pouvez spécifier qu'une seule constante de version. Si vous omettez, NomDest aura la même version que NomSource. Vous pouvez compacter NomDest que dans une version est la même ou version ultérieure à celle de NomSource.
+Vous pouvez spécifier un seul utilisateur par commande. Si vous l'omettez de renseigner une constante de la version, DstName aura la même version que SrcName. Vous ne pouvez compacter DstName que dans une version identique ou supérieure à celle de SrcName.
 
 À mesure que vous modifiez les données dans une base de données, le fichier de base de données peut se fragmenter et utiliser plus d'espace disque que nécessaire. Vous pouvez périodiquement utiliser la méthode **CompactDatabase** pour compacter la base de données et défragmenter le fichier de base de données. La base compactée est généralement plus petite et s'exécute plus rapidement. Il est également possible de modifier l'ordre de classement, le chiffrement et la version du format de données pendant la copie et le compactage de la base de données.
 
-Vous devez fermer NomSource avant de la compacter. Dans un environnement multi-utilisateurs, les autres utilisateurs ne peuvent pas avoir NomSource ouverte pendant que vous la compactez. Si NomSource n’est pas fermée ou n’est pas disponible pour une utilisation exclusive, une erreur se produit.
+Vous devez fermer SrcName avant de la compacter. Dans un environnement multi-utilisateur, les autres utilisateurs ne peuvent avoir SrcName ouverte pendant que vous la compactez. Si SrcName n'est pas fermée ou n'est pas accessible en mode exclusif, une erreur se produit.
 
-Dans la mesure où **CompactDatabase** crée une copie de la base de données, vous devez avoir suffisamment d'espace disque pour la base de données d'origine et la base dupliquée. L'opération de compactage échoue si il n'y a pas suffisamment d'espace disque. La base de données dupliquée NomDest ne doit se trouver sur le même disque que NomSource. Après le compactage réussi d’une base de données, vous pouvez supprimer le fichier NomSource et renommer le fichier NomDest compacté au nom du fichier d’origine.
+Dans la mesure où **CompactDatabase** crée une copie de la base de données, vous devez avoir suffisamment d'espace disque pour la base de données d'origine et la base dupliquée. L'opération de compactage échoue si il n'y a pas suffisamment d'espace disque. La base de données dupliquée DstName ne doit pas nécessairement être sur le même disque que SrcName. Après le compactage réussi d'une base de données, vous pouvez supprimer le fichier SrcName et renommer le fichier DstName compacté avec le nom du fichier d'origine.
 
-La méthode **CompactDatabase** copie toutes les données et les paramètres d’autorisation de sécurité à partir de la base de données spécifiée par NomSource vers la base de données spécifiée par NomDest.
+La méthode **CompactDatabase** copie toutes les données et les options d'autorisation de sécurité de la base de données spécifiée par SrcName vers la base de données spécifiée par DstName.
 
 > [!NOTE]
-> [!REMARQUE] Comme la méthode **CompactDatabase** ne convertit pas les objets Microsoft Access, vous ne devez pas utiliser **CompactDatabase** pour convertir une base de données contenant de tels objets.
+> Étant donné que la méthode**CompactDatabase** ne convertit pas les objets Microsoft Access, vous ne devez pas utiliser **CompactDatabase** pour convertir une base de données contenant ces objets.
 
-## <a name="encrypted-linked-tables"></a>Tables liées chiffrés
+## <a name="encrypted-linked-tables"></a>Tableaux liés chiffrés
 
-Les mots de passe chiffrés dépendent de la base de données que vous utilisez le format de fichier. Si vous utilisez un Access 2003 (.mdb) ou une base de données antérieure, vous aurez un mot de passe pour protéger la base de données et un mot de passe distinct pour crypter la base de données. Pour Access 2007 (.accdb) et version ultérieure bases de données (.mdb), la seule option consiste à chiffrer et protéger la base de données avec un mot de passe, comme l’option pour que les deux mots de passe a été supprimée.
+Les mots de passe chiffrés dépendent du format de fichiers de la base de données que vous utilisez. Si vous utilisez une base de données Access 2003 (.mdb) ou antérieure, vous aurez un mot de passe pour protéger la base de données et un mot de passe distinct pour chiffrer la base de données. Pour les bases de données Access 2007 (.accdb) et version ultérieure (.mdb), la seule option consiste à chiffrer et protéger la base de données avec un mot de passe, comme l’option deux mots de passe distincts a été supprimée.
 
 > [!NOTE]
 > Pour les bases de données Access 2007 (.accdb), le mot de passe est la clé de chiffrement
 
-Vous pouvez utiliser l’exemple de code VBA suivant pour un bouton de commande :
+Vous pouvez utiliser l’exemple suivant du code VBA pour un bouton de commande :
 
 ```vb
     Private Sub Command0_Click()
@@ -318,7 +318,7 @@ Vous pouvez utiliser l’exemple de code VBA suivant pour un bouton de commande�
 
 <br/>
 
-L’exemple de code suivant montre comment utiliser CompactDatabase avec un mot de passe (clé de chiffrement), puis lier à une table dans cette base de données compactée. Notez que le mot de passe doit être fourni.
+Exemple de code suivant montre comment utiliser CompactDatabase avec un mot de passe (clé de chiffrement) et créer un lien à un tableau dans cette base de données compactée. Notez qu’un mot de passe doit être fourni.
 
 ```vb
     Private Sub CompactAndLink_Click() 

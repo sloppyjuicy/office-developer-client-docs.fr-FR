@@ -1,7 +1,7 @@
 ---
-title: Définir des propriétés de formulaire, d’état et de contrôle
+title: Définir des propriétés de formulaire, de rapport et de contrôle
 TOCTitle: Set form, report, and control properties
-description: Chaque formulaire, état, section et contrôle possèdent des paramètres de propriété que vous pouvez définir pour modifier l’apparence ou le comportement d’un élément particulier dans Access 2013.
+description: Chaque formulaire, rapport, section et contrôle possède des paramètres de propriété que vous pouvez définir pour modifier l'aspect ou le fonctionnement de cet élément particulier dans Access 2013.
 ms:assetid: 03349d86-f107-9e49-89df-62f55f3a0735
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844789(v=office.15)
 ms:contentKeyID: 48542977
@@ -13,15 +13,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: bacbdc100d147be8bf4327a5a775b199c79347bb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308735"
 ---
-# <a name="set-form-report-and-control-properties"></a>Définir des propriétés de formulaire, d’état et de contrôle
+# <a name="set-form-report-and-control-properties"></a>Définir des propriétés de formulaire, de rapport et de contrôle
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Chaque formulaire, état, section et contrôle possède des paramètres de propriété que vous pouvez définir pour modifier l'aspect ou le fonctionnement de cet élément particulier. Vous pouvez afficher et modifier les propriétés à l'aide de la feuille des propriétés, d'une macro ou de Visual Basic.
 
@@ -29,25 +29,25 @@ Chaque formulaire, état, section et contrôle possède des paramètres de propr
 
 1. En mode Création de formulaire ou d'état, sélectionnez le contrôle, la section, le formulaire ou l'état dont vous voulez définir la propriété. Vous pouvez sélectionner :
     
-   - Un ou plusieurs contrôles. Pour sélectionner plusieurs contrôles, maintenez la touche MAJ enfoncée et sélectionnez les contrôles ou faites glisser le pointeur de la souris sur les contrôles que vous souhaitez sélectionner. Si vous sélectionnez plusieurs contrôles, la feuille des propriétés n'affiche que les propriétés communes aux contrôles sélectionnés.
+   - Un ou plusieurs contrôles. Pour sélectionner plusieurs contrôles, vous pouvez cliquer sur des contrôles en maintenant la touche Maj enfoncée ou vous pouvez cliquer et faire glisser le pointeur de la souris sur les contrôles à sélectionner. Si vous sélectionnez plusieurs contrôles, la feuille des propriétés n'affiche que les propriétés communes aux contrôles sélectionnés.
     
-   - Une section. Cliquez sur le sélecteur de section de la section que vous souhaitez sélectionner.
+   - Une section. Cliquez sur le sélecteur de section de la section que vous voulez sélectionner.
     
-   - Le formulaire ou l'état entier. Cliquez sur le sélecteur de formulaire ou état dans le coin supérieur gauche du formulaire ou du rapport.
+   - Ensemble du formulaire ou rapport. Cliquez sur le sélecteur de formulaire ou le sélecteur de rapport dans le coin supérieur du formulaire ou du rapport.
 
-2. Afficher la feuille des propriétés, avec le bouton droit de l’objet ou la section, puis choisissez **Propriétés** dans le menu contextuel ou en cliquant sur **Propriétés** dans la barre d’outils.
+2. Affichez la feuille des propriétés en cliquant à l'aide du bouton droit de la souris sur l'objet ou la section, puis en cliquant sur **Propriétés** dans le menu contextuel ou en cliquant sur **Propriétés** dans la barre d'outils.
 
-3. Choisissez la propriété pour laquelle vous voulez définir la valeur, puis effectuez l’une des options suivantes :
+3. Cliquez sur la propriété dont vous voulez définir la valeur, puis exécutez une des actions suivantes :
     
-   - Dans la zone de propriété, tapez le paramètre ou l'expression approprié.
+   - Dans la zone de propriété, tapez l’expression ou paramètre approprié.
     
-   - Si la zone de propriété comporte une flèche, cliquez sur la flèche, puis choisissez une valeur dans la liste.
+   - Si la zone de propriété comporte une flèche, cliquez sur cette dernière et choisissez une valeur dans la liste.
     
-   - Si un bouton **Générer** apparaît à droite de la zone de propriété, cliquez dessus pour afficher un générateur ou pour afficher une boîte de dialogue vous offrant un choix de générateurs. Par exemple, vous pouvez utiliser le Générateur de code, le Générateur de macro ou le Générateur de requêtes pour définir des propriétés.
+   - Si un bouton **Générer** apparaît à droite de la zone de propriété, cliquez dessus pour afficher un générateur ou pour afficher une boîte de dialogue vous offrant un choix de générateurs. Par exemple, vous pouvez utiliser le Générateur de Code, le Générateur de Macro ou le Générateur de requêtes pour définir certaines propriétés.
 
-## <a name="tips"></a>Conseils
+## <a name="tips"></a>Conseils 
 
-- Microsoft Access comporte une zone de **Zoom** qui permet de taper et d'afficher des expressions ou d'autres paramètres de propriété longs. Pour afficher la zone **Zoom** , choisissez une zone de propriété dans la feuille des propriétés. Appuyez sur MAJ + F2 ou avec le bouton droit, puis choisissez **Zoom** dans le menu contextuel.
+- Microsoft Access vous propose une zone **Zoom** pour taper et afficher des expressions ou autres paramètres de propriété longue. Pour afficher la zone de **Zoom**, cliquez sur une zone de propriété dans la feuille des propriétés. Ensuite, appuyez sur Maj+F2 ou cliquez sur le bouton droit de la souris et choisissez **Zoom** dans le menu contextuel.
 
 - Vous pouvez définir la propriété **ControlSource** pour certains contrôles en tapant le paramètre de propriété dans le contrôle lui-même.
 

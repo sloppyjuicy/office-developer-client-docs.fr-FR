@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 70e491069fd3f178371e9e8e3e6bcd8dc08e729e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356433"
 ---
 # <a name="create-an-exception-appointment-in-a-recurring-appointment-series"></a>Création d’un rendez-vous exceptionnel dans une série de rendez-vous périodiques
 
@@ -27,13 +27,13 @@ Quand vous supprimez ou modifiez une instance d’un rendez-vous périodique, Ou
 
 Pour obtenir l’objet [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) représentant l’exception à la périodicité d’origine du rendez-vous périodique, utilisez la propriété [AppointmentItem](https://msdn.microsoft.com/library/bb645648\(v=office.15\)) de l’objet Exception. En utilisant les méthodes et les propriétés de la propriété AppointmentItem renvoyée, vous pouvez définir les propriétés de l’exception de rendez-vous.
 
-Lorsque vous travaillez avec des éléments de rendez-vous périodiques, vous devez libérer les références antérieures, obtenir de nouvelles références à l'élément de rendez-vous périodique avant d'accéder à l'élément ou de le modifier, et libérer ces références dès que vous avez terminé et enregistré les modifications. Cette pratique s’applique à l’objet **AppointmentItem** périodique, ainsi qu’à tous les objets [Exception](https://msdn.microsoft.com/library/bb610440\(v=office.15\)) ou [RecurrencePattern](https://msdn.microsoft.com/library/bb608903\(v=office.15\)). Pour publier une référence dans Visual Basic, définissez cet objet existant sur Rien. Dans C\#, libérez explicitement la mémoire pour cet objet.
+Lorsque vous travaillez avec des éléments de rendez-vous périodiques, vous devez libérer les références antérieures, obtenir de nouvelles références à l'élément de rendez-vous périodique avant d'accéder à l'élément ou de le modifier, et libérer ces références dès que vous avez terminé et enregistré les modifications. Cette pratique s’applique à l’objet **AppointmentItem** périodique, ainsi qu’aux objets [Exception](https://msdn.microsoft.com/library/bb610440\(v=office.15\)) ou [RecurrencePattern](https://msdn.microsoft.com/library/bb608903\(v=office.15\)). Pour publier une référence dans Visual Basic, définissez cet objet existant sur Rien. Dans C\#, libérez explicitement la mémoire pour cet objet.
 
 Notez que même après avoir libéré votre référence et tenté d’obtenir une nouvelle référence, s’il existe encore une référence active détenue par un autre complément ou par Outlook vers un des objets mentionnés ci-dessus, votre nouvelle référence pointera encore vers une copie périmée de l’objet. Il est donc important de libérer vos références dès que vous en avez terminé avec le rendez-vous périodique.
 
 Dans l’exemple de code suivant, CreateExceptionExample change l’objet du rendez-vous périodique créé dans la rubrique [Trouver un rendez-vous spécifique dans une série de rendez-vous périodiques](how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md), puis utilise la propriété AppointmentItem de l’objet Exception résultant pour récupérer l’objet AppointmentItem qui correspond à l’exception de rendez-vous. CreateExceptionExample modifie ensuite les heures de début et de fin de l’exception de rendez-vous.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

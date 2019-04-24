@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4f4c40b-b6a8-45f3-b750-07b92c535322
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 889b43bb606cbe9c96d52c8a21ffda5dfcebb1da
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359177"
 ---
 # <a name="pidtagreportsearchkey-canonical-property"></a>Propriété canonique PidTagReportSearchKey
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la clé de recherche pour le destinataire qui doit obtenir des rapports de ce message.
+Contient la clé de recherche pour le destinataire qui doit obtenir des rapports pour ce message.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient la clé de recherche pour le destinataire qui doit obtenir des rapports
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une des propriétés d’adresse du destinataire l’expéditeur a délégué pour recevoir les rapports générés pour ce message.
+Cette propriété est l'une des propriétés d'adresse pour le destinataire auquel l'expéditeur a délégué la réception des rapports générés pour ce message.
   
-Une application cliente qui doit router les rapports à un autre utilisateur doit définir cette propriété à l’heure d’envoi de message. Si elle n’est pas définie, les rapports sont envoyés à l’expéditeur du message.
+Une application cliente qui doit acheminer des rapports à un autre utilisateur doit définir cette propriété lors de l'envoi du message. S'il n'est pas défini, les rapports sont envoyés à l'expéditeur du message.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e83c05c6-a7c0-486c-a112-58a39255767a
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: fc2774efed1a15fe79e167149f2cb162bae7642c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358533"
 ---
 # <a name="pidtaginconflict-canonical-property"></a>Propriété canonique PidTagInConflict
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE lorsque la pièce jointe représente un autre réplica.
   
@@ -36,33 +36,33 @@ Contient la valeur TRUE lorsque la pièce jointe représente un autre réplica.
    
 ## <a name="remarks"></a>Remarques
 
-Le client de messagerie et le serveur doivent générer un message de résolution de conflit lors de la détection de conflit par rapport à la version actuelle d’un message dans le réplica lors de la synchronisation. Il est important de comprendre qu’il est possible que la version actuelle du message dans le réplica local a été transmise au cours de l’opération en cours de synchronisation. Cela se produit lorsque le conflit existe déjà sur le serveur avant d’un des messages en conflit ont été téléchargé sur le réplica local. Un conflit de résoudre le message doit être synchronisé en tant que réplicas indépendants avec PCLs en conflit. Résoudre le conflit le message lui-même ne doit pas être synchronisée entre client et serveur ; uniquement les réplicas indépendantes doivent être échangés. Le partenaire de synchronisation doit ensuite générer un nouveau message qui correspond à la structure du message de conflit. Par conséquent, il est important que client et serveur utilisent le même algorithme pour détecter l’élément « prix ». Les règles suivantes doivent être appliquées pour détecter le « prix » :
+Le client et le serveur de messagerie doivent générer un message de résolution de conflit lors de la détection d'un conflit par rapport à la version actuelle d'un message dans le réplica lors de la synchronisation. Il est important de comprendre qu'il est possible que la version actuelle du message dans le réplica local ait été transmise lors de l'opération de synchronisation actuelle. Cela se produit lorsque le conflit existe déjà sur le serveur avant le téléchargement des messages en conflit dans le réplica local. Un message de résolution de conflit doit être synchronisé en tant que réplicas indépendants avec PCLs en conflit. Le message de résolution de conflit ne doit pas être synchronisé entre le client et le serveur; Seuls les réplicas indépendants doivent être échangés. Le partenaire de synchronisation doit ensuite générer un nouveau message qui correspond à la structure du message de conflit. Par conséquent, il est important que le client et le serveur utilisent le même algorithme pour détecter l'élément «gagnant». Les règles suivantes doivent être appliquées pour détecter le «gagnant»:
   
-1. Heure de dernière modification.
+1. Heure de la dernière modification.
     
-2. Supérieur CN GUID (à l’aide de la comparaison de la mémoire) pour rompre papillon.
+2. Plus grand GUID CN (à l'aide de la comparaison de mémoire) pour rompre le lien.
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère la synchronisation des données de l’objet messagerie entre un serveur et un client.
+> Gère la synchronisation des données d'objet de messagerie entre un serveur et un client.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

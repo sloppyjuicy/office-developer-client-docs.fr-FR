@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1ae94b40d984adee0f3c888f69dfdbffb1e352e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2ec78331fd013777f001d39bd7e978a67abb5342
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351197"
 ---
 # <a name="imapiviewadvisesinkonsaved"></a>IMAPIViewAdviseSink::OnSaved
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584435"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avertit la visionneuse de formulaire le message actuel dans un formulaire a été enregistré.
+Avertit la visionneuse de formulaires que le message actif d'un formulaire a été enregistré.
   
 ```cpp
 HRESULT OnSaved( void );
@@ -33,7 +33,7 @@ HRESULT OnSaved( void );
 
 ## <a name="parameters"></a>Paramètres
 
-Aucune
+Aucun
   
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -43,9 +43,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Un objet form appelle la méthode **IMAPIViewAdviseSink::OnSaved** une fois que le message actuel dans un formulaire a été enregistré avec succès. Cela permet de visionneuses pour mettre à jour leurs windows pour refléter les modifications apportées au message. 
+Un objet Form appelle la méthode **IMAPIViewAdviseSink:: OnSaved** une fois que le message actif dans un formulaire a été enregistré avec succès. Cela permet aux utilisateurs de mettre à jour leurs fenêtres afin de refléter les modifications apportées au message. 
   
-Pour plus d’informations sur les notifications de formulaire, consultez [envoi et réception des Notifications](sending-and-receiving-form-notifications.md).
+Pour plus d'informations sur les notifications de formulaire, consultez la rubrique [envoi et réception de notifications de formulaire](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,25 +1,25 @@
 ---
-title: Section Propriétés du dégradé
+title: Gradient Properties Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 99380333-9bb2-4aad-87ef-4f7f5f594dcd
-description: Affiche les propriétés pour les effets de couleur remplissage dégradé ou trait appliqués à la forme. Cette section inclut également les cellules qui contrôlent si dégradé d’une forme fait pivoter la forme ou si la forme suppose un dégradé appliqué lorsque regroupées avec d’autres formes.
-ms.openlocfilehash: 471cfca5a3dc09984073f81c1f945a1e5d4504af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Affiche les propriétés des effets de dégradé ou de couleur de trait appliqués à la forme. Cette section comprend également les cellules qui contrôlent si le dégradé d'une forme pivote avec la forme ou si la forme utilise un dégradé appliqué lorsqu'elle est regroupée avec d'autres formes.
+ms.openlocfilehash: e0eed4508a366c772cb9830e0fe53b57faa84c43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360220"
 ---
-# <a name="gradient-properties-section"></a>Section Propriétés du dégradé
+# <a name="gradient-properties-section"></a>Gradient Properties Section
 
-Affiche les propriétés pour les effets de couleur remplissage dégradé ou trait appliqués à la forme. Cette section inclut également les cellules qui contrôlent si dégradé d’une forme fait pivoter la forme ou si la forme suppose un dégradé appliqué lorsque regroupées avec d’autres formes. 
+Affiche les propriétés des effets de dégradé ou de couleur de trait appliqués à la forme. Cette section comprend également les cellules qui contrôlent si le dégradé d'une forme pivote avec la forme ou si la forme utilise un dégradé appliqué lorsqu'elle est regroupée avec d'autres formes. 
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir les paramètres de dégradé dans la boîte de dialogue **Format de la forme** (**accueil** > **Styles de forme** > **remplissage** > **Options de remplissage** > **remplissage** > **remplissage en dégradé**). 
+Vous pouvez définir les paramètres de dégradé dans la boîte de dialogue Format de**** > la **forme** (**Home** > **Shape styles** > **** > Fill Fill**options** > Fill Fill**Fill**). 
   
 

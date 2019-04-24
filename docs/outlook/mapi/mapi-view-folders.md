@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: a1936ec2-bf8a-4242-a41d-64d26b813bd0
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3a89588294f07dca97fb48e56d2cde890c3f80ae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ca9e5138d3ded13dfe33037f75e43ef1098f3c2d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357336"
 ---
 # <a name="mapi-view-folders"></a>Afficher les dossiers MAPI
 
@@ -25,9 +25,9 @@ Afficher les dossiers sont les dossiers racine qui contiennent des informations 
   
 MAPI prend en charge deux dossiers d'affichage :
   
-- Communes � Le dossier d'affichage communs contient des vues qui sont standard pour la banque de messages et peuvent �tre utilis�s par n'importe quel utilisateur d'un client qui acc�de � la banque de messages. L’identificateur d’entrée pour le dossier d’affichage communs est stocké dans la propriété **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)) de la banque.
+- Communes � Le dossier d'affichage communs contient des vues qui sont standard pour la banque de messages et peuvent �tre utilis�s par n'importe quel utilisateur d'un client qui acc�de � la banque de messages. L'identificateur d'entrée pour le dossier d'affichage commun est stocké dans la propriété **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)) de la Banque.
     
-- Personnel � Le dossier d'affichage personnel contient des vues qui sont d�finies par un utilisateur particulier. MAPI définit la propriété **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) pour contenir l’identificateur d’entrée du dossier d’affichage personnel. � l'aide des affichages personnels, par exemple, un utilisateur peut se pr�senter � un groupe de messages tri�s par exp�diteur, r�pertoriant uniquement l'objet et l'accus� de r�ception date du message ; un autre utilisateur pourrait ressembler au m�me groupe tri� par date, r�pertoriant le sujet, l'exp�diteur et la taille de message.
+- Personnel � Le dossier d'affichage personnel contient des vues qui sont d�finies par un utilisateur particulier. MAPI définit la propriété **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) pour contenir l'identificateur d'entrée du dossier d'affichage personnel. � l'aide des affichages personnels, par exemple, un utilisateur peut se pr�senter � un groupe de messages tri�s par exp�diteur, r�pertoriant uniquement l'objet et l'accus� de r�ception date du message ; un autre utilisateur pourrait ressembler au m�me groupe tri� par date, r�pertoriant le sujet, l'exp�diteur et la taille de message.
     
 ## <a name="see-also"></a>Voir aussi
 

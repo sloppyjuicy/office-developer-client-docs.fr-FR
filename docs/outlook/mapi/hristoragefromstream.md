@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 39f28d5a8e9c8c7f3dfc6a8d09cf022cea08800c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 1362b1131d937ef240aa1962db8c1b5116786c67
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347781"
 ---
 # <a name="hristoragefromstream"></a>HrIStorageFromStream
 
@@ -25,13 +25,13 @@ ms.locfileid: "22563921"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Couches d’une interface **IStorage** sur un objet **IStream** . 
+Layer une interface **IStorage** sur un objet **IStream** . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 HRESULT HrIStorageFromStream(
@@ -46,35 +46,35 @@ HRESULT HrIStorageFromStream(
 
  _lpUnkIn_
   
-> [in] Pointeur vers l’objet **IUnknown** implémentation **IStream**. 
+> dans Pointeur vers l'objet **IUnknown** implémentant **IStream**. 
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet stream. Une des valeurs suivantes peuvent être transmise dans le paramètre _lpInterface_ : IID_ILockBytes, IID_IStream ou NULL. En passant NULL _lpInterface_ est identique au transfert IID_IStream. 
+> dans Pointeur vers l'identificateur d'interface (IID) de l'objet Stream. Les valeurs suivantes peuvent être transmises dans le paramètre _lpInterface_ : null, IID_IStream ou IID_ILockBytes. Le passage de la valeur NULL dans _lpInterface_ revient à passer IID_IStream. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet de stockage doit être créé par rapport à l’objet stream. Le paramètre par défaut est STGSTRM_RESET, qui fournit l’accès en lecture seule d’objet stockage et démarre à la position zéro de l’objet stream. Les indicateurs suivants peuvent avoir n’importe quelle combinaison, sauf comme indiqué précédemment :
+> dans Masque de des indicateurs qui contrôle la manière dont l'objet de stockage doit être créé par rapport au flux. Le paramètre par défaut est STGSTRM_RESET, qui donne à l'objet de stockage un accès en lecture seule et le démarre à la position zéro du flux. Les indicateurs suivants peuvent être définis dans n'importe quelle combinaison, sauf dans les cas indiqués:
     
 STGSTRM_CREATE 
   
-> Crée un nouvel objet de stockage pour l’objet stream. Cet indicateur ne peut pas être défini si l’indicateur STGSTRM_RESET est défini. 
+> Crée un nouvel objet de stockage pour l'objet Stream. Cet indicateur ne peut pas être défini si l'indicateur STGSTRM_RESET est défini. 
     
 STGSTRM_CURRENT 
   
-> Démarre le stockage à la position actuelle du flux. Cet indicateur ne peut pas être défini si l’indicateur STGSTRM_RESET est défini. 
+> Démarre le stockage à la position actuelle du flux. Cet indicateur ne peut pas être défini si l'indicateur STGSTRM_RESET est défini. 
     
 STGSTRM_MODIFY 
   
-> Permet au fournisseur de service appelant écrire dans le stockage renvoyé. Cet indicateur ne peut pas être défini si l’indicateur STGSTRM_RESET est défini. 
+> Permet au fournisseur de services appelant d'écrire dans le stockage renvoyé. Cet indicateur ne peut pas être défini si l'indicateur STGSTRM_RESET est défini. 
     
 STGSTRM_RESET 
   
-> Stockage commence à la position zéro. Impossible de définir cet indicateur si n’importe quel autre indicateur est défini. 
+> Commence le stockage à la position zéro. Cet indicateur ne peut pas être défini si aucun autre indicateur n'est défini. 
     
  _lppStorageOut_
   
-> [out] Pointeur vers un pointeur vers l’objet **IStorage** renvoyé. 
+> remarquer Pointeur vers un pointeur vers l'objet **IStorage** renvoyé. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -84,6 +84,6 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Banque de messages fournisseurs prennent en charge la fonction **HrIStorageFromStream** à l’aide de l’interface **IStorage** pour les pièces jointes. Fournisseurs de magasins doivent implémenter l’interface **IStream** . **HrIStorageFromStream** fournit l’interface **IStorage** pour l’objet **IStream** . Il est possible de passer une interface **IStream** dans _lpUnkIn_soit un **ILockBytes** . 
+Les fournisseurs de banques de messages prennent en charge la fonction **HrIStorageFromStream** à l'aide de l'interface **IStorage** pour les pièces jointes. Les fournisseurs de magasins doivent implémenter l'interface **IStream** . **HrIStorageFromStream** fournit l'interface **IStorage** pour l'objet **IStream** . Il est possible de transmettre une interface **ILockBytes** ou **IStream** dans _lpUnkIn_. 
   
 

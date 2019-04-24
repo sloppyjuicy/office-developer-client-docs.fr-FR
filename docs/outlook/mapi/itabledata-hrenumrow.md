@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25d9f2b-9454-4983-98f7-6a051a3b8a04
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 140efe0b2d1b428a94b5bb2919d461779613932a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 50fd96acd0989459c9887770ec5a3a236f182da5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348894"
 ---
 # <a name="itabledatahrenumrow"></a>ITableData::HrEnumRow
 
@@ -38,27 +38,27 @@ HRESULT HrEnumRow(
 
  _ulRowNumber_
   
-> [in] Le numéro de la ligne pour laquelle retourner les propriétés. La valeur dans le paramètre _ulRowNumber_ peut être n’importe quelle valeur comprise entre 0, ce qui indique la première ligne dans le tableau, à n - 1, ce qui indique la dernière ligne dans le tableau. 
+> dans Numéro de la ligne dont les propriétés doivent être renvoyées. La valeur du paramètre _ulRowNumber_ peut être n'importe quelle valeur comprise entre 0, qui indique la première ligne du tableau, à n-1, qui indique la dernière ligne du tableau. 
     
  _lppSRow_
   
-> [out] Pointeur vers un pointeur vers une structure [SRow](srow.md) qui décrit la ligne cible. 
+> remarquer Pointeur vers un pointeur vers une structure [SRow](srow.md) qui décrit la ligne cible. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La ligne a été récupérée avec succès, ou une ligne pour le numéro de la ligne spécifiée par le paramètre _ulRowNumber_ n’existe pas. 
+> La ligne a été récupérée correctement ou une ligne pour le numéro de ligne spécifié par le paramètre _ulRowNumber_ n'existe pas. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData::HrEnumRow** récupère une ligne basée sur un numéro séquentiel. Ce nombre représente l’ordre d’insertion (0 indique que la première ligne et le nombre de lignes moins 1 indique la dernière ligne). MAPI gère cet ordre chronologique d’insertion de ligne pour la durée de vie de l’objet de données de table. 
+La méthode **ITableData:: HrEnumRow** extrait une ligne en fonction d'un numéro séquentiel. Ce nombre représente l'ordre d'insertion (0 indique la première ligne et le nombre de lignes moins 1 indique la dernière ligne). MAPI conserve cet ordre chronologique d'insertion de ligne pendant la durée de vie de l'objet de données de tableau. 
   
-Si le numéro spécifié dans _ulRowNumber_ ne correspond pas à une ligne dans le tableau, **HrEnumRow** renvoie S_OK et définit le paramètre _lppSRow_ sur NULL. 
+Si le nombre spécifié dans _ulRowNumber_ ne correspond pas à une ligne de la table, **HrEnumRow** renvoie S_OK et définit le paramètre _lppSRow_ sur null. 
   
-MAPI alloue de la mémoire pour la structure **SRow** retournée à l’aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) lors de la création de l’objet de données de table. L’appelant doit libérer cette mémoire en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
+MAPI alloue de la mémoire pour la structure **SRow** renvoyée à l'aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) lors de la création de l'objet de données de table. L'appelant doit libérer cette mémoire en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-Pour récupérer des lignes d’une table dans l’ordre qu’ils ont été insérés, les utilisateurs de tableau données objet appeler la méthode **HrEnumRow** . 
+Pour récupérer des lignes d'un tableau dans l'ordre dans lequel elles ont été insérées, les utilisateurs de données de tableau appellent la méthode **HrEnumRow** . 
   
 ## <a name="see-also"></a>Voir aussi
 

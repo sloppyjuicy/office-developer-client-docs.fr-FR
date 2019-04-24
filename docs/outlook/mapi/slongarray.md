@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57435634-202d-4998-9931-4562f1a66f5f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a44974accea30b5d1406c9cc74570012f61639e5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9b1c5a09a60240efa9d4fa117f0d8fe8113169d5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361165"
 ---
 # <a name="slongarray"></a>SLongArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de types de valeur de type LONG qui sont utilisées pour décrire une propriété de type PT_MV_LONG. 
+Contient un tableau de types de valeurs longues qui sont utilisés pour décrire une propriété de type PT_MV_LONG. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SLongArray
@@ -44,7 +44,7 @@ typedef struct _SLongArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau indiqué par le membre **lpl** . 
+> Nombre de valeurs dans le tableau vers lequel pointe le membre **LPL** . 
     
  **LPL**
   
@@ -52,7 +52,7 @@ typedef struct _SLongArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_LONG, voir la [Liste des Types de propriété](property-types.md).
+Pour plus d'informations sur PT_MV_LONG, consultez la rubrique [liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

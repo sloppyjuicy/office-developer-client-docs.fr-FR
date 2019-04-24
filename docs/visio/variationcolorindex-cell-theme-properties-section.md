@@ -1,36 +1,36 @@
 ---
-title: VariationColorIndex, cellule (Section Propriétés de thème)
+title: VariationColorIndex Cell (Theme Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ea95a90c-4729-4689-a6f4-31dfccf37b9b
-description: Détermine l’index de couleurs de la variation du thème actif sur la page, sous forme d’entier.
-ms.openlocfilehash: b61317bc9048a6263e217e3eb29dc4dedcd911d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Détermine l'index de couleur de la variation de thème active sur la page, sous la forme d'un entier.
+ms.openlocfilehash: 7582b779fb5be6bdf3528da137b1b08b8cd9c01a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355880"
 ---
-# <a name="variationcolorindex-cell-theme-properties-section"></a>VariationColorIndex, cellule (Section Propriétés de thème)
+# <a name="variationcolorindex-cell-theme-properties-section"></a>VariationColorIndex Cell (Theme Properties Section)
 
-Détermine l’index de couleurs de la variation du thème actif sur la page, sous forme d’entier.
+Détermine l'index de couleur de la variation de thème active sur la page, sous la forme d'un entier.
   
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **VariationColorIndex** par un nom à partir d’une autre formule, par la valeur de l’attribut **N** d’un élément de **cellule** ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule **VariationColorIndex** par un nom à partir d'une autre formule, par valeur de l'attribut **N** d'un élément de **cellule** ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | VariationColorIndex  <br/> |
+| Nom de cellule :  <br/> | VariationColorIndex  <br/> |
    
-Pour obtenir une référence à la cellule **VariationColorIndex** par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule **VariationColorIndex** à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants: 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowThemeProperties** <br/> |
 | Index de la cellule :  <br/> |**visVariationColorIndex** <br/> |
    

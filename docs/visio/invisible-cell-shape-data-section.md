@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm82251341
 localization_priority: Normal
 ms.assetid: 5f368c2e-2a40-38ee-3568-ed5c57633345
-description: Spécifie si l’élément de données de forme est visible dans la fenêtre données de forme.
-ms.openlocfilehash: 2cd3fcad5db7b1752c55055354f1ec842bff4899
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Détermine si l’élément de données de forme est visible ou non dans la fenêtre Données de forme.
+ms.openlocfilehash: 8671fcc249b7ca81c011f697721093e7842c1558
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357266"
 ---
 # <a name="invisible-cell-shape-data-section"></a>Invisible, cellule (section Shape Data)
 
-Spécifie si l’élément de données de forme est visible dans la fenêtre **Données de forme** . 
+Détermine si l’élément de données de forme est visible ou non dans la fenêtre **Données de forme**. 
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Les données de forme ne sont pas visibles.  <br/> |
 | FALSE  <br/> | L'élément de données de forme est visible.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette cellule correspond à la case à cocher **masqué** dans la boîte de dialogue **Définir les données de forme** (avec le bouton droit de la forme, pointez sur **données**, puis cliquez sur **Définir les données de forme**).
+La valeur de cette cellule correspond à la case à cocher **Masquer** dans la boîte de dialogue **Définir les données de forme** (cliquez avec le bouton droit sur la forme, pointez sur **Données**, puis cliquez sur **Définir les données de forme**).
   
-Pour obtenir une référence à la cellule Invisible par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Invisible par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Propriétés.  *nom* . Where invisible de propriétés.  *Name* est le nom de ligne  <br/> |
+| Nom de cellule :  <br/> | Hélice.  *nom* . Invisible où prop.  *Name* est le nom de la ligne  <br/> |
    
-Pour obtenir une référence à la cellule Invisible par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Invisible à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

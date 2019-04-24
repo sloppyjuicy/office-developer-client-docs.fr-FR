@@ -7,11 +7,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ccbbaab10dc88d50c1fad3c1eefeb5c222bc8446
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349531"
 ---
 # <a name="create-a-sendable-item-for-a-specific-account-based-on-the-current-folder"></a>Créer un élément à envoyer pour un compte spécifique basé sur le dossier actif
 
@@ -25,7 +25,7 @@ Si le profil actif contient plusieurs comptes et que vous créez un élément pr
 
 Cette rubrique explique comment créer un élément à envoyer avec un programme et l’envoyer à l’aide d’un compte d’envoi spécifique. Cette rubrique contient deux exemples de code qui montrent comment créer un objet [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) et un objet [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) pour un compte spécifique qui est déterminé par le dossier actif dans l'explorateur actif.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l'importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l'importation et la tâche dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

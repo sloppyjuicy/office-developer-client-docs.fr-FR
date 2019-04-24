@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9b06ebbe8cb162d77d60cfffa866438567c84c27
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8b5c9e5bb2aa915d4b76d9998baaf504e7929b78
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355614"
 ---
 # <a name="pidtagremotevalidateok-canonical-property"></a>Propriété canonique PidTagRemoteValidateOk
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient la valeur TRUE si la visionneuse à distance est autorisée à appeler la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . 
+Cette propriété contient la valeur TRUE si la visionneuse à distance est autorisée à appeler la méthode [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Cette propriété contient la valeur TRUE si la visionneuse à distance est auto
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété s’affiche dans la table d’état et permet de contrôler les performances de transport. Il peut être considéré comme un autre moyen de diriger la visionneuse distante inactif. Lorsqu’elle est définie sur TRUE, la visionneuse à distance peut appeler **IMAPIStatus::ValidateState** aussi souvent que souhaité. La valeur FALSE indique que la visionneuse distante ne peut pas émettre des appels plus. 
+Cette propriété apparaît dans le tableau d'État et offre un contrôle sur les performances de transport. Il peut être considéré comme une autre façon de diriger la visionneuse à distance vers inactif. Lorsqu'il est défini sur TRUE, l'afficheur à distance peut appeler **IMAPIStatus:: ValidateState** aussi souvent que vous le souhaitez. La valeur FALSe indique que l'afficheur à distance ne peut plus passer d'appels. 
   
-Le fournisseur de transport affecte généralement cette propriété dynamiquement, en définissant la valeur sur FALSE pour désactiver les appels lorsque le fournisseur de transport a suffisamment de traitement à exécuter. Lorsque le fournisseur de transport est terminé, il définit la valeur sur TRUE pour autoriser l’application cliente à effectuer d’autres appels **IMAPIStatus::ValidateState** . 
+Le fournisseur de transport définit généralement cette propriété de manière dynamique, en définissant la valeur sur FALSe pour désactiver les appels supplémentaires lorsque le fournisseur de transport dispose d'une quantité suffisante de traitement à effectuer. Lorsque le fournisseur de transport est effectué, il définit la valeur sur TRUE pour permettre à l'application cliente d'effectuer d'autres **IMAPIStatus:: ValidateState** . 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4068ff0-2aa2-4332-be7d-ecebda30dfff
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 8371418aabc557f48c74039320305df59624d7ac
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358708"
 ---
 # <a name="pidlidremindertime-canonical-property"></a>Propriété canonique PidLidReminderTime
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la durée du signal initiale pour un rappel.
+Spécifie l'heure de signal initiale d'un rappel.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReminderTime  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
-|ID de type long (capot) :  <br/> |0x00008502  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
+|ID long (couvercle):  <br/> |0x00008502  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour les objets de calendrier, cette propriété représente le temps lorsque l’utilisateur sera en retard qui est l’heure de début du rendez-vous. Clients doivent définir la valeur en temps universel coordonné (UTC).
+Pour les objets Calendar, cette propriété représente l'heure à laquelle l'utilisateur est en retard sur l'heure de début du rendez-vous. Les clients doivent définir la valeur au format UTC (Coordinated Universal Time).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Spécifie les propriétés et le modèle d’interaction pour la messagerie et autres rappels de l’objet.
+> Spécifie les propriétés et le modèle d'interaction pour les rappels de messagerie et d'objet.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

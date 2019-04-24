@@ -11,40 +11,40 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30511e6e-aba2-4f47-bdc7-1256b23382c5
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 224bf8fa29da63bc96e4d86551545ce83fc411d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f44f453a24b647e66ae49202fa1910dfdff10cda
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350826"
 ---
 # <a name="pidtagproofofsubmission-canonical-property"></a>Propriété canonique PidTagProofOfSubmission
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient la valeur TRUE si un expéditeur du message demande preuve que le système de transfert des messages a envoyé un message pour remise pour le destinataire d’origine.
+Cette propriété contient la valeur TRUE si un expéditeur de message demande la preuve que le système de transfert de messages a soumis un message pour remise au destinataire initialement prévu.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROOF_OF_SUBMISSION  <br/> |
 |Identificateur :  <br/> |0x0E26  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |MAPI Non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

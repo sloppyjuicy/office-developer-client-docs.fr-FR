@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: 13d0c431-7e46-4971-9b62-62e680a4cae9
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 72cb81a487c80244dbf3920bf3aa044290fff2db
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357595"
 ---
 # <a name="pidlidfax3originaldisplayname-canonical-property"></a>Propriété canonique PidLidFax3OriginalDisplayName
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le nom complet d’origine du contact du autre adresse télécopie.
+Spécifie le nom d'affichage d'origine de l'autre adresse de télécopie du contact.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax3OriginalDisplayName  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
-|ID de type long (capot) :  <br/> |0x000080D4  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Address  <br/> |
+|ID long (couvercle):  <br/> |0x000080D4  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, le cas échéant, doit avoir la même valeur que la propriété **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
+Cette propriété, si elle est présente, doit être définie sur la même valeur que la propriété **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

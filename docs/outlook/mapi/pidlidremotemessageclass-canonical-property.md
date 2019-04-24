@@ -11,41 +11,41 @@ api_name:
 api_type:
 - COM
 ms.assetid: bdc3d9a1-c29c-4fbe-893e-0bc7aaa25edc
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a6751b89572f21674f723e7b0d8ab369b804be74
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 71bfb1a6fc9f6923f3f1fbdcd7aff20625cd70af
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358736"
 ---
 # <a name="pidlidremotemessageclass-canonical-property"></a>Propriété canonique PidLidRemoteMessageClass
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la classe de message d’un élément à distance.
+Indique la classe de message d'un élément à distance.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRemoteMsgClass  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |
-|ID de type long (capot) :  <br/> |0x00008F02  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Remote  <br/> |
+|ID long (couvercle):  <br/> |0x00008F02  <br/> |
 |Type de données :  <br/> |Aucun  <br/> |
-|Domaine :  <br/> |Message à distance  <br/> |
+|Domaine :  <br/> |Message distant  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

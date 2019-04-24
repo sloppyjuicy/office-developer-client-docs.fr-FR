@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 8d88838893836c550136be9556299258b44e3e49
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359492"
 ---
 # <a name="pidtagruleid-canonical-property"></a>Propriété canonique PidTagRuleId
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un identificateur unique du serveur de messagerie génère pour chaque règle lors de la création de la règle. 
+Spécifie un identificateur unique généré par le serveur de messagerie pour chaque règle lors de la création initiale de la règle. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Spécifie un identificateur unique du serveur de messagerie génère pour chaque
    
 ## <a name="remarks"></a>Remarques
 
-Le client ne doit pas spécifier de cette propriété lorsque vous créez une nouvelle règle mais doit spécifier lors de la modification ou suppression d’une règle.
+Le client ne doit pas spécifier cette propriété lors de la création d'une règle, mais il doit le spécifier lors de la modification ou de la suppression d'une règle.
   
-Lorsque vous supprimez une règle, la seule propriété que le client doit transmettre est **PR_RULE_ID** et ne doit pas passer dans n’importe quelle autre propriété. Le serveur doit ignorer les propriétés de cette propriété. Lorsque vous ajoutez une règle, le client ne doit pas passer dans **PR_RULE_ID**, il doit passer **PR_RULE_PROVIDER** ([ , **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) et **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)) PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) Propriétés. Lorsque vous modifiez une règle, le client doit passer **PR_RULE_ID** et doit transmettre le reste des propriétés qui doivent être modifiées. 
+Lors de la suppression d'une règle, la seule propriété que le client doit transmettre est **PR_RULE_ID** et ne doit transmettre aucune autre propriété. Le serveur doit ignorer les propriétés autres que cette propriété. Lors de l'ajout d'une règle, le client ne doit pas transmettre **PR_RULE_ID**, il doit transmettre les **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) et **PR_RULE_PROVIDER** ([ PidTagRuleProvider](pidtagruleprovider-canonical-property.md)). Lors de la modification d'une règle, le client doit transmettre **PR_RULE_ID** et transmettre les autres propriétés qui doivent être modifiées. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipule les messages électroniques entrants sur un serveur.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 4e022508f85b3f2c473809e730377ad74f55a43c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: bd332943d8264ff909c1ec36f6b7c939d597acfd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359240"
 ---
 # <a name="pidtagreceipttime-canonical-property"></a>Propriété canonique PidTagReceiptTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l’heure de qu'un rapport de remise est généré.
+Contient la date et l'heure auxquelles un rapport de remise est généré.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la date et l’heure de qu'un rapport de remise est généré.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie par le fournisseur de magasin de message reçu le message d’origine et la génération du rapport. 
+Cette propriété doit être définie par le fournisseur de banque de messages recevant le message d'origine et générant le rapport. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

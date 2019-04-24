@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d950ee21c0c4c41e84c0fe1f8104219e63f84cec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e5659113b1c6579913042ae0c8dfcd03e9802621
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359478"
 ---
 # <a name="pidtagservicename-canonical-property"></a>Propriété canonique PidTagServiceName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d’un service de message tel que défini par l’utilisateur dans le fichier MapiSvc.inf.
+Contient le nom d'un service de messagerie tel que défini par l'utilisateur dans le fichier MapiSvc. inf.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient le nom d’un service de message tel que défini par l’utilisateur da
    
 ## <a name="remarks"></a>Remarques
 
-Le nom figurant dans ces propriétés est spécifique au service de message. Il s’agit de la section [Services] dans MapiSvc.inf.
+Le nom contenu dans ces propriétés est propre au service de messagerie. Elle provient de la section [services] du fichier MapiSvc. inf.
   
-Ces propriétés apparaissent sous la forme d’une colonne dans la table de service de message et peuvent être utilisées pour filtrer les services. Car elle est utilisée pour identifier et filtrer les services, la valeur ne doit pas être localisée.
+Ces propriétés apparaissent sous la forme d'une colonne dans le tableau service de messagerie et peuvent être utilisées pour filtrer les services. Étant donné qu'il est utilisé pour identifier et filtrer des services, la valeur ne doit pas être localisée.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

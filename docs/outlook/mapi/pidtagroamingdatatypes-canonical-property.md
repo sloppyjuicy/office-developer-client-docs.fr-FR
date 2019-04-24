@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: fe5528f7605412d0cfd4b4b914e9b221c715e1b1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359555"
 ---
 # <a name="pidtagroamingdatatypes-canonical-property"></a>Propriété canonique PidTagRoamingDatatypes
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de bits indiquant le flux de propriétés existent sur le message.
+Contient un masque de qui indique quelles propriétés de flux existent sur le message.
   
 |||
 |:-----|:-----|
@@ -36,34 +36,34 @@ Contient un masque de bits indiquant le flux de propriétés existent sur le mes
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie à une ou plusieurs des valeurs suivantes :
+Cette propriété doit être définie sur une ou plusieurs des valeurs suivantes:
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|0x00000002  <br/> |Indique que le message du dossier associé informations (FAI) doit contenir un flux de dictionnaire, sérialisées dans un schéma XML fixe et stockées dans la propriété **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)). Si le message FAI ne contient pas un flux de dictionnaire, l’application doit traiter le dictionnaire qu’aucune entrée.  <br/> |
-|0 x 00000004  <br/> |Indique que le message FAI doit contenir un flux de données XML stockée dans la propriété **PR_ROAMING_XMLSTREAM** ([PidTagRoamingXmlStream](pidtagroamingxmlstream-canonical-property.md)) qui utilise un schéma XML arbitraire.  <br/> |
+|0x00000002  <br/> |Indique que le message FAI (informations associées aux dossiers) doit contenir un flux de dictionnaire, sérialisé dans un schéma XML fixe et stocké dans la propriété **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)). Si le message FAI ne contient pas de flux de dictionnaire, l'application doit traiter le dictionnaire comme n'ayant pas d'entrées.  <br/> |
+|0x00000004  <br/> |Indique que le message FAI doit contenir un flux XML stocké dans la propriété **PR_ROAMING_XMLSTREAM** ([PidTagRoamingXmlStream](pidtagroamingxmlstream-canonical-property.md)) qui utilise un schéma XML arbitraire.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que des listes de catégorie partagée et les heures de travail.
+> Spécifie l'emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

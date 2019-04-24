@@ -9,35 +9,35 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e9a640f4-0af0-317c-b77b-f32c651e87b4
 description: Verrouille la mise en forme d'une forme afin d'empêcher sa modification.
-ms.openlocfilehash: c3e4d5be848e91554406e709ce6872ae49b5f38d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0d1bb8a65b8087136e57bb46ad9f5363da30030
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359612"
 ---
 # <a name="lockformat-cell-protection-section"></a>LockFormat, cellule (section Protection)
 
 Verrouille la mise en forme d'une forme afin d'empêcher sa modification.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La mise en forme ne peut pas être modifiée.  <br/> |
 | FALSE  <br/> | La mise en forme peut être modifiée.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule LockFormat par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule LockFormat par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | LockFormat  <br/> |
    
-Pour obtenir une référence à la cellule LockFormat par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule LockFormat à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowLock** <br/> |
 | Index de la cellule :  <br/> |**visLockFormat** <br/> |
    

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d052e7590ee502b55f2076d698587ab68820ca56
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 5983ed3229f6b0053f15a614116cf5680e942587
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351442"
 ---
 # <a name="imapiadvisesinkonnotify"></a>IMAPIAdviseSink::OnNotify
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576700"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Répond à une notification en effectuant une ou plusieurs tâches. Les tâches exécutées varient selon le type d’événement et l’objet qui génère la notification. 
+Répond à une notification en effectuant une ou plusieurs tâches. Les tâches effectuées dépendent du type d'événement et de l'objet qui génère la notification. 
   
 ```cpp
 ULONG OnNotify(
@@ -38,11 +38,11 @@ ULONG OnNotify(
 
  _cNotif_
   
-> [in] Le nombre de structures [NOTIFICATION](notification.md) indiqué par le paramètre _lpNotifications_ . 
+> dans Nombre de structures de [notification](notification.md) pointées par le paramètre _lpNotifications_ . 
     
  _lpNotifications_
   
-> [in] Pointeur vers une ou plusieurs structures **NOTIFICATION** qui fournissent des informations sur les événements qui se sont produites. 
+> dans Pointeur vers une ou plusieurs structures de **notification** qui fournissent des informations sur les événements qui se sont produits. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -52,15 +52,15 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Le processus de notification démarre lorsqu’un client ou un MAPI effectue un appel à la méthode **Advise** d’un fournisseur de services pour s’inscrire pour recevoir une notification d’un type particulier d’un objet particulier. L’un des paramètres à la méthode **Advise** est un pointeur vers un objet récepteur advise qui implémente l’interface [IMAPIAdviseSink](imapiadvisesinkiunknown.md) . Lorsqu’un événement se produit à l’objet cible qui correspond à la notification inscrit, le fournisseur de services, directement ou indirectement via MAPI, appelle **OnNotify** (méthode) du récepteur advise. 
+Le processus de notification démarre lorsqu'un client ou MAPI effectue un appel à la méthode **Advise** d'un fournisseur de services pour s'inscrire afin de recevoir une notification d'un type particulier pour un objet particulier. L'un des paramètres de la **** méthode Advise est un pointeur vers un objet de récepteur de notification qui implémente l'interface [IMAPIAdviseSink](imapiadvisesinkiunknown.md) . Lorsqu'un événement se produit dans l'objet cible qui correspond à la notification enregistrée, le fournisseur de services, directement ou indirectement via MAPI, appelle la méthode **OnNotify** du récepteur de notification. 
   
-L’appel de **OnNotify** peut se produire lors de l’appel MAPI qui est à l’origine de l’événement ou ultérieurement. Sur les systèmes qui prennent en charge plusieurs threads d’exécution, **OnNotify** peut être appelée sur le même thread qui a été utilisé pour l’enregistrement ou sur un autre thread. Les clients peuvent s’assurer que l’appel de **OnNotify** est effectué sur le même thread utilisé pour appeler **Advise** en créant le récepteur de notifications qu’elles passent à **Advise** avec la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
+L'appel à **OnNotify** peut se produire soit lors de l'appel MAPI qui provoque l'événement, soit ultérieurement. Sur les systèmes qui prennent en charge plusieurs threads d'exécution, **OnNotify** peut être appelé sur le même thread qui a été utilisé pour l'inscription ou sur un autre thread. Les clients peuvent s'assurer que l'appel **OnNotify** est effectué sur le même thread que celui utilisé pour appeler Advise en créant le récepteur de **** notifications qu'ils passent à la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . **** 
   
-Le paramètre _lpNotifications_ pointe vers une ou plusieurs structures **NOTIFICATION** qui décrivent ce qui a changé pendant l’événement. Il existe un autre type de structure de **NOTIFICATION** pour chaque type d’événement. 
+Le paramètre _lpNotifications_ pointe vers une ou plusieurs structures de **notification** qui décrivent les modifications apportées au cours de l'événement. Il existe un autre type de structure de **notification** pour chaque type d'événement. 
   
-Le tableau suivant répertorie les valeurs qui sont utilisées pour représenter les types d’événements et les structures associés à chaque valeur possibles :
+Le tableau suivant répertorie les valeurs qui sont utilisées pour représenter les types possibles d'événements et les structures associées à chaque valeur:
   
-|**Type d’événement notification**|**Structure correspondante**|
+|**Type d'événement de notification**|**Structure correspondante**|
 |:-----|:-----|
 |**fnevCriticalError** <br/> |[ERROR_NOTIFICATION](error_notification.md) <br/> |
 |**fnevNewMail** <br/> |[NEWMAIL_NOTIFICATION](newmail_notification.md) <br/> |
@@ -73,21 +73,21 @@ Le tableau suivant répertorie les valeurs qui sont utilisées pour représenter
 |**fnevStatusObjectModified** <br/> |[STATUS_OBJECT_NOTIFICATION](status_object_notification.md) <br/> |
 |**fnevExtended** <br/> |[EXTENDED_NOTIFICATION](extended_notification.md) <br/> |
    
-Pour plus d’informations sur la façon de configurer et d’arrêter les notifications, consultez les entrées de référence pour les méthodes **Advise** et **Unadvise** pour une des interfaces suivantes : [IABLogon](iablogoniunknown.md), [IAddrBook](iaddrbookimapiprop.md), [IMAPIForm](imapiformiunknown.md), [ IMAPISession](imapisessioniunknown.md), [IMAPITable](imapitableiunknown.md), [IMsgStore](imsgstoreimapiprop.md)et [IMSLogon](imslogoniunknown.md). 
+Pour plus d'informations sur la configuration et l'arrêt des notifications, consultez les entrées de **** référence pour les méthodes Advise et Unadvise pour l'une des interfaces suivantes: [IABLogon](iablogoniunknown.md), [IAddrBook](iaddrbookimapiprop.md), **** [IMAPIForm](imapiformiunknown.md), [ IMAPISession](imapisessioniunknown.md), [IMAPITable](imapitableiunknown.md), [IMsgStore](imsgstoreimapiprop.md)et [IMSLogon](imslogoniunknown.md). 
   
-Pour obtenir des informations générales sur le processus de notification, voir [Notification d’événement MAPI](event-notification-in-mapi.md). 
+Pour obtenir des informations générales sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md). 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Votre implémentation **OnNotify** consiste à un ou plusieurs blocs de code pour chaque type de notification que vous souhaitez recevoir. Dans ces blocs de code, effectuez toutes les tâches que vous prenez en compte nécessaire en réponse à la notification. Par exemple, supposons que vous inscrivez pour recevoir des notifications **fnevObjectModified** dans un dossier qui est inclus dans l’affichage d’une boîte de dialogue. Dans le bloc de code que vous incluez dans votre méthode **OnNotify** pour gérer les notifications **fnevObjectModified** , vous pouvez envoyer un message Windows à la boîte de dialogue pour demander un affichage mis à jour. 
+Votre implémentation de **OnNotify** se compose généralement d'un ou de plusieurs blocs de code pour chaque type de notification que vous prévoyez de recevoir. À l'intérieur de ces blocs de code, effectuez toutes les tâches que vous jugez nécessaires en réponse à la notification. Par exemple, supposons que vous vous inscrivez pour recevoir des notifications **fnevObjectModified** sur un dossier qui est inclus dans un affichage de boîte de dialogue. Dans le bloc de code que vous incluez dans votre méthode **OnNotify** pour gérer les notifications **fnevObjectModified** , vous pouvez envoyer un message Windows à la boîte de dialogue pour demander un affichage mis à jour. 
   
-Ne modifiez pas ou ne libérer la structure **NOTIFICATION** transmise à **OnNotify**. Les données de la structure sont valides uniquement jusqu'à **OnNotify** renvoie. 
+Ne modifiez pas ou ne libérez pas la structure de **notification** transmise à **OnNotify**. Les données de la structure sont valides uniquement jusqu'à ce que **OnNotify** renvoie. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-En cas de modifications apportées à plusieurs objets, vous pouvez signaler un récepteur de notifications enregistrés dans un seul appel à **OnNotify** ou dans plusieurs appels en fonction des contraintes de mémoire. Cela est vrai, même si les modifications sont le résultat d’un appel de méthode ou plusieurs. Par exemple, un appel à [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) peut affecter plusieurs dossiers et messages. Comme un fournisseur de magasins de message, vous pouvez appeler **OnNotify** avec un type d’événement **fnevObjectModified** pour le dossier cible ou un grand nombre d’appels, un pour chaque affectent les messages. De même, si un client effectue des appels répétés à [IMAPIFolder::CreateMessage](imapifolder-createmessage.md), ces appels peuvent être combinées dans un événement **fnevObjectModified** pour le dossier ou séparés en événements individuels **fnevObjectCreated** pour chaque nouveau message. 
+Lorsque des modifications sont apportées à plusieurs objets, vous pouvez avertir un récepteur de notifications enregistré en un seul appel à **OnNotify** ou dans plusieurs appels en fonction des contraintes de mémoire. Cela est vrai, que les modifications soient le résultat d'un ou de plusieurs appels de méthode. Par exemple, un appel à [IMAPIFolder:: CopyMessages](imapifolder-copymessages.md) peut affecter plusieurs messages et dossiers. En tant que fournisseur de banque de messages, vous pouvez passer un appel à **OnNotify** avec un type d'événement **fnevObjectModified** pour le dossier cible ou de nombreux appels, un pour chacun affecte les messages. De même, si un client effectue des appels répétés à [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md), ces appels peuvent être combinés en un seul événement **fnevObjectModified** pour le dossier ou être séparés en événements **fnevObjectCreated** individuels pour chaque nouveau message. 
   
-Pour plus d’informations sur la façon et le moment générer des notifications, voir [Notification d’événement MAPI](event-notification-in-mapi.md) et [Prenant en charge les notifications](supporting-event-notification.md). 
+Pour plus d'informations sur la génération de notifications, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md) et [notification d'événement de prise en charge](supporting-event-notification.md). 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -95,7 +95,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|AdviseSink.h et AdviseSink.cpp  <br/> |CAdviseSink::OnNotifyDesc  <br/> |La classe CAdviseSink est implémentée pour gérer toutes les notifications de MFCMAPI.  <br/> |
+|AdviseSink. h et AdviseSink. cpp  <br/> |CAdviseSink:: OnNotifyDesc  <br/> |La classe CAdviseSink est implémentée pour gérer toutes les notifications dans MFCMAPI.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

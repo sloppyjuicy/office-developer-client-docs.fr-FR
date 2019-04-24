@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3e48f76a-bc97-4cbc-9082-c07dd674b73e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0e6226dd0fc9c04070ed3d1dda1770f77fbc585c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 01980b2da735838eeffa9afa5a0d139b69e76d0c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583007"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357315"
 ---
 # <a name="mapiallocatemore"></a>MAPIAllocateMore
 
@@ -25,13 +25,13 @@ ms.locfileid: "22583007"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affecte une mémoire tampon qui est liée à une autre mémoire tampon précédemment allouée avec la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+Alloue une mémoire tampon liée à une autre mémoire tampon précédemment allouée à l'aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIX.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 SCODE MAPIAllocateMore(
@@ -45,26 +45,26 @@ SCODE MAPIAllocateMore(
 
  _cbSize_
   
-> [in] Taille, en octets, de la nouvelle mémoire tampon à allouer. 
+> dans Taille, en octets, de la nouvelle mémoire tampon à allouer. 
     
  _lpObject_
   
-> [in] Pointeur vers un tampon MAPI existant alloué à l’aide de **MAPIAllocateBuffer**.
+> dans Pointeur vers un tampon MAPI existant alloué à l'aide de **MAPIAllocateBuffer**.
     
  _lppBuffer_
   
-> [out] Pointeur vers retourné nouvellement allouer de la mémoire tampon.
+> remarquer Pointeur vers la mémoire tampon renvoyée qui vient d'être allouée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et a renvoyé un pointeur vers la mémoire requise.
+> L'appel a réussi et a renvoyé un pointeur vers la mémoire demandée.
     
 ## <a name="remarks"></a>Remarques
 
-Traitement des appels pendant **MAPIAllocateMore** , l’implémentation appelante acquiert un bloc de mémoire du système d’exploitation. La mémoire tampon est alloué sur une adresse de paires sur deux octets. Sur les plateformes où access entier long est plus efficace, le système d’exploitation alloue de la mémoire tampon sur une adresse dont la taille en octets est un multiple de quatre. 
+Pendant le traitement des appels **MAPIAllocateMore** , l'implémentation de l'appel acquiert un bloc de mémoire à partir du système d'exploitation. La mémoire tampon est allouée sur une adresse d'octet portant un numéro pair. Sur les plateformes où l'accès entier long est plus efficace, le système d'exploitation alloue la mémoire tampon sur une adresse dont la taille en octets est un multiple de quatre. 
   
-Le seul moyen pour libérer la mémoire tampon allouée avec **MAPIAllocateMore** consiste à passer le pointeur de la mémoire tampon spécifié dans le paramètre _lpObject_ à la fonction [MAPIFreeBuffer](mapifreebuffer.md) . La liaison entre les mémoire tampon allouée avec [MAPIAllocateBuffer](mapiallocatebuffer.md) et **MAPIAllocateMore** active **MAPIFreeBuffer** libérer les deux tampons avec un seul appel. 
+La seule façon de libérer un tampon alloué avec **MAPIAllocateMore** est de transmettre le pointeur de mémoire tampon spécifié dans le paramètre _lpObject_ à la fonction [MAPIFreeBuffer](mapifreebuffer.md) . Le lien entre les mémoires tampons de mémoire allouées avec [MAPIAllocateBuffer](mapiallocatebuffer.md) et **MAPIAllocateMore** permet à **MAPIFreeBuffer** de libérer les deux tampons à l'aide d'un seul appel. 
   
 

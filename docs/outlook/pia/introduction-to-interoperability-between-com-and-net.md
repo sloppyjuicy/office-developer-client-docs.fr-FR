@@ -1,5 +1,5 @@
 ---
-title: Introduction à l'interopérabilité entre COM et .NET
+title: Introduction à l’interopérabilité entre COM et .NET
 TOCTitle: Introduction to interoperability between COM and .NET
 ms:assetid: 6b2d099a-ec6f-4099-aaf6-e61003fe5a32
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610378(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b19135900974c3fa379aa9f4acb18ee98a2f8c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360604"
 ---
 # <a name="introduction-to-interoperability-between-com-and-net"></a>Introduction à l'interopérabilité entre COM et .NET
 

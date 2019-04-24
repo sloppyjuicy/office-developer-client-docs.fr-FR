@@ -1,5 +1,5 @@
 ---
-title: Créer une classe d’assistance pour accéder aux membres d’un élément courant Outlook
+title: Création d’une classe d’assistance pour accéder aux membres courants d’un élément Outlook
 TOCTitle: Create a Helper class to access common Outlook item members
 ms:assetid: 344ff07d-e448-4418-910d-930e60f7381f
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn292518(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7cee8024a622e98be667b9e05ceba63ad79b1edf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359401"
 ---
 # <a name="create-a-helper-class-to-access-common-outlook-item-members"></a>Créer une classe d’assistance pour accéder aux membres d’un élément courant Outlook
 
@@ -30,7 +30,7 @@ Par exemple, la propriété [CurrentItem](https://msdn.microsoft.com/library/bb6
 
 La classe d’assistance OutlookItem utilise la réflexion pour exposer les propriétés et les méthodes qui sont communes à tous les éléments. La classe vous permet de caster l’objet en type exact et offre l’avantage d’utiliser directement les propriétés ou méthodes communes des éléments sur l’objet **OutlookItem**. Il s’agit d’une technique très utile, et plusieurs autres rubriques d’explications pas-à-pas répertoriées dans la section **Voir aussi** utilisent cette classe d’assistance.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l'importation et l'affectation dans Visual Basic et dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -1027,7 +1027,7 @@ namespace SampleCodeAddinCS
 
 - [Afficher les éléments sélectionnés dans l’Explorateur actif](how-to-display-selected-items-in-the-active-explorer.md)
 - [Ouvrir et afficher le contenu d’un fichier iCalendar](how-to-open-and-display-the-contents-of-an-icalendar-file.md)
-- [Affecter des catégories à un élément](how-to-assign-categories-to-an-item.md)
+- [Affectation des catégories à un élément](how-to-assign-categories-to-an-item.md)
 - [Mettre en œuvre un wrapper pour les inspecteurs et suivre les événements au niveau des éléments dans chaque inspecteur](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)
 - [Éléments Outlook généraux](general-outlook-items.md)
 

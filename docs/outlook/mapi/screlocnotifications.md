@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4117558d27d64444cdac62651584fe6cfe8ff061
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 81da4b77f0d2162a1119b7945b1e0ceb87ba9fb8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360710"
 ---
 # <a name="screlocnotifications"></a>ScRelocNotifications
 
@@ -25,13 +25,13 @@ ms.locfileid: "22583966"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajuste un pointeur au sein d’un tableau de notification d’événement spécifié. 
+Ajuste un pointeur dans un tableau de notification d'événement spécifié. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 SCODE ScRelocNotifications(
@@ -45,39 +45,39 @@ SCODE ScRelocNotifications(
 
 ## <a name="parameters"></a>Paramètres
 
- _cntf_
+ _CNTF_
   
-> [in] Nombre de structures [NOTIFICATION](notification.md) dans le tableau indiqué par le paramètre _rgntf_ . 
+> dans Nombre de structures de [notification](notification.md) dans le tableau indiqué par le paramètre _rgntf_ . 
     
  _rgntf_
   
-> [in] Pointeur vers le tableau des structures **NOTIFICATION** définition des notifications d’événement dans lequel un pointeur doit être ajustées. 
+> dans Pointeur vers le tableau de structures de **notification** définissant des notifications d'événement dans lesquelles un pointeur doit être ajusté. 
     
  _pvBaseOld_
   
-> [in] Pointeur vers l’adresse de base d’origine du tableau indiquée par le paramètre _rgntf_ . 
+> dans Pointeur vers l'adresse de base d'origine du tableau indiquée par le paramètre _rgntf_ . 
     
  _pvBaseNew_
   
-> [in] L’emplacement dans lequel **ScRelocNotifications** écrit la nouvelle adresse de base du tableau indiquée par le paramètre _rgntf_ . 
+> dans Emplacement auquel **ScRelocNotifications** écrit la nouvelle adresse de base du tableau indiquée par le paramètre _rgntf_ . 
     
- _carte de circuit imprimé_
+ _circuits_
   
-> [out] Pointeur vers la taille, en octets, du tableau indiquée par le paramètre _pvBaseNew_ . 
+> remarquer Pointeur vers la taille, en octets, du tableau indiqué par le paramètre _pvBaseNew_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Un pointeur ajusté avec succès.
+> Un pointeur a été ajusté avec succès.
     
 MAPI_E_INVALID_PARAMETER
   
-> Une notification non valide s’est produite.
+> Une notification incorrecte a été rencontrée.
     
 ## <a name="remarks"></a>Remarques
 
-Le paramètre de la _carte de circuits imprimés_ à la fonction **ScRelocNotifications** est facultatif. 
+Le paramètre _PCB_ de la fonction **ScRelocNotifications** est facultatif. 
   
 ## <a name="see-also"></a>Voir aussi
 

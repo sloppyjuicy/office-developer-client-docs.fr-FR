@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3b0a8b28-863e-4b96-a4c0-fdb8f40555b9
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 1a5f8688b8ea747590cf2a2d6d5efb271aa488f8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390925"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356545"
 ---
 # <a name="pidtagattachdatabinary-canonical-property"></a>Propriété canonique PidTagAttachDataBinary
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des données binaires de pièce jointe généralement accédées via l’interface Object Linking and Embedding (OLE) **IStream** . 
+Contient les données de pièces jointes binaires généralement accessibles via l'interface IStream (Object Linking and Embedding) **IStream** . 
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Contient des données binaires de pièce jointe généralement accédées via l�
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient la pièce jointe lorsque la valeur de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) est ATTACH_BY_VALUE, qui est le seul doivent être pris en charge et la méthode habituelle de pièce jointe. **PR_ATTACH_DATA_BIN** contient également une pièce jointe OLE 1.0 **OLESTREAM** lorsque la valeur de **PR_ATTACH_METHOD** est ATTACH_OLE. 
+Cette propriété contient la pièce jointe lorsque la valeur de la propriété **PR_ATTACH_METHOD** ([PIDTAGATTACHMETHOD](pidtagattachmethod-canonical-property.md)) est ATTACH_BY_VALUE, qui est la méthode de pièce jointe habituelle et la seule qui doit être prise en charge. **PR_ATTACH_DATA_BIN** contient également une pièce jointe d'OLE 1,0 **OLESTREAM** lorsque la valeur de **PR_ATTACH_METHOD** est ATTACH_OLE. 
   
- Pièces jointes **OLESTREAM** peuvent être copiés dans un fichier en appelant la méthode OLE **IStream::CopyTo** . Le type d’encodage OLE peut être déterminée à partir de la propriété **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+ Les pièces jointes **OLESTREAM** peuvent être copiées dans un fichier en appelant la méthode OLE **IStream:: CopyTo** . Le type de codage OLE peut être déterminé à partir de la propriété **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
-Pour une pièce jointe au document OLE, le fournisseur de banque de messages doit répondre à un appel [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) et peut éventuellement répondre à un appel sur **PR_ATTACH_DATA_BIN **. Notez que **PR_ATTACH_DATA_BIN** et **PR_ATTACH_DATA_OBJ** partagent le même identificateur de propriété et sont donc deux rendus de la même propriété. 
+Pour une pièce jointe de fichier de document OLE, le fournisseur de banque de messages doit répondre à un appel [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) sur **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) et éventuellement répondre à un appel sur **PR_ATTACH_DATA_BIN **. Notez que **PR_ATTACH_DATA_BIN** et **PR_ATTACH_DATA_OBJ** partagent le même identificateur de propriété et sont donc deux rendus de la même propriété. 
   
-Pour un objet de stockage, tel qu’un fichier composé OLE 2.0 au format d’un document, certains fournisseurs de services pouvoir être ouvert avec l’interface MAPI **IStreamDocfile** pour améliorer les performances. Un fournisseur qui prend en charge **IStreamDocfile** doit exposer sur **PR_ATTACH_DATA_OBJ** et peut-être éventuellement exposer sur **PR_ATTACH_DATA_BIN**. 
+Pour un objet de stockage, tel qu'un fichier composé au format DOCFILE OLE 2,0, certains fournisseurs de services l'autorisent à être ouverts avec l'interface MAPI **IStreamDocfile** afin d'améliorer les performances. Un fournisseur qui prend en charge **IStreamDocfile** doit l'exposer sur **PR_ATTACH_DATA_OBJ** et éventuellement l'exposer sur **PR_ATTACH_DATA_BIN**. 
   
-Pour plus d’informations sur les formats et les interfaces OLE, consultez [OLE et transfert de données](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Pour plus d'informations sur les interfaces et les formats OLE, consultez la rubrique [OLE and Data Transfer](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-## <a name="header-files"></a>Fichiers d’en-tête
+## <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

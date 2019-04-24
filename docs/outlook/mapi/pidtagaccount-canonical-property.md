@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bec199b5-abfd-4686-ad59-21092212e1a5
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 2962f973aa87b88f237ded69573df9ef312a7bc5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359778"
 ---
 # <a name="pidtagaccount-canonical-property"></a>Propriété canonique PidTagAccount
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le nom du compte du destinataire. 
   
@@ -36,33 +36,33 @@ Contient le nom du compte du destinataire.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés permettent d’identifier et accéder aux informations pour un destinataire. Ils sont définis par le destinataire et de leur organisation.
+Ces propriétés fournissent des informations d'identification et d'accès pour un destinataire. Elles sont définies par le destinataire et leur organisation.
   
-Ces propriétés couramment contiennent du nom de messagerie du destinataire, autrement dit, le dernier composant de l’adresse de messagerie, qui identifie le destinataire dans l’organisation locale. L’adresse de messagerie correspond au nom unique X.400, qui est supposé être un nom court uniques au sein d’un certain domaine de messagerie.
+Ces propriétés contiennent généralement le nom de messagerie du destinataire, autrement dit, le dernier composant de l'adresse de messagerie, qui identifie de manière unique le destinataire dans l'organisation locale. Le nom de messagerie correspond au nom unique X. 400, qui doit être un nom court garanti unique dans un certain domaine de messagerie.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
+> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-MAPITAGS.h
+mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
-mapidefs.h
+mapidefs. h
   
 > Fournit des définitions de type de données.
     

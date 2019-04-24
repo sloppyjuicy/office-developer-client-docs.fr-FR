@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: ead7c9c33c92240ba5e458b68635b766caaa9760
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359562"
 ---
 # <a name="pidtagroamingbinary-canonical-property"></a>Propriété canonique PidTagRoamingBinary
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un flux de message associé à une sous-classe de la **IPM. Configuration** classe. 
+Contient un flux de message associé à une sous-classe de la **IPM. **Classe de configuration. 
   
 |||
 |:-----|:-----|
@@ -32,29 +32,29 @@ Contient un flux de message associé à une sous-classe de la **IPM. Configurati
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient le flux de données associé à un **IPM. Configuration** message de classe de message. Le format de l’objet stream dépend de la classe de message. Par exemple, un message de type de classe **IPM. Configuration.Autocomplete** doit être mis en forme en tant que [flux de saisie semi-automatique](autocomplete-stream.md).
+Cette propriété contient le flux de données associé à un **IPM. **Message de la classe du message de configuration. Le format du flux dépend de la classe de message. Par exemple, un message de type de classe **IPM. La configuration de la saisie semi-automatique** sera formatée en tant que [flux de saisie semi-automatique](autocomplete-stream.md).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole connexes Microsoft Exchange Server.
+> Fournit des références aux spécifications de protocole Microsoft Exchange Server connexes.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que des listes de catégorie partagée et les heures de travail.
+> Spécifie l'emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ffb7d73a80fce5316e5b948c0ca317501a15daa3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7603fbd99f959108b0db8bda000da4cdf2c90f67
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358939"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>Propriété canonique PidTagConvertedEits
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur pour les types de texte dans un message après la conversion.
+Contient un identificateur pour les types de texte dans un message après conversion.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient un identificateur pour les types de texte dans un message après la con
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété indique quels types d’information codée (EITs) ont été utilisés pour convertir les composants de texte du message.
+Cette propriété indique les types d'informations encodées (EITs) qui ont été utilisés pour convertir les composants de texte du message.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

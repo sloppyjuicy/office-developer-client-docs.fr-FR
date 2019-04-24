@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 958f3cf7-953a-43f4-9102-ad35edf5e813
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f1aa54c3364185d322137ef41f6aface31c5c556
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6d6974302e3413db3590abbbd3e6567976c6ac72
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360822"
 ---
 # <a name="pidtagdiscretevalues-canonical-property"></a>Propriété canonique PidTagDiscreteValues
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un rapport de non-remise s’applique uniquement à des membres d’une liste de distribution plutôt que l’intégralité de la liste. 
+Contient la valeur TRUE si un rapport de non-remise s'applique uniquement aux membres discrets d'une liste de distribution plutôt qu'à la liste entière. 
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contient la valeur TRUE si un rapport de non-remise s’applique uniquement à d
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée dans un rapport de non-remise lorsque le message n’a pas pu être remis à un ou plusieurs membres d’une liste de distribution. Son objectif est de limiter retransmission tente seuls les membres individuels et pas la liste de distribution dans sa globalité. 
+Cette propriété est utilisée dans un rapport de non-remise lorsque le message n'a pas pu être remis à un ou plusieurs membres d'une liste de distribution. Son objectif est de limiter les tentatives de retransmission aux seuls membres individuels et non à la liste de distribution dans son ensemble. 
   
-La table de destinataires d’un rapport de non-remise contient les entrées de tous les destinataires auxquels le message pas pu être remis, ainsi que pour les listes de distribution, le cas échéant, auxquels ils appartiennent. Le fournisseur de transport doit définir cette propriété sur TRUE pour chaque entrée de liste de distribution, et il doit copier les **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) et **clé PR_SEARCH_KEY** ([ PidTagSearchKey](pidtagsearchkey-canonical-property.md)) à partir de la liste de distribution **PR_ORIGINAL_SEARCH_KEY** ([ , **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) et **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)) PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) Propriétés pour chaque membre de cette liste de distribution. 
+Le tableau de destinataires d'un rapport de non-remise contient les entrées de tous les destinataires auxquels le message n'a pas pu être remis, ainsi que les listes de distribution, le cas échéant, auxquelles ils appartiennent. Le fournisseur de transport doit affecter la valeur TRUE à cette propriété pour chaque entrée de liste de distribution, et il doit copier **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) et **PR_SEARCH_KEY** ([ PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de la liste de distribution vers **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) et **PR_ORIGINAL_SEARCH_KEY** ([ PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) pour chaque membre de cette liste de distribution. 
   
- **PR_DISCRETE_VALUES** ne doit pas être défini pour une entrée de destinataire de rapport de non-remise autre qu’une liste de distribution. 
+ **PR_DISCRETE_VALUES** ne doit pas être défini pour toute entrée de destinataire de rapport de non-remise autre qu'une liste de distribution. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

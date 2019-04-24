@@ -9,28 +9,28 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1d198ea6-49e0-e462-b2cf-b65fbb920b55
 description: Renvoie une chaîne convertie en minuscules.
-ms.openlocfilehash: da626ee0bb0474fceafcf93ed5c835aacd0034fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 275e5cc40bed5c3ca7d6f40b0882f523334611c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358015"
 ---
-# <a name="lower-function"></a>LOWER, fonction
+# <a name="lower-function"></a>Fonction LOWER
 
 Renvoie une chaîne convertie en minuscules.
   
 ## <a name="syntax"></a>Syntaxe
 
-INFÉRIEUR (** *expression* **) 
+LOWER (* * *expression* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> | Chaîne, référence de cellule ou expression ; le résultat est converti en une chaîne à son tour convertie en minuscules.  <br/> |
+| _expression_ <br/> |Obligatoire  <br/> |**Réelle** <br/> | Chaîne, référence de cellule ou expression ; le résultat est converti en une chaîne à son tour convertie en minuscules.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   

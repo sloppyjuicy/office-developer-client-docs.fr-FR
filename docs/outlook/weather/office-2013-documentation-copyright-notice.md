@@ -4,28 +4,27 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
-description: Ce document est fourni en l'état. Informations et des vues exprimées dans ce document, y compris les URL et autres références à des sites Internet, peuvent changer sans préavis. Vous assumez tous les risques liés à son utilisation.
+description: Ce document est fourni en l'état. Les informations et les opinions exprimées dans ce document, y compris les URL et autres références de site Web Internet, peuvent être modifiées sans préavis. Vous assumez tous les risques liés à son utilisation.
 ms.openlocfilehash: 108b34a05c4b1508ff79885ce4e0af55bbcf078b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389868"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355194"
 ---
 # <a name="office-2013-documentation-copyright-notice"></a>Notice de copyright de la documentation de 2013 Office
 
-Ce document est fourni en l'état. Informations et des vues exprimées dans ce document, y compris les URL et autres références à des sites Internet, peuvent changer sans préavis. Vous assumez tous les risques liés à son utilisation. 
+Ce document est fourni en l'état. Les informations et les opinions exprimées dans ce document, y compris les URL et autres références de site Web Internet, peuvent être modifiées sans préavis. Vous assumez tous les risques d’utilisation. 
   
-Certains exemples décrits dans ce document sont fournis à titre d'illustration uniquement et sont fictifs. Aucune association ou connexion réelle n'est voulue ni ne doit être inférée.
+Certains exemples décrits dans ce document sont fournis uniquement à titre d'illustration et sont fictifs. Aucune association ou connexion réelle n'est voulue ni ne doit être inférée.
   
-Ce document ne vous accorde aucun droit de propriété intellectuelle quant à des produits Microsoft. Vous pouvez copier et utiliser ce document à des fins internes de référence. 
+Ce document ne vous confère aucun droit de propriété intellectuelle sur les produits Microsoft. Vous pouvez copier et utiliser ce document pour votre usage personnel. 
   
-© 2013 Microsoft Corporation. Tous droits réservés.
+© 2013 Microsoft Corporation. Tous droits réservés.
   
-Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server, et Windows Vista sont des marques déposées ou des marques de Microsoft Corporation aux États-Unis d'Amérique et/ou dans d'autres pays.
+Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server et Windows Vista sont des marques commerciales du groupe de sociétés Microsoft.
   
 Toutes les autres marques sont la propriété de leur détenteur respectif.
   

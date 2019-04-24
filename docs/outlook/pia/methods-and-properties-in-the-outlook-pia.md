@@ -1,5 +1,5 @@
 ---
-title: Méthodes et propriétés dans l'assembly PIA Outlook
+title: Méthodes et propriétés de l’assembly PIA Outlook
 TOCTitle: Methods and properties in the Outlook PIA
 ms:assetid: ec7742de-ead6-41dd-90a3-1280fdf09d54
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb612528(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 90c13559094fbffd2dbe9a99602ee235c92d9445
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351032"
 ---
 # <a name="methods-and-properties-in-the-outlook-pia"></a>Méthodes et propriétés dans l'assembly PIA Outlook
 
@@ -38,7 +38,7 @@ L'outil TLBIMP importe l'interface principale et l'interface d'événement pour 
 
 En continuant à utiliser l’objet **FormRegion** comme exemple, la liste suivante examine ce que contient chaque interface et classe répertoriées précédemment.
 
-- L'interface \_FormRegion définit toutes les méthodes et propriétés de l'objet FormRegion. Vous n’utiliserez généralement pas cette interface dans le code, à l’exception d’une des conditions décrite ci-dessous.
+- L'interface \_FormRegion définit toutes les méthodes et propriétés de l'objet FormRegion. En général, vous n'utilisez pas cette interface dans le code, sauf dans un cas décrit plus loin.
 
 - L'interface **FormRegionEvents** définit des méthodes qui sont mappées à des événements de FormRegion. Vous n’utiliserez pas cette interface dans le code.
 
@@ -73,7 +73,7 @@ Si l'objet **Application** est maintenant utilisé comme exemple, vous accédez 
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Mise en rapport de l'assembly PIA Outlook avec le modèle objet](relating-the-outlook-pia-with-the-object-model.md)
+- [Mise en rapport de l’assembly PIA Outlook avec le modèle objet](relating-the-outlook-pia-with-the-object-model.md)
 - [Objets dans l’assembly PIA Outlook](objects-in-the-outlook-pia.md)
 - [Événements dans l'assembly PIA Outlook](events-in-the-outlook-pia.md)
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: bce46687-17dc-4a3f-96be-303d8755158e
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: d463be4a14ecf478bdcbddc50b4ad9360829befc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355152"
 ---
 # <a name="pidtagrenderingposition-canonical-property"></a>Propriété canonique PidTagRenderingPosition
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un décalage, en caractères, à utiliser dans le rendu d’une pièce jointe dans le texte du message principal.
+Contient un décalage, en caractères, à utiliser lors du rendu d'une pièce jointe dans le texte du message principal.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contient un décalage, en caractères, à utiliser dans le rendu d’une pièce 
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque le décalage fourni est -1 (0xFFFFFFFF), la pièce jointe n’est pas restituée à l’aide de cette propriété. Toutes les valeurs autres que -1 indiquent la position dans la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) à laquelle la pièce jointe doit être affiché.
+Lorsque le décalage fourni est-1 (0xFFFFFFFF), la pièce jointe n'est pas affichée à l'aide de cette propriété. Toutes les valeurs autres que-1 indiquent la position au sein de la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) à laquelle la pièce jointe doit être affichée.
   
- **Remarque** Le caractère indiqué par cette propriété dans **PR_BODY** est remplacé par la pièce jointe. Ce caractère est généralement un espace, bien qu’un espace réservé spéciale caractère peut également être utilisé. 
+ **Note** Le caractère indiqué par cette propriété dans **PR_BODY** est remplacé par la pièce jointe. En règle générale, ce caractère est un espace, bien qu'un caractère spécial d'espace réservé puisse également être utilisé. 
   
-Cette propriété est exprimée en caractères. Dans certains jeux de caractères, ce n’est pas équivalent à octets. Les applications Unicode peuvent calculer la position en fonction de caractères codés sur deux octets. Applications définir de caractères codés sur deux octets (DBCS) doivent analyser le texte jusqu'à la valeur de cette propriété, car la représentation sous forme de leur caractère varie entre 1 et 2 octets par caractère.
+Cette propriété est exprimée en caractères. Dans certains jeux de caractères, cela n'équivaut pas aux octets. Les applications Unicode peuvent calculer la position en fonction de caractères codés sur deux octets. Les applications à jeu de caractères codés sur deux octets (DBCS) doivent analyser le texte jusqu'à cette valeur de propriété, car leur représentation de caractère varie entre un et deux octets par caractère.
   
-Cette propriété ne doit pas être utilisée avec le texte RTF (RICH Text Format). La position de rendu est indiquée au format RTF par une séquence d’échappement appelée l’espace réservé d’objet pièce jointe. Cette séquence se compose de la chaîne `\objattph` suivi d’un seul caractère, généralement un espace, qui sera remplacé par le rendu de la pièce jointe. 
+Cette propriété ne doit pas être utilisée avec du texte au format RTF (Rich Text Format). La position de rendu est indiquée au format RTF par une séquence d'échappement appelée espace réservé de pièce jointe. Cette séquence se compose de la `\objattph` chaîne suivie d'un seul caractère, normalement un espace, qui sera remplacé par le rendu des pièces jointes. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

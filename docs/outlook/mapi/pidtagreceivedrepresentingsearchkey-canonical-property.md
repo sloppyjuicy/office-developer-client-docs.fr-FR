@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 234c797c-4a3c-4e05-be22-2a2fa377871f
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: bcf310138e4b43b1cc36a177194f721c401caba6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356818"
 ---
 # <a name="pidtagreceivedrepresentingsearchkey-canonical-property"></a>Propriété canonique PidTagReceivedRepresentingSearchKey
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la clé de recherche pour l’utilisateur de messagerie représenté par l’utilisateur destinataire.
+Contient la clé de recherche pour l'utilisateur de messagerie représenté par l'utilisateur de réception.
   
 |||
 |:-----|:-----|
@@ -36,47 +36,47 @@ Contient la clé de recherche pour l’utilisateur de messagerie représenté pa
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une des propriétés d’adresse pour l’utilisateur de messagerie en cours représenté par l’utilisateur destinataire. Elle doit être définie par le fournisseur de transport entrant, qui est également responsable de l’autorisation ou de vérification du délégué. Si aucun utilisateur de messagerie n’est représenté, cette propriété doit être définie pour la clé de recherche contenue dans la propriété **PR_RECEIVED_BY_SEARCH_KEY** ([PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)).
+Cette propriété est l'une des propriétés d'adresse de l'utilisateur de messagerie représenté par l'utilisateur de réception. Il doit être défini par le fournisseur de transport entrant, qui est également responsable de l'autorisation ou de la vérification du délégué. Si aucun utilisateur de messagerie n'est représenté, cette propriété doit être définie sur la clé de recherche contenue dans la propriété **PR_RECEIVED_BY_SEARCH_KEY** ([PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)).
   
-Une application client répondre à un message reçu de la part d’un autre client doit copier cette propriété à partir du message reçu dans la propriété **PR_SENT_REPRESENTING_SEARCH_KEY** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)) pour la réponse.
+Une application cliente répondant à un message reçu au nom d'un autre client doit copier cette propriété à partir du message reçu dans la propriété **PR_SENT_REPRESENTING_SEARCH_KEY** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)) pour la réponse.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère l’ordre et le flux pour les transferts de données entre un client et le serveur.
+> Gère l'ordre et le flux de transfert de données entre un client et un serveur.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> La conversion entre IETF RFC2445, RFC2446, RFC2447 et rendez-vous et des objets de la conférence.
+> Effectue une conversion entre l'IETF RFC2445, RFC2446 et RFC2447, et les objets de rendez-vous et de réunion.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Spécifie les méthodes pour la connexion et configurer des boîtes aux lettres en tant que les délégués et les interactions avec les objets de messagerie et de calendrier lorsqu’ils agissent au nom d’un autre utilisateur.
+> Spécifie les méthodes de connexion et de configuration des boîtes aux lettres en tant que délégués, ainsi que les interactions avec les objets message et Calendar lorsqu'ils agissent pour le compte d'un autre utilisateur.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Code et décode des objets message et la pièce jointe à une représentation sous forme de flux efficace.
+> Encode et décode les objets message et Attachment en une représentation de flux efficace.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

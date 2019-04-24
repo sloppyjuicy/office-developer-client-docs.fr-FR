@@ -8,31 +8,31 @@ f1_keywords:
 - Vis_DSS.chm82251433
 localization_priority: Normal
 ms.assetid: db80f147-71a0-0b23-bc7e-fe1915dfdd21
-description: Calcule l’angle correct d’un bloc de texte de la rotation de la rotation de la forme indiquée empêcher le texte d’activation de haut en bas.
-ms.openlocfilehash: 0d8b0160c7e7d63fb5a272219a2694d35e6e6b61
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Calcule l'angle de rotation correct d'un bloc de texte pour la rotation de forme indiquée de sorte que le texte ne soit pas renversé.
+ms.openlocfilehash: 77c944d954292e231f8bacbe3c8a4433aad5d689
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19788733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360185"
 ---
-# <a name="gravity-function"></a>GRAVITY, fonction
+# <a name="gravity-function"></a>Fonction GRAVITY
 
-Calcule l’angle correct d’un bloc de texte de la rotation de la rotation de la forme indiquée empêcher le texte d’activation de haut en bas.
+Calcule l'angle de rotation correct d'un bloc de texte pour la rotation de forme indiquée de sorte que le texte ne soit pas renversé.
   
 ## <a name="syntax"></a>Syntaxe
 
-GRAVITY (** *angle* **, [** *limit1* **], [** *limit2* **]) 
+Gravité (* * *angle* * *, [* * *limite1* * *], [* * *limit2* * *]) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Angle de la forme.  <br/> |
-| _limit1_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Première limite de rotation. La valeur par défaut est 90 degrés.  <br/> |
+| _angle_ <br/> |Obligatoire  <br/> |**String** <br/> | Angle de la forme.  <br/> |
+| _limite1_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Première limite de rotation. La valeur par défaut est 90 degrés.  <br/> |
 | _limit2_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Deuxième limite de rotation. La valeur par défaut est 270 degrés.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   
@@ -40,19 +40,19 @@ Chaîne
 
 La fonction GRAVITY est généralement utilisée dans la cellule AngleTexte. 
   
-La valeur renvoyée est 180 degrés si _angle_ est compris entre les valeurs spécifiées _dans limit1_ et _limit2_; dans le cas contraire, la valeur renvoyée est 0 degré.
+La valeur renvoyée est 180 degrees si _angle_ est compris entre les valeurs spécifiées par _limite1_ et _limit2_; Sinon, la valeur renvoyée est 0 degré.
   
 Tous les arguments sont automatiquement normalisés par la fonction à des valeurs comprises entre 0 et 360 degrés. Si un argument ne précise pas d’unités, les radians sont utilisés. 
   
 ## <a name="example-1"></a>Exemple 1
 
-GRAVITY(Angle)
+GRAVITÉ (angle)
   
-Renvoie 180 degrés si *angle* est compris entre 90 et 270 degrés ; Sinon, renvoie 0 degré. 
+Renvoie 180 degrés si *angle* est compris entre 90 et 270 degrés; Sinon, renvoie 0 degré. 
   
 ## <a name="example-2"></a>Exemple 2
 
-GRAVITY(2)
+GRAVITÉ (2)
   
 Renvoie 180 degrés, car 2 radians est compris entre 90 et 270 degrés.
   

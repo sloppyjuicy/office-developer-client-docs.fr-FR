@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ff34a23b-2881-864f-42e4-871c4fde0992
 description: Détermine l'alignement vertical du texte dans le bloc de texte.
-ms.openlocfilehash: cfd34f17eec597c306b69f76929877013b39015e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 954a0cf0b80d6b675dcc016997f1923041069eac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356140"
 ---
 # <a name="verticalalign-cell-text-block-format-section"></a>VerticalAlign, cellule (section Text Block Format)
 
 Détermine l'alignement vertical du texte dans le bloc de texte.
   
-|**Valeur**|**Description**|**Constante d’Automation**|
+|**Value**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Haut  <br/> |**visVertTop** <br/> |
-| 1  <br/> | Milieu  <br/> |**visVertMiddle** <br/> |
-| 2  <br/> | Bas  <br/> |**visVertBottom** <br/> |
+| 0,1  <br/> | Centre  <br/> |**visVertMiddle** <br/> |
+| n°2  <br/> | Inférieures  <br/> |**visVertBottom** <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule VerticalAlign par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule VerticalAlign par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule VerticalAlign par index dans un progr
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowText** <br/> |
 | Index de la cellule :  <br/> |**visTxtBlkVerticalAlign** <br/> |
    

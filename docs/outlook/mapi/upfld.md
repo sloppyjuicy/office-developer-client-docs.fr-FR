@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 34d6eb0653c3eb550bf03242a2c1b2acc3330a13
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: c8f7bdc5864c049d8db6f38e92a69c97b6f9dc73
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360479"
 ---
 # <a name="upfld"></a>UPFLD
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations de téléchargement d’un dossier au cours de l' [état du dossier de téléchargement](upload-folder-state.md).
+Informations pour le téléchargement d'un dossier lors de l' [État du dossier de chargement](upload-folder-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,39 +33,39 @@ struct UPFLD
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
 _ulFlags_
   
->  [out] / [in] indicateurs pour déterminer les actions appropriées pour l’uplaod. 
+>  [out]/[in] indicateurs pour déterminer les actions appropriées pour le uplaod. 
     
   - UPF_NEW
     
-    - [out] Dossier est nouveau.
+    - remarquer Le dossier est nouveau.
     
   - UPF_MOD_PARENT
     
-    - [out] Dossier a été déplacé.
+    - remarquer Le dossier a été déplacé.
     
   - UPF_MOD_PROPS
     
-    - [out] Les propriétés de dossier ont été modifiées.
+    - remarquer Les propriétés du dossier ont été modifiées.
     
   - UPF_DEL
     
-    - [out] Dossier a été supprimé.
+    - remarquer Le dossier a été supprimé.
     
   - UPF_OK
     
-    - [in] Téléchargement a réussi. Le client définit après le téléchargement des informations sur les dossiers sur le serveur.
+    - dans Le chargement a réussi. Le client le définit après avoir téléchargé les informations de dossier sur le serveur.
     
 _pfld_
   
-> [out] L’objet d’ouvrir le dossier à télécharger.
+> remarquer Objet Folder ouvert à télécharger.
     
 _feid_
   
-> [out] ID d’entrée du dossier.
+> [sortant] ID d’entrée du dossier.
     
 ## <a name="see-also"></a>Voir aussi
 

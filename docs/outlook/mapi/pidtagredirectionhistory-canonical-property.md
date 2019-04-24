@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 380ea11c-b1ac-4f54-9034-c52edec4f700
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e986313ccac7533178e2c6b466053d5665b9e7e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ae4993f46e10b29ad29a88b7b8b1c54151f5efa7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355250"
 ---
 # <a name="pidtagredirectionhistory-canonical-property"></a>Propriété canonique PidTagRedirectionHistory
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des informations sur l’itinéraire couvert par un message remis.
+Contient des informations sur l'itinéraire couvert par un message remis.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient des informations sur l’itinéraire couvert par un message remis.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée lorsqu’un message est transféré automatiquement par un agent automatique.
+Cette propriété est utilisée lorsqu'un message est automatiquement transféré par un agent automatique.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

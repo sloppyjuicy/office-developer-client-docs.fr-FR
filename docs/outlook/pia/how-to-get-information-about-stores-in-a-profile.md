@@ -1,5 +1,5 @@
 ---
-title: Obtenir des informations sur les magasins dans un profil
+title: Obtention des informations des banques dans un profil
 TOCTitle: Get information about stores in a profile
 ms:assetid: e88222d2-e1b7-4393-aac4-5ce9d24d5d5b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184648(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2044fc52370bdadd5c7f01debbd02c88dd881715
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349419"
 ---
 # <a name="get-information-about-stores-in-a-profile"></a>Obtenir des informations sur les magasins dans un profil
 
@@ -25,7 +25,7 @@ Cet exemple montre comment obtenir et énumérer les magasins dans un profil.
 
 Vous pouvez utiliser la collection [Stores](https://msdn.microsoft.com/library/bb622944\(v=office.15\)) pour énumérer les magasins pour un profil donné. La collection **Stores** fournit des membres qui exposent des informations sur chaque objet [Store](https://msdn.microsoft.com/library/bb609139\(v=office.15\)) , telles que le moment où un objet **Store** a été ajouté ou le moment où un objet **Store** va être supprimé du profil actif. Dans l’exemple de code suivant, EnumerateStores obtient l’objet **Stores** qui représente les magasins du profil actif, et énumère les magasins. L'objet EnumerateStores examine chaque objet **Store** de la collection **Stores**. Si la propriété [IsDataFileStore](https://msdn.microsoft.com/library/bb624116\(v=office.15\)) retourne **true**, indiquant qu'il existe une banque avec une extension .pst ou .ost, les propriétés [DisplayName](https://msdn.microsoft.com/library/bb612209\(v=office.15\)) et [FilePath](https://msdn.microsoft.com/library/bb646113\(v=office.15\)) sont écrites sur les écouteurs de suivi de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -1,5 +1,5 @@
 ---
-title: Référence du fournisseur Outlook Social Connector
+title: Référence du fournisseur Outlook Social Connector
 manager: soliver
 ms.date: 04/04/2016
 ms.audience: Developer
@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 13661393-adf6-4870-86c4-303262317675
 description: Outlook Social Connector 2013 fournit une plateforme de communications pour les communications personnelles et professionnelles.
 ms.openlocfilehash: e570fe69cbbe0e8d472e712fb3b8592c97fe43c0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359835"
 ---
 # <a name="outlook-social-connector-provider-reference"></a>Référence du fournisseur Outlook Social Connector
 
@@ -49,7 +49,7 @@ Si vous débutez en tant que développeur de solutions pour Outlook, consultez [
 
 - [Mention de droits d'auteur sur la référence du fournisseur Outlook Social Connector 2013](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
 - [Conventions de document](https://msdn.microsoft.com/office/aa905365.aspx)   
-- [Accessibilité des produits Microsoft](https://www.microsoft.com/enable/products/default.aspx)  
+- [Accessibilité dans les produits Microsoft (éventuellement en anglais)](https://www.microsoft.com/enable/products/default.aspx)  
 - [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/en-us/privacystatement)
     
 

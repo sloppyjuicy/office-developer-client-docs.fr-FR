@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c25888353857f9233ba487661f5f27d64cd678cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9ea9938ca9f8dd0b25cf2de5199178a76e17b6d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361179"
 ---
 # <a name="pidtagtnefunprocessedprops-canonical-property"></a>Propriété canonique PidTagTnefUnprocessedProps
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Sérialiser propriétés lors du filtrage de Transport Neutral Encapsulation Format (TNEF).
+Sérialise les propriétés lors du filtrage du format TNEF (Transport Neutral Encapsulation Format).
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Sérialiser propriétés lors du filtrage de Transport Neutral Encapsulation For
    
 ## <a name="remarks"></a>Remarques
 
-Utilisé par Microsoft Outlook et Outlook Web Access (OWA) pour enregistrer le format TNEF d’origine dans les cas où le format TNEF contient des propriétés nommées ne peuvent pas être créés dans le magasin.
+Utilisé par Microsoft Outlook et Outlook Web Access (OWA) pour enregistrer le format TNEF d'origine dans les cas où le format TNEF contient des propriétés nommées qui ne peuvent pas être créées dans la Banque.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

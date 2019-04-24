@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 495b2aec-e197-75eb-9974-e7c92d26546f
 description: Indique une valeur pour la cellule définie par l'utilisateur correspondante.
-ms.openlocfilehash: d320c35fa8ae65dd0b21a83ad2cf23dbb3af77f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 137d22430829f96a9c6ad69a73a6b44e964d5f4f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355894"
 ---
 # <a name="value-cell-user-defined-cells-section"></a>Value, cellule (section User-Defined Cells)
 
 Indique une valeur pour la cellule définie par l'utilisateur correspondante.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Pour faire référence à cette valeur dans une autre cellule, indiquez le nom défini par l'utilisateur entré dans la ligne User.Row.
   
-Pour obtenir une référence à la cellule Value par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Value par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Utilisateur.  *Nom* . Où la valeur utilisateur.  *Name* est le nom de ligne  <br/> |
+| Nom de la cellule :  <br/> | Guide.  *Nom* . Valeur où User.  *Name* est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule Value par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

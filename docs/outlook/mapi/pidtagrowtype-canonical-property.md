@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: d57ce5c8-1f60-4709-b86a-4468c4208dfe
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 962e8c92ae61e8b60862a3ae26a7cdfbf5034e89
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359513"
 ---
 # <a name="pidtagrowtype-canonical-property"></a>Propriété canonique PidTagRowType
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur qui indique le type d’une ligne dans une table.
+Contient une valeur qui indique le type d'une ligne dans un tableau.
   
 |||
 |:-----|:-----|
@@ -36,43 +36,43 @@ Contient une valeur qui indique le type d’une ligne dans une table.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété s’affiche uniquement sur des tables des matières. Une catégorie existe uniquement lorsqu’il a des éléments.
+Cette propriété s'affiche uniquement sur les tables de contenu. Une catégorie n'existe que lorsqu'elle a des éléments.
   
-Cette propriété peut avoir exactement une des valeurs suivantes :
+Cette propriété peut avoir exactement l'une des valeurs suivantes:
   
 TBL_LEAF_ROW 
   
-> Représente les données réelles, plutôt qu’une ligne de la catégorie.
+> Représente les données réelles, plutôt qu'une ligne de catégorie.
     
 TBL_EMPTY_CATEGORY 
   
-> N’est actuellement pas utilisé.
+> Non utilisé actuellement.
     
 TBL_EXPANDED_CATEGORY 
   
-> La catégorie est développée ; l’interface utilisateur affiche généralement avec le signe moins (-) à côté d’elle.
+> La catégorie est développée; en règle générale, l'interface utilisateur affiche le signe moins (-) à côté.
     
 TBL_COLLAPSED_CATEGORY 
   
-> La catégorie est réduite ; l’interface utilisateur affiche généralement avec le signe plus (+) en regard de son.
+> La catégorie est réduite; en règle générale, l'interface utilisateur affiche le signe plus (+) en regard de celle-ci.
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclut les opérations autorisées pour les objets de la table principale.
+> Inclut les opérations admissibles pour les objets de la table principale.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

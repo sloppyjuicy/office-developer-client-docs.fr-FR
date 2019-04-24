@@ -11,58 +11,58 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 04d444a5-e97f-48e6-89a5-8a6cb2136408
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 75d390edd06aaf826f6b8c2d996e4e08bf6a7334
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360850"
 ---
 # <a name="pidtagdepth-canonical-property"></a>Propriété canonique PidTagDepth
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un entier qui représente le niveau de retrait, ou la profondeur, d’un objet dans une table de hiérarchie relatif.
+Contient un entier qui représente le niveau relatif de retrait, ou profondeur, d'un objet dans une table de hiérarchie.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DEPTH  <br/> |
 |Identificateur :  <br/> |0x3005  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut également spécifier le niveau de la catégorisation d’une ligne dans une table des matières ou la profondeur de hiérarchie dans une table de hiérarchie. La profondeur est zéro, où zéro représente la catégorie plus à gauche. Dans tous les cas, la valeur de propriété représente une valeur relative plutôt qu’une valeur absolue. Dans la table de hiérarchie, par exemple, la valeur de profondeur est par rapport au conteneur à partir de laquelle la table de hiérarchie a été récupérée. La profondeur ne représente pas une profondeur absolue du conteneur racine. 
+Cette propriété peut également spécifier le niveau de catégorisation d'une ligne dans une table des matières ou la profondeur de la hiérarchie dans une table de hiérarchie. La profondeur est de base zéro, où zéro représente la catégorie la plus à gauche. Dans tous les cas, la valeur de la propriété représente une valeur relative plutôt qu'une valeur absolue. Dans la table de hiérarchie, par exemple, la valeur de profondeur est relative au conteneur à partir duquel la table de hiérarchie a été extraite. La profondeur ne représente pas une profondeur absolue du conteneur racine. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclut les opérations autorisées pour les objets de la table principale.
+> Inclut les opérations admissibles pour les objets de la table principale.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
+> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

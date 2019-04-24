@@ -11,58 +11,58 @@ api_name:
 api_type:
 - COM
 ms.assetid: 176245d9-724d-44f1-b7a3-eddf652533b2
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 2b7aef416beb9eee70aeff8cf20cb38ae8e7993f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355474"
 ---
 # <a name="pidtagoriginaldisplayname-canonical-property"></a>Propriété canonique PidTagOriginalDisplayName
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom complet d’origine pour une entrée copié à partir d’un carnet d’adresses dans un carnet d’adresses personnel ou autre carnet d’adresses accessible en écriture.
+Contient le nom d'affichage d'origine d'une entrée copiée à partir d'un carnet d'adresses dans un carnet d'adresses personnel ou un autre carnet d'adresses accessible en écriture.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_DISPLAY_NAME, PR_ORIGINAL_DISPLAY_NAME_A, PR_ORIGINAL_DISPLAY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A13  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent des informations sur la source d’origine d’une entrée copiée.
+Ces propriétés contiennent des informations sur la source d'origine d'une entrée copiée.
   
-Pour un rapport nonread, ces propriétés contiennent une copie du nom complet du destinataire du message d’origine pour lequel le rapport est généré. Lorsque le destinataire d’origine fait partie d’une liste de distribution, le nom complet de la liste de distribution est conservé pour le rapport.
+Pour un rapport non lu, ces propriétés contiennent une copie du nom d'affichage du destinataire du message d'origine pour lequel le rapport est généré. Lorsque le destinataire d'origine fait partie d'une liste de distribution, le nom d'affichage de la liste de distribution est préservé pour le rapport.
   
-Une application cliente peut utiliser ces propriétés pour éviter toute altération ou « usurpation d’identité » des entrées, en donnant une copie intacte du nom complet à comparer.
+Une application cliente peut utiliser ces propriétés pour empêcher la modification ou l'usurpation d'entrées, en donnant une copie non modifiée du nom d'affichage à comparer.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
+> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

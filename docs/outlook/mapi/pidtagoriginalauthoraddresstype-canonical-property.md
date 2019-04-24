@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7cdedb1a-e441-469b-be50-2f18203eb30d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: bc3c06c38f8ff8121a8503341cdd1084c036e52d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 596e416624fb6f2bf1fdaef64c2179feb7787815
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356216"
 ---
 # <a name="pidtagoriginalauthoraddresstype-canonical-property"></a>Propriété canonique PidTagOriginalAuthorAddressType
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le type d’adresse de l’auteur de la première version d’un message, autrement dit, le message avant d’être transférés ou une réponse.
+Contient le type d'adresse de l'auteur de la première version d'un message, c'est-à-dire le message avant son transfert ou sa réponse.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient le type d’adresse de l’auteur de la première version d’un messag
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d’adresse de l’auteur d’un message. Au premier envoi du message, l’application cliente doit définir cette propriété à la valeur de la propriété **PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)). Il n’est jamais modifié lorsque le message est transféré ou d’une réponse.
+Ces propriétés sont des exemples de propriétés d'adresse pour l'auteur d'un message. Lors de la première soumission du message, l'application cliente doit définir cette propriété sur la valeur de la propriété **PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)). Il n'est jamais modifié lorsque le message est transféré ou renvoyé.
   
-Les propriétés de l’auteur d’origine autoriser pour la conservation des informations à partir de l’extérieur du domaine de messagerie local. Lorsqu’un message arrive à partir d’un autre domaine de messagerie, tels qu’à partir d’Internet, ces propriétés fournissent un moyen pour vous assurer que les informations d’origine ne sont pas perdues.
+Les propriétés de l'auteur d'origine permettent la conservation des informations en dehors du domaine de messagerie local. Lorsqu'un message arrive à partir d'un autre domaine de messagerie, tel qu'Internet, ces propriétés permettent de s'assurer que les informations d'origine ne sont pas perdues.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

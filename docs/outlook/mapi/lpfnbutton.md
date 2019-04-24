@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b302de68f27e85c67430f82bd3e2c33009600e9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 804bd23a148b942fd4580d1e3465fc1f65ff5978
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357441"
 ---
 # <a name="lpfnbutton"></a>LPFNBUTTON
 
@@ -25,13 +25,13 @@ ms.locfileid: "22591351"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel appels MAPI pour activer un contrôle bouton d’option dans une boîte de dialogue Carnet d’adresses. Ce bouton est généralement un bouton **Détails** . 
+Définit une fonction de rappel que MAPI appelle pour activer un contrôle bouton facultatif dans une boîte de dialogue Carnet d'adresses. Ce bouton est généralement un bouton **Détails** . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Fonction implémentée par :  <br/> |Fournisseurs de services  <br/> |
-|Fonction appelée par :  <br/> |MAPI  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fonction définie implémentée par:  <br/> |Fournisseurs de services  <br/> |
+|Fonction définie appelée par:  <br/> |MAPI  <br/> |
    
 ```cpp
 SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
@@ -47,19 +47,19 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 
  _ulUIParam_
   
-> [in] Poignée de fenêtres parent pour toutes les boîtes de dialogue ou de windows qu'affiche cette fonction.
+> dans Handle des fenêtres parentes pour les boîtes de dialogue ou les fenêtres que cette fonction affiche.
     
  _lpvContext_
   
-> [in] Pointeur vers une valeur arbitraire transmis à la fonction de rappel lorsque MAPI il l’appelle. Cette valeur peut représenter une adresse de l’argument précision à l’application cliente. En règle générale, pour le code C++, _lpvContext_ représente un pointeur vers un objet C++. 
+> dans Pointeur vers une valeur arbitraire passée à la fonction de rappel lorsque MAPI l'appelle. Cette valeur peut représenter une adresse de l'importance de l'application cliente. En règle générale, pour le code C++, _lpvContext_ représente un pointeur vers un objet c++. 
     
  _cbEntryID_
   
-> [in] Taille, en octets, de l’identificateur d’entrée indiqué par le paramètre _lpSelection_ . 
+> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpSelection_ . 
     
  _lpSelection_
   
-> [in] Pointeur vers l’identificateur d’entrée définissant la sélection dans la boîte de dialogue.
+> dans Pointeur vers l'identificateur d'entrée qui définit la sélection dans la boîte de dialogue.
     
  _ulFlags_
   
@@ -73,11 +73,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Applications clientes appellent une fonction de rappel selon le prototype **LPFNBUTTON** permet de définir un bouton dans une boîte de dialogue Détails. Le client transmet un pointeur vers la fonction de rappel dans les appels à la méthode [IAddrBook::Details](iaddrbook-details.md) . 
+Les applications clientes appellent une fonction de rappel basée sur le prototype **LPFNBUTTON** pour définir un bouton dans une boîte de dialogue détails. Le client transmet un pointeur vers la fonction de rappel dans les appels à la méthode [IAddrBook::D etails](iaddrbook-details.md) . 
   
-Fournisseurs de services appellent une fonction de raccordement selon le prototype **LPFNBUTTON** permet de définir un bouton dans une boîte de dialogue Détails. Le fournisseur passe un pointeur vers cette fonction raccordement dans les appels à la méthode [IMAPISupport::Details](imapisupport-details.md) . 
+Les fournisseurs de services appellent une fonction de raccordement basée sur le prototype **LPFNBUTTON** pour définir un bouton dans une boîte de dialogue détails. Le fournisseur transmet un pointeur vers cette fonction de raccordement dans les appels à la méthode [IMAPISupport::D etails](imapisupport-details.md) . 
   
-Dans les deux cas, lorsque la boîte de dialogue s’affiche et l’utilisateur clique sur le bouton défini, appels MAPI **LPFNBUTTON**. 
+Dans les deux cas, lorsque la boîte de dialogue est affichée et que l'utilisateur choisit le bouton défini, MAPI appelle **LPFNBUTTON**. 
   
 ## <a name="see-also"></a>Voir aussi
 

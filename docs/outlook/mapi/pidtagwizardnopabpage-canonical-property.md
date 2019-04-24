@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9cec22cd-798d-41f6-9ebd-c7354f2162c2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cdb7dde4853188eb0621dc3c2f45c2dc713441d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: fc971be76dbaa83176f207411f9f125ffee386cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350651"
 ---
 # <a name="pidtagwizardnopabpage-canonical-property"></a>Propriété canonique PidTagWizardNoPabPage
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient la valeur TRUE si l’Assistant profil consiste à supprimer de la page de carnet d’adresses personnel.
+Cette propriété contient la valeur TRUE si l'Assistant Profil doit supprimer la page Carnet d'adresses personnel (Cap).
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WIZARD_NO_PAB_PAGE  <br/> |
 |Identificateur :  <br/> |0x6701  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |D’administration Exchange  <br/> |
+|Domaine :  <br/> |Administration d'Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de services peuvent définir cette propriété lors de l’appel d’une fonction basée sur le prototype de la fonction [LAUNCHWIZARDENTRY](launchwizardentry.md) . Cette propriété indique à l’Assistant profil que le fournisseur ne souhaite pas la page de carnet d’adresses personnel s’affiche au cours de la boîte de dialogue utilisateur. 
+Les fournisseurs de services peuvent définir cette propriété lors de l'appel d'une fonction basée sur le prototype de fonction [LAUNCHWIZARDENTRY](launchwizardentry.md) . Cette propriété indique à l'Assistant Profil que le fournisseur ne veut pas que la page PAB s'affiche pendant la boîte de dialogue de l'utilisateur. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

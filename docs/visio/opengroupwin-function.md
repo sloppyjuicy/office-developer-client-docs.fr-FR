@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm82251472
 localization_priority: Normal
 ms.assetid: 856ece39-18a4-766a-0dd9-7e888b8b78a5
-description: Ouvre le groupe dans la fenêtre de groupe. Si l’objet n’est pas un groupe, cette fonction est sans effet.
-ms.openlocfilehash: 690c0addeaf4a32735d8526522d2d7500e5fc126
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ouvre le groupe dans la fenêtre de groupe. Si l'objet n'est pas un groupe, cette fonction n'a aucun effet.
+ms.openlocfilehash: 67d5f055408d5dd887a6bbf052b34726986a1220
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360969"
 ---
-# <a name="opengroupwin-function"></a>OPENGROUPWIN, fonction
+# <a name="opengroupwin-function"></a>Fonction OPENGROUPWIN
 
-Ouvre le groupe dans la fenêtre de groupe. Si l’objet n’est pas un groupe, cette fonction est sans effet.
+Ouvre le groupe dans la fenêtre de groupe. Si l'objet n'est pas un groupe, cette fonction n'a aucun effet.
   
 ## <a name="syntax"></a>Syntaxe
 
 OPENGROUPWIN( )
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Dans les versions précédentes de Visio, cette fonction s’appelait _OPENGROUPWIN. Les versions Visio 4.0 et ultérieures acceptent les deux styles. 
   

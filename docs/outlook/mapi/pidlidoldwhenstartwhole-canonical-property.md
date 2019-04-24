@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73064a22-68bf-4d3f-91f5-1eec807debf8
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: e7483d887a7033b8137ce9861ff0d9513fe32904
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358001"
 ---
 # <a name="pidlidoldwhenstartwhole-canonical-property"></a>Propriété canonique PidLidOldWhenStartWhole
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la valeur d’origine de la propriété **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) avant une mise à jour de réunion.
+Indique la valeur d'origine de la propriété **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) avant une mise à jour de réunion.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidOldWhenStartWhole  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
-|ID de type long (capot) :  <br/> |0 x 00000029  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Meeting  <br/> |
+|ID long (couvercle):  <br/> |0x00000029  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est pas requise.
+Cette propriété n'est pas obligatoire.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

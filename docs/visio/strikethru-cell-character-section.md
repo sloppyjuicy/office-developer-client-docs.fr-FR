@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b03b4415-0b1a-eb03-2b5e-373b39a0f07a
 description: Détermine si le texte est barré.
-ms.openlocfilehash: 2b25d1d9b00d062214c02c3fc7b14569b43a5110
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a58123814a4782c279a36d202e1293ec222ef93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789831"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349335"
 ---
 # <a name="strikethru-cell-character-section"></a>Strikethru, cellule (section Character)
 
 Détermine si le texte est barré.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le texte est barré.  <br/> |
 |FALSE  <br/> |Le texte n'est pas barré.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule à l’aide de la boîte de dialogue **texte** (sous l’onglet **accueil** , cliquez sur la flèche **police** ). 
+Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Texte** (sous l’onglet **Accueil**, cliquez sur la flèche **Police**). 
   
-Pour obtenir une référence à la cellule Strikethru par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Strikethru par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Char.Strikethru [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Char. Strikethru [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Strikethru par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

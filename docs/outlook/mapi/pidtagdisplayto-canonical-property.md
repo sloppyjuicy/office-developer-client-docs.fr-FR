@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 700cc03b-5d98-40ce-adb5-a11fdac8aa28
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 0c7ae8951b02f099161871b17ff59ea23f8fbcc4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360787"
 ---
 # <a name="pidtagdisplayto-canonical-property"></a>Propriété canonique PidTagDisplayTo
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste des noms complets du principal (à) destinataires du message, séparés par des points-virgules ( ;). 
+Contient une liste des noms d'affichage des destinataires du message principal (à), séparés par des points-virgules (;). 
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient une liste des noms complets du principal (à) destinataires du message,
    
 ## <a name="remarks"></a>Remarques
 
-La banque de messages calcule ces propriétés sur les objets de message à l’aide de la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . La banque de messages gère également ces propriétés pour qu’elle reflète toujours le dernier état enregistré d’un message. La valeur est synchronisée au moment de chaque appel à la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
+La Banque de messages calcule ces propriétés sur les objets de message à l'aide de la méthode [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . La Banque de messages gère également ces propriétés de sorte qu'elle reflète toujours le dernier état enregistré d'un message. La valeur est synchronisée au moment de chaque appel à la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
   
-Si un message n’a pas de destinataire principales, la banque de messages doit répondre à un appel de [IMAPIProp::GetProps](imapiprop-getprops.md) avec une valeur de retour de S_OK et une chaîne vide pour **PR_DISPLAY_TO**. 
+Si un message n'a pas de destinataires principaux, la Banque de messages doit répondre à un appel [IMAPIProp:: GetProps](imapiprop-getprops.md) avec une valeur de retour de S_OK et une chaîne vide pour **PR_DISPLAY_TO**. 
   
-En raison de la nécessité de possible pour la localisation, MAPI fournit ces instructions pour tous les noms des destinataires :
+En raison de l'éventuel besoin de localisation, MAPI fournit les instructions suivantes pour tous les noms de destinataires:
   
-- Les noms doivent être en mesure d’être localisés. 
+- Tous les noms doivent pouvoir être localisés. 
     
-- Le point-virgule doit être le caractère utilisé pour séparer les noms dans les propriétés **PR_DISPLAY_TO** , **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) et **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)). Des points-virgules ne sont pas autorisés dans les noms de destinataires dans MAPI. 
+- Le point-virgule doit être le caractère utilisé pour séparer les noms dans les propriétés **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)), **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) et **PR_DISPLAY_TO** . Les points-virgules ne sont pas autorisés dans les noms de destinataires dans MAPI. 
     
-- Les clients doivent traduire chaque point-virgule rencontré **PR_DISPLAY_TO** les propriétés associées à un caractère de séparation localisés avant de rendre les informations visibles dans l’interface utilisateur. 
+- Les clients doivent traduire chaque point-virgule rencontré dans le **PR_DISPLAY_TO** et les propriétés associées en un caractère de séparation localisé avant de rendre les informations visibles dans l'interface utilisateur. 
     
-- Lors du transfert des messages, les clients est inutile de traduire les caractères de séparation de la ligne de destinataire principale. 
+- Lors du transfert de messages, les clients n'ont pas besoin de traduire les caractères de séparation sur la ligne du destinataire principal. 
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

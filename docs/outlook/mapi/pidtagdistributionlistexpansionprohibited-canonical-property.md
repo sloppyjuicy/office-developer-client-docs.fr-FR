@@ -11,40 +11,40 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 80c11dd3-775b-4c66-afc2-b31d7bbcad9f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 743779a815274ae00fae7bacfe9755fc574f38be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 136b2470c91c3a92fe5c15a51de1c22bac57981f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360766"
 ---
 # <a name="pidtagdistributionlistexpansionprohibited-canonical-property"></a>Propriété canonique PidTagDistributionListExpansionProhibited
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un message transfert agent d’est interdit de développer des listes de distribution.
+Contient la valeur TRUE si un agent de transfert des messages (MTA) ne peut pas développer les listes de distribution.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DL_EXPANSION_PROHIBITED  <br/> |
-|Identificateur :  <br/> |0 x 0014  <br/> |
+|Identificateur :  <br/> |0x0014  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

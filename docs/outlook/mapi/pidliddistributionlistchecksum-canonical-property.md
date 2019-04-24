@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd50ab34-caae-4258-8afc-769e3cbc5220
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: ac1f0d839b1ea059ec2b8d94556808bea3850862
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357609"
 ---
 # <a name="pidliddistributionlistchecksum-canonical-property"></a>Propriété canonique PidLidDistributionListChecksum
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la redondance cyclique de 32 bits à cocher (CRC-32) polynomiale somme de contrôle pour obtenir une liste de distribution personnelle.
+Spécifie la somme de contrôle polynomiale de vérification de redondance cyclique (CRC-32) 32 bits pour une liste de distribution personnelle.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidDLChecksum  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
-|ID de type long (capot) :  <br/> |0x0000804C  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Address  <br/> |
+|ID long (couvercle):  <br/> |0x0000804C  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété peut être utilisée pour détecter le moment où la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) a été mis à jour sans mettre à jour les autres propriétés de membre de liste distribution personnelle en calculant le CRC-32 sur le serveur existant valeur de **dispidDLMembers** et en les comparant avec la valeur de la propriété **dispidDLChecksum** . 
+La valeur de cette propriété peut être utilisée pour détecter la date de mise à jour de la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) sans mettre à jour les autres propriétés de membre de liste de distribution personnelle en calculant le CRC-32 sur le valeur de **dispidDLMembers** et en la comparant avec la valeur de la propriété **dispidDLChecksum** . 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

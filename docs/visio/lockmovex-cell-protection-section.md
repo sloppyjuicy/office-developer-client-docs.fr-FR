@@ -9,35 +9,35 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 48ceeeed-66ae-a81f-2aee-f0010102dfb7
 description: Verrouille la position horizontale de la forme afin d'empêcher son déplacement horizontal.
-ms.openlocfilehash: 981f4f417e48f70d0693e30683c4351d0e53a758
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af0cee32370a540cd8d7aaf960cc0cbc27cc8f97
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348264"
 ---
 # <a name="lockmovex-cell-protection-section"></a>LockMoveX, cellule (section Protection)
 
 Verrouille la position horizontale de la forme afin d'empêcher son déplacement horizontal.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La position horizontale est verrouillée.  <br/> |
 | FALSE  <br/> | La position horizontale n'est pas verrouillée.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule LockMoveX par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule LockMoveX par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | LockMoveX  <br/> |
    
-Pour obtenir une référence à la cellule LockMoveX par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule LockMoveX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowLock** <br/> |
 | Index de la cellule :  <br/> |**visLockMoveX** <br/> |
    

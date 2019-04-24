@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 02048012-a814-410b-f26e-56fcfbe106e6
 description: Indique si les formes appartenant au calque sont visibles sur la page de dessin.
-ms.openlocfilehash: 9a025403b1f5b46d2f439805a15954eaeeab2686
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4266debc318c839bdd29fa818d11b5e1da669a9e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357812"
 ---
 # <a name="visible-cell-layers-section"></a>Visible, cellule (section Layers)
 
 Indique si les formes appartenant au calque sont visibles sur la page de dessin.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Les formes sont visibles.  <br/> |
 |FALSE  <br/> |Les formes sont masquées.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l’option **Visible** dans la boîte de dialogue **Propriétés des calques** (sous l’onglet **accueil** , dans le groupe **modification** , cliquez sur **calques**, puis cliquez sur **Propriétés des calques** ). 
+Cette cellule correspond à l' **option visible** dans la boîte de dialogue **Propriétés** des calques (sous l'onglet **Accueil** , dans le groupe **modification** , cliquez sur calques, puis sur **Propriétés des calques** ). **** 
   
-Pour obtenir une référence à la cellule Visible par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Visible par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Layers.Visible [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Layers. visible [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Visible par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

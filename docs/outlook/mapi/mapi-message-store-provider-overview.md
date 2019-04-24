@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble du fournisseur MAPI message magasin
+title: Vue d'ensemble du fournisseur de banque de messages MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,37 +7,37 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 614d9ab1037f0fc2735112801e30e530bfafe4db
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 5d4ef074523cd654c3db2d686494d9a4f864e7cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345873"
 ---
-# <a name="mapi-message-store-provider-overview"></a>Vue d’ensemble du fournisseur MAPI message magasin
+# <a name="mapi-message-store-provider-overview"></a>Vue d'ensemble du fournisseur de banque de messages MAPI
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournisseurs de magasins message gérer le stockage et la récupération de messages et d’autres informations pour les utilisateurs d’applications clientes. Les informations du message sont organisées à l’aide d’un système hiérarchique appelé une banque de messages. La banque de messages est implémentée dans plusieurs niveaux, avec des conteneurs appelés dossiers contiennent des messages de différents types. Il n’existe aucune limite au nombre de niveaux dans une banque de messages ; les dossiers peuvent contenir le nombre de sous-dossiers. 
+Les fournisseurs de banques de messages gèrent le stockage et l'extraction des messages et d'autres informations pour les utilisateurs des applications clientes. Les informations du message sont organisées à l'aide d'un système hiérarchique appelé Banque de messages. La Banque de messages est implémentée à plusieurs niveaux, avec des conteneurs appelés dossiers contenant des messages de types différents. Il n'y a pas de limite au nombre de niveaux dans une banque de messages; les dossiers peuvent contenir de nombreux sous-dossiers. 
   
-L’illustration suivante montre l’architecture de banque de messages hiérarchique.
+L'illustration suivante montre l'architecture de la Banque de messages hiérarchique.
   
 **Architecture de banque de messages**
   
-![Architecture de banque de messages] (media/amapi_03.gif "Architecture de banque de messages")
+![Architecture] de la Banque de messages (media/amapi_03.gif "Architecture") de la Banque de messages
   
-L’illustration montre deux dossiers, avec un sous-dossier. Utilisateurs d’applications clientes peuvent accéder à une vue récapitulative des messages contenus dans chaque dossier ou les consulter individuellement avec un formulaire. Si le client affiche un formulaire standard MAPI fournit ou un formulaire personnalisé qui fournit un développeur de formulaire varie selon le type ou la classe du message. Le premier dossier contient des remarques et utilise le formulaire de note standard MAPI. Le deuxième dossier contient les messages de demande d’inventaire et utilise un formulaire personnalisé inventaire. Les informations sur les deux formes représentent les propriétés du message.
+La figure illustre deux dossiers, un avec un sous-dossier. Les utilisateurs des applications clientes peuvent accéder à une vue récapitulative des messages contenus dans chaque dossier ou les afficher individuellement à l'aide d'un formulaire. Si le client affiche un formulaire standard que les fournitures MAPI ou un formulaire personnalisé fourni par un développeur de formulaires dépend du type ou de la classe du message. Le premier dossier contient les messages de note et utilise le formulaire de note standard MAPI. Le deuxième dossier contient les messages de demande d'inventaire et utilise un formulaire d'inventaire personnalisé. Les informations contenues dans les deux formulaires représentent les propriétés du message.
   
-Vous pouvez utiliser les données du magasin de message dans de diverses façons. Outre l’utilisation de données pour la messagerie électronique classique, vous pouvez utiliser les dossiers comme un forum de discussion publics, comme un référentiel de documents de référence, ou en tant que conteneur pour la messagerie vocale, calendrier, contacts ou tâches, par exemple. Une banque de messages unique peut contenir plusieurs types d’informations. Plusieurs clients peuvent installer la même base de messages. Cela permet le partage de données simple et rapide. 
+Vous pouvez utiliser des données de banque de messages de différentes manières. Outre l'utilisation de données pour le courrier électronique traditionnel, vous pouvez utiliser des dossiers comme un forum de discussion publique, comme référentiel pour des documents de référence ou comme conteneur pour la messagerie vocale, le calendrier, les contacts ou les tâches, par exemple. Un seul magasin de messages peut contenir de nombreux types d'informations. Plusieurs clients peuvent installer la même Banque de messages. Le partage des données est ainsi facile et rapide. 
   
-Dossiers de banque de messages vous permettent de trier et filtrer les messages et de personnaliser l’affichage des messages dans une interface utilisateur. Liens vers les messages filtrés sont stockés dans des dossiers spéciaux appelés dossiers de résultats de recherche. L’utilisateur d’une application cliente entre les critères de filtrage qui MAPI fait référence à une restriction, et les critères est appliquée aux messages stockés dans un ou plusieurs dossiers. Par exemple, un utilisateur peut souhaiter afficher uniquement les messages qui traitent un sujet particulier et ont dates d’arrivée qui sont le plus récents que la dernière semaine. Références pour les messages qui correspondent aux critères sont répertoriés dans le dossier de recherche et les messages réels restent dans leurs dossiers standard.
+Les dossiers de banque de messages vous permettent de trier et de filtrer des messages et de personnaliser l'affichage des messages dans une interface utilisateur. Les liens vers les messages filtrés sont conservés dans des dossiers spéciaux appelés dossiers de résultats de recherche. L'utilisateur d'une application cliente entre les critères de filtrage auxquels MAPI fait référence en tant que restriction, et les critères sont appliqués aux messages stockés dans un ou plusieurs dossiers. Par exemple, un utilisateur peut souhaiter afficher uniquement les messages qui concernent un sujet particulier et ont des dates d'arrivée plus récentes que la semaine dernière. Les références aux messages qui répondent aux critères sont répertoriées dans le dossier de recherche, et les véritables messages restent dans leurs dossiers ordinaires.
   
-Les messages sont les unités de données qui sont transférées à partir d’un utilisateur ou une application à un autre utilisateur ou l’application. Chaque message contient certains texte du message, avec la mise en forme simple ou complexe et les informations d’enveloppe de message qui sont utilisées pour la transmission. Certains messages contiennent une ou plusieurs pièces jointes, ou des données supplémentaires relatives aux transportés avec un message sous la forme d’un fichier, un autre message ou un objet OLE. 
+Les messages sont les unités de données transférées à partir d'un utilisateur ou d'une application vers un autre utilisateur ou une autre application. Chaque message contient un texte de message, avec une mise en forme simple ou complexe et des informations d'enveloppe de message utilisées pour la transmission. Certains messages incluent une ou plusieurs pièces jointes, ou des données supplémentaires liées à un message et transportées avec un message sous la forme d'un fichier, d'un autre message ou d'un objet OLE. 
   
-Selon le message le fournisseur de magasins, un utilisateur peut enregistrer un nouveau message en cours d’écriture en outre aux messages qui ont été envoyés ou reçus. Les messages peuvent être copiés ou déplacés d’un dossier à un autre avec chaque copie de devenir un message distinct qui peut être copié, supprimé ou modifié individuellement. Une autre fonctionnalité que fournisseurs activer la base de certains messages est la capacité pour modifier un message après avoir été reçu et est stockée dans son dossier. Un utilisateur peut tirer parti de cette fonctionnalité pour faire pivoter un message de télécopie reçus de haut en bas. L’utilisateur peut enregistrer l’affichage approprié dans le dossier pour les consulter ultérieurement. 
+En fonction du fournisseur de banque de messages, un utilisateur peut enregistrer un nouveau message en cours d'écriture en plus des messages qui ont été envoyés ou reçus. Les messages peuvent être copiés ou déplacés d'un dossier à un autre, chaque copie devenant un message distinct qui peut être copié, supprimé ou modifié individuellement. La possibilité de modifier un message après qu'il a été reçu et de le stocker dans son dossier est une autre fonctionnalité activée par certains fournisseurs de banques de messages. Un utilisateur peut tirer parti de cette fonctionnalité pour faire pivoter un message de télécopie qui est arrivé à l'envers. L'utilisateur peut stocker l'affichage approprié dans le dossier pour un affichage ultérieur. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Architecture et des fonctionnalités MAPI](mapi-features-and-architecture.md)
+- [Architecture et fonctionnalités MAPI](mapi-features-and-architecture.md)
 

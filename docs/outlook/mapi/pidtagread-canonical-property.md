@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2dcd9ff3-f380-48c7-ae9e-d4c717a9e41f
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 8f7f41ed0d47efcedf7f32e0ecb19c184bb4fc91
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356511"
 ---
 # <a name="pidtagread-canonical-property"></a>Propriété canonique PidTagRead
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si une ligne de tableau a été lu.
+Indique si une ligne de tableau a été lue.
   
 |||
 |:-----|:-----|
@@ -34,27 +34,27 @@ Indique si une ligne de tableau a été lu.
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |MAPI non transmissible  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclut les opérations autorisées pour les objets de la table principale.
+> Inclut les opérations admissibles pour les objets de la table principale.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

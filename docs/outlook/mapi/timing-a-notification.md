@@ -1,5 +1,5 @@
 ---
-title: Minutage d’une notification
+title: Chronométrage d'une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,32 +7,32 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6981a3b0-96eb-44a2-b051-1c5efc70e9e3
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b4b0292ab16eabe30755fe84885a29fb8e3ce295
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: fa3b155820c64ff55e324c5611eed7348cb93e2b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360395"
 ---
-# <a name="timing-a-notification"></a>Minutage d’une notification
+# <a name="timing-a-notification"></a>Chronométrage d'une notification
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Notification d’événement étant un processus asynchrone, vous pouvez être averti à tout moment, pas nécessairement immédiatement après que l’événement s’est produite.
+Étant donné que la notification d'événement est un processus asynchrone, vous pouvez être notifié à tout moment, pas nécessairement immédiatement après la survenue de l'événement.
   
- La durée des appels à votre méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) varie selon le fournisseur de services l’implémentation de la source de notification. Fournisseurs de services peuvent informer votre client soit : 
+ Le moment des appels à votre méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) varie en fonction du fournisseur de services qui implémente la source de notification. Les fournisseurs de services peuvent informer votre client: 
   
-- Simultanément avec l’événement.
+- En même temps que l'événement.
     
-- Directement après l’événement.
+- Directement après l'événement.
     
-- À plus tard un moment donné à la suite de l’événement, éventuellement après un appel **Unadvise** . 
+- À un moment ultérieur, après l'événement, éventuellement après **** un appel Unadvise. 
     
-La plupart des fournisseurs de services d’appel **OnNotify** après que la méthode MAPI responsable de l’événement a renvoyé à l’appelant. Par exemple, les notifications sur les messages sont envoyées lorsque des modifications apportées au message sont enregistrées, après l’appel de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) , ou lorsque le message est lancé, après l’appel **IUnknown::Release** . Jusqu'à ce que la notification est envoyée, aucune modification n’est visible dans la banque de messages. 
+La plupart des fournisseurs de services appellent **OnNotify** après que la méthode MAPI responsable de l'événement a renvoyé à son appelant. Par exemple, les notifications sur les messages sont envoyées lorsque les modifications apportées au message sont enregistrées, après l'appel de [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) , ou lorsque le message est libéré, après l'appel **IUnknown:: Release** . Tant que la notification n'est pas envoyée, aucune modification n'est visible dans la Banque de messages. 
   
-Vous pouvez recevoir des notifications à partir d’une source advise après avoir appelé **Unadvise** pour annuler l’inscription d’une. Veillez à libérer votre récepteur de notifications qu’après que son décompte de références est réduit à zéro, un appel réussi de **Unadvise** ne pas suivant. Ne supposent que parce que vous avez appelé **Unadvise** le récepteur de notifications n’est plus nécessaire. 
+Vous pouvez recevoir des notifications à partir d'une source d' **** avis une fois que vous avez appelé Unadvise pour annuler une inscription. N'oubliez pas de libérer votre récepteur d'avertissement une fois que son nombre de références est tombé à zéro, **** et non à la suite d'un appel Unadvise réussi. Ne partez pas du principe que vous **** avez appelé Unadvise que le récepteur de notification n'est plus nécessaire. 
   
 

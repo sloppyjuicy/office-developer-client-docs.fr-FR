@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 645fe61d-414a-455e-b034-db3cfd003b9d
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 431a212b6e024d695fe2de084080996d8b1054d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360409"
 ---
 # <a name="pidtaginternetreferences-canonical-property"></a>Propriété canonique PidTagInternetReferences
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur du champ d’en-tête d’un message Multipurpose Internet Mail Extensions (MIME) références.
+Contient la valeur du champ d'en-tête références d'un message MIME (Multipurpose Internet Mail Extensions).
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient la valeur du champ d’en-tête d’un message Multipurpose Internet Ma
    
 ## <a name="remarks"></a>Remarques
 
-Pour générer un champ d’en-tête références, les clients doivent définir ces propriétés à la valeur souhaitée. Rédacteurs MIME doivent copier la valeur de ces propriétés sur le champ d’en-tête de références.
+Pour générer un champ d'en-tête References, les clients doivent définir ces propriétés sur la valeur souhaitée. Les enregistreurs MIME doivent copier la valeur de ces propriétés dans le champ d'en-tête References.
   
-Pour définir la valeur de ces propriétés, clients MIME doivent écrire la valeur souhaitée dans un champ d’en-tête de références. Lecteurs MIME doivent copier la valeur du champ d’en-tête références sur ces propriétés. Lecteurs MIME peuvent tronquer la valeur de ces propriétés s’il dépasse 64 Ko de longueur.
+Pour définir la valeur de ces propriétés, les clients MIME doivent écrire la valeur souhaitée dans un champ d'en-tête References. Les lecteurs MIME doivent copier la valeur du champ d'en-tête références sur ces propriétés. Les lecteurs MIME peuvent tronquer la valeur de ces propriétés si elles dépassent la longueur de 64 Ko.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convertit des conventions de messagerie standard Internet aux objets de message.
+> ConVertit des conventions de messagerie standard Internet en objets message.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

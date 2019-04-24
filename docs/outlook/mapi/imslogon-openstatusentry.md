@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 850e256b-6b50-428c-aede-287edaf7b005
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a48d8248878c64de827bb09030073e6becba3024
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: f50c0eb9e3af68e206eaa5bcc51cefa923c30f72
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348698"
 ---
 # <a name="imslogonopenstatusentry"></a>IMSLogon::OpenStatusEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571198"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre un objet d’état.
+Ouvre un objet état.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,23 +40,23 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) pour l’objet d’état à ouvrir. Valeur null indique l’interface standard pour l’objet est retournée (dans ce cas, l’interface [IMAPIStatus](imapistatusimapiprop.md) ). Le paramètre _lpInterface_ peut également être défini à un identificateur pour une interface appropriée pour l’objet. 
+> dans Pointeur vers l'identificateur d'interface (IID) de l'objet d'État à ouvrir. La transmission de la valeur NULL indique que l'interface standard pour l'objet est renvoyée (dans ce cas, l'interface [IMAPIStatus](imapistatusimapiprop.md) ). Le paramètre _lpInterface_ peut également être défini sur un identificateur pour une interface appropriée pour l'objet. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet d’état est ouvert. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle le mode d'ouverture de l'objet d'État. L'indicateur suivant peut être défini:
     
-N' 
+MAPI_MODIFY 
   
-> Demandes d’autorisation de lecture/écriture. Par défaut, les objets sont créés avec l’autorisation en lecture seule, et les applications clientes ne doivent pas fonctionner sur l’hypothèse que bénéficie des autorisations en lecture/écriture. 
+> Demande une autorisation en lecture/écriture. Par défaut, les objets sont créés avec une autorisation en lecture seule, et les applications clientes ne doivent pas fonctionner en supposant que l'autorisation de lecture/écriture a été octroyée. 
     
  _lpulObjType_
   
-> [out] Pointeur vers le type de l’objet ouvert.
+> remarquer Pointeur vers le type de l'objet ouvert.
     
  _lppEntry_
   
-> [out] Pointeur vers le pointeur vers l’objet ouvert.
+> remarquer Pointeur vers le pointeur vers l'objet ouvert.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -66,7 +66,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de magasins message implémentent la méthode **IMSLogon::OpenStatusEntry** pour ouvrir un objet d’état. Cet objet état sert ensuite pour permettre aux clients d’appeler des méthodes [IMAPIStatus](imapistatusimapiprop.md) . Par exemple, les clients peuvent utiliser la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) pour reconfigurer la session d’ouverture de session du magasin de message ou la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) pour valider l’état de la session d’ouverture de session du magasin de message. 
+Les fournisseurs de banque de messages implémentent la méthode **IMSLogon:: OpenStatusEntry** pour ouvrir un objet d'État. Cet objet d'État est ensuite utilisé pour permettre aux clients d'appeler les méthodes [IMAPIStatus](imapistatusimapiprop.md) . Par exemple, les clients peuvent utiliser la méthode [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) pour reconfigurer la session de connexion à la Banque de messages ou la méthode [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) pour valider l'état de la session de connexion à la Banque de messages. 
   
 ## <a name="see-also"></a>Voir aussi
 

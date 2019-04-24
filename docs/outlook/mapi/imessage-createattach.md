@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9cc2f5f3880466c0a70febedbc7aaec987b62bb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: f534912377aadb3c342030fc02fce26693857476
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351113"
 ---
 # <a name="imessagecreateattach"></a>IMessage::CreateAttach
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572085"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une pièce jointe.
+Crée une nouvelle pièce jointe.
   
 ```cpp
 HRESULT CreateAttach(
@@ -40,35 +40,35 @@ LPATTACH FAR * lppAttach
 
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au message. Passant NULL entraîne une interface standard du message ou **IMessage**, renvoyée. 
+> dans Pointeur vers l'identificateur d'interface (IID) représentant l'interface à utiliser pour accéder au message. Le fait de transmettre des résultats NULL dans l'interface standard du message, ou **IMessage**, est retourné. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la création de la pièce jointe. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle la manière dont la pièce jointe est créée. L'indicateur suivant peut être défini:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet de **CreateAttach** renvoyer avec succès, éventuellement avant la pièce jointe est accessible au client appelant. Si la pièce jointe n’est pas accessible, passer un appel suivant pour qu’il peut provoquer une erreur. 
+> Permet à **CreateAttach** de renvoyer correctement, éventuellement avant que la pièce jointe soit totalement accessible au client appelant. Si la pièce jointe n'est pas accessible, un appel ultérieur de celle-ci peut entraîner une erreur. 
     
  _lpulAttachmentNum_
   
-> [out] Pointeur vers un numéro d’index qui identifie la pièce jointe nouvellement créée. Ce numéro est valide uniquement lorsque le message est ouvert et la base de la propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de la pièce jointe.
+> remarquer Pointeur vers un numéro d'index identifiant la pièce jointe nouvellement créée. Ce nombre est valide uniquement lorsque le message est ouvert et constitue la base de la propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de la pièce jointe.
     
  _lppAttach_
   
-> [out] Pointeur vers un pointeur vers l’objet d’ouvrir une pièce jointe.
+> remarquer Pointeur vers un pointeur vers l'objet Attachment ouvert.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La pièce jointe a été créée avec succès.
+> La pièce jointe a été créée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMessage::CreateAttach** crée une pièce jointe d’un message. La nouvelle pièce jointe et les propriétés qui sont définies, ne sont pas disponibles tant qu’un client a appelé méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de la pièce jointe et de méthode de **IMAPIProp::SaveChanges** du message. 
+La méthode **IMessage:: CreateAttach** crée une nouvelle pièce jointe dans un message. La nouvelle pièce jointe et toutes les propriétés qui y sont définies ne sont pas disponibles tant qu'un client n'a pas appelé la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) de la pièce jointe et la méthode **IMAPIProp:: SaveChanges** du message. 
   
-Le nombre de pièces jointes désigné par _lpulAttachmentNum_ est unique et valide uniquement dans le contexte du message. Autrement dit, deux pièces jointes dans deux messages différents peuvent avoir le même nombre mais pas les deux pièces jointes dans le même message. 
+Le numéro de pièce jointe désigné par _lpulAttachmentNum_ est unique et valide uniquement dans le contexte du message. Autrement dit, deux pièces jointes dans deux messages différents peuvent avoir le même nombre tandis que deux pièces jointes dans le même message ne le peuvent pas. 
   
 ## <a name="see-also"></a>Voir aussi
 

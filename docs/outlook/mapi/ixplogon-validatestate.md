@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4fd0dd02c5cf6f6a49b782d06c02e373dcfc3327
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: a3469e6baacb52938b870ca87d824bf640a8a88f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351568"
 ---
 # <a name="ixplogonvalidatestate"></a>IXPLogon::ValidateState
 
@@ -25,7 +25,7 @@ ms.locfileid: "22577484"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Vérifie l’état externe du fournisseur de transport. 
+Vérifie l'état externe du fournisseur de transport. 
   
 ```cpp
 HRESULT ValidateState(
@@ -38,63 +38,63 @@ HRESULT ValidateState(
 
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parente de toutes les boîtes de dialogue ou windows qui affiche cette méthode.
+> dans Handle de la fenêtre parente des boîtes de dialogue ou des fenêtres que cette méthode affiche.
     
  _ulFlags_
   
-> [in] Un masque de bits d’indicateurs qui contrôlent la façon dont le contrôle d’état est effectué et les résultats de la vérification du statut. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle le mode d'exécution du contrôle d'État et les résultats de la vérification de l'État. Les indicateurs suivants peuvent être définis:
     
 ABORT_XP_HEADER_OPERATION 
   
-> L’utilisateur a annulé l’opération de généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. Le fournisseur de transport a la possibilité de continuer à travailler sur l’opération, ou elle peut annuler l’opération et retourner des MAPI_E_USER_CANCELED. 
+> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** d'une boîte de dialogue. Le fournisseur de transport a la possibilité de continuer à travailler sur l'opération, ou il peut abandonner l'opération et renvoyer MAPI_E_USER_CANCELED. 
     
 CONFIG_CHANGED 
   
-> Valide l’état des fournisseurs de transport actuellement chargés en entraînant le spouleur MAPI appeler leur méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) . Cet indicateur permet également le spouleur MAPI pour corriger les échecs de fournisseur de transport critique sans forcer les applications clientes et déconnectez-vous puis reconnectez-vous. 
+> Valide l'état des fournisseurs de transport actuellement chargés en provoquant l'appel de la méthode [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) par le spouleur MAPI. Cet indicateur permet également au spouleur MAPI de corriger les échecs de fournisseur de transport critiques sans forcer les applications clientes à se déconnecter, puis à se reconnecter. 
     
 FORCE_XP_CONNECT 
   
-> L’utilisateur a sélectionné une opération de connexion. Lorsque cet indicateur est utilisé avec l’indicateur REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE, l’action de connexion se produit sans mise en cache.
+> L'utilisateur a sélectionné une opération de connexion. Lorsque cet indicateur est utilisé avec l'indicateur REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE, l'action de connexion se produit sans mise en cache.
     
 FORCE_XP_DISCONNECT 
   
-> L’utilisateur a sélectionné une opération de déconnexion. Lorsque cet indicateur est utilisé avec REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE, l’action de déconnexion se produit sans mise en cache.
+> L'utilisateur a sélectionné une opération de déconnexion. Lorsque cet indicateur est utilisé avec REFRESH_XP_HEADER_CACHE ou PROCESS_XP_HEADER_CACHE, l'action de déconnexion se produit sans mise en cache.
     
 PROCESS_XP_HEADER_CACHE 
   
-> Entrées de la table de cache d’en-tête doivent être traitées, tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DOWNLOAD doivent être téléchargés et tous les messages marqués avec l’indicateur MSGSTATUS_REMOTE_DELETE doivent être supprimés. Messages MSGSTATUS_REMOTE_DOWNLOAD et MSGSTATUS_REMOTE_DELETE la valeur doivent être déplacés.
+> Les entrées de la table de cache d'en-tête doivent être traitées, tous les messages marqués avec l'indicateur MSGSTATUS_REMOTE_DOWNLOAD doivent être téléchargés et tous les messages marqués avec l'indicateur MSGSTATUS_REMOTE_DELETE doivent être supprimés. Les messages qui ont à la fois MSGSTATUS_REMOTE_DOWNLOAD et MSGSTATUS_REMOTE_DELETE doivent être déplacés.
     
 REFRESH_XP_HEADER_CACHE 
   
-> Une nouvelle liste d’en-têtes de message doit être téléchargée et statut du message tous les indicateurs de marquage doit être effacé.
+> Une nouvelle liste d'en-têtes de message doit être téléchargée et tous les indicateurs de marquage d'état de message doivent être effacés.
     
 SUPPRESS_UI 
   
-> Le fournisseur de transport empêche l’affichage d’une interface utilisateur.
+> Empêche le fournisseur de transport d'afficher une interface utilisateur.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et renvoyé la valeur attendue ou les valeurs.
+> L'appel a réussi et a renvoyé la ou les valeurs attendues.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours ; Il doit être autorisé pour effectuer, ou il doit être arrêté avant cette opération est tentée.
+> Une autre opération est en cours; il doit être autorisé à se terminer ou doit être arrêté avant la tentative de cette opération.
     
 MAPI_E_NO_SUPPORT 
   
-> Le fournisseur de transport à distance impliqué ne prend pas en charge une interface utilisateur et l’application cliente elle-même doit afficher la boîte de dialogue.
+> Le fournisseur de transport distant impliqué ne prend pas en charge une interface utilisateur et l'application cliente elle-même doit afficher la boîte de dialogue.
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération de généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** d'une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle la méthode **IXPLogon::ValidateState** pour prendre en charge des appels à la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) pour l’objet d’état. Le fournisseur de transport doit répondre à l’appel **IXPLogon::ValidateState** exactement comme si le spouleur MAPI avait ouvert un objet d’état pour la session en cours et ensuite appelée **IMAPIStatus::ValidateState** sur cet objet. 
+Le spouleur MAPI appelle la méthode **IXPLogon:: ValidateState** pour prendre en charge les appels à la méthode [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) pour l'objet Status. Le fournisseur de transport doit répondre à l'appel **IXPLogon:: ValidateState** exactement comme si le spouleur MAPI avait ouvert un objet d'État pour la session en cours, puis il a appelé **IMAPIStatus:: ValidateState** sur cet objet. 
   
-Pour prendre en charge son implémentation de **IMAPIStatus::ValidateState**, le spouleur MAPI appelle **IXPLogon::ValidateState** sur tous les objets d’ouverture de session pour tous les fournisseurs de transport actif qui sont en cours d’exécution dans une session de profil. 
+Pour prendre en charge son implémentation de **IMAPIStatus:: ValidateState**, le spouleur MAPI appelle **IXPLogon:: ValidateState** sur tous les objets d'ouverture de session pour tous les fournisseurs de transport actifs qui s'exécutent dans une session de profil. 
   
 ## <a name="see-also"></a>Voir aussi
 

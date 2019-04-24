@@ -9,28 +9,28 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6bd2781a-d4e7-136f-8996-62ebc5f890ab
 description: Indique la langue dans laquelle les données forme ont été entrées.
-ms.openlocfilehash: 696c42483390509474eb82bd8cc0046beee345e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5a0cca5f71bc5520337ad2bdcf354a2b4affe92
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359030"
 ---
 # <a name="langid-cell-shape-data-section"></a>LangID, cellule (section Shape Data)
 
 Indique la langue dans laquelle les données forme ont été entrées. 
   
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des langues prises en charge par les applications Microsoft Office System, reportez-vous à la cellule [DocLangID](doclangid-cell-document-properties-section.md) (Section Document Properties). 
+Pour une liste des langues prises en charge par les applications du système Microsoft Office, reportez-vous à la cellule [DocLangID](doclangid-cell-document-properties-section.md) (section Document Properties). 
   
-Pour obtenir une référence à la cellule LangID par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule LangID par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Propriétés.  *nom* . LangID où de propriétés.  *Name* est le nom de ligne  <br/> |
+| Nom de la cellule :  <br/> | Hélice.  *nom* . ID de langue où prop.  *Name* est le nom de la ligne  <br/> |
    
-Pour obtenir une référence à la cellule LangID par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule LangID à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

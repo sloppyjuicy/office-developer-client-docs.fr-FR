@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01a868f4-afda-43ba-bc17-c33ae56b7b7d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aff805f7868ec0c2adc55ece94c45b76368ba6eb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 5b76f9daec89e9229fc7f81e1332c3075c951067
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583763"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348586"
 ---
 # <a name="itneffinish"></a>ITnef::Finish
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583763"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fin de traitement de toutes les opérations de Transport-Neutral Encapsulation Format (TNEF) qui sont en file d’attente et en attente. 
+Termine le traitement de toutes les opérations TNEF (Transport-Neutral Encapsulation Format) mises en file d'attente et en attente. 
   
 ```cpp
 HRESULT Finish(
@@ -35,7 +35,7 @@ HRESULT Finish(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -43,29 +43,29 @@ HRESULT Finish(
     
  _lpKey_
   
-> [out] Pointeur vers la propriété clé **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) d’une pièce jointe. L’objet de l’encapsulation TNEF utilise cette clé pour la correspondance de pièce jointe à une balise de positionnement de pièce jointe dans un message. Cette clé doit être unique pour chaque pièce jointe.
+> remarquer Pointeur vers la propriété de clé **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) d'une pièce jointe. L'objet d'encapsulation TNEF utilise cette clé pour faire correspondre une pièce jointe à sa balise de placement de pièce jointe dans un message. Cette clé doit être unique pour chaque pièce jointe.
     
  _lpProblem_
   
-> [out] Pointeur vers un pointeur vers une structure [STnefProblemArray](stnefproblemarray.md) renvoyée. La structure **STnefProblemArray** indique les propriétés, le cas échéant, ont été pas codées correctement. Si NULL est indiqué dans le paramètre _lpProblem_ , aucun tableau de problème de propriété n’est renvoyé. 
+> remarquer Pointeur vers un pointeur vers une structure [STnefProblemArray](stnefproblemarray.md) renvoyée. La structure **STnefProblemArray** indique les propriétés, le cas échéant, qui n'ont pas été codées correctement. Si NULL est passé dans le paramètre _lpProblem_ , aucun tableau de problèmes de propriété n'est renvoyé. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et renvoyé la valeur attendue ou les valeurs.
+> L'appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs, les fournisseurs de banque de message et appel passerelles la méthode **ITnef::Finish** pour effectuer le codage de toutes les propriétés pour le codage a été demandée dans les appels aux méthodes [ITnef::AddProps](itnef-addprops.md) et [ITnef::SetProps](itnef-setprops.md) de transport. Si l’objet TNEF a été ouvert avec l’indicateur TNEF_ENCODE pour la [OpenTnefStream](opentnefstream.md) ou la fonction [OpenTnefStreamEx](opentnefstreamex.md) , la méthode **fin** encode les propriétés demandées dans le flux d’encapsulation transmis à cet objet. Si l’objet TNEF a été ouvert avec l’indicateur TNEF_DECODE, la méthode **fin** décode les propriétés à partir du flux TNEF et les écrit dans le message qu'auxquels ils appartiennent. 
+Les fournisseurs de transport, les fournisseurs de banques de messages et les passerelles appellent la méthode **ITnef:: Finish** pour effectuer le codage de toutes les propriétés pour lesquelles le codage a été demandé dans les appels aux méthodes [ITnef:: AddProps](itnef-addprops.md) et [ITnef:: SetProps](itnef-setprops.md) . Si l'objet TNEF a été ouvert avec l'indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) , la méthode **Finish** encode les propriétés demandées dans le flux d'encapsulation transmis à cet objet. Si l'objet TNEF a été ouvert avec l'indicateur TNEF_DECODE, la méthode **Finish** décode les propriétés du flux TNEF et les réécrit dans le message auquel elles appartiennent. 
   
-Après l’appel **de fin** , le pointeur vers le flux d’encapsulation pointe vers la fin des données TNEF. Si le fournisseur ou la passerelle doit utiliser les données du flux TNEF après la **fin** de l’appel, il doit réinitialiser le pointeur du flux au début des données stream TNEF. 
+Après l'appel de **fin** , le pointeur vers le flux d'encapsulation pointe vers la fin des données TNEF. Si le fournisseur ou la passerelle doit utiliser les données de flux TNEF après l'appel de **fin** , il doit réinitialiser le pointeur de flux au début des données de flux TNEF. 
   
-L’implémentation TNEF signale des problèmes de codage TNEF flux sans interrompre le processus **de fin** . La structure [STnefProblemArray](stnefproblemarray.md) retournée dans le paramètre _lpProblem_ indique les attributs TNEF ou des propriétés MAPI, le cas échéant, pas peuvent être traitées. La valeur renvoyée dans le membre **scode** de l’une des structures **STnefProblem** contenues dans **STnefProblemArray** indiquant le problème spécifique. Le fournisseur ou la passerelle peut travailler sur l’hypothèse que toutes les propriétés ou les attributs pour lesquels **fin** ne retourne un rapport de problème ont été correctement traités. 
+L'implémentation TNEF signale les problèmes de codage de flux TNEF sans arrêter le processus de **fin** . La structure [STnefProblemArray](stnefproblemarray.md) renvoyée dans le paramètre _lpProblem_ indique les attributs TNEF ou les propriétés MAPI, le cas échéant, qui n'ont pas pu être traités. La valeur renvoyée dans le membre **SCODE** de l'une des structures **STnefProblem** contenues dans **STnefProblemArray** indique le problème spécifique. Le fournisseur ou la passerelle peut fonctionner en supposant que toutes les propriétés ou tous les attributs pour lesquels la **fin** ne renvoie pas de rapport de problème ont été traités. 
   
-Si un fournisseur ou une passerelle ne fonctionne pas avec des tableaux de problème, il peut passer NULL dans _lpProblem_; Dans ce cas, aucun tableau de problème n’est renvoyé. 
+Si un fournisseur ou une passerelle ne fonctionne pas avec les tableaux de problèmes, elle peut transmettre la valeur NULL dans _lpProblem_; dans ce cas, aucun tableau de problèmes n'est renvoyé. 
   
-La valeur renvoyée dans _lpProblem_ est valide uniquement si l’appel renvoie S_OK. Lorsque S_OK est retourné, le fournisseur ou la passerelle doit vérifier les valeurs renvoyées dans la structure **STnefProblemArray** . Si une erreur se produit lors de l’appel, la structure **STnefProblemArray** n’est pas renseignée et la passerelle ou le fournisseur appelant ne doit pas utiliser ou libérer la structure. Si aucune erreur ne se produit lors de l’appel, la passerelle ou le fournisseur appelant doit libérer la mémoire pour le **STnefProblemArray** en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
+La valeur renvoyée dans _lpProblem_ est valide uniquement si l'appel retourne S_OK. Lorsque S_OK est renvoyé, le fournisseur ou la passerelle doit vérifier les valeurs renvoyées dans la structure **STnefProblemArray** . Si une erreur se produit lors de l'appel, la structure **STnefProblemArray** n'est pas renseignée et le fournisseur ou la passerelle appelant ne doit pas utiliser ou libérer la structure. Si aucune erreur ne se produit lors de l'appel, le fournisseur ou la passerelle d'appel doit libérer la mémoire pour l' **STnefProblemArray** en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -73,7 +73,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI utilise la méthode **ITnef::Finish** pour terminer le traitement du nouveau flux TNEF.  <br/> |
+|File. cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI utilise la méthode **ITnef:: Finish** pour terminer le traitement du nouveau flux TNEF.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

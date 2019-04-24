@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dba46c851050c3f948ec829ae2340e0492ca135f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360402"
 ---
 # <a name="create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up"></a>Création d’une règle pour classer les éléments de courrier provenant d’un manager et les marquer pour le suivi
 
@@ -50,15 +50,15 @@ Pour créer des règles via le modèle objet Outlook, procédez selon les étape
 
 Dans l’exemple de code suivant, CreateManagerRule implémente les étapes précédemment décrites. CreateManagerRule vérifie d’abord si la propriété [CurrentUser](https://msdn.microsoft.com/library/bb622574\(v=office.15\)) représente un objet [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)), indiquant si l’utilisateur actuel est un utilisateur Exchange. Si c’est le cas, CreateManagerRule obtient le manager de l’utilisateur actuel en appelant la méthode [GetExchangeUserManager()](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) sur l’objet **ExchangeUser** de la propriété **CurrentUser** de l’objet **NameSpace**. Une règle de réception est ensuite créée pour déplacer les messages reçus dans un sous-dossier de la Boîte de réception selon les conditions suivantes :
 
-- Le message provient du manager de l’utilisateur.
+- Le message provient du responsable de l’utilisateur.
 
-- Le destinataire est indiqué sur la ligne **À :** du message.
+- Le destinataire se trouve sur la ligne **À :** du message.
 
 - Le message n’est pas une demande de réunion ou une mise à jour.
 
 Enfin, le message est marqué pour un suivi le jour même. CreateManagerRule montre également une gestion appropriée des erreurs pour les conditions susceptibles de générer une exception, par exemple dans le cas où l’utilisateur est hors connexion ou déconnecté en mode Exchange mis en cache. 
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

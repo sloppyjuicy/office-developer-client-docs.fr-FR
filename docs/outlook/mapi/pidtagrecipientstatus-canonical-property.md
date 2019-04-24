@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b483dd42-92c0-42c2-b6f9-621daeee1659
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d6025feb77f5e880dec98bc65f0b170c25a00b78
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 5494f95aaf554038f43c34e1e1e388f871a52775
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355628"
 ---
 # <a name="pidtagrecipientstatus-canonical-property"></a>Propriété canonique PidTagRecipientStatus
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur qui est utilisée par le spouleur MAPI lors de l’attribution des responsabilités de remise parmi les fournisseurs de transport.
+Contient une valeur qui est utilisée par le spouleur MAPI lors de l'attribution de la responsabilité de remise entre les fournisseurs de transport.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une valeur qui est utilisée par le spouleur MAPI lors de l’attributi
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé pour une utilisation par MAPI.
+N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

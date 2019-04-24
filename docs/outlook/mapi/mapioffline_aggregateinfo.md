@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2e502d28-ae09-49d9-a35a-5d77acdcd6f4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: eb182d9cc51c196558f9e9192a65352e87372bf0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 4775de0707eb90549f07525e3aa54ec5842f6050
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357133"
 ---
 # <a name="mapiofflineaggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 La structure est utilisée avec [HrCreateOfflineObj](hrcreateofflineobj.md). 
   
@@ -36,11 +36,11 @@ typedef struct
 
  **ulSize**
   
-> La taille de la structure.
+> Taille de la structure.
     
  **pOuterObj**
   
-> Pointeur vers l’objet IUnknown sur lequel cet objet est en cours d’agrégation. Ainsi, les appels QueryInterface à transmettre à l’objet créé.
+> Pointeur vers l'objet IUnknown sur lequel cet objet est regroupé. Cela permet aux appels QueryInterface de passer par l'objet créé.
     
  **pRefTrackRoot**
   

@@ -11,23 +11,23 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2bbf13e9-05b3-4498-8e08-d9e07505190d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7d588380ccc84f51fe58bb0f092d5287b12b4270
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 29d392eba530126e06a672c10044c5b4df0618c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357854"
 ---
 # <a name="spropertyrestriction"></a>SPropertyRestriction
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction de propriété qui est utilisée pour la correspondance d’une constante avec la valeur d’une propriété.
+Décrit une restriction de propriété qui est utilisée pour faire correspondre une constante à la valeur d'une propriété.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SPropertyRestriction
@@ -43,41 +43,41 @@ typedef struct _SPropertyRestriction
 
 **RelOp**
   
-> Opérateur relationnel qui sera utilisé dans la recherche. Les valeurs possibles sont les suivantes :
+> Opérateur relationnel qui sera utilisé dans la recherche. Les valeurs possibles sont les suivantes:
     
-  - RELOP_GE : La comparaison est effectuée en fonction d’une première valeur supérieure ou égale.
+  - RELOP_GE: la comparaison est effectuée en fonction d'une première valeur supérieure ou égale.
         
-  - RELOP_GT : La comparaison est effectuée en fonction d’une première valeur supérieure.
+  - RELOP_GT: la comparaison est effectuée en fonction d'une valeur supérieure.
         
-  - RELOP_LE : La comparaison est effectuée en fonction d’une première valeur inférieur ou égale.
+  - RELOP_LE: la comparaison est effectuée en fonction d'une valeur inférieure ou égale à la première valeur.
         
-  - RELOP_LT : La comparaison est effectuée en fonction d’une première valeur plus faible.
+  - RELOP_LT: la comparaison est effectuée en fonction d'une valeur inférieure.
         
-  - RELOP_NE : La comparaison est effectuée en fonction de comparaison.
+  - RELOP_NE: la comparaison est effectuée en fonction de valeurs inégales.
         
-  - RELOP_RE : La comparaison est effectuée en fonction de comme valeurs (expression régulière).
+  - RELOP_RE: la comparaison est effectuée en fonction des valeurs LIKE (expression régulière).
         
-  - RELOP_EQ : La comparaison est effectuée en fonction de des valeurs égales.
+  - RELOP_EQ: la comparaison est effectuée en fonction de valeurs égales.
     
 **ulPropTag**
   
-> Balise de propriété qui identifie la propriété à comparer. 
+> Balise de propriété identifiant la propriété à comparer. 
     
 **lpProp**
   
-> Pointeur vers une structure [SPropValue](spropvalue.md) qui contient la valeur de constante qui sera utilisée lors de la comparaison. 
+> Pointeur vers une structure [SPropValue](spropvalue.md) qui contient la valeur de constante qui sera utilisée dans la comparaison. 
     
 ## <a name="remarks"></a>Remarques
 
-Il existe deux balises de propriété dans une structure **SPropertyRestriction** . Est le membre **ulPropTag** et l’autre dans le membre **ulPropTag** de la structure **SPropValue** désigné par **lpProp**. MAPI nécessite le champ d’identificateur de propriété et le champ de type de propriété. **ulPropTag** dans **SPropertyRestriction** est la propriété à mettre en correspondance, et le pointeur **lpProp** de l' **SPropertyRestriction** au type de **ulPropTag**d' de la **SPropValue** indique comment la valeur de membres de la union **lpProp** sont interprétées. Les types de deux propriété doivent correspondre, sinon la valeur d’erreur MAPI_E_TOO_COMPLEX est renvoyée lorsque la restriction est utilisée dans un appel à [IMAPITable](imapitable-restrict.md) ou [IMAPITable::FindRow](imapitable-findrow.md). 
+Il existe deux balises de propriété dans une structure **SPropertyRestriction** . L'une se trouve dans le membre **ulPropTag** et l'autre dans le membre **ulPropTag** de la structure **SPropValue** pointée par **lpProp**. MAPI nécessite le champ identificateur de propriété et le champ type de propriété. Le **ulPropTag** dans **SPropertyRestriction** est la propriété à mettre en correspondance et le pointeur **lpProp** de l' **SPropertyRestriction** au type de **ulPropTag**de l' **SPropValue** indique comment la valeur des membres de l' **lpProp** Union sont interprétées. Les deux types de propriété doivent correspondre, sinon la valeur d'erreur MAPI_E_TOO_COMPLEX est renvoyée lorsque la restriction est utilisée dans un appel de [IMAPITable:: Restrict](imapitable-restrict.md) ou [IMAPITable:: FindRow](imapitable-findrow.md). 
   
-L’ordre de comparaison est _(valeur de la propriété) (opérateur relationnel) (constante)_.
+L'ordre de comparaison est _(valeur de la propriété) (opérateur relationnel) (valeur constante)_.
   
-Lorsqu’une restriction de propriété est transmise à **IMAPITable** ou **IMAPITable::FindRow** et la propriété cible n’existe pas, les résultats de la restriction ne sont pas définis. En créant une restriction **et** qui rejoint la restriction de propriété avec une restriction **existe** , l’appelant peut être garanti des résultats précis. Utilisez une structure [SExistRestriction](sexistrestriction.md) pour définir la restriction **existent** et une structure [SAndRestriction](sandrestriction.md) pour définir la restriction **et** . 
+Lorsqu'une restriction de propriété est transmise à une opération **IMAPITable** :: restrict ou **IMAPITable:: FindRow** et la propriété cible n'existe pas, les résultats de la restriction ne sont pas définis. En créant une restriction **et** qui rejoint la restriction de propriété avec une restriction **existante** , un appelant peut être assuré de résultats précis. Utilisez une structure [SExistRestriction](sexistrestriction.md) pour définir la restriction **exist** et une structure [SAndRestriction](sandrestriction.md) pour définir la restriction **et** . 
   
-Balises de propriété à valeurs multiples peuvent être utilisées dans les restrictions de propriété si le fournisseur de services l’implémentation de la table les prend en charge. Si prise en charge, propriété à valeurs multiples balises peut être utilisées n’importe où les balises de propriété à valeur unique peuvent être utilisées. 
+Les balises de propriété à valeurs multiples peuvent être utilisées dans les restrictions de propriété si le fournisseur de services implémentant le tableau les prend en charge. S'il est pris en charge, les balises de propriétés à valeurs multiples peuvent être utilisées partout où des balises de propriété à valeur unique peuvent être utilisées. 
   
-Balises de propriété à valeurs multiples peuvent être utilisées dans les méthodes suivantes :
+Les balises de propriété à valeurs multiples peuvent être utilisées dans les méthodes suivantes:
   
 - [IMAPIProp::SetProps](imapiprop-setprops.md)
     
@@ -90,9 +90,9 @@ Balises de propriété à valeurs multiples peuvent être utilisées dans les m�
 - [IMAPITable::Restrict](imapitable-restrict.md)
     
 > [!IMPORTANT]
-> Un cas notable lorsque les balises de deux propriété ne correspondront pas se restriction sur une propriété à valeurs multiples. Dans ce cas, les informations suivantes doivent être vérifiées. > Si le type de propriété de **ulPropTag** de **SPropertyRestriction** contient le type de propriété à valeurs multiples bit indicateur MV_FLAG (0 x 1000), le type de propriété de **ulPropTag** de **SPropValue** doit correspondre à l’ancienne moins le MV_ INDICATEUR bit indicateur, autrement dit, son inverse. > Par exemple, pour limiter à l’aide d’une propriété de type chaîne à valeurs multiples comme une catégorie avec une balise de propriété pour la propriété 0x8012101f, c'est-à-dire PROP_TAG (MV_FLAG | PT_UNICODE, 0x8012)), le correspondant **SPropertyRestriction** apparaît sous la forme suit. >  `SPropertyRestriction.ulPropTag = 0x8012101f; // attempt to restrict a MultiValue property`>  `SPropertyRestriction.lpProp->ulPropTag = 0x8012001f; // the lpszW member of the Value property is valid`>  `SPropertyRestriction.lpProp.Value->lpszW = L"My Category";`> Notez que si le type de propriété de **ulPropTag** de **SPropValue** contient l’indicateur de bit MV_FLAG, le retour est MAPI_E_TOO_COMPLEX. 
+> Un cas notable lorsque les deux balises de propriété ne correspondent pas s'il s'agit d'une restriction sur une propriété à valeurs multiples. Dans ce cas, les éléments suivants doivent être vrais. > si le type de propriété de l' **ulPropTag** de **SPropertyRestriction** contient le type de propriété à valeurs multiples indicateur binaire MV_FLAG (0x1000), le type de propriété de l' **ulPropTag** de **SPropValue** doit correspondre à l'ancien moins le MV_ Indicateur bit Flag, c'est-à-dire son inverse. > par exemple, pour limiter l'utilisation d'une propriété de chaîne personnalisée à valeurs multiples, telle qu'une catégorie avec une balise de propriété pour la propriété 0x8012101f, c'est-à-dire PROP_TAG (MV_FLAG | PT_UNICODE, 0x8012)), le **SPropertyRestriction** correspondant apparaîtra comme -. >  `SPropertyRestriction.ulPropTag = 0x8012101f; // attempt to restrict a MultiValue property`>  `SPropertyRestriction.lpProp->ulPropTag = 0x8012001f; // the lpszW member of the Value property is valid`>  `SPropertyRestriction.lpProp.Value->lpszW = L"My Category";`> Notez que si le type de propriété de l' **ulPropTag** de **SPropValue** contient l'indicateur de bit MV_FLAG, le retour probable est MAPI_E_TOO_COMPLEX. 
   
-Pour plus d’informations sur la structure **SPropertyRestriction** , voir [à propos des Restrictions](about-restrictions.md). 
+Pour plus d'informations sur la structure **SPropertyRestriction** , consultez la rubrique [à propos des restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

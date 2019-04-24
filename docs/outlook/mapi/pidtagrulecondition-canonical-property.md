@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8a11e846-c62f-4c06-876f-94623d50cc3b
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 5b513bc5ff6b95b26a96e36a4d04a49737cf6216
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359506"
 ---
 # <a name="pidtagrulecondition-canonical-property"></a>Propriété canonique PidTagRuleCondition
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La condition utilisée lors de l’évaluation de la règle.
+Condition utilisée lors de l'évaluation de la règle.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ La condition utilisée lors de l’évaluation de la règle.
    
 ## <a name="remarks"></a>Remarques
 
-La condition est exprimée sous la forme d’une **Restriction** et la mémoire tampon **PropertyValue** contient la structure de **Restriction** empaquetée tel que spécifié dans [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx).
+La condition est exprimée sous la forme d'une **restriction** et la mémoire tampon **PropertyValue** contient la structure de **restriction** empaquetée comme spécifié dans [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -44,15 +44,15 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |Ces fonctions vous montrer comment analyser une propriété **PT_SRESTRICTION** à des fins de copie vers une autre propriété.  <br/> |
+|ImportProcs. cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |Ces fonctions montrent comment analyser une propriété **PT_SRESTRICTION** à des fins de copie vers une autre propriété.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
@@ -60,17 +60,17 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
     
 [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
-> Définit les structures de base de données qui sont utilisés dans les opérations à distance.
+> Définit les structures de données de base qui sont utilisées dans les opérations distantes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

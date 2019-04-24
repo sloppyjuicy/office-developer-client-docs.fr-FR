@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e3f53a894b7f7cdaa68e66530c7bd99bf49b9ed0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ff69981e83d42e439936a3e4be47eabfd811b310
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349552"
 ---
 # <a name="swstringarray"></a>SWStringArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de chaînes de caractères qui sont utilisées pour décrire une propriété de type PT_MV_UNICODE. 
+Contient un tableau de chaînes de caractères utilisées pour décrire une propriété de type PT_MV_UNICODE. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SWStringArray
@@ -44,15 +44,15 @@ typedef struct _SWStringArray
 
  **cValues**
   
-> Nombre de chaînes dans le tableau indiqué par le membre **lppszW** . 
+> Nombre de chaînes dans le tableau vers lequel pointe le membre **lppszW** . 
     
  **lppszW**
   
-> Pointeur vers un tableau de chaînes de caractères Unicode terminée-null.
+> Pointeur vers un tableau de chaînes de caractères Unicode terminées par null.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_UNICODE, reportez-vous à [Types de propriété](property-types.md).
+Pour plus d'informations sur PT_MV_UNICODE, consultez la rubrique [types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

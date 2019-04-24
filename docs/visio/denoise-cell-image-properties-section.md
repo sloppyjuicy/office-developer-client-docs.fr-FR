@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e305585f-f0d8-0494-91d4-0c76929dc170
 description: Supprime le bruit (pixels comportant des niveaux de couleur répartis de façon aléatoire) d'une image en mode point. La valeur par défaut est 0 %.
-ms.openlocfilehash: f08d09126a24935c0dd4dcda5e88fdd559c8d176
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f970fde22e864239ea3f3f9bcb704e7f4692e9cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360248"
 ---
 # <a name="denoise-cell-image-properties-section"></a>Denoise, cellule (section Image Properties)
 
 Supprime le bruit (pixels comportant des niveaux de couleur répartis de façon aléatoire) d'une image en mode point. La valeur par défaut est 0 %.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule Denoise par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Denoise par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Denoise  <br/> |
+| Nom de la cellule :  <br/> | Noise  <br/> |
    
-Pour obtenir une référence à la cellule Denoise par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Denoise à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowImage** <br/> |
 | Index de la cellule :  <br/> |**visImageDenoise** <br/> |
    

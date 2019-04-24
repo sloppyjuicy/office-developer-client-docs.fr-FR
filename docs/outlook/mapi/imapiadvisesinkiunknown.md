@@ -11,36 +11,36 @@ api_name:
 api_type:
 - COM
 ms.assetid: f598fc57-75d3-473b-8eb0-9d8a3b92e9f2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b9244e28337c74487562ec235f246559a49a390d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d537184f427b2ef240dd2a9a59ab2f624f8f75d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350917"
 ---
 # <a name="imapiadvisesink--iunknown"></a>IMAPIAdviseSink : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Implémente un objet de récepteur advise pour la gestion des notifications. Un pointeur vers un objet de récepteur advise est passé à un appel à la méthode **Advise** d’un fournisseur de service, le mécanisme utilisé pour l’enregistrement d’une notification. 
+Implémente un objet de récepteur de notifications pour la gestion de la notification. Un pointeur vers un objet de récepteur Advise est transmis dans un appel à la méthode **Advise** d'un fournisseur de services, le mécanisme utilisé pour s'inscrire à la notification. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Exposés par :  <br/> |Objets de récepteur de notification  <br/> |
-|Implémentée par :  <br/> |Les applications clientes et MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de services et MAPI  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPIAdviseSink  <br/> |
-|Type de pointeur :  <br/> |LPMAPIADVISESINK  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Exposé par:  <br/> |Objets de récepteur de notifications  <br/> |
+|Implémenté par :  <br/> |Applications clientes et MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de services et MAPI  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPIAdviseSink  <br/> |
+|Type de pointeur:  <br/> |LPMAPIADVISESINK  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Répond à une notification en effectuant une ou plusieurs tâches. Les tâches exécutées varient selon le type d’événement et l’objet qui génère la notification.  <br/> |
+|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Répond à une notification en effectuant une ou plusieurs tâches. Les tâches effectuées dépendent du type d'événement et de l'objet qui génère la notification.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

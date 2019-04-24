@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec4d328-c192-4672-a478-b08442352794
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 188ddf13e623292e95a1af4af54cf4254d7b0345
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360906"
 ---
 # <a name="pidnameaudionotes-canonical-property"></a>Propriété canonique PidNameAudioNotes
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les notes textuelles qui sont joints à un message vocal.
+Spécifie les notes textuelles jointes à un message vocal.
   
 |||
 |:-----|:-----|
-|Noms conviviaux :  <br/> |UMAudioNotes  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_UnifiedMessaging  <br/> |
-|Nom de la propriété :  <br/> |UMAudioNotes  <br/> |
+|Noms conviviaux:  <br/> |UMAudioNotes  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_UnifiedMessaging  <br/> |
+|Nom de la propriété:  <br/> |UMAudioNotes  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |La messagerie unifiée  <br/> |
+|Domaine :  <br/> |Messagerie unifiée  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour activer un utilisateur final à lire et modifier des notes audio directement sur un message vocal, un client fournit une zone d’édition dans laquelle l’utilisateur peut taper un ensemble de notes qui sont ajoutés à cette propriété de l’objet du message vocal.
+Pour permettre à un utilisateur final de lire et de modifier des notes audio directement sur un message vocal, un client fournit une zone d'édition dans laquelle l'utilisateur peut taper un ensemble de notes qui sont ajoutées à cette propriété de l'objet de message vocal.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour la représentation des messages de messagerie et de télécopie de voix.
+> Spécifie les propriétés et les opérations autorisées pour la représentation des messages vocaux et de télécopie.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

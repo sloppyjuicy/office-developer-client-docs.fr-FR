@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.assetid: 2f571c65-6b7a-5a3a-c075-3c52d3ab989b
 description: Représente une chaîne de texte descriptive d’un lien hypertexte
 ms.openlocfilehash: b58e6dc3ec2fc3b64db00e0f19e0718fe897aaa3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360241"
 ---
-# <a name="description-cell-hyperlinks-section"></a>Cellule Description (section Liens hypertexte)
+# <a name="description-cell-hyperlinks-section"></a>Description, cellule (section Hyperlinks)
 
 Représente une chaîne de texte descriptive d’un lien hypertexte 
   
 ## <a name="remarks"></a>Remarques
 
-Utilisez cette cellule pour stocker des commentaires sur le lien hypertexte. par exemple, « un lien vers notre site prix. »
+Utilisez cette cellule pour stocker des commentaires sur le lien hypertexte; par exemple, «lien vers le site Web de nos tarifs».
   
 Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Liens hypertexte** (cliquez sur **Liens hypertexte** sous l’onglet **Insertion**). 
   
@@ -30,7 +30,7 @@ Pour faire référence à la cellule Description par un nom à partir d'une autr
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Lien hypertexte.  *Nom* . Description où un lien hypertexte.  *Nom* est le nom de la ligne hyperlink  <br/> |
+| Nom de cellule :  <br/> | Lien hypertexte.  *Nom* . Description, où hyperLink.  *Name* est le nom de la ligne de lien hypertexte  <br/> |
    
 Pour faire référence à la cellule Description à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

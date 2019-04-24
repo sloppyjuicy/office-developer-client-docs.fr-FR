@@ -7,26 +7,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 120749ca-a740-4a57-bc70-529e238f4415
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2411b105f685b31d8158dfc20f368ba1bdbb5792
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 81dc4e9dda28f4c0a4ea83afdd5cb28bae5b40dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351491"
 ---
 # <a name="mapi-form-libraries"></a>Bibliothèques de formulaires MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour vous aider à organiser les serveurs de formulaire et de les rendre facilement accessibles aux applications clientes, l’architecture de formulaire MAPI inclut des bibliothèques de formulaires, qui prend en charge l’installation, d’administration, la réplication et utiliser les serveurs de formulaire.
+Pour vous aider à organiser les serveurs de formulaires et à les rendre facilement accessibles aux applications clientes, l'architecture des formulaires MAPI inclut des bibliothèques de formulaires qui prennent en charge l'installation, l'administration, la réplication et l'utilisation des serveurs de formulaires.
   
-Bibliothèques de formulaires sont des référentiels de serveurs de formulaire et les informations de configuration que le Gestionnaire de formulaire utilise lors du chargement des serveurs de formulaire. 
+Les bibliothèques de formulaires sont des référentiels de serveurs de formulaires et des informations de configuration qui sont utilisées par le gestionnaire de formulaires lors du chargement des serveurs de formulaires. 
   
 > [!NOTE]
-> Au début de l’historique de MAPI, les bibliothèques de formulaires étaient appelées « registres ». Pour cette raison, le terme « Registre » est conservée dans certaines relatives aux formulaires MAPI interfaces, propriétés, entrées de fichier de configuration et ainsi de suite. Si l’interface de votre application nécessite l’utilisation de l’un de ces termes, vous devez utiliser le terme « library » en mode exclusif. 
+> Au début de l'histoire de MAPI, les bibliothèques de formulaires étaient nommées «registres». Pour cette raison, le terme «registre» est conservé dans certaines interfaces MAPI, propriétés, entrées de fichiers de configuration et ainsi de suite. Si l'interface de votre application requiert l'utilisation de l'un de ces termes, vous devez utiliser exclusivement le terme «Library». 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,38 +9,38 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b68054b5-7efd-1156-9dc1-5ec94e18d227
 description: Détermine le niveau de transparence de la couleur de trait d'une forme.
-ms.openlocfilehash: 81c23b77c4663158819f9d5fe53765860183e039
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 555ea15de0279a37bcf67de7374d922b8692ce02
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359296"
 ---
 # <a name="linecolortrans-cell-line-format-section"></a>LineColorTrans, cellule (section Line Format)
 
 Détermine le niveau de transparence de la couleur de trait d'une forme.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Les valeurs sont arrondies au pourcentage le plus proche. Une valeur de 100 % correspond à une transparence totale. Même si une forme dont la couleur de trait est entièrement transparente apparaît identique à une forme dépourvue de traits sur la page de dessin, elle interagit avec les autres objets de la page de la même façon que si elle avait une transparence de 0 %. 
   
-Vous pouvez également définir cette valeur à l’aide du curseur dans la boîte de dialogue **trait** (sous l’onglet **accueil** , dans le groupe **forme** , cliquez sur **trait**, pointez sur **poids**, puis cliquez sur **Autres traits**).
+Vous pouvez également définir cette valeur à l’aide du curseur dans la boîte de dialogue **Trait** (sous l’onglet **Accueil**, dans le groupe **Forme**, cliquez sur **Trait**, pointez sur **Poids**, puis cliquez sur **Autres traits**).
   
-Pour obtenir une référence à la cellule LineColorTrans par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule LineColorTrans par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |LineColorTrans  <br/> |
    
-Pour obtenir une référence à la cellule LineColorTrans par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule LineColorTrans à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowLine** <br/> |
 |Index de la cellule :  <br/> |**visLineColorTrans** <br/> |
    

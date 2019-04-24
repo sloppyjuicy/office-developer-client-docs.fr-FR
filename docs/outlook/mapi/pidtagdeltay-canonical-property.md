@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 26bc1842-0736-4bcd-9251-86bf222ece2a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ff386e8b280eea5bcc5794a3080d9a61cefb20e5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ba69b2a7aebaba16b0d856c1b012b637650f5eaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360864"
 ---
 # <a name="pidtagdeltay-canonical-property"></a>Propriété canonique PidTagDeltaY
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la hauteur d’un contrôle de zone de boîte de dialogue en unités de boîte de dialogue Windows standards. 
+Contient la hauteur d'un contrôle de boîte de dialogue dans les unités de boîte de dialogue Windows standard. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DELTAY  <br/> |
 |Identificateur :  <br/> |0x3F04  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Afficher une table MAPI  <br/> |
+|Domaine :  <br/> |Table d'affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)), cette propriété contrôle la position et la taille du contrôle de boîte de dialogue. 
+**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) et cette propriété contrôle la position et la taille du contrôle de la boîte de dialogue. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

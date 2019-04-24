@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 29dd2e3b47d0f43df7824274d2fdcc4f7f16eeb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2ea877c9328279322de0f15e5755096e74819425
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357413"
 ---
 # <a name="ltid"></a>LTID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Générique ID termes Long d’un objet dans un magasin d’Outlook.
+ID générique long terme d'un objet dans une banque Outlook.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -34,19 +34,19 @@ struct LTID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
- _GUID_
+ _directeurs_
   
-- [out] Le GUID du serveur qui a créé l’objet.
+- remarquer GUID du serveur qui a créé l'objet.
     
  _globcnt_
   
-- [out] Numéro unique 6 octets qui identifie l’objet au sein de la banque d’Outlook.
+- remarquer Nombre unique de six octets qui identifie l'objet dans le magasin Outlook.
     
  _wLevel_
   
-- [out] Niveau de la hiérarchie de l’identificateur d’entrée pour un dossier Public favoris Exchange.
+- remarquer Niveau hiérarchique de l'ID d'entrée d'un dossier public favori Exchange.
     
 ## <a name="see-also"></a>Voir aussi
 

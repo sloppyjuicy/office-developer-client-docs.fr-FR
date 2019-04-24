@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33d70748-0d3f-4be4-bcb5-7ec048887944
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 640923511241b08e5a86e9733aab5cc2e9237c23
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2a2439bae79b497f018391983e2c4b03a35eee70
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348789"
 ---
 # <a name="imsgstorecompareentryids"></a>IMsgStore::CompareEntryIDs
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576574"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux identificateurs d’entrée pour déterminer si elles font référence à la même entrée dans une banque de messages. MAPI passe cet appel à un fournisseur de services uniquement si les identificateurs uniques (UID) dans les deux identificateurs d’entrée à comparer sont gérés par ce fournisseur.
+Compare deux identificateurs d'entrée pour déterminer s'ils font référence à la même entrée dans une banque de messages. MAPI transmet cet appel à un fournisseur de services uniquement si les identificateurs uniques (UID) dans les deux identificateurs d'entrée à comparer sont gérés par ce fournisseur.
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,19 +42,19 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID1_ _._
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ _._
     
  _lpEntryID1_
   
-> [in] Pointeur vers le premier identificateur d’entrée à comparer.
+> dans Pointeur vers le premier identificateur d'entrée à comparer.
     
  _cbEntryID2_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID2_ _._
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ _._
     
  _lpEntryID2_
   
-> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
+> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [out] Pointeur vers le résultat de la comparaison. TRUE si les identificateurs de deux entrée font référence au même objet ; Sinon, FALSE.
+> remarquer Pointeur vers le résultat de la comparaison. TRUE si les deux identificateurs d'entrée font référence au même objet; Sinon, FALSe.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,17 +72,17 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Un ou les deux les identificateurs d’entrée spécifiés comme paramètres ne font pas référence aux objets, éventuellement, car les objets correspondants sont non ouverts et non à présentent.
+> L'un des identificateurs d'entrée spécifiés comme paramètres ne fait pas référence aux objets, probablement parce que les objets correspondants ne sont pas ouverts et ne sont pas disponibles pour le moment.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgStore::CompareEntryIDs** compare deux identificateurs d’entrée qui appartiennent à la banque de messages pour déterminer si elles font référence au même objet. 
+La méthode **IMsgStore:: CompareEntryIDs** compare deux identificateurs d'entrée qui appartiennent à la Banque de messages pour déterminer s'ils font référence au même objet. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **CompareEntryIDs** est utile car un objet peut avoir plusieurs identificateurs d’entrée valide (par exemple, après avoir installé une nouvelle version d’un fournisseur de magasin de message). 
+ **CompareEntryIDs** est utile, car un objet peut avoir plusieurs identificateurs d'entrée valides (par exemple, après l'installation d'une nouvelle version d'un fournisseur de banque de messages). 
   
-Si **CompareEntryIDs** renvoie une erreur, ne prend aucune action basée sur le résultat de la comparaison. Au lieu de cela, adoptez une approche plus prudente possible. **CompareEntryIDs** peut échouer si, par exemple, un ou les deux les identificateurs d’entrée contient un non valide **MAPIUID**. 
+Si **CompareEntryIDs** renvoie une erreur, n'effectuez aucune action en fonction du résultat de la comparaison. Au lieu de cela, adoptez l'approche la plus conservatrice possible. **CompareEntryIDs** peut échouer si, par exemple, un ou les deux identificateurs d'entrée contiennent un **MAPIUID**non valide. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|BaseDialog.cpp  <br/> |CBaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI utilise la méthode **IMsgStore::CompareEntryIDs** pour comparer les identificateurs d’entrée.  <br/> |
+|BaseDialog. cpp  <br/> |CBaseDialog:: OnCompareEntryIDs  <br/> |MFCMAPI utilise la méthode **IMsgStore:: CompareEntryIDs** pour comparer les ID d'entrée.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

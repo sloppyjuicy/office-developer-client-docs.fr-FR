@@ -1,7 +1,7 @@
 ---
 title: Appliquer un ruban personnalisé au démarrage d’Access
 TOCTitle: Apply a custom ribbon when starting Access
-description: Comment appliquer des rubans personnalisés lors de l’ouverture d’une base de données dans Access 2013.
+description: Découvrez comment appliquer des rubans personnalisés lorsque vous ouvrez une base de données dans Access 2013.
 ms:assetid: 9e8ddf95-35aa-4e57-8422-d770da14711e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198313(v=office.15)
 ms:contentKeyID: 48546659
@@ -9,27 +9,27 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 0acd99a498a74f098b08814e9f11d49b28bae097
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291956"
 ---
 # <a name="apply-a-custom-ribbon-when-starting-access"></a>Appliquer un ruban personnalisé au démarrage d’Access
 
-**S’applique à :** Access 2013 | Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Le ruban utilise le balisage XML déclaratif textuels qui simplifie la création et la personnalisation du ruban. Avec quelques lignes de code XML, vous pouvez créer l’interface de l’utilisateur. Access fournit une flexibilité considérable pour personnaliser l’interface utilisateur du ruban. Par exemple, marquage de personnalisation permettre être stockée dans une table, incorporé dans une procédure VBA, stocké dans une autre base de données Access ou liée à une feuille de calcul Excel. Cette rubrique décrit comment appliquer des rubans personnalisés lors de l’ouverture d’une base de données.
+Le ruban utilise un balisage XML déclaratif basé sur texte, qui simplifie la création et la personnalisation du ruban. Avec quelques lignes de XML, vous pouvez créer simplement l’interface idéale pour l’utilisateur. Access fournit une grande flexibilité lors de la personnalisation du ruban de l’interface utilisateur. Par exemple, un balisage de personnalisation peut être stocké dans un tableau, incorporé dans une procédure VBA, stocké dans une autre base de données Access ou lié à une feuille de calcul Excel. Découvrez comment appliquer des rubans personnalisés lorsque vous ouvrez une base de données.
 
-## <a name="make-the-ribbon-customization-xml-available"></a>Disposition de la personnalisation du ruban XML
+## <a name="make-the-ribbon-customization-xml-available"></a>Rendre disponible la personnalisation du ruban XML
 
-### <a name="store-ribbon-extensibility-xml-in-a-table"></a>Stocker l’extensibilité du ruban XML dans une table
+### <a name="store-ribbon-extensibility-xml-in-a-table"></a>Stocker extensibilité du ruban XML dans un tableau
 
-Une des méthodes que vous pouvez utiliser pour rendre disponibles des personnalisations de ruban consiste à stocker dans une table. Si vous stockez les personnalisations dans une table dénommée **RubansSysU**, les personnalisations peuvent être implémentées sans utiliser de macros ou du code VBA.
+Une méthode que vous pouvez utiliser pour rendre des personnalisations du ruban disponible consiste à les stocker dans un tableau. Si vous stockez les personnalisations dans un tableau nommé **USysRibbons**, les personnalisations peuvent être mises en œuvre sans utiliser des macros ou du code VBA.
 
-**RubansSysU** est une table système créée par l’utilisateur. Le tableau doit être créé en utilisant des noms de colonne spécifiques pour les personnalisations du ruban à mettre en œuvre. 
+**USysRibbons** est un tableau système créé par l’utilisateur. Ce tableau doit être créé en utilisant des noms de colonnes spécifiques afin que les personnalisations du ruban soient implémentées. 
 
-La table ci-dessous contient les paramètres à utiliser lors de la création de la table **RubansSysU**.
+Le tableau suivant répertorie les paramètres à utiliser lors de la création du tableau**USysRibbons**.
 
 <table>
 <colgroup>
@@ -47,41 +47,41 @@ La table ci-dessous contient les paramètres à utiliser lors de la création de
 <tbody>
 <tr class="odd">
 <td><p><strong>RibbonName</strong></p></td>
-<td><p>Texte</p></td>
+<td><p>Text</p></td>
 <td><p>Contient le nom du ruban personnalisé devant être associé à cette personnalisation.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RibbonXML</strong></p></td>
 <td><p>Mémo</p></td>
-<td><p>Contient l’extensibilité du ruban (RibbonX) XML qui définit la personnalisation du ruban.</p></td>
+<td><p>Contient le XML d'extensibilité du ruban (RibbonX) qui définit la personnalisation du ruban.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="load-ribbon-extensibility-xml-programmatically"></a>Charger le code XML d’extensibilité du ruban par programme
+### <a name="load-ribbon-extensibility-xml-programmatically"></a>Charger extensibilité du ruban XML par programme
 
-Vous pouvez utiliser la méthode **[LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI)** pour charger les personnalisations du ruban par programme. En règle générale, pour créer le ruban et disponibles pour l’application, vous créez tout d’abord un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI** , en passant le nom du ruban et le balisage de personnalisation XML.
+Vous pouvez utiliser la méthode** [LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI) ** permettant de charger les personnalisations de ruban par programme. En règle générale, pour créer le ruban et le mettre à la disposition de l’application, vous devez tout d’abord créer un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI**, laquelle transmet le nom du Ruban et le code de personnalisation XML.
 
-Le balisage XML peut provenir d’un objet **Recordset** créé à partir d’une table, d’une source externe à la base de données, tel qu’un fichier XML que vous analysez dans une chaîne ou d’un balisage XML incorporé directement dans la procédure. Vous pouvez créer différents rubans en utilisant plusieurs appels de la méthode **LoadCustomUI** , en passant un balisage XML différent dans la mesure où le nom de chaque ruban et l’attribut **id** des onglets constituant le ruban sont uniques.
+Le code XML peut provenir d’un objet **Recordset** créé à partir d’une table, d’une source externe à la base de données (comme un fichier XML que vous analysez dans un objet de type String) ou de code XML incorporé directement dans la procédure. Vous pouvez rendre plusieurs rubans disponibles à l'aide de plusieurs appels à la méthode **LoadCustomUI**, autre balisage XML, dans la mesure où le nom de chaque ruban et l'attribut **id** des onglets constituant le ruban sont uniques.
 
-Une fois la procédure terminée, vous créez ensuite une macro AutoExec qui appelle la procédure à l'aide de l'action ExécuterCode. Ainsi, lorsque l’application est démarrée, la méthode **LoadCustomUI** s’exécute automatiquement et tous les rubans personnalisés sont accessibles à l’application.
+Une fois la procédure terminée, vous créez une macro AutoExec qui appelle la procédure à l’aide de l’action ExécuterCode. Ainsi, lorsque l'application est lancée, la méthode **LoadCustomUI** s'exécute automatiquement et tous les rubans personnalisés sont accessibles à l'application.
 
-## <a name="apply-customized-ribbons-when-access-starts"></a>Appliquer des rubans personnalisés au démarrage d’Access
+## <a name="apply-customized-ribbons-when-access-starts"></a>Appliquer des rubans personnalisés lorsque Access démarre
 
-Pour appliquer une interface utilisateur personnalisée de sorte qu’il soit disponible au démarrage de l’application, utilisez la procédure suivante :
+Pour appliquer un ruban personnalisé disponible au démarrage de l'application, procédez comme suit :
 
-1.  Suivez la procédure décrite précédemment pour rendre les rubans personnalisés accessibles à l’application.
+1.  Exécutez la procédure décrite plus haut pour rendre les rubans personnalisés accessibles à l’application.
 
-2.  Fermez er redémarrez l'application.
+2.  Quittez et redémarrez l’application.
 
-3.  Cliquez sur le **Bouton Microsoft Office**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102") , puis sur **Options Access**.
+3.  Sélectionnez le **bouton Microsoft Office**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102") , puis **Access Options**.
 
-4.  Choisissez l’option de **Base de données actuelle** puis, dans la section **Options de la barre d’outils et du ruban** , cliquez sur la liste **Nom du ruban** et sélectionnez un ruban.
+4.  Cliquez sur l'option **Base de données active**, dans la section **Options de la barre d'outils et du ruban**, puis sur la liste **Nom du ruban** et sélectionnez un ruban.
 
-5.  Maintenant, fermez et redémarrez l’application. L’interface utilisateur que vous avez sélectionné est affiché.
+5.  Quittez et redémarrez l’application. L’interface utilisateur que vous avez sélectionnée est affichée.
 
 > [!NOTE]
-> [!REMARQUE] Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
+> Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 

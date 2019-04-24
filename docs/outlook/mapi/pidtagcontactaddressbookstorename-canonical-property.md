@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 224a2b14328795bb2bff4b1e2985f2a4c1e963a9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2eb427b99ecef9a6b78b5f7bd92bfbf6e214702f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358482"
 ---
 # <a name="pidtagcontactaddressbookstorename-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom complet de la banque associée au fournisseur de carnet d’adresses. 
+Contient le nom d'affichage du magasin associé au fournisseur de carnet d'adresses. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_NAME, PR_CONTAB_STORE_NAME_A, PR_CONTAB_STORE_NAME_W  <br/> |
 |Identificateur :  <br/> |0x6612  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont sur un conteneur de carnet d’adresses de contacts et une colonne dans la table des conteneurs du carnet d’adresses de contacts.
+Ces propriétés sont sur un conteneur de carnet d'adresses de contacts et une colonne dans la table des conteneurs du carnet d'adresses des contacts.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

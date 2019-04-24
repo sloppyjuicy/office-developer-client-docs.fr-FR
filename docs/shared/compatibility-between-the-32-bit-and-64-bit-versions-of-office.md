@@ -6,11 +6,11 @@ ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: Découvrez en quoi la version 32 bits d’Office est compatible avec la version 64 bits d’Office.
 localization_priority: Priority
 ms.openlocfilehash: b03323b37b242c9992c47cd737ae54f3f9bbf2ca
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359821"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>Compatibilité entre les versions 32 bits et 64 bits d’Office
 

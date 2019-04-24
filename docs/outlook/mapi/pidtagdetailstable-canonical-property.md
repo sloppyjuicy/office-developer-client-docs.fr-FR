@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7a0ccad3-f497-4871-b733-771e6cb8ef6a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1602d1753d9f7f6e6f407a85dab0a33255db7aae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 74eae4a4ed742c3bb90496f5975ad7dac6ff798f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360836"
 ---
 # <a name="pidtagdetailstable-canonical-property"></a>Propriété canonique PidTagDetailsTable
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un objet de la table affichage incorporé.
+Contient un objet table d'affichage incorporé.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient un objet de la table affichage incorporé.
    
 ## <a name="remarks"></a>Remarques
 
-Transmission à la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) pour l’objet de cette propriété renvoie une interface [IMAPITable](imapitableiunknown.md) qui permet la création de la table d’affichage. MAPI utilise ce tableau pour afficher les feuilles de propriétés d’un objet de carnet d’adresses en réponse à un appel [IAddrBook::Details](iaddrbook-details.md) . 
+Le passage de cette propriété à la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) pour l'objet renvoie une interface [IMAPITable](imapitableiunknown.md) qui permet la création de la table d'affichage. MAPI utilise ce tableau pour afficher les feuilles de propriétés d'un objet de carnet d'adresses en réponse à un appel [IAddrBook::D etails](iaddrbook-details.md) . 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: ad8d6934b5e57429de5039e9420742caa9dd4294
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356727"
 ---
 # <a name="pidtagicon-canonical-property"></a>Propriété canonique PidTagIcon
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un bitmap d’une icône de toute taille d’un formulaire. 
+Contient une image bitmap d'une icône pleine taille pour un formulaire. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contient un bitmap d’une icône de toute taille d’un formulaire.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient une image de 32 x 32 pixels d’une icône, le même que le contenu d’un. Fichier ICO. Cette propriété est normalement copiée à partir de la. Fichier ICO spécifié dans la ligne LargeIcon de la section [Description] appropriée du fichier de configuration du formulaire. 
+Cette propriété contient une image 32 × 32 pixels d'une icône, le même que le contenu d'un. Fichier. ICO. Cette propriété est généralement copiée à partir du. Fichier. ICO spécifié dans la ligne LargeIcon de la section [Description] appropriée du fichier de configuration du formulaire. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

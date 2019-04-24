@@ -1,5 +1,5 @@
 ---
-title: Ajouter des options de vote à un élément de courrier
+title: Ajout d’options de vote à un élément de courrier électronique
 TOCTitle: Add voting options to a mail item
 ms:assetid: 0fb209a8-178d-411e-9551-0a72e041fd65
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424466(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3befe70363d1e2226b8a3a3a6ebb8db39aa2c6ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359723"
 ---
 # <a name="add-voting-options-to-a-mail-item"></a>Ajouter des options de vote à un élément de courrier
 
@@ -28,7 +28,7 @@ Les options de vote dans des messages servent à proposer aux destinataires d'un
 
 Dans l’exemple suivant, OrderPizza crée des options de vote dans un nouveau message électronique. OrderPizza crée d’abord un objet **MailItem**, puis définit la propriété sur **VotingOptions** sur « Cheese; Mushroom; Sausage; Combo; Veg Combo », puis la propriété [Subject](https://msdn.microsoft.com/library/bb611353\(v=office.15\)) sur « Pizza Order ». Lorsque le message « Pizza Order » est envoyé, les options de vote apparaissent aux destinataires. Pour chaque réponse reçue, le choix du destinataire sera reporté dans la page **Suivi** du message dans le dossier Éléments envoyés de l’expéditeur.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 84fb79b1922669db9c8e5d518a833a6866f11cea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3f66f513cc16bc479dd24c53804d751a396141f4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351414"
 ---
 # <a name="scommentrestriction"></a>SCommentRestriction
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction de commentaire, qui sert à annoter une restriction. 
+Décrit une restriction de commentaire, utilisée pour annoter une restriction. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SCommentRestriction
@@ -45,7 +45,7 @@ typedef struct _SCommentRestriction
 
  **cValues**
   
-> Nombre de valeurs de propriété dans le tableau indiqué par le membre **lpProp** . 
+> Nombre de valeurs de propriété dans le tableau vers lequel pointe le membre **lpProp** . 
     
  **lpRes**
   
@@ -53,15 +53,15 @@ typedef struct _SCommentRestriction
     
  **lpProp**
   
-> Pointeur vers un tableau de structures [SPropValue](spropvalue.md) , chacun contenant la balise de propriété et la valeur d’une propriété nommée. 
+> Pointeur vers un tableau de structures [SPropValue](spropvalue.md) , chacune contenant la balise de propriété et la valeur d'une propriété nommée. 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SCommentRestriction** associe un objet avec un ensemble de propriétés nommées. Restrictions de commentaire sont Contrairement à d’autres restrictions, car ils ne sont pas évaluées. Autrement dit, ils sont ignorés par la méthode [IMAPITable](imapitable-restrict.md) . Il n’existe aucun effet sur les lignes renvoyées par la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) après qu’un appel **IMAPITable** a été effectué. 
+La structure **SCommentRestriction** associe un objet à un ensemble de propriétés nommées. Les restrictions de commentaire sont à la différence des autres restrictions car elles ne sont pas évaluées. Autrement dit, ils sont ignorés par la méthode [IMAPITable:: Restrict](imapitable-restrict.md) . Il n'y a aucun effet sur les lignes renvoyées par la méthode [IMAPITable:: QueryRows](imapitable-queryrows.md) après l'appel de la méthode IMAPITable: **: Restrict** . 
   
-La structure **SCommentRestriction** peut être utilisée pour conserver les informations spécifiques à l’application avec une restriction lorsqu’il est enregistré sur le disque. Par exemple, un client de l’enregistrement du nom d’une propriété nommée utilisé dans une restriction de propriété permettre le faire dans une structure **SCommentRestriction** . L’enregistrement d’un nom de propriété n’est pas possible dans une restriction de propriété car la structure [SPropertyRestriction](spropertyrestriction.md) associée conserve uniquement la balise de propriété. 
+La structure **SCommentRestriction** peut être utilisée pour conserver les informations spécifiques à l'application à l'aide d'une restriction lorsqu'elle est enregistrée sur le disque. Par exemple, un client enregistrant le nom d'une propriété nommée utilisée dans une restriction de propriété peut le faire dans une structure **SCommentRestriction** . L'enregistrement d'un nom de propriété n'est pas possible dans une restriction de propriété car la structure [SPropertyRestriction](spropertyrestriction.md) associée contient uniquement la balise de propriété. 
   
-Pour plus d’informations sur les restrictions de structure **SCommentRestriction** en général, voir [à propos des Restrictions](about-restrictions.md). 
+Pour plus d'informations sur la structure **SCommentRestriction** et les restrictions en général, consultez la rubrique [à propos des restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

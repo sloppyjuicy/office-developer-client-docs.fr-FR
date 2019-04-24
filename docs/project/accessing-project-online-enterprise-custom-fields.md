@@ -7,11 +7,11 @@ ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online est un service Office 365 que les entreprises peuvent étendre afin de répondre à leurs besoins. Une zone d’extension est constituée par les champs personnalisés d’entreprise. Les champs personnalisés d’entreprise sont des champs où des valeurs sont saisies et qui peuvent être ajoutés à des projets, ressources et tâches. Le tableau suivant répertorie les champs personnalisés d’entreprise qui sont associés à des projets, ressources et tâches, et fournit un exemple de valeur pour une instance de ce champ personnalisé d’entreprise :'
 localization_priority: Priority
 ms.openlocfilehash: 9f754f1446890ae021bf6f7000ffba11e2a2df33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355082"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Accès aux champs personnalisés d’entreprise Project Online
 

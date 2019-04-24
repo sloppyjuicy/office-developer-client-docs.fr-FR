@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7fb1d8a1-8892-f489-2f58-0008b5b750f5
 description: Comporte une seule ligne dans laquelle sont indiqués tous les calques auxquels la forme est associée.
-ms.openlocfilehash: 5f522e31916ad276e15ac23e5149407dd67eb9cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e7e07ba14147abc8cdfd8b8544e4ee8f34b2be06
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359009"
 ---
 # <a name="layer-membership-section"></a>Layer Membership, section
 
 Comporte une seule ligne dans laquelle sont indiqués tous les calques auxquels la forme est associée.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-L’affectation de calque est affichée sous forme d’index dans la liste des calques dans la page. L’index du calque correspond à l’ordre des calques dans la boîte de dialogue **Propriétés des calques** (sous l’onglet **accueil** , dans le groupe **modification** , cliquez sur **calques**, puis cliquez sur **Propriétés des calques**). Le premier nom dans la boîte de dialogue est le calque 0, le deuxième couche 1 et ainsi de suite.
+L’attribution d’un calque est représentée comme un index de la liste des calques d’une page. L’index du calque correspond à l’ordre d’affichage des calques dans la boîte de dialogue **Propriétés des calques** (sous l’onglet **Accueil** dans le groupe **Modification**, cliquez sur **Calques**, puis cliquez sur **Propriétés des calques**). Le premier nom figurant dans la boîte de dialogue est le calque 0, le deuxième est le calque 1, etc.
   
 Si une forme est associée à plusieurs calques, les différents calques sont séparés par des points-virgules dans la cellule Layer Membership.
   
-Pour faire référence à la valeur de la cellule Layer Membership dans une formule, utilisez **LayerMember**.
+Pour faire référence à la valeur de la cellule Membership dans une formule, utilisez le nom **LayerMember**.
   
 

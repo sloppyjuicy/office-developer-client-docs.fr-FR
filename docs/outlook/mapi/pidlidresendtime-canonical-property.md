@@ -11,41 +11,41 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac58c0b4-9497-40ec-918e-58bd81144fd6
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e90ae9d25ff4b98b7cd8fb83ab23f7e71889c79f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 34f0af06e9635a0160fc9df7c4ff5f6da5921035
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358827"
 ---
 # <a name="pidlidresendtime-canonical-property"></a>Propriété canonique PidLidResendTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Si défini sur un rapport de non-remise, indique le temps que le message a été renvoyé.
+S'il est défini sur un rapport de non-remise, indique l'heure à laquelle le message a été renvoyé.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidResendTime  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Report  <br/> |
-|ID de type long (capot) :  <br/> |0x00008D00  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Report  <br/> |
+|ID long (couvercle):  <br/> |0x00008D00  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 605e2f528ea0afc1a35348320abaffeb142d9921
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 925e0eb60d55349ded114b827b6ca67e3b5ac1ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360745"
 ---
 # <a name="pidtagvalidfoldermask-canonical-property"></a>Propriété canonique PidTagValidFolderMask
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque binaire composé des indicateurs qui influencent la validité des identificateurs d’entrée des dossiers dans une banque de messages.
+Contient un masque de réindicateur des indicateurs qui indiquent la validité des identificateurs d'entrée des dossiers dans une banque de messages.
   
 |||
 |:-----|:-----|
@@ -36,53 +36,53 @@ Contient un masque binaire composé des indicateurs qui influencent la validité
    
 ## <a name="remarks"></a>Remarques
 
-Identificateur d’entrée d’un dossier peut devenir non valide si un utilisateur supprime le dossier ou si la banque de messages est corrompue.
+L'identificateur d'entrée d'un dossier peut devenir non valide si un utilisateur supprime le dossier ou si la Banque de messages est endommagée.
   
-Un ou plusieurs des indicateurs suivants peuvent être définies pour le masque de bits : 
+Un ou plusieurs des indicateurs suivants peuvent être définis pour le masque de masques: 
   
 FOLDER_COMMON_VIEWS_VALID 
   
-> Le dossier views courantes possède un identificateur d’entrée valide. Voir **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
+> Le dossier des affichages communs a un identificateur d'entrée valide. Voir **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
     
 FOLDER_FINDER_VALID 
   
-> Le dossier de recherche a un identificateur d’entrée valide. Voir **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)). 
+> Le dossier Finder a un identificateur d'entrée valide. Voir **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)). 
     
 FOLDER_IPM_INBOX_VALID 
   
-> Recevoir le message interpersonnel (IPM) dossier possède un identificateur d’entrée valide. Voir [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md). 
+> Le dossier de réception de message interpersonnes (IPM) a un identificateur d'entrée valide. Voir [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md). 
     
 FOLDER_IPM_OUTBOX_VALID 
   
-> Le dossier boîte d’envoi de l’IPM possède un identificateur d’entrée valide. Voir **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). 
+> Le dossier boîte d'envoi IPM a un identificateur d'entrée valide. Voir **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). 
     
 FOLDER_IPM_SENTMAIL_VALID 
   
-> Le dossier éléments envoyés de IPM possède un identificateur d’entrée valide. Voir **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
+> Le dossier éléments envoyés par IPM a un identificateur d'entrée valide. Voir **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
     
 FOLDER_IPM_SUBTREE_VALID 
   
-> La sous-arborescence de dossier IPM possède un identificateur d’entrée valide. Voir **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
+> La sous-arborescence du dossier IPM a un identificateur d'entrée valide. Voir **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
 FOLDER_IPM_WASTEBASKET_VALID 
   
-> Le dossier éléments supprimés de IPM possède un identificateur d’entrée valide. Voir **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)).
+> Le dossier éléments supprimés IPM a un identificateur d'entrée valide. Voir **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)).
     
 FOLDER_VIEWS_VALID 
   
-> Le dossier views possède un identificateur d’entrée valide. Voir **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
+> Le dossier views a un identificateur d'entrée valide. Voir **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

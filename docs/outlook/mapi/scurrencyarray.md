@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: d28852ab-b542-40e1-b2ec-85d20a2eddfd
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1b262ba9c83e9890719f716a373c566be172ae73
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e9468d0c7fc7e46475afe19f12f225e53196639e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360696"
 ---
 # <a name="scurrencyarray"></a>SCurrencyArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un tableau de valeurs monétaires qui sont utilisées pour décrire une propriété de type PT_MV_CURRENCY. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SCurrencyArray
@@ -44,21 +44,21 @@ typedef struct _SCurrencyArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau indiqué par le membre **lpcur** . 
+> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpcur** . 
     
  **lpcur**
   
-> Pointeur vers un tableau de structures de [devise](currency.md) qui contiennent les valeurs monétaires. 
+> Pointeur vers un tableau de [](currency.md) structures monétaires qui contiennent les valeurs monétaires. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_CURRENCY, voir la [Liste des Types de propriété](property-types.md). 
+Pour plus d'informations sur PT_MV_CURRENCY, consultez la [liste des types de propriétés](property-types.md). 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[CURRENCY](currency.md)
+[CONCURRENT](currency.md)
   
 [SPropValue](spropvalue.md)
 

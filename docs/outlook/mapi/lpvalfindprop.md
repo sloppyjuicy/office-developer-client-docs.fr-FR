@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 67461a38-bb60-467b-901b-39c645e764f7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c4a201411e2232a3e5fdcd97dcbc9460f657b12a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: fa1588d4a58824b57c132fc8e66a0abd6e9acd0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357427"
 ---
 # <a name="lpvalfindprop"></a>LpValFindProp
 
@@ -21,13 +21,13 @@ ms.locfileid: "22578093"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recherche une propriété spécifiée dans une propriété définie.
+Recherche une propriété spécifiée dans un jeu de propriétés.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Applications clientes et des fournisseurs de services.  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services.  <br/> |
    
 ```cpp
 LPSPropValue LpValFindProp(
@@ -41,19 +41,19 @@ LPSPropValue LpValFindProp(
 
  _ulPropTag_
   
-> [in] Balise de la propriété à rechercher dans le jeu de propriétés, indiqué par le paramètre _lpPropArray_ . 
+> dans Pour la propriété à rechercher dans le jeu de propriétés, indiqué par le paramètre _lpPropArray_ . 
     
  _cValues_
   
-> [in] Nombre de propriétés dans le jeu de propriétés, indiquée par le paramètre _lpPropArray_ . 
+> dans Nombre de propriétés dans le jeu de propriétés, indiqué par le paramètre _lpPropArray_ . 
     
  _lpPropArray_
   
-> [in] Tableau des structures **SPropValue** qui définit les propriétés à rechercher. 
+> dans Tableau de structures **SPropValue** qui définit les propriétés à rechercher. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **LpValFindProp** renvoie une structure **SPropValue** qui définit la propriété qui correspond à la balise de propriété d’entrée, ou NULL si aucune correspondance n’existe. 
+La fonction **LpValFindProp** renvoie une structure **SPropValue** qui définit la propriété correspondant à la balise de la propriété Input ou null s'il n'y a aucune correspondance. 
   
 ## <a name="remarks"></a>Remarques
 

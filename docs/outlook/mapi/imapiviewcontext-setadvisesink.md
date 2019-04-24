@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 555bb4820dc36934fb28197b7e222633a5248125
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7ee641214e1eaae667af356fd8dbe51ff7dc7982
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351190"
 ---
 # <a name="imapiviewcontextsetadvisesink"></a>IMAPIViewContext::SetAdviseSink
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583182"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère l’inscription d’un formulaire pour recevoir des notifications sur les modifications dans la visionneuse. 
+Gère l'inscription d'un formulaire pour recevoir des notifications sur les modifications apportées à la visionneuse. 
   
 ```cpp
 HRESULT SetAdviseSink(
@@ -37,23 +37,23 @@ LPMAPIFORMADVISESINK pmvns
 
  _pmvns_
   
-> [in] Pointeur vers un formulaire de notification objet récepteur ou NULL.
+> dans Pointeur vers un objet récepteur Form Advise ou NULL.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’inscription ou l’annulation de la notification de formulaire a réussi.
+> L'enregistrement ou l'annulation de la notification de formulaire a réussi.
     
 ## <a name="remarks"></a>Remarques
 
-Objets de formulaire appeler la méthode de **IMAPIViewContext::SetAdviseSink** pouvez en savoir plus sur les modifications dans la visionneuse de formulaire ou d’annuler une inscription préalable. Lorsque _pmvns_ est défini sur NULL, le formulaire souhaite annuler un enregistrement. Lorsque le récepteur de notification de points _pmvns_ à un formulaire valid, le formulaire souhaite enregistrer les notifications ultérieures. 
+Objets de formulaire appelez la méthode **IMAPIViewContext:: SetAdviseSink** pour vous inscrire afin d'en savoir plus sur les modifications apportées à la visionneuse de formulaires ou annuler une inscription précédente. Lorsque _pmvns_ est défini sur null, le formulaire veut annuler une inscription. Lorsque _pmvns_ pointe vers un récepteur de formulaire Advise valide, le formulaire veut s'inscrire aux notifications futures. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Lorsque **SetAdviseSink** comprend un formulaire pointeur du récepteur de notification, conserver une référence à celui-ci jusqu'à ce qu’un autre appel **SetAdviseSink** est effectué pour annuler la notification. Envoyer une notification lorsque cet événement se produit une modification dans votre visionneuse et lors du chargement d’un nouveau message. 
+Lorsque **SetAdviseSink** inclut un pointeur de récepteur de formulaire, conservez une référence à celui-ci jusqu'à ce qu'un autre appel **SetAdviseSink** soit effectué pour annuler la notification. Envoyer une notification lorsqu'une modification survient dans votre visionneuse et lorsque vous chargez un nouveau message. 
   
-Pour plus d’informations, consultez [envoi et réception des Notifications](sending-and-receiving-form-notifications.md).
+Pour plus d'informations, consultez la rubrique [envoi et réception](sending-and-receiving-form-notifications.md)de notifications de formulaire.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -61,7 +61,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SetAdviseSink  <br/> |MFCMAPI implémente la méthode **IMAPIViewContext::SetAdviseSink** dans cette fonction.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SetAdviseSink  <br/> |MFCMAPI implémente la méthode **IMAPIViewContext:: SetAdviseSink** dans cette fonction.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

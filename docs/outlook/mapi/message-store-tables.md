@@ -1,5 +1,5 @@
 ---
-title: Tables de banques de messages
+title: Tables de banque de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cdb7d8c5-8e35-47ff-8be7-2cb17e341ad3
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 735c778cd8e6ccb41de3d3d8cb0fdc163493f712
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: dd28c146f6b05b2dea03f73fab7131f23ca99e5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356895"
 ---
-# <a name="message-store-tables"></a>Tables de banques de messages
+# <a name="message-store-tables"></a>Tables de banque de messages
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La table contient des informations sur les fournisseurs de banque de messages dans le profil actif. Il existe une table de banque de messages pour chaque session MAPI, implémentés par MAPI et utilisé par les clients. Clients peuvent utiliser ce tableau, par exemple, pour rechercher toutes les instances d’un fournisseur spécifique ou pour localiser un message spécifique. 
+La table de banque de messages contient des informations sur les fournisseurs de banques de messages dans le profil actuel. Il existe une table de banque de messages pour chaque session MAPI, implémentée par MAPI et utilisée par les clients. Les clients peuvent utiliser cette table, par exemple, pour rechercher toutes les instances d'un fournisseur particulier ou pour localiser une banque de messages spécifique. 
   
-La table est dynamique. Si l’utilisateur d’une application cliente modifie le profil, modification de la banque de messages par défaut, par exemple, les valeurs de l' **PR_DEFAULT_STORE** pour les banques de messages affectés sont immédiatement mises à jour. 
+La table de banque de messages est dynamique. Si l'utilisateur d'une application cliente modifie le profil, en modifiant la Banque de messages par défaut, par exemple, les valeurs des propriétés **PR_DEFAULT_STORE** pour les banques de messages affectées sont immédiatement mises à jour. 
   
-Clients accèdent à la table en appelant la méthode [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) . 
+Les clients accèdent à la table de banque de messages en appelant la méthode [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) . 
   
-Les propriétés suivantes constituent la colonne requise dans la table de la banque de message :
+Les propriétés suivantes constituent le jeu de colonnes obligatoire dans la table de banque de messages:
   
 |||
 |:-----|:-----|

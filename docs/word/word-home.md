@@ -7,11 +7,11 @@ ms.assetid: 9eeb591e-b040-4a53-beef-f69913543fb4
 description: Recherchez des procédures, des exemples de code, de la documentation sur les kits de développement logiciel et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de Word.
 localization_priority: Priority
 ms.openlocfilehash: acd9fab9c09c88100ec473b0d456f90652643457
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716774"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360521"
 ---
 # <a name="word"></a>Word
 

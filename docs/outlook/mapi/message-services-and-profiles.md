@@ -1,5 +1,5 @@
 ---
-title: Profils et des services de messagerie
+title: Profils et services de messagerie
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,51 +7,51 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 60a102a68ee11cd6002be9edf47d0cee93ed2e15
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 78a13bacf13b019bbf9436830ad66db7fdfaf425
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356957"
 ---
-# <a name="message-services-and-profiles"></a>Profils et des services de messagerie
+# <a name="message-services-and-profiles"></a>Profils et services de messagerie
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Certains utilisateurs requièrent les services de plusieurs systèmes de messagerie, chacun avec un ou plusieurs fournisseurs de services. Car il est difficile à installer et configurer individuellement chacun de ces fournisseurs de services, car un serveur de messagerie nécessite généralement un groupe de fournisseurs associés pour exposer toutes ses fonctionnalités, MAPI inclut le concept d’un service de message. Services de messagerie aident les utilisateurs à installer et configurer leurs fournisseurs de services.
+Certains utilisateurs ont besoin des services de plusieurs systèmes de messagerie, chacun avec un ou plusieurs fournisseurs de services. Étant donné qu'il est lourd d'installer et de configurer chacun de ces fournisseurs de services individuellement, et qu'un serveur de messagerie exige généralement un groupe de fournisseurs associés pour exposer toutes ses fonctionnalités, MAPI inclut le concept de service de messagerie. Les services de messagerie aident les utilisateurs à installer et à configurer leurs fournisseurs de services.
   
-Pour créer un service de message, un développeur écrit un programme de point d’entrée du service de message pour gérer la configuration de chaque fournisseur dans le service et un programme d’installation pour effectuer les opérations suivantes :
+Pour créer un service de messagerie, un développeur écrit un programme de point d'entrée de service de message afin de gérer la configuration de chaque fournisseur du service et d'un programme d'installation pour effectuer les opérations suivantes:
   
-- Installer le service de chaque fournisseur.
+- Installez chaque fournisseur dans le service.
     
-- Créer les entrées du fichier de Registre et initialisation.
+- Créez des entrées de Registre et de fichier d'initialisation.
     
-- Créer des entrées dans le fichier de configuration MAPI Mapisvc.inf.
+- Créez des entrées dans le fichier de configuration MAPI, MAPISVC. inf.
     
-Le fichier Mapisvc.inf contient des informations relatives à la configuration de tous les services de messagerie et les fournisseurs de services installés sur l’ordinateur. Il se compose des sections hiérarchiques, avec chaque niveau de lié à la suivante. Dans la partie supérieure sont trois sections qui contiennent les éléments suivants : 
+Le fichier MAPISVC. INF contient des informations relatives à la configuration de tous les services de messagerie et fournisseurs de services installés sur l'ordinateur. Elle est organisée en sections hiérarchiques, chaque niveau étant lié à la suivante. Les deux sections suivantes contiennent les éléments suivants: 
   
-- Liste des fichiers d’aide de service de message.
+- Liste des fichiers d'aide du service de messagerie.
     
-- Une liste des services de message plus importantes, ou par défaut.
+- Une liste des services de messagerie les plus importants ou par défaut.
     
-- Une liste de tous les services sur l’ordinateur.
+- Liste de tous les services sur l'ordinateur.
     
-Le niveau suivant contient des sections pour chaque service de message et le dernier niveau contient des sections pour chaque fournisseur de services dans un service. MAPI exige que les développeurs de fournisseurs de services et les services de messagerie ajoutent certaines entrées à Mapisvc.inf ; les développeurs peuvent ajouter d’autres entrées à leur convenance. La plupart des informations de Mapisvc.inf finit dans un ou plusieurs profils, une collection d’informations de configuration pour un utilisateur préféré ensemble de services de messagerie. Un ordinateur peut avoir plusieurs utilisateurs et un utilisateur unique peut avoir plusieurs ensembles de préférences, plusieurs profils peuvent exister sur un ordinateur. Chaque profil décrit un ensemble de services de messagerie différent. Avoir plusieurs profils permet à un utilisateur à l’utilisation, par exemple, chez un ensemble de services de messagerie et au bureau avec un ensemble différent.
+Le niveau suivant contient des sections pour chaque service de messagerie, et le dernier niveau contient des sections pour chaque fournisseur de services dans un service. MAPI exige que les développeurs de fournisseurs de services et de services de messagerie ajoutent certaines entrées à Mapisvc. inf; les développeurs peuvent ajouter d'autres entrées à leur propre discrétion. La plupart des informations contenues dans le fichier MAPISVC. inf se terminent dans un ou plusieurs profils, une collection d'informations de configuration pour l'ensemble privilégié des services de messagerie d'un utilisateur. Étant donné qu'un ordinateur peut avoir plusieurs utilisateurs et qu'un seul utilisateur peut avoir plusieurs ensembles de préférences, de nombreux profils peuvent exister sur un ordinateur. Chaque profil décrit un ensemble différent de services de messagerie. Le fait de disposer de plusieurs profils permet à un utilisateur de travailler, par exemple, à la maison avec un ensemble de services de messagerie et au bureau avec un ensemble différent.
   
-Profils créés à l’installation du service de message ou l’heure d’ouverture de session par une application cliente qui fournit la prise en charge de la configuration. MAPI fournit deux clients de ces applications : un élément du Panneau de configuration et l’Assistant profil. L’élément du Panneau de configuration est une application de la configuration complète avec lequel les utilisateurs peuvent créer, supprimer, modifier et copier des profils, ainsi qu’apporter des modifications aux entrées situées dans un profil. L’Assistant profil est une simple application conçue pour faciliter l’ajout d’un service de message à un profil aussi simple que possible. L’Assistant profil se compose d’une série de boîtes de dialogue, appelée pages de propriétés, qui invite l’utilisateur à travers le processus d’installation et configuration d’un service. L’utilisateur est invité uniquement pour les valeurs pour les paramètres stratégiques ; tous les autres paramètres héritent des valeurs par défaut. Une fois que le profil a été créé, les utilisateurs ne sont pas autorisés à apporter des modifications. 
+Les profils sont créés lors de l'installation du service de messagerie ou de l'ouverture de session par une application cliente qui fournit la prise en charge de la configuration. MAPI fournit deux applications clientes de ce type: un élément du panneau de configuration et l'Assistant Profil. L'élément du panneau de configuration est une application de configuration de service complet avec laquelle les utilisateurs peuvent créer, supprimer, modifier et copier des profils, ainsi que modifier les entrées d'un profil. L'Assistant Profil est une application simple conçue pour faciliter l'ajout d'un service de messagerie à un profil. L'Assistant Profil se compose d'une série de boîtes de dialogue, appelées pages de propriétés, qui invitent l'utilisateur à passer par le processus d'installation et de configuration d'un service. L'utilisateur est invité uniquement à indiquer les valeurs des paramètres les plus critiques; tous les autres paramètres héritent des valeurs par défaut. Une fois le profil créé, les utilisateurs ne sont pas autorisés à effectuer des modifications. 
   
-Tandis que l’élément du Panneau de configuration est toujours appelé par le biais du Panneau de configuration, il existe de nombreux scénarios qui peuvent provoquer l’Assistant profil à appeler. Les applications clientes peuvent appeler l’Assistant profil pour créer un profil par défaut au moment de l’ouverture de session lorsqu’un n'a pas encore été créé. Au lieu de réimplémenter le code pour ajouter un profil, l’élément du Panneau de configuration ou une autre application cliente permettre compter sur les fonctionnalités déjà dans l’Assistant profil. Un service de message, en fonction de son point d’entrée, peut appeler l’Assistant profil lorsque le service doit être ajouté au profil par défaut. Services de messagerie qui utilisent l’Assistant profil doivent écrire une fonction de point d’entrée supplémentaire et une procédure de boîte de dialogue Windows standard. L’Assistant profil appelle la fonction de point d’entrée pour récupérer la boîte de dialogue configuration du service pendant la procédure de boîte de dialogue gère les messages qui sont générées lorsque cette boîte de dialogue est en cours d’utilisation. 
+Tandis que l'élément du panneau de configuration est toujours appelé dans le panneau de configuration, il existe un grand nombre de scénarios susceptibles d'entraîner l'appel de l'Assistant Profil. Les applications clientes peuvent appeler l'Assistant Profil pour créer un profil par défaut lors de l'ouverture de session lorsque l'utilisateur n'a pas encore été créé. Au lieu d'implémenter le code pour ajouter un profil, l'élément du panneau de configuration ou une autre application cliente peut compter sur les fonctionnalités déjà présentes dans l'Assistant Profil. Un service de messagerie, dans sa fonction de point d'entrée, peut appeler l'Assistant Profil lorsque le service doit être ajouté au profil par défaut. Les services de messagerie qui utilisent l'Assistant Profil doivent écrire une fonction de point d'entrée supplémentaire et une procédure de boîte de dialogue Windows standard. L'Assistant Profil appelle la fonction de point d'entrée pour récupérer la boîte de dialogue de configuration du service tandis que la procédure de la boîte de dialogue gère les messages générés lorsque cette boîte de dialogue est en cours d'utilisation. 
   
-Les profils sont organisés de façon similaire au fichier Mapisvc.inf. Profils ont liés sections hiérarchiques ; service fournisseurs propres sections de niveau le plus bas, services message possèdent des sections de niveau intermédiaire et MAPI possède des sections de niveau le plus élevé. Chaque section est identifiée par un identificateur unique appelé une [MAPIUID](mapiuid.md). Les sections MAPI contiennent des informations internes à MAPI, tels que les identificateurs de toutes les sections de profil de service de message et des liens vers chacune des autres sections. Chaque section du service de message stocke des liens vers les sections de fournisseur, et chaque section fournisseur stocke un lien vers la section service. 
+Les profils sont organisés de la même façon que le fichier MAPISVC. inf. Les profils ont des sections hiérarchiques liées; les fournisseurs de services possèdent des sections au niveau le plus bas, les sections des services de messagerie au niveau intermédiaire et MAPI, le niveau le plus élevé. Chaque section est identifiée par un identificateur unique appelé [MAPIUID](mapiuid.md). Les sections MAPI contiennent des informations internes à MAPI, telles que les identificateurs de toutes les sections de profil de service de message et des liens vers chacune des autres sections. Chaque section service de messagerie stocke des liens vers ses sections de fournisseur, et chaque section de fournisseur stocke un lien vers sa section service. 
   
-L’illustration suivante montre le contenu des deux profils standard. SAM a deux profils sur son ordinateur, un pour un usage personnel et un pour l’utilisation d’office. Le profil d’accueil contient trois services de messagerie. Message Service X est un service de fournisseur unique pour la gestion de carnet d’adresses. Message Services Y et Z comporte trois fournisseurs : un fournisseur de carnet d’adresses, un fournisseur de magasin de message et un fournisseur de transport. Profil de travail de SAM contient deux services différents de messages, chacun d'entre eux avec un fournisseur de carnet d’adresses, d’un fournisseur de magasin de message et un fournisseur de transport. 
+L'illustration suivante montre le contenu de deux profils standard. Sam dispose de deux profils sur son ordinateur, un pour les particuliers et un pour l'utilisation d'Office. Le profil d'accueil contient trois services de messagerie. Le service de messagerie X est un service de fournisseur unique pour la gestion des carnets d'adresses. Les services de messagerie Y et Z ont trois fournisseurs, un fournisseur de carnets d'adresses, un fournisseur de banque de messages et un fournisseur de transport. Le profil de travail de Sam contient deux services de messagerie différents, chacun d'eux disposant d'un fournisseur de carnet d'adresses, d'un fournisseur de banque de messages et d'un fournisseur de transport. 
   
 **Exemple de profil**
   
 ![Exemple de profil] (media/amapi_56.gif "Exemple de profil")
   
-L’illustration suivante montre un profil qui inclut deux services de messagerie. Le code pour installer et configurer les fournisseurs de services qui appartiennent au service de message se trouve dans la même DLL que le code pour les fournisseurs. Ce code lit les informations de profil au moment de l’ouverture de session pour configurer les fournisseurs de services, et il invite l’utilisateur, dans la mesure du possible et nécessaire, les informations manquantes. Demandes d’un client pour afficher ou modifier les paramètres de configuration pour tous les fournisseurs sont également gérés par ce code courantes.
+L'illustration suivante montre un profil qui inclut deux services de messagerie. Le code permettant d'installer et de configurer les fournisseurs de services qui appartiennent au service de messagerie réside dans la même DLL que le code des fournisseurs. Ce code lit les informations du profil au moment de l'ouverture de session pour configurer les fournisseurs de services, et il invite l'utilisateur, si possible et nécessaire, pour les informations manquantes. Les demandes d'un client permettant d'afficher ou de modifier les paramètres de configuration de l'un des fournisseurs sont également gérées par ce code commun.
   
 **Installation et configuration des fournisseurs de services**
   

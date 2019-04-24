@@ -1,31 +1,31 @@
 ---
-title: Élément RefreshConflict (DataRecordSet_Type, complexType) (« Visio XML »)
+title: Élément RefreshConflict (complexType DataRecordSet_Type) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 373983f7-fc0c-95f6-7665-7ed47de82e5e
-description: Indique une ligne dans le jeu d’enregistrements de données liée à une forme qui est en conflit après l’actualisation du jeu d’enregistrements.
+description: Indique une ligne du jeu d'enregistrements de données qui est liée à une forme en conflit après l'actualisation du jeu d'enregistrements de données.
 ms.openlocfilehash: 2da6f98cf7b047564331aaf5a4167e392927a155
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360136"
 ---
-# <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>Élément RefreshConflict (DataRecordSet_Type, complexType) (« Visio XML »)
+# <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>Élément RefreshConflict (complexType DataRecordSet_Type) ('Visio XML')
 
-Indique une ligne dans le jeu d’enregistrements de données liée à une forme qui est en conflit après l’actualisation du jeu d’enregistrements.
+Indique une ligne du jeu d'enregistrements de données qui est liée à une forme en conflit après l'actualisation du jeu d'enregistrements de données.
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |recordsets.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |recordsets. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,7 +36,7 @@ Indique une ligne dans le jeu d’enregistrements de données liée à une forme
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,8 +52,8 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> |ID de page de la forme impliquée dans le conflit.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|RowID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> |L’ID de ligne d’origine de la ligne en conflit après l’actualisation de données.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|ShapeID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> |ID de la forme de la forme impliquée dans le conflit.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|PageID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de la forme impliquée dans le conflit.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|RowID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |L'ID de ligne d'origine de la ligne est maintenant en conflit après l'actualisation des données.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|ShapeID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de la forme impliquée dans le conflit.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

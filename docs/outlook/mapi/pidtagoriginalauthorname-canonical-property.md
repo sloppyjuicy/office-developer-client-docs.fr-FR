@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: beb23742-d844-4d90-9b13-1ad376d4206c
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: bb62f3a44c9f17070db969683891fb2e2d62eb5e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355775"
 ---
 # <a name="pidtagoriginalauthorname-canonical-property"></a>Propriété canonique PidTagOriginalAuthorName
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom complet de l’auteur de la première version d’un message, autrement dit, le message avant d’être transférés ou une réponse.
+Contient le nom complet de l'auteur de la première version d'un message, c'est-à-dire le message avant son transfert ou sa réponse.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient le nom complet de l’auteur de la première version d’un message, au
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d’adresse de l’auteur d’un message. Au premier envoi du message, l’application cliente doit définir ces propriétés à la valeur de **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Il n’est jamais modifié lorsque le message est transféré ou d’une réponse.
+Ces propriétés sont des exemples de propriétés d'adresse pour l'auteur d'un message. Lors de la première soumission du message, l'application cliente doit définir ces propriétés sur la valeur de **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Il n'est jamais modifié lorsque le message est transféré ou renvoyé.
   
-Les propriétés de l’auteur d’origine autoriser pour la conservation des informations à partir de l’extérieur du domaine de messagerie local. Lorsqu’un message arrive à partir d’un autre domaine de messagerie, tels qu’à partir d’Internet, ces propriétés fournissent un moyen pour vous assurer que les informations d’origine ne sont pas perdues.
+Les propriétés de l'auteur d'origine permettent la conservation des informations en dehors du domaine de messagerie local. Lorsqu'un message arrive à partir d'un autre domaine de messagerie, tel qu'Internet, ces propriétés permettent de s'assurer que les informations d'origine ne sont pas perdues.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> La conversion entre IETF RFC2445, RFC2446, RFC2447 et rendez-vous et des objets de la conférence.
+> Effectue une conversion entre l'IETF RFC2445, RFC2446 et RFC2447, et les objets de rendez-vous et de réunion.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

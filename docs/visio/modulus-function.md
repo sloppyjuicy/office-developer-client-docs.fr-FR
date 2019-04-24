@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm82251465
 localization_priority: Normal
 ms.assetid: cb6326a5-1bf8-b6a3-5c0d-d38c071353a5
-description: Renvoie le reste (module) qui se produit lorsqu’un nombre est divisé par un diviseur.
-ms.openlocfilehash: 4e2ef7acf9dc04e788cb2b8a0ff737f12a79c61a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le reste (modulo) obtenu lorsqu'un nombre est divisé par un diviseur.
+ms.openlocfilehash: f6b713b1b3a9d2afa85f49de9d451642a00d8dad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356993"
 ---
-# <a name="modulus-function"></a>MODULUS, fonction
+# <a name="modulus-function"></a>Fonction MODULUS
 
-Renvoie le reste (module) qui se produit lorsqu’un nombre est divisé par un diviseur.
+Renvoie le reste (modulo) obtenu lorsqu'un nombre est divisé par un diviseur.
   
 ## <a name="syntax"></a>Syntaxe
 
-MODULE (** *numéro* **, ** *diviseur* **) 
+MODULO (* * *nombre* * *, * * ** diviseur * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obligatoire  <br/> |**Number** <br/> |Dividende  <br/> |
-| _diviseur_ <br/> |Obligatoire  <br/> |**Number** <br/> |Diviseur  <br/> |
+| _Division_ <br/> |Obligatoire  <br/> |**Number** <br/> |Diviseur  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le résultat a le même signe que le diviseur. Une erreur #DIV/0! est renvoyée si le diviseur est égal à 0. 
   

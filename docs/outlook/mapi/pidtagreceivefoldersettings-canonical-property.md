@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f0b1679-05b0-4580-b6d2-474fe3f9d012
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c8bd8c7fb2ff5a030cd96e4c3ac2bbb4b6b16ce5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8590e357252089aaa49a71d443037b9b9ed77ee4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356741"
 ---
 # <a name="pidtagreceivefoldersettings-canonical-property"></a>Propriété canonique PidTagReceiveFolderSettings
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau d’un message de la banque de recevoir des paramètres du dossier.
+Contient un tableau des paramètres de dossier de réception d'une banque de messages.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contient un tableau d’un message de la banque de recevoir des paramètres du d
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut être exclue dans les opérations [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluse dans les opérations de [IMAPIProp::CopyProps](imapiprop-copyprops.md) . En tant que propriété de type PT_OBJECT, il ne peut pas être récupéré par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ; son contenu doit être accessible par la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) , qui demande à l’interface avec l’identificateur IID_IMAPITable. Fournisseurs de services doivent signaler à la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) s’il est défini, mais peut le signaler ou pas si elle n’est pas définie. 
+Cette propriété peut être exclue dans [IMAPIProp:: CopyTo](imapiprop-copyto.md) Operations ou incluse dans [IMAPIProp:: CopyProps](imapiprop-copyprops.md) Operations. En tant que propriété de type PT_OBJECT, elle ne peut pas être récupérée avec succès par la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) ; son contenu doit être accessible à l'aide de la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) , qui demande l'interface avec l'identificateur IID_IMAPITable. Les fournisseurs de services doivent le signaler à la méthode [IMAPIProp:: GetPropList](imapiprop-getproplist.md) s'il est défini, mais peuvent éventuellement le signaler ou non s'il n'est pas défini. 
   
-Pour récupérer le contenu du tableau, une application cliente doit appeler la méthode [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . Pour plus d’informations, voir [S’afficher les Tables de dossier](receive-folder-tables.md).
+Pour récupérer le contenu de la table, une application cliente doit appeler la méthode [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . Pour plus d'informations, consultez la rubrique [Receive Folder tables](receive-folder-tables.md).
   
-Cette propriété contient une table de mappages de dossiers receive pour la banque de messages. L’appel **OpenProperty** sur cette propriété est équivalente à l’appel **GetReceiveFolderTable** sur la banque de messages. 
+Cette propriété contient un tableau des mappages des dossiers de réception pour la Banque de messages. L'appel de **OpenProperty** sur cette propriété équivaut à l'appel de **GetReceiveFolderTable** sur la Banque de messages. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

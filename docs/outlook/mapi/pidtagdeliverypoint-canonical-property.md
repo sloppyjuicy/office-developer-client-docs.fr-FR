@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 715a9dbd-78f8-41e1-a76e-29448d06ec19
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 2d8157c761cd21d5c8fcdf04948646d8102e774a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e18b08bcbd76cacf7dbb5b5fd36d80d5f266364d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360878"
 ---
 # <a name="pidtagdeliverypoint-canonical-property"></a>Propriété canonique PidTagDeliveryPoint
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la nature de l’entité fonctionnelle par lequel le message a été ou serait ont été remis au destinataire. 
+Spécifie la nature de l'entité fonctionnelle par le biais de laquelle un message a été ou aurait été remis au destinataire. 
   
 |||
 |:-----|:-----|
@@ -36,49 +36,49 @@ Spécifie la nature de l’entité fonctionnelle par lequel le message a été o
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement une des valeurs suivantes : 
+Cette propriété peut avoir exactement l'une des valeurs suivantes: 
   
 MAPI_MH_DP_ML 
   
-> Remis à une liste de distribution, une remise point qui peut à son tour distribuer le message à plusieurs destinataires.
+> Remis à une liste de distribution, un point de remise qui, à son tour, peut distribuer le message à de nombreux destinataires.
     
 MAPI_MH_DP_MS 
   
-> Remis à une banque de messages à la place de directement à un destinataire.
+> Remis à une banque de messages plutôt qu'directement à un destinataire.
     
 MAPI_MH_DP_OTHER_AU 
   
-> Remis à une unité d’accès (UA) autre qu’une unité d’accès remise physique (PDAU), telles qu’un système de télécopie.
+> Remis à une unité d'accès (au) autre qu'une unité de remise (PDAU), telle qu'un système de télécopie.
     
 MAPI_MH_DP_PDAU 
   
-> Remis à une unité d’accès remise physique, par exemple un opérateur postal humaine.
+> Remis à une unité de remise physique, telle qu'un transporteur postal humain.
     
 MAPI_MH_DP_PDS_PATRON 
   
-> Remis à un patron remise physique du système, par exemple une boîte aux lettres postal classique.
+> Remis à un système de remise physique, tel qu'une boîte aux lettres postale conventionnelle.
     
 MAPI_MH_DP_PRIVATE_UA 
   
-> Remis à un agent utilisateur privés (UA), comme un client dans un système de messagerie en interne.
+> Remis à un agent utilisateur privé, tel qu'un client dans un système de messagerie interne.
     
 MAPI_MH_DP_PUBLIC_UA 
   
-> Remis à un agent utilisateur public ou le fournisseur de services public.
+> Remis à un agent utilisateur public ou un fournisseur de services publics.
     
-La valeur par défaut est MAPI_MH_DP_PRIVATE_UA, autrement dit, un client MAPI. 
+La valeur par défaut est MAPI_MH_DP_PRIVATE_UA, c'est-à-dire, un client MAPI. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,40 +11,40 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 157703fc9702bb954b4a5c570fc3d5c045e181cc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 70f61fe33baa7870a58c4cbc7d75e0df119b5b1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351139"
 ---
 # <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Reçoit des notifications à partir de formulaires. 
+Reçoit des notifications des formulaires. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Exposés par :  <br/> |Affichage des objets de récepteur de notification  <br/> |
-|Implémentée par :  <br/> |Visionneuses de formulaire  <br/> |
-|Appelée par :  <br/> |Objets de formulaire  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPIViewAdviseSink  <br/> |
-|Type de pointeur :  <br/> |LPMAPIVIEWADVISESINK  <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Exposé par:  <br/> |Afficher les objets du récepteur de notifications  <br/> |
+|Implémenté par :  <br/> |Visionneuses de formulaires  <br/> |
+|Appelé par :  <br/> |Objets de formulaires  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPIViewAdviseSink  <br/> |
+|Type de pointeur:  <br/> |LPMAPIVIEWADVISESINK  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Avertit la visionneuse de formulaire fermeture d’un formulaire.  <br/> |
-|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Indique la visionneuse de formulaire à une nouvelle ou un message existant a été chargé dans un formulaire.  <br/> |
-|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Avertit l’utilisateur du formulaire de l’état d’impression d’un formulaire.  <br/> |
-|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Indique que le message en cours a été soumis au spouleur MAPI à la visionneuse de formulaire.  <br/> |
-|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Avertit la visionneuse de formulaire le message actuel dans un formulaire a été enregistré.  <br/> |
+|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Avertit la visionneuse de formulaires qu'un formulaire est en cours de fermeture.  <br/> |
+|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Avertit la visionneuse de formulaires qu'un nouveau message ou un message existant a été chargé dans un formulaire.  <br/> |
+|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Avertit la visionneuse de formulaires de l'état d'impression d'un formulaire.  <br/> |
+|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Avertit la visionneuse de formulaires que le message actif a été envoyé au spouleur MAPI.  <br/> |
+|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Avertit la visionneuse de formulaires que le message actif d'un formulaire a été enregistré.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

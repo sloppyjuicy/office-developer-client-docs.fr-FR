@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 19999159f7987be87031f88d1eec87980585f369
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284517"
 ---
 # <a name="recordset-object-dao"></a>Objet Recordset (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Un objet **Recordset** représente les enregistrements dans une table de base ou les enregistrements obtenus par l'exécution d'une requête.
+Un objet **Recordset** représente les enregistrements dans une table de base ou les enregistrements obtenus par l’exécution d’une requête.
 
 ## <a name="remarks"></a>Remarques
 
-Vous utilisez des objets **Recordset** pour manipuler des données dans une base de données au niveau enregistrement. Lorsque vous utilisez des objets DAO, vous manipulez les données presque exclusivement à l'aide d'objets **Recordset**. Tous les objets **Recordset** sont créés à l'aide d'enregistrements (lignes) et de champs (colonnes). Il existe cinq types d'objets **Recordset**:
+Vous utilisez des objets **Recordset** pour manipuler des données dans une base de données au niveau enregistrement. Lorsque vous utilisez des objets DAO, vous manipulez les données presque exclusivement à l’aide d’objets **Recordset**. Tous les objets **Recordset** sont créés à l’aide d’enregistrements (lignes) et de champs (colonnes). Il existe cinq types d’objets **Recordset** :
 
 - Recordset de type table : représentation en code d'une table de base que vous pouvez utiliser pour ajouter, modifier ou supprimer des enregistrements à partir d'une table de base de données unique (espaces de travail Microsoft Access uniquement).
 
@@ -35,47 +35,47 @@ Vous utilisez des objets **Recordset** pour manipuler des données dans une base
 - Recordset de type dynamique : un résultat de requête défini à partir d'une ou de plusieurs tables de base dans lequel vous pouvez ajouter, modifier ou supprimer des enregistrements à partir d'une requête de renvoi de ligne. En outre, les enregistrements que d'autres utilisateurs ajoutent, suppriment ou modifient dans les tables de base apparaissent également dans votre **Recordset**. Ce type correspond à un curseur ODBC dynamique (espaces de travail ODBCDirect uniquement).
 
 > [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
 
-Vous pouvez choisir le type d’objet **Recordset** à créer à l’aide de l’argument type de la méthode **OpenRecordset** .
+Vous pouvez choisir le type d'objet**Recordset** que vous voulez créer à l'aide de l'argument type de la méthode**OpenRecordset**.
 
-Dans un espace de travail Microsoft Access, si vous ne spécifiez pas un type, DAO tente de créer le type **d’objet Recordset** avec la plupart des fonctionnalités disponibles, en commençant par table. Si ce type n'est pas disponible, DAO tente de créer un objet **Recordset** de type de feuille de réponse dynamique, puis de type capture instantanée et enfin de type transfert uniquement.
+Dans un espace de travail Microsoft Access, si vous ne spécifiez pas de type, DAO tente de créer le type de**Recordset**avec le plus de fonctionnalités disponibles, en commençant par un tableau. Si ce type n’est pas disponible, DAO tente une feuille de réponse dynamique, un instantané et pour finir un objet **Recordset** de type transfert uniquement.
 
-Dans un espace de travail ODBCDirect, si vous ne spécifiez pas un type, DAO tente de créer le type **d’objet Recordset** avec la réponse de requête plus rapide, commençant par avant uniquement. Si ce type n'est pas disponible, DAO tente de créer un objet **Recordset** de type capture instantanée, puis de type feuille de réponse dynamique, et enfin de type dynamique.
+Dans un espace de travail ODBCDirect, si vous ne spécifiez pas de type, DAO tente de créer le type de**Recordset**avec la réponse de requête la plus rapide, à partir du type de transfert uniquement. Si ce type n'est pas disponible, DAO tente de créer un objet **Recordset** de type capture instantanée, puis de type feuille de réponse dynamique, et enfin de type dynamique.
 
-Lors de la création d'un objet **Recordset** à l'aide d'un objet **[TableDef](tabledef-object-dao.md)** non lié dans un espace de travail Microsoft Access, les objets **Recordset** de type table sont créés. Seuls les objets **Recordset** de type feuille de réponse dynamique ou de type capture instantanée peuvent être créés avec des tables liées ou des tables de bases de données ODBC connectées au moteur de base de données Microsoft Access.
+Lors de la création d’un objet **Recordset** à l’aide d’un objet **[TableDef](tabledef-object-dao.md)** non lié dans un espace de travail Microsoft Access, les objets **Recordset** de type table sont créés. Seuls les objets **Recordset** de type feuille de réponse dynamique ou de type capture instantanée peuvent être créés avec des tables liées ou des tables de bases de données ODBC connectées au moteur de base de données Microsoft Access.
 
-Un nouvel objet **Recordset** est automatiquement ajouté à la collection **Recordsets** lorsque vous ouvrez l'objet, et est automatiquement supprimé lorsque vous le fermez.
+Un nouvel objet **Recordset** est automatiquement ajouté à la collection **Recordsets** lorsque vous ouvrez l’objet, et est automatiquement supprimé lorsque vous le fermez.
 
 > [!NOTE]
-> [!REMARQUE] Si vous utilisez des variables pour représenter un objet **Recordset** et l'objet **Database** qui contient cet objet **Recordset**, assurez-vous que les variables ont la même étendue ou durée de vie. Par exemple, si vous déclarez une variable publique représentant un objet **Recordset**, assurez-vous que la variable qui représente la **base de données** contenant le **Recordset** est également publique, ou qu'elle est déclarée dans une procédure **Sub** ou **Function** à l'aide du mot clé **statique**.
+> Si vous utilisez des variables pour représenter un objet **Recordset** et l’objet **Database** qui contient cet objet **Recordset**, assurez-vous que les variables ont la même étendue ou durée de vie. Par exemple, si vous déclarez une variable publique représentant un objet **Recordset**, assurez-vous que la variable qui représente la **base de données** contenant le **Recordset** est également publique, ou qu’elle est déclarée dans une procédure **Sub** ou **Function** à l’aide du mot clé **statique**.
 
-Vous pouvez créer autant de variables d'objet **Recordset** que nécessaire. Plusieurs objets **Recordset** peuvent accéder aux mêmes tables, requêtes et champs sans risque de conflit.
+Vous pouvez créer autant de variables d’objet **Recordset** que nécessaire. Plusieurs objets **Recordset** peuvent accéder aux mêmes tables, requêtes et champs sans risque de conflit.
 
-Feuille de réponse dynamique, instantané et objets **Recordset** de type avant uniquement sont stockés dans la mémoire locale. Si l'espace disponible dans la mémoire locale n'est pas suffisant pour stocker les données, le moteur de base de données Microsoft Access enregistre les données supplémentaires dans l'espace disque TEMP. Si cet espace est saturé, une erreur interceptable se produit.
+Les objets **Recordset** de type feuille de réponse dynamique, capture instantanée et transfert uniquement sont stockés dans la mémoire locale. Si l’espace disponible dans la mémoire locale n’est pas suffisant pour stocker les données, le moteur de base de données Microsoft Access enregistre les données supplémentaires dans l’espace disque TEMP. Si cet espace est saturé, une erreur interceptable se produit.
 
-La collection par défaut d'un objet **Recordset** est la collection **Fields**, et la propriété par défaut d'un objet **[Field](field-object-dao.md)** est la propriété **[Value](field-value-property-dao.md)**. Utilisez ces valeurs par défaut pour simplifier votre code.
+La collection par défaut d’un objet **Recordset** est la collection **Fields**, et la propriété par défaut d’un objet **[Field](field-object-dao.md)** est la propriété **[Value](field-value-property-dao.md)**. Utilisez ces valeurs par défaut pour simplifier votre code.
 
-Lorsque vous créez un objet **Recordset**, l'enregistrement actif est positionné sur le premier enregistrement s'il existe des enregistrements. S'il n'existe aucun enregistrement, le paramètre de propriété **RecordCount** est défini sur 0, et les propriétés **BOF** et **EOF** ont la valeur **True**.
+Lorsque vous créez un objet **Recordset**, l’enregistrement actif est positionné sur le premier enregistrement s’il existe des enregistrements. S’il n’existe aucun enregistrement, le paramètre de propriété **RecordCount** est défini sur 0, et les propriétés **BOF** et **EOF** ont la valeur **True**.
 
 Vous pouvez utiliser les méthodes **MoveNext**, **MovePrevious**, **MoveFirst** et **MoveLast** pour repositionner l’enregistrement actif. Les objets **Recordset** de type transfert uniquement ne prennent en charge que la méthode **MoveNext**. Lorsque vous utilisez les méthodes Move pour parcourir chaque enregistrement (ou vous « promener » dans le **Recordset**), vous pouvez utiliser les propriétés **BOF** et **EOF** pour vérifier le début et la fin de l’objet **Recordset**.
 
 Avec des objets **Recordset** de type feuille de réponse dynamique et capture instantanée dans un espace de travail Microsoft Access, vous pouvez également utiliser les méthodes Find, comme **FindFirst**, pour localiser un enregistrement spécifique en fonction de certains critères. Si l'enregistrement est introuvable, la propriété **NoMatch** est définie sur **True**. Pour les objets **Recordset** de type table, vous pouvez analyser les enregistrements à l'aide de la méthode **Seek**.
 
-La propriété **Type** indique le type d'objet **Recordset** créé, et la propriété **Updatable** indique si vous pouvez modifier les enregistrements de l'objet.
+La propriété **Type** indique le type d’objet **Recordset** créé, et la propriété **Updatable** indique si vous pouvez modifier les enregistrements de l’objet.
 
-Les informations sur la structure d'une table de base, comme les noms et les types de données de chaque objet **Field** et des objets **Index**, sont stockées dans un objet **TableDef**.
+Les informations sur la structure d’une table de base, comme les noms et les types de données de chaque objet **Field** et des objets **Index**, sont stockées dans un objet **TableDef**.
 
-Pour faire référence à un objet **Recordset** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
+Pour faire référence à un objet **Recordset** dans une collection par son nombre ordinal ou par son paramètre de propriété **Name**, utilisez l’une des formes de syntaxe suivantes :
 
 - **Recordsets**(0)
 
-- **Jeux d’enregistrements** (« nom »)
+- **Recordsets**(«nom»)
 
-- **Jeux d’enregistrements**\!\[nom\]
+- **Recordsets**\!\[nom\]
 
 > [!NOTE]
-> [!REMARQUE] Vous pouvez ouvrir plusieurs fois un objet **Recordset** à partir de la même source de données ou base de données en créant des noms en double dans la collection **Recordsets**. Vous devez attribuer des objets **Recordset** à des variables d'objet et y faire référence par nom de variable.
+> Vous pouvez ouvrir un objet **Recordset** plusieurs fois à partir de la même source de données ou base de données en créant des noms en double dans la collection **Recordsets**. Vous devez attribuer des objets **Recordset** aux variables d’objet et y faire référence par un nom de variable.
 
 ## <a name="example"></a>Exemple
 
@@ -144,7 +144,7 @@ L'exemple ci-dessous illustre les objets **Recordset** et la collection **Record
 
 <br/>
 
-Cet exemple utilise la méthode **OpenRecordset** pour ouvrir cinq objets **Recordset** différents et afficher leur contenu. La procédure OpenRecordsetOutput est obligatoire pour l'exécution de cette procédure.
+Cet exemple utilise la méthode **OpenRecordset** pour ouvrir cinq objets **Recordset** différents et afficher leur contenu.  La procédure OpenRecordsetOutput est obligatoire pour l’exécution de cette procédure.
 
 ```vb
     Sub OpenRecordsetX() 
@@ -444,9 +444,9 @@ Cet exemple ouvre un **Recordset** de type table, définit sa propriété **Inde
 
 <br/>
 
-L'exemple suivant montre comment utiliser la méthode Seek pour rechercher un enregistrement dans une table liée.
+L’exemple suivant montre comment utiliser la méthode Recherche pour rechercher un enregistrement dans un tableau lié.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 
 ```vb
@@ -495,7 +495,7 @@ L'exemple suivant montre comment utiliser la méthode Seek pour rechercher un en
 
 <br/>
 
-L'exemple suivant montre comment ouvrir un objet Recordset basé sur une requête avec paramètres.
+L’exemple suivant montre comment ouvrir un Recordset basé sur une requête avec paramètres.
 
 ```vb
     Dim dbs As DAO.Database
@@ -517,7 +517,7 @@ L'exemple suivant montre comment ouvrir un objet Recordset basé sur une requêt
 
 <br/>
 
-L'exemple suivant montre comment ouvrir un Recordset basé sur une table ou une requête.
+L’exemple suivant montre comment ouvrir un Recordset basé sur un tableau ou une requête.
 
 ```vb
     Dim dbs As DAO.Database
@@ -535,7 +535,7 @@ L'exemple suivant montre comment ouvrir un Recordset basé sur une table ou une 
 
 <br/>
 
-L'exemple suivant montre comment ouvrir un Recordset basé sur une instruction SQL (Structured Query Language).
+L’exemple suivant montre comment ouvrir un Recordset basé sur une instruction SQL (Structured Query Language).
 
 ```vb
     Dim dbs As DAO.Database
@@ -551,7 +551,7 @@ L'exemple suivant montre comment ouvrir un Recordset basé sur une instruction S
 
 <br/>
 
-L'exemple suivant montre comment utiliser les méthodes FindFirst et FindNext pour rechercher un enregistrement dans un Recordset.
+L’exemple suivant montre comment utiliser les méthodes TrouverPremier et TrouverSuivant pour rechercher un enregistrement dans un Recordset.
 
 ```vb
     Sub FindOrgName()
@@ -590,7 +590,7 @@ L'exemple suivant montre comment utiliser les méthodes FindFirst et FindNext po
 
 <br/>
 
-L'exemple suivant montre comment copier les résultats d'une requête vers une feuille de calcul dans un nouveau classeur Microsoft Excel.
+L’exemple suivant montre comment copier les résultats d’une requête vers une feuille de calcul dans un nouveau classeur Microsoft Excel.
 
 ```vb
     Public Sub CopyDataFromQuery( _

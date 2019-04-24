@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm82251587
 localization_priority: Normal
 ms.assetid: a157c27e-afae-7c67-e96d-4ace7b7a82be
-description: Renvoie le texte du champ de mots clés des propriétés d’un document.
-ms.openlocfilehash: c1b7bd6c39a2cc430e425eae84834f62f92d4246
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le texte du champ Mots clés des propriétés d'un document.
+ms.openlocfilehash: d5a5aa00248a016d209c17016e248a2fe93bccde
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360458"
 ---
-# <a name="keywords-function"></a>KEYWORDS, fonction
+# <a name="keywords-function"></a>Fonction KEYWORDS
 
-Renvoie le texte du champ de **mots clés** des propriétés d’un document. 
+Renvoie le texte du champ **Mots clés** des propriétés d'un document. 
   
 ## <a name="syntax"></a>Syntaxe
 
-MOTS CLÉS ()
+Mots clés ()
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   

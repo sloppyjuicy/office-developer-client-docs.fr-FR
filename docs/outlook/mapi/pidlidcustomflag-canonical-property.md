@@ -11,35 +11,35 @@ api_name:
 api_type:
 - COM
 ms.assetid: bfb7fd1e-774f-9a2f-fbbe-ba7f68ed8663
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 9a131c633b8dcf9b0e5070f01de8fcab90a18ade
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357616"
 ---
 # <a name="pidlidcustomflag-canonical-property"></a>Propriété canonique PidLidCustomFlag
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Masque de bits qui spécifie la façon dont un message personnalisé, par exemple, enregistré avec des propriétés personnalisées.
+Masque de masque qui spécifie le mode de personnalisation d'un message, par exemple, enregistré avec des propriétés personnalisées.
   
 ## 
 
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidCustomFlag  <br/> |
-|ID de type long (capot) :  <br/> |0x00008251  <br/> |
+|ID long (couvercle):  <br/> |0x00008251  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour récupérer la valeur de cette propriété, tout d’abord utiliser **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** pour obtenir la balise de propriété, puis spécifiez cette balise de propriété dans **[IMAPIProp::GetProps](imapiprop-getprops.md)** pour obtenir la valeur. 
+Pour récupérer la valeur de cette propriété, utilisez d'abord **[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)** pour obtenir la balise de propriété, puis spécifiez cette balise de propriété dans **[IMAPIProp:: GetProps](imapiprop-getprops.md)** pour obtenir la valeur. 
   
-Indicateurs possibles sont les suivantes :
+Les indicateurs possibles sont les suivants:
   
 ****
 
@@ -48,33 +48,33 @@ Indicateurs possibles sont les suivantes :
 |INSP_ONEOFFFLAGS  <br/> |0x0D000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x02000000  <br/> |
    
-Lors de l’appel **IMAPIProp::GetIDsFromNames**, spécifiez les valeurs suivantes pour la structure **[MAPINAMEID](mapinameid.md)** désignés par le paramètre d’entrée *lppPropNames* . 
+Lors de l'appel de **IMAPIProp:: GetIDsFromNames**, spécifiez les valeurs suivantes pour la structure **[MAPINAMEID](mapinameid.md)** vers laquelle pointe le paramètre d'entrée *lppPropNames* . 
   
 ****
 
-|**Membre**|**Valeur**|
+|**Member**|**Valeur**|
 |:-----|:-----|
-|lpGuid :  <br/> |PSETID_Common  <br/> |
-|ulKind :  <br/> |MNID_ID  <br/> |
-|Kind.lID :  <br/> |dispidCustomFlag  <br/> |
+|lpGuid:  <br/> |PSETID_Common  <br/> |
+|ulKind:  <br/> |MNID_ID  <br/> |
+|Type. couvercle:  <br/> |dispidCustomFlag  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

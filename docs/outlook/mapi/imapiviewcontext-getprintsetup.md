@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 63e3eca4e91e560a28d57f05250264d7e0592142
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: a58e723113f70c10b5c8468f5bdd0d8d9014bd2c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351124"
 ---
 # <a name="imapiviewcontextgetprintsetup"></a>IMAPIViewContext::GetPrintSetup
 
@@ -25,7 +25,7 @@ ms.locfileid: "22587256"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère les informations d’impression en cours.
+Récupère les informations d'impression actuelles.
   
 ```cpp
 HRESULT GetPrintSetup(
@@ -34,39 +34,39 @@ LPFORMPRINTSETUP FAR * lppFormPrintSetup
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type des chaînes renvoyées. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôlent le type des chaînes renvoyées. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les chaînes retournées sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
+> Les chaînes renvoyées sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
     
  _lppFormPrintSetup_
   
-> [out] Pointeur vers un pointeur vers une structure qui contient les informations d’impression.
+> remarquer Pointeur vers un pointeur vers une structure qui contient les informations d'impression.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les informations d’impression a été récupérées correctement.
+> Les informations d'impression ont été correctement récupérées.
     
 ## <a name="remarks"></a>Remarques
 
-Objets formulaire appeler la méthode **IMAPIViewContext::GetPrintSetup** pour extraire des informations sur la configuration de l’imprimante avant d’imprimer le message en cours. 
+Les objets de formulaire appellent la méthode **IMAPIViewContext:: GetPrintSetup** pour récupérer des informations sur la configuration de l'imprimante avant d'essayer d'imprimer le message en cours. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Allouer les membres **hDevMode** et **hDevName** de la structure [FORMPRINTSETUP](formprintsetup.md) à l’aide de la fonction Win32 **GlobalAlloc**.
+AlLouez les membres **hDevMode** et **hDevName** de la structure [FORMPRINTSETUP](formprintsetup.md) à l'aide de la fonction Win32 **GlobalAlloc**.
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si vous envisagez l' **hDevMode** et **hDevName** les membres de la structure **FORMPRINTSETUP** désignés par le paramètre _lppFormPrintSetup_ chaînes Unicode, la valeur _ulFlags_ MAPI_UNICODE. Dans le cas contraire, **GetPrintSetup** renverra ces chaînes au format ANSI. 
+Si vous souhaitez que les membres **hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** vers laquelle pointe le paramètre _LppFormPrintSetup_ soient des chaînes Unicode, définissez _ulFlags_ sur MAPI_UNICODE. Dans le cas contraire, **GetPrintSetup** renverra ces chaînes au format ANSI. 
   
-Libérer les membres **hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** en appelant la fonction Win32 **GlobalFree**. Libérez de l’intégralité de la structure **FORMPRINTSETUP** en appelant [MAPIFreeBuffer](mapifreebuffer.md). 
+Libérez les membres **hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** en appelant la fonction Win32 **GlobalFree**. Libérez toute la structure **FORMPRINTSETUP** en appelant [MAPIFreeBuffer](mapifreebuffer.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

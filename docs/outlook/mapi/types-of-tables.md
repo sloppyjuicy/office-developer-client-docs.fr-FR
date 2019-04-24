@@ -1,5 +1,5 @@
 ---
-title: Types de tableaux
+title: Types de tables
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,45 +7,45 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f55902190aa22694d89abd4d118a04d62a3c0d5b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 732b3d724c855d978250afff3d05c7f19909a5b2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356573"
 ---
-# <a name="types-of-tables"></a>Types de tableaux
+# <a name="types-of-tables"></a>Types de tables
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Il existe de nombreux types de tables, chaque type identifié par les informations affichées. Tables activer les applications clientes et des fournisseurs de services pour accéder rapidement et de manipuler les propriétés importantes de nombreux types d’objets. 
+Il existe de nombreux types de tables différents, dont chaque type est différencié par les informations qu'il présente. Les tableaux permettent aux applications clientes et aux fournisseurs de services d'accéder facilement aux propriétés importantes de nombreux types d'objets et de les manipuler. 
   
-Certaines tables, telles que les tables des matières, fournissent un autre moyen d’accès aux propriétés. Par exemple, un client peut extraire l’objet d’un message, sa propriété **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)), que ce soit directement par le message en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ou par le biais de table des matières du message. Autres tableaux fournissent le seul moyen pour les propriétés de l’objet access. Par exemple, un client ne peut pas accéder à propriété de **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) d’une pièce jointe en appelant **IMAPIProp::GetProps**; Il doit toujours récupérer la table des pièces jointes du message à laquelle il est joint. **PR_ATTACH_METHOD** colonne est obligatoire dans toutes les tables des pièces jointes. 
+Certaines tables, comme les tables de contenu, fournissent une autre façon d'accéder aux propriétés. Par exemple, un client peut récupérer l'objet d'un message (sa propriété **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))) directement à partir du message en appelant sa méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) ou par le biais de la table des matières du message. D'autres tableaux offrent la seule façon d'accéder aux propriétés de l'objet. Par exemple, un client ne peut pas accéder à la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) d'une pièce jointe en appelant **IMAPIProp:: GetProps**; il doit toujours récupérer la table de pièces jointes du message auquel elle est attachée. **PR_ATTACH_METHOD** est une colonne obligatoire dans toutes les tables de pièces jointes. 
   
-Vue d’une table peut être statiques ou dynamiques. Avec une vue table statique, les modifications apportées aux données sous-jacentes ne provoquent pas l’affichage à mettre à jour. Une fois que l’affichage a été instancié, il ne change pas. Les utilisateurs de tables statiques peuvent être informés des modifications de données via les notifications du tableau. Un affichage de tableau dynamique est mis à jour lorsque des modifications sont apportées aux données. Il existe deux types de tableaux dynamiques : qui met à jour les colonnes de chaque ligne, mais les lignes restent statiques et celle qui met à jour des colonnes et des lignes. Ce type de table ce dernier reflète toujours exactement les données sous-jacentes.
+Un affichage tableau peut être statique ou dynamique. En mode table statique, les modifications apportées aux données sous-jacentes ne provoquent pas la mise à jour de l'affichage. Une fois l'affichage instancié, il ne change pas. Les utilisateurs de tables statiques peuvent être informés des modifications apportées aux données par le biais de notifications de table. Un affichage de tableau dynamique est mis à jour lorsque des modifications sont apportées aux données. Il existe deux types de tables dynamiques: une qui met à jour les colonnes de chaque ligne, mais les lignes restent statiques et une qui met à jour les colonnes et les lignes. Ce dernier type de tableau reflète toujours les données sous-jacentes exactement.
   
-Tables ont une colonne par défaut défini, l’ensemble minimal de colonnes un client ou fournisseur de services peut s’attendre lors de la récupération des lignes d’une table qui n’a pas encore été affecté à un [IMAPITable::SetColumns](imapitable-setcolumns.md) appel. Clients et fournisseurs de services peuvent ajouter ou supprimer des colonnes à partir de cette valeur par défaut définie par l’appel de la méthode **SetColumns** . Modifications peuvent être effectuées statiques ou dynamiques, suite à une demande client. Toutes les tables ne prend en charge la modification du jeu de colonne dynamique. 
+Les tableaux ont un jeu de colonnes par défaut, l'ensemble minimal de colonnes qu'un client ou un fournisseur de services peut s'attendre à voir lors de la récupération de lignes d'une table qui n'a pas encore été affectée par un appel [IMAPITable:: SetColumns](imapitable-setcolumns.md) . Les clients et les fournisseurs de services peuvent ajouter ou supprimer des colonnes de cet ensemble par défaut en appelant la méthode **SetColumns** . Les modifications peuvent être effectuées de façon statique ou dynamique, à la suite d'une demande de client. Toutes les tables ne prennent pas en charge la modification dynamique des jeux de colonnes. 
   
-Les tableaux MAPI et leurs implémenteurs et les utilisateurs sont les suivants :
+Les tables MAPI et leurs implémenteurs et utilisateurs sont les suivants:
   
-|**Table**|**Implémentation**|
+|**Table**|**Responsables**|
 |:-----|:-----|
-|Pièce jointe  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par les clients et des fournisseurs de transport.  <br/> |
-|Contenu  <br/> |Implémentée par message stocker et fournisseurs de carnet d’adresses. Utilisé par les clients.  <br/> |
-|Affichage  <br/> |Implémentés par MAPI et fournisseurs de services. Utilisé par MAPI et fournisseurs de services.  <br/> |
-|Hiérarchie  <br/> |Implémentée par message stocker et fournisseurs de carnet d’adresses. Utilisé par les clients.  <br/> |
-|Service de message  <br/> |Implémentés par MAPI. Utilisé par les clients.  <br/> |
-|Banque de messages  <br/> |Implémentés par MAPI. Utilisé par les clients.  <br/> |
-|Unique  <br/> |Implémentée par les fournisseurs de carnet d’adresses. Utilisé par MAPI.  <br/> |
-|File d’attente sortante  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par le spouleur MAPI.  <br/> |
-|Profil  <br/> |Implémentés par MAPI. Utilisé par les clients.  <br/> |
-|Provider  <br/> |Implémentés par MAPI. Utilisé par les clients.  <br/> |
+|Pièce jointe  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par les clients et les fournisseurs de transport.  <br/> |
+|Sommaire  <br/> |Implémenté par le magasin de messages et les fournisseurs de carnets d'adresses. Utilisé par les clients.  <br/> |
+|Display  <br/> |Implémenté par MAPI et les fournisseurs de services. Utilisé par les fournisseurs de services et MAPI.  <br/> |
+|Hierarchy  <br/> |Implémenté par le magasin de messages et les fournisseurs de carnets d'adresses. Utilisé par les clients.  <br/> |
+|Service de messagerie  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
+|Banque de messages  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
+|One-Off  <br/> |Implémenté par les fournisseurs de carnet d'adresses. Utilisé par MAPI.  <br/> |
+|File d'attente sortante  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par le spouleur MAPI.  <br/> |
+|Profils  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
+|Fournisseur  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
 |Dossier de r�ception  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par les clients.  <br/> |
-|Recipient  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par les clients et des fournisseurs de transport.  <br/> |
-|Status  <br/> |Implémentés par MAPI et fournisseurs de services. Utilisé par les clients.  <br/> |
+|Destinataire  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par les clients et les fournisseurs de transport.  <br/> |
+|Statut  <br/> |Implémenté par MAPI et les fournisseurs de services. Utilisé par les clients.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

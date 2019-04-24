@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 88185efea344844016547d0844277de6e0d661db
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 15504ecc88188ed7bc4eed0e64b1871dbc6a5e8d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350987"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit ou supprime l’indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d’un ou plusieurs des messages du dossier et gère l’envoi de rapports de lecture. 
+Définit ou efface l'indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d'un ou plusieurs des messages du dossier, et gère l'envoi des rapports de lecture. 
   
 ```cpp
 HRESULT SetReadFlags(
@@ -38,47 +38,47 @@ HRESULT SetReadFlags(
 
 _lpMsgList_
   
-> [in] Pointeur vers un tableau de structures [ENTRYLIST](entrylist.md) qui identifient l’ou les messages que vous ont lu les indicateurs pour définir ou supprimer. Si _lpMsgList_ est défini sur NULL, la lecture indicateurs pour tous les messages du dossier sont configurés ou désactivés. 
+> dans Pointeur vers un tableau de structures [ENTRYLIST](entrylist.md) qui identifient le ou les messages dont les indicateurs de lecture doivent être définis ou désactivés. Si _lpMsgList_ est défini sur null, les indicateurs de lecture de tous les messages du dossier sont définis ou effacés. 
     
 _ulUIParam_
   
-> [in] Un handle vers la fenêtre parent de l’indicateur de progression. Le paramètre _ulUIParam_ est ignoré à moins que l’indicateur MESSAGE_DIALOG est défini dans le paramètre _ulFlags_ . 
+> dans Handle de la fenêtre parent de l'indicateur de progression. Le paramètre _ulUIParam_ est ignoré sauf si l'indicateur MESSAGE_DIALOG est défini dans le paramètre _ulFlags_ . 
     
 _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est indiqué dans _lpProgress_, le fournisseur de banque de message affiche un indicateur de progression à l’aide de mise en œuvre de MAPI. Le paramètre _lpProgress_ est ignoré à moins que l’indicateur MESSAGE_DIALOG est défini dans _ulFlags_.
+> dans Pointeur vers un objet de progression qui affiche un indicateur de progression. Si la valeur NULL est transmise dans _lpProgress_, le fournisseur de banque de messages affiche un indicateur de progression à l'aide de l'implémentation de MAPI. Le paramètre _lpProgress_ est ignoré sauf si l'indicateur MESSAGE_DIALOG est défini dans _ulFlags_.
     
 _ulFlags_
   
-> [in] Un masque de bits d’indicateurs qui contrôlent la valeur d’indicateur de lecture d’un message et le traitement de lire des rapports. Les indicateurs suivants peuvent être définis :
+> dans Masque de réinitialisation des indicateurs qui contrôle le paramétrage de l'indicateur de lecture d'un message et le traitement des rapports de lecture. Les indicateurs suivants peuvent être définis:
     
-  - CLEAR_READ_FLAG : L’indicateur MSGFLAG_READ doit être effacé dans **PR_MESSAGE_FLAGS** et un rapport de lecture ne doit pas être envoyé. 
+  - CLEAR_READ_FLAG: l'indicateur MSGFLAG_READ doit être effacé dans **PR_MESSAGE_FLAGS** et un rapport de lecture ne doit pas être envoyé. 
         
-  - CLEAR_NRN_PENDING : L’indicateur MSGFLAG_NRN_PENDING doit être effacé dans **PR_MESSAGE_FLAGS** et un rapport non lu ne doit pas être envoyé. 
+  - CLEAR_NRN_PENDING: l'indicateur MSGFLAG_NRN_PENDING doit être effacé dans **PR_MESSAGE_FLAGS** et un rapport non lu ne doit pas être envoyé. 
         
-  - CLEAR_RN_PENDING : L’indicateur MSGFLAG_RN_PENDING doit être effacé dans **PR_MESSAGE_FLAGS** et un rapport de lecture ne doit pas être envoyé. 
+  - CLEAR_RN_PENDING: l'indicateur MSGFLAG_RN_PENDING doit être effacé dans **PR_MESSAGE_FLAGS** et un rapport de lecture ne doit pas être envoyé. 
         
-  - GENERATE_RECEIPT_ONLY : Un rapport de lecture doit être envoyé si un est en attente, mais il ne doit y avoir aucune modification de l’état de l’indicateur MSGFLAG_READ.
+  - GENERATE_RECEIPT_ONLY: un rapport de lecture doit être envoyé s'il en est en attente, mais il ne doit y avoir aucune modification dans l'état de l'indicateur MSGFLAG_READ.
         
-  - MAPI_DEFERRED_ERRORS : Permet de **SetReadFlags** renvoyer avec succès, éventuellement, avant la fin de l’opération. 
+  - MAPI_DEFERRED_ERRORS: permet à **SetReadFlags** de renvoyer correctement, éventuellement avant la fin de l'opération. 
         
-  - MESSAGE_DIALOG : Affiche un indicateur de progression pendant que l’opération s’effectue.
+  - MESSAGE_DIALOG: affiche un indicateur de progression pendant l'exécution de l'opération.
     
-  - SUPPRESS_RECEIPT : Un rapport de lecture en attente doit être annulé si un rapport de lecture a été demandé et cet appel remplace l’état du message non lu à lire. Si cet appel ne modifie pas l’état du message, le fournisseur de banque de message peut ignorer cet indicateur.
+  - SUPPRESS_RECEIPT: un rapport de lecture en attente doit être annulé si un rapport de lecture a été demandé et que cet appel change l'état du message de non lu en lecture. Si cet appel ne modifie pas l'état du message, le fournisseur de banque de messages peut ignorer cet indicateur.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 S_OK 
   
-> L’indicateur de lecture pour l’ou les messages spécifié a été correctement configurée ou désactivée.
+> L'indicateur de lecture pour le ou les messages spécifiés a été correctement défini ou désactivé.
     
 MAPI_E_NO_SUPPRESS 
   
-> Le fournisseur de banque de messages ne gère pas la suppression des rapports de lecture.
+> Le fournisseur de banque de messages ne prend pas en charge la suppression des rapports lus.
     
 MAPI_E_INVALID_PARAMETER 
   
-> Une des combinaisons d’indicateurs incompatibles suivants est définie dans le paramètre _ulFlags_ : 
+> L'une des combinaisons d'indicateurs incompatibles suivantes est définie dans le paramètre _ulFlags_ : 
     
    - SUPPRESS_RECEIPT | CLEAR_READ_FLAG 
     
@@ -86,61 +86,61 @@ MAPI_E_INVALID_PARAMETER
     
    - CLEAR_READ_FLAG | GENERATE_RECEIPT_ONLY
     
-MAPI_W_PARTIAL_COMPLETION SE PRODUIT 
+MAPI_W_PARTIAL_COMPLETION 
   
-> L’appel a réussi, mais pas tous les messages ont été traités. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme étant réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d’informations, consultez [Utilisation de Macros pour gérer les erreurs](using-macros-for-error-handling.md).
+> L'appel a réussi, mais tous les messages n'ont pas été traités avec succès. Lorsque cet avertissement est renvoyé, l'appel doit être géré comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d'informations, consultez la rubrique [utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIFolder::SetReadFlags** Active ou désactive l’indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** d’une ou plusieurs des messages du dossier. Définition de l’indicateur MSGFLAG_READ marque un message comme lu, ce qui n’indique pas nécessairement que le destinataire a lu réellement le message. 
+La méthode **IMAPIFolder:: SetReadFlags** définit ou efface l'indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** d'un ou plusieurs messages du dossier. La définition de l'indicateur MSGFLAG_READ marque un message comme lu, ce qui ne signifie pas nécessairement que le destinataire concerné a effectivement lu le message. 
   
-**SetReadFlags** gère également l’envoi des rapports de lecture. 
+**SetReadFlags** gère également l'envoi des rapports de lecture. 
   
-L’indicateur de lecture ne peut pas être modifié pour les éléments suivants :
+L'indicateur de lecture ne peut pas être modifié pour les éléments suivants:
   
-- Messages qui n’existent pas.
+- Messages qui n'existent pas.
     
-- Les messages qui ont été déplacés vers un autre emplacement.
+- Messages qui ont été déplacés ailleurs.
     
-- Messages qui sont ouvertes avec l’autorisation de lecture/écriture.
+- Messages ouverts avec une autorisation en lecture/écriture.
     
-- Messages qui sont actuellement envoyées.
+- Messages actuellement envoyés.
     
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous décider de ne pas prendre en charge l’envoi de rapports de lecture et de la demande à supprimer les rapports de lecture. Pour éviter la suppression d’un rapport de lecture, renvoyer MAPI_E_NO_SUPPRESS lorsque **SetReadFlags** est appelée avec SUPPRESS_RECEIPT dans le paramètre _ulFlags_ . 
+Vous pouvez décider de ne pas prendre en charge l'envoi de rapports de lecture et la demande de suppression des rapports de lecture. Pour éviter la suppression d'un rapport de lecture, renvoyez MAPI_E_NO_SUPPRESS lorsque **SetReadFlags** est appelé avec SUPPRESS_RECEIPT défini dans le paramètre _ulFlags_ . 
   
-Lorsque le paramètre _lpMsgList_ pointe vers plus d’un message, effectuez l’opération complètement que possible pour chaque message. N’arrêtez pas l’opération prématurément, sauf si une panne se produit qui est votre volonté, telles que le manque de mémoire, manque d’espace disque ou l’endommagement de la banque de messages. 
+Lorsque le paramètre _lpMsgList_ pointe vers plusieurs messages, effectuez l'opération aussi complètement que possible pour chaque message. N'arrêtez pas l'opération prématurément à moins qu'une défaillance ne se produise au-delà de votre contrôle, telle qu'une mémoire insuffisante, un manque d'espace disque ou une corruption de la Banque de messages. 
   
-Si aucun des indicateurs sont définies dans le paramètre _ulFlags_ , les règles suivantes s’appliquent : 
+Si aucun des indicateurs n'est défini dans le paramètre _ulFlags_ , les règles suivantes s'appliquent: 
   
 - Si MSGFLAG_READ est déjà défini, ne faites rien.
     
-- Si MSGFLAG_READ n’est pas défini, affectez-lui immédiatement et envoyer tout en attente de rapports de lecture si la valeur de la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)).
+- Si MSGFLAG_READ n'est pas défini, définissez-le immédiatement et envoyez tous les rapports de lecture en attente si la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) est définie.
     
-Lorsque l’indicateur SUPPRESS_RECEIPT est défini, les règles suivantes s’appliquent :
+Lorsque l'indicateur SUPPRESS_RECEIPT est défini, les règles suivantes s'appliquent:
   
 - Si MSGFLAG_READ est déjà défini, ne faites rien. 
     
-- Si MSGFLAG_READ n’est pas définie, définissez-la et annuler les en attente de rapports de lecture.
+- Si MSGFLAG_READ n'est pas défini, définissez-le et annulez tous les rapports de lecture en attente.
     
-Lorsque l’indicateur CLEAR_READ_FLAG est défini, effacer l’indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** du chaque message et ne pas envoyer des rapports de lecture. 
+Lorsque l'indicateur CLEAR_READ_FLAG est défini, effacez l'indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** de chaque message et n'envoyez aucun rapport de lecture. 
   
-Lorsque l’indicateur GENERATE_RECEIPT_ONLY est défini, envoyer des rapports de lecture en attente. Ne pas définir ou effacer MSGFLAG_READ.
+Lorsque l'indicateur GENERATE_RECEIPT_ONLY est défini, envoyez tous les rapports de lecture en attente. Ne définissez pas MSGFLAG_READ.
   
-Lorsque les indicateurs GENERATE_RECEIPT_ONLY et SUPPRESS_RECEIPT sont définies, la valeur **PR_READ_RECEIPT_REQUESTED** FALSE si elle est définie et ne pas envoyer un rapport de lecture. 
+Lorsque les deux indicateurs SUPPRESS_RECEIPT et GENERATE_RECEIPT_ONLY sont définis, définissez **PR_READ_RECEIPT_REQUESTED** sur false s'il est défini et ne pas envoyer de rapport de lecture. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Prévoyez ces valeurs de retour dans les conditions suivantes.
+Attendez-vous à ces valeurs de retour dans les conditions suivantes.
   
-|**Condition**|**Valeur renvoy�e**|
+|**Condition**|**Valeur renvoyée**|
 |:-----|:-----|
-|**SetReadFlags** a traité avec succès à chaque message.  <br/> |S_OK  <br/> |
-|**SetReadFlags** n’a pas pu traiter correctement tous les messages.  <br/> |MAPI_W_PARTIAL_COMPLETION se produit ou MAPI_E_NOT_FOUND  <br/> |
-|**SetReadFlags** n’a pas pu terminer.  <br/> |Une valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
+|**SetReadFlags** a réussi à traiter tous les messages.  <br/> |S_OK  <br/> |
+|**SetReadFlags** n'a pas pu traiter correctement tous les messages.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**SetReadFlags** n'a pas pu être exécuté.  <br/> |Toute valeur d'erreur à l'exception de MAPI_E_NOT_FOUND  <br/> |
    
-Lorsque **SetReadFlags** est impossible de terminer, ne supposent qu’aucun travail n’a été effectuée. **SetReadFlags** a pu définir ou effacer l’indicateur MSGFLAG_READ pour une ou plusieurs des messages avant de rencontrer l’erreur. 
+Lorsque **SetReadFlags** ne parvient pas à terminer, ne partez pas du principe qu'aucun travail n'a été effectué. **SetReadFlags** peut avoir pu définir ou effacer l'indicateur MSGFLAG_READ pour un ou plusieurs messages avant de rencontrer l'erreur. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -148,7 +148,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI utilise la méthode **IMAPIFolder::SetReadFlags** pour définir manuellement l’état de lecture sur les messages spécifiés.  <br/> |
+|FolderDlg. cpp  <br/> |CFolderDlg:: OnSetReadFlag  <br/> |MFCMAPI utilise la méthode **IMAPIFolder:: SetReadFlags** pour définir manuellement l'état de lecture des messages spécifiés.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -157,6 +157,6 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 - [Propriété canonique PidTagMessageFlags](pidtagmessageflags-canonical-property.md)  
 - [Propriété canonique PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)  
 - [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-- [MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)  
-- [Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+- [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)  
+- [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

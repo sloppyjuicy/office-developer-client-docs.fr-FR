@@ -11,41 +11,41 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65aed75f-7e4e-4de9-b219-64dde8891a79
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1459dcdb32dce2826f10b5616f899cd424b634b7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d4038e3ecd1b4e5283e071305a316db014aacfd6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360081"
 ---
 # <a name="pidlidrecalltime-canonical-property"></a>Propriété canonique PidLidRecallTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l’heure à laquelle un rappel de message a été lancé.
+Indique l'heure à laquelle un rappel de message a été initié.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRecallTime  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
-|ID de type long (capot) :  <br/> |0x00008549  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
+|ID long (couvercle):  <br/> |0x00008549  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

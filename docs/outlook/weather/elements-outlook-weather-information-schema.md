@@ -1,5 +1,5 @@
 ---
-title: Éléments (schéma des informations météo Outlook)
+title: Elements (schéma d'informations météorologiques Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,24 +7,24 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45fbc451-06f0-133d-9818-55574e202091
-description: Cette rubrique répertorie les éléments dans le schéma XML d’informations Outlook météo.
-ms.openlocfilehash: 6964b4493e287b85a690311e7adb2c9e1e3d7c8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cette rubrique répertorie les éléments du schéma XML des informations météorologiques d'Outlook.
+ms.openlocfilehash: 2c04fce7c3b4da405e141f7acc1d0ae6faa3dd0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361172"
 ---
-# <a name="elements-outlook-weather-information-schema"></a>Éléments (schéma des informations météo Outlook)
+# <a name="elements-outlook-weather-information-schema"></a>Elements (schéma d'informations météorologiques Outlook)
 
-Cette rubrique répertorie les éléments dans le schéma XML d’informations Outlook météo.
+Cette rubrique répertorie les éléments du schéma XML des informations météorologiques d'Outlook.
   
-- [élément en cours](current-element-weathertype-complextypeoutlook-weather-information-schema.md)
+- [élément actuel](current-element-weathertype-complextypeoutlook-weather-information-schema.md)
     
-- [élément prévision](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md)
+- [élément de prévision](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md)
     
-- [élément météo](weather-element-weatherdata-elementoutlook-weather-information-schema.md)
+- [élément météorologique](weather-element-weatherdata-elementoutlook-weather-information-schema.md)
     
-- [élément WeatherData](weatherdata-element-outlook-weather-information-schema.md)
+- [élément weatherdata](weatherdata-element-outlook-weather-information-schema.md)
     
 

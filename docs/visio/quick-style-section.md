@@ -1,25 +1,25 @@
 ---
-title: Section Style rapide
+title: Quick Style Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3fa79e60-934b-46fd-a305-03fe9428a2c9
-description: Indique le Style rapide en cours de mise en forme de valeurs appliquées à la forme, y compris la couleur de trait et style, la couleur de remplissage et style, couleur de l’ombre, effets, police et type de style.
-ms.openlocfilehash: 7ca309a27559e688f3b4a458b69dad04b49f2f79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Affiche les valeurs de mise en forme de style rapide actuelles appliquées à la forme, y compris la couleur et le style de trait, la couleur et le style de remplissage, la couleur de l'ombre, les effets, la police et le type de style.
+ms.openlocfilehash: e56d14473077381d331574f0ab098beab0cbe50e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358841"
 ---
-# <a name="quick-style-section"></a>Section Style rapide
+# <a name="quick-style-section"></a>Quick Style Section
 
-Indique le Style rapide en cours de mise en forme de valeurs appliquées à la forme, y compris la couleur de trait et style, la couleur de remplissage et style, couleur de l’ombre, effets, police et type de style. 
+Affiche les valeurs de mise en forme de style rapide actuelles appliquées à la forme, y compris la couleur et le style de trait, la couleur et le style de remplissage, la couleur de l'ombre, les effets, la police et le type de style. 
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez le Style rapide, sélectionnez la forme, puis sélectionnez un nouveau Style rapide (sous l’onglet **accueil** , dans le groupe **Styles de forme** , cliquez sur **plus**et puis sélectionnez un autre Style rapide de la galerie).
+Vous pouvez créer un style rapide en sélectionnant la forme, puis en sélectionnant un nouveau style rapide (sous l'onglet **Accueil** , dans le groupe **styles de formes** , cliquez sur **plus**, puis sélectionnez un autre style rapide dans la Galerie).
   
 

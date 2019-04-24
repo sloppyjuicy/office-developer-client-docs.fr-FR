@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a75ca0dd-9c50-2a9f-6c59-1f8020833a01
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a1ec71d7120eab220ee3b11d2a751fba51cee48e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 45ef7ce9291376ac020035f0bde6172caf6cc01b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359422"
 ---
 # <a name="uphier"></a>UPHIER
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour la synchronisation d’une hiérarchie de dossiers au cours de l' [état de la hiérarchie de télécharger](upload-hierarchy-state.md).
+Informations pour la synchronisation d'une hiérarchie de dossiers pendant l'état de la [hiérarchie de téléchargement](upload-hierarchy-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,29 +33,29 @@ struct UPHIER
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
 _ulFlags_
   
-> [in] Indicateurs pour modifier le comportement lors de la synchronisation de la hiérarchie de dossiers.
+> dans Indicateurs permettant de modifier le comportement lors de la synchronisation de la hiérarchie de dossiers.
     
   - UPH_OK
     
-    - [in] Téléchargement a réussi. Le client définit après avoir téléchargé correctement les informations sur le serveur. À l’affichage de cet indicateur, Outlook efface toutes les informations de référence interne qui indique la hiérarchie de dossiers nécessaire de mettre à jour. 
+    - dans Le chargement a réussi. Le client définit ceci après le chargement réussi des informations sur le serveur. À l'affichage de cet indicateur, Outlook efface toutes les informations de suivi internes qui indiquaient la hiérarchie de dossiers nécessaire à la mise à jour. 
     
-    - Le client transmet le HRESULT si le transfert n’a pas réussi.
+    - Le client transmet le HRESULT si le chargement a échoué.
     
 _pstmReserved_
   
-> [out] Ce membre est réservé à un usage interne Outlook et n’est pas pris en charge.
+> remarquer Ce membre est réservé à un usage interne d'Outlook et n'est pas pris en charge.
     
 _iEnt_
   
-> [out] Index pour effectuer le suivi de la synchronisation du nombre de dossiers spécifiée par *cEnt* . 
+> remarquer Index pour suivre la synchronisation du nombre de dossiers spécifiés par *cEnt* . 
     
-_cEnt_
+_Motivé_
   
-> [out] Nombre de dossiers qui ne sont pas synchronisés.
+> remarquer Nombre de dossiers désynchronisés.
     
 ## <a name="see-also"></a>Voir aussi
 

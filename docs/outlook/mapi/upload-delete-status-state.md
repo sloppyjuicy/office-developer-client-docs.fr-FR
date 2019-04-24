@@ -1,45 +1,45 @@
 ---
-title: Télécharger l’état de suppression de statut
+title: Télécharger l'état de l'état de suppression
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 4a45cfafec5126c72f365858e41963bc95fa707a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: dda9d23a572446a5fa79a9500eb69558b6e0debd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357707"
 ---
-# <a name="upload-delete-status-state"></a>Télécharger l’état de suppression de statut
+# <a name="upload-delete-status-state"></a>Télécharger l'état de l'état de suppression
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit le déroulement de l’état de l’état de téléchargement supprimer de l’ordinateur d’état de réplication. 
+ Cette rubrique décrit ce qui se passe lors de l'état de l'état de suppression du chargement de l'ordinateur d'état de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |
-|Structure de données associées :  <br/> |**[UPDEL](updel.md)** <br/> |
-|À partir de cet état :  <br/> |[Télécharger l’état de la table](upload-table-state.md) <br/> |
-|Avec cet état :  <br/> |Télécharger l’état de la table  <br/> |
+|Identificateur d'État:  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |
+|Structure de données associée:  <br/> |**[UPDEL](updel.md)** <br/> |
+|À partir de cet État:  <br/> |[Charger l'état de la table](upload-table-state.md) <br/> |
+|À cet État:  <br/> |Charger l'état de la table  <br/> |
    
 > [!NOTE]
-> L’ordinateur d’état de réplication est une machine à états déterministe. Un client au départ d’un état à l’autre doit renvoyer par la suite à l’ancienne à partir de ce dernier. 
+> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
   
 ## <a name="description"></a>Description
 
-Cet état lance la mise à jour sur un serveur, les éléments Outlook (courrier, calendrier, contact, tâche, une note ou journal) qui ont été supprimées dans un dossier sur un magasin local spécifié dans un état de table de téléchargement précédent. Au cours de cet état, Outlook initialise les membres de la structure de données **UPDEL** associée avec des informations pour les éléments qui ont été supprimé ou déplacé à partir du dossier. 
+Cet État lance la mise à jour sur un serveur de ces éléments Outlook (courrier, calendrier, contact, tâche, note ou journal) qui ont été supprimés dans un dossier d'un magasin local spécifié dans un état de tableau de téléchargement précédent. Dans cet État, Outlook initialise les membres de la structure de données **UPDEL** associée avec les informations relatives aux éléments qui ont été supprimés ou déplacés du dossier. 
   
-Le client puis supprime les éléments spécifiés dans le dossier sur le serveur. Pour distinguer les éléments qui ont été déplacés au lieu d’avoir été supprimé, le client doit vérifier les membres *pupmov* identifiés dans la structure **UPDEL** . 
+Le client supprime ensuite les éléments spécifiés dans le dossier sur le serveur. Pour distinguer les éléments qui ont été déplacés au lieu d'avoir été supprimés, le client doit vérifier les membres du *pupmov* identifiés dans la structure **UPDEL** . 
   
-Lorsque cet état se termine, Outlook efface les informations internes indiquant que l’élément a été supprimé ; Par conséquent, Outlook n’aura plus un enregistrement de l’élément. Le magasin local renvoie l’état de la table de téléchargement.
+Lorsque cet État prend fin, Outlook efface les informations internes indiquant que l'élément a été supprimé; par conséquent, Outlook ne dispose plus de l'enregistrement de l'élément. Le magasin local revient à l'état de la table de chargement.
   
 ## <a name="see-also"></a>Voir aussi
 

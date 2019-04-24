@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251485
 localization_priority: Normal
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
-description: Renvoie un nombre à virgule flottante aléatoire compris entre 0.0 à 1.0. Elle renvoie un nombre différent à chaque fois que la fonction est évaluée, qui est une fois par minute en fonction de l’horloge système.
-ms.openlocfilehash: 4b164e90c6d6b81764d2763bef04d836cae52c1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie un nombre à virgule flottante aléatoire compris entre 0,0 et 1,0. Elle renvoie un autre nombre chaque fois que la fonction est évaluée, c'est-à-dire une fois par minute, en fonction de l'horloge système.
+ms.openlocfilehash: bab2fd74aff85be85f886e3ac8fe7df113664ae5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360003"
 ---
-# <a name="rand-function"></a>RAND, fonction
+# <a name="rand-function"></a>Fonction RAND
 
-Renvoie un nombre à virgule flottante aléatoire compris entre 0.0 à 1.0. Elle renvoie un nombre différent à chaque fois que la fonction est évaluée, qui est une fois par minute en fonction de l’horloge système. 
+Renvoie un nombre à virgule flottante aléatoire compris entre 0,0 et 1,0. Elle renvoie un autre nombre chaque fois que la fonction est évaluée, c'est-à-dire une fois par minute, en fonction de l'horloge système. 
   
 ## <a name="syntax"></a>Syntaxe
 
 RAND( )
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
-Virgule flottante
+Flottant
   
 ## <a name="remarks"></a>Remarques
 

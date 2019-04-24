@@ -1,5 +1,5 @@
 ---
-title: Gestionnaire de formulaire MAPI
+title: Gestionnaire de formulaires MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,35 +7,35 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f78c25285c7ac3f8736006e4a45079a7d9a6d867
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 3059183103ca2552505486b5ec54366729ae4ec3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351449"
 ---
-# <a name="mapi-form-manager"></a>Gestionnaire de formulaire MAPI
+# <a name="mapi-form-manager"></a>Gestionnaire de formulaires MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un gestionnaire de formulaire est un objet qui implémente l’interface [IMAPIFormMgr](imapiformmgriunknown.md) . La plupart des organisations utiliseront le Gestionnaire de formulaire fourni avec MAPI, appelé le Gestionnaire de formulaire par défaut. Toutefois, une organisation peut remplacer le Gestionnaire de formulaire par défaut avec un gestionnaire de formulaire personnalisé si vous le souhaitez. Le Gestionnaire de formulaire se charge de localisation des formulaires dans les bibliothèques de formulaires, le chargement des formulaires en réponse aux requêtes des utilisateurs et l’installation de formulaires dans la bibliothèque de formulaires local, bibliothèque de formulaires de dossier ou bibliothèque de formulaires personnels d’un utilisateur. 
+Un gestionnaire de formulaires est un objet qui implémente l'interface [IMAPIFormMgr](imapiformmgriunknown.md) . La plupart des organisations utilisent le gestionnaire de formulaires fourni avec MAPI, appelé gestionnaire de formulaires par défaut. Toutefois, une organisation peut remplacer le gestionnaire de formulaires par défaut par un responsable de formulaire personnalisé si vous le souhaitez. Le gestionnaire de formulaires prend en charge la recherche de formulaires dans les bibliothèques de formulaires, le chargement de formulaires en réponse aux demandes de l'utilisateur et l'installation de formulaires dans la bibliothèque de formulaires locale d'un utilisateur, une bibliothèque de formulaires de dossiers ou une bibliothèque de formulaires personnels. 
   
-Pour un utilisateur d’interagir avec un message, une instance du serveur de formulaire pour la classe de message du message doit être créée et activée pour afficher le message et d’effectuer l’opération demandée dans le message. Comme décrit dans la rubrique [Bibliothèques de formulaires MAPI](mapi-form-libraries.md), mise en œuvre d’un formulaire peut exister dans plusieurs emplacements (bibliothèques de formulaires) et il n’existe aucune garantie qu’un formulaire ou à son serveur sera disponible localement ou en cours d’exécution d’état lorsqu’un utilisateur souhaite interagir avec lui. Le Gestionnaire de formulaire prend en charge les détails de localisation et d’activation du formulaire.
+Pour qu'un utilisateur interagisse avec un message, une instance du serveur de formulaire pour la classe de message du message doit être créée et activée pour afficher le message et exécuter l'opération demandée sur le message. Comme décrit dans la rubrique [bibliothèques de formulaires MAPI](mapi-form-libraries.md), l'implémentation d'un formulaire peut exister à différents emplacements (bibliothèques de formulaires) et il n'est pas garanti qu'un formulaire ou son serveur sera disponible localement ou à l'État en cours d'exécution lorsqu'un utilisateur souhaite interagir avec elle. Le gestionnaire de formulaires prend en charge les détails de la recherche et de l'activation du formulaire.
   
-Clients utilisent les services fournis par le Gestionnaire de formulaire pour rechercher et d’activer les formulaires. L’interface **IMAPIFormMgr** est implémentée par le Gestionnaire de formulaire et est appelé par les clients pour accéder à ses services. Le Gestionnaire de formulaire est un composant essentiel, car il masque presque tous les détails de la recherche et activer des formulaires à partir de clients de messagerie. 
+Les clients utilisent les services fournis par le gestionnaire de formulaires pour rechercher et activer des formulaires. L'interface **IMAPIFormMgr** est implémentée par le gestionnaire de formulaires et est appelée par les clients pour accéder à ses services. Le gestionnaire de formulaires est un composant essentiel, car il masque presque tous les détails de la recherche et de l'activation de formulaires à partir de clients de messagerie. 
   
-Lors du chargement des serveurs de formulaire, le Gestionnaire de formulaire par défaut charge le formulaire à partir de la première bibliothèque de formulaires dans laquelle se trouve une implémentation de la classe de message du formulaire. Le Gestionnaire de formulaire par défaut recherche les bibliothèques de formulaires dans l’ordre suivant :
+Lors du chargement des serveurs de formulaires, le gestionnaire de formulaires par défaut charge le formulaire à partir de la première bibliothèque de formulaires dans laquelle une implémentation pour la classe de message du formulaire est trouvée. Le gestionnaire de formulaires par défaut recherche les bibliothèques de formulaires dans l'ordre suivant:
   
-1. Bibliothèque de formulaires local de l’utilisateur. Cette bibliothèque de formulaires est recherchée en premier, car elle fournit un accès rapide à l’implémentation d’un formulaire si l’implémentation est installée dans la bibliothèque de formulaires local.
+1. Bibliothèque de formulaires locale de l'utilisateur. Cette bibliothèque de formulaires fait l'objet d'une recherche dans un premier temps, car elle fournit l'accès le plus rapide à l'implémentation d'un formulaire si celle-ci est installée dans la bibliothèque de formulaires locale.
     
-2. La bibliothèque de formulaires dossier du conteneur du message : le dossier dans lequel est stocké le message en cours de chargement.
+2. Bibliothèque de formulaires de dossier du conteneur du message — le dossier dans lequel le message en cours de chargement est stocké.
     
-3. Bibliothèque de formulaires personnels de l’utilisateur.
+3. Bibliothèque de formulaires personnels de l'utilisateur.
     
-Un gestionnaire de formulaire personnalisé peut rechercher les bibliothèques de formulaires disponibles dans n’importe quel ordre, ou peut implémenter des autres bibliothèques de formulaires, par exemple une bibliothèque de formulaires de l’organisation. Pour plus d’informations sur les bibliothèques de formulaires, voir [Bibliothèques de formulaires MAPI](mapi-form-libraries.md). 
+Un gestionnaire de formulaires personnalisés peut effectuer des recherches dans les bibliothèques de formulaires disponibles dans n'importe quel ordre ou implémenter d'autres bibliothèques de formulaires telles qu'une bibliothèque de formulaires à l'échelle de l'organisation. Pour plus d'informations sur les bibliothèques de formulaires, consultez la rubrique [bibliothèques de formulaires MAPI](mapi-form-libraries.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

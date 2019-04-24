@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82251435
 localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
-description: Protège l’expression contre la suppression ou la modification par les actions effectuées dans la fenêtre de dessin, par exemple, que le déplacement, le redimensionnement, le regroupement ou la dissociation des formes.
-ms.openlocfilehash: fd5fcfbe11eb054dfa625834640c0280cae96c3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Protège les expressions contre la suppression et les modifications par les actions effectuées dans la fenêtre de dessin, par exemple, le mouvement, le redimensionnement, le regroupement ou la dissociation des formes.
+ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360192"
 ---
-# <a name="guard-function"></a>GUARD, fonction
+# <a name="guard-function"></a>Fonction GUARD
 
-Protège *l’expression* contre la suppression ou la modification par les actions effectuées dans la fenêtre de dessin, par exemple, que le déplacement, le redimensionnement, le regroupement ou la dissociation des formes. 
+Protège les *expressions* contre la suppression et les modifications par les actions effectuées dans la fenêtre de dessin, par exemple, le mouvement, le redimensionnement, le regroupement ou la dissociation des formes. 
   
 ## <a name="syntax"></a>Syntaxe
 
-GUARD (** *expression* **) 
+GUARD (* * *expression* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur.  <br/> |
+| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Les cellules les plus souvent concernées par la fonction GUARD sont les cellules Width, Height, PinX et PinY. 
   

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1f31f7f4-fbda-4337-95e5-5474dd1bf84a
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 22d3e649641dbe688912ecece7fde73a555f4a88
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361095"
 ---
 # <a name="pidtagattachrendering-canonical-property"></a>Propriété canonique PidTagAttachRendering
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un métafichier Microsoft Windows avec des informations de rendu d’une pièce jointe. 
+Contient un métafichier Microsoft Windows avec des informations de rendu pour une pièce jointe. 
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contient un métafichier Microsoft Windows avec des informations de rendu d’un
    
 ## <a name="remarks"></a>Remarques
 
-L’objectif de cette propriété est de fournir une icône ou une autre représentation graphique qui peut être affichée dans le message parent au moment de la pièce jointe. Représentation inclut généralement le nom de la pièce jointe, le cas échéant et la nature de la pièce jointe, par exemple un document Microsoft Office Word. Une application cliente peut utiliser cette représentation dans l’affichage du message. 
+L'objectif de cette propriété est de fournir une icône ou une autre représentation graphique qui peut être affichée dans le message parent au point de rattachement. Cette représentation inclut généralement le nom de la pièce jointe, le cas échéant, ainsi que la nature de la pièce jointe, telle qu'un document Microsoft Office Word. Une application cliente peut utiliser cette représentation dans l'affichage du message. 
   
-Pour une pièce jointe, cette propriété illustre généralement une icône pour le fichier. 
+Pour un fichier joint, cette propriété illustre généralement une icône pour le fichier. 
   
-Pour un message attaché, cette propriété n’est généralement pas définie. Une application cliente ayant besoin d’afficher un message joint doit obtenir sa propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), appelez [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) pour un pointeur vers l’objet d’informations de formulaire correspondant, Ouvrez l’interface [IMAPIFormInfo](imapiforminfoimapiprop.md) sur cet objet, puis **GetProps** permet de récupérer les **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) ou la propriété **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
+Pour un message joint, cette propriété n'est généralement pas définie. Une application cliente qui A besoin de restituer un message joint doit obtenir sa propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), appeler [IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md) pour un pointeur vers l'objet d'informations de formulaire correspondant, Ouvrez l'interface [IMAPIFormInfo](imapiforminfoimapiprop.md) sur cet objet et utilisez **GetProps** pour récupérer la propriété **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) ou **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
   
-Pour un objet OLE incorporé statique, cette propriété contient un métafichier Microsoft Windows qui peut être utilisé pour dessiner la représentation sous forme de pièce jointe dans une fenêtre. 
+Pour un objet OLE statique incorporé, cette propriété contient un métafichier Microsoft Windows qui peut être utilisé pour dessiner la représentation des pièces jointes dans une fenêtre. 
   
-Pour un objet OLE incorporé dynamique, le client doit utiliser les données OLE pour générer les informations de rendu. 
+Pour un objet OLE OLE incorporé, le client doit utiliser les données OLE pour générer les informations de rendu. 
   
-Dans tous les cas, l’application cliente Sachez que cette propriété est généralement plusieurs centaines d’octets de taille et est soumis à la troncation de la table des pièces jointes. Si un client souhaite afficher la pièce jointe à partir de cette propriété sans ouvrir la pièce jointe lui-même, il doit fonctionner dans la règle de troncature de table. Pour plus d’informations, voir [utilisation des colonnes de grande taille](working-with-large-columns.md). 
+Dans tous les cas, l'application cliente doit savoir que la taille de cette propriété est généralement de plusieurs centaines d'octets et est susceptible d'être tronquée dans la table des pièces jointes. Si un client souhaite afficher la pièce jointe à partir de cette propriété sans ouvrir la pièce jointe elle-même, elle doit fonctionner dans la règle de troncation de table. Pour plus d'informations, voir [Working with large Columns](working-with-large-columns.md). 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

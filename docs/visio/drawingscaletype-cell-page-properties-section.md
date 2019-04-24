@@ -8,40 +8,40 @@ f1_keywords:
 - Vis_DSS.chm270
 localization_priority: Normal
 ms.assetid: 5d4f1cf8-bc1f-07b8-1da5-7253808e337e
-description: Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue Mise en Page (cliquez sur la flèche mise en Page sous l’onglet Accueil).
-ms.openlocfilehash: b93bd95a30fe5a8a5de15a8e5ea104279cf1bcda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue Mise en page (cliquez sur la flèche Mise en page sous l’onglet Accueil).
+ms.openlocfilehash: d1c1c00ffe025c566646a1f8b9fe034732ad86a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359688"
 ---
 # <a name="drawingscaletype-cell-page-properties-section"></a>DrawingScaleType, cellule (section Page Properties)
 
-Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue **Mise en Page** (cliquez sur la flèche **Mise en Page** sous l’onglet **accueil** ). 
+Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue **Mise en page** (cliquez sur la flèche **Mise en page** sous l’onglet **Accueil**). 
   
-|**Valeur**|**Description**|**Constante d’Automation**|
+|**Value**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Pas d'échelle  <br/> |**visNoScale** <br/> |
-| 1  <br/> | Échelle architecturale  <br/> |**visArchitectural** <br/> |
-| 2  <br/> | Échelle Génie civil  <br/> |**visEngineering** <br/> |
+| 0,1  <br/> | Échelle architecturale  <br/> |**visArchitectural** <br/> |
+| n°2  <br/> | Échelle Génie civil  <br/> |**visEngineering** <br/> |
 | 3  <br/> | Échelle personnalisée  <br/> |**visScaleCustom** <br/> |
-| 4  <br/> | Métrique  <br/> |**visScaleMetric** <br/> |
-| 5  <br/> | Échelle Génie mécanique  <br/> |**visScaleMechanical** <br/> |
+| 4  <br/> | Liées  <br/> |**visScaleMetric** <br/> |
+| disque  <br/> | Échelle Génie mécanique  <br/> |**visScaleMechanical** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule DrawingScaleType par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule DrawingScaleType par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | DrawingScaleType  <br/> |
    
-Pour obtenir une référence à la cellule DrawingScaleType par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule DrawingScaleType à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowPage** <br/> |
 | Index de la cellule :  <br/> |**visPageDrawScaleType** <br/> |
    

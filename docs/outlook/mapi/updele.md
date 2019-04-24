@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c38aa8be-ae77-0c40-9843-42e07b80db6b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2361d225c07d60fab40465b27ad393ca10f6d8eb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 9bd61739b14d0ec382a9d582689c1049fe89429b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360542"
 ---
 # <a name="updele"></a>UPDELE
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Étendue des informations pour les éléments qui ont été supprimés dans un magasin local. Ces informations sont utilisées pendant le [téléchargement supprimer l’état](upload-delete-status-state.md).
+Informations étendues pour les éléments qui ont été supprimés dans un magasin local. Ces informations sont utilisées lors de l' [État de suppression de chargement](upload-delete-status-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -36,59 +36,59 @@ struct UPDELE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
 _ulFlags_
   
-> [out] / [in] indicateurs pour déterminer le comportement approprié lors du téléchargement.
+> [out]/[in] indicateurs pour déterminer le comportement approprié pendant le téléchargement.
     
   - UPD_ASSOC
     
-    - [out] Élément est associé.
+    - remarquer L'élément est associé.
     
   - UPD_MOV
     
-    - [out] Élément a été déplacé.
+    - remarquer L'élément a été déplacé vers l'extérieur.
     
   - UPD_OK 
     
-    - [in] Téléchargement a réussi. Le client définit après le téléchargement des informations sur le serveur.
+    - dans Le chargement a réussi. Le client le définit après avoir téléchargé des informations sur le serveur.
     
   - UPD_MOVED
     
-    - [in] Élément a été déplacé avec succès.
+    - dans L'élément a été déplacé.
     
   - UPD_UPDATE
     
-    - [in] Élément source marque modifiée.
+    - dans Marquer l'élément source comme modifié.
     
   - UPD_COMMIT
     
-    - [in] Valider l’état du téléchargement maintenant (entrée 0).
+    - dans Valider l'état de chargement maintenant (entrée 0).
     
-_SKEY_
+_skey_
   
-> [out] Clé de la source de l’élément.
+> remarquer Clé source de l'élément.
     
 _dwReserved_
   
-> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
     
 _binChg_
   
-> [out] Modifier la clé de l’élément de destination si l’élément a été déplacé.
+> remarquer Modifier la clé de l'élément de destination si l'élément a été déplacé.
     
 _binPcl_
   
-> [out] Modifier la liste des éléments de destination si l’élément a été déplacé.
+> remarquer Modifier la liste des éléments de destination si l'élément a été déplacé.
     
 _skeyDst_
   
-> [out] Clé de la source de l’élément de destination, si l’élément a été déplacée.
+> remarquer Clé source de l'élément de destination si l'élément a été déplacé.
     
 _pupmov_
   
-> [out] Informations de dossier de destination si l’élément a été déplacées.
+> remarquer Informations sur le dossier de destination si l'élément a été déplacé.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8736f75c-3e95-42dd-9bc1-2f0bd23c4a02
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7a2911779e5f9edb8c0bba7c3476a74ce410477c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7cba5dce60ce15ddb12776d619143849298aac9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357476"
 ---
 # <a name="smapiverbarray"></a>SMAPIVerbArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un tableau de structures [SMAPIVerb](smapiverb.md) qui décrivent les verbes MAPI. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Macro connexe :  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Macro connexe:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -49,11 +49,11 @@ typedef struct
     
  **aFormInfo**
   
-> Tableau des verbes MAPI.
+> Tableau de verbes MAPI.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMAPIVerbArray** est transmise en tant que paramètre dans la méthode [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) . 
+La structure **SMAPIVerbArray** est transmise sous la forme d'un paramètre dans la méthode [IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

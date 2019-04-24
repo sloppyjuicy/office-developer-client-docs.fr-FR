@@ -1,31 +1,31 @@
 ---
-title: PrimaryKey, élément (DataRecordSet_Type, complexType) (« Visio XML »)
+title: PrimaryKey, élément (DataRecordSet_Type complexType) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
-description: Identifie une ou plusieurs colonnes de clé primaire du jeu d’enregistrements de données.
+description: Identifie une ou plusieurs colonnes de clé primaire dans le jeu d'enregistrements de données.
 ms.openlocfilehash: c001c343c33e65c3990744b885f1c345575b1ab3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355995"
 ---
-# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>PrimaryKey, élément (DataRecordSet_Type, complexType) (« Visio XML »)
+# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>PrimaryKey, élément (DataRecordSet_Type complexType) ('Visio XML')
 
-Identifie une ou plusieurs colonnes de clé primaire du jeu d’enregistrements de données.
+Identifie une ou plusieurs colonnes de clé primaire dans le jeu d'enregistrements de données.
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |recordsets.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |recordsets. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,7 +36,7 @@ Identifie une ou plusieurs colonnes de clé primaire du jeu d’enregistrements 
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -48,12 +48,12 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |Spécifie la valeur de ce composant de la clé primaire pour une ligne d’un objet recordset. Il doit exister au moins une occurrence de cet élément enfant.  <br/> |
+|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |Spécifie la valeur de ce composant de la clé primaire pour une ligne individuelle d'un objet Recordset. Il doit y avoir au moins une occurrence de cet élément enfant.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnNameID  <br/> |XSD : String  <br/> |facultatif  <br/> |Spécifie le nom d’un champ qui est un composant de la clé primaire. Il doit être la valeur de l’attribut **ColumnNameID** d’un élément descendant DataColumn_Type de la DataRecordSet_Type dont la clé primaire est spécifiée.  <br/> |Valeurs du type xsd : String.  <br/> |
+|ColumnNameID  <br/> |xsd: String  <br/> |facultatif  <br/> |Spécifie le nom d'un champ qui est un composant de la clé primaire. Il doit s'agir de la valeur de l'attribut **ColumnNameID** d'un élément descendant DataColumn_Type de l'DataRecordSet_Type dont la clé primaire est spécifiée.  <br/> |Valeurs du type xsd: String.  <br/> |
    
 

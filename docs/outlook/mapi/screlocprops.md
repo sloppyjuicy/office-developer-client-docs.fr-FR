@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 241fac608552036e4706956cbe79524aaedacec9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c73fb96c9620a90ab0505b394fcb9853d02dcde5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360689"
 ---
 # <a name="screlocprops"></a>ScRelocProps
 
@@ -25,13 +25,13 @@ ms.locfileid: "22576847"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajuster les pointeurs dans un tableau [SPropValue](spropvalue.md) après que le tableau et ses données ont été copiés ou déplacés vers un nouvel emplacement. 
+Ajuste les pointeurs dans un tableau [SPropValue](spropvalue.md) après que le tableau et ses données ont été copiés ou déplacés vers un nouvel emplacement. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 SCODE ScRelocProps(
@@ -47,45 +47,45 @@ SCODE ScRelocProps(
 
  _cprop_
   
-> [in] Nombre de propriétés dans le tableau indiqué par le paramètre _rgprop_ . 
+> dans Nombre de propriétés dans le tableau vers lequel pointe le paramètre _rgprop_ . 
     
  _rgprop_
   
-> [in] Pointeur vers un tableau de structures [SPropValue](spropvalue.md) pour lequel des pointeurs doivent être ajustés. 
+> dans Pointeur vers un tableau de structures [SPropValue](spropvalue.md) pour lesquelles les pointeurs doivent être ajustés. 
     
  _pvBaseOld_
   
-> [in] Pointeur vers l’adresse de base d’origine du tableau indiqué par le paramètre _rgprop_ . 
+> dans Pointeur vers l'adresse de base d'origine du tableau vers lequel pointe le paramètre _rgprop_ . 
     
  _pvBaseNew_
   
-> [in] Pointeur vers la nouvelle adresse de base du tableau indiqué par le paramètre _rgprop_ . 
+> dans Pointeur vers la nouvelle adresse de base du tableau désigné par le paramètre _rgprop_ . 
     
- _carte de circuit imprimé_
+ _circuits_
   
-> [entrée, sortie] Pointeur facultatif à la taille, en octets, du tableau indiquée par le paramètre _pvBaseNew_ . Si ce n’est pas NULL, le paramètre de la _carte de circuits imprimés_ est défini sur le nombre d’octets stocké dans le paramètre _pvD_ . 
+> [in, out] Pointeur facultatif vers la taille, en octets, du tableau indiqué par le paramètre _pvBaseNew_ . Si la valeur n'est pas NULL, le paramètre _PCB_ est défini sur le nombre d'octets stockés dans le paramètre _pvD_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Pointeurs ont été ajustés avec succès.
+> Les pointeurs ont été ajustés avec succès.
     
 MAPI_E_INVALID_PARAMETER
   
-> Un ou les deux paramètres ne sont pas valides, ou un type de propriété inconnue s’est produite.
+> Un ou les deux paramètres n'étaient pas valides ou un type de propriété inconnu a été rencontré.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **ScRelocProps** fonctionne sur l’hypothèse que le tableau de valeurs de propriété pour laquelle des pointeurs sont ajustées alloué initialement en un seul appel semblable à un appel à la fonction **ScCopyProps** . Si une application cliente ou un fournisseur de services fonctionne avec une valeur de propriété qui est générée à partir des blocs de mémoire, il doit utiliser [ScCopyProps](sccopyprops.md) pour copier les propriétés. 
+La fonction **ScRelocProps** agit sur l'hypothèse que le tableau de valeurs de propriété pour lequel les pointeurs sont ajustés a été alloué à l'origine dans un appel unique semblable à un appel à la fonction **ScCopyProps** . Si une application cliente ou un fournisseur de services travaille avec une valeur de propriété qui est générée à partir de blocs de mémoire disjoints, elle doit utiliser [ScCopyProps](sccopyprops.md) pour copier les propriétés. 
   
- **ScRelocProps** est utilisée pour mettre à jour de la validité des pointeurs dans un tableau [SPropValue](spropvalue.md) . Pour maintenir la validité des pointeurs lorsque vous écrivez de ce type de tableau à et lire à partir d’un disque, effectuez les opérations suivantes : 
+ **ScRelocProps** est utilisé pour maintenir la validité des pointeurs dans un tableau [SPropValue](spropvalue.md) . Pour maintenir la validité des pointeurs lors de l'écriture et de la lecture d'un tel tableau sur un disque, effectuez les opérations suivantes: 
   
-1. Avant d’écrire le tableau et les données sur un disque, appelez **ScRelocProps** dans le tableau avec le paramètre _pvBaseNew_ pointe vers une valeur standard zéro, par exemple. 
+1. Avant d'écrire le tableau et les données sur un disque, appelez **ScRelocProps** sur le tableau avec le paramètre _pvBaseNew_ pointant vers un zéro de valeur standard, par exemple. 
     
-2. Après avoir lu le tableau et les données d’un disque, appelez **ScRelocProps** dans le tableau avec le paramètre _pvBaseOld_ égale à la même valeur standard utilisée à l’étape 1. Le tableau et les données doivent être lus dans un tampon créé en une seule fois. 
+2. Après avoir lu le tableau et les données à partir d'un disque, appelez **ScRelocProps** sur le tableau avec le paramètre _pvBaseOld_ égal à la même valeur standard utilisée à l'étape 1. Le tableau et les données doivent être lus dans une mémoire tampon créée avec une seule allocation. 
     
-3. Le paramètre de la _carte de circuit imprimé_ à **ScRelocProps** est facultatif. 
+3. Le paramètre _PCB_ vers **ScRelocProps** est facultatif. 
     
 ## <a name="see-also"></a>Voir aussi
 

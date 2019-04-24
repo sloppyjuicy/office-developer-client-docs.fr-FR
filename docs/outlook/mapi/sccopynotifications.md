@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d4877c81a52b529aa183ea552430b481c6617f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 08b9b954f856d64214947d81cf700adee42bcce4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357483"
 ---
 # <a name="sccopynotifications"></a>ScCopyNotifications
 
@@ -25,13 +25,13 @@ ms.locfileid: "22593353"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Copie un groupe de notifications d’événements dans un bloc de mémoire. 
+Copie un groupe de notifications d'événements dans un seul bloc de mémoire. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 SCODE ScCopyNotifications(
@@ -44,34 +44,34 @@ SCODE ScCopyNotifications(
 
 ## <a name="parameters"></a>Paramètres
 
- _cntf_
+ _CNTF_
   
-> [in] Nombre de structures [NOTIFICATION](notification.md) dans le tableau indiqué par le paramètre _rgntf_ . 
+> dans Nombre de structures de [notification](notification.md) dans le tableau indiqué par le paramètre _rgntf_ . 
     
  _rgntf_
   
-> [in] Pointeur vers un tableau de structures **NOTIFICATION** définissant les notifications d’événements à copier. 
+> dans Pointeur vers un tableau de structures de **notification** définissant les notifications d'événement à copier. 
     
  _pvDst_
   
-> [out] Pointeur vers les notifications retournées. 
+> remarquer Pointeur vers les notifications renvoyées. 
     
- _carte de circuit imprimé_
+ _circuits_
   
-> [out] Facultatif pointeur vers une variable dont la taille, en octets, du tableau indiquée par le paramètre _rgntf_ est stockée. Si ce n’est pas NULL, le paramètre de la _carte de circuits imprimés_ est défini sur le nombre d’octets stocké dans le paramètre _pvDst_ . 
+> remarquer Pointeur facultatif vers une variable où la taille, en octets, du tableau désigné par le paramètre _rgntf_ est stockée. Si la valeur n'est pas NULL, le paramètre _PCB_ est défini sur le nombre d'octets stockés dans le paramètre _pvDst_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Notifications d’événement ont été copiées avec succès.
+> Les notifications d'événement ont été correctement copiées.
     
 E_INVALIDARG
   
-> Une notification non valide s’est produite.
+> Une notification incorrecte a été rencontrée.
     
 ## <a name="remarks"></a>Remarques
 
-Si NULL est indiqué dans le paramètre de la _carte de circuits imprimés_ , aucune copie n’est effectuée ; Si une valeur non nulle est passée dans une _carte de circuit imprimé_, la fonction **ScCopyNotifications** copie la taille du tableau et le tableau lui-même dans un bloc de mémoire. Si la _carte de circuits imprimés_ n’est pas NULL, elle est définie pour le nombre d’octets stocké dans le paramètre _pvDst_ . Le paramètre _pvDst_ doit être suffisant pour contenir l’intégralité du tableau. 
+Si NULL est transmis dans le paramètre _PCB_ , aucune copie n'est effectuée; Si une valeur non null est transmise dans _PCB_, la fonction **ScCopyNotifications** copie la taille du tableau et le tableau lui-même dans un bloc de mémoire unique. Si _PCB_ n'est pas null, il est défini sur le nombre d'octets stockés dans le paramètre _pvDst_ . Le paramètre _pvDst_ doit être suffisamment grand pour contenir l'intégralité du tableau. 
   
 

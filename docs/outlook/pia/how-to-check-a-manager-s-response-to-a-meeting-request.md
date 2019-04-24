@@ -1,5 +1,5 @@
 ---
-title: Vérifier la réponse du responsable à une demande de réunion
+title: Vérification de la réponse d’un manager à une demande de réunion
 TOCTitle: Check a manager's response to a meeting request
 ms:assetid: 7bdb2163-17e3-47b4-95e5-e051b90506c6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184618(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba54ba740182eaffc92a0e1932a6fbed1d3804c8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359709"
 ---
 # <a name="check-a-managers-response-to-a-meeting-request"></a>Vérifier la réponse du responsable à une demande de réunion
 
@@ -27,7 +27,7 @@ Pour déterminer si un destinataire donné a accepté ou refusé une demande de 
 
 Dans l’exemple de code suivant, CheckManagerResponseStatus accepte un objet **AppointmentItem** en tant que paramètre. CheckManagerResponseStatus récupère l’objet [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) en appelant la méthode **GetExchangeUser** de l’utilisateur actuel. CheckManagerResponseStatus récupère ensuite l’objet **ExchangeUser** associé au responsable de l’utilisateur actuel en appelant la méthode **GetExchangeUserManager**. En utilisant la méthode [CompareEntryIDs(String, String)](https://msdn.microsoft.com/library/bb646919\(v=office.15\)) de l’objet [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)), l’exemple vérifie ensuite si l’objet **Recipient** associé à l’objet **AppointmentItem** est le même que l’objet **ExchangeUser** qui représente le responsable de l’utilisateur. Si **CompareEntryIDs** renvoie **true**, le responsable de l’utilisateur se trouve dans la collection **Recipients** et CheckManagerResponseStatus renvoie l’élément **MeetingResponseStatus** du responsable. Si **CompareEntryIDs** renvoie **false**, CheckManagerResponseStatus renvoie une référence NULL.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

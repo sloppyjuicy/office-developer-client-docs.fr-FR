@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0eef299d-6923-4dae-9a18-91ea82ea0f3e
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 00c07069ed174fe55556dfe48398d65b4e64100e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359226"
 ---
 # <a name="pidtagreceivedbyaddresstype-canonical-property"></a>Propriété canonique PidTagReceivedByAddressType
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le type d’adresse e-mail, par exemple SMTP, de l’utilisateur de messagerie qui ne reçoive effectivement le message.
+Contient le type d'adresse de messagerie, par exemple SMTP, pour l'utilisateur de messagerie qui reçoit le message.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient le type d’adresse e-mail, par exemple SMTP, de l’utilisateur de mes
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d’adresse de l’utilisateur de messagerie qui ne reçoive effectivement le message. Elles doivent être définies par le fournisseur de transport entrant.
+Ces propriétés sont des exemples de propriétés d'adresse pour l'utilisateur de messagerie qui reçoit réellement le message. Elles doivent être définies par le fournisseur de transport entrant.
   
-La chaîne de type d’adresse peut contenir uniquement des caractères alphabétiques majuscules A à Z et les numéros de zéro à neuf. Ces propriétés qualifier la propriété **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) en spécifiant un type d’adresse, tels que SMTP, en indiquant comment l’adresse doit être créée.
+La chaîne de type d'adresse peut contenir uniquement les caractères alphabétiques de A à Z et les chiffres 0 à 9. Ces propriétés qualifient la propriété **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) en spécifiant un type d'adresse, par exemple SMTP, indiquant la façon dont l'adresse doit être construite.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

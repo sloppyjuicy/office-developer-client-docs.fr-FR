@@ -9,34 +9,34 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bad4c512-e91f-d459-d65c-a4ab725c3c14
 description: Indique l'angle de la direction oblique de l'ombre d'une forme.
-ms.openlocfilehash: 11f172de33dfbb65d0176733f5c0bf8b33db483d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 005415e497a4d985d3fb8ec70d62ba40d9e80c91
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349192"
 ---
 # <a name="shapeshdwobliqueangle-cell-fill-format-section"></a>ShapeShdwObliqueAngle, cellule (section Fill Format)
 
 Indique l'angle de la direction oblique de l'ombre d'une forme.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Une valeur de zéro (0) dans cette cellule indique que la direction de l'angle est verticale et mesurée dans le sens des aiguilles d'une montre.
   
-Cette valeur correspond à la valeur du paramètre **orientation** de la boîte de dialogue **ombre** (sous l’onglet **accueil** , dans le groupe **forme** , cliquez sur **ombre**, puis cliquez sur **Options d’ombres**).
+Cette valeur correspond à celle du paramètre **Orientation** de la boîte de dialogue **Ombre** (sous l’onglet **Accueil**, dans le groupe **Forme**, cliquez sur **Ombre**, puis cliquez sur **Options d’ombres**).
   
-Pour obtenir une référence à la cellule ShapeShdwObliqueAngle par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule ShapeShdwObliqueAngle par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de cellule :  <br/> | ShapeShdwObliqueAngle  <br/> |
    
-Pour obtenir une référence à la cellule ShapeShdwObliqueAngle par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule ShapeShdwObliqueAngle à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowFill** <br/> |
 | Index de la cellule :  <br/> |**visFillShdwObliqueAngle** <br/> |
    

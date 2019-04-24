@@ -7,42 +7,42 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b685fd0ebe4a2d0bfcfd8aab3015602b84932db7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 41fdaf333084b7d567f4e67ae9fd2638a1731349
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359787"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>Propriété canonique PidTagAddressBookChooseDirectoryAutomatically
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet à Microsoft Outlook 2010 et Microsoft Outlook 2013 de choisir la liste d’adresses globale (GAL) plus appropriée ou le dossier de contacts pour la boîte aux lettres en cours.
+Permet à Microsoft Outlook 2010 et à Microsoft Outlook 2013 de choisir la liste d'adresses globale (LAG) ou le dossier de contacts le plus approprié pour la boîte aux lettres actuelle.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY  <br/> |
 |Identificateur :  <br/> |0x3D1C000B  <br/> |
-|Type de propriété :  <br/> |PT_BOOLEAN  <br/> |
+|Type de propriété:  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Carnet d’adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété correspond au paramètre **d’Accepter automatiquement** dans la boîte de dialogue Options de carnet d’adresses. Lorsque cette propriété existe dans la section profil IID_CAPONE_PROF et est définie sur **true**, le carnet d’adresses, boîte de dialogue par défaut, le conteneur spécifié par la méthode [SetDefaultDir](iaddrbook-setdefaultdir.md) n’est plus mais choisit un carnet d’adresses qui Outlook 2010 ou Outlook 2013 estime appropriée pour le contexte dans lequel la boîte de dialogue a été affiché. Notez que cela peut entraîner une mauvaise expérience pour les fournisseurs de carnet d’adresses tiers. 
+Cette propriété correspond à l'option **choisir automatiquement** dans la boîte de dialogue Options du carnet d'adresses. Lorsque cette propriété existe dans la section de profil IID_CAPONE_PROF et qu'elle est définie sur **true**, la boîte de dialogue Carnet d'adresses n'utilise plus par défaut le conteneur spécifié par la méthode [SetDefaultDir](iaddrbook-setdefaultdir.md) , mais choisit un carnet d'adresses outlook 2010 ou Outlook 2013 estime approprié pour le contexte dans lequel la boîte de dialogue s'affichait. Notez que cela peut entraîner une mauvaise expérience des fournisseurs de carnets d'adresses tiers. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

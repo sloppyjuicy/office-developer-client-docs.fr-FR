@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f86266f192ffb1c86ca48f0fd5f99559737a9e76
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0a34c441a473154a43a107b4236ccc259d327dba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348054"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Crée un objet en mode hors connexion MAPI qui est utilisé par le fournisseur et le magasin afin d’informer MAPI lorsque l’objet passe en ligne et hors connexion, 
+ Crée un objet MAPI hors connexion qui est utilisé par le fournisseur et le magasin afin d'informer MAPI lorsque l'objet passe en ligne et hors connexion. 
   
 |||
 |:-----|:-----|
-|Exportés par :  <br/> |Msmapi32.dll  <br/> |
+|Exporté par:  <br/> |Msmapi32. dll  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
 |Appelé par :  <br/> |Client  <br/> |
    
@@ -35,19 +35,19 @@ IMAPIOfflineMgr** ppOffline
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
 _ulFlags_
   
-> [in] Il doit être 0.
+> dans Il doit être égal à 0.
     
 _pCreateInfo_
   
-> [in] Pointeur vers une structure **MAPIOFFLINE_CREATEINFO** qui contient les informations nécessaires pour créer l’objet en mode hors connexion. 
+> dans Pointeur vers une structure **MAPIOFFLINE_CREATEINFO** qui contient les informations nécessaires à la création de l'objet hors connexion. 
     
 _ppOffline_
   
-> [out] Pointeur vers l’interface **IMAPIOfflineMgr** . 
+> remarquer Pointeur vers l'interface **IMAPIOfflineMgr** . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
