@@ -11,54 +11,54 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 27659b69e0ae050206de18c1258ee593737fbd3b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 83a645b49e5bb48051bbaedb26058d2da053348b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342496"
 ---
-# <a name="pidtagmemberentryid-canonical-property"></a><span data-ttu-id="f41e0-103">Propriété canonique PidTagMemberEntryId</span><span class="sxs-lookup"><span data-stu-id="f41e0-103">PidTagMemberEntryId Canonical Property</span></span>
+# <a name="pidtagmemberentryid-canonical-property"></a><span data-ttu-id="29e0d-103">Propriété canonique PidTagMemberEntryId</span><span class="sxs-lookup"><span data-stu-id="29e0d-103">PidTagMemberEntryId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="f41e0-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f41e0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="29e0d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="29e0d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f41e0-105">Contient l’identificateur d’entrée directory objet d’un membre de table système access contrôle liste (SACL).</span><span class="sxs-lookup"><span data-stu-id="f41e0-105">Contains the directory object entry identifier of a system access control list (SACL) table member.</span></span>
+<span data-ttu-id="29e0d-105">Contient l'identificateur d'entrée d'objet d'annuaire d'un membre de la liste de contrôle d'accès système (SACL).</span><span class="sxs-lookup"><span data-stu-id="29e0d-105">Contains the directory object entry identifier of a system access control list (SACL) table member.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f41e0-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="f41e0-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f41e0-107">PR_MEMBER_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="f41e0-107">PR_MEMBER_ENTRYID</span></span>  <br/> |
-|<span data-ttu-id="f41e0-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="f41e0-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f41e0-109">0x0FFF</span><span class="sxs-lookup"><span data-stu-id="f41e0-109">0x0FFF</span></span>  <br/> |
-|<span data-ttu-id="f41e0-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="f41e0-110">Data type:</span></span>  <br/> |<span data-ttu-id="f41e0-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="f41e0-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="f41e0-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="f41e0-112">Area:</span></span>  <br/> |<span data-ttu-id="f41e0-113">Règles côté serveur</span><span class="sxs-lookup"><span data-stu-id="f41e0-113">Server Side Rules</span></span>  <br/> |
+|<span data-ttu-id="29e0d-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="29e0d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="29e0d-107">PR_MEMBER_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="29e0d-107">PR_MEMBER_ENTRYID</span></span>  <br/> |
+|<span data-ttu-id="29e0d-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="29e0d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="29e0d-109">0x0FFF</span><span class="sxs-lookup"><span data-stu-id="29e0d-109">0x0FFF</span></span>  <br/> |
+|<span data-ttu-id="29e0d-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="29e0d-110">Data type:</span></span>  <br/> |<span data-ttu-id="29e0d-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="29e0d-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="29e0d-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="29e0d-112">Area:</span></span>  <br/> |<span data-ttu-id="29e0d-113">Règles côté serveur</span><span class="sxs-lookup"><span data-stu-id="29e0d-113">Server Side Rules</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f41e0-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="f41e0-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="29e0d-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="29e0d-114">Remarks</span></span>
 
-<span data-ttu-id="f41e0-115">Cette propriété est utilisée par l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) pour identifier de manière unique une personne ou un rôle auquel s’applique la liste.</span><span class="sxs-lookup"><span data-stu-id="f41e0-115">This property is used by the [IExchangeModifyTable](iexchangemodifytableiunknown.md) interface to uniquely identify a person or role to whom the SACL applies.</span></span> <span data-ttu-id="f41e0-116">Après la création d’un membre de la table SACL, **propriété ENTRYID** ne peut pas être modifié.</span><span class="sxs-lookup"><span data-stu-id="f41e0-116">After a member is created in the SACL table, the **ENTRYID** cannot be changed.</span></span> <span data-ttu-id="f41e0-117">Pour le modifier, vous devez supprimer le membre de la table et recréer avec un autre **ID d’entrée**.</span><span class="sxs-lookup"><span data-stu-id="f41e0-117">To change it, you must delete the table member and re-create it with a different **ENTRYID**.</span></span>
+<span data-ttu-id="29e0d-115">Cette propriété est utilisée par l'interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) pour identifier de manière unique une personne ou un rôle auxquels s'applique la liste SACL.</span><span class="sxs-lookup"><span data-stu-id="29e0d-115">This property is used by the [IExchangeModifyTable](iexchangemodifytableiunknown.md) interface to uniquely identify a person or role to whom the SACL applies.</span></span> <span data-ttu-id="29e0d-116">Après la création d'un membre dans la table SACL, la propriété **EntryID** ne peut pas être modifiée.</span><span class="sxs-lookup"><span data-stu-id="29e0d-116">After a member is created in the SACL table, the **ENTRYID** cannot be changed.</span></span> <span data-ttu-id="29e0d-117">Pour le modifier, vous devez supprimer le membre de la table et le recréer avec un **EntryID**différent.</span><span class="sxs-lookup"><span data-stu-id="29e0d-117">To change it, you must delete the table member and re-create it with a different **ENTRYID**.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="f41e0-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="f41e0-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="29e0d-118">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="29e0d-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="f41e0-119">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="f41e0-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="29e0d-119">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="29e0d-119">Header files</span></span>
 
-<span data-ttu-id="f41e0-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f41e0-120">Mapidefs.h</span></span>
+<span data-ttu-id="29e0d-120">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="29e0d-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="f41e0-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="f41e0-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="29e0d-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="29e0d-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="f41e0-122">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="f41e0-122">Mapitags.h</span></span>
+<span data-ttu-id="29e0d-122">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="29e0d-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="f41e0-123">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="f41e0-123">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="29e0d-123">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="29e0d-123">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f41e0-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f41e0-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="29e0d-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="29e0d-124">See also</span></span>
 
 
 
-[<span data-ttu-id="f41e0-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="f41e0-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="29e0d-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="29e0d-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="f41e0-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="f41e0-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="29e0d-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="29e0d-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="f41e0-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="f41e0-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="29e0d-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="29e0d-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="f41e0-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="f41e0-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="29e0d-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="29e0d-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

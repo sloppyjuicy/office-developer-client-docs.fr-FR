@@ -8,58 +8,58 @@ f1_keywords:
 - Vis_DSS.chm82253246
 localization_priority: Normal
 ms.assetid: ff74bf11-e693-11e4-23fa-67e93aa203ff
-description: Objets de Microsoft Visio sont stockés en interne par un ensemble de formules. Vous pouvez afficher un objet Visio dans la fenêtre feuille ShapeSheet pour voir et modifier les formules sous-jacentes qui déterminent son aspect et son comportement.
-ms.openlocfilehash: c9fe1fe61c9a705367f675c0c969b9ce2db29101
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Les objets Microsoft Visio sont stockés en interne sous la forme d'un ensemble de formules. Vous pouvez afficher un objet Visio dans la fenêtre Feuille ShapeSheet afin de visualiser et de modifier les formules sous-jacentes qui en définissent l'aspect et le comportement.
+ms.openlocfilehash: a0fd5e0305a5520638eebb34f7ec0cdcbeea17fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342818"
 ---
-# <a name="show-an-object-in-the-shapesheet-window"></a><span data-ttu-id="8b4e6-104">Affichage d'un objet dans la fenêtre Feuille ShapeSheet</span><span class="sxs-lookup"><span data-stu-id="8b4e6-104">Show an Object in the ShapeSheet Window</span></span>
+# <a name="show-an-object-in-the-shapesheet-window"></a><span data-ttu-id="a6d0a-104">Afficher un objet dans la fenêtre Feuille ShapeSheet</span><span class="sxs-lookup"><span data-stu-id="a6d0a-104">Show an Object in the ShapeSheet Window</span></span>
 
-<span data-ttu-id="8b4e6-105">Objets de Microsoft Visio sont stockés en interne par un ensemble de formules.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-105">Microsoft Visio objects are stored internally as a set of formulas.</span></span> <span data-ttu-id="8b4e6-106">Vous pouvez afficher un objet Visio dans la fenêtre feuille ShapeSheet pour voir et modifier les formules sous-jacentes qui déterminent son aspect et son comportement.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-106">You can view a Visio object in the ShapeSheet window to see and edit the underlying formulas that determine its appearance and behavior.</span></span>
+<span data-ttu-id="a6d0a-105">Les objets Microsoft Visio sont stockés en interne sous la forme d'un ensemble de formules.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-105">Microsoft Visio objects are stored internally as a set of formulas.</span></span> <span data-ttu-id="a6d0a-106">Vous pouvez afficher un objet Visio dans la fenêtre Feuille ShapeSheet afin de visualiser et de modifier les formules sous-jacentes qui en définissent l'aspect et le comportement.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-106">You can view a Visio object in the ShapeSheet window to see and edit the underlying formulas that determine its appearance and behavior.</span></span>
   
-<span data-ttu-id="8b4e6-107">Pour savoir comment afficher un objet spécifique dans la fenêtre Feuille ShapeSheet, cliquez sur un élément dans la liste suivante.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-107">For details on how to show a specific object in the ShapeSheet window, click an element in the following list.</span></span>
+<span data-ttu-id="a6d0a-107">Pour savoir comment afficher un objet spécifique dans la fenêtre Feuille ShapeSheet, cliquez sur un élément dans la liste suivante.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-107">For details on how to show a specific object in the ShapeSheet window, click an element in the following list.</span></span>
   
-## <a name="show-a-shape-group-guide-guide-point-or-foreign-object"></a><span data-ttu-id="8b4e6-108">Afficher une forme, groupe, repère, point de repère ou un objet externe</span><span class="sxs-lookup"><span data-stu-id="8b4e6-108">Show a shape, group, guide, guide point, or foreign object</span></span>
+## <a name="show-a-shape-group-guide-guide-point-or-foreign-object"></a><span data-ttu-id="a6d0a-108">Affichage d'une forme, d'un groupe, d'un repère, d'un point de repère ou d'un objet externe</span><span class="sxs-lookup"><span data-stu-id="a6d0a-108">Show a shape, group, guide, guide point, or foreign object</span></span>
 
-1. <span data-ttu-id="8b4e6-109">Sélectionnez l'objet.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-109">Select the object.</span></span>
+1. <span data-ttu-id="a6d0a-109">Sélectionnez l'objet.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-109">Select the object.</span></span>
     
-2. <span data-ttu-id="8b4e6-110">Sous l’onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , cliquez sur **Afficher la feuille ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-110">On the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, click **Show ShapeSheet**.</span></span>
+2. <span data-ttu-id="a6d0a-110">Sous l’onglet [Développeur](run-in-developer-mode-display-the-developer-tab.md), cliquez sur **Afficher la feuille ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-110">On the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, click **Show ShapeSheet**.</span></span>
     
-## <a name="show-a-master"></a><span data-ttu-id="8b4e6-111">Afficher une forme de base</span><span class="sxs-lookup"><span data-stu-id="8b4e6-111">Show a master</span></span>
+## <a name="show-a-master"></a><span data-ttu-id="a6d0a-111">Affichage d'une forme de base</span><span class="sxs-lookup"><span data-stu-id="a6d0a-111">Show a master</span></span>
 
-<span data-ttu-id="8b4e6-112">Vous pouvez accéder à la fenêtre feuille ShapeSheet et modifier des formules que pour les formes de base d’un fichier personnalisé ou le gabarit de document.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-112">You can access the ShapeSheet window and edit formulas only for masters on a custom or document stencil.</span></span> <span data-ttu-id="8b4e6-113">À partir de Microsoft Office Visio 2003, vous ne pouvez modifier les masques sur les gabarits fournis avec le produit Visio.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-113">Beginning with Microsoft Office Visio 2003, you cannot edit masters on stencils that ship with the Visio product.</span></span>
+<span data-ttu-id="a6d0a-112">Vous pouvez accéder à la fenêtre feuille ShapeSheet et modifier des formules uniquement pour les formes de réplicas dans un gabarit personnalisé ou de document.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-112">You can access the ShapeSheet window and edit formulas only for masters on a custom or document stencil.</span></span> <span data-ttu-id="a6d0a-113">Depuis Microsoft Office Visio 2003, vous ne pouvez plus modifier les formes de base des gabarits fournis avec le produit Visio.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-113">Beginning with Microsoft Office Visio 2003, you cannot edit masters on stencils that ship with the Visio product.</span></span>
   
-1. <span data-ttu-id="8b4e6-114">Dans la fenêtre **formes** , cliquez sur **Autres formes**, puis cliquez sur **Ouvrir un gabarit**.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-114">In the **Shapes** window, click **More Shapes**, and then click **Open Stencil**.</span></span>
+1. <span data-ttu-id="a6d0a-114">Dans la fenêtre **Formes**, cliquez sur **Autres formes**, puis cliquez sur **Ouvrir un gabarit**.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-114">In the **Shapes** window, click **More Shapes**, and then click **Open Stencil**.</span></span>
     
-2. <span data-ttu-id="8b4e6-115">Recherchez et sélectionnez le gabarit contenant la forme de base, cliquez sur la flèche en regard du bouton **Ouvrir** , sélectionnez une option d’ouverture dans la liste déroulante, puis cliquez sur **Ouvrir**.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-115">Locate and select the stencil that contains the master, click the arrow next to the **Open** button, select an opening option from the drop-down list, and then click **Open**.</span></span> 
+2. <span data-ttu-id="a6d0a-115">Recherchez et sélectionnez le gabarit qui contient la forme de base, cliquez sur la flèche en regard du bouton **ouvrir** , sélectionnez une option d'ouverture dans la liste déroulante, puis cliquez sur **ouvrir**.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-115">Locate and select the stencil that contains the master, click the arrow next to the **Open** button, select an opening option from the drop-down list, and then click **Open**.</span></span> 
     
-    <span data-ttu-id="8b4e6-116">Si le gabarit est déjà ouvert, avec le bouton droit de la barre de titre du gabarit, puis cliquez sur **Modifier le gabarit** dans le menu contextuel.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-116">If the stencil is already open, right-click the stencil title bar, and then click **Edit Stencil** on the shortcut menu.</span></span> 
+    <span data-ttu-id="a6d0a-116">Si le gabarit est déjà ouvert, cliquez avec le bouton droit sur la barre de titre du gabarit, puis cliquez sur **modifier le gabarit** dans le menu contextuel.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-116">If the stencil is already open, right-click the stencil title bar, and then click **Edit Stencil** on the shortcut menu.</span></span> 
     
-3. <span data-ttu-id="8b4e6-117">Avec le bouton droit de la forme de base du gabarit et cliquez sur **Modifier la forme** dans le menu contextuel, puis cliquez sur **Modifier la forme de base**.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-117">Right-click the master on the stencil, click **Edit Master** on the shortcut menu, and then click **Edit Master Shape**.</span></span>
+3. <span data-ttu-id="a6d0a-117">Cliquez avec le bouton droit de la souris sur la forme de base dans le gabarit, cliquez sur **Modifier la forme de base** dans le menu contextuel, puis cliquez sur **Modifier la forme de base**.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-117">Right-click the master on the stencil, click **Edit Master** on the shortcut menu, and then click **Edit Master Shape**.</span></span>
     
-4. <span data-ttu-id="8b4e6-118">Dans la fenêtre d’édition principale, avec le bouton droit de la forme de base, puis sur **Afficher la feuille ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-118">In the master editing window, right-click the master and then click **Show ShapeSheet**.</span></span>
+4. <span data-ttu-id="a6d0a-118">Dans la fenêtre d’édition de forme de base, cliquez avec le bouton droit sur la forme de base, puis cliquez sur **Afficher la feuille ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-118">In the master editing window, right-click the master and then click **Show ShapeSheet**.</span></span>
     
-## <a name="show-a-page"></a><span data-ttu-id="8b4e6-119">Affichage d’une page</span><span class="sxs-lookup"><span data-stu-id="8b4e6-119">Show a page</span></span>
+## <a name="show-a-page"></a><span data-ttu-id="a6d0a-119">Affichage d'une page</span><span class="sxs-lookup"><span data-stu-id="a6d0a-119">Show a page</span></span>
 
-1. <span data-ttu-id="8b4e6-120">Vérifiez qu'aucun élément de la page n'est sélectionné.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-120">Make sure nothing on the page is selected.</span></span>
+1. <span data-ttu-id="a6d0a-120">Vérifiez qu'aucun élément de la page n'est sélectionné.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-120">Make sure nothing on the page is selected.</span></span>
     
-2. <span data-ttu-id="8b4e6-121">Avec le bouton droit de la page, puis cliquez sur **Afficher la feuille ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-121">Right-click the page and then click **Show ShapeSheet**.</span></span>
+2. <span data-ttu-id="a6d0a-121">Cliquez avec le bouton droit de la souris sur le document, puis cliquez sur **Afficher la feuille ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-121">Right-click the page and then click **Show ShapeSheet**.</span></span>
     
-## <a name="show-a-document"></a><span data-ttu-id="8b4e6-122">Affichage d’un document</span><span class="sxs-lookup"><span data-stu-id="8b4e6-122">Show a document</span></span>
+## <a name="show-a-document"></a><span data-ttu-id="a6d0a-122">Affichage d'un document</span><span class="sxs-lookup"><span data-stu-id="a6d0a-122">Show a document</span></span>
 
-1. <span data-ttu-id="8b4e6-123">Sous l’onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , dans le groupe **Afficher/masquer** , sélectionnez **Fenêtre Explorateur de dessins**.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-123">On the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Show/Hide** group, select **Drawing Explorer Window**.</span></span>
+1. <span data-ttu-id="a6d0a-123">Sous l'onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , dans le groupe **Afficher/masquer** , sélectionnez **fenêtre Explorateur de dessins**.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-123">On the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Show/Hide** group, select **Drawing Explorer Window**.</span></span>
     
-2. <span data-ttu-id="8b4e6-124">Dans l' **Explorateur de dessins**, cliquez sur le document, puis cliquez sur **Afficher la feuille ShapeSheet** dans le menu contextuel.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-124">In the **Drawing Explorer**, right-click the document, and then click **Show ShapeSheet** on the shortcut menu.</span></span> 
+2. <span data-ttu-id="a6d0a-124">Dans l’**Explorateur de dessins**, cliquez avec le bouton droit sur le document, puis cliquez sur **Afficher la Feuille ShapeSheet** dans le menu contextuel.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-124">In the **Drawing Explorer**, right-click the document, and then click **Show ShapeSheet** on the shortcut menu.</span></span> 
     
-## <a name="show-a-style"></a><span data-ttu-id="8b4e6-125">Affichage d’un style</span><span class="sxs-lookup"><span data-stu-id="8b4e6-125">Show a style</span></span>
+## <a name="show-a-style"></a><span data-ttu-id="a6d0a-125">Affichage d'un style</span><span class="sxs-lookup"><span data-stu-id="a6d0a-125">Show a style</span></span>
 
-1. <span data-ttu-id="8b4e6-126">Sous l’onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , dans le groupe **Afficher/masquer** , sélectionnez **Fenêtre Explorateur de dessins**.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-126">On the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Show/Hide** group, select **Drawing Explorer Window**.</span></span>
+1. <span data-ttu-id="a6d0a-126">Sous l'onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , dans le groupe **Afficher/masquer** , sélectionnez **fenêtre Explorateur de dessins**.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-126">On the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Show/Hide** group, select **Drawing Explorer Window**.</span></span>
     
-2. <span data-ttu-id="8b4e6-127">Dans l' **Explorateur de dessins**, développez le dossier **Styles** .</span><span class="sxs-lookup"><span data-stu-id="8b4e6-127">In the **Drawing Explorer**, expand the **Styles** folder.</span></span> 
+2. <span data-ttu-id="a6d0a-127">Dans la fenêtre **Explorateur de dessins**, développez le dossier **Styles**.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-127">In the **Drawing Explorer**, expand the **Styles** folder.</span></span> 
     
-3. <span data-ttu-id="8b4e6-128">Le style d’avec le bouton droit, puis cliquez sur **Afficher la feuille ShapeSheet** dans le menu contextuel.</span><span class="sxs-lookup"><span data-stu-id="8b4e6-128">Right-click the style, and then click **Show ShapeSheet** on the shortcut menu.</span></span> 
+3. <span data-ttu-id="a6d0a-128">Cliquez avec le bouton droit de la souris sur le style, puis cliquez sur **Afficher la feuille ShapeSheet** dans le menu contextuel.</span><span class="sxs-lookup"><span data-stu-id="a6d0a-128">Right-click the style, and then click **Show ShapeSheet** on the shortcut menu.</span></span> 
     
 

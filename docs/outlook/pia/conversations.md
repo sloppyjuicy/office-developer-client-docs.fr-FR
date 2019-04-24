@@ -8,26 +8,26 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 34e3b65012d7e5afed02d63fc8360b587f9f4445
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361074"
 ---
-# <a name="conversations"></a><span data-ttu-id="ba198-102">Conversations</span><span class="sxs-lookup"><span data-stu-id="ba198-102">Conversations</span></span>
+# <a name="conversations"></a><span data-ttu-id="c132b-102">Conversations</span><span class="sxs-lookup"><span data-stu-id="c132b-102">Conversations</span></span>
 
-<span data-ttu-id="ba198-103">Cette section fournit des exemples de tâches qui mettent en œuvre des conversations.</span><span class="sxs-lookup"><span data-stu-id="ba198-103">This section provides sample tasks that involve conversations.</span></span> <span data-ttu-id="ba198-104">Les conversations dans Outlook sont représentées par l’objet [Conversation](https://msdn.microsoft.com/library/ff184711\(v=office.15\)) et incluent un ou plusieurs éléments dans un dossier qui partagent le même titre de sujet ou le même fil de discussion.</span><span class="sxs-lookup"><span data-stu-id="ba198-104">Conversations in Outlook are represented by the [Conversation](https://msdn.microsoft.com/library/ff184711\(v=office.15\)) object and include one or more items in a folder that share the same subject heading or thread.</span></span>
+<span data-ttu-id="c132b-103">Cette section fournit des exemples de tâches qui mettent en œuvre des conversations.</span><span class="sxs-lookup"><span data-stu-id="c132b-103">This section provides sample tasks that involve conversations.</span></span> <span data-ttu-id="c132b-104">Les conversations dans Outlook sont représentées par l’objet [Conversation](https://msdn.microsoft.com/library/ff184711\(v=office.15\)) et incluent un ou plusieurs éléments dans un dossier qui partagent le même titre de sujet ou le même fil de discussion.</span><span class="sxs-lookup"><span data-stu-id="c132b-104">Conversations in Outlook are represented by the [Conversation](https://msdn.microsoft.com/library/ff184711\(v=office.15\)) object and include one or more items in a folder that share the same subject heading or thread.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="ba198-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="ba198-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c132b-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="c132b-105">In this section</span></span>
 
-|<span data-ttu-id="ba198-106">Rubrique</span><span class="sxs-lookup"><span data-stu-id="ba198-106">Topic</span></span>|<span data-ttu-id="ba198-107">Description</span><span class="sxs-lookup"><span data-stu-id="ba198-107">Description</span></span>|
+|<span data-ttu-id="c132b-106">Rubrique</span><span class="sxs-lookup"><span data-stu-id="c132b-106">Topic</span></span>|<span data-ttu-id="c132b-107">Description</span><span class="sxs-lookup"><span data-stu-id="c132b-107">Description</span></span>|
 |:----|:----------|
-|[<span data-ttu-id="ba198-108">Obtenir et afficher les éléments dans une conversation</span><span class="sxs-lookup"><span data-stu-id="ba198-108">Get and display items in a conversation</span></span>](how-to-get-and-display-items-in-a-conversation.md)  |<span data-ttu-id="ba198-109">Obtient et affiche les éléments de courrier électronique dans une conversation.</span><span class="sxs-lookup"><span data-stu-id="ba198-109">Gets and displays mail items in a conversation.</span></span>|
-|[<span data-ttu-id="ba198-110">Obtenir et énumérer les conversations sélectionnées</span><span class="sxs-lookup"><span data-stu-id="ba198-110">Get and enumerate selected conversations</span></span>](how-to-get-and-enumerate-selected-conversations.md)  |<span data-ttu-id="ba198-111">Obtient et énumère les conversations sélectionnées à l’aide de la méthode [GetSelection(OlSelectionContents)](https://msdn.microsoft.com/library/ff185002\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="ba198-111">Obtains and enumerates selected conversations by using the [GetSelection(OlSelectionContents)](https://msdn.microsoft.com/library/ff185002\(v=office.15\)) method.</span></span>|
+|[<span data-ttu-id="c132b-108">Obtenir et afficher les éléments dans une conversation</span><span class="sxs-lookup"><span data-stu-id="c132b-108">Get and display items in a conversation</span></span>](how-to-get-and-display-items-in-a-conversation.md)  |<span data-ttu-id="c132b-109">Obtient et affiche les éléments de courrier électronique dans une conversation.</span><span class="sxs-lookup"><span data-stu-id="c132b-109">Gets and displays mail items in a conversation.</span></span>|
+|[<span data-ttu-id="c132b-110">Obtenir et énumérer les conversations sélectionnées</span><span class="sxs-lookup"><span data-stu-id="c132b-110">Get and enumerate selected conversations</span></span>](how-to-get-and-enumerate-selected-conversations.md)  |<span data-ttu-id="c132b-111">Obtient et énumère les conversations sélectionnées à l’aide de la méthode [GetSelection(OlSelectionContents)](https://msdn.microsoft.com/library/ff185002\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="c132b-111">Obtains and enumerates selected conversations by using the [GetSelection(OlSelectionContents)](https://msdn.microsoft.com/library/ff185002\(v=office.15\)) method.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="ba198-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ba198-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c132b-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c132b-112">See also</span></span>
 
-- [<span data-ttu-id="ba198-113">Dossiers</span><span class="sxs-lookup"><span data-stu-id="ba198-113">Folders</span></span>](folders.md)
-- [<span data-ttu-id="ba198-114">Courrier</span><span class="sxs-lookup"><span data-stu-id="ba198-114">Mail</span></span>](mail.md)
-- [<span data-ttu-id="ba198-115">Procédure (Référence PIA Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="ba198-115">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
+- [<span data-ttu-id="c132b-113">Dossiers</span><span class="sxs-lookup"><span data-stu-id="c132b-113">Folders</span></span>](folders.md)
+- [<span data-ttu-id="c132b-114">Courrier</span><span class="sxs-lookup"><span data-stu-id="c132b-114">Mail</span></span>](mail.md)
+- [<span data-ttu-id="c132b-115">Procédure (Référence PIA Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="c132b-115">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
 

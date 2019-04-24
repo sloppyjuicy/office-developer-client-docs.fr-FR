@@ -1,52 +1,53 @@
 ---
-title: Fonction de la police
+title: Fonction FONT
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 20b587ee-87bf-4648-99ec-ddedd703d9fd
-description: Renvoie la valeur d’entier de l’identificateur unique pour une police, spécifiée par nom.
-ms.openlocfilehash: 4afd2aa05f2103675bf0df8db5cc7ea21f45fe71
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la valeur entière de l'identificateur unique d'une police, spécifiée par son nom.
+ms.openlocfilehash: 7ae6fe6dc8bb9c718a358d11d4a6a0227eaf18df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346136"
 ---
-# <a name="font-function"></a><span data-ttu-id="f6b0e-103">Fonction de la police</span><span class="sxs-lookup"><span data-stu-id="f6b0e-103">FONT Function</span></span>
+# <a name="font-function"></a><span data-ttu-id="b67fc-103">Fonction FONT</span><span class="sxs-lookup"><span data-stu-id="b67fc-103">FONT Function</span></span>
 
-<span data-ttu-id="f6b0e-104">Renvoie la valeur d’entier de l’identificateur unique pour une police, spécifiée par nom.</span><span class="sxs-lookup"><span data-stu-id="f6b0e-104">Returns the integer value of the unique identifier for a font, specified by name.</span></span>
+<span data-ttu-id="b67fc-104">Renvoie la valeur entière de l'identificateur unique d'une police, spécifiée par son nom.</span><span class="sxs-lookup"><span data-stu-id="b67fc-104">Returns the integer value of the unique identifier for a font, specified by name.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="f6b0e-105">Dans la plupart des cas, l’identificateur de la police est spécifiques au système.</span><span class="sxs-lookup"><span data-stu-id="f6b0e-105">In most cases, the font identifier is system-specific.</span></span> <span data-ttu-id="f6b0e-106">Bien que la police reste établie autrefois utilisé dans un fichier, la fonction de **police** offre un accès cohérent à une police spécifique sur les systèmes et les versions de Visio.</span><span class="sxs-lookup"><span data-stu-id="f6b0e-106">Although the font remains established once used in a file, the **FONT** function provides consistent access to a particular font across systems and versions of Visio.</span></span> <span data-ttu-id="f6b0e-107">Il est recommandé d’utiliser la fonction de la **police** pour affecter des polices au lieu de faire référence aux identificateurs de police directement.</span><span class="sxs-lookup"><span data-stu-id="f6b0e-107">It is recommended that you use the **FONT** function to assign fonts instead of referring to font identifiers directly.</span></span> 
+> <span data-ttu-id="b67fc-105">Dans la plupart des cas, l'identificateur de police est propre au système.</span><span class="sxs-lookup"><span data-stu-id="b67fc-105">In most cases, the font identifier is system-specific.</span></span> <span data-ttu-id="b67fc-106">Bien que la police reste créée une fois utilisée dans un fichier, la fonction **font** offre un accès cohérent à une police particulière entre les systèmes et les versions de Visio.</span><span class="sxs-lookup"><span data-stu-id="b67fc-106">Although the font remains established once used in a file, the **FONT** function provides consistent access to a particular font across systems and versions of Visio.</span></span> <span data-ttu-id="b67fc-107">Il est recommandé d'utiliser la fonction **font** pour affecter des polices au lieu de faire référence à des identificateurs de police directement.</span><span class="sxs-lookup"><span data-stu-id="b67fc-107">It is recommended that you use the **FONT** function to assign fonts instead of referring to font identifiers directly.</span></span> 
   
-## <a name="version-information"></a><span data-ttu-id="f6b0e-108">Informations de version</span><span class="sxs-lookup"><span data-stu-id="f6b0e-108">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="b67fc-108">Informations de version</span><span class="sxs-lookup"><span data-stu-id="b67fc-108">Version Information</span></span>
 
-<span data-ttu-id="f6b0e-109">Version ajoutée : Visio 2013</span><span class="sxs-lookup"><span data-stu-id="f6b0e-109">Version Added: Visio 2013</span></span> 
+<span data-ttu-id="b67fc-109">Version ajoutée : Visio 2013
+</span><span class="sxs-lookup"><span data-stu-id="b67fc-109">Version Added: Visio 2013</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f6b0e-110">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f6b0e-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b67fc-110">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b67fc-110">Syntax</span></span>
 
- <span data-ttu-id="f6b0e-111">**Police** ( _« font_name_string »_)</span><span class="sxs-lookup"><span data-stu-id="f6b0e-111">**FONT**( _"font_name_string"_)</span></span>
+ <span data-ttu-id="b67fc-111">**Police** ( _«font_name_string»_)</span><span class="sxs-lookup"><span data-stu-id="b67fc-111">**FONT**( _"font_name_string"_)</span></span>
   
-### <a name="parameters"></a><span data-ttu-id="f6b0e-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="f6b0e-112">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="b67fc-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="b67fc-112">Parameters</span></span>
 
-|<span data-ttu-id="f6b0e-113">**Name**</span><span class="sxs-lookup"><span data-stu-id="f6b0e-113">**Name**</span></span>|<span data-ttu-id="f6b0e-114">**Obligatoire/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="f6b0e-114">**Required/Optional**</span></span>|<span data-ttu-id="f6b0e-115">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="f6b0e-115">**Data Type**</span></span>|<span data-ttu-id="f6b0e-116">**Description**</span><span class="sxs-lookup"><span data-stu-id="f6b0e-116">**Description**</span></span>|
+|<span data-ttu-id="b67fc-113">**Nom**</span><span class="sxs-lookup"><span data-stu-id="b67fc-113">**Name**</span></span>|<span data-ttu-id="b67fc-114">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="b67fc-114">**Required/Optional**</span></span>|<span data-ttu-id="b67fc-115">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="b67fc-115">**Data Type**</span></span>|<span data-ttu-id="b67fc-116">**Description**</span><span class="sxs-lookup"><span data-stu-id="b67fc-116">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="f6b0e-117">_font_name_string_</span><span class="sxs-lookup"><span data-stu-id="f6b0e-117">_font_name_string_</span></span> <br/> |<span data-ttu-id="f6b0e-118">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="f6b0e-118">Required</span></span>  <br/> |<span data-ttu-id="f6b0e-119">**string**</span><span class="sxs-lookup"><span data-stu-id="f6b0e-119">**string**</span></span> <br/> |<span data-ttu-id="f6b0e-120">Nom de la police.</span><span class="sxs-lookup"><span data-stu-id="f6b0e-120">The name of the font.</span></span>  <br/> |
+| <span data-ttu-id="b67fc-117">_font_name_string_</span><span class="sxs-lookup"><span data-stu-id="b67fc-117">_font_name_string_</span></span> <br/> |<span data-ttu-id="b67fc-118">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="b67fc-118">Required</span></span>  <br/> |<span data-ttu-id="b67fc-119">**chaîne**</span><span class="sxs-lookup"><span data-stu-id="b67fc-119">**string**</span></span> <br/> |<span data-ttu-id="b67fc-120">Nom de la police.</span><span class="sxs-lookup"><span data-stu-id="b67fc-120">The name of the font.</span></span>  <br/> |
    
-## <a name="return-value"></a><span data-ttu-id="f6b0e-121">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="f6b0e-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b67fc-121">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="b67fc-121">Return value</span></span>
 
-<span data-ttu-id="f6b0e-122">Entier</span><span class="sxs-lookup"><span data-stu-id="f6b0e-122">Integer</span></span>
+<span data-ttu-id="b67fc-122">Entier</span><span class="sxs-lookup"><span data-stu-id="b67fc-122">Integer</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f6b0e-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="f6b0e-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b67fc-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="b67fc-123">Remarks</span></span>
 
-<span data-ttu-id="f6b0e-124">Si la chaîne fournie pour *font_name_string* ne correspond pas à une police connue, cette fonction renvoie une #VALUE !</span><span class="sxs-lookup"><span data-stu-id="f6b0e-124">If the string provided for  *font_name_string*  does not match a known font, this function returns a #VALUE!</span></span> <span data-ttu-id="f6b0e-125">erreur.</span><span class="sxs-lookup"><span data-stu-id="f6b0e-125">error.</span></span> 
+<span data-ttu-id="b67fc-124">Si la chaîne fournie pour *font_name_string* ne correspond pas à une police connue, cette fonction renvoie une #VALUE!</span><span class="sxs-lookup"><span data-stu-id="b67fc-124">If the string provided for  *font_name_string*  does not match a known font, this function returns a #VALUE!</span></span> <span data-ttu-id="b67fc-125">«.</span><span class="sxs-lookup"><span data-stu-id="b67fc-125">error.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="f6b0e-126">Exemple</span><span class="sxs-lookup"><span data-stu-id="f6b0e-126">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b67fc-126">Exemple</span><span class="sxs-lookup"><span data-stu-id="b67fc-126">Example</span></span>
 
  `FONT("Calibri")`
   
-<span data-ttu-id="f6b0e-127">Renvoie la valeur d’entier (4) qui représente l’identificateur unique pour la police « Calibri ».</span><span class="sxs-lookup"><span data-stu-id="f6b0e-127">Returns the integer value (4) representing the unique ID for the "Calibri" font.</span></span>
+<span data-ttu-id="b67fc-127">Renvoie la valeur de type Integer (4) représentant l'ID unique de la police «Calibri».</span><span class="sxs-lookup"><span data-stu-id="b67fc-127">Returns the integer value (4) representing the unique ID for the "Calibri" font.</span></span>
   
 

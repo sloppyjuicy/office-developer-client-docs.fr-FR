@@ -7,27 +7,27 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ce3a583c-16a9-4268-9476-926d2780eae5
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9572f44f1f4865fcce5d7aa8bd8478340b0de968
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2eb643e0002e2159e3197d66e021aba0bb8c126f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347774"
 ---
-# <a name="hropenabentrywithresolvedrow"></a><span data-ttu-id="4ea13-103">HrOpenABEntryWithResolvedRow</span><span class="sxs-lookup"><span data-stu-id="4ea13-103">HrOpenABEntryWithResolvedRow</span></span>
+# <a name="hropenabentrywithresolvedrow"></a><span data-ttu-id="c8c41-103">HrOpenABEntryWithResolvedRow</span><span class="sxs-lookup"><span data-stu-id="c8c41-103">HrOpenABEntryWithResolvedRow</span></span>
 
   
   
-<span data-ttu-id="4ea13-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4ea13-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c8c41-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c8c41-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4ea13-105">Effectue la même fonction que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) sauf qu’elle obtient **emsabpUID** à partir de la ligne résolue et ouvre **propriété entryID**automatiquement.</span><span class="sxs-lookup"><span data-stu-id="4ea13-105">Performs the same function as [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) except that it automatically gets the **emsabpUID** from the resolved row and opens the **entryID**.</span></span>
+<span data-ttu-id="c8c41-105">Effectue la même fonction que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) , sauf qu'il obtient automatiquement **emsabpUID** à partir de la ligne résolue et ouvre la propriété **entryID**.</span><span class="sxs-lookup"><span data-stu-id="c8c41-105">Performs the same function as [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) except that it automatically gets the **emsabpUID** from the resolved row and opens the **entryID**.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4ea13-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="4ea13-106">Header file:</span></span>  <br/> |<span data-ttu-id="4ea13-107">abhelp.h</span><span class="sxs-lookup"><span data-stu-id="4ea13-107">abhelp.h</span></span>  <br/> |
-|<span data-ttu-id="4ea13-108">Implémentée par :</span><span class="sxs-lookup"><span data-stu-id="4ea13-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="4ea13-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="4ea13-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="4ea13-110">Appelée par :</span><span class="sxs-lookup"><span data-stu-id="4ea13-110">Called by:</span></span>  <br/> |<span data-ttu-id="4ea13-111">Les applications clientes et des fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="4ea13-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="c8c41-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="c8c41-106">Header file:</span></span>  <br/> |<span data-ttu-id="c8c41-107">abhelp. h</span><span class="sxs-lookup"><span data-stu-id="c8c41-107">abhelp.h</span></span>  <br/> |
+|<span data-ttu-id="c8c41-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="c8c41-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="c8c41-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="c8c41-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="c8c41-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="c8c41-110">Called by:</span></span>  <br/> |<span data-ttu-id="c8c41-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="c8c41-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT HrOpenABEntryWithResolvedRow(
@@ -42,62 +42,62 @@ HRESULT HrOpenABEntryWithResolvedRow(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4ea13-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4ea13-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c8c41-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c8c41-112">Parameters</span></span>
 
- <span data-ttu-id="4ea13-113">_prwResolved_</span><span class="sxs-lookup"><span data-stu-id="4ea13-113">_prwResolved_</span></span>
+ <span data-ttu-id="c8c41-113">_prwResolved_</span><span class="sxs-lookup"><span data-stu-id="c8c41-113">_prwResolved_</span></span>
   
-> <span data-ttu-id="4ea13-114">[in] Pointeur vers la ligne résolu qui est utilisée pour obtenir **emsabpUID** et ouvrez **entryID**.</span><span class="sxs-lookup"><span data-stu-id="4ea13-114">[in] A pointer to the resolved row that is used to get the **emsabpUID** and open the **entryID**.</span></span>
+> <span data-ttu-id="c8c41-114">dans Pointeur vers la ligne résolue utilisée pour obtenir le **emsabpUID** et ouvrir la propriété **entryID**.</span><span class="sxs-lookup"><span data-stu-id="c8c41-114">[in] A pointer to the resolved row that is used to get the **emsabpUID** and open the **entryID**.</span></span>
     
- <span data-ttu-id="4ea13-115">_pAddrBook_</span><span class="sxs-lookup"><span data-stu-id="4ea13-115">_pAddrBook_</span></span>
+ <span data-ttu-id="c8c41-115">_pAddrBook_</span><span class="sxs-lookup"><span data-stu-id="c8c41-115">_pAddrBook_</span></span>
   
-> <span data-ttu-id="4ea13-116">[in] Le carnet d’adresses utilisée pour ouvrir l’identificateur d’entrée.</span><span class="sxs-lookup"><span data-stu-id="4ea13-116">[in] The address book used to open the entry identifier.</span></span> <span data-ttu-id="4ea13-117">Il ne peut pas être NULL.</span><span class="sxs-lookup"><span data-stu-id="4ea13-117">It cannot be NULL.</span></span>
+> <span data-ttu-id="c8c41-116">dans Carnet d'adresses utilisé pour ouvrir l'identificateur d'entrée.</span><span class="sxs-lookup"><span data-stu-id="c8c41-116">[in] The address book used to open the entry identifier.</span></span> <span data-ttu-id="c8c41-117">Il ne peut pas être NULL.</span><span class="sxs-lookup"><span data-stu-id="c8c41-117">It cannot be NULL.</span></span>
     
- <span data-ttu-id="4ea13-118">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="4ea13-118">_cbEntryID_</span></span>
+ <span data-ttu-id="c8c41-118">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="c8c41-118">_cbEntryID_</span></span>
   
-> <span data-ttu-id="4ea13-119">[in] Nombre d’octets de l’identificateur d’entrée spécifié par le paramètre _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="4ea13-119">[in] The byte count of the entry identifier specified by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="c8c41-119">dans Nombre d'octets de l'identificateur d'entrée spécifié par le paramètre _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="c8c41-119">[in] The byte count of the entry identifier specified by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="4ea13-120">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="4ea13-120">_lpEntryID_</span></span>
+ <span data-ttu-id="c8c41-120">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="c8c41-120">_lpEntryID_</span></span>
   
->  <span data-ttu-id="4ea13-121">[in] Pointeur vers l’identificateur d’entrée qui représente l’entrée du carnet d’adresses à ouvrir.</span><span class="sxs-lookup"><span data-stu-id="4ea13-121">[in] A pointer to the entry identifier that represents the address book entry to open.</span></span> 
+>  <span data-ttu-id="c8c41-121">dans Pointeur vers l'identificateur d'entrée qui représente l'entrée de carnet d'adresses à ouvrir.</span><span class="sxs-lookup"><span data-stu-id="c8c41-121">[in] A pointer to the entry identifier that represents the address book entry to open.</span></span> 
     
- <span data-ttu-id="4ea13-122">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="4ea13-122">_lpInterface_</span></span>
+ <span data-ttu-id="c8c41-122">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="c8c41-122">_lpInterface_</span></span>
   
-> <span data-ttu-id="4ea13-123">[in] Pointeur vers l’identificateur d’interface (IID) de l’interface qui est utilisée pour accéder à l’entrée open.</span><span class="sxs-lookup"><span data-stu-id="4ea13-123">[in] A pointer to the interface identifier (IID) of the interface that is used to access the open entry.</span></span> <span data-ttu-id="4ea13-124">Passage de NULL renvoie l’interface standard de l’objet.</span><span class="sxs-lookup"><span data-stu-id="4ea13-124">Passing NULL returns the standard interface of the object.</span></span> <span data-ttu-id="4ea13-125">Pour les utilisateurs de messagerie, l’interface standard est [IMailUser : IMAPIProp](imailuserimapiprop.md).</span><span class="sxs-lookup"><span data-stu-id="4ea13-125">For messaging users, the standard interface is [IMailUser : IMAPIProp](imailuserimapiprop.md).</span></span> <span data-ttu-id="4ea13-126">Pour les listes de distribution, il est [IDistList : IMAPIContainer](idistlistimapicontainer.md)et pour les conteneurs, il est [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md).</span><span class="sxs-lookup"><span data-stu-id="4ea13-126">For distribution lists, it is [IDistList : IMAPIContainer](idistlistimapicontainer.md)and for containers, it is [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md).</span></span> <span data-ttu-id="4ea13-127">Les appelants peuvent définir _lpInterface_ à l’interface standard ou d’une interface dans la hiérarchie d’héritage.</span><span class="sxs-lookup"><span data-stu-id="4ea13-127">Callers can set  _lpInterface_ to the appropriate standard interface or an interface in the inheritance hierarchy.</span></span> 
+> <span data-ttu-id="c8c41-123">dans Pointeur vers l'identificateur d'interface (IID) de l'interface qui est utilisé pour accéder à l'entrée ouverte.</span><span class="sxs-lookup"><span data-stu-id="c8c41-123">[in] A pointer to the interface identifier (IID) of the interface that is used to access the open entry.</span></span> <span data-ttu-id="c8c41-124">Le passage de la valeur NULL renvoie l'interface standard de l'objet.</span><span class="sxs-lookup"><span data-stu-id="c8c41-124">Passing NULL returns the standard interface of the object.</span></span> <span data-ttu-id="c8c41-125">Pour les utilisateurs de messagerie, l'interface standard est [IMailUser: IMAPIProp](imailuserimapiprop.md).</span><span class="sxs-lookup"><span data-stu-id="c8c41-125">For messaging users, the standard interface is [IMailUser : IMAPIProp](imailuserimapiprop.md).</span></span> <span data-ttu-id="c8c41-126">Pour les listes de distribution, il s'agit de [IDistList: IMAPIContainer](idistlistimapicontainer.md)et pour les conteneurs, il s'agit de [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md).</span><span class="sxs-lookup"><span data-stu-id="c8c41-126">For distribution lists, it is [IDistList : IMAPIContainer](idistlistimapicontainer.md)and for containers, it is [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md).</span></span> <span data-ttu-id="c8c41-127">Les appelants peuvent définir _lpInterface_ sur l'interface standard appropriée ou une interface dans la hiérarchie d'héritage.</span><span class="sxs-lookup"><span data-stu-id="c8c41-127">Callers can set  _lpInterface_ to the appropriate standard interface or an interface in the inheritance hierarchy.</span></span> 
     
- <span data-ttu-id="4ea13-128">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="4ea13-128">_ulFlags_</span></span>
+ <span data-ttu-id="c8c41-128">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c8c41-128">_ulFlags_</span></span>
   
-> <span data-ttu-id="4ea13-129">[in] Masque de bits d’indicateurs qui contrôle la façon dont l’entrée est ouvert.</span><span class="sxs-lookup"><span data-stu-id="4ea13-129">[in] A bitmask of flags that controls how the entry is opened.</span></span> <span data-ttu-id="4ea13-130">Les indicateurs suivants peuvent être définis :</span><span class="sxs-lookup"><span data-stu-id="4ea13-130">The following flags can be set:</span></span>
+> <span data-ttu-id="c8c41-129">dans Masque de des indicateurs qui contrôle le mode d'ouverture de l'entrée.</span><span class="sxs-lookup"><span data-stu-id="c8c41-129">[in] A bitmask of flags that controls how the entry is opened.</span></span> <span data-ttu-id="c8c41-130">Les indicateurs suivants peuvent être définis:</span><span class="sxs-lookup"><span data-stu-id="c8c41-130">The following flags can be set:</span></span>
     
-<span data-ttu-id="4ea13-131">MAPI_BEST_ACCESS</span><span class="sxs-lookup"><span data-stu-id="4ea13-131">MAPI_BEST_ACCESS</span></span>
+<span data-ttu-id="c8c41-131">MAPI_BEST_ACCESS</span><span class="sxs-lookup"><span data-stu-id="c8c41-131">MAPI_BEST_ACCESS</span></span>
   
-> <span data-ttu-id="4ea13-132">Demandes que l’entrée s’ouvre avec les autorisations maximales autorisées réseau et le client.</span><span class="sxs-lookup"><span data-stu-id="4ea13-132">Requests that the entry be opened with the maximum allowed network and client permissions.</span></span> <span data-ttu-id="4ea13-133">Par exemple, si le client dispose de lecture et l’autorisation d’écriture, le fournisseur de carnet d’adresses essaie ouvrir l’entrée en lecture et l’autorisation d’écriture.</span><span class="sxs-lookup"><span data-stu-id="4ea13-133">For example, if the client has read and write permission, the address book provider attempts to open the entry with read and write permission.</span></span> <span data-ttu-id="4ea13-134">Le client peut extraire le niveau d’accès qui a été accordé en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de l’écriture ouverte et de récupération de la propriété PR_ACCESS_LEVEL (PidTagAccessLevel).</span><span class="sxs-lookup"><span data-stu-id="4ea13-134">The client can retrieve the access level that was granted by calling the [IMAPIProp::GetProps](imapiprop-getprops.md) method of the open entry and retrieving the PR_ACCESS_LEVEL (PidTagAccessLevel) property.</span></span> 
+> <span data-ttu-id="c8c41-132">Demande que l'entrée soit ouverte avec les autorisations réseau et client maximales autorisées.</span><span class="sxs-lookup"><span data-stu-id="c8c41-132">Requests that the entry be opened with the maximum allowed network and client permissions.</span></span> <span data-ttu-id="c8c41-133">Par exemple, si le client dispose d'une autorisation en lecture et en écriture, le fournisseur de carnet d'adresses tente d'ouvrir l'entrée avec une autorisation en lecture et en écriture.</span><span class="sxs-lookup"><span data-stu-id="c8c41-133">For example, if the client has read and write permission, the address book provider attempts to open the entry with read and write permission.</span></span> <span data-ttu-id="c8c41-134">Le client peut récupérer le niveau d'accès qui a été accordé en appelant la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) de l'entrée ouverte et en récupérant la propriété PR_ACCESS_LEVEL (PidTagAccessLevel).</span><span class="sxs-lookup"><span data-stu-id="c8c41-134">The client can retrieve the access level that was granted by calling the [IMAPIProp::GetProps](imapiprop-getprops.md) method of the open entry and retrieving the PR_ACCESS_LEVEL (PidTagAccessLevel) property.</span></span> 
     
-<span data-ttu-id="4ea13-135">MAPI_CACHE_ONLY</span><span class="sxs-lookup"><span data-stu-id="4ea13-135">MAPI_CACHE_ONLY</span></span>
+<span data-ttu-id="c8c41-135">MAPI_CACHE_ONLY</span><span class="sxs-lookup"><span data-stu-id="c8c41-135">MAPI_CACHE_ONLY</span></span>
   
-> <span data-ttu-id="4ea13-136">Utilise uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms.</span><span class="sxs-lookup"><span data-stu-id="4ea13-136">Uses only the offline address book to perform name resolution.</span></span> <span data-ttu-id="4ea13-137">Par exemple, vous pouvez utiliser cet indicateur pour autoriser une application cliente ouvrir la liste d’adresses globale (LAG) en mode exchange mis en cache et accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer le trafic entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="4ea13-137">For example, you can use this flag to allow a client application to open the global address list (GAL) in cached exchange mode and access an entry in that address book from the cache without creating traffic between the client and the server.</span></span> <span data-ttu-id="4ea13-138">Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.</span><span class="sxs-lookup"><span data-stu-id="4ea13-138">This flag is supported only by the Exchange Address Book Provider.</span></span>
+> <span data-ttu-id="c8c41-136">Utilise uniquement le carnet d'adresses en mode hors connexion pour effectuer la résolution de noms.</span><span class="sxs-lookup"><span data-stu-id="c8c41-136">Uses only the offline address book to perform name resolution.</span></span> <span data-ttu-id="c8c41-137">Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d'ouvrir la liste d'adresses globale (LAG) en mode Exchange mis en cache et d'accéder à une entrée de ce carnet d'adresses à partir du cache sans créer de trafic entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="c8c41-137">For example, you can use this flag to allow a client application to open the global address list (GAL) in cached exchange mode and access an entry in that address book from the cache without creating traffic between the client and the server.</span></span> <span data-ttu-id="c8c41-138">Cet indicateur est pris en charge uniquement par le fournisseur de carnet d'adresses Exchange.</span><span class="sxs-lookup"><span data-stu-id="c8c41-138">This flag is supported only by the Exchange Address Book Provider.</span></span>
     
-<span data-ttu-id="4ea13-139">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="4ea13-139">MAPI_DEFERRED_ERRORS</span></span>
+<span data-ttu-id="c8c41-139">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="c8c41-139">MAPI_DEFERRED_ERRORS</span></span>
   
-> <span data-ttu-id="4ea13-140">Permet l’appel aboutisse, potentiellement avant que l’entrée est entièrement ouverte et disponible, ce qui implique que les appels suivants à l’entrée renverra une erreur.</span><span class="sxs-lookup"><span data-stu-id="4ea13-140">Allows the call to succeed, potentially before the entry is fully open and available, implying that subsequent calls to the entry might return an error.</span></span>
+> <span data-ttu-id="c8c41-140">Permet à l'appel de réussir, éventuellement avant que l'entrée soit entièrement ouverte et disponible, ce qui implique que des appels ultérieurs à l'entrée renvoient une erreur.</span><span class="sxs-lookup"><span data-stu-id="c8c41-140">Allows the call to succeed, potentially before the entry is fully open and available, implying that subsequent calls to the entry might return an error.</span></span>
     
-<span data-ttu-id="4ea13-141">MAPI_GAL_ONLY</span><span class="sxs-lookup"><span data-stu-id="4ea13-141">MAPI_GAL_ONLY</span></span>
+<span data-ttu-id="c8c41-141">MAPI_GAL_ONLY</span><span class="sxs-lookup"><span data-stu-id="c8c41-141">MAPI_GAL_ONLY</span></span>
   
-> <span data-ttu-id="4ea13-142">Utilise uniquement la liste d’adresses globale pour effectuer la résolution de noms.</span><span class="sxs-lookup"><span data-stu-id="4ea13-142">Uses only the GAL to perform name resolution.</span></span> <span data-ttu-id="4ea13-143">Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.</span><span class="sxs-lookup"><span data-stu-id="4ea13-143">This flag is supported only by the Exchange Address Book Provider.</span></span>
+> <span data-ttu-id="c8c41-142">Utilise uniquement la liste d'adresses globale pour effectuer la résolution de noms.</span><span class="sxs-lookup"><span data-stu-id="c8c41-142">Uses only the GAL to perform name resolution.</span></span> <span data-ttu-id="c8c41-143">Cet indicateur est pris en charge uniquement par le fournisseur de carnet d'adresses Exchange.</span><span class="sxs-lookup"><span data-stu-id="c8c41-143">This flag is supported only by the Exchange Address Book Provider.</span></span>
     
-<span data-ttu-id="4ea13-144">N'</span><span class="sxs-lookup"><span data-stu-id="4ea13-144">MAPI_MODIFY</span></span>
+<span data-ttu-id="c8c41-144">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="c8c41-144">MAPI_MODIFY</span></span>
   
-> <span data-ttu-id="4ea13-145">Demandes ouvrir avec l’entrée de lire et écrire des autorisations.</span><span class="sxs-lookup"><span data-stu-id="4ea13-145">Requests that the entry be opened with read and write permission.</span></span> <span data-ttu-id="4ea13-146">Étant donné que les entrées sont ouvertes avec accès en lecture seule par défaut, les clients ne doivent pas supposer que lire et écrire l’autorisation a été accordée même si n’est définie.</span><span class="sxs-lookup"><span data-stu-id="4ea13-146">Because entries are opened with read-only access by default, clients should not assume that read and write permission was granted regardless of whether MAPI_MODIFY is set.</span></span>
+> <span data-ttu-id="c8c41-145">Demande que l'entrée soit ouverte avec une autorisation en lecture et en écriture.</span><span class="sxs-lookup"><span data-stu-id="c8c41-145">Requests that the entry be opened with read and write permission.</span></span> <span data-ttu-id="c8c41-146">Étant donné que les entrées sont ouvertes avec un accès en lecture seule par défaut, les clients ne doivent pas supposer que l'autorisation de lecture et d'écriture a été accordée, que MAPI_MODIFY soit défini ou non.</span><span class="sxs-lookup"><span data-stu-id="c8c41-146">Because entries are opened with read-only access by default, clients should not assume that read and write permission was granted regardless of whether MAPI_MODIFY is set.</span></span>
     
-<span data-ttu-id="4ea13-147">MAPI_NO_CACHE</span><span class="sxs-lookup"><span data-stu-id="4ea13-147">MAPI_NO_CACHE</span></span>
+<span data-ttu-id="c8c41-147">MAPI_NO_CACHE</span><span class="sxs-lookup"><span data-stu-id="c8c41-147">MAPI_NO_CACHE</span></span>
   
-> <span data-ttu-id="4ea13-148">N’utilise pas le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms.</span><span class="sxs-lookup"><span data-stu-id="4ea13-148">Does not use the offline address book to perform name resolution.</span></span> <span data-ttu-id="4ea13-149">Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.</span><span class="sxs-lookup"><span data-stu-id="4ea13-149">This flag is supported only by the Exchange Address Book Provider.</span></span>
+> <span data-ttu-id="c8c41-148">N'utilise pas le carnet d'adresses en mode hors connexion pour effectuer la résolution de noms.</span><span class="sxs-lookup"><span data-stu-id="c8c41-148">Does not use the offline address book to perform name resolution.</span></span> <span data-ttu-id="c8c41-149">Cet indicateur est pris en charge uniquement par le fournisseur de carnet d'adresses Exchange.</span><span class="sxs-lookup"><span data-stu-id="c8c41-149">This flag is supported only by the Exchange Address Book Provider.</span></span>
     
- <span data-ttu-id="4ea13-150">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="4ea13-150">_lpulObjType_</span></span>
+ <span data-ttu-id="c8c41-150">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="c8c41-150">_lpulObjType_</span></span>
   
-> <span data-ttu-id="4ea13-151">[out] Pointeur vers le type de l’entrée ouvert.</span><span class="sxs-lookup"><span data-stu-id="4ea13-151">[out] A pointer to the type of the opened entry.</span></span>
+> <span data-ttu-id="c8c41-151">remarquer Pointeur vers le type de l'entrée ouverte.</span><span class="sxs-lookup"><span data-stu-id="c8c41-151">[out] A pointer to the type of the opened entry.</span></span>
     
- <span data-ttu-id="4ea13-152">_lppUnk_</span><span class="sxs-lookup"><span data-stu-id="4ea13-152">_lppUnk_</span></span>
+ <span data-ttu-id="c8c41-152">_lppUnk_</span><span class="sxs-lookup"><span data-stu-id="c8c41-152">_lppUnk_</span></span>
   
-> <span data-ttu-id="4ea13-153">[out] Pointeur vers un pointeur de l’entrée ouvert.</span><span class="sxs-lookup"><span data-stu-id="4ea13-153">[out] A pointer to a pointer of the opened entry.</span></span>
+> <span data-ttu-id="c8c41-153">remarquer Pointeur vers un pointeur de l'entrée ouverte.</span><span class="sxs-lookup"><span data-stu-id="c8c41-153">[out] A pointer to a pointer of the opened entry.</span></span>
     
 

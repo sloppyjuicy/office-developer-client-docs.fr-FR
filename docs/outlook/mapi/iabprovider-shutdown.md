@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1fbe6dc1-254b-4557-92c8-9fa42a8efd64
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0a93dd44960a01996672a55501a7626d0ff56986
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 8b2190f77c7575d3d4f5e25fa0863bec844158bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348901"
 ---
-# <a name="iabprovidershutdown"></a><span data-ttu-id="9ee00-103">IABProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="9ee00-103">IABProvider::Shutdown</span></span>
+# <a name="iabprovidershutdown"></a><span data-ttu-id="14c94-103">IABProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="14c94-103">IABProvider::Shutdown</span></span>
 
   
   
-<span data-ttu-id="9ee00-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9ee00-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="14c94-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="14c94-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9ee00-105">Annule une connexion à une session active.</span><span class="sxs-lookup"><span data-stu-id="9ee00-105">Cancels a connection to an active session.</span></span>
+<span data-ttu-id="14c94-105">Annule une connexion à une session active.</span><span class="sxs-lookup"><span data-stu-id="14c94-105">Cancels a connection to an active session.</span></span>
   
 ```cpp
 HRESULT Shutdown(
@@ -33,25 +33,25 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9ee00-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="9ee00-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="14c94-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="14c94-106">Parameters</span></span>
 
- <span data-ttu-id="9ee00-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="9ee00-107">_lpulFlags_</span></span>
+ <span data-ttu-id="14c94-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="14c94-107">_lpulFlags_</span></span>
   
-> <span data-ttu-id="9ee00-108">[In] Réservé ; doit être un pointeur vers zéro.</span><span class="sxs-lookup"><span data-stu-id="9ee00-108">[In] Reserved; must be a pointer to zero.</span></span>
+> <span data-ttu-id="14c94-108">Dans MSR doit être un pointeur vers zéro.</span><span class="sxs-lookup"><span data-stu-id="14c94-108">[In] Reserved; must be a pointer to zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="9ee00-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="9ee00-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="14c94-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="14c94-109">Return value</span></span>
 
-<span data-ttu-id="9ee00-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="9ee00-110">S_OK</span></span> 
+<span data-ttu-id="14c94-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="14c94-110">S_OK</span></span> 
   
-> <span data-ttu-id="9ee00-111">La connexion a été annulée.</span><span class="sxs-lookup"><span data-stu-id="9ee00-111">The connection was successfully canceled.</span></span>
+> <span data-ttu-id="14c94-111">La connexion a été annulée.</span><span class="sxs-lookup"><span data-stu-id="14c94-111">The connection was successfully canceled.</span></span>
     
-## <a name="notes-to-implementers"></a><span data-ttu-id="9ee00-112">Remarques à l’attention des responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="9ee00-112">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="14c94-112">Remarques pour les responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="14c94-112">Notes to implementers</span></span>
 
-<span data-ttu-id="9ee00-113">Dans votre implémentation de la méthode **Shutdown** , effectuez toutes les tâches estiment nécessaires.</span><span class="sxs-lookup"><span data-stu-id="9ee00-113">In your implementation of the **Shutdown** method, perform whatever tasks you consider necessary.</span></span> <span data-ttu-id="9ee00-114">MAPI appelle votre méthode **Shutdown** uniquement une fois que vous avez publié tous les objets d’ouverture de session.</span><span class="sxs-lookup"><span data-stu-id="9ee00-114">MAPI calls your **Shutdown** method only after you have released all your logon objects.</span></span> 
+<span data-ttu-id="14c94-113">Dans votre implémentation de la méthode **Shutdown** , effectuez toutes les tâches que vous jugez nécessaires.</span><span class="sxs-lookup"><span data-stu-id="14c94-113">In your implementation of the **Shutdown** method, perform whatever tasks you consider necessary.</span></span> <span data-ttu-id="14c94-114">MAPI appelle votre méthode d' **arrêt** uniquement une fois que vous avez publié tous vos objets d'ouverture de session.</span><span class="sxs-lookup"><span data-stu-id="14c94-114">MAPI calls your **Shutdown** method only after you have released all your logon objects.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="9ee00-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9ee00-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="14c94-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="14c94-115">See also</span></span>
 
 
 
-[<span data-ttu-id="9ee00-116">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9ee00-116">IABProvider : IUnknown</span></span>](iabprovideriunknown.md)
+[<span data-ttu-id="14c94-116">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="14c94-116">IABProvider : IUnknown</span></span>](iabprovideriunknown.md)
 

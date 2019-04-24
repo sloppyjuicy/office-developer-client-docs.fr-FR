@@ -9,15 +9,15 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e994372e-533a-32d0-ff2b-7fb7d6e8274e
 description: Contient les formules qui contrôlent les événements des formes. Les cellules événements ne sont évaluées que lorsque l'événement se produit et non lorsque la formule est saisie.
-ms.openlocfilehash: d442b32e004ac558407f361461ef7343f30a8cbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d86a8b56414c7854e4b781d5457ac4b47a585b6c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350994"
 ---
-# <a name="events-section"></a><span data-ttu-id="8c50e-104">Events, section</span><span class="sxs-lookup"><span data-stu-id="8c50e-104">Events Section</span></span>
+# <a name="events-section"></a><span data-ttu-id="be861-104">Events, section</span><span class="sxs-lookup"><span data-stu-id="be861-104">Events Section</span></span>
 
-<span data-ttu-id="8c50e-p102">Contient les formules qui contrôlent les événements des formes. Les cellules événements ne sont évaluées que lorsque l'événement se produit et non lorsque la formule est saisie.</span><span class="sxs-lookup"><span data-stu-id="8c50e-p102">Contains formulas that control shape events. Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
+<span data-ttu-id="be861-105">Contient les formules qui contrôlent les événements des formes.</span><span class="sxs-lookup"><span data-stu-id="be861-105">Contains formulas that control shape events.</span></span> <span data-ttu-id="be861-106">Les cellules événements ne sont évaluées que lorsque l'événement se produit et non lorsque la formule est saisie.</span><span class="sxs-lookup"><span data-stu-id="be861-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
   
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8e5ccadbd6df664b6650487f340508ae4548a1c2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 621c20376cc671a2ff9d1406bfb6248846e1bc81
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350952"
 ---
-# <a name="imapifoldergetmessagestatus"></a><span data-ttu-id="78211-103">IMAPIFolder::GetMessageStatus</span><span class="sxs-lookup"><span data-stu-id="78211-103">IMAPIFolder::GetMessageStatus</span></span>
+# <a name="imapifoldergetmessagestatus"></a><span data-ttu-id="88d9a-103">IMAPIFolder::GetMessageStatus</span><span class="sxs-lookup"><span data-stu-id="88d9a-103">IMAPIFolder::GetMessageStatus</span></span>
 
   
   
-<span data-ttu-id="78211-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="78211-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="88d9a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="88d9a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="78211-105">Obtient l’état associé à un message dans un dossier spécifique (par exemple, si ce message est marqué pour suppression).</span><span class="sxs-lookup"><span data-stu-id="78211-105">Obtains the status associated with a message in a particular folder (for example, whether that message is marked for deletion).</span></span>
+<span data-ttu-id="88d9a-105">Obtient l'état associé à un message dans un dossier spécifique (par exemple, si ce message est marqué pour suppression).</span><span class="sxs-lookup"><span data-stu-id="88d9a-105">Obtains the status associated with a message in a particular folder (for example, whether that message is marked for deletion).</span></span>
   
 ```cpp
 HRESULT GetMessageStatus(
@@ -36,83 +36,83 @@ HRESULT GetMessageStatus(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="78211-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="78211-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="88d9a-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="88d9a-106">Parameters</span></span>
 
- <span data-ttu-id="78211-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="78211-107">_cbEntryID_</span></span>
+ <span data-ttu-id="88d9a-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="88d9a-107">_cbEntryID_</span></span>
   
-> <span data-ttu-id="78211-108">[in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="78211-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="88d9a-108">dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="88d9a-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="78211-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="78211-109">_lpEntryID_</span></span>
+ <span data-ttu-id="88d9a-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="88d9a-109">_lpEntryID_</span></span>
   
-> <span data-ttu-id="78211-110">[in] Pointeur vers l’identificateur d’entrée du message dont l’état est obtenu.</span><span class="sxs-lookup"><span data-stu-id="78211-110">[in] A pointer to the entry identifier for the message whose status is obtained.</span></span>
+> <span data-ttu-id="88d9a-110">dans Pointeur vers l'identificateur d'entrée pour le message dont l'État est obtenu.</span><span class="sxs-lookup"><span data-stu-id="88d9a-110">[in] A pointer to the entry identifier for the message whose status is obtained.</span></span>
     
- <span data-ttu-id="78211-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="78211-111">_ulFlags_</span></span>
+ <span data-ttu-id="88d9a-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="88d9a-111">_ulFlags_</span></span>
   
-> <span data-ttu-id="78211-112">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="78211-112">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="88d9a-112">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="88d9a-112">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="78211-113">_lpulMessageStatus_</span><span class="sxs-lookup"><span data-stu-id="78211-113">_lpulMessageStatus_</span></span>
+ <span data-ttu-id="88d9a-113">_lpulMessageStatus_</span><span class="sxs-lookup"><span data-stu-id="88d9a-113">_lpulMessageStatus_</span></span>
   
-> <span data-ttu-id="78211-114">[out] Pointeur vers un pointeur vers un masque de bits d’indicateurs qui indiquent l’état du message.</span><span class="sxs-lookup"><span data-stu-id="78211-114">[out] A pointer to a pointer to a bitmask of flags that indicate the message's status.</span></span> <span data-ttu-id="78211-115">Bits 0 à 15 sont réservés et doivent être égal à zéro ; bits 16 à 31 sont disponibles pour une utilisation spécifique à l’implémentation.</span><span class="sxs-lookup"><span data-stu-id="78211-115">Bits 0 through 15 are reserved and must be zero; bits 16 through 31 are available for implementation-specific use.</span></span> <span data-ttu-id="78211-116">Les indicateurs suivants peuvent être définis :</span><span class="sxs-lookup"><span data-stu-id="78211-116">The following flags can be set:</span></span>
+> <span data-ttu-id="88d9a-114">remarquer Pointeur vers un pointeur vers un masque de réindicateur qui indique l'état du message.</span><span class="sxs-lookup"><span data-stu-id="88d9a-114">[out] A pointer to a pointer to a bitmask of flags that indicate the message's status.</span></span> <span data-ttu-id="88d9a-115">Les bits 0 à 15 sont réservés et doivent être nuls; les bits 16 à 31 sont disponibles pour une utilisation propre à l'implémentation.</span><span class="sxs-lookup"><span data-stu-id="88d9a-115">Bits 0 through 15 are reserved and must be zero; bits 16 through 31 are available for implementation-specific use.</span></span> <span data-ttu-id="88d9a-116">Les indicateurs suivants peuvent être définis:</span><span class="sxs-lookup"><span data-stu-id="88d9a-116">The following flags can be set:</span></span>
     
-<span data-ttu-id="78211-117">MSGSTATUS_DELMARKED</span><span class="sxs-lookup"><span data-stu-id="78211-117">MSGSTATUS_DELMARKED</span></span> 
+<span data-ttu-id="88d9a-117">MSGSTATUS_DELMARKED</span><span class="sxs-lookup"><span data-stu-id="88d9a-117">MSGSTATUS_DELMARKED</span></span> 
   
-> <span data-ttu-id="78211-118">Le message a été marqué pour suppression.</span><span class="sxs-lookup"><span data-stu-id="78211-118">The message has been marked for deletion.</span></span>
+> <span data-ttu-id="88d9a-118">Le message a été marqué pour suppression.</span><span class="sxs-lookup"><span data-stu-id="88d9a-118">The message has been marked for deletion.</span></span>
     
-<span data-ttu-id="78211-119">MSGSTATUS_HIDDEN</span><span class="sxs-lookup"><span data-stu-id="78211-119">MSGSTATUS_HIDDEN</span></span> 
+<span data-ttu-id="88d9a-119">MSGSTATUS_HIDDEN</span><span class="sxs-lookup"><span data-stu-id="88d9a-119">MSGSTATUS_HIDDEN</span></span> 
   
-> <span data-ttu-id="78211-120">Le message ne pas doit être affichée.</span><span class="sxs-lookup"><span data-stu-id="78211-120">The message is not to be displayed.</span></span> 
+> <span data-ttu-id="88d9a-120">Le message ne doit pas être affiché.</span><span class="sxs-lookup"><span data-stu-id="88d9a-120">The message is not to be displayed.</span></span> 
     
-<span data-ttu-id="78211-121">MSGSTATUS_HIGHLIGHTED</span><span class="sxs-lookup"><span data-stu-id="78211-121">MSGSTATUS_HIGHLIGHTED</span></span> 
+<span data-ttu-id="88d9a-121">MSGSTATUS_HIGHLIGHTED</span><span class="sxs-lookup"><span data-stu-id="88d9a-121">MSGSTATUS_HIGHLIGHTED</span></span> 
   
-> <span data-ttu-id="78211-122">Le message doit être affichée en surbrillance.</span><span class="sxs-lookup"><span data-stu-id="78211-122">The message is to be displayed highlighted.</span></span>
+> <span data-ttu-id="88d9a-122">Le message doit être affiché en surbrillance.</span><span class="sxs-lookup"><span data-stu-id="88d9a-122">The message is to be displayed highlighted.</span></span>
     
-<span data-ttu-id="78211-123">MSGSTATUS_REMOTE_DELETE</span><span class="sxs-lookup"><span data-stu-id="78211-123">MSGSTATUS_REMOTE_DELETE</span></span> 
+<span data-ttu-id="88d9a-123">MSGSTATUS_REMOTE_DELETE</span><span class="sxs-lookup"><span data-stu-id="88d9a-123">MSGSTATUS_REMOTE_DELETE</span></span> 
   
-> <span data-ttu-id="78211-124">Le message a été marqué pour suppression au niveau de la banque de messages à distance sans télécharger sur le client local.</span><span class="sxs-lookup"><span data-stu-id="78211-124">The message has been marked for deletion at the remote message store without downloading to the local client.</span></span>
+> <span data-ttu-id="88d9a-124">Le message a été marqué pour suppression dans le magasin de messages distant sans téléchargement vers le client local.</span><span class="sxs-lookup"><span data-stu-id="88d9a-124">The message has been marked for deletion at the remote message store without downloading to the local client.</span></span>
     
-<span data-ttu-id="78211-125">MSGSTATUS_REMOTE_DOWNLOAD</span><span class="sxs-lookup"><span data-stu-id="78211-125">MSGSTATUS_REMOTE_DOWNLOAD</span></span> 
+<span data-ttu-id="88d9a-125">MSGSTATUS_REMOTE_DOWNLOAD</span><span class="sxs-lookup"><span data-stu-id="88d9a-125">MSGSTATUS_REMOTE_DOWNLOAD</span></span> 
   
-> <span data-ttu-id="78211-126">Le message a été marqué pour téléchargement à partir de la banque de messages à distance au client local.</span><span class="sxs-lookup"><span data-stu-id="78211-126">The message has been marked for downloading from the remote message store to the local client.</span></span>
+> <span data-ttu-id="88d9a-126">Le message a été marqué pour téléchargement depuis le magasin de messages distant vers le client local.</span><span class="sxs-lookup"><span data-stu-id="88d9a-126">The message has been marked for downloading from the remote message store to the local client.</span></span>
     
-<span data-ttu-id="78211-127">MSGSTATUS_TAGGED</span><span class="sxs-lookup"><span data-stu-id="78211-127">MSGSTATUS_TAGGED</span></span> 
+<span data-ttu-id="88d9a-127">MSGSTATUS_TAGGED</span><span class="sxs-lookup"><span data-stu-id="88d9a-127">MSGSTATUS_TAGGED</span></span> 
   
-> <span data-ttu-id="78211-128">Le message a été marqué pour un usage défini par le client.</span><span class="sxs-lookup"><span data-stu-id="78211-128">The message has been tagged for a client-defined purpose.</span></span>
+> <span data-ttu-id="88d9a-128">Le message a été marqué pour un objectif défini par le client.</span><span class="sxs-lookup"><span data-stu-id="88d9a-128">The message has been tagged for a client-defined purpose.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="78211-129">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="78211-129">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="88d9a-129">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="88d9a-129">Return value</span></span>
 
-<span data-ttu-id="78211-130">S_OK</span><span class="sxs-lookup"><span data-stu-id="78211-130">S_OK</span></span> 
+<span data-ttu-id="88d9a-130">S_OK</span><span class="sxs-lookup"><span data-stu-id="88d9a-130">S_OK</span></span> 
   
-> <span data-ttu-id="78211-131">Le statut du message a été récupéré correctement.</span><span class="sxs-lookup"><span data-stu-id="78211-131">The message status was successfully retrieved.</span></span>
+> <span data-ttu-id="88d9a-131">L'état du message a été correctement récupéré.</span><span class="sxs-lookup"><span data-stu-id="88d9a-131">The message status was successfully retrieved.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="78211-132">Remarques</span><span class="sxs-lookup"><span data-stu-id="78211-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="88d9a-132">Remarques</span><span class="sxs-lookup"><span data-stu-id="88d9a-132">Remarks</span></span>
 
-<span data-ttu-id="78211-133">La méthode **IMAPIFolder::GetMessageStatus** renvoie l’état d’un message.</span><span class="sxs-lookup"><span data-stu-id="78211-133">The **IMAPIFolder::GetMessageStatus** method returns the status of a message.</span></span> <span data-ttu-id="78211-134">Statut du message est stocké dans la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message.</span><span class="sxs-lookup"><span data-stu-id="78211-134">Message status is stored in the message's **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property.</span></span> 
+<span data-ttu-id="88d9a-133">La méthode **IMAPIFolder:: GetMessageStatus** renvoie l'état d'un message.</span><span class="sxs-lookup"><span data-stu-id="88d9a-133">The **IMAPIFolder::GetMessageStatus** method returns the status of a message.</span></span> <span data-ttu-id="88d9a-134">L'état du message est stocké dans la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message.</span><span class="sxs-lookup"><span data-stu-id="88d9a-134">Message status is stored in the message's **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="78211-135">Remarques à l’attention des responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="78211-135">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="88d9a-135">Remarques pour les responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="88d9a-135">Notes to implementers</span></span>
 
-<span data-ttu-id="78211-136">Comment les bits d’état message définis, désactivées et utilisés dépendent complètement votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être égal à zéro.</span><span class="sxs-lookup"><span data-stu-id="78211-136">How the message status bits are set, cleared, and used depends completely on your implementation, except that bits 0 through 15 are reserved and must be zero.</span></span> <span data-ttu-id="78211-137">Si vous stockez les messages dans la sous-arborescence IPM, MAPI réserve bits 16 à 31 pour une utilisation par les clients IPM.</span><span class="sxs-lookup"><span data-stu-id="78211-137">If you store messages in the IPM subtree, MAPI reserves bits 16 through 31 for use by IPM clients.</span></span> <span data-ttu-id="78211-138">Si vous stockez les messages dans d’autres sous-arborescences, vous pouvez utiliser les bits 16 à 31 selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="78211-138">If you store messages in other subtrees, you can use bits 16 through 31 for your own purposes.</span></span>
+<span data-ttu-id="88d9a-136">La manière dont les bits d'état des messages sont définis, effacés et utilisés dépend entièrement de votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être nuls.</span><span class="sxs-lookup"><span data-stu-id="88d9a-136">How the message status bits are set, cleared, and used depends completely on your implementation, except that bits 0 through 15 are reserved and must be zero.</span></span> <span data-ttu-id="88d9a-137">Si vous stockez des messages dans la sous-arborescence IPM, MAPI réserve les bits 16 à 31 aux clients IPM.</span><span class="sxs-lookup"><span data-stu-id="88d9a-137">If you store messages in the IPM subtree, MAPI reserves bits 16 through 31 for use by IPM clients.</span></span> <span data-ttu-id="88d9a-138">Si vous stockez des messages dans d'autres sous-arborescences, vous pouvez utiliser les bits 16 à 31 à vos fins.</span><span class="sxs-lookup"><span data-stu-id="88d9a-138">If you store messages in other subtrees, you can use bits 16 through 31 for your own purposes.</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="78211-139">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="78211-139">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="88d9a-139">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="88d9a-139">MFCMAPI reference</span></span>
 
-<span data-ttu-id="78211-140">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="78211-140">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="88d9a-140">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="88d9a-140">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="78211-141">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="78211-141">**File**</span></span>|<span data-ttu-id="78211-142">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="78211-142">**Function**</span></span>|<span data-ttu-id="78211-143">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="78211-143">**Comment**</span></span>|
+|<span data-ttu-id="88d9a-141">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="88d9a-141">**File**</span></span>|<span data-ttu-id="88d9a-142">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="88d9a-142">**Function**</span></span>|<span data-ttu-id="88d9a-143">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="88d9a-143">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="78211-144">MyMAPIFormViewer.cpp</span><span class="sxs-lookup"><span data-stu-id="78211-144">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="78211-145">CMyMAPIFormViewer::GetNextMessage</span><span class="sxs-lookup"><span data-stu-id="78211-145">CMyMAPIFormViewer::GetNextMessage</span></span>  <br/> |<span data-ttu-id="78211-146">MFCMAPI utilise la méthode **IMAPIFolder::GetMessageStatus** pour obtenir l’état du message suivant s’affiche.</span><span class="sxs-lookup"><span data-stu-id="78211-146">MFCMAPI uses the **IMAPIFolder::GetMessageStatus** method to get the status of the next message to be displayed.</span></span>  <br/> |
-|<span data-ttu-id="78211-147">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="78211-147">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="78211-148">OpenMessageNonModal et OpenMessageModal</span><span class="sxs-lookup"><span data-stu-id="78211-148">OpenMessageNonModal and OpenMessageModal</span></span>  <br/> |<span data-ttu-id="78211-149">MFCMAPI utilise la méthode **IMAPIFolder::GetMessageStatus** pour obtenir l’état du message à afficher à transmettre à la visionneuse de formulaire, qui est CMyMAPIFormViewer ou [IMAPISession::ShowForm](imapisession-showform.md).</span><span class="sxs-lookup"><span data-stu-id="78211-149">MFCMAPI uses the **IMAPIFolder::GetMessageStatus** method to get the status of the message to be displayed to pass to the form viewer, which is either CMyMAPIFormViewer or [IMAPISession::ShowForm](imapisession-showform.md).</span></span>  <br/> |
+|<span data-ttu-id="88d9a-144">MyMAPIFormViewer. cpp</span><span class="sxs-lookup"><span data-stu-id="88d9a-144">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="88d9a-145">CMyMAPIFormViewer:: GetNextMessage</span><span class="sxs-lookup"><span data-stu-id="88d9a-145">CMyMAPIFormViewer::GetNextMessage</span></span>  <br/> |<span data-ttu-id="88d9a-146">MFCMAPI utilise la méthode **IMAPIFolder:: GetMessageStatus** pour obtenir l'état du prochain message à afficher.</span><span class="sxs-lookup"><span data-stu-id="88d9a-146">MFCMAPI uses the **IMAPIFolder::GetMessageStatus** method to get the status of the next message to be displayed.</span></span>  <br/> |
+|<span data-ttu-id="88d9a-147">MAPIFormFunctions. cpp</span><span class="sxs-lookup"><span data-stu-id="88d9a-147">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="88d9a-148">OpenMessageNonModal et OpenMessageModal</span><span class="sxs-lookup"><span data-stu-id="88d9a-148">OpenMessageNonModal and OpenMessageModal</span></span>  <br/> |<span data-ttu-id="88d9a-149">MFCMAPI utilise la méthode **IMAPIFolder:: GetMessageStatus** pour obtenir l'état du message à afficher pour transmettre à la visionneuse de formulaires, qui est CMyMAPIFormViewer ou [IMAPISession:: ShowForm](imapisession-showform.md).</span><span class="sxs-lookup"><span data-stu-id="88d9a-149">MFCMAPI uses the **IMAPIFolder::GetMessageStatus** method to get the status of the message to be displayed to pass to the form viewer, which is either CMyMAPIFormViewer or [IMAPISession::ShowForm](imapisession-showform.md).</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="78211-150">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="78211-150">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="88d9a-150">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="88d9a-150">See also</span></span>
 
 
 
-[<span data-ttu-id="78211-151">IMAPIFolder::SetMessageStatus</span><span class="sxs-lookup"><span data-stu-id="78211-151">IMAPIFolder::SetMessageStatus</span></span>](imapifolder-setmessagestatus.md)
+[<span data-ttu-id="88d9a-151">IMAPIFolder::SetMessageStatus</span><span class="sxs-lookup"><span data-stu-id="88d9a-151">IMAPIFolder::SetMessageStatus</span></span>](imapifolder-setmessagestatus.md)
   
-[<span data-ttu-id="78211-152">IMAPISession::ShowForm</span><span class="sxs-lookup"><span data-stu-id="78211-152">IMAPISession::ShowForm</span></span>](imapisession-showform.md)
+[<span data-ttu-id="88d9a-152">IMAPISession::ShowForm</span><span class="sxs-lookup"><span data-stu-id="88d9a-152">IMAPISession::ShowForm</span></span>](imapisession-showform.md)
   
-[<span data-ttu-id="78211-153">Propriété canonique PidTagMessageStatus</span><span class="sxs-lookup"><span data-stu-id="78211-153">PidTagMessageStatus Canonical Property</span></span>](pidtagmessagestatus-canonical-property.md)
+[<span data-ttu-id="88d9a-153">Propriété canonique PidTagMessageStatus</span><span class="sxs-lookup"><span data-stu-id="88d9a-153">PidTagMessageStatus Canonical Property</span></span>](pidtagmessagestatus-canonical-property.md)
   
-[<span data-ttu-id="78211-154">IMAPIFolder : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="78211-154">IMAPIFolder : IMAPIContainer</span></span>](imapifolderimapicontainer.md)
+[<span data-ttu-id="88d9a-154">IMAPIFolder : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="88d9a-154">IMAPIFolder : IMAPIContainer</span></span>](imapifolderimapicontainer.md)
 
 
-[<span data-ttu-id="78211-155">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="78211-155">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="88d9a-155">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="88d9a-155">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 
