@@ -1,5 +1,5 @@
 ---
-title: Propriétés de documents (DAO)
+title: Propriétés des documents (DAO)
 TOCTitle: Properties
 ms:assetid: 376c4e19-32bb-422e-b106-2818f072e316
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124341(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3aff68df09f211e4e87a9dbdf6848ddf7ec8f975
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293692"
 ---
-# <a name="documents-properties-dao"></a><span data-ttu-id="3ebfb-102">Propriétés de documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="3ebfb-102">Documents properties (DAO)</span></span>
+# <a name="documents-properties-dao"></a><span data-ttu-id="3bf0e-102">Propriétés des documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bf0e-102">Documents properties (DAO)</span></span>
 
-<span data-ttu-id="3ebfb-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3ebfb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3bf0e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3bf0e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3ebfb-104">Propriété Documents.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="3ebfb-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
+- [<span data-ttu-id="3bf0e-104">Documents. Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bf0e-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
 

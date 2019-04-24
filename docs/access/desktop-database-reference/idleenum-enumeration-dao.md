@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a7cfb04671e19ee8f6dc54fd9423f48401654507
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291900"
 ---
-# <a name="idleenum-enumeration-dao"></a><span data-ttu-id="bbf2b-102">IdleEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="bbf2b-102">IdleEnum enumeration (DAO)</span></span>
+# <a name="idleenum-enumeration-dao"></a><span data-ttu-id="7ea33-102">IdleEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="7ea33-102">IdleEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="bbf2b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bbf2b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7ea33-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ea33-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bbf2b-104">À déterminer</span><span class="sxs-lookup"><span data-stu-id="bbf2b-104">TBD</span></span>
+<span data-ttu-id="7ea33-104">À déterminer</span><span class="sxs-lookup"><span data-stu-id="7ea33-104">TBD</span></span>
 
