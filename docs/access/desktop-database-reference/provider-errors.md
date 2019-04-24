@@ -1,5 +1,5 @@
 ---
-title: Erreurs du fournisseur (référence de base de données du bureau Access)
+title: Erreurs de fournisseur (référence de base de données de bureau Access)
 TOCTitle: Provider errors
 ms:assetid: 9c39d450-6e67-b2fd-aeb5-849e6b65fd54
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d175cdaa007a354d12304dceff0352a923de2291
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301126"
 ---
 # <a name="provider-errors"></a>Erreurs de fournisseur
 
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
 Lorsqu'une erreur de fournisseur survient, une erreur d'exécution -2147467259 est renvoyée. Lorsque vous recevez cette erreur, vérifiez la collection **Errors** de l'objet **Connection**, qui contient une ou plusieurs erreurs décrivant ce qu'il s'est passé.
 
@@ -62,7 +62,7 @@ Le programme de gestion des erreurs comprend une boucle **For Each** qui examine
 
 ## <a name="the-error-object"></a>Objet Error
 
-En examinant un objet **Error**, vous pouvez déterminer le type d'erreur survenue et, plus important encore, l'application ou l'objet à l'origine de l'erreur. L'objet **Error** a les propriétés suivantes :
+En examinant un objet **Error**, vous pouvez déterminer le type d'erreur survenue et, plus important encore, l'application ou l'objet à l'origine de l'erreur. L'objet **Error** a les propriétés suivantes :
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ En examinant un objet **Error**, vous pouvez déterminer le type d'erreur surven
 <td><p>Fait référence à la rubrique d'aide et au fichier d'aide qui contient une description de l'erreur survenue.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>NativeError</strong></p></td>
+<td><p><strong>Native</strong></p></td>
 <td><p>Le numéro d'erreur spécifique au fournisseur.</p></td>
 </tr>
 <tr class="even">
@@ -97,7 +97,7 @@ En examinant un objet **Error**, vous pouvez déterminer le type d'erreur surven
 <td><p>Indique le nom de l'objet ou de l'application à l'origine d'une erreur.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SQLState</strong></p></td>
+<td><p><strong>InstructionSQL</strong></p></td>
 <td><p>Un code d'erreur à cinq caractères que le fournisseur renvoie au cours du processus d'une instruction SQL.</p></td>
 </tr>
 </tbody>

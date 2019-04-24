@@ -1,5 +1,5 @@
 ---
-title: Prompt, propriété dynamique (ADO)
+title: Propriété dynamique prompt (ADO)
 TOCTitle: Prompt dynamic property (ADO)
 ms:assetid: 6c899b03-1d1f-a81f-dc17-7205a0230af9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 261ac5640b5239f27ad91e01d1cb23794f88740a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301322"
 ---
-# <a name="prompt-dynamic-property-ado"></a>Prompt, propriété dynamique (ADO)
+# <a name="prompt-dynamic-property-ado"></a>Propriété dynamique prompt (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie si le fournisseur OLE DB doit inviter l'utilisateur à fournir des informations d'initialisation.
 
@@ -24,7 +24,7 @@ Spécifie si le fournisseur OLE DB doit inviter l'utilisateur à fournir des inf
 
 Définit et renvoie une valeur [ConnectPromptEnum](connectpromptenum.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Prompt** est une propriété dynamique, qui peut être ajoutée à la collection [Properties](connection-object-ado.md) de l'objet [Connection](properties-collection-ado.md), par le fournisseur OLE DB. Pour inviter l'utilisateur à fournir les informations d'initialisation, les fournisseurs OLE DB affichent généralement une boîte de dialogue.
 

@@ -1,5 +1,5 @@
 ---
-title: Méthode Workspace.CommitTrans (DAO)
+title: Workspace. CommitTrans, méthode (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: e6d129fb-a578-5c79-9c16-6444519f0daf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 52af229f03b7ea10510f3e580ba2c4e12784e461
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306033"
 ---
-# <a name="workspacecommittrans-method-dao"></a>Méthode Workspace.CommitTrans (DAO)
+# <a name="workspacecommittrans-method-dao"></a>Workspace. CommitTrans, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Met fin à la transaction en cours et enregistre les modifications.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CommitTrans (***Options***)
+*expression* . CommitTrans (***options***)
 
 *expression* Variable qui représente un objet **Workspace** .
 
@@ -38,7 +38,7 @@ Met fin à la transaction en cours et enregistre les modifications.
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -47,7 +47,7 @@ Met fin à la transaction en cours et enregistre les modifications.
 <tr class="odd">
 <td><p><em>Option</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Long</strong></p></td>
+<td><p><strong>Entier long</strong></p></td>
 <td><p>Dans un espace de travail Microsoft Access, vous pouvez inclure la constante <strong>dbForceOSFlush</strong> avec <strong>CommitTrans</strong>. Cela force le moteur de base de données à purger toutes les mises à jour sur le disque au lieu de les mettre en mémoire cache temporairement. Sans cette option, un utilisateur peut reprendre le contrôle dès que le programme d’application appelle <strong>CommitTrans</strong>, éteindre l’ordinateur et les données ne sont pas écrites sur le disque. Même si cette option peut affecter les performances de votre application, elle s’avère utile dans les situations dans lesquelles l’ordinateur a pu être fermé avant que les mises à jour mises en mémoire cache ne soient enregistrées sur le disque.</p></td>
 </tr>
 </tbody>
@@ -86,9 +86,9 @@ Dans les espaces de travail ODBC, lorsque vous utilisez **CommitTrans**, il peut
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment utiliser une transaction dans un espace de travail Data Access Objects (DAO).
+L'exemple suivant montre comment utiliser une transaction dans un espace de travail Data Access Objects (DAO).
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 
 ```vb

@@ -1,5 +1,5 @@
 ---
-title: Méthode Relations.Delete (DAO)
+title: Relation. Delete, méthode (DAO)
 TOCTitle: Delete Method
 ms:assetid: e95408d2-9dde-44e7-875e-8f2d4b837cf6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836064(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e0b7fbf20a8732e8f4db525fd32bf4e5737b4d79
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306964"
 ---
-# <a name="relationsdelete-method-dao"></a>Méthode Relations.Delete (DAO)
+# <a name="relationsdelete-method-dao"></a>Relation. Delete, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Supprime l'objet **Relation** spécifié de la collection **Relations**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Supprimer (***nom***)
+*expression* . Delete (***Name***)
 
-*expression* Variable qui représente un objet **Relations** .
+*expression* Variable qui représente un objet **relations** .
 
 ## <a name="parameters"></a>Paramètres
 
@@ -38,7 +38,7 @@ Supprime l'objet **Relation** spécifié de la collection **Relations**.
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>

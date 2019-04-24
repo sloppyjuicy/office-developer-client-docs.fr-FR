@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b706ffed14fdb440f3c3192c7c36015343f2e134
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300923"
 ---
 # <a name="raiseerror-macro-action"></a>RaiseError, action de macro
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
 L'action **DéclencherErreur** lève une exception qui peut être gérée par l'action de macro **[SurErreur](onerror-macro-action.md)**.
 
 > [!NOTE]
 > [!REMARQUE] L'action **DéclencherErreur** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **DéclencherErreur** utilise les arguments suivants.
+L’action **DéclencherErreur** utilise les arguments suivants.
 
 <table>
 <colgroup>
@@ -55,7 +55,7 @@ L'action **DéclencherErreur** utilise les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l'action **DéclencherErreur** est appelée dans un événement de macro **[Avant la modification](before-change-macro-event.md)** ou **[Avant la suppression](before-delete-macro-event.md)**, l'événement est annulé.
 
@@ -63,7 +63,7 @@ S'il n'y a aucune instruction **SurErreur** active qui gère les erreurs, l'erre
 
 Pour afficher la table **USysApplicationLog**, procédez comme suit :
 
-1.  Cliquez sur le menu **fichier** , puis cliquez sur **Options**.
+1.  Cliquez sur le menu **fichier** , puis sur **options**.
 
 2.  Dans la boîte dialogue **Options Access**, cliquez sur l'onglet **Base de données active**.
 
@@ -75,9 +75,9 @@ Pour afficher la table **USysApplicationLog**, procédez comme suit :
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment utiliser l’action Déclenchererreur pour annuler l’événement de macro de données avant la modification. Lorsque le champ AssignedTo est mis à jour, un bloc de données RechercherEnregistrement permet de déterminer si le technicien affecté est actuellement affecté à une demande de service en cours. Si cela est vrai, puis l’événement avant la modification est annulée et l’enregistrement n’est pas mis à jour.
+L'exemple suivant montre comment utiliser l'action Déclenchererreur pour annuler l'événement de macro avant la modification des données. Lorsque le champ AffectéÀ est mis à jour, un bloc de données RechercherEnregistrement est utilisé pour déterminer si le technicien affecté est actuellement affecté à une demande de service ouverte. Si la valeur est true, l'événement avant la modification est annulé et l'enregistrement n'est pas mis à jour.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* Get the name of the technician  */

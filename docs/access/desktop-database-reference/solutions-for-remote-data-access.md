@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9b64ed19c268874e0e52a87bc2e05aacb6083422
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306901"
 ---
-# <a name="solutions-for-remote-data-access"></a>Solutions pour l'accès à distance aux données
+# <a name="solutions-for-remote-data-access"></a>Solutions pour l’accès aux données distant
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="the-issue"></a>Le problème
 
 ADO permet à votre application d'accéder directement aux sources de données et de les modifier (système à deux couches). Par exemple, si vous êtes connecté à la source de données qui contient vos données, il s'agit d'une connexion directe dans un système à deux couches.
 
-Toutefois, vous souhaiterez peut-être accéder aux sources de données indirectement via un intermédiaire tel que Microsoft Internet Information Services (IIS). Ce type de système est parfois appelé système à trois couches. IIS est un système client/serveur qui fournit à une application locale ou cliente un moyen efficace d'appeler un programme distant (serveur) sur Internet ou dans un intranet. Le programme serveur accède à la source des données et traite éventuellement les données acquises.
+Toutefois, vous pouvez accéder aux sources de données indirectement via un intermédiaire tel que Microsoft Internet Information Services (IIS). Ce type de système est parfois appelé système à trois couches. IIS est un système client/serveur qui fournit à une application locale ou cliente un moyen efficace d'appeler un programme distant (serveur) sur Internet ou dans un intranet. Le programme serveur accède à la source des données et traite éventuellement les données acquises.
 
 Par exemple, votre page Web intranet contient une application écrite en Microsoft Visual Basic Scripting Edition (VBScript), qui se connecte à IIS. IIS se connecte à son tour à la source de données, extrait les données et les traite d'une façon quelconque, puis retourne les informations traitées à votre application.
 
-Dans cet exemple, votre application ne se connecte jamais directement à la source de données ; c'est IIS qui s'y connecte et accède aux données par l'intermédiaire d'ADO.
+Dans cet exemple, votre application ne se connecte jamais directement à la source de données; SERVICES Internet (IIS). Les services Internet (IIS) ont accédé aux données au moyen d'ADO.
 
 > [!NOTE]
-> L’application client/serveur ne doit pas basée sur Internet ou un intranet (autrement dit, basée sur le web), elle peut se composer uniquement des programmes compilés sur un réseau local. Toutefois, le cas classique est une application web.
+> L'application client/serveur n'a pas besoin d'être basée sur Internet ou sur un intranet (c'est-à-dire, basé sur le Web), elle peut se composer uniquement des programmes compilés sur un réseau local. Toutefois, il s'agit généralement d'une application Web.
 
 Dans la mesure où certains contrôles visuels, tels que les grilles, les cases à cocher ou les listes, sont susceptibles d'utiliser les informations retournées, ils doivent être en mesure de les manipuler facilement.
 
@@ -37,5 +37,5 @@ Si vous voulez une interface de programmation d'application simple et efficace, 
 
 ## <a name="the-solution"></a>La solution
 
-RDS définit un modèle de programmation, la séquence d’activités requise pour accéder à et mettre à jour une source de données, pour pouvoir accéder aux données via un intermédiaire, tels que Internet Information Services (IIS). Le modèle de programmation résume toutes les fonctionnalités de l'interface RDS.
+RDS définit un modèle de programmation (la séquence d'activités nécessaires pour accéder à une source de données et la mettre à jour) pour accéder aux données via un intermédiaire, tel qu'Internet Information Services (IIS). Le modèle de programmation résume toutes les fonctionnalités de l'interface RDS.
 

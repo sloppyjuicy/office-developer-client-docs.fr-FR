@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset2.RecordCount (DAO)
+title: Recordset2. RecordCount, propriété (DAO)
 TOCTitle: RecordCount Property
 ms:assetid: 77852966-11e9-1773-6e58-53927b84c03b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196071(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c23de433f26b5a54b3fee5cc69f67a07b53f8a3b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309155"
 ---
-# <a name="recordset2recordcount-property-dao"></a>Propriété Recordset2.RecordCount (DAO)
+# <a name="recordset2recordcount-property-dao"></a>Recordset2. RecordCount, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Renvoie le nombre d'enregistrements accédés dans un objet **[Recordset](recordset-object-dao.md)** ou le nombre total d'enregistrements dans un objet **Recordset** de type table ou un objet **[TableDef](tabledef-object-dao.md)**. Type **Long** en lecture seule.
 
@@ -32,14 +32,14 @@ Renvoie le nombre d'enregistrements accédés dans un objet **[Recordset](record
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez la propriété **RecordCount** pour déterminer le nombre d'enregistrements accédés dans un objet **Recordset** ou **TableDef**. La propriété **RecordCount** n’indique pas le nombre d’enregistrements contenu dans un objet **Recordset** de type avant uniquement, instantané ou feuille de réponse dynamique jusqu'à ce que tous les enregistrements ont accédé. Après avoir accédé au dernier enregistrement, la propriété **RecordCount** indique le nombre total d'enregistrements non supprimés dans l'objet **Recordset** ou **TableDef**. Pour forcer l'accès au dernier enregistrement, appelez la méthode **[MoveLast](recordset2-movelast-method-dao.md)** sur l'objet **Recordset**. Vous pouvez également utiliser une fonction SQL **Count** pour déterminer le nombre approximatif d'enregistrements renvoyés par votre requête.
+Utilisez la propriété **RecordCount** pour savoir à combien d’enregistrements dans un objet **Recordset** ou **TableDef** les utilisateurs ont accédé. La propriété **RecordCount** n’indique pas le nombre d’enregistrements contenus dans un objet **Recordset** de type feuille de réponse dynamique, capture instantanée ou transfert uniquement avant que les utilisateurs aient accédé à tous les enregistrements. Après avoir accédé au dernier enregistrement, la propriété **RecordCount** indique le nombre total d'enregistrements non supprimés dans l'objet **Recordset** ou **TableDef**. Pour forcer l'accès au dernier enregistrement, appelez la méthode **[MoveLast](recordset2-movelast-method-dao.md)** sur l'objet **Recordset**. Vous pouvez également utiliser une fonction SQL **Count** pour déterminer le nombre approximatif d'enregistrements renvoyés par votre requête.
 
 > [!NOTE]
 > [!REMARQUE] L'utilisation de la méthode **MoveLast** pour remplir un objet **Recordset** récemment ouvert affecte les performances. Sauf s'il est indispensable de connaître précisément la valeur de la propriété **RecordCount** dès l'ouverture d'un objet **Recordset**, il est préférable d'attendre que l'objet **Recordset** soit rempli avec d'autres sections de code avant de vérifier la valeur de la propriété **RecordCount**.
 
 À mesure que votre application supprime des enregistrements dans un objet **Recordset** de type feuille de réponse dynamique, la valeur de la propriété **RecordCount** diminue. Toutefois, les enregistrements supprimés par d'autres utilisateurs ne sont pas répercutés dans la propriété **RecordCount** tant que l'enregistrement actif est positionné sur un enregistrement supprimé. Si vous exécutez une transaction qui affecte la valeur de la propriété **RecordCount** et que vous annulez par la suite la transaction, la propriété **RecordCount** ne reflètera pas le nombre réel d'enregistrements restants.
 
-La propriété **RecordCount** d’un objet **Recordset** de type instantané ou avant uniquement n’est pas affectée par les modifications apportées aux tables sous-jacentes.
+La propriété **RecordCount** d’un objet **Recordset** de type capture instantanée ou transfert uniquement n’est pas concernée par les modifications apportées aux tables sous-jacentes.
 
 Un objet **Recordset** ou **TableDef** sans enregistrement possède une propriété **RecordCount** égale à 0.
 
@@ -47,7 +47,7 @@ L'appel de la méthode **[Requery](recordset2-requery-method-dao.md)** sur un ob
 
 ## <a name="example"></a>Exemple
 
-Cet exemple illustre la propriété **RecordCount** avec différents types d'objets **Recordsets** avant et après qu'ils ont été remplis.
+Cet exemple illustre la propriété **RecordCount** avec différents types de **Recordsets** avant et après leur remplissage.
 
 ```vb
     Sub RecordCountX() 

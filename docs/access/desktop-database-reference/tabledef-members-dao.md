@@ -1,5 +1,5 @@
 ---
-title: Membres de l’objet TableDef (DAO)
+title: TableDef, membres (DAO)
 TOCTitle: TableDef Members
 ms:assetid: bc55315e-bafe-d89e-ad31-fd4c9bb6486e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ff9f6841b50b70f8846c829f0ee7b911c84c0e04
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314902"
 ---
-# <a name="tabledef-members-dao"></a>Membres de l’objet TableDef (DAO)
+# <a name="tabledef-members-dao"></a>TableDef, membres (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Un objet TableDef représente la définition stockée d'une table de base ou d'une table liée (espaces de travail Microsoft Access uniquement).
 
@@ -41,7 +41,7 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-createindex-method-dao.md">CreateIndex</a></strong></p></td>
-<td><p>Crée un nouvel objet <strong><a href="index-object-dao.md">Index</a></strong> (Espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Crée un nouvel objet <strong><a href="index-object-dao.md">index</a></strong> (espaces de travail Microsoft Access uniquement). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
@@ -78,7 +78,7 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 <td><p>Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet <strong>TableDef</strong>. Type de données <strong>Long</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-conflicttable-property-dao.md">ConflictTable</a></strong></p></td>
+<td><p><strong><a href="tabledef-conflicttable-property-dao.md">ConflictTable,</a></strong></p></td>
 <td><p>Renvoie le nom d'une table de conflits contenant les enregistrements de base de données qui sont entrés en conflit lors de la synchronisation de deux réplicas (espaces de travail Microsoft Access uniquement). Valeur de type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
@@ -90,7 +90,7 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 <td><p>Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Valeur <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-fields-property-dao.md">Champs</a></strong></p></td>
+<td><p><strong><a href="tabledef-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
@@ -102,12 +102,12 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 <td><p>Renvoie la date et l'heure de la dernière modification apportée à un objet. Type de données <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-name-property-dao.md">Nom</a></strong></p></td>
-<td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture.</p></td>
+<td><p><strong><a href="tabledef-name-property-dao.md">Name</a></strong></p></td>
+<td><p>Cette propriété renvoie ou définit le nom de l'objet spécifié. En lecture/écriture, <strong>chaîne</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-properties-property-dao.md">Propriétés</a></strong></p></td>
-<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</p></td>
+<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. Valeur en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-recordcount-property-dao.md">RecordCount</a></strong></p></td>
@@ -123,11 +123,11 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Renvoie une valeur indiquant si vous pouvez modifier un objet DAO. Type <strong>Boolean</strong> en lecture seule.</p></td>
+<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-validationrule-property-dao.md">ValidationRule</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui valide les données d'un champ pendant sa modification ou son ajout à une table (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui valide les données dans un champ au moment de leur modification ou de leur ajout à une table (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-validationtext-property-dao.md">ValidationText</a></strong></p></td>

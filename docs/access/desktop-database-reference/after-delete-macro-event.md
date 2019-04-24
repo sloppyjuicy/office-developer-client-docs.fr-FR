@@ -12,28 +12,28 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f524a544736f68bcfa6bd15e3bcc720ffa2bc4d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297213"
 ---
 # <a name="after-delete-macro-event"></a>After Delete, événement de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'événement **Après suppression** se produit après la suppression d'un enregistrement.
+L’événement **Après suppression** se produit après la suppression d’un enregistrement.
 
 > [!NOTE]
-> [!REMARQUE] L'événement **Après suppression** est disponible uniquement dans les macros de données.
+> L’événement **Après suppression** est disponible uniquement dans les macros de données.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez l'événement **Après suppression** pour effectuer toute action souhaitée lors de la suppression d'un enregistrement. L'événement **Après suppression** peut par exemple servir à appliquer des règles professionnelles ou des flux de travail, à mettre à jour un total agrégé et à envoyer des notifications.
+Utilisez l’événement **Après suppression** pour effectuer toute action souhaitée lors de la suppression d’un enregistrement. L’événement **Après suppression** peut par exemple servir à appliquer des règles professionnelles ou des flux de travail, à mettre à jour un total agrégé et à envoyer des notifications.
 
-Lorsque l'événement **Après suppression** se produit, les valeurs contenues dans l'enregistrement supprimé sont toujours disponibles. Vous souhaiterez peut-être utiliser une valeur supprimée pour incrémenter ou décrémenter un total, créer un journal d’audit ou comparer à une valeur existante dans un argument *ConditionWhere* .
+Lorsque l'événement **Après suppression** se produit, les valeurs contenues dans l'enregistrement supprimé sont toujours disponibles. Vous pouvez utiliser une valeur supprimée pour incrémenter ou décrémenter un total, créer une piste d'audit ou comparer à une valeur existante dans un argument *ConditionWhere* .
 
-Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser une instruction If pour déterminer si le champ PaidInFull a été modifié.
+Vous pouvez utiliser la fonction **Updated («*nom de champ*»)** pour déterminer si un champ a été modifié. L’exemple de code suivant montre comment utiliser une instruction If pour déterminer si le champ PaidInFull a été modifié.
 
 ```vb 
  
@@ -55,7 +55,7 @@ Par exemple, pour accéder à la valeur du champ QuantityInStock dans l'enregist
 
 Les valeurs contenues dans l'enregistrement supprimé sont supprimées de manière définitive lorsque l'événement **Après suppression** se termine.
 
-Les commandes suivantes de la macro peuvent être utilisées dans l’événement **Après suppression** .
+Les commandes de macro suivantes peuvent être utilisées dans l'événement **après suppression** .
 
 <table>
 <colgroup>
@@ -65,7 +65,7 @@ Les commandes suivantes de la macro peuvent être utilisées dans l’événemen
 <thead>
 <tr class="header">
 <th><p>Type de commande</p></th>
-<th><p>Commande</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>
@@ -83,15 +83,15 @@ Les commandes suivantes de la macro peuvent être utilisées dans l’événemen
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="createrecord-data-block.md">Action de macro CréerEnregistrement</a></p></td>
+<td><p><a href="createrecord-data-block.md">CréerEnregistrement, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloc de données</p></td>
-<td><p><a href="editrecord-data-block.md">Action de macro ModifierEnregistrement</a></p></td>
+<td><p><a href="editrecord-data-block.md">EditRecord, action de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="foreachrecord-data-block.md">Action de macro PourChaqueEnregistrement</a></p></td>
+<td><p><a href="foreachrecord-data-block.md">PourChaqueEnregistrement, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloc de données</p></td>
@@ -153,13 +153,13 @@ Les commandes suivantes de la macro peuvent être utilisées dans l’événemen
 </table>
 
 
-Pour créer une macro de données qui capture l'événement **Après suppression**, procédez comme suit.
+Pour créer une macro de données qui capture l’événement **Après suppression**, procédez comme suit.
 
-1.  Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Après suppression**.
+1.  Ouvrez la table pour laquelle vous souhaitez capturer l’événement **Après suppression**.
 
-2.  Sous l'onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après suppression**.
+2.  Sous l’onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après suppression**.
 
-Une macro de données vide s'affiche dans le concepteur de macros.
+Une macro de données vide s’affiche dans le concepteur de macros.
 
 ## <a name="example"></a>Exemple
 
@@ -169,9 +169,9 @@ L'exemple de code suivant utilise l'événement **Après suppression** pour effe
 
 Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 
-1.  Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Après suppression**.
+1.  Ouvrez la table pour laquelle vous souhaitez capturer l’événement **Après suppression**.
 
-2.  Sous l'onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après suppression**.
+2.  Sous l’onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après suppression**.
 
 3.  Sélectionnez le code ci-dessous et appuyez sur Ctrl+C pour le copier dans le Presse-papiers.
 

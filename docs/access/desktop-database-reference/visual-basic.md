@@ -1,5 +1,5 @@
 ---
-title: Visual Basic (référence de base de données du bureau Access)
+title: Visual Basic (référence de base de données de bureau Access)
 TOCTitle: Visual Basic
 ms:assetid: 9d153b6c-c860-7350-cb3c-b9bd08f75ba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249714(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3045cf3861409d2909f31536670a27c282eb2cdc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312137"
 ---
 # <a name="visual-basic"></a>Visual Basic
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Pour gérer les événements ADO dans Microsoft Visual Basic, vous devez déclarer une variable au niveau du module à l'aide du mot-clé **WithEvents**. La variable ne peut être déclarée qu'au sein d'un module de classe et doit être déclarée au niveau du module. Ce n'est toutefois pas aussi restrictif qu'il n'y paraît car les objets **Form** Visual Basic sont également des classes. La manière la plus simple de gérer les événements ADO est de déclarer une variable avec **WithEvents**. L'exemple suivant gère l'événement **ConnectComplete** pour un objet **Connection**:
 
@@ -77,5 +77,5 @@ End Sub
 ' EndEventExampleVB02 
 ```
 
-L'objet **Connection** est déclaré au niveau **Form** avec le mot-clé **WithEvents** pour activer la gestion de l'événement. Le formulaire\_Gestionnaire d’événements Load crée l’objet en affectant un nouvel objet **Connection** à *connEvent* et ouvre la connexion. Bien sûr, une application réelle serait effectuer un traitement plus sous la forme\_Gestionnaire d’événements Load qu’est indiqué ici.
+L'objet **Connection** est déclaré au niveau **Form** avec le mot-clé **WithEvents** pour activer la gestion de l'événement. Le gestionnaire\_d'événements Form Load crée en fait l'objet en affectant un nouvel objet **Connection** à *connEvent* , puis il ouvre la connexion. Bien entendu, une vraie application effectue un traitement plus long dans le\_gestionnaire d'événements Form Load que ce qui est indiqué ici.
 

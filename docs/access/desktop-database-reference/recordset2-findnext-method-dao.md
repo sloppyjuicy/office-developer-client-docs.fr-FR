@@ -1,5 +1,5 @@
 ---
-title: Méthode Recordset2.FindNext (DAO)
+title: Recordset2. FindNext, méthode (DAO)
 TOCTitle: FindNext Method
 ms:assetid: dc1d9fdf-36ae-cb23-4949-f7b98cb5d4e2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835354(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d5526c571e53021c1b27aad8f3c18d7ebdc9ecb6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309422"
 ---
-# <a name="recordset2findnext-method-dao"></a>Méthode Recordset2.FindNext (DAO)
+# <a name="recordset2findnext-method-dao"></a>Recordset2. FindNext, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Recherche l'enregistrement suivant dans un objet **[Recordset](recordset-object-dao.md)** de type feuille de réponse dynamique ou instantané qui satisfait aux critères spécifiés, et en fait l'enregistrement actif (espaces de travail Microsoft Access uniquement).
 
@@ -38,7 +38,7 @@ Recherche l'enregistrement suivant dans un objet **[Recordset](recordset-object-
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -47,7 +47,7 @@ Recherche l'enregistrement suivant dans un objet **[Recordset](recordset-object-
 <tr class="odd">
 <td><p><em>Criteria</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Données de type String utilisées pour localiser l'enregistrement. S'apparente à la clause WHERE d'une instruction SQL sans toutefois le mot WHERE.</p></td>
 </tr>
 </tbody>
@@ -108,17 +108,17 @@ L'utilisation des méthodes **Find** avec les recordsets ODBC connectés au mote
 
 Lorsque vous utilisez des bases de données ODBC connectées au moteur de base de données Microsoft Access et de grands objets **Recordset** de type feuille de réponse dynamique, il se peut que l'utilisation des méthodes **Find** ou des propriétés **Sort** ou **Filter** soit lente. Pour améliorer les performances, utilisez des requêtes SQL avec des clauses ORDER BY ou WHERE personnalisées, des requêtes avec paramètres ou des objets **QueryDef** qui récupèrent des enregistrements indexés spécifiques.
 
-Vous devez utiliser un format de date américain (mois-jour-année) lorsque vous recherchez des champs contenant des dates, même si vous n'utilisez pas la version américaine du moteur de base de données Microsoft Access. Sinon, les données risquent de ne pas être trouvées. Utilisez la fonction **Format** de Visual Basic pour convertir la date. Par exemple :
+Il est recommandé d'utiliser le format de date des États-Unis (mois-jour-année) lorsque vous effectuez des recherches dans des champs contenant des dates, même si vous n'utilisez pas la version américaine du moteur de base de données Microsoft Access ; à défaut, les données risquent d'être introuvables. Vous pouvez utiliser la fonction **Format** de Visual Basic pour convertir la date. Par exemple :
 
 ```vb
 rstEmployees.FindFirst "HireDate > #" _ 
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Si l’argument critères se compose d’une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strSQL = « prix \> » & lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez de Appelez la méthode. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.
+Si le critère est composé d'une chaîne concaténée avec une valeur non entière et que les paramètres système spécifient un caractère non-U. S. Decimal tel qu'une virgule (par exemple, strSQL = " \> Price" & lngPrice et lngPrice = 125, 50), une erreur se produit lorsque vous essayez de appelez la méthode. Cela est dû au fait que pendant la concaténation, le nombre est converti en chaîne en utilisant le caractère décimal par défaut du système, et Microsoft Access SQL n'accepte que les caractères décimaux usités aux États-Unis.
 
 > [!NOTE]
-> - Pour optimiser les performances, les *critères** doit être soit le formulaire «*champ* = *valeur*» où *champ* représente un champ indexé dans la table de base sous-jacente, ou «*champ* LIKE *préfixe » où *le champ* est*un les champs indexés dans la table de base sous-jacente et le *préfixe* est une chaîne de recherche de préfixe (par exemple, « ART * »).
+> - Pour de meilleures performances, *les critères** doivent être au format «*champ* = *valeur*» où *champ* est un champ indexé de la table de base sous-jacente, ou «*champ* like préfixe» où le *champ* est un ** un champ indexé dans la table de base sous ** -jacente et un préfixe est une chaîne de recherche de préfixe (par exemple, «art *»).
 > - En règle générale, pour des types de recherches équivalents, la méthode **Seek** offre de meilleures performances que la méthode **Find**. Cela suppose que les objets **Recordset** de type table peuvent à eux seuls répondre à vos besoins.
 
 

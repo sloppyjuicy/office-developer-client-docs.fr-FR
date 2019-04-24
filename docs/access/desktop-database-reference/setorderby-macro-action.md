@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 86834cd8b6132e8939067c0e34037ca1b0ef8bad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314608"
 ---
 # <a name="setorderby-macro-action"></a>SetOrderBy, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l'action **DéfinirOrdrePar** pour spécifier comment vous souhaitez trier les enregistrements d'un formulaire, d'un état, d'une table ou d'un résultat de requête.
+Vous pouvez utiliser l’action **DéfinirOrdrePar** pour spécifier comment vous souhaitez trier les enregistrements d’un formulaire, d’un état, d’une table ou d’un résultat de requête.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **DéfinirOrdrePar** utilise les arguments suivants.
+L’action **DéfinirOrdrePar** utilise les arguments suivants.
 
 <table>
 <colgroup>
@@ -43,17 +43,17 @@ L'action **DéfinirOrdrePar** utilise les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Trier par</strong></p></td>
-<td><p>Une expression de chaîne qui inclut le nom du champ ou des champs à partir desquels trier les enregistrements et les mots clés ASC ou DESC facultatifs.</p></td>
+<td><p>Expression de type Chaîne qui inclut le nom des champs sur lesquels trier les enregistrements et les mots clés ASC ou DESC facultatifs.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom du contrôle</strong> :</p></td>
+<td><p><strong>Nom du contrôle</strong></p></td>
 <td><p>S’il est fourni et que l’objet actif est un formulaire ou un état, il s’agit du nom du contrôle qui correspond au sous-formulaire ou sous-état qui sera trié. Si l’argument est vide et que l’objet actif est un formulaire ou un état, le formulaire ou l’état parent est trié.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous exécutez cette action de macro, le tri est appliqué à la table, au formulaire, à l'état ou à la feuille de données (résultat de la requête) qui est actif et qui a le focus.
 

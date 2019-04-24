@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 926b56db56c990e1f2da18efc07bbd7c5fe12650
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294231"
 ---
 # <a name="dbengine-properties-dao"></a>Propriétés DBEngine (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Propriété DBEngine.DefaultPassword (DAO)](dbengine-defaultpassword-property-dao.md)
-- [Propriété DBEngine.DefaultType (DAO)](dbengine-defaulttype-property-dao.md)
-- [Propriété DBEngine.DefaultUser (DAO)](dbengine-defaultuser-property-dao.md)
-- [Propriété DBEngine.Errors (DAO)](dbengine-errors-property-dao.md)
-- [Propriété DBEngine.IniPath (DAO)](dbengine-inipath-property-dao.md)
-- [Propriété DBEngine.LoginTimeout (DAO)](dbengine-logintimeout-property-dao.md)
-- [Propriété DBEngine.Properties (DAO)](dbengine-properties-property-dao.md)
-- [Propriété DBEngine.Version (DAO)](dbengine-version-property-dao.md)
-- [Propriété DBEngine.Workspaces (DAO)](dbengine-workspaces-property-dao.md)
+- [Propriété DBEngine. DefaultPassword (DAO)](dbengine-defaultpassword-property-dao.md)
+- [DBEngine. DefaultType, propriété (DAO)](dbengine-defaulttype-property-dao.md)
+- [Propriété DBEngine. DefaultUser (DAO)](dbengine-defaultuser-property-dao.md)
+- [DBEngine. Errors, propriété (DAO)](dbengine-errors-property-dao.md)
+- [DBEngine. IniPath, propriété (DAO)](dbengine-inipath-property-dao.md)
+- [DBEngine. LoginTimeout, propriété (DAO)](dbengine-logintimeout-property-dao.md)
+- [DBEngine. Properties, propriété (DAO)](dbengine-properties-property-dao.md)
+- [DBEngine. version, propriété (DAO)](dbengine-version-property-dao.md)
+- [DBEngine. Workspaces, propriété (DAO)](dbengine-workspaces-property-dao.md)
 
 

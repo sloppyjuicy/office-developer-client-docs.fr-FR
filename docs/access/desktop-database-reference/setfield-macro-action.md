@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4fbf7252729c7b376da6ebe67f59941c1caf924d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314615"
 ---
 # <a name="setfield-macro-action"></a>SetField, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'action **DéfinirChamp** peut être utilisée pour assigner une valeur à un champ.
 
 > [!NOTE]
-> [!REMARQUE] L'action **DéfinirChamp** est disponible uniquement dans les macros de données.
+> L’action **DéfinirChamp** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **DéfinirChamp** utilise les arguments répertoriés dans le tableau suivant.
+L’action **DéfinirChamp** utilise les arguments répertoriés dans le tableau suivant.
 
 <table>
 <colgroup>
@@ -40,7 +40,7 @@ L'action **DéfinirChamp** utilise les arguments répertoriés dans le tableau s
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
+<td><p><strong>Nom</strong></p></td>
 <td><p>Chaîne qui identifie le champ.</p></td>
 </tr>
 <tr class="even">
@@ -51,7 +51,7 @@ L'action **DéfinirChamp** utilise les arguments répertoriés dans le tableau s
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L'action **DéfinirChamp** ne peut pas être utilisée en dehors d'un bloc de données **[CréerEnregistrement](createrecord-data-block.md)** ou **[ModifierEnregistrement](editrecord-data-block.md)**.
 

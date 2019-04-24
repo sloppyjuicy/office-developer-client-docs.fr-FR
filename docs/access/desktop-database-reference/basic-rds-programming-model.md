@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 947a6355d07ba2e9fb9b2a9b76c4c1941d83e668
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296884"
 ---
 # <a name="basic-rds-programming-model"></a>Modèle de programmation RDS de base
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 RDS est destiné aux applications qui existent dans l'environnement suivant : une application cliente spécifie un programme exécuté sur un serveur et les paramètres requis pour retourner les informations voulues. Le programme appelé sur le serveur accède à la source de données spécifiée, récupère les informations, traite éventuellement les données puis retourne les informations obtenues à l'application cliente sous une forme qu'elle peut facilement utiliser. RDS permet d'effectuer la séquence d'actions suivante :
 

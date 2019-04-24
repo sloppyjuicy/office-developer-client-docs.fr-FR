@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 1d64f879f6a65226656bd510703e8b5b0ac8f71a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301294"
 ---
 # <a name="properties-collection-ado"></a>Properties, collection (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Contient tous les objets [Property](property-object-ado.md) d'une instance spécifique d'un objet.
+Contient tous les objets [Property](property-object-ado.md) d’une instance spécifique d’un objet.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Certains objets ADO possèdent une collection **Properties** composée d'objets **Property**. Chaque objet **Property** correspond à une caractéristique de l'objet ADO spécifique du fournisseur.
 

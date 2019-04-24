@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.LastModified (DAO)
+title: Recordset. LastModified, propriété (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 7386f25b-bde1-a446-e980-640696a3bfec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195859(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 232a87b1d34cacccaeb7c380ec522f5ba1def028
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300496"
 ---
-# <a name="recordsetlastmodified-property-dao"></a>Propriété Recordset.LastModified (DAO)
+# <a name="recordsetlastmodified-property-dao"></a>Recordset. LastModified, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
-Renvoie un signet indiquant le plus récemment enregistrement ajouté ou modifié.
+Renvoie un signet indiquant le dernier enregistrement ajouté ou modifié.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -33,11 +33,11 @@ Renvoie un signet indiquant le plus récemment enregistrement ajouté ou modifi�
 
 ## <a name="remarks"></a>Remarques
 
-La propriété **LastModified** permet de déplacer le dernier enregistrement ajouté ou modifié. Utilisez la propriété **LastModified** avec des objets **[Recordset](recordset-object-dao.md)** de type table ou feuille de réponse dynamique. L'enregistrement doit être ajouté ou modifié dans l'objet **Recordset** lui-même pour que la propriété **LastModified** ait une valeur.
+La propriété **LastModified** permet d'accéder au dernier enregistrement ajouté ou mis à jour. Utilisez la propriété **LastModified** avec des objets **[Recordset](recordset-object-dao.md)** de type table ou feuille de réponse dynamique. Un enregistrement doit être ajouté ou modifié dans l'objet **Recordset** lui-même pour que la propriété **LastModified** ait une valeur.
 
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la propriété **LastModified** pour déplacer le pointeur d'enregistrement courant sur un enregistrement ayant été modifié et sur un enregistrement nouvellement créé.
+Cet exemple utilise la propriété **LastModified** pour déplacer le pointeur d'enregistrement actif sur un enregistrement modifié et sur un enregistrement récemment créé.
 
 ```vb
     Sub LastModifiedX() 
@@ -98,7 +98,7 @@ Cet exemple utilise la propriété **LastModified** pour déplacer le pointeur d
 
 <br/>
 
-Cet exemple utilise la méthode **AddNew** pour créer un nouvel enregistrement avec le nom spécifié. La fonction AddName est indispensable pour l'exécution de cette procédure.
+Cet exemple utilise la méthode **AddNew** pour créer un nouvel enregistrement portant le nom spécifié. La fonction AddName est nécessaire à l'exécution de cette procédure.
 
 ```vb
     Sub AddNewX() 

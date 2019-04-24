@@ -1,5 +1,5 @@
 ---
-title: Écrire, méthode - ActiveX Data Objects (ADO)
+title: Write, méthode-ActiveX Data Objects (ADO)
 TOCTitle: Write method (ADO)
 ms:assetid: cabe4581-409f-7f05-bd59-d495bfb2c6fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)
@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c6f4bba55ec3a32d206d3a7bfd001e96cd94923e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302463"
 ---
 # <a name="write-method-ado"></a>Write, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Écrit des données binaires dans un objet [Stream](stream-object-ado.md).
 
 ## <a name="syntax"></a>Syntaxe
 
-*Flux de données*. Écrire la*mémoire tampon*
+*Stream*. *Mémoire tampon* d'écriture
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*Buffer* |Valeur de type **Variant** contenant un tableau d'octets à écrire.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les octets spécifiés sont écrits dans l'objet **Stream** sans espaces insérés entre chaque octet.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9d151d30ad376698d7b54b0795844210a41e701c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297031"
 ---
 # <a name="appendchunk-and-getchunk-methods-example-vj"></a>AppendChunk et GetChunk, méthodes – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple utilise les méthodes [AppendChunk](appendchunk-method-ado.md) et [GetChunk](getchunk-method-ado.md) pour remplir un champ image avec des données issues d'un autre enregistrement.
 

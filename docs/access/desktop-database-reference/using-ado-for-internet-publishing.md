@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ae8341151c7bf7d90585794061647ba33a5c4ea7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305900"
 ---
 # <a name="using-ado-for-internet-publishing"></a>Utilisation d’ADO pour la publication Internet
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 
-Le [fournisseur OLE DB pour la publication Internet](the-ole-db-provider-for-internet-publishing.md) montre un exemple spécifique d'accès à des données hétérogènes avec ADO. Tandis que les exemples de cette section sont spécifiques à l’aide du fournisseur de publication Internet, les principes démontrés doivent être semblables lors de l’utilisation d’ADO avec d’autres fournisseurs de données hétérogènes, par exemple un fournisseur à un magasin de courrier électronique.
+Le [fournisseur OLE DB pour la publication Internet](the-ole-db-provider-for-internet-publishing.md) montre un exemple spécifique d'accès à des données hétérogènes avec ADO. Tandis que les exemples de cette section sont spécifiques à l'utilisation du fournisseur de publication Internet, les principes démontrés doivent être similaires lors de l'utilisation d'ADO avec d'autres fournisseurs pour les données hétérogènes, comme un fournisseur dans un magasin de courrier électronique.
 
 ## <a name="urls"></a>URL
 
@@ -31,7 +31,7 @@ Pour plus d'informations sur l'utilisation des URL, consultez [URL absolues et r
 
 ## <a name="record-fields"></a>Champs d'enregistrement
 
-La différence qui distingue les données hétérogènes des données homogènes est qu'avec les premières, chaque ligne de données, ou objet **Record**, peut comporter des jeux de colonnes différents, ou objets **Field**, alors qu'avec les secondes, chaque ligne comporte le même jeu de colonnes. Pour plus d'informations sur des champs spécifiques au fournisseur pour la publication sur Internet, voir [Enregistrements et champs spécifiques au fournisseur](records-and-provider-supplied-fields.md).
+La différence qui distingue les données hétérogènes des données homogènes est qu’avec les premières, chaque ligne de données, ou objet **Record**, peut comporter des jeux de colonnes différents, ou objets **Field**, alors qu’avec les secondes, chaque ligne comporte le même jeu de colonnes. Pour plus d’informations sur des champs spécifiques au fournisseur pour la publication sur Internet, voir [Enregistrements et champs spécifiques au fournisseur](records-and-provider-supplied-fields.md).
 
 ## <a name="appending-new-fields"></a>Ajout de nouveaux champs
 

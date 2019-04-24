@@ -1,5 +1,5 @@
 ---
-title: Membres de documents (DAO)
+title: Documents, membres (DAO)
 TOCTitle: Documents Members
 ms:assetid: 8d5ac520-28b5-744d-6e60-219ca48575c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197354(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 27ca49da9f057842873de812c8313d831bda35aa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293734"
 ---
-# <a name="documents-members-dao"></a>Membres de documents (DAO)
+# <a name="documents-members-dao"></a>Documents, membres (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une collection Documents contient tous les objets Document d'un type spécifique d'objet (bases de données de moteur de base de données Microsoft Access uniquement).
 
@@ -59,7 +59,7 @@ Une collection Documents contient tous les objets Document d'un type spécifique
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="documents-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Renvoie le nombre d'objets dans la collection spécifiée. En lecture seule.</p></td>
+<td><p>Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.</p></td>
 </tr>
 </tbody>
 </table>

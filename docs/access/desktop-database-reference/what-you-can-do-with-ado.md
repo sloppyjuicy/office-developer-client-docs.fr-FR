@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5b7d0bab179cd7ec658bc04cee05f486947f38c9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306019"
 ---
 # <a name="what-you-can-do-with-ado"></a>Tâches réalisables avec ADO
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ADO fournit aux développeurs un modèle objet d'une puissance et d'une logique remarquables. Il permet d'accéder, de modifier et de mettre à jour par programme un grand nombre de sources de données via les interfaces système OLE DB. L'utilisation la plus fréquente d'ADO consiste à exécuter des requêtes sur une ou plusieurs tables d'une base de données relationnelle, à extraire et à afficher les résultats dans une application et, le cas échéant, à permettre aux utilisateurs de modifier les données et d'enregistrer ces modifications. Mais ADO permet également d'effectuer d'autres opérations par programme :
 
@@ -25,7 +25,7 @@ ADO fournit aux développeurs un modèle objet d'une puissance et d'une logique 
 
 - Accéder à des informations d'un magasin de fichiers sur Internet
 
-- Manipulation des messages et des dossiers dans un système de messagerie.
+- Manipulation de messages et de dossiers dans un système de messagerie.
 
 - Enregistrer des données d'une base de données dans un fichier XML
 

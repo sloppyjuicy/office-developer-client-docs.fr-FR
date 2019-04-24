@@ -1,5 +1,5 @@
 ---
-title: Propriété Property.Inherited (DAO)
+title: Propriété. Inherited, propriété (DAO)
 TOCTitle: Inherited Property
 ms:assetid: 10e624db-2301-b9be-beca-6e8caccf7274
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845349(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: cf3aef6d04c7d7cc573ec1d6efaca7d5238f5125
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302925"
 ---
-# <a name="propertyinherited-property-dao"></a>Propriété Property.Inherited (DAO)
+# <a name="propertyinherited-property-dao"></a>Propriété. Inherited, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
 Renvoie une valeur qui indique si un objet **[Property](property-object-dao.md)** est hérité d'un objet sous-jacent.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Hérité
+*expression* . Proviennent
 
 *expression* Variable qui représente un objet **Property** .
 

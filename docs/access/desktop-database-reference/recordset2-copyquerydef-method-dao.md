@@ -1,5 +1,5 @@
 ---
-title: Méthode Recordset2.CopyQueryDef (DAO)
+title: Recordset2. CopyQueryDef, méthode (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: 36689ac0-f8a6-1f3e-4170-799141373777
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192474(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8a643dae0b67cf4f2a2a0148619d9a8f4df7e6f0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307363"
 ---
-# <a name="recordset2copyquerydef-method-dao"></a>Méthode Recordset2.CopyQueryDef (DAO)
+# <a name="recordset2copyquerydef-method-dao"></a>Recordset2. CopyQueryDef, méthode (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
-Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l' **objet QueryDef** utilisé pour créer l’objet **[Recordset](recordset-object-dao.md)** représenté par l’espace réservé du jeu d’enregistrements (espaces de travail Microsoft Access uniquement). .
+Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l'objet **QueryDef** utilisé pour créer l'objet **[Recordset](recordset-object-dao.md)** représenté par l'espace réservé Recordset (espaces de travail Microsoft Access uniquement). .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -37,15 +37,15 @@ QueryDef
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser la méthode **CopyQueryDef** pour créer un nouvel objet **QueryDef** qui est un doublon de l'objet **QueryDef** utilisé pour créer l'objet **Recordset**.
+Vous pouvez utiliser la méthode **CopyQueryDef** pour créer un nouvel objet **QueryDef** qui est un doublon de l'objet **QueryDef** ayant servi à créer l'objet **Recordset**.
 
-Si vous n'avez pas utilisé un objet **QueryDef** pour créer cet objet **Recordset**, une erreur se produit. Vous devez d'abord ouvrir un objet **Recordset** avec la méthode **OpenRecordset** avant d'utiliser la méthode **CopyQueryDef**.
+Si aucun objet **QueryDef** n'a servi à créer cet objet **Recordset**, une erreur se produit. Vous devez d'abord ouvrir un objet **Recordset** par le biais de la méthode **OpenRecordset** avant d'utiliser la méthode **CopyQueryDef**.
 
-Cette méthode est utile lorsque vous créez un objet **Recordset** à partir d'un objet **QueryDef**, que vous passez l'objet **Recordset** à une fonction et que la fonction doit recréer l'équivalent SQL de la requête, par exemple pour la modifier.
+Cette méthode s'avère utile pour créer un objet **Recordset** à partir d'un objet **QueryDef**, et transmettre cet objet **Recordset** à une fonction ; la fonction doit recréer l'équivalent SQL de la requête, par exemple, pour la modifier d'une certaine manière.
 
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la méthode **CopyQueryDef** pour créer une copie d'un objet **QueryDef** à partir d'un objet **Recordset** existant et modifie la copie en ajoutant une clause à la propriété SQL. Lorsque vous créez un objet **QueryDef** permanent, les espaces, les points-virgules ou les sauts de ligne peuvent être ajoutés à la propriété SQL ; ces caractères supplémentaires doivent être supprimés avant de pouvoir attacher de nouvelles clauses à l'instruction SQL.
+Cet exemple de code montre comment utiliser la méthode **CopyQueryDef** pour créer une copie d'un objet **QueryDef** à partir d'un objet **Recordset** existant et comment modifier cette copie en ajoutant une clause à la propriété SQL. Lorsque vous créez un objet **QueryDef** permanent, il se peut que des espaces, des points-virgules ou des sauts de ligne soient ajoutés à la propriété SQL ; ces caractères supplémentaires doivent être supprimés pour pouvoir joindre de nouvelles clauses à l'instruction SQL.
 
 ```vb
     Function CopyQueryNew(rstTemp As Recordset, _ 
@@ -72,7 +72,7 @@ Cet exemple utilise la méthode **CopyQueryDef** pour créer une copie d'un obje
 
 <br/>
 
-Cet exemple illustre une utilisation possible de CopyQueryNew().
+Cet exemple de code illustre une utilisation possible de CopyQueryNew().
 
 ```vb
 Sub CopyQueryDefX() 

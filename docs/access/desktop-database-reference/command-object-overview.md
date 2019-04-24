@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f2c7697d4ae8b830afb53eee10e7dd59a7dc8db4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296163"
 ---
 # <a name="command-object-overview"></a>Vue d’ensemble de l’objet Command
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Grâce aux collections, aux méthodes et aux propriétés d'un objet **Command**, vous pouvez effectuer les opérations suivantes :
 
@@ -34,7 +34,7 @@ Grâce aux collections, aux méthodes et aux propriétés d'un objet **Command**
 
   - Associer une connexion ouverte à un objet **Command** en définissant sa propriété **ActiveConnection**.
 
-  - définir la propriété **Name** pour identifier l'objet **Command** en tant que méthode pour l'objet **Connection** associé ;
+  - Définir la propriété **Name** pour spécifier l'objet **Command** en tant que méthode à utiliser sur l'objet **Connection** associé.
 
   - Passer un objet **Command** à la propriété **Source** d'un objet **Recordset** pour obtenir des données.
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e5b4152311d988068eb0ea9ed96f561ee73da625
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308392"
 ---
 # <a name="tabledefname-property-dao"></a>Propriété TableDef.Name (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Renvoie ou définit le nom de l'objet spécifié. Type **String** en lecture-écriture.
+Cette propriété renvoie ou définit le nom de l'objet spécifié. Type **String** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 

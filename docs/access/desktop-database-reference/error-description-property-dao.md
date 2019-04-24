@@ -1,5 +1,5 @@
 ---
-title: Propriété Error.Description (DAO)
+title: Error. Description, propriété (DAO)
 TOCTitle: Description Property
 ms:assetid: 47a84bec-3258-f2c7-e1af-239da39844dc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193218(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 1d7e949771e764c22e93ef56059930ccf39584ab
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293503"
 ---
-# <a name="errordescription-property-dao"></a>Propriété Error.Description (DAO)
+# <a name="errordescription-property-dao"></a>Error. Description, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
  
 
 Renvoie une chaîne descriptive associée à une erreur. Il s'agit de la propriété par défaut de l'objet **Error**.

@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314643"
 ---
 # <a name="searchforrecord-macro-action"></a>SearchForRecord, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'action **RechercherEnregistrement** permet de rechercher un enregistrement spécifique dans une table, une requête, un formulaire ou un état.
+L’action **RechercherEnregistrement** permet de rechercher un enregistrement spécifique dans une table, une requête, un formulaire ou un état.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **RechercherEnregistrement** accepte les arguments suivants.
+L’action **RechercherEnregistrement** accepte les arguments suivants.
 
 <table>
 <colgroup>
@@ -42,7 +42,7 @@ L'action **RechercherEnregistrement** accepte les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d'objet</strong></p></td>
+<td><p><strong>Type d’objet</strong></p></td>
 <td><p>Entrez ou sélectionnez le type d'objet de base de données dans lequel vous souhaitez effectuer votre recherche. Vous pouvez sélectionner <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong> ou <strong>État</strong>.  </p></td>
 </tr>
 <tr class="even">
@@ -60,7 +60,7 @@ L'action **RechercherEnregistrement** accepte les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Valeur</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -87,19 +87,19 @@ L'action **RechercherEnregistrement** accepte les arguments suivants.
 </div></td>
 </tr>
 <tr class="even">
-<td><p><strong>Where Condition</strong></p></td>
-<td><p>Entrez les critères de la recherche à l’aide de la même syntaxe comme une clause SQL WHERE, sans le mot &quot;où&quot;. Par exemple :</p>
+<td><p><strong>Condition Where</strong></p></td>
+<td><p>Entrez les critères de la recherche en utilisant la même syntaxe qu'une clause SQL WHERE, uniquement sans le &quot;mot&quot;WHERE. For example,</p>
 <p>`Description = "Beverages"`</p>
-<p>Pour créer un critère qui comprend une valeur dans une zone de texte d'un formulaire, vous devez créer une expression qui concatène la première partie du critère avec le nom de la zone de texte contenant la valeur à rechercher. Par exemple, le critère suivant recherche le champ Description de la valeur dans la zone de texte txtDescription du formulaire frmCategories. Notez le signe égal (<strong>=</strong>) au début de l’expression et l’utilisation de guillemets simples (<strong>'</strong>) de chaque côté de la référence de zone de texte :</p>
+<p>Pour créer un critère qui comprend une valeur dans une zone de texte d'un formulaire, vous devez créer une expression qui concatène la première partie du critère avec le nom de la zone de texte contenant la valeur à rechercher. Par exemple, le critère suivant recherche le champ Description de la valeur dans la zone de texte txtDescription du formulaire frmCategories. Notez le signe égal (<strong>=</strong>) au début de l'expression et l'utilisation de guillemets simples (<strong>'</strong>) de part et d'autre de la référence de la zone de texte:</p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-- Lorsque plusieurs enregistrements correspondent aux critères dans l'argument **Condition Where**, les facteurs suivants déterminent l'enregistrement trouvé :
+- Lorsque plusieurs enregistrements correspondent aux critères dans l’argument **Condition Where**, les facteurs suivants déterminent l’enregistrement trouvé :
     
   - **La définition de l’argument Record**Voir la table dans la section Paramètres pour plus d’informations sur l’argument **Record**.
     
@@ -119,13 +119,13 @@ L'action **RechercherEnregistrement** accepte les arguments suivants.
         
     `Description = "Beverages" and CategoryID = 11`
     
-  - Vous pouvez faire référence à des champs qui se trouvent dans la source d’enregistrement d’un formulaire ou d’un état mais qui n’apparaissent pas dans le formulaire ou l’état. Dans l’exemple précédent, ni Description ni CategoryID ne doivent apparaître dans le formulaire ou l’état pour que les critères fonctionnent.
+  - Vous pouvez faire référence à des champs qui se trouvent dans la source d'enregistrement d'un formulaire ou d'un état mais qui n'apparaissent pas dans le formulaire ou l'état. Dans l’exemple précédent, ni Description ni CategoryID ne doivent apparaître dans le formulaire ou l’état pour que les critères fonctionnent.
     
   - Vous pouvez utiliser des opérateurs logiques, tels que **\<**, **\>**, **ET**, **OU** et **ENTRE**. L'action **TrouverEnregistrement** ne produit que des résultats qui sont égaux à, commencent par ou contiennent la chaîne recherchée.
 
 ## <a name="example"></a>Exemple
 
-La macro suivante ouvre d'abord la table Catégories en utilisant l'action **OuvrirTable**. Elle utilise ensuite l'action **RechercherEnregistrement** pour rechercher le premier enregistrement dans la table pour lequel le champ Description correspond à « Boissons ».
+La macro suivante ouvre d’abord la table Catégories en utilisant l’action **OuvrirTable**. Elle utilise ensuite l’action **RechercherEnregistrement** pour rechercher le premier enregistrement dans la table pour lequel le champ Description correspond à « Boissons ».
 
 <table>
 <colgroup>
@@ -141,11 +141,11 @@ La macro suivante ouvre d'abord la table Catégories en utilisant l'action **Ouv
 <tbody>
 <tr class="odd">
 <td><p><strong>OpenTable</strong></p></td>
-<td><p><strong>Nom de la table</strong>: catégories<strong>affichage</strong>: <strong>Mode DatasheetData</strong>: <strong>Modifier</strong></p></td>
+<td><p><strong>Nom</strong>de la table<strong></strong>: mode catégories: <strong>donnéesmode données</strong>: <strong>modifier</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SearchForRecord</strong></p></td>
-<td><p><strong>Type d’objet</strong>: <strong>TableObject nom</strong>: catégories<strong>enregistrement</strong>: <strong>Condition FirstWhere</strong>: Description = &quot;boissons&quot;</p></td>
+<td><p><strong>Type d'objet</strong>: <strong>TableObject nom</strong>: catégories<strong>enregistrement</strong>: <strong>premièrecondition WHERE condition</strong>: description &quot;= boissons&quot;</p></td>
 </tr>
 </tbody>
 </table>

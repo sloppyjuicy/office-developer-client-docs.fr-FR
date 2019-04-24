@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f3ef598ad50747d99ca884043e03ebfabfef8f63
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308994"
 ---
 # <a name="runsql-macro-action"></a>RunSQL, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **ExécuterSQL** pour exécuter une requête Action Access en utilisant l'instruction SQL correspondante. Vous pouvez également utiliser une requête Définition des données.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L'action **ExécuterSQL** accepte les arguments suivants.
+L’action **ExécuterSQL** accepte les arguments suivants.
 
 <table>
 <colgroup>
@@ -55,7 +55,7 @@ L'action **ExécuterSQL** accepte les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser des requêtes Action pour ajouter, supprimer ou mettre à jour des enregistrements et pour enregistrer le jeu de résultats d'une requête en tant que nouvelle table. Vous pouvez utiliser des requêtes Définition des données pour créer, modifier et supprimer des tables ou encore pour créer et supprimer des index. Avec l'action **ExécuterSQL**, vous pouvez effectuer ces opérations directement à partir d'une macro sans devoir utiliser les requêtes stockées.
 
@@ -89,7 +89,7 @@ Les requêtes Access sont en fait des instructions SQL créées lorsque vous cr�
 </tr>
 <tr class="even">
 <td><p>Création de table</p></td>
-<td><p>SÉLECTIONNEZ... DANS</p></td>
+<td><p>Sélectionnez... VERS</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mise à jour</p></td>

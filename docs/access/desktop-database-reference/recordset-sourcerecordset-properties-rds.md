@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f83ab385b1fab511ab71ea9ff3456fe466efa17c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307587"
 ---
 # <a name="recordset-sourcerecordset-properties-rds"></a>Recordset, SourceRecordset, propriétés (RDS)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Indique l'objet **Recordset** retourné d'un objet métier personnalisé.
+Indique l’objet **Recordset** retourné d’un objet métier personnalisé.
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. SourceRecordset = le *jeu d’enregistrements*
+*DataControl*. SourceRecordset = *Recordset*
 
-*Jeu d’enregistrements* = *DataControl*. Jeu d’enregistrements
+*Jeu d'enregistrements* = *DataControl*. Recordset
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 |*Recordset* |Variable objet représentant un objet **Recordset**.|

@@ -1,5 +1,5 @@
 ---
-title: Méthode Recordset2.Move (DAO)
+title: Recordset2. Move, méthode (DAO)
 TOCTitle: Move Method
 ms:assetid: df39c05e-c5f8-3b66-fa5f-c91b687c147d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d57e73c52ca515f13d613ed3aeb9cf361054396e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307265"
 ---
-# <a name="recordset2move-method-dao"></a>Méthode Recordset2.Move (DAO)
+# <a name="recordset2move-method-dao"></a>Recordset2. Move, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Déplace l'enregistrement actif d'un objet **[Recordset](recordset-object-dao.md)**.
+Déplace l'enregistrement actif dans un objet **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -38,7 +38,7 @@ Déplace l'enregistrement actif d'un objet **[Recordset](recordset-object-dao.md
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -53,7 +53,7 @@ Déplace l'enregistrement actif d'un objet **[Recordset](recordset-object-dao.md
 <tr class="even">
 <td><p><em>Signetdébut</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Valeur identifiant un signet. Si vous spécifiez l'argument startbookmark, le déplacement s'opère par rapport à ce signet. Sinon, l'opération Move part de l'enregistrement actif.</p></td>
 </tr>
 </tbody>
@@ -76,7 +76,7 @@ Si la propriété **BOF** ou **EOF** a la valeur **True** et que vous tentez d'u
 
 ## <a name="example"></a>Exemple
 
-Cet exemple de code montre comment utiliser la méthode **Move** pour positionner le pointeur d'enregistrement en fonction de l'entrée de l'utilisateur.
+Cet exemple de code montre comment utiliser la méthode **Move** pour positionner le pointeur d’enregistrement en fonction de l’entrée de l’utilisateur.
 
 ```vb
     Sub MoveX() 

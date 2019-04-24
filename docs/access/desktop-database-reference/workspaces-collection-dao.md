@@ -1,5 +1,5 @@
 ---
-title: Collection d’espaces de travail (DAO)
+title: Workspaces, collection (DAO)
 TOCTitle: Workspaces Collection
 ms:assetid: 88b851ce-4180-964f-582e-bc9571bf554c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197057(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4c615be9e92a936486c15377514c2b695f68bb5b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308322"
 ---
-# <a name="workspaces-collection-dao"></a>Collection d’espaces de travail (DAO)
+# <a name="workspaces-collection-dao"></a>Workspaces, collection (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une collection **Workspaces** contient tous les objets **Workspace** actifs et non masqués de l'objet **DBEngine**. (Les objets **Workspace** masqués ne sont ni ajoutés à la collection ni référencés par la variable à laquelle ils sont affectés.)
 
@@ -25,21 +25,21 @@ Une collection **Workspaces** contient tous les objets **Workspace** actifs et n
 
 L'objet **Workspace** permet de gérer la session active ou de démarrer une session supplémentaire.
 
-Lorsque vous consultez ou utilisez un objet **Workspace** , vous créez automatiquement l’espace de travail par défaut, DBEngine.Workspaces(0). Les paramètres des propriétés **Name** et **UserName** de l’espace de travail par défaut sont «\#espace de travail par défaut\#» et « Admin », respectivement. Si la sécurité est activée, le paramètre de propriété **UserName** correspond au nom de l'utilisateur connecté.
+Lorsque vous faites référence à un objet **Workspace** ou que vous l'utilisez, vous créez automatiquement l'espace de noms par défaut, DBEngine. Workspaces (0). Les paramètres des propriétés **Name** et **username** de l'objet Workspace par défaut sont\#«default\#Workspace» et «admin», respectivement. Si la sécurité est activée, le paramètre de propriété **UserName** correspond au nom de l'utilisateur connecté.
 
 Vous pouvez créer de nouveaux objets **Workspace** à l'aide de la méthode **[CreateWorkspace](dbengine-createworkspace-method-dao.md)**. Une fois le nouvel objet **Workspace** créé, vous devez l'ajouter à la collection **Workspaces** si vous devez vous y référer à partir de la collection. **Workspaces** Toutefois, vous pouvez utiliser un objet **Workspace** nouvellement créé sans l'ajouter à la collection **Workspaces**.
 
 Pour faire référence à un objet **Workspace** d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-**DBEngine**. **Espaces de travail** (0)
+**DBEngine**. **Espaces de travail** 0
 
-**DBEngine**. **Espaces de travail** (« nom »)
+**DBEngine**. **Espaces de travail** ("nom")
 
-**DBEngine**. **Espaces de travail** \! \[nom\]
+**DBEngine**. **Espaces de travail** \! \[\]
 
 
 > [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
+> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
 
 
 

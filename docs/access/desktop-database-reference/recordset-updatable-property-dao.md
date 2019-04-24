@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.Updatable (DAO)
+title: Recordset. Updatable, propriété (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 2d4bdcef-1b10-b542-ce0f-6172c271131b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192110(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 722ccc2334cd00ed89a1193709023db039ba9fd3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307545"
 ---
-# <a name="recordsetupdatable-property-dao"></a>Propriété Recordset.Updatable (DAO)
+# <a name="recordsetupdatable-property-dao"></a>Recordset. Updatable, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur indiquant si vous pouvez modifier un objet DAO. Type **Boolean** en lecture seule.
+Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données **Boolean** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Mise à jour
+*expression* . Modifiable
 
 *expression* Variable qui représente un objet **Recordset** .
 
 ## <a name="remarks"></a>Remarques
 
-Les objets Recordset et transférer-only type instantané renvoient toujours **False**.
+Les objets Recordset de type instantané et avant uniquement renvoient toujours la **valeur false**.
 
 De nombreux types d'objets peuvent contenir des champs non modifiables. Par exemple, vous pouvez créer un objet **Recordset** de type feuille de réponse dynamique dans lequel seuls certains champs peuvent être modifiés. Il peut s'agir de champs fixes ou contenant des données incrémentées automatiquement. Il est également possible que la feuille de réponse dynamique soit le résultat d'une requête qui combine des tables modifiables et non modifiables.
 

@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4397846abdc0d10b6bfa0e6a1eb5c0c435fc862a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296289"
 ---
 # <a name="closewindow-macro-action"></a>CloseWindow, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l’action **Fermerfenêtre** pour fermer un onglet de document d’accès spécifié ou de l’onglet de document actif si aucun n’est spécifié.
+Vous pouvez utiliser l'action **fermerfenêtre** pour fermer un onglet de document Access spécifié ou l'onglet de document actif si aucun n'est spécifié.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **FermerFenêtre** utilise les arguments suivants :
+L’action **FermerFenêtre** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -36,16 +36,14 @@ L'action **FermerFenêtre** utilise les arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d'objet</strong></p></td>
-<td><p>Type d’objet dont vous voulez fermer l’onglet de document. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Pour sélectionner l’onglet de document actif, laissez cet argument vide. 
-
-</p>
+<td><p><strong>Type d’objet</strong></p></td>
+<td><p>Type d’objet dont vous voulez fermer l’onglet de document. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Pour sélectionner l’onglet de document actif, laissez cet argument vide.</p>
 
 > [!NOTE]
 > Si vous fermez un module dans Visual Basic Editor, vous devez utiliser **Module** dans l’argument **Type d’objet**.
@@ -54,7 +52,7 @@ L'action **FermerFenêtre** utilise les arguments suivants :
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom de l'objet</strong></p></td>
+<td><p><strong>Nom de l’objet</strong></p></td>
 <td><p>Nom de l’objet à fermer. La zone <strong>Nom de l’objet</strong> affiche tous les objets de la base de données correspondant au type sélectionné par l’argument <strong>Type d’objet</strong>. Cliquez sur l’objet pour le fermer. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez également celui-ci vide.</p></td>
 </tr>
 <tr class="odd">

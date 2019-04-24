@@ -1,5 +1,5 @@
 ---
-title: URL, propriété (RDS - référence du bureau de la base de données Access)
+title: URL, propriété (référencement de la base de données de bureau RDS)
 TOCTitle: URL property (RDS)
 ms:assetid: 722765dc-f89c-0131-73b1-69c56a795546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aafc8cc10410cafed21e38ad7fec269c391c1fa2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313397"
 ---
 # <a name="url-property-rds"></a>URL, propriété (RDS)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique une chaîne contenant une URL relative ou absolue.
 
@@ -24,13 +24,13 @@ Vous pouvez définir la propriété **URL** au moment de la création dans la ba
 
 ## <a name="syntax"></a>Syntaxe
 
-Au moment du design : \<PARAM NAME = valeur « URL » = « Serveur »\>
+Moment de la \<conception: param Name = "URL" value = "Server"\>
 
-Temps d’exécution : DataControl.URL="Server »
+Moment de l'exécution: DataControl. URL = "Server"
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*Serveur* |Valeur **String** contenant une URL valide.|
 |*DataControl* |Variable d'objet représentant un objet **DataControl**.|

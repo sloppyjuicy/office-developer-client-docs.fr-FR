@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ed736a0e52ff45cd0fed63f1ba5bd7060d7a2380
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295876"
 ---
 # <a name="connection-object-ado"></a>Connection, objet (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente une connexion ouverte à une source de données.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un objet **Connection** représente une session unique avec une source de données. Dans le cas d'un système de base de données client/serveur, il peut être équivalent à une connexion réseau réelle au serveur. Selon les fonctionnalités prises en charge par le fournisseur, certaines collections, méthodes ou propriétés d'un objet **Connection** risquent de ne pas être disponibles.
 
@@ -61,7 +61,7 @@ Vous pouvez exécuter des commandes ou des procédures stockées comme si celles
 
 ### <a name="execute-a-command-as-a-native-method-of-a-connection-object"></a>Exécuter une commande comme une méthode native d'un objet Connection
 
-Pour exécuter une commande, donnez-lui un nom à l'aide de la propriété **Name** de l'objet [Command](name-property-ado.md). Attribuez à la propriété **ActiveConnection** de l'objet **Command** le nom de la connexion. Émettez ensuite une instruction dans laquelle le nom de la commande est utilisé comme s'il s'agissait d'une méthode de l'objet **Connection**, suivie d'éventuels paramètres et ensuite d'un objet **Recordset** si des lignes sont renvoyées. Définissez les propriétés de **Recordset** de façon à personnaliser l'objet **Recordset** obtenu. Par exemple :
+Pour exécuter une commande, donnez-lui un nom à l’aide de la propriété [Name](name-property-ado.md) de l’objet **Command**. Attribuez à la propriété **ActiveConnection** de l’objet **Command** le nom de la connexion. Émettez ensuite une instruction dans laquelle le nom de la commande est utilisé comme s’il s’agissait d’une méthode de l’objet **Connection**, suivie d’éventuels paramètres et ensuite d’un objet **Recordset** si des lignes sont renvoyées. Définissez les propriétés de **Recordset** de façon à personnaliser l’objet **Recordset** obtenu. Par exemple :
 
 ```vb
     Dim cnn As New ADODB.Connection
@@ -78,7 +78,7 @@ Pour exécuter une commande, donnez-lui un nom à l'aide de la propriété **Nam
 
 ### <a name="execute-a-stored-procedure-as-a-native-method-of-a-connection-object"></a>Exécuter une procédure stockée comme une méthode native d'un objet Connection
 
-Pour exécuter une procédure stockée, émettez une instruction dans laquelle le nom de la procédure stockée est utilisé comme s'il s'agissait d'une méthode de l'objet **Connection**, suivie d'éventuels paramètres. ADO détermine du mieux qu'il peut les types des paramètres. Par exemple :
+Pour exécuter une procédure stockée, émettez une instruction dans laquelle le nom de la procédure stockée est utilisé comme s'il s'agissait d'une méthode de l'objet **Connection**, suivie d'éventuels paramètres. ADO détermine du mieux qu'il peut les types des paramètres. Par exemple :
 
 ```vb
     Dim cnn As New ADODB.Connection

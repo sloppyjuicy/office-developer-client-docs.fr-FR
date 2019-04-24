@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 67b22219fdbbec8bf518b7be0fabd9a6adfbcf7f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306040"
 ---
 # <a name="working-with-multidimensional-data"></a>Utilisation des données multidimensionnelles
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Un *ensemble de cellules* est le résultat d’une requête sur des données multidimensionnelles. Il est constitué d'une collection d'axes, quatre au maximum et deux ou trois en règle générale. Un *axe* est une collection de membres d’une ou plusieurs dimensions, qui permet de rechercher ou de filtrer des valeurs spécifiques dans un cube.
+Un *ensemble de cellules* est le résultat d'une requête exécutée sur des données multidimensionnelles. Il est constitué d'une collection d'axes, quatre au maximum et deux ou trois en règle générale. Un *axe* est une collection de membres d'une ou plusieurs dimensions permettant de rechercher ou de filtrer des valeurs spécifiques dans un cube.
 
-Une *position* est un point le long d’un axe. Pour un axe comprenant une seule dimension, ces positions constituent un sous-ensemble des membres de la dimension. Si un axe comprend plusieurs dimensions, chaque position est une entité composée, qui comprend les éléments *n* où *n* est le nombre de dimensions orientées le long de cet axe. Chaque partie de la position est un membre d'une dimension constitutive.
+Une *position* est un point le long d'un axe. Pour un axe comprenant une seule dimension, ces positions constituent un sous-ensemble des membres de la dimension. Si un axe comprend plusieurs dimensions, chaque position constitue alors une entité composée de *n* parties, où *n* représente le nombre de dimensions orientées le long de cet axe. Chaque partie de la position est un membre d'une dimension constitutive.
 
 Par exemple, si les dimensions Géographie et Produit d'un cube contenant des données de ventes sont orientées le long de l'axe des x d'un ensemble de cellules, une position le long de cet axe peut contenir les membres « USA » et « Computers ». Dans cet exemple, les membres de chaque dimension doivent être orientés le long de l'axe des x pour y déterminer une position.
 
-Une *cellule* est un objet placé à l’intersection des coordonnées des axes. Chaque cellule renferme plusieurs informations, notamment les données elles-mêmes, une chaîne mise en forme (la forme affichable des données de la cellule) et la valeur ordinale de la cellule. (Chaque cellule est une valeur ordinale unique de l'ensemble de cellules. La valeur ordinale de la première cellule de l'ensemble est zéro, tandis que celle de la cellule la plus à gauche de la deuxième ligne d'un ensemble de cellules contenant huit colonnes serait huit.)
+Une *cellule* est un objet placé à l'intersection des coordonnées des axes. Chaque cellule renferme plusieurs informations, notamment les données elles-mêmes, une chaîne mise en forme (la forme affichable des données de la cellule) et la valeur ordinale de la cellule. (Chaque cellule est une valeur ordinale unique de l'ensemble de cellules. La valeur ordinale de la première cellule de l'ensemble est zéro, tandis que celle de la cellule la plus à gauche de la deuxième ligne d'un ensemble de cellules contenant huit colonnes serait huit.)
 
 Par exemple, un cube contient les six dimensions suivantes (notez que ce schéma de cube est légèrement différent de celui donné dans la rubrique [Présentation des schémas et données multidimensionnels](overview-of-multidimensional-schemas-and-data.md)) :
 

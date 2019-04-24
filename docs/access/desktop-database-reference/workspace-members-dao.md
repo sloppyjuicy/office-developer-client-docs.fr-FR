@@ -1,5 +1,5 @@
 ---
-title: Membres de l’espace de travail (DAO)
+title: Workspace, membres (DAO)
 TOCTitle: Workspace Members
 ms:assetid: 13ac7d41-1b25-20d2-5c85-0f21bfd38328
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8a2105c13f5f7ce9a75e7e18e20477d8b283543a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302591"
 ---
-# <a name="workspace-members-dao"></a>Membres de l’espace de travail (DAO)
+# <a name="workspace-members-dao"></a>Workspace, membres (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Un objet Workspace définit une session nommée pour un utilisateur. Il contient des bases de données ouvertes et fournit les mécanismes destinés aux transactions simultanées, ainsi que la prise en charge des groupes de travail sécurisés dans les espaces de travail Microsoft Access.
 
@@ -48,7 +48,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 <td><p>Met fin à la transaction en cours et enregistre les modifications.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
+<td><p><strong><a href="workspace-createdatabase-method-dao.md">Database</a></strong></p></td>
 <td><p>Crée un objet <strong><a href="database-object-dao.md">Database</a></strong>, enregistre la base de données sur le disque, et renvoie un objet <strong>Database</strong> ouvert (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -96,7 +96,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 <p>Définit ou renvoie le type de pilote de curseur utilisé pour la connexion créée par la méthode <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> ou <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans</a></strong></p></td>
+<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans,</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui indique si plusieurs transactions impliquant la même source de données ODBC connectée au moteur de base de données Microsoft Access sont isolées (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -104,12 +104,12 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 <td><p>Définit ou renvoie le nombre de secondes devant s'écouler avant l'apparition d'une erreur lorsque vous essayez de vous connecter à une base de données ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="workspace-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-properties-property-dao.md">Propriétés</a></strong></p></td>
-<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</p></td>
+<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. Valeur en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-type-property-dao.md">Type</a></strong></p></td>

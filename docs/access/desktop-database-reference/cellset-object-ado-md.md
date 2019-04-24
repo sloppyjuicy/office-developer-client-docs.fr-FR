@@ -1,5 +1,5 @@
 ---
-title: Cellset, objet (ADO MD)
+title: CellSet, objet (ADO MD)
 TOCTitle: Cellset object (ADO MD)
 ms:assetid: 28d4b3b9-f907-9ec0-00e1-9666c887cdf0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249047(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c8cb75ad7277386cfe81b2edcffa234498318444
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296513"
 ---
-# <a name="cellset-object-ado-md"></a>Cellset, objet (ADO MD)
+# <a name="cellset-object-ado-md"></a>CellSet, objet (ADO MD)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente les résultats d'une requête multidimensionnelle. Il s'agit d'une collection de cellules sélectionnées dans des cubes ou d'autres ensembles de cellules.
 

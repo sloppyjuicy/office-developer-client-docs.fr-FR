@@ -12,27 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f8c45cdf0d9cf588f61d1b51b728a8a15f6d7e12
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308749"
 ---
 # <a name="sendkeys-macro-action"></a>SendKeys, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="Remarque sur la sécurité" alt="Security note" />de sécurité**</th>
+<th><img src="media/access-alert-security.gif" title="Note de sécurité" alt="Security note" /><strong>Note de sécurité</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-      Évitez d’utiliser l’instruction <strong>SendKeys</strong> ou une macro AutoKeys avec des informations sensibles et confidentielles. Un utilisateur malveillant pourrait intercepter la frappe et compromettre la sécurité de votre ordinateur et de vos données.
-</td>
+<td>Évitez d’utiliser l’instruction <strong>SendKeys</strong> ou une macro AutoKeys avec des informations sensibles ou confidentielles. Un utilisateur malveillant pourrait intercepter la frappe et compromettre la sécurité de votre ordinateur et de vos données.</td>
 </tr>
 </tbody>
 </table>
@@ -40,11 +38,11 @@ ms.locfileid: "28722374"
 Vous pouvez utiliser l'action **EnvoiTouches** pour envoyer directement une séquence de touches à Microsoft Access ou à une application Windows active.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L'action **EnvoiTouches** accepte les arguments suivants.
+L’action **EnvoiTouches** accepte les arguments suivants.
 
 <table>
 <colgroup>
@@ -70,9 +68,9 @@ L'action **EnvoiTouches** accepte les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Access traite la séquence de touches qu'il reçoit via l'action **EnvoiTouches** comme si vous l'aviez tapée directement dans une fenêtre Access.
+Access traite la séquence de touches qu’il reçoit via l’action **EnvoiTouches** comme si vous l’aviez tapée directement dans une fenêtre Access.
 
 Pour spécifier la séquence de touches, utilisez la même syntaxe que celle utilisée dans l'instruction **EnvoiTouches**.
 

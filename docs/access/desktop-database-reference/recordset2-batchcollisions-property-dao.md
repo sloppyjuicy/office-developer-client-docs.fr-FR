@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset2.BatchCollisions (DAO)
+title: Recordset2. BatchCollisions, propriété (DAO)
 TOCTitle: BatchCollisions Property
 ms:assetid: 07d6c25f-baf5-f7d6-d225-0447e0f78fe6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844993(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ea75da06c0db4eeb4e846bacfddc9f125c03fc84
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307489"
 ---
-# <a name="recordset2batchcollisions-property-dao"></a>Propriété Recordset2.BatchCollisions (DAO)
+# <a name="recordset2batchcollisions-property-dao"></a>Recordset2. BatchCollisions, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -37,5 +37,5 @@ Si vous affectez à la propriété [**Bookmark**](recordset2-bookmark-property-d
 
 Après correction des enregistrements présentant des conflits, il est possible d'appeler à nouveau une méthode **Update** par lot. À ce stade, DAO tente d'exécuter une autre mise à jour par lot et la propriété **BatchCollisions** reflète à nouveau le jeu d'enregistrements ayant échoué à la deuxième tentative. Tous les enregistrements dont la mise à jour a réussi lors de la tentative précédente ne sont pas repris dans la tentative actuelle car leur propriété **[RecordStatus](recordset2-recordstatus-property-dao.md)** a désormais la valeur dbRecordUnmodified. Ce processus peut se poursuivre aussi longtemps que des conflits surviennent ou jusqu'à ce que vous abandonniez les mises à jour et fermiez le jeu de résultats.
 
-Ce tableau est recréé à chaque exécution d'une méthode **Update** par lot.
+Ce tableau est recréé chaque fois que vous exécutez une méthode **Update** par lot.
 

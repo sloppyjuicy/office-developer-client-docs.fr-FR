@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 14d3dc4b291d96a47e0fb67c0e7d837463cd4bf2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296408"
 ---
 # <a name="chapter-6-error-handling"></a>Chapitre 6 : Gérer des erreurs
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ADO utilise différentes méthodes pour avertir une application d'une erreur. Ce chapitre présente les types d'erreurs pouvant survenir lorsque vous utilisez ADO et comment votre application est avertie. Différentes façons de gérer ces erreurs sont également suggérées en fin de chapitre.
 
-## <a name="how-does-ado-report-errors"></a>Comment ADO signale-t-il les erreurs ?
+## <a name="how-does-ado-report-errors"></a>Comment ADO signale-t-il les erreurs?
 
 ADO vous avertit des erreurs de diverses façons :
 
@@ -44,4 +44,4 @@ Les sections ci-après décrivent plus en détail chacune de ces méthodes de no
 - [Informations sur les erreurs en lien avec le champ](field-related-error-information.md)
 - [Informations sur les erreurs en lien avec le recordset](recordset-related-error-information.md)
 - [Anticipation des erreurs](anticipating-errors.md)
-- [Gestion des erreurs dans d’autres langues (ADO)](handling-errors-in-other-languages.md)
+- [Gestion des erreurs dans d'autres langages (ADO)](handling-errors-in-other-languages.md)

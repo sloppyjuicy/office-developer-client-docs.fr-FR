@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4e44182dd4290b05a2cfc8fabdf9240819f4b7aa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314475"
 ---
 # <a name="stopallmacros-macro-action"></a>StopAllMacros, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'action **ArrêtToutesMacros** permet d'arrêter toutes les macros en cours d'exécution.
+L’action **ArrêtToutesMacros** permet d’arrêter toutes les macros en cours d’exécution.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **ArrêtToutesMacros** n'utilise aucun argument.
+L’action **ArrêtToutesMacros** n’utilise aucun argument.
 
 ## <a name="remarks"></a>Remarques
 
-Cette action est généralement utilisée lorsqu'une condition d'erreur nécessite l'arrêt de toutes les macros. Vous pouvez utiliser une expression conditionnelle dans la ligne d'action de la macro contenant cette action. Lorsque l’expression a la valeur **True** (– 1), Microsoft Access arrête toutes les macros.
+Cette action est généralement utilisée lorsqu’une condition d’erreur nécessite l’arrêt de toutes les macros. Vous pouvez utiliser une expression conditionnelle dans la ligne d’action de la macro contenant cette action. Lorsque l’expression renvoie la valeur **True** (–1), Microsoft Access arrête l’exécution de toutes les macros.
 
 C'est le cas, par exemple, lorsque l'affichage d'une boîte de message constitue l'une des actions complexes d'une macro, parmi lesquelles l'exécution d'autres macros. Si l'utilisateur clique sur **Annuler** dans cette boîte de message, l'action **ArrêtToutesMacros** peut entraîner l'arrêt de toutes les macros en cours d'exécution.
 

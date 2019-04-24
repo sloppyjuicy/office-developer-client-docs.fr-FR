@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2229c7580acc6848551103d83b7bfcf981d37bef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702655"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295316"
 ---
 # <a name="creating-and-executing-a-simple-command"></a>Création et exécution d’une commande simple
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Bien qu'il ne s'agisse pas d'une utilisation habituelle de l'objet **Command**, le code suivant présente une méthode de base qui consiste à utiliser l'objet **Command** pour exécuter une commande sur une source de données. Dans ce cas, il s'agit d'une commande de renvoi de ligne, c'est-à-dire qu'elle retourne les résultats de la commande dans un objet **Recordset**.
 
@@ -83,7 +83,7 @@ La commande à exécuter est spécifiée à l'aide de la propriété **CommandTe
 
 
 > [!NOTE]
-> Plusieurs exemples de cette section appellent d’une fonction utilitaire **GetNewConnection**, pour établir une connexion avec le fournisseur de données. Pour éviter la redondance, elle est répertoriée qu’une seule fois :
+> Plusieurs exemples de cette section appellent une fonction utilitaire, **GetNewConnection**, pour établir une connexion avec le fournisseur de données. Pour éviter la redondance, il n'est affiché qu'une seule fois:
 
 ```vb 
  

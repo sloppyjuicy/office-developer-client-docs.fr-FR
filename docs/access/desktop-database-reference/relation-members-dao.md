@@ -1,5 +1,5 @@
 ---
-title: Membres de relation (DAO)
+title: Relation, membres (DAO)
 TOCTitle: Relation Members
 ms:assetid: 9ee36e7d-3825-1de8-65fb-64bbcada847c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 84e18afe4a11e53d68397efad71ac6136c779143
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307036"
 ---
-# <a name="relation-members-dao"></a>Membres de relation (DAO)
+# <a name="relation-members-dao"></a>Relation, membres (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Un objet Relation représente une relation entre des champs de tables ou de requêtes (bases de données de moteur de base de données Microsoft Access uniquement).
 
@@ -62,15 +62,15 @@ Un objet Relation représente une relation entre des champs de tables ou de requ
 <td><p>Définit ou renvoie une valeur spécifiant une ou plusieurs caractéristiques d'un objet <strong>Relation</strong>. Type <strong>Long</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relation-fields-property-dao.md">Champs</a></strong></p></td>
+<td><p><strong><a href="relation-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="relation-foreigntable-property-dao.md">ForeignTable</a></strong></p></td>
-<td><p>Définit ou renvoie le nom de la table étrangère d'une relation (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Définit ou renvoie le nom de la table étrangère dans une relation (espaces de travail Microsoft Access uniquement). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relation-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="relation-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ec2df7a8fcf53f8f35232fd497a5f93270f4eaba
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309146"
 ---
 # <a name="relatedtable-property-adox"></a>RelatedTable, propriété (ADOX)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le nom de la table liée.
 
@@ -25,7 +25,7 @@ Indique le nom de la table liée.
 
 Définit et renvoie une valeur de type **String**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur par défaut est une chaîne vide ("").
 

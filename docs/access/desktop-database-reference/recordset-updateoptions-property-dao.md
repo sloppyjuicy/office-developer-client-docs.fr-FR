@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.UpdateOptions (DAO)
+title: Recordset. UpdateOptions, propriété (DAO)
 TOCTitle: UpdateOptions Property
 ms:assetid: 14ab955d-1c5a-dc76-8dbf-dbca49816bc8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845468(v=office.15)
@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ced8fc78729924ce271aa0fe38d77d287a131f13
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307531"
 ---
-# <a name="recordsetupdateoptions-property-dao"></a>Propriété Recordset.UpdateOptions (DAO)
+# <a name="recordsetupdateoptions-property-dao"></a>Recordset. UpdateOptions, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . UpdateOptions (OptionsMAJ)
+*expression* . UpdateOptions
 
 *expression* Variable qui représente un objet **Recordset** .
 
@@ -39,7 +39,7 @@ h **dbCriteriaDeleteInsert** **dbCriteriaUpdate** **UpdateOptions**
 
 Si vous ne spécifiez pas de constantes, **dbCriteriaUpdate** et **dbCriteriaKey** seront utilisées.
 
-Les enregistrements récemment ajoutés génèreront toujours des instructions INSERT et les enregistrements supprimés génèreront toujours des instructions DELETE ; cette propriété ne s'applique donc qu'à la manière dont les mises à jour des bibliothèques de curseurs mettent à jour les enregistrements modifiés.
+Dans la mesure où les enregistrements récemment ajoutés génèrent toujours des instructions INSERT et les enregistrements supprimés toujours des instructions DELETE, cette propriété ne concerne que la façon dont la bibliothèque de curseurs met à jour les enregistrements modifiés.
 
 ## <a name="example"></a>Exemple
 

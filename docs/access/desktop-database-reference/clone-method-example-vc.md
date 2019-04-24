@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 55dc01afc874403bcdf52008e17daab7e6d98ae9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296303"
 ---
 # <a name="clone-method-example-vc"></a>Clone, méthode – Exemple (VC++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple fait appel à la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis laisse l'utilisateur positionner indépendamment le pointeur d'enregistrement de chaque copie.
 
@@ -252,7 +252,7 @@ void PrintComError(_com_error &e)
 // EndCloneCpp 
 ```
 
-**CloneX.h**
+**CloneX. h**
 
 ```cpp 
  

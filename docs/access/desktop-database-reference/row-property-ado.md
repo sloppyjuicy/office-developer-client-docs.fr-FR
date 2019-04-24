@@ -1,5 +1,5 @@
 ---
-title: Row, propriété - ActiveX Data Objects (ADO)
+title: Row, propriété-ActiveX Data Objects (ADO)
 TOCTitle: Row property (ADO)
 ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9b4beaa742bfc46ecd32fc04733c3e6ddaf12aa2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306481"
 ---
 # <a name="row-property-ado"></a>Row, propriété (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Extrait ou définit un objet **Row** OLE DB à partir de ou sur un objet **ADORecordConstruction**. Lorsque vous utilisez **put\_ligne** pour définir un objet **Row** , une ligne est transformée en objet ADO **Record** . Lecture-écriture.
+Extrait ou définit un objet **Row** OLE DB à partir de ou sur un objet **ADORecordConstruction**. Lorsque vous utilisez **l'\_instruction Put Row** pour définir un objet **Row** , une ligne est transformée en objet ADO **Record** . Lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-Get HRESULT\_ligne (\[out, retval\] IUnknown\* \* ppRow) ;
+HRESULT get\_Row (\[out, retval\] IUnknown\* \* ppRow);
 
-Placer HRESULT\_ligne (\[dans\] IUnknown\* pRow) ;
+HRESULT put\_Row (\[dans\] IUnknown\* Prow);
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*ppRow* |Pointeur vers un objet **Row** OLE DB.|
 |*PRow* |Objet **Row** OLE DB.|
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S\_OK et E\_ÉCHOUE.
+Cette méthode de propriété renvoie les valeurs HRESULT standard, y\_compris S OK\_et E Fail.
 
 ## <a name="applies-to"></a>S’applique à
 

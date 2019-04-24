@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 921396edd480e06194d1c3dcbb683aa8556553e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306005"
 ---
 # <a name="workflowtasks-macro-action"></a>WorkflowTasks, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'action **TâchesFluxTravail** permet d'afficher la boîte de dialogue **Tâche du flux de travail**.
+L’action **TâchesFluxTravail** permet d’afficher la boîte de dialogue **Tâche du flux de travail**.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **TâchesFluxTravail** utilise l'argument suivant :
+L’action **TâchesFluxTravail** utilise l’argument suivant :
 
 <table>
 <colgroup>
@@ -43,7 +43,7 @@ L'action **TâchesFluxTravail** utilise l'argument suivant :
 <tbody>
 <tr class="odd">
 <td><p><strong>Numéro d’enregistrement</strong></p></td>
-<td><p>La position de l’élément dans la liste Microsoft SharePoint Foundation, en commençant par <strong>1</strong> pour le premier élément dans la liste, <strong>2</strong> pour le deuxième élément et ainsi de suite. Vous pouvez également entrer une expression pour cet argument.</p></td>
+<td><p>Position de l'élément dans la liste Microsoft SharePoint Foundation, à partir de <strong>1</strong> pour le premier élément de la liste, <strong>2</strong> pour le deuxième élément, et ainsi de suite. Vous pouvez également entrer une expression pour cet argument.</p></td>
 </tr>
 </tbody>
 </table>

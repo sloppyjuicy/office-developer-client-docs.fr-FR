@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7534ae84b57d14450009865ea330a4c54d4cfb44
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292138"
 ---
 # <a name="gotorecord-macro-action"></a>GoToRecord, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Utilisez l'action **AtteindreEnregistrement** pour que l'enregistrement spécifié devienne l'enregistrement actif dans le jeu de résultats d'une requête, d'une table ou d'un formulaire ouvert.
+Utilisez l’action **AtteindreEnregistrement** pour que l’enregistrement spécifié devienne l’enregistrement actif dans le jeu de résultats d’une requête, d’une table ou d’un formulaire ouvert.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **AtteindreEnregistrement** possède les arguments suivants.
+L’action **AtteindreEnregistrement** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -36,17 +36,17 @@ L'action **AtteindreEnregistrement** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d'objet</strong></p></td>
+<td><p><strong>Type d’objet</strong></p></td>
 <td><p>Type d’objet qui contient l’enregistrement que vous souhaitez rendre actif. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>Vue serveur</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Laissez cet argument vide pour sélectionner l’objet actif.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom de l'objet</strong></p></td>
+<td><p><strong>Nom objet</strong></p></td>
 <td><p>Nom de l’objet qui contient l’enregistrement que vous souhaitez rendre actif. La zone <strong>Nom de l’objet</strong> affiche tous les objets de la base de données active correspondant au type sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez également celui-ci vide.</p></td>
 </tr>
 <tr class="odd">
@@ -55,11 +55,11 @@ L'action **AtteindreEnregistrement** possède les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Offset</strong></p></td>
-<td><p>Entier ou expression qui correspond à un entier. Une expression doit être précédée d’un signe égal (<strong>=</strong>). Cet argument spécifie l’enregistrement à activer l’enregistrement actif. Vous pouvez utiliser l’argument <strong>décalage</strong> de deux manières :</p>
+<td><p>Entier ou expression qui correspond à un entier. Une expression doit être précédée d'un signe égal<strong>=</strong>(). Cet argument spécifie l’enregistrement à rendre actif. Vous pouvez utiliser l’argument <strong>Référence</strong> de deux manières :</p>
 <ul>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> a la valeur <strong>Suivant</strong> ou <strong>Précédent</strong>, Microsoft Office Access 2007 avance ou recule du nombre d’enregistrements spécifié dans l’argument <strong>Référence</strong>.</p></li>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> est défini sur <strong>Atteindre</strong>, Access accède à l’enregistrement dont le numéro est égal à la valeur de l’argument <strong>Référence</strong>. Le numéro de l’enregistrement est indiqué dans la zone de numéro d’enregistrement en bas de la fenêtre.</p>
-<p><strong>Remarque</strong>: Si vous utilisez le <strong>premier</strong>, <strong>dernier</strong>ou <strong>Nouveau</strong> paramètre pour l’argument <strong>enregistrement</strong> , Access ignore l’argument <strong>décalage</strong> . Si vous entrez un argument <strong>décalage</strong> trop grande, Access affiche un message d’erreur. Vous ne pouvez pas entrer les nombres négatifs pour l’argument <strong>décalage</strong> .</p></li>
+<p><strong>Remarque</strong>: Si vous utilisez le paramètre <strong>First</strong>, <strong>Last</strong>ou <strong>New</strong> pour l'argument <strong>Record</strong> , Access ignore l'argument <strong>offset</strong> . Si vous entrez une valeur trop élevée pour l’argument <strong>Référence</strong>, Access affiche un message d’erreur. Vous ne pouvez pas entrer de nombres négatifs pour l’argument <strong>Référence</strong>.</p></li>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> a la valeur <strong>Suivant</strong> ou <strong>Précédent</strong>, Microsoft Office Access 2007 avance ou recule du nombre d’enregistrements spécifié dans l’argument <strong>Référence</strong>.</p></li>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> est défini sur <strong>Atteindre</strong>, Access accède à l’enregistrement dont le numéro est égal à la valeur de l’argument <strong>Référence</strong>. Le numéro de l’enregistrement est indiqué dans la zone de numéro d’enregistrement en bas de la fenêtre.</p></li>
 </ul>
@@ -71,7 +71,7 @@ L'action **AtteindreEnregistrement** possède les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-Si un contrôle particulier d'un enregistrement a le focus, cette action laisse le focus dans le même contrôle pour le nouvel enregistrement.
+Si un contrôle particulier d’un enregistrement a le focus, cette action laisse le focus dans le même contrôle pour le nouvel enregistrement.
 
 Vous pouvez utiliser le paramètre **Nouveau** dans l'argument **Enregistrement** pour passer à l'enregistrement vide à la fin d'un formulaire ou d'une table de manière à pouvoir entrer de nouvelles données.
 

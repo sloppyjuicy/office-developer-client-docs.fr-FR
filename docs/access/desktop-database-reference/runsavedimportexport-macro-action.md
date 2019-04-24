@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: adcc8a2a9462509f4b37d2dbdaf824387ae52a26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309172"
 ---
 # <a name="runsavedimportexport-macro-action"></a>RunSavedImportExport, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'action **ExécuterImportationExportationSauvegardée** vous permet d'exécuter une spécification d'importation ou d'exportation sauvegardée que vous avez créée à l'aide de l'Assistant Importation ou de l'Assistant Exportation.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée.
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L'action **ExécuterImportationExportationSauvegardée** possède l'argument suivant.
+L’action **ExécuterImportationExportationSauvegardée** possède l’argument suivant.
 
 <table>
 <colgroup>
@@ -51,9 +51,9 @@ L'action **ExécuterImportationExportationSauvegardée** possède l'argument sui
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-- Cette action de macro équivaut à effectuer la procédure suivante dans Access :
+- Cette action de macro équivaut à effectuer la procédure suivante dans Access :
     
   1.  Sous l'onglet **Données externes**, cliquez sur **Importations enregistrées** ou sur **Exportations enregistrées**.
     
@@ -65,5 +65,5 @@ L'action **ExécuterImportationExportationSauvegardée** possède l'argument sui
 
 - Des liens vers davantage d'informations sur l'enregistrement et l'exécution de spécifications d'importation et d'exportation sont disponibles à la section **Voir aussi**.
 
-- Si l’importation ou d’exportation enregistrée spécification choisie pour l’argument **Saved Import Export Name** est supprimée après la création de la macro, Access affiche le message d’erreur suivant lors de l’exécution de la macro : **la spécification de l’index spécifié est existe pas. Spécifiez un autre index. ' *** spécification nom ***'.**
+- Si la spécification d'importation ou d'exportation enregistrée choisie pour l'argument **Saved Import Export Name** est supprimée après la création de la macro, Access affiche le message d'erreur suivant lors de l'exécution de la macro: **la spécification portant l'index spécifié ne existe pas. Spécifiez un autre index. ' * * * * * nom de la spécification * * * * '.**
 

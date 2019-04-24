@@ -1,5 +1,5 @@
 ---
-title: Propriétés RDS (référence de base de données du bureau Access)
+title: Propriétés RDS (référence de base de données de bureau Access)
 TOCTitle: RDS properties
 ms:assetid: 002989dc-0022-d3a2-ddd2-2230837b3a63
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 35d3552705ff358f34a40aa51a2ec13b4b80f6d2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300839"
 ---
 # <a name="rds-properties"></a>Propriétés RDS
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 <br/>
 
@@ -39,11 +39,11 @@ ms.locfileid: "28716050"
 <td><p>Indique si l'exécution asynchrone est activée.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="fetchoptions-property-rds.md">FetchOptions</a></p></td>
+<td><p><a href="fetchoptions-property-rds.md">FetchOptions,</a></p></td>
 <td><p>Indique le type d'extraction asynchrone.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filtercolumn-property-rds.md">FilterColumn</a></p></td>
+<td><p><a href="filtercolumn-property-rds.md">FilterColumn,</a></p></td>
 <td><p>Indique la colonne sur laquelle portent les critères de filtre.</p></td>
 </tr>
 <tr class="odd">
@@ -55,8 +55,8 @@ ms.locfileid: "28716050"
 <td><p>Indique la valeur à utiliser pour filtrer des enregistrements.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="handler-property-rds.md">Gestionnaire</a></p></td>
-<td><p>Indique le nom d’un programme de personnalisation coté serveur (<em>Gestionnaire</em>) qui étend les fonctionnalités de <strong>RDSServer.DataFactory</strong>et tous les paramètres utilisés par le <em>Gestionnaire</em>.</p></td>
+<td><p><a href="handler-property-rds.md">D</a></p></td>
+<td><p>Indique le nom d'un programme de personnalisation côté serveur (<em>gestionnaire</em>) qui étend les fonctionnalités de <strong>RDSServer.DataFactory</strong> et tous les paramètres utilisés par le <em>gestionnaire</em>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="internettimeout-property-rds.md">InternetTimeout</a></p></td>
@@ -71,7 +71,7 @@ ms.locfileid: "28716050"
 <td><p>Indique l'objet <strong>Recordset</strong> retourné d'un objet métier personnalisé.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">Serveur</a></p></td>
+<td><p><a href="server-property-rds.md">Server</a></p></td>
 <td><p>Indique le nom de l'IIS (Internet Information Services) et du protocole de communication.</p></td>
 </tr>
 <tr class="even">

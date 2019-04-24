@@ -1,5 +1,5 @@
 ---
-title: Référence de l’enregistrement, objet (ADO)
+title: Référence d'objet Record (ADO)
 TOCTitle: Record object (ADO)
 ms:assetid: 19cdd7b8-1dde-40f6-b971-b30cf0bfbf4e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248943(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 98e62229cdd0422e03ce83e0f6c7968d4ece7cf3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300720"
 ---
-# <a name="record-object-ado-reference"></a>Référence de l’enregistrement, objet (ADO)
+# <a name="record-object-ado-reference"></a>Référence d'objet Record (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 - [Record, objet (ADO)](record-object-ado.md)
-- [Propriétés de l’enregistrement, méthodes et événements (ADO)](record-properties-methods-and-events-ado.md)
+- [Propriétés, méthodes et événements d'enregistrement (ADO)](record-properties-methods-and-events-ado.md)
 

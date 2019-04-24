@@ -1,5 +1,5 @@
 ---
-title: Méthodes RDS (référence de base de données du bureau Access)
+title: Méthodes RDS (référence de base de données de bureau Access)
 TOCTitle: RDS methods
 ms:assetid: 7f4e2a28-cf6b-4621-5352-ed983a3c7450
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6797cb36821f99a2ec5aadf6e1c1c6fbedc5f3c3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300888"
 ---
 # <a name="rds-methods"></a>Méthodes RDS
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 <br/>
 
@@ -40,7 +40,7 @@ ms.locfileid: "28699954"
 </tr>
 <tr class="odd">
 <td><p><a href="converttostring-method-rds.md">ConvertToString</a></p></td>
-<td><p>Convertit un objet <strong>Recordset</strong> en chaîne MIME qui représente les données du jeu d'enregistrements.</p></td>
+<td><p>Convertit un objet <strong>Recordset</strong> en chaîne MIME qui représente les données du jeu d’enregistrements.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="createobject-method-rds.md">CreateObject</a></p></td>
@@ -64,7 +64,7 @@ ms.locfileid: "28699954"
 </tr>
 <tr class="odd">
 <td><p><a href="reset-method-rds.md">Reset</a></p></td>
-<td><p>Exécute le tri ou un filtre sur un côté client <strong>Recordset</strong>, basé sur les propriétés de tri et de filtre spécifiées.</p></td>
+<td><p>Applique un tri ou un filtre à un objet <strong>Recordset</strong> côté client en fonction des propriétés de tri et de filtre spécifiées.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="submitchanges-method-rds.md">SubmitChanges</a></p></td>

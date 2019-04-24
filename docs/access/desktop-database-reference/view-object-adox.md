@@ -1,5 +1,5 @@
 ---
-title: Objet View (référence de base de données du bureau Access - ADOX)
+title: View, objet (référence à la base de données de bureau d'accès)
 TOCTitle: View object (ADOX)
 ms:assetid: 3b2e9972-8a0d-eaa3-1c93-ae0665a47f02
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249149(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b3b5d25a727233b5fda5627df8dff952003bbfe3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306048"
 ---
 # <a name="view-object-adox"></a>View, objet (ADOX)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente un jeu d'enregistrements filtré ou une table virtuelle. Utilisé avec l'objet ADO [Command](command-object-ado.md), l'objet **View** permet d'ajouter, de supprimer ou de modifier des vues.
 

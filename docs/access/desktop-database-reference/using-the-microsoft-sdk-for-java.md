@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d297d019602cef7b6fbc4f5b0125b87ef642213f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305992"
 ---
-# <a name="using-the-microsoft-sdk-for-java"></a>Utilisation du Kit de développement Microsoft pour Java SDK
+# <a name="using-the-microsoft-sdk-for-java"></a>Utilisation du kit de développement logiciel Microsoft pour Java
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le Kit de développement Microsoft pour Java SDK est un kit conçu pour l'environnement Microsoft Internet Explorer. Des outils, des informations et des exemples sont fournis pour vous aider à développer des programmes et des applets Java basés sur JDK 1.1 et la machine virtuelle Microsoft Win32 (Microsoft VM). Le Kit de développement Microsoft pour Java SDK n'est pas lié à Microsoft Visual J++.
 
 L'utilitaire Jactivex.exe génère les classes à partir d'une bibliothèque de types mais peut uniquement être appelé à partir d'une ligne de commande. Cette fonctionnalité n'est pas intégrée à l'environnement de développement Visual J++. Contrairement aux classes générées avec l'[Assistant Bibliothèque de types Java](using-the-java-type-library-wizard.md), vous pouvez intervenir sur les wrappers de classes créés par le Kit de développement. Ceci est utile lorsque vous déboguez votre code afin de déterminer comment il utilise les classes wrappers ADO.
 
-Ce mécanisme lit la bibliothèque de types ADO et génère des classes que vous pouvez instancier au sein de votre application. Il génère ces classes à l’emplacement suivant : \\ \<répertoire windows\>\\Java\\trustlib\\msado15.
+Ce mécanisme lit la bibliothèque de types ADO et génère des classes que vous pouvez instancier au sein de votre application. Il génère ces classes à l'emplacement suivant: \\ \<\>\\\\trustlib\\d'annuaire Windows msado15.
 
 La création d'une application ADO dans Java à l'aide du Kit de développement Microsoft pour Java SDK revient exactement, au niveau du code source, à utiliser l'Assistant Bibliothèque de types Java. Pour consulter un exemple de code, consultez [Wrappers de classe Java ADO](ado-java-class-wrappers.md). La seule différence est la façon dont vous générez les classes wrappers, comme l'illustrent les étapes suivantes.
 
@@ -43,5 +43,5 @@ La création d'une application ADO dans Java à l'aide du Kit de développement 
     jvc /g:t c:\<windows>\Java\trustlib\msado15\*.Java 
     ```
 
-3.  Pour utiliser ces fichiers, ouvrez votre projet dans Visual J++. Dans le menu **Projet**, choisissez **Ajouter au projet**. Sélectionnez les **fichiers**, puis ajoutez tous les. Fichiers JAVA générés dans le trustlib\\répertoire msado15 à votre projet.
+3.  Pour utiliser ces fichiers, ouvrez votre projet dans Visual J++. Dans le menu **Projet**, choisissez **Ajouter au projet**. Sélectionnez **fichiers**, puis ajoutez tous les. Fichiers JAVA générés dans le\\répertoire Trustlib msado15 dans votre projet.
 

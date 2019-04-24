@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5ed20555726d0a6f63f0e48fb154cedb411ef8cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306845"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferSQLDatabase, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Dans un projet Access, l'action **TransférerBaseDeDonnéesSQL** permet de transférer une base de données Microsoft SQL Server 7.0 ou version ultérieure vers une autre base de données SQL Server 7.0 ou version ultérieure. Pour plus d’informations sur le transfert d’une base de données, voir la documentation SQL Server.
+Dans un projet Access, l'action **TransférerBaseDeDonnéesSQL** permet de transférer une base de données Microsoft SQL Server 7.0 ou version ultérieure vers une autre base de données SQL Server 7.0 ou version ultérieure. Pour plus d'informations sur le transfert d'une base de données, voir la documentation SQL Server.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée.
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L'action **TransférerBaseDeDonnéesSQL** utilise les arguments suivants :
+L’action **TransférerBaseDeDonnéesSQL** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ L'action **TransférerBaseDeDonnéesSQL** utilise les arguments suivants :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Serveur</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>Nom du serveur de base de données SQL Server 7.0, ou version ultérieure, vers lequel la copie est effectuée.</p></td>
 </tr>
 <tr class="even">
@@ -53,10 +53,10 @@ L'action **TransférerBaseDeDonnéesSQL** utilise les arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>Utiliser une connexion approuvée</strong></p></td>
-<td><p>Spécifie si ou pas il est une connexion approuvée à SQL Server. Si la valeur <strong>Oui</strong>, il existe une connexion approuvée et les arguments <strong>connexion</strong> et <strong>mot de passe</strong> ne sont pas requis. Si défini sur <strong>No</strong>, le <strong>nom de connexion</strong> et <strong>le mot de passe</strong> des arguments est requis. La valeur par défaut est <strong>Oui</strong>. Lorsque vous utilisez une connexion approuvée, la sécurité de SQL Server s’intègre à la sécurité du système d’exploitation Windows pour fournir une seule sur le réseau et la base de données.</p></td>
+<td><p>Spécifie s’il existe une connexion approuvée sur le serveur SQL. Si la valeur <strong>Oui</strong> est activée, cela signifie qu’il existe une connexion et que les arguments <strong>Connexion</strong> et <strong>Mot de passe</strong> ne sont pas requis. Si la valeur <strong>Non</strong> est activée, les arguments <strong>Connexion</strong> et <strong>Mot de passe</strong> sont requis. La valeur par défaut est <strong>Oui</strong>. Lorsque vous utilisez une connexion approuvée, la sécurité SQL Server s'intègre à la sécurité du système d'exploitation Windows pour fournir une seule connexion au réseau et à la base de données.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Connexion</strong></p></td>
+<td><p><strong>Identifi</strong></p></td>
 <td><p>Identificateur de connexion au serveur de destination.</p></td>
 </tr>
 <tr class="odd">
@@ -73,7 +73,7 @@ L'action **TransférerBaseDeDonnéesSQL** utilise les arguments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-Aucune autre opération n'est autorisée lors du processus de transfert de base de données.
+Aucune autre opération n’est autorisée lors du processus de transfert de base de données.
 
 Par défaut, l'action **TransférerBaseDeDonnéesSQL** copie les données, les définitions de données, les objets de base de données et les propriétés étendues telles que les valeurs par défaut, les contraintes de texte et les valeurs de recherche.
 

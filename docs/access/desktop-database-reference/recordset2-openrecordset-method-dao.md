@@ -1,5 +1,5 @@
 ---
-title: Méthode Recordset2.OpenRecordset (DAO)
+title: Recordset2. OpenRecordset, méthode (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: da6ce86e-957e-21f8-07ac-8acd57326a12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835325(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 08120f4ebb6b2d9989051171a0c71b6d9fcf6e5c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307251"
 ---
-# <a name="recordset2openrecordset-method-dao"></a>Méthode Recordset2.OpenRecordset (DAO)
+# <a name="recordset2openrecordset-method-dao"></a>Recordset2. OpenRecordset, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collection **Recordsets**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . OpenRecordset (***Type***, ***Options***)
+*expression* . OpenRecordset (***type***, ***options***)
 
 *expression* Variable qui représente un objet **Recordset2** .
 
@@ -38,7 +38,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -54,21 +54,21 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 <td><p><em>Type</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> qui indique le type de <strong>Recordset</strong> à ouvrir.</p><p><strong>Remarque</strong>: Si vous ouvrez un <STRONG>objet Recordset</STRONG> dans un espace de travail Microsoft Access et que vous ne spécifiez pas un type, <STRONG>OpenRecordset</STRONG> crée un <STRONG>objet Recordset</STRONG>de type table, si possible. Si vous spécifiez une table liée ou une requête, <STRONG>OpenRecordset</STRONG> crée un <STRONG>jeu d’enregistrements</STRONG>de type feuille de réponse dynamique.</p>
+<td><p>Constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> qui indique le type de <strong>Recordset</strong> à ouvrir.</p><p><strong>Remarque</strong>: Si vous ouvrez un <STRONG>objet Recordset</STRONG> dans un espace de travail Microsoft Access et que vous ne spécifiez pas de type, <STRONG>OpenRecordset</STRONG> crée un <STRONG>objet Recordset</STRONG>de type table, si possible. If you specify a linked table or query, <STRONG>OpenRecordset</STRONG> creates a dynaset-type <STRONG>Recordset</STRONG>.</p>
 </td>
 </tr>
 <tr class="odd">
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Combinaison de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> qui indiquent les caractéristiques du nouveau <strong>Recordset</strong>.</p><p><strong>Remarque</strong>: l’une des constantes <STRONG>dbConsistent</STRONG> et <STRONG>dbInconsistent</STRONG> s’excluent mutuellement, et les deux entraîne une erreur. Fournir un argument lockedits lorsque options utilise la constante <STRONG>peut entraîner</STRONG> génère également une erreur.</p>
+<td><p>Combinaison de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> qui indiquent les caractéristiques du nouveau <strong>Recordset</strong>.</p><p><strong>Remarque</strong>: les constantes <STRONG>dbConsistent</STRONG> et <STRONG>dbInconsistent</STRONG> s'excluent mutuellement et l'utilisation des deux déclenche une erreur. Supplying a lockedits argument when options uses the <STRONG>dbReadOnly</STRONG> constant also causes an error.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p><em>VerrouillerModification</em></p></td>
+<td><p><em>LockEdit</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> qui détermine le verrouillage du <strong>Recordset</strong>.</p><p><strong>Remarque</strong>: vous pouvez utiliser <STRONG>peut entraîner</STRONG> dans l’argument options ou l’argument lockedits, mais pas les deux. Si vous l’utilisez pour les deux arguments, une erreur d’exécution se produit.</p>
+<td><p>Constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> qui détermine le verrouillage du <strong>Recordset</strong>.</p><p><strong>Remarque</strong>: vous pouvez utiliser <STRONG>DBReadOnly</STRONG> dans l'argument options ou LockEdits, mais pas dans les deux. If you use it for both arguments, a run-time error occurs.</p>
 </td>
 </tr>
 </tbody>
@@ -81,15 +81,15 @@ Recordset
 
 ## <a name="remarks"></a>Remarques
 
-En règle générale, si l'utilisateur obtient cette erreur pendant la mise à jour d'un enregistrement, votre code doit actualiser le contenu des champs et extraire les valeurs nouvellement modifiées. Si l'erreur se produit lors de la suppression d'un enregistrement, votre code doit présenter les nouvelles données de l'enregistrement à l'utilisateur et afficher un message indiquant que les données ont été récemment modifiées. À ce stade, votre code peut demander à l'utilisateur de confirmer sa volonté de supprimer l'enregistrement.
+En général, si l'utilisateur obtient cette erreur lors de la mise à jour d'un enregistrement, le code peut actualiser le contenu des champs et extraire les valeurs qui viennent d'être modifiées. Si l'erreur se produit lors de la suppression d'un enregistrement, le code peut afficher les nouvelles données de l'enregistrement pour l'utilisateur et un message indique que les données ont été modifiées dernièrement. À ce niveau, le code peut demander une confirmation que l'utilisateur souhaite encore supprimer l'enregistrement.
 
-Par ailleurs, il est recommandé d'utiliser la constante **dbSeeChanges** si vous ouvrez un objet **Recordset** dans un espace de travail ODBC connecté au moteur de base de données Microsoft Access pour une table Microsoft SQL Server 6.0 (ou version ultérieure) qui comporte une colonne IDENTITY. À défaut, une erreur risque de se produire.
+Vous devez également utiliser la constante **dbSeeChanges** si vous ouvrez un objet **Recordset** dans un espace de travail ODBC connecté à un moteur de base de données Microsoft Access dans une table Microsoft SQL Server 6.0 (ou version ultérieure) possédant une colonne IDENTITY, autrement une erreur peut être générée.
 
 L'ouverture de plusieurs objets **Recordset** dans une source de données ODBC peut entraîner un échec car la connexion est occupée par un appel d'objet **OpenRecordset** préalable. Pour contourner ce problème, vous pouvez renseigner totalement l'objet **Recordset** à l'aide de la méthode **MoveLast** dès que l'objet **Recordset** est ouvert.
 
-Le fait de fermer un objet **Recordset** par le biais de la méthode **[Close](connection-close-method-dao.md)** entraîne sa suppression automatique au niveau de la collection **Recordsets**.
+Si vous fermez un objet **Recordset** avec la méthode **[Close](connection-close-method-dao.md)**, l'objet est automatiquement supprimé de la collection **Recordsets**.
 
 > [!NOTE]
-> Si *la source* fait référence à une instruction SQL composée d’une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strSQL = « prix &gt; » &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez d’ouvrir le **jeu d’enregistrements**. Cela est dû au fait que pendant la concaténation, le nombre est converti en chaîne en utilisant le caractère décimal par défaut de votre système, et SQL n'accepte que les caractères décimaux usités aux États-Unis.
+> Si *source* fait référence à une instruction SQL composée d'une chaîne concaténée avec une valeur non entière, et que les paramètres système spécifient un caractère non-U. S. Decimal tel qu'une virgule (par exemple, strSQL = &gt; " &amp; Price" lngPrice et lngPrice = 125, 50), une erreur se produit lorsque vous essayez d'ouvrir l' **objet Recordset**. Cela s'explique par le fait que lors de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut du système et le langage SQL n'accepte que les caractères décimaux de la notation américaine.
 
 

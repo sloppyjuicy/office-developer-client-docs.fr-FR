@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset2.NoMatch (DAO)
+title: Recordset2. noMatch, propriété (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 2d7a02ff-a2bf-5f0e-bd71-a6d42c25b13a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c3168dcce9fb13d057380e7a1a4ef89f8814e02
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309393"
 ---
-# <a name="recordset2nomatch-property-dao"></a>Propriété Recordset2.NoMatch (DAO)
+# <a name="recordset2nomatch-property-dao"></a>Recordset2. noMatch, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique si un enregistrement donné a été localisé à l'aide de la méthode **[Seek](recordset2-seek-method-dao.md)** ou de l'une des méthodes **[Find](recordset2-findfirst-method-dao.md)** (espaces de travail Microsoft Access uniquement).
 

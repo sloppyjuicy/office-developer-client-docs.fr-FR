@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a0023eddf98acdfbcdc38095276342010e153321
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306299"
 ---
 # <a name="type-property-example-field-vb"></a>Type, propriété – Exemple (objet Field) (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Type](type-property-ado.md) en affichant le nom de la constante qui correspond à la valeur de la propriété [Type](type-property-ado.md) de tous les objets [Field](field-object-ado.md), dans la table ***Employees***. La fonction FieldType est nécessaire pour que cette procédure s’exécute.
 

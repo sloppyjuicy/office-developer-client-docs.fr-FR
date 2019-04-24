@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8652aa2c028350aab79cdf101cba189026b9a5ae
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295141"
 ---
 # <a name="customization-file-connect-section"></a>Section de connexion du fichier de personnalisation
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le comportement par défaut du gestionnaire est de refuser toutes les connexions. La section **connect** indique les exceptions à ce comportement. Par exemple, si toutes les sections **connect** sont absentes ou vides, par défaut, aucune connexion ne peut être établie.
 
@@ -28,7 +28,7 @@ La section **connect** peut contenir :
 
 ## <a name="syntax"></a>Syntaxe
 
-Une entrée d'accès par défaut a la forme suivante :
+Une entrée d'accès par défaut a la forme suivante :
 
 `Access=accessRight`
 
@@ -43,7 +43,7 @@ Une entrée de chaîne de connexion de remplacement a la forme suivante :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Partie</p></th>
+<th><p>Élément</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ Une entrée de chaîne de connexion de remplacement a la forme suivante :
 <td><p>Chaîne littérale qui indique qu'il s'agit d'une entrée de chaîne de connexion.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>connectionString</em></strong></p></td>
+<td><p><strong><em>ChaîneConnexion</em></strong></p></td>
 <td><p>Chaîne qui remplace toute la chaîne de connexion cliente.</p></td>
 </tr>
 <tr class="odd">
@@ -62,8 +62,7 @@ Une entrée de chaîne de connexion de remplacement a la forme suivante :
 </tr>
 <tr class="even">
 <td><p><strong><em>accessRight</em></strong></p></td>
-<td><p>Un des droits d'accès suivants :
-</p>
+<td><p>Un des droits d'accès suivants :</p>
 <p></p>
 <ul>
 <li><p><strong>NoAccess</strong>  : l'utilisateur ne peut pas accéder à la source de données.</p></li>
@@ -76,5 +75,5 @@ Une entrée de chaîne de connexion de remplacement a la forme suivante :
 </table>
 
 
-Si vous voulez autoriser n’importe quelle connexion (dans et désactivant le comportement par défaut du gestionnaire), définissez l’entrée d’accès dans la section **connect default** et supprimer ou commentaire à n’importe quel autre section *d’identificateur de* **se connecter** .
+Si vous voulez autoriser n'importe quelle connexion (et désactivant le comportement par défaut du gestionnaire), définissez l'entrée d'accès dans la section **Connect default** sur et supprimez ou commentez toute autre section d' *identificateur* **Connect** .
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9bd1e1259eb7b089d0387dd385ee5157eeac2f34
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314552"
 ---
 # <a name="source-property-ado-record"></a>Source, propriété (objet Record ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique la source de données ou l'objet que représente l'objet [Record](record-object-ado.md).
 
@@ -27,7 +27,7 @@ Définit ou renvoie une valeur **Variant** qui indique l'entité que représente
 
 ## <a name="remarks"></a>Remarques
 
-La propriété **Source** renvoie l’argument *Source* de la méthode [Open](open-method-ado-record.md) de l’objet **Record** . Elle peut contenir une chaîne représentant une URL absolue ou relative. Une URL absolue peut être utilisée sans que la propriété [ActiveConnection](activeconnection-property-ado.md) ne soit définie pour ouvrir directement l'objet **Record**. Dans ce cas, un objet **Connection** implicite est créé.
+La propriété **Source** renvoie l’argument *Source* de la méthode [Open](open-method-ado-record.md) de l’objet **Record**. Elle peut contenir une chaîne représentant une URL absolue ou relative. Une URL absolue peut être utilisée sans que la propriété [ActiveConnection](activeconnection-property-ado.md) ne soit définie pour ouvrir directement l'objet **Record**. Dans ce cas, un objet **Connection** implicite est créé.
 
 La propriété **Source** peut également contenir une référence à un **Recordset** déjà ouvert, ce qui ouvre un objet **Record** représentant la ligne actuelle dans le **Recordset**.
 
@@ -38,6 +38,6 @@ Si la propriété **ActiveConnection** est elle aussi définie, la propriété *
 La propriété **Source** est accessible en lecture/écriture lorsque l'objet **Record** est fermé et en lecture seule lorsque l'objet **Record** est ouvert.
 
 > [!NOTE]
-> [!REMARQUE] Les URL construites sur le schéma http invoquent automatiquement le [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).
+> [!REMARQUE] Les URL construites sur le schéma http invoquent automatiquement le [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
 
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3075c0c9bd8267f6b30773a846523172eb2ef603
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296415"
 ---
 # <a name="chapter-8-understanding-cursors-and-locks"></a>Chapitre 8 : Présentation des curseurs et des verrous
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Il est important de comprendre le fonctionnement des curseurs pour sélectionner le type de curseur le plus efficace et le mieux adapté aux impératifs d'accès aux données d'une application. Une configuration du curseur inappropriée peut rendre l'accès aux données lent et laborieux.
 
@@ -24,11 +24,11 @@ De nombreuses fonctionnalités de l'objet **Recordset** ADO sont déterminées p
 
 Ce chapitre présente les rubriques suivantes :
 
-- [Qu’est un curseur ?](what-is-a-cursor.md)
-- [L’importance de l’emplacement du curseur](the-significance-of-cursor-location.md)
+- [Qu’est-ce qu’un curseur ?](what-is-a-cursor.md)
+- [Importance de l'emplacement du curseur](the-significance-of-cursor-location.md)
 - [Service de curseur Microsoft pour OLE DB](the-microsoft-cursor-service-for-ole-db.md)
 - [Utilisation de CacheSize ](using-cachesize.md)
-- [Caractéristiques de curseur et de verrou](cursor-and-lock-characteristics.md)
+- [Caractéristiques du curseur et du verrou](cursor-and-lock-characteristics.md)
 - [Types de curseurs (ADO)](types-of-cursors.md)
-- [Qu’est un verrou ? (ADO)](what-is-a-lock.md)
+- [Qu'est-ce qu'un verrou? ADO.net](what-is-a-lock.md)
 

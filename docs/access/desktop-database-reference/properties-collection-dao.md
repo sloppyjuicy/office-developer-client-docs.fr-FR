@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 515d28f0d7d99359c36df79cf3b8769d8f71e06d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301280"
 ---
 # <a name="properties-collection-dao"></a>Properties, collection (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une collection **Properties** contient tous les objets **[Property](property-object-dao.md)** d'une instance spécifique d'un objet.
 
@@ -33,20 +33,20 @@ Vous pouvez utiliser la méthode **Delete** pour supprimer des propriétés pers
 
 Pour faire référence à un objet **Property** intégré d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-- objet. **Propriétés** (0)
+- dessin. **Propriétés** 0
 
-- objet. **Propriétés** (« nom »)
+- dessin. **Propriétés** ("nom")
 
-- objet. **Propriétés** \! \[nom\]
+- dessin. **Propriétés** \! \[\]
 
-Pour une propriété intégrée, vous pouvez également utiliser la syntaxe suivante :
+Dans le cas d'une propriété prédéfinie, vous pouvez également utiliser la syntaxe suivante :
 
-- objet.Name
+- Object.Name
 
 > [!NOTE]
-> Pour une propriété définie par l’utilisateur, vous devez utiliser l’objet complet. **Propriétés** syntaxe (« nom »).
+> Pour une propriété définie par l'utilisateur, vous devez utiliser l'objet Full. **Propriétés** («nom»).
 
-Avec les mêmes formes de syntaxe, vous pouvez également faire référence à la propriété **Value** d'un objet **Property**. Le contexte de la référence déterminera si vous faites référence à l'objet **Property** lui-même ou à la propriété **Value** de l'objet **Property**.
+Avec les mêmes formes de syntaxe, vous pouvez également faire référence à la propriété **Value** d'un objet **Property**. C'est le contexte de la référence qui indique si vous faites référence à l'objet **Property** ou à la propriété **Value** de l'objet **Property**.
 
 ## <a name="example"></a>Exemple
 

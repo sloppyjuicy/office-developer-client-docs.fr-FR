@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b3c98d8795bb7039c0ae158414401dc5d754066f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295498"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopyDatabaseFile, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Utilisez l'action **CopierFichierBaseDeDonnées** pour créer une copie de la base de données Microsoft SQL Server 7.0 (ou version supérieure) active attachée à votre projet Access. Access détache la base de données active, puis l’attache au serveur de destination. Pour plus d'informations sur les procédures permettant de détacher et d'attacher une base de données, voir la documentation de SQL Server.
+Utilisez l’action **CopierFichierBaseDeDonnées** pour créer une copie de la base de données Microsoft SQL Server 7.0 (ou version supérieure) active attachée à votre projet Access. Access détache la base de données active, puis l'attache au serveur de destination. Pour plus d'informations sur les procédures permettant de détacher et d'attacher une base de données, voir la documentation de SQL Server.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L'action **CopierFichierBaseDeDonnées** possède les arguments suivants.
+L’action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -35,7 +35,7 @@ L'action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -50,9 +50,7 @@ L'action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 </tr>
 <tr class="odd">
 <td><p><strong>Déconnecter tous les utilisateurs</strong></p></td>
-<td><p>Spécifie si Access doit ou non forcer la déconnexion des utilisateurs de la base de données. Si cet argument est défini sur <strong>Oui</strong>, tout utilisateur connecté à la base de données active est déconnecté et l’opération de copie de la base de données peut se poursuivre. S’il est défini sur <strong>Non</strong> et si un ou plusieurs utilisateurs sont connectés à la base de données, l’opération de copie de la base de données échoue. La valeur par défaut est <strong>Non</strong>. 
-
-</p><p><strong>Avertissement</strong>: déconnexion des utilisateurs à partir d’une base de données sans avertissement adéquat peut entraîner une perte de données.</p></td>
+<td><p>Spécifie si Access doit ou non forcer la déconnexion des utilisateurs de la base de données. Si cet argument est défini sur <strong>Oui</strong>, tout utilisateur connecté à la base de données active est déconnecté et l’opération de copie de la base de données peut se poursuivre. S’il est défini sur <strong>Non</strong> et si un ou plusieurs utilisateurs sont connectés à la base de données, l’opération de copie de la base de données échoue. La valeur par défaut est <strong>Non</strong>.</p><p><strong>Avertissement</strong>: la déconnexion des utilisateurs d'une base de données sans avertissement approprié peut entraîner une perte de données.</p></td>
 </tr>
 </tbody>
 </table>
@@ -60,11 +58,11 @@ L'action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-L'opération de copie est une opération synchrone. Vous ne pouvez pas réaliser d'autres opérations jusqu'à ce que la copie de la base de données soit terminée.
+L’opération de copie est une opération synchrone. Vous ne pouvez pas réaliser d’autres opérations jusqu’à ce que la copie de la base de données soit terminée.
 
-L'action **CopierFichierBaseDeDonnées** non seulement copie les données, les définitions de données et les objets de base de données, mais aussi les propriétés étendues, comme les valeurs par défaut, les contraintes de texte et les valeurs de recherche.
+L’action **CopierFichierBaseDeDonnées** non seulement copie les données, les définitions de données et les objets de base de données, mais aussi les propriétés étendues, comme les valeurs par défaut, les contraintes de texte et les valeurs de recherche.
 
-Conditions requises pour la copie d'une base de données :
+Conditions requises pour la copie d’une base de données :
 
 - vous devez déconnecter toutes les applications et tous les utilisateurs avant de copier le fichier de base de données ;
 
@@ -78,5 +76,5 @@ Conditions requises pour la copie d'une base de données :
 
 - vous devez être membre du rôle sysadmin sur les ordinateurs SQL Server source et de destination.
 
-Pour exécuter l'action **CopierFichierBaseDeDonnées** dans un module Visual Basic pour Applications, utilisez la méthode **CopyDatabaseFile** de l'objet **DoCmd**.
+Pour exécuter l’action **CopierFichierBaseDeDonnées** dans un module Visual Basic pour Applications, utilisez la méthode **CopyDatabaseFile** de l’objet **DoCmd**.
 

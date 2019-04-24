@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fe8ba97e3d8306b8dc8b0415fdf50e4c7041d7f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314083"
 ---
 # <a name="tabledefs-members-dao"></a>TableDefs, membres (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une collection TableDefs contient tous les objets TableDef stockés dans une base de données (espaces de travail Microsoft Access uniquement).
 
@@ -36,7 +36,7 @@ Une collection TableDefs contient tous les objets TableDef stockés dans une bas
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-append-method-dao.md">Ajouter</a></strong></p></td>
+<td><p><strong><a href="tabledefs-append-method-dao.md">Annexe</a></strong></p></td>
 <td><p>Ajoute un nouvel objet <strong>TableDef</strong> à la collection <strong>TableDefs</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ Une collection TableDefs contient tous les objets TableDef stockés dans une bas
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="tabledefs-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Renvoie le nombre d'objets dans la collection spécifiée. En lecture seule.</p></td>
+<td><p>Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.</p></td>
 </tr>
 </tbody>
 </table>

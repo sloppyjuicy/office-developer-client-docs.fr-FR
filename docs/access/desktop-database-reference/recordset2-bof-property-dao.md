@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset2.BOF (DAO)
+title: Recordset2. BOF, propriété (DAO)
 TOCTitle: BOF Property
 ms:assetid: d97d0507-0d5a-e3f1-fa30-40caec9f3ffa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835098(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5ffe9c679da3f11666799caa070f51f384729cc1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307461"
 ---
-# <a name="recordset2bof-property-dao"></a>Propriété Recordset2.BOF (DAO)
+# <a name="recordset2bof-property-dao"></a>Recordset2. BOF, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si la position de l'enregistrement actif est située avant le premier enregistrement dans un objet **Recordset**. Valeur de type **Boolean** en lecture seule.
+Renvoie une valeur qui indique si la position d'enregistrement actuelle précède le premier enregistrement d'un objet **Recordset**. Type **Boolean** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -29,9 +29,9 @@ Renvoie une valeur qui indique si la position de l'enregistrement actif est situ
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser les propriétés **BOF** et **EOF** pour déterminer si un objet **Recordset** contient des enregistrements ou si vous avez dépassé les limites de l'objet **Recordset** en vous déplaçant d'un enregistrement à l'autre.
+Vous pouvez utiliser les propriétés **BOF** et **EOF** pour déterminer si un objet **Recordset** contient des enregistrements ou si vous avez dépassé les limites de l’objet **Recordset** en vous déplaçant d’un enregistrement à l’autre.
 
-L'emplacement du pointeur d'enregistrement actif détermine les valeurs renvoyées par **BOF** et **EOF**.
+L'emplacement du pointeur d'enregistrement actif détermine les valeur renvoyées par **BOF** et **EOF**.
 
 Si la propriété **BOF** ou **EOF** a la valeur **True**, il n'existe aucun enregistrement actif.
 
@@ -58,38 +58,38 @@ Ce tableau indique les méthodes Move autorisées en fonction des différentes c
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst,<br />
+<th><p>Méthodes<br />
 MoveLast</p></th>
-<th><p>MovePrevious,<br />
+<th><p>MovePrevious<br />
 Déplacer &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext,<br />
+<th><p>MoveNext<br />
 Déplacer &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = True,</strong><br />
-<strong>EOF = False</strong></p></td>
+<td><p><strong>BOF = true,</strong><br />
+<strong>EOF = false</strong></p></td>
 <td><p>Autorisé</p></td>
-<td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>Autorisé</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = False,</strong><br />
-<strong>EOF = True</strong></p></td>
+<td><p><strong>BOF = false,</strong><br />
+<strong>EOF = true</strong></p></td>
 <td><p>Autorisé</p></td>
 <td><p>Autorisé</p></td>
-<td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 </tr>
 <tr class="odd">
 <td><p>Les deux propriétés ont la valeur <strong>True</strong></p></td>
 <td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>Erreur</p></td>
 </tr>
 <tr class="even">
@@ -105,7 +105,7 @@ Déplacer &gt; 0</p></th>
 
 Si une méthode Move est autorisée, cela ne signifie pas qu'elle parviendra à localiser un enregistrement, mais simplement que la tentative d'exécution de la méthode Move est autorisée et qu'elle ne générera pas d'erreur. L'état des propriétés **BOF** et **EOF** peut changer à la suite de l'exécution de la méthode Move.
 
-Une méthode **OpenRecordset** appelle en interne une méthode **MoveFirst**. Par conséquent, l'exécution d'une méthode **OpenRecordset** sur un jeu d'enregistrements vide affecte aux propriétés **BOF** et **EOF** la valeur **True** (consultez le tableau suivant pour en savoir plus sur le comportement d'une méthode **MoveFirst** qui a échoué).
+Une méthode **OpenRecordset** appelle en interne une méthode **MoveFirst**. Par conséquent, l'exécution d'une méthode **OpenRecordset** sur un jeu d'enregistrements vide affecte aux propriétés **BOF** et **EOF** la valeur **True**. (Consultez le tableau suivant pour en savoir plus sur le comportement d'une méthode **MoveFirst** qui a échoué.)
 
 Toutes les méthodes Move qui parviennent à localiser un enregistrement affectent aux propriétés **BOF** et **EOF** la valeur **False**.
 
@@ -137,7 +137,7 @@ Le tableau suivant montre les répercussions sur les paramètres des propriété
 <tr class="even">
 <td><p><strong>Move</strong> 0</p></td>
 <td><p>Aucune modification</p></td>
-<td><p>Aucune modification</p></td>
+<td><p>Aucun changement</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MovePrevious</strong>, <strong>déplacer</strong> &lt; 0</p></td>
@@ -145,7 +145,7 @@ Le tableau suivant montre les répercussions sur les paramètres des propriété
 <td><p>Aucune modification</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>, <strong>déplacer</strong> &gt; 0</p></td>
+<td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
 <td><p>Aucune modification</p></td>
 <td><p><strong>True</strong></p></td>
 </tr>

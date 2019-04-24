@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4585679688929532d7f50be9efc71b2830bb6587
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711244"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296625"
 ---
 # <a name="cancelupdate-method-ado"></a>CancelUpdate, méthode (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Annule toutes les modifications apportées à la ligne active ou à une nouvelle ligne d'un objet [Recordset](recordset-object-ado.md) ou dans la collection [Fields](fields-collection-ado.md) d'un objet [Record](record-object-ado.md) avant que la méthode [Update](update-method-ado.md) soit appelée.
+Annule toutes les modifications apportées à la ligne active ou à une nouvelle ligne d’un objet [Recordset](recordset-object-ado.md) ou dans la collection [Fields](fields-collection-ado.md) d’un objet [Record](record-object-ado.md) avant que la méthode [Update](update-method-ado.md) soit appelée.
 
 ## <a name="syntax"></a>Syntaxe
 
-*jeu d’enregistrements*. CancelUpdate
+*Recordset*. CancelUpdate
 
 *enregistrement*. *Champs*. CancelUpdate
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Objet Recordset**
 

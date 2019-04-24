@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c660d2b0f1d3545b6e7c2cbab72c42056d9ded99
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296737"
 ---
 # <a name="cachesize-property-example-jscript"></a>CacheSize, propriété – Exemple (JScript)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple utilise la propriété [CacheSize](cachesize-property-ado.md) pour monter la différence, en termes de performances, d'une opération effectuée avec et sans cache de 30 enregistrements. Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte, et enregistrez-le sous **CacheSizeJS.asp**.
 

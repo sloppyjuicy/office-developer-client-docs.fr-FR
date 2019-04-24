@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f335f8572fbade23b949abacce8dd3690d205e32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314748"
 ---
 # <a name="streamopenoptionsenum"></a>StreamOpenOptionsEnum
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie les options pour l'ouverture d'un objet [Stream](stream-object-ado.md). Les valeurs peuvent être combinées avec une opération OR.
 
@@ -37,7 +37,7 @@ Spécifie les options pour l'ouverture d'un objet [Stream](stream-object-ado.md)
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenStreamAsync</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Ouvre l’objet <strong>Stream</strong> en mode asynchrone.</p></td>
 </tr>
 <tr class="even">

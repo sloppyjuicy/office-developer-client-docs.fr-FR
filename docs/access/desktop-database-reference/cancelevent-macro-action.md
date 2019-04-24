@@ -12,29 +12,29 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b55fc51f70bcc2c9d2f7e93cf9c79228cd2fe440
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296632"
 ---
 # <a name="cancelevent-macro-action"></a>CancelEvent, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l’action **AnnulerEvénement** pour annuler l’événement qui a provoqué l’accès exécuter la macro contenant cette action. Le nom de la macro est le paramètre d'une propriété de type événement comme **AvantMAJ**, **SurOuverture**, **SurLibération** ou **SurImpression**.
+Vous pouvez utiliser l'action **AnnulerEvénement** pour annuler l'événement qui a déclenché l'exécution par Access de la macro contenant cette action. Le nom de la macro est le paramètre d’une propriété de type événement comme **AvantMAJ**, **SurOuverture**, **SurLibération** ou **SurImpression**.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **AnnulerEvénement** ne possède aucun argument.
+L’action **AnnulerEvénement** ne possède aucun argument.
 
 ## <a name="remarks"></a>Remarques
 
-Dans un formulaire, l'action **AnnulerEvénement** est généralement utilisée dans une macro de validation avec la propriété de type événement **AvantMAJ**. Lorsqu'un utilisateur entre des données dans un contrôle ou un enregistrement, Access exécute la macro avant d'ajouter les données dans la base de données. Si ces données ne répondent pas aux conditions de validation de la macro, l'action **AnnulerÉvénement** annule le processus de mise à jour avant même qu'il ne débute.
+Dans un formulaire, l’action **AnnulerEvénement** est généralement utilisée dans une macro de validation avec la propriété de type événement **AvantMAJ**. Lorsqu’un utilisateur entre des données dans un contrôle ou un enregistrement, Access exécute la macro avant d’ajouter les données dans la base de données. Si ces données ne répondent pas aux conditions de validation de la macro, l’action **AnnulerÉvénement** annule le processus de mise à jour avant même qu’il ne débute.
 
 Cette action est souvent utilisée avec l'action **ZoneMessage** pour indiquer que les données n'ont pas rempli les conditions de validation et pour fournir des informations utiles sur le genre de données qui doit être entré.
 
-Les événements suivants peuvent être annulés par l'action **AnnulerEvénement**.
+Les événements suivants peuvent être annulés par l’action **AnnulerEvénement**.
 
 <table>
 <colgroup>
@@ -55,7 +55,7 @@ Les événements suivants peuvent être annulés par l'action **AnnulerEvénemen
 </tr>
 <tr class="odd">
 <td><p><strong>BeforeInsert</strong></p></td>
-<td><p><strong>Filter</strong></p></td>
+<td><p><strong>Filtre</strong></p></td>
 <td><p><strong>Open</strong></p></td>
 </tr>
 <tr class="even">
@@ -77,22 +77,22 @@ Les événements suivants peuvent être annulés par l'action **AnnulerEvénemen
 </table>
 
 > [!NOTE]
-> [!REMARQUE] Vous pouvez utiliser l'action **AnnulerEvénement** avec l'événement **SourisAppuyée** uniquement pour annuler l'événement qui est déclenché lorsque vous cliquez avec le bouton droit sur un objet.
+> Vous pouvez utiliser l’action **AnnulerEvénement** avec l’événement **SourisAppuyée** uniquement pour annuler l’événement qui est déclenché lorsque vous cliquez avec le bouton droit sur un objet.
 
-Si le paramètre de la propriété de type événement **SurDoubleClic** d'un contrôle spécifie une macro contenant l'action **AnnulerEvénement**, l'action annule l'événement **DoubleClic**.
+Si le paramètre de la propriété de type événement **SurDoubleClic** d’un contrôle spécifie une macro contenant l’action **AnnulerEvénement**, l’action annule l’événement **DoubleClic**.
 
 Le comportement par défaut des événements pouvant être annulés (à savoir, le comportement d'Access lorsque l'événement est déclenché) a lieu une fois la macro événementielle exécutée. Ceci vous permet d'annuler le comportement par défaut. Par exemple, lorsque vous double-cliquez sur un mot sur lequel se trouve le point d'insertion dans une zone de texte, Access sélectionne normalement ce mot. Vous pouvez, cependant, annuler ce comportement par défaut dans la macro événementielle **DoubleClic** et exécuter une autre action comme l'ouverture d'un formulaire contenant des informations sur le contenu de la zone de texte. Le comportement par défaut des événements ne pouvant pas être annulés a lieu avant l'exécution de la macro.
 
 > [!NOTE]
 > [!REMARQUE] Si la propriété de type événement **SurLibération** d'un formulaire spécifie une macro qui exécute une action **AnnulerEvénement**, vous ne pourrez pas fermer le formulaire. Vous devez soit corriger la condition à l'origine de l'exécution de l'action **AnnulerEvénement**, soit ouvrir la macro et supprimer l'action **AnnulerEvénement**. Si le formulaire est un formulaire modal, vous ne pourrez pas ouvrir la macro.
 
-Pour exécuter l'action **AnnulerEvénement** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **CancelEvent** de l'objet **DoCmd**.
+Pour exécuter l’action **AnnulerEvénement** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **CancelEvent** de l’objet **DoCmd**.
 
 ## <a name="example"></a>Exemple
 
- Valider des données à l’aide d’une macro
+Valider des données à l’aide d’une macro
 
-La macro de validation suivante vérifie les codes postaux entrés dans un formulaire Fournisseurs. Elle illustre l'utilisation des actions **ArrêtMacro**, **ZoneMessage**, **AnnulerEvénement** et **AtteindreContrôle**. Une expression conditionnelle vérifie le pays/la région et le code postal entrés dans un enregistrement du formulaire. Si le code postal n'est pas dans le format correct pour le pays/la région, la macro affiche une zone de message et annule la sauvegarde de l'enregistrement. Elle vous renvoie ensuite au contrôle Code postal où vous pouvez corriger l'erreur. Cette macro doit être attachée à la propriété **AvantMAJ** du formulaire Fournisseurs.
+La macro de validation suivante vérifie les codes postaux entrés dans un formulaire Fournisseurs. Elle illustre l’utilisation des actions **ArrêtMacro**, **ZoneMessage**, **AnnulerEvénement** et **AtteindreContrôle**. Une expression conditionnelle vérifie le pays/la région et le code postal entrés dans un enregistrement du formulaire. Si le code postal n’est pas dans le format correct pour le pays/la région, la macro affiche une zone de message et annule la sauvegarde de l’enregistrement. Elle vous renvoie ensuite au contrôle Code postal où vous pouvez corriger l’erreur. Cette macro doit être attachée à la propriété **AvantMAJ** du formulaire Fournisseurs.
 
 <table>
 <colgroup>
@@ -111,17 +111,15 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull([CountryRegion])</p></td>
+<td><p>IsNull ([PaysRégion])</p></td>
 <td><p>StopMacro</p></td>
 <td><p></p></td>
 <td><p>Si PaysRégion est <strong>Null</strong>, le code postal ne peut pas être validé.</p></td>
 </tr>
 <tr class="even">
-<td><p>[PaysRégion] Dans (&quot;France&quot;,&quot;Italie&quot;,&quot;Espagne&quot;) et NBCAR ([Code Postal]) &lt; &gt; 5</p></td>
+<td><p>Région Dans (&quot;France&quot;,&quot;Italie&quot;,&quot;Espagne&quot;) et NBCAR ([code postal]) &lt; &gt; 5</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Message : Le code postal doit contenir 5 caractères. 
-
- Bip : <strong>Oui</strong> Type : <strong>informations</strong> titre : Code Postal erroné</p></td>
+<td><p>Message : Le code postal doit contenir 5 caractères. Bip: <strong>Oui</strong> type: titre d' <strong>information</strong> : erreur de code postal</p></td>
 <td><p>Si le code postal ne contient pas 5 caractères, affiche un message.</p></td>
 </tr>
 <tr class="odd">
@@ -137,11 +135,9 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>[PaysRégion] Dans (&quot;Australie&quot;,&quot;Singapour&quot;) et NBCAR ([Code Postal]) &lt; &gt; 4</p></td>
+<td><p>Région En (&quot;Australie&quot;,&quot;Singapour&quot;) et NBCAR ([code postal]) &lt; &gt; 4</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Message : Le code postal doit contenir 4 caractères. 
-
- Bip : <strong>Oui</strong> Type : <strong>informations</strong> titre : Code Postal erroné</p></td>
+<td><p>Message : Le code postal doit contenir 4 caractères. Bip: <strong>Oui</strong> type: titre d' <strong>information</strong> : erreur de code postal</p></td>
 <td><p>Si le code postal ne contient pas 4 caractères, affiche un message.</p></td>
 </tr>
 <tr class="even">
@@ -157,9 +153,9 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([PaysRégion] = &quot;Canada&quot;) Et ([Code Postal] pas comme&quot;[A-Z] [0-9] [A-Z] [0-9] [A-Z] [0-9]&quot;)</p></td>
+<td><p>([PaysRégion] = &quot;Canada&quot;) Et ([code postal] non comme&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Message : Le code postal n’est pas valide. Exemple de code canadien : H1J 1C3 bip : <strong>Oui</strong> Type : titre des <strong>informations</strong> : erreur de Code Postal</p></td>
+<td><p>Message : Le code postal n’est pas valide. Exemple de code canadien: H1J 1C3 bip: <strong>Oui</strong> tapez: titre de l' <strong>information</strong> : erreur de code postal</p></td>
 <td><p>Si le code postal n’est pas correct pour le Canada, affiche un message. (Exemple de code postal canadien : H1J 1C3.)</p></td>
 </tr>
 <tr class="odd">

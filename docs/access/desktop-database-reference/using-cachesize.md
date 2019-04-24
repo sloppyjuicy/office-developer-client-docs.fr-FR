@@ -1,5 +1,5 @@
 ---
-title: À l’aide de la propriété CacheSize (référence de base de données du bureau Access)
+title: Utilisation de CacheSize (référence de base de données de bureau Access)
 TOCTitle: Using CacheSize
 ms:assetid: b1677a9f-f22f-9456-0d2a-1ef7cf81bbdf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 94e84ad8c8a87a6537c1abefe12427ecad0c0187
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312123"
 ---
 # <a name="using-cachesize"></a>Utilisation de CacheSize
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez la propriété **CacheSize** pour contrôler le nombre d'enregistrements à récupérer simultanément à partir du fournisseur pour les insérer dans la mémoire locale. Par exemple, si **CacheSize** a pour valeur 10, après la première ouverture de l'objet **Recordset**, le fournisseur extrait les dix premiers enregistrements pour les insérer dans la mémoire locale. À mesure que vous parcourez l'objet **Recordset**, le fournisseur retourne les données du tampon de mémoire local. Dès que vous avez dépassé le dernier enregistrement du cache, le fournisseur récupère les dix enregistrements suivants de la source de données pour les insérer dans le cache.
 
@@ -25,7 +25,7 @@ Utilisez la propriété **CacheSize** pour contrôler le nombre d'enregistrement
 
 La valeur de **CacheSize** peut être modifiée pendant la durée de vie de l'objet **Recordset** mais sa modification affecte uniquement le nombre d'enregistrements dans le cache après des extractions successives de la source des données. La modification de la seule valeur de la propriété ne suffira pas à modifier le contenu actuel du cache.
 
-S'il y a moins d'enregistrements à récupérer que ne l'indique la propriété **CacheSize**, le fournisseur renvoie les enregistrements restants et aucune erreur n'est générée.
+Si le nombre d'enregistrements à récupérer est inférieur à la valeur de **CacheSize** spécifiée, le fournisseur retourne les enregistrements restants sans qu'aucune erreur ne se produise.
 
 L'affectation de la valeur zéro à **CacheSize** est interdite et se traduit par une erreur.
 

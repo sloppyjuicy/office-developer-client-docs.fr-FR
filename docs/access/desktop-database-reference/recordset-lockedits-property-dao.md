@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.LockEdits (DAO)
+title: Recordset. LockEdits, propriété (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: baa11b24-a330-eaa4-bd03-b8b9739d209e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822514(v=office.15)
@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 54f91dea98f4f47057eb673a0fae08c8ac2b6f1c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300461"
 ---
-# <a name="recordsetlockedits-property-dao"></a>Propriété Recordset.LockEdits (DAO)
+# <a name="recordsetlockedits-property-dao"></a>Recordset. LockEdits, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur indiquant le type de verrouillage utilisé lors de l'édition.
+Définit ou renvoie une valeur indiquant le type de verrouillage appliqué pendant l’opération de modification.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -32,7 +32,7 @@ Définit ou renvoie une valeur indiquant le type de verrouillage utilisé lors d
 
 ## <a name="remarks"></a>Remarques
 
-Le paramètre ou la valeur de retour indique le type de verrouillage, comme spécifié dans le tableau suivant.
+Le paramètre ou la valeur de retour indique le type de verrouillage, comme indiqué dans le tableau suivant.
 
 <table>
 <colgroup>
@@ -52,26 +52,26 @@ Le paramètre ou la valeur de retour indique le type de verrouillage, comme spé
 </tr>
 <tr class="even">
 <td><p>False</p></td>
-<td><p>Verrouillage optimiste est activé pour modification. La page contenant l’enregistrement n’est pas verrouillée jusqu'à ce que la méthode de mise à jour est exécutée.</p></td>
+<td><p>Le verrouillage optimiste est activé pour la modification. La page contenant l'enregistrement n'est pas verrouillée tant que la méthode Update n'est pas exécutée.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Vous pouvez utiliser la propriété **LockEdits** avec des objets **[Recordset](recordset-object-dao.md)** pouvant être mis à jour.
+Vous pouvez utiliser la propriété **LockEdits** avec des objets **[Recordset](recordset-object-dao.md)** modifiables.
 
-Si une page est verrouillée, aucun autre utilisateur ne peut modifier les enregistrements sur la même page. Si vous définissez **LockEdits** sur **True** et qu'un autre utilisateur a déjà verrouillé la page, une erreur survient lorsque vous utilisez la méthode **Edit**. Les autres utilisateurs peuvent lire les données des pages verrouillées.
+Si une page est verrouillée, aucun autre utilisateur ne peut modifier des enregistrements sur la même page. Si vous affectez à **LockEdits** la valeur **True** et qu'un autre utilisateur a déjà verrouillé la page, une erreur se produit lorsque vous utilisez la méthode **Edit**. Les autres utilisateurs peuvent néanmoins toujours lire les données des pages verrouillées.
 
-Si vous définissez la propriété **LockEdits** sur **False** et utilisez ensuite la méthode **Update** alors qu'un autre utilisateur a verrouillé la page, une erreur survient. Pour voir les modifications apportées à votre enregistrement par un autre utilisateur, utilisez la méthode **[Move](recordset-move-method-dao.md)** avec 0 comme argument ; ce faisant, vous perdez toutefois vos modifications.
+Si vous affectez à la propriété **LockEdits** la valeur **False** et que vous utilisez par la suite la méthode **Update** alors qu'un autre utilisateur a verrouillé la page, une erreur est générée. Pour consulter les modifications apportées à votre enregistrement par un autre utilisateur, appelez la méthode **[Move](recordset-move-method-dao.md)** avec un argument de valeur 0 ; toutefois, dans ce cas, sachez que vous perdrez vos modifications.
 
-Lorsque vous utilisez des sources de données ODBC connectées à un moteur de base de données Microsoft Access, la propriété **LockEdits** est toujours définie sur **False** ou verrouillage optimiste. Le moteur de base de données Microsoft Access ne contrôle pas les mécanismes de verrouillage utilisés par les serveurs de base de données externes.
+Lorsque vous utilisez des sources de données ODBC connectées au moteur de base de données Microsoft Access, la propriété **LockEdits** a toujours la valeur **False** (verrouillage optimiste). Le moteur de base de données Microsoft Access n'a aucun contrôle sur les mécanismes de verrouillage mis en œuvre sur des serveurs de base de données externes.
 
 > [!NOTE]
-> Vous pouvez prédéfinir la valeur de **LockEdits** lorsque vous ouvrez pour la première fois le **jeu d’enregistrements** en définissant l’argument lockedits de la méthode **[OpenRecordset](connection-openrecordset-method-dao.md)** . Si l’argument lockedits **dbPessimistic** définit la propriété **LockEdits** sur **True**et lockedits paramètre pour toute autre valeur définit la propriété **LockEdits** sur **False**.
+> Vous pouvez prédéfinir la valeur de **LockEdits** lorsque vous ouvrez pour la première fois l' **objet Recordset** en définissant l'argument LockEdits de la méthode **[OpenRecordset](connection-openrecordset-method-dao.md)** . Le fait de définir l’argument verrouillermodifications sur **dbPessimistic** définit la propriété **LockEdits** sur **True** et le fait de définir verrouillermodifications sur toute autre valeur définit la propriété **LockEdits** sur **False**.
 
 ## <a name="example"></a>Exemple
 
-Cet exemple illustre le verrouillage pessimiste en définissant la propriété **LockEdits** sur **True**, puis le verrouillage optimiste en définissant la propriété **LockEdits** sur False. Il illustre également le type de gestion des erreurs requis dans un environnement de base de données multi-utilisateurs dans le cadre de la modification d'un champ. Les fonctions PessimisticLock et OptimisticLock sont indispensables pour l'exécution de cette procédure.
+Cet exemple illustre dans un premier temps le verrouillage pessimiste en affectant à la propriété **LockEdits** la valeur **True** et ensuite le verrouillage optimiste en affectant la valeur False à **LockEdits**. Il montre également le type de gestion d'erreurs requis dans un environnement de base de données multiutilisateur afin de modifier un champ. Les fonctions PessimisticLock et OptimisticLock sont nécessaires à l'exécution de la procédure.
 
 ```vb
     Sub LockEditsX() 

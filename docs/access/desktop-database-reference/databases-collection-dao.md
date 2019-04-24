@@ -1,5 +1,5 @@
 ---
-title: Collection de bases de données (DAO)
+title: Databases, collection (DAO)
 TOCTitle: Databases Collection
 ms:assetid: 988ae6f5-ec15-cd1c-191d-f295624425f4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197944(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbaa0fe7aaa50c8aec582e2f03cd2849268816b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294644"
 ---
-# <a name="databases-collection-dao"></a>Collection de bases de données (DAO)
+# <a name="databases-collection-dao"></a>Databases, collection (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une collection **Databases** contient tous les objets **Database** ouverts ou créés dans un objet **Workspace**.
 
@@ -28,11 +28,11 @@ Dans un espace de travail Microsoft Access, la propriété **Name** d'une base d
 
 Pour faire référence à un objet **Database** d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-- **Databases**(0)
+- **Bases de données** 0
 
-- **Bases de données** («*nom*»)
+- **Bases de données** ("*nom*")
 
-- **Bases de données**\!\[*nom*\]
+- **Nom des bases de données**** \!\[\]
 
 > [!NOTE]
 > [!REMARQUE] Vous pouvez ouvrir la même source ou base de données plusieurs fois, ce qui crée des noms dupliqués dans la collection **Databases**. Il convient d'affecter des objets **Database** aux variables d'objet et de s'y référer par nom de variables.

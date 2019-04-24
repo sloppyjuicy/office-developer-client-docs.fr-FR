@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset2.Bookmark (DAO)
+title: Recordset2. Bookmark, propriété (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: 7366d550-2f72-ed10-b230-eb144a6f874b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195857(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 31791e9fb3c7081989232e36a90b184ed7e31866
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307447"
 ---
-# <a name="recordset2bookmark-property-dao"></a>Propriété Recordset2.Bookmark (DAO)
+# <a name="recordset2bookmark-property-dao"></a>Recordset2. Bookmark, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie un signet qui identifie de façon unique l'enregistrement actif dans un objet **Recordset**.
 
@@ -29,19 +29,19 @@ Définit ou renvoie un signet qui identifie de façon unique l'enregistrement ac
 
 ## <a name="remarks"></a>Remarques
 
-Pour un objet **Recordset** est basé entièrement sur des tables de moteur de base de données Microsoft Access, la valeur de la propriété **Bookmarkable** est True et vous pouvez utiliser la propriété **Bookmark** avec ce jeu d’enregistrements. Il se peut que d'autres produits de base de données ne prennent pas en charge les signets. Par exemple, vous ne pouvez pas utiliser de signets dans un objet **Recordset2** basé sur une table Paradox attachée, qui ne possède pas de clé primaire.
+Pour un **** objet Recordset basé entièrement sur des tables de moteur de base de données Microsoft Access, la valeur de la propriété **Bookmarkable** est true et vous pouvez utiliser la propriété **Bookmark** avec cet objet Recordset. Il se peut que d'autres produits de base de données ne prennent pas en charge les signets. Par exemple, vous ne pouvez pas utiliser de signets dans un objet **Recordset2** basé sur une table Paradox attachée, qui ne possède pas de clé primaire.
 
-Lors de la création ou de l'ouverture d'un objet **Recordset**, chacun de ses enregistrements contient déjà un signet unique. Vous pouvez enregistrer le signet de l'enregistrement actif en affectant la valeur de la propriété **Bookmark** à une variable. Pour revenir rapidement à cet enregistrement après être passé à un autre enregistrement, définissez la propriété **Bookmark** de l'objet **Recordset** sur la valeur de cette variable.
+Lorsque vous créez ou que vous ouvrez un objet **Recordset**, chacun de ses enregistrements possède un signet qui lui est propre. Vous pouvez enregistrer le signet de l'enregistrement actif en affectant à la propriété **Bookmark** une variable. Pour revenir rapidement et à tout moment à cet enregistrement après avoir accédé à un autre enregistrement, affectez à la propriété **Bookmark** de l'objet **Recordset** la valeur de cette variable.
 
-Vous pouvez créer autant de signets que vous le souhaitez. Pour créer un signet pour un enregistrement différent de l'enregistrement actif, accédez à cet enregistrement et définissez comme paramètre de la propriété **Bookmark** une variable **String** qui identifie cet enregistrement.
+Il n'existe aucune limite quant au nombre de signets que vous pouvez définir. Pour créer un signet d'un enregistrement autre que l'enregistrement actif, accédez à l'enregistrement souhaité et affectez à la propriété **Bookmark** une variable de type **String** qui identifie l'enregistrement.
 
-Pour vous assurer que l'objet **Recordset** prend en charge les signets, consultez la valeur de la propriété **[Bookmarkable](recordset2-bookmarkable-property-dao.md)** avant d'utiliser la propriété **Bookmark**. Si la propriété **Bookmarkable** est False, l’objet **Recordset** ne prend pas en charge les signets, et à l’aide du **signet** de la propriété génère une erreur interceptable.
+Pour vous assurer que l'objet **Recordset** prend en charge les signets, vérifiez la valeur de sa propriété **[Bookmarkable](recordset2-bookmarkable-property-dao.md)** avant d'utiliser la propriété **Bookmark**. Si la **** propriété Bookmarkable a la valeur false, l'objet **Recordset** ne prend pas en charge les signets et l'utilisation de la propriété **Bookmark** génère une erreur capturable.
 
-Si vous créez une copie d'un objet [Recordset](recordset2-clone-method-dao.md) à l'aide de la méthode ****Clone****, les valeurs de la propriété **Bookmark** correspondant aux objets **Recordset** d'origine et dupliqué sont identiques et peuvent être utilisées indifféremment. Toutefois, vous ne pouvez pas utiliser indifféremment les signets d'objets **Recordset** différents, même s'ils ont été créés à l'aide du même objet ou de la même instruction SQL.
+Si vous utilisez la méthode **[Clone](recordset2-clone-method-dao.md)** pour créer une copie de l'objet **Recordset**, les paramètres de la propriété **Bookmark** des objets **Recordset** d'origine et dupliqué sont identiques et interchangeables. En revanche, vous ne pouvez pas utiliser indifféremment des signets d'objets **Recordset** différents même s'ils ont été créés à l'aide du même objet ou de la même instruction SQL.
 
-Une erreur interceptable se produit si vous définissez la propriété **Bookmark** sur une valeur qui représente un enregistrement supprimé.
+Si vous affectez à la propriété **Bookmark** une valeur qui représente un enregistrement supprimé, une erreur piégeable se produit.
 
-La valeur de la propriété **Bookmark** est différente d'un numéro d'enregistrement.
+La valeur de la propriété **Bookmark** est différente d’un numéro d’enregistrement.
 
 ## <a name="example"></a>Exemple
 

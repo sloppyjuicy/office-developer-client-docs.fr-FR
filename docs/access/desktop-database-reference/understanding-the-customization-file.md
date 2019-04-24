@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b977fc4273068ac52efe8960761a9e28a6234e2e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314069"
 ---
 # <a name="understanding-the-customization-file"></a>Présentation du fichier de personnalisation
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Chaque en-tête de section dans le fichier de personnalisation se compose de crochets (**\[**) contenant un type et un paramètre. Les quatre types de section sont signalés par les chaînes littérales **connect**, **sql**, **userlist** ou **logs**. Le paramètre est la chaîne littérale, la valeur par défaut, un identificateur spécifié par l'utilisateur ou rien.
+Chaque en-tête de section dans le fichier de personnalisation se compose**\[** de crochets () contenant un type et un paramètre. Les quatre types de section sont signalés par les chaînes littérales **connect**, **sql**, **userlist** ou **logs**. Le paramètre est la chaîne littérale, la valeur par défaut, un identificateur spécifié par l'utilisateur ou rien.
 
 En conséquence, chaque section est marquée par l'un des en-têtes de section suivants :
 
@@ -42,25 +42,25 @@ Les en-têtes de section comportent les parties suivantes.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Partie</p></th>
+<th><p>Élément</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>connect</strong></p></td>
+<td><p><strong>connexions</strong></p></td>
 <td><p>Chaîne littérale qui modifie une chaîne de connexion.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>sql</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>Chaîne littérale qui modifie une chaîne de commande.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>userlist</strong></p></td>
+<td><p><strong>UserList</strong></p></td>
 <td><p>Chaîne littérale qui modifie les droits d'accès d'un utilisateur spécifique.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>logs</strong></p></td>
+<td><p><strong>composant</strong></p></td>
 <td><p>Chaîne littérale qui spécifie un fichier journal dans lequel les erreurs liées aux opérations sont consignées.</p></td>
 </tr>
 <tr class="odd">
@@ -68,9 +68,8 @@ Les en-têtes de section comportent les parties suivantes.
 <td><p>Chaîne littérale utilisée si aucun identificateur n'a été spécifié ou trouvé.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>identifier</em></p></td>
-<td><p>Chaîne qui correspond à une chaîne de la chaîne <strong>connect</strong> ou <strong>command</strong>.
-</p>
+<td><p><em>identifiant</em></p></td>
+<td><p>Chaîne qui correspond à une chaîne de la chaîne <strong>connect</strong> ou <strong>command</strong>.</p>
 <p></p>
 <ul>
 <li><p>Utilisez cette section si l'en-tête de section contient la chaîne <strong>connect</strong> et si la chaîne de l'identificateur figure dans la chaîne de connexion.</p></li>
@@ -87,7 +86,7 @@ L'objet **DataFactory** appelle le gestionnaire et lui passe les paramètres cli
 
 Une section spécifique est utilisée dans les circonstances suivantes :
 
-  - Une section **connect** est utilisée si la partie valeur du client de connecter mot clé string, « **Source de données = *** valeur*», correspond à un identificateur de section **connect** *.*
+  - Une section **Connect** est utilisée si la partie valeur du mot-clé de la chaîne de connexion client, «**Data source = * * * value*», correspond à un identificateur de section **Connect** *.*
 
   - Une section **sql** est utilisée si la chaîne de commande cliente contient une chaîne qui correspond à un identificateur de section **sql**.
 

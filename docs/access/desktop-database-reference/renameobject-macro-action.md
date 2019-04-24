@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ce16b86ea06e041d490d0c68917daf18bd80dbb6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306719"
 ---
 # <a name="renameobject-macro-action"></a>RenameObject, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **RenommerObjet** pour renommer un objet de base de données spécifique.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée.
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L'action **RenommerObjet** utilise les arguments suivants :
+L’action **RenommerObjet** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -48,22 +48,20 @@ L'action **RenommerObjet** utilise les arguments suivants :
 <td><p>Nouveau nom pour l’objet de base de données. Entrez le nom de l’objet dans la zone <strong>Nouveau nom</strong> de la section <strong>Arguments de l’action</strong> dans le volet Générateur de macro. Cet argument est obligatoire.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Type d'objet</strong></p></td>
+<td><p><strong>Type d’objet</strong></p></td>
 <td><p>Type d’objet que vous voulez renommer. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong>. Pour renommer l’objet sélectionné dans le volet de navigation, laissez cet argument vide.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ancien nom</strong></p></td>
-<td><p>Nom de l’objet à renommer. La zone <strong>Ancien nom</strong> affiche tous les objets dans la base de données dont le type correspond à celui sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez cet argument également vide. 
-
-</p><p><strong>Remarque</strong>: Si vous exécutez une macro contenant l’action <STRONG>Renommer</STRONG> dans une base de données bibliothèque, Microsoft Access recherche d’abord l’objet portant ce nom dans la base de données bibliothèque, puis dans la base de données en cours.</p></td>
+<td><p>Nom de l’objet à renommer. La zone <strong>Ancien nom</strong> affiche tous les objets dans la base de données dont le type correspond à celui sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez cet argument également vide.</p><p><strong>Remarque</strong>: Si vous exécutez une macro contenant l' <STRONG></STRONG> action renommer dans une base de données bibliothèque, Microsoft Access recherche d'abord l'objet portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le nouveau nom de l'objet de base de données doit respecter les conventions d'appellation standard pour les objets Access.
+Le nouveau nom de l’objet de base de données doit respecter les conventions d’appellation standard pour les objets Access.
 
 Vous ne pouvez pas renommer un objet ouvert.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset2.LastUpdated (DAO)
+title: Recordset2. LastUpdated, propriété (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 45043329-2a0a-e9ec-ba19-746910617f85
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193168(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ec6fc25933c52aa99a55c442abf32acc2334257d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307307"
 ---
-# <a name="recordset2lastupdated-property-dao"></a>Propriété Recordset2.LastUpdated (DAO)
+# <a name="recordset2lastupdated-property-dao"></a>Recordset2. LastUpdated, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Renvoie la date et l'heure de la dernière modification apportée à une table de base. Type **Variant** en lecture seule.
 

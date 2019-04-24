@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.ForeignName (DAO)
+title: Field2. ForeignName, propriété (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 76da233a-efb4-63cd-a2a2-d18d9e2fb2fb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196027(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a8368165f73fc52c51cf1503da9c2cc02e969bf4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292810"
 ---
-# <a name="field2foreignname-property-dao"></a>Propriété Field2.ForeignName (DAO)
+# <a name="field2foreignname-property-dao"></a>Field2. ForeignName, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui spécifie le nom de l'objet **Field2** d'une table étrangère correspondant à un champ d'une table primaire d'une relation (espaces de travail Microsoft Access uniquement).
 
@@ -45,7 +45,7 @@ Dans ce cas, la table ValidParts est la table étrangère, la propriété **Fore
 
 ## <a name="example"></a>Exemple
 
-Cet exemple montre comment les propriétés **Table**, **ForeignTable** et **ForeignName** définissent les termes d'une **Relation** entre deux tables.
+Cet exemple montre comment les propriétés **Table**, **ForeignTable** et **ForeignName** définissent les termes d’une **Relation** entre deux tables.
 
 ```vb
     Sub ForeignNameX() 

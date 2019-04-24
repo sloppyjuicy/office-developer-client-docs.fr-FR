@@ -1,5 +1,5 @@
 ---
-title: Save, méthode - ActiveX Data Objects (ADO)
+title: Save, méthode-ActiveX Data Objects (ADO)
 TOCTitle: Save method (ADO)
 ms:assetid: 02dab13b-f947-b96d-46ea-0def3ed8f28f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0a3762c3d4fdb8cc833259b0435b225690d677ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308917"
 ---
 # <a name="save-method-ado"></a>Save, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Enregistre l'objet [Recordset](recordset-object-ado.md) dans un fichier ou un objet [Stream](stream-object-ado.md).
+Enregistre l’objet [Recordset](recordset-object-ado.md) dans un fichier ou un objet [Stream](stream-object-ado.md).
 
 ## <a name="syntax"></a>Syntaxe
 
-*jeu d’enregistrements*. Enregistrer la*Destination*, *PersistFormat*
+*Recordset*. Enregistrer la*destination*, *PersistFormat*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*Destination* |Facultatif. Valeur de type **Variant** qui représente le nom de chemin d'accès complet du fichier dans lequel l'objet **Recordset** doit être enregistré ou une référence à l'objet **Stream**.|
 |*PersistFormat* |Facultatif. Valeur [PersistFormatEnum](persistformatenum.md) qui spécifie le format d'enregistrement de l'objet **Recordset** (XML ou ADTG). La valeur par défaut est **adPersistADTG**.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **Save** peut uniquement être appelée sur un objet **Recordset** ouvert. Utilisez la méthode [Open](open-method-ado-recordset.md) pour restaurer ultérieurement l’objet **Recordset** à partir de *Destination*.
 
@@ -39,7 +39,7 @@ Si la propriété [Filter](filter-property-ado.md) est appliquée pour l'objet *
 
 La première fois que vous enregistrez le **jeu d’enregistrements**, il n’est pas nécessaire d’indiquer une *destination*. Si vous oubliez la *destination*, un nouveau fichier est créé et nommé selon la valeur de la propriété [Source](source-property-ado-recordset.md) du **jeu d’enregistrements**.
 
-Omettez la *Destination* lorsque vous appelez ensuite **Enregistrer** après le premier enregistrement, ou une erreur d’exécution se produit. Si vous appelez ensuite **Enregistrer** avec une nouvelle *Destination*, l' **objet Recordset** est enregistré dans la nouvelle destination. Toutefois, la nouvelle destination et la destination d'origine seront toutes deux ouvertes.
+Omettez *Destination* lors des appels à **Save** suivant le premier enregistrement sans quoi une erreur d'exécution se produit. Si, par la suite, vous appelez **Save** avec un nouveau paramètre *Destination*, l'objet **Recordset** est enregistré dans la nouvelle destination. Toutefois, la nouvelle destination et la destination d'origine seront toutes deux ouvertes.
 
 Dans la mesure où **Save** ne ferme pas l'objet **Recordset** ni *Destination*, vous pouvez continuer à travailler avec l'objet **Recordset** et enregistrer vos modifications les plus récentes. Le paramètre *Destination* reste ouvert jusqu'à la fermeture de l'objet **Recordset**.
 
@@ -56,9 +56,9 @@ Lorsqu'un objet **Recordset** est conservé avec la propriété **CursorLocation
 > [!NOTE]
 > [!REMARQUE] L'enregistrement d'un objet **Recordset** avec des **champs** de type **adVariant**, **adIDispatch** ou **adIUnknown** n'est pas pris en charge par ADO et peut avoir des résultats imprévisibles.
 
-Seuls les **filtres** sous la forme de chaînes de critères (P.ex \> ' 12/31/1999 ') affectent le contenu du **jeu d’enregistrements**persistant. Les filtres créés avec un tableau de **signets** ou en utilisant une valeur provenant de **FilterGroupEnum** n’affectent pas le contenu du **jeu d’enregistrements**persistant. Ces règles s'appliquent aux **jeux d'enregistrements** créés avec des curseurs côté client ou côté serveur.
+Seuls les **filtres** sous forme de chaînes de critères (par exemple \> , OrderDate' 12/31/1999 ') affectent le contenu d'un **jeu d'enregistrements**persistant. Les filtres créés avec un tableau **** de signets ou en utilisant une valeur de **FilterGroupEnum** n'ont pas d'incidence sur le contenu du **jeu d'enregistrements**persistant. Ces règles s'appliquent aux **jeux d'enregistrements** créés avec des curseurs côté client ou côté serveur.
 
-Étant donné que le paramètre *Destination* accepte tout objet qui prend en charge l’interface OLE DB IStream, vous pouvez enregistrer un **objet Recordset** directement dans l’objet ASP Response. Pour plus d'informations, consultez [Scénario de persistance des objets Recordset XML](xml-recordset-persistence-scenario.md).
+Dans la mesure où le paramètre *Destination* peut accepter n’importe quel objet qui prend en charge l’interface OLE DB IStream, vous pouvez enregistrer un objet **Recordset** directement dans un objet de réponse ASP. Pour plus d’informations, consultez [Scénario de persistance des objets Recordset XML](xml-recordset-persistence-scenario.md).
 
 Vous pouvez également enregistrer un objet **Recordset** au format XML dans une instance d'un objet DOM MSXML, comme l'illustre le code Visual Basic suivant :
 

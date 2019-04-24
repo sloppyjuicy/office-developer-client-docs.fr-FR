@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e7825d55c6f0c2f900f61a325265dce048f965e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308280"
 ---
 # <a name="xml-persistence-format"></a>Format de persistance XML
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="xml-persistence-format"></a>Format de persistance XML
 
@@ -66,7 +66,7 @@ Le schéma montre les déclarations des espaces de noms, la section des schémas
 
 Les définitions des schémas sont conformes à la spécification XML-Data et peuvent être entièrement validées (cette validation ne peut se faire avec Internet Explorer 5). Pour prendre connaissance de cette spécification, allez sur [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data est le seul format de schéma existant actuellement pour la persistance **Recordset**.
 
-La section des données possède trois lignes contenant des informations sur les messagers. Pour un ensemble de lignes vide, la section de données peut être vide, mais le `<rs:data>` balises doivent être présents. Sans données, vous pouvez écrire la balise comme simplement `<rs:data>`. Les balises précédées du préfixe "rs" sont placées dans l'espace de nom défini par urn:schemas-microsoft-com:rowset. La définition complète de ce schéma est définie en annexe de ce document.
+La section des données possède trois lignes contenant des informations sur les messagers. Pour un jeu de lignes vide, la section des données peut être vide `<rs:data>` , mais les balises doivent être présentes. Sans données, vous pouvez écrire la balise sténographique en tant `<rs:data>`que simple. Les balises précédées du préfixe "rs" sont placées dans l'espace de nom défini par urn:schemas-microsoft-com:rowset. La définition complète de ce schéma est définie en annexe de ce document.
 
 ## <a name="xml-persistence-format"></a>Format de persistance XML
 
@@ -116,5 +116,5 @@ Le schéma montre les déclarations des espaces de noms, la section des schémas
 
 Les définitions des schémas sont conformes à la spécification XML-Data et peuvent être entièrement validées (cette validation ne peut se faire avec Internet Explorer 5). Pour prendre connaissance de cette spécification, allez sur [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data est le seul format de schéma existant actuellement pour la persistance **Recordset**.
 
-La section des données possède trois lignes contenant des informations sur les messagers. Pour un ensemble de lignes vide, la section de données peut être vide, mais le `<rs:data>` balises doivent être présents. Sans données, vous pouvez écrire la balise comme simplement `<rs:data>`. Les balises précédées du préfixe "rs" sont placées dans l'espace de nom défini par urn:schemas-microsoft-com:rowset. La définition complète de ce schéma est définie en annexe de ce document.
+La section des données possède trois lignes contenant des informations sur les messagers. Pour un jeu de lignes vide, la section des données peut être vide `<rs:data>` , mais les balises doivent être présentes. Sans données, vous pouvez écrire la balise sténographique en tant `<rs:data>`que simple. Les balises précédées du préfixe "rs" sont placées dans l'espace de nom défini par urn:schemas-microsoft-com:rowset. La définition complète de ce schéma est définie en annexe de ce document.
 

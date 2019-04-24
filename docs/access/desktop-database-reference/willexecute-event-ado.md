@@ -1,5 +1,5 @@
 ---
-title: WillExecute, événement (ADO)
+title: Événement WillExecute, (ADO)
 TOCTitle: WillExecute event (ADO)
 ms:assetid: 9f516bfd-246d-9817-4ca3-64598ab466f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
@@ -8,38 +8,38 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7fe15604d0160afcbde5fdf02eaa6a7831da874b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302754"
 ---
-# <a name="willexecute-event-ado"></a>WillExecute, événement (ADO)
+# <a name="willexecute-event-ado"></a>Événement WillExecute, (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'événement **WillExecute** est appelé juste avant l'exécution d'une commande en attente sur une connexion.
 
 ## <a name="syntax"></a>Syntaxe
 
-WillExecute*Source*, *CursorType*, *LockType*, *Options*, *adStatus*, *pCommand*, *Connection*, *pConnection*
+*Source*WillExecute,, *CursorType*, *LockType*, *options*, ** adStatus, *pCommand*, preobjet, *pConnection* **
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*Source* |Valeur de type **String** reprenant le nom d'une commande SQL ou d'une procédure stockée.|
-|*CursorType* |Valeur [CursorTypeEnum](cursortypeenum.md) contenant le type de curseur pour l'objet **Recordset** qui sera ouvert. Avec ce paramètre, vous pouvez modifier le curseur à n’importe quel type pendant une opération [d’ouverture](open-method-ado-recordset.md) de **jeu d’enregistrements** . *CursorType* est ignorée pour tout autre opération.|
-|*LockType* |Valeur [LockTypeEnum](locktypeenum.md) contenant le type de verrouillage de l'objet **Recordset** qui sera ouvert. Ce paramètre permet de changer le type de verrouillage pendant l'exécution d'une opération **Open** sur un objet **Recordset** ). *LockType* est ignorée pour tout autre opération.|
+|*CursorType* |Valeur [CursorTypeEnum](cursortypeenum.md) contenant le type de curseur pour l'objet **Recordset** qui sera ouvert. Avec ce paramètre, vous pouvez modifier le type de curseur pendant l'opération d' [ouverture](open-method-ado-recordset.md) **d'un jeu d'enregistrements** . La valeur du paramètre *CursorType* est ignorée pour tout autre type d’opération.|
+|*LockType* |Valeur [LockTypeEnum](locktypeenum.md) contenant le type de verrouillage de l'objet **Recordset** qui sera ouvert. Ce paramètre permet de changer le type de verrouillage pendant l'exécution d'une opération **Open** sur un objet **Recordset** ). La valeur de *LockType* est ignorée pour tout autre type d’opération.|
 |*Options* |Valeur de type **Long** indiquant les options qui peuvent être utilisées pour exécuter la commande ou ouvrir l'objet **Recordset**.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). Avant que cet événement soit retourné, définissez ce paramètre à **adStatusUnwantedEvent** pour éviter toute notification ultérieure ou à **adStatusCancel** pour demander l'annulation de l'opération à l'origine de l'événement.|
+|*Statu* |[EventStatusEnum](eventstatusenum.md). Avant que cet événement soit retourné, définissez ce paramètre à **adStatusUnwantedEvent** pour éviter toute notification ultérieure ou à **adStatusCancel** pour demander l'annulation de l'opération à l'origine de l'événement.|
 |*pCommand* |Objet [Command](command-object-ado.md) auquel cette notification d'événement s'applique.|
-|*Connection* |Objet [Recordset](recordset-object-ado.md) auquel cette notification d'événement s'applique.|
+|*jeu d'enregistrements* |Objet [Recordset](recordset-object-ado.md) auquel cette notification d'événement s'applique.|
 |*pConnection* |Objet [Connection](connection-object-ado.md) auquel cette notification d'événement s'applique.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Un événement **WillExecute** peut se produire suite à une **connexion.** [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **commande.** [Exécuter](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), ou **Recordset.** La méthode [Open](open-method-ado-recordset.md) le paramètre *pConnection* doit toujours contenir une référence valide à un objet **Connection** . Si l’événement est en raison de **Connection.Execute**, les paramètres *pRecordset* et *pCommand* sont définies sur **Nothing**. Si l’événement est en raison de la **méthode Recordset.Open**, le paramètre *Connection* référence à l’objet **Recordset** et le paramètre *pCommand* est défini sur **Nothing**. Si l’événement est en raison de **Command.Execute**, le paramètre *pCommand fait* référence à l’objet **Command** et le paramètre *Connection* est défini sur **Nothing**.
+Il se peut qu’un événement **WillExecute** se produise suite à l’utilisation de la méthode **Connection.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **Command.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) ou **Recordset.**[Open](open-method-ado-recordset.md). Le paramètre *pConnection* doit toujours contenir une référence valide à un objet **Connection**. Si l’événement est lié à l’exécution de **Connection.Execute**, les paramètres *pRecordset* et *pCommand* ont la valeur **Nothing**. S’il est provoqué par la méthode **Recordset.Open**, le paramètre *pRecordset* fait alors référence à l’objet **Recordset** et le paramètre *pCommand* est défini  **Nothing**. Enfin, si l’événement est provoqué par la méthode **Command.Execute**, le paramètre *pCommand* fait alors référence à l’objet **Command** et le paramètre *pRecordset* a la valeur **Nothing**.
 
 **WillExecute** permet de passer en revue et de modifier les paramètres d'exécution en attente. Il se peut que cet événement retourne une demande d'annulation de la commande en attente.
 

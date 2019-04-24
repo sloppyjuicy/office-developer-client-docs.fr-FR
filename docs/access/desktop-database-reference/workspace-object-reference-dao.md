@@ -1,5 +1,5 @@
 ---
-title: Référence d’objet espace de travail (DAO)
+title: Référence d'objet Workspace (DAO)
 TOCTitle: Workspace
 ms:assetid: 25abb11e-6045-4c74-b59e-127e4011b21a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124071(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1bf55574880378b9c60b722262cdaa626aa4be4d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302533"
 ---
-# <a name="workspace-object-reference-dao"></a>Référence d’objet espace de travail (DAO)
+# <a name="workspace-object-reference-dao"></a>Référence d'objet Workspace (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Objet espace de travail (DAO)](workspace-object-dao.md)
-- [Membres de l’espace de travail (DAO)](workspace-members-dao.md)
-- [Propriétés de l’espace de travail (DAO)](workspace-properties-dao.md)
-- [Méthodes de l’espace de travail (DAO)](workspace-methods-dao.md)
+- [Objet Workspace (DAO)](workspace-object-dao.md)
+- [Workspace, membres (DAO)](workspace-members-dao.md)
+- [Propriétés de l'espace de travail (DAO)](workspace-properties-dao.md)
+- [Méthodes d'espace de travail (DAO)](workspace-methods-dao.md)
 

@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 42e7dd643985cee9aef8887099eb90dcdb381f4e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295981"
 ---
 # <a name="connect-property-rds"></a>Connect, propriété (RDS)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le nom de la base de données dans laquelle les opérations de requête et de mise à jour sont exécutées.
 
-Vous pouvez définir la propriété **Connect** au moment du design dans les balises OBJECT de l'objet [RDS.DataControl](datacontrol-object-rds.md) ou au moment de l'exécution dans le code de script (par exemple, VBScript).
+Vous pouvez définir la propriété **Connect** au moment du design dans les balises OBJECT de l’objet [RDS.DataControl](datacontrol-object-rds.md) ou au moment de l’exécution dans le code de script (par exemple, VBScript).
 
 ## <a name="syntax"></a>Syntaxe
 
-Au moment du design : \<PARAM NAME = « Connexion », valeur = « ConnectionString »\>
+Moment de la \<conception: param Name = "Connect" value = "ConnectionString"\>
 
-Temps d’exécution : DataControl.Connect = « ConnectionString »
+Moment de l'exécution: DataControl. Connect = "ConnectionString"
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
-|*ConnectionString* |Chaîne de connexion valide. Pour plus d'informations d'ordre général sur les chaînes de connexion, reportez-vous à la propriété [ConnectionString](connectionstring-property-ado.md) ou à la documentation du fournisseur.<br/><br/>**Remarque**: spécification MS Remote comme fournisseur pour le **RDS. DataControl** crée un scénario à quatre niveaux. Les scénarios comptant plus de trois niveaux n'ont pas été testés et sont normalement inutiles.|
+|*ConnectionString* |Chaîne de connexion valide. Pour plus d'informations d'ordre général sur les chaînes de connexion, reportez-vous à la propriété [ConnectionString](connectionstring-property-ado.md) ou à la documentation du fournisseur.<br/><br/>**Remarque**: spécification de MS Remote en tant que fournisseur de l' **objet RDS. DataControl** crée un scénario à quatre niveaux. Les scénarios comptant plus de trois niveaux n'ont pas été testés et sont normalement inutiles.|
 |*DataControl* |Une variable objet qui représente un objet **RDS.DataControl**.|
 

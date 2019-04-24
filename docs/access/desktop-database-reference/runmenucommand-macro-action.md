@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c2b5a19b7a92fb68dfb774afeec5cd6ba456f38d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306502"
 ---
 # <a name="runmenucommand-macro-action"></a>RunMenuCommand, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l'action **ExécuterCommandeMenu** pour exécuter une commande Microsoft Office Access.
+Vous pouvez utiliser l’action **ExécuterCommandeMenu** pour exécuter une commande Microsoft Office Access.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **ExécuterCommandeMenu** utilise l'argument d'action suivant :
+L’action **ExécuterCommandeMenu** utilise l’argument d’action suivant :
 
 <table>
 <colgroup>
@@ -47,9 +47,9 @@ L'action **ExécuterCommandeMenu** utilise l'argument d'action suivant :
 </tbody>
 </table>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l'action **ExécuterCommandeMenu** pour exécuter une commande Access à partir d'une barre de menus personnalisée, d'une barre de menus globale, d'un menu contextuel personnalisé ou d'un menu contextuel global.
+Vous pouvez utiliser l’action **ExécuterCommandeMenu** pour exécuter une commande Access à partir d’une barre de menus personnalisée, d’une barre de menus globale, d’un menu contextuel personnalisé ou d’un menu contextuel global.
 
 Vous pouvez utiliser l'action **ExécuterCommandeMenu** dans une macro avec des expressions conditionnelles pour exécuter une commande en fonction de certaines conditions.
 

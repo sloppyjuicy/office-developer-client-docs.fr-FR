@@ -1,5 +1,5 @@
 ---
-title: Bip, action de macro (référence de base de données du bureau Access)
+title: Beep, action de macro (référence de base de données de bureau Access)
 TOCTitle: Beep macro action
 ms:assetid: 5ca1600f-7934-3b3d-19fd-f305cda0e5d8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194572(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 96051d8389f4b8ba7005c75ccdb5e2780ba17138
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296863"
 ---
 # <a name="beep-macro-action"></a>Beep, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Utilisez l'action **Bip** pour émettre un signal sonore dans les haut-parleurs de l'ordinateur.
+Utilisez l’action **Bip** pour émettre un signal sonore dans les haut-parleurs de l’ordinateur.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **Bip** ne possède aucun argument.
+L’action **Bip** ne possède aucun argument.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l'action **Bip** pour signaler les occurrences suivantes :
+Vous pouvez utiliser l’action **Bip** pour signaler les occurrences suivantes :
 
   - des modifications importantes ont été apportées à l'écran ;
 

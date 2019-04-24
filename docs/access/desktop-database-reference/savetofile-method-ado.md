@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f3b08c9df435c7ce995a40af7b8ad5466b79245d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308924"
 ---
 # <a name="savetofile-method-ado"></a>SaveToFile, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Enregistre le contenu binaire d'un objet [Stream](stream-object-ado.md) dans un fichier.
+Enregistre le contenu binaire d’un objet [Stream](stream-object-ado.md) dans un fichier.
 
 ## <a name="syntax"></a>Syntaxe
 
-*Flux de données*. De SaveToFile*FileName*, groupes de *SaveOptions*
+*Stream*. SaveToFile*filename*, *SaveOptions*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*FileName* |Valeur de type **String** qui contient le nom complet du fichier dans lequel le contenu de l'objet **Stream** sera enregistré. Vous pouvez enregistrer dans tout emplacement local valide ou tout emplacement auquel vous avez accès via une valeur UNC.|
 |*SaveOptions* |Valeur [SaveOptionsEnum](saveoptionsenum.md) qui spécifie si un nouveau fichier doit être créé par la méthode **SaveToFile**, s'il n'existe pas encore. La valeur par défaut est **adSaveCreateNotExists**. Avec ces options, vous pouvez déterminer qu'une erreur doit être générée lorsque le fichier spécifié n'existe pas. Vous pouvez également préciser que la méthode **SaveToFile** remplace le contenu actuel d'un fichier existant.|
 
 > [!NOTE]
-> [!REMARQUE] Si vous remplacez un fichier existant (lorsque la valeur **adSaveCreateOverwrite** est définie), la méthode **SaveToFile** tronque tous les octets du fichier existant d'origine qui suivent la nouvelle propriété [EOS](eos-property-ado.md).
+> Si vous remplacez un fichier existant (lorsque la valeur **adSaveCreateOverwrite** est définie), la méthode **SaveToFile** tronque tous les octets du fichier existant d’origine qui suivent la nouvelle propriété [EOS](eos-property-ado.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **SaveToFile** peut être utilisée pour copier le contenu d'un objet **Stream** vers un fichier local. Le contenu ou les propriétés de l'objet **Stream** ne sont en aucune façon modifiés. L'objet **Stream** doit être ouvert avant d'appeler **SaveToFile**.
 

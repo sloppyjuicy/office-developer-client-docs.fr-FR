@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d9e86fb7d60af94d6ecde71b2a857a3cc5b9bcb8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306852"
 ---
 # <a name="runmacro-macro-action"></a>RunMacro, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **ExécuterMacro** pour exécuter une macro. La macro peut faire partie d'un groupe de macros.
 
@@ -32,9 +32,9 @@ Vous pouvez utiliser cette action dans les cas suivants :
 
 - Pour attacher une macro à une commande de menu personnalisée.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **ExécuterMacro** accepte les arguments suivants.
+L’action **ExécuterMacro** accepte les arguments suivants.
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ L'action **ExécuterMacro** accepte les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom macro</strong></p></td>
-<td><p>Nom de la macro à exécuter. La zone <strong>Nom de la Macro</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro affiche toutes les macros (et groupes de macros) dans la base de données en cours. Si la macro est dans un groupe de macros, elle est répertoriée sous le nom du groupe de macros dans la liste en tant que <em>nomgroupemacros</em>. <em>nommacro</em>. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>ExécuterMacro</strong> dans une base de données bibliothèque, Microsoft Access recherche la macro portant ce nom dans la base de données bibliothèque, et non pas dans la base de données active.</p></td>
+<td><p>Nom de la macro à exécuter. La zone nom de la <strong>macro</strong> dans la section arguments de l' <strong>action</strong> du volet générateur de macro affiche toutes les macros (et groupes de macros) dans la base de données active. Si la macro fait partir d'un groupe de macros, elle est répertoriée sous le nom du groupe de macros dans la liste en tant que <em>nomgroupemacro</em>. <em>nommacro</em>. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>ExécuterMacro</strong> dans une base de données bibliothèque, Microsoft Access recherche la macro portant ce nom dans la base de données bibliothèque, et non pas dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre de répétitions</strong></p></td>
@@ -63,9 +63,9 @@ L'action **ExécuterMacro** accepte les arguments suivants.
 </tbody>
 </table>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si vous entrez le nom d'un groupe de macros dans l'argument **Nom de macro**, Access exécute la première macro du groupe.
+Si vous entrez le nom d’un groupe de macros dans l’argument **Nom de macro**, Access exécute la première macro du groupe.
 
 Pour l'essentiel, cette action équivaut à cliquer sur le bouton **Exécuter une macro** dans l'onglet **Outils de base de données**, à sélectionner une macro, puis à cliquer sur **OK**. Toutefois, cette commande n'exécute la macro qu'une seule fois tandis que l'action **ExécuterMacro** permet d'exécuter une macro autant de fois que vous le souhaitez.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété Workspace.LoginTimeout (DAO)
+title: Propriété Workspace. LoginTimeout (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 5f03b166-abbc-20de-1a01-3869a9f2907d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194743(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbc0ed4849e8c22bc7023bd4254fdee74a5d016c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306908"
 ---
-# <a name="workspacelogintimeout-property-dao"></a>Propriété Workspace.LoginTimeout (DAO)
+# <a name="workspacelogintimeout-property-dao"></a>Propriété Workspace. LoginTimeout (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie le nombre de secondes devant s'écouler avant l'apparition d'une erreur lorsque vous essayez de vous connecter à une base de données ODBC.
+Définit ou renvoie le nombre de secondes avant la survenue d’une erreur lorsque vous tentez de vous connecter à une base de données ODBC.
 
 ## <a name="syntax"></a>Syntaxe
 

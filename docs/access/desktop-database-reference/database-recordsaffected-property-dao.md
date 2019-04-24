@@ -1,5 +1,5 @@
 ---
-title: Propriété Database.RecordsAffected (DAO)
+title: Propriété Database. RecordsAffected (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 1c591231-21dd-f0b1-4ba6-87784c5890d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845732(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a1bcb9ac1140b275d0c7a2441f58d2ced0e0f82c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294741"
 ---
-# <a name="databaserecordsaffected-property-dao"></a>Propriété Database.RecordsAffected (DAO)
+# <a name="databaserecordsaffected-property-dao"></a>Propriété Database. RecordsAffected (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthode **[Execute](connection-execute-method-dao.md)**.
 
@@ -25,7 +25,7 @@ Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthod
 
 *expression* . RecordsAffected
 
-*expression* Variable qui représente un objet de **base de données** .
+*expression* Variable qui représente un objet **Database** .
 
 ## <a name="example"></a>Exemple
 

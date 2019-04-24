@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1f6d7e8f64f6b14ea699006fc0461cdf0ded2a06
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308483"
 ---
 # <a name="stream-object-ado"></a>Stream, objet (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente un flux de données binaires ou de texte.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Dans l’arborescence de hiérarchies comme un système de fichiers ou un système de messagerie, un [enregistrement](record-object-ado.md) peut être un par défaut binaire flux de bits associé qui renferme le contenu du fichier ou le courrier électronique. Un objet **Stream** peut être utilisé pour manipuler des champs ou des enregistrements contenant ces flux de données. Un objet **Stream** peut être obtenu de différentes façons :
+Dans les hiérarchies structurées en arborescence telles qu'un système de fichiers ou un système de messagerie, un flux binaire par défaut de bits peut être associé à un [enregistrement](record-object-ado.md) qui contient le contenu du fichier ou du courrier électronique. Un objet **Stream** peut être utilisé pour manipuler des champs ou des enregistrements contenant ces flux de données. Un objet **Stream** peut être obtenu de différentes façons :
 
   - À partir d'une URL pointant sur un objet (en général, un fichier) contenant des données binaires ou texte. Cet objet peut être un simple document, un objet **Record** représentant un document structuré ou un dossier.
 
@@ -66,6 +66,6 @@ Les méthodes et les propriétés d'un objet **Stream** vous permettent d'effect
   - spécifier le mode d'accès au **Stream** à l'aide de la propriété [Mode](mode-property-ado.md).
 
 > [!NOTE]
-> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).
+> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
 
 

@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: caabfb0f4e90134c10d5ab728f19e1fd2a4437dd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308469"
 ---
 # <a name="submacro-macro-statement"></a>Submacro, instruction de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L’instruction **Submacro** définit une macro distincte dans la fenêtre Concepteur de macros.
+L' **** instruction submacro définit une macro distincte dans la fenêtre du concepteur de macros.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'instruction **Submacro** utilise les arguments suivants.
+L’instruction **Submacro** utilise les arguments suivants.
 
 <table>
 <colgroup>
@@ -39,7 +39,7 @@ L'instruction **Submacro** utilise les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p>Nom</p></td>
 <td><p>Oui</p></td>
 <td><p>Chaîne qui apparaît comme nom de la macro.</p></td>
 </tr>
@@ -49,9 +49,9 @@ L'instruction **Submacro** utilise les arguments suivants.
 
 ## <a name="example"></a>Exemple
 
-La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu’une erreur se produit, le submacro CatchErrors est appelée. Si le numéro d’erreur est 2102, un message s’affiche et l’exécution de la macro est interrompue. Sinon, un message décrivant l’erreur s’affiche et la macro est interrompue de sorte que vous pouvez effectuer des opérations de dépannage. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
+La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu'une erreur se produit, la sous-macro CatchErrors est appelée. Si le numéro de l'erreur est 2102, un message spécifique s'affiche et l'exécution de la macro est interrompue. Dans le cas contraire, un message décrivant l'erreur s'affiche et la macro est suspendue pour vous permettre d'effectuer des procédures de dépannage supplémentaires. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* MACRO: mcrThrowErrors                                  */

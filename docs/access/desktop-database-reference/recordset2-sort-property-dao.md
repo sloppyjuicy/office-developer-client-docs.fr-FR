@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset2.Sort (DAO)
+title: Recordset2. sort, propriété (DAO)
 TOCTitle: Sort Property
 ms:assetid: 523a8c29-46e2-564f-205d-03c214f277fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193917(v=office.15)
@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a5784054ce195a1a2ea516d4f6a3417c5a8db71c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309268"
 ---
-# <a name="recordset2sort-property-dao"></a>Propriété Recordset2.Sort (DAO)
+# <a name="recordset2sort-property-dao"></a>Recordset2. sort, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
 Définit ou renvoie l'ordre de tri des enregistrements d'un objet **[Recordset](recordset-object-dao.md)** (espace de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Tri
+*expression* . Genre
 
 *expression* Variable qui représente un objet **Recordset2** .
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser la propriété **Sort** avec feuille de réponse dynamique et instantané – objets **Recordset** de type.
+Vous pouvez utiliser la propriété **Sort** avec des objets **Recordset** de type instantané ou feuille de réponse dynamique.
 
 Lorsque vous définissez cette propriété pour un objet, le tri est exécuté lorsqu'un autre objet **Recordset** est créé par la suite à partir de cet objet. Le paramètre de la propriété **Sort** remplace l'ordre de tri défini pour un objet **[QueryDef](querydef-object-dao.md)**.
 
 Par défaut, l'ordre de tri est croissant (A à Z ou 0 à 100).
 
-La propriété **Sort** ne s’applique aux objets **Recordset** de type table ou avant uniquement. Pour trier un objet **Recordset** de type table, utilisez la propriété **[Index](recordset2-index-property-dao.md)** .
+La propriété **Sort** ne s’applique pas aux objets **Recordset** de type table ou avant uniquement. Pour trier un objet Recordset **** de type table, utilisez la propriété **[index](recordset2-index-property-dao.md)** .
 
 > [!NOTE]
-> [!REMARQUE] Dans la plupart des cas, il est plus rapide d'ouvrir un nouvel objet **Recordset** à l'aide d'une instruction SQL qui comprend les critères de tri.
+> Dans la plupart des cas, il est plus rapide d’ouvrir un nouvel objet **Recordset** à l’aide d’une instruction SQL qui comprend les critères de tri.
 
 ## <a name="example"></a>Exemple
 

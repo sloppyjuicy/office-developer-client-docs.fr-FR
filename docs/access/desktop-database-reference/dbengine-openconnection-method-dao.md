@@ -1,5 +1,5 @@
 ---
-title: Méthode DBEngine.OpenConnection (DAO)
+title: DBEngine. OpenConnection, méthode (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 778a581f-be42-94ee-e5c6-4cbc1843450d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196074(v=office.15)
@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 845c710954d83003f49a6cd9db21ae3f3bfab383
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294259"
 ---
-# <a name="dbengineopenconnection-method-dao"></a>Méthode DBEngine.OpenConnection (DAO)
+# <a name="dbengineopenconnection-method-dao"></a>DBEngine. OpenConnection, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . OpenConnection (***nom***, ***Options***, ***ReadOnly***, ***connecter***)
+*expression* . OpenConnection (***nom***, ***options***, ***LectureSeule***, ***connexion***)
 
 *expression* Variable qui représente un objet **DBEngine** .
 
@@ -40,7 +40,7 @@ ms.locfileid: "28704601"
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -68,7 +68,7 @@ ms.locfileid: "28704601"
 <td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Une chaîne de connexion ODBC. Voir la propriété <strong><a href="connection-connect-property-dao.md">Connect</a></strong> pour des éléments spécifiques et la syntaxe de cette chaîne. Un ajoutant au début &quot;ODBC ; &quot; est requis.</p></td>
+<td><p>Chaîne de connexion ODBC. Voir la propriété <strong><a href="connection-connect-property-dao.md">Connect</a></strong> pour les éléments et la syntaxe spécifiques de cette chaîne. Un ODBC &quot;ajouté; &quot; est requis.</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,9 +82,9 @@ Connection
 
 Utilisez la méthode **OpenConnection** pour définir une connexion à une source de données ODBC à partir d'un espace de travail ODBCDirect. La méthode **OpenConnection** est similaire à la méthode **OpenDatabase**, mais elle n'y est pas équivalente. La différence principale est que la méthode **OpenConnection** est disponible dans un espace de travail ODBCDirect.
 
-Si vous spécifiez un nom de source de données (DSN) ODBC inscrit dans l’argument connecter, l’argument nom peut être n’importe quelle chaîne valide et fournit également la propriété **Name** de l’objet **Connection** . Si un DSN valide n’est pas inclus dans l’argument connecter, nom doit faire référence à un DSN ODBC valide, qui sera également la propriété **Name** . Si nom ni se connecter contient un DSN valid, le Gestionnaire de pilote ODBC peut avoir (via l’argument options) pour inviter l’utilisateur pour les informations de connexion nécessaires. Le nom DSN indiqué à l'invite fournit ensuite la propriété **Name**.
+Si vous spécifiez un nom de source de données (DSN) ODBC enregistré dans l'argument connecter, l'argument nom peut être n'importe quelle chaîne valide et fournira également la propriété **Name** de l'objet **Connection** . Si un DSN valide n'est pas inclus dans l'argument Connect, le nom doit faire référence à un DSN ODBC valide, qui sera également la propriété **Name** . Si ni le nom ni la connexion ne contiennent un DSN valide, le gestionnaire de pilotes ODBC peut être défini (via l'argument options) pour inviter l'utilisateur à entrer les informations de connexion requises. Le nom DSN indiqué à l'invite fournit ensuite la propriété **Name**.
 
-L'argument options détermine si l'utilisateur doit être invité à établir la connexion, définit à quel moment cela doit avoir lieu, et décide si la connexion doit être ouverte ou non en mode asynchrone. Vous pouvez utiliser l'une des constantes ci-après.
+L'argument options détermine si et quand demander à l'utilisateur d'établir la connexion, et s'il faut ou non l'ouvrir de manière asynchrone. Vous pouvez utiliser l'une des constantes ci-après.
 
 <table>
 <colgroup>

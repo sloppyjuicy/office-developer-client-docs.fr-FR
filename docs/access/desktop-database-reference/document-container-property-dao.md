@@ -1,5 +1,5 @@
 ---
-title: Propriété Document.Container (DAO)
+title: Document. Container, propriété (DAO)
 TOCTitle: Container Property
 ms:assetid: aa1ace1d-f0b8-e0b0-20b6-d3e296254c51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821451(v=office.15)
@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: af1a531e57aaca7d497f3f71d6c16e8ea1bab177
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293825"
 ---
-# <a name="documentcontainer-property-dao"></a>Propriété Document.Container (DAO)
+# <a name="documentcontainer-property-dao"></a>Document. Container, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Renvoie le nom de l'objet **[Container](container-object-dao.md)** auquel un objet **Document** appartient (espaces de travail Microsoft Access uniquement).
+Renvoie le nom de l'objet **[Container](container-object-dao.md)** auquel appartient un objet **document** (espaces de travail Microsoft Access uniquement). .
 
 ## <a name="syntax"></a>Syntaxe
 
 *expression* . Conteneur
 
-*expression* Variable qui représente un objet **Document** .
+*expression* Variable qui représente un objet **document** .
 
 ## <a name="example"></a>Exemple
 

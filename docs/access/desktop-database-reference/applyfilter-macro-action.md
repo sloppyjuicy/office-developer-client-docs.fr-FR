@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e79ab56778f9429e7f1a985f0f81864ae4363606
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296996"
 ---
 # <a name="applyfilter-macro-action"></a>ApplyFilter, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez l'action **AppliquerFiltre** pour appliquer un filtre, une requête ou une clause SQL WHERE à une table, un formulaire ou un état de manière à restreindre ou trier les enregistrements de la table ou bien les enregistrements de la table ou de la requête sous-jacente du formulaire ou de l'état. Dans le cas d'un état, utilisez cette action uniquement dans une macro spécifiée par la propriété de type événement **SurOuverture** de cet état.
 
 > [!NOTE]
 > [!REMARQUE] Vous pouvez utiliser cette action pour appliquer une clause WHERE SQL seulement lorsque vous appliquez un filtre serveur. Il n'est pas possible d'appliquer un filtre serveur à une source d'enregistrement d'une procédure stockée.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **AppliquerFiltre** possède les arguments suivants.
+L’action **AppliquerFiltre** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -38,28 +38,26 @@ L'action **AppliquerFiltre** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Nom du filtre</p></td>
-<td><p>Le nom d’un filtre ou une requête qui limite ou trie les enregistrements de la table, formulaire ou état. Vous pouvez entrer le nom d’une requête existante ou un filtre qui a été enregistré en tant que requête dans la zone <strong>Nom du filtre</strong> dans la section <strong>Arguments de l’Action</strong> du volet <strong>Générateur de Macro</strong> .</p><p><strong>Remarque</strong>: lorsque vous utilisez cette action pour appliquer un filtre serveur, l’argument nom du filtre doit être vide.</p></td>
+<td><p>Nom d’un filtre ou d’une requête qui restreint ou trie les enregistrements de la table, du formulaire ou du rapport. Vous pouvez entrer le nom d'une requête existante ou d'un filtre enregistré en tant que requête dans la zone <strong>nom du filtre</strong> de la section <strong>arguments</strong> de l'action du volet <strong>Générateur de macro</strong> .</p><p><strong>Remarque</strong>: lorsque vous utilisez cette action pour appliquer un filtre serveur, l'argument Nom du filtre doit être vide.</p></td>
 </tr>
 <tr class="even">
-<td><p>Where Condition</p></td>
-<td><p>Clause SQL WHERE (sans le mot WHERE) valide ou expression qui restreint les enregistrements de la table, du formulaire ou de l’état. 
-
-</p>
-<p><b>Remarque</b>: dans une expression Condition Where argument, le côté gauche de l’expression contient généralement un nom de champ de la table ou requête sous-jacente pour le formulaire ou état. Le côté droit de l’expression contient généralement les critères que vous voulez appliquer à ce champ pour restreindre ou trier les enregistrements. Par exemple, les critères peuvent être le nom d’un contrôle sur un autre formulaire qui contient la valeur que vous souhaitez que les enregistrements dans le premier formulaire doivent correspondre. Le nom du contrôle doit être qualifié complet, par exemple :</p>
-<p><strong>Formulaires</strong>! <em>formname</em>! <em>controlname</em> Noms de champs doivent être placés entre guillemets doubles et les littéraux de chaîne doivent être placés entre guillemets simples. La longueur maximale de l’argument Condition Where est de 255 caractères. Si vous devez entrer une clause SQL WHERE plus longue, utilisez la méthode <strong>ApplyFilter</strong> de l’objet <strong>DoCmd</strong> dans un Visual Basic pour le module d’Applications (VBA). Vous pouvez entrer des instructions de clause SQL WHERE jusqu'à 32 768 caractères dans VBA.</p></td>
+<td><p>Condition Where</p></td>
+<td><p>Clause SQL WHERE (sans le mot WHERE) valide ou expression qui restreint les enregistrements de la table, du formulaire ou de l’état.</p>
+<p><b>Remarque</b>: dans une expression d'argument condition WHERE, le côté gauche de l'expression contient généralement un nom de champ de la table ou de la requête sous-jacente du formulaire ou de l'État. La partie droite de l’expression contient généralement les critères que vous souhaitez appliquer à ce champ pour restreindre ou trier les enregistrements. Ces critères peuvent ainsi être le nom d’un contrôle dans un autre formulaire qui contient la valeur à laquelle doivent correspondre les enregistrements dans le premier formulaire. Le nom du contrôle doit être complet, comme dans l’exemple suivant :</p>
+<p><strong>Forms</strong>! <em>FormName</em>! <em>nomcontrôle</em> Les noms de champs doivent être entourés de guillemets doubles et les littéraux de chaîne doivent être entourés de guillemets simples. L’argument Condition Where est limité à 255 caractères. Si vous avez besoin d’entrer une clause SQL WHERE plus longue, utilisez la méthode <strong>ApplyFilter</strong> de l’objet <strong>DoCmd</strong> dans un module Visual Basic pour Applications (VBA). Dans VBA, les instructions de clause SQL WHERE peuvent contenir jusqu’à 32 768 caractères.</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> [!REMARQUE] Utilisez l'argument Nom du filtre si vous avez déjà défini un filtre qui fournit les données appropriées. Utilisez l'argument Condition Where pour entrer directement les critères de restriction. Si vous utilisez les deux arguments, Microsoft Office Access 2007 applique la clause WHERE aux résultats du filtre. Vous devez utiliser au moins l'un de ces deux arguments.
+> [!REMARQUE] Utilisez l'argument Nom du filtre si vous avez déjà défini un filtre qui fournit les données appropriées. Utilisez l'argument ConditionWhere pour entrer directement les critères de restriction. Si vous utilisez les deux arguments, Microsoft Office Access 2007 applique la clause WHERE aux résultats du filtre. Vous devez utiliser au moins l’un de ces deux arguments.
 
 ## <a name="remarks"></a>Remarques
 
@@ -73,13 +71,13 @@ Dans une base de données Access, si vous pointez sur **Filtrer** dans le menu *
 
 Pour supprimer un filtre et afficher tous les enregistrements d'une table ou d'un formulaire dans une base de données Office Access 2007, utilisez l'action **AfficherTousEnreg** ou la commande **Afficher tous les enregistrements** du menu **Enregistrements**. Pour supprimer un filtre dans un projet Access (.adp), vous pouvez revenir dans la fenêtre Filtrer par formulaire sur serveur et supprimer tous les critères de filtre, puis cliquer sur **Appliquer un filtre serveur** dans le menu **Enregistrements** de la barre d'outils ou définir la propriété **FiltreParFormulaireSurServeur** sur **Faux** (0).
 
-Lorsque vous enregistrez une table ou un formulaire, Access enregistre tout filtre actuellement défini dans cet objet, mais il ne l’applique pas automatiquement à la prochaine ouverture de l’objet (même si en revanche, il applique tout tri que vous avez appliqué à l’objet avant de l’enregistrer). Si vous souhaitez appliquer automatiquement un filtre à la première ouverture d’un formulaire, vous devez spécifier une macro contenant l’action AppliquerFiltre ou une procédure événementielle contenant la méthode ApplyFilter de l’objet DoCmd comme paramètre de la propriété de type événement SurOuverture du formulaire. Vous pouvez également appliquer un filtre à l’aide de l’action OuvrirFormulaire ou OuvrirEtat, ou des méthodes correspondantes (OpenForm et OpenReport). Pour appliquer automatiquement un filtre à la première ouverture d’une table, ouvrez la table à l’aide d’une macro contenant l’action OuvrirTable, immédiatement suivie de l’action AppliquerFiltre.
+When you save a table or form, Access saves any filter currently defined in that object, but won't apply the filter automatically the next time the object is opened (although it will automatically apply any sort you applied to the object before it was saved). If you want to apply a filter automatically when a form is first opened, specify a macro containing the **ApplyFilter** action or an event procedure containing the **ApplyFilter** method of the **DoCmd** object as the **OnOpen** event property setting of the form. You can also apply a filter by using the **OpenForm** or **OpenReport** action, or their corresponding methods. To apply a filter automatically when a table is first opened, you can open the table by using a macro containing the **OpenTable** action, followed immediately by the **ApplyFilter** action.
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment utiliser l’action AppliquerFiltre pour filtrer le formulaire frmFoods lors de son ouverture.
+L'exemple suivant montre comment utiliser l'action AppliquerFiltre pour filtrer le formulaire frmFoods à l'ouverture.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     OpenForm

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 44e961d7b3f4b12d8801429ecb78a1a186f5547a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301014"
 ---
 # <a name="read-readtext-write-and-writetext-methods-example-vb"></a>Read, ReadText, Write et WriteText, méthodes – Exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple montre comment lire le contenu d'une zone de texte dans un objet [Stream](stream-object-ado.md) de texte et un objet **Stream** binaire. Les autres propriétés et méthodes illustrées incluent [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md) et [SetEOS](seteos-method-ado.md).
 

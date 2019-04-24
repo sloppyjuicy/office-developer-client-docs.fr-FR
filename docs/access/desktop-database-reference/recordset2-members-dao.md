@@ -1,5 +1,5 @@
 ---
-title: Membres de l’objet Recordset2 (DAO)
+title: Membres Recordset2 (DAO)
 TOCTitle: Recordset2 Members
 ms:assetid: 6ef57191-9da4-7904-d55c-60b59b895a50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 29d1472e8cd02d8968ba84dbc1c1cf99be7ee858
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307272"
 ---
-# <a name="recordset2-members-dao"></a>Membres de l’objet Recordset2 (DAO)
+# <a name="recordset2-members-dao"></a>Membres Recordset2 (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Un objet Recordset2 représente les enregistrements d'une table de base ou les enregistrements générés suite à l'exécution d'une requête.
 
@@ -46,7 +46,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-cancelupdate-method-dao.md">CancelUpdate</a></strong></p></td>
-<td><p>Annule toutes les mises à jour en attente d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
+<td><p>Annule les mises à jour en attente d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-clone-method-dao.md">Clone</a></strong></p></td>
@@ -58,23 +58,23 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-copyquerydef-method-dao.md">CopyQueryDef</a></strong></p></td>
-<td><p>Renvoie un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong> qui est une copie de l' <strong>objet QueryDef</strong> utilisé pour créer l’objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> représenté par l’espace réservé du jeu d’enregistrements (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Renvoie un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong> qui est une copie de l'objet <strong>QueryDef</strong> utilisé pour créer l'objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> représenté par l'espace réservé Recordset (espaces de travail Microsoft Access uniquement). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-delete-method-dao.md">Delete</a></strong></p></td>
-<td><p>Méthode non prise en charge pour cet objet.</p></td>
+<td><p>Non prise en charge pour cet objet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-edit-method-dao.md">Edit</a></strong></p></td>
-<td><p>Copie l'enregistrement actif d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> modifiable vers la mémoire tampon de copie pour modification ultérieure.</p></td>
+<td><p>Copie l'enregistrement actif d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> modifiable dans la mémoire tampon de la copie en vue d'une modification ultérieure.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-fillcache-method-dao.md">FillCache</a></strong></p></td>
-<td><p>Remplit une partie ou l'ensemble d'un cache local pour un objet <strong>Recordset</strong> qui contient des données d'une source de données ODBC connectée au moteur de base de données Microsoft Access (bases de données ODBC connectées au moteur de base de données Microsoft Access uniquement).</p></td>
+<td><p>Remplit tout ou partie d'un cache local pour un objet <strong>Recordset</strong> contenant les données d'une source de données ODBC connectée au moteur de base de données Microsoft Access (bases de données ODBC connectées au moteur de base de données Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-findfirst-method-dao.md">FindFirst</a></strong></p></td>
-<td><p>Localise le premier enregistrement dans un objet <strong>Recordset</strong> de type feuille de réponse dynamique ou capture instantanée qui remplit les critères spécifiés et rend l'enregistrement actif (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Recherche le premier enregistrement dans un objet <strong>Recordset</strong> de type feuille de réponse dynamique ou instantané qui satisfait aux critères spécifiés, et en fait l'enregistrement actif (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-findlast-method-dao.md">FindLast</a></strong></p></td>
@@ -90,14 +90,14 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-getrows-method-dao.md">GetRows</a></strong></p></td>
-<td><p>Récupère plusieurs lignes d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
+<td><p>Extrait plusieurs lignes d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-move-method-dao.md">Move</a></strong></p></td>
-<td><p>Déplace l'enregistrement actif d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
+<td><p>Déplace l'enregistrement actif dans un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-movefirst-method-dao.md">MoveFirst</a></strong></p></td>
+<td><p><strong><a href="recordset2-movefirst-method-dao.md">Méthodes</a></strong></p></td>
 <td><p>Atteint le premier enregistrement d'un objet <strong>Recordset</strong> spécifié et en fait l'enregistrement actif.</p></td>
 </tr>
 <tr class="odd">
@@ -106,7 +106,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-movenext-method-dao.md">MoveNext</a></strong></p></td>
-<td><p>Se déplace jusqu'à l'enregistrement suivant dans un objet <strong>Recordset</strong> spécifié et définit cet enregistrement comme l'enregistrement actif.</p></td>
+<td><p>Atteint l'enregistrement suivant d'un objet <strong>Recordset</strong> spécifié et en fait l'enregistrement actif.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-moveprevious-method-dao.md">MovePrevious</a></strong></p></td>
@@ -127,7 +127,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-seek-method-dao.md">Seek</a></strong></p></td>
-<td><p>Localise l'enregistrement dans un objet <strong>Recordset</strong> de type table indexée en fonction des critères spécifiés pour l'index actuel et en fait l'enregistrement actif (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Localise l’enregistrement dans un objet <strong>Recordset</strong> de type table indexé qui correspond aux critères spécifiés pour l’index actuel et fait de cet enregistrement l’enregistrement actif (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-update-method-dao.md">Update</a></strong></p></td>
@@ -159,12 +159,12 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 <tr class="even">
 <td><p><strong><a href="recordset2-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></p></td>
 <td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
-<p>Renvoie le nombre d'enregistrements dont la dernière mise à jour par lot n'a pas été exécutée (espaces de travail ODBCDirect uniquement).</p></td>
+<p>Renvoie le nombre d'enregistrements dont la dernière mise à jour par lot n'a pas pu se terminer (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-batchcollisions-property-dao.md">BatchCollisions</a></strong></p></td>
 <td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
-<p>Renvoie un tableau de signets indiquant les lignes qui ont généré des collisions lors de la dernière mise à jour par lot (espaces de travail ODBCDirect uniquement).</p></td>
+<p>Renvoie un tableau de signets indiquant les lignes à l'origine de conflits dans la dernière opération de mise à jour par lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-batchsize-property-dao.md">BatchSize</a></strong></p></td>
@@ -173,7 +173,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-bof-property-dao.md">BOF</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si la position de l'enregistrement actif est située avant le premier enregistrement dans un objet <strong>Recordset</strong>. Valeur de type <strong>Boolean</strong> en lecture seule.</p></td>
+<td><p>Renvoie une valeur qui indique si la position d'enregistrement actuelle précède le premier enregistrement d'un objet <strong>Recordset</strong>. Type <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong></p></td>
@@ -181,7 +181,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-bookmarkable-property-dao.md">Bookmarkable</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si un objet <strong>Recordset</strong> prend en charge les signets, que vous pouvez définir à l'aide de la propriété <strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong>.</p></td>
+<td><p>Renvoie une valeur indiquant si un objet <strong>Recordset</strong> prend en charge les signets, que vous pouvez définir à l'aide de la propriété <strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong></p></td>
@@ -189,7 +189,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui spécifie le signet du premier enregistrement d'un objet Recordset de type feuille de réponse dynamique contenant des données à mettre en cache local à partir d'une source de données ODBC (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Définit ou renvoie une valeur spécifiant le signet du premier enregistrement d'un objet Recordset de type feuille de réponse dynamique qui contient des données d'une source de données ODBC à placer dans le cache local (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-connection-property-dao.md">Connection</a></strong></p></td>
@@ -197,31 +197,31 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Renvoie la date et l'heure de création d'une table de base (espaces de travail Microsoft Access uniquement). Valeur <strong>Variant</strong> en lecture seule.</p></td>
+<td><p>Renvoie la date et l'heure de création d'une table de base (espaces de travail Microsoft Access uniquement). Type <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-editmode-property-dao.md">EditMode</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique l'état de modification de l'enregistrement actif.</p></td>
+<td><p>Renvoie une valeur indiquant l'état de modification de l'enregistrement actif.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-eof-property-dao.md">EOF</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet <strong>Recordset</strong>. Type <strong>Boolean</strong> en lecture seule.</p></td>
+<td><p>Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet <strong>Recordset</strong>. <strong>Boolean</strong> (en lecture seule).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-fields-property-dao.md">Champs</a></strong></p></td>
+<td><p><strong><a href="recordset2-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui détermine les enregistrements inclus dans un objet <strong>Recordset</strong> ouvert par la suite (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
+<td><p><strong><a href="recordset2-filter-property-dao.md">Filtre</a></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui détermine les enregistrements inclus dans l'objet <strong>Recordset</strong> ouvert ultérieurement (espace de travail Microsoft Access uniquement. Valeur <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-index-property-dao.md">Index</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le nom de l'objet <strong><a href="index-object-dao.md">Index</a></strong> actif d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> de type table (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le nom de l'objet <strong><a href="index-object-dao.md">Index</a></strong> actif dans un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> de type table (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-lastmodified-property-dao.md">LastModified</a></strong></p></td>
-<td><p>Renvoie un signet indiquant le dernier enregistrement ajouté ou mis à jour.</p></td>
+<td><p>Renvoie un signet indiquant le dernier enregistrement ajouté ou modifié.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
@@ -229,11 +229,11 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-lockedits-property-dao.md">LockEdits</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur indiquant le type de verrouillage utilisé lors de l'édition.</p></td>
+<td><p>Définit ou renvoie une valeur indiquant le type de verrouillage appliqué pendant l'opération de modification.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-name-property-dao.md">Nom</a></strong></p></td>
-<td><p>Renvoie le nom de l'objet spécifié. Type <strong>String</strong> en lecture seule.</p></td>
+<td><p><strong><a href="recordset2-name-property-dao.md">Name</a></strong></p></td>
+<td><p>Renvoie le nom de l'objet spécifié. En lecture seule <strong>chaîne</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-nomatch-property-dao.md">NoMatch</a></strong></p></td>
@@ -249,7 +249,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-properties-property-dao.md">Propriétés</a></strong></p></td>
-<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</p></td>
+<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. Valeur en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-recordcount-property-dao.md">RecordCount</a></strong></p></td>
@@ -283,7 +283,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Renvoie une valeur indiquant si vous pouvez modifier un objet DAO. Type <strong>Boolean</strong> en lecture seule.</p></td>
+<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></p></td>
@@ -292,7 +292,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-validationrule-property-dao.md">ValidationRule</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui valide les données d'un champ pendant sa modification ou son ajout à une table (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui valide les données dans un champ au moment de leur modification ou de leur ajout à une table (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-validationtext-property-dao.md">ValidationText</a></strong></p></td>

@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 01ba59ce0898068788adb9269b3203794d1f31d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306474"
 ---
 # <a name="showtoolbar-macro-action"></a>ShowToolbar, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'action **AfficherBarreOutils** permet d'afficher ou de masquer un groupe de commandes sous l'onglet **Compléments**.
 
 > [!NOTE]
 > - [!REMARQUE] L'action **AfficherBarreOutils** n'affecte pas les menus contextuels.
-> - [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> - Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L'action **AfficherBarreOutils** utilise les arguments suivants :
+L’action **AfficherBarreOutils** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -46,11 +46,11 @@ L'action **AfficherBarreOutils** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la barre d’outils</strong></p></td>
-<td><p>Le nom du groupe de commandes sous l’onglet <strong>Compléments</strong> que vous souhaitez afficher ou masquer. La zone <strong>Nom de la barre d’outils</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro affiche tous les groupes disponibles qui peuvent être affectées par cette action. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>AfficherBarreOutils</strong> dans une base de données bibliothèque, Access recherche un groupe portant ce nom, d’abord dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom du groupe de commandes de l’onglet <strong>Compléments</strong> que vous souhaitez afficher ou masquer. Le champ <strong>Nom de la barre d’outils</strong> de la section <strong>Arguments de l’action</strong> du Générateur de macro présente tous les groupes disponibles pouvant être affectés par cette action. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>AfficherBarreOutils</strong> dans une base de données bibliothèque, Access recherche un groupe portant ce nom, d’abord dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Show</strong></p></td>
-<td><p>Spécifie s’il faut afficher ou masquer le groupe et dans les modes d’affichage pour afficher ou masquer. La valeur par défaut est <strong>Oui</strong> (afficher le groupe en permanence). Vous pouvez sélectionner <strong>Oui</strong> pour afficher le groupe à toutes les heures <strong>Où approprié</strong> pour afficher le groupe uniquement lorsque le formulaire adéquat ou l’état est actif, ou <strong>non</strong> pour masquer le groupe en permanence.</p></td>
+<td><p>Indique si le groupe doit être affiché ou masqué, et dans quel mode d’affichage. La valeur par défaut est <strong>Oui</strong> (afficher le groupe en permanence). Vous pouvez sélectionner <strong>Oui</strong> pour afficher le groupe en permanence, le <strong>cas échéant</strong> pour afficher le groupe uniquement lorsque le formulaire ou l'état approprié est actif, ou <strong>non</strong> pour masquer le groupe en permanence.</p></td>
 </tr>
 </tbody>
 </table>

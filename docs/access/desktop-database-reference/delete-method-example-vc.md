@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c77b2d1900ae4c2f25139939b3020dfb32e9ea67
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294063"
 ---
 # <a name="delete-method-example-vc"></a>Delete, méthode – Exemple (VC++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple utilise la méthode [Delete](delete-method-ado-recordset.md) pour supprimer un enregistrement spécifié d'un objet [Recordset](recordset-object-ado.md).
 
@@ -294,7 +294,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-**DeleteX.h**
+**DeleteX. h**
 
 ```cpp 
  

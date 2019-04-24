@@ -1,5 +1,5 @@
 ---
-title: AffectEnum (référence de base de données du bureau Access)
+title: AffectEnum (référence de base de données de bureau Access)
 TOCTitle: AffectEnum
 ms:assetid: 15393398-d7eb-a685-1bfa-d6712d8e5015
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0183cde0862e947f686bed9821e447abc117d205
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297199"
 ---
 # <a name="affectenum"></a>AffectEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique les enregistrements affectés par une opération.
 
@@ -39,23 +39,22 @@ Indique les enregistrements affectés par une opération.
 <tr class="odd">
 <td><p><strong>adAffectAll</strong></p></td>
 <td><p>3</p></td>
-<td><p>Si aucun <a href="filter-property-ado.md">filtre</a> n’est appliqué au <strong>Recordset</strong>, affecte tous les enregistrements.
- Si la propriété <strong>Filter</strong> définit un critère de chaîne (tel que &quot;auteur = 'Martin'&quot;), l’opération affecte les enregistrements visibles dans le chapitre actif. Si la propriété <strong>Filter</strong> définit un membre de <a href="filtergroupenum.md">FilterGroupEnum</a> ou un tableau de signets, l’opération affectera toutes les lignes du <strong>jeu d’enregistrements</strong>.</p><p><strong>Remarque</strong>: adAffectAll est caché dans l’Explorateur d’objets Visual Basic.</p>
+<td><p>Si aucun <a href="filter-property-ado.md">filtre</a> n’est appliqué au <strong>Recordset</strong>, affecte tous les enregistrements. Si la propriété <strong>Filter</strong> est définie sur un critère de chaîne (par &quot;exemple, auteur = '&quot;Smith'), l'opération affecte les enregistrements visibles dans le chapitre actuel. Si la propriété <strong>Filter</strong> est définie sur un membre de <a href="filtergroupenum.md">FilterGroupEnum</a> ou un tableau de signets, l'opération affectera toutes les lignes de l' <strong>objet Recordset</strong>.</p><p><strong>Remarque</strong>: adAffectAll est masqué dans l'Explorateur d'objets Visual Basic.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p><strong>adAffectAllChapters</strong></p></td>
+<td><p><strong>adAffectAllChapters ne</strong></p></td>
 <td><p>4</p></td>
 <td><p>Affecte tous les enregistrements de tous les chapitres de même niveau du <strong>Recordset</strong>, notamment ceux non visibles par le <strong>filtre</strong> appliqué.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adAffectCurrent</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>N'affecte que l'enregistrement en cours.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAffectGroup</strong></p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>N’affecte que les enregistrements qui répondent aux paramètres de la propriété <a href="filter-property-ado.md">Filter</a> en cours. Pour utiliser cette option, vous devez configurer la propriété <strong>Filter</strong> avec la valeur <strong>FilterGroupEnum</strong> ou un tableau <strong>Bookmarks</strong>.</p></td>
 </tr>
 </tbody>
@@ -77,16 +76,16 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Affect.ALL</p></td>
+<td><p>AdoEnums. appassed. ALL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Affect.ALLCHAPTERS</p></td>
+<td><p>AdoEnums. appassed. ALLCHAPTERS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Affect.CURRENT</p></td>
+<td><p>AdoEnums. appassed. CURRENT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Affect.GROUP</p></td>
+<td><p>AdoEnums. affecte. GROUP</p></td>
 </tr>
 </tbody>
 </table>

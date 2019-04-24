@@ -1,5 +1,5 @@
 ---
-title: Bloc de données ModifierEnregistrement
+title: EditRecord, bloc de données
 TOCTitle: EditRecord data block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 32ddfbbf21e62d5967fa1f2f31bab0222664eb39
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293594"
 ---
-# <a name="editrecord-data-block"></a>Bloc de données ModifierEnregistrement
+# <a name="editrecord-data-block"></a>EditRecord, bloc de données
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser le bloc de données **ModifierEnregistrement** pour modifier les valeurs contenues dans un enregistrement existant.
 
 > [!NOTE]
-> [!REMARQUE] Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données.
+> Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données.
 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.
 
@@ -47,7 +47,7 @@ Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.
 </tbody>
 </table>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après l'instruction **ModifierEnregistrement**, vous pouvez insérer un bloc de commandes qui sera exécuté avant la validation des modifications apportées à l'enregistrement. Les actions suivantes sont disponibles dans un bloc de données **ModifierEnregistrement**.
 
@@ -66,7 +66,7 @@ Après l'instruction **ModifierEnregistrement**, vous pouvez insérer un bloc de
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">If... Procédez comme suit... Else, instruction de macro</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... Then... Else, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">SetField, action de macro</a></p></td>
@@ -83,7 +83,7 @@ Vous pouvez utiliser une instruction **If... Then... Else** pour effectuer des o
 
 Pour annuler la modification d'un enregistrement, utilisez l'action **AnnulerModificationEnregistrement**. Cela empêche la validation des modifications et quitte le bloc de données **ModifierEnregistrement**.
 
-Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**. Par exemple, utilisez la syntaxe suivante pour faire référence au champ AssignedTo du dernier enregistrement :
+Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**. Par exemple, utilisez la syntaxe suivante pour faire référence au champ AffectéÀ du dernier enregistrement créé:
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

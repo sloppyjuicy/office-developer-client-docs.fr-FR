@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b630304774e521162687d4c78a6a97cf18ddb419
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306519"
 ---
 # <a name="settempvar-macro-action"></a>SetTempVar, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 
 L'action **DéfinirVarTemp** permet de créer une variable temporaire et de la définir sur une valeur spécifique. La variable peut ensuite être utilisée en tant que condition ou argument dans les actions suivantes, dans une autre macro, dans une procédure événementielle, ou dans un formulaire ou un état.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **DéfinirVarTemp** utilise les arguments suivants :
+L’action **DéfinirVarTemp** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ L'action **DéfinirVarTemp** utilise les arguments suivants :
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>Expression qui permet de définir la valeur de cette variable temporaire. Ne pas faire précéder l’expression avec l’égal (<strong>=</strong>) se connecter. Vous pouvez cliquer sur le bouton <strong>Générer</strong> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> pour utiliser le Générateur d’expression afin de définir cet argument.</p></td>
+<td><p>Expression qui permet de définir la valeur de cette variable temporaire. Ne faites pas précéder l'expression du signe<strong>=</strong>égal (). Vous pouvez cliquer sur le bouton <strong>générer</strong> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> pour utiliser le générateur d'expression afin de définir cet argument.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ L'action **DéfinirVarTemp** utilise les arguments suivants :
 
 - Vous pouvez définir jusqu'à 255 variables temporaires simultanément. Si vous ne supprimez pas une variable temporaire, elle reste en mémoire jusqu'à la fermeture de la base de données. Il est conseillé de supprimer les variables temporaires lorsque vous n'en avez plus besoin. Pour supprimer une variable temporaire unique, utilisez l'action **[SupprimerVarTemp](removetempvar-macro-action.md)** et définissez son argument sur le nom de la variable temporaire à supprimer. Pour supprimer plusieurs variables temporaires en une opération, utilisez l'action **SupprimerToutesVarTemp**.
 
-- Les variables temporaires sont des variables globales. Après la création d'une variable temporaire, vous pouvez y faire référence dans une procédure événementielle, un module Visual Basic pour Applications (VBA), une requête ou une expression. Par exemple, si vous avez créé une variable temporaire nommée *MaVar*, vous pouvez utiliser la variable comme source de contrôle pour une zone de texte à l’aide de la syntaxe suivante :
+- Les variables temporaires sont des variables globales. Après la création d'une variable temporaire, vous pouvez y faire référence dans une procédure événementielle, un module Visual Basic pour Applications (VBA), une requête ou une expression. Par exemple, si vous avez créé une variable temporaire nommée *MyVar*, vous pouvez utiliser la variable comme source de contrôle pour une zone de texte à l'aide de la syntaxe suivante:
     
   `=[TempVars]![MyVar]`
     
@@ -68,11 +68,11 @@ L'action **DéfinirVarTemp** utilise les arguments suivants :
  
   Vous pouvez également faire référence aux variables temporaires dans les compléments ou les bases de données référencées.
 
-- Pour exécuter l'action **DéfinirVarTemp** dans un module VBA, utilisez la méthode **Add** de l'objet **TempVars**.
+- Pour exécuter l’action **DéfinirVarTemp** dans un module VBA, utilisez la méthode **Add** de l’objet **TempVars**.
 
 ## <a name="example"></a>Exemple
 
-La macro suivante explique comment créer une variable temporaire, en utilisant d'abord l'action **DéfinirVarTemp**, puis la variable temporaire dans une condition et une boîte de message et, enfin, en supprimant la variable temporaire.
+La macro suivante explique comment créer une variable temporaire, en utilisant d’abord l’action **DéfinirVarTemp**, puis la variable temporaire dans une condition et une boîte de message et, enfin, en supprimant la variable temporaire.
 
 <table>
 <colgroup>
@@ -91,12 +91,12 @@ La macro suivante explique comment créer une variable temporaire, en utilisant 
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>DéfinirVarTemp</strong></p></td>
-<td><p><strong>Nom</strong>: MaVar<strong>Expression</strong>: BEntrée (&quot;Entrez un nombre différent de zéro.&quot;)</p></td>
+<td><p><strong>Name</strong>: MyVar<strong>expression</strong>: InputBox (&quot;entrez un nombre différent de zéro)&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p>[TempVars]![MaVar] &lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: =&quot;vous avez entré &quot; &amp; [VarTemp] ! [MaVar] &amp; &quot;. &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>informations</strong></p></td>
+<td><p><strong>Message</strong>: =&quot;vous avez &quot; &amp; entré [TempVars]! Mavar &amp; &quot;. &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>informations</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

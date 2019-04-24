@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 24d7a5cab3260dac80b39e5134938c5f55175851
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312935"
 ---
 # <a name="users-collection-adox"></a>Users, collection (ADOX)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Contient tous les objets [User](user-object-adox.md) stockés d'un catalogue ou d'un groupe.
+Contient tous les objets [User](user-object-adox.md) stockés d’un catalogue ou d’un groupe.
 
 ## <a name="remarks"></a>Remarques
 
@@ -36,7 +36,7 @@ Les propriétés et méthodes restantes sont des collections ADO standard. Vous 
 
 - Supprimer un utilisateur de la collection à l'aide de la méthode [Delete](delete-method-adox-collections.md).
 
-- Mettre à jour les objets de la collection afin de refléter le schéma de la base de données active à l'aide de la méthode [Refresh](refresh-method-ado.md).
+- Mettre à jour les objets de la collection afin de refléter le schéma de la base de données active à l’aide de la méthode [Refresh](refresh-method-ado.md).
 
 > [!NOTE]
 > [!REMARQUE] Avant d'ajouter un objet **User** à la collection **Users** d'un objet **Group**, un objet **User** avec le même [nom](name-property-adox.md) que celui à ajouter doit déjà exister dans la collection **Users** du **catalogue**.
