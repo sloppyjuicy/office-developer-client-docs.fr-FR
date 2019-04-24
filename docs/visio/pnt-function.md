@@ -8,40 +8,40 @@ f1_keywords:
 - Vis_DSS.chm82251480
 localization_priority: Normal
 ms.assetid: d14a735c-0278-922f-7823-79adf6cb1e64
-description: Renvoie le point représenté par les coordonnées x et y sous la forme d’une valeur unique.
-ms.openlocfilehash: be00f7d5ae55f70407e35eca43881a6d3f70ec13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le point représenté par les coordonnées x et y sous la forme d'une valeur unique.
+ms.openlocfilehash: c0a12aa18f4c766ea1f5b0fa1d827804d766713c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322350"
 ---
-# <a name="pnt-function"></a><span data-ttu-id="dccd5-103">PNT, fonction</span><span class="sxs-lookup"><span data-stu-id="dccd5-103">PNT Function</span></span>
+# <a name="pnt-function"></a><span data-ttu-id="e57fb-103">Fonction PNT</span><span class="sxs-lookup"><span data-stu-id="e57fb-103">PNT Function</span></span>
 
-<span data-ttu-id="dccd5-104">Renvoie le point représenté par les coordonnées _x_ et _y_ sous la forme d’une valeur unique.</span><span class="sxs-lookup"><span data-stu-id="dccd5-104">Returns the point represented by the coordinates  _x_ and  _y_ as a single value.</span></span> 
+<span data-ttu-id="e57fb-104">Renvoie le point représenté par les coordonnées _x_ et _y_ sous la forme d'une valeur unique.</span><span class="sxs-lookup"><span data-stu-id="e57fb-104">Returns the point represented by the coordinates  _x_ and  _y_ as a single value.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="dccd5-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="dccd5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e57fb-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e57fb-105">Syntax</span></span>
 
-<span data-ttu-id="dccd5-106">PNT (** *x, y* **)</span><span class="sxs-lookup"><span data-stu-id="dccd5-106">PNT(** *x,y* ** )</span></span> 
+<span data-ttu-id="e57fb-106">PNT (\* \* *x, y* \* \*)</span><span class="sxs-lookup"><span data-stu-id="e57fb-106">PNT(\*\* *x,y* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="dccd5-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="dccd5-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="e57fb-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="e57fb-107">Parameters</span></span>
 
-|<span data-ttu-id="dccd5-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="dccd5-108">**Name**</span></span>|<span data-ttu-id="dccd5-109">**Obligatoire/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="dccd5-109">**Required/Optional**</span></span>|<span data-ttu-id="dccd5-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="dccd5-110">**Data Type**</span></span>|<span data-ttu-id="dccd5-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="dccd5-111">**Description**</span></span>|
+|<span data-ttu-id="e57fb-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="e57fb-108">**Name**</span></span>|<span data-ttu-id="e57fb-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="e57fb-109">**Required/Optional**</span></span>|<span data-ttu-id="e57fb-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="e57fb-110">**Data Type**</span></span>|<span data-ttu-id="e57fb-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="e57fb-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="dccd5-112">_x, y_</span><span class="sxs-lookup"><span data-stu-id="dccd5-112">_x,y_</span></span> <br/> |<span data-ttu-id="dccd5-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="dccd5-113">Required</span></span>  <br/> |<span data-ttu-id="dccd5-114">**Numéro,**</span><span class="sxs-lookup"><span data-stu-id="dccd5-114">**Number, Number**</span></span> <br/> |<span data-ttu-id="dccd5-115">Coordonnées du point dans le système de coordonnées de la forme actuelle</span><span class="sxs-lookup"><span data-stu-id="dccd5-115">The coordinates of the point in the coordinate system of the current shape.</span></span>  <br/> |
+| <span data-ttu-id="e57fb-112">_x, y_</span><span class="sxs-lookup"><span data-stu-id="e57fb-112">_x,y_</span></span> <br/> |<span data-ttu-id="e57fb-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="e57fb-113">Required</span></span>  <br/> |<span data-ttu-id="e57fb-114">**Number, Number**</span><span class="sxs-lookup"><span data-stu-id="e57fb-114">**Number, Number**</span></span> <br/> |<span data-ttu-id="e57fb-115">Coordonnées du point dans le système de coordonnées de la forme actuelle</span><span class="sxs-lookup"><span data-stu-id="e57fb-115">The coordinates of the point in the coordinate system of the current shape.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="dccd5-116">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="dccd5-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="e57fb-116">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="e57fb-116">Return value</span></span>
 
-<span data-ttu-id="dccd5-117">Point</span><span class="sxs-lookup"><span data-stu-id="dccd5-117">Point</span></span>
+<span data-ttu-id="e57fb-117">Pointer</span><span class="sxs-lookup"><span data-stu-id="e57fb-117">Point</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="dccd5-118">Note</span><span class="sxs-lookup"><span data-stu-id="dccd5-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e57fb-118">Remarques</span><span class="sxs-lookup"><span data-stu-id="e57fb-118">Remarks</span></span>
 
-<span data-ttu-id="dccd5-119">Conversion des coordonnées en points vous permet de modifier la géométrie d’une forme sans devoir manipuler *x* et *y* -coordonne séparément.</span><span class="sxs-lookup"><span data-stu-id="dccd5-119">Converting coordinates to points allows you to change a shape's geometry without having to manipulate  *x*  - and  *y*  -coordinates separately.</span></span> 
+<span data-ttu-id="e57fb-119">La conversion de coordonnées en points vous permet de modifier la géométrie d'une forme sans avoir à manipuler les coordonnées *x* et *y* séparément.</span><span class="sxs-lookup"><span data-stu-id="e57fb-119">Converting coordinates to points allows you to change a shape's geometry without having to manipulate  *x*  - and  *y*  -coordinates separately.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="dccd5-120">Exemple</span><span class="sxs-lookup"><span data-stu-id="dccd5-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e57fb-120">Exemple</span><span class="sxs-lookup"><span data-stu-id="e57fb-120">Example</span></span>
 
-<span data-ttu-id="dccd5-121">Pnt(PinX,PinY)</span><span class="sxs-lookup"><span data-stu-id="dccd5-121">PNT(PinX,PinY)</span></span> 
+<span data-ttu-id="e57fb-121">PNT (PinX, PinY)</span><span class="sxs-lookup"><span data-stu-id="e57fb-121">PNT(PinX,PinY)</span></span> 
   
-<span data-ttu-id="dccd5-122">Renvoie le point représenté par AxeX et AxeY.</span><span class="sxs-lookup"><span data-stu-id="dccd5-122">Returns the point represented by PinX and PinY.</span></span> 
+<span data-ttu-id="e57fb-122">Renvoie le point représenté par AxeX et AxeY.</span><span class="sxs-lookup"><span data-stu-id="e57fb-122">Returns the point represented by PinX and PinY.</span></span> 
   
 

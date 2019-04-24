@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 69b466b6-3f65-479a-8148-644443331927
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: dbd69ab7719d5def312792995a4a74c202efeec7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: ea211b8bb0bdcdd60b34396c44c37c23cbf66413
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328163"
 ---
-# <a name="mapi-programming-elements"></a><span data-ttu-id="34e47-103">Éléments de programmation MAPI</span><span class="sxs-lookup"><span data-stu-id="34e47-103">MAPI programming elements</span></span>
+# <a name="mapi-programming-elements"></a><span data-ttu-id="0da6f-103">Éléments de programmation MAPI</span><span class="sxs-lookup"><span data-stu-id="0da6f-103">MAPI programming elements</span></span>
 
-<span data-ttu-id="34e47-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="34e47-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0da6f-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0da6f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="34e47-105">Cette section contient des explications conceptuelles des éléments de programmation dans la [Référence de MAPI](mapi-reference.md).</span><span class="sxs-lookup"><span data-stu-id="34e47-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
+<span data-ttu-id="0da6f-105">Cette section contient des vues d'ensemble conceptuelles des éléments de programmation dans la [référence MAPI](mapi-reference.md).</span><span class="sxs-lookup"><span data-stu-id="0da6f-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="34e47-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="34e47-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0da6f-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0da6f-106">See also</span></span>
 
-- [<span data-ttu-id="34e47-107">Concepts MAPI</span><span class="sxs-lookup"><span data-stu-id="34e47-107">MAPI Concepts</span></span>](mapi-concepts.md)
+- [<span data-ttu-id="0da6f-107">Concepts MAPI</span><span class="sxs-lookup"><span data-stu-id="0da6f-107">MAPI Concepts</span></span>](mapi-concepts.md)
 

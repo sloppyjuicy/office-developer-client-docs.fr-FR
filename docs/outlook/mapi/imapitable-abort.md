@@ -11,61 +11,61 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73291a5b-b626-494c-b5d9-f7709e34bac2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 68d40a6e152698554fcb88c6f7e5bfd4a7ff0ce3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 74c307fca27f1adec18d236792f8a58d97e33ec5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328946"
 ---
-# <a name="imapitableabort"></a><span data-ttu-id="c44dc-103">IMAPITable::Abort</span><span class="sxs-lookup"><span data-stu-id="c44dc-103">IMAPITable::Abort</span></span>
+# <a name="imapitableabort"></a><span data-ttu-id="e1318-103">IMAPITable::Abort</span><span class="sxs-lookup"><span data-stu-id="e1318-103">IMAPITable::Abort</span></span>
 
   
   
-<span data-ttu-id="c44dc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c44dc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e1318-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e1318-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c44dc-105">Arrête toutes les opérations asynchrones en cours pour la table.</span><span class="sxs-lookup"><span data-stu-id="c44dc-105">Stops any asynchronous operations currently in progress for the table.</span></span>
+<span data-ttu-id="e1318-105">Arrête toutes les opérations asynchrones en cours pour la table.</span><span class="sxs-lookup"><span data-stu-id="e1318-105">Stops any asynchronous operations currently in progress for the table.</span></span>
   
 ```cpp
 HRESULT Abort( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c44dc-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c44dc-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e1318-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="e1318-106">Parameters</span></span>
 
-<span data-ttu-id="c44dc-107">Aucune</span><span class="sxs-lookup"><span data-stu-id="c44dc-107">None</span></span>
+<span data-ttu-id="e1318-107">Aucun</span><span class="sxs-lookup"><span data-stu-id="e1318-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="c44dc-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c44dc-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e1318-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="e1318-108">Return value</span></span>
 
-<span data-ttu-id="c44dc-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="c44dc-109">S_OK</span></span> 
+<span data-ttu-id="e1318-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="e1318-109">S_OK</span></span> 
   
-> <span data-ttu-id="c44dc-110">Un ou plusieurs des opérations asynchrones ont été arrêtées.</span><span class="sxs-lookup"><span data-stu-id="c44dc-110">One or more asynchronous operations have been stopped.</span></span>
+> <span data-ttu-id="e1318-110">Une ou plusieurs opérations asynchrones ont été arrêtées.</span><span class="sxs-lookup"><span data-stu-id="e1318-110">One or more asynchronous operations have been stopped.</span></span>
     
-<span data-ttu-id="c44dc-111">MAPI_E_UNABLE_TO_ABORT</span><span class="sxs-lookup"><span data-stu-id="c44dc-111">MAPI_E_UNABLE_TO_ABORT</span></span> 
+<span data-ttu-id="e1318-111">MAPI_E_UNABLE_TO_ABORT</span><span class="sxs-lookup"><span data-stu-id="e1318-111">MAPI_E_UNABLE_TO_ABORT</span></span> 
   
-> <span data-ttu-id="c44dc-112">Une opération asynchrone est en cours et ne peut pas être arrêtée ou il a déjà effectué.</span><span class="sxs-lookup"><span data-stu-id="c44dc-112">An asynchronous operation is in progress and cannot be stopped or it has already completed.</span></span>
+> <span data-ttu-id="e1318-112">Une opération asynchrone est en cours et ne peut pas être arrêtée ou elle est déjà terminée.</span><span class="sxs-lookup"><span data-stu-id="e1318-112">An asynchronous operation is in progress and cannot be stopped or it has already completed.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="c44dc-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="c44dc-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e1318-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="e1318-113">Remarks</span></span>
 
-<span data-ttu-id="c44dc-114">La méthode **IMAPITable::Abort** arrête toute opération asynchrone est en cours.</span><span class="sxs-lookup"><span data-stu-id="c44dc-114">The **IMAPITable::Abort** method stops any asynchronous operation that is currently in progress.</span></span> 
+<span data-ttu-id="e1318-114">La méthode **IMAPITable:: Abort** arrête toute opération asynchrone en cours.</span><span class="sxs-lookup"><span data-stu-id="e1318-114">The **IMAPITable::Abort** method stops any asynchronous operation that is currently in progress.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="c44dc-115">Notes aux appelants</span><span class="sxs-lookup"><span data-stu-id="c44dc-115">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="e1318-115">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="e1318-115">Notes to callers</span></span>
 
-<span data-ttu-id="c44dc-116">Pour savoir si une opération asynchrone est en cours, appelez la méthode [IMAPITable::GetStatus](imapitable-getstatus.md) .</span><span class="sxs-lookup"><span data-stu-id="c44dc-116">To find out if an asynchronous operation is in progress, call the [IMAPITable::GetStatus](imapitable-getstatus.md) method.</span></span> 
+<span data-ttu-id="e1318-116">Pour savoir si une opération asynchrone est en cours, appelez la méthode [IMAPITable:: GetStatus](imapitable-getstatus.md) .</span><span class="sxs-lookup"><span data-stu-id="e1318-116">To find out if an asynchronous operation is in progress, call the [IMAPITable::GetStatus](imapitable-getstatus.md) method.</span></span> 
   
-<span data-ttu-id="c44dc-117">Si **l’abandon** interrompt le traitement d’un appel à la méthode [IMAPITable](imapitable-restrict.md) , l’état de la table sera telle qu’elle était au moment de que l’appel **abandonner** est traité.</span><span class="sxs-lookup"><span data-stu-id="c44dc-117">If **Abort** halts the processing of a call to the [IMAPITable::Restrict](imapitable-restrict.md) method, the state of the table will be as it was at the time the **Abort** call is processed.</span></span> 
+<span data-ttu-id="e1318-117">Si **Abort** interrompt le traitement d'un appel à la méthode [IMAPITable:: Restrict](imapitable-restrict.md) , l'état de la table sera tel qu'il était lors du traitement de l'appel **Abort** .</span><span class="sxs-lookup"><span data-stu-id="e1318-117">If **Abort** halts the processing of a call to the [IMAPITable::Restrict](imapitable-restrict.md) method, the state of the table will be as it was at the time the **Abort** call is processed.</span></span> 
   
-<span data-ttu-id="c44dc-118">Si **abandonner** interrompt le traitement d’un appel à la méthode [IMAPITable::SortTable](imapitable-sorttable.md) , ordre de tri de la table n’est pas affecté et reste tel qu’il était avant l’appel de **SortTable** .</span><span class="sxs-lookup"><span data-stu-id="c44dc-118">If **Abort** halts the processing of a call to the [IMAPITable::SortTable](imapitable-sorttable.md) method, the table's sort order is unaffected and remains as it was before the **SortTable** call.</span></span> 
+<span data-ttu-id="e1318-118">Si **Abort** interrompt le traitement d'un appel à la méthode [IMAPITable:: SortTable](imapitable-sorttable.md) , l'ordre de tri de la table n'est pas affecté et reste tel qu'il était avant l'appel **SortTable** .</span><span class="sxs-lookup"><span data-stu-id="e1318-118">If **Abort** halts the processing of a call to the [IMAPITable::SortTable](imapitable-sorttable.md) method, the table's sort order is unaffected and remains as it was before the **SortTable** call.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c44dc-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c44dc-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1318-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e1318-119">See also</span></span>
 
 
 
-[<span data-ttu-id="c44dc-120">IMAPITable::GetStatus</span><span class="sxs-lookup"><span data-stu-id="c44dc-120">IMAPITable::GetStatus</span></span>](imapitable-getstatus.md)
+[<span data-ttu-id="e1318-120">IMAPITable::GetStatus</span><span class="sxs-lookup"><span data-stu-id="e1318-120">IMAPITable::GetStatus</span></span>](imapitable-getstatus.md)
   
-[<span data-ttu-id="c44dc-121">IMAPITable::Restrict</span><span class="sxs-lookup"><span data-stu-id="c44dc-121">IMAPITable::Restrict</span></span>](imapitable-restrict.md)
+[<span data-ttu-id="e1318-121">IMAPITable::Restrict</span><span class="sxs-lookup"><span data-stu-id="e1318-121">IMAPITable::Restrict</span></span>](imapitable-restrict.md)
   
-[<span data-ttu-id="c44dc-122">IMAPITable::SortTable</span><span class="sxs-lookup"><span data-stu-id="c44dc-122">IMAPITable::SortTable</span></span>](imapitable-sorttable.md)
+[<span data-ttu-id="e1318-122">IMAPITable::SortTable</span><span class="sxs-lookup"><span data-stu-id="e1318-122">IMAPITable::SortTable</span></span>](imapitable-sorttable.md)
   
-[<span data-ttu-id="c44dc-123">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c44dc-123">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
+[<span data-ttu-id="e1318-123">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e1318-123">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
 

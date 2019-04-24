@@ -11,68 +11,68 @@ api_name:
 api_type:
 - COM
 ms.assetid: 61e082dd-f5bc-479b-990a-c9c0360f883e
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 678fd982505cc2bc910af9ef131f852a7f0c919a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330099"
 ---
-# <a name="pidtagscheduleinfodisallowrecurringappts-canonical-property"></a><span data-ttu-id="5020a-103">Propriété canonique PidTagScheduleInfoDisallowRecurringAppts</span><span class="sxs-lookup"><span data-stu-id="5020a-103">PidTagScheduleInfoDisallowRecurringAppts Canonical Property</span></span>
+# <a name="pidtagscheduleinfodisallowrecurringappts-canonical-property"></a><span data-ttu-id="92ceb-103">Propriété canonique PidTagScheduleInfoDisallowRecurringAppts</span><span class="sxs-lookup"><span data-stu-id="92ceb-103">PidTagScheduleInfoDisallowRecurringAppts Canonical Property</span></span>
 
   
   
-<span data-ttu-id="5020a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5020a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="92ceb-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="92ceb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5020a-105">Contient la valeur TRUE lorsque la réponse automatique pour les rendez-vous périodiques est Refuser.</span><span class="sxs-lookup"><span data-stu-id="5020a-105">Contains TRUE when the automatic response to recurring appointments is decline.</span></span>
+<span data-ttu-id="92ceb-105">Contient la valeur TRUE lorsque la réponse automatique aux rendez-vous périodiques est refusée.</span><span class="sxs-lookup"><span data-stu-id="92ceb-105">Contains TRUE when the automatic response to recurring appointments is decline.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5020a-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="5020a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5020a-107">PR_SCHDINFO_DISALLOW_RECURRING_APPTS</span><span class="sxs-lookup"><span data-stu-id="5020a-107">PR_SCHDINFO_DISALLOW_RECURRING_APPTS</span></span>  <br/> |
-|<span data-ttu-id="5020a-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="5020a-108">Identifier:</span></span>  <br/> |<span data-ttu-id="5020a-109">0x686E</span><span class="sxs-lookup"><span data-stu-id="5020a-109">0x686E</span></span>  <br/> |
-|<span data-ttu-id="5020a-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="5020a-110">Data type:</span></span>  <br/> |<span data-ttu-id="5020a-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="5020a-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="5020a-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="5020a-112">Area:</span></span>  <br/> |<span data-ttu-id="5020a-113">Informations de disponibilité</span><span class="sxs-lookup"><span data-stu-id="5020a-113">Free/Busy</span></span>  <br/> |
+|<span data-ttu-id="92ceb-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="92ceb-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="92ceb-107">PR_SCHDINFO_DISALLOW_RECURRING_APPTS</span><span class="sxs-lookup"><span data-stu-id="92ceb-107">PR_SCHDINFO_DISALLOW_RECURRING_APPTS</span></span>  <br/> |
+|<span data-ttu-id="92ceb-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="92ceb-108">Identifier:</span></span>  <br/> |<span data-ttu-id="92ceb-109">0x686E</span><span class="sxs-lookup"><span data-stu-id="92ceb-109">0x686E</span></span>  <br/> |
+|<span data-ttu-id="92ceb-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="92ceb-110">Data type:</span></span>  <br/> |<span data-ttu-id="92ceb-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="92ceb-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="92ceb-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="92ceb-112">Area:</span></span>  <br/> |<span data-ttu-id="92ceb-113">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="92ceb-113">Free/Busy</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5020a-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="5020a-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="92ceb-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="92ceb-114">Remarks</span></span>
 
-<span data-ttu-id="5020a-115">Cette propriété est explicite uniquement lorsque la valeur de la propriété **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) a la valeur TRUE.</span><span class="sxs-lookup"><span data-stu-id="5020a-115">This property is only meaningful when the value of the **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) property is TRUE.</span></span> <span data-ttu-id="5020a-116">L’absence de cette propriété indique que les réunions périodiques doivent être acceptées.</span><span class="sxs-lookup"><span data-stu-id="5020a-116">The absence of this property indicates that recurring meetings must be accepted.</span></span> <span data-ttu-id="5020a-117">Il n’est pas une propriété requise.</span><span class="sxs-lookup"><span data-stu-id="5020a-117">This is not a required property.</span></span>
+<span data-ttu-id="92ceb-115">Cette propriété n'a de sens que si la valeur de la propriété **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PIDTAGSCHEDULEINFOAUTOACCEPTAPPOINTMENTS](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) est true.</span><span class="sxs-lookup"><span data-stu-id="92ceb-115">This property is only meaningful when the value of the **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) property is TRUE.</span></span> <span data-ttu-id="92ceb-116">L'absence de cette propriété indique que les réunions périodiques doivent être acceptées.</span><span class="sxs-lookup"><span data-stu-id="92ceb-116">The absence of this property indicates that recurring meetings must be accepted.</span></span> <span data-ttu-id="92ceb-117">Cette propriété n'est pas obligatoire.</span><span class="sxs-lookup"><span data-stu-id="92ceb-117">This is not a required property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="5020a-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="5020a-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="92ceb-118">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="92ceb-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="5020a-119">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="5020a-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="92ceb-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="92ceb-119">Protocol specifications</span></span>
 
-<span data-ttu-id="5020a-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5020a-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="92ceb-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="92ceb-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5020a-121">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="5020a-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="92ceb-121">Fournit des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="92ceb-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="5020a-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5020a-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="92ceb-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="92ceb-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5020a-123">Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.</span><span class="sxs-lookup"><span data-stu-id="5020a-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="92ceb-123">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="92ceb-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-<span data-ttu-id="5020a-124">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5020a-124">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="92ceb-124">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="92ceb-124">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5020a-125">Publie la disponibilité d’un utilisateur ou une ressource.</span><span class="sxs-lookup"><span data-stu-id="5020a-125">Publishes the availability of a user or resource.</span></span>
+> <span data-ttu-id="92ceb-125">Publie la disponibilité d'un utilisateur ou d'une ressource.</span><span class="sxs-lookup"><span data-stu-id="92ceb-125">Publishes the availability of a user or resource.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="5020a-126">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="5020a-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="92ceb-126">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="92ceb-126">Header files</span></span>
 
-<span data-ttu-id="5020a-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5020a-127">Mapidefs.h</span></span>
+<span data-ttu-id="92ceb-127">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="92ceb-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="5020a-128">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="5020a-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="92ceb-128">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="92ceb-128">Provides data type definitions.</span></span>
     
-<span data-ttu-id="5020a-129">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="5020a-129">Mapitags.h</span></span>
+<span data-ttu-id="92ceb-129">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="92ceb-129">Mapitags.h</span></span>
   
-> <span data-ttu-id="5020a-130">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="5020a-130">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="92ceb-130">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="92ceb-130">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="5020a-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5020a-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92ceb-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="92ceb-131">See also</span></span>
 
 
 
-[<span data-ttu-id="5020a-132">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="5020a-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="92ceb-132">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="92ceb-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="5020a-133">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="5020a-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="92ceb-133">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="92ceb-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="5020a-134">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="5020a-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="92ceb-134">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="92ceb-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="5020a-135">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="5020a-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="92ceb-135">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="92ceb-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

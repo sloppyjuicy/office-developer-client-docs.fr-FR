@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 467242e3-96c9-4280-9cbc-9ecfe3f279cf
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5f45a6457bba738b290d967260bbd34c0f88f93f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 738eb346ec5388cbd94b32598236ef2ca05740f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326319"
 ---
-# <a name="imapisupportpreparesubmit"></a><span data-ttu-id="5271b-103">IMAPISupport::PrepareSubmit</span><span class="sxs-lookup"><span data-stu-id="5271b-103">IMAPISupport::PrepareSubmit</span></span>
+# <a name="imapisupportpreparesubmit"></a><span data-ttu-id="49010-103">IMAPISupport::PrepareSubmit</span><span class="sxs-lookup"><span data-stu-id="49010-103">IMAPISupport::PrepareSubmit</span></span>
 
   
   
-<span data-ttu-id="5271b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5271b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="49010-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="49010-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5271b-105">Il prépare un message pour son envoi au spouleur MAPI.</span><span class="sxs-lookup"><span data-stu-id="5271b-105">Prepares a message for submission to the MAPI spooler.</span></span>
+<span data-ttu-id="49010-105">Prépare un message à envoyer au spouleur MAPI.</span><span class="sxs-lookup"><span data-stu-id="49010-105">Prepares a message for submission to the MAPI spooler.</span></span>
   
 ```cpp
 HRESULT PrepareSubmit(
@@ -34,45 +34,45 @@ ULONG FAR * lpulFlags
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="5271b-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="5271b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="49010-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="49010-106">Parameters</span></span>
 
- <span data-ttu-id="5271b-107">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="5271b-107">_lpMessage_</span></span>
+ <span data-ttu-id="49010-107">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="49010-107">_lpMessage_</span></span>
   
-> <span data-ttu-id="5271b-108">[in] Pointeur vers le message préparer.</span><span class="sxs-lookup"><span data-stu-id="5271b-108">[in] A pointer to the message to prepare.</span></span>
+> <span data-ttu-id="49010-108">dans Pointeur vers le message à préparer.</span><span class="sxs-lookup"><span data-stu-id="49010-108">[in] A pointer to the message to prepare.</span></span>
     
- <span data-ttu-id="5271b-109">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="5271b-109">_lpulFlags_</span></span>
+ <span data-ttu-id="49010-109">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="49010-109">_lpulFlags_</span></span>
   
-> <span data-ttu-id="5271b-110">[entrée, sortie] À l’entrée, le paramètre _lpulFlags_ est réservé et doit être égal à zéro.</span><span class="sxs-lookup"><span data-stu-id="5271b-110">[in, out] On input, the  _lpulFlags_ parameter is reserved and must be zero.</span></span> <span data-ttu-id="5271b-111">Dans la sortie, _lpulFlags_ doit être NULL.</span><span class="sxs-lookup"><span data-stu-id="5271b-111">On output,  _lpulFlags_ must be NULL.</span></span> 
+> <span data-ttu-id="49010-110">[in, out] Lors de l'entrée, le paramètre _lpulFlags_ est réservé et doit être égal à zéro.</span><span class="sxs-lookup"><span data-stu-id="49010-110">[in, out] On input, the  _lpulFlags_ parameter is reserved and must be zero.</span></span> <span data-ttu-id="49010-111">Lors de la sortie, _lpulFlags_ doit être null.</span><span class="sxs-lookup"><span data-stu-id="49010-111">On output,  _lpulFlags_ must be NULL.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="5271b-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="5271b-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="49010-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="49010-112">Return value</span></span>
 
-<span data-ttu-id="5271b-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="5271b-113">S_OK</span></span> 
+<span data-ttu-id="49010-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="49010-113">S_OK</span></span> 
   
-> <span data-ttu-id="5271b-114">Le message a été correctement préparé.</span><span class="sxs-lookup"><span data-stu-id="5271b-114">The message was successfully prepared.</span></span>
+> <span data-ttu-id="49010-114">Le message a été correctement préparé.</span><span class="sxs-lookup"><span data-stu-id="49010-114">The message was successfully prepared.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="5271b-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="5271b-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="49010-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="49010-115">Remarks</span></span>
 
-<span data-ttu-id="5271b-116">La méthode **IMAPISupport::PrepareSubmit** est implémentée pour les objets de prise en charge de fournisseur de magasin de message.</span><span class="sxs-lookup"><span data-stu-id="5271b-116">The **IMAPISupport::PrepareSubmit** method is implemented for message store provider support objects.</span></span> <span data-ttu-id="5271b-117">Fournisseurs de banque de messages appeler **PrepareSubmit** dans leur implémentation de la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) pour préparer un message pour son envoi au spouleur MAPI.</span><span class="sxs-lookup"><span data-stu-id="5271b-117">Message store providers call **PrepareSubmit** in their implementation of the [IMessage::SubmitMessage](imessage-submitmessage.md) method to prepare a message for submission to the MAPI spooler.</span></span> 
+<span data-ttu-id="49010-116">La méthode **IMAPISupport::P reparesubmit** est implémentée pour les objets de prise en charge du fournisseur de banque de messages.</span><span class="sxs-lookup"><span data-stu-id="49010-116">The **IMAPISupport::PrepareSubmit** method is implemented for message store provider support objects.</span></span> <span data-ttu-id="49010-117">Les fournisseurs de banques de messages appellent **PrepareSubmit** dans leur implémentation de la méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) pour préparer un message à envoyer au spouleur MAPI.</span><span class="sxs-lookup"><span data-stu-id="49010-117">Message store providers call **PrepareSubmit** in their implementation of the [IMessage::SubmitMessage](imessage-submitmessage.md) method to prepare a message for submission to the MAPI spooler.</span></span> 
   
- <span data-ttu-id="5271b-118">**PrepareSubmit** est utilisé pour gérer les messages dont l’indicateur MSGFLAG_RESEND dans leur propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="5271b-118">**PrepareSubmit** is used to handle messages that have the MSGFLAG_RESEND flag set in their **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property.</span></span> <span data-ttu-id="5271b-119">MSGFLAG_RESEND est définie pour les messages qui incluent une demande à être renvoyées en cas d’échec d’une transmission initiale.</span><span class="sxs-lookup"><span data-stu-id="5271b-119">MSGFLAG_RESEND is set for messages that include a request to be resent when an initial transmission fails.</span></span> <span data-ttu-id="5271b-120">**PrepareSubmit** détermine parmi les destinataires dans la liste des destinataires a reçu le message et qui ont échoué.</span><span class="sxs-lookup"><span data-stu-id="5271b-120">**PrepareSubmit** determines which of the recipients in the recipient list successfully received the message and which did not.</span></span> 
+ <span data-ttu-id="49010-118">**PrepareSubmit** est utilisé pour gérer les messages dont l'indicateur MSGFLAG_RESEND est défini dans leur propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="49010-118">**PrepareSubmit** is used to handle messages that have the MSGFLAG_RESEND flag set in their **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property.</span></span> <span data-ttu-id="49010-119">MSGFLAG_RESEND est défini pour les messages qui incluent une demande à renvoyer lorsqu'une transmission initiale échoue.</span><span class="sxs-lookup"><span data-stu-id="49010-119">MSGFLAG_RESEND is set for messages that include a request to be resent when an initial transmission fails.</span></span> <span data-ttu-id="49010-120">**PrepareSubmit** détermine les destinataires de la liste de destinataires qui ont reçu le message et ceux qui ne l'ont pas été.</span><span class="sxs-lookup"><span data-stu-id="49010-120">**PrepareSubmit** determines which of the recipients in the recipient list successfully received the message and which did not.</span></span> 
   
-<span data-ttu-id="5271b-121">Pour accéder à la liste des destinataires, **PrepareSubmit** appelle la méthode [IMessage::GetRecipientTable](imessage-getrecipienttable.md) du message.</span><span class="sxs-lookup"><span data-stu-id="5271b-121">To access the recipient list, **PrepareSubmit** calls the message's [IMessage::GetRecipientTable](imessage-getrecipienttable.md) method.</span></span> <span data-ttu-id="5271b-122">Pour récupérer les données du destinataire, **PrepareSubmit** appelle la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) de destinataire de la table.</span><span class="sxs-lookup"><span data-stu-id="5271b-122">To retrieve the recipient data, **PrepareSubmit** calls the recipient table's [IMAPITable::QueryRows](imapitable-queryrows.md) method.</span></span> <span data-ttu-id="5271b-123">Pour chaque ligne dans le tableau, **PrepareSubmit** vérifie la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) et peut prendre l’une des actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="5271b-123">For each row in the table, **PrepareSubmit** checks the **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property and takes one of the following actions:</span></span>
+<span data-ttu-id="49010-121">Pour accéder à la liste des destinataires, **PrepareSubmit** appelle la méthode [IMessage:: GetRecipientTable](imessage-getrecipienttable.md) du message.</span><span class="sxs-lookup"><span data-stu-id="49010-121">To access the recipient list, **PrepareSubmit** calls the message's [IMessage::GetRecipientTable](imessage-getrecipienttable.md) method.</span></span> <span data-ttu-id="49010-122">Pour récupérer les données du destinataire, **PrepareSubmit** appelle la méthode [IMAPITable:: QueryRows](imapitable-queryrows.md) de la table destinataire.</span><span class="sxs-lookup"><span data-stu-id="49010-122">To retrieve the recipient data, **PrepareSubmit** calls the recipient table's [IMAPITable::QueryRows](imapitable-queryrows.md) method.</span></span> <span data-ttu-id="49010-123">Pour chaque ligne du tableau, **PrepareSubmit** vérifie la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) et effectue l'une des actions suivantes:</span><span class="sxs-lookup"><span data-stu-id="49010-123">For each row in the table, **PrepareSubmit** checks the **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) property and takes one of the following actions:</span></span>
   
-- <span data-ttu-id="5271b-124">Si l’indicateur MAPI_SUBMITTED est défini, **PrepareSubmit** efface l’indicateur et définit la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) sur FALSE.</span><span class="sxs-lookup"><span data-stu-id="5271b-124">If the MAPI_SUBMITTED flag is set, **PrepareSubmit** clears the flag and sets the **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property to FALSE.</span></span>
+- <span data-ttu-id="49010-124">Si l'indicateur MAPI_SUBMITTED est défini, **PrepareSubmit** efface l'indicateur et affecte la valeur false à la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="49010-124">If the MAPI_SUBMITTED flag is set, **PrepareSubmit** clears the flag and sets the **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) property to FALSE.</span></span>
     
-- <span data-ttu-id="5271b-125">Si l’indicateur MAPI_SUBMITTED n’est pas définie, **PrepareSubmit** devient **PR_RECIPIENT_TYPE** MAPI_P1 et définit **PR_RESPONSIBILITY** sur TRUE.</span><span class="sxs-lookup"><span data-stu-id="5271b-125">If the MAPI_SUBMITTED flag is not set, **PrepareSubmit** changes **PR_RECIPIENT_TYPE** to MAPI_P1 and sets **PR_RESPONSIBILITY** to TRUE.</span></span> 
+- <span data-ttu-id="49010-125">Si l'indicateur MAPI_SUBMITTED n'est pas défini, **PrepareSubmit** modifie **PR_RECIPIENT_TYPE** en MAPI_P1 et définit **PR_RESPONSIBILITY** sur true.</span><span class="sxs-lookup"><span data-stu-id="49010-125">If the MAPI_SUBMITTED flag is not set, **PrepareSubmit** changes **PR_RECIPIENT_TYPE** to MAPI_P1 and sets **PR_RESPONSIBILITY** to TRUE.</span></span> 
     
-## <a name="notes-to-callers"></a><span data-ttu-id="5271b-126">Notes aux appelants</span><span class="sxs-lookup"><span data-stu-id="5271b-126">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="49010-126">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="49010-126">Notes to callers</span></span>
 
-<span data-ttu-id="5271b-127">Avant d’appeler **PrepareSubmit**, n’oubliez pas que vous avez appelé la méthode [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) et définissez l’indicateur NOTIFY_READYTOSEND dans le paramètre _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="5271b-127">Before you call **PrepareSubmit**, be sure you have called the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method and set the NOTIFY_READYTOSEND flag in the  _ulFlags_ parameter.</span></span> <span data-ttu-id="5271b-128">L’appel **SpoolerNotify** doit être effectuée qu’une seule fois par session avant l’appel à **PrepareSubmit**.</span><span class="sxs-lookup"><span data-stu-id="5271b-128">The **SpoolerNotify** call must be made once per session before the call to **PrepareSubmit**.</span></span> <span data-ttu-id="5271b-129">**SpoolerNotify** synchronise le spouleur MAPI et garantit que tous les fournisseurs de transport nécessaires sont connectés et leurs types d’adresses sont enregistrées.</span><span class="sxs-lookup"><span data-stu-id="5271b-129">**SpoolerNotify** synchronizes the MAPI spooler and ensures that all needed transport providers are logged on and their address types are registered.</span></span> 
+<span data-ttu-id="49010-127">Avant d'appeler **PrepareSubmit**, assurez-vous que vous avez appelé la méthode [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) et que vous avez défini l'indicateur NOTIFY_READYTOSEND dans le paramètre _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="49010-127">Before you call **PrepareSubmit**, be sure you have called the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method and set the NOTIFY_READYTOSEND flag in the  _ulFlags_ parameter.</span></span> <span data-ttu-id="49010-128">L'appel **SpoolerNotify** doit être effectué une fois par session avant l'appel à **PrepareSubmit**.</span><span class="sxs-lookup"><span data-stu-id="49010-128">The **SpoolerNotify** call must be made once per session before the call to **PrepareSubmit**.</span></span> <span data-ttu-id="49010-129">**SpoolerNotify** synchronise le spouleur MAPI et s'assure que tous les fournisseurs de transport nécessaires sont connectés et que leurs types d'adresses sont enregistrés.</span><span class="sxs-lookup"><span data-stu-id="49010-129">**SpoolerNotify** synchronizes the MAPI spooler and ensures that all needed transport providers are logged on and their address types are registered.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="5271b-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5271b-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="49010-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="49010-130">See also</span></span>
 
 
 
-[<span data-ttu-id="5271b-131">IMAPIFolder::GetMessageStatus</span><span class="sxs-lookup"><span data-stu-id="5271b-131">IMAPIFolder::GetMessageStatus</span></span>](imapifolder-getmessagestatus.md)
+[<span data-ttu-id="49010-131">IMAPIFolder::GetMessageStatus</span><span class="sxs-lookup"><span data-stu-id="49010-131">IMAPIFolder::GetMessageStatus</span></span>](imapifolder-getmessagestatus.md)
   
-[<span data-ttu-id="5271b-132">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="5271b-132">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
+[<span data-ttu-id="49010-132">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="49010-132">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
   
-[<span data-ttu-id="5271b-133">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="5271b-133">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="49010-133">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="49010-133">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 
