@@ -1,7 +1,7 @@
 ---
 title: Appliquer un ruban personnalisé à un formulaire ou à un rapport
 TOCTitle: Apply a custom ribbon to a form or report
-description: Comment appliquer des rubans personnalisés lors du chargement d’un formulaire ou un état dans Access 2013.
+description: Découvrez comment appliquer des rubans personnalisés lorsque vous chargez un formulaire ou un rapport dans Access 2013.
 ms:assetid: 7dcdfa42-3eaa-43f9-b99d-56b2cac97f84
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196428(v=office.15)
 ms:contentKeyID: 48545865
@@ -9,29 +9,29 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 329f184a1bcd3c856ccfd0b15c3fa92bc6230c98
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291914"
 ---
 # <a name="apply-a-custom-ribbon-to-a-form-or-report"></a>Appliquer un ruban personnalisé à un formulaire ou à un rapport
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Le ruban utilise le balisage XML déclaratif textuels qui simplifie la création et la personnalisation du ruban. Avec quelques lignes de code XML, vous pouvez créer l’interface de l’utilisateur. Access fournit la flexibilité de la personnalisation de l’interface utilisateur du ruban. 
+Le ruban utilise un balisage XML déclaratif basé sur texte, qui simplifie la création et la personnalisation du ruban. Avec quelques lignes de XML, vous pouvez créer simplement l’interface idéale pour l’utilisateur. Access fournit une grande flexibilité lors de la personnalisation du ruban de l’interface utilisateur. 
 
-Par exemple, marquage de personnalisation permettre être stockée dans une table, incorporé dans une procédure VBA, stocké dans une autre base de données Access ou liée à une feuille de calcul Excel. Cette rubrique décrit comment appliquer des rubans personnalisés lors du chargement d’un formulaire ou un état.
+Par exemple, un balisage de personnalisation peut être stocké dans un tableau, incorporé dans une procédure VBA, stocké dans une autre base de données Access ou lié à une feuille de calcul Excel. Ce sujet décrit comment appliquer des rubans personnalisés lorsque vous chargez un formulaire ou un rapport.
 
-## <a name="make-the-ribbon-customization-xml-available"></a>Disposition de la personnalisation du ruban XML
+## <a name="make-the-ribbon-customization-xml-available"></a>Rendre disponible la personnalisation du ruban XML
 
-### <a name="store-ribbon-extensibility-xml-in-a-table"></a>Stocker l’extensibilité du ruban XML dans une table
+### <a name="store-ribbon-extensibility-xml-in-a-table"></a>Stocker extensibilité du ruban XML dans un tableau
 
-Une des méthodes que vous pouvez utiliser pour rendre disponibles des personnalisations de ruban consiste à stocker dans une table. Si vous stockez les personnalisations dans une table dénommée **RubansSysU**, les personnalisations peuvent être implémentées sans utiliser de macros ou du code VBA.
+Une méthode que vous pouvez utiliser pour rendre des personnalisations du ruban disponible consiste à les stocker dans un tableau. Si vous stockez les personnalisations dans un tableau nommé **USysRibbons**, les personnalisations peuvent être mises en œuvre sans utiliser des macros ou du code VBA.
 
-**RubansSysU** est une table système créée par l’utilisateur. Le tableau doit être créé en utilisant des noms de colonne spécifiques pour les personnalisations du ruban à mettre en œuvre. 
+**USysRibbons** est un tableau système créé par l’utilisateur. Ce tableau doit être créé en utilisant des noms de colonnes spécifiques afin que les personnalisations du ruban soient implémentées. 
 
-La table ci-dessous contient les paramètres à utiliser lors de la création de la table **RubansSysU**.
+Le tableau suivant répertorie les paramètres à utiliser lors de la création du tableau**USysRibbons**.
 
 <table>
 <colgroup>
@@ -49,43 +49,43 @@ La table ci-dessous contient les paramètres à utiliser lors de la création de
 <tbody>
 <tr class="odd">
 <td><p><strong>RibbonName</strong></p></td>
-<td><p>Texte</p></td>
+<td><p>Text</p></td>
 <td><p>Contient le nom du ruban personnalisé devant être associé à cette personnalisation.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RibbonXML</strong></p></td>
 <td><p>Mémo</p></td>
-<td><p>Contient l’extensibilité du ruban (RibbonX) XML qui définit la personnalisation du ruban.</p></td>
+<td><p>Contient le XML d'extensibilité du ruban (RibbonX) qui définit la personnalisation du ruban.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="load-ribbon-extensibility-xml-programmatically"></a>Charger le code XML d’extensibilité du ruban par programme
+### <a name="load-ribbon-extensibility-xml-programmatically"></a>Charger extensibilité du ruban XML par programme
 
-Vous pouvez utiliser la méthode **[LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI)** pour charger les personnalisations du ruban par programme. En règle générale, pour créer le ruban et disponibles pour l’application, vous créez tout d’abord un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI** , en passant le nom du ruban et le balisage de personnalisation XML.
+Vous pouvez utiliser la méthode** [LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI) ** permettant de charger les personnalisations de ruban par programme. En règle générale, pour créer le ruban et le mettre à la disposition de l’application, vous devez tout d’abord créer un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI**, laquelle transmet le nom du Ruban et le code de personnalisation XML.
 
-Le balisage XML peut provenir d’un objet **Recordset** créé à partir d’une table, d’une source externe à la base de données, tel qu’un fichier XML que vous analysez dans une chaîne ou d’un balisage XML incorporé directement dans la procédure. Vous pouvez créer différents rubans en utilisant plusieurs appels de la méthode **LoadCustomUI** , en passant un balisage XML différent dans la mesure où le nom de chaque ruban et l’attribut **id** des onglets constituant le ruban sont uniques.
+Le code XML peut provenir d’un objet **Recordset** créé à partir d’une table, d’une source externe à la base de données (comme un fichier XML que vous analysez dans un objet de type String) ou de code XML incorporé directement dans la procédure. Vous pouvez rendre plusieurs rubans disponibles à l'aide de plusieurs appels à la méthode **LoadCustomUI**, autre balisage XML, dans la mesure où le nom de chaque ruban et l'attribut **id** des onglets constituant le ruban sont uniques.
 
-Une fois la procédure terminée, vous créez ensuite une macro AutoExec qui appelle la procédure à l'aide de l'action ExécuterCode. Ainsi, lorsque l’application est démarrée, la méthode **LoadCustomUI** s’exécute automatiquement et tous les rubans personnalisés sont accessibles à l’application.
+Une fois la procédure terminée, vous créez une macro AutoExec qui appelle la procédure à l’aide de l’action ExécuterCode. Ainsi, lorsque l'application est lancée, la méthode **LoadCustomUI** s'exécute automatiquement et tous les rubans personnalisés sont accessibles à l'application.
 
-## <a name="assign-custom-ribbons-to-forms-or-reports"></a>Affecter des rubans personnalisés à des formulaires ou des États
+## <a name="assign-custom-ribbons-to-forms-or-reports"></a>Affectation de Rubans personnalisés à des formulaires ou des rapports
 
-1.  Suivez le processus décrit précédemment pour rendre le ruban personnalisé disponible pour cette application.
+1.  Exécutez la procédure décrite plus haut pour rendre les rubans personnalisés accessibles à l’application.
 
-2.  Ouvrez le formulaire ou l'état en mode Création.
+2.  Ouvrez le formulaire ou le rapport en Mode Création.
 
 3.  Sous l’onglet Création, cliquez sur **Feuille de propriétés**.
 
-4.  Sous l’onglet **tous** de la fenêtre Propriétés, sélectionnez la liste **Nom du ruban** , puis sélectionnez un ruban.
+4.  Sous l’onglet **Tout** de la fenêtre Propriétés, cliquez dans la liste **Nom du ruban**, puis sélectionnez un Ruban.
 
-5.  Enregistrer, fermez et rouvrez le formulaire ou état. Le ruban de l’interface utilisateur que vous avez sélectionné est affiché.
+5.  Enregistrez, fermez, puis rouvrez le formulaire ou rapport. L’interface utilisateur que vous avez sélectionnée est affichée.
 
-
-> [!NOTE]
-> Les onglets affichés dans l’interface utilisateur du ruban sont additive. Autrement dit, sauf si vous spécifiquement masquez les onglets ou définissez l’attribut *Démarrer à partir de zéro* à **la valeur True**, les onglets affichés dans un formulaire ou interface utilisateur de ruban de l’état s’ajoutent aux onglets existants.
 
 > [!NOTE]
-> [!REMARQUE] Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
+> Les onglets affichés dans le Ruban sont additifs. Autrement dit, à moins que vous ne masquiez explicitement les onglets ou que vous n’affectiez la valeur**True** à l’attribut *Start from Scratch*, les onglets affichés dans le Ruban d’un formulaire ou d’un état s’ajoutent aux onglets existants.
+
+> [!NOTE]
+> Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 
