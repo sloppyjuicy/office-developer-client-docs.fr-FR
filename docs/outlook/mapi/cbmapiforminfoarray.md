@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 449a94d3-6610-4434-a705-4a739339053d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 57544507d47a846831293e80337f500efd9ed717
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f0f820de17e6acc445489a3116164d2521564c12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331613"
 ---
 # <a name="cbmapiforminfoarray"></a>CbMAPIFormInfoArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets dans une structure [SMAPIFormInfoArray](smapiforminfoarray.md) existante qui contient un nombre spécifié d’objets d’informations de formulaire. 
+Calcule le nombre d'octets dans une structure [SMAPIFormInfoArray](smapiforminfoarray.md) existante qui contient un nombre spécifié d'objets d'informations de formulaire. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Structure connexe :  <br/> |**SMAPIFormInfoArray** <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Structure associée:  <br/> |**SMAPIFormInfoArray** <br/> |
    
 ```cpp
 CbMAPIFormInfoArray (_c)
@@ -40,7 +40,7 @@ CbMAPIFormInfoArray (_c)
 
  __c_
   
-> Nombre d’objets d’informations de formulaire dans la structure **SMAPIFormInfoArray** existante. 
+> Nombre d'objets d'informations de formulaire dans la structure **SMAPIFormInfoArray** existante. 
     
 ## <a name="see-also"></a>Voir aussi
 

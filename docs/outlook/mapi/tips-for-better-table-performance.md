@@ -1,5 +1,5 @@
 ---
-title: Conseils pour améliorer les performances de table
+title: Conseils pour améliorer les performances d’une table
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,43 +7,43 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ac82f7e8-6453-4b4f-8223-3c23d09ca4c6
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: da49b4d8251f6b0b69d2ffbf80194943215675e2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 82be33090a63f24c430007d9759045c365961f5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327796"
 ---
-# <a name="tips-for-better-table-performance"></a>Conseils pour améliorer les performances de table
+# <a name="tips-for-better-table-performance"></a>Conseils pour améliorer les performances d’une table
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Étant donné que de nombreuses opérations de table peuvent prendre du temps et il n’existe aucun moyen d’indiquer la progression, il est utile d’utiliser les techniques suivantes pour améliorer les performances :
+Étant donné que de nombreuses opérations de table peuvent prendre du temps et qu'il n'existe aucun moyen d'indiquer la progression, il est utile d'utiliser les techniques suivantes pour améliorer les performances:
   
-- **Rendre [IMAPITable : IUnknown](imapitableiunknown.md) appelle dans l’ordre correct**
+- **Créer une fonction [IMAPITable: appels IUnknown](imapitableiunknown.md) dans le bon ordre**
     
-   Clients et fournisseurs de services peuvent travailler avec des tableaux de diverses façons. Ils peuvent ouvrir la table et récupérer les données pour toutes les lignes à l’aide de l’ensemble de colonnes par défaut et l’ordre de tri. Ils peuvent également modifier cet affichage par défaut de la table en modifiant l’ensemble de colonnes, modification de l’ordre de tri ou en établissant une restriction pour limiter l’étendue de la table. Les utilisateurs de tableau que vous souhaitez effectuer une ou plusieurs de ces opérations avant de récupérer des données doivent effectuer les dans l’ordre suivant :
+   Les clients et les fournisseurs de services peuvent travailler avec des tableaux de différentes façons. Ils peuvent ouvrir le tableau et extraire les données de toutes les lignes à l'aide du jeu de colonnes et de l'ordre de tri par défaut. Ils peuvent également modifier cette vue par défaut du tableau en modifiant le jeu de colonnes, en modifiant l'ordre de tri ou en établissant une restriction pour limiter l'étendue de la table. Les utilisateurs de tableau qui envisagent d'effectuer une ou plusieurs de ces opérations avant de récupérer des données doivent les exécuter dans l'ordre suivant:
     
-    1. Définir une colonne avec [IMAPITable::SetColumns](imapitable-setcolumns.md).
+    1. Définissez un jeu de colonnes avec l'aide de la fonction [IMAPITable:: SetColumns](imapitable-setcolumns.md).
         
-    2. Établir une restriction avec [IMAPITable](imapitable-restrict.md).
+    2. Établissez une restriction avec la fonction [IMAPITable:: Restrict](imapitable-restrict.md).
         
-    3. Définir un ordre de tri avec [IMAPITable::SortTable](imapitable-sorttable.md).
+    3. Définissez un ordre de tri à l'aide de la fonction [IMAPITable:: SortTable](imapitable-sorttable.md).
     
-    Exécution de ces tâches dans l’ordre suivant limite le nombre de lignes et de colonnes qui seront triées, ce qui améliore les performances.
+    L'exécution de ces tâches dans cet ordre limite le nombre de lignes et de colonnes qui seront triées, ce qui améliore les performances.
     
-- **Délai d’une opération à l’aide de l’indicateur TBL_BATCH si possible**
+- **ReTarder une opération à l'aide de l'indicateur TBL_BATCH dans la mesure du possible**
     
-    Définition de la table\_indicateur de lot sur une méthode permet à l’implémentation de tableau collecter plusieurs appels avant de traiter sur n’importe lequel d'entre eux. Au lieu de passer des appels nombreux à un serveur distant. une implémentation de table, permettent d’effectuer toutes les opérations en même temps. Les résultats des opérations ne sont pas évaluées jusqu'à ce qu’ils ne sont pas nécessaires. 
+    La définition de\_l'indicateur de lot de tbl sur une méthode permet à l'implémenteur de table de collecter plusieurs appels avant d'agir sur l'un d'eux. Au lieu de passer un grand nombre d'appels à un serveur distant; un implémenteur de tableau peut en créer un, ce qui effectue toutes les opérations à la fois. Les résultats des opérations ne sont pas évalués tant qu'ils ne sont pas nécessaires. 
     
-    Par exemple, lorsqu’un client appelle [IMAPITable](imapitable-restrict.md) pour spécifier une restriction avec la TBL\_lot indicateur défini, la restriction n’avez pas à entrent en vigueur jusqu'à ce que le client appelle [IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer les données. Ainsi, l’implémentation de table combiner le travail de deux appels en une seule. Les utilisateurs qui tirent parti de la table de table\_indicateur lot Sachez que gestion dans ces conditions d’erreur peut être plus complexe. 
+    Par exemple, lorsqu'un client appelle [IMAPITable:: Restrict](imapitable-restrict.md) pour spécifier une restriction avec l'\_indicateur de lot tbl défini, la restriction n'a pas besoin de prendre effet tant que le client n'appelle pas [IMAPITable:: QueryRows](imapitable-queryrows.md) pour récupérer les données. Cela permet à l'implémenteur de tableau de combiner le travail de deux appels en un seul. Les utilisateurs de tableau qui tirent parti\_de l'indicateur de lot tbl doivent savoir que la gestion des erreurs dans ces conditions peut être plus complexe. 
     
-    Étant donné que la gestion des erreurs à partir d’une opération différée sont similaire à la gestion des erreurs lors de l’interface MAPI\_DEFERRED_ERRORS est défini, voir [Report des erreurs MAPI](deferring-mapi-errors.md) pour plus d’informations. 
+    Étant donné que la gestion des erreurs à partir d'une opération différée est similaire à\_la gestion des erreurs lors de la définition de l'indicateur MAPI DEFERRED_ERRORS, reportez-vous à la rubrique [Report des erreurs MAPI](deferring-mapi-errors.md) pour plus d'informations. 
     
 - **Conserver un cache des propriétés couramment utilisées**
     
-    Fournisseurs de services de mise en œuvre de tables peuvent réduire le temps que nécessaire pour créer un affichage en mettant en cache les copies des propriétés de l’objet couramment utilisés. Conserver une copie de ces propriétés en mémoire enregistre avoir à récupérer à partir de l’objet chaque fois que l’affichage doit être reconstruite.
+    Les fournisseurs de services qui implémentent des tables peuvent réduire le temps nécessaire pour créer une vue en mettant en cache des copies des propriétés d'objets couramment utilisées. Conserver une copie de ces propriétés dans la mémoire permet aux utilisateurs de les récupérer à chaque régénération de l'affichage.
     
 ## <a name="see-also"></a>Voir aussi
 

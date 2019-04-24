@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
 description: Enregistre les modifications apportées au compte spécifié.
-ms.openlocfilehash: 87b513659b632e88697fb63d1aeccccb77ed9fd1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbb1dffa1725e96bd2ab635341718ce53738b864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322021"
 ---
 # <a name="iolkaccountmanagersavechanges"></a>IOlkAccountManager::SaveChanges
 
@@ -33,23 +33,23 @@ HRESULT IOlkAccountManager::SaveChanges (
 
 _dwAcctID_
   
-> [in] L’ID de compte à enregistrer. 
+> dans ID de compte à enregistrer. 
     
 _dwFlags_
   
-> [in] Indicateurs pour modifier le comportement. OLK_ACCOUNT_NO_FLAGS est la seule valeur pris en charge.
+> [in] Indicateurs pour modifier le comportement. OLK_ACCOUNT_NO_FLAGS est la seule valeur prise en charge.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L’appel a réussi  <br/> |
+|S_OK  <br/> |L'appel a réussi  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est introuvable.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Après avoir modifié la valeur des propriétés de compte à l’aide de [IOlkAccount::SetProp](iolkaccount-setprop.md), utilisez **IOlkAccountManager::SaveChanges** ou [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) pour enregistrer ces modifications. 
+Après avoir modifié la valeur des propriétés de compte à l'aide de [IOlkAccount:: SetProp](iolkaccount-setprop.md), utilisez **IOlkAccountManager:: SaveChanges** ou [IOlkAccount:: SaveChanges](iolkaccount-savechanges.md) pour enregistrer ces modifications. 
   
 ## <a name="see-also"></a>Voir aussi
 

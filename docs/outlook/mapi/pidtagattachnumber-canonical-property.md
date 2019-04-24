@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 507e0f2c-383c-4e2f-917b-159913f7234d
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 474ffaf2317cadd214074419f09bb913b1eee4ff
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327250"
 ---
 # <a name="pidtagattachnumber-canonical-property"></a>Propriété canonique PidTagAttachNumber
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un numéro qui identifie de manière unique la pièce jointe dans un message de son parent. 
+Contient un numéro qui identifie de manière unique la pièce jointe dans son message parent. 
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contient un numéro qui identifie de manière unique la pièce jointe dans un me
    
 ## <a name="remarks"></a>Remarques
 
-Banques de messages génèrent et mettre à jour de cette propriété. Le nombre de pièces jointes est la clé de tri secondaire, après la position de rendu dans le tableau des pièces jointes. 
+Les banques de messages génèrent et gèrent cette propriété. Le numéro de pièce jointe est la clé de tri secondaire, après la position de rendu, dans la table des pièces jointes. 
   
- **PR_ATTACH_NUM** est utilisée pour ouvrir la pièce jointe avec la méthode [IMessage::OpenAttach](imessage-openattach.md) . Dans la session d’une application client, la propriété **PR_ATTACH_NUM** d’une pièce jointe du message reste constante dans la mesure où la table de la pièce jointe est ouverte. 
+ **PR_ATTACH_NUM** est utilisé pour ouvrir la pièce jointe à l'aide de la méthode [IMessage:: OpenAttach](imessage-openattach.md) . Dans une session d'application cliente, la propriété **PR_ATTACH_NUM** d'une pièce jointe de message reste constante tant que la table des pièces jointes est ouverte. 
   
-La banque de messages propage les modifications à la table à l’aide des méthodes **IMessage::CreateAttach** et **IMessage::DeleteAttach** . À son la banque de messages peut générer des notifications de table sur les tables d’ouvrir une pièce jointe afin que les clients peuvent resynchroniser à ces modifications. 
+La Banque de messages propage les modifications apportées à la table à l'aide des méthodes eleteAttach **IMessage:: CreateAttach** et **IMessage::D** . À son option, la Banque de messages peut générer des notifications de table sur des tables de pièces jointes ouvertes afin que les clients puissent effectuer une resynchronisation vers ces modifications. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

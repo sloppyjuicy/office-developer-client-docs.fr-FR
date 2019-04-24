@@ -1,5 +1,5 @@
 ---
-title: Type complexe FillGradient_Type (« Visio XML »)
+title: ComplexType FillGradient_Type ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,20 +7,20 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 82545cdc-890d-1b2f-9c8f-4740f32d0ed7
 ms.openlocfilehash: 6ae61b730a59c5f8e6acae3b7a4c5cb8e0298f91
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322469"
 ---
-# <a name="fillgradienttype-complextype-visio-xml"></a>Type complexe FillGradient_Type (« Visio XML »)
+# <a name="fillgradienttype-complextype-visio-xml"></a>ComplexType FillGradient_Type ('Visio XML')
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base d’extension** <br/> |Section_Type  <br/> |
    
 ## <a name="definition"></a>Définition
@@ -44,7 +44,7 @@ ms.locfileid: "25388741"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 

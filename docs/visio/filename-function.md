@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm82251591
 localization_priority: Normal
 ms.assetid: 03423eb8-160b-2877-de61-f0cc53ae51a1
-description: Renvoie le nom de fichier d’un document sous forme de chaîne.
-ms.openlocfilehash: 6a5f535cc047bb5f83992854afb0600cfe5c9823
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le nom de fichier d'un document sous la forme d'une chaîne.
+ms.openlocfilehash: 41ea7e8bc8f2402435f8df22c77d23c60a61e03d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322518"
 ---
-# <a name="filename-function"></a>FILENAME, fonction
+# <a name="filename-function"></a>Fonction FILENAME
 
-Renvoie le nom de fichier d’un document sous forme de chaîne.
+Renvoie le nom de fichier d'un document sous la forme d'une chaîne.
   
 ## <a name="syntax"></a>Syntaxe
 
 FILENAME ()
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   

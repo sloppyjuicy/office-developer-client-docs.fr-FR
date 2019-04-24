@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f0e5b24-767e-46f5-bb3d-e9cb82cb935b
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 67093cf456db9df5f9e939bdda9d2e44f248dadc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331233"
 ---
 # <a name="pidtagrtfsynctrailingcount-canonical-property"></a>Propriété canonique PidTagRtfSyncTrailingCount
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche le nombre de caractères qui s’affiche après les caractères significatives du message peut être ignorés.
+Contient le nombre de caractères pouvant être ignorés qui apparaissent après les caractères significatifs du message.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Affiche le nombre de caractères qui s’affiche après les caractères signific
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une propriété auxiliaire enrichi texte Format correspondante. Ces propriétés sont utilisées par la fonction [RTFSync](rtfsync.md) et ne sont pas destinées à être directement utilisé par les applications clientes. 
+Cette propriété est une propriété auxiliaire RFT (Rich Text Format). Ces propriétés sont utilisées par la fonction [RTFSync](rtfsync.md) et ne sont pas destinées à être utilisées directement par les applications clientes. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Code et décode des objets message et la pièce jointe à une représentation sous forme de flux efficace.
+> Encode et décode les objets message et Attachment en une représentation de flux efficace.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ba33866a-c9c4-454a-9549-72455c61ee97
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f01d0ad7e7e6b1ad7a5e4c4838bb46ca143e0968
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a922b8bb21bfd534935d4d1706a6ccfd15c2da5c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332074"
 ---
 # <a name="checkparameters"></a>CheckParameters
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567054"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes de fournisseur de service appelées par MAPI. 
+Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes du fournisseur de services appelées par MAPI. 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ HRESULT CheckParameters(
 
  _eMethod_
   
-> [in] Spécifie, par l’énumération, la méthode à valider. 
+> dans Spécifie, par énumération, la méthode à valider. 
     
- _Premier_
+ _First_
   
-> [in] Pointeur vers le premier argument dans la pile.
+> dans Pointeur vers le premier argument de la pile.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

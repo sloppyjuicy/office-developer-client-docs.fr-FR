@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: f85bd23d-c285-4448-a946-7ab4fc0f03be
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a60fe565992756163eaf19b84e36c03acb66cc73
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 704935e5863d789ee1120ddde8d4eb42edbec573
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331947"
 ---
 # <a name="cbmapiformproparray"></a>CbMAPIFormPropArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets dans une structure [SMAPIFormPropArray](smapiformproparray.md) existante qui contient un nombre spécifié de structures [SMAPIFormProp](smapiformprop.md) . 
+Calcule le nombre d'octets dans une structure [SMAPIFormPropArray](smapiformproparray.md) existante qui contient un nombre spécifié de structures [SMAPIFormProp](smapiformprop.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Structure connexe :  <br/> |**SMAPIFormPropArray** <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Structure associée:  <br/> |**SMAPIFormPropArray** <br/> |
    
 ```cpp
 CbMAPIFormPropArray (_c)

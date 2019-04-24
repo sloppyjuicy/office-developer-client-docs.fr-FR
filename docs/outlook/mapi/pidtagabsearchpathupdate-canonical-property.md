@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5ea20b49-8b57-4ad0-a70d-6547a01c8344
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2481ad01d8777783581663ead64ad3797eb8eb1a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 86258711d7cc6bc1933102f7579bb46339a138de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332017"
 ---
 # <a name="pidtagabsearchpathupdate-canonical-property"></a>Propriété canonique PidTagAbSearchPathUpdate
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’identificateurs d’entrée pour les conteneurs de carnet d’adresse explicitement configurés par l’utilisateur. 
+Contient une liste d'identificateurs d'entrée pour les conteneurs du carnet d'adresses configurés de manière explicite par l'utilisateur. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contient une liste d’identificateurs d’entrée pour les conteneurs de carnet
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé pour une utilisation par MAPI.
+N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

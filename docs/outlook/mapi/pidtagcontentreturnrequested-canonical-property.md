@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f86f7c59-42ab-4ac0-80fe-c985103e6bd6
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9db28f282baf18ec983f6f51c989bacea4cf76f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c64288f393f15ee330065a43a92930f2e6f4e134
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331905"
 ---
 # <a name="pidtagcontentreturnrequested-canonical-property"></a>Propriété canonique PidTagContentReturnRequested
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un message doit être retourné avec un rapport de non-remise. 
+Contient la valeur TRUE si un message doit être renvoyé avec une notification d'échec de remise. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTENT_RETURN_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x000A  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |État  <br/> |
+|Domaine :  <br/> |Rapport  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété n’est pas définie, MAPI la traite comme ayant la valeur TRUE. 
+Si cette propriété n'est pas définie, MAPI la traite comme ayant une valeur TRUE. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

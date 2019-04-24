@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2e113791-891f-6c2a-7981-a6a9a115622a
 description: Contient une ligne pour chaque élément de données de forme et les cellules pour associer les données à une forme.
-ms.openlocfilehash: 014af2ace442799f753d262ad24818089d94fdf9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3d3924d3087789500bf084da4c795c01fc8e36f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325843"
 ---
 # <a name="shape-data-section"></a>Shape Data, section
 
@@ -22,13 +22,13 @@ Contient une ligne pour chaque élément de données de forme et les cellules po
   
 ## <a name="remarks"></a>Remarques
 
-Données de forme peuvent être définies à l’aide de la fenêtre **Données de forme** ou les cellules dans la section données de forme. 
+Vous pouvez définir des éléments de données de forme en utilisant la fenêtre **Données de forme** ou les cellules de la section Shape Data. 
   
 > [!NOTE]
-> Dans les versions précédentes de Visio, la section **Shape Data** s’appelait **Custom Properties**. 
+> Dans les versions précédentes de Visio, la section **données de forme** était appelée **propriétés personnalisées**. 
   
-- Dans la fenêtre feuille ShapeSheet, vous pouvez définir les données de forme dans la section **Données de forme** . Avec le bouton droit dans la fenêtre feuille ShapeSheet et cliquez sur **Insérer une Section**, puis activez la case à cocher de **Données de forme** . Vous pouvez ajouter autant de propriétés.  *nom de* lignes que vous le souhaitez, assigner des noms explicites aux lignes et définir des valeurs de cellule. 
+- Dans la fenêtre ShapeSheet, vous pouvez définir des données de forme dans la section **données de forme** . Cliquez avec le bouton droit dans la fenêtre Feuille ShapeSheet, cliquez sur **Insérer une section**, puis activez la case à cocher **Données de forme**. Vous pouvez ajouter autant de prop.  *Nommez* les lignes selon vos besoins, assignez des noms parlants aux lignes et définissez des valeurs de cellule. 
     
-- Dans la fenêtre de dessin, vous pouvez définir les données de forme dans la fenêtre **Données de forme** . Sous l’onglet **affichage** , dans le groupe **Afficher/masquer** , cliquez sur les **Volets de tâches**, puis cliquez sur **Données de forme**. Pour accéder à la boîte de dialogue **Définir les données de forme** , avec le bouton droit de la fenêtre **Données de forme** , puis cliquez sur **Définir les données de forme**.
+- Dans la fenêtre de dessin, vous pouvez définir des éléments de données de forme dans la fenêtre **Données de forme**. Sous l’onglet **Affichage**, dans le groupe **Afficher/Masquer**, cliquez sur **Volet de tâches**, puis cliquez sur **Données de forme**. Pour accéder à la boîte de dialogue **Définir les données de forme**, cliquez avec le bouton droit de la souris sur la fenêtre **Données de forme**, puis choisissez **Définir les données de forme**.
     
 

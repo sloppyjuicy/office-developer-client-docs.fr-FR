@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cd6b119bd88fccf80bf2488592a24b3398e6e8af
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c9401c163c74ab303ec39c147e0432d1979426b8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329017"
 ---
 # <a name="imapitableadvise"></a>IMAPITable::Advise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594242"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Inscrit un objet de récepteur advise pour recevoir une notification d’événements spécifiés affectant la table.
+Inscrit un objet de récepteur de notifications pour recevoir des notifications d'événements spécifiés affectant la table.
   
 ```cpp
 HRESULT Advise(
@@ -39,41 +39,41 @@ ULONG_PTR FAR * lpulConnection
 
  _ulEventMask_
   
-> [in] Valeur qui indique le type d’événement qui génère la notification. Uniquement la valeur suivante est valide :
+> dans Valeur indiquant le type d'événement qui générera la notification. Seule la valeur suivante est valide:
     
  `fnevTableModified`
   
  _lpAdviseSink_
   
-> [in] Pointeur vers un objet de récepteur advise pour recevoir les notifications ultérieures. Cet objet de récepteur advise doit déjà affectée.
+> dans Pointeur vers un objet de récepteur de notification pour recevoir les notifications suivantes. Cet objet de récepteur de notifications doit déjà avoir été alloué.
     
  _lpulConnection_
   
-> [out] Pointeur vers une valeur différente de zéro qui représente l’enregistrement de notification réussie.
+> remarquer Pointeur vers une valeur différente de zéro qui représente l'enregistrement de notification réussi.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’inscription de notification est terminée.
+> L'enregistrement des notifications est terminé.
     
 MAPI_E_NO_SUPPORT 
   
-> L’implémentation de la table ne prend pas en charge les modifications apportées à ses lignes et colonnes ou ne prend pas en charge la notification.
+> L'implémentation du tableau ne prend pas en charge les modifications apportées à ses lignes et colonnes, ou ne prend pas en charge la notification.
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **IMAPITable::Advise** pour inscrire un objet table implémenté dans le fournisseur pour les rappels de notification. Chaque fois qu’une modification est apportée à l’objet table, le fournisseur vérifie les bits de masque événement a été défini dans le paramètre _ulEventMask_ et donc le type de modification s’est produite. Si un bit est défini, le fournisseur appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de récepteur advise indiqué par le paramètre _lpAdviseSink_ pour signaler l’événement. Données transmises dans la structure de notification à la routine **OnNotify** décrivent l’événement. 
+Utilisez la méthode **IMAPITable:: Advise** pour inscrire un objet table implémenté dans le fournisseur pour les rappels de notification. Chaque fois qu'une modification est apportée à l'objet table, le fournisseur vérifie le bit de masque d'événement qui a été défini dans le paramètre _ulEventMask_ et, par conséquent, le type de modification qui a eu lieu. Si un bit est défini, le fournisseur appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) pour l'objet de récepteur de notifications indiqué par le paramètre _lpAdviseSink_ pour signaler l'événement. Les données transmises dans la structure de notification à la routine **OnNotify** décrivent l'événement. 
   
-L’appel de **OnNotify** peut se produire lors de l’appel qui modifie l’objet, ou à tout moment suivante. Sur les systèmes qui prennent en charge plusieurs threads d’exécution, l’appel de **OnNotify** peut se produire sur n’importe quel thread. Pour activer un appel à **OnNotify** qui peut se produire à un moment peu opportuns en un seul qui est plus sûr de gérer un moyen, un fournisseur doit utiliser la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
+L'appel à **OnNotify** peut se produire pendant l'appel qui modifie l'objet ou à tout moment suivant. Sur les systèmes qui prennent en charge plusieurs threads d'exécution, l'appel à **OnNotify** peut se produire sur n'importe quel thread. Pour un moyen d'activer un appel vers **OnNotify** qui peut se produire à un moment inopportun en un seul à gérer, un fournisseur doit utiliser la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
   
-Pour fournir des notifications, le fournisseur implémentation **Advise** doit conserver une copie du pointeur pour la _lpAdviseSink_ conseille objet récepteur ; Pour ce faire, il appelle la méthode **IUnknown::AddRef** pour le récepteur de notifications maintenir son pointeur de l’objet jusqu'à ce que l’inscription aux notifications est annulée par un appel à la méthode [IMAPITable::Unadvise](imapitable-unadvise.md) . L’implémentation **Advise** doit affecter un numéro de connexion à l’enregistrement de notification et appelez **AddRef** sur ce numéro de connexion avant de la retourner dans le paramètre _lpulConnection_ . Fournisseurs de services peuvent libérer l’objet de récepteur advise avant l’enregistrement est annulée, mais ils ne doivent libérer jusqu'à ce que le numéro de connexion ** Unadvise ** a été appelée. 
+Pour fournir des notifications, le fournisseur qui met en œuvre l' **avis** doit conserver une copie du pointeur vers l'objet récepteur _lpAdviseSink_ . pour ce faire, il appelle la méthode **IUnknown:: AddRef** pour le récepteur de notifications afin de maintenir son pointeur d'objet jusqu'à ce que l'enregistrement de notification soit annulé avec un appel à la méthode [IMAPITable::](imapitable-unadvise.md) Unadvise. L'implémentation de l' **avis** doit affecter un numéro de connexion à l'enregistrement des notifications et appeler **AddRef** sur ce numéro de connexion avant de le renvoyer dans le paramètre _lpulConnection_ . Les fournisseurs de services peuvent libérer l'objet récepteur de notification avant l'annulation de l'inscription, mais ils ne doivent pas libérer le numéro de connexion tant que l'appel à * * Unadvise * * n'a pas été appelé. 
   
-Après un appel à **Advise** a réussi et avant ** Unadvise ** a été appelée, les clients doivent être préparés pour l’objet de récepteur advise doit être publié. Un client doit donc libérer son objet de récepteur advise après **Advise** renvoie à moins qu’une utilisation à long terme spécifique pour qu’il. 
+Une fois qu'un **** appel à Advise a réussi et avant que * * Unadvise * * ait été appelé, les clients doivent être préparés pour que l'objet de récepteur de notifications soit publié. Un client doit donc libérer son objet de récepteur d' **** AVERTISSEMENT une fois qu'il a été renvoyé, sauf s'il a une utilisation à long terme spécifique pour lui. 
   
-En raison du comportement de notification asynchrone, implémentations de modifier les paramètres de colonne de table peuvent recevoir des notifications avec des informations organisées dans un ordre de la colonne précédente. Par exemple, une ligne de tableau peut être retournée pour un message qui vient d’être supprimé du conteneur. Une notification est envoyée lorsque la colonne paramètre a été modifié et informations envoyées, mais que l’affichage de tableau de notification n’a pas été mis à jour avec ces informations encore.
+En raison du comportement asynchrone de la notification, les implémentations qui modifient les paramètres de colonne de tableau peuvent recevoir des notifications avec des informations organisées dans un ordre de colonne précédent. Par exemple, une ligne de tableau peut être renvoyée pour un message qui vient d'être supprimé du conteneur. Une telle notification est envoyée lorsque le paramètre de colonne a été modifié et que les informations relatives à ce dernier sont envoyées, mais que la vue de table de notification n'a pas encore été mise à jour avec ces informations.
   
-Pour plus d’informations sur le processus de notification, voir [Notification d’événement MAPI](event-notification-in-mapi.md). Pour obtenir des informations spécifiques sur la notification de la table, voir [Sur les Notifications de Table](about-table-notifications.md). Pour plus d’informations sur l’utilisation des méthodes **IMAPISupport** pour prendre en charge la notification, voir [Prise en charge de Notification d’événement](supporting-event-notification.md).
+Pour plus d'informations sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md). Pour obtenir des informations spécifiques sur la notification de table, consultez la rubrique [à propos des notifications de table](about-table-notifications.md). Pour plus d'informations sur l'utilisation des méthodes **IMAPISupport** pour prendre en charge la notification, consultez la rubrique [prise en](supporting-event-notification.md)charge des notifications d'événements.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -81,7 +81,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl::NotificationOn  <br/> |MFCMAPI utilise la méthode **IMAPITable::Advise** pour enregistrer les notifications autoriser l’affichage tableau restent en cours.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContestTableListCtrl:: NotificationOn  <br/> |MFCMAPI utilise la méthode **IMAPITable:: Advise** pour enregistrer les notifications afin d'autoriser la vue de la table à rester en cours.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

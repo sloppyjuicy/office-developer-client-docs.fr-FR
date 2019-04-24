@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f73b5cf-7093-42e9-8acc-63d73df77cf5
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fdf75787153f9a85e6a7bcddff44cf2c468a7975
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 19d3df004676a71e2bf6243d9288efd824d99c33
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325766"
 ---
 # <a name="imapisessionopenmsgstore"></a>IMAPISession::OpenMsgStore
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre une banque de messages et retourne un pointeur [IMsgStore](imsgstoreimapiprop.md) pour davantage d’accès. 
+Ouvre une banque de messages et renvoie un pointeur [IMsgStore](imsgstoreimapiprop.md) pour un accès supplémentaire. 
   
 ```cpp
 HRESULT OpenMsgStore(
@@ -40,85 +40,85 @@ HRESULT OpenMsgStore(
 
 _ulUIParam_
   
-> [in] Un handle vers la fenêtre parent de la boîte de dialogue commune adresse et d’autres liées affiche.
+> dans Un handle vers la fenêtre parent de la boîte de dialogue adresse commune et d'autres affichages connexes.
     
 _cbEntryID_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
     
 _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée de la banque de messages à ouvrir. Le paramètre _lpEntryID_ ne doit pas être NULL. 
+> dans Pointeur vers l'identificateur d'entrée de la Banque de messages à ouvrir. Le paramètre _lpEntryID_ ne doit pas être null. 
     
 _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au magasin de message. Passage de NULL entraîne le paramètre _lppMDB_ renvoyer un pointeur vers l’interface standard pour une banque de messages (**IMsgStore**).
+> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder à la Banque de messages. En passant la valeur NULL, le paramètre _lppMDB_ renvoie un pointeur vers l'interface standard pour une banque de messages (**IMsgStore**).
     
 _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet est ouvert. Les indicateurs suivants peuvent être utilisés :
+> dans Masque de des indicateurs qui contrôle le mode d'ouverture de l'objet. Les indicateurs suivants peuvent être utilisés:
     
-  - MAPI_BEST_ACCESS : Demandes que la banque de messages s’ouvre avec les autorisations de réseau maximum autorisé pour l’utilisateur et le nombre maximal de clients application. Par exemple, si le client a l’autorisation de lecture/écriture, la banque de messages doit être ouvert avec l’autorisation de lecture/écriture ; Si le client dispose des autorisations en lecture seule, la banque de messages doit être ouvert avec l’autorisation en lecture seule. 
+  - MAPI_BEST_ACCESS: demande l'ouverture de la Banque de messages avec les autorisations réseau maximales accordées à l'utilisateur et les autorisations d'application client maximales. Par exemple, si le client dispose d'une autorisation en lecture/écriture, la Banque de messages doit être ouverte avec une autorisation en lecture/écriture; Si le client dispose d'une autorisation en lecture seule, la Banque de messages doit être ouverte en lecture seule. 
       
-  - MAPI_DEFERRED_ERRORS : Permet **OpenMsgStore** retournée correctement, éventuellement avant le message magasin est totalement disponible au client appelant. Si la banque de messages n’est pas disponible, l’émission d’un appel d’objet suivantes peut déclencher une erreur. 
+  - MAPI_DEFERRED_ERRORS: permet à **OpenMsgStore** de renvoyer correctement, éventuellement avant que la Banque de messages soit entièrement disponible pour le client appelant. Si la Banque de messages n'est pas disponible, un appel d'objet ultérieur peut déclencher une erreur. 
       
-  - MDB\_NO_DIALOG : empêche l’affichage des boîtes de dialogue d’ouverture de session. Si cet indicateur est défini et **OpenMsgStore** contient des informations de configuration insuffisante pour ouvrir la banque de messages sans l’aide de l’utilisateur, elle renvoie MAPI_E_LOGON_FAILED. Si cet indicateur n’est pas défini, le fournisseur de banque de message peut inviter l’utilisateur pour corriger un nom ou le mot de passe ou pour effectuer d’autres actions qui sont nécessaires pour établir une connexion avec la banque de messages. 
+  - MDB\_NO_DIALOG: empêche l'affichage des boîtes de dialogue d'ouverture de session. Si cet indicateur est défini et que **OpenMsgStore** ne dispose pas des informations de configuration suffisantes pour ouvrir la Banque de messages sans l'aide de l'utilisateur, elle renvoie MAPI_E_LOGON_FAILED. Si cet indicateur n'est pas défini, le fournisseur de banque de messages peut demander à l'utilisateur de corriger un nom ou un mot de passe ou d'effectuer d'autres actions nécessaires pour établir une connexion à la Banque de messages. 
       
-  - MDB\_NO_MAIL : la banque de messages ne doit pas être utilisée pour envoyer ou recevoir de courrier. Lorsque cet indicateur est défini, MAPI ne notifie pas les le spouleur MAPI que cette banque de messages est en cours d’ouverture.
+  - MDB\_NO_MAIL: la Banque de messages ne doit pas être utilisée pour l'envoi ou la réception de messages. Lorsque cet indicateur est défini, MAPI n'avertit pas le spouleur MAPI que cette banque de messages est ouverte.
       
-  - MDB\_en ligne : en Mode Exchange mis en cache, un client ou fournisseur de services peut appeler cette méthode avec MDB_ONLINE pour remplacer la connexion à la base de messages locale et ouvrez le magasin sur le serveur distant. Impossible d’ouvrir une banque Exchange en mode mis en cache et en mode non mis en cache en même temps dans la même session MAPI. Si vous avez déjà ouvert la banque de messages mise en cache, vous devez fermer la banque avant de l’ouvrir avec cet indicateur, ou ouvrir une nouvelle session MAPI où vous pouvez ouvrir la banque d'informations Exchange sur le serveur distant à l’aide de cet indicateur.
+  - MDB\_en ligne: en mode Exchange mis en cache, un client ou un fournisseur de services peut appeler cette méthode avec MDB_ONLINE pour remplacer la connexion à la Banque de messages locale et ouvrir la Banque sur le serveur distant. Vous ne pouvez pas ouvrir une banque Exchange en mode mis en cache et en mode non mis en cache en même temps dans la même session MAPI. Si vous avez déjà ouvert la banque de messages mise en cache, vous devez fermer la banque avant de l’ouvrir avec cet indicateur, ou ouvrir une nouvelle session MAPI où vous pouvez ouvrir la banque d'informations Exchange sur le serveur distant à l’aide de cet indicateur.
       
-  - MDB_TEMPORARY : Demande à MAPI que la banque de messages n’est pas définitive et ne doit pas être ajoutée à la table. Cet indicateur est utilisé pour vous connecter à la banque de messages afin que les informations peuvent être récupérées par programme dans la section de profil. 
+  - MDB_TEMPORARY: indique à MAPI que la Banque de messages n'est pas permanente et qu'elle ne doit pas être ajoutée à la table de banque de messages. Cet indicateur est utilisé pour se connecter à la Banque de messages afin que les informations puissent être récupérées par programmation à partir de la section profil. 
       
-  - MDB_WRITE : Demandes de lecture/écriture autorisation de la banque de messages.
+  - MDB_WRITE: demande une autorisation d'accès en lecture/écriture à la Banque de messages.
     
 _lppMDB_
   
-> [out] Pointeur vers un pointeur de la banque de messages.
+> remarquer Pointeur vers un pointeur de la Banque de messages.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La banque de messages a été ouvert avec succès.
+> La Banque de messages a été ouverte.
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative a été effectuée pour accéder à une banque de messages pour lesquels l’utilisateur dispose d’autorisations insuffisantes.
+> Une tentative d'accès à une banque de messages pour laquelle l'utilisateur ne dispose pas d'autorisations suffisantes a été effectuée.
     
 MAPI_E_NOT_FOUND 
   
-> La banque de messages indiquée par _lpEntryID_ n’existe pas. 
+> La Banque de messages indiquée par _lpEntryID_ n'existe pas. 
     
 MAPI_E_UNKNOWN_CPID 
   
-> Le serveur n’est pas configuré pour prendre en charge de la page de codes du client.
+> Le serveur n'est pas configuré pour prendre en charge la page de code du client.
     
 MAPI_E_UNKNOWN_LCID 
   
-> Le serveur n’est pas configuré pour prendre en charge les informations de paramètres régionaux du client.
+> Le serveur n'est pas configuré pour prendre en charge les informations de paramètres régionaux du client.
     
 MAPI_W_ERRORS_RETURNED 
   
-> L’appel a réussi, mais le fournisseur de banque de messages a des informations d’erreur disponibles. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme étant réussi. Pour obtenir les informations d’erreur à partir du fournisseur, appelez la méthode [IMAPISession::GetLastError](imapisession-getlasterror.md) . Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d’informations, consultez [Utilisation de Macros pour gérer les erreurs](using-macros-for-error-handling.md).
+> L'appel a réussi, mais le fournisseur de banque de messages contient des informations d'erreur disponibles. Lorsque cet avertissement est renvoyé, l'appel doit être géré comme réussi. Pour obtenir les informations d'erreur du fournisseur, appelez la méthode [IMAPISession:: GetLastError](imapisession-getlasterror.md) . Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d'informations, consultez la rubrique [utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::OpenMsgStore** ouvre une banque de messages donnée. 
+La méthode **IMAPISession:: OpenMsgStore** ouvre une banque de messages particulière. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Le niveau d’autorisation par défaut pour les banques de messages est en lecture seule. Si vous définissez l’indicateur MDB_WRITE, vous toujours ne pourrez pas être autorisation en lecture-écriture. Le dernier niveau d’accès MAPI attribue à la banque de messages dépend de votre niveau d’autorisation, la banque de messages lui-même et le fournisseur de banque de messages. 
+Le niveau d'autorisation par défaut pour les banques de messages est en lecture seule. Si vous définissez l'indicateur MDB_WRITE, il se peut que vous ne soyez pas autorisé à accéder en lecture/écriture. Le niveau d'accès final attribué par MAPI à la Banque de messages dépend de votre niveau d'autorisation, de la Banque de messages proprement dite et du fournisseur de banque de messages. 
   
-Si vous appelez **OpenMsgStore** pour ouvrir une banque de messages avec une autorisation en lecture seule, les éléments suivants se produisent : 
+Si vous appelez **OpenMsgStore** pour ouvrir une banque de messages avec une autorisation en lecture seule, les opérations suivantes se produisent: 
   
-- La banque de **PR\_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) propriété n’aura pas son magasin\_MODIFY_OK et le magasin de\_CREATE_OK bits set. 
+- La propriété **PR\_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de la Banque ne dispose pas de\_l'ensemble de\_bits Store MODIFY_OK et Store CREATE_OK. 
     
-- Les appels pour ouvrir un des dossiers ou des messages de la banque de messages à l’aide de [IMAPISession::OpenEntry](imapisession-openentry.md) avec l’indicateur n’échoue. 
+- Les appels pour ouvrir l'un des messages ou dossiers d'une banque de messages à l'aide de [IMAPISession:: OpenEntry](imapisession-openentry.md) avec l'indicateur MAPI_MODIFY défini échoueront. 
     
-- Les appels pour ouvrir une des propriétés des dossiers ou des messages de la banque de messages à l’aide de [IMAPIProp::OpenProperty](imapiprop-openproperty.md) avec l’indicateur n’échoue. 
+- Les appels pour ouvrir l'une des propriétés des messages ou dossiers d'une banque de messages à l'aide de [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) avec l'indicateur MAPI_MODIFY échoueront. 
     
-- Les appels à une des méthodes suivantes échoueront : 
+- Les appels à l'une des méthodes suivantes échouent: 
     
   - [IMAPIFolder::CreateMessage](imapifolder-createmessage.md)
     
@@ -134,7 +134,7 @@ Si vous appelez **OpenMsgStore** pour ouvrir une banque de messages avec une aut
     
   - [IMAPIProp::DeleteProps](imapiprop-deleteprops.md)
   
-- Appels aux méthodes suivantes échoueront si la destination pour le message copié est en lecture seule, si la destination est la même que la banque de messages source ou un autre magasin en lecture seule.
+- Les appels aux méthodes suivantes échouent si la destination du message copié est en lecture seule, si la destination est identique à la Banque de messages source ou s'il s'agit d'une autre banque en lecture seule.
     
   - [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
     
@@ -148,7 +148,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI utilise la méthode **IMAPISession::OpenMsgStore** pour ouvrir une banque de messages.  <br/> |
+|MAPIStoreFunctions. cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI utilise la méthode **IMAPISession:: OpenMsgStore** pour ouvrir une banque de messages.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -157,6 +157,6 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 - [IMAPISession::OpenEntry](imapisession-openentry.md)
 - [IMAPIProp::OpenProperty](imapiprop-openproperty.md)
 - [IMAPISession : IUnknown](imapisessioniunknown.md)
-- [MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
-- [Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+- [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+- [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

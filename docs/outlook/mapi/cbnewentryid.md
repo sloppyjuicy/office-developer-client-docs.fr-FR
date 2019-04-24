@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 4397315ef5ebc8009805f911f7d7b549a698b955
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 11f078c0e2071e6f58a85dbe627b2ced676bacb9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329504"
 ---
 # <a name="cbnewentryid"></a>CbNewENTRYID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets qui doit être alloué pour une nouvelle structure [ENTRYID](entryid.md) d’une taille spécifiée. 
+Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [EntryID](entryid.md) d'une taille spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**ENTRYID** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**ENTRÉE** <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
@@ -38,15 +38,15 @@ CbNewENTRYID (_cb)
 
 ## <a name="parameters"></a>Paramètres
 
- __cb_
+ __CB_
   
-> Nombre d’octets de l’identificateur d’entrée à stocker dans la nouvelle structure **ENTRYID** . 
+> Nombre d'octets dans l'identificateur d'entrée à stocker dans la nouvelle structure **EntryID** . 
     
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[ENTRYID](entryid.md)
+[ENTRÉE](entryid.md)
 
 
 [Macros liées aux structures](macros-related-to-structures.md)

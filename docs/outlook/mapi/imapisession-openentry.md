@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6234fc737857a7e35f562703802f81ff154b3ee6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 10992fdf53c416c473b90b5748b9c5fa4f65cffc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329413"
 ---
 # <a name="imapisessionopenentry"></a>IMAPISession::OpenEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "22591014"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre un objet et retourne un pointeur d’interface pour l’accès supplémentaire.
+Ouvre un objet et renvoie un pointeur d'interface pour un accès supplémentaire.
   
 ```cpp
 HRESULT OpenEntry(
@@ -42,90 +42,90 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée de l’objet à ouvrir.
+> dans Pointeur vers l'identificateur d'entrée de l'objet à ouvrir.
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet ouvert. Passage de NULL renvoie interface standard de l’objet. Par exemple, si l’objet à ouvrir est un message, l’interface standard est [IMessage](imessageimapiprop.md); pour les dossiers, il est [IMAPIFolder](imapifolderimapicontainer.md). Les interfaces standards pour les objets de carnet d’adresses sont [IDistList](idistlistimapicontainer.md) pour une liste de distribution et les [IMailUser](imailuserimapiprop.md) pour un utilisateur de messagerie. 
+> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder à l'objet ouvert. La transmission de la valeur NULL renvoie l'interface standard de l'objet. Par exemple, si l'objet à ouvrir est un message, l'interface standard est [IMessage](imessageimapiprop.md); pour les dossiers, il s'agit de [IMAPIFolder](imapifolderimapicontainer.md). Les interfaces standard pour les objets de carnet d'adresses sont [IDistList](idistlistimapicontainer.md) pour une liste de distribution et [IMailUser](imailuserimapiprop.md) pour un utilisateur de messagerie. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet est ouvert. Les indicateurs suivants peuvent être utilisés :
+> dans Masque de des indicateurs qui contrôle le mode d'ouverture de l'objet. Les indicateurs suivants peuvent être utilisés:
     
 MAPI_BEST_ACCESS 
   
-> Demande que l’objet s’ouvre avec les autorisations de réseau maximale autorisées pour l’accès des utilisateurs et le nombre maximal de clients application. Par exemple, si le client a l’autorisation de lecture/écriture, l’objet doit être ouvert avec l’autorisation de lecture/écriture ; Si le client dispose des autorisations en lecture seule, l’objet doit être ouvert avec l’autorisation en lecture seule. 
+> Demande l'ouverture de l'objet à l'aide des autorisations réseau maximales autorisées pour l'utilisateur et de l'accès à l'application cliente maximale. Par exemple, si le client dispose d'une autorisation en lecture/écriture, l'objet doit être ouvert avec une autorisation en lecture/écriture; Si le client dispose d'une autorisation en lecture seule, l'objet doit être ouvert en lecture seule. 
     
 MAPI_CACHE_OK
   
-> Utiliser tous les moyens, y compris des carnets d’adresses en mode hors connexion, pour effectuer la résolution de noms.
+> Utilisez tous les moyens, y compris les carnets d'adresses en mode hors connexion, pour effectuer la résolution de noms.
     
 MAPI_CACHE_ONLY
   
-> Utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour autoriser une application cliente ouvrir la liste d’adresses globale (LAG) en mode exchange mis en cache et accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer le trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> Utilisez uniquement le carnet d'adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d'ouvrir la liste d'adresses globale (LAG) en mode Exchange mis en cache et d'accéder à une entrée de ce carnet d'adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d'adresses Exchange.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet **OpenEntry** renvoyer avec succès, éventuellement, avant de l’objet est entièrement disponible au client appelant. Si l’objet n’est pas disponible, un appel d’objet suivantes permettre provoquer une erreur. 
+> Permet à **OpenEntry** de retourner correctement, éventuellement avant que l'objet soit entièrement disponible pour le client appelant. Si l'objet n'est pas disponible, un appel d'objet ultérieur peut entraîner une erreur. 
     
-N' 
+MAPI_MODIFY 
   
-> Demandes d’autorisation de lecture/écriture. Par défaut, les objets sont ouverts avec l’autorisation en lecture seule et clients ne doivent pas fonctionner en supposant que l’autorisation est accordée en lecture/écriture. 
+> Demande une autorisation en lecture/écriture. Par défaut, les objets sont ouverts avec une autorisation en lecture seule, et les clients ne doivent pas travailler en supposant que l'autorisation de lecture/écriture est accordée. 
     
 MAPI_NO_CACHE
   
-> N’utilisez pas le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> N'utilisez pas le carnet d'adresses en mode hors connexion pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d'adresses Exchange.
     
 SHOW_SOFT_DELETES
   
-> Afficher les éléments qui sont actuellement marqués comme logicielles supprimés (autrement dit, ils sont dans la rétention des éléments supprimés phase de temps).
+> Affiche les éléments qui sont actuellement marqués comme étant supprimés de manière récupérable (c'est-à-dire qu'ils se trouvent dans la phase de rétention des éléments supprimés).
     
  _lpulObjType_
   
-> [out] Pointeur vers le type de l’objet ouvert.
+> remarquer Pointeur vers le type de l'objet ouvert.
     
  _lppUnk_
   
-> [out] Pointeur vers un pointeur vers l’objet ouvert.
+> remarquer Pointeur vers un pointeur vers l'objet ouvert.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’objet a été ouvert avec succès.
+> L'objet a été ouvert avec succès.
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative a été effectuée pour modifier un objet en lecture seule ou tentative d’accès à un objet pour lequel l’utilisateur dispose d’autorisations insuffisantes.
+> Une tentative de modification d'un objet en lecture seule ou d'une tentative d'accès à un objet pour lequel l'utilisateur ne dispose pas des autorisations suffisantes a été effectuée.
     
 MAPI_E_NOT_FOUND 
   
-> Il n’est pas un objet associé à l’identificateur d’entrée passé dans le paramètre _lpEntryID_ . 
+> Il n'y a pas d'objet associé à l'identificateur d'entrée passé dans le paramètre _lpEntryID_ . 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur d’entrée passé dans le paramètre _lpEntryID_ est dans un format non reconnaissable. Cette valeur est généralement renvoyée si le fournisseur de services qui contient l’objet n’est pas ouvert. 
+> Le format de l'identificateur d'entrée transmis dans le paramètre _lpEntryID_ n'est pas reconnu. Cette valeur est généralement renvoyée si le fournisseur de services qui contient l'objet n'est pas ouvert. 
     
 ## <a name="remarks"></a>Remarques
 
-Le s’ouvre à la méthode **IMAPISession::OpenEntry** un message doit être stockée ou adresses objet book, qui retourne un pointeur vers une interface qui peut servir à accéder à l’objet. 
+La méthode **IMAPISession:: OpenEntry** ouvre une banque de messages ou un objet de carnet d'adresses, renvoyant un pointeur vers une interface qui peut être utilisée pour accéder à l'objet. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 > [!IMPORTANT]
-> Lors de l’ouverture des entrées de dossier sur un magasin public, telles que les dossiers et messages, utilisez [IMsgStore::OpenEntry](imsgstore-openentry.md) au lieu de **IMAPISession::OpenEntry**. Ainsi, cette fonction de dossiers publics correctement lorsque plusieurs comptes Exchange sont définis dans un profil. 
+> Lors de l'ouverture d'entrées de dossier dans une banque publique, telles que des dossiers et des messages, utilisez [IMsgStore:: OpenEntry](imsgstore-openentry.md) au lieu de **IMAPISession:: OpenEntry**. Cela permet de s'assurer que les dossiers publics fonctionnent correctement lorsque plusieurs comptes Exchange sont définis dans un profil. 
   
-Appelez **IMAPISession::OpenEntry** uniquement lorsque vous ne connaissez pas le type d’objet que vous ouvrez. Si vous savez que vous ouvrez un dossier ou un message, appelez [IMsgStore::OpenEntry](imsgstore-openentry.md). Si vous savez que vous ouvrez un conteneur de carnet d’adresses, un utilisateur de messagerie ou une liste de distribution, appelez [IAddrBook::OpenEntry](iaddrbook-openentry.md). Ces méthodes plus spécifiques sont plus rapides que **IMAPISession::OpenEntry**. 
+Appelez **IMAPISession:: OpenEntry** uniquement lorsque vous ne connaissez pas le type d'objet que vous ouvrez. Si vous êtes certain que vous ouvrez un dossier ou un message, appelez [IMsgStore:: OpenEntry](imsgstore-openentry.md). Si vous êtes certain que vous ouvrez un conteneur de carnet d'adresses, un utilisateur de messagerie ou une liste de distribution, appelez [IAddrBook:: OpenEntry](iaddrbook-openentry.md). Ces méthodes plus spécifiques sont plus rapides que **IMAPISession:: OpenEntry**. 
   
-MAPI ouvre tous les objets avec des autorisations en lecture seule, sauf si vous définissez l’indicateur n’ou MAPI_BEST_ACCESS dans le paramètre _ulFlags_ . Définition de l’une de ces indicateurs ne garantit pas un type particulier d’accès ; les autorisations qui sont accordées dépendent de l’objet, le niveau d’accès et le fournisseur de services. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez sa propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+MAPI ouvre tous les objets avec une autorisation en lecture seule, sauf si vous définissez l'indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le paramètre _ulFlags_ . Le fait de définir l'un de ces indicateurs ne garantit pas un type d'accès particulier; les autorisations qui sont accordées dépendent du fournisseur de services, du niveau d'accès et de l'objet. Pour déterminer le niveau d'accès de l'objet ouvert, récupérez sa propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
   
-Appel de **IMAPISession::OpenEntry** et le paramètre _lpEntryID_ pour pointer vers l’identificateur d’entrée d’une banque de messages est identique à l’appel de la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) avec l’indicateur MDB_NO_DIALOG défini. Les paramètres d’indicateur sont également équivalentes, exception faite que pour demander l’autorisation en lecture/écriture avec **OpenMsgStore**, vous devez définir l’indicateur MDB_WRITE au lieu de ne. 
+L'appel de **IMAPISession:: OpenEntry** et la définition de _lpEntryID_ pour pointer vers l'identificateur d'entrée d'une banque de messages est identique à l'appel de la méthode [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) avec l'indicateur MDB_NO_DIALOG défini. Les paramètres d'indicateur sont également équivalents, sauf que pour demander une autorisation en lecture/écriture avec **OpenMsgStore**, vous devez définir l'indicateur MDB_WRITE au lieu de MAPI_MODIFY. 
   
-Vérifiez la valeur renvoyée dans le paramètre _lpulObjType_ pour déterminer si le type d’objet retourné est attendue. Si le type d’objet n’est pas le type escomptés, convertir le pointeur à partir du paramètre _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrez un dossier, un cast _lppUnk_ à un pointeur du type LPMAPIFOLDER. 
+Vérifiez la valeur renvoyée dans le paramètre _lpulObjType_ pour déterminer si le type d'objet renvoyé est celui que vous attendiez. Si le type d'objet n'est pas le type attendu, castez le pointeur du paramètre _lppUnk_ en pointeur du type approprié. Par exemple, si vous ouvrez un dossier, castez _lppUnk_ en pointeur de type LPMAPIFOLDER. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -133,7 +133,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI utilise la méthode **IMAPISession::OpenEntry** pour ouvrir un objet.  <br/> |
+|MAPIFunctions. cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI utilise la méthode **IMAPISession:: OpenEntry** pour ouvrir un objet.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

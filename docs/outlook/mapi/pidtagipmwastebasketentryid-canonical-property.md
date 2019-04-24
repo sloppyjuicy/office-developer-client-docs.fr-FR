@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 66bbf49d737c42ecc2f6c765a60540163649f447
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3794386c4461c90f973e4028132cb8220dfaa19b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327858"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>Propriété canonique PidTagIpmWastebasketEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée du dossier éléments supprimés standard message interpersonnel (IPM). 
+Contient l'identificateur d'entrée du dossier éléments supprimés de message de messagerie interpersonne (IPM) standard. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient l’identificateur d’entrée du dossier éléments supprimés standar
    
 ## <a name="remarks"></a>Remarques
 
-Une application cliente doit déplacer des messages interpersonnels supprimés dans le dossier éléments supprimés. Si le message est déjà dans ce dossier, ou si cette propriété n’est pas pris en charge, le client doit supprimer le message. 
+Une application cliente doit déplacer les messages interpersonnels supprimés vers le dossier éléments supprimés. Si le message est déjà dans ce dossier, ou si cette propriété n'est pas prise en charge, le client doit supprimer le message. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

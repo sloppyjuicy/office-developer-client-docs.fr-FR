@@ -1,5 +1,5 @@
 ---
-title: Choix du jeu de propriétés d’un formulaire
+title: Sélection d’un ensemble de propriétés pour un formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,34 +7,34 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0ff8d9f1ae25c55d66847b8c0e5e66c406dfdfba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: d983b71c7c92c395740a8ae6f6d3666a8bc2c0c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332059"
 ---
-# <a name="choosing-a-forms-property-set"></a>Choix du jeu de propriétés d’un formulaire
+# <a name="choosing-a-forms-property-set"></a>Sélection d’un ensemble de propriétés pour un formulaire
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsque vous implémentez votre serveur de formulaire, vous devez avoir une propriété pour chaque élément d’information qui a besoin de votre classe de message. Ces propriétés peuvent être des propriétés MAPI prédéfinies, ou ils peuvent être des propriétés personnalisées que vous définissez. Pour plus d’informations sur l’utilisation des propriétés, voir [Vue d’ensemble de la propriété MAPI](mapi-property-overview.md).
+Lorsque vous implémentez votre serveur de formulaire, vous devez disposer d'une propriété pour chaque information dont votre classe de message a besoin. Ces propriétés peuvent être des propriétés MAPI prédéfinies ou des propriétés personnalisées que vous définissez. Pour plus d'informations sur l'utilisation des propriétés, voir [MAPI Property Overview](mapi-property-overview.md).
   
-Votre fichier de configuration de formulaire contient une liste des propriétés qui expose de votre serveur de formulaire pour les applications clientes à utiliser, mais il ne doit pas être la liste complète des propriétés utilisées par le serveur de votre formulaire. Applications clientes utilisent généralement les propriétés exposées pour permettre aux utilisateurs de classer les messages dans un dossier ou personnaliser leurs interfaces d’une manière.
+Votre fichier de configuration de formulaire contiendra une liste de propriétés que votre serveur de formulaire expose pour les applications clientes à utiliser, mais cela ne doit pas nécessairement être la liste complète des propriétés utilisées par votre serveur de formulaires. Les applications clientes utilisent généralement les propriétés exposées pour permettre aux utilisateurs de trier les messages d'un dossier ou de personnaliser leurs interfaces d'une certaine façon.
   
-MAPI a un grand ensemble de propriétés prédéfinies qui suffit pour la plupart des applications. Toutefois, il peut arriver lorsqu’une classe de message personnalisée doit être une propriété qui ne définit pas de MAPI. Vous pouvez utiliser les propriétés personnalisées pour étendre l’ensemble MAPI prédéfinie des propriétés pour les informations spéciales que votre serveur de formulaire doit prendre en charge.
+MAPI dispose d'un grand ensemble de propriétés prédéfinies qui suffisent à la plupart des applications. Toutefois, il arrivera qu'une classe de message personnalisée ait besoin d'une propriété non définie par MAPI. Vous pouvez utiliser des propriétés personnalisées pour étendre l'ensemble prédéfini MAPI de propriétés pour les informations spéciales que votre serveur de formulaire doit prendre en charge.
   
-Vous pouvez utiliser une des méthodes suivantes pour définir des propriétés personnalisées :
+Vous pouvez utiliser l'une des méthodes suivantes pour définir des propriétés personnalisées:
   
-- Choisissez un nom pour la propriété et la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) permet d’obtenir une balise de propriété pour celui-ci. L’interface [IMAPIProp](imapipropiunknown.md) par le biais de laquelle vous appelez cette méthode provient le pointeur [IMessage](imessageimapiprop.md) qui est transmis au serveur de formulaire lorsque le message est créé. Notez que le nom de la propriété doit être une chaîne de caractères étendus. 
+- Choisissez un nom pour la propriété et utilisez la méthode [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir une balise de propriété. L'interface [IMAPIProp](imapipropiunknown.md) par le biais de laquelle vous appelez cette méthode provient du pointeur [IMessage](imessageimapiprop.md) transmis au serveur de formulaire lors de la création du message. Notez que le nom de la propriété doit être une chaîne à caractères larges. 
     
-- Définir une balise de propriété personnalisée vous-même. Balises de propriété personnalisée doivent être dans la plage 0x6800 via 0x7BFF. Les propriétés de cette plage sont classe de message spécifique.
+- Définissez une balise de propriété personnalisée vous-même. Les balises de propriété personnalisée doivent être comprises dans la plage 0x6800 à 0x7BFF. Les propriétés de cette plage sont spécifiques à la classe de messages.
     
-Pour plus d’informations sur la définition des propriétés personnalisées, voir [Définition des nouvelles propriétés MAPI](defining-new-mapi-properties.md).
+Pour plus d'informations sur la définition des propriétés personnalisées, consultez la rubrique [Defining New MAPI Properties](defining-new-mapi-properties.md).
   
 > [!NOTE]
-> Serveurs de formulaire qui ont un texte de message souvent permet de stocker la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Si votre serveur formulaire utilise **PR_RTF_COMPRESSED**, il doit également vous assurer que la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) contient une version texte seul du texte du message, au cas où le message qui en résulte est lu par un client qui ne prend pas en charge le texte riche Texte du message au format RTF. 
+> Les serveurs de formulaire qui ont un texte de message utilisent souvent la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) pour le stocker. Si votre serveur de formulaire utilise **PR_RTF_COMPRESSED**, il doit également s'assurer que la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) contient une version de texte uniquement du texte du message, dans le cas où le message résultant est lu par un client qui ne prend pas en charge le texte enrichi. Texte du message au format (RTF). 
   
 ## <a name="see-also"></a>Voir aussi
 

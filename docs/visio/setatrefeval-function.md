@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm1042150
 localization_priority: Normal
 ms.assetid: b3f3a0a0-7b14-0b71-d247-ada81b93b66b
-description: Utilisé dans le paramètre set_expression de la fonction SETATREF pour indiquer que set_expression devrait être évalué avant d’affecter au paramètre reference dans SETATREF.
-ms.openlocfilehash: 0826ef9ca91e180576c0b2611452758b238736a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Utilisé dans le paramètre Set_Expression de la fonction SETATREF pour indiquer que Set_Expression doit être évalué avant d'être affecté au paramètre Reference dans SETATREF.
+ms.openlocfilehash: a11a7485e04d4deb31e9497476bb198d675bc68f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326158"
 ---
-# <a name="setatrefeval-function"></a>SETATREFEVAL, fonction
+# <a name="setatrefeval-function"></a>Fonction SETATREFEVAL
 
-Utilisé dans le paramètre _set_expression_ de la fonction SETATREF pour indiquer que _set_expression_ devrait être évalué avant d’affecter au paramètre _reference_ dans SETATREF. 
+Utilisé dans le paramètre _set_expression_ de la fonction SETATREF pour indiquer que _set_expression_ doit être évalué avant d'être affecté au paramètre _Reference_ dans SETATREF. 
   
 ## <a name="syntax"></a>Syntaxe
 
-SETATREFEVAL (** *expr* **) 
+SETATREFEVAL (* * *expr* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expr_ <br/> |Obligatoire  <br/> |**Varie** <br/> | Une expression qui est évaluée lorsque la fonction SETATREF redirige _set_expression_ vers une autre cellule.  <br/> |
+| _expr_ <br/> |Obligatoire  <br/> |**Réelle** <br/> | Expression évaluée lorsque la fonction SETATREF redirige _set_expression_ vers une autre cellule.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous affectez le paramètre *set_expression* de la fonction SETATREF à une cellule référencée, Microsoft Visio écrit *set_expression* à la cellule comme une expression par défaut. Toutefois, si n’importe quelle partie du paramètre *set_expression* est encapsulée par la fonction SETATREFEVAL, Visio évalue l’expression et remplace la fonction SETATREFEVAL par son résultat avant de résoudre l’expression SETATREF. 
+Lors de l'assignation du paramètre *set_expression* de la fonction SETATREF à une cellule référencée, Microsoft Visio écrit *set_expression* dans la cellule en tant qu'expression par défaut. Toutefois, si une partie du paramètre *set_expression* est encapsulée par la fonction SETATREFEVAL, Visio évalue l'expression et remplace la fonction SETATREFEVAL par son résultat avant de résoudre l'expression SETATREF. 
   
 ## <a name="example"></a>Exemple
 
-Pour obtenir un exemple, reportez-vous à la fonction [SETATREF](setatref-function.md) . 
+Pour un exemple, reportez-vous à la fonction [SETATREF](setatref-function.md). 
   
 

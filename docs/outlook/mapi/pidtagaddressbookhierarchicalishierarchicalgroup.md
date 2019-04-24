@@ -11,45 +11,45 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d5d289b2-d4d6-49ab-bf8b-945cb35272fc
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 37a0e31ea368f091e3ad9c46473d3d33299d5a21
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325724"
 ---
 # <a name="pidtagaddressbookhierarchicalishierarchicalgroup"></a>PidTagAddressBookHierarchicalIsHierarchicalGroup
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si la liste de distribution est également un groupe de service. Cette propriété est disponible uniquement sur les listes de distribution.
+Contient la valeur TRUE si la liste de distribution est également un groupe de services. Cette propriété est disponible uniquement sur les listes de distribution.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EMS_AB_HAB_IS_HIERARCHICAL_GROUP  <br/> |
-|Jeu de propriétés :  <br/> |Carnet d’adresses  <br/> |
-|ID de type long (capot) :  <br/> |0x8CDD  <br/> |
+|Jeu de propriétés:  <br/> |Carnet d’adresses  <br/> |
+|ID long (couvercle):  <br/> |0x8CDD  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Carnet d’adresses Exchange  <br/> |
+|Domaine :  <br/> |Carnet d'adresses Exchange  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références pour les spécifications des protocoles Microsoft Exchange Server.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Microsoft Exchange Server connexes.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/cc433489%28v=exchg.80%29)
   
-> Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
+> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

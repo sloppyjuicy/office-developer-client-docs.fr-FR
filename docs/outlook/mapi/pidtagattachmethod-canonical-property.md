@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
-description: 'Dernière modification : 07 septembre 2016'
+description: 'Dernière modification: 7 septembre 2016'
 ms.openlocfilehash: b84549ab31c939b4e6115795916ebd3520a96dbd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327257"
 ---
 # <a name="pidtagattachmethod-canonical-property"></a>Propriété canonique PidTagAttachMethod
 
  
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une constante défini par MAPI représentant la façon dont le contenu d’une pièce jointe est accessible. 
+Contient une constante définie par MAPI qui représente le mode d'accès au contenu d'une pièce jointe. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient une constante défini par MAPI représentant la façon dont le contenu 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement une des valeurs suivantes :
+Cette propriété peut avoir exactement l'une des valeurs suivantes:
   
 NO_ATTACHMENT 
   
-> La pièce jointe vient d’être créée. 
+> La pièce jointe vient d'être créée. 
     
 ATTACH_BY_VALUE 
   
-> La propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) contient les données de pièce jointe. 
+> La propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) contient les données de la pièce jointe. 
     
 ATTACH_BY_REFERENCE 
   
-> L' **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) ou la propriété **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)) contient un chemin d’accès complet qui identifie la pièce jointe aux destinataires d’accéder à un fichier commun serveur. 
+> La propriété **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) ou **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)) contient un chemin d'accès complet qui identifie la pièce jointe aux destinataires ayant accès à un fichier commun serveurs. 
     
 ATTACH_BY_REF_RESOLVE 
   
-> La propriété **PR_ATTACH_PATHNAME** ou **PR_ATTACH_LONG_PATHNAME** contient un chemin d’accès complet qui identifie la pièce jointe. 
+> La propriété **PR_ATTACH_PATHNAME** ou **PR_ATTACH_LONG_PATHNAME** contient un chemin d'accès complet qui identifie la pièce jointe. 
     
 ATTACH_BY_REF_ONLY 
   
-> La propriété **PR_ATTACH_PATHNAME** ou **PR_ATTACH_LONG_PATHNAME** contient un chemin d’accès complet qui identifie la pièce jointe. 
+> La propriété **PR_ATTACH_PATHNAME** ou **PR_ATTACH_LONG_PATHNAME** contient un chemin d'accès complet qui identifie la pièce jointe. 
     
 ATTACH_EMBEDDED_MSG 
   
-> La propriété **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) contient un objet incorporé qui prend en charge l’interface **IMessage** . 
+> La propriété **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) contient un objet incorporé qui prend en charge l'interface **IMessage** . 
     
 ATTACH_OLE 
   
@@ -68,45 +68,45 @@ ATTACH_OLE
     
 ATTACH_BY_WEBREFERENCE 
   
-> Le contenu de pièce jointe n’est pas dans le message. 
+> Le contenu de la pièce jointe n'est pas dans le message. 
     
-Une fois créée, tous les objets de pièces jointes ont une valeur initiale **PR_ATTACH_METHOD** **NO_ATTACHMENT**. 
+Lors de sa création, tous les objets Attachment ont une valeur **PR_ATTACH_METHOD** initiale de **NO_ATTACHMENT**. 
   
-Fournisseurs de services et les applications clientes sont uniquement requis pour prendre en charge la méthode de pièce jointe représentée par la valeur **ATTACH_BY_VALUE** . Les autres méthodes de pièce jointe sont facultatifs. La banque de messages n’applique pas la cohérence entre la valeur de **PR_ATTACH_METHOD** et les valeurs d’autres propriétés de la pièce jointe. 
+Les applications clientes et les fournisseurs de services sont uniquement requis pour prendre en charge la méthode de pièce jointe représentée par la valeur **ATTACH_BY_VALUE** . Les autres méthodes de pièces jointes sont facultatives. La Banque de messages n'applique pas de cohérence entre la valeur de **PR_ATTACH_METHOD** et les valeurs des autres propriétés de pièces jointes. 
   
-Noms universal naming convention (UNC) sont recommandés pour les chemins complet, qui doivent être utilisées avec **ATTACH_BY_REFERENCE** et **ATTACH_BY_REF_ONLY**. Avec **ATTACH_BY_REF_RESOLVE**, un chemin d’accès absolu est plus rapide, car le spouleur MAPI convertit la pièce jointe **ATTACH_BY_VALUE**. 
+Les noms UNC (Universal Naming Convention) sont recommandés pour les chemins d'accès complets, qui doivent être utilisés avec **ATTACH_BY_REFERENCE** et **ATTACH_BY_REF_ONLY**. Avec **ATTACH_BY_REF_RESOLVE**, un chemin d'accès absolu est plus rapide, car le SPOULEur MAPI convertit la pièce jointe en **ATTACH_BY_VALUE**. 
   
-Si **ATTACH_BY_REFERENCE** est défini, **PR_ATTACH_DATA_BIN** doit être vide. Une passerelle sortante peut activer une pièce jointe **ATTACH_BY_REFERENCE** dans une pièce jointe **ATTACH_BY_VALUE** en copiant des données de pièce jointe dans la propriété **PR_ATTACH_DATA_BIN** . 
+Si **ATTACH_BY_REFERENCE** est défini, **PR_ATTACH_DATA_BIN** doit être vide. Une passerelle sortante peut transformer une pièce jointe **ATTACH_BY_REFERENCE** en une pièce jointe **ATTACH_BY_VALUE** en copiant les données de pièce jointe dans la propriété **PR_ATTACH_DATA_BIN** . 
   
-Si **ATTACH_BY_REF_RESOLVE** est défini, **PR_ATTACH_DATA_BIN** doit être vide. Lorsque le message qui contient la pièce jointe **ATTACH_BY_REF_RESOLVE** est envoyé, le spouleur MAPI copie les données de pièce jointe dans une pièce jointe **ATTACH_BY_VALUE** . Ce processus de résolution place les données de pièce jointe dans **PR_ATTACH_DATA_BIN**. 
+Si **ATTACH_BY_REF_RESOLVE** est défini, **PR_ATTACH_DATA_BIN** doit être vide. Lorsque le message contenant la pièce jointe **ATTACH_BY_REF_RESOLVE** est envoyé, le spouleur MAPI copie les données de pièce jointe dans une pièce jointe **ATTACH_BY_VALUE** . Ce processus de résolution place les données des pièces jointes dans **PR_ATTACH_DATA_BIN**. 
   
-Si **ATTACH_BY_REF_ONLY** est défini, **PR_ATTACH_DATA_BIN** doit être vide, et le système de messagerie résout jamais la référence de la pièce jointe. Utilisez cette valeur lorsque vous souhaitez envoyer le lien, mais pas les données. 
+Si **ATTACH_BY_REF_ONLY** est défini, **PR_ATTACH_DATA_BIN** doit être vide et le système de messagerie ne résout jamais la référence à la pièce jointe. Utilisez cette valeur lorsque vous souhaitez envoyer le lien, mais pas les données. 
   
-Lorsque l’objet OLE est au format OLE 2.0 **IStorage** , les données sont accessibles via **PR_ATTACH_DATA_OBJ**. Lorsque l’objet OLE est au format OLE 1.0 **OLESTREAM** , les données sont accessibles via **PR_ATTACH_DATA_BIN** comme un **IStream**. Le type du codage OLE peut être déterminé par la valeur **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+Lorsque l'objet OLE est au format OLE 2,0 **IStorage** , les données sont accessibles via **PR_ATTACH_DATA_OBJ**. Lorsque l'objet OLE est au format OLE 1,0 **OLESTREAM** , les données sont accessibles via **PR_ATTACH_DATA_BIN** en tant qu' **IStream**. Le type d'encodage OLE peut être déterminé par la valeur de **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
-Pour plus d’informations sur les formats et les interfaces OLE, consultez la *référence du programmeur OLE* . 
+Pour plus d'informations sur les interfaces et les formats OLE, consultez le *Guide de référence du programmeUr OLE* . 
   
 ## <a name="remarks"></a>Remarques
 
-Une fois le **PR_ATTACH_METHOD** **ATTACH_BY_WEBREFERENCE**, le contenu de pièce jointe n’est pas dans le message. Au lieu de cela, la propriété **PR_ATTACH_LONG_FILENAME** contient une URL absolue pour le contenu de pièce jointe, qui est stocké en ligne. 
+Lorsque le **PR_ATTACH_METHOD** est **ATTACH_BY_WEBREFERENCE**, le contenu de la pièce jointe n'est pas dans le message. Au lieu de cela, la propriété **PR_ATTACH_LONG_FILENAME** contient une URL absolue vers le contenu de la pièce jointe, qui est stocké en ligne. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

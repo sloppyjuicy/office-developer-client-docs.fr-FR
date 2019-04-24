@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm82251885
 localization_priority: Normal
 ms.assetid: 1da42991-5791-ebab-84cc-286cfe984a61
-description: Obtient la valeur d’une cellule et ne recalcule pas la formule lorsque la valeur de cellule est modifiée.
-ms.openlocfilehash: b4c8ea14b7184101a360c9f5ee4af03fd178aa6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient la valeur d'une cellule et ne recalcule pas la formule lors de la modification de la valeur de la cellule.
+ms.openlocfilehash: 9449ccd8f849b23faf08ee25826301a1b6efe6d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327313"
 ---
-# <a name="getval-function"></a>GETVAL, fonction
+# <a name="getval-function"></a>Fonction GETVAL
 
-Obtient la valeur d’une cellule et ne recalcule pas la formule lorsque la valeur de cellule est modifiée.
+Obtient la valeur d'une cellule et ne recalcule pas la formule lors de la modification de la valeur de la cellule.
   
 ## <a name="syntax"></a>Syntaxe
 
-GETVAL (** *cellname* **) 
+GETVAL (* * *cellName* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellName_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Nom de la cellule dont la valeur doit être obtenue.  <br/> |
+| _cellName_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom de la cellule dont la valeur doit être obtenue.  <br/> |
    
 ## <a name="example"></a>Exemple
 

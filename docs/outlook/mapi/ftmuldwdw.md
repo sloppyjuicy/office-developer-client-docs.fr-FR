@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8002698b1644fb63292b4242d4fb3d784a99a03f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 54561450e7d91d8a30695dacf508758623547e39
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327978"
 ---
 # <a name="ftmuldwdw"></a>FtMulDwDw
 
@@ -25,13 +25,13 @@ ms.locfileid: "22592023"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Multiplie un entier non signé de 32 bits par une autre.
+Multiplie un entier non signé 32 bits par un autre.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 FILETIME FtMulDwDw(
@@ -44,14 +44,14 @@ FILETIME FtMulDwDw(
 
  _Multiplicand_
   
-> [in] Un mot double contenant le nombre entier non signé 32 bits à multipliées par la valeur dans le paramètre _Multiplicateur_ . 
+> dans Mot double qui contient l'entier non signé 32 bits à multiplier par la valeur dans le paramètre _multiplicateur_ . 
     
  _Multiplicateur_
   
-> [in] Un mot double contenant le multiplicateur de nombre entier non signé 32 bits.
+> dans Un double mot qui contient le multiplicateur de nombres entiers non signés 32 bits.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **FtMulDwDw** renvoie une structure [FILETIME](filetime.md) qui contient le produit de deux entiers. Les deux paramètres d’entrée restent inchangées. 
+La fonction **FtMulDwDw** renvoie une structure [fileTime](filetime.md) qui contient le produit des deux entiers. Les deux paramètres d'entrée restent inchangés. 
   
 

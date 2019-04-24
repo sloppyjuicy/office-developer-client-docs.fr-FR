@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e7932433-abe0-4341-95e0-91b37c848145
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a948c8c25eec9b31735bb34b91e2dec4bca5fcfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e8c52d71ee47966be09c6c0806eceafae0c5ff5b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331506"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583448"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Effectue post-traitement sur un message. 
+Effectue un post-traitement sur un message. 
   
 ```cpp
 HRESULT CompleteMsg(
@@ -35,7 +35,7 @@ HRESULT CompleteMsg(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -43,11 +43,11 @@ HRESULT CompleteMsg(
     
  _cbEntryID_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée du message à traiter.
+> dans Pointeur vers l'identificateur d'entrée du message à traiter.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -57,15 +57,15 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::CompleteMsg** est implémentée pour les objets de prise en charge de fournisseur de magasin de message et est appelée uniquement par les fournisseurs de magasins de message sont étroitement liés à des fournisseurs de transport. Fournisseurs de magasins étroitement couplés appellent **IMAPISupport::CompleteMsg** pour demander au spouleur MAPI de post-traitement d’un message. 
+La méthode **IMAPISupport:: CompleteMsg** est implémentée pour les objets de prise en charge du fournisseur de banque de messages et est appelée uniquement par les fournisseurs de banques de messages étroitement couplés avec les fournisseurs de transport. Les fournisseurs de magasins étroitement couplés appellent **IMAPISupport:: CompleteMsg** pour indiquer au spouleur MAPI d'postprocess un message. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **CompleteMsg** uniquement lorsque vous sont étroitement liés à un fournisseur de transport, vous pouvez gérer tous les destinataires du message et une des conditions suivantes existe : 
+Appeler **CompleteMsg** uniquement lorsque vous êtes fermement couplé à un fournisseur de transport, vous pouvez gérer tous les destinataires du message, et l'une des conditions suivantes existe: 
   
 - Le message a été prétraité.
     
-- Le message requiert post-traitement par le spouleur MAPI.
+- Le message nécessite un post-traitement par le spouleur MAPI.
     
 ## <a name="see-also"></a>Voir aussi
 

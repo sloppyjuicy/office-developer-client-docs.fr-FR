@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1775e5ea79fc71ac64a4536d3866b9a75ed96a6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b45b80f09efbd4f05aabc2c868d5bd8eb5fa4cce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327992"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajoute une routine [FNIDLE](fnidle.md) fonction inactive au système MAPI. 
+Ajoute une routine inactive basée sur la fonction [FNIDLE](fnidle.md) au système MAPI. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 FTG FtgRegisterIdleRoutine(
@@ -45,81 +45,81 @@ FTG FtgRegisterIdleRoutine(
 
 _pfnIdle_
   
-> [in] Pointeur vers la routine inactif. 
+> dans Pointeur vers la routine inactive. 
     
 _pvIdleParam_
   
-> [in] Pointeur vers un bloc de mémoire que le moteur d’inactivité doit transmettre en tant que paramètre à la routine inactive lorsqu’il l’appelle. 
+> dans Pointeur vers un bloc de mémoire que le moteur inactif doit transmettre en tant que paramètre à la routine inactive lorsqu'il l'appelle. 
     
 _priIdle_
   
-> [in] La priorité initiale de la routine d’inactivité. Priorités possibles pour les routines défini par l’implémentation sont supérieur ou inférieur à zéro, mais pas de zéro. La priorité de zéro est réservée pour un événement utilisateur comme un clic de souris ou d’un message WM_PAINT. Supérieure à zéro des priorités représentent des tâches en arrière-plan qui ont une priorité plus élevée que les événements de l’utilisateur et sont exécutés dans le cadre de la boucle de pompe de message Windows standard. Priorités inférieur à zéro représente les tâches inactives uniquement être exécutées pendant la durée d’inactivité pompe message. Exemples de priorités sont les suivantes : 1 pour l’envoi de premier plan, 2 pour l’insertion de caractère power-modifier et 3 pour le téléchargement de nouveaux messages.
+> dans Priorité initiale de la routine inactive. Les priorités possibles pour les routines définies par l'implémentation sont supérieures ou inférieures à zéro, mais pas à zéro. La priorité zéro est réservée à un événement utilisateur tel qu'un clic de souris ou un message WM_PAINT. Les priorités supérieures à zéro représentent les tâches en arrière-plan dont la priorité est supérieure à celle des événements utilisateur et qui sont distribuées dans le cadre de la boucle Windows message Pump standard. Les priorités inférieures à zéro représentent des tâches inactives qui s'exécutent uniquement pendant la durée d'inactivité de la pompe de messages. Voici des exemples de priorités: 1 pour l'envoi de premier plan, 2 pour l'insertion de caractères de modification de l'alimentation et 3 pour le téléchargement de nouveaux messages.
     
 _csecIdle_
   
-> [in] La valeur de la première fois, dans centième de seconde, à utiliser pour spécifier les paramètres de routine inactifs. La signification de la valeur d’heure initiale varie, selon ce qui est passé dans le paramètre _iroIdle_ . La signification peut être une des options suivantes : 
+> dans Valeur de l'heure initiale, en centièmes de seconde, à utiliser pour spécifier les paramètres de routine inactive. La signification de la valeur de l'heure initiale varie en fonction de ce qui est passé dans le paramètre _iroIdle_ . La signification peut être l'une des suivantes: 
     
-  - La durée minimale d’inaction utilisateur qui doit s’écouler avant l’interface MAPI moteur inactif appelle la routine inactive pour la première fois, si l’indicateur FIROWAIT est défini dans _iroIdle_. Une fois ce délai, le moteur d’inactivité peut appeler la routine inactive aussi souvent que nécessaire. 
+  - Période minimale d'inaction de l'utilisateur qui doit s'écouler avant que le moteur inactif MAPI appelle la routine inactive pour la première fois, si l'indicateur FIROWAIT est défini dans _iroIdle_. Une fois ce délai passé, le moteur inactif peut appeler la routine inactive aussi souvent que nécessaire. 
     
-  - L’intervalle minimal entre les appels à la routine inactive, si l’indicateur FIROINTERVAL est défini dans _iroIdle_. 
+  - Intervalle minimal entre les appels à la routine inactive, si l'indicateur FIROINTERVAL est défini dans _iroIdle_. 
     
 _iroIdle_
   
-> [in] Masque de bits d’indicateurs utilisés pour définir les options initiales de la routine d’inactivité. Les indicateurs suivants peuvent être définis :
+> dans Masque de réinitialisation des indicateurs utilisés pour définir les options initiales de la routine inactive. Les indicateurs suivants peuvent être définis:
     
   FIRONOADJUSTMENT
     
-  > Utilisez cet indicateur pour spécifier que l’horloge de routine ne doit pas être ajustée pour la mise en veille ou de reprendre. Le comportement par défaut sans cet indicateur est que la durée de veille est exclue lors du calcul du temps écoulé. Si FIRONOADJUSTMENT est passée la durée de veille est incluse lors du calcul de temps écoulé.
+  > Utilisez cet indicateur pour spécifier que le minuteur de la routine inactive ne doit pas être ajusté en mode veille ou reprise. Le comportement par défaut sans cet indicateur est que le temps de sommeil est exclu lors du calcul du temps écoulé. Si FIRONOADJUSTMENT est transmis, la durée de veille est incluse lors du calcul du temps écoulé.
       
   FIRODISABLED
     
-  > La routine d’inactivité doit être désactivée lorsque enregistré. L’action par défaut consiste à activer la routine inactive lorsque **FtgRegisterIdleRoutine** inscrit. 
+  > La routine inactive doit être désactivée lors de l'inscription. L'action par défaut consiste à activer la routine inactive lorsque **FtgRegisterIdleRoutine** l'enregistre. 
       
   FIROINTERVAL 
     
-  > L’heure spécifiée par le paramètre _csecIdle_ est l’intervalle entre les appels successifs de la routine d’inactivité minimale. 
+  > Le temps spécifié par le paramètre _csecIdle_ est l'intervalle minimal entre les appels successifs de la routine inactive. 
       
   FIROONCEONLY 
     
-  > Obsolète. Ne pas utiliser.  
+  > Obsolète. Ne pas utiliser. 
       
   FIROPERBLOCK 
     
-  > Obsolète. Ne pas utiliser.  
+  > Obsolète. Ne pas utiliser. 
       
   FIROWAIT 
     
-  > L’heure spécifiée par le paramètre _csecIdle_ est la durée minimale d’inaction utilisateur qui doit s’écouler avant que le moteur d’inactivité MAPI appelle la routine inactive pour la première fois. Une fois ce délai, le moteur d’inactivité peut appeler la routine inactive aussi souvent que nécessaire. 
+  > Le temps spécifié par le paramètre _csecIdle_ est la période minimale d'inaction de l'utilisateur qui doit s'écouler avant que le moteur d'inactivité MAPI appelle la routine inactive pour la première fois. Une fois ce délai passé, le moteur inactif peut appeler la routine inactive aussi souvent que nécessaire. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **FtgRegisterIdleRoutine** renvoie une balise de fonction qui identifie la routine d’inactivité qui a été ajoutée au système MAPI. Si **FtgRegisterIdleRoutine** ne peut pas enregistrer la routine d’inactivité pour l’application cliente ou d’un fournisseur de services, par exemple en raison de problèmes de mémoire, elle renvoie la valeur NULL. 
+La fonction **FtgRegisterIdleRoutine** renvoie une balise de fonction identifiant la routine inactive qui a été ajoutée au système MAPI. Si **FtgRegisterIdleRoutine** ne parvient pas à enregistrer la routine inactive pour l'application cliente ou le fournisseur de services, par exemple en raison de problèmes de mémoire, elle renvoie la valeur null. 
   
 ## <a name="remarks"></a>Remarques
 
-Les fonctions suivantes traitent avec le moteur d’inactivité MAPI et routines inactifs basées sur le prototype de fonction [FNIDLE](fnidle.md) . 
+Les fonctions suivantes concernent le moteur inactif MAPI et les routines inactives basées sur le prototype de fonction [FNIDLE](fnidle.md) . 
   
-|**Fonction de routine inactive**|**Utilisation**|
+|**Fonction de routine inactive**|**Usage**|
 |:-----|:-----|
-|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d’une routine d’inactivité inscrit.  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Supprime une routine d’inactivité inscrit dans le système MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Active ou désactive réactive une routine d’inactivité inscrit sans la supprimer à partir du système MAPI.  <br/> |
-|**FtgRegisterIdleRoutine** <br/> |Ajoute une routine inactive au système MAPI, avec ou sans l’activer.  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Arrête le moteur d’inactivité MAPI pour l’application appelante.  <br/> |
-|[MAPIInitIdle](mapiinitidle.md) <br/> |Initialise le moteur d’inactivité MAPI pour l’application appelante.  <br/> |
+|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d'une routine inactive enregistrée.  <br/> |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Supprime une routine inactive inscrite du système MAPI.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Désactive ou réactive une routine inactive enregistrée sans la supprimer du système MAPI.  <br/> |
+|**FtgRegisterIdleRoutine** <br/> |Ajoute une routine inactive au système MAPI, avec ou sans l'activer.  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Arrête le moteur d'inactivité MAPI pour l'application appelante.  <br/> |
+|[MAPIInitIdle](mapiinitidle.md) <br/> |Initialise le moteur d'inactivité MAPI pour l'application appelante.  <br/> |
    
-**ChangeIdleRoutine**, **DeregisterIdleRoutine**et **EnableIdleRoutine** prennent comme paramètre d’entrée de la balise de fonction retournée par **FtgRegisterIdleRoutine**. 
+**ChangeIdleRoutine**, **DeregisterIdleRoutine**et **EnableIdleRoutine** prennent comme paramètre d'entrée la balise de fonction renvoyée par **FtgRegisterIdleRoutine**. 
   
-Lorsque toutes les tâches de premier plan pour la plateforme sont inactives, le moteur d’inactivité MAPI appelle la routine d’inactivité priorité la plus élevée qui est prête à exécuter. Il n’existe aucune garantie de l’appel de commande entre inactifs routines de même priorité. 
+Lorsque toutes les tâches de premier plan de la plate-forme deviennent inactives, le moteur inactif MAPI appelle la routine inactive de priorité la plus élevée qui est prête à s'exécuter. Il n'existe aucune garantie d'appel de commande entre les routines inactives de la même priorité. 
   
-Voici un exemple d’utilisation de l’indicateur FIRONOADJUSTMENT dans le paramètre _iroIdle_ . 
+Voici un exemple d'utilisation de l'indicateur FIRONOADJUSTMENT dans le paramètre _iroIdle_ . 
   
 1. Enregistrer une routine inactive avec un délai de 5 minutes.
     
-2. Mise en veille prolongée/veille l’ordinateur après 1 minute (4 minutes à gauche de l’horloge).
+2. Mettre en veille/mettre l'ordinateur en veille après 1 minute (4 minutes restantes sur le minuteur).
     
-3. Redémarrez l’ordinateur 10 minutes plus tard.
+3. Reprendre l'ordinateur 10 minutes plus tard.
     
-Le comportement par défaut, sans FIRONOADJUSTMENT, est que vous devrez attendre 4 minutes pour exécuter votre routine. Autrement dit, le minuteur a été ajustée pour permettre la durée pendant laquelle l’ordinateur était en veille. Toutefois, si vous transmettez FIRONOADJUSTMENT votre routine inactif exécutera immédiatement car plus de 5 minutes de temps réel se sont écoulées.
+Le comportement par défaut, sans FIRONOADJUSTMENT, est que vous devez attendre 4 minutes supplémentaires pour l'exécution de votre routine. Autrement dit, votre minuteur a été ajusté pour permettre pendant combien de temps l'ordinateur était en mode veille. Toutefois, si vous transmettez FIRONOADJUSTMENT, votre routine inactive s'exécutera immédiatement car plus de 5 minutes de temps réel se sont écoulées.
   
 

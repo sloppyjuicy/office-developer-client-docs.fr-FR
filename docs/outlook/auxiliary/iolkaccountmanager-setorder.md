@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e219adf6-e591-72e6-b9bd-2fc62eb5142d
-description: Modifie l’ordre de la catégorie spécifiée de comptes.
-ms.openlocfilehash: fcb27404471c9b551320027b0ed6979926ad3d58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Modifie l'ordre de la catégorie de comptes spécifiée.
+ms.openlocfilehash: 29dfe4fd1bda9e323481297167361650c3b3a173
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322042"
 ---
 # <a name="iolkaccountmanagersetorder"></a>IOlkAccountManager::SetOrder
 
-Modifie l’ordre de la catégorie spécifiée de comptes.
+Modifie l'ordre de la catégorie de comptes spécifiée.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,7 +35,7 @@ HRESULT SetOrder(
 
 _pclsidCategory_
   
-> [in] L’identificateur de classe de catégorie pour laquelle définir l’ordre. La valeur doit être une des opérations suivantes :
+> dans ID de classe de catégorie pour lequel définir l'ordre. La valeur doit être l’une des suivantes :
     
    - CLSID_OlkAddressBook
     
@@ -43,24 +43,24 @@ _pclsidCategory_
     
 _cAccts_
   
-> [in] Le nombre de comptes.
+> dans Nombre de comptes.
     
 _rgAccts_
   
-> [in] Tableau des ID de compte. La taille du tableau est _cAccts_.
+> dans Tableau d'ID de compte. La taille du tableau est _cAccts_.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_ACCT_WRONG_SORT_ORDER  <br/> |Le nouvel ordre de tri a un nombre différent de comptes à l’ancien ordre de tri.  <br/> |
+|E_ACCT_WRONG_SORT_ORDER  <br/> |Le nouvel ordre de tri a un nombre de comptes différent de celui de l'ancien ordre de tri.  <br/> |
 |E_INVALIDARG  <br/> |Un ou plusieurs arguments ne sont pas valides.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’appelant alloue de la mémoire pour le pointeur de tableau _prgAccts_ , ainsi que pour le tableau qui pointe _prgAccts_ . 
+L'appelant alloue de la mémoire pour le pointeur de tableau _prgAccts_ ainsi que pour le tableau auquel _prgAccts_ pointe. 
   
 ## <a name="see-also"></a>Voir aussi
 

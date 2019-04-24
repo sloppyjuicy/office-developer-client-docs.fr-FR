@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 70b6ecc8-6be3-0f05-3291-ac5b7f2ecfdb
-description: Renvoie les informations de compte.
-ms.openlocfilehash: ec1824d8c8c61d392b4e11cdb5213a85100d971e
-ms.sourcegitcommit: c55eec212ae794592c83bbf06b01eab5ca6bff6d
+description: Renvoie le cachet de compte.
+ms.openlocfilehash: fe3c6e65e12ab62bd1c2ec0245e4a22502f610eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "19782822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327593"
 ---
 # <a name="propacctstamp"></a>PROP_ACCT_STAMP
 
-Renvoie les informations de compte.
+Renvoie le cachet de compte.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -24,14 +24,14 @@ Voir [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
-|Identificateur :  <br/> |0x000d  <br/> |
-|Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Balise de propriété :  <br/> |0x000D001F  <br/> |
-|Access :  <br/> |Lecture seule  <br/> |
+|Identificateur :  <br/> |0x000D  <br/> |
+|Type de propriété:  <br/> |PT_UNICODE  <br/> |
+|Balise de propriété:  <br/> |0x000D001F  <br/> |
+|Access  <br/> |Lecture seule  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Obtenez cette propriété à l’aide de [IOlkAccount::GetProp](iolkaccount-getprop.md). Si le client essaie de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**. 
+Obtenez cette propriété à l'aide de [IOlkAccount:: getprop](iolkaccount-getprop.md). Si le client tente de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**. 
   
 ## <a name="see-also"></a>Voir aussi
 

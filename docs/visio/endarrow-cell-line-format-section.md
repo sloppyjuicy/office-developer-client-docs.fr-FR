@@ -9,39 +9,39 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2f9c11ba-a316-bc34-60d4-0a41b2af486f
 description: Indique si un trait comporte une pointe de flèche ou un autre format d'extrémité de ligne à son dernier sommet.
-ms.openlocfilehash: fa37e4896fdab0f2e8fee6d94aa38c72519a7e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54ef11125a8774914a60897850fb75cd4ab949a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328902"
 ---
 # <a name="endarrow-cell-line-format-section"></a>EndArrow, cellule (section Line Format)
 
 Indique si un trait comporte une pointe de flèche ou un autre format d'extrémité de ligne à son dernier sommet.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |0  <br/> |Pas de pointe  <br/> |
-|1 - 45  <br/> |Styles de pointes de flèches assortis correspondant aux entrées indexées de la boîte de dialogue **trait** .  <br/> |
+|1 - 45  <br/> |Styles de pointes de flèches assortis correspondant aux entrées indexées de la boîte de dialogue **Trait**.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir cette valeur dans la boîte de dialogue **trait** (sous l’onglet **accueil** , dans le groupe **forme** , cliquez sur **trait**, pointez sur **flèches**, puis cliquez sur **Autres flèches**). La taille de la pointe de flèche est définie dans la cellule EndArrowSize.
+Vous pouvez également définir cette valeur dans la boîte de dialogue **Trait** (sous l’onglet **Accueil**, dans le groupe **Forme**, cliquez sur **Trait**, pointez sur **Flèches**, puis cliquez sur **Autres flèches**). La taille de la pointe de flèche est définie dans la cellule TailleFlècheFin.
   
 Vous pouvez définir une extrémité de trait personnalisée à l'aide de la fonction USE dans cette cellule. 
   
-Pour obtenir une référence à la cellule EndArrow par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule EndArrow par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |EndArrow  <br/> |
    
-Pour obtenir une référence à la cellule EndArrow par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule EndArrow à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowLine** <br/> |
 |Index de la cellule :  <br/> |**visLineEndArrow** <br/> |
    

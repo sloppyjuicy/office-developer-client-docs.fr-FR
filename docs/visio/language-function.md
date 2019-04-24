@@ -1,26 +1,27 @@
 ---
-title: Fonction de la langue
+title: LANGUAGE Function
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e372c670-e9a0-4352-b70a-3a054b036124
-description: Permet les opérations de comparaison entre les représentations de langue différente. Il convient de conversion des valeurs de balises (BCP 47) langue Internet Engineering Task Force en identifiants de paramètres régionaux (LCID).
-ms.openlocfilehash: 6a05a850f5908ac5a4f6a4a72b2ce56b4c98f137
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Autorise les opérations de comparaison entre différentes représentations de langue. Il est préférable de convertir les valeurs de balises de langue IETF (Internet Engineering Task Force) en valeurs d'ID de paramètres régionaux (LCID).
+ms.openlocfilehash: 9c2dc96cefe7a1cfcd06947dcc54453dcef276fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327817"
 ---
-# <a name="language-function"></a>Fonction de la langue
+# <a name="language-function"></a>LANGUAGE Function
 
-Permet les opérations de comparaison entre les représentations de langue différente. Il convient de conversion des valeurs de balises (BCP 47) langue Internet Engineering Task Force en identifiants de paramètres régionaux (LCID).
+Autorise les opérations de comparaison entre différentes représentations de langue. Il est préférable de convertir les valeurs de balises de langue IETF (Internet Engineering Task Force) en valeurs d'ID de paramètres régionaux (LCID).
   
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Visio 2013 
+Version ajoutée : Visio 2013
+ 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,11 +29,11 @@ Version ajoutée : Visio 2013
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _lcid_or_bcp47_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |La valeur LCID ou norme BCP 47 pour la langue.  <br/> |
+| _lcid_or_bcp47_ <br/> |Obligatoire  <br/> |**String** <br/> |Valeur LCID ou BCP 47 de la langue.  <br/> |
    
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 Entier
   
@@ -40,10 +41,10 @@ Entier
 
  `LANGUAGE("en-us")`
   
-Renvoie la valeur « 1033 ».
+Renvoie la valeur «1033».
   
  `LANGUAGE("es-es")`
   
-Renvoie la valeur « 3082 ».
+Renvoie la valeur «3082».
   
 

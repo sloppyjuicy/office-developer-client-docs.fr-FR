@@ -11,52 +11,52 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5650fa2a-6e62-451c-964e-363f7bee2344
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 163bce38d665a8566fd703420ff1f7b2f44f7c63
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 1c1a66f61fe1533e436f4e35a542f53d938b4d01
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328286"
 ---
 # <a name="imapisession--iunknown"></a>IMAPISession : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère les objets associés à une session MAPI.
+Gère les objets associés à une ouverture de session MAPI.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIX.h  <br/> |
-|Exposés par :  <br/> |Objets de session  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et MAPI  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPISession  <br/> |
-|Type de pointeur :  <br/> |LPMAPISESSION  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
+|Exposé par:  <br/> |Objets de session  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes et MAPI  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPISession  <br/> |
+|Type de pointeur:  <br/> |LPMAPISESSION  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[GetLastError](imapisession-getlasterror.md) <br/> |Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de session précédente.  <br/> |
-|[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Permet d’accéder à la table de magasin de message qui contient des informations sur toutes les banques de messages dans le profil de la session.  <br/> |
-|[OpenMsgStore](imapisession-openmsgstore.md) <br/> |Ouvre une banque de messages et retourne un pointeur [IMsgStore](imsgstoreimapiprop.md) pour davantage d’accès.  <br/> |
-|[OpenAddressBook](imapisession-openaddressbook.md) <br/> |Ouvre le carnet d’adresses intégré MAPI, qui retourne un pointeur [IAddrBook](iaddrbookimapiprop.md) pour davantage d’accès.  <br/> |
-|[OpenProfileSection](imapisession-openprofilesection.md) <br/> |Ouvre une section du profil actuel et retourne un pointeur [IProfSect](iprofsectimapiprop.md) pour davantage d’accès.  <br/> |
-|[GetStatusTable](imapisession-getstatustable.md) <br/> |Fournit l’accès à la table d’état, une table qui contient des informations sur toutes les ressources MAPI dans la session.  <br/> |
-|[OpenEntry](imapisession-openentry.md) <br/> |Ouvre un objet et retourne un pointeur d’interface pour l’accès des autres.  <br/> |
-|[CompareEntryIDs](imapisession-compareentryids.md) <br/> |Compare deux identificateurs d’entrée pour déterminer si elles font référence au même objet.  <br/> |
-|[Conseiller](imapisession-advise.md) <br/> |Inscrit pour recevoir des notifications d’événements spécifiques qui affectent la session.  <br/> |
-|[L’avertissement](imapisession-unadvise.md) <br/> |Annule l’envoi de notifications précédemment configurées avec un appel à la méthode **Advise** .  <br/> |
-|**Options des messages** <br/> | *Non pris en charge ou documentés.*  <br/> |
-|**QueryDefaultMessageOpt** <br/> | *Non pris en charge ou documentés.*  <br/> |
-|[EnumAdrTypes](imapisession-enumadrtypes.md) <br/> |Déconseillé. Renvoie les types d’adresses qui peuvent être gérés par tous les fournisseurs de transport dans la session.  <br/> |
-|[QueryIdentity](imapisession-queryidentity.md) <br/> |Renvoie l’identificateur d’entrée de l’objet qui fournit l’identité du principale pour la session.  <br/> |
+|[Généré](imapisession-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur de session précédente.  <br/> |
+|[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Fournit l'accès à la table de banque de messages qui contient des informations sur toutes les banques de messages dans le profil de session.  <br/> |
+|[OpenMsgStore](imapisession-openmsgstore.md) <br/> |Ouvre une banque de messages et renvoie un pointeur [IMsgStore](imsgstoreimapiprop.md) pour un accès supplémentaire.  <br/> |
+|[OpenAddressBook](imapisession-openaddressbook.md) <br/> |Ouvre le carnet d'adresses intégré MAPI, en renvoyant un pointeur [IAddrBook](iaddrbookimapiprop.md) pour un accès supplémentaire.  <br/> |
+|[OpenProfileSection](imapisession-openprofilesection.md) <br/> |Ouvre une section du profil actif et renvoie un pointeur [IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire.  <br/> |
+|[GetStatusTable](imapisession-getstatustable.md) <br/> |Fournit l'accès à la table d'État, un tableau qui contient des informations sur toutes les ressources MAPI de la session.  <br/> |
+|[OpenEntry](imapisession-openentry.md) <br/> |Ouvre un objet et renvoie un pointeur d'interface pour un accès supplémentaire.  <br/> |
+|[CompareEntryIDs](imapisession-compareentryids.md) <br/> |Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet.  <br/> |
+|[Recommander](imapisession-advise.md) <br/> |S'inscrit pour recevoir des notifications d'événements spécifiques affectant la session.  <br/> |
+|[Unadvise](imapisession-unadvise.md) <br/> |Annule l'envoi de notifications précédemment configurées avec un appel à **** la méthode Advise.  <br/> |
+|**MessageOptions** <br/> | *Non pris en charge ou documenté.*  <br/> |
+|**QueryDefaultMessageOpt** <br/> | *Non pris en charge ou documenté.*  <br/> |
+|[EnumAdrTypes](imapisession-enumadrtypes.md) <br/> |Déconseillé. Renvoie les types d'adresses qui peuvent être gérées par tous les fournisseurs de transport dans la session.  <br/> |
+|[QueryIdentity](imapisession-queryidentity.md) <br/> |Renvoie l'identificateur d'entrée de l'objet qui fournit l'identité principale pour la session.  <br/> |
 |[Logoff](imapisession-logoff.md) <br/> |Met fin à une session MAPI.  <br/> |
-|[SetDefaultStore](imapisession-setdefaultstore.md) <br/> |Établissement d’une banque de messages comme banque de messages par défaut pour la session.  <br/> |
-|[AdminServices](imapisession-adminservices.md) <br/> |Retourne un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) pour apporter des modifications à des services de messagerie.  <br/> |
+|[SetDefaultStore](imapisession-setdefaultstore.md) <br/> |Établit une banque de messages comme banque de messages par défaut pour la session.  <br/> |
+|[AdminServices](imapisession-adminservices.md) <br/> |Renvoie un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) pour apporter des modifications aux services de messagerie.  <br/> |
 |[ShowForm](imapisession-showform.md) <br/> |Affiche un formulaire.  <br/> |
 |[PrepareForm](imapisession-prepareform.md) <br/> |Crée un jeton numérique que la méthode **ShowForm** utilise pour accéder à un message.  <br/> |
    

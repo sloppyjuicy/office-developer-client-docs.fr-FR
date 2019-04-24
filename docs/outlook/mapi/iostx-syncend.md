@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: da9de705-bdab-6cb8-35ea-61f03cdc4ff5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fd5b2ed23eba30cbe861a20c4fd100cb8ea1aeb0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 364914df1c5897241dfeb89cce2cc3c62018ce24
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332150"
 ---
 # <a name="iostxsyncend"></a>IOSTX::SyncEnd
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Met fin à la synchronisation dans l’état actuel et quitte cet état.
+Termine la synchronisation à l'état actuel et quitte cet État.
   
 ```cpp
 HRESULT SyncEnd();
@@ -33,7 +33,7 @@ HRESULT SyncEnd();
 
 ## <a name="remarks"></a>Remarques
 
-Le client doit appeler **IOSTX::SyncEnd** pour chaque appel à [IOSTX::SyncBeg](iostx-syncbeg.md). La structure de données correspondante conserve des informations pour indiquer si le client a terminé l’état actuel afin qu’Outlook peut nettoyer son état interne.
+Le client doit appeler **IOSTX:: SyncEnd,** pour chaque appel à [IOSTX:: SyncBeg](iostx-syncbeg.md). La structure de données correspondante contient des informations qui indiquent si le client a réussi l'état actuel afin qu'Outlook puisse nettoyer son état interne.
   
 ## <a name="see-also"></a>Voir aussi
 

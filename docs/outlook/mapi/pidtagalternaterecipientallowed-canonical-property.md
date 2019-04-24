@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: dbbdeb54-3d14-4601-a77b-55ee31f33416
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 0faeb12ee54ec5d1c584bacd51590b157035f4fd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327985"
 ---
 # <a name="pidtagalternaterecipientallowed-canonical-property"></a>Propriété canonique PidTagAlternateRecipientAllowed
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si l’expéditeur permet le transfert automatique de ce message. 
+Contient la valeur TRUE si l'expéditeur autorise le transfert automatique de ce message. 
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient la valeur TRUE si l’expéditeur permet le transfert automatique de ce
    
 ## <a name="remarks"></a>Remarques
 
-Si le transfert automatique n’est pas autorisé ou si aucune autre destinataire n’a été désigné, un rapport de non-remise doit être généré. 
+Si le transfert automatique n'est pas autorisé ou si aucun autre destinataire n'a été désigné, un rapport de non-remise doit être généré. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère l’ordre et le flux pour les transferts de données entre un client et le serveur.
+> Gère l'ordre et le flux de transfert de données entre un client et un serveur.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> La conversion entre IETF RFC2445, RFC2446, RFC2447 et rendez-vous et des objets de la conférence.
+> Effectue une conversion entre l'IETF RFC2445, RFC2446 et RFC2447, et les objets de rendez-vous et de réunion.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Code et décode des objets message et la pièce jointe à une représentation sous forme de flux efficace.
+> Encode et décode les objets message et Attachment en une représentation de flux efficace.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

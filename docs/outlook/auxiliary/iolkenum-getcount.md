@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dd7a7e62-4cf2-bdd3-8a00-4fff5ac575d3
-description: Obtient le nombre de comptes dans l’énumérateur.
-ms.openlocfilehash: dd4152a898bdaa96883bcd27ab3ec0d94e80fd90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient le nombre de comptes dans l'énumérateur.
+ms.openlocfilehash: 8571d5ff01501d980c8b6543607a658ad99085ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322014"
 ---
 # <a name="iolkenumgetcount"></a>IOlkEnum::GetCount
 
-Obtient le nombre de comptes dans l’énumérateur.
+Obtient le nombre de comptes dans l'énumérateur.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,7 +33,7 @@ HRESULT IOlkEnum::GetCount (
 
 _pulCount_
   
-> [out] Pointeur vers le nombre d’objets énumérés.
+> remarquer Pointeur vers le nombre d'objets en cours d'énumération.
     
 ## <a name="return-values"></a>Valeurs de retour
 

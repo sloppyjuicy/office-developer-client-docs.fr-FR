@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cce99321-9b6a-4b1a-b19f-a82ca9ba6a30
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1c5295b07c6ed1e70bc2686b7e5ae0393de2b467
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0eb92008e7eff00388e85c5badbdc97a4c6dda12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331723"
 ---
 # <a name="pidtagcontactaddressbookdisplaynames-canonical-property"></a>Propriété canonique PidTagContactAddressBookDisplayNames
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste des noms complets pour les utilisateurs dans le carnet d’adresse de contact de messagerie.
+Contient une liste de noms complets pour les utilisateurs de messagerie dans le carnet d'adresses des contacts.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_DISPLAY_NAMES, PR_CONTAB_DISPLAY_NAMES_A, PR_CONTAB_DISPLAY_NAMES_W  <br/> |
 |Identificateur :  <br/> |0x6624  <br/> |
 |Type de données :  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
-|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont définies par l’utilisateur et d’organisation de l’utilisateur.
+Ces propriétés sont définies par l'utilisateur et l'organisation de l'utilisateur.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

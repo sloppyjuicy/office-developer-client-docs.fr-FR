@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 7e9994da72bbc38a546f220e5ecf8768b80c6f1f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331954"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>Propriété canonique PidTagContentCount
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nombre de messages dans un dossier, calculé par la banque de messages.
+Contient le nombre de messages dans un dossier, tel que calculé par la Banque de messages.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contient le nombre de messages dans un dossier, calculé par la banque de messag
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété calculée par la banque de messages est utilisée pour les deux, même si associées, à des fins. Dans un objet MapiFolder, il contient le nombre de messages dans un dossier. Dans une ligne d’en-tête dans les tableaux MAPI par catégorie, il contient le nombre de messages non associés dans les catégories correspondant à cette ligne d’en-tête.
+Cette propriété calculée par la Banque de messages est utilisée pour deux opérations différentes, bien qu'associées. Sur un objet MapiFolder, il contient le nombre de messages dans un dossier. Dans une ligne d'en-tête dans les tables MAPI classées, il contient le nombre de messages non associés dans la catégorie correspondant à la ligne d'en-tête.
   
-Nombre figurant dans cette propriété n’inclut pas les entrées associées dans le dossier. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contient le nombre de messages non lus du dossier. Une application cliente peut lire mais pas modifier cette propriété et la **PR_CONTENT_UNREAD**. 
+Le nombre contenu dans cette propriété n'inclut pas les entrées associées dans le dossier. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contient le nombre de messages non lus pour le dossier. Une application cliente peut lire, mais pas modifier cette propriété et **PR_CONTENT_UNREAD**. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole connexes Microsoft Exchange Server.
+> Fournit des références aux spécifications de protocole Microsoft Exchange Server connexes.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -54,17 +54,17 @@ Nombre figurant dans cette propriété n’inclut pas les entrées associées da
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclut les opérations autorisées pour les objets de la table principale.
+> Inclut les opérations admissibles pour les objets de la table principale.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

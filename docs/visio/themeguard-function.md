@@ -6,25 +6,25 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a556eadc-9ee6-7a29-ca05-6250b612790c
-description: Protège les cellules de mise en forme d’une forme afin qu’ils utilisent les aspects appropriés du thème actif.
-ms.openlocfilehash: 10a7772995b9cc22e53ff577b2f663d7c97d0816
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Protège les cellules de mise en forme d'une forme pour s'assurer qu'elles utilisent les aspects appropriés du thème actuel.
+ms.openlocfilehash: c20d43f9d03296a3c529a6c8f59cf27489dcdc51
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326753"
 ---
-# <a name="themeguard-function"></a>THEMEGUARD, fonction
+# <a name="themeguard-function"></a>Fonction THEMEGUARD
 
-Protège les cellules de mise en forme d’une forme afin qu’ils utilisent les aspects appropriés du thème actif.
+Protège les cellules de mise en forme d'une forme pour s'assurer qu'elles utilisent les aspects appropriés du thème actuel.
   
 ## <a name="syntax"></a>Syntaxe
 
-THEMEGUARD()
+THEMEGUARD ()
   
 ## <a name="remarks"></a>Remarques
 
-Application de la fonction THEMEGUARD à une cellule protège-t-il pas par rapport à la mise en forme manuelle de la même manière que l’application de la protection fonction. Si vous appliquez la mise en forme à la forme dans l’interface utilisateur ou par programme via Automation, la formule THEMEGUARD est remplacée, sauf si vous incluez la fonction SETATREFEXPR dans la formule pour stocker le manuel de mise en forme de valeur. 
+L’application de la fonction THEMEGUARD à une cellule ne permet d’éviter une mise en forme manuelle comme le permet l’application de la fonction GUARD. Si vous appliquez la mise en forme à la forme dans l'interface utilisateur ou par programme, par le biais de l'automatisation, la formule THEMEGUARD est substituée, sauf si vous incluez la fonction SETATREFEXPR dans la formule pour stocker la valeur de mise en forme manuelle. 
   
 ## <a name="example"></a>Exemple
 

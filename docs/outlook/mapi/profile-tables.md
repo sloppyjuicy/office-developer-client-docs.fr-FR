@@ -1,5 +1,5 @@
 ---
-title: Tables de profils
+title: Tables de profil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1046c8d92feec16428329636257ed9c1f0ec8719
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 15c07c05af82389bce697c300cd9b1d504e98736
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328559"
 ---
-# <a name="profile-tables"></a>Tables de profils
+# <a name="profile-tables"></a>Tables de profil
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La table des profils répertorie les informations sur tous les profils associé à une application cliente spécifique. Il existe une table de profil pour chaque session, implémentée par MAPI pour une utilisation par les clients. 
+La table de profils répertorie les informations sur tous les profils associés à une application cliente particulière. Il existe une table de profils pour chaque session, implémentée par MAPI pour une utilisation par les clients. 
   
-Clients accèdent à la table de profil en appelant la méthode [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) . 
+Les clients accèdent à la table de profils en appelant la méthode [IProfAdmin:: GetProfileTable](iprofadmin-getprofiletable.md) . 
   
-Le tableau de profil est une table statique. Profils qui ont été marquées pour suppression ne sont pas inclus dans la table de profils.
+La table de profils est une table statique. Les profils qui ont été marqués pour suppression ne sont pas inclus dans la table de profils.
   
-Comme avec la plupart des implémentations de table, si **GetProfileTable** est appelée et il n’y a aucun profil disponibles pour le client, la table est créée sans aucune ligne. 
+Comme avec la plupart des implémentations de table, si **GetProfileTable** est appelé et qu'aucun profil n'est disponible pour le client, la table est créée sans aucune ligne. 
   
-Les propriétés suivantes constituent la colonne requise définie dans les tableaux de profil :
+Les propriétés suivantes constituent le jeu de colonnes requis dans les tables de profil:
   
  **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
   

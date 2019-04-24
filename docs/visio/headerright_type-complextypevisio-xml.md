@@ -1,5 +1,5 @@
 ---
-title: Type complexe HeaderRight_Type (« Visio XML »)
+title: ComplexType HeaderRight_Type ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,21 +7,21 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1dad5c83-84a5-5e37-f022-36f1af12b466
 ms.openlocfilehash: 23626d2e92b6c0c70226e44dcd9d2a370ae4bfd9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329994"
 ---
-# <a name="headerrighttype-complextype-visio-xml"></a>Type complexe HeaderRight_Type (« Visio XML »)
+# <a name="headerrighttype-complextype-visio-xml"></a>ComplexType HeaderRight_Type ('Visio XML')
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |XSD : String  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
+|**Base d’extension** <br/> |xsd: String  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -33,7 +33,7 @@ ms.locfileid: "25383694"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 

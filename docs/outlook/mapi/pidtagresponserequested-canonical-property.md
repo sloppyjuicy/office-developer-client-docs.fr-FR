@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: e52bb48c-7107-4ac4-b030-885409759ee7
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 77c724affd2057ca6347d752323c5ba0a3094ecf
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330155"
 ---
 # <a name="pidtagresponserequested-canonical-property"></a>Propriété canonique PidTagResponseRequested
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si l’expéditeur du message souhaite une réponse à une demande de réunion.
+Contient la valeur TRUE si l'expéditeur du message souhaite une réponse à une demande de réunion.
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient la valeur TRUE si l’expéditeur du message souhaite une réponse à u
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour les demandes de réunion. L’application client destinataire doit inviter l’utilisateur à accepter ou refuser la demande, puis envoyer cette réponse à l’expéditeur.
+Cette propriété est utilisée pour les demandes de réunion. L'application cliente de réception doit inviter l'utilisateur à accepter ou à refuser la demande, puis renvoyer cette réponse à l'expéditeur.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations liées aux marquage.
+> Spécifie les propriétés et les opérations relatives au marquage.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

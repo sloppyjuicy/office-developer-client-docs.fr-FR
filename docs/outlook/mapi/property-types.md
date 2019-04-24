@@ -7,48 +7,48 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: fba09af82a3eccc05c72e44ffea14ca979714ff0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 43b0090192a2f9b02acee4edf471c5ae6c6de7e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328489"
 ---
 # <a name="property-types"></a>Types de propriétés
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI prend en charge les propriétés de valeur unique et de plusieurs valeurs. Avec une propriété à valeur unique, il existe une valeur du type de base pour la propriété. Avec une propriété à valeurs multiples, il existe plusieurs valeurs du type de base. 
+MAPI prend en charge à la fois les propriétés à valeur unique et à valeurs multiples. Avec une propriété à valeur unique, il existe une valeur du type de base pour la propriété. Avec une propriété à valeurs multiples, il existe plusieurs valeurs du type de base. 
   
-Les types de valeur unique et plusieurs valeurs de la propriété MAPI prend en charge sont décrits dans le tableau suivant. Pour chaque type de valeur unique qui a un type de plusieurs valeurs correspondant, le type de plusieurs valeurs apparaît entre parenthèses après le type de valeur unique.
+Les types de propriété à valeur unique et à valeurs multiples pris en charge par MAPI sont décrits dans le tableau suivant. Pour chaque type à valeur unique qui a un type à plusieurs valeurs correspondant, le type à valeurs multiples apparaît entre parenthèses après le type à valeur unique.
   
 |**Type de propriété**|**Valeur hex**|**Description**|
 |:-----|:-----|:-----|
-|PT_UNSPECIFIED  <br/> |0000  <br/> |Indique que le type de propriété est inconnu. Ce type de propriété est réservé pour une utilisation avec les méthodes d’interface.  <br/> |
-|PT_NULL  <br/> |0001  <br/> |N’indique aucune valeur de propriété. Ce type de propriété est réservé pour une utilisation avec les méthodes d’interface et est qu'identique à OLE type VT_NULL.  <br/> |
-|PT_I2 (PT_MV_I2)  <br/> |0002  <br/> |16 bits (2 octets) entier signé. Ce type de propriété est la même que PT_SHORT (PT_MV_SHORT) et OLE type VT_I2.  <br/> |
-|PT_I4 (PT_MV_I4)  <br/> |0003  <br/> |Signé ou non signé 32 bits (4 octets) nombre entier. Ce type de propriété est la même que PT_LONG (PT_MV_LONG) et OLE type VT_I4.  <br/> |
-|PT_FLOAT (PT_MV_FLOAT)  <br/> |0004  <br/> |32 bits (8 octets) valeur à virgule flottante. Ce type de propriété est identique à PT_R4 (PT_MV_R4) et le type OLE VT_R4.  <br/> |
-|PT_DOUBLE (PT_MV_DOUBLE)  <br/> |0005  <br/> |64 bits (8 octets) valeur à virgule flottante. Ce type de propriété est identique à PT_R8 et les types OLE VT_R8 et VT_DOUBLE.  <br/> |
-|PT_CURRENCY (PT_MV_CURRENCY)  <br/> |0006  <br/> |entier de 64 bits (8 octets) interprétée comme séparateur décimal. Ce type de propriété est compatible avec le type de Microsoft Visual Basic devise et est qu'identique à OLE tapez VT_CY.  <br/> |
-|PT_APPTIME (PT_MV_APPTIME)  <br/> |0007  <br/> |Valeur de type double qui est interprétée comme date et heure. La partie entière correspond à la date et la partie fractionnaire est à la fois. Ce type de propriété est la même que le type OLE VT_DATE et est compatible avec la représentation du temps Microsoft Visual Basic.  <br/> |
-|PT_ERROR  <br/> |000 A  <br/> |Valeur SCODE ; entier non signé de 32 bits (4 octets). Ce type de propriété est le même que le type OLE VT_ERROR.  <br/> |
-|PT_BOOLEAN (PT_MV_12)  <br/> |PAGE 000C  <br/> |16 bits (2 octets) valeur booléenne où zéro est égale à **true** et **la valeur true**est égal à zéro. Ce type de propriété est le même que le type OLE VT_BOOL.  <br/> |
-|PT_OBJECT  <br/> |D 000  <br/> |Pointeur vers un objet qui implémente l’interface **IUnknown** . Ce type de propriété est similaire à plusieurs types OLE comme VT_UNKNOWN.  <br/> |
-|PT_I8 (PT_MV_I8)  <br/> |0014  <br/> |Signé ou non signé 64 bits (8 octets) nombre entier qui utilise la structure **LARGE_INTEGER** . Ce type de propriété est la même que PT_I8 et OLE type VT_I8.  <br/> |
-|PT_STRING8 (PT_MV_STRING8)  <br/> |001E  <br/> |Chaîne de caractère nul 8 bits (2 octets) caractères. Ce type de propriété est le même que le type OLE VT_LPSTR.  <br/> |
-|PT_TSTRING (PT_MV_TSTRING)  <br/> |001F  <br/> |Chaîne de caractère nul 16 bits (2 octets) caractères. Propriétés avec ce type ont le type de propriété réinitialiser pour PT_UNICODE lors de la compilation par le symbole UNICODE et PT_STRING8 lors de la ne compilation pas par le symbole UNICODE. Ce type de propriété est la même que le type OLE VT_LPSTR pour les propriétés qui en résulte PT_STRING8 et VT_LPWSTR des propriétés PT_UNICODE  <br/> |
-|PT_SYSTIME (PT_MV_SYSTIME)  <br/> |0040  <br/> |64 bits (8 octets) et l’heure entier sous la forme d’une structure **FILETIME** . Ce type de propriété est le même que le type OLE VT_FILETIME.  <br/> |
-|PT_CLSID (PT_MV_CLSID)  <br/> |0048  <br/> |Valeur de la structure **CLSID** . Ce type de propriété est le même que le type OLE VT_CLSID.  <br/> |
-|PT_SVREID  <br/> |00FB  <br/> |Taille de la variable, 16 bits (2 octets) **COUNT** suivie d’une structure.  <br/> |
-|PT_SRESTRICT  <br/> |00FD  <br/> |Taille de la variable, un tableau d’octets représentant une ou plusieurs des structures de Restriction.  <br/> |
-|PT_ACTIONS  <br/> |00FE  <br/> |Taille de la variable, 16 bits (2 octets) **nombre** d’actions (pas des octets) suivie de celle nombreuses structures d’Action de la règle.  <br/> |
-|PT_BINARY (PT_MV_BINARY)  <br/> |0102  <br/> |Valeur de structure **SBinary** , un tableau d’octets comptés.  <br/> |
+|PT_UNSPECIFIED  <br/> |0000  <br/> |Indique que le type de propriété est inconnu. Ce type de propriété est réservé à une utilisation avec des méthodes d'interface.  <br/> |
+|PT_NULL  <br/> |0,001  <br/> |Indique qu'aucune valeur de propriété n'est ajoutée. Ce type de propriété est réservé à une utilisation avec les méthodes d'interface et est identique au type OLE VT_NULL.  <br/> |
+|PT_I2 (PT_MV_I2)  <br/> |0,002  <br/> |Entier 16 bits (2 octets) signé. Ce type de propriété est identique à PT_SHORT (PT_MV_SHORT) et au type OLE VT_I2.  <br/> |
+|PT_I4 (PT_MV_I4)  <br/> |pagin  <br/> |Entier signé ou non signé 32 bits (4 octets). Ce type de propriété est identique à PT_LONG (PT_MV_LONG) et au type OLE VT_I4.  <br/> |
+|PT_FLOAT (PT_MV_FLOAT)  <br/> |0004  <br/> |valeur à virgule flottante 32 bits (8 octets). Ce type de propriété est identique à PT_R4 (PT_MV_R4) et au type OLE VT_R4.  <br/> |
+|PT_DOUBLE (PT_MV_DOUBLE)  <br/> |0,005  <br/> |valeur à virgule flottante 64 bits (8 octets). Ce type de propriété est identique à PT_R8 et aux types OLE VT_R8 et VT_DOUBLE.  <br/> |
+|PT_CURRENCY (PT_MV_CURRENCY)  <br/> |0006  <br/> |entier 64 bits (8 octets) interprété comme un nombre décimal. Ce type de propriété est compatible avec le type monétaire Microsoft Visual Basic et est identique au type OLE VT_CY.  <br/> |
+|PT_APPTIME (PT_MV_APPTIME)  <br/> |0007  <br/> |Valeur de type double qui est interprétée comme une date et une heure. Le composant entier est la date et la fraction le temps. Ce type de propriété est identique au type de propriété VT_DATE OLE et est compatible avec la représentation temporelle Microsoft Visual Basic.  <br/> |
+|PT_ERROR  <br/> |000A  <br/> |Valeur SCODE; entier non signé 32 bits (4 octets). Ce type de propriété est identique au type OLE VT_ERROR.  <br/> |
+|PT_BOOLEAN (PT_MV_12)  <br/> |000B  <br/> |valeur booléenne 16 bits (2 octets) où zéro est égal à **false** et différent de zéro égal à **true**. Ce type de propriété est identique au type OLE VT_BOOL.  <br/> |
+|PT_OBJECT  <br/> |000D  <br/> |Pointeur vers un objet qui implémente l'interface **IUnknown** . Ce type de propriété est similaire à plusieurs types OLE tels que VT_UNKNOWN.  <br/> |
+|PT_I8 (PT_MV_I8)  <br/> |0014  <br/> |Entier 64 bits signé ou non signé (8 octets) qui utilise la structure **LARGE_INTEGER** . Ce type de propriété est identique à PT_I8 et au type OLE VT_I8.  <br/> |
+|PT_STRING8 (PT_MV_STRING8)  <br/> |001E  <br/> |Chaîne de caractères 8 bits (2 octets) terminée par un caractère null. Ce type de propriété est identique au type OLE VT_LPSTR.  <br/> |
+|PT_TSTRING (PT_MV_TSTRING)  <br/> |001F  <br/> |Chaîne de caractères 16 bits (2 octets) terminée par un caractère null. Les propriétés de ce type ont le type de propriété Reset à PT_UNICODE lors de la compilation avec le symbole UNICODE et PT_STRING8 en l'absence de compilation avec le symbole UNICODE. Ce type de propriété est identique au type OLE VT_LPSTR pour les propriétés PT_STRING8 et VT_LPWSTR pour les propriétés PT_UNICODE  <br/> |
+|PT_SYSTIME (PT_MV_SYSTIME)  <br/> |0040  <br/> |valeur entière de données de 64 bits (8 octets) et de temps sous la forme d'une structure **fileTime** . Ce type de propriété est identique au type OLE VT_FILETIME.  <br/> |
+|PT_CLSID (PT_MV_CLSID)  <br/> |0048  <br/> |Valeur de la structure **CLSID** . Ce type de propriété est identique au type OLE VT_CLSID.  <br/> |
+|PT_SVREID  <br/> |00FB  <br/> |Taille de la variable, **nombre** de 16 bits (2 octets) suivi d'une structure.  <br/> |
+|PT_SRESTRICT  <br/> |00FD  <br/> |Taille de la variable, tableau d'octets représentant une ou plusieurs structures de restriction.  <br/> |
+|PT_ACTIONS  <br/> |00FE  <br/> |Taille de la variable, **nombre** de 16 bits (2 octets) des actions (et non des octets) suivis de nombreuses structures d'action de règle.  <br/> |
+|PT_BINARY (PT_MV_BINARY)  <br/> |0102  <br/> |Valeur de structure **SBinary** , un tableau d'octets compté.  <br/> |
    
 > [!NOTE]
-> Pour déterminer la valeur Hex pour le type de propriété à valeurs multiples, ou la PT_MV indicateur (0 x 00001000) à la valeur hexadécimale pour la propriété type. Par exemple, la valeur Hex pour PT_MV_UNICODE est 0x101F et la valeur Hex pour PT_MV_BINARY est 0 x 1102. 
+> Pour déterminer la valeur hexadécimale du type de propriété à valeurs multiples ou l'indicateur PT_MV (0x00001000) à la valeur hexadécimale pour le type de propriété. Par exemple, la valeur hexadécimale pour PT_MV_UNICODE est 0x101F et la valeur hexadécimale pour PT_MV_BINARY est 0x1102. 
   
 

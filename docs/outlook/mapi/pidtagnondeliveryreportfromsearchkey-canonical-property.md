@@ -11,46 +11,46 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c3f10e61-1a6e-47f3-afd1-1c2a7836871b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 5d3b41d5f694c990be7d9aae61b86b705d1b8e17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0355977b119698fcf2575ec3806878a4ab0c7c39
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569404"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329371"
 ---
 # <a name="pidtagnondeliveryreportfromsearchkey-canonical-property"></a>Propriété canonique PidTagNonDeliveryReportFromSearchKey
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Si défini sur un rapport de non-remise, indique la clé de recherche de l’échec d’envoi-en tant qu’utilisateur.
+Si ce paramètre est défini sur un rapport de non-remise, indique la clé de recherche de l'utilisateur ayant échoué envoyer en tant que.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NDR_FROM_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x6906  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

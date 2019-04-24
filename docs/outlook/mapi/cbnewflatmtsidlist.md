@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 26628646-7948-4341-aaef-5c476a857a52
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c5956974ab38e1d2e891945083d26f1dced23284
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8ebcc1c8fc2d72b832199704fd63bbde89af68e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331814"
 ---
 # <a name="cbnewflatmtsidlist"></a>CbNewFLATMTSIDLIST
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets qui doit être alloué pour une nouvelle structure [FLATMTSIDLIST](flatmtsidlist.md) qui contient plusieurs structures [MTSID](mtsid.md) d’une taille spécifiée. 
+Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [FLATMTSIDLIST](flatmtsidlist.md) qui contient plusieurs structures [MTSID](mtsid.md) d'une taille spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**FLATMTSIDLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
 CbNewFLATMTSIDIDLIST (_cb)
@@ -38,9 +38,9 @@ CbNewFLATMTSIDIDLIST (_cb)
 
 ## <a name="parameters"></a>Paramètres
 
- __cb_
+ __CB_
   
-> Nombre d’octets dans les structures **MTSID** à inclure dans la nouvelle structure **FLATMTSIDLIST** . 
+> Nombre d'octets dans les structures **MTSID** à inclure dans la nouvelle structure **FLATMTSIDLIST** . 
     
 ## <a name="see-also"></a>Voir aussi
 

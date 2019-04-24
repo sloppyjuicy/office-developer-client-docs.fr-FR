@@ -10,20 +10,20 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
-description: 'Dernière modification : 20 septembre 2017'
+description: 'Dernière modification: 20 septembre 2017'
 ms.openlocfilehash: 55c547c4dae1acc3e9874edc7778f53a5d34f957
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326943"
 ---
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Convertit un message MAPI à un flux de données MIME.
+ConVertit un message MAPI en un flux MIME.
   
 ```cpp
 HRESULT IConverterSession::MAPIToMIMEStm( 
@@ -35,37 +35,37 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 
 ## <a name="parameters"></a>Paramètres
 
- _pMsg_
+ _PMSG_
   
-> [in] Pointeur vers le message à convertir. Voir mapidefs.h pour la définition du type de **LPMESSAGE**.
+> dans Pointeur vers le message à convertir. Voir mapidefs. h pour la définition de type de **LPMESSAGE**.
     
  _pstm_
   
-> [out] Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) pour le flux de sortie. 
+> remarquer Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) pour générer le flux. 
     
  _ulFlags_
   
->  [in] Indicateurs qui indiquent des actions spécifiques pour le convertisseur : 
+>  dans Indicateurs qui indiquent des actions spécifiques pour le convertisseur: 
     
 CCSF_8BITHEADERS
   
-> Le convertisseur doit permettre d’en-têtes de 8 bits.
+> Le convertisseur doit autoriser les en-têtes 8 bits.
     
 CCSF_EMBEDDED_MESSAGE
   
-> Informations envoyées/en attente ne sont conservées dans X-en attente.
+> Les informations envoyées/non envoyées sont conservées dans X-non envoyés.
     
 CCSF_GLOBAL_MESSAGE
   
-> Le convertisseur doit générer un message international (EAI/RFC6530).
+> Le convertisseur doit créer un message international (EAI/RFC6530).
     
 CCSF_INCLUDE_BCC
   
-> Les destinataires Cci du message MAPI doivent être inclus dans le flux MIME.
+> Les destinataires en copie carbone invisible du message MAPI doivent être inclus dans le flux MIME.
     
 CCSF_NO_MSGID
   
-> N’incluez pas le champ Id de Message dans les messages sortants.
+> N'incluez pas le champ Message-ID dans les messages sortants.
     
 CCSF_NOHEADERS
   
@@ -73,29 +73,29 @@ CCSF_NOHEADERS
     
 CCSF_PLAIN_TEXT_ONLY
   
-> Le convertisseur doit envoyer du texte brut.
+> Le convertisseur doit simplement envoyer du texte brut.
     
 CCSF_SMTP
   
-> Le convertisseur est passé un message SMTP. Cet indicateur doit toujours être défini.
+> Un message SMTP est transmis au convertisseur. Cet indicateur doit toujours être défini.
     
 CCSF_USE_RTF
   
-> Le convertisseur doit convertir au format RTF dans le message MIME HTML.
+> Le convertisseur doit convertir le format HTML au format RTF dans le message MIME.
     
 CCSF_USE_TNEF
   
-> Le convertisseur doit utiliser le format TNEF Transport Neutral Encapsulation Format () dans le message MIME.
+> Le convertisseur doit utiliser le format TNEF (Transport Neutral Encapsulation Format) dans le message MIME.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 E_INVALIDARG
   
-> Indicateurs non valides ont été passés ou *pmsg* ou *pstm* est NULL. 
+> Des indicateurs non valides ont été passés, ou *PMSG* ou *pstm* est null. 
     
 ## <a name="remarks"></a>Remarques
 
-Prise en charge uniquement pour les types de message Outlook standard.
+Pris en charge uniquement pour les types de message Outlook standard.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -103,8 +103,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML à un message MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI dans un fichier EML.  <br/> |
+|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
+|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -128,7 +128,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 [Propriété canonique PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
   
-[Propriété canonique PidLidUseTnef](pidlidusetnef-canonical-property.md)
+[Propri�t� canonique PidLidUseTnef](pidlidusetnef-canonical-property.md)
 
 
 [Constantes MAPI](mapi-constants.md)

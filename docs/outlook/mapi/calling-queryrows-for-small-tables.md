@@ -1,5 +1,5 @@
 ---
-title: Appel de QueryRows pour les petites tables
+title: Appel de QueryRows pour les tables de petite taille
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,22 +7,22 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8c38bb0f-de0b-4d70-9f6d-db652445e137
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 34975677bedccf3f9111985d371e21d482b45584
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 8b38dcc485e75f94ccf4f4c3c8c9a57d314465a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331631"
 ---
-# <a name="calling-queryrows-for-small-tables"></a>Appel de QueryRows pour les petites tables
+# <a name="calling-queryrows-for-small-tables"></a>Appel de QueryRows pour les tables de petite taille
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lors de l’extraction des lignes d’une table de petite taille, appel [IMAPITable::QueryRows](imapitable-queryrows.md) au lieu de la première création d’une restriction. Création d’une restriction affecte les performances, car le fournisseur doit d’abord créer un tableau, recherchez les lignes correspondantes dans la table d’origine et puis copiez les lignes à la nouvelle table. Si le nombre total de lignes dans le tableau est inférieure à 100, il est probablement plus efficace lire toutes les lignes et ensuite appeler [IMAPITable::FindRow](imapitable-findrow.md) pour trouver la ligne adéquate. Il s’agit d’une stratégie particulièrement si ces informations sont nécessaires seulement occasionnellement. 
+Lors de l'extraction de lignes d'une petite table, appelez [IMAPITable:: QueryRows](imapitable-queryrows.md) au lieu de commencer par créer une restriction. La création d'une restriction a un impact sur les performances, car le fournisseur doit d'abord créer une table, trouver les lignes correspondantes dans la table d'origine, puis copier les lignes dans le nouveau tableau. Si le nombre total de lignes dans le tableau est inférieur à 100, il est probablement plus efficace de lire toutes les lignes, puis de faire appel à la fonction [IMAPITable:: FindRow](imapitable-findrow.md) pour trouver la ligne appropriée. Il s'agit d'une stratégie particulièrement intéressante si ces informations ne sont nécessaires qu'occasionnellement. 
   
-Moment propice pour utiliser une restriction est lorsque les informations restreintes ou filtrées seront utilisées sur une période plus longue ou fréquemment utilisées. Par exemple, si vous avez toujours besoin d’un affichage avec des messages non lus, une restriction est l’appel appropriée à utiliser.
+Le moment approprié pour utiliser une restriction est lorsque les informations restreintes ou filtrées seront utilisées sur une période plus longue ou fréquemment utilisées. Par exemple, si vous avez toujours besoin d'une vue avec des messages non lus, une restriction est l'appel approprié à utiliser.
   
 

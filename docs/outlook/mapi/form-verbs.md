@@ -1,5 +1,5 @@
 ---
-title: Formulaire verbes
+title: Verbes de formulaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,28 +7,28 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a63bf0a7-24e6-4eef-98e8-3744ce5f9f2d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 27999c141fdeb3e1610213db128bc4ad3d049e6d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: dbd08437dfdd38c3a43cbf12eae8710cc8e3661e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327488"
 ---
-# <a name="form-verbs"></a>Formulaire verbes
+# <a name="form-verbs"></a>Verbes de formulaires
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Interface utilisateur d’un formulaire offre généralement des éléments de menu ou des contrôles permettant aux utilisateurs d’effectuer un type d’action avec le formulaire. Il est le travail du serveur de formulaire pour gérer ces actions de l’utilisateur. Cette interface est implémentée à l’aide des API Win32 standard ; une écriture est tout simplement à rédiger des autres interfaces pour les programmes Win32 régulières.
+L'interface utilisateur d'un formulaire propose généralement des éléments de menu ou des contrôles qui permettent aux utilisateurs de prendre des mesures avec le formulaire. Il s'agit du travail du serveur de formulaire pour gérer ces actions de l'utilisateur. Cette interface est implémentée à l'aide des API Win32 standard; l'écriture d'une est similaire à celle de l'écriture d'autres interfaces pour les programmes Win32 classiques.
   
-Souvent, les actions de l’utilisateur sont associées à des verbes. Un verbe est le nom d’une action qui est spécifique à une certaine classe de message. Par exemple, la **réponse** est un verbe qui est implémenté par de nombreux serveurs de formulaire, chacun d'entre eux peut avoir une autre interprétation de ce verbe. Verbes sont parfois en tant que commandes. 
+Les actions de l'utilisateur sont souvent associées à des verbes. Un verbe est le nom d'une action spécifique à une certaine classe de message. Par exemple, la **réponse** est un verbe implémenté par de nombreux serveurs de formulaires, dont chacun peut avoir une interprétation différente de ce verbe. Les verbes sont parfois appelés commandes. 
   
 > [!NOTE]
-> Pas tous les éléments de menu et les contrôles d’un formulaire correspondent à un verbe. Par exemple, un bouton **Annuler** ne correspond pas à un verbe Cancel sur le serveur du formulaire. En règle générale, les verbes sont associés à des actions qui sont spécifiques à une classe de message spécifique ou un ensemble de classes de message. Bien que les différentes classes de messages peuvent prendre en charge plusieurs ensembles de verbes, tous les prend en charge au moins le verbe Open, qui affiche l’interface utilisateur du formulaire et la charge de valeurs de propriété du message. 
+> Les éléments de menu et les contrôles d'un formulaire ne correspondent pas tous à un verbe. Par exemple, un bouton **Annuler** ne correspond pas à un verbe Cancel dans le serveur de formulaires. En règle générale, les verbes sont associés à des actions propres à une classe de message particulière ou à un ensemble de classes de message. Bien que différentes classes de messages puissent prendre en charge différents ensembles de verbes, toutes prennent en charge au moins le verbe Open, qui affiche l'interface utilisateur du formulaire et le charge avec les valeurs de propriété du message. 
   
-Verbes ne peuvent prendre aucun paramètre. Formulaires exporter des commandes à l’aide des paramètres variables doivent utiliser les mécanismes d’Automation.
+Les verbes ne peuvent pas prendre de paramètres. Les formulaires qui exportent des commandes avec des paramètres variables doivent utiliser les mécanismes d'automatisation.
   
-Les clients peuvent déterminer les verbes sont pris en charge par une classe de message spécifique par le biais de la méthode [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) , qui est implémentée par le Gestionnaire de formulaire MAPI. Le Gestionnaire de formulaire obtient ces informations à partir du fichier de configuration du formulaire. Le jeu de verbe renvoyé par cette méthode est utilisé par le client pour afficher les commandes pouvant être exécutées sur un message. Par exemple, un client peut activer les utilisateurs à cliquer sur le bouton droit de la souris sur un message à afficher les verbes applicables à ce message. 
+Les clients peuvent déterminer les verbes pris en charge par une classe de message particulière par le biais de la méthode [IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md) , qui est implémentée par le gestionnaire de formulaires MAPI. Le gestionnaire de formulaires obtient ces informations à partir du fichier de configuration du formulaire. Le jeu de verbes renvoyé par cette méthode est utilisé par le client pour montrer à l'utilisateur les commandes pouvant être exécutées sur un message. Par exemple, un client peut permettre aux utilisateurs de cliquer avec le bouton droit de la souris sur un message pour afficher les verbes applicables à ce message. 
   
 ## <a name="see-also"></a>Voir aussi
 

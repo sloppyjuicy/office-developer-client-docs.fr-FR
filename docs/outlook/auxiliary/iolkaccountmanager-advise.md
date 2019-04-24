@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
-description: Enregistre un client avec le Gestionnaire de comptes pour les notifications relatives à tous les comptes.
-ms.openlocfilehash: 1fb697fef44b9ed32888527c3c9e467be69ba4c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Inscrit un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.
+ms.openlocfilehash: 5460d55d906d382ce40ecd3fd9277cf370295680
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322196"
 ---
 # <a name="iolkaccountmanageradvise"></a>IOlkAccountManager::Advise
 
-Enregistre un client avec le Gestionnaire de comptes pour les notifications relatives à tous les comptes.
+Inscrit un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,11 +33,11 @@ HRESULT IOlkAccountManager::Advise (
 
 _pNotify_
   
-> [in] Interface [IOlkAccountNotify](iolkaccountnotify.md) que le Gestionnaire de comptes utilisera pour envoyer des notifications au client. 
+> dans Interface [IOlkAccountNotify](iolkaccountnotify.md) qui sera utilisée par le gestionnaire de comptes pour envoyer des notifications au client. 
     
 _pdwCookie_
   
-> [out] Un cookie [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md) utilisera lors de la suppression de l’inscription pour le compte. 
+> remarquer Un cookie que [IOlkAccountManager::](iolkaccountmanager-unadvise.md) Unadvise utilisera lors de la suppression de l'inscription pour le compte. 
     
 ## <a name="return-values"></a>Valeurs de retour
 

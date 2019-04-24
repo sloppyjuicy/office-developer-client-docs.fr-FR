@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5763fc78-5192-4162-be27-4aadc7ed65bc
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ade74b13811445c39c73f778b6de49b67b59093b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 815685696dfc93bb6241f608ca0157e87e758e7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327867"
 ---
 # <a name="pidtagipmsubtreeentryid-canonical-property"></a>Propriété canonique PidTagIpmSubtreeEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée de la racine de la sous-arborescence de dossier message interpersonnel (IPM) dans l’arborescence de dossiers de la banque de messages. 
+Contient l'identificateur d'entrée de la racine de la sous-arborescence du dossier des messages interpersonnels dans l'arborescence des dossiers de la Banque de messages. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient l’identificateur d’entrée de la racine de la sous-arborescence de 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété représente la racine de la hiérarchie IPM. Clients IPM ne doivent pas afficher tous les dossiers qui ne sont pas des sous-dossiers du dossier représenté par cette propriété.
+Cette propriété représente la racine de la hiérarchie IPM. Les clients IPM ne doivent pas afficher de dossiers qui ne sont pas des sous-dossiers du dossier représenté par cette propriété.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

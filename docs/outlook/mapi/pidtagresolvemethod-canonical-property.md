@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 14bb31ae9aebbb6441948b5756b426508107c9f0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331401"
 ---
 # <a name="pidtagresolvemethod-canonical-property"></a>Propriété canonique PidTagResolveMethod
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur de résolution de conflit d’un dossier.
+Contient la valeur de résolution de conflit d'un dossier.
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient la valeur de résolution de conflit d’un dossier.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété sur le dossier contenant le message de résolution de conflit indique comment résoudre le conflit. Cette propriété n’est pas requise. Toutefois, si elle est définie, indicateurs autres que les éléments suivants ne doivent pas être présents :
+Cette propriété sur le dossier contenant le message de résolution de conflit indique comment résoudre le conflit. Cette propriété n'est pas obligatoire. Toutefois, s'il est défini, les indicateurs autres que ceux suivants ne doivent pas être présents:
   
 |||
 |:-----|:-----|
-|RESOLVE_METHOD_DEFAULT (0 X 00000000)  <br/> |Conflit de résoudre le message doit être généré.  <br/> |
-|RESOLVE_METHOD_LAST_WRITER_WINS (0 X 00000001)  <br/> |Remplacer le message cible avec les dernières modifications seront appliquées.  <br/> |
-|RESOLVE_NO_CONFLICT_NOTIFICATION (0 X 00000002)  <br/> |Ne pas envoyer de message de notification de conflit lors de la génération de conflit de résoudre le message dans le dossier public.  <br/> |
+|RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |Le message de résolution de conflit doit être généré.  <br/> |
+|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Remplace le message cible par les modifications en cours appliquées.  <br/> |
+|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |Ne pas envoyer de message de notification de conflit lors de la génération du message de résolution de conflit dans le dossier public.  <br/> |
    
-Un client ou le serveur ne doit pas générer un message de résolution de conflit pour les messages associés. Ces messages doivent être résolus à l’aide de la sémantique **RESOLVE_METHOD_LAST_WRITER_WINS** . 
+Un client ou un serveur ne doit pas générer de message de résolution de conflit pour les messages associés. Ces messages doivent être résolus à l'aide de la sémantique **RESOLVE_METHOD_LAST_WRITER_WINS** . 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCSYNC]](https://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
   
-> Gère la synchronisation des données de l’objet messagerie entre un serveur et un client.
+> Gère la synchronisation des données d'objet de messagerie entre un serveur et un client.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Définit les structures de base de données qui sont utilisés dans les opérations à distance.
+> Définit les structures de données de base qui sont utilisées dans les opérations distantes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

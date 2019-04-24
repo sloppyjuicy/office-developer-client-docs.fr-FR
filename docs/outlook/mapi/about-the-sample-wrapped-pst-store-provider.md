@@ -1,61 +1,61 @@
 ---
-title: À propos de l’exemple de fournisseur d’archive PST encapsulée
+title: À propos de l'exemple de fournisseur de banque d'informations PST encapsulé
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 953391ce-31a2-3271-365a-284cf5e15d82
-description: 'Dernière modification : 03 juillet 2012'
-ms.openlocfilehash: 399c86d189cfc4160d151f417a6dd20364e60ce3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 03 juillet 2012'
+ms.openlocfilehash: 779dd96c4f07c0c5eee60ae046cd17db98eebfd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329763"
 ---
-# <a name="about-the-sample-wrapped-pst-store-provider"></a>À propos de l’exemple de fournisseur d’archive PST encapsulée
+# <a name="about-the-sample-wrapped-pst-store-provider"></a>À propos de l'exemple de fournisseur de banque d'informations PST encapsulé
 
  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-## <a name="overview-of-message-store-providers"></a>Vue d’ensemble des fournisseurs de banque de messages
+## <a name="overview-of-message-store-providers"></a>Vue d'ensemble des fournisseurs de banques de messages
 
-Fournisseurs de magasins message gérer le stockage et la récupération de messages et d’autres informations pour les utilisateurs d’applications clientes. Les informations du message sont organisées à l’aide d’un système hiérarchique appelé une banque de messages. La banque de messages est implémentée dans plusieurs niveaux, avec des conteneurs appelés dossiers qui contiennent des messages de types différents. Il n’existe aucune limite au nombre de niveaux dans une banque de messages ; les dossiers peuvent contenir le nombre de sous-dossiers.
+Les fournisseurs de banques de messages gèrent le stockage et l'extraction des messages et d'autres informations pour les utilisateurs des applications clientes. Les informations du message sont organisées à l'aide d'un système hiérarchique appelé Banque de messages. La Banque de messages est implémentée à plusieurs niveaux, avec des conteneurs appelés dossiers qui contiennent des messages de types différents. Il n'y a pas de limite au nombre de niveaux dans une banque de messages; les dossiers peuvent contenir de nombreux sous-dossiers.
   
-Données de magasin de message peuvent être utilisées dans de diverses façons. Outre l’utilisation de messagerie par défaut, les dossiers peuvent être utilisés comme un forum de discussion publics, comme un référentiel de documents de référence ou en tant que conteneur pour les informations de forum. Une banque de messages unique peut contenir plusieurs types d’informations, certains modifiables et d’autres pas. Plusieurs clients peuvent installer la même base de messages, rendant simple et rapide de partager des données.
+Les données de banque de messages peuvent être utilisées de différentes manières. En plus de l'utilisation de la messagerie par défaut, les dossiers peuvent être utilisés comme un forum de discussion public, comme référentiel pour des documents de référence ou comme conteneur pour les informations du forum électronique. Un seul magasin de messages peut contenir de nombreux types d'informations, dont certains sont modifiables et d'autres non. Plusieurs clients peuvent installer le même magasin de messages, ce qui vous permet de partager facilement et rapidement les données.
   
-Dossiers de banque de messages vous permettent de trier et filtrer les messages et de personnaliser l’affichage en affichage de l’interface utilisateur. Liens vers les messages filtrés sont stockés dans des dossiers spéciaux appelés dossiers de résultats de recherche. L’utilisateur d’une application cliente entre les critères de filtrage qui MAPI fait référence à une restriction, et les critères est appliquée aux messages stockés dans un ou plusieurs dossiers. Par exemple, un utilisateur peut souhaiter afficher uniquement les messages affaire à un sujet particulier avec des dates d’arrivée qui sont le plus récent que la dernière semaine. Références pour les messages qui correspondent aux critères sont répertoriés dans le dossier de résultats de recherche et les messages réels restent dans leurs dossiers standard.
+Les dossiers de banque de messages vous permettent de trier et de filtrer des messages et de personnaliser l'affichage dans une interface utilisateur (IU). Les liens vers les messages filtrés sont conservés dans des dossiers spéciaux appelés dossiers de résultats de recherche. L'utilisateur d'une application cliente entre les critères de filtrage auxquels MAPI fait référence en tant que restriction, et les critères sont appliqués aux messages stockés dans un ou plusieurs dossiers. Par exemple, un utilisateur peut souhaiter afficher uniquement les messages traitant d'un objet particulier dont les dates d'arrivée sont postérieures à la semaine dernière. Les références aux messages qui répondent aux critères sont répertoriées dans le dossier Search-Results et les véritables messages restent dans leurs dossiers ordinaires.
   
-Les messages sont les unités de données transférées à partir d’un utilisateur ou une application à un autre utilisateur ou l’application. Chaque message contient certains le texte du message et les informations d’enveloppe de message qui sont utilisées pour la transmission. Certains messages contiennent une ou plusieurs pièces jointes, ou des données supplémentaires relatives aux transportés avec un message sous la forme d’un fichier, un autre message ou un objet OLE.
+Les messages sont les unités de données transférées à partir d'un utilisateur ou d'une application vers un autre utilisateur ou une autre application. Chaque message contient un texte de message et des informations d'enveloppe de message qui sont utilisées pour la transmission. Certains messages incluent une ou plusieurs pièces jointes, ou des données supplémentaires liées à un message et transportées avec un message sous la forme d'un fichier, d'un autre message ou d'un objet OLE.
   
-## <a name="the-sample-wrapped-pst-store-provider"></a>L’exemple de fournisseur de banque de dossiers personnels renvoyé à la ligne
+## <a name="the-sample-wrapped-pst-store-provider"></a>Exemple de fournisseur de banque de fichiers PST encapsulée
 
-L’API de réplication permet de répliquer des éléments d’un référentiel de données principale dans un magasin de PST d’Outlook. Vous utilisez l’API de réplication pour répliquer les données dans une banque de dossiers personnels dédiée et garder une trace de l’état de synchronisation. Cette approche ne nécessite pas d’introduire un fournisseur de banque MAPI personnalisé, qui est complexe pour écrire et mettre à jour. Toutefois, le fournisseur de banque PST a besoin d’être encapsulé pour fonctionner avec l’API de réplication.
+L'API de réPlication vous permet de répliquer des éléments à partir d'un référentiel de données principal dans un magasin Outlook PST. L'API de réPlication permet de répliquer les données dans un magasin PST dédié et de suivre l'état de synchronisation. Cette approche ne nécessite pas l'introduction d'un fournisseur de magasins MAPI personnalisé, ce qui est complexe à écrire et à gérer. Toutefois, le fournisseur de banque PST doit être encapsulé pour fonctionner avec l'API de réPlication.
   
-Le fournisseur de banque PST encapsulé exemple utilise le fournisseur dossiers personnels (PST) en tant que serveur principal pour le stockage des données. Le fournisseur de banque PST encapsulé doit être utilisé conjointement avec l’API de réplication. Pour plus d’informations, consultez la rubrique [Sur l’API de réplication](about-the-replication-api.md). La plupart des fonctions dans le fournisseur de banque PST encapsulé exemple transmettre leurs arguments directement au fournisseur sous-jacent PST. Certaines fonctions requièrent une implémentation spéciale et sont décrites dans les rubriques suivantes.
+L'exemple de fournisseur de banque d'informations PST encapsulé utilise le fournisseur de fichiers de dossiers personnels (PST) comme serveur principal pour le stockage des données. Le fournisseur de magasins PST encapsulé doit être utilisé conjointement avec l'API de réPlication. Pour plus d'informations, consultez [la rubrique à propos de l'API](about-the-replication-api.md)de réplication. La plupart des fonctions dans l'exemple de fournisseur de magasins PST encapsulé passent leurs arguments directement au fournisseur PST sous-jacent. Certaines fonctions nécessitent une implémentation spéciale et sont décrites dans les rubriques suivantes.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Installation de l’exemple de wrapper fournisseur de banque de dossiers personnels](installing-the-sample-wrapped-pst-store-provider.md)
+- [Installation de l'exemple de fournisseur de magasins PST encapsulé](installing-the-sample-wrapped-pst-store-provider.md)
     
-- Explique comment télécharger et installer le fournisseur de banque exemple encapsulé PST.
+- Explique comment télécharger et installer l'exemple de fournisseur de banque d'informations PST encapsulé.
     
-- [L’initialisation d’un fournisseur de banque de dossiers personnels encapsulé](initializing-a-wrapped-pst-store-provider.md)
+- [Initialisation d'un fournisseur de magasins PST encapsulé](initializing-a-wrapped-pst-store-provider.md)
     
-- La première étape dans l’implémentation d’un fournisseur de magasins PST encapsulé est à s’initialiser et configurer le fournisseur de banque PST justifié.
+- La première étape de l'implémentation d'un fournisseur de magasins PST encapsulé consiste à initialiser et configurer le fournisseur de magasins PST encapsulé.
     
-- [Se connecter à un fournisseur de banque de dossiers personnels encapsulé](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Connexion à un fournisseur de magasins PST encapsulé](logging-on-to-a-wrapped-pst-store-provider.md)
     
-- Après l’initialisation d’un fournisseur de magasins PST encapsulé, vous devez implémenter les fonctions afin que MAPI et le spouleur MAPI peuvent se connecter au fournisseur de magasin PST justifié.
+- Après l'initialisation d'un fournisseur de magasins PST encapsulé, vous devez implémenter des fonctions afin que MAPI et le spouleur MAPI puissent se connecter au fournisseur de magasins PST encapsulé.
     
-- [À l’aide d’un fournisseur de banque de dossiers personnels encapsulé](using-a-wrapped-pst-store-provider.md)
+- [Utilisation d'un fournisseur de magasins PST encapsulé](using-a-wrapped-pst-store-provider.md)
     
-- Pour utiliser une banque de dossiers personnels encapsulée fournisseur, vous devez envelopper l’interface **[IMAPISupport::IUnknown](imapisupportiunknown.md)** pour implémenter courantes encapsulé tâches du fournisseur de magasin de fichiers PST. 
+- Pour utiliser un fournisseur de magasins PST encapsulé, vous devez encapsuler l'interface **[IMAPISupport:: IUnknown](imapisupportiunknown.md)** pour implémenter les tâches courantes du fournisseur de magasins PST encapsulées. 
     
-- [Arrêt d’un fournisseur de banque de dossiers personnels encapsulé](shutting-down-a-wrapped-pst-store-provider.md)
+- [Arrêt d'un fournisseur de magasins PST encapsulé](shutting-down-a-wrapped-pst-store-provider.md)
     
-- Après avoir à l’aide d’un fournisseur de magasins PST encapsulé, vous devez fermer correctement le fournisseur de banque PST justifié.
+- Une fois que vous avez fini d'utiliser un fournisseur de magasins PST encapsulé, vous devez arrêter correctement le fournisseur de magasins PST encapsulé.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -63,5 +63,5 @@ Le fournisseur de banque PST encapsulé exemple utilise le fournisseur dossiers 
 
 [À propos de l’API de réplication](about-the-replication-api.md)
   
-[Développement d’un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
+[D�veloppement d'un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
 

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
-description: Obtient le classement de la catégorie spécifiée de comptes.
-ms.openlocfilehash: d05e354e25d49a51b3d3f8f053c2b39dc37b333f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient l'ordre de tri de la catégorie de comptes spécifiée.
+ms.openlocfilehash: 3eb6dd96caa43f81eba86a389c938ef90c9533b2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322028"
 ---
 # <a name="iolkaccountmanagergetorder"></a>IOlkAccountManager::GetOrder
 
-Obtient le classement de la catégorie spécifiée de comptes.
+Obtient l'ordre de tri de la catégorie de comptes spécifiée.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -34,7 +34,7 @@ HRESULT IOlkAccountManager::GetOrder (
 
 _pclsidCategory_
   
-> [in] L’identificateur de classe de catégorie pour laquelle obtenir l’ordre. La valeur doit être une des opérations suivantes :
+> dans ID de classe de catégorie pour lequel obtenir la commande. La valeur doit être une des opérations suivantes :
     
    - CLSID_OlkMail
     
@@ -44,23 +44,23 @@ _pclsidCategory_
     
 _pcAccts_
   
->  [out] Le nombre de comptes. 
+>  remarquer Nombre de comptes. 
     
 _prgAccts_
   
-> [out] Pointeur vers un tableau de comptes.
+> remarquer Pointeur vers un tableau de comptes.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L’appel a réussi  <br/> |
+|S_OK  <br/> |L'appel a réussi  <br/> |
 |E_INVALIDARG  <br/> |Un ou plusieurs arguments ne sont pas valides.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Avant d’appeler cette méthode, l’appelant alloue uniquement un pointeur tableau *prgAccts* , mais pas de mémoire pour le tableau qui pointe *prgAccts* . Une fois que cette méthode retourne, l’appelant doit utiliser [IOlkAccountManager::FreeMemory](iolkaccountmanager-freememory.md) pour libérer la mémoire allouée à *prgAccts* . 
+Avant d'appeler cette méthode, l'appelant alloue uniquement un pointeur de tableau *prgAccts* mais pas de mémoire pour le tableau auquel *prgAccts* pointe. Une fois cette méthode renvoyée, l'appelant doit utiliser [IOlkAccountManager:: FreeMemory](iolkaccountmanager-freememory.md) pour libérer la mémoire allouée pour *prgAccts* . 
   
 ## <a name="see-also"></a>Voir aussi
 

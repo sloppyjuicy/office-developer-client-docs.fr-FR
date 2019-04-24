@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee57d6e0-9de0-4427-97ce-371c1c01f3de
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1526ed54fd3773856b009c7c3570064f5a66df28
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 9571d51e01c2d58d9b8a9a913ba2c210ae0bd44d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322400"
 ---
 # <a name="imapisupportcreateoneoff"></a>IMAPISupport::CreateOneOff
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594942"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée un identificateur d’entrée pour une adresse unique.
+Crée un identificateur d'entrée pour une adresse ponctuelle.
   
 ```cpp
 HRESULT CreateOneOff(
@@ -40,55 +40,55 @@ HRESULT CreateOneOff(
 
 ## <a name="parameters"></a>Paramètres
 
- _Caractère_
+ _lpszName_
   
-> [in] Pointeur vers le nom complet du destinataire de la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Le paramètre _le caractère_ peut être NULL. 
+> dans Pointeur vers le nom d'affichage du destinataire de la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Le paramètre _lpszName_ peut être null. 
     
  _lpszAdrType_
   
-> [in] Pointeur vers le type d’adresse du destinataire (telles que télécopie, SMTP ou X500). Le paramètre _lpszAdrType_ ne peut pas être NULL. 
+> dans Pointeur vers le type d'adresse (par exemple, FAX, SMTP ou X500) du destinataire. Le paramètre _lpszAdrType_ ne peut pas être null. 
     
  _lpszAddress_
   
-> [in] Pointeur vers l’adresse de messagerie du destinataire. Le paramètre _lpszAddress_ ne peut pas être NULL. 
+> dans Pointeur vers l'adresse de messagerie du destinataire. Le paramètre _lpszAddress_ ne peut pas être null. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs influençant le destinataire unique. Les indicateurs suivants peuvent être définis :
+> dans Masque de bits des indicateurs qui affecte le destinataire unique. Les indicateurs suivants peuvent être définis:
     
 MAPI_SEND_NO_RICH_INFO 
   
-> Le destinataire ne peut pas gérer le contenu des messages mis en forme. Si MAPI_SEND_NO_RICH_INFO est défini, MAPI définit la propriété du destinataire **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) sur FALSE. Si MAPI_SEND_NO_RICH_INFO n’est pas définie, MAPI définit cette propriété sur TRUE, sauf si l’adresse de messagerie du destinataire désigné par _lpszAddress_ est interprétée comme une adresse Internet. Dans ce cas, MAPI définit **PR_SEND_RICH_INFO** sur FALSE. 
+> Le destinataire ne peut pas gérer le contenu du message mis en forme. Si MAPI_SEND_NO_RICH_INFO est défini, MAPI affecte la valeur FALSe à la propriété **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) du destinataire. Si MAPI_SEND_NO_RICH_INFO n'est pas défini, MAPI affecte à cette propriété la valeur TRUE sauf si l'adresse de messagerie du destinataire désignée par _lpszAddress_ est interprétée comme une adresse Internet. Dans ce cas, MAPI définit **PR_SEND_RICH_INFO** sur false. 
     
 MAPI_UNICODE 
   
-> Le nom complet, le type d’adresse et l’adresse sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, ces chaînes sont au format ANSI.
+> Le nom complet, le type d'adresse et l'adresse sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, ces chaînes sont au format ANSI.
     
  _lpcbEntryID_
   
-> [out] Un pointeur vers le nombre d’octets de l’identificateur d’entrée indiqué par le paramètre _lppEntryID_ . 
+> remarquer Pointeur vers le nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lppEntryID_ . 
     
  _lppEntryID_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée pour le destinataire unique.
+> remarquer Pointeur vers un pointeur vers l'identificateur d'entrée pour le destinataire isolé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’identificateur d’entrée unique a été créé avec succès.
+> L'identificateur d'entrée unique a été créé avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::CreateOneOff** est implémentée pour tous les objets de prise en charge de fournisseur de service. Fournisseurs de services d’appel **CreateOneOff** pour créer un identificateur d’entrée pour un destinataire unique (un destinataire qui n’appartient pas à tous les conteneurs à partir des fournisseurs de carnet d’adresses actuellement chargée). 
+La méthode **IMAPISupport:: CreateOneOff** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services appellent **CreateOneOff** pour créer un identificateur d'entrée pour un destinataire unique (un destinataire qui n'appartient à aucun des conteneurs de l'un des fournisseurs de carnets d'adresses actuellement chargés). 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque vous avez terminé à l’aide de l’identificateur d’entrée renvoyée par **CreateOneOff**, libérer de la mémoire allouée à l’identificateur d’entrée à l’aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
+Lorsque vous avez terminé d'utiliser l'identificateur d'entrée retourné par **CreateOneOff**, libérez de la mémoire allouée à l'identificateur d'entrée à l'aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="notes-to-transport-providers"></a>Remarques pour les fournisseurs de Transport
+## <a name="notes-to-transport-providers"></a>Remarques relatives aux fournisseurs de transport
 
-Prend en charge le Transport Neutral Encapsulation Format TNEF () et la valeur de la propriété **PR_SEND_RICH_INFO** pour déterminer s’il faut utiliser le format TNEF lorsque vous un message de transport. Ne pas de prise en charge TNEF ou ne pas envoyer un message dans ce format, lorsqu’elle est demandée peut être un problème pour les clients basés sur les formulaires ou les clients qui requièrent des propriétés MAPI personnalisées. Il s’agit, car le format TNEF est généralement utilisé pour envoyer des propriétés personnalisées pour les classes de message personnalisées. 
+Prendre en charge le format TNEF (Transport Neutral Encapsulation Format) et utiliser la valeur de la propriété **PR_SEND_RICH_INFO** pour déterminer s'il faut utiliser le format TNEF lorsque vous transférez un message. Le fait de ne pas prendre en charge TNEF ou d'envoyer un message dans ce format lorsqu'il est demandé peut être un problème pour les clients basés sur des formulaires ou les clients qui nécessitent des propriétés MAPI personnalisées. Cela est dû au fait que le format TNEF est généralement utilisé pour envoyer des propriétés personnalisées pour des classes de message personnalisées. 
   
 ## <a name="see-also"></a>Voir aussi
 

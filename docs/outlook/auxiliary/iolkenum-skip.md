@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e83e409c-f201-df9d-5e30-879adf15318d
-description: Ignore un nombre spécifié de comptes dans l’énumérateur.
-ms.openlocfilehash: 2791f1204cedf5e91d13923e50dfc45b981b7e26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ignore un nombre spécifié de comptes dans l'énumérateur.
+ms.openlocfilehash: d4063b0ff4852e6932cf50789eea3caa81d4d586
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782732"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321986"
 ---
 # <a name="iolkenumskip"></a>IOlkEnum::Skip
 
-Ignore un nombre spécifié de comptes dans l’énumérateur.
+Ignore un nombre spécifié de comptes dans l'énumérateur.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -32,7 +32,7 @@ HRESULT IOlkEnum::Skip(
 
 _cSkip_
   
-> [in] Le nombre de comptes est ignoré.
+> dans Nombre de comptes à ignorer.
     
 ## <a name="return-values"></a>Valeurs de retour
 

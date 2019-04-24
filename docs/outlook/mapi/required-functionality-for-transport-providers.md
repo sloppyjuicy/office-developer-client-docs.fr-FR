@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités requises pour les fournisseurs de transports
+title: Fonctionnalité requise pour les fournisseurs de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,30 +7,30 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a0d9a3e0-a500-4d72-8859-ecfd1604fc5b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: dc1189df1b8ad8f8e613d6813681ed3f4148b122
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 7f9768d47cf740bdf50b439ee3af4b0d2a191602
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328685"
 ---
-# <a name="required-functionality-for-transport-providers"></a>Fonctionnalités requises pour les fournisseurs de transports
+# <a name="required-functionality-for-transport-providers"></a>Fonctionnalité requise pour les fournisseurs de transport
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Chaque fournisseur de transport MAPI doit :
+Chaque fournisseur de transport MAPI doit:
   
-- Suivez les instructions générales pour l’utilisation de MAPI et d’autres fournisseurs de services. Pour plus d’informations, voir [Développement d’applications MAPI](mapi-application-development.md) et les [Fournisseurs de services MAPI](mapi-service-providers.md).
+- Suivez les instructions générales relatives à l'utilisation de MAPI et d'autres fournisseurs de services. Pour plus d'informations, consultez la rubrique [MAPI Application Development](mapi-application-development.md) and [MAPI service](mapi-service-providers.md)Providers.
     
-- Avoir son fournisseur de transport exposent DLL MAPI sa fonction d’initialisation de [XPProviderInit](xpproviderinit.md) . 
+- Sa DLL de fournisseur de transport expose à MAPI sa fonction d'initialisation [XPProviderInit](xpproviderinit.md) . 
     
-- Exposer à MAPI son implémentation de la [IXPProvider : IUnknown](ixpprovideriunknown.md) et [IXPLogon : IUnknown](ixplogoniunknown.md) interfaces. 
+- Exposer à l'interface MAPI son implémentation des interfaces [IXPProvider: IUnknown](ixpprovideriunknown.md) et [IXPLogon: IUnknown](ixplogoniunknown.md) . 
     
-- Exposer aux applications MAPI et client son implémentation de la [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface. Pour plus d’informations sur l’implémentation de **IMAPIStatus**, voir [Implémentation d’objet état](status-object-implementation.md). 
+- Exposer aux applications MAPI et client son implémentation de l'interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) . Pour plus d'informations sur l'implémentation de **IMAPIStatus**, voir [Status implémentation Object](status-object-implementation.md). 
     
-- Implémenter une boîte de dialogue de feuille de propriété de configuration. Pour plus d’informations sur l’implémentation de feuilles de propriétés, voir [Implémentation de feuille de propriétés](property-sheet-implementation.md).
+- Implémentez une boîte de dialogue de feuille de propriétés pour la configuration. Pour plus d'informations sur l'implémentation des feuilles de propriétés, voir implémentation de la [feuille de propriétés](property-sheet-implementation.md).
     
 

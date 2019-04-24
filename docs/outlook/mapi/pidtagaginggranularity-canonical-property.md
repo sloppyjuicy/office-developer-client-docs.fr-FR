@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b79ec87d-d97c-4e6c-899b-78ebf1b485a7
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: b4006b62758b32598a64eaa4eb333c7ce5b12605
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325584"
 ---
 # <a name="pidtagaginggranularity-canonical-property"></a>Propriété canonique PidTagAgingGranularity
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente l’unité de temps qui sert à déterminer la durée pendant laquelle qu'un élément est conservée dans un dossier avant de l’élément est archivé.
+Représente l'unité de temps utilisée pour déterminer la durée pendant laquelle un élément reste dans un dossier avant l'archivage de l'élément.
   
 |||
 |:-----|:-----|
@@ -36,41 +36,41 @@ Représente l’unité de temps qui sert à déterminer la durée pendant laquel
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs possibles de **PR_AGING_GRANULARITY** peuvent être une des options suivantes. 
+Les valeurs possibles pour **PR_AGING_GRANULARITY** peuvent être l'une des valeurs suivantes: 
   
-|**Nom**|**Valeur**|**Description**|
+|**Name**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** est défini dans le nombre de mois.  <br/> |
-|**AG_WEEKS** <br/> |1  <br/> |**PR_AGING_PERIOD** est défini dans le nombre de semaines.  <br/> |
-|**AG_DAYS** <br/> |2  <br/> |**PR_AGING_PERIOD** est défini dans le nombre de jours.  <br/> |
+|**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** est défini en nombre de mois.  <br/> |
+|**AG_WEEKS** <br/> |0,1  <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines.  <br/> |
+|**AG_DAYS** <br/> |n°2  <br/> |**PR_AGING_PERIOD** est défini en nombre de jours.  <br/> |
    
-La durée pendant laquelle un élément est conservée dans un dossier avant de l’élément est archivé est déterminée par les deux propriétés, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) et **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** représente le nombre d’unités de temps que l’élément reste dans le dossier avant leur archivage. 
+La durée pendant laquelle un élément reste dans un dossier avant l'archivage de l'élément est déterminée par deux propriétés, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) et **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** représente le nombre d'unités de temps dont l'élément est conservé dans le dossier avant son archivage. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Définit les structures de base de données qui sont utilisés dans les opérations à distance.
+> Définit les structures de données de base qui sont utilisées dans les opérations distantes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

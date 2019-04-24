@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 197b21ed-9f2f-425f-a6ed-cae1208fa2ca
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 029df4397f4d24c7c111d2017d34e6403df367d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325633"
 ---
 # <a name="pidtagmessageeditorformat-canonical-property"></a>Propriété canonique PidTagMessageEditorFormat
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le format d’un éditeur à utiliser pour afficher un message.
+Spécifie le format qu'un éditeur doit utiliser pour afficher un message.
   
 |||
 |:-----|:-----|
@@ -36,48 +36,48 @@ Spécifie le format d’un éditeur à utiliser pour afficher un message.
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs possibles de **PR_MSG_EDITOR_FORMAT** peuvent être une des options suivantes : 
+Les valeurs possibles pour **PR_MSG_EDITOR_FORMAT** peuvent être l'une des valeurs suivantes: 
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|**EDITOR_FORMAT_DONTKNOW** <br/> |Le format de l’éditeur à utiliser est inconnu.  <br/> |
-|**EDITOR_FORMAT_PLAINTEXT** <br/> |L’éditeur doit afficher le message au format texte brut.  <br/> |
-|**EDITOR_FORMAT_HTML** <br/> |L’éditeur doit afficher le message au format HTML.  <br/> |
-|**EDITOR_FORMAT_RTF** <br/> |L’éditeur doit afficher le message au Format RTF.  <br/> |
+|**EDITOR_FORMAT_DONTKNOW** <br/> |Le format de l'éditeur à utiliser est inconnu.  <br/> |
+|**EDITOR_FORMAT_PLAINTEXT** <br/> |L'éditeur doit afficher le message au format texte brut.  <br/> |
+|**EDITOR_FORMAT_HTML** <br/> |L'éditeur doit afficher le message au format HTML.  <br/> |
+|**EDITOR_FORMAT_RTF** <br/> |L'éditeur doit afficher le message au format RTF.  <br/> |
    
-Par défaut, envoyer des messages (avec la classe de message **IPM. Remarque** ou avec une classe de message dérivée de **IPM. Notez**) envoyés à partir d’une messagerie POP3/SMTP compte sont envoyés dans le Neutral Encapsulation Format TNEF (Transport). La propriété **PR_MSG_EDITOR_FORMAT** peut être utilisée pour appliquer uniquement du texte brut et pas TNEF, lors de l’envoi d’un message. Si **PR_MSG_EDITOR_FORMAT** est défini sur **EDITOR_FORMAT_PLAINTEXT**, le message est envoyé en texte brut sans TNEF. Si **PR_MSG_EDITOR_FORMAT** est défini sur **EDITOR_FORMAT_RTF**, le codage TNEF est implicitement activé et le message est envoyé en utilisant le format Internet par défaut qui est spécifié dans le client Outlook.
+Par défaut, les messages électroniques (avec la classe de message **IPM. Note** ou avec une classe de message personnalisée dérivée de **IPM. Remarque**) envoyé à partir d'un compte de messagerie POP3/SMTP sont envoyés au format TNEF (Transport Neutral encapsulAtion format). La propriété **PR_MSG_EDITOR_FORMAT** peut être utilisée pour appliquer uniquement du texte brut, et non au format TNEF, lors de l'envoi d'un message. Si **PR_MSG_EDITOR_FORMAT** est défini sur **EDITOR_FORMAT_PLAINTEXT**, le message est envoyé en tant que texte brut sans TNEF. Si **PR_MSG_EDITOR_FORMAT** est défini sur **EDITOR_FORMAT_RTF**, le codage TNEF est implicitement activé et le message est envoyé à l'aide du format Internet par défaut spécifié dans le client Outlook.
   
-Il existe deux autres façons d’imposer l’utilisation du format TNEF lors de l’envoi d’un message.
+Il existe deux autres façons d'appliquer le format TNEF lors de l'envoi d'un message.
   
-- Définition de la **dispidUseTNEF** ([PidLidUseTnef](pidlidusetnef-canonical-property.md)) nommé propriété la valeur True sur un message indique TNEF doit être inclus lors de la conversion du message de MAPI à MIME/SMTP. Notez que **dispidUseTNEF** s’applique uniquement lorsque le message est envoyé à partir d’un compte de messagerie POP3/SMTP et ne s’applique pas lorsque le message est envoyé par d’autres fournisseurs, tels que Microsoft Exchange Server. **dispidUseTNEF** remplace le paramètre de **PR_MSG_EDITOR_FORMAT**.
+- La définition de la propriété nommée **dispidUseTNEF** ([PidLidUseTnef](pidlidusetnef-canonical-property.md)) sur true sur un message indique que le format TNEF doit être inclus lors de la conversion du message MAPI en MIME/SMTP. Notez que **dispidUseTNEF** s'applique uniquement lorsque le message est envoyé à partir d'un compte de messagerie POP3/SMTP, et ne s'applique pas lorsque le message est envoyé par d'autres fournisseurs, tels que Microsoft Exchange Server. **dispidUseTNEF** remplace le paramètre dans **PR_MSG_EDITOR_FORMAT**.
     
-- À l’aide de l’indicateur **CCSF_USE_TNEF** lors de l’appel [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) pour convertir un message MAPI sortant à un flux MIME peut également appliquer TNEF. Cela s’applique même si **dispidUseTNEF** n’est pas défini. 
+- L'utilisation de l'indicateur **CCSF_USE_TNEF** lors de l'appel de [IConverterSession:: MAPItoMIMEStm](iconvertersession-mapitomimestm.md) pour convertir un message MAPI sortant en flux MIME peut également appliquer le format TNEF. Cela s'applique même si **dispidUseTNEF** n'est pas défini. 
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Définit les structures de base de données qui sont utilisés dans les opérations à distance.
+> Définit les structures de données de base qui sont utilisées dans les opérations distantes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

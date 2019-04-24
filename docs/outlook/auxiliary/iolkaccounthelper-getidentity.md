@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ea8b8f02-959f-cd71-9cfe-5ebdf4bae2bc
-description: Obtient le nom du profil d’un compte.
+description: Obtient le nom de profil d'un compte.
 ms.openlocfilehash: d725f309a29b026395e2795a49d31b45a4a49562
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322105"
 ---
 # <a name="iolkaccounthelpergetidentity"></a>IOlkAccountHelper::GetIdentity
 
-Obtient le nom du profil d’un compte.
+Obtient le nom de profil d'un compte.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,23 +33,23 @@ HRESULT IOlkAccountHelper::GetIdentity (
 
 _pwszIdentity_
   
-> [in] [out] Nom du profil.
+> dans remarquer Nom du profil.
     
-_pcch_
+_PCCh_
   
-> [in] [out] Lors de l’appel de cette méthode contient la taille (en nombre de caractères) de _pwszIdentity_ qui a été affectée. Au retour, contient la longueur réelle, y compris le caractère de fin de 0, le nom de profil retourné. 
+> dans remarquer Lors de l'appel de cette méthode, contient la taille (en nombre de caractères) de _pwszIdentity_ qui a été allouée. Après retour, contient la longueur réelle, y compris le caractère de fin 0, du nom de profil renvoyé. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_OUTOFMEMORY  <br/> |Le nom du profil retourné est supérieure à la taille de _pwszIdentity_.  <br/> |
-|E_INVALIDARG  <br/> | _pcch_ est NULL.  <br/> |
+|STANDARD  <br/> |Le nom de profil renvoyé est plus long que la taille de _pwszIdentity_.  <br/> |
+|E_INVALIDARG  <br/> | _PCCh_ est null.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si _pwszIdentity_ est trop petit pour contenir le nom du profil, ne sera pas être défini sur retour et pointe vers la taille requise pour _pwszIdentity_ _pcch_ .
+Si _pwszIdentity_ est trop petit pour contenir le nom du profil, il ne sera pas défini en retour, et _PCCh_ pointera vers la taille requise pour _pwszIdentity_.
   
 ## <a name="see-also"></a>Voir aussi
 

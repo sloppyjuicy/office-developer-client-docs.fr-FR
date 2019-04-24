@@ -6,34 +6,34 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 982ed30a-bdf3-4c1a-9788-43b5933ff631
-ms.openlocfilehash: f08441035eee81c8e5b4059626759c68e74f9d70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbfb770b86f768bf4860c7298f27b7b79413fd5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326032"
 ---
 # <a name="sections-visio-shapesheet-reference"></a>Sections (référence Visio ShapeSheet)
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [1-D Endpoints, section](1-d-endpoints-section.md)
     
-- [Section Propriétés de Rotation 3D](3-d-rotation-properties-section.md)
+- [3-D Rotation Properties Section](3-d-rotation-properties-section.md)
     
 - [Section de balise d'action](action-tag-section.md)
     
 - [Actions, section](actions-section.md)
     
-- [Section des propriétés d’effet supplémentaires](additional-effect-properties-section.md)
+- [Additional Effect Properties Section](additional-effect-properties-section.md)
     
 - [Alignment,section](alignment-section.md)
     
 - [Annotation, section](annotation-section.md)
     
-- [Section Propriétés de biseau](bevel-properties-section.md)
+- [Bevel Properties Section](bevel-properties-section.md)
     
-- [Section de comportement de forme de modification](change-shape-behavior-section.md)
+- [Change Shape Behavior Section](change-shape-behavior-section.md)
     
 - [Character, section](character-section.md)
     
@@ -47,7 +47,7 @@ ms.locfileid: "19789603"
     
 - [Fill Format, section](fill-format-section.md)
     
-- [Section dégradée de remplissage](fill-gradient-section.md)
+- [Fill Gradient Section](fill-gradient-section.md)
     
 - [Foreign Image Info, section](foreign-image-info-section.md)
     
@@ -55,7 +55,7 @@ ms.locfileid: "19789603"
     
 - [Glue Info, section](glue-info-section.md)
     
-- [Section Propriétés du dégradé](gradient-properties-section.md)
+- [Gradient Properties Section](gradient-properties-section.md)
     
 - [Group Properties, section](group-properties-section.md)
     
@@ -69,7 +69,7 @@ ms.locfileid: "19789603"
     
 - [Line Format, section](line-format-section.md)
     
-- [Section dégradé de ligne](line-gradient-section.md)
+- [Line Gradient Section](line-gradient-section.md)
     
 - [Miscellaneous, section](miscellaneous-section.md)
     
@@ -83,11 +83,11 @@ ms.locfileid: "19789603"
     
 - [Protection, section](protection-section.md)
     
-- [Section Style rapide](quick-style-section.md)
+- [Quick Style Section](quick-style-section.md)
     
 - [Reviewer, section](reviewer-section.md)
     
-- [Règle &amp; Grid, Section](rulergrid-section.md)
+- [Section &amp; grille de règle](rulergrid-section.md)
     
 - [Scratch, section](scratch-section.md)
     
@@ -107,7 +107,7 @@ ms.locfileid: "19789603"
     
 - [Text Transform, section](text-transform-section.md)
     
-- [Section Propriétés du thème](theme-properties-section.md)
+- [Theme Properties Section](theme-properties-section.md)
     
 - [User-defined Cells, section](user-defined-cells-section.md)
     

@@ -1,5 +1,5 @@
 ---
-title: À propos des notifications d’affichage tableau
+title: Affichage des notifications de table
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,48 +7,48 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 487a5dbcdefe901b514083ee910972354574bd82
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 41e6a2c8b6856bf072972325e7e08aabe3e17446
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326410"
 ---
-# <a name="about-display-table-notifications"></a>À propos des notifications d’affichage tableau
+# <a name="about-display-table-notifications"></a>Affichage des notifications de table
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Notifications sur une table d’affichage sont transmises par le fournisseur de services responsable de la création de la table d’affichage à MAPI. MAPI inscrit pour ces notifications à l’appel de méthode [d’IMAPITable::Advise](imapitable-advise.md) d’une table d’affichage et en spécifiant l’événement de modification de table. 
+Les notifications sur une table d'affichage sont envoyées par le fournisseur de services responsable de la création de la table d'affichage pour MAPI. MAPI s'inscrit pour ces notifications en appelant la méthode [IMAPITable:: Advise](imapitable-advise.md) du tableau d'affichage et en spécifiant l'événement modifié de la table. 
   
-Comme avec toutes les notifications de table, afficher les notifications de table incluent une structure [TABLE_NOTIFICATION](table_notification.md) . Uniquement **ulTableEvent** ainsi que les membres **propIndex** de cette structure sont significatifs ; les autres membres sont ignorés. Le membre **ulTableEvent** est défini sur TABLE_ROW_MODIFIED et le membre **propIndex** est défini sur la valeur de la colonne **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) dans la ligne correspondante. MAPI répond à la notification en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) pour la propriété affichée dans le contrôle et en affichant la nouvelle valeur. 
+Comme avec toutes les notifications de table, les notifications de table d'affichage incluent une structure [TABLE_NOTIFICATION](table_notification.md) . Seuls les membres **ulTableEvent** et **propIndex** de cette structure sont significatifs; les autres membres sont ignorés. Le membre **ulTableEvent** est défini sur TABLE_ROW_MODIFIED et le membre **propIndex** est défini sur la valeur de la colonne **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) dans la ligne correspondante. MAPI répond à la notification en appelant la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) pour la propriété affichée dans le contrôle et en affichant la nouvelle valeur. 
   
-Afficher les notifications de table peuvent être utilisées par un fournisseur de services pour coordonner les modifications apportées aux contrôles connexes dans la boîte de dialogue. Par exemple, si l’implémentation d’interface propriété doit actualiser un ou plusieurs champs dans la boîte de dialogue — par exemple en réponse à un autre contrôle qui a défini l’indicateur DT_SET_IMMEDIATE dans sa propriété **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) : Il peut générer une notification de tableau d’affichage. Une notification de la table affichage alerte l’implémentation d’interface de propriété la valeur d’un ou plusieurs contrôles doit être relu en raison d’une modification ou un événement externe se produisant. 
+Les notifications de table d'affichage peuvent être utilisées par un fournisseur de services pour coordonner les modifications apportées aux contrôles associés dans la boîte de dialogue. Par exemple, si l'implémentation de l'interface de propriété doit actualiser un ou plusieurs champs dans la boîte de dialogue (peut-être en réponse à un autre contrôle qui a défini l'indicateur DT_SET_IMMEDIATE dans sa propriété **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md))), elle peut générer une notification de table d'affichage. Une notification de table d'affichage peut alerter l'implémentation de l'interface de propriété que la valeur d'un ou de plusieurs contrôles doit être relues en raison d'une modification apportée ou d'un événement externe se produisant. 
   
-Un fournisseur de services peut émettre afficher les notifications de table par :
+Un fournisseur de services peut émettre des notifications de table d'affichage en procédant comme suit:
   
-- L’appel [ITableData::HrNotify](itabledata-hrnotify.md), si le tableau d’affichage a été créé avec un objet de données de table.
+- Appel de [ITableData:: HrNotify](itabledata-hrnotify.md), si la table d'affichage a été créée avec un objet de données de table.
     
-    - Ou -
+    - Des
     
-- À l’aide de son propre code, si le tableau d’affichage a été créé avec l’implémentation du fournisseur **IMAPITable** . 
+- À l'aide de son propre code, si la table d'affichage a été créée avec l'implémentation de la fonction **IMAPITable** du fournisseur. 
     
-MAPI répond pour afficher les notifications de table lorsque cela est nécessaire à relire la valeur d’un contrôle à partir de l’implémentation d’interface de propriété. Le tableau suivant décrit les détails relatifs à la MAPI gère les notifications pour des types spécifiques de contrôles.
+MAPI répond aux notifications de table d'affichage lorsque cela est nécessaire en rereadant la valeur d'un contrôle à partir de l'implémentation de l'interface de propriété. Le tableau suivant décrit les détails relatifs à la façon dont MAPI gère les notifications pour des types de contrôles spécifiques.
   
 |**Contrôle**|**Action MAPI**|
 |:-----|:-----|
-|Bouton  <br/> |Appelle [IMAPIProp::OpenProperty](imapiprop-openproperty.md)pour récupérer l’objet de contrôle par la propriété représentée par le membre **ulPRControl** de la structure [DTBLBUTTON](dtblbutton.md) si l’appel a précédemment échoué. Appelle [IMAPIControl::GetState](imapicontrol-getstate.md) pour déterminer si le bouton doit être activé et Active ou désactive le bouton en conséquence l’objet contrôle.  <br/> |
-|Case à cocher  <br/> |Relit la valeur du membre **ulPRPropertyName** .  <br/> |
-|Zone de liste modifiable  <br/> |Rouvre la table associée au membre de la structure [DTBLCOMBOBOX](dtblcombobox.md) **ulPRTableName** . Toutes les lignes, y compris la valeur du membre **ulPRPropertyName**relit.  <br/> |
-|Zone de liste déroulante  <br/> |Rouvre la table associée au membre de la structure [DTBLDDLBX](dtblddlbx.md) **ulPRTableName** et relit toutes les lignes. Appelle [IMAPIProp::GetProps](imapiprop-getprops.md) pour récupérer les valeurs des propriétés stockées dans **ulPRDisplayProperty** ainsi que les membres **ulPRSetProperty** .  <br/> |
-|Modifier  <br/> |Relit la propriété et réaffiche.  <br/> |
+|Bouton  <br/> |Appelle [IMAPIProp:: OpenProperty](imapiprop-openproperty.md)pour récupérer l'objet de contrôle par le biais de la propriété représentée par le membre **ulPRControl** de la structure [DTBLBUTTON](dtblbutton.md) si l'appel avait échoué précédemment. Appelle la [IMAPIControl:: GetState](imapicontrol-getstate.md) de l'objet de contrôle pour déterminer si le bouton doit être activé et active ou désactive le bouton en conséquence.  <br/> |
+|Case à cocher  <br/> |Relecture de la valeur pour le membre **ulPRPropertyName** .  <br/> |
+|Zone de liste modifiable  <br/> |Ouvre à nouveau la table associée au membre **ulPRTableName** de la structure [DTBLCOMBOBOX](dtblcombobox.md) . Relit toutes les lignes, y compris la valeur du membre **ulPRPropertyName**.  <br/> |
+|Zone de liste déRoulante  <br/> |Ouvre à nouveau la table associée au membre **ulPRTableName** de la structure [DTBLDDLBX](dtblddlbx.md) et relit toutes les lignes. Appelle [IMAPIProp:: GetProps](imapiprop-getprops.md) pour récupérer les valeurs des propriétés stockées dans les membres **ulPRDisplayProperty** et **ulPRSetProperty** .  <br/> |
+|Modifier  <br/> |Relit la propriété et affiche de nouveau les réaffichages.  <br/> |
 |Zone de groupe  <br/> |Ignore la notification.  <br/> |
 |Étiquette  <br/> |Ignore la notification.  <br/> |
-|Zone de liste Sélection multiple  <br/> |Si une des colonnes est un identificateur d’entrée, actualise la zone de liste. L’objet correspondant n’est pas fermé ou rechargé.  <br/> |
-|Zone de liste de sélection unique  <br/> |Lit la propriété set, essayez d’identifier.  <br/> |
-|Zone de liste à valeurs multiples  <br/> |Relit la propriété et remplit la zone de liste.  <br/> |
-|Page à onglets  <br/> |Il n’y a aucune notification pour ce contrôle ; tout est statique.  <br/> |
-|Case d’option  <br/> |Relit la propriété qui est associé au bouton et est stockée dans le membre **ulPropTag** de la structure [DTBLRADIOBUTTON](dtblradiobutton.md) et rend la sélection avec les contrôles appropriée.  <br/> |
+|Zone de liste à sélection multiple  <br/> |Si l'une des colonnes est un identificateur d'entrée, actualise la zone de liste. L'objet correspondant n'est ni fermé ni rechargé.  <br/> |
+|Zone de liste à sélection unique  <br/> |Lit la propriété Set, en essayant de l'identifier.  <br/> |
+|Zone de liste à plusieurs valeurs  <br/> |Lit de nouveau la propriété et remplit la zone de liste.  <br/> |
+|Page à onglets  <br/> |Il n'existe aucune notification pour ce contrôle; tout est statique.  <br/> |
+|Case d'option  <br/> |Relit la propriété associée au bouton et est stockée dans le membre **ulPropTag** de la structure [DTBLRADIOBUTTON](dtblradiobutton.md) et effectue la sélection appropriée avec les contrôles.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

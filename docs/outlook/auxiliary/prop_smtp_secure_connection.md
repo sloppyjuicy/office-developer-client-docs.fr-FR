@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: Spécifie le type de connexion chiffrée à utiliser pour un compte SMTP.
-ms.openlocfilehash: e1c8c8dacf953407d4cbb114aa5ee0a4cdb6acf5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 67eae5c9c5ca1b7f664ceaac0463ef3f3c9a291a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328328"
 ---
 # <a name="propsmtpsecureconnection"></a>PROP_SMTP_SECURE_CONNECTION
 
@@ -23,23 +23,23 @@ Spécifie le type de connexion chiffrée à utiliser pour un compte SMTP.
 |||
 |:-----|:-----|
 |Identificateur :  <br/> |0x020A  <br/> |
-|Type de propriété :  <br/> |PT_DWORD  <br/> |
-|Balise de propriété :  <br/> |0x020A0003  <br/> |
-|Access :  <br/> |Lecture seule  <br/> |
+|Type de propriété:  <br/> |PT_DWORD  <br/> |
+|Balise de propriété:  <br/> |0x020A0003  <br/> |
+|Access  <br/> |Lecture seule  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur peut être une des constantes suivantes. Voir [constantes (gestion des comptes d’API)](constants-account-management-api.md) pour leurs valeurs. 
+La valeur peut être l'une des constantes suivantes. Voir [constants (API de gestion des comptes)](constants-account-management-api.md) pour leurs valeurs. 
   
-|**Constantes**|**Description**|
+|**Constants**|**Description**|
 |:-----|:-----|
-|**ENCRYPT_CONN_NO_SECURITY** <br/> |Ne pas utiliser un chiffrement.  <br/> |
-|**ENCRYPT_CONN_SSL** <br/> |Utiliser le chiffrement de Secure Sockets Layer (SSL).  <br/> |
-|**ENCRYPT_CONN_TLS** <br/> |Utiliser le protocole de chiffrement et d’authentification de sécurité TLS (Transport Layer).  <br/> |
-|**ENCRYPT_CONN_AUTO** <br/> |Détecter automatiquement et utiliser la méthode de chiffrement pris en charge par le serveur de messagerie.  <br/> |
+|**ENCRYPT_CONN_NO_SECURITY** <br/> |N'utilisez pas de chiffrement.  <br/> |
+|**ENCRYPT_CONN_SSL** <br/> |Utilisez le chiffrement SSL (Secure Socket Layer).  <br/> |
+|**ENCRYPT_CONN_TLS** <br/> |Utilisez le protocole de chiffrement TLS (Transport Layer Security) et le protocole d'authentification.  <br/> |
+|**ENCRYPT_CONN_AUTO** <br/> |Détecte et utilise automatiquement la méthode de chiffrement prise en charge par le serveur de messagerie.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Message de la gestion des téléchargements pour les comptes POP3](managing-message-downloads-for-pop3-accounts.md) 
+- [Gestion des téléchargements de messages pour les comptes POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de gestion des comptes)](constants-account-management-api.md)
 

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6d1ed913-8329-3bb9-d275-9b76597781ee
 description: ''
-ms.openlocfilehash: c382edb21e8c8e4f6561f6e34a8fe28c3907af61
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 213436da43ef66bc85b0caf6bef20fb9972edc19
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327355"
 ---
-# <a name="edit-a-part-of-a-formula"></a>Modification d'une partie d'une formule
+# <a name="edit-a-part-of-a-formula"></a>Modifier une partie de formule
 
 1. Double-cliquez sur la cellule, ou sélectionnez-la et appuyez sur F2.
     
@@ -35,6 +35,6 @@ ms.locfileid: "19788538"
 | Sélectionner jusqu'à la fin  <br/> | Appuyez sur Ctrl+Fin.  <br/> |
 | Sélectionner jusqu'au début  <br/> | Appuyez sur Ctrl+Orig.  <br/> |
 | Remplacer le texte sélectionné  <br/> | Tapez le nouveau texte.  <br/> |
-| Supprimer le texte sélectionné  <br/> | Appuyez sur SUPPR. Ou, dans l’onglet **accueil** , cliquez sur **Couper**.  <br/> |
+| Supprimer le texte sélectionné  <br/> | Appuyez sur SUPPR. Ou, sous l'onglet **Accueil** , cliquez sur **couper**.  <br/> |
    
 

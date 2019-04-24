@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef31b61a-93b6-4ae8-bc71-f5ef5caf43f4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e785d42639d51dab154a0bde239f858a92ddd143
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 1915004847fdfd27c97656223866aaab9d3e59c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326305"
 ---
 # <a name="imapisupportreadreceipt"></a>IMAPISupport::ReadReceipt
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588621"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Génère un rapport nonread pour un message ou en lecture.
+Génère un rapport de lecture ou de non-lecture pour un message.
   
 ```cpp
 HRESULT ReadReceipt(
@@ -35,37 +35,37 @@ LPMESSAGE FAR * lppEmptyMessage
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont la lecture ou l’état nonread est généré. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle la manière dont le rapport de lecture ou de non-lecture est généré. L'indicateur suivant peut être défini:
     
 MAPI_NON_READ 
   
-> Un rapport nonread est généré. Si MAPI_NON_READ n’est pas définie, un rapport de lecture est généré.
+> Un rapport non lu est généré. Si MAPI_NON_READ n'est pas défini, un rapport de lecture est généré.
     
  _lpReadMessage_
   
-> [in] Pointeur vers le message sur lequel le rapport doit être généré.
+> dans Pointeur vers le message à propos duquel le rapport doit être généré.
     
  _lppEmptyMessage_
   
-> [entrée, sortie] À l’entrée _lppEmptyMessage_ pointe vers un pointeur vers un message vide. Dans la sortie, _lppEmptyMessage_ pointe vers un pointeur vers le message d’état. 
+> [in, out] Lors de l'entrée, _lppEmptyMessage_ pointe vers un pointeur vers un message vide. En sortie, _lppEmptyMessage_ pointe vers un pointeur vers le message de rapport. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le rapport a été généré.
+> Le rapport a été généré avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::ReadReceipt** est implémentée uniquement pour les objets de prise en charge de fournisseur de magasin de message. Fournisseurs de magasins message appellent **ReadReceipt** pour indiquer à MAPI pour générer un rapport nonread pour le message vers laquelle pointé le paramètre _lpReadMessage_ ou en lecture. 
+La méthode **IMAPISupport:: ReadReceipt** est implémentée uniquement pour les objets de prise en charge du fournisseur de banque de messages. Les fournisseurs de banques de messages appellent **ReadReceipt** pour indiquer à MAPI de générer un rapport de lecture ou de non-lecture pour le message pointé par le paramètre _lpReadMessage_ . 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appel **ReadReceipt** lorsque la valeur de la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) et une des conditions suivantes est vraie :
+Appelez **ReadReceipt** lorsque la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) est définie et que l'une des conditions suivantes est vraie:
   
 - Le message a été lu.
     
@@ -73,17 +73,17 @@ Appel **ReadReceipt** lorsque la valeur de la propriété **PR_READ_RECEIPT_REQU
     
 - Le message a été copié.
     
-- Méthode de [IMessage::SetReadFlag](imessage-setreadflag.md) du message a été appelée. 
+- La méthode [IMessage:: SetReadFlag](imessage-setreadflag.md) du message a été appelée. 
     
-N’appelez pas **ReadReceipt** lorsqu’un message est supprimé. 
+N'appelez pas **ReadReceipt** lorsqu'un message est supprimé. 
   
-Un rapport nonread ou en lecture doit être envoyé qu’une seule fois pour un message. Garder une trace des état de lecture d’un message et ne pas envoyer de rapports multiples pour un seul message.
+Un rapport de lecture ou de non-lecture ne doit être envoyé qu'une seule fois pour un message. Assurer le suivi de l'état de lecture d'un message et ne pas envoyer plusieurs rapports pour un seul message.
   
-Si le paramètre _lppEmptyMessage_ pointe vers un message de rapport valide MAPI retourne à partir de **ReadReceipt**, appelez la méthode de [IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer le message et puis relâchez le pointeur en appelant son **IUnknown:s:Release **méthode. 
+Si le paramètre _lppEmptyMessage_ pointe vers un message de rapport valide lorsque MAPI revient de **ReadReceipt**, appelez la méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) pour envoyer le message, puis libérez le pointeur en appelant sa propriété **IUnknown: s: Release. **méthode. 
   
-Si **ReadReceipt** échoue, le message doit être libéré sans soumis. Si vous stockez état de lecture du message, vous pouvez tenter de générer le lire ou nonread à une date ultérieure. 
+Si **ReadReceipt** échoue, le message doit être libéré sans être soumis. Si vous stockez l'état de lecture du message, vous pouvez essayer de générer le rapport de lecture ou de non-lecture ultérieurement. 
   
-Vous pouvez masquer ou afficher des rapports de lecture et nonread générés par magasins dans vos dossiers. Stockage des rapports de lecture et nonread dans des dossiers cachés vous permet d’implémenter une sécurité accrue.
+Vous pouvez masquer ou afficher les rapports lus et non lus générés par les banques dans vos dossiers. Le stockage des rapports lus et non lus dans des dossiers cachés vous permet d'implémenter une sécurité plus étroite.
   
 ## <a name="see-also"></a>Voir aussi
 

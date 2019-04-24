@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 2e1cff8148815c3e03b92e4d57d1c6a303943c9c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e9aee3280edbed60e97ef6e00e61f3086f6f07ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330141"
 ---
 # <a name="pidtagresourcemethods-canonical-property"></a>Propriété canonique PidTagResourceMethods
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque binaire composé des indicateurs qui influencent les méthodes de l’interface **IMAPIStatus** qui sont prises en charge par l’objet d’état. 
+Contient un masque de réindicateur des indicateurs qui indiquent les méthodes de l'interface **IMAPIStatus** qui sont prises en charge par l'objet Status. 
   
 |||
 |:-----|:-----|
@@ -36,47 +36,47 @@ Contient un masque binaire composé des indicateurs qui influencent les méthode
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété indique parmi les méthodes de mise en œuvre d’un objet d’état de **IMAPIStatus** sont pris en charge. Objets d’état sont autorisés à renvoyer MAPI_E_NO_SUPPORT à partir de méthodes non prises en charge. 
+Cette propriété indique quelles méthodes de l'implémentation d'un objet d'état de **IMAPIStatus** sont prises en charge. Les objets d'État sont autorisés à renvoyer MAPI_E_NO_SUPPORT à partir de méthodes non prises en charge. 
   
-Clients utilisent état **PR_RESOURCE_METHODS** propriété d’un objet pour éviter d’effectuer des appels aux méthodes non prises en charge. Si l’indicateur qui correspond à une méthode particulière est défini, la méthode existe et peut être appelée. Si cet indicateur est désactivée, la méthode ne doit pas être appelée. 
+Les clients utilisent la propriété **PR_RESOURCE_METHODS** d'un objet Status pour éviter d'appeler des méthodes non prises en charge. Si l'indicateur correspondant à une méthode particulière est défini, la méthode existe et peut être appelée. Si cet indicateur est clair, la méthode ne doit pas être appelée. 
   
-Les objets état implémentée par prise en charge MAPI les méthodes suivantes :
+Les objets d'État implémentés par MAPI prennent en charge les méthodes suivantes:
   
-|**Objet d’état**|**Méthodes prises en charge**|
+|**Objet Status**|**Méthodes prises en charge**|
 |:-----|:-----|
-|Sous-système MAPI  <br/> |**ValidateState**  <br/> |
-|Carnet d’adresses MAPI  <br/> |**ValidateState**  <br/> |
+|Sous-système MAPI  <br/> |**ValidateState** uniquement  <br/> |
+|Carnet d'adresses MAPI  <br/> |**ValidateState** uniquement  <br/> |
 |Spouleur MAPI  <br/> |**ValidateState** et **FlushQueues** <br/> |
    
-Un ou plusieurs des indicateurs suivants peuvent être définie dans **PR_RESOURCE_METHODS**:
+Un ou plusieurs des indicateurs suivants peuvent être définis dans **PR_RESOURCE_METHODS**:
   
 STATUS_CHANGE_PASSWORD 
   
-> Indique que la méthode [IMAPIStatus::ChangePassword](imapistatus-changepassword.md) est pris en charge. 
+> Indique que la méthode [IMAPIStatus:: ChangePassword](imapistatus-changepassword.md) est prise en charge. 
     
 STATUS_FLUSH_QUEUES 
   
-> Indique que la méthode [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) est pris en charge. 
+> Indique que la méthode [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) est prise en charge. 
     
 STATUS_SETTINGS_DIALOG 
   
-> Indique que la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) est pris en charge. 
+> Indique que la méthode [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) est prise en charge. 
     
 STATUS_VALIDATE_STATE 
   
-> Indique que la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) est pris en charge. 
+> Indique que la méthode [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) est prise en charge. 
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

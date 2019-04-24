@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 365f7005-ba34-2311-4c5c-16344962fc3f
 description: Définit la catégorie d'un champ inséré dans les versions de Visio antérieures à Visio 2000.
-ms.openlocfilehash: fc060ac1533732749d10e1855dc3841602051520
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c67ced9e4f731e66bce0589929ac90fb9bb8d67c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331198"
 ---
 # <a name="uicategory-cell-text-fields-section"></a>UICategory, cellule (section Text Fields)
 
 Définit la catégorie d'un champ inséré dans les versions de Visio antérieures à Visio 2000.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cette cellule n'apparaît pas dans la fenêtre Feuille ShapeSheet. Utilisez-la pour gérer les problèmes de compatibilité avec les versions précédentes, tels que l'enregistrement au format Visio 5.0 d'un dessin réalisé dans Visio 2000.
   
-Pour obtenir une référence à la cellule UICategory par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule UICategory par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Fields.UICat [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Fields. UICat [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule UICategory par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

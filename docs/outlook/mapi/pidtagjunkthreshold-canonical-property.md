@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8067e2b5-02df-4b96-8f66-509f5a48c8aa
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 078dfcc7c24870cf95a2a4b2385c34fbeb64fac0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326851"
 ---
 # <a name="pidtagjunkthreshold-canonical-property"></a>Propriété canonique PidTagJunkThreshold
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le degré le courrier entrant doit être envoyé vers le dossier courrier indésirable.
+Indique la façon dont le courrier entrant dynamique doit être envoyé vers le dossier courrier inDésirable.
   
 |||
 |:-----|:-----|
@@ -36,36 +36,36 @@ Indique le degré le courrier entrant doit être envoyé vers le dossier courrie
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété correspond à la haute / basse / aucun paramètre de filtre. Une valeur de « 0xFFFFFFFF » indique que le filtrage du courrier indésirable ne doit pas être appliqué, mais listes rouges doivent toujours être appliquées. La valeur « 0 x 80000000 » indique que tous les messages est le courrier indésirable à l’exception de ces messages des expéditeurs de la liste des expéditeurs approuvés ou envoyé aux destinataires dans la liste des destinataires approuvés. Valeurs sont les suivantes :
+Cette propriété correspond au paramètre de filtre haut/bas/aucun. Une valeur de «0xFFFFFFFF» indique que le filtrage du courrier indésirable ne doit pas être appliqué, mais les listes bloquées doivent néanmoins être appliquées. La valeur «0x80000000» indique que tous les messages sont du courrier indésirable, à l'exception des messages provenant d'expéditeurs figurant dans la liste des expéditeurs approuvés ou envoyés à des destinataires figurant dans la liste des destinataires approuvés. Les valeurs de cette valeur sont les suivantes:
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|0xFFFFFFFF  <br/> |Aucun filtrage du courrier indésirable  <br/> |
-|0 x 00000006  <br/> |Filtrage du courrier indésirable faible  <br/> |
-|0 x 00000003  <br/> |Filtrage du courrier indésirable élevé  <br/> |
-|0 x 80000000  <br/> |Listes approuvées uniquement  <br/> |
+|Égale  <br/> |Aucun filtrage du courrier indésirable  <br/> |
+|0x00000006  <br/> |Faible filtrage du courrier indésirable  <br/> |
+|0x00000003  <br/> |Filtrage du courrier indésirable élevé  <br/> |
+|0x80000000  <br/> |Listes approuvées uniquement  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes autoriser/bloquer et la détermination des messages de courrier indésirable.
+> Active la gestion des listes d'autorisation/de blocage et la détermination des messages électroniques indésirables.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2e1f546d33d4781f60df56b12fce437d1e7bd675
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e7f13acc34a77b79057d32fd4049db7222dadf49
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326445"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588222"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre une section du profil actuel et retourne un pointeur [IProfSect](iprofsectimapiprop.md) pour davantage d’accès. 
+Ouvre une section du profil actif et renvoie un pointeur [IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire. 
   
 ```cpp
 HRESULT OpenProfileSection(
@@ -39,51 +39,51 @@ LPPROFSECT FAR * lppProfileObj
 
  _lpUid_
   
-> [in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui identifie la section profil à ouvrir. Passage de NULL pour le paramètre _lpUid_ ouvre la section profil de l’appelant. 
+> dans Pointeur vers la structure [MAPIUID](mapiuid.md) qui identifie la section de profil à ouvrir. Le fait de transmettre NULL pour le paramètre _lpUid_ ouvre la section profil de l'appelant. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le mode d’ouverture de la section de profil. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle l'ouverture de la section profil. Les indicateurs suivants peuvent être définis:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet **OpenProfileSection** retournée correctement, éventuellement avant le profil de section est accessible à l’appelant. Si la section profil n’est pas accessible, passer un appel d’objet suivantes permettre provoquer une erreur. 
+> Permet à **OpenProfileSection** de retourner correctement, éventuellement avant que la section de profil soit entièrement accessible à l'appelant. Si la section profil n'est pas accessible, un appel d'objet ultérieur peut entraîner une erreur. 
     
-N' 
+MAPI_MODIFY 
   
-> Demandes d’autorisation de lecture/écriture. Par défaut, les objets sont ouverts en lecture seule, et les appelants ne doivent pas travailler sur l’hypothèse que bénéficie des autorisations en lecture/écriture. 
+> Demande une autorisation en lecture/écriture. Par défaut, les objets sont ouverts en lecture seule, et les appelants ne doivent pas travailler en supposant que l'autorisation de lecture/écriture a été octroyée. 
     
  _lppProfileObj_
   
-> [out] Pointeur vers un pointeur vers la section profil ouvert.
+> remarquer Pointeur vers un pointeur vers la section de profil ouverte.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La section profil a été ouvert avec succès.
+> La section profil a été ouverte avec succès.
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative a été effectuée pour modifier une section de profil en lecture seule ou pour accéder à un objet pour lequel l’appelant dispose d’autorisations insuffisantes.
+> Une tentative de modification d'une section de profil en lecture seule ou d'accès à un objet pour lequel l'appelant ne dispose pas des autorisations suffisantes a été effectuée.
     
 MAPI_E_NOT_FOUND 
   
-> Il n’est pas une section de profil associée à l’identificateur d’entrée passé _lpEntryID_.
+> Il n'existe pas de section de profil associée à l'identificateur d'entrée passé dans _lpEntryID_.
     
 MAPI_E_UNKNOWN_FLAGS 
   
-> Indicateurs réservés ou non prises en charge ont été utilisés et, par conséquent, l’opération ne s’est pas terminée.
+> Des indicateurs réservés ou non pris en charge ont été utilisés et, par conséquent, l'opération ne s'est pas terminée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::OpenProfileSection** est implémentée pour tous les objets de prise en charge. Fournisseurs de services et les services de messagerie d’appel **OpenProfileSection** pour ouvrir une section de profil et de récupérer un pointeur vers son implémentation d’interface **IProfSect** . 
+La méthode **IMAPISupport:: OpenProfileSection** est implémentée pour tous les objets de prise en charge. Services de messagerie et fournisseurs d'appels **OpenProfileSection** pour ouvrir une section de profil et récupérer un pointeur vers son implémentation d'interface **IProfSect** . 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **OpenProfileSection** ouvre sections profil en lecture seule, sauf si vous définissez l’indicateur ne dans le paramètre _ulFlags_ et votre autorisation est suffisante. Définition de cet indicateur ne garantit pas l’autorisation de lecture/écriture ; les autorisations qui vous sont accordées dépendent de votre niveau d’accès et de l’objet. 
+ **OpenProfileSection** ouvre les sections de profil en lecture seule, sauf si vous définissez l'indicateur MAPI_MODIFY dans le paramètre _ulFlags_ et que votre autorisation est suffisante. La définition de cet indicateur ne garantit pas l'autorisation en lecture/écriture; les autorisations que vous avez accordées dépendent de votre niveau d'accès et de l'objet. 
   
-Si **OpenProfileSection** tente d’ouvrir une section de profil inexistant en lecture seule, elle renvoie MAPI_E_NOT_FOUND. Si **OpenProfileSection** tente d’ouvrir une section de profil inexistant en lecture-écriture, il crée la section profil et retourne le pointeur **IProfSect** . 
+Si **OpenProfileSection** tente d'ouvrir une section de profil inexistante en lecture seule, elle renvoie MAPI_E_NOT_FOUND. Si **OpenProfileSection** tente d'ouvrir une section de profil qui n'existe pas en lecture/écriture, il crée la section profile et renvoie le pointeur **IProfSect** . 
   
 ## <a name="see-also"></a>Voir aussi
 

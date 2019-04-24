@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm840
 localization_priority: Normal
 ms.assetid: d0f91e7d-2373-cfef-e105-fb17e77c7f2d
-description: Indique un message descriptif ou commentaire pour la cellule définie par l'utilisateur. L’application insère automatiquement le texte d’invite les guillemets doubles () pour indiquer qu’il s’agit d’une chaîne de texte. Si vous tapez un signe égal (=) et omettez les guillemets, vous pouvez entrer une formule dans une cellule qui évalue l’application.
-ms.openlocfilehash: a7f8757af3e324a89f49bf5d19185b7a22173ff5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contient un message descriptif ou commentaire associé à la cellule définie par l'utilisateur. L'application encadre automatiquement le texte de l'invite entre guillemets () pour indiquer qu'il s'agit d'une chaîne de texte. Si vous tapez un signe égal (=) sans guillemets, vous pouvez entrer dans cette cellule une formule qui est alors évaluée par l'application.
+ms.openlocfilehash: 7684025e03bd3f4f68893179b1df00cc0cb535e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326886"
 ---
 # <a name="prompt-cell-user-defined-cells-section"></a>Prompt, cellule (section User-Defined Cells)
 
 Contient un message descriptif ou commentaire associé à la cellule définie par l'utilisateur. L'application encadre automatiquement le message par des guillemets (" ") pour signaler qu'il s'agit d'une chaîne de texte. Si vous tapez un signe égal (=) sans guillemets, vous pouvez entrer dans cette cellule une formule qui est alors évaluée par l'application.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule Prompt par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Prompt par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Utilisateur.  *Nom* . Où invite utilisateur.  *Name* est le nom de ligne  <br/> |
+| Nom de la cellule :  <br/> | Guide.  *Nom* . Invite où utilisateur.  *Name* est le nom de la ligne  <br/> |
    
-Pour obtenir une référence à la cellule Prompt par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Prompt à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

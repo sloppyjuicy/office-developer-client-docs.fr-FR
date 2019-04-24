@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73291a5b-b626-494c-b5d9-f7709e34bac2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 68d40a6e152698554fcb88c6f7e5bfd4a7ff0ce3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 74c307fca27f1adec18d236792f8a58d97e33ec5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328946"
 ---
 # <a name="imapitableabort"></a>IMAPITable::Abort
 
@@ -33,29 +33,29 @@ HRESULT Abort( void );
 
 ## <a name="parameters"></a>Paramètres
 
-Aucune
+Aucun
   
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Un ou plusieurs des opérations asynchrones ont été arrêtées.
+> Une ou plusieurs opérations asynchrones ont été arrêtées.
     
 MAPI_E_UNABLE_TO_ABORT 
   
-> Une opération asynchrone est en cours et ne peut pas être arrêtée ou il a déjà effectué.
+> Une opération asynchrone est en cours et ne peut pas être arrêtée ou elle est déjà terminée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable::Abort** arrête toute opération asynchrone est en cours. 
+La méthode **IMAPITable:: Abort** arrête toute opération asynchrone en cours. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour savoir si une opération asynchrone est en cours, appelez la méthode [IMAPITable::GetStatus](imapitable-getstatus.md) . 
+Pour savoir si une opération asynchrone est en cours, appelez la méthode [IMAPITable:: GetStatus](imapitable-getstatus.md) . 
   
-Si **l’abandon** interrompt le traitement d’un appel à la méthode [IMAPITable](imapitable-restrict.md) , l’état de la table sera telle qu’elle était au moment de que l’appel **abandonner** est traité. 
+Si **Abort** interrompt le traitement d'un appel à la méthode [IMAPITable:: Restrict](imapitable-restrict.md) , l'état de la table sera tel qu'il était lors du traitement de l'appel **Abort** . 
   
-Si **abandonner** interrompt le traitement d’un appel à la méthode [IMAPITable::SortTable](imapitable-sorttable.md) , ordre de tri de la table n’est pas affecté et reste tel qu’il était avant l’appel de **SortTable** . 
+Si **Abort** interrompt le traitement d'un appel à la méthode [IMAPITable:: SortTable](imapitable-sorttable.md) , l'ordre de tri de la table n'est pas affecté et reste tel qu'il était avant l'appel **SortTable** . 
   
 ## <a name="see-also"></a>Voir aussi
 

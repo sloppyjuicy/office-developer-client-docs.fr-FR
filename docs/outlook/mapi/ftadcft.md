@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f073dbb9655585ee56ab38be35bea4ef320042c0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f308c1f6f3cd2c9904dd94cd6761517bd5b410b6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328020"
 ---
 # <a name="ftadcft"></a>FtAdcFt
 
@@ -21,12 +21,12 @@ ms.locfileid: "22569770"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajoute un entier non signé de 64 bits à un autre, si vous le souhaitez à l’aide d’un indicateur de transport.
+Ajoute un entier non signé 64 bits à un autre, éventuellement à l'aide d'un indicateur de transport.
   
 |||
 |:-----|:-----|
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 FILETIME FtAdcFt( 
@@ -40,23 +40,23 @@ FILETIME FtAdcFt(
 
  _FT1_
   
-> [in] Une structure [FILETIME](filetime.md) qui contient le premier entier non signé 64 bits à ajouter. 
+> dans Une structure [fileTime](filetime.md) qui contient le premier entier non signé 64 bits à ajouter. 
     
  _ft2_
   
-> [in] Une structure FILETIME qui contient le deuxième entier 64 bits non signé à ajouter.
+> dans Une structure FILETIME qui contient le deuxième entier non signé 64 bits à ajouter.
     
  _pwCarry_
   
-> [entrée, sortie, facultatif] À l’entrée, un pointeur vers entrantes exécuter indicateur. Dans la sortie, un pointeur vers le résultat de transport pour l’ajout. Ce paramètre peut être NULL si le résultat de transport n’est pas nécessaire.
+> [in, out, optional] En entrée, pointeur vers l'indicateur de transport entrant. En sortie, pointeur vers le résultat du transport pour l'addition. Ce paramètre peut être NULL si le résultat du transport n'est pas obligatoire.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **FtAdcFt** renvoie une structure **FILETIME** qui contient la somme de deux entiers. Les deux paramètres d’entrée restent inchangées. Si **pwCarry** n’est pas NULL, il contient le résultat de transport pour les fonctions sum, 0 ou 1. 
+La fonction **FtAdcFt** renvoie une structure **fileTime** qui contient la somme des deux entiers. Les deux paramètres d'entrée restent inchangés. Si **pwCarry** est non null, il contient le résultat de transport pour la somme, 0 ou 1. 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **FtAdcFt** est identique à **FtAddFt** lorsque _pwCarry_ est NULL. Si _pwCarry_ n’est pas NULL et points à 0, **FtAdcFt** renvoie la même valeur **FILETIME** qui renvoie **FtAddFt** . 
+La fonction **FtAdcFt** est identique à **FtAddFt** lorsque _pwCarry_ est null. Si _pwCarry_ n'est pas null et pointe sur 0, **FtAdcFt** renvoie la même valeur **fileTime** que **FtAddFt** . 
   
 ## <a name="see-also"></a>Voir aussi
 

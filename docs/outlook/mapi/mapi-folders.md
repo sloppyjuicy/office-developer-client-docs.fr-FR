@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8fac3c92-d2f5-479e-a368-ca82bddd8e30
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 21b738424b27d3d89d8de84c8c9ff2ff86dd945b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c00dce9ec489ca2b886f3e51551ba57e9eeea33
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331562"
 ---
 # <a name="mapi-folders"></a>Dossiers MAPI
 
@@ -39,9 +39,9 @@ La plupart des autres dossiers sont des dossiers g�n�riques. Comme les dossi
   
 Un dossier de recherche contient des liens vers les messages qui correspondent � un ensemble de crit�res pr�d�finis. �tant donn� que les dossiers de recherche contiennent des liens plut�t que les messages r�els, ils sont en effet en lecture seule. Ils ne peuvent pas contenir d'autres dossiers ou avez des messages ou des dossiers de d�placer ou copier des informations. Ils ne peuvent pas avoir de nouveaux messages cr��s dans leur ; et ils eux-m�mes ne peut pas �tre d�plac�s, copi�s ou renomm�s. Lorsqu'un message est supprim� d'un dossier de recherche, elle est r�ellement supprim�e � partir du dossier qui contient le message.
   
-Type de dossier est stocké dans la propriété **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). Chaque dossier cette propri�t� a pour valeur FOLDER_GENERIC, FOLDER_ROOT ou FOLDER_SEARCH, en fonction de son type.
+Le type de dossier est stocké dans la propriété **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). Chaque dossier cette propri�t� a pour valeur FOLDER_GENERIC, FOLDER_ROOT ou FOLDER_SEARCH, en fonction de son type.
   
-Chaque dossier poss�de l'identificateur d'une entr�e et une cl� d'enregistrement. L’identificateur d’entrée, **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), est utilisé par les clients et les fournisseurs de services pour ouvrir le dossier. La clé d’enregistrement, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), est une valeur binaire qui est utilisée pour comparer le dossier avec les autres dossiers. 
+Chaque dossier poss�de l'identificateur d'une entr�e et une cl� d'enregistrement. L'identificateur d'entrée, **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), est utilisé par les clients et les fournisseurs de services pour ouvrir le dossier. La clé d'enregistrement **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) est une valeur binaire utilisée pour comparer le dossier avec d'autres dossiers. 
   
 Un dossier a d'autres propri�t�s pour identifier la banque de messages et de dossiers connexes. Les propri�t�s suivantes sont requises :
   
@@ -51,7 +51,7 @@ Un dossier a d'autres propri�t�s pour identifier la banque de messages et de
     
 - **PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
     
-Certains dossiers prennent en charge la propriété **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) qui décrit le type d’un utilisateur peut effectuer des opérations. Par exemple, un des param�tres valides pour **PR_ACCESS** est MAPI_ACCESS_DELETE, ce qui indique que le dossier peut �tre supprim�. Un autre param�tre, MAPI_ACCESS_MODIFY, indique que le dossier doit �tre modifiable. 
+Certains dossiers prennent en charge la propriété **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) qui décrit le type d'opérations qu'un utilisateur peut effectuer. Par exemple, un des param�tres valides pour **PR_ACCESS** est MAPI_ACCESS_DELETE, ce qui indique que le dossier peut �tre supprim�. Un autre param�tre, MAPI_ACCESS_MODIFY, indique que le dossier doit �tre modifiable. 
   
 Pour obtenir une liste compl�te des propri�t�s de dossier requis, voir l'interface [IMAPIFolder](imapifolderimapicontainer.md) . 
   

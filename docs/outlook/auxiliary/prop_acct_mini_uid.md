@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
-description: Retourne un identificateur de compte qui est unique pour les profils Outlook.
-ms.openlocfilehash: 9b2e30c0f57a54af219e68a8c2fe91e5dba4ddbe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie un identificateur de compte qui est unique dans les profils Outlook.
+ms.openlocfilehash: 209f7dd89b8d947b999f2a068373aaf61a3e9784
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327628"
 ---
 # <a name="propacctminiuid"></a>PROP_ACCT_MINI_UID
 
-Retourne un identificateur de compte qui est unique pour les profils Outlook.
+Renvoie un identificateur de compte qui est unique dans les profils Outlook.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -25,15 +25,15 @@ Voir [IOlkAccount](iolkaccount.md).
 |||
 |:-----|:-----|
 |Identificateur :  <br/> |0x0003  <br/> |
-|Type de propriété :  <br/> |PT_LONG  <br/> |
-|Balise de propriété :  <br/> |0x00030003  <br/> |
-|Access :  <br/> |Lecture seule  <br/> |
+|Type de propriété:  <br/> |PT_LONG  <br/> |
+|Balise de propriété:  <br/> |0x00030003  <br/> |
+|Access  <br/> |Lecture seule  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Obtenez cette propriété à l’aide de [IOlkAccount::GetProp](iolkaccount-getprop.md). Si le client essaie de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**. 
+Obtenez cette propriété à l'aide de [IOlkAccount:: getprop](iolkaccount-getprop.md). Si le client tente de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**. 
   
-Cette propriété est différente de [PROP_ACCT_ID](prop_acct_id.md) dans la mesure où sa valeur identifie le compte au sein et en dehors du profil dans lequel le compte a été créé, tandis que **PROP_ACCT_ID** est unique seulement parmi tous les comptes au sein d’un profil dans lequel le compte a été créé. Lorsqu’un message avec ces propriétés se déplace sur un deuxième ordinateur avec un autre profil Outlook et un ensemble différent de comptes, **PROP_ACCT_MINI_UID** peuvent identifier le compte d’origine dans le profil d’origine. Toutefois, **PROP_ACCT_ID** peut éventuellement entre en conflit avec un compte dans le profil de l’ordinateur. 
+Cette propriété est différente de [PROP_ACCT_ID](prop_acct_id.md) en ce sens qu'elle identifie de manière unique le compte à l'intérieur et à l'extérieur du profil dans lequel le compte a été créé, tandis que **PROP_ACCT_ID** n'est unique que pour tous les comptes se trouvant dans ce profil. dans lequel le compte a été créé. Lorsqu'un message avec ces propriétés se déplace sur un deuxième ordinateur avec un profil Outlook différent et un autre ensemble de comptes, **PROP_ACCT_MINI_UID** peut identifier de manière unique le compte d'origine dans le profil d'origine. Toutefois, les **PROP_ACCT_ID** peuvent éventuellement entrer en conflit avec un compte dans le profil du deuxième ordinateur. 
   
 ## <a name="see-also"></a>Voir aussi
 

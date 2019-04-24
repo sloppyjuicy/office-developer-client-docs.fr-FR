@@ -1,17 +1,18 @@
 ---
-title: Événements dans l’assembly PIA Outlook
+title: Événements dans l'assembly PIA Outlook
 TOCTitle: Events in the Outlook PIA
 ms:assetid: 1f9eafb3-6645-4e27-81fa-5d73bf94ae40
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb644571(v=office.15)
 ms:contentKeyID: 55119782
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 0433d1915008bf9317790c1ba86a9bb028161c48
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Normal
+ms.openlocfilehash: 29217a633c02390587a370847291ef62d5621ce8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325788"
 ---
 # <a name="events-in-the-outlook-pia"></a>Événements dans l’assembly PIA Outlook
 
@@ -37,7 +38,7 @@ TLBIMP traite les interfaces importées et crée un certain nombre d'interfaces,
 
 Certains objets qui existent pour plusieurs versions d'Outlook ont différentes implémentations d'événements d'une version à une autre, et des événements supplémentaires ont été ajoutés lors de la publication des nouvelles versions. Pour prendre en charge les événements qui varient d'une version à une autre, Outlook effectue une distinction entre ces interfaces, délégués et classes liés aux événements en ajoutant un numéro de version à leur nom. Par exemple :
 
-  - Les interfaces d'événements importées de l'objet **Application** incluent :
+  - Les interfaces d'événements importées de l'objet **Application** incluent :
     
       - La version la plus ancienne pour Outlook 98 et Outlook 2000 : l’interface [ApplicationEvents](https://msdn.microsoft.com/library/bb644093\(v=office.15\))
     
@@ -79,7 +80,7 @@ En revanche, l’événement figure dans l’interface d’événement .NET la p
 
   - Les interfaces d’événements importées par TLBIMP, telles que ApplicationEvents\_11\_Event et ApplicationEvents\_10\_Event, définissent tous les événements de Application dans la version correspondante d’Outlook. Lors de la conception d’un gestionnaire d’événements pour un événement dans une version spécifique, vous devez implémenter le gestionnaire d’événements en tant que méthode et connecter la méthode à l’événement défini dans la version correspondante de l’interface d’événements .NET. À l’exception d’une des conditions décrite ci-dessous, vous ne référencerez généralement pas l’interface événements dans le code.
 
-  - L’interface .NET, Application, hérite de l’interface \_Application et de l’interface ApplicationEvents\_11\_Event. En général, il s’agit de l’interface que l’on utilise dans le code managé pour accéder à l’objet, à la méthode, à la propriété et aux membres d’événements les plus récents de l’objet **Application**. Il existe toutefois deux exceptions où l'on n'utilise pas l'interface .NET mais une interface différente pour la connexion à un événement :
+  - L’interface .NET, Application, hérite de l’interface \_Application et de l’interface ApplicationEvents\_11\_Event. En général, il s’agit de l’interface que l’on utilise dans le code managé pour accéder à l’objet, à la méthode, à la propriété et aux membres d’événements les plus récents de l’objet **Application**. Il existe toutefois deux exceptions où l'on n'utilise pas l'interface .NET mais une interface différente pour la connexion à un événement :
     
       - Lorsque vous accédez à un événement qui a le même nom qu'une méthode de cet objet, vous devez effectuer un cast vers l'interface d'événement appropriée afin d'établir la connexion à l'événement. Par exemple, pour vous connecter à l’événement [Quit](https://msdn.microsoft.com/library/bb622595\(v=office.15\)), vous devez effectuer un cast vers l’interface ApplicationEvents\_11\_Event.
     

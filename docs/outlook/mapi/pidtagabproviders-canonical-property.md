@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 26195406-dcef-4504-bb74-d0705d952897
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 21bbcc32cd71899a2546b17f8023ef49744ba5e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8dac0b2684a4b6754e99235f47816f8e5fb84714
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332010"
 ---
 # <a name="pidtagabproviders-canonical-property"></a>Propriété canonique PidTagAbProviders
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’identificateurs de fournisseurs de carnet d’adresses dans le profil actif. 
+Contient une liste d'identificateurs pour les fournisseurs de carnets d'adresses dans le profil actuel. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contient une liste d’identificateurs de fournisseurs de carnet d’adresses da
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé pour une utilisation par MAPI.
+N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

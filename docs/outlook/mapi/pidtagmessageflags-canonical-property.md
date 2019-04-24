@@ -11,126 +11,126 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7561112b-ca72-4c49-a8a0-cc1879a4e151
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 5b660b592e77279a4d60f3a036724341352c9b6a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325740"
 ---
 # <a name="pidtagmessageflags-canonical-property"></a>Propriété canonique PidTagMessageFlags
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque binaire composé des indicateurs qui influencent l’origine et l’état actuel d’un message. 
+Contient un masque de réindicateur des indicateurs qui indiquent l'origine et l'état actuel d'un message. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_FLAGS  <br/> |
 |Identificateur :  <br/> |0x0E07  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une propriété de message nontransmittable exposée à l’envoi et la réception des extrémités d’une transmission, avec des valeurs différentes selon le fournisseur client application ou banque impliqué. Cette propriété est initialisée par le fournisseur de banque client ou d’un message lorsqu’un message est créé et enregistré pour la première fois et puis mis à jour régulièrement par le fournisseur de banque de message, un fournisseur de transport et le spouleur MAPI comme le message est traité et son état modifications apportées. 
+Cette propriété est une propriété de message non transmissible qui s'affiche aux extrémités de l'envoi et de la réception d'une transmission, avec des valeurs différentes en fonction de l'application client ou du fournisseur de magasin impliqué. Cette propriété est initialisée par le client ou le fournisseur de banque de messages lorsqu'un message est créé et enregistré pour la première fois, puis mis à jour périodiquement par le fournisseur de banque de messages, un fournisseur de transport et le spouleur MAPI lors du traitement du message et de son état. port. 
   
-Cette propriété existe sur un message à la fois avant et après la présentation et sur toutes les copies du message reçu. Bien qu’il n’est pas une propriété de destinataire, il est exposé différemment pour chaque destinataire en fonction de si elle a été lire ou modifié par ce destinataire. 
+Cette propriété existe sur un message avant et après l'envoi, ainsi que sur toutes les copies du message reçu. Bien qu'il ne s'agisse pas d'une propriété Recipient, il est exposé différemment à chaque destinataire, selon qu'il a été lu ou modifié par ce destinataire. 
   
-Un ou plusieurs des indicateurs suivants peuvent être définie pour cette propriété :
+Un ou plusieurs des indicateurs suivants peuvent être définis pour cette propriété:
   
 MSGFLAG_ASSOCIATED 
   
-> Le message est un message d’un dossier associé. Le client ou le fournisseur dispose d’un accès en lecture seule pour cet indicateur. L’indicateur MSGFLAG_READ est ignorée pour les messages associés, qui ne conservent pas d’un état en lecture/non lus. 
+> Le message est un message associé à un dossier. Le client ou le fournisseur dispose d'un accès en lecture seule à cet indicateur. L'indicateur MSGFLAG_READ est ignoré pour les messages associés, qui ne conservent pas un État lecture/non lu. 
     
 MSGFLAG_FROMME 
   
-> L’utilisateur de messagerie envoi a été l’utilisateur de messagerie reçoit le message. Le client ou le fournisseur a accès en lecture/écriture à cet indicateur jusqu'à ce que le premier appel [IMAPIProp::SaveChanges](imapiprop-savechanges.md) et en lecture seule par la suite. Cet indicateur est destiné à être définie par le fournisseur de transport. 
+> L'utilisateur de messagerie expéditeur était l'utilisateur de messagerie qui reçoit le message. Le client ou le fournisseur dispose d'un accès en lecture/écriture à cet indicateur jusqu'au premier appel [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) et en lecture seule par la suite. Cet indicateur est destiné à être défini par le fournisseur de transport. 
     
 MSGFLAG_HASATTACH 
   
-> Le message comporte au moins une pièce jointe. Cet indicateur correspond à la propriété **PR_HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md)) du message. Le client dispose d’un accès en lecture seule pour cet indicateur. 
+> Le message comporte au moins une pièce jointe. Cet indicateur correspond à la propriété **PR_HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md)) du message. Le client dispose d'un accès en lecture seule à cet indicateur. 
     
 MSGFLAG_NRN_PENDING 
   
-> Un rapport nonread doit être envoyé pour le message. Le client ou le fournisseur dispose d’un accès en lecture seule pour cet indicateur. 
+> Un rapport non lu doit être envoyé pour le message. Le client ou le fournisseur dispose d'un accès en lecture seule à cet indicateur. 
     
 MSGFLAG_ORIGIN_INTERNET 
   
-> Le message entrant est arrivé sur Internet. Elle a été créée à l’extérieur de l’organisation ou d’une source de que la passerelle ne peut pas prendre en compte approuvé. Le client doit afficher un message approprié pour l’utilisateur. Fournisseurs de transport de définir cet indicateur ; le client dispose d’un accès en lecture seule. 
+> Le message entrant est arrivé sur Internet. Elle provient de l'extérieur de l'organisation ou d'une source, la passerelle ne peut pas prendre en compte la confiance. Le client doit afficher un message approprié à l'utilisateur. Les fournisseurs de transport définissent cet indicateur; le client dispose d'un accès en lecture seule. 
     
 MSGFLAG_ORIGIN_MISC_EXT 
   
-> Le message entrant est arrivé sur un lien externe autre que X.400 ou Internet. Elle a été créée à l’extérieur de l’organisation ou d’une source de que la passerelle ne peut pas prendre en compte approuvé. Le client doit afficher un message approprié pour l’utilisateur. Fournisseurs de transport de définir cet indicateur ; le client dispose d’un accès en lecture seule. 
+> Le message entrant est arrivé sur un lien externe autre que X. 400 ou Internet. Elle provient de l'extérieur de l'organisation ou d'une source, la passerelle ne peut pas prendre en compte la confiance. Le client doit afficher un message approprié à l'utilisateur. Les fournisseurs de transport définissent cet indicateur; le client dispose d'un accès en lecture seule. 
     
 MSGFLAG_ORIGIN_X400 
   
-> Le message entrant est arrivé sur un lien X.400. Elle a été créée à l’extérieur de l’organisation ou d’une source de que la passerelle ne peut pas prendre en compte approuvé. Le client doit afficher un message approprié pour l’utilisateur. Fournisseurs de transport de définir cet indicateur ; le client dispose d’un accès en lecture seule. 
+> Le message entrant est arrivé sur une liaison X. 400. Elle provient de l'extérieur de l'organisation ou d'une source, la passerelle ne peut pas prendre en compte la confiance. Le client doit afficher un message approprié à l'utilisateur. Les fournisseurs de transport définissent cet indicateur; le client dispose d'un accès en lecture seule. 
     
 MSGFLAG_READ 
   
-> Le message est marqué comme ayant été lu. Cela peut se produire à la suite d’un appel à tout moment à [IMessage::SetReadFlag](imessage-setreadflag.md) ou [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md). Les clients peuvent également définir cet indicateur en appelant la méthode de **IMAPIProp::SetProps** d’un message avant que le message a été enregistré pour la première fois. Cet indicateur est ignoré si l’indicateur **MSGFLAG_ASSOCIATED** est défini. 
+> Le message est marqué comme lu. Cela peut se produire à tout moment en tant que résultat d'un appel à [IMessage:: SetReadFlag](imessage-setreadflag.md) ou [IMAPIFolder:: SetReadFlags](imapifolder-setreadflags.md). Les clients peuvent également définir cet indicateur en appelant la méthode **IMAPIProp:: SetProps** d'un message avant la première sauvegarde du message. Cet indicateur est ignoré si l'indicateur **MSGFLAG_ASSOCIATED** est défini. 
     
 MSGFLAG_RESEND 
   
-> Le message comporte une demande pour une opération de renvoyer un rapport de non-remise. Le client ou le fournisseur a accès en lecture/écriture à cet indicateur jusqu'à ce que le premier appel [IMAPIProp::SaveChanges](imapiprop-savechanges.md) et en lecture seule par la suite. 
+> Le message inclut une demande pour une opération de renvoi avec un rapport de non-remise. Le client ou le fournisseur dispose d'un accès en lecture/écriture à cet indicateur jusqu'au premier appel [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) et en lecture seule par la suite. 
     
 MSGFLAG_RN_PENDING 
   
-> Un rapport de lecture doit être envoyé pour le message. Le client ou le fournisseur dispose d’un accès en lecture seule pour cet indicateur. 
+> Un rapport de lecture doit être envoyé pour le message. Le client ou le fournisseur dispose d'un accès en lecture seule à cet indicateur. 
     
 MSGFLAG_SUBMIT 
   
-> Le message est marqué pour l’envoi à la suite d’un appel à [IMessage::SubmitMessage](imessage-submitmessage.md). Fournisseurs de banque de messages de définir cet indicateur ; le client dispose d’un accès en lecture seule. 
+> Le message est marqué pour l'envoi à la suite d'un appel à [IMessage:: SubmitMessage](imessage-submitmessage.md). Les fournisseurs de banques de messages définissent cet indicateur; le client dispose d'un accès en lecture seule. 
     
 MSGFLAG_UNMODIFIED 
   
-> Le message sortant n’a pas été modifié depuis la première fois qu’il a été enregistré ; le message entrant n’a pas été modifié depuis qu’il a été remis. 
+> Le message sortant n'a pas été modifié depuis son premier enregistrement; le message entrant n'a pas été modifié depuis qu'il a été remis. 
     
 MSGFLAG_UNSENT 
   
-> Le message est toujours en cours composé. Il est enregistré, mais n’a pas été envoyé. Le client ou le fournisseur a accès en lecture/écriture à cet indicateur jusqu'à ce que le premier appel [IMAPIProp::SaveChanges](imapiprop-savechanges.md) et en lecture seule par la suite. Si un client ne définit pas cet indicateur au moment où que le message est envoyé, le fournisseur de banque de messages définit lorsque **IMessage::SubmitMessage** est appelée. En règle générale, cet indicateur est désactivé une fois que le message est envoyé. 
+> Le message est toujours composé. Il est enregistré, mais n'a pas été envoyé. Le client ou le fournisseur dispose d'un accès en lecture/écriture à cet indicateur jusqu'au premier appel [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) et en lecture seule par la suite. Si un client ne définit pas cet indicateur lors de l'envoi du message, le fournisseur de banque de messages le définit lors de l'appel de **IMessage:: SubmitMessage** . En règle générale, cet indicateur est effacé après l'envoi du message. 
     
-Un fournisseur de magasin client ou d’un message peut vérifier l’état actuel du message à tout moment en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) pour lire les valeurs d’indicateur. Le client ou le fournisseur peut également appeler la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) pour modifier les indicateurs qui possèdent un accès en lecture/écriture. 
+Un fournisseur de banque de messages ou un client peut vérifier l'état actuel du message à tout moment en appelant la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) pour lire les valeurs d'indicateur. Le client ou le fournisseur peut également appeler la méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) pour modifier les indicateurs qui disposent actuellement d'un accès en lecture/écriture. 
   
-Plusieurs des indicateurs sont toujours en lecture seule. Certains sont en lecture/écriture jusqu'à ce que le premier appel à la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) et ensuite en lecture seule comme **IMAPIProp::SetProps** est concerné. Une de ces, MSGFLAG_READ, peut être modifiée ultérieurement via [IMessage::SetReadFlag](imessage-setreadflag.md) ou [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md). 
+Plusieurs indicateurs sont toujours en lecture seule. Certains sont en lecture/écriture jusqu'à ce que le premier appel à la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) soit devenu en lecture seule en ce qui concerne **IMAPIProp:: SetProps** . L'un de ces éléments, MSGFLAG_READ, peut être modifié par la suite via [IMessage:: SetReadFlag](imessage-setreadflag.md) ou [IMAPIFolder:: SetReadFlags](imapifolder-setreadflags.md). 
   
-Les valeurs initiales de cette propriété sont généralement MSGFLAG_UNSENT et MSGFLAG_UNMODIFIED pour indiquer que le message n’est pas encore été envoyé ou modifié. Lorsqu’un message est enregistré pour la deuxième fois, le fournisseur de banque de messages efface l’indicateur MSGFLAG_UNMODIFIED. Une autre valeur pour paramétrer un fournisseur de magasin de message lorsqu’un message est enregistré est l’indicateur MSGFLAG_HASATTACH, indiquant que le message comporte une ou plusieurs pièces jointes. La propriété **PR_HASATTACH** est calculée à partir de ce paramètre. 
+Les valeurs initiales de cette propriété sont généralement MSGFLAG_UNSENT et MSGFLAG_UNMODIFIED pour indiquer un message qui n'a pas encore été envoyé ou modifié. Lorsqu'un message est enregistré pour la deuxième fois, le fournisseur de banque de messages efface l'indicateur MSGFLAG_UNMODIFIED. Une autre valeur pouvant être définie par un fournisseur de banque de messages lors de l'enregistrement d'un message est l'indicateur MSGFLAG_HASATTACH, qui indique que le message comporte une ou plusieurs pièces jointes. La propriété **PR_HASATTACH** est calculée à partir de ce paramètre. 
   
-Lorsqu’un client appelle la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer le message, le fournisseur de banque de messages crée une copie de celle-ci pour le spouleur MAPI et met à jour de cette propriété en définissant l’indicateur MSGFLAG_SUBMIT. Le fournisseur de banque de messages définit également MSGFLAG_UNSENT si elle n’est pas encore défini. MSGFLAG_SUBMIT indique que **SubmitMessage** a été appelée, démarrer le processus d’envoi, et que le message est maintenant en lecture seule pour le client. MSGFLAG_UNSENT indique que le spouleur MAPI gère le message. Si le processus d’envoi est annulé, le fournisseur de banque de messages réinitialise cet indicateur. 
+Lorsqu'un client appelle la méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) pour envoyer le message, le fournisseur de banque de messages en fait une copie pour le spouleur MAPI et met à jour cette propriété en définissant l'indicateur MSGFLAG_SUBMIT. Le fournisseur de banque de messages définit également MSGFLAG_UNSENT s'il n'est pas encore défini. MSGFLAG_SUBMIT indique que **SubmitMessage** a été appelé, en commençant le processus d'envoi, et que le message est désormais en lecture seule sur le client. MSGFLAG_UNSENT indique que le spouleur MAPI gère le message. Si le processus d'envoi est annulé, le fournisseur de banque de messages réinitialise cet indicateur. 
   
-Lorsque le message est affecté à un fournisseur de transport pour la livraison, le fournisseur de transport définit l’indicateur MSGFLAG_FROMME si l’expéditeur a le même compte sur le serveur de messagerie, le message a été reçu sur le. Fournisseurs de transport définir MSGFLAG_FROMME pour un message entrant a été envoyé par l’utilisateur actuellement connecté. Un client peut utiliser cette valeur pour déterminer qu’il est plus approprié afficher les noms des destinataires dans le tableau contenu du dossier éléments envoyés de noms de l’expéditeur. Les messages qui ont été enregistrées au cours du processus de composition et n’est pas encore envoyés doivent également s’afficher avec les noms des destinataires plutôt que des noms de l’expéditeur. 
+Lorsque le message est remis à un fournisseur de transport en vue de sa remise, le fournisseur de transport définit l'indicateur MSGFLAG_FROMME si l'expéditeur a le même compte sur le serveur de messagerie que celui sur lequel le message a été reçu. Les fournisseurs de transport définissent MSGFLAG_FROMME pour un message entrant qui a été envoyé par l'utilisateur actuellement connecté. Un client peut utiliser cette valeur pour déterminer qu'il est plus approprié d'afficher les noms des destinataires dans la table des éléments envoyés que les noms des expéditeurs. Les messages qui ont été enregistrés pendant le processus de composition et qui n'ont pas encore été envoyés doivent également être affichés avec les noms des destinataires plutôt que les noms des expéditeurs. 
   
-Un message entrant, un fournisseur de magasin de message efface l’indicateur MSGFLAG_READ pour rétablir son état de lecture. Un client peut définir ou effacer l’indicateur MSGFLAG_READ lorsqu’il est nécessaire de modifier l’état de lecture et de contrôler l’envoi de rapports de lecture et nonread, en appelant la méthode [IMessage::SetReadFlag](imessage-setreadflag.md) du message ou de son dossier [IMAPIFolder :: SetReadFlags](imapifolder-setreadflags.md) méthode. La différence principale entre ces méthodes, autre que l’objet de les implémenter, est que la méthode du dossier peut affecter un, plusieurs ou tous les messages dans le dossier. La méthode message concerne un seul message. 
+Pour un message entrant, un fournisseur de banque de messages efface l'indicateur MSGFLAG_READ pour réinitialiser son état de lecture. Un client peut définir ou effacer l'indicateur MSGFLAG_READ lorsqu'il est nécessaire de modifier l'état de lecture et de contrôler l'envoi de rapports lus et non lus en appelant la méthode [IMessage:: SetReadFlag](imessage-setreadflag.md) du message ou le [IMAPIFolder:: Méthode SetReadFlags](imapifolder-setreadflags.md) . La principale différence entre ces méthodes, à l'exception de l'objet qui les implémente, est que la méthode Folder peut affecter un, plusieurs ou tous les messages dans le dossier. La méthode message affecte un seul message. 
   
-Un client doit également tester un message entrant pour les indicateurs MSGFLAG_ORIGIN_X400, MSGFLAG_ORIGIN_INTERNET et MSGFLAG_ORIGIN_MISC_EXT. Ces indicateurs sont définis par le fournisseur de transport entrant et indiquent que le message est arrivé à partir d’une source de la passerelle ne peut pas prendre en compte approuvé. Cela signifie que le message provient de l’extérieur de l’organisation, ou en interne, mais à partir d’une station de travail ne pas connue vers la passerelle. Dans tous les cas, l’identité de l’expéditeur ne peut pas être confirmée, et il existe un risque d’introduction d’un virus dans l’organisation. Le client doit afficher un message d’avertissement à l’utilisateur et offre une possibilité de supprimer le message sans l’ouvrir. 
+Un client doit également tester un message entrant pour les indicateurs MSGFLAG_ORIGIN_X400, MSGFLAG_ORIGIN_INTERNET et MSGFLAG_ORIGIN_MISC_EXT. Ces indicateurs sont définis par le fournisseur de transport entrant et indiquent que le message est arrivé d'une source que la passerelle ne peut pas considérer comme approuvée. Cela signifie que le message provient soit de l'organisation, soit en interne, mais en provenance d'une station de travail inconnue de la passerelle. Dans tous les cas, l'identité de l'expéditeur peut ne pas être confirmée et il existe un risque d'introduire un virus informatique dans l'organisation. Le client doit afficher un message d'avertissement à l'utilisateur et proposer une option de suppression du message sans l'ouvrir. 
   
-Fournisseurs de magasins message définir l’indicateur MSGFLAG_UNMODIFIED pour les messages entrants. MSGFLAG_UNMODIFIED indique qu’un message n’a pas été modifié depuis la remise. Un client ne peut pas effacer cette valeur après que elle a été définie par un fournisseur de magasin de message. 
+Les fournisseurs de banques de messages définissent l'indicateur MSGFLAG_UNMODIFIED pour les messages entrants. MSGFLAG_UNMODIFIED indique qu'un message n'a pas été modifié depuis sa remise. Un client ne peut pas effacer cette valeur après qu'elle a été définie par un fournisseur de banque de messages. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

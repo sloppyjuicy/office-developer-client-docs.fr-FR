@@ -11,40 +11,40 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f310439b3a1d8a45215b220dcd7565e821d81f01
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f2110682be9296a874e6f42d40a375b69d201431
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331884"
 ---
 # <a name="pidtagcontentlength-canonical-property"></a>Propriété canonique PidTagContentLength
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une longueur de message, en octets, transmises à une application cliente ou le fournisseur de services pour déterminer si un message dont la longueur peut être remis. 
+Contient une longueur de message, en octets, passée à une application cliente ou un fournisseur de services pour déterminer si un message de cette longueur peut être remis. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTENT_LENGTH  <br/> |
-|Identificateur :  <br/> |0 x 0009  <br/> |
+|Identificateur :  <br/> |0x0009  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Exchange  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

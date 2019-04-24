@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 2e1287a3-0f15-4d9a-b7ee-738fce9cd51f
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a305b9c9ea2802ac63a22118b55274bcdff23617
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b22b8641d55037d3755fc9ae32b97455223bbd12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569007"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329756"
 ---
 # <a name="mapi-receive-folders"></a>MAPI re�oivent des dossiers
 
@@ -55,10 +55,10 @@ Le tableau suivant montre comment les messages avec plusieurs classes doivent �
   
 |**Classe de message entrant**|**Dossier de r�ception**|
 |:-----|:-----|
-|**IPM. Note.Sample.Simple** <br/> |Dossier d'exemples  <br/> |
-|**IPM.Note** <br/> |Dossier bo�te de r�ception  <br/> |
-|**IPM. Feuille de présence** <br/> |Dossier bo�te de r�ception  <br/> |
-|**IPM. Note.Sample.Simple.Totally** <br/> |Dossier d'exemples  <br/> |
+|**Mn. Note. Sample. simple** <br/> |Dossier d'exemples  <br/> |
+|**Mn. Note** <br/> |Dossier bo�te de r�ception  <br/> |
+|**Mn. Présence** <br/> |Dossier bo�te de r�ception  <br/> |
+|**Mn. Note. Sample. simple. totalement** <br/> |Dossier d'exemples  <br/> |
    
 Clients appellent la m�thode **SetReceiveFolder** pour �mettre une association entre une classe de message particuli�re explicite et recevoir des dossiers. Lorsqu'un message est remis � une classe de message vide, MAPI place le message dans le dossier de r�ception n'est d�fini pour un pr�fixe de la classe vide. Par exemple, si votre client dispose d'un dossier de r�ception �tabli pour les messages avec la classe **IPM** et la remise d'un message avec la classe **IPM.Note.Test**, ce message sera plac� dans le dossier de r�ception pour la classe de message **IPM**. 
   

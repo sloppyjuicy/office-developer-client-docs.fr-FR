@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f7fcb385-186d-d5fe-7104-fe0af09d5768
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b2523c149d98dacf9ad321a4a443382a39753fd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: d0b440f01aad7078ed76cd37d36c5ad506215438
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329707"
 ---
 # <a name="uptble"></a>UPTBLE
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations de téléchargement du contenu d’un dossier pendant la [Télécharger l’état de la table](upload-table-state.md)d’étendues.
+Informations étendues pour le téléchargement du contenu d'un dossier lors de l'état de la [table de chargement](upload-table-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,31 +35,31 @@ struct UPTBLE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _iEntMod_
   
->  [out] Index pour effectuer le suivi de téléchargement le nombre de _cEntMod_ d’éléments nouveaux ou modifiés. 
+>  remarquer Index permettant de suivre le téléchargement du nombre _cEntMod_ d'éléments nouveaux ou modifiés. 
     
  _cEntMod_
   
->  [out] Nombre d’éléments nouveaux ou modifiés dans le dossier. 
+>  remarquer Nombre d'éléments nouveaux ou modifiés dans le dossier. 
     
  _iEntRead_
   
->  [out] Pour effectuer le suivi de téléchargement le nombre de _cEntRead_ lire des éléments d’index. 
+>  remarquer Index permettant de suivre le téléchargement du nombre d'éléments de lecture _cEntRead_ . 
     
  _cEntRead_
   
->  [out] Nombre d’éléments lus dans le dossier. 
+>  remarquer Nombre d'éléments lus dans le dossier. 
     
  _iEntDel_
   
->  [out] Index pour effectuer le suivi de téléchargement le nombre de _cEntDel_ les éléments supprimés. 
+>  remarquer Index permettant de suivre le téléchargement du nombre d'éléments supprimés _cEntDel_ . 
     
  _cEntDel_
   
->  [out] Nombre d’éléments supprimés dans le dossier. 
+>  remarquer Nombre d'éléments supprimés dans le dossier. 
     
 ## <a name="see-also"></a>Voir aussi
 

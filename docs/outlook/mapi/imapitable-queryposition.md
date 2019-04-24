@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 502bc24ece37c91e2cac23cf8486df96d5a71377
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2e44d824bbb5cc96c51d7ca91eb639001bc52a71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328873"
 ---
 # <a name="imapitablequeryposition"></a>IMAPITable::QueryPosition
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584337"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Extrait la position de ligne de tableau en cours du curseur, basée sur une valeur décimale.
+Récupère la position de ligne de tableau actuelle du curseur, en fonction d'une valeur fractionnaire.
   
 ```cpp
 HRESULT QueryPosition(
@@ -39,39 +39,39 @@ ULONG FAR * lpulDenominator
 
  _lpulRow_
   
-> [out] Pointeur vers le nombre de la ligne active. Numéro de ligne est zéro ; la première ligne dans le tableau est égale à zéro. 
+> remarquer Pointeur vers le numéro de la ligne actuelle. Le numéro de ligne est de base zéro; la première ligne du tableau est égale à zéro. 
     
  _lpulNumerator_
   
-> [out] Pointeur vers le numérateur pour la fraction qui identifie la position de la table.
+> remarquer Pointeur vers le numérateur de la fraction identifiant la position du tableau.
     
  _lpulDenominator_
   
-> [out] Pointeur vers le dénominateur de la fraction qui identifie la position de la table. Le paramètre _lpulDenominator_ ne peut pas être égal à zéro. 
+> remarquer Pointeur vers le dénominateur de la fraction identifiant la position de la table. Le paramètre _lpulDenominator_ ne peut pas être égal à zéro. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La méthode a renvoyé les valeurs valides dans _lpulRow_, _lpulNumerator_et _lpulDenominator_.
+> La méthode a renvoyé des valeurs valides dans _lpulRow_, _lpulNumerator_et _lpulDenominator_.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable::QueryPosition** détermine la position de ligne en cours et renvoie le nombre de la ligne active et une valeur décimale qui indique sa position relative à la fin de la table. MAPI définit la ligne active en tant que la ligne suivante à lire. 
+La méthode **IMAPITable:: QueryPosition** détermine la position de ligne active et renvoie à la fois le numéro de la ligne active et une valeur fractionnaire indiquant sa position relative à la fin de la table. MAPI définit la ligne actuelle en tant que ligne suivante à lire. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous n’avez pas besoin renvoyer le nombre exact de lignes dans la table pour le paramètre _lpulDenominator_ ; Il peut être une estimation. 
+Vous n'avez pas besoin de renvoyer le nombre exact de lignes dans le tableau pour le paramètre _lpulDenominator_ ; Il peut s'agir d'une approximation. 
   
-Si vous ne pouvez pas déterminer la ligne actuelle, retourne une valeur de 0xFFFFFFFF _lpulRow_.
+Si vous ne parvenez pas à déterminer la ligne active, renvoyez une valeur de 0xFFFFFFFF dans _lpulRow_.
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser **QueryPosition** pour positionner un curseur de défilement dans une barre de défilement. Par exemple, dans une table contenant les 100 lignes, si **QueryPosition** renvoie la valeur 75 dans le paramètre _lpulNumerator_ , 100 dans le paramètre _lpulDenominator_ et 75 dans le paramètre _lpulRow_ , vous pouvez placer le défilement case 3/4 la méthode dans la barre de défilement. 
+Vous pouvez utiliser **QueryPosition** pour positionner une case de défilement dans une barre de défilement. Par exemple, dans une table contenant 100 lignes, si **QueryPosition** renvoie la valeur 75 dans le paramètre _lpulNumerator_ , 100 dans le paramètre _lpulDenominator_ et 75 dans le paramètre _lpulRow_ , vous pouvez placer le curseur de défilement 3/4 de la barre de défilement. 
   
-Ne vous fiez pas la valeur de _lpulDenominator_ est le nombre de lignes dans le tableau. **QueryPosition** ne peut pas toujours identifier le curseur est positionné sur la ligne exacte. 
+Ne comptez pas sur la valeur de _lpulDenominator_ en tant que nombre de lignes dans le tableau. **QueryPosition** ne peut pas toujours identifier la ligne exacte sur laquelle le curseur est positionné. 
   
-Un appel à **QueryPosition** peut impliquer des grandes quantités de mémoire, en particulier pour les grandes tables par catégorie. Si le paramètre _lpulRow_ est défini sur 0xFFFFFFFF, trop de mémoire était nécessaire pour **QueryPosition** déterminer la ligne active. Appelez la méthode [IMAPI::SeekRowApprox](imapitable-seekrowapprox.md) pour positionner la table à la ligne identifiée par les paramètres _lpulNumerator_ et _lpulDenominator_ . Toutefois, pas toujours attendez-vous **SeekRowApprox** pour établir que la position actuelle de la même ligne **que QueryPosition** aurait si la mémoire n’a pas été un facteur. 
+Un appel à **QueryPosition** peut impliquer de grandes quantités de mémoire, en particulier pour les grandes tables classées. Si le paramètre _lpulRow_ est défini sur 0xFFFFFFFF, trop de mémoire a été requise pour **QueryPosition** pour déterminer la ligne actuelle. Appelez la méthode [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) pour positionner la table sur la ligne identifiée par les paramètres _lpulNumerator_ et _lpulDenominator_ . Toutefois, ne s'attend pas toujours à ce que **SeekRowApprox** établisse comme position actuelle, la même ligne que **QueryPosition** aurait si la mémoire n'avait pas été un facteur. 
   
 ## <a name="see-also"></a>Voir aussi
 

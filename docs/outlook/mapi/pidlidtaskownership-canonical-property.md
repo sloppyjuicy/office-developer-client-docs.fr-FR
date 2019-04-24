@@ -11,55 +11,55 @@ api_name:
 api_type:
 - COM
 ms.assetid: 805dcb6c-f405-4c4d-8bca-af4bd9cd44fa
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 45fcba3f18aeb9092b71e28a6b68e42ad1abe77d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390568"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332108"
 ---
 # <a name="pidlidtaskownership-canonical-property"></a>Propriété canonique PidLidTaskOwnership
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le rôle de l’utilisateur actuel par rapport à la tâche.
+Indique le rôle de l'utilisateur actuel par rapport à la tâche.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskOwnership  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
-|ID de type long (capot) :  <br/> |0x00008129  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Task  <br/> |
+|ID long (couvercle):  <br/> |0x00008129  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Task  <br/> |
+|Domaine :  <br/> |Tâche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être une des valeurs suivantes.
+Cette propriété doit avoir l'une des valeurs suivantes.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |La tâche n’est pas affectée.  <br/> |
-|0x00000001  <br/> |La tâche est la copie d’assigne la tâche de la tâche.  <br/> |
-|0x00000002  <br/> |La tâche est copie du destinataire de la tâche de la tâche.  <br/> |
+|0x00000000  <br/> |La tâche n'est pas affectée.  <br/> |
+|0x00000001  <br/> |La tâche est la copie de la tâche de l'assignateur de tâche.  <br/> |
+|0x00000002  <br/> |La tâche est la copie de la tâche du destinataire de la tâche.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.
+> Définit plusieurs objets qui modélisent l'équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

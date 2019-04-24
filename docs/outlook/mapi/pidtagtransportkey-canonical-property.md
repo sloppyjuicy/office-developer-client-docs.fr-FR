@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 131211b3-e6f9-4dd4-b6d9-b65361bff775
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8b1fab49f348a76693cc35fd89994419b81f250a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 05db434ddabbd5f60fccdfeb1a2df8b3fcd0d96a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326606"
 ---
 # <a name="pidtagtransportkey-canonical-property"></a>Propriété canonique PidTagTransportKey
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur utilisée par le spouleur MAPI pour suivre la progression d’un message sortant via les fournisseurs de transport sortant.
+Contient une valeur utilisée par le spouleur MAPI pour suivre la progression d'un message sortant par le biais des fournisseurs de transport sortants.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une valeur utilisée par le spouleur MAPI pour suivre la progression d�
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé pour une utilisation par MAPI.
+N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

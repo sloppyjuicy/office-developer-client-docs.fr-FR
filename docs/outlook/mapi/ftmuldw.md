@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e135ba67-97be-4ce0-a72e-93c49ed7d6e2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c823a4e3d08d9082a3b5ac5c4bd8169612caa16e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 27ec919d720e1089d6e102f20485d936c9dc9808
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327999"
 ---
 # <a name="ftmuldw"></a>FtMulDw
 
@@ -25,13 +25,13 @@ ms.locfileid: "22583994"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Multiplie un nombre entier non signé 64 bits en entier non signé 32 bits.
+Multiplie un entier non signé 64 bits par un entier non signé 32 bits.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 FILETIME FtMulDw(
@@ -44,14 +44,14 @@ FILETIME FtMulDw(
 
  _Multiplicateur_
   
-> [in] Un mot double contenant le multiplicateur de nombre entier non signé 32 bits. 
+> dans Un double mot qui contient le multiplicateur de nombres entiers non signés 32 bits. 
     
  _Multiplicand_
   
-> [in] Une structure [FILETIME](filetime.md) qui contient l’entier non signé de 64 bits à multipliées par la valeur dans le paramètre _Multiplicateur_ . 
+> dans Une structure [fileTime](filetime.md) qui contient l'entier non signé 64 bits à multiplier par la valeur dans le paramètre _multiplicateur_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **FtMulDw** renvoie une structure **FILETIME** qui contient le produit de deux entiers. Les deux paramètres d’entrée restent inchangées. 
+La fonction **FtMulDw** renvoie une structure **fileTime** qui contient le produit des deux entiers. Les deux paramètres d'entrée restent inchangés. 
   
 

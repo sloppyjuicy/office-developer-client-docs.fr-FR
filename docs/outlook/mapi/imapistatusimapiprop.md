@@ -11,40 +11,40 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 23663cea49c50f3f584d6b06e331545320e8283b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f90cf661c069ecd476bd02c5719147633a8392e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565381"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331527"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des informations d’état sur le sous-système MAPI, le carnet d’adresses intégré et le spouleur MAPI. Un fournisseur de services implémente **IMAPIStatus** pour fournir des informations sur son propre état. 
+Fournit des informations d'État sur le sous-système MAPI, le carnet d'adresses intégré et le spouleur MAPI. Un fournisseur de services implémente **IMAPIStatus** pour fournir des informations sur son propre statut. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Exposés par :  <br/> |Objets d’état  <br/> |
-|Implémentée par :  <br/> |Fournisseurs de services et MAPI  <br/> |
-|Appelée par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPIStatus  <br/> |
-|Type de pointeur :  <br/> |LPMAPISTATUS  <br/> |
-|Modèle de transaction :  <br/> |Nontransacted  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Exposé par:  <br/> |Objets de statut  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de services et MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPIStatus  <br/> |
+|Type de pointeur:  <br/> |LPMAPISTATUS  <br/> |
+|Modèle de transaction:  <br/> |Pas de transaction  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[ValidateState](imapistatus-validatestate.md) <br/> |Vérifie les informations d’état externe disponibles pour la ressource MAPI ou le fournisseur de services.  <br/> |
-|[Dialogue](imapistatus-settingsdialog.md) <br/> |Affiche une feuille de propriétés qui permet à l’utilisateur de modifier la configuration d’un fournisseur de service.  <br/> |
-|[ChangePassword](imapistatus-changepassword.md) <br/> |Modifie le mot de passe d’un fournisseur de services sans afficher l’interface utilisateur.  <br/> |
-|[FlushQueues](imapistatus-flushqueues.md) <br/> |Force tous les messages en attente d’être envoyés ou reçus pour être immédiatement téléchargé ou téléchargé.  <br/> |
+|[ValidateState](imapistatus-validatestate.md) <br/> |Confirme les informations d'état externe disponibles pour la ressource MAPI ou le fournisseur de services.  <br/> |
+|[SettingsDialog](imapistatus-settingsdialog.md) <br/> |Affiche une feuille de propriétés qui permet à l'utilisateur de modifier la configuration d'un fournisseur de services.  <br/> |
+|[ChangePassword](imapistatus-changepassword.md) <br/> |Modifie le mot de passe d'un fournisseur de services sans afficher d'interface utilisateur.  <br/> |
+|[FlushQueues](imapistatus-flushqueues.md) <br/> |Force tous les messages en attente d'être envoyés ou reçus pour être immédiatement téléchargés ou téléchargés.  <br/> |
    
 |**Propriétés requises**|**Access**|
 |:-----|:-----|
@@ -58,17 +58,17 @@ Fournit des informations d’état sur le sous-système MAPI, le carnet d’adre
    
 ## <a name="remarks"></a>Remarques
 
-Les objets d’état qui implémente MAPI prennent en charge les méthodes suivantes :
+Les objets d'État que MAPI implémente prennent en charge les méthodes suivantes:
   
-|**Objet d’état**|**Méthodes prises en charge**|
+|**Objet Status**|**Méthodes prises en charge**|
 |:-----|:-----|
-|Sous-système MAPI  <br/> |**ValidateState**  <br/> |
-|Carnet d’adresses MAPI  <br/> |**ValidateState**  <br/> |
+|Sous-système MAPI  <br/> |**ValidateState** uniquement  <br/> |
+|Carnet d'adresses MAPI  <br/> |**ValidateState** uniquement  <br/> |
 |Spouleur MAPI  <br/> |**ValidateState** et **FlushQueues** <br/> |
    
-Les objets d’état qui implémente MAPI sont requis pour une version en lecture seule des méthodes de l’interface [IMAPIProp](imapipropiunknown.md) et pour prendre en charge la méthode **ValidateState** . Fournisseurs de transport doivent également en charge **FlushQueues**. Tous les fournisseurs doivent prendre en charge de **dialogue**; prise en charge **ChangePassword** est facultative. 
+Les objets d'État implémentés par MAPI doivent disposer d'une version en lecture seule des méthodes de l'interface [IMAPIProp](imapipropiunknown.md) et prendre en charge la méthode **ValidateState** . Les fournisseurs de transport doivent également prendre en charge **FlushQueues**. Tous les fournisseurs doivent prendre en charge **SettingsDialog**; la prise en charge de **ChangePassword** est facultative. 
   
-Clients utilisent les objets d’état pour effectuer la configuration et en savoir plus sur l’état de la session. Ils accéder à un objet d’état en appelant la méthode **OpenStatusEntry** d’un objet de connexion de fournisseur de service ou la méthode [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour récupérer l’objet d’état. 
+Les clients utilisent les objets d'État pour effectuer la configuration et pour en savoir plus sur l'état de la session. Ils accèdent à un objet état en appelant la méthode **OpenStatusEntry** d'un objet d'ouverture de session du fournisseur de services ou la méthode [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) pour extraire l'objet d'État. 
   
 ## <a name="see-also"></a>Voir aussi
 

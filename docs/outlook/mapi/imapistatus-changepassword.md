@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0cd1026a-342d-4d05-91ed-d3decced5bf3
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e09a1de5f85edd7e352a090c573fed9ca16f017f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2c824b6b994bfb31b5e6ac7fed0eeae88c47cdba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328279"
 ---
 # <a name="imapistatuschangepassword"></a>IMAPIStatus::ChangePassword
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565549"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Modifie le mot de passe d’un fournisseur de services sans afficher l’interface utilisateur. Cette méthode est également pris en charge dans les objets qui implémentent des fournisseurs de services d’état.
+Modifie le mot de passe d'un fournisseur de services sans afficher d'interface utilisateur. Cette méthode est éventuellement prise en charge dans les objets d'État implémentés par les fournisseurs de services.
   
 ```cpp
 HRESULT ChangePassword(
@@ -39,43 +39,43 @@ HRESULT ChangePassword(
 
  _lpOldPass_
   
-> [in] Pointeur vers l’ancien mot de passe.
+> dans Pointeur vers l'ancien mot de passe.
     
  _lpNewPass_
   
-> [in] Pointeur vers le nouveau mot de passe.
+> dans Pointeur vers le nouveau mot de passe.
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le format des mots de passe. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle le format des mots de passe. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les mots de passe sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les mots de passe sont au format ANSI.
+> Les mots de passe sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les mots de passe sont au format ANSI.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La modification de mot de passe a réussi.
+> La modification du mot de passe a réussi.
     
 MAPI_E_NO_ACCESS 
   
-> L’ancien mot de passe désigné par _lpOldPass_ n’est pas valide. 
+> L'ancien mot de passe désigné par _lpOldPass_ n'est pas valide. 
     
 MAPI_E_NO_SUPPORT 
   
-> L’objet état ne gère pas cette opération, comme indiqué par l’absence de l’indicateur STATUS_CHANGE_PASSWORD dans la propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) de l’objet d’état.
+> L'objet Status ne prend pas en charge cette opération, comme indiqué par l'absence de l'indicateur STATUS_CHANGE_PASSWORD dans la propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) de l'objet Status.
     
 ## <a name="remarks"></a>Remarques
 
-Pas de tous les objets d’état prend en charge la méthode **IMAPIStatus::ChangePassword** . Il est pris en charge uniquement par les fournisseurs de services qui nécessitent des clients entrer un mot de passe. Aucun des objets que MAPI implémente état prend en charge l’opération de modification de mot de passe. 
+Tous les objets d'État ne prennent pas en charge la méthode **IMAPIStatus:: ChangePassword** . Il est pris en charge uniquement par les fournisseurs de services qui nécessitent des clients pour entrer un mot de passe. Aucun des objets d'État que MAPI implémente ne prend en charge l'opération de modification de mot de passe. 
   
- **ChangePassword** modifie un mot de passe par programmation, sans intervention de l’utilisateur. 
+ **ChangePassword** modifie un mot de passe par programme, sans intervention de l'utilisateur. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Fournisseurs de transport à distance implémentent **ChangePassword** comme indiqué ici. Il n’existe pas de considérations particulières. 
+Les fournisseurs de transport à distance implémentent **ChangePassword** comme indiqué ici. Il n'y a aucune considération particulière. 
   
 ## <a name="see-also"></a>Voir aussi
 

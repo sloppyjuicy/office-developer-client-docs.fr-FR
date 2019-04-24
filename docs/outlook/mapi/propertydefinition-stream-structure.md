@@ -1,45 +1,45 @@
 ---
-title: Structure de flux de la définition PropertyDefinition
+title: Structure de flux PropertyDefinition
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b2de22eef455e59b7877524ce998e93a0a708e0c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 479339762867aa778bc8bc8baa1f21f6bc34b441
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566655"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328482"
 ---
-# <a name="propertydefinition-stream-structure"></a>Structure de flux de la définition PropertyDefinition
+# <a name="propertydefinition-stream-structure"></a>Structure de flux PropertyDefinition
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une structure de flux de la définition PropertyDefinition est un tableau de structures de flux [FieldDefinition](fielddefinition-stream-structure.md) qui contiennent des définitions pour tous les champs définis par l’utilisateur dans un élément Microsoft Outlook et les paramètres de liaison de données pour certains champs prédéfinis. 
+Une structure de flux PropertyDefinition est un tableau de structures de flux [FieldDefinition](fielddefinition-stream-structure.md) contenant des définitions pour tous les champs définis par l'utilisateur dans un élément Microsoft Outlook et des paramètres de liaison de données pour certains champs intégrés. 
   
-Vous pouvez manipuler par programme la structure de flux de la définition PropertyDefinition. Toutefois, vous pouvez obtenir des résultats similaires à l’aide du Concepteur de formulaires Outlook et, en particulier, la boîte de dialogue **Propriétés de** zone pour un contrôle lié aux données. 
+Vous pouvez manipuler la structure de flux PropertyDefinition par programmation. Toutefois, vous pouvez obtenir des résultats similaires à l'aide du concepteur de formulaires Outlook et, en particulier, de la boîte de dialogue **Propriétés** d'un contrôle lié aux données. 
   
-Définitions de champ dans une structure de flux de la définition PropertyDefinition peuvent être une des deux formats : PropDefV1 et PropDefV2. Outlook prend en charge à la fois PropDefV1 et PropDefV2. Toutes les définitions de champ dans une structure de flux de la définition PropertyDefinition unique doivent être du même format. Pour plus d’informations sur la différence entre PropDefV1 et PropDefV2, voir [FieldDefinition flux Structure](fielddefinition-stream-structure.md).
+Les définitions de champ dans une structure de flux PropertyDefinition peuvent être l'un des deux formats suivants: PropDefV1 et PropDefV2. Outlook prend en charge à la fois PropDefV1 et PropDefV2. Toutes les définitions de champ d'une structure de flux PropertyDefinition unique doivent être du même format. Pour plus d'informations sur la façon dont PropDefV1 et PropDefV2 diffèrent, voir [FieldDefinition Stream structure](fielddefinition-stream-structure.md).
   
-Éléments de données dans ce flux de données sont stockés dans l’ordre de primauté des octets, immédiatement après l’autre dans l’ordre indiqué ci-dessous.
+Les éléments de données dans ce flux sont stockés dans l'ordre d'octet Little-endian, immédiatement suivant l'ordre indiqué ci-dessous.
   
-- Version : Mot (2 octets), le format des définitions de champ dans la définition PropertyDefinition du flux de structure. Le tableau suivant présente les valeurs possibles.
+- Version: WORD (2 octets), le format des définitions de champ dans la structure de flux PropertyDefinition. Le tableau suivant montre les valeurs possibles.
     
-    |**Valeur**|**Description**|
+    |**Value**|**Description**|
     |:-----|:-----|
-    |0x0102  <br/> |Format est PropDefV1.  <br/> |
-    |0x0103  <br/> |Format est PropDefV2.  <br/> |
+    |0x0102  <br/> |Le format est PropDefV1.  <br/> |
+    |0x0103  <br/> |Le format est PropDefV2.  <br/> |
    
-- FieldDefinitionCount : DWORD (4 octets), le nombre de définitions de champ dans ce flux. Il s’agit du nombre d’éléments de tableau dans l’élément de données FieldDefinitions.
+- FieldDefinitionCount: DWORD (4 octets), le nombre de définitions de champ dans ce flux. Il s'agit du nombre d'éléments de tableau dans l'élément de données FieldDefinitions.
     
-- FieldDefinitions : Un tableau de structures de flux FieldDefinition. Le nombre de ce tableau est égal à l’élément de données FieldDefinitionCount.
+- FieldDefinitions: tableau de structures de flux FieldDefinition. Le nombre de ce tableau est égal à l'élément de données FieldDefinitionCount.
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Champs et éléments Outlook](outlook-items-and-fields.md)
-- [Ajout d’une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
+- [Éléments et champs Outlook](outlook-items-and-fields.md)
+- [Ajouter une définition pour un nouveau champ défini par l'utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
 - [Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
 - [Structures de flux](stream-structures.md)
 

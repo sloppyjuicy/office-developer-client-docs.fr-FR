@@ -11,53 +11,53 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7d9f8cf4fbdeab70e40447411ed8efd35ef7899e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 537b45420390903d67722c074a1edcc04a0aede8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326298"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>Propriété canonique PidLidOfflineStatus
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine l’état d’un fichier de document sur un serveur qui implémente [MS-LISTSWS].
+Détermine l'état d'un fichier de document sur un serveur qui implémente [MS-LISTSWS].
   
 |||
 |:-----|:-----|
 |Propriétés associées  <br/> |dispidOfflineStatus  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
-|ID de type long (capot) :  <br/> |0x000085B9  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
+|ID long (couvercle):  <br/> |0x000085B9  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le tableau suivant présente les valeurs possibles de cette propriété.
+Le tableau suivant indique les valeurs possibles de cette propriété.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Document n’est pas extrait.  <br/> |
-|1  <br/> |Document est extrait par l’utilisateur actuel.  <br/> |
-|2  <br/> |Document n’est pas extrait, mais l’utilisateur actuel possède une copie du fichier enregistré pour la modification sur l’ordinateur actuel.  <br/> |
+|0  <br/> |Le document n'est pas extrait.  <br/> |
+|0,1  <br/> |Le document est extrait pour l'utilisateur actuel.  <br/> |
+|n°2  <br/> |Le document n'est pas extrait, mais l'utilisateur actuel dispose d'une copie du fichier enregistré pour modification sur l'ordinateur actuel.  <br/> |
    
-Cette propriété est calculée localement et n’est pas envoyée à un serveur à tout moment, sauf si un utilisateur fait glisser l’élément vers un autre compte. Dans ce cas, il est traité comme une propriété personnalisée définie par l’utilisateur.
+Cette propriété est calculée localement et n'est pas envoyée à un serveur à tout moment, sauf si l'utilisateur fait glisser l'élément vers un autre compte. Dans ce cas, elle est traitée comme une propriété personnalisée définie par l'utilisateur.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

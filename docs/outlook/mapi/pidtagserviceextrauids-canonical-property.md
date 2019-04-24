@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4838a9af-7818-49aa-ace8-cb94dda8471f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 0deb1b34a437d47ab53cdb2e13cda006d9116f65
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0fb688e2a845186224c1802f9df2ac537d5bb4d9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328727"
 ---
 # <a name="pidtagserviceextrauids-canonical-property"></a>Propriété canonique PidTagServiceExtraUids
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste des structures [MAPIUID](mapiuid.md) qui identifient les sections de profil supplémentaires pour le service de message. 
+Contient une liste de structures [MAPIUID](mapiuid.md) qui identifient des sections de profil supplémentaires pour le service de messagerie. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une liste des structures [MAPIUID](mapiuid.md) qui identifient les sect
    
 ## <a name="remarks"></a>Remarques
 
-Nouvelles sections profil peuvent être créées pour chaque filtre de message. Lorsque les informations sur le service de message doit être copié vers un autre profil, il est important de copier les sections de profil supplémentaires pour les filtres ainsi. Un fournisseur de services qui utilise des sections de profil supplémentaires peut stocker les structures **MAPIUID** de ces sections profil dans **PR_SERVICE_EXTRA_UIDS**, qui permet de MAPI copier les informations de service de message supplémentaire.
+De nouvelles sections de profil peuvent être créées pour chaque filtre de messages. Lorsque les informations sur le service de messagerie doivent être copiées dans un autre profil, il est important de copier également les sections de profil supplémentaires pour les filtres. Un fournisseur de services qui utilise des sections de profil supplémentaires peut stocker les structures **MAPIUID** de ces sections de profil dans **PR_SERVICE_EXTRA_UIDS**, ce qui permet à MAPI de copier les informations de service de messagerie supplémentaires.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

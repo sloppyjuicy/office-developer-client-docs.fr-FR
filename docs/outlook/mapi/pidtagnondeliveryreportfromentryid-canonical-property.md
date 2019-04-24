@@ -11,46 +11,46 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 38cbf1bf-ac7c-4459-af3e-919b77818b25
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8f6e6023da7d44ed8650dc85985efe17de31d8f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f7af68ab8d243e665eb551aa18dcbafda04d8663
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329343"
 ---
 # <a name="pidtagnondeliveryreportfromentryid-canonical-property"></a>Propriété canonique PidTagNonDeliveryReportFromEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Si défini sur un rapport de non-remise, indique l’identificateur d’entrée de l’échec d’envoi-en tant qu’utilisateur.
+Si elle est définie dans un rapport de non-remise, indique l'ID d'entrée de l'utilisateur ayant échoué envoyer en tant que.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NDR_FROM_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x6904  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,62 +9,62 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a5dcd2e0-e343-5ee2-2b63-2a1312437901
 description: Détermine le style et le sens de positionnement d'un connecteur sélectionné sur la page de dessin.
-ms.openlocfilehash: b165d43e64842565806d93d620ddbd24f41a2d57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5725d461a71dad4623161d99134a20250abe724
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326522"
 ---
 # <a name="shaperoutestyle-cell-shape-layout-section"></a>ShapeRouteStyle, cellule (section Shape Layout)
 
 Détermine le style et le sens de positionnement d'un connecteur sélectionné sur la page de dessin.
   
-|**Valeur**|**Style de positionnement**|**Direction**|**Constante d’Automation**|
+|**Valeur**|**Style de positionnement**|**Direction**|**Constante d'automation**|
 |:-----|:-----|:-----|:-----|
 |0  <br/> |Utiliser valeur page par défaut  <br/> |Aucun  <br/> |**visLORouteDefault** <br/> |
-|1  <br/> |Angle droit  <br/> |Aucune  <br/> |**visLORouteRightAngle** <br/> |
-|2  <br/> |Droit  <br/> |Aucune  <br/> |**visLORouteStraight** <br/> |
+|0,1  <br/> |Angle droit  <br/> |Aucun  <br/> |**visLORouteRightAngle** <br/> |
+|n°2  <br/> |Tirant  <br/> |Aucun  <br/> |**visLORouteStraight** <br/> |
 |3  <br/> |Organigramme  <br/> |De haut en bas  <br/> |**visLORouteOrgChartNS** <br/> |
 |4  <br/> |Organigramme  <br/> |De gauche à droite  <br/> |**visLORouteOrgChartWE** <br/> |
-|5  <br/> |Diagramme de flux  <br/> |De haut en bas  <br/> |**visLORouteFlowchartNS** <br/> |
-|6  <br/> |Diagramme de flux  <br/> |De gauche à droite  <br/> |**visLORouteFlowchartWE** <br/> |
-|7  <br/> |Arbre  <br/> |De haut en bas  <br/> |**visLORouteTreeNS** <br/> |
-|8  <br/> |Arbre  <br/> |De gauche à droite  <br/> |**visLORouteTreeWE** <br/> |
-|9  <br/> |Réseau  <br/> |Aucune  <br/> |**visLORouteNetwork** <br/> |
+|disque  <br/> |Diagramme de flux  <br/> |De haut en bas  <br/> |**visLORouteFlowchartNS** <br/> |
+|6.x  <br/> |Diagramme de flux  <br/> |De gauche à droite  <br/> |**visLORouteFlowchartWE** <br/> |
+|7j/7  <br/> |TreeView  <br/> |De haut en bas  <br/> |**visLORouteTreeNS** <br/> |
+|8bits  <br/> |TreeView  <br/> |De gauche à droite  <br/> |**visLORouteTreeWE** <br/> |
+|4,9  <br/> |Réseau  <br/> |Aucun  <br/> |**visLORouteNetwork** <br/> |
 |10  <br/> |Organigramme  <br/> |De bas en haut  <br/> |**visLORouteOrgChartSN** <br/> |
-|11  <br/> |Organigramme  <br/> |De droite à gauche  <br/> |**visLORouteOrgChartEW** <br/> |
-|12  <br/> |Diagramme de flux  <br/> |De bas en haut  <br/> |**visLORouteFlowchartSN** <br/> |
-|13  <br/> |Diagramme de flux  <br/> |De droite à gauche  <br/> |**visLORouteFlowchartEW** <br/> |
-|14  <br/> |Arbre  <br/> |De bas en haut  <br/> |**visLORouteTreeSN** <br/> |
-|15  <br/> |Arbre  <br/> |De droite à gauche  <br/> |**visLORouteTreeEW** <br/> |
-|16  <br/> |Centre vers centre  <br/> |Aucune  <br/> |**visLORouteCenterToCenter** <br/> |
-|17  <br/> |Simple  <br/> |De haut en bas  <br/> |**visLORouteSimpleNS** <br/> |
+|a4  <br/> |Organigramme  <br/> |De droite à gauche  <br/> |**visLORouteOrgChartEW** <br/> |
+|an  <br/> |Diagramme de flux  <br/> |De bas en haut  <br/> |**visLORouteFlowchartSN** <br/> |
+|kg  <br/> |Diagramme de flux  <br/> |De droite à gauche  <br/> |**visLORouteFlowchartEW** <br/> |
+|13  <br/> |TreeView  <br/> |De bas en haut  <br/> |**visLORouteTreeSN** <br/> |
+|0,15  <br/> |TreeView  <br/> |De droite à gauche  <br/> |**visLORouteTreeEW** <br/> |
+|Seiz  <br/> |Centre vers centre  <br/> |Aucun  <br/> |**visLORouteCenterToCenter** <br/> |
+|cm  <br/> |Simple  <br/> |De haut en bas  <br/> |**visLORouteSimpleNS** <br/> |
 |18  <br/> |Simple  <br/> |De gauche à droite  <br/> |**visLORouteSimpleWE** <br/> |
-|19  <br/> |Simple  <br/> |De bas en haut  <br/> |**visLORouteSimpleSN** <br/> |
-|20  <br/> |Simple  <br/> |De droite à gauche  <br/> |**visLORouteSimpleEW** <br/> |
-|21  <br/> |Horizontal-vertical simple  <br/> |Aucune  <br/> |**visLORouteSimpleHV** <br/> |
-|22  <br/> |Vertical-horizontal simple  <br/> |Aucune  <br/> |**visLORouteSimpleVH** <br/> |
+|neuf  <br/> |Simple  <br/> |De bas en haut  <br/> |**visLORouteSimpleSN** <br/> |
+|vingtaine  <br/> |Simple  <br/> |De droite à gauche  <br/> |**visLORouteSimpleEW** <br/> |
+|21  <br/> |Horizontal-vertical simple  <br/> |Aucun  <br/> |**visLORouteSimpleHV** <br/> |
+|22,5  <br/> |Vertical-horizontal simple  <br/> |Aucun  <br/> |**visLORouteSimpleVH** <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule pour un connecteur donné dans l’onglet **connecteur** dans la boîte de dialogue **comportement** (avec un connecteur sélectionné, cliquez sur **comportement** sous l’onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , puis cliquez sur l’onglet **connecteur** ). 
+Vous pouvez également définir la valeur de cette cellule pour un connecteur particulier sous l'onglet **connecteur** dans la boîte de dialogue **comportement** (avec un connecteur sélectionné, cliquez sur **comportement** dans l'onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , puis cliquez sur l'onglet **connecteur** ). 
   
-Pour définir ce comportement pour *toutes* les connecteurs sur une page, utilisez la cellule RouteStyle de la section Page Layout. 
+Pour définir ce comportement pour *tous* les connecteurs d'une page, utilisez la cellule RouteStyle de la section Page Layout. 
   
 Dans les versions antérieures à Visio 2000, vous pouviez définir ce comportement en faisant appel à la cellule ObjBehavior de la section Miscellaneous.
   
-Pour obtenir une référence à la cellule ShapeRouteStyle par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule ShapeRouteStyle par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |ShapeRouteStyle  <br/> |
    
-Pour obtenir une référence à la cellule ShapeRouteStyle par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule ShapeRouteStyle à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 |Index de la cellule :  <br/> |**visSLORouteStyle** <br/> |
    

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98597495-7761-4eda-ae75-1ccefa6abb81
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a19c67d7b83c4890c998cd2e53a36bfc34d11386
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a99760e11c34404f48ec193750b1a7f4ac541674
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327828"
 ---
 # <a name="pidtagphysicaldeliverymode-canonical-property"></a>Propriété canonique PidTagPhysicalDeliveryMode
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de bits d’indicateurs qui définissent le mode de remise physique (par exemple, spécial remise) pour un message désigné pour un destinataire spécifique.
+Contient un masque de réindicateur des indicateurs qui définissent le mode de remise physique (par exemple, une remise spéciale) pour un message désigné pour un destinataire spécifique.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Contient un masque de bits d’indicateurs qui définissent le mode de remise ph
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

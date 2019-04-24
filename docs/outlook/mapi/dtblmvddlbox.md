@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e6283dc-9a08-460f-9400-03f0ceb4081c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 910f779f3463ee5dccd052655a442ef24c2cce58
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 33b4fd87f33c26db15e1a6a28f077c393168db91
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325759"
 ---
 # <a name="dtblmvddlbox"></a>DTBLMVDDLBOX
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une liste déroulante qui sera utilisée dans une boîte de dialogue qui est générée à partir d’un tableau d’affichage.
+Décrit une liste déroulante qui sera utilisée dans une boîte de dialogue créée à partir d'une table d'affichage.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVDDLBX
@@ -40,25 +40,25 @@ typedef struct _DTBLMVDDLBX
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  **ulFlags**
   
-> Réservé ; doit être égal à zéro.
+> MSR doit être égal à zéro.
     
  **ulMVPropTag**
   
-> Balise de propriété pour une propriété à valeurs multiples de type PT_MV_TSTRING. Les différentes valeurs de cette propriété sont affichent comme des entrées distinctes dans la liste déroulante.
+> Balise de propriété pour une propriété à valeurs multiples de type PT_MV_TSTRING. Les différentes valeurs de cette propriété sont affichées sous forme d'entrées distinctes dans la liste déroulante.
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLMVDDLBOX** décrit une liste déroulante à valeurs multiples une liste en lecture seule d’éléments. En utilisant une liste déroulante à valeurs multiples, les valeurs sont affichées lorsqu’un utilisateur clique sur une barre de défilement. 
+Une structure **DTBLMVDDLBOX** décrit une liste déroulante à valeurs multiples, une liste d'éléments en lecture seule. À l'aide d'une liste déroulante à valeurs multiples, les valeurs s'affichent lorsqu'un utilisateur clique sur une barre de défilement. 
   
-Les données qui sont affichées provient de la propriété identifiée dans le membre **ulMVPropTag** . Il n’existe aucune exigence pour lire à partir de l’interface de la propriété qui est associé à la table d’affichage. En outre, étant donné que les utilisateurs ne sont pas en mesure de réaliser des sélections à partir de ces types de zones de liste, données ne sont pas écrite à l’interface de la propriété. 
+Les données affichées proviennent de la propriété identifiée dans le membre **ulMVPropTag** . Il n'existe aucun besoin de lire à partir de l'interface de propriétés associée à la table d'affichage. En outre, étant donné que les utilisateurs ne peuvent pas effectuer des sélections à partir de ces types de zones de liste, les données ne sont pas écrites dans l'interface de propriété. 
   
-Uniquement les propriétés de type chaîne à valeurs multiples sont pris en charge pour la liste déroulante à valeurs multiples ; autres types de propriétés à valeurs multiples ne sont pas pris en charge. 
+Seules les propriétés de chaîne à valeurs multiples sont prises en charge pour la liste déroulante à valeurs multiples; les autres types de propriétés à valeurs multiples ne sont pas pris en charge. 
   
-Pour une vue d’ensemble des tables d’affichage, voir [Afficher les Tables](display-tables.md). Pour plus d’informations sur la façon d’implémenter un tableau d’affichage, consultez [l’implémentation d’une Table à afficher](display-table-implementation.md).
+Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

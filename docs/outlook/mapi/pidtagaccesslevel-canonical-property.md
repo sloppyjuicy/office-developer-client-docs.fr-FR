@@ -11,59 +11,59 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8f7119c7-ffc3-47cf-aa1b-b4e56bcc5a24
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 5138f5d255f6a90d2891fe2cf5ce92513463fa31
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389798"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331996"
 ---
 # <a name="pidtagaccesslevel-canonical-property"></a>Propriété canonique PidTagAccessLevel
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le niveau d’accès du client à l’objet.
+Indique le niveau d'accès du client à l'objet.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ACCESS_LEVEL  <br/> |
 |Identificateur :  <br/> |0x0FF7  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Propriétés de contrôle d’accès  <br/> |
+|Domaine :  <br/> |Propriétés de contrôle d'accès  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est en lecture seule pour le client. Il doit être une des valeurs suivantes :
+Cette propriété est en lecture seule pour le client. Il doit prendre la valeur de l'une des valeurs suivantes:
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |En lecture seule  <br/> |
-|0x00000001  <br/> |Modify  <br/> |
+|0x00000000  <br/> |Lecture seule  <br/> |
+|0x00000001  <br/> |Modifier  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

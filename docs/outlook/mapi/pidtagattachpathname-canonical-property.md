@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e19c7cd1-7c56-4f63-8736-d6971c7c5f4d
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 05df7fe04f511de9310edc7a8ef09130e6354ad2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327229"
 ---
 # <a name="pidtagattachpathname-canonical-property"></a>Propriété canonique PidTagAttachPathname
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le chemin d’accès complet et le nom d’une pièce jointe.
+Contient le chemin d'accès complet et le nom de fichier d'une pièce jointe.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contient le chemin d’accès complet et le nom d’une pièce jointe.
    
 ## <a name="remarks"></a>Remarques
 
-Il est recommandé que les pièces jointes sous-objets exposent ces propriétés. Leur définition indique que les données de pièce jointe n’est pas incluses dans le message, mais ne sont disponibles sur un serveur de fichiers communs. Ces propriétés sont requises en association avec un des indicateurs **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) qui indiquent les pièces jointes par référence : **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**ou **ATTACH_BY_REF_ UNIQUEMENT**. 
+Il est recommandé que les sous-objets des pièces jointes exposent ces propriétés. Leur définition indique que les données des pièces jointes ne sont pas incluses dans le message, mais qu'elles sont disponibles sur un serveur de fichiers commun. Ces propriétés sont requises conjointement avec l'un des indicateurs **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) qui indiquent Attachment by reference: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**ou **ATTACH_BY_REF_ UNIQUEMENT**. 
   
-Chaque répertoire ou un nom de fichier est limité à un nom de huit caractères, plus une extension de trois caractères. Le chemin d’accès globale est limité à 256 caractères. Pour une plate-forme qui prend en charge les noms de fichiers longs, définir ces propriétés et les **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
+Chaque répertoire ou nom de fichier est limité à un nom de huit caractères suivi d'une extension de trois caractères. Le chemin d'accès global est limité à 256 caractères. Pour une plateforme qui prend en charge les noms de fichier longs, définissez ces propriétés et **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
   
-Applications clientes doivent utiliser une convention de dénomination universelle (UNC) dans la plupart des cas, lorsque le fichier est partagé et doit utiliser un chemin absolu lorsque le fichier est local.
+Les applications clientes doivent utiliser une convention d'affectation de noms universelle (UNC) dans la plupart des cas lorsque le fichier est partagé, et doivent utiliser un chemin d'accès absolu lorsque le fichier est local.
   
-MAPI ne fonctionne qu’avec les chemins d’accès et le jeu de caractères ANSI, les noms de fichiers. Les clients qui utilisent des chemins d’accès et les noms de fichiers dans un jeu de caractères OEM doivent les convertir au format ANSI avant l’appel de MAPI. 
+MAPI fonctionne uniquement avec les chemins d'accès et les noms de fichier dans le jeu de caractères ANSI. Les clients qui utilisent des noms de fichiers et des chemins d'accès dans un jeu de caractères OEM doivent les convertir en ANSI avant d'appeler MAPI. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Spécifie les propriétés des messages codés géré par des droits.
+> Spécifie les propriétés des messages codés gérés par des droits.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

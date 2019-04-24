@@ -7,33 +7,33 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b51e9e03-a333-4fdc-b6fe-87bd4e947b9f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a84c0a93f80080b71f6049e73f0a0094c38c28ef
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e31eacaae54968fbdbd9fe0345130a8d09c3509f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326375"
 ---
 # <a name="capabilities-not-supported-by-form-managers"></a>Fonctionnalités non prises en charge par les gestionnaires de formulaires
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fonctionnalités suivantes ne sont pas pris en charge par le Gestionnaire de formulaire par défaut pour des raisons de performances, mais peuvent être pris en charge par les responsables de formulaire personnalisé.
+Les fonctionnalités suivantes ne sont pas prises en charge par le gestionnaire de formulaire par défaut pour des raisons de performances, mais peuvent être prises en charge par les gestionnaires de formulaires personnalisés.
   
-- Une hiérarchie qui permet les formes groupées ou de catégorie au sein d’une bibliothèque de formulaires. Une bibliothèque de formulaires est une base de données de fichiers plats des formulaires.
+- Hiérarchie qui permet de regrouper ou de classer les formulaires dans une bibliothèque de formulaires. Une bibliothèque de formulaires est une base de données de formulaires à fichier plat.
     
-- Contrôle d’accès pour les catégories de formulaires, correspondant à des classes de message ou surclasse.
+- Contrôle d'accès pour les catégories de formulaires, correspondant aux classes de message ou aux superclasses.
     
-- Prise en charge de plusieurs versions linguistiques du même formulaire dans une bibliothèque de formulaires unique.
+- Prise en charge de plusieurs versions linguistiques du même formulaire dans une seule bibliothèque de formulaires.
     
-Il s’agit des problèmes de mise en œuvre. Il n’a rien à empêcher un gestionnaire de formulaires personnalisés à partir de l’implémentation de ces fonctionnalités.
+Il s'agit des problèmes d'implémentation. Il n'y a rien à empêcher un gestionnaire de formulaires personnalisés d'implémenter ces fonctionnalités.
   
-L’architecture de formulaire MAPI ne gère pas plusieurs responsables de formulaire qui s’exécutent simultanément. Bien que MAPI prend en charge plusieurs fournisseurs de magasins message simultanés, fournisseurs de transport et fournisseurs de carnet d’adresses, seul un gestionnaire de formulaire unique est pris en charge.
+L'architecture des formulaires MAPI ne prend pas en charge plusieurs gestionnaires de formulaires exécutés simultanément. Bien que MAPI prenne en charge plusieurs fournisseurs de banques de messages simultanées, fournisseurs de transport et fournisseurs de carnet d'adresses, un seul gestionnaire de formulaires est pris en charge.
   
-Étant donné que le gestionnaire qu’un seul formulaire peut être exécuté à la fois, si vous implémentez un gestionnaire de formulaire personnalisé, vous devrez réimplémenter toutes les fonctionnalités du Gestionnaire de formulaire par défaut dont vous avez besoin. Le Gestionnaire de votre formulaire personnalisé remplacera entièrement du Gestionnaire de formulaire par défaut, les fonctionnalités du Gestionnaire de formulaire par défaut ne seront pas disponibles, sauf si elles sont dupliqués dans le Gestionnaire de votre formulaire personnalisé.
+Étant donné qu'un seul gestionnaire de formulaires peut s'exécuter en même temps, si vous implémentez un gestionnaire de formulaires personnalisés, vous devrez réimplémenter toutes les fonctionnalités du gestionnaire de formulaires par défaut dont vous avez besoin. Étant donné que votre gestionnaire de formulaires personnalisés remplacera entièrement le gestionnaire de formulaires par défaut, les fonctionnalités du gestionnaire de formulaires par défaut ne seront pas disponibles, sauf s'ils sont dupliqués dans votre gestionnaire de formulaires personnalisés.
   
 ## <a name="see-also"></a>Voir aussi
 

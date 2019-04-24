@@ -7,48 +7,48 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6e91b765-a207-4d8c-8763-5d643ca4d0c0
-description: L’Outlook Social Connector (OSC) prend en charge l’affichage des informations à partir d’un réseau social sur une personne dans la carte de visite ou dans le volet personnes Outlook. SharePoint Server, SharePoint Workspace, client Lync et toutes les applications clientes Office qui prennent en charge les informations de présence prend en charge la carte de visite.
+description: Outlook Social Connector (OSC) prend en charge l'affichage d'informations à partir d'un réseau social sur une personne figurant dans la carte de visite ou dans le volet de contacts Outlook. SharePoint Server, SharePoint Workspace, le client Lync et toutes les applications clientes Office qui prennent en charge les informations de présence prennent en charge la carte de visite.
 ms.openlocfilehash: 0d6881c5d596519422d01ca61a00b1a68e610f2c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329200"
 ---
 # <a name="synchronizing-friends-and-activities"></a>Synchronisation des amis et des activités
 
-L’Outlook Social Connector (OSC) prend en charge l’affichage des informations à partir d’un réseau social sur une personne dans la carte de visite ou dans le volet personnes Outlook. SharePoint Server, SharePoint Workspace, client Lync et toutes les applications clientes Office qui prennent en charge les informations de présence prend en charge la carte de visite.
+Outlook Social Connector (OSC) prend en charge l'affichage d'informations à partir d'un réseau social sur une personne figurant dans la carte de visite ou dans le volet de contacts Outlook. SharePoint Server, SharePoint Workspace, le client Lync et toutes les applications clientes Office qui prennent en charge les informations de présence prennent en charge la carte de visite.
   
-Vous pouvez utiliser la carte de visite dans les scénarios de collaboration dans les applications Office pour en savoir plus sur les personnes avec qu'auquel vous collaborez. Les exemples de ces scénarios de messagerie dans Outlook et la co-création d’un document dans Word. Lorsque vous cliquez sur l’onglet **Quelles sont les nouveautés** d’une carte de visite, affiche des informations relatives à cette personne. 
+Vous pouvez utiliser la carte de visite dans les scénarios de collaboration dans les applications Office pour en savoir plus sur les personnes avec lesquelles vous collaborez. Les exemples de ces scénarios incluent la messagerie dans Outlook et la co-création d'un document dans Word. Lorsque vous cliquez sur l'onglet **Nouveautés** d'une carte de visite, le affiche des informations sur cette personne. 
   
-Le volet personnes Outlook affiche des informations sur une personne qui peut être un expéditeur ou un destinataire d’un élément Outlook que vous avez sélectionné. Lorsque vous sélectionnez une autre personne dans le volet personnes ou un autre élément dans l’Explorateur Outlook, ou ouvrez un élément Outlook dans un inspecteur, l’Outlook Social Connector (OSC) actualise le volet personnes. 
+Le volet de contacts Outlook affiche des informations sur une personne qui peut être l'expéditeur ou le destinataire d'un élément Outlook que vous avez sélectionné. Lorsque vous sélectionnez une autre personne dans le volet contacts ou un autre élément de l'explorateur Outlook, ou si vous ouvrez un élément Outlook dans un inspecteur, Outlook Social Connector (OSC) actualise le volet personnes. 
   
-Pour la carte de visite ou le volet personnes afficher les informations en cours de la personne sélectionnée, le OSC synchronise ces informations via les fournisseurs OSC et qu’une forme de mise en cache. Cette synchronisation varie selon les fournisseurs OSC qui sont installés sur l’ordinateur client, que vous avez connecté grâce à leurs fournisseurs OSC et le mode de synchronisation que chacun des fournisseurs OSC social ces réseaux prend en charge les réseaux sociaux.
+Pour que la carte de visite ou le volet personnes affiche les informations actuelles de la personne sélectionnée, le OSC synchronise ces informations par le biais des fournisseurs OSC et d'une mise en cache. Cette synchronisation dépend des fournisseurs OSC installés sur l'ordinateur client, des réseaux sociaux sur lesquels vous avez ouvert une session via leurs fournisseurs OSC et du mode de synchronisation pris en charge par chacun des fournisseurs OSC.
   
-L’OSC prend en charge amis, non amis et des activités de synchronisation pour vos amis et non amis de différentes manières : mis en cache de la synchronisation, la synchronisation de la demande et la synchronisation hybride. La différence principale entre ces modes de synchronisation est où l’OSC stocke les données, s’il s’agit d’un dossier dans le magasin d’Outlook par défaut de l’utilisateur, ou dans la mémoire sur l’ordinateur de l’utilisateur. Dans chaque cas comme indiqué précédemment dans cette rubrique, il existe une durée minimale par défaut que les données demeurent dans la mémoire ou le dossier avant l’actualisation des données. Dans certains cas, la quantité minimale de temps peut être personnalisée par la stratégie de groupe. Pour plus d’informations sur les stratégies de groupe qui contrôlent le comportement de l’OSC, voir [comment gérer Outlook Social Connector à l’aide de la stratégie de groupe](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103).
+Le OSC prend en charge la synchronisation des amis, des amis et des activités pour les amis et les non Friends de différentes façons: la synchronisation mise en cache, la synchronisation à la demande et la synchronisation hybride. La principale différence entre ces modes de synchronisation est l'emplacement où OSC stocke les données, qu'il s'agisse d'un dossier dans la Banque Outlook par défaut de l'utilisateur ou de la mémoire sur l'ordinateur de l'utilisateur. Dans chaque cas, comme indiqué dans cette rubrique, il existe une durée minimale par défaut pendant laquelle les données demeurent dans le dossier ou la mémoire avant l'actualisation des données. Dans certains cas, la durée minimale peut être personnalisée par la stratégie de groupe. Pour plus d'informations sur les stratégies de groupe qui contrôlent le comportement du OSC, voir [Comment gérer Outlook Social Connector à l'aide](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)de la stratégie de groupe.
   
-Notez que si la personne sélectionnée n’est pas un membre du réseau social, l’OSC n’affiche aucune information personne ou une activité pour cette personne dans la carte de visite ou le volet personnes.
+Notez que si la personne sélectionnée n'est pas membre du réseau social, le OSC n'affiche pas d'informations sur la personne ou l'activité de cette personne dans la carte de visite ou dans le volet des personnes.
   
-## <a name="cached-synchronization"></a>Synchronisation mis en cache
+## <a name="cached-synchronization"></a>Synchronisation mise en cache
 
-Un fournisseur OSC peut stocker des informations pour vos amis sur le réseau social dans un dossier spécifique sur le magasin d’Outlook par défaut de l’utilisateur et mettre régulièrement à jour ce cache après qu’un laps de temps spécifié a expiré. La mise en cache des informations dans un dossier a l’avantage de réduire le trafic vers le réseaux sociaux.
+Un fournisseur OSC peut stocker des informations pour les amis sur le réseau social dans un dossier spécifique sur le magasin Outlook par défaut de l'utilisateur et mettre à jour régulièrement ce cache une fois qu'une durée spécifiée a expiré. La mise en cache des informations dans un dossier présente l'avantage de réduire le trafic vers le réseau social.
   
 > [!NOTE]
-> Démarrage d’Outlook Social Connector 2013, l’OSC ne gère plus mis en cache de synchronisation des activités. 
+> À partir d'Outlook Social Connector 2013, le OSC ne prend plus en charge la synchronisation mise en cache des activités. 
   
-### <a name="cached-synchronization-of-friends"></a>Synchronisation de mise en cache d’amis
+### <a name="cached-synchronization-of-friends"></a>Synchronisation des amis mise en cache
 
-Si un fournisseur OSC prend en charge la mise en cache de la synchronisation pour vos amis, le OSC met en cache pour vos amis de l’utilisateur connecté sur le réseau social. Les informations sont mis en cache dans un dossier de contacts Outlook qui est spécifique à ce réseau social dans le magasin d’Outlook par défaut de l’utilisateur. Le nom du dossier contacts est basé sur le nom de réseau social, qui le OSC obtienne à l’aide de la propriété [ISocialProvider::SocialNetworkName](isocialprovider-socialnetworkname.md) . 
+Si un fournisseur OSC prend en charge la synchronisation mise en cache pour les amis, le OSC met en cache les informations des amis de l'utilisateur connecté sur le réseau social. Les informations sont mises en cache dans un dossier de contacts Outlook qui est propre à ce réseau social dans la Banque Outlook par défaut de l'utilisateur. Le nom du dossier contacts est basé sur le nom du réseau social, que l'OSC obtient à l'aide de la propriété [ISocialProvider:: SocialNetworkName](isocialprovider-socialnetworkname.md) . 
   
-Synchronisation mis en cache, de l’OSC stocke des informations pour seulement vos amis connecté l’utilisateur sur le réseau social. Informations pour non amis n’ont pas accès l’OSC.
+Dans la synchronisation mise en cache, OSC stocke les informations des amis de l'utilisateur connecté uniquement sur le réseau social. Le OSC n'accède pas aux informations pour les non-Friends.
   
-L’intervalle par défaut pour l’OSC actualiser le dossier contacts pour les informations de vos amis à partir du réseau social est une fois par jour (ou une fois par 1 440 minutes). Cet intervalle d’actualisation peut également être définie par la stratégie de groupe, comme indiqué au début de cette rubrique.
+L'intervalle par défaut de l'option OSC pour actualiser le dossier de contacts pour les informations des amis à partir du réseau social est une fois par jour (ou une fois par 1440 minutes). Cet intervalle d'actualisation peut également être défini par la stratégie de groupe, comme indiqué au début de cette rubrique.
   
-Si une erreur se produit au cours d’une actualisation, l’OSC réessayer à un intervalle spécifié par l’élément **contactSyncRestartInterval** dans le XML des **fonctionnalités** . Cet intervalle entre tentatives a une valeur par défaut de 30 minutes et peut également être défini par la stratégie de groupe. 
+Si une erreur se produit lors d'une actualisation, l'objet OSC effectue une nouvelle tentative à un intervalle spécifié par l'élément **contactSyncRestartInterval** dans le code XML **Capabilities** . Cette nouvelle tentative a une valeur par défaut de 30 minutes et peut également être définie par la stratégie de groupe. 
   
-Lorsqu’un utilisateur ouvre une carte de visite et sélectionne l’onglet **Quelles sont les nouveautés** , l’onglet **Nouveautés** actualise. De même, lorsqu’un utilisateur Outlook sélectionne un élément dans Outlook à nouveau ou sélectionne à nouveau une personne dans le volet personnes, le volet personnes est actualisée. Si l’intervalle d’actualisation du cache n’a pas expiré, l’OSC accède au cache pour obtenir des informations de l’utilisateur sélectionné. Cela évite d’accéder au réseau social à l’aide de l’extensibilité de fournisseur OSC. Si l’intervalle d’actualisation a expiré, l’OSC appelle la méthode [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) pour obtenir des informations de vos amis en cours de l’utilisateur connecté et met à jour le cache dans le dossier contacts. 
+Lorsqu'un utilisateur ouvre une carte de visite et clique sur l'onglet **what's New** , l'onglet **what's New est** actualisé. De même, lorsqu'un utilisateur d'Outlook sélectionne un élément dans Outlook ou resélectionne une personne dans le volet personnes, le volet personnes est actualisé. Si l'intervalle d'actualisation du cache n'a pas expiré, le OSC accède au cache pour obtenir des informations sur l'utilisateur sélectionné. Cela évite l'utilisation de l'extensibilité du fournisseur OSC pour accéder au réseau social. Si l'intervalle d'actualisation a expiré, le OSC appelle la méthode [ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) pour obtenir les informations des amis actuelles de l'utilisateur connecté et met à jour le cache dans le dossier contacts. 
   
-Le fournisseur OSC informe l’OSC qu’il prend en charge synchronisation mise en cache d’amis en spécifiant les éléments suivants dans le XML des **fonctionnalités** : 
+Le fournisseur OSC informe OSC qu'il prend en charge la synchronisation mise en cache des amis en spécifiant les éléments suivants dans les **fonctionnalités** XML: 
   
 - **getFriends** = **true**
     
@@ -56,25 +56,25 @@ Le fournisseur OSC informe l’OSC qu’il prend en charge synchronisation mise 
     
 - **dynamicContactsLookup** = **false**
     
-## <a name="on-demand-synchronization"></a>Synchronisation de la demande
+## <a name="on-demand-synchronization"></a>Synchronisation à la demande
 
-Lorsqu’un utilisateur sélectionne l’onglet **Quelles sont les nouveautés** dans une carte de visite, ou un autre élément Outlook ou une autre personne dans le volet personnes dans Outlook, l’OSC actualise respectivement la carte de visite ou le volet personnes. Si un fournisseur OSC prend en charge la synchronisation à la demande des personnes ou des activités, l’OSC se synchronise avec un cache en mémoire et met à jour les détails, tels que le nom, titre, des images et flux d’activité, sur la carte de visite ou le volet personnes. Pour la synchronisation de la demande, contrairement à la synchronisation mis en cache, l’OSC tente d’actualiser les informations de la personne que cette personne soit un ami ou un autre ami de l’utilisateur connecté sur le réseau social. 
+Lorsqu'un utilisateur clique sur l'onglet **what's New** dans une carte de visite, ou sélectionne un autre élément Outlook ou une autre personne dans le volet de personnes dans Outlook, le OSC actualise respectivement le volet de la carte de visite ou des personnes. Si un fournisseur OSC prend en charge la synchronisation à la demande de personnes ou d'activités, le OSC se synchronise avec un cache en mémoire et met à jour les détails, tels que le nom, le titre, l'image et les flux d'activité, sur la carte de visite ou le volet des personnes. Pour la synchronisation à la demande, contrairement à la synchronisation mise en cache, OSC tente d'actualiser les informations de la personne, que cette personne soit un ami ou non Friend de l'utilisateur connecté sur le réseau social. 
   
-Données personne (ou une activité) de la demande sont stockées en mémoire uniquement. Les données en mémoire sont désactivées lors de l’application cliente Office s’arrête, ou l’utilisateur entraîne une actualisation de la carte de visite ou le volet personnes et les données sont resté en mémoire pendant plus de l’intervalle d’actualisation. Notez que l’actualisation à partir du réseau social est toujours initiée par un utilisateur de l’actualisation de la carte de visite ou le volet personnes, (par exemple, en sélectionnant un autre utilisateur dans le volet personnes, ou en sélectionnant un autre élément dans la fenêtre de l’Explorateur Outlook). 
+Les données de personne à la demande (ou activité) sont stockées en mémoire uniquement. Les données en mémoire sont effacées lorsque l'application cliente Office s'arrête, ou l'utilisateur provoque une actualisation de la carte de visite ou du volet personnes et les données sont restées en mémoire pendant plus longtemps que l'intervalle d'actualisation. Notez que l'actualisation à partir du réseau social est toujours lancée par un utilisateur actualisant la carte de visite ou le volet personnes (par exemple, en sélectionnant un autre utilisateur dans le volet personnes ou en sélectionnant un autre élément dans la fenêtre de l'explorateur Outlook). 
 
-Toutefois, l’inverse n’est pas toujours true, non à chaque actualisation de la carte de visite ou le volet personnes implique nécessairement une actualisation à partir du réseau social. Si l’utilisateur actualise la carte de visite ou données volet personnes et la personne (ou une activité) sont resté en mémoire pendant plus de l’intervalle d’actualisation, l’OSC appelle [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md) (ou [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md)) à mettre à jour les informations en mémoire à partir du réseau social. La période autorisée pour plus d’informations ami et non ami en mémoire est de 24 heures et activités, 30 minutes. 
+Toutefois, l'inverse n'est pas toujours true (toutes les actualisations de la carte de visite ou du volet des personnes n'entraînent pas nécessairement une actualisation à partir du réseau social). Si l'utilisateur actualise la carte de visite ou le volet de personnes, et que les données de personne (ou d'activité) sont restées en mémoire pendant plus longtemps que l'intervalle d'actualisation, le OSC appelle [ISocialSession2:: GetPeopleDetails](isocialsession2-getpeopledetails.md) (ou [ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md)) pour Mettez à jour les informations en mémoire à partir du réseau social. La période autorisée pour les informations Friend et non Friend en mémoire est de 24 heures, et pour les activités, 30 minutes. 
   
-Une des différences importantes entre synchronisation mis en cache et la demande sont que la synchronisation de la demande peut extraire les informations d’activité et de la personne d’amis et non amis sur le réseau. Si la personne sélectionnée est un ami-non, l’OSC actualise les informations et les activités correspondant à cette personne si une des conditions suivantes est remplie : 
+Une différence importante entre la synchronisation à la demande et la mise en cache est que la synchronisation à la demande peut extraire des informations de personne et d'activité pour des amis et des non-Friends sur le réseau. Si la personne sélectionnée n'est pas un ami, le OSC actualise les informations et les activités de cette personne si l'une des conditions suivantes est remplie: 
   
-- La personne est un utilisateur sur le réseau social et permet l’affichage public des informations de profil et son activité.
+- La personne est un utilisateur du réseau social et permet la consultation publique des informations de profil et d'activité.
     
-- La personne est dans le même réseau que l’utilisateur connecté sur ce réseau social (par exemple, dans le même réseau anciens élèves université).
+- La personne se trouve sur le même réseau que l'utilisateur connecté sur ce réseau social (par exemple, dans le même réseau pour l'Université Alumni).
     
-Synchronisation de la demande des personnes et des activités génère plus d’appels au fournisseur à partir du moteur de base OSC. Les réseaux sociaux doivent être en mesure de gérer la bande passante accrue de la synchronisation de la demande.
+La synchronisation à la demande de personnes et d'activités entraîne un plus grand nombre d'appels au fournisseur à partir du moteur de base OSC. Les réseaux sociaux doivent être en mesure de prendre en charge les besoins accrus de bande passante de la synchronisation à la demande.
   
-### <a name="specifying-xml-elements-for-on-demand-synchronization"></a>Spécification des éléments XML pour la synchronisation de la demande
+### <a name="specifying-xml-elements-for-on-demand-synchronization"></a>Spécification des éléments XML pour la synchronisation à la demande
 
-Le fournisseur OSC informe l’OSC qu’elle prend en charge la synchronisation de la demande d’amis et non amis en spécifiant les éléments suivants dans le XML des **fonctionnalités** : 
+Le fournisseur OSC informe OSC qu'il prend en charge la synchronisation à la demande des amis et des non-amis en spécifiant les éléments suivants dans les **fonctionnalités** XML: 
   
 - **getFriends** = **true**
     
@@ -82,9 +82,9 @@ Le fournisseur OSC informe l’OSC qu’elle prend en charge la synchronisation 
     
 - **dynamicContactsLookup** = **true**
     
-Le fournisseur OSC informe l’OSC qu’il prend en charge à la demande sur la synchronisation des activités en spécifiant les éléments suivants dans le XML des **fonctionnalités** : 
+Le fournisseur OSC informe OSC qu'il prend en charge la synchronisation à la demande des activités en spécifiant les éléments suivants dans les **fonctionnalités** XML: 
   
-- **getActivities** = **true**
+- **GetActivities** = **true**
     
 - **cacheActivities** = **false**
     
@@ -92,20 +92,20 @@ Le fournisseur OSC informe l’OSC qu’il prend en charge à la demande sur la 
     
 ## <a name="hybrid-synchronization"></a>Synchronisation hybride
 
-Un fournisseur OSC peut prendre en charge la synchronisation hybride des amis et non amis. Cela permet d’optimiser les appels entre le moteur de base OSC et le fournisseur OSC, les appels au réseau social pour la synchronisation de la demande de vos amis et la devise de données des amis. La durée minimale que les données peuvent rester dans un dossier ou de la mémoire, le cas échéant, est la même que les limites dans les modes de synchronisation mis en cache ou à la demande.
+Un fournisseur OSC peut prendre en charge la synchronisation hybride d'amis et de non-amis. Cela permet d'optimiser les appels entre le moteur de base OSC et le fournisseur OSC, les appels vers le réseau social pour la synchronisation à la demande des amis et la devise des données des amis. La durée minimale pendant laquelle les données peuvent rester dans un dossier ou une mémoire, le cas échéant, sont identiques à celles des modes de synchronisation à la demande ou mis en cache.
   
 > [!NOTE]
-> Démarrage dans Outlook Social Connector 2013, l’OSC prend en charge uniquement la demande synchronisation des activités et ne prend en charge la synchronisation hybride d’activités. 
+> À partir d'Outlook Social Connector 2013, le OSC prend en charge uniquement la synchronisation à la demande des activités et ne prend plus en charge la synchronisation hybride des activités. 
   
-### <a name="hybrid-synchronization-of-friends-and-non-friends"></a>Synchronisation hybride des amis et non amis
+### <a name="hybrid-synchronization-of-friends-and-non-friends"></a>Synchronisation hybride d'amis et de non-amis
 
-Si un fournisseur OSC prend en charge la synchronisation hybride des amis et non amis, l’OSC effectue les opérations suivantes : 
+Si un fournisseur OSC prend en charge la synchronisation hybride des amis et des non-amis, le OSC effectue les opérations suivantes: 
   
-- L’OSC stocke des informations pour vos amis de l’utilisateur connecté dans le dossier contact spécifiques du réseau social.
+- OSC stocke des informations pour les amis de l'utilisateur connecté dans le dossier de contacts spécifique au réseau social.
     
-- L’OSC stocke des informations pour non amis de l’utilisateur connecté en mémoire.
+- OSC stocke des informations pour les non-amis de l'utilisateur connecté en mémoire.
     
-Le fournisseur OSC informe l’OSC qu’elle prend en charge la synchronisation hybride d’amis et non amis en spécifiant les éléments suivants dans le XML des **fonctionnalités** : 
+Le fournisseur OSC informe OSC qu'il prend en charge la synchronisation hybride des amis et des non-amis en spécifiant les éléments suivants dans les **fonctionnalités** XML: 
   
 - **getFriends** = **true**
     
@@ -115,30 +115,30 @@ Le fournisseur OSC informe l’OSC qu’elle prend en charge la synchronisation 
     
 ## <a name="synchronization-intervals"></a>Intervalles de synchronisation
 
-Le tableau suivant récapitule les intervalles de synchronisation pour vos amis et informations non amis entre le cache correspondant (dossier ou la mémoire) et le réseaux sociaux, selon le mode de synchronisation pris en charge. Pour le mode de synchronisation hybride, consultez les lignes pour le mode mis en cache pour vos amis et la ligne pour le mode de la demande pour non amis.
+Le tableau suivant récapitule les intervalles de synchronisation pour les informations des amis et des non-amis entre le cache correspondant (dossier ou mémoire) et le réseau social, en fonction du mode de synchronisation pris en charge. Pour le mode de synchronisation hybride, reportez-vous aux lignes correspondant au mode mis en cache pour les amis et à la ligne du mode à la demande pour les non-amis.
   
-|**Mode de synchronisation de personnes**|**Où intervalle d’actualisation est défini**|**Durée minimale par défaut avant l’actualisation**|**Remplacer la stratégie de groupe**|
+|**Mode de synchronisation pour les personnes**|**Où l'intervalle d'actualisation est défini**|**Durée minimale par défaut avant actualisation**|**Remplacement de la stratégie de groupe**|
 |:-----|:-----|:-----|:-----|
-|Mise en cache  <br/> |Définies dans OSC  <br/> |1440 minutes (24 heures)  <br/> |Valeur de Registre Windows **NetContactSyncInterval** <br/> |
-|Mise en cache  <br/> |élément **contactSyncRestartInterval** de **fonctionnalités** XML  <br/> |30 minutes si **contactSyncRestartInterval** n’est pas définie.  <br/> |Valeur de Registre Windows **contactSyncRestartInterval** <br/> |
-|À la demande  <br/> |Définies dans OSC  <br/> |1440 minutes (24 heures)  <br/> |Valeur de Registre Windows **OnlineSearchExpiryTime** <br/> |
+|Mise en cache  <br/> |Défini dans OSC  <br/> |1440 minutes (24 heures)  <br/> |Valeur de Registre Windows **NetContactSyncInterval** <br/> |
+|Mise en cache  <br/> |élément **contactSyncRestartInterval** dans les **fonctionnalités** XML  <br/> |30 minutes si **contactSyncRestartInterval** n'est pas défini  <br/> |Valeur de Registre Windows **contactSyncRestartInterval** <br/> |
+|À la demande  <br/> |Défini dans OSC  <br/> |1440 minutes (24 heures)  <br/> |Valeur de Registre Windows **OnlineSearchExpiryTime** <br/> |
    
-Le tableau suivant récapitule les intervalles de la synchronisation des activités des amis et non amis entre le cache correspondant (dossier ou la mémoire) et le réseaux sociaux, selon les modes de synchronisation pris en charge. 
+Le tableau suivant récapitule les intervalles de synchronisation pour les activités des amis et des non-amis entre le cache correspondant (dossier ou mémoire) et le réseau social, en fonction des modes de synchronisation pris en charge. 
   
-|**Mode de synchronisation pour les activités**|**Où intervalle d’actualisation est défini**|**Durée minimale par défaut avant l’actualisation**|**Remplacer la stratégie de groupe**|
+|**Mode de synchronisation pour les activités**|**Où l'intervalle d'actualisation est défini**|**Durée minimale par défaut avant actualisation**|**Remplacement de la stratégie de groupe**|
 |:-----|:-----|:-----|:-----|
-|À la demande  <br/> |Définies dans OSC  <br/> |30 minutes  <br/> |Valeur de Registre Windows **OnlineSearchExpiryTime** <br/> |
+|À la demande  <br/> |Défini dans OSC  <br/> |30 minutes  <br/> |Valeur de Registre Windows **OnlineSearchExpiryTime** <br/> |
    
-Les informations suivantes s’applique aux valeurs de Registre Windows répertoriés dans les deux tables :
+Les informations suivantes s'appliquent aux valeurs du Registre Windows indiquées dans les deux tableaux:
   
-- Clé :`HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Outlook\SocialConnector`
+- Flèche`HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Outlook\SocialConnector`
     
-- : Valeur valeur DWORD comprise entre 1 et 10080
+- Valeur: valeur DWORD comprise entre 1 et 10080
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Exemple de code XML des fonctionnalités](capabilities-xml-example.md)  
-- [Fichier XML pour les fonctionnalités](xml-for-capabilities.md)
+- [Exemple de XML de fonctionnalités](capabilities-xml-example.md)  
+- [XML pour les fonctionnalités](xml-for-capabilities.md)
 - [Développement d'un fournisseur avec le schéma XML OSC](developing-a-provider-with-the-osc-xml-schema.md)  
-- [Comment faire pour gérer Outlook Social Connector à l’aide de la stratégie de groupe](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [Comment gérer Outlook Social Connector à l'aide de la stratégie de groupe](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

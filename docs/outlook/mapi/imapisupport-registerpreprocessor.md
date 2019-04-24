@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b5659ab-2b49-41ab-92ce-ca343e35d670
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 87f5e3f159542359f614a6ab698e6f06a2faf41a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 58215de6cc4e9e68386f8f017839752acc6e1753
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326564"
 ---
 # <a name="imapisupportregisterpreprocessor"></a>IMAPISupport::RegisterPreprocessor
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567915"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Enregistre la fonction préprocesseur d’un fournisseur de transport (une fonction qui est conforme au prototype [PreprocessMessage](preprocessmessage.md) ). 
+Enregistre la fonction de préprocesseur d'un fournisseur de transport (fonction conforme au prototype [PreprocessMessage](preprocessmessage.md) ). 
   
 ```cpp
 HRESULT RegisterPreprocessor(
@@ -42,45 +42,45 @@ ULONG ulFlags
 
  _lpMuid_
   
-> [in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur qui gère la fonction préprocesseur. Le paramètre _lpMuid_ peut être NULL. 
+> dans Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l'identificateur géré par la fonction de préprocesseur. Le paramètre _lpMuid_ peut être null. 
     
  _lpszAdrType_
   
-> [in] Un pointeur vers le type d’adresse pour les messages de la fonction fonctionne, telles que télécopie, SMTP ou X500. Le paramètre _lpszAdrType_ peut être NULL. 
+> dans Pointeur vers le type d'adresse pour les messages sur lesquels la fonction fonctionne, comme FAX, SMTP ou X500. Le paramètre _lpszAdrType_ peut être null. 
     
  _lpszDLLName_
   
-> [in] Pointeur vers le nom de la bibliothèque de liens dynamiques (DLL) qui contient le point d’entrée de la fonction préprocesseur.
+> dans Pointeur vers le nom de la bibliothèque de liens dynamiques (DLL) qui contient le point d'entrée de la fonction de préprocesseur.
     
  _lpszPreprocess_
   
-> [in] Pointeur vers le nom de la fonction préprocesseur. Le paramètre _lpszPreprocess_ peut être NULL. 
+> dans Pointeur vers le nom de la fonction de préprocesseur. Le paramètre _lpszPreprocess_ peut être null. 
     
  _lpszRemovePreprocessInfo_
   
-> [in] Pointeur vers le nom de la fonction qui supprime les informations du préprocesseur (une fonction qui est conforme au prototype [RemovePreprocessInfo](removepreprocessinfo.md) ). Le paramètre _lpszRemovePreprocessInfo_ peut être NULL. 
+> dans Pointeur vers le nom de la fonction qui supprime les informations du préprocesseur (fonction conforme au prototype [RemovePreprocessInfo](removepreprocessinfo.md) ). Le paramètre _lpszRemovePreprocessInfo_ peut être null. 
     
  _ulFlags_
   
-> Réservé ; doit être égal à zéro.
+> MSR doit être égal à zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La fonction préprocesseur a été enregistrée avec succès.
+> La fonction de préprocesseur a été correctement inscrite.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::RegisterPreprocessor** est implémentée pour les objets de prise en charge des fournisseur de transport uniquement. Fournisseurs de transport appellent **RegisterPreprocessor** pour enregistrer une fonction préprocesseur (une fonction qui est conforme au prototype [PreprocessMessage](preprocessmessage.md) ). Une fonction préprocesseur doit être enregistrée avant le spouleur MAPI permettre appeler. 
+La méthode **IMAPISupport:: RegisterPreprocessor** est implémentée uniquement pour les objets de prise en charge du fournisseur de transport. Les fournisseurs de transport appellent **RegisterPreprocessor** pour enregistrer une fonction de préprocesseur (fonction conforme au prototype [PreprocessMessage](preprocessmessage.md) ). Une fonction de préprocesseur doit être enregistrée avant que le spouleur MAPI puisse l'appeler. 
   
-Les paramètres _lpszPreprocess_, _lpszRemovePreprocessInfo_et _lpszDLLName_ doivent tous pointer les chaînes qui peuvent être utilisées conjointement avec les appels à la fonction Win32 **GetProcAddress** , ce qui permet DLL du préprocesseur point d’entrée appelé correctement. 
+Les paramètres _lpszPreprocess_, _lpszRemovePreprocessInfo_et _lpszDLLName_ doivent tous pointer vers des chaînes qui peuvent être utilisées conjointement avec des appels à la fonction **GETPROCADDRESS** Win32, ce qui permet la dll du préprocesseur. le point d'entrée doit être appelé correctement. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Les appels vers Préprocesseurs sont spécifiques à l’ordre des fournisseurs de transport. Cela signifie que si un autre fournisseur de transport à votre fournisseur est en mesure de gérer un message, votre fonction préprocesseur ne sera pas appelée pour ce message. Votre fonction préprocesseur être appelée uniquement pour les messages que vous allez gérer.
+Les appels vers des préprocesseurs sont propres à l'ordre des fournisseurs de transport. Cela signifie que si un autre fournisseur de transport devant votre fournisseur est en mesure de gérer un message, votre fonction de préprocesseur ne sera pas appelée pour ce message. Votre fonction de préprocesseur est appelée uniquement pour les messages que vous allez gérer.
   
-Vous pouvez écrire des fonctions préprocesseur pour gérer un identificateur spécifique que stocké dans une structure [MAPIUID](mapiuid.md) ou un type d’adresse. Si vous spécifiez à la fois une structure **MAPIUID** dans le paramètre _lpMuid_ et un type d’adresse dans le paramètre _lpszAdrType_ , votre fonction sera appelée pour les destinataires du message qui correspondent à la **MAPIUID** ou le type d’adresse. Si _lpMuid_ a la valeur NULL et _lpszAdrType_ n’est pas NULL, votre fonction sera appelée uniquement pour les destinataires auxquels une adresse qui correspond au type désigné par _lpszAdrType_. Si _lpMuid_ n’est pas NULL et _lpszAdrType_ est NULL, votre fonction sera appelée pour des destinataires qui correspondent à **MAPIUID**, quel que soit leur type d’adresse. Si les deux sont NULL, la fonction est appelée pour tous les destinataires du message.
+Vous pouvez écrire des fonctions de préprocesseur pour gérer un identificateur spécifique stocké dans une structure [MAPIUID](mapiuid.md) ou un type d'adresse. Si vous spécifiez une structure **MAPIUID** dans le paramètre _lpMuid_ et un type d'adresse dans le paramètre _lpszAdrType_ , votre fonction sera appelée pour les destinataires du message qui correspondent à l' **MAPIUID** ou au type d'adresse. Si _lpMuid_ est null et _LPSZADRTYPE_ est non null, votre fonction est appelée uniquement pour les destinataires ayant une adresse correspondant au type désigné par _lpszAdrType_. Si _lpMuid_ est non null et _lpszAdrType_ est null, la fonction est appelée pour les destinataires qui correspondent à **MAPIUID**, quel que soit leur type d'adresse. Si les deux valeurs sont NULL, la fonction est appelée pour tous les destinataires du message.
   
 ## <a name="see-also"></a>Voir aussi
 

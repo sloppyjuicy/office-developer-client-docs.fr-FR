@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a07c0ee3-f6f9-4ae3-81c0-accc939ca99a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 12bf24cc120a628559d1523405e27bbad3f1f8f0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8b0b55b5a769ea47c622e3e29e873afb1220dd5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326627"
 ---
 # <a name="pidtagautoforwardcomment-canonical-property"></a>Propriété canonique PidTagAutoForwardComment
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un commentaire ajouté par l’agent de transfert automatique.
+Contient un Commentaire ajouté par l'agent de transfert automatique.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Contient un commentaire ajouté par l’agent de transfert automatique.
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Rapports généraux  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

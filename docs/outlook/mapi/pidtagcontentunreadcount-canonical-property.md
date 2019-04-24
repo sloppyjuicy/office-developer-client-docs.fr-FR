@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 9572a053182aaa59020a6816736b8a4b92e778b7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331870"
 ---
 # <a name="pidtagcontentunreadcount-canonical-property"></a>Propriété canonique PidTagContentUnreadCount
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nombre de messages non lus dans un dossier, calculé par la banque de messages. 
+Contient le nombre de messages non lus dans un dossier, tel que calculé par la Banque de messages. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient le nombre de messages non lus dans un dossier, calculé par la banque d
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété calculée par la banque de messages est utilisée pour les deux, même si associées, à des fins. Dans un objet de dossier MAPI, il contient le nombre de messages dans un dossier. Dans une ligne d’en-tête dans les tableaux MAPI par catégorie, il contient le nombre de messages non lus non associés dans les catégories correspondant à cette ligne d’en-tête.
+Cette propriété calculée par la Banque de messages est utilisée pour deux opérations différentes, bien qu'associées. Sur un objet de dossier MAPI, il contient le nombre de messages dans un dossier. Dans une ligne d'en-tête dans les tables MAPI classées, il contient le nombre de messages non associés non associés dans la catégorie correspondant à la ligne d'en-tête.
   
-Cette propriété contient le nombre de messages dans le tableau contenu de dossier pour lequel l’indicateur MSGFLAG_READ n’est pas définie dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). La propriété **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) contient le nombre total de messages pour le dossier. Le **PR_CONTENT_COUNT** et cette propriété sont en lecture seule aux clients. 
+Cette propriété contient le nombre de messages dans la table de contenu de dossier pour lesquels l'indicateur MSGFLAG_READ n'est pas défini dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). La propriété **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) contient le nombre total de messages pour le dossier. Les **PR_CONTENT_COUNT** et cette propriété sont en lecture seule pour les clients. 
   
-Certaines applications clientes affichent la ligne d’en-tête d’une catégorie différemment selon la valeur de cette propriété. Par exemple, un client peut afficher une catégorie qui inclut des messages non lus en gras. Cette propriété ne peut pas être utilisée comme une catégorie et une tentative pour cela se traduit par la valeur MAPI_E_INVALID_PARAMETER est renvoyé par la méthode [IMAPITable::SortTable](imapitable-sorttable.md) . 
+Certaines applications clientes affichent différemment la ligne d'en-tête d'une catégorie en fonction de la valeur de cette propriété. Par exemple, un client peut afficher en gras une catégorie qui inclut les messages non lus. Cette propriété ne peut pas être utilisée en tant que catégorie et une tentative de le faire entraîne le renvoi de la valeur MAPI_E_INVALID_PARAMETER à partir de la méthode [IMAPITable:: SortTable](imapitable-sorttable.md) . 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole connexes Microsoft Exchange Server.
+> Fournit des références aux spécifications de protocole Microsoft Exchange Server connexes.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -56,17 +56,17 @@ Certaines applications clientes affichent la ligne d’en-tête d’une catégor
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclut les opérations autorisées pour les objets de la table principale.
+> Inclut les opérations admissibles pour les objets de la table principale.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

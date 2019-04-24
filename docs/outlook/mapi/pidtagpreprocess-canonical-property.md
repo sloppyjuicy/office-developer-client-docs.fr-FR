@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: c59a6ce9-6b1f-4395-961e-c3af2945f05e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cfbeb6c60069d57d9a42082e80b2a45fd3410767
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d573916682e4857b367a898d22f2cff5af47ef27
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327222"
 ---
 # <a name="pidtagpreprocess-canonical-property"></a>Propriété canonique PidTagPreprocess
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si le message nécessite un prétraitement.
+Contient la valeur TRUE si le message doit être prétraité.
   
 |||
 |:-----|:-----|
@@ -37,19 +37,19 @@ Contient la valeur TRUE si le message nécessite un prétraitement.
 ## <a name="remarks"></a>Remarques
 
 > [!IMPORTANT]
-> N’utilisez pas cette propriété. Il est réservé pour une utilisation par MAPI. 
+> N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d291777e-c0c6-4de2-9bf5-5c1d95f3db6c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 806ce556d77d704a1da866c6c69363cb59bd1c7d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 74ae66a4f9b8eb1c80251009441739efbd844901
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326662"
 ---
 # <a name="pidtagauthorizingusers-canonical-property"></a>Propriété canonique PidTagAuthorizingUsers
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’identificateurs d’entrée pour les utilisateurs qui autorisent l’envoi d’un message.
+Contient une liste d'identificateurs d'entrée pour les utilisateurs qui ont autorisé l'envoi d'un message.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une liste d’identificateurs d’entrée pour les utilisateurs qui aut
    
 ## <a name="remarks"></a>Remarques
 
-La banque de messages ne gère pas cette propriété.
+La Banque de messages ne gère pas cette propriété.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

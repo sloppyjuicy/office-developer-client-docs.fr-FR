@@ -1,5 +1,5 @@
 ---
-title: Section [Plates-formes] du fichier de configuration de formulaire
+title: Section [plateformes] du fichier de configuration de formulaire
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d86edfb6fcc72c5968a8ff5d9cd739e20e5dec43
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7439de5b91cefe89eba2f9395595d4a7c8ca3ec5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327509"
 ---
-# <a name="form-configuration-file-platforms-section"></a>Section [Plates-formes] du fichier de configuration de formulaire
+# <a name="form-configuration-file-platforms-section"></a>Section [plateformes] du fichier de configuration de formulaire
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[plateformes]** répertorie l’ensemble complet des plateformes prises en charge par ce formulaire. Chaque entrée de plateforme comprend le préfixe **plate-forme.** _chaîne_dans laquelle la _chaîne_ est un code de chaîne arbitraire pour la plateforme. Chaque chaîne correspond à l’entrée de **l’UC** de des sections **[plateformes]** . Chaque entrée dans la section **[plateformes]** définit une _chaîne de plateforme_ qui fait référence suivante **[plateforme.** _chaîne de plateforme_ section **]** comme indiqué ici. 
+La section **[Platforms]** répertorie l'ensemble complet des plateformes prises en charge par ce formulaire. Chaque entrée de plateforme se compose de la plateforme de préfixe **.** _String_, où _String_ est un code de chaîne arbitraire pour la plateforme. Chaque chaîne correspond à l'entrée **processeur** d'une section **[Platforms]** individuelle. Chaque entrée dans une section **[Platforms]** définit une _chaîne de plateforme_ qui fait référence à une nouvelle **[plateforme.** _chaîne de plateforme_ **]** , comme illustré ci-dessous. 
   
-La section **[plateformes]** répertorie l’ensemble complet des plateformes prises en charge par ce formulaire. Chaque entrée de plateforme comprend le préfixe **plate-forme.** _chaîne_dans laquelle la _chaîne_ est un code de chaîne arbitraire pour la plateforme. Chaque chaîne correspond à l’entrée de **l’UC** de des sections **[plateformes]** . Chaque entrée dans la section **[plateformes]** définit une _chaîne de plateforme_ qui fait référence suivante **[plateforme.** _chaîne de plateforme_ section **]** comme indiqué ici. 
+La section **[Platforms]** répertorie l'ensemble complet des plateformes prises en charge par ce formulaire. Chaque entrée de plateforme se compose de la plateforme de préfixe **.** _String_, où _String_ est un code de chaîne arbitraire pour la plateforme. Chaque chaîne correspond à l'entrée **processeur** d'une section **[Platforms]** individuelle. Chaque entrée dans une section **[Platforms]** définit une _chaîne de plateforme_ qui fait référence à une nouvelle **[plateforme.** _chaîne de plateforme_ **]** , comme illustré ci-dessous. 
   
-**[Plateformes]**
+**Formes**
   
-**Plateforme**. _chaîne_ =  _chaîne de plateforme_
+**Plateforme**. __ =  chaîne de_plateforme_ de chaîne
   
-Voici un exemple d’une section **[plateformes]** . 
+Voici un exemple de section **[Platforms]** . 
   
 ```cpp
 [Platforms]
@@ -36,43 +36,43 @@ Platform.2 = Win95
 
 ```
 
-Chaque **[plateforme.** _chaîne de plateforme_ section **]** contient deux entrées obligatoires, **l’UC** et **OSVersion**. L’entrée de **l’UC** Spécifie le processeur et l’entrée **OSVersion** Spécifie le système d’exploitation. Les valeurs de **processeur** valides sont décrits dans le tableau suivant. 
+Chaque **[plateforme.** _chaîne de plateforme_ **]** contient les deux entrées requises, **CPU** et **OSVersion**. L'entrée **CPU** spécifie le processeur et l'entrée **OSVersion** indique le système d'exploitation. Les valeurs d' **UC** valides sont décrites dans le tableau suivant. 
   
-|**Entrée de l’UC**|**Processeur**|
+|**Entrée de l'UC**|**Processeur**|
 |:-----|:-----|
-|Ix86  <br/> |Intel x 86 80 et processeurs Pentium, ainsi qu’équivalentes processeurs AMD, Cyrix, NextGen et autres fabricants.  <br/> |
-|MIPS  <br/> |Processeurs MIPS R4000.  <br/> |
-|AXP  <br/> |Processeur d’équipement Corporation Alpha AXP numériques.  <br/> |
-|PPC  <br/> |Processeurs Motorola Power PC.  <br/> |
-|M68  <br/> |Processeurs Mororola 68 x 00.  <br/> |
+|Ix86  <br/> |Processeurs Intel 80x86 et Pentium, ainsi que les processeurs équivalents de AMD, Cyrix, NextGen et d'autres fabricants.  <br/> |
+|MAUX  <br/> |Processeurs MIPS R4000 Series.  <br/> |
+|PLAT  <br/> |Processeur Digital Equipment Corporation Alpha AXP.  <br/> |
+|CLIC  <br/> |Processeurs Motorola Power PC Series.  <br/> |
+|M68  <br/> |Processeurs mororola série 68x00.  <br/> |
    
-Les valeurs valides **OSVersion** sont décrits dans le tableau suivant. 
+Les valeurs valides pour **OSVersion** sont décrites dans le tableau suivant. 
   
 |**Entrée OSVersion**|**Système d'exploitation**|
 |:-----|:-----|
-|Win3.1  <br/> |Windows 3.1 et Windows pour les groupes de travail 3.11.  <br/> |
-|WinNT3.5  <br/> |Windows NT 3.5 ou inférieure.  <br/> |
-|Windows 95  <br/> |Windows 95.  <br/> |
-|WinNT4.0  <br/> |Windows NT 4.0.  <br/> |
-|Mac7  <br/> |Système Macintosh 7.  <br/> |
+|Win 3.1  <br/> |Windows 3,1 et Windows pour Workgroups 3,11.  <br/> |
+|WinNT 3.5  <br/> |Windows NT 3,5 ou inférieur.  <br/> |
+|95  <br/> |Windows 95.  <br/> |
+|WinNT 4.0  <br/> |Windows NT 4,0.  <br/> |
+|Mac7  <br/> |Macintosh système 7.  <br/> |
    
-En outre, le **[plateforme.** _chaîne de plateforme_ section **]** doit contenir un **fichier** ou un **liaisonavec** entrée. L’entrée de **fichier** répertorie le formulaire serveur application fichier exécutable qui la bibliothèque de formulaires gère et charge dans un nouveau sous-répertoire dans le cache disque lorsque le formulaire est lancé. Si une entrée **liaisonavec** est utilisée au lieu de cela, elle contient le nom d’une chaîne autre plate-forme d'où provient les informations du **fichier** . Cela est utile si une version d’un formulaire prend en charge plusieurs plates-formes. 
+En outre, **[Platform.** _chaîne de plateforme_ **]** doit contenir un **fichier** ou une entrée **LinkTo** . L'entrée de **fichier** répertorie le fichier exécutable de l'application serveur de formulaires que la bibliothèque de formulaires gère et charge dans un nouveau sous-répertoire du cache disque lors du lancement du formulaire. Si une entrée **LinkTo** est utilisée à la place, elle contient le nom d'une autre chaîne de plateforme à partir de laquelle les informations de **fichier** sont extraites. Cette fonctionnalité est utile si une version d'un formulaire prend en charge plusieurs plateformes. 
   
-L’entrée de **Registre** est utilisée chaque fois que l’entrée de **fichier** est utilisée, il identifie la clé de Registre pour la bibliothèque de formulaires où se trouve le fichier exécutable de l’application de serveur du formulaire. Chaînes précédés d’une barre oblique inverse (\) sont placés à la racine du Registre. Chaînes ne pas précédés d’une barre oblique inverse sont placés dans le _GUID_de HKEY_CLASSES_ROOT\CLSID\ \ clé de Registre, où _GUID_ est le **GUID** du formulaire. Les caractères « %d » peuvent être utilisés pour indiquer le chemin d’accès du répertoire à partir de laquelle le fichier de configuration de formulaire a été lu. Cela est utile pour spécifier d’autres fichiers avec les chemins d’accès par rapport au fichier de configuration de formulaire. Entrées de **Registre** ou de **Plusieurs fichiers** peuvent être spécifiées à l’aide du fichier ou dans le Registre comme préfixe suivi par n’importe quel autre texte. Le format de la **[plateforme.** _chaîne de plateforme_ section **]** est : 
+L'entrée de **Registre** est utilisée chaque fois que l'entrée de **fichier** est utilisée, elle identifie la clé de Registre pour la bibliothèque de formulaires dans laquelle le fichier exécutable de l'application form Server est stocké. Les chaînes précédées d'une barre oblique inverse (\) sont placées à la racine du Registre. Les chaînes qui ne sont pas précédées d'une barre oblique inverse sont placées dans la clé de Registre _GUID_HKEY_CLASSES_ROOT\CLSID\, où _GUID_ est le **GUID** du formulaire. Les caractères «% d» peuvent être utilisés pour indiquer le chemin d'accès du répertoire à partir duquel le fichier de configuration du formulaire a été lu. Cela est utile pour spécifier d'autres fichiers avec des chemins d'accès relatifs au fichier de configuration du formulaire. **Plusieurs** entrées de fichier ou de **registre** peuvent être spécifiées à l'aide du fichier ou du registre en tant que préfixe suivi de tout autre texte. Le format de la **[plateforme.** _chaîne de plateforme_ **]** est la suivante: 
   
-- **[Platform.** _chaîne de plateforme_ **]**
+- **Plateforme.** _chaîne de plateforme_ **]**
     
-- **Processeur** =  _chaîne_
+- **** =  _Chaîne_ d'UC
     
-- **OSVersion** =  _chaîne_
+- **** =  _Chaîne_ OSVersion
     
-- **Fichier** =  _chemin d’accès_
+- **** =  _Chemin d'accès_ du fichier
     
-- **Liaisonavec** =  _chaîne_
+- **** =  _Chaîne_ LinkTo
     
-- **Registre** =  _chaîne_
+- **** =  _Chaîne_ de Registre
   
-Voici deux exemples **[plateforme.** _chaîne de plateforme_ sections **]** , à l’aide de l’entrée de **fichier** et un à l’aide de l’entrée **liaisonavec** . 
+Voici deux exemples: **[Platform.** _chaîne de plateforme_ **]** , l'une à l'aide de l'entrée de **fichier** et l'autre à l'aide de l'entrée **LinkTo** . 
   
 ```cpp
 [Platform.NTx86]
@@ -87,6 +87,6 @@ LinkTo = NTx86
 
 ```
 
-Le **[plateforme.** _chaîne de plateforme_ section **]** est ignorée lorsque vous ajoutez un formulaire à la bibliothèque de formulaires local lorsqu’il est supposé que le programme d’installation a placé les fichiers constituant le Gestionnaire de classe de message dans le stockage local disponible en tant que nommé dans la section du gestionnaire dans le Registre OLE et effectué l’inscription OLE dans le Registre du système. 
+**[Platform.** _chaîne de plateforme_ **]** est ignorée lors de l'ajout d'un formulaire à la bibliothèque de formulaires locale, lorsqu'il est supposé que le programme d'installation a placé les fichiers constituant le gestionnaire de classe de message dans un stockage local disponible tel que nommé dans la section du gestionnaire dans le registre OLE, et a effectué enregistrement OLE dans le Registre du système. 
   
 

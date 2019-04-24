@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f0d34dd6-7ddb-4843-b848-c89923ff80cc
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 43916f540ca324059d53f0413105146985835ffe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8078d31af497a437c983da7447a0aebbdfb643fb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325675"
 ---
 # <a name="pidtagmessagedownloadtime-canonical-property"></a>Propriété canonique PidTagMessageDownloadTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la durée estimée pour télécharger un message à partir d’un serveur distant sur une banque de messages locale. 
+Contient la durée estimée de téléchargement d'un message à partir d'un serveur distant vers une banque de messages locale. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_DOWNLOAD_TIME  <br/> |
 |Identificateur :  <br/> |0x0E18  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est exprimée en secondes et constitue la meilleure estimation du temps qu’il faudrait un fournisseur de transport à distance pour télécharger un message donné à partir de son emplacement actuel sur une banque de messages local pour le client affichant le dossier d’en-tête. Le fournisseur de transport à distance calcule généralement la valeur de cette propriété en divisant la valeur de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) par la vitesse de la liaison de communication en octets par seconde. Si le fournisseur ne peut pas calculer le temps de téléchargement, par exemple, si elle ne sait pas la vitesse de la liaison, il doit fournir une valeur **PT_ERROR** comme **MAPI_E_NO_SUPPORT** pour cette colonne dans le tableau contenu de dossier en-tête. 
+Cette propriété est exprimée en secondes et représente la meilleure estimation du temps qu'un fournisseur de transport distant doit prendre pour télécharger un message donné à partir de son emplacement actuel vers un magasin de messages local sur le client en affichant le dossier d'en-tête. Le fournisseur de transport distant calcule généralement la valeur de cette propriété en divisant la valeur de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) par la vitesse du lien de communication en octets par seconde. Si le fournisseur ne peut pas calculer le temps de téléchargement, par exemple s'il ne connaît pas la vitesse de la liaison, il doit fournir une valeur **PT_ERROR** telle que **MAPI_E_NO_SUPPORT** pour cette colonne dans le tableau des matières du dossier d'en-tête. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

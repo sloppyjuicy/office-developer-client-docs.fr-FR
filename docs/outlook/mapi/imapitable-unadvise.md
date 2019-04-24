@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 19f0dad9-9704-4bbe-a689-9531e7198351
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7de4d3c58d5eeefcf9a82235333da5db4703bc8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: da11f15dfe9d269b79f465f01f713de401584962
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328804"
 ---
 # <a name="imapitableunadvise"></a>IMAPITable::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592975"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Annule l’envoi de notifications précédemment configurées avec un appel à la méthode [IMAPITable::Advise](imapitable-advise.md) . 
+Annule l'envoi des notifications précédemment configurées avec un appel à la méthode [IMAPITable:: Advise](imapitable-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,7 +37,7 @@ ULONG_PTR ulConnection
 
  _ulConnection_
   
-> [in] Le numéro de la connexion d’enregistrement renvoyé par un appel à [IMAPITable::Advise](imapitable-advise.md).
+> dans Numéro de la connexion d'inscription renvoyée par un appel de la procédure [IMAPITable:: Advise](imapitable-advise.md).
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **IMAPITable::Unadvise** pour libérer le pointeur vers l’objet de récepteur advise transmis dans le paramètre _lpAdviseSink_ dans l’appel précédent à **IMAPITable::Advise**, annulant ainsi un enregistrement de notification. Dans le cadre d’ignorer le pointeur vers l’objet de récepteur advise, la méthode l’objet **IUnknown::Release** est appelée. En règle générale, la **version** est appelé pendant l’appel **Unadvise** , mais si un autre thread est en appelant la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour le récepteur de notifications, l’appel de la **version** est différée jusqu'à **OnNotify** méthode retourne. 
+Utilisez la méthode **IMAPITable::** Unadvise pour libérer le pointeur vers l'objet de récepteur de notifications transmis dans le paramètre _lpAdviseSink_ de l'appel précédent à **IMAPITable:: Advise**, ce qui a pour effet d'annuler une inscription aux notifications. Dans le cadre du rejet du pointeur vers l'objet de récepteur de notification, la méthode **IUnknown:: Release** de l'objet est appelée. En règle générale, la **publication** est appelée pendant l'appel Unadvise, mais si un autre thread appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) pour le récepteur de notifications, l'appel de **libération** est retardé jusqu'à ce que l' **OnNotify** **** méthode renvoie. 
   
-Pour plus d’informations sur le processus de notification, voir [Notification d’événement MAPI](event-notification-in-mapi.md). Pour obtenir des informations spécifiques sur la notification de la table, voir [Sur les Notifications de Table](about-table-notifications.md). Pour plus d’informations sur l’utilisation des méthodes **IMAPISupport** pour prendre en charge la notification, voir [Prise en charge de Notification d’événement](supporting-event-notification.md).
+Pour plus d'informations sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md). Pour obtenir des informations spécifiques sur la notification de table, consultez la rubrique [à propos des notifications de table](about-table-notifications.md). Pour plus d'informations sur l'utilisation des méthodes **IMAPISupport** pour prendre en charge la notification, consultez la rubrique [prise en](supporting-event-notification.md)charge des notifications d'événements.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -57,7 +57,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |MFCMAPI utilise la méthode **IMAPITable::Unadvise** pour annuler des notifications pour la table.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl:: NotificationOff  <br/> |MFCMAPI utilise la méthode **IMAPITable::** Unadvise pour annuler les notifications pour le tableau.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

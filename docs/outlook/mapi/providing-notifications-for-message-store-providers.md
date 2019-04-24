@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0e1cdba-ceb6-4a3f-8449-79d1a0ad1adf
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3722893ae57a108b338725e46c975e92c0f8ff72
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: a28e6e6f008517a6b1c2c82dfa391b478963880f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328468"
 ---
 # <a name="providing-notifications-for-message-store-providers"></a>Fourniture de notifications pour les fournisseurs de banques de messages
 
@@ -21,11 +21,11 @@ ms.locfileid: "22587508"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Alors que les notifications sont facultatives, ils sont un composant essentiel d’un fournisseur de magasin de message bonne. Les applications clientes et le spouleur MAPI s’appuient sur les notifications à partir du fournisseur de banque de messages pour obtenir de bonnes performances lors de l’envoi de messages sortants ou la réception de messages entrants. Clients et le spouleur MAPI peuvent fonctionner sans recevoir des notifications à partir du fournisseur de banque de messages, mais ils ne seront pas en mesure d’informer les utilisateurs des modifications dans la banque de messages sans les. En règle générale, cela signifie que les utilisateurs ne pourront pas savoir qu’un nouveau message est arrivé jusqu'à ce que le client suivant pour ouvrir la banque de messages reçoivent dossier.
+Les notifications sont facultatives, mais elles constituent un élément très important d'un fournisseur de banque de messages approprié. Les applications clientes et le spouleur MAPI s'appuient sur les notifications du fournisseur de banque de messages pour obtenir de bonnes performances lors de l'envoi de messages sortants ou de la réception de messages entrants. Les clients et le spouleur MAPI peuvent fonctionner sans recevoir de notifications du fournisseur de banque de messages, mais ils ne peuvent pas informer les utilisateurs des modifications apportées à la Banque de messages sans eux. En règle générale, cela signifie que les utilisateurs ne pourront pas voir qu'un nouveau message est arrivé jusqu'à ce que son client ouvre le dossier de réception de la Banque de messages.
   
-Clients s’inscrire pour les notifications en appelant la méthode [IMsgStore::Advise](imsgstore-advise.md) . Le client transmet une [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) de l’interface, un masque de bits qui indique le type de notifications le client est intéressé par la réception, et un **ID d’entrée** qui indique quel objet dans le message stocker les **notifications** demande s’applique à. Lorsque des événements pertinents se produisent dans l’objet (par exemple, lorsqu’un nouveau message arrive dans le dossier de réception dans la banque de messages), le fournisseur de banque de message ou de l’objet lui-même doit appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour tous les ** IMAPIAdviseSink** les objets qui se sont inscrits pour ce type d’événement. 
+Les clients s'inscrivent pour les notifications en appelant la méthode [IMsgStore:: Advise](imsgstore-advise.md) . Le client transmet une interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) , un masque de masques qui indique le type de notifications que le client souhaite recevoir, et un **EntryID** qui indique quel objet dans la Banque de messages est l' **avis** . demande s'applique à. Lorsque des événements pertinents se produisent dans l'objet (par exemple, lorsqu'un nouveau message arrive dans le dossier de réception dans la Banque de messages), le fournisseur de banque de messages ou l'objet lui-même doit appeler la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) pour tous les ** Objets IMAPIAdviseSink** qui ont été inscrits pour ce type d'événement. 
   
-Même si la base de vos messages fournisseur avertit jamais autres composants MAPI des modifications dans la banque de messages, qu'il doit toujours implémenter **IMsgStore::Advise** pour retourner MAPI_E_NO_SUPPORT. Cela informe les autres composants ne pas pour attendre le fournisseur de magasins de notifications à partir du message. 
+Même si votre fournisseur de banque de messages n'avertit jamais les autres composants MAPI des modifications apportées à la Banque de messages, il doit toujours implémenter **IMsgStore:: Advise** pour retourner MAPI_E_NO_SUPPORT. Cette fonctionnalité informe les autres composants de ne pas attendre les notifications du fournisseur de banque de messages. 
   
 ## <a name="see-also"></a>Voir aussi
 

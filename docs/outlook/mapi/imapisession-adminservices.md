@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 487fab39-5c2c-4e1a-9f90-4da64f5e198b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cb7fa7bb7dc17a89fc7cc40ae370accc40fa3941
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c639523a02047bf00c378dafd7bc698d7d4e5fff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322413"
 ---
 # <a name="imapisessionadminservices"></a>IMAPISession::AdminServices
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579837"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Retourne un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) pour apporter des modifications à des services de messagerie. 
+Renvoie un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) pour apporter des modifications aux services de messagerie. 
   
 ```cpp
 HRESULT AdminServices(
@@ -34,7 +34,7 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -42,17 +42,17 @@ HRESULT AdminServices(
     
  _lppServiceAdmin_
   
-> [out] Pointeur vers un pointeur vers un objet de l’administration de service de message.
+> remarquer Pointeur vers un pointeur vers un objet d'administration de service de messagerie.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Un pointeur vers un objet d’administration service message a été renvoyé avec succès.
+> Un pointeur vers un objet d'administration de service de message a été renvoyé.
     
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La méthode **IMAPISession::AdminServices** crée un objet d’administration service message, un objet qui prend en charge l’interface **IMsgServiceAdmin** et retourne un pointeur. À l’aide de ce pointeur, vous pouvez appeler des méthodes de **IMsgServiceAdmin** pour modifier les services de messagerie dans le profil de la session. Sachez que ces modifications ne prendront effet jusqu'à la prochaine session ; la session en cours n’est pas affectée. 
+La méthode **IMAPISession:: AdminServices** crée un objet d'administration de service de messagerie, un objet qui prend en charge l'interface **IMsgServiceAdmin** et renvoie un pointeur. À l'aide de ce pointeur, vous pouvez appeler des méthodes **IMsgServiceAdmin** pour modifier les services de messagerie dans le profil de session. N'oubliez pas que ces modifications ne prennent effet qu'au cours de la session suivante; la session en cours n'est pas affectée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -60,7 +60,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI utilise la méthode **IMAPISession::AdminServices** pour accéder au profil pour lire le nom du serveur.  <br/> |
+|MAPIStoreFunctions. cpp  <br/> |GetServerName  <br/> |MFCMAPI utilise la méthode **IMAPISession:: AdminServices** pour accéder au profil afin de lire le nom du serveur.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

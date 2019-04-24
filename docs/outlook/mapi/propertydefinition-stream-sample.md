@@ -1,27 +1,27 @@
 ---
-title: Exemple de flux de la définition PropertyDefinition
+title: Exemple de flux PropertyDefinition
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc216302cb68be4b0e9d57f60f491adebcba1975
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 63a8141221c0ff7a8c6ffee20587b682386f87b5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328503"
 ---
-# <a name="propertydefinition-stream-sample"></a>Exemple de flux de la définition PropertyDefinition
+# <a name="propertydefinition-stream-sample"></a>Exemple de flux PropertyDefinition
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique décrit un exemple d’un flux de la définition PropertyDefinition. Le flux contient une définition d’un champ défini par l’utilisateur, `TextField1`. Le type est **texte**, et la définition est au format PropDefV2.
+Cette rubrique décrit un exemple de flux PropertyDefinition. Le flux contient une définition d'un champ défini par l'utilisateur `TextField1`,. Le type est **Text**et la définition est au format PropDefV2.
   
 ## <a name="data-dump"></a>Vidage des données
 
-Vous trouverez ci-dessous un vidage des données de l’objet stream tel qu’il doit être affiché dans un éditeur binaire.
+Voici un dump des données du flux tel qu'il s'afficherait dans un éditeur binaire.
   
 |Décalage de flux|Octets de données|Données ASCII|
 |:-----|:-----|:-----|
@@ -32,77 +32,77 @@ Vous trouverez ci-dessous un vidage des données de l’objet stream tel qu’il
 | `0000000040` <br/> | `65 00 78 00 74 00 46 00 69 00 65 00 6C 00 64 00` <br/> | `e.x.t.F.i.e.l.d.` <br/> |
 | `0000000050` <br/> | `31 00 00 00 00 00` <br/> | `1.....` <br/> |
    
-Vous trouverez ci-dessous une analyse des données pour le flux de la définition PropertyDefinition :
+Voici une analyse des exemples de données pour le flux PropertyDefinition:
   
-- Version : Décalage de 0 x 0, 2 octets : 0x0103 (PropDefV2).
+- Version: offset 0x0, 2 octets: 0x0103 (PropDefV2).
     
-- FieldDefinitionCount : Décalage 0 x 2, 4 octets : 0 x 1 (1).
+- FieldDefinitionCount: offset 0X2, 4 octets: 0x1 (1).
     
-- FieldDefinitions : Décalage 0 x 6, tableau des flux de FieldDefinition 1.
+- FieldDefinitions: décalage 0x6, tableau de 1 FieldDefinition Stream.
     
-  - Indicateurs : Décalage 0 x 6, 4 octets : 0 x 45 (PDO_IS_CUSTOM | PDO_PRINT_SAVEAS | PDO_PRINT_SAVEAS_DEF).
+  - Flags: décalage 0x6, 4 octets: 0x45 (PDO_IS_CUSTOM | PDO_PRINT_SAVEAS | PDO_PRINT_SAVEAS_DEF).
     
-  - VT : Décalage 0xA, 2 octets : 0 x 8 (**VT_BSTR**).
+  - VT: décalage 0xA, 2 octets: 0x8 (**VT_BSTR**).
     
-  - DispId : Décalage 0xC, 4 octets : 0 x 0 (0).
+  - DispId: décalage 0xC, 4 octets: 0x0 (0).
     
-  - NmidNameLength : Décalage de 0 x 10, 2 octets : 0xA (10).
+  - NmidNameLength: offset 0x10, 2 octets: 0xA (10).
     
-  - NmidName : Décalage 0 x 12, tableau de 10 WCHAR. Valeur de chaîne Unicode : « TextField1 ».
+  - NmidName: offset 0x12, tableau de 10 WCHARs. Valeur de chaîne Unicode: «TextField1».
     
-  - NameANSI : Décalage 0 x 26, PackedAnsiString flux.
+  - NameANSI: décalage 0x26, flux de PackedAnsiString.
     
-    - Longueur : Décalage de la 0 x 26, 1 octet : 0xA (10).
+    - Longueur: décalage 0x26, 1 octet: 0xA (10).
       
-    - De caractères : Décalage 0 x 27, tableau de 10 caractères. Valeur de chaîne ANSI : « TextField1 ».
+    - Caractères: décalage 0x27, tableau de 10 caractères. Valeur de chaîne ANSI: «TextField1».
     
-  - FormulaANSI : Décalage 0 x 31, PackedAnsiString flux.
+  - FormulaANSI: décalage 0x31, flux de PackedAnsiString.
     
-    - Longueur : Décalage de la 0 x 31, 1 octet : 0 x 0 (0).
+    - Longueur: décalage 0x31, 1 octet: 0x0 (0).
       
-    - De caractères : Décalage 0 x 32, tableau de caractères de 0. Chaîne ANSI vide.
+    - Caractères: décalage 0x32, tableau de 0 CHARs. Chaîne ANSI vide.
     
-  - ValidationRuleANSI : Décalage 0 x 32, PackedAnsiString flux.
+  - ValidationRuleANSI: décalage 0x32, PackedAnsiString Stream.
     
-    - Longueur : Décalage de la 0 x 32, 1 octet : 0 x 0 (0).
+    - Longueur: décalage 0x32, 1 octet: 0x0 (0).
       
-    - De caractères : Décalage 0 x 33, tableau de caractères de 0. Chaîne ANSI vide.
+    - Caractères: décalage 0x33, tableau de 0 CHARs. Chaîne ANSI vide.
     
-  - ValidationTextANSI : Décalage 0 x 33, PackedAnsiString flux.
+  - ValidationTextANSI: décalage 0x33, flux de PackedAnsiString.
     
-    - Longueur : Décalage de la 0 x 33, 1 octet : 0 x 0 (0).
+    - Longueur: décalage 0x33, 1 octet: 0x0 (0).
       
-    - De caractères : Décalage 0 x 34, tableau de caractères de 0. Chaîne ANSI vide.
+    - Caractères: décalage 0x34, tableau de 0 CHARs. Chaîne ANSI vide.
     
-  - ErrorANSI : Décalage 0 x 34, PackedAnsiString flux.
+  - ErrorANSI: décalage 0x34, flux de PackedAnsiString.
     
-    - Longueur : Décalage de la 0 x 34, 1 octet : 0 x 0 (0).
+    - Longueur: décalage 0x34, 1 octet: 0x0 (0).
       
-    - Caractères : Décalage 0x35, du tableau de caractères de 0. Chaîne ANSI vide.
+    - Caractères: décalage 0x35, tableau de 0 CHARs. Chaîne ANSI vide.
     
-  - InternalType : Décalage 0x35, 4 octets : 0 x 0 (iTypeString).
+  - InternalType: décalage 0x35, 4 octets: 0x0 (iTypeString).
     
-  - SkipBlocks : Décalage 0 x 39, série de flux de données SkipBlock.
+  - SkipBlocks: décalage 0x39, série de flux de SkipBlock.
     
   - Première SkipBlock
     
-    - Taille : Décalage 0 x 39, 4 octets : 0x15 (21).
+    - Taille: décalage 0x39, 4 octets: 0x15 (21).
       
-    - Contenu : Décalage 0x3D, tableau d’octets 21. Il s’agit du premier flux SkipBlock, afin que ce tableau contient un flux FirstSkipBlockContent.
+    - Content: offset 0x3D, tableau de 21 octets. Il s'agit du premier flux SkipBlock, de sorte que ce tableau contient un flux de FirstSkipBlockContent.
       
-      - FieldName : Décalage 0x3D, PackedUnicodeString flux.
+      - FieldName: offset 0x3D, PackedUnicodeString Stream.
         
-        - Durée : Décalage 0x3D, 1 octet : 0xA (10).
+        - Longueur: décalage 0x3D, 1 octet: 0xA (10).
           
-        - De caractères : Décalage 0x3E, tableau de 10 WCHAR. Valeur de chaîne Unicode : « TextField1 ».
+        - Caractères: décalage 0x3E, tableau de 10 WCHARs. Valeur de chaîne Unicode: «TextField1».
     
   - Deuxième SkipBlock
     
-    - Taille : Décalage 0 x 52, 4 octets : 0 x 0 (0). Il s’agit du flux SkipBlock rencontrée.
+    - Taille: décalage 0x52, 4 octets: 0x0 (0). Il s'agit du flux de SkipBlock de terminaison.
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Champs et éléments Outlook](outlook-items-and-fields.md)
+- [Éléments et champs Outlook](outlook-items-and-fields.md)
 - [Structures de flux](stream-structures.md)
 - [Structure de flux PropertyDefinition](propertydefinition-stream-structure.md)
 - [Structure de flux FieldDefinition](fielddefinition-stream-structure.md)

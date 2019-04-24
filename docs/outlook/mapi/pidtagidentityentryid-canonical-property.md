@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 61a9d403-e0e5-45c3-8d18-4d53207ab927
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a8810b6c39b909ebaa612496824150499cd15165
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 099df2211e87e253ab1be520378b3a2b2ca7d4c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327929"
 ---
 # <a name="pidtagidentityentryid-canonical-property"></a>Propriété canonique PidTagIdentityEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée pour l’identité d’un fournisseur de services au sein d’un système de messagerie. 
+Contient l'identificateur d'entrée pour l'identité d'un fournisseur de services, tel qu'il est défini dans un système de messagerie. 
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contient l’identificateur d’entrée pour l’identité d’un fournisseur de
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’apparaît pas en tant que propriété sur n’importe quel objet, mais uniquement en tant que colonne dans une table d’état. Il fait partie de l’identité du fournisseur de services exposition de la ligne de table d’état. Identité du fournisseur est généralement fait référence à son compte sur le serveur, mais peut faire référence à une représentation que le fournisseur définit dans le système de messagerie. 
+Cette propriété n'apparaît pas sous la forme d'une propriété sur n'importe quel objet, mais uniquement sous forme de colonne dans une table d'État. Il fait partie de l'identité du fournisseur de services exposant la ligne du tableau d'État. L'identité du fournisseur fait généralement référence à son compte sur le serveur, mais peut faire référence à toute représentation définie par le fournisseur dans le système de messagerie. 
   
-Cette propriété est généralement définie sur l’identificateur d’entrée de livre adresse appropriée. 
+Cette propriété est généralement définie sur l'identificateur d'entrée de carnet d'adresses approprié. 
   
-Un fournisseur de services fournissant les propriétés identity doit fournir chacun d'entre eux. Fournisseurs qui appartiennent au même service de message doivent exposer les mêmes valeurs pour les propriétés d’identité. 
+Un fournisseur de services qui fournit l'une des propriétés d'identité doit en fournir toutes les. Les fournisseurs qui appartiennent au même service de messagerie doivent exposer les mêmes valeurs pour les propriétés d'identité. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

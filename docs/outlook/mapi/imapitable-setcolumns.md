@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b6a27231c8dd2c0796b2dcba268de54fcd93e38d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 897330feb216dbc3ab143378977c77141cf488f0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587907"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328818"
 ---
 # <a name="imapitablesetcolumns"></a>IMAPITable::SetColumns
 
@@ -25,7 +25,7 @@ ms.locfileid: "22587907"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit les propriétés et l’ordre des propriétés apparaissent sous forme de colonnes dans le tableau.
+Définit les propriétés et l'ordre des propriétés spécifiques à afficher sous la forme de colonnes dans le tableau.
   
 ```cpp
 HRESULT SetColumns(
@@ -34,78 +34,78 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _lpPropTagArray_
   
-> [in] Pointeur vers un tableau de balises de propriété identification des propriétés pour être inclus en tant que colonnes dans le tableau. La partie du type de propriété de chaque balise peut avoir un type valide ou **PR_NULL** à réserver un espace pour les ajouts suivants. Le paramètre _lpPropTagArray_ ne peut pas être défini sur NULL ; chaque table doit comporter au moins une colonne. 
+> dans Pointeur vers un tableau de balises de propriété qui identifient les propriétés à inclure en tant que colonnes dans le tableau. La partie type de propriété de chaque balise peut être définie sur un type valide ou sur **PR_NULL** pour réserver de l'espace pour les ajouts suivants. Le paramètre _lpPropTagArray_ ne peut pas avoir la valeur null; chaque tableau doit comporter au moins une colonne. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le retour d’un appel asynchrone au **SetColumns**, par exemple lorsque **SetColumns** est utilisé dans la notification. Les indicateurs suivants peuvent être définis : 
+> dans Masque de des indicateurs qui contrôle le renvoi d'un appel asynchrone à **SetColumns**, par exemple lorsque la **SetColumns** est utilisée dans la notification. Les indicateurs suivants peuvent être définis: 
     
 TBL_ASYNC 
   
-> Demandes l’opération de définition de colonne est effectuée en mode asynchrone à l’origine de **SetColumns** potentiellement retourner avant que l’opération est entièrement terminée. 
+> Demande que l'opération de définition de colonne soit effectuée de manière asynchrone, ce qui entraîne le renvoi éventuel de **SetColumns** avant la fin de l'opération. 
     
 TBL_BATCH 
   
-> Permet à la table de différer l’opération de définition de colonne jusqu'à ce que les données sont réellement nécessaires.
+> Permet à la table de reporter l'opération de définition de colonne jusqu'à ce que les données soient réellement requises.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le paramètre colonne a réussi.
+> L'opération de définition de la colonne a réussi.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours qui empêche la colonne définissant l’opération de démarrage. L’opération en cours doit être autorisée à effectuer ou il doit être arrêté.
+> Une autre opération est en cours, ce qui empêche le démarrage de l'opération de définition de colonne. L'opération en cours doit être autorisée ou elle doit être arrêtée.
     
 ## <a name="remarks"></a>Remarques
 
-L’ensemble de colonnes d’une table est le groupe de propriétés qui constituent les colonnes des lignes dans le tableau. Il est une colonne par défaut pour chaque type de table. L’ensemble de colonnes par défaut est composée des propriétés qui inclut automatiquement de l’implémentation de la table. Les utilisateurs de tableau peuvent modifier cette valeur par défaut définie en appelant la méthode **IMAPITable::SetColumns** . Ils peuvent demander que les autres colonnes ajoutées à la valeur par défaut si l’implémentation de la table prend en charge les colonnes supprimées ou modifier l’ordre de colonnes que la valeur. **SetColumns** spécifie les colonnes qui sont retournées avec chaque ligne et l’ordre de ces colonnes dans la ligne. 
+Le jeu de colonnes d'un tableau est le groupe de propriétés qui composent les colonnes des lignes du tableau. Il existe un jeu de colonnes par défaut pour chaque type de tableau. L'ensemble de colonnes par défaut est composé des propriétés que le programme d'implémentation du tableau inclut automatiquement. Les utilisateurs de tableau peuvent modifier cet ensemble par défaut en appelant la méthode **IMAPITable:: SetColumns** . Ils peuvent demander à ce que d'autres colonnes soient ajoutées à l'ensemble par défaut si l'implémenteur de table les prend en charge, ou que l'ordre des colonnes doit être modifié. **SetColumns** spécifie les colonnes renvoyées avec chaque ligne et l'ordre de ces colonnes dans la ligne. 
   
-La réussite de l’opération **SetColumns** n’apparaît qu’après qu’un appel suivant a été effectué pour récupérer les données de la table. Il est alors que les erreurs détectées. 
+La réussite de l'opération **SetColumns** n'est apparente qu'après qu'un appel a été effectué pour extraire les données de la table. Cela signifie que toutes les erreurs sont signalées. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Certains fournisseurs permettent à un appel **SetColumns** trier uniquement les colonnes de tableau qui font partie des colonnes disponibles pour un affichage de tableau. Autres fournisseurs d’autorisent un appel **SetColumns** trier toutes les colonnes du tableau, y compris ceux qui contiennent des propriétés pas dans l’ensemble de colonnes d’origine. 
+Certains fournisseurs permettent à un appel **SetColumns** de trier uniquement les colonnes de table qui font partie des colonnes disponibles pour un affichage tableau. D'autres fournisseurs autorisent un appel **SetColumns** à trier toutes les colonnes de table, y compris celles contenant des propriétés qui ne figurent pas dans l'ensemble de colonnes d'origine. 
   
-Lorsque TBL_BATCH est défini pour les opérations asynchrones, fournisseurs doivent renvoyer un type de propriété de PT_ERROR et une valeur de la propriété Null pour les colonnes qui ne sont pas pris en charge.
+Lorsque TBL_BATCH est défini pour des opérations asynchrones, les fournisseurs doivent renvoyer un type de propriété PT_ERROR et une valeur de propriété NULL pour les colonnes qui ne sont pas prises en charge.
   
-Il est inutile de répondre à le TBL_ASYNC indicateur qui sollicitent que l’opération asynchrone. Si vous ne prennent pas en charge colonne asynchrone définition, effectuer l’opération de manière synchrone. Si vous pouvez prendre en charge l’indicateur TBL_ASYNC et l’autre asynchrone opération est toujours en cours, renvoyée MAPI_E_BUSY. Sinon, renvoie S_OK quel que soit ou non toutes les propriétés incluses dans le tableau de la propriété tag prend en charge. Erreurs résultant des propriétés non prises en charge doivent être renvoyées à partir de méthodes **IMAPITable** qui récupèrent des données, telles que **QueryRows**. 
+Vous n'avez pas besoin de répondre à l'indicateur TBL_ASYNC demandant que l'opération soit asynchrone. Si vous ne prenez pas en charge la définition de jeu de colonnes asynchrone, effectuez l'opération de façon synchrone. Si vous pouvez prendre en charge l'indicateur TBL_ASYNC et qu'une autre opération asynchrone est toujours en cours, renvoyez MAPI_E_BUSY. Sinon, renvoie S_OK, que vous soyez ou non en prise en charge de toutes les propriétés incluses dans le tableau de balises de propriété. Les erreurs résultant de propriétés non prises en charge doivent être renvoyées par les méthodes **IMAPITable** qui extraient des données, telles que **QueryRows**. 
   
-Ne génèrent pas de notifications pour les lignes de tableau sont masquées à partir de la vue par les appels à **restreindre**. 
+Ne générez pas de notifications pour les lignes de tableau masquées en vue par les appels à **limiter**. 
   
-Lors de l’envoi des notifications de table, l’ordre des propriétés de membre de la **ligne** de la structure [TABLE_NOTIFICATION](table_notification.md) et l’ordre spécifié par l’appel le plus récent **SetColumns** doit être identique à compter de l’heure de la notification de demande a été envoyé. 
+Lors de l'envoi de notifications de table, l'ordre des propriétés dans le membre de **ligne** de la structure [TABLE_NOTIFICATION](table_notification.md) et l'ordre spécifié par le dernier appel **SetColumns** doivent être les mêmes que ceux de la demande de notification. a été envoyé. 
   
-Un autre indicateur, TBL_BATCH, permet aux appelants de spécifier que l’implémentation de la table peut différer l’évaluation des résultats de l’opération jusqu'à une date ultérieure. La mesure du possible, les appelants doivent définir cet indicateur car une opération par lot améliore les performances.
+Un autre indicateur, TBL_BATCH, permet aux appelants de spécifier que l'implémenteur de table peut différer l'évaluation des résultats de l'opération jusqu'à une date ultérieure. Dans la mesure du possible, les appelants doivent définir cet indicateur car l'opération par lot améliore les performances.
   
-Il est souvent pratique pour les appelants à réserver certaines colonnes dans le jeu de lignes récupérées pour les valeurs d’être ajoutées ultérieurement. Les appelants cela en plaçant **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) à la position souhaitée dans le tableau de balise de propriété passé à **SetColumns**; le tableau sera puis renvoie **PR_NULL** à ces postes dans toutes les lignes extraites avec **QueryRows**.
+Il est souvent commode pour les appelants de réserver certaines colonnes dans l'ensemble de lignes récupérés pour que les valeurs soient ajoutées ultérieurement. Pour cela, les appelants placent **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) aux positions souhaitées dans le tableau des balises de propriété transmises à **SetColumns**; le tableau transmet ensuite **PR_NULL** à ces positions dans toutes les lignes récupérées avec **QueryRows**.
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lors de la création du tableau de balise de propriété pour le paramètre _lpPropTagArray_ , les balises de commande dans l’ordre souhaité les colonnes à afficher dans l’affichage tableau. 
+Lors de la création du tableau de balises de propriété pour le paramètre _lpPropTagArray_ , organisez les balises dans l'ordre dans lequel vous souhaitez que les colonnes apparaissent dans l'affichage tableau. 
   
-Vous pouvez spécifier les propriétés à valeurs multiples pour être inclus dans la colonne en appliquant l’indicateur d’instance à valeurs multiples, ou une constante MVI_FLAG, à la balise de propriété. Définissez cet indicateur en transmettant la balise de propriété pour la version de la propriété à valeur unique en tant que paramètre à la macro MVI_PROP comme suit :
+Vous pouvez spécifier que les propriétés à valeurs multiples doivent être incluses dans le jeu de colonnes en appliquant l'indicateur d'instance à valeurs multiples ou une constante MVI_FLAG à la balise de propriété. Définissez cet indicateur en transmettant la balise de propriété de la version à valeur unique de la propriété en tant que paramètre à la macro MVI_PROP comme suit:
   
 ```
 MVI_PROP(ulPropTag)
 
 ```
 
-La macro MVI_PROP définira MVI_FLAG pour la propriété transformer la balise en une balise à valeurs multiples. Si vous essayez tort d’appeler MVI_PROP sur une propriété à valeur unique, MAPI ignorera l’appel et laissez la balise de propriété inchangée. 
+La macro MVI_PROP définit MVI_FLAG pour la propriété, transformant la balise en balise à valeurs multiples. Si vous essayez d'appeler MVI_PROP à tort sur une propriété à valeur unique, MAPI ignore l'appel et laisse la balise de propriété inchangée. 
   
-Vous pouvez inclure des balises de propriété **PR_NULL** la valeur dans le tableau de la propriété tag pour réserver un espace dans la colonne. Réservation d’espace vous permet d’ajouter à une colonne sans avoir à allouer un nouveau tableau de balise de propriété. 
+Vous pouvez inclure des balises de propriété définies sur **PR_NULL** dans le tableau des balises de propriété pour réserver de l'espace dans le jeu de colonnes. L'espace réservé vous permet d'ajouter à un jeu de colonnes sans devoir allouer un nouveau tableau de balises de propriété. 
   
-Lors de l’appel de **SetColumns** provoque une modification de l’ordre des colonnes d’une table et un ou plusieurs de ces colonnes représentent une propriété à valeurs multiples, il est possible pour le nombre de lignes de la table pour augmenter. Si cela se produit, tous les signets du tableau sont ignorées. Pour plus d’informations sur la façon de colonnes à valeurs multiples affectent les tables, voir [utilisation des colonnes à valeurs multiples](working-with-multivalued-columns.md).
+Lorsque votre appel à **SetColumns** entraîne une modification de l'ordre des colonnes d'une table et qu'une ou plusieurs de ces colonnes représentent une propriété à valeurs multiples, il est possible que le nombre de lignes de la table augmente. Dans ce cas, tous les signets de la table sont ignorés. Pour plus d'informations sur l'impact des colonnes à valeurs multiples sur [les](working-with-multivalued-columns.md)tableaux, voir Working with multiValued Columns.
   
-Définition des colonnes par défaut est une opération synchrone. Toutefois, vous pouvez autoriser la table à différer l’opération jusqu'à ce que les données sont nécessaires à la définition de l’indicateur TBL_BATCH. Définition de cet indicateur peut améliorer les performances. Un autre indicateur, TBL_ASYNC, effectue l’opération asynchrone, ce qui permet de **SetColumns** retourner avant que l’opération est terminée. Pour déterminer si l’exécution se produit, appelez [IMAPITable::GetStatus](imapitable-getstatus.md).
+La définition de colonnes est par défaut une opération synchrone. Toutefois, vous pouvez autoriser la table à reporter l'opération jusqu'à ce que les données soient nécessaires en définissant l'indicateur TBL_BATCH. La définition de cet indicateur peut améliorer les performances. Un autre indicateur, TBL_ASYNC, rend l'opération asynchrone, ce qui permet le renvoi de **SetColumns** avant la fin de l'opération. Pour déterminer à quel moment l'opération se termine, appelez [IMAPITable:: GetStatus](imapitable-getstatus.md).
   
-Si un appel à la **méthode SetColumns** renvoie MAPI_E_BUSY, indiquant qu’une autre opération empêche l’opération de démarrage, vous pouvez appeler [IMAPITable::Abort](imapitable-abort.md) pour arrêter l’opération en cours. 
+Si un appel à **SetColumns** renvoie MAPI_E_BUSY, indiquant qu'une autre opération empêche le démarrage de votre opération, vous pouvez appeler la méthode [IMAPITable:: Abort](imapitable-abort.md) pour arrêter l'opération en cours. 
   
-Vous pouvez également appeler [HrAddColumnsEx](hraddcolumnsex.md) pour modifier un ensemble de colonnes. La différence entre **HrAddColumnsEx** et **IMAPITable::SetColumns** est **HrAddColumnsEx** moins de souplesse ; Il ne peut ajouter des colonnes. Les colonnes supplémentaires sont placés au début de l’ensemble de colonnes ; toutes les colonnes existantes apparaissent après ces colonnes. 
+Vous pouvez également appeler [HrAddColumnsEx](hraddcolumnsex.md) pour modifier un jeu de colonnes. La différence entre **HrAddColumnsEx** et **IMAPITable:: SetColumns** est que **HrAddColumnsEx** est moins flexible; Il peut uniquement ajouter des colonnes. Les colonnes supplémentaires sont placées au début de l'ensemble de colonnes; toutes les colonnes existantes apparaissent à la suite de ces colonnes. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -113,7 +113,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI utilise la méthode **IMAPITable::SetColumns** pour définir les colonnes souhaitées pour la table.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI utilise la méthode **IMAPITable:: SetColumns** pour définir les colonnes souhaitées pour le tableau.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

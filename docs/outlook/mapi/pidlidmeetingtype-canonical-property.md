@@ -11,58 +11,58 @@ api_name:
 api_type:
 - COM
 ms.assetid: 290b290c-7836-4a7e-bf1a-8d0225a07e56
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: d2b00c67984d090274a17028ee74e46bee482e2b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331576"
 ---
 # <a name="pidlidmeetingtype-canonical-property"></a>Propriété canonique PidLidMeetingType
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le type de demande de réunion ou de mise à jour de la réunion.
+Indique le type de demande de réunion ou de mise à jour de réunion.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidMeetingType  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
-|ID de type long (capot) :  <br/> |0x00000026  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Meeting  <br/> |
+|ID long (couvercle):  <br/> |0x00000026  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété doit avoir une des options suivantes :
+La valeur de cette propriété doit être définie sur l'une des valeurs suivantes:
   
-|**Propriété**|**Valeur**|**Description**|
+|**Propriété**|**Value**|**Description**|
 |:-----|:-----|:-----|
 |mtgEmpty  <br/> |0x00000000  <br/> |Non spécifié.  <br/> |
 |mtgRequest  <br/> |0x00000001  <br/> |Demande de réunion initiale.  <br/> |
-|mtgFull  <br/> |0 x 00010000  <br/> |Mise à jour intégrale.  <br/> |
-|mtgInfo  <br/> |0 x 00020000  <br/> |Mise à jour d’information.  <br/> |
-|mtgOutOfDate  <br/> |0 x 00080000  <br/> |Une nouvelle demande de réunion ou une mise à jour de la réunion a été reçu après celle-ci.  <br/> |
-|mtgDelegatorCopy  <br/> |0 x 00100000  <br/> |Elle est définie sur la copie de la personne qui a délégué lorsqu’un délégué poignées réunion les objets liés.  <br/> |
+|mtgFull  <br/> |0x00010000  <br/> |Mise à jour complète.  <br/> |
+|mtgInfo  <br/> |0x00020000  <br/> |Mise à jour inFormatif.  <br/> |
+|mtgOutOfDate  <br/> |0x00080000  <br/> |Une nouvelle demande de réunion ou une mise à jour de réunion a été reçue après celle-ci.  <br/> |
+|mtgDelegatorCopy  <br/> |0x00100000  <br/> |Cette valeur est définie sur la copie du demandeur lorsqu'un délégué gère les objets liés à la réunion.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

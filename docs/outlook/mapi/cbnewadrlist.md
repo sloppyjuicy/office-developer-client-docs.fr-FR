@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec1bbaa-7707-4239-9994-21ad1116430b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 898876863223aefa868fd37deced2948bd5a5694
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 885cf53de45cfde4079cc2a0e7bfdca09f72b962
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329525"
 ---
 # <a name="cbnewadrlist"></a>CbNewADRLIST
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets qui doit être alloué pour une nouvelle structure [ADRLIST](adrlist.md) qui contient un nombre spécifié de destinataires représentées par des structures [ADRENTRY](adrentry.md) . 
+Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [ADRLIST](adrlist.md) qui contient un nombre spécifié de destinataires représentés par des structures [ADRENTRY](adrentry.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**ADRLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 CbNewADRLIST (_centries)

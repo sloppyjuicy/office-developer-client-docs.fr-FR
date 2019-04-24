@@ -1,5 +1,5 @@
 ---
-title: Cellule XGridDensity (règle &amp; Section grille)
+title: Cellule XGridDensity (section &amp; règle et grille)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,29 +9,29 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: db7b353f-4379-8865-1c35-36b89cf93257
 description: Indique le type de grille horizontale à utiliser.
-ms.openlocfilehash: 107cde8e8b0d630a4dc4b43127412de2f6b0115d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ebd172e56a66bfb39bd9bfa20967bb6b52c5aa2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328985"
 ---
-# <a name="xgriddensity-cell-ruler-amp-grid-section"></a>Cellule XGridDensity (règle &amp; Section grille)
+# <a name="xgriddensity-cell-ruler-amp-grid-section"></a>Cellule XGridDensity (section &amp; règle et grille)
 
 Indique le type de grille horizontale à utiliser.
   
-|**Valeur**|**Description**|**Constante d’Automation**|
+|**Value**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-|0  <br/> |Fixe  <br/> |**visGridFixed** <br/> |
-|2  <br/> |Épais  <br/> |**visGridCoarse** <br/> |
+|0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
+|n°2  <br/> |Grossier  <br/> |**visGridCoarse** <br/> |
 |4  <br/> |Normal (valeur par défaut)  <br/> |**visGridNormal** <br/> |
-|8  <br/> |Fin  <br/> |**visGridFine** <br/> |
+|8bits  <br/> |Précisément  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l' **espacement** horizontal d’option dans le **règle &amp; grille** boîte de dialogue (sous l’onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l'option espacement horizontal de la **grille** dans la boîte de dialogue **règle de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
   
-Pour obtenir une référence à la cellule XGridDensity par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule XGridDensity par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule XGridDensity par index dans un progra
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visXGridDensity** <br/> |
    

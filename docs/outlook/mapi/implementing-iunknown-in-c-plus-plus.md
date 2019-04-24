@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 08f3f3f937320d8a986b2002c761a37f0f749227
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330176"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implémentation d’IUnknown dans C++
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’implémentation des méthodes de l’interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx), [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)and [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) en langage C++ est relativement simple. Après une validation standard des paramètres qui sont passés, une implémentation de **QueryInterface** vérifie l’identificateur de l’interface demandée par rapport à la liste des interfaces prises en charge. Si l’identificateur demandé est parmi ceux pris en charge, **AddRef** est appelé et le pointeur **this** est renvoyé. Si l’identificateur demandé n’est pas dans la liste pris en charge, le pointeur de la sortie est défini sur NULL et la valeur MAPI_E_INTERFACE_NOT_SUPPORTED est renvoyée. 
+L'implémentation des méthodes [IUnknown](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx):: QueryInterface, [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)et [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de l'interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) en C++ est assez simple. Après une validation standard des paramètres passés, une implémentation de **QueryInterface** vérifie l'identificateur de l'interface demandée par rapport à la liste des interfaces prises en charge. Si l'identificateur demandé fait partie des personnes prises en charge, **AddRef** est appelé et le pointeur **This** est renvoyé. Si l'identificateur demandé ne figure pas dans la liste prise en charge, le pointeur de sortie a la valeur NULL et la valeur MAPI_E_INTERFACE_NOT_SUPPORTED est renvoyée. 
   
-L’exemple de code suivant montre comment vous pouvez implémenter **QueryInterface** en langage C++ pour un objet d’état, un objet qui est une sous-classe de la [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface. **IMAPIStatus** hérite **IUnknown** via [IMAPIProp : IUnknown](imapipropiunknown.md). Par conséquent, si un appelant demande une de ces interfaces, le pointeur **this** peut être obtenue, car les interfaces liées par le biais de l’héritage des autorisations. 
+L'exemple de code suivant montre comment vous pouvez implémenter **QueryInterface** en C++ pour un objet Status, un objet qui est une sous-classe de l'interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) . **IMAPIStatus** hérite de **IUnknown** via [IMAPIProp: IUnknown](imapipropiunknown.md). Par conséquent, si un appelant demande l'une de ces interfaces, le pointeur **This** peut être renvoyé car les interfaces sont liées par héritage. 
   
 ```cpp
 HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
@@ -44,7 +44,7 @@ HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
 
 ```
 
-L’exemple de code suivant montre comment implémenter les méthodes **AddRef** et **Release** pour le `CMyMAPIObject` objet. Étant donné que l’implémentation **AddRef** et **Release** est simple, nombreux fournisseurs de services choisissent les implémenter en ligne. Les appels aux fonctions Win32 **InterlockedIncrement** et **InterlockedDecrement** assurer la sécurité de thread. La mémoire pour l’objet est libérée par le destructeur, qui est appelé lorsque la méthode **Release** supprime l’objet. 
+L'exemple de code suivant montre comment implémenter les méthodes **AddRef** et **Release** pour `CMyMAPIObject` l'objet. Étant donné que l'implémentation de **AddRef** et de **Release** est simple, de nombreux fournisseurs de services choisissent de les implémenter en ligne. Les appels aux fonctions Win32 **InterlockedIncrement** et **InterlockedDecrement** garantissent la sécurité des threads. La mémoire de l'objet est libérée par le destructeur, qui est appelée lorsque la méthode **Release** supprime l'objet. 
   
 ```cpp
 ULONG CMyMAPIObject::AddRef()
@@ -67,6 +67,6 @@ ULONG CMyMAPIObject::Release()
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Implémentation d’objets MAPI](implementing-mapi-objects.md)
-- [Implémentation de l’interface IUnknown](implementing-the-iunknown-interface.md)
+- [Implémentation d'objets MAPI](implementing-mapi-objects.md)
+- [Implémentation de l'interface IUnknown](implementing-the-iunknown-interface.md)
 

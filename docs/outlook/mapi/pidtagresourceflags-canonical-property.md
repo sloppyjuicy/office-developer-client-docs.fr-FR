@@ -11,36 +11,36 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69be9ad3-006a-459e-9cd4-eb3f609d71ad
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 875b37183134a6c5beca76ab7910cf601d1b6175
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2fb9eed0beaf7269ac90a021dae650355484ebc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330183"
 ---
 # <a name="pidtagresourceflags-canonical-property"></a>Propriété canonique PidTagResourceFlags
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de bits d’indicateurs pour les fournisseurs et les services de messagerie.
+Contient un masque de réindicateur des indicateurs pour les services de messagerie et les fournisseurs.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RESOURCE_FLAGS  <br/> |
 |Identificateur :  <br/> |0x3009  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété décrit les caractéristiques d’un service de message, un fournisseur de services ou un objet d’état. Les indicateurs qui sont définis pour cette propriété dépendant de son contexte. Par exemple, certains indicateurs sont valides uniquement pour les objets d’état et d’autres indicateurs uniquement pour les colonnes dans la table de service de message. 
+Cette propriété décrit les caractéristiques d'un service de messagerie, d'un fournisseur de services ou d'un objet d'État. Les indicateurs définis pour cette propriété dépendent de son contexte. Par exemple, certains indicateurs ne sont valides que pour les objets d'État et les autres indicateurs uniquement pour les colonnes du tableau de service de message. 
   
-Les indicateurs sont de trois classes : modifiable, statiques et dynamiques. Indicateurs statiques sont définis par MAPI à partir des données dans le fichier MAPISVC.inf. INF et n’a jamais été modifié. Modifiables indicateurs sont définis par MAPI à partir du fichier MAPISVC.inf. INF mais peut être modifiée par la suite. Indicateurs dynamiques pouvant être définies et réinitialiser par les méthodes MAPI.
+Les indicateurs sont de trois classes: statique, modifiable et dynamique. Les indicateurs statiques sont définis par MAPI à partir de données dans MAPISVC. INF et jamais modifié. Les indicateurs modifiables sont définis par MAPI à partir de MAPISVC. INF, mais peut être modifié par la suite. Les indicateurs dynamiques peuvent être définis et réinitialisés par des méthodes MAPI.
   
-Pour un service de message, un ou plusieurs des indicateurs suivants peuvent être défini dans cette propriété :
+Pour un service de messagerie, un ou plusieurs des indicateurs suivants peuvent être définis dans cette propriété:
   
 SERVICE_CREATE_WITH_STORE 
   
@@ -48,89 +48,89 @@ SERVICE_CREATE_WITH_STORE
     
 SERVICE_DEFAULT_STORE 
   
-> Dynamique. Le service de message contient la banque par défaut. Une interface utilisateur doit être affichée demander à l’utilisateur de confirmer la suppression ou le déplacement de ce service s’en déconnecter le profil. 
+> Dynamique. Le service de messagerie contient le magasin par défaut. Une interface utilisateur doit s'afficher pour inviter l'utilisateur à confirmer avant de supprimer ou de retirer ce service du profil. 
     
 SERVICE_NO_PRIMARY_IDENTITY 
   
-> Statique. L’indicateur au niveau de service qui doit être défini pour indiquer qu’aucun des fournisseurs dans le service de message peut être utilisée pour fournir une identité. Cet indicateur ou SERVICE_PRIMARY_IDENTITY doit être ensemble, mais pas les deux.
+> Liée. Indicateur de niveau de service qui doit être défini pour indiquer qu'aucun des fournisseurs dans le service de messagerie ne peut être utilisé pour fournir une identité. Cet indicateur ou SERVICE_PRIMARY_IDENTITY doit être défini, mais pas les deux.
     
 SERVICE_PRIMARY_IDENTITY 
   
-> Modifiable. Le service de message correspondant contient le fournisseur utilisé pour l’identité du principale pour cette session. [IMsgServiceAdmin::SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) permet de définir cet indicateur. Cet indicateur ou SERVICE_NO_PRIMARY_IDENTITY doit être ensemble, mais pas les deux. 
+> Modifiable. Le service de messagerie correspondant contient le fournisseur utilisé pour l'identité principale de cette session. Utilisez [IMsgServiceAdmin:: SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) pour définir cet indicateur. Cet indicateur ou SERVICE_NO_PRIMARY_IDENTITY doit être défini, mais pas les deux. 
     
 SERVICE_SINGLE_COPY 
   
-> Statique. Toute tentative pour créer ou copier ce service de message dans un profil dans lequel le service existe déjà échouera. Pour créer une copie unique service de message ajouter la propriété **PR_RESOURCE_FLAGS** à la section du service dans le fichier MAPISVC.inf. INF et de définir cet indicateur. 
+> Liée. Toute tentative de création ou de copie de ce service de messagerie dans un profil où le service existe déjà échouera. Pour créer un service de messagerie à copie unique, ajoutez la propriété **PR_RESOURCE_FLAGS** à la section du service dans MAPISVC. INF et définissez cet indicateur. 
     
-Pour un fournisseur de services, un ou plusieurs des indicateurs suivants peuvent être définies dans **PR_RESOURCE_FLAGS**:
+Pour un fournisseur de services, un ou plusieurs des indicateurs suivants peuvent être définis dans **PR_RESOURCE_FLAGS**:
   
 HOOK_INBOUND 
   
-> Statique. Le crochet spouleur doit traiter les messages entrants.
+> Liée. Le hook de spouleur doit traiter les messages entrants.
     
 HOOK_OUTBOUND 
   
-> Statique. Le crochet spouleur doit traiter les messages sortants. 
+> Liée. Le hook de spouleur doit traiter les messages sortants. 
     
 STATUS_DEFAULT_OUTBOUND 
   
-> Modifiable. Ce paramètre identity doit être appliqué aux messages sortants si le profil contient plusieurs instances de ce fournisseur de transport. Cela peut se produire si plusieurs instances d’un fournisseur de transport unique s’affichent dans le profil.
+> Modifiable. Cette identité doit être appliquée aux messages sortants si le profil contient plusieurs instances de ce fournisseur de transport. Cela peut se produire si plusieurs instances d'un fournisseur de transport unique apparaissent dans le profil.
     
 STATUS_DEFAULT_STORE 
   
-> Modifiable. Cette banque de messages est la banque par défaut pour le profil. 
+> Modifiable. Il s'agit de la Banque de messages par défaut pour le profil. 
     
 STATUS_NEED_IPM_TREE 
   
-> Dynamique. Les dossiers standards dans cette banque de messages, y compris le dossier racine du message interpersonnel (IPM), n’ont pas encore été vérifiées. MAPI Active et désactive cet indicateur. 
+> Dynamique. Les dossiers standard de cette banque de messages, y compris le dossier racine de message, n'ont pas encore été vérifiés. MAPI définit et efface cet indicateur. 
     
 STATUS_NO_DEFAULT_STORE 
   
-> Statique. Cette banque de messages est incapable de devenir la banque de messages par défaut pour le profil.
+> Liée. Cette banque de messages ne peut pas devenir la Banque de messages par défaut pour le profil.
     
 STATUS_NO_PRIMARY_IDENTITY 
   
-> Statique. Ce fournisseur ne pas de fournir une identité dans sa ligne d’état. Cet indicateur ou STATUS_PRIMARY_IDENTITY doit être défini.
+> Liée. Ce fournisseur ne fournit pas d'identité dans sa ligne d'État. Cet indicateur ou STATUS_PRIMARY_IDENTITY doit être défini.
     
 STATUS_OWN_STORE 
   
-> Statique. Ce fournisseur de transport fortement couplé à une banque de messages et fournit la propriété **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) dans la ligne d’état.
+> Liée. Ce fournisseur de transport est étroitement couplé à une banque de messages et fournit la propriété **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) dans sa ligne d'État.
     
 STATUS_PRIMARY_IDENTITY 
   
-> Modifiable. Ce fournisseur fournit l’identité du principale pour la session ; l’identificateur d’entrée pour l’objet fournissant l’identité est renvoyé à partir de [IMAPISession::QueryIdentity](imapisession-queryidentity.md). Cet indicateur ou **STATUS_NO_PRIMARY_IDENTITY** doit être défini. 
+> Modifiable. Ce fournisseur fournit l'identité principale pour la session; l'identificateur d'entrée pour l'objet qui fournit l'identité est renvoyé depuis [IMAPISession:: QueryIdentity](imapisession-queryidentity.md). Cet indicateur ou **STATUS_NO_PRIMARY_IDENTITY** doit être défini. 
     
 STATUS_PRIMARY_STORE 
   
-> Modifiable. Cette banque de messages doit être utilisé lorsqu’une application cliente se connecte. Une fois ouvert, ce magasin doit être défini en tant que la banque par défaut pour le profil. 
+> Modifiable. Cette banque de messages doit être utilisée lorsqu'une application cliente se connecte. Une fois ouvert, ce magasin doit être défini comme magasin par défaut pour le profil. 
     
 STATUS_SECONDARY_STORE 
   
-> Modifiable. Cette banque de messages doit être utilisé si la banque principale n’est pas disponible lorsqu’une application cliente se connecte. Une fois ouvert, ce magasin doit être défini en tant que la banque par défaut pour le profil. 
+> Modifiable. Cette banque de messages doit être utilisée si le magasin principal n'est pas disponible lorsqu'une application cliente se connecte. Une fois ouvert, ce magasin doit être défini comme magasin par défaut pour le profil. 
     
 STATUS_SIMPLE_STORE 
   
-> Dynamique. Permettra de cette banque de messages par l’interface Simple MAPI en tant que la banque de messages par défaut.
+> Dynamique. Cette banque de messages sera utilisée par le simple MAPI comme banque de messages par défaut.
     
 STATUS_TEMP_SECTION 
   
-> Dynamique. Cette banque de messages ne doit pas être publiée dans la table et du profil est supprimée après la fermeture de session. 
+> Dynamique. Cette banque de messages ne doit pas être publiée dans la table de banque de messages et sera supprimée du profil après la fermeture de session. 
     
 STATUS_XP_PREFER_LAST 
   
-> Statique. Ce transport est censé être le dernier transport sélectionné pour envoyer un message lorsque plusieurs fournisseurs de transport sont en mesure de transmettre le message.
+> Liée. Ce transport s'attend à être le dernier transport sélectionné pour envoyer un message lorsque plusieurs fournisseurs de transport peuvent transmettre le message.
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm60117
 localization_priority: Normal
 ms.assetid: 371a475d-50f7-6b4c-4b47-581cd778dcba
-description: Renvoie le caractère Unicode à partir d’un nombre.
-ms.openlocfilehash: 06f97717ee4d5965253b0da7cfd5c35faf0ca2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le caractère Unicode d'un nombre.
+ms.openlocfilehash: 81e76b72da35f79dee9ad6afbde51bc2e228483c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327346"
 ---
-# <a name="unichar-function"></a>UNICHAR, fonction
+# <a name="unichar-function"></a>Fonction UNICHAR
 
-Renvoie le caractère Unicode à partir d’un nombre. 
+Renvoie le caractère Unicode d'un nombre. 
   
 ## <a name="syntax"></a>Syntaxe
 
-UNICHAR (** *numéro* **) 
+UNICHAR (* * *nombre* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Integer** <br/> |Entier compris entre 1 et 65 535 (inclus), ou la fonction renvoie une erreur.  <br/> |
+| _number_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Entier compris entre 1 et 65 535 (inclus), ou la fonction renvoie une erreur.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 La chaîne obtenue présente une longueur d’un caractère unicode (deux caractères). 
   
@@ -38,6 +38,6 @@ La chaîne obtenue présente une longueur d’un caractère unicode (deux caract
 
 UNICHAR (65) 
   
-Renvoie un (LETTRE MAJUSCULE LATINE A) 
+Renvoie A (lettre majuscule latine A) 
   
 

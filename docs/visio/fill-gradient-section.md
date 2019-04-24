@@ -1,31 +1,31 @@
 ---
-title: Section dégradée de remplissage
+title: Fill Gradient Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 73e3a261-6282-4051-aec5-9f24abf32ec0
-description: Affiche les valeurs de couleur pour le dégradé du remplissage appliqué à la forme.
-ms.openlocfilehash: c8c5ff1c71fcdcd15b69cb4b6fdbf6ae3c7ee834
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Affiche les valeurs de couleur du dégradé de remplissage appliqué à la forme.
+ms.openlocfilehash: ca3aff17d184e566d4d8c054495a03770448830b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322525"
 ---
-# <a name="fill-gradient-section"></a>Section dégradée de remplissage
+# <a name="fill-gradient-section"></a>Fill Gradient Section
 
-Affiche les valeurs de couleur pour le dégradé du remplissage appliqué à la forme. 
+Affiche les valeurs de couleur du dégradé de remplissage appliqué à la forme. 
   
 ## <a name="remarks"></a>Remarques
 
-Chaque ligne [Arrêter dégradé, ligne (Section dégradé de remplissage)](gradient-stop-row-fill-gradient-section.md) , dans la section représente un point de dégradé du remplissage. Cette section peut être vide. 
+Chaque ligne point de [dégradé (section dégradé de remplissage)](gradient-stop-row-fill-gradient-section.md) de la section représente un point de dégradé dans le remplissage. Cette section peut être vide. 
   
-Les 10 premières lignes contenues dans la section sont utilisés par les paramètres de dégradé. Toutes les lignes de **Dégradé arrêter** au-delà de 10 sont ignorés. 
+Seules les 10 premières lignes contenues dans la section sont utilisées par les paramètres de dégradé. Toutes les lignes d' **arrêt de dégradé** au-delà de 10 sont ignorées. 
   
-Vous pouvez définir le remplissage dégradées propriétés dans le volet de **Format de la forme** (sous l’onglet **accueil** , dans le groupe **Styles de forme** , cliquez sur **remplissage**, puis cliquez sur **Options de remplissage**). 
+Vous pouvez définir les propriétés de dégradé de remplissage dans le volet **format** de la forme (sous l'onglet **Accueil** , dans le groupe **styles de formes** , cliquez sur **remplissage**, puis sur options de **remplissage**). 
   
-Vous pouvez activer ou désactiver un remplissage en dégradé de la forme en changeant la valeur de la cellule [FillGradientEnabled, cellule (Section Propriétés dégradé)](fillgradientenabled-cell-gradient-properties-section.md) . 
+Vous pouvez activer ou désactiver un remplissage en dégradé pour la forme en modifiant la valeur de la cellule [FillGradientEnabled (section Propriétés du dégradé)](fillgradientenabled-cell-gradient-properties-section.md) . 
   
 

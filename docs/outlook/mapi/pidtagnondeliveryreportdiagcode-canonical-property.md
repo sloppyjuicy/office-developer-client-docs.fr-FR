@@ -11,32 +11,32 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 528e18964cacfb59f30667295b792e850353f3ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a3cf1d32ac4c21137e1b1cbb04f64d7efbc0729d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329350"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>Propriété canonique PidTagNonDeliveryReportDiagCode
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un code de diagnostic qui fait partie d’un rapport de non-remise.
+Contient un code de diagnostic qui fait partie d'un rapport de livraison incomplète.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NDR_DIAG_CODE  <br/> |
 |Identificateur :  <br/> |0x0C05  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement une des valeurs suivantes :
+Cette propriété peut avoir exactement l'une des valeurs suivantes:
   
 MAPI_DIAG_ALPHABETIC_CHARACTER_LOST 
   
@@ -230,17 +230,17 @@ MAPI_DIAG_TOO_MANY_RECIPIENTS
   
 > 
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

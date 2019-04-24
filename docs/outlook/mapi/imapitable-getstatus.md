@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cda3de1719ec1b7cfca1a9ecdad7bc3b59a8b17d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ec305fc872d1bf1718592dabdd230617d50d3f54
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328895"
 ---
 # <a name="imapitablegetstatus"></a>IMAPITable::GetStatus
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571149"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie l’état et le type de la table.
+Renvoie l'État et le type de la table.
   
 ```cpp
 HRESULT GetStatus(
@@ -38,75 +38,75 @@ ULONG FAR * lpulTableType
 
  _lpulTableStatus_
   
-> [out] Pointeur vers une valeur indiquant l’état de la table. Une des valeurs suivantes peut être renvoyée :
+> remarquer Pointeur vers une valeur indiquant l'état de la table. L'une des valeurs suivantes peut être renvoyée:
     
 TBLSTAT_COMPLETE 
   
-> Aucune opération n’est en cours.
+> Aucune opération n'est en cours.
     
 TBLSTAT_QCHANGED 
   
-> Le contenu de la table ont changé expectantly. Cette valeur d’état n’est pas retournée pour que les modifications qui résultent des opérations de tri ou de restriction.
+> Le contenu de la table a expectantly modifié. Cette valeur d'État n'est pas renvoyée pour les modifications résultant des opérations de tri ou de restriction.
     
 TBLSTAT_RESTRICT_ERROR 
   
-> Une erreur s’est produite pendant une opération [IMAPITable](imapitable-restrict.md) . 
+> Une erreur s'est produite lors d'une opération [IMAPITable:: Restrict](imapitable-restrict.md) . 
     
 TBLSTAT_RESTRICTING 
   
-> Une opération **IMAPITable** est en cours. 
+> Une opération **IMAPITable:: Restrict** est en cours. 
     
 TBLSTAT_SETCOL_ERROR 
   
-> Une erreur s’est produite pendant une opération [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+> Une erreur s'est produite lors d'une opération [IMAPITable:: SetColumns](imapitable-setcolumns.md) . 
     
 TBLSTAT_SETTING_COLS 
   
-> Une opération **IMAPITable::SetColumns** est en cours. 
+> Une opération **IMAPITable:: SetColumns** est en cours. 
     
 TBLSTAT_SORT_ERROR 
   
-> Une erreur s’est produite pendant une opération [IMAPITable::SortTable](imapitable-sorttable.md) . 
+> Une erreur s'est produite lors d'une opération [IMAPITable:: SortTable](imapitable-sorttable.md) . 
     
 TBLSTAT_SORTING 
   
-> Une opération **IMAPITable::SortTable** est en cours. 
+> Une opération **IMAPITable:: SortTable** est en cours d'exécution. 
     
  _lpulTableType_
   
-> [out] Pointeur vers une valeur qui indique le type de la table. Un des types de trois tableau suivantes peut être renvoyé :
+> remarquer Pointeur vers une valeur qui indique le type de la table. L'un des trois types de tableau suivants peut être renvoyé:
     
 TBLTYPE_DYNAMIC 
   
-> Le contenu de la table est dynamique ; les lignes et les valeurs de colonne peuvent changer en tant que les modifications de données sous-jacente.
+> Le contenu de la table est dynamique; les lignes et les valeurs de colonne peuvent changer lorsque les données sous-jacentes sont modifiées.
     
 TBLTYPE_KEYSET 
   
-> Les lignes dans le tableau sont fixe, mais les valeurs de colonnes dans les lignes sont dynamiques et peuvent changer lorsque les modifications de données sous-jacente.
+> Les lignes du tableau sont fixes, mais les valeurs des colonnes de ces lignes sont dynamiques et peuvent changer à mesure que les données sous-jacentes sont modifiées.
     
 TBLTYPE_SNAPSHOT 
   
-> Le tableau est statique et son contenu n’est pas modifié lorsque les données sous-jacentes changent.
+> Le tableau est statique et son contenu ne change pas lorsque les données sous-jacentes sont modifiées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’état de la table a été renvoyée avec succès.
+> L'état de la table a été renvoyé avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPTable::GetStatus** récupère des informations sur le type et l’état actuel d’une table. 
+La méthode **IMAPTable:: GetStatus** récupère des informations sur le type et l'état actuel d'une table. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser **GetStatus** conjointement avec les trois autres méthodes **IMAPITable** pour surveiller l’état de ces opérations et de déterminer l’incidence sur le tableau. Appelez **GetStatus** après avoir effectué une des appels **IMAPITable** suivants : 
+Vous pouvez utiliser **GetStatus** conjointement avec trois autres méthodes **IMAPITable** pour surveiller l'état de ces opérations et déterminer l'effet sur le tableau. Appelez **GetStatus** après avoir effectué l'un des appels de **IMAPITable** suivants: 
   
-- [IMAPITable](imapitable-restrict.md) pour définir une restriction. 
+- [IMAPITable:: restreindre](imapitable-restrict.md) pour définir une restriction. 
     
-- [IMAPITable::SortTable](imapitable-sorttable.md) pour établir un ordre de tri. 
+- [IMAPITable:: SortTable](imapitable-sorttable.md) pour établir un ordre de tri. 
     
-- [IMAPITable::SetColumns](imapitable-setcolumns.md) pour définir un ensemble de colonnes. 
+- [IMAPITable:: SetColumns](imapitable-setcolumns.md) pour définir un jeu de colonnes. 
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -114,7 +114,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI utilise la méthode **IMAPITable::GetStatus** pour indiquer l’état d’une table.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl:: GetStatus  <br/> |MFCMAPI utilise la méthode **IMAPITable:: GetStatus** pour signaler l'état d'un tableau.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

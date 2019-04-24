@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: e1bc4900-d261-f692-386b-139ef6960212
-description: Spécifie le principal accountsendstamp pour un message.
+description: Spécifie le accountsendstamp principal d'un message.
 ms.openlocfilehash: 902c71bd4a1bd5a25ab50c4b26bcfa6d5e8489e6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327705"
 ---
 # <a name="pidtagprimarysendaccount"></a>PidTagPrimarySendAccount
 
-Indique le compte principal « envoyer » pour un message.
+Spécifie le cachet «envoyer» du compte principal pour un message.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -29,7 +29,7 @@ Indique le compte principal « envoyer » pour un message.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété s’applique à un objet de message MAPI. Pour un message reçu, l’horodatage « envoyer » de compte principal indique quel compte de transfert ou une réponse doit être envoyée avec. Pour un message sortant, il détermine quel compte pour envoyer le message avec. Sa valeur est la valeur [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) à partir de l’interface [IOlkAccount](iolkaccount.md) du compte avec lequel le message est envoyé. 
+Cette propriété s'applique à un objet message MAPI. Pour un message reçu, le cachet «envoyer» du compte principal indique le compte vers lequel un envoi ou une réponse doit être envoyé. Pour un message sortant, il détermine le compte avec lequel envoyer le message. Sa valeur est la valeur [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) de l'interface [IOlkAccount](iolkaccount.md) du compte avec lequel le message est envoyé. 
   
 ## <a name="see-also"></a>Voir aussi
 

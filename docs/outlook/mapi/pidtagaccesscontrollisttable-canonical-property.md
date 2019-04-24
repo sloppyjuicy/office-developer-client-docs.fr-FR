@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 48667fda-ddc4-42ac-9231-761db0a4c1a9
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 40a2bc8a27ec3ce3df610b9c7364719c2b5ee750
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9c71a2b806b810906c13ea4750e5491b1544f640
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332003"
 ---
 # <a name="pidtagaccesscontrollisttable-canonical-property"></a>Propriété canonique PidTagAccessControlListTable
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau qui se compose de tous les l’accès listes de contrôle système (SACL) appliqués à un dossier.
+Contient un tableau qui se compose de toutes les listes de contrôle d'accès système appliquées à un dossier.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ACL_TABLE  <br/> |
 |Identificateur :  <br/> |0x3FE0  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Domaine :  <br/> |Contrôle d’accès  <br/> |
+|Domaine :  <br/> |Contrôle d'accès  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est présente sur tous les objets de dossier sur un serveur Exchange. Valeurs inclus dans cette propriété sont utilisées pour la lecture et de modification de contrôle d’accès les listes de dossiers. Vous pouvez utiliser la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) avec l’identificateur d’interface **IID_IExchangeModifyTable** pour obtenir un [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) interface à la table ACL sur un dossier. Vous pouvez utiliser cette interface pour lire et modifier les listes ACL. 
+Cette propriété est présente sur tous les objets Folder sur un serveur Exchange. Les valeurs comprises dans cette propriété sont utilisées pour la lecture et la modification de listes de contrôle d'accès (ACL) sur les dossiers. Vous pouvez utiliser la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) avec l'identificateur d'interface **IID_IExchangeModifyTable** pour obtenir une interface [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) dans la table ACL d'un dossier. Vous pouvez utiliser cette interface pour lire et modifier ces listes de Contrã'le d'accès. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

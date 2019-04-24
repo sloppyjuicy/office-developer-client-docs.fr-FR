@@ -7,17 +7,17 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
-description: Toutes les données XML qui sont retournées par les fournisseurs OSC dans les méthodes d’extensibilité de fournisseur OSC doit respecter le schéma XML de fournisseur OSC suivant. Le schéma OSC est reproduit ici dans son intégralité.
+description: Tous les éléments XML renvoyés par les fournisseurs OSC dans les méthodes d'extensibilité du fournisseur OSC doivent respecter les schémas XML de fournisseur OSC suivants. Le schéma OSC est reproduit ici dans son intégralité.
 ms.openlocfilehash: 578f0ea0c8df4f81c51ce71b50aa2768fe930d5c
-ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26643170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329193"
 ---
 # <a name="outlook-social-connector-provider-xml-schema"></a>Schéma XML du fournisseur Outlook Social Connector
 
-Toutes les données XML qui sont retournées par les fournisseurs OSC dans les méthodes d’extensibilité de fournisseur OSC doit respecter le schéma XML de fournisseur OSC suivant. Le schéma OSC est reproduit ici dans son intégralité. Le fichier de définition de schéma actuel, OutlookSocialProvider1_1.xsd, est également fourni dans le téléchargement pour les modèles du fournisseur qui accompagnent cet article. Pour plus d’informations, voir [Outlook Social Connector 2013 : modèles du fournisseur](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
+Tous les éléments XML renvoyés par les fournisseurs OSC dans les méthodes d'extensibilité du fournisseur OSC doivent respecter les schémas XML de fournisseur OSC suivants. Le schéma OSC est reproduit ici dans son intégralité. Le fichier de définition de schéma actuel, OutlookSocialProvider1_1. xsd, est également fourni dans le téléchargement pour les modèles de fournisseur qui accompagnent cet article. Pour plus d'informations, consultez la rubrique [Outlook Social Connector 2013: modèles de fournisseur](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -460,11 +460,11 @@ Toutes les données XML qui sont retournées par les fournisseurs OSC dans les m
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Exemple de code XML des fonctionnalités](capabilities-xml-example.md)  
-- [Exemple de code XML amis](friends-xml-example.md) 
-- [Exemple de flux XML d’activité](activity-feed-xml-example.md)  
-- [Fichier XML pour les fonctionnalités](xml-for-capabilities.md)  
-- [Code XML des amis](xml-for-friends.md)  
+- [Exemple de XML de fonctionnalités](capabilities-xml-example.md)  
+- [Exemple de code XML pour les amis](friends-xml-example.md) 
+- [Exemple de XML d'informations sur les activités](activity-feed-xml-example.md)  
+- [XML pour les fonctionnalités](xml-for-capabilities.md)  
+- [XML pour les amis](xml-for-friends.md)  
 - [XML pour les activités](xml-for-activities.md)  
 - [Interfaces de fournisseur Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
 

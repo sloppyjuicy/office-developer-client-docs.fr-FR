@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b8fe0dd61247d3473db4cc728ecfa2c83682b691
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ae9b79abea9a1b2b31867b9ed575e16e8f1c4474
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327278"
 ---
 # <a name="pidtagattachmimesequence-canonical-property"></a>Propriété canonique PidTagAttachMimeSequence
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le numéro de séquence MIME d’une pièce jointe du message MIME.
+Contient le numéro de séquence MIME d'une pièce jointe de message MIME.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient le numéro de séquence MIME d’une pièce jointe du message MIME.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour la prise en charge MHTML. Il représente le numéro de séquence de la pièce jointe dans le composant de parties de corps MIME du message MIME parent.
+Cette propriété est utilisée pour la prise en charge de MHTML. Il représente le numéro de séquence de la pièce jointe dans la partie de corps MIME parent du message MIME.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

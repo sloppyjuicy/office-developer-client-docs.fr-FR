@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c3d0f6c4-4597-784f-8d44-6e5d905895b4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6b57ed45e067ce2debd40e033d386ad2b5ae895a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2280ae9271ca73af33f395bf9e41a9ee8fa62f96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327523"
 ---
 # <a name="followupstatus"></a>FollowUpStatus
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les différents statuts de suivi d’un message.
+Spécifie les différents statuts de suivi d'un message.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -34,11 +34,11 @@ enum FollowUpStatus {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _flwupNone_
   
-> Aucun suivi n’a été spécifié.
+> Aucun suivi n'a été spécifié.
     
  _flwupComplete_
   
@@ -50,7 +50,7 @@ enum FollowUpStatus {
     
  _flwupMAX_
   
-> Le nombre de différents statuts pris en charge pour le suivi.
+> Nombre d'États différents pris en charge pour le suivi.
     
 ## <a name="see-also"></a>Voir aussi
 

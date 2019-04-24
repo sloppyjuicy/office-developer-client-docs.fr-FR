@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9d441f10a41b2f29f29d6d22a45f3c6f52270a1a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 64f98c8a9f8ab515393bb0fac4bdc10e98d9760f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329301"
 ---
 # <a name="pidtagnonreceiptreason-canonical-property"></a>Propriété canonique PidTagNonReceiptReason
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des raisons pourquoi un message n’a pas été reçu qui fait partie d’un rapport de non-remise.
+Contient les raisons pour lesquelles un message n'a pas été reçu qui fait partie d'une notification d'échec de remise.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient des raisons pourquoi un message n’a pas été reçu qui fait partie d
    
 ## <a name="remarks"></a>Remarques
 
-Raisons possibles, par exemple, que le message a été supprimé.
+Les raisons peuvent inclure, par exemple, que le message a été ignoré.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

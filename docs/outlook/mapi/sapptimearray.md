@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d277908d3ec96537f63511e4d50488a694696bd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: dee1de19ed61fa4f8edab69152315d77545b01b2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331695"
 ---
 # <a name="sapptimearray"></a>SAppTimeArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de valeurs d’heure.
+Contient un tableau de valeurs d'heure.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SAppTimeArray
@@ -44,15 +44,15 @@ typedef struct _SAppTimeArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau indiqué par le membre **lpat** . 
+> Nombre de valeurs dans le tableau vers lequel pointe le membre **LPAT** . 
     
- **lpat**
+ **LPAT**
   
-> Pointeur vers un tableau de valeurs de temps d’application. 
+> Pointeur vers un tableau de valeurs de temps d'application. 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SAppTimeArray** est utilisée pour définir les propriétés de type PT_MV_APPTIME. Pour plus d’informations sur PT_MV_APPTIME, voir la [Liste des Types de propriété](property-types.md).
+La structure **SAppTimeArray** est utilisée pour définir les propriétés de type PT_MV_APPTIME. Pour plus d'informations sur PT_MV_APPTIME, consultez la rubrique [liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

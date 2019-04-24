@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48b634d7-deea-422b-8944-a8d929d83838
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 56f14488812842d5e9fe63ae228c325059ebe679
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 1c7a35ded4861d724520b02ec5d61246774ca5cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330127"
 ---
 # <a name="pidtagresourcetype-canonical-property"></a>Propriété canonique PidTagResourceType
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur qui indique le type de fournisseur de service.
+Contient une valeur qui indique le type de fournisseur de services.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient une valeur qui indique le type de fournisseur de service.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement une des valeurs suivantes :
+Cette propriété peut avoir exactement l'une des valeurs suivantes:
   
 MAPI_AB 
   
@@ -44,11 +44,11 @@ MAPI_AB
     
 MAPI_AB_PROVIDER 
   
-> Fournisseur de carnet d’adresses
+> Fournisseur de carnets d'adresses
     
 MAPI_HOOK_PROVIDER 
   
-> Fournisseur de raccordement spouleur
+> Fournisseur de hook de spouleur
     
 MAPI_PROFILE_PROVIDER 
   
@@ -56,7 +56,7 @@ MAPI_PROFILE_PROVIDER
     
 MAPI_SPOOLER 
   
-> Spouleur de message
+> Spouleur de messages
     
 MAPI_STORE_PROVIDER 
   
@@ -70,17 +70,17 @@ MAPI_TRANSPORT_PROVIDER
   
 > Fournisseur de transport
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

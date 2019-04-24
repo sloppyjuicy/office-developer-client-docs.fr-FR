@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ce78c6873f3a1dc034ae33f3c9e965ef8f2f1815
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 5e2ce756baaefef7bd0028e746b1dbe10756365e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329041"
 ---
 # <a name="imapitableexpandrow"></a>IMAPITable::ExpandRow
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563778"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Développe une catégorie de table réduite, ajout de la feuille ou des lignes d’en-tête de niveau inférieur appartenant à la catégorie à l’affichage tableau.
+Développe une catégorie de table réduite, ajoutant la feuille ou les lignes de titre de niveau inférieur appartenant à la catégorie à l'affichage tableau.
   
 ```cpp
 HRESULT ExpandRow(
@@ -42,55 +42,55 @@ ULONG FAR * lpulMoreRows
 
  _cbInstanceKey_
   
-> [in] Le nombre d’octets dans la propriété PR_INSTANCE_KEY indiqué par le paramètre _pbInstanceKey_ . 
+> dans Nombre d'octets dans la propriété PR_INSTANCE_KEY vers laquelle pointe le paramètre _pbInstanceKey_ . 
     
  _pbInstanceKey_
   
-> [in] Pointeur vers la propriété **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne d’en-tête de la catégorie. 
+> dans Pointeur vers la propriété **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne d'en-tête pour la catégorie. 
     
  _ulRowCount_
   
-> [in] Le nombre maximal de lignes à renvoyer dans le paramètre _lppRows_ . 
+> dans Nombre maximal de lignes à renvoyer dans le paramètre _lppRows_ . 
     
  _ulFlags_
   
-> Réservé ; doit être égal à zéro.
+> MSR doit être égal à zéro.
     
  _lppRows_
   
-> [out] Pointeur vers une structure [SRowSet](srowset.md) recevoir des lignes qui ont été insérés dans la vue table à la suite de l’extension de la première (jusqu'à _ulRowCount_). Ces lignes sont insérées après la ligne d’en-tête identifiée par le paramètre _pbInstanceKey_ . Le paramètre _lppRows_ peut être NULL si le paramètre _ulRowCount_ est égale à zéro. 
+> remarquer Pointeur vers une structure [SRowSet](srowset.md) qui reçoit les premières lignes (jusqu'à _ulRowCount_) qui ont été insérées dans l'affichage de tableau à la suite de l'expansion. Ces lignes sont insérées après la ligne d'en-tête identifiée par le paramètre _pbInstanceKey_ . Le paramètre _lppRows_ peut être null si le paramètre _ulRowCount_ est égal à zéro. 
     
  _lpulMoreRows_
   
-> [out] Pointeur vers le nombre total de lignes qui ont été ajoutés à l’affichage tableau.
+> remarquer Pointeur vers le nombre total de lignes qui ont été ajoutées à l'affichage tableau.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La catégorie a été développée avec succès.
+> La catégorie a été développée.
     
 MAPI_E_NOT_FOUND 
   
-> La ligne identifiée par le paramètre _pbInstanceKey_ n’existe pas. 
+> La ligne identifiée par le paramètre _pbInstanceKey_ n'existe pas. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable::ExpandRow** développe une catégorie de table réduite, ajout de la feuille ou les lignes d’en-tête de niveau inférieur qui appartiennent à la catégorie à l’affichage tableau. Limite le nombre de lignes à renvoyer dans le paramètre _lppRows_ peut être spécifiée dans le paramètre _ulRowCount_ . Lorsque _ulRowCount_ est défini sur une valeur supérieure à zéro, une ou plusieurs lignes sont retournées dans le jeu de lignes indiqué par _lppRows_la position du signet que bookmark_current est déplacé vers la ligne immédiatement après la dernière ligne de la ligne est définie.
+La méthode **IMAPITable:: ExpandRow** développe une catégorie de table réduite, ajoutant la feuille ou les lignes de titre de niveau inférieur qui appartiennent à la catégorie à la vue de table. Une limite au nombre de lignes à renvoyer dans le paramètre _lppRows_ peut être spécifiée dans le paramètre _ulRowCount_ . Lorsque _ulRowCount_ est défini sur une valeur supérieure à zéro et qu'une ou plusieurs lignes sont renvoyées dans l'ensemble de lignes désigné par _lppRows_, la position du signet BOOKMARK_CURRENT est déplacée vers la ligne qui suit immédiatement la dernière ligne du jeu de lignes.
   
-Lorsque _ulRowCount_ est égale à zéro, demande qui zéro feuille ou lignes d’en-tête de niveau inférieur à ajouter à la catégorie ou zéro lignes sont retournées, car aucune feuille ou les lignes d’en-tête de niveau inférieur de la catégorie, la position de BOOKMARK_CURRENT est définie à la ligne la ligne identifié par _pbInstanceKey_. 
+Lorsque _ulRowCount_ est défini sur zéro, demander l'ajout de lignes de titre zéro ou de niveau inférieur à la catégorie, ou la renvoi de lignes null est possible, car il n'existe aucune ligne de titre de niveau inférieur ou de niveau inférieur dans la catégorie, la position de BOOKMARK_CURRENT est définie sur la ligne suivi de la ligne identifiée par _pbInstanceKey_. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Ne génèrent pas de notifications sur les lignes qui sont ajoutés à un affichage de tableau en raison d’extension de catégorie.
+Ne générez pas de notifications sur les lignes ajoutées à une vue de table en raison de l'expansion de catégorie.
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Le nombre de lignes dans le jeu de lignes indiqué par le paramètre _lppRows_ ne peut pas égal au nombre de lignes qui ont été ajoutés à la table, l’ensemble de la définir de feuille ou de lignes pour la catégorie d’en-tête de niveau inférieur. Erreurs peuvent se produire, telles que la mémoire ou le nombre de lignes dans la catégorie dépassant le nombre spécifié dans le paramètre _ulRowCount_ . Dans les deux cas, BOOKMARK_CURRENT sera positionné à la dernière ligne renvoyée. Pour récupérer immédiatement le reste des lignes de la catégorie, appelez [IMAPITable::QueryRows](imapitable-queryrows.md).
+Le nombre de lignes dans l'ensemble de lignes désigné par le paramètre _lppRows_ ne peut pas être égal au nombre de lignes réellement ajoutées à la table, l'ensemble de lignes feuille ou de titre de niveau inférieur de la catégorie. Des erreurs peuvent se produire, comme une mémoire insuffisante ou le nombre de lignes de la catégorie dépassant le nombre spécifié dans le paramètre _ulRowCount_ . Dans les deux cas, BOOKMARK_CURRENT est positionné sur la dernière ligne renvoyée. Pour récupérer immédiatement les autres lignes de la catégorie, appelez [IMAPITable:: QueryRows](imapitable-queryrows.md).
   
-Ne prévoyez pas de recevoir une notification de table lorsqu’une catégorie modifie son état. Vous pouvez conserver un cache local des lignes qui peuvent être mises à jour à chaque appel **ExpandRow** ou **CollapseRow** . 
+Ne prévoyez pas de recevoir une notification de table lorsqu'une catégorie modifie son état. Vous pouvez gérer un cache local de lignes qui peuvent être mis à jour à chaque appel de **ExpandRow** ou de **CollapseRow** . 
   
-Pour plus d’informations sur les tables, voir, consultez [tri et catégorisation](sorting-and-categorization.md).
+Pour plus d'informations sur les tables classées, reportez-vous à la rubrique [Tri et catégorisation](sorting-and-categorization.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -98,7 +98,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI utilise la méthode **IMAPITable::ExpandRow** pour développer une catégorie de table réduite.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI utilise la méthode **IMAPITable:: ExpandRow** pour développer une catégorie de table réduite.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7417975ba2263f4604d08b51d70b17af07c8c5a9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8c7481657496a0b7c9c3df4ccf37805f587eb82a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325815"
 ---
 # <a name="pidtagmessagedeliveryid-canonical-property"></a>Propriété canonique PidTagMessageDeliveryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur de système (MTS) de transfert de message pour les messages remis à une application cliente.
+Contient un identificateur MTS (Message Transfer System) pour un message remis à une application cliente.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Contient un identificateur de système (MTS) de transfert de message pour les me
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Serveur  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

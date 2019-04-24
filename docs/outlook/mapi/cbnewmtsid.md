@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd5ef226-39e6-4604-a751-2f6cc49c4895
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7be2c8176e890e71963fa9c58ebea6b5bb510fe1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8ffff7958ab405e488ac2ce45bae43b78da7b0f4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331597"
 ---
 # <a name="cbnewmtsid"></a>CbNewMTSID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets qui doit être alloué pour une nouvelle structure [MTSID](mtsid.md) avec un identificateur de l’agent de transfert de messages d’une taille spécifiée. 
+Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [MTSID](mtsid.md) avec un identificateur d'agent de transfert de messages d'une taille spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**MTSID** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**MTSID** <br/> |
    
 ```cpp
 CbNewMTSID (_cb)
@@ -38,9 +38,9 @@ CbNewMTSID (_cb)
 
 ## <a name="parameters"></a>Paramètres
 
- __cb_
+ __CB_
   
-> Nombre d’octets pour l’identificateur de l’agent de transfert de message à inclure dans la nouvelle structure **MTSID** . 
+> Nombre d'octets pour l'identificateur de l'agent de transfert de messages à inclure dans la nouvelle structure **MTSID** . 
     
 ## <a name="see-also"></a>Voir aussi
 

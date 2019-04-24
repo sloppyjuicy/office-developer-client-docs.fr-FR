@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 532f7af0-b2cc-49dd-b1de-e3ec1dc9a3e7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 855810f7ac3bc1bd433ddd56aba3fe1f938b9559
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 07aa508b473f4a87d5b4909f83771549c301a600
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326361"
 ---
 # <a name="imapisupportopentemplateid"></a>IMAPISupport::OpenTemplateID
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575384"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre une entrée de destinataires dans un fournisseur de carnet d’adresse étrangère.
+Ouvre une entrée de destinataire dans un fournisseur de carnets d'adresses étrangers.
   
 ```cpp
 HRESULT OpenTemplateID(
@@ -43,35 +43,35 @@ LPMAPIPROP lpMAPIPropSibling
 
  _cbTemplateID_
   
-> [in] Le nombre d’octets dans l’identificateur de modèle désigné par _lpTemplateID_. 
+> dans Nombre d'octets dans l'identificateur de modèle pointé par _lpTemplateID_. 
     
  _lpTemplateID_
   
-> [in] Pointeur vers l’identificateur du modèle propriété **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de l’entrée de destinataire à ouvrir.
+> dans Pointeur vers la propriété **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de l'identificateur de modèle de l'entrée de destinataire à ouvrir.
     
  _ulTemplateFlags_
   
-> [in] Un masque binaire composé des indicateurs utilisés pour décrire comment ouvrir l’entrée. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs utilisés pour décrire l'ouverture de l'entrée. L'indicateur suivant peut être défini:
     
 FILL_ENTRY 
   
-> Une nouvelle entrée est créée. Lorsque le fournisseur étranger reçoit le prochain appel [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) MAPI, il peut contrôler la création de l’entrée en modifiant les propriétés indiquées par le paramètre _lpMAPIPropData_ ou en retournant une interface spécifique mise en œuvre dans _lppMAPIPropNew_ pour contrôler la définition des propriétés de la nouvelle entrée. 
+> Une nouvelle entrée est créée. Lorsque le fournisseur étranger reçoit l'appel [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) à partir de MAPI, il peut contrôler la manière dont l'entrée est créée en modifiant les propriétés pointées par le paramètre _lpMAPIPropData_ ou en renvoyant une interface spécifique. implémentation dans _lppMAPIPropNew_ pour contrôler la définition des propriétés de la nouvelle entrée. 
     
  _lpMAPIPropData_
   
-> [in] Pointeur vers l’implémentation d’interface de l’appelant à accéder à l’entrée. Il s’agit de l’implémentation du fournisseur étranger pouvant envelopper avec sa propre implémentation et retourner dans le paramètre _lppMAPIPropNew_ . Le paramètre _lpMAPIPropData_ doit pointer sur une implémentation d’interface en lecture/écriture qui dérive de [IMAPIProp : IUnknown](imapipropiunknown.md) et prend en charge l’interface demandée dans le paramètre _lpInterface_ . 
+> dans Pointeur vers l'implémentation de l'interface que l'appelant utilise pour accéder à l'entrée. Il s'agit de l'implémentation que le fournisseur étranger peut encapsuler avec sa propre implémentation et renvoyer le paramètre _lppMAPIPropNew_ . Le paramètre _lpMAPIPropData_ doit pointer vers une implémentation d'interface en lecture/écriture qui dérive de [IMAPIProp: IUnknown](imapipropiunknown.md) et prend en charge l'interface demandée dans le paramètre _lpInterface_ . 
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’entrée. Le paramètre _lppMAPIPropNew_ pointe vers une interface du type spécifié par _lpInterface_. Passage de NULL renvoie l’interface standard pour un utilisateur de messagerie, IID_IMailUser. 
+> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder à l'entrée. Le paramètre _lppMAPIPropNew_ pointe vers une interface du type spécifié par _lpInterface_. Le passage de NULL renvoie l'interface standard pour un utilisateur de messagerie, IID_IMailUser. 
     
  _lppMAPIPropNew_
   
-> [out] Pointeur vers l’implémentation d’interface que le fournisseur étranger donne pour accéder à l’entrée.
+> remarquer Pointeur vers l'implémentation de l'interface que le fournisseur étranger fournit pour accéder à l'entrée.
     
  _lpMAPIPropSibling_
   
-> Réservé ; doit être NULL.
+> MSR doit être NULL.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -81,19 +81,19 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Le fournisseur de carnet d’adresse étrangère n’existe pas.
+> Le fournisseur de carnets d'adresses étrangers n'existe pas.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::OpenTemplateID** est implémentée uniquement pour les objets de prise en charge du fournisseur adresse téléchargeable. **OpenTemplateID** est appelé uniquement par les fournisseurs de carnet d’adresses qui peuvent agir en tant qu’hôtes pour les entrées qui appartiennent à d’autres fournisseurs de carnet d’adresses, également appelé étrangères fournisseurs. Fournisseurs d’hébergement appellent **OpenTemplateID** pour ouvrir une entrée étrangère, ce qui se produit lorsque des données dans le fournisseur d’hébergement sont liées au code dans le fournisseur étranger. 
+La méthode **IMAPISupport:: OpenTemplateID** est implémentée uniquement pour les objets de prise en charge du fournisseur de carnet d'adresses. **OpenTemplateID** est appelé uniquement par les fournisseurs de carnet d'adresses qui peuvent agir comme des hôtes pour les entrées appartenant à d'autres fournisseurs de carnet d'adresses, également appelés fournisseurs étrangers. Les fournisseurs d'hôtes appellent **OpenTemplateID** pour ouvrir une entrée étrangère, qui se produit lorsque les données du fournisseur hôte sont liées au code dans le fournisseur étranger. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **OpenTemplateID** uniquement si vous prenez en charge le stockage des entrées avec les identificateurs de modèle à partir des fournisseurs de carnet d’adresse étrangère. Cette prise en charge impose des exigences supplémentaires sur vos implémentations [IABContainer::CreateEntry](iabcontainer-createentry.md) et [IABLogon::OpenEntry](iablogon-openentry.md) . Pour plus d’informations, consultez les descriptions de ces méthodes [agissant comme un fournisseur de carnet d’adresses hôte](acting-as-a-host-address-book-provider.md).
+Appelez **OpenTemplateID** uniquement si vous prenez en charge le stockage des entrées avec des identificateurs de modèle provenant de fournisseurs de carnet d'adresses étrangers. Cette prise en charge impose des exigences supplémentaires sur vos implémentations de [IABContainer:: CreateEntry](iabcontainer-createentry.md) et [IABLogon:: OpenEntry](iablogon-openentry.md) . Pour plus d'informations, consultez les descriptions de ces méthodes et [agir en tant que fournisseur de carnets d'adresses hôte](acting-as-a-host-address-book-provider.md).
   
-Si l’appel **OpenTemplateID** renvoie l’interface liée l’implémentation d’objet même propriété que vous avez passé, vous pouvez libérer la référence à votre objet de la propriété. Il s’agit, car le fournisseur étranger a appelé la méthode l’objet **AddRef** pour garder sa propre référence. Si le fournisseur étranger n’a pas besoin de conserver une référence à l’objet property, **OpenTemplateID** renvoie l’objet property indépendant. 
+Si l'appel **OpenTemplateID** est renvoyé en tant qu'interface liée à la même implémentation d'objet de propriété que celle que vous avez passée, vous pouvez libérer votre référence à votre objet Property. Cela est dû au fait que le fournisseur étranger a appelé la méthode **AddRef** de l'objet pour conserver sa propre référence. Si le fournisseur étranger n'a pas besoin de conserver une référence à l'objet Property, **OpenTemplateID** renverra l'objet de propriété indépendant. 
   
-En cas d’échec de **OpenTemplateID** avec MAPI_E_UNKNOWN_ENTRYID, essayez de continuer à traiter l’entrée en lecture seule. 
+Si **OpenTemplateID** échoue avec MAPI_E_UNKNOWN_ENTRYID, essayez de continuer en traitant l'entrée comme étant en lecture seule. 
   
 ## <a name="see-also"></a>Voir aussi
 

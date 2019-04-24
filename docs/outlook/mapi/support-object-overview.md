@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble de l’objet de prise en charge
+title: Vue d'ensemble de l'objet support
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,69 +7,69 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5b062891-39ab-4334-9706-5b376719d5e4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7f43a50d08daedc623fa1e4570eafa5d58be71f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 55d8a9c78ae5132eaa8cf0f0aec5b252ef83b926
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327166"
 ---
-# <a name="support-object-overview"></a>Vue d’ensemble de l’objet de prise en charge
+# <a name="support-object-overview"></a>Vue d'ensemble de l'objet support
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI fournit un objet de prise en charge, un objet qui implémente le [IMAPISupport : IUnknown](imapisupportiunknown.md) interface, pour tous les fournisseurs de services au cours de l’ouverture de session et pour tous les services de message lors de la configuration. 
+MAPI fournit un objet de prise en charge, un objet qui implémente l'interface [IMAPISupport: IUnknown](imapisupportiunknown.md) , pour tous les fournisseurs de services lors de l'ouverture de session et pour tous les services de messagerie lors de la configuration. 
   
-Prise en charge des objets ne sont pas accessibles par les clients ; ils sont implémentés par MAPI et appelées uniquement par les fournisseurs de services. L’interface **IMAPISupport** est spécifié dans le fichier d’en-tête Mapispi.h. Son identificateur est IID_IMAPISup et son type de pointeur est LPMAPISUP. Aucuns propriétés MAPI ne sont exposées par les objets de prise en charge. 
+Les clients ne peuvent pas accéder aux objets de prise en charge; elles sont implémentées par MAPI et appelées uniquement par les fournisseurs de services. L'interface **IMAPISupport** est spécifiée dans le fichier d'en-tête Mapispi. h. Son identificateur est IID_IMAPISup et son type de pointeur est LPMAPISUP. Aucune propriété MAPI n'est exposée par les objets de prise en charge. 
   
-Un fournisseur peut être attribué à un ou plusieurs objets de prise en charge, selon le nombre de fois que le fournisseur de session MAPI ou le nombre de répétitions de que fonction de l’entrée de service de message du fournisseur est appelée. En règle générale, un fournisseur sera connecté au moins une fois par session. Fournisseurs de transport et le carnet d’adresses sont enregistrés chaque fois qu’un client démarre une session avec une entrée de profil qui les demande. Fournisseurs de banque de messages sont enregistrés sur chaque fois qu’un client appelle la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . 
+Un fournisseur peut recevoir un ou plusieurs objets de prise en charge, selon le nombre de fois que MAPI enregistre le fournisseur ou le nombre de fois que la fonction d'entrée de service de message du fournisseur est appelée. En règle générale, un fournisseur est connecté au moins une fois par session. Le carnet d'adresses et les fournisseurs de transport sont connectés chaque fois qu'un client démarre une session avec une entrée de profil qui le demande. Les fournisseurs de banques de messages sont connectés chaque fois qu'un client appelle la méthode [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . 
   
-Dans le cas d’ouvertures de session multiples dans une session, vous pouvez choisir de conserver et d’utiliser chaque objet prise en charge séparément ou de conserver et d’utiliser uniquement le premier, en supprimant chaque objet prise en charge suivantes. Pour conserver un objet de prise en charge, appelez la méthode **IUnknown::AddRef** . L’appel de **AddRef** sur un objet de prise en charge que vous souhaitez conserver au sein d’une session est extrêmement important ; Si l’appel n’est pas effectué, MAPI libère l’objet de prise en charge et libère de la mémoire. 
+Dans le cas de plusieurs ouvertures de session dans une session, vous pouvez choisir de conserver et d'utiliser chaque objet de prise en charge séparément ou de conserver et d'utiliser uniquement le premier objet de prise en charge. Pour conserver un objet de prise en charge, appelez sa méthode **IUnknown:: AddRef** . L'appel de **AddRef** sur un objet de prise en charge que vous souhaitez conserver au cours d'une session est extrêmement important; Si l'appel n'est pas effectué, MAPI libère l'objet de prise en charge et libère sa mémoire. 
   
-L’objectif de l’objet de prise en charge est de fournir des implémentations pour un grand nombre des méthodes couramment utilisées par les fournisseurs. Chaque objet de prise en charge contient également des données contextuelles spécifiques à sa propre instance, telles que la session que le fournisseur est en cours d’exécution dans la section profil qu'utilise le fournisseur et les informations d’erreur pour la session. 
+L'objectif de l'objet support est de fournir des implémentations pour un nombre assez important de méthodes couramment utilisées par les fournisseurs. Chaque objet support contient également des données contextuelles spécifiques à sa propre instance, telles que la session dans laquelle le fournisseur est exécuté, la section de profil utilisée par le fournisseur, ainsi que les informations d'erreur pour la session. 
   
-Il existe quatre types d’objets de prise en charge : un pour chaque type de fournisseur principales (carnet d’adresses, banque de messages et de transport) et un pour la prise en charge de la configuration. 
+Il existe quatre types d'objets de prise en charge: un pour chaque type de fournisseur principal (carnet d'adresses, Banque de messages et transport) et un autre pour la prise en charge de la configuration. 
   
-MAPI personnalise chaque objet prise en charge par, y compris les implémentations des méthodes qui sont pertinents pour son utilisation. Implémentations de certaines méthodes, telles [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md), sont incluses dans tous les objets de prise en charge. Implémentations d’autres méthodes, telles [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md), s’appliquent uniquement aux objets de prise en charge particulière. Magasin des messages uniquement et fournisseurs de transport peuvent utiliser cette méthode ; Lorsqu’un fournisseur de carnet d’adresses ou d’un service de message essayez d’appeler, MAPI renvoie MAPI_E_NO_SUPPORT.
+MAPI personnalise chaque objet de prise en charge en incluant des implémentations de méthodes qui sont pertinentes pour son utilisation. Les implémentations de certaines méthodes, telles que [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md), sont incluses dans tous les objets support. Les implémentations d'autres méthodes, telles que [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md), s'appliquent uniquement à des objets de prise en charge particuliers. Seuls les fournisseurs de banque de messages et de transport peuvent utiliser cette méthode; Lorsqu'un fournisseur de carnet d'adresses ou un service de messagerie tente de l'appeler, MAPI renvoie MAPI_E_NO_SUPPORT.
   
-Objets de prise en charge peuvent être utilisés pour réaliser de nombreuses tâches, telles que les suivantes :
+Les objets de prise en charge peuvent être utilisés pour effectuer de nombreuses tâches, telles que les suivantes:
   
 - Accès à une section de profil.
     
-- Copie de dossiers ou des messages. Pour plus d’informations, voir [copie ou déplacement d’un Message ou un dossier](copying-or-moving-a-message-or-a-folder.md).
+- Copie de dossiers ou de messages. Pour plus d'informations, consultez [la rubrique copie ou transfert d'un message ou d'un dossier](copying-or-moving-a-message-or-a-folder.md).
     
-- Accès aux objets qui appartiennent à d’autres fournisseurs. Pour plus d’informations, voir [prise en charge l’accès aux objets et comparaison](supporting-object-access-and-comparison.md). 
+- Accès aux objets qui appartiennent à d'autres fournisseurs. Pour plus d'informations, consultez la rubrique [prise en charge de l'accès aux objets et comparaison](supporting-object-access-and-comparison.md). 
     
-- Gestion de notification d’événement. Pour plus d’informations, voir [Prise en charge de Notification d’événement](supporting-event-notification.md).
+- Gestion des notifications d'événements. Pour plus d'informations, consultez la rubrique [notification d'événement de prise en charge](supporting-event-notification.md).
     
 - Allocation et libération de la mémoire.
     
-- Obtention d’un identificateur unique.
+- Obtention d'un identificateur unique.
     
-- Invalidation d’objets.
+- Invalidation des objets.
     
 - Gestion des erreurs.
     
-- Inscription Préprocesseurs du message. 
+- Enregistrement des préprocesseurs de messages. 
     
-- Préparation des rapports de remise de message. 
+- Préparation des rapports de remise des messages. 
     
-Au moment de l’ouverture de session MAPI appelle la méthode d’ouverture de session de l’objet de fournisseur de chaque fournisseur de services. Pour les fournisseurs de carnet d’adresses, MAPI appelle [IABProvider::Logon](iabprovider-logon.md). Pour les fournisseurs de banque de messages, [IMSProvider::Logon](imsprovider-logon.md)appels MAPI. Pour les fournisseurs de transport, [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)appels MAPI. MAPI passe un pointeur vers l’objet de prise en charge appropriée dans l’un des paramètres à cette méthode. À son tour, la méthode d’ouverture de session instancie un objet d’ouverture de session, en lui transmettant le pointeur d’objet prise en charge. L’objet d’ouverture de session appelle la prise en charge de méthode l’objet **IUnknown::AddRef** pour conserver, si nécessaire. Pour plus d’informations sur le processus d’ouverture de session pour les fournisseurs de service, voir [démarrage d’un fournisseur de services](starting-a-service-provider.md).
+Lors de l'ouverture de session, MAPI appelle la méthode d'ouverture de session de l'objet fournisseur de chaque fournisseur de services. Pour les fournisseurs de carnet d'adresses, MAPI appelle [IABProvider:: Logon](iabprovider-logon.md). Pour les fournisseurs de banque de messages, MAPI appelle [IMSProvider:: Logon](imsprovider-logon.md). Pour les fournisseurs de transport, MAPI appelle [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md). MAPI transmet un pointeur vers l'objet de prise en charge approprié dans l'un des paramètres à cette méthode. La méthode d'ouverture de session instancie à son tour un objet Logon, lui transmettant le pointeur d'objet support. L'objet Logon appelle la méthode **IUnknown:: AddRef** de l'objet support pour le conserver, le cas échéant. Pour plus d'informations sur le processus d'ouverture de session pour les fournisseurs de services, consultez la rubrique [démarrage d'un fournisseur de services](starting-a-service-provider.md).
   
-Quand un client se déconnecte, MAPI appelle la méthode de fermeture de session de l’objet d’ouverture de session. La méthode de fermeture de session appelle la méthode **IUnknown::Release** de l’objet de la prise en charge pour indiquer que le fournisseur a n’est plus l’intention d’appeler une des méthodes de prise en charge. Comme avec l’ouverture de session, les méthodes de fermeture de session ont des noms légèrement différents. Les interfaces [IABLogon](iablogoniunknown.md) et [IMSLogon](imslogoniunknown.md) ont des méthodes de **fermeture de session** ; l’interface [IXPLogon](ixplogoniunknown.md) a une méthode [TransportLogoff](ixplogon-transportlogoff.md) . 
+Lorsqu'un client se déconnecte, MAPI appelle la méthode de fermeture de session de l'objet. La méthode Logoff appelle la méthode **IUnknown:: Release** de l'objet de prise en charge pour indiquer que le fournisseur n'envisage plus d'appeler aucune des méthodes de prise en charge. Comme pour l'ouverture de session, les méthodes de fermeture de session ont des noms légèrement différents. Les interfaces [IABLogon](iablogoniunknown.md) et [IMSLogon](imslogoniunknown.md) ont des méthodes de **fermeture de session** ; l'interface [IXPLogon](ixplogoniunknown.md) possède une méthode [TransportLogoff](ixplogon-transportlogoff.md) . 
   
-Fonctions de point d’entrée message service sont appelées lorsqu’une tentative d’ouverture de session échoue avec l’erreur MAPI_E_UNCONFIGURED ou lorsqu’un client lance une demande de configuration. MAPI instancie un objet de configuration de prise en charge et appelle la fonction de point d’entrée de message service pour le fournisseur non configuré ou le fournisseur dont la configuration est sur le point de changer. Contrairement à d’autres objets, objets de configuration de prise en charge sont valides jusqu'à ce que le point d’entrée fonction renvoie ; services message n’appelez pas les méthodes **AddRef** de ces objets pour les conserver. 
+Les fonctions de point d'entrée du service de messagerie sont appelées lorsqu'une tentative d'ouverture de session échoue avec l'erreur MAPI_E_UNCONFIGURED ou lorsqu'un client lance une demande de configuration. MAPI instancie un objet de prise en charge de la configuration et appelle la fonction de point d'entrée du service de messagerie pour le fournisseur non configuré ou le fournisseur dont la configuration est sur le point d'être modifiée. Contrairement aux autres objets de prise en charge, les objets de prise en charge de la configuration sont valides jusqu'à ce que la fonction de point d'entrée renvoie; les services de messagerie n'appellent pas ces objets' **AddRef** Methods'pour les conserver. 
   
-En règle générale, MAPI effectue des appels à la fonction de point d’entrée du service de message d’un fournisseur, mais parfois un fournisseur est posée à l’appel. Cela peut se produire lorsqu’un client appelle une méthode de fournisseur [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) pour demander le fournisseur pour afficher sa feuille de propriétés de configuration. **Dialogue** doit appeler [IMAPISupport::GetSvcConfigSupportObj](imapisupport-getsvcconfigsupportobj.md) pour obtenir un objet de prise en charge de configuration il peut passer à la fonction de point d’entrée de message service. 
+En règle générale, MAPI effectue des appels vers la fonction de point d'entrée du service de messagerie d'un fournisseur, mais parfois un fournisseur est invité à effectuer l'appel. Cela peut se produire lorsqu'un client appelle la méthode [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) d'un fournisseur pour inviter le fournisseur à afficher sa feuille de propriétés de configuration. **SettingsDialog** doit appeler [IMAPISupport:: GetSvcConfigSupportObj](imapisupport-getsvcconfigsupportobj.md) pour obtenir un objet de prise en charge de la configuration qu'il peut transmettre à la fonction de point d'entrée du service de messagerie. 
   
-La méthode [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) est disponible pour déterminer les adresses des fonctions allocation et libération de mémoire sans créer de lien MAPI. À l’aide de **GetMemAllocRoutines** facilite également effectuer le suivi de fuites de mémoire en mettant les appels de fonction allocation avec code de débogage. Si vous appelez **GetMemAllocRoutines**, comme est recommandé, le faire avant d’appeler la fonction [CreateIProp](createiprop.md) , qui requiert l’allocation des adresses fonction en tant que paramètres. 
+La méthode [IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md) est disponible pour déterminer les adresses des fonctions d'allocation et de désallocation de mémoire sans avoir à établir de liaison avec MAPI. L'utilisation de **GetMemAllocRoutines** permet également de suivre plus facilement les fuites de mémoire en entourant les appels de fonction d'allocation avec le code de débogage. Si vous appelez **GetMemAllocRoutines**, comme c'est recommandé, faites-le avant d'appeler la fonction [CreateIProp](createiprop.md) , qui exige que la fonction d'allocation adresse en tant que paramètres. 
   
-Lorsque vous avez besoin créer un nouveau carnet d’adresses ou un message objet banque, créer et définir une clé de recherche pour l’objet dans sa propriété **clé PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)). Appelez [IMAPISupport::NewUID](imapisupport-newuid.md) pour obtenir un identificateur unique à utiliser lors de la création d’une clé de recherche. N’utilisez pas votre propre codé en dur [MAPIUID](mapiuid.md). D’un fournisseur **MAPIUID** doit être utilisé uniquement pour les identificateurs d’entrée. Pour plus d’informations sur la construction clés de recherche, voir [enregistrement MAPI et les clés de recherche](mapi-record-and-search-keys.md).
+Lorsque vous avez besoin de créer un nouvel objet de carnet d'adresses ou de banque de messages, créez et définissez une clé de recherche pour l'objet dans sa propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)). Appelez [IMAPISupport:: NewUID](imapisupport-newuid.md) pour obtenir un identificateur unique à utiliser dans la création d'une clé de recherche. N'utilisez pas votre propre [MAPIUID](mapiuid.md)codé en dur. Le **MAPIUID** d'un fournisseur doit être utilisé uniquement pour les identificateurs d'entrée. Pour plus d'informations sur la création de clés de recherche, voir [enregistrement MAPI et clés de recherche](mapi-record-and-search-keys.md).
   
-Une application cliente peut parfois libérer un objet sans libère un ou plusieurs de ses objets affiliés. Dans ce cas, un fournisseur devrez de rendre un objet non publiée inutilisable. Pour ce faire, le fournisseur libère toutes les ressources liées à l’objet, puis appelle [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md) pour invalider vtable de l’objet. **MakeInvalid** remplace les méthodes de **IUnknown** de vtable (**QueryInterface**, **AddRef**et **Release**) et les implémentations de MAPI standards et affiche toutes les autres méthodes renvoyer MAPI_E_INVALID_OBJECT. **MakeInvalid** également libère de la mémoire de de tous les objets autre que la vtable. 
+Une application cliente peut parfois libérer un objet sans libérer un ou plusieurs de ses objets affiliés. Dans ce cas, un fournisseur peut avoir besoin de rendre un objet non publié inutilisable. Pour ce faire, le fournisseur libère toutes les ressources connectées à l'objet, puis appelle [IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md) pour invalider le vtable de l'objet. **MakeInvalid** remplace les méthodes **IUnknown** de vtable (**QueryInterface**, **AddRef**et **Release**) par les implémentations MAPI standard et toutes les autres méthodes renvoient MAPI_E_INVALID_OBJECT. **MakeInvalid** libère également toute la mémoire de l'objet autre que vtable. 
   
 ## <a name="see-also"></a>Voir aussi
 

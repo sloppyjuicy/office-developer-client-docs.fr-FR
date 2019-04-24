@@ -1,5 +1,5 @@
 ---
-title: Section [Verbes] du fichier de configuration de formulaire
+title: Section [verbes] du fichier de configuration de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6a06283e3eb072e1f502d0b1bd303ce9f0733578
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: bb7d49d69fadab54212ff7e8b50ac969e4890c0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327495"
 ---
-# <a name="form-configuration-file-verbs-section"></a>Section [Verbes] du fichier de configuration de formulaire
+# <a name="form-configuration-file-verbs-section"></a>Section [verbes] du fichier de configuration de formulaire
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[verbes]** répertorie l’ensemble complet des verbes pris en charge par le formulaire. Le format de la section **[verbes]** est la suivante : 
+La section **[Verbs]** répertorie l'ensemble complet des verbes pris en charge par le formulaire. Le format de la section **[Verbs]** est le suivant: 
   
- **[Verbes]**
+ **Verbes**
   
- **Verb1** =  _chaîne_
+ **** =  _Chaîne_ Verb1
   
-Voici un exemple d’une section **[verbes]** . 
+Voici un exemple de section **[Verbs]** . 
   
 ```cpp
 [Verbs]
@@ -36,19 +36,19 @@ Verb2=2
 
 ```
 
-Chaque verbe est défini dans un distinct **[verbe.** _chaîne_ section **]** . A **[verbe.** _chaîne_ section **]** décrit un verbe unique offert par le formulaire. L’entrée **DisplayName** dans un **[verbe.** _chaîne_ section **]** Spécifie le nom de la commande affiché dans l’interface utilisateur. L’entrée de **Code** correspond au numéro de verbe passé dans la méthode [IMAPIForm::DoVerb](imapiform-doverb.md) . La syntaxe de la **[verbe.** _chaîne_ section **]** est : 
+Chaque verbe est défini dans un **verbe [Verb.** _String (chaîne_ ) **]** . Un **verbe.** _String (chaîne_ ) **]** décrit un verbe unique offert par le formulaire. L'entrée **DisplayName** dans un **verbe [.** _String (chaîne_ ) **]** indique le nom de la commande affiché dans l'interface utilisateur. L'entrée de **code** correspond au numéro de verbe transmis dans la méthode [IMAPIForm::D overb](imapiform-doverb.md) . Syntaxe du **verbe [.** _String (chaîne_ ) **]** est la suivante: 
   
- **[Verbe.** _chaîne_ **]**
+ **Action.** _String (chaîne_ ) **]**
   
- **DisplayName** =  _affiche la chaîne_
+ **** =  _Chaîne affichée_ DisplayName
   
- **Code** =  _entier_
+ **** =  _Entier_ de code
   
- **Indicateurs** =  _entier_
+ **Indicateurs** =  de_nombre entier_
   
- **Attributs** =  _entier_
+ **** =  _Entier_ attribs
   
-Voici un exemple d’un **[verbe.** _chaîne_ section **]** . 
+Voici un exemple d'un **verbe [verbe.** _String (chaîne_ ) **]** . 
   
 ```cpp
 [Verb.1]
@@ -64,6 +64,6 @@ Attribs=2
 
 ```
 
-Les verbes répertoriés dans cette section sont récupérés par un client à l’aide de la [méthode IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md). Verbes sont activés en appelant la méthode du formulaire [IMAPIForm::DoVerb](imapiform-doverb.md) et en lui transmettant le numéro de code de l’action à effectuer. 
+Les verbes répertoriés dans cette section sont récupérés par un client à l'aide de la [méthode IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md). Les verbes sont activés en appelant la méthode [IMAPIForm::D overb](imapiform-doverb.md) et en lui transmettant le numéro de code du verbe à effectuer. 
   
 

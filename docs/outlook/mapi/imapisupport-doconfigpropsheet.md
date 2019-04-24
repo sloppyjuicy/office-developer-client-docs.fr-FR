@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3b3499de9446c83cfc3b97b4d6b02e7c430b65f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: cd8727104af694d456074614b5ea7c222c9b91b9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322371"
 ---
 # <a name="imapisupportdoconfigpropsheet"></a>IMAPISupport::DoConfigPropsheet
 
@@ -42,7 +42,7 @@ HRESULT DoConfigPropsheet(
 
  _ulUIParam_
   
-> [in] Un handle vers la fenêtre parent de la feuille de propriétés.
+> dans Handle de la fenêtre parent de la feuille de propriétés.
     
  _ulFlags_
   
@@ -50,35 +50,35 @@ HRESULT DoConfigPropsheet(
     
  _lpszTitle_
   
-> [in] Pointeur vers le titre de la feuille de propriétés.
+> dans Pointeur vers le titre de la feuille de propriétés.
     
  _lpDisplayTable_
   
-> [in] Pointeur vers la table d’affichage qui décrit les contrôles qui doit apparaître dans la feuille des propriétés.
+> dans Pointeur vers la table d'affichage qui décrit les contrôles à afficher sur la feuille de propriétés.
     
  _lpConfigData_
   
-> [in] Pointeur vers l’implémentation [IMAPIProp](imapipropiunknown.md) à utiliser pour accéder aux propriétés de configuration pour être affichés sur la feuille de propriétés. 
+> dans Pointeur vers l'implémentation [IMAPIProp](imapipropiunknown.md) à utiliser pour accéder aux propriétés de configuration à afficher sur la feuille de propriétés. 
     
  _ulTopPage_
   
-> [in] Index de base zéro à la page principale par défaut de la feuille de propriétés.
+> dans Index de base zéro de la page supérieure par défaut de la feuille de propriétés.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La feuille de propriétés de configuration a été affichée.
+> La feuille de propriétés de configuration s'est affichée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::DoConfigPropsheet** est implémentée pour tous les objets de prise en charge. **DoConfigPropSheet** fournit une interface utilisateur standard pour afficher les propriétés de fournisseurs de services et les services de messagerie. Vous devez utiliser cette boîte de dialogue standard pour tous les affichages de propriété de configuration afin que les utilisateurs bénéficient d’une interface cohérente de Windows. 
+La méthode **IMAPISupport::D oconfigpropsheet** est implémentée pour tous les objets de prise en charge. **DoConfigPropSheet** fournit une interface utilisateur standard pour afficher les propriétés des fournisseurs de services et des services de messagerie. Vous devez utiliser cette boîte de dialogue standard pour tous les affichages de propriétés de configuration afin que les utilisateurs bénéficient d'une interface Windows cohérente. 
   
-Fournisseurs de services d’appel **DoConfigPropSheet** dans le cadre de leur mise en œuvre de la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) ou d’un bouton permettant d’afficher plus d’informations sur les propriétés. Services de messagerie appellent **DoConfigPropSheet** à partir de leur fonction de point d’entrée de message service. 
+Les fournisseurs de services appellent **DoConfigPropSheet** dans le cadre de l'implémentation de la méthode [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) ou à partir d'un bouton utilisé pour afficher des détails sur les propriétés. Les services de messagerie appellent **DoConfigPropSheet** à partir de la fonction de point d'entrée de service de messagerie. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez créer un affichage désigné par le paramètre _lpDisplayTable_ en appelant la fonction [BuildDisplayTable](builddisplaytable.md) ou avec du code personnalisé. 
+Vous pouvez créer la table d'affichage désignée par le paramètre _lpDisplayTable_ en appelant la fonction [BuildDisplayTable](builddisplaytable.md) ou avec du code personnalisé. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: StyleSheet, élément (StyleSheets_Type, complexType) (« Visio XML »)
+title: StyleSheet, élément (StyleSheets_Type complexType) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,24 +8,24 @@ localization_priority: Normal
 ms.assetid: 323e1ccd-8ddd-46d3-1032-5d68d01cf4bd
 description: Représente un style défini dans un document.
 ms.openlocfilehash: af1f8270be28e7edabf22d93471517531f5cc226
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329798"
 ---
-# <a name="stylesheet-element-stylesheetstype-complextype-visio-xml"></a>StyleSheet, élément (StyleSheets_Type, complexType) (« Visio XML »)
+# <a name="stylesheet-element-stylesheetstype-complextype-visio-xml"></a>StyleSheet, élément (StyleSheets_Type complexType) ('Visio XML')
 
 Représente un style défini dans un document.
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |document.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |document. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -35,13 +35,13 @@ Représente un style défini dans un document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Contient une collection d’éléments de **feuille de style** pour le document.  <br/> |
+|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Contient une collection d'éléments de **feuille de style** pour le document.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,13 +54,13 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> |ID de l’élément de feuille de style à partir de laquelle ce style hérite de la mise en forme du remplissage.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> |ID unique de l’élément dans l’élément parent.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|IsCustomName  <br/> |type xsd : Boolean  <br/> |facultatif  <br/> |Indique si le nom a été personnalisé par l’utilisateur.  <br/> |Valeurs du type de type xsd : Boolean.  <br/> |
-|IsCustomNameU  <br/> |type xsd : Boolean  <br/> |facultatif  <br/> |Indique si le nom universel a été personnalisé par l’utilisateur.  <br/> |Valeurs du type de type xsd : Boolean.  <br/> |
-|LineStyle  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> |ID de l’élément de feuille de style à partir de laquelle ce style hérite de la mise en forme du trait.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|Nom  <br/> |XSD : String  <br/> |facultatif  <br/> |Le nom de l’élément.  <br/> |Valeurs du type xsd : String.  <br/> |
-|NameU  <br/> |XSD : String  <br/> |facultatif  <br/> |Nom universel de l’élément.  <br/> |Valeurs du type xsd : String.  <br/> |
-|TextStyle  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> |ID de l’élément de feuille de style à partir de laquelle ce style hérite de la mise en forme de texte.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|FillStyle  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> |ID de l'élément de feuille de style à partir duquel ce style hérite de la mise en forme de remplissage.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID unique de l'élément au sein de son élément parent.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|IsCustomName  <br/> |xsd: Boolean  <br/> |facultatif  <br/> |Indique si le nom a été personnalisé par l'utilisateur.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
+|IsCustomNameU  <br/> |xsd: Boolean  <br/> |facultatif  <br/> |Indique si le nom universel a été personnalisé par l'utilisateur.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
+|LineStyle  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> |ID de l'élément de feuille de style à partir duquel ce style hérite de la mise en forme de ligne.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|Nom  <br/> |xsd: String  <br/> |facultatif  <br/> |Nom de l'élément.  <br/> |Valeurs du type xsd: String.  <br/> |
+|NameU  <br/> |xsd: String  <br/> |facultatif  <br/> |Nom universel de l'élément.  <br/> |Valeurs du type xsd: String.  <br/> |
+|TextStyle  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> |ID de l'élément StyleSheet à partir duquel ce style hérite de la mise en forme du texte.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

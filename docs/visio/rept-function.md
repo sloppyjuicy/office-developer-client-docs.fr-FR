@@ -8,32 +8,32 @@ f1_keywords:
 - Vis_DSS.chm1027335
 localization_priority: Normal
 ms.assetid: 53362a32-ac27-42a3-ace1-c6184ab20b52
-description: Répète un texte un certain nombre de fois.
-ms.openlocfilehash: 761f2f95824d5bdab4995b2867bfeac6be64bc12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Répète le texte un certain nombre de fois.
+ms.openlocfilehash: 84e7167fcee426c607e6967aff0530362685dd35
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326802"
 ---
-# <a name="rept-function"></a>REPT, fonction
+# <a name="rept-function"></a>Fonction REPT
 
-Répète un texte un certain nombre de fois. 
+Répète le texte un certain nombre de fois. 
   
 ## <a name="syntax"></a>Syntaxe
 
-REPT (** *texte* **, ** *number_times* **) 
+REPT (* * *texte* * *, * * *no_fois* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Texte à répéter.  <br/> |
-| _number_times_ <br/> |Obligatoire  <br/> |**Number** <br/> |Valeur positive spécifiant le nombre de fois que le texte doit être répété.  <br/> |
+| _text_ <br/> |Obligatoire  <br/> |**String** <br/> | Texte à répéter.  <br/> |
+| _no_fois_ <br/> |Obligatoire  <br/> |**Number** <br/> |Valeur positive spécifiant le nombre de fois que le texte doit être répété.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Si *number_times :* 
+Si *no_fois* est: 
   
 - est zéro (0), REPT renvoie "" (texte vide) ;
     
@@ -41,8 +41,8 @@ Si *number_times :*
     
 ## <a name="example"></a>Exemple
 
-REPT («\*», 5) 
+REPT ("\*", 5) 
   
-Cette propriété renvoie \* \* \* \* \*. 
+\* \*Renvoie \*. \* \* 
   
 

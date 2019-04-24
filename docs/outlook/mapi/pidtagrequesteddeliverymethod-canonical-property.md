@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: cc55089b-e389-405e-8174-f5b5ec352f78
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f18d726c1b06a6fb7f79964165bbdb9074a6d4d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ecfed5684ba2166c1c00c1fd07fa074b4ce9fd79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331415"
 ---
 # <a name="pidtagrequesteddeliverymethod-canonical-property"></a>Propriété canonique PidTagRequestedDeliveryMethod
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient un tableau binaire de livraison (fournisseurs de services), par ordre de préférence de l’expéditeur d’un message.
+Cette propriété contient un tableau binaire des méthodes de remise (fournisseurs de services), dans l'ordre de préférence de l'expéditeur d'un message.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Cette propriété contient un tableau binaire de livraison (fournisseurs de serv
    
 ## <a name="remarks"></a>Remarques
 
-Le tableau contenu dans cette propriété se compose d’identificateurs ASN.1 pour chacun des fournisseurs de services.
+Le tableau contenu dans cette propriété est composé des identificateurs ASN. 1 pour chacun des fournisseurs de services.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

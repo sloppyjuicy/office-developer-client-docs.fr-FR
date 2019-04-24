@@ -1,34 +1,34 @@
 ---
-title: Algorithme permettant de calculer le nombre de hachages de magasin
+title: Algorithme permettant de calculer le numéro de hachage de magasin
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 84065c1441008732380e68d9786d7844dbb64cb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 12797c2ed96ba2db493b5cf425423ffe97fc7a5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331583"
 ---
-# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algorithme permettant de calculer le nombre de hachages de magasin
+# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algorithme permettant de calculer le numéro de hachage de magasin
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Dans le cadre d’un MAPI URL Uniform Resource Locator (), un fournisseur de banque envoie un numéro de hachage magasin au Gestionnaire de protocole MAPI pour identifier un objet est prêt pour l’indexation. Le Gestionnaire de protocole MAPI utilise ce numéro de hachage magasin pour identifier un magasin. En règle générale, un fournisseur de magasins calcule le nombre de hachage de magasin en fonction de la signature de mappage banque, si le magasin de la propriété **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** définie dans la section profil global. Sinon, le fournisseur de banque utilise l’ID d’entrée de magasin. L’algorithme pour calculer le nombre de hachage magasin doit réduire ambiguïtés qui identifie les magasins. 
+Dans le cadre d'une URL (Uniform Resource Locator) MAPI, un fournisseur de banque d'identité envoie un numéro de hachage de banque au gestionnaire de protocole MAPI pour identifier un objet qui est prêt à être indexé. Le gestionnaire de protocole MAPI utilise ce numéro de hachage de magasin pour identifier un magasin. En règle générale, un fournisseur de banque d'informations calcule le numéro de hachage de banque en fonction de la signature de mappage de banque, si la propriété **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** est définie dans la section profil global. Dans le cas contraire, le fournisseur Store utilise l'ID de l'entrée Store. L'algorithme permettant de calculer le numéro de hachage de magasin doit minimiser les ambiguïtés d'identification des magasins. 
   
-Cette rubrique décrit un algorithme que Microsoft Office Outlook pour calculer un numéro de hachage magasin en fonction de l’ID de signature ou l’entrée de mappage store et le nom de fichier du magasin. 
+Cette rubrique décrit un algorithme utilisé par Microsoft Office Outlook pour calculer un numéro de hachage de banque basé sur la signature de mappage de banque ou l'ID d'entrée et le nom de fichier du magasin. 
   
-Le blob doivent être codées est la propriété PR_ENTRYID de la banque dans la plupart des cas, mais pour les banques Exchange mis en cache, à la fois publics et privés, le blob doivent être le PR_MAPPING_SIGNATURE, trouvé dans le profil.
+Dans la plupart des cas, le blob binaire à coder est la PR_ENTRYID de la Banque, mais pour les banques Exchange mises en cache, publiques et privées, le blob binaire doit être le PR_MAPPING_SIGNATURE, qui se trouve dans le profil.
   
-Après le calcul de hachage pour blob binaire de banque de dossiers publics, mais avant le hachage le chemin d’accès de fichier OST, la constante 0x2E505542, qui représente la chaîne «. La composition », est hachage dans pour s’assurer qu’il est unique, qui est différent du hachage de la banque privée.
+Après le calcul du hachage pour un blob binaire d'une banque de dossiers publics, mais avant le hachage dans le chemin d'accès OST, la constante 0x2E505542, qui représente la chaîne «. PUB» est hachée pour s'assurer qu'elle est unique, autrement dit, distincte du hachage de la banque privée.
   
-Le code de prise en charge puise des pertinents pour des informations à partir du profil, qui peut être utilisé pour déterminer si une banque est publique ou privée, si elle est mise en cache, et le chemin d’accès du fichier OST. Pour incorporer ce code dans un projet, appelez la fonction ComputeStoreHash, qui prend comme entrée le pointeur de la session ainsi que PR\_ENTRYID, PR\_SERVICE_UID et PR\_MDB_PROVIDER à partir du message stocker la table. Le reste des informations nécessaires qu’il obtient à partir du profil. Pour la sortie, cette fonction renvoie la valeur de hachage calculé à partir de PR\_MAPPING_SIGNATURE si la banque est une banque d’informations Exchange mis en cache, ou le hachage calculé à partir de PR\_ENTRYID.
+Le code de prise en charge élimine les bits appropriés du profil, qui peut être utilisé pour déterminer si un magasin est public ou privé, s'il est mis en cache et le chemin d'accès au fichier OST. Pour incorporer ce code dans un projet, appelez la fonction ComputeStoreHash, qui prend comme entrée le pointeur de session, ainsi que\_les ID de\_propriété, PR SERVICE_UID\_et PR MDB_PROVIDER à partir de la table de banque de messages. Le reste des informations dont il a besoin est tiré du profil. Pour output, cette fonction renvoie le hachage calculé à partir de PR\_MAPPING_SIGNATURE si la Banque est une banque Exchange mise en cache, ou le hachage comme calculé à partir\_de PR EntryID.
   
 > [!NOTE]
-> La fonction de prise en charge HrEmsmdbUIDFromStore est un [Plusieurs comptes Exchange](using-multiple-exchange-accounts.md)-remplacement connaissance de pbGlobalProfileSectionGuid pour ouvrir la section de profil pour une boîte aux lettres Exchange. 
+> La fonction de prise en charge des HrEmsmdbUIDFromStore est un multiple de remplacement des [comptes Exchange](using-multiple-exchange-accounts.md)pour l'utilisation de pbGlobalProfileSectionGuid pour ouvrir la section Profil d'une boîte aux lettres Exchange. 
   
 ```cpp
 #define PR_PROFILE_OFFLINE_STORE_PATH_A PROP_TAG(PT_STRING8, 0x6610)
@@ -238,10 +238,10 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
 ```
 
 > [!TIP]
-> La fonction HrEmsmdbUIDFromStore fonctionne sans réellement ouvrir le magasin, afin qu’il soit une approche de bon usage général. Toutefois, si vous avez déjà un pointeur vers l’objet store, vous pouvez également récupérer la section profil GUID directement à partir de la banque de messages par la lecture de la propriété PR_EMSMDB_SECTION_UID. 
+> La fonction HrEmsmdbUIDFromStore fonctionne sans réellement ouvrir le magasin, c'est pourquoi il s'agit d'une approche générique. Toutefois, si vous disposez déjà d'un pointeur vers l'objet Store, vous pouvez également récupérer le GUID de section de profil directement à partir de la Banque de messages en lisant la propriété PR_EMSMDB_SECTION_UID. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l’indexation de magasin basée sur une notification](about-notification-based-store-indexing.md)
-- [À propos des URL MAPI pour l’indexation basée sur une notification](about-mapi-urls-for-notification-based-indexing.md)
+- [À propos de l'indexation du magasin basé sur les notifications](about-notification-based-store-indexing.md)
+- [À propos des URL MAPI pour l'indexation basée sur les notifications](about-mapi-urls-for-notification-based-indexing.md)
 

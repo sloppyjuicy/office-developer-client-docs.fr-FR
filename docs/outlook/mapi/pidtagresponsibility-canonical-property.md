@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e8ccef1-db0a-4230-9bd0-87540b53e890
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 15bf61e71a2c230f7891c738661f839ecddb52e1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330120"
 ---
 # <a name="pidtagresponsibility-canonical-property"></a>Propriété canonique PidTagResponsibility
 
@@ -25,7 +25,7 @@ ms.locfileid: "25393807"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un fournisseur de transport a déjà accepté responsable de la remise du message à ce destinataire et FALSE si le spouleur MAPI estime que ce fournisseur de transport doit accepter la responsabilité.
+Contient la valeur TRUE si un fournisseur de transport a déjà accepté la responsabilité de la remise du message à ce destinataire, et FALSe si le spouleur MAPI considère que ce fournisseur de transport doit accepter la responsabilité.
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Contient la valeur TRUE si un fournisseur de transport a déjà accepté respons
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque le spouleur MAPI présente un message sortant à un fournisseur de transport, par le biais [IXPLogon::SubmitMessage](ixplogon-submitmessage.md), elle définit cette propriété sur FALSE pour tous les destinataires pour lesquels le spouleur MAPI considère ce fournisseur de transport chargé et la valeur TRUE pour tous les autres destinataires. Le fournisseur de transport doit essayer de gérer tous les destinataires avec **PR_RESPONSIBILITY** définie sur FALSE. Après avoir correctement l’envoi ou ait cessé d’envoyer, à un destinataire, le fournisseur de transport doit définir cette propriété sur TRUE dans le message source pour indiquer qu’il a accepté la responsabilité du destinataire. 
+Lorsque le spouleur MAPI présente un message sortant à un fournisseur de transport, via [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md), il définit cette propriété sur false pour tous les destinataires pour lesquels le spouleur MAPI considère que le fournisseur de transport est responsable et true pour tous les autres destinataires. Le fournisseur de transport doit tenter de gérer tous les destinataires avec **PR_RESPONSIBILITY** défini sur false. Après l'envoi ou l'échec concluant de l'envoi à un destinataire, le fournisseur de transport doit définir cette propriété sur TRUE dans le message source pour indiquer qu'il a accepté la responsabilité pour ce destinataire. 
   
-Si, après avoir examiné un destinataire, un fournisseur de transport décide qu’il ne peut pas ou qu’il ne doit pas gérer, le fournisseur de transport doit conserver la valeur **PR_RESPONSIBILITY** sur FALSE. Le spouleur MAPI recherchera ensuite un autre fournisseur de transport qui peut gérer ce destinataire. Finalement, le spouleur MAPI crée un rapport de non-remise pour tous les destinataires pour lesquels aucun fournisseur de transport n’accepte la responsabilité. 
+Si, après avoir examiné un destinataire, un fournisseur de transport décide qu'il ne peut pas ou ne doit pas le gérer, le fournisseur de transport doit laisser **PR_RESPONSIBILITY** défini sur false. Le spouleur MAPI recherche alors un autre fournisseur de transport pouvant gérer ce destinataire. Le spouleur MAPI crée finalement un rapport de non-remise pour les destinataires pour lesquels aucun fournisseur de transport n'accepte la responsabilité. 
   
-Si le fournisseur de transport tente et ne parvient pas à remettre le message, il doit appeler la méthode [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) pour indiquer à MAPI les raisons de l’échec, afin que MAPI peut générer un rapport de non-remise. 
+Si le fournisseur de transport tente de remettre le message et ne le remet pas, il doit appeler la méthode [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) pour indiquer à MAPI les raisons de l'échec, afin que MAPI puisse générer un rapport de non-remise. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère l’ordre et le flux pour les transferts de données entre un client et le serveur.
+> Gère l'ordre et le flux de transfert de données entre un client et un serveur.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -75,7 +75,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Écriture d’un client automatisé
+title: Écriture d'un client automatisé
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,32 +7,32 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b8f9ac1a-b377-4f83-8fb6-ed85ab9053d0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 504e10efa4f540d64469f6aaab22b3f9e9e1157d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: f9ce3452bbc2d3297cc67168835a9387235746a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325591"
 ---
-# <a name="writing-an-automated-client"></a>Écriture d’un client automatisé
+# <a name="writing-an-automated-client"></a>Écriture d'un client automatisé
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une application cliente automatisée est une application qui s’exécute sans assistance, n’affichant aucun l’interface utilisateur.
+Une application cliente automatisée est une application qui s'exécute sans assistance, sans afficher d'interface utilisateur.
   
- Par défaut, plusieurs méthodes d’interface MAPI affichent une interface utilisateur. Toutes ces méthodes ont des indicateurs qui autorisent un client autoriser ou supprimer cet affichage. Bien que MAPI attend des fournisseurs de services de respecter ces indicateurs, il existe certains fournisseurs qui ne remplissent pas toujours ces attentes. Une raison légitime ne pas en respectant les indicateurs est la dépendance du fournisseur de services sur un autre service qui n’autorise pas la suppression d’interface utilisateur. Si vous développez un client automatique, prêtez une attention particulière pour les fournisseurs de services que vous utilisez et la façon dont ils sont configurés. Ne pensez pas que tous vos appels pour supprimer une interface utilisateur sera réussi. 
+ Par défaut, de nombreuses méthodes d'interface MAPI affichent une interface utilisateur. Toutes ces méthodes comportent des indicateurs qui permettent à un client d'autoriser ou de supprimer cet affichage. Bien que MAPI s'attend à ce que les fournisseurs de services respectent ces indicateurs, certains fournisseurs ne satisfont pas toujours à ces attentes. Un motif légitime de non-respect des indicateurs est la dépendance du fournisseur de services sur un autre service qui n'autorise pas la suppression de l'interface utilisateur. Si vous développez un client automatisé, soyez attentif aux fournisseurs de services que vous utilisez et à la façon dont ils sont configurés. Ne partez pas du principe que tous les appels permettant de supprimer une interface utilisateur aboutiront. 
   
-Clients automatisées doivent avoir les informations nécessaires disponibles pour la configuration correcte de chacun des services de message dans le profil. Il existe deux méthodes pour fournir des informations de configuration au moment de l’ouverture de session :
+Les clients automatisés doivent disposer des informations nécessaires pour une configuration correcte de chacun des services de messagerie dans le profil. Il existe deux façons de fournir des informations de configuration à l'ouverture de session:
   
-- Le fournisseur de services peut récupérer les informations du profil.
+- Le fournisseur de services peut récupérer des informations à partir du profil.
     
-- Le fournisseur de services peut demander à l’utilisateur pour plus d’informations. 
+- Le fournisseur de services peut inviter l'utilisateur à fournir des informations. 
     
-Dans la mesure où la deuxième option n’est pas disponible pour les clients automatisées, ces clients doivent utiliser la première option. Les clients doivent configurer leurs profils avec soin pour en garantir le fonctionne de cette option toujours.
+Étant donné que la deuxième option n'est pas disponible pour les clients automatisés, ces clients doivent utiliser la première option. Les clients doivent configurer leurs profils avec soin pour s'assurer que cette option fonctionne toujours.
   
-Clients automatisées définir toujours l’indicateur MAPI_NO_MAIL dans l’appel de fonction [MAPILogonEx](mapilogonex.md) pour commencer une session MAPI. 
+Les clients automatisés définissent toujours l'indicateur MAPI_NO_MAIL dans l'appel de la fonction [MAPILogonEx](mapilogonex.md) pour commencer une session MAPI. 
   
 

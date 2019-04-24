@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm82251343
 localization_priority: Normal
 ms.assetid: 42f42d73-a00c-ca93-adc9-4f8869b9cd42
-description: Spécifie le texte descriptif ou d’instructions qui apparaît comme une info-bulle lorsque vous positionnez la souris sur une valeur dans la fenêtre données de forme.
-ms.openlocfilehash: 1e11a8c7c680dd53ad7cd9f6877fe29eb34a7b53
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contient la description ou l’instruction qui apparaît sous la forme d’un conseil lorsque vous positionnez la souris sur la valeur dans la fenêtre Données de forme.
+ms.openlocfilehash: 4ecb7eb5a1e775d2f3f5271476ef45cdf020d7c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326816"
 ---
 # <a name="prompt-cell-shape-data-section"></a>Prompt, cellule (section Shape Data)
 
-Spécifie le texte descriptif ou d’instructions qui apparaît comme une info-bulle lorsque vous positionnez la souris sur une valeur dans la fenêtre **Données de forme** . 
+Contient la description ou l’instruction qui apparaît sous la forme d’un conseil lorsque vous positionnez la souris sur la valeur dans la fenêtre **Données de forme**. 
   
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule Prompt par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Prompt par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Propriétés.  *Nom* . Invite où *nom* est le nom de ligne  <br/> |
+| Nom de la cellule :  <br/> | Hélice.  *Nom* . Invite où *nom* est le nom de la ligne  <br/> |
    
-Pour obtenir une référence à la cellule Prompt par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Prompt à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

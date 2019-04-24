@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0e5ffb61-1469-bc91-f237-27d1156179cd
-description: Initialise le Gestionnaire de comptes à utiliser.
+description: Initialise le gestionnaire de comptes en vue de son utilisation.
 ms.openlocfilehash: 5a643a4636251afc98750be8acf47cd3bdab3847
-ms.sourcegitcommit: b361919ae2d3ac000d9fcaa3030713df7062ecd4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322035"
 ---
 # <a name="iolkaccountmanagerinit"></a>IOlkAccountManager::Init
 
-Initialise le Gestionnaire de comptes à utiliser.
+Initialise le gestionnaire de comptes en vue de son utilisation.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -34,31 +34,31 @@ HRESULT IOlkAccountManager::Init (
 
 _pAcctHelper_
   
-> [in] Interface [IOlkAccountHelper](iolkaccounthelper.md) qui fournit des fonctionnalités d’assistance de compte. 
+> dans Interface [IOlkAccountHelper](iolkaccounthelper.md) qui fournit la fonctionnalité d'assistance de compte. 
     
 _dwFlags_
   
 > [in] Indicateurs pour modifier le comportement.
     
-   - **ACCT_INIT_NO_STORES_CHECK** — empêche une synchronisation avec un magasin associé à un compte (par exemple, un compte IMAP). 
+   - **ACCT_INIT_NO_STORES_CHECK** — empêche un compte (tel qu'un compte IMAP) d'être synchronisé avec un magasin associé. 
     
-   - **ACCT_INIT_NOSYNCH_MAPI_ACCTS** — services MAPI empêche de la synchronisation avec des comptes. 
+   - **ACCT_INIT_NOSYNCH_MAPI_ACCTS** — empêche les services MAPI de procéder à une synchronisation avec les comptes. 
    
-   - **ACCT_INIT_NO_NOTIFICATIONS** — empêche le Gestionnaire de comptes d’intercepter les messages de diffusion destinées aux autres applications. 
+   - **ACCT_INIT_NO_NOTIFICATIONS** — empêche le gestionnaire de comptes d'intercepter les messages de diffusion destinés à d'autres applications. 
    
-   - **OLK_ACCOUNT_NO_FLAGS** — services MAPI se synchronise avec les comptes. 
+   - **OLK_ACCOUNT_NO_FLAGS** : synchronise les services MAPI avec des comptes. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_OLK_ALREADY_INITIALIZED  <br/> |**Init** a déjà été appelée.  <br/> |
-|E_OLK_REGISTRY  <br/> |Le Gestionnaire de comptes n’a pas pu accéder les paramètres de Registre nécessaires.  <br/> |
+|E_OLK_ALREADY_INITIALIZED  <br/> |**Init** a déjà été appelé.  <br/> |
+|E_OLK_REGISTRY  <br/> |Le gestionnaire de comptes n'a pas pu accéder aux paramètres de registre requis.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le client doit appeler **IOlkAccountManager::Init** pour initialiser le compte responsable avant d’utiliser le Gestionnaire de comptes pour accéder aux comptes ou configurer des notifications. Étant donné que Outlook synchronise automatiquement les services MAPI avec des comptes au démarrage, utilisez **ACCT_INIT_NOSYNCH_MAPI_ACCTS** sauf s’il existe une cause spécifique à synchroniser. 
+Le client doit appeler **IOlkAccountManager:: init** pour initialiser le gestionnaire de comptes avant d'utiliser le gestionnaire de comptes pour accéder aux comptes ou configurer des notifications. Étant donné qu'Outlook synchronise automatiquement les services MAPI avec les comptes au démarrage, utilisez **ACCT_INIT_NOSYNCH_MAPI_ACCTS** à moins qu'il n'y ait une cause spécifique de synchronisation. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac49538e-6ee8-4ab4-9d79-88a83c7d0149
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a00abec7627eb12e23e7b76f5d0900514d710ffb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 32d150e508f5c208e15d5ee5f0b8c800a1e597f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330169"
 ---
 # <a name="pidtagresourcepath-canonical-property"></a>Propriété canonique PidTagResourcePath
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un chemin d’accès au serveur du fournisseur de services.
+Contient un chemin d'accès au serveur du fournisseur de services.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contient un chemin d’accès au serveur du fournisseur de services.
    
 ## <a name="remarks"></a>Remarques
 
-Le chemin d’accès contenue dans ces propriétés représente le chemin d’accès suggéré dans laquelle l’utilisateur peut trouver des ressources. La définition de ces propriétés est spécifique au fournisseur. Par exemple, une application de planification utilise ces propriétés pour spécifier l’emplacement proposé pour ses fichiers d’application de planification.
+Le chemin d'accès contenu dans ces propriétés représente le chemin d'accès suggéré dans lequel l'utilisateur peut trouver des ressources. La définition de ces propriétés est spécifique au fournisseur. Par exemple, une application de planification utilise ces propriétés pour spécifier l'emplacement suggéré pour ses fichiers d'application de planification.
   
-Le profil utilisateur de messagerie fournit ces propriétés commodité afin qu’une application cliente n’a pas demander à l’utilisateur de messagerie pour un chemin d’accès réseau ou d’une lettre de lecteur réseau.
+Le profil utilisateur de messagerie fournit ces propriétés pour qu'une application cliente n'ait pas besoin d'inviter l'utilisateur de messagerie à indiquer un chemin d'accès réseau ou une lettre de lecteur réseau.
   
-MAPI ne fonctionne qu’avec les noms de fichiers dans le jeu de caractères National Institute ANSI (American Standards). Les applications qui utilisent des noms de fichiers dans un jeu de caractères OEM (OEM) doivent les convertir au format ANSI avant l’appel de MAPI.
+MAPI ne fonctionne qu'avec les noms de fichier dans le jeu de caractères ANSI (American National Standards Institute). Les applications qui utilisent des noms de fichier dans un jeu de caractères OEM (Original Equipment Manufacturer) doivent les convertir en ANSI avant d'appeler MAPI.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

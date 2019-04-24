@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 33bf8251-37d5-47d0-88d2-5088bfaa147a
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 57f036872276ed2ff85bf6f8a53801f3af605607
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 312253f0ea4b115018cbe71522782ea21579fa4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331898"
 ---
 # <a name="pidtagcontentidentifier-canonical-property"></a>Propriété canonique PidTagContentIdentifier
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur de clé qui permet au destinataire du message identifier son contenu.
+Contient une valeur de clé qui permet au destinataire du message d'identifier son contenu.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Contient une valeur de clé qui permet au destinataire du message identifier son
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Exchange  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

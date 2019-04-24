@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: bb373e4b666f44c432ac1b04c0449eb7f0408a19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 6a6f8f9d675bee362b4a9f1c5b7fc544fa66d7b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328790"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592933"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la visionneuse de formulaire à une nouvelle ou un message existant a été chargé dans un formulaire.
+Avertit la visionneuse de formulaires qu'un nouveau message ou un message existant a été chargé dans un formulaire.
   
 ```cpp
 HRESULT OnNewMessage( void );
@@ -33,7 +33,7 @@ HRESULT OnNewMessage( void );
 
 ## <a name="parameters"></a>Paramètres
 
-Aucune
+Aucun
   
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Objets de formulaire appeler la méthode de **IMAPIViewAdviseSink::OnNewMessage** lorsqu’un message est chargé dans un formulaire à l’aide de la méthode le [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load](ipersistmessage-load.md) . 
+Les objets de formulaire appellent la méthode **IMAPIViewAdviseSink:: OnNewMessage** chaque fois qu'un message est chargé dans un formulaire à l'aide de la méthode [IPersistMessage:: InitNew](ipersistmessage-initnew.md) ou [IPersistMessage:: Load](ipersistmessage-load.md) . 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Libérer le pointeur actif à l’objet de formulaire, car il ne pointe plus vers le message que votre Observateur a été précédemment affichage. 
+Libérez votre pointeur actif sur l'objet de formulaire, car il ne pointe plus vers le message que votre visionneuse était précédemment en train d'afficher. 
   
-Pour plus d’informations sur les notifications de formulaire, consultez [envoi et réception des Notifications](sending-and-receiving-form-notifications.md).
+Pour plus d'informations sur les notifications de formulaire, consultez la rubrique [envoi et réception de notifications de formulaire](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Voir aussi
 

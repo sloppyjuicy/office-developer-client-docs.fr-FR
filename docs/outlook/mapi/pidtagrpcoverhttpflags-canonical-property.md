@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c8b30768-cf83-450d-9fe2-567a5e0c2f57
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: cf1f3b4d72426fb5f80decdc074a622b140657c8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327446"
 ---
 # <a name="pidtagrpcoverhttpflags-canonical-property"></a>Propriété canonique PidTagRpcOverHttpFlags
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les paramètres d’un profil utilisé par Microsoft Office Outlook pour se connecter à Microsoft Exchange Server à l’aide d’un appel de procédure distante (RPC) sur protocole HTTP (Hypertext Transfer).
+Contient les paramètres d'un profil utilisé par Microsoft Office Outlook pour se connecter à Microsoft Exchange Server à l'aide d'un appel de procédure distante (RPC) sur HTTP (Hypertext Transfer Protocol).
   
 |||
 |:-----|:-----|
@@ -32,43 +32,43 @@ Contient les paramètres d’un profil utilisé par Microsoft Office Outlook pou
    
 ## <a name="remarks"></a>Remarques
 
-La propriété **PR_ROH_FLAGS** est stockée dans la Section profil globale d’un profil MAPI Messaging Application Programming Interface (). La valeur de **PR_ROH_FLAGS** est un masque de bits qui est composée d’un ou plusieurs des indicateurs suivants. 
+La propriété **PR_ROH_FLAGS** est stockée dans la section profil global d'un profil MAPI (Messaging Application Programming Interface). La valeur de **PR_ROH_FLAGS** est un masque de composé d'un ou plusieurs des indicateurs suivants. 
   
-|**Nom**|**Valeur**|**Description**|
+|**Name**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**ROHFLAGS_USE_ROH** <br/> |0 x 1  <br/> |Connectez-vous au serveur Exchange en utilisant RPC sur HTTP.  <br/> |
-|**ROHFLAGS_SSL_ONLY** <br/> |0 x 2  <br/> |Connectez-vous au serveur Exchange à l’aide de Secure Sockets Layer (SSL) uniquement.  <br/> |
-|**ROHFLAGS_MUTUAL_AUTH** <br/> |0 x 4  <br/> |Authentifier mutuellement la session lors de la connexion à l’aide de SSL.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0 x 8  <br/> |Sur des réseaux rapides, se connecter via le protocole HTTP. Ensuite, connectez-vous à l’aide de TCP/IP.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0 x 20  <br/> |Sur des réseaux lents, se connecter via le protocole HTTP. Ensuite, connectez-vous à l’aide de TCP/IP.  <br/> |
+|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Connectez-vous au serveur Exchange à l'aide de RPC sur HTTP.  <br/> |
+|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Connectez-vous au serveur Exchange à l'aide du protocole SSL (Secure Socket Layer) uniquement.  <br/> |
+|**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Authentifier mutuellement la session lors de la connexion à l'aide de SSL.  <br/> |
+|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |Sur les réseaux rapides, connectez-vous d'abord via HTTP. Ensuite, connectez-vous à l'aide du protocole TCP/IP.  <br/> |
+|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |engendre  <br/> |Sur des réseaux lents, connectez-vous d'abord via HTTP. Ensuite, connectez-vous à l'aide du protocole TCP/IP.  <br/> |
    
-Par exemple, pour définir le **PR_ROH_FLAGS** propriété pour activer RPC sur HTTP, pour exiger le chiffrement SSL et pour indiquer que le protocole HTTP doit être utilisé tout d’abord sur Mes connexions lentes, définie la valeur de la propriété **PR_ROH_FLAGS** à `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` qui est égal à 0 x 23. 
+Par exemple, pour définir la propriété **PR_ROH_FLAGS** afin d'activer RPC sur http, pour exiger SSL, et pour spécifier que le protocole http doit être utilisé en premier sur les connexions lentes, définissez la valeur de la `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` propriété **PR_ROH_FLAGS** sur laquelle est égale à 0x23. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Définit les structures de base de données qui sont utilisés dans les opérations à distance.
+> Définit les structures de données de base qui sont utilisées dans les opérations distantes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

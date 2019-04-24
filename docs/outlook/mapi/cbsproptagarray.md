@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: c5053f27-e23d-4a65-b079-5f33765c33f7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 5a4d25651423c697ffed713f82f41d7a5584bcfa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 1cfc88b12331e94880feaed22869bd7608fb7ca8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329497"
 ---
 # <a name="cbsproptagarray"></a>CbSPropTagArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets dans une structure [SPropTagArray](sproptagarray.md) existante. 
+Calcule le nombre d'octets dans une structure [SPropTagArray](sproptagarray.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SPropTagArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 CbSPropTagArray (_lparray)
@@ -38,7 +38,7 @@ CbSPropTagArray (_lparray)
 
 ## <a name="parameters"></a>Paramètres
 
- __lparray_
+ __LPArray_
   
 > Pointeur vers la structure **SPropTagArray** existante. 
     

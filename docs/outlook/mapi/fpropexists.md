@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0d016c83678d9c1c94ee4ad4b8e12723c03f7bda
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7190065c687524302bae362a2e25d3848e17d1bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327271"
 ---
 # <a name="fpropexists"></a>FPropExists
 
@@ -25,13 +25,13 @@ ms.locfileid: "22570435"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recherche une balise de propriété donnée d’une interface ou d’une interface [IMAPIProp](imapipropiunknown.md) dérivé **IMAPIProp**, tels que [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
+Recherche une balise de propriété donnée dans une interface [IMAPIProp](imapipropiunknown.md) ou une interface dérivée de **IMAPIProp**, telle que [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 BOOL FPropExists(
@@ -44,24 +44,24 @@ BOOL FPropExists(
 
  _pobj_
   
-> [in] Pointeur vers l’interface **IMAPIProp** ou une interface dérivée **IMAPIProp** dans laquelle rechercher la balise de propriété. 
+> dans Pointeur vers l'interface ou l'interface **IMAPIProp** dérivée de **IMAPIProp** dans lequel rechercher la balise de propriété. 
     
  _ulPropTag_
   
-> [in] Balise de propriété à rechercher.
+> dans Balise de propriété à rechercher.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Une correspondance de la balise de propriété donné a été trouvée. 
+> Une correspondance pour la balise de propriété donnée a été trouvée. 
     
 FALSE 
   
-> Une correspondance de la balise de propriété donnée est introuvable.
+> Une correspondance pour la balise de propriété donnée est introuvable.
     
 ## <a name="remarks"></a>Remarques
 
-Si la balise de propriété dans le paramètre _ulPropTag_ a type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l’identificateur de propriété. Dans le cas contraire, la correspondance est pour la balise de propriété entière, y compris le type. 
+Si la balise de propriété dans le paramètre _ulPropTag_ est de type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l'identificateur de la propriété. Dans le cas contraire, la correspondance est pour l'intégralité de la balise de propriété, y compris le type. 
   
 

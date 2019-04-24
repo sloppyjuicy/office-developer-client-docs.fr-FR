@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: efeff92f1a21d076c1ee58b82ad3ab25797df014
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: f16ba9164d55fdb7bd688d4068f99dc4407e5413
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328853"
 ---
 # <a name="imapitablesorttable"></a>IMAPITable::SortTable
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La méthode **IMAPITable::SortTable** trie les lignes du tableau, en fonction de tri critères. 
+La méthode **IMAPITable:: SortTable** trie les lignes de la table, en fonction des critères de tri. 
   
 ```cpp
 HRESULT SortTable(
@@ -36,77 +36,77 @@ ULONG ulFlags
 
 _lpSortCriteria_
   
-> [in] Pointeur vers une structure [SSortOrderSet](ssortorderset.md) qui contient les critères de tri à appliquer. Passage d’une structure **SSortOrderSet** qui contient zéro colonnes indique que le tableau n’a pas à trier selon un ordre particulier. 
+> dans Pointeur vers une structure [SSortOrderSet](ssortorderset.md) qui contient les critères de tri à appliquer. Le passage d'une structure **SSortOrderSet** qui contient zéro colonne indique que la table n'a pas à être triée dans un ordre particulier. 
     
 _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le minutage de l’opération **IMAPITable::SortTable** . Les indicateurs suivants peuvent être définis : 
+> dans Masque de des indicateurs qui contrôle le moment de l'opération **IMAPITable:: SortTable** . Les indicateurs suivants peuvent être définis: 
     
 TBL_ASYNC 
   
-> Démarre l’opération asynchrone et renvoie avant que l’opération est terminée.
+> Démarre l'opération de manière asynchrone et revient avant la fin de l'opération.
     
 TBL_BATCH 
   
-> Diffère de la fin de l’ordre de tri jusqu'à ce que les données dans le tableau sont requises.
+> Diffère la fin du tri jusqu'à ce que les données de la table soient requises.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’opération de tri a réussi.
+> L'opération de tri a réussi.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours qui empêche l’opération de tri de démarrage. L’opération en cours doit être autorisée à effectuer ou il doit être arrêté.
+> Une autre opération est en cours, ce qui empêche le démarrage de l'opération de tri. L'opération en cours doit être autorisée ou elle doit être arrêtée.
     
 MAPI_E_NO_SUPPORT 
   
-> Le tableau ne gère pas le type de tri demandé.
+> Le tableau ne prend pas en charge le type de tri demandé.
     
 MAPI_E_TOO_COMPLEX 
   
-> Le tableau ne peut pas effectuer l’opération car les critères de tri particulier vers laquelle pointe le paramètre _lpSortCriteria_ est trop complexe. **SortTable** peut renvoyer MAPI_E_TOO_COMPLEX dans les conditions suivantes. 
+> Le tableau ne peut pas effectuer l'opération, car les critères de tri particuliers pointés par le paramètre _lpSortCriteria_ sont trop complexes. **SortTable** peut renvoyer MAPI_E_TOO_COMPLEX dans les conditions suivantes. 
     
-   - Une opération de tri est demandée pour une colonne de propriété que l’implémentation ne peut pas trier.
+   - Une opération de tri est demandée pour une colonne de propriétés que l'implémentation ne peut pas trier.
     
-   - L’implémentation ne gère pas l’ordre de tri demandée dans le membre **ulOrder** de la structure **SSortOrderSet** . 
+   - L'implémentation ne prend pas en charge l'ordre de tri demandé dans le membre **ulOrder** de la structure **SSortOrderSet** . 
     
-   - Le nombre de colonnes à trier, tel que spécifié dans le membre **cSorts** dans **SSortOrderSet**, est plus importante que l’implémentation peut gérer.
+   - Le nombre de colonnes à trier, tel qu'il est spécifié dans le membre **cSorts** dans **SSortOrderSet**, est plus important que l'implémentation peut gérer.
     
-   - Une opération de tri est demandée, comme indiqué par une balise de propriété **SSortOrderSet**, basée sur une propriété qui n’est pas dans l’ensemble actif ou disponible et l’implémentation ne gère pas le tri sur les propriétés pas dans l’ensemble disponible.
+   - Une opération de tri est demandée, comme indiqué par une balise de propriété dans **SSortOrderSet**, en fonction d'une propriété qui n'est pas dans l'ensemble disponible ou actif et l'implémentation ne prend pas en charge le tri sur les propriétés qui ne sont pas dans l'ensemble disponible.
     
-   - Une propriété est spécifiée plusieurs fois dans un jeu d’ordre de tri, comme indiqué par plusieurs instances de la même balise de propriété, et l’implémentation ne peut pas effectuer une opération de tri de ce type.
+   - Une propriété est spécifiée plusieurs fois dans un ordre de tri défini, comme indiqué par plusieurs instances de la même balise de propriété, et l'implémentation ne peut pas effectuer une telle opération de tri.
     
-   - Une opération de tri basée sur les colonnes de la propriété à valeurs multiples est demandée à l’aide de MVI_FLAG et l’implémentation ne gère pas le tri sur les propriétés à valeurs multiples. 
+   - Une opération de tri basée sur des colonnes de propriétés à valeurs multiples est demandée à l'aide de MVI_FLAG et l'implémentation ne prend pas en charge le tri sur les propriétés à valeurs multiples. 
     
-   - Une balise de propriété pour une propriété dans **SSortOrderSet** spécifie une propriété ou un type de l’implémentation ne prenant pas en charge. 
+   - Une balise de propriété pour une propriété dans **SSortOrderSet** spécifie une propriété ou un type que l'implémentation ne prend pas en charge. 
     
-   - Une opération de tri autre que celui qui s’effectue par le biais de la table à partir de la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) transférer est spécifiée uniquement pour une table de pièce jointe qui prend en charge ce type de tri.
+   - Une opération de tri autre que celle qui parcourt le tableau à partir de la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) est spécifiée uniquement pour une table de pièces jointes qui prend en charge ce type de tri.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable::SortTable** trie les lignes dans un affichage tableau. Tandis que certaines tables prend en charge le tri sur plusieurs colonnes de clé de tri standard et par catégorie, les autres tables sont plus limitées dans leur prise en charge. Fournisseurs de carnet d’adresses, ne prennent pas charge tri des tableaux. Fournisseurs de banque de messages prennent généralement en charge le tri dans la mesure où ils conservent l’ordre de tri des dossiers qui se produit lorsqu’une table complète (il s’agit d’une table sans restriction) est triée. 
+La méthode **IMAPITable:: SortTable** trie les lignes dans un affichage tableau. Bien que certaines tables prennent en charge à la fois le tri standard et le tri par catégorie sur différentes colonnes de clés de tri, les autres tableaux sont plus limités dans leur prise en charge. En règle générale, les fournisseurs de carnets d'adresses ne prennent pas en charge le tri de table. Les fournisseurs de banques de messages prennent généralement en charge le tri dans la mesure où ils conservent l'ordre de tri des dossiers résultant de la création d'une table complète (table sans restrictions). 
   
-Certaines tables autorisent le tri est effectué sur n’importe quelle colonne du tableau. Autres tables mais pas ; colonnes non inclus dans l’affichage tableau ne sont pas affectés par un appel **SortTable** . Certaines tables nécessitent que les clés de tri générés uniquement avec les colonnes dans le jeu de colonne en cours. 
+Certaines tables permettent le tri sur n'importe quelle colonne de tableau. Les autres tables ne le sont pas; les colonnes non incluses dans l'affichage tableau ne sont pas affectées par un appel **SortTable** . Dans certains tableaux, les clés de tri ne doivent être créées qu'avec des colonnes dans le jeu de colonnes actuel de la table. 
   
-Un tableau peut retourner MAPI_E_NO_SUPPORT ou MAPI_E_TOO_COMPLEX à partir de **SortTable** lorsqu’il ne peut pas effectuer une opération de tri. En outre, les fournisseurs de magasins ne sont pas nécessairement de respecter l’ordre de tri spécifié pour les tables de hiérarchie. 
+Une table peut renvoyer MAPI_E_NO_SUPPORT ou MAPI_E_TOO_COMPLEX à partir de **SortTable** lorsqu'elle ne peut pas effectuer une opération de tri. Par ailleurs, il n'est pas garanti que les fournisseurs de magasins respectent l'ordre de tri défini pour les tables de hiérarchie. 
   
-Lorsqu’il n’y a aucune colonne dans la structure [SSortOrderSet](ssortorderset.md) désignée par le paramètre _lpSortCriteria_ , la table renvoie l’ensemble actuel de la colonne. L’ordre de tri actuel peut être récupéré en appelant la méthode [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) de la table. 
+Lorsqu'il n'y a aucune colonne dans la structure [SSortOrderSet](ssortorderset.md) vers laquelle pointe le paramètre _lpSortCriteria_ , la table renvoie le jeu de colonnes actuel. L'ordre de tri actuel peut être récupéré en appelant la méthode [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) . 
   
-Tous les signets pour une table sont invalidés et doivent être supprimés lorsqu’un appel à **SortTable** est effectué et le signet BOOKMARK_CURRENT qui indique l’emplacement du curseur, doit être défini au début de la table. 
+Tous les signets d'une table sont invalidés et doivent être supprimés lorsqu'un appel à **SortTable** est effectué et que le signet BOOKMARK_CURRENT qui indique la position actuelle du curseur doit être défini au début du tableau. 
   
-Si vous triez sur une colonne qui contient une propriété à valeurs multiples sans l’indicateur MVI_FLAG est défini, les valeurs de la colonne sont considérés comme un tuple complètement triée. Une comparaison de deux colonnes à valeurs multiples compare les éléments de la colonne dans l’ordre, la relation entre les colonnes de la première inégalité, de création de rapports et renvoie l’égalité uniquement si les colonnes comparées contiennent les mêmes valeurs dans le même ordre. Si une colonne a moins de valeurs à l’autre, la relation signalée est celui d’une valeur null à l’autre valeur.
+Si vous triez sur une colonne qui contient une propriété à valeurs multiples sans l'indicateur MVI_FLAG défini, les valeurs de la colonne sont traitées comme un tuple entièrement ordonné. Une comparaison de deux colonnes à valeurs multiples compare les éléments de colonne dans l'ordre, en signalant la relation entre les colonnes à la première inégalité et ne renvoie l'égalité que si les colonnes comparées contiennent les mêmes valeurs dans le même ordre. Si une colonne comporte moins de valeurs que l'autre, la relation signalée est celle d'une valeur null à l'autre valeur.
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-**SortTable** fonctionne de manière synchrone, sauf si vous définissez un des indicateurs. Si vous définissez l’indicateur TBL_BATCH, **SortTable** diffère de l’opération de tri, sauf si vous demandez les données. Si l’indicateur TBL_ASYNC est défini, **SortTable** fonctionne de manière asynchrone, potentiellement renvoi avant la fin de l’opération. 
+**SortTable** fonctionne de façon synchrone, sauf si vous définissez l'un des indicateurs. Si vous définissez l'indicateur TBL_BATCH, **SortTable** diffère l'opération de tri, sauf si vous demandez les données. Si l'indicateur TBL_ASYNC est défini, **SortTable** fonctionne de manière asynchrone, pouvant renvoyer avant la fin de l'opération. 
   
-Appelez la méthode [IMAPITable::Abort](imapitable-abort.md) pour arrêter une opération asynchrone en cours si le tri doit être effectué immédiatement. Si **SortTable** ne peut pas continuer car un ou plusieurs des opérations asynchrones dans le tableau sont en cours, elle renvoie MAPI_E_BUSY. 
+Appelez la méthode [IMAPITable:: Abort](imapitable-abort.md) pour arrêter une opération asynchrone en cours si votre tri doit être réalisé immédiatement. Si **SortTable** ne peut pas continuer car une ou plusieurs opérations asynchrones sur la table sont en cours, elle renvoie MAPI_E_BUSY. 
   
-Pour optimiser les performances, appelez **SetColumns** pour personnaliser l’ensemble de colonnes de la table et **Restrict** pour limiter le nombre de lignes dans le tableau avant d’appeler **SortTable** pour effectuer le tri. 
+Pour de meilleures performances, appelez **SetColumns** pour personnaliser le jeu de colonnes de la table et **limiter** le nombre de lignes de la table avant d'appeler **SortTable** pour effectuer le tri. 
   
-Chaque fois que **SortTable** échoue, l’ordre de tri qui était en vigueur avant la défaillance est toujours en vigueur. 
+Chaque fois que **SortTable** échoue, l'ordre de tri qui était en vigueur avant la défaillance est toujours en vigueur. 
   
 ## <a name="see-also"></a>Voir aussi
 

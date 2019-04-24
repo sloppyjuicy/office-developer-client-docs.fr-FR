@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8ae4326cedf7e4fa4c3218d30255a9473ab7fbe0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e0087cdffe04bdb5de7ffcfa295a5ac84bf03bd1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331618"
 ---
 # <a name="cbmapiverbarray"></a>CbMAPIVerbArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets dans une structure [SMAPIVerbArray](smapiverbarray.md) existante qui contient un nombre spécifié de structures [SMAPIVerb](smapiverb.md) . 
+Calcule le nombre d'octets dans une structure [SMAPIVerbArray](smapiverbarray.md) existante qui contient un nombre spécifié de structures [SMAPIVerb](smapiverb.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Structure connexe :  <br/> |**SMAPIVerbArray** <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Structure associée:  <br/> |**SMAPIVerbArray** <br/> |
    
 ```cpp
 int CbMAPIVerbArray (_c)

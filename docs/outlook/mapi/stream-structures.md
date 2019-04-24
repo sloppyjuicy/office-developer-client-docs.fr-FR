@@ -5,24 +5,24 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9e305071-b6a5-4bd8-892e-25553d04bb15
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5f372e93457f2b7ef8830ae6bd0363f6b3a7bd60
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 7f1f1e028797edaa0afb45df4f39aca15ff6d425
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327439"
 ---
 # <a name="stream-structures"></a>Structures de flux
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définitions des champs définis par l’utilisateur d’un élément de Microsoft Outlook sont stockées dans la propriété [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) . La valeur de cette propriété est un flux binaire qui contient des définitions de champs définis par l’utilisateur et les paramètres de liaison de données pour les champs intégrés pour l’élément Outlook. Cette section fournit des informations sur la structure de l’objet stream binaire, réparti dans les structures de flux de données suivantes. 
+Les définitions des champs définis par l'utilisateur d'un élément Microsoft Outlook sont stockées dans la propriété [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) . La valeur de cette propriété est un flux binaire qui contient des définitions de champs définis par l'utilisateur et des paramètres de liaison de données pour les champs prédéfinis de l'élément Outlook. Cette section fournit des informations sur la structure du flux binaire, décomposées dans les structures de flux suivantes. 
   
 > [!NOTE]
-> Les noms de ces structures de flux de données (par exemple, la définition PropertyDefinition, FieldDefinition et SkipBlock) et leurs éléments de données ne sont pas techniquement partie de l’interface de programmation de l’API de messagerie (MAPI) et sont fournies ici uniquement pour la documentation à des fins des structures de flux de données réelles. Les développeurs peuvent étiqueter ces éléments de données et de structures de flux dans leurs applications leur guise. 
+> Les noms de ces structures de flux (par exemple, PropertyDefinition, FieldDefinition et SkipBlock) et leurs éléments de données ne font pas techniquement partie de l'interface de programmation de l'API de messagerie (MAPI) et sont fournis ici uniquement pour la documentation objectifs des structures de flux réelles. Les développeurs peuvent étiqueter ces structures de flux et ces éléments de données dans leurs applications au fur et à mesure qu'ils le choisissent. 
   
 - [Structure de flux PropertyDefinition](propertydefinition-stream-structure.md)
     
@@ -40,9 +40,9 @@ Définitions des champs définis par l’utilisateur d’un élément de Microso
 
 
 
-[Champs et éléments Outlook](outlook-items-and-fields.md)
+[Éléments et champs Outlook](outlook-items-and-fields.md)
   
-[Ajout d’une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Ajouter une définition pour un nouveau champ défini par l'utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5732dd3c1587c127cf153ebcadd9b791e6abb9ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ffa1b596b2f60bce35f24df8a20326502be8165a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331800"
 ---
 # <a name="checkparms"></a>CheckParms
 
@@ -25,7 +25,7 @@ ms.locfileid: "22582034"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes de fournisseur de service appelées par MAPI. 
+Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes du fournisseur de services appelées par MAPI. 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ HRESULT CheckParms(
 
  _eMethod_
   
-> [in] Spécifie, par l’énumération, la méthode à valider. 
+> dans Spécifie, par énumération, la méthode à valider. 
     
- _Premier_
+ _First_
   
-> [in] Pointeur vers le premier argument dans la pile.
+> dans Pointeur vers le premier argument de la pile.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -58,6 +58,6 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Contrairement aux [ValidateParms](validateparms.md) et [UlValidateParms](ulvalidateparms.md) des macros, la macro **CheckParms** n’effectue pas une validation de paramètre complet. Paramètres passés entre MAPI et service fournisseurs sont supposés soit correct **CheckParms** effectue une validation de débogage uniquement. 
+Contrairement aux macros [ValidateParms](validateparms.md) et [UlValidateParms](ulvalidateparms.md) , la macro **CheckParms** n'effectue pas de validation de paramètre complète. Les paramètres transmis entre MAPI et les fournisseurs de services sont supposés corrects, de sorte que **CheckParms** effectue uniquement une validation de débogage. 
   
 

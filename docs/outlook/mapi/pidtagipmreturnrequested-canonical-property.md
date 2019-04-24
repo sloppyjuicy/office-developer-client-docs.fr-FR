@@ -11,40 +11,40 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9c97df9f-08d7-4223-864f-47286f674e11
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 689d3e7815113b495140b907df1b8f8004b4a32d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: bc6903fe10843faf15583a0b0fd8f22af375be0f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327839"
 ---
 # <a name="pidtagipmreturnrequested-canonical-property"></a>Propriété canonique PidTagIpmReturnRequested
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si ce message doit être retourné avec un rapport.
+Contient la valeur TRUE si ce message doit être renvoyé avec un rapport.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_RETURN_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C02  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

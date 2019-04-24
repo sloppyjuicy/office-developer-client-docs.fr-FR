@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: f05fa0816db3b412329372ad392c673c240eb59e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327243"
 ---
 # <a name="pidtagattachmimetag-canonical-property"></a>Propriété canonique PidTagAttachMimeTag
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des informations de mise en forme sur une pièce jointe Multipurpose Internet Mail Extensions (MIME). 
+Contient des informations de mise en forme sur une pièce jointe MIME (Multipurpose Internet Mail Extensions). 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient des informations de mise en forme sur une pièce jointe Multipurpose In
    
 ## <a name="remarks"></a>Remarques
 
-Si la propriété **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contient la valeur **OID_MIMETAG**, le fournisseur de transport doit se présenter ces propriétés pour déterminer la façon dont la pièce jointe est mis en forme. 
+Si la propriété **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contient la valeur **OID_MIMETAG**, le fournisseur de transport doit examiner ces propriétés pour déterminer la façon dont la pièce jointe est mise en forme. 
   
-Ces propriétés sont copiées à partir du paramètre type de contenu de l’en-tête MIME entrant. La composition de la chaîne est définie dans le document RFC 1521. Le format est type/sous-type, telles que l’application/binaire ou texte/ordinaire. 
+Ces propriétés sont copiées à partir du paramètre content-type de l'en-tête MIME entrant. La composition de la chaîne est définie dans le document RFC 1521. Le format est type/SubType, tel que application/binary ou text/plain. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Spécifie les propriétés des messages codés géré par des droits.
+> Spécifie les propriétés des messages codés gérés par des droits.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

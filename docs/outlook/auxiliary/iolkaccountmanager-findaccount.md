@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
-description: Recherche un compte à la valeur de la propriété.
-ms.openlocfilehash: a7d016ab7e265e547b33940c16f96979bd5fa87a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Recherche un compte par valeur de propriété.
+ms.openlocfilehash: d09bce88413f85ee3ccc332c3cb88bb545a0ccaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322077"
 ---
 # <a name="iolkaccountmanagerfindaccount"></a>IOlkAccountManager::FindAccount
 
-Recherche un compte à la valeur de la propriété.
+Recherche un compte par valeur de propriété.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -34,15 +34,15 @@ HRESULT IOlkAccountManager::FindAccount (
 
 _dwProp_
   
-> [in] La propriété à rechercher. Doit être [PROP_ACCT_ID](prop_acct_id.md) ou [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
+> dans Propriété sur laquelle porte la recherche. Doit être [PROP_ACCT_ID](prop_acct_id.md) ou [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
     
 _pVar_
   
-> [in] La valeur de correspondance.
+> dans Valeur à respecter.
     
 _ppAccount_
   
-> [out] Le compte est trouvé. Cet objet prend en charge une interface [IOlkAccount](iolkaccount.md) . 
+> remarquer Le compte trouvé. Cet objet prend en charge une interface [IOlkAccount](iolkaccount.md) . 
     
 ## <a name="return-values"></a>Valeurs de retour
 

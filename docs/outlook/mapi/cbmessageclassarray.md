@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: bdba30013bf5adddba78a3c9fa1330b34dd2b4fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c135a5bf5c1a697ddf2b2c85c6d81d6289f6a9e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329595"
 ---
 # <a name="cbmessageclassarray"></a>CbMessageClassArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets dans une structure [SMessageClassArray](smessageclassarray.md) existante qui contient un nombre spécifié de pointeurs chaîne aux classes de message. 
+Calcule le nombre d'octets dans une structure [SMessageClassArray](smessageclassarray.md) existante qui contient un nombre spécifié de pointeurs de chaîne vers des classes de message. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SMessageClassArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**SMessageClassArray** <br/> |
    
 ```cpp
 CbMessageClassArray (_c)
@@ -40,7 +40,7 @@ CbMessageClassArray (_c)
 
  __c_
   
-> Nombre de pointeurs vers des classes de message qui sont inclus dans le existant **SMessageClassArray**.
+> DéCompte des pointeurs vers les classes de message incluses dans le **SMessageClassArray**existant.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,25 +1,25 @@
 ---
-title: À propos des ajouts MAPI
+title: Ajouts MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5f4aa6444eb02831b299a5ca6e0c54b6b2d0a6fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: fefa77a15cc2b8c72a41b29e6299f159a893cee8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322161"
 ---
-# <a name="about-mapi-additions"></a>À propos des ajouts MAPI
+# <a name="about-mapi-additions"></a>Ajouts MAPI
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajouts MAPI sont les API qui appartiennent à MAPI Messaging Application Programming Interface (), tels que les types de données, les fonctions et les propriétés, qui ont été précédemment pas exposées et documentées dans le cadre de référence du programmeur MAPI. Elles incluent les définitions et les propriétés suivantes.
+Les ajouts MAPI sont des API qui appartiennent à l'interface MAPI (Messaging Application Programming Interface), telles que les types de données, les fonctions et les propriétés, qui n'étaient précédemment pas exposés et documentés dans le cadre du Guide de référence du programmeur MAPI. Elles incluent les définitions et les propriétés suivantes.
   
-## <a name="constant-definitions"></a>Définitions de constantes
+## <a name="constant-definitions"></a>Définitions des constantes
 
 - **[Constantes MAPI supplémentaires](mapi-constants.md)**
   
@@ -39,7 +39,7 @@ Ajouts MAPI sont les API qui appartiennent à MAPI Messaging Application Program
     
 ## <a name="properties"></a>Propriétés
 
-Les propriétés suivantes sont généralement exposées par les objets de message.
+Les propriétés suivantes sont généralement exposées par les objets message.
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -79,11 +79,11 @@ Les propriétés suivantes sont généralement exposées par les objets de messa
     
 - **[PR_SUBJECT_W](pidtagsubject-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets table d’adresse livre contenu.
+Les propriétés suivantes sont exposées par les objets de tableau du contenu du carnet d'adresses.
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets de conteneur address book.
+Les propriétés suivantes sont exposées par les objets conteneur du carnet d'adresses.
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,7 +91,7 @@ Les propriétés suivantes sont exposées par les objets de conteneur address bo
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets de dossier.
+Les propriétés suivantes sont exposées par les objets Folder.
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
@@ -189,7 +189,7 @@ Les propriétés suivantes sont exposées par les objets utilisateur de messager
     
 - **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets section de profil.
+Les propriétés suivantes sont exposées par les objets de section de profil.
   
 - **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
@@ -207,7 +207,7 @@ Les propriétés suivantes sont exposées par les objets section de profil.
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets store.
+Les propriétés suivantes sont exposées par les objets Store.
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ Les propriétés suivantes sont exposées par les objets store.
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets store et sont utilisées lors de la recherche des éléments spécifiques d’un message électronique dans le magasin.
+Les propriétés suivantes sont exposées par les objets Store et sont utilisées pour rechercher des éléments spécifiques d'un courrier électronique dans la Banque.
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     
@@ -233,8 +233,8 @@ Les propriétés suivantes sont exposées par les objets store et sont utilisée
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Accès à un magasin sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
-- [Détecter la version d’Exchange Server dans un profil Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [Accès à une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
+- [Détecter la version d'Exchange Server dans un profil Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
 - [Ouvrir une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [Gérer un message dans un fichier OST sans appeler de synchronisation en mode Exchange mis en cache](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

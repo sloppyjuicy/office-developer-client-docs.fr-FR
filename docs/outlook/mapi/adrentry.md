@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f3a62f6783e3b1a0a0423a08c7f5e866b42b81f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 36e0218c9e4e312a138bef7517242f74079212c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330225"
 ---
 # <a name="adrentry"></a>ADRENTRY
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit les zéro ou plusieurs propriétés qui appartiennent à un destinataire.
+Décrit zéro ou plusieurs propriétés qui appartiennent à un destinataire.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _ADRENTRY
@@ -45,37 +45,37 @@ typedef struct _ADRENTRY
 
  **ulReserved1**
   
-> Réservé ; doit être égal à zéro.
+> MSR doit être égal à zéro.
     
  **cValues**
   
-> Nombre de propriétés dans le tableau de valeurs de propriété vers laquelle pointe le membre **rgPropVals** . Le membre **cValues** peut être égal à zéro. 
+> Nombre de propriétés dans le tableau de valeurs de propriété vers lequel pointe le membre **rgPropVals** . Le membre **cValues** peut être égal à zéro. 
     
  **rgPropVals**
   
-> Pointeur vers un tableau de valeurs de propriété décrivant les propriétés pour le destinataire. Le membre **rgPropVals** peut être NULL. 
+> Pointeur vers un tableau de valeurs de propriété décrivant les propriétés du destinataire. Le membre **rgPropVals** peut être null. 
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **ADRENTRY** décrit les propriétés qui appartiennent à un seul destinataire. Les propriétés qui sont généralement utilisées pour décrire un destinataire sont les suivantes : 
+Une structure **ADRENTRY** décrit les propriétés qui appartiennent à un seul destinataire. Les propriétés qui sont généralement utilisées pour décrire un destinataire sont les suivantes: 
   
  **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
   
- **TYPEADR_PR** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
+ **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
   
- **ADRESSE_EMAIL_PR** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
+ **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
   
  **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
   
-Lorsqu’un identificateur d’entrée ou de la propriété **PR_ENTRYID** apparaît dans le tableau [SPropValue](spropvalue.md) pour un destinataire, cela indique que le destinataire a été résolu. Les clients appeler la méthode [IAddrBook::ResolveName](iaddrbook-resolvename.md) pour vous assurer que tous les destinataires dans la liste des destinataires d’un message sortant ont été résolus. Seuls les destinataires résolus peuvent être envoyés avec des messages. 
+Lorsqu'un identificateur d'entrée ou une propriété **PR_ENTRYID** apparaît dans le tableau [SPropValue](spropvalue.md) pour un destinataire, cela indique que le destinataire a été résolu. Les clients appellent la méthode [IAddrBook:: ResolveName](iaddrbook-resolvename.md) pour s'assurer que tous les destinataires de la liste des destinataires d'un message sortant ont été résolus. Seuls les destinataires résolus peuvent être envoyés avec des messages. 
   
- Structures **ADRENTRY** sont généralement combinées pour former un tableau pour le membre **aEntries** d’une structure [ADRLIST](adrlist.md) . 
+ Les structures **ADRENTRY** sont généralement combinées pour former un tableau pour le membre **aEntries** d'une structure [ADRLIST](adrlist.md) . 
   
- Structures de **ADRENTRY** et [SRow](srow.md) sont identiques, car ils permettent tous deux contient un membre réservé, un tableau de valeurs de propriété et un nombre de valeurs dans le tableau. Tandis que les structures **ADRENTRY** sont combinés pour former le membre **aEntries** d’une structure **ADRLIST** , structures **SRow** sont combinés pour former le membre **: UGAL** d’une structure [SRowSet](srowset.md) . Les deux types de structures de suivent les mêmes règles d’affectation, ce qui implique qu’une structure **SRowSet** qui est récupérée à partir de la table des matières d’un conteneur de carnet d’adresses peut être castée en une structure **ADRLIST** et utilisée comme est. 
+ Les structures **ADRENTRY** et [SRow](srow.md) sont identiques, car elles contiennent toutes deux un membre réservé, un tableau de valeurs de propriétés et un nombre de valeurs dans le tableau. Tandis que les structures **ADRENTRY** sont combinées pour former le membre **aEntries** d'une structure **ADRLIST** , les structures **SRow** sont combinées pour former le membre **aRow** d'une structure [SRowSet](srowset.md) . Les deux types de structures suivent les mêmes règles d'allocation, ce qui implique qu'une structure **SRowSet** extraite de la table de contenu d'un conteneur de carnet d'adresses peut être convertie en structure **ADRLIST** et utilisée telle quelle. 
   
-Une structure **ADRENTRY** peut être vide. Par exemple, une structure **ADRENTRY** qui se trouve dans la structure **ADRLIST** désignée par le paramètre _lppAdrList_ dans un appel à **IAddrBook::Address** peut être vide lorsqu’un destinataire est supprimé. 
+Une structure **ADRENTRY** peut être vide. Par exemple, une structure **ADRENTRY** contenue dans la structure **ADRLIST** vers laquelle pointe le paramètre _LppAdrList_ dans un appel à **IAddrBook:: Address** peut être vide lors de la suppression d'un destinataire. 
   
-Pour plus d’informations sur la façon d’allouer de la mémoire pour les structures **ADRENTRY** , voir [Gestion de la mémoire ADRLIST des Structures SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
+Pour plus d'informations sur la façon d'allouer de la mémoire aux structures **ADRENTRY** , consultez la rubrique [Managing Memory for ADRLIST and SRowSet structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
 ## <a name="see-also"></a>Voir aussi
 

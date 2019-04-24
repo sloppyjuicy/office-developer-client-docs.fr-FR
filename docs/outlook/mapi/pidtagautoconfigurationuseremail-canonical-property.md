@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 845140c8-5454-4b47-acec-ab5aff00b768
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dbc575345ba2e707dd64e35c11f00a08113f5eee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: HT
+ms.openlocfilehash: 1471b0e039d96c0e2894f789647212379d15701a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326655"
 ---
 # <a name="pidtagautoconfigurationuseremail-canonical-property"></a>Propriété canonique PidTagAutoConfigurationUserEmail
 

@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 779585f73a7032ae0259b30ebfc16868c733c7fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 25af1c1b05618d4f36a43721e71be6ff5c7c597f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326242"
 ---
 # <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit les informations qui sont associées à l’arrivée d’un nouveau message. 
+Décrit les informations relatives à l'arrivée d'un nouveau message. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _NEWMAIL_NOTIFICATION
@@ -49,49 +49,49 @@ typedef struct _NEWMAIL_NOTIFICATION
 
  **cbEntryID**
   
-> Nombre d’octets de l’identificateur d’entrée vers laquelle pointe le membre **lpEntryID** . 
+> Nombre d'octets dans l'identificateur d'entrée vers lequel pointe le membre **lpEntryID** . 
     
  **lpEntryID**
   
-> Pointeur vers l’identificateur d’entrée du message qui vient d’arriver.
+> Pointeur vers l'identificateur d'entrée du message nouvellement arrivé.
     
  **cbParentID**
   
-> Nombre d’octets de l’identificateur d’entrée vers laquelle pointe le membre **lpParentID** . 
+> Nombre d'octets dans l'identificateur d'entrée vers lequel pointe le membre **lpParentID** . 
     
  **lpParentID**
   
-> Pointeur vers l’identificateur d’entrée du dossier de réception pour le message qui vient d’arriver.
+> Pointeur vers l'identificateur d'entrée du dossier de réception pour le message nouvellement arrivé.
     
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisés pour décrire le format des propriétés de chaîne inclus dans le message. Vous pouvez définir l’indicateur suivant :
+> Masque de des indicateurs utilisé pour décrire le format des propriétés de chaîne incluses dans le message. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les chaînes passée sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
+> Les chaînes transmises sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
     
  **lpszMessageClass**
   
-> Pointeur vers la classe de message du message qui vient d’arriver. 
+> Pointeur vers la classe de message du message nouvellement arrivé. 
     
  **ulMessageFlags**
   
-> Masque de bits d’indicateurs qui décrit l’état actuel du message qui vient d’arriver. Le membre **ulMessageFlags** est une copie de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message.
+> Masque de des indicateurs qui décrit l'état actuel du message nouvellement arrivé. Le membre **ulMessageFlags** est une copie de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **NEWMAIL_NOTIFICATION** est un des membres de l’union de structures inclus dans le membre **info** de la structure de [NOTIFICATION](notification.md) . Lorsque le membre **info** d’une structure **NOTIFICATION** contient une structure **NEWMAIL_NOTIFICATION** , le membre **ulEventType** de la structure de **NOTIFICATION** est défini sur _fnevNewMail._
+La structure **NEWMAIL_NOTIFICATION** est l'un des membres de l'Union des structures incluses dans le membre **info** de la structure de [notification](notification.md) . Lorsque le membre **info** d'une structure de **notification** contient une structure **NEWMAIL_NOTIFICATION** , le membre **ulEventType** de la structure de **notification** est défini sur _fnevNewMail._
   
-MAPI utilise la structure **NEWMAIL_NOTIFICATION** uniquement en tant que membre de la structure **NOTIFICATION** , qui conserve des informations sur un événement de notification pour le récepteur de notifications. 
+MAPI utilise la structure **NEWMAIL_NOTIFICATION** uniquement en tant que membre de la structure de **notification** , qui contient des informations sur un événement de notification pour le récepteur de notifications. 
   
-Pour plus d’informations sur la notification, consultez les rubriques décrites dans le tableau suivant.
+Pour plus d'informations sur la notification, reportez-vous aux rubriques décrites dans le tableau suivant.
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des notifications et les événements de notification.  <br/> |
-|[Gestion des notifications](handling-notifications.md) <br/> |Étude de la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Prise en charge des notifications d’événements](supporting-event-notification.md) <br/> |Étude de comment les fournisseurs de services peuvent utiliser la méthode [IMAPISupport](imapisupportiunknown.md) pour générer des notifications.  <br/> |
+|[Notification d'événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d'ensemble générale des événements de notification et de notification.  <br/> |
+|[Gestion des notifications](handling-notifications.md) <br/> |Présentation de la façon dont les clients doivent gérer les notifications.  <br/> |
+|[Notification d'événement de prise en charge](supporting-event-notification.md) <br/> |Présentation de la façon dont les fournisseurs de services peuvent utiliser la méthode [IMAPISupport](imapisupportiunknown.md) pour générer des notifications.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

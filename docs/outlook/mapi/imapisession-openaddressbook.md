@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 51bf5f8455d4cb790d0c955e96249b0f9deef1af
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329420"
 ---
 # <a name="imapisessionopenaddressbook"></a>IMAPISession::OpenAddressBook
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre le carnet d’adresses intégré MAPI, qui retourne un pointeur [IAddrBook](iaddrbookimapiprop.md) pour davantage d’accès. 
+Ouvre le carnet d'adresses intégré MAPI, en renvoyant un pointeur [IAddrBook](iaddrbookimapiprop.md) pour un accès supplémentaire. 
   
 ```cpp
 HRESULT OpenAddressBook(
@@ -40,43 +40,43 @@ HRESULT OpenAddressBook(
 
  _ulUIParam_
   
-> [in] Un handle vers la fenêtre parent de la boîte de dialogue commune adresse et d’autres liées affiche.
+> dans Un handle vers la fenêtre parent de la boîte de dialogue adresse commune et d'autres affichages connexes.
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au carnet d’adresses. Interface standard du carnet d’adresses, en passant **null** renvoie un pointeur [IAddrBook : IMAPIProp](iaddrbookimapiprop.md). 
+> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder au carnet d'adresses. La transmission de la **valeur null** renvoie un pointeur vers l'interface standard du carnet d'adresses, [IAddrBook: IMAPIProp](iaddrbookimapiprop.md). 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle l’ouverture du carnet d’adresses. Vous pouvez définir l’indicateur suivant :
+> dans Masque de réinitialisation des indicateurs qui contrôle l'ouverture du carnet d'adresses. L'indicateur suivant peut être défini:
     
 AB_NO_DIALOG 
   
-> Supprime l’affichage des boîtes de dialogue. Si l’indicateur AB_NO_DIALOG n’est pas définie, les fournisseurs de carnet d’adresses qui contribuent au carnet d’adresses intégré peuvent inviter l’utilisateur à toutes les informations nécessaires. 
+> Supprime l'affichage des boîtes de dialogue. Si l'indicateur AB_NO_DIALOG n'est pas défini, les fournisseurs de carnet d'adresses qui contribuent au carnet d'adresses intégré peuvent inviter l'utilisateur à fournir les informations nécessaires. 
     
  _lppAdrBook_
   
-> [out] Pointeur vers un pointeur vers le carnet d’adresses.
+> remarquer Pointeur vers un pointeur vers le carnet d'adresses.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le carnet d’adresses a été ouvert avec succès.
+> Le carnet d'adresses a été ouvert avec succès.
     
 MAPI_W_ERRORS_RETURNED 
   
-> L’appel a réussi, mais les conteneurs d’un ou plusieurs fournisseurs de carnet d’adresses n’a pas peuvent être ouvert. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme étant réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d’informations, consultez [Utilisation de Macros pour gérer les erreurs](using-macros-for-error-handling.md).
+> L'appel a réussi, mais les conteneurs d'un ou plusieurs fournisseurs de carnets d'adresses n'ont pas pu être ouverts. Lorsque cet avertissement est renvoyé, l'appel doit être géré comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d'informations, consultez la rubrique [utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::OpenAddressBook** ouvre le carnet d’adresses intégré MAPI, une collection des conteneurs de tous les fournisseurs de carnet d’adresses dans le profil de niveau supérieur. Le pointeur est retourné dans le paramètre _lppAdrBook_ fournit davantage l’accès au contenu du carnet d’adresses. Cela permet à l’appelant effectuer des tâches telles que l’ouverture des conteneurs individuels, recherche des utilisateurs de messagerie et l’affichage des boîtes de dialogue communes adresse. 
+La méthode **IMAPISession:: OpenAddressBook** ouvre le carnet d'adresses intégré MAPI, une collection de conteneurs de niveau supérieur de tous les fournisseurs de carnet d'adresses dans le profil. Le pointeur renvoyé dans le paramètre _lppAdrBook_ fournit un accès supplémentaire au contenu du carnet d'adresses. Cela permet à l'appelant d'effectuer des tâches telles que l'ouverture de conteneurs individuels, la recherche des utilisateurs de messagerie et l'affichage des boîtes de dialogue d'adresses communes. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **OpenAddressBook** renvoie MAPI_W_ERRORS_RETURNED si elle ne peut pas charger une ou plusieurs des fournisseurs de carnet d’adresses dans le profil. Cette valeur est un message d’avertissement, pas une valeur d’erreur ; gérer comme vous le feriez S_OK. **OpenAddressBook** renvoie toujours un pointeur valide dans le paramètre _lppAdrBook_ , quel que soit le nombre des fournisseurs de carnet d’adresses n’a pas pu charger. Par conséquent, vous devez toujours appeler méthode de [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) du carnet d’adresses à un moment donné avant la fermeture de session. 
+ **OpenAddressBook** renvoie MAPI_W_ERRORS_RETURNED s'il ne peut pas charger un ou plusieurs des fournisseurs de carnet d'adresses dans le profil. Cette valeur est un avertissement, pas une valeur d'erreur; Gérez-le comme vous le feriez. **OpenAddressBook** renvoie toujours un pointeur valide dans le paramètre _lppAdrBook_ , quel que soit le nombre de fournisseurs de carnet d'adresses dont le chargement a échoué. Par conséquent, vous devez toujours appeler la méthode [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) du carnet d'adresses à un moment donné avant de se déconnecter. 
   
-Lorsque **OpenAddressBook** renvoie MAPI_W_ERRORS_RETURNED, appelez [IMAPISession::GetLastError](imapisession-getlasterror.md) pour obtenir une structure [MAPIERROR](mapierror.md) qui contient des informations sur les fournisseurs défectueux. Une structure **MAPIERROR** unique est retournée qui contient les informations fournies par tous les fournisseurs. 
+Lorsque **OpenAddressBook** renvoie MAPI_W_ERRORS_RETURNED, appelez [IMAPISession:: GetLastError](imapisession-getlasterror.md) pour obtenir une structure [MAPIERROR](mapierror.md) qui contient des informations sur les fournisseurs défaillants. Une seule structure **MAPIERROR** est renvoyée qui contient les informations fournies par tous les fournisseurs. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -84,7 +84,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI utilise la méthode **IMAPISession::OpenAddressBook** pour obtenir le carnet d’adresses intégré.  <br/> |
+|MAPIObjects. cpp  <br/> |CMapiObjects:: GetAddrBook  <br/> |MFCMAPI utilise la méthode **IMAPISession:: OpenAddressBook** pour obtenir le carnet d'adresses intégré.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

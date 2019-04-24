@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fa03d819-2621-4990-80ae-4140b83a8a85
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3b0332fb81dadb0f10ab6f55fae317349ab9b8d4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ec73a456f87b18905c180803d26720ef09254c7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327894"
 ---
 # <a name="pidtagipmoutboxentryid-canonical-property"></a>Propriété canonique PidTagIpmOutboxEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée du dossier boîte d’envoi des messages interpersonnels standard (IPM). 
+Contient l'identificateur d'entrée du dossier boîte d'envoi de message interpersonnes (IPM) standard. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient l’identificateur d’entrée du dossier boîte d’envoi des messages
    
 ## <a name="remarks"></a>Remarques
 
-Les messages sortants sont généralement créés dans le dossier boîte d’envoi. Messages interpersonnels doivent être placés dans ce dossier de dépôt. 
+Les messages sortants sont généralement créés dans le dossier boîte d'envoi. Les messages interpersonnels doivent être placés dans ce dossier pour être soumis. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

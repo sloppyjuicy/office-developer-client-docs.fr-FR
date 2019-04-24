@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: aadd9086-b936-4067-bf7d-f54fc50e3c83
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: e66fe8d3621c122ccc19bdde169f20f7d47a148d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396882"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331856"
 ---
 # <a name="pidtagtransmittabledisplayname-canonical-property"></a>Propriété canonique PidTagTransmittableDisplayName
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d’affichage d’un destinataire dans un formulaire sécurisé qui ne peut pas être modifié.
+Contient le nom d'affichage d'un destinataire dans un formulaire sécurisé qui ne peut pas être modifié.
   
 |||
 |:-----|:-----|
@@ -36,43 +36,43 @@ Contient le nom d’affichage d’un destinataire dans un formulaire sécurisé 
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés doivent être implémentées par tous les fournisseurs de carnet d’adresses. Elles contiennent la version du nom complet du destinataire est transmise avec le message. Pour la plupart des fournisseurs de carnet d’adresses, ces propriétés ont la même valeur que la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Fournisseurs qui n’ont pas un nom d’affichage d’informations sécurisé renvoyer des modifications PT_ERROR et MAPI le nom complet en ajoutant le nom entre guillemets.
+Ces propriétés doivent être implémentées par tous les fournisseurs de carnet d'adresses. Elles contiennent la version du nom d'affichage du destinataire transmis avec le message. Pour la plupart des fournisseurs de carnet d'adresses, ces propriétés ont la même valeur que la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Les fournisseurs qui n'ont pas de nom d'affichage sécurisé renvoient PT_ERROR et MAPI modifie le nom complet en entourant le nom de guillemets.
   
-Une application cliente peut utiliser cette propriété pour éviter toute altération ou « usurpation d’identité » des entrées. Un exemple d’usurpation transmet John Doe comme pré (qu’un expert).
+Une application cliente peut utiliser cette propriété pour empêcher la modification ou l'usurpation d'entrées. Un exemple d'usurpation est la transmission de John Doe sous la forme John (qu'est-ce qu'un expert) Doe.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
+> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> Gère les communications d’un client avec un serveur NSPI Name Service Provider Interface ().
+> Gère les communications d'un client avec un serveur NSPI (Name Service Provider Interface).
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère l’ordre et le flux pour les transferts de données entre un client et le serveur.
+> Gère l'ordre et le flux de transfert de données entre un client et un serveur.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

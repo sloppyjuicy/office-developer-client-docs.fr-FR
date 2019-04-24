@@ -8,50 +8,50 @@ f1_keywords:
 - Vis_DSS.chm60101
 localization_priority: Normal
 ms.assetid: c827ecd4-5593-6d4f-2746-d13b02b098fe
-description: Recherche une chaîne de texte contenue dans une autre chaîne de texte et renvoie la position de départ de la chaîne de texte recherché par rapport à sa position dans la chaîne de texte qui le contient.
-ms.openlocfilehash: e29e8e89418f0162cae0ec9904c2205218e799ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Recherche une chaîne de texte contenue dans une autre chaîne de texte et renvoie la position de départ de la chaîne de texte que vous recherchez par rapport à sa position dans la chaîne de texte qui la contient.
+ms.openlocfilehash: 40d65af25d89774c1bdf7b235cf653dbb61dd1c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788659"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322497"
 ---
-# <a name="find-function"></a>FIND, fonction
+# <a name="find-function"></a>Fonction FIND
 
-Recherche une chaîne de texte contenue dans une autre chaîne de texte et renvoie la position de départ de la chaîne de texte recherché par rapport à sa position dans la chaîne de texte qui le contient.
+Recherche une chaîne de texte contenue dans une autre chaîne de texte et renvoie la position de départ de la chaîne de texte que vous recherchez par rapport à sa position dans la chaîne de texte qui la contient.
   
 ## <a name="syntax"></a>Syntaxe
 
-Rechercher (** *rechercher_texte* **, ** *within_text* **, [** *start_num* **], [** *ignorer_casse* **]) 
+Find (* * *texte_cherché* * *, * * *dans_texte* * *, [* * *no_départ* * *], [* * *ignore_case* * *]) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _rechercher_texte_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Chaîne de texte à rechercher.  <br/> |
-| _format_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Chaîne de texte qui contient le texte à rechercher.  <br/> |
-| _Start_num_ <br/> |Facultatif  <br/> |**Number** <br/> |Le caractère à partir duquel commencer la recherche. Le premier caractère de _dans_texte_ est 1. Si _start_num_ est manquant, il est supposé pour être 1.  <br/> |
-| _ignorer_casse_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Par défaut, la fonction FIND respecte la casse. Si vous souhaitez qu’elle ignore la casse, attribuez à cet argument la valeur TRUE.  <br/> |
+| _accepte_ <br/> |Obligatoire  <br/> |**String** <br/> |Chaîne de texte à rechercher.  <br/> |
+| _format_ <br/> |Obligatoire  <br/> |**String** <br/> |Chaîne de texte qui contient le texte à rechercher.  <br/> |
+| _no_départ_ <br/> |Facultatif  <br/> |**Number** <br/> |Caractère auquel débute la recherche. Le premier caractère dans _dans_texte_ est 1. Si _no_départ_ est manquant, il est supposé égal à 1.  <br/> |
+| _ignore_case_ <br/> |Facultatif  <br/> |**Booléen** <br/> |Par défaut, la fonction FIND respecte la casse. Si vous souhaitez qu’elle ignore la casse, attribuez à cet argument la valeur TRUE.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   
 ## <a name="remarks"></a>Remarques
 
-Si plusieurs correspondances sont trouvées, la fonction FIND renvoie la position de départ de la première correspondance dans la chaîne. L’argument _rechercher_texte_ ne considère aucun caractère comme des caractères génériques. 
+Si la fonction FIND détecte plusieurs correspondances, elle renvoie la position de début de la première chaîne. L'argument _texte_cherché_ ne tient pas compte des caractères génériques. 
   
-Si _find_text_:
+Si _texte_cherché_:
   
--  Est vide (« »), FIND renvoie le premier caractère de la chaîne recherchée (c'est-à-dire, le caractère numéroté _num_départ_ ou 1). 
+-  Est vide (""), FIND correspond au premier caractère de la chaîne de recherche (c'est-à-dire, le caractère numéroté _no_départ_ ou 1). 
     
-- N’apparaît pas dans _dans_texte_, FIND renvoie la #VALUE ! valeur d’erreur. 
+- N'apparaît pas dans _dans_texte_, Find renvoie la #VALUE! Autrement, la méthode INDEX renvoie la valeur d'erreur #REF!. 
     
-Si _start_num_:
+Si _no_départ_:
   
-- n’est pas supérieur à zéro (0), FIND renvoie la valeur d’erreur #VALEUR! ; 
+- n’est pas supérieur à zéro (0), FIND renvoie la valeur d’erreur #VALEUR! ; 
     
-- Est supérieur à la longueur de _dans_texte_, Find renvoie la #VALUE ! valeur d’erreur. 
+- Est supérieur à la longueur de _dans_texte_, FINDreturns le #VALUE! Autrement, la méthode INDEX renvoie la valeur d'erreur #REF!. 
     
 ## <a name="example"></a>Exemple
 

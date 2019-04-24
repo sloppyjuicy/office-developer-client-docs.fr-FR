@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 80ba893d-3380-4db1-9175-f5b84cb57def
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e97e1d5302d8247cb09ce7cb1b581582405300a5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9a22550e60c9de38236a9f612c7e60f50f18978f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331842"
 ---
 # <a name="callerrelease"></a>CALLERRELEASE
 
@@ -25,13 +25,13 @@ ms.locfileid: "22568127"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel pouvant déclencher un objet de données de table lors de l’affichage tableau a été publié. 
+Définit une fonction de rappel qui peut publier un objet de données de tableau lors de la publication d'un affichage de tableau. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Fonction implémentée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
-|Fonction appelée par :  <br/> |MAPI  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fonction définie implémentée par:  <br/> |Applications clientes et fournisseurs de services  <br/> |
+|Fonction définie appelée par:  <br/> |MAPI  <br/> |
    
 ```cpp
 void CALLERRELEASE(
@@ -45,24 +45,24 @@ void CALLERRELEASE(
 
  _ulCallerData_
   
-> [in] Fonction de rappel en fonction de données de l’appelant enregistré par MAPI avec l’affichage tableau et transmises à la **CALLERRELEASE** . Les données fournissent un contexte relatif à l’affichage tableau libéré. 
+> dans Données de l'appelant enregistrées par MAPI avec la vue de table et transmises à la fonction de rappel basée sur **CALLERRELEASE** . Les données fournissent un contexte sur l'affichage tableau en cours de publication. 
     
  _lpTblData_
   
-> [in] Pointeur vers le [ITableData : IUnknown](itabledataiunknown.md) interface pour l’objet de données de table sous-jacentes de la vue table publiée. 
+> dans Pointeur vers l'interface [ITableData: IUnknown](itabledataiunknown.md) pour l'objet de données de tableau sous-jacent de la vue de tableau en cours de publication. 
     
  _lpVue_
   
-> [in] Pointeur vers le [IMAPITable : IUnknown](imapitableiunknown.md) interface pour l’affichage de la table publiée. Il s’agit d’une interface de l’objet table renvoyé dans le paramètre _lppMAPITable_ de la méthode [ITableData::HrGetView](itabledata-hrgetview.md) qui a créé l’objet pour libérer. 
+> dans Pointeur vers l'interface [IMAPITable: IUnknown](imapitableiunknown.md) pour l'affichage tableau en cours de publication. Il s'agit d'une interface pour l'objet Table renvoyé dans le paramètre _lppMAPITable_ de la méthode [ITableData:: HrGetView](itabledata-hrgetview.md) qui a créé l'objet à libérer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-Aucune 
+Aucun 
   
 ## <a name="remarks"></a>Remarques
 
-Une application cliente ou un fournisseur de services qui a rempli un objet de données de table peut appeler [ITableData::HrGetView](itabledata-hrgetview.md) pour créer un affichage en lecture seule, trié de la table. L’appel vers **HrGetView** passe un pointeur vers une fonction de rappel **CALLERRELEASE** basé et également un contexte soit enregistré avec l’affichage tableau. Lorsque le décompte de références de l’affichage tableau renvoie zéro et la vue est publiée, l’implémentation **IMAPITable** appelle la fonction de rappel, en passant le contexte dans le paramètre _ulCallerData_ . 
+Une application cliente ou un fournisseur de services qui a rempli un objet de données de table peut appeler [ITableData:: HrGetView](itabledata-hrgetview.md) pour créer une vue triée en lecture seule de la table. L'appel à **HrGetView** transmet un pointeur vers une fonction de rappel basée sur **CALLERRELEASE** et également un contexte à enregistrer avec la vue de table. Lorsque le décompte de références de l'affichage de tableau est remis à zéro et que la vue est publiée, l'implémentation de la méthode **IMAPITable** appelle la fonction de rappel, en transmettant le contexte dans le paramètre _ulCallerData_ . 
   
-Une utilisation courante d’une fonction de rappel **CALLERRELEASE** en est pour libérer de l’objet de données de table sous-jacente et n’ont pas à garder une trace des il lors du traitement suivant. 
+Une utilisation courante d'une fonction de rappel basée sur **CALLERRELEASE** consiste à libérer l'objet de données de la table sous-jacente et à ne pas le suivre pendant un traitement ultérieur. 
   
 

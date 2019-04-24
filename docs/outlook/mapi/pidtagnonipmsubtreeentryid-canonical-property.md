@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 03ad4bd7-3c0f-4355-9a19-51c99e6c6f7d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 52cff2c0738622abf17992b2fc5557afef8e69bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 15243336dd90d75df2b27c8c1de079419412ee5b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329322"
 ---
 # <a name="pidtagnonipmsubtreeentryid-canonical-property"></a>Propriété canonique PidTagNonIpmSubtreeEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l’identificateur d’entrée du dossier **NON_IPM_SUBTREE** dans une banque de dossiers publics Exchange. 
+Indique l'ID d'entrée du dossier **NON_IPM_SUBTREE** dans une banque de dossiers publics Exchange. 
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Indique l’identificateur d’entrée du dossier **NON_IPM_SUBTREE** dans une b
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Banque de messages  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

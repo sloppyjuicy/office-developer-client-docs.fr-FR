@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 18324a5d-aedc-4456-b2f0-6bc42b6ab882
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 5c49f119dd03e13439193c92168638c565074ee9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9a9a3d30b064bd739a2d12a165f2789d6874f866
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331982"
 ---
 # <a name="pidtagcontentconfidentialityalgorithmid-canonical-property"></a>Propriété canonique PidTagContentConfidentialityAlgorithmId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur pour l’algorithme utilisé pour confirmer la confidentialité des messages.
+Contient un identificateur pour l'algorithme utilisé pour confirmer la confidentialité du contenu du message.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Contient un identificateur pour l’algorithme utilisé pour confirmer la confid
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Exchange  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

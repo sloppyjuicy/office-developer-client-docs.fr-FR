@@ -8,28 +8,28 @@ f1_keywords:
 - Vis_DSS.chm82251882
 localization_priority: Normal
 ms.assetid: 73dc5981-2c8c-e76e-e4bd-e65a7c8db242
-description: Renvoie la chaîne de séparateur de liste pour les paramètres régionaux utilisateur.
-ms.openlocfilehash: 77610b2cf3cc515fb5d3e8b4c6c48de98ab4acc2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la chaîne de séparateur de liste pour les paramètres régionaux de l'utilisateur actuel.
+ms.openlocfilehash: 901442a3c2af8509855b8b038057e7f813634ea1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322343"
 ---
-# <a name="listsep-function"></a>LISTSEP, fonction
+# <a name="listsep-function"></a>Fonction LISTSEP
 
-Renvoie la chaîne de séparateur de liste pour les paramètres régionaux utilisateur.
+Renvoie la chaîne de séparateur de liste pour les paramètres régionaux de l'utilisateur actuel.
   
 ## <a name="syntax"></a>Syntaxe
 
 LISTSEP ()
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
-Chaîne
+String
   
 ## <a name="example"></a>Exemple
 
-SETF, « MAX (largeur &amp; SépListe() &amp; « Hauteur) ») 
+SETF (GETREF (User. étendue), "MAX (largeur" &amp; ListSep () &amp; "hauteur)") 
   
 

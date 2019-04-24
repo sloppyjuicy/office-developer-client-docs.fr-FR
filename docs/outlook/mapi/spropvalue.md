@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 60528162917a8a383060adbcadefb610aa42ce32
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c7f4e8835831af6277cef134bf3961e9928cba33
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326585"
 ---
 # <a name="spropvalue"></a>SPropValue
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Décrit une propriété MAPI.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Macros connexes :  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Macros connexes:  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
    
 ```cpp
 typedef struct _SPropValue
@@ -46,32 +46,32 @@ typedef struct _SPropValue
 
  **ulPropTag**
   
-> Balise de propriété pour la propriété. Balises de propriété sont des entiers non signés 32 bits constituée de l’identificateur unique de la propriété dans l’ordre de haut niveau 16 bits et le type de propriété dans les 16 bits de poids faible.
+> Balise de propriété de la propriété. Les balises de propriété sont des entiers non signés 32 bits constitués de l'identificateur unique de la propriété dans l'ordre décroissant de 16 bits et le type de la propriété dans le bas de 16 bits.
     
  **dwAlignPad**
   
-> Réservé pour MAPI ; n’utilisez pas. 
+> Réservé pour MAPI; ne pas utiliser. 
     
  **Valeur**
   
-> Union des valeurs de données, la valeur spécifique dictée par le type de propriété. Le tableau suivant répertorie pour chaque type de propriété, le membre de l’union qui doit être utilisé et son type de données associé.
+> Union de valeurs de données, la valeur spécifique déterminée par le type de propriété. Le tableau suivant répertorie pour chaque type de propriété, le membre de l'Union à utiliser et le type de données associé.
     
-|**Type de propriété**|**Valeur**|**Type de données de valeur**|
+|**Type de propriété**|**Valeur**|**Type de données de la valeur**|
 |:-----|:-----|:-----|
-|PT_I2 ou PT_SHORT  <br/> |**J’ai** <br/> |short int  <br/> |
-|PT_I4 ou PT_LONG (connecté)  <br/> |**l** <br/> |LONG  <br/> |
-|PT_I4 ou PT_LONG (non signé)  <br/> |**UL** <br/> |ULONG  <br/> |
-|PT_R4 ou PT_FLOAT  <br/> |**flt** <br/> |float  <br/> |
-|PT_R8 ou PT_DOUBLE  <br/> |**Double** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**b** <br/> |entier court  <br/> |
-|PT_CURRENCY  <br/> |**cur** <br/> |[CURRENCY](currency.md) <br/> |
-|PT_APPTIME  <br/> |**à** <br/> |double  <br/> |
-|PT_SYSTIME  <br/> |**FT** <br/> |[FILETIME](filetime.md) <br/> |
+|PT_I2 ou PT_SHORT  <br/> |**i** <br/> |short int  <br/> |
+|PT_I4 ou PT_LONG (signé)  <br/> |**l** <br/> |PLUS  <br/> |
+|PT_I4 ou PT_LONG (non signé)  <br/> |**suffix** <br/> |ULONG  <br/> |
+|PT_R4 ou PT_FLOAT  <br/> |**flt** <br/> |flottant  <br/> |
+|PT_R8 ou PT_DOUBLE  <br/> |**clic** <br/> |double  <br/> |
+|PT_BOOLEAN  <br/> |**point** <br/> |entier court non signé  <br/> |
+|PT_CURRENCY  <br/> |**Tabs** <br/> |[CONCURRENT](currency.md) <br/> |
+|PT_APPTIME  <br/> |**Regardez** <br/> |double  <br/> |
+|PT_SYSTIME  <br/> |**pied** <br/> |[FILETIME](filetime.md) <br/> |
 |PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |
-|PT_BINARY  <br/> |**Corbeille** <br/> |OCTETS [array]  <br/> |
+|PT_BINARY  <br/> |**plateau** <br/> |BYTE [array]  <br/> |
 |PT_UNICODE  <br/> |**lpszW** <br/> |LPWSTR  <br/> |
 |PT_CLSID  <br/> |**lpguid** <br/> |LPGUID  <br/> |
-|PT_I8 ou PT_LONGLONG  <br/> |**li** <br/> |**LARGE_INTEGER** <br/> |
+|PT_I8 ou PT_LONGLONG  <br/> |**&** <br/> |**LARGE_INTEGER** <br/> |
 |PT_MV_I2  <br/> |**MVi** <br/> |[SShortArray](sshortarray.md) <br/> |
 |PT_MV_LONG  <br/> |**MVI** <br/> |[SLongArray](slongarray.md) <br/> |
 |PT_MV_R4  <br/> |**MVflt** <br/> |[SRealArray](srealarray.md) <br/> |
@@ -85,26 +85,26 @@ typedef struct _SPropValue
 |PT_MV_CLSID  <br/> |**MVguid** <br/> |[SGuidArray](sguidarray.md) <br/> |
 |PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
 |PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
-|PT_NULL ou PT_OBJECT  <br/> |**x** <br/> |LONG  <br/> |
-|PT_PTR  <br/> |**LPV** <br/> |VOID\*  <br/> |
+|PT_NULL ou PT_OBJECT  <br/> |**x** <br/> |PLUS  <br/> |
+|PT_PTR  <br/> |**LPV** <br/> |RÉSIDUEL\*  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le membre **ulPropTag** est composé de deux parties : 
+Le membre **ulPropTag** est composé de deux parties: 
   
-- Un identificateur dans l’ordre de haut niveau 16 bits.
+- Identificateur dans l'ordre décroissant de 16 bits.
     
-- Un type dans les 16 bits de poids faible.
+- Un type dans les bits de poids faible 16.
     
-L’identificateur est une valeur numérique dans une plage spécifique. MAPI définit les plages pour les identificateurs décrire la propriété qui est utilisée pour et qui est chargé de maintenance. MAPI définit des contraintes pour chacune des balises de propriété pris en charge dans le fichier d’en-tête Mapitags.h.
+L'identificateur est une valeur numérique comprise dans une plage particulière. MAPI définit des plages d'identificateurs pour décrire ce à quoi la propriété est utilisée et qui est responsable de sa maintenance. MAPI définit des contraintes pour chacune des balises de propriété qu'il prend en charge dans le fichier d'en-tête Mapitags. h.
   
-Le type indique le format de la valeur de propriété. MAPI définit des constantes pour chacun des types de propriété pris en charge dans le fichier d’en-tête Mapidefs.h. 
+Le type indique le format de la valeur de la propriété. MAPI définit des constantes pour chaque type de propriété qu'il prend en charge dans le fichier d'en-tête Mapidefs. h. 
   
-Pour une liste complète des plages de propriété valide pour les identificateurs et les types de propriété, voir l’annexe [les Types et les identificateurs de propriété](property-identifiers-and-types.md) . 
+Pour obtenir la liste complète des plages de propriétés valides pour les identificateurs et les types de propriétés, voir l'annexe relative aux [identificateurs et aux types](property-identifiers-and-types.md) de propriétés. 
   
-Le membre **dwAlignPad** est utilisé comme remplissage pour effectuer un alignement correct que sur les ordinateurs qui nécessitent l’alignement de 8 octets pour les valeurs de 8 octets. Développeurs, écrire du code sur ces ordinateurs doivent utiliser des routines d’allocation de mémoire qui affectent les tableaux **SPropValue** sur les limites de 8 octets. 
+Le membre **dwAlignPad** est utilisé comme remplissage pour garantir un alignement correct sur les ordinateurs qui nécessitent un alignement sur 8 octets pour les valeurs 8 octets. Les développeurs qui écrivent du code sur ces ordinateurs doivent utiliser des routines d'allocation de mémoire qui allouent les tableaux **SPropValue** sur des limites de 8 octets. 
   
-Pour plus d’informations, voir [Vue d’ensemble des types de propriété MAPI](mapi-property-type-overview.md) et [Mise à jour des propriétés MAPI](updating-mapi-properties.md). 
+Pour plus d'informations, reportez-vous à la rubrique [MAPI Property type Overview](mapi-property-type-overview.md) et [mise à jour des propriétés MAPI](updating-mapi-properties.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

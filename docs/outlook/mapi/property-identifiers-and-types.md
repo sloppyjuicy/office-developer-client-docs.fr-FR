@@ -7,24 +7,24 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 39a5c97c-5ac8-47a8-b193-a4b3ba6a02a5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 423992e0485e8e3092cfc4126164576906d51149
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: caba60b7059d1c1f8f0440aeb55abb88801fbc9a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328538"
 ---
 # <a name="property-identifiers-and-types"></a>Types et identificateurs de propriétés
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Toutes les propriétés MAPI sont représentées par des balises de propriété. Une balise de propriété est une valeur de nombre entier non signé 32 bits qui contient l’identificateur de la propriété dans le haut niveau de commande 16 bits et le type de propriété dans le bas de commande 16 bits. Balises de propriété pour toutes les propriétés définies par MAPI sont inclus dans le fichier d’en-tête mapitags.h.
+Toutes les propriétés MAPI sont représentées par des balises de propriété. Une balise de propriété est une valeur entière non signée de 32 bits qui contient l'identificateur de la propriété dans l'ordre haut 16 bits et le type de la propriété dans la commande basse de 16 bits. Les balises de propriété de toutes les propriétés définies par MAPI sont incluses dans le fichier d'en-tête mapitags. h.
   
-Identificateurs de propriété sont utilisés pour indiquer qu’une propriété est utilisée pour et qui est responsable. Identificateurs de propriété sont divisées par MAPI plages ; où un identificateur fait partie de la plage indique son utilisation et propriété. 
+Les identificateurs de propriétés sont utilisés pour indiquer ce à quoi une propriété est utilisée et qui est responsable de celle-ci. Les identificateurs de propriétés sont divisés par MAPI en plages; l'emplacement où se trouve un identificateur dans la plage indique son utilisation et sa propriété. 
   
-Types de propriété sont utilisés pour indiquer le format des données de la propriété. MAPI définit tous les types valides. Clients et fournisseurs de services de créer de nouvelles propriétés doivent utiliser une de ces types. Tous les types de propriété sont inclus dans le fichier d’en-tête mapidefs.h.
+Les types de propriétés sont utilisés pour indiquer le format des données de la propriété. MAPI définit tous les types valides. Les clients et les fournisseurs de services qui créent de nouvelles propriétés doivent utiliser l'un de ces types. Tous les types de propriétés sont inclus dans le fichier d'en-tête mapidefs. h.
   
 

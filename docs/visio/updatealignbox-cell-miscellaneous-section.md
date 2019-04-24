@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3e3f8dc9-203f-447d-9674-eb0be2d557d1
 description: Recalcule le rectangle de sélection lorsqu'une poignée de contrôle est déplacée.
-ms.openlocfilehash: 837c25a2d4993f91a16cc4e292f34a94b00040c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b9d46b48002b6b3b1729df014fb0627a9c7f152
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327334"
 ---
 # <a name="updatealignbox-cell-miscellaneous-section"></a>UpdateAlignBox, cellule (section Miscellaneous)
 
 Recalcule le rectangle de sélection lorsqu'une poignée de contrôle est déplacée.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule UpdateAlignBox par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule UpdateAlignBox par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -32,7 +32,7 @@ Pour obtenir une référence à la cellule UpdateAlignBox par index dans un prog
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
 | Index de la cellule :  <br/> |**visUpdateAlignBox** <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Cellule XGridSpacing (règle &amp; Section grille)
+title: Cellule XGridSpacing (section &amp; règle et grille)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e07dd983-7588-6317-944c-46da2bb65b31
 description: Précise la distance entre les lignes horizontales dans une grille fixe (XGridDensity = 0).
-ms.openlocfilehash: 5f461d02dae1574fe2b186b43166ef14d8251df2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 05b68a9721dbfc9c03402d384d976c42ef05b134
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327320"
 ---
-# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>Cellule XGridSpacing (règle &amp; Section grille)
+# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>Cellule XGridSpacing (section &amp; règle et grille)
 
 Précise la distance entre les lignes horizontales dans une grille fixe (XGridDensity = 0).
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l' **Espacement minimal** horizontal d’option dans le **règle &amp; grille** boîte de dialogue (sous l’onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l'option **espaceMent minimal** horizontal de la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
   
-Pour obtenir une référence à la cellule XGridSpacing par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule XGridSpacing par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule XGridSpacing par index dans un progra
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visXGridSpacing** <br/> |
    

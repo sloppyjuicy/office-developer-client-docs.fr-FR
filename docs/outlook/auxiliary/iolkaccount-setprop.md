@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 883b1c5d-47dd-a006-b5f1-130691bdd019
-description: Définit la valeur de la propriété du compte spécifié.
-ms.openlocfilehash: 2bb8a323f5f3399b9eac1cfdf9ac18faddfdb259
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Définit la valeur de la propriété de compte spécifiée.
+ms.openlocfilehash: 94134cee7886177ab840a6caff7d70d65bf9d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322252"
 ---
 # <a name="iolkaccountsetprop"></a>IOlkAccount::SetProp
 
-Définit la valeur de la propriété du compte spécifié.
+Définit la valeur de la propriété de compte spécifiée.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,22 +33,22 @@ HRESULT IOlkAccount::SetProp(
 
 _dwProp_
   
-> [in] La balise de propriété de la propriété de compte à définir.
+> dans Balise de propriété de la propriété Account à définir.
     
 _pVar_
   
-> [in] La valeur de la propriété spécifiée.
+> dans Valeur de la propriété spécifiée.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L’appel de méthode a réussi.  <br/> |
+|S_OK  <br/> |L'appel de la méthode a réussi.  <br/> |
 |E_INVALIDARG  <br/> |Une balise de propriété non valide a été spécifiée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Utilisez [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) pour enregistrer les modifications apportées à la valeur des propriétés de compte. 
+Utilisez [IOlkAccount:: SaveChanges](iolkaccount-savechanges.md) pour enregistrer les modifications apportées à la valeur des propriétés du compte. 
   
 ## <a name="see-also"></a>Voir aussi
 

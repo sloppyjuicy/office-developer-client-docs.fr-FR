@@ -1,5 +1,5 @@
 ---
-title: Éviter d’étendre un flux de données à l’aide de IStreamSetSize
+title: Éviter d'utiliser IStreamSetSize pour étendre un flux
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,20 +7,20 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b6de594f-e331-4421-956b-86ee0b5518fe
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9245d4913c2832b8c942093e65cf088643a1947c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 614bb3d142b7aaabe89223b6ce3552469edfce27
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331639"
 ---
-# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Éviter l’utilisation de IStream::SetSize pour étendre un flux de données
+# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Éviter d'utiliser IStream:: asSetS pour étendre un flux
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lors de l’écriture dans les flux, il est parfois nécessaire de les agrandir, car leur taille initiale n’est plus suffisante. Pour cela, utiliser la méthode OLE **IStream::Write** plutôt que **IStream::SetSize**. **IStream::Write** étend automatiquement le flux, rendant ** IStream::SetSize ** inutiles. Appel **IStream::Write** sans **IStream::SetSize** la peut être plus rapide que la **SetSize** avant **d’écrire**des appels jusqu'à trois fois.
+Lors de l'écriture dans des flux, il est parfois nécessaire de les agrandir car leur taille initiale n'est plus suffisante. Utilisez la méthode OLE **IStream:: Write** pour effectuer cette opération au lieu de **IStream:: assets**. **IStream:: Write** étend automatiquement le flux, en rendant * * IStream:: * * indésirable. L'appel de **IStream:: Write** sans **IStream:: la méthode sets** peut prendre jusqu'à trois fois plus de temps que l'appel de la **méthode** avant l' **écriture**.
   
 

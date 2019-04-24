@@ -8,31 +8,31 @@ f1_keywords:
 - Vis_DSS.chm1033808
 localization_priority: Normal
 ms.assetid: c20842cd-86b1-83fa-49ba-118936013b6f
-description: Convertit une formule qui produit élargies codes de jeu de caractères codé sur un ou plusieurs octets en une chaîne de codes de caractères Unicode 16 bits, les jeux de caractères spécifié à l’aide de codes de caractères 16 bits.
-ms.openlocfilehash: 66dc3e801585077a9521cd93f8ae78c47f8a746b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: ConVertit une formule produisant des codes de caractères 16 bits qui sont des codes de jeu de caractères codés sur un octet ou sur plusieurs octets élargis en une chaîne de codes de caractères Unicode 16 bits, à l'aide des jeux de caractères spécifiés.
+ms.openlocfilehash: c885487f91e541027b7ba09812e7321a9deb00ac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326767"
 ---
-# <a name="rewiden-function"></a>REWIDEN, fonction
+# <a name="rewiden-function"></a>Fonction REWIDEN
 
-Convertit une formule qui produit élargies codes de jeu de caractères codé sur un ou plusieurs octets en une chaîne de codes de caractères Unicode 16 bits, les jeux de caractères spécifié à l’aide de codes de caractères 16 bits. 
+ConVertit une formule produisant des codes de caractères 16 bits qui sont des codes de jeu de caractères codés sur un octet ou sur plusieurs octets élargis en une chaîne de codes de caractères Unicode 16 bits, à l'aide des jeux de caractères spécifiés. 
   
 ## <a name="syntax"></a>Syntaxe
 
-REWIDEN, (** *srcCharSet* **, ** *dstCharSet* **, ** *texte* **) 
+ReLARGESn (* * *srcCharSet* * *, * * *dstCharSet* * *, * * *Text* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _srcCharSet_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Jeu de caractères du document source  <br/> |
-| _dstCharSet_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Jeu de caractères du document de destination  <br/> |
-| _text_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Texte à convertir  <br/> |
+| _srcCharSet_ <br/> |Obligatoire  <br/> |**String** <br/> |Jeu de caractères du document source  <br/> |
+| _dstCharSet_ <br/> |Obligatoire  <br/> |**String** <br/> | Jeu de caractères du document de destination  <br/> |
+| _text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte à convertir  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 La fonction REWIDEN est utilisée pour la conversion automatique de documents Visio 2002 en documents Visio 2003. Une utilisation à une autre fin n’est pas recommandée.
   

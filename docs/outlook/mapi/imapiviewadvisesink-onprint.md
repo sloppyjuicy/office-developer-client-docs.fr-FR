@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 202d461d4acefe18e69b47db9319cb328c61406e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e66315042f8b5cd5aff0e4aa076588c9f312376a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328783"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592317"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avertit l’utilisateur du formulaire de l’état d’impression d’un formulaire.
+Avertit la visionneuse de formulaires de l'état d'impression d'un formulaire.
   
 ```cpp
 HRESULT OnPrint(
@@ -38,23 +38,23 @@ HRESULT hrStatus
 
  _dwPageNumber_
   
-> [in] Numéro de la dernière page imprimée.
+> dans Numéro de la dernière page imprimée.
     
  _hrStatus_
   
-> [in] Une valeur HRESULT indiquant l’état de l’impression. Les valeurs possibles sont les suivantes :
+> dans Valeur HRESULT indiquant l'état du travail d'impression. Les valeurs possibles sont les suivantes :
     
 S_FALSE 
   
-> Le travail d’impression est terminée et réussie.
+> La tâche d'impression s'est terminée correctement.
     
 S_OK 
   
-> Le travail d’impression est en cours.
+> La tâche d'impression est en cours d'exécution.
     
-A ÉCHOUÉ 
+Echec 
   
-> Le travail d’impression a été interrompu en raison d’une défaillance.
+> Le travail d'impression a été terminé en raison d'un échec.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -64,17 +64,17 @@ S_OK
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération de généralement en cliquant sur le bouton d’annulation dans une boîte de dialogue. 
+> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton Annuler d'une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-Objets de formulaire appeler la méthode **IMAPIViewAdviseSink::OnPrint** lors de l’impression pour informer l’Afficheur de progression de l’impression. 
+Les objets de formulaire appellent la méthode **IMAPIViewAdviseSink:: OnPrint** lors de l'impression pour informer la visionneuse de la progression de l'impression. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si le travail d’impression implique plusieurs pages, vous pouvez appeler **OnPrint** après que chaque page est imprimé. Valeur _dwPageNumber_ à la page en cours d’impression et _hrStatus_ S_OK. Lorsque le travail d’impression est terminé, appel **OnPrint** avec _dwPageNumber_ défini à la dernière page imprimée et _hrStatus_ valeur S_FALSE. 
+Si la tâche d'impression implique plusieurs pages, vous pouvez appeler **OnPrint** une fois que chaque page est imprimée. Définissez _dwPageNumber_ sur la page actuellement imprimée et _hrStatus_ à S_OK. Une fois le travail d'impression terminé, appelez **OnPrint** avec _dwPageNumber_ défini sur la dernière page imprimée et _hrStatus_ définie sur S_FALSE. 
   
-Pour plus d’informations sur les notifications de formulaire, consultez [envoi et réception des Notifications](sending-and-receiving-form-notifications.md).
+Pour plus d'informations sur les notifications de formulaire, consultez la rubrique [envoi et réception de notifications de formulaire](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Voir aussi
 

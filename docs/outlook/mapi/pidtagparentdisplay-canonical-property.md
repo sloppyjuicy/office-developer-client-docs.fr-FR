@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a36f4fb-17c0-4271-87d4-a92895f35f23
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 910a62a660ea17992aa391d7453919d9fbb53c86
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7aef4c1d83672033662502ad0950b7bac9f58c52
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331513"
 ---
 # <a name="pidtagparentdisplay-canonical-property"></a>Propriété canonique PidTagParentDisplay
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom complet du dossier dans lequel un message a été trouvé pendant une recherche.
+Contient le nom complet du dossier dans lequel un message a été trouvé lors d'une recherche.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient le nom complet du dossier dans lequel un message a été trouvé pendan
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés n’est pas sur tous les objets. Ils peuvent uniquement apparaître dans la table des matières d’un dossier de résultats de recherche.
+Ces propriétés ne se trouvent pas sur un objet. Elles ne peuvent apparaître que dans la table des matières d'un dossier Search-results.
   
-Ces propriétés et les propriétés **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) ne sont pas liées à l’autre. Ils appartiennent aux contextes totalement différents.
+Ces propriétés et **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) ne sont pas liées les unes aux autres. Elles appartiennent à des contextes entièrement différents.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

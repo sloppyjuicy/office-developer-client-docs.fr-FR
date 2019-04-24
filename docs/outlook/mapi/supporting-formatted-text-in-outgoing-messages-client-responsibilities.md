@@ -1,5 +1,5 @@
 ---
-title: Prise en charge de texte mis en forme dans les responsabilités du Client les Messages sortants
+title: Prise en charge du texte mis en forme dans les messages sortants responsabilités du client
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,36 +7,36 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7238b1a9-01ed-46a0-a625-26763323317d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 975dd172b6ad342351f014d0966d62a150f713c6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 01d5ae3fd06d570e15336fad9538f01e586cd0f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571289"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327404"
 ---
-# <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>Prise en charge du texte mis en forme dans les messages sortants : responsabilités du client
+# <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>Prise en charge du texte mis en forme dans les messages sortants: responsabilités du client
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Applications clientes définir la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou la propriété **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) pour un message sortant. Les clients qui prennent en charge que le texte brut définir uniquement la propriété **PR_BODY** . Rich Text Format (RTF)-connaissance clients peuvent définir à la fois **PR_BODY** et propriétés **PR_RTF_COMPRESSED** , ou uniquement **PR_RTF_COMPRESSED**, selon le message Enregistrer fournisseur utilisé. Clients prenant en charge HTML définir la propriété **PR_HTML** . 
+Les applications clientes définissent la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou la propriété **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) pour un message sortant. Les clients qui prennent en charge uniquement le texte brut ne définissent que la propriété **PR_BODY** . Les clients gérant le format RTF (Rich Text Format) peuvent définir les propriétés **PR_BODY** et **PR_RTF_COMPRESSED** , ou seulement **PR_RTF_COMPRESSED**, selon le fournisseur de banque de messages utilisé. Les clients compatibles HTML définissent la propriété **PR_HTML** . 
   
-Il est important pour un client pour vérifier la propriété de **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de la banque de messages pour déterminer si la banque prend en charge au format RTF. Si la banque de messages n’est pas en charge au format RTF, un client prenant en charge les RTF définit les propriétés de la **PR_BODY** et **PR_RTF_COMPRESSED** pour chaque message sortant. 
+Il est important pour un client de vérifier la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de sa banque de messages pour déterminer si le magasin prend en charge le format RTF. Si la Banque de messages n'est pas compatible avec le format RTF, un client compatible avec le format RTF définit les propriétés **PR_BODY** et **PR_RTF_COMPRESSED** pour chaque message sortant. 
   
-Si la banque de messages est prenant en charge au format RTF, seule la propriété **PR_RTF_COMPRESSED** doit être définie. 
+Si la base de messages est compatible avec le format RTF, seule la propriété **PR_RTF_COMPRESSED** doit être définie. 
   
- **Pour définir les PR_RTF_COMPRESSED et vérifiez que la synchronisation processus se produit en tant que nécessaires, RTF prenant en charge des clients**
+ **Pour définir PR_RTF_COMPRESSED et vous assurer que le processus de synchronisation a lieu si nécessaire, les clients compatibles avec le format RTF**
   
-1. Appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) pour ouvrir la propriété **PR_RTF_COMPRESSED** , définition des indicateurs n’et MAPI_CREATE. MAPI_CREATE garantit que toutes les nouvelles données remplacent les anciennes données et ne permet de rendre les remplacements. 
+1. Appelez la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) pour ouvrir la propriété **PR_RTF_COMPRESSED** , en définissant les indicateurs MAPI_CREATE et MAPI_MODIFY. MAPI_CREATE garantit que toutes les nouvelles données remplacent les anciennes données et MAPI_MODIFY vous permet d'effectuer ces remplacements. 
     
-2. Appelez la fonction [WrapCompressedRTFStream](wrapcompressedrtfstream.md) , en transmettant STORE_UNCOMPRESSED_RTF si la banque de messages définit le bit STORE_UNCOMPRESSED_RTF dans sa propriété **PR_STORE_SUPPORT_MASK** , pour obtenir une version non compressée de le **PR_RTF_COMPRESSED **flux renvoyé par **OpenProperty**.
+2. Appelez la fonction [WrapCompressedRTFStream](wrapcompressedrtfstream.md) , en passant STORE_UNCOMPRESSED_RTF si la Banque de messages définit le bit STORE_UNCOMPRESSED_RTF dans sa propriété **PR_STORE_SUPPORT_MASK** , pour obtenir une version non compressée du **PR_RTF_COMPRESSED **flux renvoyé à partir de **OpenProperty**.
     
-3. Écrire les données de texte du message dans le flux non compressé renvoyé à partir de **WrapCompressedRTFStream**.
+3. Écrire les données de texte du message dans le flux non compressé renvoyé depuis **WrapCompressedRTFStream**.
     
-4. Valider et libérer les flux et non compressées.
+4. Valider et libérer les flux non compressés et compressés.
     
-À ce stade, si le fournisseur de banque de message prend en charge le format RTF, vous avez réalisé tout ce qui est requis. Vous pouvez dépendent du fournisseur de magasin de message pour gérer le processus de synchronisation et la création de la propriété **PR_BODY** , si nécessaire. Toutefois, si le fournisseur de banque de messages n’accepte pas le format RTF, vous devez appeler la fonction [RTFSync](rtfsync.md) pour synchroniser le texte avec mise en forme, l’indicateur RTF_SYNC_RTF_CHANGED. 
+À ce stade, si le fournisseur de banque de messages prend en charge le format RTF, vous avez réalisé tout ce qui est nécessaire. Vous pouvez dépendre du fournisseur de banque de messages pour gérer le processus de synchronisation et de la création de la propriété **PR_BODY** , si nécessaire. Toutefois, si le fournisseur de banque de messages ne prend pas en charge le format RTF, vous devez appeler la fonction [RTFSync](rtfsync.md) pour synchroniser le texte avec la mise en forme, en définissant l'indicateur RTF_SYNC_RTF_CHANGED. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: SIN, fonction (VisioShapeSheet)
+title: SIN Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,34 +9,34 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5a6ddb97-39b8-4e24-9b89-7a1e3bb261d5
 description: Renvoie le sinus d’un angle.
-ms.openlocfilehash: 19504f2f19b8523e0f081dbba0359986a940762b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00701656d400264c206f4a48ed88cf94f0902dc3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328580"
 ---
-# <a name="sin-function-visioshapesheet"></a>SIN, fonction (VisioShapeSheet)
+# <a name="sin-function-visioshapesheet"></a>SIN Function (VisioShapeSheet)
 
 Renvoie le sinus d’un angle. 
   
 ## <a name="syntax"></a>Syntaxe
 
-SIN (** *angle* **) 
+SIN (* * *angle* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle pour lequel le sinus doit être obtenu.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-La fonction SIN utilise des radians, sauf si vous spécifiez une autre unité de mesure dans _angle_.
+La fonction SIN utilise des radians, sauf si vous spécifiez une unité de mesure différente dans _angle_.
   
 ## <a name="example"></a>Exemple
 

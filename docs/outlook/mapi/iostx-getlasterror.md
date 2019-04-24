@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25c9288-b391-6303-3643-5a5b66b75c48
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 78ae0f78e154c17f774817238b2083d98a8fb809
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 9c29011ae2e9b59a7a0a38148fa6c5b673fd9590
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332164"
 ---
 # <a name="iostxgetlasterror"></a>IOSTX::GetLastError
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Obtient des informations sur la dernière erreur étendues.
+Obtient des informations étendues sur la dernière erreur.
   
 ```cpp
 HRESULT GetLastError( 
@@ -39,15 +39,15 @@ HRESULT GetLastError(
 
  _hResult_
   
->  [in] Code d’erreur. 
+>  dans Code d'erreur. 
     
  _ulFlags_
   
->  [in] Indicateurs pour modifier le comportement. Ce doit être 0. 
+>  [in] Indicateurs pour modifier le comportement. Cela doit être égal à 0. 
     
  _lppMAPIError_
   
->  [out] Pointeur vers la structure **MAPIERROR** qui contient les informations d’étendue de l’erreur. Voir mapidefs.h pour la définition du type de **LPMAPIERROR**. 
+>  remarquer Pointeur vers la structure **MAPIERROR** qui contient les informations étendues pour l'erreur. Voir mapidefs. h pour la définition de type de **LPMAPIERROR**. 
     
 ## <a name="see-also"></a>Voir aussi
 

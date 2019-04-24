@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm850
 localization_priority: Normal
 ms.assetid: d63fe874-1027-3436-dbc1-73e722bce22e
-description: Détermine si la page pour inclure le dessin après la disposition des formes à l’aide de la boîte de dialogue Configurer la disposition est agrandie (sous l’onglet Création, dans le groupe mise en page, cliquez sur Re-mise en Page, puis cliquez sur autres Options de mise en page).
-ms.openlocfilehash: fab37ee4561ba82ea1f314ad595e513253478b30
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Détermine si la page doit être agrandie pour inclure le dessin après la disposition automatique des formes à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition).
+ms.openlocfilehash: 8d0001ce35808f8c5f11068ed78865ce992af5cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326823"
 ---
 # <a name="resizepage-cell-page-layout-section"></a>ResizePage, cellule (section Page Layout)
 
-Détermine si la page pour inclure le dessin après la disposition des formes à l’aide de la boîte de dialogue **Configurer la disposition** est agrandie (sous l’onglet **Création** , dans le groupe **mise en page** , cliquez sur **Re-mise en** Page, puis cliquez sur **plus de mise en page Options de**).
+Détermine si la page doit être agrandie pour encadrer le dessin après la disposition des formes à l'aide de la boîte de dialogue **configurer la disposition** (sous l'onglet **création** , dans le groupe **disposition** , cliquez sur **nouvelle disposition** de page, puis cliquez sur **autres dispositions Options**).
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La page est agrandie.  <br/> |
 | FALSE  <br/> | La page n'est pas agrandie.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule ResizePage par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule ResizePage par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | ResizePage  <br/> |
    
-Pour obtenir une référence à la cellule ResizePage par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule ResizePage à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 | Index de la cellule :  <br/> |**visPLOResizePage** <br/> |
    

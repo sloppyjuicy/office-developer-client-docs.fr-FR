@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7e8fb69e7d25420186d7269943c5d957311e813d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d647b41018afbade91dffb2818b48b0738148855
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329434"
 ---
 # <a name="imapiformadvisesinkonactivatenext"></a>IMAPIFormAdviseSink::OnActivateNext
 
@@ -25,7 +25,7 @@ ms.locfileid: "22581755"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si le formulaire peut gérer la classe de message du message suivant à afficher.
+Indique si le formulaire peut gérer la classe de message du prochain message à afficher.
   
 ```cpp
 HRESULT OnActivateNext(
@@ -40,25 +40,25 @@ HRESULT OnActivateNext(
 
  _lpszMessageClass_
   
-> [in] Pointeur vers la classe de message du message suivant.
+> dans Pointeur vers la classe de message du message suivant.
     
  _ulMessageStatus_
   
-> [in] Un masque de bits d’indicateurs défini par le client ou défini par le fournisseur, copié à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message suivant à afficher, qui fournit des informations d’état concernant la table des matières que le message est inclus dans.
+> dans Masque de bits des indicateurs définis par le client ou par le fournisseur, copié à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message suivant à afficher, qui fournit des informations sur l'état de la table de contenu du message. dans.
     
  _ulMessageFlags_
   
-> [in] Un pointeur vers un masque de bits d’indicateurs copié à partir de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message suivant à afficher qui indique l’état actuel du message.
+> dans Pointeur vers un masque de des indicateurs copiés à partir de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du prochain message à afficher, qui indique l'état actuel du message.
     
  _ppPersistMessage_
   
-> [out] Pointeur vers un pointeur vers l’implémentation de [IPersistMessage](ipersistmessageiunknown.md) pour l’objet de formulaire utilisé pour le nouveau formulaire, si un nouveau formulaire est requis. Un pointeur null peut être obtenue si l’objet de formulaire en cours peut être utilisé pour afficher et enregistrer le message suivant. 
+> remarquer Pointeur vers un pointeur vers l'implémentation [IPersistMessage](ipersistmessageiunknown.md) pour l'objet Form utilisé pour le nouveau formulaire, si un nouveau formulaire est requis. Un pointeur vers une valeur NULL peut être renvoyé si l'objet de formulaire actif peut être utilisé pour afficher et enregistrer le message suivant. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La notification a réussi et que le formulaire peut gérer le message suivant.
+> La notification a réussi et le formulaire peut gérer le message suivant.
     
 S_FALSE 
   
@@ -66,23 +66,23 @@ S_FALSE
     
 ## <a name="remarks"></a>Remarques
 
-Visionneuses de formulaire appeler la méthode **IMAPIFormAdviseSink::OnActivateNext** pour déterminer le formulaire s’il peut afficher le message suivant dans un dossier. Le message suivant peut être un message de n’importe quelle classe, mais il est généralement de la même classe ou une classe connexe. Ainsi, le processus de lecture de plusieurs messages de la même classe plus efficace en activant les applications clientes de réutiliser des objets de formulaire chaque fois que possible. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormAdviseSink:: OnActivateNext** pour aider la forme à déterminer si elle peut afficher le message suivant dans un dossier. Le message suivant peut être un message de n'importe quelle classe, mais il s'agit généralement de la même classe ou d'une classe connexe. Le processus de lecture de plusieurs messages de la même classe est ainsi plus efficace en permettant aux applications clientes de réutiliser des objets de formulaire chaque fois que cela est possible. 
   
-La plupart des objets de formulaire utilise la classe de message indiquée par le paramètre _lpszMessageClass_ pour déterminer si elles peuvent gérer le message suivant. Généralement un formulaire peut gérer les messages qui appartiennent aux classes dont la classe du formulaire par défaut est une sous-classe, en plus des messages qui appartiennent à la classe par défaut. Toutefois, un formulaire peut utiliser autres facteurs pour déterminer sans question si un message peut être géré, telles que l’état envoyé ou en attente du message suivant. 
+La plupart des objets Form utiliseront la classe de message désignée par le paramètre _lpszMessageClass_ pour déterminer s'ils peuvent gérer le message suivant. En règle générale, un formulaire peut gérer les messages qui appartiennent à des classes dont la classe par défaut du formulaire est une sous-classe, en plus des messages qui appartiennent à la classe par défaut. Toutefois, un formulaire peut utiliser d'autres facteurs pour déterminer sans question s'il est possible de gérer un message, comme l'état envoyé ou non envoyé du message suivant. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Renvoie S_OK et NULL dans le paramètre _ppPersistMessage_ si le formulaire peut gérer la classe de message. Si le formulaire peut créer un formulaire qui peut gérer le message que le formulaire ne peut pas gérer, procédez comme suit : 
+Renvoie S_OK et NULL dans le paramètre _ppPersistMessage_ si le formulaire peut gérer la classe de message. Si le formulaire peut créer un nouveau formulaire qui peut gérer le message que le formulaire ne peut pas gérer, procédez comme suit: 
   
-1. Appelez la fabrique de classe de votre formulaire pour créer une instance d’un nouvel objet de formulaire.
+1. Appelez la classe Factory de votre formulaire pour créer une instance d'un nouvel objet Form.
     
-2. Stocker cette instance dans le contenu du paramètre pointeur _ppPersistMessage_ . 
+2. Stockez cette instance dans le contenu du paramètre de pointeur _ppPersistMessage_ . 
     
 3. Elles retournent S_OK.
     
-La visionneuse de formulaire chargera le message à l’aide de la méthode [IPersistMessage::Load](ipersistmessage-load.md) qui appartient à l’objet désigné par _ppPersistMessage_.
+La visionneuse de formulaire chargera le message à l'aide de la méthode [IPersistMessage:: Load](ipersistmessage-load.md) qui appartient à l'objet pointé par _ppPersistMessage_.
   
-Si le formulaire, ni un formulaire que vous pouvez créer peut gérer le message suivant, renvoie S_FALSE. Toutefois, en règle générale, les formulaires ne doivent pas renvoyer que cette valeur, car il engendre diminue les performances dans la visionneuse de formulaire.
+Si ni le formulaire ni un formulaire que vous pouvez créer ne peuvent gérer le message suivant, renvoyer S_FALSE. Toutefois, en règle générale, les formulaires ne doivent pas renvoyer cette valeur, car cela entraîne une diminution des performances dans la visionneuse de formulaires.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI utilise la méthode **IMAPIFormAdviseSink::OnActivateNext** pour implémenter la méthode [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) .  <br/> |
+|MAPIFormFunctions. cpp  <br/> |CMyMAPIFormViewer:: ActivateNext,  <br/> |MFCMAPI utilise la méthode **IMAPIFormAdviseSink:: OnActivateNext** pour implémenter la méthode [IMAPIViewContext:: ActivateNext,](imapiviewcontext-activatenext.md) .  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

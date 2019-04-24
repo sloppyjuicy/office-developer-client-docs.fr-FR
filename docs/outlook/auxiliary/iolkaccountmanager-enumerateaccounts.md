@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbb8342b-e4e0-f89d-3e14-b4c7049095ef
 description: Obtient un énumérateur pour les comptes de la catégorie spécifique ou un type.
-ms.openlocfilehash: f9b332c0bbc90b1a8f5f944492448055f23c0668
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d0d383dee0e76dd6310d01bd1482e307c2374856
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322049"
 ---
 # <a name="iolkaccountmanagerenumerateaccounts"></a>IOlkAccountManager::EnumerateAccounts
 
@@ -77,7 +77,7 @@ _ppEnum_
 
 Spécification de valeur NULL pour la catégorie renvoie un énumérateur de tous les comptes du type spécifié. De même, la spécification NULL pour le type renvoie un énumérateur de tous les comptes de la catégorie spécifiée.
   
- **IOlkAccountManager::EnumerateAccounts** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange. Si le compte est un compte Exchange (*pclsidType* est **CLSID_OlkMAPIAccount** ), et vous tentez d’énumérer les comptes qui implémentent le carnet d’adresses (*prgclsidCategory* est **CLSID_OlkAddressBook** ), l’appel ** IOlkAccountManager::EnumerateAccounts** ne renvoie pas le compte Exchange dans l' énumérateur de comptes *ppEnum* . 
+ **IOlkAccountManager::EnumerateAccounts** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange. Si le compte est un compte Exchange (*pclsidType* est **CLSID_OlkMAPIAccount** ) et que vous essayez d'énumérer les comptes qui implémentent le carnet d'adresses (*prgclsidCategory* est **CLSID_OlkAddressBook** ), l'appel ** IOlkAccountManager:: EnumerateAccounts** ne renvoie pas le compte Exchange dans l'énumérateur de comptes *ppEnum* . 
   
 ## <a name="see-also"></a>Voir aussi
 

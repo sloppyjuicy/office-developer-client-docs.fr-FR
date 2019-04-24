@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 25d1bb121df6470f5038a2106587e3f5b37f6bb7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326613"
 ---
 # <a name="pidtagautoforwarded-canonical-property"></a>Propriété canonique PidTagAutoForwarded
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si le client demande un champ d’en-tête X-MS-Exchange-organisation-transféré automatiquement.
+Contient la valeur TRUE si le client demande un champ d'en-tête autoForwarded X-MS-Exchange-Organization.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contient la valeur TRUE si le client demande un champ d’en-tête X-MS-Exchange
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété est définie FALSE ou non utilisé, aucun champ d’en-tête X-MS-Exchange-organisation-transféré automatiquement ne sera créé.
+Si cette propriété a la valeur FALSe ou n'est pas utilisée, aucun champ X-MS-Exchange-Organization-en-tête autoForwarded n'est créé.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Définit chaque propriété qui est utilisée dans les objets qui sont décrits par des documents MS-OXO-préfixe.
+> Définit chaque propriété utilisée dans les objets décrits par les documents MS-OXO-prefixes.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convertit des conventions de messagerie standard Internet aux objets de message.
+> ConVertit des conventions de messagerie standard Internet en objets message.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

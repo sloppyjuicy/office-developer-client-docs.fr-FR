@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 639a408c-aed1-456b-9f75-9d6fb8dcb33b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 37dc92a40043657cb791359d543ef52c77dbd8ce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: db208dad8697060e394b3ee037ea658cefbab669
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327971"
 ---
 # <a name="ftnegft"></a>FtNegFt
 
@@ -25,13 +25,13 @@ ms.locfileid: "22589237"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule des deux complément d’un nombre entier non signé 64 bits. 
+Calcule le complément à deux d'un entier non signé 64 bits. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 FILETIME FtNegFt(
@@ -41,12 +41,12 @@ FILETIME FtNegFt(
 
 ## <a name="parameters"></a>Paramètres
 
- _FT_
+ _pied_
   
-> [in] Une structure [FILETIME](filetime.md) qui contient l’entier non signé de 64 bits pour lequel calculer les compléments des deux. 
+> dans Une structure [fileTime](filetime.md) qui contient l'entier non signé 64 bits pour lequel calculer le complément à deux. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **FtNegFt** renvoie une structure **FILETIME** qui contient des deux complément de l’entier. Le paramètre d’entrée reste inchangé. 
+La fonction **FtNegFt** renvoie une structure **fileTime** qui contient le complément à deux de l'entier. Le paramètre d'entrée reste inchangé. 
   
 
