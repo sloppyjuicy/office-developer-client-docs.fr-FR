@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6347c64c9622abd433136d19ed352e81407fd8be
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296968"
 ---
-# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="ca5ea-102">Attributes et Name, propriétés – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ca5ea-102">Attributes and Name properties example (VJ++)</span></span>
+# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="9eca3-102">Attributes et Name, propriétés – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9eca3-102">Attributes and Name properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="ca5ea-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca5ea-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9eca3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9eca3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ca5ea-p101">Cet exemple affiche la valeur de la propriété [Attributes](attributes-property-ado.md) des objets [Connection](connection-object-ado.md), [Field](field-object-ado.md) et [Property](property-object-ado.md). Il utilise la propriété [Name](name-property-ado.md) pour afficher le nom de chaque objet **Field** et **Property**.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
+<span data-ttu-id="9eca3-p101">Cet exemple affiche la valeur de la propriété [Attributes](attributes-property-ado.md) des objets [Connection](connection-object-ado.md), [Field](field-object-ado.md) et [Property](property-object-ado.md). Il utilise la propriété [Name](name-property-ado.md) pour afficher le nom de chaque objet **Field** et **Property**.</span><span class="sxs-lookup"><span data-stu-id="9eca3-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
 
 ```java 
  

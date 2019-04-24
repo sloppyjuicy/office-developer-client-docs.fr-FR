@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be7d03a4f35cf7b1e1f12126231e4e47013eb78b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305949"
 ---
-# <a name="windows-registry-settings-for-external-data-sources"></a><span data-ttu-id="ac316-102">Paramètres de registre Window pour les sources de données externes</span><span class="sxs-lookup"><span data-stu-id="ac316-102">Windows registry settings for external data sources</span></span>
+# <a name="windows-registry-settings-for-external-data-sources"></a><span data-ttu-id="e0ac0-102">Paramètres de registre Window pour les sources de données externes</span><span class="sxs-lookup"><span data-stu-id="e0ac0-102">Windows registry settings for external data sources</span></span>
 
-<span data-ttu-id="ac316-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac316-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e0ac0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0ac0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ac316-104">Personnalisation des paramètres du registre Windows pour le moteur de base de données Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="ac316-104">Customizing Windows registry settings for the Microsoft Access database engine</span></span>](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
-- [<span data-ttu-id="ac316-105">Initialisation du pilote Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="ac316-105">Initializing the Microsoft Excel driver</span></span>](initializing-the-microsoft-excel-driver.md)
-- [<span data-ttu-id="ac316-106">Initialisation du pilote de Source de données Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="ac316-106">Initializing the Microsoft Exchange Data Source driver</span></span>](initializing-the-microsoft-exchange-data-source-driver.md)
-- [<span data-ttu-id="ac316-107">Initialisation du pilote de Source de données texte</span><span class="sxs-lookup"><span data-stu-id="ac316-107">Initializing the Text Data Source driver</span></span>](initializing-the-text-data-source-driver.md)
+- [<span data-ttu-id="e0ac0-104">Personnalisation des paramètres du registre Windows pour le moteur de base de données Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="e0ac0-104">Customizing Windows registry settings for the Microsoft Access database engine</span></span>](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
+- [<span data-ttu-id="e0ac0-105">Initialisation du pilote Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="e0ac0-105">Initializing the Microsoft Excel driver</span></span>](initializing-the-microsoft-excel-driver.md)
+- [<span data-ttu-id="e0ac0-106">Initialisation du pilote de source de données Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="e0ac0-106">Initializing the Microsoft Exchange Data Source driver</span></span>](initializing-the-microsoft-exchange-data-source-driver.md)
+- [<span data-ttu-id="e0ac0-107">Initialisation du pilote de source de données texte</span><span class="sxs-lookup"><span data-stu-id="e0ac0-107">Initializing the Text Data Source driver</span></span>](initializing-the-text-data-source-driver.md)
 

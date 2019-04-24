@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2e4eff3eae32cf4d910a44eca5a733ac044a7829
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308980"
 ---
-# <a name="save-and-open-methods-example-vb"></a><span data-ttu-id="c1d8a-102">Save et Open, méthodes – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="c1d8a-102">Save and Open methods example (VB)</span></span>
+# <a name="save-and-open-methods-example-vb"></a><span data-ttu-id="a1a6f-102">Save et Open, méthodes – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="a1a6f-102">Save and Open methods example (VB)</span></span>
 
 
-<span data-ttu-id="c1d8a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1d8a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a1a6f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1a6f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c1d8a-104">Ces trois exemples montrent comment utiliser conjointement les méthodes [Save](save-method-ado.md) et [Open](open-method-ado-recordset.md).</span><span class="sxs-lookup"><span data-stu-id="c1d8a-104">These three examples demonstrate how the [Save](save-method-ado.md) and [Open](open-method-ado-recordset.md) methods can be used together.</span></span>
+<span data-ttu-id="a1a6f-104">Ces trois exemples montrent comment utiliser conjointement les méthodes [Save](save-method-ado.md) et [Open](open-method-ado-recordset.md).</span><span class="sxs-lookup"><span data-stu-id="a1a6f-104">These three examples demonstrate how the [Save](save-method-ado.md) and [Open](open-method-ado-recordset.md) methods can be used together.</span></span>
 
-<span data-ttu-id="c1d8a-p101">Supposons que vous partez en voyage d'affaires et que vous souhaitez emporter une table de la base de données. Avant de partir, vous accédez aux données sous la forme d'un objet [Recordset](recordset-object-ado.md) et vous l'enregistrez dans un format transportable. Lorsque vous arrivez à destination, vous accédez à l'objet **Recordset** en tant qu'objet **Recordset** déconnecté, local. Vous modifiez l'objet **Recordset** avant de le réenregistrer. Enfin, un fois de retour, vous vous reconnectez à la base de données et vous la mettez à jour avec les modifications apportées au cours de votre voyage.</span><span class="sxs-lookup"><span data-stu-id="c1d8a-p101">Assume you are going on a business trip and want to take along a table from a database. Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form. When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**. You make changes to the **Recordset**, then save it again. Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
+<span data-ttu-id="a1a6f-p101">Supposons que vous partez en voyage d'affaires et que vous souhaitez emporter une table de la base de données. Avant de partir, vous accédez aux données sous la forme d'un objet [Recordset](recordset-object-ado.md) et vous l'enregistrez dans un format transportable. Lorsque vous arrivez à destination, vous accédez à l'objet **Recordset** en tant qu'objet **Recordset** déconnecté, local. Vous modifiez l'objet **Recordset** avant de le réenregistrer. Enfin, un fois de retour, vous vous reconnectez à la base de données et vous la mettez à jour avec les modifications apportées au cours de votre voyage.</span><span class="sxs-lookup"><span data-stu-id="a1a6f-p101">Assume you are going on a business trip and want to take along a table from a database. Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form. When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**. You make changes to the **Recordset**, then save it again. Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
 
-<span data-ttu-id="c1d8a-110">Pour commencer, accédez à la table ***Authors*** et enregistrez-la.</span><span class="sxs-lookup"><span data-stu-id="c1d8a-110">First, access and save the ***Authors*** table.</span></span>
+<span data-ttu-id="a1a6f-110">Pour commencer, accédez à la table ***Authors*** et enregistrez-la.</span><span class="sxs-lookup"><span data-stu-id="a1a6f-110">First, access and save the ***Authors*** table.</span></span>
 
 ```vb 
  
@@ -83,7 +83,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="c1d8a-111">À ce stade, vous êtes arrivé à destination.</span><span class="sxs-lookup"><span data-stu-id="c1d8a-111">At this point, you have arrived at your destination.</span></span> <span data-ttu-id="c1d8a-112">Vous accédez à la table ***Authors*** **Recordset**déconnecté, local.</span><span class="sxs-lookup"><span data-stu-id="c1d8a-112">You will access the ***Authors*** table as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="c1d8a-113">Le fournisseur **MSPersist** doit être installé sur l’ordinateur que vous utilisez pour accéder au fichier enregistré, r :\\Pubs.xml.</span><span class="sxs-lookup"><span data-stu-id="c1d8a-113">Don't forget you must have the **MSPersist** provider on the machine that you are using in order to access the saved file, a:\\Pubs.xml.</span></span>
+<span data-ttu-id="a1a6f-111">À ce stade, vous êtes arrivé à destination.</span><span class="sxs-lookup"><span data-stu-id="a1a6f-111">At this point, you have arrived at your destination.</span></span> <span data-ttu-id="a1a6f-112">Accédez à la table ***Authors*** en tant qu’objet **Recordset** local, déconnecté.</span><span class="sxs-lookup"><span data-stu-id="a1a6f-112">You will access the ***Authors*** table as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="a1a6f-113">N'oubliez pas que vous devez avoir le fournisseur **MSPersist** sur l'ordinateur que vous utilisez pour accéder au fichier enregistré, a:\\pubs. Xml.</span><span class="sxs-lookup"><span data-stu-id="a1a6f-113">Don't forget you must have the **MSPersist** provider on the machine that you are using in order to access the saved file, a:\\Pubs.xml.</span></span>
 
 ```vb 
  
@@ -133,7 +133,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="c1d8a-p103">Enfin, vous êtes de retour et vous mettez à présent la base de données à jour avec vos modifications.</span><span class="sxs-lookup"><span data-stu-id="c1d8a-p103">Finally, you return home. Now update the database with your changes.</span></span>
+<span data-ttu-id="a1a6f-114">Enfin, vous revenez à Home.</span><span class="sxs-lookup"><span data-stu-id="a1a6f-114">Finally, you return home.</span></span> <span data-ttu-id="a1a6f-115">Maintenant, mettez à jour la base de données avec vos modifications.</span><span class="sxs-lookup"><span data-stu-id="a1a6f-115">Now update the database with your changes.</span></span>
 
 ```vb 
  

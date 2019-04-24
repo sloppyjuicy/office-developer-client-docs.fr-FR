@@ -1,5 +1,5 @@
 ---
-title: Propriété Index.Fields (DAO)
+title: Index. Fields, propriété (DAO)
 TOCTitle: Fields Property
 ms:assetid: c79adede-361f-c0eb-13a1-18625bd9141f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823154(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7f3e488511794781d25434bcd3cb40bf1551c252
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291823"
 ---
-# <a name="indexfields-property-dao"></a><span data-ttu-id="f06af-102">Propriété Index.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="f06af-102">Index.Fields property (DAO)</span></span>
+# <a name="indexfields-property-dao"></a><span data-ttu-id="834ad-102">Index. Fields, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="834ad-102">Index.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="f06af-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f06af-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="834ad-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="834ad-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f06af-p101">Renvoie une collection **Fields** qui représente tous les objets **Field** stockés de l'objet spécifié. Lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="f06af-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read/write.</span></span>
+<span data-ttu-id="834ad-104">Renvoie une collection **Fields** qui représente tous les objets **Field** stockés de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="834ad-104">Returns a **Fields** collection that represents all stored **Field** objects for the specified object.</span></span> <span data-ttu-id="834ad-105">Lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="834ad-105">Read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f06af-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f06af-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="834ad-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="834ad-106">Syntax</span></span>
 
-<span data-ttu-id="f06af-107">*expression* . Champs</span><span class="sxs-lookup"><span data-stu-id="f06af-107">*expression* .Fields</span></span>
+<span data-ttu-id="834ad-107">*expression* . Ceux</span><span class="sxs-lookup"><span data-stu-id="834ad-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="f06af-108">*expression* Variable qui représente un objet **Index** .</span><span class="sxs-lookup"><span data-stu-id="f06af-108">*expression* A variable that represents an **Index** object.</span></span>
+<span data-ttu-id="834ad-108">*expression* Variable qui représente un objet **index** .</span><span class="sxs-lookup"><span data-stu-id="834ad-108">*expression* A variable that represents an **Index** object.</span></span>
 
