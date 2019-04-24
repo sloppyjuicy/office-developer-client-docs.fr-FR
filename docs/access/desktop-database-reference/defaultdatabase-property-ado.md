@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 01ca42ff738afe3a35cab6263cdae32ac256f3d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294147"
 ---
 # <a name="defaultdatabase-property-ado"></a>DefaultDatabase, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique la base de données par défaut d'un objet [Connection](connection-object-ado.md).
 
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
 
-Définit ou renvoie une valeur de type **String**, qui correspond au nom d'une base de données disponible du fournisseur.
+Définit ou renvoie une valeur de type **String**, qui correspond au nom d’une base de données disponible du fournisseur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la propriété **DefaultDatabase** pour définir ou retourner le nom de la base de données par défaut d'un objet **Connection** spécifique.
 
@@ -33,5 +33,5 @@ S'il existe une base de données par défaut, les chaînes SQL peuvent utiliser 
 
 Il se peut que certains fournisseurs et sources de données ne prennent pas en charge cette fonctionnalité et retournent une erreur ou une chaîne vide.
 
-**L’utilisation du Service de données à distance** Cette propriété n’est pas disponible sur un objet de **connexion** côté client.
+**Utilisation des services de données à distance** Cette propriété n'est pas disponible pour un objet **Connection** côté client.
 

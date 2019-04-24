@@ -1,5 +1,5 @@
 ---
-title: Objet de document (DAO)
+title: Objet document (DAO)
 TOCTitle: Document Object
 ms:assetid: b51d4545-b157-4c7c-fdbe-16a25afffdb3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0f82ace31a991a6700417d4c0d66bf775fcb7b26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293776"
 ---
-# <a name="document-object-dao"></a>Objet de document (DAO)
+# <a name="document-object-dao"></a>Objet document (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Un objet **Document** inclut des informations sur une instance d'un objet. L'objet peut être une base de données, une table enregistrée, une requête ou une relation (bases de données de moteur de base de données Microsoft Access uniquement).
 
@@ -33,7 +33,7 @@ Chaque objet **Container** comporte une collection **Documents** qui contient de
 <thead>
 <tr class="header">
 <th><p>Document</p></th>
-<th><p>Conteneur</p></th>
+<th><p>Container</p></th>
 <th><p>Contient des informations sur</p></th>
 </tr>
 </thead>
@@ -75,9 +75,9 @@ Dans la mesure où un objet **Document** correspond à un objet existant, vous n
 
 - **Documents**(0)
 
-- **Documents** («*nom*»)
+- **Documents** ("*nom*")
 
-- **Documents**\!\[*nom*\]
+- ****\!\[*Nom* des documents\]
 
 ## <a name="example"></a>Exemple
 

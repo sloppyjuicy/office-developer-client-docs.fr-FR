@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df67774b9b38b5fbcc836a2ea0dfc17886d67107
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296527"
 ---
 # <a name="changepassword-method-adox"></a>ChangePassword, méthode (ADOX)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Modifie le mot de passe d'un compte d'utilisateur.
 
 ## <a name="syntax"></a>Syntaxe
 
-*Utilisateur*. De ChangePassword*Ancienmotdepasse*, groupes de *NewPassword*
+*User*. ChangePassword**, *newPassword, newPassword*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
-|*Ancienmotdepasse* |Valeur de type **String** qui spécifie le mot de passe existant de l'utilisateur. Si l'utilisateur ne possède pas de mot de passe, utilisez une chaîne vide ("") pour le paramètre *OldPassword*.|
+|*OldPassword* |Valeur de type **String** qui spécifie le mot de passe existant de l'utilisateur. Si l'utilisateur ne possède pas de mot de passe, utilisez une chaîne vide ("") pour le paramètre *OldPassword*.|
 |*NewPassword* |Valeur de type **String** qui spécifie le nouveau mot de passe.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour des raisons de sécurité, l'ancien mot de passe doit être spécifié en plus du nouveau mot de passe.
 

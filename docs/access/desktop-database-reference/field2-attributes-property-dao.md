@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.Attributes (DAO)
+title: Field2. Attributes, propriété (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845025(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a655cfa5c6f0427b1a26a01f01e991564ab8e387
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292887"
 ---
-# <a name="field2attributes-property-dao"></a>Propriété Field2.Attributes (DAO)
+# <a name="field2attributes-property-dao"></a>Field2. Attributes, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **Field2**. Type de données **Long** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Attributs
+*expression* . Ceux
 
 *expression* Variable qui représente un objet **Field2** .
 
@@ -99,20 +99,20 @@ Pour un objet pas encore ajouté à une collection, cette propriété est en lec
 <td><p>En lecture/écriture jusqu'à ce que l'objet <strong>TableDef</strong> auquel l'objet <strong>Index</strong> est ajouté soit ajouté à un objet <strong>Database</strong>. La propriété est alors en lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>QueryDef</strong></p></td>
+<td><p>objet <strong>QueryDef</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p>							objet <strong>Recordset</strong></p></td>
+<td><p>objet <strong>Recordset</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>objet <strong>Relation</strong></p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
-<td><p>							objet <strong>TableDef</strong></p></td>
-<td><p>En lecture/écriture</p></td>
+<td><p>objet <strong>TableDef</strong></p></td>
+<td><p>En lecture-écriture.</p></td>
 </tr>
 </tbody>
 </table>

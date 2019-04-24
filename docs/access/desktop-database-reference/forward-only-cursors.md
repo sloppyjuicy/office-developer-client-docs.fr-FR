@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 65eaafe805eabbac1681aa6dcd08b6b99bb056fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292292"
 ---
 # <a name="forward-only-cursors"></a>Curseurs de transfert uniquement
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le type de curseur par défaut, appellé curseur en avant uniquement (ou non déroulant), ne peut aller que vers l'avant dans le jeu de résultats. Un tel curseur ne prend pas en charge le défilement (la capacité d'avancer et de reculer dans un jeu de résultats) ; il ne prend en charge que l'extraction de lignes du début à la fin du jeu de résultats. Avec certains curseurs de ce type (comme avec la bibliothèque de curseurs SQL Server), toutes les instructions d'insertion, de mise à jour et de suppression réalisées par l'utilisateur actif (ou validées par d'autres utilisateurs) qui affectent les lignes du jeu de résultats sont visibles au moment de leur extraction. Comme le curseur ne peut pas revenir en arrière, les modifications apportées aux lignes de la base de données une fois que ces lignes ont été extraites ne sont pas visibles à travers le curseur.
 

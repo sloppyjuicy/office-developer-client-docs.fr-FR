@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 93105c4a1705aa022d9bc9bb69fbe25943b6d50e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292271"
 ---
 # <a name="getpermissions-and-setpermissions-methods-example-vb"></a>GetPermissions et SetPermissions, méthodes – Exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple illustre les méthodes [GetPermissions](getpermissions-method-adox.md) et [SetPermissions](setpermissions-method-adox.md). Le code suivant octroie à l'utilisateur « Admin » l'accès complet à la table « Orders ».
 

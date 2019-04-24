@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.ValidationText (DAO)
+title: Field2. ValidationText, propriété (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 6128f66c-3891-ae4d-d12d-354a79a9c05e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194867(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4d58cb6bd32bd46b0a6bcec40ff68cdc52eebc31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292621"
 ---
-# <a name="field2validationtext-property-dao"></a>Propriété Field2.ValidationText (DAO)
+# <a name="field2validationtext-property-dao"></a>Field2. ValidationText, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui spécifie le texte du message que votre application affiche si la valeur d'un objet **Field2** ne respecte par la règle de validation spécifiée par le paramètre de propriété **ValidationRule** (espaces de travail Microsoft Access uniquement). Valeur **String** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ValidationText (MessageSiErreur)
+*expression* . MessageSiErreur
 
 *expression* Variable qui représente un objet **Field2** .
 
@@ -59,7 +59,7 @@ Pour un objet **Field2**, l'utilisation de la propriété **ValidationText** dé
 </tr>
 <tr class="even">
 <td><p><strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>

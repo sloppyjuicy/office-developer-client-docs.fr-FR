@@ -1,5 +1,5 @@
 ---
-title: Clone, méthode - ActiveX Data Objects (ADO)
+title: Clone, méthode-ActiveX Data Objects (ADO)
 TOCTitle: Clone method (ADO)
 ms:assetid: ca9b2b76-90bf-9a60-2611-3cb4977d5591
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 095191bbfe55f2c38529cb1c260979c48dd2d5f1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296345"
 ---
 # <a name="clone-method-ado"></a>Clone, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Crée une copie de l'objet [Recordset](recordset-object-ado.md) à partir d'un objet **Recordset** existant. Spécifie éventuellement que le clone doit être en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-**La valeur** *rstDuplicate*  =  *rstOriginal*. Clone (*LockType*)
+**Définir** *rstDuplicate*  =  *rstOriginal*. Clone (*LockType*)
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,13 +30,13 @@ Retourne une référence d'objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*rstDuplicate* |Variable objet qui identifie la copie de l'objet **Recordset** à créer.|
 |*rstOriginal* |Variable objet qui identifie l'objet **Recordset** à dupliquer.|
 |*LockType* |Facultatif. Valeur [LockTypeEnum](locktypeenum.md) qui spécifie le type de verrou de l'objet **Recordset** d'origine ou un objet **Recordset** en lecture seule. Les valeurs valides sont **adLockUnspecified** ou **adLockReadOnly**.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Faites appel à la méthode **Clone** pour créer plusieurs copies de l'objet **Recordset**, notamment si vous voulez conserver plusieurs enregistrements actifs dans un jeu d'enregistrements donné. L'utilisation de la méthode **Clone** est plus efficace que la création et l'ouverture d'un nouvel objet **Recordset** avec la même définition que l'original.
 
@@ -50,9 +50,9 @@ De même que la fermeture de l'objet **Recordset** d'origine ne ferme pas ses cl
 
 Vous ne pouvez cloner qu'un objet **Recordset** prenant en charge les signets. Les valeurs de signet sont interchangeables ; cela signifie qu'une référence de signet d'un objet **Recordset** renvoie au même enregistrement dans l'un de ses clones.
 
-Certains événements **Recordset** qui sont déclenchées déclenche également dans tous les clones de **l’objet Recordset** . Toutefois, étant donné que l’enregistrement actif peut différer entre clonée **jeux d’enregistrements**, les événements peut-être pas valides pour le clone.
+Some **Recordset** events that are triggered will also fire in all **Recordset** clones. However, because the current record can differ between cloned **Recordsets**, the events may not be valid for the clone.
 
-Par exemple, si vous modifiez la valeur d'un champ, un événement [WillChangeField](willchangefield-and-fieldchangecomplete-events-ado.md) est déclenché au niveau de l'objet **Recordset** modifié et de tous ses clones. Le paramètre *Fields* de l’événement **WillChangeField** d’un **jeu d’enregistrements** d' clonée (où la modification a été apportée pas) système simplement faire référence aux champs de l’enregistrement actif du clone, qui peut être un enregistrement différent de celui en cours Enregistrer de la **objet Recordset** d’origine où la modification s’est produite.
+Par exemple, si vous modifiez la valeur d’un champ, un événement [WillChangeField](willchangefield-and-fieldchangecomplete-events-ado.md) est déclenché au niveau de l’objet **Recordset** modifié et de tous ses clones. Le paramètre *Fields* de l’événement **WillChangeField** d’un objet **Recordset** cloné (qui, lui, n’a pas été modifié) référencera simplement les champs de l’enregistrement actif du clone, qui peut correspondre à un enregistrement différent de celui de l’objet **Recordset** d’origine au niveau duquel la modification a été appliquée.
 
 Le tableau suivant répertorie tous les événements **Recordset** et indique s'ils sont valides et s'ils sont déclenchés pour tous les clones de l'objet Recordset générés à l'aide de la méthode **Clone**.
 
@@ -73,11 +73,11 @@ Le tableau suivant répertorie tous les événements **Recordset** et indique s'
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="fetchcomplete-event-ado.md">FetchComplete</a></p></td>
+<td><p><a href="fetchcomplete-event-ado.md">FetchComplete,</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="fetchprogress-event-ado.md">FetchProgress</a></p></td>
+<td><p><a href="fetchprogress-event-ado.md">FetchProgress,</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">

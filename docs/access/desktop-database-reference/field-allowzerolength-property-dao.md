@@ -1,5 +1,5 @@
 ---
-title: Propriété Field.AllowZeroLength (DAO)
+title: Field. AllowZeroLength, propriété (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: 5103a905-9258-e088-0210-857372f41c3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193832(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f1eb08c6079257a350a5bb92392871869e720f1b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293160"
 ---
-# <a name="fieldallowzerolength-property-dao"></a>Propriété Field.AllowZeroLength (DAO)
+# <a name="fieldallowzerolength-property-dao"></a>Field. AllowZeroLength, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui indique si une chaîne nulle ("") est un paramètre valide pour la propriété **[Value](field-value-property-dao.md)** de l'objet **[Field](field-object-dao.md)** avec un type de données Texte ou Mémo (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . AllowZeroLength
+*expression* . Require
 
 *expression* Variable qui représente un objet **Field** .
 
@@ -49,23 +49,23 @@ Une fois que l'objet est ajouté à la collection **Fields**, la disponibilité 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							objet <strong>Index</strong></p></td>
+<td><p>objet <strong>Index</strong></p></td>
 <td><p>Non pris en charge</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>QueryDef</strong></p></td>
+<td><p>objet <strong>QueryDef</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p>							objet <strong>Recordset</strong></p></td>
+<td><p>objet <strong>Recordset</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>objet <strong>Relation</strong></p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
-<td><p>							objet <strong>TableDef</strong></p></td>
+<td><p>objet <strong>TableDef</strong></p></td>
 <td><p>En lecture-écriture.</p></td>
 </tr>
 </tbody>

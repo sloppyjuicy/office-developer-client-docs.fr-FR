@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db9fa4fccc4f3d13849f34c157f2ea07cc3f171d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293426"
 ---
 # <a name="errors-collection-ado"></a>Errors, collection (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Contient tous les objets [Error](error-object-ado.md) créés en réponse à une erreur liée au fournisseur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Toute opération impliquant des objets ADO peut générer une ou plusieurs erreurs d'un fournisseur. Lorsqu'une erreur se produit, un ou plusieurs objets **Error** peuvent être placés dans la collection **Errors** de l'objet [Connection](connection-object-ado.md). Lorsqu'une autre opération ADO génère une erreur, la collection **Errors** est vidée de son contenu, et le nouveau jeu d'objets **Error** peut être placé dans la collection **Errors**.
 

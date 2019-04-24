@@ -8,19 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b68d550137e1523cb929aaaaa97e62231331c439
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291285"
 ---
 # <a name="internet-explorer-error-codes"></a>Codes d’erreur Internet Explorer
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Le tableau suivant répertorie les codes d'erreur de Microsoft Internet Explorer liés à l'utilisation du service de données à distance (RDS).
-
-Il affiche la traduction décimale positive des deux octets bas, la traduction décimale négative du code d'erreur complet et les valeurs hexadécimales.
+Le tableau suivant répertorie les codes d'erreur de Microsoft Internet Explorer liés à l'utilisation du service de données à distance (RDS). Il affiche la traduction décimale positive des deux octets bas, la traduction décimale négative du code d'erreur complet et les valeurs hexadécimales.
 
 <table>
 <colgroup>
@@ -31,7 +29,7 @@ Il affiche la traduction décimale positive des deux octets bas, la traduction d
 <thead>
 <tr class="header">
 <th><p>Erreurs Internet Explorer (Wininet)</p></th>
-<th><p>Code</p></th>
+<th><p>Nombre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

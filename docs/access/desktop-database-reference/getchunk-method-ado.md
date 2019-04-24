@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 44cd0cb5632e64811de14f9abd3c78aac9203705
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292285"
 ---
 # <a name="getchunk-method-ado"></a>GetChunk, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Retourne l'ensemble ou une partie du contenu d'un objet [Field](field-object-ado.md) volumineux contenant du texte ou des données binaires.
+Retourne l’ensemble ou une partie du contenu d’un objet [Field](field-object-ado.md) volumineux contenant du texte ou des données binaires.
 
 ## <a name="syntax"></a>Syntaxe
 
-*variable* = *champ*. GetChunk (*taille* )
+** = *champ*variable. GetChunk (*taille* )
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,15 +30,15 @@ Retourne une valeur de type **Variant**.
 
 ## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*Taille* |Expression de type **Long** égale au nombre d'octets ou de caractères que vous souhaitez récupérer.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **GetChunk** sur un objet **Field** pour récupérer une partie ou l'ensemble de ses données binaires ou de caractères de type long. Dans les cas où la mémoire système est limitée, vous pouvez utiliser la méthode **GetChunk** pour manipuler des parties de données de type long par partie au lieu de l'intégralité de ces données.
+Utilisez la méthode **GetChunk** sur un objet  **Field** pour récupérer une partie ou l'ensemble de ses données binaires ou de caractères de type long. Dans les cas où la mémoire système est limitée, vous pouvez utiliser la méthode  **GetChunk** pour manipuler des parties de données de type long par partie au lieu de l'intégralité de ces données.
 
-Les données renvoyées par une invocation **GetChunk** sont affectées à *variable*. Si la *taille* est supérieure aux données restantes, la méthode **GetChunk** renvoie uniquement les données restantes sans compléter les *variables* avec des espaces vides. Si le champ est vide, la méthode **GetChunk** renvoie une valeur nulle.
+Les données qu'un appel à la méthode **GetChunk** retourne sont assignées à une *variable*. Si *Taille* est supérieur aux données restantes, la méthode  **GetChunk ** retourne uniquement les données restantes sans remplir la *variable* avec des espaces vides. Si le champ est vide, la méthode **GetChunk** renvoie une valeur NULL.
 
 Chaque appel à **GetChunk** ultérieur récupère les données à partir de l'emplacement où l'appel à **GetChunk** précédent s'est arrêté. Toutefois, si vous récupérez des données d'un champ et qu'ensuite vous définissez ou lisez la valeur d'un autre champ dans l'enregistrement actif, ADO suppose que vous avez terminé de récupérer les données du premier champ. Si vous appelez de nouveau la méthode **GetChunk** sur le premier champ, ADO interprète l'appel comme une nouvelle opération **GetChunk** et recommence sa lecture à partir du début des données. L'accès à d'autres champs d'objets [Recordset](recordset-object-ado.md) qui ne sont pas des clones du premier objet **Recordset** ne perturbent pas les opérations **GetChunk**.
 

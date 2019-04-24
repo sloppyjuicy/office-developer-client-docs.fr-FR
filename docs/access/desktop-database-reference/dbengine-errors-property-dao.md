@@ -1,5 +1,5 @@
 ---
-title: Propriété DBEngine.Errors (DAO)
+title: DBEngine. Errors, propriété (DAO)
 TOCTitle: Errors Property
 ms:assetid: 594a8752-1f15-0690-b01c-9254951f16f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194384(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ba143109746b8457be679800dcca13d4efabf8c4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294315"
 ---
-# <a name="dbengineerrors-property-dao"></a>Propriété DBEngine.Errors (DAO)
+# <a name="dbengineerrors-property-dao"></a>DBEngine. Errors, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **Errors** qui contient tous les objets **Error** enregistrés pour l'objet spécifié. Valeur en lecture seule.
+Renvoie une collection **Errors** qui contient tous les objets **Error** enregistrés pour l'objet spécifié. En lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Erreurs
+*expression* . Contenu
 
 *expression* Variable qui représente un objet **DBEngine** .
 

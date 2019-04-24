@@ -1,5 +1,5 @@
 ---
-title: Méthode Database.MakeReplica (DAO)
+title: Méthode Database. MakeReplica (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9b9e2eac360d157f28b986b6598ade58b8c34ec6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294917"
 ---
-# <a name="databasemakereplica-method-dao"></a>Méthode Database.MakeReplica (DAO)
+# <a name="databasemakereplica-method-dao"></a>Méthode Database. MakeReplica (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Crée un nouveau réplica à partir d'un autre réplica de base de données (espaces de travail Microsoft Access uniquement).
+Crée un nouveau réplica à partir d’un autre réplica de base de données (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . MakeReplica (***chemin d’accès***, ***Description***, ***Options***)
+*expression* . MakeReplica (***pathname***, ***Description***, ***options***)
 
-*expression* Variable qui représente un objet de **base de données** .
+*expression* Variable qui représente un objet **Database** .
 
 ## <a name="parameters"></a>Paramètres
 
@@ -42,7 +42,7 @@ Crée un nouveau réplica à partir d'un autre réplica de base de données (esp
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -76,7 +76,7 @@ Les propriétés **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** d'u
 
 ## <a name="example"></a>Exemple
 
-Cette fonction s'appuie sur la méthode **MakeReplica** pour créer un réplica supplémentaire d'un réplica-maître existant. L’argument Optionsint peut être une combinaison des constantes **dbRepMakeReadOnly** et **dbRepMakePartial**, ou il peut être 0. Par exemple, pour créer un réplica partiel en lecture seule, vous devez transmettre la valeur **dbRepMakeReadOnly** + **dbRepMakePartial** en tant que valeur d’Optionsint.
+Cette fonction s'appuie sur la méthode **MakeReplica** pour créer un réplica supplémentaire d'un réplica-maître existant. L'argument Optionsint peut être une combinaison des constantes **dbRepMakeReadOnly** et **dbRepMakePartial**, ou il peut être égal à 0. Par exemple, pour créer un réplica partiel en lecture seule, vous devez transmettre la valeur **dbRepMakeReadOnly** + **dbRepMakePartial** comme valeur de Optionsint.
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

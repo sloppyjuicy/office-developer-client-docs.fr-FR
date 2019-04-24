@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 086993095daef3ff4ad87aed9f572a09124a9d31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292372"
 ---
 # <a name="findrecord-macro-action"></a>FindRecord, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l’action **TrouverEnregistrement** pour rechercher la première instance de données qui répondent aux critères spécifiés par les arguments **TrouverEnregistrement** . Ces données peuvent être dans l’enregistrement actif, dans un enregistrement suivant ou précédent ou dans le premier enregistrement. Vous pouvez rechercher des enregistrements dans la table active feuille de données, requête, formulaire ou formulaire.
+You can use the **FindRecord** action to find the first instance of data that meets the criteria specified by the **FindRecord** arguments. This data can be in the current record, in a succeeding or prior record, or in the first record. You can find records in the active table datasheet, query datasheet, form datasheet, or form.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **TrouverEnregistrement** possède les arguments suivants.
+L’action **TrouverEnregistrement** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -35,14 +35,14 @@ L'action **TrouverEnregistrement** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Rechercher</strong></p></td>
-<td><p>Spécifie les données que vous souhaitez rechercher dans l’enregistrement. Entrez le texte, nombre ou date que vous souhaitez rechercher ou tapez une expression précédée d’un signe égal (<strong>=</strong>), dans la zone <strong>Rechercher</strong> , dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro. Vous pouvez utiliser des caractères génériques. Cet argument est obligatoire.</p></td>
+<td><p>Spécifie les données à rechercher dans l’enregistrement. Entrez le texte, le nombre ou la date que vous souhaitez rechercher ou tapez une expression, qui est précédée d'un signe<strong>=</strong>égal (), dans la zone <strong>Rechercher</strong> de la section arguments de l' <strong>action</strong> du volet générateur de macro. Vous pouvez utiliser des caractères génériques. Cet argument est obligatoire.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Match</strong></p></td>
@@ -58,8 +58,8 @@ L'action **TrouverEnregistrement** possède les arguments suivants.
 </tr>
 <tr class="odd">
 <td><p><strong>Avec mise en forme</strong></p></td>
-<td><p>Spécifie si la recherche inclut les données mises en forme. Cliquez sur <strong>Oui</strong> (Microsoft Office Access 2007 recherche les données qu’il est mis en forme et affiché dans le champ) ou sur <strong>non</strong> (Access recherche les données qu’il est stocké dans la base de données, ce qui n’est pas toujours les mêmes tel qu’il est affiché). La valeur par défaut est <strong>Non</strong>. Vous pouvez utiliser cette fonctionnalité pour limiter la recherche à des données dans un format particulier. Par exemple, cliquez sur <strong>Oui</strong> , tapez <strong>1 234</strong> dans l’argument <strong>Rechercher</strong> pour trouver la valeur 1 234 dans un champ formaté afin d’inclure des virgules. Cliquez sur <strong>non</strong> si vous souhaitez entrer <strong>1234</strong> pour rechercher des données dans ce champ. Pour rechercher des dates, cliquez sur <strong>Oui</strong> pour rechercher une date exactement comme elle est formatée, comme 08-juillet-2003. Si vous cliquez sur <strong>non</strong>, entrez la date pour l’argument <strong>Rechercher</strong> dans le format défini dans les paramètres régionaux du Panneau de configuration Windows. Ce format est indiqué dans la zone <strong>format de date court</strong> de l’onglet <strong>Date</strong> dans les paramètres régionaux. Par exemple, si la zone <strong>format de date court</strong> est définie sur <strong>jj/aa</strong>, vous pouvez entrer 7/8/03, et Access trouve toutes les entrées dans un champ Date correspondant au 8 juillet 2003, quelle que soit la façon dont ce champ est mis en forme.</p>
-<p><strong>Remarque</strong>: l’argument <strong>Comme formaté</strong> prend effet uniquement si le champ actif est un contrôle lié, l’argument <strong>où</strong> est défini pour le <strong>Champ entier</strong>, l’argument <strong>Champ actif uniquement</strong> est définie sur <strong>Oui</strong>et la correspondance <strong> Cas</strong> argument est définie sur <strong>non</strong>.</p>
+<td><p>Spécifie si la recherche inclut les données mises en forme. Cliquez sur <strong>Oui</strong> (Microsoft Office Access 2007 recherche les données telles que mises en forme et affichées dans le champ) ou <strong>Non</strong> (Access recherche les données telles que stockées dans la base de données, ce qui ne correspond pas toujours à la manière dont elles sont affichées). La valeur par défaut est <strong>Non</strong>. Vous pouvez utiliser cette fonctionnalité pour restreindre la recherche aux données correspondant à un format particulier. Par exemple, cliquez sur <strong>Oui</strong> et tapez <strong>1,234</strong> dans l’argument <strong>Rechercher</strong> pour rechercher la valeur 1,234 dans un champ mis en forme avec des virgules. Cliquez sur <strong>Non</strong> si vous souhaitez taper <strong>1234</strong> pour rechercher les données dans ce champ. Pour rechercher des dates, cliquez sur <strong>Oui</strong> afin de rechercher une date correspondant exactement à sa mise en forme, par exemple 08 juillet 2003. Si vous cliquez sur <strong>Non</strong>, entrez la date dans l’argument <strong>Rechercher</strong> en suivant le format défini dans les paramètres régionaux du Panneau de configuration de Windows. Ce format est indiqué dans la zone <strong>Format de date courte</strong> sous l’onglet <strong>Date</strong> des paramètres régionaux. Par exemple, si la zone <strong>Format de date courte</strong> est défini sur <strong>j/m/aa</strong>, vous pouvez entrer 8/7/03 ; Access recherche alors toutes les entrées d’un champ Date qui correspondent à 8 juillet 2003, quelle que soit la mise en forme de ce champ.</p>
+<p><strong>Remarque</strong>: la <strong>recherche en tant qu'argument mis en forme</strong> prend effet uniquement si le champ actif est un contrôle dépendant, si l'argument <strong>EQUIV</strong> est défini sur <strong>champ entier</strong>, si le <strong>seul argument champ actif</strong> est défini sur <strong>Oui</strong>et que la <strong>correspondance </strong>La valeur de l'argument case est définie sur <strong>no</strong>.</p>
 <p>Si vous définissez <strong>Respecter la casse</strong> sur <strong>Oui</strong> ou <strong>Champ actif uniquement</strong> sur <strong>Non</strong>, vous devez également définir <strong>Avec mise en forme</strong> sur <strong>Oui</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -94,14 +94,12 @@ Notez toutefois que si vous utilisez un bouton de commande pour exécuter une ma
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="Remarque sur la sécurité" alt="Security note" />de sécurité**</th>
+<th><img src="media/access-alert-security.gif" title="Note de sécurité" alt="Security note" /><strong>Note de sécurité</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-      Évitez d’utiliser l’instruction <strong>SendKeys</strong> ou une macro AutoKeys avec des informations sensibles et confidentielles. Un utilisateur malveillant pourrait intercepter la frappe et compromettre la sécurité de votre ordinateur et de vos données.
-</td>
+<td>Évitez d’utiliser l’instruction <strong>SendKeys</strong> ou une macro AutoKeys avec des informations sensibles ou confidentielles. Un utilisateur malveillant pourrait intercepter la frappe et compromettre la sécurité de votre ordinateur et de vos données.</td>
 </tr>
 </tbody>
 </table>

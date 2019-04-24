@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.IsComplex (DAO)
+title: Field2. IsComplex, propriété (DAO)
 TOCTitle: IsComplex Property
 ms:assetid: ffc90e6e-e3ee-4f9b-ca6b-615199300d45
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d24229a0fc3122cc8a9fb20b041fc9fadc5ccb0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292782"
 ---
-# <a name="field2iscomplex-property-dao"></a>Propriété Field2.IsComplex (DAO)
+# <a name="field2iscomplex-property-dao"></a>Field2. IsComplex, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
 Renvoie une valeur **Boolean** qui indique si le champ défini est un type de données à plusieurs valeurs. En lecture seule.
 
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Access 2007
+Version ajoutée: Access 2007
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -32,9 +32,9 @@ Version ajoutée : Access 2007
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment naviguer dans un jeu d’enregistrements contenant un champ à valeurs multiples.
+L'exemple suivant montre comment naviguer dans un jeu d'enregistrements qui contient un champ à valeurs multiples.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()

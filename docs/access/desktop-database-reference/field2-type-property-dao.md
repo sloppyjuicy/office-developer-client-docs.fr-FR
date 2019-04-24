@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.Type (DAO)
+title: Field2. type, propriété (DAO)
 TOCTitle: Type Property
 ms:assetid: 057d6ec9-b72c-cee6-005a-6d916e3dda29
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844921(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4da32f18a2b3e9dddbb0ae04e3257de34ba09761
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292663"
 ---
-# <a name="field2type-property-dao"></a>Propriété Field2.Type (DAO)
+# <a name="field2type-property-dao"></a>Field2. type, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou de données d'un objet. Type de données **Integer** en lecture/écriture.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type de données **Integer** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Type
+*expression* . Entrer
 
 *expression* Variable qui représente un objet **Field2** .
 
@@ -74,7 +74,7 @@ Pour un objet **Field2**, les paramètres et valeurs de retour possibles sont pr
 <td><p>Date/Heure</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DBDECIMAL ne</strong></p></td>
+<td><p><strong>dbDecimal</strong></p></td>
 <td><p>Décimal</p></td>
 </tr>
 <tr class="odd">

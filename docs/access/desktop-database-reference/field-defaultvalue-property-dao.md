@@ -1,5 +1,5 @@
 ---
-title: Propriété Field.DefaultValue (DAO)
+title: Field. DefaultValue, propriété (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 8a1c558b-c8f6-757d-c595-4e50b9b6ae3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 18fb4d3a4427db2b407b6a20507339fe83665c97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293118"
 ---
-# <a name="fielddefaultvalue-property-dao"></a>Propriété Field.DefaultValue (DAO)
+# <a name="fielddefaultvalue-property-dao"></a>Field. DefaultValue, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 Définit ou renvoie la valeur par défaut d'un objet **[Field](field-object-dao.md)**. Cette propriété est en lecture-écriture si l'objet **Field** n'est pas encore ajouté à la collection **[Fields](fields-collection-dao.md)** (espaces de travail Microsoft Access uniquement).
@@ -34,7 +34,7 @@ Le paramètre ou la valeur renvoyée est un type de données **String** qui peut
 
 
 > [!NOTE]
-> [!REMARQUE] Vous pouvez également définir la propriété **DefaultValue** d'un objet **Field** dans un objet [TableDef](tabledef-object-dao.md) sur une valeur spéciale appelée « GenUniqueID( ) ». Chaque enregistrement possède alors un identificateur unique, car un numéro aléatoire est affecté à ce champ lors de l'ajout ou de la création d'un enregistrement. La propriété [Type](field-type-property-dao.md) du champ doit avoir la valeur **Long**.
+> [!REMARQUE] Vous pouvez également définir la propriété **DefaultValue** d'un objet **Field** dans un objet [TableDef](tabledef-object-dao.md) sur une valeur spéciale appelée « GenUniqueID( ) ». Ce faisant, un nombre aléatoire est affecté à ce champ dès qu'un nouvel enregistrement est ajouté ou créé, créant ainsi un identificateur unique pour chaque enregistrement. La propriété [Type](field-type-property-dao.md) du champ doit être **Long**.
 
 
 La disponibilité de la propriété **DefaultValue** dépend de l'objet contenant la collection **Fields**, comme illustré dans le tableau suivant.
@@ -53,15 +53,15 @@ La disponibilité de la propriété **DefaultValue** dépend de l'objet contenan
 <tbody>
 <tr class="odd">
 <td><p>Objet Index</p></td>
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 </tr>
 <tr class="even">
 <td><p>Objet QueryDef</p></td>
-<td><p>En lecture seule</p></td>
+<td><p>Lecture seule</p></td>
 </tr>
 <tr class="odd">
 <td><p>Objet Recordset</p></td>
-<td><p>En lecture seule</p></td>
+<td><p>Lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p>Objet Relation</p></td>
@@ -69,7 +69,7 @@ La disponibilité de la propriété **DefaultValue** dépend de l'objet contenan
 </tr>
 <tr class="odd">
 <td><p>Objet TableDef</p></td>
-<td><p>En lecture/écriture</p></td>
+<td><p>En lecture-écriture.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 10d55b435a59594eaf3e8380b6690ebbda63a258
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292159"
 ---
 # <a name="gotopage-macro-action"></a>GoToPage, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez l'action **AtteindrePage** pour placer le focus dans le formulaire actif sur le premier contrôle d'une page spécifique. Vous pouvez utiliser cette action si vous avez créé un formulaire contenant différents groupes d'informations connexes séparés par des sauts de page. Par exemple, un formulaire Employés peut contenir des informations personnelles sur une page, des informations professionnelles sur une autre page et des informations sur les ventes sur une troisième page. Vous pouvez utiliser l'action **AtteindrePage** pour vous placer sur la page de votre choix. Vous pouvez également présenter plusieurs pages d'informations sur un même formulaire en utilisant des contrôles Onglet.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **AtteindrePage** possède les arguments suivants.
+L’action **AtteindrePage** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -35,7 +35,7 @@ L'action **AtteindrePage** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -56,13 +56,13 @@ L'action **AtteindrePage** possède les arguments suivants.
 </table>
 
 > [!NOTE]
-> [!REMARQUE] Les arguments **Droite** et **Bas** sont mesurés en pouces ou en centimètres, selon les paramètres régionaux définis dans le Panneau de configuration de Windows.
+> Les arguments **Droite** et **Bas** sont mesurés en pouces ou en centimètres, selon les paramètres régionaux définis dans le Panneau de configuration de Windows.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser cette action pour sélectionner le premier contrôle (comme défini par l'ordre de tabulation du formulaire) sur la page spécifiée. Utilisez l'action **AtteindreContrôle** pour vous placer dans un contrôle particulier sur le formulaire.
+Vous pouvez utiliser cette action pour sélectionner le premier contrôle (comme défini par l’ordre de tabulation du formulaire) sur la page spécifiée. Utilisez l’action **AtteindreContrôle** pour vous placer dans un contrôle particulier sur le formulaire.
 
-Vous pouvez utiliser les arguments **droite** et **bas** pour les formulaires avec des pages de plus de la fenêtre Access. Utilisez l'argument **Numéro de page** pour vous placer sur la page de votre choix, puis utilisez les arguments **Droite** et **Bas** pour afficher la partie de la page de votre choix. Access affiche la partie de la page dont l'angle supérieur gauche est décalé de la distance spécifiée de l'angle supérieur gauche de la page.
+Vous pouvez utiliser les arguments **droite** et **bas** pour les formulaires dont la taille des pages est supérieure à celle de la fenêtre Access. Utilisez l'argument **Numéro de page** pour vous placer sur la page de votre choix, puis utilisez les arguments **Droite** et **Bas** pour afficher la partie de la page de votre choix. Access affiche la partie de la page dont l'angle supérieur gauche est décalé de la distance spécifiée de l'angle supérieur gauche de la page.
 
 Vous pouvez utiliser l'action **AtteindrePage** dans les cas suivants :
 

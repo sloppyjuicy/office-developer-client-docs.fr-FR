@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 527f680ca43bf1735e273b23545514f084a69a0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294119"
 ---
 # <a name="definedsize-property-example-vb"></a>DefinedSize, propriété – Exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [DefinedSize](definedsize-property-adox.md) d'un objet [Column](column-object-adox.md). Le code redéfinit la taille de la colonne FirstName de la table **Employees** de la base de données *Northwind* . Les nouvelles valeurs du [champ](field-object-ado.md) FirstName d'un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** s'affichent ensuite. Notez que, par défaut, le champ FirstName se remplit d'espaces après que vous avez redéfini la propriété **DefinedSize**.
+Cet exemple illustre la propriété [DefinedSize](definedsize-property-adox.md) d’un objet [Column](column-object-adox.md). Le code redéfinit la taille de la colonne FirstName de la table **Employees** de la base de données *Northwind*. Les nouvelles valeurs du [champ](field-object-ado.md) FirstName d’un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** s’affichent ensuite. Notez que, par défaut, le champ FirstName se remplit d’espaces après que vous avez redéfini la propriété **DefinedSize**.
 
 ```vb 
  

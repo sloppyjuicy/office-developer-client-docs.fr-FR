@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.Value (DAO)
+title: Field2. Value, propriété (DAO)
 TOCTitle: Value Property
 ms:assetid: 6ead6ba8-1613-99c7-7968-56f5b81b2385
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195566(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4324917fcabd768a9527b11fceadbfc2dc9ef2b3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292628"
 ---
-# <a name="field2value-property-dao"></a>Propriété Field2.Value (DAO)
+# <a name="field2value-property-dao"></a>Field2. Value, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie la valeur d'un objet. Type de données **Variant** en lecture/écriture.
+Définit ou renvoie la valeur d'un objet. **Variant** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -29,7 +29,7 @@ Définit ou renvoie la valeur d'un objet. Type de données **Variant** en lectur
 
 ## <a name="remarks"></a>Remarques
 
-Le paramètre ou la valeur de retour est un type de données Variant qui est évalué à une valeur appropriée pour le type de données, tel que spécifié par la propriété **Type** d'un objet.
+Le paramètre ou la valeur de retour est un type de données Variant qui correspond à une valeur adaptée au type de données, tel qu'il est défini par la propriété **Type** d'un objet.
 
 En règle générale, la propriété **Value** permet d'extraire et de modifier les données des objets **Recordset**.
 
