@@ -11,27 +11,27 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 943dab0141581adc32c184b0042a063a4ec05c3e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9764be2788db8d2649be8708cad4ec67a85af845
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340998"
 ---
-# <a name="fbadproptag"></a><span data-ttu-id="04353-103">FBadPropTag</span><span class="sxs-lookup"><span data-stu-id="04353-103">FBadPropTag</span></span>
+# <a name="fbadproptag"></a><span data-ttu-id="1a758-103">FBadPropTag</span><span class="sxs-lookup"><span data-stu-id="1a758-103">FBadPropTag</span></span>
 
   
   
-<span data-ttu-id="04353-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="04353-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1a758-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a758-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="04353-105">Valide une balise de propriété spécifiée.</span><span class="sxs-lookup"><span data-stu-id="04353-105">Validates a specified property tag.</span></span> 
+<span data-ttu-id="1a758-105">Valide une balise de propriété spécifiée.</span><span class="sxs-lookup"><span data-stu-id="1a758-105">Validates a specified property tag.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="04353-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="04353-106">Header file:</span></span>  <br/> |<span data-ttu-id="04353-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="04353-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="04353-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="04353-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="04353-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="04353-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="04353-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="04353-110">Called by:</span></span>  <br/> |<span data-ttu-id="04353-111">Fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="04353-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="1a758-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="1a758-106">Header file:</span></span>  <br/> |<span data-ttu-id="1a758-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="1a758-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="1a758-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="1a758-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="1a758-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="1a758-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="1a758-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="1a758-110">Called by:</span></span>  <br/> |<span data-ttu-id="1a758-111">Fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="1a758-111">Service providers</span></span>  <br/> |
    
 ```cpp
 ULONG FBadPropTag(
@@ -39,29 +39,29 @@ ULONG FBadPropTag(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="04353-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="04353-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1a758-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="1a758-112">Parameters</span></span>
 
- <span data-ttu-id="04353-113">_ulPropTag_</span><span class="sxs-lookup"><span data-stu-id="04353-113">_ulPropTag_</span></span>
+ <span data-ttu-id="1a758-113">_ulPropTag_</span><span class="sxs-lookup"><span data-stu-id="1a758-113">_ulPropTag_</span></span>
   
-> <span data-ttu-id="04353-114">[in] La balise de propriété à valider.</span><span class="sxs-lookup"><span data-stu-id="04353-114">[in] The property tag to be validated.</span></span>
+> <span data-ttu-id="1a758-114">dans Balise de propriété à valider.</span><span class="sxs-lookup"><span data-stu-id="1a758-114">[in] The property tag to be validated.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="04353-115">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="04353-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1a758-115">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="1a758-115">Return value</span></span>
 
-<span data-ttu-id="04353-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="04353-116">TRUE</span></span> 
+<span data-ttu-id="1a758-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="1a758-116">TRUE</span></span> 
   
-> <span data-ttu-id="04353-117">La balise de propriété spécifié n’est pas une balise de propriété MAPI valide.</span><span class="sxs-lookup"><span data-stu-id="04353-117">The specified property tag is not a valid MAPI property tag.</span></span> 
+> <span data-ttu-id="1a758-117">La balise de propriété spécifiée n'est pas une balise de propriété MAPI valide.</span><span class="sxs-lookup"><span data-stu-id="1a758-117">The specified property tag is not a valid MAPI property tag.</span></span> 
     
-<span data-ttu-id="04353-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="04353-118">FALSE</span></span> 
+<span data-ttu-id="1a758-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="1a758-118">FALSE</span></span> 
   
-> <span data-ttu-id="04353-119">La balise de propriété spécifiée est une balise de propriété MAPI valide.</span><span class="sxs-lookup"><span data-stu-id="04353-119">The specified property tag is a valid MAPI property tag.</span></span>
+> <span data-ttu-id="1a758-119">La balise de propriété spécifiée est une balise de propriété MAPI valide.</span><span class="sxs-lookup"><span data-stu-id="1a758-119">The specified property tag is a valid MAPI property tag.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="04353-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="04353-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1a758-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="1a758-120">Remarks</span></span>
 
-<span data-ttu-id="04353-121">La fonction **FBadPropTag** valide la balise de propriété spécifiée en fonction des définitions de MAPI.</span><span class="sxs-lookup"><span data-stu-id="04353-121">The **FBadPropTag** function validates the specified property tag based on MAPI definitions.</span></span> <span data-ttu-id="04353-122">Il se sures que le type de propriété est un des types définis par MAPI et que l’identificateur de propriété est définie comme étant de ce type.</span><span class="sxs-lookup"><span data-stu-id="04353-122">It make sures that the property type is one of the types defined by MAPI and that the property identifier is defined to be of that type.</span></span> 
+<span data-ttu-id="1a758-121">La fonction **FBadPropTag** valide la balise de propriété spécifiée en fonction des définitions MAPI.</span><span class="sxs-lookup"><span data-stu-id="1a758-121">The **FBadPropTag** function validates the specified property tag based on MAPI definitions.</span></span> <span data-ttu-id="1a758-122">Elle permet de s'assurer que le type de propriété est l'un des types définis par MAPI et que l'identificateur de la propriété est défini comme étant de ce type.</span><span class="sxs-lookup"><span data-stu-id="1a758-122">It make sures that the property type is one of the types defined by MAPI and that the property identifier is defined to be of that type.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="04353-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="04353-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1a758-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1a758-123">See also</span></span>
 
 
 
-[<span data-ttu-id="04353-124">FBadProp</span><span class="sxs-lookup"><span data-stu-id="04353-124">FBadProp</span></span>](fbadprop.md)
+[<span data-ttu-id="1a758-124">FBadProp</span><span class="sxs-lookup"><span data-stu-id="1a758-124">FBadProp</span></span>](fbadprop.md)
 

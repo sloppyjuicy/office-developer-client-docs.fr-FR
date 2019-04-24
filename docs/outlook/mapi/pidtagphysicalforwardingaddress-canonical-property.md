@@ -11,50 +11,50 @@ api_name:
 api_type:
 - COM
 ms.assetid: f9506faf-a75a-47a9-b32b-00780e1c5df4
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7aa56e8c472da4d597733393313e44dbf1c1028f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2ec578df320c76014adde468cb7e86a0c4ab40bd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338268"
 ---
-# <a name="pidtagphysicalforwardingaddress-canonical-property"></a><span data-ttu-id="f2c34-103">Propriété canonique PidTagPhysicalForwardingAddress</span><span class="sxs-lookup"><span data-stu-id="f2c34-103">PidTagPhysicalForwardingAddress Canonical Property</span></span>
+# <a name="pidtagphysicalforwardingaddress-canonical-property"></a><span data-ttu-id="03684-103">Propriété canonique PidTagPhysicalForwardingAddress</span><span class="sxs-lookup"><span data-stu-id="03684-103">PidTagPhysicalForwardingAddress Canonical Property</span></span>
 
   
   
-<span data-ttu-id="f2c34-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f2c34-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="03684-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="03684-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f2c34-105">Contient l’adresse de transfert physique d’un destinataire de message et est utilisé uniquement avec des messages.</span><span class="sxs-lookup"><span data-stu-id="f2c34-105">Contains the physical forwarding address of a message recipient and is used only with message reports.</span></span>
+<span data-ttu-id="03684-105">Contient l'adresse de transfert physique d'un destinataire de message et est utilisée uniquement avec les rapports sur les messages.</span><span class="sxs-lookup"><span data-stu-id="03684-105">Contains the physical forwarding address of a message recipient and is used only with message reports.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f2c34-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="f2c34-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f2c34-107">PR_PHYSICAL_FORWARDING_ADDRESS</span><span class="sxs-lookup"><span data-stu-id="f2c34-107">PR_PHYSICAL_FORWARDING_ADDRESS</span></span>  <br/> |
-|<span data-ttu-id="f2c34-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="f2c34-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f2c34-109">0x0C0D</span><span class="sxs-lookup"><span data-stu-id="f2c34-109">0x0C0D</span></span>  <br/> |
-|<span data-ttu-id="f2c34-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="f2c34-110">Data type:</span></span>  <br/> |<span data-ttu-id="f2c34-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="f2c34-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="f2c34-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="f2c34-112">Area:</span></span>  <br/> |<span data-ttu-id="f2c34-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="f2c34-113">MAPI Recipient</span></span>  <br/> |
+|<span data-ttu-id="03684-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="03684-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="03684-107">PR_PHYSICAL_FORWARDING_ADDRESS</span><span class="sxs-lookup"><span data-stu-id="03684-107">PR_PHYSICAL_FORWARDING_ADDRESS</span></span>  <br/> |
+|<span data-ttu-id="03684-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="03684-108">Identifier:</span></span>  <br/> |<span data-ttu-id="03684-109">0x0C0D</span><span class="sxs-lookup"><span data-stu-id="03684-109">0x0C0D</span></span>  <br/> |
+|<span data-ttu-id="03684-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="03684-110">Data type:</span></span>  <br/> |<span data-ttu-id="03684-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="03684-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="03684-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="03684-112">Area:</span></span>  <br/> |<span data-ttu-id="03684-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="03684-113">MAPI Recipient</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="f2c34-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="f2c34-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="03684-114">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="03684-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="f2c34-115">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="f2c34-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="03684-115">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="03684-115">Header files</span></span>
 
-<span data-ttu-id="f2c34-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f2c34-116">Mapidefs.h</span></span>
+<span data-ttu-id="03684-116">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="03684-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="f2c34-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="f2c34-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="03684-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="03684-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="f2c34-118">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="f2c34-118">Mapitags.h</span></span>
+<span data-ttu-id="03684-118">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="03684-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="f2c34-119">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="f2c34-119">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="03684-119">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="03684-119">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f2c34-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f2c34-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="03684-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="03684-120">See also</span></span>
 
 
 
-[<span data-ttu-id="f2c34-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="f2c34-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="03684-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="03684-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="f2c34-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="f2c34-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="03684-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="03684-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="f2c34-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="f2c34-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="03684-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="03684-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="f2c34-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="f2c34-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="03684-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="03684-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

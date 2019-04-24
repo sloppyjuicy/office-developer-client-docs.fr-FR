@@ -8,29 +8,29 @@ f1_keywords:
 - vis_sdr.chm3020
 localization_priority: Normal
 ms.assetid: 55942a42-5e88-2f6b-69f8-405ce406fcaf
-description: Contient les coordonnées x - et y-coordonnées de deux points sur une ligne infinie.
-ms.openlocfilehash: 68818bc657d9bdc5a9e47effa9254fd1cbd1c1cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contient les coordonnées x et y de deux points sur une ligne infinie.
+ms.openlocfilehash: b6338b6b50535379759649c791b9678de640df70
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335349"
 ---
-# <a name="infiniteline-row-geometry-section"></a><span data-ttu-id="d743b-103">InfiniteLine, ligne (section Geometry)</span><span class="sxs-lookup"><span data-stu-id="d743b-103">InfiniteLine Row (Geometry Section)</span></span>
+# <a name="infiniteline-row-geometry-section"></a><span data-ttu-id="bfdff-103">InfiniteLine Row (Geometry Section)</span><span class="sxs-lookup"><span data-stu-id="bfdff-103">InfiniteLine Row (Geometry Section)</span></span>
 
-<span data-ttu-id="d743b-104">Contient les coordonnées *x* - et *y* -coordonnées de deux points sur une ligne infinie.</span><span class="sxs-lookup"><span data-stu-id="d743b-104">Contains the  *x*  - and  *y*  -coordinates of two points on an infinite line.</span></span> 
+<span data-ttu-id="bfdff-104">Contient les coordonnées *x* et *y* de deux points sur une ligne infinie.</span><span class="sxs-lookup"><span data-stu-id="bfdff-104">Contains the  *x*  - and  *y*  -coordinates of two points on an infinite line.</span></span> 
   
-<span data-ttu-id="d743b-105">Une ligne InfiniteLine contient les cellules suivantes.</span><span class="sxs-lookup"><span data-stu-id="d743b-105">An InfiniteLine row contains the following cells.</span></span>
+<span data-ttu-id="bfdff-105">Une ligne InfiniteLine contient les cellules suivantes.</span><span class="sxs-lookup"><span data-stu-id="bfdff-105">An InfiniteLine row contains the following cells.</span></span>
   
-|<span data-ttu-id="d743b-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="d743b-106">**Cell**</span></span>|<span data-ttu-id="d743b-107">**Description**</span><span class="sxs-lookup"><span data-stu-id="d743b-107">**Description**</span></span>|
+|<span data-ttu-id="bfdff-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="bfdff-106">**Cell**</span></span>|<span data-ttu-id="bfdff-107">**Description**</span><span class="sxs-lookup"><span data-stu-id="bfdff-107">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d743b-108">X</span><span class="sxs-lookup"><span data-stu-id="d743b-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="d743b-109">*X* -coordonnées d’un point sur la ligne infinie ; associée à *y* -coordonnée représentée par la cellule Y.</span><span class="sxs-lookup"><span data-stu-id="d743b-109">An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the Y cell.</span></span>  <br/> |
-|[<span data-ttu-id="d743b-110">Y</span><span class="sxs-lookup"><span data-stu-id="d743b-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="d743b-111">*Y* -coordonnées d’un point sur la ligne infinie ; associée à la *x* -coordonnée représentée par la cellule X.</span><span class="sxs-lookup"><span data-stu-id="d743b-111">A  *y*  -coordinate of a point on the infinite line; paired with  *x*  -coordinate represented by the X cell.</span></span>  <br/> |
-|[<span data-ttu-id="d743b-112">A</span><span class="sxs-lookup"><span data-stu-id="d743b-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="d743b-113">*X* -coordonnées d’un point sur la ligne infinie ; associée à *y* -coordonnée représentée par la cellule B.</span><span class="sxs-lookup"><span data-stu-id="d743b-113">An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the B cell.</span></span>  <br/> |
-|[<span data-ttu-id="d743b-114">B</span><span class="sxs-lookup"><span data-stu-id="d743b-114">B</span></span>](b-cell-geometry-section.md) <br/> |<span data-ttu-id="d743b-115">*Y* -coordonnées d’un point sur la ligne infinie ; associée à la *x* -coordonnée représentée par la cellule A.</span><span class="sxs-lookup"><span data-stu-id="d743b-115">A  *y*  -coordinate of a point on an infinite line; paired with  *x*  -coordinate represented by the A cell.</span></span>  <br/> |
+|[<span data-ttu-id="bfdff-108">X</span><span class="sxs-lookup"><span data-stu-id="bfdff-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="bfdff-109">Coordonnée *x* d'un point sur la ligne infinie; associée à la coordonnée *y* représentée par la cellule y.</span><span class="sxs-lookup"><span data-stu-id="bfdff-109">An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the Y cell.</span></span>  <br/> |
+|[<span data-ttu-id="bfdff-110">Y</span><span class="sxs-lookup"><span data-stu-id="bfdff-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="bfdff-111">Coordonnée *y* d'un point sur la ligne infinie; associée à la coordonnée *x* représentée par la cellule x.</span><span class="sxs-lookup"><span data-stu-id="bfdff-111">A  *y*  -coordinate of a point on the infinite line; paired with  *x*  -coordinate represented by the X cell.</span></span>  <br/> |
+|[<span data-ttu-id="bfdff-112">A</span><span class="sxs-lookup"><span data-stu-id="bfdff-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="bfdff-113">Coordonnée *x* d'un point sur la ligne infinie; associée à la coordonnée *y* représentée par la cellule B.</span><span class="sxs-lookup"><span data-stu-id="bfdff-113">An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the B cell.</span></span>  <br/> |
+|[<span data-ttu-id="bfdff-114">Point</span><span class="sxs-lookup"><span data-stu-id="bfdff-114">B</span></span>](b-cell-geometry-section.md) <br/> |<span data-ttu-id="bfdff-115">Coordonnée *y* d'un point sur une ligne infinie; associée à la coordonnée *x* représentée par la cellule A.</span><span class="sxs-lookup"><span data-stu-id="bfdff-115">A  *y*  -coordinate of a point on an infinite line; paired with  *x*  -coordinate represented by the A cell.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d743b-116">Notes</span><span class="sxs-lookup"><span data-stu-id="d743b-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bfdff-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="bfdff-116">Remarks</span></span>
 
-<span data-ttu-id="d743b-117">Une section Geometry contenant une ligne Ellipse ou InfiniteLine ne doit pas contenir d'autres lignes.</span><span class="sxs-lookup"><span data-stu-id="d743b-117">A geometry section that contains an Ellipse or InfiniteLine row should not contain any other rows.</span></span>
+<span data-ttu-id="bfdff-117">Une section Geometry contenant une ligne Ellipse ou InfiniteLine ne doit pas contenir d'autres lignes.</span><span class="sxs-lookup"><span data-stu-id="bfdff-117">A geometry section that contains an Ellipse or InfiniteLine row should not contain any other rows.</span></span>
   
 

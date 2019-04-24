@@ -1,5 +1,5 @@
 ---
-title: Envoi de messages à l’aide de MAPI
+title: Envoi de messages à l'aide de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,41 +7,41 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6a3172dcd962c04d72aacd14d2e42990fb0f78c7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: bf6324b89f06ef7f0553d3de1eaa24ae31a329ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339752"
 ---
-# <a name="sending-messages-by-using-mapi"></a><span data-ttu-id="fc5ca-103">Envoi de messages à l’aide de MAPI</span><span class="sxs-lookup"><span data-stu-id="fc5ca-103">Sending Messages by Using MAPI</span></span>
+# <a name="sending-messages-by-using-mapi"></a><span data-ttu-id="8b9bc-103">Envoi de messages à l'aide de MAPI</span><span class="sxs-lookup"><span data-stu-id="8b9bc-103">Sending Messages by Using MAPI</span></span>
 
   
   
-<span data-ttu-id="fc5ca-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fc5ca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8b9bc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8b9bc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="fc5ca-105">Applications clientes appellent la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer un message.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-105">Client applications call the [IMessage::SubmitMessage](imessage-submitmessage.md) method to send a message.</span></span> <span data-ttu-id="fc5ca-106">**SubmitMessage** appelle [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour enregistrer le message avant de transférer le contrôle soit le spouleur MAPI ou directement à un fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-106">**SubmitMessage** calls [IMAPIProp::SaveChanges](imapiprop-savechanges.md) to save the message before transferring control to either the MAPI spooler or directly to a transport provider.</span></span> 
+<span data-ttu-id="8b9bc-105">Les applications clientes appellent la méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) pour envoyer un message.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-105">Client applications call the [IMessage::SubmitMessage](imessage-submitmessage.md) method to send a message.</span></span> <span data-ttu-id="8b9bc-106">**SubmitMessage** appelle [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) pour enregistrer le message avant de transférer le contrôle vers le spouleur MAPI ou directement vers un fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-106">**SubmitMessage** calls [IMAPIProp::SaveChanges](imapiprop-savechanges.md) to save the message before transferring control to either the MAPI spooler or directly to a transport provider.</span></span> 
   
-<span data-ttu-id="fc5ca-107">Le spouleur MAPI reçoit le message si une des actions suivantes se produisent :</span><span class="sxs-lookup"><span data-stu-id="fc5ca-107">The MAPI spooler receives the message if any of the following occur:</span></span>
+<span data-ttu-id="8b9bc-107">Le spouleur MAPI reçoit le message si l'un des éléments suivants se produit:</span><span class="sxs-lookup"><span data-stu-id="8b9bc-107">The MAPI spooler receives the message if any of the following occur:</span></span>
   
-- <span data-ttu-id="fc5ca-108">Le fournisseur de banque de message et le fournisseur de transport ne sont pas étroitement liées.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-108">The message store provider and transport provider are not tightly coupled.</span></span>
+- <span data-ttu-id="8b9bc-108">Le fournisseur de banque de messages et le fournisseur de transport ne sont pas étroitement couplés.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-108">The message store provider and transport provider are not tightly coupled.</span></span>
     
-- <span data-ttu-id="fc5ca-109">Le message nécessite un prétraitement.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-109">The message requires preprocessing.</span></span>
+- <span data-ttu-id="8b9bc-109">Le message doit être prétraité.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-109">The message requires preprocessing.</span></span>
     
-- <span data-ttu-id="fc5ca-110">La banque de messages étroitement couplés et de transport ne peut pas gérer tous les destinataires auxquels le message est adressé.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-110">The tightly coupled message store and transport cannot handle all of the recipients to whom the message is addressed.</span></span>
+- <span data-ttu-id="8b9bc-110">La Banque de messages et le transport étroitement couplés ne peuvent pas gérer tous les destinataires auxquels le message est adressé.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-110">The tightly coupled message store and transport cannot handle all of the recipients to whom the message is addressed.</span></span>
     
-<span data-ttu-id="fc5ca-111">Une banque de messages étroitement couplés doit prendre en considération état d’un message avant qu’il présente le spouleur MAPI à transférer vers un fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-111">A tightly coupled message store must take into account a message's status before it presents it to the MAPI spooler to be downloaded to a transport provider.</span></span> <span data-ttu-id="fc5ca-112">Il existe des situations où un message s’affiche pour demander le spouleur MAPI, mais le spouleur MAPI doit vraiment pas impliqué.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-112">There are situations where a message may appear to require the MAPI spooler, but the MAPI spooler should really not be involved.</span></span>
+<span data-ttu-id="8b9bc-111">Un magasin de messages étroitement couplé doit prendre en compte l'état d'un message avant de le présenter au spouleur MAPI afin d'être téléchargé vers un fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-111">A tightly coupled message store must take into account a message's status before it presents it to the MAPI spooler to be downloaded to a transport provider.</span></span> <span data-ttu-id="8b9bc-112">Il existe des situations dans lesquelles un message peut sembler exiger le spouleur MAPI, mais le spouleur MAPI ne doit pas être impliqué.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-112">There are situations where a message may appear to require the MAPI spooler, but the MAPI spooler should really not be involved.</span></span>
   
-<span data-ttu-id="fc5ca-113">Par exemple, considérez la situation où un utilisateur envoie un message à partir de la boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-113">For example, consider the situation where a user submits a message from the Inbox.</span></span> <span data-ttu-id="fc5ca-114">Le client utilise un magasin étroitement couplé et transport.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-114">The client is using a tightly coupled store and transport.</span></span> <span data-ttu-id="fc5ca-115">Si la banque de messages étroitement couplés utilise l’emplacement du message comme critère unique permettant de décider s’il faut autoriser le spouleur MAPI sur les gérer le message, le spouleur MAPI toujours le message.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-115">If the tightly coupled message store uses the message's location as the sole criteria for deciding about whether or not to allow the MAPI spooler to handle the message, the MAPI spooler will always receive the message.</span></span> <span data-ttu-id="fc5ca-116">Pour éviter ce type de problème, une banque de messages étroitement couplés doit vérifier le statut du message en plus de l’emplacement du message.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-116">To avoid this kind of problem, a tightly coupled message store must check the message status in addition to message location.</span></span> <span data-ttu-id="fc5ca-117">Plus précisément, le fournisseur de transport ne doit pas demander que le spouleur MAPI télécharger tout message est envoyé en.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-117">Specifically, the transport provider should not request that the MAPI spooler download any message that is actively submitted.</span></span>
+<span data-ttu-id="8b9bc-113">Par exemple, considérez la situation dans laquelle un utilisateur envoie un message à partir de la boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-113">For example, consider the situation where a user submits a message from the Inbox.</span></span> <span data-ttu-id="8b9bc-114">Le client utilise un magasin et un transport étroitement couplés.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-114">The client is using a tightly coupled store and transport.</span></span> <span data-ttu-id="8b9bc-115">Si la Banque de messages étroitement couplée utilise l'emplacement du message comme critère unique pour décider d'autoriser ou non le spouleur MAPI à gérer le message, le spouleur MAPI reçoit toujours le message.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-115">If the tightly coupled message store uses the message's location as the sole criteria for deciding about whether or not to allow the MAPI spooler to handle the message, the MAPI spooler will always receive the message.</span></span> <span data-ttu-id="8b9bc-116">Pour éviter ce type de problème, un magasin de messages étroitement couplé doit vérifier l'état du message en plus de l'emplacement du message.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-116">To avoid this kind of problem, a tightly coupled message store must check the message status in addition to message location.</span></span> <span data-ttu-id="8b9bc-117">Plus précisément, le fournisseur de transport ne doit pas demander au spouleur MAPI de télécharger les messages soumis activement.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-117">Specifically, the transport provider should not request that the MAPI spooler download any message that is actively submitted.</span></span>
   
-<span data-ttu-id="fc5ca-118">Le processus de transmission de message implique le fournisseur de banque de message, un ou plusieurs fournisseurs de transport et MAPI.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-118">The message transmission process involves the message store provider, one or more transport providers, and MAPI.</span></span> <span data-ttu-id="fc5ca-119">Les rubriques de cette section fournissent des informations détaillées sur des rôles spécifiques dans le processus de transmission de message.</span><span class="sxs-lookup"><span data-stu-id="fc5ca-119">The topics in this section provide detailed information about specific roles in the message transmission process.</span></span>
+<span data-ttu-id="8b9bc-118">Le processus de transmission de messages implique le fournisseur de banque de messages, un ou plusieurs fournisseurs de transport et MAPI.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-118">The message transmission process involves the message store provider, one or more transport providers, and MAPI.</span></span> <span data-ttu-id="8b9bc-119">Les rubriques de cette section fournissent des informations détaillées sur des rôles spécifiques dans le processus de transmission des messages.</span><span class="sxs-lookup"><span data-stu-id="8b9bc-119">The topics in this section provide detailed information about specific roles in the message transmission process.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="fc5ca-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fc5ca-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8b9bc-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8b9bc-120">See also</span></span>
 
 
 
-[<span data-ttu-id="fc5ca-121">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="fc5ca-121">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
+[<span data-ttu-id="8b9bc-121">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="8b9bc-121">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
   
-[<span data-ttu-id="fc5ca-122">IMAPIProp::SaveChanges</span><span class="sxs-lookup"><span data-stu-id="fc5ca-122">IMAPIProp::SaveChanges</span></span>](imapiprop-savechanges.md)
+[<span data-ttu-id="8b9bc-122">IMAPIProp::SaveChanges</span><span class="sxs-lookup"><span data-stu-id="8b9bc-122">IMAPIProp::SaveChanges</span></span>](imapiprop-savechanges.md)
 

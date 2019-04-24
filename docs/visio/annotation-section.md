@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 616c822e-1bb2-4980-7e45-0c2be77dd801
 description: Contient des informations sur les commentaires insérés sur une page de document.
-ms.openlocfilehash: 1824c8f087d999ae76ecc4227df44a0ba7001f6a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f874a574940a5f56b1d1680b9b4b32730e1e79f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341397"
 ---
-# <a name="annotation-section"></a><span data-ttu-id="0d516-103">Annotation, section</span><span class="sxs-lookup"><span data-stu-id="0d516-103">Annotation Section</span></span>
+# <a name="annotation-section"></a><span data-ttu-id="9ab28-103">Annotation Section</span><span class="sxs-lookup"><span data-stu-id="9ab28-103">Annotation Section</span></span>
 
-<span data-ttu-id="0d516-104">Contient des informations sur les commentaires insérés sur une page de document.</span><span class="sxs-lookup"><span data-stu-id="0d516-104">Contains information about comments inserted into a document page.</span></span> 
+<span data-ttu-id="9ab28-104">Contient des informations sur les commentaires insérés sur une page de document.</span><span class="sxs-lookup"><span data-stu-id="9ab28-104">Contains information about comments inserted into a document page.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="0d516-105">Cette section est utilisée pour le suivi des commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd.</span><span class="sxs-lookup"><span data-stu-id="0d516-105">This section is used for tracking comments only when opening a .vsd file in Microsoft Visio 2013 or when saving a .vsdx file in the .vsd file format.</span></span> <span data-ttu-id="0d516-106">Il n’est pas utilisé pour le suivi des commentaires dans les nouveaux documents .vsdx dans Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="0d516-106">It is not used for tracking comments in new .vsdx documents in Visio 2013.</span></span> 
+> <span data-ttu-id="9ab28-105">Cette section est utilisée pour le suivi des commentaires uniquement lors de l'ouverture d'un fichier. VSD dans Microsoft Visio 2013 ou lors de l'enregistrement d'un fichier. vsdx au format de fichier. VSD.</span><span class="sxs-lookup"><span data-stu-id="9ab28-105">This section is used for tracking comments only when opening a .vsd file in Microsoft Visio 2013 or when saving a .vsdx file in the .vsd file format.</span></span> <span data-ttu-id="9ab28-106">Il n'est pas utilisé pour le suivi des commentaires dans les nouveaux documents. vsdx dans Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="9ab28-106">It is not used for tracking comments in new .vsdx documents in Visio 2013.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="0d516-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="0d516-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9ab28-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="9ab28-107">Remarks</span></span>
 
-<span data-ttu-id="0d516-108">La section **Annotation** de feuille ShapeSheet d’une page contient une ligne pour chaque commentaire ajouté à une page dans le dessin, qu’il s’agisse d’une page de dessin d’origine ou d’une page de superposition de balisage (une page contenant le balisage qui ont été ajoutée au dessin par un réviseur).</span><span class="sxs-lookup"><span data-stu-id="0d516-108">The **Annotation** section of a page's ShapeSheet contains one row for each comment added to a page in the drawing, whether it is an original drawing page or a markup overlay page (a page containing markup that has been added to the drawing by a reviewer).</span></span> <span data-ttu-id="0d516-109">Plus d’informations sur le balisage qui a été ajouté à l’aide du mode d’entrée manuscrite ou autres formes, plutôt que des commentaires, n’est pas inclus dans la section **Annotation** .</span><span class="sxs-lookup"><span data-stu-id="0d516-109">Information about markup that has been added using ink or other shapes, rather than comments, is not included in the **Annotation** section.</span></span> 
+<span data-ttu-id="9ab28-108">La section **annotation** de la feuille ShapeSheet d'une page contient une ligne pour chaque Commentaire ajouté à une page dans le dessin, qu'il s'agisse d'une page de dessin d'origine ou d'une page de superposition de marques de révision (une page contenant un balisage qui a été ajouté au dessin par un relecteur).</span><span class="sxs-lookup"><span data-stu-id="9ab28-108">The **Annotation** section of a page's ShapeSheet contains one row for each comment added to a page in the drawing, whether it is an original drawing page or a markup overlay page (a page containing markup that has been added to the drawing by a reviewer).</span></span> <span data-ttu-id="9ab28-109">Les informations sur les balises qui ont été ajoutées à l'aide d'une entrée manuscrite ou d'autres formes, plutôt que des commentaires, ne sont pas incluses dans la section **annotation** .</span><span class="sxs-lookup"><span data-stu-id="9ab28-109">Information about markup that has been added using ink or other shapes, rather than comments, is not included in the **Annotation** section.</span></span> 
   
-<span data-ttu-id="0d516-110">Pour afficher la feuille ShapeSheet d’une page, assurez-vous que rien n’est sélectionné dans la page, avec le bouton droit de la page, cliquez sur **Afficher la feuille ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="0d516-110">To view the ShapeSheet for a page, make sure nothing is selected on the page, right-click the page, and click **Show ShapeSheet**.</span></span>
+<span data-ttu-id="9ab28-110">Pour afficher la feuille ShapeSheet d’une page, assurez-vous que rien n’est sélectionné sur la page, cliquez avec le bouton droit sur la page, puis cliquez sur **Afficher la feuille ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="9ab28-110">To view the ShapeSheet for a page, make sure nothing is selected on the page, right-click the page, and click **Show ShapeSheet**.</span></span>
   
-<span data-ttu-id="0d516-111">Pour plus d’informations sur des réviseurs donnés, reportez-vous à la section **Reviewer** de la feuille ShapeSheet du document.</span><span class="sxs-lookup"><span data-stu-id="0d516-111">For information about particular reviewers, see the **Reviewer** section in the document's ShapeSheet.</span></span> 
+<span data-ttu-id="9ab28-111">Pour plus d'informations sur des relecteurs spécifiques \*\*\*\* , reportez-vous à la section réviseur dans la feuille ShapeSheet du document.</span><span class="sxs-lookup"><span data-stu-id="9ab28-111">For information about particular reviewers, see the **Reviewer** section in the document's ShapeSheet.</span></span> 
   
 
