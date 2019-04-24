@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0970fbb60d7e4c87685441ea893a44cf7ecb9cde
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296275"
 ---
 # <a name="clustered-property-example-vc"></a>Clustered, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [Clustered](clustered-property-adox.md) d’un [Index](index-object-adox.md). Notez que les bases de données Microsoft Jet ne prennent pas charge les index cluster, cet exemple retourne la **valeur False** pour la propriété **Clustered** de tous les index de la base de données *Northwind* .
+Cet exemple illustre la propriété [Clustered](clustered-property-adox.md) d’un objet [Index](index-object-adox.md). Notez que les bases de données Microsoft Jet ne prennent pas en charge les index cluster. Cet exemple renverra donc la valeur **False** pour la propriété **Clustered** de tous les index de la base de données *Northwind*.
 
 ```cpp 
  

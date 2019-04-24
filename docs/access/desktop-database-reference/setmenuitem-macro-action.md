@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fe61a3368813ba3420920909f818beee2029d993
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308679"
 ---
 # <a name="setmenuitem-macro-action"></a>SetMenuItem, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **DéfinirElémentMenu** pour définir l'état des éléments de menu (activé, désactivé, sélectionné ou non sélectionné) dans les menus globaux ou personnalisés de l'onglet **Compléments**.
 
 > [!NOTE]
 > [!REMARQUE] L'action **DéfinirElémentMenu** fonctionne uniquement avec les menus personnalisés et globaux générés à l'aide de macros de menu. L'action **DéfinirElémentMenu** est incluse dans Microsoft Access à la seule fin de compatibilité avec les versions antérieures. Il ne fonctionne pas avec les fonctionnalités de la barre de commandes. Vous pouvez toutefois utiliser les propriétés **Enabled** et **State** dans un module Visual Basic pour Applications (VBA) afin de désactiver, d'activer, de sélectionner ou de désélectionner des éléments des menus contextuels ou des menus personnalisés ou globaux.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **DéfinirElémentMenu** accepte les arguments suivants.
+L’action **DéfinirElémentMenu** accepte les arguments suivants.
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ L'action **DéfinirElémentMenu** accepte les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Index de menu</strong></p></td>
-<td><p>L’index du menu qui contient la commande pour laquelle vous souhaitez définir l’état. Entrez une valeur entière, à partir de 0, pour l’index du menu souhaité dans le menu personnalisé ou global. Dans la zone <strong>Index de Menu</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro, entrez la valeur d’index. L’index est par rapport à la position du menu dans la macro de menu pour le menu personnalisé ou global (position de l’action <strong>AjouterMenu</strong> de ce menu dans la macro de menu, à partir de 0). L’affichage du menu peut être légèrement différent, car vous pouvez utiliser des expressions conditionnelles dans la macro de menu pour masquer ou afficher des éléments de menu personnalisés. Cet argument est obligatoire. Si vous sélectionnez un menu avec cet argument et laissez les arguments <strong>Index de commande</strong> et <strong>Index de sous-commande</strong> vides, vous pouvez activer ou désactiver le nom du menu lui-même. Toutefois, vous ne peut pas sélectionner ou désélectionner un nom de menu (Access ignore les paramètres <strong>coché</strong> et <strong>non coché</strong> de l’argument <strong>indicateur</strong> pour les noms de menu).</p></td>
+<td><p>Index du menu qui contient la commande dont vous voulez définir l’état. Entrez une valeur entière, à partir de 0, pour l’index du menu souhaité dans le menu personnalisé ou global. Entrez la valeur d’index dans la zone <strong>Index de menu</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. L’index est relatif à la position du menu dans la macro de menu du menu personnalisé ou global (position de l’action <strong>AjouterMenu</strong> de ce menu dans la macro de menu, à partir de 0. L’affichage du menu peut être légèrement différent dans la mesure où vous pouvez utiliser des expressions conditionnelles dans la macro de menu pour masquer ou afficher des éléments de menu personnalisés. Cet argument est obligatoire. Si vous sélectionnez un menu avec cet argument et laissez les arguments <strong>Index de commande</strong> et <strong>Index de sous-commande</strong> vides, vous pouvez activer ou désactiver le nom de menu lui-même. En revanche, vous ne pouvez pas sélectionner ou désélectionner un nom de menu (Access ignore les paramètres <strong>Coché</strong> et <strong>Non coché</strong> de l’argument <strong>Indicateur</strong> pour les noms de menu).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Index de commande</strong></p></td>
@@ -56,14 +56,14 @@ L'action **DéfinirElémentMenu** accepte les arguments suivants.
 <td><p>Index de la sous-commande dont vous souhaitez définir l’état. Cet argument n’est applicable qu’à partir du moment où la commande souhaitée possède un sous-menu. Entrez une valeur entière, à partir de 0, pour l’index de la sous-commande requise dans le sous-menu sélectionné par l’argument <strong>Index de commande</strong>. L’index est relatif à la position de la sous-commande dans le groupe de macros qui définit le sous-menu sélectionné pour le menu personnalisé ou global (position de la macro de cette sous-commande dans le groupe de macros, à partir de 0).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Flag</strong></p></td>
+<td><p><strong>Indicateur</strong></p></td>
 <td><p>État à affecter à la commande ou à la sous-commande. Cliquez sur <strong>Grisé</strong> (pour désactiver la commande qui apparaît estompée), <strong>Non grisé</strong> (pour l’activer), <strong>Coché</strong> (pour placer une coche en regard de la commande, ce qui indique en général qu’elle a été sélectionnée) ou <strong>Non coché</strong> (pour supprimer la coche). La valeur par défaut est <strong>Non grisé</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L'action **DéfinirElémentMenu** fonctionne uniquement avec un menu personnalisé ou global. Si la fenêtre active ne possède pas de menu personnalisé ou global, l'exécution d'une macro contenant l'action **DéfinirElémentMenu** provoque une erreur d'exécution.
 

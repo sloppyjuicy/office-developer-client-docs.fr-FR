@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6287bc8a66858d51d65c37477eed7a86cd7839af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308728"
 ---
 # <a name="selectobject-macro-action"></a>SelectObject, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l'action **SélectionnerObjet** pour sélectionner un objet de base de données spécifique.
+Vous pouvez utiliser l’action **SélectionnerObjet** pour sélectionner un objet de base de données spécifique.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **SélectionnerObjet** accepte les arguments suivants.
+L’action **SélectionnerObjet** accepte les arguments suivants.
 
 <table>
 <colgroup>
@@ -41,12 +41,12 @@ L'action **SélectionnerObjet** accepte les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d'objet</strong></p></td>
+<td><p><strong>Type d’objet</strong></p></td>
 <td><p>Type d’objet de base de données à sélectionner. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Cet argument est obligatoire.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom de l'objet</strong></p></td>
-<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p><p><strong>Remarque</strong>: les noms d’objets pour les objets <STRONG>Vue serveur</STRONG>, <STRONG>schéma</STRONG>ou <STRONG>Procédure stockée</STRONG> ne sont pas affichés dans la zone <STRONG>Nom de l’objet</STRONG> d’un projet Access (.adp).</p></td>
+<td><p><strong>Nom objet</strong></p></td>
+<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p><p><strong>Remarque</strong>: les noms des objets <STRONG>vue serveur</STRONG>, <STRONG>diagramme</STRONG>ou <STRONG>procédure stockée</STRONG> ne sont pas affichés dans la zone nom de l' <STRONG>objet</STRONG> d'un projet Access (. ADP).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Dans le volet de navigation</strong></p></td>
@@ -56,7 +56,7 @@ L'action **SélectionnerObjet** accepte les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L'action **SélectionnerObjet** fonctionne avec n'importe quel objet Access qui peut recevoir le focus. Cette action active (ou place le focus sur) l'objet spécifié et affiche l'objet s'il est masqué. Si l'objet est un formulaire, l'action **SélectionnerObjet** définit la propriété **Visible** du formulaire sur **Oui** et retourne le formulaire dans le mode défini par ses propriétés de formulaire (par exemple, sous la forme d'un formulaire modal ou d'un formulaire contextuel).
 

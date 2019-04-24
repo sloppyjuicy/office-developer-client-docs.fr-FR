@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d1fb13d04691b7bf5e0aafcc484cfc4f471e1e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295491"
 ---
 # <a name="copyobject-macro-action"></a>CopyObject, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez l'action **CopierObjet** pour copier l'objet de base de données spécifié dans une autre base de données Access ou dans la même base ou projet Access mais sous un nouveau nom. Par exemple, vous pouvez copier ou enregistrer un objet existant dans une autre base de données ou créer rapidement un objet similaire en n'apportant que quelques modifications.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L'action **CopierObjet** possède les arguments suivants.
+L’action **CopierObjet** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -38,16 +38,14 @@ L'action **CopierObjet** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Base de données de destination</strong></p></td>
-<td><p>Chemin d’accès valide et nom de fichier de la base de données de destination. Entrez le chemin d’accès et le nom de fichier dans la zone <strong>Base de données de destination</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Laissez cet argument vide si vous souhaitez sélectionner la base de données active. 
-
-</p><p><strong>Remarque</strong>: cet argument n’est disponible dans l’environnement de base de données Access. Lorsque vous utilisez cette action dans un environnement de projet Access (.adp), l’argument de base de données de Destination doit être vide.</p>
+<td><p>Chemin d’accès valide et nom de fichier de la base de données de destination. Entrez le chemin d’accès et le nom de fichier dans la zone <strong>Base de données de destination</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Laissez cet argument vide si vous souhaitez sélectionner la base de données active.</p><p><strong>Remarque</strong>: cet argument est uniquement disponible dans l'environnement de base de données Access. Si cette action est utilisée dans un environnement de projet Access (.adp), l’argument Base de données de destination doit être vide.</p>
 <p>Si vous exécutez une macro contenant l’action <strong>CopierObjet</strong> dans une base de données bibliothèque et que vous laissez cet argument vide, Microsoft Office Access 2007 copie l’objet dans la base de données bibliothèque.</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +58,7 @@ L'action **CopierObjet** possède les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Nom de l’objet source</strong></p></td>
-<td><p>Le nom de l’objet à copier. La zone <strong>Nom de l’objet Source</strong> affiche tous les objets dans la base de données du type sélectionné par l’argument <strong>Type d’objet Source</strong> . Dans la zone <strong>Nom de l’objet Source</strong> , cliquez sur l’objet à copier. Si vous laissez l’argument <strong>Type d’objet Source</strong> vide, laissez également cet argument vide. Si vous exécutez une macro contenant l’action <strong>CopierObjet</strong> dans une base de données bibliothèque, Access commence par rechercher un objet portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom de l’objet à copier. La zone <strong>Nom de l’objet source</strong> affiche tous les objets de la base de données correspondant au type sélectionné par l’argument <strong>Type d’objet source</strong>. Dans la zone <strong>Nom de l’objet source</strong>, cliquez sur l’objet à copier. Si vous laissez l’argument <strong>Type d’objet source</strong> vide, laissez également celui-ci vide. Si vous exécutez une macro contenant l’action <strong>CopierObjet</strong> dans une base de données bibliothèque, Access commence par rechercher un objet portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 </tbody>
 </table>
@@ -68,7 +66,7 @@ L'action **CopierObjet** possède les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-Vous devez entrer une valeur pour l'argument **Base de données de destination** et/ou **Nouveau nom** pour cette action.
+Vous devez entrer une valeur pour l’argument **Base de données de destination** et/ou **Nouveau nom** pour cette action.
 
 Si vous laissez les arguments **Type d'objet source** et **Nom de l'objet source** vides, Access copie l'objet sélectionné dans le volet de navigation. Pour sélectionner un objet dans le volet de navigation, vous pouvez utiliser l'action **SélectionnerObjet** avec l'argument DansVoletDeNavigation défini sur **Oui**.
 

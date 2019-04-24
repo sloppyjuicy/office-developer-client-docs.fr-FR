@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c82c95a430da76694fe26300e877e86f86a2eb4b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295309"
 ---
 # <a name="cubedef-object-ado-md"></a>CubeDef, objet (ADO MD)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente un cube issu d'un schéma multidimensionnel, contenant un ensemble de dimensions connexes.
 
 ## <a name="remarks"></a>Remarques
 
-Avec les collections et propriétés d'un objet **CubeDef**, vous pouvez :
+Avec les collections et propriétés d'un objet **CubeDef**, vous pouvez :
 
   - Identifier un **CubeDef** à l'aide de la propriété [Name](name-property-ado-md.md).
 
@@ -48,11 +48,11 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nom de catalogue</p></td>
+<td><p>Nomcatalogue</p></td>
 <td><p>Le nom du catalogue auquel ce cube appartient.</p></td>
 </tr>
 <tr class="even">
-<td><p>Créé</p></td>
+<td><p>Created</p></td>
 <td><p>Date et heure de création du cube.</p></td>
 </tr>
 <tr class="odd">
@@ -60,7 +60,7 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 <td><p>GUID du cube.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nom du cube</p></td>
+<td><p>CubeName</p></td>
 <td><p>Le nom du cube.</p></td>
 </tr>
 <tr class="odd">

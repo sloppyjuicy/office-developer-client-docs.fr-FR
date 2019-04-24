@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.ValidationRule (DAO)
+title: Field2. ValidationRule, propriété (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: 5464d2de-f3d7-5d6b-4fc5-66df6a5540cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194105(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b6e9e50148f4b87a957ff2317b1b39522d7d4e1c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292649"
 ---
-# <a name="field2validationrule-property-dao"></a>Propriété Field2.ValidationRule (DAO)
+# <a name="field2validationrule-property-dao"></a>Field2. ValidationRule, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui valide les données d'un champ pendant sa modification ou son ajout à une table (espaces de travail Microsoft Access uniquement). Valeur **String** en lecture-écriture.
+Définit ou renvoie une valeur qui valide les données d'un champ lorsque ce dernier est modifié ou ajouté à une table (espaces de travail Microsoft Access uniquement). Valeur **String** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ValidationRule (ValideSi)
+*expression* . ValidationRule
 
 *expression* Expression qui renvoie un objet **Field2** .
 
@@ -61,22 +61,22 @@ Pour un objet **Field2**, l'utilisation de la propriété **ValidationRule** dé
 </tr>
 <tr class="even">
 <td><p><strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p>En lecture-écriture.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-La validation n'est prise en charge que par les bases de données qui utilisent le moteur de base de données Microsoft Access.
+La validation est prise en charge uniquement pour les bases de données utilisant le moteur de base de données Microsoft Access.
 
 L'expression de chaîne spécifiée par la propriété **ValidationRule** d'un objet **Field2** peut se référer uniquement à ce champ **Field2**. Elle ne peut pas se référer aux fonctions personnalisées, aux fonctions agrégées SQL ou aux requêtes. Pour définir la propriété **ValidationRule** d'un objet **Field2** lorsque son paramètre de propriété **ValidateOnSet** est **True**, l'expression doit analyser avec succès (avec le nom du champ comme opérande implicite) et évaluer à **True**. Si son paramètre de propriété **ValidateOnSet** est **False**, le paramètre de propriété **ValidationRule** est ignoré.
 
 
 > [!NOTE]
-> Si vous définissez la propriété une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strRule = « prix &gt; » &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque votre code tente de valider des données. En effet, pendant la concaténation, le nombre est converti en une chaîne qui utilise le caractère décimal par défaut de votre système ; Microsoft Access SQL n'accepte que les caractères décimaux de l'anglais (États-Unis).
+> Si vous définissez la propriété sur une chaîne concaténée avec une valeur non entière et que les paramètres système spécifient un caractère non-U. S. Decimal tel qu'une virgule (par exemple, strRule = "Price &gt; " &amp; lngPrice et lngPrice = 125, 50), une erreur se produit lorsque votre code tente de valider des données. Ceci parce que pendant la concaténation, le nombre est converti en une chaîne à l'aide du caractère décimal par défaut de votre système et le moteur de base de données SQL Microsoft Access n'accepte que les caractères décimaux US.
 
 

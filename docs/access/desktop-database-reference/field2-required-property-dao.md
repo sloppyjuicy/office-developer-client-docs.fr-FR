@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.Required (DAO)
+title: Field2. Required, propriété (DAO)
 TOCTitle: Required Property
 ms:assetid: 7d14dfd7-a50d-6044-469e-1511c74c148d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6b1950c8a864fbf23bee26be89e07e49357840b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292719"
 ---
-# <a name="field2required-property-dao"></a>Propriété Field2.Required (DAO)
+# <a name="field2required-property-dao"></a>Field2. Required, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 Définit ou renvoie une valeur qui indique si un objet **Field2** requiert une valeur non nulle.
@@ -47,23 +47,23 @@ La disponibilité de la propriété **Required** dépend de l'objet contenant la
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							objet <strong>Index</strong></p></td>
+<td><p>objet <strong>Index</strong></p></td>
 <td><p>Non pris en charge</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>QueryDef</strong></p></td>
+<td><p>objet <strong>QueryDef</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p>							objet <strong>Recordset</strong></p></td>
+<td><p>objet <strong>Recordset</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="even">
-<td><p>							objet <strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>objet <strong>Relation</strong></p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
-<td><p>							objet <strong>TableDef</strong></p></td>
+<td><p>objet <strong>TableDef</strong></p></td>
 <td><p>En lecture-écriture.</p></td>
 </tr>
 </tbody>

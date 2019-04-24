@@ -1,5 +1,5 @@
 ---
-title: Collection Recordsets (DAO)
+title: Recordsets, collection (DAO)
 TOCTitle: Recordsets Collection
 ms:assetid: 246d9a78-4ce8-6393-982b-77ac00cd85bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191819(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b935e05264497c7ad09ada4a8c50c775845857b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309302"
 ---
-# <a name="recordsets-collection-dao"></a>Collection Recordsets (DAO)
+# <a name="recordsets-collection-dao"></a>Recordsets, collection (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une collection **Recordsets** contient tous les objets **Recordset** ouverts, dans un objet **Connection** ou **Database**.
 
@@ -32,9 +32,9 @@ Pour faire référence à un objet **Recordset** dans une collection par son num
 
 - **Recordsets**(0)
 
-- **Jeux d’enregistrements** (« nom »)
+- **Jeux d'enregistrements** ("nom")
 
-- **Jeux d’enregistrements**\!\[nom\]
+- **Nom des jeux d'enregistrements**\!\[\]
 
 > [!NOTE]
 > [!REMARQUE] Vous pouvez ouvrir plusieurs fois un objet **Recordset** à partir de la même source de données ou base de données en créant des noms en double dans la collection **Recordsets**. Vous devez attribuer des objets **Recordset** à des variables d'objet et y faire référence par nom de variable.

@@ -1,5 +1,5 @@
 ---
-title: Propriété Relation.Table (DAO)
+title: Relation. table, propriété (DAO)
 TOCTitle: Table Property
 ms:assetid: cc4f64ef-c4e9-1a14-9263-5f8220d89840
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834423(v=office.15)
@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 91a3262d92350618c2385013983020669b28ea5c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306992"
 ---
-# <a name="relationtable-property-dao"></a>Propriété Relation.Table (DAO)
+# <a name="relationtable-property-dao"></a>Relation. table, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le nom d'une table primaire d'un objet **[Relation](relation-object-dao.md)**. Ce nom doit correspondre à la valeur de la propriété **[Name](connection-name-property-dao.md)** d'un objet **[TableDef](tabledef-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)** (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Tableau
+*expression* . Tabulaire
 
-*expression* Variable qui représente un objet **Relation** .
+*expression* Variable qui représente un objet **relation** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -43,7 +43,7 @@ Dans ce cas, la table ValidParts est la table primaire, de sorte que la proprié
 
 ## <a name="example"></a>Exemple
 
-Cet exemple montre comment les propriétés **Table**, **ForeignTable** et **ForeignName** définissent les termes d'une **Relation** entre deux tables.
+Cet exemple montre comment les propriétés **Table**, **ForeignTable** et **ForeignName** définissent les termes d’une **Relation** entre deux tables.
 
 ```vb
     Sub ForeignNameX() 

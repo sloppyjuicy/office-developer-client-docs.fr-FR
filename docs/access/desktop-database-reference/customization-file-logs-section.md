@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3a9af5d09a7a7a7a7ec97d757d502efbf2402900
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295148"
 ---
 # <a name="customization-file-logs-section"></a>Section des journaux du fichier de personnalisation
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 La section **logs** contient une entrée de fichier journal qui indique le nom du fichier qui enregistre les erreurs au cours du fonctionnement de l'objet **DataFactory**.
 
@@ -35,7 +35,7 @@ Une entrée de fichier journal a la forme suivante :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Partie</p></th>
+<th><p>Élément</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

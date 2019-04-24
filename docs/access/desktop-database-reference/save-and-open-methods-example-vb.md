@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2e4eff3eae32cf4d910a44eca5a733ac044a7829
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308980"
 ---
 # <a name="save-and-open-methods-example-vb"></a>Save et Open, méthodes – Exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Ces trois exemples montrent comment utiliser conjointement les méthodes [Save](save-method-ado.md) et [Open](open-method-ado-recordset.md).
 
@@ -83,7 +83,7 @@ End Sub
 
 <br/>
 
-À ce stade, vous êtes arrivé à destination. Vous accédez à la table ***Authors*** **Recordset**déconnecté, local. Le fournisseur **MSPersist** doit être installé sur l’ordinateur que vous utilisez pour accéder au fichier enregistré, r :\\Pubs.xml.
+À ce stade, vous êtes arrivé à destination. Accédez à la table ***Authors*** en tant qu’objet **Recordset** local, déconnecté. N'oubliez pas que vous devez avoir le fournisseur **MSPersist** sur l'ordinateur que vous utilisez pour accéder au fichier enregistré, a:\\pubs. Xml.
 
 ```vb 
  
@@ -133,7 +133,7 @@ End Sub
 
 <br/>
 
-Enfin, vous êtes de retour et vous mettez à présent la base de données à jour avec vos modifications.
+Enfin, vous revenez à Home. Maintenant, mettez à jour la base de données avec vos modifications.
 
 ```vb 
  

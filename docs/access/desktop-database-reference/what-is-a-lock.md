@@ -1,5 +1,5 @@
 ---
-title: Définition d'un verrou (Référence de base de données du bureau access)
+title: Définition d'un verrou (Référence de base de données de bureau Access)
 TOCTitle: What is a Lock?
 ms:assetid: 9ddc3198-1531-1d8f-153d-fc79847e388a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5e503fd15d9864cc6ab007de031493e321622246
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306761"
 ---
 # <a name="what-is-a-lock"></a>Qu’est-ce qu’un verrou ?
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le verrouillage est le processus par lequel un SGBD limite l'accès à une ligne dans un environnement multi-utilisateur. Lorsqu'une ligne ou une colonne est verrouillée en mode exclusif, les autres utilisateurs ne sont pas autorisés à accéder aux données avant que le verrou soit libéré. Il s'agit d'une procédure de sécurité qui permet d'éviter la mise à jour simultanée de la même colonne d'une ligne par deux utilisateurs.
 
@@ -33,7 +33,7 @@ Le paramètre **adLockPessimistic** n'est pas pris en charge si la propriété [
 
 La propriété **LockType** est accessible en lecture/écriture lorsque l'objet **Recordset** est fermé, et en lecture seule lorsqu'il est ouvert.
 
-Cette section comprend les rubriques suivantes :
+Cette section comprend les rubriques suivantes:
 
 - [Types de verrous](types-of-locks.md)
 

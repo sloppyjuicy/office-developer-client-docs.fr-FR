@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e0aafaa1f7f49d34d647ec0f733e68de21cb5369
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292012"
 ---
-# <a name="hierarchical-recordsets-in-xml"></a>Jeux d'enregistrements hiérarchiques dans XML
+# <a name="hierarchical-recordsets-in-xml"></a>Recordsets hiérarchiques au format XML
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-## <a name="hierarchical-recordsets-in-xml"></a>Recordsets hiérarchiques au format XML
+## <a name="hierarchical-recordsets-in-xml"></a>Jeux d'enregistrements hiérarchiques dans XML
 
-ADO autorise la persistance des objets **Recordset** hiérarchiques au format XML. Avec les objets **Recordset** hiérarchiques, la valeur d’un champ dans **l’objet Recordset** parent est un autre **jeu d’enregistrements**. Ces champs sont représentées comme éléments enfants dans le flux XML plutôt qu’un attribut. L’exemple suivant illustre ce cas :
+ADO allows persistence of hierarchical **Recordset** objects into XML. With hierarchical **Recordset** objects, the value of a field in the parent **Recordset** is another **Recordset**. Such fields are represented as child elements in the XML stream rather than an attribute. The following example demonstrates this case:
 
 ```vb 
  
@@ -123,5 +123,5 @@ Lorsque vous rouvrez un **jeu d'enregistrements** à partir de son format de per
 
   - Si l'enregistrement enfant contient des enregistrements n'ayant pas d'enregistrements parents associés, les lignes correspondantes n'apparaissent pas dans la représentation XML du **jeu d'enregistrements** hiérarchique. Par conséquent, ces lignes sont perdues lorsque le **jeu d'enregistrements** est réouvert à partir de son emplacement de persistance.
 
-  - Si un enregistrement enfant est lié à plusieurs enregistrements parent, puis rouvrez le **jeu d’enregistrements**, **l’objet Recordset** enfant peut contenir les enregistrements en double. Toutefois, ces doublons ne seront visibles que si l’utilisateur travaille directement avec l’ensemble de lignes enfant sous-jacent. Si un chapitre est utilisé pour parcourir le **jeu d’enregistrements** (c’est le seul moyen pour naviguer dans ADO) enfant, les doublons ne sont pas visibles.
+  - If a child record has references to more than one parent record, then on reopening the **Recordset**, the child **Recordset** may contain duplicate records. However, these duplicates will only be visible if the user works directly with the underlying child rowset. If a chapter is used to navigate the child **Recordset** (that is the only way to navigate through ADO), the duplicates are not visible.
 

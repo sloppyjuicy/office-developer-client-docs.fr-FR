@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset2.Restartable (DAO)
+title: Recordset2. Restartable, propriété (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 9b1c40f8-5a33-2527-a7b6-bef4cb991d7e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198019(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 873911ff8475a0b37f3f67d9cb2c01afc577487d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309085"
 ---
-# <a name="recordset2restartable-property-dao"></a>Propriété Recordset2.Restartable (DAO)
+# <a name="recordset2restartable-property-dao"></a>Recordset2. Restartable, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Renvoie une valeur indiquant si un objet **[Recordset](recordset-object-dao.md)** prend en charge la méthode **[Requery](recordset2-requery-method-dao.md)**, laquelle réexécute la requête sur laquelle l'objet **Recordset** est basé.
 

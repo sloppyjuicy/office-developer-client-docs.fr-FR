@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 735e72e8ed4f06c887ff790209529787e38142a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306439"
 ---
 # <a name="sortorder-property-adox"></a>SortOrder, propriété (ADOX)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie la séquence de tri pour la colonne (colonnes d'index uniquement).
 
@@ -25,7 +25,7 @@ Spécifie la séquence de tri pour la colonne (colonnes d'index uniquement).
 
 Définit et renvoie une valeur de type **Long** qui peut correspondre à l'une des constantes [SortOrderEnum](sortorderenum.md). La valeur par défaut est **adSortAscending**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété s'applique uniquement aux objets [Column](column-object-adox.md)de la collection [Columns](columns-collection-adox.md) d'un objet [Index](index-object-adox.md).
+Cette propriété s’applique uniquement aux objets [Column](column-object-adox.md)de la collection [Columns](columns-collection-adox.md) d’un objet [Index](index-object-adox.md).
 

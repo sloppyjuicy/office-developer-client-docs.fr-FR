@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 92983163a909e72c3da142ebcf63b7e0723e96af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308266"
 ---
 # <a name="writetext-method-ado"></a>WriteText, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Écrit une chaîne de texte spécifiée dans un objet [Stream](stream-object-ado.md).
 
 ## <a name="syntax"></a>Syntaxe
 
-*Flux de données*. WriteText les*données*, *Options*
+*Stream*. *Données*WRITETEXT, *options*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
-|*Données* |Valeur de type **String** contenant les caractères du texte à écrire.|
+|*Data* |Valeur de type **String** contenant les caractères du texte à écrire.|
 |*Options* |Facultatif. Valeur [StreamWriteEnum](streamwriteenum.md) spécifiant si un séparateur de ligne doit être écrit à la fin de la chaîne spécifiée.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les chaînes spécifiées sont écrites dans l'objet **Stream** sans espace ou caractère inséré entre chaque chaîne.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.Type (DAO)
+title: Recordset. type, propriété (DAO)
 TOCTitle: Type Property
 ms:assetid: d841b088-50bf-16d9-33e0-2140050e1ac6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835080(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4a55af8aaa5cfb3d87e13125871a6ccbe1e7f2dd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307552"
 ---
-# <a name="recordsettype-property-dao"></a>Propriété Recordset.Type (DAO)
+# <a name="recordsettype-property-dao"></a>Recordset. type, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type de données **Integer** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Type
+*expression* . Entrer
 
 *expression* Variable qui représente un objet **Recordset** .
 
@@ -54,7 +54,7 @@ Pour un objet **Recordset**, les paramètres et valeurs de retour possibles sont
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenDynaset</strong></p></td>
-<td><p>Feuille de réponse dynamique</p></td>
+<td><p>Jeu</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbOpenSnapshot</strong></p></td>

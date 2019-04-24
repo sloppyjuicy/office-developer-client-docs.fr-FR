@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ecaf77765051a202925449d0221f0a68a2a06622
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295155"
 ---
 # <a name="customization-file-userlist-section"></a>Section UserList du fichier de personnalisation
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-La section **userlist** se rapporte à la section **se connecter** avec le même paramètre *identificateur* de section.
+La section **userlist** est liée à la section **connect** avec le même paramètre *identificateur* de section.
 
-Cette section peut contenir une *entrée d’accès utilisateur*, qui spécifie les droits d’accès pour l’utilisateur spécifié et remplace *valeur par défaut* *entrée d’accès* dans la section **connect** correspondante.
+Cette section peut contenir une *entrée d'accès utilisateur*, qui spécifie les droits d'accès pour l'utilisateur spécifié et remplace l' *entrée d'accès* *par défaut* dans la section **Connect** correspondante.
 
 ## <a name="syntax"></a>Syntaxe
 
-Une entrée d'accès utilisateur a la forme suivante :
+Une entrée d'accès utilisateur a la forme suivante :
 
-*userName *** =* accessRights ***
+*nom d'utilisateur * * * =* AccessRights * * *
 
 <table>
 <colgroup>
@@ -47,8 +47,7 @@ Une entrée d'accès utilisateur a la forme suivante :
 </tr>
 <tr class="even">
 <td><p><strong><em>accessRights</em></strong></p></td>
-<td><p>Un des droits d'accès suivants :
-<br />
+<td><p>Un des droits d'accès suivants :<br />
 </p>
 <ul>
 <li><p><strong>NoAccess</strong>  : l'utilisateur ne peut pas accéder à la source de données.</p></li>

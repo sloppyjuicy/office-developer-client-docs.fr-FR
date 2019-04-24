@@ -1,5 +1,5 @@
 ---
-title: Propriétés de l’espace de travail (DAO)
+title: Propriétés de l'espace de travail (DAO)
 TOCTitle: Properties
 ms:assetid: 5b18557d-5531-4149-b773-89fa58cf73ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124967(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 45cb25f66e46bba5040daab978511209b9e6a4bd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305907"
 ---
-# <a name="workspace-properties-dao"></a>Propriétés de l’espace de travail (DAO)
+# <a name="workspace-properties-dao"></a>Propriétés de l'espace de travail (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Propriété Workspace.Connections (DAO)](workspace-connections-property-dao.md)
-- [Propriété Workspace.Databases (DAO)](workspace-databases-property-dao.md)
-- [Propriété Workspace.DefaultCursorDriver (DAO)](workspace-defaultcursordriver-property-dao.md)
-- [Propriété Workspace.IsolateODBCTrans (DAO)](workspace-isolateodbctrans-property-dao.md)
-- [Propriété Workspace.LoginTimeout (DAO)](workspace-logintimeout-property-dao.md)
+- [Propriété Workspace. Connections (DAO)](workspace-connections-property-dao.md)
+- [Workspace. databases, propriété (DAO)](workspace-databases-property-dao.md)
+- [Workspace. DefaultCursorDriver, propriété (DAO)](workspace-defaultcursordriver-property-dao.md)
+- [Propriété Workspace. IsolateODBCTrans, (DAO)](workspace-isolateodbctrans-property-dao.md)
+- [Propriété Workspace. LoginTimeout (DAO)](workspace-logintimeout-property-dao.md)
 - [Propriété Workspace.Name (DAO)](workspace-name-property-dao.md)
-- [Propriété Workspace.Properties (DAO)](workspace-properties-property-dao.md)
-- [Propriété Workspace.Type (DAO)](workspace-type-property-dao.md)
+- [Workspace. Properties, propriété (DAO)](workspace-properties-property-dao.md)
+- [Workspace. type, propriété (DAO)](workspace-type-property-dao.md)
 
 

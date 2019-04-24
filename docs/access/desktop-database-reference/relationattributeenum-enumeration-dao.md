@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbb8ca2e1a63154f17bd814a26fe79ed405765cb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306978"
 ---
 # <a name="relationattributeenum-enumeration-dao"></a>RelationAttributeEnum, énumération (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cette énumération est utilisée avec la propriété **Attributes** (Attributs) pour déterminer les attributs d'un objet **Relation**.
 
@@ -41,8 +41,8 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 <td><p>Suppressions en cascade</p></td>
 </tr>
 <tr class="even">
-<td><p>valeur dbRelationDontEnforce</p></td>
-<td><p>2</p></td>
+<td><p>Valeur dbRelationDontEnforce</p></td>
+<td><p>n°2</p></td>
 <td><p>Relation non appliquée (aucune intégrité référentielle)</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +62,7 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 </tr>
 <tr class="even">
 <td><p>dbRelationUnique</p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Relation un-à-un</p></td>
 </tr>
 <tr class="odd">

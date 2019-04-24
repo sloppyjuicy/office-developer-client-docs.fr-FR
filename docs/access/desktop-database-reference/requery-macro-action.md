@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8b90af8d1cda073ffa37022bb5db5e8cf8e3b978
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306705"
 ---
 # <a name="requery-macro-action"></a>Requery, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **Actualiser** pour mettre à jour les données d'un contrôle spécifié de l'objet actif en actualisant la source du contrôle. Si aucun contrôle n'est spécifié, cette action actualise la source de l'objet lui-même. Utilisez cette action pour garantir que l'objet actif ou l'un de ses contrôles affiche les données les plus récentes.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **Actualiser** accepte l'argument suivant.
+L’action **Actualiser** accepte l’argument suivant.
 
 <table>
 <colgroup>
@@ -41,16 +41,16 @@ L'action **Actualiser** accepte l'argument suivant.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Nom du contrôle</strong> :</p></td>
+<td><p><strong>Nom du contrôle</strong></p></td>
 <td><p>Nom du contrôle à mettre à jour. Entrez le nom du contrôle dans la zone <strong>Nom contrôle</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Vous devez utiliser uniquement le nom du contrôle, et non son identificateur complet, par exemple <strong>Formulaires</strong>!<em>nomformulaire</em>!<em>nomcontrôle</em>). Laissez cet argument vide pour actualiser la source de l’objet actif. Si l’objet actif est une feuille de données ou le jeu de résultats d’une requête, vous devez laisser cet argument vide.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L'action **Actualiser** effectue l'une des actions suivantes :
+L’action **Actualiser** effectue l’une des actions suivantes :
 
 - Réexécute la requête sur laquelle est basé le contrôle ou l'objet.
 
@@ -61,9 +61,9 @@ L'action **Actualiser** effectue l'une des actions suivantes :
 
 Les contrôles basés sur une requête ou une table comprennent :
 
-- des zones de liste et des zones de liste déroulante ;
+- zones de liste et zones de liste modifiable ;
 
-- des contrôles sous-formulaires ;
+- contrôles de sous-formulaire ;
 
 - des objets OLE, tels que des graphiques ;
 
@@ -76,5 +76,5 @@ Si vous laissez l'argument **Nom du contrôle** vide, l'action **Actualiser** é
 > [!NOTE]
 > [!REMARQUE] L'action **Actualiser** actualise la source du contrôle ou de l'objet. En revanche, l'action **Redessiner** redessine les contrôles dans l'objet spécifié mais n'actualise pas la base de données et n'affiche pas les nouveaux enregistrements. L'action **AfficherTousEnreg** actualise non seulement l'objet actif mais supprime également tous les filtres appliqués, ce que ne fait pas l'action **Actualiser**.
 
-Pour actualiser un contrôle qui ne figure pas dans l'objet actif, vous devez utiliser la méthode **Requery** dans un module Visual Basic pour Applications (VBA), et non l'action **Actualiser** ou sa méthode **Requery** correspondante de l'objet **DoCmd**. La méthode **Requery** dans VBA est plus rapide que l'action **Actualiser** ou la méthode **DoCmd.Requery**. En outre, lorsque vous utilisez l'action **Actualiser** ou la méthode **DoCmd.Requery**, Microsoft Access ferme la requête et la recharge à partir de la base de données tandis qu'avec la méthode **Requery**, réexécute la requête sans la fermer ni la charger. Notez que l’objet de données ActiveX (ADO) **Actualiser** la méthode fonctionne de la même façon que la méthode **Requery** d’Access.
+Pour actualiser un contrôle qui ne figure pas dans l'objet actif, vous devez utiliser la méthode **Requery** dans un module Visual Basic pour Applications (VBA), et non l'action **Actualiser** ou sa méthode **Requery** correspondante de l'objet **DoCmd**. La méthode **Requery** dans VBA est plus rapide que l'action **Actualiser** ou la méthode **DoCmd.Requery**. En outre, lorsque vous utilisez l'action **Actualiser** ou la méthode **DoCmd.Requery**, Microsoft Access ferme la requête et la recharge à partir de la base de données tandis qu'avec la méthode **Requery**, réexécute la requête sans la fermer ni la charger. Notez que la méthode Requery ADO (ActiveX **** Data Object) fonctionne de la même manière que la méthode reQuery d'Access. ****
 

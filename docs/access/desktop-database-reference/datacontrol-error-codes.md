@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 387f37e180d346c09cf3dadbf66f665cb83dbd0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294543"
 ---
 # <a name="datacontrol-error-codes"></a>Codes d’erreur DataControl
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Le tableau suivant répertorie les codes d'erreur de l'objet [RDS.DataControl](datacontrol-object-rds.md). Il affiche la traduction décimale positive des deux octets bas, la traduction décimale négative du code d'erreur complet et les valeurs hexadécimales.
+Le tableau suivant répertorie les codes d’erreur de l’objet [RDS.DataControl](datacontrol-object-rds.md). Il affiche la traduction décimale positive des deux octets bas, la traduction décimale négative du code d’erreur complet et les valeurs hexadécimales.
 
 <table>
 <colgroup>
@@ -30,7 +30,7 @@ Le tableau suivant répertorie les codes d'erreur de l'objet [RDS.DataControl](d
 <thead>
 <tr class="header">
 <th><p>Erreurs RDS.DataControl</p></th>
-<th><p>Code</p></th>
+<th><p>Nombre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -82,14 +82,14 @@ Le tableau suivant répertorie les codes d'erreur de l'objet [RDS.DataControl](d
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>Cette page accède aux données sur un autre domaine. Vous souhaitez autoriser cela ? Pour éviter ce message dans Internet Explorer, vous pouvez ajouter un site Web sécurisé à la zone Sites de confiance sur l’onglet <strong>sécurité</strong> de la boîte de dialogue <strong>Options Internet</strong> .</p></td>
+<td><p>Cette page utilise des données situées dans un autre domaine. Voulez-vous continuer ? Pour éviter ce message dans Internet Explorer, vous pouvez ajouter un site Web sécurisé à votre zone sites de confiance sous l'onglet <strong>sécurité</strong> de la boîte de dialogue <strong>Options Internet</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>
 <td><p>4106<br />
 -2146824176<br />
 0x800A1010</p></td>
-<td><p>Version du Client RDS non valide — Le Client est plus récente que celle du serveur.</p></td>
+<td><p>Version du client RDS non valide — le client est plus récent que le serveur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_INVALIDARG</strong></p></td>

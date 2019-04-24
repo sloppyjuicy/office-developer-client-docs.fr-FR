@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9612c0713a86ed6ad34a5eff61e45efcddf6cf24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293664"
 ---
 # <a name="driverpromptenum-enumeration-dao"></a>DriverPromptEnum, énumération (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie si le système doit demander à l'utilisateur d'établir une connexion et à quel moment cette demande doit avoir lieu.
 
@@ -47,12 +47,12 @@ Spécifie si le système doit demander à l'utilisateur d'établir une connexion
 </tr>
 <tr class="odd">
 <td><p>dbDriverNoPrompt</p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Le gestionnaire de pilotes utilise la chaîne de connexion fournie dans Connect. En l'absence d'informations détaillées, une erreur récupérable est renvoyée.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbDriverPrompt</p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Le gestionnaire de pilotes affiche la boîte de dialogue <strong>Sources de données ODBC</strong>. La chaîne de connexion utilisée pour établir la connexion est construite à partir du nom DSN sélectionné et fourni par l'utilisateur par le biais des boîtes de dialogue.</p></td>
 </tr>
 </tbody>

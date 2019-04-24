@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f51509b04fdbf09f30c82860ebb16f3e2298a57d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295890"
 ---
 # <a name="connection-methods-dao"></a>Méthodes de connexion (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Méthode Connection.Cancel (DAO)](connection-cancel-method-dao.md)
-- [Méthode Connection.Close, mais (DAO)](connection-close-method-dao.md)
-- [Méthode Connection.CreateQueryDef (DAO)](connection-createquerydef-method-dao.md)
-- [Méthode Connection.Execute (DAO)](connection-execute-method-dao.md)
-- [Méthode Connection.OpenRecordset (DAO)](connection-openrecordset-method-dao.md)
+- [Connection. Cancel, méthode (DAO)](connection-cancel-method-dao.md)
+- [Connection. Close, méthode (DAO)](connection-close-method-dao.md)
+- [Connection. CreateQueryDef, méthode (DAO)](connection-createquerydef-method-dao.md)
+- [Connection. Execute, méthode (DAO)](connection-execute-method-dao.md)
+- [Connection. OpenRecordset, méthode (DAO)](connection-openrecordset-method-dao.md)
 

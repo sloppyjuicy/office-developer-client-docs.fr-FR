@@ -1,5 +1,5 @@
 ---
-title: Instruction CREATE USER ou GROUP (Microsoft Access SQL)
+title: CREATe USER ou GROUP, instruction (Microsoft Access SQL)
 TOCTitle: CREATE USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5b294af16498778eae94b38a7a31b93fd029585e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295379"
 ---
-# <a name="create-user-or-group-statement-microsoft-access-sql"></a>Instruction CREATE USER ou GROUP (Microsoft Access SQL)
+# <a name="create-user-or-group-statement-microsoft-access-sql"></a>CREATe USER ou GROUP, instruction (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Crée un ou plusieurs nouveaux utilisateurs ou groupes.
 
@@ -24,11 +24,11 @@ Crée un ou plusieurs nouveaux utilisateurs ou groupes.
 
 ### <a name="create-a-user"></a>Créer un utilisateur
 
-CREATE USER *utilisateur* *le mot de passe identifiant personnel* \[, *utilisateur* *le mot de passe identifiant personnel*,...\]
+Create ** user *Password User PID* \[, *User* *Password PID*,...\]
 
 ### <a name="create-a-group"></a>Créer un groupe
 
-CREATE GROUP *groupe* *identifiant personnel*\[, *groupe* *identifiant personnel*,...\]
+Create ** Group Group *PID*\[, *Group* *PID*,...\]
 
 L'instruction CREATE USER ou GROUP est composée des arguments suivants :
 
@@ -39,7 +39,7 @@ L'instruction CREATE USER ou GROUP est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Élément</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -49,24 +49,24 @@ L'instruction CREATE USER ou GROUP est composée des arguments suivants :
 <td><p>Nom de l'utilisateur à ajouter au fichier d'informations du groupe de travail.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Groupe</em></p></td>
+<td><p><em>groupe</em></p></td>
 <td><p>Nom du groupe à ajouter au fichier d'informations du groupe de travail.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>mot de passe </em></p></td>
+<td><p><em>mot de passe</em></p></td>
 <td><p>Mot de passe à associer au nom de l'<em>utilisateur</em> spécifié.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>identifiant personnel</em></p></td>
+<td><p><em>pid</em></p></td>
 <td><p>Identifiant personnel.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Un *utilisateur* et un *groupe* ne peut pas avoir le même nom.
+Un *utilisateur* et un *groupe* ne peuvent pas avoir le même nom.
 
-Un *mot de passe* est requis pour chaque *utilisateur* ou le *groupe* qui est créé.
+Un *mot de passe* est requis pour chaque *utilisateur* ou *groupe* qui est créé.
 

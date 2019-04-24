@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 675dd1f671bd70d8272e303708bf951bbcee1a47
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295463"
 ---
 # <a name="count-property-example-vb"></a>Count, propriété – Exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [Count](count-property-ado.md) avec deux collections dans la base de données ***des employés*** . La propriété obtient le nombre d'objets de chaque collection et définit la limite supérieure pour les boucles qui énumèrent ces collections. Une autre manière pour énumérer ces collections sans utiliser la propriété **Count** consisterait à utiliser des instructions.
+Cet exemple illustre la propriété [Count](count-property-ado.md) avec deux collections dans la base de données ***Employee***. La propriété obtient le nombre d’objets de chaque collection et définit la limite supérieure pour les boucles qui énumèrent ces collections. Une autre façon d'énumérer ces collections sans utiliser la propriété **Count** serait d'utiliser des instructions.
 
 ```vb 
  

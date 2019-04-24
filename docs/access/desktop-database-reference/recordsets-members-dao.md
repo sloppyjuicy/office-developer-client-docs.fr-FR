@@ -1,5 +1,5 @@
 ---
-title: Membres de jeux d’enregistrements (DAO Data)
+title: Recordsets, membres (DAO)
 TOCTitle: Recordsets Members
 ms:assetid: 8df1994c-8142-d587-5b13-0fa7b14497e4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197366(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 154de04122d67c782b3ae0b4d9a084dadada97bc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309260"
 ---
-# <a name="recordsets-members-dao"></a>Membres de jeux d’enregistrements (DAO Data)
+# <a name="recordsets-members-dao"></a>Recordsets, membres (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une collection Recordsets contient tous les objets Recordset ouverts, dans un objet Connection ou Database.
 

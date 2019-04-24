@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b606960238e2f9a08d034ed92a79f7a767a1a5f7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306600"
 ---
 # <a name="reshape-name-dynamic-property-ado"></a>Reshape Name, propriété dynamique (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie un nom pour l'objet [Recordset](recordset-object-ado.md).
 
@@ -25,7 +25,7 @@ Spécifie un nom pour l'objet [Recordset](recordset-object-ado.md).
 
 Renvoie une valeur de type **String** qui représente le nom de l'objet **Recordset**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les noms persistent pendant la durée de la connexion ou jusqu'à la fermeture de l'objet **Recordset**.
 

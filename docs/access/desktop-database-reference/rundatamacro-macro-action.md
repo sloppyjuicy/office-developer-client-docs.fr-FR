@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 32945f0822682a9432d75ed1ac59117dde3cc0e9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306810"
 ---
 # <a name="rundatamacro-macro-action"></a>RunDataMacro, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l'action **ExécuterMacroDonnées** pour exécuter une macro de données nommée.
+Vous pouvez utiliser l’action **ExécuterMacroDonnées** pour exécuter une macro de données nommée.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **ExécuterMacroDonnées** utilise l'argument suivant.
+L’action **ExécuterMacroDonnées** utilise l’argument suivant.
 
 <table>
 <colgroup>
@@ -41,28 +41,28 @@ L'action **ExécuterMacroDonnées** utilise l'argument suivant.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p>Nom</p></td>
 <td><p>Nom de la macro de données à exécuter.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l’action **ExécuterMacroDonnées** dans les macros, nommé macros de données et les événements de macros suivants : **[événement de macro après suppression](after-delete-macro-event.md)**, **[événement de macro après insertion](after-insert-macro-event.md)** et **[événement de macro après la mise à jour](after-update-macro-event.md)**.
+Vous pouvez utiliser l'action **RunDataMacro** dans les macros, les macros de données nommées et les événements de macros suivants: **[après suppression](after-delete-macro-event.md)** de l'événement de macro, après l'événement macro **[Insérer](after-insert-macro-event.md)** un événement de macro et **[après Maj](after-update-macro-event.md)**.
 
-Le nom de la macro de données doit inclure la table à laquelle elle est attachée (par exemple **Comments.AddComment**, pas seulement **AddComment**).
+Le nom de la macro de données doit inclure le tableau auquel elle est attachée (par exemple, **comments.** AddComment, pas simplement AddComment). ****
 
-Lorsque vous sélectionnez la macro de données à exécuter dans le concepteur de macros, Access détermine si elle requiert des paramètres. Si la macro de données nécessite des paramètres, les zones de texte apparaissent dans laquelle vous pouvez taper dans les arguments.
+Lorsque vous sélectionnez la macro de données à exécuter dans le concepteur de macros, Access détermine si elle requiert des paramètres. Si la macro de données nécessite des paramètres, des zones de texte s'affichent à l'endroit où vous pouvez taper les arguments.
 
 Lorsque vous exécutez une macro qui contient l'action **ExécuterMacroDonnées** et qu'elle atteint l'action **ExécuterMacroDonnées**, Access exécute la macro de données appelée. Lorsque celle-ci a terminé de s'exécuter, Access retourne à la macro d'origine et exécute l'action suivante.
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment passer un paramètre à une macro de données nommée. La macro de données dmGetCurrentServiceRequest de la table tblServiceRequests est appelée à l’aide de l’action ExécuterMacroDonnées. Lorsque la dmGetCurrentServiceRequest est terminée, la variable CurrentServiceRequest renvoyé formulaire que la macro de données est écrit dans la zone de texte txtCurrentSR.
+L'exemple suivant montre comment transmettre un paramètre à une macro de données nommée. La macro de données dmGetCurrentServiceRequest de la table tblServiceRequests est appelée à l'aide de l'action RunDataMacro. Lorsque l'dmGetCurrentServiceRequest est terminé, la variable CurrentServiceRequest renvoyée est écrite dans la zone de texte txtCurrentSR.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     RunDataMacro

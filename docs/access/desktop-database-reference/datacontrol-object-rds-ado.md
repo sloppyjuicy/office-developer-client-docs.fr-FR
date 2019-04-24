@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 375b37aab73b7973f8d063cf3fe7bbc500d91054
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294525"
 ---
 # <a name="datacontrol-rds-ado"></a>DataControl (RDS) (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 - [DataControl, objet (RDS)](datacontrol-object-rds.md)
-- [DataControl propriétés, méthodes et événements (RDS)](datacontrol-properties-methods-and-events-rds.md)
+- [DataControl, propriétés, méthodes et événements (RDS)](datacontrol-properties-methods-and-events-rds.md)
 
