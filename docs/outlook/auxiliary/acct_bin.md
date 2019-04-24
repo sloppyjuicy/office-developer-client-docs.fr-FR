@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
 description: Une variable de ce type de données contient une valeur binaire.
-ms.openlocfilehash: 6816fd21a51b86bda97353034e959685f22ff176
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3dcaaf73a04ddc608e68ca7bd1f801d0a5d99bb6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316911"
 ---
-# <a name="acctbin"></a><span data-ttu-id="8f81e-103">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="8f81e-103">ACCT_BIN</span></span>
+# <a name="acctbin"></a><span data-ttu-id="83814-103">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="83814-103">ACCT_BIN</span></span>
 
-<span data-ttu-id="8f81e-104">Une variable de ce type de données contient une valeur binaire.</span><span class="sxs-lookup"><span data-stu-id="8f81e-104">A variable of this data type holds a binary value.</span></span>
+<span data-ttu-id="83814-104">Une variable de ce type de données contient une valeur binaire.</span><span class="sxs-lookup"><span data-stu-id="83814-104">A variable of this data type holds a binary value.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="8f81e-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="8f81e-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="83814-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="83814-105">Quick info</span></span>
 
 ```cpp
 typedef struct { 
@@ -28,14 +28,14 @@ typedef struct {
 
 ```
 
-## <a name="members"></a><span data-ttu-id="8f81e-106">Membres</span><span class="sxs-lookup"><span data-stu-id="8f81e-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="83814-106">Membres</span><span class="sxs-lookup"><span data-stu-id="83814-106">Members</span></span>
 
-<span data-ttu-id="8f81e-107">_cb_</span><span class="sxs-lookup"><span data-stu-id="8f81e-107">_cb_</span></span>
+<span data-ttu-id="83814-107">_cb_</span><span class="sxs-lookup"><span data-stu-id="83814-107">_cb_</span></span>
   
-> <span data-ttu-id="8f81e-108">Nombre d’octets qui _po_ pointe vers.</span><span class="sxs-lookup"><span data-stu-id="8f81e-108">Number of bytes that  _pb_ points to.</span></span> 
+> <span data-ttu-id="83814-108">Nombre d'octets vers lesquels pointe _PB_ .</span><span class="sxs-lookup"><span data-stu-id="83814-108">Number of bytes that  _pb_ points to.</span></span> 
     
-<span data-ttu-id="8f81e-109">_pb_</span><span class="sxs-lookup"><span data-stu-id="8f81e-109">_pb_</span></span>
+<span data-ttu-id="83814-109">_pb_</span><span class="sxs-lookup"><span data-stu-id="83814-109">_pb_</span></span>
   
-> <span data-ttu-id="8f81e-110">Pointeur vers les informations binaires.</span><span class="sxs-lookup"><span data-stu-id="8f81e-110">Pointer to binary information.</span></span>
+> <span data-ttu-id="83814-110">Pointeur vers des informations binaires.</span><span class="sxs-lookup"><span data-stu-id="83814-110">Pointer to binary information.</span></span>
     
 

@@ -7,48 +7,48 @@ ms.topic: reference
 f1_keywords:
 - HookExcelWindow
 keywords:
-- fonction hookexcelwindow [excel 2007]
+- fonction HookExcelWindow [Excel 2007]
 localization_priority: Normal
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 8965cc6b1e3d24001c42744f2ee7d447aa4c79b5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4103bf3a95388d20efeb74fcd736aeb5520d0845
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310828"
 ---
-# <a name="hookexcelwindow"></a><span data-ttu-id="0f1b2-104">HookExcelWindow</span><span class="sxs-lookup"><span data-stu-id="0f1b2-104">HookExcelWindow</span></span>
+# <a name="hookexcelwindow"></a><span data-ttu-id="5f176-104">HookExcelWindow</span><span class="sxs-lookup"><span data-stu-id="5f176-104">HookExcelWindow</span></span>
 
- <span data-ttu-id="0f1b2-105">**S’applique à**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="0f1b2-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="5f176-105">**S’applique à**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="5f176-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="0f1b2-106">Installe **ExcelCursorProc** afin qu’elle est appelée avant **WndProc**Microsoft Excel principale.</span><span class="sxs-lookup"><span data-stu-id="0f1b2-106">Installs **ExcelCursorProc** so that it is called before the Microsoft Excel main **WndProc**.</span></span>
+<span data-ttu-id="5f176-106">Installe **ExcelCursorProc** de sorte qu'elle soit appelée avant Microsoft Excel principal **WndProc**.</span><span class="sxs-lookup"><span data-stu-id="5f176-106">Installs **ExcelCursorProc** so that it is called before the Microsoft Excel main **WndProc**.</span></span>
   
 ```cs
 extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0f1b2-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="0f1b2-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5f176-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="5f176-107">Parameters</span></span>
 
- <span data-ttu-id="0f1b2-108">_hWndExcel_ (**Gérer**)</span><span class="sxs-lookup"><span data-stu-id="0f1b2-108">_hWndExcel_ (**HANDLE**)</span></span>
+ <span data-ttu-id="5f176-108">_hWndExcel_ (**Handle**)</span><span class="sxs-lookup"><span data-stu-id="5f176-108">_hWndExcel_ (**HANDLE**)</span></span>
   
-<span data-ttu-id="0f1b2-109">La fenêtre principale Excel gère.</span><span class="sxs-lookup"><span data-stu-id="0f1b2-109">The Excel main Windows handle.</span></span>
+<span data-ttu-id="5f176-109">Le descripteur Windows principal d'Excel.</span><span class="sxs-lookup"><span data-stu-id="5f176-109">The Excel main Windows handle.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="0f1b2-110">Propriété valeur/valeur de retour</span><span class="sxs-lookup"><span data-stu-id="0f1b2-110">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="5f176-110">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="5f176-110">Property value/Return value</span></span>
 
-<span data-ttu-id="0f1b2-111">La fonction ne retourne pas une valeur.</span><span class="sxs-lookup"><span data-stu-id="0f1b2-111">The function does not return a value.</span></span>
+<span data-ttu-id="5f176-111">La fonction ne renvoie pas de valeur.</span><span class="sxs-lookup"><span data-stu-id="5f176-111">The function does not return a value.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0f1b2-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="0f1b2-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5f176-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="5f176-112">Remarks</span></span>
 
-<span data-ttu-id="0f1b2-113">La fonction obtient l’adresse d' Excel **WndProc** **GetWindowLong()** grâce à l’utilisation.</span><span class="sxs-lookup"><span data-stu-id="0f1b2-113">The function obtains the address of the Excel **WndProc** through the use of **GetWindowLong()**.</span></span> <span data-ttu-id="0f1b2-114">Il stocke cette valeur dans global qui peut être utilisée pour appeler la valeur par défaut **WndProc** et également pour la restaurer.</span><span class="sxs-lookup"><span data-stu-id="0f1b2-114">It stores this value in a global that can be used to call the default **WndProc** and also to restore it.</span></span> <span data-ttu-id="0f1b2-115">Enfin, il remplace cette adresse avec l’adresse **ExcelCursorProc** à l’aide de **SetWindowLong()**.</span><span class="sxs-lookup"><span data-stu-id="0f1b2-115">Finally, it replaces this address with the address of **ExcelCursorProc** using **SetWindowLong()**.</span></span>
+<span data-ttu-id="5f176-113">La fonction obtient l'adresse d'Excel **WndProc** par le biais de l'utilisation de **GetWindowLong ()**.</span><span class="sxs-lookup"><span data-stu-id="5f176-113">The function obtains the address of the Excel **WndProc** through the use of **GetWindowLong()**.</span></span> <span data-ttu-id="5f176-114">Il stocke cette valeur dans un global qui peut être utilisé pour appeler la propriété **WndProc** par défaut et pour la restaurer.</span><span class="sxs-lookup"><span data-stu-id="5f176-114">It stores this value in a global that can be used to call the default **WndProc** and also to restore it.</span></span> <span data-ttu-id="5f176-115">Enfin, il remplace cette adresse par l'adresse de **ExcelCursorProc** à l'aide de **SetWindowLong ()**.</span><span class="sxs-lookup"><span data-stu-id="5f176-115">Finally, it replaces this address with the address of **ExcelCursorProc** using **SetWindowLong()**.</span></span>
   
-### <a name="example"></a><span data-ttu-id="0f1b2-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="0f1b2-116">Example</span></span>
+### <a name="example"></a><span data-ttu-id="5f176-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="5f176-116">Example</span></span>
 
-<span data-ttu-id="0f1b2-117">Voir `\SAMPLES\GENERIC\GENERIC.C` pour le code source pour cette fonction.</span><span class="sxs-lookup"><span data-stu-id="0f1b2-117">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
+<span data-ttu-id="5f176-117">Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction.</span><span class="sxs-lookup"><span data-stu-id="5f176-117">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="0f1b2-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0f1b2-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5f176-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5f176-118">See also</span></span>
 
 
 
-[<span data-ttu-id="0f1b2-119">Fonctions de la DLL générique</span><span class="sxs-lookup"><span data-stu-id="0f1b2-119">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
+[<span data-ttu-id="5f176-119">Fonctions dans le fichier DLL générique</span><span class="sxs-lookup"><span data-stu-id="5f176-119">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
 

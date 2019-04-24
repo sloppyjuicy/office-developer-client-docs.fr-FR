@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4664df83-cf81-36d4-189d-4a09be371638
-description: Une variable de ce type de données contienne la valeur de propriété, qui est un type de données variant.
-ms.openlocfilehash: c85af4bd4fefffb4fadf671bb7cf5b7f072d5e95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Une variable de ce type de données contient la valeur d'une propriété, qui est de type Variant.
+ms.openlocfilehash: 124cfaef40e63d60e2e9c6681884bfb57a043dde
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316918"
 ---
-# <a name="acctvariant"></a><span data-ttu-id="3000f-103">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="3000f-103">ACCT_VARIANT</span></span>
+# <a name="acctvariant"></a><span data-ttu-id="033f8-103">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="033f8-103">ACCT_VARIANT</span></span>
 
-<span data-ttu-id="3000f-104">Une variable de ce type de données contienne la valeur de propriété, qui est un type de données variant.</span><span class="sxs-lookup"><span data-stu-id="3000f-104">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>
+<span data-ttu-id="033f8-104">Une variable de ce type de données contient la valeur d'une propriété, qui est de type Variant.</span><span class="sxs-lookup"><span data-stu-id="033f8-104">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="3000f-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="3000f-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="033f8-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="033f8-105">Quick info</span></span>
 
 ```cpp
 typedef struct 
@@ -34,28 +34,28 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="3000f-106">Membres</span><span class="sxs-lookup"><span data-stu-id="3000f-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="033f8-106">Membres</span><span class="sxs-lookup"><span data-stu-id="033f8-106">Members</span></span>
 
-<span data-ttu-id="3000f-107">_dwType_</span><span class="sxs-lookup"><span data-stu-id="3000f-107">_dwType_</span></span>
+<span data-ttu-id="033f8-107">_dwType_</span><span class="sxs-lookup"><span data-stu-id="033f8-107">_dwType_</span></span>
   
-> <span data-ttu-id="3000f-108">Type de variante :</span><span class="sxs-lookup"><span data-stu-id="3000f-108">Type of variant:</span></span>
+> <span data-ttu-id="033f8-108">Type de variante:</span><span class="sxs-lookup"><span data-stu-id="033f8-108">Type of variant:</span></span>
     
-    - <span data-ttu-id="3000f-109">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="3000f-109">PT_LONG</span></span>
+    - <span data-ttu-id="033f8-109">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="033f8-109">PT_LONG</span></span>
     
-    - <span data-ttu-id="3000f-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="3000f-110">PT_UNICODE</span></span>
+    - <span data-ttu-id="033f8-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="033f8-110">PT_UNICODE</span></span>
     
-    - <span data-ttu-id="3000f-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="3000f-111">PT_BINARY</span></span>
+    - <span data-ttu-id="033f8-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="033f8-111">PT_BINARY</span></span>
     
-<span data-ttu-id="3000f-112">_Data Warehouse_</span><span class="sxs-lookup"><span data-stu-id="3000f-112">_dw_</span></span>
+<span data-ttu-id="033f8-112">_warehous_</span><span class="sxs-lookup"><span data-stu-id="033f8-112">_dw_</span></span>
   
-> <span data-ttu-id="3000f-113">Valeur DWORD de type variant.</span><span class="sxs-lookup"><span data-stu-id="3000f-113">DWORD value of variant.</span></span>
+> <span data-ttu-id="033f8-113">Valeur DWORD de variant.</span><span class="sxs-lookup"><span data-stu-id="033f8-113">DWORD value of variant.</span></span>
     
-<span data-ttu-id="3000f-114">_pwsz_</span><span class="sxs-lookup"><span data-stu-id="3000f-114">_pwsz_</span></span>
+<span data-ttu-id="033f8-114">_PWSZ_</span><span class="sxs-lookup"><span data-stu-id="033f8-114">_pwsz_</span></span>
   
-> <span data-ttu-id="3000f-115">Valeur de chaîne de type variant.</span><span class="sxs-lookup"><span data-stu-id="3000f-115">String value of variant.</span></span>
+> <span data-ttu-id="033f8-115">Valeur de chaîne variant.</span><span class="sxs-lookup"><span data-stu-id="033f8-115">String value of variant.</span></span>
     
-<span data-ttu-id="3000f-116">_Corbeille_</span><span class="sxs-lookup"><span data-stu-id="3000f-116">_bin_</span></span>
+<span data-ttu-id="033f8-116">_plateau_</span><span class="sxs-lookup"><span data-stu-id="033f8-116">_bin_</span></span>
   
-> <span data-ttu-id="3000f-117">Valeur binaire de la variante.</span><span class="sxs-lookup"><span data-stu-id="3000f-117">Binary value of the variant.</span></span>
+> <span data-ttu-id="033f8-117">Valeur binaire de la variante.</span><span class="sxs-lookup"><span data-stu-id="033f8-117">Binary value of the variant.</span></span>
     
 

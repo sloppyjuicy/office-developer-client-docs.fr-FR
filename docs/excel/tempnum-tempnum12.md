@@ -8,41 +8,41 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- fonction tempnum12 [excel 2007], fonction TempNum [Excel 2007]
+- fonction tempnum12 [Excel 2007], fonction TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 5ebe58dba32c2cf0382bf0811713eaa0a5471dda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cabd44ab828a2cfe22253e9aaf12abf7b7709d69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310359"
 ---
-# <a name="tempnumtempnum12"></a><span data-ttu-id="d3bb1-104">TempNum/TempNum12</span><span class="sxs-lookup"><span data-stu-id="d3bb1-104">TempNum/TempNum12</span></span>
+# <a name="tempnumtempnum12"></a><span data-ttu-id="5bb5d-104">TempNum/TempNum12</span><span class="sxs-lookup"><span data-stu-id="5bb5d-104">TempNum/TempNum12</span></span>
 
- <span data-ttu-id="d3bb1-105">**S’applique à**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d3bb1-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="5bb5d-105">**S’applique à**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="5bb5d-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="d3bb1-106">Fonction de bibliothèque Framework crée un temporaire **XLOPER**/ **XLOPER12** contenant un numéro de feuille de calcul Microsoft Excel (un double de 8 octets IEEE).</span><span class="sxs-lookup"><span data-stu-id="d3bb1-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** containing a Microsoft Excel worksheet number (an IEEE 8-byte double).</span></span> 
+<span data-ttu-id="5bb5d-106">Fonction de bibliothèque d'infrastructure qui crée une expression **XLOPER**/ \*\*\*\* temporaire contenant un numéro de feuille de calcul Microsoft Excel (un type IEEE de 8 octets).</span><span class="sxs-lookup"><span data-stu-id="5bb5d-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** containing a Microsoft Excel worksheet number (an IEEE 8-byte double).</span></span> 
   
 ```cs
 LPXLOPER TempNum(double d);
 LPXLOPER12 TempNum12(double d);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d3bb1-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="d3bb1-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5bb5d-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="5bb5d-107">Parameters</span></span>
 
- <span data-ttu-id="d3bb1-108">_d_ (**double**)</span><span class="sxs-lookup"><span data-stu-id="d3bb1-108">_d_ (**double**)</span></span>
+ <span data-ttu-id="5bb5d-108">_d_ (**double**)</span><span class="sxs-lookup"><span data-stu-id="5bb5d-108">_d_ (**double**)</span></span>
   
-<span data-ttu-id="d3bb1-109">La valeur attendue.</span><span class="sxs-lookup"><span data-stu-id="d3bb1-109">The intended value.</span></span> <span data-ttu-id="d3bb1-110">Notez que les numéros sous-fonctionnalités normales IEEE ne sont pas actuellement pris en charge et sont arrondies à zéro.</span><span class="sxs-lookup"><span data-stu-id="d3bb1-110">Note that IEEE sub-normal numbers are not currently supported and are rounded to zero.</span></span> <span data-ttu-id="d3bb1-111">L’infini négatif est pris en charge.</span><span class="sxs-lookup"><span data-stu-id="d3bb1-111">Negative infinity is supported.</span></span>
+<span data-ttu-id="5bb5d-109">Valeur prévue.</span><span class="sxs-lookup"><span data-stu-id="5bb5d-109">The intended value.</span></span> <span data-ttu-id="5bb5d-110">Notez que les numéros IEEE sous-normaux ne sont actuellement pas pris en charge et arrondis à zéro.</span><span class="sxs-lookup"><span data-stu-id="5bb5d-110">Note that IEEE sub-normal numbers are not currently supported and are rounded to zero.</span></span> <span data-ttu-id="5bb5d-111">L'infini négatif est pris en charge.</span><span class="sxs-lookup"><span data-stu-id="5bb5d-111">Negative infinity is supported.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="d3bb1-112">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="d3bb1-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5bb5d-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="5bb5d-112">Return value</span></span>
 
-<span data-ttu-id="d3bb1-113">Renvoie un numérique **xltypeNum** contenant la valeur passé ou zéro si la valeur passée était sous-fonctionnalités normale.</span><span class="sxs-lookup"><span data-stu-id="d3bb1-113">Returns a numeric **xltypeNum** containing the value passed in or zero if the passed in value was sub-normal.</span></span> 
+<span data-ttu-id="5bb5d-113">Renvoie un **xltypeNum** numérique contenant la valeur transmise ou zéro si la valeur passée est Sub-normal.</span><span class="sxs-lookup"><span data-stu-id="5bb5d-113">Returns a numeric **xltypeNum** containing the value passed in or zero if the passed in value was sub-normal.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="d3bb1-114">Exemple</span><span class="sxs-lookup"><span data-stu-id="d3bb1-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5bb5d-114">Exemple</span><span class="sxs-lookup"><span data-stu-id="5bb5d-114">Example</span></span>
 
-<span data-ttu-id="d3bb1-115">Cet exemple utilise la fonction **TempNum12** pour passer un argument à **xlfGetWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="d3bb1-115">This example uses the **TempNum12** function to pass an argument to **xlfGetWorkspace**.</span></span>
+<span data-ttu-id="5bb5d-115">Cet exemple utilise la fonction **TempNum12** pour transmettre un argument à **xlfGetWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="5bb5d-115">This example uses the **TempNum12** function to pass an argument to **xlfGetWorkspace**.</span></span>
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,9 +56,9 @@ short WINAPI TempNumExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="d3bb1-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d3bb1-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5bb5d-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5bb5d-116">See also</span></span>
 
 
 
-[<span data-ttu-id="d3bb1-117">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="d3bb1-117">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="5bb5d-117">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="5bb5d-117">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 
