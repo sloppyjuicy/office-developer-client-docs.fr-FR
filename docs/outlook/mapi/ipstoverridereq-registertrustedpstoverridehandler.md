@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a73c77c-7e32-4302-bffe-a1ea13574731
-description: 'Dernière modification : 24 février 2013'
+description: 'Dernière modification: 24 février 2013'
 ms.openlocfilehash: acc0986dd80b549b0cb2b941a6937d47a4a959fe
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279534"
 ---
 # <a name="ipstoverridereqregistertrustedpstoverridehandler"></a>IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler
 
  
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lance la procédure de déverrouillage pour un fichier de dossiers personnels (.pst).
+Lance la procédure de déverrouillage pour un fichier de dossiers personnels (. pst).
   
 ```cpp
 HRESULT RegisterTrustedPSTOverrideHandler (
@@ -39,29 +39,29 @@ HRESULT RegisterTrustedPSTOverrideHandler (
 
  _pwzDllPath_
   
-> [in] Pointeur vers le chemin d’accès d’une bibliothèque de liens dynamiques (DLL) tiers.
+> dans Pointeur vers le chemin d'accès d'une bibliothèque de liens dynamiques (DLL) tierce.
     
  _pvClientData_
   
-> [in] Pointeur vers les données clientes qui sont passés par le fournisseur PST dans les appels suivants à la fonction la DLL HrTrustedPSTOverrideHandlerCallback. Ces données client peuvent être utilisées par la DLL pour vous aider à vérifier si le fichier PST doit être déverrouillé.
+> dans Pointeur vers les données client, qui sera transmis par le fournisseur PST dans les appels ultérieurs à la fonction HrTrustedPSTOverrideHandlerCallback de la DLL. Ces données client peuvent être utilisées par la DLL pour vérifier si le fichier PST doit être déverrouillé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> L’appel de fonction a réussi.
+> L'appel de la fonction a réussi.
     
 ## <a name="remarks"></a>Remarques
 
-La DLL spécifiée par le paramètre wzDllPath doit être signée à l’aide d’un certificat numérique. La DLL doit également exporter une fonction avec la signature suivante.
+La DLL spécifiée par le paramètre wzDllPath doit être signée à l'aide d'un certificat numérique. La DLL doit également exporter une fonction avec la signature suivante.
   
 ```
 extern "C" HRESULT __cdecl HrTrustedPSTOverrideHandlerCallback(IMsgStore *pmstore, IUnknown *pOverride, LPVOID pvClientData)
 ```
 
-Cette fonction est appelée avec un pointeur vers l’objet IMsgStore pour le fichier PST, un pointeur vers un objet IUnknown qui implémente l’interface IPSTOVERRIDE1 et un pointeur vers les données fournies par le biais de pvClientData.
+Cette fonction est appelée avec un pointeur vers l'objet IMsgStore pour le fichier PST, un pointeur vers un objet IUnknown qui implémente l'interface IPSTOVERRIDE1 et un pointeur vers les données initialement fournies par le biais de pvClientData.
   
-Pour plus d’informations, voir [comment implémenter un gestionnaire de substitution PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
+Pour plus d'informations, reportez-vous à la rubrique [implémentation d'un gestionnaire de substitution PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>Voir aussi
 

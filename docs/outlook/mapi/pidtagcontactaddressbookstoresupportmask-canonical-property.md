@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 34f649c8-29bf-470f-9b05-31b69d069259
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7219a8936381c498e7b27898f5efae8e40697b59
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: fb40e2c191056fe164c6a06bfdcf4b8e3d6eb92c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283197"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmask-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreSupportMask
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtenue à partir de la banque stockant le dossier Contacts.
+Contient la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtenue à partir de la Banque qui contient le dossier contacts.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_SUPPORT_MASK  <br/> |
 |Identificateur :  <br/> |0x6611  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le fournisseur de carnet d’adresses de contacts utilise cette propriété pour évaluer l’adéquation des fonctionnalités prises en charge de la banque. Il s’agit d’une propriété sur un conteneur de carnet d’adresses de contacts et une colonne dans la table des conteneurs du carnet d’adresses de contacts.
+Le fournisseur de carnet d'adresses des contacts utilise cette propriété pour évaluer la pertinence des fonctionnalités prises en charge par la Banque. Il s'agit d'une propriété sur un conteneur de carnet d'adresses de contacts et d'une colonne dans la table des conteneurs du carnet d'adresses des contacts.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

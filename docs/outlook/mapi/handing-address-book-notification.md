@@ -1,5 +1,5 @@
 ---
-title: Notification de carnet d’adresse de remise
+title: Gestion des notifications du carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,34 +7,34 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b5428ccde0e16bd32408b2ea908f5c5522992fc9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 122e50328272a4009e5a129233d449613817dfc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299502"
 ---
-# <a name="handing-address-book-notification"></a>Notification de carnet d’adresse de remise
+# <a name="handing-address-book-notification"></a>Gestion des notifications du carnet d’adresses
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Notifications de carnet d’adresse permettent à un client d’événements qui se produisent sur une entrée de carnet d’adresse ou à une entrée particulière. Vous pouvez vous inscrire pour les notifications par le biais du carnet d’adresses MAPI en appelant [IAddrBook::Advise](iaddrbook-advise.md) ou hiérarchie d’un conteneur carnet d’adresses ou une table des matières en appelant [IMAPITable::Advise](imapitable-advise.md). 
+Les notifications de carnet d'adresses permettent à un client d'apprendre des événements qui se produisent à n'importe quelle entrée de carnet d'adresses ou à une entrée particulière. Vous pouvez vous inscrire pour ces notifications via le carnet d'adresses MAPI en appelant [IAddrBook:: Advise](iaddrbook-advise.md) ou par le biais de la table de hiérarchie ou de contenu du conteneur du carnet d'adresses en appelant la méthode [IMAPITable:: Advise](imapitable-advise.md). 
   
-Spécifier l’identificateur d’entrée d’un conteneur de carnet d’adresses, une liste de distribution ou un utilisateur de messagerie si vous vous inscrivez pour les notifications sur une entrée particulière et la valeur NULL si l’inscription des notifications dans le carnet d’adresses. L’identificateur d’entrée doit représenter un utilisateur de messagerie ou d’une liste de distribution dans un conteneur de carnet d’adresses. **IAddrBook::Advise** examine cet identificateur d’entrée pour déterminer quelle adresse fournisseur de carnet d’est responsable de l’objet correspondant et transfère l’appel à la méthode de [IABLogon::Advise](iablogon-advise.md) du fournisseur livre adresse appropriée. 
+Spécifiez l'identificateur d'entrée d'un conteneur de carnet d'adresses, d'une liste de distribution ou d'un utilisateur de messagerie si vous vous inscrivez pour des notifications sur une entrée particulière et si vous vous inscrivez pour des notifications sur l'ensemble du carnet d'adresses. L'identificateur d'entrée doit représenter un utilisateur de messagerie ou une liste de distribution dans un conteneur de carnet d'adresses. **IAddrBook:: Advise** examine cet identificateur d'entrée pour déterminer quel fournisseur de carnet d'adresses est responsable de l'objet correspondant et transfère l'appel à la méthode [IABLogon:: Advise](iablogon-advise.md) du fournisseur de carnet d'adresses approprié. 
   
-Les clients peuvent s’inscrire pour les types suivants d’événements sur les entrées de carnet d’adresses :
+Les clients peuvent s'inscrire aux types d'événements suivants sur les entrées du carnet d'adresses:
   
 - Erreur critique
     
-- Un des événements de l’objet (création, modifié, supprimé, déplacé ou copié)
+- Tous les événements d'objet (créés, modifiés, supprimés, déplacés ou copiés)
     
 - Table modifiée
     
-En règle générale, l’enregistrement se produit uniquement sur le contenu de conteneur du carnet d’adresses et les tables de hiérarchie. Il est rare que les clients s’inscrire avec l’objets de liste de distribution et d’utilisateurs de messagerie de niveau inférieur. Il s’agit, car :
+En règle générale, l'inscription se produit uniquement sur le contenu du conteneur du carnet d'adresses et les tables de hiérarchie. Il est rare que les clients s'inscrivent auprès de l'utilisateur de messagerie de niveau inférieur et les objets de liste de distribution. Cela est dû au fait que:
   
-- Plusieurs fournisseurs de carnet d’adresses n’acceptent pas les notifications dans leurs listes de distribution et les utilisateurs de messagerie.
+- De nombreux fournisseurs de carnets d'adresses ne prennent pas en charge les notifications sur leurs utilisateurs de messagerie et leurs listes de distribution.
     
-- Notifications de table sont suffisantes pour le suivi des modifications et les signaler aux utilisateurs.
+- Les notifications de table sont suffisantes pour suivre les modifications et les signaler aux utilisateurs.
     
 

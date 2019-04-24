@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 85d71b73-0630-4c5d-b0e3-b48d27a300d0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 0c72164cac8a37d0372ac93f4ed6d3face966ddb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 44e3613338c8932bc80dd1150392033dfa3cd050
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278735"
 ---
 # <a name="isequalmapiuid"></a>IsEqualMAPIUID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Teste deux structures [MAPIUID](mapiuid.md) pour déterminer s’ils contiennent le même identificateur. 
+Teste deux structures [MAPIUID](mapiuid.md) pour déterminer si elles contiennent le même identificateur. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**MAPIUID** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**MAPIUID** <br/> |
    
 ```cpp
 IsEqualMAPIUID(lpuid1, lpuid2)
@@ -40,17 +40,17 @@ IsEqualMAPIUID(lpuid1, lpuid2)
 
  _lpuid1_
   
-> Pointeur vers la structure **MAPIUID** premier à tester. 
+> Pointeur vers la première structure **MAPIUID** à tester. 
     
  _lpuid2_
   
-> Pointeur vers la structure **MAPIUID** deuxième à tester. 
+> Pointeur vers la deuxième structure **MAPIUID** à tester. 
     
 ## <a name="remarks"></a>Remarques
 
-La macro **IsEqualMAPIUID** renvoie la valeur TRUE si les deux structures **MAPIUID** contiennent les mêmes identificateur et FALSE si elles n’est pas. 
+La macro **IsEqualMAPIUID** renvoie true si les deux structures **MAPIUID** contiennent le même identificateur et false dans le cas contraire. 
   
-La macro **IsEqualMAPIUID** exige que le fichier d’en-tête Memory.h être inclus. 
+La macro **IsEqualMAPIUID** nécessite que le fichier d'en-tête Memory. h soit inclus. 
   
 ## <a name="see-also"></a>Voir aussi
 

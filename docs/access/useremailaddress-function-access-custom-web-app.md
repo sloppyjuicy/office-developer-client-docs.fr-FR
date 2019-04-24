@@ -1,25 +1,25 @@
 ---
-title: Fonction UserEmailAddress (accès personnalisé web app)
+title: Fonction UserEmailAddress (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 61342884-7a86-47c0-82a6-06de8076b7d0
-description: Renvoie l’adresse de messagerie de l’utilisateur actuel.
-ms.openlocfilehash: bce5c2521edf7325acdb2814c99a29af6793beba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie l'adresse de messagerie de l'utilisateur actuel.
+ms.openlocfilehash: 0baa68cb2f3dc44fc7f1059f570dc3bd4e69f820
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301686"
 ---
-# <a name="useremailaddress-function-access-custom-web-app"></a>Fonction UserEmailAddress (accès personnalisé web app)
+# <a name="useremailaddress-function-access-custom-web-app"></a>Fonction UserEmailAddress (application Web personnalisée Access)
 
-Renvoie l’adresse de messagerie de l’utilisateur actuel.
+Renvoie l'adresse de messagerie de l'utilisateur actuel.
   
 > [!NOTE]
-> La fonctionnalité de stockage dans le nuage décrite dans cet article n’est plus pris en charge dans Office 2013 et Office 2016 et peut entraîner l’erreur suivante : > *Désolé, nous avons des problèmes de serveur, afin que nous ne pouvons pas ajouter \<service\> maintenant. Réessayez ultérieurement.* > Pour le stockage en nuage pour Office Online, Office pour iOS et Office pour Android, vous pouvez rechercher dans notre [Programme de partenariat de stockage dans le nuage Office](https://dev.office.com/programs/officecloudstorage). 
+> La fonctionnalité de stockage cloud décrite dans cet article n’est plus prise en charge dans Office 2013 et Office 2016 et peut entraîner le message d’erreur suivant : > *Sorry, we’re having server problems, so we can’t add \<service\> right now. Please try again later.* (« Nous rencontrons actuellement des problèmes de serveur et nous sommes dans l’incapacité d’ajouter le service. Merci de réessayer ultérieurement. ») > En ce qui concerne le stockage cloud pour Office Online, Office pour iOS et Office pour Android, consultez notre [programme de partenariat de stockage cloud Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -27,6 +27,6 @@ Renvoie l’adresse de messagerie de l’utilisateur actuel.
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **UserEmailAddress** est disponible uniquement dans les macros de l’interface utilisateur. 
+La fonction **UserEmailAddress** est disponible uniquement dans les macros d'interface utilisateur (IU). 
   
 

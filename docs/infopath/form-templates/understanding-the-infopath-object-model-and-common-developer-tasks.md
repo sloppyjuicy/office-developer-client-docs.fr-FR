@@ -8,20 +8,20 @@ keywords:
 localization_priority: Normal
 ms.assetid: a2c18b72-426b-4f63-8454-187e96d26199
 description: Cette section fournit des informations sur les tâches développeur courantes lors du développement de modèles de formulaires InfoPath utilisant du code managé.
-ms.openlocfilehash: 9f0bbf36b2533b12ca3f31100c3abc21173d7c6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a84bf1a70407ca87e1a83f74856d363d8860d4a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303436"
 ---
 # <a name="understanding-the-infopath-object-model-and-common-developer-tasks"></a>Présentation du modèle objet InfoPath et des tâches développeur courantes
 
 Cette section fournit des informations sur les tâches développeur courantes lors du développement de modèles de formulaires InfoPath utilisant du code managé.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-[Accès aux données d’Application](how-to-access-application-data.md)
+[Accéder aux données de l'application](how-to-access-application-data.md)
   
 > Explique comment accéder aux informations concernant l'application InfoPath.
     
@@ -33,35 +33,35 @@ Cette section fournit des informations sur les tâches développeur courantes lo
   
 > Présente la manière d'accéder aux informations sur le document XML sous-jacent du formulaire, les données qu'il contient ou d'effectuer des opérations sur le document XML.
     
-[Accès aux Sources de données externes](how-to-access-external-data-sources.md)
+[Accéder à des sources de données externes](how-to-access-external-data-sources.md)
   
 > Présente la manière d'accéder à des données depuis des sources de données externes.
     
-[Écrire une logique conditionnelle qui détermine l’environnement d’exécution](how-to-write-conditional-logic-that-determines-the-run-time-environment.md)
+[Écrire une logique conditionnelle qui détermine l'environnement d'exécution](how-to-write-conditional-logic-that-determines-the-run-time-environment.md)
   
 > Explique comment écrire du code qui effectue une action différente selon que le formulaire est ouvert dans InfoPath, un navigateur Web ou un navigateur mobile.
     
-[Fenêtres de formulaires](how-to-work-with-form-windows.md)
+[Utilisation des fenêtres de formulaire](how-to-work-with-form-windows.md)
   
 > Présente l'utilisation de fenêtres de formulaires
     
-[Utilisation des vues](how-to-work-with-views.md)
+[Utiliser les affichages](how-to-work-with-views.md)
   
 > Présente l'utilisation de vues.
     
-[Travailler avec des Solutions en mode hors connexion](how-to-work-with-offline-solutions.md)
+[Utiliser des solutions hors ligne](how-to-work-with-offline-solutions.md)
   
 > Présente l'utilisation de solutions hors ligne.
     
-[Utilisation de Signatures numériques](how-to-work-with-digital-signatures.md)
+[Utiliser des signatures numériques](how-to-work-with-digital-signatures.md)
   
 > Présente l'utilisation de signatures numériques.
     
-[Gestion des erreurs](how-to-handle-errors.md)
+[Gérer les erreurs](how-to-handle-errors.md)
   
 > Présente la gestion des erreurs dans les projets InfoPath avec code managé.
     
-[Paramètres de travail avec les droits de gestion](how-to-work-with-information-rights-management-settings.md)
+[Utiliser les paramètres de gestion des droits relatifs à l'information](how-to-work-with-information-rights-management-settings.md)
   
 > Présente l'utilisation des paramètres Gestion des droits relatifs à l'information (IRM).
     

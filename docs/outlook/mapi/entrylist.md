@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: b2b5d6e6-201b-4ad7-8de2-e40f09165e62
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: df3a872aedcba79613a8f2ca2b970069d372eb07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f4d2c8460e5baf484d30f4861e15a56fcd8d491b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287081"
 ---
 # <a name="entrylist"></a>ENTRYLIST
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Tableau d’identificateurs d’entrée qui représente l’objet MAPI qui utilise l’implémentation de même que la structure [SBinaryArray](sbinaryarray.md) . 
+Tableau d'identificateurs d'entrée représentant un objet MAPI qui utilise la même implémentation que la structure [SBinaryArray](sbinaryarray.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
@@ -44,7 +44,7 @@ Voir la structure **SBinaryArry** pour les membres.
 
 
 
-[ENTRYID](entryid.md)
+[ENTRÉE](entryid.md)
   
 [SBinaryArray](sbinaryarray.md)
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 32c80bcd-a5d6-af32-38ba-9ca9ff148b99
 description: Vous pouvez créer la plupart des éléments d'affichage dont vous aurez probablement besoin dans le concepteur de formulaires Microsoft InfoPath. Si vous avez besoin d'un élément d'affichage personnalisé qu'InfoPath ne peut pas créer pour vous, vous pouvez cependant modifier manuellement le fichier XSLT (XSL Transformation) utilisé par InfoPath pour générer l'affichage. Pour cela, extrayez le formulaire et ses fichiers de composants à l'aide de Exporter les fichiers source sur l'onglet Publier de Microsoft Office Backstage, puis modifiez la transformation dans votre éditeur XML favori, tel que Microsoft Visual Studio ou le Bloc-notes.
-ms.openlocfilehash: 796115c99c81fc2a77812d91d317f5ce9ed54e5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a61980191dbedeec33b06ad8173ce50126fea781
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299901"
 ---
 # <a name="using-custom-xslt-in-infopath-form-templates"></a>Utilisation de langage XSLT personnalisé dans les modèles de formulaire InfoPath
 

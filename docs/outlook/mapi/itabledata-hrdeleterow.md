@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 989c6872e78ef78e5e0b18149a186d4f920ca603
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: b187cccc4505256b7ab4d580c30eeb2e15ebf574
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278858"
 ---
 # <a name="itabledatahrdeleterow"></a>ITableData::HrDeleteRow
 
@@ -37,7 +37,7 @@ HRESULT HrDeleteRow(
 
  _lpSPropValue_
   
-> [in] Pointeur vers une structure de valeur de propriété qui décrit la colonne d’index de la ligne à supprimer. Le membre **ulPropTag** de la structure de valeur de propriété doit contenir la même balise de propriété en tant que paramètre _ulPropTagIndexColumn_ de l’appel à la fonction [Create table](createtable.md) . 
+> dans Pointeur vers une structure de valeur de propriété qui décrit la colonne d'index de la ligne à supprimer. Le membre **ulPropTag** de la structure de la valeur de la propriété doit contenir la même balise property que le paramètre _ulPropTagIndexColumn_ de l'appel à la fonction [CreateTable](createtable.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,15 +47,15 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La propriété désignée par le paramètre _lpSPropValue_ n’identifie pas une ligne dans le tableau. 
+> La propriété désignée par le paramètre _lpSPropValue_ n'identifie pas une ligne dans le tableau. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData::HrDeleteRow** supprime la ligne de tableau qui contient la colonne qui correspond à la propriété désignée par le paramètre _lpSPropValue_ . Les données de la ligne sont supprimées et la ligne est supprimée de toutes les vues ouvertes. 
+La méthode **ITableData:: HrDeleteRow** supprime la ligne de tableau qui contient la colonne qui correspond à la propriété désignée par le paramètre _lpSPropValue_ . Les données de la ligne sont supprimées et la ligne est supprimée de toutes les vues ouvertes. 
   
-Une fois que la ligne est supprimée, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode la table [IMAPITable::Advise](imapitable-advise.md) pour inscrire les notifications. 
+Une fois la ligne supprimée, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable:: Advise](imapitable-advise.md) pour s'inscrire aux notifications. 
   
-Suppression d’une ligne ne réduit pas l’ensemble de colonnes qui est disponible pour les vues existantes ou ouvert par la suite les affichages, même si la ligne supprimée est la dernière ligne ayant une valeur d’une colonne spécifique.
+La suppression d'une ligne ne réduit pas le jeu de colonnes disponible pour les affichages existants ou les vues ouvertes par la suite, même si la ligne supprimée est la dernière ligne contenant une valeur pour une colonne spécifique.
   
 ## <a name="see-also"></a>Voir aussi
 

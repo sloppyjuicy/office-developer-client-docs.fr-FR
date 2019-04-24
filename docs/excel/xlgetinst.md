@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlGetInst
 keywords:
-- fonction xlgetinst [excel 2007]
+- fonction xlGetInst [Excel 2007]
 localization_priority: Normal
 ms.assetid: 631a8f4e-ea7c-4743-9ee1-b2233fd7d98d
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 9484f7bbc1f5e0fc5b0def17f2ce79ef226dcd17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e113ddbf55e2b4651d578549802c44e2c6413a18
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303849"
 ---
 # <a name="xlgetinst"></a>xlGetInst
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Renvoie le descripteur d’instances de l’instance de Microsoft Excel en appelant une DLL.
+Renvoie le descripteur d'instance de l'instance de Microsoft Excel qui appelle actuellement une DLL.
   
 ```cs
 Excel4(xlGetInst, LPXLOPER pxRes, 0); /* returns low part only */
@@ -31,24 +31,24 @@ Excel12(xlGetInst, LPXLOPER12 pxRes, 0); /* returns full handle */
 
 ## <a name="parameters"></a>Paramètres
 
-Cette fonction ne comporte aucun argument.
+Cette fonction n'a pas d'argument.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Le descripteur d’instances (**xltypeInt**) est inclus dans le champ **val.w** . 
+Le handle d'instance (**xltypeInt**) se trouve dans le champ **Val. w** . 
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances en cours d’exécution de Microsoft Excel qui appellent la DLL.
+Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances d'Excel en cours d'exécution qui appellent la DLL.
   
-Lorsque vous appelez cette fonction à l’aide de [Excel4](excel4-excel12.md) ou [Excel4v](excel4v-excel12v.md), la variable de type entier XLOPER renvoyée est un entier signé 16 bits courte. Il s’agit des 16 bits de poids faibles de la poignée de Windows 32 bits. À compter d’Excel 2007, la variable de type entier de la **XLOPER12** est un int 32 bits signé et par conséquent contient le handle entier, évite d’avoir à parcourir toutes les fenêtres ouvertes. 
+Lorsque vous appelez cette fonction à l'aide de [Excel4](excel4-excel12.md) ou [Excel4v](excel4v-excel12v.md), la variable de type entier XLOPER renvoyée est un nombre entier court 16 bits signé. Il ne peut contenir que les 16 bits de poids faible du handle Windows 32 bits. À partir d'Excel 2007, la variable de type Integer de **XLOPER12** est un entier signé 32 bits et, par conséquent, le handle entier, ce qui supprime la nécessité d'itérer toutes les fenêtres ouvertes. 
   
 > [!IMPORTANT]
-> Si la fonction **xlGetInst** est utilisée avec la version 64 bits de Microsoft Excel, la fonction échoue. Il s’agit, car le type de valeur **xltypeInt** n’est pas assez large pour contenir la poignée de type longue 64 bits renvoyée par Excel dans ce cas. Pour cela, Excel 2010 introduit une nouvelle fonction nommée [xlGetInstPtr](xlgetinstptr.md), qui s’exécute correctement avec les versions 32 bits et 64 bits de Microsoft Excel. 
+> Si la fonction **xlGetInst** est utilisée avec la version 64 bits de Microsoft Excel, la fonction échouera. Cela est dû au fait que le type de valeur **xltypeInt** n'est pas assez large pour contenir le handle 64 bits long renvoyé par Excel dans ce cas. À cette fin, Excel 2010 a introduit une nouvelle fonction nommée [xlGetInstPtr](xlgetinstptr.md), qui s'exécute correctement avec les versions 32 bits et 64 bits d'Excel. 
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant compare l’instance de la dernière copie d’Excel qui l’a appelé à la copie active de Microsoft Excel qui l’a appelé. Si elles sont les mêmes, elle renvoie la valeur 1 ; dans le cas contraire, elle renvoie la valeur 0 ; Si la fonction échoue, elle renvoie -1.
+L'exemple suivant compare l'instance de la dernière copie d'Excel qui a été appelée à la copie actuelle d'Excel qui l'a appelée. Si elles sont identiques, elle renvoie 1; Si ce n'est pas le cas, il renvoie 0; Si la fonction échoue, elle renvoie-1.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -83,5 +83,5 @@ short WINAPI xlGetInstExample(void)
 [xlGetInstPtr](xlgetinstptr.md)
 
 
-[Fonctions de l’API C qui peuvent être appelées uniquement à partir d’une DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

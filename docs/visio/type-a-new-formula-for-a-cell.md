@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 546dfe1d-de4f-cc53-8fb4-de7672adc9bc
 description: ''
-ms.openlocfilehash: 33e25f3d37dead415437c7e7ba761b7937507d2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ed130dae07257ea61c9c9ef28dafe780d6d4f4a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282620"
 ---
-# <a name="type-a-new-formula-for-a-cell"></a>Saisie d'une nouvelle formule dans une cellule
+# <a name="type-a-new-formula-for-a-cell"></a>Taper une nouvelle formule dans une cellule
 
 1. Sélectionnez la cellule.
     
-    La formule de cellule s’affiche dans la cellule et dans la barre de formule.
+    La formule de la cellule apparaît dans la cellule et dans la barre de formule.
     
 2. Tapez la nouvelle formule.
     
-    La formule que vous tapez remplace la formule précédente.
+    La formule que vous tapez remplace la formule précédente de la cellule.
     
-    Si vous tapez un nombre sans fournissez d’unité de mesure, Microsoft Visio utilise les unités de la valeur de la cellule précédente s’il y a un. Sinon, si la cellule nécessite une unité, Visio utilise les unités par défaut pour la cellule.
+    Si vous tapez un nombre mais ne fournissez aucune unité de mesure, Microsoft Visio utilise les unités de la valeur précédente de la cellule s'il en existe un. Sinon, si la cellule nécessite une unité, Visio utilise l’unité par défaut de la cellule.
     
-3. Pour accepter la formule, puis appuyez sur ENTRÉE.
+3. Pour accepter la formule, appuyez sur entrée.
     
-    Si le nombre ou la formule contient une erreur, Visio affiche un message et puis met en évidence l’erreur dans la barre de formule ou de la cellule. Corriger l’erreur, puis appuyez sur ENTRÉE pour accepter la correction.
+    Si le nombre ou la formule contient une erreur, Visio affiche un message, puis met en surbrillance l'erreur dans la barre de formule ou la cellule. Corrigez l'erreur, puis appuyez sur Entrée pour accepter la correction.
     
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: cd93866ae8823eb5897318fc2dda4e8432d974b0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 9598e0c90c16db14cdc3a46d2b2ae74e0d9a9300
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286931"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "22578464"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre un objet dans le conteneur, en retournant un pointeur d’interface pour l’accès des autres.
+Ouvre un objet dans le conteneur, en renvoyant un pointeur d'interface pour un accès supplémentaire.
   
 ```cpp
 HRESULT OpenEntry(
@@ -42,71 +42,71 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée de l’objet à ouvrir. Si _lpEntryID_ est défini sur NULL, le conteneur de niveau supérieur dans la hiérarchie du conteneur est ouvert. 
+> dans Pointeur vers l'identificateur d'entrée de l'objet à ouvrir. Si _lpEntryID_ est défini sur null, le conteneur de niveau supérieur dans la hiérarchie du conteneur est ouvert. 
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet. Transmission NULL génère l’identificateur de l’interface standard de l’objet retourné. Pour les messages, l’interface standard est [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md); pour les dossiers, il est [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Pour les objets de carnet d’adresses sont des interfaces de la norme [IDistList : IMAPIContainer](idistlistimapicontainer.md) pour une liste de distribution et [IMailUser : IMAPIProp](imailuserimapiprop.md) pour un utilisateur de messagerie. 
+> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder à l'objet. La transmission de la valeur NULL entraîne le renvoi de l'interface standard de l'objet. Pour les messages, l'interface standard est [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md); pour les dossiers, il s'agit de [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md). Les interfaces standard pour les objets de carnet d'adresses sont [IDistList: IMAPIContainer](idistlistimapicontainer.md) pour une liste de distribution et [IMailUser: IMAPIProp](imailuserimapiprop.md) pour un utilisateur de messagerie. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet est ouvert. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle le mode d'ouverture de l'objet. Les indicateurs suivants peuvent être définis:
     
 MAPI_BEST_ACCESS 
   
-> Demande que l’objet est ouvert avec les autorisations de réseau maximale autorisées pour l’accès des utilisateurs et le nombre maximal de clients application. Par exemple, si le client a l’autorisation de lecture/écriture, l’objet doit être ouvert avec l’autorisation de lecture/écriture ; Si le client dispose d’un accès en lecture seule, l’objet doit être ouvert avec accès en lecture seule. 
+> Demande que l'objet soit ouvert avec les autorisations réseau maximales accordées à l'utilisateur et l'accès maximal de l'application cliente. Par exemple, si le client dispose d'une autorisation en lecture/écriture, l'objet doit être ouvert avec une autorisation en lecture/écriture; Si le client dispose d'un accès en lecture seule, l'objet doit être ouvert avec un accès en lecture seule. 
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet **OpenEntry** renvoyer avec succès, éventuellement, avant de l’objet est entièrement disponible au client appelant. Si l’objet n’est pas disponible, l’émission d’un appel d’objet suivantes peut déclencher une erreur. 
+> Permet à **OpenEntry** de retourner correctement, éventuellement avant que l'objet soit entièrement disponible pour le client appelant. Si l'objet n'est pas disponible, un appel d'objet ultérieur peut déclencher une erreur. 
     
-N' 
+MAPI_MODIFY 
   
-> Demandes d’autorisation de lecture/écriture. Par défaut, les objets sont ouverts avec un accès en lecture seule et clients ne doivent pas fonctionner en supposant que bénéficie des autorisations en lecture/écriture. 
+> Demande une autorisation en lecture/écriture. Par défaut, les objets sont ouverts avec un accès en lecture seule et les clients ne doivent pas travailler en supposant que l'autorisation de lecture/écriture a été octroyée. 
     
 SHOW_SOFT_DELETES
   
-> Affiche les éléments qui sont actuellement marqués comme logicielles supprimés — autrement dit, ils sont dans la rétention des éléments supprimés phase de temps.
+> Affiche les éléments qui sont actuellement marqués comme étant supprimés de manière récupérable, c'est-à-dire qu'ils se trouvent dans la phase de durée de rétention des éléments supprimés.
     
  _lpulObjType_
   
-> [out] Pointeur vers le type de l’objet ouvert.
+> remarquer Pointeur vers le type de l'objet ouvert.
     
  _lppUnk_
   
-> [out] Pointeur vers un pointeur vers l’implémentation d’interface à utiliser pour accéder à l’objet ouvert.
+> remarquer Pointeur vers un pointeur vers l'implémentation de l'interface à utiliser pour accéder à l'objet ouvert.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’objet a été ouvert avec succès.
+> L'objet a été ouvert avec succès.
     
 MAPI_E_NO_ACCESS 
   
-> L’utilisateur dispose des autorisations suffisantes pour ouvrir l’objet ou un utilisateur a tenté d’ouvrir un objet en lecture seule avec une autorisation en lecture-écriture.
+> Soit l'utilisateur ne dispose pas des autorisations suffisantes pour ouvrir l'objet, soit une tentative d'ouverture d'un objet en lecture seule avec une autorisation en lecture/écriture a été effectuée.
     
 MAPI_E_NOT_FOUND 
   
-> L’identificateur d’entrée spécifié par _lpEntryID_ ne représente pas un objet. 
+> L'identificateur d'entrée spécifié par _lpEntryID_ ne représente pas un objet. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur d’entrée dans le paramètre _lpEntryID_ n’est pas un format reconnu par le conteneur. 
+> L'identificateur d'entrée dans le paramètre _lpEntryID_ n'est pas un format reconnu par le conteneur. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIContainer::OpenEntry** ouvre un objet dans un conteneur et retourne un pointeur vers une implémentation de l’interface à utiliser pour l’accès des autres. 
+La méthode **IMAPIContainer:: OpenEntry** ouvre un objet dans tout un conteneur et renvoie un pointeur vers une implémentation d'interface à utiliser pour un accès supplémentaire. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Étant donné que les fournisseurs de services ne sont pas tenus de retourner une implémentation de l’interface du type spécifié par l’identificateur d’interface dans le paramètre _lpInterface_ , vérifiez la valeur indiquée par le paramètre _lpulObjType_ . Si nécessaire, effectuer un cast du pointeur renvoyé dans _lppUnk_ à un pointeur du type approprié. 
+Étant donné que les fournisseurs de services ne sont pas tenus de retourner une implémentation d'interface du type spécifié par l'identificateur d'interface dans le paramètre _lpInterface_ , vérifiez la valeur pointée par le paramètre _lpulObjType_ . Si nécessaire, effectuez un cast du pointeur renvoyé dans _lppUnk_ vers un pointeur du type approprié. 
   
-Par défaut, les fournisseurs de services ouvrent des objets avec accès en lecture seule, sauf si vous définissez l’indicateur MAPI_BEST_ACCESS ou ne. Lorsqu’une de ces indicateurs est définie, essaient de fournisseurs de services renvoyer un objet modifiable. Toutefois, ne supposent que vous avez demandé un objet modifiable que l’objet ouvert a l’autorisation de lecture/écriture. Soit prévoir le risque d’une modification ultérieure échec ou récupérer la propriété l’objet **PR_ACCESS_LEVEL** déterminer le niveau d’accès accordé par **OpenEntry**.
+Par défaut, les fournisseurs de services ouvrent des objets avec un accès en lecture seule, sauf si vous définissez l'indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS. Lorsque l'un de ces indicateurs est défini, les fournisseurs de services tentent de renvoyer un objet modifiable. Toutefois, ne partez pas du principe que vous avez demandé un objet modifiable que l'objet ouvert dispose d'une autorisation en lecture/écriture. Planifiez la possibilité d'une modification ultérieure de l'échec ou récupérez la propriété **PR_ACCESS_LEVEL** de l'objet pour déterminer le niveau d'accès accordé par **OpenEntry**.
   
 ## <a name="see-also"></a>Voir aussi
 

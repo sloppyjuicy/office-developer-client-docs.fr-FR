@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: c20e4ff2-ef55-4455-86ab-3bd47ddfefb2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c77792c1e33f9b0aed1bb0e5d109a0339fa0fe6e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 64f389bc45f88b1fd0e516c92c8eec1e0998a298
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279621"
 ---
 # <a name="pidtagphysicaldeliverybureaufaxdelivery-canonical-property"></a>Propriété canonique PidTagPhysicalDeliveryBureauFaxDelivery
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si le système de messagerie doit utiliser un bureau de télécopie pour remise physique de ce message.
+Contient la valeur TRUE si le système de messagerie doit utiliser un bureau de télécopie pour la remise physique de ce message.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Contient la valeur TRUE si le système de messagerie doit utiliser un bureau de 
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

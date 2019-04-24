@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9aa038958e26652ae7ead728ab15d068e080dc69
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2709ac612fc9e2edaa57b280d52c0a5229ee9978
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278805"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
@@ -38,33 +38,33 @@ HRESULT HrInsertRow(
 
  _uliRow_
   
-> [in] Un numéro de ligne séquentiel qui représente une ligne spécifique. La nouvelle ligne est placée après la ligne qui indique le nombre. Le paramètre _uliRow_ peut contenir des numéros de ligne de n à 0, où n est le nombre total de lignes dans le tableau. En passant n _uliRow_ ajoute la ligne à la fin de la table. 
+> dans Numéro de ligne séquentiel qui représente une ligne spécifique. La nouvelle ligne est placée après la ligne que le numéro indique. Le paramètre _uliRow_ peut contenir des numéros de ligne compris entre 0 et n, où n représente le nombre total de lignes dans le tableau. Le passage de n dans _uliRow_ ajoute la ligne à la fin du tableau. 
     
  _lpSRow_
   
-> [in] Pointeur vers une structure [SRow](srow.md) qui décrit la ligne doit être inséré. 
+> dans Pointeur vers une structure [SRow](srow.md) qui décrit la ligne à insérer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La ligne a été insérée correctement.
+> La ligne a été insérée.
     
 MAPI_E_INVALID_PARAMETER 
   
-> Une ligne qui possède la même valeur pour la colonne d’index que la ligne doit être inséré déjà existe dans le tableau.
+> Une ligne qui a la même valeur pour sa colonne d'index que la ligne à insérer existe déjà dans le tableau.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData::HrInsertRow** insère une ligne dans une table à un emplacement particulier. La nouvelle ligne est insérée après la ligne qui se trouve dans la position spécifiée par le paramètre _uliRow_ . 
+La méthode **ITableData:: HrInsertRow** insère une ligne dans un tableau à une position particulière. La nouvelle ligne est insérée après la ligne qui se trouve à l'emplacement spécifié par le paramètre _uliRow_ . 
   
-Si _uliRow_ est défini sur le nombre de lignes dans le tableau, la nouvelle ligne est ajoutée à la fin de la table. 
+Si _uliRow_ est défini sur le nombre de lignes du tableau, la nouvelle ligne est ajoutée à la fin du tableau. 
   
-La propriété agit en tant que la colonne d’index pour la table doit être incluse dans le membre **lpProps** de la structure [SRow](srow.md) désigné par le paramètre _lpSRow_ . Cette propriété index, généralement **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), sert à identifier de manière unique la ligne pour les tâches de maintenance future.
+La propriété qui agit comme colonne d'index pour la table doit être incluse dans le membre **lpProps** de la structure [SRow](srow.md) vers laquelle pointe le paramètre _lpSRow_ . Cette propriété d'index, généralement **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), est utilisée pour identifier la ligne de manière unique pour les tâches de maintenance futures.
   
-Les colonnes de propriétés dans la structure **SRow** n’ont pas à se trouver dans le même ordre que les colonnes de propriétés dans le tableau. 
+Les colonnes de propriétés de la structure **SRow** n'ont pas besoin d'être dans le même ordre que les colonnes de propriétés de la table. 
   
-Une fois que la ligne est insérée, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode la table [IMAPITable::Advise](imapitable-advise.md) pour inscrire les notifications. Aucune notification n’est envoyée si la ligne insérée n’est pas incluse dans l’affichage en raison d’une restriction. 
+Une fois que la ligne est insérée, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable:: Advise](imapitable-advise.md) pour s'inscrire aux notifications. Aucune notification n'est envoyée si la ligne insérée n'est pas incluse dans l'affichage en raison d'une restriction. 
   
 ## <a name="see-also"></a>Voir aussi
 

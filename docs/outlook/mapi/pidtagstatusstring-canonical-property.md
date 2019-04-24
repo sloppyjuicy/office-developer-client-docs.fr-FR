@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42cd946c-c55a-4371-99ee-05e2248fdd5f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e8370a613162e3bc8d4395a18e9a7e177255b9b3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9b4510a32fe14e4316a6bcddafcc163ee899436e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278892"
 ---
 # <a name="pidtagstatusstring-canonical-property"></a>Propriété canonique PidTagStatusString
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un message qui indique l’état actuel d’une ressource de session. 
+Contient un message qui indique l'état actuel d'une ressource de session. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient un message qui indique l’état actuel d’une ressource de session.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés donnent MAPI la possibilité de fournir des informations spécifiques sur l’état d’une ressource de session, tel que le carnet d’adresses intégré ou un fournisseur de services et les fournisseurs de services. Cette propriété explique et fournit des informations supplémentaires sur un code d’état ou la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Tandis que **PR_STATUS_CODE** est requis pour tous les objets d’état, **PR_STATUS_STRING** et les propriétés associées sont facultatives. Lorsque le fournisseur de transport ne fournit pas de valeur, le spouleur MAPI fournit une valeur par défaut. 
+Ces propriétés permettent aux fournisseurs de services et à l'interface MAPI de fournir des informations spécifiques sur l'état d'une ressource de session, comme le carnet d'adresses intégré ou un fournisseur de services particulier. Cette propriété explique et fournit des informations supplémentaires sur un code d'État ou la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Tandis que **PR_STATUS_CODE** est requis pour tous les objets d'État, **PR_STATUS_STRING** et les propriétés associées sont facultatifs. Lorsque le fournisseur de transport ne fournit pas de valeur, le spouleur MAPI fournit une valeur par défaut. 
   
-La chaîne est générée sur le même côté de l’appel de procédure distante en tant que le spouleur MAPI ; qu’elle traverse mémoire partagée au lieu de marshalé sur une limite de processus.
+La chaîne est générée sur le même côté de l'appel de procédure distante que le spouleur MAPI; il transite par le biais de la mémoire partagée au lieu d'être marshalé dans une limite de processus.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

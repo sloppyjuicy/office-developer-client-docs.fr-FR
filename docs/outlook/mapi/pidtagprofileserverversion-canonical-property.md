@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d41a536-81ff-733c-2fd7-460798e057c8
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 84ff229e9914ec9074d61023873279b110fb606a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286565"
 ---
 # <a name="pidtagprofileserverversion-canonical-property"></a>Propriété canonique PidTagProfileServerVersion
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie des informations sur la version de Microsoft Exchange Server à laquelle les comptes dans un profil Microsoft Outlook sont connectés.
+Spécifie les informations relatives à la version de Microsoft Exchange Server à laquelle les comptes d'un profil Microsoft Outlook sont connectés.
   
 ## 
 
@@ -29,38 +29,38 @@ Spécifie des informations sur la version de Microsoft Exchange Server à laquel
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROFILE_SERVER_VERSION  <br/> |
 |Identificateur :  <br/> |0x661B  <br/> |
-|Type de propriété :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Configuration d’un profil MAPI  <br/> |
+|Type de propriété:  <br/> |PT_LONG  <br/> |
+|Domaine :  <br/> |Configuration du profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Un profil peut spécifier un ou plusieurs comptes qui se connectent à un serveur Exchange, mais ils doivent être connectés au même serveur Exchange.
   
-Versions d’Outlook antérieures à Microsoft Office Outlook 2007 peuvent écrire dans cette propriété pour stocker les informations relatives à la version d’Exchange Server auquel le profil actif est connecté. Toutefois, le format des informations de version varie pour différentes versions d’Exchange Server. Par exemple, les banques Outlook dans **PR_PROFILE_SERVER_VERSION** la valeur décimale 6944 pour représenter uniquement la version principale numéro de build dans l’identificateur de version de **6.5.6944.3** pour Microsoft Exchange Server 2003. Pour une connexion à Exchange 2007, Outlook stocke le numéro de version principale et la version principale numéro de version dans une représentation hexadécimale concaténée de ces numéros dans la propriété. Un identificateur de version d’Exchange 2007 de **8.0.685.24** possède un numéro de version majeur 8 et un numéro de version majeur 685 en décimal. Conversion de deux nombres en hexadécimal, vous obtenez 0 x 8 et 0x2AD. Concaténation de ces deux nombres, Outlook stocke la valeur 0x82AD dans **PR_PROFILE_SERVER_VERSION** en représentation hexadécimale. 
+Les versions d'Outlook antérieures à Microsoft Office Outlook 2007 peuvent écrire dans cette propriété pour stocker des informations sur la version d'Exchange Server à laquelle le profil actif est connecté. Toutefois, le format des informations de version varie en fonction des différentes versions d'Exchange Server. Par exemple, Outlook stocke dans **PR_PROFILE_SERVER_VERSION** la valeur décimale 6944 pour représenter uniquement le numéro de build principal dans l'identificateur de version de **6.5.6944.3** pour Microsoft Exchange Server 2003. Pour une connexion Exchange 2007, Outlook stocke le numéro de version principale et le numéro de build principal dans une représentation hexadécimale concaténée de ces nombres dans la propriété. Un identificateur de version d'Exchange 2007 de **8.0.685.24** a une version majeure numéro 8 et un numéro de build majeur 685 en décimal. La conversion des deux numéros en notation hexadécimale vous permet d'obtenir les éléments 0x8 et 0x2AD. En concaténant ces deux nombres, Outlook stocke la valeur 0x82AD dans **PR_PROFILE_SERVER_VERSION** en représentation hexadécimale. 
   
-Outlook 2007 ne pas lire ou écrire cette propriété. Il prend en charge **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**. 
+Outlook 2007 ne lit pas ou n'écrit pas cette propriété. Il prend en charge **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**. 
   
-Seul **PR_PROFILE_SERVER_VERSION** ou **PR_PROFILE_SERVER_FULL_VERSION** est susceptible d’exister dans un profil, mais il n’existe aucune garantie que soit toujours existe dans un profil. Outlook n’écrit pas dans des propriétés jusqu'à ce qu’il s’est connecté au serveur Exchange. 
+Seul un des **PR_PROFILE_SERVER_VERSION** ou **PR_PROFILE_SERVER_FULL_VERSION** est susceptible d'exister dans un profil, mais il n'existe aucune garantie qui existe toujours dans un profil. Outlook ne peut pas écrire dans l'une ou l'autre des propriétés tant qu'il n'a pas réussi à se connecter au serveur Exchange. 
   
-Dans le modèle objet Outlook, vous pouvez utiliser la propriété **ExchangeMailboxServerVersion** de l’objet **NameSpace** pour trouver la version du serveur Exchange qui héberge la boîte aux lettres active. 
+Dans le modèle objet Outlook, vous pouvez utiliser la propriété **ExchangeMailboxServerVersion** de l'objet **namespace** pour rechercher la version d'Exchange Server sur laquelle la boîte aux lettres active est hébergée. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

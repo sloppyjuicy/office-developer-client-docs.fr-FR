@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: d17a3efe-c278-4ef1-b8f9-b958ae012361
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 5c4b122b200d9de0cf098d2bc9e2fbd887ad9ff3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9408a7938927214802935e54ec8e53b1469e5016
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301623"
 ---
 # <a name="quitframework"></a>QuitFramework
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque Framework n’initialise pas la bibliothèque Framework, qui réinitialise simplement le temporaire **XLOPER**/ **XLOPER12** mémoire des structures de données libérer toute mémoire qui a déjà été attribuée. 
+Fonction de bibliothèque d'infrastructure qui annule l'initialisation de la bibliothèque d'infrastructure, qui réinitialise simplement les structures de données de mémoire de la mémoire de la bibliothèque **XLOPER**/ **** temporaire, libérant ainsi la mémoire qui a déjà été allouée. 
   
 ```cs
 short WINAPI QuitFramework(void);
@@ -30,11 +30,11 @@ short WINAPI QuitFramework(void);
 
 ## <a name="parameters"></a>Paramètres
 
-Cette fonction prend aucun argument.
+Cette fonction ne prend aucun argument.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Cette fonction ne retourne pas une valeur.
+Cette fonction ne renvoie pas de valeur.
   
 ## <a name="see-also"></a>Voir aussi
 

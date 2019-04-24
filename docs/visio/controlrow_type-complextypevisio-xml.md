@@ -1,5 +1,5 @@
 ---
-title: Type complexe ControlRow_Type (« Visio XML »)
+title: ComplexType ControlRow_Type ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,20 +7,20 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7f9ee251-e685-e56c-3c8a-cb727ad62064
 ms.openlocfilehash: 7cd09b4644cc72648bf880a3c187fa59274e6e02
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282970"
 ---
-# <a name="controlrowtype-complextype-visio-xml"></a>Type complexe ControlRow_Type (« Visio XML »)
+# <a name="controlrowtype-complextype-visio-xml"></a>ComplexType ControlRow_Type ('Visio XML')
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base d’extension** <br/> |NamedIndexedRow_Type  <br/> |
    
 ## <a name="definition"></a>Définition
@@ -46,7 +46,7 @@ ms.locfileid: "25391800"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: eb326037-bc44-4b04-812c-7d1adf854cc9
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 042a91132ff34005fc92ae331667c8c1df989d6e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278863"
 ---
 # <a name="pidtagrulename-canonical-property"></a>Propriété canonique PidTagRuleName
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le nom de la règle lisible par l’utilisateur.
+Spécifie le nom de la règle, lisible par l'utilisateur.
   
 |||
 |:-----|:-----|
@@ -34,13 +34,13 @@ Spécifie le nom de la règle lisible par l’utilisateur.
 |Type de données :  <br/> |PT_STRING8  <br/> |
 |Domaine :  <br/> |Règles côté serveur  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
@@ -48,17 +48,17 @@ Spécifie le nom de la règle lisible par l’utilisateur.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Spécifie les méthodes pour la connexion et configurer des boîtes aux lettres en tant que les délégués et les interactions avec les éléments de calendrier et de message lorsqu’ils agissent au nom d’un autre utilisateur.
+> Spécifie les méthodes de connexion et de configuration des boîtes aux lettres en tant que délégués, ainsi que les interactions avec les éléments de message et de calendrier lorsqu'ils agissent pour le compte d'un autre utilisateur.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

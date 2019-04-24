@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0d705667-19f4-4eda-a068-e65ea8f00d9b
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 7dc8ea74d36dd8aee4acec426e97d8b5e3ba2234
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278749"
 ---
 # <a name="pidtagstoreentryid-canonical-property"></a>Propriété canonique PidTagStoreEntryId
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée unique de la banque de messages où un objet réside.
+Contient l'identificateur d'entrée unique de la Banque de messages où se trouve un objet.
   
 |||
 |:-----|:-----|
@@ -36,43 +36,43 @@ Contient l’identificateur d’entrée unique de la banque de messages où un o
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour ouvrir une banque de messages avec la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . Il est également utilisé pour ouvrir un objet appartenant à la banque de messages. 
+Cette propriété est utilisée pour ouvrir une banque de messages à l'aide de la méthode [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . Il est également utilisé pour ouvrir tout objet appartenant à la Banque de messages. 
   
-Pour une banque de messages, cette propriété est identique à la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la banque. Une application cliente permet de comparer les deux propriétés à l’aide de la méthode [IMAPISession::CompareEntryIDs](imapisession-compareentryids.md) . 
+Pour une banque de messages, cette propriété est identique à la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la Banque. Une application cliente peut comparer les deux propriétés à l'aide de la méthode [IMAPISession:: CompareEntryIDs](imapisession-compareentryids.md) . 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> La conversion entre IETF RFC2445, RFC2446, RFC2447 et rendez-vous et des objets de la conférence.
+> Effectue une conversion entre l'IETF RFC2445, RFC2446 et RFC2447, et les objets de rendez-vous et de réunion.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations liées aux marquage.
+> Spécifie les propriétés et les opérations relatives au marquage.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre des clients.
+> Partage des dossiers de boîtes aux lettres entre les clients.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

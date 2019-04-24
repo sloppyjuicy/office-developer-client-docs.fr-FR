@@ -9,21 +9,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 429811c4-73fe-4a05-9c42-e5ac8e974f29
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1ad6d6047a021683d658a8ad9ab28ff2d1ec31f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4fc3d2751841cb2fb119e7b1695c93260758dcea
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283113"
 ---
 # <a name="pidtagreportoriginalsender-canonical-property"></a>Propriété canonique PidTagReportOriginalSender
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l’expéditeur d’origine du message pour les messages reçus de demande.
+Indique l'expéditeur initial du message pour les messages qui demandent des accusés de réception.
   
 |||
 |:-----|:-----|
@@ -32,23 +32,23 @@ Indique l’expéditeur d’origine du message pour les messages reçus de deman
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

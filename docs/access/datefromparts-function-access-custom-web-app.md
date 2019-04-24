@@ -1,24 +1,24 @@
 ---
-title: Fonction DateFromParts (accès personnalisé web app)
+title: Fonction DateFromParts (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4fa49d5f-12ea-4d14-9a03-28418f01746c
-description: Renvoie une valeur de date pour l’année, mois et jour.
-ms.openlocfilehash: 5a2ff76d99076cf9f53b0dce8c5019f38d910f58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie une valeur de date pour l'année, le mois et le jour spécifiés.
+ms.openlocfilehash: 7d47fe93d1990365f1db5885a3ea8fc056aabb9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282121"
 ---
-# <a name="datefromparts-function-access-custom-web-app"></a>Fonction DateFromParts (accès personnalisé web app)
+# <a name="datefromparts-function-access-custom-web-app"></a>Fonction DateFromParts (application Web personnalisée Access)
 
-Renvoie une valeur de date pour l’année, mois et jour.
+Renvoie une valeur de date pour l'année, le mois et le jour spécifiés.
   
 > [!NOTE]
-> La fonctionnalité de stockage dans le nuage décrite dans cet article n’est plus pris en charge dans Office 2013 et Office 2016 et peut entraîner l’erreur suivante : > *Désolé, nous avons des problèmes de serveur, afin que nous ne pouvons pas ajouter \<service\> maintenant. Réessayez ultérieurement.* > Pour le stockage en nuage pour Office Online, Office pour iOS et Office pour Android, vous pouvez rechercher dans notre [Programme de partenariat de stockage dans le nuage Office](https://dev.office.com/programs/officecloudstorage). 
+> La fonctionnalité de stockage cloud décrite dans cet article n’est plus prise en charge dans Office 2013 et Office 2016 et peut entraîner le message d’erreur suivant : > *Sorry, we’re having server problems, so we can’t add \<service\> right now. Please try again later.* (« Nous rencontrons actuellement des problèmes de serveur et nous sommes dans l’incapacité d’ajouter le service. Merci de réessayer ultérieurement. ») > En ce qui concerne le stockage cloud pour Office Online, Office pour iOS et Office pour Android, consultez notre [programme de partenariat de stockage cloud Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,17 +28,17 @@ La fonction **DateFromParts** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Année*  <br/> |Expression d’entier spécifiant une année.  <br/> |
-| *Mois*  <br/> |Expression d’entier spécifiant un mois, de 1 à 12.  <br/> |
-| *Jour*  <br/> |Expression d’entier spécifiant un jour.  <br/> |
+| *Année*  <br/> |Expression de nombre entier spécifiant une année.  <br/> |
+| *Month*  <br/> |Expression entière spécifiant un mois, comprise entre 1 et 12.  <br/> |
+| *Day*  <br/> |Expression de nombre entier spécifiant un jour.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-**DateFromParts** renvoie une valeur de date avec la partie de date définie pour l’année, mois et jour et la partie heure la valeur par défaut. Si les arguments ne sont pas valides, une erreur est générée. Si les arguments obligatoires sont nulles, NULL est renvoyée. 
+**DateFromParts** renvoie une valeur date dont la partie date est définie sur l'année, le mois et le jour spécifiés, et la partie heure sur la valeur par défaut. Si les arguments ne sont pas valides, une erreur est générée. Si les arguments requis sont NULL, NULL est renvoyé. 
   
 ## <a name="example"></a>Exemple
 
-L’expression suivante utilise la fonction **DateFromParts** pour calculer le premier jour du mois en cours. 
+L'expression suivante utilise la fonction **DateFromParts** pour calculer le premier jour du mois en cours. 
   
 `DateFromParts(Year(Today()),Month(Today()),1)`
 

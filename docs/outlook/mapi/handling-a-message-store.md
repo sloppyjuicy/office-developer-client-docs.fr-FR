@@ -7,50 +7,50 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7eca0e1f-a855-4ef7-b892-0bddee59de5e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0712407a7882c449c065cb6816694b4a1611036f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 933dbd95a4b2f82d78e6e8035936eb2be4ba09ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299481"
 ---
 # <a name="handling-a-message-store"></a>Gestion d’une banque de messages
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gestion d’une banque de messages est une part importante de l’ensemble d’un client de tâches. Ces tâches incluent l’ouverture, copie, déplacement, l’ajout et suppression de dossiers et messages, affichage de tableaux de diverses, propriétés et contrôler les niveaux d’accès.
+La gestion d'une banque de messages est une partie importante de l'ensemble des tâches d'un client. Ces tâches incluent l'ouverture, la copie, le mouvement, l'ajout et la suppression de dossiers et de messages, l'affichage de différentes tables, la définition de propriétés et le contrôle des niveaux d'accès.
 
-- [L’ouverture d’une banque de messages](opening-a-message-store.md): explique comment ouvrir une ou plusieurs bases de messages pendant une session.
+- [Ouverture d'une banque de messages](opening-a-message-store.md): décrit comment ouvrir un ou plusieurs magasins de messages au cours d'une session.
     
-- [Ouverture de la banque de messages par défaut](opening-the-default-message-store.md): décrit comment ouvrir la banque de messages par défaut.
+- [Ouverture de la Banque de messages par défaut](opening-the-default-message-store.md): décrit l'ouverture de la Banque de messages par défaut.
     
-- [Validation et l’initialisation d’une banque de messages](validating-and-initializing-a-message-store.md): explique comment initialiser et valider une banque de messages.
+- [Validation et initialisation d'une banque de messages](validating-and-initializing-a-message-store.md): décrit la procédure d'initialisation et de validation d'une banque de messages.
     
-- [Recherche dans une banque de messages](searching-a-message-store.md): explique comment rechercher dans les dossiers d’un ou plusieurs de rechercher les messages qui correspondent aux critères de recherche.
+- [Recherche dans une banque de messages](searching-a-message-store.md): décrit comment rechercher un ou plusieurs dossiers à la recherche de messages qui correspondent aux critères de recherche.
     
-- [Sélection d’un dossier de réception](selecting-a-receive-folder.md): décrit les étapes de création d’un dossier de réception.
+- [Sélection d'un dossier de réception](selecting-a-receive-folder.md): décrit les étapes de création d'un dossier de réception.
     
-- [L’ouverture d’un dossier de la banque de messages](opening-a-message-store-folder.md): explique comment ouvrir un dossier.
+- [Ouverture d'un dossier de banque de messages](opening-a-message-store-folder.md): décrit comment ouvrir un dossier.
     
-- [Affichage d’une Table de contenu de dossier](displaying-a-folder-contents-table.md): décrit comment afficher le tableau contenu de dossier qui contient des informations récapitulatives sur tous ses messages.
+- [Affichage d'une table de contenu de dossier](displaying-a-folder-contents-table.md): décrit comment afficher la table de contenu de dossier qui contient des informations récapitulatives sur tous ses messages.
     
-- [Parcourir le dossier boîte de réception](traversing-the-inbox-folder.md): décrit comment passer en revue tous les messages dans la boîte de réception.
+- [Parcourir le dossier boîte de réception](traversing-the-inbox-folder.md): décrit comment parcourir tous les messages dans la boîte de réception.
     
-- [Copie ou déplacement d’un Message ou un dossier](copying-or-moving-a-message-or-a-folder.md): explique comment copier ou déplacer un ou plusieurs messages.
+- [Copie ou déplacement d'un message ou d'un dossier](copying-or-moving-a-message-or-a-folder.md): décrit comment copier ou déplacer un ou plusieurs messages.
     
-- [Ouverture d’un Message](opening-a-message.md): décrit comment ouvrir un message.
+- [Ouverture d'un message](opening-a-message.md): décrit comment ouvrir un message.
     
-- [Recherche de l’icône d’un Message](finding-the-icon-for-a-message.md): explique comment trouver une icône qui est associée à un message.
+- [Recherche de l'icône d'un message](finding-the-icon-for-a-message.md): décrit comment rechercher une icône associée à un message.
     
-- [L’ouverture d’un descripteur d’affichage](opening-a-view-descriptor.md): décrit comment ouvrir un descripteur d’affichage.
+- [Ouverture d'un](opening-a-view-descriptor.md)descriptEur d'affichage: décrit comment ouvrir un descripteur de vue.
     
-- [Suppression d’un Message](deleting-a-message.md): explique comment supprimer un message.
+- [Suppression d'un message](deleting-a-message.md): décrit comment supprimer un message.
     
-- [L’enregistrement d’un Message dans la boîte de réception](saving-a-message-in-the-inbox.md): décrit comment stocker un message dans la boîte de réception.
+- [Enregistrement d'un message dans la boîte de réception](saving-a-message-in-the-inbox.md): décrit comment stocker un message dans la boîte de réception.
     
-- [Recherche envoyé ou enregistré les Messages](finding-sent-or-saved-messages.md): explique comment localiser tous les messages sortants qui ont été enregistrés ou envoyés.
+- [Recherche de messages envoyés ou enregistrés](finding-sent-or-saved-messages.md): explique comment localiser tous les messages sortants qui ont été enregistrés ou envoyés.
     
-- [Suivi de Conversations](tracking-conversations.md): explique comment effectuer le suivi des conversations.
+- [Suivi des conversations](tracking-conversations.md): décrit comment suivre les conversations.
     
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e5161d9-fefe-4a12-b7f7-5600f1d2e95b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e08b56fcfea38bf65e8628acfa481716554e2c01
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c5e840250da7ba3b95150f2e83e1eb08b0c61ab5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286421"
 ---
 # <a name="pidtagprovidersubmittime-canonical-property"></a>Propriété canonique PidTagProviderSubmitTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l’heure de qu'un fournisseur de transport transmis un message à son système de messagerie sous-jacent.
+Contient la date et l'heure auxquelles un fournisseur de transport a passé un message à son système de messagerie sous-jacent.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient la date et l’heure de qu'un fournisseur de transport transmis un mess
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est définie par le fournisseur de transport sortant au moment où qu'un message est envoyé.
+Cette propriété est définie par le fournisseur de transport sortant lors de l'envoi d'un message.
   
-Cette propriété correspond à un attribut X.400 envoi enveloppe par message. 
+Cette propriété correspond à l'attribut d'enveloppe de soumission X. 400 par message. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,24 +11,24 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 39854c320078d2e2ca2365244f094e28962380d0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8861c8f86eaab6defb270b673e0ee200446aedb3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282823"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLCOMBOBOX](dtblcombobox.md) pour la description d’un contrôle de zone de liste déroulante et le nombre maximal de caractères pouvant être entré dans le contrôle d’édition associé. 
+Crée une structure nommée qui inclut une structure [DTBLCOMBOBOX](dtblcombobox.md) pour décrire un contrôle de zone de liste déroulante et le nombre maximal de caractères pouvant être entrés dans le contrôle d'édition associé. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**DTBLCOMBOBOX** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**DTBLCOMBOBOX** <br/> |
    
 ```cpp
 SizedDtblComboBox (n, u)
@@ -38,7 +38,7 @@ SizedDtblComboBox (n, u)
 
 _n_
   
-> Nombre de caractères pouvant figurer dans la liste déroulante du contrôle d’édition. 
+> Nombre de caractères pouvant être entrés dans le contrôle d'édition de la zone de liste modifiable. 
     
 _u_
   
@@ -46,7 +46,7 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblComboBox** vous permet de définir une zone de liste déroulante lorsque la longueur de la chaîne de caractères activé est connue. La nouvelle structure est créée avec les membres suivants : 
+La macro **SizedDtblComboBox** vous permet de définir une zone de liste déroulante lorsque la longueur de la chaîne de caractères activée est connue. La nouvelle structure est créée avec les membres suivants: 
   
 ```cpp
 DTBLCOMBOBOX dtblcombobox;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblComboBox** comme un pointeur de structure **DTBLCOMBOBOX** , effectuer le cast suivant : 
+Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblComboBox** en tant que pointeur de structure **DTBLCOMBOBOX** , effectuez la conversion suivante: 
   
 ```cpp
 lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;

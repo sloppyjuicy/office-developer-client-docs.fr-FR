@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47c9ccbb-161c-4829-8ffb-201f3b54cd45
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: aec9dd328e802e185c870d3ecd94cbd1d10ac67d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303051"
 ---
 # <a name="pidlidtaskfrecurring-canonical-property"></a>Propriété canonique PidLidTaskFRecurring
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique si la tâche inclut une périodicité.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskFRecur  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
-|ID de type long (capot) :  <br/> |0x00008126  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Task  <br/> |
+|ID long (couvercle):  <br/> |0x00008126  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Task  <br/> |
+|Domaine :  <br/> |Tâche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété n’est pas définie, la valeur FALSE par défaut est supposée. Si elle est définie sur TRUE, la **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) et propriétés **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) doivent également être définies comme spécifié dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
+Si cette propriété n'est pas définie, la valeur par défaut FALSe est supposée. S'il est défini sur TRUE, les propriétés **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) et **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) doivent également être définies comme spécifié dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.
+> Définit plusieurs objets qui modélisent l'équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

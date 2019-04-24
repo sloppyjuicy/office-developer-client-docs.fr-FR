@@ -1,5 +1,5 @@
 ---
-title: Ajouter un gestionnaire d’événements
+title: Ajouter un gestionnaire d'événements
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,24 +7,24 @@ keywords:
 - versionupgrade event [infopath 2007],handling events [InfoPath 2007],Changing event [InfoPath 2007],InfoPath 2007, adding event handlers,Changed event [InfoPath 2007],ContextChanged event [InfoPath 2007],Click event [InfoPath 2007],events [InfoPath 2007], adding event handlers,Sign event [InfoPath 2007],ViewSwitched event [InfoPath 2007],event handling [InfoPath 2007],Merge event [InfoPath 2007],Validating event [InfoPath 2007],Submit event [InfoPath 2007],Save event [InfoPath 2007],Loading event [InfoPath 2007]
 localization_priority: Normal
 ms.assetid: d69393fb-fb5a-4edb-abc0-38f5d7e80bcc
-description: Cette rubrique décrit les procédures permettant d'ajouter des gestionnaires d'événements à un modèle de formulaire Microsoft InfoPath avec code managé avec Visual Studio 2012. Pour ajouter un gestionnaire d’événements à un modèle de formulaire, vous démarrez avec le modèle de formulaire ouvert dans le Concepteur InfoPath, puis sélectionnez la commande d’interface utilisateur appropriés pour l’événement que vous souhaitez écrire du code pour. Une fois que vous sélectionnez la commande pour un événement dans le Concepteur InfoPath, le focus passe automatiquement au gestionnaire d’événements squelette pour cet événement dans l’éditeur de code Visual Studio 2012.
-ms.openlocfilehash: 5bac409fb859337b82bf6567dd4636e6d384ba59
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cette rubrique décrit les procédures permettant d'ajouter des gestionnaires d'événements à un modèle de formulaire Microsoft InfoPath avec code managé avec Visual Studio 2012. Pour ajouter un gestionnaire d'événements à un modèle de formulaire, vous commencez par ouvrir le modèle de formulaire dans le Concepteur InfoPath, puis vous sélectionnez la commande d'interface utilisateur appropriée pour l'événement pour lequel vous souhaitez écrire du code. Une fois que vous avez sélectionné la commande pour un événement dans le Concepteur InfoPath, le squelette du gestionnaire d'événements de cet événement est activé dans l'éditeur de code Visual Studio 2012.
+ms.openlocfilehash: c6406ec1604355c59f4ee4818fdaea5d70f696bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300118"
 ---
-# <a name="add-an-event-handler"></a>Ajouter un gestionnaire d’événements
+# <a name="add-an-event-handler"></a>Ajouter un gestionnaire d'événements
 
-Cette rubrique décrit les procédures permettant d'ajouter des gestionnaires d'événements à un modèle de formulaire Microsoft InfoPath avec code managé avec Visual Studio 2012. Pour ajouter un gestionnaire d’événements à un modèle de formulaire, vous démarrez avec le modèle de formulaire ouvert dans le Concepteur InfoPath, puis sélectionnez la commande d’interface utilisateur appropriés pour l’événement que vous souhaitez écrire du code pour. Une fois que vous sélectionnez la commande pour un événement dans le Concepteur InfoPath, le focus passe automatiquement au gestionnaire d’événements squelette pour cet événement dans l’éditeur de code Visual Studio 2012.
+Cette rubrique décrit les procédures permettant d'ajouter des gestionnaires d'événements à un modèle de formulaire Microsoft InfoPath avec code managé avec Visual Studio 2012. Pour ajouter un gestionnaire d'événements à un modèle de formulaire, vous commencez par ouvrir le modèle de formulaire dans le Concepteur InfoPath, puis vous sélectionnez la commande d'interface utilisateur appropriée pour l'événement pour lequel vous souhaitez écrire du code. Une fois que vous avez sélectionné la commande pour un événement dans le Concepteur InfoPath, le squelette du gestionnaire d'événements de cet événement est activé dans l'éditeur de code Visual Studio 2012.
   
 > [!IMPORTANT]
-> Vous devez toujours utiliser l’interface utilisateur InfoPath Designer pour ajouter un gestionnaire d’événements. Ajout d’un gestionnaire d’événements avec l’interface utilisateur génère du code de liaison d’événements dans la méthode **InternalStartup** du fichier FormCode.cs ou FormCode.vb dans votre projet de modèle de formulaire. Pas créer la méthode **InternalStartup** ou si vous ajoutiez code supplémentaire qu’il contient. 
+> Vous devez toujours utiliser l'interface utilisateur du Concepteur InfoPath pour ajouter un gestionnaire d'événements. L'ajout d'un gestionnaire d'événements à l'aide de l'interface utilisateur génère un code de liaison d'événements dans la méthode **InternalStartup** du fichier FormCode.cs ou FormCode. vb dans votre projet de modèle de formulaire. Vous ne devez pas créer la méthode **InternalStartup** ni y ajouter de code supplémentaire vous-même. 
   
 ### <a name="add-an-event-handler-for-the-click-event-of-a-button-control"></a>Ajout d'un gestionnaire d'événement pour l'événement Click d'un contrôle Bouton
 
-1. Ouvrez le modèle de formulaire dans le Concepteur InfoPath, puis ajoutez un contrôle **Button** au formulaire. 
+1. Ouvrez le modèle de formulaire dans le Concepteur InfoPath, puis ajoutez un contrôle **bouton** au formulaire. 
     
 2. Cliquez sur le bouton, puis sous l'onglet **Propriétés** du ruban, cliquez sur **Code personnalisé**.
     
@@ -50,13 +50,13 @@ Cette rubrique décrit les procédures permettant d'ajouter des gestionnaires d'
     Le squelette du gestionnaire d'événements de l'événement [Loading](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) , [ViewSwitched](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ViewSwitched.aspx) , [ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) ou [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) est activé dans l'éditeur de code Visual Studio 2012. 
     
     > [!NOTE]
-    > [!REMARQUE] Les commandes servant à créer un gestionnaire d'événements pour l'événement [ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) ou [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) ne sont pas disponibles pour le paramètre de compatibilité du modèle de formulaire est défini sur **Formulaire de navigateur Web**. Ces événements ne sont pas pris en charge dans la logique métier des modèles de formulaires publiés dans les bibliothèques de documents Microsoft SharePoint Server 2010 avec InfoPath Forms Services. Pour créer un gestionnaire d’événements pour l’événement [ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) ou de [connexion](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) , vous devez modifier le paramètre de compatibilité pour le **Formulaire InfoPath** dans le Concepteur InfoPath. Pour cela, cliquez sur l'onglet **Fichier**, cliquez sur **Options de formulaire**, sur **Compatibilité**, puis définissez **Type de formulaire** sur **Formulaire de l'Éditeur InfoPath**. 
+    > [!REMARQUE] Les commandes servant à créer un gestionnaire d'événements pour l'événement [ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) ou [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) ne sont pas disponibles pour le paramètre de compatibilité du modèle de formulaire est défini sur **Formulaire de navigateur Web**. Ces événements ne sont pas pris en charge dans la logique métier des modèles de formulaires publiés dans les bibliothèques de documents Microsoft SharePoint Server 2010 avec InfoPath Forms Services. Pour créer un gestionnaire d'événements pour l'événement [ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) ou [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) , vous devez modifier le paramètre de compatibilité sur formulaire de l' **éditeur InfoPath** dans le Concepteur InfoPath. Pour cela, cliquez sur l'onglet **Fichier**, cliquez sur **Options de formulaire**, sur **Compatibilité**, puis définissez **Type de formulaire** sur **Formulaire de l'Éditeur InfoPath**. 
   
 ### <a name="add-an-event-handler-for-the-submit-event-of-a-form"></a>Ajout d'un gestionnaire d'événements pour l'événement Submit d'un formulaire
 
 1. Ouvrez le modèle de formulaire dans le Concepteur InfoPath.
     
-2. Cliquez sur l’onglet **fichier** , cliquez sur **Envoyer à** sous l’onglet **Infos** , puis cliquez sur ** Options d’envoi **.
+2. Click the **File** tab, click **Submit To** on the **Info** tab, and then click ** Submit Options **.
     
 3. Activez la case à cocher **Autoriser les utilisateurs à envoyer ce formulaire**, cliquez sur **Effectuer une action personnalisée à l'aide du code**, puis sur **Modifier le code**.
     
@@ -73,7 +73,7 @@ Cette rubrique décrit les procédures permettant d'ajouter des gestionnaires d'
     Le squelette de gestionnaire d'événements de l'événement [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) est activé dans l'éditeur de code Visual Studio 2012. 
     
     > [!NOTE]
-    > [!REMARQUE] La case à cocher **Enregistrer au moyen d'un code personnalisé** n'est pas disponible si le paramètre de compatibilité du modèle de formulaire est défini sur **InfoPath Forms Services**. L'événement [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) n'est pas pris en charge dans la logique métier des modèles de formulaires publiés dans les bibliothèques de documents dans Microsoft SharePoint Server 2010 avec InfoPath Forms Services. Pour créer un gestionnaire d’événements pour l’événement [Enregistrer](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) , vous devez modifier le paramètre de compatibilité pour le **Formulaire InfoPath** dans le Concepteur InfoPath. Pour cela, cliquez sur l'onglet **Fichier**, cliquez sur **Options de formulaire**, cliquez sur **Compatibilité**, puis définissez **Type de formulaire** sur **Formulaire de l'Éditeur InfoPath**. 
+    > [!REMARQUE] La case à cocher **Enregistrer au moyen d'un code personnalisé** n'est pas disponible si le paramètre de compatibilité du modèle de formulaire est défini sur **InfoPath Forms Services**. L'événement [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) n'est pas pris en charge dans la logique métier des modèles de formulaires publiés dans les bibliothèques de documents dans Microsoft SharePoint Server 2010 avec InfoPath Forms Services. Pour créer un gestionnaire d'événements pour l'événement [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) , vous devez modifier le paramètre de compatibilité sur formulaire de l' **éditeur InfoPath** dans le Concepteur InfoPath. Pour cela, cliquez sur l'onglet **Fichier**, cliquez sur **Options de formulaire**, cliquez sur **Compatibilité**, puis définissez **Type de formulaire** sur **Formulaire de l'Éditeur InfoPath**. 
   
 ### <a name="add-an-event-handler-for-the-versionupgrade-event-of-a-form"></a>Ajout d'un gestionnaire d'événements pour l'événement VersionUpgrade d'un formulaire
 
@@ -96,11 +96,11 @@ Cette rubrique décrit les procédures permettant d'ajouter des gestionnaires d'
     Le squelette de gestionnaire d'événements de l'événement [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) est activé dans l'éditeur de code Visual Studio 2012. 
     
     > [!NOTE]
-    > [!REMARQUE] La case à cocher **Fusionner à l'aide d'un code personnalisé** n'est pas disponible si le paramètre de compatibilité du modèle de formulaire est défini sur **InfoPath Forms Services**. L'événement [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) n'est pas pris en charge dans la logique métier des modèles de formulaires publiés dans les bibliothèques de documents dans Microsoft SharePoint Server 2010 avec InfoPath Forms Services. Pour créer un gestionnaire d’événements pour l’événement [de fusion](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) , vous devez modifier le paramètre de compatibilité pour le **Formulaire InfoPath** dans le Concepteur InfoPath. Pour cela, cliquez sur l'onglet **Fichier**, cliquez sur **Options de formulaire**, cliquez sur **Compatibilité**, puis définissez **Type de formulaire** sur **Formulaire de l'Éditeur InfoPath**. 
+    > [!REMARQUE] La case à cocher **Fusionner à l'aide d'un code personnalisé** n'est pas disponible si le paramètre de compatibilité du modèle de formulaire est défini sur **InfoPath Forms Services**. L'événement [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) n'est pas pris en charge dans la logique métier des modèles de formulaires publiés dans les bibliothèques de documents dans Microsoft SharePoint Server 2010 avec InfoPath Forms Services. Pour créer un gestionnaire d'événements pour l'événement [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) , vous devez modifier le paramètre de compatibilité sur formulaire de l' **éditeur InfoPath** dans le Concepteur InfoPath. Pour cela, cliquez sur l'onglet **Fichier**, cliquez sur **Options de formulaire**, cliquez sur **Compatibilité**, puis définissez **Type de formulaire** sur **Formulaire de l'Éditeur InfoPath**. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Procédure pas à pas : Création d’un modèle de formulaire de base avec du Code](walkthrough-creating-a-basic-form-template-with-code.md)
+[Procédure : Création d’un modèle de formulaire de base avec code](walkthrough-creating-a-basic-form-template-with-code.md)
 

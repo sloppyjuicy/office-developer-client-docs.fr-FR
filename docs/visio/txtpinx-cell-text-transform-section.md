@@ -8,23 +8,23 @@ f1_keywords:
 - vis_sdr.chm1040
 localization_priority: Normal
 ms.assetid: d0c0fe52-6a9e-e40e-394e-83a851db55a4
-description: 'Détermine le x-coordonnées du centre du bloc de texte de rotation par rapport à l’origine de la forme. La formule par défaut est la suivante :'
-ms.openlocfilehash: df103557d103dbde7e4a1c8d67cabe37a0af9311
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: "Détermine la coordonnée x du centre de la rotation du bloc de texte par rapport à l'origine de la forme. La formule par défaut est la suivante :"
+ms.openlocfilehash: 836f5c807d0c0e53efc825f62f60429274282165
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282298"
 ---
 # <a name="txtpinx-cell-text-transform-section"></a>TxtPinX, cellule (section Text Transform)
 
-Détermine le *x* -coordonnées du centre du bloc de texte de rotation par rapport à l’origine de la forme. La formule par défaut est la suivante : 
+Détermine la coordonnée *x* du centre de la rotation du bloc de texte par rapport à l'origine de la forme. La formule par défaut est la suivante : 
   
 = Largeur \* 0,5
   
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule TxtPinX par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule TxtPinX par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule TxtPinX par index dans un programme, 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowTextXForm** <br/> |
 | Index de la cellule :  <br/> |**visXFormPinX** <br/> |
    

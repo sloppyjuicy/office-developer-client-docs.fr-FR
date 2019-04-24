@@ -8,49 +8,49 @@ f1_keywords:
 - Vis_DSS.chm1135
 localization_priority: Normal
 ms.assetid: 2416b323-e084-18e1-c9be-a797078dfab9
-description: Représente un x-coordonnées d’une forme dans le système de coordonnées local. Le tableau suivant décrit la cellule X en fonction de la ligne dans laquelle il se trouve.
-ms.openlocfilehash: e5bc99d4f73d49741c4378009dfc2a883bb655ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Représente une coordonnée x sur une forme, en coordonnées locales. Ce tableau décrit la cellule X suivant la ligne sur laquelle elle se trouve.
+ms.openlocfilehash: 6554000a86a6bf27d343a5647161bbe416725e64
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285111"
 ---
 # <a name="x-cell-geometry-section"></a>X, cellule (section Geometry)
 
-Représente un *x* -coordonnées d’une forme dans le système de coordonnées local. Le tableau suivant décrit la cellule X en fonction de la ligne dans laquelle il se trouve. 
+Représente une coordonnée *x* sur une forme, en coordonnées locales. Ce tableau décrit la cellule X suivant la ligne sur laquelle elle se trouve. 
   
-|**Row**|**Description**|
+|**Ligne**|**Description**|
 |:-----|:-----|
-|[MoveTo](moveto-row-geometry-section.md) <br/> | Si la ligne MoveTo est la première ligne dans la section, la cellule X représente la *x* -coordonnées du premier sommet d’un chemin d’accès. Si la ligne MoveTo apparaît entre deux lignes, la cellule X représente la *x* -coordonnées du premier sommet après la rupture du chemin d’accès.  <br/> |
-|[LineTo](lineto-row-geometry-section.md) <br/> | *X* -coordonnées du sommet de fin d’un segment de trait droit.  <br/> |
-|[ArcTo](arcto-row-geometry-section.md) <br/> | *X* -coordonnées du sommet de fin d’un arc.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | *X* -coordonnées du sommet de fin d’un arc elliptique.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> | *X* -coordonnées du sommet de fin d’une polyligne.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | *X* -coordonnées du dernier point de contrôle d’une courbe B-spline rationnelle (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | *X* -coordonnées du deuxième point de contrôle d’une spline.  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> | *X* -coordonnées d’un point de contrôle.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | *X* -coordonnées d’un point sur une ligne infinie.  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | *X* -coordonnée du centre de l’ellipse.  <br/> |
+|[MoveTo](moveto-row-geometry-section.md) <br/> | Si la ligne MoveTo est la première ligne de la section, la cellule X représente la coordonnée *x* du premier sommet d'un chemin. Si la ligne MoveTo apparaît entre deux lignes, la cellule X représente la coordonnée *x* du premier sommet après la rupture du chemin.  <br/> |
+|[LineTo](lineto-row-geometry-section.md) <br/> | Coordonnée *x* du sommet de fin d'un segment de ligne droite.  <br/> |
+|[ArcTo](arcto-row-geometry-section.md) <br/> | Coordonnée *x* du sommet de fin d'un arc.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée *x* du sommet de fin d'un arc elliptique.  <br/> |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> | Coordonnée *x* du sommet de fin d'une polyligne.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Coordonnée *x* du dernier point de contrôle d'une courbe B-spline rationnelle inuniforme (NURBS).  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | Coordonnée *x* du deuxième point de contrôle d'une spline.  <br/> |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> | Coordonnée *x* d'un point de contrôle.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordonnée *x* d'un point sur la ligne infinie.  <br/> |
+|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *x* du centre de l'ellipse.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule X par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Géométrie *i* . X *j* où *i* et *j* = < 1 >, 2, 3...  <br/> |
-|| Géométrie *i* . X1 (lignes InfiniteLine et Ellipse) où *i* = < 1 >, 2, 3...  <br/> |
+| Nom de cellule :  <br/> | Géométrie *i* . X *j* où *i* et *j* = <1>, 2, 3...  <br/> |
+|| Géométrie *i* . X1 (lignes InfiniteLine et ellipse) où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule X par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionFirstComponent** +  *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la ligne :  <br/> |**visRowVertex** +  *j* où *j* = 0, 1, 2...  <br/> |
-||**visRowVertex** (Lignes InfiniteLine et Ellipse)  <br/> |
-| Index de la cellule :  <br/> |**visX** (Lignes MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, Polyline, SplineStart et SplineKnot)  <br/> |
-||**visInfiniteLineX1** (Ligne InfiniteLine)  <br/> |
-||**visEllipseCenterX** (Ligne ellipse)  <br/> |
+||**visRowVertex** (lignes InfiniteLine et Ellipse)  <br/> |
+| Index de la cellule :  <br/> |**visX** (lignes MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, Polyline, SplineStart et SplineKnot)  <br/> |
+||**visInfiniteLineX1** (ligne InfiniteLine)  <br/> |
+||**visEllipseCenterX** (ligne Ellipse)  <br/> |
    
 

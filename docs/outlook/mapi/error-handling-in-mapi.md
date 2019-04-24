@@ -7,42 +7,42 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 98ee0856411cce3a3e9012185be6c30503de7779
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287278"
 ---
 # <a name="error-handling-in-mapi"></a>Gestion des erreurs dans MAPI
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les valeurs de réussite, avertissement et d’erreur sont renvoyés en utilisant un nombre 32 bits connu ainsi poignée ou HRESULT. Une valeur HRESULT n’est vraiment pas un handle vers rien ; Il est simplement une valeur 32 bits avec plusieurs champs codé dans la valeur. Un résultat de zéro indique la réussite et un résultat différent de zéro indique l’échec.
+Les valeurs de réussite, d'avertissement et d'erreur sont renvoyées à l'aide d'un nombre 32 bits appelé handle de résultat, ou HRESULT. Un HRESULT n'est pas un descripteur de rien; Il s'agit simplement d'une valeur de 32 bits avec plusieurs champs codés dans la valeur. Un résultat nul indique la réussite et un résultat différent de zéro indique un échec.
   
 MAPI sur les plateformes 32 bits fonctionne uniquement avec les valeurs HRESULT.
   
-L’illustration suivante montre le format HRESULT pour les plateformes 32 bits.
+L'illustration suivante montre le format HRESULT pour les plateformes 32 bits.
   
 **Format HRESULT**
   
 ![Format HRESULT] (media/amapi_49.gif "Format HRESULT")
   
-Le bit poids fort HRESULT indique si la valeur renvoyée représente a réussi ou échoué. Si la valeur zéro, la valeur indique la réussite. Si la valeur 1, elle indique échec.
+Le bit de poids fort dans le HRESULT indique si la valeur de retour représente la réussite ou l'échec. Si la valeur est égale à zéro, la valeur indique Success. Si ce paramètre est défini sur 1, il indique un échec.
   
-R, C, N, les bits r sont réservés dans HRESULT.
+Les bits R, C, N et r sont réservés dans le HRESULT.
   
-Le champ facility dans les deux versions indique le domaine de responsabilité de l’erreur. Il existe plusieurs fonctions, mais la plupart des erreurs MAPI utiliser FACILITY_ITF pour représenter les erreurs de l’interface. Les fonctionnalités les plus courants qui sont actuellement utilisées sont : FACILITY_NULL, FACILITY_ITF, FACILITY_DISPATCH, FACILITY_RPC et FACILITY_STORAGE. Si les nouvelles installations sont nécessaires, Microsoft les alloue, car ils doivent être uniques. Le tableau suivant décrit les divers champs des immobilisations.
+Le champ Facility dans les deux versions indique le domaine de responsabilité de l'erreur. Il existe plusieurs fonctionnalités, mais la plupart des erreurs MAPI utilisent FACILITY_ITF pour représenter les erreurs d'interface. Les installations les plus courantes actuellement utilisées sont les suivantes: FACILITY_NULL, FACILITY_ITF, FACILITY_DISPATCH, FACILITY_RPC et FACILITY_STORAGE. Si de nouvelles installations sont nécessaires, Microsoft les alloue car elles doivent être uniques. Le tableau suivant décrit les différents champs de l'utilitaire.
   
-|Immobilisations|Description|
+|Facility|Description|
 |:-----|:-----|
-|FACILITY_NULL  <br/> |Pour les codes d’état courant applicables comme S_OK ou E_OUTOF_MEMORY ; la valeur est égale à zéro.  <br/> |
-|FACILITY_ITF  <br/> |Pour la plupart des codes d’état renvoyés par les méthodes d’interface ; la valeur est définie par l’interface. Autrement dit, deux valeurs HRESULT avec exactement la même valeur 32 bits renvoyé à partir de deux interfaces différentes peuvent avoir des significations différentes.  <br/> |
-|FACILITY_DISPATCH  <br/> |Erreurs d’interface de la liaison tardive [IDispatch](https://msdn.microsoft.com/library/ms221608.aspx) .  <br/> |
-|FACILITY_RPC  <br/> |Pour les codes d’état renvoyés par les appels de procédure distante.  <br/> |
-|FACILITY_STORAGE  <br/> |Pour les codes d’état renvoyés à partir d’appels de méthode [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) ou [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) relatifs au stockage structuré. Codes d’état avec des valeurs de code (16 bits inférieurs) dans les codes d’erreur de plage de Windows (c'est-à-dire, moins de 256) ont la même signification que les erreurs Windows correspondants.  <br/> |
+|FACILITY_NULL  <br/> |Pour les codes d'État communs largement applicables, tels que S_OK ou E_OUTOF_MEMORY; la valeur est zéro.  <br/> |
+|FACILITY_ITF  <br/> |Pour la plupart des codes d'État renvoyés par les méthodes d'interface; la valeur est définie par l'interface. En d'autres termes, deux valeurs HRESULT avec exactement la même valeur 32 bits renvoyée à partir de deux interfaces différentes peuvent avoir des significations différentes.  <br/> |
+|FACILITY_DISPATCH  <br/> |Pour les erreurs d'interface [IDispatch](https://msdn.microsoft.com/library/ms221608.aspx) de liaison tardive.  <br/> |
+|FACILITY_RPC  <br/> |Pour les codes d'État renvoyés par les appels de procédure distante.  <br/> |
+|FACILITY_STORAGE  <br/> |Pour les codes d'État renvoyés par les appels de méthode [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) ou [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) liés au stockage structuré. Les codes d'État avec des valeurs code (16 bits inférieurs) comprises dans la plage des codes d'erreur Windows (autrement dit, inférieurs à 256) ont la même signification que les erreurs Windows correspondantes.  <br/> |
    
-Le champ code est un numéro unique assigné pour représenter l’erreur ou avertissement.
+Le champ Code est un numéro unique qui est affecté pour représenter l'erreur ou l'avertissement.
   
 

@@ -1,5 +1,5 @@
 ---
-title: Configuration des paramètres de sécurité pour les modèles de formulaire avec code
+title: Configurer les paramètres de sécurité pour les modèles de formulaires avec code
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,13 +9,13 @@ localization_priority: Normal
 ms.assetid: 24d1a322-581f-497e-b97b-bd02c4516551
 description: Vous pouvez personnaliser le jeu d'autorisations qui est appliqué à un modèle de formulaire InfoPath avec code managé en utilisant le composant logiciel enfichable Configuration .NET.
 ms.openlocfilehash: 77f3546d976bb5ea353aa3fbe58ba7af6cd92a6d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300158"
 ---
-# <a name="configure-security-settings-for-form-templates-with-code"></a>Configuration des paramètres de sécurité pour les modèles de formulaire avec code
+# <a name="configure-security-settings-for-form-templates-with-code"></a>Configurer les paramètres de sécurité pour les modèles de formulaires avec code
 
 Vous pouvez personnaliser le jeu d'autorisations qui est appliqué à un modèle de formulaire InfoPath avec code managé en utilisant le composant logiciel enfichable Configuration .NET.
   
@@ -23,7 +23,7 @@ Le CLR (Common Language Runtime) utilisé par InfoPath recherche un groupe de co
   
 Pour que la stratégie de sécurité personnalisée définie à l'aide du composant logiciel enfichable Configuration .NET soit appliquée, elle doit être déployée sur tous les ordinateurs clients sur lesquels le modèle de formulaire sera exécuté.
   
-Pour plus d’informations sur le modèle de sécurité pour InfoPath gérée des modèles de formulaires de code, voir [Modèle de sécurité pour les modèles de formulaires avec Code](about-the-security-model-for-form-templates-with-code.md)
+Pour plus d'informations sur le modèle de sécurité pour les modèles de formulaire InfoPath avec code managé, voir [modèle de sécurité pour les modèles de formulaire avec code](about-the-security-model-for-form-templates-with-code.md)
   
 ## <a name="creating-a-code-group-for-infopath-form-templates"></a>Création d'un groupe de codes pour les modèles de formulaire InfoPath
 
@@ -54,14 +54,14 @@ Si vous le souhaitez, vous pouvez gérer le jeu d'autorisations pour tous les mo
   
 ## <a name="assigning-fulltrust-to-forms-at-a-specific-url-or-unc"></a>Affectation d'une autorisation totale à des formulaires comportant une URL ou une UNC spécifique
 
-Vous pouvez créer des groupes de codes sous le groupe **Modèles de formulaires InfoPath** pour accorder une autorisation totale à des modèles de formulaires provenant d'une URL ou d'un emplacement UNC spécifique. Ainsi, tous les modèles de formulaires publiés à l'emplacement spécifié s'exécuteront avec une autorisation totale. 
+Vous pouvez créer des groupes de codes sous le groupe **Modèles de formulaires InfoPath** pour accorder une autorisation totale à des modèles de formulaires provenant d’une URL ou d’un emplacement UNC spécifique. Ainsi, tous les modèles de formulaires publiés à l’emplacement spécifié s’exécuteront avec une autorisation totale. 
   
 > [!NOTE]
-> [!REMARQUE] Un modèle de formulaire chargé depuis l'ordinateur local (groupe de codes de la zone MyComputer) est chargé par InfoPath à l'aide d'une URL aléatoire. De ce fait, vous ne pouvez pas utiliser la procédure qui suit pour accorder le jeu d'autorisations Autorisation totale à un tel modèle de formulaire. Pour accorder à un modèle de formulaire installé localement l’autorisation FullTrust définie, utilisez une des procédures décrites dans la section « Déploiement de formulaire modèles qui nécessitent totale » de la rubrique [Déploiement des modèles de formulaire InfoPath avec Code](how-to-deploy-infopath-form-templates-with-code.md) . 
+> [!REMARQUE] Un modèle de formulaire chargé depuis l'ordinateur local (groupe de codes de la zone MyComputer) est chargé par InfoPath à l'aide d'une URL aléatoire. De ce fait, vous ne pouvez pas utiliser la procédure qui suit pour accorder le jeu d'autorisations Autorisation totale à un tel modèle de formulaire. Pour accorder à un modèle de formulaire installé localement le jeu d'autorisations FullTrust, utilisez l'une des procédures décrites dans la section «déploiement de modèles de formulaires qui nécessitent une confiance totale» de la rubrique [déployer des modèles de formulaires InfoPath avec code](how-to-deploy-infopath-form-templates-with-code.md) . 
   
 ### <a name="to-assign-fulltrust-to-infopath-forms-at-a-specific-url-or-unc-location"></a>Pour affecter une autorisation totale aux formulaires InfoPath situés à un emplacement URL ou UNC spécifique
 
-1. Dans le menu **Démarrer**, pointez sur **Outils d'administration**, puis cliquez sur **Configuration Microsoft .NET Framework 2.0**.
+1. Dans le menu **Démarrer**, pointez sur **Outils d’administration**, puis cliquez sur **Configuration Microsoft .NET Framework 2.0**.
     
     Si l'option **Outils d'administration** ne se trouve pas dans le menu **Démarrer**, ouvrez **Outils d'administration** depuis le **Panneau de configuration** et double-cliquez sur **Configuration Microsoft .NET Framework 2.0**.
     
@@ -96,9 +96,9 @@ Vous pouvez créer des groupes de codes sous le groupe **Modèles de formulaires
 
 Après avoir défini une stratégie de sécurité personnalisée pour les modèles de formulaires InfoPath avec code managé, vous pouvez créer un package Windows Installer (.msi) pour déployer la stratégie de sécurité sur les ordinateurs des utilisateurs à l'aide de la Stratégie de groupe ou de Microsoft Systems Management Server.
   
-### <a name="to-create-a-deployment-package-for-custom-infopath-security-policy"></a>Pour créer un package de déploiement pour la stratégie de sécurité personnalisée d'InfoPath
+### <a name="to-create-a-deployment-package-for-custom-infopath-security-policy"></a>Pour créer un package de déploiement pour la stratégie de sécurité personnalisée d’InfoPath
 
-1. Dans le menu **Démarrer**, pointez sur **Outils d'administration**, puis cliquez sur **Configuration Microsoft .NET Framework 2.0**.
+1. Dans le menu **Démarrer**, pointez sur **Outils d'administration**, puis cliquez sur **Configuration Microsoft .NET Framework 2.0**.
     
     Si l'option **Outils d'administration** ne se trouve pas dans le menu **Démarrer**, ouvrez **Outils d'administration** depuis le **Panneau de configuration** et double-cliquez sur **Configuration Microsoft .NET Framework 2.0**.
     
@@ -108,7 +108,7 @@ Après avoir défini une stratégie de sécurité personnalisée pour les modèl
     
 4. Cliquez sur **Terminer** pour créer le package de déploiement. 
     
-5. Pour plus d’informations sur la façon d’utiliser l’outil de Configuration .NET Framework, recherchez aide de Visual Studio ou le site Web MSDN « Outil .NET Framework Configuration (Mscorcfg.msc) ».
+5. Pour plus d'informations sur l'utilisation de l'outil .NET Framework Configuration, consultez l'aide de Visual Studio ou le site Web MSDN «outil .NET Framework Configuration Tool (Mscorcfg. msc)».
     
 ## <a name="see-also"></a>Voir aussi
 

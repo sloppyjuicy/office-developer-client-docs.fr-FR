@@ -1,5 +1,5 @@
 ---
-title: Cellule YRulerOrigin (règle &amp; Section grille)
+title: Cellule YRulerOrigin (section &amp; règle et grille)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,33 +8,33 @@ f1_keywords:
 - vis_sdr.chm1220
 localization_priority: Normal
 ms.assetid: 5d21b64f-a559-76ef-06df-d24c048cc6ef
-description: Indique le point zéro de la règle de l’axe des y pour la page.
-ms.openlocfilehash: 143f372d66ee25e90608a9b2eb252a99e7bcc52f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Indique le point zéro sur l'axe y de la règle de la page.
+ms.openlocfilehash: ead9ca453bfeb86f32a943950b297b9b629de95d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284964"
 ---
-# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Cellule YRulerOrigin (règle &amp; Section grille)
+# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Cellule YRulerOrigin (section &amp; règle et grille)
 
-Indique le point zéro de la règle de l’axe des y pour la page.
+Indique le point zéro sur l'axe y de la règle de la page.
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l’option **zéro de la règle** verticale de la **règle &amp; grille** boîte de dialogue (sous l’onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l'option **zéro** de la règle verticale dans la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
   
-Pour obtenir une référence à la cellule YRulerOrigin par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule YRulerOrigin par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |YRulerOrigin  <br/> |
    
-Pour obtenir une référence à la cellule YRulerOrigin par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule YRulerOrigin à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visYRulerOrigin** <br/> |
    

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 28611e442f816e4d091cc6b29e2ee69195a63d09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 08cf1faa0c3cc4cf61e2253b0026361704fdd0e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269936"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>Propriété canonique PidTagCreateTemplates
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un objet incorporé table qui contient les identificateurs d’entrée de boîte de dialogue zone modèle. 
+Contient un objet table incorporé qui contient des identificateurs d'entrée de modèle de boîte de dialogue. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient un objet incorporé table qui contient les identificateurs d’entrée 
    
 ## <a name="remarks"></a>Remarques
 
-Pour savoir quel modèle d’objets peuvent être créés à l’intérieur d’un conteneur, appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur cette propriété. L’objet résultant est la table unique qui fournit les identificateurs d’entrée pour tous les modèles que vous pouvez créer dans le conteneur. 
+Pour connaître les objets template pouvant être créés dans un conteneur, appelez la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) sur cette propriété. L'objet résultant est la table ponctuelle qui fournit les identificateurs d'entrée pour tous les modèles que vous pouvez créer à l'intérieur du conteneur. 
   
-Pour créer les objets du modèle, appeler la méthode **CreateEntry** de l’objet conteneur sur les valeurs de colonne **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) à partir de la table unique.
+Pour créer les objets template, appelez la méthode **CreateEntry** de l'objet Container sur les valeurs de la colonne **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) à partir de la table ponctuelle.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

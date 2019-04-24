@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: Un modèle de formulaire que vous créez avec Microsoft InfoPath utilise un schéma XML (XSD) pour effectuer une validation de la structure et des données du code XML qui est en entrée, en modification et en sortie d'un formulaire InfoPath. Chaque modèle de formulaire créé dans le concepteur de formulaires InfoPath contient au moins un fichier de schéma XSD (.xsd) qui est utilisé pour la validation lors de l'exécution.
 ms.openlocfilehash: 25828c3ec21d22a9952452d5a82fe1a3b4bab54c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303163"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Utilisation des schémas XML dans InfoPath
 
@@ -22,7 +22,7 @@ Un modèle de formulaire que vous créez avec Microsoft InfoPath utilise un sch�
   
 ## <a name="using-externally-authored-xml-schemas"></a>Utilisation de schémas XML créés en externe
 
-Pour charger un fichier de schéma XSD qui a été créé en dehors d'InfoPath, procédez selon les étapes suivantes.
+Pour charger un fichier de schéma XSD qui a été créé en dehors d’InfoPath, procédez selon les étapes suivantes.
   
 ### <a name="to-create-a-form-template-based-on-an-external-schema"></a>Pour créer un modèle de formulaire basé sur un schéma externe
 
@@ -32,7 +32,7 @@ Pour charger un fichier de schéma XSD qui a été créé en dehors d'InfoPath, 
     
 ## <a name="unsupported-xsd-constructs"></a>Constructions XSD non prises en charge
 
-Les sections suivantes décrivent les constructions XSD qu'InfoPath ne peut pas gérer lors de l'exécution. Évitez ces constructions lors de la création d'un modèle de formulaire dans le concepteur de formulaires InfoPath.
+Les sections suivantes décrivent les constructions XSD qu’InfoPath ne peut pas gérer lors de l’exécution. Évitez ces constructions lors de la création d’un modèle de formulaire dans le concepteur de formulaires InfoPath.
   
 ## <a name="entity-and-entities-types"></a>Types ENTITY et ENTITIES
 
@@ -51,15 +51,15 @@ Le mode Création d'InfoPath prend en charge la conception d'un modèle de formu
   
 ## <a name="xsd-constructs-with-reduced-functionality"></a>Constructions XSD avec une fonctionnalité réduite
 
-Les sections suivantes décrivent des constructions XSD qui ont une fonctionnalité réduite lorsqu'ils sont utilisés pour créer un modèle de formulaire dans le concepteur de formulaires InfoPath.
+Les sections suivantes décrivent des constructions XSD qui ont une fonctionnalité réduite lorsqu’ils sont utilisés pour créer un modèle de formulaire  dans le concepteur de formulaires InfoPath.
   
 ## <a name="substitution-groups"></a>Groupes de substitution
 
-Tous les membres du groupe de substitution apparaissent dans le volet Office **Champs**. InfoPath représente les possibilités de substitution comme un choix de tous les groupes de substitution (y compris l'élément de définition s'il n'est pas abstrait). S'il n'existe pas de groupes de substitution pour un élément abstrait, InfoPath vous invite à fournir un schéma contenant au moins un élément qui est un groupe de substitution. 
+Tous les membres du groupe de substitution apparaissent dans le volet Office **Champs**. InfoPath représente les possibilités de substitution comme un choix de tous les groupes de substitution (y compris l’élément de définition s’il n’est pas abstrait). S’il n’existe pas de groupes de substitution pour un élément abstrait, InfoPath vous invite à fournir un schéma contenant au moins un élément qui est un groupe de substitution. 
   
 ## <a name="unbounded-choice-elements"></a>Éléments choice non liés
 
-Le fragment de schéma suivant montre un élément choice non lié :
+Le fragment de schéma suivant montre un élément choice non lié :
   
 ```XML
 <xsd:choice maxOccurs="unbounded"> 
@@ -73,7 +73,7 @@ InfoPath affiche les éléments choice extensibles en tant que choix extensibles
   
 ## <a name="repeating-sequence"></a>Séquence extensible
 
-Le fragment de schéma suivant montre une séquence extensible :
+Le fragment de schéma suivant montre une séquence extensible :
   
 ```XML
 <xsd:sequence maxOccurs="unbounded"> 
@@ -87,7 +87,7 @@ Tant que la séquence extensible contient un élément requis, InfoPath charge l
   
 ## <a name="choice-of-model-groups"></a>Choix de groupes de modèles
 
-Le fragment de schéma suivant montre l'élément choice contenant plusieurs groupes de modèles :
+Le fragment de schéma suivant montre l’élément choice contenant plusieurs groupes de modèles :
   
 ```XML
 <xsd:choice> 
@@ -104,7 +104,7 @@ Le mode Création d'InfoPath prend en charge de telles constructions XSD sans re
   
 ## <a name="optional-sibling-with-same-qualified-name"></a>Frère facultatif avec le même nom qualifié
 
-Le fragment de schéma suivant montre un frère facultatif avec le même nom qualifié (`QName`) :
+Le fragment de schéma suivant montre un frère facultatif avec le même nom`QName`qualifié ():
   
 ```xml
 <xsd:sequence> 
@@ -119,9 +119,9 @@ Les expressions **XPath** pour ces nœuds peuvent être complexes car chaque ins
   
 ## <a name="xsd-constructs-with-special-meaning-in-infopath"></a>Constructions XSD avec une signification spéciale dans InfoPath
 
-Les sections suivantes décrivent des constructions XSD qui ont une signification spéciale lorsqu'elles sont utilisées dans la création d'un modèle de formulaire en mode Création. Ces sections décrivent comment vous pouvez utiliser les constructions dans votre schéma pour permettre certains comportements.
+Les sections suivantes décrivent des constructions XSD qui ont une signification spéciale lorsqu’elles sont utilisées dans la création d’un modèle de formulaire en mode Création. Ces sections décrivent comment vous pouvez utiliser les constructions dans votre schéma pour permettre certains comportements.
   
-## <a name="adding-new-element-fields-and-groups-with-the-fields-task-pane"></a>Ajout de nouveaux champs et groupes d'éléments avec le volet Office Champs
+## <a name="adding-new-element-fields-and-groups-with-the-fields-task-pane"></a>Ajout de nouveaux champs et groupes d’éléments avec le volet Office Champs
 
 Vous pouvez construire votre schéma de façon à pouvoir utiliser le volet Office **Champs** pour ajouter de nouveaux champs et groupes d'éléments à un élément lors de la conception. Pour cela, vous déclarez un élément dans votre schéma avec un élément **xsd:any** facultatif non lié, qui spécifie l'attribut namespace avec la valeur générique **##any**. Ensuite, en mode Création, vous pouvez utiliser le volet Office **Champs** pour ajouter de nouveaux champs et groupes d'éléments à cet élément. Par exemple, vous pouvez ajouter un nouveau contenu à l'élément suivant : 
   
@@ -136,7 +136,7 @@ Vous pouvez construire votre schéma de façon à pouvoir utiliser le volet Offi
 
 ```
 
-## <a name="adding-new-attribute-fields-with-the-fields-task-pane"></a>Ajout de nouveaux champs d'attribut avec le volet Office Champs
+## <a name="adding-new-attribute-fields-with-the-fields-task-pane"></a>Ajout de nouveaux champs d’attribut avec le volet Office Champs
 
 De la même façon que dans le cas d'un élément, vous pouvez déclarer un attribut avec un élément **anyAttribute** dont l'attribut namespace est spécifié avec la valeur générique **##any**. Lors de la conception, vous pouvez utiliser le volet Office **Champs** pour ajouter un nouveau contenu à cet attribut du schéma. 
   
@@ -165,7 +165,7 @@ Pour permettre aux utilisateurs de signer numériquement un formulaire lors de l
 
 ```
 
-## <a name="binding-a-field-to-a-rich-text-box-control"></a>Liaison d'un champ avec un contrôle de zone de texte enrichi
+## <a name="binding-a-field-to-a-rich-text-box-control"></a>Liaison d’un champ avec un contrôle de zone de texte enrichi
 
  Les contrôles **Zone de texte enrichi** d'InfoPath génèrent du code XHTML générique ; par conséquent, votre schéma doit spécifier qu'un nombre quelconque de textes et de nœuds XHTML est valide dans le code XML de l'instance du formulaire. Vous pouvez effectuer cette spécification avec la construction XSD suivante : 
   
@@ -185,9 +185,9 @@ Pour permettre aux utilisateurs de signer numériquement un formulaire lors de l
   
 ## <a name="debugging-common-xsd-errors"></a>Débogage des erreurs XSD courantes
 
-Si vous chargez des fichiers XSD créés en externe pour créer des modèles de formulaire dans le concepteur de formulaires d'InfoPath, vous êtes susceptibles de recevoir deux types de messages d'erreur : des messages d'erreur MSXML ou des messages d'erreur InfoPath. Les messages d'erreur MSXML apparaissent dans la section **Détails** d'une boîte de dialogue de message d'erreur InfoPath, et ils commencent toujours par une référence au nom ou au chemin d'accès du fichier de schéma qui a déclenché l'erreur. Certaines constructions de schéma XSD valides ne sont pas prises en charge par InfoPath ; celles-ci sont présentées dans la section Constructions XSD non prises en charge. Les sections suivantes décrivent certaines erreurs courantes qui provoquent l'échec du chargement correct de schémas dans InfoPath. 
+Si vous chargez des fichiers XSD créés en externe pour créer des modèles de formulaire dans le concepteur de formulaires d’InfoPath, vous êtes susceptibles de recevoir deux types de messages d’erreur : des messages d’erreur MSXML ou des messages d’erreur InfoPath. Les messages d’erreur MSXML apparaissent dans la section **Détails** d’une boîte de dialogue de message d’erreur InfoPath, et ils commencent toujours par une référence au nom ou au chemin d’accès du fichier de schéma qui a déclenché l’erreur. Certaines constructions de schéma XSD valides ne sont pas prises en charge par InfoPath ; celles-ci sont présentées dans la section Constructions XSD non prises en charge. Les sections suivantes décrivent certaines erreurs courantes qui provoquent l’échec du chargement correct de schémas dans InfoPath. 
   
-## <a name="the-xsd-namespace-declaration"></a>La déclaration d'espace de noms XSD
+## <a name="the-xsd-namespace-declaration"></a>La déclaration d’espace de noms XSD
 
 De façon similaire à tous les standards W3C, les schémas XML (XSD) ont fait l'objet d'un long processus de révision avant de devenir une recommandation. Il a existé de nombreuses versions de travail et par conséquent, de nombreux fichiers XSD ont été écrits sur la base de ces standards en cours d'évolution. Pendant ce processus, Microsoft a créé un langage de schéma propriétaire appelé XDR (XML-Data Reduced), qui a été inclus dans MSXML 3.0. À partir de MSXML 4.0, Microsoft XML Core Services prend en charge la totalité de la recommandation de XSD. De nombreux programmes de création de schémas n'ont pas attendu que XSD devienne une recommandation complète. Les versions antérieures de ces programmes sont susceptibles de produire des fichiers XSD obsolètes, que l'infrastructure MSXML 5.0, dont dépend InfoPath, ne prend pas en charge.
   
@@ -326,7 +326,7 @@ La pratique discutable finale est d'utiliser un élément **xsd:any** sans une d
 
 ```
 
-## <a name="illegal-enumeration-values"></a>Valeurs d'énumération interdites
+## <a name="illegal-enumeration-values"></a>Valeurs d’énumération interdites
 
 Les schémas XSD n'effectuent généralement aucune validation de type tant que vous n'avez pas validé un document d'instance réel. Une exception à cela est le cas où vous avez une énumération dans votre schéma. Dans ce cas, le schéma valide l'énumération par rapport aux types enumeration pour vérifier qu'ils constituent des valeurs correctes pour les nœuds. Voici deux exemples :
   
@@ -358,7 +358,7 @@ Voici un exemple plus complexe :
 
 Pour comprendre pourquoi cet exemple est non valide, vous devez comprendre comment le type **xsd:NMTOKEN** est défini. La spécification des types de données W3C définit le type **NMTOKEN** comme suit : « Un jeton de nom (NMTOKEN) est tout ensemble de caractères de nom ». 
   
-Si vous examinez, vous trouvez que « & » n’êtes pas un caractère de nom valide, et par conséquent, « M & Ms » ne valide pas comme type **NMTOKEN** . 
+Si vous examinez davantage, vous constatez que «&» n'est pas un caractère de nom valide, et par conséquent «M&Ms» n'est pas validé en tant que type **NMTOKEN** . 
   
 ## <a name="empty-sequence-or-choice-elements"></a>Éléments sequence ou choice vides
 
@@ -377,9 +377,9 @@ La suppression de la balise  `<xsd:choice />` vide doit résoudre ce problème.
   
 ## <a name="regular-expressions"></a>Expressions régulières
 
-MSXML 5.0 peut avoir des problèmes pour valider des modèles d'expressions régulières lors du chargement. Les expressions régulières peuvent être compliquées, et vous devez être attentif lorsque vous les utilisez. Chaque analyseur syntaxique XSD semble avoir des langages flexibles pour les expressions régulières : ils implémentent le langage d'expressions régulières XSD officiel ainsi que des éléments provenant d'autres langages d'expressions régulières. Si le concepteur de formulaires d'InfoPath a des problèmes pour analyser une expression régulière, les exemples de données générés par InfoPath peuvent être non valides ou ne pas être générées du tout. Ceci est acceptable lors de la conception, car InfoPath utilise les exemples de données seulement pour la mise en forme. Cependant, si vous utilisez une expression régulière qui n'est pas prise en charge par MSXML, InfoPath ne peut pas valider une valeur par rapport à cette expression lorsqu'un utilisateur remplit un formulaire. [XML Schema Part 0 : Primer Second Edition](https://www.w3.org/TR/xmlschema-0/)décrit ce qui est pris en charge dans les expressions régulières XSD. Pour plus d’informations sur les expressions régulières XSD et les expressions régulières de niveau 1 Unicode, voir [Expressions régulières Unicode](https://www.unicode.org/reports/tr18/) . 
+MSXML 5.0 peut avoir des problèmes pour valider des modèles d'expressions régulières lors du chargement. Les expressions régulières peuvent être compliquées, et vous devez être attentif lorsque vous les utilisez. Chaque analyseur syntaxique XSD semble avoir des langages flexibles pour les expressions régulières : ils implémentent le langage d'expressions régulières XSD officiel ainsi que des éléments provenant d'autres langages d'expressions régulières. Si le concepteur de formulaires d'InfoPath a des problèmes pour analyser une expression régulière, les exemples de données générés par InfoPath peuvent être non valides ou ne pas être générées du tout. Ceci est acceptable lors de la conception, car InfoPath utilise les exemples de données seulement pour la mise en forme. Cependant, si vous utilisez une expression régulière qui n'est pas prise en charge par MSXML, InfoPath ne peut pas valider une valeur par rapport à cette expression lorsqu'un utilisateur remplit un formulaire. [XML Schema Part 0: Primer Second Edition](https://www.w3.org/TR/xmlschema-0/)décrit ce qui est pris en charge dans les expressions régulières XSD. Pour plus d'informations sur les expressions régulières XSD et les expressions régulières Unicode de niveau 1, voir [Unicode Regular Expressions](https://www.unicode.org/reports/tr18/) . 
   
-## <a name="targetnamespace-attribute-issues"></a>Problèmes liés à l'attribut targetNamespace
+## <a name="targetnamespace-attribute-issues"></a>Problèmes liés à l’attribut targetNamespace
 
 XSD est intéressant en ceci que, par défaut, l'attribut **targetNamespace** référence seulement les déclarations du plus haut niveau, bien qu'il soit possible de définir  `attributeFormDefault=qualified` et  `elementFormDefault=qualified` pour remplacer ce comportement par défaut. Par exemple, supposons que vous avez le code XSD suivant. 
   
@@ -452,7 +452,7 @@ xml version="1.0" encoding="UTF-8"
 
 Cette balise d'instruction de traitement spécifie que le codage du fichier est UTF-8. Vous devez vérifier que le codage du fichier est le même que celui qui est indiqué dans cette balise. Vous pouvez déterminer le codage en examinant les octets du fichier et en recherchant les indicateurs Unicode d'ordre des octets. Il existe cependant un moyen plus facile. Si vous avez des problèmes pour ouvrir un schéma XSD, spécifiez un codage « UTF-8 », ouvrez-le dans un éditeur de texte tel que le Bloc-notes, puis enregistrez le fichier avec le codage UTF-8 (le Bloc-notes a une liste déroulante **Codage** dans la boîte de dialogue **Enregistrer sous**). Si vous avez encore des problèmes pour ouvrir le fichier, c'est que ce n'est pas un problème de codage. 
   
-## <a name="maxoccurs-attribute-inside-the-xsdall-element"></a>Attribut maxOccurs à l'intérieur d'un élément xsd:all
+## <a name="maxoccurs-attribute-inside-the-xsdall-element"></a>Attribut maxOccurs à l’intérieur d’un élément xsd:all
 
 En raison de la façon dont le non-déterminisme est défini dans la recommandation pour les schémas XML, la seule valeur valide pour l'attribut **maxOccurs** d'un élément **xsd:element** à l'intérieur d'un élément **xsd:all** est 1. Par exemple, le code suivant est valide. 
   
@@ -486,11 +486,11 @@ Cet exemple est également intéressant car il vous permet d'avoir un nombre que
 
 ```
 
-## <a name="how-to-edit-or-author-an-xsd-for-infopath"></a>Modification ou création d'un schéma XSD pour InfoPath
+## <a name="how-to-edit-or-author-an-xsd-for-infopath"></a>Modification ou création d’un schéma XSD pour InfoPath
 
 Les deux exemples des sections suivantes montrent comment modifier ou créer un schéma pour produire des résultats spécifiques dans InfoPath.
   
-## <a name="allowing-user-defined-elements-to-be-inserted-in-the-fields-task-pane"></a>Possibilité d'insérer des éléments définis par l'utilisateur dans le volet Office Champs
+## <a name="allowing-user-defined-elements-to-be-inserted-in-the-fields-task-pane"></a>Possibilité d’insérer des éléments définis par l’utilisateur dans le volet Office Champs
 
 Pour permettre à des éléments définis par l'utilisateur d'apparaître sous un élément parent dans le volet Office **Champs**, vous devez insérer un élément **xsd:any** sous l'élément parent. Pour permettre à des éléments définis par l'utilisateur d'être insérés à l'intérieur de  `<your_node_name>`, la déclaration XSD doit être similaire à ce qui suit. 
   
@@ -508,7 +508,7 @@ Pour permettre à des éléments définis par l'utilisateur d'apparaître sous u
 
 Si vous voulez aussi autoriser les attributs définis par l'utilisateur, vous devez ajouter  `<xsd:anyAttribute namespace="##any | ##other"/>` à la déclaration element. 
   
-## <a name="allowing-rich-text-elements-to-be-bound-in-infopath-design-and-edit-modes"></a>Possibilité de liaison d'éléments de texte enrichi dans les modes Création et Édition
+## <a name="allowing-rich-text-elements-to-be-bound-in-infopath-design-and-edit-modes"></a>Possibilité de liaison d’éléments de texte enrichi dans les modes Création et Édition
 
 Si vous voulez déclarer un élément qui peut être lié à un contrôle **Rich Text Box**, il doit avoir la forme suivante, qui inclut l'élément **xsd:any**, qui a un attribut namespace défini à "https://www.w3.org/1999/xhtml", comme le montre l'exemple suivant. 
   
@@ -526,7 +526,7 @@ Si vous voulez déclarer un élément qui peut être lié à un contrôle **Rich
 
 ## <a name="conclusion"></a>Conclusion
 
-En tirant profit de la prise en charge par InfoPath de la conception de solutions de formulaires XML basées sur des fichiers de schéma XML (.xsd) créés en externe, vous pouvez créer un modèle de formulaire qui fonctionne avec un schéma standard ou avec un schéma créé par votre entreprise ou votre organisation. À l'aide des informations contenues dans cet article, vous pouvez créer des fichiers de schéma XSD qui sont compatibles avec InfoPath, et vous pouvez résoudre des problèmes courants que vous êtes susceptible de rencontrer lorsque vous chargez dans l'environnement de conception InfoPath des fichiers XSD créés en externe.
+En tirant profit de la prise en charge par InfoPath de la conception de solutions de formulaires XML basées sur des fichiers de schéma XML (.xsd) créés en externe, vous pouvez créer un modèle de formulaire qui fonctionne avec un schéma standard ou avec un schéma créé par votre entreprise ou votre organisation. À l’aide des informations contenues dans cet article, vous pouvez créer des fichiers de schéma XSD qui sont compatibles avec InfoPath, et vous pouvez résoudre des problèmes courants que vous êtes susceptible de rencontrer lorsque vous chargez dans l’environnement de conception InfoPath des fichiers XSD créés en externe.
   
 ## <a name="see-also"></a>Voir aussi
 

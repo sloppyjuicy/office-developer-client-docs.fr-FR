@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm1026936
 localization_priority: Normal
 ms.assetid: a8995020-3eaa-2b2c-eca0-dd475de4d06f
-description: Le - décalage x du bouton de balise d’action par rapport au point défini par les cellules X et Y.
-ms.openlocfilehash: 043d7b198ae5a529c623545fb54ef5aa1d32217d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Décalage x du bouton de balise d'action par rapport au point défini par les cellules X et Y.
+ms.openlocfilehash: f8542d2f3a22b12794d999323d202d7a5bece20b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284971"
 ---
-# <a name="x-justify-cell-action-tags-section"></a>X Justify, cellule (section Action Tags)
+# <a name="x-justify-cell-action-tags-section"></a>X Justify Cell (Action Tags Section)
 
-*X* -décalage du bouton de balise d’action par rapport au point défini par les cellules X et Y. 
+Décalage *x* du bouton de balise d'action par rapport au point défini par les cellules X et Y. 
   
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-|**Valeur**|**Description**|**Constante d’Automation**|
+|**Value**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Aligné à gauche (valeur par défaut).  <br/> |**visSmartTagXJustifyLeft** <br/> |
-| 1  <br/> | Centré.  <br/> |**visSmartTagXJustifyCenter** <br/> |
-| 2  <br/> | Aligné à droite.  <br/> |**visSmartTagXJustifyRight** <br/> |
+| 0,1  <br/> | Centré.  <br/> |**visSmartTagXJustifyCenter** <br/> |
+| n°2  <br/> | Aligné à droite.  <br/> |**visSmartTagXJustifyRight** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les cellules X Justify et Y Justify déterminent où se trouve le bouton de balise d’action par rapport au point défini dans les cellules X et Y. 
+Les cellules X Justify et Y Justify déterminent le positionnement du bouton de balise d'action par rapport au point défini dans les cellules X et Y. 
   
-Pour obtenir une référence à la cellule X Justify par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule X Justify à partir du nom d’une autre formule ou d’un programme à partir de la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Balises actives.  *nom* . XJustify où SmartTags. *nom* est le nom de la ligne de balise d’action  <br/> |
+| Nom de cellule :  <br/> | SmartTag.  *nom* . XJustify où SmartTags. *Name* est le nom de la ligne de balise d'action  <br/> |
    
 Pour obtenir une référence à la cellule X Justify par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

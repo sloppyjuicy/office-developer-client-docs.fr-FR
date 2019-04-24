@@ -11,52 +11,52 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9cc1a1fa-62a7-411b-9b2b-c49d24a38a61
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f87ac0be4d4fcbb1c1a3dd9d407de5461eb556bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e2d69a7d67d0a09f2155bcfc255c3e0bf8cb0ebe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286548"
 ---
 # <a name="pidtagprofiletype-canonical-property"></a>Propriété canonique PidTagProfileType
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le type de banque d’informations.
+Contient le type de banque d'informations.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROFILE_TYPE  <br/> |
 |Identificateur :  <br/> |0x660A  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Configuration d’un profil MAPI  <br/> |
+|Domaine :  <br/> |Configuration du profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs possibles pour cette propriété sont :
+Les valeurs possibles pour cette propriété sont les suivantes :
   
-- 1 - utilisateur principal
+- 1-utilisateur principal
     
-- 2 - délégué
+- 2-déLéguer
     
-- 3 - banque d’informations
+- 3-Banque publique
     
-- 4 - abonnement
+- 4-abonnement
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

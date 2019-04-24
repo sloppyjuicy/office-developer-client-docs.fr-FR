@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6c2e64bc-786e-4867-a504-46f4d1214337
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3640ec4471b72dea81d56cc2c462ef145095480f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 77ca51ae5a0e7e1d5a9be8f4ca05a1187fe71694
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279851"
 ---
 # <a name="pidtaglatestdeliverytime-canonical-property"></a>Propriété canonique PidTagLatestDeliveryTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l’heure quand un message transfert agent de doit remettre un message le plus récent. 
+Contient les dernières date et heure auxquelles un agent de transfert des messages (MTA) doit envoyer un message. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LATEST_DELIVERY_TIME  <br/> |
 |Identificateur :  <br/> |0x0019  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si un agent MTA ne peut pas remettre un message au moment où que cette propriété spécifie, il annule le message sans remise. 
+Si un agent MTA ne peut pas remettre un message au moment spécifié par cette propriété, il annule le message sans remise. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 027905721b5730b4c3d78f496022b88a8e6b84d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279752"
 ---
 # <a name="olfi"></a>OLFI
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-File d’attente des structures de ID à long terme utilisé par le fournisseur de banque de dossiers personnels (PST) de fichier pour attribuer un ID d’entrée pour un nouveau message ou un dossier en mode hors connexion.
+File d'attente des structures d'ID à long terme utilisées par le fournisseur de magasins de fichiers de dossiers personnels (PST) pour affecter un ID d'entrée pour un nouveau message ou dossier en mode hors connexion.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -37,7 +37,7 @@ typedef struct {
 } OLFI, *POLFI;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _ulVersion_
   
@@ -45,41 +45,41 @@ typedef struct {
     
  _muidReserved_
   
-- Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+- Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.
     
  _ulReserved_
   
-- Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+- Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.
     
  _dwAlloc_
   
-- Le nombre d’entrées qui sont disponibles pour l’affectation. Ces entrées de partagent le même identificateur global unique (GUID).
+- Nombre d'entrées pouvant être allouées. Ces entrées partagent le même GUID (globally unique identifier).
     
  _dwNextAlloc_
   
-- Le nombre d’entrées qui sont ensuite disponibles pour l’allocation. Ces entrées partagent le même GUID.
+- Nombre d'entrées disponibles à la suite de l'allocation. Ces entrées partagent le même GUID.
     
  _ltidAlloc_
   
-- À long terme ID structure, **[LTID](ltid.md)**, qui identifie l’entrée actuellement disponible pour affectation. La structure de code à long terme contient un GUID et un index qui identifie un objet dans le magasin. Le GUID et l’index peuvent forment un identificateur d’entrée unique pour un objet. 
+- La structure de l'ID à long terme, **[LTID](ltid.md)**, qui identifie l'entrée actuellement disponible pour l'allocation. La structure de l'ID à long terme contient un GUID et un index identifiant un objet dans le magasin. Ensemble, le GUID et l'index peuvent former un ID d'entrée unique pour un objet. 
     
  _ltidNextAlloc_
   
-- Structure d’ID à long terme qui identifie l’entrée suivante disponible.
+- Structure de l'ID à long terme identifiant la prochaine entrée disponible.
     
 ## <a name="remarks"></a>Remarques
 
-Un ID d’entrée est un identificateur d’entrée MAPI 4 octets pour un dossier ou un message. Pour plus d’informations, voir la [propriété ENTRYID](https://msdn.microsoft.com/library/ms836424).
+Un ID d'entrée est un identificateur d'entrée MAPI de 4 octets pour un dossier ou un message. Pour plus d'informations, consultez la rubrique [EntryID](https://msdn.microsoft.com/library/ms836424).
   
-Lorsqu’un fournisseur de magasins PST affecte un ID d’entrée à un nouvel objet, il doit tout d’abord un GUID qui identifie le serveur et un index qui identifie l’objet dans le magasin. Même si le GUID n’est pas unique parmi tous les identificateurs d’entrée, le GUID et l’index combinés fournissent une entrée unique. Cette paire GUID et l’index est suivie par une structure d’ID à long terme, **LTID**, qui fait partie de la structure **OLFI** . 
+Lorsqu'un fournisseur de banque de fichiers PST affecte un ID d'entrée à un nouvel objet, il a besoin d'un GUID qui identifie le serveur et d'un index qui identifie l'objet dans le magasin. Même si le GUID n'est pas unique pour tous les identificateurs d'entrée, le GUID et l'index combinés fournissent une entrée unique. Ce GUID et cette paire d'index sont suivis par une structure d'ID à long terme, **LTID**, qui fait partie de la structure **OLFI** . 
   
-Le fournisseur de banque PST ne pas physiquement conserve dans **OLFI** une structure **LTID** pour chaque paire de GUID-index. Il conserve une structure **LTID** , *ltidAlloc* , pour la paire GUID-index disponible en premier ; un nombre, *dwAlloc* , le nombre d’entrées disponibles qui partagent ce même GUID ; et une deuxième structure **LTID** , *ltidNextAlloc* , pour la paire GUID-index disponible suivante qui a un GUID différent. Le fichier PST stocker fournisseur utilise la structure **OLFI** pour suivre les GUID et les index qu’il a attribuées. Un niveau virtuel, le fournisseur maintient une réserve d’un nombre de structures **LTID** qui sont prêts à être allouée.  *dwAlloc* conserve un décompte des structures **LTID** disponibles. 
+Le fournisseur de banque de fichiers PST ne conserve pas physiquement **OLFI** une structure **LTID** pour chaque paire GUID-index. Il conserve une structure **LTID** , *ltidAlloc* , pour la première paire GUID-index actuellement disponible; nombre, *dwAlloc* , du nombre d'entrées disponibles qui partagent ce même GUID; et une deuxième structure **LTID** , *ltidNextAlloc* , pour la prochaine paire GUID-index disponible dont le GUID est différent. Le fournisseur de banque de fichiers PST utilise la structure **OLFI** pour effectuer le suivi des GUID et des index qu'il a remis. À un niveau virtuel, le fournisseur conserve une réserve d'un certain nombre de structures **LTID** prêtes à être allouées.  *dwAlloc* conserve le décompte des structures **LTID** disponibles. 
   
-Les demandes pour les identificateurs d’entrée sont fournis dans les blocs. Lorsqu’il existe une demande pour un bloc, le fournisseur de banque PST vérifie s’il existe suffisamment réserve disponible en comparant la taille demandée avec *dwAlloc* . S’il existe des réserves suffisantes, elle renvoie le GUID et l’index *ltidAlloc* d’attribution. Il diminue *dwAlloc* la taille demandée, puis incrémente la taille requise de l’index de *ltidAlloc* . Il prépare le fournisseur de banque PST à allouer *ltidAlloc* sur la requête suivante pour un autre bloc d’identificateurs d’entrée. Notez que le GUID reste identique pour la requête suivante. 
+Les demandes d'ID d'entrée sont des blocs. Lorsqu'il y a une demande pour un bloc, le fournisseur de banque PST vérifie si la réserve est suffisante en comparant la taille demandée à *dwAlloc* . Si la réserve est suffisante, elle renvoie le GUID et l'index dans *ltidAlloc* pour l'allocation. Il réduit ensuite *dwAlloc* de la taille demandée et incrémente l'index de *ltidAlloc* selon la taille demandée. Cette étape permet de préparer le fournisseur de banque d'adresses de dossiers personnels afin d'allouer *ltidAlloc* à la requête suivante pour un autre bloc d'ID d'entrée. Notez que le GUID reste le même pour la requête suivante. 
   
-Si la taille d’une requête est supérieure à *dwAlloc* , le fournisseur de banque PST essaie d’utiliser ce que cela a ensuite en réserve, comme spécifié par *dwNextAlloc* et *ltidNextAlloc* . Il copie *dwNextAlloc* et *ltidNextAlloc* *dwAlloc* et *ltidAlloc* et définit *dwNextAlloc* et *ltidNextAlloc* sur NULL. 
+Si la taille d'une requête est supérieure à *dwAlloc* , le fournisseur de banque d'informations PST tente d'utiliser ce dernier en réserve, comme spécifié par *dwNextAlloc* et *ltidNextAlloc* . Il copie *dwNextAlloc* et *ltidNextAlloc* dans *dwAlloc* et *LtidAlloc* respectivement, et définit *dwNextAlloc* et *ltidNextAlloc* sur null. 
   
-Un fournisseur qui encapsule le fournisseur de banque PST doit vérifier régulièrement *ltidNextAlloc* pour voir si elle est NULL. Si tel est le cas, le fournisseur doit remplissez-la avec un nouveau GUID et réinitialiser *dwNextAlloc* afin que les identificateurs d’entrée plus peut être alloué. 
+Un fournisseur qui encapsule le fournisseur de magasin PST doit vérifier régulièrement *ltidNextAlloc* pour voir s'il est null. Si c'est le cas, le fournisseur doit le remplir avec un nouveau GUID et réinitialiser *dwNextAlloc* afin que d'autres ID d'entrée puissent être alloués. 
   
 ## <a name="see-also"></a>Voir aussi
 

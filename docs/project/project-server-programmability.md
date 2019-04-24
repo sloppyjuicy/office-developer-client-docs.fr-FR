@@ -1,5 +1,5 @@
 ---
-title: Programmabilité de Project Server
+title: Programmabilité de Project Server
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -26,11 +26,11 @@ ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: Découvrez les principales fonctionnalités de programmabilité dans Project Server 2013. Cet article comprend des informations sur le portage d’applications créées pour des versions précédentes de Project Server.
 localization_priority: Priority
 ms.openlocfilehash: 6df7b149b1e87c74efd8d90db8ece625a39ec185
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301531"
 ---
 # <a name="project-server-programmability"></a>Programmabilité de Project Server
 
@@ -173,7 +173,7 @@ L’interface PSI dans Project Server 2013 est un sur-ensemble du modèle objet 
 - Les applications qui s’appuient sur des paramètres de sécurité Project Server spécifiques ou en modifient.
     
   > [!NOTE]
-  > Une installation par défaut locale de Project Server 2013 utilise le mode d’autorisation SharePoint, où les paramètres de sécurité Project Server ne sont pas accessibles par le biais de l’interface PSI. Pour modifier le mode d’autorisation Project, consultez la section *Mode d’autorisation SharePoint* de la page [Nouveautés pour les professionnels de l’informatique dans Project Server 2013](https://technet.microsoft.com/fr-FR/library/ff631142%28office.15%29.aspx#section13). 
+  > Une installation par défaut locale de Project Server 2013 utilise le mode d’autorisation SharePoint, où les paramètres de sécurité Project Server ne sont pas accessibles par le biais de l’interface PSI. Pour modifier le mode d’autorisation Project, consultez la section *Mode d’autorisation SharePoint* de la page [Nouveautés pour les professionnels de l’informatique dans Project Server 2013](https://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx#section13). 
   
 - Pour de nombreux flux de travail Project Server personnalisés, vous pouvez utiliser SharePoint Designer 2013 pour créer des flux de travail déclaratifs. Pour les flux de travail personnalisés qui nécessitent une programmation supplémentaire, vous ne devez *pas* utiliser directement des classes ou des membres dans l’espace de noms **Microsoft.Office.Project.Server.Workflow**. Au lieu de cela, utilisez la classe [Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) dans le modèle CSOM. 
     

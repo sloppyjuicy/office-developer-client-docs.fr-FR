@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4d752d3f-bf36-4711-b1d4-68cd575a062f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 2eb811a88cd15ad05d016c690d3939a6b1e00ca3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a85d1ad0526c5bac91600df32ba941ddbf28a188
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286541"
 ---
 # <a name="pidtagproofofdeliveryrequested-canonical-property"></a>Propriété canonique PidTagProofOfDeliveryRequested
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient la valeur TRUE si un expéditeur du message demande preuve de remise pour un destinataire particulier.
+Cette propriété contient la valeur TRUE si un expéditeur de message demande la preuve de la remise d'un destinataire particulier.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Cette propriété contient la valeur TRUE si un expéditeur du message demande p
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

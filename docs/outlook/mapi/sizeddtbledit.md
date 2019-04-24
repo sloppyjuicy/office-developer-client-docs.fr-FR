@@ -11,24 +11,24 @@ api_name:
 api_type:
 - COM
 ms.assetid: a658d027-03a2-4cde-bf99-563e8521cb31
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7e50589b52f3e99bf2569a55bb7d3ca4f8247fd6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b5b9c42d944ad9d3ce92e99d08d29964944c8028
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591659"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282802"
 ---
 # <a name="sizeddtbledit"></a>SizedDtblEdit
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLEDIT](dtbledit.md) pour la description d’un contrôle d’édition et le nombre maximal de caractères pouvant être entré dans le contrôle. 
+Crée une structure nommée qui inclut une structure [DTBLEDIT](dtbledit.md) pour la description d'un contrôle d'édition et le nombre maximal de caractères pouvant être entrés dans le contrôle. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**DTBLEDIT** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**DTBLEDIT** <br/> |
    
 ```cpp
 SizedDtblEdit (n, u)
@@ -38,7 +38,7 @@ SizedDtblEdit (n, u)
 
 _n_
   
-> Nombre maximal de caractères pouvant être entré dans le contrôle d’édition.
+> Nombre maximal de caractères pouvant être entrés dans le contrôle d'édition.
     
 _u_
   
@@ -46,7 +46,7 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblEdit** vous permet de définir un contrôle d’édition lorsque le nombre de caractères activés est connu. La nouvelle structure est créée avec les membres suivants : 
+La macro **SizedDtblEdit** vous permet de définir un contrôle d'édition lorsque le nombre de caractères activés est connu. La nouvelle structure est créée avec les membres suivants: 
   
 ```cpp
 DTBLEDIT dtbledit;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblEdit** comme un pointeur de structure **DTBLEDIT** , effectuer le cast suivant : 
+Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblEdit** en tant que pointeur de structure **DTBLEDIT** , effectuez la conversion suivante: 
   
 ```cpp
 lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;

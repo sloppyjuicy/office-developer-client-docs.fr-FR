@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: f7a0cac5-26f9-49ed-b52c-0240ef0c9d38
 description: Les projets de modèle de formulaire utilisant le modèle objet InfoPath 2003 utilisent en interne MSXML (Microsoft XML Core Services) pour travailler avec XML. Dans le code managé, il est souvent plus simple d'utiliser le support XML fourni par l'espace de noms System.Xml dans la bibliothèque de classes .NET Framework. MSXML et System.Xml ne peuvent pas échanger d'objets de façon native. Vous devez donc pour transférer des données XML entre InfoPath et un autre code managé convertir ces données XML. Vous pouvez échanger des données XML depuis les objets System.Xml avec du code de formulaire InfoPath à l'aide des techniques décrites dans cette rubrique.
-ms.openlocfilehash: 345aeb3dcb6e9621657bd2b21f98c87cb5e61993
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c56939a0cf03b5de6466de37013e154529afd1ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299719"
 ---
 # <a name="working-with-msxml-and-systemxml-using-the-infopath-2003-object-model"></a>Utilisation de MSXML et de System.Xml avec le modèle objet InfoPath 2003
 
@@ -23,7 +23,7 @@ Pour utiliser les membres de l'espace de noms **System.Xml** dans un projet de c
   
  **Remarques**
   
-- Pour afficher les informations de référence sur MSXML, consultez le SDK MSXML.
+- Pour afficher des informations de référence sur MSXML, voir le MSXML SDK.
     
 - Les membres du modèle objet MSXML qui sont inclus par l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) ne peuvent pas être affectés à des délégués dans le code de formulaire des modèles de formulaires avec code managé. 
     

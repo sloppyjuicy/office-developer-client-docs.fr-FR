@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f7ec60768ab07c56969f538f196a1f9df5dbed17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: da314205f7d2dd746b72aa7e2b5ff2a13bb0c21b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269922"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une version indépendante de l’ordre des octets d’une structure [GUID](guid.md) qui sert à identifier de manière unique un fournisseur de services. 
+Version indépendante de l'ordre des octets d'une structure de [GUID](guid.md) utilisée pour identifier un fournisseur de services de manière unique. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Macro connexe :  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Macro connexe:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
    
 ```cpp
 typedef struct _MAPIUID
@@ -42,33 +42,33 @@ typedef struct _MAPIUID
 
 ## <a name="members"></a>Members
 
- **Carnet d’adresses**
+ **opér**
   
 > Tableau qui contient un identificateur de 16 octets.
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **MAPIUID** est une structure **GUID** placer dans l’ordre d’octet Intel® processeur. 
+Une structure **MAPIUID** est une structure de **GUID** placée dans le processeur Intel ® Order Byte. 
   
-MAPI crée des structures **MAPIUID** d’une manière qui rend très rare ont le même identificateur de deux éléments différents. Structures **MAPIUID** peuvent être stockées en tant que propriétés binaires ou en tant que fichiers, quel que soit l’ordre d’octets de l’ordinateur de stockage ou d’accéder aux informations. 
+MAPI crée des structures **MAPIUID** de manière à ce qu'il soit très rare que deux éléments aient le même identificateur. Les structures **MAPIUID** peuvent être stockées en tant que propriétés binaires ou en tant que fichiers, indépendamment de l'ordre des octets de l'ordinateur stockant les informations ou d'y accéder. 
   
- Structures **MAPIUID** sont utilisés : 
+ Les structures **MAPIUID** sont utilisées: 
   
 - Pour identifier une section de profil.
     
-- Dans les identificateurs d’entrée du message stocker et résoudre les objets book pour identifier le fournisseur de services responsables.
+- Dans les identificateurs d'entrée des objets de banque de messages et de carnet d'adresses pour identifier le fournisseur de services responsable.
     
-- Dans la propriété **clé PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) des messages.
+- Dans la propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) des messages.
     
-Pour générer un identificateur **MAPIUID** une clé de recherche, les fournisseurs de services d’appel [IMAPISupport::NewUID](imapisupport-newuid.md).
+Pour générer un identificateur **MAPIUID** pour une clé de recherche, les fournisseurs de services appellent [IMAPISupport:: NewUID](imapisupport-newuid.md).
   
-Lorsqu’un client transmet un message sur un réseau, il doit utiliser un format de protocole ou de transmission qui ne modifie pas l’ordre d’octets de données **MAPIUID** . 
+Lorsqu'un client transmet un message via un réseau, il doit utiliser un protocole ou un format de transmission qui ne change pas l'ordre des données **MAPIUID** . 
   
-Pour plus d’informations sur l’utilisation des structures **MAPIUID** , consultez les rubriques suivantes : 
+Pour plus d'informations sur l'utilisation des structures **MAPIUID** , consultez les rubriques suivantes: 
   
-[Inscription des identificateurs uniques de fournisseur de services](registering-service-provider-unique-identifiers.md)
+[Inscription des identificateurs uniques des fournisseurs de services](registering-service-provider-unique-identifiers.md)
   
-[Définition de l’ordre de transport](setting-transport-order.md)
+[Définition de l'ordre de transport](setting-transport-order.md)
   
 ## <a name="see-also"></a>Voir aussi
 

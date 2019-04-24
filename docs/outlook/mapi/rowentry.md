@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd6c0d8e-68cc-4d60-9029-13ed81c816cd
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: fb0bfaba1ca0a0d7d34096b3b0b1db9863207097
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 243ab1e926171ee66b95cfd8e969cd77e2b31faf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279600"
 ---
 # <a name="rowentry"></a>ROWENTRY
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une ligne et l’opération est effectuée sur la ligne dans une table par le biais de l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
+Contient une ligne et l'opération exécutée sur cette ligne dans un tableau via l'interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   
 ```cpp
 typedef struct
@@ -38,31 +38,31 @@ typedef struct
 
 **ulRowFlags**
   
-> Une des opérations à effectuer sur les données suivantes : 
+> Une des opérations suivantes à effectuer sur les données: 
     
-  - ROW_ADD : Ajoutez les données dans le tableau en tant qu’une nouvelle ligne.
+  - ROW_ADD: ajouter les données à la table en tant que nouvelle ligne.
       
-  - ROW_MODIFY : Modifiez cette ligne dans le tableau.
+  - ROW_MODIFY: modifiez cette ligne dans le tableau.
       
-  - ROW_REMOVE : Supprimer cette ligne de la table.
+  - ROW_REMOVE: supprimez cette ligne du tableau.
       
-  - ROW_EMPTY : N’ajoutez pas les données de ligne à la table. (La ligne est vide).
+  - ROW_EMPTY: n'ajoutez pas les données de ligne à la table. (La ligne est vide.)
     
 **cValues**
   
-> Le nombre de valeurs de propriété dans **rgPropvals**.
+> Nombre de valeurs de propriété dans **rgPropvals**.
     
 **rgPropVals**
   
-> Tableau des structures [SPropValue](spropvalue.md) représentant les valeurs de colonnes à insérer dans le tableau. 
+> Tableau de structures [SPropValue](spropvalue.md) représentant les valeurs de colonnes à insérer dans le tableau. 
     
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Permet de créer une liste de règles sélectionnées pour les actions suivantes **ModifyTable** .  <br/> |
+|RulesDlg. cpp  <br/> |CRulesDlg:: GetSelectedItems  <br/> |Permet de créer une liste de règles sélectionnées pour les actions **ModifyTable** suivantes.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
   

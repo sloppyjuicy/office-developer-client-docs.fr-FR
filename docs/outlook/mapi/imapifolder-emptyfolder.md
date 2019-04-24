@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 287577babc9a40b771aa9917211ba5dcbf8190ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4ca828c3e03cbff886230f2af63485f7b15e8b35
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280105"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584939"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime tous les messages et les sous-dossiers d’un dossier sans supprimer le dossier proprement dit.
+Supprime tous les messages et sous-dossiers d'un dossier sans supprimer le dossier lui-même.
   
 ```cpp
 HRESULT EmptyFolder(
@@ -39,61 +39,61 @@ HRESULT EmptyFolder(
 
  _ulUIParam_
   
-> [in] Un handle vers la fenêtre parent de l’indicateur de progression. Le paramètre _ulUIParam_ est ignoré à moins que l’indicateur FOLDER_DIALOG est défini dans le paramètre _ulFlags_ . 
+> dans Handle de la fenêtre parent de l'indicateur de progression. Le paramètre _ulUIParam_ est ignoré sauf si l'indicateur FOLDER_DIALOG est défini dans le paramètre _ulFlags_ . 
     
  _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est indiqué dans _lpProgress_, le fournisseur de banque de message affiche un indicateur de progression à l’aide de l’implémentation d’objet de progression MAPI. Le paramètre _lpProgress_ est ignoré à moins que l’indicateur FOLDER_DIALOG est défini dans le paramètre _ulFlags_ . 
+> dans Pointeur vers un objet de progression qui affiche un indicateur de progression. Si la valeur NULL est transmise dans _lpProgress_, le fournisseur de banque de messages affiche un indicateur de progression à l'aide de l'implémentation de l'objet de progression MAPI. Le paramètre _lpProgress_ est ignoré sauf si l'indicateur FOLDER_DIALOG est défini dans le paramètre _ulFlags_ . 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont le dossier est vidé. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle la manière dont le dossier est vidé. Les indicateurs suivants peuvent être définis:
     
 DEL_ASSOCIATED 
   
-> Supprime tous les sous-dossiers, y compris les sous-dossiers qui contiennent des messages avec contenu associé. L’indicateur DEL_ASSOCIATED a de signification seulement pour l’appel agit sur le dossier de niveau supérieur.
+> Supprime tous les sous-dossiers, y compris les sous-dossiers qui contiennent des messages avec du contenu associé. L'indicateur DEL_ASSOCIATED n'a de sens que pour le dossier de niveau supérieur sur lequel l'appel agit.
     
 DELETE_HARD_DELETE
   
-> Supprime définitivement tous les messages, y compris ceux récupérable.
+> Supprime définitivement tous les messages, y compris ceux qui sont supprimés de manière récupérable.
     
 FOLDER_DIALOG 
   
-> Affiche un indicateur de progression pendant que l’opération s’effectue.
+> Affiche un indicateur de progression pendant l'exécution de l'opération.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le dossier a été vidé avec succès.
+> Le dossier a été vidé.
     
-MAPI_W_PARTIAL_COMPLETION SE PRODUIT 
+MAPI_W_PARTIAL_COMPLETION 
   
-> L’appel a réussi, mais le dossier n’a pas été vidé complètement. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme étant réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d’informations, consultez [Utilisation de Macros pour gérer les erreurs](using-macros-for-error-handling.md).
+> L'appel a réussi, mais le dossier n'a pas été complètement vidé. Lorsque cet avertissement est renvoyé, l'appel doit être géré comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d'informations, consultez la rubrique [utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIFolder::EmptyFolder** supprime tout contenu d’un dossier sans supprimer le dossier proprement dit. 
+La méthode **IMAPIFolder:: EmptyFolder** supprime tout le contenu d'un dossier sans supprimer le dossier lui-même. 
   
-Pendant un appel **EmptyFolder** , les messages envoyés ne sont pas supprimés. 
+Lors d'un appel **EmptyFolder** , les messages soumis ne sont pas supprimés. 
   
-Contenu associé d’un dossier comprennent les messages qui sont utilisés pour décrire les affichages, les règles, les formulaires personnalisés et du stockage des solutions personnalisées et peuvent également inclure des définitions de formulaire. 
+Le contenu associé d'un dossier inclut les messages qui sont utilisés pour décrire les vues, les règles, les formulaires personnalisés et le stockage de solutions personnalisées, et peut également inclure des définitions de formulaire. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-N’appelez pas la méthode [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) pour les messages qui ont été envoyés dans le dossier. Les messages envoyés ne sont pas supprimés. 
+N'appelez pas la méthode [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md) pour les messages qui ont été envoyés dans le dossier. Les messages envoyés ne sont pas supprimés. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Prévoyez ces valeurs de retour dans les conditions suivantes.
+Attendez-vous à ces valeurs de retour dans les conditions suivantes.
   
-|**Condition**|**Valeur renvoy�e**|
+|**Condition**|**Valeur renvoyée**|
 |:-----|:-----|
-|**EmptyFolder** a vidé avec succès le dossier.  <br/> |S_OK  <br/> |
-|**EmptyFolder** n’a pas pu vider entièrement le dossier.  <br/> |MAPI_W_PARTIAL_COMPLETION SE PRODUIT  <br/> |
-|**EmptyFolder** n’a pas pu terminer.  <br/> |Une valeur d’erreur  <br/> |
+|**EmptyFolder** a correctement vidé le dossier.  <br/> |S_OK  <br/> |
+|**EmptyFolder** n'a pas pu complètement vider le dossier.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**EmptyFolder** n'a pas pu être exécuté.  <br/> |Toute valeur d'erreur  <br/> |
    
-Lorsque **EmptyFolder** n’aboutit pas, ne supposez pas qu’aucun travail n’a été effectuée. **EmptyFolder** peut-être en mesure de supprimer le contenu du dossier avant de rencontrer l’erreur. 
+Lorsque **EmptyFolder** ne parvient pas à terminer, ne partez pas du principe qu'aucun travail n'a été effectué. **EmptyFolder** peut avoir pu supprimer une partie du contenu du dossier avant de rencontrer l'erreur. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -101,7 +101,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI utilise la méthode **IMAPIFolder::EmptyFolder** pour supprimer le contenu du dossier spécifié.  <br/> |
+|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnEmptyFolder  <br/> |MFCMAPI utilise la méthode **IMAPIFolder:: EmptyFolder** pour supprimer le contenu du dossier spécifié.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -112,7 +112,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+[Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

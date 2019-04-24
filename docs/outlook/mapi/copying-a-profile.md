@@ -1,5 +1,5 @@
 ---
-title: Copie d’un profil
+title: Copie d'un profil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,32 +7,32 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b722a157-0d92-404d-9075-39547241dbb7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 53b7099ae74828a97eb703b865ba30ab385e9a5f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 86f381eff1dab0144afe0f94dcd6dd54d1ad7fa8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285229"
 ---
-# <a name="copying-a-profile"></a>Copie d’un profil
+# <a name="copying-a-profile"></a>Copie d'un profil
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour créer un profil consiste à copier un profil existant et de modifier les fournisseurs de services et les services de messagerie nécessaires. Copie d’un profil implique l’utilisation d’un objet d’administration de profil, fourni par MAPI par le biais de la fonction [MAPIAdminProfiles](mapiadminprofiles.md) . 
+Pour créer un profil, vous pouvez procéder à une copie à partir d'un profil existant et modifier les services de messagerie et les fournisseurs de services nécessaires. La copie d'un profil implique l'utilisation d'un objet d'administration de profil, fourni par MAPI via la fonction [MAPIAdminProfiles](mapiadminprofiles.md) . 
   
  **Pour copier un profil**
   
-1. Appelez **MAPIAdminProfiles** pour récupérer un pointeur d’interface **IProfAdmin** . 
+1. Appelez **MAPIAdminProfiles** pour récupérer un pointeur d'interface **IProfAdmin** . 
     
-2. Appelez [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) pour accéder à la table de profils. 
+2. Appelez [IProfAdmin:: GetProfileTable](iprofadmin-getprofiletable.md) pour accéder à la table de profils. 
     
-3. Créer une restriction de propriété avec une structure [SPropertyRestriction](spropertyrestriction.md) correspondre **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) avec le nom du profil à copier. 
+3. Créez une restriction de propriété avec une structure [SPropertyRestriction](spropertyrestriction.md) pour faire correspondre **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) au nom du profil à copier. 
     
-4. Appel [IMAPITable::FindRow](imapitable-findrow.md) pour localiser la ligne appropriée dans la table de profils. 
+4. Appelez [IMAPITable:: FindRow](imapitable-findrow.md) pour localiser la ligne appropriée dans la table de profil. 
     
-5. Appelez [IProfAdmin::CopyProfile](iprofadmin-copyprofile.md), en passant la valeur de la colonne **PR_DISPLAY_NAME** en tant que paramètre _lpszOldProfileName_ . 
+5. Appelez [IProfAdmin:: CopyProfile](iprofadmin-copyprofile.md), en passant la valeur de la colonne **PR_DISPLAY_NAME** en tant que paramètre _lpszOldProfileName_ . 
     
 

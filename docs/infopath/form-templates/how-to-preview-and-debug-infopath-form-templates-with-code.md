@@ -1,5 +1,5 @@
 ---
-title: Afficher un aperçu et déboguer les modèles de formulaire InfoPath avec Code
+title: Aperçu et déBogage des modèles de formulaire InfoPath avec code
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,21 +8,21 @@ keywords:
 localization_priority: Normal
 ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
 description: Microsoft InfoPath avec Visual Studio 2012 permet le débogage en exécutant le code du formulaire en mode Aperçu. Lorsque vous commencez à déboguer le code du formulaire, votre projet est compilé et InfoPath affiche votre formulaire dans la fenêtre d'aperçu InfoPath. Lors du passage sur une ligne de code contenant un point d'arrêt, le focus passe dans l'Éditeur de code. Si vous continuez au-delà d'un point d'arrêt, le focus repasse dans la fenêtre d'aperçu. Le débogage s'arrête lorsque vous fermez la fenêtre d'aperçu.
-ms.openlocfilehash: c33a7740d5f5dba1f8443f020007a2942bc0fc3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8f9ff97fdd5b4b016d96129304fa6f994d7b4561
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300433"
 ---
-# <a name="preview-and-debug-infopath-form-templates-with-code"></a>Afficher un aperçu et déboguer les modèles de formulaire InfoPath avec Code
+# <a name="preview-and-debug-infopath-form-templates-with-code"></a>Aperçu et déBogage des modèles de formulaire InfoPath avec code
 
 Microsoft InfoPath avec Visual Studio 2012 permet le débogage en exécutant le code du formulaire en mode Aperçu. Lorsque vous commencez à déboguer le code du formulaire, votre projet est compilé et InfoPath affiche votre formulaire dans la fenêtre d'aperçu InfoPath. Lors du passage sur une ligne de code contenant un point d'arrêt, le focus passe dans l'Éditeur de code. Si vous continuez au-delà d'un point d'arrêt, le focus repasse dans la fenêtre d'aperçu. Le débogage s'arrête lorsque vous fermez la fenêtre d'aperçu.
   
 Vous pouvez également modifier les options de formulaire du modèle de formulaire dont vous souhaitez afficher un aperçu et que vous voulez déboguer en utilisant un rôle utilisateur spécifique, un fichier de données exemple ou en spécifiant le domaine dans lequel le formulaire sera publié. 
   
 > [!NOTE]
-> [!REMARQUE] Il n'est pas possible de déboguer les modèles de formulaires après leur déploiement au moment de l'exécution à partir des Visual Studio 2012. Cela comprend les modèles de formulaires qui sont compatibles uniquement avec InfoPath, ainsi que ceux qui sont compatibles avec InfoPath et le navigateur Web utilisant InfoPath Forms Services. Cependant, vous pouvez enregistrer des valeurs dans un champ à partir du code à l'exécution pour vous aider à résoudre les problèmes de la logique métier d'un modèle de formulaire. Pour plus d’informations sur la procédure à suivre, voir le [Journal des valeurs à un champ pour le débogage](how-to-log-values-to-a-field-for-debugging.md). 
+> [!REMARQUE] Il n'est pas possible de déboguer les modèles de formulaires après leur déploiement au moment de l'exécution à partir des Visual Studio 2012. Cela comprend les modèles de formulaires qui sont compatibles uniquement avec InfoPath, ainsi que ceux qui sont compatibles avec InfoPath et le navigateur Web utilisant InfoPath Forms Services. Cependant, vous pouvez enregistrer des valeurs dans un champ à partir du code à l'exécution pour vous aider à résoudre les problèmes de la logique métier d'un modèle de formulaire. Pour plus d'informations sur la façon de procéder, consultez la rubrique [enregistrer des valeurs dans un champ pour](how-to-log-values-to-a-field-for-debugging.md)le débogage. 
   
 ## <a name="debugging-in-preview-mode"></a>Débogage en mode Aperçu
 
@@ -47,11 +47,11 @@ Vous pouvez également modifier les options de formulaire du modèle de formulai
 6. Lorsque vous avez terminé le débogage, fermez la fenêtre d'aperçu ou, dans le menu **Débogage**, cliquez sur **Arrêter le débogage**.
     
 > [!NOTE]
-> Pour déboguer un modèle de formulaire InfoPath avec code managé lors de l’utilisation d’un membre de modèle objet nécessitant une confiance totale, vous devez configurer votre modèle de formulaire, comme indiqué dans [l’Aperçu et déboguer les modèles de formulaires qui nécessitent une autorisation totale](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> Pour déboguer un modèle de formulaire InfoPath avec code managé lors de l'utilisation d'un membre du modèle objet nécessitant une confiance totale, vous devez configurer votre modèle de formulaire comme décrit dans [Aperçu et débogage des modèles de formulaire qui nécessitent une confiance totale](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
   
 ## <a name="using-a-sample-data-file"></a>Utilisation d'un fichier exemple de données
 
-Par défaut, le débogage et l'aperçu utilisent le fichier template.xml créé lors de la création d'un modèle de formulaire. Vous pouvez créer votre propre fichier de données et en spécifier l'utilisation lors de l'aperçu ou du débogage en suivant l'une des procédures ci-dessous. 
+Par défaut, le débogage et l'aperçu utilisent le fichier template.xml créé lors de la création d'un modèle de formulaire. Vous pouvez créer votre propre fichier de données et en spécifier l'utilisation lors de l'aperçu ou du débogage en suivant l'une des procédures ci-dessous.  
   
 ### <a name="to-specify-a-sample-data-file-to-use-while-debugging-or-previewing-in-visual-studio-tools-for-applications"></a>Pour spécifier un fichier exemple de données à utiliser pour le débogage ou l'aperçu dans Visual Studio Tools for Applications
 
@@ -63,7 +63,7 @@ Par défaut, le débogage et l'aperçu utilisent le fichier template.xml créé 
     
 4. Créez et enregistrez un fichier avec la même structure que template.xml avec les données exemple que vous voulez utiliser.
     
-5. Cliquez sur l'onglet **Fichier**, puis cliquez sur **Options de formulaire** sur l'onglet **Informations**. 
+5. Cliquez sur l'onglet **Fichier**, puis cliquez sur **Options de formulaire** sous l'onglet **Infos**. 
     
 6. Cliquez sur la catégorie **Aperçu** de la boîte de dialogue **Options de formulaire**, puis sous **Exemple de données** spécifiez le fichier exemple que vous avez créé dans la zone **Emplacement du fichier**. 
     

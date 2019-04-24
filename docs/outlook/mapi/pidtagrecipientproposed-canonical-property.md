@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8cb0e46c-0937-482f-be78-1f2e5261b210
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 1b09d8d7621121b3652ceb9824f6d36b53844206
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283134"
 ---
 # <a name="pidtagrecipientproposed-canonical-property"></a>Propriété canonique PidTagRecipientProposed
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique si un participant à la réunion a répondu.
   
@@ -36,29 +36,29 @@ Indique si un participant à la réunion a répondu.
    
 ## <a name="remarks"></a>Remarques
 
-La valeur TRUE pour cette propriété indique que le participant proposé une nouvelle date et/ou heure. La valeur FALSE, ou l’absence de cette propriété, signifie que le participant n’a pas encore répondu, soit la réponse la plus récente du participant ne pas inclure une nouvelle date / heure la proposition. Cette valeur ne doit pas avoir la valeur TRUE pour les participants d’une série périodique.
+La valeur TRUE pour cette propriété indique que le participant a proposé une nouvelle date et/ou heure. La valeur FALSe, ou l'absence de cette propriété, signifie soit que le participant n'a pas encore répondu, soit que la réponse la plus récente du participant n'inclut pas une nouvelle proposition de date/heure. Cette valeur ne doit pas être TRUE pour les participants d'une série périodique.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

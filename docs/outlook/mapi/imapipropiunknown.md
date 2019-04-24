@@ -11,51 +11,51 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a397ac9110429911755552298ffe244343d54a8a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6b0a8923ee5efe22584170ce9853698885527ee8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282470"
 ---
 # <a name="imapiprop--iunknown"></a>IMAPIProp : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet de clients, fournisseurs de services et MAPI travailler avec les propriétés. Tous les objets qui prennent en charge les propriétés implémentent cette interface.
+Permet aux clients, aux fournisseurs de services et à MAPI de travailler avec les propriétés. Tous les objets qui prennent en charge les propriétés implémentent cette interface.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Exposés par :  <br/> |Aucun objet n’expose cette interface directement.  <br/> |
-|Implémentée par :  <br/> |Fournisseurs de services et MAPI  <br/> |
-|Appelée par :  <br/> |Applications clientes et fournisseurs de services MAPI  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPIProp  <br/> |
-|Type de pointeur :  <br/> |LPMAPIPROP  <br/> |
-|Modèle de transaction :  <br/> |Classe abstraite, jamais implémentée  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Exposé par:  <br/> |Aucun objet n'expose directement cette interface.  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de services et MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes, fournisseurs de services et MAPI  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPIProp  <br/> |
+|Type de pointeur:  <br/> |LPMAPIPROP  <br/> |
+|Modèle de transaction:  <br/> |Classe abstraite, jamais implémentée  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[GetLastError](imapiprop-getlasterror.md) <br/> |Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente.  <br/> |
-|[SaveChanges](imapiprop-savechanges.md) <br/> |Rend permanentes toutes les modifications qui ont été apportées à un objet depuis la dernière opération d’enregistrement.  <br/> |
-|[GetProps](imapiprop-getprops.md) <br/> |Récupère la valeur de propriété d’une ou plusieurs propriétés d’un objet.  <br/> |
+|[Généré](imapiprop-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente.  <br/> |
+|[SaveChanges](imapiprop-savechanges.md) <br/> |Rend permanentes toutes les modifications qui ont été apportées à un objet depuis la dernière opération d'enregistrement.  <br/> |
+|[GetProps](imapiprop-getprops.md) <br/> |Récupère la valeur de propriété d'une ou de plusieurs propriétés d'un objet.  <br/> |
 |[GetPropList](imapiprop-getproplist.md) <br/> |Renvoie les balises de propriété pour toutes les propriétés.  <br/> |
-|[OpenProperty](imapiprop-openproperty.md) <br/> |Retourne un pointeur vers une interface qui peut être utilisée pour accéder à une propriété.  <br/> |
+|[OpenProperty](imapiprop-openproperty.md) <br/> |Renvoie un pointeur vers une interface qui peut être utilisée pour accéder à une propriété.  <br/> |
 |[SetProps](imapiprop-setprops.md) <br/> |Met à jour une ou plusieurs propriétés.  <br/> |
-|[DeleteProps](imapiprop-deleteprops.md) <br/> |Supprime une ou plusieurs propriétés d’un objet.  <br/> |
-|[CopyTo](imapiprop-copyto.md) <br/> |Copie ou déplace toutes les propriétés, à l’exception de spécifiquement des propriétés exclues.  <br/> |
-|[CopyProps](imapiprop-copyprops.md) <br/> |Copie ou déplace des propriétés sélectionnées.  <br/> |
-|[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Fournit les noms des propriétés qui correspondent à un ou plusieurs identificateurs de propriété.  <br/> |
-|[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriété.  <br/> |
+|[DeleteProps](imapiprop-deleteprops.md) <br/> |Supprime une ou plusieurs propriétés d'un objet.  <br/> |
+|[CopyTo](imapiprop-copyto.md) <br/> |Copie ou déplace toutes les propriétés, à l'exception des propriétés spécifiquement exclues.  <br/> |
+|[CopyProps](imapiprop-copyprops.md) <br/> |Copie ou déplace les propriétés sélectionnées.  <br/> |
+|[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Fournit les noms de propriétés qui correspondent à un ou plusieurs identificateurs de propriété.  <br/> |
+|[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriétés.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
- **IMAPIProp** est l’interface de base pour les interfaces suivantes : 
+ **IMAPIProp** est l'interface de base pour les interfaces suivantes: 
   
 - [IAttach](iattachimapiprop.md)
     

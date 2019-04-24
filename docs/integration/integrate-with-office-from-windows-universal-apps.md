@@ -1,5 +1,5 @@
 ---
-title: Intégration à Office à partir d’applications universelles Windows
+title: Intégration à Office à partir d'applications universelles Windows
 manager: soliver
 ms.date: 02/06/2017
 ms.audience: Developer
@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
 description: Vous pouvez intégrer vos applications tierces de plateforme d'application universelle Windows à Excel Mobile, PowerPoint Mobile et Word Mobile. Les applications universelles s'intègrent aux applications Office via les contrats de sélecteur de fichiers Windows, les propriétés Expando et les contrats de mise à jour des fichiers mis en cache.
 ms.openlocfilehash: ad04ccc3ceb6e0f1d53e4aebc12cf9724ab8ab66
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299765"
 ---
 # <a name="integrate-with-office-from-windows-universal-apps"></a>Intégration à Office à partir d’applications universelles Windows
 
@@ -19,7 +19,7 @@ Vous pouvez intégrer vos applications tierces de plateforme d'application unive
   
 Lorsque vous intégrez votre application universelle à Excel, PowerPoint ou Word Mobile, vos utilisateurs peuvent ouvrir les documents Office fournis par votre application, que ce soit lorsqu'ils parcourent Office ou lorsqu'ils utilisent Windows pour ouvrir des fichiers dans votre application. Les utilisateurs peuvent également enregistrer le fichier dans votre application universelle, qui télécharge le fichier vers votre service.
   
-Les fichiers ouverts de cette façon apparaissent dans la liste récente d’Office, afin que vos utilisateurs puissent facilement les trouver et les ouvrir à nouveau.
+Les fichiers ouverts de cette façon apparaissent dans la liste récente d'Office, afin que vos utilisateurs puissent facilement les trouver et les ouvrir à nouveau.
   
 Cette intégration exige que votre application universelle :
     
@@ -37,9 +37,9 @@ Définissez ces propriétés dans l'ensemble de propriétés **System.ExpandoPro
   
 |**Propriété**|**Description**|**Type**|**Exemple**|
 |:-----|:-----|:-----|:-----|
-|**AppDisplayName** <br/> |Nom du fournisseur à afficher pour l’utilisateur. Il s’affiche à plusieurs endroits dans Office, comme la liste des documents récents.  <br/> |String  <br/> |Contoso  <br/> |
+|**AppDisplayName** <br/> |Nom du fournisseur à afficher pour l'utilisateur. Il s'affiche à plusieurs endroits dans Office, comme la liste des documents récents.  <br/> |String  <br/> |Contoso  <br/> |
 |**MicrosoftOfficeOwnershipType** <br/> |En ce qui concerne la gestion des licences, indiquez si le document/l'emplacement est personnel ou professionnel. Les valeurs autorisées sont 1 (personnel) et 2 (professionnel). Par exemple, si le fichier de votre utilisateur est stocké dans Contoso Business, utilisez la valeur « 2 » pour les documents professionnels.  <br/> |Unit32  <br/> | 1 ou 2  <br/> Par exemple, si le fichier de votre utilisateur est stocké dans Contoso Business, vous devez lui attribuer la valeur 2 pour les documents professionnels.  <br/> |
-|**MicrosoftOfficeTermsOfUse** <br/> |Texte juridique pour déclarer que les informations que vous fournissez sont exactes conformément à nos conditions d’utilisation. Ce texte n’est pas visible par l’utilisateur. Il s’agit d’un accord entre vous, le fournisseur de l’application et Microsoft.  <br/> Consultez la rubrique suivante pour obtenir un exemple.  <br/> | String  <br/> | J'accepte les conditions indiquées sur la page [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
+|**MicrosoftOfficeTermsOfUse** <br/> |Texte juridique pour déclarer que les informations que vous fournissez sont exactes conformément à nos conditions d'utilisation. Ce texte n'est pas visible par l'utilisateur. Il s'agit d'un accord entre vous, le fournisseur de l'application et Microsoft.  <br/> Consultez la rubrique suivante pour obtenir un exemple.  <br/> | String  <br/> | J'accepte les conditions indiquées sur la page [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
    
 L’exemple de code suivant montre comment définir ces propriétés.
   
@@ -67,7 +67,7 @@ Si votre application universelle participe aux contrats de mise à jour des fich
   
 Office utilise l'option **AllowOnlyReaders** pour ouvrir les fichiers en lecture et en écriture que votre application universelle fournit via les contrats de sélecteur de fichiers. Cela signifie que le fichier ne peut pas être déplacé, supprimé, renommé ou écrit par une autre application, y compris la vôtre, tant qu'il est ouvert dans Office. Office enregistre automatiquement le fichier, mais définit CachedFileManager.DeferUpdates pour empêcher l'activation de votre application jusqu'à ce qu'Office ferme le document, ou qu'Office soit suspendu par Windows (lorsque l'utilisateur bascule vers une autre application). Lorsqu'Office ferme le fichier, votre application peut écrire dans celui-ci. 
   
-Votre application doit gérer toutes les communications avec votre service, y compris le téléchargement, l’actualisation et le chargement.
+Votre application doit gérer toutes les communications avec votre service, y compris le téléchargement, l'actualisation et le chargement.
   
 Le tableau suivant répertorie les paramètres à définir pour gérer les interactions entre votre application et Office.
   
@@ -97,7 +97,7 @@ Pour plus d'informations sur les attributs de fichier, voir la [fonction SetFile
 
 Pour optimiser la cohérence des fichiers, par exemple lorsque des erreurs ou des modifications conflictuelles se produisent, appliquez les meilleures pratiques suivantes :
   
-- Évitez les conflits d’enregistrement.
+- Évitez les conflits d'enregistrement.
     
   - Mettez le téléchargement sur pause en cas de conflit de serveur afin d'éviter la duplication (uniquement lorsqu'Office ne dispose plus de fichier ouvert en écriture). En règle générale, si un fichier provenant de votre application est ouvert dans Office, votre application est activée uniquement lorsqu'Office ferme ou est suspendu par Windows.
     

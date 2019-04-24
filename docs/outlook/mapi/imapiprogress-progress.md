@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: edbf7623-a64e-43b8-8379-e3cde2433d91
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3fc72f008d1c2610de3c74762aabc6231dabbfbd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3cf639286a504b9edb600214d13dbe50710e76a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270300"
 ---
 # <a name="imapiprogressprogress"></a>IMAPIProgress::Progress
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589055"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Met à jour l’indicateur de progression avec un affichage de la progression qu’elle est réalisée vers la fin de l’opération. 
+Met à jour l'indicateur de progression avec un affichage de la progression au fur et à mesure de l'exécution de l'opération. 
   
 ```cpp
 HRESULT Progress(
@@ -37,37 +37,37 @@ HRESULT Progress(
 
 ## <a name="parameters"></a>Paramètres
 
- _ulValue_
+ _Objet_
   
-> [in] Un nombre qui indique le niveau actuel de l’avancement (calculée à partir des paramètres _ulCount_ et _ulTotal_ ou à partir des paramètres de la méthode [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) _lpulMin_ et _lpulMax_ ) entre le modèle global limite inférieure et la limite supérieure globale. 
+> dans Nombre qui indique le niveau actuel de progression (calculé à partir des paramètres _ulCount_ et _ulTotal_ ou à partir des paramètres _lpulMin_ et _LpulMax_ de la méthode [méthode imapiprogress:: SetLimits](imapiprogress-setlimits.md) ) entre le Global limite inférieure et limite supérieure globale. 
     
  _ulCount_
   
-> [in] Nombre qui indique l’élément actuellement traitée par rapport au total.
+> dans Nombre indiquant l'élément actuellement traité par rapport au total.
     
  _ulTotal_
   
-> [in] Nombre total d’éléments à être traités au cours de l’opération.
+> dans Nombre total d'éléments à traiter au cours de l'opération.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’indicateur de progression a été correctement mis à jour.
+> L'indicateur de progression a été mis à jour avec succès.
     
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Le paramètre _ulValue_ est égal à la valeur minimale globale uniquement au début de l’opération et à la valeur maximale globale uniquement à la fin de l’opération. 
+Le paramètre _ulValue_ est égal à la valeur minimale globale uniquement au début de l'opération et à la valeur maximale globale uniquement à la fin de l'opération. 
   
-Utiliser les paramètres _ulCount_ et _ulTotal_ , le cas échéant afficher un message facultatif, tel que « 5 éléments terminé sur 10 ». Si _ulCount_ et _ulTotal_ sont définies à 0, décider s’il faut modifier visuellement l’indicateur de progression. Certains fournisseurs de services de définissent ces paramètres à 0 pour indiquer qu’ils sont traitement un sous-objet dont la progression est surveillée par rapport à un objet parent. Dans ce cas, il est logique de modifier l’affichage uniquement lorsque l’objet parent signale la progression. Certains fournisseurs de services passez 0 pour ces paramètres à chaque fois. 
+Utilisez les paramètres _ulCount_ et _ulTotal_ , s'ils sont disponibles, pour afficher un message facultatif, par exemple, «5 éléments terminés sur 10». Si _ulCount_ et _ulTotal_ sont définis sur 0, déterminez si l'indicateur de progression doit être modifié visuellement. Certains fournisseurs de services définissent ces paramètres sur 0 pour indiquer qu'ils traitent un sous-objet dont la progression est contrôlée par rapport à un objet parent. Dans ce cas, il est logique de modifier l'affichage uniquement lorsque l'objet parent indique la progression. Certains fournisseurs de services transfèrent 0 pour ces paramètres à chaque fois. 
   
-Pour plus d’informations sur l’implémentation de **progression** et les autres méthodes [IMAPIProgress](imapiprogressiunknown.md) , consultez [l’implémentation d’un indicateur de progression](implementing-a-progress-indicator.md).
+Pour plus d'informations sur la façon d'implémenter la **progression** et les autres méthodes [méthode imapiprogress](imapiprogressiunknown.md) , consultez la rubrique [implémentation d'un indicateur de progression](implementing-a-progress-indicator.md).
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Trois pas tous les paramètres **IMAPIProgress::Progress** sont requis. Le seul paramètre requis est un _objet ulValue_, un nombre qui indique le pourcentage d’avancement. Si l’indicateur MAPI_TOP_LEVEL est défini, vous pouvez également passer un nombre d’objets et un total de l’objet. Certaines implémentations utilisent ces valeurs pour afficher une phrase tel que « 5 éléments terminé sur 10 » avec l’indicateur de progression. 
+Les trois paramètres de **méthode imapiprogress::P rogress** sont tous obligatoires. Le seul paramètre obligatoire est _ulValue_, un nombre qui indique le pourcentage d'avancement. Si l'indicateur MAPI_TOP_LEVEL est défini, vous pouvez également transmettre un nombre d'objets et un total d'objets. Certaines implémentations utilisent ces valeurs pour afficher une phrase telle que «5 éléments terminés sur 10» avec l'indicateur de progression. 
   
-Si vous copiez tous les messages dans un dossier unique, définissez _ulTotal_ et le nombre total de messages en cours de copie. Si vous copiez un dossier, définissez _ulTotal_ au nombre de sous-dossiers dans le dossier. Si le dossier à copier ne contient aucun uniquement les messages et les sous-dossiers, _ulTotal_ la valeur 1. 
+Si vous copiez tous les messages dans un seul dossier, définissez _ulTotal_ sur le nombre total de messages en cours de copie. Si vous copiez un dossier, définissez _ulTotal_ sur le nombre de sous-dossiers dans le dossier. Si le dossier à copier ne contient pas de sous-dossiers ni de messages, affectez la valeur 1 à _ulTotal_ . 
   
 Pour plus d’informations sur la méthode et le moment opportun pour appeler un objet de progression, reportez-vous à [Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md).
   
@@ -77,7 +77,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::Progress  <br/> |MFCMAPI utilise la méthode **IMAPIProgress::Progress** pour mettre à jour de la barre d’état MFCMAPI avec le pourcentage d’avancement, calculée à partir de _uValue_ et les valeurs maximales et minimales en cours.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::P rogress  <br/> |MFCMAPI utilise la méthode **méthode imapiprogress::P rogress** pour mettre à jour la barre d'état de MFCMAPI avec le pourcentage d'avancement actuel, calculé à partir de _uValue_ et les valeurs maximale et minimale actuelles.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: fb0b66cbf0de1ac351bb2026a48e0154de779206
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b396cd326dd25fd72346f9f8037e8a712b84a196
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278871"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>Propriété canonique PidTagMailPermission
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si l’utilisateur de messagerie est autorisé à envoyer et recevoir des messages. 
+Contient la valeur TRUE si l'utilisateur de messagerie est autorisé à envoyer et recevoir des messages. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient la valeur TRUE si l’utilisateur de messagerie est autorisé à envoye
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété n’est pas définie, MAPI la traite comme ayant la valeur TRUE. 
+Si cette propriété n'est pas définie, MAPI la traite comme ayant une valeur TRUE. 
   
-Définir cette propriété sur FALSE dans un annuaire d’entreprise où certaines entrées ne sont pas à extension messagerie. 
+Définissez cette propriété sur FALSe dans un annuaire d'entreprise dans lequel certaines entrées ne sont pas à extension messagerie. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

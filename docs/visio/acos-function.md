@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251394
 localization_priority: Normal
 ms.assetid: 75807d66-6483-2785-567c-d238067e1e52
-description: Renvoie l’arc cosinus d’un nombre, par exemple, l’angle dont le cosinus est number.
-ms.openlocfilehash: 53dbf70793b463193fb038cdc5e51991b4332c16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie l'arccosinus d'un nombre, par exemple, l'angle dont le cosinus est nombre.
+ms.openlocfilehash: fbfb5f6d9879e2e398fb2ae66d8b5c8a76f9251c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283099"
 ---
-# <a name="acos-function"></a>ACOS, fonction
+# <a name="acos-function"></a>Fonction ACOS
 
-Renvoie l’arc cosinus d’un nombre, par exemple, l’angle dont le cosinus est *nombre* . 
+Renvoie l'arccosinus d'un nombre, par exemple, l'angle dont le cosinus est *nombre* . 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -26,11 +26,11 @@ ACOS ( *nombre*)
   
 ## <a name="remarks"></a>Remarques
 
-La valeur entrée doit être dans la plage -1 \<= nombre \<= 1 ou un #NUM ! erreur est renvoyée. Angle qui en résulte est dans la plage 0 \<= angle \<= PI radians (0 \<= angle \<= 180 degrés).
+La valeur d'entrée doit être comprise dans \<la plage \<-1 = nombre = 1, ou une #NUM! est renvoyée. L'angle obtenu se trouve dans la plage \<0 = \<angle = pi radians ( \<0 = \<angle = 180 degrés).
   
 ## <a name="example"></a>Exemple
 
-ACOS(0) 
+ACOS (0) 
   
 Renvoie 90 deg. 
   

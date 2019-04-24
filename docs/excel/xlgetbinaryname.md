@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlGetBinaryName
 keywords:
-- fonction xlgetbinaryname [excel 2007]
+- fonction xlGetBinaryName [Excel 2007]
 localization_priority: Normal
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: d2332967e798b43a350c0733cd7398e2a921add6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6d063213e3f83451e8a072e71f0878174214f73e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303835"
 ---
 # <a name="xlgetbinaryname"></a>xlGetBinaryName
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Utilisé pour retourner un handle pour les données enregistrées par la [fonction xlDefineBinaryName](xldefinebinaryname.md). Données avec un nom défini binaire sont enregistrées avec le classeur et est accessible par un nom à tout moment. Pour plus d’informations, voir « Binaire » nom Limitation d’étendue dans [Problèmes connus dans le développement de XLL Excel](known-issues-in-excel-xll-development.md).
+Permet de renvoyer un descripteur pour les données enregistrées par la [fonction xlDefineBinaryName](xldefinebinaryname.md). Les données avec un nom binaire défini sont enregistrées avec le classeur et sont accessibles par nom à tout moment. Pour plus d'informations, voir «limitation de l'étendue de nom binaire» dans [problèmes connus dans Excel XLL Development](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
@@ -32,7 +32,7 @@ Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 
 _pxRes_ (**xltypeBigData** ou **xltypeErr**)
   
-Structure Bigdata spécifiant que les données récupérées ou une erreur est les données n’a pas pu être récupéré ou le nom n’est pas défini. Lorsque la fonction retourne, le membre **hdata** de la **XLOPER**/ **XLOPER12** contient un handle pour les données nommées.  _pxRes_ doit être libéré dans un appel à **xlFree** n’est plus nécessaire. 
+La structure bigdata spécifiant les données récupérées ou une erreur est que les données n'ont pas pu être récupérées ou que le nom n'est pas défini. Lorsque la fonction renvoie, le membre **hdata** de la méthode **XLOPER**/ **XLOPER12** contient un descripteur pour les données nommées.  _pxRes_ doit être libéré dans un appel à **xlFree** lorsqu'il n'est plus nécessaire. 
   
 _pxName_ (**xltypeStr**)
   
@@ -40,10 +40,10 @@ Chaîne spécifiant le nom des données.
   
 ## <a name="remarks"></a>Remarques
 
-Microsoft Excel possède le handle de mémoire retourné dans **hdata**. Dans Windows, le handle est le handle de mémoire globale (alloué par la fonction **GlobalAlloc** ). 
+Microsoft Excel est propriétaire du handle de mémoire renvoyé dans **hdata**. Dans Windows, le descripteur est un descripteur de mémoire globale (alloué par la fonction **GlobalAlloc** ). 
   
 ## <a name="see-also"></a>Voir aussi
 
 - [xlDefineBinaryName](xldefinebinaryname.md)
-- [Fonctions de l’API C qui peuvent être appelées uniquement à partir d’une DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

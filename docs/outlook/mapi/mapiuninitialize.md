@@ -11,27 +11,27 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f95c86a137e7253f3445123c23f2dc0d76b6d87a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f7339588bcc6815545e7341eafffe9cf001c1d76
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270027"
 ---
 # <a name="mapiuninitialize"></a>MAPIUninitialize
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrémente le décompte de références, nettoie et supprime par instance globale des données pour la DLL MAPI. 
+Décrémente le décompte de références, nettoie et supprime les données globales par instance pour la DLL MAPI. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIX.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Applications clientes  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes  <br/> |
    
 ```cpp
 void MAPIUninitialize ( void );
@@ -39,7 +39,7 @@ void MAPIUninitialize ( void );
 
 ## <a name="parameters"></a>Paramètres
 
-Aucune 
+Aucun 
   
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,11 +47,11 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Une application cliente appelle la fonction **MAPIUninitialize** pour mettre fin à son interaction avec l’interface MAPI, commencé avec un appel à la fonction [exécuter MAPIInitialize](mapiinitialize.md) . Après avoir appelé **MAPIUninitialize** , aucun autre appel MAPI ne peut être effectuées par le client. 
+Une application cliente appelle la fonction **MAPIUninitialize** pour mettre fin à son interaction avec MAPI, commencée par un appel à la fonction [MAPIInitialize](mapiinitialize.md) . Après l'appel de **MAPIUninitialize** , aucun autre appel MAPI ne peut être effectué par le client. 
   
- **MAPIUninitialize** décrémente le nombre et la fonction **exécuter MAPIInitialize** correspondante incrémente le décompte de références. Par conséquent, le nombre d’appels à une fonction doit correspondre au nombre d’appels à l’autre. 
+ **MAPIUninitialize** décrémente le décompte de références, et la fonction **MAPIInitialize** correspondante incrémente le nombre de références. Par conséquent, le nombre d'appels à une fonction doit être égal au nombre d'appels à l'autre. 
   
 > [!NOTE]
-> Impossible d’appeler **exécuter MAPIInitialize** ou **MAPIUninitialize** au sein d’une fonction Win32 **DllMain** ou toute autre fonction qui crée ou met fin à des threads. Pour plus d’informations, voir [Utilisation des objets Thread-Safe](using-thread-safe-objects.md). 
+> Vous ne pouvez pas appeler **MAPIInitialize** ou **MAPIUninitialize** à partir d'une fonction **DllMain** Win32 ou de toute autre fonction qui crée ou termine des threads. Pour plus d'informations, consultez la rubrique [utilisation d'objets thread-safe](using-thread-safe-objects.md). 
   
 

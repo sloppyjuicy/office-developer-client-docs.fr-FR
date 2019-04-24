@@ -9,50 +9,50 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 6b71feb6d5967eab3aa490a256825a2803381f40
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6415ddcec2823192967b8869b46b22b58b08ba5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286356"
 ---
 # <a name="pidtagpstpathhint-canonical-property"></a>Propriété canonique PidTagPstPathHint
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit le nom de table (fichier .pst) stockage personnel, l’utilisateur peut modifier, pour la boîte de dialogue de configuration. 
+Fournit le nom de la table de stockage personnel (fichier. pst), que l'utilisateur peut modifier, pour la boîte de dialogue de configuration. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PST_PATH_HINT, PR_PST_PATH_HINT_A, PR_PST_PATH_HINT_W  <br/> |
 |Identificateur :  <br/> |0x6771  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Tableau de stockage personnel (.pst) interne  <br/> |
+|Domaine :  <br/> |Table de stockage personnel (. pst) interne  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si la propriété **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) est utilisée au lieu de cela, la boîte de dialogue configuration s’ouvre, mais l’utilisateur n’est pas être autorisé pour modifier le chemin d’accès et de nombreuses autres propriétés.
+Si la propriété **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) est utilisée à la place, la boîte de dialogue de configuration s'ouvre, mais l'utilisateur n'est pas autorisé à modifier le chemin d'accès et de nombreuses autres propriétés.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

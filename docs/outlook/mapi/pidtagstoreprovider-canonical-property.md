@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6f6cc66f-a08e-4f8e-b33a-d3674319248e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 02d2c30fede7e554910a1bedb01b79c488447bb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6266c9293f54ce764c5b5b0e41d43767490abcf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278707"
 ---
 # <a name="pidtagstoreprovider-canonical-property"></a>Propriété canonique PidTagStoreProvider
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une structure [MAPIUID](mapiuid.md) défini par le fournisseur qui indique le type de la banque de messages. 
+Contient une structure [MAPIUID](mapiuid.md) définie par le fournisseur qui indique le type de la Banque de messages. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient une structure [MAPIUID](mapiuid.md) défini par le fournisseur qui indi
    
 ## <a name="remarks"></a>Remarques
 
-La structure [MAPIUID](mapiuid.md) identifie le type de banque de messages. La valeur est calculée par les fournisseurs de banque de messages sur des objets de banque de messages et est unique pour chaque fournisseur. Il est généralement utilisé pour la navigation par le biais de la table de banque de messages pour rechercher un magasin du type souhaité, tels que les dossiers publics. 
+La structure [MAPIUID](mapiuid.md) identifie le type de banque de messages. La valeur est calculée par les fournisseurs de banque de messages sur les objets de banque de messages et est unique pour chaque fournisseur. Il est généralement utilisé pour parcourir la table de banque de messages afin de trouver une banque du type souhaité, comme des dossiers publics. 
   
-Cette propriété correspond à la propriété **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) pour les carnets d’adresses. 
+Cette propriété est analogue à la propriété **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) pour les carnets d'adresses. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 753067c8c0af15a44e0f3b71f6122d8683db4a98
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: fdd6f40b4d7aa7f65bf1a46d3d9a4f18472b19f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278946"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
@@ -35,39 +35,39 @@ HRESULT HrDeleteRows(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la suppression. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle la suppression. L'indicateur suivant peut être défini:
     
 TAD_ALL_ROWS 
   
-> Supprime toutes les lignes de la table et toutes les vues correspondants, l’envoi d’une notification TABLE_RELOAD unique.
+> Supprime toutes les lignes de la table et de toutes les vues correspondantes, en envoyant une seule notification TABLE_RELOAD.
     
  _lprowsetToDelete_
   
-> [in] Pointeur vers un ensemble de lignes qui décrit les lignes à supprimer. Le paramètre _lprowsetToDelete_ peut être NULL si l’indicateur TAD_ALL_ROWS est défini dans le paramètre _ulFlags_ . 
+> dans Pointeur vers un jeu de lignes qui décrit les lignes à supprimer. Le paramètre _lprowsetToDelete_ peut être null si l'indicateur TAD_ALL_ROWS est défini dans le paramètre _ulFlags_ . 
     
  _cRowsDeleted_
   
-> [out] Le nombre de lignes supprimées.
+> remarquer Nombre de lignes supprimées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les lignes de table ont été supprimés.
+> Les lignes de tableau ont été supprimées avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData::HrDeleteRows** localise et supprime les lignes de la table contenant les colonnes qui correspondent à la propriété pointée pour définir les par le membre **lpProps** de chaque entrée **: UGAL** dans la ligne. Une colonne d’index est utilisée pour identifier chaque ligne ; Cette colonne doit avoir la même balise de propriété en tant que la balise de propriété passée dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la fonction [Create table](createtable.md) . 
+La méthode **ITableData:: HrDeleteRows** localise et supprime les lignes de table qui contiennent les colonnes qui correspondent à la propriété sur laquelle pointe le membre **LpProps** de chaque **aRow** entrée du jeu de lignes. Une colonne d'index est utilisée pour identifier chaque ligne; Cette colonne doit avoir la même balise de propriété que la balise de propriété passée dans le paramètre _ulPropTagIndexColumn_ dans l'appel à la fonction [CreateTable](createtable.md) . 
   
-Le nombre de lignes qui ont été supprimées réellement est retourné dans _cRowsDeleted_. Aucune erreur n’est renvoyée si une ou plusieurs lignes est introuvable. 
+Le nombre de lignes réellement supprimées est renvoyé dans _cRowsDeleted_. Aucune erreur n'est renvoyée si une ou plusieurs lignes sont introuvables. 
   
-Une fois que les lignes sont supprimées, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode la table [IMAPITable::Advise](imapitable-advise.md) pour inscrire les notifications. 
+Une fois les lignes supprimées, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable:: Advise](imapitable-advise.md) pour s'inscrire aux notifications. 
   
-Suppression de lignes ne réduit pas les colonnes aux tableaux existants ou ouvert par la suite des affichages tableau, même si les lignes supprimées sont la dernière ayant des valeurs d’une colonne spécifique.
+La suppression de lignes ne réduit pas les colonnes disponibles pour les affichages de tableau existants ou les vues de table ouvertes par la suite, même si les lignes supprimées sont les dernières qui contiennent des valeurs pour une colonne spécifique.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 74c52b96-e903-444b-8bda-73a08f278c22
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 32174e213334d784220b960364443e60db6d1d19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 3de29e9af5caa82d2e57c8fcbbdab7d5ddb19dd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285205"
 ---
 # <a name="imapisupportdoprogressdialog"></a>IMAPISupport::DoProgressDialog
 
@@ -39,31 +39,31 @@ HRESULT DoProgressDialog(
 
  _ulUIParam_
   
-> [in] Un handle vers la fenêtre parent de l’indicateur de progression.
+> dans Handle de la fenêtre parent de l'indicateur de progression.
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle comment l’objet de l’avancement doit calculer l’avancement. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle la manière dont l'objet Progress doit calculer la progression. L'indicateur suivant peut être défini:
     
 MAPI_TOP_LEVEL 
   
-> Progression est calculée pour un élément de niveau supérieur, par exemple un dossier parent. L’objet de l’avancement doit utiliser les valeurs dans la méthode [IMAPIProgress::Progress](imapiprogress-progress.md) _ulCount_ et _ulTotal_ — qui indiquent l’élément actuel et le nombre total d’éléments dans l’opération, respectivement, pour incrémenter la progression indicateur de l’opération. 
+> La progression est calculée pour un élément de niveau supérieur, tel qu'un dossier parent. L'objet Progress doit utiliser les valeurs des paramètres _ulCount_ et _ulTotal_ de la méthode [méthode imapiprogress::P rogress](imapiprogress-progress.md) , qui indiquent respectivement l'élément actif et le nombre total d'éléments dans l'opération; pour incrémenter la progression indicateur de l'opération. 
     
  _lppProgress_
   
-> [out] Pointeur vers un pointeur vers l’objet de progression.
+> remarquer Pointeur vers un pointeur vers l'objet de progression.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La progression de l’objet a été extrait.
+> L'objet Progress a été correctement récupéré.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::DoProgressDialog** est implémentée pour adresse livre et message fournisseur prise en charge des objets store. Ces fournisseurs appellent **DoProgressDialog** pour accéder à l’implémentation de l’interface [IMAPIProgress](imapiprogressiunknown.md) , qui calcule les informations de progression et affiche une boîte de dialogue standard MAPI. 
+La méthode **IMAPISupport::D oprogressdialog** est implémentée pour les objets de prise en charge des fournisseurs de banques de messages et de carnet d'adresses. Ces fournisseurs appellent **DoProgressDialog** pour accéder à l'implémentation MAPI de l'interface [méthode imapiprogress](imapiprogressiunknown.md) , qui calcule les informations d'avancement et affiche une boîte de dialogue standard. 
   
-Pour plus d’informations sur l’utilisation d’un objet de progression et l’interface **IMAPIProgress** , voir [Afficher un indicateur de progression](how-to-display-a-progress-indicator.md).
+Pour plus d'informations sur l'utilisation d'un objet Progress et de l'interface **méthode imapiprogress** , voir [afficher un indicateur de progression](how-to-display-a-progress-indicator.md).
   
 ## <a name="see-also"></a>Voir aussi
 

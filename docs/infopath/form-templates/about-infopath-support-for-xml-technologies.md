@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
-description: Microsoft InfoPath est un outil hybride associant le meilleur de l’expérience, tel qu’un traitement de texte ou d’une application de messagerie, les fonctionnalités rigoureuses de collecte de données d’un package de formulaires de modification traditionnelle de document. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
-ms.openlocfilehash: 5d7b0bd0de045bdb9ada6946b7142993cd80df0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Microsoft InfoPath est un outil hybride qui allie le meilleur de l'expérience d'édition de documents traditionnelle, comme une application de traitement de texte ou de messagerie, aux fonctionnalités rigoureuses de capture de données d'un package de formulaires. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
+ms.openlocfilehash: 20831635fba8d76b9d6b45f42a5308ab7236db20
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300335"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>À propos de la prise en charge InfoPath pour les technologies XML
 
-Microsoft InfoPath est un outil hybride associant le meilleur de l’expérience, tel qu’un traitement de texte ou d’une application de messagerie, les fonctionnalités rigoureuses de collecte de données d’un package de formulaires de modification traditionnelle de document. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
+Microsoft InfoPath est un outil hybride qui allie le meilleur de l'expérience d'édition de documents traditionnelle, comme une application de traitement de texte ou de messagerie, aux fonctionnalités rigoureuses de capture de données d'un package de formulaires. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
   
 ## <a name="introduction"></a>Introduction
 
@@ -29,15 +29,15 @@ En matière de collecte de données, InfoPath résout un problème impossible à
   
 ## <a name="limitations-of-traditional-forms-and-documents-for-gathering-data"></a>Limites des formulaires et documents conventionnels en matière de collecte de données
 
-Lors de la collecte de données d'entreprise, les utilisateurs souhaitent en général bénéficier d'une flexibilité plus importante que celle offerte par les formulaires statiques, tout en profitant de fonctions d'édition structurée et de validation plus sophistiquées que celles proposées par les applications de traitement de texte.
+Lors de la collecte de données d’entreprise, les utilisateurs souhaitent en général bénéficier d’une flexibilité plus importante que celle offerte par les formulaires statiques, tout en profitant de fonctions d’édition structurée et de validation plus sophistiquées que celles proposées par les applications de traitement de texte.
   
 Les formulaires conventionnels sont statiques et limités en longueur. Le nombre de lignes extensibles est fixe et ils ne peuvent pas être étendus pendant le remplissage du formulaire. En outre, leur utilisation est complexe, car ils ne disposent pas de fonctions d'édition enrichie. Bien souvent, l'utilisateur doit fournir toutes les informations simultanément.
   
 De leur côté, les documents conventionnels créés à l'aide d'une application de traitement de texte permettent à l'utilisateur d'ajouter et de supprimer du contenu à sa guise, mais ils lui laissent presque trop de marge de manœuvre, dans le sens où il n'est pas obligé de saisir des informations complètes, structurées et valides. Les champs définis dans le document font rarement l'objet d'une véritable validation des valeurs et des types de données. Les libellés associés aux données des champs sont insuffisants pour permettre de faire facilement référence aux données et de les réutiliser automatiquement. Au lieu d'être structuré, le format des données est libre. Enfin, vous ne pouvez pas regrouper des informations, par exemple appliquer un libellé « Adresse » à un groupe associé aux champs « Rue », « Ville » et « État ».
   
-Des outils d'édition aussi flexibles que structurés s'avèrent donc nécessaires. Cependant, avant l'arrivée du langage XML, ce type de technologie n'était pas disponible. Entre temps, les développeurs ont été amenés à créer des applications personnalisées nécessitant un codage sophistiqué. Ces applications sont coûteuses et difficiles à modifier, et la validation nécessite un codage personnalisé. Il est bien souvent nécessaire de former les utilisateurs finaux et il s'avère difficile de réutiliser les données obtenues dans d'autres processus d'entreprise.
+Des outils d’édition aussi flexibles que structurés s’avèrent donc nécessaires. Cependant, avant l’arrivée du langage XML, ce type de technologie n’était pas disponible. Entre temps, les développeurs ont été amenés à créer des applications personnalisées nécessitant un codage sophistiqué. Ces applications sont coûteuses et difficiles à modifier, et la validation nécessite un codage personnalisé. Il est bien souvent nécessaire de former les utilisateurs finaux et il s’avère difficile de réutiliser les données obtenues dans d’autres processus d’entreprise.
   
-## <a name="providing-structured-editing-by-displaying-xml-data-as-field-groups"></a>Accès à l'édition structurée grâce à l'affichage de données XML sous forme de groupes de champs
+## <a name="providing-structured-editing-by-displaying-xml-data-as-field-groups"></a>Accès à l’édition structurée grâce à l’affichage de données XML sous forme de groupes de champs
 
 Sur le plan de la conception technique, l'une des principales difficultés fut de trouver comment créer une interface simple d'utilisation permettant d'ajouter et de supprimer des éléments et attributs XML sans les afficher, tout en conservant une arborescence DOM conforme au schéma XML personnalisé défini. Une telle interface utilisateur devait donc permettre d'éditer facilement l'arborescence DOM, notamment en insérant des sous-arborescences facultatives, en remplaçant les sous-arborescences disponibles et en étendant les sous-arborescences existantes.
   
@@ -45,7 +45,7 @@ Pour fournir une interface simple d'utilisation, une sous-arborescence DOM s'aff
   
 InfoPath permet d'éditer les données XML de façon structurée en utilisant le schéma XML spécifié pour encadrer et guider l'édition. Le schéma détermine notamment si les commandes **Insérer** et **Supprimer** doivent ou non s'afficher dans le menu déroulant d'un groupe de champs. Ce schéma est également utilisé pour la validation. Pour permettre l'édition d'un document XML pour lequel il n'existe pas de schéma, InfoPath peut générer un schéma à partir du document XML. 
   
-## <a name="providing-easy-to-use-views-of-xml-data-by-using-xslt-transformations"></a>Accès à des vues de données XML simples d'utilisation à l'aide de transformations XSLT
+## <a name="providing-easy-to-use-views-of-xml-data-by-using-xslt-transformations"></a>Accès à des vues de données XML simples d’utilisation à l’aide de transformations XSLT
 
 Une des autres difficultés techniques à résoudre consistait à trouver un moyen d'organiser le contenu des vues de l'interface utilisateur sans forcément reprendre la structure des données XML. Pour présenter les données de façon claire pour l'utilisateur et lui permettre de les lire et de les éditer facilement, le concepteur doit pouvoir afficher les données dans un ordre différent de celui dans lequel elles apparaissent dans l'arborescence de données DOM, ignorer certaines données figurant dans une vue, réorganiser des nœuds d'arborescence de données adjacents dans des vues séparées et regrouper dans une même vue des données issues de différentes sections de l'arborescence.
   
@@ -55,7 +55,7 @@ Pour créer ce mappage complexe entre les vues et les données, InfoPath s'appui
   
 Pour éviter d'exécuter entièrement la transformation XSLT chaque fois que l'utilisateur modifie la structure d'une sous-arborescence du DOM, des algorithmes déterminent quelle partie de la vue doit être actualisée. Ainsi, seule la partie concernée de la feuille de style XSLT est appliquée et la partie en question est actualisée dans la vue.
   
-## <a name="how-xml-standards-are-used-when-editing-a-form"></a>Utilisation des standards XML lors de l'édition d'un formulaire
+## <a name="how-xml-standards-are-used-when-editing-a-form"></a>Utilisation des standards XML lors de l’édition d’un formulaire
 
 InfoPath s'appuie entièrement sur les standards XML suivants :
   
@@ -107,7 +107,7 @@ La figure 1 illustre le menu déroulant contextuel d'un groupe de champs **custo
     
 9. L'utilisateur peut enregistrer le document XML ou le transmettre par le biais du protocole HTTP standard ou du protocole SOAP. En revanche, il n'est pas autorisé à transmettre le document s'il n'est pas conforme au schéma XML.
     
-## <a name="how-xml-standards-are-used-when-designing-a-form"></a>Utilisation des standards XML lors de la conception d'un formulaire
+## <a name="how-xml-standards-are-used-when-designing-a-form"></a>Utilisation des standards XML lors de la conception d’un formulaire
 
 Vous pouvez concevoir un formulaire à partir d'un schéma XML existant, en vous connectant à un service Web XML ou à une base de données et en obtenant son schéma XML, ou encore en générant automatiquement un schéma à partir d'un nouveau formulaire ou d'un fichier de données XML. Ces différents scénarios sont décrits dans les procédures ci-dessous. La figure 3 illustre l'interface utilisateur de base permettant de concevoir un modèle de formulaire.
   
@@ -161,8 +161,8 @@ InfoPath s'intègre parfaitement à la souplesse du modèle des services Web, da
 
 |||
 |:-----|:-----|
-|**groupe de champs :** <br/> |Section, section extensible, section facultative ou tableau extensible. Les sections et les tableaux extensibles sont des contrôles de formulaire contenant d’autres contrôles et qui s’étendent en fonction des besoins. Les utilisateurs peuvent insérer plusieurs sections ou lignes lorsqu’ils remplissent le formulaire.  <br/> |
-|**Arborescence DOM :** <br/> |La structure de la source de données du formulaire. En particulier, la collection de champs et des groupes qui définissent et stockent les données d’un formulaire InfoPath.  <br/> |
+|**Groupe de champs :** <br/> |Section, section extensible, section facultative ou tableau extensible. Les sections et les tableaux extensibles sont des contrôles de formulaire contenant d’autres contrôles et qui s’étendent en fonction des besoins. Les utilisateurs peuvent insérer plusieurs sections ou lignes lorsqu’ils remplissent le formulaire.  <br/> |
+|**Arborescence DOM :** <br/> |Structure de la source de données du formulaire. En particulier, la collection de champs et de groupes qui définissent et stockent les données d'un formulaire InfoPath.  <br/> |
    
 ## <a name="conclusion"></a>Conclusion
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: e29190c5-52c3-4ef7-98db-699487c54325
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a60bc55686e883cabd144af3a9badfb55f835472
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 751be8abe02dfb1d5bab2bcbbbc0cbd2a8243f85
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278756"
 ---
 # <a name="pidtagstatuscode-canonical-property"></a>Propriété canonique PidTagStatusCode
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de bits d’indicateurs qui indiquent l’état actuel d’une ressource de session. Tous les fournisseurs de services de définissent les codes d’état comme MAPI pour créer des rapports sur l’état du sous-système, le spouleur MAPI et le carnet d’adresses intégré.
+Contient un masque de réindicateur des indicateurs qui indiquent l'état actuel d'une ressource de session. Tous les fournisseurs de services définissent les codes d'État comme le fait MAPI pour indiquer l'état du sous-système, le spouleur MAPI et le carnet d'adresses intégré.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contient un masque de bits d’indicateurs qui indiquent l’état actuel d’un
    
 ## <a name="remarks"></a>Remarques
 
-Le code d’état doit apparaître dans le fichier Mapisvc.inf pour tous les fournisseurs. 
+Le code d'État doit apparaître dans le fichier MAPISVC. inf pour tous les fournisseurs. 
   
-Objets d’état sont implémentés par MAPI et par tous les fournisseurs de services. Il existe deux jeux de valeurs valides pour les codes d’état, un ensemble de tous les objets d’état et un autre ensemble pour les fournisseurs de transport uniquement. Tous les objets d’état peuvent définir cette propriété sur les valeurs suivantes :
+Les objets d'État sont implémentés par MAPI et par tous les fournisseurs de services. Il existe deux ensembles de valeurs valides pour les codes d'État, un ensemble pour tous les objets d'État et un autre ensemble pour les fournisseurs de transport uniquement. Tous les objets d'État peuvent définir cette propriété avec les valeurs suivantes:
   
 STATUS_AVAILABLE 
   
 > Indique que la ressource est opérationnelle.
     
-VALEUR 
+STATUS_FAILURE 
   
-> Indique que la ressource est un problème. Pour les fournisseurs de service, la valeur indique que le fournisseur bientôt est arrêté à la fin de la session en cours.
+> Indique que la ressource rencontre un problème. Pour les fournisseurs de services, STATUS_FAILURE indique que le fournisseur peut bientôt être arrêté pour mettre fin à la session en cours.
     
 STATUS_OFFLINE 
   
-> Indique que les données locales uniquement ou les services sont disponibles.
+> Indique que seules les données locales ou les services sont disponibles.
     
-Fournisseurs de transport peuvent également définir leur statut **PR_STATUS_CODE** propriétés des objets aux valeurs suivantes : 
+Les fournisseurs de transport peuvent également définir les propriétés **PR_STATUS_CODE** de leurs objets d'État sur les valeurs suivantes: 
   
 STATUS_INBOUND_ACTIVE 
   
@@ -64,7 +64,7 @@ STATUS_INBOUND_ENABLED
     
 STATUS_INBOUND_FLUSH 
   
-> Indique que le fournisseur de transport téléchargement des messages à partir de la file d’attente entrante.
+> Indique que le fournisseur de transport télécharge les messages à partir de la file d'attente entrante.
     
 STATUS_OUTBOUND_ACTIVE 
   
@@ -76,23 +76,23 @@ STATUS_OUTBOUND_ENABLED
     
 STATUS_OUTBOUND_FLUSH 
   
-> Indique que le fournisseur de transport est téléchargement des messages à partir de sa file d’attente sortante.
+> Indique que le fournisseur de transport télécharge les messages à partir de sa file d'attente sortante.
     
 STATUS_REMOTE_ACCESS 
   
-> Indique que le fournisseur de transport prend en charge l’accès à distance.
+> Indique que le fournisseur de transport prend en charge l'accès à distance.
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

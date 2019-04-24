@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm82251281
 localization_priority: Normal
 ms.assetid: b7aea554-f491-6a9a-4d07-feeab739a9df
-description: Représente le x-coordonnées qui indique l’emplacement de la poignée de contrôle d’une forme dans le système de coordonnées local.
-ms.openlocfilehash: e47b26c72709a2ee74675e73b8e8424bbfb325e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Représente la coordonnée x qui indique l'emplacement de la poignée de contrôle d'une forme en coordonnées locales.
+ms.openlocfilehash: 58eea4e9c3cfe127c4adcc7fb75e395f53874dd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269782"
 ---
 # <a name="x-cell-controls-section"></a>X, cellule (section Controls)
 
-Représente le *x* -coordonnées qui indique l’emplacement de la poignée de contrôle d’une forme dans le système de coordonnées local. 
+Représente la coordonnée *x* qui indique l'emplacement de la poignée de contrôle d'une forme en coordonnées locales. 
   
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule X par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Contrôles.  *nom* . X où contrôle.  *nom* est le nom de la ligne des contrôles.  <br/> |
+| Nom de cellule :  <br/> | Vérifie.  *nom* . X où Controls.  *Name* est le nom de la ligne Controls.  <br/> |
    
-Pour obtenir une référence à la cellule X par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

@@ -1,23 +1,23 @@
 ---
-title: Exemples de solutions en bac à sable
+title: Exemples de solutions bac à sable (sandbox)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 415fa0fa-b7b7-4acb-a437-f54c34064004
 description: Cette rubrique fournit deux exemples qui montrent le type de code que vous pouvez écrire dans un modèle de formulaire solution bac à sable InfoPath et comment publier ce modèle.
-ms.openlocfilehash: b0874e34d843850df55eee87d689ce0d01112635
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56a9a2a765100ef327790265c7cf734903268bed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303499"
 ---
-# <a name="sample-sandboxed-solutions"></a>Exemples de solutions en bac à sable
+# <a name="sample-sandboxed-solutions"></a>Exemples de solutions bac à sable (sandbox)
 
 Les formulaires InfoPath avec code managé peuvent être publiés sur l'infrastructure solution bac à sable SharePoint à partir du concepteur InfoPath. Cette rubrique fournit deux exemples qui montrent le type de code que vous pouvez écrire dans un modèle de formulaire solution bac à sable InfoPath et comment publier ce modèle.
   
-## <a name="example-1-sorting-data-in-an-order-form"></a>L’exemple 1 : Tri des données dans un formulaire de commande
+## <a name="example-1-sorting-data-in-an-order-form"></a>Exemple 1: tri des données dans un bon de commande
 
 Une tâche utile, comme trier les données dans un tableau extensible, peut être effectuée à l'aide de code dans un formulaire InfoPath. Pour ce faire, le code réordonne les nœuds dans un document XML sous-jacent qui est affiché dans le formulaire InfoPath. Bien que le scénario décrit dans cette rubrique est conçu pour publier directement un formulaire InfoPath en tant que solution bac à sable, celui-ci peut également être déployé comme un modèle de formulaire approuvé par l'administrateur.
   
@@ -25,9 +25,9 @@ Avant de commencer, vérifiez que vous remplissez les conditions suivantes.
   
 - Vous êtes administrateur de collection de sites sur le site SharePoint Server 2010 ou SharePoint Foundation 2010 sur lequel vous souhaitez publier le formulaire.
     
-- Contactez l’administrateur de batterie de serveurs pour vous assurer que le Service de Code en bac à sable Microsoft SharePoint Foundation est en cours d’exécution sur le serveur. Pour plus d’informations, voir [Publication de formulaires avec Code](publishing-forms-with-code.md).
+- Consultez l'administrateur de batterie de serveurs pour vous assurer que le service de code en mode bac à sable Microsoft SharePoint Foundation est en cours d'exécution sur le serveur. Pour plus d'informations, consultez la rubrique [publication de formulaires avec code](publishing-forms-with-code.md).
     
-- Le langage de programmation que vous avez choisi pour le modèle de formulaire est **C#** ou **Visual Basic**, non suivi d'un nom de version antérieure. Les versions des langages de programmation et des modèles objet compatibles InfoPath 2007 ou InfoPath 2003 ne sont pas prises en charge pour solutions bac à sable. Pour plus d’informations sur la façon de spécifier le langage de programmation, voir [Develop avec Visual Studio](how-to-develop-with-visual-studio.md).
+- Le langage de programmation que vous avez choisi pour le modèle de formulaire est **C#** ou **Visual Basic**, non suivi d'un nom de version antérieure. Les versions des langages de programmation et des modèles objet compatibles InfoPath 2007 ou InfoPath 2003 ne sont pas prises en charge pour solutions bac à sable. Pour plus d'informations sur la façon de spécifier le langage de programmation, consultez la rubrique [Developing with Visual Studio](how-to-develop-with-visual-studio.md).
     
 Pour créer un modèle de formulaire qui trie les données dans un contrôle **Tableau extensible** sur le formulaire, procédez comme suit. 
   
@@ -133,7 +133,7 @@ Pour créer un modèle de formulaire qui trie les données dans un contrôle **T
         Me.NamespaceManager).InnerXml = newTableXML
    ```
 
-5. Publier votre formulaire à l’aide de la procédure suivante :
+5. Publiez votre formulaire en procédant comme suit:
     
     1. Cliquez sur **SharePoint Server** sur l'onglet **Publier** dans Backstage. 
         
@@ -150,7 +150,7 @@ Pour créer un modèle de formulaire qui trie les données dans un contrôle **T
         
     6. Cliquez sur **Publier**.
     
-## <a name="example-2-managing-vendors-in-a-sharepoint-list"></a>L’exemple 2 : Gestion des fournisseurs dans une liste SharePoint
+## <a name="example-2-managing-vendors-in-a-sharepoint-list"></a>Exemple 2: gestion des fournisseurs dans une liste SharePoint
 
 Cet exemple comprend de la programmation par rapport au modèle objet Microsoft SharePoint Foundation 2010. Pour cela, vous devez établir une référence à l'assembly Microsoft.SharePoint.dll qui est installé avec une copie sous licence de SharePoint Server 2010.
   
@@ -162,11 +162,11 @@ La bibliothèque Microsoft.SharePoint.Server.dll est installée par défaut dans
   
 ### <a name="to-create-a-form-template-that-can-add-new-items-to-a-combo-box-based-on-a-sharepoint-list"></a>Pour créer un modèle de formulaire qui puisse ajouter de nouveaux éléments à une zone de liste déroulante basée sur une liste SharePoint
 
-1. Créer une liste personnalisée simple sur un serveur SharePoint Server 2010 et nommez-le MyList. L’exemple suivant utilise une **Zone de liste déroulante** lié au champ de **titre** de cette liste. 
+1. Créez une liste personnalisée simple sur un serveur SharePoint Server 2010 et nommez-la MyList. L'exemple suivant utilise une **zone de liste** déroulante liée au champ **title** de cette liste. 
     
-2. Créer un nouveau **Formulaire vierge** dans InfoPath Designer, insérer un contrôle de **Zone de liste déroulante** sur votre formulaire et renommez le champ lié à la zone de liste déroulante myCombo.
+2. Créez un **formulaire vierge** dans le Concepteur InfoPath, insérez un contrôle de **zone de liste** déroulante dans votre formulaire, puis renommez le champ lié à la zone de liste déroulante en cette zone mycombo.
     
-3. Créer la connexion de données à la liste qui sera utilisée pour remplir la zone de liste déroulante en suivant les étapes suivantes :
+3. Créez la connexion de données à la liste qui sera utilisée pour remplir la zone de liste déroulante en procédant comme suit:
     
     1. Sur l'onglet **Données**, cliquez sur le bouton **À partir de la liste SharePoint** dans le groupe **Données externes**. 
         
@@ -180,7 +180,7 @@ La bibliothèque Microsoft.SharePoint.Server.dll est installée par défaut dans
         
     6. Nommez la connexion de données LookupList, puis cliquez sur **Terminer**.
     
-4. Pour remplir la zone de liste déroulante dans la liste à l’aide de la procédure suivante :
+4. Renseignez les valeurs de la zone de liste déroulante à partir de la liste en procédant comme suit:
     
     1. Sélectionnez la zone de liste déroulante que vous avez créée à l'étape 1.
         
@@ -192,15 +192,15 @@ La bibliothèque Microsoft.SharePoint.Server.dll est installée par défaut dans
         
     5. Définissez la valeur et le nom complet pour Titre.
         
-    6. Sous l’onglet **formulaires du navigateur** , sélectionnez **toujours** sous **paramètres de publication (postback)**, puis cliquez sur **OK** pour fermer la boîte de dialogue Propriétés. 
+    6. Sous l'onglet **formulaires du navigateur** , sélectionnez **toujours** sous **paramètres de publication**, puis cliquez sur **OK** pour fermer la boîte de dialogue Propriétés. 
     
-5. Assurez-vous que la zone de liste modifiable est toujours sélectionnée, puis cliquez sur **Événement de modification de** l’onglet **développeur** du ruban. 
+5. Assurez-vous que la zone de liste déroulante est toujours sélectionnée, puis cliquez sur **événement modifié** dans l'onglet **développeur** du ruban. 
     
-    Si vous n'avez pas encore enregistré votre formulaire, vous êtes invité à le faire. Puis, la fenêtre de l’éditeur de code ouvre le curseur dans le `myCombo_Changed` Gestionnaire d’événements. 
+    Si vous n'avez pas encore enregistré votre formulaire, vous êtes invité à le faire. Puis, la fenêtre de l'éditeur de code s'ouvre avec le `myCombo_Changed` curseur dans le gestionnaire d'événements. 
     
-6. Ajoutez une référence à l'assembly Microsoft.SharePoint.dll comme décrit plus haut dans cette rubrique. Pour plus d’informations sur la référence à l’assembly Microsoft.SharePoint, voir [Membres du modèle objet utiliser SharePoint](how-to-use-sharepoint-object-model-members.md).
+6. Ajoutez une référence à l'assembly Microsoft.SharePoint.dll comme décrit plus haut dans cette rubrique. Pour plus d'informations sur le référencement de l'assembly Microsoft. SharePoint, voir [utiliser les membres du modèle objet SharePoint](how-to-use-sharepoint-object-model-members.md).
     
-7. Collez le code suivant dans le `myCombo_Changed` Gestionnaire d’événements. 
+7. Collez le code suivant dans `myCombo_Changed` le gestionnaire d'événements. 
     
    ```cs
     // Use InfoPath OM's ServerInfo.SharePointSiteUrl property to programmatically
@@ -262,7 +262,7 @@ La bibliothèque Microsoft.SharePoint.Server.dll est installée par défaut dans
     End Using
    ```
 
-8. L’exemple de code précédent dépend du `GetDomValue` fonction d’assistance. Collez le code suivant pour le `GetDomValue` fonction d’assistance ci-dessous les `myCombo_Changed` fonction de gestionnaire d’événements. 
+8. L'exemple de code précédent dépend de `GetDomValue` la fonction d'assistance. Collez le code suivant pour `GetDomValue` la fonction d'assistance sous `myCombo_Changed` la fonction de gestionnaire d'événements. 
     
    ```cs
     private string GetDomValue(string XpathToGet)
@@ -277,7 +277,7 @@ La bibliothèque Microsoft.SharePoint.Server.dll est installée par défaut dans
     End Function
    ```
 
-9. Publier votre formulaire à l’aide de la procédure suivante :
+9. Publiez votre formulaire en procédant comme suit:
     
     1. Cliquez sur **SharePoint Server** sur l'onglet **Publier** dans Backstage. 
         
@@ -294,6 +294,6 @@ La bibliothèque Microsoft.SharePoint.Server.dll est installée par défaut dans
         
     6. Cliquez sur **Publier**.
         
-    7. Une fois que le formulaire est correctement publié, ouvrez le formulaire à partir de la bibliothèque de formulaires et ajouter une nouvelle valeur dans la zone de liste déroulante pour tester le code. Lorsque vous quittez le champ myCombo, la nouvelle valeur est écrit à la liste SharePoint. 
+    7. Une fois le formulaire publié, ouvrez le formulaire à partir de la bibliothèque de formulaires et ajoutez une nouvelle valeur dans la zone de liste déroulante pour tester le code. Lorsque vous quittez le champ cette zone mycombo, la nouvelle valeur est écrite dans la liste SharePoint. 
     
 

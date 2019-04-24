@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e06f78317a1e98d47a37cb7059042b254567fe8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2988f1fc149bbfc2d724b62b12bd12ae4f4664a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286982"
 ---
 # <a name="iaddrbookunadvise"></a>IAddrBook::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22573683"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Annule l’inscription d’une notification précédemment établie pour une entrée de carnet d’adresses.
+Annule une inscription aux notifications précédemment établie pour une entrée de carnet d'adresses.
   
 ```cpp
 HRESULT Unadvise(
@@ -37,17 +37,17 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> [in] Un numéro de connexion qui représente l’inscription d’être annulée. Le paramètre _ulConnection_ doit contenir une valeur renvoyée par un appel précédent à la méthode [IAddrBook::Advise](iaddrbook-advise.md) . 
+> dans Numéro de connexion qui représente l'inscription à annuler. Le paramètre _ulConnection_ doit contenir une valeur renvoyée par un appel antérieur à la méthode [IAddrBook:: Advise](iaddrbook-advise.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’enregistrement a été annulée.
+> L'inscription a été annulée.
     
 ## <a name="remarks"></a>Remarques
 
-Clients appellent la méthode **Unadvise** pour arrêter de recevoir des notifications sur les modifications apportées à une entrée de carnet d’adresses particulière. Lorsqu’un enregistrement de notification est annulé, le carnet d’adresses versions fournisseur son pointeur vers l’appelant de notification récepteur. Toutefois, la version peut se produire lors de l’appel **Unadvise** ou ultérieurement, si un autre thread est en appelant la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) . Lorsqu’une notification est en cours, la version est différée jusqu'à ce que la méthode **OnNotify** renvoie. 
+Les clients appellent **** la méthode Unadvise pour cesser de recevoir des notifications sur les modifications apportées à une entrée de carnet d'adresses particulière. Lorsqu'une inscription aux notifications est annulée, le fournisseur de carnet d'adresses libère son pointeur vers le récepteur de notifications de l'appelant. Toutefois, la publication peut se produire pendant **** l'appel Unadvise ou ultérieurement, si un autre thread appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) . Lorsqu'une notification est en cours, la publication est retardée jusqu'à ce que la méthode **OnNotify** renvoie. 
   
 ## <a name="see-also"></a>Voir aussi
 

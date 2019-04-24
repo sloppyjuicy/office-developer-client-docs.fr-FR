@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 1e3d384f35726ff28bb47f3d537c8a7a1dda6dce
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299432"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
@@ -21,13 +21,13 @@ ms.locfileid: "25399654"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine la page de codes pour un flux de Transport-Neutral Encapsulation Format (TNEF).
+Détermine la page de codes pour un flux TNEF (Transport-Neutral Encapsulation Format).
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |TNEF.h  <br/> |
+|Fichier d’en-tête :  <br/> |TNEF. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Applications clientes et des fournisseurs de services.  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services.  <br/> |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(
@@ -41,15 +41,15 @@ HRESULT GetTnefStreamCodepage(
 
  _lpStream_
   
-> [in] Pointeur vers une flux de données de stockage objet interface OLE **IStream** fournissant une source d’un message de flux TNEF. 
+> dans Pointeur vers une interface OLE **IStream** d'objet de flux de stockage fournissant une source pour un message de flux TNEF. 
     
  _lpulCodepage_
   
-> [out] Pointeur vers la page de code de l’objet stream.
+> remarquer Pointeur vers la page de code du flux.
     
  _lpulSubCodepage_
   
-> [out] Pointeur vers la page subcode du flux.
+> remarquer Pointeur vers la page de sous-code du flux.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -59,15 +59,15 @@ HRESULT GetTnefStreamCodepage(
     
  **MAPI_E_NOT_ENOUGH_DISK**
   
-> Une erreur de lecture d’un attribut dans le flux TNEF est survenu.
+> Une erreur s'est produite lors de la lecture d'un attribut dans le flux TNEF.
     
  **MAPI_E_CORRUPT_DATA**
   
-> Le flux n’était pas un flux TNEF ou il s’est produit une erreur de lecture de l’attribut attOemCodepage.
+> Le flux n'était pas un flux TNEF ou une erreur s'est produite lors de la lecture de l'attribut attOemCodepage.
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la fonction **GetTnefStreamCodepage** pour lire l’attribut **attOemCodepage** de l’objet stream TNEF pour déterminer la page de code et la page subcode. Si **attOemCodepage** est introuvable, **GetTnefStreamCodepage** renvoie une page de codes de 437 et une page subcode 0. 
+Utilisez la fonction **GetTnefStreamCodepage** pour lire l'attribut **ATTOEMCODEPAGE** du flux TNEF afin de déterminer la page de code et la page de sous-code. Si **attOemCodepage** est introuvable, **GetTnefStreamCodepage** renvoie une page de code de 437 et une page de sous-code de 0. 
   
 ## <a name="see-also"></a>Voir aussi
 

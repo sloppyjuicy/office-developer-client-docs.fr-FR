@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82251478
 localization_priority: Normal
 ms.assetid: 14d4e6bf-0961-7041-cf4a-9132ffbceb37
-description: Renvoie la constante mathématique pi, soit 3,1415926535898 environ.
-ms.openlocfilehash: 8c4290e01e47d119a74c3131fe8c25f522c1f036
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la constante mathématique pi, qui est approximativement 3.1415926535898.
+ms.openlocfilehash: fccde47df34f3be92201427e46a2084f001e3cd1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269951"
 ---
-# <a name="pi-function"></a>PI, fonction
+# <a name="pi-function"></a>Fonction PI
 
-Renvoie la constante mathématique *pi* , soit 3,1415926535898 environ. 
+Renvoie la constante mathématique *pi* , qui est approximativement 3.1415926535898. 
   
 ## <a name="syntax"></a>Syntaxe
 
 PI( )
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   
 ## <a name="example"></a>Exemple
 
-(14 / 2) ^ 2 \* PI) 
+(14 pouces/2) ^ 2 \* pi () 
   
 Renvoie 3910 millimètres, l’aire d’un cercle dont le diamètre est de 355,6 millimètres. 
   

@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 94bafdf0ca84fa31a7df2f022265d5d5d1a99a37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 12c50ab5936d7fffd364c276ba07ca69d3459ae7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299516"
 ---
 # <a name="guid"></a>GUID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Décrit un identificateur global unique (GUID). 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiguid.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiguid. h  <br/> |
    
 ```cpp
 typedef struct _GUID
@@ -46,35 +46,35 @@ typedef struct _GUID
 
  **Data1**
   
-> Une valeur de données entier long non signé.
+> Valeur de type long Integer non signée.
     
  **Data2**
   
-> Une valeur de données entier court non signé.
+> Valeur de type Integer courte non signée.
     
  **Data3**
   
-> Une valeur de données entier court non signé.
+> Valeur de type Integer courte non signée.
     
- **Données4**
+ **Data4**
   
-> Un tableau de caractères non signés.
+> Tableau de caractères non signés.
     
 ## <a name="remarks"></a>Remarques
 
- Structures **GUID** sont utilisés dans MAPI comme suit : 
+ Les structures de **GUID** sont utilisées dans MAPI de la manière suivante: 
   
-- Dans les structures [MAPIUID](mapiuid.md) qui identifient les fournisseurs de services. 
+- Dans les structures [MAPIUID](mapiuid.md) qui identifient les fournisseurs de services de manière unique. 
     
-- Pour les identificateurs d’interface.
+- Pour les identificateurs d'interface.
     
-- Dans la propriété définie les noms des propriétés nommées. 
+- Dans le jeu de propriétés, définissez les noms des propriétés nommées. 
     
-Banque de messages et l’adresse génèrent des fournisseurs de carnet d’une structure **GUID** à utiliser dans leur structure **MAPIUID** . En transmettant le résultant **MAPIUID** à [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), ces fournisseurs de services informent MAPI de leur identificateur unique.
+Banque de messages et fournisseurs de carnet d'adresses génèrent une structure de **GUID** à utiliser dans leur structure **MAPIUID** . En transmettant le **MAPIUID** résultant à [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md), ces fournisseurs de services informent MAPI de leur identificateur unique.
   
-En outre, ils sont utilisés dans l’implémentation du service d’appel de procédure distante (RPC) Microsoft et de l’objet Description Language (ODL). Pour plus d’informations sur ces utilisations, voir la *référence et le Guide du programmeur Microsoft RPC*, *référence du programmeur OLE* et *à l’intérieur de OLE*, *Deuxième Édition* . 
+En outre, elles sont utilisées dans l'implémentation de l'appel de procédure disTante (RPC) Microsoft et du langage ODL (Object Description Language). Pour plus d'informations sur ces utilisations ** , reportez-vous au *Guide de référence du programmeur RPC Microsoft et*à l' *intérieur OLE*, *deuxième édition* . 
   
-La structure **GUID** est définie dans la *référence du programmeur Win32* . Valeurs spécifiques pour les structures **GUID** qui sont utilisés dans MAPI sont définies dans le fichier d’en-tête Mapiguid.h MAPI. 
+La structure du **GUID** est définie dans le *Guide de référence du programmeur Win32* . Les valeurs spécifiques des structures de **GUID** utilisées dans MAPI sont définies dans le fichier d'en-tête MAPI Mapiguid. h. 
   
 ## <a name="see-also"></a>Voir aussi
 

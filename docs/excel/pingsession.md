@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4646659b-f932-4d11-a46f-4231bb397243
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 165be9eada54b2030471fc10e7a0bf0c7dcc7c8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fa5fe57e537a7b8c7d880b934809a6f68ce27a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301616"
 ---
 # <a name="pingsession"></a>PingSession
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Vérifie si une session est valide. Cette fonction est généralement appelée lorsque Excel doit déterminer si un ID de session précédemment retourné est toujours actif et peut être utilisé.
+Vérifie si une session est valide. Cette fonction est généralement appelée lorsque Excel doit déterminer si un ID de session précédemment renvoyé est toujours actif et peut être utilisé.
   
 ```cpp
 int PingSession(int SessionId)
@@ -26,16 +26,16 @@ int PingSession(int SessionId)
 
 ## <a name="parameters"></a>Paramètres
 
-_ID de session_
+_SessionID_
   
-> ID de la session Ping. Cette valeur doit correspondre à un ID renvoyé par un appel précédent à la [méthode OpenSession](opensession.md).
+> ID de la session à tester. Cette valeur doit correspondre à un ID renvoyé par un appel précédent à [OpenSession](opensession.md).
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess** si l’argument _SessionId_ est valide ; dans le cas contraire **xlHpcRetInvalidSessionId**.
+**xlHpcRetSuccess** si l'argument _SessionID_ est valide; sinon **xlHpcRetInvalidSessionId**.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Méthode OpenSession](opensession.md)
-- [Fonctions du connecteur de Cluster Excel](excel-cluster-connector-functions.md)
+- [OpenSession](opensession.md)
+- [Fonctions du connecteur de cluster Excel](excel-cluster-connector-functions.md)
 

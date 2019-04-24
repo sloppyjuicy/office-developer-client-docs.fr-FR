@@ -11,27 +11,27 @@ api_name:
 api_type:
 - COM
 ms.assetid: 12b95657-1926-4a24-be63-40305ea6f990
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8f68de5e18d84c728241c188b932f99456f5be8c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a1bf02de914865e27c8c018aba8695c858888ae2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299460"
 ---
 # <a name="hexfrombin"></a>HexFromBin
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Convertit un nombre binaire en une représentation de chaîne d’un nombre hexadécimal. 
+ConVertit un nombre binaire en une représentation sous forme de chaîne d'un nombre hexadécimal. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 void HexFromBin(
@@ -45,15 +45,15 @@ void HexFromBin(
 
  _pb_
   
-> [in] Pointeur vers les données binaires à convertir. 
+> dans Pointeur vers les données binaires à convertir. 
     
  _cb_
   
-> [in] Taille, en octets, des données binaires vers laquelle pointe le paramètre _po_ . 
+> dans Taille, en octets, des données binaires auxquelles pointe le paramètre _PB_ . 
     
- _sz_
+ _t_
   
-> [out] Pointeur vers une chaîne qui représente les données binaires de chiffres hexadécimaux ASCII terminée.
+> remarquer Pointeur vers une chaîne ASCII terminée par un caractère null qui représente les données binaires dans des chiffres hexadécimaux.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,6 +61,6 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **HexFromBin** prend un pointeur vers une unité de données binaires dont la taille est indiquée par le paramètre _cb_ . Elle renvoie au sein de la chaîne _sz_ , (2 * _cb_) + 1 octets de mémoire, une représentation de ces informations binaires en nombre hexadécimal. Si la valeur d’octet est 10 décimal, par exemple, la chaîne hexadécimale sera 0, 1 octet tel convertit sur deux octets dans la chaîne. 
+La fonction **HexFromBin** prend un pointeur vers une unité de données binaires dont la taille est indiquée par le paramètre _CB_ . Elle retourne dans la chaîne _SZ_ , dans (2 * _CB_) + 1 octets de mémoire, une représentation de ces informations binaires dans des nombres hexadécimaux. Si la valeur Byte est de 10 décimal, par exemple, la chaîne hexadécimale sera 0A, un octet convertit en deux octets dans la chaîne. 
   
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 961ac2d26cd58e625c35d00bd1216cdee2ce57a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: fb26c7f366ce6a262362001773e825c60d0e4ec3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282830"
 ---
 # <a name="ixplogonflushqueues"></a>IXPLogon::FlushQueues
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584729"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Demande que le fournisseur de transport remettre immédiatement tous les messages entrants ou sortants en attente.
+Demande que le fournisseur de transport remet immédiatement tous les messages entrants ou sortants en attente.
   
 ```cpp
 HRESULT FlushQueues(
@@ -40,7 +40,7 @@ HRESULT FlushQueues(
 
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parente de toutes les boîtes de dialogue ou windows qui affiche cette méthode.
+> dans Handle de la fenêtre parente des boîtes de dialogue ou des fenêtres que cette méthode affiche.
     
  _cbTargetTransport_
   
@@ -48,19 +48,19 @@ HRESULT FlushQueues(
     
  _lpTargetTransport_
   
-> [in] Réservé ; doit être NULL.
+> dans MSR doit être NULL.
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle comment la purge des messages en file d’attente est effectué. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle le vidage de la file d'attente de messages. Les indicateurs suivants peuvent être définis:
     
 FLUSH_DOWNLOAD 
   
-> La file d’attente de messages entrants ou les files d’attente doivent être vidés.
+> La file d'attente de messages entrants ou les files d'attente doivent être vidées.
     
 FLUSH_FORCE 
   
-> Le fournisseur de transport doit traiter cette demande, si possible, même si cela n’est beaucoup de temps. 
+> Le fournisseur de transport doit traiter cette demande, si possible, même si cela prend du temps. 
     
 FLUSH_NO_UI 
   
@@ -68,19 +68,19 @@ FLUSH_NO_UI
     
 FLUSH_UPLOAD 
   
-> La file d’attente de messages sortants ou les files d’attente doivent être vidés.
+> La file d'attente de messages sortants ou les files d'attente doivent être vidées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et renvoyé la valeur attendue ou les valeurs.
+> L'appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle la méthode **IXPLogon::FlushQueues** pour conseiller le fournisseur de transport que le spouleur MAPI est sur le point de commencer le traitement des messages. Le fournisseur de transport doit appeler la méthode [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) pour définir un bit approprié pour son état dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la ligne d’état. Après la mise à jour de la ligne d’état, le fournisseur de transport doit renvoyer S_OK pour l’appel de **FlushQueues** . Le spouleur MAPI démarre ensuite l’envoi des messages, l’opération en cours synchrone pour le spouleur MAPI. 
+Le spouleur MAPI appelle la méthode **IXPLogon:: FlushQueues** pour conseiller au fournisseur de transport que le spouleur MAPI est sur le le traitement des messages. Le fournisseur de transport doit appeler la méthode [IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md) pour définir un bit approprié pour son état dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de sa ligne d'État. Après la mise à jour de sa ligne d'État, le fournisseur de transport doit retourner S_OK pour l'appel **FlushQueues** . Le spouleur MAPI commence alors à envoyer des messages, l'opération étant synchrone vers le spouleur MAPI. 
   
-Pour prendre en charge son implémentation de la méthode [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) , le spouleur MAPI appelle **IXPLogon::FlushQueues** pour tous les objets d’ouverture de session pour les fournisseurs de transport actif qui sont en cours d’exécution dans une session de profil. Lorsque la méthode de **FlushQueues** d’un fournisseur de transport est appelée à la suite d’une application cliente appelle à **IMAPIStatus::FlushQueues**, le traitement du message se produit en mode asynchrone au client.
+Pour prendre en charge son implémentation de la méthode [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) , le spouleur MAPI appelle **IXPLogon:: FlushQueues** pour tous les objets d'ouverture de session des fournisseurs de transport actifs en cours d'exécution dans une session de profil. Lorsque la méthode **FlushQueues** d'un fournisseur de transport est appelée suite à l'appel d'une application cliente à **IMAPIStatus:: FlushQueues**, le traitement du message a lieu de manière asynchrone au client.
   
 ## <a name="see-also"></a>Voir aussi
 

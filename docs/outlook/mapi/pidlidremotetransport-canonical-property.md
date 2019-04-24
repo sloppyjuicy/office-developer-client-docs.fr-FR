@@ -11,45 +11,45 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3b30d6a-05cd-4dd1-a162-20768f12e680
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 124a0d8f23fcff9d1bca9d5debe4a9aa6fb6146c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ddedc2ca0785be2fe4850ec3cfdf979d1e5f2798
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285178"
 ---
 # <a name="pidlidremotetransport-canonical-property"></a>Propriété canonique PidLidRemoteTransport
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Identifie le compte de l’élément d’en-tête est associé, principalement pour implémenter le congé POP sur les fonctionnalités du serveur. 
+Identifie le compte auquel l'élément d'en-tête est associé, principalement pour implémenter la fonctionnalité laisser le POP sur le serveur. 
   
 |||
 |:-----|:-----|
 |Propriétés associées  <br/> |dispidRemoteXP  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |
-|ID de type long (capot) :  <br/> |0x00008F03  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Remote  <br/> |
+|ID long (couvercle):  <br/> |0x00008F03  <br/> |
 |Type de données :  <br/> |PT_STRING8  <br/> |
-|Domaine :  <br/> |Message à distance  <br/> |
+|Domaine :  <br/> |Message distant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété s’applique uniquement sur les messages qui ont une classe de message IPM. À distance. Microsoft Outlook gère un mappage des différents comptes téléchargez sur une banque donnée dans un message de dossier associé informations (FAI), mais peut également ces informations dans le Registre.
+Cette propriété s'applique uniquement aux messages dont la classe de message est IPM. À. Microsoft Outlook conserve un mappage des différents comptes qui sont téléchargés vers un magasin donné dans un message d'informations sur le dossier (FAI), mais il peut également conserver ces informations dans le registre.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

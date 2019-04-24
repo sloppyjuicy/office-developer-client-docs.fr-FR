@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 502f0261-697f-41bf-8530-75e1d0f503e5
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 9abd4eb955428595ebe41ab9b2c661303ee2779a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279614"
 ---
 # <a name="pidtaglastverbexecuted-canonical-property"></a>Propriété canonique PidTagLastVerbExecuted
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le dernier verbe exécuté.
   
@@ -36,95 +36,95 @@ Contient le dernier verbe exécuté.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir une valeurs suivantes :
+Cette propriété peut avoir l'une des valeurs suivantes:
   
-|**Verbe**|**Valeur de propriété**|
+|**Verb**|**Valeur de la propriété**|
 |:-----|:-----|
 |Publication  <br/> |0x00000001  <br/> |
-|Other  <br/> |0 x 00000003  <br/> |
-|Lire le courrier  <br/> |0 x 00000100  <br/> |
-|Courrier non lu  <br/> |0 x 00000101  <br/> |
-|Courrier envoyé  <br/> |0x00000102  <br/> |
-|Messages non envoyés  <br/> |0x00000103  <br/> |
-|Messages d’accusé de réception  <br/> |0x00000104  <br/> |
-|Messagerie de réponse  <br/> |0x00000105  <br/> |
+|Autre  <br/> |0x00000003  <br/> |
+|Lire le courrier  <br/> |0x00000100  <br/> |
+|Courrier non lu  <br/> |0x00000101  <br/> |
+|Messages envoyés  <br/> |0x00000102  <br/> |
+|Courrier non envoyé  <br/> |0x00000103  <br/> |
+|Courrier de réception  <br/> |0x00000104  <br/> |
+|Courrier reçu  <br/> |0x00000105  <br/> |
 |Courrier transféré  <br/> |0x00000106  <br/> |
 |Courrier à distance  <br/> |0x00000107  <br/> |
 |Accusé de réception  <br/> |0x00000108  <br/> |
 |Confirmation de lecture  <br/> |0x00000109  <br/> |
-|Réception de non-remise  <br/> |0x0000010A  <br/> |
-|Réception nonread  <br/> |0x0000010B  <br/> |
-|Messagerie Recall_S  <br/> |0x0000010C  <br/> |
-|Messagerie Recall_F  <br/> |0x0000010D  <br/> |
-|Suivi des messages  <br/> |0x0000010E  <br/> |
-|En dehors de la messagerie Office  <br/> |0x0000011B  <br/> |
-|Rappeler la messagerie  <br/> |0x0000011C  <br/> |
-|Suivi des messages  <br/> |0x00000139  <br/> |
-|Contact  <br/> |0 x 00000200  <br/> |
+|Accusé de réception  <br/> |0x0000010A  <br/> |
+|Accusé de réception non lu  <br/> |0x0000010B  <br/> |
+|Recall_S mail  <br/> |0x0000010C  <br/> |
+|Recall_F mail  <br/> |0x0000010D  <br/> |
+|Suivi du courrier électronique  <br/> |0x0000010E  <br/> |
+|Courrier absent (e) du Bureau  <br/> |0x0000011B  <br/> |
+|Rappeler le courrier  <br/> |0x0000011C  <br/> |
+|Courrier suivi  <br/> |0x00000139  <br/> |
+|Contact  <br/> |0x00000200  <br/> |
 |Liste de distribution  <br/> |0x00000201  <br/> |
-|Pense-bête, bleu  <br/> |0x00000300  <br/> |
-|Pense-bête, vert  <br/> |0x00000301  <br/> |
+|Note du pense-bête, bleu  <br/> |0x00000300  <br/> |
+|Note du pense-bête, vert  <br/> |0x00000301  <br/> |
 |Pense-bête, rose  <br/> |0x00000302  <br/> |
 |Pense-bête, jaune  <br/> |0x00000303  <br/> |
 |Pense-bête, blanc  <br/> |0x00000304  <br/> |
-|Rendez-vous unique  <br/> |0 x 00000400  <br/> |
+|Rendez-vous unique  <br/> |0x00000400  <br/> |
 |Rendez-vous périodique  <br/> |0x00000401  <br/> |
-|Réunion unique  <br/> |0x00000402  <br/> |
+|Réunion d'instance unique  <br/> |0x00000402  <br/> |
 |Réunion périodique  <br/> |0x00000403  <br/> |
-|Demande de réunion / mise à jour complète  <br/> |0 x 00000404  <br/> |
+|Demande de réunion/mise à jour complète  <br/> |0x00000404  <br/> |
 |Accepter  <br/> |0x00000405  <br/> |
-|Refuser  <br/> |0x00000406  <br/> |
-|Accepter provisoirement  <br/> |0 x 00000407  <br/> |
+|Amortissement  <br/> |0x00000406  <br/> |
+|Accepter provisoirement  <br/> |0x00000407  <br/> |
 |Annulation  <br/> |0x00000408  <br/> |
-|Mise à jour d’information  <br/> |0 x 00000409  <br/> |
-|Mise à jour/tâche  <br/> |0x00000500  <br/> |
-|Tâche périodique non attribué  <br/> |0x00000501  <br/> |
-|Tâche de la personne affectée  <br/> |0x00000502  <br/> |
-|Tâche d’assigne  <br/> |0x00000503  <br/> |
+|Mise à jour des informations  <br/> |0x00000409  <br/> |
+|Mise à jour des tâches/tâches  <br/> |0x00000500  <br/> |
+|Tâche périodique non affectée  <br/> |0x00000501  <br/> |
+|Tâche de l'intervenant  <br/> |0x00000502  <br/> |
+|Tâche de l'utilisateur  <br/> |0x00000503  <br/> |
 |Demande de tâche  <br/> |0x00000504  <br/> |
-|Acceptation de tâche  <br/> |0x00000505  <br/> |
-|Refus de tâche  <br/> |0x00000506  <br/> |
+|Acceptation de la tâche  <br/> |0x00000505  <br/> |
+|Rejet de tâche  <br/> |0x00000506  <br/> |
 |Conversation de journal  <br/> |0x00000601  <br/> |
 |Message électronique de journal  <br/> |0x00000602  <br/> |
 |Demande de réunion de journal  <br/> |0x00000603  <br/> |
-|Réponse à une réunion journal  <br/> |0x00000604  <br/> |
+|Réponse à une réunion de journal  <br/> |0x00000604  <br/> |
 |Demande de tâche de journal  <br/> |0x00000606  <br/> |
-|Réponse de la tâche feuille  <br/> |0x00000607  <br/> |
-|Note du journal  <br/> |0x00000608  <br/> |
+|Réponse de tâche de journal  <br/> |0x00000607  <br/> |
+|Note de journal  <br/> |0x00000608  <br/> |
 |Télécopie de journal  <br/> |0x00000609  <br/> |
-|Appel téléphonique de journal  <br/> |0x0000060A  <br/> |
+|Appel de journal téléphonique  <br/> |0x0000060A  <br/> |
 |Tâche de journal  <br/> |0x0000060B  <br/> |
-|Lettre de journal  <br/> |0x0000060C  <br/> |
-|Feuille Microsoft Office Word  <br/> |0x0000060D  <br/> |
-|Feuille Microsoft Office Excel  <br/> |0x0000060E  <br/> |
-|Feuille Microsoft Office PowerPoint  <br/> |0x0000060F  <br/> |
-|Feuille Microsoft Office Access  <br/> |0x00000610  <br/> |
-|Document de feuille  <br/> |0x00000612  <br/> |
+|Lettre du journal  <br/> |0x0000060C  <br/> |
+|Journal Microsoft Office Word  <br/> |0x0000060D  <br/> |
+|Journal Microsoft Office Excel  <br/> |0x0000060E  <br/> |
+|Journal Microsoft Office PowerPoint  <br/> |0x0000060F  <br/> |
+|Journal Microsoft Office Access  <br/> |0x00000610  <br/> |
+|Document de journal  <br/> |0x00000612  <br/> |
 |Réunion de journal  <br/> |0x00000613  <br/> |
 |Annulation de réunion de journal  <br/> |0x00000614  <br/> |
 |Session à distance de journal  <br/> |0x00000615  <br/> |
-|Nouveau courrier  <br/> |0xFFFFFFFF  <br/> |
+|Nouveau message électronique  <br/> |Égale  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

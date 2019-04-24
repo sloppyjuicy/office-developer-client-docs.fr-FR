@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cca22b466b1e0d2da9ca9cc009586df08316270c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0d79075ea1db451e0c3d327df9a662e5032ebb22
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286414"
 ---
 # <a name="pidtagprovideruid-canonical-property"></a>Propriété canonique PidTagProviderUid
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient une structure **MAPIUID** du fournisseur de services qui gère un message. 
   
@@ -32,25 +32,25 @@ Contient une structure **MAPIUID** du fournisseur de services qui gère un messa
 |Propriétés associées :  <br/> |PR_PROVIDER_UID  <br/> |
 |Identificateur :  <br/> |0x300C  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est calculée par tous les fournisseurs de services. Il contient une structure [MAPIUID](mapiuid.md) associée et généralement codée en dur par le fournisseur. Il est généralement utilisé par une application cliente qui intéresse dans uniquement les conteneurs de carnet d’adresse fournies par un fournisseur spécifique. 
+Cette propriété est calculée par tous les fournisseurs de services. Elle contient une structure [MAPIUID](mapiuid.md) associée à, généralement codée en dur par le fournisseur. Elle est généralement utilisée par une application cliente qui est intéressée uniquement par les conteneurs de carnet d'adresses fournis par un fournisseur particulier. 
   
-Cette propriété s’affiche uniquement en tant qu’une entrée de la colonne dans la table fournisseur.
+Cette propriété apparaît uniquement sous la forme d'une entrée de colonne dans la table des fournisseurs.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

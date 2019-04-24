@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 97387a82-8e40-4c76-818c-2229fac12e01
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: bee11c495d7f1ef21f9af70e6aa89f8c0d0f78b4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279656"
 ---
 # <a name="pidtaglistsubscribe-canonical-property"></a>Propriété canonique PidTagListSubscribe
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur du champ d’en-tête d’un message Multipurpose Internet Mail Extensions (MIME) abonner à la liste.
+Contient la valeur du champ d'en-tête List-subscribe des messages MIME (Multipurpose Internet Mail Extensions).
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contient la valeur du champ d’en-tête d’un message Multipurpose Internet Ma
    
 ## <a name="remarks"></a>Remarques
 
-Pour générer un champ d’en-tête abonner à la liste, les clients doivent définir la valeur de ces propriétés à la valeur souhaitée. Rédacteurs MIME doivent copier la valeur de ces propriétés sur le champ en-tête de liste d’abonnement.
+Pour générer un champ d'en-tête List-subscribe, les clients doivent définir la valeur de ces propriétés sur la valeur souhaitée. Les enregistreurs MIME doivent copier la valeur de ces propriétés dans le champ d'en-tête List-subscribe.
   
-Pour définir la valeur de propriétés liées au serveur comme celles-ci, les clients MIME doivent écrire les champs d’en-tête tel que spécifié dans le tableau suivant.
+Pour définir la valeur des propriétés liées au serveur comme celles-ci, les clients MIME doivent écrire les champs d'en-tête comme indiqué dans le tableau suivant.
   
-|**Propriété**|**Nom de champ d’en-tête par défaut**|**Nom de champ d’en-tête de substitution**|
+|**Property**|**Nom de champ d'en-tête préféré**|**Nom de champ d'en-tête secondaire**|
 |:-----|:-----|:-----|
-|**PidTagListSubscribe** <br/> |Liste d’abonnement  <br/> |S’abonner X-liste  <br/> |
+|**PidTagListSubscribe** <br/> |Liste-s'abonner  <br/> |X-List-subscribe  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convertit des conventions de messagerie standard Internet aux objets de message.
+> ConVertit des conventions de messagerie standard Internet en objets message.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

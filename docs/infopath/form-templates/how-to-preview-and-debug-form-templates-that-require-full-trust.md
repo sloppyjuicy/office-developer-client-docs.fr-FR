@@ -1,5 +1,5 @@
 ---
-title: Afficher un aperçu et déboguer les modèles de formulaires nécessitant la confiance totale
+title: Aperçu et déBogage des modèles de formulaire qui nécessitent une confiance totale
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 5c491666-06f0-42ec-967e-1c70cd5e03a0
 description: Par défaut, si vous tentez de déboguer ou d'afficher un projet avec du code managé dont le code appelle un membre de modèle objet qui nécessite une confiance totale, comme la propriété LoginName qui doit accéder aux informations sur le domaine de connexion de l'utilisateur, Microsoft InfoPath affiche les messages d'erreurs suivants.
-ms.openlocfilehash: e9077b4ec0f8369b869e986020e4860f325fc023
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0780db286e2ca9cef381c2d24cb621c7c243dcb7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303597"
 ---
-# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Afficher un aperçu et déboguer les modèles de formulaires nécessitant la confiance totale
+# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Aperçu et déBogage des modèles de formulaire qui nécessitent une confiance totale
 
 Par défaut, si vous tentez de déboguer ou d'afficher un projet avec du code managé dont le code appelle un membre de modèle objet qui nécessite une confiance totale, comme la propriété **LoginName** qui doit accéder aux informations sur le domaine de connexion de l'utilisateur, Microsoft InfoPath affiche les messages d'erreurs suivants. 
   
@@ -43,16 +43,16 @@ Pour permettre à la logique métier d'appeler ce membre lorsqu'il est en cours 
     
 5. Sélectionnez **Confiance totale**, puis cliquez sur **OK**.
     
-Une fois cette procédure effectuée, vous pouvez déboguer votre projet comme indiqué dans [l’Aperçu et déboguer des modèles de formulaire InfoPath avec Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).
+Une fois cette procédure effectuée, vous pouvez déboguer votre projet comme décrit dans [Aperçu et débogage des modèles de formulaire InfoPath avec code](how-to-preview-and-debug-infopath-form-templates-with-code.md).
   
 > [!NOTE]
-> [!REMARQUE] Pour réussir le déploiement d'un modèle de formulaire avec code managé qui requiert une confiance totale, vous devez effectuer quelques étapes supplémentaires, notamment la signature numérique, ou l'installation et l'enregistrement du modèle de formulaire. Pour plus d’informations sur le déploiement d’un modèle de formulaire avec code managé après avoir il débogué voir, [Déployer des modèles de formulaire InfoPath avec Code](how-to-deploy-infopath-form-templates-with-code.md). 
+> [!REMARQUE] Pour réussir le déploiement d'un modèle de formulaire avec code managé qui requiert une confiance totale, vous devez effectuer quelques étapes supplémentaires, notamment la signature numérique, ou l'installation et l'enregistrement du modèle de formulaire. Pour plus d'informations sur le déploiement d'un modèle de formulaire avec code managé après débogage, reportez-vous à la rubrique [déployer des modèles de formulaire InfoPath avec code](how-to-deploy-infopath-form-templates-with-code.md). 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Afficher un aperçu et déboguer les modèles de formulaire InfoPath avec Code](how-to-preview-and-debug-infopath-form-templates-with-code.md)
+[Afficher un aperçu et déboguer des modèles de formulaires InfoPath avec code](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
-[Déployer des modèles de formulaire InfoPath avec Code](how-to-deploy-infopath-form-templates-with-code.md)
+[Déployer des modèles de formulaire InfoPath avec code](how-to-deploy-infopath-form-templates-with-code.md)
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f3a277ba-7ba1-4eea-83b5-915b409f3093
 description: Office pour iOS fournit une solution extensible qui permet l'intégration à des applications tierces. Cet article explique comment effectuer une intégration à Office à partir de votre application iOS en transférant les utilisateurs de votre application vers Office, puis en les renvoyant vers votre application.
-ms.openlocfilehash: 2ba8e1a157953705b60ff0cac7d62bafade0c469
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: d17a096c17eadab0cd94ee1dce18e979e80fa65d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299746"
 ---
 # <a name="integrate-with-office-from-ios-applications"></a>Intégration à Office à partir d'applications iOS
 
@@ -39,10 +39,9 @@ Utilisez la méthode [canOpenURL](https://developer.apple.com/library/ios/docume
 
  Si une application Office particulière n'est pas installée, vous pouvez utiliser un objet [SKProductViewController](https://developer.apple.com/library/ios/documentation/StoreKit/Reference/SKITunesProductViewController_Ref/index.html) pour afficher l'App Store iTunes dans votre application et montrer à l'utilisateur l'application Office à installer. Le tableau suivant indique l'identifiant iTunes à utiliser pour appeler chaque application Office dans Store Kit Product View Controller. 
   
-|**Application Office**|**Identifiant iTunes**|
+|**Application Office**|**Identifiant iTunes**|
 |:-----|:-----|
 |Excel  <br/> |[https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp;uo=4) <br/> |
-|OneNote (iPad)  <br/> |[https://itunes.apple.com/us/app/microsoft-onenote-for-ipad/id478105721?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-onenote-for-ipad/id478105721?mt=8&amp;uo=4) <br/> |
 |OneNote (iPhone)  <br/> |[https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp;uo=4) <br/> |
 |PowerPoint  <br/> |[https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp;uo=4) <br/> |
 |Word  <br/> |[https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp;uo=4) <br/> |
@@ -53,7 +52,7 @@ Lorsque l'application Office est installée, votre application référente peut 
   
 - Protocole Office
     
-- Mode d'ouverture
+- Mode d’ouverture
     
 - URL
     

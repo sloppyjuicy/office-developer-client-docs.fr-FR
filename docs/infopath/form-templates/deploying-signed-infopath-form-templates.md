@@ -6,20 +6,20 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8345a4bc-ad7b-d0b0-7615-f77ade35006d
 description: Avant de lire cette rubrique, consultez la section « Modèles de formulaire signés » dans Autres concepts de sécurité pour les formulaires InfoPath pour une présentation de la sécurité des modèles de formulaire signés. Les informations et les explications de la rubrique Niveaux de sécurité, déploiement de courrier électronique et modèles de formulaire distants sont également pertinentes.
-ms.openlocfilehash: de64cb0efdbbdd11a301d89ced03e63454849adb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 76cc6dfdbd2c01827182c348281a98ad7cd17b69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303716"
 ---
 # <a name="deploying-signed-infopath-form-templates"></a>Déploiement de modèles de formulaire signés
 
 Avant de lire cette rubrique, consultez la section « Modèles de formulaire signés » dans [Autres concepts de sécurité pour les formulaires InfoPath](additional-infopath-form-security-concepts.md) pour une présentation de la sécurité des modèles de formulaire signés. Les informations et les explications de la rubrique [Niveaux de sécurité, déploiement de courrier électronique et modèles de formulaire distants](security-levels-email-deployment-and-remote-form-templates.md) sont également pertinentes. 
   
-## <a name="digitally-signing-a-form-template"></a>Signature numérique d'un modèle de formulaire
+## <a name="digitally-signing-a-form-template"></a>Signature numérique d’un modèle de formulaire
 
-Si vous signez numériquement un modèle de formulaire, vous pouvez définir le niveau de sécurité du modèle de formulaire confiance totale, ce qui signifie que le formulaire peut accéder aux fichiers et paramètres sur l’ordinateur de l’utilisateur ou sur un autre domaine. (En outre, signature numérique d’un modèle de formulaire ne vous empêche pas d’utiliser d’autres niveaux de sécurité, si vous le souhaitez. Vous définissez le niveau de sécurité d’un modèle de formulaire signé au niveau de sécurité domaine ou restreint.) En outre, vous pouvez déployer le modèle de formulaire signé aux utilisateurs qui utilisent un programme de messagerie et puis mettre à jour ultérieurement le modèle de formulaire signé en envoyant la version mise à jour pour les utilisateurs en tant que pièce jointe à un message électronique, procédez comme suit :
+Si vous signez numériquement un modèle de formulaire, vous pouvez définir le niveau de sécurité confiance totale pour le modèle de formulaire, ce qui signifie que le formulaire peut accéder aux fichiers et aux paramètres sur l'ordinateur de l'utilisateur ou sur un autre domaine. (En outre, la signature numérique d'un modèle de formulaire ne vous empêche pas d'utiliser d'autres niveaux de sécurité, si vous le souhaitez. Vous définissez le niveau de sécurité d'un modèle de formulaire signé sur le niveau de sécurité domaine ou restreint.) En outre, vous pouvez déployer le modèle de formulaire signé pour les utilisateurs qui utilisent un programme de messagerie électronique, puis mettre à jour ultérieurement automatiquement le modèle de formulaire signé en envoyant la version mise à jour aux utilisateurs sous la forme d'une pièce jointe à un message électronique, procédez comme suit:
   
 ### <a name="to-digitally-sign-a-form-template"></a>Pour signer numériquement un modèle de formulaire
 
@@ -36,7 +36,7 @@ Si vous signez numériquement un modèle de formulaire, vous pouvez définir le 
 > [!NOTE]
 > [!REMARQUE] Le bouton **Créer un certificat** de la boîte de dialogue **Options de formulaire** peut être utilisé pour générer un certificat de test pour signer un modèle de formulaire. Le certificat de test doit être utilisé pour signer des modèles de formulaire seulement à des fins de test. Les certificats de test ne doivent pas être utilisés pour signer des modèles de formulaire qui seront publiquement distribués. Les certificats n'étant pas émis par une Autorité de certification dont le certificat racine est déjà approuvé sur l'ordinateur d'un utilisateur, le certificat de test ne sera pas validé correctement sur l'ordinateur de l'utilisateur. Si vous déployez un modèle de formulaire signé avec un certificat de test, les utilisateurs de votre modèle de formulaire ne pourront probablement pas l'ouvrir. 
   
-## <a name="establishing-a-trusted-root-certificate-and-publisher"></a>Établissement d'un certificat racine et d'un éditeur approuvés
+## <a name="establishing-a-trusted-root-certificate-and-publisher"></a>Établissement d’un certificat racine et d’un éditeur approuvés
 
  Le certificat racine approuvé du certificat qui est utilisé pour signer le modèle de formulaire doit se trouver dans le magasin de certificats racine approuvés de l'ordinateur client. Si ce n'est pas le cas, l'éditeur du modèle de formulaire ne peut pas être vérifié, et les utilisateurs de votre modèle de formulaire ne peut pas choisir d'approuver l'éditeur. Si le certificat racine approuvé se trouve dans le magasin de certificats racine approuvés mais que l'éditeur ne figure pas dans la liste des éditeurs approuvés, les utilisateurs peuvent choisir d'approuver l'éditeur du modèle de formulaire. 
   

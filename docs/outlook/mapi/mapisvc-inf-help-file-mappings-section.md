@@ -1,5 +1,5 @@
 ---
-title: Section [mappages de fichier d’aide] MapiSvc.inf
+title: Section [mappages de fichiers d'aide] MapiSvc. inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 62aee641-b73f-4f53-9e8d-adf010c9ea1a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 91c69489e1a72c5cd702a3c4d0392220a89c38fd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 4760c9965975bb5d950e51b707d28bee647ef99a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269971"
 ---
-# <a name="mapisvcinf-help-file-mappings-section"></a>Section [mappages de fichier d’aide] MapiSvc.inf
+# <a name="mapisvcinf-help-file-mappings-section"></a>Section [mappages de fichiers d'aide] MapiSvc. inf
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[Help File Mappings]** contient les entrées que chacun mapper un service de message pour le fichier qui fournit une aide pour les erreurs générées par le service. Entrées de cette section utilisent le format suivant : 
+La section **[Help file Mappings]** contient des entrées qui permettent de connecter chaque service de messagerie au fichier qui fournit de l'aide pour les erreurs générées par le service. Les entrées de cette section utilisent le format suivant: 
   
- **[Help File Mappings]** _nom de service de message_  =   _Fichier d’aide_
+ **[Mappages de fichier d'aide]** _nom du service de messagerie_  =   _Nom du fichier d'aide_
   
-Le nom de service de message est le nom du service de message installés ; le nom de fichier est le nom du fichier où résident les informations d’erreur. L’exemple suivant montre une section **[Help File Mappings]** typique qui contient des entrées pour les trois services : MAPI, le service MsgService et le service MS. 
+Le nom du service de messagerie est le nom du service de messagerie installé; le nom du fichier d'aide est le nom du fichier où se trouvent les informations d'erreur. L'exemple suivant présente une section **[mappages de fichiers d'aide]** classique qui contient les entrées de trois services: MAPI, le service MSGSERVICE et MS service. 
   
 ```cpp
 [Help File Mappings]

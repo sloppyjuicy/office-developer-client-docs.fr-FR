@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 322ea2e9-d6c9-48f9-a927-7162346d16a4
 description: Renvoie un tableau de chaînes qui spécifient les URL de site pour le fournisseur Outlook Social Connector (OSC).
-ms.openlocfilehash: a2b2e0397c7c67476ac8067a53e2acbd4eddf270
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34d779d5eb42b81a14c5236685104e9ef4fe36f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285855"
 ---
 # <a name="isocialproviderdefaultsiteurls"></a>ISocialProvider::DefaultSiteUrls
 
@@ -23,15 +23,15 @@ Renvoie un tableau de chaînes qui spécifient les URL de site pour le fournisse
 [propget] HRESULT _stdcall DefaultSiteUrls([out, retval] SAFEARRAY(BSTR)* siteUrls);
 ```
 
-## <a name="property-value"></a>Valeur de propriété
+## <a name="property-value"></a>Valeur de la propriété
 
-Pointeur vers une structure qui spécifie un tableau de chaînes qui représentent les URL des sites pour le fournisseur OSC.
+Pointeur vers une structure qui spécifie un tableau de chaînes qui représentent les URL de site pour le fournisseur OSC.
   
 ## <a name="remarks"></a>Remarques
 
-Un fournisseur peut prendre en charge plusieurs URL des sites. L’OSC définit la propriété [ISocialSession::SiteUrl](isocialsession-siteurl.md) pour informer le fournisseur de l’URL du site sélectionné. 
+Un fournisseur peut prendre en charge plusieurs URL de site. Le OSC définit la propriété [ISocialSession:: SiteUrl](isocialsession-siteurl.md) pour informer le fournisseur de l'URL de site sélectionnée. 
   
-L’OSC utilise le premier élément du tableau en tant que l’URL du site par défaut. Un fournisseur peut retourner des éléments supplémentaires dans le tableau d’URL de site, mais l’OSC ne les utilise pas. 
+Le OSC utilise le premier élément du tableau comme URL de site par défaut. Un fournisseur peut renvoyer des éléments supplémentaires dans le tableau d'URL du site, mais le OSC ne les utilise pas. 
   
 ## <a name="see-also"></a>Voir aussi
 

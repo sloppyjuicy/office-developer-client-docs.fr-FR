@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 769ae984e4b6e8610ca7909ea2ac714d9d04d698
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ad8aec8d015849965bea6ac011c8a45e75c69ca1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287104"
 ---
 # <a name="dtpage"></a>DTPAGE
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit la boîte de dialogue qui est générée à partir d’une table d’affichage par la fonction [BuildDisplayTable](builddisplaytable.md) . 
+Décrit la boîte de dialogue qui est générée à partir d'une table d'affichage par la fonction [BuildDisplayTable](builddisplaytable.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct DTPAGE
@@ -48,21 +48,21 @@ typedef struct DTPAGE
 
 ## <a name="members"></a>Members
 
- **cctl**
+ **CCTL**
   
-> Nombre de contrôles vers laquelle pointe le membre **lpctl** . 
+> Nombre de contrôles vers lesquels pointe le membre **lpctl** . 
     
  **lpszResourceName**
   
-> Pointeur vers l’identificateur de nom ou entier de la ressource de boîte de dialogue. 
+> Pointeur vers le nom ou l'identificateur entier de la ressource de la boîte de dialogue. 
     
  **lpszComponent**
   
-> Pointeur vers la chaîne qui s’affiche dans la section **[Help File Mappings]** dans MAPISVC.INF. **LpszComponent** étant une union avec le membre **ulItemID** , une seule de ces membres comporte des données valides. 
+> Pointeur vers la chaîne qui apparaît dans la section **[Help file Mappings] du fichier** MAPISVC. inf. Étant donné que **lpszComponent** est dans une Union avec le membre **ulItemID** , un seul de ces membres a des données valides. 
     
  **ulItemID**
   
-> Identificateur de ressources entier avec une valeur inférieure ou égale à 65535 à partir de laquelle le nom de fichier peut être lue. **UlItemID** étant une union avec le membre **lpszComponent** , une seule de ces membres comporte des données valides. 
+> Identificateur de ressource entier avec une valeur inférieure ou égale à 65535 à partir de laquelle le nom du fichier d'aide peut être lu. Étant donné que **ulItemID** est dans une Union avec le membre **lpszComponent** , un seul de ces membres a des données valides. 
     
  **lpctl**
   
@@ -70,13 +70,13 @@ typedef struct DTPAGE
     
 ## <a name="remarks"></a>Remarques
 
-Pour identifier le fichier d’aide pour la page à onglets, affectez le membre **lpszComponent** en chaîne codée en dur ou le membre **ulItemID** un identificateur de ressource entier. 
+Pour identifier le fichier d'aide de la page à onglets, définissez le membre **lpszComponent** sur une chaîne codée en dur ou le membre **ulItemID** sur un identificateur de ressource Integer. 
   
-Chaque entrée dans la section **[Help File Mappings]** dans le fichier MAPISVC.inf. INF se compose d’une chaîne de composant, pas plue de 30 caractères, sur le côté gauche et un chemin de fichier d’aide sur la droite. À la fois **ulItemID** et **lpszResourceName** sont trouvent dans le paramètre _hInstance_ de **BuildDisplayTable**. Pour plus d’informations, voir [fichier MAPISVC.inf. INF [aide File Mappings] Section](mapisvc-inf-help-file-mappings-section.md).
+Chaque entrée de la section **[Help file Mappings]** dans MAPISVC. INF se compose d'une chaîne de composant, pas de plus de 30 caractères, du côté gauche et d'un chemin d'accès au fichier d'aide à droite. **UlItemID** et **lpszResourceName** sont trouvés dans le paramètre _HINSTANCE_ de **BuildDisplayTable**. Pour plus d'informations, consultez la rubrique [MAPISVC. Section INF [mappages de fichiers d'aide]](mapisvc-inf-help-file-mappings-section.md).
   
-Bien que **BuildDisplayTable** utilise cette structure pour créer le tableau d’affichage de ressources du contrôle, la structure **DTPAGE** n’apparaît jamais dans la table d’affichage lui-même. 
+Bien que **BuildDisplayTable** utilise cette structure pour créer la table d'affichage à partir des ressources de contrôle, la structure **DTPAGE** n'apparaît jamais dans le tableau proprement dit. 
   
-Pour une vue d’ensemble des tables d’affichage, voir [Afficher les Tables](display-tables.md). Pour plus d’informations sur la façon d’implémenter un tableau d’affichage, consultez [l’implémentation d’une Table à afficher](display-table-implementation.md).
+Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

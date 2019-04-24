@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f600db6-f6a6-44f9-aef7-c1309f61eb12
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 12aa8b79e38320d9767a6c333cb0197ea5669862
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: ceca6a2dbe5f80f8a3499e509db8d5e6c35d72d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298480"
 ---
 # <a name="ixplogonidle"></a>IXPLogon::Idle
 
@@ -25,7 +25,7 @@ ms.locfileid: "22578010"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique que le système est inactif, l’activation du fournisseur de transport effectuer des opérations de priorité basse.
+Indique que le système est inactif, ce qui permet au fournisseur de transport d'effectuer des opérations de faible priorité.
   
 ```cpp
 HRESULT Idle(
@@ -33,7 +33,7 @@ HRESULT Idle(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -43,11 +43,11 @@ HRESULT Idle(
 
 S_OK 
   
-> L’appel a réussi et renvoyé la valeur attendue ou les valeurs.
+> L'appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle régulièrement la méthode **IXPLogon::Idle** , si vous y êtes invité, pendant les heures lorsque le système est inactif en transmettant l’indicateur XP_LOGON_SP dans l’appel à la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) qui a ouvert la session en cours. Lorsque le système est inactif, le fournisseur de transport peut effectuer des opérations en arrière-plan qui ne sont pas appropriés pendant les autres appels, ou qui ont besoin de se produire à intervalles réguliers. 
+Le spouleur MAPI appelle régulièrement la méthode **IXPLogon:: Idle** , si elle est demandée, lorsque le système est inactif en transmettant l'indicateur XP_LOGON_SP dans l'appel à la méthode [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) qui a ouvert la session en cours. Lorsque le système est inactif, le fournisseur de transport peut effectuer des opérations d'arrière-plan qui ne sont pas appropriées pendant les autres appels ou qui doivent se produire à intervalles réguliers. 
   
 ## <a name="see-also"></a>Voir aussi
 

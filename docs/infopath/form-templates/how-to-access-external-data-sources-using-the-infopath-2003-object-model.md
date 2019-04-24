@@ -1,5 +1,5 @@
 ---
-title: Accès aux Sources de données externes à l’aide du modèle objet InfoPath 2003
+title: Accès à des sources de données externes à l'aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: Lorsque vous travaillez à partir d'un modèle de formulaire InfoPath qui utilise le modèle objet compatible avec InfoPath 2003, vous pouvez écrire du code pour accéder aux sources de données secondaires du formulaire et manipuler les données qu'elles contiennent.
-ms.openlocfilehash: cf06cdc6a02eba855442cdab4c3c698ed3f4425f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569f029b412328f4d49e3079eaf207dc1556fc4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303695"
 ---
-# <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Accès aux Sources de données externes à l’aide du modèle objet InfoPath 2003
+# <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Accès à des sources de données externes à l'aide du modèle objet InfoPath 2003
 
 Lorsque vous travaillez à partir d'un modèle de formulaire InfoPath qui utilise le modèle objet compatible avec InfoPath 2003, vous pouvez écrire du code pour accéder aux sources de données secondaires du formulaire et manipuler les données qu'elles contiennent.
   
@@ -35,9 +35,9 @@ L'interface [DataObjectsCollection](https://msdn.microsoft.com/library/Microsoft
   
 |**Nom**|**Description**|
 |:-----|:-----|
-|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx)  <br/> |Renvoie le nombre d’instances **datasourceobject que** contient la collection.  <br/> |
-|Méthode [GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.GetEnumerator.aspx)  <br/> |Renvoie un **IEnumerator** qui peut servir à parcourir la collection.  <br/> |
-|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Item.aspx)  <br/> |Renvoie une référence à l’instance **DataSourceObject** spécifiée.  <br/> |
+|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx)  <br/> |Renvoie le nombre d'instances **DataSourceObject** que contient la collection.  <br/> |
+|[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.GetEnumerator.aspx) , méthode  <br/> |Renvoie un **IEnumerator** qui peut être utilisé pour lancer une répétition dans la collection.  <br/> |
+|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Item.aspx)  <br/> |Renvoie une référence à l'instance **DataSourceObject** spécifiée.  <br/> |
    
 ## <a name="overview-of-the-datasourceobject-interface"></a>Vue d'ensemble de l'interface DataSourceObject
 
@@ -45,10 +45,10 @@ L'interface [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Offi
   
 |**Nom**|**Description**|
 |:-----|:-----|
-|[Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx) , méthode  <br/> |Exécute la requête sur l’adaptateur de données et insère les données renvoyées en tant que XML dans le modèle d’objet Document (DOM) XML associé à l' **objet DataSourceObject**.  <br/> |
-|Propriété [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.DOM.aspx)  <br/> |Renvoie une référence au DOM XML utilisé pour stocker et manipuler des données à l’aide de l' **objet DataSourceObject**.  <br/> |
-|Propriété [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Name.aspx)  <br/> |Renvoie une valeur de type string indiquant le nom de l' **objet DataSourceObject**.  <br/> |
-|Propriété [QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.QueryAdapter.aspx)  <br/> |Renvoie une référence à l'adaptateur de données associé.  <br/> |
+|[Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx) , méthode  <br/> |Exécute la requête sur un adaptateur de données et insère les données renvoyées sous forme de XML dans le DOM XML associé à l'objet **DataSourceObject**.  <br/> |
+|[DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.DOM.aspx) , propriété  <br/> |Renvoie une référence au DOM XML utilisé pour enregistrer et manipuler les données à l'aide de l'objet **DataSourceObject**.  <br/> |
+|Propriété [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Name.aspx)  <br/> |Renvoie une valeur chaîne indiquant le nom de l'objet **DataSourceObject**.  <br/> |
+|[QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.QueryAdapter.aspx) , propriété  <br/> |Renvoie une référence à l'adaptateur de données associé.  <br/> |
    
 ## <a name="overview-of-the-data-adapter-interfaces"></a>Vue d'ensemble des interfaces d'adaptateurs de données
 

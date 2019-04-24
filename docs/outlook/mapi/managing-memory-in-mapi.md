@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 66489c09be641d8fe9ae5f3ffff46a6d5004f473
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298095"
 ---
 # <a name="managing-memory-in-mapi"></a>Gestion de la mémoire dans MAPI
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Savoir quand et comment allouer et libérer de la mémoire constitue une part importante de la programmation MAPI. MAPI fournit les fonctions et les macros que votre client ou fournisseur de services permettre utiliser pour gérer la mémoire de façon cohérente. Les trois fonctions sont les suivantes :
+Savoir comment et quand allouer et libérer de la mémoire est une partie importante de la programmation avec MAPI. MAPI fournit à la fois des fonctions et des macros que votre client ou fournisseur de services peut utiliser pour gérer la mémoire de manière cohérente. Les trois fonctions sont les suivantes:
   
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   
@@ -29,9 +29,9 @@ Savoir quand et comment allouer et libérer de la mémoire constitue une part im
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-Lorsque les clients et les fournisseurs de services utilisent ces fonctions, le problème de « propriétaire », c'est-à-dire, sait comment libérer — un bloc de mémoire particulier est éliminé. Un client appelant une méthode de fournisseur de service ne devez pas transmettre un tampon suffisant pour contenir une valeur de retour de toute taille. Le fournisseur de services peut allouer simplement la quantité de mémoire à l’aide de **MAPIAllocateBuffer** appropriée et, si nécessaire, **MAPIAllocateMore**et le client peuvent ultérieurement libérer à l’aide de **MAPIFreeBuffer**, indépendamment du service fournisseur de services. 
+Lorsque les clients et les fournisseurs de services utilisent ces fonctions, le «propriétaire» (c'est-à-dire, dont il est question) sait comment lancer un bloc de mémoire particulier. Un client appelant une méthode de fournisseur de services n'a pas besoin de transmettre un tampon assez grand pour contenir une valeur de retour de n'importe quelle taille. Le fournisseur de services peut simplement allouer la quantité de mémoire appropriée à l'aide de **MAPIAllocateBuffer** et, si nécessaire, **MAPIAllocateMore**, et le client peut le libérer ultérieurement à l'aide de **MAPIFreeBuffer**, indépendamment du service moteur. 
   
-Les macros de mémoire sont utilisés pour affecter des structures ou des tableaux de structures d’une taille spécifique. Clients et fournisseurs de services doivent utiliser ces macros au lieu d’allouer de la mémoire manuellement. Par exemple, si un client doit effectuer une résolution de traitement sur une liste de destinataires avec trois entrées, la macro **SizedADRLIST** peut être utilisée pour créer une structure **ADRLIST** à transmettre à **IAddrBook::ResolveName** avec le nombre approprié de Membres **ADRENTRY** . Toutes les macros de mémoire sont définies dans le MAPIDEFS. Fichier d’en-tête H. Ces macros sont les suivants : 
+Les macros de mémoire sont utilisées pour allouer des structures ou des tableaux de structures d'une taille spécifique. Les clients et les fournisseurs de services doivent utiliser ces macros au lieu d'allouer manuellement la mémoire. Par exemple, si un client doit exécuter le traitement de la résolution de noms sur une liste de destinataires avec trois entrées, la macro **SizedADRLIST** peut être utilisée pour créer une structure **ADRLIST** à transmettre à **IAddrBook:: ResolveName** avec le nombre correct de Membres **ADRENTRY** . Toutes les macros de mémoire sont définies dans le MAPIDEFS. Fichier d'en-tête H. Ces macros sont les suivantes: 
   
 |||
 |:-----|:-----|
@@ -43,6 +43,6 @@ Les macros de mémoire sont utilisés pour affecter des structures ou des tablea
 |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
 |[SizedDtblLabel](sizeddtbllabel.md) <br/> | <br/> |
    
-MAPI prend également en charge l’utilisation de l’interface COM [IMalloc](https://msdn.microsoft.com/library/ms678425%28VS.85%29.aspx) pour la gestion de la mémoire. Fournisseurs de services figurent un pointeur d’interface **IMalloc** par MAPI lors de l’initialisation et peuvent également récupérer par le biais de la fonction [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) . Le principal avantage de l’utilisation des méthodes **IMalloc** pour la gestion de la mémoire sur les fonctions MAPI est qu’avec les méthodes COM, il est possible réattribuer un tampon existant. Les fonctions de mémoire MAPI ne prennent pas en charge réaffectation. 
+MAPI prend également en charge l'utilisation de l' [](https://msdn.microsoft.com/library/ms678425%28VS.85%29.aspx) interface com IMalloc pour la gestion de la mémoire. Les fournisseurs de services reçoivent **** un pointeur d'interface IMalloc par MAPI au moment de l'initialisation et peuvent également en récupérer un par le biais de la fonction [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) . Le principal avantage de l'utilisation **** des méthodes IMalloc pour la gestion de la mémoire sur les fonctions MAPI est qu'avec les méthodes com, il est possible de réaffecter une mémoire tampon existante. Les fonctions de mémoire MAPI ne prennent pas en charge la réallocation. 
   
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 64f80a03-9ba4-495a-9666-b3a909335cb6
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 19889a1f48a6088f0d5ad224f7e9189b112622fa
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280604"
 ---
 # <a name="pidtagruleprovider-canonical-property"></a>Propriété canonique PidTagRuleProvider
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom de l’application qui définit une règle.
+Contient le nom de l'application qui définit une règle.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient le nom de l’application qui définit une règle.
    
 ## <a name="remarks"></a>Remarques
 
-Différé actions besoin de ces propriétés pour identifier le code qui doivent interpréter et exécuter l’action de règle.
+Les actions différées ont besoin de ces propriétés pour identifier le code qui doit interpréter et exécuter l'action de la règle.
   
-Règles stockées sur les boîtes aux lettres et des dossiers sont associés à l’application qui leur propriétaire par une chaîne de fournisseur de règle. Un fournisseur de règles définit et gère les règles dans une table de règles. Il fournit également un moyen de gérer les actions différées si ces règles sont définies. Actions différées sont créées implicitement par la banque d’informations. Pour les opérations de copie ou de déplacement vers une autre banque, si un fournisseur définit une règle d’action différée, il doit fournir un gestionnaire pour exécuter l’action lorsque la règle est déclenchée et une action différée est créée.
+Les règles stockées sur des boîtes aux lettres et des dossiers sont associées à l'application qui en est propriétaire par une chaîne de fournisseur de règles. Un fournisseur de règles définit et gère les règles dans une table de règles. Elle fournit également un moyen de gérer les actions différées si ces règles sont définies. Les actions différées sont créées implicitement par la Banque d'informations. Pour les opérations de déplacement ou de copie dans un autre magasin, si un fournisseur définit une règle d'action différée, il doit fournir un gestionnaire pour effectuer l'action lorsque la règle est déclenchée et qu'une action différée est créée.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipule les messages électroniques entrants sur un serveur.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fb321b48-3e5f-4b99-9af0-a57b66f26a2e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3d45c4722b6a0200ea3937ba606da0af5c793df2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: f477c617533d66fc129c7192c9f86bb8a46afbb1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280279"
 ---
 # <a name="imapicontrolgetstate"></a>IMAPIControl::GetState
 
@@ -25,7 +25,7 @@ ms.locfileid: "22581852"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère une valeur qui indique si le contrôle bouton est activé ou désactivé.
+Récupère une valeur qui indique si le contrôle de bouton est activé ou désactivé.
   
 ```cpp
 HRESULT GetState(
@@ -34,7 +34,7 @@ HRESULT GetState(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -42,27 +42,27 @@ HRESULT GetState(
     
  _lpulState_
   
-> [out] Pointeur vers une valeur qui indique l’état du contrôle bouton. Une des valeurs suivantes peut être renvoyée :
+> remarquer Pointeur vers une valeur qui indique l'état du contrôle bouton. L'une des valeurs suivantes peut être renvoyée:
     
 MAPI_DISABLED 
   
-> Le contrôle bouton est désactivé et ne peut pas être sélectionné. 
+> Le contrôle de bouton est désactivé et ne peut pas être cliqué. 
     
 MAPI_ENABLED 
   
-> Le contrôle bouton est activé et peut être sélectionné.
+> Le contrôle de bouton est activé et peut être cliqué.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’état du contrôle bouton a été récupéré correctement.
+> L'état du contrôle bouton a été correctement récupéré.
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de services implémentent la méthode **IMAPIControl::GetState** pour fournir MAPI avec l’état d’un contrôle bouton. Si le bouton est activé, il peut répondre à un clic de souris ou la touche. S’il est désactivé, le bouton apparaît en grisé et ne répond pas à un clic de souris ou la touche. 
+Les fournisseurs de services implémentent la méthode **IMAPIControl:: GetState** pour fournir à MAPI l'état d'un contrôle de bouton. Si le bouton est activé, il peut répondre à un clic de souris ou appuyer sur une touche. Si elle est désactivée, le bouton apparaît estompé et ne répond pas à un clic de souris ou à une pression de touche. 
   
-Pour plus d’informations sur la façon d’implémenter **GetState** et l’autre [IMAPIControl : IUnknown](imapicontroliunknown.md) méthodes, voir [Implémentation d’objet de contrôle](control-object-implementation.md).
+Pour plus d'informations sur la façon d'implémenter **GetState** et sur les autres méthodes [IMAPIControl: IUnknown](imapicontroliunknown.md) , voir [Control Object Implementation](control-object-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Utilisation des classes XPathNavigator et XPathNodeIterator
+title: Utiliser les classes XPathNavigator et XPathNodeIterator
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -9,13 +9,13 @@ localization_priority: Normal
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
 description: Pour accéder aux données XML dans les sources de données du modèle de formulaire et les manipuler, un grand nombre de membres du modèle objet avec code managé fourni par l'espace de noms Microsoft.Office.InfoPath créent ou se voient attribuer une instance de la classe XPathNavigator de l'espace de noms System.Xml.XPath. Après avoir accédé à un objet XPathNavigator retourné par un membre du modèle objet InfoPath, vous pouvez utiliser les propriétés et les méthodes de la classe XPathNavigator pour travailler avec les données.
 ms.openlocfilehash: f34f2e1a1cbdb8d9e389c864a9b979be20726e6b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303548"
 ---
-# <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Utilisation des classes XPathNavigator et XPathNodeIterator
+# <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Utiliser les classes XPathNavigator et XPathNodeIterator
 
 Pour accéder aux données XML dans les sources de données du modèle de formulaire et les manipuler, un grand nombre de membres du modèle objet avec code managé fourni par l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) créent ou se voient attribuer une instance de la classe **XPathNavigator** de l'espace de noms **System.Xml.XPath**. Après avoir accédé à un objet **XPathNavigator** retourné par un membre du modèle objet InfoPath, vous pouvez utiliser les propriétés et les méthodes de la classe **XPathNavigator** pour travailler avec les données. 
   
@@ -50,7 +50,7 @@ MessageBox.Show("Main data source XML: " &amp; _
 
 Pour sélectionner un nœud XML unique pour champ de la source de données, utilisez la méthode **SelectSingleNode(String,IXmlNamespaceResolver)** de la classe **XPathNavigator**. Si vous voulez utiliser un jeu de champs récurrents ou de groupes récurrents, utilisez la méthode **Select(String,IXmlNamespaceResolver)** de la classe **XPathNavigator**. Cette méthode retourne un objet **XPathNodeIterator** qui représente une collection de nœuds. 
   
-### <a name="selecting-and-setting-the-value-of-a-single-node"></a>Sélection et définition de la valeur d'un nœud unique
+### <a name="selecting-and-setting-the-value-of-a-single-node"></a>Sélection et définition de la valeur d’un nœud unique
 
 La méthode surchargée **SelectSingleNode** que vous devez utiliser comprend un paramètre  _xpath_ qui prend une expression XPath sous forme de chaîne et un paramètre  _resolver_ qui prend l'objet **XmlNamespaceManager** pour résoudre les préfixes d'espaces de noms. Pour sélectionner un nœud unique dans la source de données principale du formulaire, transmettez une expression XPath qui spécifie le champ ou groupe que vous voulez sélectionner pour le paramètre  _xpath_, avec l'objet **XmlNamespaceManager** qui est retourné par la propriété [NamespaceManager](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NamespaceManager.aspx) de l'objet **XmlForm**. L'objet **XmlNamespaceManager** retourné est initialisé lors du chargement avec tous les espaces de noms définis par le fichier de définition de formulaire du modèle de formulaire (.xsf). 
   
@@ -75,7 +75,7 @@ emailAlias.SetValue(Me.Application.User.UserName.ToString())
 
 Pour plus d'informations sur la création d'expressions XPath, voir XPath Reference (éventuellement en anglais) sur MSDN, ainsi que les [recommandations du W3C sur le langage XML Path (XPath) Version 1.0 (éventuellement en anglais)](https://www.w3.org/TR/xpath).
   
-### <a name="setting-the-value-of-a-node-that-has-the-xsinil-attribute"></a>Définition de la valeur d'un nœud qui possède l'attribut xsi:nil
+### <a name="setting-the-value-of-a-node-that-has-the-xsinil-attribute"></a>Définition de la valeur d’un nœud qui possède l’attribut xsi:nil
 
 Pour certains types de données, le fait de définir une valeur nulle par programme génère l'erreur « La validation de schéma a détecté des erreurs qui ne concernent pas le type de données ». En général, la cause de cette erreur est que l'attribut [xsi:nil (éventuellement en anglais)](https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) de l'élément est défini sur **true**. Si vous examinez l'élément XML sous-jacent du champ vierge du formulaire, vous verrez ce paramètre. Par exemple, l'attribut **xsi:nil** du fragment XML du champ Date vierge suivant est défini sur **true**.
   
@@ -149,11 +149,11 @@ myDate.SetValue(strCurDate)
 > [!NOTE]
 > [!REMARQUE] Bien que l'implémentation de l'objet **XPathNavigator** dans InfoPath expose la méthode **SetTypedValue**, qui est utilisée pour définir un nœud à l'aide d'une valeur de type spécifique, InforPath n'utilise pas cette méthode. Vous devez utiliser la méthode **SetValue**, et transmettre une valeur de chaîne au format correct pour le type de données du nœud. 
   
-### <a name="selecting-and-setting-a-set-of-repeating-nodes"></a>Sélection et définition d'un jeu de nœuds récurrents
+### <a name="selecting-and-setting-a-set-of-repeating-nodes"></a>Sélection et définition d’un jeu de nœuds récurrents
 
 Pour spécifier des champs ou des groupes récurrents dont le nombre n'est pas déterminé, utilisez la méthode **Select** de la classe **XPathNavigator**. Cette méthode retourne un objet XPathNodeIterator que vous pouvez utiliser pour parcourir la collection de nœuds. 
   
-Dans l'exemple suivant, votre modèle de formulaire contient une **Liste à puces** ou un autre contrôle récurrent qui est lié à un élément récurrent appelé  `field1`. Le XPath de ce champ est transmis à la méthode **Select** et la valeur **XPathNodeIterator** retournée est affectée à la variable  `nodes`. Vous pouvez utiliser la méthode MoveNext pour parcourir la collection de nœuds et la propriété Current pour retourner un objet **XPathNavigator** placé sur le nœud actif. Enfin, utilisez la propriété **Value** pour extraire et afficher la valeur de chaque champ extensible. 
+Dans l'exemple suivant, votre modèle de formulaire contient une **Liste à puces** ou un autre contrôle récurrent qui est lié à un élément récurrent appelé  `field1`. Le XPath de ce champ est transmis à la méthode **Select** et la valeur **XPathNodeIterator** retournée est affectée à la variable  `nodes`. Vous pouvez utiliser la méthode MoveNext pour parcourir la collection de nœuds et la propriété Current pour retourner un objet **XPathNavigator** placé sur le nœud actif. Enfin, utilisez la propriété **value** pour récupérer et afficher la valeur de chaque champ extensible. 
   
 ```cs
 string message = String.Empty;
@@ -233,43 +233,43 @@ Une fois que vous avez accédé à l'objet **XPathNavigator** placé à la racin
 
 Le tableau suivant recense les membres de l'espace de noms **Microsoft.Office.InfoPath** qui utilisent la classe **XPathNavigator** pour accéder aux données XMSL, les manipuler ou les envoyer. 
   
-|**Classe parent**|**Membre**|
+|**Classe parent**|**Member**|
 |:-----|:-----|
-|[AdoQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.aspx) <br/> |Méthode [BuildSqlFromXmlNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.BuildSqlFromXmlNodes.aspx)  <br/> |
-|[AdoSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.aspx) <br/> |Méthode [BuildSqlFromXmlNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.BuildSqlFromXmlNodes.aspx)  <br/> |
+|[AdoQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.aspx) <br/> |Méthode [BuildSQLFromXMLNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.BuildSqlFromXmlNodes.aspx)  <br/> |
+|[AdoSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.aspx) <br/> |Méthode [BuildSQLFromXMLNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.BuildSqlFromXmlNodes.aspx)  <br/> |
 |[ClickedEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ClickedEventArgs.aspx) <br/> |[Source](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ClickedEventArgs.Source.aspx) , propriété  <br/> |
 |[ContextChangedEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ContextChangedEventArgs.aspx) <br/> |[Context](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ContextChangedEventArgs.Context.aspx) , propriété  <br/> |
 |[DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) <br/> |Méthode [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx)  <br/> |
-||Méthode [GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx)  <br/> |
-||Méthode [SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx)  <br/> |
-|[EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx) <br/> |Méthode [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.Execute.aspx)  <br/> |
-|[FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx) <br/> |Méthode [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.Execute.aspx)  <br/> |
-|[FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx) <br/> |Méthode [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.Execute.aspx)  <br/> |
+||[GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx) , méthode  <br/> |
+||[SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx) , méthode  <br/> |
+|[EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx) <br/> |[Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.Execute.aspx) , méthode  <br/> |
+|[FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx) <br/> |[Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.Execute.aspx) , méthode  <br/> |
+|[FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx) <br/> |[Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.Execute.aspx) , méthode  <br/> |
 |[FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) <br/> |Propriété [site](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx)  <br/> |
 |[FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) <br/> |[Ajouter](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) des méthodes  <br/> |
-|[Modèle de formulaire](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) <br/> |Propriété [manifeste](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Manifest.aspx)  <br/> |
-|[MergeEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.aspx) <br/> |Propriété [XML](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Xml.aspx)  <br/> |
-|[SharepointListQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.aspx) <br/> |Méthode [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.Execute.aspx)  <br/> |
-|[Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |[SignatureBlockXmlNode,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.SignatureBlockXmlNode.aspx) propriété  <br/> |
-|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |[SignatureContainer,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.SignatureContainer.aspx) propriété  <br/> |
-|[View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) <br/> |Méthodes [GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |
-||Méthodes [SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |
-||Méthodes [SelectText](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx)  <br/> |
-|[WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) <br/> |Méthode [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.Execute.aspx)  <br/> |
+|[FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) <br/> |Propriété [Manifest](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Manifest.aspx)  <br/> |
+|[MergeEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.aspx) <br/> |[XML](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Xml.aspx) , propriété  <br/> |
+|[SharepointListQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.aspx) <br/> |[Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.Execute.aspx) , méthode  <br/> |
+|[Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |[SignatureBlockXmlNode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.SignatureBlockXmlNode.aspx) , propriété  <br/> |
+|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |[SignatureContainer](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.SignatureContainer.aspx) , propriété  <br/> |
+|[View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) <br/> |[GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx) , méthodes  <br/> |
+||[SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) , méthodes  <br/> |
+||[SelectText](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) , méthodes  <br/> |
+|[WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) <br/> |[Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.Execute.aspx) , méthode  <br/> |
 ||Méthode [GenerateDataSetDiffGram](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.GenerateDataSetDiffGram.aspx)  <br/> |
-|[XmlEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.aspx) <br/> |Propriété [OldParent](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.OldParent.aspx)  <br/> |
+|[XmlEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.aspx) <br/> |[OldParent](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.OldParent.aspx) , propriété  <br/> |
 ||Propriété [site](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.Site.aspx)  <br/> |
-|[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) <br/> |Propriété [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) , qui renvoie un objet **DataSource** qui à son tour fournit la méthode **CreateNavigator** pour la création d’un objet **XPathNavigator** placé à la racine du document XML sous-jacent du formulaire (données principale source).  <br/> |
+|[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) <br/> |Propriété [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) , qui renvoie un objet **DataSource** qui, à son tour, fournit la méthode **CreateNavigator** pour créer un objet **XPATHNAVIGATOR** placé à la racine du document XML sous-jacent du formulaire (données principales source).  <br/> |
 ||Méthode [MergeForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx)  <br/> |
-|[XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) <br/> |Méthode [NewFromFormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx)  <br/> |
+|[XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) <br/> |Méthode [méthode NewFromFormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx)  <br/> |
 |[XmlValidatingEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.aspx) <br/> |Méthodes [ReportError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.ReportError.aspx)  <br/> |
    
 Outre les membres du modèle objet InfoPath qui retournent ou acceptent un objet **XPathNavigator**, les méthodes suivantes retournent une instance de la classe **XPathNodeIterator** de l'espace de noms **System.Xml.XPath** pour parcourir les nœuds XML des éléments qui sont spécifiés ou sélectionnés dans un affichage. 
   
-|**Classe parent**|**Membre**|
+|**Classe parent**|**Member**|
 |:-----|:-----|
-|[View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) <br/> |Méthodes [GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |
-||Méthode [GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetSelectedNodes.aspx)  <br/> |
+|[View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) <br/> |[GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx) , méthodes  <br/> |
+||[GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetSelectedNodes.aspx) , méthode  <br/> |
    
 ## <a name="using-the-xpathnavigator-and-xpathnodeiterator-classes-to-work-with-data-selected-in-a-view"></a>Utilisation des classes XPathNavigator et XPathNodeIterator pour travailler avec des données sélectionnées dans un affichage
 <a name="InfoPath2007XPathNavigatorClassFormTemplates_SelectingXMLNodes"> </a>

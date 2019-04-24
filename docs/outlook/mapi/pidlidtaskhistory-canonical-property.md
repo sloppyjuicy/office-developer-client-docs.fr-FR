@@ -11,58 +11,58 @@ api_name:
 api_type:
 - COM
 ms.assetid: 104ef21c-b607-48b7-9b06-bc53b7d9b68a
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 39f2e6aeb4026f0b33be08b3bd8123283e5df3e1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303009"
 ---
 # <a name="pidlidtaskhistory-canonical-property"></a>Propriété canonique PidLidTaskHistory
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le type de modification qui a été effectué les dernières à la tâche.
+Indique le type de modification qui a été apportée à la tâche.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskHistory  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
-|ID de type long (capot) :  <br/> |0x0000811A  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Task  <br/> |
+|ID long (couvercle):  <br/> |0x0000811A  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Task  <br/> |
+|Domaine :  <br/> |Tâche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque la valeur de cette propriété est définie, la propriété **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) doit également être définie à l’heure actuelle. Le tableau suivant indique les **dispidTaskHistory** valeurs de propriété, répertoriés par ordre décroissant de priorité. 
+Lorsque la valeur de cette propriété est définie, la propriété **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) doit également être définie sur l'heure actuelle. Le tableau suivant indique les valeurs de propriété **dispidTaskHistory** , indiquées dans l'ordre de priorité décroissante. 
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|0 x 00000004  <br/> |Modifié de la propriété **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).  <br/> |
-|0 x 00000003  <br/> |Une autre propriété a été modifiée.  <br/> |
-|0x00000001  <br/> |Destinataire de la tâche acceptée cette tâche.  <br/> |
-|0x00000002  <br/> |Destinataire de la tâche rejeté cette tâche.  <br/> |
-|0 x 00000005  <br/> |La tâche a été affectée à un destinataire de la tâche.  <br/> |
-|0x00000000  <br/> |Aucune modification n’a été apportée.  <br/> |
+|0x00000004  <br/> |La propriété **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) a changé.  <br/> |
+|0x00000003  <br/> |Une autre propriété a été modifiée.  <br/> |
+|0x00000001  <br/> |Le cessionnaire de la tâche a accepté cette tâche.  <br/> |
+|0x00000002  <br/> |La tâche affectée a rejeté cette tâche.  <br/> |
+|0x00000005  <br/> |La tâche a été affectée à un cessionnaire de tâche.  <br/> |
+|0x00000000  <br/> |Aucune modification n'a été apportée.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.
+> Définit plusieurs objets qui modélisent l'équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

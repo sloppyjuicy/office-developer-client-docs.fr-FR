@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3dc2c0f-b1fd-d758-e847-a0f101efe7f1
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3dffb65ea4f2c19966962a7f58cfc33f767fca83
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 05312e62d6bcc1a4ddb2ece170a6c0c0bfbe5f3f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279649"
 ---
 # <a name="olflagicon"></a>OlFlagIcon
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie si un élément est marqué, et si elle est le cas, la couleur associée à l’élément marqué.
+Indique si un élément est marqué et, si c'est le cas, la couleur associée à l'élément marqué.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -38,35 +38,35 @@ enum OlFlagIcon {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _olNoFlagIcon_
   
-> Aucun indicateur n’a été associé à l’élément.
+> Aucun indicateur n'a été associé à l'élément.
     
  _olPurpleFlagIcon_
   
-> Violet a été associé à l’élément marqué.
+> Violet a été associé à l'élément marqué.
     
  _olOrangeFlagIcon_
   
-> Orange a été associé à l’élément marqué.
+> Orange a été associé à l'élément marqué.
     
  _olGreenFlagIcon_
   
-> Vert a été associé à l’élément marqué.
+> Le vert a été associé à l'élément marqué.
     
  _olYellowFlagIcon_
   
-> Jaune a été associé à l’élément marqué.
+> Le jaune a été associé à l'élément marqué.
     
  _olBlueFlagIcon_
   
-> Bleu a été associé à l’élément marqué.
+> Le bleu a été associé à l'élément marqué.
     
  _olRedFlagIcon_
   
-> Rouge a été associé à l’élément marqué.
+> Le rouge a été associé à l'élément marqué.
     
 ## <a name="see-also"></a>Voir aussi
 

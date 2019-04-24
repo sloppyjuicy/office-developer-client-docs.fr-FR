@@ -7,36 +7,37 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 87ddbc35-8577-0a96-20b8-aa7734764c5b
 description: Renvoie une référence de feuille à la forme conteneur de liste qui contient la forme.
-ms.openlocfilehash: 75c765fab2d287c2da83a659dbbf070d29a9d325
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 748a248f68345e97e97ca90a4603b6e164a551c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284080"
 ---
-# <a name="listsheetref-function"></a>LISTSHEETREF, fonction
+# <a name="listsheetref-function"></a>Fonction LISTSHEETREF
 
 Renvoie une référence de feuille à la forme conteneur de liste qui contient la forme.
   
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Visio 2010 
+Version ajoutée : Visio 2010
+ 
   
 ## <a name="syntax"></a>Syntaxe
 
-LISTMEMBERCOUNT()
+LISTMEMBERCOUNT ()
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Référence ShapeSheet
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Si la forme n’est pas un membre de la liste, la fonction LISTSHEETREF renvoie #REF!.
   
 ## <a name="example"></a>Exemple
 
-LISTSHEETREF(1)!Height 
+LISTSHEETREF (1)! Standard 
   
 Renvoie la valeur de la cellule Height de la forme conteneur de liste qui contient la forme. 
   

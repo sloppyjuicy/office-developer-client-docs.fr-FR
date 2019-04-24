@@ -11,24 +11,24 @@ api_name:
 api_type:
 - COM
 ms.assetid: f0b9c2f4-7011-414d-8e6c-ab22893ef132
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7622baaebf6918cf84c48e53291cf5ec2c0b1a4a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 60a335f85eea8778580e0bd74693a5c28591103c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282627"
 ---
 # <a name="sizedssortorderset"></a>SizedSSortOrderSet
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure [SSortOrderSet](ssortorderset.md) nommée qui contient un nombre spécifié d’ordres de tri. 
+Crée une structure [SSortOrderSet](ssortorderset.md) nommée qui contient un nombre spécifié d'ordres de tri. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SSortOrderSet** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 SizedSSortOrderSet (_csort,_name)
@@ -38,7 +38,7 @@ SizedSSortOrderSet (_csort,_name)
 
 __csort_
   
-> Nombre d’ordres de tri à inclure dans la nouvelle structure.
+> Nombre d'ordres de tri à inclure dans la nouvelle structure.
     
 __nom_
   
@@ -46,9 +46,9 @@ __nom_
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la macro **SizedSSortOrderSet** pour créer un ordre de tri avec des limites explicites. 
+Utilisez la macro **SizedSSortOrderSet** pour créer un ensemble d'ordres de tri avec des limites explicites. 
   
-Pour utiliser la nouvelle structure de résultats de la macro **SizedSSortOrderSet** comme un pointeur vers une structure **SSortOrderSet** , effectuer le cast suivant : 
+Pour utiliser la nouvelle structure qui résulte de la macro **SizedSSortOrderSet** en tant que pointeur vers une structure **SSortOrderSet** , effectuez la conversion suivante: 
   
 ```cpp
 lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;

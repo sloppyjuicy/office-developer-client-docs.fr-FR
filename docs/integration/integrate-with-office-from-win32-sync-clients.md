@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 348555d3-3cd4-4e4a-b5ad-436571c25251
 description: Intégrez vos clients de synchronisation Win32 tiers à des applications Office Excel Mobile, PowerPoint Mobile et Word Mobile.
 ms.openlocfilehash: 83bc6e4cddc17e539b371999fff620c72c595534
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303135"
 ---
 # <a name="integrate-with-office-from-win32-sync-clients"></a>Intégration à Office à partir de clients de synchronisation Win32
 

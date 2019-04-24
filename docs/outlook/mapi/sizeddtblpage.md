@@ -11,24 +11,24 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ae3f84c6b219c7becb88737f0d6c9fcb9722ea34
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f14b8d7a9a73997f797f9cfa26a2e574222e839e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282656"
 ---
 # <a name="sizeddtblpage"></a>SizedDtblPage
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLPAGE](dtblpage.md) pour la description d’un contrôle de la page à onglets, une étiquette d’une longueur spécifiée, une entrée de fichier d’aide d’une longueur spécifiée. 
+Crée une structure nommée qui inclut une structure [DTBLPAGE](dtblpage.md) pour la description d'un contrôle de page à onglets, une étiquette d'une longueur spécifiée et une entrée de fichier d'aide d'une longueur spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**DTBLPAGE** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**DTBLPAGE** <br/> |
    
 ```cpp
 SizedDtblPage (n, n1, u)
@@ -38,11 +38,11 @@ SizedDtblPage (n, n1, u)
 
 _n_
   
-> Longueur de l’étiquette de l’onglet page.
+> Longueur de l'étiquette de l'onglet de page.
     
 _N1_
   
-> Longueur de l’entrée figurant dans le fichier Mapisvc.inf qui identifie le fichier d’aide qui sera utilisé avec le contrôle de la page à onglets.
+> Longueur de l'entrée apparaissant dans le fichier MAPISVC. inf identifiant le fichier d'aide qui sera utilisé avec le contrôle de page à onglets.
     
 _u_
   
@@ -50,7 +50,7 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblPage** vous permet de définir un contrôle de la page à onglets lorsque le nombre de caractères dans l’étiquette associée et l’entrée de fichier d’aide est connu. La nouvelle structure est créée avec les membres suivants : 
+La macro **SizedDtblPage** vous permet de définir un contrôle de page à onglets lorsque le nombre de caractères dans l'étiquette associée et l'entrée de fichier d'aide est connu. La nouvelle structure est créée avec les membres suivants: 
   
 ```cpp
 DTBLPAGE dtblpage;
@@ -58,7 +58,7 @@ TCHAR lpszLabel[n];
 TCHAR lpszComponent[n1];
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblPage** comme un pointeur de structure **DTBLPAGE** , effectuer le cast suivant : 
+Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblPage** en tant que pointeur de structure **DTBLPAGE** , effectuez la conversion suivante: 
   
 ```cpp
 lpDtblPage = (LPDTBLPAGE) &SizedDtblPage;

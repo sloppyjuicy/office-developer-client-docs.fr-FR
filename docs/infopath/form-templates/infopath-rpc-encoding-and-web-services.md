@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
 description: 'Les services Web peuvent exposer un style parmi deux pour lier leurs méthodes Web dans le contrat WSDL (Web Service Description Language) qui les décrit : Document ou RPC.'
 ms.openlocfilehash: 0eacf013c9cdf74f18f3de1d4412ca4ca165a960
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303527"
 ---
 # <a name="infopath-rpc-encoding-and-web-services"></a>InfoPath, chiffrement RPC et services Web
 
@@ -21,7 +21,7 @@ La plupart des outils de développement de services Web permettent de choisir le
   
 Cependant, si vous ne contrôlez pas le service Web que vous voulez utiliser et que vous devez vous connecter à un service Web utilisant le style RPC/codé, vous pouvez utiliser un service de proxy .NET pour vous y connecter.
   
-## <a name="using-a-net-proxy-service-to-connect-to-a-web-service"></a>Utilisation d'un service de proxy .NET pour se connecter à un service Web
+## <a name="using-a-net-proxy-service-to-connect-to-a-web-service"></a>Utilisation d’un service de proxy .NET pour se connecter à un service Web
 
 Si vous ne contrôlez pas le service Web RPC/codé que vous voulez utiliser, vous pouvez créer un service Web de proxy Microsoft .NET de type document/littéral qui fournit des fonctions de wrapper pour chacune des méthodes Web que vous voulez appeler depuis le service Web RPC/codé. Vous pouvez ensuite utiliser le service Web de proxy document/littéral depuis InfoPath.
   
@@ -29,7 +29,7 @@ Le code .NET Framework peut fonctionner avec tous les types de services Web (RPC
   
 Les préalables à la création d'un tel service de proxy Microsoft .NET Web sont un ordinateur Microsoft Windows ou Microsoft Windows Server exécutant les services Internet (IIS) avec ASP.NET installé, sur lequel le service Web de proxy peut être déployé. Lorsque vous créez une solution InfoPath, vous pointez vers le service Web de proxy au lieu du service Web RPC/codé. Le service Web de proxy effectue alors des appels au service RPC/codé.
   
-## <a name="creating-a-proxy-web-service-using-visual-studio"></a>Création d'un service Web de proxy à l'aide de Visual Studio
+## <a name="creating-a-proxy-web-service-using-visual-studio"></a>Création d’un service Web de proxy à l’aide de Visual Studio
 
 1. Créez un nouveau projet **Application de service Web ASP.NET**. 
     
@@ -64,7 +64,7 @@ Les préalables à la création d'un tel service de proxy Microsoft .NET Web son
 
 Pour plus d'informations, recherchez l'article de la Base de connaissances Microsoft « Procédure : passage des informations d'identification actuelles à un service Web ASP.NET » (éventuellement en anglais) sur https://support.microsoft.com/.
     
-## <a name="creating-a-proxy-web-service-without-visual-studio-net"></a>Création d'un service Web de proxy sans Visual Studio .NET
+## <a name="creating-a-proxy-web-service-without-visual-studio-net"></a>Création d’un service Web de proxy sans Visual Studio .NET
 
 Il est également possible de créer un service Web de proxy à l'aide des outils fournis avec le Kit de développement logiciel (SDK) .NET Framework, qui peut être téléchargé sur MSDN.
   

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a0d62047-bf08-9f70-de00-7f81ef1331f1
 description: Vous pouvez héberger des contrôles ActiveX dans les formulaires InfoPath qui sont conçus pour être ouverts dans l'éditeur InfoPath. Ces contrôles peuvent être créés au préalable (avec certaines contraintes) ou ils peuvent être écrits spécialement pour InfoPath.
 ms.openlocfilehash: 70ac6a16b305403ffa99d8fe840a165913642f57
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300188"
 ---
 # <a name="create-an-activex-control-that-can-bind-to-infopath-form-data"></a>Création d'un contrôle ActiveX pouvant lier des données de formulaire InfoPath
 
@@ -35,13 +35,13 @@ De même que les autres contrôles de InfoPath, les contrôles ActiveX doivent p
     
 - **IViewObject**
     
-- **IOleObject**
+- **Objet IOleObject**
     
 - **IOleInPlaceObject**
     
 Afin que InfoPath mette à jour des propriétés du modèle objet de document (DOM, Document Object Model) au moment où ils changent dans le contrôle, le contrôle doit implémenter les interfaces ci-après.
   
-- **IConnectionPointContainer**
+- **Interfaces**
     
 - **IEnumConnectionPoints**
     
@@ -55,7 +55,7 @@ De plus, il existe deux interfaces COM propres à InfoPath qui fournissent une m
     
 - [IInfoPathControlSite](https://msdn.microsoft.com/library/bb264627.aspx)
     
-## <a name="add-an-activex-control-to-the-infopath-design-environment"></a>Ajout d'un contrôle ActiveX à l'environnement de création InfoPath
+## <a name="add-an-activex-control-to-the-infopath-design-environment"></a>Ajout d'un contrôle ActiveX à l'environnement de création InfoPath 
 
 La commande **Ajouter ou supprimer des contrôles personnalisés** dans le volet de tâches **Contrôles** vous permet d'utiliser l' **Assistant Ajout de contrôle personnalisé** pour ajouter un contrôle personnalisé. En utilisant l'assistant, vous pouvez sélectionner un contrôle ActiveX déjà enregistré ou rechercher des contrôles personnalisés supplémentaires sur Office Marketplace. Après avoir sélectionné un contrôle, vous pouvez spécifier les éléments ci-après. 
   

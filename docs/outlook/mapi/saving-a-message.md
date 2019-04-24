@@ -1,5 +1,5 @@
 ---
-title: Enregistrement d’un message
+title: Enregistrement d'un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,52 +7,52 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 97bff16b-dc7c-4eed-8834-d0c076d83ca3
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fcb5486cc96403b872e07ab597545ca6f493907d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: d5ceeb46bded101700aec696a17d690bde80ce6d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283120"
 ---
-# <a name="saving-a-message"></a>Enregistrement d’un message
+# <a name="saving-a-message"></a>Enregistrement d'un message
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avant l’enregistrée d’un message, clients appellent généralement la méthode de [IMAPIProp::SetProps](imapiprop-setprops.md) du message pour définir plusieurs propriétés en plus des propriétés de texte de message, les propriétés de pièce jointe, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et les propriétés associée à la liste des destinataires.
+Avant qu'un message ne soit enregistré, les clients appellent généralement la méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) du message pour définir quelques propriétés en plus des propriétés Text du message, des propriétés des pièces jointes, des **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et des propriétés. associé à la liste des destinataires.
   
-Définissez la propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) à une chaîne de caractères comme IPM. Notez que décrit la classe de message sortant. Bien que les clients doivent définir **PR_MESSAGE_CLASS** sur tous les messages sortants, une valeur par défaut est fournie par le fournisseur de banque de message si vous ne le définissez pas. La classe de message par défaut pour les messages sortants est IPM. 
+Définissez la propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) sur une chaîne de caractères telle que IPM. Notez que décrit la classe du message sortant. Bien que les clients doivent définir **PR_MESSAGE_CLASS** sur tous les messages sortants, une valeur par défaut est fournie par le fournisseur de banque de messages si vous ne le configurez pas. La classe de message par défaut pour les messages sortants est IPM. 
   
-Définir l’indicateur MSGFLAG_UNSENT dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Si vous le souhaitez, définissez également les indicateurs MSGFLAG_READ et MSGFLAG_UNMODIFIED. Définition de la MSGFLAG_UNMODIFIED permet à un message dans la composition simuler un message remis. MSGFLAG_UNMODIFIED peut uniquement être définie par les clients avant un message a été enregistré pour la première fois. 
+Définissez l'indicateur MSGFLAG_UNSENT dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Si vous le souhaitez, définissez également les indicateurs MSGFLAG_READ et MSGFLAG_UNMODIFIED. La définition de MSGFLAG_UNMODIFIED permet à un message en cours de composition de simuler un message remis. MSGFLAG_UNMODIFIED ne peut être défini que par les clients avant la première sauvegarde d'un message. 
   
-Lorsque vous êtes prêt à effectuer une copie d’un message en attente permanente, appelez [IMAPIProp::SaveChanges](imapiprop-savechanges.md) sur le message et toutes ses pièces jointes. Si vous souhaitez envoyer le message immédiatement, il est inutile d’appeler **SaveChanges**. En interne, l’appel à **SubmitMessage** enregistre le message dans le cadre de son traitement. 
+Lorsque vous êtes prêt à créer une copie permanente d'un message non envoyé, appelez [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) sur le message et toutes ses pièces jointes. Si vous envisagez d'envoyer le message immédiatement, il n'est pas nécessaire d'appeler **SaveChanges**. L'appel à **SubmitMessage** enregistre en interne le message dans le cadre de son traitement. 
   
-Lorsque vous appelez **SaveChanges**, il est conseillé de spécifier l’indicateur KEEP_OPEN_READWRITE, ce qui autorise le message de modification à une date ultérieure. Autres indicateurs définissables incluent FORCE_SAVE, ce qui indique que le message ou une pièce jointe doit être fermé une fois que les modifications soient validées, KEEP_OPEN_READONLY, ce qui indique qu’aucune modification ne seront, et l’indicateur pour autoriser le fournisseur de banque de messages à traitement par lots des demandes des clients, MAPI_DEFERRED_ERRORS.
+Lors de l'appel de **SaveChanges**, il est recommandé de spécifier l'indicateur KEEP_OPEN_READWRITE, qui permet de modifier le message ultérieurement. D'autres indicateurs définissables incluent FORCE_SAVE, qui indique que le message ou la pièce jointe doit être fermé une fois les modifications validées, KEEP_OPEN_READONLY, qui indique qu'aucune autre modification ne sera apportée, et l'indicateur pour autoriser le fournisseur de banque de messages à demandes de client par lots, MAPI_DEFERRED_ERRORS.
   
-Il est essentiel que vous appelez **SaveChanges** pour chaque pièce jointe dans le message avant d’appeler **SaveChanges** pour le message. Si vous ne parvenez pas à enregistrer une pièce jointe, la pièce jointe ne sera pas incluse dans le message lorsqu’il est envoyé et il n’apparaît pas dans la table des pièces jointes du message. Si vous ne parvenez pas à enregistrer le message après avoir enregistré toutes les pièces jointes, le message et les pièces jointes seront perdues. 
+Avant d'appeler **SaveChanges** pour le message, il est essentiel d'appeler **SaveChanges** pour chaque pièce jointe du message. Si vous ne parvenez pas à enregistrer une pièce jointe, elle ne sera pas incluse dans le message lors de son envoi et n'apparaîtra pas dans la table des pièces jointes du message. Si vous ne parvenez pas à enregistrer le message après avoir enregistré toutes les pièces jointes, le message et les pièces jointes seront perdus. 
   
-Lorsque **SaveChanges** est appelée, le fournisseur de banque de messages met à jour les propriétés suivantes : 
+Lorsque **SaveChanges** est appelé, le fournisseur de banque de messages met à jour les propriétés suivantes: 
   
-- **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) répertorie tous les destinataires principales.
+- **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) répertorie tous les destinataires principaux.
     
-- **PR_DISPLAY_TO** répertorie tous les destinataires en copie carbone. 
+- **PR_DISPLAY_TO** répertorie tous les destinataires de copie carbone. 
     
 - **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) répertorie tous les destinataires en copie carbone invisible.
     
 - **PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))
     
-- **PR_MESSAGE_FLAGS** définit MSGFLAG_HASATTACH si une ou plusieurs pièces jointes ont été enregistrées et efface MSGFLAG_UNMODIFIED pour afficher que le message a été modifié. 
+- **PR_MESSAGE_FLAGS** définit MSGFLAG_HASATTACH si une ou plusieurs pièces jointes ont été enregistrées et efface MSGFLAG_UNMODIFIED pour afficher le message a été modifié. 
     
-- **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) contient la taille du message plus récente.
+- **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) contient la taille de message la plus récente.
     
-- **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) permet d’accéder à la table des pièces jointes.
+- **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) permet d'accéder au tableau des pièces jointes.
     
-- **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) permet d’accéder à la table de destinataires.
+- **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) fournit l'accès à la table de destinataires.
     
-Certaines propriétés de message sont généralement fournies par les clients ou fournisseurs de services lors de la création d’un message. Si un client oublie leur définition, il est le fournisseur de magasin de message pour les mettre à jour en temps **que SaveChanges** est appelée. Par exemple, si **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) et des propriétés **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) d’un message ont été définies lorsque le message a été créé, ils ne doivent pas être modifiés à gagner du temps. Toutefois, les fournisseurs de magasins de message négligent les définir lors de la création du message doivent les définir la première fois **SaveChanges** est appelée. 
+Certaines propriétés de message sont généralement fournies par des clients ou des fournisseurs de services lors de la création d'un message. Si un client oublie de les définir, il revient au fournisseur de banque de messages de les mettre à jour au moment de l'appel de **SaveChanges** . Par exemple, si les propriétés **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) et **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) d'un message ont été définies lors de la création du message, elles n'ont pas besoin d'être modifiées lors de l'enregistrement. Toutefois, les fournisseurs de banque de messages qui négligent de les définir lors de la création de messages doivent les définir lors du premier appel de **SaveChanges** . 
   
-Si **SaveChanges** renvoie MAPI_E_CORRUPT_DATA, partent du principe que les données enregistrées sont maintenant perdu. Les fournisseurs de magasins de message qui utilisent un modèle client-serveur de mise en oeuvre peuvent retourner cette valeur lorsqu’une connexion réseau est perdue ou le serveur n’est pas en cours d’exécution. Avant de retourner une erreur à l’utilisateur, essayez d’écrire et enregistrer les données d’une deuxième fois en effectuant un appel à **SetProps** suivi par un autre appel à **SaveChanges**. Si les données sont mis en cache localement, il ne doit pas être un problème. Toutefois, si aucun cache local ou si l’appel de **SaveChanges** deuxième échoue, affiche une erreur pour avertir l’utilisateur au problème. 
+Si **SaveChanges** renvoie MAPI_E_CORRUPT_DATA, partez du principe que les données enregistrées sont maintenant perdues. Les fournisseurs de banques de messages qui utilisent un modèle de serveur client pour leur implémentation peuvent renvoyer cette valeur lorsqu'une connexion réseau est perdue ou que le serveur n'est pas en cours d'exécution. Avant de renvoyer une erreur à l'utilisateur, essayez d'écrire et d'enregistrer les données une seconde fois en appelant **SetProps** suivi d'un autre appel à **SaveChanges**. Si les données sont mises en cache localement, cela ne doit pas être un problème. Toutefois, s'il n'y a pas de cache local ou si le deuxième appel de **SaveChanges** échoue, affiche une erreur pour alerter l'utilisateur. 
   
 

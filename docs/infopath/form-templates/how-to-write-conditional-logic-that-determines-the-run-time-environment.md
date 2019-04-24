@@ -1,5 +1,5 @@
 ---
-title: Écrire une logique conditionnelle qui détermine l’environnement d’exécution
+title: Écrire une logique conditionnelle qui détermine l'environnement d'exécution
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1a43bbdc-666b-47ef-a5e3-cb477a4deb04
 description: La propriété Environment de la classe Application obtient une référence à un objet Environment qui peut être utilisé pour déterminer l'environnement d'exécution (InfoPath, navigateur Web ou navigateur mobile) utilisé pour ouvrir le formulaire.
-ms.openlocfilehash: b854d6a3b65fcc37375480bef9f1909d84407b6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 31bfd8dcd05d52d6c6e162d4aa4838e423d97e0b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299726"
 ---
-# <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Écrire une logique conditionnelle qui détermine l’environnement d’exécution
+# <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Écrire une logique conditionnelle qui détermine l'environnement d'exécution
 
 La propriété [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.Environment.aspx) de la classe [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) obtient une référence à un objet [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.aspx) qui peut être utilisé pour déterminer l'environnement d'exécution (InfoPath, navigateur Web ou navigateur mobile) utilisé pour ouvrir le formulaire. 
   

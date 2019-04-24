@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d9457fea-4b1e-4cf6-9c4b-14c98fbec2a1
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ddec060af73d61a4a39c59b35f0442d6b9b1db66
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 574c7d305f105709aebcd41e30b034fbac1892a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278777"
 ---
 # <a name="pidtaglongtermentryidfromtable-canonical-property"></a>Propriété canonique PidTagLongTermEntryIdFromTable
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Obtient l’identificateur d’entrée à long terme d’un élément.
+Obtient l'identificateur d'entrée à long terme d'un élément.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LONGTERM_ENTRYID_FROM_TABLE  <br/> |
 |Identificateur :  <br/> |0x6670  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Propriétés du tableau  <br/> |
+|Domaine :  <br/> |Propriétés de tableau  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut être utilisée dans une table des matières pour obtenir l’identificateur d’entrée d’un élément comme un identificateur d’entrée à long terme au lieu d’un identificateur d’entrée à court terme. Pour plus d’informations sur les identificateurs à court terme et à long terme, voir **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Cette propriété peut être utilisée dans une table des matières pour obtenir l'identificateur d'entrée d'un élément en tant qu'identificateur d'entrée à long terme au lieu d'un identificateur d'entrée à court terme. Pour plus d'informations sur les identificateurs à long terme et à court terme, voir **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

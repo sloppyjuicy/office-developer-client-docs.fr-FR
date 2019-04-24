@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm82251398
 localization_priority: Normal
 ms.assetid: c437de23-d2e0-469d-62e6-8eb8b8cfea5c
-description: Renvoie un nombre binaire de 16 bits dans lequel chaque bit est défini sur 1 uniquement si le bit correspondant dans nombrebinaire1 et nombrebinaire2 est 1. Sinon, le bit est défini sur 0.
-ms.openlocfilehash: 0b501bb383596e3f2f39ea14f2cb9eb4bf40b25b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie un nombre binaire de 16 bits dans lequel chaque bit est défini sur 1 uniquement si le bit correspondant dans binarynumber1 et binarynumber2 est 1. Dans le cas contraire, le bit prend la valeur 0.
+ms.openlocfilehash: 495ad645a422c0333d02a22c3c600dd1e0d567bd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284468"
 ---
-# <a name="bitand-function"></a>BITAND, fonction
+# <a name="bitand-function"></a>Fonction BITAND
 
-Renvoie un nombre binaire de 16 bits dans lequel chaque bit est défini sur 1 uniquement si le bit correspondant dans nombrebinaire1 et nombrebinaire2 est 1. Sinon, le bit est défini sur 0. 
+Renvoie un nombre binaire de 16 bits dans lequel chaque bit est défini sur 1 uniquement si le bit correspondant dans binarynumber1 et binarynumber2 est 1. Dans le cas contraire, le bit prend la valeur 0. 
   
 ## <a name="syntax"></a>Syntaxe
 
-BITAND (** *nombrebinaire1* **, ** *nombrebinaire2* **) 
+BITAND (* * *binarynumber1* * *, * * *binarynumber2* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _nombre1 binaire_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Premier nombre binaire de 16 bits.  <br/> |
-| _nombre2 binaire_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Deuxième nombre binaire de 16 bits.  <br/> |
+| _valeurs binaire1 binaires_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Premier nombre binaire de 16 bits.  <br/> |
+| _binaire binaire2_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Deuxième nombre binaire de 16 bits.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser cette fonction pour tester et modifier les propriétés d’une forme qui sont stockées sous forme de masque de bits, par exemple, le format de texte d’une forme.
   
 ## <a name="example"></a>Exemple
 
-BITAND(12,6)
+BITAND (12, 6)
   
 Renvoie 4. Le 12 = 0...01100. Le 6 = 0...00110. Donc, BITAND(12,6) = 0...00100.
   

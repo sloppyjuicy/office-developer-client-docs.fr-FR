@@ -1,5 +1,5 @@
 ---
-title: Type complexe Rule_Type (« Visio XML »)
+title: ComplexType Rule_Type ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,21 +7,21 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d023139b-de1f-49f7-86d2-14a683bc5a46
 ms.openlocfilehash: 9af47c47137e51f7189dd3f845d7bd8f35297f0d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283421"
 ---
-# <a name="ruletype-complextype-visio-xml"></a>Type complexe Rule_Type (« Visio XML »)
+# <a name="ruletype-complextype-visio-xml"></a>ComplexType Rule_Type ('Visio XML')
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucune  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
+|**Base d’extension** <br/> |Aucun  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -68,7 +68,7 @@ ms.locfileid: "25393508"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -81,11 +81,11 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Category  <br/> |XSD : String  <br/> |facultatif  <br/> ||Valeurs du type xsd : String.  <br/> |
-|Description  <br/> |XSD : String  <br/> |facultatif  <br/> ||Valeurs du type xsd : String.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|Ignoré  <br/> |type xsd : Boolean  <br/> |facultatif  <br/> ||Valeurs du type de type xsd : Boolean.  <br/> |
-|NameU  <br/> |XSD : String  <br/> |obligatoire  <br/> ||Valeurs du type xsd : String.  <br/> |
-|RuleTarget  <br/> |XSD : int  <br/> |facultatif  <br/> ||Valeurs du type xsd : int.  <br/> |
+|Catégorie  <br/> |xsd: String  <br/> |facultatif  <br/> ||Valeurs du type xsd: String.  <br/> |
+|Description  <br/> |xsd: String  <br/> |facultatif  <br/> ||Valeurs du type xsd: String.  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|Ignoré  <br/> |xsd: Boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd: Boolean.  <br/> |
+|NameU  <br/> |xsd: String  <br/> |obligatoire  <br/> ||Valeurs du type xsd: String.  <br/> |
+|RuleTarget  <br/> |xsd: int  <br/> |facultatif  <br/> ||Valeurs du type xsd: int.  <br/> |
    
 

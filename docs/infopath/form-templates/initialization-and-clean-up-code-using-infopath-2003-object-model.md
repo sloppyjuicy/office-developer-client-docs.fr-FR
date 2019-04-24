@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8d19e8fa-4e5c-40bb-ae89-7a552cc7914d
 description: Par défaut, le fichier FormCode.cs ou FormCode.vb créé pour un projet de modèle de formulaire compatible avec InfoPath 2003 contient tout le code source de la logique de programmation du formulaire. Le modèle du projet génère dans le fichier FormCode.cs ou FormCode.vb une classe similaire aux classes des exemples qui suivent, dans lesquels vous pouvez définir le code d'initialisation et de nettoyage, ainsi que les gestionnaires des événements du formulaire. Les fichiers FormCode.cs et FormCode.vb appliquent l'attribut de niveau assembly System.ComponentModel.DescriptionAttribute qui identifie la classe comme étant la seule classe dans laquelle sont implémentés les gestionnaires d'événements. L'attribut InfoPathNamespace (implémenté par le type InfoPathNamespaceAttribute ) est appliqué à la classe pour identifier les espaces de noms de la sélection du DOM XML utilisés dans la classe. Les espaces de noms référencés dans InfoPathNamespace sont gérés par le système de projet d'InfoPath.
 ms.openlocfilehash: 1ae81c261ad9927195c0a4ac6d80f58a16a6ebf1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299740"
 ---
 # <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>Code d'initialisation et de nettoyage à l'aide du modèle objet InfoPath 2003
 
@@ -126,7 +126,7 @@ Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
 End Sub
 ```
 
-Pour plus d’informations sur la création d’un gestionnaire d’événements, voir [Ajouter un gestionnaire d’événement à l’aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Pour plus d'informations sur la création d'un gestionnaire d'événements, voir [Ajouter un gestionnaire d'événements à l'aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="the-shutdown-method"></a>Méthode _ShutDown
 
@@ -148,7 +148,7 @@ La méthode  `_Shutdown` est la dernière méthode appelée à la fermeture du f
 L'exemple ci-dessous présente l'initialisation d'une connexion à une base de données Microsoft SQL Server dans la méthode  `_Startup` et la fermeture de cette connexion dans la méthode  `_Shutdown`. Pour que cet exemple fonctionne correctement, vous devez d'abord définir une référence à l'assembly System.Data de .NET Framework. Pour cela, cliquez sur **Ajouter une référence** dans le menu **Projet**, puis sélectionnez le composant System.Data.dll sous l'onglet **.NET**. Notez également que la directive  `using System.Data.SqlClient` (ou  `Imports System.Data.SqlClient)` a été ajoutée au début du fichier de code du formulaire pour réduire le nombre de frappes au clavier. 
   
 > [!NOTE]
-> [!REMARQUE] Les utilisateurs de formulaires InfoPath contenant un code de formulaire qui se connecte à une base de données SQL Server peuvent avoir besoin d'autorisations de sécurité en fonction des conditions de déploiement du formulaire et de la manière dont la stratégie de sécurité est définie. Pour plus d’informations sur la sécurité, voir [Modèle de sécurité pour les modèles de formulaires avec Code](about-the-security-model-for-form-templates-with-code.md) et [Configurer les paramètres de sécurité pour les modèles de formulaire avec du Code](how-to-configure-security-settings-for-form-templates-with-code.md). 
+> [!REMARQUE] Les utilisateurs de formulaires InfoPath contenant un code de formulaire qui se connecte à une base de données SQL Server peuvent avoir besoin d'autorisations de sécurité en fonction des conditions de déploiement du formulaire et de la manière dont la stratégie de sécurité est définie. Pour plus d'informations sur la sécurité, consultez [la rubrique relative au modèle de sécurité pour les modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md) et à la [Configuration des paramètres de sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md). 
   
 ```cs
 using System;
@@ -221,5 +221,5 @@ End Namespace
 
 
 
-[Ajout d’un gestionnaire d’événements en utilisant le modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Ajout d'un gestionnaire d'événements à l'aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

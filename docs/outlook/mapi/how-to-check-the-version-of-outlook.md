@@ -5,13 +5,13 @@ ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
-description: 'Dernière modification : 07 décembre 2015'
+description: 'Derni�re modification�: lundi 7 d�cembre 2015'
 ms.openlocfilehash: 0a24ae43c84a0631f355a4d7d8dc98a76519563b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298473"
 ---
 # <a name="check-the-version-of-outlook"></a>Vérification de la version d’Outlook
 
@@ -174,5 +174,5 @@ Error:
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Vue d'ensemble de la programmation MAPI](mapi-programming-overview.md)
+- [Vue d’ensemble de la programmation MAPI](mapi-programming-overview.md)
 

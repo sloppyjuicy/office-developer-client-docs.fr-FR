@@ -11,24 +11,24 @@ api_name:
 api_type:
 - COM
 ms.assetid: c7cb8cf9-7abd-4ee3-b88c-d61695f4ed31
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8d960207e05b33efe55886166ff1322f7f4eedce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 1ae675d1d4adf841e18bbfc8990913136afe8b4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282704"
 ---
 # <a name="sizeddtbllabel"></a>SizedDtblLabel
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLLABEL](dtbllabel.md) pour la description d’un contrôle label et l’étiquette associé d’une longueur spécifiée. 
+Crée une structure nommée qui inclut une structure [DTBLLABEL](dtbllabel.md) pour la description d'un contrôle Label et de l'étiquette associée d'une longueur spécifiée. 
   
 |||
 |:-----|:-----|
-|Spécifié dans le fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe  <br/> |**DTBLLABEL** <br/> |
+|Spécifié dans le fichier d'en-tête:  <br/> |Mapidefs. h  <br/> |
+|Structure associée  <br/> |**DTBLLABEL** <br/> |
    
 ```cpp
 SizedDtblLabel (n, u)
@@ -38,7 +38,7 @@ SizedDtblLabel (n, u)
 
 _n_
   
-> Longueur de l’étiquette. Cela inclut le caractère NULL de fin. 
+> Longueur de l'étiquette. Cela inclut le caractère de fin NULL. 
     
 _u_
   
@@ -46,14 +46,14 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblLabel** vous permet de définir une étiquette d’affichage tableau lorsque le nombre de caractères dans l’étiquette est connu. La nouvelle structure est créée avec les membres suivants : 
+La macro **SizedDtblLabel** vous permet de définir une étiquette de tableau d'affichage lorsque le nombre de caractères dans l'étiquette est connu. La nouvelle structure est créée avec les membres suivants: 
   
 ```cpp
 DTBLLABEL dtbllabel;
 TCHAR lpszLabelName[n];
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblLabel** comme un pointeur de structure **DTBLLABEL** , effectuer le cast suivant : 
+Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblLabel** en tant que pointeur de structure **DTBLLABEL** , effectuez la conversion suivante: 
   
 ```cpp
 lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;

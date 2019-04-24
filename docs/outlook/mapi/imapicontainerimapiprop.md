@@ -11,40 +11,40 @@ api_name:
 api_type:
 - COM
 ms.assetid: d83fdd83-3e86-43c8-a73f-8e9e01b53371
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 38094895fed03884b138b02d4aa1ed87bcc6ea9c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8be3b1857d539f81e42d2ac3e5813afa73513a16
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286719"
 ---
 # <a name="imapicontainer--imapiprop"></a>IMAPIContainer : IMAPIProp
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère les opérations de haut niveau sur les objets conteneur tels que des carnets d’adresses, des listes de distribution et des dossiers. La [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md), [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md), et [IDistList : IMAPIContainer](idistlistimapicontainer.md) **IMAPIContainer**proviennent des interfaces.
+Gère les opérations de haut niveau sur des objets conteneur, tels que des carnets d'adresses, des listes de distribution et des dossiers. Les interfaces [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md), [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)et [IDistList: IMAPIContainer](idistlistimapicontainer.md) sont dérivées de **IMAPIContainer**.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Exposés par :  <br/> |Dossier conteneur de carnet d’adresses et les objets de liste de distribution  <br/> |
-|Implémentée par :  <br/> |Banque de messages, carnet d’adresses et fournisseurs de transport à distance  <br/> |
-|Appelée par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPIContainer  <br/> |
-|Type de pointeur :  <br/> |LPMAPICONTAINER  <br/> |
-|Modèle de transaction :  <br/> |Classe abstraite, jamais implémentée  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Exposé par:  <br/> |Objets de dossier, de carnet d'adresses et de liste de distribution  <br/> |
+|Implémenté par :  <br/> |Banque de messages, carnet d'adresses et fournisseurs de transport à distance  <br/> |
+|Appelé par :  <br/> |Applications clientes  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPIContainer  <br/> |
+|Type de pointeur:  <br/> |LPMAPICONTAINER  <br/> |
+|Modèle de transaction:  <br/> |Classe abstraite, jamais implémentée  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Retourne un pointeur vers la table des matières du conteneur.  <br/> |
-|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Retourne un pointeur vers la table de hiérarchie du conteneur.  <br/> |
-|[OpenEntry](imapicontainer-openentry.md) <br/> |Ouvre un objet dans le conteneur, en retournant un pointeur d’interface pour l’accès des autres.  <br/> |
-|[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Définit les critères de recherche pour le conteneur.  <br/> |
+|[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Renvoie un pointeur vers la table des matières du conteneur.  <br/> |
+|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Renvoie un pointeur vers la table de hiérarchie du conteneur.  <br/> |
+|[OpenEntry](imapicontainer-openentry.md) <br/> |Ouvre un objet dans le conteneur, en renvoyant un pointeur d'interface pour un accès supplémentaire.  <br/> |
+|[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Établit les critères de recherche pour le conteneur.  <br/> |
 |[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtient les critères de recherche pour le conteneur.  <br/> |
    
 |**Propriétés requises**|**Access**|

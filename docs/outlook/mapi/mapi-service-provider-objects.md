@@ -7,49 +7,49 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 85a67216822360bcaf9544389f79980891951757
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0976e986a33d8b96366a84527f227bd05ef7845e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32251604"
 ---
 # <a name="mapi-service-provider-objects"></a>Objets du fournisseur de services MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Nombre d’objets implémentés par les fournisseurs de service. Certains sont utilisées principalement par MAPI et certains sont utilisés par les applications clientes. Certains objets sont implémentées par tous les types de fournisseurs de services ; les autres sont spécifiques à un type de fournisseur unique. Le tableau suivant décrit tous les objets de fournisseur de service.
+Les fournisseurs de services implémentent de nombreux objets. Certains sont utilisés principalement par MAPI et d'autres sont utilisés par les applications clientes. Un petit nombre d'objets est implémenté par tous les types de fournisseurs de services; les autres sont spécifiques à un type de fournisseur unique. Le tableau suivant décrit tous les objets du fournisseur de services.
   
 |**Objet fournisseur de services**|**Description**|
 |:-----|:-----|
-|Conteneur de carnet d’adresses  <br/> |Contient des informations de destinataires pour un fournisseur de carnet d’adresses dans le profil actif ; fournisseurs de carnet d’adresses peuvent avoir un ou plusieurs conteneurs de carnet d’adresses.  <br/> |
-|Pièce jointe  <br/> |Contient des données supplémentaires, comme un fichier ou un objet OLE, à associer à un message.  <br/> |
-|Contrôle  <br/> |Active ou désactive un bouton et démarre lorsque l’utilisateur clique sur le bouton de traitement.  <br/> |
-|Liste de distribution  <br/> |Décrit un ensemble de destinataires de messages individuels.  <br/> |
-|Folder  <br/> |Contient des messages et autres conteneurs de message.  <br/> |
-|Logon  <br/> |Les poignées de demandes fournisseur événement notification et le client.  <br/> |
-|Utilisateur de messagerie  <br/> |Décrit un destinataire d’un message individuel.  <br/> |
+|Conteneur de carnet d'adresses  <br/> |Contient des informations sur les destinataires d'un fournisseur de carnets d'adresses dans le profil actif; les fournisseurs de carnets d'adresses peuvent avoir un ou plusieurs conteneurs de carnet d'adresses.  <br/> |
+|Pièce jointe  <br/> |Contient des données supplémentaires, telles qu'un fichier ou un objet OLE, à associer à un message.  <br/> |
+|Contrôle  <br/> |Active ou désactive un bouton et lance le traitement lorsque l'utilisateur clique sur le bouton.  <br/> |
+|Liste de distribution  <br/> |Décrit un regroupement de destinataires de message individuels.  <br/> |
+|Folder  <br/> |Contient des messages et d'autres conteneurs de messages.  <br/> |
+|Ouverture de session  <br/> |Gère la notification d'événement du fournisseur de services et les demandes des clients.  <br/> |
+|Utilisateur de messagerie  <br/> |Décrit un destinataire individuel d'un message.  <br/> |
 |Message  <br/> |Contient des informations qui peuvent être envoyées à un ou plusieurs destinataires.  <br/> |
-|Banque de messages  <br/> |Agit comme une base de données organisé hiérarchiquement des messages.  <br/> |
-|Provider  <br/> |Les poignées de l’arrêt et démarrage du fournisseur de service.  <br/> |
-|Crochet spouleur  <br/> |Effectue un traitement spécial sur les messages entrants et sortants.  <br/> |
-|Status  <br/> |Fournit l’accès à l’état du fournisseur de services.  <br/> |
-|Table  <br/> |Permet d’accéder à un affichage de synthèse des données d’objet dans un format de ligne et de colonne, similaire à une table de base de données.  <br/> |
+|Banque de messages  <br/> |Fait office de base de données organisée de manière hiérarchique.  <br/> |
+|Fournisseur  <br/> |Gère le démarrage et l'arrêt du fournisseur de services.  <br/> |
+|Hook spouleur  <br/> |Effectue un traitement spécial sur les messages entrants et sortants.  <br/> |
+|Statut  <br/> |Permet d'accéder à l'état du fournisseur de services.  <br/> |
+|Table  <br/> |Permet d'accéder à une vue récapitulative des données d'objet dans le format de ligne et de colonne, semblable à une table de base de données.  <br/> |
    
-Tous les fournisseurs de services de mettre en œuvre un objet de fournisseur et un objet d’ouverture de session. Objets du fournisseur sont strictement pour référence ; ils sont utilisés par MAPI pour contrôler le processus de démarrage et arrêt. Objets d’ouverture de session du service indirectement certaines demandes des clients. Par exemple, le message stocker enregistrement de notification du fournisseur poignées de l’objet d’ouverture de session et les demandes pour ouvrir des objets de banque de messages. 
+Tous les fournisseurs de services implémentent un objet Provider et un objet Logon. Les objets de fournisseur sont strictement destinés à la comptabilité; elles sont utilisées par MAPI pour contrôler les processus de démarrage et d'arrêt. Les objets d'ouverture de session dénombrent indirectement les demandes des clients. Par exemple, l'objet de connexion du fournisseur de banque de messages gère l'enregistrement des notifications et les demandes d'ouverture des objets de banque de messages. 
   
-Objets de fournisseur et d’ouverture de session implémentent une interface différente en fonction du type de fournisseur de services qui fournit l’implémentation. Implémente un fournisseur de magasin de message la [IMSProvider : IUnknown](imsprovideriunknown.md) et [IMSLogon : IUnknown](imslogoniunknown.md) du carnet d’interfaces dans son fournisseur et objets d’ouverture de session, une adresse de fournisseur implémente la [IABProvider : IUnknown](iabprovideriunknown.md) et [IABLogon : IUnknown](iablogoniunknown.md) implémente des interfaces et un fournisseur de transport la [IXPProvider : IUnknown](ixpprovideriunknown.md) et [IXPLogon : IUnknown](ixplogoniunknown.md) interfaces. 
+Les objets fournisseur et ouverture de session implémentent une interface différente selon le type de fournisseur de services qui fournit l'implémentation. Un fournisseur de banque de messages implémente les interfaces [IMSProvider: IUnknown](imsprovideriunknown.md) et [IMSLogon: IUnknown](imslogoniunknown.md) dans ses objets fournisseur et d'ouverture de session, un fournisseur de carnet d'adresses implémente l' [IABProvider: IUnknown](iabprovideriunknown.md) et [IABLogon: IUnknown](iablogoniunknown.md) les interfaces et un fournisseur de transport implémentent les interfaces [IXPProvider: IUnknown](ixpprovideriunknown.md) et [IXPLogon: IUnknown](ixplogoniunknown.md) . 
   
-Objets de raccordement spouleur ou des objets qui filtrent les messages entrants et sortants implémentés par les fournisseurs de raccordement de message.
+Les fournisseurs de raccordement de message implémentent des objets hook de spouleur ou des objets qui filtrent les messages entrants et sortants.
   
-Fournisseurs de services utilisent généralement que quelques objets. Fréquemment, qu’ils utilisent un objet de prise en charge MAPI fournit pour vous aider à implémenter les demandes des clients. Le type de fournisseur qui est à l’aide de l’objet de prise en charge est personnalisé. Pour tous les fournisseurs de services, l’objet de prise en charge inclut des méthodes pour la gestion de notification d’événement, en affichant les propriétés de configuration, les objets de l’ouverture et gestion des erreurs. Le reste des méthodes sont spécifiques à son utilisation ; Il existe des versions personnalisées pour le carnet d’adresses, banque de messages et les fournisseurs de transport et prise en charge de la configuration. Par exemple, l’objet de prise en charge du carnet d’adresses affiche les détails et boîtes de dialogue destinataires personnalisées. La banque de messages prennent en charge d’objet prend en charge la copie et le déplacement de dossiers et les messages. L’objet de prise en charge du fournisseur de transport inclut des méthodes pour faciliter l’interaction avec le spouleur MAPI. 
+Les fournisseurs de services utilisent généralement seulement quelques objets. Ils utilisent le plus souvent un objet de prise en charge fourni par MAPI pour aider à implémenter les demandes des clients. L'objet support est personnalisé pour le type de fournisseur qui l'utilise. Pour tous les fournisseurs de services, l'objet support inclut des méthodes pour la gestion des notifications d'événements, l'affichage des propriétés de configuration, l'ouverture d'objets et la gestion des erreurs. Les autres méthodes sont propres à son utilisation; Il existe des versions personnalisées pour les carnets d'adresses, les banques de messages et les fournisseurs de transport, et pour la prise en charge de la configuration. Par exemple, l'objet de prise en charge du carnet d'adresses affiche des boîtes de dialogue détails et destinataires personnalisés. L'objet support de la Banque de messages prend en charge les opérations de copie et de déplacement pour les dossiers et les messages. L'objet de prise en charge de fournisseur de transport inclut des méthodes pour faciliter l'interaction avec le spouleur MAPI. 
   
-Certains fournisseurs de services utilisent des objets de données de table de données et la propriété : objets utilitaires implémentés par MAPI. Objets de données de table activer les fournisseurs de services gérer les données sous-jacentes d’un tableau. Objets de données de propriété Activer les fournisseurs de services définir l’objet et la propriété accès. 
+Certains fournisseurs de services utilisent des données de table et des objets de données de propriété — objets utilitaires implémentés par MAPI. Les objets de données de tableau permettent aux fournisseurs de services de gérer les données sous-jacentes d'un tableau. Les objets de données de propriété permettent aux fournisseurs de services de définir l'accès aux objets et aux propriétés. 
   
-Fournisseurs de transport qui prennent en charge le Transport Neutral Encapsulation Format TNEF () pour le transfert de propriétés utilisent un objet TNEF implémentés par MAPI pour prendre en charge la [ITnef : IUnknown](itnefiunknown.md) interface. Pour plus d’informations, voir [développement d’un fournisseur de Transport TNEF-Enabled](developing-a-tnef-enabled-transport-provider.md). 
+Les fournisseurs de transport qui prennent en charge le format TNEF (Transport Neutral Encapsulation Format) pour le transfert des propriétés utilisent un objet TNEF que MAPI implémente pour prendre en charge l'interface [ITnef: IUnknown](itnefiunknown.md) . Pour plus d'informations, consultez [la rubrique développement d'un fournisseur de transport avec TNEF](developing-a-tnef-enabled-transport-provider.md). 
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,5 +70,5 @@ Fournisseurs de transport qui prennent en charge le Transport Neutral Encapsulat
 [IXPLogon : IUnknown](ixplogoniunknown.md)
 
 
-[Développement d’un fournisseur de transport TNEF](developing-a-tnef-enabled-transport-provider.md)
+[Développement d'un fournisseur de transport compatible TNEF](developing-a-tnef-enabled-transport-provider.md)
 

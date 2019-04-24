@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm82251448
 localization_priority: Normal
 ms.assetid: 87508007-8ad2-3bcf-55dc-f0207c7c6fe3
-description: 'Renvoie la valeur TRUE si la valeur de cellreference est une erreur à l’exception de # n/a ; dans le cas contraire, elle renvoie la valeur FALSE. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule.'
-ms.openlocfilehash: 651b095e53b7f2690aa9c8774d87d5afcede75be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: "Renvoie TRUE si la valeur de cellreference est un type d'erreur, à l'exception de #N/A; dans le cas contraire, elle renvoie la valeur FALSe. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule."
+ms.openlocfilehash: e2117c38d3cad2408295ed6894aefc78e107596e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297248"
 ---
-# <a name="iserr-function"></a>ISERR, fonction
+# <a name="iserr-function"></a>Fonction ISERR
 
-Renvoie la valeur TRUE si la valeur de _cellreference_ est une erreur à l’exception de # n/a ; dans le cas contraire, elle renvoie la valeur FALSE. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule. 
+Renvoie TRUE si la valeur de _cellreference_ est un type d'erreur, à l'exception de #N/a; dans le cas contraire, elle renvoie la valeur FALSe. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule. 
   
 ## <a name="syntax"></a>Syntaxe
 
-ISERR (** *cellreference* **) 
+ISERR (* * *cellreference* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Référence à une cellule  <br/> |
+| _cellreference_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à une cellule  <br/> |
    
 ## <a name="example-1"></a>Exemple 1
 
 |**Cell**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
-|Cellule Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
-|Scratch.B1  <br/> |=ISERR(Scratch.a1)  <br/> |FALSE  <br/> |
+|Scratch. a1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
+|Scratch. B1  <br/> |= ISERR (Scratch. a1)  <br/> |FALSE  <br/> |
    
 Renvoie FALSE parce que l’erreur #N/A! n’est pas reconnue par la fonction ISERR. Utilisez ISERROR pour trouver tous les types d’erreur.
   
@@ -43,8 +43,8 @@ Renvoie FALSE parce que l’erreur #N/A! n’est pas reconnue par la fonction IS
 
 |**Cell**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
-|Scratch.X1  <br/> |="Maison"  <br/> |#VALEUR!  <br/> |
-|Cellule Scratch.A1  <br/> |=ISERR(Scratch.X1)  <br/> |TRUE  <br/> |
+|Scratch. x1  <br/> |= «Maison»  <br/> |#VALUE!  <br/> |
+|Scratch. a1  <br/> |= ISERR (Scratch. X1)  <br/> |TRUE  <br/> |
    
 Renvoie TRUE parce que l’erreur #VALEUR! est reconnue par la fonction ISERR.
   

@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: Les rubriques dans cette section fournissent des informations sur la création de modèles de formulaires comportant une logique métier écrite en code managé (Visual Basic ou C#) sur base des membres de l'espace de noms Microsoft.Office.InfoPath .
 ms.openlocfilehash: 386542b5c5f4e502f48d97c2a18194638e8e1536
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303730"
 ---
 # <a name="developing-infopath-form-templates-with-code"></a>Développement de modèles de formulaire InfoPath avec code
 
 Les rubriques dans cette section fournissent des informations sur la création de modèles de formulaires comportant une logique métier écrite en code managé (Visual Basic ou C#) sur base des membres de l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 [Mise en route du développement de modèles de formulaire à l'aide de code](getting-started-developing-form-templates-with-code.md)
   
@@ -29,7 +29,7 @@ Les rubriques dans cette section fournissent des informations sur la création d
   
 > Présente le modèle objet InfoPath, ainsi que les tâches de programmation courantes dans le cas des modèles de formulaires avec code managé fonctionnant avec le modèle objet fourni par l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
     
-[Sécurité des modèles de formulaire InfoPath avec code](security-in-infopath-form-templates-with-code.md)
+[Sécurité dans les modèles de formulaire InfoPath avec code](security-in-infopath-form-templates-with-code.md)
   
 > Présente le modèle de sécurité des modèles de formulaires InfoPath qui utilisent du code managé et les procédures de sécurité connexes.
     
@@ -41,7 +41,7 @@ Les rubriques dans cette section fournissent des informations sur la création d
   
 > Traite d'autres concepts qui se rapportent au développement de modèle de formulaire InfoPath.
     
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
 [Portail des développeurs InfoPath (éventuellement en anglais)](https://go.microsoft.com/fwlink?LinkID=11689)
   

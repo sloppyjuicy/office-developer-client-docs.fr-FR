@@ -1,5 +1,5 @@
 ---
-title: Utilisation des vues
+title: Utiliser les affichages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 947b33c3-2acc-45d2-a89d-a712b6bc53df
 description: Lorsque vous utilisez un modèle de formulaire InfoPath, vous pouvez écrire du code permettant d'accéder aux vues du formulaire, puis effectuer une série d'actions sur les données figurant dans les vues. Le modèle d'objet InfoPath fourni par l'espace de noms Microsoft.Office.InfoPath prend en charge l'accès aux vues d'un formulaire par le biais de l'utilisation des membres de la classe View .
-ms.openlocfilehash: 84c32244454e388e50433922c007d556fbef806a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 829375a87513634ef0b38b6d92de9f33a605e89f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303541"
 ---
-# <a name="work-with-views"></a>Utilisation des vues
+# <a name="work-with-views"></a>Utiliser les affichages
 
 Lorsque vous utilisez un modèle de formulaire InfoPath, vous pouvez écrire du code permettant d'accéder aux vues du formulaire, puis effectuer une série d'actions sur les données figurant dans les vues. Le modèle d'objet InfoPath fourni par l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) prend en charge l'accès aux vues d'un formulaire par le biais de l'utilisation des membres de la classe [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) . 
   
@@ -28,22 +28,22 @@ La classe [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Vi
   
 |**Nom**|**Description**|
 |:-----|:-----|
-|Méthode [DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.DisableAutoUpdate.aspx)  <br/> |Désactive la synchronisation automatique entre le document XML sous-jacent d'un formulaire et la vue associée.  <br/> |
-|Méthode [EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.EnableAutoUpdate.aspx)  <br/> |Active la synchronisation automatique entre le document XML sous-jacent d'un formulaire et la vue associée.  <br/> |
-|Méthode [ExecuteAction(ActionType)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx)  <br/> |Exécute une commande d'édition sur le document XML sous-jacent d'un formulaire, sur la base des données sélectionnées dans la vue.  <br/> |
-|Méthode [ExecuteAction (ActionType, chaîne)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx)  <br/> |Exécute une commande d'édition sur le document XML sous-jacent d'un formulaire, sur la base du champ ou groupe spécifié.  <br/> |
-|Méthode [Export](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Export.aspx)  <br/> |Exporte la vue vers un fichier au format spécifié.  <br/> |
-|Méthode [ForceUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ForceUpdate.aspx)  <br/> |Impose la synchronisation entre le document XML sous-jacent d'un formulaire et la vue associée.  <br/> |
-|Méthode [GetContextNodes(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |Obtient une référence à un objet **XPathNodeIterator** qui se répète sur les nœuds XML renvoyés à partir du nœud spécifié.  <br/> |
-|Méthode [GetContextNodes (XPathNavigator, chaîne)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |Obtient une référence à un objet **XPathNodeIterator** qui se répète sur les nœuds XML renvoyés dans la sélection actuelle dans le contrôle lié au champ spécifié ou au groupe.  <br/> |
-|Méthode [GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetSelectedNodes.aspx)  <br/> |Obtient une référence à un objet **XPathNodeIterator** qui se répète sur tous les nœuds XML dans la sélection actuelle d’éléments dans un affichage.  <br/> |
-|Méthode [SelectNodes(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |Sélectionne une plage de nœuds dans une vue, sur la base du premier nœud XML spécifié.   <br/> |
-|Méthode [SelectNodes (XPathNavigator, XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |Sélectionne une plage de nœuds dans une vue, sur la base des premier et dernier nœuds XML spécifiés.  <br/> |
-|Méthode [SelectNodes (XPathNavigator, XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |Sélectionne une plage de nœuds dans une vue, sur la base du nœud XML de départ, du nœud XML de fin et du contrôle spécifiés.   <br/> |
-|Méthode [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx)  <br/> |Sélectionne le texte contenu dans un contrôle modifiable lié au nœud spécifié par l’objet **XPathNavigator** transmis à cette méthode.  <br/> |
-|Méthode [SelectText (XPathNavigator, chaîne)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx)  <br/> |Sélectionne le texte contenu dans un contrôle modifiable lié au nœud spécifié par l’objet **XPathNavigator** transmis à cette méthode et le contrôle spécifié.  <br/> |
-|Méthode [ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ShowMailItem.aspx)  <br/> |Crée un message électronique contenant la vue active.  <br/> |
-|Propriété [ViewInfo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ViewInfo.aspx)  <br/> |Obtient une référence à un objet [ViewInfo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfo.aspx) associé à la vue.  <br/> |
+|[DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.DisableAutoUpdate.aspx) , méthode  <br/> |Désactive la synchronisation automatique entre le document XML sous-jacent d'un formulaire et la vue associée.  <br/> |
+|[EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.EnableAutoUpdate.aspx) , méthode  <br/> |Active la synchronisation automatique entre le document XML sous-jacent d'un formulaire et la vue associée.  <br/> |
+|[ExecuteAction (ActionType),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx) méthode  <br/> |Exécute une commande d'édition sur le document XML sous-jacent d'un formulaire, sur la base des données sélectionnées dans la vue.  <br/> |
+|[ExecuteAction (ActionType, String),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx) méthode  <br/> |Exécute une commande d'édition sur le document XML sous-jacent d'un formulaire, sur la base du champ ou groupe spécifié.  <br/> |
+|[Export](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Export.aspx) , méthode  <br/> |Exporte la vue vers un fichier au format spécifié.  <br/> |
+|[ForceUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ForceUpdate.aspx) , méthode  <br/> |Impose de synchroniser le document XML sous-jacent d'un formulaire avec la vue associée.  <br/> |
+|[GetContextNodes (XPathNavigator),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx) méthode  <br/> |Obtient une référence à un objet **XPathNodeIterator** permettant d'effectuer des itérations dans les nœuds XML renvoyés à partir du nœud spécifié.  <br/> |
+|[GetContextNodes (XPathNavigator, String),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx) méthode  <br/> |Obtient une référence à un objet **XPathNodeIterator** permettant d'effectuer des itérations dans les nœuds XML renvoyés dans la sélection active au sein du contrôle associé au champ ou groupe spécifié.  <br/> |
+|[GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetSelectedNodes.aspx) , méthode  <br/> |Obtient une référence à un objet **XPathNodeIterator** permettant d'effectuer des itérations dans tous les nœuds XML dans la sélection active d'éléments d'une vue.  <br/> |
+|[SelectNodes (XPathNavigator),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) méthode  <br/> |Sélectionne une plage de nœuds dans une vue, sur la base du premier nœud XML spécifié.  <br/> |
+|[SelectNodes (XPathNavigator, XPathNavigator),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) méthode  <br/> |Sélectionne une plage de nœuds dans une vue, sur la base des premier et dernier nœuds XML spécifiés.  <br/> |
+|[SelectNodes (XPathNavigator, XPathNavigator, String),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) méthode  <br/> |Sélectionne une plage de nœuds dans une vue, sur la base du nœud XML de départ, du nœud XML de fin et du contrôle spécifiés.  <br/> |
+|[SelectText (XPathNavigator),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) méthode  <br/> |Sélectionne le texte contenu dans un contrôle modifiable lié au nœud spécifié par l'objet **XPathNavigator** transmis à cette méthode.  <br/> |
+|[SelectText (XPathNavigator, String),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) méthode  <br/> |Sélectionne le texte contenu dans un contrôle modifiable lié au nœud spécifié par l'objet **XPathNavigator** transmis à cette méthode, et le contrôle spécifié.  <br/> |
+|[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ShowMailItem.aspx) , méthode  <br/> |Crée un message électronique contenant la vue active.  <br/> |
+|[ViewInfo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ViewInfo.aspx) , propriété  <br/> |Obtient une référence à un objet [ViewInfo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfo.aspx) associé à la vue.  <br/> |
 |[Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Window.aspx) , propriété  <br/> |Obtient une référence à un objet [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) associé à la vue.  <br/> |
    
 > [!NOTE]

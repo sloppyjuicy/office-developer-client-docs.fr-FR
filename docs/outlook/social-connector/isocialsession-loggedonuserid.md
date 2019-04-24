@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54377ab4-8c69-4d7a-b9b7-278241823c8d
-description: Renvoie une chaîne qui représente l’ID d’utilisateur de réseau social de l’utilisateur actuellement connecté.
-ms.openlocfilehash: dcc81d7acf8a839e7fe3249cc0eb06f96c113b56
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie une chaîne qui représente l'ID d'utilisateur du réseau social de l'utilisateur actuellement connecté.
+ms.openlocfilehash: edb61569829f7690c2284a083d2cbd5cfe2d32a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285286"
 ---
 # <a name="isocialsessionloggedonuserid"></a>ISocialSession::LoggedOnUserID
 
-Renvoie une chaîne qui représente l’ID d’utilisateur de réseau social de l’utilisateur actuellement connecté. 
+Renvoie une chaîne qui représente l'ID d'utilisateur du réseau social de l'utilisateur actuellement connecté. 
   
 ```cpp
 [propget] HRESULT _stdcall LoggedOnUserID([out, retval] BSTR* result);
 ```
 
-## <a name="property-value"></a>Valeur de propriété
+## <a name="property-value"></a>Valeur de la propriété
 
-Chaîne qui contient l’ID d’utilisateur de réseau social de l’utilisateur connecté.
+Chaîne qui contient l'ID d'utilisateur du réseau social de l'utilisateur connecté.
   
 ## <a name="see-also"></a>Voir aussi
 

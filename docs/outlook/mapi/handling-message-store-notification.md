@@ -1,5 +1,5 @@
 ---
-title: Gestion de notification de banque de messages
+title: Gestion des notifications de la banque de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,53 +7,53 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 33002f31c185262bf21b4e74095e0774f55e3bf5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d370603dc7cfc015fe7b2757d1cf0525b3092c5e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299426"
 ---
-# <a name="handling-message-store-notification"></a>Gestion de notification de banque de messages
+# <a name="handling-message-store-notification"></a>Gestion des notifications de la banque de messages
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour vous inscrire pour les notifications de banque de messages, appelez le [IMAPISession::Advise](imapisession-advise.md) ou le [IMsgStore::Advise](imsgstore-advise.md) et spécifiez une banque de messages, un dossier ou un identificateur d’entrée du message dans le contenu du paramètre _lpEntryID_ . Fournisseurs de banque de messages prennent en charge les notifications d’objet et de tableau. Si vous enregistrez avec les objets de banque de message particulier, les tables de hiérarchie et le contenu de dossier qui décrivent ces objets ou les deux objets et tables varie selon les notifications, vous devriez voir, les appels pour effectuer des opérations, et comment le fournisseur de banque de message prend en charge la notification. 
+Pour vous inscrire aux notifications de banque de messages, appelez la méthode [IMAPISession:: Advise](imapisession-advise.md) ou [IMsgStore:: Advise](imsgstore-advise.md) et spécifiez une banque de messages, un dossier ou un identificateur d'entrée de message dans le contenu du paramètre _lpEntryID_ . Les fournisseurs de banques de messages prennent en charge les notifications d'objet et de table. Que vous vous inscriviez avec des objets de banque de messages particuliers, avec les tables de hiérarchie de dossiers et de contenu qui décrivent ces objets, ou avec les objets et les tables, dépend des notifications que vous vous attendez à voir, des appels que vous effectuez pour effectuer des opérations et de la procédure le fournisseur de banque de messages prend en charge la notification. 
   
-Étant donné que MAPI permet une grande flexibilité comment fournisseurs prennent en charge les notifications, sachez que vous ne recevrez pas toujours de même type de notification en réponse à un événement spécifique à partir de tous les fournisseurs de banque de messages. Certains fournisseurs de banque de messages n’acceptent pas les notifications. Pour déterminer si la banque de messages que vous utilisez prend en charge la notification, recherchez le bit STORE_NOTIFY_OK dans sa propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)).
+Étant donné que MAPI autorise la flexibilité de la prise en charge des notifications par les fournisseurs, sachez que vous ne recevrez pas toujours le même type de notification en réponse à un événement particulier de tous les fournisseurs de banques de messages. Certains fournisseurs de banques de messages ne prennent pas en charge les notifications. Pour déterminer si la Banque de messages que vous utilisez prend en charge la notification, recherchez le bit STORE_NOTIFY_OK dans sa propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)).
   
-Une des extrémités du spectre de banque de messages fournisseurs qui prennent en charge les notifications sont les fournisseurs qui génèrent des notifications « riches » ; Ces fournisseurs envoient des notifications descriptives pour tous les inscrit conseiller sources. À l’autre extrémité est le message de fournisseurs de magasins qui prennent en charge les notifications limitées ; Ces fournisseurs d’envoyer des notifications générales pour un nombre limité de sources advise. 
+À une extrémité du spectre des fournisseurs de banques de messages qui prennent en charge la notification sont les fournisseurs qui génèrent des notifications «enrichies»; ces fournisseurs envoient des notifications descriptives pour toutes les sources de notification enregistrées. Aux autres terminaisons sont les fournisseurs de banques de messages qui prennent en charge les notifications limitées; ces fournisseurs envoient des notifications générales pour un nombre restreint de sources de notification. 
   
-Par exemple, si vous copiez un message dans un dossier avec lequel vous avez enregistré pour recevoir les deux objet copié et l’objet déplacé notifications, mais peut ne pas recevoir la notification de l’objet copié. Si vous recevez cela dépend :
+Par exemple, si vous copiez un message dans un dossier avec lequel vous avez été inscrit pour recevoir des notifications de déplacement d'objets et d'objet, il se peut que vous receviez ou non la notification copiée d'objet. Le fait que vous le receviez ou non dépend des éléments suivants:
   
-- La méthode que vous avez appelée pour effectuer la copie. Cela peut être [IMAPIFolder::CopyMessages](imapifolder-copymessages.md), [IMAPIProp::CopyTo](imapiprop-copyto.md)ou [IMAPIProp::CopyProps](imapiprop-copyprops.md).
+- La méthode que vous avez appelée pour effectuer la copie. Il peut s'agir de [IMAPIFolder:: CopyMessages](imapifolder-copymessages.md), [IMAPIProp:: CopyTo](imapiprop-copyto.md)ou [IMAPIProp:: CopyProps](imapiprop-copyprops.md).
     
-- Comment la banque de messages fournisseur implémente la méthode copy.
+- Implémentation par le fournisseur de banque de messages de la méthode de copie.
     
-- Ou non le fournisseur de banque de message prend en charge les notifications de l’objet copié dans les dossiers.
+- Si le fournisseur de banque de messages prend ou non en charge les notifications copiées par l'objet sur les dossiers.
     
-Étant donné qu’aucun recommandations formelles qui décrivent comment implémenter la notification d’événement pour un message ne stockent les fournisseurs, clients ne peuvent pas s’attendent un comportement cohérent. MAPI rend des recommandations quant à la banque de messages notification d’événement fournisseurs implémenter et le tableau suivant indique les recommandations suivantes. Le tableau comme suit : après avoir effectué l’opération dans la première colonne, vous attendre à recevoir une notification du type répertorié dans la deuxième colonne si vous avez enregistré pour ce type de l’objet figurant dans la troisième colonne. Par exemple, une fois que vous avez créé un dossier, vous recevrez une notification _fnevObjectCreated_ uniquement si vous avez enregistré les notifications de _fnevObjectCreated_ avec la banque de messages. 
+Étant donné qu'il n'existe pas de recommandations strictes qui décrivent la manière d'implémenter la notification d'événement pour les fournisseurs de banques de messages, les clients ne peuvent pas être cohérents. MAPI effectue des recommandations sur la façon dont les fournisseurs de banque de messages implémentent la notification d'événement et le tableau suivant présente ces recommandations. Lisez le tableau comme suit: une fois que vous avez effectué l'opération dans la première colonne, attendez la réception d'une notification du type indiqué dans la deuxième colonne si vous avez inscrit pour ce type avec l'objet répertorié dans la troisième colonne. Par exemple, une fois que vous avez créé un dossier, vous ne recevrez une notification _fnevObjectCreated_ que si vous vous êtes inscrit pour les notifications de _fnevObjectCreated_ avec la Banque de messages. 
   
-|**Opération**|**Type d’événement**|**Source de notification**|
+|**Operation**|**Type d’événement**|**Source de notification**|
 |:-----|:-----|:-----|
-|Créez un dossier  <br/> | _fnevObjectCreated_ <br/> |Banque de messages  <br/> |
-|Supprimer un dossier  <br/> | _fnevObjectDeleted_ <br/> |Banque de messages dossier supprimés  <br/> |
-|Déplacer un dossier d’un dossier à un autre  <br/> | _fnevObjectMoved_ <br/> |Dossier de déplacement de banque de messages  <br/> |
-|Copier un dossier d’un dossier à un autre  <br/> | _fnevObjectCopied_ <br/> |Message stocker et copié le dossier (aucune notification _fnevObjectCreated_ envoyé pour la nouvelle copie du dossier)  <br/> |
-|Modifier une propriété de dossier calculé (**PR_SUBFOLDERS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md)), **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)), **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> | _fnevObjectModified_ <br/> |Banque de messages dossier Changed (aucune notification au dossier parent)  <br/> |
+|Créer un dossier  <br/> | _fnevObjectCreated_ <br/> |Banque de messages  <br/> |
+|Supprimer un dossier  <br/> | _fnevObjectDeleted_ <br/> |Dossier supprimé de la Banque de messages  <br/> |
+|Déplacer un dossier d'un dossier à un autre  <br/> | _fnevObjectMoved_ <br/> |Dossier déplacé dans la Banque de messages  <br/> |
+|Copier un dossier d'un dossier à un autre  <br/> | _fnevObjectCopied_ <br/> |Banque de messages et dossier copié (aucune notification _fnevObjectCreated_ envoyée pour la nouvelle copie du dossier)  <br/> |
+|Modification d'une propriété de dossier calculée (**PR_SUBFOLDERS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md)), **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)), **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> | _fnevObjectModified_ <br/> |Dossier de la Banque de messages modifiée (aucune notification au dossier parent)  <br/> |
 |Créer un message  <br/> | _fnevObjectCreated_ <br/> |Banque de messages  <br/> |
-|Supprimer un message, entraînant une modification dans l’objet parent **PR_CONTENT_COUNT** , propriété du folder  <br/> | _fnevObjectDeleted_ <br/> |Banque de messages supprimés message  <br/> |
-|Déplacer un message d’un dossier à un autre  <br/> | _fnevObjectMoved_ <br/> |Message de déplacement de banque de messages  <br/> |
-|Copier un message d’un dossier à un autre  <br/> | _fnevObjectCopied_ <br/> |Banque de messages copiés message (aucun _fnevObjectCreated_ notification de la nouvelle copie du message)  <br/> |
-|Enregistrer un message, entraînant une modification dans l’objet parent **PR_CONTENT_COUNT** , propriété du folder  <br/> | _fnevObjectCreated_ <br/> |Banque de messages sur le premier enregistrement uniquement  <br/> |
-|Enregistrer un message  <br/> | _fnevObjectModified_ <br/> |Banque de messages sur enregistre après le premier enregistrement Changed message (aucune notification au dossier parent)  <br/> |
+|Supprimer un message, entraînant une modification dans la propriété **PR_CONTENT_COUNT** du dossier parent  <br/> | _fnevObjectDeleted_ <br/> |Message de magasin de messages supprimé  <br/> |
+|Déplacer un message d'un dossier à un autre  <br/> | _fnevObjectMoved_ <br/> |Message déplacé de banque de messages  <br/> |
+|Copier un message d'un dossier à un autre  <br/> | _fnevObjectCopied_ <br/> |Message copié de la Banque de messages (aucune notification _fnevObjectCreated_ pour la nouvelle copie du message)  <br/> |
+|Enregistrer un message, entraînant une modification dans la propriété **PR_CONTENT_COUNT** du dossier parent  <br/> | _fnevObjectCreated_ <br/> |Banque de messages lors du premier enregistrement uniquement  <br/> |
+|Enregistrer un message  <br/> | _fnevObjectModified_ <br/> |Banque de messages lors des enregistrements après le premier message enregistrement modifié (aucune notification au dossier parent)  <br/> |
 |Effectuer une opération de recherche  <br/> | _fnevSearchComplete_ <br/> |Dossier de recherche de banque de messages  <br/> |
 |Nouveau message  <br/> | _fnevNewMail_ <br/> |Banque de messages  <br/> |
    
 > [!NOTE]
-> Lorsque vous recevez une notification de l’objet modifié, n’oubliez pas que la partie de tableau de balise de propriété de la structure [OBJECT_NOTIFICATION](object_notification.md) désignée par le paramètre _lpNotifications_ dans l’appel de **OnNotify** peut ou ne peut pas être NULL. Fournisseurs de banque de messages ne sont pas nécessaire à insérer des informations sur la propriété dans ce tableau plus mais pas. Assurez-vous que votre méthode **OnNotify** peut gérer le cas où le pointeur _lpPropTagArray_ est NULL. 
+> Lorsque vous recevez une notification de modification d'objet, n'oubliez pas que la partie de tableau de la balise de propriété de la structure [OBJECT_NOTIFICATION](object_notification.md) vers laquelle pointe le paramètre _lpNotifications_ dans l'appel **OnNotify** peut être null ou non. Les fournisseurs de banque de messages ne sont pas requis pour insérer des informations de propriété dans ce tableau, et la plupart ne le font pas. Assurez-vous que votre méthode **OnNotify** peut gérer le cas où le pointeur _lpPropTagArray_ est null. 
   
-Pour la plupart, si pas toutes les notifications d’objet, mettre à jour l’affichage de l’ou les dossiers concernés.
+Pour la plupart, si ce n'est pas toutes les notifications d'objet, mettez à jour l'affichage du dossier ou des dossiers affectés.
   
 

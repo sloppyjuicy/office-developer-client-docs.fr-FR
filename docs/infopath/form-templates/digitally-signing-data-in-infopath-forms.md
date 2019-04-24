@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7b396d9f-9a47-3170-367f-5d1f0144f927
 description: Une signature numérique est un tampon électronique sécurisé, utilisant le chiffrement, pour l'authentification d'une macro ou d'un document. Une signature numérique confirme que les données proviennent bien du signataire et qu'elles n'ont pas été modifiées depuis la signature. Lorsque des documents ou certaines de leurs données sont signés, la signature est générée et ajoutée au document. De cette façon, les signatures accompagnent toujours les données signées.
-ms.openlocfilehash: dc839d0751d2e7aeb6f9eaccc3a86ce95e5228e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c1f5a1c14c15bc88839dc44d9a5a595d8b52893
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300244"
 ---
 # <a name="digitally-signing-data-in-infopath-forms"></a>Signature numérique de données dans des formulaires InfoPath
 
@@ -49,7 +49,7 @@ Le modèle objet InfoPath inclut une prise en charge pour les signatures numéri
   
 ## <a name="interoperability"></a>Interopérabilité
 
-L'infrastructure des signatures numériques dans InfoPath a été conçue en utilisant la prise en charge des signatures numériques de MSXML5 pour que les signatures numériques InfoPath bénéficient d'une totale interopérabilité avec les signatures numériques MSXML5.
+L’infrastructure des signatures numériques dans InfoPath a été conçue en utilisant la prise en charge des signatures numériques de MSXML5 pour que les signatures numériques InfoPath bénéficient d’une totale interopérabilité avec les signatures numériques MSXML5.
   
 Les formulaires InfoPath signés et les signatures numériques créées par InfoPath fournissent également une totale interopérabilité avec les signatures numériques créées avec Microsoft .NET Framework (à compter de la version 1.1). Les signatures créées par InfoPath peuvent être vérifiées par les applications qui utilisent les classes de vérification .NET Framework. Les signatures créées pour les données hébergées dans des formulaires InfoPath par des applications conçues avec des classes de signatures numériques .NET Framework sont vérifiées sans problèmes par le mécanisme de signature d'InfoPath.
   
@@ -57,5 +57,5 @@ Les formulaires InfoPath signés et les signatures numériques créées par Info
 
 
 
-[Utilisation de Signatures numériques](how-to-work-with-digital-signatures.md)
+[Utiliser des signatures numériques](how-to-work-with-digital-signatures.md)
 

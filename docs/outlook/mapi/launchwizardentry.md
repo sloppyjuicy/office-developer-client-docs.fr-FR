@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5778dffa-f01b-46b3-9c19-862793740918
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f2cc9a6f97fa51a255f8c24c2bb52c912aef7718
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c1509918eb587c17deebf95317cf57b4ab19928a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270188"
 ---
 # <a name="launchwizardentry"></a>LAUNCHWIZARDENTRY
 
@@ -25,13 +25,13 @@ ms.locfileid: "22566249"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction qui démarre l’application Assistant profil en vue d’ajouter un ou plusieurs services de messagerie à un profil. 
+Définit une fonction qui démarre l'application Assistant Profil pour l'ajout d'un ou plusieurs services de messagerie à un profil. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiwz.h  <br/> |
-|Fonction implémentée par :  <br/> |MAPI  <br/> |
-|Fonction appelée par :  <br/> |Applications clientes  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiwz. h  <br/> |
+|Fonction définie implémentée par:  <br/> |MAPI  <br/> |
+|Fonction définie appelée par:  <br/> |Applications clientes  <br/> |
    
 ```cpp
 HRESULT LAUNCHWIZARDENTRY(
@@ -47,43 +47,43 @@ HRESULT LAUNCHWIZARDENTRY(
 
  _hParentWnd_
   
-> [in] Handle de fenêtre parent de l’appelant. Si l’appelant ne dispose pas d’une fenêtre parent, le paramètre _hParentWnd_ doit être NULL. 
+> dans Handle de la fenêtre parente de l'appelant. Si l'appelant n'a pas de fenêtre parente, le paramètre _hParentWnd_ doit être null. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs indiquant les options de l’Assistant profil. Les indicateurs suivants peuvent être définis :
+> dans Masque de réindicateur des indicateurs indiquant les options de l'Assistant Profil. Les indicateurs suivants peuvent être définis:
     
 MAPI_PW_ADD_SERVICE_ONLY 
   
-> L’Assistant profil consiste à ajouter uniquement les services de message répertoriés via le paramètre _lppszServiceNameToAdd_ et n’affiche pas la page de sélection de services de messagerie. 
+> L'Assistant Profil est d'ajouter uniquement les services de messagerie à l'aide du paramètre _lppszServiceNameToAdd_ et de ne pas afficher sa page de sélection des services de messagerie. 
     
 MAPI_PW_FIRST_PROFILE 
   
-> Le profil doit être créé est la première pour cette station de travail. 
+> Le profil à créer est le premier de cette station de travail. 
     
 MAPI_PW_HIDE_SERVICES_LIST 
   
-> Page de l’Assistant profil de sélection de services de messagerie ne doit pas être affichée. 
+> La page de l'Assistant Profil pour la sélection des services de message ne doit pas être affichée. 
     
 MAPI_PW_LAUNCHED_BY_CONFIG 
   
-> L’Assistant profil a été lancé par l’application de panneau de configuration. 
+> L'Assistant Profil a été lancé par l'application de configuration du panneau de configuration. 
     
 MAPI_PW_PROVIDER_UI_ONLY 
   
-> Seules les boîtes de dialogue de configuration des fournisseurs de services doivent être affichés et pages de l’Assistant profil ne doivent pas apparaître. Cet indicateur peut être défini uniquement si l’indicateur MAPI_PW_ADD_SERVICE_ONLY est défini. 
+> Seuls les boîtes de dialogue de configuration des fournisseurs de services doivent s'afficher et les pages de l'Assistant Profil ne doivent pas apparaître. Cet indicateur ne peut être défini que si l'indicateur MAPI_PW_ADD_SERVICE_ONLY est défini. 
     
  _lppszServiceNameToAdd_
   
-> [in] Pointeur vers un tableau de chaînes contenant les noms des services de message à ajouter au profil. Le tableau doit se terminer par une valeur NULL. 
+> dans Pointeur vers un tableau de chaînes contenant les noms des services de message à ajouter au profil. Le tableau doit se terminer par une valeur NULL. 
     
  _cbBufferMax_
   
-> [in] Taille de la mémoire tampon vers laquelle pointe le paramètre _lpszNewProfileName_ . 
+> dans Taille de la mémoire tampon vers laquelle pointe le paramètre _lpszNewProfileName_ . 
     
  _lpszNewProfileName_
   
-> [out] Pointeur vers un tampon de chaîne dans laquelle la fonction **LAUNCHWIZARDENTRY** renvoie le nom du profil créé. 
+> remarquer Pointeur vers une mémoire tampon de chaîne où la fonction basée sur **LAUNCHWIZARDENTRY** renvoie le nom du profil créé. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -93,24 +93,24 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur d’origine inattendu ou inconnu a empêché l’opération de se terminer. Impossibilité d’accéder au profil par défaut et une erreur possibilités : échec d’initialisation du sous-système MAPI pour l’Assistant profil, renvoyer à partir de la boîte de dialogue.
+> Une erreur d'origine inattendue ou inconnue a empêché l'opération de s'exécuter. Les possibilités incluent l'échec de l'initialisation du sous-système MAPI pour l'Assistant Profil, l'impossibilité d'accéder au profil par défaut et une erreur de retour dans la boîte de dialogue.
     
 ## <a name="remarks"></a>Remarques
 
-L’implémentation MAPI du prototype de la fonction **LAUNCHWIZARDENTRY** est le point d’entrée dans l’application Assistant profil MAPI. Ce point d’entrée **LaunchWizard**les noms MAPI. 
+L'implémentation MAPI du prototype de fonction **LAUNCHWIZARDENTRY** est le point d'entrée dans l'application Assistant Profil MAPI. MAPI nomme ce point d'entrée **LaunchWizard**. 
   
-Lorsque l’indicateur MAPI_PW_ADD_SERVICE_ONLY est défini dans le paramètre _ulFlags_ , les règles suivantes s’appliquent : 
+Lorsque l'indicateur MAPI_PW_ADD_SERVICE_ONLY est défini dans le paramètre _ulFlags_ , les règles suivantes s'appliquent: 
   
-- L’indicateur MAPI_PW_LAUNCHED_BY_CONFIG empêche la page d’accueil de s’afficher. 
+- L'indicateur MAPI_PW_LAUNCHED_BY_CONFIG empêche l'affichage de la page d'accueil. 
     
-- Les indicateurs MAPI_PW_HIDE_SERVICES_LIST et MAPI_PW_PROVIDER_UI_ONLY sont utiles uniquement lorsqu’il n’existe aucun profil par défaut. Dans ce cas, ces indicateurs déterminent quel Assistant profil page doit s’afficher. 
+- Les indicateurs MAPI_PW_HIDE_SERVICES_LIST et MAPI_PW_PROVIDER_UI_ONLY ne sont utiles que s'il n'y a pas de profil par défaut. Dans ce cas, ces indicateurs déterminent la page de l'Assistant Profil qui doit être affichée. 
     
-- Si un profil par défaut existe, aucune des pages de l’Assistant profil doivent être affichées. 
+- Si un profil par défaut existe, aucune des pages de l'Assistant Profil n'est affichée. 
     
-- Si un profil par défaut existe, service qu’un message est répertorié par le biais du paramètre _lppszServiceNameToAdd_ , et que le service de message est déjà dans le profil par défaut, l’Assistant profil renvoie S_OK sans rien ajouter au profil. 
+- S'il existe un profil par défaut, un seul service de messagerie est répertorié via le paramètre _lppszServiceNameToAdd_ , et ce service de messagerie se trouve déjà dans le profil par défaut, l'Assistant Profil renvoie S_OK sans rien ajouter au profil. 
     
-Pour chaque service de message à ajouter au profil, l’Assistant profil appelle la fonction de point d’entrée du service basée sur le prototype [MSGSERVICEENTRY](msgserviceentry.md) . Pour chaque fournisseur de services sélectionné à partir d’un service de message à ajouter au profil, l’Assistant profil appelle la fonction de point d’entrée du fournisseur basée sur le prototype [WIZARDENTRY](wizardentry.md) . Lors de la configuration interactive, tous les événements dans les pages de propriétés utilisateur, l’Assistant de profil appeler la fonction de rappel du fournisseur basée sur le prototype [SERVICEWIZARDDLGPROC](servicewizarddlgproc.md) . 
+Pour que chaque service de messagerie soit ajouté au profil, l'Assistant Profil appelle la fonction de point d'entrée du service en fonction du prototype [MSGSERVICEENTRY](msgserviceentry.md) . Pour chaque fournisseur de services sélectionné dans un service de messagerie à ajouter au profil, l'Assistant Profil appelle la fonction de point d'entrée du fournisseur en fonction du prototype [WIZARDENTRY](wizardentry.md) . Lors de la configuration interactive, chaque événement utilisateur dans les pages de propriétés fait en sorte que l'Assistant Profil appelle la fonction de rappel du fournisseur en fonction du prototype [SERVICEWIZARDDLGPROC](servicewizarddlgproc.md) . 
   
-Si un fournisseur de services en cours d’ajout au profil prend en charge les pages de l’Assistant profil, il doit autoriser la configuration par programme du profil.
+Si un fournisseur de services ajouté au profil prend en charge les pages de l'Assistant Profil, il doit autoriser la configuration par programme du profil.
   
 

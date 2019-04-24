@@ -1,31 +1,31 @@
 ---
-title: 'Procédure pas à pas : Créer et déboguer un modèle de formulaire de base à l’aide du modèle objet InfoPath'
+title: "Procédure pas à pas: création et débogage d'un modèle de formulaire de base à l'aide du modèle objet InfoPath"
 manager: soliver
 ms.date: 01/13/2015
 ms.audience: Developer
 keywords:
-- form templates [infopath 2007], walkthroughs,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2003-compatible form templates, walkthroughs
+- modèles de formulaire [InfoPath 2007], procédures pas à pas, modèles de formulaire [InfoPath 2007], création de modèles de formulaires compatibles InfoPath 2003, InfoPath 2003
 localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
-description: Cette rubrique présente une procédure pas à pas de création d'un modèle de formulaire avec code managé InfoPath basique qui fonctionne avec le modèle objet compatible InfoPath 2003 fourni par l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust .
-ms.openlocfilehash: 3939cfcfdf2a8683fe614c5f49cc8b2719484ff7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cette rubrique fournit une procédure pas à pas pour la création d'un modèle de formulaire InfoPath avec code managé de base qui fonctionne avec le modèle objet compatible InfoPath 2003 fourni par l'espace de noms Microsoft. Office. Interop. InfoPath. SemiTrust.
+ms.openlocfilehash: c559aedad5c62134c796196c63c1a84f70c4dc3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303198"
 ---
-# <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>Procédure pas à pas : Créer et déboguer un modèle de formulaire de base à l’aide du modèle objet InfoPath
+# <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>Procédure pas à pas: création et débogage d'un modèle de formulaire de base à l'aide du modèle objet InfoPath
 
-Cette rubrique présente une procédure pas à pas de création d'un modèle de formulaire avec code managé InfoPath basique qui fonctionne avec le modèle objet compatible InfoPath 2003 fourni par l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
+Cette rubrique fournit une procédure pas à pas pour la création d'un modèle de formulaire InfoPath avec code managé de base qui fonctionne avec le modèle objet compatible InfoPath 2003 fourni par l'espace de noms [Microsoft. Office. Interop. InfoPath. SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
   
 ## <a name="hello-world"></a>Hello World
 
-Dans l'exemple qui suit, vous allez apprendre à afficher une boîte de dialogue d'alerte simple à l'aide de la méthode [Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) du modèle objet compatible InfoPath 2003. 
+Dans l'exemple suivant, vous allez apprendre à afficher une boîte de dialogue d'alerte simple à l'aide de la méthode [Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) du modèle objet compatible avec InfoPath 2003. 
   
-### <a name="create-a-new-infopath-form-template-that-works-with-the-infopath-2003-compatible-object-model"></a>Création d'un nouveau modèle de formulaire InfoPath qui fonctionne avec le modèle objet compatible InfoPath 2003
+### <a name="create-a-new-infopath-form-template-that-works-with-the-infopath-2003-compatible-object-model"></a>Création d'un nouveau modèle de formulaire InfoPath qui fonctionne avec le modèle objet compatible InfoPath 2003
 
-1. Créer un nouveau modèle de formulaire qui fonctionne avec le modèle objet compatible InfoPath 2003, comme décrit dans [créer un modèle de formulaire à l’aide du modèle objet InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
+1. Créez un modèle de formulaire qui fonctionne avec le modèle objet compatible avec InfoPath 2003, comme décrit dans [créer un modèle de formulaire à l'aide du modèle objet infopath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
     
 2. Appelez le projet de modèle de formulaire HelloWorld et enregistrez-le. 
     
@@ -37,19 +37,19 @@ Dans l'exemple qui suit, vous allez apprendre à afficher une boîte de dialogue
     
 2. Cliquez avec le bouton droit sur le contrôle, puis cliquez sur **Propriétés du bouton**.
     
-3. Modifiez l' **Étiquette** en Alerte.
+3. Modifiez l' **étiquette** en alerte.
     
-4. Modifiez l' **ID** en IDAlerte.
+4. Remplacez l' **ID** par «alertiesd».
     
 5. Cliquez sur **Modifier le code du formulaire**.
     
-   Un squelette de gestionnaire d'événements pour l'événement [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) est créé et le focus bascule sur l'éditeur de code dans Visual Studio 2012. Pour plus d’informations sur l’utilisation des gestionnaires d’événements, voir [Ajouter un gestionnaire d’événement à l’aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
+   Un squelette de gestionnaire d'événements pour l'événement [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) est créé et le focus est déplacé vers l'éditeur de code dans Visual Studio 2012. Pour plus d'informations sur l'utilisation des gestionnaires d'événements, reportez-vous [à la rubrique ajouter un gestionnaire d'événements à l'aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
     
    Vous pouvez maintenant ajouter du code de formulaire au gestionnaire d'événements du bouton.
     
 ### <a name="add-form-code-to-the-event-handler"></a>Ajout de code de formulaire au gestionnaire d'événements
 
-1. Dans le gestionnaire d'événements **OnClick**, tapez le code suivant : 
+1. Dans le gestionnaire d'événements **OnClick**, tapez le code suivant : 
     
    ```cs
     thisXDocument.UI.Alert("Hello World!");
@@ -59,7 +59,7 @@ Dans l'exemple qui suit, vous allez apprendre à afficher une boîte de dialogue
     thisXDocument.UI.Alert("Hello World!")
    ```
 
-   Notez qu'une liste déroulante Microsoft IntelliSense s'affiche chaque fois que vous entrez un point dans la ligne de code. Le gestionnaire d'événements entier devrait ressembler à ce qui suit :
+   Notez qu'une liste déroulante Microsoft IntelliSense s'affiche chaque fois que vous entrez un point dans la ligne de code. Le gestionnaire d'événements entier devrait ressembler à ce qui suit :
     
    ```cs
     [InfoPathEventHandler(MatchPath="AlertID", EventType=InfoPathEventType.OnClick)]
@@ -77,19 +77,19 @@ Dans l'exemple qui suit, vous allez apprendre à afficher une boîte de dialogue
    ```
 
    > [!NOTE]
-   > [!REMARQUE] Au lieu d'employer la méthode **Alert**, vous pouvez utiliser la méthode **MessageBox.Show** de l'espace de noms **System.Windows.Forms** pour afficher un message. Pour ce faire, il convient d'ajouter une référence à l'assembly System.Windows.Forms, d'ajouter  `using System.Windows.Forms;` ou  `Imports System.Windows.Forms` aux directives au début de votre fichier de code, puis d'entrer une ligne de code comme celle-ci :  `MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
+   > Au lieu d'employer la méthode **Alert**, vous pouvez utiliser la méthode **MessageBox.Show** de l'espace de noms **System.Windows.Forms** pour afficher un message. Pour ce faire, vous devez ajouter une référence à l'assembly System. Windows. Forms `using System.Windows.Forms;` , `Imports System.Windows.Forms` ajouter ou aux directives au début de votre fichier de code, puis taper une ligne de code semblable à la suivante:`MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
   
 2. Basculez dans la fenêtre du mode Création d'InfoPath, puis cliquez sur le bouton **Aperçu** sous l'onglet **Accueil**. 
     
 3. Dans la fenêtre **Aperçu**, cliquez sur le bouton **Alerte**. 
     
-   Un message s'affiche avec le texte « Hello World! ».
+   Un message s'affiche avec le texte « Hello World! ».
     
    La procédure suivante illustre l'ajout de points d'arrêt pour le débogage dans le code de votre formulaire.
     
 ### <a name="debug-form-code"></a>Débogage de code de formulaire
 
-1. Dans l'Éditeur de code, cliquez sur la barre grise à droite de la ligne :
+1. Dans l'Éditeur de code, cliquez sur la barre grise à droite de la ligne :
     
    ```cs
     thisXDocument.UI.Alert("Hello World!");
@@ -109,11 +109,11 @@ Dans l'exemple qui suit, vous allez apprendre à afficher une boîte de dialogue
     
 4. Dans le menu **Débogage**, cliquez sur **Pas à pas principal** (ou appuyez sur Maj+F8 pour continuer pas à pas dans le code). 
     
-   Le code de la méthode **Alert** s'exécute et l'alerte « Hello World! » s'affiche dans la fenêtre **Aperçu** d'InfoPath. 
+   Le code de la méthode **Alert** est exécuté, et «Hello World!». l'alerte s'affiche dans la fenêtre **Aperçu** d'InfoPath. 
     
 ## <a name="getting-the-current-users-name"></a>Récupération du nom d'utilisateur actuel
 
-Avec les classes .NET Framework, vous pouvez accéder aux fonctionnalités qui n'étaient pas facilement disponibles depuis un script. Dans cet exemple, vous allez apprendre comment utiliser les classes .NET Framework pour récupérer le nom de l'utilisateur actuel.
+Avec les classes .NET Framework, vous pouvez accéder aux fonctionnalités qui n'étaient pas facilement disponibles depuis un script. Dans cet exemple, vous allez apprendre comment utiliser les classes .NET Framework pour récupérer le nom de l'utilisateur actuel.
   
 ### <a name="add-an-onload-event-handler"></a>Ajout d'un gestionnaire d'événements OnLoad
 
@@ -129,11 +129,11 @@ Avec les classes .NET Framework, vous pouvez accéder aux fonctionnalités qui n
     
 6. Sous l'onglet **Développeur**, cliquez sur **Événement Sur chargement (OnLoad)**.
     
-   Ce faisant, vous créez un gestionnaire d'événements pour l'événement [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) , et le focus bascule sur l'Éditeur de code. Le code de ce gestionnaire d'événements sera appelé à chaque chargement du formulaire. La procédure suivante illustre l'ajout d'un code de formulaire qui récupère le nom de l'utilisateur et le place dans le gestionnaire d'événements. 
+   Cette opération crée un gestionnaire d'événements pour l'événement [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) et le focus passe à l'éditeur de code. Le code de ce gestionnaire d'événements sera appelé à chaque chargement du formulaire. La procédure suivante illustre l'ajout d'un code de formulaire qui récupère le nom de l'utilisateur et le place dans le gestionnaire d'événements. 
     
-### <a name="add-form-code"></a>Ajout de code de formulaire
+### <a name="add-form-code"></a>Ajout de code de formulaire 
 
-1. Dans le gestionnaire d'événements **OnLoad**, tapez le code suivant : 
+1. Dans le gestionnaire d'événements **OnLoad**, tapez le code suivant : 
     
    ```cs
     // Store an XML DOM node as a local variable.
@@ -166,11 +166,11 @@ Avec les classes .NET Framework, vous pouvez accéder aux fonctionnalités qui n
     
    La zone de texte employé doit maintenant contenir votre nom d'utilisateur. 
     
-Pour plus d’informations sur la façon de déployer un modèle de formulaire avec code managé, voir [Déployer des modèles de formulaire InfoPath avec Code](how-to-deploy-infopath-form-templates-with-code.md). Pour plus d'informations sur le modèle objet InfoPath et les tâches de programmation courantes qui fonctionnent avec le modèle objet compatible InfoPath 2003, voir [Présentation du modèle objet InfoPath 2003](understanding-the-infopath-2003-object-model.md). 
+Pour plus d'informations sur le déploiement d'un modèle de formulaire avec code managé, voir [déployer des modèles de formulaire InfoPath avec code](how-to-deploy-infopath-form-templates-with-code.md). Pour plus d'informations sur le modèle objet InfoPath et les tâches de programmation courantes dans les modèles de formulaires avec code managé qui fonctionnent avec le modèle objet compatible avec InfoPath 2003, consultez [la rubrique Understanding the infopath 2003 Object Model](understanding-the-infopath-2003-object-model.md). 
   
 ## <a name="see-also"></a>Voir aussi
 
 - [Code d'initialisation et de nettoyage à l'aide du modèle objet InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
 - [Modèles objet compatibles avec InfoPath 2003](infopath-2003-compatible-object-models.md)
-- [Ajouter un gestionnaire d’événements à l’aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+- [Ajout d'un gestionnaire d'événements à l'aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

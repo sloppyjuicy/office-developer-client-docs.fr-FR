@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2c4a933-b371-43ec-af0f-6140d8b5c7ea
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: adef294255b8f29fc3d4f2d87bd0d7b10009aa57
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 45d19b35f05b3347e78973bb72e526a2198d9bad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278700"
 ---
 # <a name="pidtagstoreproviders-canonical-property"></a>Propriété canonique PidTagStoreProviders
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’identificateurs de fournisseurs de magasins de message dans le profil actif.
+Contient une liste d'identificateurs de fournisseurs de banques de messages dans le profil actif.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une liste d’identificateurs de fournisseurs de magasins de message da
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé pour une utilisation par MAPI.
+N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: Office pour Android s'intègre à la structure d'accès au stockage Android, permettant à Office d'ouvrir les fichiers stockés par un autre fournisseur de documents.
 ms.openlocfilehash: 24d7e48106aeb5e58a668b94cbde00eaa9175230
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300349"
 ---
 # <a name="office-for-android-support-for-the-android-storage-access-framework"></a>Prise en charge d'Office pour Android pour la structure d'accès au stockage Android
 

@@ -8,18 +8,18 @@ ms.assetid: cceb8dcb-5ce1-4c32-b057-6201b62a646f
 description: Compare deux expressions selon la relation supérieur ou égal à.
 localization_priority: Priority
 ms.openlocfilehash: 76472544be950c68f3b5d42fe13b3040e9268f48
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302498"
 ---
 # <a name="greater-than-or-equal-to-access-custom-web-app"></a>Supérieur ou égal à (application web personnalisée Access)
 
 Compare deux expressions selon la relation supérieur ou égal à.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-FR/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="syntax"></a>Syntaxe
 

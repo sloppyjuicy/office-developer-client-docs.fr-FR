@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 031b7e18-59b2-445c-a747-348fda92f458
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 36b8381e2bf98f5ddcb88a54b56f2b5c91b3b668
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ab1586696a4b72aa9e88545c2069c3f8b5d22d72
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280046"
 ---
 # <a name="notifkey"></a>NOTIFKEY
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Identifie de manière unique une connexion entre un récepteur de notifications, une source de notifications et MAPI.
+Identifie de manière unique une connexion entre un récepteur de notification, une source de notification et MAPI.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
    
 ```cpp
 typedef struct
@@ -44,23 +44,23 @@ typedef struct
 
  **cb**
   
-> Nombre d’octets dans le membre de **Carnet d’adresses** . 
+> Nombre d'octets dans le membre **AB** . 
     
- **Carnet d’adresses**
+ **opér**
   
-> Tableau d’octets décrivant la clé de notification.
+> Tableau d'octets qui décrivent la clé de notification.
     
 ## <a name="remarks"></a>Remarques
 
-Les méthodes [Subscribe](imapisupport-subscribe.md) et [notifier](imapisupport-notify.md) de [IMAPISupport](imapisupportiunknown.md) permet de générer des notifications pour le récepteur de notifications appropriées sur la source advise appropriée la structure **NOTIFKEY** . 
+Les méthodes [subscribe](imapisupport-subscribe.md) et [Notify](imapisupport-notify.md) de [IMAPISupport](imapisupportiunknown.md) utilisent la structure **NOTIFKEY** pour générer des notifications au récepteur de notification approprié concernant la source de notification appropriée. 
   
-Fournisseurs de services de génèrent des clés de notification lorsque leur méthode **Advise** est appelée et qu’ils souhaitent **s’abonner** pour gérer l’inscription de notification et l’envoi suivants de notifications d’appel. Une clé de notification peut être l’identificateur d’entrée de la source advise ou elle peut être n’importe quel autre élément identification comme une constante. Par exemple, un fournisseur de magasin de message peut utiliser le chemin d’accès d’un dossier en tant que sa clé de notification. 
+Les fournisseurs de services génèrent des clés de notification lorsque leur méthode de **Conseil** est appelée et qu'ils veulent appeler l' **abonnement** pour gérer l'inscription des notifications et l'envoi ultérieur de notifications. Une clé de notification peut être l'identificateur d'entrée de la source de notification ou il peut s'agir d'un autre élément d'identification tel qu'une constante. Par exemple, un fournisseur de banque de messages peut utiliser le chemin d'accès d'un dossier comme clé de notification. 
   
-La clé de notification devrait fonctionner sur plusieurs processus. 
+La clé de notification doit fonctionner sur plusieurs processus. 
   
-Les exigences de l’étendue d’une clé de notification ressemblent à celles d’un identificateur d’entrée à long terme. Toutefois, contrairement à un identificateur d’entrée, une clé de notification doit être binaire comparable. En règle générale, une clé de notification inclut une valeur **GUID** définie par le fournisseur de suivi d’autres informations spécifiques au fournisseur uniques à l’objet. 
+Les exigences d'étendue pour une clé de notification ressemblent à celles d'un identificateur d'entrée à long terme. Toutefois, contrairement à un identificateur d'entrée, une clé de notification doit être comparable au format binaire. En règle générale, une clé de notification inclut une valeur **GUID** définie par le fournisseur de services, suivie d'autres informations propres au fournisseur, propres à l'objet. 
   
-Pour une description de l’utilisation de la structure **NOTIFKEY** pour gérer les connexions entre les récepteurs de notifications et les objets qui génèrent des notifications, voir [Prise en charge de Notification d’événement](supporting-event-notification.md). 
+Pour plus d'informations sur l'utilisation de la structure **NOTIFKEY** pour gérer les connexions entre les récepteurs de notification et les objets qui génèrent les notifications, consultez la rubrique [prise en charge](supporting-event-notification.md)de la notification d'événement. 
   
 ## <a name="see-also"></a>Voir aussi
 

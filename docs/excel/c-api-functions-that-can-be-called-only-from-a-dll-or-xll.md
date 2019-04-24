@@ -1,28 +1,28 @@
 ---
-title: Fonctions de l’API C qui peuvent être appelées uniquement à partir d’une DLL ou XLL
+title: Fonctions de l'API C qui ne peuvent être appelées qu'à partir d'une DLL ou d'une XLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- fonctions [excel 2007], api c appelée à partir de dll ou xll
+- fonctions [Excel 2007], API c appelée à partir de dll ou XLL
 localization_priority: Normal
 ms.assetid: 87c9e75b-c364-4428-a169-010886313b85
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 7935d86d1c0a460bcbec85157429d99242a73620
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6d2d3c824c482e3726cdaefa869393002a80f44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301651"
 ---
-# <a name="c-api-functions-that-can-be-called-only-from-a-dll-or-xll"></a>Fonctions de l’API C qui peuvent être appelées uniquement à partir d’une DLL ou XLL
+# <a name="c-api-functions-that-can-be-called-only-from-a-dll-or-xll"></a>Fonctions de l'API C qui ne peuvent être appelées qu'à partir d'une DLL ou d'une XLL
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-L’API C fournit des fonctions de rappel de Microsoft Excel 15 qui peuvent être appelées uniquement à l’aide de la **Excel4**, **Excel4v**, **Excel12**ou fonctions **Excel12v** (ou une de ces fonctions indirectement en utilisant les fonctions Framework **Excel **ou **Excel12f**). Cela signifie qu’ils ne peuvent être appelées à partir d’une DLL ou XLL.
+L'API C fournit 15 fonctions de rappel Microsoft Excel qui ne peuvent être appelées qu'à l'aide des fonctions **Excel4**, **Excel4v**, **Excel12**ou **Excel12v** (ou par l'une de ces fonctions indirectement à l'aide des fonctions de l'infrastructure **Excel **ou **Excel12f**). Cela signifie qu'ils peuvent uniquement être appelés à partir d'un fichier DLL ou XLL.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 [xlAbort](xlabort.md)
   

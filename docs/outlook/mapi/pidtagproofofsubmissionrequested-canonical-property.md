@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: c7b21c90-7fdc-48e4-8197-7675978c5d3b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 427eed260dbe56e2a83d7ddccff3eb2cebe8c27c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a0617029fd13cf6968936c97faacedeb333ede9e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286514"
 ---
 # <a name="pidtagproofofsubmissionrequested-canonical-property"></a>Propriété canonique PidTagProofOfSubmissionRequested
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une preuve ASN.1 de la valeur de la présentation.
+Contient une preuve de la valeur d'envoi du APE. 1.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROOF_OF_SUBMISSION_REQUESTED  <br/> |
-|Identificateur :  <br/> |0 x 0028  <br/> |
+|Identificateur :  <br/> |0x0028  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété correspond à un attribut X.400 envoi enveloppe par message.
+Cette propriété correspond à l'attribut d'enveloppe de soumission X. 400 par message.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

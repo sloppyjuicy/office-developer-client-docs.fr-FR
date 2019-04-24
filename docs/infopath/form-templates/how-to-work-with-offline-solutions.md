@@ -1,5 +1,5 @@
 ---
-title: Travailler avec des solutions en mode hors connexion
+title: Utilisation des solutions hors ligne
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,18 +8,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: Le modèle objet InfoPath fournit la propriété MachineOnlineState de la classe Application qui active votre code de formulaire pour déterminer si l'ordinateur de l'utilisateur est connecté au réseau. En vérifiant la valeur de la propriété MachineOnlineState, votre code de formulaire peut effectuer différentes actions, selon l'état de la connexion.
-ms.openlocfilehash: ab149b488d2b2df1e91ba2cb435960c6749ecefb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eb2903c2445a61be803c0d7a2f5ddd7ac7a912ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299817"
 ---
-# <a name="work-with-offline-solutions"></a>Travailler avec des solutions en mode hors connexion
+# <a name="work-with-offline-solutions"></a>Utilisation des solutions hors ligne
 
 Le modèle objet InfoPath fournit la propriété [MachineOnlineState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.MachineOnlineState.aspx) de la classe [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) qui active votre code de formulaire pour déterminer si l'ordinateur de l'utilisateur est connecté au réseau. En vérifiant la valeur de la propriété **MachineOnlineState**, votre code de formulaire peut effectuer différentes actions, selon l'état de la connexion. 
   
-## <a name="using-the-machineonlinestate-property"></a>À l’aide de la propriété MachineOnlineState
+## <a name="using-the-machineonlinestate-property"></a>Utilisation de la propriété MachineOnlineState
 
 L'exemple suivant vous montre comment ajouter une logique au code de votre formulaire afin de déterminer comment le formulaire doit être envoyé, selon que l'ordinateur de l'utilisateur est connecté ou non.
   
@@ -35,9 +35,9 @@ Cet exemple suppose que vous avez créé un formulaire permettant d'envoyer un r
     
 4. Dans l' **Assistant Connexion de données**, cliquez sur **Envoi des données**, puis sur **Suivant**.
     
-5. Dans la page suivante de l’Assistant, cliquez sur **en tant qu’un message électronique**, puis cliquez sur **suivant**.
+5. Sur la page suivante de l'Assistant, cliquez sur **en tant que message électronique**, puis cliquez sur **suivant**.
     
-6. Dans la page suivante de l’Assistant, tapez votre adresse de messagerie dans **la zone** . 
+6. Sur la page suivante de l'Assistant, tapez votre adresse de messagerie dans la zone **à** . 
     
 7. Dans la zone de texte **Objet**, effectuez les opérations suivantes pour combiner la période de ventes avec le texte « Rapport de ventes » : 
     
@@ -59,7 +59,7 @@ Cet exemple suppose que vous avez créé un formulaire permettant d'envoyer un r
     
 9. Dans la page suivante de l'Assistant, cliquez sur le bouton **Formule** en regard de la zone **Nom de la pièce jointe**, puis répétez les étapes ci-dessus pour créer la formule concat("Rapport de ventes - ", période), puis cliquez sur **Suivant**.
     
-10. Dans la dernière page de l’Assistant, tapez envoyer du courrier électronique dans la zone **Entrez un nom pour cette connexion de données** , puis cliquez sur **Terminer**.
+10. Sur la dernière page de l'Assistant, tapez envoi par courrier électronique dans la zone **Entrez un nom pour cette connexion de données** , puis cliquez sur **Terminer**.
     
 ### <a name="add-logic-for-submitting-the-form-depending-on-the-connected-state-of-a-users-computer"></a>Ajout de la logique d'envoi du formulaire en fonction de l'état de la connexion de l'ordinateur de l'utilisateur
 
@@ -154,7 +154,7 @@ Cet exemple suppose que vous avez créé un formulaire permettant d'envoyer un r
     
 4. Dans Internet Explorer, cliquez sur **Travailler hors connexion** dans le menu **Fichier**. 
     
-5. Dans InfoPath, cliquez sur **Envoyer**. Vous devriez voir un message que le formulaire sera envoyé dans un message électronique.
+5. Dans InfoPath, cliquez sur **Envoyer**. Vous devez voir apparaître un message indiquant que le formulaire sera envoyé sous forme de message électronique.
     
 6. Cliquez sur **Envoyer**. Vous devez voir apparaître un message indiquant que le formulaire a été soumis hors connexion et qu'il sera envoyé dès que vous vous connecterez au réseau.
     

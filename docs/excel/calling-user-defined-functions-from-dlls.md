@@ -1,46 +1,46 @@
 ---
-title: Appel de fonctions définies par l’utilisateur à partir de DLL
+title: Appel des fonctions définies par l’utilisateur à partir de fichiers DLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- UDF [excel 2007], appel à partir de DLL, fonctions définies par l’utilisateur [Excel 2007], appel à partir de DLL, DLL [Excel 2007], l’appel des UDF
+- UDF [Excel 2007], appel de dll, de fonctions définies par l'utilisateur [Excel 2007], d'appels à partir de dll, de dll [Excel 2007], d'appels UDF
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 4e893cf1e54489610315dd5c5d57bd78c3c936d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e2ca3f4485fb41c5ab6a48f323b4c0093e747e4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301644"
 ---
-# <a name="calling-user-defined-functions-from-dlls"></a>Appel de fonctions définies par l’utilisateur à partir de DLL
+# <a name="calling-user-defined-functions-from-dlls"></a>Appel des fonctions définies par l’utilisateur à partir de fichiers DLL
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-L’appel de fonctions définies par l’utilisateur (UDF) à partir d’une feuille de calcul est aussi simple que l’appel de fonctions intégrées : vous permet d’entrer la fonction via une formule de cellule. Toutefois, à partir de l’API C, il n’existe aucun code fonction prédéfinie à utiliser avec les rappels. Pour vous permettre d’appeler des UDF, l’API C exporte une fonction XLL uniquement, la fonction [xlUDF](xludf.md) . Premier argument de la fonction est le nom de la fonction sous forme de chaîne, et les arguments suivants sont ceux qui l’UDF attendriez normalement. 
+L'appel des fonctions définies par l'utilisateur (UDF) à partir d'une feuille de calcul est aussi simple que l'appel de fonctions intégrées: vous entrez la fonction via une formule de cellule. Toutefois, à partir de l'API C, il n'existe pas de codes de fonction prédéfinis à utiliser avec les rappels. Pour vous permettre d'appeler des fonctions définies par l'utilisateur, l'API C exporte une fonction XLL uniquement, la fonction [xlUDF](xludf.md) . Le premier argument de la fonction est le nom de la fonction sous la forme d'une chaîne et les arguments suivants sont ceux que l'UDF attend normalement. 
   
-Vous pouvez obtenir une liste des commandes actuellement XLL complément inscrite à l’aide de la fonction **xlfGetWorkspace** avec l’argument 44. Cet exemple renvoie un tableau de trois colonnes où les colonnes représentent les éléments suivants : 
+Vous pouvez obtenir la liste des fonctions et des commandes de complément XLL actuellement enregistrées à l'aide de la fonction **xlfGetWorkspace** avec l'argument 44. Cette valeur renvoie un tableau à trois colonnes où les colonnes représentent les éléments suivants: 
   
-- Le chemin d’accès complet et le nom de la ressource XLL
+- Chemin d'accès complet et nom du XLL
     
-- Le nom de la commande comme exporté à partir de la ressource XLL ou un fichier UDF
+- Nom de la FDU ou de la commande exportée à partir de la XLL
     
-- La chaîne de code de retour et l’argument
+- Chaîne de code de retour et d'argument
     
 > [!NOTE]
-> Le nom comme exporté à partir de la ressource XLL ne peut pas être le même que le nom enregistré par lequel Excel connaît l’UDF ou la commande. 
+> Le nom exporté à partir de la XLL peut être différent du nom enregistré auquel Excel connaît la FDU ou la commande. 
   
-À compter d’Excel 2007, les fonctions de l’utilitaire d’analyse (DAV) sont entièrement intégrées, et l’API C a son propre énumérations de fonctions telles que les prix, **xlfPrice**. Dans les versions précédentes, vous deviez utiliser **xlUDF** pour appeler ces fonctions. Si votre complément doit travailler avec Excel 2003 et Excel 2007 ou versions ultérieures, et il utilise ces fonctions, vous devez détecter la version actuelle et appelez la fonction de la manière appropriée. 
+À partir d'Excel 2007, les fonctions de l'utilitaire d'analyse (ATP) sont entièrement intégrées et l'API C possède ses propres énumérations pour les fonctions telles que PRICE, **xlfPrice**. Dans les versions antérieures, vous deviez utiliser **xlUDF** pour appeler ces fonctions. Si votre complément doit fonctionner avec Excel 2003 et Excel 2007 ou versions ultérieures, et qu'il utilise ces fonctions, vous devez détecter la version actuelle et appeler la fonction de la manière appropriée. 
   
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre la fonction **xlUDF** utilisée pour appeler **la fonction DAV** lorsque la version d’Excel en cours d’exécution est 2003 ou version antérieure. Pour plus d’informations sur la définition d’une variable globale de version, tel que **gExcelVersion12plus** dans cet exemple, voir [Compatibilité descendante](backward-compatibility.md).
+L'exemple suivant illustre la fonction **xlUDF** utilisée pour appeler le **prix** de fonction ATP lorsque la version d'Excel en cours d'exécution est 2003 ou antérieure. Pour plus d'informations sur la définition d'une variable de version globale, telle que **gExcelVersion12plus** dans cet exemple, consultez la rubrique [compatibilité descendante](backward-compatibility.md).
   
 > [!NOTE]
-> Cet exemple utilise les fonctions Framework **TempNum**, **TempStrConst** pour définir des arguments et Excel pour appeler l’API C. 
+> Cet exemple utilise les fonctions de l'infrastructure **TempNum**, **TempStrConst** pour configurer les arguments et Excel pour appeler l'API C. 
   
 ```C
 LPXLOPER TempNum(double d);
@@ -86,7 +86,7 @@ double call_ATP_example(void)
 
 <br/>
 
-Lorsque vous appelez une fonction XLL qui renvoie une valeur en modifiant un argument en place, la fonction **xlUDF** renvoie toujours la valeur via l’adresse du résultat **XLOPER/XLOPER12**. En d’autres termes, le résultat est renvoyé comme si via une instruction return normale. Le **XLOPER/XLOPER12** qui correspond à l’argument est utilisé pour la valeur de retour est non modifié. Prenons l’exemple suivants deux fonctions UDF. 
+Lorsque vous appelez une fonction XLL qui renvoie une valeur en modifiant un argument sur place, la fonction **xlUDF** continue de renvoyer la valeur via l'adresse du paramètre **XLOPER/XLOPER12**résultant. En d'autres termes, le résultat est renvoyé comme s'il s'agissait d'une instruction de retour normale. La propriété **XLOPER/XLOPER12** qui correspond à l'argument utilisé pour la valeur renvoyée n'est pas modifiée. Par exemple, considérez les deux UDF suivantes. 
   
 ```C
 // Registered as "1E". Returns its argument incremented by 1.
@@ -109,13 +109,13 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 }
 ```
 
-Lorsque **UDF\_2** appels **UDF\_1**, la valeur de **pxArg** est inchangée après l’appel à **Excel12**et la valeur renvoyée par **UDF_1** est contenue dans **xRetVal**.
+Lorsque **UDF\_2** appelle **UDF\_1**, la valeur de **PxArg** est inchangée après l'appel de **Excel12**, et la valeur renvoyée par **UDF_1** est contenue dans **xRetVal**.
   
-Lorsque vous effectuez un grand nombre d’appels vers un fichier UDF de cette manière, vous pouvez évaluer tout d’abord le nom de la fonction à l’aide de la [fonction xlfEvaluate](xlfevaluate.md). Le numéro qui en résulte, qui est la même que l’ID de l’enregistrement qui est renvoyé par la fonction **xlfRegister** , peut être passé à la place du nom de la fonction comme premier argument à la fonction **xlUDF** . Cela permet à Microsoft Excel pour rechercher et appeler la fonction plus rapidement que si elle doit rechercher le nom de la fonction de chaque fois. 
+Lorsque vous effectuez un grand nombre d'appels à une FDU de cette manière, vous pouvez d'abord évaluer le nom de la fonction à l'aide de la [fonction xlfEvaluate](xlfevaluate.md). Le numéro résultant, qui est identique à l'ID d'inscription renvoyé par la fonction **xlfRegister** , peut être passé à la place du nom de la fonction en tant que premier argument de la fonction **xlUDF** . Cela permet à Excel de trouver et d'appeler la fonction plus rapidement que s'il doit rechercher le nom de la fonction à chaque fois. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Autorisation utilisateur sauts dans les opérations de longue durée](permitting-user-breaks-in-lengthy-operations.md)
-- [Fonctions de l’API C qui peuvent être appelées uniquement à partir d’une DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Autorisation des interruptions utilisateur lors des opérations très longues](permitting-user-breaks-in-lengthy-operations.md)
+- [Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 - [Mise en route avec le Kit de d�veloppement logiciel XLL Excel 2013](getting-started-with-the-excel-xll-sdk.md)
 

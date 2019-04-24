@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251477
 localization_priority: Normal
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
-description: Renvoie les coordonnées x, y d’un point dans le système de coordonnées du parent de la forme.
-ms.openlocfilehash: a3f7afd3f9bc988a20526451a6d7d7081d27a2d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie les coordonnées x, y d'un point dans le système de coordonnées du parent de la forme.
+ms.openlocfilehash: 4e7517c4210db31f1c3f5dc8bf98185b6f4104aa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269943"
 ---
-# <a name="par-function"></a>PAR, fonction
+# <a name="par-function"></a>Fonction PAR
 
-Renvoie les coordonnées _x, y_ d’un point dans le système de coordonnées du parent de la forme. 
+Renvoie les coordonnées _x, y_ d'un point dans le système de coordonnées du parent de la forme. 
   
 ## <a name="syntax"></a>Syntaxe
 
-Valeur nominale (** *point* **) 
+PAR (* * *point* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Obligatoire  <br/> |**Numéro,** <br/> |Coordonnées du point dans le système de coordonnées de la forme actuelle  <br/> |
+| _virgule_ <br/> |Obligatoire  <br/> |**Number, Number** <br/> |Coordonnées du point dans le système de coordonnées de la forme actuelle  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Dans Microsoft Visio, un point est une valeur single qui représente une paire de *x* et *y* -coordonnées. Si la forme est un groupe, son parent est le groupe. Si la forme n’est pas dans un groupe, son parent est la page. 
+Dans Microsoft Visio, un point est une valeur unique qui représente une paire de coordonnées *x* et *y* . Si la forme fait partie d’un groupe, son parent est le groupe. Si la forme ne fait pas partie d’un groupe, son parent est la page. 
   
 ## <a name="example"></a>Exemple
 
-PAR(Pnt(PinX,PinY)) 
+PAR (PNT (PinX, PinY)) 
   
 Dans cette expression, PNT convertit un couple de coordonnées de la forme active en un point. La fonction PAR convertit ensuite le point en un couple de coordonnées par rapport au coin inférieur gauche de la page contenant la forme active. 
   

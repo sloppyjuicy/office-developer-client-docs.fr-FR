@@ -1,5 +1,5 @@
 ---
-title: Objets de fournisseur MAPI address book
+title: Objets du fournisseur de carnets d'adresses MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2fcff3b3-01e7-4758-9c49-0af41abf0d6b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2963e65f97534cbba368b909fef79c982e81ec26
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e7e4ef528716f05d198862afa61947fd3993042d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298154"
 ---
-# <a name="mapi-address-book-provider-objects"></a>Objets de fournisseur MAPI address book
+# <a name="mapi-address-book-provider-objects"></a>Objets du fournisseur de carnets d'adresses MAPI
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Outre le fournisseur standard et les objets d’ouverture de session, les fournisseurs de carnet d’adresses implémentent conteneurs de carnet d’adresses, des listes de distribution, messagerie utilisateurs, des tableaux, objets d’état et les contrôles.
+En plus du fournisseur standard et des objets d'ouverture de session, les fournisseurs de carnet d'adresses implémentent les conteneurs de carnet d'adresses, les listes de distribution, les utilisateurs de messagerie, les tables, les objets d'État et les contrôles.
   
-L’illustration suivante montre les composants MAPI qui les utilisent ces objets et leurs interfaces correspondantes.
+L'illustration suivante montre ces objets, leurs interfaces correspondantes et les composants MAPI qui les utilisent.
   
-![Objets qui implémentent des fournisseurs de carnet d’adresses] (media/amapi_64.gif "Objets qui implémentent des fournisseurs de carnet d’adresses")
+![Objets implémentés par les fournisseurs de carnet d'adresses] (media/amapi_64.gif "Objets implémentés par les fournisseurs de carnet d'adresses")
   
 ## <a name="see-also"></a>Voir aussi
 

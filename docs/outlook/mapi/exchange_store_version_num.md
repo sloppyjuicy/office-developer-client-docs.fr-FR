@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 88950eda-85ae-ad7a-46c6-0e1933d35e04
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 152afd68bea44f3485b2cc566f3f0d2768590704
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: bf60b12a6e4575d3504a112aa2b54fb8c4ae23c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594473"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287034"
 ---
 # <a name="exchangestoreversionnum"></a>EXCHANGE_STORE_VERSION_NUM
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Stocke les informations de version de Microsoft Exchange Server dans un profil de Microsoft Office Outlook, les comptes connectés à.
+Stocke les informations relatives à la version du serveur Microsoft Exchange que les comptes dans un profil Microsoft Office Outlook sont connectés à.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,23 +35,23 @@ typedef struct {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _wMajorVersion_
   
-- Numéro de version principal est généralement incrémenté lorsqu’une version contient importantes nouvelles fonctionnalités et modifications de fonctionnalités.
+- Numéro de version majeure généralement incrémenté lorsqu'une publication contient de nouvelles fonctionnalités et des modifications de fonctionnalité importantes.
     
  _wMinorVersion_
   
-- Numéro de version secondaire qui correspond à un numéro de version majeure et qui est généralement incrémenté lorsqu’une version contient les nouvelles fonctionnalités secondaires ou correctifs importants.
+- Numéro de version mineure correspondant à un numéro de version principal spécifique et généralement incrémenté lorsqu'une publication contient de nouvelles fonctionnalités mineures ou des correctifs importants.
     
  _wBuild_
   
-- Numéro de version majeur qui correspond aux numéros de version principale et secondaire spécifique et qui est généralement incrémentée dans une version interne qui contient des correctifs ou des nouvelles fonctionnalités. Cette valeur est également incrémentée à la version est une branche de code interne principale ou un jalon, par exemple une version release candidate.
+- Numéro de build majeur correspondant à des numéros de version principaux et mineurs spécifiques, généralement incrémenté dans une version interne qui contient de nouvelles fonctionnalités ou des correctifs. Cette valeur est également incrémentée lorsque la version est une branche de code interne majeure ou une étape majeure, telle qu'une version Release candidate.
     
  _wMinorBuild_
   
-- Numéro de version secondaire est incrémentée généralement dans une version interne qui contient les nouvelles fonctionnalités ou corrige correspondant à une version principale spécifique qui indique une branche de code principal ou un jalon.
+- Numéro de version mineure généralement incrémenté dans une version interne qui contient de nouvelles fonctionnalités ou des correctifs correspondant à une build majeure spécifique qui désigne une branche ou un jalon de code principal.
     
 ## <a name="see-also"></a>Voir aussi
 

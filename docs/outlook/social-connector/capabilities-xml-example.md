@@ -7,61 +7,61 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ae1abafe-160c-47c0-b4d5-4a689c8c4cb1
-description: L’exemple de code XML de cette rubrique est une chaîne XML renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode ISocialProvider::GetCapabilities pour un réseau social. Le code XML montre comment un fournisseur OSC spécifie ses fonctionnalités et la configuration requise pour l’OSC.
+description: "L'exemple XML de cette rubrique est une chaîne XML renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode ISocialProvider:: GetCapabilities pour un réseau social. Le XML montre comment un fournisseur OSC spécifie ses capacités et ses conditions requises pour le OSC."
 ms.openlocfilehash: 53bd250432e7b27d984a846d206adc812c47898f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281229"
 ---
 # <a name="capabilities-xml-example"></a>Exemple de fonctionnalités XML
 
-L’exemple de code XML de cette rubrique est une chaîne XML renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) pour un réseau social. Le code XML montre comment un fournisseur OSC spécifie ses fonctionnalités et la configuration requise pour l’OSC. 
+L'exemple XML de cette rubrique est une chaîne XML renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode [ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md) pour un réseau social. Le XML montre comment un fournisseur OSC spécifie ses capacités et ses conditions requises pour le OSC. 
   
-## <a name="capabilities-for-friends"></a>Fonctionnalités d’amis
+## <a name="capabilities-for-friends"></a>Fonctionnalités pour les amis
 
-Dans cet exemple, le fournisseur OSC spécifie les éléments suivants pour afficher ses fonctionnalités de prise en charge de la fonctionnalité d’amis :
+Dans cet exemple, le fournisseur OSC spécifie les éléments suivants pour afficher ses fonctionnalités dans la prise en charge de la fonctionnalité Friends:
   
-- **getFriends** en tant que **la valeur true** pour indiquer que le fournisseur OSC prend en charge la méthode [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) pour obtenir des informations de vos amis par programme. 
+- **getFriends** comme **true** pour indiquer que le fournisseur OSC prend en charge la méthode [ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) pour obtenir les informations des amis par programme. 
     
-- **cacheFriends** en tant que **la valeur true** pour prendre en charge les informations de mise en cache amis dans un dossier de contacts Outlook. 
+- **cacheFriends** comme **true** pour prendre en charge la mise en cache des informations des amis dans un dossier de contacts Outlook. 
     
-- **contactSyncRestartInterval** 60 pour indiquer que sur erreur, l’OSC doit recommencer l’actualisation du cache toutes les 60 minutes. 
+- **contactSyncRestartInterval** en tant que 60 pour indiquer qu'en cas d'erreur, l'OSC doit réessayer d'actualiser le cache toutes les 60 minutes. 
     
-- **followPerson** en tant que **la valeur true** pour indiquer la possibilité d’ajouter des amis sur le réseaux sociaux. 
+- **followPerson** comme **true** pour indiquer la possibilité d'ajouter des amis sur le réseau social. 
     
-- **doNotFollowPerson** en tant que **valeur false** pour indiquer que le fournisseur OSC ne gère pas la suppression d’une personne comme un ami sur le réseaux sociaux. 
+- **doNotFollowPerson** **false** pour indiquer que le fournisseur OSC ne prend pas en charge la suppression d'une personne en tant qu'ami sur le réseau social. 
     
-- **dynamicContactsLookup** en tant que **valeur false** pour indiquer que l’OSC ne devez pas stocker les informations de vos amis en mémoire. 
+- **dynamicContactsLookup** **false** pour indiquer que OSC ne doit pas stocker les informations des amis dans la mémoire. 
     
 ## <a name="capabilities-for-activities"></a>Fonctionnalités pour les activités
 
-Le fournisseur OSC spécifie les éléments pour afficher sa capacité à prendre en charge les activités suivantes :
+Le fournisseur OSC spécifie les éléments suivants pour montrer sa capacité à prendre en charge les activités:
   
-- **getActivities** en tant que **la valeur true** pour indiquer que le fournisseur OSC prend en charge la méthode [ISocialProfile::GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) pour obtenir par programme des activités de vos amis. 
+- **GetActivities** comme **true** pour indiquer que le fournisseur OSC prend en charge la méthode [ISocialProfile:: GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) pour obtenir les activités de Friends par programme. 
     
-- **cacheActivities** en tant que **valeur false** pour prendre en charge les activités de mise en cache des amis dans le dossier Outlook de News masqué. 
+- **cacheActivities** **false** pour prendre en charge la mise en cache des activités d'amis dans le dossier de flux d'actualités Outlook masqué. 
     
-- **dynamicActivitiesLookupEx** en tant que **la valeur true** pour indiquer que l’OSC doit stocker les activités amis en mémoire. 
+- **dynamicActivitiesLookupEx** comme **true** pour indiquer que le OSC doit stocker les activités de Friend dans la mémoire. 
     
-## <a name="capabilities-for-authentication-and-account-configuration"></a>Fonctionnalités de configuration de compte et d’authentification
+## <a name="capabilities-for-authentication-and-account-configuration"></a>Fonctionnalités d'authentification et de configuration de compte
 
-Le fournisseur OSC spécifie les éléments suivants pour afficher la prise en charge pour l’authentification et la configuration de compte :
+Le fournisseur OSC spécifie les éléments suivants pour montrer sa prise en charge de la configuration de l'authentification et des comptes:
   
-- **useLogonWebAuth** en tant que **valeur false** pour indiquer que le fournisseur OSC prend en charge l’authentification de base. 
+- **useLogonWebAuth** **false** pour indiquer que le fournisseur OSC prend en charge l'authentification de base. 
     
-- **supportsAutoConfigure** en tant que **valeur false** pour indiquer que l’OSC ne doit pas essayer configurer automatiquement et ouvrez une session sur le réseau social pour l’utilisateur. 
+- **supportsAutoConfigure** **false** pour indiquer que OSC ne doit pas tenter de configurer et d'ouvrir automatiquement une session sur le réseau social de l'utilisateur. 
     
-- **useLogonCached** et **hideRememberMyPassword** en tant que **valeur false** pour indiquer que l’OSC doit demander le mot de passe chaque fois et ne doit pas utiliser mis en cache les informations d’identification d’ouverture de session pour vous connecter. 
+- **useLogonCached** et **hideRememberMyPassword** **false** pour indiquer que OSC doit demander un mot de passe à chaque fois et ne doit pas utiliser les informations d'identification d'ouverture de session mises en cache pour se connecter. 
     
-- **displayUrl** en tant que **valeur false** pour indiquer que l’OSC ne doit pas afficher l’URL pour le réseau social dans la boîte de dialogue de configuration de compte. 
+- **DisplayUrl** **false** pour indiquer que OSC ne doit pas afficher l'URL du réseau social dans la boîte de dialogue Configuration du compte. 
     
-- **hideHyperlinks** en tant que **valeur false** pour indiquer que le fournisseur OSC prend en charge uniquement des comptes existants par mot de passe connus et le OSC ne doit pas afficher la **Cliquez ici pour créer un compte** et **vous avez oublié votre mot de passe ?** des liens hypertexte dans le boîte de dialogue de configuration de compte. 
+- **hideHyperlinks** comme **false** pour indiquer que le fournisseur OSC prend en charge uniquement les comptes existants avec des mots de passe connus et que OSC ne doit pas afficher les liens de **Cliquer ici pour créer un compte** et avoir **oublié votre mot de passe?** liens hypertexte dans le boîte de dialogue Configuration du compte. 
     
-## <a name="xml-example"></a>Exemple de code XML
+## <a name="xml-example"></a>Exemple XML
 
-L’exemple suivant montre le XML des **fonctionnalités** d’un fournisseur OSC. 
+L'exemple suivant montre les **fonctionnalités** XML d'un fournisseur OSC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -89,9 +89,9 @@ L’exemple suivant montre le XML des **fonctionnalités** d’un fournisseur OS
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Exemples de code XML de fournisseur OSC](osc-provider-xml-examples.md)  
-- [Fichier XML pour les fonctionnalités](xml-for-capabilities.md)  
-- [Exemple de code XML amis](friends-xml-example.md)  
-- [Exemple de flux XML d’activité](activity-feed-xml-example.md)  
-- [Fournisseur Outlook Social Connector schéma XML](outlook-social-connector-provider-xml-schema.md)
+- [Exemples de fournisseurs XML OSC](osc-provider-xml-examples.md)  
+- [XML pour les fonctionnalités](xml-for-capabilities.md)  
+- [Exemple de code XML pour les amis](friends-xml-example.md)  
+- [Exemple de XML d'informations sur les activités](activity-feed-xml-example.md)  
+- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
 

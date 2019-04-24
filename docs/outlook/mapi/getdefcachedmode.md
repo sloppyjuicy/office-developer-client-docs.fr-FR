@@ -7,29 +7,29 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 325b6b47-b6a6-503e-e9bb-65ef7b73d659
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 91a56acf4afc7453496fa89becd905184101c910
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8e8a6ac07e14af52337b6e280fa58274df453c65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591393"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299705"
 ---
 # <a name="getdefcachedmode"></a>GetDefCachedMode
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si le Mode Exchange mis en cache pour la banque Exchange privée est activé, et si cela est appliqué par la stratégie.
+Indique si le mode Exchange mis en cache pour la Banque d'information privée est activé et s'il est appliqué par la stratégie.
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Exportés par :  <br/> |Msmapi32.dll  <br/> |
-|Appelée par :  <br/> |Client  <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
+|Exporté par:  <br/> |msmapi32. dll  <br/> |
+|Appelé par :  <br/> |Client  <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
    
 ```cpp
 BOOL GetDefCachedMode(BOOL *pfPolicy); 
@@ -40,15 +40,15 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
 
  _pfPolicy_
   
-> [out] **true** si la valeur de retour est appliquée par la stratégie, **false** si elle n’est pas. 
+> remarquer **true** si la valeur de retour est appliquée par stratégie, **false** dans le cas contraire. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
- **valeur True**
+ **true**
   
-- La mise en cache est activé.
+- La mise en cache est activée.
     
- **False**
+ **true**
   
 - La mise en cache est désactivée.
     

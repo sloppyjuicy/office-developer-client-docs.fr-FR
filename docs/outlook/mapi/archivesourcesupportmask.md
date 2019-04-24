@@ -11,47 +11,47 @@ api_name:
 api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: da1a1403ce454eef03a4b1e965441b0c654a99aa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6fc5e8eb74d79d0a30ae6a423772ce741dee4562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281591"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si Microsoft Office Outlook doit analyser les dossiers dans un magasin et les archiver automatiquement.
+Indique si Microsoft Office Outlook doit analyser les dossiers d'une banque et les archiver automatiquement.
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Exposée sur :  <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) objet  <br/> |
-|Créé par :  <br/> |Fournisseur de banque  <br/> |
-|Accessible par :  <br/> |Outlook et autres clients  <br/> |
-|Type de propriété :  <br/> |PT_LONG  <br/> |
-|Type d’accès :  <br/> |En lecture seule ou en lecture/écriture, selon le fournisseur de banque  <br/> |
+|Exposé sur:  <br/> |[IMsgStore: objet IMAPIProp](imsgstoreimapiprop.md)  <br/> |
+|Créé par:  <br/> |Fournisseur de magasin  <br/> |
+|Accès par:  <br/> |Outlook et d'autres clients  <br/> |
+|Type de propriété:  <br/> |PT_LONG  <br/> |
+|Type d'accès:  <br/> |Lecture seule ou lecture/écriture en fonction du fournisseur de la Banque  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour fournir une des fonctionnalités de magasin, le fournisseur de banque doit implémenter [IMAPIProp : IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour une de ces propriétés passées à un appel [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Lorsque la balise de propriété pour une de ces propriétés est transmise à [IMAPIProp::GetProps](imapiprop-getprops.md), le fournisseur de banque doit également retourner la valeur de la propriété adéquate. Fournisseurs de magasins peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
+Pour fournir l'une des fonctionnalités de magasin, le fournisseur de banque doit implémenter [IMAPIProp: IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour l'une des propriétés transmises à un appel [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Lorsque la balise de propriété de l'une de ces propriétés est transmise à [IMAPIProp:: GetProps](imapiprop-getprops.md), le fournisseur Store doit également renvoyer la valeur de propriété correcte. Les fournisseurs de magasins peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
   
-Pour récupérer la valeur de cette propriété, le client doit d’abord utiliser [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété, puis spécifiez cette balise de propriété dans [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lors de l’appel [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), spécifiez les valeurs suivantes pour la structure [MAPINAMEID](mapinameid.md) sur laquelle pointé le paramètre d’entrée _lppPropNames_:
+Pour récupérer la valeur de cette propriété, le client doit d'abord utiliser [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété, puis spécifier cette balise de propriété dans [IMAPIProp:: GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lors de l'appel de [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md), spécifiez les valeurs suivantes pour la structure [MAPINAMEID](mapinameid.md) pointée par le paramètre d'entrée _lppPropNames_:
   
 |||
 |:-----|:-----|
-|lpGuid :  <br/> |PSETID_Common  <br/> |
-|ulKind :  <br/> |MNID_STRING  <br/> |
-|Kind.lpwstrName :  <br/> |L « ArchiveSourceSupportMask »  <br/> |
+|lpGuid:  <br/> |PSETID_Common  <br/> |
+|ulKind:  <br/> |MNID_STRING  <br/> |
+|Kind. lpwstrName:  <br/> |L "ArchiveSourceSupportMask"  <br/> |
    
-Cette propriété permet de spécifier si Outlook doit analyser les dossiers dans un magasin et les archiver automatiquement les fournisseurs de magasins.
+Cette propriété permet aux fournisseurs de magasin de spécifier si Outlook doit analyser les dossiers d'une banque et les archiver automatiquement.
   
-Par défaut, cette propriété n’est pas exposée dans une banque, ce qui signifie qu’Outlook peut analyser les dossiers sur le magasin. Si la propriété est exposée, les valeurs possibles sont les éléments suivants :
+Par défaut, cette propriété n'est pas exposée sur un magasin, ce qui signifie qu'Outlook peut analyser les dossiers de la Banque. Si la propriété est exposée, les valeurs possibles sont les suivantes:
   
 ```cpp
 enum { 
@@ -63,14 +63,14 @@ enum {
 
 ASM_DEFAULT
   
-- Outlook peut analyser les dossiers sur le magasin.
+- Outlook peut analyser les dossiers de la Banque.
     
 ASM_DO_NOT_ARCHIVE
   
-- Outlook n’a pas doit analyser les dossiers sur le magasin.
+- Outlook ne doit pas analyser les dossiers de la Banque.
     
 ASM_CLIENT_DO_NOT_CHANGE
   
-- Ne pas autoriser les clients à modifier cette propriété dans le magasin. Notez que constante **ASM_CLIENT_DO_NOT_CHANGE** est pour servir ultérieurement de référence et n’est pas implémenté actuellement. À ce stade, un magasin peut empêcher les clients cet indicateur à coder la valeur de cette propriété renvoie le magasin. 
+- Ne pas autoriser les clients à modifier cette propriété sur le magasin. Notez que la constante **ASM_CLIENT_DO_NOT_CHANGE** est destinée à des fins de référence ultérieure et qu'elle n'est pas actuellement implémentée. Pour le moment, un magasin peut empêcher les clients de modifier cet indicateur en codage en dur la valeur renvoyée par la Banque pour cette propriété. 
     
 

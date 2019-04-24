@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e0f13b0b8d2f7eb6fd7ba60e9e351b62251aa13d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 48653b86d625da963b655dbd1acc01a46f4687dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286473"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>Propriété canonique PidTagProviderItemId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un identificateur pour un dossier ou un élément dans une banque.
+Spécifie un identificateur pour un dossier ou un élément dans un magasin.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Spécifie un identificateur pour un dossier ou un élément dans une banque.
    
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de magasins peuvent spécifier une valeur pour cette propriété pour un dossier ou un élément, mais doivent conserver la valeur de la même session. Fournisseurs de magasins d’utilisent cette propriété pour identifier des résultats de recherche renvoyés à partir d’un moteur de recherche.
+Les fournisseurs de magasins peuvent spécifier une valeur pour cette propriété pour un dossier ou un élément, mais doivent conserver la même valeur entre les sessions. Les fournisseurs de magasin utilisent cette propriété pour identifier les résultats de recherche renvoyés par un moteur de recherche.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

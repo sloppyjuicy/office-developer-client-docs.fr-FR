@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
-description: La fonctionnalité de fusion de formulaires de l’éditeur de Microsoft InfoPath est conçue pour combiner les données de plusieurs formulaires dans un formulaire.
+description: The Merge Forms feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form.
 ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303723"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>Activation de la fusion personnalisée de formulaires InfoPath
 
-La fonctionnalité de **Fusion de formulaires** de l’éditeur de Microsoft InfoPath est conçue pour combiner les données de plusieurs formulaires dans un formulaire. Il est également appelé agrégation de données. Si la fusion de formulaires est activée, vous pouvez cliquez sur l’onglet **fichier** , cliquez sur **Enregistrer &amp; envoyer**, cliquez sur **Fusionner les formulaires** sous **importation &amp; lien**, puis cliquez sur le bouton de **La fusion de formulaires** pour sélectionner un ou plusieurs formulaires à fusionner avec la formulaire actuellement ouvert. Le formulaire actuellement ouvert est le formulaire cible et les formulaires sélectionnés dans la boîte de dialogue **Fusionner les formulaires** sont appelés des formulaires sources.
+The **Merge Forms** feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form. This is also known as data aggregation. If merging forms is enabled, you can click the **File** tab, click **Save &amp; Send**, click **Merge Forms** under **Import &amp; Link**, and then click the **Merge Forms** button to select one or more forms to merge with the currently opened form. The form that is currently open is the target form and the forms selected in the **Merge Forms** dialog box are known as the source forms.
   
 L'agrégation des données qui résulte de la fusion de formulaires peut inclure toutes les données contenues dans les formulaires source et cible, ou seulement une partie de ces données. Les opérations par défaut sont les suivantes.
   
@@ -23,7 +23,7 @@ L'agrégation des données qui résulte de la fusion de formulaires peut inclure
     
 - Pour les éléments non répétés (c'est-à-dire ceux où **MaxOccurs** est égal à 1), les attributs des éléments source sont ajoutés aux attributs existants de l'élément de destination. 
     
-## <a name="creating-a-custom-transform"></a>Création d'une transformation personnalisée
+## <a name="creating-a-custom-transform"></a>Création d’une transformation personnalisée
 
 L'opération de fusion par défaut des formulaires fonctionne bien pour les formulaires basés sur le même schéma XML. Dans certains cas, cependant, vous souhaiterez fusionner des formulaires basés sur des schémas différents ou remplacer l'opération de fusion par défaut pour des formulaires qui sont basés sur le même schéma. Pour ces scénarios, vous pouvez créer une transformation XSL qui contient des instructions d'agrégation pour l'opération de fusion. La transformation est appliquée au moment de la fusion pour créer un document DOM qui contient les informations à importer, avec des annotations qui spécifient la façon d'incorporer ces informations dans le document cible. Ces annotations sont des attributs XML dans l'espace de noms  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
   
@@ -72,7 +72,7 @@ Si la valeur de l'attribut **agg:action** est « delete », chacun des élément
 
 En conjonction avec les attributs spécifiés dans l'espace de noms  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`, vous utilisez l'espace de noms  `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` pour indiquer un objet XSL qui implémente l'interface **IXMLDOMDocument**. La méthode **get-documentElement** est l'un des membres les plus utiles de cette interface.
   
-### <a name="get-documentelement"></a>get-documentElement
+### <a name="get-documentelement"></a>Get-documentElement
 
 La fonction **target:get-documentElement** fournit l'accès au DOM (Document Object Model) du document de destination. Vous pouvez l'utiliser pour changer le fonctionnement de l'opération de fusion basé sur le contenu du document de destination. 
   
@@ -86,7 +86,7 @@ La fonction **target:get-documentElement** fournit l'accès au DOM (Document Obj
 
 ```
 
-## <a name="steps-for-creating-a-custom-merge"></a>Procédure de création d'une fusion personnalisée
+## <a name="steps-for-creating-a-custom-merge"></a>Procédure de création d’une fusion personnalisée
 
 1. Sélectionnez les types de documents XML source à partir desquels fusionner les données. Collectez un échantillon représentatif de chaque type de document source.
     
@@ -145,15 +145,15 @@ La fonction **target:get-documentElement** fournit l'accès au DOM (Document Obj
         </xsf:file>
     ```
 
-6. La dernière étape de préparation de votre formulaire pour prendre en charge la fusion personnalisée consiste à mettre à jour l’élément **importParameters** dans le fichier .xsf associé au formulaire. 
+6. La dernière étape de la préparation de votre formulaire pour prendre en charge la fusion personnalisée consiste à mettre à jour l'élément **ImportParameters** dans le fichier. xsf associé au formulaire. 
 
-    Tout d’abord, recherchez le `<xsf:importParameters>` balise dans le fichier .xsf. Pour chaque schéma paire/transformation XSL que vous avez créé pour votre formulaire, ajoutez un élément **xsf : importSource** à l’élément **xsf : importParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
+    Tout d'abord, `<xsf:importParameters>` recherchez la balise dans le fichier. xsf. Pour chaque paire schéma/transformation XSL que vous avez créée pour votre formulaire, ajoutez un élément **xsf: importSource** à l'élément **xsf: ImportParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
     
-    L’attribut **name** de l’élément **xsf : importSource** contient le nom du modèle de formulaire qui peut se trouver dans un document XML source. En règle générale, vous laissez cette zone vide. L’attribut **schema** contient le nom d’un fichier de schéma que vous avez ajouté au modèle de formulaire à l’étape précédente. Enfin, l’attribut **transform** contient le nom de la transformation XSL que vous souhaitez utiliser pour convertir les formulaires conformément au schéma. 
+    L'attribut **Name** de l'élément **xsf: importSource** contient le nom du modèle de formulaire qui se trouve dans un document XML source. En règle générale, vous pouvez laisser ce vide. L'attribut **Schema** contient le nom d'un fichier de schéma que vous avez ajouté au modèle de formulaire à l'étape précédente. Enfin, l'attribut **Transform** contient le nom de la transformation XSL que vous souhaitez utiliser pour convertir les formulaires conformes au schéma. 
     
-    Vous pouvez utiliser une transformation personnalisée avec l’événement [de fusion](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) ou sur son propre. 
+    Vous pouvez utiliser une transformation personnalisée à l'aide de l'événement [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) ou de celle-ci. 
     
-## <a name="creating-a-custom-merge-in-code"></a>Création d'une fusion personnalisée dans le code
+## <a name="creating-a-custom-merge-in-code"></a>Création d’une fusion personnalisée dans le code
 
 La fusion personnalisée avec code est prise en charge par le gestionnaire d'événements [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) , avec son attribut **useScriptHandler** correspondant dans l'élément **importParameters** du fichier .xsf associé au formulaire. 
 

@@ -1,5 +1,5 @@
 ---
-title: Accès aux données d’Application
+title: Accéder aux données de l'application
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 2698d059-9955-4eec-85a6-79defb64e07e
 description: Le modèle objet InfoPath avec code managé fournit des objets et des collections qui peuvent être utilisés pour accéder aux informations sur l'application InfoPath, y compris celles associées au document XML sous-jacent d'un formulaire et au fichier de définition de formulaire (.xsf). Ces données sont accessibles à travers l'objet de niveau supérieur dans la hiérarchie des modèles d'objets InfoPath qui est instanciée à l'aide de la classe Application .
-ms.openlocfilehash: 3c3f6be4e90e292eb572da836bca0a8dcf1883cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8da72313807584ee599d65701d009786dd631979
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300174"
 ---
-# <a name="access-application-data"></a>Accès aux données d’Application
+# <a name="access-application-data"></a>Accéder aux données de l'application
 
 Le modèle objet InfoPath avec code managé fournit des objets et des collections qui peuvent être utilisés pour accéder aux informations sur l'application InfoPath, y compris celles associées au document XML sous-jacent d'un formulaire et au fichier de définition de formulaire (.xsf). Ces données sont accessibles à travers l'objet de niveau supérieur dans la hiérarchie des modèles d'objets InfoPath qui est instanciée à l'aide de la classe [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . 
   

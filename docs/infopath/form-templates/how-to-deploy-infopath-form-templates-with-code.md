@@ -1,5 +1,5 @@
 ---
-title: Déployer des modèles de formulaire InfoPath avec Code
+title: Déployer des modèles de formulaires InfoPath avec code
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,20 +8,20 @@ keywords:
 localization_priority: Normal
 ms.assetid: ab66e26d-74ee-4211-b387-1385183a6803
 description: Le code du formulaire d'un modèle de formulaire InfoPath avec code managé est compilé pour comment assembly exécuté dans Common Language Runtime (CLR). Chaque fois que vous devez modifier le code du formulaire, vous devez ouvrir le projet correspondant dans Visual Studio 2012, apporter les modifications dans l'éditeur de code, recompiler le modèle de formulaire, puis redéployer le modèle de formulaire. De plus, l'assembly privé étant exécuté dans le domaine d'une application hôte du CLR, les paramètres de sécurité des formulaires qui nécessitent une confiance totale diffèrent légèrement de ceux des modèles de formulaires qui ne nécessitent pas une confiance totale.
-ms.openlocfilehash: 56af865a80df75c7e1d973767066a03310cdde1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba3629e786a224ea950e78bbec9a9fe94d4499de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303625"
 ---
-# <a name="deploy-infopath-form-templates-with-code"></a>Déployer des modèles de formulaire InfoPath avec Code
+# <a name="deploy-infopath-form-templates-with-code"></a>Déployer des modèles de formulaires InfoPath avec code
 
 Le code du formulaire d'un modèle de formulaire InfoPath avec code managé est compilé pour comment assembly exécuté dans Common Language Runtime (CLR). Chaque fois que vous devez modifier le code du formulaire, vous devez ouvrir le projet correspondant dans Visual Studio 2012, apporter les modifications dans l'éditeur de code, recompiler le modèle de formulaire, puis redéployer le modèle de formulaire. De plus, l'assembly privé étant exécuté dans le domaine d'une application hôte du CLR, les paramètres de sécurité des formulaires qui nécessitent une confiance totale diffèrent légèrement de ceux des modèles de formulaires qui ne nécessitent pas une confiance totale.
   
 ## <a name="deploying-form-templates-that-do-not-require-full-trust"></a>Déploiement de modèles de formulaires ne nécessitant pas la confiance totale
 
-Si le code de formulaire de votre modèle de formulaire n'utilise pas de membres du modèle objet InfoPath qui nécessitent la confiance totale et que le modèle de formulaire n'utilise pas de fonctionnalités qui nécessitent la confiance totale, vous pouvez publier votre modèle de formulaire directement dans InfoPath à l'aide de la procédure qui suit. Pour plus d’informations sur le modèle de sécurité d’InfoPath, voir [Modèle de sécurité pour les modèles de formulaire avec du Code](about-the-security-model-for-form-templates-with-code.md).
+Si le code de formulaire de votre modèle de formulaire n'utilise pas de membres du modèle objet InfoPath qui nécessitent la confiance totale et que le modèle de formulaire n'utilise pas de fonctionnalités qui nécessitent la confiance totale, vous pouvez publier votre modèle de formulaire directement dans InfoPath à l'aide de la procédure qui suit. Pour plus d'informations sur le modèle de sécurité InfoPath, voir [modèle de sécurité pour les modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md).
   
 ### <a name="deploy-a-form-template-that-does-not-require-full-trust"></a>Déploiement d'un modèle de formulaire ne nécessitant pas la confiance totale
 
@@ -56,16 +56,16 @@ Si le code du formulaire de votre modèle de formulaire n'utilise pas de membres
  **Remarques**
 - Pour signer numériquement un formulaire, vous devez disposer d'un certificat de signature de code authentifié sur votre ordinateur. Pour acquérir un tel certificat, vous devez contacter une autorité de certification ou votre administrateur réseau.
     
-- Si vous devez effectuer des modifications dans le formulaire après sa publication, vous devez répéter la procédure et resigner le modèle de formulaire. Ceci est dû au fait que la modification du formulaire annule la validité de la signature. Lors du développement d’un formulaire qui requiert des autorisations de confiance totale, vous pouvez utiliser la procédure décrite dans [l’Aperçu et déboguer les modèles de formulaires qui nécessitent une autorisation totale](how-to-preview-and-debug-form-templates-that-require-full-trust.md) pour enregistrer le modèle de formulaire sur votre ordinateur local. 
+- Si vous devez effectuer des modifications dans le formulaire après sa publication, vous devez répéter la procédure et resigner le modèle de formulaire. Ceci est dû au fait que la modification du formulaire annule la validité de la signature. Lors du développement d'un formulaire nécessitant des autorisations confiance totale, vous pouvez utiliser la procédure décrite dans [Aperçu et débogage des modèles de formulaire qui nécessitent une confiance totale](how-to-preview-and-debug-form-templates-that-require-full-trust.md) pour enregistrer le modèle de formulaire sur votre ordinateur local. 
     
-## <a name="configuring-net-framework-security-settings"></a>Configuration des paramètres de sécurité .NET Framework
+## <a name="configuring-net-framework-security-settings"></a>Configuration des paramètres de sécurité .NET Framework
 
-Pour plus de contrôle sur les autorisations accordées au code managé exécuté dans un modèle de formulaire InfoPath avec code managé, vous pouvez utiliser l'utilitaire de configuration de .NET Framework 2.0 pour appliquer un jeu d'autorisations spécifique à votre code de formulaire.
+Pour plus de contrôle sur les autorisations accordées au code managé exécuté dans un modèle de formulaire InfoPath avec code managé, vous pouvez utiliser l'utilitaire de configuration de .NET Framework 2.0 pour appliquer un jeu d'autorisations spécifique à votre code de formulaire.
   
 > [!IMPORTANT]
 > [!IMPORTANTE] La configuration des paramètres de sécurité de .NET Framework pour un modèle de formulaire InfoPath avec code managé n'a pas d'influence sur le fait que les membres du modèle objet InfoPath qui nécessitent une confiance totale sont autorisés à s'exécuter ou non. Vous devez soit signer numériquement, soit inscrire le modèle de formulaire comme décrit précédemment dans cette rubrique pour permettre les appels aux membres du modèle objet InfoPath qui nécessitent une confiance totale. La configuration des paramètres de sécurité de .NET Framework s'applique uniquement aux appels aux membres des classes .NET Framework et aux composants managés autres que le modèle objet InfoPath. 
   
-### <a name="compile-publish-and-configure-net-security-settings-for-a-form-template"></a>Compilation, publication et configuration des paramètres de sécurité .NET d'un modèle de formulaire
+### <a name="compile-publish-and-configure-net-security-settings-for-a-form-template"></a>Compilation, publication et configuration des paramètres de sécurité .NET d'un modèle de formulaire
 
 1. Créez et déboguez le modèle de formulaire dans Visual Studio 2012.
     
@@ -73,16 +73,16 @@ Pour plus de contrôle sur les autorisations accordées au code managé exécut�
     
     Le modèle de formulaire est compilé et l' **Assistant Publication** démarre. Suivez les étapes dans l' **Assistant Publication** pour déployer votre formulaire. Pour plus d'informations sur l'utilisation de l' **Assistant Publication**, recherchez « Publication d'un modèle de formulaire » dans l'aide d'InfoPath.
     
-3. Appliquez la procédure décrite dans la section « Affectation de FullTrust à formulaires à un spécifique URL ou UNC » de [Configurer les paramètres de sécurité pour les modèles de formulaires avec Code](how-to-configure-security-settings-for-form-templates-with-code.md)
+3. Exécutez la procédure décrite dans la section «affectation de la confiance totale à des formulaires dans une URL ou une UNC spécifique» de la section [configurer les paramètres de sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md) .
     
 ## <a name="see-also"></a>Voir aussi
 
 #### <a name="tasks"></a>Tâches
 
-[Configurer les paramètres de sécurité pour les modèles de formulaires avec Code](how-to-configure-security-settings-for-form-templates-with-code.md)
+[Configurer les paramètres de sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md)
 
 
-[Sur le modèle de sécurité pour les modèles de formulaires avec Code](about-the-security-model-for-form-templates-with-code.md)
+[À propos du modèle de sécurité pour les modèles de formulaire avec code](about-the-security-model-for-form-templates-with-code.md)
   
-[Afficher un aperçu et déboguer les modèles de formulaires nécessitant la confiance totale](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+[Afficher un aperçu et déboguer des modèles de formulaire exigeant l'autorisation totale](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
 

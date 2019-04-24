@@ -1,43 +1,43 @@
 ---
-title: Télécharger l’état de la hiérarchie
+title: Charger l'état de la hiérarchie
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3ed24682086556addf76b8451674a73bd82ce050
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f789f4d7bbaf585d0d80f2208c35313542dfc191
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286314"
 ---
-# <a name="upload-hierarchy-state"></a>Télécharger l’état de la hiérarchie
+# <a name="upload-hierarchy-state"></a>Charger l'état de la hiérarchie
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit le déroulement de l’état de la hiérarchie de téléchargement de l’ordinateur d’état de réplication. 
+ Cette rubrique décrit ce qui se passe lors de l'état de la hiérarchie de téléchargement de la machine à États de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
-|Structure de données associées :  <br/> |**[UPHIER](uphier.md)** <br/> |
-|À partir de cet état :  <br/> |[État de synchronisation](synchronize-state.md) <br/> |
-|Avec cet état :  <br/> |[Télécharger l’état du dossier](upload-folder-state.md), ou l’état de synchronisation  <br/> |
+|Identificateur d'État:  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
+|Structure de données associée:  <br/> |**[UPHIER](uphier.md)** <br/> |
+|À partir de cet État:  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
+|À cet État:  <br/> |[Charger l'état du dossier](upload-folder-state.md)ou synchroniser l'État  <br/> |
    
 > [!NOTE]
-> L’ordinateur d’état de réplication est une machine à états déterministe. Un client au départ d’un état à l’autre doit renvoyer par la suite à l’ancienne à partir de ce dernier. 
+> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui fait passer un État à un autre doit finalement revenir au premier de ce dernier. 
   
 ## <a name="description"></a>Description
 
-Cet état lance téléchargement d’une hiérarchie de dossiers qui a été spécifiée dans une synchroniser l’état. Outlook détermine le nombre de dossiers qui ont été créés ou modifiés dans cette hiérarchie et initialise *cEnt* dans **UPHIER**. Outlook conserve également le nombre de dossiers téléchargés avec un autre membre *iEnt* . Pour chacun des dossiers *cEnt* télécharger, le client déplace le magasin local dans l’état du dossier téléchargement, renvoi à l’état de la hiérarchie de téléchargement lorsque le téléchargement du dossier se termine. 
+Cet État lance le téléchargement d'une hiérarchie d'arborescence de dossiers qui a été spécifiée dans un état de synchronisation précédent. Outlook détermine le nombre de dossiers qui ont été créés ou modifiés dans cette hiérarchie et qui initialisent le **** *pourcentage* dans la valeur de la valeur de. Outlook conserve également le nombre de dossiers téléchargés avec un autre membre *iEnt* . Pour télécharger chacun des dossiers *cents* , le client déplace la banque locale dans l'état du dossier de chargement, en retournant à l'état de la hiérarchie de chargement une fois le téléchargement du dossier terminé. 
   
-Lorsque l’état de la hiérarchie de téléchargement se termine, la banque locale renvoie l’état de synchronisation.
+Une fois l'état de la hiérarchie de téléchargement terminé, le magasin local revient à l'État Synchronize.
   
 ## <a name="see-also"></a>Voir aussi
 

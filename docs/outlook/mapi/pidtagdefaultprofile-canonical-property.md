@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 47f745a4-5a9c-42af-b076-a72548ef4d31
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a315f1564f2980ad16ce2ba3da2308960f7d4b88
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8295ae6904f503ca831a00c1f35ac08596b5358c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269999"
 ---
 # <a name="pidtagdefaultprofile-canonical-property"></a>Propriété canonique PidTagDefaultProfile
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un profil utilisateur de messagerie est le profil par défaut MAPI.
+Contient la valeur TRUE si un profil utilisateur de messagerie est le profil MAPI par défaut.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la valeur TRUE si un profil utilisateur de messagerie est le profil par
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’apparaît pas en tant que propriété de tout objet, mais uniquement en tant que colonne dans une table de profil. Une application cliente peut utiliser la méthode [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md) pour désigner le profil par défaut. 
+Cette propriété n'apparaît pas sous la forme d'une propriété de n'importe quel objet, mais uniquement sous forme de colonne dans une table de profil. Une application cliente peut utiliser la méthode [IProfAdmin:: SetDefaultProfile](iprofadmin-setdefaultprofile.md) pour désigner le profil par défaut. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

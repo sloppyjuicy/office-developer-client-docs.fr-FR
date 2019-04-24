@@ -7,23 +7,23 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
-description: L’exemple de code XML de cette rubrique est une chaîne XML d’ami renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode ISocialPerson::GetFriendsAndColleagues. L’exemple montre les amis XML pour deux amis, délimités chacun par l’élément de la personne. Chaque ami spécifie une valeur unique pour l’élément userID sur le réseaux sociaux.
+description: "L'exemple XML de cette rubrique est une chaîne XML Friend renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode ISocialPerson:: GetFriendsAndColleagues. L'exemple montre le code XML Friends de deux amis, chacun étant délimité par l'élément person. Chaque ami spécifie une valeur unique pour l'élément userID sur le réseau social."
 ms.openlocfilehash: 5dbda1e4439f807ccc6e7abddd0ef654ae801fe0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280958"
 ---
 # <a name="friends-xml-example"></a>Exemple de code XML sur les amis
 
-L’exemple de code XML de cette rubrique est une chaîne XML d’ami renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) . L’exemple montre les **amis** XML pour deux amis, délimités chacun par l’élément de la **personne** . Chaque ami spécifie une valeur unique pour l’élément **userID** sur le réseaux sociaux. 
+L'exemple XML de cette rubrique est une chaîne XML Friend renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode [ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) . L'exemple montre le **** code XML Friends de deux amis, chacun étant délimité par l'élément **Person** . Chaque ami spécifie une valeur unique pour l'élément **userid** sur le réseau social. 
   
-Les éléments restants de **amis** XML ont des noms explicites. Pour obtenir une description détaillée de ces éléments, voir [XML pour vos amis](xml-for-friends.md). 
+Les éléments restants **** du XML Friends ont des noms explicites. Pour obtenir une description détaillée de ces éléments, consultez la rubrique [XML pour les amis](xml-for-friends.md). 
   
-## <a name="xml-example"></a>Exemple de code XML
+## <a name="xml-example"></a>Exemple XML
 
-L’exemple suivant montre les **amis** XML pour deux personnes sur le réseau social. 
+L'exemple suivant montre les **amis** XML de deux personnes sur le réseau social. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,8 +80,8 @@ L’exemple suivant montre les **amis** XML pour deux personnes sur le réseau s
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Exemples de code XML de fournisseur OSC](osc-provider-xml-examples.md)  
-- [Exemple de code XML des fonctionnalités](capabilities-xml-example.md) 
-- [Exemple de flux XML d’activité](activity-feed-xml-example.md) 
-- [Fournisseur Outlook Social Connector schéma XML](outlook-social-connector-provider-xml-schema.md)
+- [Exemples de fournisseurs XML OSC](osc-provider-xml-examples.md)  
+- [Exemple de XML de fonctionnalités](capabilities-xml-example.md) 
+- [Exemple de XML d'informations sur les activités](activity-feed-xml-example.md) 
+- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
 

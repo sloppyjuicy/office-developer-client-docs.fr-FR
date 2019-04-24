@@ -1,5 +1,5 @@
 ---
-title: Répondre aux événements à l’aide du modèle objet InfoPath 2003 de formulaire
+title: Répondre aux événements de formulaire à l'aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,20 +8,20 @@ keywords:
 localization_priority: Normal
 ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: Vous pouvez écrire du code pour répondre à différents événements qui se produisent lorsqu'un utilisateur remplit un formulaire. Pour utiliser des événements dans InfoPath, vous créez des gestionnaires d'événements dans le Concepteur InfoPath.
-ms.openlocfilehash: dff7b4f1657b7d1450d8b345521a747c0594462b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b7347f882df991e64bdf4e76c471b1220a84dc58
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300097"
 ---
-# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Répondre aux événements à l’aide du modèle objet InfoPath 2003 de formulaire
+# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Répondre aux événements de formulaire à l'aide du modèle objet InfoPath 2003
 
 Vous pouvez écrire du code pour répondre à différents événements qui se produisent lorsqu'un utilisateur remplit un formulaire. Pour utiliser des événements dans InfoPath, vous créez des gestionnaires d'événements dans le Concepteur InfoPath.
   
 Les gestionnaires d'événements InfoPath doivent être créés dans le Concepteur InfoPath car, lors de l'utilisation du modèle objet compatible InfoPath 2003, InfoPath ajoute automatiquement la déclaration appropriée et applique un attribut ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) dans le fichier de code de formulaire (FormCode.cs ou FormCode.vb) pour identifier et réceptionner le gestionnaire d'événements. Après avoir créé un gestionnaire d'événements, vous ne devez pas modifier sa déclaration et son attribut dans le fichier de code du formulaire. 
   
-Pour plus d’informations sur la création de gestionnaires d’événements InfoPath, voir [Ajouter un gestionnaire d’événement à l’aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Pour plus d'informations sur la création de gestionnaires d'événements InfoPath, voir [Ajouter un gestionnaire d'événements à l'aide du modèle objet infopath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="overview-of-the-event-objects"></a>Vue d'ensemble des objets d'événement
 
@@ -34,8 +34,8 @@ Le modèle objet compatible InfoPath 2003 implémente neuf objets exposés dans 
 |[DocContextChangeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocContextChangeEvent.aspx) <br/> |[OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx) <br/> |Renvoie des informations relatives au nœud DOM (Document Object Model) XML qui est le contexte actuel du document XML sous-jacent du formulaire.  <br/> |
 |[DocEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent.aspx) <br/> |[OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx) , [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) <br/> |Renvoie une référence au document XML sous-jacent d'un formulaire lors d'une opération de changement de vue ou de fusion de formulaires.  <br/> |
 |[DocReturnEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent.aspx) <br/> |[OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) , [OnSubmitRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSubmitRequest.aspx) <br/> |Renvoie une référence au document XML sous-jacent du formulaire accompagnée du statut de renvoi lors du chargement ou de l'envoi d'un formulaire.  <br/> |
-|[MergeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.MergeEvent.aspx) <br/> |[OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) <br/> |Renvoie les propriétés et méthodes qui peuvent être utilisées par programme pendant un événement **OnMergeRequest** pour interagissent avec le document XML sous-jacent d’un formulaire et déterminer des propriétés de fusion telles que le nombre de fichiers en cours de fusion.  <br/> |
-|[SaveEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SaveEvent.aspx) <br/> |[OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) <br/> |Renvoie un nombre de propriétés et méthodes qui peuvent être utilisés lors d’une opération à partir du Gestionnaire d’événement **OnSaveRequest** pour interagir avec le document XML sous-jacent d’un formulaire, déterminer les propriétés d’enregistrement et effectuer l’opération.  <br/> |
+|[MergeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.MergeEvent.aspx) <br/> |[OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) <br/> |Renvoie des propriétés et des méthodes qui peuvent être utilisées durant un événement **OnMergeRequest** pour interagir par programme avec le document XML sous-jacent d'un formulaire et déterminer des propriétés de fusion telles que le nombre de fichiers fusionnés.  <br/> |
+|[SaveEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SaveEvent.aspx) <br/> |[OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) <br/> |Renvoie un certain nombre de propriétés et de méthodes qui peuvent être utilisées durant une opération d'enregistrement à partir du gestionnaire d'événements **OnSaveRequest**, afin d'interagir par programme avec le document XML sous-jacent d'un formulaire, de déterminer les propriétés d'enregistrement et d'effectuer l'opération d'enregistrement.  <br/> |
 |[SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) <br/> |[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) <br/> |Utilisé pour ajouter des données supplémentaires à la signature numérique.  <br/> |
 |[VersionUpgradeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent.aspx) <br/> |[OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) <br/> |Renvoie une référence au document XML sous-jacent d'un formulaire, le statut de renvoi et les numéros de version du document et de la solution lors d'une opération de mise à niveau de la version.  <br/> |
    

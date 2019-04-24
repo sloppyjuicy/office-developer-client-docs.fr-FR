@@ -1,5 +1,5 @@
 ---
-title: Section [services] MapiSvc.inf
+title: Section [services] MapiSvc. inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99f8e623-3138-4def-9778-5580326111a5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 520478061e192f9fec97c6b13edde7833a13a3d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e5bf5242ef673976ebda928d6ce4862e3e7dd072
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270020"
 ---
-# <a name="mapisvcinf-services-section"></a>Section [services] MapiSvc.inf
+# <a name="mapisvcinf-services-section"></a>Section [services] MapiSvc. inf
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[Services]** répertorie les services de message qui sont installés sur un ordinateur. Entrées de cette section utilisent le format suivant : 
+La section **[services]** répertorie les services de messagerie installés sur un ordinateur. Les entrées de cette section utilisent le format suivant: 
   
- **[Services]**
+ **Services**
   
- _nom de la section service de message_ =  _nom de service de message_
+ _message-nom_ =  de la section du service de_messagerie nom du service_
   
-Le nom de la section service de message est qu'une chaîne définie par le service de message qui se lie cette entrée à la section correspondante pour le service ailleurs dans le fichier mapisvc.inf. Le nom de service de message est le nom du service installé. La section suivante montre les trois services du message : le Service de banque de messages, My Service propre et le carnet d’adresses par défaut. Ces services sont fictives, à des fins d’illustration uniquement. Chaque implémentation de service de message doit substituer l’entrée appropriée pour son service de message dans cette section.
+Le nom de section du service de message est une chaîne définie par le service de messagerie qui lie cette entrée à une section correspondante pour le service ailleurs dans MAPISVC. inf. Le nom du service de messagerie est le nom du service installé. La section suivante présente trois services de messagerie: le carnet d'adresses par défaut, mon propre service et le service de banque de messages. Ces services sont fictifs, à des fins d'illustration uniquement. Chaque implémenteur de service de messagerie substitue l'entrée appropriée pour son service de messagerie dans cette section.
   
 ```cpp
 [Services]
@@ -37,6 +37,6 @@ MS=Message Store Service
 
 ```
 
-Chaque entrée de cette section comporte une section correspondante qui lui est propre stockant des informations pour le service de message. Par exemple, la section correspondante pour le carnet d’adresses par défaut est appelée [AB].
+Chaque entrée de cette section a une section correspondante de son propre emplacement de stockage des informations sur le service de messagerie. Par exemple, la section correspondante pour le carnet d'adresses par défaut est appelée [AB].
   
 

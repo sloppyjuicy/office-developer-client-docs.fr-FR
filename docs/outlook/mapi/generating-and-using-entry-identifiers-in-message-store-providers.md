@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0c43546a-4788-4852-bc89-d6baa4f33c94
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 10634305130b0f465482cce025018d4929350513
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 005742eaaba81600be249d52e5d8098e9f286f17
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299810"
 ---
 # <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Génération et utilisation d’identificateurs d’entrées dans les fournisseurs de banques de messages
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsqu’un nouveau dossier ou un message est créé dans une banque de messages, le fournisseur de banque de message doit affecter à cet objet un identificateur d’entrée afin que les applications clientes peuvent faire. Fournisseurs de banque de message pouvant réutiliser les anciens identificateurs d’entrée à long terme d’objets supprimés ou créer de nouveaux identificateurs. Il y a aucun moyen d’une ou l’autre pour les fournisseurs de banque de messages ; Toutefois, s’il est possible, un fournisseur de magasin de message doit toujours générer nouveaux identificateurs d’entrée à long terme pour les nouveaux objets plutôt que d’anciens réutilisation. Il convient de réutiliser les identificateurs d’entrée à court terme lorsqu’ils se rapportent aux objets sont supprimés.
+Lorsqu'un nouveau dossier ou message est créé dans une banque de messages, le fournisseur de banque de messages doit affecter cet objet à un identificateur d'entrée afin que les applications clientes puissent y faire référence. Les fournisseurs de banques de messages peuvent réutiliser les identificateurs d'entrée à long terme obsolètes des objets supprimés ou créer des identificateurs. Il n'y a pas d'exigence d'une façon ou d'une autre pour les fournisseurs de banque de messages; Toutefois, si cela est possible, un fournisseur de banque de messages doit toujours générer de nouveaux identificateurs d'entrée à long terme pour les nouveaux objets au lieu de réutiliser les anciens. Il convient de réutiliser des identificateurs d'entrée à court terme lorsque les objets auxquels ils font référence sont supprimés.
   
-La raison de cette suppression est que les clients peuvent effectuer les identificateurs d’entrée, parfois pour de longues périodes. Si cela se produit et le fournisseur de banque de messages réutilise les identificateurs d’entrée, il est possible de l’identificateur d’entrée faire référence à un autre objet lorsque le client s’ouvre l’identificateur d’entrée que lorsqu’il obtenu tout d’abord l’identificateur d’entrée. Si le fournisseur de banque de messages ne réutilise pas les identificateurs d’entrée, ou au moins utilise un modèle génération identificateur d’entrée n’est pas extensible pour beaucoup de temps, ce problème ne peut pas se produire.
+La raison de cette suppression est que les clients peuvent mettre en cache des identificateurs d'entrée, parfois pendant de longues périodes. Si cela se produit et que le fournisseur de banque de messages réutilise des identificateurs d'entrée, il est possible que l'identificateur d'entrée fasse référence à un autre objet lorsque le client ouvre l'identificateur d'entrée plutôt que lors de la première obtention de l'identificateur d'entrée. Si le fournisseur de banque de messages ne réutilise pas les identificateurs d'entrée ou utilise au moins le schéma de génération de l'identificateur d'entrée qui n'est pas répété longtemps, ce problème ne peut pas se produire.
   
-De même, les fournisseurs de magasins de message doivent essayer de conserver les identificateurs d’entrée pour les dossiers et messages lorsqu’ils sont déplacés dans la banque de messages. Si le fournisseur de banque de message peut faire que, les références à des objets dans le magasin ne prendra non valides lorsque l’objet est déplacé vers un autre emplacement dans le magasin.
+De même, les fournisseurs de banques de messages doivent tenter de conserver les identificateurs d'entrée pour les dossiers et les messages lorsqu'ils sont déplacés dans la Banque de messages. Si le fournisseur de banque de messages peut effectuer cette opération, les références aux objets dans le magasin ne deviennent pas valides lorsque l'objet est déplacé vers un autre emplacement du magasin.
   
 ## <a name="see-also"></a>Voir aussi
 

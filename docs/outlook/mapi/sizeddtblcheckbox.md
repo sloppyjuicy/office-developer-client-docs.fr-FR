@@ -11,24 +11,24 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 6120439ea0d98ed6b64fe1542a4372265574723a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6d23d56a27095497aedc64d7bbf5ffda266d0c97
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282753"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLCHECKBOX](dtblcheckbox.md) pour la description d’un contrôle de case à cocher et une étiquette d’une longueur spécifiée. 
+Crée une structure nommée qui inclut une structure [DTBLCHECKBOX](dtblcheckbox.md) pour la description d'un contrôle case à cocher et une étiquette d'une longueur spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**DTBLCHECKBOX** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**DTBLCHECKBOX** <br/> |
    
 ```cpp
 SizedDtblCheckBox (n, u)
@@ -38,7 +38,7 @@ SizedDtblCheckBox (n, u)
 
 _n_
   
-> Longueur de l’étiquette à inclure dans la nouvelle structure.
+> Longueur de l'étiquette à inclure dans la nouvelle structure.
     
 _u_
   
@@ -46,14 +46,14 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblCheckBox** vous permet de définir une case à cocher lorsque le nombre de caractères de l’étiquette est connu. La nouvelle structure est créée avec les membres suivants : 
+La macro **SizedDtblCheckBox** vous permet de définir une case à cocher lorsque le nombre de caractères d'étiquette est connu. La nouvelle structure est créée avec les membres suivants: 
   
 ```cpp
 DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblCheckBox** comme un pointeur de structure **DTBLCHECKBOX** , effectuer le cast suivant : 
+Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblCheckBox** en tant que pointeur de structure **DTBLCHECKBOX** , effectuez la conversion suivante: 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;

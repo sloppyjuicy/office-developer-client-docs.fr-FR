@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b161c8c0da78b5ca872b87cad9a297169426d4cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 48ddb5a7c4e013c03138b08d9dadcdc0991faeec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279607"
 ---
 # <a name="iablogoncompareentryids"></a>IABLogon::CompareEntryIDs
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565003"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux identificateurs d’entrée pour déterminer si elles font référence au même objet.
+Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet.
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,19 +42,19 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID1_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ . 
     
  _lpEntryID1_
   
-> [in] Pointeur vers le premier identificateur d’entrée à comparer.
+> dans Pointeur vers le premier identificateur d'entrée à comparer.
     
  _cbEntryID2_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID2_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ . 
     
  _lpEntryID2_
   
-> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
+> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
     
  _ulFlags_
   
@@ -62,25 +62,25 @@ HRESULT CompareEntryIDs(
     
  _lpulRet_
   
-> [out] Pointeur vers le résultat de la comparaison. TRUE pour indiquer que les identificateurs de deux entrée font référence au même objet ; Sinon, FALSE.
+> remarquer Pointeur vers le résultat de la comparaison. TRUE pour indiquer que les deux identificateurs d'entrée font référence au même objet; Sinon, FALSe.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les identificateurs d’entrée ont été comparées avec succès.
+> Les identificateurs d'entrée ont été comparés avec succès.
     
 MAPI_E_INVALID_ENTRYID 
   
-> Une ou les deux les identificateurs d’entrée n’appartiennent pas au fournisseur de carnet d’adresses.
+> L'un des identificateurs d'entrée (ou les deux) n'appartient pas au fournisseur de carnet d'adresses.
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de carnet d’adresses implémentent la méthode **CompareEntryIDs** pour comparer deux identificateurs d’entrée pour déterminer si elles font référence au même objet. 
+Les fournisseurs de carnets d'adresses implémentent la méthode **CompareEntryIDs** pour comparer deux identificateurs d'entrée afin de déterminer s'ils font référence au même objet. 
   
- **CompareEntryIDs** est utile car un objet peut avoir plusieurs identificateurs d’entrée valide ; Cette situation peut se produire, par exemple, lorsque vous comparez un identificateur d’entrée à court terme avec un identificateur d’entrée à long terme. 
+ **CompareEntryIDs** est utile, car un objet peut avoir plus d'un identificateur d'entrée valide; une telle situation peut se produire, par exemple, lorsque vous comparez un identificateur d'entrée à court terme à un identificateur d'entrée à long terme. 
   
-Pour plus d’informations sur la création d’identificateurs d’entrée, voir [Identificateurs d’entrée MAPI](mapi-entry-identifiers.md).
+Pour plus d'informations sur la création d'identificateurs d'entrée, consultez la rubrique [MAPI Entry Identifiers](mapi-entry-identifiers.md).
   
 ## <a name="see-also"></a>Voir aussi
 

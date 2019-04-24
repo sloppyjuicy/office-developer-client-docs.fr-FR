@@ -11,24 +11,24 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 62911e0dec15002f39fff81e8c517c1cb11d0183
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c35a1eb54b29c04bc8eed453272b59aae0ea737e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282774"
 ---
 # <a name="sizedadrlist"></a>SizedADRLIST
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit une structure [ADRLIST](adrlist.md) avec le nom spécifié qui contient un nombre spécifié de structures [ADRENTRY](adrentry.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**ADRLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 SizedADRLIST (_centries,_name)
@@ -46,7 +46,7 @@ __nom_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedADRLIST** vous permet de définir une liste de destinataires qui a des limites explicites lorsque les besoins en matière de longueur de tableau. Le code suivant montre comment convertir le résultat de la macro **SizedADRLIST** vers un pointeur de structure **ADRLIST** : 
+La macro **SizedADRLIST** vous permet de définir une liste de destinataires qui contient des limites explicites lorsque les exigences de longueur de tableau sont connues. Le code suivant montre comment convertir le résultat de la macro **SizedADRLIST** en pointeur de structure **ADRLIST** : 
   
 ```cpp
 lpADRList = (LPADRLIST) &SizedADRList;

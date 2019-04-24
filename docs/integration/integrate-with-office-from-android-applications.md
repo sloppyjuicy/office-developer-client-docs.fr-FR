@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a765fa49-a272-4047-9147-59cc68e5dd27
 description: Office pour Android fournit une solution extensible qui permet l'intégration avec des applications tierces. Vous pouvez exécuter une intégration avec Office à partir de votre application Android en transférant les utilisateurs de votre application vers Office.
 ms.openlocfilehash: 4e674b3d66f3acba7e9c9c19e716ff0d73d803b2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303149"
 ---
 # <a name="integrate-with-office-from-android-applications"></a>Intégration à Office à partir d'applications Android
 
@@ -55,7 +55,7 @@ Lorsque l'application Office est installée, votre application référente peut 
   
 - Protocole Office
     
-- Mode d'ouverture
+- Mode d’ouverture
     
 - URL
     

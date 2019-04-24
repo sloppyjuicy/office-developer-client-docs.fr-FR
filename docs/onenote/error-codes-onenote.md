@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 390df5ce-e730-470d-b6e9-0de4a3e904f8
 description: This topic lists the error codes in the OneNote 2013 object model.
-ms.openlocfilehash: 58c4d5d96182c49a1bc447c44763b9aaef1734ba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 83f8ad3d686693c82db1e57b8e37fa21ad140ab9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303100"
 ---
 # <a name="error-codes-onenote"></a>Codes d'erreur (OneNote 2013)
 

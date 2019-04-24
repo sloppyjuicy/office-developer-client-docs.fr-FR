@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 01df4be4-98a1-4159-a06d-9ccf4337198f
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ec1c07a8d2c88680ebd94cf8ecd6901ed86ad100
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8a45a9fd0d40c16d110fd52be1ac1117e1dd4d04
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299411"
 ---
 # <a name="grouping-and-restricting-tables-in-message-store-providers"></a>Regroupement et limitation des tables dans les fournisseurs de banques de messages
 
@@ -21,17 +21,17 @@ ms.locfileid: "22578786"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Applications clientes permettent souvent aux utilisateurs contrôler comment le contenu d’un dossier s’affiche. En règle générale, un utilisateur peut choisir que les messages regroupés en fonction de la valeur d’une ou plusieurs propriétés de message, ou peut choisir d’exclure les messages qui correspondent à certains critères. Cette opération est effectuée à l’aide de la [IMAPITable : IUnknown](imapitableiunknown.md) interface. Applications clientes peuvent restreindre les lignes renvoyées à partir de la table à l’utilisateur spécifie tous les critères. Par conséquent, un message stocker fournisseur doit implémenter les méthodes **IMAPITable** suivantes. 
+Les applications clientes permettent souvent aux utilisateurs de contrôler le mode d'affichage du contenu d'un dossier. En règle générale, un utilisateur peut choisir de regrouper les messages en fonction de la valeur d'une ou plusieurs propriétés de message ou choisir d'exclure les messages qui répondent à certains critères. Cette opération est réalisée à l'aide de l'interface [IMAP: IUnknown](imapitableiunknown.md) . Les applications clientes peuvent restreindre les lignes renvoyées par la table à tous les critères spécifiés par l'utilisateur. Par conséquent, un fournisseur de banque de messages doit implémenter les méthodes **IMAPITable** suivantes. 
   
-|Méthode IMAPITable ** **|**Description**|
+|IMAPITable * * méthode * *|**Description**|
 |:-----|:-----|
-|[IMAPITable::FindRow](imapitable-findrow.md) <br/> |Renvoie la table lignes qui correspondent aux critères spécifiés.  <br/> |
-|[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |Renvoie l’ensemble de colonnes dans une table ou de l’ensemble des colonnes actuellement utilisées.  <br/> |
-|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Renvoie une ou plusieurs lignes d’une table, à partir d’une position donnée.  <br/> |
-|[IMAPITable::Restrict](imapitable-restrict.md) <br/> |Applique une restriction à une table de sorte que les appels suivants à **FindRow** retournent uniquement les lignes qui correspondent à la restriction.  <br/> |
-|[IMAPITable::SetColumns](imapitable-setcolumns.md) <br/> |Spécifie les colonnes qui doivent être retournés lorsque des lignes de la table.  <br/> |
+|[IMAPITable::FindRow](imapitable-findrow.md) <br/> |Renvoie les lignes de tableau qui correspondent aux critères spécifiés.  <br/> |
+|[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |Renvoie le jeu de colonnes d'un tableau ou l'ensemble des colonnes actuellement utilisées.  <br/> |
+|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Renvoie une ou plusieurs lignes d'une table, en commençant à partir d'une position donnée.  <br/> |
+|[IMAPITable::Restrict](imapitable-restrict.md) <br/> |Applique une restriction à un tableau de sorte que les appels ultérieurs à **FindRow** renvoient uniquement les lignes correspondant à la restriction.  <br/> |
+|[IMAPITable::SetColumns](imapitable-setcolumns.md) <br/> |Spécifie les colonnes qui doivent être renvoyées lorsque les lignes sont extraites de la table.  <br/> |
    
-Restrictions peuvent être complexes à implémenter ; Pour plus d’informations, voir [à propos des Restrictions](about-restrictions.md). Pour plus d’informations sur l’implémentation de tables, voir [Tables de MAPI](mapi-tables.md).
+Les restrictions peuvent être complexes à implémenter; Pour plus d'informations, consultez la rubrique [à propos des restrictions](about-restrictions.md). Pour plus d'informations sur l'implémentation des tables, voir [MAPI tables](mapi-tables.md).
   
 ## <a name="see-also"></a>Voir aussi
 

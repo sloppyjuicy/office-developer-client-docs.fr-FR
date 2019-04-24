@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble du fournisseur MAPI adresse téléchargeable
+title: Vue d'ensemble du fournisseur de carnets d'adresses MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,33 +7,33 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ead51434-ae19-4c34-aa7a-bdeeccca5bd9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 855b145bcca8007601eb8e841665306d4c58982f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: ee628f4b11cb174c05a16ca60c9ec830a0e9abbe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298140"
 ---
-# <a name="mapi-address-book-provider-overview"></a>Vue d’ensemble du fournisseur MAPI adresse téléchargeable
+# <a name="mapi-address-book-provider-overview"></a>Vue d'ensemble du fournisseur de carnets d'adresses MAPI
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Carnet d’adresses fournisseurs poignée de l’accès aux informations d’annuaire. Informations d’annuaire se composent de données pour deux types de destinataires du message : individuels de messagerie des utilisateurs et groupes d’utilisateurs de messagerie qui sont généralement traités ensemble dans des listes de distribution. Selon le type de destinataire et le fournisseur de carnet d’adresses, il est un large éventail d’informations qui peuvent être rendues disponibles. Par exemple, tous les fournisseurs de carnet d’adresses stockent le nom, adresse et type d’adresse d’un destinataire.
+Les fournisseurs de carnet d'adresses gèrent l'accès aux informations d'annuaire. Les informations d'annuaire sont constituées de données pour deux types de destinataires de message: les utilisateurs de messagerie individuels et les groupes d'utilisateurs de messagerie qui sont généralement regroupés dans les listes de distribution. En fonction du type de destinataire et du fournisseur de carnets d'adresses, il existe un large éventail d'informations pouvant être mises à disposition. Par exemple, tous les fournisseurs de carnets d'adresses stockent le nom, l'adresse et le type d'adresse d'un destinataire.
   
-Chaque fournisseur de carnet d’adresses organise ces données à l’aide d’un ou plusieurs conteneurs. Le nombre et la structure des conteneurs varie selon l’implémentation du fournisseur de carnet d’adresses. Par exemple, un fournisseur de carnet d’adresses peut utiliser un seul conteneur pour stocker toutes les informations, une autre peut utiliser un conteneur de niveau supérieur qui contient les sous-conteneurs et une troisième peut utiliser plusieurs conteneurs de niveau supérieur, chaque sous-conteneurs de cette dernière. Une hiérarchie de conteneur de carnets d’adresses peut être très profonde ; Il n’existe aucune limite au nombre de sous-conteneurs qui peut être utilisé.
+Chaque fournisseur de carnet d'adresses organise ces données à l'aide d'un ou de plusieurs conteneurs. Le nombre et la structure des conteneurs dépend de l'implémentation du fournisseur de carnet d'adresses. Par exemple, un fournisseur de carnet d'adresses peut utiliser un conteneur unique pour conserver toutes les informations, un autre peut utiliser un conteneur de niveau supérieur qui contient des sous-conteneurs, et un troisième peut utiliser plusieurs conteneurs de niveau supérieur, chacun contenant des sous-conteneurs. Une hiérarchie de conteneur de carnet d'adresses peut être assez profonde; Il n'existe pas de limite au nombre de sous-conteneurs pouvant être utilisés.
   
-L’illustration suivante montre une organisation de carnet d’adresses MAPI par défaut.
+L'illustration suivante montre une organisation de carnet d'adresses MAPI standard.
   
 **Organisation de carnet d’adresses**
   
-![Organisation de carnet d’adresses] (media/amapi_04.gif "Organisation de carnet d’adresses")
+![Organisation du carnet d'adresses] (media/amapi_04.gif "Organisation du carnet d'adresses")
   
-MAPI intègre toutes les informations fournies par les fournisseurs de carnet d’adresses installé dans un carnet d’adresses unique, présentant une vue unifiée à l’application cliente. La liste intégrée affiche les conteneurs de niveau supérieur affichés par chacun des fournisseurs de carnet d’adresses installé. La plupart des fournisseurs de carnet d’adresses exposent uniquement quelques conteneurs (généralement une 1 à 3) au niveau supérieur à inclure dans la partie supérieure du carnet d’adresses intégré MAPI. Par exemple, un fournisseur de carnet d’adresses peut rendre disponibles « tous les utilisateurs » et « Local » en tant que deux conteneurs de premier niveau.
+MAPI intègre toutes les informations fournies par les fournisseurs de carnets d'adresses installés dans un seul carnet d'adresses, présentant une vue unifiée à l'application cliente. La liste intégrée affiche les conteneurs de niveau supérieur affichés par chacun des fournisseurs de carnets d'adresses installés. La plupart des fournisseurs de carnets d'adresses n'exposent qu'un petit nombre de conteneurs (généralement 1 à 3) au niveau supérieur pour l'inclusion au niveau supérieur du carnet d'adresses intégré MAPI. Par exemple, un fournisseur de carnets d'adresses peut mettre à disposition «tous les utilisateurs» et «utilisateurs locaux» en tant que deux conteneurs au niveau supérieur.
   
-Les utilisateurs d’applications clientes peuvent afficher le contenu de conteneurs de carnet d’adresses et, dans certains cas, modifier le contenu. Conteneurs de carnet d’adresses peuvent être créés avec différents niveaux d’accès, selon le fournisseur de carnet d’adresses. 
+Les utilisateurs des applications clientes peuvent afficher le contenu des conteneurs du carnet d'adresses et, dans certains cas, modifier le contenu. Les conteneurs du carnet d'adresses peuvent être créés avec différents niveaux d'accès, en fonction du fournisseur de carnet d'adresses. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Architecture et des fonctionnalités MAPI](mapi-features-and-architecture.md)
+- [Architecture et fonctionnalités MAPI](mapi-features-and-architecture.md)
 

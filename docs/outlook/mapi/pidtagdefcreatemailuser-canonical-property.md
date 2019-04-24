@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e8293dc9-f2f1-4065-89f4-e734a8db63df
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 21fdff2aa713905a27a3d0cc5545ceb59f030378
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: cd09c85e4f44bbea29807d72a273ccf6980ca6df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269985"
 ---
 # <a name="pidtagdefcreatemailuser-canonical-property"></a>Propriété canonique PidTagDefCreateMailuser
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée de modèle pour l’objet utilisateur de messagerie par défaut. 
+Contient l'identificateur d'entrée de modèle pour un objet utilisateur de messagerie par défaut. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient l’identificateur d’entrée de modèle pour l’objet utilisateur de
    
 ## <a name="remarks"></a>Remarques
 
-Applications clientes utilisent cette propriété pour créer un objet utilisateur de messagerie dans un conteneur. Prise en charge de la création de l’entrée est facultatif pour les conteneurs de carnet d’adresses ; ceux qui ne prennent pas en charge qu’il ne sont pas nécessaire d’exposer cette propriété. 
+Les applications clientes utilisent cette propriété pour créer un objet utilisateur de messagerie dans un conteneur. La prise en charge de la création d'entrées est facultative pour les conteneurs du carnet d'adresses; les personnes qui ne le prennent pas en charge n'ont pas besoin d'exposer cette propriété. 
   
-Cette propriété spécifie une entrée qui peut s’afficher dans la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) pour les utilisateurs de messagerie. Après avoir obtenu l’identificateur, le client utilise un appel à la méthode [IABContainer::CreateEntry](iabcontainer-createentry.md) . L’entrée représente le modèle de l’utilisateur de messagerie par défaut. 
+Cette propriété spécifie une entrée pouvant apparaître dans la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) pour les utilisateurs de messagerie. Après avoir obtenu l'identificateur, le client l'utilise dans un appel à la méthode [IABContainer:: CreateEntry](iabcontainer-createentry.md) . L'entrée représente le modèle pour l'utilisateur de messagerie par défaut. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

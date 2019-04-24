@@ -1,5 +1,5 @@
 ---
-title: Gérer les notifications
+title: Gestion des notifications
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,44 +7,44 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 451b71da-a888-4d8f-9814-12f9f846de05
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4c19e88ac1cfb29a9841ec78516410e23b3e5403
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e261b71a8e94d9db3b1b17168d84798dfe18955d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299385"
 ---
-# <a name="handling-notifications"></a>Gérer les notifications
+# <a name="handling-notifications"></a>Gestion des notifications
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Notifications d’activer un seul objet informer un autre objet qu’il a subi une modification. Le type de modification correspond à un événement. MAPI définit plusieurs événements pour lequel les notifications sont générées. 
+Les notifications permettent à un objet d'informer un autre objet qu'il a subi une modification. Le type de modification est appelé un événement. MAPI définit plusieurs événements pour lesquels des notifications sont générées. 
   
-Généralement, les clients enregistrent pour un ou plusieurs des événements avec un ou plusieurs objets. Ces objets sont appelés des sources de notification. Les objets qui peuvent être utilisés comme sources de notification comprennent l’objet de session, sous contrôle de MAPI, ou un objet créé par un fournisseur de services, comme un message. L’objet informé, appelé le récepteur de notifications contient une mise en œuvre de la [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface ou la [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) de l’interface et se trouve dans une application cliente. 
+Les clients s'inscrivent généralement pour un ou plusieurs événements avec un ou plusieurs objets. Ces objets sont appelés sources de notification. Les objets pouvant agir en tant que sources de notification incluent l'objet session, sous le contrôle de l'interface MAPI, ou un objet créé par un fournisseur de services, tel qu'un message. L'objet éclairé, appelé récepteur de notifications, contient une implémentation de l'interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) ou de l'interface [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) et se trouve dans une application cliente. 
   
-Les objets source Advise implémentent une méthode **Advise** , qui est appelée par les clients pour s’inscrire pour les notifications et une méthode **Unadvise** , qui est appelée pour annuler l’inscription d’une. L’un des paramètres à **Advise** est un pointeur vers une implémentation de **IMAPIAdviseSink** ou ** IMAPIViewAdviseSink **. La source advise met en cache ce pointeur afin qu’il peut appeler [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) ou une des méthodes dans **IMAPIViewAdviseSink** lorsqu’une modification se produit. 
+Les objets source d'avis **** implémentent une méthode Advise, qui est appelée par les clients pour s'inscrire aux notifications, et une méthode Unadvise qui est appelée pour annuler une inscription. **** L'un des paramètres à **conseiller** est un pointeur vers une implémentation de **IMAPIAdviseSink** ou de * * IMAPIViewAdviseSink * *. La source de notification met en cache ce pointeur afin qu'il puisse appeler [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) ou l'une des méthodes dans **IMAPIViewAdviseSink** lorsqu'une modification se produit. 
   
-Recevoir des notifications permet aux utilisateurs d’afficher les informations les plus récentes, il est recommandé que tous les clients s’inscrire pour et gérer les notifications. Toutefois, il est facultatif.
+Étant donné que la réception des notifications permet aux utilisateurs de visualiser les informations les plus à jour, il est recommandé que tous les clients s'inscrivent et gèrent les notifications. Toutefois, il est facultatif.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Inscription pour une Notification](registering-for-a-notification.md): explique comment inscrire un client pour les notifications dans le cadre du processus d’initialisation.
+- [Inscription pour une notification](registering-for-a-notification.md): décrit comment enregistrer un client pour les notifications dans le cadre de son processus d'initialisation.
     
-- [Annulation d’une Notification](canceling-a-notification.md): explique comment annuler un abonnement à une notification.
+- [Annulation d'une notification](canceling-a-notification.md): explique comment annuler un abonnement à une notification.
     
-- [Gestion des notifications de stocker Message](handling-message-store-notification.md): décrit comment s’inscrire pour les notifications de banque de messages.
+- [Gestion](handling-message-store-notification.md)des notifications de banque de messages: décrit comment s'inscrire pour les notifications de banque de messages.
     
-- [Remise de Notification de carnet d’adresses](handing-address-book-notification.md): explique comment inscrire et gérer les notifications de carnet d’adresses.
+- Gestion des notifications de [carnet](handing-address-book-notification.md)d'adresses: décrit comment inscrire et gérer les notifications de carnet d'adresses.
     
-- [Gestion de la Notification de Table](handling-table-notification.md): décrit comment s’inscrire pour les notifications de la table de hiérarchie.
+- [Gestion des notifications de table](handling-table-notification.md): décrit comment s'inscrire aux notifications à partir de la table de hiérarchie.
     
-- [L’implémentation d’un objet récepteur de notification](implementing-an-advise-sink-object.md): explique comment implémenter un objet de réception de notifications.
+- [Implémentation d'un objet de récepteur](implementing-an-advise-sink-object.md)de notifications: décrit comment implémenter un objet récepteur de notifications.
     
-- [Une Notification de minutage](timing-a-notification.md): décrit la planification de notification du client par les fournisseurs de services.
+- [Chronométrage d'une notification](timing-a-notification.md): décrit le calendrier des notifications client par les fournisseurs de services.
     
-- [Assurer une Notification de Thread-Safe](ensuring-a-thread-safe-notification.md): décrit comment s’assurer de notification de thread-safe MAPI.
+- [Vérification de la notification de thread-safe](ensuring-a-thread-safe-notification.md): décrit comment garantir la notification thread-safe avec MAPI.
     
-- [Forcer une Notification](forcing-a-notification.md): décrit comment forcer une notification MAPI.
+- [Forcer une notification](forcing-a-notification.md): explique comment forcer une notification dans MAPI.
     
 

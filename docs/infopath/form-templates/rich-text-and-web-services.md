@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 53fddc3f-e9d9-db76-6b84-11befdb23fb0
 description: "Microsoft InfoPath prend en charge la liaison d'un contrôle Zone de texte mis en forme dans un formulaire à un élément XML reçu à partir d'un service Web, ainsi que l'envoi de données à partir d'un tel contrôle vers un élément XML via un service Web. L'élément doit respecter le format XHTML (Extensible HyperText Markup Language). Par exemple, le schéma d'un élément nommé MyRichTextElement qui contient du texte enrichi aurait la définition de schéma XML suivante :"
 ms.openlocfilehash: d10f4a8cedcff43d1c351068859aee0edf607c81
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299845"
 ---
 # <a name="rich-text-and-web-services"></a>Texte enrichi et services Web
 
@@ -136,7 +136,7 @@ Pour créer un formulaire afin de tester le service Web en exemple, procédez co
     
 3. Dans la boîte de dialogue **Assistant Connexion de données**, cliquez sur **Réception des données**, puis sur **Suivant**.
     
-4. Tapez l'adresse du service Web qui contient les méthodes du service Web en exemple, puis cliquez sur **Suivant**. 
+4. Tapez l’adresse du service Web qui contient les méthodes du service Web en exemple, puis cliquez sur **Suivant**.  
     
 5. Pour la méthode de réception, sélectionnez **getXhtml** comme opération, puis cliquez sur **Suivant**.
     

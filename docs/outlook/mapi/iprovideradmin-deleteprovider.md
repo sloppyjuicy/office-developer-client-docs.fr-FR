@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0065b50f-95f6-4af1-81c2-a73e5111eecf
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: db09b44bd8eeeb3ab56513b1b9c2cab69f776002
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 28dbbb98c9810bb688b9ecdd730ef6c4ada5f60b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279548"
 ---
 # <a name="iprovideradmindeleteprovider"></a>IProviderAdmin::DeleteProvider
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590084"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime un fournisseur de services à partir du service de message.
+Supprime un fournisseur de services du service de messagerie.
   
 ```cpp
 HRESULT DeleteProvider(
@@ -37,31 +37,31 @@ HRESULT DeleteProvider(
 
  _lpUID_
   
-> [entrée, sortie] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique qui représente le fournisseur à supprimer. 
+> [in, out] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l'identificateur unique qui représente le fournisseur à supprimer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le fournisseur a été supprimé du service de message.
+> Le fournisseur a été supprimé du service de messagerie.
     
 MAPI_E_NOT_FOUND 
   
-> Le **MAPIUID** désignés par le paramètre _lpUID_ n’a pas été reconnue. 
+> Le **MAPIUID** pointé par le paramètre _lpUID_ n'a pas été reconnu. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProviderAdmin::DeleteProvider** supprime un fournisseur de services à partir du service de message. **DeleteProvider** détermine le fournisseur de service à supprimer en faisant correspondre la structure **MAPIUID** désignée par _lpUID_ avec l’ensemble des identificateurs enregistré par les fournisseurs de service active. 
+La méthode **IProviderAdmin::D eleteprovider** supprime un fournisseur de services du service de messagerie. **DeleteProvider** détermine le fournisseur de services à supprimer en faisant correspondre la structure **MAPIUID** désignée par _lpUID_ à l'ensemble des identificateurs enregistrés par les fournisseurs de services actifs. 
   
-La plupart des services de messagerie ne permettent pas de fournisseurs d’être supprimée alors que le profil est en cours d’utilisation. Si le fournisseur à supprimer est en cours d’utilisation, **DeleteProvider** la marque pour suppression et non immédiatement et renvoie S_OK. Lorsque le fournisseur est n’est plus utilisé, il est supprimé. 
+La plupart des services de messagerie n'autorisent pas la suppression des fournisseurs lorsque le profil est en cours d'utilisation. Si le fournisseur à supprimer est en cours d'utilisation, **DeleteProvider** le marque pour suppression au lieu de le supprimer immédiatement et renvoie S_OK. Lorsque le fournisseur n'est plus utilisé, il est supprimé. 
   
- **DeleteProvider** appelle la fonction de point d’entrée du message service avant que le fournisseur est supprimé à partir du service. Le paramètre _ulContext_ est défini à MSG_SERVICE_PROVIDER_DELETE. La fonction de point d’entrée de message service effectue les tâches suivantes : 
+ **DeleteProvider** appelle la fonction de point d'entrée du service de messagerie avant que le fournisseur ne soit supprimé du service. Le paramètre _ulContext_ est défini sur MSG_SERVICE_PROVIDER_DELETE. La fonction de point d'entrée du service de messagerie effectue les tâches suivantes: 
   
 - Supprime le fournisseur de services.
     
-- Supprime la section de profil du fournisseur de services.
+- Supprime la section Profil du fournisseur de services.
     
-La fonction de point d’entrée de message service n’est pas encore appelée une fois que le fournisseur a été supprimé.
+La fonction de point d'entrée du service de messagerie n'est pas rappelée après la suppression du fournisseur.
   
 ## <a name="see-also"></a>Voir aussi
 

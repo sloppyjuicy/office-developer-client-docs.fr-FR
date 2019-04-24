@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3b0679c37b04b05f240d8cea1b777a430c66d18e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c6a2206cf75308ad7fb955283f22eca3be9e0b3a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283169"
 ---
 # <a name="pidtagcontactversion-canonical-property"></a>Propriété canonique PidTagContactVersion
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la version des informations de contact d’un destinataire.
+Contient la version des informations de contact d'un destinataire.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la version des informations de contact d’un destinataire.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une des propriétés qui fournit l’identification et accéder aux informations sur un destinataire. Ces propriétés sont définies par le destinataire et l’organisation du destinataire.
+Cette propriété est l'une des propriétés qui fournit des informations d'identification et d'accès à un destinataire. Ces propriétés sont définies par le destinataire et l'organisation du destinataire.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

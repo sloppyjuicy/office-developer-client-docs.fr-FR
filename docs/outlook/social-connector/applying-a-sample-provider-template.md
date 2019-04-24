@@ -1,5 +1,5 @@
 ---
-title: Appliquer un modèle de fournisseur
+title: Application d'un exemple de modèle de fournisseur
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,38 +7,38 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: da487569-f2f0-404c-b944-38ed1c1b82bb
-description: 'Les exemples de modèles de fournisseur Outlook Social Connector (OSC) vous fournissent une infrastructure pour l’implémentation d’un fournisseur OSC. '
-ms.openlocfilehash: 2388da58690e1870434c576bfa68649937156c54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: "Les modèles de fournisseurs Outlook Social Connector (OSC) vous permettent d'implémenter un fournisseur OSC. "
+ms.openlocfilehash: 10fb21ab640e298bc655b8cad554fae789e2ad47
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281126"
 ---
-# <a name="applying-a-sample-provider-template"></a>Appliquer un modèle de fournisseur
+# <a name="applying-a-sample-provider-template"></a>Application d'un exemple de modèle de fournisseur
 
-Les exemples de modèles de fournisseur Outlook Social Connector (OSC) vous fournissent une infrastructure pour l’implémentation d’un fournisseur OSC. Les modèles du fournisseur sont disponibles en C++, Visual C# et Visual Basic. Ces modèles sont simplement un point de départ pour le développement de votre fournisseur ; les modèles ne répondent pas écrire le code d’implémentation pour le fournisseur et la création d’un package d’installation pour le fournisseur. La procédure suivante montre comment appliquer un modèle de fournisseur OSC lorsque vous commencez à développer un fournisseur.
+Les modèles de fournisseurs Outlook Social Connector (OSC) vous permettent d'implémenter un fournisseur OSC. Les modèles de fournisseur sont disponibles en C++, C# et Visual Basic. Ces modèles ne constituent qu'un point de départ pour le développement de votre fournisseur; les modèles ne traitent pas de l'écriture du code d'implémentation pour le fournisseur et de la création d'un package de configuration pour le fournisseur. La procédure suivante montre comment appliquer un modèle de fournisseur OSC lorsque vous commencez à développer un fournisseur.
   
 ### <a name="to-apply-an-osc-provider-template"></a>Pour appliquer un modèle de fournisseur OSC
 
-1. Dans le menu **Démarrer** , cliquez sur **Microsoft Visual Studio 2010** , cliquez sur la commande **Exécuter en tant qu’administrateur** . Lorsque vous y êtes invité, cliquez sur **Oui** pour exécuter Visual Studio en tant qu’administrateur. 
+1. Dans le menu **Démarrer** , cliquez avec le bouton droit sur **Microsoft Visual Studio 2010** , puis cliquez sur la commande **exécuter en tant qu'administrateur** . Lorsque vous y êtes invité, cliquez sur **Oui** pour exécuter Visual Studio en tant qu'administrateur. 
     
-2. Remplacez le nom du projet et l’espace de noms dans le modèle de votre nom et l’espace de noms des identificateurs de projet.
+2. Remplacez le nom du projet et l'espace de noms dans le modèle par le nom de votre projet et les identificateurs d'espace de noms.
     
-3. Modifiez la classe **AssemblyInfo** pour spécifier les informations d’assembly approprié. 
+3. Modifiez la classe **AssemblyInfo** pour spécifier les informations d'assembly appropriées. 
     
-4. Implémenter les membres de l’interface marqués comme étant **des tâches** et ajoutez les autres dépendances et les références, selon les besoins. 
+4. Implémentez les membres d'interface marqués comme **to-do** et ajoutez des dépendances et des références supplémentaires, selon les besoins. 
     
-5. Générez le projet.
+5. Créez le projet.
     
-6. Assurez-vous que l’assembly du fournisseur ProgID est répertorié en tant que clé sous `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`.
+6. Assurez-vous que le ProgID d'assembly du fournisseur `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`est affiché sous la forme d'une clé sous.
     
-7. Pour distribuer le projet d’installation, créez un projet d’installation dans Visual Studio ou un outil de configuration de votre choix.
+7. Pour distribuer le projet d'installation, créez un projet de configuration dans Visual Studio ou un outil de configuration de votre choix.
     
-8. Votre projet d’installation doit effectuer l’enregistrement COM pour l’assembly et créer la clé ProgID comme indiqué à l’étape 5.
+8. Votre projet de configuration doit terminer l'inscription COM pour votre assembly et créer la clé ProgID comme décrit à l'étape 5.
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Téléchargement d’exemples](downloading-the-samples.md)
+- [Téléchargement des exemples](downloading-the-samples.md)
 - [Exemples de modèles de OSC](osc-sample-templates.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Fenêtres de formulaires
+title: Utilisation des fenêtres de formulaire
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 32ae2427-882b-45f8-8754-0e8c27fc23ba
 description: Lorsque vous utilisez un formulaire InfoPath par programmation, vous pouvez écrire du code pour accéder à ses fenêtres et personnaliser certains éléments qu'elles contiennent. Le modèle objet InfoPath fourni par l'espace de noms Microsoft.Office.InfoPath prend en charge l'accès aux fenêtres d'un formulaire par le biais de la classe Window associée à la classe WindowCollection .
-ms.openlocfilehash: 5b24798e92849a2d79bf836e12dd91845ee58942
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 018357519e27629c29b2611bd0a88b8d64f0a1eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303555"
 ---
-# <a name="work-with-form-windows"></a>Fenêtres de formulaires
+# <a name="work-with-form-windows"></a>Utilisation des fenêtres de formulaire
 
 Lorsque vous utilisez un formulaire InfoPath par programmation, vous pouvez écrire du code pour accéder à ses fenêtres et personnaliser certains éléments qu'elles contiennent. Le modèle objet InfoPath fourni par l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) prend en charge l'accès aux fenêtres d'un formulaire par le biais de la classe [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) associée à la classe [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.aspx) . 
   
@@ -36,30 +36,30 @@ La classe [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office
   
 |**Nom**|**Description**|
 |:-----|:-----|
-|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Count.aspx)  <br/> |Obtient le nombre d’objets [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) contenus dans la collection.  <br/> |
-|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Item.aspx)  <br/> |Obtient une référence à l’objet [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) spécifié.  <br/> |
+|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Count.aspx)  <br/> |Obtient le nombre d'objets [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) contenus dans la collection.  <br/> |
+|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Item.aspx)  <br/> |Obtient une référence à l'objet [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) spécifié.  <br/> |
    
 ## <a name="overview-of-the-window-class"></a>Vue d'ensemble de la classe Window
 
-La classe [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) contient les méthodes et les propriétés suivantes destinées aux développeurs de formulaires pour interagir avec une fenêtre InfoPath. La prise en charge de ces méthodes et propriétés dépend du type de fenêtre ( [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) ) que vous utilisez. Certaines méthodes et propriétés fonctionnent uniquement avec le type de fenêtre Éditeur (**WindowType.Editor**). Les méthodes et les propriétés restantes fonctionnent avec le type de fenêtre Éditeur et le type de fenêtre du concepteur (**WindowType.Designer**). Par ailleurs, comme pour tous les membres de modèles objets InfoPath, la prise en charge des méthodes et des propriétés varie selon le niveau de sécurité et les modalités de déploiement du formulaire lorsque cette prise en charge est appelée à partir d'un modèle de formulaire.
+La classe [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) contient les méthodes et les propriétés suivantes destinées aux développeurs de formulaires pour interagir avec une fenêtre InfoPath. La prise en charge de ces méthodes et propriétés dépend du type de fenêtre ( [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) ) que vous utilisez. Certaines méthodes et propriétés fonctionnent uniquement avec les fenêtres d'édition (**WindowType.Editor**). Les autres méthodes et propriétés fonctionnent à la fois avec les fenêtres d'édition et les fenêtres de création (**WindowType.Designer**). Par ailleurs, comme pour tous les membres de modèles objets InfoPath, la prise en charge des méthodes et des propriétés varie selon le niveau de sécurité et les modalités de déploiement du formulaire lorsque cette prise en charge est appelée à partir d'un modèle de formulaire.
   
-|**Nom**|**Description**|**Prise en charge du Type de fenêtre**|
+|**Nom**|**Description**|**Prise en charge des types de fenêtres**|
 |:-----|:-----|:-----|
-|Méthode [Activate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Activate.aspx)  <br/> |Active (concentre l'affichage sur) la fenêtre.   <br/> |Type de **Designer** et **Editor**  <br/> |
-|[Active](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Active.aspx) , propriété  <br/> |Obtient une valeur **Boolean** indiquant si la fenêtre est la fenêtre active.  <br/> |Type de **Designer** et **Editor**  <br/> |
-|Propriété [Caption](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Caption.aspx)  <br/> |Obtient ou définit le texte de légende de la fenêtre représentée par l’objet [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) .  <br/> |Type **Editor** uniquement  <br/> |
-|Méthode [Close()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx)  <br/> |Ferme la fenêtre et vous invite à enregistrer les modifications effectuées dans un formulaire non enregistré, ou un formulaire qui comporte des modifications non enregistrées.  <br/> |Type **Editor** uniquement  <br/> |
-|Méthode [Close(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx)  <br/> |Ferme la fenêtre et force le cas échéant la fermeture sans enregistrement d'un formulaire non enregistré ou d'un formulaire qui contient des modifications non enregistrées.   <br/> |Type **Editor** uniquement  <br/> |
-|[CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.CommandBars.aspx) , propriété  <br/> |Obtient une référence à la collection Microsoft Office **CommandBars** qui est associée à la fenêtre.  <br/> |Type de **Designer** et **Editor**  <br/> |
-|[Height](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Height.aspx) , propriété  <br/> |Obtient ou définit la hauteur de la fenêtre, mesurée en points.  <br/> |Type de **Designer** et **Editor**  <br/> |
-|Propriété [Left](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Left.aspx)  <br/> |Obtient ou définit la position horizontale de la fenêtre, mesurée en points.  <br/> |Type de **Designer** et **Editor**  <br/> |
-|Propriété [MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.MailEnvelope.aspx)  <br/> |Obtient une référence à la classe [MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MailEnvelope.aspx) .  <br/> |Type **Editor** uniquement  <br/> |
-|[TaskPanes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.TaskPanes.aspx) , propriété  <br/> |Obtient une référence à la collection de la [collection TaskPaneCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneCollection.aspx) .  <br/> |Type de **Designer** et **Editor**  <br/> |
-|Propriété [Top](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Top.aspx)  <br/> |Obtient ou définit la position verticale de la fenêtre, mesurée en points.  <br/> |Type de **Designer** et **Editor**  <br/> |
-|Propriété [Width](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Width.aspx)  <br/> |Obtient ou définit la largeur de la fenêtre, mesurée en points.  <br/> |Type de **Designer** et **Editor**  <br/> |
-|[WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowState.aspx) , propriété  <br/> |Obtient ou définit l’état de la fenêtre sous forme de valeur [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowState.aspx) .  <br/> |Type de **Designer** et **Editor**  <br/> |
-|Propriété [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowType.aspx)  <br/> |Obtient le type de la fenêtre sous la forme d’une valeur d’énumération [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) .  <br/> |Type de **Designer** et **Editor**  <br/> |
-|Propriété [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.XmlForm.aspx)  <br/> |Renvoie une référence à l’objet [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) associé à la fenêtre.  <br/> |Type **Editor** uniquement  <br/> |
+|[Activate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Activate.aspx) , méthode  <br/> |Active (concentre l'affichage sur) la fenêtre.  <br/> |Types **Designer** et **Editor**  <br/> |
+|[Active](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Active.aspx) , propriété  <br/> |Obtient une valeur **Boolean** qui indique si la fenêtre est active actuellement.  <br/> |Types **Designer** et **Editor**  <br/> |
+|[Caption](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Caption.aspx) , propriété  <br/> |Obtient ou définit le texte de légende de la fenêtre représentée par l'objet [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) .  <br/> |Type **Editor** uniquement  <br/> |
+|[Close (),](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx) méthode  <br/> |Ferme la fenêtre et vous invite à enregistrer les modifications effectuées dans un formulaire non enregistré, ou un formulaire qui comporte des modifications non enregistrées.  <br/> |Type **Editor** uniquement  <br/> |
+|Méthode [Close (Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx)  <br/> |Ferme la fenêtre et force le cas échéant la fermeture sans enregistrement d'un formulaire non enregistré ou d'un formulaire qui contient des modifications non enregistrées.  <br/> |Type **Editor** uniquement  <br/> |
+|[CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.CommandBars.aspx) , propriété  <br/> |Obtient une référence à la collection Microsoft Office **CommandBars** qui est associée à la fenêtre.  <br/> |Types **Designer** et **Editor**  <br/> |
+|[Height](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Height.aspx) , propriété  <br/> |Obtient ou définit la hauteur de la fenêtre, mesurée en points.  <br/> |Types **Designer** et **Editor**  <br/> |
+|[Left](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Left.aspx) , propriété  <br/> |Obtient ou définit la position horizontale de la fenêtre, mesurée en points.  <br/> |Types **Designer** et **Editor**  <br/> |
+|[MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.MailEnvelope.aspx) , propriété  <br/> |Obtient une référence à la classe [MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MailEnvelope.aspx) .  <br/> |Type **Editor** uniquement  <br/> |
+|[TaskPanes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.TaskPanes.aspx) , propriété  <br/> |Obtient une référence à la collection [collection TaskPaneCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneCollection.aspx)  <br/> |Types **Designer** et **Editor**  <br/> |
+|[Top](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Top.aspx) , propriété  <br/> |Obtient ou définit la position verticale de la fenêtre, mesurée en points.  <br/> |Types **Designer** et **Editor**  <br/> |
+|[Width](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Width.aspx) , propriété  <br/> |Obtient ou définit la largeur de la fenêtre, mesurée en points.  <br/> |Types **Designer** et **Editor**  <br/> |
+|[WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowState.aspx) , propriété  <br/> |Obtient ou définit l'état de la fenêtre sous la forme d'une valeur de la propriété [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowState.aspx) .  <br/> |Types **Designer** et **Editor**  <br/> |
+|[WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowType.aspx) , propriété  <br/> |Obtient le type de la fenêtre sous la forme d'une valeur d'énumération [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) .  <br/> |Types **Designer** et **Editor**  <br/> |
+|[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.XmlForm.aspx) , propriété  <br/> |Renvoie une référence à l'objet [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) associé à la fenêtre.  <br/> |Type **Editor** uniquement  <br/> |
    
 ## <a name="using-the-windowscollection-and-window-classes"></a>Utilisation des classes WindowsCollection et Window
 

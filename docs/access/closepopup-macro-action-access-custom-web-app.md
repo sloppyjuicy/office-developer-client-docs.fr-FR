@@ -1,27 +1,27 @@
 ---
-title: Action de Macro ClosePopup (accès personnalisé web app)
+title: ClosePopup, action de macro (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7a7dafe5-aa4d-4213-a54b-e24161f83b3b
-description: Vous pouvez utiliser l’action ClosePopup pour fermer l’affichage de menu contextuel du document actif.
-ms.openlocfilehash: 92e3f8d57a01c9b246339c8856052093ceea67ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Vous pouvez utiliser l'action ClosePopup pour fermer le mode fenêtre contextuelle du document actif.
+ms.openlocfilehash: 57cdf86f1478d96ee951484f348a21c6e8876f0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282305"
 ---
-# <a name="closepopup-macro-action-access-custom-web-app"></a>Action de Macro ClosePopup (accès personnalisé web app)
+# <a name="closepopup-macro-action-access-custom-web-app"></a>ClosePopup, action de macro (application Web personnalisée Access)
 
-Vous pouvez utiliser l’action **ClosePopup** pour fermer l’affichage de menu contextuel du document actif. 
+Vous pouvez utiliser l'action **ClosePopup** pour fermer le mode fenêtre contextuelle du document actif. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="remarks"></a>Remarques
 
-Si l’enregistrement actif dans l’affichage du menu contextuel est en mode édition, les modifications apportées à l’enregistrement sont automatiquement enregistrées.
+Si l'enregistrement actif dans le mode fenêtre contextuelle est en mode d'édition, les modifications apportées à l'enregistrement sont enregistrées automatiquement.
   
 

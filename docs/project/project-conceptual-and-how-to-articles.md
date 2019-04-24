@@ -1,40 +1,40 @@
 ---
-title: Articles conceptuelles et procédures Project
+title: Articles conceptuels et procédures liés à Project
 manager: soliver
 ms.date: 09/15/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: da7f2b16-cbd6-4a98-b577-31841e60a656
-description: Recherchez des liens vers des informations dans cette section sur les principaux composants de la plateforme de Project 2013, mise en route avec le développement de modèle à l’aide de JavaScript et le .NET Framework, les compléments Office volet dans Project Professional 2013, l’Interface de Project Server et Service de création de rapports OData.
+description: Vous trouverez des liens vers des informations de cette section sur les parties principales de la plateforme Project 2013, la prise en main du développement de CSOM à l'aide de JavaScript et de .NET Framework, des compléments de volet Office dans Project Professionnel 2013, de l'interface Project Server et de l' Service de création de rapports OData.
 ms.openlocfilehash: e09df20f435816444b656927d4f6f0ebf6c38731
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301518"
 ---
-# <a name="project-conceptual-and-how-to-articles"></a>Articles conceptuelles et procédures Project
+# <a name="project-conceptual-and-how-to-articles"></a>Articles conceptuels et procédures liés à Project
 
-Recherchez des liens vers des informations dans cette section sur les principaux composants de la plateforme de Project 2013, mise en route avec le développement de modèle à l’aide de JavaScript et le .NET Framework, les compléments Office volet dans Project Professional 2013, l’Interface de Project Server et Service de création de rapports OData.
+Vous trouverez des liens vers des informations de cette section sur les parties principales de la plateforme Project 2013, la prise en main du développement de CSOM à l'aide de JavaScript et de .NET Framework, des compléments de volet Office dans Project Professionnel 2013, de l'interface Project Server et de l' Service de création de rapports OData.
   
-Project Server 2013 est basé sur l’infrastructure de service web Project Server Interface (PSI) introduite dans Office Project Server 2007. La plateforme de Project Server 2013 est créée avec le .NET Framework 4. Project Web App requiert SharePoint Server 2013 comme base pour la fonctionnalité des nouvelles fonctionnalités, telles que le modèle objet côté client (CSOM) pour l’accès à Project Server dans le nuage, version 4 de Windows Workflow Foundation (WF4) et le service OData pour le tables de base de données de création de rapports. Project Professionnel 2013 permettre utiliser le nouveau volet Office Add-ins.
+Project Server 2013 est basé sur l'infrastructure de service Web PSI (Project Server Interface) introduite dans Office Project Server 2007. La plateforme Project Server 2013 est créée avec .NET Framework 4. Project Web App nécessite SharePoint Server 2013 comme base pour la fonctionnalité de nouvelles fonctionnalités, telles que le modèle objet côté client (CSOM) pour l'accès à Project Server dans le nuage, version 4 de Windows Workflow Foundation (WF4) et le service OData pour le tables de base de données de création de rapports. Project Professionnel 2013 peut utiliser les nouveaux compléments Office du volet Office.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Mises à jour pour les développeurs dans Project 2013](updates-for-developers-in-project-2013.md) décrit les fonctionnalités d’extensibilité pour le développement Project, et répertorie les fonctionnalités qui ne doivent pas être utilisées pour le développement de nouveau désapprouvées. 
+- [Les mises à jour pour les développeurs dans project 2013](updates-for-developers-in-project-2013.md) décrivent les fonctionnalités d'extensibilité pour le développement de projets et répertorient les fonctionnalités déconseillées qui ne doivent pas être utilisées pour le nouveau développement. 
   
-- [Programmabilité et architecture de project Server 2013](project-server-2013-architecture-and-programmability.md) décrit les principaux composants de la plateforme de Project 2013, y compris les clients Project et Project Server. 
+- [Architecture et programmabilité de Project Server 2013](project-server-2013-architecture-and-programmability.md) décrit les principales parties de la plateforme Project 2013, y compris les clients Project et Project Server. 
   
-- [Modèle d’objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md) inclut les rubriques relatives à la mise en route avec le développement de modèle à l’aide de JavaScript et le .NET Framework. 
+- Le [modèle objet côté client (CSOM) pour le projet 2013](client-side-object-model-csom-for-project-2013.md) inclut des rubriques de prise en main du développement CSOM à l'aide de JavaScript et de .NET Framework. 
   
-- [Programmation du client Project](project-client-programming.md) comprend une introduction aux compléments de volet de tâches dans Project Professional 2013. Un kit de développement logiciel distinct inclut des articles et des références pour les compléments dans le projet et les autres clients Office 2013. Pour plus d’informations, voir la documentation pour les développeurs de [compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) . 
+- [Project client Programming](project-client-programming.md) inclut une présentation des compléments du volet Office dans project Professional 2013. Un kit de développement logiciel (SDK) distinct inclut des articles et des références pour les compléments dans Project et les autres clients Office 2013. Pour plus d'informations, reportez-vous à la documentation du développeur de [Compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) . 
   
-- [Tâches de programmation du projet](project-programming-tasks.md) montre comment développer des compléments pour Project 2013, créer des flux de travail pour la gestion de la demande, personnaliser le ruban Project Web App, créer des composants WebPart et bien plus encore. 
+- [Projets les tâches de programmation](project-programming-tasks.md) indiquent comment développer des compléments pour Project 2013, créer des flux de travail pour la gestion de la demande, personnaliser le ruban Project Web App, créer des composants WebPart, et bien plus encore. 
   
-- [Références de programmation de Project 2013](project-2013-programming-references.md) inclut des informations sur le développement avec l’Interface de Project Server (PSI), les codes d’erreur et le service ProjectData OData. 
+- [Project 2013 Programming References](project-2013-programming-references.md) inclut des informations sur le développement avec l'interface PSI (Project Server Interface), les codes d'erreur et le service OData ProjectData. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Référence de service web et la bibliothèque de classes de Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)
+- [Bibliothèque de classes et référence de service Web Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)
   
 

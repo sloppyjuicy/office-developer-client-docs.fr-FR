@@ -1,36 +1,36 @@
 ---
-title: Fonction sous-chaîne (accès personnalisé web app)
+title: Fonction SUBSTRING (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ae99a0fa-76c4-4c07-9ae9-a7abce23394f
-description: Renvoie une partie d’une expression de texte.
-ms.openlocfilehash: 49d9afefe4b25d91738e518e0ddb2b902067c038
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie une partie d'une expression de texte.
+ms.openlocfilehash: af93620905af366f41bcc50ab6102114acd3db9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301693"
 ---
-# <a name="substring-function-access-custom-web-app"></a>Fonction sous-chaîne (accès personnalisé web app)
+# <a name="substring-function-access-custom-web-app"></a>Fonction SUBSTRING (application Web personnalisée Access)
 
-Renvoie une partie d’une expression de texte.
+Renvoie une partie d'une expression de texte.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="syntax"></a>Syntaxe
 
- **Sous-chaîne** (*TextExpression*, *début*, *longueur*) 
+ **Sous-chaîne** (*TextExpression*, *Start*, *Length*) 
   
-La fonction de **sous-chaîne** contient les arguments suivants. 
+La **** fonction SUBSTRING contient les arguments suivants. 
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Une expression de texte.  <br/> |
-| *Début*  <br/> |Entier qui spécifie où commencer les caractères renvoyées. Si start est inférieur à 1, l’expression renvoyée commence au premier caractère spécifié dans une expression. Dans ce cas, le nombre de caractères qui sont renvoyés est la plus grande valeur soit la somme de début + longueur-1 ou 0. Si start est supérieur au nombre de caractères dans l’expression de valeur, une expression de longueur nulle est renvoyée.  <br/> |
-| *Length*  <br/> |Une expression d’entier positif qui spécifie le nombre de caractères de l’expression à retourner. Si length est négatif, une erreur est générée et l’instruction est terminée. Si la somme des start et length est supérieure au nombre de caractères dans une expression, la valeur entière expression en commençant à démarrer est renvoyée.  <br/> |
+| *TextExpression*  <br/> |Expression de texte.  <br/> |
+| *Start*  <br/> |Expression de type Integer qui spécifie l'emplacement des caractères renvoyés. Si Start est inférieur à 1, l'expression renvoyée commence au premier caractère spécifié dans Expression. Dans ce cas, le nombre de caractères renvoyés est la valeur la plus élevée de la somme de start + length-1 ou 0. Si Start est plus grand que le nombre de caractères dans l'expression de valeur, une expression de longueur nulle est renvoyée.  <br/> |
+| *Length*  <br/> |Expression de type entier positif spécifiant le nombre de caractères de l'expression à renvoyer. Si length est négatif, une erreur est générée et l'instruction est arrêtée. Si la somme de début et de longueur est supérieure au nombre de caractères dans expression, l'expression de valeur entière commençant au début est renvoyée.  <br/> |
    
 
