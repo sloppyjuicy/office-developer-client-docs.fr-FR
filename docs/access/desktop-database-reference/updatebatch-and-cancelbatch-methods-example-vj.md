@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1f46bfa76506d2913b9e220a268cb2730a3aace2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313558"
 ---
-# <a name="updatebatch-and-cancelbatch-methods-example-vj"></a><span data-ttu-id="7c143-102">UpdateBatch et CancelBatch, méthodes – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7c143-102">UpdateBatch and CancelBatch methods example (VJ++)</span></span>
+# <a name="updatebatch-and-cancelbatch-methods-example-vj"></a><span data-ttu-id="fc665-102">UpdateBatch et CancelBatch, méthodes – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="fc665-102">UpdateBatch and CancelBatch methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="7c143-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c143-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc665-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc665-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7c143-104">Cet exemple illustre la méthode [UpdateBatch](updatebatch-method-ado.md) conjointement à la méthode [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="7c143-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
+<span data-ttu-id="fc665-104">Cet exemple illustre la méthode [UpdateBatch](updatebatch-method-ado.md) conjointement à la méthode [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="fc665-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
 
 ```java 
  

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d1e4ecbc216ab4a00dabd85f623bc134772dfd4c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306187"
 ---
-# <a name="updatetypeenum-enumeration-dao"></a><span data-ttu-id="5e880-102">UpdateTypeEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="5e880-102">UpdateTypeEnum enumeration (DAO)</span></span>
+# <a name="updatetypeenum-enumeration-dao"></a><span data-ttu-id="735c4-102">UpdateTypeEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="735c4-102">UpdateTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="5e880-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e880-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="735c4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="735c4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5e880-104">Cette énumération est utilisée avec la méthode **Update** pour spécifier les mises à jour à écrire sur le disque.</span><span class="sxs-lookup"><span data-stu-id="5e880-104">Used with the **Update** method to specify which updates to write to disk.</span></span>
+<span data-ttu-id="735c4-104">Cette énumération est utilisée avec la méthode **Update** pour spécifier les mises à jour à écrire sur le disque.</span><span class="sxs-lookup"><span data-stu-id="735c4-104">Used with the **Update** method to specify which updates to write to disk.</span></span>
 
 <table>
 <colgroup>
@@ -29,26 +29,26 @@ ms.locfileid: "28706162"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="5e880-105">Nom</span><span class="sxs-lookup"><span data-stu-id="5e880-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="5e880-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="5e880-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="5e880-107">Description</span><span class="sxs-lookup"><span data-stu-id="5e880-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="735c4-105">Nom</span><span class="sxs-lookup"><span data-stu-id="735c4-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="735c4-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="735c4-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="735c4-107">Description</span><span class="sxs-lookup"><span data-stu-id="735c4-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5e880-108">dbUpdateBatch ne</span><span class="sxs-lookup"><span data-stu-id="5e880-108">dbUpdateBatch</span></span></p></td>
-<td><p><span data-ttu-id="5e880-109">4</span><span class="sxs-lookup"><span data-stu-id="5e880-109">4</span></span></p></td>
-<td><p><span data-ttu-id="5e880-110">Toutes les modifications en attente dans le cache de mise à jour sont écrites sur le disque.</span><span class="sxs-lookup"><span data-stu-id="5e880-110">All pending changes in the update cache are written to disk.</span></span></p></td>
+<td><p><span data-ttu-id="735c4-108">dbUpdateBatch</span><span class="sxs-lookup"><span data-stu-id="735c4-108">dbUpdateBatch</span></span></p></td>
+<td><p><span data-ttu-id="735c4-109">4</span><span class="sxs-lookup"><span data-stu-id="735c4-109">4</span></span></p></td>
+<td><p><span data-ttu-id="735c4-110">Toutes les modifications en attente dans le cache de mise à jour sont écrites sur le disque.</span><span class="sxs-lookup"><span data-stu-id="735c4-110">All pending changes in the update cache are written to disk.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5e880-111">dbUpdateCurrentRecord</span><span class="sxs-lookup"><span data-stu-id="5e880-111">dbUpdateCurrentRecord</span></span></p></td>
-<td><p><span data-ttu-id="5e880-112">2</span><span class="sxs-lookup"><span data-stu-id="5e880-112">2</span></span></p></td>
-<td><p><span data-ttu-id="5e880-113">Seules les modifications en attente de l'enregistrement actif sont écrites sur le disque.</span><span class="sxs-lookup"><span data-stu-id="5e880-113">Only the current record's pending changes are written to disk.</span></span></p></td>
+<td><p><span data-ttu-id="735c4-111">dbUpdateCurrentRecord</span><span class="sxs-lookup"><span data-stu-id="735c4-111">dbUpdateCurrentRecord</span></span></p></td>
+<td><p><span data-ttu-id="735c4-112">n°2</span><span class="sxs-lookup"><span data-stu-id="735c4-112">2</span></span></p></td>
+<td><p><span data-ttu-id="735c4-113">Seules les modifications en attente de l'enregistrement actif sont écrites sur le disque.</span><span class="sxs-lookup"><span data-stu-id="735c4-113">Only the current record's pending changes are written to disk.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5e880-114">valeurs de dbUpdateRegular</span><span class="sxs-lookup"><span data-stu-id="5e880-114">dbUpdateRegular</span></span></p></td>
-<td><p><span data-ttu-id="5e880-115">1</span><span class="sxs-lookup"><span data-stu-id="5e880-115">1</span></span></p></td>
-<td><p><span data-ttu-id="5e880-116">(Valeur par défaut) Les modifications en attente ne sont pas mises en cache. Elles sont écrites immédiatement sur le disque.</span><span class="sxs-lookup"><span data-stu-id="5e880-116">(Default) Pending changes are not cached and are written to disk immediately.</span></span></p></td>
+<td><p><span data-ttu-id="735c4-114">dbUpdateRegular</span><span class="sxs-lookup"><span data-stu-id="735c4-114">dbUpdateRegular</span></span></p></td>
+<td><p><span data-ttu-id="735c4-115">0,1</span><span class="sxs-lookup"><span data-stu-id="735c4-115">1</span></span></p></td>
+<td><p><span data-ttu-id="735c4-116">(Valeur par défaut) Les modifications en attente ne sont pas mises en cache. Elles sont écrites immédiatement sur le disque.</span><span class="sxs-lookup"><span data-stu-id="735c4-116">(Default) Pending changes are not cached and are written to disk immediately.</span></span></p></td>
 </tr>
 </tbody>
 </table>

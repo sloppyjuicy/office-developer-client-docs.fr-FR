@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f06584ef752e0be7f68b3f661fbdba50b52cd20e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292040"
 ---
-# <a name="handling-errors-in-jscript"></a><span data-ttu-id="27fca-102">Gestion des erreurs dans JScript</span><span class="sxs-lookup"><span data-stu-id="27fca-102">Handling errors in JScript</span></span>
+# <a name="handling-errors-in-jscript"></a><span data-ttu-id="33680-102">Gestion des erreurs dans JScript</span><span class="sxs-lookup"><span data-stu-id="33680-102">Handling errors in JScript</span></span>
 
 
-<span data-ttu-id="27fca-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="27fca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="33680-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="33680-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="27fca-p101">Votre code Microsoft JScript doit vérifier la propriété **Count** de la collection **Errors** de l'objet **Connection**. Si la valeur est supérieure à 0, effectuez une itération de la collection et imprimez les valeurs tel que vous le feriez dans tout autre langage.</span><span class="sxs-lookup"><span data-stu-id="27fca-p101">Your Microsoft JScript code must check the **Count** property of the **Connection** object's **Errors** collection. If the value is greater than 0, iterate through the collection and print the values as you would in any of the other languages.</span></span>
+<span data-ttu-id="33680-p101">Votre code Microsoft JScript doit vérifier la propriété **Count** de la collection **Errors** de l'objet **Connection**. Si la valeur est supérieure à 0, effectuez une itération de la collection et imprimez les valeurs tel que vous le feriez dans tout autre langage.</span><span class="sxs-lookup"><span data-stu-id="33680-p101">Your Microsoft JScript code must check the **Count** property of the **Connection** object's **Errors** collection. If the value is greater than 0, iterate through the collection and print the values as you would in any of the other languages.</span></span>
 
 ```javascript 
  

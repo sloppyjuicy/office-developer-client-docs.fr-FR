@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 04508ce14402cb3456fba72b610798b64cffa33a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314524"
 ---
-# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="7cd68-102">Status, propriété – Exemple (objet Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="7cd68-102">Status property example (Recordset) (VB)</span></span>
+# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="ce41a-102">Status, propriété – Exemple (objet Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="ce41a-102">Status property example (Recordset) (VB)</span></span>
 
 
-<span data-ttu-id="7cd68-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7cd68-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ce41a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce41a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7cd68-104">Cet exemple utilise la propriété [Status](status-property-ado-recordset.md) pour afficher les enregistrements ayant été modifiés dans une opération par lot avant la réalisation d'une mise à jour par lot.</span><span class="sxs-lookup"><span data-stu-id="7cd68-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="ce41a-104">Cet exemple utilise la propriété [Status](status-property-ado-recordset.md) pour afficher les enregistrements ayant été modifiés dans une opération par lot avant la réalisation d'une mise à jour par lot.</span><span class="sxs-lookup"><span data-stu-id="ce41a-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```vb 
  

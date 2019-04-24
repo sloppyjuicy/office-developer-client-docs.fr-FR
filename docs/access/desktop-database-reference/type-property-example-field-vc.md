@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f4646326469b4db688277885c31b5629aba8d408
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314091"
 ---
-# <a name="type-property-example-field-vc"></a><span data-ttu-id="73a4e-102">Type, propriété – Exemple (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="73a4e-102">Type property example (Field) (VC++)</span></span>
+# <a name="type-property-example-field-vc"></a><span data-ttu-id="5d972-102">Type, propriété – Exemple (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="5d972-102">Type property example (Field) (VC++)</span></span>
 
 
-<span data-ttu-id="73a4e-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73a4e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5d972-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d972-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="73a4e-p101">Cet exemple illustre la propriété [Type](type-property-ado.md) en affichant le nom de la constante qui correspond à la valeur de la propriété **Type** de tous les objets [Field](field-object-ado.md), dans la table ***Employees***. La fonction FieldType est nécessaire pour que cette procédure s’exécute.</span><span class="sxs-lookup"><span data-stu-id="73a4e-p101">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.</span></span>
+<span data-ttu-id="5d972-104">Cet exemple illustre la propriété [Type](type-property-ado.md) en affichant le nom de la constante qui correspond à la valeur de la propriété **Type** de tous les objets [Field](field-object-ado.md), dans la table ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="5d972-104">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="5d972-105">La fonction FieldType est nécessaire pour que cette procédure s’exécute.</span><span class="sxs-lookup"><span data-stu-id="5d972-105">The FieldType function is required for this procedure to run.</span></span>
 
 ```cpp 
  

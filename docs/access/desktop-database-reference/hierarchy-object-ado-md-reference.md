@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ee7d9eb4dd76ce4aec2b4e293bb94f6cafd157e0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291963"
 ---
-# <a name="hierarchy-object-ado-md-reference"></a><span data-ttu-id="9dbd2-102">Hierarchy, objet (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9dbd2-102">Hierarchy object (ADO MD reference)</span></span>
+# <a name="hierarchy-object-ado-md-reference"></a><span data-ttu-id="ffd41-102">Hierarchy, objet (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ffd41-102">Hierarchy object (ADO MD reference)</span></span>
 
-<span data-ttu-id="9dbd2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9dbd2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ffd41-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ffd41-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9dbd2-104">Hierarchy, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9dbd2-104">Hierarchy object (ADO MD)</span></span>](hierarchy-object-ado-md.md)
-- [<span data-ttu-id="9dbd2-105">Propriétés de la hiérarchie, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9dbd2-105">Hierarchy properties, methods, and events (ADO MD)</span></span>](hierarchy-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="ffd41-104">Hierarchy, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ffd41-104">Hierarchy object (ADO MD)</span></span>](hierarchy-object-ado-md.md)
+- [<span data-ttu-id="ffd41-105">Hierarchy, propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ffd41-105">Hierarchy properties, methods, and events (ADO MD)</span></span>](hierarchy-properties-methods-and-events-ado-md.md)
 
