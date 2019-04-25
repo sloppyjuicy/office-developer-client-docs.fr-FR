@@ -1,5 +1,5 @@
 ---
-title: Méthode Recordset.Edit (DAO)
+title: Recordset.Edit, méthode (DAO)
 TOCTitle: Edit Method
 ms:assetid: a64d601b-f446-da40-0020-b99110a72872
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821175(v=office.15)
@@ -8,53 +8,53 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 82dc6e175c7168d5c1b042e85dce7b77aa96b575
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300538"
 ---
-# <a name="recordsetedit-method-dao"></a><span data-ttu-id="fe5d4-102">Méthode Recordset.Edit (DAO)</span><span class="sxs-lookup"><span data-stu-id="fe5d4-102">Recordset.Edit method (DAO)</span></span>
+# <a name="recordsetedit-method-dao"></a><span data-ttu-id="cfefc-102">Recordset.Edit, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="cfefc-102">Recordset.Edit Method (DAO)</span></span>
 
-<span data-ttu-id="fe5d4-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe5d4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cfefc-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cfefc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fe5d4-104">Copie l'enregistrement actif d'un objet **[Recordset](recordset-object-dao.md)** modifiable vers la mémoire tampon de copie pour modification ultérieure.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-104">Copies the current record from an updatable **[Recordset](recordset-object-dao.md)** object to the copy buffer for subsequent editing.</span></span>
+<span data-ttu-id="cfefc-104">Copie l’enregistrement actif à partir d’un objet**[Recordset](recordset-object-dao.md)** actualisable dans la mémoire tampon de copie à des fins de modification future.</span><span class="sxs-lookup"><span data-stu-id="cfefc-104">Copies the current record from an updatable **[Recordset](recordset-object-dao.md)** object to the copy buffer for subsequent editing.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fe5d4-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="fe5d4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cfefc-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="cfefc-105">Syntax</span></span>
 
-<span data-ttu-id="fe5d4-106">*expression* . Modifier</span><span class="sxs-lookup"><span data-stu-id="fe5d4-106">*expression* .Edit</span></span>
+<span data-ttu-id="cfefc-106">*expression* .Edit</span><span class="sxs-lookup"><span data-stu-id="cfefc-106">*expression* .Edit</span></span>
 
-<span data-ttu-id="fe5d4-107">*expression* Variable qui représente un objet **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="fe5d4-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="cfefc-107">*expression* Variable représentant un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="cfefc-107">*expression*  A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fe5d4-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="fe5d4-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cfefc-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="cfefc-108">Remarks</span></span>
 
-<span data-ttu-id="fe5d4-p101">Dès que vous utilisez la méthode **Edit**, les modifications apportées aux champs de l'enregistrement actif sont copiées vers la mémoire tampon de copie. Après avoir apporté les modifications requises à l'enregistrement, utilisez la méthode **[Update](recordset-update-method-dao.md)** pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-p101">Once you use the **Edit** method, changes made to the current record's fields are copied to the copy buffer. After you make the desired changes to the record, use the **[Update](recordset-update-method-dao.md)** method to save your changes.</span></span>
+<span data-ttu-id="cfefc-p101">Lorsque vous utilisez le **modifier** méthode, les modifications apportées aux champs de l’enregistrement actif est copié dans la mémoire tampon de copie. Après avoir apporté les modifications souhaitées à l’enregistrement, utilisez la \*\* [mise à jour](recordset-update-method-dao.md) \*\* méthode pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="cfefc-p101">Once you use the **Edit** method, changes made to the current record's fields are copied to the copy buffer. After you make the desired changes to the record, use the **[Update](recordset-update-method-dao.md)** method to save your changes.</span></span>
 
-<span data-ttu-id="fe5d4-111">L'enregistrement qui était actif le reste après avoir utilisé **Edit**.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-111">The current record remains current after you use **Edit**.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="fe5d4-112">[!REMARQUE] Si vous modifiez un enregistrement et que vous effectuez ensuite une opération qui atteint un autre enregistrement sans avoir préalablement utilisé **Update**, vos modifications sont perdues sans avertissement.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-112">If you edit a record and then perform any operation that moves to another record, but without first using **Update**, your changes are lost without warning.</span></span> <span data-ttu-id="fe5d4-113">En outre, si vous fermez l’objet recordset ou mettre fin à la procédure qui déclare le **jeu d’enregistrements** ou l’objet parent de **[base de données](database-object-dao.md)** ou de **[connexion](connection-object-dao.md)** , votre enregistrement modifié est ignoré sans avertissement.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-113">In addition, if you close recordset or end the procedure which declares the **Recordset** or the parent **[Database](database-object-dao.md)** or **[Connection](connection-object-dao.md)** object, your edited record is discarded without warning.</span></span>
-
-<span data-ttu-id="fe5d4-114">L'utilisation de la méthode **Edit** génère une erreur dans les cas suivants :</span><span class="sxs-lookup"><span data-stu-id="fe5d4-114">Using **Edit** produces an error if:</span></span>
-
-- <span data-ttu-id="fe5d4-115">Il n'existe pas d'enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-115">There is no current record.</span></span>
-
-- <span data-ttu-id="fe5d4-116">L'objet **Connection**, **Database** ou **Recordset** a été ouvert en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-116">The **Connection**, **Database**, or **Recordset** object was opened as read-only.</span></span>
-
-- <span data-ttu-id="fe5d4-117">Aucun champ de l'enregistrement n'est modifiable.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-117">No fields in the record are updatable.</span></span>
-
-- <span data-ttu-id="fe5d4-118">L'objet **Database** ou **Recordset** a été ouvert en mode exclusif par un autre utilisateur (espace de travail Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="fe5d4-118">The **Database** or **Recordset** was opened for exclusive use by another user (Microsoft Access workspace).</span></span>
-
-- <span data-ttu-id="fe5d4-119">Un autre utilisateur a verrouillé la page contenant votre enregistrement (espace de travail Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="fe5d4-119">Another user has locked the page containing your record (Microsoft Access workspace).</span></span>
-
-<span data-ttu-id="fe5d4-p103">Dans un espace de travail Microsoft Access, lorsque le paramètre de la propriété [**LockEdits**](recordset-lockedits-property-dao.md) de l'objet **Recordset** a la valeur **True** (verrouillage pessimiste) dans un environnement multi-utilisateur, l'enregistrement reste verrouillé entre le moment de l'appel de la méthode **Edit** et la fin de la mise à jour. Si le paramètre de la propriété **LockEdits** a la valeur **False** (verrouillage optimiste), l'enregistrement est verrouillé et comparé à l'enregistrement prémodifié juste avant sa mise à jour dans la base de données. Si l'enregistrement a été modifié depuis l'appel de la méthode **Edit**, l'opération **Update** échoue avec une erreur d'exécution si vous utilisez la méthode **OpenRecordset** sans spécifier **dbSeeChanges**. Par défaut, les bases de données ISAM installables et ODBC connectées au moteur de base de données Microsoft Access utilisent toujours le verrouillage optimiste.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-p103">In a Microsoft Access workspace, when the **Recordset** object's **[LockEdits](recordset-lockedits-property-dao.md)** property setting is **True** (pessimistically locked) in a multiuser environment, the record remains locked from the time **Edit** is used until the update is complete. If the **LockEdits** property setting is **False** (optimistically locked), the record is locked and compared with the pre-edited record just before it's updated in the database. If the record has changed since you used the **Edit** method, the **Update** operation fails with a run-time error if you use **OpenRecordset** without specifying **dbSeeChanges**. By default, Microsoft Access database engine-connected ODBC and installable ISAM databases always use optimistic locking.</span></span>
+<span data-ttu-id="cfefc-111">L’enregistrement actif reste actif après avoir utilisé **modifier**.</span><span class="sxs-lookup"><span data-stu-id="cfefc-111">The current record remains current after you use **Edit**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="fe5d4-p104">[!REMARQUE] Pour ajouter, modifier ou supprimer un enregistrement, ce dernier doit être affecté d'un index unique dans la source de données sous-jacente. Si ce n'est pas le cas, une erreur « Autorisation refusée » se produira lors d'un appel à la méthode **[AddNew](recordset-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)** ou **Edit** dans un espace de travail Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-p104">To add, edit, or delete a record, there must be a unique index on the record in the underlying data source. If not, a "Permission denied" error will occur on the **[AddNew](recordset-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)**, or **Edit** method call in a Microsoft Access workspace.</span></span>
+> <span data-ttu-id="cfefc-112">Si vous modifiez un enregistrement et puis d’effectuer une opération qui déplace vers un autre enregistrement, mais sans utiliser première **mise à jour**, vos modifications sont perdues sans avertissement.</span><span class="sxs-lookup"><span data-stu-id="cfefc-112">If you edit a record and then perform any operation that moves to another record, but without first using **Update**, your changes are lost without warning.</span></span> <span data-ttu-id="cfefc-113">De plus, si vous fermez l’objet Recordset ou mettez fin à la procédure déclarant l’objet **Recordset**, l’objet parent **[Database](database-object-dao.md)** ou l’objet **[Connection](connection-object-dao.md)**, votre enregistrement modifié est ignoré sans avertissement.</span><span class="sxs-lookup"><span data-stu-id="cfefc-113">In addition, if you close  recordset or end the procedure which declares the **Recordset** or the parent [**Database**](connection-object-dao.md) or **Connection** object, your edited record is discarded without warning.</span></span>
 
-## <a name="example"></a><span data-ttu-id="fe5d4-126">Exemple</span><span class="sxs-lookup"><span data-stu-id="fe5d4-126">Example</span></span>
+<span data-ttu-id="cfefc-114">À l’aide de **modifier** génère une erreur si :</span><span class="sxs-lookup"><span data-stu-id="cfefc-114">Using **Edit** produces an error if:</span></span>
 
-<span data-ttu-id="fe5d4-p105">Cet exemple utilise la méthode **Edit** pour remplacer les données actuelles par le nom spécifié. La fonction EditName est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="fe5d4-p105">This example uses the **Edit** method to replace the current data with the specified name. The EditName procedure is required for this procedure to run.</span></span>
+- <span data-ttu-id="cfefc-115">Il n’existe aucun enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="cfefc-115">There is no current record.</span></span>
+
+- <span data-ttu-id="cfefc-116">Le **connexion**, **base de données**, ou **jeu d’enregistrements** objet a été ouvert en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="cfefc-116">The **Connection**, **Database**, or **Recordset** object was opened as read-only.</span></span>
+
+- <span data-ttu-id="cfefc-117">Aucun les champs dans l’enregistrement ne sont modifiables.</span><span class="sxs-lookup"><span data-stu-id="cfefc-117">No fields in the record are updatable.</span></span>
+
+- <span data-ttu-id="cfefc-118">Le **base de données** ou **jeu d’enregistrements** a été ouvert usage exclusif par un autre utilisateur (espace de travail Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="cfefc-118">The **Database** or **Recordset** was opened for exclusive use by another user (Microsoft Access workspace).</span></span>
+
+- <span data-ttu-id="cfefc-119">Un autre utilisateur a verrouillé la page contenant votre enregistrement (espace de travail Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="cfefc-119">Another user has locked the page containing your record (Microsoft Access workspace).</span></span>
+
+<span data-ttu-id="cfefc-p103">Dans un espace de travail Microsoft Access, lorsque le **jeu d’enregistrements** d’objet \*\* [LockEdits](recordset-lockedits-property-dao.md) \*\* paramètre de la propriété est **vrai** (verrouillage pessimiste ) dans un environnement multi-utilisateur reste verrouillé de l’heure de l’enregistrement **modifier** sert jusqu'à ce que la mise à jour est terminée. Si le **LockEdits** paramètre de la propriété est **faux** (verrouillage optimiste), l’enregistrement est verrouillé et par rapport à l’enregistrement déjà modifiée juste avant qu’il est mis à jour dans la base de données. Si l’enregistrement a changé, car vous avez utilisé le **modifier** méthode, le **mise à jour** opération échoue avec une erreur d’exécution si vous utilisez **OpenRecordset** sans spécifiant **dbSeeChanges**. Par défaut, base de données Microsoft Access connectées moteur ODBC et bases de données ISAM toujours utilisent le verrouillage optimiste.</span><span class="sxs-lookup"><span data-stu-id="cfefc-p103">In a Microsoft Access workspace, when the **Recordset** object's **[LockEdits](recordset-lockedits-property-dao.md)** property setting is **True** (pessimistically locked) in a multiuser environment, the record remains locked from the time **Edit** is used until the update is complete. If the **LockEdits** property setting is **False** (optimistically locked), the record is locked and compared with the pre-edited record just before it's updated in the database. If the record has changed since you used the **Edit** method, the **Update** operation fails with a run-time error if you use **OpenRecordset** without specifying **dbSeeChanges**. By default, Microsoft Access database engine-connected ODBC and installable ISAM databases always use optimistic locking.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="cfefc-p104">Pour ajouter, modifier ou supprimer un enregistrement, il doit y avoir un index unique sur l’enregistrement dans la source de données sous-jacentes. Si non, une erreur « Autorisation refusée » doit se produire sur le \*\* [AddNew](recordset-addnew-method-dao.md)**, \*\* [supprimer](fields-delete-method-dao.md)**, ou **modifier** méthode Appelez dans un espace de travail Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="cfefc-p104">To add, edit, or delete a record, there must be a unique index on the record in the underlying data source. If not, a "Permission denied" error will occur on the **[AddNew](recordset-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)**, or **Edit** method call in a Microsoft Access workspace.</span></span>
+
+## <a name="example"></a><span data-ttu-id="cfefc-126">Exemple</span><span class="sxs-lookup"><span data-stu-id="cfefc-126">Example</span></span>
+
+<span data-ttu-id="cfefc-p105">Cet exemple utilise la **modifier** méthode pour remplacer les données actuelles par le nom spécifié. La procédure EditName est nécessaire pour exécuter cette procédure.</span><span class="sxs-lookup"><span data-stu-id="cfefc-p105">This example uses the **Edit** method to replace the current data with the specified name. The EditName procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub EditX() 
