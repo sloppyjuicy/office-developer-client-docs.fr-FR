@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a08e91bfc1172c0a06a8c39eb9221d7f810c8f89
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289051"
 ---
 # <a name="microsoft-access-sql-reference"></a>Référence Microsoft Access SQL
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 - [Vue d’ensemble de la référence SQL Access](overview-of-the-access-sql-reference.md)
-- [Langage de définition de données (DDL)](data-definition-language.md)
+- [DDL (Data Definition Language)](data-definition-language.md)
 - [Langage de manipulation de données](data-manipulation-language.md)
-- [Paramètres du Registre Windows pour les sources de données externes](windows-registry-settings-for-external-data-sources.md)
+- [Paramètres de registre Window pour les sources de données externes](windows-registry-settings-for-external-data-sources.md)
 

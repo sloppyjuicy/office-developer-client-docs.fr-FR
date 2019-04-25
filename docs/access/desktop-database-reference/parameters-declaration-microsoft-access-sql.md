@@ -1,5 +1,5 @@
 ---
-title: Déclaration PARAMETERS (Microsoft Access SQL)
+title: PARAMETERS, déclaration (Microsoft Access SQL)
 TOCTitle: PARAMETERS declaration (Microsoft Access SQL)
 ms:assetid: 0dcaad68-6a5f-93dc-e62a-b82b36e1e69c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845220(v=office.15)
@@ -14,22 +14,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: d78a6c043e99af1ca50ca798b94088400fd09f0d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287866"
 ---
-# <a name="parameters-declaration-microsoft-access-sql"></a>Déclaration PARAMETERS (Microsoft Access SQL)
+# <a name="parameters-declaration-microsoft-access-sql"></a>PARAMETERS, déclaration (Microsoft Access SQL)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Déclare le nom et le type de données de chaque paramètre d'une requête Paramètre.
 
 ## <a name="syntax"></a>Syntaxe
 
-PARAMETERS *nom typedonnées* \[, *nom typedonnées* \[,...\]\]
+PARAMETERS *nom typedonnées* \[, *nom typedonnées* \[, ...\]\]
 
 La déclaration PARAMETERS est composée des arguments suivants :
 
@@ -46,11 +46,11 @@ La déclaration PARAMETERS est composée des arguments suivants :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>nom</em></p></td>
-<td><p>Nom du paramètre. Affecté à la propriété <strong>Name</strong> de l'objet <strong>Parameter</strong> et servant à identifier ce paramètre dans la collection <strong>Parameters</strong>. Vous pouvez utiliser le <em>nom</em> sous forme de chaîne qui est affichée dans une boîte de dialogue pendant que votre application exécute la requête. Utilisez des crochets ([ ]) pour encadrer les textes contenant des espaces ou des signes de ponctuation. Par exemple, [prix bas] et [lancer l’état avec les month?] sont des arguments valides de <em>nom</em> .</p></td>
+<td><p><em>name</em></p></td>
+<td><p>Nom du paramètre. Affecté à la propriété <strong>Name</strong> de l'objet <strong>Parameter</strong> et servant à identifier ce paramètre dans la collection <strong>Parameters</strong>. Vous pouvez utiliser <em>name</em> comme une chaîne affichée dans une boîte de dialogue pendant que votre application exécute la requête. Utilisez des crochets ([ ]) pour encadrer les textes contenant des espaces ou des signes de ponctuation. Par exemple, [Prix bas] et [Lancer l'état à compter de quel mois ?] sont des arguments de <em>nom</em> valides.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>typedonnées</em></p></td>
+<td><p><em>datatype</em></p></td>
 <td><p>Un des principaux <a href="sql-data-types.md">types de données Microsoft Access SQL</a> ou un de leurs synonymes.</p></td>
 </tr>
 </tbody>
@@ -61,15 +61,15 @@ La déclaration PARAMETERS est composée des arguments suivants :
 
 Pour les requêtes que vous exécutez régulièrement, vous pouvez utiliser une déclaration PARAMETERS pour créer une requête Paramètre. La création d'une requête Paramètre peut faciliter l'automatisation du processus de modification des critères de requête. Avec une requête Paramètre, votre code devra fournir les paramètres à chaque exécution de la requête.
 
-La déclaration PARAMETERS est facultative mais précède, lorsqu'elle est incluse, toute autre instruction, y compris l'instruction [SELECT](select-statement-microsoft-access-sql.md).
+La déclaration PARAMETERS est facultative mais précède, lorsqu’elle est incluse, toute autre instruction, y compris l’instruction [SELECT](select-statement-microsoft-access-sql.md).
 
-Si la déclaration implique plusieurs paramètres, séparez-les par des virgules. Dans l'exemple qui suit, les paramètres sont au nombre de deux :
+Si la déclaration implique plusieurs paramètres, séparez-les par des virgules. Dans l'exemple qui suit, les paramètres sont au nombre de deux :
 
 ```sql
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-Vous pouvez utiliser *nom* mais pas le *type de données* dans une clause [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) . L'exemple suivant attend deux paramètres, puis applique les critères aux enregistrements de la table Orders :
+Vous pouvez utiliser l’argument *nom* mais pas l’argument *typedonnées* dans une clause [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql). L’exemple suivant attend deux paramètres, puis applique les critères aux enregistrements de la table Orders :
 
 ```sql
 PARAMETERS [Low price] Currency, 
@@ -82,9 +82,9 @@ AND OrderDate >= [Beginning date];
 
 ## <a name="example"></a>Exemple
 
-Dans l'exemple suivant, l'utilisateur doit fournir un nom de poste qui est ensuite utilisé comme critère de la requête.
+Dans l’exemple suivant, l’utilisateur doit fournir un nom de poste qui est ensuite utilisé comme critère de la requête.
 
-Il appelle la procédure EnumFields que vous pouvez trouver dans l’exemple [d’instruction SELECT](select-statement-microsoft-access-sql.md) .
+Il appelle la procédure EnumFields que vous pouvez trouver dans l’exemple d’[instruction SELECT](select-statement-microsoft-access-sql.md).
 
 ```vb
     Sub ParametersX() 
