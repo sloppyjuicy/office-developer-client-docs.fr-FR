@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.Filter (DAO)
+title: Recordset.Filter, propriété (DAO)
 TOCTitle: Filter Property
 ms:assetid: feffa23b-c348-9718-ba4b-65db0f739789
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837300(v=office.15)
@@ -8,43 +8,43 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 7ab090dd6cf0b6e2676cf05907ac77c438f22652
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284819"
 ---
-# <a name="recordsetfilter-property-dao"></a><span data-ttu-id="b03d2-102">Propriété Recordset.Filter (DAO)</span><span class="sxs-lookup"><span data-stu-id="b03d2-102">Recordset.Filter property (DAO)</span></span>
+# <a name="recordsetfilter-property-dao"></a><span data-ttu-id="3f6fc-102">Recordset.Filter, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f6fc-102">Recordset.Filter Property (DAO)</span></span>
 
-<span data-ttu-id="b03d2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b03d2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3f6fc-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f6fc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b03d2-p101">Définit ou renvoie une valeur qui détermine les enregistrements inclus dans un objet **Recordset** ouvert par la suite (espaces de travail Microsoft Access uniquement). Valeur **String** en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="b03d2-p101">Sets or returns a value that determines the records included in a subsequently opened **Recordset** object (Microsoft Access workspaces only). Read/write **String**.</span></span>
+<span data-ttu-id="3f6fc-104">Définit ou renvoie une valeur qui détermine les enregistrements inclus dans l'objet **Recordset** ouvert ultérieurement (espace de travail Microsoft Access uniquement.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-104">Sets or returns a value that determines the records included in a subsequently opened **Recordset** object (Microsoft Access workspaces only).</span></span> <span data-ttu-id="3f6fc-105">**String** en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-105">Read/write **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b03d2-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b03d2-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3f6fc-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="3f6fc-106">Syntax</span></span>
 
-<span data-ttu-id="b03d2-107">*expression* . Filtre</span><span class="sxs-lookup"><span data-stu-id="b03d2-107">*expression* .Filter</span></span>
+<span data-ttu-id="3f6fc-107">*expression* .Filter</span><span class="sxs-lookup"><span data-stu-id="3f6fc-107">expression  . Filter</span></span>
 
-<span data-ttu-id="b03d2-108">*expression* Expression qui renvoie un objet **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="b03d2-108">*expression* An expression that returns a **Recordset** object.</span></span>
+<span data-ttu-id="3f6fc-108">*expression* Expression qui renvoie un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-108">*expression*  An expression that returns a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b03d2-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="b03d2-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f6fc-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="3f6fc-109">Remarks</span></span>
 
-<span data-ttu-id="b03d2-110">Le paramètre ou la valeur de retour est un type de données String qui contient une clause WHERE d'une instruction SQL sans le mot réservé WHERE.</span><span class="sxs-lookup"><span data-stu-id="b03d2-110">The setting or return value is a String data type that contains the WHERE clause of an SQL statement without the reserved word WHERE.</span></span>
+<span data-ttu-id="3f6fc-110">Le paramètre ou la valeur de retour est un type de données String qui contient une clause WHERE d'une instruction SQL sans le mot réservé WHERE.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-110">The setting or return value is a String data type that contains the WHERE clause of an SQL statement without the reserved word WHERE.</span></span>
 
-<span data-ttu-id="b03d2-111">Utilisez la propriété **Filter** pour appliquer un filtre à un objet **Recordset** de type avant uniquement, instantané ou feuille de réponse dynamique.</span><span class="sxs-lookup"><span data-stu-id="b03d2-111">Use the **Filter** property to apply a filter to a dynaset–, snapshot–, or forward–only–type **Recordset** object.</span></span>
+<span data-ttu-id="3f6fc-111">Utilisez la propriété **Filter** pour appliquer un filtre à un objet **Recordset** de type feuille de réponse dynamique, instantané ou avant uniquement.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-111">Use the **Filter** property to apply a filter to a dynaset–, snapshot–, or forward–only–type **Recordset** object.</span></span>
 
-<span data-ttu-id="b03d2-112">La propriété **Filter** permet de limiter le nombre d'enregistrements renvoyés à partir d'un objet existant lorsqu'un nouvel objet **Recordset** est ouvert sur la base d'un objet **Recordset** existant.</span><span class="sxs-lookup"><span data-stu-id="b03d2-112">You can use the **Filter** property to restrict the records returned from an existing object when a new **Recordset** object is opened based on an existing **Recordset** object.</span></span>
+<span data-ttu-id="3f6fc-112">La propriété **Filter** permet de limiter le nombre d’enregistrements renvoyés à partir d’un objet existant lorsqu’un nouvel objet **Recordset** est ouvert sur la base d’un objet **Recordset** existant.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-112">You can use the **Filter** property to restrict the records returned from an existing object when a new **Recordset** object is opened based on an existing **Recordset** object.</span></span>
 
-<span data-ttu-id="b03d2-113">Utilisez le format de date américain (mois-jour-année) lorsque vous filtrez des champs contenant des dates, même si vous n’utilisez pas la version de moteur de base de données Microsoft Access (dans ce cas, vous devez assembler les dates en concaténant des chaînes, par exemple, strMonth & «- » _ aMP_ strDay & «- » & strYear).</span><span class="sxs-lookup"><span data-stu-id="b03d2-113">Use the U.S. date format (month-day-year) when you filter fields containing dates, even if you're not using the U.S. version of the Microsoft Access database engine (in which case you must assemble any dates by concatenating strings, for example, strMonth & "-" & strDay & "-" & strYear).</span></span> <span data-ttu-id="b03d2-114">Sinon, il est possible que le filtrage des données ne donne pas les résultats escomptés.</span><span class="sxs-lookup"><span data-stu-id="b03d2-114">Otherwise, the data may not be filtered as you expect.</span></span>
+<span data-ttu-id="3f6fc-113">Utilisez le format de date américain (mois-jour-année) lorsque vous filtrez des champs contenant des dates, même si vous ne disposez pas de la version américaine du moteur de base de données Microsoft Access (dans ce cas, vous devez assembler les dates en concaténant des chaînes, par exemple strMonth & "-" & strDay & "-" & strYear).</span><span class="sxs-lookup"><span data-stu-id="3f6fc-113">Use the U.S. date format (month-day-year) when you filter fields containing dates, even if you're not using the U.S. version of the Microsoft Access database engine (in which case you must assemble any dates by concatenating strings, for example, strMonth & "-" & strDay & "-" & strYear).</span></span> <span data-ttu-id="3f6fc-114">Sinon, il est possible que le filtrage des données ne donne pas les résultats escomptés.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-114">Otherwise, the data may not be filtered as you expect.</span></span>
 
-<span data-ttu-id="b03d2-115">Dans la plupart des cas, il est plus rapide d'ouvrir un nouvel objet **Recordset** à l'aide d'une instruction SQL qui inclut une clause WHERE.</span><span class="sxs-lookup"><span data-stu-id="b03d2-115">In many cases, it's faster to open a new **Recordset** object by using an SQL statement that includes a WHERE clause.</span></span>
+<span data-ttu-id="3f6fc-115">Dans la plupart des cas, il est plus rapide d’ouvrir un nouvel objet **Recordset** à l’aide d’une instruction SQL qui inclut une clause WHERE.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-115">In many cases, it's faster to open a new **Recordset** object by using an SQL statement that includes a WHERE clause.</span></span>
 
-<span data-ttu-id="b03d2-116">Si vous définissez la propriété une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strFilter = « prix \> » & lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez de Ouvrez le prochain **jeu d’enregistrements**.</span><span class="sxs-lookup"><span data-stu-id="b03d2-116">If you set the property to a string concatenated with a non–integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strFilter = "PRICE \> " & lngPrice, and lngPrice = 125,50), an error occurs when you try to open the next **Recordset**.</span></span> <span data-ttu-id="b03d2-117">En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.</span><span class="sxs-lookup"><span data-stu-id="b03d2-117">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.</span></span>
+<span data-ttu-id="3f6fc-116">Si vous affectez à la propriété une chaîne concaténée avec une valeur non entière et que les paramètres système spécifient un caractère décimal américain tel que la virgule (par exemple, strFilter = "PRICE \> " & lngPrice et lngPrice = 125,50), une erreur est générée lorsque vous tentez d'ouvrir l'objet **Recordset** suivant.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-116">If you set the property to a string concatenated with a non–integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strFilter = "PRICE > " & lngPrice, and lngPrice = 125,50), an error occurs when you try to open the next Recordset.</span></span> <span data-ttu-id="3f6fc-117">En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-117">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b03d2-118">Exemple</span><span class="sxs-lookup"><span data-stu-id="b03d2-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3f6fc-118">Exemple</span><span class="sxs-lookup"><span data-stu-id="3f6fc-118">Example</span></span>
 
-<span data-ttu-id="b03d2-119">L'exemple suivant montre comment utiliser la propriété Filter pour déterminer les enregistrements à inclure dans un Recordset ouvert par la suite.</span><span class="sxs-lookup"><span data-stu-id="b03d2-119">The following sample shows how to use the Filter property to determine the records to be included in a subsequently opened Recordset.</span></span>
+<span data-ttu-id="3f6fc-119">L’exemple suivant montre comment utiliser la propriété Filter pour déterminer les enregistrements à inclure dans un Recordset ouvert par la suite.</span><span class="sxs-lookup"><span data-stu-id="3f6fc-119">The following sample shows how to use the Filter property to determine the records to be included in a subsequently opened Recordset.</span></span>
 
-<span data-ttu-id="b03d2-120">**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="b03d2-120">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="3f6fc-120">**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="3f6fc-120">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Dim dbs As DAO.Database
