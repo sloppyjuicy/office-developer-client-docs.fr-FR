@@ -1,5 +1,5 @@
 ---
-title: After Insert, événement de macro
+title: After Insert, événement macro
 TOCTitle: After Insert macro event
 ms:assetid: 78013896-ee07-6979-96f7-fa0f3490419e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196099(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c84a737d08b791bfe560bfe6af6bcc59a14d2678
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297220"
 ---
-# <a name="after-insert-macro-event"></a>After Insert, événement de macro
+# <a name="after-insert-macro-event"></a>After Insert, événement macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'événement **Après insertion** se produit après l'ajout d'un enregistrement.
+L'événement **AfterInsert** se produit après l'ajout d'un nouvel enregistrement.
 
 > [!NOTE]
-> [!REMARQUE] L'événement **Après insertion** est disponible uniquement dans les macros de données.
+> Le **après insérer** événement est disponible uniquement dans les Macros de données.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez l'événement **Après insertion** pour effectuer toute action souhaitée lorsqu'un enregistrement est ajouté à une table. L'événement **Après insertion** peut par exemple servir à appliquer des règles professionnelles ou des flux de travail, à mettre à jour un total agrégé et à envoyer des notifications.
+Utilisez le **après insérer** événement effectuez les actions que vous voulez se produisent lors de l’ajout d’un enregistrement à une table. Utilisations courantes pour la **après insérer** incluent l’application des règles métier, flux de travail, la mise à jour une agrégation total et envoi de notifications.
 
-Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser une instruction **If** pour déterminer si le champ PaidInFull a été modifié.
+Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser un **si** instruction à déterminer déterminer si le champ PaidInFull a été modifié.
 
 ```vb 
  
@@ -43,7 +43,7 @@ End If
  
 ```
 
-Le tableau suivant répertorie les commandes de macros qui peuvent être utilisées dans l’événement **Après insertion**.
+Le tableau suivant répertorie les commandes de macro qui peuvent être utilisées dans la**après insérer** événement.
 
 <table>
 <colgroup>
@@ -62,28 +62,28 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Déroulement de programme</p></td>
+<td><p>Flux de programme</p></td>
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Déroulement de programme</p></td>
+<td><p>Flux de programme</p></td>
 <td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="createrecord-data-block.md">Action de macro CréerEnregistrement</a></p></td>
+<td><p><a href="createrecord-data-block.md">CreateRecord, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloc de données</p></td>
-<td><p><a href="editrecord-data-block.md">Action de macro ModifierEnregistrement</a></p></td>
+<td><p><a href="editrecord-data-block.md">EditRecord, action de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="foreachrecord-data-block.md">Action de macro PourChaqueEnregistrement</a></p></td>
+<td><p><a href="foreachrecord-data-block.md">ForEachRecord, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloc de données</p></td>
-<td><p><a href="lookuprecord-data-block.md">Bloc de données RechercherEnregistrement</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">LookupRecord, bloc de données</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Action de données</p></td>
@@ -141,29 +141,29 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 </table>
 
 
-Pour créer une macro de données qui capture l'événement **Après insertion**, procédez comme suit.
+Pour créer une macro de données qui capture les **après insérer** événement, procédez comme suit.
 
-1.  Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Après insertion**.
+1.  Ouvrez la table pour laquelle vous voulez capturer la **après insérer** événement.
 
-2.  Sous l'onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après insertion**.
+2.  Sur la **tableau** sous l’onglet le **après les événements** groupe, cliquez sur **après insérer**.
 
-Une macro de données vide s'affiche dans le concepteur de macros
+Une macro de données vide s’affiche dans le Concepteur de macros.
 
 ## <a name="example"></a>Exemple
 
-L'exemple de code suivant utilise l'événement **Après suppression** pour effectuer un traitement lorsqu'un enregistrement est ajouté à la table Donations. Lorsqu'un enregistrement est ajouté, le montant du don est ajouté au champ DonationsReceived dans la table Campaigns et au champ TotalDonatedField dans la table Donors.
+Le code suivant exemple utilise la **après insérer** événement pour effectuer certaines traitement quand un enregistrement est ajouté à la table Donations. Lors de l’ajout d’un enregistrement, la quantité du don figure dans le champ DonationsReceived dans le tableau campagnes et TotalDonatedField dans la table de donateurs.
 
-**Cliquez ici pour afficher une copie de la macro que vous pouvez coller dans le concepteurs de macros.**
+**Cliquez ici pour afficher une copie de la macro que vous pouvez coller dans le Concepteur de macros.**
 
-Pour afficher cet exemple dans le concepteur de macros, procédez comme suit :
+Pour consulter cet exemple dans le Concepteur de macros, procédez comme suit :
 
-1.  Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Après insertion**.
+1.  Ouvrez la table pour laquelle vous voulez capturer la **après insérer** événement.
 
-2.  Sous l'onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après insertion**.
+2.  Sur la **tableau** sous l’onglet le **après les événements** groupe, cliquez sur **après insérer**.
 
-3.  Sélectionnez le code ci-dessous et appuyez sur Ctrl+C pour le copier dans le Presse-papiers.
+3.  Sélectionnez le code dans l’exemple de code suivant et appuyez sur CTRL + C pour copier dans le Presse-papiers.
 
-4.  Activez la fenêtre du concepteur de macros, puis appuyez sur Ctrl+V.
+4.  Activer la fenêtre Concepteur de macro, puis appuyez sur CTRL + V.
 
 <!-- end list -->
 

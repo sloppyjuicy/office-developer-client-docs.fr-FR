@@ -1,5 +1,5 @@
 ---
-title: Méthode TableDef.CreateField (DAO)
+title: TableDef.CreateField, méthode (DAO)
 TOCTitle: CreateField Method
 ms:assetid: a83d797f-ea42-4a07-dd9e-b254755f0891
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821396(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 713f2530369a824a6d7204655ded4333f7fe2765
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308441"
 ---
-# <a name="tabledefcreatefield-method-dao"></a>Méthode TableDef.CreateField (DAO)
+# <a name="tabledefcreatefield-method-dao"></a>TableDef.CreateField, méthode (DAO)
 
-**S’applique à :** Access 2013 | Office 2013
+**S’applique à** : Access 2013 | Office 2013
 
-Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Access uniquement).
+Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CreateField (_**nom**_, _**Type**_, _**taille**_)
+*expression* .CreateField(_**Name**_, _**Type**_, _**Size**_)
 
-*expression* Variable qui représente un objet **TableDef** .
+*expression* Variable représentant un objet **TableDef**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -42,7 +42,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -52,19 +52,19 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 <td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Chaîne qui identifie de manière unique le nouvel objet <strong>Field</strong>. Reportez-vous à la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d'informations sur les noms valides pour l'objet <strong>Field</strong>.  </p></td>
+<td><p>Chaîne qui identifie de manière unique le nouvel objet <strong>Field</strong>. Reportez-vous à la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms valides pour l’objet <strong>Field</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante qui détermine le type de données du nouvel objet <strong>Field</strong>. Pour connaître les types de données valides, reportez-vous à la propriété <strong><a href="field-type-property-dao.md">Type</a></strong>.  </p></td>
+<td><p>Constante qui détermine le type de données du nouvel objet <strong>Field</strong>. Pour connaître les types de données valides, reportez-vous à la propriété <strong><a href="field-type-property-dao.md">Type</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Size</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Integer qui indique la taille maximale, en octets, d'un objet <strong>Field</strong> qui contient du texte. Voir la propriété <strong><a href="field-size-property-dao.md">Size</a></strong> pour les valeurs de taille valide. Cet argument est ignoré pour les champs numériques et de longueur fixe.</p></td>
+<td><p>Nombre entier indiquant la taille maximale, en octets, d’un objet <strong>Field</strong> contenant du texte. Pour connaître les valeurs de taille valides, voir la propriété <strong><a href="field-size-property-dao.md">Size</a></strong>. Cet argument est ignoré pour les champs numériques et de longueur fixe.</p></td>
 </tr>
 </tbody>
 </table>
@@ -72,27 +72,27 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Champ
+Field
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser la méthode **CreateField** pour créer un champ, spécifier le nom, le type de données et la taille du champ. Si vous omettez une ou plusieurs des parties facultatives lorsque vous utilisez la méthode **CreateField**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d'ajouter le nouvel objet à la collection. Une fois que vous avez ajouté le nouvel objet, vous pouvez modifier une partie de ses paramètres de propriété, mais pas tous. Pour plus d'informations, reportez-vous aux rubriques concernant cette propriété.
+Vous pouvez utiliser la méthode **CreateField** pour créer un champ, spécifier le nom, le type de données et la taille du champ. Si vous omettez une ou plusieurs des parties facultatives lorsque vous utilisez la méthode **CreateField**, vous pouvez utiliser une instruction d’affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d’ajouter le nouvel objet à la collection. Une fois que vous avez ajouté le nouvel objet, vous pouvez modifier une partie de ses paramètres de propriété, mais pas tous. Pour plus d’informations, reportez-vous aux rubriques concernant cette propriété.
 
-Les arguments de la taille et le type s’appliquent uniquement aux objets **Field** dans un objet **TableDef** . Ces arguments sont ignorés lorsqu'un objet **Field** est associé à un objet **Index** ou **Relation**.
+Les arguments Type et Size ne s’appliquent qu’aux objets **Field** dans un objet **TableDef**. Les arguments suivants sont ignorés quand un objet **Field** est associé un objet **Index** ou **Relation**.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’exécution se produit lorsque vous utilisez la méthode **[Append](fields-append-method-dao.md)** .
+Si l’argument Name renvoie à un objet qui est déjà membre de la collection, une erreur d’exécution se produit lorsque vous utilisez la méthode **[Append](fields-append-method-dao.md)**.
 
-Pour supprimer un objet **Field** d'une collection **Fields**, utilisez la méthode **[Delete](fields-delete-method-dao.md)** dans la collection. Vous ne pouvez pas supprimer un objet **Field** dans la collection **Fields** d'un objet **TableDef** une fois que vous avez créé un index qui renvoie à ce champ.
+Pour supprimer un objet **Field** d’une collection **Fields**, utilisez la méthode **[Delete](fields-delete-method-dao.md)** dans la collection. Vous ne pouvez pas supprimer un objet **Field** dans la collection **Fields** d’un objet **TableDef** une fois que vous avez créé un index qui renvoie à ce champ.
 
-**Lien fourni par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
+**Lien fourni par** la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est le forum d’aide et wiki de Microsoft Access de référence.
 
-- [Ajout d'un champ lien hypertexte à une table existante avec DAO](https://www.utteraccess.com/wiki/index.php/adding_a_hyperlink_field_to_an_existing_table_with_dao)
+- [Ajout d’un champ Lien hypertexte à une table existante avec DAO](https://www.utteraccess.com/wiki/index.php/adding_a_hyperlink_field_to_an_existing_table_with_dao)
 
 ## <a name="example"></a>Exemple
 
 L'exemple suivant montre comment créer un champ calculé. La méthode CreateField crée un champ nommé **FullName**. La propriété Expression est ensuite définie sur l'expression qui calcule la valeur du champ.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateCalculatedField()

@@ -1,5 +1,5 @@
 ---
-title: Propriété QueryDef.SQL (DAO)
+title: QueryDef.SQL, propriété (DAO)
 TOCTitle: SQL property
 ms:assetid: 16446789-c8be-bff0-eddd-b5f6a8530128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845522(v=office.15)
@@ -12,40 +12,40 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c51f0da8541cf0ba2790827c58a0b017bd6ed875
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300979"
 ---
-# <a name="querydefsql-property-dao"></a>Propriété QueryDef.SQL (DAO)
+# <a name="querydefsql-property-dao"></a>QueryDef.SQL, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie l'instruction SQL qui définit la requête exécutée par un objet **[QueryDef](querydef-object-dao.md)**.
+Définit ou renvoie l’instruction SQL qui définit la requête exécutée par un objet **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . SQL
+*expression* .SQL
 
-*expression* Variable qui représente un objet **QueryDef** .
+*expression* Variable représentant un objet **QueryDef**.
 
 ## <a name="remarks"></a>Remarques
 
-La propriété **SQL** contient l'instruction SQL déterminant la façon dont les enregistrements sont sélectionnés, groupés et triés lorsque vous exécutez la requête. Vous pouvez utiliser la requête pour sélectionner les enregistrements à inclure dans un objet **[Recordset](recordset-object-dao.md)**. Vous pouvez également définir des requêtes action pour modifier les données sans renvoyer d'enregistrements.
+Le **SQL** propriété contient l’instruction SQL qui détermine la manière dont les enregistrements sont sélectionnés, regroupées et triées lorsque vous exécutez la requête. Vous pouvez utiliser la requête pour sélectionner des enregistrements à inclure dans un ** [jeu d’enregistrements](recordset-object-dao.md) ** objet. Vous pouvez également définir des requêtes action pour modifier les données sans renvoi d’enregistrements.
 
-La syntaxe SQL utilisée dans une requête doit respecter le langage SQL du moteur de requêtes, lequel est déterminé par le type d'espace de travail. Dans un espace de travail Microsoft Access, utilisez le langage SQL Microsoft Access, sauf si vous créez une requête SQL directe, auquel cas vous devez utilisez le langage du serveur.
+La syntaxe SQL utilisée dans une requête doit respecter le langage SQL du moteur de requête est déterminé par le type d’espace de travail. Dans un espace de travail Microsoft Access, utilisez le langage SQL Microsoft Access, sauf si vous créez une requête SQL directe, auquel cas, vous devez utiliser le langage du serveur.
 
-Si l'instruction SQL inclut des paramètres pour la requête, vous devez définir ceux-ci avant l'exécution. Tant que vous ne redéfinissez pas les paramètres, les mêmes valeurs de paramètres sont appliquées à chaque exécution de la requête.
+Si l’instruction SQL inclut des paramètres pour la requête, vous devez définir ces avant l’exécution. Jusqu'à ce que vous réinitialisez les paramètres, les mêmes valeurs de paramètre sont appliqués à chaque fois que vous exécutez la requête.
 
-Dans un espace de travail Microsoft Access, c'est l'objet **QueryDef** qui est généralement utilisé pour exécuter des requêtes SQL directes sur les sources de données ODBC connectées au moteur de base de données Microsoft Access. En définissant la propriété **[Connect](querydef-connect-property-dao.md)** de l’objet **QueryDef** sur une source de données ODBC, vous pouvez utiliser SQL non – Microsoft – – base de données Access dans la requête à transmettre au serveur externe. Vous pouvez, par exemple utiliser des instructions TRANSACT SQL (avec des bases de données Microsoft SQL Server ou Sybase SQL Server), qui, sinon, ne seraient pas traitées par le moteur de base de données Microsoft Access.
+Dans un espace de travail Microsoft Access, à l’aide un **QueryDef** objet est la meilleure méthode pour effectuer des opérations directes SQL sur sources de données ODBC connectées moteur de base de données Microsoft Access. En définissant une source de données ODBC pour la propriété **[Connect](querydef-connect-property-dao.md)** d’un objet **QueryDef**, vous pouvez utilisez un langage SQL non Microsoft Access dans la requête à transmettre au serveur externe. Par exemple, vous pouvez utiliser des instructions TRANSACT SQL (avec Microsoft SQL Server ou Sybase SQL Server bases de données), le moteur de base de données Microsoft Access serait sinon Évitez de traiter.
 
 > [!NOTE]
-> Si vous définissez la propriété une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`), une erreur se produit lorsque vous essayez d’exécuter l’objet **QueryDef** dans Microsoft Base de données du moteur de base de données Access. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.
+> Si vous affectez à la propriété une chaîne concaténée avec une valeur non entière et que les paramètres système spécifient un caractère décimal américain tel que la virgule (par exemple, `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`), une erreur est générée lorsque vous tentez d’exécuter l’objet **QueryDef** dans une base de données du moteur de base de données Microsoft Access. Il s’agit, car lors de la concaténation, le nombre est converti en une chaîne à l’aide du caractère décimal par défaut de votre système et Microsoft Access SQL accepte uniquement des caractères décimaux américains.
 
 ## <a name="example"></a>Exemple
 
-Cet exemple illustre la propriété **SQL** en définissant et en modifiant la propriété **SQL** d'un objet **QueryDef** temporaire puis en comparant les résultats. La fonction SQLOutput est nécessaire à l'exécution de cette procédure.
+Cet exemple illustre la **SQL** propriété en définissant et en modifiant le **SQL** propriété d’un fichier temporaire **QueryDef** et comparer les résultats. La fonction SQLOutput est requise pour exécuter cette procédure.
 
 ```vb
     Sub SQLX() 
@@ -99,7 +99,7 @@ Cet exemple illustre la propriété **SQL** en définissant et en modifiant la p
 
 <br/>
 
-Cet exemple utilise la méthode **CopyQueryDef** pour créer une copie d'un objet **QueryDef** à partir d'un objet **Recordset** existant et modifie la copie en ajoutant une clause à la propriété **SQL**. Lorsque vous créez un objet **QueryDef** permanent, des espaces, des points-virgules ou des sauts de ligne sont parfois ajoutés à la propriété **SQL**; ces caractères supplémentaires doivent être supprimés avant de pouvoir attacher de nouvelles clauses à l'instruction SQL.
+Cet exemple utilise la **CopyQueryDef** méthode pour créer une copie d’un **QueryDef** à partir d’un existant **jeu d’enregistrements** et modifie la copie en ajoutant une clause à la ** SQL** propriété. Lorsque vous créez un permanente **QueryDef**, espaces, des points-virgules ou des sauts de ligne pourraient être ajoutés à la **SQL** propriété ; ces caractères supplémentaires doivent être supprimés avant des nouvelles clauses pouvant joint à l’instruction SQL.
 
 ```vb
     Function CopyQueryNew(rstTemp As Recordset, _ 
@@ -126,7 +126,7 @@ Cet exemple utilise la méthode **CopyQueryDef** pour créer une copie d'un obje
 
 <br/>
 
-Cet exemple illustre une utilisation possible de CopyQueryNew(). 
+Cet exemple montre une utilisation possible de CopyQueryNew(). 
      
 ```vb
     Sub CopyQueryDefX() 
@@ -186,7 +186,7 @@ Cet exemple illustre une utilisation possible de CopyQueryNew().
 
 <br/>
 
-Cet exemple utilise les méthodes **CreateQueryDef** et **OpenRecordset** ainsi que la propriété **SQL** pour interroger la table de titres dans la base de données exemple Microsoft SQL Server, Pubs et renvoyer le titre et la référence du titre du best-seller. L'exemple interroge ensuite la table des auteurs et indique à l'utilisateur d'envoyer une prime à chaque auteur en fonction de son pourcentage de droits d'auteur (la prime totale s'élève à 1 000 euros et chaque auteur doit recevoir un pourcentage de ce montant).
+Cet exemple utilise les méthodes **CreateQueryDef** et **OpenRecordset**, ainsi que la propriété **SQL**, pour exécuter une requête sur la table de titres de la base de données exemple Microsoft SQL Server, Pubs, et renvoyer le titre et l’identificateur du titre du best-seller. Ensuite, il exécute une requête sur la table des auteurs et indique à l’utilisateur d’envoyer un chèque de bonification à chaque auteur en fonction de son pourcentage de droits d’auteur (la bonification totale s’élève à 1 000 euros et chaque auteur doit recevoir un pourcentage de ce montant).
 
 ```vb
     Sub ClientServerX2() 
@@ -254,9 +254,9 @@ Cet exemple utilise les méthodes **CreateQueryDef** et **OpenRecordset** ainsi 
 
 <br/>
 
-L'exemple suivant montre comment créer une requête avec paramètres. Une requête nommée **myQuery** est créée avec deux paramètres, nommés Param1 et Param2. Pour ce faire, la propriété SQL de la requête est définie sur une instruction SQL (Structured Query Language) qui définit les paramètres.
+L’exemple suivant montre comment créer une requête avec paramètres. Une requête nommée **myQuery** est créée avec deux paramètres nommés Param1 et Param2. Pour ce faire, la propriété SQL de la requête est définie sur une instruction SQL qui définit les paramètres.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -283,7 +283,7 @@ L'exemple suivant montre comment créer une requête avec paramètres. Une requ�
 
 <br/>
 
-L'exemple suivant montre comment remplacer l'instruction de langage SQL (Structured Query Language) dans une requête enregistrée.
+L’exemple suivant montre comment remplacer l’instruction SQL dans une requête enregistrée.
 
 ```vb
     Dim qdf as QueryDef

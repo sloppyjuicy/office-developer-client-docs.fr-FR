@@ -1,7 +1,7 @@
 ---
-title: Automation avec Microsoft Access
+title: Automatisation avec Microsoft Access
 TOCTitle: Automation with Microsoft Access
-description: Microsoft Access est un composant COM qui prend en charge l'automation, autrefois appelée automation OLE.
+description: Microsoft Access est un composant COM qui prend en charge Automation, précédemment appelé OLE Automation.
 ms:assetid: 39fde349-3ba3-7c7a-3c92-316641dc8712
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192643(v=office.15)
 ms:contentKeyID: 48544258
@@ -13,27 +13,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 9635cdb2a06f610f42e4aa9fc9f998719aebb986
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296961"
 ---
-# <a name="automation-with-microsoft-access"></a>Automatisation avec Microsoft Access
+# <a name="automation-with-microsoft-access"></a>Automation avec Microsoft Access
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Microsoft Access est un composant COM qui prend en charge l'automation, autrefois appelée automation OLE. Microsoft Access prend en charge l'automation de deux manières. À partir de Microsoft Access, vous pouvez utiliser les objets fournis par une autre application. Microsoft Access fournit également ses objets à d'autres composants COM.
+Microsoft Access est un composant COM qui prend en charge Automation, anciennement appelé OLE Automation. Microsoft Access prend en charge l’automatisation de deux façons. À partir de Microsoft Access, vous pouvez travailler avec des objets fournis par un autre composant. Microsoft Access fournit également ses objets à d’autres composants COM.
 
-Vous pouvez utiliser le mot clé **New** ou la méthode **CreateObject** pour créer une nouvelle instance d'un composant. Vous pouvez utiliser la méthode **GetObject** pour affecter une variable à une instance existante d'un composant.
+Vous pouvez utiliser la **nouveau** mot clé ou le **CreateObject** méthode pour créer une nouvelle instance d’un composant. Vous pouvez utiliser la **GetObject** méthode pour attribuer une variable sur une instance d’un composant existante.
 
-Dans Microsoft Access, vous pouvez définir une référence à la bibliothèque de types d'un composant pour améliorer les performances lorsque vous utilisez ce composant au moyen de l'automation. Microsoft Access contient également l'Explorateur d'objets, un outil qui vous permet d'afficher les objets de la bibliothèque de types d'un autre composant, ainsi que leurs méthodes et propriétés.
+Dans Microsoft Access, vous pouvez définir une référence à la bibliothèque de types de composant pour améliorer les performances lorsque vous travaillez avec ce composant via Automation. Microsoft Access inclut également l’Explorateur d’objets, un outil qui vous permet d’afficher des objets dans une autre bibliothèque de type composant, ainsi que leurs méthodes et propriétés.
 
-La bibliothèque de types Microsoft Access fournit des informations relatives aux objets Microsoft Access à d'autres composants. Vous pouvez [définir une référence](https://docs.microsoft.com/office/vba/access/Concepts/Settings/set-references-to-type-libraries) à Microsoft Access bibliothèque à partir d’un composant de type et afficher ses objets dans l’Explorateur d’objets.
+La bibliothèque de types Microsoft Access fournit des informations sur des objets Microsoft Access à d’autres composants. Vous pouvez [définir une référence](https://docs.microsoft.com/office/vba/access/Concepts/Settings/set-references-to-type-libraries) à la bibliothèque de types Microsoft Access à partir d’un composant et afficher ses objets dans l’Explorateur d’objets.
 
-Si vous voulez manipuler des objets Microsoft Access au moyen de l'automation, vous devez créer une instance de l'objet **[Application](https://docs.microsoft.com/office/vba/api/Access.Application)** Microsoft Access. Par exemple, supposez que vous souhaitiez afficher des données provenant de Microsoft Excel dans un formulaire ou un état Microsoft Access. Pour démarrer Microsoft Access à partir de Microsoft Excel, vous pouvez utiliser le mot réservé **New** pour créer une instance de l'objet **Application** Microsoft Access. Vous pouvez également utiliser la méthode **CreateObject** pour créer une instance de l'objet **Application** Microsoft Access ou la méthode **GetObject** pour affecter une variable objet à une instance existante de Microsoft Access. Consultez la documentation de votre application pour déterminer la syntaxe qu'elle prend en charge.
+Pour utiliser les objets Microsoft Access via Automation, vous devez créer une instance de Microsoft Access ** [Application](https://docs.microsoft.com/office/vba/api/Access.Application) ** objet. Par exemple, supposons que vous voulez afficher des données à partir de Microsoft Excel dans un formulaire dans Microsoft Access ou un état. Pour lancer Microsoft Access à partir de Microsoft Excel, vous pouvez utiliser la **nouveau** mot clé pour créer une instance de Microsoft Access **Application** objet. Vous pouvez également utiliser le **CreateObject** méthode pour créer une nouvelle instance de Microsoft Access **Application** objet, ou vous pouvez utiliser la **GetObject** méthode permettant de pointez une variable d’objet sur une instance de Microsoft Access existante. Consultez la documentation de votre composant pour déterminer la syntaxe Il prend en charge.
 
-Une fois que vous avez lancé une instance de Microsoft Access, si vous souhaitez contrôler tous les objets Microsoft Access, vous devez ouvrir une base de données ou un projet (.adp) dans la fenêtre Microsoft Access en utilisant **[OpenCurrentDatabase](https://docs.microsoft.com/office/vba/api/Access.Application.OpenCurrentDatabase)** ou la **[NewCurrentDatabase ](https://docs.microsoft.com/office/vba/api/Access.Application.NewCurrentDatabase)** méthode pour une base de données ou à l’aide **[OpenAccessProject](https://docs.microsoft.com/office/vba/api/Access.Application.OpenAccessProject)** ou la méthode **[NewAccessProject](https://docs.microsoft.com/office/vba/api/Access.Application.NewAccessProject)** pour un projet.
+Si, après avoir lancé une instance de Microsoft Access, vous voulez contrôler un objet Microsoft Access quelconque, vous devez ouvrir une base de données ou un projet (.adp) dans la fenêtre Microsoft Access à l’aide de la méthode **[OpenCurrentDatabase](https://docs.microsoft.com/office/vba/api/Access.Application.OpenCurrentDatabase)** ou **[NewCurrentDatabase](https://docs.microsoft.com/office/vba/api/Access.Application.NewCurrentDatabase)** s’il s’agit d’une base de données, ou de la méthode **[OpenAccessProject](https://docs.microsoft.com/office/vba/api/Access.Application.OpenAccessProject)** ou **[NewAccessProject](https://docs.microsoft.com/office/vba/api/Access.Application.NewAccessProject)** s’il ’agit d’un projet.
 
-Si vous avez ouvert Microsoft Access uniquement comme moyen de l’aide de Data Access Objects fournis par Microsoft DAO, vous n’avez pas besoin d’ouvrir une base de données dans la fenêtre Microsoft Access. Vous pouvez utiliser la propriété **[DBEngine](https://docs.microsoft.com/office/vba/api/Access.Application.DBEngine)** de l’objet Microsoft Access **Application** pour accéder aux objets dans la bibliothèque d’objets Microsoft Office 12.0 Access base de données de moteur pendant une opération Automation.
+Si vous avez ouvert Microsoft Access en vue d’utiliser uniquement les objets d’accès aux données fournis par Microsoft DAO, vous ne devez pas ouvrir de base de données dans la fenêtre Microsoft Access. Vous pouvez utiliser la propriété **[DBEngine](https://docs.microsoft.com/office/vba/api/Access.Application.DBEngine)** de l’objet **Application** Microsoft Access pour accéder aux objets de la bibliothèque d’objets du moteur de base de données Access Microsoft Office 12.0 lors d’une opération d’Automation.
 

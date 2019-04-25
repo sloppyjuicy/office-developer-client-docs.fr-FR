@@ -1,5 +1,5 @@
 ---
-title: Instruction ALTER TABLE (Microsoft Access SQL)
+title: ALTER TABLE (Microsoft Access SQL), instruction
 TOCTitle: ALTER TABLE statement (Microsoft Access SQL)
 ms:assetid: 78e6c92c-e88c-e55f-6b89-435360c166a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196148(v=office.15)
@@ -14,24 +14,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: b8bd9abac3aee8be8fe52e555fcd5247e804f258
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297157"
 ---
-# <a name="alter-table-statement-microsoft-access-sql"></a>Instruction ALTER TABLE (Microsoft Access SQL)
+# <a name="alter-table-statement-microsoft-access-sql"></a>ALTER TABLE (Microsoft Access SQL), instruction
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Modifie la structure d'une table après qu'elle a été créée avec l'instruction [CREATE TABLE](create-table-statement-microsoft-access-sql.md).
+Modifie la structure d’une table après qu’elle a été créée avec l’instruction [CREATE TABLE](create-table-statement-microsoft-access-sql.md).
 
 > [!NOTE]
-> [!REMARQUE] Le moteur de base de données Microsoft Access ne prend pas en charge ALTER TABLE, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Utilisez les méthodes DAO **créer** à la place.
+> Le moteur de base de données Access ne prend pas en charge l’utilisation de l’instruction ALTER TABLE ou d’instructions en langage de définition de données (DDL) avec des bases de données autres que Microsoft Access. Utilisez plutôt les méthodes **Create** de DAO.
 
 ## <a name="syntax"></a>Syntaxe
 
-ALTER TABLE *table* {ajouter {de la colonne *type de champ*\[(*taille*)\] \[non NULL\] \[CONSTRAINT *index* \] | ALTER COLUMN *type de champ*\[(*taille*)\] | CONSTRAINT *index de plusieurs champs*} | DROP {COLUMN *champ* I CONSTRAINT *nom de l’index*}}
+ALTER TABLE *table* {ADD {COLUMN *field type*\[(*size*)\] \[NOT NULL\] \[CONSTRAINT *index*\] | ALTER COLUMN *field type*\[(*size*)\] | CONSTRAINT *multifieldindex*} | DROP {COLUMN *field* I CONSTRAINT *indexname*} }
 
 L'instruction ALTER TABLE est composée des arguments suivants :
 
@@ -42,7 +42,7 @@ L'instruction ALTER TABLE est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Élément</p></th>
+<th><p>Argument</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -65,41 +65,41 @@ L'instruction ALTER TABLE est composée des arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><em>index</em></p></td>
-<td><p>Index du <em>champ</em>. Pour plus d’informations sur la création de cet index, voir la <a href="constraint-clause-microsoft-access-sql.md">clause CONSTRAINT</a>.</p></td>
+<td><p>Index pour <em>field</em>. Pour plus d’informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT, clause</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>index de plusieurs champs</em></p></td>
-<td><p>La définition d’un index de plusieurs champs à ajouter au <em>tableau</em>. Pour plus d’informations sur la création de cet index, voir la <a href="constraint-clause-microsoft-access-sql.md">clause CONSTRAINT</a>.</p></td>
+<td><p><em>multifieldindex</em></p></td>
+<td><p>Définition d’un index multichamp à ajouter à <em>table</em>. Pour plus d’informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT, clause</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>nom de l'index</em></p></td>
+<td><p><em>indexname</em></p></td>
 <td><p>Nom de l'index de plusieurs champs à supprimer.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-À l’aide de l’instruction ALTER TABLE, vous pouvez modifier une table existante de plusieurs façons. Procédez comme suit :
+L’instruction ALTER TABLE permet de modifier une table existante de plusieurs manières. Vous pouvez :
 
-- Utilisez ADD COLUMN pour ajouter un champ à la table. Vous devez pour cela spécifier le nom du champ, le type des données et éventuellement la taille du champ (pour les champs texte et binaires). Par exemple, l'instruction suivante ajoute un champ texte de 25 caractères appelé Notes à la table Employees :
+- Utilisez ADD COLUMN pour ajouter un champ à la table. Vous devez pour cela spécifier le nom du champ, le type des données et éventuellement la taille du champ (pour les champs texte et binaires). Par exemple, l'instruction suivante ajoute un champ texte de 25 caractères appelé Notes à la table Employees :
     
   ```sql
     ALTER TABLE Employees ADD COLUMN Notes TEXT(25)
   ```
     
-  Vous pouvez également définir un index sur ce champ. Pour plus d’informations sur les index monochamp, voir la [clause CONSTRAINT](constraint-clause-microsoft-access-sql.md).
+  Vous pouvez également définir un index sur ce champ. Pour plus d’informations sur les index à champ unique, voir [CONSTRAINT, clause](constraint-clause-microsoft-access-sql.md).
     
-  Si vous spécifiez NOT NULL pour un champ, les nouveaux enregistrements sont requis pour contenir des données valides dans ce champ.
+  Si vous spécifiez NOT NULL pour un champ, les nouveaux enregistrements doivent disposer de données valides dans ce champ.
 
-- Utilisez ALTER COLUMN pour changer le type des données d'un champ existant. Vous devez pour cela spécifier le nom du champ, le nouveau type des données et éventuellement la taille du champ (pour les champs texte et binaires). Par exemple, l'instruction suivante change le type des données d'un champ ZipCode de la table Employees en remplaçant l'entier qui s'y trouvait par du texte comportant 10 caractères :
+- Utilisez ALTER COLUMN pour changer le type des données d'un champ existant. Vous devez pour cela spécifier le nom du champ, le nouveau type des données et éventuellement la taille du champ (pour les champs texte et binaires). Par exemple, l'instruction suivante change le type des données d'un champ ZipCode de la table Employees en remplaçant l'entier qui s'y trouvait par du texte comportant 10 caractères :
     
   ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
   ```
 
-- Utilisez ADD CONSTRAINT pour ajouter un index de plusieurs champs. Pour plus d’informations sur les index de plusieurs champs, voir la [clause CONSTRAINT](constraint-clause-microsoft-access-sql.md).
+- Utilisez l’instruction ADD CONSTRAINT pour ajouter un index multichamp. Pour plus d’informations sur les index multichamps, voir [CONSTRAINT, clause](constraint-clause-microsoft-access-sql.md).
 
 - Utilisez DROP COLUMN pour supprimer un champ. Vous ne devez pour cela spécifier que le nom du champ.
 
@@ -107,12 +107,11 @@ L'instruction ALTER TABLE est composée des arguments suivants :
 
 
 > [!NOTE] 
-> - [!REMARQUE] Vous ne pouvez pas ajouter ou supprimer plus d'un champ ou d'un index à la fois.
+> - Vous ne pouvez pas ajouter ou supprimer plus d'un champ ou d'un index à la fois.
 > - Vous pouvez utiliser l’instruction [CREATE INDEX](create-index-statement-microsoft-access-sql.md) pour ajouter un index d’un ou de plusieurs champs à une table et l’instruction ALTER TABLE ou [DROP](drop-statement-microsoft-access-sql.md) pour supprimer un index créé avec ALTER TABLE ou CREATE INDEX.
-> - Vous pouvez utiliser NOT NULL sur un seul champ ou dans une clause CONSTRAINT nommée qui s'applique à un index d'un ou de plusieurs champs nommé CONSTRAINT. En revanche, vous ne pouvez appliquer la restriction NOT NULL à un champ qu'une seule fois. Si vous appliquez plusieurs fois cette restriction, une erreur d'exécution de produit. 
+> - Vous pouvez utiliser l’instruction NON NULL sur un champ unique ou à l’intérieur d’une clause CONSTRAINT nommée qui s’applique à une instruction CONSTRAINT nommée portant sur un ou plusieurs champs. Toutefois, vous ne pouvez appliquer la restriction NON NULL qu’une seule fois à un champ. Une tentative d’appliquer cette restriction plusieurs fois génère une erreur d’exécution.
 
-
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Dans cet exemple, un champ Salary avec le type de données **Money** est ajouté à la table Employees.
 
@@ -182,7 +181,7 @@ Dans cet exemple, le champ Salary est supprimé de la table Employees.
 
 <br/>
 
-Dans cet exemple, une clé étrangère est ajoutée à la table Orders. La clé étrangère est basée sur le champ EmployeeID et fait référence au champ EmployeeID de la table Employees. Vous n'avez pas besoin d'indiquer le champ EmployeeID à la suite de la table Employees dans la clause REFERENCES, car EmployeeID est la clé primaire de la table Employees.
+Dans cet exemple, une clé étrangère est ajoutée à la table Orders. La clé étrangère est basée sur le champ EmployeeID et fait référence au champ EmployeeID de la table Employees. Vous n’avez pas besoin d’indiquer le champ EmployeeID à la suite de la table Employees dans la clause REFERENCES, car EmployeeID est la clé primaire de la table Employees.
 
 ```vb
     Sub AlterTableX4() 

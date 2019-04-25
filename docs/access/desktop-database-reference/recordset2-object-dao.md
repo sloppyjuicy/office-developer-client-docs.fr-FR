@@ -1,5 +1,5 @@
 ---
-title: Objet Recordset2 (DAO)
+title: Recordset2 , objet (DAO)
 TOCTitle: Recordset2 Object
 ms:assetid: 964f9961-807c-e4f3-5919-74e25f6e9069
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197737(v=office.15)
@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a25e980660e1ab098d15b66b17678ef4111ee215
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307230"
 ---
-# <a name="recordset2-object-dao"></a>Objet Recordset2 (DAO)
+# <a name="recordset2-object-dao"></a>Recordset2 , objet (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Un objet **Recordset2** représente les enregistrements d'une table de base ou les enregistrements générés suite à l'exécution d'une requête.
+Un objet **Recordset2** représente les enregistrements dans un tableau de base ou les enregistrements obtenus par l’exécution d’une requête.
 
 ## <a name="remarks"></a>Remarques
 
-Un objet **Recordset2** contient les mêmes propriétés et méthodes que l'objet **[Recordset](recordset-object-dao.md)**. L'objet **Recordset2** contient une nouvelle propriété, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, qui prend en charge les types de champ à plusieurs valeurs.
+A **Recordset2** objet est contient toutes les propriétés et les méthodes que celles même la ** [jeu d’enregistrements](recordset-object-dao.md) ** objet. Le **Recordset2** objet contient une nouvelle propriété ** [ParentRecordset](recordset2-parentrecordset-property-dao.md)**, qui prennent en charge les types de champs multiples.
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment naviguer dans un jeu d’enregistrements contenant un champ à valeurs multiples.
+L’exemple suivant montre comment naviguer dans un Recordset contenant un champ à valeurs multiples.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -92,7 +92,7 @@ L’exemple suivant montre comment naviguer dans un jeu d’enregistrements cont
 
 <br/>
 
-L’exemple suivant montre comment parcourir les fichiers dans un champ pièce jointe. Le type de fichier et le nom de chaque pièce jointe est imprimé dans la fenêtre exécution.
+L’exemple suivant montre comment naviguer dans les fichiers à l’intérieur d’un champ Pièce jointe. Le type et le nom de fichier de chaque pièce jointe figurent dans la fenêtre Exécution.
 
 ```vb
     Sub ListAttachments()
@@ -142,7 +142,7 @@ L’exemple suivant montre comment parcourir les fichiers dans un champ pièce j
 
 <br/>
 
-L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès du dossier spécifié à un champ pièce jointe.
+L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès de dossier spécifié à un champ Pièce jointe.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -199,7 +199,7 @@ L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin 
 
 <br/>
 
-L’exemple suivant montre comment enregistrer les fichiers stockés dans un champ de pièce jointe sur le chemin d’accès du dossier spécifié.
+L’exemple suivant montre comment enregistrer les fichiers d’un champ Pièce jointe dans le chemin d’accès de dossier spécifié.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -255,7 +255,7 @@ L’exemple suivant montre comment enregistrer les fichiers stockés dans un cha
 
 <br/>
 
-L’exemple suivant montre comment supprimer un fichier stocké dans un champ pièce jointe.
+L’exemple suivant montre comment supprimer un fichier stocké dans un champ Pièce jointe.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

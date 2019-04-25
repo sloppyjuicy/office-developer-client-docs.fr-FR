@@ -1,5 +1,5 @@
 ---
-title: SetValue, action de macro
+title: Action de macro SetValue
 TOCTitle: SetValue macro action
 ms:assetid: a08be0c1-a053-45f9-b4ae-709fedc58e8b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 6b6f16c22e9265159c73279cfa1b2644adbc0277
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306817"
 ---
-# <a name="setvalue-macro-action"></a>SetValue, action de macro
+# <a name="setvalue-macro-action"></a>Action de macro SetValue
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **DéfinirValeur** pour définir la valeur d'un champ, d'un contrôle ou d'une propriété Microsoft Access dans un formulaire, un formulaire feuille de données ou un état.
 
 > [!NOTE]
-> - [!REMARQUE] Vous ne pouvez pas utiliser l'action **DéfinirValeur** pour définir la valeur d'une propriété Access qui renvoie un objet.
-> - [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> - Vous ne pouvez pas utiliser l’action **DéfinirValeur** pour définir la valeur d’une propriété Access qui renvoie un objet.
+> - Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **DéfinirValeur** utilise les arguments suivants.
+L’action **DéfinirValeur** utilise les arguments suivants.
 
 <table>
 <colgroup>
@@ -46,20 +46,20 @@ L'action **DéfinirValeur** utilise les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>Expression utilisée par Access pour définir la valeur de cet élément. Vous devez toujours utiliser la syntaxe complète pour faire référence à des objets dans l’expression. Par exemple, pour augmenter la valeur d’un contrôle Salaire dans un formulaire Employés de 10 pour cent, utilisez Forms!Employees!Salary*1.1.. Il s’agit d’un argument obligatoire.</p><p><strong>Remarque</strong>: n’utilisez pas un signe égal (=) avant l’expression dans cet argument. Si vous le faites, Access évalue l’expression, puis utilise cette valeur comme expression dans cet argument. Cela peut produire des résultats inattendus si l’expression est une chaîne.</p>
-<p>Par exemple, si vous tapez <strong> = &quot;chaîne1&quot; </strong> à cet argument, Access évalue l’expression comme chaîne1 d’abord. Il utilise ensuite Chaîne1 comme expression dans cet argument, s’attendant à trouver un contrôle ou la propriété nommé Chaîne1 dans le formulaire ou l’état qui a appelé la macro.</p></td>
+<td><p>Expression utilisée par Access pour définir la valeur de cet élément. Vous devez toujours utiliser la syntaxe complète pour faire référence à des objets dans l’expression. Par exemple, pour augmenter de 10 pour cent la valeur d’un contrôle Salaire dans un formulaire Employés, utilisez Forms!Employees!Salary*1.1. Cet argument est obligatoire.</p><p><strong>REMARQUE</strong> : n’utilisez pas de signe égal (=) avant l’expression dans cet argument. Si vous le faites, Access évalue l’expression, puis utilise cette valeur comme expression dans cet argument. Cela peut entraîner des résultats inattendus si l’expression est une chaîne.</p>
+<p>Par exemple, si vous entrez <strong>=&quot;Chaîne1&quot;</strong> pour cet argument, Access évalue d’abord l’expression comme Chaîne1. Il utilise ensuite Chaîne1 comme expression dans cet argument, s’attendant à trouver un contrôle ou une propriété nommé Chaîne1 dans le formulaire ou l’état qui a appelé la macro.</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> [!REMARQUE] Dans une base de données Access (.mdb ou .accdb), cliquez sur le bouton **Générer** pour utiliser le Générateur d'expression et créer une expression pour l'un de ces arguments.
+> Dans une base de données Access (.mdb ou .accdb), cliquez sur le bouton **Générer** pour utiliser le Générateur d'expression et créer une expression pour l'un de ces arguments.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser cette action pour définir une valeur pour un champ ou un contrôle dans un formulaire, un formulaire feuille de données ou un état. Vous pouvez également définir la valeur de presque toutes les propriétés de contrôle, de formulaire et d'état dans n'importe quel affichage. Pour déterminer si une propriété spécifique peut être configurée à l'aide d'une macro et les affichages pouvant être définis, consultez la rubrique d'aide relative à cette propriété dans Visual Basic Editor.
+Vous pouvez utiliser cette action pour définir une valeur pour un champ ou un contrôle dans un formulaire, un formulaire feuille de données ou un état. Vous pouvez également définir la valeur de presque toutes les propriétés de contrôle, de formulaire et d’état dans n’importe quel affichage. Pour déterminer si une propriété spécifique peut être configurée à l’aide d’une macro et les affichages pouvant être définis, consultez la rubrique d’aide relative à cette propriété dans Visual Basic Editor.
 
-Vous pouvez également définir la valeur d'un champ dans la table sous-jacente d'un formulaire, même si le formulaire ne contient pas de contrôle lié au champ. Utilisez la syntaxe **Forms**\!*formname*\!*fieldname* dans la zone **élément** pour définir la valeur pour ce champ. Vous pouvez également faire référence à un champ de table sous-jacente d’un état à l’aide de la syntaxe de **rapports**\!*reportname*\!*fieldname*, mais il doit exister un contrôle dépendant de ce champ ou le champ doit être référencé en une contrôle calculé dans l’état.
+Vous pouvez également définir la valeur d’un champ dans la table sous-jacente d’un formulaire, même si le formulaire ne contient pas de contrôle lié au champ. Utilisez la syntaxe **Forms**\!*nom_formulaire*\!*nom_champ* dans la zone **Élément** pour définir la valeur d’un tel champ. Vous pouvez également faire référence à un champ dans la table sous-jacente d’un état en utilisant la syntaxe **Reports**\!*nom_état*\!*nom_champ*, mais il doit y avoir un contrôle dans l’état lié à ce champ, ou le champ doit être référencé dans un contrôle calculé de l’état.
 
 Si vous définissez la valeur d'un contrôle dans un formulaire, l'action **DéfinirValeur** ne déclenche pas les règles de validation au niveau du formulaire du contrôle, mais elle déclenche les règles de validation au niveau de la table du champ sous-jacent si le contrôle est un contrôle lié. L'action **DéfinirValeur** déclenche également le recalcul, mais ce dernier peut ne pas avoir lieu immédiatement. Pour déclencher la mise à jour immédiate et forcer l'exécution du recalcul, utilisez l'action **RedessinerObjet**. La valeur que vous définissez dans un contrôle à l'aide de l'action **DéfinirValeur** est également non affectée par un masque de saisie défini dans la propriété **InputMask** du contrôle ou du champ sous-jacent.
 
@@ -71,15 +71,15 @@ Pour modifier la valeur d'un contrôle, vous pouvez utiliser l'action **Définir
 > - Les contrôles calculés dans des formulaires.
 
 > [!TIP]
-> [!CONSEIL] Vous pouvez utiliser l'action **DéfinirValeur** pour masquer ou afficher un formulaire en mode Formulaire. Entrez **formulaires**! formname ****. Visible** dans la zone de **l’élément** et **non** ou **Oui** dans la zone **Expression** . La définition de la propriété **Visible** d'un formulaire modal sur **Non** masque le formulaire et le rend non modal. La définition de la propriété sur **Oui** affiche le formulaire et le rend à nouveau modal.
+> Vous pouvez utiliser l’action **DéfinirValeur** pour masquer ou afficher un formulaire en mode Formulaire. Entrez **Forms**!*nom_formulaire***.Visible** dans la zone **Élément**, et **Non** ou **Oui** dans la zone **Expression**. La définition de la propriété **Visible** d’un formulaire modal sur **Non** masque le formulaire et le rend non modal. La définition de la propriété sur **Oui** affiche le formulaire et le rend à nouveau modal.
 
 La modification de la valeur ou l'ajout des nouvelles données dans un contrôle à l'aide de l'action **DéfinirValeur** dans une macro ne déclenche pas des événements tels que **AvantMAJ**, **AvantInsertion** ou **Modifier** qui se produisent lorsque vous modifiez ou entrez des données dans ces contrôles dans l'interface utilisateur. Ces événements ne se produisent pas non plus si vous définissez la valeur du contrôle à l'aide d'un module Visual Basic pour Applications (VBA).
 
-Cette action n'est pas disponible dans un module VBA. Définissez la valeur directement en langage VBA.
+Cette action n’est pas disponible dans un module VBA. Définissez la valeur directement en langage VBA.
 
 ## <a name="example"></a>Exemple
 
-**Définissez la valeur d'un contrôle en utilisant une macro**
+**Définissez la valeur d’un contrôle en utilisant une macro**
 
 La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton dans le formulaire Fournisseurs. Elle présente l'utilisation des actions **Écho**, **FermerFenêtre**, **OuvrirFormulaire**, **DéfinirValeur** et **AtteindreContrôle**. L'action **DéfinirValeur** définit le contrôle N° fournisseur dans le formulaire Produits sur le fournisseur actif dans le formulaire Fournisseurs. L'action **AtteindreContrôle** déplace ensuite le focus vers le champ N° catégorie, où vous pouvez commencer à entrer des données pour le nouveau produit. Cette macro doit être associée au bouton Ajouter des produits dans le formulaire Fournisseurs.
 
@@ -98,27 +98,27 @@ La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Écho</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Écho sur</strong>: <strong>Non</strong></p></td>
-<td><p>Arrêter l'actualisation de l'écran pendant l'exécution de la macro.</p></td>
+<td><p>Arrêter l’actualisation de l’écran pendant l’exécution de la macro.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FermerFenêtre</strong></p></td>
-<td><p><strong>Type d’objet</strong>: <strong>FormObject nom</strong>: produit liste <strong>Enregistrer</strong>: <strong>non</strong></p></td>
+<td><p><strong>Type d’objet</strong> : <strong>FormulaireNom de l’objet</strong> : Liste des produits <strong>Enregistrer</strong> : <strong>Non</strong></p></td>
 <td><p>Fermer le formulaire Liste des produits.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nom du formulaire</strong>: <strong>affichage</strong>des produits : <strong>Mode FormData</strong>: <strong>Mode fenêtre Ajouter</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>OuvrirFormulaire</strong></p></td>
+<td><p><strong>Nom du formulaire</strong> : Produits <strong>Affichage</strong> : <strong>FormulaireMode de données</strong> : <strong>AjouterMode Fenêtre</strong> :<strong>Normal</strong></p></td>
 <td><p>Ouvrir le formulaire Produits.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SetValue</strong></p></td>
-<td><p><strong>Élément</strong>: [Forms]![Produits]! [N° fournisseur] <strong>Expression</strong>: N° fournisseur  </p></td>
+<td><p><strong>DéfinirValeur</strong></p></td>
+<td><p><strong>Élément</strong>: [Forms]![Produits]! [N° fournisseur] <strong>Expression</strong>: N° fournisseur    </p></td>
 <td><p>Définissez le contrôle N° fournisseur sur le fournisseur actuel dans le formulaire Fournisseurs.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>GoToControl</strong></p></td>
+<td><p><strong>AtteindreContrôle</strong></p></td>
 <td><p><strong>Nom du contrôle</strong>: N° catégorie</p></td>
 <td><p>Accédez au contrôle N° catégorie.</p></td>
 </tr>

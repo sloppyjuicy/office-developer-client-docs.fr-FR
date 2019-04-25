@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 7d2700d9b9a514dc4ad02bcb18a1bc3003cd3521
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309065"
 ---
 # <a name="recordsettypeenum-enumeration-dao"></a>RecordsetTypeEnum, énumération (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Utilisé avec la propriété **Type** pour spécifier le type d'objet **Recordset**.
+Utilisé avec la propriété **Type** pour spécifier le type d’objet **Recordset**.
 
 <table>
 <colgroup>
@@ -38,22 +38,22 @@ Utilisé avec la propriété **Type** pour spécifier le type d'objet **Recordse
 <tr class="odd">
 <td><p>dbOpenDynamic</p></td>
 <td><p>16</p></td>
-<td><p>Ouvre un recordset de type feuille de réponse dynamique</p></td>
+<td><p>Ouvre un objet Recordset de type feuille de réponse dynamique</p></td>
 </tr>
 <tr class="even">
 <td><p>dbOpenDynaset</p></td>
 <td><p>2</p></td>
-<td><p>Ouvre un recordset de type feuille de réponse dynamique</p></td>
+<td><p>Ouvre un objet Recordset de type feuille de réponse dynamique</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbOpenForwardOnly</p></td>
 <td><p>8</p></td>
-<td><p>Ouvre un recordset de type transfert uniquement</p></td>
+<td><p>Ouvre un objet Recordset de type transfert uniquement</p></td>
 </tr>
 <tr class="even">
 <td><p>dbOpenSnapshot</p></td>
 <td><p>4</p></td>
-<td><p>Ouvre un recordset de type capture instantanée</p></td>
+<td><p>Ouvre un objet Recordset de type capture instantanée</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbOpenTable</p></td>

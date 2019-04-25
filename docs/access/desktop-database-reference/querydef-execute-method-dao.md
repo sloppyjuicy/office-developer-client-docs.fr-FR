@@ -1,5 +1,5 @@
 ---
-title: Méthode QueryDef.Execute (DAO)
+title: QueryDef.Execute, méthode (DAO)
 TOCTitle: Execute Method
 ms:assetid: ad9e859e-c6fe-496c-a1f2-a000cf4bebcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821728(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7ef7f61ef632617b8d64a3fd9c34e5887e50065c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302960"
 ---
-# <a name="querydefexecute-method-dao"></a>Méthode QueryDef.Execute (DAO)
+# <a name="querydefexecute-method-dao"></a>QueryDef.Execute, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Exécute une instruction SQL au niveau de l'objet spécifié.
+Exécute une instruction SQL sur l’objet spécifié.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Exécuter (***Options***)
+*expression* .Execute(***Options***)
 
-*expression* Variable qui représente un objet **QueryDef** .
+*expression* Variable représentant un objet **QueryDef**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -42,7 +42,7 @@ Exécute une instruction SQL au niveau de l'objet spécifié.
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -60,7 +60,7 @@ Exécute une instruction SQL au niveau de l'objet spécifié.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l’une des constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** suivantes pour les Options.
+Vous pouvez utiliser les constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** suivantes pour Options.
 
 <table>
 <colgroup>
@@ -76,7 +76,7 @@ Vous pouvez utiliser l’une des constantes **[RecordsetOptionEnum](recordsetopt
 <tbody>
 <tr class="odd">
 <td><p><strong>dbDenyWrite</strong></p></td>
-<td><p>Refuse les autorisations d'accès en écriture aux autres utilisateurs (espaces de travail Microsoft Access uniquement)</p></td>
+<td><p>Refuse les autorisations d’accès en écriture aux autres utilisateurs (espaces de travail Microsoft Access uniquement)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbInconsistent</strong></p></td>
@@ -100,33 +100,33 @@ Vous pouvez utiliser l’une des constantes **[RecordsetOptionEnum](recordsetopt
 </tr>
 <tr class="odd">
 <td><p><strong>dbRunAsync</strong></p></td>
-<td><p>Exécute la requête en mode asynchrone (objets ODBCDirect Connection et QueryDef uniquement).</p></td>
+<td><p>Exécute la requête de manière asynchrone (connexion ODBCDirect et objets  uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbExecDirect</strong></p></td>
-<td><p>Exécute l'instruction sans appeler préalablement la fonction API ODBC SQLPrepare (objets ODBCDirect Connection et QueryDef uniquement).</p></td>
+<td><p>Exécute l’instruction sans appeler au préalable la fonction  de l’API ODBC (connexion ODBCDirect et objets  uniquement).</p></td>
 </tr>
 </tbody>
 </table>
 
 
 > [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
 
 > [!NOTE]
-> [!REMARQUE] Les constantes **dbConsistent** et **dbInconsistent** s'excluent mutuellement. Vous pouvez utiliser l'une ou l'autre dans une instance donnée d' **OpenRecordset**, mais pas les deux à la fois. L'utilisation simultanée de **dbConsistent** et **dbInconsistent** entraîne une erreur.
+> Les constantes **dbConsistent** et **dbInconsistent** s’excluent mutuellement. Vous pouvez utiliser l’une ou l’autre dans une instance donnée d’**OpenRecordset**, mais pas les deux à la fois. L’utilisation simultanée de **dbConsistent** et **dbInconsistent** entraîne une erreur.
 
-Utilisez la propriété **[RecordsAffected](querydef-recordsaffected-property-dao.md)** de l'objet **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)** pour déterminer le nombre d'enregistrements affectés par la méthode **[Execute](querydef-execute-method-dao.md)** la plus récente. Par exemple, **RecordsAffected** contient le nombre d'enregistrements supprimés, mis à jour ou insérés lors de l'exécution d'une requête Action. Lorsque vous utilisez la méthode **Execute** pour exécuter une requête, la valeur de la propriété **RecordsAffected** de l'objet **QueryDef** correspond au nombre d'enregistrements affectés.
+Utilisez la propriété **[RecordsAffected](querydef-recordsaffected-property-dao.md)** de l’objet **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)** pour déterminer le nombre d’enregistrements affectés par la méthode **[Execute](querydef-execute-method-dao.md)** la plus récente. Par exemple, **RecordsAffected** contient le nombre d’enregistrements supprimés, mis à jour ou insérés lors de l’exécution d’une requête Action. Lorsque vous utilisez la méthode **Execute** pour exécuter une requête, la valeur de la propriété **RecordsAffected** de l’objet **QueryDef** correspond au nombre d’enregistrements affectés.
 
-Dans un espace de travail Microsoft Access, si vous fournissez une instruction SQL correcte du point de vue syntaxique et que vous détenez les autorisations appropriées, la méthode **Execute** n'échouera pas, même si aucune ligne ne peut être modifiée ou supprimée. Par conséquent, utilisez toujours l'option **dbFailOnError** lorsque vous vous servez de la méthode **Execute** pour exécuter une requête Mise à jour ou Suppression. Cette option génère une erreur d'exécution et annule toutes les modifications accomplies dans le cas où certains enregistrements affectés sont verrouillés et ne peuvent pas être mis à jour ou supprimés.
+Dans un espace de travail Microsoft Access, si vous fournissez une instruction SQL correcte du point de vue syntaxique et que vous détenez les autorisations appropriées, la méthode **Execute** n’échouera pas, même si aucune ligne ne peut être modifiée ou supprimée. Par conséquent, utilisez toujours l’option **dbFailOnError** lorsque vous vous servez de la méthode **Execute** pour exécuter une requête Mise à jour ou Suppression. Cette option génère une erreur d’exécution et annule toutes les modifications accomplies dans le cas où certains enregistrements affectés sont verrouillés et ne peuvent pas être mis à jour ou supprimés.
 
-Dans les versions antérieures du moteur de base de données Microsoft Jet, les instructions SQL étaient automatiquement incorporées dans des transactions implicites. Si une partie d'une instruction exécutée avec **dbFailOnError** échouait, l'instruction était entièrement annulée. Dans un souci d'amélioration des performances, ces transactions implicites ont été supprimées à compter de la version 3.5. Si vous mettez à jour un code DAO plus ancien, envisagez l'utilisation de transactions explicites autour des instructions **Execute**.
+Dans les versions antérieures du moteur de base de données Microsoft Jet, les instructions SQL étaient automatiquement incorporées dans des transactions implicites. Si une partie d’une instruction exécutée avec **dbFailOnError** échouait, l’instruction était entièrement annulée. Dans un souci d’amélioration des performances, ces transactions implicites ont été supprimées à compter de la version 3.5. Si vous mettez à jour un code DAO plus ancien, envisagez l’utilisation de transactions explicites autour des instructions **Execute**.
 
-Pour des performances optimales dans un espace de travail Microsoft Access, plus particulièrement dans un environnement multi-utilisateur, imbriquez la méthode **Execute** à l'intérieur d'une transaction. Appliquez la méthode **[BeginTrans](workspace-begintrans-method-dao.md)** à l'objet **[Workspace](workspace-object-dao.md)** actif, utilisez ensuite la méthode **Execute**, puis terminez la transaction en appliquant la méthode **[CommitTrans](workspace-committrans-method-dao.md)** à l'objet **Workspace**. Cette procédure a pour effet d'enregistrer les modifications sur disque et de libérer les verrous placés pendant l'exécution de la requête.
+Pour des performances optimales dans un espace de travail Microsoft Access, plus particulièrement dans un environnement multi-utilisateur, imbriquez la méthode **Execute** à l’intérieur d’une transaction. Appliquez la méthode **[BeginTrans](workspace-begintrans-method-dao.md)** à l’objet **[Workspace](workspace-object-dao.md)** actif, utilisez ensuite la méthode **Execute**, puis terminez la transaction en appliquant la méthode **[CommitTrans](workspace-committrans-method-dao.md)** à l’objet **Workspace**. Cette procédure a pour effet d’enregistrer les modifications sur disque et de libérer les verrous placés pendant l’exécution de la requête.
 
 ## <a name="example"></a>Exemple
 
-Cet exemple illustre l'exécution de la méthode **Execute** à partir d'un objet **QueryDef** et d'un objet **Database**. Les procédures ExecuteQueryDef et PrintOutput sont nécessaires à l'exécution de cette procédure.
+Cet exemple illustre la méthode **Execute** lorsqu’elle est exécutée à partir d’un objet **QueryDef** et d’un objet **Database**. Les procédures  et  sont requises pour exécuter cette procédure.
 
 ```vb
     Sub ExecuteX() 
@@ -243,9 +243,9 @@ Cet exemple illustre l'exécution de la méthode **Execute** à partir d'un obje
 
 <br/>
 
-L'exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters est utilisée pour définir le paramètre Organization de la requête myActionQuery avant l'exécution de cette dernière.
+L’exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters permet de définir le paramètre Organization de la requête myActionQuery avant l’exécution de celle-ci.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Sub ExecParameterQuery()

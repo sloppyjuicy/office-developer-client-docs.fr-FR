@@ -8,61 +8,61 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a94d34a2dbe8043e6db637b649f59047cf3f1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301056"
 ---
 # <a name="querydef-object-dao"></a>Objet QueryDef (DAO)
 
-**S’applique à :** Access 2013 | Office 2013 
+**S’applique à** : Access 2013 | Office 2013 
 
-Un objet **QueryDef** est une définition stockée d'une requête dans une base de données du moteur de base de données Microsoft Access.
+Un objet **QueryDef** est une définition stockée d’une requête dans une base de données du moteur de base de données Microsoft Access.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l'objet **QueryDef** pour définir une requête. Par exemple, vous pouvez :
+Vous pouvez utiliser l’objet **QueryDef** pour définir une requête. Par exemple, vous pouvez :
 
 - Utiliser la propriété **SQL** pour définir ou renvoyer la définition de requête.
 
-- Utiliser la collection **Parameters** de l'objet **QueryDef** pour définir ou renvoyer des paramètres de requête.
+- Utiliser la collection **Parameters** de l’objet **QueryDef** pour définir ou renvoyer des paramètres de requête.
 
-- Utiliser la propriété **Type** pour renvoyer une valeur indiquant si la requête sélectionne des enregistrements dans une table existante, crée une table, insère des enregistrements d'une table dans une autre table, supprime des enregistrements ou met à jour des enregistrements.
+- Utiliser la propriété **Type** pour renvoyer une valeur indiquant si la requête sélectionne des enregistrements dans une table existante, crée une table, insère des enregistrements d’une table dans une autre table, supprime des enregistrements ou met à jour des enregistrements.
 
-- Utiliser la propriété **MaxRecords** pour limiter le nombre d'enregistrements renvoyés par une requête.
+- Utiliser la propriété **MaxRecords** pour limiter le nombre d’enregistrements renvoyés par une requête.
 
-- Utiliser la propriété **ODBCTimeout** pour indiquer la durée d'attente avant que la requête renvoie des enregistrements. La propriété **ODBCTimeout** s'applique aux requêtes qui accèdent aux données ODBC.
+- Utiliser la propriété **ODBCTimeout** pour indiquer la durée d’attente avant que la requête renvoie des enregistrements. La propriété **ODBCTimeout** s’applique aux requêtes qui accèdent aux données ODBC.
 
 - Utiliser la propriété **ReturnsRecords** pour indiquer que la requête renvoie des enregistrements. La propriété **ReturnsRecords** est valable uniquement pour les requêtes SQL directes.
 
 - Utiliser la propriété **Connect** pour créer une requête SQL directe vers une base de données ODC.
 
-Vous pouvez également créer des objets **QueryDef** temporaires. Contrairement aux objets **QueryDef** permanents, les objets **QueryDef** temporaires ne sont pas enregistrés sur le disque ou ajoutés à la collection **QueryDefs**. Les objets **QueryDef** temporaires sont utiles pour les requêtes que vous devez exécuter de manière répétée au moment de l'exécution, mais qui n'ont pas besoin d'être enregistrées sur le disque, surtout si vous créez leurs instructions SQL pendant l'exécution.
+Vous pouvez également créer des objets **QueryDef** temporaires. Contrairement aux objets **QueryDef** permanents, les objets **QueryDef** temporaires ne sont pas enregistrés sur le disque ou ajoutés à la collection **QueryDefs**. Les objets **QueryDef** temporaires sont utiles pour les requêtes que vous devez exécuter de manière répétée au moment de l’exécution, mais qui n’ont pas besoin d’être enregistrées sur le disque, surtout si vous créez leurs instructions SQL pendant l’exécution.
 
-Vous pouvez envisager un objet **QueryDef** permanent dans un espace de travail Microsoft Access comme une instruction SQL compilée. Si vous exécutez une requête à partir d'un objet **QueryDef** permanent, son exécution est plus rapide que si vous exécutiez l'instruction SQL équivalente à l'aide de la méthode **OpenRecordset**. En effet, le moteur de base de données Microsoft Access n'a pas besoin de compiler la requête avant de l'exécuter.
+Vous pouvez envisager un objet **QueryDef** permanent dans un espace de travail Microsoft Access comme une instruction SQL compilée. Si vous exécutez une requête à partir d’un objet **QueryDef** permanent, son exécution est plus rapide que si vous exécutiez l’instruction SQL équivalente à l’aide de la méthode **OpenRecordset**. En effet, le moteur de base de données Microsoft Access n’a pas besoin de compiler la requête avant de l’exécuter.
 
-Pour utiliser le dialecte SQL natif d'un moteur de base de données externe accessible via le moteur de base de données Microsoft Access, il est recommandé d'utiliser des objets **QueryDef**. Par exemple, vous pouvez créer une requête Microsoft SQL Server et l'enregistrer dans un objet **QueryDef**. Lorsque vous devez utiliser une requête SQL d'un moteur de base de données non-Microsoft Access, vous devez fournir une chaîne de propriété **Connect** faisant référence à la source de données externe. Les requêtes contenant des propriétés **Connect** valables contournent le moteur de base de données Microsoft Access et transmettent directement la requête au serveur de base de données externe à des fins de traitement.
+Pour utiliser le dialecte SQL natif d’un moteur de base de données externe accessible via le moteur de base de données Microsoft Access, il est recommandé d’utiliser des objets **QueryDef**. Par exemple, vous pouvez créer une requête Microsoft SQL Server et l’enregistrer dans un objet **QueryDef**. Lorsque vous devez utiliser une requête SQL d’un moteur de base de données non-Microsoft Access, vous devez fournir une chaîne de propriété **Connect** faisant référence à la source de données externe. Les requêtes contenant des propriétés **Connect** valables contournent le moteur de base de données Microsoft Access et transmettent directement la requête au serveur de base de données externe à des fins de traitement.
 
-Pour créer un objet **QueryDef**, utilisez la méthode **CreateQueryDef**. Dans un espace de travail Microsoft Access, si vous fournissez une chaîne pour l’argument nom ou si vous définissez explicitement la propriété **Name** du nouvel objet **QueryDef** sur une chaîne non nulle, vous allez créer une **QueryDef** permanent qui sera automatiquement ajouté à la collection **QueryDefs** et enregistré sur le disque. Fournir une chaîne de longueur nulle en tant qu’argument nom ou définir explicitement la propriété **Name** sur une chaîne de longueur nulle entraînera un objet **QueryDef** temporaire.
+Pour créer un objet **QueryDef**, utilisez la méthode **CreateQueryDef**. Dans un espace de travail Microsoft Access, si vous fournissez une chaîne pour l’argument name ou si vous définissez explicitement la propriété **Name** du nouvel objet **QueryDef** sur une chaîne comportant au moins un caractère, vous créez un objet **QueryDef** permanent qui est automatiquement ajouté à la collection **QueryDefs** et enregistré sur le disque. La fourniture d’une chaîne nulle en tant qu’argument name ou la définition explicite de la propriété **Name** sur une chaîne nulle entraîne la création d’un objet **QueryDef** temporaire.
 
-Pour faire référence à un objet **QueryDef** dans une collection selon son nombre ordinal ou son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
+Pour faire référence à un objet **QueryDef** dans une collection selon son nombre ordinal ou son paramètre de propriété **Name**, utilisez l’une des formes de syntaxe suivantes :
 
 QueryDefs(0)
 
 QueryDefs("name")
 
-QueryDefs\! \[ nom\]
+QueryDefs\!\[ name\]
 
 Vous ne pouvez faire référence aux objets **QueryDef** temporaires que selon les variables objet que vous leur avez attribuées.
 
-**Lien fourni par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
+**Lien fourni par** la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 
-- [Requêtes : documents SQL pour Word ](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
+- [Requêtes : SQL vers Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
 
 ## <a name="example"></a>Exemple
 
-Cet exemple crée un objet **QueryDef** et l'ajoute à la collection **QueryDefs** de l'objet de **Database** Northwind. Il énumère ensuite la collection **QueryDefs** et la collection **Properties** du nouvel objet **QueryDef**.
+Cet exemple crée un objet **QueryDef** et l’ajoute à la collection **QueryDefs** de l’objet de **Database** Northwind. Il énumère ensuite la collection **QueryDefs** et la collection **Properties** du nouvel objet **QueryDef**.
 
 ```vb
     Sub QueryDefX() 
@@ -113,7 +113,7 @@ Cet exemple crée un objet **QueryDef** et l'ajoute à la collection **QueryDefs
 
 <br/>
 
-Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter deux objets **QueryDef** (un temporaire et un permanent). La fonction GetrstTemp est requise pour exécuter de cette procédure.
+Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter un objet **QueryDef** à la fois temporaire et permanent. La fonction GetrstTemp est nécessaire à l’exécution de cette procédure.
 
 ```vb
     Sub CreateQueryDefX() 
@@ -168,9 +168,9 @@ Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter deux
 
 <br/>
 
-L'exemple suivant montre comment remplacer l'instruction de langage SQL (Structured Query Language) dans une requête enregistrée.
+L’exemple suivant montre comment remplacer l’instruction SQL (Structured Query Language) dans une requête enregistrée.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     ‘To change the Where clause in a saved query  

@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 091b9717b9a2e35cfc8d0c8555e28570628065ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314587"
 ---
 # <a name="setlocalvar-macro-action"></a>SetLocalVar, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'action **DéfinirVarLocale** crée une variable temporaire et lui affecte une valeur spécifique.
+Le **DéfinirVarLocale** action crée une variable temporaire et définissez-la sur une valeur spécifique.
 
 ## <a name="setting"></a>Paramètre
 
-L'action **DéfinirVarLocale** utilise les arguments suivants.
+L’action **DéfinirVarTemp** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -50,19 +50,19 @@ L'action **DéfinirVarLocale** utilise les arguments suivants.
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Une expression qui sera utilisée pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression avec le signe égal (=). Vous pouvez cliquer sur le bouton <strong>Générer</strong> pour utiliser le <strong>Générateur d’Expression</strong> pour définir cet argument.</p></td>
+<td><p>Expression destiné à être utilisé pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression d’un signe égal (=). Vous pouvez cliquer sur le bouton <strong>Générer</strong> afin d’utiliser le <strong>Générateur d’expressions</strong> pour définir cet argument.</p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les variables créées par l'action **DéfinirVarLocale** peuvent être utilisées uniquement dans la macro dans laquelle elles sont définies. Utilisez l'action **[DéfinirVarTemp](settempvar-macro-action.md)** pour définir une variable qui peut être utilisée dans une autre macro, dans une procédure événementielle ou dans un formulaire ou un état.
+Variables créés par le **DéfinirVarLocale** action peut être utilisée uniquement dans la macro dans lequel ils sont définis. Utilisez le ** [DéfinirVarTemp](settempvar-macro-action.md) ** action pour définir une variable qui peut être utilisée dans une autre macro dans une procédure événementielle ou dans un formulaire ou état.
 
-Une fois qu'une variable temporaire a été créée, vous pouvez la référencer dans une expression. Par exemple, si vous avez créé une variable temporaire nommée TotalAmount, vous pouvez l'utiliser comme source contrôle pour une zone de texte à l'aide de la syntaxe suivante.
+Une fois une variable temporaire a été créée, vous pouvez la consulter dans une expression. Par exemple, si vous avez créé une variable temporaire nommée TotalAmount, vous pouvez l’utiliser comme source contrôle pour une zone de texte à l’aide de la syntaxe suivante.
 
 `=[LocalVars]![TotalAmount]`
 
 > [!NOTE]
-> [!REMARQUE] Dans une macro de données, vous n'êtes pas obligé d'utiliser la collection LocalVars pour faire référence à une variable. Par exemple, si vous avez créé une variable temporaire dans une Macro de données nommée montant total, vous pouvez utiliser la variable comme source de contrôle pour une zone de texte à l’aide de la syntaxe suivante : `=[TotalAmount]`.
+> Dans une macro de données, vous devez ne pas utiliser la collection VarLocale pour faire référence à une variable. Par exemple, si vous avez créé une variable temporaire dans une macro de données nommée TotalAmount, vous pouvez utiliser la variable comme source contrôle pour une zone de texte à l’aide de la syntaxe suivante : `=[TotalAmount]`.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.Index (DAO)
+title: Recordset.Index, propriété (DAO)
 TOCTitle: Index Property
 ms:assetid: 54626de0-eb51-31f2-bf24-e29cbfbbaa02
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194103(v=office.15)
@@ -12,48 +12,48 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: f475635424cfb9ed8ddab4025d6a944bdedd39fd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300524"
 ---
-# <a name="recordsetindex-property-dao"></a>Propriété Recordset.Index (DAO)
+# <a name="recordsetindex-property-dao"></a>Recordset.Index, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le nom de l'objet **[Index](index-object-dao.md)** actif d'un objet **[Recordset](recordset-object-dao.md)** de type table (espaces de travail Microsoft Access uniquement).
+Définit ou renvoie une valeur qui indique le nom de l’objet **[Index](index-object-dao.md)** actuel dans un type de tableau**[Recordset](recordset-object-dao.md)** (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Index
+*expression* .Index
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
-Les enregistrements des tables de base ne sont stockés dans aucun ordre particulier. Le fait de définir la propriété **Index** modifie l'ordre des enregistrements renvoyés de la base de données ; cela n'affecte par l'ordre dans lequel les enregistrements sont stockés.
+Les enregistrements de tables de base ne sont pas stockés dans un ordre particulier. Définir le **Index** propriété modifie l’ordre des enregistrements renvoyés à partir de la base de données ; il n’affecte pas l’ordre dans lequel les enregistrements sont stockés.
 
-L'objet **Index** spécifié doit déjà être défini. Si vous définissez la propriété **Index** d'un objet **Index** qui n'existe pas ou si la propriété **Index** n'est pas définie lorsque vous utilisez la méthode **[Seek](recordset-seek-method-dao.md)**, une erreur capturable survient.
+La valeur **Index** objet doit déjà être défini. Si vous définissez la **Index** propriété pour un **Index** objet n’existe pas ou si le **Index** propriété n’est pas définie lorsque vous utilisez le ** [ Avance rapide](recordset-seek-method-dao.md) ** méthode, une erreur récupérable se produit.
 
-Examinez la collection **Indexes** d'un objet **TableDef** pour déterminer les objets **Index** disponibles pour les objets **Recordset** de type table créés à partir de cet objet **TableDef**.
+Examiner la **index** collection d’un **TableDef** objet pour déterminer les éléments **Index** objets sont disponibles pour le type de table **jeu d’enregistrements** les objets créés à partir de qui **TableDef** objet.
 
-Vous pouvez créer un nouvel index pour la table en créant un nouvel objet **Index**, définissant ses propriétés, l'ajoutant à la collection **Indexes** de l'objet **TableDef** sous-jacent et en rouvrant l'objet **Recordset**.
+Vous pouvez créer un nouvel index de la table en créant une nouvelle **Index** objet définissant ses propriétés, en ajoutant le **index** ensemble de sous-jacents **TableDef** objet et rouvrir le **jeu d’enregistrements** objet.
 
-Les enregistrements renvoyés d'un objet **Recordset** de type table peuvent être classés uniquement par les index définis pour l'objet **TableDef** sous-jacent. Pour trier les enregistrements d’une autre façon, vous pouvez ouvrir un objet **Recordset** de type avant uniquement, instantané ou feuille de réponse dynamique à l’aide d’une instruction SQL avec une clause ORDER BY.
+Enregistrements renvoyés à partir d’un type de table **jeu d’enregistrements** objet peut être ordonné de façon uniquement par les index définis pour sous-jacents **TableDef** objet. Pour trier les enregistrements d’une autre façon, vous pouvez ouvrir un objet **Recordset** de type feuille de réponse dynamique, instantané ou avant uniquement à l’aide d’une instruction SQL avec une clause ORDER BY.
 
 
 > [!NOTE]
-> - Vous n'avez pas à créer d'index pour les tables. Avec des grandes tables non indexées, l'accès à un enregistrement spécifique ou la création d'un objet **Recordset** peut prendre du temps. Toutefois, la création d'un nombre trop important d'index ralentit les opérations de mise à jour, d'ajout et de suppression car tous les index sont automatiquement mis à jour.
-> - Les enregistrements lus à partir des tables non indexées sont retournés sans ordre particulier.
-> - La propriété **[Attributes](field-attributes-property-dao.md)** de chaque objet **[Field](field-object-dao.md)** de l'objet **Index** détermine l'ordre des enregistrements et, par conséquent, les techniques d'accès à utiliser pour cet index.
-> - Un index unique permet d'optimiser la recherche d'enregistrements.
-> - Index n’affectent pas l’ordre physique d’une table de base, une incidence sur les index uniquement la manière dont les enregistrements sont accessibles par l’objet **Recordset** de type table lorsqu’un index particulier est choisi ou lorsque **l’objet Recordset** est ouvert.
+> - Vous ne devez créer d’index pour les tableaux. Avec des tableaux de grande taille, non indexés, accéder à un enregistrement spécifique ou en créant un **jeu d’enregistrements** objet peut prendre un certain temps. Créer des index trop grand nombre en revanche, ralentit la mise à jour, ajouter et supprimer des opérations, car tous les index sont automatiquement mis à jour.
+> - Enregistrements lus à partir de tables sans index sont renvoyés dans aucune séquence particulière.
+> - Le ** [attributs](field-attributes-property-dao.md) ** propriété de chaque ** [champ](field-object-dao.md) ** objet dans le **Index** objet détermine la ordre des enregistrements et par conséquent détermine les techniques d’accès à utiliser pour cet index.
+> - Un index unique vous permet d’optimiser la recherche des enregistrements.
+> - Les index n’ont aucune incidence sur l’ordre physique d’une table de base. Ils affectent uniquement la procédure d’accès aux enregistrements utilisée par l’objet **Recordset** de type table lors de la sélection d’un index particulier ou de l’ouverture d’un objet **Recordset**.
 
 
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la propriété **Index** pour définir des ordres d'enregistrements différents pour un objet **Recordset** de type table.
+Cet exemple utilise la propriété **Index** pour définir des ordres d’enregistrements différents pour un objet **Recordset** de type table.
 
 ```vb
     Sub IndexPropertyX() 
@@ -97,7 +97,7 @@ Cet exemple utilise la propriété **Index** pour définir des ordres d'enregist
 
 <br/>
 
-Cet exemple démontre la méthode **Seek** en permettant à l'utilisateur de rechercher un produit en fonction d'un numéro d'identification.
+Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à rechercher un produit avec un numéro d’identification.
 
 ```vb
     Sub SeekX() 
@@ -159,9 +159,9 @@ Cet exemple démontre la méthode **Seek** en permettant à l'utilisateur de rec
 
 <br/>
 
-L'exemple suivant montre comment utiliser la méthode Seek pour rechercher un enregistrement dans une table liée.
+L’exemple suivant montre comment utiliser la méthode Seek pour rechercher un enregistrement dans une table liée.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub TestSeek()

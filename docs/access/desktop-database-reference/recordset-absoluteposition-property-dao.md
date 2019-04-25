@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 22284abf537f57d98d5f0416b58a9a2ac3c6ebe5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300699"
 ---
 # <a name="recordsetabsoluteposition-property-dao"></a>Propriété Recordset.AbsolutePosition (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie le numéro d’enregistrement relatif de l’enregistrement actif d’un objet **Recordset**.
+Définit ou renvoie le numéro d’enregistrement relatif d’un enregistrement actuel de l’objet **Recordset**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . AbsolutePosition
+*expression* .AbsolutePosition
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -32,13 +32,13 @@ Vous pouvez utiliser la propriété **AbsolutePosition** pour positionner le poi
 
 La valeur de la propriété **AbsolutePosition** est basée sur zéro, c'est-à-dire que la valeur 0 fait référence au premier enregistrement de l'objet **Recordset**. Par conséquent, il est impossible de la définir sur une valeur supérieure ou égale au nombre d'enregistrements renseignés, sinon vous obtenez une erreur interceptable. Pour connaître le nombre d'enregistrements renseignés dans l'objet **Recordset**, consultez le paramétrage de la propriété **RecordCount**. La valeur maximale autorisée de la propriété **AbsolutePosition** correspond à la valeur de la propriété **RecordCount** moins 1.
 
-Si aucun enregistrement actif, en tant que lorsqu’il n’y a aucun enregistrement dans l’objet **Recordset** , **la propriété AbsolutePosition** renvoie -1. Si l'enregistrement actif est supprimé, la valeur de la propriété **AbsolutePosition** n'est pas définie et une erreur interceptable se produit s'il est référencé. Les nouveaux enregistrements sont ajoutés à la fin de la séquence.
+S’il n’y a aucun enregistrement actif (l’objet **Recordset** ne contient aucun enregistrement, par exemple), la propriété **AbsolutePosition** renvoie la valeur -1. Si l'enregistrement actif est supprimé, la valeur de la propriété **AbsolutePosition** n'est pas définie et une erreur piégeable se produit si elle est référencée. Les nouveaux enregistrements sont ajoutés à la fin de la séquence.
 
 N'utilisez pas cette propriété en tant que numéro d'enregistrement de substitution. Pour conserver une position donnée et y revenir, il est toujours recommandé d'utiliser des signets. En outre, il s'agit de la seule manière de positionner l'enregistrement actif sur tous les types d'objets **Recordset**. Plus particulièrement, la position d'un enregistrement change lors de la suppression d'un ou plusieurs enregistrements qui le précèdent. En outre, il n'est pas certain qu'un enregistrement aura la même position absolue si l'objet **Recordset** est recréé, car l'ordre des enregistrements d'un objet **Recordset** n'est garanti que s'il est créé avec une instruction SQL à l'aide d'une clause ORDER BY.
 
 > [!NOTE]
 > - Si vous définissez la propriété **AbsolutePosition** sur une valeur supérieure à zéro pour un nouvel objet **Recordset** ouvert mais non renseigné, vous obtenez une erreur interceptable. Renseignez d'abord l'objet **Recordset** à l'aide de la méthode **MoveLast**.
-> - La propriété **AbsolutePosition** n’est pas disponible pour les objets **Recordset** de type avant uniquement ou les objets **Recordset** ouverts à partir de requêtes directes sur des bases de données ODBC connectées au moteur de base de données Microsoft Access.
+> - La propriété **AbsolutePosition** n’est pas disponible pour les objets **Recordset** de type transfert uniquement ou les objets **Recordset** ouverts à partir de requêtes directes exécutées dans des bases de données ODBC connectées au moteur de base de données Microsoft Access.
 
 ## <a name="example"></a>Exemple
 

@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 9abe91d4ce6996a725e246da6922015d15a8bd39
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314041"
 ---
 # <a name="transform-statement-microsoft-access-sql"></a>TRANSFORM, instruction (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Crée une requête Analyse croisée.
+Créer une requête Analyse croisée
 
 ## <a name="syntax"></a>Syntaxe
 
-TRANSFORM *fonctionagrégationinstructionselect* PIVOT *pivotfield* \[IN (*valeur1*\[, *valeur2*\[,... \]\])\]
+TRANSFORM *aggfunctionselectstatement* PIVOT *pivotfield* \[IN (*value1*\[, *value2*\[, …\]\])\]
 
-L'instruction TRANSFORM est composée des arguments suivants :
+L’instruction TRANSFORM est composée des éléments suivants :
 
 <table>
 <colgroup>
@@ -37,41 +37,41 @@ L'instruction TRANSFORM est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>fonctionagrégation</em></p></td>
-<td><p><a href="sql-aggregate-functions-sql.md">Fonction d’agrégation SQL</a> agissant sur les données sélectionnées.</p></td>
+<td><p><em>aggfunction</em></p></td>
+<td><p>Fonction d’agrégation SQL qui s’applique aux données sélectionnées.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>instructionselect</em></p></td>
-<td><p>Une instruction <a href="select-statement-microsoft-access-sql.md">SELECT</a>.</p></td>
+<td><p><em>selectstatement</em></p></td>
+<td><p>Instruction SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>champpivot</em></p></td>
-<td><p>Champ ou expression que vous voulez utilisez pour créer les en-têtes de colonne dans le jeu de résultats de la requête.</p></td>
+<td><p><em>pivotfield</em></p></td>
+<td><p>Champ ou  que vous souhaitez utiliser pour créer des en-têtes de colonne dans le jeu de résultats de la requête.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>valeur1</em>, <em>valeur2</em></p></td>
+<td><p><em>value1</em>, <em>value2</em></p></td>
 <td><p>Valeurs fixes utilisées pour créer des en-têtes de colonne.</p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque vous synthétisez des données à l'aide d'une requête Analyse croisée, vous sélectionnez des valeurs à partir de champs ou d'expressions spécifiés comme en-têtes de colonne. Ainsi, vous pouvez voir les données sous un format plus condensé qu'avec une requête Sélection.
+Lorsque vous synthétisez les données à l’aide d’une requête Analyse croisée, vous sélectionnez des valeurs dans les champs ou expressions spécifiés comme en-têtes de colonne afin de pouvoir afficher les données dans un format plus compact qu’avec une .
 
-L'instruction TRANSFORM est facultative mais, si elle est employée, elle doit venir en première position dans une chaîne SQL. Elle précède une instruction SELECT, qui spécifie les champs servant d'en-têtes de ligne ainsi qu'une clause [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) spécifiant le mode de regroupement des lignes. Vous pouvez éventuellement ajouter d'autres clauses, par exemple une clause [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) précisant des critères de sélection ou de tri supplémentaires. Vous pouvez aussi utiliser des sous-requêtes comme prédicats, particulièrement ceux dans la clause WHERE, dans une requête Analyse croisée.
+L’instruction TRANSFORM est facultative, mais lorsqu’elle est incluse, il s’agit de la première instruction d’une chaîne SQL. Elle précède une instruction SELECT qui spécifie les champs utilisés comme en-têtes de ligne, et une clause GROUP BY qui spécifie le regroupement des lignes. Vous pouvez également inclure d’autres clauses, telles que WHERE, pour spécifier des critères de sélection ou de tri supplémentaires. Vous pouvez aussi utiliser des sous-requêtes comme prédicats (celles disponibles dans la clause WHERE) dans une requête Analyse croisée.
 
-Les valeurs renvoyées dans *pivotfield* sont utilisées comme en-têtes de colonne dans le jeu de résultats de la requête. Par exemple, créer une requête Analyse croisée en prenant le mois de vente comme base de sélection pour obtenir les chiffres des ventes produira douze colonnes. Vous pouvez restreindre *pivotfield* pour que les en-têtes ne soient créés qu'à partir des valeurs fixes (*valeur1*, *valeur2* ) répertoriées dans la clause IN facultative. Vous pouvez également ajouter des valeurs fixes sans données correspondantes de manière à créer des colonnes supplémentaires.
+Les valeurs renvoyées dans *pivotfield* sont utilisées comme en-têtes de colonne dans le jeu de résultats de la requête. Par exemple, le croisement dynamique des chiffres de ventes du mois dans une requête Analyse croisée permet de créer 12 colonnes. Vous pouvez restreindre *pivotfield* pour créer des en-têtes à partir des valeurs fixes (*value1*, *value2*) répertoriées dans la clause facultative IN. Vous pouvez également inclure des valeurs fixes pour lesquelles aucune donnée n’existe afin de créer des colonnes supplémentaires.
 
 ## <a name="example"></a>Exemple
 
-Dans cet exemple la clause SQL TRANSFORM est utilisée pour créer une requête Analyse croisée qui indique le nombre de commandes prises par chaque employé pour chaque trimestre de 1994. La fonction SQLTRANSFORMOutput est nécessaire pour que la procédure puisse s'exécuter.
+Cet exemple utilise la clause SQL transformer pour créer une requête analyse croisée affichant le nombre de commandes prises par chaque employé pour chaque trimestre calendrier 1994. La fonction SQLTRANSFORMOutput est requise pour exécuter cette procédure.
 
 ```vb
     Sub TransformX1() 
@@ -109,7 +109,7 @@ Dans cet exemple la clause SQL TRANSFORM est utilisée pour créer une requête 
 
 <br/>
 
-Dans cet exemple, la clause SQL TRANSFORM est utilisée pour créer une requête Analyse croisée légèrement plus complexe qui indique le montant total en dollar des commandes prises par chaque employé pour chaque trimestre de 1994. La fonction SQLTRANSFORMOutput est nécessaire pour que la procédure puisse s'exécuter..
+Cet exemple utilise la clause SQL transformer pour créer une requête analyse croisée légèrement plus complexe montrant le montant en euros total des commandes prises par chaque employé pour chaque trimestre calendrier 1994. La fonction SQLTRANSFORMOutput est requise pour exécuter cette procédure.
 
 ```vb
     Sub TransformX2() 

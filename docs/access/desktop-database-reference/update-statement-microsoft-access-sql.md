@@ -1,5 +1,5 @@
 ---
-title: Mise à jour, instruction (Microsoft Access SQL)
+title: UPDATE, instruction (Microsoft Access SQL)
 TOCTitle: UPDATE statement (Microsoft Access SQL)
 ms:assetid: 08f9c3d6-c020-ecf1-5748-43b93a76dfbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845036(v=office.15)
@@ -14,23 +14,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 6a0404c21b308f6e389ee5577cc212763e660774
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306243"
 ---
-# <a name="update-statement-microsoft-access-sql"></a>Mise à jour, instruction (Microsoft Access SQL)
+# <a name="update-statement-microsoft-access-sql"></a>UPDATE, instruction (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Crée une requête Mise à jour qui modifie les valeurs dans les champs d'une table spécifiée, sur la base de critères spécifiés.
+Crée une  qui modifie les valeurs des champs d’une table spécifiée en fonction de critères spécifiés.
 
 ## <a name="syntax"></a>Syntaxe
 
-UPDATE *table* SET *NouvelleValeur* WHERE *critère*;
+UPDATE *table* SET *newvalue* WHERE *criteria*;
 
-L’instruction UPDATE se compose de trois éléments :
+L’instruction SELECT comprend les parties suivantes :
 
 <table>
 <colgroup>
@@ -39,22 +39,22 @@ L’instruction UPDATE se compose de trois éléments :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Élément</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>table</em></p></td>
-<td><p>Nom de la table contenant les données que vous souhaitez modifier.</p></td>
+<td><p>Nom de la table contenant les données que vous voulez modifier.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>newValue</em></p></td>
+<td><p><em>newvalue</em></p></td>
 <td><p>Expression qui détermine la valeur à insérer dans un champ particulier dans les enregistrements mis à jour.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>criteria</em></p></td>
-<td><p>Expression qui détermine les enregistrements qui seront mis à jour. Seuls les enregistrements qui répondent à l'expression sont mis à jour.</p></td>
+<td><p><em>critères</em></p></td>
+<td><p>Expression qui détermine quels enregistrements sont mis à jour. Seuls les enregistrements correspondant à l’expression sont mis à jour.</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,9 +62,9 @@ L’instruction UPDATE se compose de trois éléments :
 
 ## <a name="remarks"></a>Remarques
 
-L'instruction UPDATE est particulièrement utile lorsque vous voulez modifier un grand nombre d'enregistrements ou lorsque les enregistrements que vous souhaitez modifier se trouvent dans plusieurs tables.
+L’instruction UPDATE est particulièrement utile lorsque vous souhaitez modifier de nombreux enregistrements ou que les enregistrements que vous souhaitez modifier résident dans plusieurs tables.
 
-Vous pouvez modifier plusieurs champs simultanément. L’exemple suivant augmente les valeurs Order Amount de 10 % et les valeurs Freight de 3 % pour les expéditeurs au Royaume-Uni :
+Vous pouvez modifier plusieurs champs simultanément. L’exemple suivant augmente les valeurs de OrderAmount de 10 pour cent et les valeurs de Freight de 3 pour cent pour les transporteurs résidant au Royaume-Uni (UK) :
 
 ```sql
 UPDATE Orders 
@@ -75,14 +75,14 @@ WHERE ShipCountry = 'UK';
 
 
 > [!IMPORTANT]
-- L’instruction UPDATE ne génère pas de jeu de résultats. En outre, une fois que vous mettez à jour les enregistrements à l’aide d’une requête Mise à jour, vous ne pouvez pas annuler l’opération. Pour savoir quels enregistrements ont été mis à jour, examinez d’abord les résultats d’une requête Sélection qui utilise les mêmes critères, puis exécutez la requête Mise à jour.
-- Conservez toujours les copies de sauvegarde de vos données. Si vous mettez à jour les mauvais enregistrements, vous pouvez les récupérer à partir de vos copies de sauvegarde.
+- L’instruction UPDATE ne génère pas de jeu de résultats. Par ailleurs, une fois les enregistrements mis à jour à l’aide d’une requête de mise à jour, vous ne pouvez pas annuler l’opération. Pour savoir quels enregistrements ont été mis à jour, commencez par examiner les résultats d’une  qui utilise les mêmes critères, puis exécutez la requête de mise à jour.
+- Conservez toujours des copies de sauvegarde de vos données. Si vous mettez à jour des enregistrements par inadvertance, vous pourrez les récupérer à partir de vos copies de sauvegarde.
 
 
 
 ## <a name="example"></a>Exemple
 
-Cet exemple modifie les valeurs dans le champ ReportsTo sur 5 pour tous les enregistrements des employés qui ont actuellement des valeurs ReportsTo définies sur 2.
+Cet exemple modifie les valeurs dans le champ responsable à 5 pour tous les enregistrements d’employé qui ont actuellement valeurs responsable de 2.
 
 ```vb
     Sub UpdateX() 

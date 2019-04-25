@@ -1,5 +1,5 @@
 ---
-title: SÉLECTIONNEZ. INTO, instruction (Microsoft Access SQL)
+title: SELECT.INTO, instruction (Microsoft Access SQL)
 TOCTitle: SELECT.INTO statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fd7152eaa7dd29f6d0bf5621d1b8b8b6f648673c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308721"
 ---
-# <a name="selectinto-statement-microsoft-access-sql"></a>SÉLECTIONNEZ. INTO, instruction (Microsoft Access SQL)
+# <a name="selectinto-statement-microsoft-access-sql"></a>SELECT.INTO, instruction (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Crée une requête Création de table.
 
 ## <a name="syntax"></a>Syntaxe
 
-SELECT *champ1*\[, *champ2*\[,... \] \] INTO *nouvelletable* \[IN *basededonnéesexterne* \] à partir de la *source*
+SELECT *field1*\[, *field2*\[, …\]\] INTO *newtable* \[IN *externaldatabase*\] FROM *source*
 
-L'instruction SELECT…INTO est composée des arguments suivants :
+L’instruction SELECT...INTO comprend les parties suivantes :
 
 <table>
 <colgroup>
@@ -33,45 +33,45 @@ L'instruction SELECT…INTO est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>champ1</em>, <em>champ2</em></p></td>
-<td><p>Nom des champs à copier dans la nouvelle table.</p></td>
+<td><p><em>field1</em>, <em>field2</em></p></td>
+<td><p>Noms des champs à copier dans la nouvelle table.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>nouvelletable</em></p></td>
-<td><p>Nom de la table à créer. Ce nom doit respecter les conventions d'affectation de nom standard. Si<em>nouvelletable</em> est identique au nom d'une table existante, une erreur interceptable se produit..</p></td>
+<td><p><em>newtable</em></p></td>
+<td><p>Nom de la table devant être créée. Il doit respecter des conventions de noms standard. Si <em>nouvelletable</em> correspond au nom d’une table existante, une erreur récupérable se produit.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>basededonnéesexterne</em></p></td>
-<td><p>Chemin d'accès à une base de données externe. Pour une description du chemin d'accès, voir la clause <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.  </p></td>
+<td><p>Chemin d’accès à une base de données externe. Pour une description du chemin d’accès, voir la clause <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
-<td><p>Nom de la table existante dans laquelle les enregistrements sont sélectionnés. Il peut s'agir d'une ou de plusieurs tables, ou d'une requête</p></td>
+<td><p>Nom de la table dans laquelle des enregistrements sont sélectionnés. Il peut s’agir d’une ou plusieurs tables, ou d’une requête.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser les requêtes Création de table pour archiver les enregistrements, faire des copies de sauvegarde des tables, ou pour faire des copies à exporter dans une autre base de données ou à utiliser pour produire des états concernant des données sur une période déterminée. Par exemple, vous pouvez produire un état Ventes Mensuelles par Région en exécutant la même requête Création de table chaque mois.
+Vous pouvez utiliser des requêtes Création de table pour archiver des enregistrements, créer des copies de sauvegarde de vos tables, ou créer des copies à exporter vers une autre base de données ou à utiliser comme base pour les états qui affichent des données pour une période spécifique. Par exemple, vous pouvez produire un rapport des ventes mensuelles par région en exécutant la même requête Création de table chaque mois.
 
 > [!NOTE]
-> - Vous pouvez définir une clé primaire pour la nouvelle table. Lorsque vous créez la table, ses champs héritent du type de données et de la taille de champ de chaque champ présent dans les tables sous-jacentes de la requête, mais aucune autre propriété de champ ou de table n'est transférée.
-> - Pour ajouter des données à une table existante, utilisez l'instruction [INSERT INTO](insert-into-statement-microsoft-access-sql.md) au lieu de créer une requête Ajout.
-> - Pour savoir quels enregistrements seront sélectionnés avant d'exécuter la requête Création de table, lancez d'abord une instruction [SELECT](select-statement-microsoft-access-sql.md) avec les mêmes critères de sélection puis examinez les résultats obtenus.
+> - Vous pouvez définir une  pour la nouvelle table. Lorsque vous créez la table, les champs de celle-ci héritent du  et de la taille de champ de chaque champ dans les tables sous-jacentes de la requête. Aucune autre propriété de champ ou de table n’est transférée.
+> - Pour ajouter des données à une table existante, utilisez plutôt l’instruction INSÉRER DANS pour créer une [.
+> - Pour déterminer les enregistrements qui seront sélectionnés avant d’exécuter la requête Création de table, commencez par examiner les résultats d’une instruction SELECT qui utilise les mêmes critères de sélection.
 
 
 
 ## <a name="example"></a>Exemple
 
-Dans cet exemple, tous les enregistrements de la table Employees sont sélectionnés, puis copiés dans une nouvelle table appelée Emp Backup.
+Cet exemple sélectionne tous les enregistrements de la table Employees et les copie dans une nouvelle table nommée Emp Backup.
 
 ```vb
     Sub SelectIntoX() 

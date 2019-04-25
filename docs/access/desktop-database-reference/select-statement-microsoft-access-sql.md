@@ -10,21 +10,21 @@ dev_langs:
 - sql
 localization_priority: Priority
 ms.openlocfilehash: 962e425c2c69511b6d7770fb03e954588249cf2a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314636"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>SELECT, instruction (Microsoft Access SQL)
 
-**S’applique à :** Access 2013 | Office 2013
+**S’applique à** : Access 2013 | Office 2013
 
 Demande au moteur de base de données Microsoft Access de renvoyer des informations depuis la base de données sous la forme d'un jeu d'enregistrements.
 
 ## <a name="syntax"></a>Syntaxe
 
-Sélectionnez \[ *prédicat* \] { \*  |  *table*.\*  |  \[ *table*. \] *champ1* \[AS *alias1* \] \[, \[ *table*. \] *field2* \[AS *alias2* \] \[,... \] \]} FROM *expressiontable* \[,... \] \[IN *basededonnéesexterne* \] \[où... \]\[De groupe à... \]\[HAVING … \]\[ORDER BY … \]\[Avec OWNERACCESS OPTION\]
+SELECT \[*predicate*\] { \* | *table*.\* | \[*table*.\]*field1* \[AS *alias1*\] \[, \[*table*.\]*field2* \[AS *alias2*\] \[, …\]\]} FROM *tableexpression* \[, …\] \[IN *externaldatabase*\] \[WHERE… \] \[GROUP BY… \] \[HAVING… \] \[ORDER BY… \] \[WITH OWNERACCESS OPTION\]
 
 L'instruction SELECT est composée des arguments suivants :
 
@@ -42,7 +42,7 @@ L'instruction SELECT est composée des arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><em>prédicat</em></p></td>
-<td><p>Un des prédicats suivants : <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW ou TOP</a>. Les prédicats permettent de limiter le nombre d'enregistrements renvoyés. Si aucun n'est précisé, ALL est choisi par défaut.  </p></td>
+<td><p>Un des prédicats suivants : <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW ou TOP</a>. Les prédicats permettent de limiter le nombre d’enregistrements renvoyés. Si aucun n’est précisé, ALL est choisi par défaut.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -66,7 +66,7 @@ L'instruction SELECT est composée des arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><em>basededonnéesexterne</em></p></td>
-<td><p>Nom de la base de données contenant les tables dans <em>expressiontable</em> si elles ne sont pas dans la base de données en cours.</p></td>
+<td><p>Nom de la base de données contenant les tables spécifiées par l'argument <em>expressiontable</em> si elles ne se trouvent pas dans la base de données actuelle.</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,23 +74,23 @@ L'instruction SELECT est composée des arguments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-Pour effectuer cette opération, le moteur de base de données Microsoft Jet recherche l’ou les tables spécifiées, extrait les colonnes choisies, sélectionne les lignes qui correspondent aux critères, trie et/ou regroupe les lignes dans l’ordre spécifié.
+Pour effectuer cette opération, le moteur de base de données Microsoft Jet recherche la ou les tables spécifiées, extrait les colonnes choisies, sélectionne les lignes qui correspondent aux critères, trie et/ou regroupe ces lignes dans l’ordre indiqué.
 
 Les instructions SELECT ne modifient pas les données dans la base de données.
 
-SELECT constitue généralement le premier mot d'une instruction SQL. Les instructions SQL sont pour la plupart des instructions SELECT ou [SELECT…INTO](select-into-statement-microsoft-access-sql.md).
+SELECT constitue généralement le premier mot d’une instruction SQL. Les instructions SQL sont pour la plupart des instructions SELECT ou [SELECT…INTO](select-into-statement-microsoft-access-sql.md).
 
-La syntaxe minimale d'une instruction SELECT est la suivante :
+La syntaxe minimale d'une instruction SELECT est la suivante :
 
 SELECT *champs* FROM *table*
 
-Vous pouvez utiliser un astérisque (\*) pour sélectionner tous les champs d'une table. Dans l'exemple suivant, tous les champs de la table Employees sont sélectionnés :
+Vous pouvez utiliser un astérisque (*) pour sélectionner tous les champs d'une table. Dans l'exemple suivant, tous les champs de la table Employees sont sélectionnés :
 
 ```sql
 SELECT * FROM Employees;
 ```
 
-Si le nom d'un champ figure dans plusieurs tables stipulées par la clause FROM, faites-le précéder du nom de la table correspondante et de l'opérateur **.** (point). Dans l'exemple suivant, le champ Department se trouve à la fois dans les tables Employees et Supervisors. L'instruction SQL sélectionne les départements dans la table Employees et les noms des superviseurs dans la table Supervisors :
+Si le nom d'un champ figure dans plusieurs tables stipulées par la clause FROM, faites-le précéder du nom de la table correspondante et de l'opérateur **.** (point). Dans l'exemple suivant, le champ Department se trouve à la fois dans les tables Employees et Supervisors. L'instruction SQL sélectionne les départements dans la table Employees et les noms des superviseurs dans la table Supervisors :
 
 ```sql
 SELECT Employees.Department, Supervisors.SupvName 
@@ -98,14 +98,14 @@ FROM Employees INNER JOIN Supervisors
 WHERE Employees.Department = Supervisors.Department;
 ```
 
-Lorsqu'un objet **Recordset** est créé, le moteur de base de données Microsoft Jet utilise le nom de champ de la table comme nom de l'objet **Field** dans l'objet **Recordset**. Si vous souhaitez utiliser un autre nom de champ ou un nom qui n'est pas concerné par l'expression utilisée pour générer le champ, utilisez le mot réservé AS. L'exemple suivant utilise le titre Birth comme nom pour l'objet **Field** renvoyé dans l'objet **Recordset** résultant :
+Lorsqu'un objet **Recordset** est créé, le moteur de base de données Microsoft Jet utilise le nom de champ de la table comme nom de l'objet **Field** dans l'objet **Recordset**. Si vous souhaitez utiliser un autre nom de champ ou un nom qui n'est pas concerné par l'expression utilisée pour générer le champ, utilisez le mot réservé AS. L'exemple suivant utilise le titre Birth comme nom pour l'objet **Field** renvoyé dans l'objet **Recordset** résultant :
 
 ```sql
 SELECT BirthDate 
 AS Birth FROM Employees;
 ```
 
-Chaque fois que vous utilisez des fonctions d'agrégation ou des requêtes qui renvoient des noms d'objet **Field** ambigus ou en double, vous devez utiliser la clause AS pour fournir un nom de remplacement à l'objet **Field**. Dans l'exemple suivant, le titre Effectif est utilisé comme nom pour l'objet **Field** renvoyé dans l'objet **Recordset**:
+Chaque fois que vous utilisez des fonctions d'agrégation ou des requêtes qui renvoient des noms d'objet **Field** ambigus ou en double, vous devez utiliser la clause AS pour fournir un nom de remplacement à l'objet **Field**. Dans l'exemple suivant, le titre Effectif est utilisé comme nom pour l'objet **Field** renvoyé dans l'objet **Recordset** :
 
 ```sql
 SELECT COUNT(EmployeeID)
@@ -114,9 +114,9 @@ AS HeadCount FROM Employees;
 
 Vous pouvez utiliser les autres clauses d'une instruction SELECT pour limiter et organiser plus encore les données renvoyées. Pour plus d'informations, consultez la rubrique d'aide relative à la clause que vous utilisez.
 
-**Lien fourni par **la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
+**Liens fournis par** la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est le forum d’aide et wiki de Microsoft Access de référence.
 
-- [Formateur SQL vers VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
+- [SQL au formateur VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 
 - [Affichage des enregistrements dans une plage définie](https://www.utteraccess.com/wiki/index.php/records_within_a_defined_range)
 
@@ -217,7 +217,7 @@ Dans cet exemple, le nombre d'employés est indiqué ainsi que les salaires maxi
 
 <br/>
 
-§LSA La procédure **Sub** EnumFields bénéficie d'un objet **Recordset** à partir de la procédure appelante. La procédure met en forme et imprime les champs de l'objet **Recordset** dans la fenêtre **Débogage**. La variable est la largeur de champ imprimé voulue. Certains champs peuvent être tronqués.
+§LSA La procédure **Sub** EnumFields bénéficie d’un objet **Recordset** à partir de la procédure appelante. La procédure met en forme et imprime les champs de l’objet **Recordset** dans la fenêtre **Débogage**. La variable est la largeur de champ imprimé voulue. Certains champs peuvent être tronqués.
 
 ```sql
     Sub EnumFields(rst As Recordset, intFldLen As Integer) 

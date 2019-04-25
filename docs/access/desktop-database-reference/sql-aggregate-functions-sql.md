@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fdfcc9be363e2338a8889dbde4f56d56fce5eb67
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306432"
 ---
 # <a name="sql-aggregate-functions-sql"></a>Fonctions d’agrégation SQL (SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Les fonctions d'agrégation SQL permettent d'effectuer diverses opérations statistiques sur des ensembles de valeurs. Vous pouvez les utiliser dans une requête ou dans des expressions d'agrégation de la propriété **SQL** d'un objet **QueryDef** ou lors de la création d'un objet **Recordset** en fonction d'une requête SQL.
+Utilisez les fonctions d’agrégation SQL, vous pouvez déterminer différentes statistiques sur des ensembles de valeurs. Vous pouvez utiliser ces fonctions dans une requête et agréger des expressions dans les **SQL** propriété d’un **QueryDef** objet ou lorsque vous créez un **jeu d’enregistrements** objet basé sur une requête SQL.
 
 - [Avg, fonction](https://docs.microsoft.com/office/vba/access/concepts/criteria-expressions/avg-function-microsoft-access-sql)
 - [Count, fonction](https://docs.microsoft.com/office/vba/access/concepts/criteria-expressions/count-function-microsoft-access-sql)

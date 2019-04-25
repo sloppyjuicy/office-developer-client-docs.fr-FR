@@ -15,11 +15,11 @@ ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: Cette rubrique présente des tableaux de codes d’erreur pour l’interface Project Server (PSI) dans Project Server 2013. Les tableaux sont organisés par domaine fonctionnel et par plage de codes d’erreur.
 localization_priority: Priority
 ms.openlocfilehash: c61821bcb85fa3bd83601659850577eaa93eda61
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301476"
 ---
 # <a name="project-server-error-codes"></a>Codes d’erreur de Project Server
 

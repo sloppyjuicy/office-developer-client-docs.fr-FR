@@ -1,5 +1,5 @@
 ---
-title: Méthode Recordset.Close (DAO)
+title: Recordset.Close, méthode (DAO)
 TOCTitle: Close Method
 ms:assetid: e76a81c6-ca0d-e310-c1dc-cbc5d6f6248b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836011(v=office.15)
@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f7cbd94bfacc91bfe080d33807ca7989c1dca661
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300552"
 ---
-# <a name="recordsetclose-method-dao"></a>Méthode Recordset.Close (DAO)
+# <a name="recordsetclose-method-dao"></a>Recordset.Close, méthode (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Ferme un objet **Recordset** ouvert.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Fermer
+*expression* .Close
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
-Si l'objet **Recordset** est déjà fermé lorsque vous utilisez **Close**, une erreur d'exécution se produit.
+Si le **jeu d’enregistrements** objet est déjà fermé lorsque vous utilisez **fermer**, une erreur d’exécution se produit.
 
-Si vous tentez de fermer un objet **Connection** alors que celui-ci possède des objets **Recordset** ouverts, les objets **Recordset** ouverts seront fermés et toute mise à jour ou modification en attente sera annulée. De la même façon, si vous essayez de fermer un objet **Workspace** qui possède des objets **Connection** ouverts, ces objets **Connection** seront fermés de même que les objets **Recordset** qu'ils comportent.
+Si vous essayez de fermer une **connexion** objet alors qu’il a toutes **jeu d’enregistrements** objets, le **jeu d’enregistrements** seront fermés les objets et les mises à jour en attente ou modifications seront annulées . De même, si vous essayez de fermer une **espace de travail** objet alors qu’il a toutes **connexion** objets ceux **connexion** objets seront fermés, qui sera fermer leur **jeu d’enregistrements** objets.
 
-Une alternative à la méthode **Close** est la valeur d’une variable d’objet sur **Nothing** (Set dbsTemp = Nothing).
+Une alternative à l’utilisation de la méthode **Close** consiste à définir la valeur d’une variable d’objet sur **Nothing** (Set dbsTemp = Nothing).
 

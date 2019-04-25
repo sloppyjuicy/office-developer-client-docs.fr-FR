@@ -1,5 +1,5 @@
 ---
-title: Référence d’objet Recordset (DAO)
+title: Recordset, référence d’objet (DAO)
 TOCTitle: Recordset Object
 ms:assetid: df418993-1f2b-457d-b6c0-3d292456b270
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125824(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 17fc0fcde1c6225132bec02f325d66f333558dc7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300412"
 ---
-# <a name="recordset-object-reference-dao"></a>Référence d’objet Recordset (DAO)
+# <a name="recordset-object-reference-dao"></a>Recordset, référence d’objet (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Objet Recordset (DAO)](recordset-object-dao.md)
-- [Membres de l’objet Recordset (DAO)](recordset-members-dao.md)
-- [Propriétés de l’objet Recordset (DAO)](recordset-properties-dao.md)
-- [Méthodes de l’objet Recordset (DAO)](recordset-methods-dao.md)
+- [Recordset, objet (DAO)](recordset-object-dao.md)
+- [Recordset, membres (DAO)](recordset-members-dao.md)
+- [Recordset, propriétés (DAO)](recordset-properties-dao.md)
+- [Recordset, méthodes (DAO)](recordset-methods-dao.md)
 
