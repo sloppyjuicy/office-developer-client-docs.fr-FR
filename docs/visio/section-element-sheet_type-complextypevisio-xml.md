@@ -8,10 +8,10 @@ localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Spécifie une collection de propriétés connexes.
 ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 04/24/2019
 ms.locfileid: "32326081"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Élément section (Sheet_Type complexType) ('Visio XML')
@@ -68,7 +68,7 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 L'attribut **N** de cet élément **section** doit correspondre à l'un des jeux de valeurs qui correspondent aux cellules de la **feuille ShapeSheet** . RePortez-vous au tableau ci-dessous pour déterminer les valeurs de l'attribut **N** qui sont autorisées pour cet élément de **section** . 
   
-|**Value**|**Description**|**Plus d’informations**|
+|**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |Actions  <br/> |Collection de propriétés qui sont utilisées pour l'évaluation d'une formule. Il doit avoir un élément parent **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Actions, section](actions-section.md) <br/> |
 |ActionTag  <br/> |Collection de propriétés qui sont utilisées uniquement pour l'évaluation de formule. Il doit avoir un élément parent **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Section de balise d'action](action-tag-section.md) <br/> |
@@ -80,7 +80,7 @@ L'attribut **N** de cet élément **section** doit correspondre à l'un des jeux
    
 L'attribut **IX** de cet élément **section** doit correspondre à l'un des jeux de valeurs limités qui correspondent aux cellules de la **feuille ShapeSheet** . RePortez-vous au tableau ci-dessous pour déterminer les valeurs de l'attribut **IX** qui sont autorisées pour cet élément de **section** . 
   
-|**Value**|**Description**|**Plus d’informations**|
+|**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |Commentaire  <br/> |Collection de propriétés qui contiennent des informations sur les commentaires insérés dans une page de document.  <br/> |[Annotation, section](annotation-section.md) <br/> |
 |Caractère  <br/> |Collection de propriétés connexes qui spécifient les propriétés de caractère du texte d'une forme. Il doit avoir un élément parent **ShapeSheet_Type** ou un élément parent **StyleSheet_Type** .  <br/> |[Character, section](character-section.md) <br/> |
