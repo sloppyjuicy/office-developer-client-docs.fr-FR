@@ -1,7 +1,7 @@
 ---
 title: Masquer le ruban au démarrage d’Access
 TOCTitle: Hide the ribbon when Access starts
-description: Comment charger un ruban personnalisé qui masque tous les onglets intégrés dans Access 2013.
+description: Comment charger un ruban personnalisé qui masque tous les onglets prédéfinis dans Access 2013.
 ms:assetid: f98bab58-8094-1c56-f70b-ced2e7849574
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
@@ -9,23 +9,23 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 4ce9327790f620ba9163f5cdbe7b5c8900de4341
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291938"
 ---
 # <a name="hide-the-ribbon-when-access-starts"></a>Masquer le ruban au démarrage d’Access
 
-**S’applique à :** Access 2013 | Office 2013
+**S’applique à** : Access 2013 | Office 2013
 
 Par défaut, Microsoft Access ne fournit pas de méthode pour masquer le ruban. Cette rubrique décrit comment charger un ruban personnalisé qui masque tous les onglets prédéfinis.
 
 Pour charger le ruban personnalisé au démarrage d'Access, vous devez stocker ses paramètres dans une table dénommée **RubansSysU**.
 
-La table **RubansSysU** doit être créée en utilisant des noms de colonne spécifiques pour les personnalisations du ruban à mettre en œuvre. 
+Cette **table** doit être créée en utilisant des noms de colonnes spécifiques afin que les personnalisations du ruban soient implémentées. 
 
-La table ci-dessous contient les paramètres à utiliser lors de la création de la table **RubansSysU**.
+Le tableau suivant répertorie les paramètres à utiliser lors de la création du tableau**USysRibbons**.
 
 <table>
 <colgroup>
@@ -43,20 +43,20 @@ La table ci-dessous contient les paramètres à utiliser lors de la création de
 <tbody>
 <tr class="odd">
 <td><p><strong>RibbonName</strong></p></td>
-<td><p>Texte</p></td>
+<td><p>Text</p></td>
 <td><p>Contient le nom du ruban personnalisé devant être associé à cette personnalisation.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RibbonXML</strong></p></td>
 <td><p>Mémo</p></td>
-<td><p>Contient l’extensibilité du ruban (RibbonX) XML qui définit la personnalisation du ruban.</p></td>
+<td><p>Contient le XML d'extensibilité du ruban (RibbonX) qui définit la personnalisation du ruban.</p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-La table contient les paramètres de personnalisation du ruban à stocker dans la table **RubansSysU**.
+Le tableau suivant répertorie les paramètres de personnalisation du ruban pour les stocker dans le tableau **USysRibbons**.
 
 |Nom de colonne|Valeur|
 |:----------|:----|
@@ -72,13 +72,13 @@ Pour appliquer un ruban personnalisé disponible au démarrage de l'application,
 
 2.  Redémarrez l'application.
 
-3.  Cliquez sur le **Bouton Microsoft Office**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102"), puis cliquez sur **Options Access**.
+3.  Sélectionnez le **bouton Microsoft Office**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102") , puis **Access Options**.
 
-4.  Choisissez l’option de **Base de données actuelle** puis, dans la section **Options de la barre d’outils et du ruban** , cliquez sur la liste **Nom du ruban** et sélectionnez **HideTheRibbon**.
+4.  Cliquez sur l'option **Base de données active**, dans la section **Options de la barre d'outils et du ruban**, puis sur la liste **Nom du ruban** et sélectionnez **MasquerLeRuban**.
 
 5.  Fermez er redémarrez l'application.
 
 > [!NOTE]
-> [!REMARQUE] Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
+> Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 

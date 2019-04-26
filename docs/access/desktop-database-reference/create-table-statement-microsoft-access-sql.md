@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 296e1405245d6204d136888e78b6a3846b468a1f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295358"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>Instruction CREATE TABLE (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Crée une table.
 
 > [!NOTE]
-> [!REMARQUE] Le moteur de base de données Microsoft Access ne prend pas en charge l'utilisation de l'instruction CREATE TABLE, ni d'aucune instruction DDL, avec des bases de données autres que celles du moteur de base de données Microsoft Access. Utilisez les méthodes DAO **créer** à la place.
+> Le moteur de base de données Access ne prend pas en charge l’utilisation de l’instruction CREATE TABLE ou de toute instruction DDL avec des bases de données d’un moteur de base de données autre que Microsoft Access. Utilisez plutôt les méthodes **Create** de DAO.
 
 ## <a name="syntax"></a>Syntaxe
 
-CRÉER \[temporaire\] TABLE *table* (*type champ1* \[(*taille*)\] \[non NULL\] \[WITH COMPRESSION | AVEC COMP\] \[ *index1* \] \[, *champ2* *type* \[(*taille*)\] \[non NULL\] \[ *index2* \] \[,... \] \] \[, CONSTRAINT *index de plusieurs champs* \[,... \]\])
+CREATE \[TEMPORARY\] TABLE *table* (*field1 type* \[(*size*)\] \[NOT NULL\] \[WITH COMPRESSION | WITH COMP\] \[*index1*\] \[, *field2* *type* \[(*size*)\] \[NOT NULL\] \[*index2*\] \[, …\]\] \[, CONSTRAINT *multifieldindex* \[, …\]\])
 
-L’instruction CREATE TABLE comprend les éléments suivants :
+L’instruction CREATE TABLE comprend les parties suivantes :
 
 <table>
 <colgroup>
@@ -40,7 +40,7 @@ L’instruction CREATE TABLE comprend les éléments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Élément</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -50,24 +50,24 @@ L’instruction CREATE TABLE comprend les éléments suivants :
 <td><p>Nom de la table à créer.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>champ1</em>, <em>champ2</em></p></td>
+<td><p><em>field1</em>, <em>field2</em></p></td>
 <td><p>Nom du ou des champs à créer dans la nouvelle table. Vous devez créer au moins un champ.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>type</em></p></td>
-<td><p>Le type de données du <em>champ</em> dans la nouvelle table.</p></td>
+<td><p>Type de données de <em>field</em> dans la nouvelle table.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>taille</em></p></td>
+<td><p><em>size</em></p></td>
 <td><p>Taille du champ en nombre de caractères (champs texte et binaires seulement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>index1</em>, <em>index2</em></p></td>
-<td><p>Clause CONSTRAINT définissant un index de champ unique. Pour plus d’informations sur la création de cet index, voir la <a href="constraint-clause-microsoft-access-sql.md">clause CONSTRAINT</a>.</p></td>
+<td><p>Clause CONSTRAINT définissant un index de champ unique. Pour plus d'informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">Clause CONSTRAINT</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>indexmultichamp</em></p></td>
-<td><p>Clause CONSTRAINT définissant un index multichamp. Pour plus d’informations sur la création de cet index, voir la <a href="constraint-clause-microsoft-access-sql.md">clause CONSTRAINT</a>.</p></td>
+<td><p><em>multifieldindex</em></p></td>
+<td><p>Clause CONSTRAINT définissant un index multi-champ. Pour plus d'informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">Clause CONSTRAINT</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -75,19 +75,19 @@ L’instruction CREATE TABLE comprend les éléments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez l'instruction CREATE TABLE pour définir une nouvelle table, ses champs et ses contraintes de champ. Si ce n’est pas NULL est spécifiée pour un champ, de nouveaux enregistrements sont requis pour contenir des données valides dans ce champ.
+L’instruction CREATE TABLE permet de définir une nouvelle table, ses champs et ses contraintes de champ. Si NOT NULL est spécifié pour un champ, les nouveaux enregistrements doivent contenir des données valides dans ce champ.
 
 Une clause CONSTRAINT établit diverses restrictions sur un champ et peut être utilisée pour établir la clé primaire. Vous pouvez également utiliser l'instruction [CREATE INDEX](create-index-statement-microsoft-access-sql.md) pour créer une clé primaire ou des index supplémentaires sur les tables existantes.
 
-Vous ne pouvez pas utiliser NOT NULL sur un champ unique ou dans une clause nommée CONSTRAINT qui s'applique à une clause CONSTRAINT nommée de champ unique ou multichamp. Cependant, vous ne pouvez appliquer la restriction NOT NULL qu'une seule fois à un champ. Toute tentative d'application de cette restriction plus d'une fois entraîne une erreur d'exécution.
+Vous pouvez utiliser l’instruction NON NULL sur un champ unique ou à l’intérieur d’une clause CONSTRAINT nommée qui s’applique à une instruction CONSTRAINT nommée portant sur un ou plusieurs champs. Toutefois, vous ne pouvez appliquer la restriction NON NULL qu’une seule fois à un champ. Une tentative d’appliquer cette restriction plusieurs fois génère une erreur d’exécution.
 
-Lorsqu’une table temporaire est créée, il est visible uniquement dans la session dans laquelle il a été créé. Elle est automatiquement supprimée lorsque la session est terminée. Les tables temporaires sont accessibles par plusieurs utilisateurs.
+Lors de la création d'une table temporaire, celle-ci n'est visible que dans la session dans laquelle elle a été créée. Elle est supprimée automatiquement à la fin de la session. Les tables temporaires sont accessible par plusieurs utilisateurs.
 
-L'attribut WITH COMPRESSION peut être utilisé uniquement avec les types de données CARACTÈRES et MÉMO (également connus sous le nom de données TEXTE) et leurs synonymes.
+L’attribut WITH COMPRESSION peut être utilisé uniquement avec les types de données CARACTÈRE et MÉMO (également appelé TEXTE) et leurs synonymes.
 
-L'attribut WITH COMPRESSION a été ajouté pour les colonnes CARACTÈRES en raison du changement de format de représentation des caractères Unicode. Les caractères Unicode nécessitent uniformément deux octets pour chaque caractère. Pour Microsoft Jet bases de données existantes qui contiennent principalement des caractères, cela signifie que le fichier de base de données risque de doubler taille lors de la conversion au format de moteur de base de données Microsoft Access. Toutefois, représentation Unicode de plusieurs jeux de caractères, ceux précédemment indiqués comme un octet caractère définit (SBCS), peut facilement être compressée en un octet unique. Si vous définissez une colonne de caractères avec cet attribut, les données seront automatiquement compressées au moment du stockage, et décompressées lors de leur récupération à partir de la colonne.
+L’attribut WITH COMPRESSION a été ajouté pour les colonnes de type CARACTÈRE en raison de la modification du format de représentation de caractère Unicode. Les caractères Unicode nécessitent uniformément deux octets par caractère. Pour les bases de données Microsoft Jet qui contiennent principalement des données caractères, cela pourrait signifier que le fichier de base de données doublerait de taille lors de la conversion au format du moteur de base de données Microsoft Access. Cependant, la représentation Unicode de nombreux jeux de caractères, anciennement appelés jeux de caractères codés sur un octet (SBCS), peut facilement être compressée à un seul octet. Si vous définissez une colonne de type CARACTÈRE avec cet attribut, les données sont automatiquement compressées pour le stockage, et décompressées lors de leur extraction de la colonne.
 
-Les colonnes MÉMO peuvent également être définies pour stocker des données dans un format compressé. Toutefois, il existe une limite. Seules les instances des colonnes MÉMO qui, une fois compressées, représentent 4 096 octets ou moins, seront compressées. Toutes les autres instances des colonnes MÉMO resteront non compressées. Cela signifie que dans une table donnée, pour une colonne MÉMO donnée, certaines données peuvent être compressées et d'autres non.
+Des colonnes de type MÉMO peuvent également être définies pour stocker des données dans un format compressé. Il existe cependant une limitation. Seules les instances de colonnes de type MÉMO qui, une fois compressées, ne dépassent pas 4 096 octets, sont compressées. Les autres instances des colonnes de type MÉMO ne sont pas compressées. Cela signifie que, dans un tableau donné, pour une colonne de type MÉMO donnée, certaines données peuvent être compressées et d’autres pas.
 
 ## <a name="example"></a>Exemple
 

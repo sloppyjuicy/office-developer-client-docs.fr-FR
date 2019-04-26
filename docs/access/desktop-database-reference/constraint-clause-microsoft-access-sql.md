@@ -1,5 +1,5 @@
 ---
-title: Clause CONSTRAINT (Microsoft Access SQL)
+title: CONSTRAINT, clause (Microsoft Access SQL)
 TOCTitle: CONSTRAINT clause (Microsoft Access SQL)
 ms:assetid: f8e89a91-a69e-1811-42a7-921692110bcb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836971(v=office.15)
@@ -14,34 +14,34 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 356620376658bb927c690056f4de9a01554aa47e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295645"
 ---
-# <a name="constraint-clause-microsoft-access-sql"></a>Clause CONSTRAINT (Microsoft Access SQL)
+# <a name="constraint-clause-microsoft-access-sql"></a>CONSTRAINT, clause (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une contrainte est similaire à un index, bien qu'elle puisse être utilisée pour établir une relation avec une autre table.
 
 Utilisez la clause CONSTRAINT dans les instructions [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) et [CREATE TABLE](create-table-statement-microsoft-access-sql.md) pour créer ou supprimer des contraintes. Il existe deux types de clauses CONSTRAINT : une permettant de créer une contrainte sur un seul champ et l'autre permettant de créer une contrainte sur plusieurs champs.
 
 > [!NOTE]
-> [!REMARQUE] Le moteur de base de données Microsoft Access ne prend pas en charge la clause CONSTRAINT, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Utilisez les méthodes DAO **créer** à la place.
+> Le moteur de base de données Microsoft Access ne prend pas en charge la clause CONSTRAINT, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Utilisez plutôt les méthodes **Create** de DAO.
 
 ## <a name="syntax"></a>Syntaxe
 
 ### <a name="single-field-constraint"></a>Contrainte sur un seul champ
 
-CONSTRAINT *nom* {PRIMARY KEY | UNIQUE | NON NULL | REFERENCES *tableétrangère* \[(*champétranger1, champétranger2*)\] \[ON UPDATE CASCADE | La valeur NULL\] \[ON DELETE CASCADE | La valeur NULL\]}
+CONSTRAINT *name* {PRIMARY KEY | UNIQUE | NOT NULL | REFERENCES *foreigntable* \[(*foreignfield1, foreignfield2*)\] \[ON UPDATE CASCADE | SET NULL\] \[ON DELETE CASCADE | SET NULL\]}
 
 ### <a name="multiple-field-constraint"></a>Contrainte sur plusieurs champs
 
-CONSTRAINT *nom* {PRIMARY KEY (*primaire1*\[, *primaire2* \[,... \]\]) | UNIQUE (*unique1*\[, *unique2* \[,... \]\]) | NON NULL (*nonnulle1*\[, *nonnulle2* \[,... \]\]) | CLÉ étrangère \[aucun INDEX\] (*réf1*\[, *réf2* \[,... \] \]) REFERENCES *tableétrangère* \[(*champétranger1* \[, *champétranger2* \[,... \] \])\] \[ON UPDATE CASCADE | La valeur NULL\] \[ON DELETE CASCADE | La valeur NULL\]}
+CONSTRAINT *name* {PRIMARY KEY (*primary1*\[, *primary2* \[, …\]\]) | UNIQUE (*unique1*\[, *unique2* \[, …\]\]) | NOT NULL (*notnull1*\[, *notnull2* \[, …\]\]) | FOREIGN KEY \[NO INDEX\] (*ref1*\[, *ref2* \[, …\]\]) REFERENCES *foreigntable* \[(*foreignfield1* \[, *foreignfield2* \[, …\]\])\] \[ON UPDATE CASCADE | SET NULL\] \[ON DELETE CASCADE | SET NULL\]}
 
-La clause CONSTRAINT est composée des arguments suivants :
+La clause CONSTRAINT comprend les deux parties suivantes :
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ La clause CONSTRAINT est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -60,57 +60,57 @@ La clause CONSTRAINT est composée des arguments suivants :
 <td><p>Nom de la contrainte à créer.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>primaire1</em>, <em>primaire2</em></p></td>
+<td><p><em>primary1</em>, <em>primary2</em></p></td>
 <td><p>Nom du ou des champs à désigner comme clé primaire.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>unique1</em>, <em>unique2</em></p></td>
-<td><p>Nom du ou des champs à désigner comme clé unique.</p></td>
+<td><p>Nom du ou des champs à désigner en tant que clé unique.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>nonnulle1, nonnulle2</em></p></td>
-<td><p>Nom du ou des champs qui sont restreints à des valeurs non nulles.</p></td>
+<td><p><em>notnull1, notnull2</em></p></td>
+<td><p>Nom du ou des champs limités à des valeurs non Null.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>réf1</em>, <em>réf2</em></p></td>
+<td><p><em>ref1</em>, <em>ref2</em></p></td>
 <td><p>Nom du ou des champs de clé étrangère qui font référence à des champs d'une autre table.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>tableétrangère </em></p></td>
+<td><p><em>foreigntable</em></p></td>
 <td><p>Nom de la table étrangère contenant les champs spécifiés par <em>champétranger</em>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>champétranger1</em>, <em>champétranger2</em></p></td>
-<td><p>Nom du ou des champs de la <em>tableétrangère</em> spécifiés par <em>réf1</em> et <em>réf2</em>. Vous pouvez omettre cette clause si le champ référencé est la clé primaire de <em>tableétrangère</em>.</p></td>
+<td><p><em>foreignfield1</em>, <em>foreignfield2</em></p></td>
+<td><p>Nom du ou des champs dans <em>foreigntable</em> spécifiés par <em>ref1</em>, <em>ref2</em>. Vous pouvez omettre cette clause si le champ référencé est la clé primaire de <em>foreigntable</em>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez la syntaxe d'une contrainte sur un seul champ dans la clause de définition de champ d'une instruction ALTER TABLE ou CREATE TABLE immédiatement à la suite de la spécification du type de données du champ.
+Vous utilisez la syntaxe pour une contrainte sur champ unique dans la clause de définition de champ d’une instruction ALTER TABLE ou CREATE TABLE qui suit immédiatement la spécification du type de données du champ.
 
 Utilisez la syntaxe d'une contrainte sur plusieurs champs quand vous employez le mot réservé CONSTRAINT en dehors d'une clause de définition de champ dans une instruction ALTER TABLE ou CREATE TABLE.
 
-La clause CONSTRAINT vous permet de désigner un champ comme l'une des contraintes suivantes :
+La clause CONSTRAINT vous permet de désigner un champ comme l’un des types suivants de contraintes :
 
-- Vous pouvez utiliser le mot réservé UNIQUE pour désigner un champ en tant que clé unique, ceci afin d'empêcher que ce champ ait la même dans deux enregistrements de la table. La contrainte que vous appliquez peut viser à rendre unique un champ ou une liste de champs. Si la contrainte appliquée sur plusieurs champs désigne ces derniers comme clé unique, les valeurs combinées de tous les champs dans l'index doivent être uniques, même un de ces champs a la même valeur dans au moins deux enregistrements.
+- Vous pouvez utiliser le mot réservé UNIQUE pour désigner un champ en tant que clé unique. Cela signifie que deux enregistrements dans la table peuvent avoir la même valeur dans ce champ. Vous pouvez contraindre tout champ ou toute liste de champs comme uniques. Si une contrainte sur plusieurs champs est désignée comme clé unique, les valeurs combinées de tous les champs dans l’index doivent être uniques, même si deux enregistrements ou plus ont la même valeur dans un seul des champs.
 
-- Vous pouvez utiliser les mots réservés PRIMARY KEY pour désigner un champ ou un ensemble de champs comme clé primaire. Toutes les valeurs dans la clé primaire doivent être uniques et non **Null**, en outre, il ne peut y avoir qu'une seule clé primaire par table.
+- Vous pouvez utiliser les mots réservés PRIMARY KEY pour désigner un champ ou un ensemble de champs dans une table en tant que clé primaire. Toutes les valeurs dans la clé primaire devant être uniques et non **Null**, il ne peut y avoir qu’une seule clé primaire pour une table.
     
   > [!NOTE]
-  > [!REMARQUE] N'appliquez pas une contrainte PRIMARY KEY sur une table qui comporte déjà une clé primaire, car dans ce cas une erreur se produit.
+  > Ne définissez pas une contrainte PRIMARY KEY sur une table possédant déjà une clé primaire. Si vous le faites, une erreur se produit.
 
 - Vous pouvez utiliser les mots réservés FOREIGN KEY pour désigner un champ comme clé étrangère. Si la clé primaire de la table étrangère est constituée de plusieurs champs, vous devez utiliser une définition de contrainte sur plusieurs champs qui répertorie tous les champs de référence, le nom de la table étrangère et les noms des champs référencés dans la table étrangère dans le même ordre que celui des champs de référence.Si les champs référencés constituent la clé primaire de la table étrangère, vous n'avez pas besoin de les spécifier. Par défaut, le moteur de base de données traite les champs référencés comme s'ils constituaient la clé primaire de la table étrangère. Les contraintes de clé étrangère définissent des actions spécifiques à effectuer lorsque la valeur d'une clé primaire correspondante change :
 
-- Vous pouvez spécifier les actions à effectuer sur la table étrangère en fonction de l'action correspondante effectuée sur une clé primaire dans la table sur laquelle la clause CONSTRAINT est définie. Par exemple, examinez la définition suivante de la table Customers :
+- Vous pouvez spécifier des actions à effectuer sur la table étrangère en fonction d’une action correspondante appliquée à une clé primaire dans la table sur laquelle la clause CONSTRAINT est définie. Par exemple, envisagez la définition suivante pour la table Customers (Clients) :
     
   ``` sql
     CREATE TABLE Customers (CustId INTEGER PRIMARY KEY, CLstNm NCHAR VARYING (50))
   ```
     
-  Examinez la définition suivante de la table Orders qui décrit une relation de clé étrangère référençant la clé primaire de la table Customers :
+  Envisagez la définition suivante de la table Orders (Commandes), qui définit une relation de clé étrangère référençant la clé primaire de la table Customers (Clients) :
     
   ``` sql
     CREATE TABLE Orders (OrderId INTEGER PRIMARY KEY, CustId INTEGER, OrderNotes NCHAR VARYING (255), CONSTRAINT FKOrdersCustId FOREIGN KEY (CustId) REFERENCES Customers ON UPDATE CASCADE ON DELETE CASCADE
@@ -122,9 +122,9 @@ La clause CONSTRAINT vous permet de désigner un champ comme l'une des contraint
     CREATE TABLE Orders (OrderId INTEGER PRIMARY KEY, CustId INTEGER, OrderNotes NCHAR VARYING (255), CONSTRAINT FKOrdersCustId FOREIGN KEY (CustId) REFERENCES Customers ON UPDATE SET NULL ON DELETE SET NULL
   ```
     
-  La clause ON UPDATE SET NULL indique que si l'identificateur d'un client (CustId) est modifié dans la table Customer, les valeurs de clé étrangère correspondantes dans la table Orders prendront automatiquement la valeur NULL. De même, la clause ON DELETE SET NULL indique que si un client est supprimé de la table Customer, toutes les clés étrangères correspondantes dans la table Orders prendront automatiquement la valeur NULL.
+  La clause ON UPDATE SET NULL signifie que, si l’ID d’un client (CustId) est mis à jour dans la table Customers (Clients), les valeurs de clé étrangère correspondantes dans la table Orders (Commandes) sont automatiquement définies sur NULL. De même, la clause ON DELETE SET NULL signifie que, si un client est supprimé de la table Customers (Clients), toutes les clés étrangères correspondantes dans la table Orders (Commandes) sont automatiquement définies sur NULL.
 
-Pour empêcher la création automatique d'index de clés étrangères, le modificateur NO INDEX peut être utilisé. Cette forme de définition de clé étrangère doit être utilisée seulement lorsque les valeurs d'index produites sont fréquemment dupliquées. Dans ce cas, utiliser un index peut être moins efficace qu'effectuer simplement une analyse de la table. Créer ce type d'index, qui implique l'insertion et la suppression de lignes dans la table, nuit aux performances et ne présente aucun avantage.
+Pour empêcher la création automatique d’index pour des clés étrangères, vous pouvez utiliser le modificateur NO INDEX. N’utilisez cette forme de définition de clé étrangère que dans les cas où les valeurs d’index obtenues seraient fréquemment dupliquées. Quand les valeurs d’un index de clé étrangère sont fréquemment dupliquées, l’utilisation d’un index peut être moins efficace qu’une simple analyse de table. La tenue à jour de ce type d’index, avec des lignes insérées et supprimées dans la table, a pour effet de dégrader les performances et n’offre aucun avantage.
 
 ## <a name="example"></a>Exemple
 

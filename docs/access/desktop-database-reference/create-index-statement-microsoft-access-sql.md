@@ -1,5 +1,5 @@
 ---
-title: Instruction CREATE INDEX (Microsoft Access SQL)
+title: CREATE INDEX, instruction (Microsoft Access SQL)
 TOCTitle: CREATE INDEX statement (Microsoft Access SQL)
 ms:assetid: c5919ef4-a08d-df06-7078-5331adbcb45c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823109(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 46bc0a50e31555189c069e0ee09c4c84349c04c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295428"
 ---
-# <a name="create-index-statement-microsoft-access-sql"></a>Instruction CREATE INDEX (Microsoft Access SQL)
+# <a name="create-index-statement-microsoft-access-sql"></a>CREATE INDEX, instruction (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Crée un nouvel index sur une table existante.
+Crée un index sur une table existante.
 
 > [!NOTE]
-> Pour les bases de données Microsoft Access, le moteur de base de données Microsoft Access ne prend pas en charge l’utilisation de CREATE INDEX (sauf pour créer un pseudo index sur une table liée ODBC) ou une des instructions de langage de définition de données. Utilisez les méthodes DAO **créer** à la place. Pour plus d’informations, voir la section Remarques.
+> Pour les bases de données autres que celles de type Microsoft Access, le moteur de base de données Microsoft Access ne prend pas en charge CREATE INDEX (sauf pour créer un pseudo index sur une table liée ODBC), ni les instructions du langage de définition de données (DDL). Utilisez plutôt les méthodes **Create** de DAO. Pour plus d'informations, voir la section Notes.
 
 ## <a name="syntax"></a>Syntaxe
 
-CRÉER \[ UNIQUE \] INDEX *index* ON *table* (*champ* \[ASC | DESC\]\[, *champ* \[ASC | DESC\],... \]) \[WITH {PRIMARY | DISALLOW NULL | IGNORE NULL}\]
+CREATE \[ UNIQUE \] INDEX *index* ON *table* (*field* \[ASC|DESC\]\[, *field* \[ASC|DESC\], …\]) \[WITH { PRIMARY | DISALLOW NULL | IGNORE NULL }\]
 
-L'instruction CREATE INDEX est composée des arguments suivants :
+L’instruction CREATE INDEX comprend les parties suivantes :
 
 <table>
 <colgroup>
@@ -40,45 +40,45 @@ L'instruction CREATE INDEX est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>index</em></p></td>
-<td><p>Nom de l'index à créer.</p></td>
+<td><p>Nom de l’index à créer.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>table</em></p></td>
-<td><p>Nom de la table existante qui contiendra l'index.</p></td>
+<td><p>Nom de la table existante qui contiendra l’index.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>champ</em></p></td>
+<td><p><em>field</em></p></td>
 <td><p>Nom du champ ou des champs à indexer. Pour créer un index d'un seul champ, indiquez le nom du champ entre parenthèses suivi du nom de la table. Pour créer un index de plusieurs champs, indiquez le nom de chaque champ à inclure dans l'index. Pour créer des index décroissants, utilisez le mot réservé DESC, sinon les index sont considérés comme croissants.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour interdire les valeurs dupliquées dans les champs indexés de différent enregistrements, utilisez le mot réservé UNIQUE.
+Pour interdire la présence de valeurs en double dans les champs indexés d’enregistrements différents, utilisez le mot réservé UNIQUE.
 
-Dans la clause WITH facultative, vous pouvez appliquer des règles de validation de données. Vous pouvez :
+Vous pouvez appliquer des règles de validation dans la clause WITH facultative. Vous pouvez :
 
-- interdire les entrées Null dans les champs indexés de nouveaux enregistrements à l'aide de l'option DISALLOW NULL ;
+- Interdire les entrées Null dans les champs indexés des nouveaux enregistrements en utilisant l’option DISALLOW NULL.
 
-- empêcher que des enregistrements avec des valeurs **Null** dans les champs indexés soient inclus dans l'index à l'aide de l'option IGNORE NULL ;
+- Empêcher que des enregistrements dont la valeur est **Null** dans les champs indexés soient inclus dans l’index en utilisant l’option IGNORE NULL.
 
 - désigner les champs indexés en tant que clé primaire en utilisant le mot réservé PRIMARY. Ceci implique que la clé soit unique, aussi vous pouvez omettre le mot réservé UNIQUE.
 
-Vous pouvez utiliser CREATE INDEX pour créer un pseudo index sur une table liée dans une source de données ODBC, telle que Microsoft SQL Server, qui n’a pas déjà un index. Vous n'avez pas besoin d'une autorisation d'accès particulière au serveur distant pour créer un pseudo index ; la base de données distante ignore l'existence du pseudo index qui n'a par conséquent aucune incidence sur celle-ci. Utilisez la même syntaxe pour les tables liées et natives. Créer un pseudo index sur une table qui est normalement en lecture seule peut s'avérer particulièrement utile.
+Vous pouvez utiliser CREATE INDEX pour créer un pseudo index sur une table liée dans une source de données ODBC, telle que Microsoft SQL Server qui ne comporte pas d'index. Pour créer un pseudo-index, vous n’avez pas besoin d’autorisation ou d’accès au serveur distant. La base de données distante ignore l’existence du pseudo-index et n’est nullement affectée par celui-ci. Vous utilisez la même syntaxe pour les tables liées et natives. La création d’un pseudo index sur une table ordinairement en lecture seule peut être particulièrement utile.
 
 Vous pouvez également utiliser l'instruction [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) pour ajouter un index d'un seul champ ou de plusieurs champs à une table et l'instruction ALTER TABLE ou [DROP](drop-statement-microsoft-access-sql.md) pour supprimer un index créé avec ALTER TABLE ou CREATE INDEX.
 
 > [!NOTE]
-> [!REMARQUE] N'utilisez pas le mot réservé PRIMARY lorsque vous créez un nouvel index sur une table qui comporte déjà une clé primaire ; si vous le faites, une erreur se produit.
+> N’utilisez pas le mot réservé PRIMARY lorsque vous créez un index sur une table qui possède déjà une clé primaire. Autrement, une erreur se produit.
 
 ## <a name="example"></a>Exemple
 

@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 77d56efd63d6a0841b595f12456baa808751706e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295519"
 ---
 # <a name="convert-dao-code-to-ado"></a>Convertir le code DAO en code ADO
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 > [!NOTE]
-> Versions de la bibliothèque DAO antérieures à 3.6 ne sont pas fournies ou pris en charge dans Access.
+> Les versions de la bibliothèque DAO antérieures à 3.6 ne sont pas fournies ni prises en charge dans Access.
 
-## <a name="dao-to-ado-object-map"></a>DAO au mappage d’objets ADO
+## <a name="dao-to-ado-object-map"></a>Mappage d'objet DAO en ADO
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ ms.locfileid: "28720337"
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Base de données</p></td>
+<td><p>Database</p></td>
 <td><p>Connection</p></td>
 <td><p></p></td>
 </tr>
@@ -64,22 +64,22 @@ ms.locfileid: "28720337"
 <tr class="odd">
 <td><p>Dynaset-Type</p></td>
 <td><p>Keyset</p></td>
-<td><p>Récupère un ensemble de pointeurs vers les enregistrements du jeu d’enregistrements.</p></td>
+<td><p>Extrait une série de pointeurs vers les enregistrements du jeu d'enregistrements.</p></td>
 </tr>
 <tr class="even">
 <td><p>Snapshot-Type</p></td>
 <td><p>Static</p></td>
-<td><p>Tous deux extraient des enregistrements complets mais un jeu d’enregistrements statique peut être mis à jour.</p></td>
+<td><p>Tous deux extraient des enregistrements complets mais un jeu d'enregistrements Static est actualisable.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Table-Type</p></td>
-<td><p>Keyset avec l’option adCmdTableDirect.</p></td>
+<td><p>Keyset avec l'option adCmdTableDirect.</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Champ</p></td>
-<td><p>Champ</p></td>
-<td><p>Quand référencée dans un jeu d’enregistrements.</p></td>
+<td><p>Field</p></td>
+<td><p>Field</p></td>
+<td><p>Quand référencée dans un jeu d'enregistrements.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +89,7 @@ ms.locfileid: "28720337"
 
 ### <a name="dao"></a>DAO
 
-#### <a name="open-a-recordset"></a>Ouvrir un jeu d'enregistrements
+#### <a name="open-a-recordset"></a>Ouvre un Recordset
 
 ```vb
  Dim db as Database
@@ -98,7 +98,7 @@ ms.locfileid: "28720337"
  Set rs = db.OpenRecordset("Employees")
 ```
 
-#### <a name="edit-a-recordset"></a>Modifier un jeu d'enregistrements
+#### <a name="edit-a-recordset"></a>Modifie un Recordset
 
 ```vb
  rs.Edit 
@@ -108,7 +108,7 @@ ms.locfileid: "28720337"
 
 ### <a name="ado"></a>ADO
 
-#### <a name="open-a-recordset"></a>Ouvrir un jeu d'enregistrements
+#### <a name="open-a-recordset"></a>Ouvre un Recordset
 
 ```vb
  Dim rs as New ADODB.Recordset
@@ -116,7 +116,7 @@ ms.locfileid: "28720337"
          adOpenKeySet, adLockOptimistic
 ```
 
-#### <a name="edit-a-recordset"></a>Modifier un jeu d'enregistrements
+#### <a name="edit-a-recordset"></a>Modifie un Recordset
 
 ```vb
  rs("TextFieldName") = "NewValue" 
@@ -125,13 +125,13 @@ ms.locfileid: "28720337"
 
 
 > [!NOTE]
-> Le déplacement du curseur depuis l’enregistrement en cours via **MoveNext, MoveLast, MoveFirst, MovePrevious** sans utiliser préalablement la méthode **CancelUpdate** implicitement exécute la méthode de **mise à jour** .
+> Le déplacement du curseur depuis l'enregistrement en cours via **MoveNext, MoveLast, MoveFirst, MovePrevious** sans utiliser préalablement la méthode **CancelUpdate** exécute implicitement la méthode **Update**.
 
 ### <a name="about-the-contributors"></a>À propos des collaborateurs
 
-**Lien fourni par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
+**Lien fourni par** la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 
-- [Choix entre DAO et ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
+- [Choisir entre DAO et ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
 <br/>
 

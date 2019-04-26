@@ -1,5 +1,5 @@
 ---
-title: LockTypeEnum, énumération (DAO)
+title: LockTypeEnum, énumeration (DAO)
 TOCTitle: LockTypeEnum Enumeration
 ms:assetid: d40f984c-b37f-72f7-7b05-752f106b6029
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834802(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c2d355e2a16df632d6952802914c1f921b5e9719
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289856"
 ---
-# <a name="locktypeenum-enumeration-dao"></a>LockTypeEnum, énumération (DAO)
+# <a name="locktypeenum-enumeration-dao"></a>LockTypeEnum, énumeration (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie le type de verrouillage des enregistrements utilisé lors de l'ouverture d'un jeu d'enregistrements.
 
@@ -51,7 +51,7 @@ Spécifie le type de verrouillage des enregistrements utilisé lors de l'ouvertu
 <td><p>Accès concurrentiel optimiste basé sur les valeurs d'enregistrement. Le curseur compare les valeurs des données dans l'ancien et le nouvel enregistrement pour déterminer si des modifications ont été apportées depuis le dernier accès à l'enregistrement (espaces de travail ODBCDirect uniquement).</p>
 
 > [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
 
 
 </td>
