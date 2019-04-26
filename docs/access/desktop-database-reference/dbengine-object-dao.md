@@ -1,5 +1,5 @@
 ---
-title: Objet DBEngine (DAO)
+title: DBEngine, objet (DAO)
 TOCTitle: DBEngine Object
 ms:assetid: ceaeb505-615e-37ba-4633-27240ef8c5de
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834506(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 479eff80d25279a1c5e918a3b639443ad3b25c6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294273"
 ---
-# <a name="dbengine-object-dao"></a>Objet DBEngine (DAO)
+# <a name="dbengine-object-dao"></a>DBEngine, objet (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'objet **DBEngine** est l'objet de niveau supérieur dans le modèle objet DAO.
+L’objet **DBEngine** est l’objet de niveau supérieur dans le modèle objet DAO.
 
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Une fois que vous modifiez les paramètres des propriétés **DefaultType** et *
 
 Pour renvoyer à une collection qui appartient à l'objet **DBEngine**, ou pour renvoyer à une méthode ou à une propriété qui s'applique à cet objet, utilisez cette syntaxe :
 
-\[**DBEngine**. \] \[collection | méthode | propriété\]
+\[**DBEngine**\]\[collection | méthode | propriété\]
 
 ## <a name="example"></a>Exemple
 

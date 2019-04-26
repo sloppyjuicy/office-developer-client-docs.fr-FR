@@ -14,28 +14,28 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7beda04d1f18014101f00078de1d125c1fd67a69
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314566"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Sous-requêtes SQL (Microsoft Access SQL)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une sous-requête est une instruction [SELECT](select-statement-microsoft-access-sql.md) imbriquée dans une instruction SELECT, [SELECT…INTO](select-into-statement-microsoft-access-sql.md), [INSERT…INTO](insert-into-statement-microsoft-access-sql.md), [DELETE](delete-statement-microsoft-access-sql.md) ou [UPDATE](update-statement-microsoft-access-sql.md) ou imbriquée dans une autre sous-requête.
 
 ## <a name="syntax"></a>Syntaxe
 
-Vous pouvez utiliser trois variantes de syntaxe pour créer une sous-requête :
+Vous pouvez utiliser trois variantes de syntaxe pour créer une sous-requête :
 
-*comparaison* \[ANY | TOUS LES | CERTAINS\] (*InstructionSQL*)
+*comparison* \[ANY | ALL | SOME\] (*sqlstatement*)
 
-*expression* \[Pas\] IN (*InstructionSQL*)
+*expression* \[NOT\] IN (*sqlstatement*)
 
-\[PAS\] EXISTS (*InstructionSQL*)
+\[NOT\] EXISTS (*sqlstatement*)
 
 Une sous-requête est composée des arguments suivants :
 
@@ -46,13 +46,13 @@ Une sous-requête est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>comparaison</em></p></td>
+<td><p><em>comparison</em></p></td>
 <td><p>Expression et opérateur de comparaison qui compare l'expression avec les résultats de la sous-requête.</p></td>
 </tr>
 <tr class="even">
@@ -60,14 +60,14 @@ Une sous-requête est composée des arguments suivants :
 <td><p>Expression pour laquelle le jeu de résultats de la sous-requête est recherchée.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>instructionsql</em></p></td>
+<td><p><em>sqlstatement</em></p></td>
 <td><p>Instruction SELECT respectant le même format et les mêmes règles que les autres instructions SELECT. Elle doit figurer entre parenthèses.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser une sous-requête au lieu d'une expression, dans la liste de champs d'une instruction [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou dans une clause [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql). Dans une sous-requête, vous utilisez une instruction SELECT pour fournir un jeu d'une ou plusieurs valeurs spécifiques à évaluer dans l'expression de la clause WHERE ou HAVING.
 

@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: a96b46fcc78c4f93887e487f52091a77da6c0d2f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297185"
 ---
 # <a name="after-update-macro-event"></a>After Update, événement de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'événement **Après MAJ** se produit après la modification d'un enregistrement.
 
 > [!NOTE]
-> [!REMARQUE] L'événement **Après MAJ** est disponible uniquement dans les macros de données.
+> L’événement **Après MAJ** est disponible uniquement dans les macros de données.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez l'événement **Après MAJ** pour effectuer toute action souhaitée lorsqu'un enregistrement est modifié. L'événement **Après MAJ** peut par exemple servir à appliquer des règles professionnelles, à mettre à jour un total agrégé et à envoyer des notifications.
+Utilisez l’événement **Après MAJ** pour effectuer toute action souhaitée lorsqu’un enregistrement est modifié. L’événement **Après MAJ** peut par exemple servir à appliquer des règles professionnelles, à mettre à jour un total agrégé et à envoyer des notifications.
 
 Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser une instruction **If** pour déterminer si le champ PaidInFull a été modifié.
 
@@ -63,7 +63,7 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <thead>
 <tr class="header">
 <th><p>Type de commande</p></th>
-<th><p>Commande</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>
@@ -81,19 +81,19 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="createrecord-data-block.md">Action de macro CréerEnregistrement</a></p></td>
+<td><p><a href="createrecord-data-block.md">CreateRecord, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloc de données</p></td>
-<td><p><a href="editrecord-data-block.md">Action de macro ModifierEnregistrement</a></p></td>
+<td><p><a href="editrecord-data-block.md">EditRecord, action de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="foreachrecord-data-block.md">Action de macro PourChaqueEnregistrement</a></p></td>
+<td><p><a href="foreachrecord-data-block.md">ForEachRecord, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloc de données</p></td>
-<td><p><a href="lookuprecord-data-block.md">Bloc de données RechercherEnregistrement</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">LookupRecord, bloc de données</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Action de données</p></td>
@@ -157,13 +157,13 @@ Pour créer une macro de données qui capture l'événement **Après MAJ**, proc
 
 2.  Sous l'onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après MAJ**.
 
-Une macro de données vide s'affiche dans le concepteur de macros
+Une macro de données vide s’affiche dans le concepteur de macros
 
 ## <a name="example"></a>Exemple
 
-L'exemple de code suivant utilise l'événement **Après MAJ** pour exécuter une macro de données nommée qui ajoute un enregistrement à la table Comment chaque fois que l'état d'un problème est mis à jour.
+L’exemple de code suivant utilise l’événement **Après MAJ** pour exécuter une macro de données nommée qui ajoute un enregistrement à la table Comment chaque fois que l’état d’un problème est mis à jour.
 
-**Cliquez ici pour afficher une copie de la macro que vous pouvez coller dans le concepteurs de macros.**
+**Cliquez ici pour afficher une copie de la macro que vous pouvez coller dans le Concepteur de macros.**
 
 Pour afficher cet exemple dans le concepteur de macros, procédez comme suit :
 

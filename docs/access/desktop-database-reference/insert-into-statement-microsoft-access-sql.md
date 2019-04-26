@@ -12,29 +12,29 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 4fee5e9e8878274f2c20dd83a3dbedaf2903ca62
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291332"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instruction INSERT INTO (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Ajoute un ou plusieurs enregistrements à une table. Cette opération est une requête Ajout.
 
 ## <a name="syntax"></a>Syntaxe
 
-### <a name="multiple-record-append-query"></a>Requête Ajout de plusieurs enregistrements
+### <a name="multiple-record-append-query"></a>Requête Ajout avec plusieurs enregistrements :
 
-INSERT INTO *cible* \[(*champ1*\[, *champ2*\[,... \] \])\] \[IN *basededonnéesexterne* \] sélectionnez \[ *source*. \] *champ1*\[, *champ2*\[,... \] FROM *expressiontable*
+INSERT INTO *cible* \[(*champ1*\[, *champ2*\[, …\]\])\] \[IN *basededonnéesexterne*\] SELECT \[*source*.\]*champ1*\[, *champ2*\[, …\] FROM *expressiontable*
 
-### <a name="single-record-append-query"></a>Requête Ajout de seul enregistrement
+### <a name="single-record-append-query"></a>Requête Ajout avec un seul enregistrement :
 
-INSERT INTO *cible* \[(*champ1*\[, *champ2*\[,... \] \])\] Valeurs (*valeur1*\[, *valeur2*\[,... \])
+INSERT INTO *cible* \[(*champ1*\[, *champ2*\[, …\]\])\] VALUES (*valeur1*\[, *valeur2*\[, …\])
 
-L’instruction INSERT INTO comprend les éléments suivants :
+L'instruction INSERT INTO comprend les éléments suivants :
 
 <table>
 <colgroup>
@@ -49,16 +49,16 @@ L’instruction INSERT INTO comprend les éléments suivants :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>cible</em></p></td>
+<td><p><em>target</em></p></td>
 <td><p>Nom de la table ou de la requête à laquelle ajouter les enregistrements.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>champ1</em>, <em>champ2</em></p></td>
-<td><p>Noms des champs pour ajouter des données, si la suite de l’argument <em>cible</em> , ou les noms de champs pour obtenir des données à partir de, si la suite de l’argument <em>source</em> .</p></td>
+<td><p>Noms des champs auxquels ajouter les données, si après un argument <em>target</em>, ou noms des champs à partir desquels obtenir les données, si après un argument <em>source</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>basededonnéesexterne</em></p></td>
-<td><p>Chemin d'accès à une base de données externe. Pour une description du chemin d'accès, voir la clause <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.  </p></td>
+<td><p>Chemin d’accès à une base de données externe. Pour une description du chemin d’accès, voir la clause <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -66,7 +66,7 @@ L’instruction INSERT INTO comprend les éléments suivants :
 </tr>
 <tr class="odd">
 <td><p><em>expressiontable</em></p></td>
-<td><p>Nom des tables à partir desquelles les enregistrements sont insérés. Cet argument peut être un nom de table simple ou un composé issu d'une opération <a href="inner-join-operation-microsoft-access-sql.md">INNER JOIN</a>, <a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT JOIN</a> ou <a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT JOIN</a>, ou d'une requête enregistrée.  </p></td>
+<td><p>Nom des tables à partir desquelles les enregistrements sont insérés. Cet argument peut être un nom de table simple ou un composé issu d’une opération <a href="inner-join-operation-microsoft-access-sql.md">INNER JOIN</a>, <a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT JOIN</a> ou <a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT JOIN</a>, ou d’une requête enregistrée.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>valeur1</em>, <em>valeur2</em></p></td>
@@ -78,27 +78,27 @@ L’instruction INSERT INTO comprend les éléments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l'instruction INSERT INTO pour ajouter un enregistrement unique à une table à l'aide de la syntaxe de requête Ajout d'enregistrement unique indiquée ci-dessus. Dans ce cas, votre code spécifie le nom et la valeur de chaque champ de l'enregistrement. Vous devez spécifier chacun des champs de l'enregistrement auxquels une valeur doit être attribuée, et la valeur de chaque champ. Si vous ne spécifiez pas tous les champs, la valeur par défaut ou une valeur **Null** est insérée dans les colonnes vides. Les enregistrements sont ajoutés à la fin de la table.
+Vous pouvez utiliser l’instruction INSERT INTO pour ajouter un enregistrement unique à une table à l’aide de la syntaxe de requête Ajout d’enregistrement unique indiquée ci-dessus. Dans ce cas, votre code spécifie le nom et la valeur de chaque champ de l’enregistrement. Vous devez spécifier chacun des champs de l’enregistrement auxquels une valeur doit être attribuée, et la valeur de chaque champ. Si vous ne spécifiez pas tous les champs, la valeur par défaut ou une valeur **Null** est insérée dans les colonnes vides. Les enregistrements sont ajoutés à la fin de la table.
 
-Vous pouvez également utiliser INSERT INTO pour ajouter un jeu d’enregistrements à partir d’une autre table ou requête à l’aide de la sélection... FROM, clause, comme illustré à la syntaxe de requête Ajout de plusieurs enregistrements. Dans ce cas, la clause SELECT spécifie les champs à ajouter à la table spécifiée *cible* .
+Vous pouvez également utiliser INSERT INTO pour ajouter un jeu d’enregistrements à partir d’une autre table ou requête à l’aide de la clause SELECT …FROM, comme décrit plus haut dans la syntaxe de requête Ajout avec plusieurs enregistrements. Dans ce cas, la clause SELECT spécifie les champs à ajouter à la table *cible* spécifiée.
 
-La table *source* ou *cible* peut spécifier une table ou une requête. Si une requête est spécifiée, le moteur de base de données Microsoft Access ajoute des enregistrements à toutes les tables spécifiées par la requête.
+La table *source* ou *cible* peut spécifier une table ou une requête. Si une requête est spécifiée, le moteur de base de données Microsoft Access ajoute des enregistrements à toutes les tables spécifiées par la requête.
 
-INSERT INTO est facultative mais lorsqu'elle est incluse, elle précède l'instruction [SELECT](select-statement-microsoft-access-sql.md).
+INSERT INTO est facultative mais lorsqu’elle est incluse, elle précède l’instruction [SELECT](select-statement-microsoft-access-sql.md).
 
 Si votre table de destination contient une clé primaire, assurez-vous que vous ajoutez des valeurs uniques et non **Null** dans les champs de clé primaire. Si ce n’est pas le cas, le moteur de base de données Microsoft Access n’ajoutera pas les enregistrements.
 
-Si vous ajoutez des enregistrements à une table avec un champ NuméroAuto et que vous voulez renuméroter les enregistrements ajoutés, n'incluez pas le champ NuméroAuto dans votre requête. Incluez le champ NuméroAuto dans la requête si vous voulez conserver les valeurs d'origine du champ.
+Si vous ajoutez des enregistrements à une table avec un champ NuméroAuto et que vous voulez renuméroter les enregistrements ajoutés, n’incluez pas le champ NuméroAuto dans votre requête. Incluez le champ NuméroAuto dans la requête si vous voulez conserver les valeurs d’origine du champ.
 
 Utilisez la clause IN pour ajouter des enregistrements à une table dans une autre base de données.
 
-Pour créer une table, utilisez l'instruction [SELECT... INTO](select-into-statement-microsoft-access-sql.md) au lieu de créer une requête Création de table.
+Pour créer une table, utilisez l’instruction [SELECT... INTO](select-into-statement-microsoft-access-sql.md) au lieu de créer une requête Création de table.
 
-Pour savoir quels enregistrements seront ajoutés avant d'exécuter la requête Ajout, exécutez d'abord une requête sélectionnée qui utilise les mêmes critères de sélection, et observez les résultats.
+Pour savoir quels enregistrements seront ajoutés avant d’exécuter la requête Ajout, exécutez d’abord une requête sélectionnée qui utilise les mêmes critères de sélection, et observez les résultats.
 
-Une requête Ajout copie des enregistrements à partir d'une ou plusieurs tables vers une autre. Les tables contenant les enregistrements que vous ajoutez ne sont pas concernées par la requête Ajout.
+Une requête Ajout copie des enregistrements à partir d’une ou plusieurs tables vers une autre. Les tables contenant les enregistrements que vous ajoutez ne sont pas concernées par la requête Ajout.
 
-Au lieu d'ajouter des enregistrements existants à partir d'une autre table, vous pouvez spécifier la valeur de chaque champ dans un nouvel enregistrement unique à l'aide de la clause VALUES. Si vous omettez la liste de champs, la clause VALUES doit inclure une valeur pour chaque champ de la table. Sinon, l'opération INSERT échoue. Utilisez une instruction INSERT INTO supplémentaire avec une clause VALUES pour chaque enregistrement supplémentaire que vous souhaitez créer.
+Au lieu d’ajouter des enregistrements existants à partir d’une autre table, vous pouvez spécifier la valeur de chaque champ dans un nouvel enregistrement unique à l’aide de la clause VALUES. Si vous omettez la liste de champs, la clause VALUES doit inclure une valeur pour chaque champ de la table. Sinon, l’opération INSERT échoue. Utilisez une instruction INSERT INTO supplémentaire avec une clause VALUES pour chaque enregistrement supplémentaire que vous souhaitez créer.
 
 **Lien fourni par **la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 

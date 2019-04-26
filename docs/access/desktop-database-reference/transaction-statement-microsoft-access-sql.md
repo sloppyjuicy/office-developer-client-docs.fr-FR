@@ -12,37 +12,37 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 828bccfad83320d27f9473d532ab86f73b2fde98
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314146"
 ---
 # <a name="transaction-statement-microsoft-access-sql"></a>TRANSACTION, instruction (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Permet de lancer et de conclure des transactions explicites.
+Utilisé pour amorcer et conclure des transactions explicites.
 
 ## <a name="syntax"></a>Syntaxe
 
-**Lance une nouvelle transaction**:
+**Lance une nouvelle transaction** :
 
 BEGIN TRANSACTION
 
-**Conclude une transaction en validant tout le travail effectué au cours de la transaction**:
+**Conclut une transaction en validant tout le travail effectué au cours de la transaction** :
 
-VALIDER \[TRANSACTION | TRAVAIL\]
+COMMIT \[TRANSACTION | WORK\]
 
-**Conclude une transaction en annulant tout le travail effectué au cours de la transaction**:
+**Conclut une transaction en annulant tout le travail effectué au cours de la transaction** :
 
-ROLLBACK \[TRANSACTION | TRAVAIL\]
+ROLLBACK \[TRANSACTION | WORK\]
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les transactions ne démarrant pas automatiquement, vous devez les démarrer de manière explicite à l'aide de l'instruction BEGIN TRANSACTION.
+Les transactions ne sont pas démarrées automatiquement. Pour démarrer une transaction, vous devez procéder de façon explicite avec la commande BEGIN TRANSACTION.
 
-Les transactions peuvent être imbriquée sur cinq niveaux. Pour démarrer une transaction imbriquée, utilisez l'instruction BEGIN TRANSACTION dans le contexte d'une transaction existante.
+Des transactions peuvent être imbriquées jusqu’à cinq niveaux. Pour démarrer une transaction imbriquée, utilisez la commande BEGIN TRANSACTION dans le contexte d’une transaction existante.
 
-Les transactions ne sont pas prises en charge pour les tables attachées.
+Les transactions ne sont pas prises en charge pour des tables liées.
 
