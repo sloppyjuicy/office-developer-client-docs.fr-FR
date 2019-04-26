@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: a4ef478e74f9851012d6f749e64b4ddb34f3a959
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294042"
 ---
 # <a name="delete-statement-microsoft-access-sql"></a>DELETE, instruction (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Crée une requête qui supprime les enregistrements d’une ou de plusieurs tables répertoriées dans la clause [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) qui satisfont à la clause [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql).
 
 ## <a name="syntax"></a>Syntaxe
 
-SUPPRIMER \[ *table*. \* \] De *table* WHERE *critère*
+DELETE \[*table*.\*\] FROM *table* WHERE *criteria*
 
-L'instruction DELETE est composée des arguments suivants :
+L’instruction DELETE est composée des éléments suivants :
 
 <table>
 <colgroup>
@@ -37,18 +37,18 @@ L'instruction DELETE est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>table</em></p></td>
-<td><p>Nom facultatif de la table de laquelle des enregistrements sont supprimés.</p></td>
+<td><p>Nom facultatif de la table où sont supprimés les enregistrements.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>table</em></p></td>
-<td><p>Nom de la table de laquelle des enregistrements sont supprimés.</p></td>
+<td><p>Nom de la table où sont supprimés les enregistrements.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>criteria</em></p></td>
@@ -58,9 +58,9 @@ L'instruction DELETE est composée des arguments suivants :
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-DELETE est particulièrement utile pour supprimer de nombreux enregistrements.
+L’instruction DELETE est particulièrement utile pour supprimer plusieurs enregistrements.
 
 Pour supprimer une table entière de la base de données, vous pouvez utiliser la méthode **Execute** avec une instruction [DROP](drop-statement-microsoft-access-sql.md). Si vous supprimez la table, sa structure est perdue. En revanche, si vous utilisez la clause DELETE, seules les données sont supprimées ; la structure de la table et toutes ses propriétés, telles que les attributs des champs et les index, sont conservées.
 
@@ -70,13 +70,11 @@ Une requête de suppression supprime les enregistrements, et pas seulement les d
 
 > [!IMPORTANT]
 > - Une fois que des enregistrements sont supprimés à l'aide d'une requête de suppression, il n'est pas possible d'annuler cette opération. Si vous voulez savoir quels enregistrements ont été supprimés, examinez d'abord les résultats d'une requête de sélection qui utilise les mêmes critères, puis exécutez la requête de suppression.
-> - Conservez toujours des copies de sauvegarde de vos données. Si vous supprimez les mauvais enregistrements, vous pourrez alors les récupérer à partir de vos copies de sauvegarde.
+> - Conservez toujours des copies de sauvegarde de vos données. Si vous supprimez des enregistrements par inadvertance, vous pourrez les récupérer à partir de vos copies de sauvegarde.
 
 ## <a name="example"></a>Exemple
 
 Dans cet exemple, tous les enregistrements d'employés dont le titre est Trainee, sont supprimés. Lorsque la clause FROM ne comporte qu'une seule table, vous n'avez pas besoin d'indiquer le nom de la table dans l'instruction DELETE.
-
-
 
 ```vb
     Sub DeleteX() 

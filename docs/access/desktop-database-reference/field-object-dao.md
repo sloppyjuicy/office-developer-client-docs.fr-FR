@@ -1,5 +1,5 @@
 ---
-title: Objet Field - accès aux données (DAO) des objets
+title: 'Field Object : DAO (Data Access Objects)'
 TOCTitle: Field Object
 ms:assetid: 47282ce2-9b49-ccf9-ad37-c4bb25cfd037
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193203(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c58896fb0d0a5c5a28844fdd3a6df922dd587f32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293041"
 ---
-# <a name="field-object-dao"></a>Objet Field (DAO)
+# <a name="field-object-dao"></a>Field Object (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Un objet **Field** représente une colonne de données avec un type de données communes et un ensemble commun de propriétés.
+Un objet **Field** représente une colonne de données avec un type de données courantes et un ensemble commun de propriétés.
 
 ## <a name="remarks"></a>Remarques
 
@@ -50,9 +50,9 @@ Pour faire référence à un objet **Field** dans une collection par son numéro
 
 - **Fields**(0)
 
-- **Champs** (« nom »)
+- **Fields**("nom")
 
-- **Champs**\!\[nom\]
+- **Fields**\!\[nom\]
 
 Avec les mêmes formes de syntaxe, vous pouvez également renvoyer à la propriété **Value** d'un objet **Field** que vous créez et ajoutez à une collection **Fields**. Le contexte de la référence de champ détermine si vous faites référence à l'objet **Field** ou à la propriété **Value** de l'objet **Field**.
 
@@ -124,7 +124,7 @@ Cet exemple indique les propriétés valides pour un objet **Field** en fonction
 
 <br/>
 
-Cet exemple utilise la méthode **CreateField** pour créer trois objets **Fields** pour un objet **TableDef**. Il affiche ensuite les propriétés de ces objets **Field**, qui sont automatiquement définies par la méthode **CreateField**. (Les propriétés dont les valeurs sont vides lors de la création de **Field** ne sont pas affichées.)
+Cet exemple utilise la méthode **CreateField** pour créer trois objets **Fields** pour un objet **TableDef**. Il affiche ensuite les propriétés de ces objets **Field**, qui sont automatiquement définies par la méthode **CreateField** (les propriétés dont les valeurs sont vides lors de la création de **Field** ne sont pas affichées).
 
 ```vb
     Sub CreateFieldX() 

@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 3ea0641c7325bfcb4339572bc8b50724115af8d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293510"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Types de données équivalents ANSI SQL
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Le tableau suivant répertorie les types de données ANSI SQL, leurs équivalents SQL du moteur de base de données Microsoft Access et leurs synonymes valides. Il indique également les types de données Microsoft SQL Server™ équivalentes.
+Le tableau suivant énumère les types de données ANSI SQL, les types de données SQL équivalents du moteur de base de données Microsoft Access et leurs synonymes valides. Il répertorie également les types de données Microsoft SQL Server™ équivalents.
 
 <table>
 <colgroup>
@@ -36,8 +36,7 @@ Le tableau suivant répertorie les types de données ANSI SQL, leurs équivalent
 <tr class="header">
 <th><p>Type de données ANSI SQL</p></th>
 <th><p>Type de données Microsoft Access SQL</p></th>
-<th><p>
-Synonyme</p></th>
+<th><p>Synonyme</p></th>
 <th><p>Type de données Microsoft SQL Server</p></th>
 </tr>
 </thead>
@@ -49,25 +48,25 @@ Synonyme</p></th>
 <td><p>BINARY, VARBINARY</p></td>
 </tr>
 <tr class="even">
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 <td><p>BIT (voir Remarques)</p></td>
 <td><p>BOOLEAN, LOGICAL, LOGICAL1, YESNO</p></td>
 <td><p>BIT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 <td><p>TINYINT</p></td>
 <td><p>INTEGER1, BYTE</p></td>
 <td><p>TINYINT</p></td>
 </tr>
 <tr class="even">
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 <td><p>COUNTER (voir Remarques)</p></td>
 <td><p>AUTOINCREMENT</p></td>
 <td><p>(voir Remarques)</p></td>
 </tr>
 <tr class="odd">
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 <td><p>MONEY</p></td>
 <td><p>CURRENCY</p></td>
 <td><p>MONEY</p></td>
@@ -79,7 +78,7 @@ Synonyme</p></th>
 <td><p>DATETIME</p></td>
 </tr>
 <tr class="odd">
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 <td><p>UNIQUEIDENTIFIER</p></td>
 <td><p>GUID</p></td>
 <td><p>UNIQUEIDENTIFIER</p></td>
@@ -116,26 +115,26 @@ Synonyme</p></th>
 </tr>
 <tr class="odd">
 <td><p>INTERVAL</p></td>
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 <td><p></p></td>
-<td><p>Non reconnu</p></td>
+<td><p>Non prise en charge</p></td>
 </tr>
 <tr class="even">
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 <td><p>IMAGE</p></td>
 <td><p>LONGBINARY, GENERAL, OLEOBJECT</p></td>
 <td><p>IMAGE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Non reconnu</p></td>
-<td><p>TEXTE (voir Remarques)</p></td>
+<td><p>Non pris en charge</p></td>
+<td><p>TEXT (voir Remarques)</p></td>
 <td><p>LONGTEXT, LONGCHAR, MEMO, NOTE, NTEXT (voir Remarques)</p></td>
 <td><p>TEXT</p></td>
 </tr>
 <tr class="even">
 <td><p>CHARACTER, CHARACTER VARYING, NATIONAL CHARACTER, NATIONAL CHARACTER VARYING</p></td>
 <td><p>CHAR (voir Remarques)</p></td>
-<td><p>Text (n), ALPHANUMERIC, CHARACTER, STRING, VARCHAR, CHARACTER VARYING, NCHAR, NATIONAL CHARACTER, NATIONAL CHAR, NATIONAL CHARACTER VARYING, NATIONAL CHAR VARYING (voir Remarques)</p></td>
+<td><p>TEXT(n), ALPHANUMERIC, CHARACTER, STRING, VARCHAR, CHARACTER VARYING, NCHAR, NATIONAL CHARACTER, NATIONAL CHAR, NATIONAL CHARACTER VARYING, NATIONAL CHAR VARYING (voir Remarques)</p></td>
 <td><p>CHAR, VARCHAR, NCHAR, NVARCHAR</p></td>
 </tr>
 </tbody>

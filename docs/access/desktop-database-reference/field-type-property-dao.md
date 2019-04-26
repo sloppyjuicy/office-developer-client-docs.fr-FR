@@ -1,5 +1,5 @@
 ---
-title: Propriété Field.Type (DAO)
+title: Field.Type, propriété (DAO)
 TOCTitle: Type Property
 ms:assetid: 1295ca40-78c1-bdd0-d407-e1b5be8adfd4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845405(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c8f212c5e1f10f4270987c9453802575d88cebfa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292950"
 ---
-# <a name="fieldtype-property-dao"></a>Propriété Field.Type (DAO)
+# <a name="fieldtype-property-dao"></a>Field.Type, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou de données d'un objet. Type de données **Integer** en lecture/écriture.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. **Entier** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Type
+*expression* .Type
 
-*expression* Variable qui représente un objet **Field** .
+*expression* Variable qui représente un objet **Field**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -51,11 +51,11 @@ Pour un objet **Field**, les valeurs des paramètres et de retour possibles sont
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binaire</p></td>
+<td><p>Binary</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
-<td><p>Booléen</p></td>
+<td><p>Valeur booléenne</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbByte</strong></p></td>
@@ -67,14 +67,14 @@ Pour un objet **Field**, les valeurs des paramètres et de retour possibles sont
 </tr>
 <tr class="even">
 <td><p><strong>dbCurrency</strong></p></td>
-<td><p>Monnaie</p></td>
+<td><p>Devise</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbDate</strong></p></td>
 <td><p>Date/Heure</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DBDECIMAL ne</strong></p></td>
+<td><p><strong>dbDecimal</strong></p></td>
 <td><p>Décimal</p></td>
 </tr>
 <tr class="odd">
@@ -83,11 +83,11 @@ Pour un objet **Field**, les valeurs des paramètres et de retour possibles sont
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Virgule flottante</p></td>
+<td><p>Flottant</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
-<td><p>Identificateur global unique (GUID)</p></td>
+<td><p>GUID</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbInteger</strong></p></td>
@@ -95,7 +95,7 @@ Pour un objet **Field**, les valeurs des paramètres et de retour possibles sont
 </tr>
 <tr class="odd">
 <td><p><strong>dbLong</strong></p></td>
-<td><p>Long</p></td>
+<td><p>Entier long</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>
@@ -111,19 +111,19 @@ Pour un objet **Field**, les valeurs des paramètres et de retour possibles sont
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
-<td><p>Simple</p></td>
+<td><p>Unique</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbText</strong></p></td>
-<td><p>Texte</p></td>
+<td><p>Text</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbTime</strong></p></td>
-<td><p>Heure</p></td>
+<td><p>Time</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>
-<td><p>Horodatage</p></td>
+<td><p>Date et heure</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVarBinary</strong></p></td>

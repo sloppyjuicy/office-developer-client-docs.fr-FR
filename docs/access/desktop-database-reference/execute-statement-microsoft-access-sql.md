@@ -1,5 +1,5 @@
 ---
-title: Instruction EXECUTE (Microsoft Access SQL)
+title: EXECUTE, instruction (Microsoft Access SQL)
 TOCTitle: EXECUTE statement (Microsoft Access SQL)
 ms:assetid: 9ec4d9ee-db2a-0319-3ccf-c035d67a1496
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198330(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: df70d2728732f33161622ce71fc9273bd9f016f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293237"
 ---
-# <a name="execute-statement-microsoft-access-sql"></a>Instruction EXECUTE (Microsoft Access SQL)
+# <a name="execute-statement-microsoft-access-sql"></a>EXECUTE, instruction (Microsoft Access SQL)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisée pour invoquer l'exécution d'une procédure.
 
 ## <a name="syntax"></a>Syntaxe
 
-EXECUTE *procédure* \[ *param1*\[, *param2*\[,...\]\]
+EXECUTE *procédure* \[*param1*\[, *param2*\[, …\]\]
 
-L'instruction EXECUTE est composée des arguments suivants :
+L’instruction EXECUTE est composée des éléments suivants :
 
 <table>
 <colgroup>
@@ -37,13 +37,13 @@ L'instruction EXECUTE est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Quitter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>procédure</em></p></td>
+<td><p><em>procedure</em></p></td>
 <td><p>Nom de la procédure à exécuter.</p></td>
 </tr>
 <tr class="even">
@@ -56,7 +56,7 @@ L'instruction EXECUTE est composée des arguments suivants :
 
 ## <a name="example"></a>Exemple
 
-Cet exemple, la requête categoryList est nommée et la procédure EnumFields que vous pouvez trouver dans l’exemple d’instruction SELECT.
+Cet exemple nomme la requête CategoryList et appelle la procédure EnumFields, que vous pouvez trouver dans l'exemple d'instruction SELECT.
 
 ```vb
     Sub ProcedureX() 

@@ -1,5 +1,5 @@
 ---
-title: Méthode Database.CreateTableDef (DAO)
+title: Database.CreateTableDef, méthode (DAO)
 TOCTitle: CreateTableDef Method
 ms:assetid: d919b44e-ffae-dc4a-f1cc-d01df49987a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835094(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c986f0a96c14dac8a9ee4f3c7fded5a049fa451e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294945"
 ---
-# <a name="databasecreatetabledef-method-dao"></a>Méthode Database.CreateTableDef (DAO)
+# <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Crée un objet **[TableDef](tabledef-object-dao.md)** (espaces de travail Microsoft Access uniquement).
+Crée un nouvel objet **[TableDef](tabledef-object-dao.md)** (espaces de travail Microsoft Access uniquement). .
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CreateTableDef (***nom***, ***attributs***, ***SourceTableName***, ***connecter***)
+*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)
 
-*expression* Variable qui représente un objet de **base de données** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -42,7 +42,7 @@ Crée un objet **[TableDef](tabledef-object-dao.md)** (espaces de travail Micros
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -52,25 +52,25 @@ Crée un objet **[TableDef](tabledef-object-dao.md)** (espaces de travail Micros
 <td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>TableDef</strong>. Consultez la propriété <strong><a href="tabledef-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms d’objets <strong>TableDef</strong> valides.</p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>TableDef</strong>. Consultez la propriété <strong><a href="tabledef-name-property-dao.md">Name</a></strong> pour plus d'informations sur les noms d'objets <strong>TableDef</strong> valides.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Attributes</em></p></td>
+<td><p><em>Attributs</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
-<td><p>Constante ou combinaison de constantes spécifiant une ou plusieurs caractéristiques du nouvel objet <strong>TableDef</strong>. Pour plus d'informations, consultez la propriété <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong>.  </p></td>
+<td><p><strong>Variant</strong></p></td>
+<td><p>Constante ou combinaison de constantes spécifiant une ou plusieurs caractéristiques du nouvel objet <strong>TableDef</strong>. Pour plus d’informations, consultez la propriété <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>SourceTableName</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui comprend le nom d’une table d’une base de données externe représentant la source des données d’origine. La chaîne source devient la valeur affectée à la propriété <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> du nouvel objet <strong>TableDef</strong>.</p></td>
+<td><p>Une <strong>Variant</strong> (<strong>chaîne</strong> sous-type) contenant le nom d’un tableau dans une base de données externe qui est la source des données d’origine. La chaîne source devient la valeur affectée à la propriété <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> du nouvel objet <strong>TableDef</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) contenant des informations sur la source d’une base de données ouverte, une base de données utilisée dans une requête directe ou une table liée. Consultez la propriété <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> pour plus d’informations sur les chaînes de connexion valides.</p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) contenant des informations sur la source d’une base de données ouverte, une base de données utilisée dans une requête directe ou une table liée. Voir la propriété <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> pour plus d’informations sur les chaînes de connexion valides.</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,9 +82,9 @@ TableDef
 
 ## <a name="remarks"></a>Remarques
 
-Si vous omettez un ou plusieurs arguments facultatifs avec la méthode **CreateTableDef**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou redéfinir la propriété correspondante avant d'ajouter le nouvel objet à la collection. Après l'ajout de l'objet, il est toujours possible de modifier certaines de ses propriétés. Pour plus d'informations, consultez les rubriques des différentes propriétés.
+Si vous omettez un ou plusieurs arguments facultatifs avec la méthode **CreateTableDef**, vous pouvez utiliser une instruction d’affectation appropriée pour définir ou redéfinir la propriété correspondante avant d’ajouter le nouvel objet à la collection. Après l’ajout de l’objet, il est toujours possible de modifier certaines de ses propriétés. Pour plus d’informations, consultez les rubriques des différentes propriétés.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, ou si vous spécifiez une propriété non valide dans l’objet **TableDef** ou **[Field](field-object-dao.md)** que vous ajoutez, une erreur d’exécution se produit lorsque vous utilisez la méthode **[Append](tabledefs-append-method-dao.md)** . En outre, vous ne pouvez pas ajouter d'objet **TableDef** à la collection **TableDefs** avant d'avoir défini au moins un objet **Field** pour l'objet **TableDef**.
+Si l’argument name fait référence à un objet déjà membre de la collection ou si vous spécifiez une propriété non valide dans l’objet **TableDef** ou **[Field](field-object-dao.md)** que vous ajoutez, une erreur d’exécution se produit lors de l’utilisation de la méthode **[Append](tabledefs-append-method-dao.md)**. En outre, vous ne pouvez pas ajouter d'objet **TableDef** à la collection **TableDefs** avant d'avoir défini au moins un objet **Field** pour l'objet **TableDef**.
 
 Pour supprimer un objet **TableDef** de la collection **[TableDefs](tabledefs-collection-dao.md)**, appelez la méthode **[Delete](tabledefs-delete-method-dao.md)** sur la collection.
 
@@ -155,7 +155,7 @@ Cet exemple crée un objet **TableDef** dans la base de données Northwind.
 
 <br/>
 
-Cet exemple utilise les méthodes **CreateTableDef** et **FillCache** ainsi que les propriétés **CacheSize**, **CacheStart** et **SourceTableName** pour énumérer deux fois les enregistrements dans une table liée. Ensuite, il énumère également deux fois les enregistrements avec un cache de 50 enregistrements. Enfin, il affiche les statistiques de performance pour les deux exécutions, avec et sans mise en cache, dans la table liée.
+Cet exemple utilise les méthodes **CreateTableDef** et **FillCache** ainsi que les propriétés **CacheSize**, **CacheStart** et **SourceTableName** pour énumérer deux fois les enregistrements dans une table liée. Ensuite, il énumère également deux fois les enregistrements avec un cache de 50 enregistrements. Enfin, il affiche les statistiques de performance pour les deux exécutions, avec et sans mise en cache, dans la table liée.
 
 ```vb
     Sub ClientServerX3() 
