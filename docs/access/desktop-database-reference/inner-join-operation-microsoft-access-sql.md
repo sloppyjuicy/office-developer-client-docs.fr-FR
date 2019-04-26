@@ -14,25 +14,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 6ff2ad40d318801ecec2332b53b41f327c20fbc5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291399"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>INNER JOIN, opération (Microsoft Access SQL)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
-Combine les enregistrements de deux tables lorsque des valeurs correspondent dans un champ commun.
+Combine les enregistrements de deux tables chaque fois qu’un champ commun contient des valeurs correspondantes.
 
 ## <a name="syntax"></a>Syntaxe
 
-FROM *table1* INNER JOIN *table2* sur la *table1*. *champ1* *OpérateurComparaison table2*. *Field2*
+FROM *table1* INNER JOIN *table2* ON *table1*.*champ1* *compopr table2*.*champ2*
 
-L'opération INNER JOIN est composée des arguments suivants :
+L'opération INNER JOIN est composée des arguments suivants :
 
 <table>
 <colgroup>
@@ -41,28 +41,28 @@ L'opération INNER JOIN est composée des arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Élément</p></th>
+<th><p>Partie</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>table1</em>, <em>table2</em></p></td>
-<td><p>Noms des tables à partir desquelles les enregistrements sont combinés.</p></td>
+<td><p>Nom des tables dont les enregistrements sont combinés.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>champ1</em>, <em>champ2</em></p></td>
 <td><p>Noms des champs joints. S'ils ne sont pas numériques, les champs doivent être du même type et contenir le même type de données, mais il ne doivent pas obligatoirement avoir le même nom.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>opérateurcomparaison</em></p></td>
-<td><p>Tout opérateur de comparaison relationnel : &quot;=,&quot; &quot; &lt;,&quot; &quot; &gt;,&quot; &quot; &lt;=,&quot; &quot; &gt;=&quot; ou &quot; &lt; &gt;.&quot;</p></td>
+<td><p><em>oprcomp</em></p></td>
+<td><p>Tout opérateur de comparaison relationnelles : &quot;=,&quot; &quot;&lt;,&quot; &quot;&gt;,&quot; &quot;&lt;=,&quot; &quot;&gt;=,&quot; ou &quot;&lt;&gt;.&quot;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser une opération INNER JOIN dans n'importe quelle clause [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql). Il s'agit du type de jointure le plus courant. Les jointures internes combinent les enregistrements de deux tables lorsque des valeurs correspondent dans un champ commun aux deux tables.
 
@@ -70,9 +70,9 @@ Vous pouvez utiliser INNER JOIN avec les tables Departments et Employees pour s�
 
 Si vous essayez de joindre des champs contenant des données de type Mémo ou Objet OLE, une erreur se produit.
 
-Vous pouvez joindre deux champs numériques de types identiques. Par exemple, vous pouvez joindre un champ AutoNumber à un champ Long, car ils sont de même type. En revanche, vous ne pouvez pas joindre des champs de type Single et Double.
+Vous pouvez joindre deux champs numériques quelconques de types similaires. Par exemple, vous pouvez opérer une jointure sur des champs NuméroAuto et Long parce qu’ils sont de types similaires. En revanche, vous ne pouvez pas joindre des types de champs Simple et Double.
 
-L'exemple suivant montre comment vous pouvez joindre les tables Categories et Products sur le champ CategoryID :
+L’exemple suivant montre comment joindre les tables Categories (Catégories) et Products (Produits) sur le champ CategoryID :
 
 ```sql
 SELECT CategoryName, ProductName 
@@ -80,23 +80,23 @@ FROM Categories INNER JOIN Products
 ON Categories.CategoryID = Products.CategoryID;
 ```
 
-Dans l'exemple précédent, CategoryID est le champ joint, mais il n'est pas inclus dans le résultat de la requête, car il n'est pas inclus dans l'instruction [SELECT](select-statement-microsoft-access-sql.md). Pour inclure le champ joint, incluez le nom du champ dans l’instruction SELECT — dans SELECT.
+Dans l'exemple précédent, CategoryID est le champ joint, mais il n'est pas inclus dans le résultat de la requête, car il n'est pas inclus dans l'instruction [SELECT](select-statement-microsoft-access-sql.md). Pour inclure le champ joint, incluez le nom du champ dans l’instruction SELECT : dans ce cas, Categories.CategoryID.
 
-Vous pouvez également lier plusieurs clauses ON dans une instruction JOIN, pour cela utilisez la syntaxe suivante :
+Vous pouvez également lier plusieurs clauses ON dans une instruction JOIN, en utilisant la syntaxe suivante :
 
-Sélectionnez les *champs* FROM *table1* INNER JOIN *table2* ON *table1*. *champ1* *OpérateurComparaison* *table2*. *champ1* ET sur la *table1*. *Field2* *OpérateurComparaison* *table2*. *field2*) OU sur la *table1*. *argument champ3* *OpérateurComparaison* *table2*. *l’argument champ3*) \];
+SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*champ1* *compopr* *table2*.*champ1* AND ON *table1*.*champ2* *compopr* *table2*.*champ2*) OR ON *table1*.*champ3* *compopr* *table2*.*champ3*)\];
 
-Vous pouvez également imbriquer des instructions JOIN à l'aide de la syntaxe suivante :
+Vous pouvez également imbriquer des instructions JOIN en utilisant la syntaxe suivante :
 
-Sélectionnez les *champs* FROM *table1* INNER JOIN (*table2* INNER JOIN \[( \] *table3* \[INNER JOIN \[( \] *tablex* \[INNER JOIN …) \] Sur *table3*. *argument champ3* *OpérateurComparaison* *tablex*. *fieldx*) \] Sur la *table2*. *Field2* *OpérateurComparaison* *table3*. *l’argument champ3*) SUR la *table1*. *champ1* *OpérateurComparaison* *table2*. *field2*;
+SELECT *champ* FROM *table1* INNER JOIN (*table2* INNER JOIN \[( \]*table3* \[INNER JOIN \[( \]*tablex* \[INNER JOIN …)\] ON *table3*.*champ3* *compopr* *tablex*.*champx*)\] ON *table2*.*champ2* *compopr* *table3*.*champ3*) ON *table1*.*champ1* *compopr* *table2*.*champ2*;
 
-Une jointure LEFT JOIN ou RIGHT JOIN peut être imbriquée dans une jointure INNER JOIN, mais une jointure INNER JOIN ne peut pas être imbriquée dans une jointure LEFT JOIN ou RIGHT JOIN.
+Une jointure gauche (LEFT JOIN) ou droite (RIGHT JOIN) peut être imbriquée dans une jointure interne, mais une jointure interne ne peut pas être imbriquée dans une jointure gauche ou droite.
 
 ## <a name="example"></a>Exemple
 
 Dans cet exemple, deux jointures équivalentes sont créées : une entre les tables Order Details et Orders et une autre entre les tables Orders et Employees. Ceci est nécessaire, car la table Employees ne contient pas de données de ventes et la table Order Details ne contient pas de données relatives aux employés. La requête produit une liste des employés avec le montant total de leurs ventes.
 
-La procédure EnumFields (que vous pouvez trouver dans l'exemple d'instruction SELECT) est appelée dans cet exemple.
+Cet exemple appelle la procédure EnumFields, que vous trouverez dans l’exemple d’instruction SELECT.
 
 ```vb
     Sub InnerJoinX() 

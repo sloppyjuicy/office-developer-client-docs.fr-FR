@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 78b08575b1fde304dc47b8219c1143cda265baf8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292705"
 ---
 # <a name="field2savetofile-method-dao"></a>Méthode Field2.SaveToFile (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Enregistre la pièce jointe sur le disque.
+Enregistre une pièce jointe sur disque.
 
 ## <a name="version-information"></a>Informations de version
 
@@ -30,9 +30,9 @@ Version ajoutée : Access 2007
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . SaveToFile (***nom de fichier***)
+*expression* .SaveToFile (***nom de fichier***)
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -46,7 +46,7 @@ Version ajoutée : Access 2007
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -64,7 +64,7 @@ Version ajoutée : Access 2007
 
 ## <a name="example"></a>Exemple
 
-L'extrait de code suivant montre comment utiliser la méthode **SaveToFile** pour enregistrer toutes les pièces jointes d'un employé sur le disque jointe.
+L'extrait de code suivant montre comment utiliser la méthode **SaveToFile** pour enregistrer toutes les pièces jointes d'un employé sur disque.
 
 ```vb
     '  Instantiate the parent recordset.  
@@ -87,9 +87,9 @@ L'extrait de code suivant montre comment utiliser la méthode **SaveToFile** pou
 
 <br/>
 
-L’exemple suivant montre comment enregistrer les fichiers stockés dans un champ de pièce jointe sur le chemin d’accès du dossier spécifié.
+L’exemple suivant montre comment enregistrer des fichiers stockés dans un champ pièce jointe vers un chemin d’accès de dossier spécifié.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

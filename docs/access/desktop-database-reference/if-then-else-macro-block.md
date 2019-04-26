@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fb6cbd6cc925a3e4841d9e7d6d77332cc36c7a03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291893"
 ---
 # <a name="ifthenelse-macro-block"></a>If...Then...Else, bloc de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser le bloc de macro **If** pour exécuter de façon conditionnelle un groupe d'actions, selon la valeur d'une expression.
+Vous pouvez utiliser le bloc de macro **If** pour exécuter de façon conditionnelle un groupe d’actions, selon la valeur d’une expression.
 
 ```vb
     If expression Then 
@@ -33,7 +33,7 @@ Vous pouvez utiliser le bloc de macro **If** pour exécuter de façon conditionn
 
 ## <a name="setting"></a>Paramètre
 
-Pour les **Si** et **Else If**, les arguments suivants sont requis.
+Pour les deux **if** et **Else if**, les arguments suivants sont requis.
 
 <table>
 <colgroup>
@@ -49,13 +49,13 @@ Pour les **Si** et **Else If**, les arguments suivants sont requis.
 <tbody>
 <tr class="odd">
 <td><p><strong>Expression</strong></p></td>
-<td><p>La condition que vous souhaitez tester. Il doit être une expression qui prend la valeur True ou False.</p></td>
+<td><p>Condition que vous souhaitez tester. Il doit s’agir d’une expression évaluée à True ou False.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous sélectionnez le bloc de macro **If**, une zone de texte s'affiche afin de vous permettre d'entrer une expression qui représente la condition à tester. De plus, une zone de liste déroulante s'affiche, dans laquelle vous pouvez insérer une action de macro, sous laquelle le texte « End If » s'affiche automatiquement. If et End If entourent une zone dans laquelle vous pouvez entrer un groupe, ou bloc, d'actions. Le bloc s'exécute seulement si l'expression que vous entrez a la valeur True.
 
@@ -65,7 +65,7 @@ Vous pouvez ajouter autant de blocs **Else if** que vous le souhaitez à un bloc
 
 Vous pouvez cliquer sur **Ajouter Sinon** pour insérer un bloc **Else** facultatif. Dans ce cas, les actions que vous insérez sous **Else** forment le bloc **Else**, qui s'exécute uniquement lorsque les actions plus haut ne s'exécutent pas. Vous pouvez ajouter un seul bloc **Else** à un bloc **If**.
 
-Dans l’exemple de code suivant, les actions de macro dans le premier bloc exécuteront si la valeur de \[état\] est supérieur à 0. Si la valeur de \[état\] n’est pas supérieur à 0, l’expression qui suit l’instruction **Else If** est évaluée. Les actions de macro dans le bloc **Else If** s’exécute pas si la valeur de \[état\] est égale à 0. Pour finir, si ni le premier ni le deuxième bloc ne s'exécutent, les actions du bloc **Else** s'exécutent.
+Dans l’exemple de code suivant, les actions de macro dans le premier bloc s’exécutent si la valeur de \[Status\] est supérieure à 0. Si la valeur de \[Status\] n’est pas supérieure à 0, l’expression qui suit le **Else if** est évaluée. Les actions de macro dans le bloc **Else if** s’exécutent si la valeur de \[Status\] est égale à 0. Pour finir, si ni le premier ni le deuxième bloc ne s'exécutent, les actions du bloc **Else** s'exécutent.
 
 ```vb
     If [Status] > 0 Then 
@@ -77,7 +77,7 @@ Dans l’exemple de code suivant, les actions de macro dans le premier bloc exé
     End If
 ```
 
-Vous pouvez imbriquer des blocs **If**. Il peut être préférable d'imbriquer un bloc **If** dans un bloc **If** si vous souhaitez évaluer une deuxième expression lorsque la première expression a la valeur True. Dans l’exemple de code suivant, le bloc **If** interne uniquement s’exécute lorsque la valeur de \[état\] est supérieur à 0 *et* supérieure à 100.
+Vous pouvez imbriquer des blocs **If**. Il peut être préférable d'imbriquer un bloc **If** dans un bloc **If** si vous souhaitez évaluer une deuxième expression lorsque la première expression a la valeur True. Dans l’exemple de code suivant, le bloc interne **If** s’exécute uniquement si la valeur de \[Status\] est à la fois supérieure à 0 *et* supérieure à 100.
 
 ```vb
     If [Status] > 0 Then 

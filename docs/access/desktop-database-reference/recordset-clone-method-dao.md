@@ -1,5 +1,5 @@
 ---
-title: Méthode Recordset.Clone (DAO)
+title: Recordset.Clone, méthode (DAO)
 TOCTitle: Clone Method
 ms:assetid: 50cbc011-7e72-4dee-488d-96e681618e8e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193824(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: ecc5592893c1caee16f0a00687ce50f68b05e9c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300657"
 ---
-# <a name="recordsetclone-method-dao"></a>Méthode Recordset.Clone (DAO)
+# <a name="recordsetclone-method-dao"></a>Recordset.Clone, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Crée un objet **[Recordset](recordset-object-dao.md)** dupliqué qui fait référence à l'objet **Recordset** d'origine.
+Crée un doublon d’objet**[Recordset](recordset-object-dao.md)** qui fait référence à la cellule d’origine de l’objet**Recordset**.
 
 ## <a name="syntax"></a>Syntaxe
 
 *expression* . Clone
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="return-value"></a>Valeur renvoyée
 

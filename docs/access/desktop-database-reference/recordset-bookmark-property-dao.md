@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.Bookmark (DAO)
+title: Recordset.Bookmark, propriété (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: c4b1c2d9-668e-e365-544c-efb4ae4efcc9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823084(v=office.15)
@@ -12,44 +12,44 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 1ebf963695b2d754a4501077e2236c52280a9a2e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300650"
 ---
-# <a name="recordsetbookmark-property-dao"></a>Propriété Recordset.Bookmark (DAO)
+# <a name="recordsetbookmark-property-dao"></a>Recordset.Bookmark, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie un signet qui identifie de façon unique l'enregistrement actif d'un objet **[Recordset](recordset-object-dao.md)**.
+Définit ou renvoie un signet qui identifie l’enregistrement actif dans un objet **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Signet
+*expression* . Bookmark
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
-Pour un objet **Recordset** est basé entièrement sur des tables de moteur de base de données Microsoft Access, la valeur de la propriété **Bookmarkable** est True et vous pouvez utiliser la propriété **Bookmark** avec ce **jeu d’enregistrements**. En revanche, il est possible que d'autres produits de base de données ne prennent pas en charge les signets. Ainsi, vous ne pouvez pas utiliser de signets dans un objet **Recordset** basé sur une table Paradox liée qui ne possède aucune clé primaire.
+Dans le cas d'un objet **Recordset** qui repose entièrement sur les tables du moteur de base de données Microsoft Access, la valeur de la propriété **Bookmarkable** est True et vous pouvez utiliser la propriété **Bookmark** avec ce jeu **Recordset**. En revanche, il est possible que d'autres produits de base de données ne prennent pas en charge les signets. Ainsi, vous ne pouvez pas utiliser de signets dans un objet **Recordset** basé sur une table Paradox liée qui ne possède aucune clé primaire.
 
-Lors de la création ou de l'ouverture d'un objet **Recordset**, chacun de ses enregistrements contient déjà un signet unique. Vous pouvez enregistrer le signet de l'enregistrement actif en affectant la valeur de la propriété **Bookmark** à une variable. Pour revenir rapidement à cet enregistrement après être passé à un autre enregistrement, définissez la propriété **Bookmark** de l'objet **Recordset** sur la valeur de cette variable.
+Lorsque vous créez ou que vous ouvrez un objet **Recordset**, chacun de ses enregistrements possède un signet qui lui est propre. Vous pouvez enregistrer le signet de l'enregistrement actif en affectant à la propriété **Bookmark** une variable. Pour revenir rapidement et à tout moment à cet enregistrement après avoir accédé à un autre enregistrement, affectez à la propriété **Bookmark** de l'objet **Recordset** la valeur de cette variable.
 
-Vous pouvez créer autant de signets que vous le souhaitez. Pour créer un signet pour un enregistrement différent de l'enregistrement actif, accédez à cet enregistrement et définissez comme paramètre de la propriété **Bookmark** une variable **String** qui identifie cet enregistrement.
+Il n'existe aucune limite quant au nombre de signets que vous pouvez définir. Pour créer un signet d'un enregistrement autre que l'enregistrement actif, accédez à l'enregistrement souhaité et affectez à la propriété **Bookmark** une variable de type **String** qui identifie l'enregistrement.
 
-Pour vous assurer que l'objet **Recordset** prend en charge les signets, consultez la valeur de la propriété **[Bookmarkable](recordset-bookmarkable-property-dao.md)** avant d'utiliser la propriété **Bookmark**. Si la propriété **Bookmarkable** est False, l’objet **Recordset** ne prend pas en charge les signets, et à l’aide du **signet** de la propriété génère une erreur interceptable.
+Pour vous assurer que l’objet **Recordset** prend en charge les signets, vérifiez la valeur de sa propriété ** [Bookmarkable](recordset-bookmarkable-property-dao.md) ** avant d’utiliser la propriété **Bookmark**. Si la propriété **Bookmarkable** est False, l'objet **Recordset** ne prend pas en charge les signets et l'utilisation de la propriété **Bookmark** provoquera une erreur piégeable.
 
-Si vous créez une copie d'un objet [Recordset](recordset-clone-method-dao.md) à l'aide de la méthode ****Clone****, les valeurs de la propriété **Bookmark** correspondant aux objets **Recordset** d'origine et dupliqué sont identiques et peuvent être utilisées indifféremment. Toutefois, vous ne pouvez pas utiliser indifféremment les signets d'objets **Recordset** différents, même s'ils ont été créés à l'aide du même objet ou de la même instruction SQL.
+Si vous utilisez la méthode **[Clone](recordset-clone-method-dao.md)** pour créer une copie de l'objet **Recordset**, les paramètres de la propriété **Bookmark** des objets **Recordset** d'origine et dupliqué sont identiques et interchangeables. En revanche, vous ne pouvez pas utiliser indifféremment des signets d'objets **Recordset** différents même s'ils ont été créés à l'aide du même objet ou de la même instruction SQL.
 
-Une erreur interceptable se produit si vous définissez la propriété **Bookmark** sur une valeur qui représente un enregistrement supprimé.
+Si vous affectez à la propriété **Bookmark** une valeur qui représente un enregistrement supprimé, une erreur piégeable se produit.
 
-La valeur de la propriété **Bookmark** est différente d'un numéro d'enregistrement.
+La valeur de la propriété **Bookmark** est différente d’un numéro d’enregistrement.
 
 ## <a name="example"></a>Exemple
 
-L'exemple ci-dessous fait appel aux propriétés **Bookmark** et **Bookmarkable** pour permettre de marquer un enregistrement d'un objet **Recordset** et d'y revenir ultérieurement.
+Cet exemple utilise les propriétés **Bookmark** et **Bookmarkable** pour permettre à l’utilisateur de marquer un enregistrement dans un jeu **Recordset** et d’y revenir plus tard.
 
 ```vb
     Sub BookmarkX() 

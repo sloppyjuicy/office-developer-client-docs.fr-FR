@@ -1,5 +1,5 @@
 ---
-title: Collection Fields (DAO)
+title: Collection de champs (DAO)
 TOCTitle: Fields Collection
 ms:assetid: 4be3ba07-20c1-d958-c1b8-7dd8b4731f60
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193530(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: d87d1535afeaf0740627a7af3852b1929a0e6d50
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292530"
 ---
-# <a name="fields-collection-dao"></a>Collection Fields (DAO)
+# <a name="fields-collection-dao"></a>Collection de champs (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Une collection **Fields** contient tous les objets **Field** stockés d'un objet **Index**, **QueryDef**, **Recordset**, **Relation** ou **TableDef**.
+Une collection de **champs** contient tous les objets **champ** stockés d’un objet **Index**, **QueryDef**, **Recordset**, **Relation** ou **TableDef**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -27,9 +27,9 @@ Les collections **Fields** des objets **Index**, **QueryDef**, **Relation** et *
 
 Pour faire référence à un objet **Field** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**Name, utilisez l'une formes de syntaxe suivantes :
 
-**Fields**(0)
+**Champs**(0)
 
-**Champs** (« nom »)
+**Champs**(« nom »)
 
 **Champs**\!\[nom\]
 
@@ -103,7 +103,7 @@ Cet exemple indique les propriétés valides pour un objet **Field** en fonction
 
 <br/>
 
-Cet exemple utilise la méthode **CreateField** pour créer trois objets **Fields** pour un objet **TableDef**. Il affiche ensuite les propriétés de ces objets **Field**, qui sont automatiquement définies par la méthode **CreateField**. (Les propriétés dont les valeurs sont vides lors de la création de **Field** ne sont pas affichées.)
+Cet exemple utilise la méthode **CreateField** pour créer trois objets **Fields** pour un objet **TableDef**. Il affiche ensuite les propriétés de ces objets **Field**, qui sont automatiquement définies par la méthode **CreateField** (les propriétés dont les valeurs sont vides lors de la création de **Field** ne sont pas affichées).
 
 ```vb
     Sub CreateFieldX() 
