@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6eb51e5a-03d8-3daa-b4e1-6107d540aed9
 description: Verrouille un rectangle de sélection de la forme de sorte qu'elle ne puisse pas être recalculée lorsqu'un sommet est modifié ou que le type d'une ligne est changé dans la section Geometry.
 ms.openlocfilehash: 2b1d907f480a22a56f5847035da8d1cbde5fdcc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359632"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423040"
 ---
 # <a name="lockcalcwh-cell-protection-section"></a>LockCalcWH, cellule (section Protection)
 
 Verrouille un rectangle de sélection de la forme de sorte qu'elle ne puisse pas être recalculée lorsqu'un sommet est modifié ou que le type d'une ligne est changé dans la section Geometry.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La largeur et la hauteur ne peuvent pas être recalculées.  <br/> |
 | FALSE  <br/> | La largeur et la hauteur peuvent être recalculées.  <br/> |

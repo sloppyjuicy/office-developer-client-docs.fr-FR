@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: a8d5388a-8fd0-4c6e-9633-e1f03c5bef3b
 description: Détermine si la forme suit une rotation parallèle, une rotation en perspective ou une rotation oblique, sous la forme d'un nombre entier compris entre 0 et 6.
 ms.openlocfilehash: 676f8a15185242aacc1affb9f1bd200ff3df454d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315672"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422942"
 ---
 # <a name="rotationtype-cell-3-d-rotation-properties-section"></a>RotationType Cell (3-D Rotation Properties Section)
 
 Détermine si la forme suit une rotation parallèle, une rotation en perspective ou une rotation oblique, sous la forme d'un nombre entier compris entre 0 et 6. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |La forme n'a pas de rotation.  <br/> |
 |0,1  <br/> |La forme a une rotation parallèle.  <br/> |

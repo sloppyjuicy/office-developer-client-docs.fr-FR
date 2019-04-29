@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 4d2248d9-ab20-bcaa-d75b-62876c5e95eb
 description: Microsoft InfoPath fournit l'automatisation des applications à partir du code écrit à l'aide de COM et du script à l'aide de méthodes de l'objet application et de la collection XDocuments.
 ms.openlocfilehash: 7eccbca34b93aff7909de92eebc04d012d4dd97c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303807"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412666"
 ---
 # <a name="automating-infopath-from-an-external-application"></a>Automatisation d’InfoPath à partir d’une application externe
 

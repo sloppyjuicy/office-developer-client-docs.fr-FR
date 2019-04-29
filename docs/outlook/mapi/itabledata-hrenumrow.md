@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25d9f2b-9454-4983-98f7-6a051a3b8a04
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 50fd96acd0989459c9887770ec5a3a236f182da5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348894"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418371"
 ---
 # <a name="itabledatahrenumrow"></a>ITableData::HrEnumRow
 

@@ -8,17 +8,17 @@ keywords:
 - xlrunningoncluster
 localization_priority: Normal
 ms.assetid: 7662f255-4184-4af0-97f5-9a89347a201a
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f5c630c73899b07e2727a7d42b18eb1891797bab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310100"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418287"
 ---
 # <a name="xlrunningoncluster"></a>xlRunningOnCluster
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Renvoie une valeur qui indique si la fonction définie par l'utilisateur est exécutée sur un cluster. 
   

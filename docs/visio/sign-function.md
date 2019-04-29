@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fdc032c2-d0bd-1592-de3f-33c478d066ee
 description: Renvoie une valeur qui représente le signe d'un nombre.
 ms.openlocfilehash: 34bbbab17de94b0a8c95b4b0bfd3829a06dc7e70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357455"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420653"
 ---
 # <a name="sign-function"></a>Fonction SIGN
 

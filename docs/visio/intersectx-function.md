@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d8dc1915-f055-e858-1323-9e8c1cb7f2f1
 description: Renvoie la coordonnée x (dans le système de coordonnées locales) du point d'intersection de deux lignes.
 ms.openlocfilehash: 857f81d667e33ad9ce79405ef5d59874903098e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335307"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418273"
 ---
 # <a name="intersectx-function"></a>Fonction INTERSECTX
 

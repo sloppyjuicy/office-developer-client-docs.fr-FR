@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a9e97f45-2a5c-40c3-8282-a345ae6249d9
 description: Détermine les propriétés qui sont transférées de l'ancienne forme à la forme de remplacement pendant une opération de remplacement. Les valeurs des cellules dans la section modifier le comportement de la forme de la forme de base du remplacement sont lues pendant l'opération de remplacement de la forme.
 ms.openlocfilehash: 74519b27ab5b2b5bafc7c00010a65769061bf691
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341922"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418665"
 ---
 # <a name="change-shape-behavior-section"></a>Change Shape Behavior Section
 

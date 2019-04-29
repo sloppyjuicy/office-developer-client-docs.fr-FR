@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0ffdfc22-cbae-b397-226a-2cfcc6ca56c7
 description: La fonction TANH renvoie la tangente hyperbolique d’un angle.
 ms.openlocfilehash: e88d24b93d06cc606d96d5a4e4a3f834b706245a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332381"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412771"
 ---
 # <a name="tanh-function"></a>Fonction TANH
 

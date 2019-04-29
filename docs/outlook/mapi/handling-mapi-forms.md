@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 91347f0c34b8d7b76e4e456397a1faa061f3b2c6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299449"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423054"
 ---
 # <a name="handling-mapi-forms"></a>Gestion des formulaires MAPI
 
@@ -49,7 +49,7 @@ Si votre client envisage de gérer les formulaires MAPI, vous utiliserez l'inter
     
 Pour accéder au gestionnaire de formulaires, appelez la fonction [MAPIOpenFormMgr](mapiopenformmgr.md) pendant l'initialisation. 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Implémentation d'une visionneuse de formulaires](implementing-a-form-viewer.md): décrit l'implémentation d'une visionneuse de formulaires à l'aide d'un récepteur de notification d'affichage, d'un site de message et d'un contexte d'affichage.
     

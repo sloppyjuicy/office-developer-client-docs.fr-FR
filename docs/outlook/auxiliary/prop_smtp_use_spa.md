@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d82986c1-3a1e-48de-b6c9-b4bc64a88ee2
 description: Indique s'il faut utiliser l'authentification par mot de passe sécurisé (SPA) pour le compte SMTP.
 ms.openlocfilehash: b1f2ba9b7568361ad25147a94966bf42b98eda40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328335"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418553"
 ---
 # <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
 

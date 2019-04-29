@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 6aada005-3403-4666-9779-7ccb5b83b74a
 description: Détermine si un dégradé de remplissage pivote avec une forme dans la rotation 2D, sous la forme d'un type Boolean.
 ms.openlocfilehash: 76a76a4a97128c81710269f75e9e17db90827377
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315658"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412218"
 ---
 # <a name="rotategradientwithshape-cell-gradient-properties-section"></a>RotateGradientWithShape Cell (Gradient Properties Section)
 
 Détermine si un dégradé de remplissage pivote avec une forme dans la rotation 2D, sous la forme d'un type Boolean.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le dégradé pivote avec la forme lorsque la forme pivote autour de la broche de rotation. Le «haut» du dégradé est parallèle à la poignée de rotation.  <br/> |
 |FALSE  <br/> |Le dégradé ne pivote pas avec la forme lorsque la forme pivote autour de la broche de rotation. Le «haut» du dégradé est parallèle à la zone de dessin.  <br/> |
