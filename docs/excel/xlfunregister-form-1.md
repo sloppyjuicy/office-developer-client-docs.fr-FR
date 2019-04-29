@@ -10,17 +10,17 @@ keywords:
 - fonction xlfUnregister [Excel 2007]
 localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3f5ebc08f89651331186990d8574e3150d4f484a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303891"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410083"
 ---
 # <a name="xlfunregister-form-1"></a>xlfUnregister (formulaire 1)
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Peut être appelée à partir d'une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **Unregister** à partir d'une feuille macro XLM Excel. 
   
@@ -32,7 +32,7 @@ Peut être appelée à partir d'une commande DLL ou XLL qui a elle-même été a
     
 Appelée dans le formulaire 1, cette fonction réduit le nombre d'utilisations d'une fonction ou commande DLL précédemment inscrite à l'aide de **xlfRegister** ou **Register**. Si le nombre d'utilisations est déjà égal à zéro, cette fonction n'a aucun effet. Lorsque le nombre d'utilisations de toutes les fonctions dans une DLL atteint zéro, la DLL est déchargée de la mémoire.
   
-**xlfRegister** (Formulaire 1) définit également un nom masqué qui est l'argument de texte de la fonction, _pxFunctionText_, et qui prend la valeur de l'ID d'enregistrement de la fonction ou de la commande. Lors de l'annulation de l'inscription de la fonction, ce nom doit être supprimé à l'aide de **xlfSetName** afin que le nom de la fonction ne soit plus mentionné par l'Assistant fonction. Pour plus d�informations, consultez [Probl�mes connus concernant le d�veloppement de XLL Excel](known-issues-in-excel-xll-development.md).
+**xlfRegister** (Formulaire 1) définit également un nom masqué qui est l'argument de texte de la fonction, _pxFunctionText_, et qui prend la valeur de l'ID d'enregistrement de la fonction ou de la commande. Lors de l'annulation de l'inscription de la fonction, ce nom doit être supprimé à l'aide de **xlfSetName** afin que le nom de la fonction ne soit plus mentionné par l'Assistant fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);

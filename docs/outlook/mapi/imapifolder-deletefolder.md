@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a476607927f3563ede94a04ccfe4f7a3749c978e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280070"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417405"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
@@ -101,7 +101,7 @@ Lorsque l'opération de suppression implique plusieurs dossiers, effectuez l'op�
 
 Attendez-vous à ces valeurs de retour dans les conditions suivantes.
   
-|**Condition**|**Valeur renvoyée**|
+|**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
 |**DeleteFolder** a correctement supprimé tous les messages et sous-dossiers.  <br/> |S_OK  <br/> |
 |**DeleteFolder** n'a pas pu supprimer tous les messages et sous-dossiers.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |

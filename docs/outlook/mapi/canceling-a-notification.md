@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: decd5d7d-1f47-47c2-b9c4-be0e652c99dd
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: fb0972638fdd062c99040694222724566281024f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326403"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409761"
 ---
 # <a name="canceling-a-notification"></a>Annulation d'une notification
 

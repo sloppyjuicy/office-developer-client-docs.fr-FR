@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
 description: "Représente la coordonnée y de l'axe de la forme (Centre de rotation) par rapport à l'origine de la forme. La formule par défaut permettant de déterminer LocPinY est la suivante :"
 ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358043"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410594"
 ---
 # <a name="locpiny-cell-shape-transform-section"></a>LocPinY, cellule (section Shape Transform)
 

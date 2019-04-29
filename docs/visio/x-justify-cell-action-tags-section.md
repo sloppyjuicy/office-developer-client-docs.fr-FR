@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a8995020-3eaa-2b2c-eca0-dd475de4d06f
 description: Décalage x du bouton de balise d'action par rapport au point défini par les cellules X et Y.
 ms.openlocfilehash: f8542d2f3a22b12794d999323d202d7a5bece20b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284971"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414122"
 ---
 # <a name="x-justify-cell-action-tags-section"></a>X Justify Cell (Action Tags Section)
 
@@ -23,7 +23,7 @@ Décalage *x* du bouton de balise d'action par rapport au point défini par les 
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Aligné à gauche (valeur par défaut).  <br/> |**visSmartTagXJustifyLeft** <br/> |
 | 0,1  <br/> | Centré.  <br/> |**visSmartTagXJustifyCenter** <br/> |

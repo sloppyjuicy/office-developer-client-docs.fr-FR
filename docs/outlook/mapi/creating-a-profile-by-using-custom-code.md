@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5632cd25-58f5-4b9c-906c-cd377abc3daf
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: f3270528194b3cc3429d3afec153355349dabbff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335789"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413303"
 ---
 # <a name="creating-a-profile-by-using-custom-code"></a>Création d'un profil à l'aide d'un code personnalisé
 

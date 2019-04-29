@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 056b54ae-1475-9480-6ebc-5c34ef48e0f8
 description: Détermine si deux chaînes sont identiques.
 ms.openlocfilehash: ac5a74e08079f86c28b086b92302ebb01a4b0627
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329791"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413863"
 ---
 # <a name="strsameex-function"></a>Fonction STRSAMEEX
 
@@ -31,7 +31,7 @@ STRSAMEEX ("* * *Chaîne1* * *", "* * *Chaîne2* * *", * * *LocaleID* * *, * * *
 | _string1_ <br/> |Obligatoire  <br/> |**String** <br/> |Première chaîne à comparer.  <br/> |
 | _string2_ <br/> |Obligatoire  <br/> |**String** <br/> | Deuxième chaîne à comparer.  <br/> |
 | _Régionaux_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Code du pays (paramètre régional).  <br/> |
-| _flag_ <br/> |Obligatoire  <br/> |**Numérique** <br/> | Bit qui indique le type de comparaison.  <br/> |
+| _indicateur_ <br/> |Obligatoire  <br/> |**Numérique** <br/> | Bit qui indique le type de comparaison.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

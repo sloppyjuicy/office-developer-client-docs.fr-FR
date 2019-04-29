@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ef082d7b-9b2d-4267-beb5-d3ed1d9c7bbf
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0d05672a0b136520216357cc85a6b7a125415759
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345849"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427954"
 ---
 # <a name="mapi-notification-events"></a>Événements de notification MAPI
 
@@ -33,7 +33,7 @@ Lorsque les applications clientes s'inscrivent pour la notification d'événemen
 |Objet copié ( _fnevObjectCopied_)  <br/> |Un objet MAPI a été copié.  <br/> |Dossiers, messages, tous les types d'objets de carnet d'adresses  <br/> |
 |Événement étendu ( _fnevExtended_)  <br/> |Un événement interne défini par un fournisseur de services particulier s'est produit.  <br/> |Tout objet de source de notification  <br/> |
 |Recherche terminée ( _fnevSearchComplete_)  <br/> |Une opération de recherche est terminée et les résultats de la recherche sont disponibles.  <br/> |Folders  <br/> |
-|Table modifiée ( _fnevTableModified_)  <br/> |Les informations contenues dans un objet table MAPI ont été modifiées.  <br/> |Tables  <br/> |
+|Table modifiée ( _fnevTableModified_)  <br/> |Les informations contenues dans un objet table MAPI ont été modifiées.  <br/> |Tableaux  <br/> |
 |Nouveau message ( _fnevNewMail_)  <br/> |Un message a été remis et est en attente de traitement.  <br/> |Banque de messages, dossiers  <br/> |
    
 L'événement étendu est défini par un fournisseur de services pour représenter un événement qui ne peut pas être couvert par les autres événements prédéfinis. Seuls les clients qui connaissent qu'un fournisseur de services prend en charge un événement étendu peuvent s'inscrire à cet événement. Les clients ne peuvent pas déterminer sans savoir si un fournisseur de services prend en charge un événement étendu et, si c'est le cas, comment gérer ce type d'événement lors de sa réception.

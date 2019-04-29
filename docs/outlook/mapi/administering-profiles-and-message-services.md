@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 89a2ac43-9601-47fc-b736-db48585fe879
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 1e64241008a4adde4431b2c9683199294f21e396
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330232"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410559"
 ---
 # <a name="administering-profiles-and-message-services"></a>Administration des profils et des services de messagerie
 
@@ -35,7 +35,7 @@ Si vous prenez en charge l'administration des profils ou des services de message
     
 Soyez vigilant lors de la prise en charge de l'administration des profils et des services de messagerie. Il n'existe aucune protection contre la modification défavorable d'un profil en cours d'utilisation. MAPI peut vous empêcher de supprimer un profil en cours d'utilisation, mais ne peut pas vous empêcher de supprimer chaque service de messagerie qu'il contient. Si vous supprimez tous les services de messagerie d'un profil, tous les fournisseurs de services de ces services se bloquent, ce qui entraîne des résultats imprévisibles.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Création d'un profil](creating-a-profile.md)
   

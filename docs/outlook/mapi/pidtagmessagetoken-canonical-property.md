@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fcb93346-db92-44b5-a447-59fd95f98f45
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2d832b3a53f8056c034b5e87f1f309fa3058173d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355803"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408186"
 ---
 # <a name="pidtagmessagetoken-canonical-property"></a>Propriété canonique PidTagMessageToken
 
@@ -38,7 +38,7 @@ Contient un jeton de sécurité ASN. 1 pour un message.
 
 Cette propriété transmet les informations de sécurité protégées de son expéditeur à son destinataire. En association avec la propriété **PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)), elle garantit l'Association de l'étiquette au contenu du message. En combinaison avec la propriété **PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)), il vérifie que le contenu du message n'est pas modifié.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

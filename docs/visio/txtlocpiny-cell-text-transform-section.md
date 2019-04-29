@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3f46cfcf-7eac-4a37-e782-39f4e7f8fc43
 description: "Détermine la coordonnée y du centre de rotation du bloc de texte par rapport à l'origine du bloc de texte. La formule par défaut est la suivante :"
 ms.openlocfilehash: 937c4e9928d32d55e8336d192b1ecc6140fd8381
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317730"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414059"
 ---
 # <a name="txtlocpiny-cell-text-transform-section"></a>TxtLocPinY, cellule (section Text Transform)
 

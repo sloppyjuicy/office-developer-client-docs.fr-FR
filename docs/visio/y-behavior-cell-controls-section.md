@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6d5062d3-743b-8664-8ec9-5a8f11d5edf9
 description: Contrôle le type de comportement de la coordonnée y de la poignée de contrôle une fois que cette dernière a été déplacée. Les formules suivantes sont disponibles.
 ms.openlocfilehash: bf8cbd490884244c92b68784dcbf041093539c94
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360143"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413576"
 ---
 # <a name="y-behavior-cell-controls-section"></a>Y Behavior, cellule (section Controls)
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c7cb8cf9-7abd-4ee3-b88c-d61695f4ed31
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 1ae675d1d4adf841e18bbfc8990913136afe8b4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282704"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408613"
 ---
 # <a name="sizeddtbllabel"></a>SizedDtblLabel
 

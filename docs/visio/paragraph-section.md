@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2c980903-4d41-a85f-7caa-52bd90b11f76
 description: Indique les attributs de mise en forme de paragraphe du texte de la forme, tels que les retraits, l'interligne, les puces et l'alignement horizontal des paragraphes.
 ms.openlocfilehash: 8d4658305213380fd23dd5beece4fb72180ab562
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302974"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414311"
 ---
 # <a name="paragraph-section"></a>Paragraph, section
 

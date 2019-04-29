@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: eddca896-9497-4425-9904-87ef3cbae298
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 1f815a914deb5e21f3d913abe46a84cc7a32b4ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315035"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428514"
 ---
 # <a name="itnef--iunknown"></a>ITnef : IUnknown
 

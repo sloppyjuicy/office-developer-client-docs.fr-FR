@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: fbcf3a04-ee0f-40a6-8edd-583ae203e2e1
 description: Lorsque vous programmez un formulaire InfoPath, vous pouvez écrire du code pour accéder aux fenêtres d'un formulaire, puis personnaliser certains des éléments qu'elles contiennent. Le modèle objet compatible InfoPath 2003 prend en charge l'accès aux fenêtres d'un formulaire grâce à l'utilisation de l'interface WindowObject en association avec l'interface WindowsCollection .
 ms.openlocfilehash: f8939fc562cf16c1bce0f6f88bba659e895254f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299894"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427576"
 ---
 # <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Utilisation des fenêtres de formulaire à l'aide du modèle objet InfoPath 2003
 
@@ -34,7 +34,7 @@ L'interface **WindowsCollection** fournit les propriétés suivantes, que les d�
 |**Nom**|**Description**|
 |:-----|:-----|
 |Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Renvoie le nombre d'objets **Window** que contient la collection.  <br/> |
-|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Renvoie une référence à l'objet **Window** spécifié.  <br/> **Remarque**: Visual C# accède aux collections à l'aide d'un indexeur au lieu d'appeler la propriété **Item** . Par exemple,  `thisApplication.Windows[0].Caption`.           |
+|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Renvoie une référence à l'objet **Window** spécifié.  <br/> **Remarque**: Visual C# accède aux collections à l'aide d'un indexeur au lieu d'appeler la propriété **Item** . Par exemple : `thisApplication.Windows[0].Caption`.           |
    
 ## <a name="overview-of-the-window-object"></a>Vue d'ensemble de l'objet Window
 

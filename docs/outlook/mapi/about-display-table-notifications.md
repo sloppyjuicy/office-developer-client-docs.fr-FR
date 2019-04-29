@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 41e6a2c8b6856bf072972325e7e08aabe3e17446
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326410"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430013"
 ---
 # <a name="about-display-table-notifications"></a>Affichage des notifications de table
 
@@ -35,13 +35,13 @@ Un fournisseur de services peut émettre des notifications de table d'affichage 
     
 MAPI répond aux notifications de table d'affichage lorsque cela est nécessaire en rereadant la valeur d'un contrôle à partir de l'implémentation de l'interface de propriété. Le tableau suivant décrit les détails relatifs à la façon dont MAPI gère les notifications pour des types de contrôles spécifiques.
   
-|**Contrôle**|**Action MAPI**|
+|**Control**|**Action MAPI**|
 |:-----|:-----|
 |Bouton  <br/> |Appelle [IMAPIProp:: OpenProperty](imapiprop-openproperty.md)pour récupérer l'objet de contrôle par le biais de la propriété représentée par le membre **ulPRControl** de la structure [DTBLBUTTON](dtblbutton.md) si l'appel avait échoué précédemment. Appelle la [IMAPIControl:: GetState](imapicontrol-getstate.md) de l'objet de contrôle pour déterminer si le bouton doit être activé et active ou désactive le bouton en conséquence.  <br/> |
 |Case à cocher  <br/> |Relecture de la valeur pour le membre **ulPRPropertyName** .  <br/> |
 |Zone de liste modifiable  <br/> |Ouvre à nouveau la table associée au membre **ulPRTableName** de la structure [DTBLCOMBOBOX](dtblcombobox.md) . Relit toutes les lignes, y compris la valeur du membre **ulPRPropertyName**.  <br/> |
 |Zone de liste déRoulante  <br/> |Ouvre à nouveau la table associée au membre **ulPRTableName** de la structure [DTBLDDLBX](dtblddlbx.md) et relit toutes les lignes. Appelle [IMAPIProp:: GetProps](imapiprop-getprops.md) pour récupérer les valeurs des propriétés stockées dans les membres **ulPRDisplayProperty** et **ulPRSetProperty** .  <br/> |
-|Modifier  <br/> |Relit la propriété et affiche de nouveau les réaffichages.  <br/> |
+|Edit  <br/> |Relit la propriété et affiche de nouveau les réaffichages.  <br/> |
 |Zone de groupe  <br/> |Ignore la notification.  <br/> |
 |Étiquette  <br/> |Ignore la notification.  <br/> |
 |Zone de liste à sélection multiple  <br/> |Si l'une des colonnes est un identificateur d'entrée, actualise la zone de liste. L'objet correspondant n'est ni fermé ni rechargé.  <br/> |

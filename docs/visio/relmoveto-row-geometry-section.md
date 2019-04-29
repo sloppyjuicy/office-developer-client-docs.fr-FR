@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 04a0ba9f-48dd-488f-9c87-3890a12adf89
 description: Contient les coordonnées x et y du premier sommet d'une forme ou les coordonnées x et y du premier sommet après une cassure d'un chemin, par rapport à la hauteur et à la largeur de la forme.
 ms.openlocfilehash: 488945dbeeea177514770da57b5f26ac947053a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319921"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414199"
 ---
 # <a name="relmoveto-row-geometry-section"></a>RelMoveTo Row (Geometry Section)
 
@@ -23,7 +23,7 @@ Contient les coordonnées *x* et *y* du premier sommet d'une forme ou les coordo
   
 Une ligne **RelMoveTo** contient les cellules suivantes. 
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Si la ligne **RelMoveTo** est la première ligne de la section, la cellule X représente la coordonnée *x* du premier sommet d'une forme par rapport à la largeur de la forme. Si la ligne **RelMoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée *x* du premier sommet après la rupture du chemin.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Si la ligne **RelMoveTo** est la première ligne de la section, la cellule Y représente la coordonnée *y* du premier sommet d'une forme. Si la ligne **RelMoveTo** apparaît entre deux lignes, la cellule y représente la coordonnée *y* du premier sommet après la rupture du chemin.  <br/> |

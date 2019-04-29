@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f75f2a21-a17c-4d8b-9055-c51d4c1888d0
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 1d3eceae1e358f5716f46f33edcd0b2aae4e4a93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355096"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429522"
 ---
 # <a name="pidtagregisteredmailtype-canonical-property"></a>Propriété canonique PidTagRegisteredMailType
 
@@ -34,7 +34,7 @@ Cette propriété contient le type d'inscription utilisé pour la remise physiqu
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

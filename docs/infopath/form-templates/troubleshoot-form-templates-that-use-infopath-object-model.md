@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 5e31f5ef-6692-40ea-b737-bfd1c3775b02
 description: Cette section contient des conseils pour la résolution de problèmes courants, susceptibles d'apparaître lors de la création d'un modèle de formulaire avec code managé qui utilise le modèle objet compatible InfoPath 2003.
 ms.openlocfilehash: 52f7adbe9283ac299759c2837b487e57b9640834
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303478"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413660"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model"></a>Résoudre les problèmes liés aux modèles de formulaires qui utilisent le modèle objet InfoPath
 
 Cette section contient des conseils pour la résolution de problèmes courants, susceptibles d'apparaître lors de la création d'un modèle de formulaire avec code managé qui utilise le modèle objet compatible InfoPath 2003.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Dépannage des modèles de formulaires qui utilisent le modèle objet infopath 2003 lors de l'exécution](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md): décrit les problèmes susceptibles de survenir lors de la création et de l'aperçu des modèles de formulaire InfoPath avec code managé qui utilisent le modèle InfoPath compatible avec InfoPath modèle objet.
     

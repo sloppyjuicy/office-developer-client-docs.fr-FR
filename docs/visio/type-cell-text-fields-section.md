@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 69d64520-9a47-07ca-09c7-d1e5da620348
 description: Indique un type de données pour la valeur du champ de texte.
 ms.openlocfilehash: 91a2d60133d9a39e152656558f168742a5409883
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358925"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407983"
 ---
 # <a name="type-cell-text-fields-section"></a>Type, cellule (section Text Fields)
 
 Indique un type de données pour la valeur du champ de texte.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Chaîne.  <br/> |
 |n°2  <br/> |Nombre. Inclut les valeurs de date, d'heure, de durée ainsi que les valeurs monétaires, les échelles, les cotes et les angles. Entrez un modèle de format dans la cellule Format.  <br/> |

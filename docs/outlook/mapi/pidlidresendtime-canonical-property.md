@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac58c0b4-9497-40ec-918e-58bd81144fd6
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 34f0af06e9635a0160fc9df7c4ff5f6da5921035
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358827"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408662"
 ---
 # <a name="pidlidresendtime-canonical-property"></a>Propriété canonique PidLidResendTime
 
@@ -35,7 +35,7 @@ S'il est défini sur un rapport de non-remise, indique l'heure à laquelle le me
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

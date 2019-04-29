@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0022fe70-cf11-49a5-9c97-a6bc5b5b13aa
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: dc1d8a5e237b7b34f3a57e9789e03e2f16237764
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349615"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414213"
 ---
 # <a name="supporting-rtf-text-for-message-store-providers"></a>Prise en charge du texte RTF pour les fournisseurs de banque de messages
 

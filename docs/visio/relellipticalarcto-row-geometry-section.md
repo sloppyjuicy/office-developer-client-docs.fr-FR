@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9b7da082-5e55-411d-b109-7fb6fa8f6e8e
 description: Contient les coordonnées x et y d'un point de terminaison d'arc elliptique par rapport à la largeur et la hauteur de la forme, les coordonnées x et y des points de contrôle de l'arc par rapport à la largeur et la hauteur de la forme, l'angle entre l'axe x et l'axe principal de l'ellipse, et le rapport entre t axes principaux et secondaires de l'ellipse.
 ms.openlocfilehash: e38f5f2baf6bb9ade31c2778799a3ece968147f4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359961"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409096"
 ---
 # <a name="relellipticalarcto-row-geometry-section"></a>RelEllipticalArcTo Row (Geometry Section)
 
@@ -23,7 +23,7 @@ Contient les coordonnées *x* et *y* d'un point de terminaison d'un arc elliptiq
   
 Une ligne **RelEllipticalArcTo** contient les cellules suivantes. 
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Coordonnée *x* du sommet de fin sur un arc par rapport à la largeur de la forme.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y* du sommet de fin sur un arc par rapport à la hauteur de la forme.  <br/> |

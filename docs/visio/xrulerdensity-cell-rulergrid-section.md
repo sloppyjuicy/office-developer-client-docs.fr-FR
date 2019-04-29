@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c11717c5-eb0e-e4fa-5a91-c62ecc048635
 description: Définit les graduations horizontales de la règle pour la page.
 ms.openlocfilehash: f459e5d1d19580201f1404ac2d1ae53c824293f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331849"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411469"
 ---
 # <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Cellule XRulerDensity (section &amp; règle et grille)
 
 Définit les graduations horizontales de la règle pour la page.
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
 |8 (&amp;H8)  <br/> |Grossier  <br/> |**visRulerCoarse** <br/> |

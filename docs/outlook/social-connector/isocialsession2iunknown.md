@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f516e86e-0158-472b-9711-fe7491b24404
 description: Prend en charge l'ajout de amis, la synchronisation à la demande ou hybride des amis, la synchronisation à la demande des activités ou la connexion au réseau social à l'aide des informations d'identification mises en cache.
 ms.openlocfilehash: 6dc581bb812408d7e01f94c375671783445616a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345296"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408830"
 ---
 # <a name="isocialsession2--iunknown"></a>ISocialSession2 : IUnknown
 
@@ -23,7 +23,7 @@ Prend en charge l'ajout de amis, la synchronisation à la demande ou hybride des
 
 Le tableau suivant indique les membres qui sont disponibles sur l'interface **ISocialSession2** . 
   
-|**Name**|**Type de membre**|**Description**|
+|**Nom**|**Type de membre**|**Description**|
 |:-----|:-----|:-----|
 |[FollowPersonEx](isocialsession2-followpersonex.md) <br/> |Méthode  <br/> |Ajoute la personne identifiée par les paramètres _EmailAddresses_ et _DisplayName_ comme un ami pour l'utilisateur connecté sur le réseau social.  <br/> |
 |[GetActivitiesEx](isocialsession2-getactivitiesex.md) <br/> |Méthode  <br/> |Obtient une valeur de type String qui représente une collection d'activités des utilisateurs spécifiés par le paramètre _hashedAddresses_ .  <br/> |

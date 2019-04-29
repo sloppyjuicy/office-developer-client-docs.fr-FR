@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a3895f90-7561-4b41-92af-ecc8614e4211
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 99c94a5afbb6a5011f17443b3d6305be261c9b1d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316323"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429452"
 ---
 # <a name="pidtagfinderentryid-canonical-property"></a>Propriété canonique PidTagFinderEntryId
 
@@ -38,7 +38,7 @@ Contient l'identificateur d'entrée du dossier dans lequel les résultats de la 
 
 L'identificateur d'entrée contenu dans cette propriété a le même format que la structure [EntryID](entryid.md) . 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

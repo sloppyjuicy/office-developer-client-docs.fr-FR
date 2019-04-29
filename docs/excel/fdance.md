@@ -10,17 +10,17 @@ keywords:
 - fonction fdance [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a191c07d2a06a1cb6123c235e8fac69d90426758
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311038"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409047"
 ---
 # <a name="fdance"></a>fDance
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Exemple de commande définie par l'utilisateur qui modifie les cellules sélectionnées de la feuille de calcul active jusqu'à ce que l'utilisateur appuie sur **Échap**. Lorsque GENERIC. xll est chargé, il crée un menu défini par l'utilisateur, générique, par le biais duquel cette commande est accédée.
   

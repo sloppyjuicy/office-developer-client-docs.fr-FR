@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: f5db43e9-687b-d467-1be1-3737e3f91c27
 description: Représente l'ID d'entrée de la Banque de remise par défaut pour le compte.
 ms.openlocfilehash: d803c539ec99da4d7fb31063f48237788f3ac3d9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327670"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418896"
 ---
 # <a name="propacctdeliverystore"></a>PROP_ACCT_DELIVERY_STORE
 
@@ -27,7 +27,7 @@ Voir [IOlkAccount](iolkaccount.md).
 |Identificateur :  <br/> |0x0018  <br/> |
 |Type de propriété:  <br/> |PT_BINARY  <br/> |
 |Balise de propriété:  <br/> |0x00180102  <br/> |
-|Access  <br/> |En lecture-écriture.  <br/> |
+|Access  <br/> |Lecture/écriture  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

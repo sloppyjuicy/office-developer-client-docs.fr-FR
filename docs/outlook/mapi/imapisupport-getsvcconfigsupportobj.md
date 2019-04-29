@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c3bdae-a3a8-4334-b6d2-a89c6820d72e
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 6de0fed4df9d23e67c3520ffb019a961b890f988
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316556"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411308"
 ---
 # <a name="imapisupportgetsvcconfigsupportobj"></a>IMAPISupport::GetSvcConfigSupportObj
 

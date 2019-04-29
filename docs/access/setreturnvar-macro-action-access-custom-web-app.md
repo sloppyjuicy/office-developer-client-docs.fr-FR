@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 57965c84-7a52-4d7c-9c7f-be3d4570576d
 description: L'action SetReturnVar crée une variable de retour et lui affecte une valeur spécifique.
 ms.openlocfilehash: 29445f5021bed99fe45cee1d34457f1f91ca417d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310943"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409593"
 ---
 # <a name="setreturnvar-macro-action-access-custom-web-app"></a>SetReturnVar, action de macro (application Web personnalisée Access)
 
@@ -31,7 +31,7 @@ L'action **SetReturnVar** utilise les arguments suivants.
 |**Nom de l’argument**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
 | _Nom_ <br/> |Oui  <br/> |Chaîne qui spécifie le nom de la variable.  <br/> |
-| _Expression_ <br/> |Oui  <br/> |Expression qui sera utilisée pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression du signe égal (=). Vous pouvez cliquer sur le bouton **générer** pour utiliser le **Générateur d'expression** afin de définir cet argument.  <br/> |
+| _Expression_ <br/> |Oui  <br/> |Expression destiné à être utilisé pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression d’un signe égal (=). Vous pouvez cliquer sur le bouton **Générer** afin d’utiliser le **Générateur d’expressions** pour définir cet argument.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

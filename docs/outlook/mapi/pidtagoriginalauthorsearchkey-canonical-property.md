@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a10cf99-c5e6-4a24-b531-3aebb7800bfe
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 09331e1201b6f6e45bb9e26e618ee59e67efbf8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356258"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409579"
 ---
 # <a name="pidtagoriginalauthorsearchkey-canonical-property"></a>Propriété canonique PidTagOriginalAuthorSearchKey
 
@@ -40,7 +40,7 @@ Cette propriété est l'une des propriétés d'adresse de l'auteur d'un message.
   
 Les propriétés de l'auteur d'origine permettent la conservation des informations en dehors du domaine de messagerie local. Lorsqu'un message arrive à partir d'un autre domaine de messagerie, tel qu'Internet, ces propriétés permettent de s'assurer que les informations d'origine ne sont pas perdues.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

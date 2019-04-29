@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c603f9a5-f887-47ce-90bb-d41ec2d1a6a1
 description: Détermine la direction du dégradé de ligne. Un dégradé peut être linéaire, radial, rectangulaire ou suivre un tracé.
 ms.openlocfilehash: 05dcc6904a4e67d97c632dba44635936b1c14049
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350959"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417986"
 ---
 # <a name="linegradientdir-cell-gradient-properties-section"></a>LineGradientDir Cell (Gradient Properties Section)
 
@@ -21,12 +21,12 @@ Détermine la direction du dégradé de ligne. Un dégradé peut être linéaire
 > [!NOTE]
 > Un dégradé linéaire est le seul dégradé qui prend une valeur d'angle supplémentaire (tel que déterminé par la cellule **LineGradientDir** ). Toutes les autres directions de dégradé ont des énumérations prédéfinies. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Dégradé linéaire La cellule **LineGradientAngle** détermine la direction du dégradé.  <br/> |
 |1-7  <br/> |Dégradés radiaux Le dégradé s'étend vers l'extérieur d'un cercle à partir d'un point central.  <br/> |
 |8-12  <br/> |Dégradés rectangulaires. Le dégradé s'étend sous la forme d'un trait directionnel à partir d'une origine avec un fondu en forme rectangulaire.  <br/> |
-|kg  <br/> |Dégradé du tracé.  <br/> |
+|13   <br/> |Dégradé du tracé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

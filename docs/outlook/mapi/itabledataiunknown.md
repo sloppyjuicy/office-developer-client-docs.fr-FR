@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac7ae09f-ce19-45cf-8963-fad5bba75452
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3992bea899239ee5975505dec366490d6bbe1698
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348768"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430594"
 ---
 # <a name="itabledata--iunknown"></a>ITableData : IUnknown
 

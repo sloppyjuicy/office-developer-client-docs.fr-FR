@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f873ad5234460f9f1781c7427b60d285f7486196
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282697"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429347"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 

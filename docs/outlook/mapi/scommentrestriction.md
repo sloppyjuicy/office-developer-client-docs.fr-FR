@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3f66f513cc16bc479dd24c53804d751a396141f4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351414"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430608"
 ---
 # <a name="scommentrestriction"></a>SCommentRestriction
 

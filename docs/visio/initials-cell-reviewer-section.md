@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8f5d34f0-4c4b-5265-83c1-5b86b73d464f
 description: Contient les initiales du réviseur d’un document.
 ms.openlocfilehash: ddca3697dfcf1f422efacbe395c18f1a6b8ac48c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335293"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411504"
 ---
 # <a name="initials-cell-reviewer-section"></a>Initials, cellule (section Reviewer)
 

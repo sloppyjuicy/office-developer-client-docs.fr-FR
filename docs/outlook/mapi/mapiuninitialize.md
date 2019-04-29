@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f7339588bcc6815545e7341eafffe9cf001c1d76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270027"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408522"
 ---
 # <a name="mapiuninitialize"></a>MAPIUninitialize
 

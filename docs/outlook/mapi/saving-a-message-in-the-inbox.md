@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3df04d4e-7e80-4232-aadc-c05c99ab59cb
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 672a9df55ce711b88451a517a2813c9ad8c599ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357532"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407892"
 ---
 # <a name="saving-a-message-in-the-inbox"></a>Enregistrement d'un message dans la boîte de réception
 

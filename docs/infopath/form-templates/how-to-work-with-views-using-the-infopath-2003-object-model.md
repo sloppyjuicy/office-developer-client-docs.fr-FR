@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: feb1bfcb-1cb1-4d5c-bc84-df86a33a5934
 description: Lorsque vous utilisez un modèle de formulaire InfoPath, vous pouvez écrire du code pour accéder aux vues du formulaire, puis exécuter différentes actions sur les données qu'elles contiennent. Le modèle objet compatible InfoPath 2003 prend en charge l'accès aux vues d'une forme à travers l'utilisation des membres de l'interface ViewObject .
 ms.openlocfilehash: 6a2dd408ba51e5c8394120944e0c28897e768738
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299877"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411882"
 ---
 # <a name="work-with-views-using-the-infopath-2003-object-model"></a>Utilisation des vues à l'aide du modèle objet InfoPath 2003
 

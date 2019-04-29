@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 51647d61-95fd-4ded-b4c2-14aab50dd172
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: e71d64f0d871f8d00705e16876a07d70d52fda5c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316708"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416908"
 ---
 # <a name="developing-a-mapi-transport-provider"></a>Développement d'un fournisseur de transport MAPI
 

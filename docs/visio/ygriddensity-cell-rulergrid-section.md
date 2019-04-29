@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3ea2b3c7-0c69-a9f2-379f-8daa0c665810
 description: Indique le type de grille verticale à utiliser.
 ms.openlocfilehash: 793fa40316edd591c8b4873d8919507c2393b5d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307706"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429809"
 ---
 # <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Cellule YGridDensity (section &amp; règle et grille)
 
 Indique le type de grille verticale à utiliser.
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
 |n°2  <br/> |Grossier  <br/> |**visGridCoarse** <br/> |

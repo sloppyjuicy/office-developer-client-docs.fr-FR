@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 144dd06f-7225-57db-fd19-a58d6bccf0e1
 description: Zone de travail dans laquelle vous pouvez entrer et tester des formules auxquelles d'autres cellules sont susceptibles de faire référence.
 ms.openlocfilehash: a7d2c6762e96fc19986521c2ba164666b925c928
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344526"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411602"
 ---
 # <a name="scratch-section"></a>Scratch Section
 
@@ -32,7 +32,7 @@ L'autre différence entre ces cellules tient à la façon dont les valeurs des p
   
 Par exemple, Visio extrait la formule `PNT(3,4)` de trois façons. 
   
-|**Cell**|**Si vous entrez**|**Visio la traite en tant que**|**Résultat**|
+|**Cellule**|**Si vous entrez**|**Visio la traite en tant que**|**Résultat**|
 |:-----|:-----|:-----|:-----|
 | X  <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 76,2000 mm  <br/> |
 | v  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4,0000 po  <br/> |

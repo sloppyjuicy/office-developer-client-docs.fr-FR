@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: eca73b80-9835-9011-1dce-187ccee92e76
 description: Détermine le motif de remplissage de l'ombre d'une forme.
 ms.openlocfilehash: c2591fbc9f208b1bf9c7d0c85e6de765cd9825f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349041"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427611"
 ---
 # <a name="shdwpattern-cell-fill-format-section"></a>ShdwPattern, cellule (section Fill Format)
 
 Détermine le motif de remplissage de l'ombre d'une forme.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun (remplissage transparent).  <br/> |
 |0,1  <br/> |Couleur de premier plan unie  <br/> |

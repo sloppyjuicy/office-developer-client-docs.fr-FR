@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 0ab4044e-2d77-1fbe-ef20-5d029bc064ba
 description: Indique si un trait comporte une pointe de flèche ou un autre format d'extrémité de trait à son premier sommet. Entrez un nombre compris entre 0 et 45 ou la fonction UTILISATION avec le nom d'une extrémité de trait personnalisée ou utilisez la boîte de dialogue Trait.
 ms.openlocfilehash: cf5a512dabd0e6296b83fa7bfd2a2a6134143d50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346234"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410293"
 ---
 # <a name="beginarrow-cell-line-format-section"></a>BeginArrow, cellule (section Line Format)
 
 Indique si un trait comporte une pointe de flèche ou un autre format d'extrémité de trait à son premier sommet. Entrez un nombre compris entre 0 et 45 ou la fonction UTILISATION avec le nom d'une extrémité de trait personnalisée ou utilisez la boîte de dialogue **Trait**. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | 0  <br/> | Pas de pointe  <br/> |
 | 1 - 45  <br/> | Styles de pointes de flèches assortis correspondant aux entrées indexées de la boîte de dialogue **Trait**.  <br/> |

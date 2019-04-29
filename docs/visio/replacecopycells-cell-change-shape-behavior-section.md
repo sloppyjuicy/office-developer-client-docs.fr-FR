@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2f36aefd-da49-47ea-9b90-2fa1a2298849
 description: Indique la liste des cellules de la feuille ShapeSheet qui sont copiées d'une ancienne forme à la forme de remplacement pendant une opération de remplacement de forme.
 ms.openlocfilehash: f2a7908a623c861d0284821b2d8ae5fc71690685
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320173"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409341"
 ---
 # <a name="replacecopycells-cell-change-shape-behavior-section"></a>ReplaceCopyCells Cell (Change Shape Behavior Section)
 

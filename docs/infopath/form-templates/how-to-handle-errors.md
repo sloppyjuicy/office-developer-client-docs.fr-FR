@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 132cb698-d9a5-4767-b3d1-5dd1343a1ff4
 description: Lors de la création d'applications personnalisées, les développeurs doivent mettre en place une gestion des erreurs impliquant l'écriture du code de programmation qui leur permette de déceler les erreurs générées par l'application ou de créer et de générer des erreurs personnalisées. Le modèle objet InfoPath fourni par l'espace de noms Microsoft.Office.InfoPath prend en charge la gestion des erreurs par le biais de l'utilisation de la classe FormError en association avec la classe FormErrorCollection .
 ms.openlocfilehash: 30cf649188b7e4cbc35469d2a50540bb13ecb38d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303604"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410776"
 ---
 # <a name="handle-errors"></a>Gérer les erreurs
 

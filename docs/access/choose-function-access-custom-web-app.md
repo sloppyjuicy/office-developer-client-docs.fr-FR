@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 70c1ac24-a28f-4401-91d3-61129578bebd
 description: Renvoie l'élément situé à l'index spécifié à partir d'une liste de valeurs.
 ms.openlocfilehash: e44655b9c2f4055f1f3dc57befa8adc6884c43b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282284"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414115"
 ---
 # <a name="choose-function-access-custom-web-app"></a>Choose, fonction (application Web personnalisée Access)
 

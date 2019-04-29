@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 08165195-7e4e-f3ab-fa76-fbcacb0a9c9c
 description: Détermine si un point de fin d'une forme 1D se déplace vers un point de connexion horizontal ou vertical sur la forme à laquelle il est collé avec de la colle dynamique, lorsque la forme est déplacée dans une position ambiguë. Par défaut, les deux points de fin d'une forme 1D se déplacent vers les points de connexion horizontaux.
 ms.openlocfilehash: 05f7ded3f7336dc2f8598e8d1e9edc501b511546
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285271"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408606"
 ---
 # <a name="walkpreference-cell-glue-info-section"></a>WalkPreference, cellule (section Glue Info)
 
 Détermine si un point de fin d'une forme 1D se déplace vers un point de connexion horizontal ou vertical sur la forme à laquelle il est collé avec de la colle dynamique, lorsque la forme est déplacée dans une position ambiguë. Par défaut, les deux points de fin d'une forme 1D se déplacent vers les points de connexion horizontaux.
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0,1  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion vertical et le point de fin, vers un point de connexion horizontal (connexions haut / bas vers côté).  <br/> |**visWalkPrefBegNS** <br/> |
 | n°2  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion horizontal et le point de fin, vers un point de connexion vertical (connexions côté vers haut ou côté vers bas).  <br/> |**visWalkPrefEndNS** <br/> |

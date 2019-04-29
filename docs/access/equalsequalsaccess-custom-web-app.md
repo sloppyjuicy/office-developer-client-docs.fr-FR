@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 70bc707a-3a61-4d75-816d-0defd0806319
 description: Compare l'égalité de deux expressions.
 ms.openlocfilehash: 8c551e3dbc057433b49bc2558e08feba5ee3d04f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308224"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408928"
 ---
 # <a name="equals-access-custom-web-app"></a>Égal à (application Web personnalisée Access)
 
@@ -30,7 +30,7 @@ Compare l'égalité de deux expressions.
   
 ## <a name="return-type"></a>Type renvoyé
 
-**Booléen**
+**Boolean**
   
 ## <a name="remarks"></a>Remarques
 

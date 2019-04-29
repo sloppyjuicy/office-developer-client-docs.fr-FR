@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
 description: Enregistre les modifications apportées au compte spécifié.
 ms.openlocfilehash: dbb1dffa1725e96bd2ab635341718ce53738b864
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322021"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429606"
 ---
 # <a name="iolkaccountmanagersavechanges"></a>IOlkAccountManager::SaveChanges
 

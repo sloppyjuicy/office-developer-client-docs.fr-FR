@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 449a94d3-6610-4434-a705-4a739339053d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f0f820de17e6acc445489a3116164d2521564c12
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331613"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430503"
 ---
 # <a name="cbmapiforminfoarray"></a>CbMAPIFormInfoArray
 

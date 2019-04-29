@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1c9f4dd4-65f6-446f-8b86-a375ce402658
 description: Représente une instance d'un fournisseur Outlook Social Connector (OSC).
 ms.openlocfilehash: f28b8343d92b09455b6049f421b839efbda21c1a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285483"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409957"
 ---
 # <a name="isocialprovider--iunknown"></a>ISocialProvider : IUnknown
 
@@ -23,7 +23,7 @@ Représente une instance d'un fournisseur Outlook Social Connector (OSC).
 
 Le tableau suivant indique les membres qui sont disponibles sur l'interface **ISocialProvider** . 
   
-|**Name**|**Type de membre**|**Description**|
+|**Nom**|**Type de membre**|**Description**|
 |:-----|:-----|:-----|
 |[DefaultSiteUrls](isocialprovider-defaultsiteurls.md) <br/> |Propriété  <br/> |Renvoie un tableau de chaînes qui spécifient les URL de site pour le fournisseur OSC.  <br/> |
 |[GetAutoConfiguredSession](isocialprovider-getautoconfiguredsession.md) <br/> |Méthode  <br/> |Récupère une interface [ISocialSession](isocialsessioniunknown.md) configurée automatiquement.  <br/> |

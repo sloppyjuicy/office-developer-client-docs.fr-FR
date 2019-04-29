@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1d0954c5-b2cb-6c5d-62b3-a68011cf0c85
 description: Renvoie un nombre binaire de 16 bits dans lequel chaque bit prend la valeur 1 si le bit correspondant dans nombre binaire1 ou nombre binaire2 est 1. Le bit est défini sur 0 uniquement si le bit correspondant est 0 dans le type binaire1 et le chiffre binaire2.
 ms.openlocfilehash: 13bda2c6c65557b1f8372432cf919b2aaf2d75de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303373"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408081"
 ---
 # <a name="bitor-function"></a>Fonction BITOR
 

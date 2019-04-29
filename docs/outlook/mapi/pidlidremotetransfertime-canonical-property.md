@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f0bae4-0c05-421e-9890-7ac929fe1435
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 1866260a17958d85578fe9670f95ada815429394
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359940"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409796"
 ---
 # <a name="pidlidremotetransfertime-canonical-property"></a>Propriété canonique PidLidRemoteTransferTime
 
@@ -35,7 +35,7 @@ Indique le temps de transfert, en secondes, d'un élément à distance.
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Message distant  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

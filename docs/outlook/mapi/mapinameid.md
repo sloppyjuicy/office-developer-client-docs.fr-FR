@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a92e9cd-8282-4cf0-93af-4089b3763594
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: baec750a460b3ba9becd2e1dddf967705424ac4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357189"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411679"
 ---
 # <a name="mapinameid"></a>MAPINAMEID
 

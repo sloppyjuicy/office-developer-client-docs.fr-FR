@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 135c4a12-8ee0-4b70-bb58-572a064ecee4
 description: Affiche les valeurs d'index du thème actuellement appliqué au document, y compris les valeurs de couleur, de police, de connecteur et d'effets.
 ms.openlocfilehash: 4ee074e11cea0787ccbe616e97a279ee5e8e20dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360584"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413961"
 ---
 # <a name="theme-properties-section"></a>Theme Properties Section
 

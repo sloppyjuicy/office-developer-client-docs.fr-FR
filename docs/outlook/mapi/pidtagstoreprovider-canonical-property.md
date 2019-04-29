@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6f6cc66f-a08e-4f8e-b33a-d3674319248e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6266c9293f54ce764c5b5b0e41d43767490abcf7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278707"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412050"
 ---
 # <a name="pidtagstoreprovider-canonical-property"></a>Propriété canonique PidTagStoreProvider
 
@@ -40,7 +40,7 @@ La structure [MAPIUID](mapiuid.md) identifie le type de banque de messages. La v
   
 Cette propriété est analogue à la propriété **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) pour les carnets d'adresses. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

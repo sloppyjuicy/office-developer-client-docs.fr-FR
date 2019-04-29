@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29a7464a-b9d4-a8ea-161b-3044de32ed23
 description: Contient des cellules qui spécifient les actions associées à une commande personnalisée dans un menu contextuel ou de balise d'action. La section Actions contient une ligne Actions pour chaque action.
 ms.openlocfilehash: 37464e98b3e4f7d07b2ae4bd391b31ec009b6726
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283043"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408004"
 ---
 # <a name="actions-row-actions-section"></a>Actions, ligne (section Actions)
 
@@ -25,7 +25,7 @@ Contient des cellules qui spécifient les actions associées à une commande per
   
 Les lignes Actions sont nommées Actions. *nom* et contient les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules. 
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[Action](action-cell-actions-section.md) <br/> |Contient la formule à exécuter lorsqu’un utilisateur choisit une option dans un menu contextuel ou de balise d’action.  <br/> |
 |[Menu](menu-cell-actions-section.md) <br/> |Définit le nom de l'option de menu qui s'affiche dans un menu contextuel ou de balise d'action.  <br/> |

@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 755d096a-2a61-44d2-a765-5d464a857756
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: d8d591c02bb621c16a1d1b46272b19573ea79785
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346808"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428451"
 ---
 # <a name="mapi-idle-engine"></a>Moteur d'inActivité MAPI
 

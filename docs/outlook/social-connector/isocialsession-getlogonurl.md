@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d61bab07-acb3-433b-8783-c3fe110a5582
 description: Obtient une valeur de type String qui représente une URL utilisée pour présenter un formulaire basé sur un navigateur à l'utilisateur lors de l'authentification Web.
 ms.openlocfilehash: 83867282922ea136b9673609cc2ba2f1a206f6ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285377"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427912"
 ---
 # <a name="isocialsessiongetlogonurl"></a>ISocialSession::GetLogonUrl
 

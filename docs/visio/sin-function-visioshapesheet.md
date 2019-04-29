@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5a6ddb97-39b8-4e24-9b89-7a1e3bb261d5
 description: Renvoie le sinus d’un angle.
 ms.openlocfilehash: 00701656d400264c206f4a48ed88cf94f0902dc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328580"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429802"
 ---
 # <a name="sin-function-visioshapesheet"></a>SIN Function (VisioShapeSheet)
 

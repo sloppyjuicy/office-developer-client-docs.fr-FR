@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4372f1e1-f0a9-2f63-ff79-58f2afdceed5
 description: Présente la mise en forme de caractères appliquée à une plage de texte dans le bloc de texte de la forme.
 ms.openlocfilehash: 349bdc42485aa511011aeb85a43f1ab3e4ea853d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329810"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411427"
 ---
 # <a name="style-cell-character-section"></a>Style, cellule (section Character)
 

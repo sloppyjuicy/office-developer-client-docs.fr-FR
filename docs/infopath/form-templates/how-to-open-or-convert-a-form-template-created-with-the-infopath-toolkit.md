@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: af8eca2e-ba9a-4c37-94af-662815fff518
 description: Si vous avez créé un modèle de formulaire InfoPath 2003 avec code managé au moyen de l'un des kits de ressources InfoPath 2003 pour Visual Studio, pour assurer la compatibilité avec InfoPath 2003, vous pouvez continuer à travailler sur ce modèle de formulaire et poursuivre son développement en l'ouvrant dans Microsoft InfoPath ou Visual Studio 2012.
 ms.openlocfilehash: 0acbfab4a83a71d94a1c70a667a963056f5b9a38
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300111"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428584"
 ---
 # <a name="open-or-convert-a-form-template-created-with-the-infopath-toolkit"></a>Ouverture ou conversion d'un modèle de formulaire créé avec InfoPath Toolkit
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2eb427b99ecef9a6b78b5f7bd92bfbf6e214702f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358482"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414010"
 ---
 # <a name="pidtagcontactaddressbookstorename-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreName
 
@@ -38,7 +38,7 @@ Contient le nom d'affichage du magasin associé au fournisseur de carnet d'adres
 
 Ces propriétés sont sur un conteneur de carnet d'adresses de contacts et une colonne dans la table des conteneurs du carnet d'adresses des contacts.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

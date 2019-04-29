@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: fb84f71e-59c4-43d4-a28b-c3d6f267d2ae
 description: Détermine l'index du thème à partir duquel le jeu de couleurs de la forme est appliqué, sous la forme d'un entier.
 ms.openlocfilehash: d67363b48454a717914b8ff9e39952609d848118
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357098"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430762"
 ---
 # <a name="colorschemeindex-cell-theme-properties-section"></a>ColorSchemeIndex Cell (Theme Properties Section)
 

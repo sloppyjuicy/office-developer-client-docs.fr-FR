@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 159bc9bf-8dd5-4cd2-8384-474c74a3f112
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 32d5075af34cda9753c5d082bd4ab00afab1ecff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310247"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414108"
 ---
 # <a name="xlasyncreturn"></a>xlAsyncReturn
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Permet de renvoyer le résultat d'une fonction définie par l'utilisateur (UDF) asynchrone.
   

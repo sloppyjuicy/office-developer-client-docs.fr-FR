@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6ec65a5a-23ad-4e50-a27f-648902ebb5a0
 description: Cette section fournit du contenu de référence pour l'API de disponibilité, qui permet aux fournisseurs de messagerie de fournir des informations de disponibilité pour les comptes d'utilisateur spécifiés dans une plage de temps spécifiée.
 ms.openlocfilehash: e69d97fb86cffc1830ae46aa917f5a8e35cabafb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319599"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410734"
 ---
 # <a name="freebusy-api-reference"></a>Référence de l'API de disponibilité
 

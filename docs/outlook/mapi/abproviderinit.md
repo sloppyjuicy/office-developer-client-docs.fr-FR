@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: acec07df0b72685cf9ec6b21499c730b72f58c59
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328111"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428283"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ad9756c1-c1f9-4ab3-a58a-31e574dd9530
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: d6e189f78dec2fc92f1804be93e7885b61734b03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327950"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431420"
 ---
 # <a name="pidtagidentitydisplay-canonical-property"></a>Propriété canonique PidTagIdentityDisplay
 
@@ -40,7 +40,7 @@ Ces propriétés ne s'affichent pas sous forme de propriétés sur un objet, mai
   
 Un fournisseur de services qui fournit l'une des propriétés d'identité doit en fournir toutes les. Les fournisseurs qui appartiennent au même service de messagerie doivent exposer les mêmes valeurs pour les propriétés d'identité. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

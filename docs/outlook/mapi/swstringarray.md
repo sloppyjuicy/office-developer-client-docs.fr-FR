@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ff69981e83d42e439936a3e4be47eabfd811b310
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349552"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413604"
 ---
 # <a name="swstringarray"></a>SWStringArray
 

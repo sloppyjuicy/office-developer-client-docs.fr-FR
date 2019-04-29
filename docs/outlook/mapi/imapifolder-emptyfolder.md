@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4ca828c3e03cbff886230f2af63485f7b15e8b35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280105"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416782"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
@@ -87,7 +87,7 @@ N'appelez pas la méthode [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md) po
 
 Attendez-vous à ces valeurs de retour dans les conditions suivantes.
   
-|**Condition**|**Valeur renvoyée**|
+|**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
 |**EmptyFolder** a correctement vidé le dossier.  <br/> |S_OK  <br/> |
 |**EmptyFolder** n'a pas pu complètement vider le dossier.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |

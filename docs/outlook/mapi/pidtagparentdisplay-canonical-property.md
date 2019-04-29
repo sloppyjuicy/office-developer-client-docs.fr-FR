@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a36f4fb-17c0-4271-87d4-a92895f35f23
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7aef4c1d83672033662502ad0950b7bac9f58c52
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331513"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429501"
 ---
 # <a name="pidtagparentdisplay-canonical-property"></a>Propriété canonique PidTagParentDisplay
 
@@ -40,7 +40,7 @@ Ces propriétés ne se trouvent pas sur un objet. Elles ne peuvent apparaître q
   
 Ces propriétés et **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) ne sont pas liées les unes aux autres. Elles appartiennent à des contextes entièrement différents.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

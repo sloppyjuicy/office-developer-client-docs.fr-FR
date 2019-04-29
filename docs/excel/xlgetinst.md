@@ -10,17 +10,17 @@ keywords:
 - fonction xlGetInst [Excel 2007]
 localization_priority: Normal
 ms.assetid: 631a8f4e-ea7c-4743-9ee1-b2233fd7d98d
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e113ddbf55e2b4651d578549802c44e2c6413a18
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303849"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428129"
 ---
 # <a name="xlgetinst"></a>xlGetInst
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Renvoie le descripteur d'instance de l'instance de Microsoft Excel qui appelle actuellement une DLL.
   

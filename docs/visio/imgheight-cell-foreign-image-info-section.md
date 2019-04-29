@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: decb86a4-b711-35e1-b9dc-744a84ee177c
 description: "Détermine la hauteur de l'image de l'objet à l'intérieur de ses bordures. La formule par défaut est la suivante :"
 ms.openlocfilehash: 956bc478604fd19d8dfdbb7079e092e9e8a16e7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344932"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411196"
 ---
 # <a name="imgheight-cell-foreign-image-info-section"></a>ImgHeight, cellule (section Foreign Image Info)
 
