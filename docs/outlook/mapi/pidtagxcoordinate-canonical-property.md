@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 030d5c21-ab02-4047-bf2d-9a402a1e9102
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 87df676dccdb067302d62da2bd1fda6b634ed4f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350658"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436194"
 ---
 # <a name="pidtagxcoordinate-canonical-property"></a>Propriété canonique PidTagXCoordinate
 
@@ -38,7 +38,7 @@ Contient la coordonnée x de la position de départ (angle supérieur gauche) d'
 
 Les propriétés de cette propriété, de **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) et **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) déplacent et dimensionnent le contrôle de boîte de dialogue.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

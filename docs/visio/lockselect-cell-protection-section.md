@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c96b45a5-719e-8c4b-71b9-cb2224d83e21
 description: Empêche la sélection d'une forme.
 ms.openlocfilehash: c9f762f390dbea1e4ff2bd5bcf9566b8c67df11f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360668"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409754"
 ---
 # <a name="lockselect-cell-protection-section"></a>LockSelect, cellule (section Protection)
 
 Empêche la sélection d'une forme.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La forme ne peut pas être sélectionnée.  <br/> |
 | FALSE  <br/> | La forme peut être sélectionnée.  <br/> |

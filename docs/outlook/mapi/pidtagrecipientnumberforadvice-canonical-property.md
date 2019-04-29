@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 79ef85955f15e0ca829ac6f206dddc17031b0562
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356692"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420639"
 ---
 # <a name="pidtagrecipientnumberforadvice-canonical-property"></a>Propriété canonique PidTagRecipientNumberForAdvice
 
@@ -38,7 +38,7 @@ Cette propriété contient le numéro de téléphone du destinataire du message 
 
 Ces propriétés sont destinées à être utilisées conjointement avec la remise à une destination physique, plutôt qu'une boîte aux lettres électronique, lorsque le destinataire humain n'est pas censé être présent à la remise. Par exemple, le numéro de téléphone d'une page de garde de télécopie.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

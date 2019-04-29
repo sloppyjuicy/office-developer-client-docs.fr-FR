@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 62912d6e-c39e-4f8b-8cdb-ae9b6376cbc0
 description: Cette rubrique décrit les énumérations dans le modèle objet OneNote 2013.
 ms.openlocfilehash: 3338e444e5b0bfd0239e363c3161aeb1914b2d53
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299866"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410335"
 ---
 # <a name="enumerations-onenote-developer-reference"></a>Énumérations (référence du développeur OneNote)
 
@@ -23,7 +23,7 @@ Cette rubrique décrit les énumérations dans le modèle objet OneNote 2013.
 
 Lorsqu'elle est transmise à la méthode **OpenHierarchy** , spécifie le type d'objet à créer, le cas échéant, si le chemin d'accès passé à la méthode n'existe pas encore. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**cftNone** <br/> |0  <br/> |Ne crée pas d'objet.  <br/> |
 |**cftNotebook** <br/> |0,1  <br/> |Crée un bloc-notes en utilisant le nom et l'emplacement spécifiés.  <br/> |
@@ -35,7 +35,7 @@ Lorsqu'elle est transmise à la méthode **OpenHierarchy** , spécifie le type d
 
 Indique l'emplacement d'ancrage d'une fenêtre OneNote 2013 à l'aide de l'interface de la [fenêtre](window-interfaces-onenote.md) . Lorsqu'elle a la valeur de la propriété **DockedLocation** , spécifie l'emplacement auquel ancrer une fenêtre OneNote. Cette énumération est une nouveauté de OneNote 2013. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**dlDefault** <br/> |-1  <br/> |La fenêtre OneNote est ancrée à l'emplacement par défaut sur le bureau.  <br/> |
 |**dlLeft** <br/> |0,1  <br/> |La fenêtre OneNote est ancrée sur le côté gauche du bureau.  <br/> |
@@ -48,7 +48,7 @@ Indique l'emplacement d'ancrage d'une fenêtre OneNote 2013 à l'aide de l'inter
 
 Lorsqu'elle est transmise à la méthode **SetFilingLocation** , spécifie le type de contenu pour lequel l'emplacement de classement est défini lorsque le type de contenu est envoyé à OneNote. Cette énumération est une nouveauté de OneNote 2013. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**flEMail** <br/> |0  <br/> |Définit l'emplacement de dépôt des messages électroniques Outlook.  <br/> |
 |**flContacts** <br/> |0,1  <br/> |Définit l'emplacement où les contacts Outlook seront classés.  <br/> |
@@ -62,7 +62,7 @@ Lorsqu'elle est transmise à la méthode **SetFilingLocation** , spécifie le ty
 
 Lorsqu'elle est transmise à la méthode **SetFilingLocation** , indique où le contenu envoyé à OneNote est enregistré. Cette énumération est une nouveauté de OneNote 2013. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**fltNamedSectionNewPage** <br/> |0  <br/> |Définit le classement du contenu sur une nouvelle page dans une section spécifiée.  <br/> |
 |**fltCurrentSectionNewPage** <br/> |0,1  <br/> |Définit le classement du contenu sur une nouvelle page dans la section active.  <br/> |
@@ -74,7 +74,7 @@ Lorsqu'elle est transmise à la méthode **SetFilingLocation** , indique où le 
 
 Lorsqu'elle est assignée à la propriété **TreeDepth** de l'interface [IQuickFilingDialog](quick-filing-dialog-box-interfaces-onenote.md) , indique la profondeur de l'arborescence OneNote à afficher lorsque la boîte de dialogue de classement rapide est affichée. Lorsqu'elle est passée à la méthode **AddButton** de l'objet **IQuickFilingDialog** , fait référence à certains éléments de la hiérarchie OneNote. Cette énumération est une nouveauté de OneNote 2013. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**heNone** <br/> |0  <br/> |Fait référence à aucun élément.  <br/> |
 |**heNotebooks** <br/> |0,1  <br/> |Fait référence aux éléments de bloc-notes.  <br/> |
@@ -87,7 +87,7 @@ Lorsqu'elle est assignée à la propriété **TreeDepth** de l'interface [IQuick
 
 Lorsqu'elle est transmise à la méthode **GetHierarchy** , spécifie le niveau le plus bas à obtenir dans la hiérarchie des nœuds du bloc-notes. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**hsSelf** <br/> |0  <br/> |Obtient uniquement le nœud de début spécifié et aucun descendant.  <br/> |
 |**hsChildren** <br/> |0,1  <br/> |Obtient les nœuds enfants immédiats du nœud de début et aucun descendant dans les groupes de sous-section supérieur ou inférieur.  <br/> |
@@ -100,7 +100,7 @@ Lorsqu'elle est transmise à la méthode **GetHierarchy** , spécifie le niveau 
 
 Lorsqu'elle est passée à la méthode **CreateNewPage** , cette énumération spécifie le style de la nouvelle page. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**npsDefault** <br/> |0  <br/> |Crée une page avec le style de page par défaut.  <br/> |
 |**npsBlankPageWithTitle** <br/> |0,1  <br/> |Crée une page vierge avec un titre.  <br/> |
@@ -111,7 +111,7 @@ Lorsqu'elle est passée à la méthode **CreateNewPage** , cette énumération s
 
 Lorsqu'elle est transmise à la méthode **NotebookFilterOut** de l'objet **qfd** , spécifie les blocs-notes à afficher lors de l'affichage de la zone de qfd. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**nfoLocal** <br/> |0,1  <br/> |Autoriser uniquement les blocs-notes locaux.  <br/> |
 |**nfoNetwork** <br/> |n°2  <br/> |Autorise les blocs-notes UNC ou SharePoint.  <br/> |
@@ -123,7 +123,7 @@ Lorsqu'elle est transmise à la méthode **NotebookFilterOut** de l'objet **qfd*
 
 Lorsqu'elle est transmise à la méthode **GetPageContent** , spécifie le type d'informations à renvoyer avec le contenu de la page. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**piBasic** <br/> |0  <br/> |Renvoie uniquement le contenu de la page de base, sans balisage de sélection, les types de fichiers pour les objets de données binaires et les objets de données binaires. Il s'agit de la valeur standard à transmettre.  <br/> |
 |**piBinaryData** <br/> |0,1  <br/> |Renvoie le contenu de la page sans balisage de sélection, mais avec toutes les données binaires.  <br/> |
@@ -139,7 +139,7 @@ Lorsqu'elle est transmise à la méthode **GetPageContent** , spécifie le type 
 
 Lorsqu'elle est transmise à la méthode **Publish** , indique le format d'affichage de la page publiée. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**pfOneNote** <br/> |0  <br/> |La page publiée est au format. One.  <br/> |
 |**pfOneNotePackage** <br/> |0,1  <br/> |La page publiée est au format. onepkg.  <br/> |
@@ -156,7 +156,7 @@ Lorsqu'elle est transmise à la méthode **Publish** , indique le format d'affic
 
 Lorsqu'elle est passée à la méthode **SetRecentResults** de l'objet **IQuickFilingDialog** , cette énumération spécifie la liste de résultats récents à afficher lorsque la boîte de dialogue classement rapide est affichée. Les listes de résultats récentes sont utilisées pour suivre le jeu d'emplacements OneNote que l'utilisateur sélectionne dans la boîte de dialogue classement rapide. Il existe trois listes de résultats récents dans OneNote 2013 qui effectuent le suivi des opérations de classement, de recherche et de liaison des actions. Cette énumération est une nouveauté de OneNote 2013. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**rrtNone** <br/> |0  <br/> |Ne définit aucune liste de résultats récents à afficher.  <br/> |
 |**rrtFiling** <br/> |0,1  <br/> |Définit la liste de résultats récents «filing» à afficher.  <br/> |
@@ -168,7 +168,7 @@ Lorsqu'elle est passée à la méthode **SetRecentResults** de l'objet **IQuickF
 
 Lorsqu'elle est passée à la méthode **GetSpecialLocation** , spécifie le chemin d'accès spécial à obtenir. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**slBackupFolder** <br/> |0  <br/> |Obtient le chemin d'accès à l'emplacement du dossier de dossiers de sauvegarde.  <br/> |
 |**slUnfiledNotesSection** <br/> |0,1  <br/> |Obtient le chemin d'accès à l'emplacement du dossier Notes défichier.  <br/> |
@@ -179,7 +179,7 @@ Lorsqu'elle est passée à la méthode **GetSpecialLocation** , spécifie le che
 
 Lorsqu'elle est transmise à la méthode **TreeCollapsedState** de l'objet **qfd** , indique si l'arborescence hiérarchique doit être développée ou réduite. 
   
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**tcsExpanded** <br/> |0  <br/> |Définit l'arborescence de hiérarchie de sorte qu'elle soit développée.  <br/> |
 |**tcsCollapsed** <br/> |0,1  <br/> |Définit l'arborescence de hiérarchie de sorte qu'elle soit réduite.  <br/> |
@@ -203,7 +203,7 @@ Lorsqu'il est passé à l'une des méthodes suivantes, spécifie la version du s
     
 - **OneNote15. application. UpdatePageContent**
     
-|**Member**|**Value**|**Description**|
+|**Membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**xs2007** <br/> |0  <br/> |Référence le schéma OneNote 2007.  <br/> |
 |**xs2010** <br/> |0,1  <br/> |Référence le schéma OneNote 2010.  <br/> |

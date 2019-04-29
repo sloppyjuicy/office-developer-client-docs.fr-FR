@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: abdbd9030e0ea053d39b49ecc76a78821be9df82
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328706"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439680"
 ---
 # <a name="required-features-for-address-book-containers"></a>Fonctionnalités requises pour les conteneurs du carnet d'adresses
 

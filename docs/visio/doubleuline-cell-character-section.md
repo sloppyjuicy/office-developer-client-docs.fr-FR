@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: Détermine si la plage de texte est soulignée ou non d'une ligne double.
 ms.openlocfilehash: 2708e7f55e1fd04d5fb902b3d382035790cbbcc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357462"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438840"
 ---
 # <a name="doubleuline-cell-character-section"></a>DoubleULine, cellule (section Character)
 
 Détermine si la plage de texte est soulignée ou non d'une ligne double.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le texte est souligné en double.  <br/> |
 |FALSE  <br/> |Le texte n'est pas souligné en double.  <br/> |

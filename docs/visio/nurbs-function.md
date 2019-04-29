@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f34db20d-6501-2026-a5e8-29c4d4cb2405
 description: Renvoie une courbe B-spline rationnelle inuniforme (NURBS). Cette fonction est utilisée dans la cellule E des lignes de géométrie NURBSTo.
 ms.openlocfilehash: af92374a829c0df8e71ac81e630abc4fa64988dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340123"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438455"
 ---
 # <a name="nurbs-function"></a>Fonction NURBS
 

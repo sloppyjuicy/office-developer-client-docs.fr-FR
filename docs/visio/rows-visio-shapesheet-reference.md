@@ -7,15 +7,15 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7f2b4e04-2f25-44fd-8167-6fe97fa2b719
 ms.openlocfilehash: f69d1286cc8eb2f42dd742288b961803155664a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360535"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413016"
 ---
 # <a name="rows-visio-shapesheet-reference"></a>Lignes (référence Visio ShapeSheet)
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Actions, ligne (section Actions)](actions-row-actions-section.md)
     

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 21002267-1400-4398-b937-f5b289cf0ed2
 description: Stocke l'énumération du thème Microsoft Visio intégré appliqué au document, sous la forme d'un nombre entier. Lorsqu'un nouveau thème est choisi pour le document, la cellule ThemeIndex du document et toutes les pages et formes qu'il contient sont mises à jour avec l'index du thème intégré.
 ms.openlocfilehash: 6ddede864a54fbd7127552499d3ee1ae3d36efc1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360528"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411910"
 ---
 # <a name="themeindex-cell-theme-properties-section"></a>ThemeIndex Cell (Theme Properties Section)
 

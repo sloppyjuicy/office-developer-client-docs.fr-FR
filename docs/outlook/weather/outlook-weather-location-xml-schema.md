@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 8bb17e80-3be5-228e-ddb4-fcda03b60ba6
 description: Cette section contient la référence de schéma Outlook 2013 pour le schéma XML d'emplacement météorologique Outlook. Ce schéma permet aux fournisseurs de services météo de répondre à une demande de service Web Outlook pour un code d'emplacement. Le code d'emplacement doit correspondre à l'emplacement où un utilisateur demande des informations météorologiques dans la barre météorologique.
 ms.openlocfilehash: 153244bc1ddcf84299d1e72821a5ebe65ad4ca4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355124"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429228"
 ---
 # <a name="outlook-weather-location-xml-schema"></a>Schéma XML d'emplacement météorologique d'Outlook
 
 Cette section contient la référence de schéma Outlook 2013 pour le schéma XML d'emplacement météorologique Outlook. Ce schéma permet aux fournisseurs de services météo de répondre à une demande de service Web Outlook pour un code d'emplacement. Le code d'emplacement doit correspondre à l'emplacement où un utilisateur demande des informations météorologiques dans la barre météorologique.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Mappage de schéma (schéma d'emplacement météorologique Outlook)](schema-map-outlook-weather-location-schema.md)
     

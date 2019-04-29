@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3330ce33-fec5-472b-bb28-16b1410b0eab
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9aa39c8ee68de42f1722048cb871d07e9a8151a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335538"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435305"
 ---
 # <a name="pidlidremoteentryid-canonical-property"></a>Propriété canonique PidLidRemoteEntryId
 
@@ -35,7 +35,7 @@ Indique l'ID d'entrée d'un élément à distance.
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Message distant  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

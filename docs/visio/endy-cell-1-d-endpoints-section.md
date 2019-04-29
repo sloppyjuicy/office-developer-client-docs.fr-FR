@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3fbfa4bc-7792-b6d9-d549-4602d252c293
 description: Représente la coordonnée y du point de fin de la forme 1D, par rapport à l'origine de son parent.
 ms.openlocfilehash: e75355ad333b7f6398618c974f7c49e5c26c41d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328938"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414192"
 ---
 # <a name="endy-cell-1-d-endpoints-section"></a>EndY, cellule (section 1-D Endpoints)
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a1929ab8-4813-468b-9768-cdf7f848cfce
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e335caafd2a136724707d04b6679a2971697920f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336434"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411028"
 ---
 # <a name="pidtagsearch-canonical-property"></a>Propriété canonique PidTagSearch
 
@@ -38,7 +38,7 @@ Contient un objet Container qui est utilisé pour les recherches avancées.
 
 Un conteneur qui ne prend pas en charge les fonctionnalités de recherche avancées ne doit pas fournir la propriété.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

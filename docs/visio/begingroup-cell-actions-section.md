@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 1ae7f629-fb9f-1a11-1194-b381d6c9de5b
 description: Indique si un séparateur est inséré dans le menu au-dessus de cette action.
 ms.openlocfilehash: 115dbfe051201dc3ec2b127ff129b077e1067865
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361032"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407836"
 ---
 # <a name="begingroup-cell-actions-section"></a>BeginGroup, cellule (section Actions)
 
 Indique si un séparateur est inséré dans le menu au-dessus de cette action. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Un séparateur est inséré dans le menu au-dessus de cette action.  <br/> |
 |FALSE  <br/> |Aucun séparateur n'est inséré dans le menu au-dessus de cette action (la valeur par défaut).  <br/> |

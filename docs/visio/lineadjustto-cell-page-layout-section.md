@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 81cd9670-8a6f-824b-528c-e9b88c86f525
 description: Indique les connecteurs dynamiques qui se superposent.
 ms.openlocfilehash: e4fb32c0fcb488173324ea597edc2c9d13f6bfca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359310"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414024"
 ---
 # <a name="lineadjustto-cell-page-layout-section"></a>LineAdjustTo, cellule (section Page Layout)
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c103d48d-53ca-4b19-b16f-2862379587ef
 description: L'élément activityDetails stocke les données brutes pour un élément de flux d'activité unique. Chaque élément de flux d'activité doit disposer de son propre élément activityDetails. Les données de l'élément activityDetails sont référencées dans les modèles d'activité à l'aide d'éléments Name.
 ms.openlocfilehash: fd9c2136e8e2b687fa281ecda71039809848f63c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281348"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434871"
 ---
 # <a name="activitydetails-element"></a>Élément activityDetails
 

@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: ae7ddd55-7bcc-4bb6-bab7-97806122f166
 description: Empêche la cellule ConnectorsSchemeIndex de la ligne propriétés de thème d'être modifiée en appliquant un nouveau thème ou en sélectionnant un nouveau modèle de connecteur. N'empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet.
 ms.openlocfilehash: 8097e50646fd59f4ac0212cbe9ca2ecfaadab7a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348236"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438406"
 ---
 # <a name="lockthemeconnectors-cell-protection-section"></a>LockThemeConnectors Cell (Protection Section)
 
 Empêche la cellule **ConnectorsSchemeIndex** de la ligne **Propriétés de thème** d'être modifiée en appliquant un nouveau thème ou en sélectionnant un nouveau modèle de connecteur. N'empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |La cellule **ConnectorsSchemeIndex** ne peut pas être modifiée à partir de sa valeur actuelle sauf si elle a été modifiée directement dans la feuille ShapeSheet.  <br/> |
 |FALSE  <br/> |La cellule **ConnectorsSchemeIndex** peut être modifiée à partir de sa valeur actuelle via l'interface utilisateur.  <br/> |

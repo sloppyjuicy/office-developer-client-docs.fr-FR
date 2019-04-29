@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9bbe996b-1cfc-46d7-bb0a-291c760500ef
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: efaca709b666458b0cd2f2de2124fa900d2a75b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360871"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420520"
 ---
 # <a name="pidtagdeltax-canonical-property"></a>Propriété canonique PidTagDeltaX
 
@@ -38,7 +38,7 @@ Contient la largeur d'un contrôle de boîte de dialogue dans les unités de bo�
 
 Les propriétés **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)) **, PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) et cette propriété contrôle la position et la taille du contrôle de la boîte de dialogue. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

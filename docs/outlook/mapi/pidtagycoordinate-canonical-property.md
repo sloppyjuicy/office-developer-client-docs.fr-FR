@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ab90b05f8bd92f4cfd90f84078691a293ae159b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350665"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436852"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>Propriété canonique PidTagYCoordinate
 
@@ -38,7 +38,7 @@ Contient la coordonnée y de la position de départ (angle supérieur gauche) d'
 
 Les propriétés **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), this, Property, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) et **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) déplacent et dimensionnent le contrôle.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

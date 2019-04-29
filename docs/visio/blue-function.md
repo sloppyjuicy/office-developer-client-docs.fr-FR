@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
 description: Renvoie la composante bleu d'une couleur. La valeur renvoyée est un entier compris entre 0 et 255 (inclus). La fonction renvoie 0 si l’entrée n’est pas valide.
 ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297353"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439036"
 ---
 # <a name="blue-function"></a>Fonction BLUE
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
 description: Protège les expressions contre la suppression et les modifications par les actions effectuées dans la fenêtre de dessin, par exemple, le mouvement, le redimensionnement, le regroupement ou la dissociation des formes.
 ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360192"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408151"
 ---
 # <a name="guard-function"></a>Fonction GUARD
 

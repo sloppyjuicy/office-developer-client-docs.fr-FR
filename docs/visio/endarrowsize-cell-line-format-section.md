@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e2ecf7c0-a0e9-951f-676a-8e5857bb6544
 description: Détermine la taille de la pointe de flèche à la fin du trait.
 ms.openlocfilehash: 768a2b2adb05248049377eaee07194cdb89ed810
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328992"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438077"
 ---
 # <a name="endarrowsize-cell-line-format-section"></a>EndArrowSize, cellule (section Line Format)
 
@@ -23,9 +23,9 @@ Détermine la taille de la pointe de flèche à la fin du trait.
 |**Valeur**|**Size**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Très petite  <br/> |**visArrowSizeVerySmall** <br/> |
-|0,1  <br/> |Small  <br/> |**visArrowSizeSmall** <br/> |
-|n°2  <br/> |Moyenne  <br/> |**visArrowSizeMedium** <br/> |
-|3  <br/> |Large  <br/> |**visArrowSizeLarge** <br/> |
+|0,1  <br/> |Petite  <br/> |**visArrowSizeSmall** <br/> |
+|n°2  <br/> |Moyen  <br/> |**visArrowSizeMedium** <br/> |
+|3  <br/> |Grande  <br/> |**visArrowSizeLarge** <br/> |
 |4  <br/> |Très grande  <br/> |**visArrowSizeVeryLarge** <br/> |
 |disque  <br/> |Tram  <br/> |**visArrowSizeJumbo** <br/> |
 |6.x  <br/> |Colossal  <br/> |**visArrowSizeColossal** <br/> |

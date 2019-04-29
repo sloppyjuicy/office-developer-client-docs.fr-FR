@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4d752d3f-bf36-4711-b1d4-68cd575a062f
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a85d1ad0526c5bac91600df32ba941ddbf28a188
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286541"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434836"
 ---
 # <a name="pidtagproofofdeliveryrequested-canonical-property"></a>Propriété canonique PidTagProofOfDeliveryRequested
 
@@ -34,7 +34,7 @@ Cette propriété contient la valeur TRUE si un expéditeur de message demande l
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

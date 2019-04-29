@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 65594253-66cd-486a-aa5b-0bc719f761f0
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: ddbaa4aeacf17f2c266ccc0ff963d005f9e403ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339717"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410111"
 ---
 # <a name="sending-across-messaging-domains"></a>Envoi dans les domaines de messagerie
 

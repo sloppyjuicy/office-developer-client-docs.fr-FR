@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 3dd55d8ee3cb2751fb27184f0069ae831e2164ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319581"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435872"
 ---
 # <a name="mapi-sessions"></a>Sessions MAPI
 
@@ -46,5 +46,5 @@ For information about handling sessions from within a client application, see [G
 - [MAPILogonEx](mapilogonex.md)  
 - [IMAPISession : IUnknown](imapisessioniunknown.md)
 - [Gestion de Session MAPI](mapi-session-handling.md)  
-- [Vue d'ensemble de la programmation MAPI](mapi-programming-overview.md)
+- [Vue d’ensemble de la programmation MAPI](mapi-programming-overview.md)
 

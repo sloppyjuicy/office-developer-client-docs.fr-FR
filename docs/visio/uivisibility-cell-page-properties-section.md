@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: df7f79df-770a-4868-e7e2-05c3828e23eb
 description: Détermine si le nom de la page est exposé dans l'interface utilisateur (IU).
 ms.openlocfilehash: 51ccd34cb40c286fe6b61818aea5a6b9c0b6d1a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357217"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437328"
 ---
 # <a name="uivisibility-cell-page-properties-section"></a>UIVisibility, cellule (section Page Properties)
 
 Détermine si le nom de la page est exposé dans l'interface utilisateur (IU).
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Affiche le nom de la page dans l'IU (par défaut).  <br/> |**visUIVNormal** <br/> |
 |0,1  <br/> |N'affiche pas le nom de la page dans l'IU.  <br/> |**visUIVHidden** <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 96e0e3152a70eb2913c4559afd99e25adff48ca9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331975"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438525"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Propriété canonique PidTagContentCorrelator
 
@@ -38,7 +38,7 @@ Contient une valeur que l'expéditeur du message peut utiliser pour faire corres
 
 Le contenu de la chaîne binaire est défini par l'expéditeur du message. Si elle est définie sur un message sortant, cette propriété doit être copiée sur tous les rapports générés en réponse au message.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

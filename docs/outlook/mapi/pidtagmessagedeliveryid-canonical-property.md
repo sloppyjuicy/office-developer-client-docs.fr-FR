@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8c7481657496a0b7c9c3df4ccf37805f587eb82a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325815"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429221"
 ---
 # <a name="pidtagmessagedeliveryid-canonical-property"></a>Propriété canonique PidTagMessageDeliveryId
 
@@ -34,7 +34,7 @@ Contient un identificateur MTS (Message Transfer System) pour un message remis �
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Serveur  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

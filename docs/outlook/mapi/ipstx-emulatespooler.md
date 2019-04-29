@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 024583926b5d0be638b33b1b60c5d4c5dc74d05b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315091"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438952"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 

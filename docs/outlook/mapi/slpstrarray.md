@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f570d9b-eb3d-4fc7-bcbe-348a0b8fe9e9
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 987020bd6fd49fcba9453075cd502bd5cea4c3a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361151"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435907"
 ---
 # <a name="slpstrarray"></a>SLPSTRArray
 

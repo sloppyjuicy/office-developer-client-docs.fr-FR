@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 672eacaf-a374-c7e2-b39b-8d42d2371aee
 description: Renvoie un nombre binaire de 16 bits dans lequel chaque bit prend la valeur 1 si le bit correspondant dans l'un ou l'autre des nombres binaire1 et binaire2 est 1. Dans le cas contraire, le bit prend la valeur 0.
 ms.openlocfilehash: ab8ff46fe98512d963ef4ecd5c37127353827725
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302988"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439232"
 ---
 # <a name="bitxor-function"></a>Fonction BITXOR
 

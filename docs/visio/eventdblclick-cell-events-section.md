@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ca949013-f998-1bce-39e5-ac6f68ab2392
 description: Cellule Event qui est évaluée lors d'un double-clic sur une forme.
 ms.openlocfilehash: a50e88ecd8e432629e246f7038dfcc9626725cc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337169"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438217"
 ---
 # <a name="eventdblclick-cell-events-section"></a>EventDblClick, cellule (section Events)
 

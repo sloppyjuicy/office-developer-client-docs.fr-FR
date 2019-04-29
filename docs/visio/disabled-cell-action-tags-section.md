@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 description: Indique si la balise d’action s’affiche dans la fenêtre de dessin.
 ms.openlocfilehash: 867d36e27cb890509b0687500caf719362a711fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332563"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439666"
 ---
 # <a name="disabled-cell-action-tags-section"></a>Disabled, cellule (section Action Tags)
 
@@ -23,7 +23,7 @@ Indique si la balise d’action s’affiche dans la fenêtre de dessin.
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La balise d’action est désactivée.  <br/> |
 | FALSE  <br/> | La balise d’action est activée (valeur par défaut).  <br/> |

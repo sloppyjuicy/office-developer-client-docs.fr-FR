@@ -10,19 +10,19 @@ keywords:
 - fonction xlAutoFree [Excel 2007]
 localization_priority: Normal
 ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3dfba5ae98b0635c95308eac01bf2f10867678e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303968"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413289"
 ---
 # <a name="xlautofreexlautofree12"></a>xlAutoFree/xlAutoFree12
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Appelé par Microsoft Excel juste après qu'une fonction de feuille de calcul XLL renvoie un élément **XLOPER**/ **** , avec un indicateur qui indique qu'il existe une mémoire que la XLL doit encore libérer. Le XLL peut ainsi renvoyer des matrices, des chaînes et des références externes allouées dynamiquement vers la feuille de calcul sans pertes de mémoire. Pour plus d�informations, voir [Gestion de la m�moire dans Excel](memory-management-in-excel.md).
+Appelé par Microsoft Excel juste après qu'une fonction de feuille de calcul XLL renvoie un élément **XLOPER**/ **** , avec un indicateur qui indique qu'il existe une mémoire que la XLL doit encore libérer. Le XLL peut ainsi renvoyer des matrices, des chaînes et des références externes allouées dynamiquement vers la feuille de calcul sans pertes de mémoire. Pour plus d’informations, reportez-vous à la rubrique [Gestion de la mémoire dans Excel](memory-management-in-excel.md).
   
 À partir d'Excel 2007, la fonction **xlAutoFree12** et le type de données **XLOPER12** sont pris en charge. 
   

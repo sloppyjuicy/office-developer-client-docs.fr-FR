@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5d4f1cf8-bc1f-07b8-1da5-7253808e337e
 description: Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue Mise en page (cliquez sur la flèche Mise en page sous l’onglet Accueil).
 ms.openlocfilehash: d1c1c00ffe025c566646a1f8b9fe034732ad86a8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359688"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428738"
 ---
 # <a name="drawingscaletype-cell-page-properties-section"></a>DrawingScaleType, cellule (section Page Properties)
 
 Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue **Mise en page** (cliquez sur la flèche **Mise en page** sous l’onglet **Accueil**). 
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Pas d'échelle  <br/> |**visNoScale** <br/> |
 | 0,1  <br/> | Échelle architecturale  <br/> |**visArchitectural** <br/> |

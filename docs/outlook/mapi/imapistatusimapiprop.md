@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f90cf661c069ecd476bd02c5719147633a8392e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331527"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408298"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
@@ -46,10 +46,10 @@ Fournit des informations d'État sur le sous-système MAPI, le carnet d'adresses
 |[ChangePassword](imapistatus-changepassword.md) <br/> |Modifie le mot de passe d'un fournisseur de services sans afficher d'interface utilisateur.  <br/> |
 |[FlushQueues](imapistatus-flushqueues.md) <br/> |Force tous les messages en attente d'être envoyés ou reçus pour être immédiatement téléchargés ou téléchargés.  <br/> |
    
-|**Propriétés requises**|**Access**|
+|**Propriétés requises**|**Accès**|
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |
-|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
+|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
 |**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))  <br/> |Lecture seule  <br/> |

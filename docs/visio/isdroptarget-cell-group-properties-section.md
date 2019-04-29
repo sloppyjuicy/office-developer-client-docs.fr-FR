@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 8140fc7b-b99c-54bb-7af3-7de6fcdae7d3
 description: Détermine si le groupe accepte une forme qui y est déposée.
 ms.openlocfilehash: 50f545b3cbd4f7e1541a7f5e8ca32c34d0429c5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297227"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410790"
 ---
 # <a name="isdroptarget-cell-group-properties-section"></a>IsDropTarget, cellule (section Group Properties)
 
 Détermine si le groupe accepte une forme qui y est déposée.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Il est possible d'ajouter une forme au groupe en l'y déposant.  <br/> |
 |FALSE  <br/> |Il n'est pas possible d'ajouter une forme au groupe.  <br/> |

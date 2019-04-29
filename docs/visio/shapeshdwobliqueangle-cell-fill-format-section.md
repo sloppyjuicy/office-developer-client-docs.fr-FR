@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bad4c512-e91f-d459-d65c-a4ab725c3c14
 description: Indique l'angle de la direction oblique de l'ombre d'une forme.
 ms.openlocfilehash: 005415e497a4d985d3fb8ec70d62ba40d9e80c91
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349192"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414031"
 ---
 # <a name="shapeshdwobliqueangle-cell-fill-format-section"></a>ShapeShdwObliqueAngle, cellule (section Fill Format)
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f0d34dd6-7ddb-4843-b848-c89923ff80cc
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8078d31af497a437c983da7447a0aebbdfb643fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325675"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407927"
 ---
 # <a name="pidtagmessagedownloadtime-canonical-property"></a>Propriété canonique PidTagMessageDownloadTime
 
@@ -38,7 +38,7 @@ Contient la durée estimée de téléchargement d'un message à partir d'un serv
 
 Cette propriété est exprimée en secondes et représente la meilleure estimation du temps qu'un fournisseur de transport distant doit prendre pour télécharger un message donné à partir de son emplacement actuel vers un magasin de messages local sur le client en affichant le dossier d'en-tête. Le fournisseur de transport distant calcule généralement la valeur de cette propriété en divisant la valeur de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) par la vitesse du lien de communication en octets par seconde. Si le fournisseur ne peut pas calculer le temps de téléchargement, par exemple s'il ne connaît pas la vitesse de la liaison, il doit fournir une valeur **PT_ERROR** telle que **MAPI_E_NO_SUPPORT** pour cette colonne dans le tableau des matières du dossier d'en-tête. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

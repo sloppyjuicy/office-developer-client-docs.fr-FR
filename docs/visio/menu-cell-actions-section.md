@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29af746c-b081-24cf-a30d-a56353ee849e
 description: Définit le nom d’une option de menu qui s’affiche dans un menu contextuel ou de balise d’action pour une forme ou une page.
 ms.openlocfilehash: adb6915c34946472ada8c4ab4d02fa88bab6651a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360654"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436327"
 ---
 # <a name="menu-cell-actions-section"></a>Menu, cellule (section Actions)
 

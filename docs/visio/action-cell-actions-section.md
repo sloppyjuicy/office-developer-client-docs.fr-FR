@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 435e49ee-0b51-8ce3-0589-3f0717026f4a
 description: Contient la formule à exécuter lorsqu’un utilisateur choisit une commande de menu contextuel ou de balise d’action.
 ms.openlocfilehash: e6bc576982cad871804cbcbc5f3d9c6bceb558c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283064"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407612"
 ---
 # <a name="action-cell-actions-section"></a>Action, cellule (section Actions)
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c6a2206cf75308ad7fb955283f22eca3be9e0b3a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283169"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407766"
 ---
 # <a name="pidtagcontactversion-canonical-property"></a>Propriété canonique PidTagContactVersion
 
@@ -38,7 +38,7 @@ Contient la version des informations de contact d'un destinataire.
 
 Cette propriété est l'une des propriétés qui fournit des informations d'identification et d'accès à un destinataire. Ces propriétés sont définies par le destinataire et l'organisation du destinataire.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

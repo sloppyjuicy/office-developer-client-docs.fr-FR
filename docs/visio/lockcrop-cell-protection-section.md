@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: ae05de63-b527-66e6-2c79-056c9c92ec95
 description: Verrouille un objet d'un autre programme afin d'empêcher qu'il ne soit découpé avec l'outil Découpe.
 ms.openlocfilehash: bfb8bebd50908387fa3f94a8ca228935ef709133
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359625"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411854"
 ---
 # <a name="lockcrop-cell-protection-section"></a>LockCrop, cellule (section Protection)
 
 Verrouille un objet d'un autre programme afin d'empêcher qu'il ne soit découpé avec l'outil **Découpe**. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La forme ne peut pas être découpée.  <br/> |
 | FALSE  <br/> | La forme peut être découpée.  <br/> |
