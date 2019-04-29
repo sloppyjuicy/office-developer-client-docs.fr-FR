@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: aed9120ac264a6c47c9d02502093e56d3268d08a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279541"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435144"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 

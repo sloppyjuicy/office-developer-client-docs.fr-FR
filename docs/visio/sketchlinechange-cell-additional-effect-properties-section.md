@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 39192535-b55b-4c49-b63f-edb542c7a2e5
 description: Détermine le degré de randomisation de la ligne de la forme par rapport à la géométrie de la forme lors de l'utilisation d'un effet d'esquisse, sous la forme d'un pourcentage de la longueur d'une section. Si la valeur de la cellule SketchLineChange est définie sur 0%, la géométrie de la ligne de la forme correspond à la géométrie de la forme. Si la valeur est 100%, la géométrie de la ligne de la forme ne suit pas la géométrie de la forme.
 ms.openlocfilehash: ba57a4d2e43a91475f4c3ab4862f723eb2653a89
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315126"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419505"
 ---
 # <a name="sketchlinechange-cell-additional-effect-properties-section"></a>SketchLineChange Cell (Additional Effect Properties Section)
 

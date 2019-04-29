@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8673bb7d-d6dc-4087-95d6-9479b0a59fc4
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9ffd597ea8aa3104d54b57610aba3ac6bd044bf7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358610"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430083"
 ---
 # <a name="pidtaginternetnntppath-canonical-property"></a>Propriété canonique PidTagInternetNntpPath
 
@@ -34,7 +34,7 @@ Correspond à l'en-tête de chemin d'accès MIME.
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |MIME  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

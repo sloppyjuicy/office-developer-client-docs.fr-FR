@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 33bf8251-37d5-47d0-88d2-5088bfaa147a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 312253f0ea4b115018cbe71522782ea21579fa4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331898"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430867"
 ---
 # <a name="pidtagcontentidentifier-canonical-property"></a>Propriété canonique PidTagContentIdentifier
 
@@ -34,7 +34,7 @@ Contient une valeur de clé qui permet au destinataire du message d'identifier s
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Exchange  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

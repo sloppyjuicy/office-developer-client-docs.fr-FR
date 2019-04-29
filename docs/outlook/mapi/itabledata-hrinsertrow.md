@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 2709ac612fc9e2edaa57b280d52c0a5229ee9978
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278805"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435438"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 534e404f-54c6-4d2b-a8d0-d2ee990a972f
 description: Obtient une valeur de type String qui représente un identificateur unique de réseau social pour une connexion de réseau social donnée.
 ms.openlocfilehash: 3051abd6dcccec878e8c53332980731772d543eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285336"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433275"
 ---
 # <a name="isocialsessiongetnetworkidentifier"></a>ISocialSession::GetNetworkIdentifier
 

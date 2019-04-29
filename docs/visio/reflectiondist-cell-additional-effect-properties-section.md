@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 858a3191-420a-4065-9180-ebd8503d1eef
 description: Détermine la distance de décalage d'une réflexion par rapport à une forme, exprimée entre 0,0 et 100,0.
 ms.openlocfilehash: cc0aca484a77602b78523819cd4f01d78a9ff86f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348383"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433023"
 ---
 # <a name="reflectiondist-cell-additional-effect-properties-section"></a>ReflectionDist Cell (Additional Effect Properties Section)
 

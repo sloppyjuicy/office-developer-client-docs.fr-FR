@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
 description: Renvoie le cosinus d'un angle.
 ms.openlocfilehash: ee8e2f4a256617c37c4aac7876aa33ae04ab2f97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283007"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432736"
 ---
 # <a name="cos-function-visioshapesheet"></a>COS Function (VisioShapeSheet)
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fc97cef7-59c3-5be1-34fe-a40b4b33d1d6
 description: Renvoie la somme d'une liste de nombres.
 ms.openlocfilehash: 749bf1620a26c6f4cf793a2f9e596d5720175be0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332494"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436313"
 ---
 # <a name="sum-function"></a>Fonction SUM
 

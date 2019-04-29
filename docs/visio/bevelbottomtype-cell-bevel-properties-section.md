@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: ac7b39d4-3942-4b23-b188-2c3f69e54929
 description: Spécifie le type de biseau inférieur du biseau d'une forme.
 ms.openlocfilehash: 0cd360f633145c7dea95438ffe2bc746e519ce13
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330078"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431749"
 ---
 # <a name="bevelbottomtype-cell-bevel-properties-section"></a>BevelBottomType Cell (Bevel Properties Section)
 
 Spécifie le type de biseau inférieur du biseau d'une forme.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun biseau  <br/> |
 |0,1  <br/> |Biseau rond  <br/> |
@@ -30,9 +30,9 @@ Spécifie le type de biseau inférieur du biseau d'une forme.
 |7j/7  <br/> |Biseau convexe  <br/> |
 |8bits  <br/> |Biseau pente  <br/> |
 |4,9  <br/> |Biseau sillage  <br/> |
-|10  <br/> |Biseau Riblet  <br/> |
-|a4  <br/> |Biseau de côté dur  <br/> |
-|an  <br/> |Biseau déco  <br/> |
+|10   <br/> |Biseau Riblet  <br/> |
+|11   <br/> |Biseau de côté dur  <br/> |
+|12   <br/> |Biseau déco  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

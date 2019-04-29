@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7b6486bb-3618-3747-4b00-93bd55767c1c
 description: Renvoie un nombre binaire de 16 bits dans lequel chaque bit est défini sur 1 uniquement si le bit correspondant en nombre binaire est égal à 0. Dans le cas contraire, le bit prend la valeur 0.
 ms.openlocfilehash: 34ea6fd614feae8e3c8e97e34b7ff6c531f4c123
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330008"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438833"
 ---
 # <a name="bitnot-function"></a>Fonction BITNOT
 

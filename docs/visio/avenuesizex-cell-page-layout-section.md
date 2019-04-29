@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 86fe25ed-590d-b2f0-5dfe-9746a19c6b04
 description: Détermine la distance horizontale entre les formes sur la page de dessin lorsque vous les disposez à l'aide de la boîte de dialogue Configurer la disposition (sous l'onglet création, dans le groupe disposition, cliquez sur nouvelle disposition de page, puis cliquez sur autres options de disposition).
 ms.openlocfilehash: 28eea2589e34c7793e89e01495eb519b987553a9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338821"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411644"
 ---
 # <a name="avenuesizex-cell-page-layout-section"></a>AvenueSizeX, cellule (section Page Layout)
 

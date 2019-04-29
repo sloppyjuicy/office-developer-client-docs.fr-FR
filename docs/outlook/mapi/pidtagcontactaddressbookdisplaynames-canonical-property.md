@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cce99321-9b6a-4b1a-b19f-a82ca9ba6a30
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0eb92008e7eff00388e85c5badbdc97a4c6dda12
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331723"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429676"
 ---
 # <a name="pidtagcontactaddressbookdisplaynames-canonical-property"></a>Propriété canonique PidTagContactAddressBookDisplayNames
 
@@ -38,7 +38,7 @@ Contient une liste de noms complets pour les utilisateurs de messagerie dans le 
 
 Ces propriétés sont définies par l'utilisateur et l'organisation de l'utilisateur.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

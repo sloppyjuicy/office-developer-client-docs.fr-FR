@@ -5,13 +5,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: d24a6d93943883a5503b57ef223d9be777af13d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338814"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431301"
 ---
 # <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Surveillance des modifications de l'état de connexion à l'aide d'un complément d'État hors connexion
 

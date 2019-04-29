@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b2b5d6e6-201b-4ad7-8de2-e40f09165e62
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f4d2c8460e5baf484d30f4861e15a56fcd8d491b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287081"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436971"
 ---
 # <a name="entrylist"></a>ENTRYLIST
 
@@ -44,7 +44,7 @@ Voir la structure **SBinaryArry** pour les membres.
 
 
 
-[ENTRÉE](entryid.md)
+[ENTRYID](entryid.md)
   
 [SBinaryArray](sbinaryarray.md)
 

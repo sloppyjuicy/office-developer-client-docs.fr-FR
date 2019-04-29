@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 80db9c0c-13c6-47de-967f-ade6e5899f14
 description: Détermine si un dégradé de remplissage est activé pour cette forme.
 ms.openlocfilehash: 17f617c13b632318be22b86a3354a194f0f835f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322490"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431210"
 ---
 # <a name="fillgradientenabled-cell-gradient-properties-section"></a>FillGradientEnabled Cell (Gradient Properties Section)
 
 Détermine si un dégradé de remplissage est activé pour cette forme. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Un remplissage en dégradé est affiché sur la forme.  <br/> |
 |FALSE  <br/> |Les déGradés ne sont pas affichés sur la forme.  <br/> |

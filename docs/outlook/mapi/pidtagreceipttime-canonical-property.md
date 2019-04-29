@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: bd332943d8264ff909c1ec36f6b7c939d597acfd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359240"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432183"
 ---
 # <a name="pidtagreceipttime-canonical-property"></a>Propriété canonique PidTagReceiptTime
 
@@ -38,7 +38,7 @@ Contient la date et l'heure auxquelles un rapport de remise est généré.
 
 Cette propriété doit être définie par le fournisseur de banque de messages recevant le message d'origine et générant le rapport. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

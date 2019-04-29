@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c9314c39-1d2e-a18f-c01b-8817286099dc
 description: Renvoie une valeur représentant un index dans la palette de couleurs du document. Il spécifie une couleur par ses composants teinte, saturation et luminosité.
 ms.openlocfilehash: 55703239395c54beedf4b7383435253f9c37006f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329924"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420961"
 ---
 # <a name="hsl-function"></a>Fonction HSL
 
@@ -42,7 +42,7 @@ Si la couleur renvoyée par la fonction n’existe pas dans la palette de couleu
   
 Le tableau suivant répertorie les couleurs standard ainsi que la teinte, la saturation et la luminosité qui leur sont associées. 
   
-|**Color**|**Teinte**|**Saturation**|**Luminosité**|
+|**Couleur**|**Teinte**|**Saturation**|**Luminosité**|
 |:-----|:-----|:-----|:-----|
 |Noir  <br/> |0  <br/> |0  <br/> |heures/24  <br/> |
 |Bleu  <br/> |160  <br/> |240  <br/> |120  <br/> |

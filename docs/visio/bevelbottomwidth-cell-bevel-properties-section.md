@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: eb925eaa-04e1-4191-9b28-f37b229c8a3b
 description: Détermine la largeur du biseau inférieur en points.
 ms.openlocfilehash: c4fea7aa99c30558e47115ba0656306a93534236
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328141"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439673"
 ---
 # <a name="bevelbottomwidth-cell-bevel-properties-section"></a>BevelBottomWidth Cell (Bevel Properties Section)
 

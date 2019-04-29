@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 40008507-d9e4-9c0e-603f-d5e6da73a94b
 description: Détermine la façon dont une forme positionnable est retournée et/ou pivote sur la page lorsque vous disposez des formes à l’aide de la boîte de dialogue Configurer la disposition (dans le groupe Disposition de l’onglet Création, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition).
 ms.openlocfilehash: 72ef1b67dd87d842e6a4372d1eb08d614f0eb2d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332668"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429277"
 ---
 # <a name="shapeplaceflip-cell-shape-layout-section"></a>ShapePlaceFlip, cellule (section Shape Layout)
 
 Détermine la façon dont une forme positionnable est retournée et/ou pivote sur la page lorsque vous disposez des formes à l’aide de la boîte de dialogue **Configurer la disposition** (dans le groupe **Disposition** de l’onglet **Création**, cliquez sur **Nouvelle disposition de page**, puis cliquez sur **Autres options de disposition**).
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Utiliser la valeur page par défaut.  <br/> |**visLOFlipDefault** <br/> |
 |0,1  <br/> |Retournement horizontal.  <br/> |**visLOFlipX** <br/> |

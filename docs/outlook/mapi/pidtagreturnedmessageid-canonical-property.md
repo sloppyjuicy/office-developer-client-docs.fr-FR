@@ -9,13 +9,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e56d7851b1fe28ddea1703d9ec3ffb7737abeda6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345254"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435627"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>Propriété canonique PidTagReturnedMessageid
 
@@ -36,7 +36,7 @@ Contient la valeur TRUE si le message d'origine est renvoyé avec un rapport non
 
 Un fournisseur de transport X. 400 définit cette propriété dans le rapport non lu.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

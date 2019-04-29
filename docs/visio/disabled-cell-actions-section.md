@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ebf66729-d794-a398-268a-84d761bf06b6
 description: Indique si une option d’un menu contextuel ou de balise d’action est désactivée.
 ms.openlocfilehash: ddf55f40056d7df7a2403e500bb4bae335930433
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332577"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431350"
 ---
 # <a name="disabled-cell-actions-section"></a>Disabled, cellule (section Actions)
 
@@ -23,7 +23,7 @@ Indique si une option d’un menu contextuel ou de balise d’action est désact
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Désactive (fait apparaître en grisé) le nom de la commande.  <br/> |
 |FALSE  <br/> |Active le nom de la commande (valeur par défaut).  <br/> |

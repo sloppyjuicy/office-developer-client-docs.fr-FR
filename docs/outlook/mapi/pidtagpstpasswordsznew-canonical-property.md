@@ -9,13 +9,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e4c5ca77-328c-4f5a-bf94-b9e90e837557
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5014fb5cec04a2e4e9dcb5878098283fbb230bd3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350742"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430321"
 ---
 # <a name="pidtagpstpasswordsznew-canonical-property"></a>Propriété canonique PidTagPstPasswordSzNew
 
@@ -32,7 +32,7 @@ Contient le nouveau mot de passe à utiliser pour l'accès futur à la Banque de
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Table de stockage personnel (. pst) interne  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

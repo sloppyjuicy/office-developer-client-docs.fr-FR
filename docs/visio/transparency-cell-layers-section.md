@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 7382e2aa-5e18-19d2-88d8-c4a19a385106
 description: Définit le niveau de transparence de la couleur d'un calque.
 ms.openlocfilehash: fe0aacf167b2400ca10e22a70c9086429f6059f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280951"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436376"
 ---
 # <a name="transparency-cell-layers-section"></a>Transparency, cellule (section Layers)
 
 Définit le niveau de transparence de la couleur d'un calque.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).  <br/> |
    

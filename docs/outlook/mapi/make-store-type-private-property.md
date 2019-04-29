@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f489f55-46d4-8a88-6ebe-9db6446e69a5
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: da55afcabb1354959a71d6f10472c05540427b19
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298466"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428542"
 ---
 # <a name="make-store-type-private-property"></a>Définir le type de magasin propriété privée
 
@@ -35,7 +35,7 @@ Traite un magasin secondaire comme privé.
 |Créé par:  <br/> |Fournisseur de magasin  <br/> |
 |Accès par:  <br/> |Outlook et d'autres clients  <br/> |
 |Type de propriété:  <br/> |PT_BOOLEAN  <br/> |
-|Type d'accès:  <br/> |En lecture-écriture.  <br/> |
+|Type d'accès:  <br/> |Lecture/écriture  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

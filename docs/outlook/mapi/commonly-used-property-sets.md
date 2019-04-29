@@ -5,13 +5,13 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b68f8bff-1a20-4dfd-92fe-57869328879d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: dd638a6cd6e5d32e83db827f00dd20de4a5c8a3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335160"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439197"
 ---
 # <a name="commonly-used-property-sets"></a>Jeux de propriétés couramment utilisés
 

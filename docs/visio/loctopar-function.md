@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
 description: Renvoie un point transformé en coordonnées parent dans le système de coordonnées de destination.
 ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314846"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439981"
 ---
 # <a name="loctopar-function"></a>Fonction LOCTOPAR
 

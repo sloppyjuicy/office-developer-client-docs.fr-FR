@@ -5,13 +5,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 2879299d152d8fea7690162ae55a22f337f5fd59
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299068"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428164"
 ---
 # <a name="add-a-definition-for-a-new-user-defined-field"></a>Ajout de la définition d’un nouveau champ défini par l’utilisateur
  

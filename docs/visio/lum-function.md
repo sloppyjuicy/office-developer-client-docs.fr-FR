@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 38e6bba7-1bf2-3d31-0912-707002454f5d
 description: Renvoie la valeur du composant de luminosité d'une couleur.
 ms.openlocfilehash: 17fa43f8e2cd7422428f92724e351436233c2d62
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357980"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419337"
 ---
 # <a name="lum-function"></a>Fonction LUM
 

@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ac82f7e8-6453-4b4f-8223-3c23d09ca4c6
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 82be33090a63f24c430007d9759045c365961f5d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327796"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412512"
 ---
 # <a name="tips-for-better-table-performance"></a>Conseils pour améliorer les performances d’une table
   

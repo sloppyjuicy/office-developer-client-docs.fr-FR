@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 73a99e52-97fe-40f5-af90-52cfd858ab22
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: cdfb6898146583b7da9b043eadd3acc09edbf292
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328209"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410706"
 ---
 # <a name="mapi-progress-indicators"></a>Indicateurs de progression MAPI
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b6a5096f-ad27-48b3-b569-f33efc20fa72
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 279d6109e8c29de204c4fb58da51de84b4fbe183
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350875"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435333"
 ---
 # <a name="imapiclientshutdown--iunknown"></a>IMAPIClientShutdown : IUnknown
 

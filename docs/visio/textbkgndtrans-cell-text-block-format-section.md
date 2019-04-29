@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: Détermine le niveau de transparence de la couleur d'arrière-plan du bloc de texte de la forme.
 ms.openlocfilehash: f4c4dc7700c553bd4c9bee337220e357c4c5538a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332321"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408690"
 ---
 # <a name="textbkgndtrans-cell-text-block-format-section"></a>TextBkgndTrans, cellule (section Text Block Format)
 
 Détermine le niveau de transparence de la couleur d'arrière-plan du bloc de texte de la forme.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).  <br/> |
    

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6a005acc-55c3-ac04-d32c-370bb2797b08
 description: "Renvoie le logarithme en base 10 d'un nombre. Le nombre doit être positif ou LOG10 renvoie la valeur d'erreur #NUM."
 ms.openlocfilehash: e64f1eaf0065c893a1ab62a1824587c1d255c6a8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358008"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434122"
 ---
 # <a name="log10-function"></a>Fonction LOG10
 

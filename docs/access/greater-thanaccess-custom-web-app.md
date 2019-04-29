@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5a250d68-7583-406e-84e3-0b03bba97234
 description: Compare deux expressions. Lorsque vous comparez des expressions non nulles, le résultat est TRUE si l'opérande gauche a une valeur supérieure à celle de l'opérande droit; dans le cas contraire, le résultat est FALSe.
 ms.openlocfilehash: aac3ee7ef575e5a982d55d2003c77cb667cc903d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302435"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407738"
 ---
 # <a name="greater-than-access-custom-web-app"></a>Supérieur à (application Web personnalisée Access)
 

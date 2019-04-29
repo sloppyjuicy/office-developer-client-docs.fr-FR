@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4b533ea0-5d2e-44fc-a691-8fa2f310ff9f
 description: Détermine l'angle du dégradé de ligne pour un dégradé linéaire, entre 0 et 359,9 degrés.
 ms.openlocfilehash: fd806bc7c953dbd86abd95c8e6103ab9e6ee1a10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359267"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437132"
 ---
 # <a name="linegradientangle-cell-gradient-properties-section"></a>LineGradientAngle Cell (Gradient Properties Section)
 

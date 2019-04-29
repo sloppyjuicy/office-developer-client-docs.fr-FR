@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: e0513178-ddcb-4086-ab19-1bc80cf114cc
 description: Cette section présente le code d'initialisation et de nettoyage, explique comment ajouter des gestionnaires d'événements, comment déboguer et déployer des modèles de formulaires InfoPath utilisant le modèle objet compatible avec InfoPath 2003 ; elle présente également la gestion des threads et l'utilisation de MSXML (Microsoft XML Core Services) à partir de solutions InfoPath avec code managé.
 ms.openlocfilehash: 5069636dde87eb473a2b8bef4b58a6006d557085
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303744"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410531"
 ---
 # <a name="creating-form-templates-using-the-infopath-2003-object-model"></a>Création de modèles de formulaire à l'aide du modèle objet InfoPath 2003
 
 Cette section présente le code d'initialisation et de nettoyage, explique comment ajouter des gestionnaires d'événements, comment déboguer et déployer des modèles de formulaires InfoPath utilisant le modèle objet compatible avec InfoPath 2003 ; elle présente également la gestion des threads et l'utilisation de MSXML (Microsoft XML Core Services) à partir de solutions InfoPath avec code managé.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Code d'initialisation et de nettoyage à l'aide du modèle objet InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
   

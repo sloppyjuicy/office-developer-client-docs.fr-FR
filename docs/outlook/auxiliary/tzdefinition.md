@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0ae21571-2299-6407-807c-428668bb6798
 description: Représente un fuseau horaire entier, y compris toutes les règles d'évolution des fuseaux horaires, actuelles et futures, pour l'heure d'été.
 ms.openlocfilehash: 5f7000ecc1fa602b330670c2ee1c39f673a11a65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328293"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429340"
 ---
 # <a name="tzdefinition"></a>TZDEFINITION
 

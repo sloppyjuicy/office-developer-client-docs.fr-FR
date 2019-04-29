@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02e18d97-25d2-49a3-a63d-26a70895e21c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 04d97dfeeef28aac1d0bbf963074b4262d4fed3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346304"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436586"
 ---
 # <a name="pidtagreportingmessagetransferagentcertificate-canonical-property"></a>Propriété canonique PidTagReportingMessageTransferAgentCertificate
 
@@ -38,7 +38,7 @@ Contient un identificateur pour l'agent de transfert des messages qui a génér�
 
 Cette propriété correspond à l'attribut par message de l'État X. 400.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

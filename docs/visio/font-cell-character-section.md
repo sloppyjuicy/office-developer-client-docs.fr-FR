@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 935760a9-307e-90bc-c301-d04283d97427
 description: Représente le numéro de la police utilisée pour mettre le texte en forme. Ce numéro dépend des polices installées sur votre système. 0 représente la police par défaut, généralement Arial.
 ms.openlocfilehash: d9182932b8fa63c30473b93e420aa9efe30bf5eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346157"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438665"
 ---
 # <a name="font-cell-character-section"></a>Font, cellule (section Character)
 
