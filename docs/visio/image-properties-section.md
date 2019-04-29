@@ -10,14 +10,14 @@ localization_priority: Normal
 ms.assetid: 2a032f5f-1094-f536-cbd8-7e791b7fa55d
 description: Contient les valeurs Gamma, Brightness, Contraste Blur, Sharpen et Denoise des bitmaps (images en mode point) et apparaît dans la fenêtre Feuille ShapeSheet pour ce type d'objet uniquement.
 ms.openlocfilehash: 32d16e7d7fb308c211c9493720d8a972202d1a71
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344743"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417321"
 ---
-# <a name="image-properties-section"></a><span data-ttu-id="57ddd-103">Image Properties, section</span><span class="sxs-lookup"><span data-stu-id="57ddd-103">Image Properties Section</span></span>
+# <a name="image-properties-section"></a><span data-ttu-id="26ee2-103">Image Properties, section</span><span class="sxs-lookup"><span data-stu-id="26ee2-103">Image Properties Section</span></span>
 
-<span data-ttu-id="57ddd-104">Contient les valeurs Gamma, Brightness, Contraste Blur, Sharpen et Denoise des bitmaps (images en mode point) et apparaît dans la fenêtre Feuille ShapeSheet pour ce type d'objet uniquement.</span><span class="sxs-lookup"><span data-stu-id="57ddd-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
+<span data-ttu-id="26ee2-104">Contient les valeurs Gamma, Brightness, Contraste Blur, Sharpen et Denoise des bitmaps (images en mode point) et apparaît dans la fenêtre Feuille ShapeSheet pour ce type d'objet uniquement.</span><span class="sxs-lookup"><span data-stu-id="26ee2-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
   
 
