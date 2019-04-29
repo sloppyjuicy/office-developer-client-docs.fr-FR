@@ -7,34 +7,34 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3df04d4e-7e80-4232-aadc-c05c99ab59cb
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 672a9df55ce711b88451a517a2813c9ad8c599ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357532"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407892"
 ---
-# <a name="saving-a-message-in-the-inbox"></a><span data-ttu-id="1a2f0-103">Enregistrement d'un message dans la boîte de réception</span><span class="sxs-lookup"><span data-stu-id="1a2f0-103">Saving a Message in the Inbox</span></span>
+# <a name="saving-a-message-in-the-inbox"></a><span data-ttu-id="7da9d-103">Enregistrement d'un message dans la boîte de réception</span><span class="sxs-lookup"><span data-stu-id="7da9d-103">Saving a Message in the Inbox</span></span>
 
   
   
-<span data-ttu-id="1a2f0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a2f0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7da9d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7da9d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="1a2f0-105">**Pour stocker un message dans la boîte de réception sans destinataire**</span><span class="sxs-lookup"><span data-stu-id="1a2f0-105">**To store a message in the Inbox without any recipients**</span></span>
+ <span data-ttu-id="7da9d-105">**Pour stocker un message dans la boîte de réception sans destinataire**</span><span class="sxs-lookup"><span data-stu-id="7da9d-105">**To store a message in the Inbox without any recipients**</span></span>
   
-1. <span data-ttu-id="1a2f0-106">Appelez [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md) pour récupérer l'identificateur d'entrée de la boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="1a2f0-106">Call [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) to retrieve the entry identifier of the Inbox.</span></span> 
+1. <span data-ttu-id="7da9d-106">Appelez [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md) pour récupérer l'identificateur d'entrée de la boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="7da9d-106">Call [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) to retrieve the entry identifier of the Inbox.</span></span> 
     
-2. <span data-ttu-id="1a2f0-107">Appelez [IMsgStore:: OpenEntry](imsgstore-openentry.md) pour ouvrir la boîte de réception et y récupérer un pointeur.</span><span class="sxs-lookup"><span data-stu-id="1a2f0-107">Call [IMsgStore::OpenEntry](imsgstore-openentry.md) to open the Inbox and retrieve a pointer to it.</span></span> 
+2. <span data-ttu-id="7da9d-107">Appelez [IMsgStore:: OpenEntry](imsgstore-openentry.md) pour ouvrir la boîte de réception et y récupérer un pointeur.</span><span class="sxs-lookup"><span data-stu-id="7da9d-107">Call [IMsgStore::OpenEntry](imsgstore-openentry.md) to open the Inbox and retrieve a pointer to it.</span></span> 
     
-3. <span data-ttu-id="1a2f0-108">Appelez la méthode [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) pour créer le message.</span><span class="sxs-lookup"><span data-stu-id="1a2f0-108">Call the Inbox's [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method to create the message.</span></span> 
+3. <span data-ttu-id="7da9d-108">Appelez la méthode [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) pour créer le message.</span><span class="sxs-lookup"><span data-stu-id="7da9d-108">Call the Inbox's [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method to create the message.</span></span> 
     
-4. <span data-ttu-id="1a2f0-109">Appelez la méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) du message pour ajouter les **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) ou **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) et **PR_SUBJECT** ([ PidTagSubject](pidtagsubject-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="1a2f0-109">Call the message's [IMAPIProp::SetProps](imapiprop-setprops.md) method to add the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), or **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) and **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) properties.</span></span> 
+4. <span data-ttu-id="7da9d-109">Appelez la méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) du message pour ajouter les **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) ou **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) et **PR_SUBJECT** ([ PidTagSubject](pidtagsubject-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="7da9d-109">Call the message's [IMAPIProp::SetProps](imapiprop-setprops.md) method to add the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), or **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) and **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) properties.</span></span> 
     
-5. <span data-ttu-id="1a2f0-110">Créez chaque pièce jointe, définissez ses propriétés et enregistrez-la.</span><span class="sxs-lookup"><span data-stu-id="1a2f0-110">Create each attachment, set its properties, and save it.</span></span> <span data-ttu-id="1a2f0-111">Pour plus d'informations sur l'ajout de pièces jointes aux messages, consultez [la rubrique Création d'une pièce jointe](creating-a-message-attachment.md).</span><span class="sxs-lookup"><span data-stu-id="1a2f0-111">For detailed information about adding attachments to messages, see [Creating a Message Attachment](creating-a-message-attachment.md).</span></span>
+5. <span data-ttu-id="7da9d-110">Créez chaque pièce jointe, définissez ses propriétés et enregistrez-la.</span><span class="sxs-lookup"><span data-stu-id="7da9d-110">Create each attachment, set its properties, and save it.</span></span> <span data-ttu-id="7da9d-111">Pour plus d'informations sur l'ajout de pièces jointes aux messages, consultez [la rubrique Création d'une pièce jointe](creating-a-message-attachment.md).</span><span class="sxs-lookup"><span data-stu-id="7da9d-111">For detailed information about adding attachments to messages, see [Creating a Message Attachment](creating-a-message-attachment.md).</span></span>
     
-6. <span data-ttu-id="1a2f0-112">Appelez **IMessage:: SaveChanges** pour enregistrer le message.</span><span class="sxs-lookup"><span data-stu-id="1a2f0-112">Call **IMessage::SaveChanges** to save the message.</span></span> <span data-ttu-id="1a2f0-113">À ce stade, il apparaîtra dans le tableau des matières de la boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="1a2f0-113">At this point it will appear in the contents table of the Inbox.</span></span> 
+6. <span data-ttu-id="7da9d-112">Appelez **IMessage:: SaveChanges** pour enregistrer le message.</span><span class="sxs-lookup"><span data-stu-id="7da9d-112">Call **IMessage::SaveChanges** to save the message.</span></span> <span data-ttu-id="7da9d-113">À ce stade, il apparaîtra dans le tableau des matières de la boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="7da9d-113">At this point it will appear in the contents table of the Inbox.</span></span> 
     
-<span data-ttu-id="1a2f0-114">Si vous souhaitez enregistrer un message intermittantly avant de l'afficher dans le tableau des matières de la boîte de réception, créez-le à la place dans un dossier masqué, tel que le dossier racine de la sous-arborescence IPM, puis déplacez-le vers la boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="1a2f0-114">If you want to save a message intermittantly before having it appear in the contents table of the Inbox, create it instead in a hidden folder such as the root folder of the IPM subtree and then move it to the Inbox.</span></span> 
+<span data-ttu-id="7da9d-114">Si vous souhaitez enregistrer un message intermittantly avant de l'afficher dans le tableau des matières de la boîte de réception, créez-le à la place dans un dossier masqué, tel que le dossier racine de la sous-arborescence IPM, puis déplacez-le vers la boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="7da9d-114">If you want to save a message intermittantly before having it appear in the contents table of the Inbox, create it instead in a hidden folder such as the root folder of the IPM subtree and then move it to the Inbox.</span></span> 
   
 

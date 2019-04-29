@@ -8,19 +8,19 @@ localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
 description: Crée une copie de l'énumérateur à l'aide de la même restriction temporelle, mais en définissant le curseur au début de l'énumérateur.
 ms.openlocfilehash: 1a279430bf6a29611fa223bebbf8023c34967139
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317597"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413401"
 ---
-# <a name="ienumfbblockclone"></a><span data-ttu-id="03f13-103">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="03f13-103">IEnumFBBlock::Clone</span></span>
+# <a name="ienumfbblockclone"></a><span data-ttu-id="d5288-103">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="d5288-103">IEnumFBBlock::Clone</span></span>
 
-<span data-ttu-id="03f13-104">Crée une copie de l'énumérateur à l'aide de la même restriction temporelle, mais en définissant le curseur au début de l'énumérateur.</span><span class="sxs-lookup"><span data-stu-id="03f13-104">Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator.</span></span>
+<span data-ttu-id="d5288-104">Crée une copie de l'énumérateur à l'aide de la même restriction temporelle, mais en définissant le curseur au début de l'énumérateur.</span><span class="sxs-lookup"><span data-stu-id="d5288-104">Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="03f13-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="03f13-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="d5288-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="d5288-105">Quick info</span></span>
 
-<span data-ttu-id="03f13-106">Voir [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="03f13-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
+<span data-ttu-id="d5288-106">Voir [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="d5288-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
   
 ```cpp
 HRESULT Clone(  
@@ -28,24 +28,24 @@ HRESULT Clone(
 ); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="03f13-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="03f13-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d5288-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="d5288-107">Parameters</span></span>
 
-<span data-ttu-id="03f13-108">_ppClone_</span><span class="sxs-lookup"><span data-stu-id="03f13-108">_ppclone_</span></span>
+<span data-ttu-id="d5288-108">_ppClone_</span><span class="sxs-lookup"><span data-stu-id="d5288-108">_ppclone_</span></span>
   
-> <span data-ttu-id="03f13-109">remarquer Pointeur vers un pointeur vers la copie de l'interface [IEnumFBBlock](ienumfbblock.md) .</span><span class="sxs-lookup"><span data-stu-id="03f13-109">[out] A pointer to pointer to the copy of [IEnumFBBlock](ienumfbblock.md) interface.</span></span> 
+> <span data-ttu-id="d5288-109">remarquer Pointeur vers un pointeur vers la copie de l'interface [IEnumFBBlock](ienumfbblock.md) .</span><span class="sxs-lookup"><span data-stu-id="d5288-109">[out] A pointer to pointer to the copy of [IEnumFBBlock](ienumfbblock.md) interface.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="03f13-110">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="03f13-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d5288-110">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="d5288-110">Return values</span></span>
 
-|<span data-ttu-id="03f13-111">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="03f13-111">**HRESULT**</span></span>|<span data-ttu-id="03f13-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="03f13-112">**Description**</span></span>|
+|<span data-ttu-id="d5288-111">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="d5288-111">**HRESULT**</span></span>|<span data-ttu-id="d5288-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="d5288-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="03f13-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="03f13-113">S_OK</span></span>  <br/> |<span data-ttu-id="03f13-114">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="03f13-114">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="03f13-115">STANDARD</span><span class="sxs-lookup"><span data-stu-id="03f13-115">E_OUTOFMEMORY</span></span>  <br/> |<span data-ttu-id="03f13-116">Mémoire insuffisante pour la copie.</span><span class="sxs-lookup"><span data-stu-id="03f13-116">There is insufficient memory for making the copy.</span></span>  <br/> |
+|<span data-ttu-id="d5288-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="d5288-113">S_OK</span></span>  <br/> |<span data-ttu-id="d5288-114">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="d5288-114">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="d5288-115">STANDARD</span><span class="sxs-lookup"><span data-stu-id="d5288-115">E_OUTOFMEMORY</span></span>  <br/> |<span data-ttu-id="d5288-116">Mémoire insuffisante pour la copie.</span><span class="sxs-lookup"><span data-stu-id="d5288-116">There is insufficient memory for making the copy.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="03f13-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="03f13-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5288-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d5288-117">See also</span></span>
 
-- [<span data-ttu-id="03f13-118">Constantes (API de disponibilité)</span><span class="sxs-lookup"><span data-stu-id="03f13-118">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
-- [<span data-ttu-id="03f13-119">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="03f13-119">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
-- [<span data-ttu-id="03f13-120">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="03f13-120">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
-- [<span data-ttu-id="03f13-121">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="03f13-121">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)  
-- [<span data-ttu-id="03f13-122">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="03f13-122">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)
+- [<span data-ttu-id="d5288-118">Constantes (API de disponibilité)</span><span class="sxs-lookup"><span data-stu-id="d5288-118">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="d5288-119">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="d5288-119">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
+- [<span data-ttu-id="d5288-120">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="d5288-120">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
+- [<span data-ttu-id="d5288-121">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="d5288-121">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)  
+- [<span data-ttu-id="d5288-122">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="d5288-122">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)
 

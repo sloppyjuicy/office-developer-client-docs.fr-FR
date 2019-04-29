@@ -10,39 +10,39 @@ localization_priority: Normal
 ms.assetid: 7e27b36c-4fd1-34e0-c168-f49eb5757b0e
 description: Détermine si un connecteur peut se positionner horizontalement en traversant une forme positionnable.
 ms.openlocfilehash: 21fa1683c4b1afd24992ec7a8a6daa52a8280825
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357049"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409474"
 ---
-# <a name="shapepermeablex-cell-shape-layout-section"></a><span data-ttu-id="c0b10-103">ShapePermeableX, cellule (section Shape Layout)</span><span class="sxs-lookup"><span data-stu-id="c0b10-103">ShapePermeableX Cell (Shape Layout Section)</span></span>
+# <a name="shapepermeablex-cell-shape-layout-section"></a><span data-ttu-id="d896a-103">ShapePermeableX, cellule (section Shape Layout)</span><span class="sxs-lookup"><span data-stu-id="d896a-103">ShapePermeableX Cell (Shape Layout Section)</span></span>
 
-<span data-ttu-id="c0b10-104">Détermine si un connecteur peut se positionner horizontalement en traversant une forme positionnable.</span><span class="sxs-lookup"><span data-stu-id="c0b10-104">Determines whether a connector can route horizontally through a placeable shape.</span></span>
+<span data-ttu-id="d896a-104">Détermine si un connecteur peut se positionner horizontalement en traversant une forme positionnable.</span><span class="sxs-lookup"><span data-stu-id="d896a-104">Determines whether a connector can route horizontally through a placeable shape.</span></span>
   
-|<span data-ttu-id="c0b10-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="c0b10-105">**Value**</span></span>|<span data-ttu-id="c0b10-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="c0b10-106">**Description**</span></span>|
+|<span data-ttu-id="d896a-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="d896a-105">**Value**</span></span>|<span data-ttu-id="d896a-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="d896a-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c0b10-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="c0b10-107">TRUE</span></span>  <br/> |<span data-ttu-id="c0b10-108">Permet aux connecteurs de se positionner horizontalement en traversant une forme positionnable.</span><span class="sxs-lookup"><span data-stu-id="c0b10-108">Enable connectors to route horizontally through a placeable shape.</span></span>  <br/> |
-|<span data-ttu-id="c0b10-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="c0b10-109">FALSE</span></span>  <br/> |<span data-ttu-id="c0b10-110">Ne permet pas aux connecteurs de se positionner horizontalement en traversant une forme positionnable.</span><span class="sxs-lookup"><span data-stu-id="c0b10-110">Do not let connectors route horizontally through a placeable shape.</span></span>  <br/> |
+|<span data-ttu-id="d896a-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="d896a-107">TRUE</span></span>  <br/> |<span data-ttu-id="d896a-108">Permet aux connecteurs de se positionner horizontalement en traversant une forme positionnable.</span><span class="sxs-lookup"><span data-stu-id="d896a-108">Enable connectors to route horizontally through a placeable shape.</span></span>  <br/> |
+|<span data-ttu-id="d896a-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="d896a-109">FALSE</span></span>  <br/> |<span data-ttu-id="d896a-110">Ne permet pas aux connecteurs de se positionner horizontalement en traversant une forme positionnable.</span><span class="sxs-lookup"><span data-stu-id="d896a-110">Do not let connectors route horizontally through a placeable shape.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c0b10-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="c0b10-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d896a-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="d896a-111">Remarks</span></span>
 
-<span data-ttu-id="c0b10-112">Vous pouvez également définir la valeur de cette cellule sous l'onglet **placement** de la boîte de dialogue **comportement** (sélectionnez une forme, sous l'onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , dans le groupe création de la **forme** , cliquez sur **comportement**, puis sur l'onglet **placement** . ).</span><span class="sxs-lookup"><span data-stu-id="c0b10-112">You can also set the value of this cell on the **Placement** tab in the **Behavior** dialog box (with a shape selected, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**, and then click the **Placement** tab).</span></span> 
+<span data-ttu-id="d896a-112">Vous pouvez également définir la valeur de cette cellule sous l'onglet **placement** de la boîte de dialogue **comportement** (sélectionnez une forme, sous l'onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , dans le groupe création de la **forme** , cliquez sur **comportement**, puis sur l'onglet **placement** . ).</span><span class="sxs-lookup"><span data-stu-id="d896a-112">You can also set the value of this cell on the **Placement** tab in the **Behavior** dialog box (with a shape selected, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**, and then click the **Placement** tab).</span></span> 
   
-<span data-ttu-id="c0b10-113">Dans les versions antérieures à Visio 2000, vous pouviez définir ce comportement en faisant appel à la cellule ObjInteract de la section Miscellaneous.</span><span class="sxs-lookup"><span data-stu-id="c0b10-113">In versions earlier than Visio 2000, you set this behavior by using the ObjInteract cell in the Miscellaneous section.</span></span> 
+<span data-ttu-id="d896a-113">Dans les versions antérieures à Visio 2000, vous pouviez définir ce comportement en faisant appel à la cellule ObjInteract de la section Miscellaneous.</span><span class="sxs-lookup"><span data-stu-id="d896a-113">In versions earlier than Visio 2000, you set this behavior by using the ObjInteract cell in the Miscellaneous section.</span></span> 
   
-<span data-ttu-id="c0b10-114">Pour obtenir une référence à la cellule ShapePermeableX par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="c0b10-114">To get a reference to the ShapePermeableX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d896a-114">Pour obtenir une référence à la cellule ShapePermeableX par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="d896a-114">To get a reference to the ShapePermeableX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c0b10-115">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="c0b10-115">Cell name:</span></span>  <br/> |<span data-ttu-id="c0b10-116">ShapePermeableX</span><span class="sxs-lookup"><span data-stu-id="c0b10-116">ShapePermeableX</span></span>  <br/> |
+|<span data-ttu-id="d896a-115">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d896a-115">Cell name:</span></span>  <br/> |<span data-ttu-id="d896a-116">ShapePermeableX</span><span class="sxs-lookup"><span data-stu-id="d896a-116">ShapePermeableX</span></span>  <br/> |
    
-<span data-ttu-id="c0b10-117">Pour obtenir une référence à la cellule ShapePermeableX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="c0b10-117">To get a reference to the ShapePermeableX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d896a-117">Pour obtenir une référence à la cellule ShapePermeableX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="d896a-117">To get a reference to the ShapePermeableX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c0b10-118">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="c0b10-118">Section index:</span></span>  <br/> |<span data-ttu-id="c0b10-119">**Définis**</span><span class="sxs-lookup"><span data-stu-id="c0b10-119">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="c0b10-120">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="c0b10-120">Row index:</span></span>  <br/> |<span data-ttu-id="c0b10-121">**visRowShapeLayout**</span><span class="sxs-lookup"><span data-stu-id="c0b10-121">**visRowShapeLayout**</span></span> <br/> |
-|<span data-ttu-id="c0b10-122">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="c0b10-122">Cell index:</span></span>  <br/> |<span data-ttu-id="c0b10-123">**visSLOPermX**</span><span class="sxs-lookup"><span data-stu-id="c0b10-123">**visSLOPermX**</span></span> <br/> |
+|<span data-ttu-id="d896a-118">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="d896a-118">Section index:</span></span>  <br/> |<span data-ttu-id="d896a-119">**Définis**</span><span class="sxs-lookup"><span data-stu-id="d896a-119">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="d896a-120">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="d896a-120">Row index:</span></span>  <br/> |<span data-ttu-id="d896a-121">**visRowShapeLayout**</span><span class="sxs-lookup"><span data-stu-id="d896a-121">**visRowShapeLayout**</span></span> <br/> |
+|<span data-ttu-id="d896a-122">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d896a-122">Cell index:</span></span>  <br/> |<span data-ttu-id="d896a-123">**visSLOPermX**</span><span class="sxs-lookup"><span data-stu-id="d896a-123">**visSLOPermX**</span></span> <br/> |
    
 
