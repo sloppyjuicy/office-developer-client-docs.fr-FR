@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5f1fdf59-db58-561c-e187-1af72a8b87f2
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule D pour chaque ligne.
 ms.openlocfilehash: 1da6ac19e6a50ea87f07bf3e3c9f96378b512ba8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346514"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424377"
 ---
 # <a name="d-cell-geometry-section"></a>D, cellule (section Geometry)
 

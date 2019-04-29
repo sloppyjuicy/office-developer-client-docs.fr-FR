@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d72331d9-a8f3-4fcb-ba26-c93210b74935
 description: Vous pouvez utiliser l'action AtteindreEnregistrement pour que l'enregistrement spécifié soit l'enregistrement actif dans un affichage.
 ms.openlocfilehash: 9e4049f64ab06b68fc04599c49bd56057c5c5628
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302799"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424895"
 ---
 # <a name="gotorecord-macro-action-access-custom-web-app"></a>AtteindreEnregistrement, action de macro (application Web personnalisée Access)
 
