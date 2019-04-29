@@ -10,30 +10,30 @@ localization_priority: Normal
 ms.assetid: c9ed37ba-019c-b11e-c803-4669e6a248d1
 description: Renvoie la valeur absolue d’un nombre.
 ms.openlocfilehash: 3d3d79aab65e34ad36890e56568b043bab327919
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345289"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421808"
 ---
-# <a name="abs-function-visioshapesheet"></a><span data-ttu-id="7b158-103">ABS Function (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="7b158-103">ABS Function (VisioShapeSheet)</span></span>
+# <a name="abs-function-visioshapesheet"></a><span data-ttu-id="3d28e-103">ABS Function (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="3d28e-103">ABS Function (VisioShapeSheet)</span></span>
 
-<span data-ttu-id="7b158-104">Renvoie la valeur absolue d’un nombre.</span><span class="sxs-lookup"><span data-stu-id="7b158-104">Returns the absolute value of a number.</span></span>
+<span data-ttu-id="3d28e-104">Renvoie la valeur absolue d’un nombre.</span><span class="sxs-lookup"><span data-stu-id="3d28e-104">Returns the absolute value of a number.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="7b158-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7b158-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3d28e-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="3d28e-105">Syntax</span></span>
 
-<span data-ttu-id="7b158-106">ABS ( *nombre*)</span><span class="sxs-lookup"><span data-stu-id="7b158-106">ABS( *number*)</span></span> 
+<span data-ttu-id="3d28e-106">ABS ( *nombre*)</span><span class="sxs-lookup"><span data-stu-id="3d28e-106">ABS( *number*)</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="7b158-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="7b158-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="3d28e-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="3d28e-107">Parameters</span></span>
 
-|<span data-ttu-id="7b158-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="7b158-108">**Name**</span></span>|<span data-ttu-id="7b158-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="7b158-109">**Required/Optional**</span></span>|<span data-ttu-id="7b158-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="7b158-110">**Data Type**</span></span>|<span data-ttu-id="7b158-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="7b158-111">**Description**</span></span>|
+|<span data-ttu-id="3d28e-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="3d28e-108">**Name**</span></span>|<span data-ttu-id="3d28e-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="3d28e-109">**Required/Optional**</span></span>|<span data-ttu-id="3d28e-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="3d28e-110">**Data Type**</span></span>|<span data-ttu-id="3d28e-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="3d28e-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="7b158-112">_Number_</span><span class="sxs-lookup"><span data-stu-id="7b158-112">_Number_</span></span> <br/> |<span data-ttu-id="7b158-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="7b158-113">Required</span></span>  <br/> |<span data-ttu-id="7b158-114">**Decimal**</span><span class="sxs-lookup"><span data-stu-id="7b158-114">**Decimal**</span></span> <br/> |<span data-ttu-id="7b158-115">Nombre dont vous souhaitez trouver la valeur absolue.</span><span class="sxs-lookup"><span data-stu-id="7b158-115">The number whose absolute value you want to find.</span></span>  <br/> |
+| <span data-ttu-id="3d28e-112">_Number_</span><span class="sxs-lookup"><span data-stu-id="3d28e-112">_Number_</span></span> <br/> |<span data-ttu-id="3d28e-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="3d28e-113">Required</span></span>  <br/> |<span data-ttu-id="3d28e-114">**Decimal**</span><span class="sxs-lookup"><span data-stu-id="3d28e-114">**Decimal**</span></span> <br/> |<span data-ttu-id="3d28e-115">Nombre dont vous souhaitez trouver la valeur absolue.</span><span class="sxs-lookup"><span data-stu-id="3d28e-115">The number whose absolute value you want to find.</span></span>  <br/> |
    
-## <a name="example"></a><span data-ttu-id="7b158-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="7b158-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3d28e-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="3d28e-116">Example</span></span>
 
-<span data-ttu-id="7b158-117">ABS (-1,24)</span><span class="sxs-lookup"><span data-stu-id="7b158-117">ABS(-1.24)</span></span> 
+<span data-ttu-id="3d28e-117">ABS (-1,24)</span><span class="sxs-lookup"><span data-stu-id="3d28e-117">ABS(-1.24)</span></span> 
   
-<span data-ttu-id="7b158-118">Renvoie 1,24.</span><span class="sxs-lookup"><span data-stu-id="7b158-118">Returns 1.24.</span></span>
+<span data-ttu-id="3d28e-118">Renvoie 1,24.</span><span class="sxs-lookup"><span data-stu-id="3d28e-118">Returns 1.24.</span></span>
   
 

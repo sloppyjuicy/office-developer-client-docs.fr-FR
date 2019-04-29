@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: be65d1c2-e48a-a85a-79ad-1a3409e60c16
 description: Renvoie la date et l'heure du dernier enregistrement d'un document, sous la forme d'une valeur sérielle.
 ms.openlocfilehash: 35d3a3f3051d5e5024eb48c56f131325e86314cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359051"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425987"
 ---
-# <a name="doclastsave-function"></a><span data-ttu-id="00e6e-103">Fonction DOCLASTSAVE</span><span class="sxs-lookup"><span data-stu-id="00e6e-103">DOCLASTSAVE Function</span></span>
+# <a name="doclastsave-function"></a><span data-ttu-id="b22ed-103">Fonction DOCLASTSAVE</span><span class="sxs-lookup"><span data-stu-id="b22ed-103">DOCLASTSAVE Function</span></span>
 
-<span data-ttu-id="00e6e-104">Renvoie la date et l'heure du dernier enregistrement d'un document, sous la forme d'une valeur sérielle.</span><span class="sxs-lookup"><span data-stu-id="00e6e-104">Returns the date and time a document was last saved, as a serial value.</span></span>
+<span data-ttu-id="b22ed-104">Renvoie la date et l'heure du dernier enregistrement d'un document, sous la forme d'une valeur sérielle.</span><span class="sxs-lookup"><span data-stu-id="b22ed-104">Returns the date and time a document was last saved, as a serial value.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="00e6e-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="00e6e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b22ed-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b22ed-105">Syntax</span></span>
 
-<span data-ttu-id="00e6e-106">DOCLASTSAVE ()</span><span class="sxs-lookup"><span data-stu-id="00e6e-106">DOCLASTSAVE ()</span></span>
+<span data-ttu-id="b22ed-106">DOCLASTSAVE ()</span><span class="sxs-lookup"><span data-stu-id="b22ed-106">DOCLASTSAVE ()</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="00e6e-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="00e6e-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b22ed-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="b22ed-107">Remarks</span></span>
 
-<span data-ttu-id="00e6e-108">La fonction FORMAT permet de mettre en forme la valeur.</span><span class="sxs-lookup"><span data-stu-id="00e6e-108">Use the FORMAT function to format the value.</span></span> 
+<span data-ttu-id="b22ed-108">La fonction FORMAT permet de mettre en forme la valeur.</span><span class="sxs-lookup"><span data-stu-id="b22ed-108">Use the FORMAT function to format the value.</span></span> 
   
 

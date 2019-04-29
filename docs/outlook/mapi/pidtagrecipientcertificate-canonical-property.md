@@ -11,54 +11,54 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c659b77767fddc4c783732082c2eb65c68af8dbf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356713"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431665"
 ---
-# <a name="pidtagrecipientcertificate-canonical-property"></a><span data-ttu-id="148c3-103">Propriété canonique PidTagRecipientCertificate</span><span class="sxs-lookup"><span data-stu-id="148c3-103">PidTagRecipientCertificate Canonical Property</span></span>
+# <a name="pidtagrecipientcertificate-canonical-property"></a><span data-ttu-id="fbbcb-103">Propriété canonique PidTagRecipientCertificate</span><span class="sxs-lookup"><span data-stu-id="fbbcb-103">PidTagRecipientCertificate Canonical Property</span></span>
 
   
   
-<span data-ttu-id="148c3-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="148c3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fbbcb-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fbbcb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="148c3-105">Contient le certificat ASN. 1 d'un destinataire de message à utiliser dans un rapport.</span><span class="sxs-lookup"><span data-stu-id="148c3-105">Contains a message recipient's ASN.1 certificate for use in a report.</span></span>
+<span data-ttu-id="fbbcb-105">Contient le certificat ASN. 1 d'un destinataire de message à utiliser dans un rapport.</span><span class="sxs-lookup"><span data-stu-id="fbbcb-105">Contains a message recipient's ASN.1 certificate for use in a report.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="148c3-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="148c3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="148c3-107">PR_RECIPIENT_CERTIFICATE</span><span class="sxs-lookup"><span data-stu-id="148c3-107">PR_RECIPIENT_CERTIFICATE</span></span>  <br/> |
-|<span data-ttu-id="148c3-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="148c3-108">Identifier:</span></span>  <br/> |<span data-ttu-id="148c3-109">0x0C13</span><span class="sxs-lookup"><span data-stu-id="148c3-109">0x0C13</span></span>  <br/> |
-|<span data-ttu-id="148c3-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="148c3-110">Data type:</span></span>  <br/> |<span data-ttu-id="148c3-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="148c3-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="148c3-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="148c3-112">Area:</span></span>  <br/> |<span data-ttu-id="148c3-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="148c3-113">MAPI Recipient</span></span>  <br/> |
+|<span data-ttu-id="fbbcb-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="fbbcb-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="fbbcb-107">PR_RECIPIENT_CERTIFICATE</span><span class="sxs-lookup"><span data-stu-id="fbbcb-107">PR_RECIPIENT_CERTIFICATE</span></span>  <br/> |
+|<span data-ttu-id="fbbcb-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="fbbcb-108">Identifier:</span></span>  <br/> |<span data-ttu-id="fbbcb-109">0x0C13</span><span class="sxs-lookup"><span data-stu-id="fbbcb-109">0x0C13</span></span>  <br/> |
+|<span data-ttu-id="fbbcb-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="fbbcb-110">Data type:</span></span>  <br/> |<span data-ttu-id="fbbcb-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="fbbcb-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="fbbcb-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="fbbcb-112">Area:</span></span>  <br/> |<span data-ttu-id="fbbcb-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="fbbcb-113">MAPI Recipient</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="148c3-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="148c3-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fbbcb-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="fbbcb-114">Remarks</span></span>
 
-<span data-ttu-id="148c3-115">Cette propriété est une copie de la propriété **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) du destinataire pour une utilisation dans un rapport.</span><span class="sxs-lookup"><span data-stu-id="148c3-115">This property is a copy of the recipient's **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) property for use in a report.</span></span> <span data-ttu-id="148c3-116">Elle peut être utilisée pour prouver à l'expéditeur que le destinataire a réellement reçu le message, ce qui n'est pas nécessairement indiqué par un rapport de remise.</span><span class="sxs-lookup"><span data-stu-id="148c3-116">It can be used to prove to the originator that the recipient actually received the message, which a delivery report does not necessarily indicate.</span></span>
+<span data-ttu-id="fbbcb-115">Cette propriété est une copie de la propriété **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) du destinataire pour une utilisation dans un rapport.</span><span class="sxs-lookup"><span data-stu-id="fbbcb-115">This property is a copy of the recipient's **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) property for use in a report.</span></span> <span data-ttu-id="fbbcb-116">Elle peut être utilisée pour prouver à l'expéditeur que le destinataire a réellement reçu le message, ce qui n'est pas nécessairement indiqué par un rapport de remise.</span><span class="sxs-lookup"><span data-stu-id="fbbcb-116">It can be used to prove to the originator that the recipient actually received the message, which a delivery report does not necessarily indicate.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="148c3-117">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="148c3-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="fbbcb-117">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="fbbcb-117">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="148c3-118">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="148c3-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="fbbcb-118">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="fbbcb-118">Header files</span></span>
 
-<span data-ttu-id="148c3-119">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="148c3-119">Mapidefs.h</span></span>
+<span data-ttu-id="fbbcb-119">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="fbbcb-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="148c3-120">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="148c3-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="fbbcb-120">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="fbbcb-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="148c3-121">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="148c3-121">Mapitags.h</span></span>
+<span data-ttu-id="fbbcb-121">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="fbbcb-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="148c3-122">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="148c3-122">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="fbbcb-122">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="fbbcb-122">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="148c3-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="148c3-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fbbcb-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fbbcb-123">See also</span></span>
 
 
 
-[<span data-ttu-id="148c3-124">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="148c3-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="fbbcb-124">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="fbbcb-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="148c3-125">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="148c3-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="fbbcb-125">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="fbbcb-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="148c3-126">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="148c3-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="fbbcb-126">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="fbbcb-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="148c3-127">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="148c3-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="fbbcb-127">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="fbbcb-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

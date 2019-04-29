@@ -11,59 +11,59 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5fe55ba7-4ecd-4a43-ab5b-2ef595c2cdd9
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5f5f5eaa41d6256bed69b2cd9a91208181d5bda1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346633"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423747"
 ---
-# <a name="pidtagidentitysearchkey-canonical-property"></a><span data-ttu-id="e9080-103">Propriété canonique PidTagIdentitySearchKey</span><span class="sxs-lookup"><span data-stu-id="e9080-103">PidTagIdentitySearchKey Canonical Property</span></span>
+# <a name="pidtagidentitysearchkey-canonical-property"></a><span data-ttu-id="13539-103">Propriété canonique PidTagIdentitySearchKey</span><span class="sxs-lookup"><span data-stu-id="13539-103">PidTagIdentitySearchKey Canonical Property</span></span>
 
   
   
-<span data-ttu-id="e9080-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e9080-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="13539-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="13539-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e9080-105">Contient la clé de recherche pour l'identité d'un fournisseur de services telle qu'elle est définie dans un système de messagerie.</span><span class="sxs-lookup"><span data-stu-id="e9080-105">Contains the search key for a service provider's identity as defined within a messaging system.</span></span> 
+<span data-ttu-id="13539-105">Contient la clé de recherche pour l'identité d'un fournisseur de services telle qu'elle est définie dans un système de messagerie.</span><span class="sxs-lookup"><span data-stu-id="13539-105">Contains the search key for a service provider's identity as defined within a messaging system.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e9080-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="e9080-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e9080-107">PR_IDENTITY_SEARCH_KEY</span><span class="sxs-lookup"><span data-stu-id="e9080-107">PR_IDENTITY_SEARCH_KEY</span></span>  <br/> |
-|<span data-ttu-id="e9080-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="e9080-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e9080-109">0x3E05</span><span class="sxs-lookup"><span data-stu-id="e9080-109">0x3E05</span></span>  <br/> |
-|<span data-ttu-id="e9080-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="e9080-110">Data type:</span></span>  <br/> |<span data-ttu-id="e9080-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="e9080-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="e9080-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="e9080-112">Area:</span></span>  <br/> |<span data-ttu-id="e9080-113">État MAPI</span><span class="sxs-lookup"><span data-stu-id="e9080-113">MAPI status</span></span>  <br/> |
+|<span data-ttu-id="13539-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="13539-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="13539-107">PR_IDENTITY_SEARCH_KEY</span><span class="sxs-lookup"><span data-stu-id="13539-107">PR_IDENTITY_SEARCH_KEY</span></span>  <br/> |
+|<span data-ttu-id="13539-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="13539-108">Identifier:</span></span>  <br/> |<span data-ttu-id="13539-109">0x3E05</span><span class="sxs-lookup"><span data-stu-id="13539-109">0x3E05</span></span>  <br/> |
+|<span data-ttu-id="13539-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="13539-110">Data type:</span></span>  <br/> |<span data-ttu-id="13539-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="13539-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="13539-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="13539-112">Area:</span></span>  <br/> |<span data-ttu-id="13539-113">État MAPI</span><span class="sxs-lookup"><span data-stu-id="13539-113">MAPI status</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="e9080-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="e9080-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="13539-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="13539-114">Remarks</span></span>
 
-<span data-ttu-id="e9080-115">Cette propriété n'apparaît pas sous la forme d'une propriété sur n'importe quel objet, mais uniquement sous forme de colonne dans une table d'État.</span><span class="sxs-lookup"><span data-stu-id="e9080-115">This property does not appear as a property on any object but only as a column in a status table.</span></span> <span data-ttu-id="e9080-116">Il fait partie de l'identité du fournisseur de services exposant la ligne du tableau d'État.</span><span class="sxs-lookup"><span data-stu-id="e9080-116">It is part of the identity of the service provider exposing the status table row.</span></span> <span data-ttu-id="e9080-117">L'identité du fournisseur fait généralement référence à son compte sur le serveur, mais peut faire référence à toute représentation définie par le fournisseur dans le système de messagerie.</span><span class="sxs-lookup"><span data-stu-id="e9080-117">The provider's identity typically refers to its account on the server, but can refer to any representation the provider defines within the messaging system.</span></span> 
+<span data-ttu-id="13539-115">Cette propriété n'apparaît pas sous la forme d'une propriété sur n'importe quel objet, mais uniquement sous forme de colonne dans une table d'État.</span><span class="sxs-lookup"><span data-stu-id="13539-115">This property does not appear as a property on any object but only as a column in a status table.</span></span> <span data-ttu-id="13539-116">Il fait partie de l'identité du fournisseur de services exposant la ligne du tableau d'État.</span><span class="sxs-lookup"><span data-stu-id="13539-116">It is part of the identity of the service provider exposing the status table row.</span></span> <span data-ttu-id="13539-117">L'identité du fournisseur fait généralement référence à son compte sur le serveur, mais peut faire référence à toute représentation définie par le fournisseur dans le système de messagerie.</span><span class="sxs-lookup"><span data-stu-id="13539-117">The provider's identity typically refers to its account on the server, but can refer to any representation the provider defines within the messaging system.</span></span> 
   
-<span data-ttu-id="e9080-118">Un fournisseur de services qui fournit l'une des propriétés d'identité doit en fournir toutes les.</span><span class="sxs-lookup"><span data-stu-id="e9080-118">A service provider furnishing any of the identity properties should furnish all of them.</span></span> <span data-ttu-id="e9080-119">Les fournisseurs qui appartiennent au même service de messagerie doivent exposer les mêmes valeurs pour les propriétés d'identité.</span><span class="sxs-lookup"><span data-stu-id="e9080-119">Providers that belong to the same message service should expose the same values for the identity properties.</span></span> 
+<span data-ttu-id="13539-118">Un fournisseur de services qui fournit l'une des propriétés d'identité doit en fournir toutes les.</span><span class="sxs-lookup"><span data-stu-id="13539-118">A service provider furnishing any of the identity properties should furnish all of them.</span></span> <span data-ttu-id="13539-119">Les fournisseurs qui appartiennent au même service de messagerie doivent exposer les mêmes valeurs pour les propriétés d'identité.</span><span class="sxs-lookup"><span data-stu-id="13539-119">Providers that belong to the same message service should expose the same values for the identity properties.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="e9080-120">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="e9080-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="13539-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="13539-120">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="e9080-121">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="e9080-121">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="13539-121">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="13539-121">Header files</span></span>
 
-<span data-ttu-id="e9080-122">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="e9080-122">Mapidefs.h</span></span>
+<span data-ttu-id="13539-122">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="13539-122">Mapidefs.h</span></span>
   
-> <span data-ttu-id="e9080-123">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="e9080-123">Provides data type definitions.</span></span>
+> <span data-ttu-id="13539-123">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="13539-123">Provides data type definitions.</span></span>
     
-<span data-ttu-id="e9080-124">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="e9080-124">Mapitags.h</span></span>
+<span data-ttu-id="13539-124">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="13539-124">Mapitags.h</span></span>
   
-> <span data-ttu-id="e9080-125">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="e9080-125">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="13539-125">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="13539-125">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="e9080-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e9080-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="13539-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="13539-126">See also</span></span>
 
 
 
-[<span data-ttu-id="e9080-127">IMAPISession::QueryIdentity</span><span class="sxs-lookup"><span data-stu-id="e9080-127">IMAPISession::QueryIdentity</span></span>](imapisession-queryidentity.md)
+[<span data-ttu-id="13539-127">IMAPISession::QueryIdentity</span><span class="sxs-lookup"><span data-stu-id="13539-127">IMAPISession::QueryIdentity</span></span>](imapisession-queryidentity.md)
 
 
-[<span data-ttu-id="e9080-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="e9080-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="13539-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="13539-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="e9080-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="e9080-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="13539-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="13539-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="e9080-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="e9080-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="13539-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="13539-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="e9080-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="e9080-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="13539-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="13539-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

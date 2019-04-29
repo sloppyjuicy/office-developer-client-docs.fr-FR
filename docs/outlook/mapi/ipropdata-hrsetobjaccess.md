@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 01bd3235-22cc-4ff3-b2b6-341ce622128b
 description: 'Derni�re modification�: samedi 23 juillet 2011'
 ms.openlocfilehash: 4e478c9e8978125a37691ee5bd97fa9f1cbce077
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348691"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425154"
 ---
-# <a name="ipropdatahrsetobjaccess"></a><span data-ttu-id="7bfc4-103">IPropData::HrSetObjAccess</span><span class="sxs-lookup"><span data-stu-id="7bfc4-103">IPropData::HrSetObjAccess</span></span>
+# <a name="ipropdatahrsetobjaccess"></a><span data-ttu-id="4e118-103">IPropData::HrSetObjAccess</span><span class="sxs-lookup"><span data-stu-id="4e118-103">IPropData::HrSetObjAccess</span></span>
 
   
   
-<span data-ttu-id="7bfc4-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7bfc4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4e118-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4e118-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7bfc4-105">D�finit le niveau d'acc�s de l'objet.</span><span class="sxs-lookup"><span data-stu-id="7bfc4-105">Sets the access level for the object.</span></span>
+<span data-ttu-id="4e118-105">D�finit le niveau d'acc�s de l'objet.</span><span class="sxs-lookup"><span data-stu-id="4e118-105">Sets the access level for the object.</span></span>
   
 ```cpp
 HRESULT HrSetObjAccess(
@@ -33,45 +33,45 @@ HRESULT HrSetObjAccess(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7bfc4-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="7bfc4-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4e118-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4e118-106">Parameters</span></span>
 
- <span data-ttu-id="7bfc4-107">_ulAccess_</span><span class="sxs-lookup"><span data-stu-id="7bfc4-107">_ulAccess_</span></span>
+ <span data-ttu-id="4e118-107">_ulAccess_</span><span class="sxs-lookup"><span data-stu-id="4e118-107">_ulAccess_</span></span>
   
-> <span data-ttu-id="7bfc4-p101">[in] Un masque de bits d'indicateurs qui sp�cifie le niveau d'acc�s de l'objet. Vous pouvez d�finir un des indicateurs suivants :</span><span class="sxs-lookup"><span data-stu-id="7bfc4-p101">[in] A bitmask of flags that specifies the object's access level. One of the following flags can be set:</span></span>
+> <span data-ttu-id="4e118-p101">[in] Un masque de bits d'indicateurs qui sp�cifie le niveau d'acc�s de l'objet. Vous pouvez d�finir un des indicateurs suivants :</span><span class="sxs-lookup"><span data-stu-id="4e118-p101">[in] A bitmask of flags that specifies the object's access level. One of the following flags can be set:</span></span>
     
-<span data-ttu-id="7bfc4-110">IPROP_READONLY</span><span class="sxs-lookup"><span data-stu-id="7bfc4-110">IPROP_READONLY</span></span> 
+<span data-ttu-id="4e118-110">IPROP_READONLY</span><span class="sxs-lookup"><span data-stu-id="4e118-110">IPROP_READONLY</span></span> 
   
-> <span data-ttu-id="7bfc4-111">D�finit le niveau d'acc�s de l'objet en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="7bfc4-111">Sets the object's access level to read-only.</span></span> 
+> <span data-ttu-id="4e118-111">D�finit le niveau d'acc�s de l'objet en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="4e118-111">Sets the object's access level to read-only.</span></span> 
     
-<span data-ttu-id="7bfc4-112">IPROP_READWRITE</span><span class="sxs-lookup"><span data-stu-id="7bfc4-112">IPROP_READWRITE</span></span> 
+<span data-ttu-id="4e118-112">IPROP_READWRITE</span><span class="sxs-lookup"><span data-stu-id="4e118-112">IPROP_READWRITE</span></span> 
   
-> <span data-ttu-id="7bfc4-113">D�finit le niveau d'acc�s de l'objet en lecture/�criture.</span><span class="sxs-lookup"><span data-stu-id="7bfc4-113">Sets the object's access level to read/write.</span></span>
+> <span data-ttu-id="4e118-113">D�finit le niveau d'acc�s de l'objet en lecture/�criture.</span><span class="sxs-lookup"><span data-stu-id="4e118-113">Sets the object's access level to read/write.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7bfc4-114">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="7bfc4-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4e118-114">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="4e118-114">Return value</span></span>
 
-<span data-ttu-id="7bfc4-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="7bfc4-115">S_OK</span></span> 
+<span data-ttu-id="4e118-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="4e118-115">S_OK</span></span> 
   
-> <span data-ttu-id="7bfc4-116">Niveau d'acc�s de l'objet a �t� correctement d�fini.</span><span class="sxs-lookup"><span data-stu-id="7bfc4-116">The object's access level was successfully set.</span></span>
+> <span data-ttu-id="4e118-116">Niveau d'acc�s de l'objet a �t� correctement d�fini.</span><span class="sxs-lookup"><span data-stu-id="4e118-116">The object's access level was successfully set.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="7bfc4-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="7bfc4-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4e118-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="4e118-117">Remarks</span></span>
 
-<span data-ttu-id="7bfc4-p102">La m�thode **IPropData::HrSetObjAccess** d�finit le niveau d'acc�s pour un objet dans son int�gralit�, et non des propri�t�s individuelles. **HrSetObjAccess** peut �tre utilis� pour modifier le niveau d'acc�s �tabli lorsque l'objet a �t� cr��.</span><span class="sxs-lookup"><span data-stu-id="7bfc4-p102">The **IPropData::HrSetObjAccess** method sets the access level for an entire object, rather than for individual properties. **HrSetObjAccess** can be used to change the access level established when the object was created.</span></span> 
+<span data-ttu-id="4e118-p102">La m�thode **IPropData::HrSetObjAccess** d�finit le niveau d'acc�s pour un objet dans son int�gralit�, et non des propri�t�s individuelles. **HrSetObjAccess** peut �tre utilis� pour modifier le niveau d'acc�s �tabli lorsque l'objet a �t� cr��.</span><span class="sxs-lookup"><span data-stu-id="4e118-p102">The **IPropData::HrSetObjAccess** method sets the access level for an entire object, rather than for individual properties. **HrSetObjAccess** can be used to change the access level established when the object was created.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="7bfc4-120">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="7bfc4-120">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="4e118-120">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="4e118-120">Notes to callers</span></span>
 
-<span data-ttu-id="7bfc4-p103">Pour d�finir un niveau d'acc�s sur une propri�t�, d'abord appeler **HrSetObjAccess** avec l'indicateur IPROP_READWRITE dans le param�tre  _ulAccess_ pour rendre l'objet modifiable. Puis appelez la m�thode [IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md) , en sp�cifiant la propri�t� cible dans le tableau indiqu� par le param�tre  _lpPropTagArray_.</span><span class="sxs-lookup"><span data-stu-id="7bfc4-p103">To set an access level on a property, first call **HrSetObjAccess** with the IPROP_READWRITE flag set in the  _ulAccess_ parameter to make the object modifiable. Then call the [IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md) method, specifying the target property in the array pointed to by the  _lpPropTagArray_ parameter.</span></span> 
+<span data-ttu-id="4e118-p103">Pour d�finir un niveau d'acc�s sur une propri�t�, d'abord appeler **HrSetObjAccess** avec l'indicateur IPROP_READWRITE dans le param�tre  _ulAccess_ pour rendre l'objet modifiable. Puis appelez la m�thode [IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md) , en sp�cifiant la propri�t� cible dans le tableau indiqu� par le param�tre  _lpPropTagArray_.</span><span class="sxs-lookup"><span data-stu-id="4e118-p103">To set an access level on a property, first call **HrSetObjAccess** with the IPROP_READWRITE flag set in the  _ulAccess_ parameter to make the object modifiable. Then call the [IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md) method, specifying the target property in the array pointed to by the  _lpPropTagArray_ parameter.</span></span> 
   
-<span data-ttu-id="7bfc4-123">Pour cr�er un objet avec des propri�t�s qui seront en lecture seule aux clients, cr�ez un objet en lecture-�criture, ajoutez les propri�t�s n�cessaires et ensuite appeler **HrSetObjAccess** pour modifier l'acc�s de l'objet en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="7bfc4-123">To create an object with properties that will be read-only to clients, create a read/write object, add the necessary properties, and then call **HrSetObjAccess** to change the object's access to read-only.</span></span> 
+<span data-ttu-id="4e118-123">Pour cr�er un objet avec des propri�t�s qui seront en lecture seule aux clients, cr�ez un objet en lecture-�criture, ajoutez les propri�t�s n�cessaires et ensuite appeler **HrSetObjAccess** pour modifier l'acc�s de l'objet en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="4e118-123">To create an object with properties that will be read-only to clients, create a read/write object, add the necessary properties, and then call **HrSetObjAccess** to change the object's access to read-only.</span></span> 
   
-<span data-ttu-id="7bfc4-124">Vous pouvez �galement utiliser **HrSetObjAccess** pour emp�cher les clients de cr�er de nouvelles propri�t�s.</span><span class="sxs-lookup"><span data-stu-id="7bfc4-124">You can also use **HrSetObjAccess** to prevent clients from creating new properties.</span></span> 
+<span data-ttu-id="4e118-124">Vous pouvez �galement utiliser **HrSetObjAccess** pour emp�cher les clients de cr�er de nouvelles propri�t�s.</span><span class="sxs-lookup"><span data-stu-id="4e118-124">You can also use **HrSetObjAccess** to prevent clients from creating new properties.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="7bfc4-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7bfc4-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4e118-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4e118-125">See also</span></span>
 
 
 
-[<span data-ttu-id="7bfc4-126">IPropData::HrGetPropAccess</span><span class="sxs-lookup"><span data-stu-id="7bfc4-126">IPropData::HrGetPropAccess</span></span>](ipropdata-hrgetpropaccess.md)
+[<span data-ttu-id="4e118-126">IPropData::HrGetPropAccess</span><span class="sxs-lookup"><span data-stu-id="4e118-126">IPropData::HrGetPropAccess</span></span>](ipropdata-hrgetpropaccess.md)
   
-[<span data-ttu-id="7bfc4-127">IPropData::HrSetPropAccess</span><span class="sxs-lookup"><span data-stu-id="7bfc4-127">IPropData::HrSetPropAccess</span></span>](ipropdata-hrsetpropaccess.md)
+[<span data-ttu-id="4e118-127">IPropData::HrSetPropAccess</span><span class="sxs-lookup"><span data-stu-id="4e118-127">IPropData::HrSetPropAccess</span></span>](ipropdata-hrsetpropaccess.md)
   
-[<span data-ttu-id="7bfc4-128">IPropData : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="7bfc4-128">IPropData : IMAPIProp</span></span>](ipropdataimapiprop.md)
+[<span data-ttu-id="4e118-128">IPropData : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="4e118-128">IPropData : IMAPIProp</span></span>](ipropdataimapiprop.md)
 

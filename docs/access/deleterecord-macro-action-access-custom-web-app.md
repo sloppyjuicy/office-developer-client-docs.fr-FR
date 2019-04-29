@@ -7,21 +7,21 @@ localization_priority: Normal
 ms.assetid: 071ef6c8-ee0a-4092-8f41-bbb115f5eeea
 description: Vous pouvez utiliser l'action SupprimerEnregistrement pour supprimer un enregistrement.
 ms.openlocfilehash: 3b7d501f8b784b7df2250ffdd80ca7184e539616
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280780"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420989"
 ---
-# <a name="deleterecord-macro-action-access-custom-web-app"></a><span data-ttu-id="00f77-103">DeleteRecord, action de macro (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="00f77-103">DeleteRecord Macro action (Access custom web app)</span></span>
+# <a name="deleterecord-macro-action-access-custom-web-app"></a><span data-ttu-id="2142b-103">DeleteRecord, action de macro (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="2142b-103">DeleteRecord Macro action (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="00f77-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="00f77-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="2142b-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="2142b-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-<span data-ttu-id="00f77-106">Vous pouvez utiliser l’action **SupprimerEnregistrement** pour supprimer un enregistrement.</span><span class="sxs-lookup"><span data-stu-id="00f77-106">You can use the **DeleteRecord** action to delete a record.</span></span> 
+<span data-ttu-id="2142b-106">Vous pouvez utiliser l’action **SupprimerEnregistrement** pour supprimer un enregistrement.</span><span class="sxs-lookup"><span data-stu-id="2142b-106">You can use the **DeleteRecord** action to delete a record.</span></span> 
   
-## <a name="setting"></a><span data-ttu-id="00f77-107">Setting</span><span class="sxs-lookup"><span data-stu-id="00f77-107">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="2142b-107">Setting</span><span class="sxs-lookup"><span data-stu-id="2142b-107">Setting</span></span>
 
-<span data-ttu-id="00f77-108">L'action **DeleteRecord** ne contient pas d'arguments lorsqu'elle est utilisée dans une macro d'interface utilisateur (IU).</span><span class="sxs-lookup"><span data-stu-id="00f77-108">The **DeleteRecord** action doesn't contain any arguments when used in a user interface (UI) macro.</span></span> 
+<span data-ttu-id="2142b-108">L'action **DeleteRecord** ne contient pas d'arguments lorsqu'elle est utilisée dans une macro d'interface utilisateur (IU).</span><span class="sxs-lookup"><span data-stu-id="2142b-108">The **DeleteRecord** action doesn't contain any arguments when used in a user interface (UI) macro.</span></span> 
   
 
