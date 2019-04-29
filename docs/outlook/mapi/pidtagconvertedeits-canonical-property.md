@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7603fbd99f959108b0db8bda000da4cdf2c90f67
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358939"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423453"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>Propriété canonique PidTagConvertedEits
 
@@ -38,7 +38,7 @@ Contient un identificateur pour les types de texte dans un message après conver
 
 Cette propriété indique les types d'informations encodées (EITs) qui ont été utilisés pour convertir les composants de texte du message.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

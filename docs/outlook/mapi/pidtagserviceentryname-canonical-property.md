@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 783f08aa-fb5a-432d-b8bd-48d69f0e5c38
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2c771f1d97305271b70102c148e62f30512974fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351071"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432470"
 ---
 # <a name="pidtagserviceentryname-canonical-property"></a>Propriété canonique PidTagServiceEntryName
 
@@ -42,7 +42,7 @@ La bibliothèque de liens dynamiques (DLL) dans laquelle la fonction de point d'
   
 Pour plus d'informations sur les points d'entrée du service de message, voir [implémentation d'une fonction de point d'entrée du fournisseur de services](implementing-a-service-provider-entry-point-function.md).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

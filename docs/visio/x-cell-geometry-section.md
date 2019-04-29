@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2416b323-e084-18e1-c9be-a797078dfab9
 description: Représente une coordonnée x sur une forme, en coordonnées locales. Ce tableau décrit la cellule X suivant la ligne sur laquelle elle se trouve.
 ms.openlocfilehash: 6554000a86a6bf27d343a5647161bbe416725e64
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285111"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423943"
 ---
 # <a name="x-cell-geometry-section"></a>X, cellule (section Geometry)
 

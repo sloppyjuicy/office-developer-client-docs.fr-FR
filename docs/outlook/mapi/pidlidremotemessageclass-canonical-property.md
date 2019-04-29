@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bdc3d9a1-c29c-4fbe-893e-0bc7aaa25edc
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 71bfb1a6fc9f6923f3f1fbdcd7aff20625cd70af
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358736"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434157"
 ---
 # <a name="pidlidremotemessageclass-canonical-property"></a>Propriété canonique PidLidRemoteMessageClass
 
@@ -35,7 +35,7 @@ Indique la classe de message d'un élément à distance.
 |Type de données :  <br/> |Aucun  <br/> |
 |Domaine :  <br/> |Message distant  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

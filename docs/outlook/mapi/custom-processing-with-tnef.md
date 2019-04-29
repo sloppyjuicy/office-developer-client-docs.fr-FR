@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c015335a-8fcd-4b03-abb9-9b6b72000e13
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 3ee219ec09116640903df75ce271f607972dd37e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336770"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430846"
 ---
 # <a name="custom-processing-with-tnef"></a>Traitement personnalisé avec TNEF
 

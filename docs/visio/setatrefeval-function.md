@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b3f3a0a0-7b14-0b71-d247-ada81b93b66b
 description: Utilisé dans le paramètre Set_Expression de la fonction SETATREF pour indiquer que Set_Expression doit être évalué avant d'être affecté au paramètre Reference dans SETATREF.
 ms.openlocfilehash: a11a7485e04d4deb31e9497476bb198d675bc68f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326158"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432981"
 ---
 # <a name="setatrefeval-function"></a>Fonction SETATREFEVAL
 

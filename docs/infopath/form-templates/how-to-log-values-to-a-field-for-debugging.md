@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 5874dc28-1b10-48a3-8287-9474db0b7435
 description: Lors du débogage d'un modèle de formulaire InfoPath, il est souvent utile de noter directement les valeurs dans un champ du formulaire pour créer un enregistrement des données de débogage au cours d'une session de test du formulaire. Les procédures qui suivent expliquent comment créer un champ à plusieurs lignes et comment ajouter des fonctions d'assistance au code du formulaire pour permettre l'enregistrement des données de débogage dans ce champ.
 ms.openlocfilehash: 28f2a1ad3c13aefd9f898bdf397c9103df98d3c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303576"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431812"
 ---
 # <a name="log-values-to-a-field-for-debugging"></a>Enregistrement des valeurs dans un champ pour réaliser le débogage
 

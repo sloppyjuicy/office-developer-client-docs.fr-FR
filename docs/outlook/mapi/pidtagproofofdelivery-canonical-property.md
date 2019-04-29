@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5036638-8350-464f-ab44-19c4a1bf50b3
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: cb82d139caf0f868a12ab669e10f89b8a7430d8c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286579"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423838"
 ---
 # <a name="pidtagproofofdelivery-canonical-property"></a>Propriété canonique PidTagProofOfDelivery
 
@@ -34,7 +34,7 @@ Cette propriété contient la valeur de la preuve de livraison du APE. 1.
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

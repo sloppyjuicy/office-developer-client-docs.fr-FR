@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6fabb03d552f195c200b0ecbd8fd69f470c0e1fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344890"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431567"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflag-canonical-property"></a>Propriété canonique PidTagContactAddressBookMultipleAddressFlag
 
@@ -38,7 +38,7 @@ Contient un indicateur TRUE lorsque le fournisseur prend en charge plusieurs adr
 
 Si cette propriété a la valeur TRUE, le fournisseur n'autorise pas les contacts sans adresse de messagerie. Si la valeur est FALSe, le fournisseur affiche tous les contacts, qu'ils disposent ou non d'une adresse de messagerie principale. Seule l'adresse de messagerie principale sera honorée. Il s'agit d'une propriété sur un conteneur de carnet d'adresses de contacts et d'une colonne dans la table des conteneurs du carnet d'adresses des contacts.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

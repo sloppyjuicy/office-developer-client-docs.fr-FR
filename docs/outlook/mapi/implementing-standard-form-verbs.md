@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6360b86dc23a5404b818f76cb1c2cd10747ef3cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317443"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426120"
 ---
 # <a name="implementing-standard-form-verbs"></a>Implémentation de verbes de formulaire standard
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
 description: Obtient l'ordre de tri de la catégorie de comptes spécifiée.
 ms.openlocfilehash: 3eb6dd96caa43f81eba86a389c938ef90c9533b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322028"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424622"
 ---
 # <a name="iolkaccountmanagergetorder"></a>IOlkAccountManager::GetOrder
 

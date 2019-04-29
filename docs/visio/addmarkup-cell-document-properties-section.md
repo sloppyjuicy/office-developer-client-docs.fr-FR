@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: Indique si le document est en révision pour marque de révision.
 ms.openlocfilehash: 4e0860639b0d89fce2c35a8947bd5ac00fcc63e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338632"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427632"
 ---
 # <a name="addmarkup-cell-document-properties-section"></a>AddMarkup, cellule (section Document Properties)
 
 Indique si le document est en révision pour marque de révision.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Document en révision.  <br/> |
 |FALSE  <br/> |Document pas en révision (valeur par défaut).  <br/> |

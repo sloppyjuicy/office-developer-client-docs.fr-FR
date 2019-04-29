@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: dccb6b19af72d0f748a3a513b7f3d78904ebc789
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315133"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431119"
 ---
 # <a name="currency"></a>CURRENCY
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 463d81a6692b6071cada0ad22e7343020563e41c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350889"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431546"
 ---
 # <a name="idistlist--imapicontainer"></a>IDistList : IMAPIContainer
 
@@ -41,10 +41,10 @@ Permet d'accéder à des listes de distribution dans des conteneurs de carnet d'
 
 Cette interface n'a pas de méthodes uniques.
   
-|**Propriétés requises**|**Access**|
+|**Propriétés requises**|**Accès**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Lecture seule  <br/> |

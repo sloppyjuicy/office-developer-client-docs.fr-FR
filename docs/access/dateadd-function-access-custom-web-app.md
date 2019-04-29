@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7174c585-86e1-42a3-bb7f-d6641001b0f2
 description: Renvoie une date spécifiée avec l'intervalle de numéros spécifié (entier positif ou négatif) ajouté à une partie de date spécifiée de cette date.
 ms.openlocfilehash: 7cfd68c4983eee22a5e542facd72ea083deb3184
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282179"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423201"
 ---
 # <a name="dateadd-function-access-custom-web-app"></a>Fonction DateAdd (application Web personnalisée Access)
 
@@ -40,7 +40,7 @@ Le tableau suivant répertorie tous les arguments *DatePart* valides.
 |:-----|
 |**year** <br/> |
 |**trimestre** <br/> |
-|**month** <br/> |
+|**Mois** <br/> |
 |**DayOfYear** <br/> |
 |**day** <br/> |
 |**mensuel** <br/> |

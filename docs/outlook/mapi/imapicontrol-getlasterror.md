@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83290b8e-fffc-41c8-a01e-578d130b65c5
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 10ac4e33b3f734ec2ce3205aa1897e0418cb563d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286620"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421150"
 ---
 # <a name="imapicontrolgetlasterror"></a>IMAPIControl::GetLastError
 

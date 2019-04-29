@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 66468447-2012-4497-b371-c61f64a8bb49
 description: Cette section offre des informations sur la création de modèles de formulaire en code managé qui fonctionnent avec le modèle objet InfoPath fourni par les membres de l'espace de noms Microsoft.Office.InfoPath.
 ms.openlocfilehash: 59167533eba6dd3537b6c5c0170ef32b795b02cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303702"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437986"
 ---
 # <a name="getting-started-developing-form-templates-with-code"></a>Prise en main du développement de modèles de formulaires avec code
 

@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 63d7360a-e3a3-4365-9d46-50df1c715bde
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 9720b649eadecc73d84d98926674a1786796ba70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309519"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431392"
 ---
 # <a name="mapi-string-properties"></a>Propriétés de chaîne MAPI
 

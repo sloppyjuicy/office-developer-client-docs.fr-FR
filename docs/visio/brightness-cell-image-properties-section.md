@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5bb1cc81-f3fd-a835-1449-233dbd1a62b6
 description: Règle la luminosité d'une image bitmap. Réduisez la luminosité de l'image en entrant une valeur comprise entre 0 et 49 % ou augmentez-la en entrant une valeur comprise entre 51 et 100 %. La valeur par défaut est 50 %.
 ms.openlocfilehash: ae1390d2db3adad86a8afcbeaff88172a841d030
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338023"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424790"
 ---
 # <a name="brightness-cell-image-properties-section"></a>Brightness, cellule (section Image Properties)
 

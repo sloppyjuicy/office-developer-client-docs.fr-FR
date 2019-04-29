@@ -5,13 +5,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e4cb1613-7e81-432a-ae3a-7fedb05dac65
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: fc20c259f30ded2f96f3bf314e74207bebcac980
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348474"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422613"
 ---
 # <a name="packedunicodestring-stream-structure"></a>Structure de flux PackedUnicodeString
 

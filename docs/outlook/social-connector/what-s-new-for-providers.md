@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
 description: Cette rubrique répertorie les principales modifications apportées à Outlook Social Connector 2013 (OSC). Il présente une comparaison des fonctionnalités disponibles entre Outlook Social Connector 2013 et Outlook Social Connector 1,1.
 ms.openlocfilehash: 6b735555d312c149d7dc8b827990b96bfc229678
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329112"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435452"
 ---
 # <a name="whats-new-for-providers"></a>Nouveautés pour les fournisseurs
 
@@ -53,13 +53,13 @@ Le tableau suivant indique la disponibilité de différentes fonctionnalités da
 
 Le tableau suivant montre les membres qui ont été ajoutés ou déconseillés à partir de l'interface correspondante.
   
-|**Interface et membre**|**Comment**|
+|**Interface et membre**|**Commentaire**|
 |:-----|:-----|
 |**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |DéConseillée dans Outlook Social Connector 2013. Notez que **ISocialSession:: GetActivities** a également été déconseillé depuis Outlook Social Connector 1,1.  <br/> Pour synchroniser les flux d'activités, vous devez implémenter la méthode [ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md) . Définissez **dynamicActivitiesLookupEx** comme **true**, ce qui entraîne l'invite de la propriété OSC à appeler **ISocialSession2:: GetActivitiesEx** .  <br/> |
    
 Le tableau suivant présente les éléments de schéma qui ont été modifiés.
   
-|**Élément de schéma**|**Comment**|
+|**Élément de schéma**|**Commentaire**|
 |:-----|:-----|
 |**possibilités** <br/> |Ajouté dans Outlook Social Connector 2013: élément **allowChangesToAutoConfigure** .  <br/> DéConseillée dans Outlook Social Connector 2013: élément **cacheActivities** .  <br/> |
 |**person** <br/> |Ajouté dans Outlook Social Connector 2013: **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, **industries**, **Interests**, ** emplacement**, **OtherAddress,**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **compétences**, **écoles**et éléments de **site Web** .  <br/> |

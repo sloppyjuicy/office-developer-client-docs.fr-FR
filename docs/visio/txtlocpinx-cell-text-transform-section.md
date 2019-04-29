@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cbfc4e91-10d1-d50e-3e8a-f269f7123276
 description: "Détermine la coordonnée x du centre de rotation du bloc de texte par rapport à l'origine du bloc de texte. La formule par défaut est la suivante :"
 ms.openlocfilehash: 390f8129e8000a043969eda0ab1c8e4ef62515ef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316449"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425854"
 ---
 # <a name="txtlocpinx-cell-text-transform-section"></a>TxtLocPinX, cellule (section Text Transform)
 

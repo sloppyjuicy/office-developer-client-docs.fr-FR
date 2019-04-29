@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
 description: Renvoie un nombre à virgule flottante aléatoire compris entre 0,0 et 1,0. Elle renvoie un autre nombre chaque fois que la fonction est évaluée, c'est-à-dire une fois par minute, en fonction de l'horloge système.
 ms.openlocfilehash: bab2fd74aff85be85f886e3ac8fe7df113664ae5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360003"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424524"
 ---
 # <a name="rand-function"></a>Fonction RAND
 

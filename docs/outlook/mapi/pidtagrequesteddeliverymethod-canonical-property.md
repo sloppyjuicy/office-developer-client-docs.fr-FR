@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: cc55089b-e389-405e-8174-f5b5ec352f78
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ecfed5684ba2166c1c00c1fd07fa074b4ce9fd79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331415"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434073"
 ---
 # <a name="pidtagrequesteddeliverymethod-canonical-property"></a>Propriété canonique PidTagRequestedDeliveryMethod
 
@@ -38,7 +38,7 @@ Cette propriété contient un tableau binaire des méthodes de remise (fournisse
 
 Le tableau contenu dans cette propriété est composé des identificateurs ASN. 1 pour chacun des fournisseurs de services.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

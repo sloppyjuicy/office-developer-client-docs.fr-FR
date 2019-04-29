@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b2405457-843c-0d46-5f4f-9c413826c3f1
 description: Détermine si la ligne est un menu flottant enfant de la dernière ligne se trouvant au-dessus d’elle si cette dernière n’est pas un menu flottant enfant.
 ms.openlocfilehash: 85524ea33258449f5c9ee0991ac9a64f8f0eebae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346150"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420863"
 ---
 # <a name="flyoutchild-cell-actions-section"></a>FlyoutChild, cellule (section Actions)
 

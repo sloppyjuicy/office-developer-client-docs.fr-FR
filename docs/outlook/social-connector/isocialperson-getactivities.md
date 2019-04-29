@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: cf727140-f6e7-4718-bd74-1f8feeccf70c
 description: Cette méthode a été déconseillée dans Outlook Social Connector 2013.
 ms.openlocfilehash: abad4fc2a3e3aaea8a7097ac7e6f56b0aadae299
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286163"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437741"
 ---
 # <a name="isocialpersongetactivities"></a>ISocialPerson::GetActivities
 

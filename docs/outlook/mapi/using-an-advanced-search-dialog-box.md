@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c9a156e6-3472-4409-a4ba-3a1a65b7bdcd
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 70b62eeaf6e737747c98b3abcd6e7053f71d4308
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329665"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437300"
 ---
 # <a name="using-an-advanced-search-dialog-box"></a>Utilisation d'une boîte de dialogue de recherche avancée
 

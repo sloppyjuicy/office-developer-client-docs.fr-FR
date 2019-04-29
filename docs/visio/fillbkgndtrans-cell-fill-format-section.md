@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 87065350-ba9a-aae8-47f6-f263f6700d08
 description: Détermine le degré de transparence de la couleur d'arrière-plan (remplissage) du motif de remplissage de la forme.
 ms.openlocfilehash: 64c5d09fb18f089769e025893b9fac8b1878fca1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322483"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423208"
 ---
 # <a name="fillbkgndtrans-cell-fill-format-section"></a>FillBkgndTrans, cellule (section Fill Format)
 
 Détermine le degré de transparence de la couleur d'arrière-plan (remplissage) du motif de remplissage de la forme.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).  <br/> |
    

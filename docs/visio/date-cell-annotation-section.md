@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f1f11803-614b-a40d-0a2d-131093e7609e
 description: Contient la date et l'heure du dernier commentaire modifié.
 ms.openlocfilehash: 60fd726db1056075f96519050cffa67c76977126
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360339"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423880"
 ---
 # <a name="date-cell-annotation-section"></a>Date, cellule (section Annotation)
 

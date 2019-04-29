@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: f2d6a11e-847d-6bbe-cd77-e78ee961cb12
 description: Une énumération pour l'état de disponibilité des blocs de disponibilité.
 ms.openlocfilehash: 2a08ef142f9baddd453166c0ebcb989e69a51ceb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319725"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424090"
 ---
 # <a name="fbstatus"></a>FBStatus
 

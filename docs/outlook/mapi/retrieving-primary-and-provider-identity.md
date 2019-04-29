@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d81bb81d-1708-4a8d-a4d5-c3ba087db9b7
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: f59695eca2af71dd592c5b3a755d021ac53b3e31
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328636"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430811"
 ---
 # <a name="retrieving-primary-and-provider-identity"></a>Récupération de l'identité principale et de l'identité du fournisseur
 

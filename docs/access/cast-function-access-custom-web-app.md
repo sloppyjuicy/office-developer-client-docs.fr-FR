@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: b33f649c-d9b5-4ae5-a3fa-8681ed9a956d
 description: ConVertit une expression d'un type de données en une autre.
 ms.openlocfilehash: c3f995aa59e95372bec448bf9e89c2c0616e36eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280787"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425294"
 ---
 # <a name="cast-function-access-custom-web-app"></a>Fonction CAST (application Web personnalisée Access)
 

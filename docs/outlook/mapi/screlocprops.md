@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c73fb96c9620a90ab0505b394fcb9853d02dcde5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360689"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421087"
 ---
 # <a name="screlocprops"></a>ScRelocProps
 

@@ -5,13 +5,13 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 61cda23557a501a2651385d192f1dc7432ef1cb5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332633"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433800"
 ---
 # <a name="upload-message-state"></a>Charger l'état du message
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3b30d6a-05cd-4dd1-a162-20768f12e680
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ddedc2ca0785be2fe4850ec3cfdf979d1e5f2798
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285178"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439442"
 ---
 # <a name="pidlidremotetransport-canonical-property"></a>Propriété canonique PidLidRemoteTransport
 
@@ -39,7 +39,7 @@ Identifie le compte auquel l'élément d'en-tête est associé, principalement p
 
 Cette propriété s'applique uniquement aux messages dont la classe de message est IPM. À. Microsoft Outlook conserve un mappage des différents comptes qui sont téléchargés vers un magasin donné dans un message d'informations sur le dossier (FAI), mais il peut également conserver ces informations dans le registre.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

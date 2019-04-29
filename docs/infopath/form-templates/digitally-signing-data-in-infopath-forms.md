@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7b396d9f-9a47-3170-367f-5d1f0144f927
 description: Une signature numérique est un tampon électronique sécurisé, utilisant le chiffrement, pour l'authentification d'une macro ou d'un document. Une signature numérique confirme que les données proviennent bien du signataire et qu'elles n'ont pas été modifiées depuis la signature. Lorsque des documents ou certaines de leurs données sont signés, la signature est générée et ajoutée au document. De cette façon, les signatures accompagnent toujours les données signées.
 ms.openlocfilehash: 6c1f5a1c14c15bc88839dc44d9a5a595d8b52893
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300244"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425098"
 ---
 # <a name="digitally-signing-data-in-infopath-forms"></a>Signature numérique de données dans des formulaires InfoPath
 

@@ -9,13 +9,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: dae31959cddad7ad61ea32f2372ea34bdbff658e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346353"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423705"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Propriété canonique PidTagReportDisposition
 
@@ -34,7 +34,7 @@ Indique l'état de réception des messages qui demandent des accusés de récept
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs suivantes sont valides :
+Les valeurs valides sont les suivantes :
   
 - supprimés
     
@@ -46,7 +46,7 @@ Les valeurs suivantes sont valides :
     
 - "failed"
     
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

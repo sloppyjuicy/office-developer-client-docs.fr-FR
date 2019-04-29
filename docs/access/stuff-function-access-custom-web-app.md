@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4d8d6a34-f884-40a4-b330-5c104d16cf97
 description: Insère une chaîne de texte dans une autre chaîne de texte. Il supprime une longueur spécifiée de caractères dans la première chaîne à la position de début, puis insère la deuxième chaîne dans la première chaîne à la position de début.
 ms.openlocfilehash: 591823952faa0d593b6db1f5bfb00cc68a894a8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311024"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427674"
 ---
 # <a name="stuff-function-access-custom-web-app"></a>Fonction Stuff (application Web personnalisée Access)
 

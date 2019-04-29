@@ -10,17 +10,17 @@ keywords:
 - fonction FuncFib [Excel 2007]
 localization_priority: Normal
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: fb8f0c12c27fb2c95007eb5006c1d8b90970f3ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310835"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423670"
 ---
 # <a name="funcfib"></a>FuncFib
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Exemple de fonction de feuille de calcul définie par l'utilisateur qui calcule le nième nombre de Fibonacci. Lorsque GENERIC. xll est chargé, il enregistre cette fonction afin qu'elle puisse être appelée à partir de la feuille de calcul.
   

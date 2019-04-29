@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8b5c9e5bb2aa915d4b76d9998baaf504e7929b78
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355614"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424223"
 ---
 # <a name="pidtagremotevalidateok-canonical-property"></a>Propriété canonique PidTagRemoteValidateOk
 
@@ -40,7 +40,7 @@ Cette propriété apparaît dans le tableau d'État et offre un contrôle sur le
   
 Le fournisseur de transport définit généralement cette propriété de manière dynamique, en définissant la valeur sur FALSe pour désactiver les appels supplémentaires lorsque le fournisseur de transport dispose d'une quantité suffisante de traitement à effectuer. Lorsque le fournisseur de transport est effectué, il définit la valeur sur TRUE pour permettre à l'application cliente d'effectuer d'autres **IMAPIStatus:: ValidateState** . 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

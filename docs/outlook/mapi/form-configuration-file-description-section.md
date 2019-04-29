@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4ce91a65-17db-4ee2-ad59-01fd5b1f1ea7
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: ddc59d6c503d44a0575679fce694cc34499d8e2a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320985"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433093"
 ---
 # <a name="form-configuration-file-description-section"></a>Section [Description] du fichier de configuration de formulaire
  

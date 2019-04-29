@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 00d87b92-0da7-37d6-e7b5-23f350db0a9b
 description: Détermine le composant x pour le vecteur d'alignement requis d'un point de connexion correspondant. La cellule DirX / A sert également à orienter la branche reliée d'un connecteur dynamique. Cette cellule prend pour valeur un réel à virgule flottante.
 ms.openlocfilehash: cb86ef1064537911ffd00a66f5c0b7942459f85e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332592"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422396"
 ---
 # <a name="dirx--a-cell-connection-points-section"></a>DirX / A, cellule (section Connection Points)
 

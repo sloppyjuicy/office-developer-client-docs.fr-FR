@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 96b8c503-67b3-8623-d99b-0dad7b15c224
 description: Indique si cette forme peut fractionner les formes fractionnables.
 ms.openlocfilehash: 46b42e9be070b54095d3e9a5c247d63be6348f77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349118"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423558"
 ---
 # <a name="shapesplit-cell-shape-layout-section"></a>ShapeSplit, cellule (section Shape Layout)
 
 Indique si cette forme peut fractionner les formes fractionnables.
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Ne pas autoriser cette forme à en fractionner d’autres.  <br/> |**visSLOSplitNone** <br/> |
 | 0,1  <br/> | Autoriser cette forme à en fractionner d’autres.  <br/> |**visSLOSplitAllow** <br/> |

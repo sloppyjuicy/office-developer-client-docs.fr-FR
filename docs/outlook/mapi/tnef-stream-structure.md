@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8eda1251-3858-4832-ac43-d817b4a7ea59
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7e77c043e4f152740af9bdb2b8fb5b7bedece1c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327383"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430202"
 ---
 # <a name="tnef-stream-structure"></a>Structure de flux TNEF
 

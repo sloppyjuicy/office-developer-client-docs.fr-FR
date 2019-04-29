@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: acf07fd7-6aa6-1a92-9b7a-bd6fea8a7cb2
 description: Détermine si cette forme positionnable se déplace lorsque vous placez une autre forme positionnable à côté d'elle sur la page de dessin.
 ms.openlocfilehash: 6e155103f7bfc70a78826297f441fc9ce78942ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325605"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423894"
 ---
 # <a name="shapeplowcode-cell-shape-layout-section"></a>ShapePlowCode, cellule (section Shape Layout)
 
 Détermine si cette forme positionnable se déplace lorsque vous placez une autre forme positionnable à côté d'elle sur la page de dessin.
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Tracer selon les paramètres de la page.  <br/> |**visSLOPlowDefault** <br/> |
 |0,1  <br/> |Ne tracer aucune forme.  <br/> |**visSLOPlowNever** <br/> |

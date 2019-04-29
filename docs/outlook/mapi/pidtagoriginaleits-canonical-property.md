@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9908039e-6b88-428f-b241-b04144cbcf5c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: cdfbf0e8c5118f87ac058d56ebc8f85369bd5494
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342643"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434710"
 ---
 # <a name="pidtagoriginaleits-canonical-property"></a>Propriété canonique PidTagOriginalEits
 
@@ -34,7 +34,7 @@ Contient une copie des types d'informations codées d'origine (EITs) pour le tex
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Serveur  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

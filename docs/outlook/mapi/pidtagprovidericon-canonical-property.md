@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 55e6c8fb013e544ae04740aeaeb23ac23949cffb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286459"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425637"
 ---
 # <a name="pidtagprovidericon-canonical-property"></a>Propriété canonique PidTagProviderIcon
 
@@ -44,7 +44,7 @@ La valeur de la propriété suivante indique à Outlook de charger l'ID d'icône
   
 Par défaut, si aucune icône personnalisée n'est spécifiée, le fournisseur est représenté par les icônes Outlook par défaut pour l'État en ligne et l'état hors connexion. Le fournisseur peut éventuellement spécifier un nom complet à afficher en regard de l'icône dans la barre d'État. Pour plus d'informations, voir **PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

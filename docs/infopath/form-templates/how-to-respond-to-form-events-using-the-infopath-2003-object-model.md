@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: Vous pouvez écrire du code pour répondre à différents événements qui se produisent lorsqu'un utilisateur remplit un formulaire. Pour utiliser des événements dans InfoPath, vous créez des gestionnaires d'événements dans le Concepteur InfoPath.
 ms.openlocfilehash: b7347f882df991e64bdf4e76c471b1220a84dc58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300097"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433492"
 ---
 # <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Répondre aux événements de formulaire à l'aide du modèle objet InfoPath 2003
 
@@ -27,7 +27,7 @@ Pour plus d'informations sur la création de gestionnaires d'événements InfoPa
 
 Le modèle objet compatible InfoPath 2003 implémente neuf objets exposés dans l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . Le tableau ci-dessous contient une description de chacun des neuf événements InfoPath, en indiquant les gestionnaires d'événements qui lui sont associés. 
   
-|**Name**|**Gestionnaires d’événements**|**Description**|
+|**Nom**|**Gestionnaires d’événements**|**Description**|
 |:-----|:-----|:-----|
 |[DataDOMEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.aspx) <br/> |[OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx) <br/> [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) , [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) <br/> |Renvoie une référence au document XML sous-jacent d'un formulaire, le statut de renvoi et d'autres propriétés contenant des informations relatives au nœud XML lors d'un changement de DOM (Document Object Model) XML. Comprend également une méthode pour générer une erreur.  <br/> |
 |[DocActionEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent.aspx) <br/> |[OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) <br/> |Renvoie une référence au document XML sous-jacent d'un formulaire, le statut de renvoi et le nœud XML source lors d'un clic de bouton dans la zone du formulaire.  <br/> |

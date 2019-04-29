@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c6fd0aba-7c33-b77f-207b-ba704b3e0756
 description: Détermine la forme parente lors de la manipulation de formes avec des poignées de contrôle. Cette cellule définit le comportement de toutes les formes de la page de dessin.
 ms.openlocfilehash: a530c48156043bec0cd58d79aead1a403c17ddce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282907"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422620"
 ---
 # <a name="ctrlasinput-cell-page-layout-section"></a>CtrlAsInput, cellule (section Page Layout)
 
 Détermine la forme parente lors de la manipulation de formes avec des poignées de contrôle. Cette cellule définit le comportement de toutes les formes de la page de dessin.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Définit la forme à laquelle la poignée de contrôle est liée comme parent.  <br/> |
 | FALSE  <br/> | Valeur par défaut. Définit la forme contenant la poignée de contrôle comme parent.  <br/> |

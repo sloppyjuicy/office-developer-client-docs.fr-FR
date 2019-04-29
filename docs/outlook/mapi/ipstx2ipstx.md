@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: abc0afa30aaac75d7980d7de83705ae4c3b43f99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430874"
 ---
 # <a name="ipstx2--ipstx"></a>IPSTX2 : IPSTX
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ac09578-892b-4c72-92f6-c2419ac2efe8
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e816af2ce60b4c06ae14f720cf7c36d58468d09d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350721"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422886"
 ---
 # <a name="pidtagwizardnopstpage-canonical-property"></a>Propriété canonique PidTagWizardNoPstPage
 
@@ -38,7 +38,7 @@ Cette propriété contient la valeur TRUE si l'Assistant Profil doit supprimer l
 
 Les fournisseurs de services peuvent définir cette propriété lors de l'appel d'une fonction basée sur le prototype de fonction [LAUNCHWIZARDENTRY](launchwizardentry.md) . Cette propriété indique à l'Assistant Profil que le fournisseur ne veut pas que la page PST s'affiche pendant la boîte de dialogue de l'utilisateur. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9ea9938ca9f8dd0b25cf2de5199178a76e17b6d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361179"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431322"
 ---
 # <a name="pidtagtnefunprocessedprops-canonical-property"></a>Propriété canonique PidTagTnefUnprocessedProps
 
@@ -38,7 +38,7 @@ Sérialise les propriétés lors du filtrage du format TNEF (Transport Neutral E
 
 Utilisé par Microsoft Outlook et Outlook Web Access (OWA) pour enregistrer le format TNEF d'origine dans les cas où le format TNEF contient des propriétés nommées qui ne peuvent pas être créées dans la Banque.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

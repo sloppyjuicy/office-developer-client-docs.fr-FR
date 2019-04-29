@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e119fa20-08b8-4c8d-93fc-56037220890d
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 139526937380273703a96f91f2bae02a79debc76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322119"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433107"
 ---
 # <a name="about-restrictions"></a>À propos des restrictions
 

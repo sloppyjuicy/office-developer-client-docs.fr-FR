@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 84f4e5f1-7c28-9e83-8644-28d117bb10a5
 description: Détermine la distance séparant une ligne de texte de la suivante, exprimée en pourcentage, où 100 % représente la hauteur d'une ligne de texte.
 ms.openlocfilehash: 82b2604a62608c0cc4333892d678b1eb886a9c7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329861"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434913"
 ---
 # <a name="spline-cell-paragraph-section"></a>SpLine, cellule (section Paragraph)
 
 Détermine la distance séparant une ligne de texte de la suivante, exprimée en pourcentage, où 100 % représente la hauteur d'une ligne de texte.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | \>0  <br/> | Espacement absolu, quelle que soit la taille en points des caractères  <br/> |
 | = 0  <br/> | Total (espacement = 100 % de la taille des caractères)  <br/> |

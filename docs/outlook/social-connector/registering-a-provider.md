@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: b60b3634-4c8b-4273-97a0-0a8a5a8a5342
 description: Cette rubrique décrit les emplacements de Registre Windows qui sont utilisés lors de l'installation d'un fournisseur Outlook Social Connector (OSC).
 ms.openlocfilehash: a5f76850f9bebcba3c2bff31e799a3b012d6b91a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329210"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421759"
 ---
 # <a name="registering-a-provider"></a>Inscription d’un fournisseur
 

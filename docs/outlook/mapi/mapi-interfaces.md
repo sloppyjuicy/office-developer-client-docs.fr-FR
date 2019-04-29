@@ -9,13 +9,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4f5d6a5d2dbb48a86363896bf14b61ed28118330
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346682"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422662"
 ---
 # <a name="mapi-interfaces"></a>Interfaces MAPI
 
@@ -39,7 +39,7 @@ Le premier tableau est un autre tableau répertoriant toutes les méthodes de ce
   
 Après chaque rubrique de l'interface, les méthodes de l'interface sont ensuite documentées par ordre alphabétique. Pour chaque méthode, la documentation inclut une instruction succincte, un bloc de syntaxe et les informations suivantes.
   
-|**Titre**|**Content**|
+|**Titre**|**Contenu**|
 |:-----|:-----|
 |Paramètres  <br/> |Une description de chaque paramètre dans la méthode.  <br/> |
 |Valeur de retour  <br/> |Description des valeurs uniques que la méthode peut renvoyer. Il s'agit des valeurs que les appelants doivent vérifier dans leur code.  <br/> |

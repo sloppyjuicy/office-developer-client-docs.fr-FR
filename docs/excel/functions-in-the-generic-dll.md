@@ -8,17 +8,17 @@ keywords:
 - dll générique [Excel 2007], fonctions, fonctions [Excel 2007], DLL générique
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3064e1a09ad8850e121da678f3702a6236574599
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304087"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420597"
 ---
 # <a name="functions-in-the-generic-dll"></a>Fonctions dans le fichier DLL générique
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Le dossier `\EXAMPLES\GENERIC\` contient les fichiers de projet Microsoft Visual Studio et les fichiers de code source nécessaires à la compilation de l'exemple de dll Generic. XLL. Vous pouvez utiliser ce projet comme modèle pour écrire vos propres XLL Microsoft Excel. Le code source de ce projet illustre de nombreuses fonctionnalités de l'API C Excel. 
   
@@ -36,7 +36,7 @@ GENERIC. xll fournit également trois fonctions de feuille de calcul, func1, Fun
   
 Ce projet utilise la bibliothèque d'infrastructure (FRMWRK32. lib).
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [DIALOGMsgProc](dialogmsgproc.md)
   

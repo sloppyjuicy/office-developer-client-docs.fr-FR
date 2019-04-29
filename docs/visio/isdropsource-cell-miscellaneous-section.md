@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3b20e6ef-f1ac-5bb0-5ac3-4df3ae5e9bf9
 description: Détermine si la forme peut être ajoutée à un groupe en la faisant glisser sur ce groupe.
 ms.openlocfilehash: e8cb02a66f745530f12c7c8be56b9bdd771121b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360171"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421892"
 ---
 # <a name="isdropsource-cell-miscellaneous-section"></a>IsDropSource, cellule (section Miscellaneous)
 
 Détermine si la forme peut être ajoutée à un groupe en la faisant glisser sur ce groupe.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |La forme peut être ajoutée à un groupe par glisser-déposer sur ce groupe.  <br/> |
 |FALSE  <br/> |La forme ne peut être ajoutée au groupe.  <br/> |

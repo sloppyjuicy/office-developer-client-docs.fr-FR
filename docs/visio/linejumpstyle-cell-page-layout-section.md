@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 89f16674-ee1f-f5f9-9830-7bcc52e3a068
 description: Détermine le style de déviation de tous les connecteurs de la page de dessin n'ayant pas de style de déviation local.
 ms.openlocfilehash: 066c96f659061290b825684a479432e6d71f518c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316435"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427240"
 ---
 # <a name="linejumpstyle-cell-page-layout-section"></a>LineJumpStyle, cellule (section Page Layout)
 

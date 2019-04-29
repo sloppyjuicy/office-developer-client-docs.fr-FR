@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 4d3bdf77-0ad4-86a4-d215-1d5a5fbe33f7
 description: Indique si les formes de la page peuvent être fractionnées automatiquement.
 ms.openlocfilehash: 18a40e0876b117556a1e7ab43f640e798dc248c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301483"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422018"
 ---
 # <a name="pageshapesplit-cell-page-layout-section"></a>PageShapeSplit, cellule (section Page Layout)
 
 Indique si les formes de la page peuvent être fractionnées automatiquement.
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Ne pas autoriser le fractionnement automatique des formes.  <br/> |**visPLOSplitNone** <br/> |
 |0,1  <br/> |Autoriser le fractionnement automatique des formes (valeur par défaut).  <br/> |**visPLOSplitAllow** <br/> |

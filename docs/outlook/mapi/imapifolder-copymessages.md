@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 21aa28e1a2c11ee7361fb4921f8d527b3e3ceb44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280126"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424454"
 ---
 # <a name="imapifoldercopymessages"></a>IMAPIFolder::CopyMessages
 
@@ -116,7 +116,7 @@ Utilisez **IMAPIFolder:: CopyMessages** pour remplir les dossiers de résultats 
   
 Attendez-vous à ces valeurs de retour dans les conditions suivantes.
   
-|**Condition**|**Valeur renvoyée**|
+|**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
 |**IMAPIFolder:: CopyMessages** a réussi à copier ou déplacer tous les messages.  <br/> |S_OK  <br/> |
 |**IMAPIFolder:: CopyMessages** n'a pas pu copier ou déplacer tous les messages.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |

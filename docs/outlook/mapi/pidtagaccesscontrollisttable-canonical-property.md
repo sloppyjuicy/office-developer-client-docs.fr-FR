@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 48667fda-ddc4-42ac-9231-761db0a4c1a9
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9c71a2b806b810906c13ea4750e5491b1544f640
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332003"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424503"
 ---
 # <a name="pidtagaccesscontrollisttable-canonical-property"></a>Propriété canonique PidTagAccessControlListTable
 
@@ -38,7 +38,7 @@ Contient un tableau qui se compose de toutes les listes de contrôle d'accès sy
 
 Cette propriété est présente sur tous les objets Folder sur un serveur Exchange. Les valeurs comprises dans cette propriété sont utilisées pour la lecture et la modification de listes de contrôle d'accès (ACL) sur les dossiers. Vous pouvez utiliser la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) avec l'identificateur d'interface **IID_IExchangeModifyTable** pour obtenir une interface [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) dans la table ACL d'un dossier. Vous pouvez utiliser cette interface pour lire et modifier ces listes de Contrã'le d'accès. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

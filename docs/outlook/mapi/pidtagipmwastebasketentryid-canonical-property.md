@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3794386c4461c90f973e4028132cb8220dfaa19b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327858"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426351"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>Propriété canonique PidTagIpmWastebasketEntryId
 
@@ -38,7 +38,7 @@ Contient l'identificateur d'entrée du dossier éléments supprimés de message 
 
 Une application cliente doit déplacer les messages interpersonnels supprimés vers le dossier éléments supprimés. Si le message est déjà dans ce dossier, ou si cette propriété n'est pas prise en charge, le client doit supprimer le message. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

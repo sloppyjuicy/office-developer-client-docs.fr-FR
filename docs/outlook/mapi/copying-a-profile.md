@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b722a157-0d92-404d-9075-39547241dbb7
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 86f381eff1dab0144afe0f94dcd6dd54d1ad7fa8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285229"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424727"
 ---
 # <a name="copying-a-profile"></a>Copie d'un profil
 

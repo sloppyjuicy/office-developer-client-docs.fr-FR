@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 87508007-8ad2-3bcf-55dc-f0207c7c6fe3
 description: "Renvoie TRUE si la valeur de cellreference est un type d'erreur, à l'exception de #N/A; dans le cas contraire, elle renvoie la valeur FALSe. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule."
 ms.openlocfilehash: e2117c38d3cad2408295ed6894aefc78e107596e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297248"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432106"
 ---
 # <a name="iserr-function"></a>Fonction ISERR
 
@@ -32,7 +32,7 @@ ISERR (* * *cellreference* * *)
    
 ## <a name="example-1"></a>Exemple 1
 
-|**Cell**|**Formula**|**Valeur renvoyée**|
+|**Cellule**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
 |Scratch. a1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch. B1  <br/> |= ISERR (Scratch. a1)  <br/> |FALSE  <br/> |
@@ -41,7 +41,7 @@ Renvoie FALSE parce que l’erreur #N/A! n’est pas reconnue par la fonction IS
   
 ## <a name="example-2"></a>Exemple 2
 
-|**Cell**|**Formula**|**Valeur renvoyée**|
+|**Cellule**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
 |Scratch. x1  <br/> |= «Maison»  <br/> |#VALUE!  <br/> |
 |Scratch. a1  <br/> |= ISERR (Scratch. X1)  <br/> |TRUE  <br/> |

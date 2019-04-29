@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ea95a90c-4729-4689-a6f4-31dfccf37b9b
 description: Détermine l'index de couleur de la variation de thème active sur la page, sous la forme d'un entier.
 ms.openlocfilehash: 7582b779fb5be6bdf3528da137b1b08b8cd9c01a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355880"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431770"
 ---
 # <a name="variationcolorindex-cell-theme-properties-section"></a>VariationColorIndex Cell (Theme Properties Section)
 

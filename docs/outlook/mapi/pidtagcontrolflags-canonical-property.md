@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b97a9e72-fbb7-49ab-a19d-5e9bd1b8a80d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 099f08876eadc83ebb66b9e4226eeeee6277bf01
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331863"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430881"
 ---
 # <a name="pidtagcontrolflags-canonical-property"></a>Propriété canonique PidTagControlFlags
 
@@ -74,13 +74,13 @@ Certains indicateurs de contrôle ne sont pas si évidents dans leur sens. Lorsq
   
 Le tableau suivant répertorie les types de contrôles et toutes les valeurs d'indicateur pouvant être définies pour chaque type.
   
-|**Contrôle**|**Valeurs valides pour cette propriété**|
+|**Control**|**Valeurs valides pour cette propriété**|
 |:-----|:-----|
 |Bouton  <br/> |Doit être égal à zéro  <br/> |
 |Case à cocher  <br/> |DT_EDITABLE, DT_SET_IMMEDIATE  <br/> |
 |Zone de liste modifiable  <br/> |DT_EDITABLE, DT_REQUIRED, DT_SET_IMMEDIATE  <br/> |
 |Zone de liste déRoulante  <br/> |DT_EDITABLE, DT_SET_IMMEDIATE  <br/> |
-|Modifier  <br/> |DT_ACCEPT_DBCS, DT_MULTILINE, DT_EDITABLE, DT_PASSWORD_EDIT, DT_REQUIRED, DT_SET_IMMEDIATE  <br/> |
+|Edit  <br/> |DT_ACCEPT_DBCS, DT_MULTILINE, DT_EDITABLE, DT_PASSWORD_EDIT, DT_REQUIRED, DT_SET_IMMEDIATE  <br/> |
 |Zone de groupe  <br/> |Doit être égal à zéro  <br/> |
 |Étiquette  <br/> |Doit être égal à zéro  <br/> |
 |Zone de liste  <br/> |Doit être égal à zéro  <br/> |
@@ -89,7 +89,7 @@ Le tableau suivant répertorie les types de contrôles et toutes les valeurs d'i
 |Page à onglets  <br/> |Doit être égal à zéro  <br/> |
 |Case d'option  <br/> |Doit être égal à zéro  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

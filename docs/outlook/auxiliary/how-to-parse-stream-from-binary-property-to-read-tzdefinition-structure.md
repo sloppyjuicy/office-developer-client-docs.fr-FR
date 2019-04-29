@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 039b3a45-bd57-51f5-1485-a3f6d1bde85a
 description: Cette rubrique montre comment lire la structure TZDEFINITION à partir du format persistant stocké dans une propriété binaire.
 ms.openlocfilehash: a685fbfcf918e13aa82ac32799997bb05730184e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317646"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434206"
 ---
 # <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a>Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZDEFINITION
 
@@ -85,6 +85,6 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de persistance TZDEFINITION dans un flux de valider une propriété binaire](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [À propos de la persistance de TZDEFINITION dans un flux de validation dans une propriété binaire](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
 - [Lire les propriétés de fuseau horaire à partir d’un rendez-vous](how-to-read-time-zone-properties-from-an-appointment.md)
 

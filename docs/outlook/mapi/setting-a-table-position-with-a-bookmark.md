@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f0b041cecca92c0ced32631c67c72fcafdab2a16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351232"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422459"
 ---
 # <a name="setting-a-table-position-with-a-bookmark"></a>Définition d'une position de table avec un signet
 

@@ -9,13 +9,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5290cc871f47d9410651492fd520520d7f2e5e77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339913"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421647"
 ---
 # <a name="mapi-structures"></a>Structures MAPI
 
@@ -28,7 +28,7 @@ Les entrées classées ci-dessous décrivent les structures MAPI. Pour plus d'in
 |||
 |:-----|:-----|
 |[ADRENTRY](adrentry.md) <br/> |[ADRLIST](adrlist.md) <br/> |
-|[ADRPARM](adrparm.md) <br/> |[CONCURRENT](currency.md) <br/> |
+|[ADRPARM](adrparm.md) <br/> |[CURRENCY](currency.md) <br/> |
 |[CONTAB_ENTRYID](contab_entryid.md) <br/> |[DIR_ENTRYID](dir_entryid.md) <br/> |
 |[DTBLBUTTON](dtblbutton.md) <br/> |[DTBLCHECKBOX](dtblcheckbox.md) <br/> |
 |[DTBLCOMBOBOX](dtblcombobox.md) <br/> |[DTBLDDLBX](dtblddlbx.md) <br/> |
@@ -37,7 +37,7 @@ Les entrées classées ci-dessous décrivent les structures MAPI. Pour plus d'in
 |[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |
 |[DTBLPAGE](dtblpage.md) <br/> |[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |
 |[DTCTL](dtctl.md) <br/> |[DTPAGE](dtpage.md) <br/> |
-|[ENTRÉE](entryid.md) <br/> |[ENTRYLIST](entrylist.md) <br/> |
+|[ENTRYID](entryid.md) <br/> |[ENTRYLIST](entrylist.md) <br/> |
 |[ERROR_NOTIFICATION](error_notification.md) <br/> |[EXTENDED_NOTIFICATION](extended_notification.md) <br/> |
 |[FILETIME](filetime.md) <br/> |[FLAGLIST](flaglist.md) <br/> |
 |[FLATENTRY](flatentry.md) <br/> |[FLATENTRYLIST](flatentrylist.md) <br/> |
@@ -79,5 +79,5 @@ Les entrées classées ci-dessous décrivent les structures MAPI. Pour plus d'in
 [Fonctions, rappels et macros MAPI](mapi-functions-callbacks-and-macros.md)
 
 
-[R�f�rence MAPI (en anglais)](mapi-reference.md)
+[Référence MAPI](mapi-reference.md)
 

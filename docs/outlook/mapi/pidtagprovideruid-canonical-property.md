@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0d79075ea1db451e0c3d327df9a662e5032ebb22
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286414"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422774"
 ---
 # <a name="pidtagprovideruid-canonical-property"></a>Propriété canonique PidTagProviderUid
 
@@ -40,7 +40,7 @@ Cette propriété est calculée par tous les fournisseurs de services. Elle cont
   
 Cette propriété apparaît uniquement sous la forme d'une entrée de colonne dans la table des fournisseurs.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

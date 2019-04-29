@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38429fdb-be93-213a-a780-80f9837f55fa
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 85a8b5216eac1dd4e4cebd1313cb31c9b5d70227
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337078"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434549"
 ---
 # <a name="display-server-folder-sizes-property"></a>Propriété d'affichage des tailles de dossier du serveur
 
@@ -35,7 +35,7 @@ Affiche les tailles des dossiers spécifiés sur le serveur dans la boîte de di
 |Créé par:  <br/> |Fournisseur de magasin  <br/> |
 |Accès par:  <br/> |Outlook et d'autres clients  <br/> |
 |Type de propriété:  <br/> |PT_BOOLEAN  <br/> |
-|Type d'accès:  <br/> |En lecture-écriture.  <br/> |
+|Type d'accès:  <br/> |Lecture/écriture  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

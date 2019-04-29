@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: fd29afc93bc952bb619dfac752fae232bf7991cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327851"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437321"
 ---
 # <a name="pidtagipmsentmailentryid-canonical-property"></a>Propriété canonique PidTagIpmSentMailEntryId
 
@@ -38,7 +38,7 @@ Contient l'identificateur d'entrée du dossier éléments envoyés par le messag
 
 Après l'envoi, les messages interpersonnels sont généralement placés dans le dossier éléments envoyés. Un client peut utiliser cette propriété pour définir la propriété **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) sur un message envoyé. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

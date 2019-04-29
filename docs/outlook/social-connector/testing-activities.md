@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 98343c36-5e32-4d07-b474-adfeca693135
 description: Cette rubrique décrit les tests et les scénarios permettant de vérifier que le fournisseur Outlook Social Connector (OSC) utilise la synchronisation à la demande pour retourner correctement les activités des amis et des non-amis.
 ms.openlocfilehash: 0a40dca84681a9e758c2f17d2647c339ded70462
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329182"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436299"
 ---
 # <a name="testing-activities"></a>Test des activités
 

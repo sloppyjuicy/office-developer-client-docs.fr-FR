@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0fb867d662064dfe5ff7759dba4b36a4635a2914
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346836"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427726"
 ---
 # <a name="hrthisthreadadvisesink"></a>HrThisThreadAdviseSink
 
