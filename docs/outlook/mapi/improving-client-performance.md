@@ -7,18 +7,18 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 35d68d27-7e58-4484-be55-a64f467c75cd
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: abf54a7c4c449c0e89bc1f647e7657f6850f4fd5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309995"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405960"
 ---
-# <a name="improving-client-performance"></a><span data-ttu-id="540e4-103">Amélioration des performances du client</span><span class="sxs-lookup"><span data-stu-id="540e4-103">Improving client performance</span></span>
+# <a name="improving-client-performance"></a><span data-ttu-id="1924b-103">Amélioration des performances du client</span><span class="sxs-lookup"><span data-stu-id="1924b-103">Improving client performance</span></span>
  
-<span data-ttu-id="540e4-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="540e4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1924b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1924b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="540e4-105">Les rubriques de cette section contiennent des conseils qui vous aident à créer une application cliente avec les meilleures performances possibles.</span><span class="sxs-lookup"><span data-stu-id="540e4-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
+<span data-ttu-id="1924b-105">Les rubriques de cette section contiennent des conseils qui vous aident à créer une application cliente avec les meilleures performances possibles.</span><span class="sxs-lookup"><span data-stu-id="1924b-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
   
 

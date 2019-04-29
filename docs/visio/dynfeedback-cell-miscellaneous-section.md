@@ -10,36 +10,36 @@ localization_priority: Normal
 ms.assetid: 44017319-7146-3431-e476-fbb1a40341ca
 description: Modifie l'aspect que prend un connecteur lorsqu'il est glissé sur la page de dessin. Lorsque le bouton de la souris est relâché, la forme du connecteur qui en résulte n'est pas affectée par ce paramètre. Ce réglage ne s'applique pas aux connecteurs repositionnables.
 ms.openlocfilehash: 823b8db4dc6afe94a5fdac1f62aaa48d7e1b0d80
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315742"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404798"
 ---
-# <a name="dynfeedback-cell-miscellaneous-section"></a><span data-ttu-id="7d5de-105">DynFeedback, cellule (section Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="7d5de-105">DynFeedback Cell (Miscellaneous Section)</span></span>
+# <a name="dynfeedback-cell-miscellaneous-section"></a><span data-ttu-id="e1d88-105">DynFeedback, cellule (section Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="e1d88-105">DynFeedback Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="7d5de-p102">Modifie l'aspect que prend un connecteur lorsqu'il est glissé sur la page de dessin. Lorsque le bouton de la souris est relâché, la forme du connecteur qui en résulte n'est pas affectée par ce paramètre. Ce réglage ne s'applique pas aux connecteurs repositionnables.</span><span class="sxs-lookup"><span data-stu-id="7d5de-p102">Changes the type of visual feedback provided to users when they drag a connector. When the mouse button is released, the resulting connector shape is not affected by this setting. This setting does not apply to routable connectors.</span></span>
+<span data-ttu-id="e1d88-p102">Modifie l'aspect que prend un connecteur lorsqu'il est glissé sur la page de dessin. Lorsque le bouton de la souris est relâché, la forme du connecteur qui en résulte n'est pas affectée par ce paramètre. Ce réglage ne s'applique pas aux connecteurs repositionnables.</span><span class="sxs-lookup"><span data-stu-id="e1d88-p102">Changes the type of visual feedback provided to users when they drag a connector. When the mouse button is released, the resulting connector shape is not affected by this setting. This setting does not apply to routable connectors.</span></span>
   
-|<span data-ttu-id="7d5de-109">**Value**</span><span class="sxs-lookup"><span data-stu-id="7d5de-109">**Value**</span></span>|<span data-ttu-id="7d5de-110">**Description**</span><span class="sxs-lookup"><span data-stu-id="7d5de-110">**Description**</span></span>|<span data-ttu-id="7d5de-111">**Constante d'automation**</span><span class="sxs-lookup"><span data-stu-id="7d5de-111">**Automation constant**</span></span>|
+|<span data-ttu-id="e1d88-109">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="e1d88-109">**Value**</span></span>|<span data-ttu-id="e1d88-110">**Description**</span><span class="sxs-lookup"><span data-stu-id="e1d88-110">**Description**</span></span>|<span data-ttu-id="e1d88-111">**Constante d'automation**</span><span class="sxs-lookup"><span data-stu-id="e1d88-111">**Automation constant**</span></span>|
 |:-----|:-----|:-----|
-| <span data-ttu-id="7d5de-112">0</span><span class="sxs-lookup"><span data-stu-id="7d5de-112">0</span></span>  <br/> | <span data-ttu-id="7d5de-113">Reste droit (aucune branche)</span><span class="sxs-lookup"><span data-stu-id="7d5de-113">Remains straight (no legs).</span></span>  <br/> |<span data-ttu-id="7d5de-114">**visDynFBDefault**</span><span class="sxs-lookup"><span data-stu-id="7d5de-114">**visDynFBDefault**</span></span> <br/> |
-| <span data-ttu-id="7d5de-115">0,1</span><span class="sxs-lookup"><span data-stu-id="7d5de-115">1</span></span>  <br/> | <span data-ttu-id="7d5de-116">Affiche trois branches lors du déplacement.</span><span class="sxs-lookup"><span data-stu-id="7d5de-116">Shows three legs when dragged.</span></span>  <br/> |<span data-ttu-id="7d5de-117">**visDynFBUCon3Leg**</span><span class="sxs-lookup"><span data-stu-id="7d5de-117">**visDynFBUCon3Leg**</span></span> <br/> |
-| <span data-ttu-id="7d5de-118">n°2</span><span class="sxs-lookup"><span data-stu-id="7d5de-118">2</span></span>  <br/> | <span data-ttu-id="7d5de-119">Affiche cinq branches lors du déplacement.</span><span class="sxs-lookup"><span data-stu-id="7d5de-119">Shows five legs when dragged.</span></span>  <br/> |<span data-ttu-id="7d5de-120">**visDynFBUCon5Leg**</span><span class="sxs-lookup"><span data-stu-id="7d5de-120">**visDynFBUCon5Leg**</span></span> <br/> |
+| <span data-ttu-id="e1d88-112">0</span><span class="sxs-lookup"><span data-stu-id="e1d88-112">0</span></span>  <br/> | <span data-ttu-id="e1d88-113">Reste droit (aucune branche)</span><span class="sxs-lookup"><span data-stu-id="e1d88-113">Remains straight (no legs).</span></span>  <br/> |<span data-ttu-id="e1d88-114">**visDynFBDefault**</span><span class="sxs-lookup"><span data-stu-id="e1d88-114">**visDynFBDefault**</span></span> <br/> |
+| <span data-ttu-id="e1d88-115">0,1</span><span class="sxs-lookup"><span data-stu-id="e1d88-115">1</span></span>  <br/> | <span data-ttu-id="e1d88-116">Affiche trois branches lors du déplacement.</span><span class="sxs-lookup"><span data-stu-id="e1d88-116">Shows three legs when dragged.</span></span>  <br/> |<span data-ttu-id="e1d88-117">**visDynFBUCon3Leg**</span><span class="sxs-lookup"><span data-stu-id="e1d88-117">**visDynFBUCon3Leg**</span></span> <br/> |
+| <span data-ttu-id="e1d88-118">n°2</span><span class="sxs-lookup"><span data-stu-id="e1d88-118">2</span></span>  <br/> | <span data-ttu-id="e1d88-119">Affiche cinq branches lors du déplacement.</span><span class="sxs-lookup"><span data-stu-id="e1d88-119">Shows five legs when dragged.</span></span>  <br/> |<span data-ttu-id="e1d88-120">**visDynFBUCon5Leg**</span><span class="sxs-lookup"><span data-stu-id="e1d88-120">**visDynFBUCon5Leg**</span></span> <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7d5de-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="7d5de-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e1d88-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="e1d88-121">Remarks</span></span>
 
-<span data-ttu-id="7d5de-122">Pour obtenir une référence à la cellule DynFeedback par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="7d5de-122">To get a reference to the DynFeedback cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="e1d88-122">Pour obtenir une référence à la cellule DynFeedback par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="e1d88-122">To get a reference to the DynFeedback cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="7d5de-123">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="7d5de-123">Cell name:</span></span>  <br/> | <span data-ttu-id="7d5de-124">DynFeedback</span><span class="sxs-lookup"><span data-stu-id="7d5de-124">DynFeedback</span></span>  <br/> |
+| <span data-ttu-id="e1d88-123">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="e1d88-123">Cell name:</span></span>  <br/> | <span data-ttu-id="e1d88-124">DynFeedback</span><span class="sxs-lookup"><span data-stu-id="e1d88-124">DynFeedback</span></span>  <br/> |
    
-<span data-ttu-id="7d5de-125">Pour obtenir une référence à la cellule DynFeedback à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="7d5de-125">To get a reference to the DynFeedback cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="e1d88-125">Pour obtenir une référence à la cellule DynFeedback à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="e1d88-125">To get a reference to the DynFeedback cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="7d5de-126">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="7d5de-126">Section index:</span></span>  <br/> |<span data-ttu-id="7d5de-127">**Définis**</span><span class="sxs-lookup"><span data-stu-id="7d5de-127">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="7d5de-128">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="7d5de-128">Row index:</span></span>  <br/> |<span data-ttu-id="7d5de-129">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="7d5de-129">**visRowMisc**</span></span> <br/> |
-| <span data-ttu-id="7d5de-130">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="7d5de-130">Cell index:</span></span>  <br/> |<span data-ttu-id="7d5de-131">**visDynFeedback**</span><span class="sxs-lookup"><span data-stu-id="7d5de-131">**visDynFeedback**</span></span> <br/> |
+| <span data-ttu-id="e1d88-126">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="e1d88-126">Section index:</span></span>  <br/> |<span data-ttu-id="e1d88-127">**Définis**</span><span class="sxs-lookup"><span data-stu-id="e1d88-127">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="e1d88-128">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="e1d88-128">Row index:</span></span>  <br/> |<span data-ttu-id="e1d88-129">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="e1d88-129">**visRowMisc**</span></span> <br/> |
+| <span data-ttu-id="e1d88-130">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="e1d88-130">Cell index:</span></span>  <br/> |<span data-ttu-id="e1d88-131">**visDynFeedback**</span><span class="sxs-lookup"><span data-stu-id="e1d88-131">**visDynFeedback**</span></span> <br/> |
    
 

@@ -11,43 +11,43 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 11f078c0e2071e6f58a85dbe627b2ced676bacb9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329504"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405526"
 ---
-# <a name="cbnewentryid"></a><span data-ttu-id="96d39-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="96d39-103">CbNewENTRYID</span></span>
+# <a name="cbnewentryid"></a><span data-ttu-id="913c0-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="913c0-103">CbNewENTRYID</span></span>
 
   
   
-<span data-ttu-id="96d39-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="96d39-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="913c0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="913c0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="96d39-105">Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [EntryID](entryid.md) d'une taille spécifiée.</span><span class="sxs-lookup"><span data-stu-id="96d39-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
+<span data-ttu-id="913c0-105">Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [EntryID](entryid.md) d'une taille spécifiée.</span><span class="sxs-lookup"><span data-stu-id="913c0-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="96d39-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="96d39-106">Header file:</span></span>  <br/> |<span data-ttu-id="96d39-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="96d39-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="96d39-108">Structure associée:</span><span class="sxs-lookup"><span data-stu-id="96d39-108">Related structure:</span></span>  <br/> |<span data-ttu-id="96d39-109">**ENTRÉE**</span><span class="sxs-lookup"><span data-stu-id="96d39-109">**ENTRYID**</span></span> <br/> |
+|<span data-ttu-id="913c0-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="913c0-106">Header file:</span></span>  <br/> |<span data-ttu-id="913c0-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="913c0-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="913c0-108">Structure associée:</span><span class="sxs-lookup"><span data-stu-id="913c0-108">Related structure:</span></span>  <br/> |<span data-ttu-id="913c0-109">**ENTRYID**</span><span class="sxs-lookup"><span data-stu-id="913c0-109">**ENTRYID**</span></span> <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="96d39-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="96d39-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="913c0-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="913c0-110">Parameters</span></span>
 
- <span data-ttu-id="96d39-111">__CB_</span><span class="sxs-lookup"><span data-stu-id="96d39-111">__cb_</span></span>
+ <span data-ttu-id="913c0-111">__CB_</span><span class="sxs-lookup"><span data-stu-id="913c0-111">__cb_</span></span>
   
-> <span data-ttu-id="96d39-112">Nombre d'octets dans l'identificateur d'entrée à stocker dans la nouvelle structure **EntryID** .</span><span class="sxs-lookup"><span data-stu-id="96d39-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
+> <span data-ttu-id="913c0-112">Nombre d'octets dans l'identificateur d'entrée à stocker dans la nouvelle structure **EntryID** .</span><span class="sxs-lookup"><span data-stu-id="913c0-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="96d39-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="96d39-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="913c0-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="913c0-113">See also</span></span>
 
 
 
-[<span data-ttu-id="96d39-114">ENTRÉE</span><span class="sxs-lookup"><span data-stu-id="96d39-114">ENTRYID</span></span>](entryid.md)
+[<span data-ttu-id="913c0-114">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="913c0-114">ENTRYID</span></span>](entryid.md)
 
 
-[<span data-ttu-id="96d39-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="96d39-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="913c0-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="913c0-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 
