@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ab937a00-84c2-6c1c-9080-b7c95ead4f63
 description: Détermine la mise en forme d'un champ de texte qui est une chaîne, un nombre, une date ou une heure, une durée ou une devise.
 ms.openlocfilehash: c1c7fc7e9c699b7642369fbb979c005829b06cb8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346017"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431518"
 ---
 # <a name="format-cell-text-fields-section"></a>Format, cellule (section Text Fields)
 

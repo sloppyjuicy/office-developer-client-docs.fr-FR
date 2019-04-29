@@ -11,17 +11,17 @@ keywords:
 - fonction FreeXLOperT [Excel 2007], fonction FreeXLOper12T [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 0b604cbe5cb24ac7d8de28278dfbcf0d4fd92c7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304073"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421521"
 ---
 # <a name="freexlopertfreexloper12t"></a>FreeXLOperT/FreeXLOper12T
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Fonction d'infrastructure qui libère la mémoire associée à une expression **XLOPER**/ ****. La fonction suppose que la mémoire ait été allouée avec des appels à malloc au sein de la DLL. Si la mémoire a été allouée par Microsoft Excel, d'une autre manière ou par un autre processus, cette fonction ne doit pas être utilisée pour libérer de la mémoire. Utilisez [xlFree](xlfree.md) pour libérer de la mémoire allouée par Excel pour **XLOPER**/ **XLOPER12**s. 
   

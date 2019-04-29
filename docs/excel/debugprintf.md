@@ -10,17 +10,17 @@ keywords:
 - fonction debugPrintf [Excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 08bde61573874c137b18856fd24d23b324a35328
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311003"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424797"
 ---
 # <a name="debugprintf"></a>debugPrintf
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Fonction de bibliothèque d'infrastructure qui écrit une chaîne d'octets terminée par un caractère null vers le débogueur actif via la fonction **OutputDebugStringA**du kit de développement logiciel (SDK) Windows. Si l'application n'a pas de débogueur, le débogueur système affiche la chaîne. Si l'application n'a pas de débogueur et que le débogueur système n'est pas actif, **debugPrintf** n'a aucun effet. 
   

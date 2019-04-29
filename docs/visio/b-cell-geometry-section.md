@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b0fb6a47-47d8-ab9c-854d-0b0bbfdfcc27
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule B pour chaque ligne.
 ms.openlocfilehash: ff032b5af2918ec9865360ede5c3d76e8e872e9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346241"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423306"
 ---
 # <a name="b-cell-geometry-section"></a>B, cellule (section Geometry)
 

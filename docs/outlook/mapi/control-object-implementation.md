@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 8304021565638f8a5893d0be8cd6a94ed62a8d95
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335657"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422606"
 ---
 # <a name="control-object-implementation"></a>Implémentation d'un objet de contrôle
 

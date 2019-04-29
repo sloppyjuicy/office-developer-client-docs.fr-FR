@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7f9ffa21-25bc-4d9a-9f9a-58c972f3bfd7
 description: Crée un nouvel enregistrement vide dans la vue active.
 ms.openlocfilehash: 99dfce439fb79aaf364bc4874029df0f2046dac8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308175"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424594"
 ---
 # <a name="newrecord-macro-action-access-custom-web-app"></a>NewRecord, action de macro (application Web personnalisée Access)
 

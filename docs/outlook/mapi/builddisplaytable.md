@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0846415b-6fe1-4504-8620-108af6719015
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8c5e6078be05ff846b7737ff53e9a6338fcb2141
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318094"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431595"
 ---
 # <a name="builddisplaytable"></a>BuildDisplayTable
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5e31896354141999e02f2cba117ef9739340be61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329490"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424237"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
@@ -53,11 +53,11 @@ Effectue des opérations sur les messages et les sous-dossiers d'un dossier.
 |[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Définit l'ordre de tri par défaut pour la table des matières d'un dossier.  <br/> |
 |[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Supprime tous les messages et sous-dossiers d'un dossier sans supprimer le dossier lui-même.  <br/> |
    
-|**Propriétés requises**|**Access**|
+|**Propriétés requises**|**Accès**|
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Lecture seule  <br/> |
-|**PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |
+|**PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Lecture seule  <br/> |

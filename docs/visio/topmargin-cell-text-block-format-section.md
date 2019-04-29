@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c599b444-4d0e-a855-b04b-dd9dcaedf263
 description: Définit la distance séparant le bord supérieur du bloc de texte de la première ligne de texte qui y figure. La valeur par défaut est 40 000 points. Cette valeur est indépendante de l'échelle du dessin. Si le dessin est mis à l'échelle, la marge supérieure ne change pas.
 ms.openlocfilehash: 97d349fd4ddc3c76cda61e1ee7ce25909161e6fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280923"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435571"
 ---
 # <a name="topmargin-cell-text-block-format-section"></a>TopMargin, cellule (section Text Block Format)
 

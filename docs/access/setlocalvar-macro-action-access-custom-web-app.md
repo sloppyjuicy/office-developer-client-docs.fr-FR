@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 12444313-1cfa-49ff-89da-3030fe75c13e
-description: L'action DéfinirVarLocale crée une variable temporaire et lui affecte une valeur spécifique.
+description: Le DéfinirVarLocale action crée une variable temporaire et définissez-la sur une valeur spécifique.
 ms.openlocfilehash: 2493bc5c908c551e171a8fa7d9eaeea699a04f72
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310940"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428115"
 ---
 # <a name="setlocalvar-macro-action-access-custom-web-app"></a>DéfinirVarLocale, action de macro (application Web personnalisée Access)
 
-L'action **DéfinirVarLocale** crée une variable temporaire et lui affecte une valeur spécifique. 
+Le **DéfinirVarLocale** action crée une variable temporaire et définissez-la sur une valeur spécifique. 
   
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
@@ -24,13 +24,13 @@ L'action **DéfinirVarLocale** crée une variable temporaire et lui affecte une 
 > [!NOTE]
 > L'action **DéfinirVarLocale** est disponible uniquement dans les macros de données. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
-L’action **DéfinirVarLocale** utilise les arguments suivants. 
+L’action **DéfinirVarTemp** utilise les arguments suivants : 
   
 |**Nom de l’argument**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
 |**Nom** <br/> |Oui  <br/> |Chaîne qui spécifie le nom de la variable.  <br/> |
-|**Expression** <br/> |Oui  <br/> |Expression qui sera utilisée pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression du signe égal (=). Vous pouvez cliquer sur le bouton **générer** pour utiliser le **Générateur d'expression** afin de définir cet argument.  <br/> |
+|**Expression** <br/> |Oui  <br/> |Expression destiné à être utilisé pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression d’un signe égal (=). Vous pouvez cliquer sur le bouton **Générer** afin d’utiliser le **Générateur d’expressions** pour définir cet argument.  <br/> |
    
 
