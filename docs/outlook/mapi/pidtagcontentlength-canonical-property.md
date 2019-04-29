@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f2110682be9296a874e6f42d40a375b69d201431
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331884"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435151"
 ---
 # <a name="pidtagcontentlength-canonical-property"></a>Propriété canonique PidTagContentLength
 
@@ -34,7 +34,7 @@ Contient une longueur de message, en octets, passée à une application cliente 
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Exchange  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 633e71e6-fdab-4453-8921-9bc0d5752b26
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 30e78eb4dbd0741df15ebfaf9ee6e98f1c5bf9b8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338233"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419652"
 ---
 # <a name="pidtagphysicalforwardingaddressrequested-canonical-property"></a>Propriété canonique PidTagPhysicalForwardingAddressRequested
 
@@ -34,7 +34,7 @@ Contient la valeur TRUE si un expéditeur de message demande à l'agent de trans
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

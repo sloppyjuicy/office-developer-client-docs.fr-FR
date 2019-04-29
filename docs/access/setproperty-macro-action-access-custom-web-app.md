@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1e97dd95-23f6-4f49-b3b9-2c7261b3a70d
 description: Vous pouvez utiliser l'action DéfinirPropriété pour définir une propriété pour un contrôle sur une vue.
 ms.openlocfilehash: 1876be32606d66e0570c9e69206a508b8888b157
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307888"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438028"
 ---
 # <a name="setproperty-macro-action-access-custom-web-app"></a>SetProperty, action de macro (application Web personnalisée Access)
 

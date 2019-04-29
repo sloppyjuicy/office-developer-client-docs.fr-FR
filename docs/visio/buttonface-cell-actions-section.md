@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cf15b879-a47e-a5a5-bfdd-1d7ea423742f
 description: Identifie l’icône qui s’affiche en regard d’une option de menu contextuel ou de balise d’action.
 ms.openlocfilehash: 7ee9c4e7e857acb34ce75429aa0aaf679320b0e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337547"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407374"
 ---
 # <a name="buttonface-cell-actions-section"></a>ButtonFace, cellule (section Actions)
 

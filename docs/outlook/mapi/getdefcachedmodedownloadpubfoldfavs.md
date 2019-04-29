@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dd95561-ed8f-8a3b-6532-b53556f16666
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5e623c9d40ffd2dd276bd9601676244644bb3402
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299887"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417706"
 ---
 # <a name="getdefcachedmodedownloadpubfoldfavs"></a>GetDefCachedModeDownloadPubFoldFavs
 
@@ -44,7 +44,7 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
     
 ## <a name="return-values"></a>Valeurs de retour
 
- **true**
+ **a**
   
 - La mise en cache est activée.
     

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 30f50a94-88dc-41a3-bb46-45c92d6817a4
 description: Détermine le type de matériau composé par le biseau.
 ms.openlocfilehash: b8efaa1f84594c803c79be02cd88dda1a5346dc7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315763"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414584"
 ---
 # <a name="bevelmaterialtype-cell-bevel-properties-section"></a>BevelMaterialType Cell (Bevel Properties Section)
 
@@ -30,8 +30,8 @@ Détermine le type de matériau composé par le biseau.
 |7j/7  <br/> |À deux dimensions  <br/> |
 |8bits  <br/> |Maquette  <br/> |
 |4,9  <br/> |En  <br/> |
-|10  <br/> |Poudre transparente  <br/> |
-|a4  <br/> |Effacer  <br/> |
+|10   <br/> |Poudre transparente  <br/> |
+|11   <br/> |Effacer  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

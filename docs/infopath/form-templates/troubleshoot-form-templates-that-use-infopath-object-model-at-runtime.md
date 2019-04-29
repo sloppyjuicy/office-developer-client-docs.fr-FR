@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 65e7882e-6397-4375-9bb4-d993d700d749
 description: Les sections suivantes décrivent les scénarios de résolution des problèmes courants que vous pouvez rencontrer lors de l'utilisation de modèles de formulaires InfoPath avec code managé qui utilisent le modèle objet compatible InfoPath 2003 fourni par Microsoft. Office. Interop. InfoPath. SemiTrust espace de noms au moment de l'exécution.
 ms.openlocfilehash: c7b4b65cc722e72ef155529a0b2aa66c4f6cfcff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299796"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414444"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model-at-run-time"></a>Résoudre les problèmes liés aux modèles de formulaires qui utilisent le modèle objet InfoPath au moment de l'exécution
 

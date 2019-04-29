@@ -5,13 +5,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9e305071-b6a5-4bd8-892e-25553d04bb15
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 7f1f1e028797edaa0afb45df4f39aca15ff6d425
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327439"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407822"
 ---
 # <a name="stream-structures"></a>Structures de flux
 

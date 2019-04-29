@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2ba0fd22-65a6-6cb6-da00-08f391705544
 description: Indique la marge en haut de la page d'impression.
 ms.openlocfilehash: ff2bffffed39c5571386e792d2ffc8d20d6b291e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327362"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416579"
 ---
 # <a name="pagetopmargin-cell-print-properties-section"></a>PageTopMargin, cellule (section Print Properties)
 

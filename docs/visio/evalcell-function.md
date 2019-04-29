@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4aa3a1c9-dec9-5eb0-5743-0534c0b3bb5f
 description: Prend une référence à une cellule qui contient une fonction personnalisée, ainsi qu'une ou plusieurs paires nom-valeur à transmettre à la fonction personnalisée en tant qu'arguments (facultatif). Renvoie le résultat calculé de la fonction personnalisée selon les arguments et les valeurs spécifiés.
 ms.openlocfilehash: 4ad6645862d620a36b90e4f46d09588d7e83fcc1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329070"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418903"
 ---
 # <a name="evalcell-function"></a>Fonction EVALCELL
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
 description: Dans Microsoft InfoPath, vous pouvez écrire une logique métier en Visual Basic ou C# en ouvrant un modèle de formulaire dans le Concepteur InfoPath, puis en utilisant l'une des commandes de l'interface utilisateur pour ajouter un gestionnaire d'événements, ce qui ouvre l'environnement de développement Visual Studio 2012 pour écriture de votre code.
 ms.openlocfilehash: cc09856750ced28d35c8da172a08a31c4e3cd4a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299733"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420646"
 ---
 # <a name="walkthrough-create-a-basic-form-template-with-code"></a>Procédure pas à pas: créer un modèle de formulaire de base avec du code
 
@@ -21,7 +21,7 @@ Dans Microsoft InfoPath, vous pouvez écrire une logique métier en Visual Basic
   
 Cette procédure pas à pas vous montre comment créer une application Hello World simple à l'aide de C# ou de Visual Basic dans l'environnement de développement Visual Studio 2012. La procédure pas à pas se termine par un exemple de code qui vous montre comment utiliser la propriété [username](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) de la classe d' [utilisateur](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) pour récupérer le nom de l'utilisateur actuel et remplir un contrôle de **zone de texte** avec cette valeur. 
   
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Conditions requises
 
 Pour effectuer cette procédure pas à pas à l'aide de l'environnement de développement Visual Studio 2012, vous avez besoin des éléments suivants:
   

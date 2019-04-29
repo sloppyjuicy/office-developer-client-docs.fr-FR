@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
 description: Détermine si la balise d'action apparaît lorsque l'utilisateur déplace le pointeur sur la balise, quand la forme est sélectionnée ou tout le temps.
 ms.openlocfilehash: 0254ad361c63dfdeddaf8a1c2173e99aa1c05398
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332731"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415816"
 ---
 # <a name="displaymode-cell-action-tags-section"></a>DisplayMode Cell (Action Tags Section)
 

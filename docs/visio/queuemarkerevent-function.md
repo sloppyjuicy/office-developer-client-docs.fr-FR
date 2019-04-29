@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b4671715-4209-7774-c174-c19dc9721a02
 description: Entraîne le déclenchement d'un événement marqueur pour votre complément, le code Microsoft Visual Basic pour applications (VBA) ou le complément COM.
 ms.openlocfilehash: 841f6acc63497a6f0b8930c89534b5f8b04c0393
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358725"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418805"
 ---
 # <a name="queuemarkerevent-function"></a>Fonction QUEUEMARKEREVENT
 

@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2b81f4aebae692d28ed492df102d59ba34debf63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328461"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408970"
 ---
 # <a name="provider-tables"></a>Tables des fournisseurs
 

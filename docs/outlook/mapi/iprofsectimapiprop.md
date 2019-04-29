@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e704044-5230-4521-a0d2-b7c2f981c954
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 99ce944bec94a1e832f77fa8b0916ac1c76f6dc6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344792"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406597"
 ---
 # <a name="iprofsect--imapiprop"></a>IProfSect : IMAPIProp
 
@@ -41,7 +41,7 @@ Fonctionne avec les propriétés des objets de section de profil.
 
 Cette interface n'a pas de méthodes uniques.
   
-|**Propriétés requises**|**Access**|
+|**Propriétés requises**|**Accès**|
 |:-----|:-----|
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md))  <br/> |Lecture seule  <br/> |

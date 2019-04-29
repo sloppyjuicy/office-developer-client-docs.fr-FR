@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 45867711-3231-43ce-bae9-caf588120550
 description: Cette section fournit des informations sur la manière de démarrer la création de modèles de formulaires avec code managé qui fonctionnent avec le modèle objet compatible InfoPath 2003 fourni par les membres de l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust .
 ms.openlocfilehash: 54d60e6d73ee224845c87c08f4de1e554e6182da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300398"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408053"
 ---
 # <a name="get-started-developing-form-templates-using-the-infopath-object-model"></a>Prise en main du développement de modèles de formulaires à l'aide du modèle objet InfoPath
 
 Cette section fournit des informations sur la manière de démarrer la création de modèles de formulaires avec code managé qui fonctionnent avec le modèle objet compatible InfoPath 2003 fourni par les membres de l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Créer un modèle de formulaire à l'aide du modèle objet InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md): fournit des informations et des étapes permettant de créer des modèles de formulaires contenant une logique métier qui fonctionne avec le modèle objet compatible avec InfoPath 2003.
     

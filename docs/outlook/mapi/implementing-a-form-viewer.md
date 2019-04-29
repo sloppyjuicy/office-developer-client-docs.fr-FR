@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a567185c-bd72-4307-928c-08cac5494c1a
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: bbd0792b0e3e3f274797fabd7f5d5eb49cfc73fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332892"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435816"
 ---
 # <a name="implementing-a-form-viewer"></a>Implémentation d'une visionneuse de formulaires
 

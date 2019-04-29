@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2bbf13e9-05b3-4498-8e08-d9e07505190d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 29d392eba530126e06a672c10044c5b4df0618c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357854"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406086"
 ---
 # <a name="spropertyrestriction"></a>SPropertyRestriction
 

@@ -8,17 +8,17 @@ keywords:
 - références [Excel 2007], feuille de calcul, références de feuille de calcul [Excel 2007], références de feuille de calcul externes [Excel 2007], feuille de calcul active [Excel 2007], feuille de calcul active [Excel 2007], références de feuille de calcul interne [Excel 2007]
 localization_priority: Normal
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2944f73a3144837a4be8aff7c7fed9a8d2158203
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304024"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416460"
 ---
 # <a name="worksheet-references"></a>Références de feuille de calcul
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Une référence dans Microsoft Excel est un type de données qui fait référence à un bloc de cellules rectangulaire (qui peut être une seule cellule) ou dans certains cas, un certain nombre de blocs de cellules disjoints. En interne, Excel utilise un type référence pour les cellules de la feuille actuelle, appelée référence interne. Toute cellule qui ne figure pas dans la feuille actuelle est décrite par un autre type de référence appelé référence externe. Consultez la section suivante pour obtenir la définition des actifs et des actuels.
   
@@ -50,7 +50,7 @@ L'autre différence clé entre les types de référence interne et externe est q
 
 [Concepts de programmation Excel](excel-programming-concepts.md)
   
-[�valuer les noms et les autres Expressions de formule de feuille de calcul](evaluating-names-and-other-worksheet-formula-expressions.md)
+[Évaluer les noms et les autres Expressions de formule de feuille de calcul](evaluating-names-and-other-worksheet-formula-expressions.md)
   
 [Feuille de calcul et évaluation des expressions Excel](excel-worksheet-and-expression-evaluation.md)
 

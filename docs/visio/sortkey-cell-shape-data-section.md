@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
 description: Produit une chaîne qui détermine l’ordre dans lequel les éléments de la fenêtre Données de forme sont présentés.
 ms.openlocfilehash: d166ea18a36f6a4101b8933fce804be2243954bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417853"
 ---
 # <a name="sortkey-cell-shape-data-section"></a>SortKey, cellule (section Shape Data)
 
@@ -28,7 +28,7 @@ Entrez par exemple les clés de tri suivantes pour afficher les données de form
   
  *Ligne, étiquette* et *SortKey* font référence à des cellules de la ligne de données de forme. Dans ce cas, les lignes de données de forme ont été nommées. 
   
-|**Ligne**|**Label**|**SortKey**|
+|**Ligne**|**Étiquette**|**SortKey**|
 |:-----|:-----|:-----|
 | Prop. Item  <br/> | Référence article  <br/> | 0,1  <br/> |
 | Prop. Price  <br/> | Price  <br/> | 3  <br/> |

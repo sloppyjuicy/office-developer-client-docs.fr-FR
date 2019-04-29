@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ec806ed3ab871d6a36778b0898b2977628ccdcec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316204"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409866"
 ---
 # <a name="pidtagformversion-canonical-property"></a>Propriété canonique PidTagFormVersion
 
@@ -38,7 +38,7 @@ Contient la version d'un formulaire.
 
 Ces propriétés indiquent la version de conception actuellement appliquée au formulaire. La version est définie et gérée par le concepteur du formulaire et n'est pas nécessairement liée à une version de composant MAPI. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

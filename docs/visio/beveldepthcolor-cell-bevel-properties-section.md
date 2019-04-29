@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1665774f-4049-4eda-ba7a-62314286699e
 description: Détermine la couleur de la profondeur du biseau, sous la forme d'une valeur RVB ou de celle déterminée par le thème actif.
 ms.openlocfilehash: 027b7b8675666b82d0ae26259fe77470708628c2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285139"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419169"
 ---
 # <a name="beveldepthcolor-cell-bevel-properties-section"></a>BevelDepthColor Cell (Bevel Properties Section)
 

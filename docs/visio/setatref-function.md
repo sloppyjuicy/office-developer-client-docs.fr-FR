@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1ecfdb05-2533-470a-006b-e554026944d8
 description: Redirige les valeurs mises à jour résultant d'actions dans l'interface utilisateur (IU) ou l'automatisation vers une autre cellule.
 ms.openlocfilehash: c4f5fe94aba90ce0a69983d6637a5399b6e42707
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326018"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416803"
 ---
 # <a name="setatref-function"></a>Fonction SETATREF
 
@@ -30,7 +30,7 @@ SETATREF (* * *référence* * * [, * * *expression_données* * * [, * * *ignore_
 |:-----|:-----|:-----|:-----|
 | _reference_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à une cellule vers laquelle les mises à jour sont redirigées.  <br/> |
 | _Set_Expression_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Expression assignée à _Reference_.  <br/> |
-| _ignore_eval_ <br/> |Facultatif  <br/> |**Booléen** <br/> |Si la valeur est TRUE, la fonction SETATREF évalue à (0) zéro; Si la valeur est FALSe (valeur par défaut), la fonction SETATREF évalue la valeur de _Reference_.  <br/> |
+| _ignore_eval_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Si la valeur est TRUE, la fonction SETATREF évalue à (0) zéro; Si la valeur est FALSe (valeur par défaut), la fonction SETATREF évalue la valeur de _Reference_.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

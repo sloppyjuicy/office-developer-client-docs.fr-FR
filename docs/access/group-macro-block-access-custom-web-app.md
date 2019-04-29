@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 312bcad2-b364-4b4c-a8f9-40e11330bde0
 description: L'instruction Group vous permet de spécifier un bloc d'actions dans une macro que vous pouvez développer ou réduire.
 ms.openlocfilehash: b90f8e305baf23e9df7b070c879f3bc2f7d59311
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311150"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418777"
 ---
 # <a name="group-macro-block-access-custom-web-app"></a>Bloc de macro de groupe (application Web personnalisée Access)
 

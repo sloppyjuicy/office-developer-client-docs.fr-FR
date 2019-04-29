@@ -10,17 +10,17 @@ keywords:
 - xlfUnregister [Excel 2007]
 localization_priority: Normal
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8bf1151e1ba4c165e784b88dce80096a2eaa62de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310163"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419904"
 ---
 # <a name="xlfunregister-form-2"></a>xlfUnregister (formulaire 2)
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Peut être appelée à partir d'une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **Unregister** à partir d'une feuille macro XLM Excel. 
   
@@ -53,7 +53,7 @@ Si elle réussit, renvoie la **valeur true** (**xltypeBool**). En cas d'échec, 
   
 ### <a name="remember-to-delete-names"></a>N'oubliez pas de supprimer des noms
 
-Si vous avez spécifié l'argument _pxFunctionText_ sur **xlfRegister**, lors de l'inscription des fonctions et commandes de la dll, vous devez supprimer explicitement les noms en appelant **xlfSetName** pour chacun d'eux, en omettant le second argument de sorte que le la fonction ne s'affiche plus dans l'Assistant fonction. Pour plus d�informations, consultez [Probl�mes connus concernant le d�veloppement de XLL Excel](known-issues-in-excel-xll-development.md).
+Si vous avez spécifié l'argument _pxFunctionText_ sur **xlfRegister**, lors de l'inscription des fonctions et commandes de la dll, vous devez supprimer explicitement les noms en appelant **xlfSetName** pour chacun d'eux, en omettant le second argument de sorte que le la fonction ne s'affiche plus dans l'Assistant fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ## <a name="see-also"></a>Voir aussi
 

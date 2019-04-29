@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c16c668e-2c8b-4759-bbca-d0c5662b62e9
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 6160b8e75bdc9059965c2358b9fe7d296e1f66d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326368"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435935"
 ---
 # <a name="imapisupportnotify"></a>IMAPISupport::Notify
 

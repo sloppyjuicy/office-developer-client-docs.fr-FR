@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 41fdaf333084b7d567f4e67ae9fd2638a1731349
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359787"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409663"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>Propriété canonique PidTagAddressBookChooseDirectoryAutomatically
 
@@ -34,7 +34,7 @@ Permet à Microsoft Outlook 2010 et à Microsoft Outlook 2013 de choisir la list
 
 Cette propriété correspond à l'option **choisir automatiquement** dans la boîte de dialogue Options du carnet d'adresses. Lorsque cette propriété existe dans la section de profil IID_CAPONE_PROF et qu'elle est définie sur **true**, la boîte de dialogue Carnet d'adresses n'utilise plus par défaut le conteneur spécifié par la méthode [SetDefaultDir](iaddrbook-setdefaultdir.md) , mais choisit un carnet d'adresses outlook 2010 ou Outlook 2013 estime approprié pour le contexte dans lequel la boîte de dialogue s'affichait. Notez que cela peut entraîner une mauvaise expérience des fournisseurs de carnets d'adresses tiers. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

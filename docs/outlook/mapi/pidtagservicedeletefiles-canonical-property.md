@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: da01385f83d9af9ad02eeb2fed08e3bc22d4df84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336399"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436824"
 ---
 # <a name="pidtagservicedeletefiles-canonical-property"></a>Propriété canonique PidTagServiceDeleteFiles
 
@@ -40,7 +40,7 @@ Les noms de fichier de la liste contenus dans ces propriétés sont supprimés d
   
 MAPI fonctionne uniquement avec les noms de fichier et les autres chaînes qui lui sont transmises, dans le jeu de caractères ANSI. Les applications qui utilisent des noms de fichier dans un jeu de caractères OEM doivent les convertir en ANSI avant d'appeler MAPI.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

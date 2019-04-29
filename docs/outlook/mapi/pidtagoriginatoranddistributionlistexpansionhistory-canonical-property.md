@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5f2c7d8b49f64e0adb66c9f6d8eae6927e656725
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340942"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437125"
 ---
 # <a name="pidtagoriginatoranddistributionlistexpansionhistory-canonical-property"></a>Propriété canonique PidTagOriginatorAndDistributionListExpansionHistory
 
@@ -38,7 +38,7 @@ Contient des informations sur l'expéditeur d'un message et l'historique d'expan
 
 Cette propriété est utilisée dans la génération des rapports.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

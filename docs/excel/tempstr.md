@@ -10,17 +10,17 @@ keywords:
 - fonction TempStr [Excel 2007]
 localization_priority: Normal
 ms.assetid: b21b4868-babe-4255-9093-503172efa045
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4ccb6f3c764371c35bac12c8c78fede54234a7d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310317"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418042"
 ---
 # <a name="tempstr"></a>TempStr
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Fonction de bibliothèque d'infrastructure déConseillée qui crée un **XLOPER** temporaire contenant une chaîne d'octets **xltypeStr** . Elle prend une chaîne source se terminant par null comme entrée. Elle tente de remplacer le premier caractère de la chaîne fournie par la longueur de la chaîne suivante. Cette opération n'est pas toujours sûre: Microsoft Excel peut se bloquer si une chaîne en lecture seule a été transmise. 
   

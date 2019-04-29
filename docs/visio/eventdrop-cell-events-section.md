@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f84afe83-8391-0c13-f442-ea8794b38642
 description: Cellule Event qui est évaluée lorsqu'une forme est insérée sur la page de dessin, soit comme instance, soit lorsqu'elle est dupliquée ou collée.
 ms.openlocfilehash: f1433394dbd58c7c4422c6bca1e79a4f2c8e0c4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351008"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408592"
 ---
 # <a name="eventdrop-cell-events-section"></a>EventDrop, cellule (section Events)
 

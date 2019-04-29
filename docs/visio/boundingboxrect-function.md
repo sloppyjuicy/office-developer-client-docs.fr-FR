@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1f66d2b2-ec9e-cd58-7642-96850fe4589e
 description: Renvoie les coordonnées du bord spécifié du cadre englobant de la forme.
 ms.openlocfilehash: 0018118eb0991fe9dc1da0eb000566b69d8a4b4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338051"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418070"
 ---
 # <a name="boundingboxrect-function"></a>Fonction BOUNDINGBOXRECT
 
@@ -41,7 +41,7 @@ BOUNDINGBOXRECT (* * *index* * *)
 
  *Index* peut prendre l'une des valeurs suivantes. 
   
-|**Item**|**Valeur**|
+|**Élément**|**Valeur**|
 |:-----|:-----|
 |Bord gauche  <br/> |0  <br/> |
 |Bord droit  <br/> |0,1  <br/> |

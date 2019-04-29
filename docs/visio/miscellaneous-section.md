@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d2f21377-2954-d589-1329-cd23fe3fb4c6
 description: Contient différents attributs de formes et de groupes, comme la visibilité et la représentation de leur sélection.
 ms.openlocfilehash: 16ee384d137dfb4d8544c499519985c712fd56a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335285"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418798"
 ---
 # <a name="miscellaneous-section"></a>Miscellaneous, section
 

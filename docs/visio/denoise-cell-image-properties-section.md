@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e305585f-f0d8-0494-91d4-0c76929dc170
 description: Supprime le bruit (pixels comportant des niveaux de couleur répartis de façon aléatoire) d'une image en mode point. La valeur par défaut est 0 %.
 ms.openlocfilehash: f970fde22e864239ea3f3f9bcb704e7f4692e9cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360248"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415802"
 ---
 # <a name="denoise-cell-image-properties-section"></a>Denoise, cellule (section Image Properties)
 

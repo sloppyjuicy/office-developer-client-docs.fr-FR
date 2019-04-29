@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 7b781727-267b-4589-ab40-cfc79bb96c2d
 description: Empêche la cellule ThemeIndex de la ligne propriétés du thème d'être modifiée en appliquant un nouveau thème ou en sélectionnant un nouveau modèle de connecteur. N'empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet.
 ms.openlocfilehash: 519c17f6e00c9aad2b5522bc66b41c0ceb75911b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358078"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411238"
 ---
 # <a name="lockthemeindex-cell-protection-section"></a>LockThemeIndex Cell (Protection Section)
 
 Empêche la cellule **ThemeIndex** de la ligne **Propriétés du thème** d'être modifiée en appliquant un nouveau thème ou en sélectionnant un nouveau modèle de connecteur. N'empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |La cellule **ThemeIndex** ne peut pas être modifiée à partir de sa valeur actuelle sauf si elle a été modifiée directement dans la feuille ShapeSheet.  <br/> |
 |FALSE  <br/> |La cellule **ThemeIndex** peut être modifiée à partir de sa valeur actuelle lorsque le thème est modifié.  <br/> |

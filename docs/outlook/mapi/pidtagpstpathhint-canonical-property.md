@@ -9,13 +9,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6415ddcec2823192967b8869b46b22b58b08ba5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286356"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437307"
 ---
 # <a name="pidtagpstpathhint-canonical-property"></a>Propriété canonique PidTagPstPathHint
 
@@ -36,7 +36,7 @@ Fournit le nom de la table de stockage personnel (fichier. pst), que l'utilisate
 
 Si la propriété **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) est utilisée à la place, la boîte de dialogue de configuration s'ouvre, mais l'utilisateur n'est pas autorisé à modifier le chemin d'accès et de nombreuses autres propriétés.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8491f459-9de2-8e75-5532-7d3bd0986734
 description: Détermine si une forme peut être sélectionnée ou déplacée lorsque l'utilisateur clique sur la zone remplie définie par la section Geometry.
 ms.openlocfilehash: d60268685d93ae88abb2840f62b093db1e688c2f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341061"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417720"
 ---
 # <a name="noquickdrag-cell-geometry-section"></a>NoQuickDrag, cellule (section Geometry)
 

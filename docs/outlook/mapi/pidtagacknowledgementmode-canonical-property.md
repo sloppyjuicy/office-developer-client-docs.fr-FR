@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: cee99b93d41ac8cd4a3dee18cad6cd4ab01cabe3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335279"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418917"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Propriété canonique PidTagAcknowledgementMode
 
@@ -38,12 +38,12 @@ Contient l'identificateur du mode pour l'accusé de réception des messages.
 
 Cette propriété peut avoir exactement l'une des valeurs suivantes:
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Accusé de réception manuel.  <br/> |
 |0,1  <br/> |Accusé de réception automatique.  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

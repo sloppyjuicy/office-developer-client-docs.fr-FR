@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 787badaf-8782-454d-a016-7eae83bbd8a9
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: d32925fcd5c3be7fe3e615ee2290f25c7595911c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310975"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409299"
 ---
 # <a name="cluster-safe-functions"></a>Fonctions sécurisées en cluster
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Dans Excel 2013, Excel peut décharger les appels UDF (fonction définie par l'utilisateur) vers un cluster informatique à hautes performances via une interface de connecteur de cluster dédiée. Les fournisseurs de cluster de calcul fournissent des connecteurs de cluster. Les auteurs de fichiers UDF peuvent déclarer les fichiers UDF comme étant sécurisés pour les clusters, puis, lorsqu'un connecteur de cluster est présent, Excel envoie des appels à ces UDF au connecteur de cluster pour le déchargement.
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 939f8f90-dee5-4175-b32a-e2964eb40681
 description: Détermine le degré de randomisation du remplissage de la forme à partir de la géométrie de la forme lors de l'utilisation d'un effet d'esquisse, sous la forme d'un pourcentage de la longueur d'une section. Si la valeur de la cellule SketchFillChange est définie sur 0%, la géométrie de délimitation du remplissage d'une forme correspond à la géométrie de la forme. Si la valeur est 100%, la géométrie de délimitation du remplissage de la forme ne suit pas la géométrie de la forme.
 ms.openlocfilehash: 8726e9dd6ca6257fb8dbbbef3dce1d4ec344e28b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339810"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408074"
 ---
 # <a name="sketchfillchange-cell-additional-effect-properties-section"></a>SketchFillChange Cell (Additional Effect Properties Section)
 

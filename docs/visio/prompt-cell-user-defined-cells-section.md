@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d0f91e7d-2373-cfef-e105-fb17e77c7f2d
 description: Contient un message descriptif ou commentaire associé à la cellule définie par l'utilisateur. L'application encadre automatiquement le texte de l'invite entre guillemets () pour indiquer qu'il s'agit d'une chaîne de texte. Si vous tapez un signe égal (=) sans guillemets, vous pouvez entrer dans cette cellule une formule qui est alors évaluée par l'application.
 ms.openlocfilehash: 7684025e03bd3f4f68893179b1df00cc0cb535e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326886"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435725"
 ---
 # <a name="prompt-cell-user-defined-cells-section"></a>Prompt, cellule (section User-Defined Cells)
 

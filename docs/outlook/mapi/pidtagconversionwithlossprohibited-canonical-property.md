@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a18b560a-e054-45b3-946d-6504465db5b7
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 972df747e0ee459996b9b4da5732be1490fbd08a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417125"
 ---
 # <a name="pidtagconversionwithlossprohibited-canonical-property"></a>Propriété canonique PidTagConversionWithLossProhibited
 
@@ -38,7 +38,7 @@ Contient la valeur TRUE si un agent de transfert des messages (MTA) ne peut pas 
 
 Le mappage «avec perte» d'Unicode (deux octets par caractère) dans un jeu de caractères codés sur un octet constitue un exemple du type de conversion interdit. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

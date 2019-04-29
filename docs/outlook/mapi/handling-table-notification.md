@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 6e6c24c3836f295054c1880dc506c5051078a9ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299488"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435893"
 ---
 # <a name="handling-table-notification"></a>Gestion des notifications de la table
 

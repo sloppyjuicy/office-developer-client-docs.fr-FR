@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7ecdfc37-c9d4-2fde-ed3e-be81657c24e2
 description: Indique la marge de gauche de la page d'impression.
 ms.openlocfilehash: 289bd0bf16c6dcd9b26ec1a8c7920a29dab724a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334460"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435669"
 ---
 # <a name="pageleftmargin-cell-print-properties-section"></a>PageLeftMargin, cellule (section Print Properties)
 

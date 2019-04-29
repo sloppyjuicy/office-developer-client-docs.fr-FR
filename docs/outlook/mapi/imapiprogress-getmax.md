@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 88a910ed-b55a-4e5b-a43d-eb3ea795a70e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 64b6235151c7700a24992bc1d4394553a53c0464
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270202"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436201"
 ---
 # <a name="imapiprogressgetmax"></a>IMAPIProgress::GetMax
 

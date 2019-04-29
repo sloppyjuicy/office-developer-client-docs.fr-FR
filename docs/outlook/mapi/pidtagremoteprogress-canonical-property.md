@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a5a9d0796bc92514ae6d990b7328364b85bc55cd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335433"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439841"
 ---
 # <a name="pidtagremoteprogress-canonical-property"></a>Propriété canonique PidTagRemoteProgress
 
@@ -50,7 +50,7 @@ MSGSTATUS_REMOTE_DOWNLOAD
   
 > Le transfert du message est en cours.
     
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

@@ -8,17 +8,17 @@ keywords:
 - fonctions XLL [Excel 2007], appel de la boîte de dialogue remplacer, boîte de dialogue remplacer [Excel 2007], appel des fonctions XLL, Assistant fonction [Excel 2007], appel des fonctions XLL, fonctions XLL [Excel 2007], appel à partir de l'Assistant fonction
 localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 11189beed13e2ceb99ef04b7a2f966cb4171915c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304017"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410748"
 ---
 # <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Appeler des fonctions XLL à partir de l'Assistant fonction ou des boîtes de dialogue remplacer
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel appelle généralement des fonctions XLL lors du recalcul normal du classeur ou d'une partie de celui-ci si le calcul est sous le contrôle d'une macro. N'oubliez pas que la fonction ne se trouve pas dans une formule de cellule, mais peut faire partie d'une définition de plage nommée ou d'une expression conditionnelle de mise en forme.
   
@@ -119,9 +119,9 @@ bool called_from_paste_fn_dlg(void)
 
 
 
-[Acc�s au code XLL dans Excel (en anglais)](accessing-xll-code-in-excel.md)
+[Accés au code XLL dans Excel](accessing-xll-code-in-excel.md)
   
 [Appel dans Excel � partir du fichier DLL ou XLL](calling-into-excel-from-the-dll-or-xll.md)
   
-[D�veloppement de XLL de Excel 2013](developing-excel-xlls.md)
+[Développement de XLL de Excel](developing-excel-xlls.md)
 

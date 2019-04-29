@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 568f2336-cb4d-3f2c-a304-d29cdb0bcbcc
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 7338edc13227e303ec5fa47da4a5d9ee611c6749
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326151"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419883"
 ---
 # <a name="upread"></a>UPREAD
 

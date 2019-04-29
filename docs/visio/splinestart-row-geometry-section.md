@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8e327e00-0844-efa4-900b-6954d3b009bb
 description: Contient les coordonnées x et y du deuxième point de contrôle d'une spline, de son deuxième nœud, de son premier nœud, du dernier nœud et du degré de la spline.
 ms.openlocfilehash: 2ec06619770af4e5dbcc1a763595b6e01a39052b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358792"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417475"
 ---
 # <a name="splinestart-row-geometry-section"></a>SplineStart, ligne (section Geometry)
 
@@ -22,7 +22,7 @@ Contient les coordonnées *x* et *y* du deuxième point de contrôle d'une splin
   
 Une ligne SplineStart contient les cellules suivantes.
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Coordonnée *x* du deuxième point de contrôle d'une spline.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y* du deuxième point de contrôle d'une spline.  <br/> |

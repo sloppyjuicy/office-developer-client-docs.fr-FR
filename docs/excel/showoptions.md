@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 51acac58-ec39-488f-979c-1887dc2ab94b
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5b58b71dc4f2441448eb3e0dac2c3c5763675927
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310426"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407696"
 ---
 # <a name="showoptions"></a>ShowOptions
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Affiche une boîte de dialogue modale pour collecter des informations auprès de l'utilisateur. Ce point d'entrée est appelé lorsqu'un utilisateur clique sur le bouton **options** en regard de la zone **type de cluster** pour le connecteur de cluster sélectionné dans la boîte de dialogue **Options Excel** (dans la catégorie **avancé** , sous la section **formules** ). Les connecteurs de cluster sont chargés d'implémenter leur propre interface de boîte de dialogue Options et de stocker les données associées dans le registre ou ailleurs. Les options sont internes au connecteur de cluster. Excel ne les prend pas en compte. 
   

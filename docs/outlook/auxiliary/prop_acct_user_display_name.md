@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
 description: Cette propriété renvoie ou définit le nom d'affichage de l'utilisateur.
 ms.openlocfilehash: 2fb42a6f6ae9a72bc31c103af6314fcfd098439c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328243"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419470"
 ---
 # <a name="propacctuserdisplayname"></a>PROP_ACCT_USER_DISPLAY_NAME
 
@@ -27,7 +27,7 @@ Voir [IOlkAccount](iolkaccount.md).
 |Identificateur :  <br/> |0x000B  <br/> |
 |Type de propriété:  <br/> |PT_UNICODE  <br/> |
 |Balise de propriété:  <br/> |0x000B001F  <br/> |
-|Access  <br/> |En lecture-écriture.  <br/> |
+|Access  <br/> |Lecture/écriture  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a8f88e4b41ab455c55bfd1cb36b73ce7ef0383b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348992"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438966"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>Propriété canonique PidLidFShouldTNEF
 
@@ -39,7 +39,7 @@ Indique s'il faut coder un élément avec le format TNEF (Transport Neutral Enca
 
 Cette propriété est définie lorsque Microsoft Word est défini comme éditeur de courrier électronique, et il envoie un objet OLE incorporé dans un flux RTF (Rich Text Format).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

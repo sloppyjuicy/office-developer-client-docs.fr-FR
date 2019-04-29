@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 502ba82279664638c8e7e4ae68f74df74758918d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350679"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435515"
 ---
 # <a name="supporting-formatted-text-message-store-responsibilities"></a>Prise en charge du texte mis en forme: responsabilités de la Banque de messages
 
@@ -45,6 +45,6 @@ Les différences entre ces trois niveaux sont décrites dans le tableau suivant.
 |:-----|:-----|
 |Faible  <br/> |Le fournisseur de banque de messages appelle **RTFSync** chaque fois que des modifications sont enregistrées dans un message et extrait les données de la propriété **PR_BODY** à partir de **PR_RTF_COMPRESSED** au lieu de demander aux clients de le définir. **PR_BODY** et **PR_RTF_COMPRESSED** sont stockés.  <br/> |
 |Centre  <br/> |Le fournisseur de banque de messages stocke uniquement la propriété **PR_RTF_COMPRESSED** , Computing **PR_BODY** si nécessaire.  <br/> |
-|Importante  <br/> |Le fournisseur de banque de messages ne stocke ni **PR_BODY** ni les propriétés RTF auxiliaires. **RTFSync** est appelé lorsque le texte du message a changé et que la mise en forme reste inchangée ou lorsqu'un nouveau message est téléchargé par un fournisseur de transport.  <br/> |
+|Élevé  <br/> |Le fournisseur de banque de messages ne stocke ni **PR_BODY** ni les propriétés RTF auxiliaires. **RTFSync** est appelé lorsque le texte du message a changé et que la mise en forme reste inchangée ou lorsqu'un nouveau message est téléchargé par un fournisseur de transport.  <br/> |
    
 

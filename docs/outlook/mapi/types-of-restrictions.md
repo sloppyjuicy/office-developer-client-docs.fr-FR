@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 28159dfb947b4fb0ea54680627588b7c10bee3b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356566"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416285"
 ---
 # <a name="types-of-restrictions"></a>Types de restrictions
 

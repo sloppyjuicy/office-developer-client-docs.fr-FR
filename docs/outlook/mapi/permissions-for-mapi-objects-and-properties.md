@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 32669cbe-5460-4043-99cc-c609608f48da
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 4efa9cd1596cffe19a19a62059f81fa553343d77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348593"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436173"
 ---
 # <a name="permissions-for-mapi-objects-and-properties"></a>Autorisations pour les objets et les propriétés MAPI
 

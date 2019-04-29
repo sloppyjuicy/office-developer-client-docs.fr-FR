@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f7b04486-bc48-4ba4-9f35-f021e06124bf
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 74bba3ea9982838f0d010bbf106c1132df1c2c25
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357322"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408207"
 ---
 # <a name="mapideinitidle"></a>MAPIDeInitIdle
 

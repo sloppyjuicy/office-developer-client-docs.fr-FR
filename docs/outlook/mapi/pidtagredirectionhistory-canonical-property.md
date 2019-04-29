@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 380ea11c-b1ac-4f54-9034-c52edec4f700
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ae4993f46e10b29ad29a88b7b8b1c54151f5efa7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355250"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436880"
 ---
 # <a name="pidtagredirectionhistory-canonical-property"></a>Propriété canonique PidTagRedirectionHistory
 
@@ -38,7 +38,7 @@ Contient des informations sur l'itinéraire couvert par un message remis.
 
 Cette propriété est utilisée lorsqu'un message est automatiquement transféré par un agent automatique.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

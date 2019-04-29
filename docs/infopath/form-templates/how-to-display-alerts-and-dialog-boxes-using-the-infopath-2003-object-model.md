@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
 description: Lorsque vous écrivez du code pour développer les fonctionnalités d'un modèle de formulaire utilisant le modèle objet InfoPath 2003, il est souvent utile de communiquer des informations aux utilisateurs par l'intermédiaire de boîtes de dialogue.
 ms.openlocfilehash: 12088747250037e53a3b7d8d0577936e30d6292c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303611"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409481"
 ---
 # <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>Affichage des alertes et des boîtes de dialogue à l'aide du modèle objet InfoPath 2003
 

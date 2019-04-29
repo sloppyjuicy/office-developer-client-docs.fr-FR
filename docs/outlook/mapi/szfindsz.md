@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4584569-1246-4ac9-a404-48284e4920d7
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9fc21a27cb6c9041bdd8976ce5f030f0ab9eb57f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345744"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435221"
 ---
 # <a name="szfindsz"></a>SzFindSz
 

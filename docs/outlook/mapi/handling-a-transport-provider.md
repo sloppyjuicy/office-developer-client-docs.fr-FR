@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 60b3e5f4-4a9b-432f-bad4-4284225ab93f
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 0fe21cea26c956f8a03a51e2f302b040fc89e751
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299495"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416537"
 ---
 # <a name="handling-a-transport-provider"></a>Gestion d’un fournisseur de transport
   

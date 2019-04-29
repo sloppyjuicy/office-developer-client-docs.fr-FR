@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 8c59abaf-d2cc-94c9-08ba-004bc40efd9e
 description: Détermine si un style inclut ou non des propriétés de texte.
 ms.openlocfilehash: 3f1d87316955b4e6e40cea16634cff7645a720fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328916"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419260"
 ---
 # <a name="enabletextprops-cell-style-properties-section"></a>EnableTextProps, cellule (section Style Properties)
 
 Détermine si un style inclut ou non des propriétés de texte.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Inclut les propriétés de texte.  <br/> |
 |FALSE  <br/> |Exclut les propriétés de texte.  <br/> |

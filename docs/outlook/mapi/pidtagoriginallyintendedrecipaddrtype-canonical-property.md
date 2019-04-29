@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: dcfb6bd5-bff5-4a50-aec7-4bdfdabf7631
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a826f1bdf150b42b61a61b2f53870e9f170e0777
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342594"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416089"
 ---
 # <a name="pidtagoriginallyintendedrecipaddrtype-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipAddrtype
 
@@ -38,7 +38,7 @@ Contient le type d'adresse du destinataire initial d'un message autoforwarded.
 
 Ces propriétés sont l'une des propriétés d'adresse du destinataire du message initialement prévu. Elle doit être définie par l'agent automatique qui a transféré le message.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

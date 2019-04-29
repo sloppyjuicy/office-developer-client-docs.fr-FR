@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: da604c72-c760-4aa3-9574-d59c392753df
 description: Le modèle objet compatible avec InfoPath 2003 fournit des objets et des collections permettant d'accéder aux informations sur l'application InfoPath, notamment des informations relatives au document XML sous-jacent d'un formulaire et au fichier de définition du formulaire (.xsf). Ces données sont accessibles via l'objet de niveau supérieur dans la hiérarchie du modèle objet d'InfoPath, qui est instancié via l'interface Application .
 ms.openlocfilehash: 849882a97109d91a5807a6798d5a62457ab971fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303681"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437440"
 ---
 # <a name="access-application-data-using-the-infopath-2003-object-model"></a>Accès aux données d'application à l'aide du modèle objet InfoPath 2003
 

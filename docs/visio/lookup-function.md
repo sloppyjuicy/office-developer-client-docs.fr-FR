@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cb6ec664-6062-75d0-1514-8058b98c2c36
 description: Renvoie un index de base zéro qui indique l'emplacement de la clé de sous-chaîne dans une liste ou renvoie-1 si la chaîne cible contient le délimiteur.
 ms.openlocfilehash: 10fc32e6e979ab819246161dedfb1183c2683a99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358029"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410328"
 ---
 # <a name="lookup-function"></a>Fonction LOOKUP
 

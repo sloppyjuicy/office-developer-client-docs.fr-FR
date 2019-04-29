@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e8293dc9-f2f1-4065-89f4-e734a8db63df
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: cd09c85e4f44bbea29807d72a273ccf6980ca6df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269985"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407479"
 ---
 # <a name="pidtagdefcreatemailuser-canonical-property"></a>Propriété canonique PidTagDefCreateMailuser
 
@@ -40,7 +40,7 @@ Les applications clientes utilisent cette propriété pour créer un objet utili
   
 Cette propriété spécifie une entrée pouvant apparaître dans la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) pour les utilisateurs de messagerie. Après avoir obtenu l'identificateur, le client l'utilise dans un appel à la méthode [IABContainer:: CreateEntry](iabcontainer-createentry.md) . L'entrée représente le modèle pour l'utilisateur de messagerie par défaut. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

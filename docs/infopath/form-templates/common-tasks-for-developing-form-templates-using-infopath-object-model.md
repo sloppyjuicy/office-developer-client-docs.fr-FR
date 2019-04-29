@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 578a38a9-b8d8-42e2-b98b-5e5bb85ebe05
 description: Cette rubrique vise à vous aider à trouver rapidement des réponses aux questions que vous êtes susceptible de vous poser à propos du développement de modèles de formulaires avec du code de formulaire conforme à l'assemblyMicrosoft.Office.Interop.InfoPath.SemiTrust.
 ms.openlocfilehash: 1c5f72a3fa22cbe54b1290357aae1d2a68dff5b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303758"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411574"
 ---
 # <a name="common-tasks-for-developing-form-templates-using-the-infopath-object-model"></a>Tâches courantes pour le développement de modèles de formulaires à l'aide du modèle objet InfoPath
 

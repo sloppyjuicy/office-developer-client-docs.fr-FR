@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0135f049-0311-45e5-9685-78597d599a4e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e7d30c1aba8ddc1419045c1caa8524f7d2063dc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317396"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434976"
 ---
 # <a name="imsgserviceadmincreatemsgservice"></a>IMsgServiceAdmin::CreateMsgService
 

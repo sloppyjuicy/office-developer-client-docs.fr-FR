@@ -8,17 +8,17 @@ keywords:
 - UDF [Excel 2007], appel de dll, de fonctions définies par l'utilisateur [Excel 2007], d'appels à partir de dll, de dll [Excel 2007], d'appels UDF
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9e2ca3f4485fb41c5ab6a48f323b4c0093e747e4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301644"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417944"
 ---
 # <a name="calling-user-defined-functions-from-dlls"></a>Appel des fonctions définies par l’utilisateur à partir de fichiers DLL
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 L'appel des fonctions définies par l'utilisateur (UDF) à partir d'une feuille de calcul est aussi simple que l'appel de fonctions intégrées: vous entrez la fonction via une formule de cellule. Toutefois, à partir de l'API C, il n'existe pas de codes de fonction prédéfinis à utiliser avec les rappels. Pour vous permettre d'appeler des fonctions définies par l'utilisateur, l'API C exporte une fonction XLL uniquement, la fonction [xlUDF](xludf.md) . Le premier argument de la fonction est le nom de la fonction sous la forme d'une chaîne et les arguments suivants sont ceux que l'UDF attend normalement. 
   

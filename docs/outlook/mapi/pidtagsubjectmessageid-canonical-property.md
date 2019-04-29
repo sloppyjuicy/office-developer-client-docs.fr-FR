@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4b1a087-0986-467a-aaa9-fc643f7c56fc
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7bd5a030d11577c2afabb8a2253cf4f6129814cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339234"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407101"
 ---
 # <a name="pidtagsubjectmessageid-canonical-property"></a>Propriété canonique PidTagSubjectMessageId
 
@@ -38,7 +38,7 @@ Contient une valeur binaire qui est copiée à partir du message pour lequel un 
 
 Cette propriété, comme la propriété **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), peut être utilisée pour corréler un État avec le message d'origine. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

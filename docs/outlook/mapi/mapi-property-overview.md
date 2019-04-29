@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 02e5b23f-1bdb-4fbf-a27d-e3301a359573
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 99887bab2b576e6e6c05414ee9daf1bd6e8d0463
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328200"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408326"
 ---
 # <a name="mapi-property-overview"></a>Vue d’ensemble de la propriété MAPI
 

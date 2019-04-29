@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: fa68a055-9e58-40ef-886e-4e8ebb08a2a9
 description: Cette section décrit les quatre API dans la référence auxiliaire Outlook 2013 et fournit des exemples de tâches qui utilisent ces API.
 ms.openlocfilehash: c546166c42742fc54ee43eef7d006183b7c8a40e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316855"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417916"
 ---
 # <a name="concepts-outlook-auxiliary-reference"></a>Concepts (référence auxiliaire d'Outlook)
 

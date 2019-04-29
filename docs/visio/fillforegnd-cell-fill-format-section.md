@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7548a480-4dce-45e0-281b-f6f8bdf05c0b
 description: Détermine la couleur du premier plan (traits) du motif de remplissage de la forme.
 ms.openlocfilehash: 352fecf8d99069cfb5ebd72d295284dc03446364
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322504"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415564"
 ---
 # <a name="fillforegnd-cell-fill-format-section"></a>FillForegnd, cellule (section Fill Format)
 

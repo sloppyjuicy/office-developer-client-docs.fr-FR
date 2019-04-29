@@ -8,17 +8,17 @@ keywords:
 - XLL [Excel 2007], affichage des boîtes de dialogue à partir de, boîtes de dialogue [Excel 2007], affichage à partir d'un fichier DLL ou XLL, dll [Excel 2007], affichage des boîtes de dialogue à partir de
 localization_priority: Normal
 ms.assetid: e77ac555-331d-41c8-a000-7b178959754d
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7b00430b047fe792afef701d210ccde06dd16216
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310934"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417867"
 ---
 # <a name="displaying-dialog-boxes-from-within-a-dll-or-xll"></a>Affichage des boîtes de dialogue dans un fichier DLL ou XLL
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Pour afficher une boîte de dialogue Win32 en utilisant, par exemple, la fonction **DialogBox**du kit de développement logiciel (SDK) Windows, vous devez d'abord obtenir l'instance complète de 32 bits et les principaux handles de fenêtre pour Excel. Pour plus d'informations, consultez la rubrique [Access Excel instance and principal Window Handles](how-to-access-excel-instance-and-main-window-handles.md). 
   
@@ -32,7 +32,7 @@ Vous pouvez également afficher des boîtes de dialogue à l'aide de l'API C san
 
 [Création de XLL](creating-xlls.md)
   
-[D�veloppement de DLL](developing-dlls.md)
+[Développement des fichiers DLL](developing-dlls.md)
   
 [Accès à l’instance Excel et aux handles de fenêtre principaux](how-to-access-excel-instance-and-main-window-handles.md)
   

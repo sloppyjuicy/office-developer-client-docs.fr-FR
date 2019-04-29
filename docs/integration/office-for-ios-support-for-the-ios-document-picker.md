@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 802224ef-6eea-4929-824c-507da1c073a5
 description: Office pour iOS s'intègre au sélectionneur de documents iOS par le biais de l'extension de fournisseur de documents, ce qui permet à Office d'ouvrir les fichiers stockés par un autre fournisseur de documents.
 ms.openlocfilehash: e3a3374c7fd33bb00ed076075eb6199c24eec923
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299803"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410664"
 ---
 # <a name="office-for-ios-support-for-the-ios-document-picker"></a>Prise en charge d'Office pour iOS pour le sélectionneur de document iOS
 

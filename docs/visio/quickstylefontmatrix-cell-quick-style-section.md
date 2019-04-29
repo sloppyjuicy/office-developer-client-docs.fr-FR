@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 304ee083-e9c8-45df-b411-ba5e7db4c086
 description: Détermine le style de la police pour chaque style rapide, sous la forme d'un nombre entier compris entre 1 et 6.
 ms.openlocfilehash: 0708a243b001c7b4e03158b5a332a3166727cabc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360073"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407248"
 ---
 # <a name="quickstylefontmatrix-cell-quick-style-section"></a>QuickStyleFontMatrix Cell (Quick Style Section)
 

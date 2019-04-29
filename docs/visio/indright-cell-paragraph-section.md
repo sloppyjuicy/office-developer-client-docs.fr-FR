@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f0891064-95d9-ae1b-28f3-3aef1406b636
 description: "Représente la distance entre chaque ligne du paragraphe et la marge droite du bloc de texte. Cette valeur est indépendante de l'échelle de dessin : elle ne change pas si le dessin est mis à l'échelle."
 ms.openlocfilehash: e6529bf41cb8fdd40371d9a663291961626afb56
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335342"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408865"
 ---
 # <a name="indright-cell-paragraph-section"></a>IndRight, cellule (section Paragraph)
 

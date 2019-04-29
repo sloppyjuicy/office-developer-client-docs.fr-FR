@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6c2e64bc-786e-4867-a504-46f4d1214337
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 77ca51ae5a0e7e1d5a9be8f4ca05a1187fe71694
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279851"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407787"
 ---
 # <a name="pidtaglatestdeliverytime-canonical-property"></a>Propriété canonique PidTagLatestDeliveryTime
 
@@ -38,7 +38,7 @@ Contient les dernières date et heure auxquelles un agent de transfert des messa
 
 Si un agent MTA ne peut pas remettre un message au moment spécifié par cette propriété, il annule le message sans remise. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 2698d059-9955-4eec-85a6-79defb64e07e
 description: Le modèle objet InfoPath avec code managé fournit des objets et des collections qui peuvent être utilisés pour accéder aux informations sur l'application InfoPath, y compris celles associées au document XML sous-jacent d'un formulaire et au fichier de définition de formulaire (.xsf). Ces données sont accessibles à travers l'objet de niveau supérieur dans la hiérarchie des modèles d'objets InfoPath qui est instanciée à l'aide de la classe Application .
 ms.openlocfilehash: 8da72313807584ee599d65701d009786dd631979
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300174"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417230"
 ---
 # <a name="access-application-data"></a>Accéder aux données de l'application
 

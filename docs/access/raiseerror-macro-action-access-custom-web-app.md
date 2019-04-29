@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5e29bf64-300a-4094-82ff-664e79782d86
 description: L'action Déclenchererreur affiche une fenêtre contextuelle qui contient un message d'erreur spécifié.
 ms.openlocfilehash: 49e544d2234759709c19052b5540d42e88070849
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308014"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408242"
 ---
 # <a name="raiseerror-macro-action-access-custom-web-app"></a>Déclenchererreur, action de macro (application Web personnalisée Access)
 

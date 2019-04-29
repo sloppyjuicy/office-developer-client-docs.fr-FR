@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8cfd4c89-a74f-4af9-b9c3-5c1a396ee600
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 949d20d7158639a0b3e8e71f431b76edc048b38e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303023"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439155"
 ---
 # <a name="pidtagcontactaddresstypes-canonical-property"></a>Propriété canonique PidTagContactAddressTypes
 
@@ -34,7 +34,7 @@ Contient une liste de types d'adresses pour un contact.
 |Type de données :  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

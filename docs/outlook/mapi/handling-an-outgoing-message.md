@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f40c2e0b-1a35-4901-868f-af6c191c921e
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 07785ac82c41108b4333b3c370e3d2f5bfd1426a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342804"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407626"
 ---
 # <a name="handling-an-outgoing-message"></a>Gestion d’un message sortant
 
@@ -45,7 +45,7 @@ Un message sortant est un message qui peut être envoyé à un ou plusieurs dest
     
 Si vous souhaitez intermittantly enregistrer le message avant de l'envoyer, appelez la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) du message. Pour plus d'informations, reportez-vous à [la rubrique enregistrement d'un message](saving-a-message.md) ou [envoi d'un message](sending-a-message.md). 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Création d'une liste](creating-a-recipient-list.md)de destinataires: décrit comment créer une liste de destinataires.
     

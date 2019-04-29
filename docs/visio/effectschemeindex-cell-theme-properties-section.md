@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 366ade40-e89f-49b6-b4be-4e4967dbacbf
 description: Détermine le jeu d'effets du thème appliqué à une forme sous la forme d'un entier.
 ms.openlocfilehash: 0d8ed18ca960868b1cd27abe517bfea99e1f2318
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321447"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409271"
 ---
 # <a name="effectschemeindex-cell-theme-properties-section"></a>EffectSchemeIndex Cell (Theme Properties Section)
 

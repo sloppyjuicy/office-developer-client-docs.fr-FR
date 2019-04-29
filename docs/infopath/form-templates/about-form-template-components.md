@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: b51361fe-cf29-f890-9876-5aebe15c73e1
 description: Les modèles de formulaire Microsoft InfoPath se composent de plusieurs fichiers et composants associés pour fournir des fonctionnalités spécifiques en cas de scénario d'utilisateur final particulier ou de besoin métier. Les formulaires InfoPath sont de complexité diverse, selon le type de besoin auquel ils sont associés.
 ms.openlocfilehash: 3c5adc7ec1e24af481dff7f4a8d009b2dcb6ba8a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303793"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419057"
 ---
 # <a name="about-form-template-components"></a>À propos des composants de modèle de formulaire
 
@@ -21,7 +21,7 @@ Un modèle de formulaire InfoPath est avant tout un type d'application qui crée
   
 Il est important de savoir que les modèles de formulaire InfoPath sont composés de plusieurs fichiers différents de nombreux types variés ; ces fichiers sont collectivement appelés fichiers de formulaire. En général, un modèle de formulaire InfoPath se compose des types de fichier ci-après.
   
-|**Name**|**Extension**|**Description**|
+|**Nom**|**Extension**|**Description**|
 |:-----|:-----|:-----|
 |Définition de formulaire  <br/> |. xsf  <br/> |Fichier généré par InfoPath contenant des informations sur tous les autres fichiers et composants utilisés dans un formulaire. Ce fichier sert de manifeste au formulaire.  <br/> |
 |Schéma XML  <br/> |. xsd  <br/> |Fichiers de schéma XML utilisés pour limiter et valider les fichiers de document XML sous-jacents d'un formulaire.  <br/> |

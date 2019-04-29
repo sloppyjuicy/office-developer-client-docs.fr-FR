@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6fb6f1c8def0e772c580ddb8abf7b5ed0f3d9e74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334544"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420121"
 ---
 # <a name="pidtagcontactaddressbookfoldernames-canonical-property"></a>Propriété canonique PidTagContactAddressBookFolderNames
 
@@ -38,7 +38,7 @@ Contient les noms des dossiers de contacts où les utilisateurs de messagerie so
 
 Il s'agit de propriétés d'une section profil de carnet d'adresses de contacts.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

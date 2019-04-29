@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 56f9043d-a632-65df-c710-45867cce1627
 description: Détermine les connecteurs auxquels appliquer des déviations
 ms.openlocfilehash: 7b5b8c8f1de160a4dc766d30a5f518c5653c270b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361116"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416250"
 ---
 # <a name="linejumpcode-cell-page-layout-section"></a>LineJumpCode, cellule (section Page Layout)
 

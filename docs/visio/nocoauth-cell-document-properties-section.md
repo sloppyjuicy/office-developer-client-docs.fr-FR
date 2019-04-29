@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 6f2095c9-ce09-48f7-b160-c9822d96a96c
 description: Définit si un document stocké sur un serveur Microsoft SharePoint 2013 ou Microsoft OneDrive peut être modifié simultanément par plusieurs auteurs dans une session de co-création.
 ms.openlocfilehash: a76e2d3b2c3cf6e99e37596b016f448b0be56fd3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319438"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420513"
 ---
 # <a name="nocoauth-cell-document-properties-section"></a>NoCoauth Cell (Document Properties Section)
 
 Définit si un document stocké sur un serveur Microsoft SharePoint 2013 ou Microsoft OneDrive peut être modifié simultanément par plusieurs auteurs dans une session de co-création.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le document ne peut pas être co-créé et ne peut pas être modifié lorsqu'il est ouvert.  <br/> |
 |FALSE  <br/> |Le document peut être co-créé.  <br/> |

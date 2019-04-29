@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: db7c2521-a1ad-4802-b398-79575d3d310a
 description: Lorsque vous travaillez avec un modèle de formulaire InfoPath, vous pouvez écrire du code pour accéder aux sources de données secondaires du formulaire et manipuler les données qu'elles contiennent.
 ms.openlocfilehash: f6957c561231eef0e3e4df6deb09ae89f85afcc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300195"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408312"
 ---
 # <a name="access-external-data-sources"></a>Accéder à des sources de données externes
 

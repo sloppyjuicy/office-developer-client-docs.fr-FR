@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7dfeb78e-a0fa-4492-b35f-70b1e2975d38
 description: Détermine la taille de la réflexion par rapport à la forme, sous la forme d'un pourcentage compris entre 0,0 et 100,0%. Une forme avec une valeur de 0% dans la cellule réfléchissante n'a pas de réflexion; une valeur de 100% affiche une image miroir complète de la forme.
 ms.openlocfilehash: 60fcb315ec1b6187082bdcdbbdcfaa4b80bbcfb3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348355"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409075"
 ---
 # <a name="reflectionsize-cell-additional-effect-properties-section"></a>ReflectionSize Cell (Additional Effect Properties Section)
 

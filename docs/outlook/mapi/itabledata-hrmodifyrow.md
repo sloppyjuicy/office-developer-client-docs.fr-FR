@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 44ecf095ad24dd266dc5f603ace9c7b9f21c1b41
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408998"
 ---
 # <a name="itabledatahrmodifyrow"></a>ITableData::HrModifyRow
 

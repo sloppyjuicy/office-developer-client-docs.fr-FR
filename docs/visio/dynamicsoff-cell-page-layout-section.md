@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 055764aa-9681-ffb0-83ce-fdd612fe37af
 description: Détermine si les formes positionnables se déplacent et si les connecteurs sont repositionnés autour des autres formes et des connecteurs sur la page de dessin.
 ms.openlocfilehash: d1075ab1b0512d5db1c7b7a5f2895305318dae7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315718"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437475"
 ---
 # <a name="dynamicsoff-cell-page-layout-section"></a>DynamicsOff, cellule (section Page Layout)
 
 Détermine si les formes positionnables se déplacent et si les connecteurs sont repositionnés autour des autres formes et des connecteurs sur la page de dessin.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Désactive le repositionnement automatique.  <br/> |
 | FALSE  <br/> | Active le repositionnement automatique.  <br/> |

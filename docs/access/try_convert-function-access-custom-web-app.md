@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ea514f19-4742-4eb4-823d-6f2494668106
 description: ConVertit une valeur en un type de données spécifié ou renvoie la valeur null si la conversion n'est pas valide.
 ms.openlocfilehash: 473d9063da46652afa88dc974cb4c4036e1c326c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304225"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410895"
 ---
 # <a name="tryconvert-function-access-custom-web-app"></a>Fonction Try_Convert (application Web personnalisée Access)
 

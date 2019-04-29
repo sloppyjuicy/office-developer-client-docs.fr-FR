@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: f1dcf0ec-8b4a-4ee1-9208-b1c84e30d37b
 description: Détermine si la forme prend un dégradé lorsque la forme est regroupée avec d'autres formes, en tant que valeur booléenne. La valeur de la cellule UseGroupGradient n'affecte que le remplissage de la forme.
 ms.openlocfilehash: a69b48095aec93705c686a5401051f1d1e368d18
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337155"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411364"
 ---
 # <a name="usegroupgradient-cell-gradient-properties-section"></a>UseGroupGradient Cell (Gradient Properties Section)
 

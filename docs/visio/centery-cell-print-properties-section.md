@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 7ce0bf66-dc8b-9646-7b04-50c969ecd67a
 description: Détermine si la page de dessin est centrée verticalement sur la page d'impression.
 ms.openlocfilehash: 858bf41c74fdcbd82d271a379df7c5816a7796fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341915"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437433"
 ---
 # <a name="centery-cell-print-properties-section"></a>CenterY, cellule (section Print Properties)
 
 Détermine si la page de dessin est centrée verticalement sur la page d'impression. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Centre la page de dessin verticalement sur la page d'impression.  <br/> |
 | FALSE  <br/> | Ne centre pas la page de dessin verticalement sur la page d'impression (valeur par défaut).  <br/> |

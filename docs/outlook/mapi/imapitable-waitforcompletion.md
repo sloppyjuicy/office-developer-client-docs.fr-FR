@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7663c640-396e-4720-9345-370d0856bd49
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 778ff8f36478740e5ee23ba439db1e328eca2e06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328811"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407059"
 ---
 # <a name="imapitablewaitforcompletion"></a>IMAPITable::WaitForCompletion
 

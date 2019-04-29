@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e3ad18be-9547-9811-73e0-aca9c0fc7f76
 description: L'API de couche de déGradation des données offre la possibilité de masquer le format de caractère natif sous-jacent d'un objet Outlook, ce qui permet à un client d'accéder à l'objet dans un format de caractères préféré plutôt que dans le format de caractères natif de l'objet.
 ms.openlocfilehash: 8cfe9f1243e4f0bbef21386b5b523015b7383552
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316932"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438707"
 ---
 # <a name="about-the-data-degradation-layer-api"></a>À propos de l’API de couche de dégradation des données
 

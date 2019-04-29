@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 537b45420390903d67722c074a1edcc04a0aede8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326298"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418833"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>Propriété canonique PidLidOfflineStatus
 
@@ -39,7 +39,7 @@ Détermine l'état d'un fichier de document sur un serveur qui implémente [MS-L
 
 Le tableau suivant indique les valeurs possibles de cette propriété.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Le document n'est pas extrait.  <br/> |
 |0,1  <br/> |Le document est extrait pour l'utilisateur actuel.  <br/> |
@@ -47,7 +47,7 @@ Le tableau suivant indique les valeurs possibles de cette propriété.
    
 Cette propriété est calculée localement et n'est pas envoyée à un serveur à tout moment, sauf si l'utilisateur fait glisser l'élément vers un autre compte. Dans ce cas, elle est traitée comme une propriété personnalisée définie par l'utilisateur.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

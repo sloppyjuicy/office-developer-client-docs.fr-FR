@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e0087cdffe04bdb5de7ffcfa295a5ac84bf03bd1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331618"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418693"
 ---
 # <a name="cbmapiverbarray"></a>CbMAPIVerbArray
 

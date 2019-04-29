@@ -8,17 +8,17 @@ keywords:
 - évaluation d'expression [Excel 2007], feuilles de calcul [Excel 2007], évaluation de nom, expressions d'évaluation [Excel 2007], évaluation des noms de feuilles de calcul [Excel 2007], expressions [Excel 2007], évaluation, noms [Excel 2007], évaluation, évaluation de nom [Excel 2007] , chaînes [Excel 2007], conversion en valeurs, fonction xlfEvaluate [Excel 2007], feuilles de calcul [Excel 2007], évaluation de l'expression
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 97328cbc57a9144a133524774e3be10a84a96bf4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311115"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406863"
 ---
 # <a name="evaluating-names-and-other-worksheet-formula-expressions"></a>Évaluation des noms et d’autres expressions de formule dans les feuilles de calcul
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 L'une des fonctionnalités les plus importantes qu'Excel expose via l'API C est la possibilité de convertir toute formule de chaîne pouvant être légalement entrée dans une feuille de calcul en une valeur ou un tableau de valeurs. Ceci est essentiel pour les fonctions et commandes XLL qui doivent lire le contenu de noms définis, par exemple. Cette fonctionnalité est exposée par le biais de la [fonction xlfEvaluate](xlfevaluate.md), comme illustré dans cet exemple.
   

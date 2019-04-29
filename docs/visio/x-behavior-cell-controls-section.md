@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 82423d08-b6ce-0f23-8b61-354c3e5f323e
 description: Contrôle le type de comportement de la coordonnée x de la poignée de contrôle une fois que celle-ci a été déplacée.
 ms.openlocfilehash: 50b08664deec69659ff70a0bf9a17a148ed0e110
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338842"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413947"
 ---
 # <a name="x-behavior-cell-controls-section"></a>X Behavior, cellule (section Controls)
 

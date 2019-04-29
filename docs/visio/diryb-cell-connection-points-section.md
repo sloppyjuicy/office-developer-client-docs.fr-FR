@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d951c57d-2c22-0289-35af-44e3c2877b2c
 description: Détermine le composant y pour le vecteur d'alignement requis d'un point de connexion correspondant. Cette cellule sert également à orienter la branche reliée d'un lien dynamique. Elle accepte une valeur à virgule flottante.
 ms.openlocfilehash: b0dc3c9f7e1a9e87b2ecdace21c8fa1658b1388d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332584"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417090"
 ---
 # <a name="diry--b-cell-connection-points-section"></a>DirY / B, cellule (section Connection Points)
 

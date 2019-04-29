@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ceb9181a3d8669f8cf9a62eff12ad07148b42e48
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334677"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420002"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>Propriété canonique PidTagConversionEits
 
@@ -38,7 +38,7 @@ Contient les types d'informations codées (EITs) qui sont appliquées à un mess
 
 Les environnements X. 400 utilisent cette propriété pour les rapports de non-remise et de remise.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

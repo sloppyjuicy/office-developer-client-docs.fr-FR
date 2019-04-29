@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0fe423d7-b044-479b-89ad-c39620eedd65
 description: Représente une connexion à un site de réseau social.
 ms.openlocfilehash: c60fab1c27d2f761db28ed06bb45080857630e8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357364"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437825"
 ---
 # <a name="isocialsession--iunknown"></a>ISocialSession : IUnknown
 
@@ -23,7 +23,7 @@ Représente une connexion à un site de réseau social.
 
 Le tableau suivant indique les membres qui sont disponibles sur l'interface **ISocialSession** . 
   
-|**Name**|**Type de membre**|**Description**|
+|**Nom**|**Type de membre**|**Description**|
 |:-----|:-----|:-----|
 |[FindPerson](isocialsession-findperson.md) <br/> |Méthode  <br/> |Obtient une valeur de type String qui représente une ou plusieurs personnes qui correspondent au paramètre _userid_ .  <br/> |
 |[FollowPerson](isocialsession-followperson.md) <br/> |Méthode  <br/> |Ajoute la personne identifiée par le paramètre _EmailAddress_ en tant qu'ami pour l'utilisateur connecté sur le réseau social.  <br/> |

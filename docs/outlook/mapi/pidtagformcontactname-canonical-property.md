@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0114da6030fbe5b1fe451e0e9831746bf58cc4b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316253"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435641"
 ---
 # <a name="pidtagformcontactname-canonical-property"></a>Propriété canonique PidTagFormContactName
 
@@ -38,7 +38,7 @@ Contient le nom d'un contact pour obtenir des informations sur un formulaire.
 
 En règle générale, le contact contient le nom d'une personne ou d'un alias responsable de la gestion du formulaire. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 
