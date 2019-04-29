@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: b3880511-dd27-4dc2-9e50-a49084ef8195
 description: Indique si une forme peut participer à une opération de remplacement (en tant que forme cible ou de remplacement).
 ms.openlocfilehash: 8b0e3175cacd9b906d91a4185dcd98fad604d8bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348222"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404140"
 ---
 # <a name="lockreplace-cell-protection-section"></a>LockReplace Cell (Protection Section)
 
 Indique si une forme peut participer à une opération de remplacement (en tant que forme cible ou de remplacement). 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |La forme ne peut pas être remplacée ou être utilisée comme une forme de remplacement.  <br/> Pour une forme sur la zone de dessin, le bouton **modifier la forme** est désactivé lorsque la forme est sélectionnée.  <br/> Pour une forme dans un gabarit, la forme n'apparaît pas en tant que forme de remplacement lorsque l'utilisateur clique sur le bouton **modifier la forme** .  <br/> |
 |FALSE  <br/> |La forme peut être remplacée ou utilisée comme une forme de remplacement.  <br/> |

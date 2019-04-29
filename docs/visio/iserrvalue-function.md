@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c7feec6f-f47a-60ee-b056-7b2dc51ed9a9
 description: "Renvoie TRUE si la valeur de cellreference est un type d'erreur #VALUE, où un argument dans la formule est de type incorrect. La fonction ISERRVALUE est utilisée dans les expressions logiques qui font référence à une autre cellule."
 ms.openlocfilehash: 62058522dc8a2387aec9867e4892da740aba9b44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317884"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404427"
 ---
 # <a name="iserrvalue-function"></a>Fonction ISERRVALUE
 
@@ -36,7 +36,7 @@ Les cellules Montage de A à D ne renvoient pas l’erreur #VALEUR! parce que la
   
 ## <a name="example-1"></a>Exemple 1
 
-|**Cell**|**Formula**|**Valeur renvoyée**|
+|**Cellule**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
 |Scratch. x1  <br/> |="Maison"  <br/> |#VALUE!  <br/> |
 |Scratch. a1  <br/> |= If (ISERRVALUE(Scratch.X1),2,Scratch.X1)  <br/> |n°2  <br/> |
@@ -45,7 +45,7 @@ Renvoie 2 parce que la valeur renvoyée est une erreur #VALEUR! et l’expressio
   
 ## <a name="example-2"></a>Exemple 2
 
-|**Cell**|**Formula**|**Valeur renvoyée**|
+|**Cellule**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
 |Scratch. a1  <br/> |="5 + 7"  <br/> |5 + 7  <br/> |
 |Scratch. B1  <br/> |=If (ISERRVALUE(Scratch.A1),2,Scratch.A1)  <br/> |5 + 7  <br/> |

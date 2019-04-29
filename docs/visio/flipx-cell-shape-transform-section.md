@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 8d4f5e14-4f17-05a6-4092-5a102c9dc85f
 description: Indique si la forme a été retournée horizontalement.
 ms.openlocfilehash: b7a4a15e5a7759eddcda3ec391a81f14df545691
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346185"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415949"
 ---
 # <a name="flipx-cell-shape-transform-section"></a>FlipX, cellule (section Shape Transform)
 
 Indique si la forme a été retournée horizontalement.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La forme a été retournée horizontalement.  <br/> |
 | FALSE  <br/> | La forme n'a pas été retournée horizontalement.  <br/> |

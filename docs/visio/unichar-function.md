@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 371a475d-50f7-6b4c-4b47-581cd778dcba
 description: Renvoie le caractère Unicode d'un nombre.
 ms.openlocfilehash: 81e76b72da35f79dee9ad6afbde51bc2e228483c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327346"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417580"
 ---
 # <a name="unichar-function"></a>Fonction UNICHAR
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d857b48b-9a3d-a1e1-5ad2-6816a492c8ab
 description: Détermine la couleur de trait de la forme.
 ms.openlocfilehash: d0b4ebee6d96bc67c9ca45e8a6194cb91ed6c7f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359303"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416936"
 ---
 # <a name="linecolor-cell-line-format-section"></a>LineColor, cellule (section Line Format)
 

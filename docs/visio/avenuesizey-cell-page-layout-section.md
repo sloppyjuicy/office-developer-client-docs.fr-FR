@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
 description: Détermine la distance verticale entre les formes sur la page de dessin lorsque vous les disposez à l'aide de la boîte de dialogue Configurer la disposition (sous l'onglet création, dans le groupe disposition, cliquez sur nouvelle disposition de page, puis cliquez sur autres options de disposition).
 ms.openlocfilehash: 283de8925e34c470fd1f9e78b8ae58882be8b7fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338422"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420205"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>AvenueSizeY, cellule (section Page Layout)
 

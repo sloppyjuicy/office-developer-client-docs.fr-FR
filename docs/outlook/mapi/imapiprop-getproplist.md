@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f089fa2c608fb9fcb7deba2e061c5cf5886aa02f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316568"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414787"
 ---
 # <a name="imapipropgetproplist"></a>IMAPIProp::GetPropList
 

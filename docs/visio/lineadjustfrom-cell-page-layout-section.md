@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6949c717-dc69-1d17-5215-eb6efce56fcb
 description: Détermine quels connecteurs dynamiques doivent être espacés par l'application s'ils sont positionnés les uns sur les autres.
 ms.openlocfilehash: 3eb9f5513ee3ce2f5dce96cb47c356bca29a289c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359324"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415186"
 ---
 # <a name="lineadjustfrom-cell-page-layout-section"></a>LineAdjustFrom, cellule (section Page Layout)
 

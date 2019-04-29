@@ -8,17 +8,17 @@ keywords:
 - fonctions de la bibliothèque d'infrastructure [Excel 2007], fonctions [Excel 2007], bibliothèque de l'infrastructure
 localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4eeb9e5db09592e98e9afb763efaa6be18eb2f7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304052"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417545"
 ---
 # <a name="functions-in-the-framework-library"></a>Fonctions dans la bibliothèque d'infrastructure
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 La bibliothèque d'infrastructure a été créée pour faciliter l'écriture de XLL. Il inclut des fonctions simples pour ****/ la gestion de la mémoire de**XLOPER12** , la création d'une méthode **XLOPER**/ **** temporaire, qui appelle de façon fiable les fonctions de rappel Microsoft Excel (**Excel4**, **Excel4v** , * * Excel12 * *, * * Excel12v * *) et l'impression de chaînes de débogage sur un terminal attaché.
   
@@ -71,5 +71,5 @@ Pour utiliser les fonctions de la bibliothèque d'infrastructure, vous devez inc
   
 ## <a name="see-also"></a>Voir aussi
 
-- [R�f�rence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
+- [Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
 

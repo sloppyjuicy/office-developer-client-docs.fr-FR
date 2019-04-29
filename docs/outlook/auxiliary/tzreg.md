@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a353e1a3-0187-20af-b9ba-43438f6024d5
 description: Définit à quel moment l'heure d'été commence, lorsque le retour à l'heure standard se produit, et le nombre d'heures d'évolution de l'heure d'été.
 ms.openlocfilehash: 136ff6ad0c1a9bc2ad61ef7ba698d66d645165d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307839"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419365"
 ---
 # <a name="tzreg"></a>TZREG
 

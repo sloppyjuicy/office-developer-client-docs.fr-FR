@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9b456a87-d990-7ab2-d8a1-e91dca78650f
 description: La fenêtre ShapeSheet est masquée par défaut dans Microsoft Visio. Pour accéder à la feuille ShapeSheet, vous devez exécuter Visio en mode développeur (affichage de l'onglet Développeur).
 ms.openlocfilehash: b18bca69f7acea29d3c43ff57b22b132baa9c6fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360948"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419421"
 ---
 # <a name="open-the-shapesheet-for-a-shape-page-or-document"></a>Ouvrir la feuille ShapeSheet d'une forme, d'une page ou d'un document
 

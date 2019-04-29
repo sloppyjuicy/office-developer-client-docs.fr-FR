@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: eaac62a5-f516-9b81-587a-8e0e02de59ee
 description: Contient les coordonnées x et y, le sens horizontal et vertical et le type d'un point de connexion unique sur une forme. Les coordonnées des points de connexion sont mesurées à partir de l'origine de la forme. Une forme contient une ligne Connection Points pour chaque point de connexion.
 ms.openlocfilehash: 301ea4fb446d9acafd4b59af388c3e7b2d419e20
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361025"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415508"
 ---
 # <a name="connection-points-row-connection-points-section"></a>Connection Points, ligne (section Connection Points)
 
@@ -22,7 +22,7 @@ Contient les coordonnées *x* et *y* , le sens horizontal et vertical et le type
   
 Si les lignes Connection Points sont nommées, leurs noms apparaissent sous la forme Connections. *nom* dans la fenêtre ShapeSheet. Les lignes Connection Points contiennent les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules. 
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[X](x-cell-connection-points-section.md) <br/> |Coordonnée *x* d'un point de connexion en coordonnées locales.  <br/> |
 |[Y](y-cell-connection-points-section.md) <br/> |Coordonnée *y* d'un point de connexion en coordonnées locales.  <br/> |

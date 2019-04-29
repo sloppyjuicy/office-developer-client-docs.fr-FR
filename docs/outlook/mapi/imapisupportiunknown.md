@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6da488408d3be9464d6ae1e016d5095707d451e4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325647"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415438"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
@@ -58,8 +58,8 @@ Fournit des implémentations pour les tâches généralement effectuées par des
 |[OpenTemplateID](imapisupport-opentemplateid.md) <br/> |Ouvre une entrée de destinataire dans un fournisseur de carnets d'adresses étrangers.  <br/> |
 |[OpenEntry](imapisupport-openentry.md) <br/> |Ouvre un objet et renvoie un pointeur d'interface pour un accès supplémentaire.  <br/> |
 |[GetOneOffTable](imapisupport-getoneofftable.md) <br/> |Renvoie un pointeur vers la table ponctuelle MAPI (une liste de modèles que tous les fournisseurs de carnet d'adresses prennent en charge pour la création de destinataires).  <br/> |
-|[Address](imapisupport-address.md) <br/> |Affiche la boîte de dialogue adresse commune.  <br/> |
-|[Details](imapisupport-details.md) <br/> |Affiche une boîte de dialogue qui affiche des détails sur une entrée de carnet d'adresses particulière.  <br/> |
+|[Adresse](imapisupport-address.md) <br/> |Affiche la boîte de dialogue adresse commune.  <br/> |
+|[Détails](imapisupport-details.md) <br/> |Affiche une boîte de dialogue qui affiche des détails sur une entrée de carnet d'adresses particulière.  <br/> |
 |[NewEntry](imapisupport-newentry.md) <br/> |Ajoute un nouveau destinataire directement à un conteneur de carnet d'adresses ou à la liste des destinataires d'un message sortant.  <br/> |
 |[DoConfigPropsheet](imapisupport-doconfigpropsheet.md) <br/> |Affiche une feuille de propriétés de configuration.  <br/> |
 |[CopyMessages](imapisupport-copymessages.md) <br/> |Copie ou déplace les messages d'un dossier vers un autre dossier.  <br/> |
@@ -86,8 +86,8 @@ Les carnets d'adresses, les banques de messages, les fournisseurs de transport e
   
 ||||
 |:-----|:-----|:-----|
-|**Address** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
-|**Details** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
+|**Adresse** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
+|**Détails** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
 |**Généré** <br/> |**GetMemAllocRoutines** <br/> |**GetOneOffTable** <br/> |
 |**IStorageFromStream** <br/> |**GetSvcConfigSupportObj** <br/> |**MakeInvalid** <br/> |
 |**ModifyStatusRow** <br/> |**NewEntry** <br/> |**NewUID** <br/> |

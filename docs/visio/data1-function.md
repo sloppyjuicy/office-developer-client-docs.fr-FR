@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2b09eed1-1b01-e18e-d28e-674b8fc105fd
 description: Renvoie le texte de la zone données 1 de la boîte de dialogue nom de la forme d'une forme (sous l'onglet Développeur, cliquez sur nom de la forme), sous la forme d'une chaîne.
 ms.openlocfilehash: 608a61f478e95c309051d5dc47919d6e68c7cb43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344652"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416271"
 ---
 # <a name="data1-function"></a>Fonction DATA1
 
