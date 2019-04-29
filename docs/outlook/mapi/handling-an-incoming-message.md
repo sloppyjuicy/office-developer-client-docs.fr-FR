@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d45d5ed9-41cd-4aaf-91d2-1e4a27bb16d4
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: f3fbe34793e3520b26b984f4bd6b14fbcab7a951
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299404"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438980"
 ---
 # <a name="handling-an-incoming-message"></a>Gestion d’un message entrant
 
@@ -51,7 +51,7 @@ Avant d'afficher un message entrant destiné à un utilisateur, déterminez si s
     
 7. Si vous le souhaitez, ouvrez une pièce jointe. Pour plus d'informations, consultez la rubrique [ouverture d'une pièce jointe](opening-an-attachment.md).
     
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Ouverture du texte](opening-message-text.md)du message: décrit comment ouvrir le texte du message.
     

@@ -11,17 +11,17 @@ keywords:
 - fonction tempnum12 [Excel 2007], fonction TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: cabd44ab828a2cfe22253e9aaf12abf7b7709d69
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310359"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426631"
 ---
 # <a name="tempnumtempnum12"></a>TempNum/TempNum12
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Fonction de bibliothèque d'infrastructure qui crée une expression **XLOPER**/ **** temporaire contenant un numéro de feuille de calcul Microsoft Excel (un type IEEE de 8 octets). 
   

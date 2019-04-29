@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ac59aeb3d650c0fbeb5bcdb580e0401cbab58ee6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347809"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437727"
 ---
 # <a name="hrentryidfromsz"></a>HrEntryIDFromSz
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6434655b-8fb3-4a20-9649-8934042bfc7b
 description: Renvoie le nombre de caractères de l'expression de chaîne spécifiée, à l'exclusion des espaces de fin.
 ms.openlocfilehash: 2bd4f4fc4407f946398003e8e572e01e3a9f60f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301840"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410755"
 ---
 # <a name="len-function-access-custom-web-app"></a>Fonction Len (application Web personnalisée Access)
 

@@ -10,17 +10,17 @@ keywords:
 - fonction ConvertXLRef12ToXLRef [Excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 0a12052a93d030088feb548449955129ff5bdc0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311052"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432652"
 ---
 # <a name="convertxlref12toxlref"></a>ConvertXLRef12ToXLRef
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Tente de convertir un **XLREF12** en **XLREF**.
   

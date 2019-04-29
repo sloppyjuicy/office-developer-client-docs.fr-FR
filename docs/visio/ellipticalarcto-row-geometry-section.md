@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7ceb30a8-1d05-feff-35d8-08a198784a27
 description: Contient les coordonnées x et y du point de terminaison d'un arc elliptique, les coordonnées x et y des points de contrôle de l'arc, l'angle entre l'axe x et l'axe principal de l'ellipse, ainsi que le rapport entre les axes principal et secondaire de l'ellipse.
 ms.openlocfilehash: c6db7560a05652ca3bfcadb2fd4857ac39370562
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345674"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421402"
 ---
 # <a name="ellipticalarcto-row-geometry-section"></a>EllipticalArcTo, ligne (section Geometry)
 
@@ -22,7 +22,7 @@ Contient les coordonnées *x* et *y* du point de terminaison d'un arc elliptique
   
 La ligne EllipticalArcTo contient les cellules suivantes.
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Coordonnée *x* du sommet de fin sur un arc.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y* du sommet de fin d'un arc.  <br/> |

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: cce34aba-caae-51ee-992e-92a490b68ea5
 description: Verrouille le point de début (BeingX, BeginY) d'une forme 1D à un emplacement donné.
 ms.openlocfilehash: 2e6c6284ff82a88677eb46bb13b8ab8afa986584
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359646"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407759"
 ---
 # <a name="lockbegin-cell-protection-section"></a>LockBegin, cellule (section Protection)
 
 Verrouille le point de début (BeingX, BeginY) d'une forme 1D à un emplacement donné.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Le point de début est verrouillé.  <br/> |
 | FALSE  <br/> | Le point de début n'est pas verrouillé.  <br/> |

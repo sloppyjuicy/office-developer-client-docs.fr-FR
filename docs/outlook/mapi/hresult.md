@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b248ed11-3d8a-4d4c-9b84-fa5bee7979c7
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 64fcbebbd71bc3f478f36c711e49db9a3518ef9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347795"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435018"
 ---
 # <a name="hresult"></a>HRESULT
 
@@ -71,5 +71,5 @@ Pour plus d'informations sur l'utilisation OLE des valeurs **HRESULT** , consult
 [SCODE](scode.md)
 
 
-[Types de donn�es MAPI](mapi-data-types.md)
+[Types de données MAPI](mapi-data-types.md)
 

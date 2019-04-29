@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e5659113b1c6579913042ae0c8dfcd03e9802621
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359478"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438959"
 ---
 # <a name="pidtagservicename-canonical-property"></a>Propriété canonique PidTagServiceName
 
@@ -40,7 +40,7 @@ Le nom contenu dans ces propriétés est propre au service de messagerie. Elle p
   
 Ces propriétés apparaissent sous la forme d'une colonne dans le tableau service de messagerie et peuvent être utilisées pour filtrer les services. Étant donné qu'il est utilisé pour identifier et filtrer des services, la valeur ne doit pas être localisée.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

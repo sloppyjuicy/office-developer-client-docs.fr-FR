@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c2d6a7dd-9f15-27bd-9623-2a047683ff98
 description: Modifie la couleur en diminuant sa saturation de la valeur spécifiée dans le paramètre int.
 ms.openlocfilehash: c3352d4c15671244d0fc4701f2c26b4e0c2ea54d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335685"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434374"
 ---
 # <a name="tone-function"></a>Fonction TONE
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 30384098-09e9-95a3-aefd-9bda3ff1b699
 description: Renvoie le texte du champ Auteur des propriétés d’un document.
 ms.openlocfilehash: d87543391f3880ac42253791e3720bdd57805bdc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282942"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422697"
 ---
 # <a name="creator-function"></a>Fonction CREATOR
 

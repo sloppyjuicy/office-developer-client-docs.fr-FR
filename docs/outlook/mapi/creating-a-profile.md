@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 80867adf-6786-47a9-9d3f-4aef4a7d7c66
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 842a8d9f2f08125fbede037dabf8ae6f6790d547
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332948"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432687"
 ---
 # <a name="creating-a-profile"></a>Création d'un profil
 
@@ -23,7 +23,7 @@ ms.locfileid: "32332948"
   
 Un client peut créer un profil de l'une des deux façons suivantes, à l'aide de l'Assistant Profil ou en écrivant du code personnalisé.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Création d'un profil à l'aide de l'Assistant Profil](creating-a-profile-by-using-the-profile-wizard.md)
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
 description: Le modèle objet compatible avec InfoPath 2003 propose des fonctionnalités qui permettent l'utilisation de signatures numériques par programme.
 ms.openlocfilehash: 86e2c85c7515c896612df09b6186462480ceff61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299908"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433443"
 ---
 # <a name="work-with-digital-signatures-using-the-infopath-2003-object-model"></a>Utiliser des signatures numériques à l'aide du modèle objet InfoPath 2003
 
@@ -37,7 +37,7 @@ Les fonctionnalités de signature numérique disponibles dans InfoPath vous perm
     
 ## <a name="overview-of-the-digital-signatures-object-model"></a>Présentation du modèle objet des signatures numériques
 
-### <a name="events"></a>Events
+### <a name="events"></a>Événements
 
 Le modèle objet des signatures numériques fournit l'événement qui suit.
   

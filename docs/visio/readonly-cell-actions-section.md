@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 158b4188-570c-3817-bf34-8dc0c64befa5
 description: Contrôle si l’action d’un menu contextuel ou de balise d’action est en lecture seule.
 ms.openlocfilehash: f45f22001a4d7275bb9367414c8b04ea3c0d9c6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359989"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434234"
 ---
 # <a name="readonly-cell-actions-section"></a>ReadOnly, cellule (section Actions)
 
@@ -23,7 +23,7 @@ Contrôle si l’action d’un menu contextuel ou de balise d’action est en le
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |L'action apparaît dans le menu mais est en lecture seule.  <br/> |
 |FALSE  <br/> |L'action apparaît dans le menu et peut être sélectionnée (valeur par défaut).  <br/> |

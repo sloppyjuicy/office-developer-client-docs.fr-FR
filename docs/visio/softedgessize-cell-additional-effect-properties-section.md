@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a5cde2ca-f343-4a6e-b5d9-a1b78b3cd240
 description: Détermine la taille d'un effet de bordure arrondie, en points, de 0,00 à 100,00. Si la cellule SoftEdgesSize a une valeur de 0, la forme n'a pas de bordures arrondies.
 ms.openlocfilehash: e749fefde8e0358cbf4ab8388a61ad703c7d52ff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334537"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435914"
 ---
 # <a name="softedgessize-cell-additional-effect-properties-section"></a>SoftEdgesSize Cell (Additional Effect Properties Section)
 

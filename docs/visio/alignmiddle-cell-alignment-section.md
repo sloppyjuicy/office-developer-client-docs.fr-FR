@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 444bf9e2-80e8-cbe5-6855-b445f16e7920
 description: Détermine la position verticale, par rapport à l'origine de son parent, d'un repère horizontal ou d'un point de repère sur lequel est aligné le centre vertical de la forme.
 ms.openlocfilehash: c49142e0e612ebee98d989acc0b878eb73f2f892
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341705"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432862"
 ---
 # <a name="alignmiddle-cell-alignment-section"></a>AlignMiddle, cellule (section Alignment)
 

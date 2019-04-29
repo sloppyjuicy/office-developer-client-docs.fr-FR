@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6c286821-67d6-4d96-973a-bca7934c7672
 description: Vous pouvez utiliser l’action AtteindreContrôle pour déplacer le focus sur le contrôle spécifié dans l’enregistrement actif de la vue ouverte.
 ms.openlocfilehash: 2368933a6277615554a565d3bdd973f7d1f366f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302575"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436474"
 ---
 # <a name="gotocontrol-macro-action-access-custom-web-app"></a>Action de macro AtteindreContrôle (application web personnalisée Access)
 

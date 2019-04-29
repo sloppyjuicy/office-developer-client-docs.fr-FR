@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4864ebc2-fee6-2415-7c59-e0af8611f8d6
 description: Renvoie TRUE si la valeur de cellreference est n'importe quel type d'erreur; dans le cas contraire, elle renvoie la valeur FALSe. La fonction ISERROR est utilisée dans les formules qui font référence à une autre cellule.
 ms.openlocfilehash: a07b2345858e36dc2e4514d7e4f0f0d653491b50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317891"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421542"
 ---
 # <a name="iserror-function-visioshapesheet"></a>ISERROR Function (VisioShapeSheet)
 
@@ -32,7 +32,7 @@ ISERROR (* * *cellreference* * *)
    
 ## <a name="example-1"></a>Exemple 1
 
-|**Cell**|**Formula**|**Valeur renvoyée**|
+|**Cellule**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
 |Scratch. a1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch. B1  <br/> |= ESTERREUR (Scratch. a1)  <br/> |TRUE  <br/> |
@@ -41,7 +41,7 @@ Renvoie TRUE parce que l’erreur #N/A! est reconnue par la fonction ISERROR. Vo
   
 ## <a name="example-2"></a>Exemple 2
 
-|**Cell**|**Formula**|**Valeur renvoyée**|
+|**Cellule**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
 |Scratch. x1  <br/> |= «Maison»  <br/> |#VALUE!  <br/> |
 |Scratch. B1  <br/> |= ESTERREUR (Scratch. X1)  <br/> |TRUE  <br/> |

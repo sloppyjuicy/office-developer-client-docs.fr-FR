@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1351ec3c-984d-4b3e-8009-7c39f18d71a5
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5732cd5c2b0b8dc26d699c3567f7cd9be3495184
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320418"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410860"
 ---
 # <a name="pidtagtypeofx400user-canonical-property"></a>Propriété canonique PidTagTypeOfX400User
 
@@ -34,7 +34,7 @@ Cette propriété contient le type d'un destinataire de message à utiliser dans
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

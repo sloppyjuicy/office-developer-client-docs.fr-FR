@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: Détermine l'attribution de texte à un groupe.
 ms.openlocfilehash: 78a70dc0398745765bca12a1e768390b35fce8ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314916"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432645"
 ---
 # <a name="istextedittarget-cell-group-properties-section"></a>IsTextEditTarget, cellule (section Group Properties)
 
 Détermine l'attribution de texte à un groupe.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le texte est ajouté à la forme de groupe.  <br/> |
 |FALSE  <br/> |Le texte est ajouté dans le groupe à la forme qui se trouve au premier rang de la pile.  <br/> |

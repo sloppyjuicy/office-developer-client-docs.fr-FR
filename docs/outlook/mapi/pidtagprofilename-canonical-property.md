@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 992b3a6a30e15d267ffeda11ec98c7b4aeacb2c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341649"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435648"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>Propriété canonique PidTagProfileName
 
@@ -42,7 +42,7 @@ Les applications clientes peuvent utiliser ces propriétés comme alternative pr
   
 Ces propriétés peuvent ne pas être uniques dans le temps, par exemple lorsqu'un profil est supprimé, puis recréé avec le même nom. MAPI fournit une propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) totalement unique dans une section de profil codé en dur appelée **MUID_PROFILE_INSTANCE.**
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

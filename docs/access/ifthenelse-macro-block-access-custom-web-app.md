@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 18d28dc1-c41f-47c6-b5c7-258d5f877d01
-description: Vous pouvez utiliser le bloc de macro If pour exécuter de façon conditionnelle un groupe d'actions, selon la valeur d'une expression.
+description: Vous pouvez utiliser le bloc de macro If pour exécuter de façon conditionnelle un groupe d’actions, selon la valeur d’une expression.
 ms.openlocfilehash: 6fe82e2c42f8e5d93cdc26798e7572e32d6cdc7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304262"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434493"
 ---
 # <a name="ifthenelse-macro-block-access-custom-web-app"></a>If... Then... Sinon, bloc de macros (application Web personnalisée Access)
 
-Vous pouvez utiliser le bloc de macro **If** pour exécuter de façon conditionnelle un groupe d'actions, selon la valeur d'une expression. 
+Vous pouvez utiliser le bloc de macro **If** pour exécuter de façon conditionnelle un groupe d’actions, selon la valeur d’une expression. 
   
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f9624af2-c087-3dde-9140-339c438b3652
 description: Détermine si un trait est tracé autour du contour du chemin.
 ms.openlocfilehash: ad3744ae8deb4ffb4dd2282e50590439c4b218a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357280"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433751"
 ---
 # <a name="noline-cell-geometry-section"></a>NoLine, cellule (section Geometry)
 
 Détermine si un trait est tracé autour du contour du chemin.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Aucun trait n'est tracé autour du contour du chemin correspondant à la limite d'une région qu'il est possible de remplir.  <br/> |
 | FALSE  <br/> | Un trait est tracé autour du contour du chemin.  <br/> |

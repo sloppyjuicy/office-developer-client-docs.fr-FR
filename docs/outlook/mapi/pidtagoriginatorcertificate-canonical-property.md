@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65f890d8-9d25-408e-ab29-89991278b92d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: d367073de2134ff766cbae3d4f6bcfa30b862122
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351106"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438938"
 ---
 # <a name="pidtagoriginatorcertificate-canonical-property"></a>Propriété canonique PidTagOriginatorCertificate
 
@@ -38,7 +38,7 @@ Contient un certificat ASN. 1 pour l'expéditeur du message.
 
 Cette propriété est une copie de la propriété **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) de l'expéditeur.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

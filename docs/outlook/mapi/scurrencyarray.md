@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d28852ab-b542-40e1-b2ec-85d20a2eddfd
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e9468d0c7fc7e46475afe19f12f225e53196639e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360696"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439400"
 ---
 # <a name="scurrencyarray"></a>SCurrencyArray
 
@@ -58,7 +58,7 @@ Pour plus d'informations sur PT_MV_CURRENCY, consultez la [liste des types de pr
 
 
 
-[CONCURRENT](currency.md)
+[CURRENCY](currency.md)
   
 [SPropValue](spropvalue.md)
 

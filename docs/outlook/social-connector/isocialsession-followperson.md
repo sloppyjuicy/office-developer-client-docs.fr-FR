@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: de7f56e2-c131-4955-b945-0a72043e0f5a
 description: Ajoute la personne identifiée par le paramètre emailAddress en tant qu'ami pour l'utilisateur connecté sur le réseau social.
 ms.openlocfilehash: 849085bd40788039a96ac159fd76a5e252395916
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285363"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423257"
 ---
 # <a name="isocialsessionfollowperson"></a>ISocialSession::FollowPerson
 

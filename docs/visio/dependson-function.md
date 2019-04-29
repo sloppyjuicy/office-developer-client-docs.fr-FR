@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8fcfcfdd-69e2-b061-fdb6-d29389d14403
 description: Crée une dépendance de référence de cellule.
 ms.openlocfilehash: 26e7f5fb0620a5f1812d878f02d5bedd43afe524
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360231"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423467"
 ---
 # <a name="dependson-function"></a>Fonction DEPENDSON
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 8fac3c92-d2f5-479e-a368-ca82bddd8e30
 description: 'Derni�re modification�: samedi 23 juillet 2011'
 ms.openlocfilehash: 6c00dce9ec489ca2b886f3e51551ba57e9eeea33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331562"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421843"
 ---
 # <a name="mapi-folders"></a>Dossiers MAPI
 

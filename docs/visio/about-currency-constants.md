@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d94c740f-29e1-1e7f-39f6-8aa215f3111d
 description: Pour mettre en forme un nombre en tant que valeur monétaire, vous pouvez utiliser la fonction CY et transmettre une constante facultative afin de définir la devise à utiliser. Les constantes monétaires peuvent être définies sous forme de numéros d’ID correspondant à un pays/une région ou sous forme de chaîne (placée entre guillemets) représentant une abréviation ISO 4217 de 3 caractères.
 ms.openlocfilehash: 4492f4901779d94a32b881c973eab9e32a9c0514
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344585"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421794"
 ---
 # <a name="about-currency-constants"></a>À propos des constantes de devise
 
@@ -29,15 +29,15 @@ Si vous affichez des symboles monétaires ne figurant pas dans les paramètres r
 | 0  <br/> | SYS  <br/> | Utilise les paramètres du système  <br/> |
 | 0,1  <br/> | 439  <br/> | Met en forme sous forme de nombre  <br/> |
 | 2 - 9  <br/> | Reserved  <br/> |
-| 10  <br/> | EUR  <br/> | Euro  <br/> |
-| a4  <br/> | PILOTE  <br/> | Dollar américain  <br/> |
-| an  <br/> | ATS  <br/> | Schilling autrichien  <br/> |
-| kg  <br/> | AUD  <br/> | Dollar australien  <br/> |
-| 13  <br/> | BEF  <br/> | Franc belge  <br/> |
-| 0,15  <br/> | DAO  <br/> | Dollar canadien  <br/> |
-| Seiz  <br/> | VIREMENT  <br/> | Franc suisse  <br/> |
-| cm  <br/> | CNY  <br/> | Yuan renminbi chinois  <br/> |
-| 18  <br/> | DEM  <br/> | Deutsche Mark  <br/> |
+| 10   <br/> | EUR  <br/> | Euro  <br/> |
+| 11   <br/> | PILOTE  <br/> | Dollar américain  <br/> |
+| 12   <br/> | ATS  <br/> | Schilling autrichien  <br/> |
+| 13   <br/> | AUD  <br/> | Dollar australien  <br/> |
+| 14   <br/> | BEF  <br/> | Franc belge  <br/> |
+| 15   <br/> | DAO  <br/> | Dollar canadien  <br/> |
+| 16   <br/> | VIREMENT  <br/> | Franc suisse  <br/> |
+| 17   <br/> | CNY  <br/> | Yuan renminbi chinois  <br/> |
+| 18   <br/> | DEM  <br/> | Deutsche Mark  <br/> |
 | neuf  <br/> | DKK  <br/> | Couronne danoise  <br/> |
 | vingtaine  <br/> | ESP  <br/> | Peseta espagnole  <br/> |
 | 21  <br/> | FIM  <br/> | Mark finlandais  <br/> |

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a4ffbd02-eed7-43ed-9da2-f0d1ff5d8014
 description: Vous pouvez utiliser l'action SetVariable pour créer une variable temporaire et la définir sur une valeur spécifique. La variable peut ensuite être utilisée comme condition ou argument dans les actions ultérieures, ou vous pouvez utiliser la variable dans une autre macro d'interface utilisateur.
 ms.openlocfilehash: 54c23868a5bfb66a2fb08465361583c6e9b5ed49
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307926"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433919"
 ---
 # <a name="setvariable-macro-action-access-custom-web-app"></a>SetVariable, action de macro (application Web personnalisée Access)
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 50937e29-eaa1-0cd0-53cc-dc17e7793e55
 description: Indique si une option est cochée dans le menu contextuel ou de balise d’action.
 ms.openlocfilehash: 870823f28d802e7cafa81efbe5617f27b6714885
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341845"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438329"
 ---
 # <a name="checked-cell-actions-section"></a>Checked, cellule (section Actions)
 
@@ -23,7 +23,7 @@ Indique si une option est cochée dans le menu contextuel ou de balise d’actio
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |La coche est affichée.  <br/> |
 |FALSE  <br/> |La coche n'est pas affichée (valeur par défaut).  <br/> |

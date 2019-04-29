@@ -10,17 +10,17 @@ keywords:
 - fonction ExcelCursorProc [Excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: d3cc41487f0cae31e110249fe148f5370319a39a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304094"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432491"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Lorsqu'une boîte de dialogue modale est affichée sur la fenêtre Microsoft Excel, le curseur est occupé sur la fenêtre Excel. Cette **WndProc** intercepte les messages Windows de type WM_SETCURSOR et replace le curseur sur une flèche normale. 
   

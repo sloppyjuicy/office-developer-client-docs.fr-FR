@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 40d7e38e-b3b0-8616-ed27-1f963a841e03
 description: Définit la position d'une tabulation. La position de la tabulation est indépendante de l'échelle du dessin. Si le dessin est mis à l'échelle, la position de la tabulation ne change pas.
 ms.openlocfilehash: ef17b38d708103ca004594ba04ff5b8d1ada13bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307748"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409929"
 ---
 # <a name="position-cell-tabs-section"></a>Position, cellule (section Tabs)
 

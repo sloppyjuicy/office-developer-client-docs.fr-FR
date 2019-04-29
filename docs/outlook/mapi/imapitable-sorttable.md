@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: f16ba9164d55fdb7bd688d4068f99dc4407e5413
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328853"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432365"
 ---
 # <a name="imapitablesorttable"></a>IMAPITable::SortTable
 

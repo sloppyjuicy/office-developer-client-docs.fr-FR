@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: 'Dernière modification: 08 08, 2011'
 ms.openlocfilehash: 5a3e45809f36b71968560a4b239e268addf00474
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322231"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422480"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>À propos des URL MAPI pour l'indexation basée sur les notifications
 
@@ -23,7 +23,7 @@ Lorsqu'un fournisseur de banque avertit un indexeur qu'un objet est prêt pour l
 
 Le tableau suivant décrit les différentes parties d'une URL standard.
 
-|Élément | Description|
+|Quitter | Description|
 |:----|:-----------|  
 |*SID* |Identificateur de sécurité de l'utilisateur actuel.| 
 |*StoreDisplayName* |Valeur de type String qui spécifie le nom d'affichage de l'utilisateur sur ce magasin.|
@@ -79,7 +79,7 @@ WCHAR  wszProviderItemID
 
 Le fournisseur de banque d'données doit écrire ces valeurs dans l'objet BLOB dans l'ordre indiqué. Le tableau suivant décrit chaque champ du BLOB.
 
-|Élément | Description|
+|Quitter | Description|
 |:----|:-----------|  
 |*dwVersion* |Il s'agit de la version des données envoyées. Actuellement, cette valeur est 1.|
 |*dwFlags* |Réservé à une utilisation future. Actuellement, cette valeur doit être égale à 0.|

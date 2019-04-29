@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 4015506a-e24a-0276-c854-7791a7019067
 description: Indique si le dessin est imprimé sur un nombre spécifique de page d'impression.
 ms.openlocfilehash: 61d45a5bffdbb1afd5db9c608f80bc4f797f5191
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360983"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439603"
 ---
 # <a name="onpage-cell-print-properties-section"></a>OnPage, cellule (section Print Properties)
 
 Indique si le dessin est imprimé sur un nombre spécifique de page d'impression. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Ajuste la page de dessin sur un nombre défini de pages d'impression.  <br/> |
 |FALSE  <br/> |N'ajuste pas la page de dessin sur un nombre défini de pages d'impression (valeur par défaut).  <br/> |

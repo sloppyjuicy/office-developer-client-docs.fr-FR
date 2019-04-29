@@ -10,17 +10,17 @@ keywords:
 - fonction xlAutoRegister [Excel 2007]
 localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f043558f3f642001e9ba11ee5b18a2721c3dddfb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303947"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421164"
 ---
 # <a name="xlautoregisterxlautoregister12"></a>xlAutoRegister/xlAutoRegister12
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Excel appelle la [fonction xlAutoRegister](xlautoregister-xlautoregister12.md) chaque fois qu'un appel a été passé à la **** fonction XLM, ou à la [fonction xlfRegister](xlfregister-form-1.md)de l'API C, avec les types de retour et d'argument de la fonction inscrite manquants. Elle permet à la XLL d'effectuer des recherches dans ses listes internes de fonctions et de commandes exportées pour enregistrer la fonction avec l'argument et les types de retour spécifiés.
   

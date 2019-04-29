@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 4179b235-e21d-4c37-ae2b-ad01388296ec
 description: Les sections suivantes décrivent les scénarios de dépannage usuels que vous pouvez rencontrer lors de la conception et du débogage des modèles de formulaires avec code managé qui utilisent le modèle objet compatible InfoPath 2003 fourni par l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust.
 ms.openlocfilehash: 106f12602bae86d85c2a7d2f920f59d50326c908
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303471"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436523"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model-at-design-time"></a>Résoudre les problèmes liés aux modèles de formulaires qui utilisent le modèle objet InfoPath au moment de la conception
 

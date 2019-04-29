@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a6082162-2a74-4850-a0df-4bdbc67b41d8
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e15c259003ed2cb425eb181f4383f3054967b993
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339318"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437937"
 ---
 # <a name="pidtagstoreunicodemask-canonical-property"></a>Propriété canonique PidTagStoreUnicodeMask
 
@@ -130,7 +130,7 @@ STORE_UNICODE_OK
     
 Une version RTF d'un message peut toujours être stockée, même si la Banque de messages n'est pas compatible avec le format RTF. Si le bit STORE_RTF_OK n'est pas défini pour un magasin particulier, un client qui gère les versions RTF doit appeler la fonction [RTFSync](rtfsync.md) pour que les versions **PR_BODY** et **PR_RTF_COMPRESSED** soient synchronisées pour le contenu de texte. Le format RTF est toujours stocké dans **PR_RTF_COMPRESSED**, qu'il soit ou non compressé. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

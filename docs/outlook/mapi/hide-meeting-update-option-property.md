@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e7b413f-a88a-a4ec-8d57-1f3058cce4a4
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ac7c891fa05560231a257f9bd52ccbbfe564b49d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299509"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412099"
 ---
 # <a name="hide-meeting-update-option-property"></a>Masquer la propriété d'option de mise à jour de réunion
 
@@ -35,7 +35,7 @@ Masque l'option permettant d'envoyer des mises à jour de réunion uniquement au
 |Créé par:  <br/> |Fournisseur de magasin  <br/> |
 |Accès par:  <br/> |Outlook et d'autres clients  <br/> |
 |Type de propriété:  <br/> |PT_BOOLEAN  <br/> |
-|Type d'accès:  <br/> |En lecture-écriture.  <br/> |
+|Type d'accès:  <br/> |Lecture/écriture  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 754db64b-179f-4385-8dd9-c20c9407b186
 description: Vous pouvez écrire du code pour répondre à divers événements susceptibles de se produire pendant qu'un utilisateur remplit un formulaire. Pour utiliser les événements dans InfoPath, vous pouvez ajouter des gestionnaires d'événements lorsque vous travaillez sur un modèle de formulaire en mode Création.
 ms.openlocfilehash: 0db3209dfe005f2a87ad65f3fc89b1714ec7d95c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300104"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407682"
 ---
 # <a name="respond-to-form-events"></a>Répondre aux événements de formulaire
 
@@ -27,7 +27,7 @@ Pour plus d'informations sur la création de gestionnaires d'événements InfoPa
 
 Le modèle InfoPath fourni par l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) implémente trois classes qui mettent en œuvre les 12 événements pouvant survenir et être gérés par la logique métier du modèle de formulaire. Le tableau suivant contient la liste de tous les objets d'événements InfoPath, les événements auxquels ils sont associés et une description de leur fonction. 
   
-|**Name**|**Événements**|**Description**|
+|**Nom**|**Événements**|**Description**|
 |:-----|:-----|:-----|
 |[ButtonEvent](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.aspx) <br/> |[Cliqué sur](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) <br/> |La classe **ButtonEvent** implémente l'événement **Clicked** lors d'un clic sur un contrôle **Bouton** dans un formulaire.  <br/> |
 |[FormEvents](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.aspx) <br/> |[ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) <br/> [Échec](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) <br/> [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) <br/> [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) <br/> [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) <br/> [Envoyer](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Submit.aspx) <br/> [VersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.VersionUpgrade.aspx) <br/> [ViewSwitched](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ViewSwitched.aspx) <br/> |La classe **FormEvents** implémente les événements spécifiques à un modèle de formulaire InfoPath lui-même :  <br/> **ContextChanged** <br/> Se produit après une modification du nœud de contexte.  <br/> **Échec** <br/> Se produit après le chargement du modèle de formulaire mais avant l'initialisation d'une vue quelconque.  <br/> **Merge** <br/> Se produit lorsque la commande fusionner les **formulaires** est appelée à partir de l'interface utilisateur ou lorsqu'InfoPath `/aggregate` est démarré avec le commutateur de ligne de commande.  <br/> **Save** <br/> [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx) Survient lorsque les commandes **Enregistrer** ou **Enregistrer sous** sont utilisées à partir de l'interface utilisateur ou lorsque les méthodes [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Save.aspx) et SaveAs de la classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) sont utilisées.  <br/> **Sign** <br/> Se produit  une fois qu'un ensemble de données signées a été sélectionné pour une signature par l'intermédiaire de la boîte de dialogue **Signatures numériques**.  <br/> **Envoyer** <br/> SurVient lorsque la commande **Submit** est utilisée à partir de l'interface utilisateur ou que la méthode [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx) de la classe **XmlForm** est utilisée.  <br/> **VersionUpgrade** <br/> Se produit lorsque le numéro de version du formulaire en cours d'ouverture est antérieur à celui du modèle de formulaire sur lequel il est basé.  <br/> **ViewSwitched** <br/> Se produit lors d'un changement de vue réussi d'un formulaire.  <br/> |
@@ -40,7 +40,7 @@ Le modèle InfoPath fourni par l'espace de noms [Microsoft.Office.InfoPath](http
 
 Chacun des 12 événements ont un objet **EventArgs** associé à l'événement transmis au gestionnaire d'événements afin que l'événement fournisse des informations d'état et d'autres fonctionnalités qui peuvent être utilisées dans le code du gestionnaire d'événements. Le tableau suivant recense les événements InfoPath et les objets **EventArgs** associés, ainsi qu'une brève description des fonctionnalités fournies par les propriétés et les méthodes de l'objet. Pour plus d'informations sur les propriétés et les méthodes spécifiques de l'objet, cliquez sur le nom de l'objet **EventArgs** dans le tableau, puis cliquez sur le lien Membres dans la rubrique. 
   
-|**Event**|**Classe EventsArgs**|**Description**|
+|**event**|**Classe EventsArgs**|**Description**|
 |:-----|:-----|:-----|
 |**Cliqué sur** <br/> |[ClickedEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ClickedEventArgs.aspx) <br/> |Obtient l'ID du contrôle.  <br/> Obtient un objet **XPathNavigator** placé sur le nœud XML le plus au centre du document XML sous-jacent du formulaire qui contient le contrôle **Bouton**.  <br/> |
 |**ContextChanged** <br/> |[ContextChangedEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ContextChangedEventArgs.aspx) <br/> |Obtient le type de modification de contexte qui a été effectué au moment où l'événement s'est produit.  <br/> Obtient une valeur indiquant si l'événement de modification de contexte s'est produit en réponse à l'annulation ou au rétablissement d'une opération.   <br/> Obtient une référence à un élément **XPathNavigator** placé sur le nœud du contexte qui a déclenché l'événement.   <br/> |

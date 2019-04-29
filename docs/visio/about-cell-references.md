@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e6a9aceb-90d7-fb53-eaf4-416a1ae2a98b
 description: Vous pouvez créer des relations de dépendance entre des formules à l'aide de références de cellule ShapeSheet. Les références de cellule vous permettent de calculer la valeur d'une cellule en fonction de celle d'une autre. Si, par exemple, la cellule Width d'une forme contient une formule permettant de calculer la largeur de la forme en se référant à la valeur de la cellule Height, les proportions de la forme sont conservées si un utilisateur redimensionne la forme verticalement.
 ms.openlocfilehash: a92bcc560c535dc012ec5cb79db72250e78364c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332619"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409803"
 ---
 # <a name="about-cell-references"></a>À propos des références de cellules
 

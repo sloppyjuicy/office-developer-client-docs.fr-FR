@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e1c70713586a7a143f119a2c3e9d34b982dcedba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310954"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412596"
 ---
 # <a name="developing-excel-cluster-connectors"></a>Développement de connecteurs de cluster Excel
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Les connecteurs de cluster Excel permettent de décharger automatiquement les appels de fonctions définies par l'utilisateur en cluster dans un XLL sur un serveur en cluster. Pour obtenir une description des fonctions définies par l'utilisateur en cluster, consultez la rubrique [fonctions de sécurité du cluster](cluster-safe-functions.md). Ce délestage peut améliorer les performances en permettant l'utilisation de ressources de calcul supplémentaires. Un connecteur de cluster est généralement développé par un fournisseur de cluster de calcul à hautes performances.
   

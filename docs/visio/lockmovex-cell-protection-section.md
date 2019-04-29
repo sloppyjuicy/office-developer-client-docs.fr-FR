@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 48ceeeed-66ae-a81f-2aee-f0010102dfb7
 description: Verrouille la position horizontale de la forme afin d'empêcher son déplacement horizontal.
 ms.openlocfilehash: af0cee32370a540cd8d7aaf960cc0cbc27cc8f97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348264"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435858"
 ---
 # <a name="lockmovex-cell-protection-section"></a>LockMoveX, cellule (section Protection)
 
 Verrouille la position horizontale de la forme afin d'empêcher son déplacement horizontal.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La position horizontale est verrouillée.  <br/> |
 | FALSE  <br/> | La position horizontale n'est pas verrouillée.  <br/> |

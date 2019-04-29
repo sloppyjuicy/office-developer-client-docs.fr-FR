@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ae99a0fa-76c4-4c07-9ae9-a7abce23394f
 description: Renvoie une partie d'une expression de texte.
 ms.openlocfilehash: af93620905af366f41bcc50ab6102114acd3db9f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301693"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433471"
 ---
 # <a name="substring-function-access-custom-web-app"></a>Fonction SUBSTRING (application Web personnalisée Access)
 

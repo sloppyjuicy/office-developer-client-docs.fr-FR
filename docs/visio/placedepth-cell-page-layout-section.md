@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 02c139db-fe67-f550-1d07-8c8a9a4fb427
 description: Détermine la méthode utilisée pour analyser le dessin avant la création de la mise en page et définit le type de mise en page.
 ms.openlocfilehash: 463c7dad39955161538aa89d1482685189bf7fdc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346794"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432036"
 ---
 # <a name="placedepth-cell-page-layout-section"></a>PlaceDepth, cellule (section Page Layout)
 
@@ -23,7 +23,7 @@ Détermine la méthode utilisée pour analyser le dessin avant la création de l
 |**Valeur**|**Profondeur de placement pour les mises en page verticales et horizontales**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valeur par défaut de la page  <br/> |**visPLOPlaceDepthDefault** <br/> |
-| 0,1  <br/> | Moyenne  <br/> |**visPLOPlaceDepthMedium** <br/> |
+| 0,1  <br/> | Moyen  <br/> |**visPLOPlaceDepthMedium** <br/> |
 | n°2  <br/> | Développée  <br/> |**visPLOPlaceDepthDeep** <br/> |
 | 3  <br/> | Partielle  <br/> |**visPLOPlaceDepthShallow** <br/> |
    

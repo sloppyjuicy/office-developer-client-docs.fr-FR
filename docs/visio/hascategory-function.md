@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ed3c997b-0a58-0432-c468-a24614b67f2e
 description: Renvoie TRUE si la chaîne spécifiée est trouvée dans la liste des catégories de la forme.
 ms.openlocfilehash: 902819f981b53aed96695e181ab556d3841d97c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360164"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433352"
 ---
 # <a name="hascategory-function"></a>Fonction HASCATEGORY
 
@@ -35,7 +35,7 @@ HASCATEGORY (* * *catégorie* * *)
    
 ### <a name="return-value"></a>Valeur renvoyée
 
- **Booléen**
+ **Boolean**
   
 ## <a name="remarks"></a>Remarques
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c67b46bb-0eb2-f094-2870-c320bd488705
 description: Fusionne deux couleurs dans la proportion spécifiée par le paramètre float.
 ms.openlocfilehash: 0a231954370416be201183026424c79942204e12
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303296"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432785"
 ---
 # <a name="blend-function"></a>Fonction BLEND
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6f62650d-36f8-4c6e-b79f-c9c397a5954d
 description: Représente une valeur de randomisation utilisée pour déterminer la géométrie d'un effet d'esquisse, sous la forme d'un nombre entier positif. La valeur de la cellule SketchSeed est créée de manière aléatoire lorsqu'un effet d'esquisse est appliqué à la forme.
 ms.openlocfilehash: 3ec58fbfa183d1a6d7bb6960672658f9a6cca073
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315147"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434395"
 ---
 # <a name="sketchseed-cell-additional-effect-properties-section"></a>SketchSeed Cell (Additional Effect Properties Section)
 

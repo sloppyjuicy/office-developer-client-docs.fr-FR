@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 89bcde81-4530-bd00-6e2e-fab7deec175b
 description: Indique tous les calques définis pour la page ainsi que les propriétés attribuées à chaque calque.
 ms.openlocfilehash: 058c8cbe2ee38a0ebc52935f7108d51ec4f2aef5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309470"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424202"
 ---
 # <a name="layers-section"></a>Layers, section
 

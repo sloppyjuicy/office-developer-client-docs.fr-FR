@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 366550fa-e787-4ca0-bfe1-a7890dfc27c6
 description: "Un flux d'activités se compose d'une ou de plusieurs activités se produisant sur un réseau social. Chaque flux d'activité est représenté par un élément activityFeed et se caractérise par ces trois éléments d'information:"
 ms.openlocfilehash: 971c54cf69a65bebbe4fd04e8608e88b89145bb4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329290"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439946"
 ---
 # <a name="overview-of-xml-for-an-activity-feed-item"></a>Vue d’ensemble du code XML pour un élément de flux d’activité
 

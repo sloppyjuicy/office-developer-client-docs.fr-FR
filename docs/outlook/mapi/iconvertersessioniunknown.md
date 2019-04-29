@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2db55d6318cf02dd131d07b34841922e61605147
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336686"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432316"
 ---
 # <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 

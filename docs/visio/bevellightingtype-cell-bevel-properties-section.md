@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 7fbb4b16-fe54-42d6-803a-c9980897166d
 description: Détermine le type d'éclairage utilisé par l'effet de relief.
 ms.openlocfilehash: 6d92c56b01d192c1df04eecdaca4eb915baebcae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315770"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433961"
 ---
 # <a name="bevellightingtype-cell-bevel-properties-section"></a>BevelLightingType Cell (Bevel Properties Section)
 
 Détermine le type d'éclairage utilisé par l'effet de relief.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun éclairage  <br/> |
 |0,1  <br/> |Trois points  <br/> |
@@ -30,12 +30,12 @@ Détermine le type d'éclairage utilisé par l'effet de relief.
 |7j/7  <br/> |Journée  <br/> |
 |8bits  <br/> |Aube  <br/> |
 |4,9  <br/> |Crépuscule  <br/> |
-|10  <br/> |Froide  <br/> |
-|a4  <br/> |Libérer  <br/> |
-|an  <br/> |À deux dimensions  <br/> |
-|kg  <br/> |Deux points  <br/> |
-|13  <br/> |Lumière  <br/> |
-|0,15  <br/> |Salle lumineuse  <br/> |
+|10   <br/> |Froide  <br/> |
+|11   <br/> |Libérer  <br/> |
+|12   <br/> |À deux dimensions  <br/> |
+|13   <br/> |Deux points  <br/> |
+|14   <br/> |Lumière  <br/> |
+|15   <br/> |Salle lumineuse  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

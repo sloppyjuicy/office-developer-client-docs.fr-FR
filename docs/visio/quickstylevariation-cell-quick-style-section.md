@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: e3b58a19-9f1a-4f2b-9fe2-45cbb7ec6898
 description: Détermine s'il faut remplacer les formules et les valeurs de texte, de trait et de couleur de remplissage (ou une combinaison de ces propriétés) à l'aide de couleurs qui contrastent avec l'arrière-plan du diagramme. La valeur est un opérateur de bits or de 0, 1, 2, 4 et 8.
 ms.openlocfilehash: 736e2287c00c24774ef8b677613235d642697f4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360013"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433793"
 ---
 # <a name="quickstylevariation-cell-quick-style-section"></a>QuickStyleVariation Cell (Quick Style Section)
 
 Détermine s'il faut remplacer les formules et les valeurs de texte, de trait et de couleur de remplissage (ou une combinaison de ces propriétés) à l'aide de couleurs qui contrastent avec l'arrière-plan du diagramme. La valeur est un opérateur de bits or de 0, 1, 2, 4 et 8.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Ne modifiez pas le texte, la ligne ou la couleur de remplissage d'une forme (ou n'importe quelle combinaison de ces propriétés) pour qu'elle reste visible par rapport à la couleur d'arrière-plan d'un thème.  <br/> |
 |0,1  <br/> |Ne modifiez pas le texte, la ligne ou la couleur de remplissage d'une forme (ou n'importe quelle combinaison de ces propriétés) pour qu'elle reste visible par rapport à la couleur d'arrière-plan d'un thème.  <br/> |

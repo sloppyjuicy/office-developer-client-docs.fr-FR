@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c53cfe28-603c-49c5-bce6-b4401c7c5091
 description: Indique s'il faut utiliser l'authentification pour le compte SMTP.
 ms.openlocfilehash: c262fdbd864358d80ab8c2288181f01844194431
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328314"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413093"
 ---
 # <a name="propsmtpuseauth"></a>PROP_SMTP_USE_AUTH
 

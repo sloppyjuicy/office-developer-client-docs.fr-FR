@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e9bfced5-af29-f86c-8604-44ec9a573229
 description: Verrouille le rapport hauteur/largeur de la forme afin que cette dernière puisse être dimensionnée uniquement de façon proportionnelle, ce qui signifie qu’il est impossible de modifier une seule cote à la fois.
 ms.openlocfilehash: 83ce1aaf555cfaaa0109423e74ae930450b4c1e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359639"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411581"
 ---
 # <a name="lockaspect-cell-protection-section"></a>LockAspect, cellule (section Protection)
 
 Verrouille le rapport hauteur/largeur de la forme afin que cette dernière puisse être dimensionnée uniquement de façon proportionnelle, ce qui signifie qu’il est impossible de modifier une seule cote à la fois.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Le rapport hauteur/largeur est verrouillé.  <br/> |
 | FALSE  <br/> | Le rapport hauteur/largeur n'est pas verrouillé.  <br/> |

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1dab102f-24af-4984-8020-a9fb06355639
 description: Vous pouvez utiliser l'action RequeryRecords pour actualiser, trier et filtrer les données dans l'affichage actif en actualisant la source de la vue.
 ms.openlocfilehash: 69d88401abc0de417f7dc58e275c66f2037212aa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311010"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439246"
 ---
 # <a name="requeryrecords-macro-action-access-custom-web-app"></a>RequeryRecords, action de macro (application Web personnalisée Access)
 

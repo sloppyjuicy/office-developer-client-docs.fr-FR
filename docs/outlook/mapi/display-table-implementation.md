@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: eb17675a-35e0-4545-b394-789d343510aa
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 6990e32445083c3465693df2c1a3d40b980853c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339948"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435263"
 ---
 # <a name="display-table-implementation"></a>Implémentation des tables d'affichage
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7fb1d8a1-8892-f489-2f58-0008b5b750f5
 description: Comporte une seule ligne dans laquelle sont indiqués tous les calques auxquels la forme est associée.
 ms.openlocfilehash: e7e07ba14147abc8cdfd8b8544e4ee8f34b2be06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359009"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432246"
 ---
 # <a name="layer-membership-section"></a>Layer Membership, section
 

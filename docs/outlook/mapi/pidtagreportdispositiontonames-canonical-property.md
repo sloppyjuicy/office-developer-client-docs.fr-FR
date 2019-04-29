@@ -9,13 +9,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 322b915f-d5b8-40cb-b41a-62d08f3d08f9
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b9ae59d99a683754ba00ed7363a948f9310adbf6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346367"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432967"
 ---
 # <a name="pidtagreportdispositiontonames-canonical-property"></a>Propriété canonique PidTagReportDispositionToNames
 
@@ -32,7 +32,7 @@ Indique les noms des destinataires des rapports pour les messages qui demandent 
 |Type de données :  <br/> |PT_MV_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

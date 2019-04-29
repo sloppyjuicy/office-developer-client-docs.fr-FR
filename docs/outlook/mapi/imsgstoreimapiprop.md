@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 20090114-b183-4767-8971-a304a9aa47e6
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: af4bf73b58f7723066bb8fad7c087ba0238ceec2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348719"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422326"
 ---
 # <a name="imsgstore--imapiprop"></a>IMsgStore : IMAPIProp
 
@@ -57,7 +57,7 @@ Fournit l'accès aux informations de banque de messages et aux messages et dossi
    
 |**Propriétés requises**|**Niveau d'accès**|
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Lecture seule  <br/> |

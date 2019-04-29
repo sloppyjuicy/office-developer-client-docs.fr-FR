@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0edea0ea-58dd-15da-6d4f-185d40133452
 description: Détermine le lien hypertexte par défaut d'une forme ou d'une page. Définissez la valeur de cette cellule comme TRUE pour définir un lien hypertexte par défaut.
 ms.openlocfilehash: 9991bd0e241c5dfd4fda65aeff8b6cc203ad3458
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360276"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434353"
 ---
 # <a name="default-cell-hyperlinks-section"></a>Default, cellule (section Hyperlinks)
 

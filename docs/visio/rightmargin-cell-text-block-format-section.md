@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bc8f5469-e79f-4a68-73cb-d11c938353a4
 description: Définit la distance séparant le bord droit du bloc de texte du texte qui y figure. La valeur par défaut est 2,54 mm.
 ms.openlocfilehash: 7a9d2406792e9e57c6acd0e4291b624633e70dcb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326774"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433520"
 ---
 # <a name="rightmargin-cell-text-block-format-section"></a>RightMargin, cellule (section Text Block Format)
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6adb8e85-ae56-4542-8b19-ed3cfe7fe522
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0f99cf38e65c75ce1ba74bf72d88e19f4fbfa03a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286445"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433415"
 ---
 # <a name="pidtagproviderparentitemid-canonical-property"></a>Propriété canonique PidTagProviderParentItemId
 
@@ -38,7 +38,7 @@ Spécifie un identificateur pour le parent d'un dossier ou d'un élément dans u
 
 Les fournisseurs de magasins peuvent spécifier une valeur pour cette propriété pour un parent d'un dossier ou d'un élément, tout en conservant la même valeur entre les sessions. Les fournisseurs de magasin utilisent cette propriété pour identifier les résultats de recherche renvoyés par un moteur de recherche.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

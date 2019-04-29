@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: df4c1c70-8b41-c046-7415-643188af0e06
 description: Un modèle de format sert à déterminer l’affichage d’une valeur. Par exemple, vous pouvez contrôler le nombre de chiffres à droite ou à gauche de la virgule décimale ou l’affichage d’une chaîne de texte en majuscules ou minuscules.
 ms.openlocfilehash: 7043c9819f41ec2c08345c84010328be75677918
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344554"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436817"
 ---
 # <a name="about-format-pictures"></a>À propos des modèles de format
 

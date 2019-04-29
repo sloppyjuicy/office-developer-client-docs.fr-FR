@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b640a5aa-4e36-4983-bf11-9428809e830b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 415d108f7fd9e84ba2a9090658bc0923550390f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347788"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434052"
 ---
 # <a name="hropenabentrywithexchangecontext"></a>HrOpenABEntryWithExchangeContext
 

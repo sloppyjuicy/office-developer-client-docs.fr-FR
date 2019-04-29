@@ -8,17 +8,17 @@ keywords:
 - API c [Excel 2007], nouveautés
 localization_priority: Normal
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 64e3933ec25f0771db5bd36bbf57f3f259cdc8a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310268"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439687"
 ---
 # <a name="whats-new-in-the-c-api-for-excel"></a>Nouveautés de l'API C pour Excel
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Conjointement avec Microsoft Excel 2013, le kit de développement logiciel (SDK) XLL Microsoft Excel 2013 inclut la prise en charge des fonctionnalités suivantes.
   
@@ -45,9 +45,9 @@ Conjointement avec Microsoft Excel 2013, le kit de développement logiciel (SDK)
 
 
 
-[D�veloppement de XLL de Excel 2013](developing-excel-xlls.md)
+[Développement de XLL de Excel](developing-excel-xlls.md)
   
-[Programmation avec l�API�C dans Excel](programming-with-the-c-api-in-excel.md)
+[Programmation avec l�API C dans Excel](programming-with-the-c-api-in-excel.md)
   
 [Le multithreading et la Contention de m�moire dans Excel](multithreading-and-memory-contention-in-excel.md)
 

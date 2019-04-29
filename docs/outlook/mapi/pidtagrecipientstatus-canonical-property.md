@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b483dd42-92c0-42c2-b6f9-621daeee1659
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5494f95aaf554038f43c34e1e1e388f871a52775
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355628"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410713"
 ---
 # <a name="pidtagrecipientstatus-canonical-property"></a>Propriété canonique PidTagRecipientStatus
 
@@ -38,7 +38,7 @@ Contient une valeur qui est utilisée par le spouleur MAPI lors de l'attribution
 
 N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

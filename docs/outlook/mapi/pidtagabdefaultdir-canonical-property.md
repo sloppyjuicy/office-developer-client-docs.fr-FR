@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c7092375-c945-4f2a-94e0-6d969c6edd27
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0f2b1e9c38b995e84a1957a32e6266c4e0696a5d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326865"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438574"
 ---
 # <a name="pidtagabdefaultdir-canonical-property"></a>Propriété canonique PidTagAbDefaultDir
 
@@ -38,7 +38,7 @@ Contient l'identificateur d'entrée du conteneur de carnet d'adresses à affiche
 
 N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

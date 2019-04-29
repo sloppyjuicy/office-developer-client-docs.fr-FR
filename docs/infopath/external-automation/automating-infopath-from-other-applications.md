@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c82daa2d-59d2-44d0-9e82-40483df6dad0
 description: Cette section traite des assemblys PIA (Primary Interop Assembly) et XML de Microsoft InfoPath, ainsi que de l'utilisation de leurs types et de leurs membres pour automatiser InfoPath à partir d'applications externes à l'aide de code managé.
 ms.openlocfilehash: b6618dbe838446555920bf9e79c07712bc66fdda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310177"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434255"
 ---
 # <a name="automating-infopath-from-other-applications"></a>Automatisation d’InfoPath à partir d’autres applications
 

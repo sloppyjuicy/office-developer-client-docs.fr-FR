@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 9dd73bae-a8d5-4d8b-b356-01ac72f7e5d9
 description: Vous pouvez utiliser le bloc de données CréerEnregistrement pour créer un nouvel enregistrement dans la table spécifiée.
 ms.openlocfilehash: d89b62180dbe50a0c7dab862b70062a47558c25a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282249"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421374"
 ---
 # <a name="createrecord-data-block-access-custom-web-app"></a>Bloc de données CréerEnregistrement (application Web personnalisée Access)
 

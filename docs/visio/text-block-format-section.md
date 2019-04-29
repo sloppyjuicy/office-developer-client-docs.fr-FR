@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7109ca54-1012-bf38-a8e9-946826abbb18
 description: Contient les cellules qui définissent l'alignement, les marges et la position du taquet par défaut dans le bloc de texte d'une forme.
 ms.openlocfilehash: a5009ec99ac7b2ec5abcb72adfbdb1c954d37f09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332327"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438504"
 ---
 # <a name="text-block-format-section"></a>Section Text Block Format
 

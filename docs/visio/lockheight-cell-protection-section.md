@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 218b957e-5af6-e53b-1453-a84164ae456e
 description: Verrouille la hauteur d'une forme afin qu'elle demeure intacte lorsque la forme est redimensionnée.
 ms.openlocfilehash: 099f6597656d4389476818253f34e741ddd404de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341775"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432085"
 ---
 # <a name="lockheight-cell-protection-section"></a>LockHeight, cellule (section Protection)
 
 Verrouille la hauteur d'une forme afin qu'elle demeure intacte lorsque la forme est redimensionnée.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La hauteur est verrouillée.  <br/> |
 | FALSE  <br/> | La hauteur n'est pas verrouillée.  <br/> |

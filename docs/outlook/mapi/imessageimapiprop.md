@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 217411dc8bae12a3d7544a4cfd189c4c8f863195
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332871"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432498"
 ---
 # <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
@@ -52,7 +52,7 @@ Gère les messages, les pièces jointes et les destinataires.
    
 Les propriétés suivantes sont requises sur les messages à un moment donné de leur cycle de vie. La plupart des propriétés en lecture seule sont définies par le fournisseur de banque de messages lorsqu'un client appelle la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) d'un message. D'autres propriétés en lecture seule sont définies par le fournisseur de transport. 
   
-|**Propriétés requises pour les messages de toutes les classes**|**Access**|
+|**Propriétés requises pour les messages de toutes les classes**|**Accès**|
 |:-----|:-----|
 |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))  <br/> |Lecture seule  <br/> |
@@ -61,8 +61,8 @@ Les propriétés suivantes sont requises sur les messages à un moment donné de
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Lecture seule  <br/> |
-|**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |
-|**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |
+|**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
+|**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
 |**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))  <br/> |Lecture seule  <br/> |
@@ -102,11 +102,11 @@ Les propriétés suivantes sont toutes en lecture seule pour les clients, à l'e
 |Propriétés **PR_SENDER**  <br/> |
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
-|**Propriétés des destinataires des messages**|**Access**|**Obligatoire ou facultatif**|
+|**Propriétés des destinataires des messages**|**Accès**|**Obligatoire ou facultatif**|
 |:-----|:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lecture seule  <br/> |Obligatoire  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |Obligatoire  <br/> |
-|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |En lecture-écriture.  <br/> |Obligatoire  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lecture/écriture  <br/> |Obligatoire  <br/> |
+|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Lecture/écriture  <br/> |Obligatoire  <br/> |
 |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Lecture seule  <br/> |Facultatif  <br/> |
 |**PR_ENTRYID** <br/> |Lecture seule  <br/> |Obligatoire  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Lecture seule  <br/> |Obligatoire  <br/> |

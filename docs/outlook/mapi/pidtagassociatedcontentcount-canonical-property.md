@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f301bb50cc0d28126040a80cccb5d4e5566aebac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339920"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421318"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>Propriété canonique PidTagAssociatedContentCount
 
@@ -38,7 +38,7 @@ Contient le nombre d'éléments dans le tableau des contenus associés du dossie
 
 Cette propriété contient le nombre d'entrées dans la table contents du dossier. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

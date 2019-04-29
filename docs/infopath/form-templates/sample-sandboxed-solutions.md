@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 415fa0fa-b7b7-4acb-a437-f54c34064004
 description: Cette rubrique fournit deux exemples qui montrent le type de code que vous pouvez écrire dans un modèle de formulaire solution bac à sable InfoPath et comment publier ce modèle.
 ms.openlocfilehash: 56a9a2a765100ef327790265c7cf734903268bed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303499"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439337"
 ---
 # <a name="sample-sandboxed-solutions"></a>Exemples de solutions bac à sable (sandbox)
 

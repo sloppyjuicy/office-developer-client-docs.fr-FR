@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bfddb829-6e13-7d74-b9b9-2cb5c0937bae
 description: Détermine la taille de la pointe de flèche au début du trait.
 ms.openlocfilehash: 9c1288ced747c4e16090013cc043b040f1fbb59c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346227"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412281"
 ---
 # <a name="beginarrowsize-cell-line-format-section"></a>BeginArrowSize, cellule (section Line Format)
 
@@ -23,9 +23,9 @@ Détermine la taille de la pointe de flèche au début du trait.
 |**Valeur**|**Size**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Très petite  <br/> |**visArrowSizeVerySmall** <br/> |
-| 0,1  <br/> | Small  <br/> |**visArrowSizeSmall** <br/> |
-| n°2  <br/> | Moyenne  <br/> |**visArrowSizeMedium** <br/> |
-| 3  <br/> | Large  <br/> |**visArrowSizeLarge** <br/> |
+| 0,1  <br/> | Petite  <br/> |**visArrowSizeSmall** <br/> |
+| n°2  <br/> | Moyen  <br/> |**visArrowSizeMedium** <br/> |
+| 3  <br/> | Grande  <br/> |**visArrowSizeLarge** <br/> |
 | 4  <br/> | Très grande  <br/> |**visArrowSizeVeryLarge** <br/> |
 | disque  <br/> | Tram  <br/> |**visArrowSizeJumbo** <br/> |
 | 6.x  <br/> | Colossal  <br/> |**visArrowSizeColossal** <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b0f5393b-f923-4802-8ea0-daf58cd4bace
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0a93105f01502ae5b12e0bc8c6f2daa63693959b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334355"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435851"
 ---
 # <a name="pidtagcontactaddressbookstoreentryids-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreEntryIds
 
@@ -38,7 +38,7 @@ Contient les ID d'entrée des magasins dans lesquels les dossiers qui agissent c
 
 Il s'agit d'une propriété dans la section profil de carnet d'adresses de contacts.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4ec3100f-7cf1-4702-b326-e6da586a7bb2
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 33a7545f9b2719615617d46e2d5ed1f6952b5522
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335426"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422312"
 ---
 # <a name="pidtagreportname-canonical-property"></a>Propriété canonique PidTagReportName
 
@@ -40,7 +40,7 @@ Ces propriétés sont des exemples de propriétés d'adresse pour le destinatair
   
 Une application cliente qui doit acheminer des rapports à un autre utilisateur doit définir ces propriétés lors de l'envoi du message. Si elles ne sont pas définies, les rapports sont envoyés à l'expéditeur du message.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 
