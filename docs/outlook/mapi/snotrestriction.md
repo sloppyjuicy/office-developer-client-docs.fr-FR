@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: e86ca032-d973-4b79-976e-5240ab38a0da
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 07a1a0a1953d136da534fbdc6339d326c877bebf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344540"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426652"
 ---
-# <a name="snotrestriction"></a><span data-ttu-id="c1828-103">SNotRestriction</span><span class="sxs-lookup"><span data-stu-id="c1828-103">SNotRestriction</span></span>
+# <a name="snotrestriction"></a><span data-ttu-id="79ab0-103">SNotRestriction</span><span class="sxs-lookup"><span data-stu-id="79ab0-103">SNotRestriction</span></span>
 
   
   
-<span data-ttu-id="c1828-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c1828-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="79ab0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="79ab0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c1828-105">Décrit une restriction **not** , utilisée pour appliquer une opération **not** logique à une restriction.</span><span class="sxs-lookup"><span data-stu-id="c1828-105">Describes a **NOT** restriction, which is used to apply a logical **NOT** operation to a restriction.</span></span> 
+<span data-ttu-id="79ab0-105">Décrit une restriction **not** , utilisée pour appliquer une opération **not** logique à une restriction.</span><span class="sxs-lookup"><span data-stu-id="79ab0-105">Describes a **NOT** restriction, which is used to apply a logical **NOT** operation to a restriction.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c1828-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="c1828-106">Header file:</span></span>  <br/> |<span data-ttu-id="c1828-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="c1828-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="79ab0-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="79ab0-106">Header file:</span></span>  <br/> |<span data-ttu-id="79ab0-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="79ab0-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SNotRestriction
@@ -40,26 +40,26 @@ typedef struct _SNotRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="c1828-108">Members</span><span class="sxs-lookup"><span data-stu-id="c1828-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="79ab0-108">Members</span><span class="sxs-lookup"><span data-stu-id="79ab0-108">Members</span></span>
 
- <span data-ttu-id="c1828-109">**ulReserved**</span><span class="sxs-lookup"><span data-stu-id="c1828-109">**ulReserved**</span></span>
+ <span data-ttu-id="79ab0-109">**ulReserved**</span><span class="sxs-lookup"><span data-stu-id="79ab0-109">**ulReserved**</span></span>
   
-> <span data-ttu-id="c1828-110">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="c1828-110">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="79ab0-110">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="79ab0-110">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="c1828-111">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="c1828-111">**lpRes**</span></span>
+ <span data-ttu-id="79ab0-111">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="79ab0-111">**lpRes**</span></span>
   
-> <span data-ttu-id="c1828-112">Pointeur vers une structure [SRestriction](srestriction.md) décrivant la restriction à joindre à l'opérateur logique **not** .</span><span class="sxs-lookup"><span data-stu-id="c1828-112">Pointer to a [SRestriction](srestriction.md) structure describing the restriction to be joined to the logical **NOT** operator.</span></span> 
+> <span data-ttu-id="79ab0-112">Pointeur vers une structure [SRestriction](srestriction.md) décrivant la restriction à joindre à l'opérateur logique **not** .</span><span class="sxs-lookup"><span data-stu-id="79ab0-112">Pointer to a [SRestriction](srestriction.md) structure describing the restriction to be joined to the logical **NOT** operator.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="c1828-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="c1828-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="79ab0-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="79ab0-113">Remarks</span></span>
 
-<span data-ttu-id="c1828-114">Pour plus d'informations sur la structure **SNotRestriction** , consultez la rubrique [à propos des restrictions](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="c1828-114">For more information about the **SNotRestriction** structure, see [About Restrictions](about-restrictions.md).</span></span> 
+<span data-ttu-id="79ab0-114">Pour plus d'informations sur la structure **SNotRestriction** , consultez la rubrique [à propos des restrictions](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="79ab0-114">For more information about the **SNotRestriction** structure, see [About Restrictions](about-restrictions.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c1828-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c1828-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="79ab0-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="79ab0-115">See also</span></span>
 
 
 
-[<span data-ttu-id="c1828-116">SRestriction</span><span class="sxs-lookup"><span data-stu-id="c1828-116">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="79ab0-116">SRestriction</span><span class="sxs-lookup"><span data-stu-id="79ab0-116">SRestriction</span></span>](srestriction.md)
 
 
-[<span data-ttu-id="c1828-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="c1828-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="79ab0-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="79ab0-117">MAPI Structures</span></span>](mapi-structures.md)
 

@@ -10,34 +10,34 @@ localization_priority: Normal
 ms.assetid: c1e3d7bf-e6b6-65f1-ae40-80c8ba4821cd
 description: Valeur RVB qui représente la couleur attribuée au balisage d'un réviseur de document.
 ms.openlocfilehash: d9df6605ca6c8a22353978b9483989ecfc08130d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341817"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430538"
 ---
-# <a name="color-cell-reviewer-section"></a><span data-ttu-id="185e9-103">Color, cellule (section Reviewer)</span><span class="sxs-lookup"><span data-stu-id="185e9-103">Color Cell (Reviewer Section)</span></span>
+# <a name="color-cell-reviewer-section"></a><span data-ttu-id="233b8-103">Color, cellule (section Reviewer)</span><span class="sxs-lookup"><span data-stu-id="233b8-103">Color Cell (Reviewer Section)</span></span>
 
-<span data-ttu-id="185e9-104">Valeur RVB qui représente la couleur attribuée au balisage d'un réviseur de document.</span><span class="sxs-lookup"><span data-stu-id="185e9-104">An RGB value that represents the color assigned to a document reviewer's markup.</span></span> 
+<span data-ttu-id="233b8-104">Valeur RVB qui représente la couleur attribuée au balisage d'un réviseur de document.</span><span class="sxs-lookup"><span data-stu-id="233b8-104">An RGB value that represents the color assigned to a document reviewer's markup.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="185e9-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="185e9-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="233b8-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="233b8-105">Remarks</span></span>
 
-<span data-ttu-id="185e9-p101">Les couleurs sont attribuées aux réviseurs selon la séquence suivante : rouge, bleu, vert, violet, orange, turquoise, gris. Ces couleurs se succèdent à nouveau pour chaque autre réviseur.</span><span class="sxs-lookup"><span data-stu-id="185e9-p101">Colors are assigned to reviewers in the following sequence: red, blue, green, violet, orange, turquoise, gray. These colors are cycled through again for any remaining reviewers.</span></span> 
+<span data-ttu-id="233b8-p101">Les couleurs sont attribuées aux réviseurs selon la séquence suivante : rouge, bleu, vert, violet, orange, turquoise, gris. Ces couleurs se succèdent à nouveau pour chaque autre réviseur.</span><span class="sxs-lookup"><span data-stu-id="233b8-p101">Colors are assigned to reviewers in the following sequence: red, blue, green, violet, orange, turquoise, gray. These colors are cycled through again for any remaining reviewers.</span></span> 
   
-<span data-ttu-id="185e9-108">Les commentaires entrés sur la page de dessin d'origine sont toujours de couleur jaune, peu importe la couleur attribuée à un réviseur dans la cellule Color.</span><span class="sxs-lookup"><span data-stu-id="185e9-108">Comments entered on the original drawing page are always colored yellow, regardless of the color assigned to a reviewer in the Color cell.</span></span> 
+<span data-ttu-id="233b8-108">Les commentaires entrés sur la page de dessin d'origine sont toujours de couleur jaune, peu importe la couleur attribuée à un réviseur dans la cellule Color.</span><span class="sxs-lookup"><span data-stu-id="233b8-108">Comments entered on the original drawing page are always colored yellow, regardless of the color assigned to a reviewer in the Color cell.</span></span> 
   
-<span data-ttu-id="185e9-109">Pour obtenir une référence à la cellule Color par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="185e9-109">To get a reference to the Color cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="233b8-109">Pour obtenir une référence à la cellule Color par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="233b8-109">To get a reference to the Color cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="185e9-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="185e9-110">Cell name:</span></span>  <br/> | <span data-ttu-id="185e9-111">Reviewer. Color [ *i* ] où *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="185e9-111">Reviewer.Color [  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="233b8-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="233b8-110">Cell name:</span></span>  <br/> | <span data-ttu-id="233b8-111">Reviewer. Color [ *i* ] où *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="233b8-111">Reviewer.Color [  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="185e9-112">Pour obtenir une référence à la cellule Color à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="185e9-112">To get a reference to the Color cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="233b8-112">Pour obtenir une référence à la cellule Color à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="233b8-112">To get a reference to the Color cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="185e9-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="185e9-113">Section index:</span></span>  <br/> |<span data-ttu-id="185e9-114">**visSectionReviewer**</span><span class="sxs-lookup"><span data-stu-id="185e9-114">**visSectionReviewer**</span></span> <br/> |
-| <span data-ttu-id="185e9-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="185e9-115">Row index:</span></span>  <br/> |<span data-ttu-id="185e9-116">**visRowReviewer** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="185e9-116">**visRowReviewer** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="185e9-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="185e9-117">Cell index:</span></span>  <br/> |<span data-ttu-id="185e9-118">**visReviewerColor**</span><span class="sxs-lookup"><span data-stu-id="185e9-118">**visReviewerColor**</span></span> <br/> |
+| <span data-ttu-id="233b8-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="233b8-113">Section index:</span></span>  <br/> |<span data-ttu-id="233b8-114">**visSectionReviewer**</span><span class="sxs-lookup"><span data-stu-id="233b8-114">**visSectionReviewer**</span></span> <br/> |
+| <span data-ttu-id="233b8-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="233b8-115">Row index:</span></span>  <br/> |<span data-ttu-id="233b8-116">**visRowReviewer** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="233b8-116">**visRowReviewer** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="233b8-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="233b8-117">Cell index:</span></span>  <br/> |<span data-ttu-id="233b8-118">**visReviewerColor**</span><span class="sxs-lookup"><span data-stu-id="233b8-118">**visReviewerColor**</span></span> <br/> |
    
 
