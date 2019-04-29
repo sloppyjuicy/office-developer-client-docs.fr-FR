@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6330304a-71f3-62b4-1b27-14495e3f12c3
 description: Indique si cette forme 1D peut être fractionnée.
 ms.openlocfilehash: 9f92cf7d147be8e59d860bcc8a958bf0cdc008c6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349153"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427072"
 ---
 # <a name="shapesplittable-cell-shape-layout-section"></a>ShapeSplittable, cellule (section Shape Layout)
 
 Indique si cette forme 1D peut être fractionnée. 
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Ne pas autoriser cette forme à être fractionnée.  <br/> |**visSLOSplittableNone** <br/> |
 | 0,1  <br/> | Autoriser cette forme à être fractionnée.  <br/> |**visSLOSplittableAllow** <br/> |

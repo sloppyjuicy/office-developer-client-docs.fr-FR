@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d69393fb-fb5a-4edb-abc0-38f5d7e80bcc
 description: Cette rubrique décrit les procédures permettant d'ajouter des gestionnaires d'événements à un modèle de formulaire Microsoft InfoPath avec code managé avec Visual Studio 2012. Pour ajouter un gestionnaire d'événements à un modèle de formulaire, vous commencez par ouvrir le modèle de formulaire dans le Concepteur InfoPath, puis vous sélectionnez la commande d'interface utilisateur appropriée pour l'événement pour lequel vous souhaitez écrire du code. Une fois que vous avez sélectionné la commande pour un événement dans le Concepteur InfoPath, le squelette du gestionnaire d'événements de cet événement est activé dans l'éditeur de code Visual Studio 2012.
 ms.openlocfilehash: c6406ec1604355c59f4ee4818fdaea5d70f696bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300118"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427184"
 ---
 # <a name="add-an-event-handler"></a>Ajouter un gestionnaire d'événements
 

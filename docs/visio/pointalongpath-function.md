@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7f91e5d9-89b8-5a0d-e01f-aa81fbd5e1fd
 description: Renvoie les coordonnées d’un point du chemin, ou d’un décalage par rapport à ce chemin.
 ms.openlocfilehash: ce8b54bbd821cbfa6eb1f2789193ff8d7dda42d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348257"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430482"
 ---
 # <a name="pointalongpath-function"></a>Fonction POINTALONGPATH
 

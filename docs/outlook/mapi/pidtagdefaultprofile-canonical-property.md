@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 47f745a4-5a9c-42af-b076-a72548ef4d31
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8295ae6904f503ca831a00c1f35ac08596b5358c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269999"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428773"
 ---
 # <a name="pidtagdefaultprofile-canonical-property"></a>Propriété canonique PidTagDefaultProfile
 
@@ -38,7 +38,7 @@ Contient la valeur TRUE si un profil utilisateur de messagerie est le profil MAP
 
 Cette propriété n'apparaît pas sous la forme d'une propriété de n'importe quel objet, mais uniquement sous forme de colonne dans une table de profil. Une application cliente peut utiliser la méthode [IProfAdmin:: SetDefaultProfile](iprofadmin-setdefaultprofile.md) pour désigner le profil par défaut. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

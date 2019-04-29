@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ef62f63f-b2ce-4d12-a294-93dbdc9a869d
 description: Renvoie une valeur RVB ou un entier qui représente un index dans la palette de couleurs du document, où la couleur (numérique) transmise en tant qu'argument a été modifiée par la valeur de teinte ou d'ombrage stockée dans les paramètres de dégradé du thème actif.
 ms.openlocfilehash: 014dc04c5114e296cd2226f3cf04dfb729817578
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332262"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429137"
 ---
 # <a name="themecbv-function"></a>Fonction THEMECBV
 

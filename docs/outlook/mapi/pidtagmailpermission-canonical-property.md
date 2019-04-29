@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b396cd326dd25fd72346f9f8037e8a712b84a196
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278871"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430174"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>Propriété canonique PidTagMailPermission
 
@@ -40,7 +40,7 @@ Si cette propriété n'est pas définie, MAPI la traite comme ayant une valeur T
   
 Définissez cette propriété sur FALSe dans un annuaire d'entreprise dans lequel certaines entrées ne sont pas à extension messagerie. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 
