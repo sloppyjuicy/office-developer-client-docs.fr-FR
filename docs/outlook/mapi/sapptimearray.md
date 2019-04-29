@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: dee1de19ed61fa4f8edab69152315d77545b01b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331695"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430384"
 ---
-# <a name="sapptimearray"></a><span data-ttu-id="cec52-103">SAppTimeArray</span><span class="sxs-lookup"><span data-stu-id="cec52-103">SAppTimeArray</span></span>
+# <a name="sapptimearray"></a><span data-ttu-id="a2dfc-103">SAppTimeArray</span><span class="sxs-lookup"><span data-stu-id="a2dfc-103">SAppTimeArray</span></span>
 
   
   
-<span data-ttu-id="cec52-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cec52-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a2dfc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a2dfc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cec52-105">Contient un tableau de valeurs d'heure.</span><span class="sxs-lookup"><span data-stu-id="cec52-105">Contains an array of time values.</span></span>
+<span data-ttu-id="a2dfc-105">Contient un tableau de valeurs d'heure.</span><span class="sxs-lookup"><span data-stu-id="a2dfc-105">Contains an array of time values.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cec52-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="cec52-106">Header file:</span></span>  <br/> |<span data-ttu-id="cec52-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="cec52-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="a2dfc-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="a2dfc-106">Header file:</span></span>  <br/> |<span data-ttu-id="a2dfc-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="a2dfc-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SAppTimeArray
@@ -40,23 +40,23 @@ typedef struct _SAppTimeArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="cec52-108">Members</span><span class="sxs-lookup"><span data-stu-id="cec52-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="a2dfc-108">Members</span><span class="sxs-lookup"><span data-stu-id="a2dfc-108">Members</span></span>
 
- <span data-ttu-id="cec52-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="cec52-109">**cValues**</span></span>
+ <span data-ttu-id="a2dfc-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="a2dfc-109">**cValues**</span></span>
   
-> <span data-ttu-id="cec52-110">Nombre de valeurs dans le tableau vers lequel pointe le membre **LPAT** .</span><span class="sxs-lookup"><span data-stu-id="cec52-110">Count of values in the array pointed to by the **lpat** member.</span></span> 
+> <span data-ttu-id="a2dfc-110">Nombre de valeurs dans le tableau vers lequel pointe le membre **LPAT** .</span><span class="sxs-lookup"><span data-stu-id="a2dfc-110">Count of values in the array pointed to by the **lpat** member.</span></span> 
     
- <span data-ttu-id="cec52-111">**LPAT**</span><span class="sxs-lookup"><span data-stu-id="cec52-111">**lpat**</span></span>
+ <span data-ttu-id="a2dfc-111">**LPAT**</span><span class="sxs-lookup"><span data-stu-id="a2dfc-111">**lpat**</span></span>
   
-> <span data-ttu-id="cec52-112">Pointeur vers un tableau de valeurs de temps d'application.</span><span class="sxs-lookup"><span data-stu-id="cec52-112">Pointer to an array of application time values.</span></span> 
+> <span data-ttu-id="a2dfc-112">Pointeur vers un tableau de valeurs de temps d'application.</span><span class="sxs-lookup"><span data-stu-id="a2dfc-112">Pointer to an array of application time values.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="cec52-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="cec52-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a2dfc-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="a2dfc-113">Remarks</span></span>
 
-<span data-ttu-id="cec52-114">La structure **SAppTimeArray** est utilisée pour définir les propriétés de type PT_MV_APPTIME.</span><span class="sxs-lookup"><span data-stu-id="cec52-114">The **SAppTimeArray** structure is used to define properties of type PT_MV_APPTIME.</span></span> <span data-ttu-id="cec52-115">Pour plus d'informations sur PT_MV_APPTIME, consultez la rubrique [liste des types de propriétés](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="cec52-115">For more information about PT_MV_APPTIME, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="a2dfc-114">La structure **SAppTimeArray** est utilisée pour définir les propriétés de type PT_MV_APPTIME.</span><span class="sxs-lookup"><span data-stu-id="a2dfc-114">The **SAppTimeArray** structure is used to define properties of type PT_MV_APPTIME.</span></span> <span data-ttu-id="a2dfc-115">Pour plus d'informations sur PT_MV_APPTIME, consultez la rubrique [liste des types de propriétés](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="a2dfc-115">For more information about PT_MV_APPTIME, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="cec52-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cec52-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a2dfc-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a2dfc-116">See also</span></span>
 
 
 
-[<span data-ttu-id="cec52-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="cec52-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="a2dfc-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="a2dfc-117">MAPI Structures</span></span>](mapi-structures.md)
 
