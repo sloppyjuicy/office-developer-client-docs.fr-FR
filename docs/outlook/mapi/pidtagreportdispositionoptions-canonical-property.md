@@ -9,13 +9,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bf37786a-b6bd-48a6-a2ec-6a739a8ba0d7
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 12cc9ad950b7173fe95cf44e5e179710ee98e9fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346346"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430615"
 ---
 # <a name="pidtagreportdispositionoptions-canonical-property"></a>Propriété canonique PidTagReportDispositionOptions
 
@@ -32,7 +32,7 @@ Mappe sur l'en-tête MIME disposition-options pour les messages qui demandent de
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

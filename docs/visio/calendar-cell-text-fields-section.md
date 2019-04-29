@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0c3e275e-25f0-3681-03f4-257145c19690
 description: Détermine le calendrier utilisé pour un champ de texte lorsque le type de données est date.
 ms.openlocfilehash: e90f757fb176375c8f9e9d5744e09b67afaca527
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337498"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424751"
 ---
 # <a name="calendar-cell-text-fields-section"></a>Calendar, cellule (section Text Fields)
 

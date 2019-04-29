@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 47b46a7d-6cfb-4f5b-946d-e0164d18512a
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: cf1e0539136435f7d7df6ef348fc92ec4380e132
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310982"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427765"
 ---
 # <a name="excel-worksheet-and-expression-evaluation"></a>Feuille de calcul Excel et évaluation d’expression
 
@@ -119,5 +119,5 @@ L�erreur **#N/A** est souvent renvoy�e pour indiquer qu�un r�sultat r�
   
 [�valuer les noms et les autres Expressions de formule de feuille de calcul](evaluating-names-and-other-worksheet-formula-expressions.md)
   
-[R�f�rence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
+[Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
 

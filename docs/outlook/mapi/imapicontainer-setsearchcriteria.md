@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a6168e8fced2fff3a7f9d273e47ed2410ac4c010
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350966"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427198"
 ---
 # <a name="imapicontainersetsearchcriteria"></a>IMAPIContainer::SetSearchCriteria
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b647cbb5-2769-068d-bbda-2dc983c47ac9
 description: Détermine si des formes positionnables peuvent être placées sur une forme lors de la disposition des formes à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition).
 ms.openlocfilehash: ceecfa25c66c3ba261865d0131a3f55ef444d5e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427219"
 ---
 # <a name="shapepermeableplace-cell-shape-layout-section"></a>ShapePermeablePlace, cellule (section Shape Layout)
 
 Détermine si des formes positionnables peuvent être placées sur une forme lors de la disposition des formes à l’aide de la boîte de dialogue **Configurer la disposition** (sous l’onglet **Création**, dans le groupe **Disposition**, cliquez sur **Nouvelle disposition de page**, puis cliquez sur **Autres options de disposition**).
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Permet de placer les formes sur une forme.  <br/> |
 |FALSE  <br/> |Ne permet pas de placer les formes sur une forme.  <br/> |

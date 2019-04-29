@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 840c34a64cd0478be8f208799653b9916f50079d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355834"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437083"
 ---
 # <a name="mapi-tables"></a>Tables MAPI
   

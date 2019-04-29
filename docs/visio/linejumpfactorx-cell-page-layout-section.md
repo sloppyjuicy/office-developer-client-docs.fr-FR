@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0649672f-f496-ce80-6dc3-3affc9b6f913
 description: Détermine la taille des déviations sur les connecteurs dynamiques horizontaux de la page par rapport à la valeur de la cellule LineToLineX. La valeur de cette cellule est comprise entre 0 et 10 mais des valeurs fractionnelles de 0 à 1 sont proposées.
 ms.openlocfilehash: 8698d99021ca64415417de8e946cbd80b586e759
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316463"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424993"
 ---
 # <a name="linejumpfactorx-cell-page-layout-section"></a>LineJumpFactorX, cellule (section Page Layout)
 

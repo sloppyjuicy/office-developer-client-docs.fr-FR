@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b499a5eb-db8f-ebd0-d505-c9a002205e7d
 description: Détermine si un utilisateur est invité à entrer les données de forme d’une forme lorsqu’une occurrence est créée ou lorsque la forme est dupliquée ou copiée.
 ms.openlocfilehash: 0aa270ff918866d8f683a6408ccd71b6a22d555d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341439"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426863"
 ---
 # <a name="ask-cell-shape-data-section"></a>Ask, cellule (section Shape Data)
 
 Détermine si un utilisateur est invité à entrer les données de forme d’une forme lorsqu’une occurrence est créée ou lorsque la forme est dupliquée ou copiée.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |L'utilisateur est invité à entrer des données de forme dans la boîte de dialogue **Définir les données de forme**.  <br/> |
 |FALSE  <br/> |L'utilisateur n'est pas invité à entrer de données.  <br/> |

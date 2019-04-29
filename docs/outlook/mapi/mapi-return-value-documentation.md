@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c32ee53c-b063-4a00-a6bf-75ce5e07f56a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5bbafe9fda479d951bb20175ab904dc6e241226a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329714"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429690"
 ---
 # <a name="mapi-return-value-documentation"></a>Documentation sur la valeur de retour MAPI
 

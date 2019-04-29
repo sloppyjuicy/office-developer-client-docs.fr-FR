@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9cec22cd-798d-41f6-9ebd-c7354f2162c2
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: fc971be76dbaa83176f207411f9f125ffee386cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350651"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424461"
 ---
 # <a name="pidtagwizardnopabpage-canonical-property"></a>Propriété canonique PidTagWizardNoPabPage
 
@@ -38,7 +38,7 @@ Cette propriété contient la valeur TRUE si l'Assistant Profil doit supprimer l
 
 Les fournisseurs de services peuvent définir cette propriété lors de l'appel d'une fonction basée sur le prototype de fonction [LAUNCHWIZARDENTRY](launchwizardentry.md) . Cette propriété indique à l'Assistant Profil que le fournisseur ne veut pas que la page PAB s'affiche pendant la boîte de dialogue de l'utilisateur. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

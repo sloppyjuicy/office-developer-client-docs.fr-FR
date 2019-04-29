@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: da71e9dd5f2fc20bb1daf528f4466ea29507bf06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341376"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429823"
 ---
 # <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
@@ -48,8 +48,8 @@ Prend en charge l'accès au carnet d'adresses MAPI et inclut des opérations tel
 |[CreateOneOff](iaddrbook-createoneoff.md) <br/> |Crée un identificateur d'entrée pour une adresse ponctuelle.  <br/> |
 |[NewEntry](iaddrbook-newentry.md) <br/> |Ajoute un nouveau destinataire à un conteneur de carnet d'adresses ou à la liste des destinataires d'un message sortant.  <br/> |
 |[ResolveName](iaddrbook-resolvename.md) <br/> |Effectue une résolution de noms, en affectant des identificateurs d'entrée à des destinataires dans une liste de destinataires.  <br/> |
-|[Address](iaddrbook-address.md) <br/> |Affiche la boîte de dialogue Carnet d'adresses Outlook.  <br/> |
-|[Details](iaddrbook-details.md) <br/> |Affiche une boîte de dialogue qui affiche des détails sur une entrée de carnet d'adresses particulière.  <br/> |
+|[Adresse](iaddrbook-address.md) <br/> |Affiche la boîte de dialogue Carnet d'adresses Outlook.  <br/> |
+|[Détails](iaddrbook-details.md) <br/> |Affiche une boîte de dialogue qui affiche des détails sur une entrée de carnet d'adresses particulière.  <br/> |
 |**RecipOptions** <br/> | *Non pris en charge ou documenté.*  <br/> |
 |**QueryDefaultRecipOpt** <br/> | *Non pris en charge ou documenté.*  <br/> |
 |[GetPAB](iaddrbook-getpab.md) <br/> |Renvoie l'identificateur d'entrée du conteneur désigné comme carnet d'adresses personnel (PAB).  <br/> |

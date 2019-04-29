@@ -7,17 +7,17 @@ localization_priority: Normal
 ms.assetid: 917e9a1d-df17-4732-8496-097c6b7bcd1f
 description: Cette section offre des informations sur des concepts et des tâches supplémentaires du développement InfoPath.
 ms.openlocfilehash: 592a2764216bd126e153921d08f37c00abc0df79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300440"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427541"
 ---
 # <a name="additional-infopath-development-concepts"></a>Concepts de développement InfoPath supplémentaires
 
 Cette section offre des informations sur des concepts et des tâches supplémentaires du développement InfoPath.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [À propos des composants de modèle de formulaire](about-form-template-components.md)
   

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1dd14858-2ce6-4629-a2f1-82d23cd6576b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 159a25347cd64b44f42dbb5052425ebb67894a9b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341127"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430370"
 ---
 # <a name="pidtagserviceinstallid-canonical-property"></a>Propriété canonique PidTagServiceInstallId
 
@@ -38,7 +38,7 @@ ID de composant du fournisseur.
 
 Ces propriétés peuvent être utilisées comme paramètre de composant d'un appel **MsiProvideQualifiedComponent** pour installer le fournisseur. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

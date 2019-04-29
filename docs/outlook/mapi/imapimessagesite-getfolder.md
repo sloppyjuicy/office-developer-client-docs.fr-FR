@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 24461099877af683109c8627eacd22a657d6e156
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321384"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430566"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 

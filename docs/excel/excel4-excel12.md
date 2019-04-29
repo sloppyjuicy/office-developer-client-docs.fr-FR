@@ -11,17 +11,17 @@ keywords:
 - fonction Excel4 [Excel 2007], fonction Excel12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7c3af5f380ae4144890b1f7b486a61a05c19de74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304108"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429445"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Appelle une fonction de feuille de calcul Microsoft Excel interne, une fonction de feuille de macro ou une commande, ou une fonction ou une commande spéciale XLL uniquement, à partir d'une ressource DLL/XLL ou d'une ressource de code.
   
@@ -65,7 +65,7 @@ Renvoie l'une des valeurs entières (**int**) suivantes.
 |n°2  <br/> |**xlretInvXlfn** <br/> |Un numéro de fonction non valide a été fourni. Si vous utilisez des constantes à partir du fichier d'en-tête xlcall. h, cela ne doit pas se produire sauf si vous appelez un composant qui n'est pas pris en charge dans la version d'Excel que vous exécutez.  <br/> |
 |4  <br/> |**xlretInvCount** <br/> |Un nombre d'arguments non valide a été entré. Dans les versions antérieures à Excel 2003, le nombre maximal d'arguments qu'une fonction peut prendre est de 30. À partir d'Excel 2007, le nombre maximal est 255. Certains nécessitent un nombre d'arguments fixe ou minimal.  <br/> |
 |8bits  <br/> |**xlretInvXloper** <br/> |Une structure **XLOPER** ou **XLOPER12** non valide a été transmise à la fonction ou un argument de type incorrect a été utilisé.  <br/> |
-|Seiz  <br/> |**xlretStackOvfl** <br/> |Un dépassement de capacité de la pile s'est produit. Utilisez **xlStack** pour contrôler la quantité d'espace restant sur la pile. Évitez d'allouer des tableaux et des structures très volumineux (automatiques) dans la pile, si possible; rendez-les statiques. (Notez qu'un dépassement de capacité de la pile peut se produire sans être détecté.)  <br/> |
+|16   <br/> |**xlretStackOvfl** <br/> |Un dépassement de capacité de la pile s'est produit. Utilisez **xlStack** pour contrôler la quantité d'espace restant sur la pile. Évitez d'allouer des tableaux et des structures très volumineux (automatiques) dans la pile, si possible; rendez-les statiques. (Notez qu'un dépassement de capacité de la pile peut se produire sans être détecté.)  <br/> |
 |32  <br/> |**xlretFailed** <br/> |Une fonction équivalente à la commande a échoué. Cela équivaut à une commande de macro affichant la boîte de dialogue d'alerte d'erreur de macro.  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |Une tentative a été effectuée pour déréférencer une cellule qui n'a pas encore été calculée, car elle est planifiée pour être recalculée après la cellule active. Dans ce cas, la DLL doit renvoyer immédiatement le contrôle à Excel. La DLL est autorisée à appeler **xlFree** uniquement avant de quitter. Tous les autres appels à l'API C ne sont pas autorisés. Pour plus d'informations sur les fonctions qui peuvent et ne peuvent pas accéder aux valeurs des cellules qui n'ont pas été recalculées, voir [commandes, fonctions et États d'Excel](excel-commands-functions-and-states.md).  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |Il y a eu une tentative d'appel d'une fonction qui n'est pas ou non thread-safe pendant un recalcul multithread du classeur.  <br/> À partir d'Excel 2007, cette valeur est renvoyée et uniquement dans les fonctions de feuille de calcul XLL déclarées comme thread-safe.  <br/> |

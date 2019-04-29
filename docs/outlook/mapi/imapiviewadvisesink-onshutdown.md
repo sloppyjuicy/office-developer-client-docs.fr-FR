@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c9c3aecf-5e4b-407a-8ea1-6211b4c6e0a5
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: b43c1b96130052a05ac390f10f545a66fe72b7fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351162"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428521"
 ---
 # <a name="imapiviewadvisesinkonshutdown"></a>IMAPIViewAdviseSink::OnShutdown
 

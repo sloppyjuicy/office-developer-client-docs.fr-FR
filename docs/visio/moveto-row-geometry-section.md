@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c5b20257-676c-279d-f730-1b6fbbe98305
 description: Contient les coordonnées x et y du premier sommet d'une forme, ou représente les coordonnées x et y du premier sommet après une cassure d'un chemin d'accès.
 ms.openlocfilehash: fc414093348b8da04fa3503053584395976982dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283857"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429697"
 ---
 # <a name="moveto-row-geometry-section"></a>MoveTo, ligne (section Geometry)
 
@@ -22,7 +22,7 @@ Contient les coordonnées *x* et *y* du premier sommet d'une forme, ou représen
   
 Une ligne **MoveTo** contient les cellules suivantes. 
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Si la ligne **MoveTo** est la première ligne de la section, la cellule X représente la coordonnée *x* du premier sommet d'une forme. Si la ligne **MoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée *x* du premier sommet après la rupture du chemin.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Si la ligne **MoveTo** est la première ligne de la section, la cellule Y représente la coordonnée *y* du premier sommet d'une forme. Si la ligne **MoveTo** apparaît entre deux lignes, la cellule y représente la coordonnée *y* du premier sommet après la rupture du chemin.  <br/> |

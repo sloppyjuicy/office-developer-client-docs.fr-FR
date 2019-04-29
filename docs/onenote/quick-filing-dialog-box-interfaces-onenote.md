@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d83e39f0-b259-4c33-8f3e-e03e94c2403d
 description: Cette rubrique décrit les interfaces que vous pouvez utiliser pour personnaliser par programme la boîte de dialogue classement rapide dans OneNote 2013.
 ms.openlocfilehash: dd6b28ae6cb2acb007bae26ea661facaf1f8d4be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317096"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425336"
 ---
 # <a name="quick-filing-dialog-box-interfaces-onenote"></a>Rapides interfaces boîte de dialogue remplissage (OneNote 2013)
 
@@ -39,9 +39,9 @@ Cette interface autorise l'utilisateur à personnaliser et exécuter la boîte d
 
 |**Name**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|**Title** <br/> |string  <br/> |Obtient ou définit le texte du titre qui s'affiche dans la barre de titre de la fenêtre de boîte de dialogue.  <br/> |
-|**Description** <br/> |string  <br/> |Obtient ou définit la description de texte pour indiquer à l'utilisateur sur les éléments à sélectionner. Cette valeur peut être texte multiligne.  <br/> |
-|**CheckboxText** <br/> |string  <br/> |Obtient ou définit le texte qui suit la case à cocher. Si cette valeur est définie sur une chaîne non vide, une case à cocher apparaît dans la boîte de dialogue. Si la valeur est une chaîne vide, aucune case à cocher s'affiche.  <br/> |
+|**Title** <br/> |chaîne  <br/> |Obtient ou définit le texte du titre qui s'affiche dans la barre de titre de la fenêtre de boîte de dialogue.  <br/> |
+|**Description** <br/> |chaîne  <br/> |Obtient ou définit la description de texte pour indiquer à l'utilisateur sur les éléments à sélectionner. Cette valeur peut être texte multiligne.  <br/> |
+|**CheckboxText** <br/> |chaîne  <br/> |Obtient ou définit le texte qui suit la case à cocher. Si cette valeur est définie sur une chaîne non vide, une case à cocher apparaît dans la boîte de dialogue. Si la valeur est une chaîne vide, aucune case à cocher s'affiche.  <br/> |
 |**CheckboxState** <br/> |bool  <br/> |Obtient ou définit l'état de la case à cocher. Si la valeur est définie sur **false**, la case à cocher est désactivée au démarrage de la boîte de dialogue. Si la valeur est définie sur **true**, la case à cocher est activée lorsque la boîte de dialogue est démarrée en tant que **CheckboxText** est une chaîne vide.  <br/> |
 |**WindowHandle** <br/> |ulong  <br/> |Obtient l'ID de handle de la fenêtre de boîte de dialogue classement rapide.  <br/> |
 |**TreeDepth** <br/> |**HierarchyElement** <br/> |Obtient ou définit la profondeur l'arborescence OneNote doit être affiché dans la section tous les ordinateurs portables. Par défaut, l'arborescence est affichée aux sections. Cette propriété n'affecte pas le type d'éléments peut être sélectionné. <br/> Si **TreeDepth** est défini sur un élément plus bas dans la hiérarchie OneNote que peuvent être sélectionnés par un des boutons, la profondeur de l'arborescence affichée sera l'élément sélectionnable possible la plus faible. En d'autres termes, si la profondeur de l'arborescence est définie à afficher aux pages, mais l'élément sélectionnable le plus bas est une section, l'arborescence est affichée aux sections.  <br/> |

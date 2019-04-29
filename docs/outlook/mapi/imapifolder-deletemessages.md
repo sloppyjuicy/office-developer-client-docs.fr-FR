@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0f0523c01e163b57d9ed37d9b324ec858adbd685
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280119"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426071"
 ---
 # <a name="imapifolderdeletemessages"></a>IMAPIFolder::DeleteMessages
 
@@ -84,7 +84,7 @@ Lorsque l'opération de suppression implique plusieurs messages, effectuez l'op�
 
 Attendez-vous à ces valeurs de retour dans les conditions suivantes.
   
-|**Condition**|**Valeur renvoyée**|
+|**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
 |**DeleteMessages** a correctement supprimé tous les messages.  <br/> |S_OK  <br/> |
 |**DeleteMessages** n'a pas pu supprimer tous les messages et sous-dossiers.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
@@ -106,7 +106,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 
 
 
-[ENTRÉE](entryid.md)
+[ENTRYID](entryid.md)
   
 [ENTRYLIST](entrylist.md)
   

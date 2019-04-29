@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 1461148d-90a9-6f7c-1b28-9310ffaf0e3b
 description: Indique le type d'ombre d'une forme.
 ms.openlocfilehash: 607881e4a520f1376562394c6e40ab5d2508906d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342860"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430258"
 ---
 # <a name="shapeshdwtype-cell-fill-format-section"></a>ShapeShdwType Cell (Fill Format Section)
 
 Indique le type d'ombre d'une forme. 
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Utiliser la valeur par défaut de la page (valeur par défaut)  <br/> |**visFSTPageDefault** <br/> |
 |0,1  <br/> |Simple  <br/> |**visFSTSimple** <br/> |

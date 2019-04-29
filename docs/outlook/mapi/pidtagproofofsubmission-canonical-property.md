@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30511e6e-aba2-4f47-bdc7-1256b23382c5
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f44f453a24b647e66ae49202fa1910dfdff10cda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350826"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425329"
 ---
 # <a name="pidtagproofofsubmission-canonical-property"></a>Propriété canonique PidTagProofOfSubmission
 
@@ -34,7 +34,7 @@ Cette propriété contient la valeur TRUE si un expéditeur de message demande l
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |MAPI non transmissible  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

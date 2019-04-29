@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3afee07b-e91a-a91c-fba2-0e3251dd6385
 description: Détermine si les objets sont positionnables ou repositionnables dans les diagrammes lorsque vous utilisez la boîte de dialogue Configurer la disposition pour disposer des formes.
 ms.openlocfilehash: 7a607fdb53ad569e84976b6f9911fbd89f7f2628
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361011"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425728"
 ---
 # <a name="objtype-cell-miscellaneous-section"></a>ObjType, cellule (section Miscellaneous)
 
 Détermine si les objets sont positionnables ou repositionnables dans les diagrammes lorsque vous utilisez la boîte de dialogue **Configurer la disposition** pour disposer des formes. 
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |&amp;H0  <br/> |Valeur par défaut. L'application décide en fonction du contexte de dessin.  <br/> |**visLOFlagsVisDecides** <br/> |
 |&amp;H1  <br/> |La forme est positionnable.  <br/> |**visLOFlagsPlacable** <br/> |

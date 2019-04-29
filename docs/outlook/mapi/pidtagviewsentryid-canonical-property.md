@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8350a37c-6f42-4bef-82e0-35aa12b09fcf
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7d261ac0e9aaf36f2333b04b45edfaf8e24fa30d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350693"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427310"
 ---
 # <a name="pidtagviewsentryid-canonical-property"></a>Propriété canonique PidTagViewsEntryId
 
@@ -38,7 +38,7 @@ Contient l'identificateur d'entrée du dossier vues définies par l'utilisateur.
 
 Le dossier d'affichage commun contient un ensemble prédéfini de spécificateurs d'affichage standard, tandis que le dossier d'affichage contient des spécificateurs définis par un utilisateur de messagerie. Ces dossiers, qui ne sont pas visibles dans la hiérarchie des messages interpersonnels (IPM), peuvent contenir de nombreux spécificateurs d'affichage, chacun étant stocké sous forme de message. L'application cliente peut choisir de fusionner les deux jeux de spécificateurs et les rendre disponibles.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

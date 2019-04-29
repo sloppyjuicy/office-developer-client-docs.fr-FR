@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 1185a35df471fc3f85cbf50fd8ad3baa3927e72b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317380"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428766"
 ---
 # <a name="imsgserviceadmingetprovidertable"></a>IMsgServiceAdmin::GetProviderTable
 

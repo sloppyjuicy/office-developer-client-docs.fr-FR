@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5ae57707-5a50-43f0-8c78-516790b5034e
 description: Contient les coordonnées x et y du point de fin d'une courbe de Bézier quadratique par rapport à la largeur et à la hauteur de la forme, ainsi que les coordonnées x et y du point de contrôle de la largeur et de la hauteur de la forme relative de la courbe.
 ms.openlocfilehash: f517fa006c6630a26e9162adfbb1be2139487e63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319928"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423355"
 ---
 # <a name="relquadbezto-row-geometry-section"></a>RelQuadBezTo Row (Geometry Section)
 
@@ -23,7 +23,7 @@ Contient les coordonnées *x* et *y* du point de fin d'une courbe de Bézier qua
   
 Une ligne **RelQuadBezTo** contient les cellules suivantes. 
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Coordonnée *x* du sommet de fin d'une courbe de Bézier quadratique par rapport à la largeur de la forme.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y* du sommet de fin d'une courbe de Bézier quadratique par rapport à la hauteur de la forme.  <br/> |

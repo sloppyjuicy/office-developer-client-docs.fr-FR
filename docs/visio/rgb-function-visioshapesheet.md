@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f6b9f65c-6752-16cb-7eb1-44e1ce56e80b
 description: Renvoie une valeur représentant un index dans la palette de couleurs du document. Il spécifie une couleur par ses composants rouge, vert et bleu, où chacun est un nombre compris entre 0 et 255 inclus, ou une expression qui renvoie à ce nombre.
 ms.openlocfilehash: 34f9c2f2043afe6144feba561e545dc7be35a5a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426302"
 ---
 # <a name="rgb-function-visioshapesheet"></a>RGB Function (VisioShapeSheet)
 
@@ -42,7 +42,7 @@ Si la couleur renvoyée par la fonction n’existe pas dans la palette de couleu
   
 Le tableau ci-après présente les couleurs standard et les valeurs Rouge, Vert et Bleu qui leur sont associées.
   
-|**Color**|**Valeur rouge**|**Valeur vert**|**Valeur bleue**|
+|**Couleur**|**Valeur rouge**|**Valeur vert**|**Valeur bleue**|
 |:-----|:-----|:-----|:-----|
 |Noir  <br/> |0  <br/> |0  <br/> |0  <br/> |
 |Bleu  <br/> |0  <br/> |0  <br/> |255  <br/> |

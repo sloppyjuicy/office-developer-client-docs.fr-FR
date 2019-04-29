@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 365f7005-ba34-2311-4c5c-16344962fc3f
 description: Définit la catégorie d'un champ inséré dans les versions de Visio antérieures à Visio 2000.
 ms.openlocfilehash: c67ced9e4f731e66bce0589929ac90fb9bb8d67c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331198"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434024"
 ---
 # <a name="uicategory-cell-text-fields-section"></a>UICategory, cellule (section Text Fields)
 

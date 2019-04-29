@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: d370603dc7cfc015fe7b2757d1cf0525b3092c5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299426"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428024"
 ---
 # <a name="handling-message-store-notification"></a>Gestion des notifications de la banque de messages
   
@@ -35,7 +35,7 @@ Par exemple, si vous copiez un message dans un dossier avec lequel vous avez ét
     
 Étant donné qu'il n'existe pas de recommandations strictes qui décrivent la manière d'implémenter la notification d'événement pour les fournisseurs de banques de messages, les clients ne peuvent pas être cohérents. MAPI effectue des recommandations sur la façon dont les fournisseurs de banque de messages implémentent la notification d'événement et le tableau suivant présente ces recommandations. Lisez le tableau comme suit: une fois que vous avez effectué l'opération dans la première colonne, attendez la réception d'une notification du type indiqué dans la deuxième colonne si vous avez inscrit pour ce type avec l'objet répertorié dans la troisième colonne. Par exemple, une fois que vous avez créé un dossier, vous ne recevrez une notification _fnevObjectCreated_ que si vous vous êtes inscrit pour les notifications de _fnevObjectCreated_ avec la Banque de messages. 
   
-|**Operation**|**Type d’événement**|**Source de notification**|
+|**Opération**|**Type d’événement**|**Source de notification**|
 |:-----|:-----|:-----|
 |Créer un dossier  <br/> | _fnevObjectCreated_ <br/> |Banque de messages  <br/> |
 |Supprimer un dossier  <br/> | _fnevObjectDeleted_ <br/> |Dossier supprimé de la Banque de messages  <br/> |

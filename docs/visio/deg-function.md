@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ed3c7e1a-620d-a1f7-2eef-bd3e674b0c1b
 description: ConVertit en degrés la valeur d'un angle en radians.
 ms.openlocfilehash: a01ef57a8c003b61aa1af086bca9683dc401a1e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360262"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431917"
 ---
 # <a name="deg-function"></a>Fonction DEG
 

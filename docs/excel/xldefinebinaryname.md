@@ -10,17 +10,17 @@ keywords:
 - fonction xlDefineBinaryName [Excel 2007]
 localization_priority: Normal
 ms.assetid: e3e8f91b-cc31-4f09-9941-f950ae96820a
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3c7fc4f6b6fc7179c1ca84043895273b2781f8b5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310212"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430251"
 ---
 # <a name="xldefinebinaryname"></a>xlDefineBinaryName
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Utilisé pour allouer un stockage persistant pour une **xltypeBigData** **XLOPER**/ ****. Les données avec un nom binaire défini sont enregistrées avec le classeur et sont accessibles par nom à tout moment. Pour plus d'informations, voir «limitation de l'étendue de nom binaire» dans [problèmes connus dans Excel XLL Development](known-issues-in-excel-xll-development.md).
   
