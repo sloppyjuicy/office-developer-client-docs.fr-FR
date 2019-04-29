@@ -10,47 +10,47 @@ keywords:
 - fonction xlfEvaluate [Excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 527f7e932a41103c374e327a1bd0dd4c7d8e92a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303926"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439183"
 ---
-# <a name="xlfevaluate"></a><span data-ttu-id="4e6a5-104">xlfEvaluate</span><span class="sxs-lookup"><span data-stu-id="4e6a5-104">xlfEvaluate</span></span>
+# <a name="xlfevaluate"></a><span data-ttu-id="48afa-104">xlfEvaluate</span><span class="sxs-lookup"><span data-stu-id="48afa-104">xlfEvaluate</span></span>
 
- <span data-ttu-id="4e6a5-105">**S’applique à**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="4e6a5-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="48afa-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="48afa-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="4e6a5-106">Utilise l'évaluateur de fonction et l'analyseur Microsoft Excel pour évaluer les expressions pouvant être entrées dans une cellule de feuille de calcul.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-106">Uses the Microsoft Excel parser and function evaluator to evaluate any expression that could be entered in a worksheet cell.</span></span>
+<span data-ttu-id="48afa-106">Utilise l'évaluateur de fonction et l'analyseur Microsoft Excel pour évaluer les expressions pouvant être entrées dans une cellule de feuille de calcul.</span><span class="sxs-lookup"><span data-stu-id="48afa-106">Uses the Microsoft Excel parser and function evaluator to evaluate any expression that could be entered in a worksheet cell.</span></span>
   
 ```cs
 Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4e6a5-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4e6a5-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="48afa-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="48afa-107">Parameters</span></span>
 
- <span data-ttu-id="4e6a5-108">_pxFormulaText (xltypeStr)_</span><span class="sxs-lookup"><span data-stu-id="4e6a5-108">_pxFormulaText (xltypeStr)_</span></span>
+ <span data-ttu-id="48afa-108">_pxFormulaText (xltypeStr)_</span><span class="sxs-lookup"><span data-stu-id="48afa-108">_pxFormulaText (xltypeStr)_</span></span>
   
-<span data-ttu-id="4e6a5-109">Chaîne à évaluer.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-109">The string to be evaluated.</span></span> <span data-ttu-id="4e6a5-110">Un signe égal à gauche (=) est facultatif.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-110">A leading equal sign (=) is optional.</span></span> <span data-ttu-id="4e6a5-111">La chaîne peut être tout texte pouvant être légalement saisi dans une cellule de feuille de calcul ou de feuille macro.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-111">The string can be any text that can legally be entered into a worksheet or macro sheet cell.</span></span>
+<span data-ttu-id="48afa-109">Chaîne à évaluer.</span><span class="sxs-lookup"><span data-stu-id="48afa-109">The string to be evaluated.</span></span> <span data-ttu-id="48afa-110">Un signe égal à gauche (=) est facultatif.</span><span class="sxs-lookup"><span data-stu-id="48afa-110">A leading equal sign (=) is optional.</span></span> <span data-ttu-id="48afa-111">La chaîne peut être tout texte pouvant être légalement saisi dans une cellule de feuille de calcul ou de feuille macro.</span><span class="sxs-lookup"><span data-stu-id="48afa-111">The string can be any text that can legally be entered into a worksheet or macro sheet cell.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="4e6a5-112">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="4e6a5-112">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="48afa-112">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="48afa-112">Property value/Return value</span></span>
 
-<span data-ttu-id="4e6a5-113">Renvoie le résultat de l'évaluation de la chaîne qui peut être l'un des types **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeNil**, **xltypeMulti**.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-113">Returns the result of evaluating the string which can be any of the types **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeNil**, **xltypeMulti**.</span></span>
+<span data-ttu-id="48afa-113">Renvoie le résultat de l'évaluation de la chaîne qui peut être l'un des types **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeNil**, **xltypeMulti**.</span><span class="sxs-lookup"><span data-stu-id="48afa-113">Returns the result of evaluating the string which can be any of the types **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeNil**, **xltypeMulti**.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4e6a5-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="4e6a5-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="48afa-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="48afa-114">Remarks</span></span>
 
-<span data-ttu-id="4e6a5-115">La chaîne peut contenir uniquement des fonctions, et non des équivalents de commande.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-115">The string can contain only functions, not command equivalents.</span></span> <span data-ttu-id="4e6a5-116">Cela équivaut à appuyer sur **F9** à partir de la barre de formule.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-116">It is equivalent to pressing **F9** from the formula bar.</span></span> <span data-ttu-id="4e6a5-117">Si **xlfEvaluate** est appelé à partir d'une fonction de feuille de calcul XLL enregistrée en tant que thread-safe, l'expression doit contenir uniquement des fonctions thread-safe.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-117">If **xlfEvaluate** is called from an XLL worksheet function that has been registered as thread safe, the expression must only contain thread-safe functions.</span></span> 
+<span data-ttu-id="48afa-115">La chaîne peut contenir uniquement des fonctions, et non des équivalents de commande.</span><span class="sxs-lookup"><span data-stu-id="48afa-115">The string can contain only functions, not command equivalents.</span></span> <span data-ttu-id="48afa-116">Cela équivaut à appuyer sur **F9** à partir de la barre de formule.</span><span class="sxs-lookup"><span data-stu-id="48afa-116">It is equivalent to pressing **F9** from the formula bar.</span></span> <span data-ttu-id="48afa-117">Si **xlfEvaluate** est appelé à partir d'une fonction de feuille de calcul XLL enregistrée en tant que thread-safe, l'expression doit contenir uniquement des fonctions thread-safe.</span><span class="sxs-lookup"><span data-stu-id="48afa-117">If **xlfEvaluate** is called from an XLL worksheet function that has been registered as thread safe, the expression must only contain thread-safe functions.</span></span> 
   
-<span data-ttu-id="4e6a5-118">La première utilisation de la fonction **xlfEvaluate** est de permettre aux dll de déterminer la valeur affectée à un nom défini qui se trouve soit sur une feuille, soit sur un nom masqué défini dans la dll.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-118">The primary use of the **xlfEvaluate** function is to allow DLLs to find out the value assigned to a defined name that is either on a sheet or a hidden name defined within the DLL.</span></span> <span data-ttu-id="4e6a5-119">Notez que dans un DLL/XLL, un nom de feuille de calcul doit être préfixé avec au moins un point d'exclamation (!) pour s'assurer qu'il est interprété comme étant externe à la DLL.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-119">Note that within a DLL/XLL, a worksheet name must be prefixed with at least an exclamation mark (!) to ensure that it is interpreted as external to the DLL.</span></span> <span data-ttu-id="4e6a5-120">Pour plus d'informations, consultez la rubrique [évaluation des noms et autres expressions de formule de feuille de calcul](evaluating-names-and-other-worksheet-formula-expressions.md).</span><span class="sxs-lookup"><span data-stu-id="4e6a5-120">For more information, see [Evaluating Names and Other Worksheet Formula Expressions](evaluating-names-and-other-worksheet-formula-expressions.md).</span></span>
+<span data-ttu-id="48afa-118">La première utilisation de la fonction **xlfEvaluate** est de permettre aux dll de déterminer la valeur affectée à un nom défini qui se trouve soit sur une feuille, soit sur un nom masqué défini dans la dll.</span><span class="sxs-lookup"><span data-stu-id="48afa-118">The primary use of the **xlfEvaluate** function is to allow DLLs to find out the value assigned to a defined name that is either on a sheet or a hidden name defined within the DLL.</span></span> <span data-ttu-id="48afa-119">Notez que dans un DLL/XLL, un nom de feuille de calcul doit être préfixé avec au moins un point d'exclamation (!) pour s'assurer qu'il est interprété comme étant externe à la DLL.</span><span class="sxs-lookup"><span data-stu-id="48afa-119">Note that within a DLL/XLL, a worksheet name must be prefixed with at least an exclamation mark (!) to ensure that it is interpreted as external to the DLL.</span></span> <span data-ttu-id="48afa-120">Pour plus d'informations, consultez la rubrique [évaluation des noms et autres expressions de formule de feuille de calcul](evaluating-names-and-other-worksheet-formula-expressions.md).</span><span class="sxs-lookup"><span data-stu-id="48afa-120">For more information, see [Evaluating Names and Other Worksheet Formula Expressions](evaluating-names-and-other-worksheet-formula-expressions.md).</span></span>
   
- <span data-ttu-id="4e6a5-121">**xlfEvaluate** ne peut pas être utilisé pour évaluer des références à une feuille externe qui n'est pas ouverte.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-121">**xlfEvaluate** cannot be used to evaluate references to an external sheet that is not open.</span></span> 
+ <span data-ttu-id="48afa-121">**xlfEvaluate** ne peut pas être utilisé pour évaluer des références à une feuille externe qui n'est pas ouverte.</span><span class="sxs-lookup"><span data-stu-id="48afa-121">**xlfEvaluate** cannot be used to evaluate references to an external sheet that is not open.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="4e6a5-122">Exemple</span><span class="sxs-lookup"><span data-stu-id="4e6a5-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="48afa-122">Exemple</span><span class="sxs-lookup"><span data-stu-id="48afa-122">Example</span></span>
 
-<span data-ttu-id="4e6a5-123">Cet exemple utilise **xlfEvaluate** pour forcer le texte «! B38 "vers le contenu de la cellule B38.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-123">This example uses **xlfEvaluate** to coerce the text "!B38" to the contents of cell B38.</span></span> 
+<span data-ttu-id="48afa-123">Cet exemple utilise **xlfEvaluate** pour forcer le texte «! B38 "vers le contenu de la cellule B38.</span><span class="sxs-lookup"><span data-stu-id="48afa-123">This example uses **xlfEvaluate** to coerce the text "!B38" to the contents of cell B38.</span></span> 
   
- <span data-ttu-id="4e6a5-124">`\SAMPLES\EXAMPLE\EXAMPLE.C`.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-124"></span></span> <span data-ttu-id="4e6a5-125">Cette fonction appelle une macro de commande (**xlcAlert**) et fonctionne correctement uniquement lorsqu'elle est appelée à partir d'une feuille macro ou d'une commande macro.</span><span class="sxs-lookup"><span data-stu-id="4e6a5-125">This function calls a command macro (**xlcAlert**) and will work correctly only when called from a macro sheet or as a macro command.</span></span>
+ <span data-ttu-id="48afa-124">`\SAMPLES\EXAMPLE\EXAMPLE.C`.</span><span class="sxs-lookup"><span data-stu-id="48afa-124"></span></span> <span data-ttu-id="48afa-125">Cette fonction appelle une macro de commande (**xlcAlert**) et fonctionne correctement uniquement lorsqu'elle est appelée à partir d'une feuille macro ou d'une commande macro.</span><span class="sxs-lookup"><span data-stu-id="48afa-125">This function calls a command macro (**xlcAlert**) and will work correctly only when called from a macro sheet or as a macro command.</span></span>
   
 ```cs
 short WINAPI EvaluateExample(void)
@@ -68,7 +68,7 @@ short WINAPI EvaluateExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="4e6a5-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4e6a5-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48afa-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="48afa-126">See also</span></span>
 
-- [<span data-ttu-id="4e6a5-127">Fonctions XLM essentielles et utiles de l’API C</span><span class="sxs-lookup"><span data-stu-id="4e6a5-127">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
+- [<span data-ttu-id="48afa-127">Fonctions XLM essentielles et utiles de l’API C</span><span class="sxs-lookup"><span data-stu-id="48afa-127">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
 

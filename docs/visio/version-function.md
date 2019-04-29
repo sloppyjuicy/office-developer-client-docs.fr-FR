@@ -8,31 +8,31 @@ localization_priority: Normal
 ms.assetid: 94a16356-68ad-4c47-04f9-b7a81e99e61d
 description: Renvoie un entier qui correspond à la version principale de l’application Microsoft Visio active.
 ms.openlocfilehash: 6f7f19fd0e59b1d808300c3d9fbe39eedee2ef4f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357826"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434108"
 ---
-# <a name="version-function"></a><span data-ttu-id="100bd-103">Fonction VERSION</span><span class="sxs-lookup"><span data-stu-id="100bd-103">VERSION Function</span></span>
+# <a name="version-function"></a><span data-ttu-id="97456-103">Fonction VERSION</span><span class="sxs-lookup"><span data-stu-id="97456-103">VERSION Function</span></span>
 
-<span data-ttu-id="100bd-104">Renvoie un entier qui correspond à la version principale de l’application Microsoft Visio active.</span><span class="sxs-lookup"><span data-stu-id="100bd-104">Returns an integer that matches the major version of the currently active Microsoft Visio application.</span></span>
+<span data-ttu-id="97456-104">Renvoie un entier qui correspond à la version principale de l’application Microsoft Visio active.</span><span class="sxs-lookup"><span data-stu-id="97456-104">Returns an integer that matches the major version of the currently active Microsoft Visio application.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="100bd-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="100bd-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="97456-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="97456-105">Version Information</span></span>
 
-<span data-ttu-id="100bd-106">Version ajoutée : Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="100bd-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="97456-106">Version ajoutée : Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="97456-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="100bd-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="100bd-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="97456-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="97456-107">Syntax</span></span>
 
-<span data-ttu-id="100bd-108">VERSION ()</span><span class="sxs-lookup"><span data-stu-id="100bd-108">VERSION()</span></span>
+<span data-ttu-id="97456-108">VERSION ()</span><span class="sxs-lookup"><span data-stu-id="97456-108">VERSION()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="100bd-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="100bd-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="97456-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="97456-109">Return value</span></span>
 
-<span data-ttu-id="100bd-110">Entier</span><span class="sxs-lookup"><span data-stu-id="100bd-110">Integer</span></span>
+<span data-ttu-id="97456-110">Entier</span><span class="sxs-lookup"><span data-stu-id="97456-110">Integer</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="100bd-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="100bd-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="97456-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="97456-111">Remarks</span></span>
 
-<span data-ttu-id="100bd-112">Vous pouvez utiliser la fonction VERSION pour écrire des formules ShapeSheet qui sont évaluées différemment suivant la version de Visio dans laquelle elles sont évaluées.</span><span class="sxs-lookup"><span data-stu-id="100bd-112">You can use the VERSION function to write ShapeSheet formulas that are evaluated differently depending on the version of Visio in which they are evaluated.</span></span>
+<span data-ttu-id="97456-112">Vous pouvez utiliser la fonction VERSION pour écrire des formules ShapeSheet qui sont évaluées différemment suivant la version de Visio dans laquelle elles sont évaluées.</span><span class="sxs-lookup"><span data-stu-id="97456-112">You can use the VERSION function to write ShapeSheet formulas that are evaluated differently depending on the version of Visio in which they are evaluated.</span></span>
   
 
