@@ -10,43 +10,43 @@ localization_priority: Normal
 ms.assetid: 1f09482a-0b1b-1bef-bc23-7f7793c4c65f
 description: Renvoie un point transformé en coordonnées locales dans le système de coordonnées de destination.
 ms.openlocfilehash: f08feb6137c3022027d19b45f06285fb8b6441a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358036"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427485"
 ---
-# <a name="loctoloc-function"></a><span data-ttu-id="12e09-103">Fonction LOCTOLOC</span><span class="sxs-lookup"><span data-stu-id="12e09-103">LOCTOLOC Function</span></span>
+# <a name="loctoloc-function"></a><span data-ttu-id="15e0e-103">Fonction LOCTOLOC</span><span class="sxs-lookup"><span data-stu-id="15e0e-103">LOCTOLOC Function</span></span>
 
-<span data-ttu-id="12e09-104">Renvoie un point transformé en coordonnées locales dans le système de coordonnées de destination.</span><span class="sxs-lookup"><span data-stu-id="12e09-104">Returns a transformed point in local coordinates in the destination coordinate system.</span></span>
+<span data-ttu-id="15e0e-104">Renvoie un point transformé en coordonnées locales dans le système de coordonnées de destination.</span><span class="sxs-lookup"><span data-stu-id="15e0e-104">Returns a transformed point in local coordinates in the destination coordinate system.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="12e09-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="12e09-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="15e0e-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="15e0e-105">Syntax</span></span>
 
-<span data-ttu-id="12e09-106">LOCTOLOC (\* \* *srcPoint* \* \*, \* \* *srcRef* \* \*, \* \* *dstRef* \* \*)</span><span class="sxs-lookup"><span data-stu-id="12e09-106">LOCTOLOC(\*\* *srcPoint* \*\*, \*\* *srcRef* \*\*, \*\* *dstRef* \*\* )</span></span> 
+<span data-ttu-id="15e0e-106">LOCTOLOC (\* \* *srcPoint* \* \*, \* \* *srcRef* \* \*, \* \* *dstRef* \* \*)</span><span class="sxs-lookup"><span data-stu-id="15e0e-106">LOCTOLOC(\*\* *srcPoint* \*\*, \*\* *srcRef* \*\*, \*\* *dstRef* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="12e09-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="12e09-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="15e0e-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="15e0e-107">Parameters</span></span>
 
-|<span data-ttu-id="12e09-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="12e09-108">**Name**</span></span>|<span data-ttu-id="12e09-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="12e09-109">**Required/Optional**</span></span>|<span data-ttu-id="12e09-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="12e09-110">**Data Type**</span></span>|<span data-ttu-id="12e09-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="12e09-111">**Description**</span></span>|
+|<span data-ttu-id="15e0e-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="15e0e-108">**Name**</span></span>|<span data-ttu-id="15e0e-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="15e0e-109">**Required/Optional**</span></span>|<span data-ttu-id="15e0e-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="15e0e-110">**Data Type**</span></span>|<span data-ttu-id="15e0e-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="15e0e-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="12e09-112">_srcPoint_</span><span class="sxs-lookup"><span data-stu-id="12e09-112">_srcPoint_</span></span> <br/> |<span data-ttu-id="12e09-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="12e09-113">Required</span></span>  <br/> |<span data-ttu-id="12e09-114">**String**</span><span class="sxs-lookup"><span data-stu-id="12e09-114">**String**</span></span> <br/> | <span data-ttu-id="12e09-115">Point en coordonnées locales du système de coordonnées source</span><span class="sxs-lookup"><span data-stu-id="12e09-115">A point in local coordinates in the source coordinate system.</span></span>  <br/> |
-| <span data-ttu-id="12e09-116">_srcRef_</span><span class="sxs-lookup"><span data-stu-id="12e09-116">_srcRef_</span></span> <br/> |<span data-ttu-id="12e09-117">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="12e09-117">Required</span></span>  <br/> |<span data-ttu-id="12e09-118">**String**</span><span class="sxs-lookup"><span data-stu-id="12e09-118">**String**</span></span> <br/> | <span data-ttu-id="12e09-119">Référence à une cellule de l’objet source</span><span class="sxs-lookup"><span data-stu-id="12e09-119">A reference to a cell in the source object.</span></span>  <br/> |
-| <span data-ttu-id="12e09-120">_dstRef_</span><span class="sxs-lookup"><span data-stu-id="12e09-120">_dstRef_</span></span> <br/> |<span data-ttu-id="12e09-121">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="12e09-121">Required</span></span>  <br/> |<span data-ttu-id="12e09-122">**String**</span><span class="sxs-lookup"><span data-stu-id="12e09-122">**String**</span></span> <br/> | <span data-ttu-id="12e09-123">Référence à une cellule de l’objet cible</span><span class="sxs-lookup"><span data-stu-id="12e09-123">A reference to a cell in the destination object.</span></span>  <br/> |
+| <span data-ttu-id="15e0e-112">_srcPoint_</span><span class="sxs-lookup"><span data-stu-id="15e0e-112">_srcPoint_</span></span> <br/> |<span data-ttu-id="15e0e-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="15e0e-113">Required</span></span>  <br/> |<span data-ttu-id="15e0e-114">**String**</span><span class="sxs-lookup"><span data-stu-id="15e0e-114">**String**</span></span> <br/> | <span data-ttu-id="15e0e-115">Point en coordonnées locales du système de coordonnées source</span><span class="sxs-lookup"><span data-stu-id="15e0e-115">A point in local coordinates in the source coordinate system.</span></span>  <br/> |
+| <span data-ttu-id="15e0e-116">_srcRef_</span><span class="sxs-lookup"><span data-stu-id="15e0e-116">_srcRef_</span></span> <br/> |<span data-ttu-id="15e0e-117">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="15e0e-117">Required</span></span>  <br/> |<span data-ttu-id="15e0e-118">**String**</span><span class="sxs-lookup"><span data-stu-id="15e0e-118">**String**</span></span> <br/> | <span data-ttu-id="15e0e-119">Référence à une cellule de l’objet source</span><span class="sxs-lookup"><span data-stu-id="15e0e-119">A reference to a cell in the source object.</span></span>  <br/> |
+| <span data-ttu-id="15e0e-120">_dstRef_</span><span class="sxs-lookup"><span data-stu-id="15e0e-120">_dstRef_</span></span> <br/> |<span data-ttu-id="15e0e-121">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="15e0e-121">Required</span></span>  <br/> |<span data-ttu-id="15e0e-122">**String**</span><span class="sxs-lookup"><span data-stu-id="15e0e-122">**String**</span></span> <br/> | <span data-ttu-id="15e0e-123">Référence à une cellule de l’objet cible</span><span class="sxs-lookup"><span data-stu-id="15e0e-123">A reference to a cell in the destination object.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="12e09-124">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="12e09-124">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="15e0e-124">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="15e0e-124">Return value</span></span>
 
-<span data-ttu-id="12e09-125">Chaîne</span><span class="sxs-lookup"><span data-stu-id="12e09-125">String</span></span>
+<span data-ttu-id="15e0e-125">Chaîne</span><span class="sxs-lookup"><span data-stu-id="15e0e-125">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="12e09-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="12e09-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="15e0e-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="15e0e-126">Remarks</span></span>
 
-<span data-ttu-id="12e09-p101">La fonction LOCTOLOC convertit un point des coordonnées locales de la forme source en coordonnées locales de la forme de destination. Elle permet, par exemple, de construire une forme en utilisant les points d’un autre système de coordonnées. Elle permet également de transformer un point local en coordonnées de page ou vice-versa.</span><span class="sxs-lookup"><span data-stu-id="12e09-p101">The LOCTOLOC function converts a point from local coordinates in a source shape to local coordinates in a destination shape. You can use this function to construct a shape, for example, in terms of a point from another coordinate space. You can also use this function to transform a local point to page coordinates, or vice versa.</span></span>
+<span data-ttu-id="15e0e-p101">La fonction LOCTOLOC convertit un point des coordonnées locales de la forme source en coordonnées locales de la forme de destination. Elle permet, par exemple, de construire une forme en utilisant les points d’un autre système de coordonnées. Elle permet également de transformer un point local en coordonnées de page ou vice-versa.</span><span class="sxs-lookup"><span data-stu-id="15e0e-p101">The LOCTOLOC function converts a point from local coordinates in a source shape to local coordinates in a destination shape. You can use this function to construct a shape, for example, in terms of a point from another coordinate space. You can also use this function to transform a local point to page coordinates, or vice versa.</span></span>
   
-<span data-ttu-id="12e09-p102">Cette fonction peut être utilisée même si les formes source et cible sont contenues dans des groupes. Elle effectue également des ajustements de rotation et de retournement dans la transformation intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="12e09-p102">This function works even when the source and destination shapes are within groups. It also adjusts for rotation and flips in the intermediate transformation.</span></span>
+<span data-ttu-id="15e0e-p102">Cette fonction peut être utilisée même si les formes source et cible sont contenues dans des groupes. Elle effectue également des ajustements de rotation et de retournement dans la transformation intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="15e0e-p102">This function works even when the source and destination shapes are within groups. It also adjusts for rotation and flips in the intermediate transformation.</span></span>
   
-<span data-ttu-id="12e09-132">Les coordonnées source et cible doivent se trouver sur la même page.</span><span class="sxs-lookup"><span data-stu-id="12e09-132">The source and destination coordinates must be on the same page.</span></span>
+<span data-ttu-id="15e0e-132">Les coordonnées source et cible doivent se trouver sur la même page.</span><span class="sxs-lookup"><span data-stu-id="15e0e-132">The source and destination coordinates must be on the same page.</span></span>
   
-## <a name="example"></a><span data-ttu-id="12e09-133">Exemple</span><span class="sxs-lookup"><span data-stu-id="12e09-133">Example</span></span>
+## <a name="example"></a><span data-ttu-id="15e0e-133">Exemple</span><span class="sxs-lookup"><span data-stu-id="15e0e-133">Example</span></span>
 
-<span data-ttu-id="12e09-134">La formule suivante convertit les coordonnées de l’axe local de la forme associée à la formule en un point de la page.</span><span class="sxs-lookup"><span data-stu-id="12e09-134">The following formula converts the local pin of the shape associated with the formula to a point on the page.</span></span>
+<span data-ttu-id="15e0e-134">La formule suivante convertit les coordonnées de l’axe local de la forme associée à la formule en un point de la page.</span><span class="sxs-lookup"><span data-stu-id="15e0e-134">The following formula converts the local pin of the shape associated with the formula to a point on the page.</span></span>
   
 ```vb
 LOCTOLOC(PNT(LocPinX, LocPinY), Width, ThePage!PageWidth)
