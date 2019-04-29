@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fd42a6ce-f621-4e9e-aba3-23a1b87a5651
 description: Contient la valeur de l’élément de données de forme telle qu’elle est saisie dans la boîte de dialogue Définir les données de forme.
 ms.openlocfilehash: 40d9e7fdd92ac8fa800a146ea45bbcd002ace87b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355971"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431903"
 ---
 # <a name="value-cell-shape-data-section"></a>Value, cellule (section Shape Data)
 

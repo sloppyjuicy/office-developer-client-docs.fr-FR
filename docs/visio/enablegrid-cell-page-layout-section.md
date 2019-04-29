@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: bfea4ef4-1b30-eb22-215d-3b9b73098da9
 description: Détermine si l’application aligne les formes sur une grille de page interne invisible lorsque vous configurez la disposition dans la boîte de dialogue Configurer la disposition. (Sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition.)
 ms.openlocfilehash: 11299ca7c9b0ea050542baf97e2cab3a27fa52ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345555"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424440"
 ---
 # <a name="enablegrid-cell-page-layout-section"></a>EnableGrid, cellule (section Page Layout)
 
 Détermine si l’application aligne les formes sur une grille de page interne invisible lorsque vous configurez la disposition dans la boîte de dialogue **Configurer la disposition**. (Sous l’onglet **Création**, dans le groupe **Disposition**, cliquez sur **Nouvelle disposition de page**, puis cliquez sur **Autres options de disposition**.)
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Utilise la grille de page interne.  <br/> |
 |FALSE  <br/> |N'utilise pas la grille de page interne.  <br/> |

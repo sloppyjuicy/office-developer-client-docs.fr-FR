@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 62f074ef-5bf8-df1e-d826-fc1027a36501
 description: Renvoie un nombre tronqué au nombre de chiffres spécifié.
 ms.openlocfilehash: 5b2138ff3091f70313344d5b38d8225d572d8e70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335174"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426498"
 ---
 # <a name="trunc-function"></a>Fonction TRUNC
 

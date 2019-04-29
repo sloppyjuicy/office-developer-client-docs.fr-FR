@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: Lorsque vous travaillez à partir d'un modèle de formulaire InfoPath qui utilise le modèle objet compatible avec InfoPath 2003, vous pouvez écrire du code pour accéder aux sources de données secondaires du formulaire et manipuler les données qu'elles contiennent.
 ms.openlocfilehash: 569f029b412328f4d49e3079eaf207dc1556fc4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303695"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431679"
 ---
 # <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Accès à des sources de données externes à l'aide du modèle objet InfoPath 2003
 

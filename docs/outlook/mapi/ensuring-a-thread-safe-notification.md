@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d46ce99a-4d7f-45b0-ba21-154498c15775
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 88c58d14893f2ac561dc56441eb38b7f4bd0db32
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316584"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424846"
 ---
 # <a name="ensuring-a-thread-safe-notification"></a>Vérification de la notification thread-safe
 

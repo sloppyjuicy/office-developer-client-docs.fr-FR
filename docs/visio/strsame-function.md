@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
 description: Détermine si les chaînes sont identiques. Elle renvoie TRUE si elles sont identiques et FALSe si elles ne le sont pas.
 ms.openlocfilehash: 0f298c966ec7a3f1e23c89473fecc555ed950f79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329840"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428682"
 ---
 # <a name="strsame-function"></a>Fonction STRSAME
 

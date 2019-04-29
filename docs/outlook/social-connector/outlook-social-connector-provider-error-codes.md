@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0799243e-ba92-44c4-b687-182e50b57cb7
 description: Les fournisseurs doivent renvoyer des erreurs à l'appelant à l'aide de l'un des codes d'erreur indiqués dans le tableau suivant.
 ms.openlocfilehash: 22a6e8d4ebf87157eaee630cc47f9f363150e839
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359856"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425350"
 ---
 # <a name="outlook-social-connector-provider-error-codes"></a>Codes d'erreur du fournisseur Outlook Social Connector
 

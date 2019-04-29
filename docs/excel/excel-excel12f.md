@@ -10,17 +10,17 @@ keywords:
 - fonction Excel [Excel 2007], fonction Excel12f [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f7ff6afac1737ee869e69fffd3dbed36a908b376
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310912"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431672"
 ---
 # <a name="excelexcel12f"></a>Excel/Excel12f
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Fonctions de la bibliothèque Framework. **Excel** est un wrapper de la fonction [Excel4](excel4-excel12.md) . **Excel12f** est un wrapper de la fonction [Excel12](excel4-excel12.md) . Chaque contrôle vérifie qu'aucun des arguments n'a la valeur zéro, ce qui signifie que la création d'un élément **XLOPER** ou **XLOPER12** temporaire a échoué. Si une erreur se produit, chacune imprime un message de débogage. Lorsque vous avez terminé, chaque opération libère la totalité de la mémoire temporaire qui a pu être créée pour les objets **XLOPER**et **XLOPER12**temporaires.
   

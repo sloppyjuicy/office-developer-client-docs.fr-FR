@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 77442ad2-7f89-4364-8327-5f95c59b720d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8165ac7a5d0d711d94738cf2d4408f90e887a30f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358491"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431959"
 ---
 # <a name="pidtaginternetcontrol-canonical-property"></a>Propriété canonique PidTagInternetControl
 
@@ -34,7 +34,7 @@ Mappe sur l'en-tête de contrôle MIME.
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |MIME  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: Limite la valeur d’une cellule à une plage ou à un ensemble de plages.
 ms.openlocfilehash: 85fbe66d4e458ac4e42c9eb3c65b9a3a1d8211df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348950"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425959"
 ---
 # <a name="bound-function"></a>Fonction BOUND
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 853e8d91-b599-45bb-8ac7-f7a85e8a8419
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 1b29a37920d65eff32bc84446f421ddb4c2fc0ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358481"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426946"
 ---
 # <a name="pidlidremotetransfersize-canonical-property"></a>Propriété canonique PidLidRemoteTransferSize
 
@@ -35,7 +35,7 @@ Indique la taille de transfert, en octets, d'un élément à distance.
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Message distant  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

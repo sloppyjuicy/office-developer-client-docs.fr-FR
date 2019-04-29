@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3d23647a-e567-da71-50df-336a0f2f4071
 description: Masque le texte d'une forme. Vous pouvez visualiser le texte, modifier ses propriétés et lui appliquer des styles dans le bloc de texte, mais les modifications n'apparaîtront pas tant que vous ne rétablirez pas la cellule sur FALSE (0).
 ms.openlocfilehash: 3e1be814984ed15247c451f5cd86d0f7a6dba71a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329959"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425483"
 ---
 # <a name="hidetext-cell-miscellaneous-section"></a>HideText, cellule (section Miscellaneous)
 
 Masque le texte d'une forme. Vous pouvez visualiser le texte, modifier ses propriétés et lui appliquer des styles dans le bloc de texte, mais les modifications n'apparaîtront pas tant que vous ne rétablirez pas la cellule sur FALSE (0).
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Le texte est masqué et ne s'imprime pas.  <br/> |
 | FALSE  <br/> | Le texte n'est pas masqué.  <br/> |

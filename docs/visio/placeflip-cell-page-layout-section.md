@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: df014b98-cfd5-b6d3-4b8a-b0acb3b94412
 description: Détermine la façon dont les formes positionnables sont retournées et/ou pivotent lorsque vous utilisez la commande Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition).
 ms.openlocfilehash: d1c31654782012b3536d35f3a12a923c2cc7a8f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346871"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434297"
 ---
 # <a name="placeflip-cell-page-layout-section"></a>PlaceFlip, cellule (section Page Layout)
 
 Détermine la façon dont les formes positionnables sont retournées et/ou pivotent lorsque vous utilisez la commande **Configurer la disposition** (sous l’onglet **Création**, dans le groupe **Disposition**, cliquez sur **Nouvelle disposition de page**, puis cliquez sur **Autres options de disposition**).
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |&amp;H0  <br/> |Valeur par défaut. Pas de retournement.  <br/> |**visLOFlipDefault** <br/> |
 |&amp;H1  <br/> |Retournement horizontal.  <br/> |**visLOFlipX** <br/> |

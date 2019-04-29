@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 10baeec9-6c9b-b4ba-3138-7d1156a9e056
 description: Renvoie une polyligne. Cette fonction est utilisée dans la cellule A des lignes de géométrie de PolyLineTo.
 ms.openlocfilehash: d801c6f2c1a81cc5cc99b3517c4d86784421d7e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348278"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426295"
 ---
 # <a name="polyline-function"></a>Fonction POLYLINE
 

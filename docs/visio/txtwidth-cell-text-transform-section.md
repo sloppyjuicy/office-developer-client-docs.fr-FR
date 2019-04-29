@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e2215c67-25fa-1d75-9cce-f126bb8760a1
 description: 'Détermine la largeur du bloc de texte. La formule par défaut est la suivante :'
 ms.openlocfilehash: 806307166035ebc2f8e20e7025d5ecb03c4d6e79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316001"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426092"
 ---
 # <a name="txtwidth-cell-text-transform-section"></a>TxtWidth, cellule (section Text Transform)
 

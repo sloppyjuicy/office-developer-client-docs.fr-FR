@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 83a645b49e5bb48051bbaedb26058d2da053348b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342496"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433037"
 ---
 # <a name="pidtagmemberentryid-canonical-property"></a>Propriété canonique PidTagMemberEntryId
 
@@ -38,7 +38,7 @@ Contient l'identificateur d'entrée d'objet d'annuaire d'un membre de la liste d
 
 Cette propriété est utilisée par l'interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) pour identifier de manière unique une personne ou un rôle auxquels s'applique la liste SACL. Après la création d'un membre dans la table SACL, la propriété **EntryID** ne peut pas être modifiée. Pour le modifier, vous devez supprimer le membre de la table et le recréer avec un **EntryID**différent.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 17c5e44e-ae56-8de7-3579-90171d996411
 description: L'API de disponibilité permet aux fournisseurs de messagerie de fournir des informations de disponibilité pour les comptes d'utilisateurs spécifiés dans un intervalle de temps spécifié.
 ms.openlocfilehash: 1bcd191b57238771ede6f035216fe3997e82e03a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317009"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433758"
 ---
 # <a name="about-the-freebusy-api"></a>À propos de l’API Disponibilité
 

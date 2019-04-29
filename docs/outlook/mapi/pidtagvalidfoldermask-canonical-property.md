@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 925e0eb60d55349ded114b827b6ca67e3b5ac1ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360745"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427793"
 ---
 # <a name="pidtagvalidfoldermask-canonical-property"></a>Propriété canonique PidTagValidFolderMask
 
@@ -72,7 +72,7 @@ FOLDER_VIEWS_VALID
   
 > Le dossier views a un identificateur d'entrée valide. Voir **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
     
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

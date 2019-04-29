@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c7f4e8835831af6277cef134bf3961e9928cba33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326585"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433527"
 ---
 # <a name="spropvalue"></a>SPropValue
 
@@ -63,8 +63,8 @@ typedef struct _SPropValue
 |PT_I4 ou PT_LONG (non signé)  <br/> |**suffix** <br/> |ULONG  <br/> |
 |PT_R4 ou PT_FLOAT  <br/> |**flt** <br/> |flottant  <br/> |
 |PT_R8 ou PT_DOUBLE  <br/> |**clic** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**point** <br/> |entier court non signé  <br/> |
-|PT_CURRENCY  <br/> |**Tabs** <br/> |[CONCURRENT](currency.md) <br/> |
+|PT_BOOLEAN  <br/> |**b** <br/> |entier court non signé  <br/> |
+|PT_CURRENCY  <br/> |**Tabs** <br/> |[CURRENCY](currency.md) <br/> |
 |PT_APPTIME  <br/> |**Regardez** <br/> |double  <br/> |
 |PT_SYSTIME  <br/> |**pied** <br/> |[FILETIME](filetime.md) <br/> |
 |PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |

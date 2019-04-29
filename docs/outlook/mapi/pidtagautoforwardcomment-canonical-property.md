@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a07c0ee3-f6f9-4ae3-81c0-accc939ca99a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8b0b55b5a769ea47c622e3e29e873afb1220dd5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326627"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430895"
 ---
 # <a name="pidtagautoforwardcomment-canonical-property"></a>Propriété canonique PidTagAutoForwardComment
 
@@ -34,7 +34,7 @@ Contient un Commentaire ajouté par l'agent de transfert automatique.
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Rapports généraux  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

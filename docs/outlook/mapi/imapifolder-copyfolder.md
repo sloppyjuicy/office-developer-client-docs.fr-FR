@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3d9c1e88b12baf50593212a3ae3c02907ce6617b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280177"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425658"
 ---
 # <a name="imapifoldercopyfolder"></a>IMAPIFolder::CopyFolder
 
@@ -134,7 +134,7 @@ Essayez de conserver tous les identificateurs d'entrée de message dans les mess
 
 Attendez-vous à ces valeurs de retour dans les conditions suivantes.
   
-|**Condition**|**Valeur renvoyée**|
+|**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
 |**CopyFolder** a copié ou déplacé tous les messages et sous-dossiers.  <br/> |S_OK  <br/> |
 |**CopyFolder** n'a pas pu copier ou déplacer tous les messages et sous-dossiers.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |

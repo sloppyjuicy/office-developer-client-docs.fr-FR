@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 6973e2e6-7e7f-48ba-95b3-37c959f6ffb1
 description: Indique si les valeurs des cellules spécifiées dans une forme de base remplacent les valeurs (y compris les valeurs locales) d'une forme remplacée pendant une opération de remplacement de forme. Si la cellule ReplaceLockFormat d'une forme de base est définie sur TRUE (1), les valeurs de mise en forme de la forme de base remplacent toutes les valeurs correspondantes d'une forme remplacée par la forme de base.
 ms.openlocfilehash: 88af22accb7a80640e7553338dae1af48934f246
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329889"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427233"
 ---
 # <a name="replacelockformat-cell-change-shape-behavior-section"></a>ReplaceLockFormat Cell (Change Shape Behavior Section)
 
 Indique si les valeurs des cellules spécifiées dans une forme de base remplacent les valeurs (y compris les valeurs locales) d'une forme remplacée pendant une opération de remplacement de forme. Si la cellule **ReplaceLockFormat** d'une forme de base est définie sur true (1), les valeurs de mise en forme de la forme de base remplacent toutes les valeurs correspondantes d'une forme remplacée par la forme de base. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Si la cellule **ReplaceLockFormat** d'une forme de base est définie sur true, les valeurs de mise en forme de la forme de base remplacent toutes les valeurs correspondantes d'une forme remplacée par la forme de base.  <br/> |
 |FALSE  <br/> |Si la cellule **ReplaceLockFormat** d'une forme de base est définie sur false, la forme de remplacement contient les valeurs de mise en forme locale de l'ancienne forme après l'opération de remplacement.  <br/> |

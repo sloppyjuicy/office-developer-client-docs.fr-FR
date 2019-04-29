@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7238b1a9-01ed-46a0-a625-26763323317d
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 01d5ae3fd06d570e15336fad9538f01e586cd0f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327404"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431602"
 ---
 # <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>Prise en charge du texte mis en forme dans les messages sortants: responsabilités du client
 

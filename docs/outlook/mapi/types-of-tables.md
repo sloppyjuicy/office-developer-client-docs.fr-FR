@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 732b3d724c855d978250afff3d05c7f19909a5b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356573"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426463"
 ---
 # <a name="types-of-tables"></a>Types de tables
 
@@ -31,7 +31,7 @@ Les tableaux ont un jeu de colonnes par défaut, l'ensemble minimal de colonnes 
   
 Les tables MAPI et leurs implémenteurs et utilisateurs sont les suivants:
   
-|**Table**|**Responsables**|
+|**Tableau**|**Responsables**|
 |:-----|:-----|
 |Pièce jointe  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par les clients et les fournisseurs de transport.  <br/> |
 |Sommaire  <br/> |Implémenté par le magasin de messages et les fournisseurs de carnets d'adresses. Utilisé par les clients.  <br/> |

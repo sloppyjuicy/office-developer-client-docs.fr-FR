@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: ab835a1a-9e90-126e-279f-463882c48e93
 description: Détermine le niveau de transparence d'une plage de la couleur de texte d'une forme.
 ms.openlocfilehash: 8619ec25372ae163fff1759aca36ff6693820e39
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280982"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427835"
 ---
 # <a name="transparency-cell-character-section"></a>Transparency, cellule (section Character)
 
 Détermine le niveau de transparence d'une plage de la couleur de texte d'une forme.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).  <br/> |
    

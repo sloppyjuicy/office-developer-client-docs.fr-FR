@@ -10,17 +10,17 @@ keywords:
 - fonction xlGetHwnd [Excel 2007]
 localization_priority: Normal
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: ab4ac1bc040ef2ea9bca182624111e03722c5200
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310065"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425455"
 ---
 # <a name="xlgethwnd"></a>xlGetHwnd
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Renvoie le handle de fenêtre de la fenêtre Microsoft Excel de niveau supérieur.
   
