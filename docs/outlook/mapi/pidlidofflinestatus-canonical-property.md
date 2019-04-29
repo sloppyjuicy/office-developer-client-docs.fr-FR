@@ -11,65 +11,65 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 537b45420390903d67722c074a1edcc04a0aede8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326298"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418833"
 ---
-# <a name="pidlidofflinestatus-canonical-property"></a><span data-ttu-id="258f9-103">Propriété canonique PidLidOfflineStatus</span><span class="sxs-lookup"><span data-stu-id="258f9-103">PidLidOfflineStatus Canonical Property</span></span>
+# <a name="pidlidofflinestatus-canonical-property"></a><span data-ttu-id="5f279-103">Propriété canonique PidLidOfflineStatus</span><span class="sxs-lookup"><span data-stu-id="5f279-103">PidLidOfflineStatus Canonical Property</span></span>
 
   
   
-<span data-ttu-id="258f9-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="258f9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5f279-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5f279-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="258f9-105">Détermine l'état d'un fichier de document sur un serveur qui implémente [MS-LISTSWS].</span><span class="sxs-lookup"><span data-stu-id="258f9-105">Determines the state of a document file on a server that implements [MS-LISTSWS].</span></span>
+<span data-ttu-id="5f279-105">Détermine l'état d'un fichier de document sur un serveur qui implémente [MS-LISTSWS].</span><span class="sxs-lookup"><span data-stu-id="5f279-105">Determines the state of a document file on a server that implements [MS-LISTSWS].</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="258f9-106">Propriétés associées</span><span class="sxs-lookup"><span data-stu-id="258f9-106">Associated properties</span></span>  <br/> |<span data-ttu-id="258f9-107">dispidOfflineStatus</span><span class="sxs-lookup"><span data-stu-id="258f9-107">dispidOfflineStatus</span></span>  <br/> |
-|<span data-ttu-id="258f9-108">Jeu de propriétés:</span><span class="sxs-lookup"><span data-stu-id="258f9-108">Property set:</span></span>  <br/> |<span data-ttu-id="258f9-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="258f9-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="258f9-110">ID long (couvercle):</span><span class="sxs-lookup"><span data-stu-id="258f9-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="258f9-111">0x000085B9</span><span class="sxs-lookup"><span data-stu-id="258f9-111">0x000085B9</span></span>  <br/> |
-|<span data-ttu-id="258f9-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="258f9-112">Data type:</span></span>  <br/> |<span data-ttu-id="258f9-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="258f9-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="258f9-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="258f9-114">Area:</span></span>  <br/> |<span data-ttu-id="258f9-115">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="258f9-115">General messaging</span></span>  <br/> |
+|<span data-ttu-id="5f279-106">Propriétés associées</span><span class="sxs-lookup"><span data-stu-id="5f279-106">Associated properties</span></span>  <br/> |<span data-ttu-id="5f279-107">dispidOfflineStatus</span><span class="sxs-lookup"><span data-stu-id="5f279-107">dispidOfflineStatus</span></span>  <br/> |
+|<span data-ttu-id="5f279-108">Jeu de propriétés:</span><span class="sxs-lookup"><span data-stu-id="5f279-108">Property set:</span></span>  <br/> |<span data-ttu-id="5f279-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="5f279-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="5f279-110">ID long (couvercle):</span><span class="sxs-lookup"><span data-stu-id="5f279-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="5f279-111">0x000085B9</span><span class="sxs-lookup"><span data-stu-id="5f279-111">0x000085B9</span></span>  <br/> |
+|<span data-ttu-id="5f279-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="5f279-112">Data type:</span></span>  <br/> |<span data-ttu-id="5f279-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="5f279-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="5f279-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="5f279-114">Area:</span></span>  <br/> |<span data-ttu-id="5f279-115">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="5f279-115">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="258f9-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="258f9-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5f279-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="5f279-116">Remarks</span></span>
 
-<span data-ttu-id="258f9-117">Le tableau suivant indique les valeurs possibles de cette propriété.</span><span class="sxs-lookup"><span data-stu-id="258f9-117">The following table shows the possible values of this property.</span></span>
+<span data-ttu-id="5f279-117">Le tableau suivant indique les valeurs possibles de cette propriété.</span><span class="sxs-lookup"><span data-stu-id="5f279-117">The following table shows the possible values of this property.</span></span>
   
-|<span data-ttu-id="258f9-118">**Value**</span><span class="sxs-lookup"><span data-stu-id="258f9-118">**Value**</span></span>|<span data-ttu-id="258f9-119">**Description**</span><span class="sxs-lookup"><span data-stu-id="258f9-119">**Description**</span></span>|
+|<span data-ttu-id="5f279-118">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="5f279-118">**Value**</span></span>|<span data-ttu-id="5f279-119">**Description**</span><span class="sxs-lookup"><span data-stu-id="5f279-119">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="258f9-120">0</span><span class="sxs-lookup"><span data-stu-id="258f9-120">0</span></span>  <br/> |<span data-ttu-id="258f9-121">Le document n'est pas extrait.</span><span class="sxs-lookup"><span data-stu-id="258f9-121">Document is not checked out.</span></span>  <br/> |
-|<span data-ttu-id="258f9-122">0,1</span><span class="sxs-lookup"><span data-stu-id="258f9-122">1</span></span>  <br/> |<span data-ttu-id="258f9-123">Le document est extrait pour l'utilisateur actuel.</span><span class="sxs-lookup"><span data-stu-id="258f9-123">Document is checked out to the current user.</span></span>  <br/> |
-|<span data-ttu-id="258f9-124">n°2</span><span class="sxs-lookup"><span data-stu-id="258f9-124">2</span></span>  <br/> |<span data-ttu-id="258f9-125">Le document n'est pas extrait, mais l'utilisateur actuel dispose d'une copie du fichier enregistré pour modification sur l'ordinateur actuel.</span><span class="sxs-lookup"><span data-stu-id="258f9-125">Document is not checked out, but the current user has a copy of the file saved for editing on the current computer.</span></span>  <br/> |
+|<span data-ttu-id="5f279-120">0</span><span class="sxs-lookup"><span data-stu-id="5f279-120">0</span></span>  <br/> |<span data-ttu-id="5f279-121">Le document n'est pas extrait.</span><span class="sxs-lookup"><span data-stu-id="5f279-121">Document is not checked out.</span></span>  <br/> |
+|<span data-ttu-id="5f279-122">0,1</span><span class="sxs-lookup"><span data-stu-id="5f279-122">1</span></span>  <br/> |<span data-ttu-id="5f279-123">Le document est extrait pour l'utilisateur actuel.</span><span class="sxs-lookup"><span data-stu-id="5f279-123">Document is checked out to the current user.</span></span>  <br/> |
+|<span data-ttu-id="5f279-124">n°2</span><span class="sxs-lookup"><span data-stu-id="5f279-124">2</span></span>  <br/> |<span data-ttu-id="5f279-125">Le document n'est pas extrait, mais l'utilisateur actuel dispose d'une copie du fichier enregistré pour modification sur l'ordinateur actuel.</span><span class="sxs-lookup"><span data-stu-id="5f279-125">Document is not checked out, but the current user has a copy of the file saved for editing on the current computer.</span></span>  <br/> |
    
-<span data-ttu-id="258f9-126">Cette propriété est calculée localement et n'est pas envoyée à un serveur à tout moment, sauf si l'utilisateur fait glisser l'élément vers un autre compte.</span><span class="sxs-lookup"><span data-stu-id="258f9-126">This property is calculated locally and is not sent to a server at any time unless a user drags the item to another account.</span></span> <span data-ttu-id="258f9-127">Dans ce cas, elle est traitée comme une propriété personnalisée définie par l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="258f9-127">In that case, it is treated as a user-defined custom property.</span></span>
+<span data-ttu-id="5f279-126">Cette propriété est calculée localement et n'est pas envoyée à un serveur à tout moment, sauf si l'utilisateur fait glisser l'élément vers un autre compte.</span><span class="sxs-lookup"><span data-stu-id="5f279-126">This property is calculated locally and is not sent to a server at any time unless a user drags the item to another account.</span></span> <span data-ttu-id="5f279-127">Dans ce cas, elle est traitée comme une propriété personnalisée définie par l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="5f279-127">In that case, it is treated as a user-defined custom property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="258f9-128">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="258f9-128">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="5f279-128">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="5f279-128">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="258f9-129">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="258f9-129">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="5f279-129">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="5f279-129">Protocol specifications</span></span>
 
-<span data-ttu-id="258f9-130">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="258f9-130">[[MS-OXPROPS]]</span></span> 
+<span data-ttu-id="5f279-130">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="5f279-130">[[MS-OXPROPS]]</span></span> 
   
-> <span data-ttu-id="258f9-131">Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="258f9-131">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="5f279-131">Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="5f279-131">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="258f9-132">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="258f9-132">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="5f279-132">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="5f279-132">Header files</span></span>
 
-<span data-ttu-id="258f9-133">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="258f9-133">Mapidefs.h</span></span>
+<span data-ttu-id="5f279-133">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="5f279-133">Mapidefs.h</span></span>
   
-> <span data-ttu-id="258f9-134">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="258f9-134">Provides data type definitions.</span></span>
+> <span data-ttu-id="5f279-134">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="5f279-134">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="258f9-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="258f9-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5f279-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5f279-135">See also</span></span>
 
 
 
-[<span data-ttu-id="258f9-136">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="258f9-136">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="5f279-136">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="5f279-136">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="258f9-137">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="258f9-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="5f279-137">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="5f279-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="258f9-138">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="258f9-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="5f279-138">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="5f279-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="258f9-139">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="258f9-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="5f279-139">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="5f279-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

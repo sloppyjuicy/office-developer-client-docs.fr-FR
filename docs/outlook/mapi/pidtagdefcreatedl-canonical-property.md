@@ -11,59 +11,59 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 172dc15b-7bda-403f-a93a-446b2f9ff1d3
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ff5d35104e9effc27c405b716cb61cf4643677b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359954"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417790"
 ---
-# <a name="pidtagdefcreatedl-canonical-property"></a><span data-ttu-id="7aef9-103">Propriété canonique PidTagDefCreateDl</span><span class="sxs-lookup"><span data-stu-id="7aef9-103">PidTagDefCreateDl Canonical Property</span></span>
+# <a name="pidtagdefcreatedl-canonical-property"></a><span data-ttu-id="1aaf0-103">Propriété canonique PidTagDefCreateDl</span><span class="sxs-lookup"><span data-stu-id="1aaf0-103">PidTagDefCreateDl Canonical Property</span></span>
 
   
   
-<span data-ttu-id="7aef9-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7aef9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1aaf0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1aaf0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7aef9-105">Contient l'identificateur d'entrée de modèle pour une liste de distribution par défaut.</span><span class="sxs-lookup"><span data-stu-id="7aef9-105">Contains the template entry identifier for a default distribution list.</span></span> 
+<span data-ttu-id="1aaf0-105">Contient l'identificateur d'entrée de modèle pour une liste de distribution par défaut.</span><span class="sxs-lookup"><span data-stu-id="1aaf0-105">Contains the template entry identifier for a default distribution list.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7aef9-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="7aef9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7aef9-107">PR_DEF_CREATE_DL</span><span class="sxs-lookup"><span data-stu-id="7aef9-107">PR_DEF_CREATE_DL</span></span>  <br/> |
-|<span data-ttu-id="7aef9-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="7aef9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7aef9-109">0x3611</span><span class="sxs-lookup"><span data-stu-id="7aef9-109">0x3611</span></span>  <br/> |
-|<span data-ttu-id="7aef9-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="7aef9-110">Data type:</span></span>  <br/> |<span data-ttu-id="7aef9-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="7aef9-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="7aef9-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="7aef9-112">Area:</span></span>  <br/> |<span data-ttu-id="7aef9-113">Carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="7aef9-113">Address book</span></span>  <br/> |
+|<span data-ttu-id="1aaf0-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="1aaf0-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1aaf0-107">PR_DEF_CREATE_DL</span><span class="sxs-lookup"><span data-stu-id="1aaf0-107">PR_DEF_CREATE_DL</span></span>  <br/> |
+|<span data-ttu-id="1aaf0-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="1aaf0-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1aaf0-109">0x3611</span><span class="sxs-lookup"><span data-stu-id="1aaf0-109">0x3611</span></span>  <br/> |
+|<span data-ttu-id="1aaf0-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="1aaf0-110">Data type:</span></span>  <br/> |<span data-ttu-id="1aaf0-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="1aaf0-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="1aaf0-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="1aaf0-112">Area:</span></span>  <br/> |<span data-ttu-id="1aaf0-113">Carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="1aaf0-113">Address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7aef9-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="7aef9-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1aaf0-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="1aaf0-114">Remarks</span></span>
 
-<span data-ttu-id="7aef9-115">Les applications clientes utilisent cette propriété pour créer une liste de distribution dans un conteneur.</span><span class="sxs-lookup"><span data-stu-id="7aef9-115">Client applications use this property to create a distribution list within a container.</span></span> <span data-ttu-id="7aef9-116">La prise en charge de la création d'entrées est facultative pour les conteneurs du carnet d'adresses; les personnes qui ne le prennent pas en charge n'ont pas besoin d'exposer cette propriété.</span><span class="sxs-lookup"><span data-stu-id="7aef9-116">Support of entry creation is optional for address book containers; those that do not support it are not required to expose this property.</span></span> 
+<span data-ttu-id="1aaf0-115">Les applications clientes utilisent cette propriété pour créer une liste de distribution dans un conteneur.</span><span class="sxs-lookup"><span data-stu-id="1aaf0-115">Client applications use this property to create a distribution list within a container.</span></span> <span data-ttu-id="1aaf0-116">La prise en charge de la création d'entrées est facultative pour les conteneurs du carnet d'adresses; les personnes qui ne le prennent pas en charge n'ont pas besoin d'exposer cette propriété.</span><span class="sxs-lookup"><span data-stu-id="1aaf0-116">Support of entry creation is optional for address book containers; those that do not support it are not required to expose this property.</span></span> 
   
-<span data-ttu-id="7aef9-117">Cette propriété spécifie une entrée pouvant apparaître dans la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) pour les listes de distribution.</span><span class="sxs-lookup"><span data-stu-id="7aef9-117">This property specifies an entry that can appear in the **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property for distribution lists.</span></span> <span data-ttu-id="7aef9-118">Après avoir obtenu l'identificateur, le client l'utilise dans un appel à la méthode [IABContainer:: CreateEntry](iabcontainer-createentry.md) .</span><span class="sxs-lookup"><span data-stu-id="7aef9-118">After obtaining the identifier, the client uses it in a call to the [IABContainer::CreateEntry](iabcontainer-createentry.md) method.</span></span> <span data-ttu-id="7aef9-119">L'entrée représente le modèle pour la liste de distribution par défaut.</span><span class="sxs-lookup"><span data-stu-id="7aef9-119">The entry represents the template for the default distribution list.</span></span> 
+<span data-ttu-id="1aaf0-117">Cette propriété spécifie une entrée pouvant apparaître dans la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) pour les listes de distribution.</span><span class="sxs-lookup"><span data-stu-id="1aaf0-117">This property specifies an entry that can appear in the **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) property for distribution lists.</span></span> <span data-ttu-id="1aaf0-118">Après avoir obtenu l'identificateur, le client l'utilise dans un appel à la méthode [IABContainer:: CreateEntry](iabcontainer-createentry.md) .</span><span class="sxs-lookup"><span data-stu-id="1aaf0-118">After obtaining the identifier, the client uses it in a call to the [IABContainer::CreateEntry](iabcontainer-createentry.md) method.</span></span> <span data-ttu-id="1aaf0-119">L'entrée représente le modèle pour la liste de distribution par défaut.</span><span class="sxs-lookup"><span data-stu-id="1aaf0-119">The entry represents the template for the default distribution list.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="7aef9-120">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="7aef9-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="1aaf0-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="1aaf0-120">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="7aef9-121">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="7aef9-121">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="1aaf0-121">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="1aaf0-121">Header files</span></span>
 
-<span data-ttu-id="7aef9-122">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="7aef9-122">Mapidefs.h</span></span>
+<span data-ttu-id="1aaf0-122">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="1aaf0-122">Mapidefs.h</span></span>
   
-> <span data-ttu-id="7aef9-123">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="7aef9-123">Provides data type definitions.</span></span>
+> <span data-ttu-id="1aaf0-123">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="1aaf0-123">Provides data type definitions.</span></span>
     
-<span data-ttu-id="7aef9-124">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="7aef9-124">Mapitags.h</span></span>
+<span data-ttu-id="1aaf0-124">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="1aaf0-124">Mapitags.h</span></span>
   
-> <span data-ttu-id="7aef9-125">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="7aef9-125">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="1aaf0-125">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="1aaf0-125">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="7aef9-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7aef9-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1aaf0-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1aaf0-126">See also</span></span>
 
 
 
-[<span data-ttu-id="7aef9-127">IABLogon::CompareEntryIDs</span><span class="sxs-lookup"><span data-stu-id="7aef9-127">IABLogon::CompareEntryIDs</span></span>](iablogon-compareentryids.md)
+[<span data-ttu-id="1aaf0-127">IABLogon::CompareEntryIDs</span><span class="sxs-lookup"><span data-stu-id="1aaf0-127">IABLogon::CompareEntryIDs</span></span>](iablogon-compareentryids.md)
 
 
-[<span data-ttu-id="7aef9-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="7aef9-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="1aaf0-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="1aaf0-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="7aef9-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="7aef9-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="1aaf0-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="1aaf0-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="7aef9-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="7aef9-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="1aaf0-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="1aaf0-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="7aef9-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="7aef9-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="1aaf0-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="1aaf0-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

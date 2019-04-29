@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: cafcb20cbce3019d7623d330721005a674eca36e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314944"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411014"
 ---
-# <a name="sample-restriction-code"></a><span data-ttu-id="23ea1-103">Exemple de code de restriction</span><span class="sxs-lookup"><span data-stu-id="23ea1-103">Sample restriction code</span></span>
+# <a name="sample-restriction-code"></a><span data-ttu-id="1beeb-103">Exemple de code de restriction</span><span class="sxs-lookup"><span data-stu-id="1beeb-103">Sample restriction code</span></span>
 
-<span data-ttu-id="23ea1-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="23ea1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1beeb-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1beeb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="23ea1-105">L'exemple de code suivant montre comment créer une restriction qui filtre tous les messages qui ne contiennent pas le mot «Volleyball» dans la ligne d'objet et qui n'ont pas été envoyés à Sue à partir de Sam.</span><span class="sxs-lookup"><span data-stu-id="23ea1-105">The following sample code shows how to create a restriction that filters out all messages that do not contain the word "volleyball" in the subject line and were not sent to Sue from Sam.</span></span> <span data-ttu-id="23ea1-106">Une arborescence de structures [SRestriction](srestriction.md) est requise, dont le nœud supérieur est une restriction **et** est implémentée avec une structure [SAndRestriction](sandrestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="23ea1-106">A tree of [SRestriction](srestriction.md) structures is required, with the top node being an **AND** restriction implemented with an [SAndRestriction](sandrestriction.md) structure.</span></span> <span data-ttu-id="23ea1-107">Les trois restrictions qui sont jointes par l'opération **and** sont une restriction de sous-objet qui recherche des messages envoyés à Sue, une restriction de contenu qui recherche des messages à partir de Sam et une autre **et** une restriction qui recherche les messages. dont l'objet contient «volleyball».</span><span class="sxs-lookup"><span data-stu-id="23ea1-107">The three restrictions that are joined by the **AND** operation are a subobject restriction that searches for messages sent to Sue, a content restriction that searches for messages from Sam, and another **AND** restriction that searches for messages that have a subject containing "volleyball."</span></span> <span data-ttu-id="23ea1-108">Étant donné que **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) n'est pas une propriété requise, une restriction **Exists** doit être incluse.</span><span class="sxs-lookup"><span data-stu-id="23ea1-108">Because **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) is not a required property, an **Exist** restriction must be included.</span></span> 
+<span data-ttu-id="1beeb-105">L'exemple de code suivant montre comment créer une restriction qui filtre tous les messages qui ne contiennent pas le mot «Volleyball» dans la ligne d'objet et qui n'ont pas été envoyés à Sue à partir de Sam.</span><span class="sxs-lookup"><span data-stu-id="1beeb-105">The following sample code shows how to create a restriction that filters out all messages that do not contain the word "volleyball" in the subject line and were not sent to Sue from Sam.</span></span> <span data-ttu-id="1beeb-106">Une arborescence de structures [SRestriction](srestriction.md) est requise, dont le nœud supérieur est une restriction **et** est implémentée avec une structure [SAndRestriction](sandrestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="1beeb-106">A tree of [SRestriction](srestriction.md) structures is required, with the top node being an **AND** restriction implemented with an [SAndRestriction](sandrestriction.md) structure.</span></span> <span data-ttu-id="1beeb-107">Les trois restrictions qui sont jointes par l'opération **and** sont une restriction de sous-objet qui recherche des messages envoyés à Sue, une restriction de contenu qui recherche des messages à partir de Sam et une autre **et** une restriction qui recherche les messages. dont l'objet contient «volleyball».</span><span class="sxs-lookup"><span data-stu-id="1beeb-107">The three restrictions that are joined by the **AND** operation are a subobject restriction that searches for messages sent to Sue, a content restriction that searches for messages from Sam, and another **AND** restriction that searches for messages that have a subject containing "volleyball."</span></span> <span data-ttu-id="1beeb-108">Étant donné que **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) n'est pas une propriété requise, une restriction **Exists** doit être incluse.</span><span class="sxs-lookup"><span data-stu-id="1beeb-108">Because **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) is not a required property, an **Exist** restriction must be included.</span></span> 
   
-<span data-ttu-id="23ea1-109">Ce code utilise l'allocation et l'initialisation dynamiques; Il est possible de les allouer et de les initialiser de façon statique.</span><span class="sxs-lookup"><span data-stu-id="23ea1-109">This code uses dynamic allocation and initialization; it is possible to allocate and initialize statically as well.</span></span> <span data-ttu-id="23ea1-110">Dans un souci de concision, la vérification des erreurs qui doit avoir lieu après les appels d'allocation n'est pas incluse dans l'exemple.</span><span class="sxs-lookup"><span data-stu-id="23ea1-110">In the interest of brevity, the error checking that must occur following the allocation calls is not included in the sample.</span></span> 
+<span data-ttu-id="1beeb-109">Ce code utilise l'allocation et l'initialisation dynamiques; Il est possible de les allouer et de les initialiser de façon statique.</span><span class="sxs-lookup"><span data-stu-id="1beeb-109">This code uses dynamic allocation and initialization; it is possible to allocate and initialize statically as well.</span></span> <span data-ttu-id="1beeb-110">Dans un souci de concision, la vérification des erreurs qui doit avoir lieu après les appels d'allocation n'est pas incluse dans l'exemple.</span><span class="sxs-lookup"><span data-stu-id="1beeb-110">In the interest of brevity, the error checking that must occur following the allocation calls is not included in the sample.</span></span> 
   
 ```cpp
 HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,
@@ -96,7 +96,7 @@ HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,
  
 ```
 
-## <a name="see-also"></a><span data-ttu-id="23ea1-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="23ea1-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1beeb-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1beeb-111">See also</span></span>
 
-- [<span data-ttu-id="23ea1-112">Tables MAPI</span><span class="sxs-lookup"><span data-stu-id="23ea1-112">MAPI Tables</span></span>](mapi-tables.md)
+- [<span data-ttu-id="1beeb-112">Tables MAPI</span><span class="sxs-lookup"><span data-stu-id="1beeb-112">MAPI Tables</span></span>](mapi-tables.md)
 

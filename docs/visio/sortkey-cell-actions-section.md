@@ -10,35 +10,35 @@ localization_priority: Normal
 ms.assetid: c0c4b668-f31b-336f-4434-e94a4804ff7c
 description: Numéro qui détermine l’ordre des actions qui apparaissent dans un menu contextuel ou de balise d’action.
 ms.openlocfilehash: d4eb98055f199f603003b068dca9fa7b4e377e52
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334523"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419659"
 ---
-# <a name="sortkey-cell-actions-section"></a><span data-ttu-id="cd10a-103">SortKey, cellule (section Actions)</span><span class="sxs-lookup"><span data-stu-id="cd10a-103">SortKey Cell (Actions Section)</span></span>
+# <a name="sortkey-cell-actions-section"></a><span data-ttu-id="7937c-103">SortKey, cellule (section Actions)</span><span class="sxs-lookup"><span data-stu-id="7937c-103">SortKey Cell (Actions Section)</span></span>
 
-<span data-ttu-id="cd10a-104">Numéro qui détermine l’ordre des actions qui apparaissent dans un menu contextuel ou de balise d’action.</span><span class="sxs-lookup"><span data-stu-id="cd10a-104">A number that determines the order of actions that appear on a shortcut or action tag menu.</span></span>
+<span data-ttu-id="7937c-104">Numéro qui détermine l’ordre des actions qui apparaissent dans un menu contextuel ou de balise d’action.</span><span class="sxs-lookup"><span data-stu-id="7937c-104">A number that determines the order of actions that appear on a shortcut or action tag menu.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="cd10a-105">Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ».</span><span class="sxs-lookup"><span data-stu-id="cd10a-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="7937c-105">Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ».</span><span class="sxs-lookup"><span data-stu-id="7937c-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="cd10a-106">Remarques</span><span class="sxs-lookup"><span data-stu-id="cd10a-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7937c-106">Remarques</span><span class="sxs-lookup"><span data-stu-id="7937c-106">Remarks</span></span>
 
-<span data-ttu-id="cd10a-p101">Les actions d’un menu contextuel ou de balise d’action y apparaissent triées de la plus basse à la plus élevée, celles avec les numéros les plus bas figurant en haut du menu. Si deux lignes d’action ont la même valeur de cellule SortKey, le classement est déterminé par l’ordre physique des lignes. La valeur par défaut est 0 (zéro).</span><span class="sxs-lookup"><span data-stu-id="cd10a-p101">The actions on an action tag or shortcut menu appear on the menu sorted from lowest to highest, with lower numbers appearing at the top of the menu. If two action rows have the same SortKey cell value, the order is determined by physical row order. The default is 0 (zero).</span></span>
+<span data-ttu-id="7937c-p101">Les actions d’un menu contextuel ou de balise d’action y apparaissent triées de la plus basse à la plus élevée, celles avec les numéros les plus bas figurant en haut du menu. Si deux lignes d’action ont la même valeur de cellule SortKey, le classement est déterminé par l’ordre physique des lignes. La valeur par défaut est 0 (zéro).</span><span class="sxs-lookup"><span data-stu-id="7937c-p101">The actions on an action tag or shortcut menu appear on the menu sorted from lowest to highest, with lower numbers appearing at the top of the menu. If two action rows have the same SortKey cell value, the order is determined by physical row order. The default is 0 (zero).</span></span>
   
-<span data-ttu-id="cd10a-110">Pour obtenir une référence à la cellule SortKey à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="cd10a-110">To get a reference to the SortKey cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="7937c-110">Pour obtenir une référence à la cellule SortKey à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="7937c-110">To get a reference to the SortKey cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cd10a-111">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="cd10a-111">Cell name:</span></span>  <br/> |<span data-ttu-id="cd10a-112">Mesures.</span><span class="sxs-lookup"><span data-stu-id="cd10a-112">Actions.</span></span> <span data-ttu-id="cd10a-113">*nom* . Actions Sortkeyoù.</span><span class="sxs-lookup"><span data-stu-id="cd10a-113">*name*  .SortKeywhere Actions.</span></span>  <span data-ttu-id="cd10a-114">*Name* est le nom de la ligne d'actions</span><span class="sxs-lookup"><span data-stu-id="cd10a-114">*name*  is the name of the Actions row</span></span>  <br/> |
+|<span data-ttu-id="7937c-111">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="7937c-111">Cell name:</span></span>  <br/> |<span data-ttu-id="7937c-112">Mesures.</span><span class="sxs-lookup"><span data-stu-id="7937c-112">Actions.</span></span> <span data-ttu-id="7937c-113">*nom* . Actions Sortkeyoù.</span><span class="sxs-lookup"><span data-stu-id="7937c-113">*name*  .SortKeywhere Actions.</span></span>  <span data-ttu-id="7937c-114">*Name* est le nom de la ligne d'actions</span><span class="sxs-lookup"><span data-stu-id="7937c-114">*name*  is the name of the Actions row</span></span>  <br/> |
    
-<span data-ttu-id="cd10a-115">Pour obtenir une référence à la cellule SortKey par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="cd10a-115">To get a reference to the SortKey cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="7937c-115">Pour obtenir une référence à la cellule SortKey par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="7937c-115">To get a reference to the SortKey cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cd10a-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="cd10a-116">Section index:</span></span>  <br/> |<span data-ttu-id="cd10a-117">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="cd10a-117">**visSectionAction**</span></span> <br/> |
-|<span data-ttu-id="cd10a-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="cd10a-118">Row index:</span></span>  <br/> |<span data-ttu-id="cd10a-119">**visRowAction** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="cd10a-119">**visRowAction** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="cd10a-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="cd10a-120">Cell index:</span></span>  <br/> |<span data-ttu-id="cd10a-121">**visActionSortKey**</span><span class="sxs-lookup"><span data-stu-id="cd10a-121">**visActionSortKey**</span></span> <br/> |
+|<span data-ttu-id="7937c-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="7937c-116">Section index:</span></span>  <br/> |<span data-ttu-id="7937c-117">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="7937c-117">**visSectionAction**</span></span> <br/> |
+|<span data-ttu-id="7937c-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="7937c-118">Row index:</span></span>  <br/> |<span data-ttu-id="7937c-119">**visRowAction** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="7937c-119">**visRowAction** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="7937c-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="7937c-120">Cell index:</span></span>  <br/> |<span data-ttu-id="7937c-121">**visActionSortKey**</span><span class="sxs-lookup"><span data-stu-id="7937c-121">**visActionSortKey**</span></span> <br/> |
    
 

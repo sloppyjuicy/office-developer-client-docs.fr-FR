@@ -11,45 +11,45 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e0087cdffe04bdb5de7ffcfa295a5ac84bf03bd1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331618"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418693"
 ---
-# <a name="cbmapiverbarray"></a><span data-ttu-id="9ffe5-103">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="9ffe5-103">CbMAPIVerbArray</span></span>
+# <a name="cbmapiverbarray"></a><span data-ttu-id="ea3f7-103">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="ea3f7-103">CbMAPIVerbArray</span></span>
 
   
   
-<span data-ttu-id="9ffe5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9ffe5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ea3f7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ea3f7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9ffe5-105">Calcule le nombre d'octets dans une structure [SMAPIVerbArray](smapiverbarray.md) existante qui contient un nombre spécifié de structures [SMAPIVerb](smapiverb.md) .</span><span class="sxs-lookup"><span data-stu-id="9ffe5-105">Computes the number of bytes in an existing [SMAPIVerbArray](smapiverbarray.md) structure that contains a specified number of [SMAPIVerb](smapiverb.md) structures.</span></span> 
+<span data-ttu-id="ea3f7-105">Calcule le nombre d'octets dans une structure [SMAPIVerbArray](smapiverbarray.md) existante qui contient un nombre spécifié de structures [SMAPIVerb](smapiverb.md) .</span><span class="sxs-lookup"><span data-stu-id="ea3f7-105">Computes the number of bytes in an existing [SMAPIVerbArray](smapiverbarray.md) structure that contains a specified number of [SMAPIVerb](smapiverb.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9ffe5-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="9ffe5-106">Header file:</span></span>  <br/> |<span data-ttu-id="9ffe5-107">MAPIForm. h</span><span class="sxs-lookup"><span data-stu-id="9ffe5-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="9ffe5-108">Structure associée:</span><span class="sxs-lookup"><span data-stu-id="9ffe5-108">Related structure:</span></span>  <br/> |<span data-ttu-id="9ffe5-109">**SMAPIVerbArray**</span><span class="sxs-lookup"><span data-stu-id="9ffe5-109">**SMAPIVerbArray**</span></span> <br/> |
+|<span data-ttu-id="ea3f7-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="ea3f7-106">Header file:</span></span>  <br/> |<span data-ttu-id="ea3f7-107">MAPIForm. h</span><span class="sxs-lookup"><span data-stu-id="ea3f7-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="ea3f7-108">Structure associée:</span><span class="sxs-lookup"><span data-stu-id="ea3f7-108">Related structure:</span></span>  <br/> |<span data-ttu-id="ea3f7-109">**SMAPIVerbArray**</span><span class="sxs-lookup"><span data-stu-id="ea3f7-109">**SMAPIVerbArray**</span></span> <br/> |
    
 ```cpp
 int CbMAPIVerbArray (_c)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9ffe5-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="9ffe5-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ea3f7-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="ea3f7-110">Parameters</span></span>
 
- <span data-ttu-id="9ffe5-111">__c_</span><span class="sxs-lookup"><span data-stu-id="9ffe5-111">__c_</span></span>
+ <span data-ttu-id="ea3f7-111">__c_</span><span class="sxs-lookup"><span data-stu-id="ea3f7-111">__c_</span></span>
   
-> <span data-ttu-id="9ffe5-112">Nombre de structures **SMAPIVerb** dans la structure **SMAPIVerbArray** existante.</span><span class="sxs-lookup"><span data-stu-id="9ffe5-112">Count of **SMAPIVerb** structures in the existing **SMAPIVerbArray** structure.</span></span> 
+> <span data-ttu-id="ea3f7-112">Nombre de structures **SMAPIVerb** dans la structure **SMAPIVerbArray** existante.</span><span class="sxs-lookup"><span data-stu-id="ea3f7-112">Count of **SMAPIVerb** structures in the existing **SMAPIVerbArray** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="9ffe5-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9ffe5-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ea3f7-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ea3f7-113">See also</span></span>
 
 
 
-[<span data-ttu-id="9ffe5-114">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="9ffe5-114">SMAPIVerbArray</span></span>](smapiverbarray.md)
+[<span data-ttu-id="ea3f7-114">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="ea3f7-114">SMAPIVerbArray</span></span>](smapiverbarray.md)
   
-[<span data-ttu-id="9ffe5-115">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="9ffe5-115">SMAPIVerb</span></span>](smapiverb.md)
+[<span data-ttu-id="ea3f7-115">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="ea3f7-115">SMAPIVerb</span></span>](smapiverb.md)
 
 
-[<span data-ttu-id="9ffe5-116">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="9ffe5-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="ea3f7-116">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="ea3f7-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

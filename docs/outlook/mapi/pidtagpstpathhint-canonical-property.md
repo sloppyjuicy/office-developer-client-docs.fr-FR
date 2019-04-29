@@ -9,60 +9,60 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6415ddcec2823192967b8869b46b22b58b08ba5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286356"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437307"
 ---
-# <a name="pidtagpstpathhint-canonical-property"></a><span data-ttu-id="2b275-103">Propriété canonique PidTagPstPathHint</span><span class="sxs-lookup"><span data-stu-id="2b275-103">PidTagPstPathHint Canonical Property</span></span>
+# <a name="pidtagpstpathhint-canonical-property"></a><span data-ttu-id="fc70a-103">Propriété canonique PidTagPstPathHint</span><span class="sxs-lookup"><span data-stu-id="fc70a-103">PidTagPstPathHint Canonical Property</span></span>
 
   
   
-<span data-ttu-id="2b275-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2b275-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fc70a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fc70a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2b275-105">Fournit le nom de la table de stockage personnel (fichier. pst), que l'utilisateur peut modifier, pour la boîte de dialogue de configuration.</span><span class="sxs-lookup"><span data-stu-id="2b275-105">Provides the personal storage table (.pst file) name, which the user can edit, for the configuration dialog box.</span></span> 
+<span data-ttu-id="fc70a-105">Fournit le nom de la table de stockage personnel (fichier. pst), que l'utilisateur peut modifier, pour la boîte de dialogue de configuration.</span><span class="sxs-lookup"><span data-stu-id="fc70a-105">Provides the personal storage table (.pst file) name, which the user can edit, for the configuration dialog box.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2b275-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="2b275-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="2b275-107">PR_PST_PATH_HINT, PR_PST_PATH_HINT_A, PR_PST_PATH_HINT_W</span><span class="sxs-lookup"><span data-stu-id="2b275-107">PR_PST_PATH_HINT, PR_PST_PATH_HINT_A, PR_PST_PATH_HINT_W</span></span>  <br/> |
-|<span data-ttu-id="2b275-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="2b275-108">Identifier:</span></span>  <br/> |<span data-ttu-id="2b275-109">0x6771</span><span class="sxs-lookup"><span data-stu-id="2b275-109">0x6771</span></span>  <br/> |
-|<span data-ttu-id="2b275-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="2b275-110">Data type:</span></span>  <br/> |<span data-ttu-id="2b275-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="2b275-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="2b275-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="2b275-112">Area:</span></span>  <br/> |<span data-ttu-id="2b275-113">Table de stockage personnel (. pst) interne</span><span class="sxs-lookup"><span data-stu-id="2b275-113">Personal storage table (.pst) internal</span></span>  <br/> |
+|<span data-ttu-id="fc70a-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="fc70a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="fc70a-107">PR_PST_PATH_HINT, PR_PST_PATH_HINT_A, PR_PST_PATH_HINT_W</span><span class="sxs-lookup"><span data-stu-id="fc70a-107">PR_PST_PATH_HINT, PR_PST_PATH_HINT_A, PR_PST_PATH_HINT_W</span></span>  <br/> |
+|<span data-ttu-id="fc70a-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="fc70a-108">Identifier:</span></span>  <br/> |<span data-ttu-id="fc70a-109">0x6771</span><span class="sxs-lookup"><span data-stu-id="fc70a-109">0x6771</span></span>  <br/> |
+|<span data-ttu-id="fc70a-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="fc70a-110">Data type:</span></span>  <br/> |<span data-ttu-id="fc70a-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="fc70a-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="fc70a-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="fc70a-112">Area:</span></span>  <br/> |<span data-ttu-id="fc70a-113">Table de stockage personnel (. pst) interne</span><span class="sxs-lookup"><span data-stu-id="fc70a-113">Personal storage table (.pst) internal</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="2b275-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="2b275-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc70a-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="fc70a-114">Remarks</span></span>
 
-<span data-ttu-id="2b275-115">Si la propriété **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) est utilisée à la place, la boîte de dialogue de configuration s'ouvre, mais l'utilisateur n'est pas autorisé à modifier le chemin d'accès et de nombreuses autres propriétés.</span><span class="sxs-lookup"><span data-stu-id="2b275-115">If the **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) property is used instead, the configuration dialog box will open, but the user will not be allowed to edit the path and many other properties.</span></span>
+<span data-ttu-id="fc70a-115">Si la propriété **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) est utilisée à la place, la boîte de dialogue de configuration s'ouvre, mais l'utilisateur n'est pas autorisé à modifier le chemin d'accès et de nombreuses autres propriétés.</span><span class="sxs-lookup"><span data-stu-id="fc70a-115">If the **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) property is used instead, the configuration dialog box will open, but the user will not be allowed to edit the path and many other properties.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="2b275-116">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="2b275-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="fc70a-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="fc70a-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="2b275-117">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="2b275-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="fc70a-117">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="fc70a-117">Protocol specifications</span></span>
 
-<span data-ttu-id="2b275-118">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="2b275-118">[[MS-OXPROPS]]</span></span> 
+<span data-ttu-id="fc70a-118">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="fc70a-118">[[MS-OXPROPS]]</span></span> 
   
-> <span data-ttu-id="2b275-119">Fournit des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="2b275-119">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="fc70a-119">Fournit des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="fc70a-119">Provides references to related Exchange Server protocol specifications.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="2b275-120">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="2b275-120">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="fc70a-120">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="fc70a-120">Header files</span></span>
 
-<span data-ttu-id="2b275-121">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="2b275-121">Mapidefs.h</span></span>
+<span data-ttu-id="fc70a-121">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="fc70a-121">Mapidefs.h</span></span>
   
-> <span data-ttu-id="2b275-122">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="2b275-122">Provides data type definitions.</span></span>
+> <span data-ttu-id="fc70a-122">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="fc70a-122">Provides data type definitions.</span></span>
     
-<span data-ttu-id="2b275-123">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="2b275-123">Mapitags.h</span></span>
+<span data-ttu-id="fc70a-123">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="fc70a-123">Mapitags.h</span></span>
   
-> <span data-ttu-id="2b275-124">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="2b275-124">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="fc70a-124">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="fc70a-124">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="2b275-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2b275-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc70a-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fc70a-125">See also</span></span>
 
 
 
-[<span data-ttu-id="2b275-126">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="2b275-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="fc70a-126">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="fc70a-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="2b275-127">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="2b275-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="fc70a-127">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="fc70a-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="2b275-128">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="2b275-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="fc70a-128">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="fc70a-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="2b275-129">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="2b275-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="fc70a-129">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="fc70a-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

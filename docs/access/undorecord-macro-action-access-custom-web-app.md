@@ -8,21 +8,21 @@ localization_priority: Normal
 ms.assetid: d943560f-66d8-47c3-96d9-202c2548874f
 description: Ignore les modifications apportées à l'enregistrement actif.
 ms.openlocfilehash: d3d666efdc6b63d2e01c23f9468f469082febd06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304221"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435690"
 ---
-# <a name="undorecord-macro-action-access-custom-web-app"></a><span data-ttu-id="6a248-103">UndoRecord, action de macro (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="6a248-103">UndoRecord Macro Action (Access custom web app)</span></span>
+# <a name="undorecord-macro-action-access-custom-web-app"></a><span data-ttu-id="522d5-103">UndoRecord, action de macro (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="522d5-103">UndoRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="6a248-104">Ignore les modifications apportées à l'enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="6a248-104">Discards changes to the current record.</span></span>
+<span data-ttu-id="522d5-104">Ignore les modifications apportées à l'enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="522d5-104">Discards changes to the current record.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="6a248-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="6a248-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="522d5-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="522d5-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="6a248-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="6a248-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="522d5-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="522d5-107">Remarks</span></span>
 
-<span data-ttu-id="6a248-108">L'action **UndoRecord** équivaut à utiliser le bouton **Annuler** de la barre d'action ignorer les modifications.</span><span class="sxs-lookup"><span data-stu-id="6a248-108">The **UndoRecord** action is equivalent to using the **Cancel** button in the action bar discard changes.</span></span> 
+<span data-ttu-id="522d5-108">L'action **UndoRecord** équivaut à utiliser le bouton **Annuler** de la barre d'action ignorer les modifications.</span><span class="sxs-lookup"><span data-stu-id="522d5-108">The **UndoRecord** action is equivalent to using the **Cancel** button in the action bar discard changes.</span></span> 
   
 

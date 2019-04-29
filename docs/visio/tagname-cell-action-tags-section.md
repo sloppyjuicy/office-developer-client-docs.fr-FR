@@ -10,35 +10,35 @@ localization_priority: Normal
 ms.assetid: 28d1cd60-4fb6-9feb-1a13-0962798ac1ad
 description: Nom de la balise d’action utilisé comme référence pour associer la balise d’action à ses actions.
 ms.openlocfilehash: 777d6c1098888c9835c1ad367bb70926b835180b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332395"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417909"
 ---
-# <a name="tagname-cell-action-tags-section"></a><span data-ttu-id="d030d-103">TagName, cellule (section Action Tags)</span><span class="sxs-lookup"><span data-stu-id="d030d-103">TagName Cell (Action Tags Section)</span></span>
+# <a name="tagname-cell-action-tags-section"></a><span data-ttu-id="aa991-103">TagName, cellule (section Action Tags)</span><span class="sxs-lookup"><span data-stu-id="aa991-103">TagName Cell (Action Tags Section)</span></span>
 
-<span data-ttu-id="d030d-104">Nom de la balise d’action utilisé comme référence pour associer la balise d’action à ses actions.</span><span class="sxs-lookup"><span data-stu-id="d030d-104">Name of the action tag that is used as a key to associate the action tag with its actions.</span></span>
+<span data-ttu-id="aa991-104">Nom de la balise d’action utilisé comme référence pour associer la balise d’action à ses actions.</span><span class="sxs-lookup"><span data-stu-id="aa991-104">Name of the action tag that is used as a key to associate the action tag with its actions.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="d030d-105">Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ».</span><span class="sxs-lookup"><span data-stu-id="d030d-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="aa991-105">Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ».</span><span class="sxs-lookup"><span data-stu-id="aa991-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="d030d-106">Remarques</span><span class="sxs-lookup"><span data-stu-id="d030d-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aa991-106">Remarques</span><span class="sxs-lookup"><span data-stu-id="aa991-106">Remarks</span></span>
 
- <span data-ttu-id="d030d-107">La cellule TagName de la section Action Tags fonctionne avec la cellule TagName de la section Actions pour associer une balise d’action à ses actions.</span><span class="sxs-lookup"><span data-stu-id="d030d-107">The TagName cell in the Action Tags section works together with the TagName cell in the Actions section to associate an action tag with its actions.</span></span> <span data-ttu-id="d030d-108">Les lignes de la section actions ont également une cellule TagName, et les lignes avec la même valeur de cellule TagName que cette cellule définissent les actions à effectuer pour cette balise d'action.</span><span class="sxs-lookup"><span data-stu-id="d030d-108">Rows in the Actions section also have a TagName cell, and those rows with the same TagName cell value as this cell define actions to take for this action tag.</span></span> 
+ <span data-ttu-id="aa991-107">La cellule TagName de la section Action Tags fonctionne avec la cellule TagName de la section Actions pour associer une balise d’action à ses actions.</span><span class="sxs-lookup"><span data-stu-id="aa991-107">The TagName cell in the Action Tags section works together with the TagName cell in the Actions section to associate an action tag with its actions.</span></span> <span data-ttu-id="aa991-108">Les lignes de la section actions ont également une cellule TagName, et les lignes avec la même valeur de cellule TagName que cette cellule définissent les actions à effectuer pour cette balise d'action.</span><span class="sxs-lookup"><span data-stu-id="aa991-108">Rows in the Actions section also have a TagName cell, and those rows with the same TagName cell value as this cell define actions to take for this action tag.</span></span> 
   
-<span data-ttu-id="d030d-109">Pour obtenir une référence à la cellule TagName à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="d030d-109">To get a reference to the TagName cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="aa991-109">Pour obtenir une référence à la cellule TagName à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="aa991-109">To get a reference to the TagName cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d030d-110">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="d030d-110">Cell name:</span></span>  <br/> | <span data-ttu-id="d030d-111">SmartTag.</span><span class="sxs-lookup"><span data-stu-id="d030d-111">SmartTags.</span></span>  <span data-ttu-id="d030d-112">*nom* . TagName où SmartTags.</span><span class="sxs-lookup"><span data-stu-id="d030d-112">*name*  .TagName           where SmartTags.</span></span> <span data-ttu-id="d030d-113">*Name* est le nom de la ligne de balise d'action</span><span class="sxs-lookup"><span data-stu-id="d030d-113">*name*  is the name of the action tag row</span></span>  <br/> |
+| <span data-ttu-id="aa991-110">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="aa991-110">Cell name:</span></span>  <br/> | <span data-ttu-id="aa991-111">SmartTag.</span><span class="sxs-lookup"><span data-stu-id="aa991-111">SmartTags.</span></span>  <span data-ttu-id="aa991-112">*nom* . TagName où SmartTags.</span><span class="sxs-lookup"><span data-stu-id="aa991-112">*name*  .TagName           where SmartTags.</span></span> <span data-ttu-id="aa991-113">*Name* est le nom de la ligne de balise d'action</span><span class="sxs-lookup"><span data-stu-id="aa991-113">*name*  is the name of the action tag row</span></span>  <br/> |
    
-<span data-ttu-id="d030d-114">Pour obtenir une référence à la cellule TagName par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="d030d-114">To get a reference to the TagName cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="aa991-114">Pour obtenir une référence à la cellule TagName par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="aa991-114">To get a reference to the TagName cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d030d-115">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="d030d-115">Section index:</span></span>  <br/> |<span data-ttu-id="d030d-116">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="d030d-116">**visSectionSmartTag**</span></span> <br/> |
-| <span data-ttu-id="d030d-117">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="d030d-117">Row index:</span></span>  <br/> |<span data-ttu-id="d030d-118">**visRowSmartTag** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="d030d-118">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="d030d-119">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d030d-119">Cell index:</span></span>  <br/> |<span data-ttu-id="d030d-120">**visSmartTagName**</span><span class="sxs-lookup"><span data-stu-id="d030d-120">**visSmartTagName**</span></span> <br/> |
+| <span data-ttu-id="aa991-115">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="aa991-115">Section index:</span></span>  <br/> |<span data-ttu-id="aa991-116">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="aa991-116">**visSectionSmartTag**</span></span> <br/> |
+| <span data-ttu-id="aa991-117">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="aa991-117">Row index:</span></span>  <br/> |<span data-ttu-id="aa991-118">**visRowSmartTag** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="aa991-118">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="aa991-119">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="aa991-119">Cell index:</span></span>  <br/> |<span data-ttu-id="aa991-120">**visSmartTagName**</span><span class="sxs-lookup"><span data-stu-id="aa991-120">**visSmartTagName**</span></span> <br/> |
    
 
