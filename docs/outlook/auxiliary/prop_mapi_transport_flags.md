@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 12cfe096-6882-c0be-b248-87567cb71e83
 description: Représente les paramètres de transport qu'Outlook utilise pour déterminer les tâches de synchronisation nécessaires et pour désactiver les éléments d'interface utilisateur non pris en charge par le compte.
 ms.openlocfilehash: 707306c3bfbeebdd18f82bacfc121274be08aa50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326480"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404525"
 ---
 # <a name="propmapitransportflags"></a>PROP_MAPI_TRANSPORT_FLAGS
 
@@ -27,7 +27,7 @@ Voir [IOlkAccount](iolkaccount.md).
 |Identificateur :  <br/> |0x2010  <br/> |
 |Type de propriété:  <br/> |PT_BINARY  <br/> |
 |Balise de propriété:  <br/> |0x20100102  <br/> |
-|Access  <br/> |En lecture-écriture.  <br/> |
+|Access  <br/> |Lecture/écriture  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

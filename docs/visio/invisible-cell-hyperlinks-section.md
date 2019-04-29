@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e67dcd83-4a88-a0f8-5c6a-dae51424edbd
 description: Indique si un lien hypertexte apparaît dans le menu contextuel pour une forme ou une page.
 ms.openlocfilehash: b52da8244bf31e75bacbb6f24f73eba6ee8c6e5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348334"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404630"
 ---
 # <a name="invisible-cell-hyperlinks-section"></a>Invisible, cellule (section Hyperlinks)
 
 Indique si un lien hypertexte apparaît dans le menu contextuel pour une forme ou une page. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le lien hypertexte n'apparaît pas comme un élément de menu dans le menu contextuel.  <br/> |
 |FALSE  <br/> |Le lien hypertexte apparaît comme un élément de menu dans le menu contextuel (valeur par défaut).  <br/> |

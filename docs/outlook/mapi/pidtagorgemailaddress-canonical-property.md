@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: daccc16e314be865c5f0f152a9a1b746e0978869
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342489"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405071"
 ---
 # <a name="pidtagorgemailaddress-canonical-property"></a>Propriété canonique PidTagOrgEmailAddress
 
@@ -34,7 +34,7 @@ Contient l'adresse de messagerie du compte de messagerie d'origine.
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Domaine :  <br/> |Address  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

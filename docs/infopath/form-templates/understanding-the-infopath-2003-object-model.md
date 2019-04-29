@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: cd0a890b-5a8b-42c0-abdd-5ce28aff1ba1
 description: Cette section présente le modèle objet pour les solutions InfoPath avec code managé et décrit les tâches de programmation courantes.
 ms.openlocfilehash: 0c07201475bb7bfe24182faf61cc1bf6df733709
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299782"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416656"
 ---
 # <a name="understanding-the-infopath-2003-object-model"></a>Présentation du modèle objet InfoPath 2003
 
 Cette section présente le modèle objet pour les solutions InfoPath avec code managé et décrit les tâches de programmation courantes.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Modèles objet compatibles avec InfoPath 2003](infopath-2003-compatible-object-models.md)
   

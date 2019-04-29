@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 45bfaaaa-52cc-f8b4-68e7-8b99e5788ce1
 description: Contient le numéro de la police utilisée pour mettre en forme le texte comportant des caractères asiatiques. Les numéros de police varient en fonction des polices installées sur votre système.
 ms.openlocfilehash: 4af7e590a7bd0733ad622f3df259aa6c01837c4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341328"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406590"
 ---
 # <a name="asianfont-cell-character-section"></a>AsianFont, cellule (section Character)
 

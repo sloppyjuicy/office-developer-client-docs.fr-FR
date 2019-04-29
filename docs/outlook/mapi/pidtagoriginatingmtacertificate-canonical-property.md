@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6b7ff0c-19a0-4cad-8868-c05397fcebf4
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6f78609537b85a89617e7b2fa8f30a4ba952805b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340935"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414808"
 ---
 # <a name="pidtagoriginatingmtacertificate-canonical-property"></a>Propriété canonique PidTagOriginatingMtaCertificate
 
@@ -40,7 +40,7 @@ Cette propriété, si elle est définie, est disponible dans les messages envoy�
   
 Cette propriété correspond à l'attribut par message de l'État X. 400.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

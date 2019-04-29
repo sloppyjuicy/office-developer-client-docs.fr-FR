@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 31a7d0d4-4666-ddef-c5eb-4d13803e6a2f
 description: "Représente la distance entre chaque ligne du paragraphe et la marge gauche du bloc de texte. Cette valeur est indépendante de l'échelle de dessin : elle ne change pas si le dessin est mis à l'échelle."
 ms.openlocfilehash: 2a942ef3d874b8d1ce2ef85f423c93bc0db33230
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335335"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405162"
 ---
 # <a name="indleft-cell-paragraph-section"></a>IndLeft, cellule (section Paragraph)
 

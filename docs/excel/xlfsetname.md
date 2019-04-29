@@ -10,17 +10,17 @@ keywords:
 - fonction xlfSetName [Excel 2007]
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e6327ccf2cd18e42c3ef9abe538e6f669e498352
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310275"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404259"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Permet de créer et de supprimer des noms définis associés à la DLL.
   
@@ -46,7 +46,7 @@ TRUE si l'opération a réussi ou FALSe si le nom n'a pas pu être créé ou sup
   
 ## <a name="remarks"></a>Remarques
 
-Lorsqu'une fonction ou une commande est inscrite à l'aide de **xlfRegister** avec un argument _PxFunctionText_ valide, Excel crée un nom associé à la ressource dll. Lorsque votre DLL est déchargée, ces noms doivent être supprimés à l'aide de la [fonction xlfSetName](xlfsetname.md). Toutefois, en raison d'un problème connu dans Excel, cette opération de suppression échoue. Pour plus d�informations, consultez [Probl�mes connus concernant le d�veloppement de XLL Excel](known-issues-in-excel-xll-development.md).
+Lorsqu'une fonction ou une commande est inscrite à l'aide de **xlfRegister** avec un argument _PxFunctionText_ valide, Excel crée un nom associé à la ressource dll. Lorsque votre DLL est déchargée, ces noms doivent être supprimés à l'aide de la [fonction xlfSetName](xlfsetname.md). Toutefois, en raison d'un problème connu dans Excel, cette opération de suppression échoue. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ### <a name="example"></a>Exemple
 

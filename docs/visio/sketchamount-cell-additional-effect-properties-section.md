@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 7c7353b7-f28e-4004-bf13-6e9714fbed37
 description: Détermine le degré de déformation pour un effet d'esquisse, sous la forme d'un nombre entier compris entre 0 et 25.
 ms.openlocfilehash: fd9ee3390d05f24d81d9c6677160155b0f0f0d35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314769"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404420"
 ---
 # <a name="sketchamount-cell-additional-effect-properties-section"></a>SketchAmount Cell (Additional Effect Properties Section)
 
 Détermine le degré de déformation pour un effet d'esquisse, sous la forme d'un nombre entier compris entre 0 et 25. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun effet de croquis n'est appliqué à la forme.  <br/> |
 |1-25  <br/> |La forme est dotée d'une distorsion d'esquisse, où la valeur 1 est la plus grande distorsion et 25 le moins.  <br/> |

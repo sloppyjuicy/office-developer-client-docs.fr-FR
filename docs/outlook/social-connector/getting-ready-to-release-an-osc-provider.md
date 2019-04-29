@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
 description: Cette section propose des tests que vous pouvez effectuer avant de libérer votre fournisseur Outlook Social Connector (OSC).
 ms.openlocfilehash: 8a36b13f8adc42a1834481d3a5942f0350c43cc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327152"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414661"
 ---
 # <a name="getting-ready-to-release-an-osc-provider"></a>Préparation de la publication d'un fournisseur OSC
 
@@ -21,7 +21,7 @@ Cette section propose des tests que vous pouvez effectuer avant de libérer votr
 
 Ces tests vérifient les fonctionnalités de base de votre implémentation des interfaces du fournisseur OSC en ce qui concerne les fonctionnalités que vous spécifiez pour le fournisseur OSC. Par ailleurs, même si OSC est une fonctionnalité partagée par plusieurs applications clientes Office, ces tests utilisent Outlook comme client pour tester les fonctionnalités fondamentales. Vous devez déterminer si d'autres tests sont nécessaires pour les fonctionnalités spécifiques à votre fournisseur.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Test du déploiement](testing-deployment.md): décrit les scénarios que vous devez tester pour l'installation et la désinstallation d'un fournisseur OSC.
     

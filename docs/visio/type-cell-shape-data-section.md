@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 1e24a906-83ce-32d2-5d7b-ba6dd6eea2d3
 description: Indique le type des données de forme.
 ms.openlocfilehash: c2d38b521a8597a4582a4145ad808b0c0e26ff0a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350896"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406247"
 ---
 # <a name="type-cell-shape-data-section"></a>Type, cellule (section Shape Data)
 
 Indique le type des données de forme.
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Chaîne. Valeur par défaut.  <br/> |**visPropTypeString** <br/> |
 |0,1  <br/> |Liste fixe. Affiche les éléments de la liste dans une zone de liste déroulante fixe de la boîte de dialogue **Définir les données de forme**. Indiquez les éléments de la liste dans la cellule Format. Les utilisateurs ne peuvent sélectionner qu’un seul élément dans la liste.<br/> |**visPropTypeListFix** <br/> |

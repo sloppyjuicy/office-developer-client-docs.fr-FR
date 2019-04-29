@@ -10,17 +10,17 @@ keywords:
 - fonction xlSet [Excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 0912c1d40882933778d0df927ceb9de773063444
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303856"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404602"
 ---
 # <a name="xlset"></a>xlSet
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Place les valeurs constantes dans des cellules ou des plages très rapidement. Pour plus d'informations, voir «xlSet et classeurs avec des formules matricielles» dans [problèmes connus dans le développement XLL Excel](known-issues-in-excel-xll-development.md).
   

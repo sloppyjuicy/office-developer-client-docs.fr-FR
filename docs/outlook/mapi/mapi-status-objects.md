@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 38310619-1b1d-4934-8533-d0612676c0b0
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 816d1b7c9c0b8c5a80a2351580ce3224fccf0b14
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309533"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406744"
 ---
 # <a name="mapi-status-objects"></a>Objets d'État MAPI
 

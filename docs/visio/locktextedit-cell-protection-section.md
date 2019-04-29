@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: Verrouille le texte d’une forme afin d’empêcher sa modification.
 ms.openlocfilehash: f6e5176e3ab654b76c0641b8f642abcf6b1050dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348313"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404497"
 ---
 # <a name="locktextedit-cell-protection-section"></a>LockTextEdit, cellule (section Protection)
 
 Verrouille le texte d’une forme afin d’empêcher sa modification.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le texte ne peut pas être modifié.  <br/> |
 | FALSE  <br/> | Le texte peut être modifié.  <br/> |

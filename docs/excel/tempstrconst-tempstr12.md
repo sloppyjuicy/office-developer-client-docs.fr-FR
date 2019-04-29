@@ -11,17 +11,17 @@ keywords:
 - fonction TempStr12 [Excel 2007], fonction TempStrConst [Excel 2007]
 localization_priority: Normal
 ms.assetid: faf4ee4e-8d33-4cb3-ae16-5648a837ee4f
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: d93f9de021c7ba325d9c11af2cede0245ffbbf6b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310324"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407150"
 ---
 # <a name="tempstrconsttempstr12"></a>TempStrConst/TempStr12
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
 Fonction de bibliothèque d'infrastructure qui crée un **XLOPER/XLOPER12** temporaire qui contient une chaîne **xltypeStr** , en prenant une chaîne source se terminant par null comme entrée. La fonction alloue une nouvelle mémoire tampon et y copie la chaîne passée. La chaîne d'entrée n'est pas modifiée et est déclarée **const**.
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: aebcd321-9d1c-e04e-7c85-3ec1ed851561
 description: Définit les graduations verticales de la règle pour la page.
 ms.openlocfilehash: c92c48f6c86fc794cf6f53a87fdb99e67a73b9f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357203"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406800"
 ---
 # <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Cellule YRulerDensity (section &amp; règle et grille)
 
 Définit les graduations verticales de la règle pour la page.
   
-|**Value**|**Description**|**Constante d'automation**|
+|**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
 |8 (&amp;H8)  <br/> |Grossier  <br/> |**visRulerCoarse** <br/> |

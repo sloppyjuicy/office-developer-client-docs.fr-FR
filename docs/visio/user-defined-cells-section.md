@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5630b446-5668-f7c1-1e34-6d4f84600f7f
 description: Zone de travail pour l'entrée de formules dans des cellules spéciales, susceptibles d'être référencées par d'autres cellules et outils complémentaires.
 ms.openlocfilehash: d10336578ae5738b5ffe06cad01ae5075d3ee3dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337134"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405575"
 ---
 # <a name="user-defined-cells-section"></a>User-defined Cells Section
 

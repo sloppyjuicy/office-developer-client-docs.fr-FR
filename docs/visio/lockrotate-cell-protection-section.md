@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2d97b31d-9008-307d-273a-1726007eeb34
 description: Empêche de faire pivoter les formes 2D avec la poignée de rotation ou la commande Faire pivoter à gauche de 90° ou Faire pivoter à droite de 90°.
 ms.openlocfilehash: 36da1868e4f974bd19d00e86e31bea96eb8ad5bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348271"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404672"
 ---
 # <a name="lockrotate-cell-protection-section"></a>LockRotate, cellule (section Protection)
 
 Empêche de faire pivoter les formes 2D avec la poignée de rotation ou la commande **Faire pivoter à gauche de 90°** ou **Faire pivoter à droite de 90°**. 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La rotation de la forme est impossible.  <br/> |
 | FALSE  <br/> | La rotation de la forme est possible (valeur par défaut).  <br/> |

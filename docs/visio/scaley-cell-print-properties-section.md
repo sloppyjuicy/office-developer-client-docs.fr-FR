@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 02835aff-455b-ffeb-d53b-28387b6ce361
 description: Indique le pourcentage d'agrandissement de la page de dessin sur la page de l'imprimante.
 ms.openlocfilehash: 0f8e86675a039002b60438eac7df92f4a2b13b98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342727"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406989"
 ---
 # <a name="scaley-cell-print-properties-section"></a>ScaleY, cellule (section Print Properties)
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c20842cd-86b1-83fa-49ba-118936013b6f
 description: ConVertit une formule produisant des codes de caractères 16 bits qui sont des codes de jeu de caractères codés sur un octet ou sur plusieurs octets élargis en une chaîne de codes de caractères Unicode 16 bits, à l'aide des jeux de caractères spécifiés.
 ms.openlocfilehash: c885487f91e541027b7ba09812e7321a9deb00ac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326767"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405211"
 ---
 # <a name="rewiden-function"></a>Fonction REWIDEN
 

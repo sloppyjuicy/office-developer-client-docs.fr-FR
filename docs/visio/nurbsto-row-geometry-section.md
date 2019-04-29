@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7e47acfe-5ec0-3689-eb89-0168f596a739
 description: Contient les coordonnées x et y, la position de l'avant-dernier nœud, la position de la dernière épaisseur, la position du premier nœud, la position de la première épaisseur et la formule pour une courbe B-spline rationnelle inuniforme (NURBS).
 ms.openlocfilehash: a5fc83f9581277580d076c2a850bfe937602aef0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361018"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404714"
 ---
 # <a name="nurbsto-row-geometry-section"></a>NURBSTo, ligne (section Geometry)
 
@@ -22,7 +22,7 @@ Contient les coordonnées *x* et *y* , la position de l'avant-dernier nœud, la 
   
 Une ligne NURBSTo contient les cellules suivantes.
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Coordonnée *x* du dernier point de contrôle d'une courbe NURBS.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y* du dernier point de contrôle d'une courbe NURBS.  <br/> |

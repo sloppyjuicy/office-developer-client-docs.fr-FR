@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 32627ebb-547f-4fac-a406-e7243ec5521b
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 19a8a939685c440901f3f57d72baf673a579e590
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316722"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404294"
 ---
 # <a name="designing-a-message-service"></a>Conception d’un service de messagerie
 

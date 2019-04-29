@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 63cef6ef2bb26e8b723c60fe01dd6771aa070ae8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341635"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407255"
 ---
 # <a name="srowset"></a>SRowSet
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 43128ea2-c0d9-c45f-31e6-768a80ae59b2
 description: Vous pouvez utiliser des opérateurs dans des formules pour effectuer des opérations arithmétiques (addition, soustraction, multiplication, etc.) ou des comparaisons logiques (supérieur à, inférieur à, égal à, etc.). Vous pouvez également définir l’ordre d’évaluation dans une formule en plaçant les expressions entre parenthèses. Utilisez l’opérateur & pour combiner (concaténer) des chaînes de caractères.
 ms.openlocfilehash: 4f095df73f9bd1d6a876d975d262c9217c696fb9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345282"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406128"
 ---
 # <a name="about-operators"></a>À propos des opérateurs
 
@@ -27,7 +27,7 @@ Le tableau ci-dessous montre des exemples d’expressions avec leurs résultats.
 |**Expression**|**Résultat**|**Description**|
 |:-----|:-----|:-----|
 | 2 \* 5 &amp; «cents»  <br/> | "10 cents"  <br/> | L' &amp; opérateur (concaténation de chaîne) requiert des arguments de type chaîne, de sorte \* que le résultat numérique de 2 5 est automatiquement converti en chaîne «10».  <br/> |
-| 5 \* "2"  <br/> | 10  <br/> | L' \* opérateur (multiplication) nécessite des arguments numériques, de sorte que la chaîne «2» est automatiquement convertie en un nombre équivalent 2.  <br/> |
+| 5 \* "2"  <br/> | 10   <br/> | L' \* opérateur (multiplication) nécessite des arguments numériques, de sorte que la chaîne «2» est automatiquement convertie en un nombre équivalent 2.  <br/> |
 | 5 \* "mouton"  <br/> | 0  <br/> | L' \* opérateur (multiplication) nécessite des arguments numériques, car la chaîne «mouton» ne peut pas être convertie en un nombre, zéro est utilisé comme son équivalent numérique.  <br/> |
    
 ## <a name="arithmetic-operators"></a>Opérateurs arithmétiques
@@ -40,7 +40,7 @@ Les opérateurs arithmétiques réalisent des opérations sur des nombres. Les o
 | -  <br/> | Négatif  <br/> | -37  <br/> | -37  <br/> |
 | %  <br/> | Pourcentage  <br/> | 37%  <br/> | .37  <br/> |
 | ^  <br/> | Elévation  <br/> | 5 ^ 2  <br/> | 25  <br/> |
-| \*  <br/> | Multiplication  <br/> | 5 \* 2  <br/> | 10  <br/> |
+| \*  <br/> | Multiplication  <br/> | 5 \* 2  <br/> | 10   <br/> |
 | /  <br/> | Division  <br/> | 5/2  <br/> | 2,5  <br/> |
 | +  <br/> | Ajout  <br/> | 5 + 2  <br/> | 7j/7  <br/> |
 | -  <br/> | Soustraction  <br/> | 5 - 2  <br/> | 3  <br/> |
@@ -73,7 +73,7 @@ Lorsqu’une formule contient plusieurs expressions, elles sont évaluées dans 
 |Premier  <br/> |Zéro  <br/> |+ (unaire)  <br/> |
 ||Negative  <br/> |- (unaire)  <br/> |
 ||Pourcentage  <br/> |% (unaire)  <br/> |
-|Second  <br/> |Elévation  <br/> |^  <br/> |
+|Deuxième  <br/> |Elévation  <br/> |^  <br/> |
 |Troisième  <br/> |Multiplication  <br/> |\*  <br/> |
 ||Division  <br/> |/  <br/> |
 |Quatrième  <br/> |Addition  <br/> |+  <br/> |

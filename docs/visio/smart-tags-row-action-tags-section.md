@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 065c6977-c737-a4f4-effa-0fd2c98e8bbf
 description: Contient les informations relative à une seule balise d’action associée à une forme ou une page. Une forme ou une page contient une ligne Smart Tags pour chaque balise d’action.
 ms.openlocfilehash: 1c1591fd2d2cacfbfb350a542e6601cb2f6fbfd6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339829"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404707"
 ---
 # <a name="smart-tags-row-action-tags-section"></a>Smart Tags Row (Action Tags Section)
 
@@ -25,7 +25,7 @@ Contient les informations relative à une seule balise d’action associée à u
   
 Les lignes Smart Tags sont nommées SmartTags. *nom* et contient les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules. 
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[X](x-cell-action-tags-section.md) <br/> |Position de la coordonnée *x* d'un point dans les coordonnées locales de la forme et entourant laquelle est positionné le bouton de balise d'action.  <br/> |
 |[Y](y-cell-action-tags-section.md) <br/> |Position de la coordonnée *y* d'un point dans les coordonnées locales de la forme et entourant laquelle est positionné le bouton de balise d'action.  <br/> |

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6efe9dc3-e988-4042-ab02-2863b5e0f294
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 416486c3b06c485a1fa6525b54c37a6e0d23f56c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350924"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415179"
 ---
 # <a name="pidtagbodycrc-canonical-property"></a>Propriété canonique PidTagBodyCrc
 
@@ -40,7 +40,7 @@ La Banque de messages peut utiliser n'importe quel algorithme CRC qui génère u
   
 Une application cliente utilise **PR_BODY_CRC** pour faciliter la comparaison des chaînes de texte de message contenues dans les propriétés **PR_BODY** ou leurs variantes. À l'aide de cette propriété, le client peut rapidement et facilement détecter lorsque le texte du message a changé. Elle peut réaliser des gains de performances significatifs à l'aide de **PR_BODY_CRC** au lieu d'obtenir des **PR_BODY** à partir de la Banque de messages et de la comparer avec une version locale. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

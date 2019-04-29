@@ -8,11 +8,11 @@ ms.assetid: 11daa75b-87fc-4e63-8e02-09ab9307c8f8
 ms.date: 01/28/2016
 description: Utilisez le modèle d'URI Sway pour ouvrir l'application Sway et afficher ou modifier un Sway.
 ms.openlocfilehash: 04848ef1de2777d916d8dd8dd381e6d5f66310d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346248"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415312"
 ---
 # <a name="sway-uri-scheme"></a>Modèle d’URI Sway
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c3f10e61-1a6e-47f3-afd1-1c2a7836871b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0355977b119698fcf2575ec3806878a4ab0c7c39
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329371"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414486"
 ---
 # <a name="pidtagnondeliveryreportfromsearchkey-canonical-property"></a>Propriété canonique PidTagNonDeliveryReportFromSearchKey
 
@@ -34,7 +34,7 @@ Si ce paramètre est défini sur un rapport de non-remise, indique la clé de re
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 

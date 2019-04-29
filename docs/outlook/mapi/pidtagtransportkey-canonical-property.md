@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 131211b3-e6f9-4dd4-b6d9-b65361bff775
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 05db434ddabbd5f60fccdfeb1a2df8b3fcd0d96a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326606"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405547"
 ---
 # <a name="pidtagtransportkey-canonical-property"></a>Propriété canonique PidTagTransportKey
 
@@ -38,7 +38,7 @@ Contient une valeur utilisée par le spouleur MAPI pour suivre la progression d'
 
 N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

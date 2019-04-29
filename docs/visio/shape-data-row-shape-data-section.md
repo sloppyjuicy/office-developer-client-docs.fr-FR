@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f3a83496-fccc-9d6a-02b9-60ebaf4911ea
 description: Contient les informations d'un seul élément de données de forme associé à une forme. Une forme contient une ligne de données de forme pour chaque élément de données de forme. Les lignes de données de forme sont nommées Prop.name et contiennent les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules.
 ms.openlocfilehash: 058f8f180a2eca4736d06dfcc533d81f45150c86
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326214"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415396"
 ---
 # <a name="shape-data-row-shape-data-section"></a>Shape Data Row (Shape Data Section)
 
 Contient les informations d'un seul élément de données de forme associé à une forme. Une forme contient une ligne de données de forme pour chaque élément de données de forme. Les lignes de données de forme sont nommées Prop.name et contiennent les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules.
   
-|**Cell**|**Description**|
+|**Cellule**|**Description**|
 |:-----|:-----|
 |[Label](label-cell-shape-data-section.md) <br/> |Indique l'intitulé qui s'affiche dans la boîte de dialogue ou fenêtre **Données de forme**.  <br/> |
 |[Prompt](prompt-cell-shape-data-section.md) <br/> |Indique la description ou l'instruction qui est présentée aux utilisateurs dans la boîte de dialogue ou fenêtre **Données de forme** lorsqu'ils sélectionnent l'élément.  <br/> |

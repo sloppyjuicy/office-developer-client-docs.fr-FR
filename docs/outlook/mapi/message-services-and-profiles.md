@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 78a13bacf13b019bbf9436830ad66db7fdfaf425
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356957"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415466"
 ---
 # <a name="message-services-and-profiles"></a>Profils et services de messagerie
   
@@ -60,5 +60,5 @@ L'illustration suivante montre un profil qui inclut deux services de messagerie.
 ## <a name="see-also"></a>Voir aussi
 
 - [MAPIUID](mapiuid.md)
-- [Vue d'ensemble de la programmation MAPI](mapi-programming-overview.md)
+- [Vue d’ensemble de la programmation MAPI](mapi-programming-overview.md)
 

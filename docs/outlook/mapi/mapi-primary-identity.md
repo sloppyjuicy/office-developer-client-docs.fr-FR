@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8787a873-6752-4b17-8ea3-8fed793e1371
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5bf88de280b012c54d4caaac6bdfe877f476ac37
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345794"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404721"
 ---
 # <a name="mapi-primary-identity"></a>Identité principale MAPI
 

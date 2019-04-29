@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4168cd98-9674-1233-254f-0afe81b7245b
 description: Stocke les relations entre les conteneurs, les listes, les légendes et les formes.
 ms.openlocfilehash: b270366fe1045aea3d628150c82e7fd798fa21df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359968"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406408"
 ---
 # <a name="relationships-cell-shape-layout-section"></a>Relationships, cellule (section Shape Layout)
 
@@ -35,8 +35,8 @@ Stocke les relations entre les conteneurs, les listes, les légendes et les form
 |7j/7  <br/> |Conteneur sur le bord de la limite gauche sur laquelle réside la forme.  <br/> |
 |8bits  <br/> |Conteneur sur le bord de la limite droite sur laquelle réside la forme.  <br/> |
 |4,9  <br/> |Conteneur sur le bord de la limite haute sur laquelle réside la forme.  <br/> |
-|10  <br/> |Conteneur sur le bord de la limite basse sur laquelle réside la forme.  <br/> |
-|a4  <br/> |Liste sur laquelle chevauche cette liste.  <br/> |
+|10   <br/> |Conteneur sur le bord de la limite basse sur laquelle réside la forme.  <br/> |
+|11   <br/> |Liste sur laquelle chevauche cette liste.  <br/> |
    
 Pour obtenir une référence à la cellule Relationships par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a5204ddd-5af4-4dd8-bc83-af96ac390786
 description: Cette section décrit les propriétés de l'API de gestion des comptes.
 ms.openlocfilehash: d0b8c06716bd2f3a3bb2941e098bd9f11ab87183
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326438"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416334"
 ---
 # <a name="properties-account-management-api"></a>Propriétés (API de gestion des comptes)
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 958f3cf7-953a-43f4-9102-ad35edf5e813
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6d6974302e3413db3590abbbd3e6567976c6ac72
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360822"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404840"
 ---
 # <a name="pidtagdiscretevalues-canonical-property"></a>Propriété canonique PidTagDiscreteValues
 
@@ -42,7 +42,7 @@ Le tableau de destinataires d'un rapport de non-remise contient les entrées de 
   
  **PR_DISCRETE_VALUES** ne doit pas être défini pour toute entrée de destinataire de rapport de non-remise autre qu'une liste de distribution. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

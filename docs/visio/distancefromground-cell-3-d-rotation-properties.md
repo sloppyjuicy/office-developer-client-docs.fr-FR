@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 87499dab-977a-45bc-9f6a-8daa80a82abb
 description: Détermine la distance de l'objet par rapport au sol en points lorsqu'il est pivoté en 3D.
 ms.openlocfilehash: aa2f1629ecad234d85d4393411bd40215a671e1d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332696"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405617"
 ---
 # <a name="distancefromground-cell-3-d-rotation-properties"></a>Cellule DistanceFromGround (propriétés Rotation 3D)
 

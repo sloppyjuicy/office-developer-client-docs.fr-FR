@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: Détermine le motif de trait d'une forme. La valeur entrée dans la cellule LinePattern est un nombre correspondant à un index d'un ensemble de motifs de trait.
 ms.openlocfilehash: eec5bed18777f7822f9544d59dce7722f2f732bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316442"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416754"
 ---
 # <a name="linepattern-cell-line-format-section"></a>LinePattern, cellule (section Line Format)
 
 Détermine le motif de trait d'une forme. La valeur entrée dans la cellule LinePattern est un nombre correspondant à un index d'un ensemble de motifs de trait.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun motif de trait  <br/> |
 |0,1  <br/> |Solid  <br/> |

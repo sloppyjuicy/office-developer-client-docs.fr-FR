@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4d87313a-c09a-582c-04f4-d95800e3e9f2
 description: Renvoie un angle transformé dans le système de coordonnées parent de la forme de destination. Convertit un angle des coordonnées locales de la forme source en coordonnées parent de la forme de destination.
 ms.openlocfilehash: e411cbae21d832039e2fbda93393a8fe0bd1f9f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341454"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404322"
 ---
 # <a name="angletopar-function"></a>Fonction ANGLETOPAR
 

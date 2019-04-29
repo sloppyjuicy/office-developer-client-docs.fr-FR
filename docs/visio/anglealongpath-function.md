@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d7f8ca9a-3a89-abab-9805-bd1e24075c3f
 description: Renvoie l’angle de la tangente du chemin à un point donné.
 ms.openlocfilehash: 0d38fc0e123a7e38b7826b55415cfc09c1789c0e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341418"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407325"
 ---
 # <a name="anglealongpath-function"></a>Fonction ANGLEALONGPATH
 

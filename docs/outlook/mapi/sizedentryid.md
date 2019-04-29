@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 491170af-db35-4d7e-a912-44ffe8c7506b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 88cf91330dea82dda490b81cc8de6fea0504baf7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282683"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405708"
 ---
 # <a name="sizedentryid"></a>SizedENTRYID
 
@@ -28,7 +28,7 @@ Crée une structure [EntryID](entryid.md) nommée qui contient un membre **AB** 
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**ENTRÉE** <br/> |
+|Structure associée:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 SizedENTRYID (_cb, _name)
@@ -57,6 +57,6 @@ lpENTRYID = (LPENTRYID) &SizedENTRYID;
 
 ## <a name="see-also"></a>Voir aussi
 
-- [ENTRÉE](entryid.md)
+- [ENTRYID](entryid.md)
 - [Macros liées aux structures](macros-related-to-structures.md)
 

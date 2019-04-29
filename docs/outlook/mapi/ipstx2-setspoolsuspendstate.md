@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 396db029-1d4a-203d-2256-3353d03c6767
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: e988114e8e71ad1f80d20ab0d5a30c37425f5952
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407514"
 ---
 # <a name="ipstx2setspoolsuspendstate"></a>IPSTX2::SetSpoolSuspendState
 

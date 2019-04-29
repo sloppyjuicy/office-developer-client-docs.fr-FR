@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1bae0af9-229d-e114-4feb-bf6d7a7d8b08
 description: Modifie la couleur en augmentant sa luminosité du pourcentage spécifié.
 ms.openlocfilehash: d63b90d0cd6fcb35e23a8efa4ca9e13e2838bc21
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335195"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406422"
 ---
 # <a name="msotint-function"></a>Fonction MSOTINT
 

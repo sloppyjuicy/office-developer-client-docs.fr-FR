@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 93d7b00c-bd34-6b4e-44fe-afeb8aa9a294
 description: Nombre qui détermine l'ordre des liens hypertexte apparaissant dans un menu contextuel.
 ms.openlocfilehash: 002ab036f5305aa6daa631c15b0e9eb6148a9635
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335216"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406380"
 ---
 # <a name="sortkey-cell-hyperlinks-section"></a>SortKey, cellule (section Hyperlinks)
 

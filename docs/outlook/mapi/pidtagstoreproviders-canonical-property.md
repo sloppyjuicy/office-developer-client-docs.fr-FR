@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2c4a933-b371-43ec-af0f-6140d8b5c7ea
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 45d19b35f05b3347e78973bb72e526a2198d9bad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278700"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415837"
 ---
 # <a name="pidtagstoreproviders-canonical-property"></a>Propriété canonique PidTagStoreProviders
 
@@ -38,7 +38,7 @@ Contient une liste d'identificateurs de fournisseurs de banques de messages dans
 
 N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d'en-tête
 

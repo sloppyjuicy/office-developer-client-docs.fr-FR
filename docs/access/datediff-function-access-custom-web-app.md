@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 1c58ee87-0f57-4643-be4d-62da815df705
 description: Renvoie le nombre de limites de la partie de date spécifiée, franchie entre la date de début et la date de fin spécifiées.
 ms.openlocfilehash: 1cce8a501c5a57384372e681f903baa4f4c20bef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280722"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415613"
 ---
 # <a name="datediff-function-access-custom-web-app"></a>Fonction DateDiff (application Web personnalisée Access)
 
@@ -40,7 +40,7 @@ Le tableau suivant répertorie tous les arguments *DatePart* valides.
 |:-----|
 |**year** <br/> |
 |**trimestre** <br/> |
-|**month** <br/> |
+|**Mois** <br/> |
 |**DayOfYear** <br/> |
 |**day** <br/> |
 |**mensuel** <br/> |

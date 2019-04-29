@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: df63f08d3d453575816c4f7ab043f802023e21d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315532"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416383"
 ---
 # <a name="ipropdatahraddobjprops"></a>IPropData::HrAddObjProps
 

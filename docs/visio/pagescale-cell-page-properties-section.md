@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e1da84b3-fd15-12b9-9342-0412e818b3b9
 description: Détermine la valeur de l'unité de page dans l'échelle de dessin en cours. L'échelle de dessin est le rapport entre l'unité de page représentée dans la cellule PageScale et l'unité de dessin représentée dans la cellule DrawingScale.
 ms.openlocfilehash: 0763fd6fad5f64bc741cbdd1e1227b0982323841
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339451"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405533"
 ---
 # <a name="pagescale-cell-page-properties-section"></a>PageScale, cellule (section Page Properties)
 

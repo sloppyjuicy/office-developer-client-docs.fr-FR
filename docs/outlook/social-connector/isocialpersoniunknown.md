@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 17a2fa12-a7ef-4a95-9875-72ec6f8ceac9
 description: Représente une personne sur le réseau social.
 ms.openlocfilehash: 0ad129b0fc15fc9f3ccdf1cff7d8519bb07b024e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331940"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407010"
 ---
 # <a name="isocialperson--iunknown"></a>ISocialPerson : IUnknown
 
@@ -23,7 +23,7 @@ Représente une personne sur le réseau social.
 
 Le tableau suivant indique les membres qui sont disponibles sur l'interface **ISocialPerson** . 
   
-|**Name**|**Type de membre**|**Description**|
+|**Nom**|**Type de membre**|**Description**|
 |:-----|:-----|:-----|
 |[GetActivities](isocialperson-getactivities.md) <br/> |Méthode  <br/> |Cette méthode a été déconseillée depuis Outlook Social Connector 2013.  <br/> |
 |[GetDetails](isocialperson-getdetails.md) <br/> |Méthode  <br/> |Obtient une valeur de type String qui représente les détails de la personne, tels que le prénom, le nom et l'URL d'une image de profil.  <br/> |

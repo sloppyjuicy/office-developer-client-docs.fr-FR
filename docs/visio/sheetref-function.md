@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: eab68d7a-e281-fc2e-5531-91e7a4e1485f
 description: Renvoie une référence à la feuille (forme) spécifiée dans sheetref, ou la feuille active s’il n’y a pas de qualificatif sheetref.
 ms.openlocfilehash: 2c6441b5e984557035271de7d84d42078ac87804
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342832"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405183"
 ---
 # <a name="sheetref-function"></a>Fonction SHEETREF
 

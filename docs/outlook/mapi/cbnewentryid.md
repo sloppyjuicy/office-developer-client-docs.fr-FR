@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 11f078c0e2071e6f58a85dbe627b2ced676bacb9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329504"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405526"
 ---
 # <a name="cbnewentryid"></a>CbNewENTRYID
 
@@ -30,7 +30,7 @@ Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structur
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**ENTRÉE** <br/> |
+|Structure associée:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
@@ -46,7 +46,7 @@ CbNewENTRYID (_cb)
 
 
 
-[ENTRÉE](entryid.md)
+[ENTRYID](entryid.md)
 
 
 [Macros liées aux structures](macros-related-to-structures.md)

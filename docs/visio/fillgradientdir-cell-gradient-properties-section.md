@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e8156ff1-c540-44b8-8b69-ba4d54883260
 description: Détermine la direction du dégradé de remplissage. Un dégradé peut être linéaire, radial, rectangulaire ou suivre un tracé.
 ms.openlocfilehash: 53aad056c7fc1674e00e142fd72a10134103b390
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322462"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406716"
 ---
 # <a name="fillgradientdir-cell-gradient-properties-section"></a>FillGradientDir Cell (Gradient Properties Section)
 
@@ -23,12 +23,12 @@ Détermine la direction du dégradé de remplissage. Un dégradé peut être lin
   
 ****
 
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Dégradé linéaire La cellule **FillGradientAngle** détermine la direction du dégradé.  <br/> |
 |1-7  <br/> |Dégradés radiaux Le dégradé s'étend vers l'extérieur d'un cercle à partir d'un point central.  <br/> |
 |8-12  <br/> |Dégradés rectangulaires. Le dégradé s'étend sous la forme d'un trait directionnel à partir d'une origine avec un fondu en forme rectangulaire.  <br/> |
-|kg  <br/> |Dégradé du tracé.  <br/> |
+|13   <br/> |Dégradé du tracé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
