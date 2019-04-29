@@ -8,32 +8,32 @@ localization_priority: Normal
 ms.assetid: fe447899-d37a-4775-a09d-13ba3a878008
 description: Spécifie l'adresse de messagerie du compte.
 ms.openlocfilehash: 115941fdf2fdec01da8d6bc1320ac6cdc0930ffa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326529"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436775"
 ---
-# <a name="propacctuseremailaddr"></a><span data-ttu-id="f0c51-103">PROP_ACCT_USER_EMAIL_ADDR</span><span class="sxs-lookup"><span data-stu-id="f0c51-103">PROP_ACCT_USER_EMAIL_ADDR</span></span>
+# <a name="propacctuseremailaddr"></a><span data-ttu-id="f5266-103">PROP_ACCT_USER_EMAIL_ADDR</span><span class="sxs-lookup"><span data-stu-id="f5266-103">PROP_ACCT_USER_EMAIL_ADDR</span></span>
 
-<span data-ttu-id="f0c51-104">Spécifie l'adresse de messagerie du compte.</span><span class="sxs-lookup"><span data-stu-id="f0c51-104">Specifies the email address for the account.</span></span>
+<span data-ttu-id="f5266-104">Spécifie l'adresse de messagerie du compte.</span><span class="sxs-lookup"><span data-stu-id="f5266-104">Specifies the email address for the account.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="f0c51-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="f0c51-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="f5266-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="f5266-105">Quick info</span></span>
 
-<span data-ttu-id="f0c51-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="f0c51-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="f5266-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="f5266-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f0c51-107">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="f0c51-107">Identifier:</span></span>  <br/> |<span data-ttu-id="f0c51-108">0x000C</span><span class="sxs-lookup"><span data-stu-id="f0c51-108">0x000C</span></span>  <br/> |
-|<span data-ttu-id="f0c51-109">Type de propriété:</span><span class="sxs-lookup"><span data-stu-id="f0c51-109">Property type:</span></span>  <br/> |<span data-ttu-id="f0c51-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f0c51-110">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="f0c51-111">Balise de propriété:</span><span class="sxs-lookup"><span data-stu-id="f0c51-111">Property tag:</span></span>  <br/> |<span data-ttu-id="f0c51-112">0x000C001F</span><span class="sxs-lookup"><span data-stu-id="f0c51-112">0x000C001F</span></span>  <br/> |
-|<span data-ttu-id="f0c51-113">Access</span><span class="sxs-lookup"><span data-stu-id="f0c51-113">Access:</span></span>  <br/> |<span data-ttu-id="f0c51-114">En lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="f0c51-114">Read/write</span></span>  <br/> |
+|<span data-ttu-id="f5266-107">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="f5266-107">Identifier:</span></span>  <br/> |<span data-ttu-id="f5266-108">0x000C</span><span class="sxs-lookup"><span data-stu-id="f5266-108">0x000C</span></span>  <br/> |
+|<span data-ttu-id="f5266-109">Type de propriété:</span><span class="sxs-lookup"><span data-stu-id="f5266-109">Property type:</span></span>  <br/> |<span data-ttu-id="f5266-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f5266-110">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="f5266-111">Balise de propriété:</span><span class="sxs-lookup"><span data-stu-id="f5266-111">Property tag:</span></span>  <br/> |<span data-ttu-id="f5266-112">0x000C001F</span><span class="sxs-lookup"><span data-stu-id="f5266-112">0x000C001F</span></span>  <br/> |
+|<span data-ttu-id="f5266-113">Access</span><span class="sxs-lookup"><span data-stu-id="f5266-113">Access:</span></span>  <br/> |<span data-ttu-id="f5266-114">Lecture/écriture</span><span class="sxs-lookup"><span data-stu-id="f5266-114">Read/write</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f0c51-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="f0c51-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f5266-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="f5266-115">Remarks</span></span>
 
- <span data-ttu-id="f0c51-116">**PROP_ACCT_USER_EMAIL_ADDR** n'est pas censé exister sur chaque compte.</span><span class="sxs-lookup"><span data-stu-id="f0c51-116">**PROP_ACCT_USER_EMAIL_ADDR** is not expected to exist on every account.</span></span> <span data-ttu-id="f0c51-117">Par exemple, un compte Exchange peut avoir [PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) mais pas **PROP_ACCT_USER_EMAIL_ADDR**, tandis que pour un compte SMTP/POP3, la situation est inversée.</span><span class="sxs-lookup"><span data-stu-id="f0c51-117">For example, an Exchange account could have [PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) but not **PROP_ACCT_USER_EMAIL_ADDR**, while for an SMTP/POP3 account, the situation is reversed.</span></span>
+ <span data-ttu-id="f5266-116">**PROP_ACCT_USER_EMAIL_ADDR** n'est pas censé exister sur chaque compte.</span><span class="sxs-lookup"><span data-stu-id="f5266-116">**PROP_ACCT_USER_EMAIL_ADDR** is not expected to exist on every account.</span></span> <span data-ttu-id="f5266-117">Par exemple, un compte Exchange peut avoir [PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) mais pas **PROP_ACCT_USER_EMAIL_ADDR**, tandis que pour un compte SMTP/POP3, la situation est inversée.</span><span class="sxs-lookup"><span data-stu-id="f5266-117">For example, an Exchange account could have [PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) but not **PROP_ACCT_USER_EMAIL_ADDR**, while for an SMTP/POP3 account, the situation is reversed.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="f0c51-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f0c51-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f5266-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f5266-118">See also</span></span>
 
-- [<span data-ttu-id="f0c51-119">À propos de l'API de gestion de compte</span><span class="sxs-lookup"><span data-stu-id="f0c51-119">About the Account Management API</span></span>](about-the-account-management-api.md)
+- [<span data-ttu-id="f5266-119">À propos de l'API de gestion de compte</span><span class="sxs-lookup"><span data-stu-id="f5266-119">About the Account Management API</span></span>](about-the-account-management-api.md)
 

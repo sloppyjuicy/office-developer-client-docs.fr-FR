@@ -8,33 +8,33 @@ localization_priority: Normal
 ms.assetid: 260ee328-e73f-48bc-7762-d592b7d42afc
 description: Cette propriété renvoie ou définit le nom du compte.
 ms.openlocfilehash: 90b62548694687d9357f4302af36e4c8efeb8c0c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327621"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429431"
 ---
-# <a name="propacctname"></a><span data-ttu-id="67f9a-103">PROP_ACCT_NAME</span><span class="sxs-lookup"><span data-stu-id="67f9a-103">PROP_ACCT_NAME</span></span>
+# <a name="propacctname"></a><span data-ttu-id="0d41d-103">PROP_ACCT_NAME</span><span class="sxs-lookup"><span data-stu-id="0d41d-103">PROP_ACCT_NAME</span></span>
 
-<span data-ttu-id="67f9a-104">Cette propriété renvoie ou définit le nom du compte.</span><span class="sxs-lookup"><span data-stu-id="67f9a-104">Returns or sets the account name.</span></span>
+<span data-ttu-id="0d41d-104">Cette propriété renvoie ou définit le nom du compte.</span><span class="sxs-lookup"><span data-stu-id="0d41d-104">Returns or sets the account name.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="67f9a-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="67f9a-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="0d41d-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="0d41d-105">Quick info</span></span>
 
-<span data-ttu-id="67f9a-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="67f9a-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="0d41d-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="0d41d-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="67f9a-107">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="67f9a-107">Identifier:</span></span>  <br/> |<span data-ttu-id="67f9a-108">0x0002</span><span class="sxs-lookup"><span data-stu-id="67f9a-108">0x0002</span></span>  <br/> |
-|<span data-ttu-id="67f9a-109">Type de propriété:</span><span class="sxs-lookup"><span data-stu-id="67f9a-109">Property type:</span></span>  <br/> |<span data-ttu-id="67f9a-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="67f9a-110">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="67f9a-111">Balise de propriété:</span><span class="sxs-lookup"><span data-stu-id="67f9a-111">Property tag:</span></span>  <br/> |<span data-ttu-id="67f9a-112">0x0002001F</span><span class="sxs-lookup"><span data-stu-id="67f9a-112">0x0002001F</span></span>  <br/> |
-|<span data-ttu-id="67f9a-113">Access</span><span class="sxs-lookup"><span data-stu-id="67f9a-113">Access:</span></span>  <br/> |<span data-ttu-id="67f9a-114">En lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="67f9a-114">Read/write</span></span>  <br/> |
+|<span data-ttu-id="0d41d-107">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="0d41d-107">Identifier:</span></span>  <br/> |<span data-ttu-id="0d41d-108">0x0002</span><span class="sxs-lookup"><span data-stu-id="0d41d-108">0x0002</span></span>  <br/> |
+|<span data-ttu-id="0d41d-109">Type de propriété:</span><span class="sxs-lookup"><span data-stu-id="0d41d-109">Property type:</span></span>  <br/> |<span data-ttu-id="0d41d-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="0d41d-110">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="0d41d-111">Balise de propriété:</span><span class="sxs-lookup"><span data-stu-id="0d41d-111">Property tag:</span></span>  <br/> |<span data-ttu-id="0d41d-112">0x0002001F</span><span class="sxs-lookup"><span data-stu-id="0d41d-112">0x0002001F</span></span>  <br/> |
+|<span data-ttu-id="0d41d-113">Access</span><span class="sxs-lookup"><span data-stu-id="0d41d-113">Access:</span></span>  <br/> |<span data-ttu-id="0d41d-114">Lecture/écriture</span><span class="sxs-lookup"><span data-stu-id="0d41d-114">Read/write</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="67f9a-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="67f9a-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0d41d-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="0d41d-115">Remarks</span></span>
 
-<span data-ttu-id="67f9a-116">Obtenir ou définir cette propriété à l'aide de [IOlkAccount:: getprop](iolkaccount-getprop.md) ou [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivement.</span><span class="sxs-lookup"><span data-stu-id="67f9a-116">Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.</span></span>
+<span data-ttu-id="0d41d-116">Obtenir ou définir cette propriété à l'aide de [IOlkAccount:: getprop](iolkaccount-getprop.md) ou [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivement.</span><span class="sxs-lookup"><span data-stu-id="0d41d-116">Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="67f9a-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="67f9a-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0d41d-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0d41d-117">See also</span></span>
 
-- [<span data-ttu-id="67f9a-118">À propos de l'API de gestion de compte</span><span class="sxs-lookup"><span data-stu-id="67f9a-118">About the Account Management API</span></span>](about-the-account-management-api.md) 
-- [<span data-ttu-id="67f9a-119">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="67f9a-119">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="0d41d-118">À propos de l'API de gestion de compte</span><span class="sxs-lookup"><span data-stu-id="0d41d-118">About the Account Management API</span></span>](about-the-account-management-api.md) 
+- [<span data-ttu-id="0d41d-119">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="0d41d-119">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

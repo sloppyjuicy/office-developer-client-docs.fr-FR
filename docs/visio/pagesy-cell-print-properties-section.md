@@ -10,32 +10,32 @@ localization_priority: Normal
 ms.assetid: 396a0f3e-dbbb-3f5b-3c5d-f7dd454a765f
 description: Détermine le nombre de pages d'impression sur lesquelles ajuster verticalement la page de dessin.
 ms.openlocfilehash: 43d4081439525c516d3da28b6c0e46e9273d85c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339976"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429781"
 ---
-# <a name="pagesy-cell-print-properties-section"></a><span data-ttu-id="d60bc-103">PagesY, cellule (section Print Properties)</span><span class="sxs-lookup"><span data-stu-id="d60bc-103">PagesY Cell (Print Properties Section)</span></span>
+# <a name="pagesy-cell-print-properties-section"></a><span data-ttu-id="6438d-103">PagesY, cellule (section Print Properties)</span><span class="sxs-lookup"><span data-stu-id="6438d-103">PagesY Cell (Print Properties Section)</span></span>
 
-<span data-ttu-id="d60bc-104">Détermine le nombre de pages d'impression sur lesquelles ajuster verticalement la page de dessin.</span><span class="sxs-lookup"><span data-stu-id="d60bc-104">Determines the number of printer pages on which to fit the drawing page vertically.</span></span> 
+<span data-ttu-id="6438d-104">Détermine le nombre de pages d'impression sur lesquelles ajuster verticalement la page de dessin.</span><span class="sxs-lookup"><span data-stu-id="6438d-104">Determines the number of printer pages on which to fit the drawing page vertically.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="d60bc-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="d60bc-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6438d-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="6438d-105">Remarks</span></span>
 
-<span data-ttu-id="d60bc-106">Cette valeur n'est utilisée que lorsque la cellule OnPage est définie sur TRUE.</span><span class="sxs-lookup"><span data-stu-id="d60bc-106">This value is used only when the OnPage cell is set to TRUE.</span></span> 
+<span data-ttu-id="6438d-106">Cette valeur n'est utilisée que lorsque la cellule OnPage est définie sur TRUE.</span><span class="sxs-lookup"><span data-stu-id="6438d-106">This value is used only when the OnPage cell is set to TRUE.</span></span> 
   
-<span data-ttu-id="d60bc-107">Pour obtenir une référence à la cellule PagesY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="d60bc-107">To get a reference to the PagesY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="6438d-107">Pour obtenir une référence à la cellule PagesY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="6438d-107">To get a reference to the PagesY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d60bc-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d60bc-108">Cell name:</span></span>  <br/> | <span data-ttu-id="d60bc-109">PagesY</span><span class="sxs-lookup"><span data-stu-id="d60bc-109">PagesY</span></span>  <br/> |
+| <span data-ttu-id="6438d-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="6438d-108">Cell name:</span></span>  <br/> | <span data-ttu-id="6438d-109">PagesY</span><span class="sxs-lookup"><span data-stu-id="6438d-109">PagesY</span></span>  <br/> |
    
-<span data-ttu-id="d60bc-110">Pour obtenir une référence à la cellule PagesY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="d60bc-110">To get a reference to the PagesY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="6438d-110">Pour obtenir une référence à la cellule PagesY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="6438d-110">To get a reference to the PagesY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d60bc-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="d60bc-111">Section index:</span></span>  <br/> |<span data-ttu-id="d60bc-112">**Définis**</span><span class="sxs-lookup"><span data-stu-id="d60bc-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="d60bc-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="d60bc-113">Row index:</span></span>  <br/> |<span data-ttu-id="d60bc-114">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="d60bc-114">**visRowPrintProperties**</span></span> <br/> |
-| <span data-ttu-id="d60bc-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d60bc-115">Cell index:</span></span>  <br/> |<span data-ttu-id="d60bc-116">**visPrintPropertiesPagesY**</span><span class="sxs-lookup"><span data-stu-id="d60bc-116">**visPrintPropertiesPagesY**</span></span> <br/> |
+| <span data-ttu-id="6438d-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="6438d-111">Section index:</span></span>  <br/> |<span data-ttu-id="6438d-112">**Définis**</span><span class="sxs-lookup"><span data-stu-id="6438d-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="6438d-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="6438d-113">Row index:</span></span>  <br/> |<span data-ttu-id="6438d-114">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="6438d-114">**visRowPrintProperties**</span></span> <br/> |
+| <span data-ttu-id="6438d-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="6438d-115">Cell index:</span></span>  <br/> |<span data-ttu-id="6438d-116">**visPrintPropertiesPagesY**</span><span class="sxs-lookup"><span data-stu-id="6438d-116">**visPrintPropertiesPagesY**</span></span> <br/> |
    
 
