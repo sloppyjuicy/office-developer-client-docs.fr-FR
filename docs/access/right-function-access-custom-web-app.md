@@ -8,28 +8,28 @@ localization_priority: Normal
 ms.assetid: 74cefaa2-3ac4-4a65-af0b-2ee4d9644a93
 description: Renvoie la partie droite d'une chaîne de caractères avec le nombre spécifié de caractères.
 ms.openlocfilehash: eb87f6d238802a950a4858bae942f75fdefc1d5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310926"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439953"
 ---
-# <a name="right-function-access-custom-web-app"></a><span data-ttu-id="93de0-103">Fonction Right (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="93de0-103">Right Function (Access custom web app)</span></span>
+# <a name="right-function-access-custom-web-app"></a><span data-ttu-id="01908-103">Fonction Right (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="01908-103">Right Function (Access custom web app)</span></span>
 
-<span data-ttu-id="93de0-104">Renvoie la partie droite d'une chaîne de caractères avec le nombre spécifié de caractères.</span><span class="sxs-lookup"><span data-stu-id="93de0-104">Returns the right part of a character string with the specified number of characters.</span></span>
+<span data-ttu-id="01908-104">Renvoie la partie droite d'une chaîne de caractères avec le nombre spécifié de caractères.</span><span class="sxs-lookup"><span data-stu-id="01908-104">Returns the right part of a character string with the specified number of characters.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="93de0-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="93de0-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="01908-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="01908-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="93de0-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="93de0-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="01908-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="01908-107">Syntax</span></span>
 
- <span data-ttu-id="93de0-108">À **droite** (*TextExpression*, *longueur*)</span><span class="sxs-lookup"><span data-stu-id="93de0-108">**Right** (*TextExpression*, *Length*)</span></span> 
+ <span data-ttu-id="01908-108">À **droite** (*TextExpression*, *longueur*)</span><span class="sxs-lookup"><span data-stu-id="01908-108">**Right** (*TextExpression*, *Length*)</span></span> 
   
-<span data-ttu-id="93de0-109">La fonction **Right** contient les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="93de0-109">The **Right** function contains the following arguments.</span></span> 
+<span data-ttu-id="01908-109">La fonction **Right** contient les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="01908-109">The **Right** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="93de0-110">**Nom de l’argument**</span><span class="sxs-lookup"><span data-stu-id="93de0-110">**Argument name**</span></span>|<span data-ttu-id="93de0-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="93de0-111">**Description**</span></span>|
+|<span data-ttu-id="01908-110">**Nom de l’argument**</span><span class="sxs-lookup"><span data-stu-id="01908-110">**Argument name**</span></span>|<span data-ttu-id="01908-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="01908-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="93de0-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="93de0-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="93de0-113">Expression de texte.</span><span class="sxs-lookup"><span data-stu-id="93de0-113">A text expression.</span></span>  <br/> |
-| <span data-ttu-id="93de0-114">*Length*</span><span class="sxs-lookup"><span data-stu-id="93de0-114">*Length*</span></span>  <br/> |<span data-ttu-id="93de0-115">Est un entier positif qui spécifie le nombre de caractères de l' *TextExpression* renvoyés.</span><span class="sxs-lookup"><span data-stu-id="93de0-115">Is a positive integer that specifies how many characters of the  *TextExpression*  are returned.</span></span>  <br/> |
+| <span data-ttu-id="01908-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="01908-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="01908-113">Expression de texte.</span><span class="sxs-lookup"><span data-stu-id="01908-113">A text expression.</span></span>  <br/> |
+| <span data-ttu-id="01908-114">*Length*</span><span class="sxs-lookup"><span data-stu-id="01908-114">*Length*</span></span>  <br/> |<span data-ttu-id="01908-115">Est un entier positif qui spécifie le nombre de caractères de l' *TextExpression* renvoyés.</span><span class="sxs-lookup"><span data-stu-id="01908-115">Is a positive integer that specifies how many characters of the  *TextExpression*  are returned.</span></span>  <br/> |
    
 
