@@ -10,32 +10,32 @@ localization_priority: Normal
 ms.assetid: b88588a2-c651-7eab-9c7a-ed78f20d1ba3
 description: Cellule Event qui est évaluée lorsque la position ou l'orientation d'une forme sur la page est modifiée (XF).
 ms.openlocfilehash: c4ed4ddd9b255a9a52fc81349b514dbd25772c98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350973"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418532"
 ---
-# <a name="eventxfmod-cell-events-section"></a><span data-ttu-id="4b872-103">EventXFMod, cellule (section Events)</span><span class="sxs-lookup"><span data-stu-id="4b872-103">EventXFMod Cell (Events Section)</span></span>
+# <a name="eventxfmod-cell-events-section"></a><span data-ttu-id="5c6d9-103">EventXFMod, cellule (section Events)</span><span class="sxs-lookup"><span data-stu-id="5c6d9-103">EventXFMod Cell (Events Section)</span></span>
 
-<span data-ttu-id="4b872-104">Cellule Event qui est évaluée lorsque la position ou l'orientation d'une forme sur la page est modifiée (« XF »).</span><span class="sxs-lookup"><span data-stu-id="4b872-104">An event cell that is evaluated when a shape's position or orientation on the page is transformed ("XF").</span></span>
+<span data-ttu-id="5c6d9-104">Cellule Event qui est évaluée lorsque la position ou l'orientation d'une forme sur la page est modifiée (« XF »).</span><span class="sxs-lookup"><span data-stu-id="5c6d9-104">An event cell that is evaluated when a shape's position or orientation on the page is transformed ("XF").</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4b872-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="4b872-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5c6d9-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="5c6d9-105">Remarks</span></span>
 
-<span data-ttu-id="4b872-106">Les cellules Event ne sont évaluées que lorsque l'événement se produit, et non lors de l'entrée de la formule.</span><span class="sxs-lookup"><span data-stu-id="4b872-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
+<span data-ttu-id="5c6d9-106">Les cellules Event ne sont évaluées que lorsque l'événement se produit, et non lors de l'entrée de la formule.</span><span class="sxs-lookup"><span data-stu-id="5c6d9-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
   
-<span data-ttu-id="4b872-107">Pour obtenir une référence à la cellule EventXFMod par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="4b872-107">To get a reference to the EventXFMod cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="5c6d9-107">Pour obtenir une référence à la cellule EventXFMod par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="5c6d9-107">To get a reference to the EventXFMod cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="4b872-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="4b872-108">Cell name:</span></span>  <br/> | <span data-ttu-id="4b872-109">EventXFMod</span><span class="sxs-lookup"><span data-stu-id="4b872-109">EventXFMod</span></span>  <br/> |
+| <span data-ttu-id="5c6d9-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="5c6d9-108">Cell name:</span></span>  <br/> | <span data-ttu-id="5c6d9-109">EventXFMod</span><span class="sxs-lookup"><span data-stu-id="5c6d9-109">EventXFMod</span></span>  <br/> |
    
-<span data-ttu-id="4b872-110">Pour obtenir une référence à la cellule Event XFMod à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="4b872-110">To get a reference to the EventXFMod cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="5c6d9-110">Pour obtenir une référence à la cellule Event XFMod à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="5c6d9-110">To get a reference to the EventXFMod cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="4b872-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="4b872-111">Section index:</span></span>  <br/> |<span data-ttu-id="4b872-112">**Définis**</span><span class="sxs-lookup"><span data-stu-id="4b872-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="4b872-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="4b872-113">Row index:</span></span>  <br/> |<span data-ttu-id="4b872-114">**visRowEvent**</span><span class="sxs-lookup"><span data-stu-id="4b872-114">**visRowEvent**</span></span> <br/> |
-| <span data-ttu-id="4b872-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="4b872-115">Cell index:</span></span>  <br/> |<span data-ttu-id="4b872-116">**visEvtCellXFMod**</span><span class="sxs-lookup"><span data-stu-id="4b872-116">**visEvtCellXFMod**</span></span> <br/> |
+| <span data-ttu-id="5c6d9-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="5c6d9-111">Section index:</span></span>  <br/> |<span data-ttu-id="5c6d9-112">**Définis**</span><span class="sxs-lookup"><span data-stu-id="5c6d9-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="5c6d9-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="5c6d9-113">Row index:</span></span>  <br/> |<span data-ttu-id="5c6d9-114">**visRowEvent**</span><span class="sxs-lookup"><span data-stu-id="5c6d9-114">**visRowEvent**</span></span> <br/> |
+| <span data-ttu-id="5c6d9-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="5c6d9-115">Cell index:</span></span>  <br/> |<span data-ttu-id="5c6d9-116">**visEvtCellXFMod**</span><span class="sxs-lookup"><span data-stu-id="5c6d9-116">**visEvtCellXFMod**</span></span> <br/> |
    
 

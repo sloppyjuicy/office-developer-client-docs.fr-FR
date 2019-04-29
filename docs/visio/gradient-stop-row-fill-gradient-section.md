@@ -8,22 +8,22 @@ localization_priority: Normal
 ms.assetid: 774c29fa-5515-4c67-9bb3-1387f4bb20a7
 description: Contient la couleur, la transparence et la position d'un point de dégradé pour un dégradé de remplissage.
 ms.openlocfilehash: 0d4b4c4ef0c2cd35e781d15dd5dbd0240ab07d27
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360199"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412904"
 ---
-# <a name="gradient-stop-row-fill-gradient-section"></a><span data-ttu-id="4523a-103">Gradient Stop Row (Fill Gradient Section)</span><span class="sxs-lookup"><span data-stu-id="4523a-103">Gradient Stop Row (Fill Gradient Section)</span></span>
+# <a name="gradient-stop-row-fill-gradient-section"></a><span data-ttu-id="dcdad-103">Gradient Stop Row (Fill Gradient Section)</span><span class="sxs-lookup"><span data-stu-id="dcdad-103">Gradient Stop Row (Fill Gradient Section)</span></span>
 
-<span data-ttu-id="4523a-104">Contient la couleur, la transparence et la position d'un point de dégradé pour un dégradé de remplissage.</span><span class="sxs-lookup"><span data-stu-id="4523a-104">Contains the color, transparency, and position of a gradient stop for a fill gradient.</span></span>
+<span data-ttu-id="dcdad-104">Contient la couleur, la transparence et la position d'un point de dégradé pour un dégradé de remplissage.</span><span class="sxs-lookup"><span data-stu-id="dcdad-104">Contains the color, transparency, and position of a gradient stop for a fill gradient.</span></span>
   
-<span data-ttu-id="4523a-105">Une ligne de **point de dégradé** contient les cellules suivantes.</span><span class="sxs-lookup"><span data-stu-id="4523a-105">A **Gradient Stop** row contains the following cells.</span></span> 
+<span data-ttu-id="dcdad-105">Une ligne de **point de dégradé** contient les cellules suivantes.</span><span class="sxs-lookup"><span data-stu-id="dcdad-105">A **Gradient Stop** row contains the following cells.</span></span> 
   
-|<span data-ttu-id="4523a-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="4523a-106">**Cell**</span></span>|<span data-ttu-id="4523a-107">**Description**</span><span class="sxs-lookup"><span data-stu-id="4523a-107">**Description**</span></span>|
+|<span data-ttu-id="dcdad-106">**Cellule**</span><span class="sxs-lookup"><span data-stu-id="dcdad-106">**Cell**</span></span>|<span data-ttu-id="dcdad-107">**Description**</span><span class="sxs-lookup"><span data-stu-id="dcdad-107">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="4523a-108">**Color**</span><span class="sxs-lookup"><span data-stu-id="4523a-108">**Color**</span></span> <br/> |<span data-ttu-id="4523a-109">Valeur de couleur du point de dégradé.</span><span class="sxs-lookup"><span data-stu-id="4523a-109">The color value of the gradient stop.</span></span> <span data-ttu-id="4523a-110">Cette valeur peut être exprimée sous la forme d'un numéro d'index d'une couleur dans la palette de document ou à l'aide des fonctions [RGB](rgb-function-visioshapesheet.md), [THEMEVAL](themeval-function.md)ou [TSL](hsl-function.md) (par exemple).</span><span class="sxs-lookup"><span data-stu-id="4523a-110">This value can be expressed as the index number of a color in the document palette or by using the [RGB](rgb-function-visioshapesheet.md), [THEMEVAL](themeval-function.md), or [HSL](hsl-function.md) functions (for example).</span></span>  <br/> |
-|<span data-ttu-id="4523a-111">**ColorTrans**</span><span class="sxs-lookup"><span data-stu-id="4523a-111">**ColorTrans**</span></span> <br/> |<span data-ttu-id="4523a-112">Quantité de transparence de la couleur de dégradé, sous la forme d'un pourcentage.</span><span class="sxs-lookup"><span data-stu-id="4523a-112">The amount of transparency of the gradient color, as a percentage.</span></span>  <br/> |
-|<span data-ttu-id="4523a-113">**Position**</span><span class="sxs-lookup"><span data-stu-id="4523a-113">**Position**</span></span> <br/> |<span data-ttu-id="4523a-114">Position du point de dégradé le long de la direction du dégradé de remplissage, sous la forme d'un pourcentage entre le point d'origine du dégradé et le bord de la zone du remplissage.</span><span class="sxs-lookup"><span data-stu-id="4523a-114">The position of the gradient stop along the direction of the fill gradient, as a percentage from the point of origin of the gradient to the edge of the area of the fill.</span></span>  <br/> |
+|<span data-ttu-id="dcdad-108">**Color**</span><span class="sxs-lookup"><span data-stu-id="dcdad-108">**Color**</span></span> <br/> |<span data-ttu-id="dcdad-109">Valeur de couleur du point de dégradé.</span><span class="sxs-lookup"><span data-stu-id="dcdad-109">The color value of the gradient stop.</span></span> <span data-ttu-id="dcdad-110">Cette valeur peut être exprimée sous la forme d'un numéro d'index d'une couleur dans la palette de document ou à l'aide des fonctions [RGB](rgb-function-visioshapesheet.md), [THEMEVAL](themeval-function.md)ou [TSL](hsl-function.md) (par exemple).</span><span class="sxs-lookup"><span data-stu-id="dcdad-110">This value can be expressed as the index number of a color in the document palette or by using the [RGB](rgb-function-visioshapesheet.md), [THEMEVAL](themeval-function.md), or [HSL](hsl-function.md) functions (for example).</span></span>  <br/> |
+|<span data-ttu-id="dcdad-111">**ColorTrans**</span><span class="sxs-lookup"><span data-stu-id="dcdad-111">**ColorTrans**</span></span> <br/> |<span data-ttu-id="dcdad-112">Quantité de transparence de la couleur de dégradé, sous la forme d'un pourcentage.</span><span class="sxs-lookup"><span data-stu-id="dcdad-112">The amount of transparency of the gradient color, as a percentage.</span></span>  <br/> |
+|<span data-ttu-id="dcdad-113">**Position**</span><span class="sxs-lookup"><span data-stu-id="dcdad-113">**Position**</span></span> <br/> |<span data-ttu-id="dcdad-114">Position du point de dégradé le long de la direction du dégradé de remplissage, sous la forme d'un pourcentage entre le point d'origine du dégradé et le bord de la zone du remplissage.</span><span class="sxs-lookup"><span data-stu-id="dcdad-114">The position of the gradient stop along the direction of the fill gradient, as a percentage from the point of origin of the gradient to the edge of the area of the fill.</span></span>  <br/> |
    
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7ea282d7-388a-4f05-9780-f8dbc5c5d395
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: cc4de8aa21d4b3b27bf757389b663ebeff69a9cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321377"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420737"
 ---
-# <a name="imapimessagesitegetlasterror"></a><span data-ttu-id="f45a5-103">IMAPIMessageSite::GetLastError</span><span class="sxs-lookup"><span data-stu-id="f45a5-103">IMAPIMessageSite::GetLastError</span></span>
+# <a name="imapimessagesitegetlasterror"></a><span data-ttu-id="c90f0-103">IMAPIMessageSite::GetLastError</span><span class="sxs-lookup"><span data-stu-id="c90f0-103">IMAPIMessageSite::GetLastError</span></span>
 
   
   
-<span data-ttu-id="f45a5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f45a5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c90f0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c90f0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f45a5-105">Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente qui s'est produite dans l'objet de site de message.</span><span class="sxs-lookup"><span data-stu-id="f45a5-105">Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring to the message site object.</span></span> 
+<span data-ttu-id="c90f0-105">Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente qui s'est produite dans l'objet de site de message.</span><span class="sxs-lookup"><span data-stu-id="c90f0-105">Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring to the message site object.</span></span> 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,49 +35,49 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f45a5-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="f45a5-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c90f0-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c90f0-106">Parameters</span></span>
 
- <span data-ttu-id="f45a5-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="f45a5-107">_hResult_</span></span>
+ <span data-ttu-id="c90f0-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="c90f0-107">_hResult_</span></span>
   
-> <span data-ttu-id="f45a5-108">dans HRESULT qui contient la valeur d'erreur générée lors de l'appel de la méthode précédente.</span><span class="sxs-lookup"><span data-stu-id="f45a5-108">[in] An HRESULT that contains the error value generated in the previous method call.</span></span>
+> <span data-ttu-id="c90f0-108">dans HRESULT qui contient la valeur d'erreur générée lors de l'appel de la méthode précédente.</span><span class="sxs-lookup"><span data-stu-id="c90f0-108">[in] An HRESULT that contains the error value generated in the previous method call.</span></span>
     
- <span data-ttu-id="f45a5-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="f45a5-109">_ulFlags_</span></span>
+ <span data-ttu-id="c90f0-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c90f0-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="f45a5-110">dans Masque de des indicateurs qui contrôle le type de chaînes renvoyées.</span><span class="sxs-lookup"><span data-stu-id="f45a5-110">[in] A bitmask of flags that controls the type of strings returned.</span></span> <span data-ttu-id="f45a5-111">L'indicateur suivant peut être défini:</span><span class="sxs-lookup"><span data-stu-id="f45a5-111">The following flag can be set:</span></span>
+> <span data-ttu-id="c90f0-110">dans Masque de des indicateurs qui contrôle le type de chaînes renvoyées.</span><span class="sxs-lookup"><span data-stu-id="c90f0-110">[in] A bitmask of flags that controls the type of strings returned.</span></span> <span data-ttu-id="c90f0-111">L'indicateur suivant peut être défini:</span><span class="sxs-lookup"><span data-stu-id="c90f0-111">The following flag can be set:</span></span>
     
-<span data-ttu-id="f45a5-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f45a5-112">MAPI_UNICODE</span></span> 
+<span data-ttu-id="c90f0-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="c90f0-112">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="f45a5-113">Les chaînes de la structure **MAPIERROR** renvoyées dans le paramètre _lppMAPIError_ sont au format Unicode.</span><span class="sxs-lookup"><span data-stu-id="f45a5-113">The strings in the **MAPIERROR** structure returned in the  _lppMAPIError_ parameter are in Unicode format.</span></span> <span data-ttu-id="f45a5-114">Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.</span><span class="sxs-lookup"><span data-stu-id="f45a5-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span> 
+> <span data-ttu-id="c90f0-113">Les chaînes de la structure **MAPIERROR** renvoyées dans le paramètre _lppMAPIError_ sont au format Unicode.</span><span class="sxs-lookup"><span data-stu-id="c90f0-113">The strings in the **MAPIERROR** structure returned in the  _lppMAPIError_ parameter are in Unicode format.</span></span> <span data-ttu-id="c90f0-114">Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.</span><span class="sxs-lookup"><span data-stu-id="c90f0-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span> 
     
- <span data-ttu-id="f45a5-115">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="f45a5-115">_lppMAPIError_</span></span>
+ <span data-ttu-id="c90f0-115">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="c90f0-115">_lppMAPIError_</span></span>
   
-> <span data-ttu-id="f45a5-116">remarquer Pointeur vers un pointeur vers la structure **MAPIERROR** renvoyée qui contient les informations de version, de composant et de contexte pour l'erreur.</span><span class="sxs-lookup"><span data-stu-id="f45a5-116">[out] A pointer to a pointer to the returned **MAPIERROR** structure that contains version, component, and context information for the error.</span></span> <span data-ttu-id="f45a5-117">Ce paramètre peut être défini sur NULL s'il n'existe aucune structure **MAPIERROR** à renvoyer.</span><span class="sxs-lookup"><span data-stu-id="f45a5-117">This parameter can be set to NULL if there is no **MAPIERROR** structure to return.</span></span> 
+> <span data-ttu-id="c90f0-116">remarquer Pointeur vers un pointeur vers la structure **MAPIERROR** renvoyée qui contient les informations de version, de composant et de contexte pour l'erreur.</span><span class="sxs-lookup"><span data-stu-id="c90f0-116">[out] A pointer to a pointer to the returned **MAPIERROR** structure that contains version, component, and context information for the error.</span></span> <span data-ttu-id="c90f0-117">Ce paramètre peut être défini sur NULL s'il n'existe aucune structure **MAPIERROR** à renvoyer.</span><span class="sxs-lookup"><span data-stu-id="c90f0-117">This parameter can be set to NULL if there is no **MAPIERROR** structure to return.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="f45a5-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="f45a5-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c90f0-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c90f0-118">Return value</span></span>
 
-<span data-ttu-id="f45a5-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="f45a5-119">S_OK</span></span>
+<span data-ttu-id="c90f0-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="c90f0-119">S_OK</span></span>
   
-> <span data-ttu-id="f45a5-120">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="f45a5-120">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="c90f0-120">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="c90f0-120">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="f45a5-121">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="f45a5-121">MAPI_E_BAD_CHARWIDTH</span></span>
+<span data-ttu-id="c90f0-121">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="c90f0-121">MAPI_E_BAD_CHARWIDTH</span></span>
   
-> <span data-ttu-id="f45a5-122">L'indicateur MAPI_UNICODE a été défini et **GetLastError** ne prend pas en charge Unicode, ou MAPI_UNICODE n'était pas défini et **GetLastError** prend en charge uniquement Unicode.</span><span class="sxs-lookup"><span data-stu-id="f45a5-122">Either the MAPI_UNICODE flag was set and **GetLastError** does not support Unicode, or MAPI_UNICODE was not set and **GetLastError** supports only Unicode.</span></span> 
+> <span data-ttu-id="c90f0-122">L'indicateur MAPI_UNICODE a été défini et **GetLastError** ne prend pas en charge Unicode, ou MAPI_UNICODE n'était pas défini et **GetLastError** prend en charge uniquement Unicode.</span><span class="sxs-lookup"><span data-stu-id="c90f0-122">Either the MAPI_UNICODE flag was set and **GetLastError** does not support Unicode, or MAPI_UNICODE was not set and **GetLastError** supports only Unicode.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="f45a5-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="f45a5-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c90f0-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="c90f0-123">Remarks</span></span>
 
-<span data-ttu-id="f45a5-124">La méthode **IMAPIMessageSite:: GetLastError** fournit des informations sur un appel de méthode précédent qui a échoué.</span><span class="sxs-lookup"><span data-stu-id="f45a5-124">The **IMAPIMessageSite::GetLastError** method supplies information about a prior method call that failed.</span></span> <span data-ttu-id="f45a5-125">Les appelants peuvent fournir à leurs utilisateurs des informations détaillées sur l'erreur en incluant les données de la structure **MAPIERROR** dans une boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="f45a5-125">Callers can provide their users with detailed information about the error by including the data from the **MAPIERROR** structure in a dialog box.</span></span> 
+<span data-ttu-id="c90f0-124">La méthode **IMAPIMessageSite:: GetLastError** fournit des informations sur un appel de méthode précédent qui a échoué.</span><span class="sxs-lookup"><span data-stu-id="c90f0-124">The **IMAPIMessageSite::GetLastError** method supplies information about a prior method call that failed.</span></span> <span data-ttu-id="c90f0-125">Les appelants peuvent fournir à leurs utilisateurs des informations détaillées sur l'erreur en incluant les données de la structure **MAPIERROR** dans une boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="c90f0-125">Callers can provide their users with detailed information about the error by including the data from the **MAPIERROR** structure in a dialog box.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="f45a5-126">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="f45a5-126">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="c90f0-126">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="c90f0-126">Notes to callers</span></span>
 
-<span data-ttu-id="f45a5-127">Vous pouvez utiliser la structure **MAPIERROR** vers laquelle pointe le paramètre _lppMAPIError_ si MAPI en fournit un uniquement si **GetLastError** renvoie S_OK.</span><span class="sxs-lookup"><span data-stu-id="f45a5-127">You can make use of the **MAPIERROR** structure pointed to by the  _lppMAPIError_ parameter if MAPI supplies one only if **GetLastError** returns S_OK.</span></span> <span data-ttu-id="f45a5-128">Parfois, MAPI ne peut pas déterminer la dernière erreur ou n'a rien d'autre pour signaler l'erreur.</span><span class="sxs-lookup"><span data-stu-id="f45a5-128">Sometimes MAPI cannot determine what the last error was, or has nothing more to report about the error.</span></span> <span data-ttu-id="f45a5-129">Dans ce cas, un pointeur vers une valeur NULL est renvoyé dans _lppMAPIError_ à la place.</span><span class="sxs-lookup"><span data-stu-id="f45a5-129">In this situation, a pointer to NULL is returned in  _lppMAPIError_ instead.</span></span> 
+<span data-ttu-id="c90f0-127">Vous pouvez utiliser la structure **MAPIERROR** vers laquelle pointe le paramètre _lppMAPIError_ si MAPI en fournit un uniquement si **GetLastError** renvoie S_OK.</span><span class="sxs-lookup"><span data-stu-id="c90f0-127">You can make use of the **MAPIERROR** structure pointed to by the  _lppMAPIError_ parameter if MAPI supplies one only if **GetLastError** returns S_OK.</span></span> <span data-ttu-id="c90f0-128">Parfois, MAPI ne peut pas déterminer la dernière erreur ou n'a rien d'autre pour signaler l'erreur.</span><span class="sxs-lookup"><span data-stu-id="c90f0-128">Sometimes MAPI cannot determine what the last error was, or has nothing more to report about the error.</span></span> <span data-ttu-id="c90f0-129">Dans ce cas, un pointeur vers une valeur NULL est renvoyé dans _lppMAPIError_ à la place.</span><span class="sxs-lookup"><span data-stu-id="c90f0-129">In this situation, a pointer to NULL is returned in  _lppMAPIError_ instead.</span></span> 
   
-<span data-ttu-id="f45a5-130">Pour plus d'informations sur la méthode **GetLastError** , consultez la rubrique [utilisation d'erreurs étendues](mapi-extended-errors.md).</span><span class="sxs-lookup"><span data-stu-id="f45a5-130">For more information about the **GetLastError** method, see [Using Extended Errors](mapi-extended-errors.md).</span></span>
+<span data-ttu-id="c90f0-130">Pour plus d'informations sur la méthode **GetLastError** , consultez la rubrique [utilisation d'erreurs étendues](mapi-extended-errors.md).</span><span class="sxs-lookup"><span data-stu-id="c90f0-130">For more information about the **GetLastError** method, see [Using Extended Errors](mapi-extended-errors.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="f45a5-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f45a5-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c90f0-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c90f0-131">See also</span></span>
 
 
 
-[<span data-ttu-id="f45a5-132">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="f45a5-132">MAPIERROR</span></span>](mapierror.md)
+[<span data-ttu-id="c90f0-132">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="c90f0-132">MAPIERROR</span></span>](mapierror.md)
   
-[<span data-ttu-id="f45a5-133">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f45a5-133">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
+[<span data-ttu-id="c90f0-133">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c90f0-133">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
 

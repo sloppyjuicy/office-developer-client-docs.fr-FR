@@ -9,24 +9,24 @@ localization_priority: Normal
 ms.assetid: 0b0c185e-eb41-417f-bfee-aeb6f0475866
 description: Cette section fournit des informations sur l'utilisation de modèles de formulaire compatibles avec le navigateur qui seront déployés sur Microsoft SharePoint Server 2010 avec InfoPath Forms Services.
 ms.openlocfilehash: a53aa12593033f4df0acc48dbc6197f096765365
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303156"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418252"
 ---
-# <a name="working-with-sharepoint-and-infopath-forms-services"></a><span data-ttu-id="1336b-104">Utilisation des services de formulaires InfoPath et SharePoint</span><span class="sxs-lookup"><span data-stu-id="1336b-104">Working with SharePoint and InfoPath Forms Services</span></span>
+# <a name="working-with-sharepoint-and-infopath-forms-services"></a><span data-ttu-id="0a082-104">Utilisation des services de formulaires InfoPath et SharePoint</span><span class="sxs-lookup"><span data-stu-id="0a082-104">Working with SharePoint and InfoPath Forms Services</span></span>
 
-<span data-ttu-id="1336b-105">Cette section fournit des informations sur l'utilisation de modèles de formulaire compatibles avec le navigateur qui seront déployés sur Microsoft SharePoint Server 2010 avec InfoPath Forms Services.</span><span class="sxs-lookup"><span data-stu-id="1336b-105">This section provides information about working with browser-compatible form templates that will be deployed to Microsoft SharePoint Server 2010 with InfoPath Forms Services.</span></span>
+<span data-ttu-id="0a082-105">Cette section fournit des informations sur l'utilisation de modèles de formulaire compatibles avec le navigateur qui seront déployés sur Microsoft SharePoint Server 2010 avec InfoPath Forms Services.</span><span class="sxs-lookup"><span data-stu-id="0a082-105">This section provides information about working with browser-compatible form templates that will be deployed to Microsoft SharePoint Server 2010 with InfoPath Forms Services.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="1336b-106">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="1336b-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0a082-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="0a082-106">In this section</span></span>
 
-[<span data-ttu-id="1336b-107">Création de modèles de formulaires InfoPath fonctionnant avec InfoPath Forms Services</span><span class="sxs-lookup"><span data-stu-id="1336b-107">Creating InfoPath Form Templates That Work With InfoPath Forms Services</span></span>](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
+[<span data-ttu-id="0a082-107">Création de modèles de formulaires InfoPath fonctionnant avec InfoPath Forms Services</span><span class="sxs-lookup"><span data-stu-id="0a082-107">Creating InfoPath Form Templates That Work With InfoPath Forms Services</span></span>](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
   
-> <span data-ttu-id="1336b-108">Décrit les commandes, les fonctionnalités et les membres du modèle objet pris en charge pour le modèle de formulaire compatible avec le navigateur, déployé sur InfoPath Forms Services.</span><span class="sxs-lookup"><span data-stu-id="1336b-108">Describes what controls, features, and object model members are supported for browser-compatible form template deployed to InfoPath Forms Services.</span></span>
+> <span data-ttu-id="0a082-108">Décrit les commandes, les fonctionnalités et les membres du modèle objet pris en charge pour le modèle de formulaire compatible avec le navigateur, déployé sur InfoPath Forms Services.</span><span class="sxs-lookup"><span data-stu-id="0a082-108">Describes what controls, features, and object model members are supported for browser-compatible form template deployed to InfoPath Forms Services.</span></span>
     
-[<span data-ttu-id="1336b-109">Prise en charge des flux de travail SharePoint dans les formulaires InfoPath</span><span class="sxs-lookup"><span data-stu-id="1336b-109">SharePoint Workflow Support in InfoPath Forms</span></span>](sharepoint-workflow-support-in-infopath-forms.md)
+[<span data-ttu-id="0a082-109">Prise en charge des flux de travail SharePoint dans les formulaires InfoPath</span><span class="sxs-lookup"><span data-stu-id="0a082-109">SharePoint Workflow Support in InfoPath Forms</span></span>](sharepoint-workflow-support-in-infopath-forms.md)
   
-> <span data-ttu-id="1336b-110">Fournit des liens permettant d'obtenir des informations sur le développement de formulaires InfoPath pour les flux de travail.</span><span class="sxs-lookup"><span data-stu-id="1336b-110">Provides links to information about developing InfoPath forms for workflows.</span></span>
+> <span data-ttu-id="0a082-110">Fournit des liens permettant d'obtenir des informations sur le développement de formulaires InfoPath pour les flux de travail.</span><span class="sxs-lookup"><span data-stu-id="0a082-110">Provides links to information about developing InfoPath forms for workflows.</span></span>
     
 
