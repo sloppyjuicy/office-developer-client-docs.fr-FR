@@ -1,17 +1,17 @@
 ---
 title: Architecture Project Server
 manager: soliver
-ms.date: 09/17/2015
+ms.date: 05/17/2019
 ms.audience: Developer
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 intègre des fonctionnalités de gestion de projet dans une batterie de serveurs SharePoint et autorise l’utilisation de Project Online avec un modèle objet client (CSOM) et une interface OData pour les données de création de rapports.
 localization_priority: Priority
-ms.openlocfilehash: db4dd0eed9c043021f586041fa0e28708fdbd243
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fd940c9ae74e04587cdfa83354b6ee71da21073c
+ms.sourcegitcommit: e2cff03cb13d6c500942897b234db00476a72f18
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301593"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100894"
 ---
 # <a name="project-server-architecture"></a>Architecture Project Server
 
@@ -226,7 +226,7 @@ Les entités logiques telles que les ressources et les projets peuvent être sit
   
 Les données Project Server pour chaque instance de Project Web App sont stockées dans une base de données Project distincte sous un autre nom. Les applications clientes qui ont un accès direct à Project Server peuvent lire directement les tables et vues de création de rapports. Pour un accès à distance, les applications clientes peuvent utiliser l’interface OData et l’interface REST pour obtenir des données pour les rapports. Les clients doivent utiliser uniquement le modèle CSOM ou l’interface PSI pour accéder aux vues et tables provisoires, publiées et archivées. Le service de données de création de rapports (RDS, qui n’apparaît pas dans la figure 3) met à jour les données de création de rapports provenant des données publiées pratiquement en temps réel. La base de données Project peut se trouver sur un serveur distinct.
   
-Les schémas sont documentés uniquement pour les tables et vues de création de rapports. Pour une installation de Project Server locale, vous pouvez ajouter des tables et des vues de création de rapports pour des entités non définies dans le schéma de base de données Project. Vous pouvez aussi créer des bases de données distinctes pour des applications locales personnalisées. La modification n’est pas prise en charge pour les tables et les vues provisoires, publiées et archivées. Étant donné que la base de données Project n’est pas directement accessible dans Project Online, les tables et vues de création de rapports ne peuvent pas être modifiées. Toutefois, si vous avez un compte SQL Azure, vous pouvez créer des bases de données distinctes pour une utilisation personnalisée avec Project Online.
+Les schémas sont documentés uniquement pour les tables et vues de création de rapports. Pour une installation de Project Server locale, vous pouvez ajouter des tables et des vues de création de rapports pour des entités non définies dans le schéma de base de données Project. Vous pouvez aussi créer des bases de données distinctes pour des applications locales personnalisées. La modification n’est pas prise en charge pour les tables et les vues provisoires, publiées et archivées. Si votre application ou rapport personnalisé nécessite des objets SQL personnalisés (par exemple, des tables et des vues), nous vous recommandons de créer celles-ci dans une base de données personnalisée. Étant donné que la base de données Project n’est pas directement accessible dans Project Online, les tables et vues de création de rapports ne peuvent pas être modifiées. Toutefois, si vous avez un compte SQL Azure, vous pouvez créer des bases de données distinctes pour une utilisation personnalisée avec Project Online.
   
 ### <a name="event-receivers"></a>Récepteurs d’événements
 <a name="pj15_Architecture_EventHandlers"> </a>
