@@ -1,5 +1,5 @@
 ---
-title: Pages, élément ('Visio XML')
+title: Pages, élément (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
 description: Contient les éléments de page pour le document.
-ms.openlocfilehash: f4062c83f4b017fde7e1d5d4c568f7c9728e3334
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 09feb09e6a01187892ba2756fb1c99dd1ef2f845
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339577"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538976"
 ---
-# <a name="pages-element-visio-xml"></a>Pages, élément ('Visio XML')
+# <a name="pages-element-visio-xml"></a>Pages, élément (Visio XML)
 
 Contient les éléments de page pour le document.
   
@@ -23,7 +23,7 @@ Contient les éléments de page pour le document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |pages. Xml  <br/> |
    

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
 description: The Merge Forms feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form.
-ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f79553f7fdf0b59c77a98fd479e0a307e4f2e6a3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303723"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537800"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>Activation de la fusion personnalisée de formulaires InfoPath
 
@@ -25,7 +25,7 @@ L'agrégation des données qui résulte de la fusion de formulaires peut inclure
     
 ## <a name="creating-a-custom-transform"></a>Création d’une transformation personnalisée
 
-L'opération de fusion par défaut des formulaires fonctionne bien pour les formulaires basés sur le même schéma XML. Dans certains cas, cependant, vous souhaiterez fusionner des formulaires basés sur des schémas différents ou remplacer l'opération de fusion par défaut pour des formulaires qui sont basés sur le même schéma. Pour ces scénarios, vous pouvez créer une transformation XSL qui contient des instructions d'agrégation pour l'opération de fusion. La transformation est appliquée au moment de la fusion pour créer un document DOM qui contient les informations à importer, avec des annotations qui spécifient la façon d'incorporer ces informations dans le document cible. Ces annotations sont des attributs XML dans l'espace de noms  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
+L'opération de fusion par défaut des formulaires fonctionne bien pour les formulaires basés sur le même schéma XML. Dans certains cas, cependant, vous souhaiterez fusionner des formulaires basés sur des schémas différents ou remplacer l'opération de fusion par défaut pour des formulaires qui sont basés sur le même schéma. Pour ces scénarios, vous pouvez créer une transformation XSL qui contient des instructions d'agrégation pour l'opération de fusion. La transformation est appliquée au moment de la fusion pour créer un document DOM qui contient les informations à importer, avec des annotations qui spécifient la façon d'incorporer ces informations dans le document cible. Ces annotations sont des attributs XML dans l'espace de noms  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
   
 Les attributs XML et leurs valeurs servent d'instructions d'agrégation sur la façon dont chaque nœud est fusionné dans le document XML de destination. Ces attributs sont décrits dans les sections suivantes.
   
@@ -70,7 +70,7 @@ Si la valeur de l'attribut **agg:action** est « delete », chacun des élément
  agg:action="delete"/>
 ```
 
-En conjonction avec les attributs spécifiés dans l'espace de noms  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`, vous utilisez l'espace de noms  `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` pour indiquer un objet XSL qui implémente l'interface **IXMLDOMDocument**. La méthode **get-documentElement** est l'un des membres les plus utiles de cette interface.
+En conjonction avec les attributs spécifiés dans l'espace de noms  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`, vous utilisez l'espace de noms  `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` pour indiquer un objet XSL qui implémente l'interface **IXMLDOMDocument**. La méthode **get-documentElement** est l'un des membres les plus utiles de cette interface.
   
 ### <a name="get-documentelement"></a>Get-documentElement
 
@@ -103,9 +103,9 @@ La fonction **target:get-documentElement** fournit l'accès au DOM (Document Obj
     ```XML
         <?xml version="1.0"?> 
         <xsl:stylesheet version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform" 
-        xmlns:agg="https://schemas.microsoft.com/office/infopath/2003/aggregation" 
-        xmlns:target="https://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
-        xmlns:my="https://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
+        xmlns:agg="http://schemas.microsoft.com/office/infopath/2003/aggregation" 
+        xmlns:target="http://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
+        xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
             <xsl:template match="/"> 
                 <xsl:copy> 
                 <xsl:apply-templates select="@* | node()" /> 
@@ -145,13 +145,13 @@ La fonction **target:get-documentElement** fournit l'accès au DOM (Document Obj
         </xsf:file>
     ```
 
-6. La dernière étape de la préparation de votre formulaire pour prendre en charge la fusion personnalisée consiste à mettre à jour l'élément **ImportParameters** dans le fichier. xsf associé au formulaire. 
+6. La dernière étape de la préparation de votre formulaire pour prendre en charge la fusion personnalisée consiste à mettre à jour l’élément **ImportParameters** dans le fichier. xsf associé au formulaire. 
 
-    Tout d'abord, `<xsf:importParameters>` recherchez la balise dans le fichier. xsf. Pour chaque paire schéma/transformation XSL que vous avez créée pour votre formulaire, ajoutez un élément **xsf: importSource** à l'élément **xsf: ImportParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
+    Tout d’abord, `<xsf:importParameters>` recherchez la balise dans le fichier. xsf. Pour chaque paire schéma/transformation XSL que vous avez créée pour votre formulaire, ajoutez un élément **xsf: importSource** à l’élément **xsf: ImportParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
     
-    L'attribut **Name** de l'élément **xsf: importSource** contient le nom du modèle de formulaire qui se trouve dans un document XML source. En règle générale, vous pouvez laisser ce vide. L'attribut **Schema** contient le nom d'un fichier de schéma que vous avez ajouté au modèle de formulaire à l'étape précédente. Enfin, l'attribut **Transform** contient le nom de la transformation XSL que vous souhaitez utiliser pour convertir les formulaires conformes au schéma. 
+    L’attribut **Name** de l’élément **xsf: importSource** contient le nom du modèle de formulaire qui se trouve dans un document XML source. En règle générale, vous pouvez laisser ce vide. L’attribut **Schema** contient le nom d’un fichier de schéma que vous avez ajouté au modèle de formulaire à l’étape précédente. Enfin, l’attribut **Transform** contient le nom de la transformation XSL que vous souhaitez utiliser pour convertir les formulaires conformes au schéma. 
     
-    Vous pouvez utiliser une transformation personnalisée à l'aide de l'événement [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) ou de celle-ci. 
+    Vous pouvez utiliser une transformation personnalisée à l’aide de l’événement [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) ou de celle-ci. 
     
 ## <a name="creating-a-custom-merge-in-code"></a>Création d’une fusion personnalisée dans le code
 

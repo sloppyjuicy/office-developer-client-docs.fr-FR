@@ -1,25 +1,25 @@
 ---
-title: ComplexType Page_Type ('Visio XML')
+title: ComplexType Page_Type (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4bc5c0c4-3ee3-7f63-541a-1f1854d4201c
-ms.openlocfilehash: d0c364164d2453c9dc64290db24890224a3c70e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3a0153b724539136fe142c2489badcf9895af765
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334397"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537982"
 ---
-# <a name="pagetype-complextype-visio-xml"></a>ComplexType Page_Type ('Visio XML')
+# <a name="pagetype-complextype-visio-xml"></a>ComplexType Page_Type (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base d’extension** <br/> |Aucun  <br/> |
    

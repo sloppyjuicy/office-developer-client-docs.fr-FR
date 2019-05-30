@@ -1,5 +1,5 @@
 ---
-title: Connect, élément (Connects_Type complexType) ('Visio XML')
+title: Connect, élément (Connects_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e1ad47b-ee28-6b9a-f2f9-642e09ca28d4
 description: Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme.
-ms.openlocfilehash: 82413f44f05f2ec6140e2b3981b7a1e8435becb0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3450a07e042fc633b9cd4952d9b3ad6b8190ed1e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346507"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541994"
 ---
-# <a name="connect-element-connectstype-complextype-visio-xml"></a>Connect, élément (Connects_Type complexType) ('Visio XML')
+# <a name="connect-element-connectstype-complextype-visio-xml"></a>Connect, élément (Connects_Type complexType) (Visio XML)
 
 Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme.
   
@@ -23,7 +23,7 @@ Représente une connexion entre deux formes dans un dessin, telles qu’un trait
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |page #. xml, Master #. Xml  <br/> |
    
@@ -52,11 +52,11 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|FromCell  <br/> |xsd: String  <br/> |facultatif  <br/> |Cellule à l'origine de la connexion.  <br/> |Valeurs du type xsd: String.  <br/> |
-|FromPart  <br/> |xsd: int  <br/> |facultatif  <br/> |Partie d'une forme à l'origine d'une connexion.  <br/> |Valeurs du type xsd: int.  <br/> |
-|FromSheet  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de la forme à partir de laquelle une ou des connexions sont à l'origine de la connexion.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|FromCell  <br/> |xsd: String  <br/> |facultatif  <br/> |Cellule à l’origine de la connexion.  <br/> |Valeurs du type xsd: String.  <br/> |
+|FromPart  <br/> |xsd: int  <br/> |facultatif  <br/> |Partie d’une forme à l’origine d’une connexion.  <br/> |Valeurs du type xsd: int.  <br/> |
+|FromSheet  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de la forme à partir de laquelle une ou des connexions sont à l’origine de la connexion.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
 |ToCell  <br/> |xsd: String  <br/> |facultatif  <br/> |Cellule vers laquelle une connexion est établie.  <br/> |Valeurs du type xsd: String.  <br/> |
-|ToPart  <br/> |xsd: int  <br/> |facultatif  <br/> |Partie d'une forme à laquelle une connexion est établie.  <br/> |Valeurs du type xsd: int.  <br/> |
+|ToPart  <br/> |xsd: int  <br/> |facultatif  <br/> |Partie d’une forme à laquelle une connexion est établie.  <br/> |Valeurs du type xsd: int.  <br/> |
 |ToSheet  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de la forme à laquelle une ou plusieurs connexions sont établies.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

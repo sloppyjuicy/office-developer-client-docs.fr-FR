@@ -1,5 +1,5 @@
 ---
-title: Élément DataConnections ('Visio XML')
+title: Élément DataConnections (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3cac0cd0-87ff-8c82-2d33-20070a505f4e
 description: Contient les éléments DataConnection pour le document.
-ms.openlocfilehash: 5b1619253a2818f2a181d281c78a0445318ed6ca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5d45d1dcd76524c2144336235e8277cd51f8a138
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344491"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539181"
 ---
-# <a name="dataconnections-element-visio-xml"></a>Élément DataConnections ('Visio XML')
+# <a name="dataconnections-element-visio-xml"></a>Élément DataConnections (XML Visio)
 
 Contient les éléments **DataConnection** pour le document. 
   
@@ -23,7 +23,7 @@ Contient les éléments **DataConnection** pour le document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |Connections. Xml  <br/> |
    

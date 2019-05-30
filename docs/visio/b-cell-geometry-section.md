@@ -9,24 +9,24 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b0fb6a47-47d8-ab9c-854d-0b0bbfdfcc27
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule B pour chaque ligne.
-ms.openlocfilehash: ff032b5af2918ec9865360ede5c3d76e8e872e9a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 46c8aa418f495905630fed2833d84afc93945346
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423306"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537793"
 ---
 # <a name="b-cell-geometry-section"></a>B, cellule (section Geometry)
 
 Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule B pour chaque ligne.
   
-|**Ligne**|**Description**|
+|Ligne|Description|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée *y* du point de contrôle d'un arc.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée *y* du point de contrôle d’un arc.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Dernière épaisseur de la courbe B-spline rationnelle non uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Premier nœud d’une spline  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordonnée *y* d'un point sur une ligne infinie; associée à la coordonnée *x* représentée par la cellule [A](a-cell-geometry-section.md) .  <br/> |
-|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *y* d'un point sur une ellipse; associée à la coordonnée *x* représentée par la cellule [A](a-cell-geometry-section.md) .  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordonnée *y* d’un point sur une ligne infinie; associée à la coordonnée *x* représentée par la cellule [A](a-cell-geometry-section.md) .  <br/> |
+|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *y* d’un point sur une ellipse; associée à la coordonnée *x* représentée par la cellule [A](a-cell-geometry-section.md) .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

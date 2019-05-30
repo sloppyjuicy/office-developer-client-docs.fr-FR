@@ -8,12 +8,12 @@ ms:contentKeyID: 48548817
 ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Priority
-ms.openlocfilehash: 4ce9327790f620ba9163f5cdbe7b5c8900de4341
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 384a575ae5e15b75ba7b0b891529c695cc3de599
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291938"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537828"
 ---
 # <a name="hide-the-ribbon-when-access-starts"></a>Masquer le ruban au démarrage d’Access
 
@@ -61,7 +61,7 @@ Le tableau suivant répertorie les paramètres de personnalisation du ruban pour
 |Nom de colonne|Valeur|
 |:----------|:----|
 |**RibbonName**|HideTheRibbon|
-|**RibbonXML**|`<CustomUI xmlns="https://schemas.microsoft.com/office/2006/01/CustomUI"> <ribbon startFromScratch="true"/></CustomUI>`|
+|**RibbonXML**|`<CustomUI xmlns="http://schemas.microsoft.com/office/2006/01/CustomUI"> <ribbon startFromScratch="true"/></CustomUI>`|
 
 
 ## <a name="apply-a-custom-ribbon-when-access-starts"></a>Appliquer un ruban personnalisé au démarrage d’Access

@@ -1,29 +1,29 @@
 ---
-title: Élément AttachedToolbars (complexType DocumentSettings_Type) ('Visio XML')
+title: Élément AttachedToolbars (complexType DocumentSettings_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
-description: Fichier MIME (Multipurpose Internet Mail Extensions) encodé Microsoft Visio (VSU) représentant des barres d'outils personnalisées.
-ms.openlocfilehash: a769204c7e13bacc147689803b31bf898e6de71a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Fichier MIME (Multipurpose Internet Mail Extensions) encodé Microsoft Visio (VSU) représentant des barres d’outils personnalisées.
+ms.openlocfilehash: 99bc85aff23abf11dafb644fb43ee540fff7a2ca
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341362"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537926"
 ---
-# <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Élément AttachedToolbars (complexType DocumentSettings_Type) ('Visio XML')
+# <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Élément AttachedToolbars (complexType DocumentSettings_Type) (XML Visio)
 
-Fichier MIME (Multipurpose Internet Mail Extensions) encodé Microsoft Visio (VSU) représentant des barres d'outils personnalisées.
+Fichier MIME (Multipurpose Internet Mail Extensions) encodé Microsoft Visio (VSU) représentant des barres d’outils personnalisées.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |document. Xml  <br/> |
    

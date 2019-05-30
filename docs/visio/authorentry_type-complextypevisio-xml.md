@@ -1,25 +1,25 @@
 ---
-title: ComplexType AuthorEntry_Type ('Visio XML')
+title: ComplexType AuthorEntry_Type (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6ea7b946-ecd3-1524-5e36-a2c35cb11d7a
-ms.openlocfilehash: 7d43d34559f212e3de1a91291cbf14b75a3b2e0c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 41279e9f4ffa0bba17d4f74eb2f40d724589c17d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341383"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537877"
 ---
-# <a name="authorentrytype-complextype-visio-xml"></a>ComplexType AuthorEntry_Type ('Visio XML')
+# <a name="authorentrytype-complextype-visio-xml"></a>ComplexType AuthorEntry_Type (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base d’extension** <br/> |Aucun  <br/> |
    

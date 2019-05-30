@@ -1,5 +1,5 @@
 ---
-title: Solution, élément (Solutions_Type complexType) ('Visio XML')
+title: Solution, élément (Solutions_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46bf34be-761e-9d44-ab06-83d4c8932cab
 description: Spécifie une instance du code XML de la solution stockée dans le dessin.
-ms.openlocfilehash: bb3cd512ff6109467c9d6465ba72c764d83abf96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 028decf0ac9b33ac33dd1e44ed3992ef7eb38aed
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335265"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540265"
 ---
-# <a name="solution-element-solutionstype-complextype-visio-xml"></a>Solution, élément (Solutions_Type complexType) ('Visio XML')
+# <a name="solution-element-solutionstype-complextype-visio-xml"></a>Solution, élément (Solutions_Type complexType) (Visio XML)
 
 Spécifie une instance du code XML de la solution stockée dans le dessin.
   
@@ -23,7 +23,7 @@ Spécifie une instance du code XML de la solution stockée dans le dessin.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |solutions. Xml  <br/> |
    

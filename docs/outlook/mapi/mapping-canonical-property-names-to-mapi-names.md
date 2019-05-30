@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 36d75c0a3a5f4767bfb0eeb0f9ae3d0c249b084b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ed73c0947e51150dd15617a95a99cd709101eb9e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316547"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541917"
 ---
 # <a name="mapping-canonical-property-names-to-mapi-names"></a>Mappage des noms de propriétés canoniques aux noms MAPI
 
@@ -21,9 +21,9 @@ ms.locfileid: "32316547"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique mappe chaque nom de propriété canonique à la propriété MAPI ou aux propriétés qu'elle représente. La rubrique contient trois tableaux: une table pour les propriétés nommées avec des identificateurs numériques, une deuxième table pour les propriétés nommées avec des identificateurs de chaîne et une troisième table pour les propriétés marquées.
+Cette rubrique mappe chaque nom de propriété canonique à la propriété MAPI ou aux propriétés qu’elle représente. La rubrique contient trois tableaux: une table pour les propriétés nommées avec des identificateurs numériques, une deuxième table pour les propriétés nommées avec des identificateurs de chaîne et une troisième table pour les propriétés marquées.
   
-Pour plus d'informations sur la façon dont les propriétés canoniques sont liées aux propriétés MAPI, voir [propriétés canoniques MAPI](mapi-canonical-properties.md).
+Pour plus d’informations sur la façon dont les propriétés canoniques sont liées aux propriétés MAPI, voir [propriétés canoniques MAPI](mapi-canonical-properties.md).
   
 ## <a name="named-properties-with-numerical-identifiers"></a>Propriétés nommées avec des identificateurs numériques
 
@@ -318,7 +318,7 @@ Pour plus d'informations sur la façon dont les propriétés canoniques sont li�
 |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |Catégorie  <br/> |
 |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |CharCount  <br/> |
 |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |Comments  <br/> |
-|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Société  <br/> |
+|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Company  <br/> |
 |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |Content-base  <br/> |
 |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |Content-class  <br/> |
 |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |Content-Transfer-Encoding  <br/> |
@@ -326,7 +326,7 @@ Pour plus d'informations sur la façon dont les propriétés canoniques sont li�
 |[PidNameCreateDateTimeReadOnly](pidnamecreatedatetimereadonly-canonical-property.md) <br/> |CreateDtmRo  <br/> |
 |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |Crois  <br/> |
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |EditTime  <br/> |
-|[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |HiddenCount  <br/> |
 |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Mots clés  <br/> |
 |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |LastAuthor  <br/> |
@@ -336,7 +336,7 @@ Pour plus d'informations sur la façon dont les propriétés canoniques sont li�
 |[PidNameManager](pidnamemanager-canonical-property.md) <br/> |Responsable  <br/> |
 |[PidNameMultimediaClipCount](pidnamemultimediaclipcount-canonical-property.md) <br/> |MMClipCount  <br/> |
 |[PidNameNoteCount](pidnamenotecount-canonical-property.md) <br/> |NoteCount  <br/> |
-|[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |[PidNamePageCount](pidnamepagecount-canonical-property.md) <br/> |PageCount  <br/> |
 |[PidNameParagraphCount](pidnameparagraphcount-canonical-property.md) <br/> |ParCount  <br/> |
 |[PidNamePresentationFormat](pidnamepresentationformat-canonical-property.md) <br/> |PresFormat  <br/> |
@@ -344,7 +344,7 @@ Pour plus d'informations sur la façon dont les propriétés canoniques sont li�
 |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |DRMLicense  <br/> |
 |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |Sécurité  <br/> |
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |SlideCount  <br/> |
-|[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Sujet  <br/> |
+|[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Modèle  <br/> |
 |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Titre  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |WordCount  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Mappage de schéma (schéma d'informations météorologiques Outlook)
+title: Mappage de schéma (schéma d’informations météorologiques Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4b2bf607-7c56-61a0-e40d-54af2b90aa6d
-description: Cette rubrique présente la définition de schéma pour le schéma XML des informations météorologiques d'Outlook.
-ms.openlocfilehash: f2e91775b0fe0d9e9d1cfebe572ebc4aa6fa3e56
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Cette rubrique présente la définition de schéma pour le schéma XML des informations météorologiques d’Outlook.
+ms.openlocfilehash: b08d40040bc725bd02d48758697fe4657fe1dc8f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355110"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541315"
 ---
-# <a name="schema-map-outlook-weather-information-schema"></a>Mappage de schéma (schéma d'informations météorologiques Outlook)
+# <a name="schema-map-outlook-weather-information-schema"></a>Mappage de schéma (schéma d’informations météorologiques Outlook)
 
-Cette rubrique présente la définition de schéma pour le schéma XML des informations météorologiques d'Outlook.
+Cette rubrique présente la définition de schéma pour le schéma XML des informations météorologiques d’Outlook.
   
 ```XML
 <?xml version="1.0" ?>
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
 xmlns:xs="https://www.w3.org/2001/XMLSchema"
-targetNamespace="https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
-xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
+targetNamespace="http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
+xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
 >
   <!-- get weather info  -->
   <!-- https://weather.service.msn.com/data.aspx?src=vista&amp;weadegreetype=C&amp;culture=en-US&amp;wealocations=wc:10109953 -->

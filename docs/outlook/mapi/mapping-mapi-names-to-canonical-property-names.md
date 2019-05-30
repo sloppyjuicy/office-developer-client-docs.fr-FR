@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 38376abb-60de-40f1-9bc9-d8c4f9e3368b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 693ea848d6870c443ad69fbb795f7520ecb5ee24
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ddc753891ad9ee0fa60c9ac4d3b2014eea4a0301
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357665"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542701"
 ---
 # <a name="mapping-mapi-names-to-canonical-property-names"></a>Mappage des noms MAPI aux noms de propriétés canoniques
 
@@ -23,7 +23,7 @@ ms.locfileid: "32357665"
   
 Cette rubrique mappe chaque propriété MAPI sur le nom de propriété canonique correspondant. La rubrique contient trois tableaux: une table pour les propriétés nommées avec des identificateurs numériques, une deuxième table pour les propriétés nommées avec des identificateurs de chaîne et une troisième table pour les propriétés marquées.
   
-Pour plus d'informations sur la façon dont les propriétés canoniques sont liées aux propriétés MAPI, voir [propriétés canoniques MAPI](mapi-canonical-properties.md).
+Pour plus d’informations sur la façon dont les propriétés canoniques sont liées aux propriétés MAPI, voir [propriétés canoniques MAPI](mapi-canonical-properties.md).
   
 ## <a name="named-properties-with-numerical-identifiers"></a>Propriétés nommées avec des identificateurs numériques
 
@@ -317,7 +317,7 @@ Pour plus d'informations sur la façon dont les propriétés canoniques sont li�
 |Catégorie  <br/> |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |
 |CharCount  <br/> |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |
 |Comments  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
-|Société  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
+|Company  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
 |Content-base  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
 |Content-class  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
 |Content-Transfer-Encoding  <br/> |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |
@@ -326,8 +326,8 @@ Pour plus d'informations sur la façon dont les propriétés canoniques sont li�
 |DRMLicense  <br/> |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |
 |EditTime  <br/> |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |
 |HiddenCount  <br/> |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |
-|https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
-|https://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
+|http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
+|http://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
 |Mots clés  <br/> |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |
 |LastAuthor  <br/> |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |
 |LastPrinted  <br/> |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |
@@ -342,7 +342,7 @@ Pour plus d'informations sur la façon dont les propriétés canoniques sont li�
 |RevNumber  <br/> |[PidNameRevisionNumber](pidnamerevisionnumber-canonical-property.md) <br/> |
 |Sécurité  <br/> |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |
 |SlideCount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
-|Sujet  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
+|Subject  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
 |Modèle  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
 |Titre  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |

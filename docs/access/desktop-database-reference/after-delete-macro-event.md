@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: f524a544736f68bcfa6bd15e3bcc720ffa2bc4d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5b3b2da44d817885eb6190a8cbbfc73bf99e9e0a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297213"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538234"
 ---
 # <a name="after-delete-macro-event"></a>After Delete, événement de macro
 
@@ -31,9 +31,9 @@ L’événement **Après suppression** se produit après la suppression d’un e
 
 Utilisez l’événement **Après suppression** pour effectuer toute action souhaitée lors de la suppression d’un enregistrement. L’événement **Après suppression** peut par exemple servir à appliquer des règles professionnelles ou des flux de travail, à mettre à jour un total agrégé et à envoyer des notifications.
 
-Lorsque l'événement **Après suppression** se produit, les valeurs contenues dans l'enregistrement supprimé sont toujours disponibles. Vous pouvez utiliser une valeur supprimée pour incrémenter ou décrémenter un total, créer une piste d'audit ou comparer à une valeur existante dans un argument *ConditionWhere* .
+Lorsque l'événement **Après suppression** se produit, les valeurs contenues dans l'enregistrement supprimé sont toujours disponibles. Vous pouvez utiliser une valeur supprimée pour incrémenter ou décrémenter un total, créer une piste d’audit ou comparer à une valeur existante dans un argument *ConditionWhere* .
 
-Vous pouvez utiliser la fonction **Updated («*nom de champ*»)** pour déterminer si un champ a été modifié. L’exemple de code suivant montre comment utiliser une instruction If pour déterminer si le champ PaidInFull a été modifié.
+Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser une instruction If pour déterminer si le champ PaidInFull a été modifié.
 
 ```vb 
  
@@ -55,7 +55,7 @@ Par exemple, pour accéder à la valeur du champ QuantityInStock dans l'enregist
 
 Les valeurs contenues dans l'enregistrement supprimé sont supprimées de manière définitive lorsque l'événement **Après suppression** se termine.
 
-Les commandes de macro suivantes peuvent être utilisées dans l'événement **après suppression** .
+Les commandes de macro suivantes peuvent être utilisées dans l’événement **après suppression** .
 
 <table>
 <colgroup>
@@ -83,7 +83,7 @@ Les commandes de macro suivantes peuvent être utilisées dans l'événement **a
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="createrecord-data-block.md">CréerEnregistrement, action de macro</a></p></td>
+<td><p><a href="createrecord-data-block.md">CreateRecord, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloc de données</p></td>
@@ -91,11 +91,11 @@ Les commandes de macro suivantes peuvent être utilisées dans l'événement **a
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="foreachrecord-data-block.md">PourChaqueEnregistrement, action de macro</a></p></td>
+<td><p><a href="foreachrecord-data-block.md">ForEachRecord, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloc de données</p></td>
-<td><p><a href="lookuprecord-data-block.md">Bloc de données RechercherEnregistrement</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">LookupRecord, bloc de données</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Action de données</p></td>
@@ -165,7 +165,7 @@ Une macro de données vide s’affiche dans le concepteur de macros.
 
 L'exemple de code suivant utilise l'événement **Après suppression** pour effectuer un traitement lorsqu'un enregistrement est supprimé de la table Donations. Lorsqu'un enregistrement est supprimé, le montant d'un don est soustrait du champ DonationsReceived dans la table DonationsReceived et du champ TotalDonatedField dans la table Donors.
 
-**Cliquez ici pour afficher une copie de la macro que vous pouvez coller dans le concepteurs de macros.**
+**Cliquez ici pour afficher une copie de la macro que vous pouvez coller dans le Concepteur de macros.**
 
 Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 
@@ -181,7 +181,7 @@ Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 
 ```xml
     <?xml version="1.0" encoding="UTF-16" standalone="no"?> 
-    <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+    <DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterDelete"> 
         <Statements> 
           <Comment>Initialize a variable and assign the old</Comment> 

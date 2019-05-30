@@ -1,5 +1,5 @@
 ---
-title: Élément DynamicGridEnabled (complexType DocumentSettings_Type) ('Visio XML')
+title: Élément DynamicGridEnabled (complexType DocumentSettings_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f18d797e-9885-f2fb-a521-5172aac7894c
 description: Indique si la fonctionnalité de grille dynamique est activée pour un document.
-ms.openlocfilehash: d92f717ee07118abab8b2acf81b54197afb22b45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9f09591ddb918fa883432be0ea89e663bdfbecb7
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315714"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539999"
 ---
-# <a name="dynamicgridenabled-element-documentsettingstype-complextype-visio-xml"></a>Élément DynamicGridEnabled (complexType DocumentSettings_Type) ('Visio XML')
+# <a name="dynamicgridenabled-element-documentsettingstype-complextype-visio-xml"></a>Élément DynamicGridEnabled (complexType DocumentSettings_Type) (XML Visio)
 
 Indique si la fonctionnalité de grille dynamique est activée pour un document.
   
@@ -23,7 +23,7 @@ Indique si la fonctionnalité de grille dynamique est activée pour un document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |Windows. xml, document. Xml  <br/> |
    

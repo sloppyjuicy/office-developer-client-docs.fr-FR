@@ -1,5 +1,5 @@
 ---
-title: Rel, élément (Solution_Type complexType) ('Visio XML')
+title: Élément REL (Solution_Type complexType) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8438fe4b-f5f7-d4e4-58b7-7ebdc1da197a
 description: Spécifie une relation avec une partie avec le code XML de la solution associé à cette solution.
-ms.openlocfilehash: e8a1350691e8d29551fb126a2151655175cc068c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1fe48579da28501b74fedd507f3e44d59736ae87
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320012"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542764"
 ---
-# <a name="rel-element-solutiontype-complextype-visio-xml"></a>Rel, élément (Solution_Type complexType) ('Visio XML')
+# <a name="rel-element-solutiontype-complextype-visio-xml"></a>Élément REL (Solution_Type complexType) (XML Visio)
 
 Spécifie une relation avec une partie avec le code XML de la solution associé à cette solution.
   
@@ -23,7 +23,7 @@ Spécifie une relation avec une partie avec le code XML de la solution associé 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |pages. xml, Masters. xml, recordsets. xml, page #. xml, Master #. Xml  <br/> |
    
@@ -52,12 +52,12 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|r:ID  <br/> |xsd: String  <br/> Voir les remarques.  <br/> |obligatoire  <br/> |Spécifie une relation avec un composant.  <br/> |«rId #»  <br/> Voir les remarques.  <br/> |
+|r:id  <br/> |xsd: String  <br/> Voir les remarques.  <br/> |obligatoire  <br/> |Spécifie une relation avec un composant.  <br/> |«rId #»  <br/> Voir les remarques.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de l'attribut **r:ID** doit être un type **ST_RelationshipID** . Le type **ST_RelationshipID** est une chaîne qui doit être au format «rId #», où le dernier caractère doit être un nombre. Le nombre doit être unique parmi tous les éléments frères de l'élément **rel** . 
+La valeur de l’attribut **r:ID** doit être un type **ST_RelationshipID** . Le type **ST_RelationshipID** est une chaîne qui doit être au format «rId #», où le dernier caractère doit être un nombre. Le nombre doit être unique parmi tous les éléments frères de l’élément **rel** . 
   
-Pour plus d'informations sur le type ST_RelationshipID, reportez-vous à la [spécification ISO/IEC 29500 partie 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Pour plus d’informations sur le type ST_RelationshipID, reportez-vous à la [spécification ISO/IEC 29500 partie 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

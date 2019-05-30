@@ -1,29 +1,29 @@
 ---
-title: élément TP (Text_Type complexType) ('Visio XML')
+title: élément TP (Text_Type complexType) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
-description: Indique le début d'une propriété Tabs. L'exécution est définie à la fin du texte ou jusqu'à la balise suivante.
-ms.openlocfilehash: 3f27ea0babefa0ea69cbbc361031c57602649107
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Indique le début d’une propriété Tabs. L’exécution est définie à la fin du texte ou jusqu’à la balise suivante.
+ms.openlocfilehash: dad7a3de715473a75c601c1e391c9d51fc1cab85
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307699"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542974"
 ---
-# <a name="tp-element-texttype-complextype-visio-xml"></a>élément TP (Text_Type complexType) ('Visio XML')
+# <a name="tp-element-texttype-complextype-visio-xml"></a>élément TP (Text_Type complexType) (XML Visio)
 
-Indique le début d'une propriété Tabs. L'exécution est définie à la fin du texte ou jusqu'à la balise suivante.
+Indique le début d’une propriété Tabs. L’exécution est définie à la fin du texte ou jusqu’à la balise suivante.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |page #. xml, Master #. Xml  <br/> |
    
@@ -41,7 +41,7 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Contient le texte d'une forme.  <br/> |
+|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Contient le texte d’une forme.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -51,6 +51,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Index de base zéro de l'élément au sein de son élément parent.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Index de base zéro de l’élément au sein de son élément parent.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

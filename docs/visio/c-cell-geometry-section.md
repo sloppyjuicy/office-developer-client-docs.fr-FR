@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d51a1dd8-678a-a34d-658d-bd7a027dd379
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule C pour chaque ligne.
-ms.openlocfilehash: 5599c09ad3656653c486d7feff9aed2ee89e4614
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0284fea02c7eb890b56b6c865a69eb36662d8ae6
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413366"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541889"
 ---
 # <a name="c-cell-geometry-section"></a>C, cellule (section Geometry)
 
 Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule C pour chaque ligne.
   
-|**Ligne**|**Description**|
+|Ligne|Description|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Angle de l'axe principal d'un arc par rapport à l'axe *x* de son parent.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Angle de l’axe principal d’un arc par rapport à l’axe *x* de son parent.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Premier nœud de la courbe B-spline rationnelle non uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Dernier nœud d’une spline  <br/> |
-|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *x* d'un point sur une ellipse; associée à la coordonnée *y* représentée par la cellule [D](d-cell-geometry-section.md) .  <br/> |
+|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *x* d’un point sur une ellipse; associée à la coordonnée *y* représentée par la cellule [D](d-cell-geometry-section.md) .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

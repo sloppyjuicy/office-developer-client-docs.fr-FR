@@ -1,5 +1,5 @@
 ---
-title: complexType weatherType (schéma d'emplacement météorologique Outlook)
+title: complexType weatherType (schéma d’emplacement météorologique Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8054fd9-85ba-fcf6-c96d-a54095d5238c
-description: Définit les paramètres relatifs aux conditions météorologiques d'un emplacement.
-ms.openlocfilehash: c3d640789cb68891878c3dca5210ab9dea280180
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Définit les paramètres relatifs aux conditions météorologiques d’un emplacement.
+ms.openlocfilehash: f7d33cb018daf4ece2ba468b9ebe92b0fc7b1545
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355180"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542918"
 ---
-# <a name="weathertype-complextype-outlook-weather-location-schema"></a>complexType weatherType (schéma d'emplacement météorologique Outlook)
+# <a name="weathertype-complextype-outlook-weather-location-schema"></a>complexType weatherType (schéma d’emplacement météorologique Outlook)
 
-Définit les paramètres relatifs aux conditions météorologiques d'un emplacement.
+Définit les paramètres relatifs aux conditions météorologiques d’un emplacement.
   
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Fichier de schéma** <br/> |getweatherlocation. xsd  <br/> |
 |**Base d’extension** <br/> |Aucun  <br/> |
    
@@ -49,7 +49,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|weatherlocationcode  <br/> |XS: String  <br/> |obligatoire  <br/> |Spécifie un code associé à l'emplacement pour distinguer plusieurs emplacements portant le même nom.  <br/> |Une valeur du type xs: String  <br/> |
-|weatherlocationname  <br/> |XS: String  <br/> |obligatoire  <br/> |Spécifie le nom de l'emplacement.  <br/> |Une valeur du type xs: String  <br/> |
+|weatherlocationcode  <br/> |XS: String  <br/> |obligatoire  <br/> |Spécifie un code associé à l’emplacement pour distinguer plusieurs emplacements portant le même nom.  <br/> |Une valeur du type xs: String  <br/> |
+|weatherlocationname  <br/> |XS: String  <br/> |obligatoire  <br/> |Spécifie le nom de l’emplacement.  <br/> |Une valeur du type xs: String  <br/> |
    
 

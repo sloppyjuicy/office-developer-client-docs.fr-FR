@@ -1,29 +1,29 @@
 ---
-title: Élément RowMap (complexType DataRecordSet_Type) ('Visio XML')
+title: Élément RowMap (complexType DataRecordSet_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
-description: Mappe une ligne de jeu d'enregistrements de données à une forme.
-ms.openlocfilehash: 2dffa49d66e8e447b4e31d771179c74eecad21da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Mappe une ligne de jeu d’enregistrements de données à une forme.
+ms.openlocfilehash: 178ceb06d64bfc9ef50f75dd22f8bd94f09f5c33
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332514"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540769"
 ---
-# <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>Élément RowMap (complexType DataRecordSet_Type) ('Visio XML')
+# <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>Élément RowMap (complexType DataRecordSet_Type) (XML Visio)
 
-Mappe une ligne de jeu d'enregistrements de données à une forme.
+Mappe une ligne de jeu d’enregistrements de données à une forme.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RowMap_Type](rowmap_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |recordsets. Xml  <br/> |
    
@@ -54,8 +54,8 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de page de la forme liée aux données dans la ligne de jeu d'enregistrements de données identifiée par **ROWID**.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
-|RowID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de ligne de la ligne, unique dans le jeu d'enregistrements de données.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
-|ShapeID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de la forme liée aux données de la ligne de jeu d'enregistrements de données identifiée par **ROWID**.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|PageID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de page de la forme liée aux données dans la ligne de jeu d’enregistrements de données identifiée par **ROWID**.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|RowID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de ligne de la ligne, unique dans le jeu d’enregistrements de données.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|ShapeID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de la forme liée aux données de la ligne de jeu d’enregistrements de données identifiée par **ROWID**.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

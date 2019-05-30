@@ -1,25 +1,25 @@
 ---
-title: ComplexType HeaderCenter_Type ('Visio XML')
+title: ComplexType HeaderCenter_Type (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 61792a7f-72d8-85af-92e9-684ed2bb646f
-ms.openlocfilehash: f59ec434b1ccb0457bd29e9d982139b31daadac9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 33270bdff34f8b14df93ace03aa779f225c44684
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351638"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542172"
 ---
-# <a name="headercentertype-complextype-visio-xml"></a>ComplexType HeaderCenter_Type ('Visio XML')
+# <a name="headercentertype-complextype-visio-xml"></a>ComplexType HeaderCenter_Type (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base d’extension** <br/> |xsd: String  <br/> |
    

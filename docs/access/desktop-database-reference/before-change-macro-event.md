@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a180068e805ae11883822ebf26f924e10d34bac5
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296856"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538115"
 ---
 # <a name="before-change-macro-event"></a>Before Change, événement de macro
 
@@ -33,7 +33,7 @@ L’événement **Avant la modification** se produit lorsqu’un enregistrement 
 
 Utilisez l’événement **Avant la modification** pour effectuer toute action souhaitée avant qu’un enregistrement soit modifié. **Avant la modification** s’utilise couramment pour effectuer une validation et pour déclencher des messages d’erreur personnalisés.
 
-Vous pouvez utiliser la fonction **Updated («*nom de champ*»)** pour déterminer si un champ a été modifié. L'exemple de code suivant montre comment utiliser une instruction **If** pour déterminer si le champ PaidInFull a été modifié.
+Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser une instruction **If** pour déterminer si le champ PaidInFull a été modifié.
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -143,7 +143,7 @@ Une macro de données vide s’affiche dans le concepteur de macros
 
 ## <a name="example"></a>Exemple
 
-L'exemple de code suivant utilise l'événement **avant la modification** pour valider les champs d'État. Une erreur est levée si une valeur incorrecte est stockée dans le champ Resolution.
+L’exemple de code suivant utilise l’événement **avant la modification** pour valider les champs d’État. Une erreur est levée si une valeur incorrecte est stockée dans le champ Resolution.
 
 ```vb 
  
@@ -178,14 +178,14 @@ Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 
 2.  Sous l’onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.
 
-3.  Sélectionnez le code dans l'exemple de code suivant, puis appuyez sur **Ctrl + C** pour le copier dans le presse-papiers.
+3.  Sélectionnez le code dans l’exemple de code suivant, puis appuyez sur **Ctrl + C** pour le copier dans le presse-papiers.
 
 4.  Activez la fenêtre du concepteur de macros, puis appuyez sur **Ctrl + V**.
 
 
 
 ```xml
-<DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+<DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
   <DataMacro Event="BeforeChange"> 
     <Statements> 
       <Comment>Check to ensure that if the bug is resloved that the user has selected a resolution </Comment> 
@@ -228,7 +228,7 @@ Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 </DataMacros>
 ```
 
-L'exemple suivant montre comment utiliser l'action Déclenchererreur pour annuler l'événement de macro avant la modification des données. Lorsque le champ AffectéÀ est mis à jour, un bloc de données RechercherEnregistrement est utilisé pour déterminer si le technicien affecté est actuellement affecté à une demande de service ouverte. Si la valeur est true, l'événement avant la modification est annulé et l'enregistrement n'est pas mis à jour.
+L’exemple suivant montre comment utiliser l’action Déclenchererreur pour annuler l’événement de macro avant la modification des données. Lorsque le champ AffectéÀ est mis à jour, un bloc de données RechercherEnregistrement est utilisé pour déterminer si le technicien affecté est actuellement affecté à une demande de service ouverte. Si la valeur est true, l’événement avant la modification est annulé et l’enregistrement n’est pas mis à jour.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

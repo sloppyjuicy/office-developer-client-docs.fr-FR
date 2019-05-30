@@ -1,5 +1,5 @@
 ---
-title: Élément RuleInfo (complexType Issue_Type) ('Visio XML')
+title: Élément RuleInfo (complexType Issue_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: aec47b43-adbe-3344-fbac-29554f244c99
 description: Fournit des informations sur la règle de validation à laquelle appartient le problème de validation parent.
-ms.openlocfilehash: f0cf726f0c5d6943ef72669aa92f361a7367459c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 29454fdb82d9e12d46fa9eedf73f8a31e8befd95
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356986"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541686"
 ---
-# <a name="ruleinfo-element-issuetype-complextype-visio-xml"></a>Élément RuleInfo (complexType Issue_Type) ('Visio XML')
+# <a name="ruleinfo-element-issuetype-complextype-visio-xml"></a>Élément RuleInfo (complexType Issue_Type) (XML Visio)
 
 Fournit des informations sur la règle de validation à laquelle appartient le problème de validation parent.
   
@@ -23,7 +23,7 @@ Fournit des informations sur la règle de validation à laquelle appartient le p
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |validation. Xml  <br/> |
    
@@ -52,7 +52,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|RuleID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Spécifie l'identificateur unique de la règle de validation à laquelle le problème parent est lié.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
-|RuleSetID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Spécifie l'identificateur unique de l'ensemble de règles de validation auquel le problème parent se rapporte.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|RuleID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Spécifie l’identificateur unique de la règle de validation à laquelle le problème parent est lié.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|RuleSetID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Spécifie l’identificateur unique de l’ensemble de règles de validation auquel le problème parent se rapporte.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

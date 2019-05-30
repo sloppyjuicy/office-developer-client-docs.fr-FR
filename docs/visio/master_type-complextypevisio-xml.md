@@ -1,25 +1,25 @@
 ---
-title: ComplexType Master_Type ('Visio XML')
+title: ComplexType Master_Type (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2d799074-13d9-3c98-3bee-b57af9966c81
-ms.openlocfilehash: 186099d495849706f68113abb269de4a1f5a2ce7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 22b619149fc5393f085ca6e245c65ed6058538ae
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341803"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538066"
 ---
-# <a name="mastertype-complextype-visio-xml"></a>ComplexType Master_Type ('Visio XML')
+# <a name="mastertype-complextype-visio-xml"></a>ComplexType Master_Type (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base d’extension** <br/> |Aucun  <br/> |
    
@@ -116,7 +116,7 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 |:-----|:-----|:-----|:-----|:-----|
 |AlignName  <br/> |xsd: unsignedShort  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedShort.  <br/> |
 |BaseID  <br/> |xsd: String  <br/> |facultatif  <br/> ||Valeurs du type xsd: String.  <br/> |
-|Masqué  <br/> |xsd: Boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd: Boolean.  <br/> |
+|Hidden  <br/> |xsd: Boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd: Boolean.  <br/> |
 |IconSize  <br/> |xsd: unsignedShort  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedShort.  <br/> |
 |IconUpdate  <br/> |xsd: Boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd: Boolean.  <br/> |
 |ID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |

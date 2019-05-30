@@ -1,29 +1,29 @@
 ---
-title: Élément RuleTest (complexType Rule_Type) ('Visio XML')
+title: Élément RuleTest (complexType Rule_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cb95b34-3ce0-07a5-5d57-8ac9b0570b9a
-description: Spécifie l'expression logique qui détermine si l'objet cible répond à la règle de validation.
-ms.openlocfilehash: 8fd37040bec383ab61edfa62a09bb766ed8cd3c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Spécifie l’expression logique qui détermine si l’objet cible répond à la règle de validation.
+ms.openlocfilehash: bb1f0cf9b3f712903f6e45d6d09f96607089f920
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319081"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541518"
 ---
-# <a name="ruletest-element-ruletype-complextype-visio-xml"></a>Élément RuleTest (complexType Rule_Type) ('Visio XML')
+# <a name="ruletest-element-ruletype-complextype-visio-xml"></a>Élément RuleTest (complexType Rule_Type) (XML Visio)
 
-Spécifie l'expression logique qui détermine si l'objet cible répond à la règle de validation.
+Spécifie l’expression logique qui détermine si l’objet cible répond à la règle de validation.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |validation. Xml  <br/> |
    
@@ -52,6 +52,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Formule  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente la formule de l'élément.  <br/> |Valeurs de la chaîne XSD: String.  <br/> |
+|Formule  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente la formule de l’élément.  <br/> |Valeurs de la chaîne XSD: String.  <br/> |
    
 

@@ -1,25 +1,25 @@
 ---
-title: ComplexType Actions_Type ('Visio XML')
+title: ComplexType Actions_Type (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 31070969-2091-d00e-5dd1-b9c6034f76d9
-ms.openlocfilehash: 158a0dfa31c2da3ac9e530c07edd075b4fabbd75
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 384b948c61f3b618d108db090721ea6768d69372
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283050"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538409"
 ---
-# <a name="actionstype-complextype-visio-xml"></a>ComplexType Actions_Type ('Visio XML')
+# <a name="actionstype-complextype-visio-xml"></a>ComplexType Actions_Type (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base d’extension** <br/> |Section_Type  <br/> |
    

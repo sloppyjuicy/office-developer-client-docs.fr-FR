@@ -1,29 +1,29 @@
 ---
-title: Élément HeaderRight (complexType HeaderFooter_Type) ('Visio XML')
+title: Élément HeaderRight (complexType HeaderFooter_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 16c5933f-1fa1-a180-d821-099fd6bf6e13
-description: Contient la chaîne de texte qui apparaît dans la partie droite de l'en-tête d'un document.
-ms.openlocfilehash: 4284e45c747d437f38aec1756852063aac4ffb2a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Contient la chaîne de texte qui apparaît dans la partie droite de l’en-tête d’un document.
+ms.openlocfilehash: aeccf31b4fd3cc2d9e3c4bf5dad006cbf08f525e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330001"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539067"
 ---
-# <a name="headerright-element-headerfootertype-complextype-visio-xml"></a>Élément HeaderRight (complexType HeaderFooter_Type) ('Visio XML')
+# <a name="headerright-element-headerfootertype-complextype-visio-xml"></a>Élément HeaderRight (complexType HeaderFooter_Type) (XML Visio)
 
-Contient la chaîne de texte qui apparaît dans la partie droite de l'en-tête d'un document.
+Contient la chaîne de texte qui apparaît dans la partie droite de l’en-tête d’un document.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[HeaderRight_Type](headerright_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |document. Xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l'en-tête et le pied de page d'un document.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de page d’un document.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -1,25 +1,25 @@
 ---
-title: ComplexType IssueTarget_Type ('Visio XML')
+title: ComplexType IssueTarget_Type (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a0dde1d-5748-63ce-b0da-87f545299b38
-ms.openlocfilehash: d7b8309bb6dac9648d379c89687dc89165f44edf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 38c73e54ff75e94468cfb95258f1fde510d8019a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314923"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542141"
 ---
-# <a name="issuetargettype-complextype-visio-xml"></a>ComplexType IssueTarget_Type ('Visio XML')
+# <a name="issuetargettype-complextype-visio-xml"></a>ComplexType IssueTarget_Type (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base d’extension** <br/> |Aucun  <br/> |
    

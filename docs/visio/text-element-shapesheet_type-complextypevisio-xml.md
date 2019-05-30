@@ -1,29 +1,29 @@
 ---
-title: Text, élément (ShapeSheet_Type complexType) ('Visio XML')
+title: Text, élément (ShapeSheet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46211968-9ad8-07da-f725-3ad136b7a8a1
-description: Contient le texte d'une forme.
-ms.openlocfilehash: f2c809d7db895a3635a5898d83d4583cd38f1249
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Contient le texte d’une forme.
+ms.openlocfilehash: 4b03bc2539b80e49daae9d14f3e2ad07a51de9f1
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332370"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541924"
 ---
-# <a name="text-element-shapesheettype-complextype-visio-xml"></a>Text, élément (ShapeSheet_Type complexType) ('Visio XML')
+# <a name="text-element-shapesheettype-complextype-visio-xml"></a>Text, élément (ShapeSheet_Type complexType) (Visio XML)
 
-Contient le texte d'une forme.
+Contient le texte d’une forme.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |page #. xml, Master #. Xml  <br/> |
    
@@ -48,10 +48,10 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[revendications](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Marque le début d'une exécution de propriétés de caractère qui est mise en forme en fonction de l'élément char correspondant.  <br/> |
-|[FLD](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indique un point d'insertion de champ de texte pour l'élément Field correspondant.  <br/> |
+|[revendications](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Marque le début d’une exécution de propriétés de caractère qui est mise en forme en fonction de l’élément char correspondant.  <br/> |
+|[FLD](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indique un point d’insertion de champ de texte pour l’élément Field correspondant.  <br/> |
 |[po](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |Indique le début des propriétés de paragraphe exécutées.  <br/> |
-|[partenaire](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Indique le début d'une propriété Tabs.  <br/> |
+|[partenaire](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Indique le début d’une propriété Tabs.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

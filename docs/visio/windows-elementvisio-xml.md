@@ -1,29 +1,29 @@
 ---
-title: Élément Windows («Visio XML»)
+title: Élément Windows (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1880734a-f086-ce6c-5a93-47851bcdd99d
-description: Contient les éléments Window d'un document.
-ms.openlocfilehash: df4d4bc48db157bd05fd39177975c9dbeaa5de52
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Contient les éléments Window d’un document.
+ms.openlocfilehash: fcffcd5257b14c0ae0203a41f369536e583c1798
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339822"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538444"
 ---
-# <a name="windows-element-visio-xml"></a>Élément Windows («Visio XML»)
+# <a name="windows-element-visio-xml"></a>Élément Windows (Visio XML)
 
-Contient les éléments **Window** d'un document. 
+Contient les éléments **Window** d’un document. 
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Windows_Type](windows_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |Windows. Xml  <br/> |
    
@@ -52,7 +52,7 @@ Aucune.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ClientHeight  <br/> |xsd: unsignedShort  <br/> |facultatif  <br/> |Représente la hauteur d'une zone d'affichage  <br/> |Valeurs du type xsd: unsignedShort.  <br/> |
-|ClientWidth  <br/> |xsd: unsignedShort  <br/> |facultatif  <br/> |Représente la largeur d'une zone d'affichage  <br/> |Valeurs du type xsd: unsignedShort.  <br/> |
+|ClientHeight  <br/> |xsd: unsignedShort  <br/> |facultatif  <br/> |Représente la hauteur d’une zone d’affichage  <br/> |Valeurs du type xsd: unsignedShort.  <br/> |
+|ClientWidth  <br/> |xsd: unsignedShort  <br/> |facultatif  <br/> |Représente la largeur d’une zone d’affichage  <br/> |Valeurs du type xsd: unsignedShort.  <br/> |
    
 

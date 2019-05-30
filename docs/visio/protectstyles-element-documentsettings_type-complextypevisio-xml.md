@@ -1,29 +1,29 @@
 ---
-title: Élément ProtectStyles (complexType DocumentSettings_Type) ('Visio XML')
+title: Élément ProtectStyles (complexType DocumentSettings_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 041c1b07-7ad4-f786-c6dc-32a41d4d5e04
-description: Indique si l'utilisateur ne peut pas créer ou modifier des styles.
-ms.openlocfilehash: e3d74a5b3af964caad62a79b4c4958661ea101b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Indique si l’utilisateur ne peut pas créer ou modifier des styles.
+ms.openlocfilehash: b2b725d0d735212f79606fed094adf5fe81a43d5
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302995"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538934"
 ---
-# <a name="protectstyles-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectStyles (complexType DocumentSettings_Type) ('Visio XML')
+# <a name="protectstyles-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectStyles (complexType DocumentSettings_Type) (XML Visio)
 
-Indique si l'utilisateur ne peut pas créer ou modifier des styles.
+Indique si l’utilisateur ne peut pas créer ou modifier des styles.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |document. Xml  <br/> |
    

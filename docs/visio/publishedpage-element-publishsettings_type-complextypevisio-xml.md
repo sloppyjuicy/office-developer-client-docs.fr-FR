@@ -1,29 +1,29 @@
 ---
-title: Élément PublishedPage (complexType PublishSettings_Type) ('Visio XML')
+title: Élément PublishedPage (complexType PublishSettings_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
-description: Indique si une page de dessin est affichable dans le navigateur à l'aide de Visio Services dans Microsoft SharePoint Server 2013.
-ms.openlocfilehash: 313cabbdd59930df67c807ee3c89df1a6e8c17a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Indique si une page de dessin est affichable dans le navigateur à l’aide de Visio Services dans Microsoft SharePoint Server 2013.
+ms.openlocfilehash: 614c01f12b9a7525620704e5417a106e8703c983
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326795"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538374"
 ---
-# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Élément PublishedPage (complexType PublishSettings_Type) ('Visio XML')
+# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Élément PublishedPage (complexType PublishSettings_Type) (XML Visio)
 
-Indique si une page de dessin est affichable dans le navigateur à l'aide de Visio Services dans Microsoft SharePoint Server 2013.
+Indique si une page de dessin est affichable dans le navigateur à l’aide de Visio Services dans Microsoft SharePoint Server 2013.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |document. Xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Spécifie les paramètres qui sont utilisés lorsque le diagramme est ouvert à l'aide de Visio Services.  <br/> |
+|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Spécifie les paramètres qui sont utilisés lorsque le diagramme est ouvert à l’aide de Visio Services.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,6 +52,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Identificateur d'une page de dessin.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Identificateur d’une page de dessin.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

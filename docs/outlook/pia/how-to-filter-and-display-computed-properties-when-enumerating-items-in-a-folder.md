@@ -7,12 +7,12 @@ ms:contentKeyID: 55119922
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 946858221b649cd6189ddf44680b316554cab5de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1c1702ce816714b21da860aea3e49db8a3511701
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320334"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542638"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>Filtrer et afficher des propriétés calculées lors de l’énumération d’éléments dans un dossier
 
@@ -124,7 +124,7 @@ Le tableau suivant répertorie les propriétés connues comme étant non valides
 
 Bien que certaines propriétés calculées ne peuvent pas être ajoutées à la colonne définie pour un tableau, l’exemple de code suivant contourne cette restriction. GetToDoItems utilise une requête DASL pour limiter les éléments qui apparaissent dans l'objet **Table**. Si la propriété calculée a une représentation d'espace de noms, celle-ci peut être utilisée pour créer une requête DASL qui limite le retour par l'objet **Table** de lignes pour une valeur spécifiée de la propriété calculée. GetToDoItems obtient des éléments dans la Boîte de réception où la valeur de la propriété [IsMarkedAsTask](https://msdn.microsoft.com/library/bb623631\(v=office.15\)) est égale à **true**, puis affecte des valeurs à certaines propriétés de tâche, telles que [TaskSubject](https://msdn.microsoft.com/library/bb643880\(v=office.15\)), [TaskDueDate](https://msdn.microsoft.com/library/bb623035\(v=office.15\)), [TaskStartDate](https://msdn.microsoft.com/library/bb610832\(v=office.15\)) et [TaskCompletedDate](https://msdn.microsoft.com/library/bb624055\(v=office.15\)). Enfin, ces propriétés sont écrites sur les écouteurs de trace de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -141,7 +141,7 @@ private void GetToDoItems()
         as Outlook.Folder;
     // DASL filter for IsMarkedAsTask
     string filter = "@SQL=" + "\"" +
-        "https://schemas.microsoft.com/mapi/proptag/0x0E2B0003"
+        "http://schemas.microsoft.com/mapi/proptag/0x0E2B0003"
         + "\"" + " = 1";
     Outlook.Table table =
         folder.GetTable(filter,
@@ -151,7 +151,7 @@ private void GetToDoItems()
     table.Columns.Add("TaskCompletedDate");
     // Use GUID/ID to represent TaskSubject
     table.Columns.Add(
-        "https://schemas.microsoft.com/mapi/id/" +
+        "http://schemas.microsoft.com/mapi/id/" +
         "{00062008-0000-0000-C000-000000000046}/85A4001E");
     while (!table.EndOfTable)
     {

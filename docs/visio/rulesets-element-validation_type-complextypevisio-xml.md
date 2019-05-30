@@ -1,5 +1,5 @@
 ---
-title: Élément de la Validation_Type (complexType) ('Visio XML')
+title: Élément de la Validation_Type (complexType XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a0201e6-9a93-83ae-8a0a-47630ed291ce
 description: Inclut un élément RuleSet pour chaque ensemble de règles de validation dans le document.
-ms.openlocfilehash: 8c770de80a841a452908ae1a9f77a6dee25aad4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0aca3f52bd8b201d1afc2ab7d647757452ff8899
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319046"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541574"
 ---
-# <a name="rulesets-element-validationtype-complextype-visio-xml"></a>Élément de la Validation_Type (complexType) ('Visio XML')
+# <a name="rulesets-element-validationtype-complextype-visio-xml"></a>Élément de la Validation_Type (complexType XML)
 
 Inclut un élément **RuleSet** pour chaque ensemble de règles de validation dans le document. 
   
@@ -23,7 +23,7 @@ Inclut un élément **RuleSet** pour chaque ensemble de règles de validation da
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |validation. Xml  <br/> |
    

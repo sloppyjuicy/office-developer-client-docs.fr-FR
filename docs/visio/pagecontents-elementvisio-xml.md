@@ -1,29 +1,29 @@
 ---
-title: Élément PageContents ('Visio XML')
+title: Élément PageContents (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 818793d6-608e-5f23-eca2-55ce6667050b
-description: Cette énumération spécifie les informations relatives aux formes d'une forme de base ou d'une page de dessin d'un dessin.
-ms.openlocfilehash: aec860f4135e15f18436dba50986b0ad0e6ee9e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Cette énumération spécifie les informations relatives aux formes d’une forme de base ou d’une page de dessin d’un dessin.
+ms.openlocfilehash: 23ff6c74007adc5764007e34c1b2ac92c522b121
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334509"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537996"
 ---
-# <a name="pagecontents-element-visio-xml"></a>Élément PageContents ('Visio XML')
+# <a name="pagecontents-element-visio-xml"></a>Élément PageContents (XML Visio)
 
-Cette énumération spécifie les informations relatives aux formes d'une forme de base ou d'une page de dessin d'un dessin.
+Cette énumération spécifie les informations relatives aux formes d’une forme de base ou d’une page de dessin d’un dessin.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |page #. Xml  <br/> |
    

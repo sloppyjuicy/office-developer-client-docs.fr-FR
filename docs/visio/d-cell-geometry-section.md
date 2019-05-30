@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5f1fdf59-db58-561c-e187-1af72a8b87f2
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule D pour chaque ligne.
-ms.openlocfilehash: 1da6ac19e6a50ea87f07bf3e3c9f96378b512ba8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a76093f028986907b58175bc6b8c81a7056cfe07
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424377"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542498"
 ---
 # <a name="d-cell-geometry-section"></a>D, cellule (section Geometry)
 
 Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule D pour chaque ligne.
   
-|**Ligne**|**Description**|
+|Ligne|Description|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Rapport entre l’axe majeur de l’arc et son axe mineur. Contrairement à la signification réelle de ces termes, l’axe « majeur » ne doit pas forcément être plus grand que l’axe « mineur ». Ce rapport peut donc être inférieur à 1. Si cette cellule a une valeur inférieure ou égale à 0, ou supérieure à 1000, les résultats sont imprévisibles.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Première épaisseur de la courbe B-spline rationnelle non uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Degré d’une spline (entier entre 1 et 25)  <br/> |
-|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *y* d'un point sur une ellipse; associée à la coordonnée *x* représentée par la cellule [C](c-cell-geometry-section.md) .  <br/> |
+|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *y* d’un point sur une ellipse; associée à la coordonnée *x* représentée par la cellule [C](c-cell-geometry-section.md) .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

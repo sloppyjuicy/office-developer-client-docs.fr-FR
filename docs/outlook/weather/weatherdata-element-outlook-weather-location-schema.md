@@ -1,5 +1,5 @@
 ---
-title: élément WeatherData (schéma d'emplacement météorologique Outlook)
+title: élément WeatherData (schéma d’emplacement météorologique Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,24 +7,24 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 14e0c469-31dc-fbe2-0d45-da602df04f13
-description: Définit l'élément météorologique.
-ms.openlocfilehash: ade57264fab592d3314aa9a3376e129a5f3719c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Définit l’élément météorologique.
+ms.openlocfilehash: 65dd0ee5686fb773479c8b63a43f51bff67fd2f7
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355033"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540930"
 ---
-# <a name="weatherdata-element-outlook-weather-location-schema"></a>élément WeatherData (schéma d'emplacement météorologique Outlook)
+# <a name="weatherdata-element-outlook-weather-location-schema"></a>élément WeatherData (schéma d’emplacement météorologique Outlook)
 
-Définit l'élément météorologique.
+Définit l’élément météorologique.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> ||
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Fichier de schéma** <br/> |getweatherlocation. xsd  <br/> |
    
 ## <a name="definition"></a>Définition
@@ -57,7 +57,7 @@ Aucune.
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[renseignement](weather-element-weatherdata-elementoutlook-weather-location-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |Spécifie l'emplacement de la météo.  <br/> |
+|[renseignement](weather-element-weatherdata-elementoutlook-weather-location-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |Spécifie l’emplacement de la météo.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 73089431569cce3480967b05910df0b7bcf187eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 8dbede5391f6913c7869b5f93e6744e10c8081b3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355782"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540902"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>Propriété canonique PidNamePhishingStamp
 
@@ -25,17 +25,17 @@ ms.locfileid: "32355782"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur de message qui identifie et marque les messages susceptibles d'être du hameçonnage.
+Contient la valeur de message qui identifie et marque les messages susceptibles d’être du hameçonnage.
   
 |||
 |:-----|:-----|
 |Noms conviviaux:  <br/> |Aucun  <br/> |
 |Jeu de propriétés:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété:  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|Nom de la propriété:  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Messagerie sécurisée  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
@@ -45,9 +45,9 @@ Contient la valeur de message qui identifie et marque les messages susceptibles 
     
 [[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifie et marque les messages électroniques conçus pour inciter les destinataires à divulguer des informations sensibles (telles que des mots de passe et d'autres informations personnelles) à une source non fiable.
+> Identifie et marque les messages électroniques conçus pour inciter les destinataires à divulguer des informations sensibles (telles que des mots de passe et d’autres informations personnelles) à une source non fiable.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
 Mapidefs. h
   

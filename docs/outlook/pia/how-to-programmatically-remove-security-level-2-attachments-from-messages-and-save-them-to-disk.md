@@ -7,12 +7,12 @@ ms:contentKeyID: 55119822
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 135f07f4bd3bdc36cee8547106b955b967150df8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 588d1db8ad222462b2648d4fdb85207fd9bdb782
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320145"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539261"
 ---
 # <a name="programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk"></a>Supprimer par programmation des pièces jointes de niveau 2 de sécurité des messages et les enregistrer sur disque
 
@@ -32,7 +32,7 @@ Outlook protège les utilisateurs contre le code malveillant véhiculé via des 
 > 
 > Vous ne pouvez pas utiliser une instruction **foreach** pour supprimer les éléments d’une collection. Utilisez à la place un opérateur **Index** pour obtenir le premier élément de la collection, puis supprimez cet élément. Utilisez ensuite une instruction **while** pour déterminer à quel moment vous avez supprimé le nombre approprié d’éléments dans la collection. Vous serez ainsi assuré d’avoir itéré sur le nombre correct d’éléments dans la collection.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -55,7 +55,7 @@ private void RemoveAttachmentsAndSaveToDisk(string path,
         string filter = "@SQL=" + "\""
             + "urn:schemas:httpmail:hasattachment"
             + "\"" + " = True" + " AND " + "\""
-            + "https://schemas.microsoft.com/mapi/proptag/0x001A001E"
+            + "http://schemas.microsoft.com/mapi/proptag/0x001A001E"
             + "\"" + " = 'IPM.Note'";
         attachItems = folder.Items.Restrict(filter);
         foreach (Outlook.MailItem mail in attachItems)

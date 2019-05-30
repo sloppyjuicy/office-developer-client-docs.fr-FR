@@ -7,12 +7,12 @@ ms:contentKeyID: 55119884
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 35215c24a9b953bf8406b268a6169abbd536202b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e1d5b293f89c453886cafd9effc3fb5205f9696c
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320306"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542596"
 ---
 # <a name="filter-and-efficiently-enumerate-items-in-a-folder"></a>Énumération efficace et filtrage des éléments d’un dossier
 
@@ -24,7 +24,7 @@ L’exemple de code spécifie la propriété **PR\_HASATTACH** avec l’espace d
 
 La méthode **Columns.Add** est ensuite appelée une nouvelle fois pour ajouter la propriété **ReceiveTime** en spécifiant son espace de noms MAPI afin que cette colonne stocke la valeur en tant que valeur de date et heure UTC (Universal Coordinated Time). Enfin, l’exemple énumère chaque élément dans l’objet Table, en affichant la valeur des quatre propriétés spécifiées en tant que colonnes du tableau.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -39,7 +39,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 ```vb
 Private Sub DemoTableColumns()
     Const PR_HAS_ATTACH As String = _
-        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
+        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
     ' Obtain Inbox
     Dim folder As Outlook.Folder = _
         CType(Application.Session.GetDefaultFolder( _
@@ -82,7 +82,7 @@ End Sub
 private void DemoTableColumns()
 {
     const string PR_HAS_ATTACH =
-        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
+        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
     // Obtain Inbox
     Outlook.Folder folder =
         Application.Session.GetDefaultFolder(
