@@ -1,29 +1,29 @@
 ---
-title: Élément de cellule (ligne RelLineTo) («Visio XML»)
+title: Élément de cellule (ligne RelLineTo) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 44d369f0-ab37-75ca-727e-b421d6f95ba7
-description: Contient les coordonnées x ou y du sommet de fin d'un segment de ligne droite en fonction de la largeur et de la hauteur d'une forme.
-ms.openlocfilehash: 63c9b2b87363ee798adc98eeeb780a30035a95e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Contient les coordonnées x ou y du sommet de fin d’un segment de ligne droite en fonction de la largeur et de la hauteur d’une forme.
+ms.openlocfilehash: 1a3277eac2b0f759d3da6cb93b5339f97a5ac876
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339759"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539417"
 ---
-# <a name="cell-element-rellineto-row-visio-xml"></a>Élément de cellule (ligne RelLineTo) («Visio XML»)
+# <a name="cell-element-rellineto-row-visio-xml"></a>Élément de cellule (ligne RelLineTo) (XML Visio)
 
-Contient les coordonnées x ou y du sommet de fin d'un segment de ligne droite en fonction de la largeur et de la hauteur d'une forme.
+Contient les coordonnées x ou y du sommet de fin d’un segment de ligne droite en fonction de la largeur et de la hauteur d’une forme.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |Master #. xml, page #. Xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Élément de ligne (géométrie)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelLineTo_Type](rellineto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du sommet de fin d'un segment de ligne droite en fonction de la largeur et de la hauteur d'une forme.  <br/> |
+|[Élément de ligne (géométrie)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelLineTo_Type](rellineto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du sommet de fin d’un segment de ligne droite en fonction de la largeur et de la hauteur d’une forme.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,19 +54,19 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd: String  <br/> |facultatif  <br/> |Indique que la formule génère une erreur. La valeur **E** est la valeur actuelle (chaîne de message d'erreur); la valeur de l'attribut **V** est la dernière valeur valide.  <br/> |Chaîne de message d'erreur.  <br/> |
-|F  <br/> |xsd: String  <br/> |facultatif  <br/> | Représente la formule de l'élément. Cet attribut peut contenir l'une des chaînes suivantes:  <br/>  ' (une formule) 'si la formule existe localement  <br/>  `No Formula`Si la formule est supprimée ou bloquée localement  <br/>  `Inh`Si la formule est héritée.  <br/> |Une formule.  <br/> |
+|E  <br/> |xsd: String  <br/> |facultatif  <br/> |Indique que la formule génère une erreur. La valeur **E** est la valeur actuelle (chaîne de message d’erreur); la valeur de l’attribut **V** est la dernière valeur valide.  <br/> |Chaîne de message d’erreur.  <br/> |
+|F  <br/> |xsd: String  <br/> |facultatif  <br/> | Représente la formule de l’élément. Cet attribut peut contenir l’une des chaînes suivantes:  <br/>  ' (une formule) 'si la formule existe localement  <br/>  `No Formula`Si la formule est supprimée ou bloquée localement  <br/>  `Inh`Si la formule est héritée.  <br/> |Une formule.  <br/> |
 |N  <br/> |xsd: String  <br/> |obligatoire  <br/> |Représente le nom de la cellule ShapeSheet.  <br/> |Nom de la cellule ShapeSheet.  <br/> Consultez la section Remarques ci-dessous.  <br/> |
 |U  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente une unité de mesure la valeur par défaut est DL.  <br/> |Unités de la cellule.  <br/> |
 |V  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |Valeur de la cellule ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L'attribut **N** de cet élément de **cellule** doit correspondre à l'un des jeux de valeurs limités qui correspondent aux cellules de la feuille ShapeSheet. RePortez-vous au tableau ci-dessous pour déterminer les valeurs de l'attribut **N** qui sont autorisées pour cet élément de **cellule** . 
+L’attribut **N** de cet élément de **cellule** doit correspondre à l’un des jeux de valeurs limités qui correspondent aux cellules de la feuille ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet élément de **cellule** . 
   
-|**Value**|**Description**|**Plus d’informations**|
+|**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X  <br/> |Coordonnée x du sommet de fin d'un segment de trait droit par rapport à la largeur de la forme.  <br/> |[RelLineTo Row (Geometry Section)](rellineto-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du sommet de fin d'un segment de trait droit par rapport à la hauteur de la forme.  <br/> |[RelLineTo Row (Geometry Section)](rellineto-row-geometry-section.md) <br/> |
+|X  <br/> |Coordonnée x du sommet de fin d’un segment de trait droit par rapport à la largeur de la forme.  <br/> |[RelLineTo Row (Geometry Section)](rellineto-row-geometry-section.md) <br/> |
+|v  <br/> |Coordonnée y du sommet de fin d’un segment de trait droit par rapport à la hauteur de la forme.  <br/> |[RelLineTo Row (Geometry Section)](rellineto-row-geometry-section.md) <br/> |
    
 

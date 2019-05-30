@@ -1,5 +1,5 @@
 ---
-title: Élément CommentEntry (complexType CommentList_Type) ('Visio XML')
+title: Élément CommentEntry (complexType CommentList_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b0653622-fa94-4889-68c2-94f3e7a83119
 description: Spécifie les propriétés utilisées pour identifier un commentaire dans un dessin.
-ms.openlocfilehash: 79d15b95f986826a4848c2dfbb003255d3482134
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6b4f20d632b54e7c96ef8181310e8ffab1abbd0f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329539"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540111"
 ---
-# <a name="commententry-element-commentlisttype-complextype-visio-xml"></a>Élément CommentEntry (complexType CommentList_Type) ('Visio XML')
+# <a name="commententry-element-commentlisttype-complextype-visio-xml"></a>Élément CommentEntry (complexType CommentList_Type) (XML Visio)
 
 Spécifie les propriétés utilisées pour identifier un commentaire dans un dessin.
   
@@ -23,7 +23,7 @@ Spécifie les propriétés utilisées pour identifier un commentaire dans un des
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |Comments. Xml  <br/> |
    
@@ -52,12 +52,12 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Faut  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Une valeur basée sur un qui identifie l'auteur.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|Faut  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Une valeur basée sur un qui identifie l’auteur.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
 |CommentID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Valeur unique qui identifie le commentaire dans une page de dessin.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
-|Date  <br/> |xsd: dateTime  <br/> |obligatoire  <br/> |Indique la date de création d'un commentaire.  <br/> |Valeurs du type xsd: dateTime.  <br/> |
-|Terminé  <br/> |xsd: Boolean  <br/> |facultatif  <br/> |Spécifie l'état actuel du commentaire.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
-|EditDate  <br/> |xsd: dateTime  <br/> |facultatif  <br/> |Indique la date de la dernière modification d'un commentaire.  <br/> |Valeurs du type xsd: dateTime.  <br/> |
+|Date  <br/> |xsd: dateTime  <br/> |obligatoire  <br/> |Indique la date de création d’un commentaire.  <br/> |Valeurs du type xsd: dateTime.  <br/> |
+|Terminé  <br/> |xsd: Boolean  <br/> |facultatif  <br/> |Spécifie l’état actuel du commentaire.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
+|EditDate  <br/> |xsd: dateTime  <br/> |facultatif  <br/> |Indique la date de la dernière modification d’un commentaire.  <br/> |Valeurs du type xsd: dateTime.  <br/> |
 |PageID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Valeur qui identifie la page de dessin sur laquelle se trouve le commentaire.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
-|ShapeID  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> |Valeur qui identifie la forme sur laquelle le commentaire est activé. Si aucun ShapeID n'est spécifié, le commentaire fait référence à la page de dessin.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|ShapeID  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> |Valeur qui identifie la forme sur laquelle le commentaire est activé. Si aucun ShapeID n’est spécifié, le commentaire fait référence à la page de dessin.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

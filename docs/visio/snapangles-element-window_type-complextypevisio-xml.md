@@ -1,29 +1,29 @@
 ---
-title: Élément SnapAngles (complexType Window_Type) ('Visio XML')
+title: Élément SnapAngles (complexType Window_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5997f374-303a-92b6-6dd3-87ef81104af4
-description: Contient une collection d'éléments SnapAngle.
-ms.openlocfilehash: 09a975b280a99fdc2535503b587efdd2143cf18b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Contient une collection d’éléments SnapAngle.
+ms.openlocfilehash: 4dff3d2fa42183c11d2a0ad78e4b4b36a3ce55e2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334635"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540363"
 ---
-# <a name="snapangles-element-windowtype-complextype-visio-xml"></a>Élément SnapAngles (complexType Window_Type) ('Visio XML')
+# <a name="snapangles-element-windowtype-complextype-visio-xml"></a>Élément SnapAngles (complexType Window_Type) (XML Visio)
 
-Contient une collection d'éléments **SnapAngle** . 
+Contient une collection d’éléments **SnapAngle** . 
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |Windows. Xml  <br/> |
    
@@ -48,7 +48,7 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |Contient un nombre à virgule flottante spécifiant un angle d'alignement en degrés.  <br/> |
+|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |Contient un nombre à virgule flottante spécifiant un angle d’alignement en degrés.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

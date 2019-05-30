@@ -1,5 +1,5 @@
 ---
-title: complexType forecastType (schéma d'informations météorologiques Outlook)
+title: complexType forecastType (schéma d’informations météorologiques Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6301d6b6-34fa-af8d-e682-605d35cfdf47
-description: Définit les paramètres relatifs aux conditions météorologiques de prévision d'un emplacement.
-ms.openlocfilehash: 75f20d7857fac85e1e95d23cf5ac826336648132
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Définit les paramètres relatifs aux conditions météorologiques de prévision d’un emplacement.
+ms.openlocfilehash: e799ebbea72daa1788aedbdcadbc523b5e4dff0d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361144"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540951"
 ---
-# <a name="forecasttype-complextype-outlook-weather-information-schema"></a>complexType forecastType (schéma d'informations météorologiques Outlook)
+# <a name="forecasttype-complextype-outlook-weather-information-schema"></a>complexType forecastType (schéma d’informations météorologiques Outlook)
 
-Définit les paramètres relatifs aux conditions météorologiques de prévision d'un emplacement.
+Définit les paramètres relatifs aux conditions météorologiques de prévision d’un emplacement.
   
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Fichier de schéma** <br/> |GetWeatherInfo. xsd  <br/> |
 |**Base d’extension** <br/> |Aucun  <br/> |
    
@@ -59,7 +59,7 @@ Aucun.
 |quotidienne  <br/> |XS: String  <br/> |obligatoire  <br/> |Spécifie un jour pour la prévision.  <br/> |Une valeur du type xs: String  <br/> |
 |important  <br/> |XS: Integer  <br/> |obligatoire  <br/> |Spécifie la température la plus élevée prévue.  <br/> |Valeur de type xs: Integer  <br/> |
 |assez  <br/> |XS: Integer  <br/> |obligatoire  <br/> |Spécifie la température minimale prévue.  <br/> |Valeur de type xs: Integer  <br/> |
-|PRECIP  <br/> |XS: Integer  <br/> |obligatoire  <br/> |Indique le pourcentage de probabilité de précipitation.  <br/> |Valeur de type xs: Integer  <br/> |
+|precip  <br/> |XS: Integer  <br/> |obligatoire  <br/> |Indique le pourcentage de probabilité de précipitation.  <br/> |Valeur de type xs: Integer  <br/> |
 |shortday  <br/> |XS: String  <br/> |obligatoire  <br/> |Spécifie un jour sous forme abrégée.  <br/> |Une valeur du type xs: String  <br/> |
 |skycodeday  <br/> |XS: Integer  <br/> |obligatoire  <br/> |Spécifie un code pour les conditions prévues.  <br/> |Valeur de type xs: Integer  <br/> |
 |skytextday  <br/> |XS: String  <br/> |obligatoire  <br/> |Spécifie un à deux mots qui décrivent les conditions prévues.  <br/> |Une valeur du type xs: String  <br/> |

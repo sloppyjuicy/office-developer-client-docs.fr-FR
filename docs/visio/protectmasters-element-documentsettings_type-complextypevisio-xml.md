@@ -1,22 +1,22 @@
 ---
-title: Élément ProtectMasters (complexType DocumentSettings_Type) ('Visio XML')
+title: Élément ProtectMasters (complexType DocumentSettings_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: edc46630-c320-6b4e-4747-961075dd5fd7
-description: Indique si l'utilisateur ne peut pas créer, modifier ou supprimer des formes de base. L'utilisateur peut toujours créer de nouvelles formes à partir d'une forme de base, quelle que soit la valeur de ce paramètre.
-ms.openlocfilehash: 2730fa3aa3f9f4f7529d6b939e48d3533e31e1f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Indique si l’utilisateur ne peut pas créer, modifier ou supprimer des formes de base. L’utilisateur peut toujours créer de nouvelles formes à partir d’une forme de base, quelle que soit la valeur de ce paramètre.
+ms.openlocfilehash: 34ace8c873b133f44ea7bd7c9c2e4127a103a760
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314818"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540692"
 ---
-# <a name="protectmasters-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectMasters (complexType DocumentSettings_Type) ('Visio XML')
+# <a name="protectmasters-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectMasters (complexType DocumentSettings_Type) (XML Visio)
 
-Indique si l'utilisateur ne peut pas créer, modifier ou supprimer des formes de base. L'utilisateur peut toujours créer de nouvelles formes à partir d'une forme de base, quelle que soit la valeur de ce paramètre. 
+Indique si l’utilisateur ne peut pas créer, modifier ou supprimer des formes de base. L’utilisateur peut toujours créer de nouvelles formes à partir d’une forme de base, quelle que soit la valeur de ce paramètre. 
   
 La plage de valeurs possibles pour cet élément est «0» ou «1». La valeur «0» indique que les utilisateurs peuvent créer, modifier ou supprimer des formes de base. La valeur «1» indique que les utilisateurs ne peuvent pas créer, modifier ou supprimer des formes de base.
   
@@ -25,7 +25,7 @@ La plage de valeurs possibles pour cet élément est «0» ou «1». La valeur �
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |document. Xml  <br/> |
    

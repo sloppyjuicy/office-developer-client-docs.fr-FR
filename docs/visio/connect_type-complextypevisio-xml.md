@@ -1,25 +1,25 @@
 ---
-title: ComplexType Connect_Type ('Visio XML')
+title: ComplexType Connect_Type (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2230976b-f2a8-425b-b8b0-a7fd5efb4536
-ms.openlocfilehash: 158fad1f3ec18bbc9565229338f4710c145c17e7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9dee421915cb3e69ef5223280a425e785d29e4ec
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327082"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538738"
 ---
-# <a name="connecttype-complextype-visio-xml"></a>ComplexType Connect_Type ('Visio XML')
+# <a name="connecttype-complextype-visio-xml"></a>ComplexType Connect_Type (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base d’extension** <br/> |Aucun  <br/> |
    

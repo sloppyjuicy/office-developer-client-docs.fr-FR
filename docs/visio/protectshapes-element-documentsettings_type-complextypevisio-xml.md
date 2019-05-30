@@ -1,29 +1,29 @@
 ---
-title: Élément ProtectShapes (complexType DocumentSettings_Type) ('Visio XML')
+title: Élément ProtectShapes (complexType DocumentSettings_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e3835fc6-0ae6-b8c3-b1d0-bf893d4a9470
-description: Indique si l'utilisateur ne peut pas sélectionner les formes dont l'élément LockSelect est défini sur 1.
-ms.openlocfilehash: 9f7910123c00a8fd4f5ce47ef099c8c6581f8c07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Indique si l’utilisateur ne peut pas sélectionner les formes dont l’élément LockSelect est défini sur 1.
+ms.openlocfilehash: f022c5a0be37f18c0cf0c10dbf18e6a90065e911
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346801"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540664"
 ---
-# <a name="protectshapes-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectShapes (complexType DocumentSettings_Type) ('Visio XML')
+# <a name="protectshapes-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectShapes (complexType DocumentSettings_Type) (XML Visio)
 
-Indique si l'utilisateur ne peut pas sélectionner les formes dont l'élément **LockSelect** est défini sur 1. 
+Indique si l’utilisateur ne peut pas sélectionner les formes dont l’élément **LockSelect** est défini sur 1. 
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ProtectShapes_Type](protectshapes_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |document. Xml  <br/> |
    

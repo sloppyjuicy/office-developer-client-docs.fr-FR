@@ -8,30 +8,30 @@ f1_keywords:
 - Vis_DSS.chm82251750
 localization_priority: Normal
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
-description: Représente la coordonnée y d'une forme en coordonnées locales. Ce tableau décrit la cellule Y suivant la ligne sur laquelle elle se trouve.
-ms.openlocfilehash: 9e823b8d21682b419a70ce498016abf575f36f6b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+description: Représente la coordonnée y d’une forme en coordonnées locales. Ce tableau décrit la cellule Y suivant la ligne sur laquelle elle se trouve.
+ms.openlocfilehash: 7dea96b544c84f09abe1d72304da0bacaa09432f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420940"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540489"
 ---
 # <a name="y-cell-geometry-section"></a>Y, cellule (section Geometry)
 
-Représente la coordonnée *y* d'une forme en coordonnées locales. Ce tableau décrit la cellule Y suivant la ligne sur laquelle elle se trouve. 
+Représente la coordonnée *y* d’une forme en coordonnées locales. Ce tableau décrit la cellule Y suivant la ligne sur laquelle elle se trouve. 
   
-|**Ligne**|**Description**|
+|Ligne|Description|
 |:-----|:-----|
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Si la ligne MoveTo est la première ligne de la section, la cellule Y représente la coordonnée *y* du premier sommet d'un chemin. Si la ligne MoveTo apparaît entre deux lignes, la cellule Y représente la coordonnée *y* du premier sommet après la rupture du chemin.  <br/> |
-|[LineTo](lineto-row-geometry-section.md) <br/> | Coordonnée *y* du sommet de fin d'un segment de trait droit.  <br/> |
-|[ArcTo](arcto-row-geometry-section.md) <br/> | Coordonnée *y* du sommet de fin d'un arc.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée *y* du sommet de fin d'un arc elliptique.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> | Coordonnée *y* du sommet de fin d'une polyligne.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Coordonnée *y* du dernier point de contrôle d'une courbe B-spline rationnelle inuniforme (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | Coordonnée *y* du deuxième point de contrôle d'une spline.  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> | Coordonnée *y* d'un point de contrôle.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordonnée *y* d'un point sur la ligne infinie.  <br/> |
-|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *y* du centre de l'ellipse.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Si la ligne MoveTo est la première ligne de la section, la cellule Y représente la coordonnée *y* du premier sommet d’un chemin. Si la ligne MoveTo apparaît entre deux lignes, la cellule Y représente la coordonnée *y* du premier sommet après la rupture du chemin.  <br/> |
+|[LineTo](lineto-row-geometry-section.md) <br/> | Coordonnée *y* du sommet de fin d’un segment de trait droit.  <br/> |
+|[ArcTo](arcto-row-geometry-section.md) <br/> | Coordonnée *y* du sommet de fin d’un arc.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée *y* du sommet de fin d’un arc elliptique.  <br/> |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> | Coordonnée *y* du sommet de fin d’une polyligne.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Coordonnée *y* du dernier point de contrôle d’une courbe B-spline rationnelle inuniforme (NURBS).  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | Coordonnée *y* du deuxième point de contrôle d’une spline.  <br/> |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> | Coordonnée *y* d’un point de contrôle.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordonnée *y* d’un point sur la ligne infinie.  <br/> |
+|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *y* du centre de l’ellipse.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

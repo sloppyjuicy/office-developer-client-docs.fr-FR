@@ -1,29 +1,29 @@
 ---
-title: Élément HeaderMargin (complexType HeaderFooter_Type) ('Visio XML')
+title: Élément HeaderMargin (complexType HeaderFooter_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2bb0f4c5-eacf-e09b-2fce-dcff2d927557
-description: Cette énumération spécifie la marge de l'en-tête d'un document.
-ms.openlocfilehash: d8126ae73b1fb330234698343d14468fcbb3eed8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Cette énumération spécifie la marge de l’en-tête d’un document.
+ms.openlocfilehash: b7c055e818c490399df66e3e7ba626afc9645851
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351666"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539126"
 ---
-# <a name="headermargin-element-headerfootertype-complextype-visio-xml"></a>Élément HeaderMargin (complexType HeaderFooter_Type) ('Visio XML')
+# <a name="headermargin-element-headerfootertype-complextype-visio-xml"></a>Élément HeaderMargin (complexType HeaderFooter_Type) (XML Visio)
 
-Cette énumération spécifie la marge de l'en-tête d'un document.
+Cette énumération spécifie la marge de l’en-tête d’un document.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |document. Xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l'en-tête et le pied de page d'un document.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de page d’un document.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

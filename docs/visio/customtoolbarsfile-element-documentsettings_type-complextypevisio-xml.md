@@ -1,29 +1,29 @@
 ---
-title: Élément CustomToolbarsFile (complexType DocumentSettings_Type) ('Visio XML')
+title: Élément CustomToolbarsFile (complexType DocumentSettings_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c9789239-a919-97f6-8109-126bb1038be6
-description: Contient le nom du fichier d'interface utilisateur Microsoft Visio (. VSU) qui définit les barres d'outils et les barres d'état personnalisées d'un document.
-ms.openlocfilehash: 3744caeb09e1fe865c9e669b9cacfada4cbef1c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Contient le nom du fichier d’interface utilisateur Microsoft Visio (. VSU) qui définit les barres d’outils et les barres d’état personnalisées d’un document.
+ms.openlocfilehash: c374bc571163936ccdd4812bcf58a8db19a81f1e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282858"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539233"
 ---
-# <a name="customtoolbarsfile-element-documentsettingstype-complextype-visio-xml"></a>Élément CustomToolbarsFile (complexType DocumentSettings_Type) ('Visio XML')
+# <a name="customtoolbarsfile-element-documentsettingstype-complextype-visio-xml"></a>Élément CustomToolbarsFile (complexType DocumentSettings_Type) (XML Visio)
 
-Contient le nom du fichier d'interface utilisateur Microsoft Visio (. VSU) qui définit les barres d'outils et les barres d'état personnalisées d'un document.
+Contient le nom du fichier d’interface utilisateur Microsoft Visio (. VSU) qui définit les barres d’outils et les barres d’état personnalisées d’un document.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[CustomToolbarsFile_Type](customtoolbarsfile_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |document. Xml  <br/> |
    

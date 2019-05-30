@@ -1,29 +1,29 @@
 ---
-title: Élément ProtectBkgnds (complexType DocumentSettings_Type) ('Visio XML')
+title: Élément ProtectBkgnds (complexType DocumentSettings_Type) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 99b7d89e-b482-ef19-1683-667095f8114a
-description: Indique si l'utilisateur ne peut pas supprimer ou modifier des pages d'arrière-plan.
-ms.openlocfilehash: 0a6dae9e84b717146c28bd3466169092254d3341
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Indique si l’utilisateur ne peut pas supprimer ou modifier des pages d’arrière-plan.
+ms.openlocfilehash: b053eca7b669b60bedd34bc4a6798f9b9182b529
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315175"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540748"
 ---
-# <a name="protectbkgnds-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectBkgnds (complexType DocumentSettings_Type) ('Visio XML')
+# <a name="protectbkgnds-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectBkgnds (complexType DocumentSettings_Type) (XML Visio)
 
-Indique si l'utilisateur ne peut pas supprimer ou modifier des pages d'arrière-plan.
+Indique si l’utilisateur ne peut pas supprimer ou modifier des pages d’arrière-plan.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ProtectBkgnds_Type](protectbkgnds_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |document. Xml  <br/> |
    

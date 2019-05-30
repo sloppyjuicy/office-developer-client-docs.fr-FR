@@ -1,29 +1,29 @@
 ---
-title: CP, élément (Text_Type complexType) ('Visio XML')
+title: CP, élément (Text_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4edd0a3f-e433-bf54-34cd-3b05fd10a5a5
-description: Marque le début d'une exécution de propriétés de caractère qui est mise en forme en fonction de l'élément char correspondant. L'exécution est définie à la fin du texte ou jusqu'à la balise suivante.
-ms.openlocfilehash: eb7fd30c2314e159dc3649e87cd63bd4090ba283
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Marque le début d’une exécution de propriétés de caractère qui est mise en forme en fonction de l’élément char correspondant. L’exécution est définie à la fin du texte ou jusqu’à la balise suivante.
+ms.openlocfilehash: 70f7d3f8333ff0f2c109862455fbd8cc3b340bf4
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282949"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540559"
 ---
-# <a name="cp-element-texttype-complextype-visio-xml"></a>CP, élément (Text_Type complexType) ('Visio XML')
+# <a name="cp-element-texttype-complextype-visio-xml"></a>CP, élément (Text_Type complexType) (Visio XML)
 
-Marque le début d'une exécution de propriétés de caractère qui est mise en forme en fonction de l'élément char correspondant. L'exécution est définie à la fin du texte ou jusqu'à la balise suivante.
+Marque le début d’une exécution de propriétés de caractère qui est mise en forme en fonction de l’élément char correspondant. L’exécution est définie à la fin du texte ou jusqu’à la balise suivante.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |page #. xml, Master #. Xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Contient le texte d'une forme.  <br/> |
+|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Contient le texte d’une forme.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,6 +52,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Index de l'élément char représenté par cette propriété.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Index de l’élément char représenté par cette propriété.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
    
 

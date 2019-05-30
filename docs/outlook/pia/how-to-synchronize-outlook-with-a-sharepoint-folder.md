@@ -7,12 +7,12 @@ ms:contentKeyID: 55119853
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 1b6c88d40236ffb6cc3201b659a39e4d869de188
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ab8da62d75b5714967c3fbdc0d0f985370e617aa
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335391"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540636"
 ---
 # <a name="synchronize-outlook-with-a-sharepoint-folder"></a>Synchroniser Outlook avec un dossier SharePoint
 
@@ -29,7 +29,7 @@ Lors de la connexion à un dossier SharePoint par programmation, vous devez dét
 
 Vous disposez à présent de l’URL appropriée pour créer la relation de partage. Pour synchroniser le nouveau dossier SharePoint dans Outlook, copiez et collez l'URL pour l'affecter à la variable de type chaîne   dans la deuxième procédure, AddSpsFolder. AddSpsFolder automatise la synchronisation du nouveau dossier SharePoint dans Outlook à l'aide de la méthode **NameSpace.OpenSharedFolder**avec une`stssync://`URL (dans ce cas, l'URL produite par la procédure DisplaySharePointUrl ). AddSpsFolderalso fournit aussi un nom de dossier personnalisé, « Example SPS Calendar » (Exemple de calendrier SPS), et spécifie à Outlook d'utiliser la durée de vie par défaut(TTL) pour le dossier. Les dossiers SharePoint téléchargent toujours les pièces jointes d’élément, afin que vous ne deviez pas à le spécifier ici.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -40,7 +40,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void DisplaySharePointUrl()
 {
     const string PROP_SYNC_URL = 
-        "https://schemas.microsoft.com/mapi/id/{00062040-0000-0000-C000-000000000046}/8A24001E";
+        "http://schemas.microsoft.com/mapi/id/{00062040-0000-0000-C000-000000000046}/8A24001E";
 
     Outlook.Folder folder = Application.ActiveExplorer().CurrentFolder as Outlook.Folder;
     Outlook.Table table = folder.GetTable(Type.Missing, Outlook.OlTableContents.olHiddenItems);

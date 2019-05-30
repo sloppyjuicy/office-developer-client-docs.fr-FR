@@ -1,5 +1,5 @@
 ---
-title: Élément de ligne (section données de forme) ('Visio XML')
+title: Élément de ligne (section données de forme) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9eb74ae8-ff42-6e34-30e2-2080bf8b5754
 description: Spécifie une entrée de données de forme pour l’Association de données à une forme.
-ms.openlocfilehash: 7857ad8a28e11d6ed3ba34145ffc0606f306120f
-ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
+ms.openlocfilehash: 4c5644aa2088dcaf3be81ea9aeaa549c911a31f6
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "32283485"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538269"
 ---
-# <a name="row-element-shape-data-section-visio-xml"></a>Élément de ligne (section données de forme) ('Visio XML')
+# <a name="row-element-shape-data-section-visio-xml"></a>Élément de ligne (section données de forme) (XML Visio)
 
 Spécifie une entrée de données de forme pour l’Association de données à une forme.
   
@@ -23,7 +23,7 @@ Spécifie une entrée de données de forme pour l’Association de données à u
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Forme type_de_données](propertyrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
 |**Parties de document** <br/> |Master #. xml, page #. Xml  <br/> |
    

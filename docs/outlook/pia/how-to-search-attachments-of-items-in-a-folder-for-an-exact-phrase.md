@@ -7,12 +7,12 @@ ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: f237a2268fd287e96959dfc0522103b47e55d37b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 615b90a8423493a9e202e51993eea1c8127a9939
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316057"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540895"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Recherche d’une expression exacte dans les pièces jointes des éléments d’un dossier
 
@@ -22,11 +22,11 @@ Cet exemple recherche la chaîne de recherche exacte « office » dans les pi�
 
 Cet exemple de code utilise une syntaxe DASL (DAV Searching and Locating) pour spécifier une requête. Pour construire le filtre, l’exemple de code vérifie d’abord si la recherche instantanée est activée dans la banque par défaut pour déterminer s’il faut utiliser le mot clé **ci\_phrasematch** pour trouver une correspondance exacte avec « office » dans toutes les pièces jointes. L’exemple applique ensuite le filtre à la méthode [GetTable](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) sur la Boîte de réception et obtient les résultats dans un objet [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)). L’exemple de code affiche ensuite l’objet de chaque élément renvoyé dans l’objet **Table**.
 
-L’exemple de code spécifie la propriété **Attachments** d’un élément à l’aide d’une représentation d’espace de noms, https://schemas.microsoft.com/mapi/proptag/0x0EA5001E. La syntaxe à employer pour utiliser le mot clé **ci\_phrasematch** est la suivante :
+L’exemple de code spécifie la propriété **Attachments** d’un élément à l’aide d’une représentation d’espace de noms, http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. La syntaxe à employer pour utiliser le mot clé **ci\_phrasematch** est la suivante :
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -42,7 +42,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 Private Sub DemoSearchAttachments()
     Dim filter As String
     Const PR_SEARCH_ATTACHMENTS As String = _
-        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
+        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
     If (Application.Session.DefaultStore.IsInstantSearchEnabled) Then
         filter = "@SQL=" & Chr(34) _
             & PR_SEARCH_ATTACHMENTS & Chr(34) _
@@ -65,7 +65,7 @@ private void DemoSearchAttachments()
 {
     string filter;
     const string PR_SEARCH_ATTACHMENTS =
-        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
     if (Application.Session.DefaultStore.IsInstantSearchEnabled)
     {
         filter = "@SQL=" + "\""
