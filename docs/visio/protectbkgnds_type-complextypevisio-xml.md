@@ -1,29 +1,29 @@
 ---
-title: ComplexType ProtectBkgnds_Type ('Visio XML')
+title: ComplexType ProtectBkgnds_Type (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: bf2cbdaa-2840-8d0b-da5f-4989bc8cb7d8
-ms.openlocfilehash: ca5bb209ec7a75e8972336f0977447c234db8478
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3dc894fcc7f442a2d5f5797a150369f3653b4fd3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307755"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540713"
 ---
-# <a name="protectbkgndstype-complextype-visio-xml"></a><span data-ttu-id="8d2a0-102">ComplexType ProtectBkgnds_Type ('Visio XML')</span><span class="sxs-lookup"><span data-stu-id="8d2a0-102">ProtectBkgnds_Type complexType ('Visio XML')</span></span>
+# <a name="protectbkgndstype-complextype-visio-xml"></a><span data-ttu-id="64859-102">ComplexType ProtectBkgnds_Type (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="64859-102">ProtectBkgnds_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="8d2a0-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="8d2a0-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="64859-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="64859-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8d2a0-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="8d2a0-104">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="8d2a0-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="8d2a0-105">**Schema file**</span></span> <br/> |<span data-ttu-id="8d2a0-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="8d2a0-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="8d2a0-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="8d2a0-107">**Extension base**</span></span> <br/> |<span data-ttu-id="8d2a0-108">xsd: Boolean</span><span class="sxs-lookup"><span data-stu-id="8d2a0-108">xsd:boolean</span></span>  <br/> |
+|<span data-ttu-id="64859-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="64859-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="64859-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="64859-105">**Schema file**</span></span> <br/> |<span data-ttu-id="64859-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="64859-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="64859-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="64859-107">**Extension base**</span></span> <br/> |<span data-ttu-id="64859-108">xsd: Boolean</span><span class="sxs-lookup"><span data-stu-id="64859-108">xsd:boolean</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="8d2a0-109">Définition</span><span class="sxs-lookup"><span data-stu-id="8d2a0-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="64859-109">Définition</span><span class="sxs-lookup"><span data-stu-id="64859-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="ProtectBkgnds_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "32307755"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="8d2a0-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="8d2a0-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="64859-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="64859-110">Elements and attributes</span></span>
 
-<span data-ttu-id="8d2a0-111">Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition.</span><span class="sxs-lookup"><span data-stu-id="8d2a0-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="64859-111">Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition.</span><span class="sxs-lookup"><span data-stu-id="64859-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="8d2a0-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="8d2a0-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="64859-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="64859-112">Child elements</span></span>
 
-<span data-ttu-id="8d2a0-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="8d2a0-113">None.</span></span>
+<span data-ttu-id="64859-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="64859-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8d2a0-114">Attributs</span><span class="sxs-lookup"><span data-stu-id="8d2a0-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="64859-114">Attributs</span><span class="sxs-lookup"><span data-stu-id="64859-114">Attributes</span></span>
 
-<span data-ttu-id="8d2a0-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="8d2a0-115">None.</span></span>
+<span data-ttu-id="64859-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="64859-115">None.</span></span>
   
 
