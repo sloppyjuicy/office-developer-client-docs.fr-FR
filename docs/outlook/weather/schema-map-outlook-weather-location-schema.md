@@ -1,5 +1,5 @@
 ---
-title: Mappage de schéma (schéma d'emplacement météorologique Outlook)
+title: Mappage de schéma (schéma d’emplacement météorologique Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
-description: Cette rubrique présente la définition de schéma pour le schéma XML d'emplacement météorologique Outlook.
-ms.openlocfilehash: fa14fd05a26bd89820c18e8d6523d80e60616f0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Cette rubrique présente la définition de schéma pour le schéma XML d’emplacement météorologique Outlook.
+ms.openlocfilehash: e35a993c44c9f54168a7ad5c38e13e850d530a2d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355138"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541280"
 ---
-# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="a7915-103">Mappage de schéma (schéma d'emplacement météorologique Outlook)</span><span class="sxs-lookup"><span data-stu-id="a7915-103">Schema map (Outlook Weather Location Schema)</span></span>
+# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="97358-103">Mappage de schéma (schéma d’emplacement météorologique Outlook)</span><span class="sxs-lookup"><span data-stu-id="97358-103">Schema map (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="a7915-104">Cette rubrique présente la définition de schéma pour le schéma XML d'emplacement météorologique Outlook.</span><span class="sxs-lookup"><span data-stu-id="a7915-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
+<span data-ttu-id="97358-104">Cette rubrique présente la définition de schéma pour le schéma XML d’emplacement météorologique Outlook.</span><span class="sxs-lookup"><span data-stu-id="97358-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
 xmlns:xs="https://www.w3.org/2001/XMLSchema"
-targetNamespace= "https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
-xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+targetNamespace= "http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
 >
   <!-- get weather location  -->
   <!-- example query: https://weather.service.msn.com/data.aspx?outputview=search&amp;weasearchstr=tsurumi -->
