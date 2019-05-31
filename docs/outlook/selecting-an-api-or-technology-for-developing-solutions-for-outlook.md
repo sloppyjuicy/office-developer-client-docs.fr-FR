@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
 localization_priority: Priority
-ms.openlocfilehash: 54931ea9235e549a8fb4338c425123b99c2b11e4
-ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
+ms.openlocfilehash: ac7ad2f183ed71ae893745429c6d27793a983be3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34250425"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538395"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 
@@ -293,7 +293,7 @@ En règle générale, utilisez le modèle objet ou l’assembly PIA si votre sol
 ![Process Outlook events](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
 ![Automate Outlook](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)-->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Autres scénarios pris en charge par le modèle d’objet ou PIA depuis Outlook 2007
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Scénarios pris en charge par le modèle d’objet ou PIA depuis Outlook 2007
 
 En plus des scénarios de référence, si votre solution Outlook prend en charge l’un des scénarios indiqués dans la liste suivante, et que vous prévoyez d’exécuter votre solution sur Outlook 2007 ou version ultérieure, mais pas sur des versions antérieures, vous pouvez également utiliser le modèle objet ou l’assembly PIA. Cette section indique les principaux objets ou membres que vous pouvez utiliser dans le modèle objet Outlook pour étendre chaque scénario (à l’exception de l’interface [IDTExtensibility2](https://docs.microsoft.com/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017) dans le modèle objet Automation de Visual Studio, et l’interface [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) dans le modèle objet Office, que vous pouvez intégrer au modèle objet Outlook). 
 
@@ -325,7 +325,7 @@ En plus des scénarios de référence, si votre solution Outlook prend en charge
 ![Store private data for solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
 -->
 
-### <a name="more-scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Autres scénarios pris en charge par le modèle d’objet ou PIA depuis Outlook 2010
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Scénarios pris en charge par le modèle d’objet ou PIA depuis Outlook 2010
 
 Si vous prévoyez d’exécuter votre solution Outlook sur Outlook 2010, et non sur les versions antérieures, vous pouvez choisir d’utiliser le modèle objet ou l’assembly PIA pour prendre en charge les scénarios indiqués à la prochaine section. Cette section indique les objets ou membres principaux que vous pouvez utiliser dans le modèle objet Outlook pour étendre chaque scénario (à l’exception des interfaces [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl), [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) et [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) qui se trouvent dans le modèle objet Office, que vous pouvez intégrer au modèle objet Outlook). 
    
@@ -347,7 +347,7 @@ Si vous prévoyez d’exécuter votre solution Outlook sur Outlook 2010, et non
 ![Organize solution-specific folders](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
 -->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>Autres scénarios pris en charge par le modèle d’objet ou PIA depuis Outlook 2013
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>Scénarios pris en charge par le modèle d’objet ou PIA depuis Outlook 2013
 
 Si vous prévoyez d’exécuter votre solution sur Outlook 2013, et non sur les versions antérieures, vous pouvez utiliser le modèle objet ou l’assembly PIA afin qu’il prenne en charge les scénarios indiqués dans les ressources suivantes.
 
