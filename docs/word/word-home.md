@@ -34,8 +34,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les ki
   
 ### <a name="code-samples"></a>Exemples de code
   
-- 
-  [Exemples de code Word dans le centre de développement Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
+- [Exemples de code Word dans le centre de développement Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
   
 ### <a name="other-resources"></a>Autres ressources
   
