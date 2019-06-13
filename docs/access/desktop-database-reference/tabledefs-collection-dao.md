@@ -1,5 +1,5 @@
 ---
-title: Collection TableDefs (DAO)
+title: TableDefs, collection (DAO)
 TOCTitle: TableDefs Collection
 ms:assetid: a2986b02-0437-d6ac-7bbb-c43f5225c3fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820997(v=office.15)
@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f16f44b57a690aa58efdff9b00341df5023c293f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314174"
 ---
-# <a name="tabledefs-collection-dao"></a>Collection TableDefs (DAO)
+# <a name="tabledefs-collection-dao"></a>TableDefs, collection (DAO)
 
-**S’applique à :** Access 2013 | Office 2013
+**S’applique à** : Access 2013 | Office 2013
 
 Une collection **TableDefs** contient tous les objets **TableDef** stockés dans une base de données (espaces de travail Microsoft Access uniquement).
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez manipuler une définition de table à l'aide de l'objet **TableDef** et de ses méthodes et propriétés.
+Vous pouvez manipuler une définition de table à l’aide de l’objet **TableDef** et de ses méthodes et propriétés.
 
-La collection par défaut d'un objet **Database** est la collection **TableDefs**.
+La collection par défaut d’un objet **Database** est la collection **TableDefs**.
 
-Pour faire référence à un objet **TableDef** dans une collection par son nombre ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
+Pour faire référence à un objet **TableDef** dans une collection par son nombre ordinal ou par son paramètre de propriété **Name**, utilisez l’une des formes de syntaxe suivantes :
 
 **TableDefs**(0)
 
-**TableDefs** (« nom »)
+**TableDefs**("nom")
 
 **TableDefs**\!\[nom\]
 
-**Lien fourni par **la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
+**Liens fournis par** la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est le forum d’aide et wiki de Microsoft Access de référence.
 
   - [Ré-éditeur de liens, serveurs principaux multiples](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
@@ -42,7 +42,7 @@ Pour faire référence à un objet **TableDef** dans une collection par son nomb
 
 ## <a name="example"></a>Exemple
 
-Cet exemple crée un objet **TableDef** et l'ajoute à la collection **TableDefs** de l'objet de la base de données Northwind. Il énumère ensuite les collections **TableDefs** et **Properties** du nouvel objet **TableDef**.
+Cet exemple crée un objet **TableDef** et l’ajoute à la collection **TableDefs** de l’objet de la base de données Northwind. Il énumère ensuite les collections **TableDefs** et **Properties** du nouvel objet **TableDef**.
 
 ```vb
     Sub TableDefX() 
