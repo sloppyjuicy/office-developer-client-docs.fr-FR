@@ -1,7 +1,7 @@
 ---
 title: IConverterSessionMIMEToMAPI
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 09/06/2019
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 356f4470be26ae3803a53af1cec34b3ac6eb0cc9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: 'Dernière modification : septembre 06, 2019'
+ms.openlocfilehash: f6f671cbfd5e14d602aaa31d31e54e859f068593
+ms.sourcegitcommit: 27a9f3568318470e7ee09ad93a90c3f80d3ef0cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326928"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790770"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -25,7 +25,7 @@ ms.locfileid: "32326928"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-ConVertit un flux MIME en message MAPI.
+Convertit un flux MIME en message MAPI.
   
 ```cpp
 HRESULT IConverterSession:: MIMEToMAPI ( 
@@ -42,9 +42,9 @@ HRESULT IConverterSession:: MIMEToMAPI (
   
 > dans Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) à un flux MIME. 
     
- _PMSG_
+ _pmsg_
   
-> remarquer Pointeur vers le message à charger. Voir mapidefs. h pour la définition de type de **LPMESSAGE**.
+> dans Pointeur vers le message à charger. L’appelant doit fournir un message pour que l’API le remplisse, afin que l’objet soit placé [in]. Voir mapidefs. h pour la définition de type de **LPMESSAGE**.
     
  _pszSrcSrv_
   
@@ -52,7 +52,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
     
  _ulFlags_
   
-> dans Ce paramètre identifie toute action spéciale à effectuer lors de la conversion. Elle doit être égale à zéro (0) si aucune action spécifique n'est effectuée, ou une combinaison des valeurs suivantes:
+> dans Ce paramètre identifie toute action spéciale à effectuer lors de la conversion. Elle doit être égale à zéro (0) si aucune action spécifique n’est effectuée, ou une combinaison des valeurs suivantes :
     
 CCSF_EMBEDDED_MESSAGE
   
@@ -77,7 +77,7 @@ CCSF_GLOBAL_MESSAGE
 
 E_INVALIDARG
   
-> Indique que _pstm_ est **null**, _PMSG_ est **null**ou _ulFlags_ n'est pas valide. 
+> Indique que _pstm_ est **null**, _PMSG_ est **null**ou _ulFlags_ n’est pas valide. 
     
 ## <a name="remarks"></a>Remarques
 
