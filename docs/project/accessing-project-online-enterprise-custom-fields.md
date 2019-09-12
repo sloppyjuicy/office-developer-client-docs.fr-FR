@@ -206,8 +206,7 @@ La méthode ne vérifie pas si un projet utilise un champ personnalisé d’entr
 ## <a name="see-also"></a>Voir aussi
 
 - [Portail de développement Project](https://developer.microsoft.com/fr-FR/project)
-- 
-  [Vue d’ensemble : champs personnalisés d’entreprise et tables de choix](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [Vue d’ensemble : champs personnalisés d’entreprise et tables de choix](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [Champs personnalisés locaux et d’entreprise](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [Ajouter ou modifier des champs personnalisés d’entreprise dans Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
