@@ -37,7 +37,7 @@ Si vous débutez en tant que développeur de solutions pour Outlook, consultez [
     
 ## <a name="related-sections"></a>Sections connexes
 
-- [Exemples MAPI (en anglais)](mapi-samples.md) 
+- [Exemples MAPI](mapi-samples.md) 
 - [Concepts MAPI](mapi-concepts.md)
 - [Référence MAPI](mapi-reference.md)
   

@@ -41,7 +41,7 @@ Cette section décrit les éléments de programmation MAPI.
 
 - [Référence MAPI Outlook](outlook-mapi-reference.md) 
 - [Mise en route avec la référence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
-- [Exemples MAPI (en anglais)](mapi-samples.md)
+- [Exemples MAPI](mapi-samples.md)
 - [Concepts MAPI](mapi-concepts.md)
   
 

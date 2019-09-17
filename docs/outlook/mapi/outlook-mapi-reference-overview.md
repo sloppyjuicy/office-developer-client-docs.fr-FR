@@ -65,6 +65,6 @@ Le reste de cette référence est classé dans les trois types d’informations 
 ## <a name="see-also"></a>Voir aussi
 
 - [Mise en route avec la référence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
-- [Exemples MAPI (en anglais)](mapi-samples.md)
+- [Exemples MAPI](mapi-samples.md)
 - [Concepts MAPI](mapi-concepts.md)
 
