@@ -1,17 +1,17 @@
 ---
 title: Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
-manager: soliver
-ms.date: 05/21/2019
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
 localization_priority: Priority
-ms.openlocfilehash: ac7ad2f183ed71ae893745429c6d27793a983be3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 60e02d25b53e494f2552622321a3f68921e84000
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538395"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819314"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 
@@ -67,7 +67,7 @@ Les tableaux de cette section définissent les critères d'évaluation dans les 
 
 Depuis la version Office 2013, les développeurs peuvent utiliser la plateforme des Compléments Office afin d'étendre le contenu et les services web dans le contexte de clients riches et web Office. Une Complément Office est une page web développée à l'aide des technologies web courantes, hébergée dans une application cliente Office (telle qu'Outlook) et qui peut être exécutée en local ou dans le cloud. Parmi les quelques types d'Compléments Office, celui pris en charge par Outlook est nommé applications de messagerie. Si le modèle objet, l'assembly PIA et MAPI sont souvent utilisés pour automatiser Outlook au niveau de l'application, vous pouvez utiliser l'interface API JavaScript pour Office afin d'interagir à un niveau d'élément avec le contenu et les propriétés du message électronique, de la demande de réunion ou du rendez-vous. Vous pouvez publier des applications de messagerie dans l'Office Store ou un catalogue Exchange interne. 
   
-Les utilisateurs finals et les administrateurs peuvent installer des applications de messagerie sur une boîte aux lettres Exchange et les utiliser dans le client riche Outlook, ainsi que dans Outlook Web App. En tant que développeur, vous pouvez choisir de rendre votre application de messagerie disponible uniquement sur ordinateur de bureau, ou également sur tablette et smartphone. La figure 1 montre un exemple d'une application de messagerie YouTube, qui est décrite en détail dans l'article [Exemple : Créer une application de messagerie pour visualiser des vidéos YouTube dans Outlook](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-01c9248f). Cette application de messagerie permet aux utilisateurs finals de sélectionner l'URL d'une vidéo YouTube et de regarder la vidéo dans Outlook ou Outlook Web App sur ordinateur de bureau ou tablette.
+Les utilisateurs finals et les administrateurs peuvent installer des applications de messagerie sur une boîte aux lettres Exchange et les utiliser dans le client riche Outlook, ainsi que dans Outlook Web App. En tant que développeur, vous pouvez choisir de rendre votre application de messagerie disponible uniquement sur ordinateur de bureau, ou également sur tablette et smartphone. La figure 1 montre un exemple d'une application de messagerie YouTube, qui est décrite en détail dans l'article [Exemple : Créer une application de messagerie pour visualiser des vidéos YouTube dans Outlook](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples). Cette application de messagerie permet aux utilisateurs finals de sélectionner l'URL d'une vidéo YouTube et de regarder la vidéo dans Outlook ou Outlook Web App sur ordinateur de bureau ou tablette.
   
 **Figure 1. L'application de messagerie YouTube est active pour le message sélectionné, qui contient une URL vers une vidéo sur YouTube.com**
 
@@ -435,8 +435,10 @@ Les compléments sont la solution de choix de l'automatisation d'Outlook car, ce
 Outlook prend en charge l'automatisation par des compléments et des applications autonomes, écrites dans des langages managés ou non managés. C# et Visual Basic sont les langages managés les plus couramment utilisés. Les outils C++ et Delphi sont plus courants dans le développement non managé. L'expertise disponible est un élément à prendre en compte lors du choix entre développement managé et non managé. 
   
 Si votre solution utilise uniquement le modèle objet, vous pouvez envisager de développer une solution gérée à l'aide de l'assembly PIA ou des outils de développement Office dans Visual Studio. Ces derniers fournissent des modèles de projet et des concepteurs visuels qui simplifient la création d'interfaces utilisateur personnalisées et le développement de solutions Office.
+
+En revanche, Microsoft ne prend pas en charge MAPI dans du code managé car MAPI a été développé avant .NET Framework et que Microsoft ne fournit pas de wrappers managés pour MAPI. Si vous utilisez MAPI, vous devez développer une solution non gérée. Pour plus d'informations, voir [Règles de prise en charge pour le développement de messagerie côté client ](https://support.office.com/article/Best-practices-for-Outlook-f90e5f69-8832-4d89-95b3-bfdf76c82ef8).
   
-En revanche, Microsoft ne prend pas en charge MAPI dans du code managé car MAPI a été développé avant .NET Framework et que Microsoft ne fournit pas de wrappers managés pour MAPI. Si vous utilisez MAPI, vous devez développer une solution non gérée. Pour plus d'informations, voir [Règles de prise en charge pour le développement de messagerie côté client ](https://support.microsoft.com/kb/266353/en-us).
+## <a name="niche-apis-and-technologies"></a>API et technologies ciblées
 
 <a name="OLSelectAPI_NicheAPI"> </a>
 
@@ -492,11 +494,11 @@ Après avoir choisi les API ou technologies à utiliser dans votre solution, vou
 
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
 
-## <a name="see-also-office-add-ins"></a>Voir aussi : compléments Office
-
-[Vue d'ensemble de la plateforme des compléments pour Office](https://msdn.microsoft.com/library/e64de870-ce22-4331-92e7-76d35279bf91%28Office.15%29.aspx) fournit une bonne introduction sur les Compléments Office, notamment l'architecture et le cycle de vie de développement. 
+[Vue d'ensemble de la plateforme des compléments pour Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins?redirectedfrom=MSDN) fournit une bonne introduction sur les Compléments Office, notamment l'architecture et le cycle de vie de développement. 
   
-Consultez l’article [Compléments Outlook](https://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx) pour une feuille de route détaillée des ressources concernant le développement d’applications de courrier. 
+Consultez l’article [Compléments Outlook](https://docs.microsoft.com/outlook/add-ins/?redirectedfrom=MSDN) pour une feuille de route détaillée des ressources concernant le développement d’applications de courrier. 
+  
+## <a name="see-also-object-model-and-pia"></a>Voir aussi : modèle objet et PIA 
 
 <a name="OLSelectAPI_AdditionalResourcesObjModelPIA"> </a>
 
@@ -506,9 +508,8 @@ Les ressources suivantes fournissent plus d’informations sur l’utilisation d
 
 <a name="OLSelectAPI_PrimaryAccount"> </a>
 
-### <a name="accountsprimary-exchange-account-in-profile"></a>Comptes : compte Exchange principal dans le profil
+- Objet [Account](https://docs.microsoft.com/office/vba/api/Outlook.Account) 
 
-- Objet [Account](https://msdn.microsoft.com/library/f624438c-4e45-2822-18b6-bfe8074a33c0%28Office.15%29.aspx) 
     
 - Propriété [NameSpace.Accounts](https://msdn.microsoft.com/library/80e969ea-d2cc-966d-5fe4-68d59951b5c9%28Office.15%29.aspx) 
 
@@ -917,24 +918,24 @@ Les ressources suivantes fournissent plus d'informations sur les références pr
 ### <a name="major-references-and-resources"></a>Références et ressources principales
 
 - [Compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)   
-- [Référence pour développeur Outlook 2013](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)   
-- [Référence pour l'assembly PIA (Primary Interop Assembly) d'Outlook 2010](https://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)   
-- [Référence MAPI Outlook](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)   
+- [Référence pour développeur Outlook 2013](https://docs.microsoft.com/office/vba/api/overview/outlook)   
+- [Référence pour l'assembly PIA (Primary Interop Assembly) d'Outlook 2010](https://docs.microsoft.com/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference)   
+- [Référence MAPI Outlook](https://docs.microsoft.com/office/client-developer/outlook/mapi/outlook-mapi-reference)   
 - [Référence auxiliaire d'Outlook 2013](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
 - [Référence du fournisseur Outlook Social Connector](social-connector/outlook-social-connector-provider-reference.md)   
 - [Extension de la barre météorologique dans Outlook](weather/extending-the-weather-bar-in-outlook.md)   
 - [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
 - [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
-- [Nouveautés dans les schémas XML pour Outlook 2010](https://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)   
-- [Outlook 2010 : référence pour le schéma XML](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)   
-- [Développement de solutions Outlook 2010 pour des systèmes 32 bits et 64 bits](https://msdn.microsoft.com/library/076753e1-6252-4189-843c-7b1be1967176%28Office.15%29.aspx)
+- [Nouveautés dans les schémas XML pour Outlook 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff697175(v=office.14))   
+- [Outlook 2010 : référence pour le schéma XML](https://www.microsoft.com/download/details.aspx?id=22609)   
+- [Développement de solutions Outlook 2010 pour des systèmes 32 bits et 64 bits](https://docs.microsoft.com/previous-versions/office/developer/office-2010/gg549122(v=office.14))
     
 ### <a name="code-samples"></a>Exemples de code
 
-- [Exemples d'applications de messagerie](https://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)   
-- Exemples de code de modèle objet : [Comment faire... (Référence du développeur outlook 2013)](https://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)  
-- Exemples de code d'assembly PIA : [Comment faire... dans Outlook 2010](https://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)  
-- [Exemples MAPI](https://msdn.microsoft.com/library/641659f2-3c0a-43af-96f1-2521b4b06680%28Office.15%29.aspx)
+- [Exemples d'applications de messagerie](https://developer.microsoft.com/outlook/gallery/?filterBy=Outlook,Samples)   
+- Exemples de code de modèle objet : [Comment faire... (Référence du développeur outlook 2013)](https://docs.microsoft.com/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference)  
+- Exemples de code d'assembly PIA : [Comment faire... dans Outlook 2010](https://docs.microsoft.com/office/client-developer/outlook/pia/how-do-i-outlook-2013-pia-reference?redirectedfrom=MSDN)  
+- [Exemples MAPI](https://docs.microsoft.com/office/client-developer/outlook/mapi/mapi-samples)
 - Exemples de code d'API auxiliaire : [Exemples de tâches](auxiliary/sample-tasks.md)
     
 

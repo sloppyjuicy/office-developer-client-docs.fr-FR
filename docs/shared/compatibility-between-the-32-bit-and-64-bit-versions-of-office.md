@@ -1,16 +1,16 @@
 ---
 title: Compatibilité entre les versions 32 bits et 64 bits d’Office
-ms.date: 04/27/2016
+ms.date: 12/03/2019
 ms.audience: ITPro
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: Découvrez en quoi la version 32 bits d’Office est compatible avec la version 64 bits d’Office.
 localization_priority: Priority
-ms.openlocfilehash: b03323b37b242c9992c47cd737ae54f3f9bbf2ca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a0accc9c4b0198ab18b999353762a016d52f6b39
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359821"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819252"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>Compatibilité entre les versions 32 bits et 64 bits d’Office
 
@@ -67,7 +67,7 @@ Les processus 64 bits natifs d’Office ne peuvent pas charger les fichiers bin
 L’association de VBA et de bibliothèques de types vous offre de nombreuses fonctionnalités utiles pour créer des applications Office. Cependant, vous devez parfois communiquer directement avec le système d’exploitation et d’autres composants de l’ordinateur, par exemple lorsque vous gérez la mémoire ou des processus, lorsque vous travaillez avec des éléments d’interface utilisateur comme des fenêtres et des contrôles ou lorsque vous modifiez le Registre Windows. Dans ces scénarios, votre meilleure option consiste à utiliser l’une des fonctions externes incorporées dans les fichiers DLL. Vous pouvez le faire dans VBA en passant des appels d’API à l’aide des instructions **Declare**. 
   
 > [!NOTE]
-> Microsoft fournit le fichier Win32API.txt qui contient 1 500 instructions Declare et un outil permettant de copier l’instruction **Declare** que vous souhaitez dans votre code. Cependant, ces instructions s’appliquent aux systèmes 32 bits et doivent être converties en 64 bits à l’aide des informations indiquées plus loin dans cet article. Les instructions **Declare** existantes ne seront pas compilées dans VBA 64 bits avant d’avoir été indiquées comme fiables pour 64 bits à l’aide de l’attribut **PtrSafe**. Vous trouverez des exemples de ce type de conversion sur le site web de Jan Karel Pieterse, Excel MVP à l’adresse suivante [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp). Le [guide d’utilisateur de l’inspecteur de compatibilité du code Office](https://technet.microsoft.com/fr-FR/library/ee833946%28office.14%29.aspx) est un outil particulièrement utile pour examiner la syntaxe des instructions API **Declare** pour l’attribut **PtrSafe**, le cas échéant, et le type de renvoi approprié. 
+> Microsoft fournit le fichier Win32API.txt qui contient 1 500 instructions Declare et un outil permettant de copier l’instruction **Declare** que vous souhaitez dans votre code. Cependant, ces instructions s’appliquent aux systèmes 32 bits et doivent être converties en 64 bits à l’aide des informations indiquées plus loin dans cet article. Les instructions **Declare** existantes ne seront pas compilées dans VBA 64 bits avant d’avoir été indiquées comme fiables pour 64 bits à l’aide de l’attribut **PtrSafe**. Vous trouverez des exemples de ce type de conversion sur le site web de Jan Karel Pieterse, Excel MVP à l’adresse suivante [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp). Le [guide d’utilisateur de l’inspecteur de compatibilité du code Office](https://docs.microsoft.com/previous-versions/office/office-2010/ee833946(v=office.14)) est un outil particulièrement utile pour examiner la syntaxe des instructions API **Declare** pour l’attribut **PtrSafe**, le cas échéant, et le type de renvoi approprié. 
   
 Les instructions **Declare** ressemblent à ce qui suit, selon que vous appelez une sous-routine (qui n’a aucune valeur de retour) ou une fonction (qui a une valeur de retour). 
   
@@ -219,7 +219,7 @@ Non.
   
 #### <a name="when-should-i-convert-long-parameters-to-longptr"></a>Quand dois-je convertir des paramètres Long en LongPtr ?
   
-Vous devez vérifier la documentation de l’API Windows sur le Microsoft Developers Network pour la fonction que vous voulez appeler. Les handles et les pointeurs doivent être convertis en **LongPtr**. Par exemple, la documentation relative à [RegOpenKeyA](https://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx) fournit la signature suivante : 
+Vous devez vérifier la documentation de l’API Windows sur le Microsoft Developers Network pour la fonction que vous voulez appeler. Les handles et les pointeurs doivent être convertis en **LongPtr**. Par exemple, la documentation relative à [RegOpenKeyA](https://docs.microsoft.com/windows/win32/api/winreg/nf-winreg-regopenkeyexa) fournit la signature suivante : 
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
@@ -241,7 +241,7 @@ Les paramètres sont définis comme suit :
 |samDesired [dans]  <br/> |Masque qui spécifie les droits d’accès souhaités à la clé.  <br/> |
 |phkResult [out]  <br/> |Un *pointeur* vers une variable qui reçoit une handle vers la clé ouverte.  <br/> |
    
-Dans [Win32API_PtrSafe.txt](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b), l’instruction **Declare** se définit comme suit : 
+Dans [Win32API_PtrSafe.txt](https://docs.microsoft.com/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support), l’instruction **Declare** se définit comme suit : 
   
 ```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
@@ -269,6 +269,4 @@ Vous devez utiliser ces fonctions pour récupérer respectivement des pointeurs 
 ## <a name="see-also"></a>Voir aussi
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
-- [Anatomie d’une instruction Declare](https://msdn.microsoft.com/library/office/aa671659.aspx)
-    
-
+- [Anatomie d’une instruction Declare](https://docs.microsoft.com/previous-versions/aa671659(v=vs.71))
