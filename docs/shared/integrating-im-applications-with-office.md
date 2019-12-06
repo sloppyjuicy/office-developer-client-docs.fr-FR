@@ -1,31 +1,29 @@
 ---
 title: Intégration des applications de messagerie instantanée à Office
-manager: soliver
-ms.date: 07/25/2016
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
-description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
+description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013 et version ultérieure, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
 localization_priority: Priority
-ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c0094b880bae5cac2cef4236d3ff3edcefd21678
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270114"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819293"
 ---
 # <a name="integrating-im-applications-with-office"></a>Intégration des applications de messagerie instantanée à Office
 
-Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
-  
-Si vous avez des questions ou commentaires concernant cet article technique ou le processus qu'il décrit, vous pouvez contacter Microsoft directement en envoyant un message électronique à [docthis@microsoft.com](mailto:docthis@microsoft.com).
+Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013, Office 2016, Office 2019 et Office 365, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
   
 ## <a name="introduction"></a>Introduction
 <a name="off15_IMIntegration_Intro"> </a>
 
-Office 2013 permet une intégration enrichie avec les applications clientes de messagerie instantanée, y compris Lync 2013. Cette intégration fournit aux utilisateurs des fonctionnalités de messagerie instantanée à partir de Word 2013, Excel 2013, PowerPoint 2013, Outlook 2013, Visio 2013, Project 2013 et OneNote 2013 ainsi qu'une intégration de présence sur les pages SharePoint 2013. Les utilisateurs peuvent voir la photo, le nom, le statut de présence et les données de contact des personnes de leur liste de contacts. Ils peuvent démarrer une session de messagerie instantanée, passer un appel vidéo ou appeler directement à partir de la carte de visite (l'élément d'interface utilisateur dans Office 2013 affichant les options de communication et les informations de contact). Office 2013 vous permet de rester facilement connecté à vos contacts sans vous forcer à quitter votre messagerie électronique ou vos documents. 
+Office 2013 (et versions ultérieures) permet une intégration enrichie avec les applications clientes de messagerie instantanée, y compris Lync 2013 et Teams. Cette intégration permet aux utilisateurs de bénéficier des fonctionnalités de messagerie instantanée à partir de Word, Excel, PowerPoint, Outlook, Visio, Project et OneNote, ainsi que d’une intégration de la présence aux pages SharePoint. Les utilisateurs peuvent voir la photo, le nom, le statut de présence et les données de contact des personnes de leur liste de contacts. Ils peuvent démarrer une session de messagerie instantanée, un appel vidéo ou un appel téléphonique directement à partir de la carte de visite (élément d’interface utilisateur dans Office qui affiche les informations de contact et les options de communication). Office vous permet de rester en contact avec vos contacts sans vous sortir de votre e-mail ou de vos documents. 
   
 > [!NOTE]
-> Cet article utilise le terme application cliente de messagerie instantanée pour faire spécifiquement référence à l'application installée sur l'ordinateur d'un utilisateur qui communique vers le service de messagerie instantanée. Par exemple, Lync 2013 est considérée comme une application cliente de messagerie instantanée. Cet article ne fournit pas de détails sur la façon dont l'application cliente de messagerie instantanée communique avec le service de messagerie instantanée ou sur le service de messagerie instantanée lui-même. 
+> Cet article utilise le terme application cliente de messagerie instantanée pour faire spécifiquement référence à l'application installée sur l'ordinateur d'un utilisateur qui communique vers le service de messagerie instantanée. Par exemple, Lync 2013 et Teams sont considérés comme une application cliente de messagerie instantanée. Cet article ne fournit pas de détails sur la façon dont l’application cliente de messagerie instantanée communique avec le service de messagerie instantanée ou sur le service de messagerie instantanée lui-même. 
   
 Vous pouvez personnaliser une application cliente de messagerie instantanée afin qu’elle communique avec Office. Vous pouvez notamment modifier votre application de messagerie instantanée pour qu’elle affiche les informations suivantes dans l’interface utilisateur d’Office :
   
@@ -55,12 +53,12 @@ Vous pouvez personnaliser une application cliente de messagerie instantanée afi
     
 **Figure 1. Carte de visite dans Office 2013**
 
-![La carte de visite dans Office 2013](media/ocom15_peoplecard.png "La carte de visite dans Office 2013")
+![Fiche d’identité dans Office 2013](media/ocom15_peoplecard.png "Fiche d’identité dans Office 2013")
   
-Pour permettre cette intégration dans Office, l'application cliente de messagerie instantanée doit implémenter un ensemble d'interfaces fournies par Office pour établir une connexion. Les API nécessaires à cette intégration sont incluses dans l'espace de noms [UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) figurant dans le fichier Microsoft.Office.UC.dll installé avec les versions de Office 2013, comprenant Lync et Skype Entreprise. L'espace de noms **UCCollaborationLib** inclut les interfaces que vous devez implémenter pour intégrer Office. 
+Pour permettre cette intégration dans Office, l'application cliente de messagerie instantanée doit implémenter un ensemble d'interfaces fournies par Office pour établir une connexion. Les API nécessaires à cette intégration sont incluses dans l'espace de noms [UCCollborationLib](https://docs.microsoft.com/previous-versions/office/communications/ff398475(v=ocs.14)) figurant dans le fichier Microsoft.Office.UC.dll installé avec les versions de Office 2013, comprenant Lync et Skype Entreprise. L'espace de noms **UCCollaborationLib** inclut les interfaces que vous devez implémenter pour intégrer Office. 
   
 > [!IMPORTANT] 
-> La bibliothèque de types pour les interfaces requises est incorporée à Lync 2013/Skype Entreprise. Pour les intégrateurs tiers, cela fonctionne uniquement lorsque Lync 2013 et Skype Entreprise sont installés sur l’ordinateur cible. Si vous intégrez à l'aide d'Office Standard, vous devez extraire la bibliothèque de types et l'installer sur l'ordinateur cible. Le [kit de développement logiciel (SDK) Lync 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36824) inclut le fichier Microsoft.Office.UC.dll. 
+> La bibliothèque de types pour les interfaces requises est incorporée à Lync 2013/Skype Entreprise. Pour les intégrateurs tiers, cela fonctionne uniquement lorsque Lync 2013 et Skype Entreprise sont installés sur l’ordinateur cible. Si vous intégrez à l'aide d'Office Standard, vous devez extraire la bibliothèque de types et l'installer sur l'ordinateur cible. Le [kit de développement logiciel (SDK) Lync 2013](https://www.microsoft.com/download/details.aspx?id=36824) inclut le fichier Microsoft.Office.UC.dll. 
   
 > [!NOTE]
 >  Une multitude d'applications Office 2010 peuvent également s'intégrer à une application de fournisseur de messagerie instantanée tierce : Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 et SharePoint Server 2010 (à l'aide d'un contrôle ActiveX). Nombre des étapes nécessaires pour l’intégration avec Office 2013 s’appliquent aussi à Office 2010. Il existe plusieurs différences dans la manière dont Office 2010 est intégré avec une application de fournisseur de messagerie instantanée : 
@@ -72,7 +70,7 @@ Pour permettre cette intégration dans Office, l'application cliente de messager
 ## <a name="how-office-integrates-with-an-im-client-application"></a>Intégration d’Office à une application cliente de messagerie instantanée
 <a name="off15_IMIntegration_How"> </a>
 
-Quand une application Office 2013 démarre, elle suit le processus suivant pour s'intégrer à l'application cliente de messagerie instantanée par défaut :
+Quand une application Office 2013 (ou version ultérieure) démarre, elle suit le processus suivant pour s'intégrer à l'application cliente de messagerie instantanée par défaut :
   
 1. Elle vérifie le Registre pour identifier l’application cliente de messagerie instantanée par défaut et se connecte ensuite à celle-ci.
     
@@ -84,7 +82,7 @@ Quand une application Office 2013 démarre, elle suit le processus suivant pour 
     
 5. Elle obtient les informations de présence des contacts de l’utilisateur local.
     
-6. Lorsque l'application cliente de messagerie instantanée s'arrête, l'application Office 2013 se déconnecte sans assistance.
+6. Lorsque l'application cliente de messagerie instantanée s'arrête, l'application Office se déconnecte sans assistance.
     
 ### <a name="discovering-the-im-application"></a>Détection de l’application de messagerie instantanée
 
@@ -175,12 +173,12 @@ L’application Office procède comme suit pour obtenir la présence du contact,
 ### <a name="disconnecting-from-the-im-application"></a>Déconnexion de l’application de messagerie instantanée
 <a name="off15_IMIntegration_HowConnect"> </a>
 
-Lorsque l'application Office 2013 détecte l'événement **OnShuttingDown** à partir de l'application de messagerie instantanée, elle se déconnecte sans assistance. Toutefois, si l'application Office s'arrête avant l'application de messagerie instantanée, l'application Office n'assure pas le nettoyage de la connexion. L'application de messagerie instantanée doit gérer les fuites de connexion du client. 
+Lorsque l’application Office détecte l’événement **OnShuttingDown** à partir de l’application de messagerie instantanée, elle se déconnecte sans assistance. Toutefois, si l’application Office s’arrête avant l’application de messagerie instantanée, l’application Office n’assure pas le nettoyage de la connexion. L’application de messagerie instantanée doit gérer les fuites de connexion du client. 
   
 ## <a name="setting-registry-keys-and-entries"></a>Configuration des clés et des entrées de Registre
 <a name="off15_IMIntegration_SetRegistry"> </a>
 
-Comme indiqué précédemment, les applications Office 2013 compatibles avec la messagerie instantanée recherchent des clés, des entrées et des valeurs spécifiques dans le Registre pour découvrir l'application cliente de messagerie instantanée à laquelle se connecter. Ces valeurs de Registre fournissent à l'application Office le nom du processus et le GUID de la classe qui sert de point d'entrée au modèle d'objet de l'application cliente de messagerie instantanée (autrement dit, la classe qui implémente l'interface **IUCOfficeIntegration**). L'application Office co-crée cette catégorie et se connecte en tant que client au serveur COM hors processus dans l'application cliente de messagerie instantanée. 
+Comme indiqué précédemment, les applications Office compatibles avec la messagerie instantanée recherchent des clés, des entrées et des valeurs spécifiques dans le Registre pour découvrir l’application cliente de messagerie instantanée à laquelle se connecter. Ces valeurs de Registre fournissent à l'application Office le nom du processus et le GUID de la classe qui sert de point d'entrée au modèle d'objet de l'application cliente de messagerie instantanée (autrement dit, la classe qui implémente l'interface **IUCOfficeIntegration**). L’application Office co-crée cette catégorie et se connecte en tant que client au serveur COM hors processus dans l’application cliente de messagerie instantanée. 
   
 Utilisez le tableau 1 pour identifier les clés, les entrées et les valeurs qui doivent être écrites dans le Registre pour intégrer une application cliente de messagerie instantanée à Office.
   
@@ -304,10 +302,10 @@ public object GetInterface(string _version, OIInterface _interface)
 
 ```
 
-La méthode **GetSupportedFeatures** renvoie des informations sur les fonctionnalités de messagerie instantanée prises en charge par l'application cliente de messagerie instantanée. Elle prend une chaîne uniquement pour son paramètre,  _version_. Lorsque l'application Office appelle la méthode **GetSupportFeatures**, celle-ci renvoie une valeur à partir de l'énumération [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). La valeur renvoyée définit les fonctionnalités du client de messagerie instantanée, où chaque fonctionnalité de l'application cliente de messagerie instantanée est indiquée à l'application Office par l'ajout d'un indicateur à la valeur. 
+La méthode **GetSupportedFeatures** renvoie des informations sur les fonctionnalités de messagerie instantanée prises en charge par l'application cliente de messagerie instantanée. Elle prend une chaîne uniquement pour son paramètre,  _version_. Lorsque l’application Office appelle la méthode **GetSupportedFeatures**, celle-ci renvoie une valeur à partir de l’énumération [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). La valeur renvoyée définit les fonctionnalités du client de messagerie instantanée, où chaque fonctionnalité de l’application cliente de messagerie instantanée est indiquée à l’application Office par l’ajout d’un indicateur à la valeur. 
   
 > [!NOTE]
->  Les applications Office 2013 ignorent les constantes suivantes dans l’énumération **OIFeature** : 
+>  Les applications Office 2013 (ou versions ultérieures) ignorent les constantes suivantes dans l’énumération **OIFeature** : 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
 > - **oiFeaturePhoneNormalization**
@@ -862,7 +860,7 @@ public class IMClientSelf : ISelf
 }
 ```
 
-### <a name="icontactmanager-and-icontactmanagerevents-interfaces"></a>Interfaces IContactManager et _IContactManagerEvents
+### <a name="icontactmanager-and-_icontactmanagerevents-interfaces"></a>Interfaces IContactManager et _IContactManagerEvents
 <a name="off15_IMIntegration_ImplementRequired_IContactManager"> </a>
 
 L'objet **IContactManager** gère les contacts de l'utilisateur local, notamment les informations de contact de cet utilisateur local. L'application Office utilise un objet **IContactManager** pour accéder aux objets **IContact** qui correspondent aux contacts de l'utilisateur local. 
