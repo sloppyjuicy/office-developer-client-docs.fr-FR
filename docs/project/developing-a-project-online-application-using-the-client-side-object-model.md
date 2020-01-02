@@ -1,21 +1,22 @@
 ---
 title: Développement d’une application Microsoft Project Online à l’aide du modèle objet côté client
-manager: soliver
-ms.date: 11/08/2016
+manager: lindalu
+ms.date: 12/18/2019
 ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
-description: Cet article décrit le développement d’applications Microsoft Project Online pour les applications de bureau à l’aide de .NET Framework 4.0. L’application décrite dans cet article récupère les informations du serveur d’hébergement.
+description: 'Cet article décrit le développement d’applications Microsoft Project Online à l’aide de .NET Framework 4.0 et CSOM. '
 localization_priority: Priority
-ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 33ddafe2e3a75039bf55381524accf1a25692885
+ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322619"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40825771"
 ---
-# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Développement d’une application Microsoft Project Online à l’aide du modèle objet côté client
+# <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>Développement d’une application Microsoft Project Online à l’aide du modèle objet côté client (CSOM)
 
-Cet article décrit le développement d’applications Microsoft Project Online pour les applications de bureau à l’aide de .NET Framework 4.0. L’application décrite dans cet article récupère les informations du serveur d’hébergement. 
+>[!NOTE] 
+>Cet article décrit le développement d’applications Microsoft Project Online pour utiliser le CSOM. Nous vous recommandons de découvrir le développement d’applications à l’aide d’un [nouveau projet pour le web](https://developer.microsoft.com/fr-FR/office/blogs/developing-applications-and-reports-using-the-new-project/).
   
 ## <a name="background"></a>Arrière-plan
 
@@ -60,7 +61,7 @@ Commencez avec un système de base exécutant Windows 10 et ajoutez les éléme
 
 Dans le cadre du développement d’une application de bureau pour SharePoint, l’interface par défaut est le modèle objet côté client (CSOM) Project. 
   
-Vous pouvez télécharger l’exemple complet dans https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.
+Vous pouvez télécharger des [exemples de projet CSOM](https://developer.microsoft.com/project/gallery/?filterBy=Samples,Project) depuis la galerie de ressources du Développeur Project dans le Centre de développement Office.
   
 Les deux premières rubriques traitent des questions de base : créer un projet Visual Studio avec des assemblys et des espaces de noms appropriés, et accéder au serveur d’hébergement. Les rubriques restantes traitent de la récupération des informations à l’aide du modèle CSOM, à partir d’un ou de plusieurs objets. 
   
@@ -639,6 +640,6 @@ Value: Red
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour obtenir de la documentation et des exemples relatifs à Microsoft Project Online et au développement d’applications à l’aide de CSOM, consultez le [Portail de développement Project](https://developer.microsoft.com/fr-FR/project).
+Pour obtenir de la documentation et des exemples relatifs à Microsoft Project Online et au développement d’applications à l’aide de CSOM, consultez le [Portail de développement Project](https://developer.microsoft.com/project) dans le Centre de développement Office.
     
 
