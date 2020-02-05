@@ -7,16 +7,16 @@ ms:contentKeyID: 55119926
 ms.date: 12/03/2019
 mtps_version: v=office.15
 localization_priority: Priority
-ms.openlocfilehash: edcf2053a2f678b2280e1735ee728196cc431d31
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 5bae79531e7d2be39610194e0b59477fcee28c15
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819342"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773700"
 ---
 # <a name="get-and-sign-in-to-an-instance-of-outlook"></a>Obtention d’une instance d’Outlook pour s’y connecter
 
-Cette rubrique explique comment obtenir un objet [Application](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.application?redirectedfrom=MSDN&view=outlook-pia) qui représente une instance active de Microsoft Outlook, s’il en existe une s’exécutant sur l’ordinateur local, ou comment créer une nouvelle instance d’Outlook, se connecter au profil par défaut, et renvoyer cette instance d’Outlook.
+Cette rubrique explique comment obtenir un objet [Application](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.application?redirectedfrom=MSDN&view=outlook-pia) qui représente une instance active de Microsoft Outlook, s’il en existe une s’exécutant sur l’ordinateur local, ou comment créer une nouvelle instance d’Outlook, se connecter au profil par défaut, et renvoyer cette instance d’Outlook.
 
 ## <a name="example"></a>Exemple
 

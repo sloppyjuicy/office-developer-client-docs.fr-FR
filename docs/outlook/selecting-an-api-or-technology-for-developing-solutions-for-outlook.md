@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
 localization_priority: Priority
-ms.openlocfilehash: 60e02d25b53e494f2552622321a3f68921e84000
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 42ca5056c49186229ab1689c9aeeb4d34dda60fc
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819314"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773749"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 
@@ -553,7 +553,7 @@ Les ressources suivantes fournissent plus d’informations sur l’utilisation d
 
 - [Joindre un fichier à un élément de courrier](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- [Types de pièces jointes limités par Outlook 2010](https://technet.microsoft.com/fr-FR/library/cc179163.aspx)
+- [Types de pièces jointes limités par Outlook 2010](https://technet.microsoft.com/library/cc179163.aspx)
     
 - Objet [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 
     
@@ -753,7 +753,7 @@ Consultez les propriétés suivantes liées aux tâches dans certains objets d'�
     
 - [Modifications de l'arrêt d'Outlook 2010](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- [Types de fichiers de pièces jointes restreints par Outlook 2010](https://technet.microsoft.com/fr-FR/library/cc179163.aspx)
+- [Types de fichiers de pièces jointes restreints par Outlook 2010](https://technet.microsoft.com/library/cc179163.aspx)
     
 - [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     
