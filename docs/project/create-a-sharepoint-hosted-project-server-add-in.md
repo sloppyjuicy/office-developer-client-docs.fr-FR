@@ -1,17 +1,17 @@
 ---
 title: Créer un complément Project Server hébergé sur SharePoint
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: Parmi les trois types d’applications que vous pouvez créer pour Project Online (auto-hébergé, hébergé par un fournisseur et hébergé par SharePoint), l’application hébergée par SharePoint est la plus simple à créer et à déployer.
-ms.openlocfilehash: 0af2ab51266a01f682cd16382f2cd0fdfde3a416
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 9b3b41eda40a8419ad72f11bb474acf7acaf81e9
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540839"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773756"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>Créer un complément Project Server hébergé sur SharePoint
 
@@ -19,7 +19,7 @@ Parmi les trois types d’applications que vous pouvez créer pour Project Onlin
   
 Dans Project, l’État est un processus dans lequel un membre de l’équipe peut utiliser la page tâches dans Project Web App pour envoyer l’état d’une tâche affectée, comme le nombre d’heures travaillées chaque jour de la semaine consacré à la tâche. Le propriétaire de l’affectation (généralement, le responsable de projet) peut approuver ou rejeter l’état. Lorsque celui-ci est approuvé, Project recalcule la planification. L’application **QuickStatus** affiche les tâches affectées, où l’utilisateur peut rapidement mettre à jour le pourcentage achevé et envoyer l’état des affectations sélectionnées pour approbation. Bien que la page tâches de Project Web App offre bien plus de fonctionnalités, l’application **QuickStatus** est un exemple qui fournit une interface simplifiée. 
   
-L’application **QuickStatus** est un exemple pour les développeurs; Il n’est pas destiné à être utilisé dans un environnement de production. L’objectif principal est de présenter un exemple de développement d’applications pour Project Online, mais pas de créer une application d’État entièrement fonctionnelle. Pour une meilleure approche de l’État, consultez la recommandation dans les [étapes suivantes](#pj15_StatusingApp_NextSteps).
+L’application **QuickStatus** est un exemple pour les développeurs ; Il n’est pas destiné à être utilisé dans un environnement de production. L’objectif principal est de présenter un exemple de développement d’applications pour Project Online, mais pas de créer une application d’État entièrement fonctionnelle. Pour une meilleure approche de l’État, consultez la recommandation dans les [étapes suivantes](#pj15_StatusingApp_NextSteps).
   
 Pour obtenir des informations générales sur l’État, consultez l' [avancement des tâches](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress). Pour plus d’informations sur le développement de compléments pour SharePoint et Project Server, reportez-vous à la rubrique [compléments SharePoint](https://msdn.microsoft.com/library/jj163230.aspx).
 
@@ -38,7 +38,7 @@ Le développement d’applications Project Server avec Visual Studio nécessite 
    > [!NOTE]
    > Pour une installation locale, configurez un domaine d’application isolé *avant* de créer un catalogue d’applications d’entreprise. 
   
-- L’ordinateur de développement peut être un ordinateur distant sur lequel sont installés les outils de développement Office pour Visual Studio 2012. Assurez-vous que vous avez installé la version la plus récente; reportez-vous à la section *Outils* des [téléchargements d’applications pour Office et SharePoint](https://msdn.microsoft.com/office/apps/fp123627.aspx).
+- L’ordinateur de développement peut être un ordinateur distant sur lequel sont installés les outils de développement Office pour Visual Studio 2012. Assurez-vous que vous avez installé la version la plus récente ; reportez-vous à la section *Outils* des [téléchargements d’applications pour Office et SharePoint](https://msdn.microsoft.com/office/apps/fp123627.aspx).
     
 - Vérifiez que l’instance de Project Web App que vous allez utiliser pour le développement et le test est accessible dans le navigateur.
     
@@ -74,7 +74,7 @@ Pour modifier le ruban Project Web App, vous pouvez ajouter une action personnal
     
    **Figure 1. Création d’une application Project Server dans Visual Studio**
 
-   ![Création d’une application Project Server dans Visual Studio] (media/pj15_CreateStatusingApp_NewProject.gif "Création d’une application Project Server dans Visual Studio")
+   ![Création d’une application Project Server dans Visual Studio](media/pj15_CreateStatusingApp_NewProject.gif "Création d’une application Project Server dans Visual Studio")
   
 4. Dans la boîte de dialogue **Nouvelle application pour SharePoint**, renseignez les trois champs suivants : 
     
@@ -97,7 +97,7 @@ Pour modifier le ruban Project Web App, vous pouvez ajouter une action personnal
     
    **Figure 2. Définition de l’étendue des autorisations pour une application d’état**
 
-   ![Définition de l’étendue d’autorisation pour une application d’État] (media/pj15_CreateStatusingApp_PermissionScope.gif "Définition de l’étendue d’autorisation pour une application d’État")
+   ![Définition de l’étendue des autorisations pour une application d’état](media/pj15_CreateStatusingApp_PermissionScope.gif "Définition de l’étendue des autorisations pour une application d’état")
   
 L’application **QuickStatus** permet à un utilisateur Project Web App de lire les devoirs de cet utilisateur à partir de plusieurs projets, de modifier le pourcentage d’achèvement de l’affectation et de soumettre la mise à jour. Les autres étendues de demande d’autorisation figurant dans la liste déroulante de la figure 2 ne sont pas requises pour cette application. Les étendues de demande d’autorisation sont les autorisations demandées par l’application pour l’utilisateur. Si l’utilisateur ne dispose pas de ces autorisations dans Project Web App, l’application ne s’exécute pas. Une application peut avoir plusieurs étendues de demande d’autorisation, y compris celles des autres autorisations SharePoint, mais doit avoir uniquement le minimum requis pour la fonctionnalité de l’application. Voici les étendues de demande d’autorisation qui sont liées à Project Server : 
 
@@ -126,7 +126,7 @@ Avant de commencer à coder le contenu HTML, concevez l’interface utilisateur 
   
 **Figure 3. Conception de la page d’application QuickStatus**
 
-![Conception de la page d’application QuickStatus] (media/pj15_CreateStatusingApp_AfterRefresh.gif "Conception de la page d’application QuickStatus")
+![Conception de la page d’application QuickStatus](media/pj15_CreateStatusingApp_AfterRefresh.gif "Conception de la page d’application QuickStatus")
   
 L’application affiche le nom complet en haut, qui est la valeur de l’élément **Title** dans AppManifest.Xml. 
   
@@ -157,7 +157,7 @@ Les éléments de bouton et de zone de texte inférieurs se trouvent dans les é
 
 1. Dans Visual Studio, ouvrez le fichier default. aspx.
     
-   Le fichier comprend deux éléments **asp: content** : l’élément avec l' `ContentPlaceHolderID="PlaceHolderAdditionalPageHead"` attribut est ajouté dans l’en-tête de page et l’élément `ContentPlaceHolderID="PlaceHolderMain"` avec l’attribut est placé dans l’élément **Body** de la page. 
+   Le fichier comprend deux éléments **asp : content** : l’élément avec l' `ContentPlaceHolderID="PlaceHolderAdditionalPageHead"` attribut est ajouté dans l’en-tête de page et l’élément `ContentPlaceHolderID="PlaceHolderMain"` avec l’attribut est placé dans l’élément **Body** de la page. 
     
 2. Dans le `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">` contrôle de l’en-tête de page, ajoutez une référence au fichier PS. js sur l’ordinateur Project Server. Pour le test et le débogage, vous pouvez utiliser PS.debug.js. 
     
@@ -218,7 +218,7 @@ La procédure 3 ajoute les fonctions JavaScript pour lire les affectations et cr
 
 Le modèle Visual Studio pour une application SharePoint inclut le fichier App.js contenant le code d’initialisation par défaut qui obtient le contexte client SharePoint et illustre les actions de base d’obtention et de définition de la page d’application. L’espace de noms JavaScript pour la bibliothèque SP. js côté client SharePoint est **SP**. Étant donné qu’une application Project Server utilise la bibliothèque PS.js, l’application utilise l’espace de noms **PS** pour obtenir le contexte client et accéder au JSOM pour Project Server. 
   
-Les fonctions JavaScript dans l’application **QuickStatus** sont les suivantes: 
+Les fonctions JavaScript dans l’application **QuickStatus** sont les suivantes : 
   
 - Le gestionnaire d’événements **ready** du document s’exécute lorsque le modèle objet de document (DOM) est instancié. Le gestionnaire d’événements **ready** effectue les quatre étapes suivantes : 
     
@@ -232,7 +232,7 @@ Les fonctions JavaScript dans l’application **QuickStatus** sont les suivantes
     
 - Si la fonction **getAssignments** réussit, elle appelle la fonction **onGetAssignmentsSuccess**. Cette fonction insère une ligne dans le tableau pour chaque affectation, initialise les contrôles HTML dans chaque ligne et initialise ensuite les propriétés du bouton inférieur. 
     
-- Le gestionnaire d’événements **OnClick** pour le bouton de **mise à jour** appelle la fonction **updateAssignments** . Cette fonction obtient la valeur de pourcentage achevé qui est appliquée à chaque affectation sélectionnée; ou si la zone de texte pourcentage achevé est vide, la fonction obtient le pourcentage d’achèvement de chaque affectation sélectionnée dans le tableau. La fonction **updateAssignments** enregistre puis envoie les mises à jour d’État et écrit un message sur les résultats au bas de la page. 
+- Le gestionnaire d’événements **OnClick** pour le bouton de **mise à jour** appelle la fonction **updateAssignments** . Cette fonction obtient la valeur de pourcentage achevé qui est appliquée à chaque affectation sélectionnée ; ou si la zone de texte pourcentage achevé est vide, la fonction obtient le pourcentage d’achèvement de chaque affectation sélectionnée dans le tableau. La fonction **updateAssignments** enregistre puis envoie les mises à jour d’État et écrit un message sur les résultats au bas de la page. 
     
 ### <a name="procedure-3-to-create-the-javascript-functions"></a>Procédure 3. Pour créer les fonctions JavaScript
 
@@ -311,10 +311,10 @@ Les fonctions JavaScript dans l’application **QuickStatus** sont les suivantes
     }
    ```
 
-5. Ajoutez la fonction **onGetAssignmentsSuccess** , qui ajoute une ligne pour chaque affectation au tableau. La variable **prevProjName** est utilisée pour déterminer si une ligne concerne un autre projet. Si c’est le cas, le nom du projet est affiché en caractères gras; Si ce n’est pas le cas, le nom du projet est défini sur une chaîne vide. 
+5. Ajoutez la fonction **onGetAssignmentsSuccess** , qui ajoute une ligne pour chaque affectation au tableau. La variable **prevProjName** est utilisée pour déterminer si une ligne concerne un autre projet. Si c’est le cas, le nom du projet est affiché en caractères gras ; Si ce n’est pas le cas, le nom du projet est défini sur une chaîne vide. 
     
    > [!NOTE]
-   > Le JSOM n’inclut pas les propriétés **TimeSpan** incluses par l’CSOM, telles que **ActualWorkTimeSpan**. En revanche, le JSOM utilise des propriétés concernant le nombre de millisecondes, telles que la propriété [PS.StatusAssignment.actualWorkMilliseconds](https://msdn.microsoft.com/library/736bce1e-f734-0efe-6c5f-e0e891ab00ef%28Office.15%29.aspx). La méthode permettant d’obtenir cette propriété **est\_Get actualWorkMilliseconds**, qui renvoie une valeur entière. > la méthode **get_actualWork** retourne une chaîne telle que «3H». Vous pouvez utiliser n’importe quelle valeur dans l’application **QuickStatus**, mais affichez-la différemment. La requête d’affectations inclut les deux propriétés, pour que vous puissiez tester la valeur pendant le débogage. Si vous supprimez la variable **actualWork**, vous pouvez également supprimer la propriété **ActualWork** dans la requête d’affectations. 
+   > Le JSOM n’inclut pas les propriétés **TimeSpan** incluses par l’CSOM, telles que **ActualWorkTimeSpan**. En revanche, le JSOM utilise des propriétés concernant le nombre de millisecondes, telles que la propriété [PS.StatusAssignment.actualWorkMilliseconds](https://msdn.microsoft.com/library/736bce1e-f734-0efe-6c5f-e0e891ab00ef%28Office.15%29.aspx). La méthode permettant d’obtenir cette propriété **est\_Get actualWorkMilliseconds**, qui renvoie une valeur entière. > la méthode **get_actualWork** renvoie une chaîne telle que « 3H ». Vous pouvez utiliser n’importe quelle valeur dans l’application **QuickStatus**, mais affichez-la différemment. La requête d’affectations inclut les deux propriétés, pour que vous puissiez tester la valeur pendant le débogage. Si vous supprimez la variable **actualWork**, vous pouvez également supprimer la propriété **ActualWork** dans la requête d’affectations. 
   
    Enfin, la fonction **onGetAssignmentsSuccess** initialise le bouton **Mettre à jour** et le bouton **Actualiser** avec les gestionnaires d’événements Click. La valeur de texte du bouton **Mettre à jour** peut également être définie dans le code HTML. 
     
@@ -523,19 +523,19 @@ Bien que les groupes et les contrôles de chaque région se ressemblent, un cont
     
    **Figure 4. Ajout d’une action personnalisée de ruban**
 
-   ![Ajout d’une action personnalisée de ruban] (media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif "Ajout d’une action personnalisée de ruban")
+   ![Ajout d’une action personnalisée du ruban](media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif "Ajout d’une action personnalisée du ruban")
   
 3. Sur la première page de l’assistant **Créer une action personnalisée pour le Ruban**, maintenez l’option **Hôte web** sélectionnée, choisissez **Aucun** dans la liste déroulante pour l’étendue de l’action personnalisée, puis **Suivant** (voir figure 5). Les éléments des listes déroulantes sont pertinents pour SharePoint, et non pour Project Server. Nous remplacerons une grande partie du code XML généré pour l’action personnalisée afin qu’elle s’applique à Project Server. 
     
    **Figure 5. Définition des propriétés pour l’action personnalisée de ruban**
 
-   ![Spécification des propriétés de l’action personnalisée du ruban] (media/pj15_CreateStatusingApp_RibbonCustomAction2.gif "Spécification des propriétés de l’action personnalisée du ruban")
+   ![Définition des propriétés pour l’action personnalisée du ruban](media/pj15_CreateStatusingApp_RibbonCustomAction2.gif "Définition des propriétés pour l’action personnalisée du ruban")
   
 4. Sur la page suivante de l’assistant **Créer une action personnalisée pour le Ruban**, maintenez toutes les valeurs par défaut pour les paramètres, puis sélectionnez **Terminer** (voir figure 6). Visual Studio crée le dossier **RibbonQuickStatusAction** qui contient un fichier Elements.xml. 
     
    **Figure 6. Définition des paramètres pour un contrôle de bouton**
 
-   ![Spécification des paramètres d’un contrôle de bouton] (media/pj15_CreateStatusingApp_RibbonCustomAction3.gif "Spécification des paramètres d’un contrôle de bouton")
+   ![Définition des paramètres pour un contrôle bouton](media/pj15_CreateStatusingApp_RibbonCustomAction3.gif "Définition des paramètres pour un contrôle bouton")
   
 5. Modifiez le code généré par défaut dans le fichier Elements.xml pour l’action personnalisée de ruban. Voici le code XML par défaut :
     
@@ -629,7 +629,7 @@ Lors du développement de l’application et de l’ajout d’un bouton de ruban
   
 **Figure 7. Affichage de l’info-bulle du bouton État rapide désactivé**
 
-![Affichage de l’info-bulle du bouton désactivé] (media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif "Affichage de l’info-bulle du bouton désactivé")
+![Affichage de l’info-bulle du bouton désactivé](media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif "Affichage de l’info-bulle du bouton désactivé")
   
 La procédure 5 montre comment déployer et installer l’application **QuickStatus**. La procédure 6 présente quelques étapes supplémentaires pour le test de l’application, une fois celle-ci installée. 
 
@@ -650,7 +650,7 @@ Il existe plusieurs façons de déployer une application vers une application We
     
    **Figure 8. Publication de l’application QuickStatus**
 
-   ![Utilisation de l’Assistant Publication] (media/pj15_CreateStatusingApp_PublishWizard.gif "Utilisation de l’Assistant Publication")
+   ![Utilisation de l’Assistant Publication](media/pj15_CreateStatusingApp_PublishWizard.gif "Utilisation de l’Assistant Publication")
   
 3. Copiez le fichier QuickStatus. app du `~\QuickStatus\bin\Debug\app.publish\1.0.0.0` répertoire dans un répertoire pratique de l’ordinateur local (ou sur l’ordinateur SharePoint pour une installation locale). 
     
@@ -674,7 +674,7 @@ Il existe plusieurs façons de déployer une application vers une application We
     
       **Figure 9. Ajout d’une URL d’icône pour l’application QuickStatus**
 
-      ![Définition des propriétés dans SharePoint pour l’application] (media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif "Définition des propriétés dans SharePoint pour l’application")
+      ![Définition des propriétés dans SharePoint pour l’application](media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif "Définition des propriétés dans SharePoint pour l’application")
   
    4. Champ **Catégorie** : choisissez une catégorie existante ou spécifiez votre propre valeur. Par exemple, saisissez État.
     
@@ -691,25 +691,25 @@ Il existe plusieurs façons de déployer une application vers une application We
     
       **Figure 10. L’application QuickStatus est ajoutée dans la bibliothèque Applications pour SharePoint.**
 
-      ![L’application QuickStatus est ajoutée à SharePoint] (media/pj15_CreateStatusingApp_AddAppToSharePoint.gif "L’application QuickStatus est ajoutée à SharePoint")
+      ![L’application QuickStatus est ajoutée à SharePoint](media/pj15_CreateStatusingApp_AddAppToSharePoint.gif "L’application QuickStatus est ajoutée à SharePoint")
   
 9. Dans Project Web App, dans le menu déroulant **paramètres** , choisissez **Ajouter une application**. Sur la page Vos applications, dans la barre de lancement rapide, choisissez **De votre organisation**, puis **Détails de l’application** pour l’application **Mise à jour de l’état rapide**. La figure 11 montre la page de détails avec l’icône d’application, la capture d’écran et les informations que vous avez ajoutées à l’étape précédente. 
     
    **Figure 11. Utilisation de la page de détails Mise à jour de l’état rapide dans Project Web App**
 
-   ![Ajout de l’application QuickStatus à Project Web App] (media/pj15_CreateStatusingApp_AddAppToPWA.gif "Ajout de l’application QuickStatus à Project Web App")
+   ![Ajout de l’application QuickStatus à Project Web App](media/pj15_CreateStatusingApp_AddAppToPWA.gif "Ajout de l’application QuickStatus à Project Web App")
   
 10. Sur la page de détails Mise à jour de l’état rapide, choisissez **AJOUTER**. Project Web App affiche une boîte de dialogue qui répertorie les opérations que l’application QuickStatus peut effectuer (voir figure 12). La liste des opérations est dérivée des éléments **AppPermissionRequest** du fichier AppManifest.xml. 
     
     **Figure 12. Vérification de la confiance accordée à l’application QuickStatus**
 
-    ![Vérification de l’approbation pour l’application QuickStatus] (media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "Vérification de l’approbation pour l’application QuickStatus")
+    ![Vérification de l’approbation pour l’application QuickStatus](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "Vérification de l’approbation pour l’application QuickStatus")
   
 11. Dans la boîte de dialogue **Faites-vous confiance à la mise à jour de l’état rapide ?**, choisissez **Approuver**. L’application est ajoutée à la page contenu du site Project Web App (voir figure 13).
     
     **Figure 13. Affichage de l’application QuickStatus sur la page Contenu du site**
 
-    ![Affichage de l’application QuickStatus dans le contenu du site] (media/pj15_CreateStatusingApp_AddAppToPWA3.gif "Affichage de l’application QuickStatus dans le contenu du site")
+    ![Affichage de l’application QuickStatus dans le contenu du site](media/pj15_CreateStatusingApp_AddAppToPWA3.gif "Affichage de l’application QuickStatus dans le contenu du site")
   
 Sur la page Contenu du site, vous pouvez sélectionner l’icône **Mise à jour de l’état rapide** pour exécuter l’application.
 
@@ -720,7 +720,7 @@ Sur la page tâches de Project Web App (voir figure 14), le bouton **QuickStatus
 
 **Figure 14. Lancement de l’application QuickStatus à partir de l’onglet TÂCHES**
 
-![Démarrage de l’application QuickStatus à partir de l’onglet tâches] (media/pj15_CreateStatusingApp_TasksRibbon.gif "Démarrage de l’application QuickStatus à partir de l’onglet tâches")
+![Lancement de l’application QuickStatus à partir de l’onglet TÂCHES](media/pj15_CreateStatusingApp_TasksRibbon.gif "Lancement de l’application QuickStatus à partir de l’onglet TÂCHES")
   
 La procédure 6 décrit certains tests à effectuer avec l’application QuickStatus.
 
@@ -739,7 +739,7 @@ Chaque opération qu’un utilisateur peut essayer dans l’application **QuickS
    > [!NOTE]
    > Le comportement de l’application doit être modifié de sorte que le bouton **mettre à jour** soit désactivé lorsqu’il n’y a aucune affectation. 
   
-2. Exécutez l’application dans laquelle l’utilisateur dispose de plusieurs affectations dans différents projets et que certaines affectations ne sont pas terminées. Notez l’apparence de l’application et effectuez les actions suivantes (voir figure 15):
+2. Exécutez l’application dans laquelle l’utilisateur dispose de plusieurs affectations dans différents projets et que certaines affectations ne sont pas terminées. Notez l’apparence de l’application et effectuez les actions suivantes (voir figure 15) :
     
    1. La fonction **onGetAssignmentsSuccess** crée une ligne dans le tableau pour chaque affectation de l’utilisateur actuel. Le nom du projet n’apparaît qu’une seule fois, dans une police de caractères gras, pour la première affectation de chaque projet. 
     
@@ -753,41 +753,41 @@ Chaque opération qu’un utilisateur peut essayer dans l’application **QuickS
     
       **Figure 15. Mise à jour d’une affectation dans l’application QuickStatus**
 
-      ![Mise à jour d’une affectation dans l’application QuickStatus] (media/pj15_CreateStatusingApp_Testing1Update.gif "Mise à jour d’une affectation dans l’application QuickStatus")
+      ![Mise à jour d’une affectation dans l’application QuickStatus](media/pj15_CreateStatusingApp_Testing1Update.gif "Mise à jour d’une affectation dans l’application QuickStatus")
   
 3. Sélectionnez **Refresh** (reportez-vous à la figure 16). Toutes les tâches sont à nouveau sélectionnées, et la première tâche indique 80% achevé. 
     
       **Figure 16. Actualisation de la page de mise à jour d’État rapide**
 
-      ![Actualisation de la page QuickStatus] (media/pj15_CreateStatusingApp_Testing2Refresh.gif "Actualisation de la page QuickStatus")
+      ![Actualisation de la page QuickStatus](media/pj15_CreateStatusingApp_Testing2Refresh.gif "Actualisation de la page QuickStatus")
   
 4. Désactivez toutes les cases à cocher, puis sélectionnez une autre tâche. Par exemple, sélectionnez **nouvelle tâche à partir de PWA**. Laissez la zone de texte **définir le pourcentage achevé** vide, supprimez tout le texte de la colonne **% achevé** pour la tâche sélectionnée, puis choisissez **mettre à jour**. Étant donné que les deux zones de texte sont vides, l’application affiche un message d’erreur rouge (voir figure 17).
     
       **Figure 17. Test du message d’erreur**
 
-      ![Test du message d’erreur] (media/pj15_CreateStatusingApp_Testing3Error.gif "Test du message d’erreur")
+      ![Test du message d’erreur](media/pj15_CreateStatusingApp_Testing3Error.gif "Test du message d’erreur")
   
 5. Mettez à jour la tâche précédente à 80% terminé, puis cliquez sur **quitter**. La fonction **exitToPwa** remplace l’emplacement de la fenêtre du navigateur par la page tâches dans l’application hôte SharePoint (c’est-à-dire, l’URL https://ServerName/pwa/Tasks.aspx)devient. La figure 18 indique que la tâche **T1** et la tâche **New de** la tâche PWA indiquent 80% achevé. 
     
       **Figure 18. Vérification de la mise à jour des tâches dans Project Web App**
 
-      ![Vérification des tâches mises à jour dans Project Web App] (media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "Vérification des tâches mises à jour dans Project Web App")
+      ![Vérification des tâches de mises à jour dans Project Web App](media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "Vérification des tâches de mises à jour dans Project Web App")
   
 6. Avant que l’État mis à jour ne s’affiche dans Project Professional 2013, les modifications doivent être envoyées pour approbation, puis approuvées par le responsable de projet.
     
 Le test révèle plusieurs autres modifications qui doivent être apportées dans l’application **QuickStatus** pour une meilleure convivialité. Par exemple :
 
-- Des contrôles d’erreur et une validation supplémentaires des valeurs de zone de texte devraient exister. Actuellement, un utilisateur peut entrer une valeur non numérique ou une valeur négative pour le pourcentage achevé, ce qui entraîne un message d’erreur de type unfriendly. Par exemple, avec une valeur négative, le message d’erreur est une **erreur lors de la mise à jour des affectations: PJClientCallableException: StatusingSetDataValueInvalid**.
+- Des contrôles d’erreur et une validation supplémentaires des valeurs de zone de texte devraient exister. Actuellement, un utilisateur peut entrer une valeur non numérique ou une valeur négative pour le pourcentage achevé, ce qui entraîne un message d’erreur de type unfriendly. Par exemple, avec une valeur négative, le message d’erreur est une **erreur lors de la mise à jour des affectations : PJClientCallableException : StatusingSetDataValueInvalid**.
     
 - Le message d’erreur pour les zones de texte vides peut répertorier le projet et la tâche, en plus du numéro de ligne.
     
-- Le message de réussite peut inclure une liste des tâches mises à jour; Si la fonction **updateAssignments** réussit, elle peut effectuer une actualisation automatique de page et afficher les tâches ou les pourcentages mis à jour dans une couleur et une police en gras différentes. 
+- Le message de réussite peut inclure une liste des tâches mises à jour ; Si la fonction **updateAssignments** réussit, elle peut effectuer une actualisation automatique de page et afficher les tâches ou les pourcentages mis à jour dans une couleur et une police en gras différentes. 
     
 - Pour éviter une table très volumineuse, le tableau des affectations doit être limité aux tâches dont la taille est inférieure à 100%. Vous pouvez également ajouter une option pour afficher toutes les tâches. Ce problème peut également être résolu à l’aide d’une grille jQuery au lieu d’un tableau, où vous pouvez facilement implémenter le filtrage et la pagination de grille.
     
 - Étant donné que l’application **QuickStatus** n’envoie pas d’État, l’icône d' **État rapide** sous l’onglet **tâches** du ruban sera plus logiquement la première icône du groupe **tâches** , et non la dernière icône du groupe d' **envoi** . 
     
-- Étant donné que la fonction **onGetAssignmentsSuccess** Initialise le texte du bouton **btnSubmitUpdate** , mais que les autres valeurs de texte de bouton sont initialisées en HTML, la page reste dans un état partiellement initialisé tandis que l' **getAssignments** fonction s’exécute. Les boutons de la page semblent plus cohérents si les valeurs de texte étaient toutes initialisées au format HTML. 
+- Étant donné que la fonction **onGetAssignmentsSuccess** Initialise le texte du bouton **btnSubmitUpdate** , mais que les autres valeurs de texte de bouton sont initialisées en HTML, la page reste en état partiellement initialisé pendant l’exécution de la fonction **getAssignments** . Les boutons de la page semblent plus cohérents si les valeurs de texte étaient toutes initialisées au format HTML. 
     
 Plus important encore, l’approche utilisée par l’application **QuickStatus** , dans laquelle elle modifie le pourcentage d’achèvement des affectations, doit être révisée dans une application de production. Pour plus d’informations, consultez la section [étapes suivantes](#pj15_StatusingApp_NextSteps) . 
 
@@ -1180,7 +1180,7 @@ La définition XML suivante, pour le bouton ajouter de l’onglet **tâches** su
 
 ### <a name="appmanifestxml-file"></a>Fichier AppManifest. Xml
 
-Voici le code XML pour le manifeste d’application du projet **QuickStatus** , qui inclut les deux étendues de demande d’autorisation nécessaires à la mise à jour de l’état de l’affectation de l’utilisateur de l’application dans plusieurs projets: 
+Voici le code XML pour le manifeste d’application du projet **QuickStatus** , qui inclut les deux étendues de demande d’autorisation nécessaires à la mise à jour de l’état de l’affectation de l’utilisateur de l’application dans plusieurs projets : 
   
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -1223,7 +1223,7 @@ L’application **QuickStatus** est un exemple relativement simple qui explique 
 
 - [Tâches de programmation Project Server](project-programming-tasks.md)
 - [Compléments SharePoint](https://msdn.microsoft.com/library/jj163230.aspx)
-- [Gestion des mises à jour de tâches dans Project Web App](https://technet.microsoft.com/en-us/library/hh767481%28v=office.14%29.aspx)
-- [Créer des actions personnalisées à déployer avec les compléments pour SharePoint](https://msdn.microsoft.com/library/jj163954.aspx)
+- [Gestion des mises à jour de tâches dans Project Web App](https://technet.microsoft.com/library/hh767481%28v=office.14%29.aspx)
+- [Créer des actions personnalisées à déployer avec les compléments SharePoint](https://msdn.microsoft.com/library/jj163954.aspx)
     
 

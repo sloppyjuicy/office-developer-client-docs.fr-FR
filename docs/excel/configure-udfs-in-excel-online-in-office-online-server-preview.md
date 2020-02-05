@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Utilisez des fonctions définies par l’utilisateur dans Excel Online dans Office Online Server pour appeler des fonctions personnalisées.
-ms.openlocfilehash: c9ace9a678a57a0d97e2fee65ee62bf9497f4451
-ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
+ms.openlocfilehash: f916e56f7f79bfac1494b980a5591e4c531efea9
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40825764"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773707"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server"></a>Configurer des fichiers UDF dans Excel Online dans Office Online Server
 
@@ -42,7 +42,7 @@ Référencez l’emplacement lorsque vous créez une définition **OfficeWebApps
   
 ## <a name="enable-udfs-on-office-online-server"></a>Activer les fonctions UDF sur Office Online Server 
 
-Lorsqu’un administrateur crée une batterie Office Web Apps Server à l’aide de la cmdlet Windows PowerShell [New-OfficeWebAppsFarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) , les assemblys UDF sont désactivés par défaut. La valeur par défaut de l’indicateur **ExcelUdfsAllowed** est false. 
+Lorsqu’un administrateur crée une batterie Office Web Apps Server à l’aide de la cmdlet Windows PowerShell [New-OfficeWebAppsFarm](https://docs.microsoft.com/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps) , les assemblys UDF sont désactivés par défaut. La valeur par défaut de l’indicateur **ExcelUdfsAllowed** est false. 
   
 Pour activer les fonctions définies par l’utilisateur, exécutez la commande Windows PowerShell suivante sur le serveur Office Online, une fois la batterie de serveurs Office Web Apps Server créée.
   
