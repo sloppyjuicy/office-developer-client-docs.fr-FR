@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Utilisez le Journal de télémétrie pour Office 2013 pour déterminer les problèmes de compatibilité avec Office 2013 et les solutions élaborées pour les précédentes versions d'Office.
 localization_priority: Priority
-ms.openlocfilehash: 3954662a9476dca0cbb9bf4b8197979783b7e11e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0ace7a39c62194816662e49580cf6868edcae295
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346286"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773721"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Dépannage des solutions personnalisées et des fichiers Office avec le journal de télémétrie
 
@@ -73,7 +73,7 @@ Procédez comme suit pour afficher les problèmes Office enregistrés dans le Jo
 
 1. Pour ouvrir le Journal de télémétrie, effectuez l'une des opérations suivantes :
     
-   - **Sous Windows 7 :** dans le menu **Démarrer**, choisissez **Tous les programmes**. Dans la liste des programmes, développez **Microsoft Office 15**, développez **Outils Office 15**, puis cliquez sur **Journal de télémétrie Office 15**.
+   - **Sous Windows 7 :** dans le menu **Démarrer**, choisissez **Tous les programmes**. Dans la liste des programmes, développez **Microsoft Office 2013**, développez **Outils Office 2013**, puis cliquez sur **Journal de télémétrie Office 2013**.
     
      Un nouveau classeur s'ouvre dans Excel 2013. Il contient trois feuilles de calcul intitulées **Événements**, **Infos système** et **Guide**.
     
@@ -96,7 +96,7 @@ Par exemple, le problème intitulé « Modèle objet - masqué : propriété Com
   
 **Figure 1. Journal de télémétrie Office**
   
-![Observateur d’événements Office affichant des enregistrements. ] (media/off15_OfficeEventViewer_SD.png "Observateur d’événements Office affichant des enregistrements")
+![Observateur d’événements Office affichant des enregistrements](media/off15_OfficeEventViewer_SD.png "Observateur d’événements Office affichant des enregistrements")
   
 > [!NOTE]
 >  La feuille de calcul des **informations système** qui se trouve dans le journal de télémétrie contient des informations sur l’ordinateur sur lequel Office 2013 est installé. La feuille de calcul affiche les informations suivantes : 
@@ -145,6 +145,8 @@ Utilisez le Tableau 2 suivant pour interpréter les enregistrements affichés da
 |18  <br/> |L'application a été fermée  <br/> ||L’application hôte a pu fermer l’Complément Office sans problème.  <br/> |
 |19  <br/> |Le complément a rencontré une erreur d’exécution  <br/> |Critique  <br/> |L'Complément Office a rencontré un problème qui l'a empêchée de s'exécuter. Pour plus de détails, consultez le journal des alertes de Microsoft Office à l'aide de l'Observateur d'événements Windows sur l'ordinateur sur lequel l'erreur s'est produite.  <br/> |
 |20  <br/> |Le complément n’a pas pu vérifier la licence  <br/> |Critique  <br/> |Les informations de licence de l'Complément Office n'ont pas pu être vérifiées et la licence a peut-être expiré. Pour plus de détails, consultez le journal des alertes de Microsoft Office à l'aide de l'Observateur d'événements Windows sur l'ordinateur sur lequel l'erreur s'est produite.  <br/> |
+|21 <br/>|Une macro a rencontré une erreur de compilation <br/>|Avertissement <br/>| Le fichier contient une macro dont la compilation a échoué et n’a pas pu être exécutée. Pour plus d’informations, consultez le message d’erreur présenté lors de la tentative de compilation de la macro à partir de l’éditeur de macros.<br/>| 
+|22 <br/>|Une macro a rencontré une erreur d’exécution<br/>| Avertissement <br/>| Le fichier contient une macro qui a rencontré une erreur d’exécution. Pour plus d’informations, consultez le message d’erreur présenté lors de la tentative d’exécution de la macro à partir de l’éditeur de macros et consultez [Référence de Visual Basic pour applications](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975%28v=vs.60%29).<br/>|
 |Divers  <br/> |« Modification du comportement du modèle objet : ... »  <br/> |Informationnel  <br/> |Le code du complément ou du document prenant en charge les macros utilise un objet, un membre, une collection, une énumération ou une constante qui se comporte différemment des versions précédentes d’Office.<br/><br/> Pour plus d'informations, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md).  <br/> |
 |Divers  <br/> |« Modèle objet - supprimé : … »  <br/> |Critique  <br/> |Le code du complément ou du document prenant en charge les macros utilise une collection, une énumération, une constante, un objet ou un membre ayant été supprimé du modèle objet.<br/><br/>Pour plus d'informations, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md).  <br/> |
 |Divers  <br/> |« Modèle objet - masqué : … »  <br/> |Informationnel  <br/> |Le code du complément ou du document prenant en charge les macros utilise une collection, une énumération, une constante, un objet ou un membre ayant été masqué dans le modèle objet.<br/><br/>Pour plus d'informations, reportez-vous à la section [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md).  <br/> |
