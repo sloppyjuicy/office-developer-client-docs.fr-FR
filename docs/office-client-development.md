@@ -7,7 +7,7 @@ ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles portant sur le développement de solutions et la personnalisation d’Office.
 ms.openlocfilehash: 4ecf232e0381fec9acc55582db6c7aaacedde891
 ms.sourcegitcommit: 63e14e1e6124222a0a347aa1ad02ce1bd7e94949
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/11/2019
 ms.locfileid: "36849861"
@@ -22,7 +22,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
   
 ### <a name="office-add-ins"></a>Compléments Office
   
-- [Mise en route](https://docs.microsoft.com/office/dev/add-ins/)
+- [Prise en main](https://docs.microsoft.com/office/dev/add-ins/)
   
 - [Vue d’ensemble de la plateforme](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
