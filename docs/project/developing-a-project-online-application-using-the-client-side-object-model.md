@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: 'Cet article décrit le développement d’applications Microsoft Project Online à l’aide de .NET Framework 4.0 et CSOM. '
 localization_priority: Priority
-ms.openlocfilehash: 33ddafe2e3a75039bf55381524accf1a25692885
-ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
+ms.openlocfilehash: d48cf50b95ecea664cd9eae1b0e642fc2551d5be
+ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40825771"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102967"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>Développement d’une application Microsoft Project Online à l’aide du modèle objet côté client (CSOM)
 
@@ -50,7 +50,7 @@ Commencez avec un système de base exécutant Windows 10 et ajoutez les éléme
     
 - Kit de développement logiciel (SDK) des composants clients de SharePoint : les applications Microsoft Project Online et Project Server sont supérieures à SharePoint et aux assemblys SharePoint. Les composants client de SharePoint sont inclus dans les éditions Visual Studio Professional et Enterprise. Si vous utilisez Visual Studio Community Edition, la dernière version du kit de développement logiciel des outils de développement Office est disponible sur le site suivant : https://www.microsoft.com/en-us/download/details.aspx?id=35585.
     
-- Compte Microsoft Project Online : permet d’accéder au site d’hébergement. Pour plus d’informations sur l’obtention d’un compte Microsoft Project Online, visitez le site https://products.office.com/en-us/Project/project-online-portfolio-management.
+- Compte Microsoft Project Online : permet d’accéder au site d’hébergement. Pour plus d’informations sur l’obtention d’un compte Microsoft Project Online, visitez le site https://products.office.com/en-gb/project/project-portfolio-management.
     
 - Projets sur le site d’hébergement alimentés avec des informations
     
