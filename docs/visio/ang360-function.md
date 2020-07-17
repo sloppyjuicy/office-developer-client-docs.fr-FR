@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251392
 localization_priority: Normal
 ms.assetid: 23e6899d-0a94-a7d8-8de2-091e0531f163
-description: Normalise la plage d'un angle.
-ms.openlocfilehash: 017dd89bd3b814c10422cd32eea1ee7e343eaf50
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+description: Normalise la plage d’un angle.
+ms.openlocfilehash: 6916e50daad735843bf0a2a6361fb5b1b833e2ce
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417195"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160299"
 ---
 # <a name="ang360-function"></a>Fonction ANG360
 
-Normalise la \<plage d'un angle sur 0 = résultat \< 2pi radians (0 \<= résultat \< 360 degrés).
+Normalise la plage d’un angle sur 0 \< = résultat \< 2pi radians (0 \< = résultat \< 360 degrés).
   
 ## <a name="syntax"></a>Syntaxe
 
-ANG360 (* * *angle* * *) 
+ANG360 (***angle*** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,7 +32,7 @@ ANG360 (* * *angle* * *)
    
 ## <a name="remarks"></a>Remarques
 
-Si *angle* n'est pas spécifié à l'aide d'unités angulaires, il est interprété comme des radians. Si *angle* ne peut pas être converti en valeur, une #VALUE! est renvoyée. 
+Si *angle* n’est pas spécifié à l’aide d’unités angulaires, il est interprété comme des radians. Si *angle* ne peut pas être converti en valeur, une #VALUE ! est renvoyée. 
   
 ## <a name="example-1"></a>Exemple 1
 

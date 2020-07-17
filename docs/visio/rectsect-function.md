@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251486
 localization_priority: Normal
 ms.assetid: e83343c5-df5f-bf74-f854-6380176693a2
-description: Calcule le secteur d'un rectangle associé à x et y et renvoie un entier compris entre 0 et 4 indiquant le secteur.
-ms.openlocfilehash: fb7ed37ac498765e21c62d7180413cdbcb932502
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Calcule le secteur d’un rectangle associé à x et y et renvoie un entier compris entre 0 et 4 indiquant le secteur.
+ms.openlocfilehash: 442ec0d614589c709a097ba314abad044d470df6
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360027"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160271"
 ---
 # <a name="rectsect-function"></a>Fonction RECTSECT
 
-Calcule le secteur d'un rectangle associé à *x* et *y* et renvoie un entier compris entre 0 et 4 indiquant le secteur. 
+Calcule le secteur d’un rectangle associé à *x* et *y* et renvoie un entier compris entre 0 et 4 indiquant le secteur. 
   
 ## <a name="syntax"></a>Syntaxe
 
-RECTSECT (* * *largeur* * *, * * *hauteur* * *, * * *x* * *, * * *y* * *, * * *option* * *) 
+RECTSECT (***largeur***, ***hauteur***, ***x***, ***y***, ***option*** ) 
   
 ### <a name="parameters"></a>Paramètres
 

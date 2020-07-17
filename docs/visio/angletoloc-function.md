@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ee5e3898-bb49-57c6-0ebe-12e1fe388e55
 description: Renvoie un angle transformé dans le système de coordonnées locales de la forme de destination. Convertit un angle de coordonnées locales de la forme source en coordonnées locales de la forme de destination.
-ms.openlocfilehash: 804faeb24932e414ad03bc9e8487c62ca08bd7d2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e971613d4fc33cd991e7e9aeba49ac47871ebe8f
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433569"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160264"
 ---
 # <a name="angletoloc-function"></a>Fonction ANGLETOLOC
 
@@ -22,7 +22,7 @@ Renvoie un angle transformé dans le système de coordonnées locales de la form
   
 ## <a name="syntax"></a>Syntaxe
 
-ANGLETOLOC (* * *srcAngle* * *, * * *srcRef* * *, * * *dstRef* * *) 
+ANGLETOLOC (***srcAngle***, ***srcRef***, ***dstRef*** ) 
   
 ### <a name="parameters"></a>Paramètres
 

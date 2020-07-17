@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 'Dernière modification : septembre 06, 2019'
-ms.openlocfilehash: f6f671cbfd5e14d602aaa31d31e54e859f068593
-ms.sourcegitcommit: 27a9f3568318470e7ee09ad93a90c3f80d3ef0cd
+ms.openlocfilehash: c9fcffa8ad4dc982e869f4ccd449e1377fb1ea57
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790770"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160285"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -60,7 +60,7 @@ CCSF_EMBEDDED_MESSAGE
     
 CCSF_SMTP
   
-> Le flux MIME est destiné à un message SMTP (simple MAPI Transfer Protocol).
+> Le flux MIME est destiné à un message SMTP (Simple Mail Transfer Protocol).
     
 CCSF_INCLUDE_BCC
   
@@ -92,7 +92,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 |MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
 |MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
    
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez également
 
 
 

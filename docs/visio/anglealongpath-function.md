@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d7f8ca9a-3a89-abab-9805-bd1e24075c3f
 description: Renvoie l’angle de la tangente du chemin à un point donné.
-ms.openlocfilehash: 0d38fc0e123a7e38b7826b55415cfc09c1789c0e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a15e45ff6135972cd1cd78382147a493f8fc8d69
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407325"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160292"
 ---
 # <a name="anglealongpath-function"></a>Fonction ANGLEALONGPATH
 
@@ -25,7 +25,7 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-ANGLEALONGPATH (* * *section* * *, * * *voyages* * * * * *[, segment]* * *) 
+ANGLEALONGPATH (***section***, ***voyages*** ***[, segment]*** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -43,8 +43,8 @@ ANGLEALONGPATH (* * *section* * *, * * *voyages* * * * * *[, segment]* * *)
 
 Si vous incluez une valeur de _segment_ , ANGLEALONGPATH renvoie la valeur de ce segment uniquement. 
   
-Si vous incluez une valeur de _segment_ , ANGLEALONGPATH détermine le point de la tangente à l'aide de _voyages_ pour calculer le pourcentage de percertification le long du _segment_.
+Si vous incluez une valeur de _segment_ , ANGLEALONGPATH détermine le point de la tangente à l’aide de _voyages_ pour calculer le pourcentage de percertification le long du _segment_.
   
-Si l'une des _sections_ ou le _segment_ n'existe pas, Microsoft Visio renvoie #REF!. 
+Si l’une des _sections_ ou le _segment_ n’existe pas, Microsoft Visio renvoie #REF !. 
   
 
