@@ -3,12 +3,12 @@ title: Gérer une résolution élevée et redimensionner la résolution dans vot
 description: Mettre à jour votre solution Office tels que les volets de tâches personnalisés, ou les contrôles ActiveX, pour prendre en charge des moniteurs à haute résolution.
 ms.date: 03/09/2019
 localization_priority: Normal
-ms.openlocfilehash: 0425e5e9dd0f060a6336888cfe6c236b39732080
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 78179b958bc57137c0565b8b1ca5feb40f61fe0e
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301736"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293477"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>Gérer une résolution élevée et redimensionner la résolution dans votre solution Office
 
@@ -41,7 +41,7 @@ Dans cet article, nous allons faire référence aux modes de sensibilisation PPP
 |Mode  |Description  |Lorsque la résolution change  |
 |---------|---------|---------|
 |Système PPP ignoré |  L’application s’affiche toujours comme si elle est sur une résolution de valeur 96. |  L’application est étirée bitmap à la taille attendue sur l’affichage principal et secondaire.    |
-|Système PPP pris en compte |  L’application détecte la résolution du moniteur principal connecté à Windows, mais ne peut pas répondre aux modifications PPP. Pour plus d'informations, reportez-vous à la section [configurer Windows pour corriger les applications floues](#configure-windows-to-fix-blurry-apps) de cet article.  | L’application est étirée bitmap lorsqu’elle est déplacée vers un nouvel affichage avec une résolution différente.    |
+|Système PPP pris en compte |  L’application détecte la résolution du moniteur principal connecté à Windows, mais ne peut pas répondre aux modifications PPP. Pour plus d’informations, reportez-vous à la section [configurer Windows pour corriger les applications floues](#configure-windows-to-fix-blurry-apps) de cet article.  | L’application est étirée bitmap lorsqu’elle est déplacée vers un nouvel affichage avec une résolution différente.    |
 |Par moniteur PPP pris en compte |  L’application est capable de s’afficher correctement d’elle-même lorsque le PPP change.  |   Windows envoie des notifications PPP aux fenêtres de niveau supérieur dans l’application, de sorte qu’elle peut ajuster son affichage en cas de modification de la résolution.     |
 |Par moniteur v2 |  L’application est capable de s’afficher correctement d’elle-même lorsque le PPP change.  |   Windows envoie des notifications PPP aux fenêtres de niveau supérieur et aux fenêtres enfants dans l’application, de sorte qu’elle peut ajuster son affichage en cas de modification de la résolution. |
 
@@ -237,7 +237,7 @@ Avec la mise à jour Windows avril 2018 (1803) et versions ultérieures, le comp
 
 ![Diagramme montrant les fenêtres enfants en cours d’exécution dans un contexte Par système PPP pris en compte sur Windows mise à jour avril 2018 (1803).](./media/office-dpi-behavior-on-windows-april-2018-update.png)
 
-Lorsque vous créez nouveau fenêtre enfant, assurez-vous qu’elles correspondent à la résolution de présence de leur fenêtre parent. Vous pouvez utiliser la fonction[GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) pour obtenir la résolution de présence de la fenêtre parent. Pour plus d’informations sur la cohérence de présence PPP, voir la section « Réinitialisation forcée de présence à l’échelle de processus PPP » dans [Développement d’applications bureau pour haute résolution sur Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Lorsque vous créez nouveau fenêtre enfant, assurez-vous qu’elles correspondent à la résolution de présence de leur fenêtre parent. Vous pouvez utiliser la fonction [fonctiongetwindowdpiawarenesscontext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) pour obtenir la prise en dpi de la fenêtre parente. Pour plus d’informations sur la cohérence de présence PPP, voir la section « Réinitialisation forcée de présence à l’échelle de processus PPP » dans [Développement d’applications bureau pour haute résolution sur Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 > [!NOTE]
 > Vous ne pouvez pas dépendre de la présence de processus PPP car cela peut renvoyer [PROCESS_SYSTEM_DPI_AWARE](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness) même lorsque le contexte de présence du thread principal PPP de l’application est [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context). Utilisez la fonction [GetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) pour obtenir le contexte de présence du thread PPP.
@@ -564,7 +564,7 @@ Vous pouvez également trouver ces techniques supplémentaires utiles :
 
 ### <a name="articles"></a>Articles
 
-- Le [développement d'une application WPF PPP compatible par moniteur](https://docs.microsoft.com/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) fournit une vue d'ensemble et un guide pour l'écriture d'applications de bureau Win32. Bon nombre des techniques décrites dans cet article peuvent être appliquées aux solutions d’extensibilité Office.
+- Le [développement d’une application WPF PPP compatible par moniteur](https://docs.microsoft.com/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) fournit une vue d’ensemble et un guide pour l’écriture d’applications de bureau Win32. Bon nombre des techniques décrites dans cet article peuvent être appliquées aux solutions d’extensibilité Office.
 - 
   [Mise à l’échelle PPP mode mixte et API PPP pris en compte](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) a une liste d’API connexes à PPP.
 - [Guie de développeur - Par moniteur PPP - Aperçu WPF](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer%20Guide%20-%20Per%20Monitor%20DPI%20-%20WPF%20Preview.docx) couvre le guide de développement d’application WPF pour créer des applications WPF PPP pris en compte.

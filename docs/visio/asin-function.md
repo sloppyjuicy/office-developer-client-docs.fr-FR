@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251395
 localization_priority: Normal
 ms.assetid: 7d917be4-65b1-002f-48cc-6d81916a1157
-description: Renvoie l'arcsinus d'un nombre, par exemple, l'angle dont le sinus est nombre.
-ms.openlocfilehash: a7585dc07053466203f11cc04ce249ceb62fbda0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+description: Renvoie l’arcsinus d’un nombre, par exemple, l’angle dont le sinus est nombre.
+ms.openlocfilehash: e66ed9ab3d01ac79bceb18f5c793afc928e5e4b4
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432820"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293505"
 ---
 # <a name="asin-function"></a>Fonction ASIN
 
-Renvoie l'arcsinus d'un nombre, par exemple, l'angle dont le sinus est *nombre* . 
+Renvoie l’arcsinus d’un nombre, par exemple, l’angle dont le sinus est  *nombre*  . 
   
 ## <a name="syntax"></a>Syntaxe
 
-ASIN (* * *nombre* * *) 
+ASIN (***nombre*** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,7 +32,7 @@ ASIN (* * *nombre* * *)
    
 ## <a name="remarks"></a>Remarques
 
-La valeur d'entrée doit être comprise entre-1 < = *nombre* < = 1, ou une #NUM! est renvoyée. L'angle obtenu se trouve dans la plage-PI/2 < = *angle* _LT_ = pi/2 radians (-90 < = *angle* < = 90 degrés). 
+La valeur d’entrée doit être comprise entre-1 <=  *nombre*  <= 1 ou un #NUM ! est renvoyée. L’angle obtenu se trouve dans la plage-PI/2 <=  *angle*  <= pi/2 radians (-90 <=  *angle*  <= 90 degrés). 
   
 ## <a name="example"></a>Exemple
 
