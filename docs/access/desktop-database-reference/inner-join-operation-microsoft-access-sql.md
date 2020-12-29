@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 localization_priority: Priority
-ms.openlocfilehash: 6ff2ad40d318801ecec2332b53b41f327c20fbc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d865d005604ed7422c8e33ff8508551b720c30ba
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291399"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734216"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>INNER JOIN, opération (Microsoft Access SQL)
 
@@ -84,7 +84,7 @@ Dans l'exemple précédent, CategoryID est le champ joint, mais il n'est pas inc
 
 Vous pouvez également lier plusieurs clauses ON dans une instruction JOIN, en utilisant la syntaxe suivante :
 
-SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*champ1* *compopr* *table2*.*champ1* AND ON *table1*.*champ2* *compopr* *table2*.*champ2*) OR ON *table1*.*champ3* *compopr* *table2*.*champ3*)\];
+SELECT *champs* FROM *table1* INNER JOIN *table2* ON *table1*.*champ1* *compopr* *table2*.*champ1* AND ON *table1*.*champ2* *compopr* *table2*.*champ2* OR *table1*.*champ3* *compopr* *table2*.*champ3*;
 
 Vous pouvez également imbriquer des instructions JOIN en utilisant la syntaxe suivante :
 

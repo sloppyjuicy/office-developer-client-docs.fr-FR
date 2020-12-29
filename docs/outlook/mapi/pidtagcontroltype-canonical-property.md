@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8614441ffa60181366c860b66ef4618ce32106be
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7bdb02f72ba14a36c8a4c218cd5f0631e7145e6a
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413478"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734202"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>Propriété canonique PidTagControlType
 
@@ -32,63 +32,63 @@ Contient une valeur qui indique un type de contrôle pour un contrôle utilisé 
 |Propriétés associées :  <br/> |PR_CONTROL_TYPE  <br/> |
 |Identificateur :  <br/> |0x3F02  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Table d'affichage MAPI  <br/> |
+|Domaine :  <br/> |Table d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement l'une des valeurs suivantes:
+Cette propriété peut avoir exactement l’une des valeurs suivantes :
+    
+DTCT_LABEL (0x00000000)
   
-DTCT_BUTTON 
+> Étiquette de boîte de dialogue.
+   
+DTCT_EDIT (0x00000001)
+  
+> Zone de texte d’édition d’une boîte de dialogue.
+
+DTCT_LBX (0x00000002)
+  
+> Une zone de liste de boîte de dialogue.
+    
+DTCT_COMBOBOX (0x00000003)
+  
+> Zone de liste déroulante de boîte de dialogue.
+
+DTCT_DDLBX (0x00000004)
+  
+> Zone de liste déroulante de dialogue.
+
+DTCT_CHECKBOX (0x00000005)
+  
+> Case à cocher de boîte de dialogue.
+
+DTCT_GROUPBOX (0x00000006)
+  
+> Une boîte de dialogue.
+  
+DTCT_BUTTON (0x00000007)
   
 > Contrôle de bouton de boîte de dialogue.
     
-DTCT_CHECKBOX 
-  
-> Case à cocher de boîte de dialogue.
-    
-DTCT_COMBOBOX 
-  
-> Zone de liste déroulante de boîte de dialogue.
-    
-DTCT_DDLBX 
-  
-> Zone de liste déroulante de dialogue.
-    
-DTCT_EDIT 
-  
-> Zone de texte d'édition d'une boîte de dialogue.
-    
-DTCT_GROUPBOX 
-  
-> Une boîte de dialogue.
-    
-DTCT_LABEL 
-  
-> Étiquette de boîte de dialogue.
-    
-DTCT_LBX 
-  
-> Une zone de liste de boîte de dialogue.
-    
-DTCT_LISTBOX 
-  
-> Une zone de liste de boîte de dialogue.
-    
-DTCT_MVDDLBX 
-  
-> Zone de liste à plusieurs valeurs remplie par une propriété à valeurs multiples de type String.
-    
-DTCT_PAGE 
+DTCT_PAGE (0x00000008)
   
 > Page à onglets de boîte de dialogue.
     
-DTCT_RADIOBUTTON 
+DTCT_RADIOBUTTON (0x00000009)
   
-> Case d'option de boîte de dialogue.
+> Case d’option de boîte de dialogue.
+    
+DTCT_MVLISTBOX (0x0000000B)
+  
+> Zone de liste à plusieurs valeurs remplie par une propriété à valeurs multiples de type String.
+    
+DTCT_MVDDLBX (0x0000000C)
+  
+> Zone de liste déroulante à valeurs multiples complétée par une propriété à valeurs multiples de type String.
     
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
 Mapidefs. h
   

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: aadfba3e2674c35019a2e5f3eb374fbed1ad2a75
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318080"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734223"
 ---
 # <a name="autocomplete-stream"></a>Flux de saisie semi-automatique
 
@@ -79,13 +79,13 @@ De manière générale, la mise en page du flux de saisie semi-automatique est c
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Métadonnées  <br/> |4  <br/> |
-|Numéro de version majeure  <br/> |4  <br/> |
-|Numéro de version mineure  <br/> |4  <br/> |
+|Métadonnées  <br/> |4   <br/> |
+|Numéro de version majeure  <br/> |4   <br/> |
+|Numéro de version mineure  <br/> |4   <br/> |
 |Ensemble de lignes  <br/> |Variable  <br/> |
-|Nombre d’octets des infos supplémentaires EI  <br/> |4  <br/> |
+|Nombre d’octets des infos supplémentaires EI  <br/> |4   <br/> |
 |Informations supplémentaires  <br/> |EI   <br/> |
-|Métadonnées  <br/> |8bits  <br/> |
+|Métadonnées  <br/> |8   <br/> |
    
 Lors de la lecture de ce flux, si la version majeure n’est pas la 12, alors ce flux de données ne doit pas être lu ou écrit. La version mineure actuelle du flux de saisie semi-automatique est la 0, pour laquelle le nombre d’octets d’informations supplémentaire est égal à 0. Si la version mineure est différente de 0, il y aura alors des informations supplémentaires qui doivent être lues lors de la lecture du flux de données et conservées lors de la rédaction du flux d’informations. La version mineure doit également être conservée lors de la rédaction du flux de données. Si ces deux éléments ne sont pas conservés, les instances d’Outlook écrites par les informations supplémentaires perdent des données. 
   
@@ -98,7 +98,7 @@ La disposition de jeu de lignes est comme suit :
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de lignes  <br/> |4  <br/> |
+|Nombre de lignes  <br/> |4   <br/> |
 |Lignes  <br/> |Variable  <br/> |
    
 Le nombre de lignes identifie le nombre de lignes fournies dans la partie suivante de la séquence de flux binaire.
@@ -109,7 +109,7 @@ Chaque ligne correspond au format suivant :
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de propriétés  <br/> |4  <br/> |
+|Nombre de propriétés  <br/> |4   <br/> |
 |Propriétés  <br/> |Variable  <br/> |
    
 Le nombre de lignes identifie le nombre de propriétés fournies dans la partie suivante de la séquence de flux binaire.
@@ -120,8 +120,8 @@ Chaque propriété correspond au format suivant :
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Balise de propriété  <br/> |4  <br/> |
-|Données réservées  <br/> |4  <br/> |
+|Balise de propriété  <br/> |4   <br/> |
+|Données réservées  <br/> |4   <br/> |
 |Union de valeur de la propriété  <br/> ||
 |Données de la valeur  <br/> |0 ou variable (en fonction de la balise de proposition)  <br/> |
    
@@ -137,6 +137,7 @@ Certaines propriétés ne possèdent aucune valeur de données et ont uniquement
 |:-----|:-----|
 |PT_I2  <br/> |short int  <br/> |
 |PT_LONG  <br/> |long  <br/> |
+|PT_ERROR  <br/> |long  <br/> |
 |PT_R4  <br/> |float  <br/> |
 |PT_DOUBLE  <br/> |double  <br/> |
 |PT_BOOLEAN  <br/> |short int  <br/> |
@@ -151,49 +152,42 @@ PT_STRING8
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre d’octets n  <br/> |4  <br/> |
+|Nombre d’octets n  <br/> |4   <br/> |
 |Les octets seront interprétés comme une chaîne ANSI (y compris terminateur NULL)  <br/> |n  <br/> |
    
 PT_CLSID
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Les octets seront interprétés comme un GUID  <br/> |Seiz  <br/> |
+|Les octets seront interprétés comme un GUID  <br/> |16   <br/> |
 |||
    
 PT_BINARY 
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre d’octets n  <br/> |4  <br/> |
-|Les octets seront interprétés comme une gamme d’octets  <br/> |n  <br/> |
-   
-PT_ERROR
-  
-|**Données de la valeur**|**Nombre d’octets**|
-|:-----|:-----|
-|Nombre d’octets n  <br/> |4  <br/> |
+|Nombre d’octets n  <br/> |4   <br/> |
 |Les octets seront interprétés comme une gamme d’octets  <br/> |n  <br/> |
    
 PT_MV_BINARY
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de matrices binaires X  <br/> |4  <br/> |
+|Nombre de matrices binaires X  <br/> |4   <br/> |
 |Une exécution d’octets contenant X matrices binaires. Chaque tableau doit être interprété exactement comme l’exécution d’octet PT_BINARY.  <br/> |Variable  <br/> |
    
 PT_MV_STRING8 (Outlook 2007, Outlook 2010, et Outlook 2013)
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de chaînes ANSI X  <br/> |4  <br/> |
+|Nombre de chaînes ANSI X  <br/> |4   <br/> |
 |Une exécution d’octets contenant X chaînes ANSI. Chaque tableau doit être interprété exactement comme l’exécution d’octets PT_STRING8.  <br/> |Variable  <br/> |
    
 PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de chaînes UNICODE X  <br/> |4  <br/> |
+|Nombre de chaînes UNICODE X  <br/> |4   <br/> |
 |Une exécution d’octets contenant X chaînes UNICODE. Chaque tableau doit être interprété exactement comme l’exécution d’octets PT_UNICODE.  <br/> |Variable  <br/> |
    
 ## <a name="significant-properties"></a>Propriétés importantes
