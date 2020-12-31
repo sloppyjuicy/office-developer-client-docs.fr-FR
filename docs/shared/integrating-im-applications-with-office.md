@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013 et version ultérieure, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
 localization_priority: Priority
-ms.openlocfilehash: c0094b880bae5cac2cef4236d3ff3edcefd21678
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 3494d42af82c174469272928286c3fc5f847eebc
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819293"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734230"
 ---
 # <a name="integrating-im-applications-with-office"></a>Intégration des applications de messagerie instantanée à Office
 
@@ -308,6 +308,10 @@ La méthode **GetSupportedFeatures** renvoie des informations sur les fonctionna
 >  Les applications Office 2013 (ou versions ultérieures) ignorent les constantes suivantes dans l’énumération **OIFeature** : 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
+> - **oiFeaturePhoneNormalization**
+>
+>  Les applications Office 365 2011 (et versions ultérieures) ignorent les constantes suivantes dans l’énumération **OIFeature** : 
+> - **oiFeaturePictures** (2) 
 > - **oiFeaturePhoneNormalization**
   
 Utilisez le code suivant pour implémenter la méthode **GetSupportFeatures** dans le code de l’application cliente de messagerie instantanée. 
@@ -659,7 +663,7 @@ L'interface **IAutomation** automatise les fonctionnalités de l'application cli
 Le tableau 4 indique les membres qui doivent être implémentés dans la classe qui hérite de **IAutomation**.
   
 > [!NOTE]
-> Tout membre de l'interface **IAutomation** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l'interface **IAutomation** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**. 
 > 
 > Pour plus d'informations sur l'interface **IAutomation** et ses membres, consultez [UCCollaborationLib.IAutomation](https://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
   
@@ -696,7 +700,7 @@ L'interface **IContact** représente un utilisateur de l'application cliente de 
 Le tableau 5 indique les membres qui doivent être implémentés dans la classe qui hérite de **IContact**.
   
 > [!NOTE]
-> Tout membre de l'interface **IContact** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l'interface **IContact** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**. 
 >
 > Pour plus d'informations sur l'interface **IContact** et ses membres, consultez [UCCollaborationLib.IContact](https://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
   
@@ -710,7 +714,7 @@ Le tableau 5 indique les membres qui doivent être implémentés dans la classe 
 |Propriété **Settings**  <br/> |Obtient une collection de propriétés de contact.  <br/> |
 |Propriété **CustomGroups**  <br/> |Obtient une collection de groupes dont le contact est membre.  <br/> |
    
-Pendant le processus d'initialisation, l'application Office appelle la méthode **IContact.CanStart** pour déterminer les fonctionnalités de messagerie instantanée de l'utilisateur local. La méthode **CanStart** récupère un indicateur à partir de l'énumération [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) en tant qu'argument pour le paramètre  __modalityTypes_. Si l'utilisateur peut participer à la modalité demandée (autrement dit, si l'utilisateur est capable d'utiliser la messagerie instantanée, la messagerie audio et vidéo ou le partage d'application), la méthode **CanStart** renvoie **true**.
+Pendant le processus d'initialisation, l'application Office appelle la méthode **IContact.CanStart** pour déterminer les fonctionnalités de messagerie instantanée de l'utilisateur local. La méthode **CanStart** récupère un indicateur à partir de l'énumération [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) en tant qu'argument pour le paramètre  _ _modalityTypes_. Si l'utilisateur peut participer à la modalité demandée (autrement dit, si l'utilisateur est capable d'utiliser la messagerie instantanée, la messagerie audio et vidéo ou le partage d'application), la méthode **CanStart** renvoie **true**.
   
 ```cs
 public bool CanStart(ModalityTypes _modalityTypes)
@@ -734,7 +738,7 @@ public bool CanStart(ModalityTypes _modalityTypes)
 
 ```
 
-La méthode **GetContactInformation** récupère les informations relatives au contact à partir de l'objet **IContact**. Le code appelant doit transmettre une valeur à partir de l'énumération [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) pour le paramètre  __contactInformationType_, qui indique les données à récupérer. 
+La méthode **GetContactInformation** récupère les informations relatives au contact à partir de l'objet **IContact**. Le code appelant doit transmettre une valeur à partir de l'énumération [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) pour le paramètre  _ _contactInformationType_, qui indique les données à récupérer. 
   
 ```cs
 public object GetContactInformation(
@@ -765,7 +769,7 @@ public object GetContactInformation(
 }
 ```
 
-Similaire à **GetContactInformation**, la méthode **BatchGetContactInformation** extrait plusieurs éléments de présence relatifs au contact à partir de l'objet **IContact**. Le code appelant doit transmettre un tableau de valeurs à partir de l'énumération **ContactInformationType** pour le paramètre  __contactInformationTypes_. La méthode renvoie un objet [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) contenant les données requises. 
+Similaire à **GetContactInformation**, la méthode **BatchGetContactInformation** extrait plusieurs éléments de présence relatifs au contact à partir de l'objet **IContact**. Le code appelant doit transmettre un tableau de valeurs à partir de l'énumération **ContactInformationType** pour le paramètre  _ _contactInformationTypes_. La méthode renvoie un objet [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) contenant les données requises. 
   
 ```cs
 public IMClientContactInformationDictionary BatchGetContactInformation(
@@ -883,7 +887,7 @@ Le tableau 7 affiche les membres qui doivent être implémentés dans la classe 
 ||Événement **OnGroupRemoved**  <br/> |Déclenché lorsqu'un groupe est supprimé d'une collection de groupes. La collection de groupes mise à jour peut être obtenue à partir de la propriété **IContactManager.Groups**.  <br/> |
 ||Événement **OnSearchProviderStateChanged**  <br/> |Déclenché lorsque le statut d’un fournisseur de recherche change.  <br/> |
    
-Office appelle **IContactManager.GetContactByUri** pour obtenir les informations de présence d'un contact à l'aide de son adresse SIP. Lorsqu'un contact est configuré pour une adresse SIP dans Active Directory, Office détermine cette adresse pour un contact et appelle **GetContactByUri**, transmettant l'adresse SIP du contact vers le paramètre  __contactUri_. 
+Office appelle **IContactManager.GetContactByUri** pour obtenir les informations de présence d'un contact à l'aide de son adresse SIP. Lorsqu'un contact est configuré pour une adresse SIP dans Active Directory, Office détermine cette adresse pour un contact et appelle **GetContactByUri**, transmettant l'adresse SIP du contact vers le paramètre  _ _contactUri_. 
   
 Lorsqu'Office ne peut pas déterminer l'adresse SIP du contact, il appelle la méthode **IContactManager.Lookup** pour trouver le SIP en utilisant le service de messagerie instantanée. Ici, Office transmet les meilleures données du contact qu'il peut trouver (par exemple, seule l'adresse de messagerie du contact). La méthode **Lookup** renvoie de manière asynchrone un objet **AsynchronousOperation**. Lorsqu'elle appelle le rappel, la méthode **Lookup** doit renvoyer la réussite ou l'échec de l'opération en plus de l'URI du contact. 
   
@@ -934,7 +938,7 @@ L'objet **IGroup** représente un ensemble de contacts avec des propriétés sup
 Le tableau 9 affiche les membres qui doivent être implémentés dans les classes qui héritent de **IGroup** et **IGroupCollection** dans le tableau suivant. 
   
 > [!NOTE]
-> Tout membre de l'interface **IGroup** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l'interface **IGroup** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**. 
 >
 > Pour plus d'informations sur les interfaces **IGroup** et **IGroupCollection**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IGroup](https://msdn.microsoft.com/library/UCCollaborationLib.IGroup) et [UCCollaborationLib.IGroupCollection](https://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
   
@@ -956,7 +960,7 @@ L'interface **IContactSubscription** vous permet de spécifier des contacts dont
 Le tableau 10 indique les membres qui doivent être implémentés dans les classes qui héritent de **IContactSubscription**.
   
 > [!NOTE]
-> Tout membre de l'interface **IContactSubscription** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l'interface **IContactSubscription** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**.
 >
 > Pour plus d'informations sur l'interface **IContactSubscription** et ses membres, consultez [UCCollaborationLib.IContactSubscription](https://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
   
@@ -989,7 +993,7 @@ L'interface **IContactEndPoint** représente un numéro de téléphone à partir
 Le tableau 11 indique les membres qui doivent être implémentés dans les classes qui héritent de **IContactEndPoint**.
   
 > [!NOTE]
-> Tout membre de l'interface **IContactEndPoint** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l'interface **IContactEndPoint** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**.
 >
 > Pour plus d'informations sur l'interface **IContactEndPoint** et ses membres, consultez [UCCollaborationLib.IContactEndpoint](https://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
   
@@ -1009,7 +1013,7 @@ L'interface **ILocaleString** est une structure de chaîne localisée contenant 
 Le tableau 12 affiche les membres qui doivent être implémentés dans les classes qui héritent de **ILocaleString**.
   
 > [!NOTE]
-> Tout membre de l'interface **ILocaleString** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l'interface **ILocaleString** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**.
 >
 > Pour plus d'informations sur l'interface **ILocalString** et ses membres, voir [UCCollaborationLib.ILocaleString](https://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
   
