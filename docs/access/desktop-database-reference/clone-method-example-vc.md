@@ -19,7 +19,7 @@ ms.locfileid: "32296303"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple fait appel à la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis laisse l'utilisateur positionner indépendamment le pointeur d'enregistrement de chaque copie.
+Cet exemple utilise la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis permet à l'utilisateur de positionner le pointeur d'enregistrement de chaque copie indépendamment des autres.
 
 ```cpp 
  
@@ -252,7 +252,7 @@ void PrintComError(_com_error &e)
 // EndCloneCpp 
 ```
 
-**CloneX. h**
+**CloneX.h**
 
 ```cpp 
  

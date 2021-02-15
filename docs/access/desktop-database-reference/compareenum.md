@@ -38,12 +38,12 @@ Spécifie la position relative de deux enregistrements représentés par leurs s
 <tbody>
 <tr class="odd">
 <td><p><strong>adCompareEqual</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Indique que les signets sont égaux.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCompareGreaterThan</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Indique que le premier signet est situé après le second.</p></td>
 </tr>
 <tr class="odd">
@@ -53,12 +53,12 @@ Spécifie la position relative de deux enregistrements représentés par leurs s
 </tr>
 <tr class="even">
 <td><p><strong>adCompareNotComparable</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indique que les signets ne peuvent être ouverts.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareNotEqual</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indique que les signets ne sont ni égaux, ni classés.</p></td>
 </tr>
 </tbody>
@@ -80,19 +80,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Compare. EQUAL</p></td>
+<td><p>AdoEnums.Compare.EQUAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Compare. GREATERTHAN</p></td>
+<td><p>AdoEnums.Compare.GREATERTHAN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Compare. LESSTHAN</p></td>
+<td><p>AdoEnums.Compare.LESSTHAN</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Compare. NOTCOMPARABLE</p></td>
+<td><p>AdoEnums.Compare.NOTCOMPARABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Compare. NOTEQUAL</p></td>
+<td><p>AdoEnums.Compare.NOTEQUAL</p></td>
 </tr>
 </tbody>
 </table>

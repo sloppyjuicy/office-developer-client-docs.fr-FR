@@ -22,11 +22,11 @@ Modifie le mot de passe d'un compte d'utilisateur.
 
 ## <a name="syntax"></a>Syntaxe
 
-*User*. ChangePassword**, *newPassword, newPassword*
+*Utilisateur*. ChangePassword *OldPassword*, *NewPassword*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*OldPassword* |Valeur de type **String** qui spécifie le mot de passe existant de l'utilisateur. Si l'utilisateur ne possède pas de mot de passe, utilisez une chaîne vide ("") pour le paramètre *OldPassword*.|
 |*NewPassword* |Valeur de type **String** qui spécifie le nouveau mot de passe.|

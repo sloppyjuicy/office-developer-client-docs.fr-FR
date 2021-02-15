@@ -1,5 +1,5 @@
 ---
-title: Propriétés, méthodes et événements de connexion (ADO)
+title: Connection properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: e78329a4-0b90-9ae5-f3d7-e56815a396fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295841"
 ---
-# <a name="connection-properties-methods-and-events-ado"></a>Propriétés, méthodes et événements de connexion (ADO)
+# <a name="connection-properties-methods-and-events-ado"></a>Connection properties, methods, and events (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -40,12 +40,12 @@ ms.locfileid: "32295841"
 - [BeginTrans, CommitTrans et RollbackTrans, méthodes](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Cancel, méthode](cancel-method-ado.md)
 - [Close, méthode](close-method-ado.md)
-- [Execute, méthode (connexion ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
+- [Execute, méthode (ADO Connection)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Open, méthode (connexion ADO)](open-method-ado-connection.md)
 - [OpenSchema, méthode](openschema-method-ado.md)
 
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 - [BeginTransComplete, CommitTransComplete et RollbackTransComplete, événements](begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md)
 - [ConnectComplete et Disconnect, événements](connectcomplete-and-disconnect-events-ado.md)

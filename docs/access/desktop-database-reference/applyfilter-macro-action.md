@@ -38,20 +38,20 @@ L’action **AppliquerFiltre** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Nom du filtre</p></td>
-<td><p>Nom d’un filtre ou d’une requête qui restreint ou trie les enregistrements de la table, du formulaire ou du rapport. Vous pouvez entrer le nom d'une requête existante ou d'un filtre enregistré en tant que requête dans la zone <strong>nom du filtre</strong> de la section <strong>arguments</strong> de l'action du volet <strong>Générateur de macro</strong> .</p><p><strong>Remarque</strong>: lorsque vous utilisez cette action pour appliquer un filtre serveur, l'argument Nom du filtre doit être vide.</p></td>
+<td><p>Nom d’un filtre ou d’une requête qui restreint ou trie les enregistrements de la table, du formulaire ou du rapport. Vous pouvez entrer le nom d’une requête existante ou d’un filtre <strong></strong> qui a été enregistré en tant que requête dans la zone Nom du filtre de la section Arguments de <strong>l’action</strong> du volet Générateur de <strong>macro.</strong></p><p><strong>REMARQUE</strong>: lorsque vous utilisez cette action pour appliquer un filtre serveur, l’argument Nom du filtre doit être vide.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condition Where</p></td>
 <td><p>Clause SQL WHERE (sans le mot WHERE) valide ou expression qui restreint les enregistrements de la table, du formulaire ou de l’état.</p>
-<p><b>Remarque</b>: dans une expression d'argument condition WHERE, le côté gauche de l'expression contient généralement un nom de champ de la table ou de la requête sous-jacente du formulaire ou de l'État. La partie droite de l’expression contient généralement les critères que vous souhaitez appliquer à ce champ pour restreindre ou trier les enregistrements. Ces critères peuvent ainsi être le nom d’un contrôle dans un autre formulaire qui contient la valeur à laquelle doivent correspondre les enregistrements dans le premier formulaire. Le nom du contrôle doit être complet, comme dans l’exemple suivant :</p>
-<p><strong>Forms</strong>! <em>FormName</em>! <em>nomcontrôle</em> Les noms de champs doivent être entourés de guillemets doubles et les littéraux de chaîne doivent être entourés de guillemets simples. L’argument Condition Where est limité à 255 caractères. Si vous avez besoin d’entrer une clause SQL WHERE plus longue, utilisez la méthode <strong>ApplyFilter</strong> de l’objet <strong>DoCmd</strong> dans un module Visual Basic pour Applications (VBA). Dans VBA, les instructions de clause SQL WHERE peuvent contenir jusqu’à 32 768 caractères.</p></td>
+<p><b>REMARQUE</b>: dans une expression d’argument Condition Where, le côté gauche de l’expression contient généralement un nom de champ de la table ou de la requête sous-jacente pour le formulaire ou l’état. La partie droite de l’expression contient généralement les critères que vous souhaitez appliquer à ce champ pour restreindre ou trier les enregistrements. Ces critères peuvent ainsi être le nom d’un contrôle dans un autre formulaire qui contient la valeur à laquelle doivent correspondre les enregistrements dans le premier formulaire. Le nom du contrôle doit être complet, comme dans l’exemple suivant :</p>
+<p><strong>Formulaires</strong>! <em>formname</em>! <em>controlname</em> Les noms de champs doivent être entourés de guillemets doubles et les littéraux de chaîne doivent être entourés de guillemets simples. L’argument Condition Where est limité à 255 caractères. Si vous avez besoin d’entrer une clause SQL WHERE plus longue, utilisez la méthode <strong>ApplyFilter</strong> de l’objet <strong>DoCmd</strong> dans un module Visual Basic pour Applications (VBA). Dans VBA, les instructions de clause SQL WHERE peuvent contenir jusqu’à 32 768 caractères.</p></td>
 </tr>
 </tbody>
 </table>
@@ -75,7 +75,7 @@ When you save a table or form, Access saves any filter currently defined in that
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment utiliser l'action AppliquerFiltre pour filtrer le formulaire frmFoods à l'ouverture.
+L’exemple suivant montre comment utiliser l’action AppliquerFiltre pour filtrer le formulaire frm Foods lors de son ouverture.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

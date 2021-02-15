@@ -102,7 +102,7 @@ Le composant de services [Service de curseur pour OLE DB](microsoft-cursor-servi
 
 Pour plus d'informations sur les fournisseurs, consultez la documentation relative à Microsoft OLE DB dans le kit de développement logiciel (SDK) des composants Microsoft Data Access ou visitez le [Centre Accès aux Données et Stockage](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
 
-## <a name="provider-commands"></a>Commandes du fournisseur
+## <a name="provider-commands"></a>Commandes de fournisseur
 
-Pour chaque fournisseur répertorié ici, si vos applications permettent aux utilisateurs d'entrer des instructions SQL en tant que commandes de fournisseur, vous devez toujours valider l'entrée de l'utilisateur et être vigilant sur les éventuelles attaques de pirates à l'aide d'une instruction SQL potentiellement dangereuse, telle que, dans le cadre de la entrée de l'utilisateur.
+Pour chaque fournisseur répertorié ici, si vos applications permettent aux utilisateurs d’entrer des instructions SQL en tant que commandes de fournisseur, vous devez toujours valider l’entrée utilisateur et être vigilant contre les attaques de pirates informatiques à l’aide d’instructions SQL potentiellement dangereuses, telles que, dans le cadre de l’entrée utilisateur.
 

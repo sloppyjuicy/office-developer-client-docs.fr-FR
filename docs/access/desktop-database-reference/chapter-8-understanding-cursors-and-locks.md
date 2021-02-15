@@ -25,10 +25,10 @@ De nombreuses fonctionnalités de l'objet **Recordset** ADO sont déterminées p
 Ce chapitre présente les rubriques suivantes :
 
 - [Qu’est-ce qu’un curseur ?](what-is-a-cursor.md)
-- [Importance de l'emplacement du curseur](the-significance-of-cursor-location.md)
+- [Importance de l’emplacement du curseur](the-significance-of-cursor-location.md)
 - [Service de curseur Microsoft pour OLE DB](the-microsoft-cursor-service-for-ole-db.md)
 - [Utilisation de CacheSize ](using-cachesize.md)
 - [Caractéristiques du curseur et du verrou](cursor-and-lock-characteristics.md)
 - [Types de curseurs (ADO)](types-of-cursors.md)
-- [Qu'est-ce qu'un verrou? ADO.net](what-is-a-lock.md)
+- [Qu’est-ce qu’un verrou ? (ADO)](what-is-a-lock.md)
 

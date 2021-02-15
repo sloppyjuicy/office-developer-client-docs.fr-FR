@@ -29,7 +29,7 @@ L’action **FermerBaseDonnées** ne possède aucun argument.
 
   - Access n’exécute aucune action indiquée à la suite de l’action **FermerBaseDonnées** dans une macro.
 
-  - Cette action équivaut à cliquer sur l'onglet **fichier** , puis à cliquer sur **Fermer la base de données**. Si la base de données contient des objets qui n'ont pas été enregistrés lorsque vous exécutez l'action **FermerBaseDonnées**, des boîtes de dialogue identiques à celles qui s'affichent lorsque vous cliquez sur **Fermer la base de données** apparaissent.
+  - Cette action a le même effet que de cliquer sur l’onglet **Fichier,** puis sur Fermer la **base de données.** Si la base de données contient des objets qui n'ont pas été enregistrés lorsque vous exécutez l'action **FermerBaseDonnées**, des boîtes de dialogue identiques à celles qui s'affichent lorsque vous cliquez sur **Fermer la base de données** apparaissent.
 
   - Pour exécuter l'action **FermerBaseDonnées** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **CloseDatabase** de l'objet **DoCmd**.
 

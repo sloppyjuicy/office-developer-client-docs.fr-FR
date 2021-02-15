@@ -31,17 +31,17 @@ L'événement **Avant la suppression** se produit lorsqu'un enregistrement est s
 
 Utilisez l'événement **Avant la suppression** pour effectuer toute action souhaitée avant qu'un enregistrement soit modifié. **Avant la modification** s’utilise couramment pour effectuer une validation et pour déclencher des messages d’erreur personnalisés.
 
-Vous pouvez accéder à une valeur dans l'enregistrement à supprimer à l'aide de la syntaxe suivante:
+Vous pouvez accéder à une valeur de l’enregistrement à supprimer à l’aide de la syntaxe suivante :
 
 `[Old].[Field Name]`
 
-Par exemple, pour accéder à la valeur du champ QuantityInStock dans l'enregistrement à supprimer, utilisez la syntaxe suivante:
+Par exemple, pour accéder à la valeur du champ QuantityInStock dans l’enregistrement à supprimer, utilisez la syntaxe suivante :
 
 `[Old].[QuantityInStock]`
 
 Les valeurs contenues dans l'enregistrement à supprimer sont supprimées définitivement lorsque l'événement **Avant la suppression** se termine.
 
-Vous pouvez annuler l'événement **Avant la suppression** à l'aide de l'action **DéclencherErreur**. Lorsqu'une erreur est générée, les modifications contenues dans l'événement **avant la suppression** sont ignorées.
+Vous pouvez annuler l'événement **Avant la suppression** à l'aide de l'action **DéclencherErreur**. Lorsqu’une erreur se produit, les modifications contenues dans l’événement **Avant** la suppression sont ignorées.
 
 Le tableau suivant répertorie les commandes de macros qui peuvent être utilisées dans l'événement **Avant la suppression**.
 
@@ -53,7 +53,7 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <thead>
 <tr class="header">
 <th><p>Type de commande</p></th>
-<th><p>Command</p></th>
+<th><p>Commande</p></th>
 </tr>
 </thead>
 <tbody>
@@ -62,16 +62,16 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Déroulement de programme</p></td>
+<td><p>Flux de programme</p></td>
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Déroulement de programme</p></td>
+<td><p>Flux de programme</p></td>
 <td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="lookuprecord-data-block.md">RechercherEnregistrement, action de macro</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">LookupRecord, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Action de données</p></td>
@@ -101,5 +101,5 @@ Pour créer une macro de données qui capture l'événement **Avant la suppressi
 
 1.  Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Avant la suppression**.
 
-2.  Sous l'onglet **table** , dans le groupe **événements avant** , sélectionnez **avant de supprimer**.
+2.  Sous **l’onglet Tableau,** dans le groupe **Événements** Avant, sélectionnez **Avant la suppression.**
 

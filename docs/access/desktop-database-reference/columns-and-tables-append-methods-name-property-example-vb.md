@@ -1,5 +1,5 @@
 ---
-title: Columns Append et tables Append, méthodes-exemple de propriété Name (VB)
+title: Columns et Tables Append, méthodes - Exemple de propriété Name (VB)
 TOCTitle: Columns and Tables Append Methods, Name property example (VB)
 ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296226"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a>Columns Append et tables Append, méthodes-exemple de propriété Name (VB)
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a>Columns et Tables Append, méthodes - Exemple de propriété Name (VB)
 
 
 **S’applique à** : Access 2013, Office 2013

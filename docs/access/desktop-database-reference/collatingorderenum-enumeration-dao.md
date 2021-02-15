@@ -1,5 +1,5 @@
 ---
-title: CollatingOrderEnum, énumération (DAO)
+title: CollatingOrderEnum, éumération (DAO)
 TOCTitle: CollatingOrderEnum enumeration
 ms:assetid: 4a82ca02-172b-e796-58d8-f263287ef52a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193485(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296261"
 ---
-# <a name="collatingorderenum-enumeration-dao"></a>CollatingOrderEnum, énumération (DAO)
+# <a name="collatingorderenum-enumeration-dao"></a>CollatingOrderEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -81,7 +81,7 @@ Spécifie l'ordre de tri du texte pour les comparaisons de chaînes ou les tris.
 <td><p>Ordre d'interclassement hébreu</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortHungarian</p></td>
+<td><p>dbSortHungungung</p></td>
 <td><p>1038</p></td>
 <td><p>Ordre d'interclassement hongrois</p></td>
 </tr>

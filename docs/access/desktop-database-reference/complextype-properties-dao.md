@@ -1,5 +1,5 @@
 ---
-title: Propriétés ComplexType (DAO)
+title: ComplexType properties (DAO)
 TOCTitle: Properties
 ms:assetid: 727a5392-c3cd-4fc1-8766-12b21be7bdbd
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160987(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296009"
 ---
-# <a name="complextype-properties-dao"></a>Propriétés ComplexType (DAO)
+# <a name="complextype-properties-dao"></a>ComplexType properties (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [ComplexType. Fields, propriété (DAO)](complextype-fields-property-dao.md)
+- [ComplexType.Fields, propriété (DAO)](complextype-fields-property-dao.md)
 

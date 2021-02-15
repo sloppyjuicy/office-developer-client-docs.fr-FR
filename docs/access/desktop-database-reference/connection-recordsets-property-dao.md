@@ -1,5 +1,5 @@
 ---
-title: Connection. Recordsets, propriété (DAO)
+title: Connection.Recordsets, propriété (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: 3f8c8932-d404-ef54-a869-f77dc1325794
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192854(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295806"
 ---
-# <a name="connectionrecordsets-property-dao"></a>Connection. Recordsets, propriété (DAO)
+# <a name="connectionrecordsets-property-dao"></a>Connection.Recordsets, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,7 +27,7 @@ Renvoie une collection **Recordsets** qui contient tous les jeux d'enregistremen
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Recordsets
+*.* Jeux d’enregistrements
 
-*expression* Variable qui représente un objet **Connection** .
+*expression* Variable qui représente un objet **Connection**.
 

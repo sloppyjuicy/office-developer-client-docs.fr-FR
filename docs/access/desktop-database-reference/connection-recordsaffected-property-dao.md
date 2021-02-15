@@ -1,5 +1,5 @@
 ---
-title: Connection. RecordsAffected, propriété (DAO)
+title: Connection.RecordsAffected, propriété (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: abce8e96-9ed4-b162-207f-52605d7af8ee
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821486(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295813"
 ---
-# <a name="connectionrecordsaffected-property-dao"></a>Connection. RecordsAffected, propriété (DAO)
+# <a name="connectionrecordsaffected-property-dao"></a>Connection.RecordsAffected, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthod
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . RecordsAffected
+*.* RecordsAffected
 
-*expression* Variable qui représente un objet **Connection** .
+*expression* Variable qui représente un objet **Connection**.
 

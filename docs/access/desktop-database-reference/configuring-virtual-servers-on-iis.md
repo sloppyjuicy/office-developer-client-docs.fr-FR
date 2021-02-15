@@ -22,5 +22,5 @@ Au moment de créer un serveur virtuel dans Internet Information Services 4.0, i
 
 1.  Lors de la configuration du serveur, activez la case à cocher « Autoriser l'accès en exécution ».
 
-2.  Déplacez msadcs. dll vers la *racine virtuelle*\\MSADC, où *vroot* est le répertoire de base de votre serveur virtuel.
+2.  Déplacez msadcs.dll vers *vroot* \\ msadc, où *vroot* est le répertoire d’accueil de votre serveur virtuel.
 

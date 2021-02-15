@@ -1,5 +1,5 @@
 ---
-title: Connection. transactions, propriété (DAO)
+title: Connection.Transactions, propriété (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 8bd72db7-68f6-6974-1ee6-a0a267ce2a94
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197326(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295778"
 ---
-# <a name="connectiontransactions-property-dao"></a>Connection. transactions, propriété (DAO)
+# <a name="connectiontransactions-property-dao"></a>Connection.Transactions, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si un objet prend en charge les transactions. **Boolean** en lecture seule.
+Renvoie une valeur qui indique si un objet prend en charge les transactions. **Boolean** (en lecture seule).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Transactions
+*.* Transactions
 
-*expression* Variable qui représente un objet **Connection** .
+*expression* Variable qui représente un objet **Connection**.
 

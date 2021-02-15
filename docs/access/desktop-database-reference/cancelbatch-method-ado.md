@@ -22,11 +22,11 @@ Annule une mise à jour par lot en attente.
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. CancelBatch *AffectRecords*
+*recordset*. CancelBatch *AffectRecords*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*AffectRecords* |Facultatif. Valeur [AffectEnum](affectenum.md) qui indique le nombre d'enregistrements affectés par la méthode **CancelBatch**. |
 

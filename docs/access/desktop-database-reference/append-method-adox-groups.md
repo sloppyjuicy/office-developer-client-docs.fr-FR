@@ -22,11 +22,11 @@ Ajoute un nouvel objet [Group](group-object-adox.md) à la collection [Groups](g
 
 ## <a name="syntax"></a>Syntaxe
 
-*Groupes*. Ajouter un*groupe*
+*Groupes*. *Append, groupe*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Group* |Objet **Group** à ajouter ou nom du groupe à créer et à ajouter.|
 

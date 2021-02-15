@@ -22,11 +22,11 @@ Ajoute un nouvel objet [User](user-object-adox.md) à la collection [Users](user
 
 ## <a name="syntax"></a>Syntaxe
 
-*Les utilisateurs*. Ajouter un*utilisateur*\[,*mot de passe*\]
+*Utilisateurs*. Append *User* \[ ,*Password*\]
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*User* |Valeur de type **Variant** qui contient l'objet **User** à ajouter ou le nom de l'utilisateur à créer et à ajouter.|
 |*Password* |Facultatif. Valeur de type **String** qui contient le mot de passe de l’utilisateur. Le paramètre *Password* correspond à la valeur spécifiée par la méthode [ChangePassword](changepassword-method-adox.md) d’un objet **User**.|

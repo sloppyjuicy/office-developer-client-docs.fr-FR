@@ -22,11 +22,11 @@ Ajoute un nouvel objet [Procedure](procedure-object-adox.md) à la collection [P
 
 ## <a name="syntax"></a>Syntaxe
 
-*Procédures*. *Nom*de l'ajout, *commande*
+*Procédures*. Append *Name*, *Command*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Name* |Valeur de type **String** qui spécifie le nom de la procédure à créer et à ajouter.|
 |*Command* |Objet ADO [Command](command-object-ado.md) qui représente la procédure à créer et à ajouter.|

@@ -22,11 +22,11 @@ ADO fournit actuellement l'objet [Recordset](recordset-object-ado.md) comme moye
 
 ## <a name="records"></a>Enregistrements
 
-Les objets **Record** fonctionnent essentiellement comme des **jeux d'enregistrements**à une seule ligne. However, **Records** have limited functionality compared to **Recordsets** and they have different properties and methods.The source for the data in a **Record** object can be a command which returns one row of data from the provider. Using **Record** objects rather than **Recordset** objects to receive the results from a query that returns one row of data eliminates the overhead of instantiating the more complex **Recordset** object.
+**Les** objets d’enregistrement fonctionnent essentiellement comme des **recordset d’une** ligne. However, **Records** have limited functionality compared to **Recordsets** and they have different properties and methods.The source for the data in a **Record** object can be a command which returns one row of data from the provider. Using **Record** objects rather than **Recordset** objects to receive the results from a query that returns one row of data eliminates the overhead of instantiating the more complex **Recordset** object.
 
 Les objets **Record** peuvent servir à d’autres fins, surtout avec des fournisseurs de sources de données autres que les bases de données relationnelles traditionnelles, par exemple le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). La plupart des informations à traiter existent non pas sous la forme de tables de base de données, mais sous la forme de messages dans les systèmes de messagerie électronique et de fichiers dans les systèmes de fichiers modernes. Les objets **Record** et **Stream** facilitent l’accès aux informations stockées dans des sources autres que les bases de données relationnelles.
 
-L'objet **Record** peut représenter et gérer des données telles que des répertoires et des fichiers dans un système de fichiers ou des dossiers et des messages dans un système de messagerie. Dans ce cas, la source de l'objet **Record** peut être la ligne active d'un objet **Recordset** ouvert, une URL absolue ou une URL relative associée à un objet [Connection](connection-object-ado.md) ouvert.
+**L’objet Record** peut représenter et gérer des données telles que des répertoires et des fichiers dans un système de fichiers ou des dossiers et des messages dans un système de messagerie. Dans ce cas, la source de l'objet **Record** peut être la ligne active d'un objet **Recordset** ouvert, une URL absolue ou une URL relative associée à un objet [Connection](connection-object-ado.md) ouvert.
 
 En général, un objet **Recordset** peut être utilisé pour représenter un conteneur ou un parent, tel qu'un dossier ou un répertoire, dans une hiérarchie. Un objet **Record**, quant à lui, peut servir à retourner des informations spécifiques sur un nœud du conteneur parent, par exemple un fichier ou un document. La raison principale de l'utilisation des objets **Record** pour représenter ce type d'informations est liée au fait que les sources de ces données sont hétérogènes, c'est-à-dire que chaque objet **Record** peut avoir un jeu et un nombre différents de champs. À l'inverse, les objets **Recordset** traditionnels contenant les lignes d'une base de données sont homogènes, c'est-à-dire que chaque ligne comporte le même nombre et le même type de champs.
 
@@ -57,4 +57,4 @@ Ce chapitre présente les rubriques suivantes :
 - [Flux et persistance](streams-and-persistence.md)
 - [Enregistrements et champs fournis par le fournisseur](records-and-provider-supplied-fields.md)
 - [URL absolues et relatives](absolute-and-relative-urls.md)
-- [Utilisation d'ADO pour la publication Internet (ADO)](using-ado-for-internet-publishing.md)
+- [Utilisation d’ADO pour la publication Internet (ADO)](using-ado-for-internet-publishing.md)

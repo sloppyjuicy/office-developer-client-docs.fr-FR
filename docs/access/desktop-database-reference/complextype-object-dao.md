@@ -22,7 +22,7 @@ Représente un champ à valeur multiple.
 
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée: Access 2007
+Version ajoutée : Access 2007
 
 ## <a name="remarks"></a>Remarques
 

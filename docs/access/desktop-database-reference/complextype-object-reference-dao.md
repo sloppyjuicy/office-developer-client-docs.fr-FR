@@ -1,5 +1,5 @@
 ---
-title: ComplexType, référence d'objet (DAO)
+title: ComplexType object reference (DAO)
 TOCTitle: ComplexType Object
 ms:assetid: 13eeca4d-7b36-4c9e-8035-ecc9acfe487a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123787(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296023"
 ---
-# <a name="complextype-object-reference-dao"></a>ComplexType, référence d'objet (DAO)
+# <a name="complextype-object-reference-dao"></a>ComplexType object reference (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [ComplexType, objet (DAO)](complextype-object-dao.md)
-- [ComplexType, membres (DAO)](complextype-members-dao.md)
-- [Propriétés ComplexType (DAO)](complextype-properties-dao.md)
+- [ComplexType members (DAO)](complextype-members-dao.md)
+- [ComplexType properties (DAO)](complextype-properties-dao.md)
 

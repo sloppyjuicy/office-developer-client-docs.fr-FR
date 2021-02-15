@@ -37,8 +37,8 @@ Indique si la méthode [Open](open-method-ado-connection.md) d’un objet [Conne
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Option adAsyncConnect</strong></p></td>
-<td><p>Seiz</p></td>
+<td><p><strong>adAsyncConnect</strong></p></td>
+<td><p>16 </p></td>
 <td><p>Ouvre la connexion de manière asynchrone. L’événement <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> peut être utilisé pour déterminer quand la connexion sera disponible.</p></td>
 </tr>
 <tr class="even">
@@ -65,10 +65,10 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ConnectOption. ASYNCCONNECT</p></td>
+<td><p>AdoEnums.ConnectOption.ASYNCCONNECT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectOption. CONNECTUNSPECIFIED</p></td>
+<td><p>AdoEnums.ConnectOption.CONNECTUNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

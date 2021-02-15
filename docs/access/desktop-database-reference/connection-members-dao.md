@@ -1,5 +1,5 @@
 ---
-title: Connection, membres (DAO)
+title: Connection Members (DAO)
 TOCTitle: Connection Members
 ms:assetid: 94fc60ee-b6f2-cf08-b008-ed51bf7e7f8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295904"
 ---
-# <a name="connection-members-dao"></a>Connection, membres (DAO)
+# <a name="connection-members-dao"></a>Connection Members (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -36,7 +36,7 @@ ms.locfileid: "32295904"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></p></td>
+<td><p><strong><a href="connection-cancel-method-dao.md">Annuler</a></strong></p></td>
 <td><p>Annule l'exécution d'un appel asynchrone de méthode en attente (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
@@ -49,11 +49,11 @@ ms.locfileid: "32295904"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-execute-method-dao.md">Execute</a></strong></p></td>
-<td><p>Exécute une requête Action ou une instruction SQL sur l'objet spécifié.</p></td>
+<td><p>Exécute une requête action ou exécute une instruction SQL sur l’objet spécifié.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
-<td><p>Crée un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> et l'ajoute à la collection <strong>Recordsets</strong>.</p></td>
+<td><p>Crée un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> et l’ajoute à la collection <strong>Recordsets</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -87,7 +87,7 @@ ms.locfileid: "32295904"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-querydefs-property-dao.md">QueryDefs</a></strong></p></td>
-<td><p>Renvoie une collection <strong>QueryDefs</strong> qui contient tous les objets <strong>QueryDef</strong> de la connexion spécifiée. En lecture seule.</p></td>
+<td><p>Renvoie une collection <strong>QueryDefs</strong> qui contient tous les objets <strong>QueryDef</strong> de la connexion spécifiée. Valeur en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-querytimeout-property-dao.md">QueryTimeout</a></strong></p></td>
@@ -107,7 +107,7 @@ ms.locfileid: "32295904"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si un objet prend en charge les transactions. Valeur <strong>Boolean</strong> en lecture seule.</p></td>
+<td><p>Renvoie une valeur qui indique si un objet prend en charge les transactions. <strong>Boolean</strong> (en lecture seule).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></p></td>

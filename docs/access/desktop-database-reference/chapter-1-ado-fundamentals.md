@@ -24,5 +24,5 @@ Ce chapitre présente les rubriques suivantes :
 
 - [Tâches réalisables avec ADO](what-you-can-do-with-ado.md)
 - [Erreurs](errors.md)
-- [HelloData: une application ADO simple (ADO)](hellodata-a-simple-ado-application.md)
+- [HelloData : une application ADO simple (ADO)](hellodata-a-simple-ado-application.md)
 - [Fournisseurs OLE DB (ADO)](ole-db-providers.md)

@@ -23,9 +23,9 @@ Annule toutes les modifications apportées à la ligne active ou à une nouvelle
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. CancelUpdate
+*recordset*. CancelUpdate
 
-*enregistrement*. *Champs*. CancelUpdate
+*.* *Champs*. CancelUpdate
 
 ## <a name="remarks"></a>Remarques
 

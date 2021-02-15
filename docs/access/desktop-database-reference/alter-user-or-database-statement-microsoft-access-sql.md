@@ -41,15 +41,15 @@ L'instruction ALTER USER ou DATABASE est composée des arguments suivants :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>utilisateur</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>Nom de l'utilisateur à ajouter au fichier d'informations du groupe de travail.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>newPassword</em></p></td>
+<td><p><em>newpassword</em></p></td>
 <td><p>Nouveau mot de passe à associer au nom de l'<em>utilisateur</em> ou de la <em>base de données</em> spécifié.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>oldPassword</em></p></td>
+<td><p><em>oldpassword</em></p></td>
 <td><p>Mot de passe existant à associer au nom de l'<em>utilisateur</em> ou du <em>groupe</em> spécifié.</p></td>
 </tr>
 </tbody>

@@ -22,11 +22,11 @@ Cette méthode ajoute des données à un objet [Field](field-object-ado.md) de d
 
 ## <a name="syntax"></a>Syntaxe
 
-*objet.* AppendChunk, *données*
+*.* Données AppendChunk 
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*object* |Objet **Field** ou **Parameter**.|
 |*Data* |**Variant** contenant les données à ajouter à l'objet.|
@@ -35,7 +35,7 @@ Cette méthode ajoute des données à un objet [Field](field-object-ado.md) de d
 
 Use the **AppendChunk** method on a **Field** or **Parameter** object to fill it with long binary or character data. In situations where system memory is limited, you can use the **AppendChunk** method to manipulate long values in portions rather than in their entirety.
 
-### <a name="field"></a>Field
+### <a name="field"></a>Champ
 
 Si le bit **adFldLong** de la propriété [Attributes](attributes-property-ado.md) d’un objet **Field** a la valeur true, vous pouvez appliquer la méthode **AppendChunk** à ce champ.
 

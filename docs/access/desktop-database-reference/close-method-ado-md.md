@@ -23,7 +23,7 @@ Ferme un ensemble de cellules ouvert.
 
 ## <a name="syntax"></a>Syntaxe
 
-Ensemble de *cellules*. Proches
+*Cellset*. Fermer
 
 ## <a name="remarks"></a>Remarques
 

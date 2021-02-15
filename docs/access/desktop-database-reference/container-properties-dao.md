@@ -1,5 +1,5 @@
 ---
-title: Propriétés du conteneur (DAO)
+title: Container Properties (DAO)
 TOCTitle: Properties
 ms:assetid: 78edc02d-68a9-4e9c-84ff-f77cf6ff2754
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161089(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295617"
 ---
-# <a name="container-properties-dao"></a>Propriétés du conteneur (DAO)
+# <a name="container-properties-dao"></a>Container properties (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Container. documents, propriété (DAO)](container-documents-property-dao.md)
-- [Propriété Container.Name (DAO)](container-name-property-dao.md)
-- [Container. Properties, propriété (DAO)](container-properties-property-dao.md)
+- [Container.Documents, propriété (DAO)](container-documents-property-dao.md)
+- [Container.Name property (DAO)](container-name-property-dao.md)
+- [Container.Properties, propriété (DAO)](container-properties-property-dao.md)
 

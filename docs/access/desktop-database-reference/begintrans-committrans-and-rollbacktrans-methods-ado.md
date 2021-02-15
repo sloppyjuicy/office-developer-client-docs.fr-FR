@@ -28,13 +28,13 @@ Ces méthodes de transaction gèrent le traitement des transactions dans un obje
 
 ## <a name="syntax"></a>Syntaxe
 
-** = *objet*Level. BeginTrans ()
+*level*  =  *.* BeginTrans()
 
-*objet*. BeginTrans
+*.* BeginTrans
 
-*objet*. CommitTrans
+*.* CommitTrans
 
-*objet*. RollbackTrans
+*.* RollbackTrans
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -42,7 +42,7 @@ Ces méthodes de transaction gèrent le traitement des transactions dans un obje
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*object* |Objet **Connection**.|
 
@@ -51,7 +51,7 @@ Ces méthodes de transaction gèrent le traitement des transactions dans un obje
 Utilisez ces méthodes avec un objet **Connection** lorsque vous voulez enregistrer ou annuler en bloc une série de modifications apportées aux données source. Par exemple, pour transférer de l'argent entre des comptes, vous soustrayez le montant transféré d'un compte et vous ajoutez ce même montant à l'autre compte. Si l'opération échoue d'un côté, les comptes ne seront plus équilibrés. Lorsque vous effectuez des modifications de ce type dans une transaction ouverte, vous êtes assuré que toutes les modifications ou aucune d'elles sont validées.
 
 > [!NOTE]
-> [!REMARQUE] Les transactions ne sont pas prises en charge par tous les fournisseurs. Vérifiez que la propriété **DDL** de la propriété définie par le fournisseur apparaît dans la collection [Properties](properties-collection-ado.md) de l'objet **Connection** , ce qui indique que le fournisseur prend en charge les transactions. Si le fournisseur ne prend pas les transactions en charge, l'appel de l'une ou l'autre de ces méthodes génère une erreur.
+> [!REMARQUE] Les transactions ne sont pas prises en charge par tous les fournisseurs. Vérifiez que la propriété définie par le fournisseur **Transaction DDL** apparaît dans la collection [Properties](properties-collection-ado.md) de l’objet **Connection,** indiquant que le fournisseur prend en charge les transactions. Si le fournisseur ne prend pas les transactions en charge, l'appel de l'une ou l'autre de ces méthodes génère une erreur.
 
 Une fois que vous appelez la méthode **BeginTrans**, le fournisseur ne valide plus instantanément les modifications que vous apportez jusqu'à ce que vous appeliez **CommitTrans** ou **RollbackTrans** pour mettre fin à la transaction.
 

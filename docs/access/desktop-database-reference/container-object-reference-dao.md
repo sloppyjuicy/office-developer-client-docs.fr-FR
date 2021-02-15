@@ -1,5 +1,5 @@
 ---
-title: Référence de l'objet Container (DAO)
+title: Container object reference (DAO)
 TOCTitle: Container Object
 ms:assetid: 494630ce-f71e-4876-990d-088cd8b6e8c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124656(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295624"
 ---
-# <a name="container-object-reference-dao"></a>Référence de l'objet Container (DAO)
+# <a name="container-object-reference-dao"></a>Référence d’objet conteneur (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Objet Container (DAO)](container-object-dao.md)
-- [Membres du conteneur (DAO)](container-members-dao.md)
-- [Propriétés du conteneur (DAO)](container-properties-dao.md)
+- [Container Members (DAO)](container-members-dao.md)
+- [Container properties (DAO)](container-properties-dao.md)
 

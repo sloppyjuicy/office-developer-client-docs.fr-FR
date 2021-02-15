@@ -1,5 +1,5 @@
 ---
-title: Objet Connection (DAO)
+title: Connection, objet (DAO)
 TOCTitle: Connection Object
 ms:assetid: f469b04e-2539-6b53-31f2-85fe22fcc2fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836694(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295862"
 ---
-# <a name="connection-object-dao"></a>Objet Connection (DAO)
+# <a name="connection-object-dao"></a>Connection, objet (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 > [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
 Un objet **Connection** représente une connexion à une base de données ODBC (espaces de travail ODBCDirect uniquement).
 

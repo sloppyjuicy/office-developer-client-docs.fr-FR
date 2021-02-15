@@ -26,7 +26,7 @@ Annule l’exécution d’un appel de méthode asynchrone en attente.
 
 ## <a name="syntax"></a>Syntaxe
 
-*objet*. Annuler
+*.* Annuler
 
 ## <a name="remarks"></a>Remarques
 

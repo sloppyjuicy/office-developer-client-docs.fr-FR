@@ -1,5 +1,5 @@
 ---
-title: Connections, collection (DAO)
+title: Connections collection (DAO)
 TOCTitle: Connections collection
 ms:assetid: 65d073be-a84b-e3f2-cb43-b87ffa60e497
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295785"
 ---
-# <a name="connections-collection-dao"></a>Connections, collection (DAO)
+# <a name="connections-collection-dao"></a>Connections collection (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 > [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
-Une **** collection Connects contient les objets **Connection** actifs d'un objet **Workspace** . (Espaces de travail ODBCDirect uniquement).
+Une collection **Connections** contient les objets **Connection** actuels d’un **objet Workspace.** (Espaces de travail ODBCDirect uniquement).
 
 ## <a name="remarks"></a>Remarques
 
@@ -31,11 +31,11 @@ Lorsque vous ouvrez un objet **Connection**, un objet **[Database](database-obje
 
 Le paramètre de propriété **Name** d'un objet **Connection** est une chaîne qui spécifie le chemin d'accès au fichier de base de données. Pour faire référence à un objet **Connection** d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-- **Connexions** 0
+- **Connexions**(0)
 
-- **Connexions** ("*nom*")
+- **Connexions**( »*nom*« )
 
-- ****\!\[*Nom* des connexions\]
+- **Connexions** \! \[ *name*\]
 
 
 > [!NOTE]

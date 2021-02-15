@@ -1,5 +1,5 @@
 ---
-title: Axes, collection-propriétés, méthodes et événements (ADO MD)
+title: Axes, collection - Propriétés, méthodes et événements (ADO MD)
 TOCTitle: Axes collection properties, methods, and events
 ms:assetid: 613f3e77-11fb-4bf6-0f26-5be2b5cd4594
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249357(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296919"
 ---
-# <a name="axes-collection-properties-methods-and-events-ado-md"></a>Axes, collection-propriétés, méthodes et événements (ADO MD)
+# <a name="axes-collection-properties-methods-and-events-ado-md"></a>Axes, collection - Propriétés, méthodes et événements (ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="properties"></a>Propriétés
 
 - [Propriété Count](count-property-ado.md)
-- [Propriété Item](item-property-ado.md)
+- [Item, propriété](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes
 
 - [Refresh, méthode](refresh-method-ado.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

@@ -35,5 +35,5 @@ L'utilisateur n'est peut-être pas en mesure de visualiser la valeur du signet. 
 
 Si vous utilisez la méthode [Clone](clone-method-ado.md) pour créer une copie d'un objet **Recordset**, les paramètres de la propriété **Bookmark** des objets **Recordset** d'origine et dupliqué, sont identiques et vous pouvez les utiliser de manière interchangeable. Cependant, vous ne pouvez pas utiliser des signets de différents objets **Recordset** de manière interchangeable même s'ils ont été créés à partir de la même source ou de la même commande.
 
-**Utilisation des services de données à distance** Lorsqu'elle est utilisée sur un objet **Recordset** côté client, la propriété **Bookmark** est toujours disponible.
+**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet **Recordset** côté client, la **propriété Bookmark** est toujours disponible.
 

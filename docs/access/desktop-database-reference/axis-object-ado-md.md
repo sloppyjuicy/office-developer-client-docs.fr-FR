@@ -1,5 +1,5 @@
 ---
-title: AXIS, objet (ADO MD)
+title: Objet Axis (ADO MD)
 TOCTitle: Axis object (ADO MD)
 ms:assetid: a4332b69-8900-08f1-a4e2-9395d005ed42
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296898"
 ---
-# <a name="axis-object-ado-md"></a>AXIS, objet (ADO MD)
+# <a name="axis-object-ado-md"></a>Objet Axis (ADO MD)
 
 
 **S’applique à** : Access 2013, Office 2013

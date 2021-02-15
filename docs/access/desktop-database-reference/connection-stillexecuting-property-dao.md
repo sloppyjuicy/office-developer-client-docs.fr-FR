@@ -1,5 +1,5 @@
 ---
-title: Connection. StillExecuting, propriété (DAO)
+title: Connection.StillExecuting, propriété (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0121f98a-cc23-5b5e-9a75-28307404a9a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844743(v=office.15)
@@ -14,15 +14,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295792"
 ---
-# <a name="connectionstillexecuting-property-dao"></a>Connection. StillExecuting, propriété (DAO)
+# <a name="connectionstillexecuting-property-dao"></a>Connection.StillExecuting, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . StillExecuting
+*.* StillExecuting
 
-*expression* Variable qui représente un objet **Connection** .
+*expression* Variable qui représente un objet **Connection**.
 
 ## <a name="remarks"></a>Remarques
 

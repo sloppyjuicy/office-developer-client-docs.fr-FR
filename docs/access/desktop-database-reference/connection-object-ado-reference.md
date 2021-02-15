@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet Connection (ADO)
+title: Référence de l’objet Connection (ADO)
 TOCTitle: Connection object (ADO)
 ms:assetid: 817875e9-0970-4d26-8c35-6c6257279bd0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249556(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295897"
 ---
-# <a name="connection-object-ado-reference"></a>Référence d'objet Connection (ADO)
+# <a name="connection-object-ado-reference"></a>Référence de l’objet Connection (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Connection, objet (ADO)](connection-object-ado.md)
-- [Propriétés, méthodes et événements de connexion (ADO)](connection-properties-methods-and-events-ado.md)
+- [Connection properties, methods, and events (ADO)](connection-properties-methods-and-events-ado.md)
 

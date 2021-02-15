@@ -1,5 +1,5 @@
 ---
-title: Catalog, propriétés, méthodes et événements (ADOX)
+title: Catalog properties, methods, and events (ADOX)
 TOCTitle: Catalog properties, methods, and events (ADOX)
 ms:assetid: 82d7dfc2-6fc8-709c-96e0-d8cddd1d5432
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249567(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296555"
 ---
-# <a name="catalog-properties-methods-and-events-adox"></a>Catalog, propriétés, méthodes et événements (ADOX)
+# <a name="catalog-properties-methods-and-events-adox"></a>Catalog properties, methods, and events (ADOX)
 
 **S’applique à** : Access 2013, Office 2013 
 
@@ -31,9 +31,9 @@ ms.locfileid: "32296555"
 
 - [Create, méthode](create-method-adox.md)
 - [GetObjectOwner, méthode](getobjectowner-method-adox.md)
-- [Méthode SetObjectOwner,](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
+- [Méthode SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

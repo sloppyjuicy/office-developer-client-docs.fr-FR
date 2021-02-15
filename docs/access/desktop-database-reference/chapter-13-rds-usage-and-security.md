@@ -25,16 +25,16 @@ Cette section contient des informations sur les points suivants :
 - [Configuration de DataFactory pour les modes sans échec ou unrestricted](configuring-datafactory-for-safe-or-unrestricted-modes.md)
 - [Configuration de RDS](configuring-rds.md)
 - [Configuration de serveurs virtuels sur IIS](configuring-virtual-servers-on-iis.md)
-- [Personnalisation de DataFactory (ADO)](datafactory-customization.md)
+- [DataFactory customization (ADO)](datafactory-customization.md)
 - [Activation d’un DLL pour s’exécuter sur DCOM](enabling-a-dll-to-run-on-dcom.md)
-- [Octroi de privilèges invité à un ordinateur serveur Web; Autorisations des \[invités RDS ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
+- [l’octroi de privilèges d’invité à un ordinateur serveur web ; Privilèges d’invité RDS \[ ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 - [Marquage d’objets métiers comme fiables pour l’écriture de scripts](marking-business-objects-as-safe-for-scripting.md)
 - [Inscription d’objets métiers sur le client pour une utilisation avec DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
 - [Sécurisation d’applications RDS](securing-rds-applications.md)
 - [Définition du format de marshaling du flux](setting-dcom-stream-marshaling-format.md)
 - [Spécification de threads par processeur sur IIS](specifying-threads-per-processor-on-iis.md)
 - [Troubleshooting RDS (ADO)](troubleshooting-rds.md)
-- [Utilisation des technologies associées à RDS (ADO)](using-related-technologies-with-rds.md)
+- [Utilisation des technologies associées avec RDS (ADO)](using-related-technologies-with-rds.md)
 
 
 

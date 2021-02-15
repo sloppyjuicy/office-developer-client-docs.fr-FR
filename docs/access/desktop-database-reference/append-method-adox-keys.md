@@ -22,11 +22,11 @@ Ajoute un nouvel objet [Key](key-object-adox.md) à la collection [Keys](keys-co
 
 ## <a name="syntax"></a>Syntaxe
 
-*Clés*. *Touche* \[Append,*KeyType* \] \[,*Column* \] \[,** \] RelatedTable \[,*RelatedColumn*\]
+*Touches*. Touche *d’append* \[ ,*KeyType* \] \[ ,*Colonne* \] \[ ,*RelatedTable* \] \[ ,*RelatedColumn*\]
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Key* |Objet **Key** à ajouter ou nom de la clé à créer et à ajouter.|
 |*KeyType* |Facultatif. Valeur de type **Long** qui spécifie le type de clé. Le paramètre *Key* correspond à la propriété [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox) d’un objet **Key**.|

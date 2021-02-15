@@ -37,12 +37,12 @@ Spécifie les caractéristiques d’un objet [Column](column-object-adox.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adColFixed</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>La colonne a une longueur fixe.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adColNullable</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>La colonne peut contenir des valeurs Null.</p></td>
 </tr>
 </tbody>

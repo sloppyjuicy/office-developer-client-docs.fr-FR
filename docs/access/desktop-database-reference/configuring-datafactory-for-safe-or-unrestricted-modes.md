@@ -27,11 +27,11 @@ ADO est installé par défaut avec une configuration [RDSServer.DataFactory](dat
 
 3.  Le fichier Msdfmap.ini est installé dans le répertoire Windows. Vous devez le configurer le cas échéant avant d'utiliser RDS en mode d'application à trois niveaux.
 
-Vous pouvez éventuellement configurer une installation de **DataFactory** en mode non restreint. **DataFactory** peut être utilisé directement sans le gestionnaire personnalisé. Les utilisateurs peuvent néanmoins utiliser ce dernier en modifiant les chaînes de connexion, le cas échéant. Pour plus d'informations sur les implications de l'utilisation de l'objet **RDSServer. DataFactory** , consultez la rubrique Sécurisation des [applications RDS](securing-rds-applications.md).
+Vous pouvez éventuellement configurer une installation de **DataFactory** en mode non restreint. **DataFactory** peut être utilisé directement sans le gestionnaire personnalisé. Les utilisateurs peuvent néanmoins utiliser ce dernier en modifiant les chaînes de connexion, le cas échéant. Pour plus d’informations sur les implications de l’utilisation de l’objet **RDSServer.DataFactory,** voir [Sécurisation des applications RDS.](securing-rds-applications.md)
 
 Le fichier de Registre handsafe.reg est fourni afin de configurer les entrées de Registre du gestionnaire et obtenir ainsi une configuration sécurisée. Pour fonctionner en mode sans échec, exécutez handsafe.reg. Le fichier de Registre handunsf.reg est quant à lui fourni pour configurer les entrées de Registre du gestionnaire afin de bénéficier d'une configuration sans restriction d'accès. Pour fonctionner en mode non restreint, exécutez le fichier handunsf.reg.
 
-Après avoir exécuté handsafe. reg ou handunsf. reg, vous devez arrêter et redémarrer le service de publication World Wide Web sur le serveur Web en tapant les commandes suivantes dans une fenêtre de commande: «NET STOP W3SVC» et «NET START W3SVC».
+Après avoir exécutez handsafe.reg ou handunsf.reg, vous devez arrêter et redémarrer le service de publication World Wide Web sur le serveur web en tapant les commandes suivantes dans une fenêtre de commande : « NET STOP W3SVC » et « NET START W3SVC ».
 
 Pour plus d'informations sur l'utilisation de la fonctionnalité du gestionnaire de personnalisation RDS, consultez l'article technique en anglais « Using the Customization Handler Feature in RDS 2.1 ».
 

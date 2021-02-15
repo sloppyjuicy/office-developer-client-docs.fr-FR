@@ -46,5 +46,5 @@ Utilisez la propriété **Attributes** pour définir ou retourner les caractéri
 
 Lorsque vous définissez plusieurs attributs, vous pouvez additionner les constantes appropriées. Si vous attribuez à la propriété une valeur représentant une somme qui inclut des constantes incompatibles, une erreur est générée.
 
-**Utilisation des services de données à distance** Cette propriété n'est pas disponible pour un objet **Connection** côté client.
+**Utilisation du service de données à distance** Cette propriété n’est pas disponible sur un objet **Connection** côté client.
 

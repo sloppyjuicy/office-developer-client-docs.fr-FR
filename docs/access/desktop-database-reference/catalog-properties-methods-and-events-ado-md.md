@@ -1,5 +1,5 @@
 ---
-title: Propriétés, méthodes et événements de catalogue (ADO MD)
+title: Catalog properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 51d3b237-a1ee-a605-a228-7c92edb13bd5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249265(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296576"
 ---
-# <a name="catalog-properties-methods-and-events-ado-md"></a>Propriétés, méthodes et événements de catalogue (ADO MD)
+# <a name="catalog-properties-methods-and-events-ado-md"></a>Catalog properties, methods, and events (ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ ms.locfileid: "32296576"
 
 Aucun.
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

@@ -26,9 +26,9 @@ Pour utiliser ADOX avec votre outil de développement, vous devez établir une r
 
 Le fournisseur Microsoft OLE DB pour le moteur de base de données Microsoft Jet assure la prise en charge complète d'ADOX. Il se peut que certaines fonctionnalités d'ADOX ne soient pas prises en charge selon votre fournisseur de données. Pour plus d'informations sur les fonctionnalités prises en charge par le fournisseur Microsoft OLE DB pour ODBC, le fournisseur Microsoft OLE DB pour Oracle ou le fournisseur Microsoft SQL Server OLE DB, consultez le fichier LisezMoi MDAC.
 
-Ce document suppose une connaissance du langage de programmation Microsoft Visual Basic et une connaissance générale d'ADO. Pour plus d'informations sur ADO, consultez le [Guide du programmeUr ADO](ado-programmer-s-guide.md).
+Ce document suppose une connaissance approfondie du langage de programmation microsoft Visual Basic et une connaissance générale d’ADO. Pour plus d’informations sur ADO, voir le guide du [programmeur ADO.](ado-programmer-s-guide.md)
 
-Ce chapitre aborde les sujets suivants:
+Ce chapitre couvre la rubrique suivante :
 
 - [Prise en charge du fournisseur pour ADOX](provider-support-for-adox.md)
 

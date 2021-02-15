@@ -22,11 +22,11 @@ Ajoute un nouvel objet [Table](table-object-adox.md) à la collection [Tables](t
 
 ## <a name="syntax"></a>Syntaxe
 
-*Tables*. Ajouter une*table*
+*Tables*. Append *Table*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Table* | Valeur de type **Variant** qui contient une référence à la **table** à ajouter ou au nom de la table à créer et à ajouter.|
 

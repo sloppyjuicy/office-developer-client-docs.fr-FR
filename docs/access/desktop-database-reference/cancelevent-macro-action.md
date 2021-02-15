@@ -22,7 +22,7 @@ ms.locfileid: "32296632"
 
 **S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l'action **AnnulerEvénement** pour annuler l'événement qui a déclenché l'exécution par Access de la macro contenant cette action. Le nom de la macro est le paramètre d’une propriété de type événement comme **AvantMAJ**, **SurOuverture**, **SurLibération** ou **SurImpression**.
+Vous pouvez utiliser **l’action AnnulerEvent** pour annuler l’événement qui a entraîné l’utilisation de la macro contenant cette action par Access. Le nom de la macro est le paramètre d’une propriété de type événement comme **AvantMAJ**, **SurOuverture**, **SurLibération** ou **SurImpression**.
 
 ## <a name="setting"></a>Setting
 
@@ -111,15 +111,15 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull ([PaysRégion])</p></td>
+<td><p>IsNull([CountryRegion])</p></td>
 <td><p>StopMacro</p></td>
 <td><p></p></td>
 <td><p>Si PaysRégion est <strong>Null</strong>, le code postal ne peut pas être validé.</p></td>
 </tr>
 <tr class="even">
-<td><p>Région Dans (&quot;France&quot;,&quot;Italie&quot;,&quot;Espagne&quot;) et NBCAR ([code postal]) &lt; &gt; 5</p></td>
+<td><p>[CountryRegion] In ( &quot; France , Italie , Espagne ) et &quot; &quot; &quot; &quot; &quot; Len([Code postal]) &lt; &gt; 5</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Message : Le code postal doit contenir 5 caractères. Bip: <strong>Oui</strong> type: titre d' <strong>information</strong> : erreur de code postal</p></td>
+<td><p>Message : Le code postal doit contenir 5 caractères. Beep : <strong>Yes</strong> Type: <strong>Information</strong> Title: Postal Code Error</p></td>
 <td><p>Si le code postal ne contient pas 5 caractères, affiche un message.</p></td>
 </tr>
 <tr class="odd">
@@ -135,9 +135,9 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Région En (&quot;Australie&quot;,&quot;Singapour&quot;) et NBCAR ([code postal]) &lt; &gt; 4</p></td>
+<td><p>[CountryRegion] In ( &quot; Australie , Singapour ) et &quot; &quot; &quot; Len([Code postal]) &lt; &gt; 4</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Message : Le code postal doit contenir 4 caractères. Bip: <strong>Oui</strong> type: titre d' <strong>information</strong> : erreur de code postal</p></td>
+<td><p>Message : Le code postal doit contenir 4 caractères. Beep : <strong>Yes</strong> Type: <strong>Information</strong> Title: Postal Code Error</p></td>
 <td><p>Si le code postal ne contient pas 4 caractères, affiche un message.</p></td>
 </tr>
 <tr class="even">
@@ -153,9 +153,9 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([PaysRégion] = &quot;Canada&quot;) Et ([code postal] non comme&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;</p></td>
+<td><p>([CountryRegion] = &quot; Canada &quot; ) And ([Postal Code] Not Like &quot; [A-Z][0-9][A-Z] [0-9][A-Z][0-9] &quot; )</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Message : Le code postal n’est pas valide. Exemple de code canadien: H1J 1C3 bip: <strong>Oui</strong> tapez: titre de l' <strong>information</strong> : erreur de code postal</p></td>
+<td><p>Message : Le code postal n’est pas valide. Exemple de code canadien : Signal sonore H1J 1C3 : Oui <strong>Type</strong> : Titre de <strong>l’information</strong> : Erreur de code postal</p></td>
 <td><p>Si le code postal n’est pas correct pour le Canada, affiche un message. (Exemple de code postal canadien : H1J 1C3.)</p></td>
 </tr>
 <tr class="odd">

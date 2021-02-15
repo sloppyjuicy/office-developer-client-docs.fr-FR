@@ -1,5 +1,5 @@
 ---
-title: Catalog, objet (référence ADO MD)
+title: Objet Catalog (référence ADO MD)
 TOCTitle: Catalog object (ADO MD)
 ms:assetid: 734b3715-0ee1-44a6-9f29-ddd48a6ff983
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249469(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296604"
 ---
-# <a name="catalog-object-ado-md-reference"></a>Catalog, objet (référence ADO MD)
+# <a name="catalog-object-ado-md-reference"></a>Objet Catalog (référence ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Catalog, objet (ADO MD)](catalog-object-ado-md.md)
-- [Propriétés, méthodes et événements de catalogue (ADO MD)](catalog-properties-methods-and-events-ado-md.md)
+- [Objet Catalog (ADO MD)](catalog-object-ado-md.md)
+- [Catalog properties, methods, and events (ADO MD)](catalog-properties-methods-and-events-ado-md.md)
 

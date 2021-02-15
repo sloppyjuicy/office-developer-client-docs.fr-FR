@@ -1,5 +1,5 @@
 ---
-title: Référence de la collection Columns (ADOX)
+title: Référence de collection Columns (ADOX)
 TOCTitle: Columns collection (ADOX)
 ms:assetid: 0ae90fa1-09ed-4d6e-b573-8dc83d000551
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248841(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296212"
 ---
-# <a name="columns-collection-adox-reference"></a>Référence de la collection Columns (ADOX)
+# <a name="columns-collection-adox-reference"></a>Référence de collection Columns (ADOX)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Columns, collection (ADOX)](columns-collection-adox.md)
-- [Columns, collection-propriétés, méthodes et événements (ADOX)](columns-collection-properties-methods-and-events-adox.md)
+- [Columns collection properties, methods, and events (ADOX)](columns-collection-properties-methods-and-events-adox.md)
 

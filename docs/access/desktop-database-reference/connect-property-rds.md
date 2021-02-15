@@ -24,14 +24,14 @@ Vous pouvez définir la propriété **Connect** au moment du design dans les bal
 
 ## <a name="syntax"></a>Syntaxe
 
-Moment de la \<conception: param Name = "Connect" value = "ConnectionString"\>
+Moment de la conception \< : PARAM NAME="Connect » VALUE="ConnectionString »\>
 
-Moment de l'exécution: DataControl. Connect = "ConnectionString"
+Run time: DataControl.Connect = « ConnectionString »
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
-|*ConnectionString* |Chaîne de connexion valide. Pour plus d'informations d'ordre général sur les chaînes de connexion, reportez-vous à la propriété [ConnectionString](connectionstring-property-ado.md) ou à la documentation du fournisseur.<br/><br/>**Remarque**: spécification de MS Remote en tant que fournisseur de l' **objet RDS. DataControl** crée un scénario à quatre niveaux. Les scénarios comptant plus de trois niveaux n'ont pas été testés et sont normalement inutiles.|
+|*ConnectionString* |Chaîne de connexion valide. Pour plus d'informations d'ordre général sur les chaînes de connexion, reportez-vous à la propriété [ConnectionString](connectionstring-property-ado.md) ou à la documentation du fournisseur.<br/><br/>**REMARQUE**: spécifier MS Remote comme fournisseur pour **rdS. DataControl** créerait un scénario à quatre niveaux. Les scénarios comptant plus de trois niveaux n'ont pas été testés et sont normalement inutiles.|
 |*DataControl* |Une variable objet qui représente un objet **RDS.DataControl**.|
 

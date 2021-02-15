@@ -20,7 +20,7 @@ ms.locfileid: "32296408"
 
 ADO utilise différentes méthodes pour avertir une application d'une erreur. Ce chapitre présente les types d'erreurs pouvant survenir lorsque vous utilisez ADO et comment votre application est avertie. Différentes façons de gérer ces erreurs sont également suggérées en fin de chapitre.
 
-## <a name="how-does-ado-report-errors"></a>Comment ADO signale-t-il les erreurs?
+## <a name="how-does-ado-report-errors"></a>Comment ADO signale-t-il les erreurs ?
 
 ADO vous avertit des erreurs de diverses façons :
 
@@ -44,4 +44,4 @@ Les sections ci-après décrivent plus en détail chacune de ces méthodes de no
 - [Informations sur les erreurs en lien avec le champ](field-related-error-information.md)
 - [Informations sur les erreurs en lien avec le recordset](recordset-related-error-information.md)
 - [Anticipation des erreurs](anticipating-errors.md)
-- [Gestion des erreurs dans d'autres langages (ADO)](handling-errors-in-other-languages.md)
+- [Gestion des erreurs dans d’autres langues (ADO)](handling-errors-in-other-languages.md)

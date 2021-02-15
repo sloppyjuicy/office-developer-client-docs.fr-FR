@@ -1,5 +1,5 @@
 ---
-title: Clone, méthode-ActiveX Data Objects (ADO)
+title: Clone, méthode - ActiveX Data Objects (ADO)
 TOCTitle: Clone method (ADO)
 ms:assetid: ca9b2b76-90bf-9a60-2611-3cb4977d5591
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
@@ -22,7 +22,7 @@ Crée une copie de l'objet [Recordset](recordset-object-ado.md) à partir d'un o
 
 ## <a name="syntax"></a>Syntaxe
 
-**Définir** *rstDuplicate*  =  *rstOriginal*. Clone (*LockType*)
+**Définissez** *rstDuplicate*  =  *rstOriginal*. Clone (*LockType*)
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,7 +30,7 @@ Retourne une référence d'objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*rstDuplicate* |Variable objet qui identifie la copie de l'objet **Recordset** à créer.|
 |*rstOriginal* |Variable objet qui identifie l'objet **Recordset** à dupliquer.|
@@ -73,11 +73,11 @@ Le tableau suivant répertorie tous les événements **Recordset** et indique s'
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="fetchcomplete-event-ado.md">FetchComplete,</a></p></td>
+<td><p><a href="fetchcomplete-event-ado.md">FetchComplete</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="fetchprogress-event-ado.md">FetchProgress,</a></p></td>
+<td><p><a href="fetchprogress-event-ado.md">FetchProgress</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">

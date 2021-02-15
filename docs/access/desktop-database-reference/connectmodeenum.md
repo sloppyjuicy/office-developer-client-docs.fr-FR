@@ -38,37 +38,37 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 <tbody>
 <tr class="odd">
 <td><p><strong>adModeRead</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Indique des autorisations en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeReadWrite</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indique des autorisations en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeRecursive</strong></p></td>
 <td><p>0x400000</p></td>
-<td><p>Utilisé conjointement avec les autres valeurs <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>ou <strong>adModeShareDenyRead</strong>) pour propager les restrictions de partage à tous les sous-enregistrements de l' <strong>enregistrement</strong>actif. Elle n'a pas d'effet si l'<strong>Enregistrement</strong> n'a pas d'enfant.</p><p>Une erreur d'exécution est générée si elle n'est associée qu'avec <strong>adModeShareDenyNone</strong>. Elle peut toutefois être s'appliquer à <strong>adModeShareDenyNone</strong> lorsqu'elle est associée à d'autres valeurs. Par exemple, vous pouvez utiliser &quot; <strong>adModeRead</strong> ou <strong>adModeShareDenyNone</strong> ou <strong>adModeRecursive</strong>&quot;.</p></td>
+<td><p>Utilisé conjointement avec les autres valeurs <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>ou <strong>adModeShareDenyRead</strong>) pour propager les restrictions de partage à tous les sous-enregistrements de l’enregistrement <strong>actuel</strong>. Elle n'a pas d'effet si l'<strong>Enregistrement</strong> n'a pas d'enfant.</p><p>Une erreur d'exécution est générée si elle n'est associée qu'avec <strong>adModeShareDenyNone</strong>. Elle peut toutefois être s'appliquer à <strong>adModeShareDenyNone</strong> lorsqu'elle est associée à d'autres valeurs. Par exemple, vous pouvez utiliser &quot; <strong>adModeRead</strong> ou <strong>adModeShareDenyNone</strong> ou <strong>adModeRecursive</strong> &quot; .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
-<td><p>Seiz</p></td>
+<td><p>16 </p></td>
 <td><p>Permet à d'autres utilisateurs d'ouvrir une connexion sans autorisations d'aucune sorte. L'accès en lecture et en écriture ne pourra être interdit.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeShareDenyRead</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Empêche d'autres utilisateurs d'ouvrir une connexion sans autorisation de lecture.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyWrite</strong></p></td>
-<td><p>8bits</p></td>
+<td><p>8 </p></td>
 <td><p>Empêche d'autres utilisateurs d'ouvrir une connexion sans autorisation d'écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeShareExclusive</strong></p></td>
-<td><p>an</p></td>
+<td><p>12 </p></td>
 <td><p>Empêche d'autres utilisateurs d'ouvrir une connexion.</p></td>
 </tr>
 <tr class="even">
@@ -78,7 +78,7 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 </tr>
 <tr class="odd">
 <td><p><strong>adModeWrite</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Indique des autorisations en écriture seule.</p></td>
 </tr>
 </tbody>
@@ -100,31 +100,31 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ConnectMode. READ</p></td>
+<td><p>AdoEnums.ConnectMode.READ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectMode. READWRITE</p></td>
+<td><p>AdoEnums.ConnectMode.READWRITE</p></td>
 </tr>
 <tr class="odd">
 <td><p>(Il n'existe pas d'équivalent pour AdoEnums.ConnectMode.RECURSIVE)</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectMode. SHAREDENYNONE</p></td>
+<td><p>AdoEnums.ConnectMode.SHAREDENYNONE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ConnectMode. SHAREDENYREAD</p></td>
+<td><p>AdoEnums.ConnectMode.SHAREDENYREAD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectMode. SHAREDENYWRITE</p></td>
+<td><p>AdoEnums.ConnectMode.SHAREDENYWRITE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ConnectMode. SHAREEXCLUSIVE</p></td>
+<td><p>AdoEnums.ConnectMode.SHAREEXCLUSIVE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectMode. unKNOWn</p></td>
+<td><p>AdoEnums.ConnectMode.UNKNOWN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ConnectMode. WRITE</p></td>
+<td><p>AdoEnums.ConnectMode.WRITE</p></td>
 </tr>
 </tbody>
 </table>

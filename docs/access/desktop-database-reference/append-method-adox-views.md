@@ -22,11 +22,11 @@ Crée un objet [View](view-object-adox.md) et l’ajoute à la collection [Views
 
 ## <a name="syntax"></a>Syntaxe
 
-*Affichages*. *Nom*de l'ajout, *commande*
+*Affichages*. Append *Name*, *Command*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Name* |Valeur de type **String** qui spécifie le nom de la vue à créer.|
 |*Command* |Objet [Command](command-object-ado.md) ADO qui représente la vue à créer.|

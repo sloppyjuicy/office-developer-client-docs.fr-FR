@@ -43,22 +43,22 @@ Spécifie comment interpréter un argument de commande.
 </tr>
 <tr class="even">
 <td><p><strong>adCmdText</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Evalue <a href="commandtext-property-ado.md">CommandText</a> comme définition textuelle d’une commande ou d’un appel de procédure stockée.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdTable</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Evalue <strong>CommandText</strong> comme nom de table dont les colonnes sont toutes renvoyées par une requête SQL générée en interne.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Valeur adCmdStoredProc</strong></p></td>
-<td><p>4</p></td>
+<td><p><strong>adCmdStoredProc</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Evalue <strong>CommandText</strong> comme nom de procédure stockée.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdUnknown</strong></p></td>
-<td><p>8bits</p></td>
+<td><p>8 </p></td>
 <td><p>Par défaut. Indique que le type de la commande dans la propriété <strong>CommandText</strong> n'est pas connu.</p></td>
 </tr>
 <tr class="even">
@@ -90,25 +90,25 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. unSPÉCIFIÉ</p></td>
+<td><p>AdoEnums.CommandType.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CommandType. TEXT</p></td>
+<td><p>AdoEnums.CommandType.TEXT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. TABLE</p></td>
+<td><p>AdoEnums.CommandType.TABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CommandType. STOREDPROC</p></td>
+<td><p>AdoEnums.CommandType.STOREDPROC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. unKNOWn</p></td>
+<td><p>AdoEnums.CommandType.UNKNOWN</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CommandType. FILE</p></td>
+<td><p>AdoEnums.CommandType.FILE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. TABLEDIRECT</p></td>
+<td><p>AdoEnums.CommandType.TABLEDIRECT</p></td>
 </tr>
 </tbody>
 </table>

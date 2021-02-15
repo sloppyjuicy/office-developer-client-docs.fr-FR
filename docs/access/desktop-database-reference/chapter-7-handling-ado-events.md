@@ -32,4 +32,4 @@ Ce chapitre présente les rubriques suivantes :
 - [Types d’événements](types-of-events.md)
 - [Paramètres d’événement](event-parameters.md)
 - [Collaboration des gestionnaires d’événements](how-event-handlers-work-together.md)
-- [Instanciation des événements ADO par langage (ADO)](ado-event-instantiation-by-language-ado.md)
+- [Insaisissation d’événement ADO par langue (ADO)](ado-event-instantiation-by-language-ado.md)

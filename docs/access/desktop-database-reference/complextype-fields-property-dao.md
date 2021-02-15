@@ -1,5 +1,5 @@
 ---
-title: ComplexType. Fields, propriété (DAO)
+title: ComplexType.Fields, propriété (DAO)
 TOCTitle: Fields Property
 ms:assetid: f913a304-5e72-d1df-8d89-d4a1c3a77d99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836981(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296058"
 ---
-# <a name="complextypefields-property-dao"></a>ComplexType. Fields, propriété (DAO)
+# <a name="complextypefields-property-dao"></a>ComplexType.Fields, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Renvoie une collection **Fields** qui représente tous les objets **Field** stoc
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Ceux
+*.* Champs
 
-*expression* Variable qui représente un objet **complexType** .
+*expression* Variable qui représente un **objet ComplexType.**
 

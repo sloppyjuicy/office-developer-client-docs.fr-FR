@@ -23,7 +23,7 @@ ms.locfileid: "32296289"
 
 **S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l'action **fermerfenêtre** pour fermer un onglet de document Access spécifié ou l'onglet de document actif si aucun n'est spécifié.
+Vous pouvez utiliser l’action **FermerWindow** pour fermer un onglet de document Access spécifié ou l’onglet de document actif si aucun onglet n’est spécifié.
 
 ## <a name="setting"></a>Setting
 
@@ -36,7 +36,7 @@ L’action **FermerFenêtre** utilise les arguments suivants :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

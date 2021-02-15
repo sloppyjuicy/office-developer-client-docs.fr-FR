@@ -19,5 +19,5 @@ ms.locfileid: "32296926"
 **S’applique à** : Access 2013, Office 2013
 
 - [Axes, collection (ADO MD)](axes-collection-ado-md.md)
-- [Axes, collection-propriétés, méthodes et événements (ADO MD)](axes-collection-properties-methods-and-events-ado-md.md)
+- [Axes, collection - Propriétés, méthodes et événements (ADO MD)](axes-collection-properties-methods-and-events-ado-md.md)
 

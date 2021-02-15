@@ -50,7 +50,7 @@ L’action **Parcourir** utilise l’argument suivant :
 </tr>
 <tr class="odd">
 <td><p>Chemin d’accès au contrôle de sous-formulaire</p></td>
-<td><p>Si ce paramètre est spécifié, le chemin d'accès à partir du formulaire principal de l'application vers le contrôle de sous-formulaire cible qui charge l'objet spécifié par l'argument nom de l'objet.</p></td>
+<td><p>S’il est spécifié, le chemin d’accès du formulaire principal de l’application au contrôle de sous-formulaire cible qui charge l’objet spécifié par l’argument Nom de l’objet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condition Where</p></td>
@@ -58,7 +58,7 @@ L’action **Parcourir** utilise l’argument suivant :
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<td><p>Spécifié, définit la page du formulaire continu qui deviendra la page active. Cet argument est uniquement Web.</p></td>
+<td><p>Spécifié, définit la page du formulaire continu qui deviendra la page active. Cet argument est web uniquement.</p></td>
 </tr>
 <tr class="even">
 <td><p>Mode Données</p></td>
@@ -80,7 +80,7 @@ Dans cet exemple, le Formulaire principal est le formulaire de niveau supérieur
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment utiliser l'action BrowseTo pour ouvrir un État dans un contrôle de sous-formulaire ou un contrôle de navigation.
+L’exemple suivant montre comment utiliser l’action Parcourir pour ouvrir un état dans un contrôle de sous-forme ou dans un contrôle de navigation.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

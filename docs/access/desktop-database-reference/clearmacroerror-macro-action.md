@@ -32,7 +32,7 @@ L’action **EffacerMacroErreur** ne possède aucun argument.
 
 ## <a name="remarks"></a>Remarques
 
-- Lorsqu'une erreur se produit dans une macro, les informations sur l'erreur sont stockées dans l'objet **MacroError**. Si vous n'avez pas utilisé **[](onerror-macro-action.md)** l'action SurErreur pour supprimer les messages d'erreur, la macro s'arrête et les informations d'erreur s'affichent dans un message d'erreur standard. Toutefois, si vous avez utilisé l' **** action SurErreur pour supprimer les messages d'erreur, vous souhaiterez peut-être utiliser les informations stockées dans l'objet **MacroError** dans une condition ou dans un message d'erreur personnalisé.
+- Lorsqu'une erreur se produit dans une macro, les informations sur l'erreur sont stockées dans l'objet **MacroError**. Si vous n’avez pas utilisé l’action **[SurErreur](onerror-macro-action.md)** pour supprimer les messages d’erreur, la macro s’arrête et les informations d’erreur s’affichent dans un message d’erreur standard. Toutefois, si vous avez utilisé l’action **SurErreur** pour supprimer les messages d’erreur, vous pouvez utiliser les informations stockées dans l’objet **MacroError** dans une condition ou dans un message d’erreur personnalisé.
     
   Lorsqu'une erreur a été gérée, les informations stockées dans l'objet **MacroError** deviennent obsolètes. Il est alors conseillé d'effacer l'objet à l'aide de l'action **EffacerMacroErreur**, ce qui permet de réinitialiser à 0 le numéro d'erreur dans l'objet **MacroError** et de supprimer toutes les autres informations sur l'erreur, telles que sa description, le nom de la macro, ainsi que le nom, la condition et les arguments de l'action. Ainsi, vous pourrez réexaminer ultérieurement l'objet **MacroError** pour déterminer si une autre erreur s'est produite.
 
@@ -44,7 +44,7 @@ L’action **EffacerMacroErreur** ne possède aucun argument.
 
 ## <a name="example"></a>Exemple
 
-La macro suivante utilise l'action **SurErreur** avec l'argument **Suivant** pour supprimer les messages d'erreur, puis utilise l'action **OuvrirFormulaire** pour ouvrir un formulaire. Pour les besoins de cet exemple, une erreur a été délibérément créée en utilisant l'action **AtteindreEnregistrement** pour revenir à l'enregistrement précédent. La condition ** \[MacroError\].\[ Le\]\<chiffre\>0** teste l'objet **MacroError** . Si une erreur s'est produite, le numéro de l'erreur est une valeur non nulle et l'action **ZoneMessage** s'exécute. La zone de message affiche le nom de l'action à l'origine de l'erreur (dans le cas présent, l'action **AtteindreEnregistrement** ) et le numéro de l'erreur est affiché. Pour finir, l’action **EffacerMacroErreur** est exécutée afin d’effacer l’objet **MacroError**.
+La macro suivante utilise l'action **SurErreur** avec l'argument **Suivant** pour supprimer les messages d'erreur, puis utilise l'action **OuvrirFormulaire** pour ouvrir un formulaire. Pour les besoins de cet exemple, une erreur a été délibérément créée en utilisant l'action **AtteindreEnregistrement** pour revenir à l'enregistrement précédent. La condition **\[ MacroError \] . \[ La \] \< \> numéro 0** teste **l’objet MacroError.** Si une erreur s'est produite, le numéro de l'erreur est une valeur non nulle et l'action **ZoneMessage** s'exécute. La zone de message affiche le nom de l'action à l'origine de l'erreur (dans le cas présent, l'action **AtteindreEnregistrement** ) et le numéro de l'erreur est affiché. Pour finir, l’action **EffacerMacroErreur** est exécutée afin d’effacer l’objet **MacroError**.
 
 <table>
 <colgroup>
@@ -68,17 +68,17 @@ La macro suivante utilise l'action **SurErreur** avec l'argument **Suivant** pou
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nom du formulaire</strong>: formulairecatégorie<strong>View</strong>: <strong>FormWindow mode</strong>: <strong>normal</strong></p></td>
+<td><p><strong>Nom du</strong>formulaire :<strong>CategoryForm View</strong>: <strong>Mode FormWindow</strong>: <strong>Normal</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>GoToRecord</strong></p></td>
-<td><p><strong>Type d'objet</strong>: <strong>nom formulairenom</strong>:<strong>enregistrement</strong>formulairecatégorie: précédent</p></td>
+<td><p><strong>Type d’objet</strong>: <strong>FormObject Name</strong>: CategoryForm<strong>Record</strong>: Previous</p></td>
 </tr>
 <tr class="even">
-<td><p>[MacroError]. Valeur &lt; &gt;0</p></td>
+<td><p>[MacroError]. [Number] &lt; &gt; 0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: =&quot;erreur # &quot; &amp; [MacroError]. Valeur &amp; sur &quot; [ &amp; MacroError]. &quot; ActionName &amp; &quot; action. &quot; <strong>Bip</strong>: <strong>YesType</strong>: informations</p></td>
+<td><p><strong>Message</strong>: = &quot; Error # &quot; &amp; [MacroError].[ Number] &amp; &quot; on &quot; &amp; [MacroError].[ ActionName]. &amp; &quot; &quot; <strong>Beep</strong>: <strong>YesType</strong>: Information</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

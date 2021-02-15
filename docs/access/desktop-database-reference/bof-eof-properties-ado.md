@@ -39,7 +39,7 @@ Si l'une des propriétés **BOF** ou **EOF** a la valeur **True**, il n'y a pas 
 
 Si vous ouvrez un objet **Recordset** qui ne contient pas d’enregistrement, les propriétés **BOF** et **EOF** ont la valeur **True** (reportez-vous à la propriété [RecordCount](recordcount-property-ado.md) pour plus d’informations sur cet état d’un objet **Recordset**). Lorsque vous ouvrez un objet **Recordset** qui contient au moins un enregistrement, le premier enregistrement correspond au dernier enregistrement et les propriétés **BOF** et **EOF** ont la valeur **False**.
 
-Si vous supprimez le dernier enregistrement encore présent dans l'objet **Recordset**, les propriétés **BOF** et **EOF** peuvent conserver la valeur **False** jusqu'à ce que vous tentiez de repositionner l'enregistrement actif.
+Si vous supprimez le dernier enregistrement restant dans la **jeu d’enregistrements** objet, le **BOF** et **EOF** propriétés peuvent restent **faux** jusqu'à ce que vous tentative de repositionner l’enregistrement actif.
 
 Ce tableau répertorie les méthodes **Move** autorisées avec les différentes combinaisons des propriétés **BOF** et **EOF**.
 
@@ -54,42 +54,42 @@ Ce tableau répertorie les méthodes **Move** autorisées avec les différentes 
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>Méthodes<br />
+<th><p>MoveFirst,<br />
 MoveLast</p></th>
-<th><p>MovePrevious<br />
-Déplacer &lt; 0</p></th>
+<th><p>MovePrevious,<br />
+Move &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext<br />
-Déplacer &gt; 0</p></th>
+<th><p>MoveNext,<br />
+Move &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = true,</strong><br />
-<strong>EOF = false</strong></p></td>
+<td><p><strong>BOF=True,</strong><br />
+<strong>EOF=False</strong></p></td>
 <td><p>Autorisé</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erreur</p></td>
+<td><p>Erreur</p></td>
 <td><p>Autorisé</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = false,</strong><br />
-<strong>EOF = true</strong></p></td>
+<td><p><strong>BOF=False,</strong><br />
+<strong>EOF=True</strong></p></td>
 <td><p>Autorisé</p></td>
 <td><p>Autorisé</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Erreur</p></td>
+<td><p>Erreur</p></td>
 </tr>
 <tr class="odd">
-<td><p>Les deux propriétés ont la valeur <strong>True</strong></p></td>
-<td><p>Erreur</p></td>
-<td><p>Error</p></td>
+<td><p>Les deux <strong>vrai</strong></p></td>
 <td><p>Error</p></td>
 <td><p>Erreur</p></td>
+<td><p>Erreur</p></td>
+<td><p>Error</p></td>
 </tr>
 <tr class="even">
-<td><p>Les deux propriétés ont la valeur <strong>False</strong></p></td>
+<td><p>Les deux <strong>faux</strong></p></td>
 <td><p>Autorisé</p></td>
 <td><p>Autorisé</p></td>
 <td><p>Autorisé</p></td>
@@ -123,12 +123,12 @@ Le tableau ci-dessous répertorie les valeurs prises par les propriétés **BOF*
 <td><p>Prend la valeur <strong>True</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Move</strong> 0</p></td>
-<td><p>Aucun changement</p></td>
-<td><p>Aucun changement</p></td>
+<td><p><strong></strong>Move</p></td>
+<td><p>Aucune modification</p></td>
+<td><p>Aucune modification</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>, <strong>déplacer</strong> &lt; 0</p></td>
+<td><p><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</p></td>
 <td><p>Prend la valeur <strong>True</strong></p></td>
 <td><p>Aucune modification</p></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: Cell, objet (référence ADO MD)
+title: Objet cell (référence ADO MD)
 TOCTitle: Cell object (ADO MD)
 ms:assetid: 2db153d4-ff06-44fd-b20d-285ad505efa6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249073(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296562"
 ---
-# <a name="cell-object-ado-md-reference"></a>Cell, objet (référence ADO MD)
+# <a name="cell-object-ado-md-reference"></a>Objet cell (référence ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Cell, objet (ADO MD)](cell-object-ado-md.md)
-- [Propriétés, méthodes et événements de cellule (ADO MD)](cell-properties-methods-and-events-ado-md.md)
+- [Objet cell (ADO MD)](cell-object-ado-md.md)
+- [Cell properties, methods, and events (ADO MD)](cell-properties-methods-and-events-ado-md.md)
 

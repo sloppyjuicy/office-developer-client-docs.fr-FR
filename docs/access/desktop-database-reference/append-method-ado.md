@@ -22,13 +22,13 @@ Ajoute un objet à une collection. S'il s'agit de la collection [Fields](fields-
 
 ## <a name="syntax"></a>Syntaxe
 
-*collection*. Append, *objet*
+*.* Objet *Append*
 
-*champs*. Append *Name*, *type*, *DefinedSize*, *Attrib*, *FieldValue*
+*.* Append *Name*, *Type*, *DefinedSize*, *Attrib*, *FieldValue*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*collection* |Objet Collection.|
 |*fields* |Collection **Fields**.|

@@ -37,6 +37,6 @@ Le modèle d'objet ADO représente le concept d'une connexion avec l'objet **Con
 Ce chapitre présente les rubriques suivantes :
 
 - [Connexion](making-a-connection.md)
-- [Utilisation de la référence de l'objet Connection (ADO)](using-the-connection-object-access.md)
-- [Utilisation de la référence d'objet Command (ADO)](using-the-command-object-access.md)
-- [Ajout de données à un objet Recordset (ADO)](adding-data-to-a-recordset.md)
+- [Utilisation de la référence d’objet de connexion (ADO)](using-the-connection-object-access.md)
+- [Utilisation de la référence d’objet de commande (ADO)](using-the-command-object-access.md)
+- [Ajout de données à un recordset (ADO)](adding-data-to-a-recordset.md)

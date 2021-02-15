@@ -43,12 +43,12 @@ Spécifie un signet indiquant où doit commencer l'opération.
 </tr>
 <tr class="even">
 <td><p><strong>adBookmarkFirst</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Démarre au premier enregistrement.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adBookmarkLast</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Démarre au dernier enregistrement.</p></td>
 </tr>
 </tbody>
@@ -70,13 +70,13 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Bookmark. CURRENT</p></td>
+<td><p>AdoEnums.Bookmark.CURRENT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Bookmark. FIRST</p></td>
+<td><p>AdoEnums.Bookmark.FIRST</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Bookmark. LAST</p></td>
+<td><p>AdoEnums.Bookmark.LAST</p></td>
 </tr>
 </tbody>
 </table>

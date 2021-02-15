@@ -1,5 +1,5 @@
 ---
-title: Référence de l'objet Command (ADO)
+title: Référence de l’objet Command (ADO)
 TOCTitle: Command object (ADO)
 ms:assetid: 87df0a0c-1529-46d8-bd36-b7a9c8b17615
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249590(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296184"
 ---
-# <a name="command-object-ado-reference"></a>Référence de l'objet Command (ADO)
+# <a name="command-object-ado-reference"></a>Référence de l’objet Command (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Command, objet (ADO)](command-object-ado.md)
-- [Propriétés, méthodes et événements de commande (ADO)](command-properties-methods-and-events-ado.md)
+- [Objet Command (ADO)](command-object-ado.md)
+- [Command properties, methods, and events (ADO)](command-properties-methods-and-events-ado.md)
 

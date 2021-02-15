@@ -1,5 +1,5 @@
 ---
-title: Catalog, objet (ADOX)
+title: Objet Catalog (ADOX)
 TOCTitle: Catalog object (ADOX)
 ms:assetid: d9e8d94b-9161-3eb6-abaf-00d1244d1f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296569"
 ---
-# <a name="catalog-object-adox"></a>Catalog, objet (ADOX)
+# <a name="catalog-object-adox"></a>Objet Catalog (ADOX)
 
 
 **S’applique à** : Access 2013, Office 2013

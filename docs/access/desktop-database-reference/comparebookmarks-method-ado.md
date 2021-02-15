@@ -22,7 +22,7 @@ Compare deux signets et retourne une indication de leurs valeurs relatives.
 
 ## <a name="syntax"></a>Syntaxe
 
-** = *Recordset*de résultats. CompareBookmarks (*bookmark1*, *bookmark2*)
+*result*  =  *recordset*. CompareBookmarks(*Bookmark1*, *Bookmark2*)
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,7 +30,7 @@ Retourne une valeur [CompareEnum](compareenum.md) qui indique la position de lig
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Bookmark1* |Signet de la première ligne.|
 |*Bookmark2* |Signet de la seconde ligne.|
@@ -41,7 +41,7 @@ Les signets doivent s'appliquer au même objet [Recordset](recordset-object-ado.
 
 Un signet constitue l'identification unique d'une ligne dans un objet **Recordset**. Utilisez la propriété [Bookmark](bookmark-property-ado.md) de la ligne active pour obtenir son signet.
 
-Comme le type de données d'un signet est propre au fournisseur, ADO l'expose en tant que type Variant. Par exemple, les signets SQL Server sont de type\_DbType R8 (double). ADO l'expose en tant que type Variant avec le sous-type Double.
+Comme le type de données d'un signet est propre au fournisseur, ADO l'expose en tant que type Variant. Par exemple, SQL Server signets sont de type DBTYPE \_ R8 (Double). ADO l'expose en tant que type Variant avec le sous-type Double.
 
 Lorsqu'il compare des signets, ADO ne tente aucune forme de conversion forcée. Les valeurs sont tout simplement passées au fournisseur lors de la comparaison. Si les signets passés à la méthode **CompareBookmarks** sont stockés dans des variables de types différents, cela peut générer une erreur d'incompatibilité de type indiquant que les arguments n'ont pas le type approprié, qu'ils sont en dehors de la plage acceptable ou qu'ils sont en conflit.
 

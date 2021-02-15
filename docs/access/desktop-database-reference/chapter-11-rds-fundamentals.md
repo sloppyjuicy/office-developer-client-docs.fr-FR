@@ -27,5 +27,5 @@ Cette section comporte une série de rubriques à lire dans l'ordre recommandé,
 - [Résumé du modèle objet RDS](rds-object-model-summary.md)
 - [Scénario RDS](rds-scenario.md)
 
-Cette section contient également le [didacticiel RDS](chapter-12-rds-tutorial.md) qui explique comment accéder à une source de données et la mettre à jour, ainsi qu'une série de rubriques relatives [à l'utilisation de RDS](chapter-13-rds-usage-and-security.md), qui aborde des rubriques plus avancées de RDS.
+Cette section contient également le didacticiel [RDS](chapter-12-rds-tutorial.md) qui montre comment accéder à une source de données et la mettre à jour, ainsi qu’une série de rubriques sur l’utilisation de [RDS,](chapter-13-rds-usage-and-security.md)qui traite de sujets plus avancés de RDS.
 

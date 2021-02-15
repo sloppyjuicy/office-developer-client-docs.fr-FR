@@ -1,5 +1,5 @@
 ---
-title: CellSet, propriétés, méthodes et événements (ADO MD)
+title: Cellset properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 7745f93c-5cc7-e6f8-143a-3470be0c1c0a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249488(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296520"
 ---
-# <a name="cellset-properties-methods-and-events-ado-md"></a>CellSet, propriétés, méthodes et événements (ADO MD)
+# <a name="cellset-properties-methods-and-events-ado-md"></a>Cellset properties, methods, and events (ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -23,7 +23,7 @@ ms.locfileid: "32296520"
 - [ActiveConnection, propriété](activeconnection-property-ado-md.md)
 - [Axes (collection)](axes-collection-ado-md.md)
 - [FilterAxis, propriété](filteraxis-property-ado-md.md)
-- [Item, propriété (ensemble de cellules)](item-property-ado-md-cellset.md)
+- [Propriété Item (Ensemble de cellules)](item-property-ado-md-cellset.md)
 - [Properties, collection](properties-collection-ado.md)
 - [Source, propriété](source-property-ado-md.md)
 - [State, propriété](state-property-ado-md.md)
@@ -33,7 +33,7 @@ ms.locfileid: "32296520"
 - [Close, méthode](close-method-ado-md.md)
 - [Open, méthode](open-method-ado-md.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

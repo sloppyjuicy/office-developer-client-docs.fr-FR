@@ -25,11 +25,11 @@ Ajoute un nouvel objet [Index](index-object-adox.md) à la collection [Indexes](
 
 ## <a name="syntax"></a>Syntaxe
 
-*Index*. Ajouter un*index* \[,*colonnes*\]
+*Index .* Append *Index* \[ ,*Columns*\]
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Index* |Objet **Index** à ajouter ou nom de l'index à créer et à ajouter.|
 |*Columns* |Facultatif. Valeur de type **Variant** qui spécifie le ou les noms des colonne à indexer. Le paramètre *Column* correspond à la ou aux valeurs de la propriété [Name](name-property-adox.md) d’un ou plusieurs objets [Column](column-object-adox.md).|

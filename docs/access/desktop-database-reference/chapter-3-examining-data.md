@@ -68,47 +68,47 @@ Cette requête SQL renvoie un **jeu d'enregistrements** constitué de cinq ligne
 <thead>
 <tr class="header">
 <th><p>CHAMP 0<br />
-Nom = ProductID</p></th>
+Name = ProductID</p></th>
 <th><p>CHAMP 1<br />
-Nom = ProductName</p></th>
+Name = ProductName</p></th>
 <th><p>CHAMP 2<br />
-Nom = PrixUnitaire</p></th>
+Name = UnitPrice</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>7j/7</p></td>
+<td><p>7 </p></td>
 <td><p>Pêches séchées bio Oncle Bob</p></td>
-<td><p>30,0000</p></td>
+<td><p>30.0000</p></td>
 </tr>
 <tr class="even">
-<td><p>13</p></td>
-<td><p>Longvi</p></td>
-<td><p>23,2500</p></td>
+<td><p>14 </p></td>
+<td><p>Tofu</p></td>
+<td><p>23.2500</p></td>
 </tr>
 <tr class="odd">
-<td><p>vingt</p></td>
+<td><p>28</p></td>
 <td><p>Choucroute Frau Kraut</p></td>
-<td><p>45,6000</p></td>
+<td><p>45.6000</p></td>
 </tr>
 <tr class="even">
 <td><p>51</p></td>
 <td><p>Pommes séchées Manjimup</p></td>
-<td><p>53,0000</p></td>
+<td><p>53.0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>74</p></td>
 <td><p>Tofu LongVi</p></td>
-<td><p>10,0000</p></td>
+<td><p>10.0000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-La section suivante explique comment trouver la position actuelle du curseur dans cet exemple d' **objet Recordset**.
+La section suivante explique comment localiser la position actuelle du curseur dans cet exemple **de jeu d’enregistrements.**
 
 Ce chapitre présente les rubriques suivantes :
 
-- [Localisation de l'enregistrement actif (ADO)](locating-the-current-record.md)
+- [Localisation de l’enregistrement actuel (ADO)](locating-the-current-record.md)
 - [Navigation dans les données (ADO)](navigating-through-the-data.md)
-- [Présentation de la structure du recordset (ADO)](understanding-recordset-structure.md)
+- [Understanding Recordset structure (ADO)](understanding-recordset-structure.md)

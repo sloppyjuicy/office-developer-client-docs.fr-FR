@@ -43,17 +43,17 @@ Indique si des enregistrements contenant des valeurs Null sont indexés.
 </tr>
 <tr class="even">
 <td><p><strong>adIndexNullsDisallow</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Valeur par défaut. L'index n'autorise pas d'entrées dans lesquelles les colonnes clés ont la valeur Null. Une erreur se produit lorsqu'une valeur Null est entrée dans une colonne clé.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adIndexNullsIgnore</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>L'index n'insère pas d'entrée contenant des clés de valeur Null. Si une valeur Null est entrée dans une colonne clé, l'entrée est ignorée et aucune erreur ne se produit.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adIndexNullsIgnoreAny</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>L'index n'insère pas d'entrée où une colonne clé contient une valeur Null. Dans le cas d'un index possédant une clé multicolonne, si une valeur Null est entrée dans une colonne, l'entrée est ignorée et aucune erreur ne se produit.</p></td>
 </tr>
 </tbody>

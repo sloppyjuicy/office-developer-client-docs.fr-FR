@@ -34,5 +34,5 @@ Consultez les rubriques suivantes pour en savoir plus sur la mise en forme des d
 - [Visual Basic for Applications functions](visual-basic-for-applications-functions.md)
 - [Shape Append, clause (ADO)](shape-append-clause.md)
 - [Mise en forme des données (ADO)](data-shaping.md)
-- [Commandes de forme en général (ADO)](shape-commands-in-general.md)
+- [Commandes shape en général (ADO)](shape-commands-in-general.md)
 

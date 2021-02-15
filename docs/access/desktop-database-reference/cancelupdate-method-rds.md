@@ -26,7 +26,7 @@ Annule toutes les modifications apportées à la ligne active ou à une nouvelle
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 

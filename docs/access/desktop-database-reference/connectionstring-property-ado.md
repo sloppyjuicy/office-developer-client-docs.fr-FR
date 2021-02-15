@@ -27,7 +27,7 @@ Définit ou renvoie une valeur de type **String**.
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez la propriété **ConnectionString** pour spécifier une source de données en passant une chaîne de connexion détaillée contenant une série d'instructions *argument* *= valeur* séparées par des points-virgules.
+Utilisez la **propriété ConnectionString** pour spécifier une source de données en passant une chaîne de connexion détaillée contenant une série d’arguments  *=* instructions de valeur séparées par des points-virgules.
 
 ADO prend en charge cinq arguments pour la propriété **ConnectionString**. Tous les autres arguments sont transmis directement au fournisseur sans aucun traitement par ADO. Les arguments pris en charge par ADO sont les suivants :
 
@@ -44,7 +44,7 @@ ADO prend en charge cinq arguments pour la propriété **ConnectionString**. Tou
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Provider =</em></p></td>
+<td><p><em>Provider=</em></p></td>
 <td><p>Spécifie le nom d'un fournisseur à utiliser pour la connexion.</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +60,7 @@ ADO prend en charge cinq arguments pour la propriété **ConnectionString**. Tou
 <td><p>Spécifie le nom du chemin d'accès du serveur à utiliser lors de l'ouverture d'une connexion côté client (RDS uniquement).</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>URL =</em></p></td>
+<td><p><em>URL=</em></p></td>
 <td><p>Spécifie la chaîne de connexion sous la forme d'une URL absolue identifiant une ressource, comme un fichier ou un répertoire.</p></td>
 </tr>
 </tbody>
@@ -77,5 +77,5 @@ La propriété **ConnectionString** est en lecture/écriture lorsque la connexio
 
 Les doublons d'un argument dans la propriété **ConnectionString** ne sont pas pris en compte. C'est la dernière instance de l'argument qui est utilisée.
 
-**Utilisation des services de données à distance** Lorsqu'elle est utilisée sur un objet **Connection** côté client, la propriété **ConnectionString** peut inclure uniquement les paramètres Remote *Provider* et *Remote Server* .
+**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet **Connection** côté client, la **propriété ConnectionString** peut inclure uniquement les paramètres *Fournisseur* distant et *Serveur* distant.
 

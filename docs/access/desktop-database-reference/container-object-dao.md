@@ -1,5 +1,5 @@
 ---
-title: Objet Container (DAO)
+title: Container, objet (DAO)
 TOCTitle: Container Object
 ms:assetid: 22e487cd-e966-fe68-fff3-c680b460cbeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
@@ -70,11 +70,11 @@ Comme les objets **Container** sont intégrés, vous ne pouvez pas créer d'obje
 
 Pour renvoyer à un objet **Container** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
 
-- **Conteneurs** 0
+- **Conteneurs**(0)
 
-- **Conteneurs** ("*nom*")
+- **Conteneurs**( »*nom*« )
 
-- ****\!\[*Nom* des conteneurs\]
+-  \! Conteneurs \[ *name*\]
 
 ## <a name="example"></a>Exemple
 

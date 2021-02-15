@@ -30,5 +30,5 @@ En mode de mise à jour immédiate, chaque appel de la méthode **Update** propa
 
 Ce chapitre présente les rubriques suivantes :
 
-- [Mise à jour des données (ADO)](updating-data.md)
-- [PerSistance des données (ADO)](persisting-data.md)
+- [Updating data (ADO)](updating-data.md)
+- [Persisting data (ADO)](persisting-data.md)

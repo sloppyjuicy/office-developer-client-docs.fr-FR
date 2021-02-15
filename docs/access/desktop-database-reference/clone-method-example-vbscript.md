@@ -19,11 +19,11 @@ ms.locfileid: "32296331"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple fait appel à la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis laisse l'utilisateur positionner indépendamment le pointeur d'enregistrement de chaque copie.
+Cet exemple utilise la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis permet à l'utilisateur de positionner le pointeur d'enregistrement de chaque copie indépendamment des autres.
 
 Utilisez l'exemple suivant dans une page ASP (Active Server Page). Cet exemple utilise la base de données Northwind (Les Comptoirs) distribuée avec Microsoft Access. Coupez le code suivant, collez-le dans le Bloc-notes ou dans un autre éditeur de texte, puis enregistrez-le sous le nom **CloneVBS.asp**. Vous pouvez afficher le résultat dans un navigateur client.
 
-Pour tester l'exemple, modifiez la ligne RsCustomerList. source = "Customers" vers RsCustomerList. source = "Products" pour compter une plus grande table.
+Pour exercer cet exemple, modifiez la ligne RsCustomerList.Source = « Customers » en RsCustomerList.Source = « Products » pour compter une table plus grande.
 
 ```vb 
  
