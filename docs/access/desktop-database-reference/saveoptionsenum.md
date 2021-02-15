@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314741"
 ---
-# <a name="saveoptionsenum"></a><span data-ttu-id="a984e-102">SaveOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="a984e-102">SaveOptionsEnum</span></span>
+# <a name="saveoptionsenum"></a><span data-ttu-id="733da-102">SaveOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="733da-102">SaveOptionsEnum</span></span>
 
-<span data-ttu-id="a984e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a984e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="733da-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="733da-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a984e-p101">Spécifie si un fichier doit être créé ou remplacé en cas de sauvegarde d'un objet [Stream](stream-object-ado.md). Les valeurs peuvent être combinées avec un opérateur AND.</span><span class="sxs-lookup"><span data-stu-id="a984e-p101">Specifies whether a file should be created or overwritten when saving from a [Stream](stream-object-ado.md) object. The values can be combined with an AND operator.</span></span>
+<span data-ttu-id="733da-p101">Spécifie si un fichier doit être créé ou remplacé en cas de sauvegarde d'un objet [Stream](stream-object-ado.md). Les valeurs peuvent être combinées avec un opérateur AND.</span><span class="sxs-lookup"><span data-stu-id="733da-p101">Specifies whether a file should be created or overwritten when saving from a [Stream](stream-object-ado.md) object. The values can be combined with an AND operator.</span></span>
 
 <br/>
 
@@ -30,27 +30,27 @@ ms.locfileid: "32314741"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a984e-106">Constante</span><span class="sxs-lookup"><span data-stu-id="a984e-106">Constant</span></span></p></th>
-<th><p><span data-ttu-id="a984e-107">Valeur</span><span class="sxs-lookup"><span data-stu-id="a984e-107">Value</span></span></p></th>
-<th><p><span data-ttu-id="a984e-108">Description</span><span class="sxs-lookup"><span data-stu-id="a984e-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="733da-106">Constante</span><span class="sxs-lookup"><span data-stu-id="733da-106">Constant</span></span></p></th>
+<th><p><span data-ttu-id="733da-107">Valeur</span><span class="sxs-lookup"><span data-stu-id="733da-107">Value</span></span></p></th>
+<th><p><span data-ttu-id="733da-108">Description</span><span class="sxs-lookup"><span data-stu-id="733da-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a984e-109"><strong>adSaveCreateNotExist</strong></span><span class="sxs-lookup"><span data-stu-id="a984e-109"><strong>adSaveCreateNotExist</strong></span></span></p></td>
-<td><p><span data-ttu-id="a984e-110">0,1</span><span class="sxs-lookup"><span data-stu-id="a984e-110">1</span></span></p></td>
-<td><p><span data-ttu-id="a984e-p102">Par défaut. Crée un nouveau fichier si le fichier spécifié par le paramètre <em>FileName</em> n'existe pas déjà.</span><span class="sxs-lookup"><span data-stu-id="a984e-p102">Default. Creates a new file if the file specified by the <em>FileName</em> parameter does not already exist.</span></span></p></td>
+<td><p><span data-ttu-id="733da-109"><strong>adSaveCreateNotExist</strong></span><span class="sxs-lookup"><span data-stu-id="733da-109"><strong>adSaveCreateNotExist</strong></span></span></p></td>
+<td><p><span data-ttu-id="733da-110">1 </span><span class="sxs-lookup"><span data-stu-id="733da-110">1</span></span></p></td>
+<td><p><span data-ttu-id="733da-p102">Par défaut. Crée un nouveau fichier si le fichier spécifié par le paramètre <em>FileName</em> n'existe pas déjà.</span><span class="sxs-lookup"><span data-stu-id="733da-p102">Default. Creates a new file if the file specified by the <em>FileName</em> parameter does not already exist.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a984e-113"><strong>Valeur adSaveCreateOverwrite</strong></span><span class="sxs-lookup"><span data-stu-id="a984e-113"><strong>adSaveCreateOverWrite</strong></span></span></p></td>
-<td><p><span data-ttu-id="a984e-114">n°2</span><span class="sxs-lookup"><span data-stu-id="a984e-114">2</span></span></p></td>
-<td><p><span data-ttu-id="a984e-115">Remplace le fichier avec les données de l'objet <strong>Stream</strong> ouvert, si le fichier spécifié par le paramètre <em>Filename</em> existe déjà.</span><span class="sxs-lookup"><span data-stu-id="a984e-115">Overwrites the file with the data from the currently open <strong>Stream</strong> object, if the file specified by the <em>Filename</em> parameter already exists.</span></span></p></td>
+<td><p><span data-ttu-id="733da-113"><strong>adSaveCreateOverWrite</strong></span><span class="sxs-lookup"><span data-stu-id="733da-113"><strong>adSaveCreateOverWrite</strong></span></span></p></td>
+<td><p><span data-ttu-id="733da-114">2 </span><span class="sxs-lookup"><span data-stu-id="733da-114">2</span></span></p></td>
+<td><p><span data-ttu-id="733da-115">Remplace le fichier avec les données de l'objet <strong>Stream</strong> ouvert, si le fichier spécifié par le paramètre <em>Filename</em> existe déjà.</span><span class="sxs-lookup"><span data-stu-id="733da-115">Overwrites the file with the data from the currently open <strong>Stream</strong> object, if the file specified by the <em>Filename</em> parameter already exists.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="a984e-116">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="a984e-116">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="733da-116">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="733da-116">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="a984e-117">Ces constantes ne possèdent pas d'équivalent ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="a984e-117">These constants do not have ADO/WFC equivalents.</span></span>
+<span data-ttu-id="733da-117">Ces constantes ne possèdent pas d'équivalent ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="733da-117">These constants do not have ADO/WFC equivalents.</span></span>
 

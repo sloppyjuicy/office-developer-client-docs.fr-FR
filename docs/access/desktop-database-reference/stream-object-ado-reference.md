@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet Stream (ADO)
+title: Référence de l’objet Stream (ADO)
 TOCTitle: Stream object (ADO)
 ms:assetid: 4574095e-06d3-4c2f-86e0-2a7cf1247395
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249214(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314454"
 ---
-# <a name="stream-object-ado-reference"></a><span data-ttu-id="ccfe7-102">Référence d'objet Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="ccfe7-102">Stream object (ADO) reference</span></span>
+# <a name="stream-object-ado-reference"></a><span data-ttu-id="507f5-102">Référence de l’objet Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="507f5-102">Stream object (ADO) reference</span></span>
 
-<span data-ttu-id="ccfe7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ccfe7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="507f5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="507f5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ccfe7-104">Stream, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="ccfe7-104">Stream object (ADO)</span></span>](stream-object-ado.md)
-- [<span data-ttu-id="ccfe7-105">Stream, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="ccfe7-105">Stream properties, methods, and events (ADO)</span></span>](stream-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="507f5-104">Objet Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="507f5-104">Stream object (ADO)</span></span>](stream-object-ado.md)
+- [<span data-ttu-id="507f5-105">Stream properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="507f5-105">Stream properties, methods, and events (ADO)</span></span>](stream-properties-methods-and-events-ado.md)
 

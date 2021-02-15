@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314615"
 ---
-# <a name="setfield-macro-action"></a><span data-ttu-id="22d61-102">SetField, action de macro</span><span class="sxs-lookup"><span data-stu-id="22d61-102">SetField macro action</span></span>
+# <a name="setfield-macro-action"></a><span data-ttu-id="8a5a2-102">SetField, action de macro</span><span class="sxs-lookup"><span data-stu-id="8a5a2-102">SetField macro action</span></span>
 
-<span data-ttu-id="22d61-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="22d61-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8a5a2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a5a2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="22d61-104">L'action **DéfinirChamp** peut être utilisée pour assigner une valeur à un champ.</span><span class="sxs-lookup"><span data-stu-id="22d61-104">The **SetField** action can be used to assign a value to a field.</span></span>
+<span data-ttu-id="8a5a2-104">L'action **DéfinirChamp** peut être utilisée pour assigner une valeur à un champ.</span><span class="sxs-lookup"><span data-stu-id="8a5a2-104">The **SetField** action can be used to assign a value to a field.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="22d61-105">L’action **DéfinirChamp** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="22d61-105">The **SetField** action is available only in Data Macros.</span></span>
+> <span data-ttu-id="8a5a2-105">L’action **DéfinirChamp** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="8a5a2-105">The **SetField** action is available only in Data Macros.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="22d61-106">Setting</span><span class="sxs-lookup"><span data-stu-id="22d61-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="8a5a2-106">Setting</span><span class="sxs-lookup"><span data-stu-id="8a5a2-106">Setting</span></span>
 
-<span data-ttu-id="22d61-107">L’action **DéfinirChamp** utilise les arguments répertoriés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="22d61-107">The **SetField** action has the arguments listed in the following table.</span></span>
+<span data-ttu-id="8a5a2-107">L’action **DéfinirChamp** utilise les arguments répertoriés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="8a5a2-107">The **SetField** action has the arguments listed in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -34,24 +34,24 @@ ms.locfileid: "32314615"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="22d61-108">Argument</span><span class="sxs-lookup"><span data-stu-id="22d61-108">Argument</span></span></p></th>
-<th><p><span data-ttu-id="22d61-109">Description</span><span class="sxs-lookup"><span data-stu-id="22d61-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="8a5a2-108">Argument</span><span class="sxs-lookup"><span data-stu-id="8a5a2-108">Argument</span></span></p></th>
+<th><p><span data-ttu-id="8a5a2-109">Description</span><span class="sxs-lookup"><span data-stu-id="8a5a2-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="22d61-110"><strong>Nom</strong></span><span class="sxs-lookup"><span data-stu-id="22d61-110"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="22d61-111">Chaîne qui identifie le champ.</span><span class="sxs-lookup"><span data-stu-id="22d61-111">A string that identifies the field.</span></span></p></td>
+<td><p><span data-ttu-id="8a5a2-110"><strong>Name</strong></span><span class="sxs-lookup"><span data-stu-id="8a5a2-110"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="8a5a2-111">Chaîne qui identifie le champ.</span><span class="sxs-lookup"><span data-stu-id="8a5a2-111">A string that identifies the field.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="22d61-112"><strong>Valeur</strong></span><span class="sxs-lookup"><span data-stu-id="22d61-112"><strong>Value</strong></span></span></p></td>
-<td><p><span data-ttu-id="22d61-113">Expression qui spécifie la valeur à assigner au champ.</span><span class="sxs-lookup"><span data-stu-id="22d61-113">An expression that specifies the value to assign to the field.</span></span></p></td>
+<td><p><span data-ttu-id="8a5a2-112"><strong>Valeur</strong></span><span class="sxs-lookup"><span data-stu-id="8a5a2-112"><strong>Value</strong></span></span></p></td>
+<td><p><span data-ttu-id="8a5a2-113">Expression qui spécifie la valeur à affecter au champ.</span><span class="sxs-lookup"><span data-stu-id="8a5a2-113">An expression that specifies the value to assign to the field.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="22d61-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="22d61-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8a5a2-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="8a5a2-114">Remarks</span></span>
 
-<span data-ttu-id="22d61-115">L'action **DéfinirChamp** ne peut pas être utilisée en dehors d'un bloc de données **[CréerEnregistrement](createrecord-data-block.md)** ou **[ModifierEnregistrement](editrecord-data-block.md)**.</span><span class="sxs-lookup"><span data-stu-id="22d61-115">The **SetField** action cannot be used outside of an **[CreateRecord](createrecord-data-block.md)** or **[EditRecord](editrecord-data-block.md)** data block.</span></span>
+<span data-ttu-id="8a5a2-115">L'action **DéfinirChamp** ne peut pas être utilisée en dehors d'un bloc de données **[CréerEnregistrement](createrecord-data-block.md)** ou **[ModifierEnregistrement](editrecord-data-block.md)**.</span><span class="sxs-lookup"><span data-stu-id="8a5a2-115">The **SetField** action cannot be used outside of an **[CreateRecord](createrecord-data-block.md)** or **[EditRecord](editrecord-data-block.md)** data block.</span></span>
 

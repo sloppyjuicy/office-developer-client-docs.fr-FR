@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314447"
 ---
-# <a name="streamtypeenum"></a><span data-ttu-id="788ac-102">StreamTypeEnum</span><span class="sxs-lookup"><span data-stu-id="788ac-102">StreamTypeEnum</span></span>
+# <a name="streamtypeenum"></a><span data-ttu-id="82a3a-102">StreamTypeEnum</span><span class="sxs-lookup"><span data-stu-id="82a3a-102">StreamTypeEnum</span></span>
 
-<span data-ttu-id="788ac-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="788ac-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="82a3a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="82a3a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="788ac-104">Spécifie le type de données stockées dans un objet [Stream](stream-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="788ac-104">Specifies the type of data stored in a [Stream](stream-object-ado.md) object.</span></span>
+<span data-ttu-id="82a3a-104">Spécifie le type de données stockées dans un objet [Stream](stream-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="82a3a-104">Specifies the type of data stored in a [Stream](stream-object-ado.md) object.</span></span>
 
 <br/>
 
@@ -30,27 +30,27 @@ ms.locfileid: "32314447"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="788ac-105">Constante</span><span class="sxs-lookup"><span data-stu-id="788ac-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="788ac-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="788ac-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="788ac-107">Description</span><span class="sxs-lookup"><span data-stu-id="788ac-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="82a3a-105">Constante</span><span class="sxs-lookup"><span data-stu-id="82a3a-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="82a3a-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="82a3a-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="82a3a-107">Description</span><span class="sxs-lookup"><span data-stu-id="82a3a-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="788ac-108"><strong>adTypeBinary</strong></span><span class="sxs-lookup"><span data-stu-id="788ac-108"><strong>adTypeBinary</strong></span></span></p></td>
-<td><p><span data-ttu-id="788ac-109">0,1</span><span class="sxs-lookup"><span data-stu-id="788ac-109">1</span></span></p></td>
-<td><p><span data-ttu-id="788ac-110">Indique des données binaires.</span><span class="sxs-lookup"><span data-stu-id="788ac-110">Indicates binary data.</span></span></p></td>
+<td><p><span data-ttu-id="82a3a-108"><strong>adTypeBinary</strong></span><span class="sxs-lookup"><span data-stu-id="82a3a-108"><strong>adTypeBinary</strong></span></span></p></td>
+<td><p><span data-ttu-id="82a3a-109">1 </span><span class="sxs-lookup"><span data-stu-id="82a3a-109">1</span></span></p></td>
+<td><p><span data-ttu-id="82a3a-110">Indique des données binaires.</span><span class="sxs-lookup"><span data-stu-id="82a3a-110">Indicates binary data.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="788ac-111"><strong>adTypeText</strong></span><span class="sxs-lookup"><span data-stu-id="788ac-111"><strong>adTypeText</strong></span></span></p></td>
-<td><p><span data-ttu-id="788ac-112">n°2</span><span class="sxs-lookup"><span data-stu-id="788ac-112">2</span></span></p></td>
-<td><p><span data-ttu-id="788ac-p101">Par défaut. Indique des données texte, dans le jeu de caractères spécifié par <a href="charset-property-ado.md">Charset</a>.</span><span class="sxs-lookup"><span data-stu-id="788ac-p101">Default. Indicates text data, which is in the character set specified by <a href="charset-property-ado.md">Charset</a>.</span></span></p></td>
+<td><p><span data-ttu-id="82a3a-111"><strong>adTypeText</strong></span><span class="sxs-lookup"><span data-stu-id="82a3a-111"><strong>adTypeText</strong></span></span></p></td>
+<td><p><span data-ttu-id="82a3a-112">2 </span><span class="sxs-lookup"><span data-stu-id="82a3a-112">2</span></span></p></td>
+<td><p><span data-ttu-id="82a3a-p101">Par défaut. Indique des données texte, dans le jeu de caractères spécifié par <a href="charset-property-ado.md">Charset</a>.</span><span class="sxs-lookup"><span data-stu-id="82a3a-p101">Default. Indicates text data, which is in the character set specified by <a href="charset-property-ado.md">Charset</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="788ac-115">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="788ac-115">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="82a3a-115">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="82a3a-115">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="788ac-116">Ces constantes ne possèdent pas d'équivalent ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="788ac-116">These constants do not have ADO/WFC equivalents.</span></span>
+<span data-ttu-id="82a3a-116">Ces constantes ne possèdent pas d'équivalent ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="82a3a-116">These constants do not have ADO/WFC equivalents.</span></span>
 

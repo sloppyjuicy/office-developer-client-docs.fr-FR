@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314860"
 ---
-# <a name="supports-method-example-vj"></a><span data-ttu-id="ecad7-102">Supports, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ecad7-102">Supports method example (VJ++)</span></span>
+# <a name="supports-method-example-vj"></a><span data-ttu-id="e9d68-102">Supports, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="e9d68-102">Supports method example (VJ++)</span></span>
 
 
-<span data-ttu-id="ecad7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ecad7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e9d68-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9d68-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ecad7-p101">Cet exemple utilise la méthode [Supports](supports-method-ado.md) pour afficher les options prises en charge par un jeu d'enregistrements ouvert avec différents types de curseurs. La fonction DisplaySupport est nécessaire à l'exécution de cet exemple.</span><span class="sxs-lookup"><span data-stu-id="ecad7-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport function is required for this example to run.</span></span>
+<span data-ttu-id="e9d68-p101">Cet exemple utilise la méthode [Supports](supports-method-ado.md) pour afficher les options prises en charge par un jeu d'enregistrements ouvert avec différents types de curseurs. La fonction DisplaySupport est nécessaire à l'exécution de cet exemple.</span><span class="sxs-lookup"><span data-stu-id="e9d68-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport function is required for this example to run.</span></span>
 
 ```java 
  

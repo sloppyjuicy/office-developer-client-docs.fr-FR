@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314468"
 ---
-# <a name="supports-method-example-vb"></a><span data-ttu-id="a0496-102">Supports, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="a0496-102">Supports method example (VB)</span></span>
+# <a name="supports-method-example-vb"></a><span data-ttu-id="04c02-102">Supports, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="04c02-102">Supports method example (VB)</span></span>
 
 
-<span data-ttu-id="a0496-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0496-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="04c02-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="04c02-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a0496-p101">Cet exemple utilise la méthode [Supports](supports-method-ado.md) pour afficher les options prises en charge par un jeu d'enregistrements ouvert avec différents types de curseurs. La procédure DisplaySupport est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="a0496-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="04c02-p101">Cet exemple utilise la méthode [Supports](supports-method-ado.md) pour afficher les options prises en charge par un jeu d'enregistrements ouvert avec différents types de curseurs. La procédure DisplaySupport est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="04c02-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport procedure is required for this procedure to run.</span></span>
 
 ```vb 
  
