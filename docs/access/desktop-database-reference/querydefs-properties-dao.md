@@ -1,5 +1,5 @@
 ---
-title: QueryDefs, propriétés (DAO)
+title: Propriétés QueryDefs (DAO)
 TOCTitle: Properties
 ms:assetid: 06937998-6487-401e-a15c-ce3482223efb
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123567(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303443"
 ---
-# <a name="querydefs-properties-dao"></a><span data-ttu-id="83398-102">QueryDefs, propriétés (DAO)</span><span class="sxs-lookup"><span data-stu-id="83398-102">QueryDefs properties (DAO)</span></span>
+# <a name="querydefs-properties-dao"></a><span data-ttu-id="429d6-102">Propriétés QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="429d6-102">QueryDefs properties (DAO)</span></span>
 
-<span data-ttu-id="83398-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="83398-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="429d6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="429d6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="83398-104">QueryDefs. Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="83398-104">QueryDefs.Count property (DAO)</span></span>](querydefs-count-property-dao.md)
+- [<span data-ttu-id="429d6-104">QueryDefs.Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="429d6-104">QueryDefs.Count property (DAO)</span></span>](querydefs-count-property-dao.md)
 

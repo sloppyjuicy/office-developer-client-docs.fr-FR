@@ -1,5 +1,5 @@
 ---
-title: Référence de la collection procedures (ADOX)
+title: Procedures collection (ADOX) reference
 TOCTitle: Procedures collection (ADOX)
 ms:assetid: 1ba826de-1a50-4031-ae72-2770f3beb8dc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248956(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301343"
 ---
-# <a name="procedures-collection-adox-reference"></a><span data-ttu-id="a7285-102">Référence de la collection procedures (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a7285-102">Procedures collection (ADOX) reference</span></span>
+# <a name="procedures-collection-adox-reference"></a><span data-ttu-id="a87c0-102">Procedures collection (ADOX) reference</span><span class="sxs-lookup"><span data-stu-id="a87c0-102">Procedures collection (ADOX) reference</span></span>
 
-<span data-ttu-id="a7285-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a7285-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a87c0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a87c0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a7285-104">Procedures, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a7285-104">Procedures collection (ADOX)</span></span>](procedures-collection-adox.md)
-- [<span data-ttu-id="a7285-105">Procedures, collection-propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a7285-105">Procedures collection properties, methods, and events (ADOX)</span></span>](procedures-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="a87c0-104">Procedures, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a87c0-104">Procedures collection (ADOX)</span></span>](procedures-collection-adox.md)
+- [<span data-ttu-id="a87c0-105">Procedures collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a87c0-105">Procedures collection properties, methods, and events (ADOX)</span></span>](procedures-collection-properties-methods-and-events-adox.md)
 

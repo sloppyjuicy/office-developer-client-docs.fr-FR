@@ -1,5 +1,5 @@
 ---
-title: Propriété QueryDef.Name (DAO)
+title: QueryDef.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: f8064e5c-26ad-1f4e-c5d9-f244394cbefb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836936(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302855"
 ---
-# <a name="querydefname-property-dao"></a><span data-ttu-id="77331-102">Propriété QueryDef.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="77331-102">QueryDef.Name property (DAO)</span></span>
+# <a name="querydefname-property-dao"></a><span data-ttu-id="4b56e-102">QueryDef.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="4b56e-102">QueryDef.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="77331-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="77331-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4b56e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4b56e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="77331-104">Cette propriété renvoie ou définit le nom de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="77331-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="77331-105">Type **String** en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="77331-105">Read/write **String**.</span></span>
+<span data-ttu-id="4b56e-104">Cette propriété renvoie ou définit le nom de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="4b56e-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="4b56e-105">**String** en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="4b56e-105">Read/write **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="77331-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="77331-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4b56e-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4b56e-106">Syntax</span></span>
 
-<span data-ttu-id="77331-107">*expression* . Nom</span><span class="sxs-lookup"><span data-stu-id="77331-107">*expression* .Name</span></span>
+<span data-ttu-id="4b56e-107">*.* Nom</span><span class="sxs-lookup"><span data-stu-id="4b56e-107">*expression* .Name</span></span>
 
-<span data-ttu-id="77331-108">*expression* Variable qui représente un objet **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="77331-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="4b56e-108">*expression* Variable représentant un objet **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="4b56e-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="77331-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="77331-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4b56e-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="4b56e-109">Remarks</span></span>
 
-<span data-ttu-id="77331-110">La longueur maximale du nom d'un objet **QueryDef** ne peut dépasser 64 caractères.</span><span class="sxs-lookup"><span data-stu-id="77331-110">The maximum length for the name of a **QueryDef** object is 64 characters.</span></span>
+<span data-ttu-id="4b56e-110">La longueur maximale du nom d'un objet **QueryDef** ne peut dépasser 64 caractères.</span><span class="sxs-lookup"><span data-stu-id="4b56e-110">The maximum length for the name of a **QueryDef** object is 64 characters.</span></span>
 

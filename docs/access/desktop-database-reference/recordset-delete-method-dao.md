@@ -1,5 +1,5 @@
 ---
-title: Recordset. Delete, méthode (DAO)
+title: Recordset.Delete, méthode (DAO)
 TOCTitle: Delete Method
 ms:assetid: 310c0370-6f48-9e6b-ed1f-8d8133c52ed3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192282(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300545"
 ---
-# <a name="recordsetdelete-method-dao"></a><span data-ttu-id="a5b71-102">Recordset. Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="a5b71-102">Recordset.Delete method (DAO)</span></span>
+# <a name="recordsetdelete-method-dao"></a><span data-ttu-id="f97c9-102">Recordset.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="f97c9-102">Recordset.Delete method (DAO)</span></span>
 
 
-<span data-ttu-id="a5b71-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5b71-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f97c9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f97c9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a5b71-104">Non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="a5b71-104">Not supported for this object.</span></span>
+<span data-ttu-id="f97c9-104">Non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="f97c9-104">Not supported for this object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a5b71-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a5b71-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f97c9-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f97c9-105">Syntax</span></span>
 
-<span data-ttu-id="a5b71-106">*expression* . Supprimer</span><span class="sxs-lookup"><span data-stu-id="a5b71-106">*expression* .Delete</span></span>
+<span data-ttu-id="f97c9-106">*.* Supprimer</span><span class="sxs-lookup"><span data-stu-id="f97c9-106">*expression* .Delete</span></span>
 
-<span data-ttu-id="a5b71-107">*expression* Variable qui représente un objet **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="a5b71-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="f97c9-107">*expression* Variable qui représente un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="f97c9-107">*expression* A variable that represents a **Recordset** object.</span></span>
 

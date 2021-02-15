@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet de procédure (ADOX)
+title: Référence de l’objet Procedure (ADOX)
 TOCTitle: Procedure object (ADOX)
 ms:assetid: 79805348-61b7-4d3f-a076-c12db788ba97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249500(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301385"
 ---
-# <a name="procedure-object-adox-reference"></a><span data-ttu-id="f071c-102">Référence d'objet de procédure (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f071c-102">Procedure object (ADOX) reference</span></span>
+# <a name="procedure-object-adox-reference"></a><span data-ttu-id="a3084-102">Référence de l’objet Procedure (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a3084-102">Procedure object (ADOX) reference</span></span>
 
-<span data-ttu-id="f071c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f071c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a3084-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3084-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f071c-104">PROCEDURE, objet (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f071c-104">Procedure object (ADOX)</span></span>](procedure-object-adox.md)
-- [<span data-ttu-id="f071c-105">PROCEDURE, propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f071c-105">Procedure properties, methods, and events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="a3084-104">Procedure, objet (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a3084-104">Procedure object (ADOX)</span></span>](procedure-object-adox.md)
+- [<span data-ttu-id="a3084-105">Procedure properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a3084-105">Procedure properties, methods, and events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
 

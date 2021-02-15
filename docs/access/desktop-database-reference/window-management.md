@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302526"
 ---
-# <a name="window-management"></a><span data-ttu-id="520cb-102">Gestion de fenêtre</span><span class="sxs-lookup"><span data-stu-id="520cb-102">Window management</span></span>
+# <a name="window-management"></a><span data-ttu-id="12fa3-102">Gestion de fenêtre</span><span class="sxs-lookup"><span data-stu-id="12fa3-102">Window management</span></span>
 
-<span data-ttu-id="520cb-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="520cb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="12fa3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12fa3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="520cb-104">CloseWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="520cb-104">CloseWindow macro action</span></span>](closewindow-macro-action.md)
-- [<span data-ttu-id="520cb-105">MaximizeWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="520cb-105">MaximizeWindow macro action</span></span>](maximizewindow-macro-action.md)
-- [<span data-ttu-id="520cb-106">MinimizeWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="520cb-106">MinimizeWindow macro action</span></span>](minimizewindow-macro-action.md)
-- [<span data-ttu-id="520cb-107">MoveAndSizeWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="520cb-107">MoveAndSizeWindow macro action</span></span>](moveandsizewindow-macro-action.md)
-- [<span data-ttu-id="520cb-108">RestoreWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="520cb-108">RestoreWindow macro action</span></span>](restorewindow-macro-action.md)
+- [<span data-ttu-id="12fa3-104">CloseWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="12fa3-104">CloseWindow macro action</span></span>](closewindow-macro-action.md)
+- [<span data-ttu-id="12fa3-105">MaximizeWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="12fa3-105">MaximizeWindow macro action</span></span>](maximizewindow-macro-action.md)
+- [<span data-ttu-id="12fa3-106">MinimizeWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="12fa3-106">MinimizeWindow macro action</span></span>](minimizewindow-macro-action.md)
+- [<span data-ttu-id="12fa3-107">MoveAndSizeWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="12fa3-107">MoveAndSizeWindow macro action</span></span>](moveandsizewindow-macro-action.md)
+- [<span data-ttu-id="12fa3-108">RestoreWindow, action de macro</span><span class="sxs-lookup"><span data-stu-id="12fa3-108">RestoreWindow macro action</span></span>](restorewindow-macro-action.md)
 
 

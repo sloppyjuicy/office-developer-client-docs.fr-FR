@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302764"
 ---
-# <a name="views-delete-method-example-vb"></a><span data-ttu-id="686ae-102">Views Delete, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="686ae-102">Views Delete method example (VB)</span></span>
+# <a name="views-delete-method-example-vb"></a><span data-ttu-id="adce4-102">Views Delete, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="adce4-102">Views Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="686ae-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="686ae-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="adce4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="adce4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="686ae-104">Le code suivant montre comment utiliser la méthode [Delete](delete-method-adox-collections.md) pour supprimer une vue du catalogue.</span><span class="sxs-lookup"><span data-stu-id="686ae-104">The following code shows how to use the [Delete](delete-method-adox-collections.md) method to delete a view from the catalog.</span></span>
+<span data-ttu-id="adce4-104">Le code suivant montre comment utiliser la méthode [Delete](delete-method-adox-collections.md) pour supprimer une vue du catalogue.</span><span class="sxs-lookup"><span data-stu-id="adce4-104">The following code shows how to use the [Delete](delete-method-adox-collections.md) method to delete a view from the catalog.</span></span>
 
 ```vb 
  

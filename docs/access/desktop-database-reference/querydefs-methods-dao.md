@@ -1,5 +1,5 @@
 ---
-title: QueryDefs, méthodes (DAO)
+title: Méthodes QueryDefs (DAO)
 TOCTitle: Methods
 ms:assetid: 00c4003c-7d18-4c01-b5d3-78658bccfea3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123475(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303226"
 ---
-# <a name="querydefs-methods-dao"></a><span data-ttu-id="9046b-102">QueryDefs, méthodes (DAO)</span><span class="sxs-lookup"><span data-stu-id="9046b-102">QueryDefs methods (DAO)</span></span>
+# <a name="querydefs-methods-dao"></a><span data-ttu-id="a42f6-102">Méthodes QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a42f6-102">QueryDefs methods (DAO)</span></span>
 
-<span data-ttu-id="9046b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9046b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a42f6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a42f6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9046b-104">QueryDefs. Append, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="9046b-104">QueryDefs.Append method (DAO)</span></span>](querydefs-append-method-dao.md)
-- [<span data-ttu-id="9046b-105">QueryDefs. Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="9046b-105">QueryDefs.Delete method (DAO)</span></span>](querydefs-delete-method-dao.md)
-- [<span data-ttu-id="9046b-106">QueryDefs. Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="9046b-106">QueryDefs.Refresh method (DAO)</span></span>](querydefs-refresh-method-dao.md)
+- [<span data-ttu-id="a42f6-104">QueryDefs.Append, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="a42f6-104">QueryDefs.Append method (DAO)</span></span>](querydefs-append-method-dao.md)
+- [<span data-ttu-id="a42f6-105">QueryDefs.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="a42f6-105">QueryDefs.Delete method (DAO)</span></span>](querydefs-delete-method-dao.md)
+- [<span data-ttu-id="a42f6-106">QueryDefs.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="a42f6-106">QueryDefs.Refresh method (DAO)</span></span>](querydefs-refresh-method-dao.md)
 

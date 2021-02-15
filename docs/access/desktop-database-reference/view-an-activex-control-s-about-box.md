@@ -1,7 +1,7 @@
 ---
 title: Afficher la boîte de dialogue À propos d’un contrôle ActiveX
 TOCTitle: View an ActiveX control About box
-description: Procédure d'affichage de la boîte de
+description: Étapes pour afficher la zone À propos.
 ms:assetid: 72a855b4-dd1a-a531-6402-0321335d3bf5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195825(v=office.15)
 ms:contentKeyID: 48545612
@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305963"
 ---
-# <a name="view-an-activex-control-about-box"></a><span data-ttu-id="74147-103">Afficher la boîte de dialogue À propos d’un contrôle ActiveX</span><span class="sxs-lookup"><span data-stu-id="74147-103">View an ActiveX control About box</span></span>
+# <a name="view-an-activex-control-about-box"></a><span data-ttu-id="fb7ec-103">Afficher la boîte de dialogue À propos d’un contrôle ActiveX</span><span class="sxs-lookup"><span data-stu-id="fb7ec-103">View an ActiveX control About box</span></span>
 
-<span data-ttu-id="74147-104">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="74147-104">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fb7ec-104">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fb7ec-104">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="74147-105">Pour afficher une boîte de message à **propos** de l'affichage des informations de version et de copyright pour un contrôle ActiveX:</span><span class="sxs-lookup"><span data-stu-id="74147-105">To view an **About** box showing version and copyright information for an ActiveX control:</span></span>
+<span data-ttu-id="fb7ec-105">Pour afficher une zone **à** propos de l’affichage des informations de version et de copyright d’ActiveX contrôle :</span><span class="sxs-lookup"><span data-stu-id="fb7ec-105">To view an **About** box showing version and copyright information for an ActiveX control:</span></span>
 
-1. <span data-ttu-id="74147-106">Choisissez la zone de propriété **à propos** de dans la feuille des propriétés Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="74147-106">Choose the **About** property box in the Microsoft Access property sheet.</span></span>
+1. <span data-ttu-id="fb7ec-106">Sélectionnez la **zone à** propos de la propriété dans la feuille des propriétés Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="fb7ec-106">Choose the **About** property box in the Microsoft Access property sheet.</span></span>
 
-2. <span data-ttu-id="74147-107">Cliquez sur le bouton **générer** situé à droite de la zone de propriété.</span><span class="sxs-lookup"><span data-stu-id="74147-107">Choose the **Build** button to the right of the property box.</span></span>
+2. <span data-ttu-id="fb7ec-107">Choisissez le **bouton** Créer à droite de la zone de propriété.</span><span class="sxs-lookup"><span data-stu-id="fb7ec-107">Choose the **Build** button to the right of the property box.</span></span>
 

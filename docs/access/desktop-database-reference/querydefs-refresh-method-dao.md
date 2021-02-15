@@ -1,5 +1,5 @@
 ---
-title: QueryDefs. Refresh, méthode (DAO)
+title: QueryDefs.Refresh, méthode (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 4379a02a-cc92-7cc5-969d-7102b5356e88
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192942(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300930"
 ---
-# <a name="querydefsrefresh-method-dao"></a><span data-ttu-id="d83b2-102">QueryDefs. Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="d83b2-102">QueryDefs.Refresh method (DAO)</span></span>
+# <a name="querydefsrefresh-method-dao"></a><span data-ttu-id="2cd03-102">QueryDefs.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="2cd03-102">QueryDefs.Refresh method (DAO)</span></span>
 
 
-<span data-ttu-id="d83b2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d83b2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2cd03-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2cd03-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d83b2-104">Non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="d83b2-104">Not supported for this object.</span></span>
+<span data-ttu-id="2cd03-104">Non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="2cd03-104">Not supported for this object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d83b2-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d83b2-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2cd03-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2cd03-105">Syntax</span></span>
 
-<span data-ttu-id="d83b2-106">*expression* . Intervalle</span><span class="sxs-lookup"><span data-stu-id="d83b2-106">*expression* .Refresh</span></span>
+<span data-ttu-id="2cd03-106">*.* Actualiser</span><span class="sxs-lookup"><span data-stu-id="2cd03-106">*expression* .Refresh</span></span>
 
-<span data-ttu-id="d83b2-107">*expression* Variable qui représente un objet **querydefs** .</span><span class="sxs-lookup"><span data-stu-id="d83b2-107">*expression* A variable that represents a **QueryDefs** object.</span></span>
+<span data-ttu-id="2cd03-107">*expression* Variable qui représente un **objet QueryDefs.**</span><span class="sxs-lookup"><span data-stu-id="2cd03-107">*expression* A variable that represents a **QueryDefs** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d83b2-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="d83b2-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2cd03-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="2cd03-108">Remarks</span></span>
 
-<span data-ttu-id="d83b2-109">Vous ne pouvez pas utiliser la méthode **Refresh** avec des collections qui ne sont pas persistantes, comme les collections **Connections**, **Databases**, **Recordsets**, **Workspaces** et **QueryDefs** d'un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="d83b2-109">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
+<span data-ttu-id="2cd03-109">Vous ne pouvez pas utiliser la méthode **Refresh** avec des collections qui ne sont pas persistantes, comme les collections **Connections**, **Databases**, **Recordsets**, **Workspaces** et **QueryDefs** d'un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="2cd03-109">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
 

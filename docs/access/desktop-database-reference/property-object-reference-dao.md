@@ -1,5 +1,5 @@
 ---
-title: Référence de l'objet Property (DAO)
+title: Référence d’objet de propriété (DAO)
 TOCTitle: Property Object
 ms:assetid: f480f51c-5333-4a10-afcd-73713291c7d7
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180085(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303002"
 ---
-# <a name="property-object-reference-dao"></a><span data-ttu-id="2f517-102">Référence de l'objet Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="2f517-102">Property object reference (DAO)</span></span>
+# <a name="property-object-reference-dao"></a><span data-ttu-id="7f9df-102">Référence d’objet de propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="7f9df-102">Property object reference (DAO)</span></span>
 
-<span data-ttu-id="2f517-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f517-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f9df-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f9df-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="2f517-104">Objet Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="2f517-104">Property object (DAO)</span></span>](property-object-dao.md)
-- [<span data-ttu-id="2f517-105">Membres de propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="2f517-105">Property members (DAO)</span></span>](property-members-dao.md)
-- [<span data-ttu-id="2f517-106">Propriétés de propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="2f517-106">Property properties (DAO)</span></span>](property-properties-dao.md)
+- [<span data-ttu-id="7f9df-104">Property, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="7f9df-104">Property object (DAO)</span></span>](property-object-dao.md)
+- [<span data-ttu-id="7f9df-105">Property members (DAO)</span><span class="sxs-lookup"><span data-stu-id="7f9df-105">Property members (DAO)</span></span>](property-members-dao.md)
+- [<span data-ttu-id="7f9df-106">Property properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="7f9df-106">Property properties (DAO)</span></span>](property-properties-dao.md)
 

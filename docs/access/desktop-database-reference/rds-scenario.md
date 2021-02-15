@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300825"
 ---
-# <a name="rds-scenario"></a><span data-ttu-id="40a3e-102">Scénario RDS</span><span class="sxs-lookup"><span data-stu-id="40a3e-102">RDS scenario</span></span>
+# <a name="rds-scenario"></a><span data-ttu-id="7caf0-102">Scénario RDS</span><span class="sxs-lookup"><span data-stu-id="7caf0-102">RDS scenario</span></span>
 
-<span data-ttu-id="40a3e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="40a3e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7caf0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7caf0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="40a3e-104">Boutons de commande du Carnet d'adresses</span><span class="sxs-lookup"><span data-stu-id="40a3e-104">Address Book Command Buttons</span></span>](address-book-command-buttons.md)
-- [<span data-ttu-id="40a3e-105">Objet de liaison de données du Carnet d'adresses</span><span class="sxs-lookup"><span data-stu-id="40a3e-105">Address Book Data-Binding Object</span></span>](address-book-data-binding-object.md)
-- [<span data-ttu-id="40a3e-106">Address Book Navigation Buttons</span><span class="sxs-lookup"><span data-stu-id="40a3e-106">Address Book Navigation Buttons</span></span>](address-book-navigation-buttons.md)
-- [<span data-ttu-id="40a3e-107">Running the Address Book Sample Application</span><span class="sxs-lookup"><span data-stu-id="40a3e-107">Running the Address Book Sample Application</span></span>](running-the-address-book-sample-application.md)
-- [<span data-ttu-id="40a3e-108">Configuration système requise pour l’application Carnet d’adresses </span><span class="sxs-lookup"><span data-stu-id="40a3e-108">System Requirements for the Address Book Application</span></span>](system-requirements-for-the-address-book-application.md)
+- [<span data-ttu-id="7caf0-104">Boutons de commande du Carnet d'adresses</span><span class="sxs-lookup"><span data-stu-id="7caf0-104">Address Book Command Buttons</span></span>](address-book-command-buttons.md)
+- [<span data-ttu-id="7caf0-105">Objet de liaison de données du Carnet d'adresses</span><span class="sxs-lookup"><span data-stu-id="7caf0-105">Address Book Data-Binding Object</span></span>](address-book-data-binding-object.md)
+- [<span data-ttu-id="7caf0-106">Address Book Navigation Buttons</span><span class="sxs-lookup"><span data-stu-id="7caf0-106">Address Book Navigation Buttons</span></span>](address-book-navigation-buttons.md)
+- [<span data-ttu-id="7caf0-107">Running the Address Book Sample Application</span><span class="sxs-lookup"><span data-stu-id="7caf0-107">Running the Address Book Sample Application</span></span>](running-the-address-book-sample-application.md)
+- [<span data-ttu-id="7caf0-108">Configuration système requise pour l’application Carnet d’adresses </span><span class="sxs-lookup"><span data-stu-id="7caf0-108">System Requirements for the Address Book Application</span></span>](system-requirements-for-the-address-book-application.md)
 
 
