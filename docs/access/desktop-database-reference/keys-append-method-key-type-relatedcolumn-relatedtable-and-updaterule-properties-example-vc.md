@@ -1,5 +1,5 @@
 ---
-title: Keys Append, méthode, Key type, RelatedColumn, propriétés-exemple (VC + +)
+title: Keys Append, méthode - Exemple de propriétés Key Type, RelatedColumn (VC++)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290637"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="80111-102">Keys Append, méthode-exemple de propriétés Key type, RelatedColumn, RelatedTable et UpdateRule (VC + +)</span><span class="sxs-lookup"><span data-stu-id="80111-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="d118c-102">Keys Append, méthode - Exemple de propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule (VC++)</span><span class="sxs-lookup"><span data-stu-id="d118c-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="80111-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="80111-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d118c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d118c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="80111-p101">Le code suivant montre comment créer une clé étrangère. Il suppose l'existence de deux tables (Customers et Orders).</span><span class="sxs-lookup"><span data-stu-id="80111-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="d118c-p101">Le code suivant montre comment créer une clé étrangère. Il suppose l'existence de deux tables (Customers et Orders).</span><span class="sxs-lookup"><span data-stu-id="d118c-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  

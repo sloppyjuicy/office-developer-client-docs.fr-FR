@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291240"
 ---
-# <a name="internettimeout-property-rds"></a><span data-ttu-id="480bf-102">InternetTimeout, propriété (RDS)</span><span class="sxs-lookup"><span data-stu-id="480bf-102">InternetTimeout property (RDS)</span></span>
+# <a name="internettimeout-property-rds"></a><span data-ttu-id="3758b-102">InternetTimeout, propriété (RDS)</span><span class="sxs-lookup"><span data-stu-id="3758b-102">InternetTimeout property (RDS)</span></span>
 
 
-<span data-ttu-id="480bf-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="480bf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3758b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3758b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="480bf-104">Indique le nombre de millisecondes s'écoulant avant l'expiration d'une requête.</span><span class="sxs-lookup"><span data-stu-id="480bf-104">Indicates the number of milliseconds to wait before a request times out.</span></span>
+<span data-ttu-id="3758b-104">Indique le nombre de millisecondes s'écoulant avant l'expiration d'une requête.</span><span class="sxs-lookup"><span data-stu-id="3758b-104">Indicates the number of milliseconds to wait before a request times out.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="480bf-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="480bf-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="3758b-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="3758b-105">Settings and return values</span></span>
 
-<span data-ttu-id="480bf-106">Définit ou renvoie une valeur **Long** qui représente le nombre de millisecondes s'écoulant avant l'expiration d'une requête.</span><span class="sxs-lookup"><span data-stu-id="480bf-106">Sets or returns a **Long** value that represents the number of milliseconds before a request will time out.</span></span>
+<span data-ttu-id="3758b-106">Définit ou renvoie une valeur **Long** qui représente le nombre de millisecondes s'écoulant avant l'expiration d'une requête.</span><span class="sxs-lookup"><span data-stu-id="3758b-106">Sets or returns a **Long** value that represents the number of milliseconds before a request will time out.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="480bf-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="480bf-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3758b-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="3758b-107">Remarks</span></span>
 
-<span data-ttu-id="480bf-108">Cette propriété s'applique exclusivement aux requêtes envoyées avec les protocoles HTTP ou HTTPS.</span><span class="sxs-lookup"><span data-stu-id="480bf-108">This property applies only to requests sent with the HTTP or HTTPS protocols.</span></span>
+<span data-ttu-id="3758b-108">Cette propriété s'applique exclusivement aux requêtes envoyées avec les protocoles HTTP ou HTTPS.</span><span class="sxs-lookup"><span data-stu-id="3758b-108">This property applies only to requests sent with the HTTP or HTTPS protocols.</span></span>
 
-<span data-ttu-id="480bf-p101">Dans un environnement à trois niveaux, l'exécution des requêtes peut prendre plusieurs minutes. Utilisez cette propriété pour accorder du temps supplémentaire pour aux requêtes longues.</span><span class="sxs-lookup"><span data-stu-id="480bf-p101">Requests in a three-tier environment can take several minutes to execute. Use this property to specify additional time for long-running requests.</span></span>
+<span data-ttu-id="3758b-p101">Dans un environnement à trois niveaux, l'exécution des requêtes peut prendre plusieurs minutes. Utilisez cette propriété pour accorder du temps supplémentaire pour aux requêtes longues.</span><span class="sxs-lookup"><span data-stu-id="3758b-p101">Requests in a three-tier environment can take several minutes to execute. Use this property to specify additional time for long-running requests.</span></span>
 

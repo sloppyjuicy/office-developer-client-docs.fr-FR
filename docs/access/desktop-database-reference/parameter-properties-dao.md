@@ -1,5 +1,5 @@
 ---
-title: Propriétés des paramètres (DAO)
+title: Parameter properties (DAO)
 TOCTitle: Properties
 ms:assetid: 036746ac-c914-48ee-9a5c-f8597e0d4c58
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123518(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288041"
 ---
-# <a name="parameter-properties-dao"></a><span data-ttu-id="d5805-102">Propriétés des paramètres (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5805-102">Parameter properties (DAO)</span></span>
+# <a name="parameter-properties-dao"></a><span data-ttu-id="23da9-102">Parameter properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="23da9-102">Parameter properties (DAO)</span></span>
 
-<span data-ttu-id="d5805-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5805-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="23da9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23da9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d5805-104">Parameter. direction, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5805-104">Parameter.Direction property (DAO)</span></span>](parameter-direction-property-dao.md)
-- [<span data-ttu-id="d5805-105">Propriété Parameter.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5805-105">Parameter.Name property (DAO)</span></span>](parameter-name-property-dao.md)
-- [<span data-ttu-id="d5805-106">Parameter. Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5805-106">Parameter.Properties property (DAO)</span></span>](parameter-properties-property-dao.md)
-- [<span data-ttu-id="d5805-107">Parameter. type, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5805-107">Parameter.Type property (DAO)</span></span>](parameter-type-property-dao.md)
-- [<span data-ttu-id="d5805-108">Parameter. Value, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5805-108">Parameter.Value property (DAO)</span></span>](parameter-value-property-dao.md)
+- [<span data-ttu-id="23da9-104">Parameter.Direction, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="23da9-104">Parameter.Direction property (DAO)</span></span>](parameter-direction-property-dao.md)
+- [<span data-ttu-id="23da9-105">Parameter.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="23da9-105">Parameter.Name property (DAO)</span></span>](parameter-name-property-dao.md)
+- [<span data-ttu-id="23da9-106">Parameter.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="23da9-106">Parameter.Properties property (DAO)</span></span>](parameter-properties-property-dao.md)
+- [<span data-ttu-id="23da9-107">Parameter.Type, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="23da9-107">Parameter.Type property (DAO)</span></span>](parameter-type-property-dao.md)
+- [<span data-ttu-id="23da9-108">Parameter.Value, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="23da9-108">Parameter.Value property (DAO)</span></span>](parameter-value-property-dao.md)
 

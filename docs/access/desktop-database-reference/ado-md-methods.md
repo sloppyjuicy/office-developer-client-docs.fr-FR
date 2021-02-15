@@ -1,5 +1,5 @@
 ---
-title: Méthodes MD ADO (ActiveX Data Objects)
+title: ActiveX data objects (ADO) MD
 TOCTitle: ADO MD methods
 ms:assetid: 17fa36ab-3e0b-dcde-7d64-37921c322fb2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248929(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283330"
 ---
-# <a name="ado-md-methods"></a><span data-ttu-id="8ab5a-102">Méthodes ADO MD</span><span class="sxs-lookup"><span data-stu-id="8ab5a-102">ADO MD methods</span></span>
+# <a name="ado-md-methods"></a><span data-ttu-id="30f23-102">Méthodes ADO MD</span><span class="sxs-lookup"><span data-stu-id="30f23-102">ADO MD methods</span></span>
 
-<span data-ttu-id="8ab5a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8ab5a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="30f23-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="30f23-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -27,16 +27,16 @@ ms.locfileid: "32283330"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="8ab5a-104">Méthode</span><span class="sxs-lookup"><span data-stu-id="8ab5a-104">Method</span></span></th>
-<th><span data-ttu-id="8ab5a-105">Description</span><span class="sxs-lookup"><span data-stu-id="8ab5a-105">Description</span></span></th>
+<th><span data-ttu-id="30f23-104">Méthode</span><span class="sxs-lookup"><span data-stu-id="30f23-104">Method</span></span></th>
+<th><span data-ttu-id="30f23-105">Description</span><span class="sxs-lookup"><span data-stu-id="30f23-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8ab5a-106"><a href="close-method-ado-md.md">Close</a></span><span class="sxs-lookup"><span data-stu-id="8ab5a-106"><a href="close-method-ado-md.md">Close</a></span></span></p></td>
-<td><p><span data-ttu-id="8ab5a-107">Ferme un ensemble de cellules ouvert.</span><span class="sxs-lookup"><span data-stu-id="8ab5a-107">Closes an open cellset.</span></span></p></td>
+<td><p><span data-ttu-id="30f23-106"><a href="close-method-ado-md.md">Close</a></span><span class="sxs-lookup"><span data-stu-id="30f23-106"><a href="close-method-ado-md.md">Close</a></span></span></p></td>
+<td><p><span data-ttu-id="30f23-107">Ferme un ensemble de cellules ouvert.</span><span class="sxs-lookup"><span data-stu-id="30f23-107">Closes an open cellset.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8ab5a-108"><a href="open-method-ado-md.md">Open</a></span><span class="sxs-lookup"><span data-stu-id="8ab5a-108"><a href="open-method-ado-md.md">Open</a></span></span></p></td>
-<td><p><span data-ttu-id="8ab5a-109">Récupère les résultats d'une requête multidimensionnelle et renvoie les résultats dans un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="8ab5a-109">Retrieves the results of a multidimensional query and returns the results to a cellset.</span></span></p></td>
+<td><p><span data-ttu-id="30f23-108"><a href="open-method-ado-md.md">Open</a></span><span class="sxs-lookup"><span data-stu-id="30f23-108"><a href="open-method-ado-md.md">Open</a></span></span></p></td>
+<td><p><span data-ttu-id="30f23-109">Récupère les résultats d'une requête multidimensionnelle et renvoie les résultats dans un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="30f23-109">Retrieves the results of a multidimensional query and returns the results to a cellset.</span></span></p></td>
 </tr>
 </tbody>
 </table>

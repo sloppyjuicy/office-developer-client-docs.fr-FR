@@ -14,17 +14,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288594"
 ---
-# <a name="navigating-through-the-data"></a><span data-ttu-id="c4947-102">Navigation dans les données</span><span class="sxs-lookup"><span data-stu-id="c4947-102">Navigating through the data</span></span>
+# <a name="navigating-through-the-data"></a><span data-ttu-id="b9975-102">Navigation dans les données</span><span class="sxs-lookup"><span data-stu-id="b9975-102">Navigating through the data</span></span>
 
-<span data-ttu-id="c4947-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4947-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9975-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9975-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c4947-104">À présent que vous avez exécuté une commande sur la source de données et déterminé que le jeu de résultats contient des données, vous pouvez parcourir les résultats à l'aide des méthodes de navigation et des propriétés fournies par l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="c4947-104">Now that you have executed a command against the data source and determined that the result set contains data, you can move through the results by using the navigation methods and properties provided by the **Recordset** object.</span></span> 
+<span data-ttu-id="b9975-104">À présent que vous avez exécuté une commande sur la source de données et déterminé que le jeu de résultats contient des données, vous pouvez parcourir les résultats à l'aide des méthodes de navigation et des propriétés fournies par l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="b9975-104">Now that you have executed a command against the data source and determined that the result set contains data, you can move through the results by using the navigation methods and properties provided by the **Recordset** object.</span></span> 
 
-<span data-ttu-id="c4947-105">Les rubriques suivantes décrivent le mode d'utilisation de ces méthodes et propriétés sur cet exemple de **Recordset**:</span><span class="sxs-lookup"><span data-stu-id="c4947-105">The following topics describe how to use these methods and properties on the sample **Recordset**:</span></span>
+<span data-ttu-id="b9975-105">Les rubriques suivantes décrivent le mode d'utilisation de ces méthodes et propriétés sur cet exemple de **Recordset**:</span><span class="sxs-lookup"><span data-stu-id="b9975-105">The following topics describe how to use these methods and properties on the sample **Recordset**:</span></span>
 
-- [<span data-ttu-id="c4947-106">Accès à un enregistrement</span><span class="sxs-lookup"><span data-stu-id="c4947-106">Jumping to a record</span></span>](jumping-to-a-record.md)
-- [<span data-ttu-id="c4947-107">Autres méthodes pour se déplacer dans un recordset</span><span class="sxs-lookup"><span data-stu-id="c4947-107">More ways to move in a Recordset</span></span>](more-ways-to-move-in-a-recordset.md)
-- [<span data-ttu-id="c4947-108">Utilisation de signets</span><span class="sxs-lookup"><span data-stu-id="c4947-108">Using bookmarks</span></span>](using-bookmarks.md)
-- [<span data-ttu-id="c4947-109">Utilisation de pages</span><span class="sxs-lookup"><span data-stu-id="c4947-109">Using pages</span></span>](using-pages.md)
-- [<span data-ttu-id="c4947-110">Positionnement du recordset</span><span class="sxs-lookup"><span data-stu-id="c4947-110">Recordset positioning</span></span>](recordset-positioning.md)
+- [<span data-ttu-id="b9975-106">Accès à un enregistrement</span><span class="sxs-lookup"><span data-stu-id="b9975-106">Jumping to a record</span></span>](jumping-to-a-record.md)
+- [<span data-ttu-id="b9975-107">Autres méthodes pour se déplacer dans un recordset</span><span class="sxs-lookup"><span data-stu-id="b9975-107">More ways to move in a Recordset</span></span>](more-ways-to-move-in-a-recordset.md)
+- [<span data-ttu-id="b9975-108">Utilisation de signets</span><span class="sxs-lookup"><span data-stu-id="b9975-108">Using bookmarks</span></span>](using-bookmarks.md)
+- [<span data-ttu-id="b9975-109">Utilisation de pages</span><span class="sxs-lookup"><span data-stu-id="b9975-109">Using pages</span></span>](using-pages.md)
+- [<span data-ttu-id="b9975-110">Positionnement du recordset</span><span class="sxs-lookup"><span data-stu-id="b9975-110">Recordset positioning</span></span>](recordset-positioning.md)
 

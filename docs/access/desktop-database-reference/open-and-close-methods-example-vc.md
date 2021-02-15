@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288412"
 ---
-# <a name="open-and-close-methods-example-vc"></a><span data-ttu-id="69ca4-102">Open et Close, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="69ca4-102">Open and Close methods example (VC++)</span></span>
+# <a name="open-and-close-methods-example-vc"></a><span data-ttu-id="5e619-102">Open et Close, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="5e619-102">Open and Close methods example (VC++)</span></span>
 
 
-<span data-ttu-id="69ca4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69ca4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5e619-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e619-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="69ca4-104">Cet exemple utilise les méthodes **Open** et [Close](close-method-ado.md) sur des objets [Recordset](recordset-object-ado.md) et [Connection](connection-object-ado.md) qui ont été ouverts.</span><span class="sxs-lookup"><span data-stu-id="69ca4-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
+<span data-ttu-id="5e619-104">Cet exemple utilise les méthodes **Open** et [Close](close-method-ado.md) sur des objets [Recordset](recordset-object-ado.md) et [Connection](connection-object-ado.md) qui ont été ouverts.</span><span class="sxs-lookup"><span data-stu-id="5e619-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
 
 ```cpp 
  
@@ -219,7 +219,7 @@ void PrintComError(_com_error &e)
 // EndOpenCpp 
 ```
 
-<span data-ttu-id="69ca4-105">**OpenX. h**</span><span class="sxs-lookup"><span data-stu-id="69ca4-105">**OpenX.h**</span></span>
+<span data-ttu-id="5e619-105">**OpenX.h**</span><span class="sxs-lookup"><span data-stu-id="5e619-105">**OpenX.h**</span></span>
 
 ```cpp 
  

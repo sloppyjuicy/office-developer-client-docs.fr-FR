@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287971"
 ---
-# <a name="parameterdirectionenum"></a><span data-ttu-id="23f2a-102">ParameterDirectionEnum</span><span class="sxs-lookup"><span data-stu-id="23f2a-102">ParameterDirectionEnum</span></span>
+# <a name="parameterdirectionenum"></a><span data-ttu-id="4b852-102">ParameterDirectionEnum</span><span class="sxs-lookup"><span data-stu-id="4b852-102">ParameterDirectionEnum</span></span>
 
 
-<span data-ttu-id="23f2a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23f2a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4b852-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4b852-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="23f2a-104">Précise si le [paramètre](parameter-object-ado.md) représente un paramètre de saisie, de sortie, les deux à la fois, ou la valeur renvoyée par une procédure stockée.</span><span class="sxs-lookup"><span data-stu-id="23f2a-104">Specifies whether the [Parameter](parameter-object-ado.md) represents an input parameter, an output parameter, both an input and an output parameter, or the return value from a stored procedure.</span></span>
+<span data-ttu-id="4b852-104">Précise si le [paramètre](parameter-object-ado.md) représente un paramètre de saisie, de sortie, les deux à la fois, ou la valeur renvoyée par une procédure stockée.</span><span class="sxs-lookup"><span data-stu-id="4b852-104">Specifies whether the [Parameter](parameter-object-ado.md) represents an input parameter, an output parameter, both an input and an output parameter, or the return value from a stored procedure.</span></span>
 
 <table>
 <colgroup>
@@ -29,44 +29,44 @@ ms.locfileid: "32287971"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="23f2a-105">Constante</span><span class="sxs-lookup"><span data-stu-id="23f2a-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="23f2a-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="23f2a-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="23f2a-107">Description</span><span class="sxs-lookup"><span data-stu-id="23f2a-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="4b852-105">Constante</span><span class="sxs-lookup"><span data-stu-id="4b852-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="4b852-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="4b852-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="4b852-107">Description</span><span class="sxs-lookup"><span data-stu-id="4b852-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="23f2a-108"><strong>adParamInput</strong></span><span class="sxs-lookup"><span data-stu-id="23f2a-108"><strong>adParamInput</strong></span></span></p></td>
-<td><p><span data-ttu-id="23f2a-109">0,1</span><span class="sxs-lookup"><span data-stu-id="23f2a-109">1</span></span></p></td>
-<td><p><span data-ttu-id="23f2a-p101">Par défaut. Indique que le paramètre est un paramètre de saisie.</span><span class="sxs-lookup"><span data-stu-id="23f2a-p101">Default. Indicates that the parameter represents an input parameter.</span></span></p></td>
+<td><p><span data-ttu-id="4b852-108"><strong>adParamInput</strong></span><span class="sxs-lookup"><span data-stu-id="4b852-108"><strong>adParamInput</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b852-109">1 </span><span class="sxs-lookup"><span data-stu-id="4b852-109">1</span></span></p></td>
+<td><p><span data-ttu-id="4b852-p101">Par défaut. Indique que le paramètre est un paramètre de saisie.</span><span class="sxs-lookup"><span data-stu-id="4b852-p101">Default. Indicates that the parameter represents an input parameter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23f2a-112"><strong>adParamInputOutput</strong></span><span class="sxs-lookup"><span data-stu-id="23f2a-112"><strong>adParamInputOutput</strong></span></span></p></td>
-<td><p><span data-ttu-id="23f2a-113">3</span><span class="sxs-lookup"><span data-stu-id="23f2a-113">3</span></span></p></td>
-<td><p><span data-ttu-id="23f2a-114">Indique que le paramètre est un paramètre de saisie et de sortie.</span><span class="sxs-lookup"><span data-stu-id="23f2a-114">Indicates that the parameter represents both an input and output parameter.</span></span></p></td>
+<td><p><span data-ttu-id="4b852-112"><strong>adParamInputOutput</strong></span><span class="sxs-lookup"><span data-stu-id="4b852-112"><strong>adParamInputOutput</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b852-113">3 </span><span class="sxs-lookup"><span data-stu-id="4b852-113">3</span></span></p></td>
+<td><p><span data-ttu-id="4b852-114">Indique que le paramètre est un paramètre de saisie et de sortie.</span><span class="sxs-lookup"><span data-stu-id="4b852-114">Indicates that the parameter represents both an input and output parameter.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23f2a-115"><strong>adParamOutput</strong></span><span class="sxs-lookup"><span data-stu-id="23f2a-115"><strong>adParamOutput</strong></span></span></p></td>
-<td><p><span data-ttu-id="23f2a-116">n°2</span><span class="sxs-lookup"><span data-stu-id="23f2a-116">2</span></span></p></td>
-<td><p><span data-ttu-id="23f2a-117">Indique que le paramètre représente un paramètre de sortie.</span><span class="sxs-lookup"><span data-stu-id="23f2a-117">Indicates that the parameter represents an output parameter.</span></span></p></td>
+<td><p><span data-ttu-id="4b852-115"><strong>adParamOutput</strong></span><span class="sxs-lookup"><span data-stu-id="4b852-115"><strong>adParamOutput</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b852-116">2 </span><span class="sxs-lookup"><span data-stu-id="4b852-116">2</span></span></p></td>
+<td><p><span data-ttu-id="4b852-117">Indique que le paramètre représente un paramètre de sortie.</span><span class="sxs-lookup"><span data-stu-id="4b852-117">Indicates that the parameter represents an output parameter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23f2a-118"><strong>adParamReturnValue</strong></span><span class="sxs-lookup"><span data-stu-id="23f2a-118"><strong>adParamReturnValue</strong></span></span></p></td>
-<td><p><span data-ttu-id="23f2a-119">4</span><span class="sxs-lookup"><span data-stu-id="23f2a-119">4</span></span></p></td>
-<td><p><span data-ttu-id="23f2a-120">Indique que le paramètre représente une valeur de retour.</span><span class="sxs-lookup"><span data-stu-id="23f2a-120">Indicates that the parameter represents a return value.</span></span></p></td>
+<td><p><span data-ttu-id="4b852-118"><strong>adParamReturnValue</strong></span><span class="sxs-lookup"><span data-stu-id="4b852-118"><strong>adParamReturnValue</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b852-119">4 </span><span class="sxs-lookup"><span data-stu-id="4b852-119">4</span></span></p></td>
+<td><p><span data-ttu-id="4b852-120">Indique que le paramètre représente une valeur de retour.</span><span class="sxs-lookup"><span data-stu-id="4b852-120">Indicates that the parameter represents a return value.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23f2a-121"><strong>adParamUnknown</strong></span><span class="sxs-lookup"><span data-stu-id="23f2a-121"><strong>adParamUnknown</strong></span></span></p></td>
-<td><p><span data-ttu-id="23f2a-122">0</span><span class="sxs-lookup"><span data-stu-id="23f2a-122">0</span></span></p></td>
-<td><p><span data-ttu-id="23f2a-123">Indique que la direction du paramètre est inconnue.</span><span class="sxs-lookup"><span data-stu-id="23f2a-123">Indicates that the parameter direction is unknown.</span></span></p></td>
+<td><p><span data-ttu-id="4b852-121"><strong>adParamUnknown</strong></span><span class="sxs-lookup"><span data-stu-id="4b852-121"><strong>adParamUnknown</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b852-122">0</span><span class="sxs-lookup"><span data-stu-id="4b852-122">0</span></span></p></td>
+<td><p><span data-ttu-id="4b852-123">Indique que la direction du paramètre est inconnue.</span><span class="sxs-lookup"><span data-stu-id="4b852-123">Indicates that the parameter direction is unknown.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="23f2a-124">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="23f2a-124">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="4b852-124">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="4b852-124">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="23f2a-125">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="23f2a-125">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="4b852-125">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="4b852-125">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -74,24 +74,24 @@ ms.locfileid: "32287971"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="23f2a-126">Constante</span><span class="sxs-lookup"><span data-stu-id="23f2a-126">Constant</span></span></p></th>
+<th><p><span data-ttu-id="4b852-126">Constante</span><span class="sxs-lookup"><span data-stu-id="4b852-126">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="23f2a-127">AdoEnums. ParameterDirection. INPUT</span><span class="sxs-lookup"><span data-stu-id="23f2a-127">AdoEnums.ParameterDirection.INPUT</span></span></p></td>
+<td><p><span data-ttu-id="4b852-127">AdoEnums.ParameterDirection.INPUT</span><span class="sxs-lookup"><span data-stu-id="4b852-127">AdoEnums.ParameterDirection.INPUT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23f2a-128">AdoEnums. ParameterDirection. INPUTOUTPUT</span><span class="sxs-lookup"><span data-stu-id="23f2a-128">AdoEnums.ParameterDirection.INPUTOUTPUT</span></span></p></td>
+<td><p><span data-ttu-id="4b852-128">AdoEnums.ParameterDirection.INPUTOUTPUT</span><span class="sxs-lookup"><span data-stu-id="4b852-128">AdoEnums.ParameterDirection.INPUTOUTPUT</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23f2a-129">AdoEnums. ParameterDirection. OUTPUT</span><span class="sxs-lookup"><span data-stu-id="23f2a-129">AdoEnums.ParameterDirection.OUTPUT</span></span></p></td>
+<td><p><span data-ttu-id="4b852-129">AdoEnums.ParameterDirection.OUTPUT</span><span class="sxs-lookup"><span data-stu-id="4b852-129">AdoEnums.ParameterDirection.OUTPUT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23f2a-130">AdoEnums. ParameterDirection. RETURNVALUE</span><span class="sxs-lookup"><span data-stu-id="23f2a-130">AdoEnums.ParameterDirection.RETURNVALUE</span></span></p></td>
+<td><p><span data-ttu-id="4b852-130">AdoEnums.ParameterDirection.RETURNVALUE</span><span class="sxs-lookup"><span data-stu-id="4b852-130">AdoEnums.ParameterDirection.RETURNVALUE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23f2a-131">AdoEnums. ParameterDirection. unKNOWn</span><span class="sxs-lookup"><span data-stu-id="23f2a-131">AdoEnums.ParameterDirection.UNKNOWN</span></span></p></td>
+<td><p><span data-ttu-id="4b852-131">AdoEnums.ParameterDirection.UNKNOWN</span><span class="sxs-lookup"><span data-stu-id="4b852-131">AdoEnums.ParameterDirection.UNKNOWN</span></span></p></td>
 </tr>
 </tbody>
 </table>

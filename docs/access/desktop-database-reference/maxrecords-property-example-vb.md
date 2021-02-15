@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289713"
 ---
-# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="e90eb-102">MaxRecords, propriété – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="e90eb-102">MaxRecords property example (VB)</span></span>
+# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="61ca3-102">MaxRecords, propriété – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="61ca3-102">MaxRecords property example (VB)</span></span>
 
 
-<span data-ttu-id="e90eb-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e90eb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="61ca3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="61ca3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e90eb-104">Cet exemple utilise la propriété [MaxRecords](maxrecords-property-ado.md) pour ouvrir un [Recordset](recordset-object-ado.md) contenant les 10 titres les plus coûteux de la table ***Titles***.</span><span class="sxs-lookup"><span data-stu-id="e90eb-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="61ca3-104">Cet exemple utilise la propriété [MaxRecords](maxrecords-property-ado.md) pour ouvrir un [Recordset](recordset-object-ado.md) contenant les 10 titres les plus coûteux de la table ***Titles***.</span><span class="sxs-lookup"><span data-stu-id="61ca3-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```vb 
  

@@ -14,31 +14,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290792"
 ---
-# <a name="item-property-ado"></a><span data-ttu-id="054a3-102">Item, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="054a3-102">Item property (ADO)</span></span>
+# <a name="item-property-ado"></a><span data-ttu-id="ff64f-102">Item, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="ff64f-102">Item property (ADO)</span></span>
 
-<span data-ttu-id="054a3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="054a3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ff64f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ff64f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="054a3-104">Indique membre spécifique d'une collection, par son nom ou son nombre ordinal.</span><span class="sxs-lookup"><span data-stu-id="054a3-104">Indicates a specific member of a collection, by name or ordinal number.</span></span>
+<span data-ttu-id="ff64f-104">Indique membre spécifique d'une collection, par son nom ou son nombre ordinal.</span><span class="sxs-lookup"><span data-stu-id="ff64f-104">Indicates a specific member of a collection, by name or ordinal number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="054a3-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="054a3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ff64f-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ff64f-105">Syntax</span></span>
 
-<span data-ttu-id="054a3-106">Définir la*collection*d'*objets* = . Item (index)</span><span class="sxs-lookup"><span data-stu-id="054a3-106">Set*object* = *collection*.Item ( Index )</span></span>
+<span data-ttu-id="ff64f-106">Définir la collection  =  *d’objets*. Item ( Index )</span><span class="sxs-lookup"><span data-stu-id="ff64f-106">Set *object* = *collection*.Item ( Index )</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="054a3-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="054a3-107">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ff64f-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="ff64f-107">Return value</span></span>
 
-<span data-ttu-id="054a3-108">Renvoie une référence à un objet.</span><span class="sxs-lookup"><span data-stu-id="054a3-108">Returns an object reference.</span></span>
+<span data-ttu-id="ff64f-108">Renvoie une référence à un objet.</span><span class="sxs-lookup"><span data-stu-id="ff64f-108">Returns an object reference.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="054a3-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="054a3-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ff64f-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="ff64f-109">Parameters</span></span>
 
-|<span data-ttu-id="054a3-110">Parameter</span><span class="sxs-lookup"><span data-stu-id="054a3-110">Parameter</span></span>|<span data-ttu-id="054a3-111">Description</span><span class="sxs-lookup"><span data-stu-id="054a3-111">Description</span></span>|
+|<span data-ttu-id="ff64f-110">Paramètre</span><span class="sxs-lookup"><span data-stu-id="ff64f-110">Parameter</span></span>|<span data-ttu-id="ff64f-111">Description</span><span class="sxs-lookup"><span data-stu-id="ff64f-111">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="054a3-112">*Index*</span><span class="sxs-lookup"><span data-stu-id="054a3-112">*Index*</span></span> |<span data-ttu-id="054a3-113">Une expression **Variant** qui correspond soit au nom, soit au nombre ordinal d'un objet dans une collection.</span><span class="sxs-lookup"><span data-stu-id="054a3-113">A **Variant** expression that evaluates either to the name or to the ordinal number of an object in a collection.</span></span>|
+|<span data-ttu-id="ff64f-112">*Index*</span><span class="sxs-lookup"><span data-stu-id="ff64f-112">*Index*</span></span> |<span data-ttu-id="ff64f-113">Une expression **Variant** qui correspond soit au nom, soit au nombre ordinal d'un objet dans une collection.</span><span class="sxs-lookup"><span data-stu-id="ff64f-113">A **Variant** expression that evaluates either to the name or to the ordinal number of an object in a collection.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="054a3-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="054a3-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ff64f-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="ff64f-114">Remarks</span></span>
 
-<span data-ttu-id="054a3-p101">Utilisez la propriété **Item** pour renvoyer un objet spécifique dans une collection. Si **Item** ne parvient pas à trouver un objet dans la collection correspondant à l'argument *Index*, une erreur est générée. Si la collection ne prend pas en charge les objets nommés, utilisez des nombres ordinaux comme références.</span><span class="sxs-lookup"><span data-stu-id="054a3-p101">Use the **Item** property to return a specific object in a collection. If **Item** cannot find an object in the collection corresponding to the *Index* argument, an error occurs. Also, some collections don't support named objects; for these collections, you must use ordinal number references.</span></span>
+<span data-ttu-id="ff64f-p101">Utilisez la propriété **Item** pour renvoyer un objet spécifique dans une collection. Si **Item** ne parvient pas à trouver un objet dans la collection correspondant à l'argument *Index*, une erreur est générée. Si la collection ne prend pas en charge les objets nommés, utilisez des nombres ordinaux comme références.</span><span class="sxs-lookup"><span data-stu-id="ff64f-p101">Use the **Item** property to return a specific object in a collection. If **Item** cannot find an object in the collection corresponding to the *Index* argument, an error occurs. Also, some collections don't support named objects; for these collections, you must use ordinal number references.</span></span>
 
-<span data-ttu-id="054a3-118">La propriété **Item** est la propriété par défaut de toutes les collections ; par conséquent, les formes syntaxiques suivantes sont interchangeables :</span><span class="sxs-lookup"><span data-stu-id="054a3-118">The **Item** property is the default property for all collections; therefore, the following syntax forms are interchangeable:</span></span>
+<span data-ttu-id="ff64f-118">La propriété **Item** est la propriété par défaut de toutes les collections ; par conséquent, les formes syntaxiques suivantes sont interchangeables :</span><span class="sxs-lookup"><span data-stu-id="ff64f-118">The **Item** property is the default property for all collections; therefore, the following syntax forms are interchangeable:</span></span>
 
 ```vb
     collection.Item (Index)

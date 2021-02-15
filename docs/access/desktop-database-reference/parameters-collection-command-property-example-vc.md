@@ -1,5 +1,5 @@
 ---
-title: ParaMeters, collection-exemple de propriété Command (VC + +)
+title: Parameters, collection - Exemple de propriété Command (VC++)
 TOCTitle: Parameters Collection, Command property example (VC++)
 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287908"
 ---
-# <a name="parameters-collection-command-property-example-vc"></a><span data-ttu-id="d341d-102">ParaMeters, collection-exemple de propriété Command (VC + +)</span><span class="sxs-lookup"><span data-stu-id="d341d-102">Parameters Collection, Command property example (VC++)</span></span>
+# <a name="parameters-collection-command-property-example-vc"></a><span data-ttu-id="0e54f-102">Parameters, collection - Exemple de propriété Command (VC++)</span><span class="sxs-lookup"><span data-stu-id="0e54f-102">Parameters Collection, Command property example (VC++)</span></span>
 
 
-<span data-ttu-id="d341d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d341d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0e54f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0e54f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d341d-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) avec l'objet [Command](command-object-ado.md) afin d'extraire les données de paramètres pour la procédure.</span><span class="sxs-lookup"><span data-stu-id="d341d-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
+<span data-ttu-id="0e54f-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) avec l'objet [Command](command-object-ado.md) afin d'extraire les données de paramètres pour la procédure.</span><span class="sxs-lookup"><span data-stu-id="0e54f-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
 
 ```cpp 
  

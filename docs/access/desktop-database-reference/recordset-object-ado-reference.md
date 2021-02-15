@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet Recordset (ADO)
+title: Recordset object (ADO) reference
 TOCTitle: Recordset object (ADO)
 ms:assetid: 276c0dcb-2327-4035-b604-ef181a1490cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249037(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32284524"
 ---
-# <a name="recordset-object-ado-reference"></a><span data-ttu-id="2c42e-102">Référence d'objet Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="2c42e-102">Recordset object (ADO) reference</span></span>
+# <a name="recordset-object-ado-reference"></a><span data-ttu-id="8534c-102">Recordset object (ADO) reference</span><span class="sxs-lookup"><span data-stu-id="8534c-102">Recordset object (ADO) reference</span></span>
 
-<span data-ttu-id="2c42e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c42e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8534c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8534c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="2c42e-104">Recordset, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="2c42e-104">Recordset object (ADO)</span></span>](recordset-object-ado.md)
-- [<span data-ttu-id="2c42e-105">Recordset, propriétés, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="2c42e-105">Recordset properties, methods, and events (ADO)</span></span>](recordset-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="8534c-104">Recordset, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="8534c-104">Recordset object (ADO)</span></span>](recordset-object-ado.md)
+- [<span data-ttu-id="8534c-105">Recordset properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="8534c-105">Recordset properties, methods, and events (ADO)</span></span>](recordset-properties-methods-and-events-ado.md)
 
