@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295974"
 ---
-# <a name="configuring-virtual-servers-on-iis"></a><span data-ttu-id="fe314-102">Configuration de serveurs virtuels sur IIS</span><span class="sxs-lookup"><span data-stu-id="fe314-102">Configuring virtual servers on IIS</span></span>
+# <a name="configuring-virtual-servers-on-iis"></a><span data-ttu-id="20075-102">Configuration de serveurs virtuels sur IIS</span><span class="sxs-lookup"><span data-stu-id="20075-102">Configuring virtual servers on IIS</span></span>
 
-<span data-ttu-id="fe314-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe314-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="20075-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20075-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fe314-104">Au moment de créer un serveur virtuel dans Internet Information Services 4.0, il convient d'exécuter les deux étapes supplémentaires suivantes pour permettre au serveur virtuel de fonctionner avec RDS :</span><span class="sxs-lookup"><span data-stu-id="fe314-104">When creating virtual servers in Internet Information Services 4.0, the following two extra steps are needed in order to configure the virtual server to work with RDS:</span></span>
+<span data-ttu-id="20075-104">Au moment de créer un serveur virtuel dans Internet Information Services 4.0, il convient d'exécuter les deux étapes supplémentaires suivantes pour permettre au serveur virtuel de fonctionner avec RDS :</span><span class="sxs-lookup"><span data-stu-id="20075-104">When creating virtual servers in Internet Information Services 4.0, the following two extra steps are needed in order to configure the virtual server to work with RDS:</span></span>
 
-1.  <span data-ttu-id="fe314-105">Lors de la configuration du serveur, activez la case à cocher « Autoriser l'accès en exécution ».</span><span class="sxs-lookup"><span data-stu-id="fe314-105">When setting up the server, check "Allow Execute Access."</span></span>
+1.  <span data-ttu-id="20075-105">Lors de la configuration du serveur, activez la case à cocher « Autoriser l'accès en exécution ».</span><span class="sxs-lookup"><span data-stu-id="20075-105">When setting up the server, check "Allow Execute Access."</span></span>
 
-2.  <span data-ttu-id="fe314-106">Déplacez msadcs. dll vers la *racine virtuelle*\\MSADC, où *vroot* est le répertoire de base de votre serveur virtuel.</span><span class="sxs-lookup"><span data-stu-id="fe314-106">Move msadcs.dll to *vroot*\\msadc, where *vroot* is the home directory of your virtual server.</span></span>
+2.  <span data-ttu-id="20075-106">Déplacez msadcs.dll vers *vroot* \\ msadc, où *vroot* est le répertoire d’accueil de votre serveur virtuel.</span><span class="sxs-lookup"><span data-stu-id="20075-106">Move msadcs.dll to *vroot*\\msadc, where *vroot* is the home directory of your virtual server.</span></span>
 

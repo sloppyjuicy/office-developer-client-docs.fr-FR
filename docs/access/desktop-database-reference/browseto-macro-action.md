@@ -18,15 +18,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296772"
 ---
-# <a name="browseto-macro-action"></a><span data-ttu-id="a9491-102">BrowseTo, action de macro</span><span class="sxs-lookup"><span data-stu-id="a9491-102">BrowseTo macro action</span></span>
+# <a name="browseto-macro-action"></a><span data-ttu-id="d9df2-102">BrowseTo, action de macro</span><span class="sxs-lookup"><span data-stu-id="d9df2-102">BrowseTo macro action</span></span>
 
-<span data-ttu-id="a9491-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9491-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d9df2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9df2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a9491-p101">Vous pouvez utiliser l'action **Parcourir** pour naviguer parmi des objets en place. Vous pouvez également modifier l'objet source d'un contrôle de sous-formulaire en spécifiant l'argument Chemin d'accès au contrôle de sous-formulaire. Utilisez **Parcourir** pour naviguer de formulaire1 à formulaire2 sans ouvrir de nouvelle fenêtre.</span><span class="sxs-lookup"><span data-stu-id="a9491-p101">You can use the **BrowseTo** action to navigate between objects in place. You can also change the source object of a subform control by specifying the Path to Subform Control argument. Use **BrowseTo** to navigate from form1 to form2 without opening up a new window.</span></span>
+<span data-ttu-id="d9df2-p101">Vous pouvez utiliser l'action **Parcourir** pour naviguer parmi des objets en place. Vous pouvez également modifier l'objet source d'un contrôle de sous-formulaire en spécifiant l'argument Chemin d'accès au contrôle de sous-formulaire. Utilisez **Parcourir** pour naviguer de formulaire1 à formulaire2 sans ouvrir de nouvelle fenêtre.</span><span class="sxs-lookup"><span data-stu-id="d9df2-p101">You can use the **BrowseTo** action to navigate between objects in place. You can also change the source object of a subform control by specifying the Path to Subform Control argument. Use **BrowseTo** to navigate from form1 to form2 without opening up a new window.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="a9491-107">Setting</span><span class="sxs-lookup"><span data-stu-id="a9491-107">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="d9df2-107">Setting</span><span class="sxs-lookup"><span data-stu-id="d9df2-107">Setting</span></span>
 
-<span data-ttu-id="a9491-108">L’action **Parcourir** utilise l’argument suivant :</span><span class="sxs-lookup"><span data-stu-id="a9491-108">The **BrowseTo** action has the following argument.</span></span>
+<span data-ttu-id="d9df2-108">L’action **Parcourir** utilise l’argument suivant :</span><span class="sxs-lookup"><span data-stu-id="d9df2-108">The **BrowseTo** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -35,54 +35,54 @@ ms.locfileid: "32296772"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a9491-109">Argument de l’action</span><span class="sxs-lookup"><span data-stu-id="a9491-109">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="a9491-110">Description</span><span class="sxs-lookup"><span data-stu-id="a9491-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="d9df2-109">Argument de l’action</span><span class="sxs-lookup"><span data-stu-id="d9df2-109">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="d9df2-110">Description</span><span class="sxs-lookup"><span data-stu-id="d9df2-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a9491-111">Type d’objet</span><span class="sxs-lookup"><span data-stu-id="a9491-111">Object Type</span></span></p></td>
-<td><p><span data-ttu-id="a9491-112">Type d’objet vers lequel naviguer.</span><span class="sxs-lookup"><span data-stu-id="a9491-112">The object type to which to browse.</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-111">Type d’objet</span><span class="sxs-lookup"><span data-stu-id="d9df2-111">Object Type</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-112">Type d’objet vers lequel naviguer.</span><span class="sxs-lookup"><span data-stu-id="d9df2-112">The object type to which to browse.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9491-113">Nom de l’objet</span><span class="sxs-lookup"><span data-stu-id="a9491-113">Object Name</span></span></p></td>
-<td><p><span data-ttu-id="a9491-114">Objet qui se charge à l’intérieur du contrôle de sous-formulaire référencé par l’argument Chemin d’accès au contrôle de sous-formulaire.</span><span class="sxs-lookup"><span data-stu-id="a9491-114">The object that loads inside the subform control referenced by the Path to Subform Control argument.</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-113">Nom de l’objet</span><span class="sxs-lookup"><span data-stu-id="d9df2-113">Object Name</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-114">Objet qui se charge à l’intérieur du contrôle de sous-formulaire référencé par l’argument Chemin d’accès au contrôle de sous-formulaire.</span><span class="sxs-lookup"><span data-stu-id="d9df2-114">The object that loads inside the subform control referenced by the Path to Subform Control argument.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a9491-115">Chemin d’accès au contrôle de sous-formulaire</span><span class="sxs-lookup"><span data-stu-id="a9491-115">Path to Subform Control</span></span></p></td>
-<td><p><span data-ttu-id="a9491-116">Si ce paramètre est spécifié, le chemin d'accès à partir du formulaire principal de l'application vers le contrôle de sous-formulaire cible qui charge l'objet spécifié par l'argument nom de l'objet.</span><span class="sxs-lookup"><span data-stu-id="a9491-116">If specified, the path from the main form of the application to the target subform control that loads the object specified by the Object Name argument.</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-115">Chemin d’accès au contrôle de sous-formulaire</span><span class="sxs-lookup"><span data-stu-id="d9df2-115">Path to Subform Control</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-116">S’il est spécifié, le chemin d’accès du formulaire principal de l’application au contrôle de sous-formulaire cible qui charge l’objet spécifié par l’argument Nom de l’objet.</span><span class="sxs-lookup"><span data-stu-id="d9df2-116">If specified, the path from the main form of the application to the target subform control that loads the object specified by the Object Name argument.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9491-117">Condition Where</span><span class="sxs-lookup"><span data-stu-id="a9491-117">Where Condition</span></span></p></td>
-<td><p><span data-ttu-id="a9491-118">Si spécifié, remplace la condition WHERE de la source d’enregistrement de l’objet.</span><span class="sxs-lookup"><span data-stu-id="a9491-118">If specified, replaces the Where condition of the object record source.</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-117">Condition Where</span><span class="sxs-lookup"><span data-stu-id="d9df2-117">Where Condition</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-118">Si spécifié, remplace la condition WHERE de la source d’enregistrement de l’objet.</span><span class="sxs-lookup"><span data-stu-id="d9df2-118">If specified, replaces the Where condition of the object record source.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a9491-119">Page</span><span class="sxs-lookup"><span data-stu-id="a9491-119">Page</span></span></p></td>
-<td><p><span data-ttu-id="a9491-120">Spécifié, définit la page du formulaire continu qui deviendra la page active.</span><span class="sxs-lookup"><span data-stu-id="a9491-120">If specified, sets the page of the continuous form that will be made the current page.</span></span> <span data-ttu-id="a9491-121">Cet argument est uniquement Web.</span><span class="sxs-lookup"><span data-stu-id="a9491-121">This argument is web only.</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-119">Page</span><span class="sxs-lookup"><span data-stu-id="d9df2-119">Page</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-120">Spécifié, définit la page du formulaire continu qui deviendra la page active.</span><span class="sxs-lookup"><span data-stu-id="d9df2-120">If specified, sets the page of the continuous form that will be made the current page.</span></span> <span data-ttu-id="d9df2-121">Cet argument est web uniquement.</span><span class="sxs-lookup"><span data-stu-id="d9df2-121">This argument is web only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9491-122">Mode Données</span><span class="sxs-lookup"><span data-stu-id="a9491-122">Data Mode</span></span></p></td>
-<td><p><span data-ttu-id="a9491-123">Si spécifié, il s’agit du mode de saisie des données du formulaire.</span><span class="sxs-lookup"><span data-stu-id="a9491-123">If specified, the data entry mode of the form.</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-122">Mode Données</span><span class="sxs-lookup"><span data-stu-id="d9df2-122">Data Mode</span></span></p></td>
+<td><p><span data-ttu-id="d9df2-123">Si spécifié, il s’agit du mode de saisie des données du formulaire.</span><span class="sxs-lookup"><span data-stu-id="d9df2-123">If specified, the data entry mode of the form.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="a9491-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="a9491-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d9df2-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="d9df2-124">Remarks</span></span>
 
-<span data-ttu-id="a9491-125">L'argument Chemin d'accès au contrôle de sous-formulaire doit être spécifié à l'aide de la syntaxe de l'exemple de code suivant :</span><span class="sxs-lookup"><span data-stu-id="a9491-125">The PathToSubFormControl argument must be specified using the syntax in the following code example:</span></span>
+<span data-ttu-id="d9df2-125">L'argument Chemin d'accès au contrôle de sous-formulaire doit être spécifié à l'aide de la syntaxe de l'exemple de code suivant :</span><span class="sxs-lookup"><span data-stu-id="d9df2-125">The PathToSubFormControl argument must be specified using the syntax in the following code example:</span></span>
 
 ```vb
     Main Form.SubForm Ctrl 1>Form 2.SubForm Ctrl 2>Form 3.SubFormCtrl3
 ```
 
-<span data-ttu-id="a9491-p103">Dans cet exemple, le Formulaire principal est le formulaire de niveau supérieur dans l'application cliente Access. L'argument Chemin d'accès au contrôle de sous-formulaire doit spécifier en alternance les noms des contrôles de sous-formulaire et formulaire menant du formulaire principal au contrôle de sous-formulaire qui est le conteneur de l'objet spécifié par l'argument Nom d'objet. Chaque contrôle de sous-formulaire spécifié doit être un contrôle sur le formulaire qui le précède. Le chemin d'accès doit se terminer par un contrôle de sous-formulaire.</span><span class="sxs-lookup"><span data-stu-id="a9491-p103">In this example, the Main Form is the top level form in the Access client application. The Path to Sub Form Control argument must alternately specify form and subform control names leading from the main form to the subform control that is the container of the object specified by the Object Name argument. Each subform control specified must be a control on the form that precedes it. The path must end with a subform control.</span></span>
+<span data-ttu-id="d9df2-p103">Dans cet exemple, le Formulaire principal est le formulaire de niveau supérieur dans l'application cliente Access. L'argument Chemin d'accès au contrôle de sous-formulaire doit spécifier en alternance les noms des contrôles de sous-formulaire et formulaire menant du formulaire principal au contrôle de sous-formulaire qui est le conteneur de l'objet spécifié par l'argument Nom d'objet. Chaque contrôle de sous-formulaire spécifié doit être un contrôle sur le formulaire qui le précède. Le chemin d'accès doit se terminer par un contrôle de sous-formulaire.</span><span class="sxs-lookup"><span data-stu-id="d9df2-p103">In this example, the Main Form is the top level form in the Access client application. The Path to Sub Form Control argument must alternately specify form and subform control names leading from the main form to the subform control that is the container of the object specified by the Object Name argument. Each subform control specified must be a control on the form that precedes it. The path must end with a subform control.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a9491-130">Exemple</span><span class="sxs-lookup"><span data-stu-id="a9491-130">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d9df2-130">Exemple</span><span class="sxs-lookup"><span data-stu-id="d9df2-130">Example</span></span>
 
-<span data-ttu-id="a9491-131">L'exemple suivant montre comment utiliser l'action BrowseTo pour ouvrir un État dans un contrôle de sous-formulaire ou un contrôle de navigation.</span><span class="sxs-lookup"><span data-stu-id="a9491-131">The following example shows how to use the BrowseTo action to open a report in a subform control or within a navigation control.</span></span>
+<span data-ttu-id="d9df2-131">L’exemple suivant montre comment utiliser l’action Parcourir pour ouvrir un état dans un contrôle de sous-forme ou dans un contrôle de navigation.</span><span class="sxs-lookup"><span data-stu-id="d9df2-131">The following example shows how to use the BrowseTo action to open a report in a subform control or within a navigation control.</span></span>
 
-<span data-ttu-id="a9491-132">**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="a9491-132">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="d9df2-132">**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="d9df2-132">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     OnError

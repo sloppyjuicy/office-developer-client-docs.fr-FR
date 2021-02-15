@@ -1,5 +1,5 @@
 ---
-title: Connection. transactions, propriété (DAO)
+title: Connection.Transactions, propriété (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 8bd72db7-68f6-6974-1ee6-a0a267ce2a94
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197326(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295778"
 ---
-# <a name="connectiontransactions-property-dao"></a><span data-ttu-id="a2bd6-102">Connection. transactions, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="a2bd6-102">Connection.Transactions property (DAO)</span></span>
+# <a name="connectiontransactions-property-dao"></a><span data-ttu-id="51289-102">Connection.Transactions, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="51289-102">Connection.Transactions property (DAO)</span></span>
 
 
-<span data-ttu-id="a2bd6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2bd6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="51289-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51289-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2bd6-104">Renvoie une valeur qui indique si un objet prend en charge les transactions.</span><span class="sxs-lookup"><span data-stu-id="a2bd6-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="a2bd6-105">**Boolean** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="a2bd6-105">Read-only **Boolean**.</span></span>
+<span data-ttu-id="51289-104">Renvoie une valeur qui indique si un objet prend en charge les transactions.</span><span class="sxs-lookup"><span data-stu-id="51289-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="51289-105">**Boolean** (en lecture seule).</span><span class="sxs-lookup"><span data-stu-id="51289-105">Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a2bd6-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a2bd6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="51289-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="51289-106">Syntax</span></span>
 
-<span data-ttu-id="a2bd6-107">*expression* . Transactions</span><span class="sxs-lookup"><span data-stu-id="a2bd6-107">*expression* .Transactions</span></span>
+<span data-ttu-id="51289-107">*.* Transactions</span><span class="sxs-lookup"><span data-stu-id="51289-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="a2bd6-108">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="a2bd6-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="51289-108">*expression* Variable qui représente un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="51289-108">*expression* A variable that represents a **Connection** object.</span></span>
 

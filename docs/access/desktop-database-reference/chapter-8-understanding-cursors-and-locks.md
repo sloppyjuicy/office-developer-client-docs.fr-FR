@@ -14,21 +14,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296415"
 ---
-# <a name="chapter-8-understanding-cursors-and-locks"></a><span data-ttu-id="25264-102">Chapitre 8 : Présentation des curseurs et des verrous</span><span class="sxs-lookup"><span data-stu-id="25264-102">Chapter 8: Understanding cursors and locks</span></span>
+# <a name="chapter-8-understanding-cursors-and-locks"></a><span data-ttu-id="baf66-102">Chapitre 8 : Présentation des curseurs et des verrous</span><span class="sxs-lookup"><span data-stu-id="baf66-102">Chapter 8: Understanding cursors and locks</span></span>
 
-<span data-ttu-id="25264-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25264-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="baf66-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="baf66-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="25264-p101">Il est important de comprendre le fonctionnement des curseurs pour sélectionner le type de curseur le plus efficace et le mieux adapté aux impératifs d'accès aux données d'une application. Une configuration du curseur inappropriée peut rendre l'accès aux données lent et laborieux.</span><span class="sxs-lookup"><span data-stu-id="25264-p101">It is important to understand how cursors operate so you can select the best and most efficient cursor type for an application's data-access requirements. A less-than-optimal cursor configuration can make data-access operations painfully slow.</span></span>
+<span data-ttu-id="baf66-p101">Il est important de comprendre le fonctionnement des curseurs pour sélectionner le type de curseur le plus efficace et le mieux adapté aux impératifs d'accès aux données d'une application. Une configuration du curseur inappropriée peut rendre l'accès aux données lent et laborieux.</span><span class="sxs-lookup"><span data-stu-id="baf66-p101">It is important to understand how cursors operate so you can select the best and most efficient cursor type for an application's data-access requirements. A less-than-optimal cursor configuration can make data-access operations painfully slow.</span></span>
 
-<span data-ttu-id="25264-106">De nombreuses fonctionnalités de l'objet **Recordset** ADO sont déterminées par le type et l'emplacement du curseur mais aussi par le type de verrou.</span><span class="sxs-lookup"><span data-stu-id="25264-106">Many capabilities of the ADO **Recordset** object are determined by the type and location of the cursor, as well as the lock type.</span></span>
+<span data-ttu-id="baf66-106">De nombreuses fonctionnalités de l'objet **Recordset** ADO sont déterminées par le type et l'emplacement du curseur mais aussi par le type de verrou.</span><span class="sxs-lookup"><span data-stu-id="baf66-106">Many capabilities of the ADO **Recordset** object are determined by the type and location of the cursor, as well as the lock type.</span></span>
 
-<span data-ttu-id="25264-107">Ce chapitre présente les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="25264-107">This chapter covers the following topics:</span></span>
+<span data-ttu-id="baf66-107">Ce chapitre présente les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="baf66-107">This chapter covers the following topics:</span></span>
 
-- [<span data-ttu-id="25264-108">Qu’est-ce qu’un curseur ?</span><span class="sxs-lookup"><span data-stu-id="25264-108">What is a cursor?</span></span>](what-is-a-cursor.md)
-- [<span data-ttu-id="25264-109">Importance de l'emplacement du curseur</span><span class="sxs-lookup"><span data-stu-id="25264-109">The significance of cursor location</span></span>](the-significance-of-cursor-location.md)
-- [<span data-ttu-id="25264-110">Service de curseur Microsoft pour OLE DB</span><span class="sxs-lookup"><span data-stu-id="25264-110">The Microsoft Cursor Service for OLE DB</span></span>](the-microsoft-cursor-service-for-ole-db.md)
-- [<span data-ttu-id="25264-111">Utilisation de CacheSize </span><span class="sxs-lookup"><span data-stu-id="25264-111">Using CacheSize</span></span>](using-cachesize.md)
-- [<span data-ttu-id="25264-112">Caractéristiques du curseur et du verrou</span><span class="sxs-lookup"><span data-stu-id="25264-112">Cursor and lock characteristics</span></span>](cursor-and-lock-characteristics.md)
-- [<span data-ttu-id="25264-113">Types de curseurs (ADO)</span><span class="sxs-lookup"><span data-stu-id="25264-113">Types of cursors (ADO)</span></span>](types-of-cursors.md)
-- [<span data-ttu-id="25264-114">Qu'est-ce qu'un verrou? ADO.net</span><span class="sxs-lookup"><span data-stu-id="25264-114">What is a lock? (ADO)</span></span>](what-is-a-lock.md)
+- [<span data-ttu-id="baf66-108">Qu’est-ce qu’un curseur ?</span><span class="sxs-lookup"><span data-stu-id="baf66-108">What is a cursor?</span></span>](what-is-a-cursor.md)
+- [<span data-ttu-id="baf66-109">Importance de l’emplacement du curseur</span><span class="sxs-lookup"><span data-stu-id="baf66-109">The significance of cursor location</span></span>](the-significance-of-cursor-location.md)
+- [<span data-ttu-id="baf66-110">Service de curseur Microsoft pour OLE DB</span><span class="sxs-lookup"><span data-stu-id="baf66-110">The Microsoft Cursor Service for OLE DB</span></span>](the-microsoft-cursor-service-for-ole-db.md)
+- [<span data-ttu-id="baf66-111">Utilisation de CacheSize </span><span class="sxs-lookup"><span data-stu-id="baf66-111">Using CacheSize</span></span>](using-cachesize.md)
+- [<span data-ttu-id="baf66-112">Caractéristiques du curseur et du verrou</span><span class="sxs-lookup"><span data-stu-id="baf66-112">Cursor and lock characteristics</span></span>](cursor-and-lock-characteristics.md)
+- [<span data-ttu-id="baf66-113">Types de curseurs (ADO)</span><span class="sxs-lookup"><span data-stu-id="baf66-113">Types of cursors (ADO)</span></span>](types-of-cursors.md)
+- [<span data-ttu-id="baf66-114">Qu’est-ce qu’un verrou ? (ADO)</span><span class="sxs-lookup"><span data-stu-id="baf66-114">What is a lock? (ADO)</span></span>](what-is-a-lock.md)
 

@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296282"
 ---
-# <a name="clustered-property-adox"></a><span data-ttu-id="76b18-102">Clustered, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="76b18-102">Clustered property (ADOX)</span></span>
+# <a name="clustered-property-adox"></a><span data-ttu-id="103f4-102">Clustered, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="103f4-102">Clustered property (ADOX)</span></span>
 
 
-<span data-ttu-id="76b18-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76b18-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="103f4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="103f4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="76b18-104">Indique s'il s'agit d'un index cluster.</span><span class="sxs-lookup"><span data-stu-id="76b18-104">Indicates whether the index is clustered.</span></span>
+<span data-ttu-id="103f4-104">Indique s'il s'agit d'un index cluster.</span><span class="sxs-lookup"><span data-stu-id="103f4-104">Indicates whether the index is clustered.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="76b18-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="76b18-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="103f4-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="103f4-105">Settings and return values</span></span>
 
-<span data-ttu-id="76b18-106">Définit et renvoie une valeur de type **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="76b18-106">Sets and returns a **Boolean** value.</span></span>
+<span data-ttu-id="103f4-106">Définit et renvoie une valeur de type **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="103f4-106">Sets and returns a **Boolean** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="76b18-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="76b18-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="103f4-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="103f4-107">Remarks</span></span>
 
-<span data-ttu-id="76b18-108">**False** est la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="76b18-108">The default value is **False**.</span></span>
+<span data-ttu-id="103f4-108">**False** est la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="103f4-108">The default value is **False**.</span></span>
 
-<span data-ttu-id="76b18-109">Cette propriété est en lecture seule pour des objets [Index](index-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="76b18-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="103f4-109">Cette propriété est en lecture seule pour des objets [Index](index-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="103f4-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
 

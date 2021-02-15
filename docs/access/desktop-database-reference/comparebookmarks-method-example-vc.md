@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296079"
 ---
-# <a name="comparebookmarks-method-example-vc"></a><span data-ttu-id="c1b85-102">CompareBookmarks, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="c1b85-102">CompareBookmarks method example (VC++)</span></span>
+# <a name="comparebookmarks-method-example-vc"></a><span data-ttu-id="98d1f-102">CompareBookmarks, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="98d1f-102">CompareBookmarks method example (VC++)</span></span>
 
 
-<span data-ttu-id="c1b85-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1b85-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="98d1f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="98d1f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c1b85-104">Cet exemple illustre le fonctionnement de la méthode [CompareBookmarks](comparebookmarks-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c1b85-104">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method.</span></span> <span data-ttu-id="c1b85-105">La valeur relative des signets est rarement requise sauf si un signet particulier présente une caractéristique spéciale.</span><span class="sxs-lookup"><span data-stu-id="c1b85-105">The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
+<span data-ttu-id="98d1f-104">Cet exemple illustre le fonctionnement de la méthode [CompareBookmarks](comparebookmarks-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="98d1f-104">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method.</span></span> <span data-ttu-id="98d1f-105">La valeur relative des signets est rarement requise sauf si un signet particulier présente une caractéristique spéciale.</span><span class="sxs-lookup"><span data-stu-id="98d1f-105">The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
 
-<span data-ttu-id="c1b85-106">Désignez une ligne aléatoire d’un objet [Recordset](recordset-object-ado.md) dérivé de la table ***Authors*** comme cible d’une recherche.</span><span class="sxs-lookup"><span data-stu-id="c1b85-106">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search.</span></span> <span data-ttu-id="c1b85-107">Affichez ensuite la position de chaque ligne par rapport à cette cible.</span><span class="sxs-lookup"><span data-stu-id="c1b85-107">Then display the position of each row relative to that target.</span></span>
+<span data-ttu-id="98d1f-106">Désignez une ligne aléatoire d’un objet [Recordset](recordset-object-ado.md) dérivé de la table ***Authors*** comme cible d’une recherche.</span><span class="sxs-lookup"><span data-stu-id="98d1f-106">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search.</span></span> <span data-ttu-id="98d1f-107">Affichez ensuite la position de chaque ligne par rapport à cette cible.</span><span class="sxs-lookup"><span data-stu-id="98d1f-107">Then display the position of each row relative to that target.</span></span>
 
 ```cpp 
  

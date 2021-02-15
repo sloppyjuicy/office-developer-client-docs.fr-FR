@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296926"
 ---
-# <a name="axes-collection-ado-md-reference"></a><span data-ttu-id="721c0-102">Axes, collection (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="721c0-102">Axes collection (ADO MD reference)</span></span>
+# <a name="axes-collection-ado-md-reference"></a><span data-ttu-id="d6e54-102">Axes, collection (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d6e54-102">Axes collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="721c0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="721c0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d6e54-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6e54-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="721c0-104">Axes, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="721c0-104">Axes collection (ADO MD)</span></span>](axes-collection-ado-md.md)
-- [<span data-ttu-id="721c0-105">Axes, collection-propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="721c0-105">Axes collection properties, methods, and events (ADO MD)</span></span>](axes-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="d6e54-104">Axes, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d6e54-104">Axes collection (ADO MD)</span></span>](axes-collection-ado-md.md)
+- [<span data-ttu-id="d6e54-105">Axes, collection - Propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d6e54-105">Axes collection properties, methods, and events (ADO MD)</span></span>](axes-collection-properties-methods-and-events-ado-md.md)
 

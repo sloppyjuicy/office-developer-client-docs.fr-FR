@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296681"
 ---
-# <a name="cancel-method-example-vc"></a><span data-ttu-id="a2323-102">Cancel, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="a2323-102">Cancel method example (VC++)</span></span>
+# <a name="cancel-method-example-vc"></a><span data-ttu-id="5d18d-102">Cancel, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="5d18d-102">Cancel method example (VC++)</span></span>
 
 
-<span data-ttu-id="a2323-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2323-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5d18d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d18d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2323-104">Cet exemple fait appel à la méthode [Cancel](cancel-method-ado.md) pour annuler une commande exécutée sur un objet [Connection](connection-object-ado.md) lorsque la connexion est occupée.</span><span class="sxs-lookup"><span data-stu-id="a2323-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="5d18d-104">Cet exemple fait appel à la méthode [Cancel](cancel-method-ado.md) pour annuler une commande exécutée sur un objet [Connection](connection-object-ado.md) lorsque la connexion est occupée.</span><span class="sxs-lookup"><span data-stu-id="5d18d-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```cpp 
  

@@ -1,5 +1,5 @@
 ---
-title: Connection. QueryDefs, propriété (DAO)
+title: Connection.QueryDefs, propriété (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: b7a8bee1-fd24-32c6-ccba-abf25b879c9e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822426(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295834"
 ---
-# <a name="connectionquerydefs-property-dao"></a><span data-ttu-id="93b06-102">Connection. QueryDefs, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="93b06-102">Connection.QueryDefs property (DAO)</span></span>
+# <a name="connectionquerydefs-property-dao"></a><span data-ttu-id="ddcfd-102">Connection.QueryDefs, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="ddcfd-102">Connection.QueryDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="93b06-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="93b06-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ddcfd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ddcfd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="93b06-104">Renvoie une collection **QueryDefs** qui contient tous les objets **QueryDef** de la connexion spécifiée.</span><span class="sxs-lookup"><span data-stu-id="93b06-104">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified connection.</span></span> <span data-ttu-id="93b06-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="93b06-105">Read-only.</span></span>
+<span data-ttu-id="ddcfd-104">Renvoie une collection **QueryDefs** qui contient tous les objets **QueryDef** de la connexion spécifiée.</span><span class="sxs-lookup"><span data-stu-id="ddcfd-104">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified connection.</span></span> <span data-ttu-id="ddcfd-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="ddcfd-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="93b06-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="93b06-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ddcfd-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ddcfd-106">Syntax</span></span>
 
-<span data-ttu-id="93b06-107">*expression* . Querydef</span><span class="sxs-lookup"><span data-stu-id="93b06-107">*expression* .QueryDefs</span></span>
+<span data-ttu-id="ddcfd-107">*.* QueryDefs</span><span class="sxs-lookup"><span data-stu-id="ddcfd-107">*expression* .QueryDefs</span></span>
 
-<span data-ttu-id="93b06-108">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="93b06-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="ddcfd-108">*expression* Variable qui représente un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="ddcfd-108">*expression* A variable that represents a **Connection** object.</span></span>
 

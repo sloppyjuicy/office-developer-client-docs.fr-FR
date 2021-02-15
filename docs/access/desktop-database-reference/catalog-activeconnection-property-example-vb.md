@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296618"
 ---
-# <a name="catalog-activeconnection-property-example-vb"></a><span data-ttu-id="c9579-102">Propriété ActiveConnection de l’objet Catalog – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="c9579-102">Catalog ActiveConnection property example (VB)</span></span>
+# <a name="catalog-activeconnection-property-example-vb"></a><span data-ttu-id="eccf5-102">Propriété ActiveConnection de l’objet Catalog – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="eccf5-102">Catalog ActiveConnection property example (VB)</span></span>
 
-<span data-ttu-id="c9579-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9579-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="eccf5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eccf5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c9579-p101">L'affectation d'une connexion ouverte et valide à la propriété [ActiveConnection](activeconnection-property-adox.md) « ouvre » le catalogue. À partir d'un catalogue ouvert, vous pouvez accéder aux objets de schéma contenus dans ce catalogue.</span><span class="sxs-lookup"><span data-stu-id="c9579-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="eccf5-p101">L'affectation d'une connexion ouverte et valide à la propriété [ActiveConnection](activeconnection-property-adox.md) « ouvre » le catalogue. À partir d'un catalogue ouvert, vous pouvez accéder aux objets de schéma contenus dans ce catalogue.</span><span class="sxs-lookup"><span data-stu-id="eccf5-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```vb 
  
@@ -57,7 +57,7 @@ ms.locfileid: "32296618"
     ' EndOpenConnectionVB 
 ```
 
-<span data-ttu-id="c9579-106">L'affectation d'une chaîne de connexion valide à la propriété **ActiveConnection** « ouvre » également le catalogue.</span><span class="sxs-lookup"><span data-stu-id="c9579-106">Setting the **ActiveConnection** property to a valid connection string also "opens" the catalog.</span></span>
+<span data-ttu-id="eccf5-106">L'affectation d'une chaîne de connexion valide à la propriété **ActiveConnection** « ouvre » également le catalogue.</span><span class="sxs-lookup"><span data-stu-id="eccf5-106">Setting the **ActiveConnection** property to a valid connection string also "opens" the catalog.</span></span>
 
 ```vb
     ' BeginOpenConnection2VB 

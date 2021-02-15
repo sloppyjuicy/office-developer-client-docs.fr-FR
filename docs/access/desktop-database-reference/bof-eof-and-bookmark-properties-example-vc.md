@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296814"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="1277c-102">BOF, EOF et Bookmark, propriétés – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="1277c-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="56aa3-102">BOF, EOF et Bookmark, propriétés – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="56aa3-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
 
 
-<span data-ttu-id="1277c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1277c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="56aa3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="56aa3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1277c-p101">La première fonction de cet exemple utilise les propriétés [BOF](bof-eof-properties-ado.md) et [EOF](bof-eof-properties-ado.md) pour afficher un message si l'utilisateur tente d'aller au-delà du premier ou du dernier enregistrement d'un objet [Recordset](recordset-object-ado.md). Elle utilise la propriété [Bookmark](bookmark-property-ado.md) pour permettre à l'utilisateur de marquer un enregistrement dans un objet **Recordset** et d'y revenir ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="1277c-p101">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="56aa3-p101">La première fonction de cet exemple utilise les propriétés [BOF](bof-eof-properties-ado.md) et [EOF](bof-eof-properties-ado.md) pour afficher un message si l'utilisateur tente d'aller au-delà du premier ou du dernier enregistrement d'un objet [Recordset](recordset-object-ado.md). Elle utilise la propriété [Bookmark](bookmark-property-ado.md) pour permettre à l'utilisateur de marquer un enregistrement dans un objet **Recordset** et d'y revenir ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="56aa3-p101">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
-<span data-ttu-id="1277c-106">La seconde fonction utilise la propriété Bookmark pour placer le **signet** d'un enregistrement sur deux de l'objet **Recordset** dans un tableau avant de filtrer l'objet Recordset à l'aide du tableau de signets.</span><span class="sxs-lookup"><span data-stu-id="1277c-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
+<span data-ttu-id="56aa3-106">La seconde fonction utilise la propriété Bookmark pour placer le **signet** d'un enregistrement sur deux de l'objet **Recordset** dans un tableau avant de filtrer l'objet Recordset à l'aide du tableau de signets.</span><span class="sxs-lookup"><span data-stu-id="56aa3-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
 
 ```cpp 
  
@@ -356,7 +356,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBOFCpp 
 ```
 
-<span data-ttu-id="1277c-107">**BofEofBookmark. h**</span><span class="sxs-lookup"><span data-stu-id="1277c-107">**BofEofBookmark.h**</span></span>
+<span data-ttu-id="56aa3-107">**BofEofBookmark.h**</span><span class="sxs-lookup"><span data-stu-id="56aa3-107">**BofEofBookmark.h**</span></span>
 
 ```cpp 
  

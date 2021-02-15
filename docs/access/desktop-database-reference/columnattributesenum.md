@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296233"
 ---
-# <a name="columnattributesenum"></a><span data-ttu-id="f24ef-102">ColumnAttributesEnum</span><span class="sxs-lookup"><span data-stu-id="f24ef-102">ColumnAttributesEnum</span></span>
+# <a name="columnattributesenum"></a><span data-ttu-id="ec32f-102">ColumnAttributesEnum</span><span class="sxs-lookup"><span data-stu-id="ec32f-102">ColumnAttributesEnum</span></span>
 
 
-<span data-ttu-id="f24ef-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f24ef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ec32f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec32f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f24ef-104">Spécifie les caractéristiques d’un objet [Column](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="f24ef-104">Specifies characteristics of a [Column](column-object-adox.md).</span></span>
+<span data-ttu-id="ec32f-104">Spécifie les caractéristiques d’un objet [Column](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="ec32f-104">Specifies characteristics of a [Column](column-object-adox.md).</span></span>
 
 <table>
 <colgroup>
@@ -29,21 +29,21 @@ ms.locfileid: "32296233"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f24ef-105">Constante</span><span class="sxs-lookup"><span data-stu-id="f24ef-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="f24ef-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="f24ef-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="f24ef-107">Description</span><span class="sxs-lookup"><span data-stu-id="f24ef-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="ec32f-105">Constante</span><span class="sxs-lookup"><span data-stu-id="ec32f-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="ec32f-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="ec32f-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="ec32f-107">Description</span><span class="sxs-lookup"><span data-stu-id="ec32f-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f24ef-108"><strong>adColFixed</strong></span><span class="sxs-lookup"><span data-stu-id="f24ef-108"><strong>adColFixed</strong></span></span></p></td>
-<td><p><span data-ttu-id="f24ef-109">0,1</span><span class="sxs-lookup"><span data-stu-id="f24ef-109">1</span></span></p></td>
-<td><p><span data-ttu-id="f24ef-110">La colonne a une longueur fixe.</span><span class="sxs-lookup"><span data-stu-id="f24ef-110">The column is a fixed length.</span></span></p></td>
+<td><p><span data-ttu-id="ec32f-108"><strong>adColFixed</strong></span><span class="sxs-lookup"><span data-stu-id="ec32f-108"><strong>adColFixed</strong></span></span></p></td>
+<td><p><span data-ttu-id="ec32f-109">1 </span><span class="sxs-lookup"><span data-stu-id="ec32f-109">1</span></span></p></td>
+<td><p><span data-ttu-id="ec32f-110">La colonne a une longueur fixe.</span><span class="sxs-lookup"><span data-stu-id="ec32f-110">The column is a fixed length.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f24ef-111"><strong>adColNullable</strong></span><span class="sxs-lookup"><span data-stu-id="f24ef-111"><strong>adColNullable</strong></span></span></p></td>
-<td><p><span data-ttu-id="f24ef-112">n°2</span><span class="sxs-lookup"><span data-stu-id="f24ef-112">2</span></span></p></td>
-<td><p><span data-ttu-id="f24ef-113">La colonne peut contenir des valeurs Null.</span><span class="sxs-lookup"><span data-stu-id="f24ef-113">The column may contain null values.</span></span></p></td>
+<td><p><span data-ttu-id="ec32f-111"><strong>adColNullable</strong></span><span class="sxs-lookup"><span data-stu-id="ec32f-111"><strong>adColNullable</strong></span></span></p></td>
+<td><p><span data-ttu-id="ec32f-112">2 </span><span class="sxs-lookup"><span data-stu-id="ec32f-112">2</span></span></p></td>
+<td><p><span data-ttu-id="ec32f-113">La colonne peut contenir des valeurs Null.</span><span class="sxs-lookup"><span data-stu-id="ec32f-113">The column may contain null values.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Container. documents, propriété (DAO)
+title: Container.Documents, propriété (DAO)
 TOCTitle: Documents Property
 ms:assetid: d2effd76-a300-c0dd-201a-86c9d04e3a62
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834785(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295659"
 ---
-# <a name="containerdocuments-property-dao"></a><span data-ttu-id="f7bf1-102">Container. documents, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7bf1-102">Container.Documents property (DAO)</span></span>
+# <a name="containerdocuments-property-dao"></a><span data-ttu-id="beba1-102">Container.Documents Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="beba1-102">Container.Documents property (DAO)</span></span>
 
 
-<span data-ttu-id="f7bf1-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7bf1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="beba1-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="beba1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f7bf1-104">Renvoie une collection **Documents** qui contient tous les documents enregistrés dans l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="f7bf1-104">Returns a **Documents** collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="f7bf1-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="f7bf1-105">Read-only.</span></span>
+<span data-ttu-id="beba1-104">Renvoie une collection **Documents** qui contient tous les documents enregistrés dans l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="beba1-104">Returns a **Documents** collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="beba1-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="beba1-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f7bf1-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f7bf1-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="beba1-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="beba1-106">Syntax</span></span>
 
-<span data-ttu-id="f7bf1-107">*expression* . Documents</span><span class="sxs-lookup"><span data-stu-id="f7bf1-107">*expression* .Documents</span></span>
+<span data-ttu-id="beba1-107">*.* Documents</span><span class="sxs-lookup"><span data-stu-id="beba1-107">*expression* .Documents</span></span>
 
-<span data-ttu-id="f7bf1-108">*expression* Variable qui représente un objet **Container** .</span><span class="sxs-lookup"><span data-stu-id="f7bf1-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="beba1-108">*expression* Variable qui représente un objet **Container.**</span><span class="sxs-lookup"><span data-stu-id="beba1-108">*expression* A variable that represents a **Container** object.</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété Container.Name (DAO)
+title: Container.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: c3f9fdc9-beed-a57b-ae95-5612db75b50c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823054(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295638"
 ---
-# <a name="containername-property-dao"></a><span data-ttu-id="f6a94-102">Propriété Container.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="f6a94-102">Container.Name property (DAO)</span></span>
+# <a name="containername-property-dao"></a><span data-ttu-id="1798b-102">Container.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="1798b-102">Container.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="f6a94-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6a94-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1798b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1798b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f6a94-104">Renvoie le nom de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="f6a94-104">Returns the name of the specified object.</span></span> <span data-ttu-id="f6a94-105">Type de données **String** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="f6a94-105">Read-only **String**.</span></span>
+<span data-ttu-id="1798b-104">Renvoie le nom de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="1798b-104">Returns the name of the specified object.</span></span> <span data-ttu-id="1798b-105">**String** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="1798b-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f6a94-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f6a94-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1798b-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="1798b-106">Syntax</span></span>
 
-<span data-ttu-id="f6a94-107">*expression* . Nom</span><span class="sxs-lookup"><span data-stu-id="f6a94-107">*expression* .Name</span></span>
+<span data-ttu-id="1798b-107">*.* Nom</span><span class="sxs-lookup"><span data-stu-id="1798b-107">*expression* .Name</span></span>
 
-<span data-ttu-id="f6a94-108">*expression* Variable qui représente un objet **Container** .</span><span class="sxs-lookup"><span data-stu-id="f6a94-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="1798b-108">*expression* Variable qui représente un objet **Container.**</span><span class="sxs-lookup"><span data-stu-id="1798b-108">*expression* A variable that represents a **Container** object.</span></span>
 
