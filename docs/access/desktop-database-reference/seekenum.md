@@ -38,27 +38,27 @@ Spécifie le type de [Seek](seek-method-ado.md) à exécuter.
 <tbody>
 <tr class="odd">
 <td><p>adSeekFirstEQ</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Recherche la première clé égale à <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="even">
 <td><p>adSeekLastEQ</p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Recherche la dernière clé égale à <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>adSeekAfterEQ</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Recherche soit une clé égale à <em>KeyValues</em>, soit l'emplacement théorique suivant.</p></td>
 </tr>
 <tr class="even">
 <td><p>adSeekAfter</p></td>
-<td><p>8bits</p></td>
+<td><p>8 </p></td>
 <td><p>Recherche une clé à l'emplacement théorique suivant de la correspondance avec <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>adSeekBeforeEQ</p></td>
-<td><p>Seiz</p></td>
+<td><p>16 </p></td>
 <td><p>Recherche une clé égale à <em>KeyValues</em>, ou l'emplacement théorique suivant de cette correspondance.</p></td>
 </tr>
 <tr class="even">
@@ -85,22 +85,22 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Seek. FIRSTEQ</p></td>
+<td><p>AdoEnums.Seek.FIRSTEQ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Seek. LASTEQ</p></td>
+<td><p>AdoEnums.Seek.LASTEQ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Seek. AFTEREQ</p></td>
+<td><p>AdoEnums.Seek.AFTEREQ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Seek. AFTER</p></td>
+<td><p>AdoEnums.Seek.AFTER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Seek. BEFOREEQ</p></td>
+<td><p>AdoEnums.Seek.BEFOREEQ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Seek. BEFORe</p></td>
+<td><p>AdoEnums.Seek.BEFORE</p></td>
 </tr>
 </tbody>
 </table>

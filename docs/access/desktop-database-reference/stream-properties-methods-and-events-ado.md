@@ -1,5 +1,5 @@
 ---
-title: Stream, méthodes et événements (ADO)
+title: Stream properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314426"
 ---
-# <a name="stream-properties-methods-and-events-ado"></a>Stream, méthodes et événements (ADO)
+# <a name="stream-properties-methods-and-events-ado"></a>Stream properties, methods, and events (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -25,7 +25,7 @@ ms.locfileid: "32314426"
 - [LineSeparator, propriété](lineseparator-property-ado.md)
 - [Mode, propriété](mode-property-ado.md)
 - [Position, propriété](position-property-ado.md)
-- [Size, propriété (objet Stream ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
+- [Size, propriété (flux ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [State, propriété](state-property-ado.md)
 - [Type, propriété (objet Stream ADO)](type-property-ado-stream.md)
 
@@ -48,7 +48,7 @@ ms.locfileid: "32314426"
 - [WriteText, méthode](writetext-method-ado.md)
 
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

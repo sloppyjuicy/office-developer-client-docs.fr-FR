@@ -1,5 +1,5 @@
 ---
-title: TableDef. Attributes, propriété (DAO)
+title: TableDef.Attributes, propriété (DAO)
 TOCTitle: Attributes Property
 ms:assetid: d01588c3-e94e-06bd-6568-974873411f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834701(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314391"
 ---
-# <a name="tabledefattributes-property-dao"></a>TableDef. Attributes, propriété (DAO)
+# <a name="tabledefattributes-property-dao"></a>TableDef.Attributes, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
 
-Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **TableDef**. Type de données **Long** en lecture/écriture.
+Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **TableDef**. **Long** (en lecture/écriture).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Ceux
+*expression* .Attributes
 
-*expression* Variable qui représente un objet **TableDef** .
+*expression* Variable représentant un objet **TableDef**.
 
 ## <a name="remarks"></a>Remarques
 

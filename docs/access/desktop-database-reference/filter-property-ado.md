@@ -36,24 +36,24 @@ Définit ou renvoie une valeur **Variant** qui peut l'une des valeurs suivantes 
 
 Utilisez la propriété **Filter** pour filtrer les enregistrements d’un objet **Recordset**. Le **Recordset** filtré devient le curseur actuel. Les autres propriétés qui renvoient des valeurs dépendant du curseur actuel sont affectées (par exemple [AbsolutePosition](absoluteposition-property-ado.md), [AbsolutePage](absolutepage-property-ado.md), [CpteEnregistrement](recordcount-property-ado.md) et [ComptePage](pagecount-property-ado.md)). Cela est dû au fait que l’attribution d’une valeur spécifique à la propriété **Filter** déplace l’enregistrement actuel et le définit comme le premier enregistrement satisfaisant la nouvelle valeur.
 
-La chaîne de critères est composée de clauses de type *NomChamp-opérateur-valeur* (par exemple, « LastName = 'Smith' »). Vous pouvez créer des clauses composées en concaténant des clauses individuelles avec **and** (par exemple, "LastName = 'Smith’et FirstName = 'John'") **ou (par** exemple, "). Vous pouvez créer des clauses composées en concaténant des clauses individuelles avec **and** (par exemple, "LastName = 'Smith’et FirstName = 'John'") ou **ou** (par exemple, "LastName = 'Smith’ou LastName = 'Jones'"). Lorsque vous utilisez des chaînes de critères, gardez les points suivants à l’esprit :
+La chaîne de critères est composé de clauses au formulaire *FieldName-Operator-Value* (par exemple, « LastName = ' Smith »). Vous pouvez créer des clauses composées en concatenant des clauses individuelles avec **AND** (par exemple, « LastName = 'Smith' AND FirstName = 'John' ») ou **OR** (par exemple, « ). Vous pouvez créer des clauses composées en concatenant des clauses individuelles avec **AND** (par exemple, « LastName = 'Smith' AND FirstName = 'John' ») ou **OR** (par exemple, « LastName = 'Smith' OR LastName = 'Jones' »). Lorsque vous utilisez des chaînes de critères, gardez les points suivants à l’esprit :
 
   - *NomChamp* doit être un nom de champ valide du **Recordset**. Si le nom de champ contient des espaces, vous devez le mettre entre crochets.
 
-  - L' *opérateur* doit être l’un des suivants : \<, \> , \<=, \> =, \<\> , = ou **Like**.
+  - *L’opérateur* doit être l’un des suivants \<, \> : , \<=, \> =, , = ou \<\> **LIKE**.
 
-  - *Value* est la valeur avec laquelle comparer les valeurs des champs (par exemple, 'Smith', \# 8/24/95 \# , 12,345 ou $50,00). Utilisez des guillemets simples avec des chaînes et des signes dièse ( \# ) avec des dates. Pour les chiffres, vous pouvez utiliser des virgules, des signes dollar et des symboles mathématiques. Si l’*Operateur* est **LIKE**, la *Valeur* peut contenir des caractères génériques. Uniquement l’astérisque ( \* ) et le signe de pourcentage (%) les caractères génériques sont autorisés et ils doivent être le dernier caractère de la chaîne. La *Valeur* ne peut pas être nulle.
+  - *La* valeur est la valeur à laquelle vous comparerez les valeurs de champ (par exemple, « Smith » \# 8/24/95, \# 12,345 ou 50,00 $). Utilisez des guillemets simples avec des chaînes et des signes de livre \# () avec des dates. Pour les chiffres, vous pouvez utiliser des virgules, des signes dollar et des symboles mathématiques. Si l’*Operateur* est **LIKE**, la *Valeur* peut contenir des caractères génériques. Uniquement l’astérisque ( \* ) et le signe pourcentage (%) les caractères wild cards sont autorisés et doivent être le dernier caractère de la chaîne. La *Valeur* ne peut pas être nulle.
 
     > [!NOTE]
     > [!REMARQUE] Pour insérer des guillemets simples (') dans la valeur Value du filtre, utilisez deux guillemets simples pour en représenter un. Par exemple, pour créer un filtre O'Malley, la chaîne de critères doit être « col1 = 'O''Malley' ». Pour insérer des guillemets simples au début et à la fin de la valeur du filtre, placez un signe dièse (#) devant et derrière la chaîne. Par exemple, pour filtrer la valeur '1', la chaîne de critères doit apparaître ainsi « col1 = #'1'# ».
 
--   Il n'y a aucune priorité entre **AND** et **OR**. Les clauses peuvent être regroupées entre parenthèses. Toutefois, vous ne pouvez pas regrouper des clauses jointes par un **ou** , puis joindre le groupe à une autre clause avec un **and**, comme dans l’extrait de code suivant :  
+-   Il n'y a aucune priorité entre **AND** et **OR**. Les clauses peuvent être regroupées entre parenthèses. Toutefois, vous ne pouvez pas grouper des clauses jointes par un **ou,** puis joindre le groupe à une autre clause avec **un AND,** comme dans l’extrait de code suivant :  
  `(LastName = 'Smith' OR LastName = 'Jones') AND FirstName = 'John'`  
   
 -   Construisez plutôt ce filtre de la façon suivante :  
  `(LastName = 'Smith' AND FirstName = 'John') OR (LastName = 'Jones' AND FirstName = 'John')`  
 
-  - Dans une clause **Like** , vous pouvez utiliser un caractère générique au début et à la fin de la chaîne (par exemple, LastName like' \* mit \* ') ou uniquement à la fin de la chaîne (par exemple LastName like’Smit \* ').
+  - Dans une clause **LIKE,** vous pouvez utiliser un caractère générique au début et à la fin du modèle (par exemple, LastName Like ' mit '), ou uniquement à la fin du modèle \* \* (par exemple, LastName Like 'Smit \* ').
 
 Les constantes de filtre facilitent la résolution des conflits d'enregistrement ponctuels lors des mises à jour par lot en vous permettant d'afficher, par exemple, uniquement les enregistrements concernés par le dernier appel de la méthode [UpdateBatch](updatebatch-method-ado.md).
 
@@ -65,7 +65,7 @@ Lorsque la propriété **Filter** est définie, la position de l'enregistrement 
 
 Pour plus d'explications sur les valeurs de signets à partir desquelles vous pourrez construire un tableau utilisable avec la propriété [Filter](bookmark-property-ado.md), voir la propriété **Bookmark**.
 
-Seuls les **filtres** sous forme de chaînes de critères (par exemple, OrderDate \> ' 12/31/1999 ') affectent le contenu d’un **jeu d’enregistrements** persistant. Les **filtres** créés avec un tableau de **signets** ou en utilisant une valeur provenant de **FilterGroupEnum** ne modifient pas le contenu du jeu d'enregistrements persistant. Ces règles s'appliquent aux **jeux d'enregistrements** créés avec des curseurs côté client ou côté serveur.
+**Seuls** les filtres sous la forme de chaînes de critères (par exemple, OrderDate \> '31/12/1999') affectent le contenu d’un **recordset persistant.** Les **filtres** créés avec un tableau de **signets** ou en utilisant une valeur provenant de **FilterGroupEnum** ne modifient pas le contenu du jeu d'enregistrements persistant. Ces règles s'appliquent aux **jeux d'enregistrements** créés avec des curseurs côté client ou côté serveur.
 
 > [!NOTE]
 > [!REMARQUE] Lorsque vous appliquez l'indicateur **adFilterPendingRecords** à un **jeu d'enregistrements** filtré et modifié lors d'une mise à jour par lot, le **jeu d'enregistrements** résultant est vide si le filtrage portait sur le champ clé d'une table à clé unique et si la modification a été apportée sur les valeurs de ce champ clé. Le **jeu d'enregistrements** résultant n'est pas vide si l'une des affirmations suivantes est vraie :
@@ -103,7 +103,7 @@ Le tableau suivant résume les effets d' **adFilterPendingRecords** dans différ
 <td><p>Clé unique</p></td>
 <td><p>+</p></td>
 <td><p>-</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clés multiples</p></td>

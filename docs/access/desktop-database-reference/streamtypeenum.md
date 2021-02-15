@@ -38,12 +38,12 @@ Spécifie le type de données stockées dans un objet [Stream](stream-object-ado
 <tbody>
 <tr class="odd">
 <td><p><strong>adTypeBinary</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Indique des données binaires.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adTypeText</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Par défaut. Indique des données texte, dans le jeu de caractères spécifié par <a href="charset-property-ado.md">Charset</a>.</p></td>
 </tr>
 </tbody>

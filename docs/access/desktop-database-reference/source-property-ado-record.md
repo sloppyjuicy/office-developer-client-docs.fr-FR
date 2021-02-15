@@ -38,6 +38,6 @@ Si la propriété **ActiveConnection** est elle aussi définie, la propriété *
 La propriété **Source** est accessible en lecture/écriture lorsque l'objet **Record** est fermé et en lecture seule lorsque l'objet **Record** est ouvert.
 
 > [!NOTE]
-> [!REMARQUE] Les URL construites sur le schéma http invoquent automatiquement le [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
+> [!REMARQUE] Les URL construites sur le schéma http invoquent automatiquement le [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [URL absolues et relatives.](absolute-and-relative-urls.md)
 
 

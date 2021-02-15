@@ -23,13 +23,13 @@ Pour configurer l'application exemple Carnet d'adresses, la configuration logici
 
 **Configuration logicielle requise**
 
-La configuration logicielle requise pour l'ordinateur serveur pour l'exécution de cette application Web inclut:
+Les logiciels serveur requis pour l’exécution de cette application web sont les suivants :
 
-  - Microsoft Windows NT Server 4,0, Service Pack 3 ou version ultérieure, ou serveur Microsoft Windows 2000.
+  - Microsoft Windows NT Server 4.0, avec Service Pack 3 ou ultérieur, ou Microsoft Windows 2000 Server.
 
   - Microsoft Internet Information Services (IIS) 3.0 ou ultérieur avec Active Server Pages
 
-La configuration logicielle requise de l'ordinateur client pour exécuter cette application Web inclut:
+Les logiciels de l’ordinateur client requis pour l’exécution de cette application web sont les suivants :
 
   - Microsoft Internet Explorer 4.0 ou ultérieur
 
@@ -39,7 +39,7 @@ La configuration logicielle requise de l'ordinateur client pour exécuter cette 
 
 Pour exécuter cet exemple, vous devez disposer des éléments suivants :
 
-  - Un serveur de base de données Microsoft SQL Server version 6,5 ou version ultérieure opérationnel.
+  - Un serveur Microsoft SQL Server base de données version 6.5 ou ultérieure.
 
   - des privilèges suffisants pour créer la base de données et la remplir des données exemples ;
 

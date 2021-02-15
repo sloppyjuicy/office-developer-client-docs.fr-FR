@@ -1,5 +1,5 @@
 ---
-title: Remodelage (référence de base de données de bureau Access)
+title: Reshaping (référence de base de données de bureau Access)
 TOCTitle: Reshaping
 ms:assetid: 89c6a0d6-3bf4-36ae-26ec-d4e60f920490
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)
@@ -36,9 +36,9 @@ rs2.Open "SHAPE {select * from Employees} " & _
 . . . 
 ```
 
-La deuxième fonction consiste à activer l'accès non hiérarchisé aux objets Recordset **** enfants existants, à l'aide de `"SHAPE <recordset reshape name>"`la syntaxe.
+La deuxième fonction consiste à activer l’accès non chapitre aux objets **Recordset** enfants existants, à l’aide de la syntaxe `"SHAPE <recordset reshape name>"` .
 
 > [!NOTE]
-> [!REMARQUE] Vous ne pouvez pas ajouter de colonnes à un objet **Recordset** existant, ni modifier la mise en forme d'un objet **Recordset** paramétré ou des objets **Recordset** spécifiés dans une clause COMPUTE intermédiaire, ni exécuter des opérations d'agrégation sur un objet **Recordset** descendant de l'objet **Recordset** dont la mise en forme a été modifiée. Le **jeu d'enregistrements** en cours de remodelage et la commande nouvelle forme doivent utiliser le même objet de[connexion](connection-object-ado.md) * *.
+> [!REMARQUE] Vous ne pouvez pas ajouter de colonnes à un objet **Recordset** existant, ni modifier la mise en forme d'un objet **Recordset** paramétré ou des objets **Recordset** spécifiés dans une clause COMPUTE intermédiaire, ni exécuter des opérations d'agrégation sur un objet **Recordset** descendant de l'objet **Recordset** dont la mise en forme a été modifiée. Le **recordset en** cours de remise en forme et la nouvelle commande de forme doivent utiliser le même objet **[Connection.](connection-object-ado.md)
 
 

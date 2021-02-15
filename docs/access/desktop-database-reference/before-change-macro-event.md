@@ -85,7 +85,7 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <thead>
 <tr class="header">
 <th><p>Type de commande</p></th>
-<th><p>Command</p></th>
+<th><p>Commande</p></th>
 </tr>
 </thead>
 <tbody>
@@ -94,16 +94,16 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Déroulement de programme</p></td>
+<td><p>Flux de programme</p></td>
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Déroulement de programme</p></td>
+<td><p>Flux de programme</p></td>
 <td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="lookuprecord-data-block.md">RechercherEnregistrement, action de macro</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">LookupRecord, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Action de données</p></td>
@@ -143,7 +143,7 @@ Une macro de données vide s’affiche dans le concepteur de macros
 
 ## <a name="example"></a>Exemple
 
-L’exemple de code suivant utilise l’événement **avant la modification** pour valider les champs d’État. Une erreur est levée si une valeur incorrecte est stockée dans le champ Resolution.
+L’exemple de code suivant utilise **l’événement Before Change** pour valider les champs Status. Une erreur est levée si une valeur incorrecte est stockée dans le champ Resolution.
 
 ```vb 
  
@@ -178,9 +178,9 @@ Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 
 2.  Sous l’onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.
 
-3.  Sélectionnez le code dans l’exemple de code suivant, puis appuyez sur **Ctrl + C** pour le copier dans le presse-papiers.
+3.  Sélectionnez le code dans l’exemple de code suivant, puis appuyez sur **Ctrl+C** pour le copier dans le Presse-papiers.
 
-4.  Activez la fenêtre du concepteur de macros, puis appuyez sur **Ctrl + V**.
+4.  Activez la fenêtre du concepteur de macros, puis appuyez **sur Ctrl+V.**
 
 
 
@@ -228,7 +228,7 @@ Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 </DataMacros>
 ```
 
-L’exemple suivant montre comment utiliser l’action Déclenchererreur pour annuler l’événement de macro avant la modification des données. Lorsque le champ AffectéÀ est mis à jour, un bloc de données RechercherEnregistrement est utilisé pour déterminer si le technicien affecté est actuellement affecté à une demande de service ouverte. Si la valeur est true, l’événement avant la modification est annulé et l’enregistrement n’est pas mis à jour.
+L’exemple suivant montre comment utiliser l’action RaiseError pour annuler l’événement de macro de données Avant la modification. Lorsque le champ AssignedTo est mis à jour, un bloc de données LookupRecord est utilisé pour déterminer si le technicien affecté est actuellement affecté à une demande de service ouverte. Si c’est le cas, l’événement Before Change est annulé et l’enregistrement n’est pas mis à jour.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -24,11 +24,11 @@ Envoie les modifications en attente de l’objet [Recordset](recordset-object-ad
 
 *DataControl*. SubmitChanges
 
-*DataFactory*. SubmitChanges*Connection*, *Recordset*
+*DataFactory*. SubmitChanges *Connection*, *Recordset*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 |*DataFactory* |Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md).|
@@ -43,7 +43,7 @@ Si vous appelez la méthode [CancelUpdate](cancelupdate-method-rds.md) après av
 
 Seuls les enregistrements modifiés sont envoyés pour modification. Par ailleurs, soit toutes les modifications aboutissent, soit elles échouent toutes.
 
-Vous pouvez utiliser **SubmitChanges** uniquement avec l'objet **RDSServer. DataFactory** *par défaut* . Les objets métier personnalisés ne peuvent pas utiliser cette méthode.
+Vous pouvez utiliser **SubmitChanges uniquement** avec l’objet  **RDSServer.DataFactory par** défaut. Les objets métier personnalisés ne peuvent pas utiliser cette méthode.
 
 Si la propriété **URL** a été définie, **SubmitChanges** envoie les modifications à l'emplacement indiqué par l'URL.
 

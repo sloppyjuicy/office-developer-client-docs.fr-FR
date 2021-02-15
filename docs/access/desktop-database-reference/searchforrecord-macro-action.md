@@ -60,7 +60,7 @@ L’action **RechercherEnregistrement** accepte les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Setting</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -88,9 +88,9 @@ L’action **RechercherEnregistrement** accepte les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Condition Where</strong></p></td>
-<td><p>Entrez les critères de la recherche en utilisant la même syntaxe qu'une clause SQL WHERE, uniquement sans le &quot;mot&quot;WHERE. For example,</p>
+<td><p>Entrez les critères de la recherche à l’aide de la même syntaxe qu’une clause WHERE SQL, uniquement sans le mot &quot; WHERE &quot; . Par exemple :</p>
 <p>`Description = "Beverages"`</p>
-<p>Pour créer un critère qui comprend une valeur dans une zone de texte d'un formulaire, vous devez créer une expression qui concatène la première partie du critère avec le nom de la zone de texte contenant la valeur à rechercher. Par exemple, le critère suivant recherche le champ Description de la valeur dans la zone de texte txtDescription du formulaire frmCategories. Notez le signe égal (<strong>=</strong>) au début de l'expression et l'utilisation de guillemets simples (<strong>'</strong>) de part et d'autre de la référence de la zone de texte:</p>
+<p>Pour créer un critère qui comprend une valeur dans une zone de texte d'un formulaire, vous devez créer une expression qui concatène la première partie du critère avec le nom de la zone de texte contenant la valeur à rechercher. Par exemple, le critère suivant recherche le champ Description de la valeur dans la zone de texte txtDescription du formulaire frmCategories. Notez le signe égal ( ) au début de l’expression et l’utilisation de guillemets simples ( ' ) de part et d’autre de la référence de <strong>=</strong> zone de texte :<strong></strong></p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
 </tr>
 </tbody>
@@ -101,9 +101,9 @@ L’action **RechercherEnregistrement** accepte les arguments suivants.
 
 - Lorsque plusieurs enregistrements correspondent aux critères dans l’argument **Condition Where**, les facteurs suivants déterminent l’enregistrement trouvé :
     
-  - **La définition de l’argument Record**Voir la table dans la section Paramètres pour plus d’informations sur l’argument **Record**.
+  - **La définition de l’argument Record** Voir la table dans la section Paramètres pour plus d’informations sur l’argument **Record**.
     
-  - **L’ordre de tri des enregistrements **Par exemple, si l’argument **Record** est défini sur **First**, le fait de changer l’ordre de tri des enregistrements peut permettre de trouver un autre enregistrement.
+  - **L’ordre de tri des enregistrements** Par exemple, si l’argument **Record** est défini sur **First**, le fait de changer l’ordre de tri des enregistrements peut permettre de trouver un autre enregistrement.
 
 - Vous devez ouvrir l'objet spécifié dans l'argument **Nom de l'objet** avant d'exécuter cette action. Sinon, une erreur se produit.
 
@@ -141,11 +141,11 @@ La macro suivante ouvre d’abord la table Catégories en utilisant l’action *
 <tbody>
 <tr class="odd">
 <td><p><strong>OpenTable</strong></p></td>
-<td><p><strong>Nom</strong>de la table<strong></strong>: mode catégories: <strong>donnéesmode données</strong>: <strong>modifier</strong></p></td>
+<td><p><strong>Nom de la</strong>table : affichage<strong>catégories</strong> <strong>: mode DatasheetData</strong>: <strong>modifier</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SearchForRecord</strong></p></td>
-<td><p><strong>Type d'objet</strong>: <strong>TableObject nom</strong>: catégories<strong>enregistrement</strong>: <strong>premièrecondition WHERE condition</strong>: description &quot;= boissons&quot;</p></td>
+<td><p><strong>Type d’objet</strong>: <strong>TableObject Name</strong>: Categories<strong>Record</strong>: <strong>FirstWhere Condition</strong>: Description &quot; =Où&quot;</p></td>
 </tr>
 </tbody>
 </table>

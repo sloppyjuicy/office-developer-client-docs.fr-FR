@@ -40,12 +40,12 @@ L’action **DéfinirChamp** utilise les arguments répertoriés dans le tableau
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Nom</strong></p></td>
+<td><p><strong>Name</strong></p></td>
 <td><p>Chaîne qui identifie le champ.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Valeur</strong></p></td>
-<td><p>Expression qui spécifie la valeur à assigner au champ.</p></td>
+<td><p>Expression qui spécifie la valeur à affecter au champ.</p></td>
 </tr>
 </tbody>
 </table>

@@ -18,15 +18,15 @@ ms.locfileid: "34870856"
 
 **S’applique à** : Access 2013, Office 2013
 
-Le langage SQL du moteur de base de données Microsoft Access est en général conforme à la norme ANSI-89 de niveau 1. Toutefois, certaines fonctionnalités ANSI SQL ne sont pas implémentées dans Microsoft Access SQL. Inversement, Microsoft Access SQL comporte des mots clés et des fonctionnalités qui ne sont pas prises en charge dans ANSI SQL.
+Le langage SQL du moteur de base de données Microsoft Access est en général conforme à la norme ANSI-89 de niveau 1. Toutefois, certaines fonctionnalités de SQL ANSI ne sont pas implémentées dans Microsoft Access SQL. Inversement, Microsoft Access SQL comporte des mots clés et des fonctionnalités qui ne sont pas prises en charge dans ANSI SQL.
 
-## <a name="major-differences"></a>Différences majeures
+## <a name="major-differences"></a>Principales différences
 
 - Microsoft Access SQL et ANSI SQL utilisent des mots réservés et des types de données différents. Pour plus d'informations, voir [Mots réservés SQL du moteur de base de données Microsoft Access](sql-reserved-words.md) et [Types de données équivalents ANSI SQL](equivalent-ansi-sql-data-types.md). Le fournisseur OLE DB du moteur de base de données Microsoft Access utilise d'autres mots réservés.
 
 - **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/between-and-operator)**
     
-  *expr1* \[Non\] **compris entre** *valeur1* **et** *valeur2*
+  *expr1* \[ NOT \] **Between** *value1* **and** *value2*
     
   Dans Microsoft Access SQL, la *valeur1* peut être supérieure à la *valeur2* ; dans ANSI SQL, la *valeur1* doit être égale ou inférieure à la *valeur2.*
 
@@ -74,7 +74,7 @@ Microsoft Access SQL comporte les fonctionnalités améliorées suivantes :
 
 - la déclaration [PARAMETERS ](parameters-declaration-microsoft-access-sql.md) pour définir des requêtes Paramètres.
 
-## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Fonctionnalités ANSI SQL non prises en charge dans Microsoft Access SQL
+## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Les fonctionnalités SQL ANSI ne sont pas pris en charge dans Microsoft Access SQL
 
 Microsoft Access SQL ne prend pas en charge les fonctionnalités ANSI SQL suivantes :
 

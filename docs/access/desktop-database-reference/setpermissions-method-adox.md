@@ -22,11 +22,11 @@ Spécifie les autorisations d'un groupe ou d'un utilisateur sur un objet.
 
 ## <a name="syntax"></a>Syntaxe
 
-*GroupOrUser*. SetPermissions*nom*, *ObjectType*, *action*, *Rights* \[,*inherit* \] \[,*ObjectTypeId*\]
+*GroupOrUser*. SetPermissions *Name*, *ObjectType*, *Action*, *Rights* \[ ,*Inherit* \] \[ ,*ObjectTypeId*\]
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Name* |Valeur de type **String** qui spécifie le nom de l'objet dont il faut définir les autorisations.|
 |*ObjectType* |Valeur de type **Long** qui peut être l'une des constantes [ObjectTypeEnum](objecttypeenum.md), spécifiant le type d'objet dont il faut obtenir les autorisations.|

@@ -68,7 +68,7 @@ L’action **DéfinirPropriété** utilise les arguments suivants :
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment utiliser l'action SetProperty pour faire basculer la visibilité de la zone de texte **myTextBox** .
+L’exemple suivant montre comment utiliser l’action DéfinirProperty pour faire bascule la visibilité de la zone de **texte MyTextBox.**
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

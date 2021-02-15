@@ -1,5 +1,5 @@
 ---
-title: Table, objet (ADOX)
+title: Objet Table (ADOX)
 TOCTitle: Table object (ADOX)
 ms:assetid: 53a3e2f9-4ec0-8fed-d482-4f995921587b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249273(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314405"
 ---
-# <a name="table-object-adox"></a>Table, objet (ADOX)
+# <a name="table-object-adox"></a>Objet Table (ADOX)
 
 **S’applique à** : Access 2013, Office 2013
 

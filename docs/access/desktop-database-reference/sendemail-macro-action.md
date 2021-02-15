@@ -18,7 +18,7 @@ ms.locfileid: "32314650"
 
 **S’applique à** : Access 2013, Office 2013
 
-L'action **SendEmail** envoie un message électronique.
+**L’action EnvoyerEmail** envoie un message électronique.
 
 > [!NOTE]
 > L’action **EnvoyerMessage** est disponible uniquement dans les macros de données.
@@ -42,19 +42,19 @@ L’action **EnvoyerMessage** utilise les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>To</strong></p></td>
+<td><p><strong>Pour</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Destinataires du message dont les noms doivent être placés sur la ligne <strong>à</strong> du message. Séparez les noms des destinataires que vous spécifiez dans cet argument (et dans les arguments <em>CC</em> et <em>BCC</em> ) par un point-virgule (;).</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>À</strong> du message. Séparez les noms des destinataires que vous spécifiez dans cet argument (et dans les arguments <em>Cc</em> et <em>Cci)</em> par un point-virgule (;).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Cc</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Destinataires du message dont les noms doivent être placés sur la ligne&quot;CC (&quot;copie carbone) du message.</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne Cc (copie &quot; &quot; carbone) du message.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Bcc</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Destinataires du message dont les noms doivent être placés sur la ligne&quot;CCI (copie&quot;carbone invisible) du message.</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne Bcc (copie carbone non &quot; &quot; voyante) du message.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Subject</strong></p></td>
@@ -62,7 +62,7 @@ L’action **EnvoyerMessage** utilise les arguments suivants.
 <td><p>Objet du message. Ce texte apparaît sur la ligne <strong>Objet</strong> du message.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Body</strong></p></td>
+<td><p><strong>Corps</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Texte que vous souhaitez inclure dans le corps du message électronique. Si vous laissez cet argument vide, aucun texte supplémentaire n’est inclus dans le message.</p></td>
 </tr>

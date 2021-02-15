@@ -31,7 +31,7 @@ L’événement **Après suppression** se produit après la suppression d’un e
 
 Utilisez l’événement **Après suppression** pour effectuer toute action souhaitée lors de la suppression d’un enregistrement. L’événement **Après suppression** peut par exemple servir à appliquer des règles professionnelles ou des flux de travail, à mettre à jour un total agrégé et à envoyer des notifications.
 
-Lorsque l'événement **Après suppression** se produit, les valeurs contenues dans l'enregistrement supprimé sont toujours disponibles. Vous pouvez utiliser une valeur supprimée pour incrémenter ou décrémenter un total, créer une piste d’audit ou comparer à une valeur existante dans un argument *ConditionWhere* .
+Lorsque l'événement **Après suppression** se produit, les valeurs contenues dans l'enregistrement supprimé sont toujours disponibles. Vous pouvez utiliser une valeur supprimée pour incrémenter ou décrémenter un total, créer une piste d’audit ou comparer à une valeur existante dans un argument *WhereCondition.*
 
 Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser une instruction If pour déterminer si le champ PaidInFull a été modifié.
 
@@ -55,7 +55,7 @@ Par exemple, pour accéder à la valeur du champ QuantityInStock dans l'enregist
 
 Les valeurs contenues dans l'enregistrement supprimé sont supprimées de manière définitive lorsque l'événement **Après suppression** se termine.
 
-Les commandes de macro suivantes peuvent être utilisées dans l’événement **après suppression** .
+Les commandes de macro suivantes peuvent être utilisées dans **l’événement Après** suppression.
 
 <table>
 <colgroup>
@@ -65,7 +65,7 @@ Les commandes de macro suivantes peuvent être utilisées dans l’événement *
 <thead>
 <tr class="header">
 <th><p>Type de commande</p></th>
-<th><p>Command</p></th>
+<th><p>Commande</p></th>
 </tr>
 </thead>
 <tbody>
@@ -74,11 +74,11 @@ Les commandes de macro suivantes peuvent être utilisées dans l’événement *
 <td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Déroulement de programme</p></td>
+<td><p>Flux de programme</p></td>
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Déroulement de programme</p></td>
+<td><p>Flux de programme</p></td>
 <td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
 </tr>
 <tr class="even">
