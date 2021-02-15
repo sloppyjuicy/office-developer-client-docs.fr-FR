@@ -1,5 +1,5 @@
 ---
-title: Recordset2. noMatch, propriété (DAO)
+title: Recordset2.NoMatch, propriété (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 2d7a02ff-a2bf-5f0e-bd71-a6d42c25b13a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
@@ -14,32 +14,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309393"
 ---
-# <a name="recordset2nomatch-property-dao"></a><span data-ttu-id="cd26e-102">Recordset2. noMatch, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd26e-102">Recordset2.NoMatch property (DAO)</span></span>
+# <a name="recordset2nomatch-property-dao"></a><span data-ttu-id="0c3d3-102">Recordset2.NoMatch, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="0c3d3-102">Recordset2.NoMatch property (DAO)</span></span>
 
-<span data-ttu-id="cd26e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd26e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0c3d3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0c3d3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cd26e-104">Indique si un enregistrement donné a été localisé à l'aide de la méthode **[Seek](recordset2-seek-method-dao.md)** ou de l'une des méthodes **[Find](recordset2-findfirst-method-dao.md)** (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="cd26e-104">Indicates whether a particular record was found by using the **[Seek](recordset2-seek-method-dao.md)** method or one of the **[Find](recordset2-findfirst-method-dao.md)** methods (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="0c3d3-104">Indique si un enregistrement particulier a été trouvé à l’aide de la méthode **[Seek](recordset2-seek-method-dao.md)** ou de l’une des méthodes **[Find](recordset2-findfirst-method-dao.md)** (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="0c3d3-104">Indicates whether a particular record was found by using the **[Seek](recordset2-seek-method-dao.md)** method or one of the **[Find](recordset2-findfirst-method-dao.md)** methods (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cd26e-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="cd26e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0c3d3-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0c3d3-105">Syntax</span></span>
 
-<span data-ttu-id="cd26e-106">*expression* . NoMatch</span><span class="sxs-lookup"><span data-stu-id="cd26e-106">*expression* .NoMatch</span></span>
+<span data-ttu-id="0c3d3-106">*expression* .NoMatch</span><span class="sxs-lookup"><span data-stu-id="0c3d3-106">*expression* .NoMatch</span></span>
 
-<span data-ttu-id="cd26e-107">*expression* Variable qui représente un objet **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="cd26e-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="0c3d3-107">*expression* Variable qui représente un **objet Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="0c3d3-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="cd26e-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="cd26e-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0c3d3-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="0c3d3-108">Remarks</span></span>
 
-<span data-ttu-id="cd26e-109">Lorsque vous ouvrez ou que vous créez un objet **[Recordset](recordset-object-dao.md)**, sa propriété **NoMatch** a la valeur **False**.</span><span class="sxs-lookup"><span data-stu-id="cd26e-109">When you open or create a **[Recordset](recordset-object-dao.md)** object, its **NoMatch** property is set to **False**.</span></span>
+<span data-ttu-id="0c3d3-109">Lorsque vous ouvrez ou créez un **[jeu d’enregistrements](recordset-object-dao.md)** objet, son **NoMatch** propriété est définie sur **faux**.</span><span class="sxs-lookup"><span data-stu-id="0c3d3-109">When you open or create a **[Recordset](recordset-object-dao.md)** object, its **NoMatch** property is set to **False**.</span></span>
 
-<span data-ttu-id="cd26e-p101">Pour rechercher un enregistrement, utilisez la méthode **Seek** sur un objet **Recordset** de type table ou l'une des méthodes **Find** sur un objet **Recordset** de type feuille de réponse dynamique ou instantané. Vérifiez le paramètre de la propriété **NoMatch** pour voir si l'enregistrement a pu être localisé.</span><span class="sxs-lookup"><span data-stu-id="cd26e-p101">To locate a record, use the **Seek** method on a table-type **Recordset** object or one of the **Find** methods on a dynaset- or snapshot-type **Recordset** object. Check the **NoMatch** property setting to see whether the record was found.</span></span>
+<span data-ttu-id="0c3d3-p101">Pour localiser un enregistrement, utilisez la **recherche** méthode sur un type de table **jeu d’enregistrements** objet ou l’un de la **trouver** méthodes sur un type feuille de réponse dynamique ou instantané **jeu d’enregistrements** objet. Vérifier le **NoMatch** paramètres de propriété pour voir si l’enregistrement a été trouvé.</span><span class="sxs-lookup"><span data-stu-id="0c3d3-p101">To locate a record, use the **Seek** method on a table-type **Recordset** object or one of the **Find** methods on a dynaset- or snapshot-type **Recordset** object. Check the **NoMatch** property setting to see whether the record was found.</span></span>
 
-<span data-ttu-id="cd26e-p102">Si la méthode **Seek** ou **Find** ne donne aucun résultat et que la propriété **NoMatch** a la valeur **True**, l'enregistrement actif ne sera plus valide. Veillez à obtenir le signet de l'enregistrement actif avant d'utiliser la méthode **Seek** ou l'une des méthodes **Find** si vous devez revenir à cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="cd26e-p102">If the **Seek** or **Find** method is unsuccessful and the **NoMatch** property is **True**, the current record will no longer be valid. Be sure to obtain the current record's bookmark before using the **Seek** method or a **Find** method if you'll need to return to that record.</span></span>
+<span data-ttu-id="0c3d3-p102">Si le **recherche** ou **trouver** méthode est échoué et le **NoMatch** propriété est **vrai**, l’enregistrement actif ne sera plus valide. N’oubliez pas d’obtenir le signet de l’enregistrement actif avant d’utiliser la **recherche** méthode ou d’un **trouver** méthode si vous devez revenir à cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="0c3d3-p102">If the **Seek** or **Find** method is unsuccessful and the **NoMatch** property is **True**, the current record will no longer be valid. Be sure to obtain the current record's bookmark before using the **Seek** method or a **Find** method if you'll need to return to that record.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cd26e-114">[!REMARQUE] L'appel de l'une des méthodes **[Move](recordset-movefirst-method-dao.md)** sur un objet **Recordset** n'a aucune incidence sur le paramètre de la propriété **NoMatch**.</span><span class="sxs-lookup"><span data-stu-id="cd26e-114">Using any of the **[Move](recordset-movefirst-method-dao.md)** methods on a **Recordset** object won't affect its **NoMatch** property setting.</span></span>
+> <span data-ttu-id="0c3d3-114">À l’aide de la **[déplacer](recordset-movefirst-method-dao.md)** méthodes sur un **jeu d’enregistrements** objet n’affecte pas son **NoMatch** paramètre de la propriété.</span><span class="sxs-lookup"><span data-stu-id="0c3d3-114">Using any of the **[Move](recordset-movefirst-method-dao.md)** methods on a **Recordset** object won't affect its **NoMatch** property setting.</span></span>
 
-## <a name="example"></a><span data-ttu-id="cd26e-115">Exemple</span><span class="sxs-lookup"><span data-stu-id="cd26e-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0c3d3-115">Exemple</span><span class="sxs-lookup"><span data-stu-id="0c3d3-115">Example</span></span>
 
-<span data-ttu-id="cd26e-p103">Cet exemple de code montre comment utiliser la propriété **NoMatch** pour déterminer si les opérations **Seek** et **FindFirst** ont abouti. Si ce n'est pas le cas, l'utilisateur en est informé de façon appropriée. Les procédures SeekMatch et FindMatch sont nécessaires à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="cd26e-p103">This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="0c3d3-p103">Cet exemple de code montre comment utiliser la propriété **NoMatch** pour déterminer si les opérations **Seek** et **FindFirst** ont abouti. Si ce n'est pas le cas, l'utilisateur en est informé de façon appropriée. Les procédures SeekMatch et FindMatch sont nécessaires à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="0c3d3-p103">This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.</span></span>
 
 ```vb
     Sub NoMatchX() 

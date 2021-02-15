@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311332"
 ---
-# <a name="visual-j"></a><span data-ttu-id="c4b4e-102">Visual J++</span><span class="sxs-lookup"><span data-stu-id="c4b4e-102">Visual J++</span></span>
+# <a name="visual-j"></a><span data-ttu-id="c1118-102">Visual J++</span><span class="sxs-lookup"><span data-stu-id="c1118-102">Visual J++</span></span>
 
 
-<span data-ttu-id="c4b4e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4b4e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c1118-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1118-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c4b4e-104">Ce petit exemple Microsoft Visual J++ illustre comment associer votre propre fonction à un événement spécifique.</span><span class="sxs-lookup"><span data-stu-id="c4b4e-104">This short Microsoft Visual J++ example shows how you can associate your own function with a particular event.</span></span>
+<span data-ttu-id="c1118-104">Ce petit exemple Microsoft Visual J++ illustre comment associer votre propre fonction à un événement spécifique.</span><span class="sxs-lookup"><span data-stu-id="c1118-104">This short Microsoft Visual J++ example shows how you can associate your own function with a particular event.</span></span>
 
 ```java 
  
@@ -53,7 +53,7 @@ public class EventExampleVJ
 // EndEventExampleVJ 
 ```
 
-<span data-ttu-id="c4b4e-105">Tout d'abord, la méthode de classe *onConnectionComplete* est associée à l'événement **ConnectionComplete** en créant un nouvel objet **ConnectionEventHandler** et en y assignant la fonction *onConnectComplete*.</span><span class="sxs-lookup"><span data-stu-id="c4b4e-105">First, the class method *onConnectionComplete* is associated with the **ConnectionComplete** event by creating a new **ConnectionEventHandler** object and assigning the *onConnectComplete* function to the object.</span></span>
+<span data-ttu-id="c1118-105">Tout d'abord, la méthode de classe *onConnectionComplete* est associée à l'événement **ConnectionComplete** en créant un nouvel objet **ConnectionEventHandler** et en y assignant la fonction *onConnectComplete*.</span><span class="sxs-lookup"><span data-stu-id="c1118-105">First, the class method *onConnectionComplete* is associated with the **ConnectionComplete** event by creating a new **ConnectionEventHandler** object and assigning the *onConnectComplete* function to the object.</span></span>
 
-<span data-ttu-id="c4b4e-106">La fonction *main* crée un objet **Connection** et active la gestion des événements en invoquant la méthode **addOnConnectComplete** et en lui transmettant l'adresse de la fonction *handler*.</span><span class="sxs-lookup"><span data-stu-id="c4b4e-106">The *main* function then creates a **Connection** object and enables event handling by calling the **addOnConnectComplete** method and passing it the address of the *handler* function.</span></span>
+<span data-ttu-id="c1118-106">La fonction *main* crée un objet **Connection** et active la gestion des événements en invoquant la méthode **addOnConnectComplete** et en lui transmettant l'adresse de la fonction *handler*.</span><span class="sxs-lookup"><span data-stu-id="c1118-106">The *main* function then creates a **Connection** object and enables event handling by calling the **addOnConnectComplete** method and passing it the address of the *handler* function.</span></span>
 

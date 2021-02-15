@@ -1,5 +1,5 @@
 ---
-title: Recordset2. MoveFirst, méthode (DAO)
+title: Recordset2.MoveFirst, méthode (DAO)
 TOCTitle: MoveFirst Method
 ms:assetid: 74b186d0-8f6a-d136-a563-04f58d67b122
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195879(v=office.15)
@@ -14,32 +14,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309659"
 ---
-# <a name="recordset2movefirst-method-dao"></a><span data-ttu-id="4e6ed-102">Recordset2. MoveFirst, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="4e6ed-102">Recordset2.MoveFirst method (DAO)</span></span>
+# <a name="recordset2movefirst-method-dao"></a><span data-ttu-id="f8b08-102">Recordset2.MoveFirst, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8b08-102">Recordset2.MoveFirst method (DAO)</span></span>
 
 
-<span data-ttu-id="4e6ed-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4e6ed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f8b08-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8b08-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4e6ed-104">Atteint le premier enregistrement d’un objet **Recordset** spécifié et en fait l’enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-104">Moves to the first record in a specified **Recordset** object and make that record the current record.</span></span>
+<span data-ttu-id="f8b08-104">Atteint le premier enregistrement d’un objet **Recordset** spécifié et en fait l’enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="f8b08-104">Moves to the first record in a specified **Recordset** object and make that record the current record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4e6ed-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4e6ed-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f8b08-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f8b08-105">Syntax</span></span>
 
-<span data-ttu-id="4e6ed-106">*expression* . Méthodes</span><span class="sxs-lookup"><span data-stu-id="4e6ed-106">*expression* .MoveFirst</span></span>
+<span data-ttu-id="f8b08-106">*expression* .MoveFirst</span><span class="sxs-lookup"><span data-stu-id="f8b08-106">*expression* .MoveFirst</span></span>
 
-<span data-ttu-id="4e6ed-107">*expression* Variable qui représente un objet **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="4e6ed-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="f8b08-107">*expression* Variable qui représente un **objet Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="f8b08-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4e6ed-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="4e6ed-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f8b08-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="f8b08-108">Remarks</span></span>
 
-<span data-ttu-id="4e6ed-109">La méthode **Move** permet de passer d’un enregistrement à un autre sans appliquer de condition.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-109">Use the **Move** methods to move from record to record without applying a condition.</span></span>
+<span data-ttu-id="f8b08-109">La méthode **Move** permet de passer d’un enregistrement à un autre sans appliquer de condition.</span><span class="sxs-lookup"><span data-stu-id="f8b08-109">Use the **Move** methods to move from record to record without applying a condition.</span></span>
 
-<span data-ttu-id="4e6ed-p101">Si vous modifiez l'enregistrement actif, utilisez la méthode **Update** pour enregistrer les modifications avant de passer à un autre enregistrement. Si vous passez à un autre enregistrement sans procéder à la mise à jour, vos modifications seront perdues sans avertissement.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-p101">If you edit the current record, be sure you use the **Update** method to save the changes before you move to another record. If you move to another record without updating, your changes are lost without warning.</span></span>
+<span data-ttu-id="f8b08-p101">Si vous modifiez l’enregistrement actif, utilisez la méthode **Update** pour enregistrer les modifications avant de passer à un autre enregistrement. Si vous passez à un autre enregistrement sans procéder à la mise à jour, vos modifications seront perdues sans avertissement.</span><span class="sxs-lookup"><span data-stu-id="f8b08-p101">If you edit the current record, be sure you use the **Update** method to save the changes before you move to another record. If you move to another record without updating, your changes are lost without warning.</span></span>
 
-<span data-ttu-id="4e6ed-p102">Lorsque vous ouvrez un objet **Recordset**, le premier enregistrement est actif et la propriété **BOF** a la valeur **False**. Si l'objet **Recordset** ne contient pas d'enregistrements, la propriété **BOF** a la valeur **True** et aucun enregistrement n'est actif.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-p102">When you open a **Recordset**, the first record is current and the **BOF** property is **False**. If the **Recordset** contains no records, the **BOF** property is **True**, and there is no current record.</span></span>
+<span data-ttu-id="f8b08-p102">Lorsque vous ouvrez un objet **Recordset**, le premier enregistrement est actif et la propriété **BOF** a la valeur **False**. Si l’objet **Recordset** ne contient pas d’enregistrements, la propriété **BOF** a la valeur **True** et aucun enregistrement n’est actif.</span><span class="sxs-lookup"><span data-stu-id="f8b08-p102">When you open a **Recordset**, the first record is current and the **BOF** property is **False**. If the **Recordset** contains no records, the **BOF** property is **True**, and there is no current record.</span></span>
 
-<span data-ttu-id="4e6ed-114">Si le premier ou le dernier enregistrement est déjà actif lorsque vous utilisez la méthode **MoveFirst** ou **MoveLast**, l'enregistrement actif ne change pas.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-114">If the first or last record is already current when you use **MoveFirst** or **MoveLast**, the current record doesn't change.</span></span>
+<span data-ttu-id="f8b08-114">Si le premier ou le dernier enregistrement est déjà actif lorsque vous utilisez la méthode **MoveFirst** ou **MoveLast**, l’enregistrement actif ne change pas.</span><span class="sxs-lookup"><span data-stu-id="f8b08-114">If the first or last record is already current when you use **MoveFirst** or **MoveLast**, the current record doesn't change.</span></span>
 
-<span data-ttu-id="4e6ed-115">Si l'objet Recordset fait référence à un **objet Recordset** de type table (espaces de travail Microsoft Access uniquement), le déplacement suit l'index actif.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-115">If recordset refers to a table-type **Recordset** (Microsoft Access workspaces only), movement follows the current index.</span></span> <span data-ttu-id="4e6ed-116">Vous pouvez définir l'index actuel par le biais de la propriété **Index**.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-116">You can set the current index by using the **Index** property.</span></span> <span data-ttu-id="4e6ed-117">Si vous ne définissez pas l’index actuel, l’ordre des enregistrements renvoyés est indéfini.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-117">If you don't set the current index, the order of returned records is undefined.</span></span>
+<span data-ttu-id="f8b08-115">Si recordset fait référence à un objet **Recordset** de type table (espaces de travail Microsoft Access uniquement), le déplacement suit l’index actuel.</span><span class="sxs-lookup"><span data-stu-id="f8b08-115">If recordset refers to a table-type **Recordset** (Microsoft Access workspaces only), movement follows the current index.</span></span> <span data-ttu-id="f8b08-116">Vous pouvez définir l'index actuel par le biais de la propriété **Index**.</span><span class="sxs-lookup"><span data-stu-id="f8b08-116">You can set the current index by using the **Index** property.</span></span> <span data-ttu-id="f8b08-117">Si vous ne définissez pas l’index actuel, l’ordre des enregistrements renvoyés est indéfini.</span><span class="sxs-lookup"><span data-stu-id="f8b08-117">If you don't set the current index, the order of returned records is undefined.</span></span>
 
-<span data-ttu-id="4e6ed-118">Vous ne pouvez pas appliquer les méthodes **MoveFirst**, **MoveLast** et **MovePrevious** à un objet **Recordset** de type avant uniquement.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-118">You can't use the **MoveFirst**, **MoveLast**, and **MovePrevious** methods on a forward–only–type **Recordset** object.</span></span>
+<span data-ttu-id="f8b08-118">Vous ne pouvez pas appliquer les méthodes **MoveFirst**, **MoveLast** et **MovePrevious** à un objet **Recordset** de type avant uniquement.</span><span class="sxs-lookup"><span data-stu-id="f8b08-118">You can't use the **MoveFirst**, **MoveLast**, and **MovePrevious** methods on a forward–only–type **Recordset** object.</span></span>
 
-<span data-ttu-id="4e6ed-119">Pour faire avancer ou reculer l’enregistrement actif d’un certain nombre d’enregistrements dans un objet **Recordset**, utilisez la méthode **Move**.</span><span class="sxs-lookup"><span data-stu-id="4e6ed-119">To move the position of the current record in a **Recordset** object a specific number of records forward or backward, use the **Move** method.</span></span>
+<span data-ttu-id="f8b08-119">Pour faire avancer ou reculer l’enregistrement actif d’un certain nombre d’enregistrements dans un objet **Recordset**, utilisez la méthode **Move**.</span><span class="sxs-lookup"><span data-stu-id="f8b08-119">To move the position of the current record in a **Recordset** object a specific number of records forward or backward, use the **Move** method.</span></span>
 

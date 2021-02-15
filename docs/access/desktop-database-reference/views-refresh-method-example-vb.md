@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312158"
 ---
-# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="ec543-102">Views Refresh, méthode — Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="ec543-102">Views Refresh method example (VB)</span></span>
+# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="c3ae7-102">Views Refresh, méthode — Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="c3ae7-102">Views Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="ec543-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec543-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c3ae7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c3ae7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ec543-p101">Le code suivant montre comment actualiser la collection [Views](views-collection-adox.md) d'un objet [Catalog](catalog-object-adox.md). Cette opération est requise afin de pouvoir accéder aux objets [View](view-object-adox.md) de l'objet **Catalog**.</span><span class="sxs-lookup"><span data-stu-id="ec543-p101">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="c3ae7-p101">Le code suivant montre comment actualiser la collection [Views](views-collection-adox.md) d'un objet [Catalog](catalog-object-adox.md). Cette opération est requise afin de pouvoir accéder aux objets [View](view-object-adox.md) de l'objet **Catalog**.</span><span class="sxs-lookup"><span data-stu-id="c3ae7-p101">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

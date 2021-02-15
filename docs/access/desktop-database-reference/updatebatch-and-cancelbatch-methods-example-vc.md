@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313607"
 ---
-# <a name="updatebatch-and-cancelbatch-methods-example-vc"></a><span data-ttu-id="6b741-102">UpdateBatch et CancelBatch, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="6b741-102">UpdateBatch and CancelBatch methods example (VC++)</span></span>
+# <a name="updatebatch-and-cancelbatch-methods-example-vc"></a><span data-ttu-id="a29ea-102">UpdateBatch et CancelBatch, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="a29ea-102">UpdateBatch and CancelBatch methods example (VC++)</span></span>
 
 
-<span data-ttu-id="6b741-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b741-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a29ea-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a29ea-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6b741-104">Cet exemple illustre la méthode [UpdateBatch](updatebatch-method-ado.md) conjointement à la méthode [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6b741-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
+<span data-ttu-id="a29ea-104">Cet exemple illustre la méthode [UpdateBatch](updatebatch-method-ado.md) conjointement à la méthode [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a29ea-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
 
 ```cpp 
  
@@ -244,7 +244,7 @@ void PrintComError(_com_error &e)
 // EndUpdateBatchCpp 
 ```
 
-<span data-ttu-id="6b741-105">**UpdateBatchX. h**</span><span class="sxs-lookup"><span data-stu-id="6b741-105">**UpdateBatchX.h**</span></span>
+<span data-ttu-id="a29ea-105">**UpdateBatchX.h**</span><span class="sxs-lookup"><span data-stu-id="a29ea-105">**UpdateBatchX.h**</span></span>
 
 ```cpp 
  

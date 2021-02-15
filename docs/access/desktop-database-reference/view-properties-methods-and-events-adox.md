@@ -14,23 +14,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312102"
 ---
-# <a name="view-properties-methods-and-events-adox"></a><span data-ttu-id="96e21-102">Afficher les propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="96e21-102">View properties, methods, and events (ADOX)</span></span>
+# <a name="view-properties-methods-and-events-adox"></a><span data-ttu-id="25ee9-102">Afficher les propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="25ee9-102">View properties, methods, and events (ADOX)</span></span>
 
 
-<span data-ttu-id="96e21-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="96e21-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="25ee9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25ee9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="96e21-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="96e21-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="25ee9-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="25ee9-104">Properties</span></span>
 
-- [<span data-ttu-id="96e21-105">Command, propriété</span><span class="sxs-lookup"><span data-stu-id="96e21-105">Command property</span></span>](command-property-adox.md)
-- [<span data-ttu-id="96e21-106">DateCreated, propriété</span><span class="sxs-lookup"><span data-stu-id="96e21-106">DateCreated property</span></span>](datecreated-property-adox.md)
-- [<span data-ttu-id="96e21-107">DateModified, propriété</span><span class="sxs-lookup"><span data-stu-id="96e21-107">DateModified property</span></span>](datemodified-property-adox.md)
-- [<span data-ttu-id="96e21-108">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="96e21-108">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="25ee9-105">Command, propriété</span><span class="sxs-lookup"><span data-stu-id="25ee9-105">Command property</span></span>](command-property-adox.md)
+- [<span data-ttu-id="25ee9-106">DateCreated, propriété</span><span class="sxs-lookup"><span data-stu-id="25ee9-106">DateCreated property</span></span>](datecreated-property-adox.md)
+- [<span data-ttu-id="25ee9-107">DateModified, propriété</span><span class="sxs-lookup"><span data-stu-id="25ee9-107">DateModified property</span></span>](datemodified-property-adox.md)
+- [<span data-ttu-id="25ee9-108">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="25ee9-108">Name property</span></span>](name-property-adox.md)
 
-## <a name="methods"></a><span data-ttu-id="96e21-109">Méthodes</span><span class="sxs-lookup"><span data-stu-id="96e21-109">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="25ee9-109">Méthodes</span><span class="sxs-lookup"><span data-stu-id="25ee9-109">Methods</span></span>
 
-<span data-ttu-id="96e21-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="96e21-110">None.</span></span>
+<span data-ttu-id="25ee9-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="25ee9-110">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="96e21-111">Events</span><span class="sxs-lookup"><span data-stu-id="96e21-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="25ee9-111">Événements</span><span class="sxs-lookup"><span data-stu-id="25ee9-111">Events</span></span>
 
-<span data-ttu-id="96e21-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="96e21-112">None.</span></span>
+<span data-ttu-id="25ee9-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="25ee9-112">None.</span></span>
 

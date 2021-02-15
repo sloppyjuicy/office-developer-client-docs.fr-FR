@@ -1,5 +1,5 @@
 ---
-title: Référence des collections d'utilisateurs (ADOX)
+title: Référence de collection Users (ADOX)
 TOCTitle: Users collection (ADOX)
 ms:assetid: 4094e816-e195-4483-b9c4-c5a71f7b93cb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249183(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312949"
 ---
-# <a name="users-collection-adox-reference"></a><span data-ttu-id="259ea-102">Référence des collections d'utilisateurs (ADOX)</span><span class="sxs-lookup"><span data-stu-id="259ea-102">Users collection (ADOX) reference</span></span>
+# <a name="users-collection-adox-reference"></a><span data-ttu-id="9943a-102">Users collection (ADOX) reference</span><span class="sxs-lookup"><span data-stu-id="9943a-102">Users collection (ADOX) reference</span></span>
 
-<span data-ttu-id="259ea-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="259ea-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9943a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9943a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="259ea-104">Users, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="259ea-104">Users collection (ADOX)</span></span>](users-collection-adox.md)
-- [<span data-ttu-id="259ea-105">Users, collection-propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="259ea-105">Users collection properties, methods, and events (ADOX)</span></span>](users-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="9943a-104">Users, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="9943a-104">Users collection (ADOX)</span></span>](users-collection-adox.md)
+- [<span data-ttu-id="9943a-105">Users collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="9943a-105">Users collection properties, methods, and events (ADOX)</span></span>](users-collection-properties-methods-and-events-adox.md)
 

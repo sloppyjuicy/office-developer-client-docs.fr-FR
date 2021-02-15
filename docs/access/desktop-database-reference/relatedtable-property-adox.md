@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309146"
 ---
-# <a name="relatedtable-property-adox"></a><span data-ttu-id="9cd9a-102">RelatedTable, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="9cd9a-102">RelatedTable property (ADOX)</span></span>
+# <a name="relatedtable-property-adox"></a><span data-ttu-id="dbd31-102">RelatedTable, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="dbd31-102">RelatedTable property (ADOX)</span></span>
 
 
-<span data-ttu-id="9cd9a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9cd9a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dbd31-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dbd31-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9cd9a-104">Indique le nom de la table liée.</span><span class="sxs-lookup"><span data-stu-id="9cd9a-104">Indicates the name of the related table.</span></span>
+<span data-ttu-id="dbd31-104">Indique le nom de la table liée.</span><span class="sxs-lookup"><span data-stu-id="dbd31-104">Indicates the name of the related table.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="9cd9a-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="9cd9a-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="dbd31-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="dbd31-105">Settings and return values</span></span>
 
-<span data-ttu-id="9cd9a-106">Définit et renvoie une valeur de type **String**.</span><span class="sxs-lookup"><span data-stu-id="9cd9a-106">Sets and returns a **String** value.</span></span>
+<span data-ttu-id="dbd31-106">Définit et renvoie une valeur de type **String**.</span><span class="sxs-lookup"><span data-stu-id="dbd31-106">Sets and returns a **String** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9cd9a-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="9cd9a-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dbd31-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="dbd31-107">Remarks</span></span>
 
-<span data-ttu-id="9cd9a-108">La valeur par défaut est une chaîne vide ("").</span><span class="sxs-lookup"><span data-stu-id="9cd9a-108">The default value is an empty string ("").</span></span>
+<span data-ttu-id="dbd31-108">La valeur par défaut est une chaîne vide ("").</span><span class="sxs-lookup"><span data-stu-id="dbd31-108">The default value is an empty string ("").</span></span>
 
-<span data-ttu-id="9cd9a-109">Pour une clé étrangère, **RelatedTable** correspond au nom de la table qui contient la clé.</span><span class="sxs-lookup"><span data-stu-id="9cd9a-109">If the key is a foreign key, then **RelatedTable** is the name of the table that contains the key.</span></span>
+<span data-ttu-id="dbd31-109">Pour une clé étrangère, **RelatedTable** correspond au nom de la table qui contient la clé.</span><span class="sxs-lookup"><span data-stu-id="dbd31-109">If the key is a foreign key, then **RelatedTable** is the name of the table that contains the key.</span></span>
 

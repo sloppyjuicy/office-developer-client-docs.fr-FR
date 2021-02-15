@@ -1,5 +1,5 @@
 ---
-title: TableDef. Fields, propriété (DAO)
+title: TableDef.Fields, propriété (DAO)
 TOCTitle: Fields Property
 ms:assetid: ca85be33-c872-309d-b1f0-d1ffb6951547
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834348(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308399"
 ---
-# <a name="tabledeffields-property-dao"></a><span data-ttu-id="c595f-102">TableDef. Fields, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="c595f-102">TableDef.Fields property (DAO)</span></span>
+# <a name="tabledeffields-property-dao"></a><span data-ttu-id="2214a-102">TableDef.Fields, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="2214a-102">TableDef.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="c595f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c595f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2214a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2214a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c595f-104">Renvoie une collection **Fields** qui représente tous les objets **Field** stockés pour l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="c595f-104">Returns a **Fields** collection that represents all stored **Field** objects for the specified object.</span></span> <span data-ttu-id="c595f-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="c595f-105">Read-only.</span></span>
+<span data-ttu-id="2214a-104">Renvoie une collection **Fields** qui représente tous les objets **Field** stockés pour l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="2214a-104">Returns a **Fields** collection that represents all stored **Field** objects for the specified object.</span></span> <span data-ttu-id="2214a-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="2214a-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c595f-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c595f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2214a-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2214a-106">Syntax</span></span>
 
-<span data-ttu-id="c595f-107">*expression* . Ceux</span><span class="sxs-lookup"><span data-stu-id="c595f-107">*expression* .Fields</span></span>
+<span data-ttu-id="2214a-107">*.* Champs</span><span class="sxs-lookup"><span data-stu-id="2214a-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="c595f-108">*expression* Variable qui représente un objet **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="c595f-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="2214a-108">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="2214a-108">*expression* A variable that represents a **TableDef** object.</span></span>
 

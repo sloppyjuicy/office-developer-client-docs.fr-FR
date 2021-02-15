@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313957"
 ---
-# <a name="unique-property-adox"></a><span data-ttu-id="ea968-102">Unique, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ea968-102">Unique property (ADOX)</span></span>
+# <a name="unique-property-adox"></a><span data-ttu-id="0e4d4-102">Unique, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0e4d4-102">Unique property (ADOX)</span></span>
 
 
-<span data-ttu-id="ea968-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ea968-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0e4d4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0e4d4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ea968-104">Indique si les clés d'index doivent être uniques.</span><span class="sxs-lookup"><span data-stu-id="ea968-104">Indicates whether the index keys must be unique.</span></span>
+<span data-ttu-id="0e4d4-104">Indique si les clés d'index doivent être uniques.</span><span class="sxs-lookup"><span data-stu-id="0e4d4-104">Indicates whether the index keys must be unique.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="ea968-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="ea968-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="0e4d4-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="0e4d4-105">Settings and return values</span></span>
 
-<span data-ttu-id="ea968-106">Définit et renvoie une valeur de type **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="ea968-106">Sets and returns a **Boolean** value.</span></span>
+<span data-ttu-id="0e4d4-106">Définit et renvoie une valeur de type **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="0e4d4-106">Sets and returns a **Boolean** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ea968-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="ea968-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0e4d4-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="0e4d4-107">Remarks</span></span>
 
-<span data-ttu-id="ea968-108">**False** est la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="ea968-108">The default value is **False**.</span></span>
+<span data-ttu-id="0e4d4-108">**False** est la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="0e4d4-108">The default value is **False**.</span></span>
 
-<span data-ttu-id="ea968-109">Cette propriété est en lecture seule pour des objets [Index](index-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="ea968-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="0e4d4-109">Cette propriété est en lecture seule pour des objets [Index](index-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="0e4d4-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
 

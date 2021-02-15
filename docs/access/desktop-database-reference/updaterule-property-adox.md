@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313572"
 ---
-# <a name="updaterule-property-adox"></a><span data-ttu-id="0db73-102">UpdateRule, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0db73-102">UpdateRule property (ADOX)</span></span>
+# <a name="updaterule-property-adox"></a><span data-ttu-id="be3c3-102">UpdateRule, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="be3c3-102">UpdateRule property (ADOX)</span></span>
 
 
-<span data-ttu-id="0db73-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0db73-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="be3c3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be3c3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0db73-104">Indique l'action effectuée en cas de mise à jour d'une clé primaire.</span><span class="sxs-lookup"><span data-stu-id="0db73-104">Indicates the action performed when a primary key is updated.</span></span>
+<span data-ttu-id="be3c3-104">Indique l'action effectuée en cas de mise à jour d'une clé primaire.</span><span class="sxs-lookup"><span data-stu-id="be3c3-104">Indicates the action performed when a primary key is updated.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="0db73-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="0db73-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="be3c3-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="be3c3-105">Settings and return values</span></span>
 
-<span data-ttu-id="0db73-106">Définit et renvoie une valeur de type **Long** qui peut correspondre à l’une des constantes [RuleEnum](ruleenum.md).</span><span class="sxs-lookup"><span data-stu-id="0db73-106">Sets and returns a **Long** value that can be one of the [RuleEnum](ruleenum.md) constants.</span></span> <span data-ttu-id="0db73-107">La valeur par défaut est **adRINone**.</span><span class="sxs-lookup"><span data-stu-id="0db73-107">The default value is **adRINone**.</span></span>
+<span data-ttu-id="be3c3-106">Définit et renvoie une valeur de type **Long** qui peut correspondre à l’une des constantes [RuleEnum](ruleenum.md).</span><span class="sxs-lookup"><span data-stu-id="be3c3-106">Sets and returns a **Long** value that can be one of the [RuleEnum](ruleenum.md) constants.</span></span> <span data-ttu-id="be3c3-107">La valeur par défaut est **adRINone**.</span><span class="sxs-lookup"><span data-stu-id="be3c3-107">The default value is **adRINone**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0db73-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="0db73-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="be3c3-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="be3c3-108">Remarks</span></span>
 
-<span data-ttu-id="0db73-109">Cette propriété est en lecture seule pour des objets [Key](key-object-adox.md) déjà ajoutés à la collection.</span><span class="sxs-lookup"><span data-stu-id="0db73-109">This property is read-only on [Key](key-object-adox.md) objects already appended to the collection.</span></span>
+<span data-ttu-id="be3c3-109">Cette propriété est en lecture seule pour des objets [Key](key-object-adox.md) déjà ajoutés à la collection.</span><span class="sxs-lookup"><span data-stu-id="be3c3-109">This property is read-only on [Key](key-object-adox.md) objects already appended to the collection.</span></span>
 

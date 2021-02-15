@@ -1,5 +1,5 @@
 ---
-title: Référence de l'objet relation (DAO)
+title: Relation object reference (DAO)
 TOCTitle: Relation Object
 ms:assetid: 681098d1-53c1-4066-8680-44700c3ff72d
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142315(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307006"
 ---
-# <a name="relation-object-reference-dao"></a><span data-ttu-id="15632-102">Référence de l'objet relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="15632-102">Relation object reference (DAO)</span></span>
+# <a name="relation-object-reference-dao"></a><span data-ttu-id="9ec14-102">Relation object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="9ec14-102">Relation object reference (DAO)</span></span>
 
-<span data-ttu-id="15632-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="15632-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9ec14-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9ec14-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="15632-104">Objet relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="15632-104">Relation object (DAO)</span></span>](relation-object-dao.md)
-- [<span data-ttu-id="15632-105">Relation, membres (DAO)</span><span class="sxs-lookup"><span data-stu-id="15632-105">Relation members (DAO)</span></span>](relation-members-dao.md)
-- [<span data-ttu-id="15632-106">Propriétés des relations (DAO)</span><span class="sxs-lookup"><span data-stu-id="15632-106">Relation properties (DAO)</span></span>](relation-properties-dao.md)
-- [<span data-ttu-id="15632-107">Méthodes de relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="15632-107">Relation methods (DAO)</span></span>](relation-methods-dao.md)
+- [<span data-ttu-id="9ec14-104">Relation, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="9ec14-104">Relation object (DAO)</span></span>](relation-object-dao.md)
+- [<span data-ttu-id="9ec14-105">Relation members (DAO)</span><span class="sxs-lookup"><span data-stu-id="9ec14-105">Relation members (DAO)</span></span>](relation-members-dao.md)
+- [<span data-ttu-id="9ec14-106">Relation properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="9ec14-106">Relation properties (DAO)</span></span>](relation-properties-dao.md)
+- [<span data-ttu-id="9ec14-107">Relation methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="9ec14-107">Relation methods (DAO)</span></span>](relation-methods-dao.md)
 

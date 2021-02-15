@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306565"
 ---
-# <a name="resync-method-example-vb"></a><span data-ttu-id="e8c01-102">Resync, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="e8c01-102">Resync method example (VB)</span></span>
+# <a name="resync-method-example-vb"></a><span data-ttu-id="b9181-102">Resync, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="b9181-102">Resync method example (VB)</span></span>
 
 
-<span data-ttu-id="e8c01-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8c01-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9181-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9181-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e8c01-104">Cet exemple montre comment utiliser la méthode [Resync](resync-method-ado.md) pour actualiser les données d'un jeu d'enregistrements statique.</span><span class="sxs-lookup"><span data-stu-id="e8c01-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="b9181-104">Cet exemple montre comment utiliser la méthode [Resync](resync-method-ado.md) pour actualiser les données d'un jeu d'enregistrements statique.</span><span class="sxs-lookup"><span data-stu-id="b9181-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```vb 
  

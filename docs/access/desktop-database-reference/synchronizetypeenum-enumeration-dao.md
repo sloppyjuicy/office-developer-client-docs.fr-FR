@@ -1,5 +1,5 @@
 ---
-title: SynchronizeTypeEnum, énumération (DAO)
+title: SynchronizeTypeEnum, éumération (DAO)
 TOCTitle: SynchronizeTypeEnum Enumeration
 ms:assetid: f9546171-283d-e9bd-5178-41bd4f41c9a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837004(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308448"
 ---
-# <a name="synchronizetypeenum-enumeration-dao"></a><span data-ttu-id="8374e-102">SynchronizeTypeEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="8374e-102">SynchronizeTypeEnum enumeration (DAO)</span></span>
+# <a name="synchronizetypeenum-enumeration-dao"></a><span data-ttu-id="aff60-102">SynchronizeTypeEnum, éumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="aff60-102">SynchronizeTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="8374e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8374e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="aff60-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aff60-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8374e-104">Cette énumération est utilisée avec la méthode **Synchronize** pour déterminer le type de synchronisation à appliquer à deux réplicas.</span><span class="sxs-lookup"><span data-stu-id="8374e-104">Used with the **Synchronize** method to determine the type of synchronization to apply to two replicas.</span></span>
+<span data-ttu-id="aff60-104">Cette énumération est utilisée avec la méthode **Synchronize** pour déterminer le type de synchronisation à appliquer à deux réplicas.</span><span class="sxs-lookup"><span data-stu-id="aff60-104">Used with the **Synchronize** method to determine the type of synchronization to apply to two replicas.</span></span>
 
 <table>
 <colgroup>
@@ -29,31 +29,31 @@ ms.locfileid: "32308448"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8374e-105">Nom</span><span class="sxs-lookup"><span data-stu-id="8374e-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="8374e-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="8374e-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="8374e-107">Description</span><span class="sxs-lookup"><span data-stu-id="8374e-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="aff60-105">Nom</span><span class="sxs-lookup"><span data-stu-id="aff60-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="aff60-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="aff60-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="aff60-107">Description</span><span class="sxs-lookup"><span data-stu-id="aff60-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8374e-108">dbRepExportChanges</span><span class="sxs-lookup"><span data-stu-id="8374e-108">dbRepExportChanges</span></span></p></td>
-<td><p><span data-ttu-id="8374e-109">0,1</span><span class="sxs-lookup"><span data-stu-id="8374e-109">1</span></span></p></td>
-<td><p><span data-ttu-id="8374e-110">Envoie les modifications de la base de données active vers la base de données cible.</span><span class="sxs-lookup"><span data-stu-id="8374e-110">Sends changes from current database to target database.</span></span></p></td>
+<td><p><span data-ttu-id="aff60-108">dbRepExportChanges</span><span class="sxs-lookup"><span data-stu-id="aff60-108">dbRepExportChanges</span></span></p></td>
+<td><p><span data-ttu-id="aff60-109">1 </span><span class="sxs-lookup"><span data-stu-id="aff60-109">1</span></span></p></td>
+<td><p><span data-ttu-id="aff60-110">Envoie les modifications de la base de données active vers la base de données cible.</span><span class="sxs-lookup"><span data-stu-id="aff60-110">Sends changes from current database to target database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8374e-111">dbRepImpExpChanges</span><span class="sxs-lookup"><span data-stu-id="8374e-111">dbRepImpExpChanges</span></span></p></td>
-<td><p><span data-ttu-id="8374e-112">4</span><span class="sxs-lookup"><span data-stu-id="8374e-112">4</span></span></p></td>
-<td><p><span data-ttu-id="8374e-113">Envoie et reçoit les données dans le cadre d'un transfert bidirectionnel.</span><span class="sxs-lookup"><span data-stu-id="8374e-113">Sends and receives data in a bidirectional exchange.</span></span></p></td>
+<td><p><span data-ttu-id="aff60-111">dbRepImpExpChanges</span><span class="sxs-lookup"><span data-stu-id="aff60-111">dbRepImpExpChanges</span></span></p></td>
+<td><p><span data-ttu-id="aff60-112">4 </span><span class="sxs-lookup"><span data-stu-id="aff60-112">4</span></span></p></td>
+<td><p><span data-ttu-id="aff60-113">Envoie et reçoit les données dans le cadre d'un transfert bidirectionnel.</span><span class="sxs-lookup"><span data-stu-id="aff60-113">Sends and receives data in a bidirectional exchange.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8374e-114">dbRepImportChanges</span><span class="sxs-lookup"><span data-stu-id="8374e-114">dbRepImportChanges</span></span></p></td>
-<td><p><span data-ttu-id="8374e-115">n°2</span><span class="sxs-lookup"><span data-stu-id="8374e-115">2</span></span></p></td>
-<td><p><span data-ttu-id="8374e-116">Reçoit les modifications de la base de données cible.</span><span class="sxs-lookup"><span data-stu-id="8374e-116">Receives changes from target database.</span></span></p></td>
+<td><p><span data-ttu-id="aff60-114">dbRepImportChanges</span><span class="sxs-lookup"><span data-stu-id="aff60-114">dbRepImportChanges</span></span></p></td>
+<td><p><span data-ttu-id="aff60-115">2 </span><span class="sxs-lookup"><span data-stu-id="aff60-115">2</span></span></p></td>
+<td><p><span data-ttu-id="aff60-116">Reçoit les modifications de la base de données cible.</span><span class="sxs-lookup"><span data-stu-id="aff60-116">Receives changes from target database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8374e-117">dbRepSyncInternet</span><span class="sxs-lookup"><span data-stu-id="8374e-117">dbRepSyncInternet</span></span></p></td>
-<td><p><span data-ttu-id="8374e-118">Seiz</span><span class="sxs-lookup"><span data-stu-id="8374e-118">16</span></span></p></td>
-<td><p><span data-ttu-id="8374e-119">Envoie et reçoit les données dans le cadre d'un transfert bidirectionnel.</span><span class="sxs-lookup"><span data-stu-id="8374e-119">Sends and receives data in a bidirectional exchange.</span></span></p></td>
+<td><p><span data-ttu-id="aff60-117">dbRepSyncInternet</span><span class="sxs-lookup"><span data-stu-id="aff60-117">dbRepSyncInternet</span></span></p></td>
+<td><p><span data-ttu-id="aff60-118">16 </span><span class="sxs-lookup"><span data-stu-id="aff60-118">16</span></span></p></td>
+<td><p><span data-ttu-id="aff60-119">Envoie et reçoit les données dans le cadre d'un transfert bidirectionnel.</span><span class="sxs-lookup"><span data-stu-id="aff60-119">Sends and receives data in a bidirectional exchange.</span></span></p></td>
 </tr>
 </tbody>
 </table>

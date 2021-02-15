@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312088"
 ---
-# <a name="value-property-ado-md"></a><span data-ttu-id="e7946-102">Value, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e7946-102">Value property (ADO MD)</span></span>
+# <a name="value-property-ado-md"></a><span data-ttu-id="11a7a-102">Value, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="11a7a-102">Value property (ADO MD)</span></span>
 
 
-<span data-ttu-id="e7946-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7946-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="11a7a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11a7a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e7946-104">Indique la valeur de la cellule active.</span><span class="sxs-lookup"><span data-stu-id="e7946-104">Indicates the value of the current cell.</span></span>
+<span data-ttu-id="11a7a-104">Indique la valeur de la cellule active.</span><span class="sxs-lookup"><span data-stu-id="11a7a-104">Indicates the value of the current cell.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e7946-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="e7946-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="11a7a-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="11a7a-105">Return values</span></span>
 
-<span data-ttu-id="e7946-106">Retourne une valeur de type **Variant** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="e7946-106">Returns a **Variant** and is read-only.</span></span>
+<span data-ttu-id="11a7a-106">Retourne une valeur de type **Variant** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="11a7a-106">Returns a **Variant** and is read-only.</span></span>
 

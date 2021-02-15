@@ -1,5 +1,5 @@
 ---
-title: Propriétés TableDefs (DAO)
+title: TableDefs properties (DAO)
 TOCTitle: Properties
 ms:assetid: a565e9c7-36ef-47b7-a476-56333cc7f2a2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142529(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314118"
 ---
-# <a name="tabledefs-properties-dao"></a><span data-ttu-id="33f7d-102">Propriétés TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="33f7d-102">TableDefs properties (DAO)</span></span>
+# <a name="tabledefs-properties-dao"></a><span data-ttu-id="65300-102">TableDefs properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="65300-102">TableDefs properties (DAO)</span></span>
 
-<span data-ttu-id="33f7d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="33f7d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="65300-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="65300-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="33f7d-104">TableDefs. Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="33f7d-104">TableDefs.Count property (DAO)</span></span>](tabledefs-count-property-dao.md)
+- [<span data-ttu-id="65300-104">TableDefs.Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="65300-104">TableDefs.Count property (DAO)</span></span>](tabledefs-count-property-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet (ADOX)
+title: Référence de l’objet View (ADOX)
 TOCTitle: View object (ADOX)
 ms:assetid: 62222c5e-61b6-4984-9b24-b5fcf1d90861
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249366(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312144"
 ---
-# <a name="view-object-adox-reference"></a><span data-ttu-id="37dc7-102">Référence d'objet (ADOX)</span><span class="sxs-lookup"><span data-stu-id="37dc7-102">View object (ADOX) reference</span></span>
+# <a name="view-object-adox-reference"></a><span data-ttu-id="51dfd-102">Référence de l’objet View (ADOX)</span><span class="sxs-lookup"><span data-stu-id="51dfd-102">View object (ADOX) reference</span></span>
 
-<span data-ttu-id="37dc7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="37dc7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="51dfd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51dfd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="37dc7-104">View, objet (ADOX)</span><span class="sxs-lookup"><span data-stu-id="37dc7-104">View object (ADOX)</span></span>](view-object-adox.md)
-- [<span data-ttu-id="37dc7-105">Afficher les propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="37dc7-105">View properties, methods, and events (ADOX)</span></span>](view-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="51dfd-104">View, objet (ADOX)</span><span class="sxs-lookup"><span data-stu-id="51dfd-104">View object (ADOX)</span></span>](view-object-adox.md)
+- [<span data-ttu-id="51dfd-105">Afficher les propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="51dfd-105">View properties, methods, and events (ADOX)</span></span>](view-properties-methods-and-events-adox.md)
 

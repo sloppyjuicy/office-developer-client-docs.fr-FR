@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309137"
 ---
-# <a name="relatedcolumn-property-adox"></a><span data-ttu-id="2342a-102">RelatedColumn, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2342a-102">RelatedColumn property (ADOX)</span></span>
+# <a name="relatedcolumn-property-adox"></a><span data-ttu-id="c549b-102">RelatedColumn, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c549b-102">RelatedColumn property (ADOX)</span></span>
 
 
-<span data-ttu-id="2342a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2342a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c549b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c549b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2342a-104">Indique le nom de la colonne liée dans la table liée (colonnes clés uniquement).</span><span class="sxs-lookup"><span data-stu-id="2342a-104">Indicates the name of the related column in the related table (key columns only).</span></span>
+<span data-ttu-id="c549b-104">Indique le nom de la colonne liée dans la table liée (colonnes clés uniquement).</span><span class="sxs-lookup"><span data-stu-id="c549b-104">Indicates the name of the related column in the related table (key columns only).</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="2342a-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="2342a-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="c549b-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="c549b-105">Settings and return values</span></span>
 
-<span data-ttu-id="2342a-106">Définit et renvoie une valeur de type **String** qui correspond au nom de la colonne liée dans la table liée.</span><span class="sxs-lookup"><span data-stu-id="2342a-106">Sets and returns a **String** value that is the name of the related column in the related table.</span></span>
+<span data-ttu-id="c549b-106">Définit et renvoie une valeur de type **String** qui correspond au nom de la colonne liée dans la table liée.</span><span class="sxs-lookup"><span data-stu-id="c549b-106">Sets and returns a **String** value that is the name of the related column in the related table.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2342a-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="2342a-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c549b-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="c549b-107">Remarks</span></span>
 
-<span data-ttu-id="2342a-108">La valeur par défaut est une chaîne vide ("").</span><span class="sxs-lookup"><span data-stu-id="2342a-108">The default value is an empty string ("").</span></span>
+<span data-ttu-id="c549b-108">La valeur par défaut est une chaîne vide ("").</span><span class="sxs-lookup"><span data-stu-id="c549b-108">The default value is an empty string ("").</span></span>
 
-<span data-ttu-id="2342a-109">Cette propriété est en lecture seule pour des objets [Column](column-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="2342a-109">This property is read-only for [Column](column-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="c549b-109">Cette propriété est en lecture seule pour des objets [Column](column-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="c549b-109">This property is read-only for [Column](column-object-adox.md) objects already appended to a collection.</span></span>
 

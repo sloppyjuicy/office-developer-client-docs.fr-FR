@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307125"
 ---
-# <a name="refresh-method-example-vj"></a><span data-ttu-id="57771-102">Refresh, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="57771-102">Refresh method example (VJ++)</span></span>
+# <a name="refresh-method-example-vj"></a><span data-ttu-id="1b287-102">Refresh, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1b287-102">Refresh method example (VJ++)</span></span>
 
 
-<span data-ttu-id="57771-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="57771-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1b287-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b287-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="57771-104">Cet exemple montre comment utiliser la méthode [Refresh](refresh-method-ado.md) pour actualiser la collection [Parameters](parameters-collection-ado.md) d'un objet [Command](command-object-ado.md) de procédure stockée.</span><span class="sxs-lookup"><span data-stu-id="57771-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="1b287-104">Cet exemple montre comment utiliser la méthode [Refresh](refresh-method-ado.md) pour actualiser la collection [Parameters](parameters-collection-ado.md) d'un objet [Command](command-object-ado.md) de procédure stockée.</span><span class="sxs-lookup"><span data-stu-id="1b287-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
 
 ```java 
  

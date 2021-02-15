@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313152"
 ---
-# <a name="user-interface-commands"></a><span data-ttu-id="2484e-102">Commandes d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="2484e-102">User interface commands</span></span>
+# <a name="user-interface-commands"></a><span data-ttu-id="9ef4c-102">Commandes d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="9ef4c-102">User interface commands</span></span>
 
-<span data-ttu-id="2484e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2484e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9ef4c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9ef4c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="2484e-104">AddMenu, action de macro</span><span class="sxs-lookup"><span data-stu-id="2484e-104">AddMenu macro action</span></span>](addmenu-macro-action.md)
-- [<span data-ttu-id="2484e-105">BrowseTo, action de macro</span><span class="sxs-lookup"><span data-stu-id="2484e-105">BrowseTo macro action</span></span>](browseto-macro-action.md)
-- [<span data-ttu-id="2484e-106">LockNavigationPane, action de macro</span><span class="sxs-lookup"><span data-stu-id="2484e-106">LockNavigationPane macro action</span></span>](locknavigationpane-macro-action.md)
-- [<span data-ttu-id="2484e-107">MessageBox, action de macro</span><span class="sxs-lookup"><span data-stu-id="2484e-107">MessageBox macro action</span></span>](messagebox-macro-action.md)
-- [<span data-ttu-id="2484e-108">NavigateTo, action de macro</span><span class="sxs-lookup"><span data-stu-id="2484e-108">NavigateTo macro action</span></span>](navigateto-macro-action.md)
-- [<span data-ttu-id="2484e-109">SetDisplayedCategories, action de macro</span><span class="sxs-lookup"><span data-stu-id="2484e-109">SetDisplayedCategories macro action</span></span>](setdisplayedcategories-macro-action.md)
-- [<span data-ttu-id="2484e-110">SetMenuItem, action de macro</span><span class="sxs-lookup"><span data-stu-id="2484e-110">SetMenuItem macro action</span></span>](setmenuitem-macro-action.md)
-- [<span data-ttu-id="2484e-111">ShowToolbar, action de macro</span><span class="sxs-lookup"><span data-stu-id="2484e-111">ShowToolbar macro action</span></span>](showtoolbar-macro-action.md)
+- [<span data-ttu-id="9ef4c-104">AddMenu, action de macro</span><span class="sxs-lookup"><span data-stu-id="9ef4c-104">AddMenu macro action</span></span>](addmenu-macro-action.md)
+- [<span data-ttu-id="9ef4c-105">BrowseTo, action de macro</span><span class="sxs-lookup"><span data-stu-id="9ef4c-105">BrowseTo macro action</span></span>](browseto-macro-action.md)
+- [<span data-ttu-id="9ef4c-106">LockNavigationPane, action de macro</span><span class="sxs-lookup"><span data-stu-id="9ef4c-106">LockNavigationPane macro action</span></span>](locknavigationpane-macro-action.md)
+- [<span data-ttu-id="9ef4c-107">MessageBox, action de macro</span><span class="sxs-lookup"><span data-stu-id="9ef4c-107">MessageBox macro action</span></span>](messagebox-macro-action.md)
+- [<span data-ttu-id="9ef4c-108">NavigateTo, action de macro</span><span class="sxs-lookup"><span data-stu-id="9ef4c-108">NavigateTo macro action</span></span>](navigateto-macro-action.md)
+- [<span data-ttu-id="9ef4c-109">SetDisplayedCategories, action de macro</span><span class="sxs-lookup"><span data-stu-id="9ef4c-109">SetDisplayedCategories macro action</span></span>](setdisplayedcategories-macro-action.md)
+- [<span data-ttu-id="9ef4c-110">SetMenuItem, action de macro</span><span class="sxs-lookup"><span data-stu-id="9ef4c-110">SetMenuItem macro action</span></span>](setmenuitem-macro-action.md)
+- [<span data-ttu-id="9ef4c-111">ShowToolbar, action de macro</span><span class="sxs-lookup"><span data-stu-id="9ef4c-111">ShowToolbar macro action</span></span>](showtoolbar-macro-action.md)
 

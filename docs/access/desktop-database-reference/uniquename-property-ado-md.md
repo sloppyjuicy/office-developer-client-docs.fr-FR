@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313754"
 ---
-# <a name="uniquename-property-ado-md"></a><span data-ttu-id="15be6-102">UniqueName, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="15be6-102">UniqueName property (ADO MD)</span></span>
+# <a name="uniquename-property-ado-md"></a><span data-ttu-id="fc39d-102">UniqueName, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="fc39d-102">UniqueName property (ADO MD)</span></span>
 
 
-<span data-ttu-id="15be6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="15be6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc39d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc39d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="15be6-104">Indique un nom non ambigu pour l'objet actif.</span><span class="sxs-lookup"><span data-stu-id="15be6-104">Indicates an unambiguous name for the current object.</span></span>
+<span data-ttu-id="fc39d-104">Indique un nom non ambigu pour l'objet actif.</span><span class="sxs-lookup"><span data-stu-id="fc39d-104">Indicates an unambiguous name for the current object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="15be6-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="15be6-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="fc39d-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="fc39d-105">Return values</span></span>
 
-<span data-ttu-id="15be6-106">Retourne une valeur de type **String** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="15be6-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="fc39d-106">Retourne une valeur de type **String** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="fc39d-106">Returns a **String** and is read-only.</span></span>
 
