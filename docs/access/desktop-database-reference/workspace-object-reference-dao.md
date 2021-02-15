@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet Workspace (DAO)
+title: Workspace object reference (DAO)
 TOCTitle: Workspace
 ms:assetid: 25abb11e-6045-4c74-b59e-127e4011b21a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124071(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302533"
 ---
-# <a name="workspace-object-reference-dao"></a>Référence d'objet Workspace (DAO)
+# <a name="workspace-object-reference-dao"></a>Workspace object reference (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Objet Workspace (DAO)](workspace-object-dao.md)
-- [Workspace, membres (DAO)](workspace-members-dao.md)
-- [Propriétés de l'espace de travail (DAO)](workspace-properties-dao.md)
-- [Méthodes d'espace de travail (DAO)](workspace-methods-dao.md)
+- [Workspace, objet (DAO)](workspace-object-dao.md)
+- [Workspace members (DAO)](workspace-members-dao.md)
+- [Workspace properties (DAO)](workspace-properties-dao.md)
+- [Workspace methods (DAO)](workspace-methods-dao.md)
 

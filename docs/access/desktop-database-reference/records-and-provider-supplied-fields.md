@@ -24,7 +24,7 @@ Si l'objet **Record** est ouvert depuis un objet **Recordset**, la collection **
 
 Le fournisseur peut insérer d'autres champs utilisés comme caractéristiques supplémentaires de l'objet **Record**. Par conséquent, un objet **Record** peut comporter des champs uniques, non présents dans l'objet **Recordset** ou tout objet **Record** dérivé d'une autre ligne de l'objet **Recordset**.
 
-Par exemple, toutes les lignes d'un **objet Recordset** dérivé d'une source de données de messagerie électronique peuvent contenir des colonnes telles que de, à et objet. Un objet **Record** dérivé de cet objet **Recordset** comportera les mêmes champs. Cependant, l'objet **Record** peut également comporter d'autres champs uniques et spécifiques au message représenté par cet objet **Record**, Pièce jointe et CC, par exemple.
+Par exemple, toutes les lignes d’un **recordset** dérivé d’une source de données de messagerie peuvent avoir des colonnes telles que De, À et Objet. Un objet **Record** dérivé de cet objet **Recordset** comportera les mêmes champs. Cependant, l'objet **Record** peut également comporter d'autres champs uniques et spécifiques au message représenté par cet objet **Record**, Pièce jointe et CC, par exemple.
 
 Bien que l'objet **Record** et la ligne active de l'objet **Recordset** comportent les mêmes champs, ceux-ci diffèrent, car les objets **Record** et **Recordset** possèdent des méthodes et des propriétés différentes.
 
@@ -101,7 +101,7 @@ Un *objet Recordset de ressources* comporte les colonnes suivantes.
 <tr class="odd">
 <td><p>RESOURCE_CONTENTCLASS</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indique le type MIME du document, en &quot;indiquant le format comme text/html&quot;. '</p></td>
+<td><p>Indique le type MIME du document, indiquant le format tel que &quot; &quot; texte/html.</p></td>
 </tr>
 <tr class="even">
 <td><p>RESOURCE_CONTENTLANGUAGE</p></td>

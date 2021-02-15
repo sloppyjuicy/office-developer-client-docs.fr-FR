@@ -1,5 +1,5 @@
 ---
-title: Recordset. Fields, propriété (DAO)
+title: Recordset.Fields, propriété (DAO)
 TOCTitle: Fields Property
 ms:assetid: ba6bbc10-41e0-87af-4372-f81205e7a320
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822496(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300510"
 ---
-# <a name="recordsetfields-property-dao"></a>Recordset. Fields, propriété (DAO)
+# <a name="recordsetfields-property-dao"></a>Recordset.Fields, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Renvoie une collection **Fields** qui représente tous les objets **Field** stoc
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Ceux
+*.* Champs
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 

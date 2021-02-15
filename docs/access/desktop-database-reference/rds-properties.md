@@ -39,11 +39,11 @@ ms.locfileid: "32300839"
 <td><p>Indique si l'exécution asynchrone est activée.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="fetchoptions-property-rds.md">FetchOptions,</a></p></td>
+<td><p><a href="fetchoptions-property-rds.md">FetchOptions</a></p></td>
 <td><p>Indique le type d'extraction asynchrone.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filtercolumn-property-rds.md">FilterColumn,</a></p></td>
+<td><p><a href="filtercolumn-property-rds.md">FilterColumn</a></p></td>
 <td><p>Indique la colonne sur laquelle portent les critères de filtre.</p></td>
 </tr>
 <tr class="odd">
@@ -55,7 +55,7 @@ ms.locfileid: "32300839"
 <td><p>Indique la valeur à utiliser pour filtrer des enregistrements.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="handler-property-rds.md">D</a></p></td>
+<td><p><a href="handler-property-rds.md">Handler</a></p></td>
 <td><p>Indique le nom d'un programme de personnalisation côté serveur (<em>gestionnaire</em>) qui étend les fonctionnalités de <strong>RDSServer.DataFactory</strong> et tous les paramètres utilisés par le <em>gestionnaire</em>.</p></td>
 </tr>
 <tr class="even">

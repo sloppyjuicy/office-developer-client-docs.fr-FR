@@ -25,7 +25,7 @@ ADO fournit aux développeurs un modèle objet d'une puissance et d'une logique 
 
 - Accéder à des informations d'un magasin de fichiers sur Internet
 
-- Manipulation de messages et de dossiers dans un système de messagerie.
+- Manipulation des messages et des dossiers dans un système de messagerie.
 
 - Enregistrer des données d'une base de données dans un fichier XML
 

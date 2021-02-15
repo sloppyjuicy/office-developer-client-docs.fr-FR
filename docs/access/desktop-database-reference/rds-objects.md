@@ -32,7 +32,7 @@ ms.locfileid: "32300881"
 </tr>
 <tr class="odd">
 <td><p><a href="datacontrol-object-rds.md">DataControl (RDS)</a></p></td>
-<td><p>Lie un <strong>objet Recordset</strong> de requête de données à un ou plusieurs contrôles (par exemple, une zone de texte, un contrôle Grid ou une zone de liste déroulante) pour afficher les données du <strong>jeu d'enregistrements</strong> sur une page Web.</p></td>
+<td><p>Lie un jeu <strong></strong> d’enregistrements de requête de données à un ou plusieurs contrôles (par <strong></strong> exemple, une zone de texte, un contrôle grille ou une zone de liste déroulante) pour afficher les données du jeu d’enregistrements sur une page web.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></p></td>

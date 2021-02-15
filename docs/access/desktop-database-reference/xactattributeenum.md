@@ -39,12 +39,12 @@ Spécifie les attributs de transaction d’un objet [Connection](connection-obje
 <tr class="odd">
 <td><p><strong>adXactAbortRetaining</strong></p></td>
 <td><p>262144</p></td>
-<td><p>Effectue des abandons de conservation; autrement dit, l'appel de <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> démarre automatiquement une nouvelle transaction. Les fournisseurs ne prennent pas tous en charge cette fonctionnalité.</p></td>
+<td><p>Effectue des abandons de rétention ; autrement dit, <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">l’appel de RollbackTrans</a> démarre automatiquement une nouvelle transaction. Les fournisseurs ne prennent pas tous en charge cette fonctionnalité.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Valeur adXactCommitRetaining</strong></p></td>
+<td><p><strong>adXactCommitRetaining</strong></p></td>
 <td><p>131072</p></td>
-<td><p>Effectue la conservation des validations; autrement dit, l'appel de <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> démarre automatiquement une nouvelle transaction. Les fournisseurs ne prennent pas tous en charge cette fonctionnalité.</p></td>
+<td><p>Effectue des validations de rétention ; autrement dit, <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">l’appel de CommitTrans</a> démarre automatiquement une nouvelle transaction. Les fournisseurs ne prennent pas tous en charge cette fonctionnalité.</p></td>
 </tr>
 </tbody>
 </table>
@@ -65,10 +65,10 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. XactAttribute. ABORTRETAINING</p></td>
+<td><p>AdoEnums.XactAttribute.ABORTRETAINING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. XactAttribute. COMMITRETAINING</p></td>
+<td><p>AdoEnums.XactAttribute.COMMITRETAINING</p></td>
 </tr>
 </tbody>
 </table>

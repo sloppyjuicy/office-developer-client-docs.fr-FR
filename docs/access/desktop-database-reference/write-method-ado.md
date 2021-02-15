@@ -1,5 +1,5 @@
 ---
-title: Write, méthode-ActiveX Data Objects (ADO)
+title: Write, méthode - ActiveX Data Objects (ADO)
 TOCTitle: Write method (ADO)
 ms:assetid: cabe4581-409f-7f05-bd59-d495bfb2c6fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)
@@ -22,11 +22,11 @@ ms.locfileid: "32302463"
 
 ## <a name="syntax"></a>Syntaxe
 
-*Stream*. *Mémoire tampon* d'écriture
+*Stream*. Écriture d’une *mémoire tampon*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Buffer* |Valeur de type **Variant** contenant un tableau d'octets à écrire.|
 

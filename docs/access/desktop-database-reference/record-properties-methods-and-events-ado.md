@@ -1,5 +1,5 @@
 ---
-title: Propriétés, méthodes et événements d'enregistrement (ADO)
+title: Enregistrer des propriétés, des méthodes et des événements (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c38c915c-da8f-ce52-cf36-7463829d2278
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300713"
 ---
-# <a name="record-properties-methods-and-events-ado"></a>Propriétés, méthodes et événements d'enregistrement (ADO)
+# <a name="record-properties-methods-and-events-ado"></a>Enregistrer des propriétés, des méthodes et des événements (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -40,7 +40,7 @@ ms.locfileid: "32300713"
 - [MoveRecord, méthode](moverecord-method-ado.md)
 - [Open, méthode (enregistrement ADO)](open-method-ado-record.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

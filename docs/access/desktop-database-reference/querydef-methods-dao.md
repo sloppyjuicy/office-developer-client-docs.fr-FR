@@ -18,9 +18,9 @@ ms.locfileid: "32301035"
 
 **S’applique à** : Access 2013, Office 2013
 
-- [QueryDef. Cancel, méthode (DAO)](querydef-cancel-method-dao.md)
-- [QueryDef. Close, méthode (DAO)](querydef-close-method-dao.md)
-- [QueryDef. CreateProperty, méthode (DAO)](querydef-createproperty-method-dao.md)
-- [QueryDef. Execute, méthode (DAO)](querydef-execute-method-dao.md)
-- [QueryDef. OpenRecordset, méthode (DAO)](querydef-openrecordset-method-dao.md)
+- [Méthode QueryDef.Cancel (DAO)](querydef-cancel-method-dao.md)
+- [QueryDef.Close, méthode (DAO)](querydef-close-method-dao.md)
+- [Méthode QueryDef.CreateProperty (DAO)](querydef-createproperty-method-dao.md)
+- [QueryDef.Execute, méthode (DAO)](querydef-execute-method-dao.md)
+- [Méthode QueryDef.OpenRecordset (DAO)](querydef-openrecordset-method-dao.md)
 

@@ -38,7 +38,7 @@ Une ressource (par exemple, un fichier ou un répertoire) peut être identifiée
 Les méthodes de navigation et de modification des données portant sur l'objet **Record** acceptent également les URL relatives, qui localisent une ressource à l'aide d'une URL absolue ou du contexte de l'objet **Connection** comme point de départ.
 
 > [!NOTE]
-> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
+> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [URL absolues et relatives.](absolute-and-relative-urls.md)
 
 
 

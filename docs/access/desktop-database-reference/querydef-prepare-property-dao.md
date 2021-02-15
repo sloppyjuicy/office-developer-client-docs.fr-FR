@@ -1,5 +1,5 @@
 ---
-title: QueryDef. Prepare, propriété (DAO)
+title: QueryDef.Prepare, propriété (DAO)
 TOCTitle: Prepare Property
 ms:assetid: d5a285c4-bd00-028b-b785-f1890db29bab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835035(v=office.15)
@@ -18,15 +18,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303268"
 ---
-# <a name="querydefprepare-property-dao"></a>QueryDef. Prepare, propriété (DAO)
+# <a name="querydefprepare-property-dao"></a>QueryDef.Prepare, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Instructions
+*.* Préparer
 
-*expression* Variable qui représente un objet **QueryDef** .
+*expression* Variable représentant un objet **QueryDef**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -34,7 +34,7 @@ La propriété **Prepare** permet soit de créer une procédure stockée tempora
 
 La création d'une procédure stockée peut ralentir l'opération initiale, mais augmente les performances de toutes les références ultérieures à la requête. Toutefois, certaines requêtes ne peuvent pas être exécutées sous la forme d'une procédure stockée. Dans ce cas, vous devez définir la propriété **Prepare** sur **dbQUnprepare**.
 
-Si **Prepare** est définie sur **dbQPrepare**, elle peut être remplacée lors de l'exécution de la requête en définissant l'argument options de la méthode **[Execute](querydef-execute-method-dao.md)** sur **dbExecDirect**.
+Si **prepare** est définie sur **dbQPrepare,** cela peut être effectué lorsque la requête est exécutée en attérialant l’argument options de la méthode **[Execute](querydef-execute-method-dao.md)** sur **dbExecDirect**.
 
 > [!NOTE]
 > [!REMARQUE] L'API **SQLPrepare** ODBC est invoqué dès que la propriété DAO **[SQL](querydef-sql-property-dao.md)** est définie. Par conséquent, pour améliorer les performances à l'aide de l'option **dbQUnprepare**, vous devez définir la propriété **Prepare** avant de définir la propriété **SQL**.

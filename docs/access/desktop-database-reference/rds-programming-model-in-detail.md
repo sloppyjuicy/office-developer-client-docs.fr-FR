@@ -21,8 +21,8 @@ ms.locfileid: "32300867"
 La liste ci-dessous répertorie les éléments-clés du modèle de programmation RDS :
 
 - RDS. DataSpace
-- RDSServer. DataFactory
-- RDS. RDS
+- RDSServer.DataFactory
+- RDS. DataControl
 - Événements
 
 ## <a name="rdsdataspace"></a>RDS. DataSpace
@@ -35,19 +35,19 @@ Le programme serveur est spécifié au moyen d'un identificateur de programme ou
 
 En interne, RDS fait une distinction selon que le programme serveur est installé sur un serveur distant sur Internet ou un intranet, sur un serveur sur un réseau local ou qu’il n’est pas installé sur un serveur mais sur une bibliothèque de liens dynamiques (DLL). En faisant cette distinction, RDS détermine la façon dont les informations sont échangées entre le client et le serveur et retourne des références différentes à votre application. Cependant, en ce qui vous concerne, cette distinction est transparente et sans importance puisque vous recevez de toute façon une référence de programme exploitable.
 
-## <a name="rdsserverdatafactory"></a>RDSServer. DataFactory
+## <a name="rdsserverdatafactory"></a>RDSServer.DataFactory
 
 RDS fournit un programme serveur par défaut capable d’exécuter des requêtes SQL sur la source de données et de retourner un objet [Recordset](recordset-object-ado.md) ou de prendre un objet **Recordset** et de mettre à jour la source de données.
 
 Le modèle objet RDS fournit cette fonctionnalité grâce à l'objet [RDSServer.DataFactory](datafactory-object-rdsserver.md).
 
-De plus, cet objet a une méthode pour créer un objet **Recordset** vide que vous pouvez remplir par programme ([CreateRecordset](createrecordset-method-rds.md)), et une autre méthode pour convertir un objet **Recordset** en une chaîne de texte pour créer une page Web ([ ConvertToString](converttostring-method-rds.md)).
+En outre, cet objet dispose d’une méthode pour créer un objet **Recordset** vide que vous pouvez remplir par programme ([CreateRecordset](createrecordset-method-rds.md)), et d’une autre méthode pour convertir un objet **Recordset** en chaîne de texte pour créer une page web ([ConvertToString](converttostring-method-rds.md)).
 
 ADO vous permet de remplacer une partie du comportement de commande et de connexion standard de **RDSServer.DataFactory** grâce à un gestionnaire **DataFactory** et à un fichier de personnalisation qui contient les paramètres de connexion, de commande et de sécurité.
 
 Le programme serveur est parfois désigné par le terme *objet métier*. Vous pouvez écrire un objet métier pour effectuer des opérations plus complexes d'accès aux données, des contrôles de validité, etc. Même si vous écrivez votre propre objet métier, vous pouvez créer une instance d'un objet **RDSServer.DataFactory** et utiliser certaines de ses méthodes pour réaliser vos propres tâches.
 
-## <a name="rdsdatacontrol"></a>RDS. RDS
+## <a name="rdsdatacontrol"></a>RDS. DataControl
 
 RDS offre la possibilité de combiner les fonctionnalités de **RDS.DataSpace** et de **RDSServer.DataFactory** et permet aux contrôles visuels d'utiliser facilement l'objet **Recordset** retourné par une requête exécutée sur une source de données. Dans la plupart des cas, RDS tente d'accéder automatiquement aux informations sur le serveur et de les afficher dans un contrôle visuel.
 
@@ -55,13 +55,13 @@ Le modèle objet RDS fournit ces fonctionnalités grâce à l'objet [RDS.DataCon
 
 L'objet **RDS.DataControl** présente deux aspects. Le premier porte sur la source de données. Si vous définissez les informations de connexion et de commande à l'aide des propriétés **Connect** et **SQL** de l'objet **RDS.DataControl**, la source de données utilise automatiquement l'objet **RDS.DataSpace** pour créer une référence à l'objet **RDSServer.DataFactory** par défaut. Puis, l'objet **RDSServer.DataFactory** utilise la valeur de la propriété **Connect** pour établir la connexion à la source de données et la valeur de la propriété **SQL** pour obtenir un objet **Recordset** à partir de la source de données et retourne l'objet **Recordset** à l'objet **RDS.DataControl**.
 
-Le second aspect porte sur l'affichage des informations de l'objet **Recordset** retournées dans un contrôle visuel. Vous pouvez associer un contrôle visuel à l' **objet RDS. DataControl** (dans un processus appelé liaison) et accéder aux informations de l'objet Recordset **** associé, affichant les résultats de la requête sur une page Web dans Microsoft Internet Explorer. Chaque objet **RDS.DataControl** lie un objet **Recordset**, représentant les résultats d'une seule requête, à un ou plusieurs contrôles visuels (par exemple, une zone de texte, une zone de liste déroulante, un contrôle Grid, etc.). Une page peut comporter plusieurs objets **RDS.DataControl**. Chaque objet **RDS.DataControl** peut être connecté à une source de données différente et contenir les résultats d'une requête distincte.
+Le second aspect porte sur l'affichage des informations de l'objet **Recordset** retournées dans un contrôle visuel. Vous pouvez associer un contrôle visuel au **rdS. DataControl** (dans un processus appelé liaison) et accéder aux informations dans l’objet **Recordset** associé, affichant les résultats de requête sur une page web dans Microsoft Internet Explorer. Chaque objet **RDS.DataControl** lie un objet **Recordset**, représentant les résultats d'une seule requête, à un ou plusieurs contrôles visuels (par exemple, une zone de texte, une zone de liste déroulante, un contrôle Grid, etc.). Une page peut comporter plusieurs objets **RDS.DataControl**. Chaque objet **RDS.DataControl** peut être connecté à une source de données différente et contenir les résultats d'une requête distincte.
 
 L'objet **RDS.DataControl** comporte ses propres méthodes de navigation, de tri et de filtrage des lignes de l'objet **Recordset** associé. Ces méthodes, bien que similaires à celles de l'objet **Recordset** ADO, présentent quelques différences.
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
-RDS prend en charge deux événements qui lui sont propres et indépendants du modèle d'événement ADO. L'événement [onreadystatechange](onreadystatechange-event-rds.md) est appelé chaque fois que l' **objet RDS. DataControl** [](readystate-property-rds.md) , la propriété est modifiée, ce qui vous avertit lorsqu'une opération asynchrone s'est déroulée correctement, s'est terminée ou a rencontré une erreur. L'événement [onError](onerror-event-rds.md) est appelé chaque fois qu'une erreur se produit, même si l'erreur se produit au cours d'une opération asynchrone.
+RDS prend en charge deux événements qui lui sont propres et indépendants du modèle d'événement ADO. [L’événement onReadyStateChange](onreadystatechange-event-rds.md) est appelé chaque fois que **rdS. Modification de** [la propriété ReadyState](readystate-property-rds.md) de DataControl, vous notifiant ainsi qu’une opération asynchrone s’est correctement terminée, terminée ou a connu une erreur. L'événement [onError](onerror-event-rds.md) est appelé chaque fois qu'une erreur se produit, même si l'erreur se produit au cours d'une opération asynchrone.
 
 > [!NOTE]
 > [!REMARQUE] Microsoft Internet Explorer fournit à RDS deux événements supplémentaires : **onDataSetChanged** (l'objet **Recordset** est fonctionnel mais n'a pas terminé de récupérer des lignes) et **onDataSetComplete** (l'objet **Recordset** a fini de récupérer des lignes).

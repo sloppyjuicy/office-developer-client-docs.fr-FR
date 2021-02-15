@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.Name (DAO)
+title: Recordset.Name, propriété (DAO)
 TOCTitle: Name Property
 ms:assetid: 2a80b994-a135-cd61-3906-17dfa0580110
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192067(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300378"
 ---
-# <a name="recordsetname-property-dao"></a>Propriété Recordset.Name (DAO)
+# <a name="recordsetname-property-dao"></a>Recordset.Name, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie le nom de l'objet spécifié. Type de données **String** en lecture seule.
+Renvoie le nom de l'objet spécifié. **String** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Nom
+*.* Nom
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 

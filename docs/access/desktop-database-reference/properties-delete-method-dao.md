@@ -1,5 +1,5 @@
 ---
-title: Propriété. Delete, méthode (DAO)
+title: Properties.Delete, méthode (DAO)
 TOCTitle: Delete Method
 ms:assetid: dc2493c6-337c-cb56-7c0d-36762528fa43
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301251"
 ---
-# <a name="propertiesdelete-method-dao"></a>Propriété. Delete, méthode (DAO)
+# <a name="propertiesdelete-method-dao"></a>Properties.Delete, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Supprime l'objet **Property** spécifié de la collection **Properties**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Delete (***Name***)
+*.* Delete(***Name***)
 
-*expression* Variable qui représente un objet **Properties** .
+*expression* Variable qui représente un objet **Properties.**
 
 ## <a name="parameters"></a>Paramètres
 

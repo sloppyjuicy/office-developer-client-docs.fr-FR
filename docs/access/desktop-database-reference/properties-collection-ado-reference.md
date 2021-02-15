@@ -1,5 +1,5 @@
 ---
-title: Référence de la collection Properties (ADO)
+title: Properties collection (ADO) reference
 TOCTitle: Properties collection (ADO)
 ms:assetid: 98b2d015-07ad-48df-8c3d-810bcea48618
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249684(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301315"
 ---
-# <a name="properties-collection-ado-reference"></a>Référence de la collection Properties (ADO)
+# <a name="properties-collection-ado-reference"></a>Properties collection (ADO) reference
 
 **S’applique à** : Access 2013, Office 2013
 

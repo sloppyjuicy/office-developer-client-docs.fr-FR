@@ -22,20 +22,20 @@ L'événement **WillChangeField** est appelé avant qu'une opération en attente
 
 ## <a name="syntax"></a>Syntaxe
 
-WillChangeField*cFields*, ** Fields **, adStatus, *preobjet*
+WillChangeField *cFields*, *Fields*, *adStatus*, *pRecordset*
 
-FieldChangeComplete*cFields*, *Fields*, *perror*, adStatus, ** preobjet **
+FieldChangeComplete *cFields*, *Fields*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*cFields* |Valeur de type **Long** indiquant le nombre d'objets **Field** inclus dans *Fields*.|
 |*Fields* |Dans le cas de **WillChangeField**, le paramètre *Fields* correspond à un tableau de valeurs de type **Variant** qui contient des objets **Field** avec les valeurs d'origine. <br/><br/>
 En ce qui concerne **FieldChangeComplete**, le paramètre *Fields* correspond à un tableau de valeurs de type **Variant** qui contient des objets **Field** avec les valeurs modifiées.|
 |*pError* |Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si *adStatus* a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.|
-|*Statu* |[EventStatusEnum](eventstatusenum.md). Lorsque **WillChangeField** est appelé, ce paramètre est défini à **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement. Il est défini à **adStatusCantDeny** si cet événement ne peut pas demander l'annulation de l'opération en attente. <br/><br/>Lorsque **FieldChangeComplete** est appelé, ce paramètre a la valeur **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement ou **adStatusErrorsOccurred** si cette dernière a échoué. <br/><br/>Avant que **WillChangeField** ne soit retourné, affectez la valeur **adStatusCancel** à ce paramètre pour demander l'annulation de l'opération en attente. <br/><br/>Avant que **FieldChangeComplete** ne soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre afin d'empêcher toute notification ultérieure.|
-|*jeu d'enregistrements* |A **Recordset** object. The **Recordset** for which this event occurred.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Lorsque **WillChangeField** est appelé, ce paramètre est défini à **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement. Il est défini à **adStatusCantDeny** si cet événement ne peut pas demander l'annulation de l'opération en attente. <br/><br/>Lorsque **FieldChangeComplete** est appelé, ce paramètre a la valeur **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement ou **adStatusErrorsOccurred** si cette dernière a échoué. <br/><br/>Avant que **WillChangeField** ne soit retourné, affectez la valeur **adStatusCancel** à ce paramètre pour demander l'annulation de l'opération en attente. <br/><br/>Avant que **FieldChangeComplete** ne soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre afin d'empêcher toute notification ultérieure.|
+|*pRecordset* |A **Recordset** object. The **Recordset** for which this event occurred.|
 
 ## <a name="remarks"></a>Remarques
 

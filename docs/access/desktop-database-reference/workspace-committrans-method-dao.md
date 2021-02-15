@@ -1,5 +1,5 @@
 ---
-title: Workspace. CommitTrans, méthode (DAO)
+title: Workspace.CommitTrans, méthode (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: e6d129fb-a578-5c79-9c16-6444519f0daf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306033"
 ---
-# <a name="workspacecommittrans-method-dao"></a>Workspace. CommitTrans, méthode (DAO)
+# <a name="workspacecommittrans-method-dao"></a>Workspace.CommitTrans method (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Met fin à la transaction en cours et enregistre les modifications.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CommitTrans (***options***)
+*.* CommitTrans(***Options***)
 
-*expression* Variable qui représente un objet **Workspace** .
+*expression* Variable qui représente un objet **Workspace**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -47,7 +47,7 @@ Met fin à la transaction en cours et enregistre les modifications.
 <tr class="odd">
 <td><p><em>Option</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Entier long</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Dans un espace de travail Microsoft Access, vous pouvez inclure la constante <strong>dbForceOSFlush</strong> avec <strong>CommitTrans</strong>. Cela force le moteur de base de données à purger toutes les mises à jour sur le disque au lieu de les mettre en mémoire cache temporairement. Sans cette option, un utilisateur peut reprendre le contrôle dès que le programme d’application appelle <strong>CommitTrans</strong>, éteindre l’ordinateur et les données ne sont pas écrites sur le disque. Même si cette option peut affecter les performances de votre application, elle s’avère utile dans les situations dans lesquelles l’ordinateur a pu être fermé avant que les mises à jour mises en mémoire cache ne soient enregistrées sur le disque.</p></td>
 </tr>
 </tbody>
@@ -86,7 +86,7 @@ Dans les espaces de travail ODBC, lorsque vous utilisez **CommitTrans**, il peut
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment utiliser une transaction dans un espace de travail Data Access Objects (DAO).
+L’exemple suivant montre comment utiliser une transaction dans un espace de travail Data Access Objects (DAO).
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

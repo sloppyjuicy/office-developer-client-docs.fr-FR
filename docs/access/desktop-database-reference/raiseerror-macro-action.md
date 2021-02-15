@@ -63,7 +63,7 @@ S'il n'y a aucune instruction **SurErreur** active qui gère les erreurs, l'erre
 
 Pour afficher la table **USysApplicationLog**, procédez comme suit :
 
-1.  Cliquez sur le menu **fichier** , puis sur **options**.
+1.  Cliquez sur **le** menu Fichier, puis sur **Options.**
 
 2.  Dans la boîte dialogue **Options Access**, cliquez sur l'onglet **Base de données active**.
 
@@ -75,7 +75,7 @@ Pour afficher la table **USysApplicationLog**, procédez comme suit :
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment utiliser l'action Déclenchererreur pour annuler l'événement de macro avant la modification des données. Lorsque le champ AffectéÀ est mis à jour, un bloc de données RechercherEnregistrement est utilisé pour déterminer si le technicien affecté est actuellement affecté à une demande de service ouverte. Si la valeur est true, l'événement avant la modification est annulé et l'enregistrement n'est pas mis à jour.
+L’exemple suivant montre comment utiliser l’action RaiseError pour annuler l’événement de macro de données Avant la modification. Lorsque le champ AssignedTo est mis à jour, un bloc de données LookupRecord est utilisé pour déterminer si le technicien affecté est actuellement affecté à une demande de service ouverte. Si c’est le cas, l’événement Before Change est annulé et l’enregistrement n’est pas mis à jour.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305921"
 ---
-# <a name="using-the-connection-object-access"></a>Utilisation de l'objet Connection (Access)
+# <a name="using-the-connection-object-access"></a>Utilisation de l’objet Connection (Access)
 
 
 **S’applique à** : Access 2013, Office 2013

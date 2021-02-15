@@ -43,12 +43,12 @@ Vous pouvez utiliser les fonctions Visual Basic pour Applications suivantes dans
 <td><p>CDate</p></td>
 <td><p>CDbl</p></td>
 <td><p>Car</p></td>
-<td><p>Chr</p></td>
+<td><p>ChrB</p></td>
 <td><p>ChrW</p></td>
-<td><p>Chr $</p></td>
+<td><p>Chr$</p></td>
 </tr>
 <tr class="odd">
-<td><p>ChrB $</p></td>
+<td><p>ChrB$</p></td>
 <td><p>CInt</p></td>
 <td><p>CLng</p></td>
 <td><p>Cos</p></td>
@@ -60,7 +60,7 @@ Vous pouvez utiliser les fonctions Visual Basic pour Applications suivantes dans
 <td><p>CVDate</p></td>
 <td><p>CVErr</p></td>
 <td><p>Date</p></td>
-<td><p>Date $</p></td>
+<td><p>Date$</p></td>
 <td><p>DateAdd</p></td>
 </tr>
 <tr class="odd">
@@ -72,23 +72,23 @@ Vous pouvez utiliser les fonctions Visual Basic pour Applications suivantes dans
 <td><p>DDB</p></td>
 </tr>
 <tr class="even">
-<td><p>Error</p></td>
-<td><p>Erreur $</p></td>
+<td><p>Erreur</p></td>
+<td><p>Error$</p></td>
 <td><p>Exp</p></td>
-<td><p>Corriger</p></td>
+<td><p>Correction</p></td>
 <td><p>Format</p></td>
-<td><p>Format $</p></td>
+<td><p>Format$</p></td>
 </tr>
 <tr class="odd">
 <td><p>VC</p></td>
 <td><p>Hex</p></td>
-<td><p>Hex $</p></td>
+<td><p>Hex$</p></td>
 <td><p>Heure</p></td>
-<td><p>ILF</p></td>
+<td><p>IIF</p></td>
 <td><p>InStr</p></td>
 </tr>
 <tr class="even">
-<td><p>Seuil</p></td>
+<td><p>Int</p></td>
 <td><p>IPmt</p></td>
 <td><p>TRI</p></td>
 <td><p>EstDate</p></td>
@@ -100,21 +100,21 @@ Vous pouvez utiliser les fonctions Visual Basic pour Applications suivantes dans
 <td><p>EstNum</p></td>
 <td><p>IsObject</p></td>
 <td><p>Minuscule</p></td>
-<td><p>LCase $</p></td>
+<td><p>LCase$</p></td>
 <td><p>Gauche</p></td>
 </tr>
 <tr class="even">
 <td><p>LeftB</p></td>
-<td><p>Gauche $</p></td>
-<td><p>LeftB $</p></td>
+<td><p>Left$</p></td>
+<td><p>LeftB$</p></td>
 <td><p>NbCar</p></td>
 <td><p>Log</p></td>
 <td><p>SupprGauche</p></td>
 </tr>
 <tr class="odd">
-<td><p>LTrim $</p></td>
+<td><p>LTrim$</p></td>
 <td><p>Mid</p></td>
-<td><p>Mid $</p></td>
+<td><p>Mid$</p></td>
 <td><p>Minute</p></td>
 <td><p>MIRR</p></td>
 <td><p>Month</p></td>
@@ -124,7 +124,7 @@ Vous pouvez utiliser les fonctions Visual Basic pour Applications suivantes dans
 <td><p>NPer</p></td>
 <td><p>VAN</p></td>
 <td><p>Oct</p></td>
-<td><p>Oct $</p></td>
+<td><p>Oct$</p></td>
 <td><p>Pmt</p></td>
 </tr>
 <tr class="odd">
@@ -137,46 +137,46 @@ Vous pouvez utiliser les fonctions Visual Basic pour Applications suivantes dans
 </tr>
 <tr class="even">
 <td><p>RightB</p></td>
-<td><p>Droite $</p></td>
-<td><p>DROITEB $</p></td>
+<td><p>Right$</p></td>
+<td><p>RightB$</p></td>
 <td><p>Aléat</p></td>
 <td><p>SupprDroite</p></td>
-<td><p>RTrim $</p></td>
+<td><p>RTrim$</p></td>
 </tr>
 <tr class="odd">
-<td><p>Second</p></td>
+<td><p>Deuxième</p></td>
 <td><p>Sgn</p></td>
 <td><p>Sin</p></td>
 <td><p>AMORLIN</p></td>
 <td><p>Espace</p></td>
-<td><p>Space $</p></td>
+<td><p>Space$</p></td>
 </tr>
 <tr class="even">
 <td><p>Racine</p></td>
 <td><p>Str</p></td>
-<td><p>Str $</p></td>
+<td><p>Str$</p></td>
 <td><p>CompChaîne</p></td>
 <td><p>ConvChaîne</p></td>
 <td><p>String</p></td>
 </tr>
 <tr class="odd">
-<td><p>Chaîne $</p></td>
+<td><p>String$</p></td>
 <td><p>SYD</p></td>
 <td><p>Brun tanné</p></td>
-<td><p>Time</p></td>
-<td><p>Heure $</p></td>
+<td><p>Temps</p></td>
+<td><p>Time$</p></td>
 <td><p>Minuteur</p></td>
 </tr>
 <tr class="even">
 <td><p>SérieHeure</p></td>
 <td><p>VHeure</p></td>
 <td><p>Trim</p></td>
-<td><p>Trim $</p></td>
+<td><p>Trim$</p></td>
 <td><p>TypeName</p></td>
 <td><p>Majuscule</p></td>
 </tr>
 <tr class="odd">
-<td><p>UCase $</p></td>
+<td><p>UCase$</p></td>
 <td><p>Val</p></td>
 <td><p>VarType</p></td>
 <td><p>Jour de la semaine</p></td>

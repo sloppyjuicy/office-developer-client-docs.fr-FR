@@ -1,5 +1,5 @@
 ---
-title: QueryDef. CacheSize, propriété (DAO)
+title: QueryDef.CacheSize, propriété (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: a84d990e-8180-daa3-7640-47d2be8fd28b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821397(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301091"
 ---
-# <a name="querydefcachesize-property-dao"></a>QueryDef. CacheSize, propriété (DAO)
+# <a name="querydefcachesize-property-dao"></a>QueryDef.CacheSize, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Type de données **Long** en lecture-écriture.
+Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. **Long** (en lecture/écriture).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CacheSize
+*.* CacheSize
 
-*expression* Variable qui représente un objet **QueryDef** .
+*expression* Variable représentant un objet **QueryDef**.
 
 ## <a name="remarks"></a>Remarques
 

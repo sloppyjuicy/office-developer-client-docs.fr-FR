@@ -23,7 +23,7 @@ Le Kit de développement Microsoft pour Java SDK est un kit conçu pour l'enviro
 
 L'utilitaire Jactivex.exe génère les classes à partir d'une bibliothèque de types mais peut uniquement être appelé à partir d'une ligne de commande. Cette fonctionnalité n'est pas intégrée à l'environnement de développement Visual J++. Contrairement aux classes générées avec l'[Assistant Bibliothèque de types Java](using-the-java-type-library-wizard.md), vous pouvez intervenir sur les wrappers de classes créés par le Kit de développement. Ceci est utile lorsque vous déboguez votre code afin de déterminer comment il utilise les classes wrappers ADO.
 
-Ce mécanisme lit la bibliothèque de types ADO et génère des classes que vous pouvez instancier au sein de votre application. Il génère ces classes à l'emplacement suivant: \\ \<\>\\\\trustlib\\d'annuaire Windows msado15.
+Ce mécanisme lit la bibliothèque de types ADO et génère des classes que vous pouvez instancier au sein de votre application. Il génère ces classes à l’emplacement suivant : \\ \< répertoire Windows Java \> \\ \\ trustlib \\ msado15.
 
 La création d'une application ADO dans Java à l'aide du Kit de développement Microsoft pour Java SDK revient exactement, au niveau du code source, à utiliser l'Assistant Bibliothèque de types Java. Pour consulter un exemple de code, consultez [Wrappers de classe Java ADO](ado-java-class-wrappers.md). La seule différence est la façon dont vous générez les classes wrappers, comme l'illustrent les étapes suivantes.
 
@@ -43,5 +43,5 @@ La création d'une application ADO dans Java à l'aide du Kit de développement 
     jvc /g:t c:\<windows>\Java\trustlib\msado15\*.Java 
     ```
 
-3.  Pour utiliser ces fichiers, ouvrez votre projet dans Visual J++. Dans le menu **Projet**, choisissez **Ajouter au projet**. Sélectionnez **fichiers**, puis ajoutez tous les. Fichiers JAVA générés dans le\\répertoire Trustlib msado15 dans votre projet.
+3.  Pour utiliser ces fichiers, ouvrez votre projet dans Visual J++. Dans le menu **Projet**, choisissez **Ajouter au projet**. Sélectionnez **des** fichiers et ajoutez tous les fichiers. Fichiers JAVA générés dans le répertoire trustlib \\ msado15 de votre projet.
 

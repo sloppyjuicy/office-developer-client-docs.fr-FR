@@ -1,5 +1,5 @@
 ---
-title: Propriétés de propriété (DAO)
+title: Property properties (DAO)
 TOCTitle: Properties
 ms:assetid: c9357822-65c2-4938-820f-bf35b277df5c
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161366(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301175"
 ---
-# <a name="property-properties-dao"></a>Propriétés de propriété (DAO)
+# <a name="property-properties-dao"></a>Property properties (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Propriété. Inherited, propriété (DAO)](property-inherited-property-dao.md)
-- [Propriété Property.Name (DAO)](property-name-property-dao.md)
-- [Propriété Property. Properties (DAO)](property-properties-property-dao.md)
-- [Propriété Property. type (DAO)](property-type-property-dao.md)
-- [Propriété Property. Value (DAO)](property-value-property-dao.md)
+- [Property.Inherited, propriété (DAO)](property-inherited-property-dao.md)
+- [Property.Name property (DAO)](property-name-property-dao.md)
+- [Property.Properties, propriété (DAO)](property-properties-property-dao.md)
+- [Property.Type, propriété (DAO)](property-type-property-dao.md)
+- [Property.Value, propriété (DAO)](property-value-property-dao.md)
 

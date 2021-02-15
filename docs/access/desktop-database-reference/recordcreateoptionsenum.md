@@ -37,7 +37,7 @@ Spécifie si un **Record** doit être ouvert ou si un nouveau **Record** doit ê
 <tbody>
 <tr class="odd">
 <td><p><strong>adCreateCollection</strong></p></td>
-<td><p>0 x 2000</p></td>
+<td><p>0x2000</p></td>
 <td><p>Crée un nouveau <strong>Record</strong> sur le nœud spécifié par le paramètre <em>Source</em>, au lieu d'ouvrir un <strong>Record</strong> existant. Si la source pointe sur un nœud existant, une erreur d'exécution se produit, à moins que <strong>adCreateCollection</strong> ne soit combiné avec <strong>adOpenIfExists</strong> ou <strong>adCreateOverwrite</strong>.</p></td>
 </tr>
 <tr class="even">

@@ -85,7 +85,7 @@ En examinant un objet **Error**, vous pouvez déterminer le type d'erreur surven
 <td><p>Fait référence à la rubrique d'aide et au fichier d'aide qui contient une description de l'erreur survenue.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Native</strong></p></td>
+<td><p><strong>NativeError</strong></p></td>
 <td><p>Le numéro d'erreur spécifique au fournisseur.</p></td>
 </tr>
 <tr class="even">
@@ -97,7 +97,7 @@ En examinant un objet **Error**, vous pouvez déterminer le type d'erreur surven
 <td><p>Indique le nom de l'objet ou de l'application à l'origine d'une erreur.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>InstructionSQL</strong></p></td>
+<td><p><strong>SQLState</strong></p></td>
 <td><p>Un code d'erreur à cinq caractères que le fournisseur renvoie au cours du processus d'une instruction SQL.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Propriétés, méthodes et événements (ADO)
+title: Property properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 7a1992c1-b234-58b8-a4c9-663d9b2370e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249503(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302932"
 ---
-# <a name="property-properties-methods-and-events-ado"></a>Propriétés, méthodes et événements (ADO)
+# <a name="property-properties-methods-and-events-ado"></a>Property properties, methods, and events (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -29,7 +29,7 @@ ms.locfileid: "32302932"
 
 Aucun.
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

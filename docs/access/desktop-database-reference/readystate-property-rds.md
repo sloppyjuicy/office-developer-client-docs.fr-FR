@@ -45,7 +45,7 @@ Définit ou renvoie l'une des valeurs suivantes.
 <td><p>Le premier jeu de lignes récupéré par la requête actuelle a été stocké dans le <strong>Recordset</strong> de l'objet <strong>DataControl</strong> et peut être utilisé. Les lignes restantes sont encore en cours d'extraction.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Devient adcReadyStateComplete</strong></p></td>
+<td><p><strong>adcReadyStateComplete</strong></p></td>
 <td><p>Toutes les lignes extraites par la requête en cours ont été stockées dans le <strong>Recordset</strong> de l'objet <strong>DataControl</strong> et peuvent être utilisées. Cet état est aussi défini lorsque l'opération a été interrompue en raison d'une erreur ou de la non-initialisation de l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 </tbody>
@@ -58,5 +58,5 @@ Définit ou renvoie l'une des valeurs suivantes.
 
 Utilisez l’événement [onreadystatechange](onreadystatechange-event-rds.md) pour surveiller les modifications de la propriété **ReadyState** lors d’une requête asynchrone. C’est plus efficace que de vérifier régulièrement la valeur de la propriété.
 
-Si une erreur se produit au cours d'une opération asynchrone, la propriété **ReadyState** devient **devient adcReadyStateComplete**, la propriété [State](state-property-ado.md) passe de **adStateExecuting** à **adStateClosed**et l' **objet Recordset** la propriété [value](value-property-ado.md) de ** l'objet reste inchangée.
+Si une erreur se produit au cours d’une opération asynchrone, la propriété [](value-property-ado.md) **ReadyState** passe à **adcReadyStateComplete**, la propriété [State](state-property-ado.md) passe d’adStateExecuting à **adStateClosed** et la propriété Valeur de l’objet **Recordset** reste *Nothing*. 
 

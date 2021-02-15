@@ -1,5 +1,5 @@
 ---
-title: View, objet (référence à la base de données de bureau d'accès)
+title: View Object (ADOX - Référence de base de données de bureau Access)
 TOCTitle: View object (ADOX)
 ms:assetid: 3b2e9972-8a0d-eaa3-1c93-ae0665a47f02
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249149(v=office.15)

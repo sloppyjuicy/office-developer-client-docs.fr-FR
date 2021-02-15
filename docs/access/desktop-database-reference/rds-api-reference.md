@@ -1,5 +1,5 @@
 ---
-title: Référence de l'API RDS (référence de base de données de bureau Access)
+title: Référence de l’API RDS (référence de base de données de bureau Access)
 TOCTitle: RDS API reference
 ms:assetid: 11ff3052-c76c-2e53-9bc3-abac5cd78681
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248891(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32300895"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cette section de la documentation ADO (ActiveX Data Objects) contient des rubriques pour chaque objet, propriété, méthode et événement RDS. Pour plus d'informations, recherchez une rubrique précise dans l'index ou consultez les rubriques suivantes :
+Cette section de la documentation ActiveX Data Objects (ADO) contient des rubriques pour chaque objet, propriété, méthode et événement RDS. Pour plus d'informations, recherchez une rubrique précise dans l'index ou consultez les rubriques suivantes :
 
 - [Objets RDS](rds-objects.md)
 - [Propriétés RDS](rds-properties.md)

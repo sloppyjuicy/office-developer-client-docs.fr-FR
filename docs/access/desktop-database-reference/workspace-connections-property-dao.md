@@ -1,5 +1,5 @@
 ---
-title: Propriété Workspace. Connections (DAO)
+title: Workspace.Connections, propriété (DAO)
 TOCTitle: Connections Property
 ms:assetid: 7b4f905c-4bc1-8fa7-b608-516edfef3d8f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196195(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305914"
 ---
-# <a name="workspaceconnections-property-dao"></a>Propriété Workspace. Connections (DAO)
+# <a name="workspaceconnections-property-dao"></a>Workspace.Connections, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,7 +27,7 @@ Renvoie une collection **Connections** qui représente les connexions actives da
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Raccordement
+*.* Connexions
 
-*expression* Variable qui représente un objet **Workspace** .
+*expression* Variable qui représente un objet **Workspace**.
 

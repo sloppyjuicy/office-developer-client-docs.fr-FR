@@ -1,5 +1,5 @@
 ---
-title: Workspace, membres (DAO)
+title: Workspace members (DAO)
 TOCTitle: Workspace Members
 ms:assetid: 13ac7d41-1b25-20d2-5c85-0f21bfd38328
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302591"
 ---
-# <a name="workspace-members-dao"></a>Workspace, membres (DAO)
+# <a name="workspace-members-dao"></a>Workspace members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -48,17 +48,17 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 <td><p>Met fin à la transaction en cours et enregistre les modifications.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-createdatabase-method-dao.md">Database</a></strong></p></td>
+<td><p><strong><a href="workspace-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
 <td><p>Crée un objet <strong><a href="database-object-dao.md">Database</a></strong>, enregistre la base de données sur le disque, et renvoie un objet <strong>Database</strong> ouvert (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Ouvre un objet <strong><a href="connection-object-dao.md">Connection</a></strong> dans une source de données ODBC (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-opendatabase-method-dao.md">OpenDatabase</a></strong></p></td>
-<td><p>Ouvre une base de données spécifiée dans un objet <strong><a href="workspace-object-dao.md">Workspace</a></strong> et renvoie une référence à l'objet <strong><a href="database-object-dao.md">Database</a></strong> qui le représente.</p></td>
+<td><p>Ouvre une base de données spécifiée dans un objet <strong><a href="workspace-object-dao.md">Workspace</a></strong> et renvoie une référence à l’objet <strong><a href="database-object-dao.md">Database</a></strong> qui le représente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-rollback-method-dao.md">Rollback</a></strong></p></td>
@@ -83,7 +83,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspace-connections-property-dao.md">Connections</a></strong></p></td>
+<td><p><strong><a href="workspace-connections-property-dao.md">Connexions</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Connections</strong> qui représente les connexions actives dans l'objet <strong>Workspace</strong> spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
@@ -92,11 +92,11 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></p></td>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Définit ou renvoie le type de pilote de curseur utilisé pour la connexion créée par la méthode <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> ou <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans,</a></strong></p></td>
+<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui indique si plusieurs transactions impliquant la même source de données ODBC connectée au moteur de base de données Microsoft Access sont isolées (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -109,7 +109,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-properties-property-dao.md">Propriétés</a></strong></p></td>
-<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. Valeur en lecture seule.</p></td>
+<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-type-property-dao.md">Type</a></strong></p></td>

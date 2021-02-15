@@ -1,5 +1,5 @@
 ---
-title: Recordset. LastModified, propriété (DAO)
+title: Recordset.LastModified, propriété (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 7386f25b-bde1-a446-e980-640696a3bfec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195859(v=office.15)
@@ -18,18 +18,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300496"
 ---
-# <a name="recordsetlastmodified-property-dao"></a>Recordset. LastModified, propriété (DAO)
+# <a name="recordsetlastmodified-property-dao"></a>Recordset.LastModified, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013 
 
-Renvoie un signet indiquant le dernier enregistrement ajouté ou modifié.
+Renvoie un signet indiquant l’enregistrement le plus récemment ajouté ou modifié.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . LastModified
+*.* LastModified
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 

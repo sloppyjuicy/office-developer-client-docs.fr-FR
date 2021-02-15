@@ -1,5 +1,5 @@
 ---
-title: Propriété Property. type (DAO)
+title: Property.Type, propriété (DAO)
 TOCTitle: Type Property
 ms:assetid: bf8258ca-08b5-c4f9-e6d7-114e4300b2ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822796(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302897"
 ---
-# <a name="propertytype-property-dao"></a>Propriété Property. type (DAO)
+# <a name="propertytype-property-dao"></a>Property.Type, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type de données **Integer** en lecture/écriture.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. **Entier** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Entrer
+*expression* .Type
 
-*expression* Variable qui représente un objet **Property** .
+*expression* Variable qui représente un objet **Property.**
 
 ## <a name="remarks"></a>Remarques
 
@@ -51,11 +51,11 @@ Les paramètres et valeurs de retour possible d'un objet **Property** sont décr
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binaire</p></td>
+<td><p>Binary</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
-<td><p>Booléen</p></td>
+<td><p>Valeur booléenne</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbByte</strong></p></td>
@@ -67,7 +67,7 @@ Les paramètres et valeurs de retour possible d'un objet **Property** sont décr
 </tr>
 <tr class="even">
 <td><p><strong>dbCurrency</strong></p></td>
-<td><p>Monnaie</p></td>
+<td><p>Devise</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbDate</strong></p></td>
@@ -83,11 +83,11 @@ Les paramètres et valeurs de retour possible d'un objet **Property** sont décr
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Virgule flottante</p></td>
+<td><p>Flottant</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
-<td><p>Identificateur global unique (GUID)</p></td>
+<td><p>GUID</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbInteger</strong></p></td>
@@ -95,7 +95,7 @@ Les paramètres et valeurs de retour possible d'un objet **Property** sont décr
 </tr>
 <tr class="odd">
 <td><p><strong>dbLong</strong></p></td>
-<td><p>Long</p></td>
+<td><p>Entier long</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>
@@ -111,19 +111,19 @@ Les paramètres et valeurs de retour possible d'un objet **Property** sont décr
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
-<td><p>Simple</p></td>
+<td><p>Unique</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbText</strong></p></td>
-<td><p>Texte</p></td>
+<td><p>Text</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbTime</strong></p></td>
-<td><p>Heure</p></td>
+<td><p>Time</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>
-<td><p>Horodatage</p></td>
+<td><p>Date et heure</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVarBinary</strong></p></td>

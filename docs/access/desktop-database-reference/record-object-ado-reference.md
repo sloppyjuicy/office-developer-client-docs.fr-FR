@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet Record (ADO)
+title: Référence de l’objet Record (ADO)
 TOCTitle: Record object (ADO)
 ms:assetid: 19cdd7b8-1dde-40f6-b971-b30cf0bfbf4e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248943(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300720"
 ---
-# <a name="record-object-ado-reference"></a>Référence d'objet Record (ADO)
+# <a name="record-object-ado-reference"></a>Référence de l’objet Record (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Record, objet (ADO)](record-object-ado.md)
-- [Propriétés, méthodes et événements d'enregistrement (ADO)](record-properties-methods-and-events-ado.md)
+- [Enregistrer des propriétés, des méthodes et des événements (ADO)](record-properties-methods-and-events-ado.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Membres de propriété (DAO)
+title: Property members (DAO)
 TOCTitle: Property Members
 ms:assetid: 32658adb-f153-148d-a216-eb97b996579a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301210"
 ---
-# <a name="property-members-dao"></a>Membres de propriété (DAO)
+# <a name="property-members-dao"></a>Property members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -49,7 +49,7 @@ Un objet Property représente une caractéristique prédéfinie ou définie par 
 </tr>
 <tr class="even">
 <td><p><strong><a href="property-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type de données <strong>Integer</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. <strong>Entier</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="property-value-property-dao.md">Valeur</a></strong></p></td>

@@ -1,5 +1,5 @@
 ---
-title: Propriété Workspace.Name (DAO)
+title: Workspace.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 6bfdf1e3-b396-ba30-0453-92624a433624
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195490(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302540"
 ---
-# <a name="workspacename-property-dao"></a>Propriété Workspace.Name (DAO)
+# <a name="workspacename-property-dao"></a>Workspace.Name property (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie ou définit le nom de l'objet spécifié. Type **String** en lecture-éc
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Nom
+*.* Nom
 
-*expression* Variable qui représente un objet **Workspace** .
+*expression* Variable qui représente un objet **Workspace**.
 
 ## <a name="remarks"></a>Remarques
 

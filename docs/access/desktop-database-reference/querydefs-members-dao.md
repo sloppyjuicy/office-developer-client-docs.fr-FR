@@ -1,5 +1,5 @@
 ---
-title: QueryDefs, membres (DAO)
+title: Membres QueryDefs (DAO)
 TOCTitle: QueryDefs Members
 ms:assetid: d178fa87-cf01-cb5b-357d-45d8b4e1b0ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834754(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301021"
 ---
-# <a name="querydefs-members-dao"></a>QueryDefs, membres (DAO)
+# <a name="querydefs-members-dao"></a>Membres QueryDefs (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -36,7 +36,7 @@ Une collection QueryDefs contient tous les objets QueryDef d'un objet Database d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydefs-append-method-dao.md">Annexe</a></strong></p></td>
+<td><p><strong><a href="querydefs-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Ajoute un nouvel objet <strong>QueryDef</strong> à la collection <strong>QueryDefs</strong>.</p></td>
 </tr>
 <tr class="even">

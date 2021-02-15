@@ -1,5 +1,5 @@
 ---
-title: QueryDef. MaxRecords, propriété (DAO)
+title: Propriété QueryDef.MaxRecords (DAO)
 TOCTitle: MaxRecords Property
 ms:assetid: 7492cde9-be30-3473-dabc-9602465910d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195877(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301077"
 ---
-# <a name="querydefmaxrecords-property-dao"></a>QueryDef. MaxRecords, propriété (DAO)
+# <a name="querydefmaxrecords-property-dao"></a>Propriété QueryDef.MaxRecords (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Définit ou renvoie le nombre maximum d'enregistrements à renvoyer pour une req
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . MaxRecords
+*.* MaxRecords
 
-*expression* Variable qui représente un objet **QueryDef** .
+*expression* Variable représentant un objet **QueryDef**.
 
 ## <a name="remarks"></a>Remarques
 

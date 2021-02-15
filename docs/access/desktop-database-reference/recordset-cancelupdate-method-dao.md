@@ -1,5 +1,5 @@
 ---
-title: Recordset. CancelUpdate, méthode (DAO)
+title: Recordset.CancelUpdate, méthode (DAO)
 TOCTitle: CancelUpdate method
 ms:assetid: efc4f60b-876f-5e11-37fd-0fbbf225b15b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836421(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300678"
 ---
-# <a name="recordsetcancelupdate-method-dao"></a>Recordset. CancelUpdate, méthode (DAO)
+# <a name="recordsetcancelupdate-method-dao"></a>Recordset.CancelUpdate, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Annule les mises à jour en attente d'un objet **[Recordset](recordset-object-dao.md)**.
+Annule les mises à jour en attente pour un objet **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CancelUpdate (***UpdateType***)
+*.* CancelUpdate(***UpdateType***)
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -51,8 +51,8 @@ Annule les mises à jour en attente d'un objet **[Recordset](recordset-object-da
 <tr class="odd">
 <td><p><em>UpdateType</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Entier long</strong></p></td>
-<td><p>Défini sur l'une des valeurs <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Remarque</strong>: les valeurs <EM>dbUpdateRegular</EM> et <EM>dbUpdateBatch</EM> ne sont valides que si la mise à jour par lot est activée.</p>
+<td><p><strong>Long</strong></p></td>
+<td><p>Définissez cette propriété sur l’une <strong><a href="updatetypeenum-enumeration-dao.md">des valeurs UpdateTypeEnum.</a></strong></p><p><strong>REMARQUE</strong>: les <EM>valeurs dbUpdateRegular</EM> et <EM>dbUpdateBatch</EM> ne sont valides que si la mise à jour par lot est activée.</p>
 </td>
 </tr>
 </tbody>

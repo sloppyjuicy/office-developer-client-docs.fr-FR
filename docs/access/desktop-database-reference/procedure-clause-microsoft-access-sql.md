@@ -1,5 +1,5 @@
 ---
-title: PROCEDURE, clause (Microsoft Access SQL)
+title: PROCEDURE clause (Microsoft Access SQL)
 TOCTitle: PROCEDURE clause (Microsoft Access SQL)
 ms:assetid: a718802c-9260-88d5-ec29-d5e5594927b0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821342(v=office.15)
@@ -20,7 +20,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301378"
 ---
-# <a name="procedure-clause-microsoft-access-sql"></a>PROCEDURE, clause (Microsoft Access SQL)
+# <a name="procedure-clause-microsoft-access-sql"></a>PROCEDURE clause (Microsoft Access SQL)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -31,20 +31,20 @@ Définit un nom et des paramètres facultatifs pour une requête.
 
 ## <a name="syntax"></a>Syntaxe
 
-Nom de procédure *nom* \[de *type de données*\[, *type de données*\[param2,...\]\]
+PROCEDURE *name* \[ *param1 datatype*, \[ *param2 datatype* \[ , ...\]\]
 
 La clause PROCEDURE est composée des arguments suivants :
 
 |Élément |Description |
 |:----|:-----------|
-|*name* |Nom donné à la procédure. Ce nom doit respecter les conventions d'affectation des noms standard.|
-|*param1*, *param2* |Un ou plusieurs noms de champ ou paramètres. Par exemple :<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Pour plus d'informations sur les paramètres [](parameters-declaration-microsoft-access-sql.md), voir Parameters.|
-|*typedonnées* | Un des principaux [types de données Microsoft Access SQL](sql-data-types.md) ou un de leurs synonymes. |
+|*name* |Nom de la procédure. Ce nom doit respecter les conventions d'affectation des noms standard.|
+|*param1*, *param2* |Un ou plusieurs noms de champ ou paramètres. Par exemple :<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Pour plus d’informations sur les paramètres, voir [paramètres.](parameters-declaration-microsoft-access-sql.md)|
+|*datatype* | Un des principaux [types de données Microsoft Access SQL](sql-data-types.md) ou un de leurs synonymes. |
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
-Une procédure SQL se compose d'une clause PROCEDURE (qui spécifie le nom de la procédure), d'une liste facultative de définitions de paramètres et d'une seule instruction SQL. Par exemple, la procédure Get\_numéro\_de composant peut exécuter une requête qui récupère un numéro de partie spécifié.
+Une procédure SQL se compose d'une clause PROCEDURE (qui spécifie le nom de la procédure), d'une liste facultative de définitions de paramètres et d'une seule instruction SQL. Par exemple, la procédure Get Part Number peut exécuter une requête qui récupère un \_ \_ numéro de partie spécifié.
 
 > [!NOTE]
 > - Si la clause comporte plusieurs définitions de champ (à savoir, des paires *param-typedonnées*), séparez-les par des virgules.
@@ -52,7 +52,7 @@ Une procédure SQL se compose d'une clause PROCEDURE (qui spécifie le nom de la
 
 ## <a name="example"></a>Exemple
 
-Cet exemple nomme la requête CategoryList est nommée et appelle la procédure EnumFields que vous pouvez trouver dans l'exemple d'instruction SELECT.
+Cet exemple nomme la requête CategoryList et appelle la procédure EnumFields, que vous pouvez trouver dans l'exemple d'instruction SELECT.
 
 ```vb
     Sub ProcedureX() 

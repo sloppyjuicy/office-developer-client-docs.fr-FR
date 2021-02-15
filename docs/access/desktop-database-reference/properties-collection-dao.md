@@ -33,18 +33,18 @@ Vous pouvez utiliser la méthode **Delete** pour supprimer des propriétés pers
 
 Pour faire référence à un objet **Property** intégré d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-- dessin. **Propriétés** 0
+- . **Propriétés**(0)
 
-- dessin. **Propriétés** ("nom")
+- . **Propriétés**(« nom »)
 
-- dessin. **Propriétés** \! \[\]
+- . **Propriétés** \! \[ name\]
 
 Dans le cas d'une propriété prédéfinie, vous pouvez également utiliser la syntaxe suivante :
 
-- Object.Name
+- object.name
 
 > [!NOTE]
-> Pour une propriété définie par l'utilisateur, vous devez utiliser l'objet Full. **Propriétés** («nom»).
+> Pour une propriété définie par l’utilisateur, vous devez utiliser l’objet complet. **Syntaxe** des propriétés (« nom »).
 
 Avec les mêmes formes de syntaxe, vous pouvez également faire référence à la propriété **Value** d'un objet **Property**. C'est le contexte de la référence qui indique si vous faites référence à l'objet **Property** ou à la propriété **Value** de l'objet **Property**.
 

@@ -1,5 +1,5 @@
 ---
-title: Query, méthode (référence de la base de données Bureau à distance)
+title: Méthode de requête (RDS - Référence de base de données de bureau Access)
 TOCTitle: Query method (RDS)
 ms:assetid: c88d82bd-2139-7f1e-4e5e-9030f3795816
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
@@ -22,11 +22,11 @@ Utilise une chaîne de requête SQL valide qui retourne un objet [Recordset](rec
 
 ## <a name="syntax"></a>Syntaxe
 
-Définir le jeu*d'enregistrements* = *DataFactory*. Requête (*connexion*, *requête*)
+Définissez *Recordset*  =  *DataFactory*. Query(*Connection*, *Query*)
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Recordset* |Une variable objet qui représente un objet **Recordset**|
 |*DataFactory* |Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md).|

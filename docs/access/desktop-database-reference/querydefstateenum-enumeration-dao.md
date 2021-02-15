@@ -1,5 +1,5 @@
 ---
-title: QueryDefStateEnum, énumération (DAO)
+title: QueryDefStateEnum, éumération (DAO)
 TOCTitle: QueryDefStateEnum Enumeration
 ms:assetid: edfa3085-f8b4-b813-0828-2ba2a9dc0b9d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836359(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303317"
 ---
-# <a name="querydefstateenum-enumeration-dao"></a>QueryDefStateEnum, énumération (DAO)
+# <a name="querydefstateenum-enumeration-dao"></a>QueryDefStateEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -37,12 +37,12 @@ Cette énumération est utilisée avec la propriété **Prepare** afin de spéci
 <tbody>
 <tr class="odd">
 <td><p>dbQPrepare</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>(Valeur par défaut) L'instruction est préparée (l'API ODBC SQLPrepare est appelée).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbQUnprepare</p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>L'instruction n'est pas préparée (l'API ODBC SQLExecDirect est appelée).</p></td>
 </tr>
 </tbody>

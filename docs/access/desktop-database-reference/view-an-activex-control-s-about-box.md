@@ -1,7 +1,7 @@
 ---
 title: Afficher la boîte de dialogue À propos d’un contrôle ActiveX
 TOCTitle: View an ActiveX control About box
-description: Procédure d'affichage de la boîte de
+description: Étapes pour afficher la zone À propos.
 ms:assetid: 72a855b4-dd1a-a531-6402-0321335d3bf5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195825(v=office.15)
 ms:contentKeyID: 48545612
@@ -23,9 +23,9 @@ ms.locfileid: "32305963"
 
 **S’applique à** : Access 2013, Office 2013
 
-Pour afficher une boîte de message à **propos** de l'affichage des informations de version et de copyright pour un contrôle ActiveX:
+Pour afficher une zone **à** propos de l’affichage des informations de version et de copyright d’ActiveX contrôle :
 
-1. Choisissez la zone de propriété **à propos** de dans la feuille des propriétés Microsoft Access.
+1. Sélectionnez la **zone à** propos de la propriété dans la feuille des propriétés Microsoft Access.
 
-2. Cliquez sur le bouton **générer** situé à droite de la zone de propriété.
+2. Choisissez le **bouton** Créer à droite de la zone de propriété.
 

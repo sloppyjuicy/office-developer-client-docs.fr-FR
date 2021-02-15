@@ -19,7 +19,7 @@ ms.locfileid: "32303401"
 
 **S’applique à** : Access 2013, Office 2013
 
-Ceci est une description schématique de la manière de créer une instance d'événements ADO dans Microsoft Visual C++. Pour une description complète, voir [exemple de modèle d'événements ADO (VC + +)](ado-events-model-example-vc.md) .
+Ceci est une description schématique de la manière de créer une instance d'événements ADO dans Microsoft Visual C++. Voir [l’exemple de modèle d’événements ADO (VC++)](ado-events-model-example-vc.md) pour obtenir une description complète.
 
 Créez des classes dérivées des interfaces **ConnectionEventsVt** et **RecordsetEventsVt** du fichier adoint.h.
 
@@ -49,7 +49,7 @@ class CRstEvent : public RecordsetEventsVt
 // EndEventExampleVC01 
 ```
 
-Implémentez chaque méthode de gestionnaire d'événements dans les deux classes. Il suffit que chaque méthode renvoie un HRESULT de S\_OK. Cependant, lorsque la disponibilité de vos gestionnaires d'événements est connue, ils sont sans cesse invoqués par défaut. Vous pouvez toutefois décider d'annuler toute notification ultérieure la première fois en définissant **adStatus** sur **adStatusUnwantedEvent**.
+Implémentez chaque méthode de gestionnaire d'événements dans les deux classes. Il suffit que chaque méthode retourne simplement un HRESULT de S \_ OK. Cependant, lorsque la disponibilité de vos gestionnaires d'événements est connue, ils sont sans cesse invoqués par défaut. Vous pouvez toutefois décider d'annuler toute notification ultérieure la première fois en définissant **adStatus** sur **adStatusUnwantedEvent**.
 
 ```cpp 
  

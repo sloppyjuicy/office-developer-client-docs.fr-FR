@@ -1,5 +1,5 @@
 ---
-title: Recordset. CacheStart, propriété (DAO)
+title: Recordset.CacheStart, propriété (DAO)
 TOCTitle: CacheStart Property
 ms:assetid: 03814312-660a-d8e9-8a7b-bc14d66e05ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844802(v=office.15)
@@ -18,18 +18,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300615"
 ---
-# <a name="recordsetcachestart-property-dao"></a>Recordset. CacheStart, propriété (DAO)
+# <a name="recordsetcachestart-property-dao"></a>Recordset.CacheStart, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur spécifiant le signet du premier enregistrement d’un objet Recordset de type feuille de réponse dynamique qui contient des données d’une source de données ODBC à placer dans le cache local (espaces de travail Microsoft Access uniquement).
+Définit ou renvoie une valeur spécifiant le signet du premier enregistrement d'un objet Recordset de type feuille de réponse dynamique qui contient des données d'une source de données ODBC à placer dans le cache local (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CacheStart
+*.* CacheStart
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 

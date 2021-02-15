@@ -27,7 +27,7 @@ Vous pouvez utiliser l'action **QuitterAccess** pour quitter Microsoft Access. L
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **QuitterAccess** utilise l’argument suivant :
 

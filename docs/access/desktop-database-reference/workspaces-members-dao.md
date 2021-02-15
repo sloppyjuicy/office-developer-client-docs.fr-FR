@@ -1,5 +1,5 @@
 ---
-title: Workspaces, membres (DAO)
+title: Workspaces members (DAO)
 TOCTitle: Workspaces Members
 ms:assetid: 5eaf6de5-44dc-5566-a98f-db54aecf15cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194667(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302603"
 ---
-# <a name="workspaces-members-dao"></a>Workspaces, membres (DAO)
+# <a name="workspaces-members-dao"></a>Workspaces members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -36,7 +36,7 @@ Une collection Workspaces contient tous les objets Workspace actifs et non masqu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspaces-append-method-dao.md">Annexe</a></strong></p></td>
+<td><p><strong><a href="workspaces-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Ajoute un nouvel objet <strong>Workspace</strong> à la collection <strong>Workspaces</strong>.</p></td>
 </tr>
 <tr class="even">

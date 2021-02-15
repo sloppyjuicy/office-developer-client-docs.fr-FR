@@ -29,7 +29,7 @@ Dans un environnement multi-utilisateurs doté d'un groupe de travail sécurisé
 
 ## <a name="syntax"></a>Syntaxe
 
-*SQLStatement* WITH OWNERACCESS OPTION
+*sqlstatement* WITH OWNERACCESS OPTION
 
 ## <a name="remarks"></a>Remarques
 

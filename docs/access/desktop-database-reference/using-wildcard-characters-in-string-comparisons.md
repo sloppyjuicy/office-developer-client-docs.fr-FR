@@ -37,7 +37,7 @@ La fonction intégrée de recherche des correspondances de chaînes constitue un
 <td><p>Un seul caractère</p></td>
 </tr>
 <tr class="even">
-<td><p>*des</p></td>
+<td><p>* ou %</p></td>
 <td><p>Zéro, un ou plusieurs caractères</p></td>
 </tr>
 <tr class="odd">
@@ -45,7 +45,7 @@ La fonction intégrée de recherche des correspondances de chaînes constitue un
 <td><p>Tout chiffre isolé (0 à 9)</p></td>
 </tr>
 <tr class="even">
-<td><p>[<em>charlist</em>]</p></td>
+<td><p>[<em>liste de listes</em>]</p></td>
 <td><p>Tout caractère isolé trouvé dans <em>listecar</em></p></td>
 </tr>
 <tr class="odd">
@@ -56,19 +56,19 @@ La fonction intégrée de recherche des correspondances de chaînes constitue un
 </table>
 
 
-Vous pouvez utiliser un groupe d'un ou de plusieurs caractères (*listecar*) placés entre crochets\[ \]() pour faire correspondre tout caractère unique dans *expression,* et *listecar* peut inclure tous les caractères du jeu de caractères ANSI, y compris numérique. Vous pouvez utiliser le crochet ouvrant (\[ ), le point d'interrogation (?), le signe\#dièse () et l'\*astérisque () pour qu'ils correspondent directement uniquement s'ils sont entourés de crochets. Vous ne pouvez pas utiliser le crochet \]fermant () au sein d'un groupe pour qu'il corresponde à lui-même, mais vous pouvez l'utiliser en dehors d'un groupe en tant que caractère individuel.
+Vous pouvez utiliser un groupe d’un ou plusieurs caractères *(liste* de caractères) placés entre crochets ( ) pour faire correspondre n’importe quel caractère dans l’expression, et la liste de caractères peut inclure presque tous les caractères du jeu de \[ \] caractères  ANSI,  y compris les chiffres. Vous pouvez utiliser les caractères spéciaux crochet ouvrant ( ), point d’interrogation (?), signe de nombre ( ) et astérisque ( ) pour se mettre en correspondance directement uniquement s’il est entre \[ \# \* crochets. Vous ne pouvez pas utiliser le crochet fermant () au sein d’un groupe pour correspondre à lui-même, mais vous pouvez l’utiliser en dehors d’un groupe \] comme caractère individuel.
 
-Outre une simple liste de caractères encadrée par des crochets, *listecar* peut spécifier une plage de caractères en utilisant un tiret (-) pour séparer la borne supérieure et la borne inférieure de la plage. Par exemple, l' \[utilisation de A\] -Z dans *pattern* se traduit par une correspondance si la position du caractère correspondante dans *expression* contient l'une des lettres majuscules comprises entre A et Z. Vous pouvez inclure plusieurs plages entre les crochets sans délimiter les plages. Par exemple, \[a-zA-z0-9\] correspond à n'importe quel caractère alphanumérique.
+Outre une simple liste de caractères encadrée par des crochets, *listecar* peut spécifier une plage de caractères en utilisant un tiret (-) pour séparer la borne supérieure et la borne inférieure de la plage. Par exemple, l’utilisation de A à Z dans le modèle entraîne une correspondance si la position du caractère correspondant dans l’expression contient l’une des lettres majuscules de la plage \[ \] A à Z.   Vous pouvez inclure plusieurs plages entre crochets sans les délimiter. Par exemple, \[ a-zA-Z0-9 correspond à \] n’importe quel caractère alphanumérique.
 
-Il est important de noter que les caractères génériques ANSI SQL (%) et (\_) sont disponibles uniquement avec Microsoft Jet version 4. X et le fournisseur Microsoft OLE DB pour jet. Ils sont interprétés comme des caractères littéraux lors de l'utilisation avec Microsoft Access ou DAO.
+Il est important de noter que les caractères génériques ANSI SQL (%) et ( ) sont disponibles uniquement avec Microsoft Jet version 4.X et le fournisseur \_ Microsoft OLE DB pour Jet. Ils sont interprétés comme des caractères littéraux lors de l'utilisation avec Microsoft Access ou DAO.
 
 Les autres règles importantes en matière de correspondance de chaîne sont les suivantes :
 
-- Un point d'exclamation\!() au début de *listecar* signifie qu'une correspondance est trouvée si un caractère quelconque, sauf ceux de *charlist* , se trouve dans *expression*. Utilisé hors des crochets, le point d'exclamation se recherche lui-même..
+- Un point d’exclamation ( ) au début de la liste de caractères signifie qu’une correspondance est trouvée si un caractère, à l’exception de ceux de la liste de caractères, est trouvé \! dans  *l’expression*.  Utilisé hors des crochets, le point d'exclamation se recherche lui-même..
 
 - Vous pouvez utiliser le tiret (-) au début (après un point d'exclamation s'il y en a un) ou à la fin de *listecar* pour qu'il se recherche lui-même. Placé à tout autre endroit, le tiret sert à identifier une plage de caractères ANSI
 
-- Lorsque vous spécifiez une plage de caractères, ces derniers doivent apparaître en ordre ascendant (A-Z ou 0-100). \[A-Z\] est un modèle valide, mais \[Z-a\] ne l'est pas.
+- Lorsque vous spécifiez une plage de caractères, ces derniers doivent apparaître en ordre ascendant (A-Z ou 0-100). \[A-Z \] est un modèle valide, mais ce \[ n’est pas le cas de \] Z-A.
 
-- La séquence \[ \] de caractères est ignorée; elle est considérée comme une chaîne de longueur nulle ("").
+- La séquence de caractères est ignorée ; elle est considérée comme une chaîne \[ \] nulle («  »).
 

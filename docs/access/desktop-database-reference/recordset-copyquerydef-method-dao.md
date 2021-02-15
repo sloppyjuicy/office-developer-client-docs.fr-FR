@@ -1,5 +1,5 @@
 ---
-title: Recordset. CopyQueryDef, méthode (DAO)
+title: Recordset.CopyQueryDef, méthode (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: fee8c2fe-500e-dfb3-21ce-211e54ff334b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837296(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300559"
 ---
-# <a name="recordsetcopyquerydef-method-dao"></a>Recordset. CopyQueryDef, méthode (DAO)
+# <a name="recordsetcopyquerydef-method-dao"></a>Recordset.CopyQueryDef, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l'objet **QueryDef** utilisé pour créer l'objet **[Recordset](recordset-object-dao.md)** représenté par l'espace réservé Recordset (espaces de travail Microsoft Access uniquement). .
+Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l’objet **QueryDef** utilisé pour créer l’objet **[Recordset](recordset-object-dao.md)** représenté par l’espace réservé recordset (espaces de travail Microsoft Access uniquement). .
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CopyQueryDef
+*.* CopyQueryDef
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable représentant un objet **Recordset**.
 
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -1,5 +1,5 @@
 ---
-title: Référence de l'objet Properties (DAO)
+title: Properties object reference (DAO)
 TOCTitle: Properties Object
 ms:assetid: dbd58d66-9566-41cd-82e2-bfc0c8778867
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125748(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301231"
 ---
-# <a name="properties-object-reference-dao"></a>Référence de l'objet Properties (DAO)
+# <a name="properties-object-reference-dao"></a>Properties object reference (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Properties, collection (DAO)](properties-collection-dao.md)
-- [Properties, membres (DAO)](properties-members-dao.md)
-- [Propriétés Properties (DAO)](properties-properties-dao.md)
-- [Méthodes de propriétés (DAO)](properties-methods-dao.md)
+- [Properties members (DAO)](properties-members-dao.md)
+- [Properties Properties (DAO)](properties-properties-dao.md)
+- [Properties methods (DAO)](properties-methods-dao.md)
 

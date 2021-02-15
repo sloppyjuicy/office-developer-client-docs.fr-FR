@@ -1,5 +1,5 @@
 ---
-title: Objet Property (DAO)
+title: Property, objet (DAO)
 TOCTitle: Property Object
 ms:assetid: a1ecb0db-bb93-a7b5-23c3-0b73f275dfe0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820932(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301189"
 ---
-# <a name="property-object-dao"></a>Objet Property (DAO)
+# <a name="property-object-dao"></a>Property, objet (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -51,18 +51,18 @@ En outre, l'objet **Property** intègre quatre propriétés prédéfinies :
 
 Pour faire référence à un objet **Property** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
 
-- * Object ***. Properties**(0)
+- *object***. Propriétés**(0)
 
-- *objet ***. Properties**("* Name *")
+- *object***. Propriétés**( »* name* »)
 
-- *objet ***. **\!* Nom des propriétés *\]
+- *object***. Nom des** \! \[* propriétés*\]
 
 Dans le cas d'une propriété prédéfinie, vous pouvez également utiliser la syntaxe suivante :
 
-- *objet*. *Name (nom* )
+- *.* *name*
 
 > [!NOTE]
-> Pour une propriété définie par l'utilisateur, vous devez utiliser l' *objet Full ***. Propriété**(«* Name *»).
+> Pour une propriété définie par l’utilisateur, vous devez utiliser l’objet *complet***. Syntaxe des** propriétés*(« nom* »).
 
 Avec les mêmes formes de syntaxe, vous pouvez également faire référence à la propriété **Value** d'un objet **Property**. C'est le contexte de la référence qui indique si vous faites référence à l'objet **Property** ou à la propriété **Value** de l'objet **Property**.
 

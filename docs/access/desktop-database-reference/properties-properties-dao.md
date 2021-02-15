@@ -1,5 +1,5 @@
 ---
-title: Propriétés Properties (DAO)
+title: Properties Properties (DAO)
 TOCTitle: Properties
 ms:assetid: b624704d-8ad9-467f-8c79-d52e632aab9e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn179851(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301238"
 ---
-# <a name="properties-properties-dao"></a>Propriétés Properties (DAO)
+# <a name="properties-properties-dao"></a>Properties Properties (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Propriété Properties. Count (DAO)](properties-count-property-dao.md)
+- [Properties.Count, propriété (DAO)](properties-count-property-dao.md)
 

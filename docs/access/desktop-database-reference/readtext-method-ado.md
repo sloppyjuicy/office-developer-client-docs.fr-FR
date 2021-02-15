@@ -22,11 +22,11 @@ Lit un nombre spécifié de caractères dans un objet [Stream](stream-object-ado
 
 ## <a name="syntax"></a>Syntaxe
 
-** = *Flux*de chaînes. ReadText (*NUMCHARS*)
+*Chaîne*  =  *Stream*. ReadText (*NumChars*)
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*NumChars* |Facultatif. Valeur de type **Long** qui spécifie le nombre de caractères à lire dans le fichier ou une valeur [StreamReadEnum](streamreadenum.md). La valeur par défaut est **adReadAll**.|
 
@@ -39,5 +39,5 @@ La méthode **ReadText** lit un nombre spécifié de caractères, une ligne comp
 Si la valeur de *NbCaractères* est supérieure au nombre de caractères encore présents dans le flux, seuls les caractères restants sont retournés. La chaîne lue n'est pas remplie pour correspondre à la longueur spécifiée par *NbCaractères*. S'il ne reste plus de caractères à lire, une valeur de type Variant NULL est retournée. La méthode **ReadText** ne peut pas être utilisée pour lire à l'envers.
 
 > [!NOTE]
-> La méthode **ReadText** est utilisée avec les flux de texte ([Type ](type-property-ado-stream.md)**adTypeText**). Pour les flux binaires (**Type ****adTypeBinary**), utilisez la méthode [Read](read-method-ado.md).
+> La méthode **ReadText** est utilisée avec les flux de texte ([Type](type-property-ado-stream.md)**adTypeText**). Pour les flux binaires (**Type****adTypeBinary**), utilisez la méthode [Read](read-method-ado.md).
 

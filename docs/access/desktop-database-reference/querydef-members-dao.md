@@ -36,8 +36,8 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydef-cancel-method-dao.md">Cancel</a></strong></p></td>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong><a href="querydef-cancel-method-dao.md">Annuler</a></strong></p></td>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Annule l'exécution d'un appel asynchrone de méthode en attente (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
@@ -50,11 +50,11 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-execute-method-dao.md">Execute</a></strong></p></td>
-<td><p>Exécute une instruction SQL au niveau de l'objet spécifié.</p></td>
+<td><p>Exécute une instruction SQL sur l’objet spécifié.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
-<td><p>Crée un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> et l'ajoute à la collection <strong>Recordsets</strong>.</p></td>
+<td><p>Crée un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> et l’ajoute à la collection <strong>Recordsets</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -76,7 +76,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydef-cachesize-property-dao.md">CacheSize</a></strong></p></td>
-<td><p>Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur <strong>Long</strong> en lecture-écriture.</p></td>
+<td><p>Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. <strong>Long</strong> (en lecture/écriture).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-connect-property-dao.md">Connect</a></strong></p></td>
@@ -84,7 +84,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Valeur <strong>Variant</strong> en lecture seule.</p></td>
+<td><p>Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Type <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-fields-property-dao.md">Fields</a></strong></p></td>
@@ -111,13 +111,13 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <td><p>Renvoie une collection <strong><a href="parameters-collection-dao.md">Parameters</a></strong> qui contient tous les objets <strong><a href="parameter-object-dao.md">Parameter</a></strong> de l'objet <strong>QueryDef</strong> spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-prepare-property-dao.md">Préparer</a></strong></p></td>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong><a href="querydef-prepare-property-dao.md">Préparation</a></strong></p></td>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Définit ou renvoie une valeur qui indique si la requête doit être préparée sur le serveur comme procédure stockée temporaire à l'aide d'une fonction API <strong>SQLPrepare</strong> ODBC avant l'exécution, ou juste exécutée à l'aide de la fonction API <strong>SQLExecDirect</strong> ODBC (espaces de travail ODBCDirect uniquement). En lecture/écriture <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-properties-property-dao.md">Propriétés</a></strong></p></td>
-<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. Valeur en lecture seule.</p></td>
+<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-recordsaffected-property-dao.md">RecordsAffected</a></strong></p></td>
@@ -129,20 +129,20 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-sql-property-dao.md">SQL</a></strong></p></td>
-<td><p>Définit ou renvoie l'instruction SQL qui définit la requête exécutée par un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
+<td><p>Définit ou renvoie l’instruction SQL qui définit la requête exécutée par un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Indique si l'exécution d'une opération asynchrone (c.-à-d. une méthode appelée avec l'option <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) est terminée (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. <strong>Type de valeur Integer</strong>en lecture seule.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. En lecture seule<strong>integer</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données <strong>Boolean</strong> en lecture seule.</p></td>
+<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. <strong>Boolean</strong> (en lecture seule).</p></td>
 </tr>
 </tbody>
 </table>

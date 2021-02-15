@@ -1,5 +1,5 @@
 ---
-title: Nouveautés d'ADO (ActiveX Data Objects)
+title: Nouveautés d’ActiveX Data Objects (ADO)
 TOCTitle: What's new in ADO
 ms:assetid: fd3d0f9c-e9df-d130-13e3-757620e9400c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
@@ -20,11 +20,11 @@ ms.locfileid: "32302610"
  
 La version ADO 2.5 propose les nouvelles fonctionnalités suivantes ainsi qu'une documentation enrichie. Cette liste englobe ADO, ADO MD et ADOX.
 
-## <a name="new-features"></a>Fonctionnalités nouvelles
+## <a name="new-features"></a>Nouvelles fonctionnalités
 
 - **[Enregistrements et flux](chapter-10-records-and-streams.md)**
 
-  Cette version d'ADO présente l'objet [Record](record-object-ado.md) , qui peut représenter et gérer des éléments tels que les répertoires et les fichiers d'un système de fichiers, ainsi que les dossiers et les messages d'un système de messagerie. L'objet **Record** peut également représenter une ligne d'un [Recordset](recordset-object-ado.md), bien que les objets **Record** et **Recordset** aient des méthodes et des propriétés différentes.
+  Cette version d’ADO introduit l’objet [Record,](record-object-ado.md) qui peut représenter et gérer des éléments tels que des répertoires et des fichiers dans un système de fichiers, ainsi que des dossiers et des messages dans un système de messagerie. L'objet **Record** peut également représenter une ligne d'un [Recordset](recordset-object-ado.md), bien que les objets **Record** et **Recordset** aient des méthodes et des propriétés différentes.
 
   Le nouvel objet [Stream](stream-object-ado.md) fournit les moyens de lire, d'écrire et de gérer le flux binaire d'octets ou de texte qui compose un flux de message ou de fichier.
 
@@ -36,7 +36,7 @@ La version ADO 2.5 propose les nouvelles fonctionnalités suivantes ainsi qu'une
 
 - **[Champs spéciaux pour les fournisseurs de sources de documents](records-and-provider-supplied-fields.md)**
 
-  Une classe spéciale de fournisseurs, appelée fournisseurs de *source de documents*, gère des dossiers et des documents. Lorsqu'un objet **Record** représente un document ou lorsqu'un objet **Recordset** représente un dossier de documents, le fournisseur de source de documents remplit ces objets d'un ensemble de champs unique qui décrit les caractéristiques du document. Ces champs constituent un objet **Record** ou **Recordset**de *ressources* .
+  Une classe spéciale de fournisseurs, appelée fournisseurs de *source de documents*, gère des dossiers et des documents. Lorsqu'un objet **Record** représente un document ou lorsqu'un objet **Recordset** représente un dossier de documents, le fournisseur de source de documents remplit ces objets d'un ensemble de champs unique qui décrit les caractéristiques du document. Ces champs constituent un *enregistrement de ressource*  ou **un recordset**.
 
 ## <a name="new-reference-topics"></a>Nouvelles rubriques de référence
 
@@ -57,11 +57,11 @@ Les nouvelles propriétés suivantes sont fournies dans cette version.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="charset-property-ado.md">Caractères</a></p></td>
+<td><p><a href="charset-property-ado.md">Charset</a></p></td>
 <td><p>Indique dans quel jeu de caractères le contenu d'un objet <strong>Stream</strong> de texte doit être traduit.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="eos-property-ado.md">ÉTHOXY</a></p></td>
+<td><p><a href="eos-property-ado.md">EOS</a></p></td>
 <td><p>Indique si la position actuelle correspond à la fin du flux.</p></td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Les nouvelles propriétés suivantes sont fournies dans cette version.
 <td><p>Indique le type de l'objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Taille</a></p></td>
 <td><p>Indique la taille du flux en nombre d'octets.</p></td>
 </tr>
 <tr class="odd">
@@ -93,11 +93,11 @@ Les nouvelles propriétés suivantes sont fournies dans cette version.
 <td><p>Indique l'entité représentée par l'objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
 <td><p>Indique, pour tous les objets applicables, si l'état de l'objet est ouvert ou fermé. Indique, pour tous les objets applicables exécutant une méthode asynchrone, si l'état actuel de l'objet est « en cours de connexion », « en cours d'exécution » ou « en cours d'extraction ».</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-stream.md">Type</a></p></td>
+<td><p><a href="type-property-ado-stream.md">Type (Type)</a></p></td>
 <td><p>Indique le type des données contenues dans l'objet <strong>Stream</strong> (binaire ou texte).</p></td>
 </tr>
 </tbody>
@@ -125,14 +125,14 @@ Les nouvelles méthodes suivantes sont fournies dans cette version.
 </tr>
 <tr class="even">
 <td><p><a href="copyto-method-ado.md">CopyTo</a></p></td>
-<td><p>Copie le nombre spécifié de caractères ou d'octets (selon le <strong>type</strong>) dans l' <strong></strong> <strong>objet</strong> Stream vers un autre objet <strong>Stream</strong> .</p></td>
+<td><p>Copie le nombre spécifié de caractères ou d’octets (selon <strong>le type)</strong>de l’objet <strong>Stream</strong> <strong>dans</strong> un <strong>autre objet Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deleterecord-method-ado.md">DeleteRecord</a></p></td>
 <td><p>Supprime un fichier ou un répertoire avec tous ses sous-répertoires.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="flush-method-ado.md">Comptabilité</a></p></td>
+<td><p><a href="flush-method-ado.md">Flush</a></p></td>
 <td><p>Force le contenu de l'objet <strong>Stream</strong> encore présent dans la mémoire tampon ADO dans l'objet sous-jacent auquel cet objet <strong>Stream</strong> est associé.</p></td>
 </tr>
 <tr class="odd">
@@ -156,7 +156,7 @@ Les nouvelles méthodes suivantes sont fournies dans cette version.
 <td><p>Ouvre un objet <strong>Stream</strong> afin de manipuler des flux de données binaires ou de texte.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="read-method-ado.md">Read</a></p></td>
+<td><p><a href="read-method-ado.md">Lire</a></p></td>
 <td><p>Lit le nombre spécifié d'octets d'un objet <strong>Stream</strong> binaire.</p></td>
 </tr>
 <tr class="odd">
@@ -189,15 +189,15 @@ Les nouvelles méthodes suivantes sont fournies dans cette version.
 
 ## <a name="new-and-enhanced-documentation"></a>Documentation nouvelle et améliorée
 
-- **[Rubriques d'exemples de code](ado-code-examples.md)**
+- **[Rubriques d’exemples de code](ado-code-examples.md)**
 
   Les exemples ont été développés pour contenir des exemples de code écrits en Microsoft Visual C++ et Microsoft Visual J++. Vous pouvez copier et coller ces exemples dans votre éditeur.
 
-- **[Rubriques relatives aux fournisseurs](appendix-a-providers.md)**
+- **[Rubriques sur le fournisseur](appendix-a-providers.md)**
 
   Une nouvelle rubrique, qui explique comment utiliser ADO avec le [fournisseur OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md), a été ajoutée.
 
 - **[Programmation avec ADO](appendix-c-programming-with-ado.md)**
 
-  Cette nouvelle section contient des conseils et des astuces pour l'utilisation d'ADO avec différents langages de programmation. Il contient les index de syntaxe existants pour les extensions Visual C++ pour ADO et ADO/WFC, ainsi que de nouvelles informations propres aux développeurs qui utilisent Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ ou Microsoft Visual J++.
+  Cette nouvelle section contient des conseils et des astuces pour l'utilisation d'ADO avec différents langages de programmation. Il contient les index de syntaxe existants pour les extensions Visual C++ pour ADO et ADO/WFC, ainsi que de nouvelles informations spécifiques aux développeurs qui utilisent Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ ou Microsoft Visual J++.
 

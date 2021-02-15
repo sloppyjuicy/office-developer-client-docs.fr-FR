@@ -1,5 +1,5 @@
 ---
-title: QueryDef. ReturnsRecords, propriété (DAO)
+title: Propriété QueryDef.ReturnsRecords (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303338"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a>QueryDef. ReturnsRecords, propriété (DAO)
+# <a name="querydefreturnsrecords-property-dao"></a>Propriété QueryDef.ReturnsRecords (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Définit ou renvoie une valeur indiquant si une requête SQL directe sur une bas
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ReturnsRecords
+*.* ReturnsRecords
 
-*expression* Variable qui représente un objet **QueryDef** .
+*expression* Variable représentant un objet **QueryDef**.
 
 ## <a name="remarks"></a>Remarques
 

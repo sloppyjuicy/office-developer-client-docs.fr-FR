@@ -22,17 +22,17 @@ L'événement **WillConnect** est appelé avant le début d'une connexion.
 
 ## <a name="syntax"></a>Syntaxe
 
-WillConnect*ConnectionString*, *userid*, *Password*, *options*, ** adStatus, *pConnection*
+WillConnect *ConnectionString*, *UserID*, *Password*, *Options*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*ConnectionString* |Valeur de type **String** contenant les informations de la connexion en attente.|
 |*UserID* |Valeur de type **String** reprenant le nom de l'utilisateur de la connexion en attente.|
 |*Password* |Valeur de type **String** contenant un mot de passe pour la connexion en attente.|
 |*Options* |Valeur de type **Long** indiquant la méthode d'évaluation du paramètre *ConnectionString* par le fournisseur. La seule option possible est **adAsyncOpen**.|
-|*Statu* |[EventStatusEnum](eventstatusenum.md). Lorsque cet événement est appelé, ce paramètre est défini à **adStatusOK** par défaut. Il est défini à **adStatusCantDeny** si l'événement ne peut pas demander l'annulation de l'opération en attente.<br/><br/>Avant que cet événement soit retourné, affectez au paramètre la valeur **adStatusUnwantedEvent** pour éviter toute notification ultérieure ou la valeur **adStatusCancel** pour demander l'opération de connexion provoquant l'annulation de cette notification.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Lorsque cet événement est appelé, ce paramètre est défini à **adStatusOK** par défaut. Il est défini à **adStatusCantDeny** si l'événement ne peut pas demander l'annulation de l'opération en attente.<br/><br/>Avant que cet événement soit retourné, affectez au paramètre la valeur **adStatusUnwantedEvent** pour éviter toute notification ultérieure ou la valeur **adStatusCancel** pour demander l'opération de connexion provoquant l'annulation de cette notification.|
 |*pConnection* |Objet [Connection](connection-object-ado.md) auquel cette notification d'événement s'applique. Les modifications apportées aux paramètres de l'objet **Connection** par le gestionnaire d'événements **WillConnect** n'ont aucun effet sur l'objet **Connection**.|
 
 ## <a name="remarks"></a>Remarques

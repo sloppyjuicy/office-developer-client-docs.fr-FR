@@ -1,5 +1,5 @@
 ---
-title: Recordset. BatchCollisions, propriété (DAO)
+title: Recordset.BatchCollisions, propriété (DAO)
 TOCTitle: BatchCollisions Property
 ms:assetid: 53e5572b-770c-9ea5-31a5-984abdf66faa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194079(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300860"
 ---
-# <a name="recordsetbatchcollisions-property-dao"></a>Recordset. BatchCollisions, propriété (DAO)
+# <a name="recordsetbatchcollisions-property-dao"></a>Recordset.BatchCollisions, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . BatchCollisions
+*.* BatchCollisions
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 

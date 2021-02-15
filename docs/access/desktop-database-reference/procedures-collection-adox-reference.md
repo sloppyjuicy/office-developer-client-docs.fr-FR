@@ -1,5 +1,5 @@
 ---
-title: Référence de la collection procedures (ADOX)
+title: Procedures collection (ADOX) reference
 TOCTitle: Procedures collection (ADOX)
 ms:assetid: 1ba826de-1a50-4031-ae72-2770f3beb8dc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248956(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301343"
 ---
-# <a name="procedures-collection-adox-reference"></a>Référence de la collection procedures (ADOX)
+# <a name="procedures-collection-adox-reference"></a>Procedures collection (ADOX) reference
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Procedures, collection (ADOX)](procedures-collection-adox.md)
-- [Procedures, collection-propriétés, méthodes et événements (ADOX)](procedures-collection-properties-methods-and-events-adox.md)
+- [Procedures collection properties, methods, and events (ADOX)](procedures-collection-properties-methods-and-events-adox.md)
 

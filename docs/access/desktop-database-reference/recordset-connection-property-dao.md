@@ -1,5 +1,5 @@
 ---
-title: Recordset. Connection, propriété (DAO)
+title: Recordset.Connection, propriété (DAO)
 TOCTitle: Connection Property
 ms:assetid: 3d757283-761c-dc79-bb1e-5e607edbb0db
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192710(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300601"
 ---
-# <a name="recordsetconnection-property-dao"></a>Recordset. Connection, propriété (DAO)
+# <a name="recordsetconnection-property-dao"></a>Recordset.Connection, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie l'objet **[Connection](connection-object-dao.md)** qui correspond à la base de données.
+Renvoie l’objet **[connexion](connection-object-dao.md)** qui correspond à la base de données.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Connexion
+*.* Connexion
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 

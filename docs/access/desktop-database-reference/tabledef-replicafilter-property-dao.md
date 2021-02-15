@@ -1,5 +1,5 @@
 ---
-title: TableDef. ReplicaFilter, propriété (DAO)
+title: TableDef.ReplicaFilter, propriété (DAO)
 TOCTitle: ReplicaFilter Property
 ms:assetid: f44273de-2b6a-750f-cb7c-12c3ac2da503
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836681(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302785"
 ---
-# <a name="tabledefreplicafilter-property-dao"></a>TableDef. ReplicaFilter, propriété (DAO)
+# <a name="tabledefreplicafilter-property-dao"></a>TableDef.ReplicaFilter, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Définit ou renvoie une valeur sur un objet **[TableDef](tabledef-object-dao.md)
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ReplicaFilter
+*.* ReplicaFilter
 
-*expression* Variable qui représente un objet **TableDef** .
+*expression* Variable représentant un objet **TableDef**.
 
 ## <a name="remarks"></a>Remarques
 

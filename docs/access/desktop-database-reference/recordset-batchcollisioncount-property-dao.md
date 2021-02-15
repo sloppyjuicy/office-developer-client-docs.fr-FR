@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset. BatchCollisionCount (DAO)
+title: Recordset.BatchCollisionCount, propriété (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 9d166463-8313-c0f5-8389-5d5ad933eb33
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198240(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300629"
 ---
-# <a name="recordsetbatchcollisioncount-property-dao"></a>Propriété Recordset. BatchCollisionCount (DAO)
+# <a name="recordsetbatchcollisioncount-property-dao"></a>Recordset.BatchCollisionCount, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . BatchCollisionCount
+*.* BatchCollisionCount
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -39,7 +39,7 @@ Une fois les enregistrements en collision corrigés, il est possible de rappeler
 
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la propriété **BatchCollisionCount** et la méthode **Update** pour illustrer la mise à jour par lot lorsque des conflits sont résolus en forçant la mise à jour par lot.
+Cet exemple utilise la **BatchCollisionCount** propriété et le **mettre à jour** méthode démontre lot la mise à jour dans laquelle les conflits sont résolus en forçant la mise à jour du lot.
 
 ```vb 
 Sub BatchX() 

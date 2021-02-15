@@ -1,5 +1,5 @@
 ---
-title: QueryDefTypeEnum, énumération (DAO)
+title: QueryDefTypeEnum, éumération (DAO)
 TOCTitle: QueryDefTypeEnum Enumeration
 ms:assetid: 4327af31-daa1-88a2-fef5-8894181eee8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192931(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300916"
 ---
-# <a name="querydeftypeenum-enumeration-dao"></a>QueryDefTypeEnum, énumération (DAO)
+# <a name="querydeftypeenum-enumeration-dao"></a>QueryDefTypeEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -52,7 +52,7 @@ Cette énumération est utilisée avec la propriété **Type** pour spécifier l
 </tr>
 <tr class="even">
 <td><p>dbQCrosstab</p></td>
-<td><p>Seiz</p></td>
+<td><p>16 </p></td>
 <td><p>Requête analyse croisée</p></td>
 </tr>
 <tr class="odd">

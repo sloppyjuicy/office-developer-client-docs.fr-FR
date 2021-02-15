@@ -1,5 +1,5 @@
 ---
-title: QueryDefs. Count, propriété (DAO)
+title: QueryDefs.Count, propriété (DAO)
 TOCTitle: Count Property
 ms:assetid: 8caa01c5-692f-95e4-4b11-6e6c591f5872
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197340(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300958"
 ---
-# <a name="querydefscount-property-dao"></a>QueryDefs. Count, propriété (DAO)
+# <a name="querydefscount-property-dao"></a>QueryDefs.Count, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Compte
+*.* Count
 
-*expression* Variable qui représente un objet **querydefs** .
+*expression* Variable qui représente un **objet QueryDefs.**
 
 ## <a name="remarks"></a>Remarques
 

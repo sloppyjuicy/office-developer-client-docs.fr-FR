@@ -1,5 +1,5 @@
 ---
-title: QueryDef. Updatable, propriété (DAO)
+title: QueryDef.Updatable, propriété (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 9b978b7d-1d76-ff27-a032-dd94660fb088
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198056(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303331"
 ---
-# <a name="querydefupdatable-property-dao"></a>QueryDef. Updatable, propriété (DAO)
+# <a name="querydefupdatable-property-dao"></a>QueryDef.Updatable, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données **Boolean** en lecture seule.
+Renvoie une valeur qui indique si vous pouvez changer un objet DAO. **Boolean** (en lecture seule).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Modifiable
+*.* Updatable
 
-*expression* Variable qui représente un objet **QueryDef** .
+*expression* Variable représentant un objet **QueryDef**.
 
 ## <a name="remarks"></a>Remarques
 

@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet de propriété (ADO)
+title: Référence de l’objet Property (ADO)
 TOCTitle: Property object (ADO)
 ms:assetid: 595d2afb-1d5b-4138-9066-b5d14cdceeb2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249303(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301203"
 ---
-# <a name="property-object-ado-reference"></a>Référence d'objet de propriété (ADO)
+# <a name="property-object-ado-reference"></a>Référence de l’objet Property (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Property, objet (ADO)](property-object-ado.md)
-- [Propriétés, méthodes et événements (ADO)](property-properties-methods-and-events-ado.md)
+- [Property properties, methods, and events (ADO)](property-properties-methods-and-events-ado.md)
 
