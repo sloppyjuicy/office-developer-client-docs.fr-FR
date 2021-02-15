@@ -1,5 +1,5 @@
 ---
-title: References, collection (ADOX)
+title: Référence de collection Groups (ADOX)
 TOCTitle: Groups collection (ADOX)
 ms:assetid: 99fc8913-b6f9-4df9-9583-ff459e894152
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249693(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292061"
 ---
-# <a name="groups-collection-adox-reference"></a><span data-ttu-id="848b0-102">References, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="848b0-102">Groups collection (ADOX) reference</span></span>
+# <a name="groups-collection-adox-reference"></a><span data-ttu-id="bae98-102">Référence de collection Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="bae98-102">Groups collection (ADOX) reference</span></span>
 
-<span data-ttu-id="848b0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="848b0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bae98-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bae98-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="848b0-104">Groups, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="848b0-104">Groups collection (ADOX)</span></span>](groups-collection-adox.md)
-- [<span data-ttu-id="848b0-105">Groups, collection-propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="848b0-105">Groups collection properties, methods, and events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="bae98-104">Groups, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="bae98-104">Groups collection (ADOX)</span></span>](groups-collection-adox.md)
+- [<span data-ttu-id="bae98-105">Groups collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="bae98-105">Groups collection properties, methods, and events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
 

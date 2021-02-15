@@ -1,5 +1,5 @@
 ---
-title: Field. Properties, propriété (DAO)
+title: Field.Properties, propriété (DAO)
 TOCTitle: Properties Property
 ms:assetid: 43ecc426-0d07-94f9-217a-b0566fe05c34
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193147(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293006"
 ---
-# <a name="fieldproperties-property-dao"></a><span data-ttu-id="29d91-102">Field. Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="29d91-102">Field.Properties property (DAO)</span></span>
+# <a name="fieldproperties-property-dao"></a><span data-ttu-id="523eb-102">Field.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="523eb-102">Field.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="29d91-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="29d91-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="523eb-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="523eb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="29d91-104">Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="29d91-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="29d91-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="29d91-105">Read-only.</span></span>
+<span data-ttu-id="523eb-104">Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="523eb-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="523eb-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="523eb-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="29d91-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="29d91-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="523eb-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="523eb-106">Syntax</span></span>
 
-<span data-ttu-id="29d91-107">*expression* . Propriétés</span><span class="sxs-lookup"><span data-stu-id="29d91-107">*expression* .Properties</span></span>
+<span data-ttu-id="523eb-107">*.* Propriétés</span><span class="sxs-lookup"><span data-stu-id="523eb-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="29d91-108">*expression* Variable qui représente un objet **Field** .</span><span class="sxs-lookup"><span data-stu-id="29d91-108">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="523eb-108">*expression* Variable qui représente un objet **Field**.</span><span class="sxs-lookup"><span data-stu-id="523eb-108">*expression* A variable that represents a **Field** object.</span></span>
 

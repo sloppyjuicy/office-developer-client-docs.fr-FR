@@ -1,5 +1,5 @@
 ---
-title: Groups, collection-propriétés, méthodes et événements (ADOX)
+title: Groups collection properties, methods, and events (ADOX)
 TOCTitle: Groups collection properties, methods, and events (ADOX)
 ms:assetid: 6893863d-a9e9-cde8-3ad9-283332c6da88
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249410(v=office.15)
@@ -14,23 +14,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292054"
 ---
-# <a name="groups-collection-properties-methods-and-events-adox"></a><span data-ttu-id="3ebc2-102">Groups, collection-propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="3ebc2-102">Groups collection properties, methods, and events (ADOX)</span></span>
+# <a name="groups-collection-properties-methods-and-events-adox"></a><span data-ttu-id="6634d-102">Groups collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6634d-102">Groups collection properties, methods, and events (ADOX)</span></span>
 
 
-<span data-ttu-id="3ebc2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3ebc2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6634d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6634d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="3ebc2-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="3ebc2-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="6634d-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="6634d-104">Properties</span></span>
 
-- [<span data-ttu-id="3ebc2-105">Propriété Count</span><span class="sxs-lookup"><span data-stu-id="3ebc2-105">Count property</span></span>](count-property-ado.md)
-- [<span data-ttu-id="3ebc2-106">Propriété Item</span><span class="sxs-lookup"><span data-stu-id="3ebc2-106">Item property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="6634d-105">Propriété Count</span><span class="sxs-lookup"><span data-stu-id="6634d-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="6634d-106">Item, propriété</span><span class="sxs-lookup"><span data-stu-id="6634d-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="3ebc2-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="3ebc2-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="6634d-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="6634d-107">Methods</span></span>
 
-- [<span data-ttu-id="3ebc2-108">Append, méthode (groupes)</span><span class="sxs-lookup"><span data-stu-id="3ebc2-108">Append method (Groups)</span></span>](append-method-adox-groups.md)
-- [<span data-ttu-id="3ebc2-109">Delete, méthode (Collections)</span><span class="sxs-lookup"><span data-stu-id="3ebc2-109">Delete method (Collections)</span></span>](delete-method-adox-collections.md)
-- [<span data-ttu-id="3ebc2-110">Refresh, méthode</span><span class="sxs-lookup"><span data-stu-id="3ebc2-110">Refresh method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="6634d-108">Append, méthode (Groups)</span><span class="sxs-lookup"><span data-stu-id="6634d-108">Append method (Groups)</span></span>](append-method-adox-groups.md)
+- [<span data-ttu-id="6634d-109">Delete, méthode (Collections)</span><span class="sxs-lookup"><span data-stu-id="6634d-109">Delete method (Collections)</span></span>](delete-method-adox-collections.md)
+- [<span data-ttu-id="6634d-110">Refresh, méthode</span><span class="sxs-lookup"><span data-stu-id="6634d-110">Refresh method</span></span>](refresh-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="3ebc2-111">Events</span><span class="sxs-lookup"><span data-stu-id="3ebc2-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="6634d-111">Événements</span><span class="sxs-lookup"><span data-stu-id="6634d-111">Events</span></span>
 
-<span data-ttu-id="3ebc2-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="3ebc2-112">None.</span></span>
+<span data-ttu-id="6634d-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="6634d-112">None.</span></span>
 

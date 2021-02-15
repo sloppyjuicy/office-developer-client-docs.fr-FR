@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292383"
 ---
-# <a name="find-method-example-vb"></a><span data-ttu-id="c214b-102">Find, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="c214b-102">Find method example (VB)</span></span>
+# <a name="find-method-example-vb"></a><span data-ttu-id="34043-102">Find, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="34043-102">Find method example (VB)</span></span>
 
 
-<span data-ttu-id="c214b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c214b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="34043-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="34043-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c214b-104">Cet exemple utilise la méthode [Find](find-method-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour localiser et compter le nombre de titres de fonctions dans la base de données ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="c214b-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="c214b-105">Il est supposé, dans l'exemple, que le fournisseur sous-jacent ne prend pas en charge de fonctionnalité similaire.</span><span class="sxs-lookup"><span data-stu-id="c214b-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="34043-104">Cet exemple utilise la méthode [Find](find-method-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour localiser et compter le nombre de titres de fonctions dans la base de données ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="34043-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="34043-105">Il est supposé, dans l'exemple, que le fournisseur sous-jacent ne prend pas en charge de fonctionnalité similaire.</span><span class="sxs-lookup"><span data-stu-id="34043-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```vb 
  

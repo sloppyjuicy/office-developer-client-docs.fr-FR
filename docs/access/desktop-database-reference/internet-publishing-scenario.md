@@ -14,44 +14,44 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291271"
 ---
-# <a name="internet-publishing-scenario"></a><span data-ttu-id="a2d62-102">Scénario de publication Internet</span><span class="sxs-lookup"><span data-stu-id="a2d62-102">Internet publishing scenario</span></span>
+# <a name="internet-publishing-scenario"></a><span data-ttu-id="a183d-102">Scénario de publication Internet</span><span class="sxs-lookup"><span data-stu-id="a183d-102">Internet publishing scenario</span></span>
 
-<span data-ttu-id="a2d62-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2d62-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a183d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a183d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2d62-p101">Cet exemple de code illustre la façon dont ADO doit être utilisé avec le fournisseur Microsoft OLE DB pour la publication Internet. Ce scénario consiste à créer une application Visual Basic qui utilise des objets **Recordset**, **Record** et **Stream** pour afficher le contenu des ressources publiées à l'aide du fournisseur de la publication Internet.</span><span class="sxs-lookup"><span data-stu-id="a2d62-p101">This code example demonstrates how to use ADO with the Microsoft OLE DB Provider for Internet Publishing. In this scenario, you will create a Visual Basic application that uses **Recordset**, **Record**, and **Stream** objects to display the contents of resources published with the Internet Publishing Provider.</span></span>
+<span data-ttu-id="a183d-p101">Cet exemple de code illustre la façon dont ADO doit être utilisé avec le fournisseur Microsoft OLE DB pour la publication Internet. Ce scénario consiste à créer une application Visual Basic qui utilise des objets **Recordset**, **Record** et **Stream** pour afficher le contenu des ressources publiées à l'aide du fournisseur de la publication Internet.</span><span class="sxs-lookup"><span data-stu-id="a183d-p101">This code example demonstrates how to use ADO with the Microsoft OLE DB Provider for Internet Publishing. In this scenario, you will create a Visual Basic application that uses **Recordset**, **Record**, and **Stream** objects to display the contents of resources published with the Internet Publishing Provider.</span></span>
 
-<span data-ttu-id="a2d62-106">La création de ce scénario passe par l'exécution des étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="a2d62-106">The following steps are necessary to create this scenario:</span></span> 
+<span data-ttu-id="a183d-106">La création de ce scénario passe par l'exécution des étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="a183d-106">The following steps are necessary to create this scenario:</span></span> 
 
-1. <span data-ttu-id="a2d62-107">ConFigurez le projet Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="a2d62-107">Set up the Visual Basic project.</span></span>
-2. <span data-ttu-id="a2d62-108">Initialiser la zone de liste principale.</span><span class="sxs-lookup"><span data-stu-id="a2d62-108">Initialize the Main list box.</span></span>
-3. <span data-ttu-id="a2d62-109">Remplissez la zone de liste Fields.</span><span class="sxs-lookup"><span data-stu-id="a2d62-109">Populate the Fields list box.</span></span>
-4. <span data-ttu-id="a2d62-110">Remplissez la zone de texte details.</span><span class="sxs-lookup"><span data-stu-id="a2d62-110">Populate the Details text box.</span></span>
+1. <span data-ttu-id="a183d-107">Configurer le projet Visual Basic projet.</span><span class="sxs-lookup"><span data-stu-id="a183d-107">Set up the Visual Basic project.</span></span>
+2. <span data-ttu-id="a183d-108">Initialiser la zone de liste Principale.</span><span class="sxs-lookup"><span data-stu-id="a183d-108">Initialize the Main list box.</span></span>
+3. <span data-ttu-id="a183d-109">Remplir la zone de liste Champs.</span><span class="sxs-lookup"><span data-stu-id="a183d-109">Populate the Fields list box.</span></span>
+4. <span data-ttu-id="a183d-110">Remplir la zone de texte Détails.</span><span class="sxs-lookup"><span data-stu-id="a183d-110">Populate the Details text box.</span></span>
 
-## <a name="step-1-set-up-the-visual-basic-project"></a><span data-ttu-id="a2d62-111">Étape 1: configurer le projet Visual Basic</span><span class="sxs-lookup"><span data-stu-id="a2d62-111">Step 1: Set up the Visual Basic project</span></span>
+## <a name="step-1-set-up-the-visual-basic-project"></a><span data-ttu-id="a183d-111">Étape 1 : Configurer le projet Visual Basic projet</span><span class="sxs-lookup"><span data-stu-id="a183d-111">Step 1: Set up the Visual Basic project</span></span>
 
-<span data-ttu-id="a2d62-112">Dans ce scénario, vous êtes censé avoir installé sur votre système Microsoft Visual Basic version 6.0 ou ultérieure, ADO version 2.5 ou ultérieure, et le fournisseur Microsoft OLE DB pour la publication Internet.</span><span class="sxs-lookup"><span data-stu-id="a2d62-112">In this scenario, it is assumed that you have Microsoft Visual Basic 6.0 or later, ADO 2.5 or later, and the Microsoft OLE DB Provider for Internet Publishing installed on your system.</span></span>
+<span data-ttu-id="a183d-112">Dans ce scénario, vous êtes censé avoir installé sur votre système Microsoft Visual Basic version 6.0 ou ultérieure, ADO version 2.5 ou ultérieure, et le fournisseur Microsoft OLE DB pour la publication Internet.</span><span class="sxs-lookup"><span data-stu-id="a183d-112">In this scenario, it is assumed that you have Microsoft Visual Basic 6.0 or later, ADO 2.5 or later, and the Microsoft OLE DB Provider for Internet Publishing installed on your system.</span></span>
 
-### <a name="create-an-ado-project"></a><span data-ttu-id="a2d62-113">Créer un projet ADO</span><span class="sxs-lookup"><span data-stu-id="a2d62-113">Create an ADO project</span></span>
+### <a name="create-an-ado-project"></a><span data-ttu-id="a183d-113">Créer un projet ADO</span><span class="sxs-lookup"><span data-stu-id="a183d-113">Create an ADO project</span></span>
 
-1.  <span data-ttu-id="a2d62-114">Dans Microsoft Visual Basic, créez un nouveau projet EXE standard.</span><span class="sxs-lookup"><span data-stu-id="a2d62-114">In Microsoft Visual Basic, create a new Standard EXE project.</span></span>
+1.  <span data-ttu-id="a183d-114">Dans Microsoft Visual Basic, créez un nouveau projet EXE standard.</span><span class="sxs-lookup"><span data-stu-id="a183d-114">In Microsoft Visual Basic, create a new Standard EXE project.</span></span>
 
-2.  <span data-ttu-id="a2d62-115">Dans le menu **Projet**, choisissez **Références**.</span><span class="sxs-lookup"><span data-stu-id="a2d62-115">From the **Project** menu, choose **References**.</span></span>
+2.  <span data-ttu-id="a183d-115">Dans le menu **Projet**, choisissez **Références**.</span><span class="sxs-lookup"><span data-stu-id="a183d-115">From the **Project** menu, choose **References**.</span></span>
 
-3.  <span data-ttu-id="a2d62-116">Sélectionnez **bibliothèque Microsoft ActiveX Data objects 2,5**, puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="a2d62-116">Select **Microsoft ActiveX Data Objects 2.5 Library**, and then click **OK**.</span></span>
+3.  <span data-ttu-id="a183d-116">Sélectionnez **Microsoft ActiveX Data Objects 2.5 Library,** puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="a183d-116">Select **Microsoft ActiveX Data Objects 2.5 Library**, and then click **OK**.</span></span>
 
-### <a name="insert-controls-on-the-main-form"></a><span data-ttu-id="a2d62-117">Insérer des contrôles dans le formulaire principal</span><span class="sxs-lookup"><span data-stu-id="a2d62-117">Insert controls on the main form</span></span>
+### <a name="insert-controls-on-the-main-form"></a><span data-ttu-id="a183d-117">Insérer des contrôles sur le formulaire principal</span><span class="sxs-lookup"><span data-stu-id="a183d-117">Insert controls on the main form</span></span>
 
-1.  <span data-ttu-id="a2d62-118">Ajoutez un contrôle ListBox à Form1.</span><span class="sxs-lookup"><span data-stu-id="a2d62-118">Add a ListBox control to Form1.</span></span> <span data-ttu-id="a2d62-119">Définissez sa propriété **Name** sur **lstMain**.</span><span class="sxs-lookup"><span data-stu-id="a2d62-119">Set its **Name** property to **lstMain**.</span></span>
+1.  <span data-ttu-id="a183d-118">Ajoutez un contrôle ListBox à Form1.</span><span class="sxs-lookup"><span data-stu-id="a183d-118">Add a ListBox control to Form1.</span></span> <span data-ttu-id="a183d-119">Définissez **sa propriété Name** sur **lstMain**.</span><span class="sxs-lookup"><span data-stu-id="a183d-119">Set its **Name** property to **lstMain**.</span></span>
 
-2.  <span data-ttu-id="a2d62-120">Ajoutez un autre contrôle ListBox à Form1.</span><span class="sxs-lookup"><span data-stu-id="a2d62-120">Add another ListBox control to Form1.</span></span> <span data-ttu-id="a2d62-121">Définissez sa propriété **Name** sur **lstDetails**.</span><span class="sxs-lookup"><span data-stu-id="a2d62-121">Set its **Name** property to **lstDetails**.</span></span>
+2.  <span data-ttu-id="a183d-120">Ajoutez un autre contrôle ListBox à Form1.</span><span class="sxs-lookup"><span data-stu-id="a183d-120">Add another ListBox control to Form1.</span></span> <span data-ttu-id="a183d-121">Définissez **sa propriété Name** sur **lstDetails**.</span><span class="sxs-lookup"><span data-stu-id="a183d-121">Set its **Name** property to **lstDetails**.</span></span>
 
-3.  <span data-ttu-id="a2d62-122">Ajoutez un contrôle TextBox à Form1.</span><span class="sxs-lookup"><span data-stu-id="a2d62-122">Add a TextBox control to Form1.</span></span> <span data-ttu-id="a2d62-123">Définissez sa propriété **Name** sur **txtDetails**.</span><span class="sxs-lookup"><span data-stu-id="a2d62-123">Set its **Name** property to **txtDetails**.</span></span>
+3.  <span data-ttu-id="a183d-122">Ajoutez un contrôle TextBox à Form1.</span><span class="sxs-lookup"><span data-stu-id="a183d-122">Add a TextBox control to Form1.</span></span> <span data-ttu-id="a183d-123">Définissez **sa propriété Name** sur **txtDetails**.</span><span class="sxs-lookup"><span data-stu-id="a183d-123">Set its **Name** property to **txtDetails**.</span></span>
 
-## <a name="step-2-initialize-the-main-list-box"></a><span data-ttu-id="a2d62-124">Étape 2: initialiser la zone de liste principale</span><span class="sxs-lookup"><span data-stu-id="a2d62-124">Step 2: Initialize the Main list box</span></span>
+## <a name="step-2-initialize-the-main-list-box"></a><span data-ttu-id="a183d-124">Étape 2 : Initialiser la zone de liste principale</span><span class="sxs-lookup"><span data-stu-id="a183d-124">Step 2: Initialize the Main list box</span></span>
 
-### <a name="declare-global-record-and-recordset-objects"></a><span data-ttu-id="a2d62-125">Déclarer les objets record et Recordset globaux</span><span class="sxs-lookup"><span data-stu-id="a2d62-125">Declare global Record and Recordset objects</span></span>
+### <a name="declare-global-record-and-recordset-objects"></a><span data-ttu-id="a183d-125">Déclarer des objets Record et Recordset globaux</span><span class="sxs-lookup"><span data-stu-id="a183d-125">Declare global Record and Recordset objects</span></span>
 
-- <span data-ttu-id="a2d62-126">Insérez le code suivant dans (Général) (Déclarations) pour Form1 :</span><span class="sxs-lookup"><span data-stu-id="a2d62-126">Insert the following code into the (General) (Declarations) for Form1:</span></span>
+- <span data-ttu-id="a183d-126">Insérez le code suivant dans (Général) (Déclarations) pour Form1 :</span><span class="sxs-lookup"><span data-stu-id="a183d-126">Insert the following code into the (General) (Declarations) for Form1:</span></span>
     
    ```vb 
      
@@ -60,11 +60,11 @@ ms.locfileid: "32291271"
     Dim grs As Recordset 
    ```
     
-   <span data-ttu-id="a2d62-127">Ce code déclare des références pour les objets globaux **Record** et **Recordset** qui seront utilisés par la suite dans ce scénario.</span><span class="sxs-lookup"><span data-stu-id="a2d62-127">This code declares global object references for **Record** and **Recordset** objects that will be used later in this scenario.</span></span>
+   <span data-ttu-id="a183d-127">Ce code déclare des références pour les objets globaux **Record** et **Recordset** qui seront utilisés par la suite dans ce scénario.</span><span class="sxs-lookup"><span data-stu-id="a183d-127">This code declares global object references for **Record** and **Recordset** objects that will be used later in this scenario.</span></span>
 
-### <a name="connect-to-a-url-and-populate-lstmain"></a><span data-ttu-id="a2d62-128">Se connecter à une URL et remplir lstMain</span><span class="sxs-lookup"><span data-stu-id="a2d62-128">Connect to a URL and populate lstMain</span></span>
+### <a name="connect-to-a-url-and-populate-lstmain"></a><span data-ttu-id="a183d-128">Se connecter à une URL et remplir lstMain</span><span class="sxs-lookup"><span data-stu-id="a183d-128">Connect to a URL and populate lstMain</span></span>
 
-- <span data-ttu-id="a2d62-129">Insérez le code suivant dans le gestionnaire d'événements Form Load pour Form1 :</span><span class="sxs-lookup"><span data-stu-id="a2d62-129">Insert the following code into the Form Load event handler for Form1:</span></span>
+- <span data-ttu-id="a183d-129">Insérez le code suivant dans le gestionnaire d'événements Form Load pour Form1 :</span><span class="sxs-lookup"><span data-stu-id="a183d-129">Insert the following code into the Form Load event handler for Form1:</span></span>
     
    ```vb 
      
@@ -81,15 +81,15 @@ ms.locfileid: "32291271"
     End Sub 
    ```
     
-   <span data-ttu-id="a2d62-130">Ce code instancie les objets **Record** et **Recordset** globaux.</span><span class="sxs-lookup"><span data-stu-id="a2d62-130">This code instantiates the global **Record** and **Recordset** objects.</span></span> <span data-ttu-id="a2d62-131">L' **enregistrement** `grec` est ouvert avec une URL spécifiée en tant que **ActiveConnection**.</span><span class="sxs-lookup"><span data-stu-id="a2d62-131">The **Record** `grec` is opened with a URL specified as the **ActiveConnection**.</span></span> <span data-ttu-id="a2d62-132">Si l'URL existe, elle est ouverte ; si elle n'existe pas encore, elle est créée.</span><span class="sxs-lookup"><span data-stu-id="a2d62-132">If the URL exists, it is opened; if it does not already exist, it is created.</span></span> 
+   <span data-ttu-id="a183d-130">Ce code instancie les objets **Record** et **Recordset** globaux.</span><span class="sxs-lookup"><span data-stu-id="a183d-130">This code instantiates the global **Record** and **Recordset** objects.</span></span> <span data-ttu-id="a183d-131">**L’enregistrement** `grec` est ouvert avec une URL spécifiée comme **ActiveConnection**.</span><span class="sxs-lookup"><span data-stu-id="a183d-131">The **Record** `grec` is opened with a URL specified as the **ActiveConnection**.</span></span> <span data-ttu-id="a183d-132">Si l'URL existe, elle est ouverte ; si elle n'existe pas encore, elle est créée.</span><span class="sxs-lookup"><span data-stu-id="a183d-132">If the URL exists, it is opened; if it does not already exist, it is created.</span></span> 
    
-   <span data-ttu-id="a2d62-133">Notez que vous devez remplacer `https://servername/foldername/` par une URL valide de votre environnement.</span><span class="sxs-lookup"><span data-stu-id="a2d62-133">Note that you should replace `https://servername/foldername/` with a valid URL from your environment.</span></span> 
+   <span data-ttu-id="a183d-133">Notez que vous devez remplacer `https://servername/foldername/` par une URL valide de votre environnement.</span><span class="sxs-lookup"><span data-stu-id="a183d-133">Note that you should replace `https://servername/foldername/` with a valid URL from your environment.</span></span> 
    
-   <span data-ttu-id="a2d62-134">L' **objet Recordset** `grs` est ouvert sur les enfants de l'objet **Record** `grec`.</span><span class="sxs-lookup"><span data-stu-id="a2d62-134">The **Recordset** `grs` is opened on the children of the **Record** `grec`.</span></span> <span data-ttu-id="a2d62-135">Le lstMain est ensuite rempli avec les noms de fichier des ressources publiées dans l'URL.</span><span class="sxs-lookup"><span data-stu-id="a2d62-135">The lstMain is then populated with the file names of the resources published to the URL.</span></span>
+   <span data-ttu-id="a183d-134">Le **recordset** `grs` est ouvert sur les enfants de l’enregistrement  `grec` .</span><span class="sxs-lookup"><span data-stu-id="a183d-134">The **Recordset** `grs` is opened on the children of the **Record** `grec`.</span></span> <span data-ttu-id="a183d-135">Le lstMain est ensuite rempli avec les noms de fichiers des ressources publiées dans l’URL.</span><span class="sxs-lookup"><span data-stu-id="a183d-135">The lstMain is then populated with the file names of the resources published to the URL.</span></span>
 
-## <a name="step-3-populate-the-fields-list-box"></a><span data-ttu-id="a2d62-136">Étape 3: remplir la zone de liste Fields</span><span class="sxs-lookup"><span data-stu-id="a2d62-136">Step 3: Populate the Fields list box</span></span>
+## <a name="step-3-populate-the-fields-list-box"></a><span data-ttu-id="a183d-136">Étape 3 : Remplir la zone de liste Champs</span><span class="sxs-lookup"><span data-stu-id="a183d-136">Step 3: Populate the Fields list box</span></span>
 
-- <span data-ttu-id="a2d62-137">Insérez le code suivant dans le gestionnaire d'événements Click de lstMain :</span><span class="sxs-lookup"><span data-stu-id="a2d62-137">Insert the following code into the Click event handler of lstMain:</span></span>
+- <span data-ttu-id="a183d-137">Insérez le code suivant dans le gestionnaire d'événements Click de lstMain :</span><span class="sxs-lookup"><span data-stu-id="a183d-137">Insert the following code into the Click event handler of lstMain:</span></span>
 
    ```vb 
     
@@ -118,19 +118,19 @@ ms.locfileid: "32291271"
     End Sub 
    ```
 
-   <span data-ttu-id="a2d62-138">Ce code déclare et instancie les `rec` objets **Record** et **Recordset** locaux, `rs`respectivement.</span><span class="sxs-lookup"><span data-stu-id="a2d62-138">This code declares and instantiates local **Record** and **Recordset** objects `rec` and `rs`respectively.</span></span>
+   <span data-ttu-id="a183d-138">Ce code déclare et ins instantie les objets **Record** et **Recordset** `rec` `rs` locaux, respectivement.</span><span class="sxs-lookup"><span data-stu-id="a183d-138">This code declares and instantiates local **Record** and **Recordset** objects `rec` and `rs`respectively.</span></span>
 
-   <span data-ttu-id="a2d62-139">La ligne correspondant à la ressource sélectionnée dans lstMain devient la ligne active `grs`.</span><span class="sxs-lookup"><span data-stu-id="a2d62-139">The row corresponding to the resource selected in lstMain is made the current row of `grs`.</span></span> <span data-ttu-id="a2d62-140">La \*\*\*\* zone de `rec` `grs` liste Details est ensuite effacée et est ouverte avec la ligne active comme source.</span><span class="sxs-lookup"><span data-stu-id="a2d62-140">The **Details** list box is then cleared and `rec` is opened with the current row of `grs` as the source.</span></span>
+   <span data-ttu-id="a183d-139">La ligne correspondant à la ressource sélectionnée dans lstMain est la ligne actuelle de `grs` .</span><span class="sxs-lookup"><span data-stu-id="a183d-139">The row corresponding to the resource selected in lstMain is made the current row of `grs`.</span></span> <span data-ttu-id="a183d-140">La **zone de liste Détails** est ensuite effacée et ouverte avec la ligne actuelle de la `rec` `grs` source.</span><span class="sxs-lookup"><span data-stu-id="a183d-140">The **Details** list box is then cleared and `rec` is opened with the current row of `grs` as the source.</span></span>
 
-   <span data-ttu-id="a2d62-141">Si la ressource est un enregistrement de collection (comme spécifié par **RecordType**), l' **objet Recordset** `rs` local est ouvert sur les `rec`enfants de.</span><span class="sxs-lookup"><span data-stu-id="a2d62-141">If the resource is a collection record (as specified by **RecordType**), the local **Recordset** `rs` is opened on the children of `rec`.</span></span> <span data-ttu-id="a2d62-142">lstDetails est ensuite rempli avec les valeurs des lignes de `rs`.</span><span class="sxs-lookup"><span data-stu-id="a2d62-142">lstDetails is then filled with the values from the rows of `rs`.</span></span>
+   <span data-ttu-id="a183d-141">Si la ressource est un enregistrement de collection (comme spécifié par **RecordType**), l’recordset local est ouvert sur  `rs` les enfants de `rec` .</span><span class="sxs-lookup"><span data-stu-id="a183d-141">If the resource is a collection record (as specified by **RecordType**), the local **Recordset** `rs` is opened on the children of `rec`.</span></span> <span data-ttu-id="a183d-142">lstDetails est ensuite rempli avec les valeurs des lignes de `rs` .</span><span class="sxs-lookup"><span data-stu-id="a183d-142">lstDetails is then filled with the values from the rows of `rs`.</span></span>
 
-   <span data-ttu-id="a2d62-143">Si la ressource est un enregistrement simple, `recFields` est appelée.</span><span class="sxs-lookup"><span data-stu-id="a2d62-143">If the resource is a simple record, `recFields` is called.</span></span> <span data-ttu-id="a2d62-144">Pour plus d'informations `recFields`sur, reportez-vous à l'étape suivante.</span><span class="sxs-lookup"><span data-stu-id="a2d62-144">For more information about `recFields`, see the next step.</span></span>
+   <span data-ttu-id="a183d-143">Si la ressource est un enregistrement simple, `recFields` elle est appelée.</span><span class="sxs-lookup"><span data-stu-id="a183d-143">If the resource is a simple record, `recFields` is called.</span></span> <span data-ttu-id="a183d-144">Pour plus d’informations `recFields` sur , voir l’étape suivante.</span><span class="sxs-lookup"><span data-stu-id="a183d-144">For more information about `recFields`, see the next step.</span></span>
 
-   <span data-ttu-id="a2d62-145">Si la ressource est un document structuré, aucun code n'est implémenté.</span><span class="sxs-lookup"><span data-stu-id="a2d62-145">No code is implemented if the resource is a structured document.</span></span>
+   <span data-ttu-id="a183d-145">Si la ressource est un document structuré, aucun code n'est implémenté.</span><span class="sxs-lookup"><span data-stu-id="a183d-145">No code is implemented if the resource is a structured document.</span></span>
 
-## <a name="step-4-populate-the-details-text-box"></a><span data-ttu-id="a2d62-146">Étape 4: remplir la zone de texte Details</span><span class="sxs-lookup"><span data-stu-id="a2d62-146">Step 4: Populate the Details text box</span></span>
+## <a name="step-4-populate-the-details-text-box"></a><span data-ttu-id="a183d-146">Étape 4 : Remplir la zone de texte Détails</span><span class="sxs-lookup"><span data-stu-id="a183d-146">Step 4: Populate the Details text box</span></span>
 
-- <span data-ttu-id="a2d62-147">Créez une sous-routine nommée `recFields` et insérez le code suivant:</span><span class="sxs-lookup"><span data-stu-id="a2d62-147">Create a new subroutine named `recFields` and insert the following code:</span></span>
+- <span data-ttu-id="a183d-147">Créez une sous-routine nommée `recFields` et insérez le code suivant :</span><span class="sxs-lookup"><span data-stu-id="a183d-147">Create a new subroutine named `recFields` and insert the following code:</span></span>
 
    ```vb 
     
@@ -157,5 +157,5 @@ ms.locfileid: "32291271"
     End Sub 
    ```
 
-   <span data-ttu-id="a2d62-148">Ce code remplit lstDetails avec les champs et les valeurs de l'enregistrement simple transmis à `recFields`.</span><span class="sxs-lookup"><span data-stu-id="a2d62-148">This code populates lstDetails with the fields and values of the simple record passed to `recFields`.</span></span> <span data-ttu-id="a2d62-149">Si la ressource est un fichier texte, un objet **Stream** de type texte est ouvert à partir de l'enregistrement de la ressource.</span><span class="sxs-lookup"><span data-stu-id="a2d62-149">If the resource is a text file, a text **Stream** is opened from the resource record.</span></span> <span data-ttu-id="a2d62-150">Le code détermine si le jeu de caractères est au format ASCII et \*\*\*\* copie le contenu `txtDetails`du flux dans.</span><span class="sxs-lookup"><span data-stu-id="a2d62-150">The code determines if the character set is ASCII, and copies the **Stream** contents into `txtDetails`.</span></span>
+   <span data-ttu-id="a183d-148">Ce code remplit lstDetails avec les champs et les valeurs de l’enregistrement simple passé à `recFields` .</span><span class="sxs-lookup"><span data-stu-id="a183d-148">This code populates lstDetails with the fields and values of the simple record passed to `recFields`.</span></span> <span data-ttu-id="a183d-149">Si la ressource est un fichier texte, un objet **Stream** de type texte est ouvert à partir de l'enregistrement de la ressource.</span><span class="sxs-lookup"><span data-stu-id="a183d-149">If the resource is a text file, a text **Stream** is opened from the resource record.</span></span> <span data-ttu-id="a183d-150">Le code détermine si le jeu de caractères est ASCII et copie le contenu **du flux** dans `txtDetails` .</span><span class="sxs-lookup"><span data-stu-id="a183d-150">The code determines if the character set is ASCII, and copies the **Stream** contents into `txtDetails`.</span></span>
 

@@ -14,41 +14,41 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292761"
 ---
-# <a name="field2-object-dao"></a><span data-ttu-id="682ac-102">Field2, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="682ac-102">Field2 object (DAO)</span></span>
+# <a name="field2-object-dao"></a><span data-ttu-id="6f38c-102">Field2, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="6f38c-102">Field2 object (DAO)</span></span>
 
-<span data-ttu-id="682ac-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="682ac-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6f38c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f38c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="682ac-104">Un objet **Field2** représente une colonne de données avec un type de données communes et un ensemble commun de propriétés.</span><span class="sxs-lookup"><span data-stu-id="682ac-104">A **Field2** object represents a column of data with a common data type and a common set of properties.</span></span>
+<span data-ttu-id="6f38c-104">Un objet **Field2** représente une colonne de données avec un type de données communes et un ensemble commun de propriétés.</span><span class="sxs-lookup"><span data-stu-id="6f38c-104">A **Field2** object represents a column of data with a common data type and a common set of properties.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="682ac-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="682ac-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6f38c-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="6f38c-105">Remarks</span></span>
 
-<span data-ttu-id="682ac-p101">Un objet **Field2** contient les mêmes propriétés et méthodes que l'objet **[Field](field-object-dao.md)**. L'objet **Field2** contient plusieurs propriétés et méthodes nouvelles prenant en charge les types de champ à plusieurs valeurs. Il s'agit de :</span><span class="sxs-lookup"><span data-stu-id="682ac-p101">A **Field2** object is contains all of the same properties and methods as the **[Field](field-object-dao.md)** object. The **Field2** object contains several new properties and methods that support multi-valued field types. The new properties and methods are:</span></span>
+<span data-ttu-id="6f38c-p101">Un objet **Field2** contient les mêmes propriétés et méthodes que l'objet **[Field](field-object-dao.md)**. L'objet **Field2** contient plusieurs propriétés et méthodes nouvelles prenant en charge les types de champ à plusieurs valeurs. Il s'agit de :</span><span class="sxs-lookup"><span data-stu-id="6f38c-p101">A **Field2** object is contains all of the same properties and methods as the **[Field](field-object-dao.md)** object. The **Field2** object contains several new properties and methods that support multi-valued field types. The new properties and methods are:</span></span>
 
-- <span data-ttu-id="682ac-109">propriété **[AppendOnly](field2-appendonly-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="682ac-109">**[AppendOnly](field2-appendonly-property-dao.md)** property</span></span>
+- <span data-ttu-id="6f38c-109">propriété **[AppendOnly](field2-appendonly-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="6f38c-109">**[AppendOnly](field2-appendonly-property-dao.md)** property</span></span>
 
-- <span data-ttu-id="682ac-110">propriété **[ComplexType](field2-complextype-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="682ac-110">**[ComplexType](field2-complextype-property-dao.md)** property</span></span>
+- <span data-ttu-id="6f38c-110">propriété **[ComplexType](field2-complextype-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="6f38c-110">**[ComplexType](field2-complextype-property-dao.md)** property</span></span>
 
-- <span data-ttu-id="682ac-111">propriété **[IsComplex](field2-iscomplex-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="682ac-111">**[IsComplex](field2-iscomplex-property-dao.md)** property</span></span>
+- <span data-ttu-id="6f38c-111">propriété **[IsComplex](field2-iscomplex-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="6f38c-111">**[IsComplex](field2-iscomplex-property-dao.md)** property</span></span>
 
-- <span data-ttu-id="682ac-112">méthode **[LoadFromFile](field2-loadfromfile-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="682ac-112">**[LoadFromFile](field2-loadfromfile-method-dao.md)** method</span></span>
+- <span data-ttu-id="6f38c-112">méthode **[LoadFromFile](field2-loadfromfile-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="6f38c-112">**[LoadFromFile](field2-loadfromfile-method-dao.md)** method</span></span>
 
-- <span data-ttu-id="682ac-113">méthode **[SaveToFile](field2-savetofile-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="682ac-113">**[SaveToFile](field2-savetofile-method-dao.md)** method</span></span>
+- <span data-ttu-id="6f38c-113">méthode **[SaveToFile](field2-savetofile-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="6f38c-113">**[SaveToFile](field2-savetofile-method-dao.md)** method</span></span>
 
-<span data-ttu-id="682ac-114">Pour référencer un objet **Field2** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :</span><span class="sxs-lookup"><span data-stu-id="682ac-114">To refer to a **Field2** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="6f38c-114">Pour référencer un objet **Field2** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :</span><span class="sxs-lookup"><span data-stu-id="6f38c-114">To refer to a **Field2** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="682ac-115">**Champs** 0</span><span class="sxs-lookup"><span data-stu-id="682ac-115">**Fields**(0)</span></span>
+<span data-ttu-id="6f38c-115">**Fields**(0)</span><span class="sxs-lookup"><span data-stu-id="6f38c-115">**Fields**(0)</span></span>
 
-<span data-ttu-id="682ac-116">**Champs** ("nom")</span><span class="sxs-lookup"><span data-stu-id="682ac-116">**Fields**("name")</span></span>
+<span data-ttu-id="6f38c-116">**Fields**("nom")</span><span class="sxs-lookup"><span data-stu-id="6f38c-116">**Fields**("name")</span></span>
 
-<span data-ttu-id="682ac-117">\*\*\*\*\!\[Nom des champs\]</span><span class="sxs-lookup"><span data-stu-id="682ac-117">**Fields**\!\[name\]</span></span>
+<span data-ttu-id="6f38c-117">**Fields**\!\[nom\]</span><span class="sxs-lookup"><span data-stu-id="6f38c-117">**Fields**\!\[name\]</span></span>
 
-<span data-ttu-id="682ac-p102">Avec les mêmes formes de syntaxe, vous pouvez également renvoyer à la propriété **Value** d'un objet **Field2** que vous créez et ajoutez à une collection **Fields**. Le contexte de la référence de champ détermine si vous faites référence à l'objet **Field2** ou à la propriété **Value** de l'objet **Field**.</span><span class="sxs-lookup"><span data-stu-id="682ac-p102">With the same syntax forms, you can also refer to the **Value** property of a **Field2** object that you create and append to a **Fields** collection. The context of the field reference will determine whether you are referring to the **Field2** object or the **Value** property of the **Field** object.</span></span>
+<span data-ttu-id="6f38c-p102">Avec les mêmes formes de syntaxe, vous pouvez également renvoyer à la propriété **Value** d'un objet **Field2** que vous créez et ajoutez à une collection **Fields**. Le contexte de la référence de champ détermine si vous faites référence à l'objet **Field2** ou à la propriété **Value** de l'objet **Field**.</span><span class="sxs-lookup"><span data-stu-id="6f38c-p102">With the same syntax forms, you can also refer to the **Value** property of a **Field2** object that you create and append to a **Fields** collection. The context of the field reference will determine whether you are referring to the **Field2** object or the **Value** property of the **Field** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="682ac-120">Exemple</span><span class="sxs-lookup"><span data-stu-id="682ac-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6f38c-120">Exemple</span><span class="sxs-lookup"><span data-stu-id="6f38c-120">Example</span></span>
 
-<span data-ttu-id="682ac-121">L'exemple suivant montre comment naviguer dans un jeu d'enregistrements qui contient un champ à valeurs multiples.</span><span class="sxs-lookup"><span data-stu-id="682ac-121">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
+<span data-ttu-id="6f38c-121">L’exemple suivant montre comment naviguer dans un Recordset contenant un champ à valeurs multiples.</span><span class="sxs-lookup"><span data-stu-id="6f38c-121">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
 
-<span data-ttu-id="682ac-122">**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="682ac-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="6f38c-122">**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="6f38c-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -112,7 +112,7 @@ ms.locfileid: "32292761"
 
 <br/>
 
-<span data-ttu-id="682ac-123">L'exemple suivant montre comment naviguer dans les fichiers dans un champ pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="682ac-123">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="682ac-124">Le type de fichier et le nom de fichier de chaque pièce jointe sont imprimés dans la fenêtre exécution.</span><span class="sxs-lookup"><span data-stu-id="682ac-124">The file type and filename of each attachment is printed in the Immediate window.</span></span>
+<span data-ttu-id="6f38c-123">L’exemple suivant montre comment naviguer dans les fichiers à l’intérieur d’un champ Pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="6f38c-123">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="6f38c-124">Le type et le nom de fichier de chaque pièce jointe figurent dans la fenêtre Exécution.</span><span class="sxs-lookup"><span data-stu-id="6f38c-124">The file type and filename of each attachment is printed in the Immediate window.</span></span>
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ ms.locfileid: "32292761"
 
 <br/>
 
-<span data-ttu-id="682ac-125">L'exemple suivant montre comment ajouter des fichiers à partir d'un chemin d'accès de dossier spécifié à un champ pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="682ac-125">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="6f38c-125">L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès de dossier spécifié à un champ Pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="6f38c-125">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ ms.locfileid: "32292761"
 
 <br/>
 
-<span data-ttu-id="682ac-126">L'exemple suivant montre comment enregistrer les fichiers stockés dans un champ pièce jointe dans le chemin d'accès au dossier spécifié.</span><span class="sxs-lookup"><span data-stu-id="682ac-126">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
+<span data-ttu-id="6f38c-126">L’exemple suivant montre comment enregistrer les fichiers d’un champ Pièce jointe dans le chemin d’accès de dossier spécifié.</span><span class="sxs-lookup"><span data-stu-id="6f38c-126">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -275,7 +275,7 @@ ms.locfileid: "32292761"
 
 <br/>
 
-<span data-ttu-id="682ac-127">L'exemple suivant montre comment supprimer un fichier stocké dans un champ pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="682ac-127">The following example shows how to delete a file stored in an attachment field.</span></span>
+<span data-ttu-id="6f38c-127">L’exemple suivant montre comment supprimer un fichier stocké dans un champ Pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="6f38c-127">The following example shows how to delete a file stored in an attachment field.</span></span>
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

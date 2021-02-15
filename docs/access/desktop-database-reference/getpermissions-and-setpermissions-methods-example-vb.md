@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292271"
 ---
-# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="c1eb3-102">GetPermissions et SetPermissions, méthodes – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="c1eb3-102">GetPermissions and SetPermissions methods example (VB)</span></span>
+# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="d5509-102">GetPermissions et SetPermissions, méthodes – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="d5509-102">GetPermissions and SetPermissions methods example (VB)</span></span>
 
 
-<span data-ttu-id="c1eb3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1eb3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d5509-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5509-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c1eb3-104">Cet exemple illustre les méthodes [GetPermissions](getpermissions-method-adox.md) et [SetPermissions](setpermissions-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="c1eb3-104">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span> <span data-ttu-id="c1eb3-105">Le code suivant octroie à l'utilisateur « Admin » l'accès complet à la table « Orders ».</span><span class="sxs-lookup"><span data-stu-id="c1eb3-105">The following code gives full access for the Orders table to the Admin user.</span></span>
+<span data-ttu-id="d5509-104">Cet exemple illustre les méthodes [GetPermissions](getpermissions-method-adox.md) et [SetPermissions](setpermissions-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="d5509-104">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span> <span data-ttu-id="d5509-105">Le code suivant octroie à l'utilisateur « Admin » l'accès complet à la table « Orders ».</span><span class="sxs-lookup"><span data-stu-id="d5509-105">The following code gives full access for the Orders table to the Admin user.</span></span>
 
 ```vb 
  

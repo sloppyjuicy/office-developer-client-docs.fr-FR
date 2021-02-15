@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet Field (ADO)
+title: Référence de l’objet Field (ADO)
 TOCTitle: Field object (ADO)
 ms:assetid: c718c40e-48bb-40e3-a3d4-a9580518cbbf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249970(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293069"
 ---
-# <a name="field-object-ado-reference"></a><span data-ttu-id="b30a6-102">Référence d'objet Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="b30a6-102">Field object (ADO) reference</span></span>
+# <a name="field-object-ado-reference"></a><span data-ttu-id="4358a-102">Référence de l’objet Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="4358a-102">Field object (ADO) reference</span></span>
 
-<span data-ttu-id="b30a6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b30a6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4358a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4358a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b30a6-104">Field, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="b30a6-104">Field object (ADO)</span></span>](field-object-ado.md)
-- [<span data-ttu-id="b30a6-105">Propriétés, méthodes et événements de champ (ADO)</span><span class="sxs-lookup"><span data-stu-id="b30a6-105">Field properties, methods, and events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="4358a-104">Field, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="4358a-104">Field object (ADO)</span></span>](field-object-ado.md)
+- [<span data-ttu-id="4358a-105">Field properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="4358a-105">Field properties, methods, and events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
 

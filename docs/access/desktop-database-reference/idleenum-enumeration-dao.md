@@ -1,5 +1,5 @@
 ---
-title: IdleEnum, énumération (DAO)
+title: IdleEnum, éumération (DAO)
 TOCTitle: IdleEnum Enumeration
 ms:assetid: 44da6085-810a-f001-629b-9bd270d3949a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193165(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291900"
 ---
-# <a name="idleenum-enumeration-dao"></a><span data-ttu-id="7ea33-102">IdleEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="7ea33-102">IdleEnum enumeration (DAO)</span></span>
+# <a name="idleenum-enumeration-dao"></a><span data-ttu-id="e38f6-102">IdleEnum, éumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="e38f6-102">IdleEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="7ea33-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ea33-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e38f6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e38f6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7ea33-104">À déterminer</span><span class="sxs-lookup"><span data-stu-id="7ea33-104">TBD</span></span>
+<span data-ttu-id="e38f6-104">À déterminer</span><span class="sxs-lookup"><span data-stu-id="e38f6-104">TBD</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Hierarchy, propriétés, méthodes et événements (ADO MD)
+title: Hierarchy properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 4661738f-86c5-a944-2884-baed66c1a9d9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249217(v=office.15)
@@ -14,23 +14,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291949"
 ---
-# <a name="hierarchy-properties-methods-and-events-ado-md"></a><span data-ttu-id="353ee-102">Hierarchy, propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="353ee-102">Hierarchy properties, methods, and events (ADO MD)</span></span>
+# <a name="hierarchy-properties-methods-and-events-ado-md"></a><span data-ttu-id="742b1-102">Hierarchy properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="742b1-102">Hierarchy properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="353ee-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="353ee-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="742b1-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="742b1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="353ee-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="353ee-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="742b1-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="742b1-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="353ee-105">Description (propriété)</span><span class="sxs-lookup"><span data-stu-id="353ee-105">Description property</span></span>](description-property-ado-md.md)
-- [<span data-ttu-id="353ee-106">Levels, collection</span><span class="sxs-lookup"><span data-stu-id="353ee-106">Levels collection</span></span>](levels-collection-ado-md.md)
-- [<span data-ttu-id="353ee-107">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="353ee-107">Name property</span></span>](name-property-ado-md.md)
-- [<span data-ttu-id="353ee-108">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="353ee-108">Properties collection</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="353ee-109">UniqueName, propriété</span><span class="sxs-lookup"><span data-stu-id="353ee-109">UniqueName property</span></span>](uniquename-property-ado-md.md)
+- [<span data-ttu-id="742b1-105">Description (propriété)</span><span class="sxs-lookup"><span data-stu-id="742b1-105">Description property</span></span>](description-property-ado-md.md)
+- [<span data-ttu-id="742b1-106">Levels, collection</span><span class="sxs-lookup"><span data-stu-id="742b1-106">Levels collection</span></span>](levels-collection-ado-md.md)
+- [<span data-ttu-id="742b1-107">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="742b1-107">Name property</span></span>](name-property-ado-md.md)
+- [<span data-ttu-id="742b1-108">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="742b1-108">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="742b1-109">UniqueName, propriété</span><span class="sxs-lookup"><span data-stu-id="742b1-109">UniqueName property</span></span>](uniquename-property-ado-md.md)
 
-## <a name="methods"></a><span data-ttu-id="353ee-110">Méthodes</span><span class="sxs-lookup"><span data-stu-id="353ee-110">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="742b1-110">Méthodes</span><span class="sxs-lookup"><span data-stu-id="742b1-110">Methods</span></span>
 
-<span data-ttu-id="353ee-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="353ee-111">None.</span></span>
+<span data-ttu-id="742b1-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="742b1-111">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="353ee-112">Events</span><span class="sxs-lookup"><span data-stu-id="353ee-112">Events</span></span>
+## <a name="events"></a><span data-ttu-id="742b1-112">Événements</span><span class="sxs-lookup"><span data-stu-id="742b1-112">Events</span></span>
 
-<span data-ttu-id="353ee-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="353ee-113">None.</span></span>
+<span data-ttu-id="742b1-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="742b1-113">None.</span></span>
 
