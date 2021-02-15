@@ -1,5 +1,5 @@
 ---
-title: Opérations d'entrée de données
+title: Opérations de saisie de données
 TOCTitle: Data Entry operations
 ms:assetid: fb8b4ffe-affa-432c-9ba4-a6b1bc42a58b
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180201(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295099"
 ---
-# <a name="data-entry-operations"></a><span data-ttu-id="05495-102">Opérations d'entrée de données</span><span class="sxs-lookup"><span data-stu-id="05495-102">Data Entry operations</span></span>
+# <a name="data-entry-operations"></a><span data-ttu-id="7f5bf-102">Opérations de saisie de données</span><span class="sxs-lookup"><span data-stu-id="7f5bf-102">Data Entry operations</span></span>
 
-<span data-ttu-id="05495-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="05495-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f5bf-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f5bf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="05495-104">DeleteRecord, action de macro</span><span class="sxs-lookup"><span data-stu-id="05495-104">DeleteRecord macro action</span></span>](deleterecord-macro-action.md)
+- [<span data-ttu-id="7f5bf-104">DeleteRecord, action de macro</span><span class="sxs-lookup"><span data-stu-id="7f5bf-104">DeleteRecord macro action</span></span>](deleterecord-macro-action.md)
 

@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294133"
 ---
-# <a name="definedsize-property-ado"></a><span data-ttu-id="11faf-102">DefinedSize, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="11faf-102">DefinedSize property (ADO)</span></span>
+# <a name="definedsize-property-ado"></a><span data-ttu-id="c8644-102">DefinedSize, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="c8644-102">DefinedSize property (ADO)</span></span>
 
 
-<span data-ttu-id="11faf-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11faf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c8644-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8644-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="11faf-104">Indique la capacité en données d'un objet [Field](field-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="11faf-104">Indicates the data capacity of a [Field](field-object-ado.md) object.</span></span>
+<span data-ttu-id="c8644-104">Indique la capacité en données d'un objet [Field](field-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c8644-104">Indicates the data capacity of a [Field](field-object-ado.md) object.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="11faf-105">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="11faf-105">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c8644-105">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c8644-105">Return value</span></span>
 
-<span data-ttu-id="11faf-106">Renvoie une valeur de type **Long** qui reflète la taille définie pour un champ sous la forme d'un nombre d'octets.</span><span class="sxs-lookup"><span data-stu-id="11faf-106">Returns a **Long** value that reflects the defined size of a field as a number of bytes.</span></span>
+<span data-ttu-id="c8644-106">Renvoie une valeur de type **Long** qui reflète la taille définie pour un champ sous la forme d'un nombre d'octets.</span><span class="sxs-lookup"><span data-stu-id="c8644-106">Returns a **Long** value that reflects the defined size of a field as a number of bytes.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="11faf-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="11faf-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8644-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="c8644-107">Remarks</span></span>
 
-<span data-ttu-id="11faf-108">Utilisez la propriété **DefinedSize** pour déterminer la capacité en données d'un objet **Field**.</span><span class="sxs-lookup"><span data-stu-id="11faf-108">Use the **DefinedSize** property to determine the data capacity of a **Field** object.</span></span>
+<span data-ttu-id="c8644-108">Utilisez la propriété **DefinedSize** pour déterminer la capacité en données d'un objet **Field**.</span><span class="sxs-lookup"><span data-stu-id="c8644-108">Use the **DefinedSize** property to determine the data capacity of a **Field** object.</span></span>
 
-<span data-ttu-id="11faf-p101">Les propriétés **DefinedSize** et [ActualSize](actualsize-property-ado.md) sont différentes. Par exemple, imaginez un objet **Field** avec le type déclaré **adVarChar** et une propriété **DefinedSize** de 50, contenant un caractère unique. La valeur retournée pour la propriété **ActualSize** correspond à la longueur en octets du caractère unique.</span><span class="sxs-lookup"><span data-stu-id="11faf-p101">The **DefinedSize** and [ActualSize](actualsize-property-ado.md) properties are different. For example, consider a **Field** object with a declared type of **adVarChar** and a **DefinedSize** property value of 50, containing a single character. The **ActualSize** property value it returns is the length in bytes of the single character.</span></span>
+<span data-ttu-id="c8644-p101">Les propriétés **DefinedSize** et [ActualSize](actualsize-property-ado.md) sont différentes. Par exemple, imaginez un objet **Field** avec le type déclaré **adVarChar** et une propriété **DefinedSize** de 50, contenant un caractère unique. La valeur retournée pour la propriété **ActualSize** correspond à la longueur en octets du caractère unique.</span><span class="sxs-lookup"><span data-stu-id="c8644-p101">The **DefinedSize** and [ActualSize](actualsize-property-ado.md) properties are different. For example, consider a **Field** object with a declared type of **adVarChar** and a **DefinedSize** property value of 50, containing a single character. The **ActualSize** property value it returns is the length in bytes of the single character.</span></span>
 

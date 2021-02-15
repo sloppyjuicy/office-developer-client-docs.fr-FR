@@ -14,23 +14,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293643"
 ---
-# <a name="drop-user-or-group-statement-microsoft-access-sql"></a><span data-ttu-id="91e67-102">DROP USER ou GROUP, instruction (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="91e67-102">DROP USER or GROUP statement (Microsoft Access SQL)</span></span>
+# <a name="drop-user-or-group-statement-microsoft-access-sql"></a><span data-ttu-id="e5721-102">DROP USER ou GROUP, instruction (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="e5721-102">DROP USER or GROUP statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="91e67-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="91e67-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e5721-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5721-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="91e67-104">Supprime un ou plusieurs *utilisateurs* ou *groupes*existants, ou supprime un ou plusieurs *utilisateurs* existants d'un *groupe*existant.</span><span class="sxs-lookup"><span data-stu-id="91e67-104">Deletes one or more existing *users* or *groups*, or removes one or more existing *users* from an existing *group*.</span></span>
+<span data-ttu-id="e5721-104">Supprime un ou plusieurs utilisateurs *ou* groupes existants *ou* supprime un ou plusieurs utilisateurs existants d’un groupe  *existant.*</span><span class="sxs-lookup"><span data-stu-id="e5721-104">Deletes one or more existing *users* or *groups*, or removes one or more existing *users* from an existing *group*.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="91e67-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="91e67-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e5721-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e5721-105">Syntax</span></span>
 
-### <a name="delete-one-or-more-users-or-remove-one-or-more-users-from-a-group"></a><span data-ttu-id="91e67-106">Supprimer un ou plusieurs utilisateurs ou supprimer un ou plusieurs utilisateurs d'un groupe</span><span class="sxs-lookup"><span data-stu-id="91e67-106">Delete one or more users or remove one or more users from a group</span></span>
+### <a name="delete-one-or-more-users-or-remove-one-or-more-users-from-a-group"></a><span data-ttu-id="e5721-106">Supprimer un ou plusieurs utilisateurs ou supprimer un ou plusieurs utilisateurs d’un groupe</span><span class="sxs-lookup"><span data-stu-id="e5721-106">Delete one or more users or remove one or more users from a group</span></span>
 
-<span data-ttu-id="91e67-107">Drop user \*\*\[User, *User*,... \] du *groupe* \[\]</span><span class="sxs-lookup"><span data-stu-id="91e67-107">DROP USER *user*\[, *user*, …\] \[FROM *group*\]</span></span>
+<span data-ttu-id="e5721-107">DROP USER *user,* \[ *user*, ... \] \[ Groupe *FROM*\]</span><span class="sxs-lookup"><span data-stu-id="e5721-107">DROP USER *user*\[, *user*, …\] \[FROM *group*\]</span></span>
 
-### <a name="delete-one-or-more-groups"></a><span data-ttu-id="91e67-108">Supprimer un ou plusieurs groupes</span><span class="sxs-lookup"><span data-stu-id="91e67-108">Delete one or more groups</span></span>
+### <a name="delete-one-or-more-groups"></a><span data-ttu-id="e5721-108">Supprimer un ou plusieurs groupes</span><span class="sxs-lookup"><span data-stu-id="e5721-108">Delete one or more groups</span></span>
 
-<span data-ttu-id="91e67-109">Drop Group \*\*\[Group, *Group*,...\]</span><span class="sxs-lookup"><span data-stu-id="91e67-109">DROP GROUP *group*\[, *group*, …\]</span></span>
+<span data-ttu-id="e5721-109">DROP GROUP *group,* \[ *group*, ...\]</span><span class="sxs-lookup"><span data-stu-id="e5721-109">DROP GROUP *group*\[, *group*, …\]</span></span>
 
-<span data-ttu-id="91e67-110">L'instruction DROP USER ou GROUP est composée des arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="91e67-110">The DROP USER or GROUP statement has these parts:</span></span>
+<span data-ttu-id="e5721-110">L'instruction DROP USER ou GROUP est composée des arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="e5721-110">The DROP USER or GROUP statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,26 +39,26 @@ ms.locfileid: "32293643"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="91e67-111">Élément</span><span class="sxs-lookup"><span data-stu-id="91e67-111">Part</span></span></p></th>
-<th><p><span data-ttu-id="91e67-112">Description</span><span class="sxs-lookup"><span data-stu-id="91e67-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="e5721-111">Élément</span><span class="sxs-lookup"><span data-stu-id="e5721-111">Part</span></span></p></th>
+<th><p><span data-ttu-id="e5721-112">Description</span><span class="sxs-lookup"><span data-stu-id="e5721-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91e67-113"><em>utilisateur</em></span><span class="sxs-lookup"><span data-stu-id="91e67-113"><em>user</em></span></span></p></td>
-<td><p><span data-ttu-id="91e67-114">Nom de l'utilisateur à supprimer du fichier d'informations du groupe de travail.</span><span class="sxs-lookup"><span data-stu-id="91e67-114">The name of a user to be removed from the workgroup information file.</span></span></p></td>
+<td><p><span data-ttu-id="e5721-113"><em>user</em></span><span class="sxs-lookup"><span data-stu-id="e5721-113"><em>user</em></span></span></p></td>
+<td><p><span data-ttu-id="e5721-114">Nom de l'utilisateur à supprimer du fichier d'informations du groupe de travail.</span><span class="sxs-lookup"><span data-stu-id="e5721-114">The name of a user to be removed from the workgroup information file.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91e67-115"><em>groupe</em></span><span class="sxs-lookup"><span data-stu-id="91e67-115"><em>group</em></span></span></p></td>
-<td><p><span data-ttu-id="91e67-116">Nom du groupe à supprimer du fichier d'informations du groupe de travail.</span><span class="sxs-lookup"><span data-stu-id="91e67-116">The name of a group to be removed from the workgroup information file.</span></span></p></td>
+<td><p><span data-ttu-id="e5721-115"><em>group</em></span><span class="sxs-lookup"><span data-stu-id="e5721-115"><em>group</em></span></span></p></td>
+<td><p><span data-ttu-id="e5721-116">Nom du groupe à supprimer du fichier d'informations du groupe de travail.</span><span class="sxs-lookup"><span data-stu-id="e5721-116">The name of a group to be removed from the workgroup information file.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="91e67-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="91e67-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e5721-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="e5721-117">Remarks</span></span>
 
-<span data-ttu-id="91e67-118">Si le mot clé FROM est utilisé dans l'instruction DROP USER, chacun des *utilisateurs* figurant dans l'instruction est supprimé du *groupe* spécifié à la suite du mot clé from.</span><span class="sxs-lookup"><span data-stu-id="91e67-118">If the FROM keyword is used in the DROP USER statement, each of the *users* listed in the statement will be removed from the *group* specified following the FROM keyword.</span></span> <span data-ttu-id="91e67-119">Toutefois, les *utilisateurs* eux-mêmes ne seront pas supprimés.</span><span class="sxs-lookup"><span data-stu-id="91e67-119">However, the *users* themselves will not be deleted.</span></span>
+<span data-ttu-id="e5721-118">Si le mot clé FROM est utilisé dans  l’instruction DROP USER, chacun  des utilisateurs répertoriés dans l’instruction est supprimé du groupe spécifié à la suite du mot clé FROM.</span><span class="sxs-lookup"><span data-stu-id="e5721-118">If the FROM keyword is used in the DROP USER statement, each of the *users* listed in the statement will be removed from the *group* specified following the FROM keyword.</span></span> <span data-ttu-id="e5721-119">Toutefois, les *utilisateurs* eux-mêmes ne seront pas supprimés.</span><span class="sxs-lookup"><span data-stu-id="e5721-119">However, the *users* themselves will not be deleted.</span></span>
 
-<span data-ttu-id="91e67-120">L'instruction DROP GROUP supprime les *groupes* spécifiés.</span><span class="sxs-lookup"><span data-stu-id="91e67-120">The DROP GROUP statement will delete the specified *group*(s).</span></span> <span data-ttu-id="91e67-121">Les *utilisateurs* qui sont membres du ou des *groupes*ne seront pas affectés, mais ils ne seront plus membres du ou des *groupes*supprimés.</span><span class="sxs-lookup"><span data-stu-id="91e67-121">The *users* who are members of the *group*(s) will not be affected, but they will no longer be members of the deleted *group*(s).</span></span>
+<span data-ttu-id="e5721-120">L'instruction DROP GROUP supprime les *groupes* spécifiés.</span><span class="sxs-lookup"><span data-stu-id="e5721-120">The DROP GROUP statement will delete the specified *group*(s).</span></span> <span data-ttu-id="e5721-121">Les *utilisateurs* qui sont membres du *(s)* groupe(s) ne seront pas affectés, mais ils ne seront plus membres du *(s)* groupe(s) supprimé(s).</span><span class="sxs-lookup"><span data-stu-id="e5721-121">The *users* who are members of the *group*(s) will not be affected, but they will no longer be members of the deleted *group*(s).</span></span>
 

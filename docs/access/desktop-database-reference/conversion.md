@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295538"
 ---
-# <a name="conversion"></a><span data-ttu-id="f84b4-102">Conversion</span><span class="sxs-lookup"><span data-stu-id="f84b4-102">Conversion</span></span>
+# <a name="conversion"></a><span data-ttu-id="9dca3-102">Conversion</span><span class="sxs-lookup"><span data-stu-id="9dca3-102">Conversion</span></span>
 
-<span data-ttu-id="f84b4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f84b4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9dca3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9dca3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f84b4-104">Modifications apportées dans Access</span><span class="sxs-lookup"><span data-stu-id="f84b4-104">Changes in Access</span></span>](changes-in-access.md)
-- [<span data-ttu-id="f84b4-105">Convertir le code DAO en code ADO</span><span class="sxs-lookup"><span data-stu-id="f84b4-105">Convert DAO code to ADO</span></span>](converting-dao-code-to-ado.md)
-- [<span data-ttu-id="f84b4-106">Convertir des tableaux, formulaires et rapports</span><span class="sxs-lookup"><span data-stu-id="f84b4-106">Convert tables, forms, and reports</span></span>](convert-microsoft-access-tables-forms-and-reports.md)
+- [<span data-ttu-id="9dca3-104">Modifications apportées dans Access</span><span class="sxs-lookup"><span data-stu-id="9dca3-104">Changes in Access</span></span>](changes-in-access.md)
+- [<span data-ttu-id="9dca3-105">Convertir le code DAO en code ADO</span><span class="sxs-lookup"><span data-stu-id="9dca3-105">Convert DAO code to ADO</span></span>](converting-dao-code-to-ado.md)
+- [<span data-ttu-id="9dca3-106">Convertir des tableaux, formulaires et rapports</span><span class="sxs-lookup"><span data-stu-id="9dca3-106">Convert tables, forms, and reports</span></span>](convert-microsoft-access-tables-forms-and-reports.md)
 
 
 

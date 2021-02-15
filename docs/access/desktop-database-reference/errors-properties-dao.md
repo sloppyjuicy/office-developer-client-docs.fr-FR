@@ -1,5 +1,5 @@
 ---
-title: Propriétés Errors (DAO)
+title: Errors properties (DAO)
 TOCTitle: Properties
 ms:assetid: 0e6577ae-d9d2-4d25-8329-3651b3ce75a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123703(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293363"
 ---
-# <a name="errors-properties-dao"></a><span data-ttu-id="19fb6-102">Propriétés Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="19fb6-102">Errors properties (DAO)</span></span>
+# <a name="errors-properties-dao"></a><span data-ttu-id="0309b-102">Errors properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="0309b-102">Errors properties (DAO)</span></span>
 
-<span data-ttu-id="19fb6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="19fb6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0309b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0309b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="19fb6-104">Errors. Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="19fb6-104">Errors.Count property (DAO)</span></span>](errors-count-property-dao.md)
+- [<span data-ttu-id="0309b-104">Errors.Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="0309b-104">Errors.Count property (DAO)</span></span>](errors-count-property-dao.md)
 

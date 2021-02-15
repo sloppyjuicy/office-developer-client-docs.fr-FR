@@ -1,5 +1,5 @@
 ---
-title: DataSpace, propriétés, méthodes et événements (RDS)
+title: DataSpace properties, methods, and events (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: 287a93af-891c-4f7b-11d2-506ba6f19155
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249043(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294434"
 ---
-# <a name="dataspace-properties-methods-and-events-rds"></a><span data-ttu-id="b97e6-102">DataSpace, propriétés, méthodes et événements (RDS)</span><span class="sxs-lookup"><span data-stu-id="b97e6-102">DataSpace properties, methods, and events (RDS)</span></span>
+# <a name="dataspace-properties-methods-and-events-rds"></a><span data-ttu-id="6058a-102">DataSpace properties, methods, and events (RDS)</span><span class="sxs-lookup"><span data-stu-id="6058a-102">DataSpace properties, methods, and events (RDS)</span></span>
 
 
-<span data-ttu-id="b97e6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b97e6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6058a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6058a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="b97e6-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="b97e6-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="6058a-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="6058a-104">Properties</span></span>
 
-- [<span data-ttu-id="b97e6-105">InternetTimeout, propriété (RDS)</span><span class="sxs-lookup"><span data-stu-id="b97e6-105">InternetTimeout property (RDS)</span></span>](internettimeout-property-rds.md)
+- [<span data-ttu-id="6058a-105">InternetTimeout, propriété (RDS)</span><span class="sxs-lookup"><span data-stu-id="6058a-105">InternetTimeout property (RDS)</span></span>](internettimeout-property-rds.md)
 
-## <a name="methods"></a><span data-ttu-id="b97e6-106">Méthodes</span><span class="sxs-lookup"><span data-stu-id="b97e6-106">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="6058a-106">Méthodes</span><span class="sxs-lookup"><span data-stu-id="6058a-106">Methods</span></span>
 
-- [<span data-ttu-id="b97e6-107">CreateObject, méthode (RDS)</span><span class="sxs-lookup"><span data-stu-id="b97e6-107">CreateObject method (RDS)</span></span>](createobject-method-rds.md)
+- [<span data-ttu-id="6058a-107">CreateObject, méthode (RDS)</span><span class="sxs-lookup"><span data-stu-id="6058a-107">CreateObject method (RDS)</span></span>](createobject-method-rds.md)
 
-## <a name="events"></a><span data-ttu-id="b97e6-108">Events</span><span class="sxs-lookup"><span data-stu-id="b97e6-108">Events</span></span>
+## <a name="events"></a><span data-ttu-id="6058a-108">Événements</span><span class="sxs-lookup"><span data-stu-id="6058a-108">Events</span></span>
 
-<span data-ttu-id="b97e6-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="b97e6-109">None.</span></span>
+<span data-ttu-id="6058a-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="6058a-109">None.</span></span>
 

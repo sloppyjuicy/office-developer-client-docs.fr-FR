@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295442"
 ---
-# <a name="count-property-example-vj"></a><span data-ttu-id="12328-102">Count, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="12328-102">Count property example (VJ++)</span></span>
+# <a name="count-property-example-vj"></a><span data-ttu-id="01951-102">Count, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="01951-102">Count property example (VJ++)</span></span>
 
 
-<span data-ttu-id="12328-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12328-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="01951-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="01951-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="12328-104">Cet exemple illustre la propriété [Count](count-property-ado.md) avec deux collections dans la base de données ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="12328-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employees*** database.</span></span> <span data-ttu-id="12328-105">La propriété obtient le nombre d’objets de chaque collection et définit la limite supérieure pour les boucles qui énumèrent ces collections.</span><span class="sxs-lookup"><span data-stu-id="12328-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="12328-106">Une autre façon d'énumérer ces collections sans utiliser la propriété **Count** serait d'utiliser des instructions.</span><span class="sxs-lookup"><span data-stu-id="12328-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
+<span data-ttu-id="01951-104">Cet exemple illustre la propriété [Count](count-property-ado.md) avec deux collections dans la base de données ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="01951-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employees*** database.</span></span> <span data-ttu-id="01951-105">La propriété obtient le nombre d’objets de chaque collection et définit la limite supérieure pour les boucles qui énumèrent ces collections.</span><span class="sxs-lookup"><span data-stu-id="01951-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="01951-106">Une autre façon d’éumérer ces collections sans utiliser la propriété **Count** serait d’utiliser des instructions.</span><span class="sxs-lookup"><span data-stu-id="01951-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
 
 ```java 
  

@@ -1,5 +1,5 @@
 ---
-title: Membres DBEngine (DAO)
+title: DBEngine members (DAO)
 TOCTitle: DBEngine Members
 ms:assetid: 740b6a85-585f-0e1d-710b-84ba24825325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294280"
 ---
-# <a name="dbengine-members-dao"></a><span data-ttu-id="44596-102">Membres DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="44596-102">DBEngine members (DAO)</span></span>
+# <a name="dbengine-members-dao"></a><span data-ttu-id="8e727-102">DBEngine members (DAO)</span><span class="sxs-lookup"><span data-stu-id="8e727-102">DBEngine members (DAO)</span></span>
 
 
-<span data-ttu-id="44596-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="44596-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8e727-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e727-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="44596-104">L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.</span><span class="sxs-lookup"><span data-stu-id="44596-104">The DBEngine object is the top level object in the DAO object model.</span></span>
+<span data-ttu-id="8e727-104">L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.</span><span class="sxs-lookup"><span data-stu-id="8e727-104">The DBEngine object is the top level object in the DAO object model.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="44596-105">Méthodes</span><span class="sxs-lookup"><span data-stu-id="44596-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="8e727-105">Méthodes</span><span class="sxs-lookup"><span data-stu-id="8e727-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -30,62 +30,62 @@ ms.locfileid: "32294280"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="44596-106">Nom</span><span class="sxs-lookup"><span data-stu-id="44596-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="44596-107">Description</span><span class="sxs-lookup"><span data-stu-id="44596-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="8e727-106">Nom</span><span class="sxs-lookup"><span data-stu-id="8e727-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="8e727-107">Description</span><span class="sxs-lookup"><span data-stu-id="8e727-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-108"><strong><a href="dbengine-begintrans-method-dao.md">BeginTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-108"><strong><a href="dbengine-begintrans-method-dao.md">BeginTrans</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-109">Commence une nouvelle transaction.</span><span class="sxs-lookup"><span data-stu-id="44596-109">Begins a new transaction.</span></span> <span data-ttu-id="44596-110"><strong>Database</strong> en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="44596-110">Read/write <strong>Database</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-108"><strong><a href="dbengine-begintrans-method-dao.md">BeginTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-108"><strong><a href="dbengine-begintrans-method-dao.md">BeginTrans</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-109">Commence une nouvelle transaction.</span><span class="sxs-lookup"><span data-stu-id="8e727-109">Begins a new transaction.</span></span> <span data-ttu-id="8e727-110"><strong>Database</strong> en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="8e727-110">Read/write <strong>Database</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="44596-111"><strong><a href="dbengine-committrans-method-dao.md">CommitTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-111"><strong><a href="dbengine-committrans-method-dao.md">CommitTrans</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-112">Met fin à la transaction en cours et enregistre les modifications.</span><span class="sxs-lookup"><span data-stu-id="44596-112">Ends the current transaction and saves the changes.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-111"><strong><a href="dbengine-committrans-method-dao.md">CommitTrans</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-111"><strong><a href="dbengine-committrans-method-dao.md">CommitTrans</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-112">Met fin à la transaction en cours et enregistre les modifications.</span><span class="sxs-lookup"><span data-stu-id="8e727-112">Ends the current transaction and saves the changes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-113"><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-113"><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-114">Copie et compacte une base de données fermée, et vous offre la possibilité de modifier sa version, son ordre de tri et son chiffrement.</span><span class="sxs-lookup"><span data-stu-id="44596-114">Copies and compacts a closed database, and gives you the option of changing its version, collating order, and encryption.</span></span> <span data-ttu-id="44596-115">(Espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="44596-115">(Microsoft Access workspaces only).</span></span> <span data-ttu-id="44596-116">.</span><span class="sxs-lookup"><span data-stu-id="44596-116"></span></span></p></td>
+<td><p><span data-ttu-id="8e727-113"><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-113"><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-114">Copie et compacte une base de données fermée, et vous donne la possibilité de changer sa version, son ordre de tri, et son chiffrement.</span><span class="sxs-lookup"><span data-stu-id="8e727-114">Copies and compacts a closed database, and gives you the option of changing its version, collating order, and encryption.</span></span> <span data-ttu-id="8e727-115">(Espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="8e727-115">(Microsoft Access workspaces only).</span></span> <span data-ttu-id="8e727-116">.</span><span class="sxs-lookup"><span data-stu-id="8e727-116">.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="44596-117"><strong><a href="dbengine-createdatabase-method-dao.md">Database</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-117"><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-118">Crée un objet <strong><a href="database-object-dao.md">Database</a></strong>, enregistre la base de données sur le disque, et renvoie un objet <strong>Database</strong> ouvert (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="44596-118">Creates a new <strong><a href="database-object-dao.md">Database</a></strong> object, saves the database to disk, and returns an opened <strong>Database</strong> object (Microsoft Access workspaces only).</span></span> <span data-ttu-id="44596-119">.</span><span class="sxs-lookup"><span data-stu-id="44596-119"></span></span></p></td>
+<td><p><span data-ttu-id="8e727-117"><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-117"><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-118">Crée un objet <strong><a href="database-object-dao.md">Database</a></strong>, enregistre la base de données sur le disque, et renvoie un objet <strong>Database</strong> ouvert (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="8e727-118">Creates a new <strong><a href="database-object-dao.md">Database</a></strong> object, saves the database to disk, and returns an opened <strong>Database</strong> object (Microsoft Access workspaces only).</span></span> <span data-ttu-id="8e727-119">.</span><span class="sxs-lookup"><span data-stu-id="8e727-119">.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-120"><strong><a href="dbengine-createworkspace-method-dao.md">CreateWorkspace</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-120"><strong><a href="dbengine-createworkspace-method-dao.md">CreateWorkspace</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-121">Crée un nouvel objet <strong><a href="workspace-object-dao.md">Workspace</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="44596-121">Creates a new <strong><a href="workspace-object-dao.md">Workspace</a></strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-120"><strong><a href="dbengine-createworkspace-method-dao.md">CreateWorkspace</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-120"><strong><a href="dbengine-createworkspace-method-dao.md">CreateWorkspace</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-121">Crée un nouvel objet <strong><a href="workspace-object-dao.md">Workspace</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="8e727-121">Creates a new <strong><a href="workspace-object-dao.md">Workspace</a></strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="44596-122"><strong><a href="dbengine-idle-method-dao.md">Engrenage</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-122"><strong><a href="dbengine-idle-method-dao.md">Idle</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-123">Suspend le traitement des données, ce qui permet au moteur de base de données Microsoft Access de terminer les tâches en cours, telles que l'optimisation de la mémoire ou les expirations de délai des pages (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="44596-123">Suspends data processing, enabling the Microsoft Access database engine to complete any pending tasks, such as memory optimization or page timeouts (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="8e727-122"><strong><a href="dbengine-idle-method-dao.md">Inactif</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-122"><strong><a href="dbengine-idle-method-dao.md">Idle</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-123">Suspend le traitement des données, ce qui permet au moteur de base de données Microsoft Access de terminer les tâches en cours, telles que l'optimisation de la mémoire ou les expirations de délai des pages (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="8e727-123">Suspends data processing, enabling the Microsoft Access database engine to complete any pending tasks, such as memory optimization or page timeouts (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-124"><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-124"><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-125">L'une des valeurs <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="44596-125">One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</span></span></p>
-<td><p><span data-ttu-id="44596-126"><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="44596-126"><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="44596-127">Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="44596-127">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></p>
-<p><span data-ttu-id="44596-128">Ouvre un objet <strong><a href="connection-object-dao.md">Connection</a></strong> dans une source de données ODBC (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="44596-128">Opens a <strong><a href="connection-object-dao.md">Connection</a></strong> object on an ODBC data source (ODBCDirect workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="8e727-124"><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-124"><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-125">Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-125">One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</span></span></p>
+<td><p><span data-ttu-id="8e727-126"><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="8e727-126"><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="8e727-127">Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="8e727-127">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></p>
+<p><span data-ttu-id="8e727-128">Ouvre un objet <strong><a href="connection-object-dao.md">Connection</a></strong> dans une source de données ODBC (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="8e727-128">Opens a <strong><a href="connection-object-dao.md">Connection</a></strong> object on an ODBC data source (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="44596-129"><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-129"><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-130">Ouvre une base de données spécifiée et renvoie une référence à l'objet <strong><a href="database-object-dao.md">Database</a></strong> qui la représente.</span><span class="sxs-lookup"><span data-stu-id="44596-130">Opens a specified database and returns a reference to the <strong><a href="database-object-dao.md">Database</a></strong> object that represents it.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-129"><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-129"><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-130">Ouvre une base de données spécifiée et renvoie une référence à l’objet <strong><a href="database-object-dao.md">Database</a></strong> qui le représente.</span><span class="sxs-lookup"><span data-stu-id="8e727-130">Opens a specified database and returns a reference to the <strong><a href="database-object-dao.md">Database</a></strong> object that represents it.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-131"><strong><a href="dbengine-registerdatabase-method-dao.md">RegisterDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-131"><strong><a href="dbengine-registerdatabase-method-dao.md">RegisterDatabase</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-p105">Entre les informations de connexion pour une source de données ODBC dans le Registre Windows. Le pilote ODBC a besoin des informations de connexion lorsque la source de données ODBC est ouverte au cours d’une session.</span><span class="sxs-lookup"><span data-stu-id="44596-p105">Enters connection information for an ODBC data source in the Windows Registry. The ODBC driver needs connection information when the ODBC data source is opened during a session.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-131"><strong><a href="dbengine-registerdatabase-method-dao.md">RegisterDatabase</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-131"><strong><a href="dbengine-registerdatabase-method-dao.md">RegisterDatabase</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-p105">Entre les informations de connexion pour une source de données ODBC dans le Registre Windows. Le pilote ODBC a besoin des informations de connexion lorsque la source de données ODBC est ouverte au cours d’une session.</span><span class="sxs-lookup"><span data-stu-id="8e727-p105">Enters connection information for an ODBC data source in the Windows Registry. The ODBC driver needs connection information when the ODBC data source is opened during a session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="44596-134"><strong><a href="dbengine-rollback-method-dao.md">Rollback</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-134"><strong><a href="dbengine-rollback-method-dao.md">Rollback</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-135">Met fin à transaction en cours et restaure les bases de données dans l'objet <strong>Workspace</strong> à l'état dans lequel elles se trouvaient au début de la transaction actuelle.</span><span class="sxs-lookup"><span data-stu-id="44596-135">Ends the current transaction and restores the databases in the <strong>Workspace</strong> object to the state they were in when the current transaction began.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-134"><strong><a href="dbengine-rollback-method-dao.md">Rollback</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-134"><strong><a href="dbengine-rollback-method-dao.md">Rollback</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-135">Met fin à transaction en cours et restaure les bases de données dans l'objet <strong>Workspace</strong> à l'état dans lequel elles se trouvaient au début de la transaction actuelle.</span><span class="sxs-lookup"><span data-stu-id="8e727-135">Ends the current transaction and restores the databases in the <strong>Workspace</strong> object to the state they were in when the current transaction began.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-136"><strong><a href="dbengine-setoption-method-dao.md">SetOption</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-136"><strong><a href="dbengine-setoption-method-dao.md">SetOption</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-137">Remplace temporairement les valeurs des clés du moteur de base de données Microsoft Access dans le registre Windows (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="44596-137">Temporarily overrides values for the Microsoft Access database engine keys in the Windows Registry (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="8e727-136"><strong><a href="dbengine-setoption-method-dao.md">SetOption</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-136"><strong><a href="dbengine-setoption-method-dao.md">SetOption</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-137">Remplace temporairement les valeurs des clés du moteur de base de données Microsoft Access dans le registre Windows (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="8e727-137">Temporarily overrides values for the Microsoft Access database engine keys in the Windows Registry (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="44596-138">Propriétés</span><span class="sxs-lookup"><span data-stu-id="44596-138">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="8e727-138">Propriétés</span><span class="sxs-lookup"><span data-stu-id="8e727-138">Properties</span></span>
 
 <table>
 <colgroup>
@@ -94,46 +94,46 @@ ms.locfileid: "32294280"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="44596-139">Nom</span><span class="sxs-lookup"><span data-stu-id="44596-139">Name</span></span></p></th>
-<th><p><span data-ttu-id="44596-140">Description</span><span class="sxs-lookup"><span data-stu-id="44596-140">Description</span></span></p></th>
+<th><p><span data-ttu-id="8e727-139">Nom</span><span class="sxs-lookup"><span data-stu-id="8e727-139">Name</span></span></p></th>
+<th><p><span data-ttu-id="8e727-140">Description</span><span class="sxs-lookup"><span data-stu-id="8e727-140">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-141"><strong><a href="dbengine-defaultpassword-property-dao.md">DefaultPassword</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-141"><strong><a href="dbengine-defaultpassword-property-dao.md">DefaultPassword</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-142">Définit le mot de passe servant à créer l'objet <strong>Workspace</strong> par défaut lors de son initialisation.</span><span class="sxs-lookup"><span data-stu-id="44596-142">Sets the password used to create the default <strong>Workspace</strong> when it is initialized.</span></span> <span data-ttu-id="44596-143"><strong>String</strong> en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="44596-143">Read/write <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-141"><strong><a href="dbengine-defaultpassword-property-dao.md">DefaultPassword</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-141"><strong><a href="dbengine-defaultpassword-property-dao.md">DefaultPassword</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-142">Définit le mot de passe servant à créer l'objet <strong>Workspace</strong> par défaut lors de son initialisation.</span><span class="sxs-lookup"><span data-stu-id="8e727-142">Sets the password used to create the default <strong>Workspace</strong> when it is initialized.</span></span> <span data-ttu-id="8e727-143">Valeur de type <strong>String</strong> en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="8e727-143">Read/write <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="44596-144"><strong><a href="dbengine-defaulttype-property-dao.md">DefaultType</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-144"><strong><a href="dbengine-defaulttype-property-dao.md">DefaultType</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-145">Définit ou renvoie une valeur qui indique le type d'espace de travail qui sera utilisé par le prochain objet <strong><a href="workspace-object-dao.md">Workspace</a></strong> créé.</span><span class="sxs-lookup"><span data-stu-id="44596-145">Sets or returns a value that indicates what type of workspace will be used by the next <strong><a href="workspace-object-dao.md">Workspace</a></strong> object created.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-144"><strong><a href="dbengine-defaulttype-property-dao.md">DefaultType</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-144"><strong><a href="dbengine-defaulttype-property-dao.md">DefaultType</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-145">Définit ou renvoie une valeur qui indique le type d'espace de travail qui sera utilisé par le prochain objet <strong><a href="workspace-object-dao.md">Workspace</a></strong> créé.</span><span class="sxs-lookup"><span data-stu-id="8e727-145">Sets or returns a value that indicates what type of workspace will be used by the next <strong><a href="workspace-object-dao.md">Workspace</a></strong> object created.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-146"><strong><a href="dbengine-defaultuser-property-dao.md">DefaultUser</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-146"><strong><a href="dbengine-defaultuser-property-dao.md">DefaultUser</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-147">Définit le nom d'utilisateur servant à créer l'objet <strong>Workspace</strong> par défaut lors de son initialisation.</span><span class="sxs-lookup"><span data-stu-id="44596-147">Sets the user name used to create the default <strong>Workspace</strong> when it is initialized.</span></span> <span data-ttu-id="44596-148">Valeur de type <strong>String</strong> en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="44596-148">Read/write <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-146"><strong><a href="dbengine-defaultuser-property-dao.md">DefaultUser</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-146"><strong><a href="dbengine-defaultuser-property-dao.md">DefaultUser</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-147">Définit le nom d'utilisateur servant à créer l'objet <strong>Workspace</strong> par défaut lors de son initialisation.</span><span class="sxs-lookup"><span data-stu-id="8e727-147">Sets the user name used to create the default <strong>Workspace</strong> when it is initialized.</span></span> <span data-ttu-id="8e727-148">Valeur de type <strong>String</strong> en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="8e727-148">Read/write <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="44596-149"><strong><a href="dbengine-errors-property-dao.md">Erreurs</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-149"><strong><a href="dbengine-errors-property-dao.md">Errors</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-150">Renvoie une collection <strong>Errors</strong> qui contient tous les objets <strong>Error</strong> enregistrés pour l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="44596-150">Returns an <strong>Errors</strong> collection that contains all of the stored <strong>Error</strong> objects for the specified object.</span></span> <span data-ttu-id="44596-151">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="44596-151">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-149"><strong><a href="dbengine-errors-property-dao.md">Erreurs</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-149"><strong><a href="dbengine-errors-property-dao.md">Errors</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-150">Renvoie une collection <strong>Errors</strong> qui contient tous les objets <strong>Error</strong> enregistrés pour l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="8e727-150">Returns an <strong>Errors</strong> collection that contains all of the stored <strong>Error</strong> objects for the specified object.</span></span> <span data-ttu-id="8e727-151">Valeur en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="8e727-151">Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-152"><strong><a href="dbengine-inipath-property-dao.md">IniPath</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-152"><strong><a href="dbengine-inipath-property-dao.md">IniPath</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-153">Définit ou renvoie des informations sur la clé du Registre Windows contenant les valeurs relatives au moteur de base de données Microsoft Access (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="44596-153">Sets or returns information about the Windows Registry key that contains values for the Microsoft Access database engine (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="8e727-152"><strong><a href="dbengine-inipath-property-dao.md">IniPath</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-152"><strong><a href="dbengine-inipath-property-dao.md">IniPath</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-153">Définit ou renvoie des informations sur la clé du Registre Windows contenant les valeurs relatives au moteur de base de données Microsoft Access (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="8e727-153">Sets or returns information about the Windows Registry key that contains values for the Microsoft Access database engine (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="44596-154"><strong><a href="dbengine-logintimeout-property-dao.md">LoginTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-154"><strong><a href="dbengine-logintimeout-property-dao.md">LoginTimeout</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-155">Définit ou renvoie le nombre de secondes devant s'écouler avant l'apparition d'une erreur lorsque vous essayez de vous connecter à une base de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="44596-155">Sets or returns the number of seconds before an error occurs when you attempt to log on to an ODBC database.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-154"><strong><a href="dbengine-logintimeout-property-dao.md">LoginTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-154"><strong><a href="dbengine-logintimeout-property-dao.md">LoginTimeout</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-155">Définit ou renvoie le nombre de secondes devant s'écouler avant l'apparition d'une erreur lorsque vous essayez de vous connecter à une base de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="8e727-155">Sets or returns the number of seconds before an error occurs when you attempt to log on to an ODBC database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-156"><strong><a href="dbengine-properties-property-dao.md">Propriétés</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-156"><strong><a href="dbengine-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-157">Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="44596-157">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object.</span></span> <span data-ttu-id="44596-158">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="44596-158">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-156"><strong><a href="dbengine-properties-property-dao.md">Propriétés</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-156"><strong><a href="dbengine-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-157">Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="8e727-157">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object.</span></span> <span data-ttu-id="8e727-158">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="8e727-158">Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="44596-159"><strong><a href="dbengine-version-property-dao.md">Version</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-159"><strong><a href="dbengine-version-property-dao.md">Version</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-160">Renvoie la version de DAO en cours d'utilisation.</span><span class="sxs-lookup"><span data-stu-id="44596-160">Rreturns the version of DAO currently in use.</span></span> <span data-ttu-id="44596-161">Valeur de type <strong>String</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="44596-161">Read-only <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-159"><strong><a href="dbengine-version-property-dao.md">Version</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-159"><strong><a href="dbengine-version-property-dao.md">Version</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-160">Renvoie la version de DAO en cours d'utilisation.</span><span class="sxs-lookup"><span data-stu-id="8e727-160">Rreturns the version of DAO currently in use.</span></span> <span data-ttu-id="8e727-161">Valeur de type <strong>String</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="8e727-161">Read-only <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="44596-162"><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></span><span class="sxs-lookup"><span data-stu-id="44596-162"><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="44596-163">Renvoie une collection <strong>Workspaces</strong> qui contient tous les objets <strong>Workspace</strong> actifs et non masqués.</span><span class="sxs-lookup"><span data-stu-id="44596-163">Returns a <strong>Workspaces</strong> collection that contains all of the active, unhidden <strong>Workspace</strong> objects.</span></span> <span data-ttu-id="44596-164">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="44596-164">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="8e727-162"><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></span><span class="sxs-lookup"><span data-stu-id="8e727-162"><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="8e727-163">Renvoie une collection <strong>Workspaces</strong> qui contient tous les objets <strong>Workspace</strong> actifs et non masqués.</span><span class="sxs-lookup"><span data-stu-id="8e727-163">Returns a <strong>Workspaces</strong> collection that contains all of the active, unhidden <strong>Workspace</strong> objects.</span></span> <span data-ttu-id="8e727-164">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="8e727-164">Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

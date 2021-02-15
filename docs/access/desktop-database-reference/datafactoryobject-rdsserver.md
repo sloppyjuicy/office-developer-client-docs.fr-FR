@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294483"
 ---
-# <a name="datafactory-rdsserver"></a><span data-ttu-id="88e9f-102">DataFactory (RDSServer)</span><span class="sxs-lookup"><span data-stu-id="88e9f-102">DataFactory (RDSServer)</span></span>
+# <a name="datafactory-rdsserver"></a><span data-ttu-id="8dca5-102">DataFactory (RDSServer)</span><span class="sxs-lookup"><span data-stu-id="8dca5-102">DataFactory (RDSServer)</span></span>
 
-<span data-ttu-id="88e9f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88e9f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8dca5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8dca5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="88e9f-104">DataFactory, objet (RDSServer)</span><span class="sxs-lookup"><span data-stu-id="88e9f-104">DataFactory object (RDSServer)</span></span>](datafactory-object-rdsserver.md)
-- [<span data-ttu-id="88e9f-105">DataFactory, propriétés, méthodes et événements (RDS)</span><span class="sxs-lookup"><span data-stu-id="88e9f-105">DataFactory properties, methods, and events (RDS)</span></span>](datafactoryobject-properties-methods-and-events-rds.md)
+- [<span data-ttu-id="8dca5-104">Objet DataFactory (RDSServer)</span><span class="sxs-lookup"><span data-stu-id="8dca5-104">DataFactory object (RDSServer)</span></span>](datafactory-object-rdsserver.md)
+- [<span data-ttu-id="8dca5-105">DataFactory properties, methods, and events (RDS)</span><span class="sxs-lookup"><span data-stu-id="8dca5-105">DataFactory properties, methods, and events (RDS)</span></span>](datafactoryobject-properties-methods-and-events-rds.md)
 

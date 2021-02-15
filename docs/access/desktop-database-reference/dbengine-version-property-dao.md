@@ -1,5 +1,5 @@
 ---
-title: DBEngine. version, propriété (DAO)
+title: DBEngine.Version, propriété (DAO)
 TOCTitle: Version Property
 ms:assetid: b2807dc1-604f-4423-289a-ff38a3d9f31b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822024(v=office.15)
@@ -18,20 +18,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294189"
 ---
-# <a name="dbengineversion-property-dao"></a><span data-ttu-id="eafaf-102">DBEngine. version, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="eafaf-102">DBEngine.Version property (DAO)</span></span>
+# <a name="dbengineversion-property-dao"></a><span data-ttu-id="612a2-102">DBEngine.Version, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="612a2-102">DBEngine.Version property (DAO)</span></span>
 
 
-<span data-ttu-id="eafaf-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eafaf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="612a2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="612a2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="eafaf-104">Renvoie la version de DAO en cours d'utilisation.</span><span class="sxs-lookup"><span data-stu-id="eafaf-104">Rreturns the version of DAO currently in use.</span></span> <span data-ttu-id="eafaf-105">Type de données **String** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="eafaf-105">Read-only **String**.</span></span>
+<span data-ttu-id="612a2-104">Renvoie la version de DAO en cours d'utilisation.</span><span class="sxs-lookup"><span data-stu-id="612a2-104">Rreturns the version of DAO currently in use.</span></span> <span data-ttu-id="612a2-105">Type de données **String** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="612a2-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="eafaf-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="eafaf-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="612a2-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="612a2-106">Syntax</span></span>
 
-<span data-ttu-id="eafaf-107">*expression* . Version</span><span class="sxs-lookup"><span data-stu-id="eafaf-107">*expression* .Version</span></span>
+<span data-ttu-id="612a2-107">*.* Version</span><span class="sxs-lookup"><span data-stu-id="612a2-107">*expression* .Version</span></span>
 
-<span data-ttu-id="eafaf-108">*expression* Variable qui représente un objet **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="eafaf-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="612a2-108">*expression* Variable représentant un objet **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="612a2-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="eafaf-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="eafaf-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="612a2-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="612a2-109">Remarks</span></span>
 
-<span data-ttu-id="eafaf-110">La valeur renvoyée est une chaîne (type String) correspondant à un numéro de version au format « principale.secondaire ».</span><span class="sxs-lookup"><span data-stu-id="eafaf-110">The return value is a String that evaluates to a version number in the form "major.minor".</span></span> <span data-ttu-id="eafaf-111">Par exemple, « 3.0 ».</span><span class="sxs-lookup"><span data-stu-id="eafaf-111">For example, "3.0".</span></span> <span data-ttu-id="eafaf-112">Le numéro de version du produit comprend le numéro de version principale (3), un point, puis le numéro de version secondaire (0).</span><span class="sxs-lookup"><span data-stu-id="eafaf-112">The product version number consists of the version number (3), a period, and the release number (0).</span></span>
+<span data-ttu-id="612a2-110">La valeur renvoyée est une chaîne (type String) correspondant à un numéro de version au format « principale.secondaire ».</span><span class="sxs-lookup"><span data-stu-id="612a2-110">The return value is a String that evaluates to a version number in the form "major.minor".</span></span> <span data-ttu-id="612a2-111">Par exemple, « 3.0 ».</span><span class="sxs-lookup"><span data-stu-id="612a2-111">For example, "3.0".</span></span> <span data-ttu-id="612a2-112">Le numéro de version du produit comprend le numéro de version principale (3), un point, puis le numéro de version secondaire (0).</span><span class="sxs-lookup"><span data-stu-id="612a2-112">The product version number consists of the version number (3), a period, and the release number (0).</span></span>
 

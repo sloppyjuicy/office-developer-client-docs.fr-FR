@@ -1,5 +1,5 @@
 ---
-title: DimensionCount,, propriété (ADO MD)
+title: DimensionCount, propriété (ADO MD)
 TOCTitle: DimensionCount property (ADO MD)
 ms:assetid: 10c6c0eb-d859-621c-9d7c-fa49c480cc91
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248875(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293881"
 ---
-# <a name="dimensioncount-property-ado-md"></a><span data-ttu-id="831f6-102">DimensionCount,, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="831f6-102">DimensionCount property (ADO MD)</span></span>
+# <a name="dimensioncount-property-ado-md"></a><span data-ttu-id="b260c-102">DimensionCount, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b260c-102">DimensionCount property (ADO MD)</span></span>
 
 
-<span data-ttu-id="831f6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="831f6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b260c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b260c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="831f6-104">Indique le nombre de dimensions sur un axe.</span><span class="sxs-lookup"><span data-stu-id="831f6-104">Indicates the number of dimensions on an axis.</span></span>
+<span data-ttu-id="b260c-104">Indique le nombre de dimensions sur un axe.</span><span class="sxs-lookup"><span data-stu-id="b260c-104">Indicates the number of dimensions on an axis.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="831f6-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="831f6-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="b260c-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="b260c-105">Return values</span></span>
 
-<span data-ttu-id="831f6-106">Retourne un entier de type **Long** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="831f6-106">Returns a **Long** integer, and is read-only.</span></span>
+<span data-ttu-id="b260c-106">Retourne un entier de type **Long** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="b260c-106">Returns a **Long** integer, and is read-only.</span></span>
 

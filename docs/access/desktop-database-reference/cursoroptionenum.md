@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295197"
 ---
-# <a name="cursoroptionenum"></a><span data-ttu-id="60ee0-102">CursorOptionEnum</span><span class="sxs-lookup"><span data-stu-id="60ee0-102">CursorOptionEnum</span></span>
+# <a name="cursoroptionenum"></a><span data-ttu-id="a88d2-102">CursorOptionEnum</span><span class="sxs-lookup"><span data-stu-id="a88d2-102">CursorOptionEnum</span></span>
 
-<span data-ttu-id="60ee0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="60ee0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a88d2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a88d2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="60ee0-104">Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) doit tester.</span><span class="sxs-lookup"><span data-stu-id="60ee0-104">Specifies what functionality the [Supports](supports-method-ado.md) method should test for.</span></span>
+<span data-ttu-id="a88d2-104">Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) doit tester.</span><span class="sxs-lookup"><span data-stu-id="a88d2-104">Specifies what functionality the [Supports](supports-method-ado.md) method should test for.</span></span>
 
 <br/>
 
@@ -30,84 +30,84 @@ ms.locfileid: "32295197"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="60ee0-105">Constante</span><span class="sxs-lookup"><span data-stu-id="60ee0-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="60ee0-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="60ee0-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="60ee0-107">Description</span><span class="sxs-lookup"><span data-stu-id="60ee0-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="a88d2-105">Constante</span><span class="sxs-lookup"><span data-stu-id="a88d2-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="a88d2-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="a88d2-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="a88d2-107">Description</span><span class="sxs-lookup"><span data-stu-id="a88d2-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-108"><strong>adAddNew</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-108"><strong>adAddNew</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-109">0x1000400</span><span class="sxs-lookup"><span data-stu-id="60ee0-109">0x1000400</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-110">Prend en charge la méthode <a href="addnew-method-ado.md">AddNew</a> pour l’ajout de nouveaux enregistrements.</span><span class="sxs-lookup"><span data-stu-id="60ee0-110">Supports the <a href="addnew-method-ado.md">AddNew</a> method to add new records.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-108"><strong>adAddNew</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-108"><strong>adAddNew</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-109">0x1000400</span><span class="sxs-lookup"><span data-stu-id="a88d2-109">0x1000400</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-110">Prend en charge la méthode <a href="addnew-method-ado.md">AddNew</a> pour l’ajout de nouveaux enregistrements.</span><span class="sxs-lookup"><span data-stu-id="a88d2-110">Supports the <a href="addnew-method-ado.md">AddNew</a> method to add new records.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-111"><strong>adApproxPosition</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-111"><strong>adApproxPosition</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-112">0x4000</span><span class="sxs-lookup"><span data-stu-id="60ee0-112">0x4000</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-113">Prend en charge les propriétés <a href="absoluteposition-property-ado.md">AbsolutePosition</a> et <a href="absolutepage-property-ado.md">AbsolutePage</a>.</span><span class="sxs-lookup"><span data-stu-id="60ee0-113">Supports the <a href="absoluteposition-property-ado.md">AbsolutePosition</a> and <a href="absolutepage-property-ado.md">AbsolutePage</a> properties.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-111"><strong>adApproxPosition</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-111"><strong>adApproxPosition</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-112">0x4000</span><span class="sxs-lookup"><span data-stu-id="a88d2-112">0x4000</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-113">Prend en charge les propriétés <a href="absoluteposition-property-ado.md">AbsolutePosition</a> et <a href="absolutepage-property-ado.md">AbsolutePage</a>.</span><span class="sxs-lookup"><span data-stu-id="a88d2-113">Supports the <a href="absoluteposition-property-ado.md">AbsolutePosition</a> and <a href="absolutepage-property-ado.md">AbsolutePage</a> properties.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-114"><strong>adBookmark</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-114"><strong>adBookmark</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-115">0 x 2000</span><span class="sxs-lookup"><span data-stu-id="60ee0-115">0x2000</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-116">Prendre en charge la propriété <a href="bookmark-property-ado.md">Bookmark</a> pour l’accès à des enregistrements spécifiques.</span><span class="sxs-lookup"><span data-stu-id="60ee0-116">Supports the <a href="bookmark-property-ado.md">Bookmark</a> property to gain access to specific records.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-114"><strong>adBookmark</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-114"><strong>adBookmark</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-115">0x2000</span><span class="sxs-lookup"><span data-stu-id="a88d2-115">0x2000</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-116">Prendre en charge la propriété <a href="bookmark-property-ado.md">Bookmark</a> pour l’accès à des enregistrements spécifiques.</span><span class="sxs-lookup"><span data-stu-id="a88d2-116">Supports the <a href="bookmark-property-ado.md">Bookmark</a> property to gain access to specific records.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-117"><strong>adDelete</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-117"><strong>adDelete</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-118">0x1000800</span><span class="sxs-lookup"><span data-stu-id="60ee0-118">0x1000800</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-119">Prend en charge la méthode <a href="delete-method-ado-recordset.md">Delete</a> pour la suppression d’enregistrements.</span><span class="sxs-lookup"><span data-stu-id="60ee0-119">Supports the <a href="delete-method-ado-recordset.md">Delete</a> method to delete records.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-117"><strong>adDelete</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-117"><strong>adDelete</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-118">0x1000800</span><span class="sxs-lookup"><span data-stu-id="a88d2-118">0x1000800</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-119">Prend en charge la méthode <a href="delete-method-ado-recordset.md">Delete</a> pour la suppression d’enregistrements.</span><span class="sxs-lookup"><span data-stu-id="a88d2-119">Supports the <a href="delete-method-ado-recordset.md">Delete</a> method to delete records.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-120"><strong>Find</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-120"><strong>adFind</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-121">0x80000</span><span class="sxs-lookup"><span data-stu-id="60ee0-121">0x80000</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-122">Prend en charge la méthode <a href="find-method-ado.md">Find</a> pour localiser une ligne dans un <a href="recordset-object-ado.md">Recordset</a>.</span><span class="sxs-lookup"><span data-stu-id="60ee0-122">Supports the <a href="find-method-ado.md">Find</a> method to locate a row in a <a href="recordset-object-ado.md">Recordset</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-120"><strong>adFind</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-120"><strong>adFind</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-121">0x80000</span><span class="sxs-lookup"><span data-stu-id="a88d2-121">0x80000</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-122">Prend en charge la méthode <a href="find-method-ado.md">Find</a> pour localiser une ligne dans un <a href="recordset-object-ado.md">Recordset</a>.</span><span class="sxs-lookup"><span data-stu-id="a88d2-122">Supports the <a href="find-method-ado.md">Find</a> method to locate a row in a <a href="recordset-object-ado.md">Recordset</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-123"><strong>adHoldRecords</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-123"><strong>adHoldRecords</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-124">0x100</span><span class="sxs-lookup"><span data-stu-id="60ee0-124">0x100</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-125">Recherche d'autres enregistrements ou modifie la position suivante sans valider les modifications en attente.</span><span class="sxs-lookup"><span data-stu-id="60ee0-125">Retrieves more records or changes the next position without committing all pending changes.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-123"><strong>adHoldRecords</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-123"><strong>adHoldRecords</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-124">0x100</span><span class="sxs-lookup"><span data-stu-id="a88d2-124">0x100</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-125">Recherche d'autres enregistrements ou modifie la position suivante sans valider les modifications en attente.</span><span class="sxs-lookup"><span data-stu-id="a88d2-125">Retrieves more records or changes the next position without committing all pending changes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-126"><strong>adIndex</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-126"><strong>adIndex</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-127">n.</span><span class="sxs-lookup"><span data-stu-id="60ee0-127">0x100000</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-128">Prend en charge la propriété <a href="index-property-ado.md">Index</a> pour nommer un index.</span><span class="sxs-lookup"><span data-stu-id="60ee0-128">Supports the <a href="index-property-ado.md">Index</a> property to name an index.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-126"><strong>adIndex</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-126"><strong>adIndex</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-127">0x100000</span><span class="sxs-lookup"><span data-stu-id="a88d2-127">0x100000</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-128">Prend en charge la propriété <a href="index-property-ado.md">Index</a> pour nommer un index.</span><span class="sxs-lookup"><span data-stu-id="a88d2-128">Supports the <a href="index-property-ado.md">Index</a> property to name an index.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-129"><strong>adMovePrevious</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-129"><strong>adMovePrevious</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-130">0x200</span><span class="sxs-lookup"><span data-stu-id="60ee0-130">0x200</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-131">Prend en charge les méthodes <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a> et <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MovePrevious</a>, ainsi que les méthodes <a href="move-method-ado.md">Move</a> ou <a href="getrows-method-ado.md">GetRows</a> pour faire reculer la position de l’enregistrement en cours sans nécessiter de signets.</span><span class="sxs-lookup"><span data-stu-id="60ee0-131">Supports the <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a> and <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MovePrevious</a> methods, and <a href="move-method-ado.md">Move</a> or <a href="getrows-method-ado.md">GetRows</a> methods to move the current record position backward without requiring bookmarks.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-129"><strong>adMovePrevious</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-129"><strong>adMovePrevious</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-130">0x200</span><span class="sxs-lookup"><span data-stu-id="a88d2-130">0x200</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-131">Prend en charge les méthodes <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a> et <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MovePrevious</a>, ainsi que les méthodes <a href="move-method-ado.md">Move</a> ou <a href="getrows-method-ado.md">GetRows</a> pour faire reculer la position de l’enregistrement en cours sans nécessiter de signets.</span><span class="sxs-lookup"><span data-stu-id="a88d2-131">Supports the <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a> and <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MovePrevious</a> methods, and <a href="move-method-ado.md">Move</a> or <a href="getrows-method-ado.md">GetRows</a> methods to move the current record position backward without requiring bookmarks.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-132"><strong>adNotify</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-132"><strong>adNotify</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-133">0x40000</span><span class="sxs-lookup"><span data-stu-id="60ee0-133">0x40000</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-134">Indique que le fournissseur de données sous-jacentes prend en charge les notifications (ce qui détermine la prise en charge des événements <strong>Recordset</strong>).</span><span class="sxs-lookup"><span data-stu-id="60ee0-134">Indicates that the underlying data provider supports notifications (which determines whether <strong>Recordset</strong> events are supported).</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-132"><strong>adNotify</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-132"><strong>adNotify</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-133">0x40000</span><span class="sxs-lookup"><span data-stu-id="a88d2-133">0x40000</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-134">Indique que le fournissseur de données sous-jacentes prend en charge les notifications (ce qui détermine la prise en charge des événements <strong>Recordset</strong>).</span><span class="sxs-lookup"><span data-stu-id="a88d2-134">Indicates that the underlying data provider supports notifications (which determines whether <strong>Recordset</strong> events are supported).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-135"><strong>adResync</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-135"><strong>adResync</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-136">0x20000</span><span class="sxs-lookup"><span data-stu-id="60ee0-136">0x20000</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-137">Prend en charge la méthode <a href="resync-method-ado.md">Resync</a> pour mettre à jour le curseur avec les données visibles dans la base de données sous-jacente.</span><span class="sxs-lookup"><span data-stu-id="60ee0-137">Supports the <a href="resync-method-ado.md">Resync</a> method to update the cursor with the data that is visible in the underlying database.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-135"><strong>adResync</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-135"><strong>adResync</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-136">0x20000</span><span class="sxs-lookup"><span data-stu-id="a88d2-136">0x20000</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-137">Prend en charge la méthode <a href="resync-method-ado.md">Resync</a> pour mettre à jour le curseur avec les données visibles dans la base de données sous-jacente.</span><span class="sxs-lookup"><span data-stu-id="a88d2-137">Supports the <a href="resync-method-ado.md">Resync</a> method to update the cursor with the data that is visible in the underlying database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-138"><strong>adSeek</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-138"><strong>adSeek</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-139">0x200000</span><span class="sxs-lookup"><span data-stu-id="60ee0-139">0x200000</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-140">Prend en charge la méthode <a href="seek-method-ado.md">Seek</a> pour localiser une ligne dans <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="60ee0-140">Supports the <a href="seek-method-ado.md">Seek</a> method to locate a row in a <strong>Recordset</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-138"><strong>adSeek</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-138"><strong>adSeek</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-139">0x200000</span><span class="sxs-lookup"><span data-stu-id="a88d2-139">0x200000</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-140">Prend en charge la méthode <a href="seek-method-ado.md">Seek</a> pour localiser une ligne dans <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="a88d2-140">Supports the <a href="seek-method-ado.md">Seek</a> method to locate a row in a <strong>Recordset</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-141"><strong>adUpdate</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-141"><strong>adUpdate</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-142">0x1008000</span><span class="sxs-lookup"><span data-stu-id="60ee0-142">0x1008000</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-143">Prend en charge la méthode <a href="update-method-ado.md">Update</a> pour modifier des données existantes.</span><span class="sxs-lookup"><span data-stu-id="60ee0-143">Supports the <a href="update-method-ado.md">Update</a> method to modify existing data.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-141"><strong>adUpdate</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-141"><strong>adUpdate</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-142">0x1008000</span><span class="sxs-lookup"><span data-stu-id="a88d2-142">0x1008000</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-143">Prend en charge la méthode <a href="update-method-ado.md">Update</a> pour modifier des données existantes.</span><span class="sxs-lookup"><span data-stu-id="a88d2-143">Supports the <a href="update-method-ado.md">Update</a> method to modify existing data.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-144"><strong>adUpdateBatch</strong></span><span class="sxs-lookup"><span data-stu-id="60ee0-144"><strong>adUpdateBatch</strong></span></span></p></td>
-<td><p><span data-ttu-id="60ee0-145">0x10000</span><span class="sxs-lookup"><span data-stu-id="60ee0-145">0x10000</span></span></p></td>
-<td><p><span data-ttu-id="60ee0-146">Prend en charge la mise à jour par lots (méthodes <a href="updatebatch-method-ado.md">UpdateBatch</a> et <a href="cancelbatch-method-ado.md">CancelBatch</a>) pour transmettre des groupes de modifications au fournisseur.</span><span class="sxs-lookup"><span data-stu-id="60ee0-146">Supports batch updating (<a href="updatebatch-method-ado.md">UpdateBatch</a> and <a href="cancelbatch-method-ado.md">CancelBatch</a> methods) to transmit groups of changes to the provider.</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-144"><strong>adUpdateBatch</strong></span><span class="sxs-lookup"><span data-stu-id="a88d2-144"><strong>adUpdateBatch</strong></span></span></p></td>
+<td><p><span data-ttu-id="a88d2-145">0x10000</span><span class="sxs-lookup"><span data-stu-id="a88d2-145">0x10000</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-146">Prend en charge la mise à jour par lots (méthodes <a href="updatebatch-method-ado.md">UpdateBatch</a> et <a href="cancelbatch-method-ado.md">CancelBatch</a>) pour transmettre des groupes de modifications au fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a88d2-146">Supports batch updating (<a href="updatebatch-method-ado.md">UpdateBatch</a> and <a href="cancelbatch-method-ado.md">CancelBatch</a> methods) to transmit groups of changes to the provider.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="60ee0-147">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="60ee0-147">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="a88d2-147">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="a88d2-147">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="60ee0-148">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="60ee0-148">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="a88d2-148">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="a88d2-148">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -115,48 +115,48 @@ ms.locfileid: "32295197"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="60ee0-149">Constante</span><span class="sxs-lookup"><span data-stu-id="60ee0-149">Constant</span></span></p></th>
+<th><p><span data-ttu-id="a88d2-149">Constante</span><span class="sxs-lookup"><span data-stu-id="a88d2-149">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-150">AdoEnums. CursorOption. ADDNEW</span><span class="sxs-lookup"><span data-stu-id="60ee0-150">AdoEnums.CursorOption.ADDNEW</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-150">AdoEnums.CursorOption.ADDNEW</span><span class="sxs-lookup"><span data-stu-id="a88d2-150">AdoEnums.CursorOption.ADDNEW</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-151">AdoEnums. CursorOption. APPROXPOSITION</span><span class="sxs-lookup"><span data-stu-id="60ee0-151">AdoEnums.CursorOption.APPROXPOSITION</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-151">AdoEnums.CursorOption.APPROXPOSITION</span><span class="sxs-lookup"><span data-stu-id="a88d2-151">AdoEnums.CursorOption.APPROXPOSITION</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-152">AdoEnums. CursorOption. BOOKMARK</span><span class="sxs-lookup"><span data-stu-id="60ee0-152">AdoEnums.CursorOption.BOOKMARK</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-152">AdoEnums.CursorOption.BOOKMARK</span><span class="sxs-lookup"><span data-stu-id="a88d2-152">AdoEnums.CursorOption.BOOKMARK</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-153">AdoEnums. CursorOption. DELETE</span><span class="sxs-lookup"><span data-stu-id="60ee0-153">AdoEnums.CursorOption.DELETE</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-153">AdoEnums.CursorOption.DELETE</span><span class="sxs-lookup"><span data-stu-id="a88d2-153">AdoEnums.CursorOption.DELETE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-154">AdoEnums. CursorOption. FIND</span><span class="sxs-lookup"><span data-stu-id="60ee0-154">AdoEnums.CursorOption.FIND</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-154">AdoEnums.CursorOption.FIND</span><span class="sxs-lookup"><span data-stu-id="a88d2-154">AdoEnums.CursorOption.FIND</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-155">AdoEnums. CursorOption. HOLDRECORDS</span><span class="sxs-lookup"><span data-stu-id="60ee0-155">AdoEnums.CursorOption.HOLDRECORDS</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-155">AdoEnums.CursorOption.HOLDRECORDS</span><span class="sxs-lookup"><span data-stu-id="a88d2-155">AdoEnums.CursorOption.HOLDRECORDS</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-156">AdoEnums. CursorOption. INDEX</span><span class="sxs-lookup"><span data-stu-id="60ee0-156">AdoEnums.CursorOption.INDEX</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-156">AdoEnums.CursorOption.INDEX</span><span class="sxs-lookup"><span data-stu-id="a88d2-156">AdoEnums.CursorOption.INDEX</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-157">AdoEnums. CursorOption. MOVEPREVIOUS</span><span class="sxs-lookup"><span data-stu-id="60ee0-157">AdoEnums.CursorOption.MOVEPREVIOUS</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-157">AdoEnums.CursorOption.MOVEPREVIOUS</span><span class="sxs-lookup"><span data-stu-id="a88d2-157">AdoEnums.CursorOption.MOVEPREVIOUS</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-158">AdoEnums. CursorOption. NOTIFY</span><span class="sxs-lookup"><span data-stu-id="60ee0-158">AdoEnums.CursorOption.NOTIFY</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-158">AdoEnums.CursorOption.NOTIFY</span><span class="sxs-lookup"><span data-stu-id="a88d2-158">AdoEnums.CursorOption.NOTIFY</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-159">AdoEnums. CursorOption. reSYNC</span><span class="sxs-lookup"><span data-stu-id="60ee0-159">AdoEnums.CursorOption.RESYNC</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-159">AdoEnums.CursorOption.RESYNC</span><span class="sxs-lookup"><span data-stu-id="a88d2-159">AdoEnums.CursorOption.RESYNC</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-160">AdoEnums. CursorOption. SEEK</span><span class="sxs-lookup"><span data-stu-id="60ee0-160">AdoEnums.CursorOption.SEEK</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-160">AdoEnums.CursorOption.SEEK</span><span class="sxs-lookup"><span data-stu-id="a88d2-160">AdoEnums.CursorOption.SEEK</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60ee0-161">AdoEnums. CursorOption. UPDATE</span><span class="sxs-lookup"><span data-stu-id="60ee0-161">AdoEnums.CursorOption.UPDATE</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-161">AdoEnums.CursorOption.UPDATE</span><span class="sxs-lookup"><span data-stu-id="a88d2-161">AdoEnums.CursorOption.UPDATE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60ee0-162">AdoEnums. CursorOption. UPDATEBATCH</span><span class="sxs-lookup"><span data-stu-id="60ee0-162">AdoEnums.CursorOption.UPDATEBATCH</span></span></p></td>
+<td><p><span data-ttu-id="a88d2-162">AdoEnums.CursorOption.UPDATEBATCH</span><span class="sxs-lookup"><span data-stu-id="a88d2-162">AdoEnums.CursorOption.UPDATEBATCH</span></span></p></td>
 </tr>
 </tbody>
 </table>

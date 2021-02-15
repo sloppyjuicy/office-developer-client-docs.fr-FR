@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294063"
 ---
-# <a name="delete-method-example-vc"></a><span data-ttu-id="135c3-102">Delete, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="135c3-102">Delete method example (VC++)</span></span>
+# <a name="delete-method-example-vc"></a><span data-ttu-id="87b33-102">Delete, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="87b33-102">Delete method example (VC++)</span></span>
 
 
-<span data-ttu-id="135c3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="135c3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="87b33-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="87b33-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="135c3-104">Cet exemple utilise la méthode [Delete](delete-method-ado-recordset.md) pour supprimer un enregistrement spécifié d'un objet [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="135c3-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="87b33-104">Cet exemple utilise la méthode [Delete](delete-method-ado-recordset.md) pour supprimer un enregistrement spécifié d'un objet [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="87b33-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```cpp 
  
@@ -294,7 +294,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="135c3-105">**DeleteX. h**</span><span class="sxs-lookup"><span data-stu-id="135c3-105">**DeleteX.h**</span></span>
+<span data-ttu-id="87b33-105">**DeleteX.h**</span><span class="sxs-lookup"><span data-stu-id="87b33-105">**DeleteX.h**</span></span>
 
 ```cpp 
  

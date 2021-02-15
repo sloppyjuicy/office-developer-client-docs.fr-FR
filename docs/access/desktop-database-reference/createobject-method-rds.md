@@ -14,15 +14,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295372"
 ---
-# <a name="createobject-method-rds"></a><span data-ttu-id="e844a-102">CreateObject, méthode (RDS)</span><span class="sxs-lookup"><span data-stu-id="e844a-102">CreateObject method (RDS)</span></span>
+# <a name="createobject-method-rds"></a><span data-ttu-id="b25ef-102">CreateObject, méthode (RDS)</span><span class="sxs-lookup"><span data-stu-id="b25ef-102">CreateObject method (RDS)</span></span>
 
-<span data-ttu-id="e844a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e844a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b25ef-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b25ef-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e844a-p101">Crée le proxy pour l'objet métier cible et retourne un pointeur vers ce proxy. Le proxy procède à l'empaquetage des données et à leur marshaling sur le stub côté serveur afin d'autoriser les communications avec l'objet métier et d'envoyer des requêtes et des données sur Internet. Pour les objets de composant in-process, aucun proxy n'est utilisé, seul un pointeur vers l'objet est fourni.</span><span class="sxs-lookup"><span data-stu-id="e844a-p101">Creates the proxy for the target business object and returns a pointer to it. The proxy packages and marshals data to the server-side stub for communications with the business object to send requests and data over the Internet. For in-process component objects, no proxies are used, just a pointer to the object is provided.</span></span>
+<span data-ttu-id="b25ef-p101">Crée le proxy pour l'objet métier cible et retourne un pointeur vers ce proxy. Le proxy procède à l'empaquetage des données et à leur marshaling sur le stub côté serveur afin d'autoriser les communications avec l'objet métier et d'envoyer des requêtes et des données sur Internet. Pour les objets de composant in-process, aucun proxy n'est utilisé, seul un pointeur vers l'objet est fourni.</span><span class="sxs-lookup"><span data-stu-id="b25ef-p101">Creates the proxy for the target business object and returns a pointer to it. The proxy packages and marshals data to the server-side stub for communications with the business object to send requests and data over the Internet. For in-process component objects, no proxies are used, just a pointer to the object is provided.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e844a-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e844a-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b25ef-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b25ef-107">Syntax</span></span>
 
-<span data-ttu-id="e844a-108">RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS (HTTP sur SSL), DCOM et in-process.</span><span class="sxs-lookup"><span data-stu-id="e844a-108">Remote Data Service supports the following protocols: HTTP, HTTPS (HTTP over Secure Socket Layer), DCOM, and in-process.</span></span>
+<span data-ttu-id="b25ef-108">RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS (HTTP sur SSL), DCOM et in-process.</span><span class="sxs-lookup"><span data-stu-id="b25ef-108">Remote Data Service supports the following protocols: HTTP, HTTPS (HTTP over Secure Socket Layer), DCOM, and in-process.</span></span>
 
 <table>
 <colgroup>
@@ -31,41 +31,41 @@ ms.locfileid: "32295372"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e844a-109">Protocole</span><span class="sxs-lookup"><span data-stu-id="e844a-109">Protocol</span></span></p></th>
-<th><p><span data-ttu-id="e844a-110">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e844a-110">Syntax</span></span></p></th>
+<th><p><span data-ttu-id="b25ef-109">Protocole</span><span class="sxs-lookup"><span data-stu-id="b25ef-109">Protocol</span></span></p></th>
+<th><p><span data-ttu-id="b25ef-110">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b25ef-110">Syntax</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e844a-111">HTTP</span><span class="sxs-lookup"><span data-stu-id="e844a-111">HTTP</span></span></p></td>
-<td><p><span data-ttu-id="e844a-112">Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot; &quot; <em>https://awebsrvr</em>, &quot;)</span><span class="sxs-lookup"><span data-stu-id="e844a-112">Set<em>object</em> = <em>DataSpace</em>.CreateObject(&quot;<em>ProgId</em>&quot;, &quot;<em>https://awebsrvr</em>&quot;)</span></span></p></td>
+<td><p><span data-ttu-id="b25ef-111">HTTP</span><span class="sxs-lookup"><span data-stu-id="b25ef-111">HTTP</span></span></p></td>
+<td><p><span data-ttu-id="b25ef-112">Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</span><span class="sxs-lookup"><span data-stu-id="b25ef-112">Set<em>object</em> = <em>DataSpace</em>.CreateObject(&quot;<em>ProgId</em>&quot;, &quot;<em>https://awebsrvr</em>&quot;)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e844a-113">HTTPS</span><span class="sxs-lookup"><span data-stu-id="e844a-113">HTTPS</span></span></p></td>
-<td><p><span data-ttu-id="e844a-114">Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot; &quot; <em>https://awebsrvr</em>, &quot;)</span><span class="sxs-lookup"><span data-stu-id="e844a-114">Set<em>object</em> = <em>DataSpace</em>.CreateObject(&quot;<em>ProgId</em>&quot;, &quot;<em>https://awebsrvr</em>&quot;)</span></span></p></td>
+<td><p><span data-ttu-id="b25ef-113">HTTPS</span><span class="sxs-lookup"><span data-stu-id="b25ef-113">HTTPS</span></span></p></td>
+<td><p><span data-ttu-id="b25ef-114">Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</span><span class="sxs-lookup"><span data-stu-id="b25ef-114">Set<em>object</em> = <em>DataSpace</em>.CreateObject(&quot;<em>ProgId</em>&quot;, &quot;<em>https://awebsrvr</em>&quot;)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e844a-115">APPELER</span><span class="sxs-lookup"><span data-stu-id="e844a-115">DCOM</span></span></p></td>
-<td><p><span data-ttu-id="e844a-116">Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot;, &quot; <em>nomordinateur</em>&quot;)</span><span class="sxs-lookup"><span data-stu-id="e844a-116">Set<em>object</em> = <em>DataSpace</em>.CreateObject(&quot;<em>ProgId</em>&quot;, &quot;<em>computername</em>&quot;)</span></span></p></td>
+<td><p><span data-ttu-id="b25ef-115">DCOM</span><span class="sxs-lookup"><span data-stu-id="b25ef-115">DCOM</span></span></p></td>
+<td><p><span data-ttu-id="b25ef-116">Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>computername</em> &quot; )</span><span class="sxs-lookup"><span data-stu-id="b25ef-116">Set<em>object</em> = <em>DataSpace</em>.CreateObject(&quot;<em>ProgId</em>&quot;, &quot;<em>computername</em>&quot;)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e844a-117">In-process</span><span class="sxs-lookup"><span data-stu-id="e844a-117">In-process</span></span></p></td>
-<td><p><span data-ttu-id="e844a-118">Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot;, &quot; &quot;)</span><span class="sxs-lookup"><span data-stu-id="e844a-118">Set<em>object</em> = <em>DataSpace</em>.CreateObject(&quot;<em>ProgId</em>&quot;, &quot; &quot;)</span></span></p></td>
+<td><p><span data-ttu-id="b25ef-117">In-process</span><span class="sxs-lookup"><span data-stu-id="b25ef-117">In-process</span></span></p></td>
+<td><p><span data-ttu-id="b25ef-118">Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; &quot; )</span><span class="sxs-lookup"><span data-stu-id="b25ef-118">Set<em>object</em> = <em>DataSpace</em>.CreateObject(&quot;<em>ProgId</em>&quot;, &quot; &quot;)</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="parameters"></a><span data-ttu-id="e844a-119">Paramètres</span><span class="sxs-lookup"><span data-stu-id="e844a-119">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b25ef-119">Paramètres</span><span class="sxs-lookup"><span data-stu-id="b25ef-119">Parameters</span></span>
 
-|<span data-ttu-id="e844a-120">Parameter</span><span class="sxs-lookup"><span data-stu-id="e844a-120">Parameter</span></span>|<span data-ttu-id="e844a-121">Description</span><span class="sxs-lookup"><span data-stu-id="e844a-121">Description</span></span>|
+|<span data-ttu-id="b25ef-120">Paramètre</span><span class="sxs-lookup"><span data-stu-id="b25ef-120">Parameter</span></span>|<span data-ttu-id="b25ef-121">Description</span><span class="sxs-lookup"><span data-stu-id="b25ef-121">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="e844a-122">*Object*</span><span class="sxs-lookup"><span data-stu-id="e844a-122">*Object*</span></span> |<span data-ttu-id="e844a-123">Variable objet correspondant à un objet du type spécifié dans *ProgID*.</span><span class="sxs-lookup"><span data-stu-id="e844a-123">An object variable that evaluates to an object that is the type specified in *ProgID*.</span></span>|
-|<span data-ttu-id="e844a-124">*DataSpace*</span><span class="sxs-lookup"><span data-stu-id="e844a-124">*DataSpace*</span></span> |<span data-ttu-id="e844a-125">Variable objet représentant un objet [RDS.DataSpace](dataspace-object-rds.md) utilisé pour créer une instance du nouvel objet.</span><span class="sxs-lookup"><span data-stu-id="e844a-125">An object variable that represents an [RDS.DataSpace](dataspace-object-rds.md) object used to create an instance of the new object.</span></span>|
-|<span data-ttu-id="e844a-126">*ProgID*</span><span class="sxs-lookup"><span data-stu-id="e844a-126">*ProgID*</span></span> |<span data-ttu-id="e844a-127">Valeur de type **String** contenant l'identificateur programmatique spécifiant un objet métier côté serveur qui implémente les règles métier de votre application.</span><span class="sxs-lookup"><span data-stu-id="e844a-127">A **String** value that contains the programmatic identifier specifying a server-side business object that implements your application's business rules.</span></span>|
-|<span data-ttu-id="e844a-128">*awebsrvr* ou *computername*</span><span class="sxs-lookup"><span data-stu-id="e844a-128">*awebsrvr* or *computername*</span></span> |<span data-ttu-id="e844a-129">Valeur de **type String** qui représente une URL qui identifie le serveur Web IIS sur lequel une instance de l'objet métier du serveur est créée.</span><span class="sxs-lookup"><span data-stu-id="e844a-129">A **String** value that represents a URL identifying the Internet Information Services (IIS) web server where an instance of the server business object is created.</span></span>|
+|<span data-ttu-id="b25ef-122">*Object*</span><span class="sxs-lookup"><span data-stu-id="b25ef-122">*Object*</span></span> |<span data-ttu-id="b25ef-123">Variable objet correspondant à un objet du type spécifié dans *ProgID*.</span><span class="sxs-lookup"><span data-stu-id="b25ef-123">An object variable that evaluates to an object that is the type specified in *ProgID*.</span></span>|
+|<span data-ttu-id="b25ef-124">*DataSpace*</span><span class="sxs-lookup"><span data-stu-id="b25ef-124">*DataSpace*</span></span> |<span data-ttu-id="b25ef-125">Variable objet représentant un objet [RDS.DataSpace](dataspace-object-rds.md) utilisé pour créer une instance du nouvel objet.</span><span class="sxs-lookup"><span data-stu-id="b25ef-125">An object variable that represents an [RDS.DataSpace](dataspace-object-rds.md) object used to create an instance of the new object.</span></span>|
+|<span data-ttu-id="b25ef-126">*ProgID*</span><span class="sxs-lookup"><span data-stu-id="b25ef-126">*ProgID*</span></span> |<span data-ttu-id="b25ef-127">Valeur de type **String** contenant l'identificateur programmatique spécifiant un objet métier côté serveur qui implémente les règles métier de votre application.</span><span class="sxs-lookup"><span data-stu-id="b25ef-127">A **String** value that contains the programmatic identifier specifying a server-side business object that implements your application's business rules.</span></span>|
+|<span data-ttu-id="b25ef-128">*awebsrvr* ou *computername*</span><span class="sxs-lookup"><span data-stu-id="b25ef-128">*awebsrvr* or *computername*</span></span> |<span data-ttu-id="b25ef-129">Valeur de type **String** qui représente une URL identifiant le serveur web IIS (Internet Information Services) où une instance de l’objet métier serveur est créée.</span><span class="sxs-lookup"><span data-stu-id="b25ef-129">A **String** value that represents a URL identifying the Internet Information Services (IIS) web server where an instance of the server business object is created.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="e844a-130">Remarques</span><span class="sxs-lookup"><span data-stu-id="e844a-130">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b25ef-130">Remarques</span><span class="sxs-lookup"><span data-stu-id="b25ef-130">Remarks</span></span>
 
-<span data-ttu-id="e844a-131">Le *protocole http* est le protocole Web standard; *Https* est un protocole Web sécurisé.</span><span class="sxs-lookup"><span data-stu-id="e844a-131">The *HTTP protocol* is the standard web protocol; *HTTPS* is a secure web protocol.</span></span> <span data-ttu-id="e844a-132">Utilisez le *protocole DCOM* en cas d'exécution sur un réseau local sans protocole HTTP.</span><span class="sxs-lookup"><span data-stu-id="e844a-132">Use the *DCOM protocol* when running a local-area network without HTTP.</span></span> <span data-ttu-id="e844a-133">Le protocole *in-process* est une bibliothèque DLL locale et n'utilise pas de réseau.</span><span class="sxs-lookup"><span data-stu-id="e844a-133">The *in-process* protocol is a local dynamic-link library (DLL); it does not use a network.</span></span>
+<span data-ttu-id="b25ef-131">Le *protocole HTTP* est le protocole web standard ; *HTTPS* est un protocole web sécurisé.</span><span class="sxs-lookup"><span data-stu-id="b25ef-131">The *HTTP protocol* is the standard web protocol; *HTTPS* is a secure web protocol.</span></span> <span data-ttu-id="b25ef-132">Utilisez le *protocole DCOM* en cas d'exécution sur un réseau local sans protocole HTTP.</span><span class="sxs-lookup"><span data-stu-id="b25ef-132">Use the *DCOM protocol* when running a local-area network without HTTP.</span></span> <span data-ttu-id="b25ef-133">Le protocole *in-process* est une bibliothèque DLL locale et n'utilise pas de réseau.</span><span class="sxs-lookup"><span data-stu-id="b25ef-133">The *in-process* protocol is a local dynamic-link library (DLL); it does not use a network.</span></span>
 

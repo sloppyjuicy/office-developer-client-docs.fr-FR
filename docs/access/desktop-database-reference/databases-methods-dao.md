@@ -1,5 +1,5 @@
 ---
-title: Méthodes de base de données (DAO)
+title: Databases methods (DAO)
 TOCTitle: Methods
 ms:assetid: 32dbdfb0-a80f-43a1-8f68-8a6ab040f602
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124273(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294616"
 ---
-# <a name="databases-methods-dao"></a><span data-ttu-id="a3712-102">Méthodes de base de données (DAO)</span><span class="sxs-lookup"><span data-stu-id="a3712-102">Databases methods (DAO)</span></span>
+# <a name="databases-methods-dao"></a><span data-ttu-id="31a65-102">Databases methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="31a65-102">Databases methods (DAO)</span></span>
 
-<span data-ttu-id="a3712-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3712-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="31a65-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="31a65-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a3712-104">Databases. Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="a3712-104">Databases.Refresh method (DAO)</span></span>](databases-refresh-method-dao.md)
+- [<span data-ttu-id="31a65-104">Databases.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="31a65-104">Databases.Refresh method (DAO)</span></span>](databases-refresh-method-dao.md)
 

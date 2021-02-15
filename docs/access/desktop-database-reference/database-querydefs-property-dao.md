@@ -1,5 +1,5 @@
 ---
-title: Propriété Database. QueryDefs (DAO)
+title: Database.QueryDefs, propriété (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: f589eb3c-658f-9bd1-423a-5a641f19b9fa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836728(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294784"
 ---
-# <a name="databasequerydefs-property-dao"></a><span data-ttu-id="e184d-102">Propriété Database. QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="e184d-102">Database.QueryDefs property (DAO)</span></span>
+# <a name="databasequerydefs-property-dao"></a><span data-ttu-id="65b9a-102">Database.QueryDefs, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="65b9a-102">Database.QueryDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="e184d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e184d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="65b9a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="65b9a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e184d-104">Renvoie une collection **QueryDefs** qui contient tous les objets **QueryDef** de la base de données spécifiée.</span><span class="sxs-lookup"><span data-stu-id="e184d-104">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified database.</span></span> <span data-ttu-id="e184d-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="e184d-105">Read-only.</span></span>
+<span data-ttu-id="65b9a-104">Renvoie une collection **QueryDefs** qui contient tous les objets **QueryDef** de la base de données spécifiée.</span><span class="sxs-lookup"><span data-stu-id="65b9a-104">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified database.</span></span> <span data-ttu-id="65b9a-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="65b9a-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e184d-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e184d-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="65b9a-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="65b9a-106">Syntax</span></span>
 
-<span data-ttu-id="e184d-107">*expression* . Querydef</span><span class="sxs-lookup"><span data-stu-id="e184d-107">*expression* .QueryDefs</span></span>
+<span data-ttu-id="65b9a-107">*.* QueryDefs</span><span class="sxs-lookup"><span data-stu-id="65b9a-107">*expression* .QueryDefs</span></span>
 
-<span data-ttu-id="e184d-108">*expression* Variable qui représente un objet **Database** .</span><span class="sxs-lookup"><span data-stu-id="e184d-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="65b9a-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="65b9a-108">*expression* A variable that represents a **Database** object.</span></span>
 
