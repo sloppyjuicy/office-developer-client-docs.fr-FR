@@ -18,5 +18,5 @@ ms.locfileid: "32292495"
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Fields. Count, propriété (DAO)](fields-count-property-dao.md)
+- [Fields.Count, propriété (DAO)](fields-count-property-dao.md)
 

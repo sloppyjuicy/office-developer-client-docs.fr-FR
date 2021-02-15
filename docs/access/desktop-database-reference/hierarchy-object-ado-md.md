@@ -52,7 +52,7 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 <td><p>Le membre au niveau le plus élevé de la hiérarchie.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nomcatalogue</p></td>
+<td><p>CatalogName</p></td>
 <td><p>Le nom du catalogue auquel ce cube appartient.</p></td>
 </tr>
 <tr class="odd">

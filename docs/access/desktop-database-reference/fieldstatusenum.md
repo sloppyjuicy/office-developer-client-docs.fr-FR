@@ -40,17 +40,17 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 <tbody>
 <tr class="odd">
 <td><p><strong>adFieldAlreadyExists</strong></p></td>
-<td><p>27</p></td>
+<td><p>26</p></td>
 <td><p>Indique que le champ spécifié existe déjà.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldBadStatus</strong></p></td>
-<td><p>an</p></td>
+<td><p>12 </p></td>
 <td><p>Indique qu’une valeur d’état non valide a été envoyée depuis ADO vers le fournisseur OLE DB. Causes possibles : un fournisseur OLE DB 1.0 ou 1.1, ou une combinaison incorrecte de <a href="value-property-ado.md">Value</a> et <a href="status-property-ado-field.md">Status</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldCannotComplete</strong></p></td>
-<td><p>vingtaine</p></td>
+<td><p>20</p></td>
 <td><p>Indique que le serveur de l’URL spécifiée par <a href="source-property-ado-record.md">Source</a> n’a pas pu terminer l’opération.</p></td>
 </tr>
 <tr class="even">
@@ -60,47 +60,47 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldCantConvertValue</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Indique que l'extraction ou le stockage du champ entraînera une perte de données.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldCantCreate</strong></p></td>
-<td><p>7j/7</p></td>
+<td><p>7 </p></td>
 <td><p>Indique que le champ n'a pu être ajouté car le fournisseur a dépassé une limite (par exemple, le nombre de champs permis).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDataOverflow</strong></p></td>
-<td><p>6.x</p></td>
+<td><p>6 </p></td>
 <td><p>Indique que les données renvoyées par le fournisseur ont débordé le type de données du champ.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldDefault</strong></p></td>
-<td><p>kg</p></td>
+<td><p>13 </p></td>
 <td><p>Indique que la valeur par défaut du champ a été utilisée lors de la définition des données.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDoesNotExist</strong></p></td>
-<td><p>Seiz</p></td>
+<td><p>16 </p></td>
 <td><p>Indique que le champ spécifié n'existe pas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIgnore</strong></p></td>
-<td><p>0,15</p></td>
+<td><p>15 </p></td>
 <td><p>Indique que ce champ a été ignoré lors de la définition des valeurs de données dans la source. Le fournisseur n'a pas défini de valeur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIntegrityViolation</strong></p></td>
-<td><p>10</p></td>
+<td><p>10 </p></td>
 <td><p>Indique que le champ ne peut être modifié car il est une entité calculée ou dérivée.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldInvalidURL</strong></p></td>
-<td><p>cm</p></td>
+<td><p>17 </p></td>
 <td><p>Indique l'URL de la source des données contient des caractères non valides.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIsNull</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indique que le fournisseur a renvoyé une valeur VARIANT de type VT_NULL et que ce champ n'est pas vide.</p></td>
 </tr>
 <tr class="even">
@@ -110,7 +110,7 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldOutOfSpace</strong></p></td>
-<td><p>22,5</p></td>
+<td><p>22</p></td>
 <td><p>Indique que le fournisseur est incapable d'obtenir suffisamment d'espace de stockage pour mener à bien une opération de déplacement ou de copie.</p></td>
 </tr>
 <tr class="even">
@@ -135,27 +135,27 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="even">
 <td><p><strong>adFieldPendingUnknownDelete</strong></p></td>
-<td><p>n.</p></td>
+<td><p>0x100000</p></td>
 <td><p>Indique que le fournisseur ne peut déterminer l'opération qui a défini l'état du champ, et que ce dernier sera supprimé de la collection <strong>Fields</strong> après appel de la méthode <strong>Update</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldPermissionDenied</strong></p></td>
-<td><p>4,9</p></td>
+<td><p>9 </p></td>
 <td><p>Indique que le champ ne peut être modifié car il est défini en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldReadOnly</strong></p></td>
-<td><p>heures/24</p></td>
+<td><p>24</p></td>
 <td><p>Indique que le champ de la source de données est défini en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldResourceExists</strong></p></td>
-<td><p>neuf</p></td>
+<td><p>19</p></td>
 <td><p>Indique que le fournisseur n'a pu effectuer l'opération car un objet est déjà présent à l'URL de destination et le fournisseur ne peut l'effacer.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldResourceLocked</strong></p></td>
-<td><p>18</p></td>
+<td><p>18 </p></td>
 <td><p>Indique que le fournisseur n'a pas pu effectuer l'opération car la source de données est verrouillée par une application ou un processus (ou plusieurs).</p></td>
 </tr>
 <tr class="odd">
@@ -165,27 +165,27 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="even">
 <td><p><strong>adFieldSchemaViolation</strong></p></td>
-<td><p>a4</p></td>
+<td><p>11</p></td>
 <td><p>Indique que la valeur a transgressé la contrainte de schéma de la source de données pour le champ.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldSignMismatch</strong></p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>Indique que la valeur de donnée renvoyée par le fournisseur a été signée, contrairement au type de données de la valeur du champ ADO.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldTruncated</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indique que des données de longueur variable ont été tronquées lors de la lecture de la source de données.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldUnavailable</strong></p></td>
-<td><p>8bits</p></td>
+<td><p>8 </p></td>
 <td><p>Indique que le fournisseur n'a pu déterminer la valeur lors de la lecture de la source de données. Par exemple, la ligne venait d'être créée, la valeur par défaut de la colonne n'était pas disponible, et une nouvelle valeur n'avait pas encore été spécifiée.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldVolumeNotFound</strong></p></td>
-<td><p>21</p></td>
+<td><p> 21</p></td>
 <td><p>Indique que le fournisseur est incapable to localiser le volume de stockage indiqué par l'URL.</p></td>
 </tr>
 </tbody>

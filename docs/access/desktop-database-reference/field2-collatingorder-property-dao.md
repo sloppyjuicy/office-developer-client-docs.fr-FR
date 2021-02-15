@@ -1,5 +1,5 @@
 ---
-title: Field2. CollatingOrder, propriété (DAO)
+title: Field2.CollatingOrder, propriété (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: cb1d6fc9-a2a6-54c2-abf5-48b609e38738
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834380(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292866"
 ---
-# <a name="field2collatingorder-property-dao"></a>Field2. CollatingOrder, propriété (DAO)
+# <a name="field2collatingorder-property-dao"></a>Field2.CollatingOrder, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie une valeur qui spécifie la séquence de l'ordre de tri du texte pour la
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CollatingOrder
+*.* CollatingOrder
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="remarks"></a>Remarques
 
@@ -49,7 +49,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortArabic</strong></p></td>
-<td><p>Arabic</p></td>
+<td><p>Arabe</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortChineseSimplified</strong></p></td>
@@ -80,7 +80,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 <td><p>Hébreu</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortHungarian</strong></p></td>
+<td><p><strong>dbSortHungungung</strong></p></td>
 <td><p>Hongrois</p></td>
 </tr>
 <tr class="odd">
@@ -89,11 +89,11 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortJapanese</strong></p></td>
-<td><p>Japonais</p></td>
+<td><p>Japanese</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortKorean</strong></p></td>
-<td><p>Coréen</p></td>
+<td><p>Korean</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortNeutral</strong></p></td>
@@ -163,7 +163,7 @@ La disponibilité de la propriété **CollatingOrder** dépend de l'objet conten
 <tbody>
 <tr class="odd">
 <td><p>objet <strong>Index</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p>objet <strong>QueryDef</strong></p></td>
@@ -175,7 +175,7 @@ La disponibilité de la propriété **CollatingOrder** dépend de l'objet conten
 </tr>
 <tr class="even">
 <td><p>objet <strong>Relation</strong></p></td>
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 </tr>
 <tr class="odd">
 <td><p>objet <strong>TableDef</strong></p></td>
@@ -185,7 +185,7 @@ La disponibilité de la propriété **CollatingOrder** dépend de l'objet conten
 </table>
 
 
-Le paramètre de la propriété **CollatingOrder** correspond à l'argument paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou de la méthode **CompactDatabase** lors du dernier compactage de la base de données.
+Le paramètre de la propriété **CollatingOrder** correspond à l’argument de paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou à la méthode **CompactDatabase** lors du dernier compactage de la base de données.
 
 Les paramètres de propriété **CollatingOrder** et **Attributes** d'un objet **Field2** d'une collection **Fields** d'un objet **Index** déterminent ensemble la séquence et la direction de l'ordre de tri dans un index. Toutefois, vous ne pouvez définir aucun ordre de tri pour un index individuel, vous pouvez uniquement le faire pour une table entière.
 

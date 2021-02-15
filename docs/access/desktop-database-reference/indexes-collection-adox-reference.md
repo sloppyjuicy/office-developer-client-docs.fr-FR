@@ -19,5 +19,5 @@ ms.locfileid: "32291572"
 **S’applique à** : Access 2013, Office 2013
 
 - [Indexes, collection (ADOX)](indexes-collection-adox.md)
-- [Indexes, collection-propriétés, méthodes et événements (ADOX)](indexes-collection-properties-methods-and-events-adox.md)
+- [Indexes collection properties, methods, and events (ADOX)](indexes-collection-properties-methods-and-events-adox.md)
 

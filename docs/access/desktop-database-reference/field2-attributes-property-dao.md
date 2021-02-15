@@ -1,5 +1,5 @@
 ---
-title: Field2. Attributes, propriété (DAO)
+title: Field2.Attributes, propriété (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845025(v=office.15)
@@ -18,19 +18,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292887"
 ---
-# <a name="field2attributes-property-dao"></a>Field2. Attributes, propriété (DAO)
+# <a name="field2attributes-property-dao"></a>Field2.Attributes, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
 
-Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **Field2**. Type de données **Long** en lecture/écriture.
+Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **Field2**. **Long** (en lecture/écriture).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Ceux
+*expression* .Attributes
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="remarks"></a>Remarques
 
@@ -54,15 +54,15 @@ La valeur spécifie les caractéristiques du champ représenté par l'objet **Fi
 </tr>
 <tr class="even">
 <td><p><strong>dbDescending</strong></p></td>
-<td><p>Le champ est trié dans l’ordre décroissant (Z à A ou 100 à 0) ; cette option s’applique uniquement à un objet <strong>Field2</strong> d’une collection <strong>Fields</strong> d’un objet <strong>Index</strong>. Si vous omettez cette constante, le champ est trié dans l’ordre croissant (A à Z ou 0 à 100). Il s’agit de la valeur par défaut pour les champs <strong>Index</strong> et <strong>TableDef</strong> (espaces de travail Microsoft Access uniquement)..</p></td>
+<td><p>Le champ est trié dans l’ordre décroissant (Z à A ou 100 à 0) ; cette option s’applique uniquement à un objet <strong>Field2</strong> d’une collection <strong>Fields</strong> d’un objet <strong>Index</strong>. Si vous omettez cette constante, le champ est trié par ordre croissant (A à Z ou 0 à 100). Il s’agit de la valeur par défaut pour les champs <strong>Index</strong> et <strong>TableDef</strong> (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFixedField</strong></p></td>
-<td><p>La taille du champ est fixe (par défaut pour les champs numériques).</p></td>
+<td><p>La taille de champ est fixe (par défaut : champs numériques).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbHyperlinkField</strong></p></td>
-<td><p>Le champ contient un lien hypertexte (champs Mémo uniquement).</p></td>
+<td><p>Le champ contient des informations de lien hypertexte (champs Memo uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSystemField</strong></p></td>
@@ -70,11 +70,11 @@ La valeur spécifie les caractéristiques du champ représenté par l'objet **Fi
 </tr>
 <tr class="even">
 <td><p><strong>dbUpdatableField</strong></p></td>
-<td><p>La valeur du champ peut être modifiée.</p></td>
+<td><p>La valeur de champ peut être modifiée.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVariableField</strong></p></td>
-<td><p>La taille du champ est variable (champs Texte uniquement).</p></td>
+<td><p>La taille du champ est variable (champs texte uniquement).</p></td>
 </tr>
 </tbody>
 </table>
@@ -95,8 +95,8 @@ Pour un objet pas encore ajouté à une collection, cette propriété est en lec
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>objet <strong>Index</strong></p></td>
-<td><p>En lecture/écriture jusqu'à ce que l'objet <strong>TableDef</strong> auquel l'objet <strong>Index</strong> est ajouté soit ajouté à un objet <strong>Database</strong>. La propriété est alors en lecture seule.</p></td>
+<td><p>Objet <strong>Index</strong></p></td>
+<td><p>En lecture/écriture jusqu'à ce que l’objet <strong>TableDef</strong> auquel l’objet <strong>Index</strong> est ajouté soit ajouté à un objet <strong>Database</strong> ; la propriété est alors en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p>objet <strong>QueryDef</strong></p></td>
@@ -108,11 +108,11 @@ Pour un objet pas encore ajouté à une collection, cette propriété est en lec
 </tr>
 <tr class="even">
 <td><p>objet <strong>Relation</strong></p></td>
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 </tr>
 <tr class="odd">
 <td><p>objet <strong>TableDef</strong></p></td>
-<td><p>En lecture-écriture.</p></td>
+<td><p>Lecture/écriture</p></td>
 </tr>
 </tbody>
 </table>

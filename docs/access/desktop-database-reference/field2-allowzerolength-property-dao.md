@@ -1,5 +1,5 @@
 ---
-title: Field2. AllowZeroLength, propriété (DAO)
+title: Field2.AllowZeroLength, propriété (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292908"
 ---
-# <a name="field2allowzerolength-property-dao"></a>Field2. AllowZeroLength, propriété (DAO)
+# <a name="field2allowzerolength-property-dao"></a>Field2.AllowZeroLength, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -24,9 +24,9 @@ Définit ou renvoie une valeur qui indique si une chaîne vide ("") est un param
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Require
+*.* AllowZeroLength
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="remarks"></a>Remarques
 
@@ -48,7 +48,7 @@ Une fois que l'objet est ajouté à la collection **Fields**, la disponibilité 
 <tbody>
 <tr class="odd">
 <td><p>objet <strong>Index</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p>objet <strong>QueryDef</strong></p></td>
@@ -60,11 +60,11 @@ Une fois que l'objet est ajouté à la collection **Fields**, la disponibilité 
 </tr>
 <tr class="even">
 <td><p>objet <strong>Relation</strong></p></td>
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 </tr>
 <tr class="odd">
 <td><p>objet <strong>TableDef</strong></p></td>
-<td><p>En lecture-écriture.</p></td>
+<td><p>Lecture/écriture</p></td>
 </tr>
 </tbody>
 </table>

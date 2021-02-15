@@ -24,7 +24,7 @@ Retourne un objet [Recordset](recordset-object-ado.md) dont les lignes représen
 
 ## <a name="syntax"></a>Syntaxe
 
-**Définir** *Recordset*  =  *enregistrement*. GetChildren
+**Définissez** *l’enregistrement du jeu*  =  *d’enregistrements.* GetChildren
 
 ## <a name="return-value"></a>Valeur renvoyée
 

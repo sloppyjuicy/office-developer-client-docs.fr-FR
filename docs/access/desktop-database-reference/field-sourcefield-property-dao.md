@@ -1,5 +1,5 @@
 ---
-title: Field. SourceField, propriété (DAO)
+title: Field.SourceField, propriété (DAO)
 TOCTitle: SourceField Property
 ms:assetid: e5750d6c-4078-7bbb-9356-f9207c4e8028
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835953(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292992"
 ---
-# <a name="fieldsourcefield-property-dao"></a>Field. SourceField, propriété (DAO)
+# <a name="fieldsourcefield-property-dao"></a>Field.SourceField, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie une valeur spécifiant le nom du champ qui représente la source d'origi
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . SourceField
+*.* SourceField
 
-*expression* Variable qui représente un objet **Field** .
+*expression* Variable qui représente un objet **Field**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -45,7 +45,7 @@ Pour un objet **Field**, l'utilisation des propriétés **SourceField** et **Sou
 <tbody>
 <tr class="odd">
 <td><p><strong>Index</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>QueryDef</strong></p></td>

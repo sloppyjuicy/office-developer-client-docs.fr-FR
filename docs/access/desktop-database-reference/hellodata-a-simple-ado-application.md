@@ -28,16 +28,16 @@ L'application interroge la base de données exemple Northwind incluse dans Micro
 
 2.  Créez quatre boutons de commande en haut du formulaire, en définissant les propriétés **Name** et **Caption** avec les valeurs indiquées dans le tableau ci-dessous.
 
-3.  En dessous des boutons, ajoutez un **contrôle Microsoft DataGrid** (Msdatgrd.ocx). Le fichier msdatgrd. ocx est fourni avec Visual Basic et se trouve dans \\votre\\répertoire Windows \\system32\\ou Winnt system32. Pour ajouter le contrôle DataGrid à la Boîte à outils Visual Basic, sélectionnez **Composants** dans le menu **Projet**. Activez ensuite la case à cocher en regard de « Microsoft DataGrid Control 6.0 (SP3) (OLEDB) » et cliquez sur **OK**. Pour ajouter le contrôle au projet, faites glisser le contrôle DataGrid de la Boîte à outils vers le formulaire Visual Basic.
+3.  En dessous des boutons, ajoutez un **contrôle Microsoft DataGrid** (Msdatgrd.ocx). Le fichier Msdatgrd.ocx est fourni avec Visual Basic et se trouve dans votre répertoire \\ windows \\ system32 ou \\ winnt \\ system32. Pour ajouter le contrôle DataGrid à la Boîte à outils Visual Basic, sélectionnez **Composants** dans le menu **Projet**. Activez ensuite la case à cocher en regard de « Microsoft DataGrid Control 6.0 (SP3) (OLEDB) » et cliquez sur **OK**. Pour ajouter le contrôle au projet, faites glisser le contrôle DataGrid de la Boîte à outils vers le formulaire Visual Basic.
 
 4.  Créez une **zone de texte** sur le formulaire en dessous de la grille et définissez ses propriétés comme indiqué dans le tableau. Lorsque vous avez terminé, le formulaire doit être identique à celui illustré dans la figure suivante.
 
-5.  Enfin, copiez le code figurant dans le [code HelloData](hellodata-code.md) et collez-le dans la fenêtre de l'éditeur de code du formulaire. Appuyez sur **F5** pour exécuter le code.
+5.  Enfin, copiez le code répertorié dans [HelloData Code](hellodata-code.md) et collez-le dans la fenêtre d’éditeur de code du formulaire. Appuyez sur **F5** pour exécuter le code.
 
 > [!NOTE]
 > [!REMARQUE] Dans l'exemple suivant, et dans ce guide, l'utilisateur « MyId » et le mot de passe « 123aBc » sont utilisés pour l'authentification auprès du serveur. Vous devrez remplacer ces valeurs par des informations d'authentification de connexion réelles pour votre serveur. Remplacez également la valeur « MyServer » par le nom de votre serveur.
 
-Pour obtenir une description détaillée du code, consultez les [Détails de HelloData](hellodata-details.md).
+Pour obtenir une description détaillée du code, voir [HelloData Details](hellodata-details.md).
 
 <table>
 <colgroup>
@@ -83,7 +83,7 @@ Pour obtenir une description détaillée du code, consultez les [Détails de Hel
 <tr class="even">
 <td><p><br />
 </p></td>
-<td><p>Ligne</p></td>
+<td><p>Multiligne</p></td>
 <td><p>true</p></td>
 </tr>
 <tr class="odd">

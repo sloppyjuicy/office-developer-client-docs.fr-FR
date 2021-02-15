@@ -22,7 +22,7 @@ Retourne l’objet [Recordset](recordset-object-ado.md) sous la forme d’une ch
 
 ## <a name="syntax"></a>Syntaxe
 
-** = *Jeu d'enregistrements*variant. GetString (*StringFormat*, *numRows*, *ColumnDelimiter*, *RowDelimiter*, *ExprNull*)
+*Variant*  =  *recordset*. GetString(*StringFormat*, *NumRows*, *ColumnDelimiter*, *RowDelimiter*, *NullExpr*)
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,13 +30,13 @@ Retourne l'objet **Recordset** sous la forme d'un type **Variant** avec une vale
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
-|*StringFormat* |Valeur [StringFormatEnum](stringformatenum.md) qui spécifie comment l’objet **Recordset** doit être converti en chaîne. Les paramètres  *DélimiteurLigne*, *DélimiteurColonne* et *ExprNull* sont utilisés uniquement avec un paramètre *FormatChaîne * affecté de la valeur **adClipString**.|
+|*StringFormat* |Valeur [StringFormatEnum](stringformatenum.md) qui spécifie comment l’objet **Recordset** doit être converti en chaîne. Les paramètres  *DélimiteurLigne*, *DélimiteurColonne* et *ExprNull* sont utilisés uniquement avec un paramètre *FormatChaîne* affecté de la valeur **adClipString**.|
 |*NumRows* |Facultatif. Nombre de lignes à convertir dans l'objet **RecordSet**. Dans le cas où *NbLignes* n'est pas spécifié ou s'il est supérieur au nombre total de lignes dans l'objet **RecordSet**, toutes les lignes de l'objet **RecordSet** sont converties.|
 |*ColumnDelimiter* |Facultatif. Délimiteur utilisé entre les colonnes, s'il est spécifié ; sinon, le caractère de tabulation.|
-|*DélimiteurLigne* |Facultatif. Délimiteur utilisé entre les lignes, s'il est spécifié ; sinon, le caractère de retour chariot.|
-|*ExprNull* |Facultatif. Expression utilisée à la place d'une valeur NULL, si elle est spécifiée ; sinon, la chaîne vide.|
+|*RowDelimiter* |Facultatif. Délimiteur utilisé entre les lignes, s'il est spécifié ; sinon, le caractère de retour chariot.|
+|*NullExpr* |Facultatif. Expression utilisée à la place d'une valeur NULL, si elle est spécifiée ; sinon, la chaîne vide.|
 
 ## <a name="remarks"></a>Remarques
 

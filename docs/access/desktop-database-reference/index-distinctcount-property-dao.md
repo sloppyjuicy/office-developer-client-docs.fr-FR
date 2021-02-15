@@ -1,5 +1,5 @@
 ---
-title: Index. DistinctCount, propriété (DAO)
+title: Index.DistinctCount, propriété (DAO)
 TOCTitle: DistinctCount Property
 ms:assetid: 24cb7247-76b4-1fce-c3c4-892f16634eff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191836(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291844"
 ---
-# <a name="indexdistinctcount-property-dao"></a>Index. DistinctCount, propriété (DAO)
+# <a name="indexdistinctcount-property-dao"></a>Index.DistinctCount, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Renvoie une valeur indiquant le nombre de valeurs uniques pour l'objet **[Index]
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . DistinctCount
+*.* DistinctCount
 
-*expression* Variable qui représente un objet **index** .
+*expression* Variable qui représente un objet **Index.**
 
 ## <a name="remarks"></a>Remarques
 

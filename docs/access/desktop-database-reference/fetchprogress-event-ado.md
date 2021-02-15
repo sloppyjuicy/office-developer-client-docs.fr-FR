@@ -1,5 +1,5 @@
 ---
-title: Événement FetchProgress, (ADO)
+title: FetchProgress, événement (ADO)
 TOCTitle: FetchProgress event (ADO)
 ms:assetid: 09145d9a-ea5e-b41c-6c54-33ec83e642a9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293181"
 ---
-# <a name="fetchprogress-event-ado"></a>Événement FetchProgress, (ADO)
+# <a name="fetchprogress-event-ado"></a>FetchProgress, événement (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,16 +22,16 @@ L’événement **FetchProgress** est régulièrement appelé pendant une opéra
 
 ## <a name="syntax"></a>Syntaxe
 
-*Progression*FetchProgress,, *MaxProgress*, ** adStatus, *préobjet*
+FetchProgress *Progress*, *MaxProgress*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Progress* |Valeur de type **Long** indiquant le nombre d'enregistrements déjà extraits par l'opération d'extraction.|
 |*MaxProgress* |Valeur de type **Long** indiquant le nombre maximal prévu d'enregistrements à récupérer.|
-|*Statu* |Valeur d'état [EventStatusEnum](eventstatusenum.md).|
-|*jeu d'enregistrements* |Objet **Recordset** représentant le jeu duquel les enregistrements sont extraits.|
+|*adStatus* |Valeur d'état [EventStatusEnum](eventstatusenum.md).|
+|*pRecordset* |Objet **Recordset** représentant le jeu duquel les enregistrements sont extraits.|
 
 ## <a name="remarks"></a>Remarques
 

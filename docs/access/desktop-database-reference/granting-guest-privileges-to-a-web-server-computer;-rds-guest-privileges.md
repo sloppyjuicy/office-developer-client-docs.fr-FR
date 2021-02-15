@@ -1,5 +1,5 @@
 ---
-title: Octroi de privilèges invité à un ordinateur serveur Web; Privilèges des invités RDS
+title: l’octroi de privilèges d’invité à un ordinateur serveur web ; Privilèges d’invité RDS
 TOCTitle: Granting guest privileges to a web server computer; RDS guest privileges
 ms:assetid: 4ec9c05b-36f6-de22-b848-0cb8573f9dd1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249254(v=office.15)
@@ -14,15 +14,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292124"
 ---
-# <a name="granting-guest-privileges-to-a-web-server-computer-rds-guest-privileges"></a>Octroi de privilèges invité à un ordinateur serveur Web; Privilèges des invités RDS
+# <a name="granting-guest-privileges-to-a-web-server-computer-rds-guest-privileges"></a>l’octroi de privilèges d’invité à un ordinateur serveur web ; Privilèges d’invité RDS
 
 **S’applique à** : Access 2013, Office 2013
 
-Le compte de serveur Web anonyme (\_IUSR*nomordinateur*) doit être ajouté au groupe local invités sur l'ordinateur serveur Web pour pouvoir utiliser RDS.
+Le compte de serveur web anonyme (IUSR \_ *ComputerName*) doit être ajouté au groupe local Invités sur l’ordinateur serveur web pour utiliser RDS.
 
-**Pour accorder des privilèges invité à un ordinateur serveur Web**
+**Pour accorder des privilèges d’invité à un ordinateur serveur web**
 
-1.  Sur votre ordinateur serveur Microsoft Windows 2000, cliquez sur **Démarrer**, pointez sur **programmes**, sur **Outils d'administration**, puis cliquez sur gestion de l' **ordinateur**.
+1.  Sur votre ordinateur Microsoft Windows 2000 Server, cliquez sur **Démarrer,** pointez sur **Programmes,** pointez sur Outils d’administration, puis cliquez sur Gestion de **l’ordinateur.**
 
 2.  Dans l'arborescence de la console, dans **Utilisateurs et groupes locaux**, cliquez sur **Groupes**.
 
@@ -30,7 +30,7 @@ Le compte de serveur Web anonyme (\_IUSR*nomordinateur*) doit être ajouté au g
 
 4.  Dans la boîte de dialogue **Propriétés de Invités**, cliquez sur **Ajouter**.
 
-5.  Si le compte de serveur Web anonyme n'apparaît pas dans la liste de la boîte de dialogue **Sélectionner des utilisateurs ou des groupes** , tapez\_son nom (IUSR*nomordinateur*) dans la zone de texte du bas, puis cliquez sur **Ajouter**.
+5.  Si le compte de serveur web anonyme  n’apparaît pas dans la liste dans la boîte de dialogue Sélectionner des utilisateurs ou des groupes, tapez son nom (IUSR \_ *ComputerName*) dans la zone vide inférieure, puis cliquez sur Ajouter . 
 
 6.  Cliquez sur **OK**.
 

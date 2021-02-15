@@ -1,5 +1,5 @@
 ---
-title: Field. OriginalValue, propriété (DAO)
+title: Field.OriginalValue, propriété (DAO)
 TOCTitle: OriginalValue Property
 ms:assetid: 69ccec1e-311f-6905-e7bb-ad7fa8277494
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195384(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292999"
 ---
-# <a name="fieldoriginalvalue-property-dao"></a>Field. OriginalValue, propriété (DAO)
+# <a name="fieldoriginalvalue-property-dao"></a>Field.OriginalValue, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . OriginalValue
+*.* OriginalValue
 
-*expression* Variable qui représente un objet **Field** .
+*expression* Variable qui représente un objet **Field**.
 
 ## <a name="remarks"></a>Remarques
 

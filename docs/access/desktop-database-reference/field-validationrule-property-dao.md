@@ -1,5 +1,5 @@
 ---
-title: Field. ValidationRule, propriété (DAO)
+title: Field.ValidationRule, propriété (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: b07e644d-54d3-7199-6f99-178774e54398
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821784(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292943"
 ---
-# <a name="fieldvalidationrule-property-dao"></a>Field. ValidationRule, propriété (DAO)
+# <a name="fieldvalidationrule-property-dao"></a>Field.ValidationRule, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Définit ou renvoie une valeur qui valide les données d'un champ lorsque ce der
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ValidationRule
+*.* ValidationRule
 
-*expression* Expression qui renvoie un objet **Field** .
+*expression* Expression qui renvoie un **objet Field.**
 
 ## <a name="remarks"></a>Remarques
 
@@ -49,7 +49,7 @@ Pour un objet **[Field](field-object-dao.md)**, l'utilisation de la propriété 
 <tbody>
 <tr class="odd">
 <td><p><strong>Index</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>QueryDef</strong></p></td>
@@ -65,7 +65,7 @@ Pour un objet **[Field](field-object-dao.md)**, l'utilisation de la propriété 
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>
-<td><p>En lecture-écriture.</p></td>
+<td><p>Lecture/écriture</p></td>
 </tr>
 </tbody>
 </table>
@@ -77,6 +77,6 @@ L'expression de chaîne spécifiée par la propriété **ValidationRule** d'un o
 
 
 > [!NOTE]
-> Si vous définissez la propriété sur une chaîne concaténée avec une valeur non entière et que les paramètres système spécifient un caractère non-U. S. Decimal tel qu'une virgule (par exemple, strRule = "Price &gt; " &amp; lngPrice et lngPrice = 125, 50), une erreur se produit lorsque votre code tente de valider des données. Ceci parce que pendant la concaténation, le nombre est converti en une chaîne à l'aide du caractère décimal par défaut de votre système et le moteur de base de données SQL Microsoft Access n'accepte que les caractères décimaux US.
+> Si vous définissez la propriété sur une chaîne concatentée avec une valeur non-integer, et que les paramètres système spécifient une valeur non américaine. caractère décimal tel qu’une virgule (par exemple, strRule = « PRICE &gt; " &amp; lngPrice et lngPrice = 125,50), une erreur se résulte lorsque votre code tente de valider des données. Ceci parce que pendant la concaténation, le nombre est converti en une chaîne à l'aide du caractère décimal par défaut de votre système et le moteur de base de données SQL Microsoft Access n'accepte que les caractères décimaux US.
 
 

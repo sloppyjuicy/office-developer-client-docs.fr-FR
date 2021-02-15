@@ -1,5 +1,5 @@
 ---
-title: Field. SourceTable, propriété (DAO)
+title: Field.SourceTable, propriété (DAO)
 TOCTitle: SourceTable Property
 ms:assetid: 9564ea1c-eafd-0b72-fd68-d88fcc3ea189
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197694(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292985"
 ---
-# <a name="fieldsourcetable-property-dao"></a>Field. SourceTable, propriété (DAO)
+# <a name="fieldsourcetable-property-dao"></a>Field.SourceTable, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,9 +27,9 @@ Renvoie une valeur indiquant le nom de la table de laquelle provient les donnée
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . SourceTable
+*.* SourceTable
 
-*expression* Variable qui représente un objet **Field** .
+*expression* Variable qui représente un objet **Field**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -49,7 +49,7 @@ Pour un objet **Field**, l'utilisation des propriétés **SourceField** et **Sou
 <tbody>
 <tr class="odd">
 <td><p><strong>Index</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>QueryDef</strong></p></td>

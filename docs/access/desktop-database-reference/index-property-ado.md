@@ -43,7 +43,7 @@ Si l'index peut être défini, il se peut que la position de la ligne active soi
 
 Si l'index peut être défini et que la valeur de la propriété [LockType](locktype-property-ado.md) est **adLockPessimistic** ou **adLockOptimistic**, une opération [UpdateBatch](updatebatch-method-ado.md) implicite est réalisée. Cela libère le groupe actuel et le groupe attribué. S'il existe un filtre, il est libéré, et la ligne active devient la première ligne du **Recordset** réorganisé.
 
-La propriété **Index** est utilisée en association avec la méthode [Seek](seek-method-ado.md). Si le fournisseur sous-jacent ne prend pas en charge la propriété **Index** (et donc la méthode **Seek** ), pensez à utiliser plutôt la méthode [Find](find-method-ado.md). Déterminer si l' **** objet Recordset prend en charge les index avec la méthode [supports](supports-method-ado.md)**(adIndex)** .
+La propriété **Index** est utilisée en association avec la méthode [Seek](seek-method-ado.md). Si le fournisseur sous-jacent ne prend pas en charge la propriété **Index** (et donc la méthode **Seek** ), pensez à utiliser plutôt la méthode [Find](find-method-ado.md). Déterminez si **l’objet Recordset** prend en charge les index avec la [méthode Supports](supports-method-ado.md)**(adIndex).**
 
 La propriété **Index** intégrée n'a aucun rapport avec la propriété [Optimize](optimize-property-dynamic-ado.md) dynamique, même si toutes deux portent sur les index.
 

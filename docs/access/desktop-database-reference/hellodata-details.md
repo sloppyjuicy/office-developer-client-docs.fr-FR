@@ -1,5 +1,5 @@
 ---
-title: Détails de HelloData (référence de base de données de bureau Access)
+title: Détails HelloData (référence de base de données de bureau Access)
 TOCTitle: HelloData details
 ms:assetid: db51e15c-1b5b-c64a-2f84-34dd0e78c6cf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250105(v=office.15)
@@ -23,25 +23,25 @@ L'application HelloData effectue les opérations de base d'une application ADO s
 
 ## <a name="getdata"></a>GetData
 
-GetData place une chaîne de connexion valide dans une variable de niveau module *,\_m sConnStr*. Pour plus d’informations sur les chaînes de connexion, consultez la rubrique [Création de la chaîne de connexion](creating-the-connection-string.md).
+GetData place une chaîne de connexion valide dans une variable de niveau module, *m \_ sConnStr*. Pour plus d’informations sur les chaînes de connexion, consultez la rubrique [Création de la chaîne de connexion](creating-the-connection-string.md).
 
 Affectez un gestionnaire d’erreurs utilisant une instruction Visual Basic **SurErreur**  Pour plus d’informations sur la gestion des erreurs dans ADO, consultez le [Chapitre 6 : Gestion des erreurs](chapter-6-error-handling.md). Un nouvel objet **Connection** est créé et la propriété **CursorLocation** a la valeur **adUseClient** car l’exemple HelloData crée un *jeu de données déconnecté*.  Cela signifie qu’une fois les données extraites de la source de données, la connexion physique à la source de données est interrompue mais que vous pouvez néanmoins continuer à travailler avec les données mises en cache localement dans votre objet **Recordset**
 
-Après ouverture de la connexion, affectez une chaîne SQL à une variable (sSQL). Instanciez ensuite un **** nouvel objet Recordset,\_m oRecordset1. Dans la ligne de code suivante, ouvrez le **jeu d'enregistrements** sur la **connexion**existante, en transmettant. Dans la ligne de code suivante, ouvrez l' **objet Recordset** sur la **connexion**existante, en transmettant sSQL comme source de l' **objet Recordset**. Vous aidez ADO à déterminer que la chaîne SQL transmise en tant que source du **Recordset** est une définition textuelle d'une commande en spécifiant **adCmdText** dans l'argument final de la méthode **Open** du **Recordset**. Cette ligne définit aussi les propriétés **LockType** et **CursorType** associées au **Recordset**.
+Après ouverture de la connexion, affectez une chaîne SQL à une variable (sSQL). Insère ensuite un nouvel **objet Recordset,** m \_ oRecordset1 . Dans la ligne de code suivante, ouvrez **le jeu d’enregistrements** sur la **connexion** existante, en passant . Dans la ligne de code  suivante, ouvrez le jeu d’enregistrements sur la connexion **existante,** en passant sSQL comme source du **jeu d’enregistrements.** Vous aidez ADO à déterminer que la chaîne SQL transmise en tant que source du **Recordset** est une définition textuelle d'une commande en spécifiant **adCmdText** dans l'argument final de la méthode **Open** du **Recordset**. Cette ligne définit aussi les propriétés **LockType** et **CursorType** associées au **Recordset**.
 
-La ligne de code suivante précise que la propriété **MarshalOptions** est égale à **adMarshalModifiedOnly**. **MarshalOptions** indique les enregistrements qui doivent être marshalés vers le niveau intermédiaire (ou serveur Web). Pour plus d’informations sur le marshaling, voir la documentation COM. Lors de l'utilisation de **adMarshalModifiedOnly** avec un curseur côté client ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), seuls les enregistrements qui ont été modifiés sur le client sont réécrits sur le niveau intermédiaire. Le fait de définir la propriété **MarshalOptions** sur **adMarshalModifiedOnly** peut améliorer les performances car les lignes à marshaler sont moins nombreuses.
+La ligne de code suivante précise que la propriété **MarshalOptions** est égale à **adMarshalModifiedOnly**. **MarshalOptions indique** quels enregistrements doivent être marshalés au niveau intermédiaire (ou serveur web). Pour plus d’informations sur le marshaling, voir la documentation COM. Lorsque vous utilisez **adMarshalModifiedOnly** avec un curseur côté client ([CursorLocation](cursorlocation-property-ado.md)  =  **adUseClient**), seuls les enregistrements qui ont été modifiés sur le client sont écrits dans le niveau intermédiaire. Le fait de définir la propriété **MarshalOptions** sur **adMarshalModifiedOnly** peut améliorer les performances car les lignes à marshaler sont moins nombreuses.
 
 Ensuite, déconnectez le **Recordset** en indiquant que sa propriété **ActiveConnection** est égale à **Nothing**. Pour plus d'informations, consultez la rubrique [Déconnexion et reconnexion de l'objet Recordset](disconnecting-and-reconnecting-the-recordset.md) dans le Chapitre 5 : Mise à jour et persistance des données.
 
 Fermez la connexion à la source de données et détruisez l'objet **Connection** existant de façon à libérer les ressources qu'il utilise.
 
-La dernière étape consiste à définir le **Recordset ** comme **DataSource ** de la grille Microsoft liée aux données sur le formulaire de façon à pouvoir afficher facilement les données du **Recordset ** sur ce formulaire.
+La dernière étape consiste à définir le **Recordset** comme **DataSource** de la grille Microsoft liée aux données sur le formulaire de façon à pouvoir afficher facilement les données du **Recordset** sur ce formulaire.
 
 Cliquez sur le deuxième bouton, **Examine Data**. Cette action déclenche l'exécution de la sous-routine ExamineData.
 
 ## <a name="examinedata"></a>ExamineData
 
-ExamineData uses various methods and properties of the **Recordset** object to display information about the data in the **Recordset**. It reports the number of records by using the **RecordCount** property. It loops through the **Recordset** and prints the value of the **AbsolutePosition** property in the display text box on the form. En outre, dans la boucle, la valeur de la propriété **Bookmark** du troisième enregistrement est placée dans une variable Variant, *vBookmark*, pour une utilisation ultérieure.
+ExamineData uses various methods and properties of the **Recordset** object to display information about the data in the **Recordset**. It reports the number of records by using the **RecordCount** property. It loops through the **Recordset** and prints the value of the **AbsolutePosition** property in the display text box on the form. En outre, pendant la boucle, la valeur de la propriété **Bookmark** pour le troisième enregistrement est placée dans une variable de variante, *vBookmark*, pour une utilisation ultérieure.
 
 La routine revient directement au troisième enregistrement grâce à la variable bookmark enregistrée précédemment. Elle appelle la sous-routine WalkFields qui exécute une boucle dans la collection **Fields** du **Recordset** et affiche les détails relatifs à chaque objet **Field** de la collection.
 
@@ -61,7 +61,7 @@ Aucune modification ne sera apportée à la source de données tant que vous n'a
 
 ## <a name="updatedata"></a>UpdateData
 
-La sous-routine UpdateData élimine d’abord le filtre appliqué au **Recordset**. Le code supprime et réinitialise en tant que **DataSource** pour le DataGrid lié à Microsoft sur le formulaire de sorte que le **jeu d'enregistrements** non filtré apparaisse dans la grille.
+La sous-routine UpdateData élimine d’abord le filtre appliqué au **Recordset**. Le code supprime et réinitialise en tant que **DataSource** pour le Microsoft  Bound DataGrid sur le formulaire afin que le jeu d’enregistrements non filtré apparaisse dans la grille.
 
 Le code vérifie alors si vous pouvez revenir en arrière dans le **Recordset** en utilisant la méthode **Supports** avec l'argument **adMovePrevious**.
 
@@ -69,13 +69,13 @@ La routine passe au premier enregistrement grâce à la méthode **MoveFirst** e
 
 Un nouvel objet **Connection** est ensuite créé et est utilisé pour rétablir la connexion à la source de données. Vous reconnectez le **Recordset** à la source de données en définissant le nouvel objet **Connexion** comme **ActiveConnection** du **Recordset**. Pour envoyer les mises à jour au serveur, le code appelle **UpdateBatch** sur le **Recordset**.
 
-Si la mise à jour par lot réussit, une variable d'indicateur de module,, est définie sur true. Cet indicateur vous rappellera ultérieurement de nettoyer toutes les modifications apportées à la base de données.
+Si la mise à jour par lot réussit, une variable d’indicateur au niveau du module, est définie sur True. Cet indicateur vous rappellera ultérieurement de nettoyer toutes les modifications apportées à la base de données.
 
 Enfin, le code revient au premier enregistrement du **Recordset** et affiche les valeurs d'origine et actuelles. Les valeurs sont identiques après l'appel de la méthode **UpdateBatch**.
 
 Pour obtenir des informations plus détaillées sur la mise à jour des données, notamment ce qu'il faut faire lorsque les données du serveur sont modifiées alors que votre **Recordset** est déconnecté, consultez le [Chapitre 5 : Mise à jour et persistance des données](chapter-5-updating-and-persisting-data.md).
 
-## <a name="formunload"></a>Déchargement d'un formulaire\_
+## <a name="form_unload"></a>Form \_ Unload
 
-La sous\_-routine de déchargement de formulaire est importante pour plusieurs raisons. Tout d'abord, étant donné qu'il s'agit\_d'un exemple d'application, le déchargement de formulaire nettoie les modifications apportées à la base de données avant la fermeture de l'application. Ensuite, le code montre comment une commande peut être exécutée directement à partir d'un objet **Connection ** ouvert grâce à la méthode **Execute **. Enfin, il montre un exemple d'exécution d'une requête sans renvoi de ligne (requête UPDATE) sur la source de données.
+La \_ sous-routine Form Unload est importante pour plusieurs raisons. Tout d’abord, étant donné qu’il s’agit d’un exemple d’application, Form Unload nettoie les modifications apportées à la base de données avant la fin de \_ l’application. Ensuite, le code montre comment une commande peut être exécutée directement à partir d'un objet **Connection** ouvert grâce à la méthode **Execute**. Enfin, il montre un exemple d'exécution d'une requête sans renvoi de ligne (requête UPDATE) sur la source de données.
 

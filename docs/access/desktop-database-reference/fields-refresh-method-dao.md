@@ -1,5 +1,5 @@
 ---
-title: Fields. Refresh, méthode (DAO)
+title: Fields.Refresh, méthode (DAO)
 TOCTitle: Refresh Method
 ms:assetid: d08597d8-bad6-523b-a083-d824f85b64bc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834723(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292509"
 ---
-# <a name="fieldsrefresh-method-dao"></a>Fields. Refresh, méthode (DAO)
+# <a name="fieldsrefresh-method-dao"></a>Fields.Refresh, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -24,9 +24,9 @@ Met à jour les objets dans la collection spécifiée pour refléter le schéma 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Intervalle
+*.* Actualiser
 
-*expression* Variable qui représente un objet **Fields** .
+*expression* Variable qui représente un objet **Fields**.
 
 ## <a name="remarks"></a>Remarques
 

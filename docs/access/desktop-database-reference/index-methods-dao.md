@@ -1,5 +1,5 @@
 ---
-title: Méthodes d'index (DAO)
+title: Index methods (DAO)
 TOCTitle: Methods
 ms:assetid: 740d56e1-e789-41f0-b2dd-a39b81b68907
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161014(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291788"
 ---
-# <a name="index-methods-dao"></a>Méthodes d'index (DAO)
+# <a name="index-methods-dao"></a>Index methods (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Index. CreateField, méthode (DAO)](index-createfield-method-dao.md)
-- [Index. CreateProperty, méthode (DAO)](index-createproperty-method-dao.md)
+- [Index.CreateField, méthode (DAO)](index-createfield-method-dao.md)
+- [Index.CreateProperty method (DAO)](index-createproperty-method-dao.md)
 

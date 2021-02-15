@@ -1,5 +1,5 @@
 ---
-title: Événement FetchComplete, (ADO)
+title: FetchComplete, événement (ADO)
 TOCTitle: FetchComplete event (ADO)
 ms:assetid: 4863d5b5-7d77-bdef-c511-f85c9e6dec9d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249224(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293188"
 ---
-# <a name="fetchcomplete-event-ado"></a>Événement FetchComplete, (ADO)
+# <a name="fetchcomplete-event-ado"></a>FetchComplete, événement (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,15 +22,15 @@ L’événement **FetchComplete** est appelé après que tous les enregistrement
 
 ## <a name="syntax"></a>Syntaxe
 
-FetchComplete,*perror*, ** adStatus, *Recordset*
+FetchComplete *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*pError* |Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si **adStatus** a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.|
-|*Statu* |[EventStatusEnum](eventstatusenum.md). Avant que cet événement soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre pour éviter toute notification ultérieure.|
-|*jeu d'enregistrements* |Objet **Recordset** représentant le jeu duquel les enregistrements ont été extraits.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Avant que cet événement soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre pour éviter toute notification ultérieure.|
+|*pRecordset* |Objet **Recordset** représentant le jeu duquel les enregistrements ont été extraits.|
 
 ## <a name="remarks"></a>Remarques
 

@@ -1,5 +1,5 @@
 ---
-title: Index. Fields, propriété (DAO)
+title: Index.Fields, propriété (DAO)
 TOCTitle: Fields Property
 ms:assetid: c79adede-361f-c0eb-13a1-18625bd9141f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823154(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291823"
 ---
-# <a name="indexfields-property-dao"></a>Index. Fields, propriété (DAO)
+# <a name="indexfields-property-dao"></a>Index.Fields, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Renvoie une collection **Fields** qui représente tous les objets **Field** stoc
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Ceux
+*.* Champs
 
-*expression* Variable qui représente un objet **index** .
+*expression* Variable qui représente un objet **Index.**
 

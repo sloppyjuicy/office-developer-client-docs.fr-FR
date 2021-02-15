@@ -60,7 +60,7 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. GetRowsOption. REST</p></td>
+<td><p>AdoEnums.GetRowsOption.REST</p></td>
 </tr>
 </tbody>
 </table>

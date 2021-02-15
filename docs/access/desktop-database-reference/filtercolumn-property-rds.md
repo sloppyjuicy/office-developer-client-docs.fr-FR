@@ -22,11 +22,11 @@ Indique la colonne sur laquelle portent les critères de filtre.
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. FilterColumn = *chaîne*
+*DataControl*. FilterColumn = *Chaîne*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 |*String* |Une valeur **String** qui spécifie la colonne sur laquelle porte les critères de filtrage. Les critères de filtre sont spécifiés dans la propriété [FilterCriterion](filtercriterion-property-rds.md).|

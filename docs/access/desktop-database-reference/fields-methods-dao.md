@@ -1,5 +1,5 @@
 ---
-title: Fields, méthodes (DAO)
+title: Fields methods (DAO)
 TOCTitle: Methods
 ms:assetid: 8fbbdc45-7ab2-40a2-9a68-c06e3c8bf340
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125301(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292523"
 ---
-# <a name="fields-methods-dao"></a>Fields, méthodes (DAO)
+# <a name="fields-methods-dao"></a>Fields methods (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Fields. Append, méthode (DAO)](fields-append-method-dao.md)
-- [Fields. Delete, méthode (DAO)](fields-delete-method-dao.md)
-- [Fields. Refresh, méthode (DAO)](fields-refresh-method-dao.md)
+- [Fields.Append, méthode (DAO)](fields-append-method-dao.md)
+- [Fields.Delete, méthode (DAO)](fields-delete-method-dao.md)
+- [Fields.Refresh, méthode (DAO)](fields-refresh-method-dao.md)
 

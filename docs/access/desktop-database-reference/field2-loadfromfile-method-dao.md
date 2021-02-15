@@ -1,5 +1,5 @@
 ---
-title: Field2. LoadFromFile, méthode (DAO)
+title: Méthode Field2.LoadFromFile (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292789"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Field2. LoadFromFile, méthode (DAO)
+# <a name="field2loadfromfile-method-dao"></a>Méthode Field2.LoadFromFile (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,13 +26,13 @@ Charge le fichier de disque désigné.
 
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée: Access 2007
+Version ajoutée : Access 2007
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . LoadFromFile (***filename***)
+*.* LoadFromFile(***FileName***)
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -89,7 +89,7 @@ L'extrait de code suivant utilise la méthode **LoadFromFile** pour charger la p
 
 <br/>
 
-L'exemple suivant montre comment ajouter des fichiers à partir d'un chemin d'accès de dossier spécifié à un champ pièce jointe.
+L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès de dossier spécifié à un champ Pièce jointe.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

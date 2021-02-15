@@ -1,5 +1,5 @@
 ---
-title: PourChaqueEnregistrement, bloc de données
+title: Bloc de données ForEachRecord
 TOCTitle: ForEachRecord data block
 ms:assetid: be369196-230e-1f92-e36b-667048eef2be
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292327"
 ---
-# <a name="foreachrecord-data-block"></a>PourChaqueEnregistrement, bloc de données
+# <a name="foreachrecord-data-block"></a>Bloc de données ForEachRecord
 
 **S’applique à** : Access 2013, Office 2013
 
-Un bloc de données **PourChaqueEnregistrement** répète un ensemble d'instructions pour chaque enregistrement dans un domaine.
+Un **bloc de données ForEachRecord** répète un ensemble d’instructions pour chaque enregistrement d’un domaine.
 
 > [!NOTE]
 > Le bloc de données **PourChaqueEnregistrement** est disponible uniquement dans les macros de données.
@@ -42,19 +42,19 @@ L’action **PourChaqueEnregistrement** utilise les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Dans</strong></p></td>
+<td><p><strong>In</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Chaîne qui identifie le domaine d’enregistrements sur lequel opérer. L'argument <em>dans</em> peut contenir le nom de la table, une requête sélection ou une instruction SQL.</p><p><strong>Remarque</strong>: le domaine spécifié ne peut pas inclure de données stockées dans une table liée ou une source de données ODBC.</p></td>
+<td><p>Chaîne qui identifie le domaine d’enregistrements sur lequel opérer. <em>L’argument In</em> peut contenir le nom de la table, une requête Select ou une SQL instruction.</p><p><strong>REMARQUE</strong>: le domaine spécifié ne peut pas inclure les données stockées dans une table liée ou une source de données ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Condition Where</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Expression de chaîne servant à limiter la plage de données sur laquelle le bloc de données <strong>PourChaqueEnregistrement</strong> est exécuté. Par exemple, les critères sont souvent équivalents à la clause WHERE dans une expression SQL, sans le mot WHERE. En cas d'omission de critère, le bloc de données <strong>PourChaqueEnregistrement</strong> s'applique à l'ensemble du domaine spécifié par l'argument <em>in</em> . Tout champ inclus dans les critères doit également être un champ dans <em>In</em>.</p></td>
+<td><p>Expression de chaîne utilisée pour limiter la plage de données sur laquelle le bloc de données <strong>ForEachRecord</strong> est effectué. Par exemple, les critères sont souvent équivalents à la clause WHERE dans une expression SQL, sans le mot WHERE. Si des critères sont omis, le bloc de données <strong>ForEachRecord</strong> fonctionne sur l’intégralité du domaine spécifié par <em>l’argument In.</em> Tout champ inclus dans les critères doit également être un champ dans <em>In</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Alias</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Chaîne qui fournit un autre nom pour le domaine spécifié par l'argument <em>dans</em> . Souvent utilisé pour raccourcir le nom de la table pour les références ultérieures afin d'éviter d'éventuelles références ambiguës. Si <em>alias</em> n'est pas spécifié, le nom de la table ou de la requête sera utilisé comme alias.</p></td>
+<td><p>Chaîne qui fournit un autre nom pour le domaine spécifié par l’argument <em>In.</em> Souvent utilisé pour raccourcir le nom de la table pour les références suivantes afin d’éviter les références ambiguës possibles. Si <em>l’alias</em> n’est pas spécifié, le nom de la table ou de la requête sera utilisé comme alias.</p></td>
 </tr>
 </tbody>
 </table>

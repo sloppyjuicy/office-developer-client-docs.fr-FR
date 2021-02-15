@@ -1,5 +1,5 @@
 ---
-title: Index, propriétés, méthodes et événements (ADOX)
+title: Index properties, methods, and events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 392ac7eb-a7ab-d016-ed7b-4054c6f9dacc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249139(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291712"
 ---
-# <a name="index-properties-methods-and-events-adox"></a>Index, propriétés, méthodes et événements (ADOX)
+# <a name="index-properties-methods-and-events-adox"></a>Index properties, methods, and events (ADOX)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -34,7 +34,7 @@ ms.locfileid: "32291712"
 
 Aucun.
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

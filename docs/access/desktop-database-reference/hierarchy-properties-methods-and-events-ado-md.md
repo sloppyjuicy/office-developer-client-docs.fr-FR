@@ -1,5 +1,5 @@
 ---
-title: Hierarchy, propriétés, méthodes et événements (ADO MD)
+title: Hierarchy properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 4661738f-86c5-a944-2884-baed66c1a9d9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249217(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291949"
 ---
-# <a name="hierarchy-properties-methods-and-events-ado-md"></a>Hierarchy, propriétés, méthodes et événements (ADO MD)
+# <a name="hierarchy-properties-methods-and-events-ado-md"></a>Hierarchy properties, methods, and events (ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -30,7 +30,7 @@ ms.locfileid: "32291949"
 
 Aucun.
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

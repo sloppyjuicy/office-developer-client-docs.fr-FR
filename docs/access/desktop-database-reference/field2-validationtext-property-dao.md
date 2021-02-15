@@ -1,5 +1,5 @@
 ---
-title: Field2. ValidationText, propriété (DAO)
+title: Field2.ValidationText, propriété (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 6128f66c-3891-ae4d-d12d-354a79a9c05e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194867(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292621"
 ---
-# <a name="field2validationtext-property-dao"></a>Field2. ValidationText, propriété (DAO)
+# <a name="field2validationtext-property-dao"></a>Field2.ValidationText, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Définit ou renvoie une valeur qui spécifie le texte du message que votre appli
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . MessageSiErreur
+*.* ValidationText
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="remarks"></a>Remarques
 
@@ -47,7 +47,7 @@ Pour un objet **Field2**, l'utilisation de la propriété **ValidationText** dé
 <tbody>
 <tr class="odd">
 <td><p><strong>Index</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>QueryDef</strong></p></td>
@@ -63,7 +63,7 @@ Pour un objet **Field2**, l'utilisation de la propriété **ValidationText** dé
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>
-<td><p>En lecture-écriture.</p></td>
+<td><p>Lecture/écriture</p></td>
 </tr>
 </tbody>
 </table>

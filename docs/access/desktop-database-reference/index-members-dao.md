@@ -1,5 +1,5 @@
 ---
-title: Membres d'index (DAO)
+title: Index members (DAO)
 TOCTitle: Index Members
 ms:assetid: e261c5fa-ca7d-0d63-1c29-48e9231b39d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835712(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291795"
 ---
-# <a name="index-members-dao"></a>Membres d'index (DAO)
+# <a name="index-members-dao"></a>Index members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -37,7 +37,7 @@ Les objets Index déterminent l'ordre des enregistrements accessibles depuis les
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="index-createfield-method-dao.md">CreateField</a></strong></p></td>
-<td><p>Crée un objet <strong><a href="field-object-dao.md">Field</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Crée un objet <strong><a href="field-object-dao.md">Field</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
@@ -71,11 +71,11 @@ Les objets Index déterminent l'ordre des enregistrements accessibles depuis les
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-fields-property-dao.md">Fields</a></strong></p></td>
-<td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés de l'objet spécifié. Lecture/écriture.</p></td>
+<td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. Lecture/écriture.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-foreign-property-dao.md">Foreign</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si un objet <strong><a href="index-object-dao.md">index</a></strong> représente une clé étrangère dans une table (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p><strong><a href="index-foreign-property-dao.md">Étranger</a></strong></p></td>
+<td><p>Renvoie une valeur qui indique si un objet <strong><a href="index-object-dao.md">Index</a></strong> représente une clé étrangère dans une table (espaces de travail Microsoft Access uniquement). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-ignorenulls-property-dao.md">IgnoreNulls</a></strong></p></td>
@@ -86,7 +86,7 @@ Les objets Index déterminent l'ordre des enregistrements accessibles depuis les
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-primary-property-dao.md">Primaire</a></strong></p></td>
+<td><p><strong><a href="index-primary-property-dao.md">Principal</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui indique si un objet <strong><a href="index-object-dao.md">Index</a></strong> représente un index de clé primaire pour une table (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
@@ -98,7 +98,7 @@ Les objets Index déterminent l'ordre des enregistrements accessibles depuis les
 <td><p>Définit ou renvoie une valeur qui indique si un objet <strong><a href="field-object-dao.md">Field</a></strong> requiert une valeur non Null.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-unique-property-dao.md">Uniques</a></strong></p></td>
+<td><p><strong><a href="index-unique-property-dao.md">Unique</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui indique si un objet <strong><a href="index-object-dao.md">Index</a></strong> représente un index (une clé) unique d'une table (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 </tbody>

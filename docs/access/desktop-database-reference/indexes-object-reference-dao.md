@@ -1,5 +1,5 @@
 ---
-title: Index, référence d'objet (DAO)
+title: Indexes object reference (DAO)
 TOCTitle: Indexes Object
 ms:assetid: ef17afe4-3ce6-4f70-a691-66c8dc23571e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn179981(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291510"
 ---
-# <a name="indexes-object-reference-dao"></a>Index, référence d'objet (DAO)
+# <a name="indexes-object-reference-dao"></a>Indexes object reference (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Indexes, collection (DAO)](indexes-collection-dao.md)
-- [Indexes, membres (DAO)](indexes-members-dao.md)
-- [Indexes, propriétés (DAO)](indexes-properties-dao.md)
-- [Indexes, méthodes (DAO)](indexes-methods-dao.md)
+- [Indexes members (DAO)](indexes-members-dao.md)
+- [Indexes properties (DAO)](indexes-properties-dao.md)
+- [Indexes methods (DAO)](indexes-methods-dao.md)
 

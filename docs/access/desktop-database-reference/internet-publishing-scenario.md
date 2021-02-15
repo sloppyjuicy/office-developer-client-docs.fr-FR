@@ -22,12 +22,12 @@ Cet exemple de code illustre la façon dont ADO doit être utilisé avec le four
 
 La création de ce scénario passe par l'exécution des étapes suivantes : 
 
-1. ConFigurez le projet Visual Basic.
-2. Initialiser la zone de liste principale.
-3. Remplissez la zone de liste Fields.
-4. Remplissez la zone de texte details.
+1. Configurer le projet Visual Basic projet.
+2. Initialiser la zone de liste Principale.
+3. Remplir la zone de liste Champs.
+4. Remplir la zone de texte Détails.
 
-## <a name="step-1-set-up-the-visual-basic-project"></a>Étape 1: configurer le projet Visual Basic
+## <a name="step-1-set-up-the-visual-basic-project"></a>Étape 1 : Configurer le projet Visual Basic projet
 
 Dans ce scénario, vous êtes censé avoir installé sur votre système Microsoft Visual Basic version 6.0 ou ultérieure, ADO version 2.5 ou ultérieure, et le fournisseur Microsoft OLE DB pour la publication Internet.
 
@@ -37,19 +37,19 @@ Dans ce scénario, vous êtes censé avoir installé sur votre système Microsof
 
 2.  Dans le menu **Projet**, choisissez **Références**.
 
-3.  Sélectionnez **bibliothèque Microsoft ActiveX Data objects 2,5**, puis cliquez sur **OK**.
+3.  Sélectionnez **Microsoft ActiveX Data Objects 2.5 Library,** puis cliquez sur **OK**.
 
-### <a name="insert-controls-on-the-main-form"></a>Insérer des contrôles dans le formulaire principal
+### <a name="insert-controls-on-the-main-form"></a>Insérer des contrôles sur le formulaire principal
 
-1.  Ajoutez un contrôle ListBox à Form1. Définissez sa propriété **Name** sur **lstMain**.
+1.  Ajoutez un contrôle ListBox à Form1. Définissez **sa propriété Name** sur **lstMain**.
 
-2.  Ajoutez un autre contrôle ListBox à Form1. Définissez sa propriété **Name** sur **lstDetails**.
+2.  Ajoutez un autre contrôle ListBox à Form1. Définissez **sa propriété Name** sur **lstDetails**.
 
-3.  Ajoutez un contrôle TextBox à Form1. Définissez sa propriété **Name** sur **txtDetails**.
+3.  Ajoutez un contrôle TextBox à Form1. Définissez **sa propriété Name** sur **txtDetails**.
 
-## <a name="step-2-initialize-the-main-list-box"></a>Étape 2: initialiser la zone de liste principale
+## <a name="step-2-initialize-the-main-list-box"></a>Étape 2 : Initialiser la zone de liste principale
 
-### <a name="declare-global-record-and-recordset-objects"></a>Déclarer les objets record et Recordset globaux
+### <a name="declare-global-record-and-recordset-objects"></a>Déclarer des objets Record et Recordset globaux
 
 - Insérez le code suivant dans (Général) (Déclarations) pour Form1 :
     
@@ -81,13 +81,13 @@ Dans ce scénario, vous êtes censé avoir installé sur votre système Microsof
     End Sub 
    ```
     
-   Ce code instancie les objets **Record** et **Recordset** globaux. L' **enregistrement** `grec` est ouvert avec une URL spécifiée en tant que **ActiveConnection**. Si l'URL existe, elle est ouverte ; si elle n'existe pas encore, elle est créée. 
+   Ce code instancie les objets **Record** et **Recordset** globaux. **L’enregistrement** `grec` est ouvert avec une URL spécifiée comme **ActiveConnection**. Si l'URL existe, elle est ouverte ; si elle n'existe pas encore, elle est créée. 
    
    Notez que vous devez remplacer `https://servername/foldername/` par une URL valide de votre environnement. 
    
-   L' **objet Recordset** `grs` est ouvert sur les enfants de l'objet **Record** `grec`. Le lstMain est ensuite rempli avec les noms de fichier des ressources publiées dans l'URL.
+   Le **recordset** `grs` est ouvert sur les enfants de l’enregistrement  `grec` . Le lstMain est ensuite rempli avec les noms de fichiers des ressources publiées dans l’URL.
 
-## <a name="step-3-populate-the-fields-list-box"></a>Étape 3: remplir la zone de liste Fields
+## <a name="step-3-populate-the-fields-list-box"></a>Étape 3 : Remplir la zone de liste Champs
 
 - Insérez le code suivant dans le gestionnaire d'événements Click de lstMain :
 
@@ -118,19 +118,19 @@ Dans ce scénario, vous êtes censé avoir installé sur votre système Microsof
     End Sub 
    ```
 
-   Ce code déclare et instancie les `rec` objets **Record** et **Recordset** locaux, `rs`respectivement.
+   Ce code déclare et ins instantie les objets **Record** et **Recordset** `rec` `rs` locaux, respectivement.
 
-   La ligne correspondant à la ressource sélectionnée dans lstMain devient la ligne active `grs`. La **** zone de `rec` `grs` liste Details est ensuite effacée et est ouverte avec la ligne active comme source.
+   La ligne correspondant à la ressource sélectionnée dans lstMain est la ligne actuelle de `grs` . La **zone de liste Détails** est ensuite effacée et ouverte avec la ligne actuelle de la `rec` `grs` source.
 
-   Si la ressource est un enregistrement de collection (comme spécifié par **RecordType**), l' **objet Recordset** `rs` local est ouvert sur les `rec`enfants de. lstDetails est ensuite rempli avec les valeurs des lignes de `rs`.
+   Si la ressource est un enregistrement de collection (comme spécifié par **RecordType**), l’recordset local est ouvert sur  `rs` les enfants de `rec` . lstDetails est ensuite rempli avec les valeurs des lignes de `rs` .
 
-   Si la ressource est un enregistrement simple, `recFields` est appelée. Pour plus d'informations `recFields`sur, reportez-vous à l'étape suivante.
+   Si la ressource est un enregistrement simple, `recFields` elle est appelée. Pour plus d’informations `recFields` sur , voir l’étape suivante.
 
    Si la ressource est un document structuré, aucun code n'est implémenté.
 
-## <a name="step-4-populate-the-details-text-box"></a>Étape 4: remplir la zone de texte Details
+## <a name="step-4-populate-the-details-text-box"></a>Étape 4 : Remplir la zone de texte Détails
 
-- Créez une sous-routine nommée `recFields` et insérez le code suivant:
+- Créez une sous-routine nommée `recFields` et insérez le code suivant :
 
    ```vb 
     
@@ -157,5 +157,5 @@ Dans ce scénario, vous êtes censé avoir installé sur votre système Microsof
     End Sub 
    ```
 
-   Ce code remplit lstDetails avec les champs et les valeurs de l'enregistrement simple transmis à `recFields`. Si la ressource est un fichier texte, un objet **Stream** de type texte est ouvert à partir de l'enregistrement de la ressource. Le code détermine si le jeu de caractères est au format ASCII et **** copie le contenu `txtDetails`du flux dans.
+   Ce code remplit lstDetails avec les champs et les valeurs de l’enregistrement simple passé à `recFields` . Si la ressource est un fichier texte, un objet **Stream** de type texte est ouvert à partir de l'enregistrement de la ressource. Le code détermine si le jeu de caractères est ASCII et copie le contenu **du flux** dans `txtDetails` .
 

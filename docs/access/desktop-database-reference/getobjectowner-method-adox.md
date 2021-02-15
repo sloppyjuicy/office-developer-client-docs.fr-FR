@@ -22,7 +22,7 @@ Renvoie le propriétaire d’un objet dans un objet [Catalog](catalog-object-ado
 
 ## <a name="syntax"></a>Syntaxe
 
-** = *Catalogue*propriétaire. GetObjectOwner (*ObjectName*, *ObjectType* \[,*ObjectTypeId*\])
+*Propriétaire*  =  *Catalogue*. GetObjectOwner(*ObjectName*, *ObjectType* \[ ,*ObjectTypeId* \] )
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,7 +30,7 @@ Renvoie une valeur de type **String** qui spécifie la propriété [Name](name-p
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*ObjectName* |Valeur de type **String** qui spécifie le nom de l'objet dont le propriétaire doit être renvoyé.|
 |*ObjectType* |Valeur de type **Long** qui peut être l'une des constantes [ObjectTypeEnum](objecttypeenum.md), spécifiant le type d'objet dont il faut obtenir le propriétaire.|

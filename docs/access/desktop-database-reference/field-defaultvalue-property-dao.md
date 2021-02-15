@@ -1,5 +1,5 @@
 ---
-title: Field. DefaultValue, propriété (DAO)
+title: Field.DefaultValue, propriété (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 8a1c558b-c8f6-757d-c595-4e50b9b6ae3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293118"
 ---
-# <a name="fielddefaultvalue-property-dao"></a>Field. DefaultValue, propriété (DAO)
+# <a name="fielddefaultvalue-property-dao"></a>Field.DefaultValue, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -24,9 +24,9 @@ Définit ou renvoie la valeur par défaut d'un objet **[Field](field-object-dao.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . DefaultValue
+*.* DefaultValue
 
-*expression* Variable qui représente un objet **Field** .
+*expression* Variable qui représente un objet **Field**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -53,7 +53,7 @@ La disponibilité de la propriété **DefaultValue** dépend de l'objet contenan
 <tbody>
 <tr class="odd">
 <td><p>Objet Index</p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p>Objet QueryDef</p></td>
@@ -69,7 +69,7 @@ La disponibilité de la propriété **DefaultValue** dépend de l'objet contenan
 </tr>
 <tr class="odd">
 <td><p>Objet TableDef</p></td>
-<td><p>En lecture-écriture.</p></td>
+<td><p>Lecture/écriture</p></td>
 </tr>
 </tbody>
 </table>

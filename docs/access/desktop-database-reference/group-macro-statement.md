@@ -19,7 +19,7 @@ ms.locfileid: "32292110"
 
 **S’applique à** : Access 2013, Office 2013
 
-L'instruction **Group** vous permet de spécifier un bloc d'actions dans une macro que vous pouvez développer ou réduire.
+**L’instruction** Group vous permet de spécifier un bloc d’actions dans une macro que vous pouvez développer ou réduire.
 
 ## <a name="setting"></a>Setting
 

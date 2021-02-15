@@ -1,5 +1,5 @@
 ---
-title: Indexes, collection-propriétés, méthodes et événements (ADOX)
+title: Indexes collection properties, methods, and events (ADOX)
 TOCTitle: Indexes collection properties, methods, and events (ADOX)
 ms:assetid: 46f3e51d-a7e8-60a0-9c54-d2228e9383b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249218(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291558"
 ---
-# <a name="indexes-collection-properties-methods-and-events-adox"></a>Indexes, collection-propriétés, méthodes et événements (ADOX)
+# <a name="indexes-collection-properties-methods-and-events-adox"></a>Indexes collection properties, methods, and events (ADOX)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="properties"></a>Propriétés
 
 - [Propriété Count](count-property-ado.md)
-- [Propriété Item](item-property-ado.md)
+- [Item, propriété](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes
 
-- [Append, méthode (index)](append-method-adox-indexes.md)
+- [Append, méthode (Index)](append-method-adox-indexes.md)
 - [Delete, méthode (Collections)](delete-method-adox-collections.md)
 - [Refresh, méthode](refresh-method-ado.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

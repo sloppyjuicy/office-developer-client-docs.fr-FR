@@ -18,7 +18,7 @@ ms.locfileid: "32291468"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [IndexNulls](indexnulls-property-adox.md) d’un objet [Index](index-object-adox.md). Le code crée un index et définit la valeur de **IndexNulls** en fonction de l’entrée utilisateur (dans une zone de liste appelée List1). Ensuite, l' **index** est ajouté à la table **Employees** [](table-object-adox.md) dans le ** [catalogue](catalog-object-adox.md)Northwind. Le nouvel objet **Index** est appliqué à un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** et le **Recordset** est ouvert. Un nouvel enregistrement est ajouté à la table **Employees**, avec la valeur **Null** dans le champ indexé. Selon le paramètre de la propriété **IndexNulls**, ce nouvel enregistrement est affiché ou non.
+Cet exemple illustre la propriété [IndexNulls](indexnulls-property-adox.md) d’un objet [Index](index-object-adox.md). Le code crée un index et définit la valeur de **IndexNulls** en fonction de l’entrée utilisateur (dans une zone de liste appelée List1). Ensuite, **l’index** est appendué à la [table](table-object-adox.md) **Employees** dans *le catalogue Northwind* [.](catalog-object-adox.md) Le nouvel objet **Index** est appliqué à un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** et le **Recordset** est ouvert. Un nouvel enregistrement est ajouté à la table **Employees**, avec la valeur **Null** dans le champ indexé. Selon le paramètre de la propriété **IndexNulls**, ce nouvel enregistrement est affiché ou non.
 
 ```vb
     ' IndexNullsVB 

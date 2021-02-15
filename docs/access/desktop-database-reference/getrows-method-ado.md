@@ -22,7 +22,7 @@ Récupère plusieurs enregistrements d’un objet [Recordset](recordset-object-a
 
 ## <a name="syntax"></a>Syntaxe
 
-** = *Recordset*de tableau. GetRows (*lignes*, *début*, *champs* )
+*array*  =  *recordset*. GetRows(*Rows*, *Start*, *Fields* )
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,9 +30,9 @@ Retourne une valeur de type **Variant** qui représente un tableau à deux dimen
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
-|*Lignes* |Facultatif. Valeur [GetRowsOptionEnum](getrowsoptionenum.md) qui indique le nombre d'enregistrements à récupérer. La valeur par défaut est **adGetRowsRest**.|
+|*Rows* |Facultatif. Valeur [GetRowsOptionEnum](getrowsoptionenum.md) qui indique le nombre d'enregistrements à récupérer. La valeur par défaut est **adGetRowsRest**.|
 |*Début* |Facultatif. Valeur de type **String** ou **Variant** qui correspond au signet de l'enregistrement à partir duquel l'opération **GetRows** doit commencer. Vous pouvez également utiliser une valeur [BookmarkEnum](bookmarkenum.md).|
 |*Champs* |Facultatif. **Variant** qui représente un seul nom de champ ou position ordinale, ou un tableau de noms de champs ou de positions ordinales. ADO retourne uniquement les données de ces champs.|
 

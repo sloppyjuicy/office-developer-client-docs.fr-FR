@@ -1,5 +1,5 @@
 ---
-title: Field2. Required, propriété (DAO)
+title: Field2.Required, propriété (DAO)
 TOCTitle: Required Property
 ms:assetid: 7d14dfd7-a50d-6044-469e-1511c74c148d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292719"
 ---
-# <a name="field2required-property-dao"></a>Field2. Required, propriété (DAO)
+# <a name="field2required-property-dao"></a>Field2.Required, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -24,9 +24,9 @@ Définit ou renvoie une valeur qui indique si un objet **Field2** requiert une v
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Obligatoire
+*.* Obligatoire
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="remarks"></a>Remarques
 
@@ -48,7 +48,7 @@ La disponibilité de la propriété **Required** dépend de l'objet contenant la
 <tbody>
 <tr class="odd">
 <td><p>objet <strong>Index</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p>objet <strong>QueryDef</strong></p></td>
@@ -60,11 +60,11 @@ La disponibilité de la propriété **Required** dépend de l'objet contenant la
 </tr>
 <tr class="even">
 <td><p>objet <strong>Relation</strong></p></td>
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 </tr>
 <tr class="odd">
 <td><p>objet <strong>TableDef</strong></p></td>
-<td><p>En lecture-écriture.</p></td>
+<td><p>Lecture/écriture</p></td>
 </tr>
 </tbody>
 </table>

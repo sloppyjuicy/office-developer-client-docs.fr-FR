@@ -1,5 +1,5 @@
 ---
-title: Propriété Field. VisibleValue (DAO)
+title: Field.VisibleValue, propriété (DAO)
 TOCTitle: VisibleValue Property
 ms:assetid: e40fcb43-9a1d-69e7-1544-8f15ef21daf4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835776(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292915"
 ---
-# <a name="fieldvisiblevalue-property-dao"></a>Propriété Field. VisibleValue (DAO)
+# <a name="fieldvisiblevalue-property-dao"></a>Field.VisibleValue, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . VisibleValue
+*.* VisibleValue
 
-*expression* Variable qui représente un objet **Field** .
+*expression* Variable qui représente un objet **Field**.
 
 ## <a name="remarks"></a>Remarques
 

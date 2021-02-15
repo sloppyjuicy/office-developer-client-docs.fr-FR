@@ -1,5 +1,5 @@
 ---
-title: Field. Size, propriété (DAO)
+title: Field.Size, propriété (DAO)
 TOCTitle: Size Property
 ms:assetid: 15e25201-87b6-f62f-ff18-259414a47891
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845510(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293014"
 ---
-# <a name="fieldsize-property-dao"></a>Field. Size, propriété (DAO)
+# <a name="fieldsize-property-dao"></a>Field.Size, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -28,9 +28,9 @@ Définit ou renvoie une valeur indiquant la taille maximale, en octets, d'un obj
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Longueur
+*.* Taille
 
-*expression* Variable qui représente un objet **Field** .
+*expression* Variable qui représente un objet **Field**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ L'utilisation de la propriété **Size** dépend de l'objet qui contient la coll
 <tbody>
 <tr class="odd">
 <td><p><strong>Index</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>QueryDef</strong></p></td>

@@ -27,7 +27,7 @@ L'action **ImporterListeSharePoint** permet d'importer ou de lier des données �
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ImporterListeSharePoint** utilise les arguments suivants :
 
@@ -47,8 +47,8 @@ L’action **ImporterListeSharePoint** utilise les arguments suivants :
 <td><p><strong>Type de transfert</strong></p></td>
 <td><p>Sélectionnez le type de transfert.</p>
 <ul>
-<li><p>Sélectionnez <strong>Importer</strong> pour copier les données SharePoint Foundation dans un tableau dans Microsoft Access. Les mises à jour des données dans Access n'ont pas d'incidence sur les données dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation n'affectent pas les données dans Access.</p></li>
-<li><p>Sélectionnez <strong>lien</strong> pour créer une table attachée dans Access qui lie les données dans SharePoint Foundation. Les mises à jour des données dans Access sont reflétées dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation sont reflétées dans Access.</p></li>
+<li><p>Sélectionnez <strong>Importer</strong> pour copier les données SharePoint Foundation dans une table dans Microsoft Access. Les mises à jour des données dans Access n’affectent pas les données dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation n’affectent pas les données dans Access.</p></li>
+<li><p>Sélectionnez <strong>Lien</strong> pour créer une table liée dans Access qui est liée aux données dans SharePoint Foundation. Les mises à jour des données dans Access sont reflétées dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation sont reflétées dans Access.</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -98,5 +98,5 @@ L’action **ImporterListeSharePoint** utilise les arguments suivants :
         
      `https://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D`
         
-  Avant de pouvoir utiliser les GUID de l'adresse comme arguments dans cette action de macro, vous devez remplacer chaque chaîne **% 7B** par le caractère **{** , remplacer chaque chaîne **% 2D** par le **-** caractère et remplacer chaque chaîne **% 7D** par la chaîne **}** . N'incluez pas le caractère **&** (et commercial) qui suit la chaîne **%7D** dans le GUID de la liste.
+  Avant de pouvoir utiliser les GUID de l’adresse comme arguments dans cette action de macro, vous devez remplacer chaque chaîne **%7B** par le caractère **{,** remplacer chaque chaîne **%2D** par le caractère, et remplacer chaque chaîne **-** **%7D** par le **caractère }.** N'incluez pas le caractère **&** (et commercial) qui suit la chaîne **%7D** dans le GUID de la liste.
 

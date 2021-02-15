@@ -1,5 +1,5 @@
 ---
-title: Handler, propriété (RDS)
+title: Propriété Handler (RDS)
 TOCTitle: Handler property (RDS)
 ms:assetid: aaf8c8c6-f95b-3cf3-b3f6-203f37464c87
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292068"
 ---
-# <a name="handler-property-rds"></a>Handler, propriété (RDS)
+# <a name="handler-property-rds"></a>Propriété Handler (RDS)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,14 +22,14 @@ Indique le nom d’un programme de personnalisation coté serveur (gestionnaire)
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. Handler = *chaîne*
+*DataControl*. Handler = *String*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Valeur de **type String** contenant le nom du gestionnaire et tous les paramètres, séparés par des virgules (par exemple, «HandlerName, parm1, parm2,..., paramètre *N*»).|
+|*String* |Valeur **de** chaîne qui contient le nom du handler et tous les paramètres, séparés par des virgules (par exemple, « handlerName,parm1,parm2,...,parm *N*».|
 
 ## <a name="remarks"></a>Remarques
 
@@ -39,5 +39,5 @@ Les noms du gestionnaire et de ses paramètres, le cas échéant, sont séparés
 
 Le gestionnaire par défaut s'appelle **MSDFMAP.Handler**, son paramètre par défaut est un fichier de personnalisation appelé **MSDFMAP.INI**. Utilisez cette propriété pour appeler les autres fichiers de personnalisation créés par votre administrateur serveur.
 
-Au lieu de définir la propriété **handler** , vous pouvez spécifier un gestionnaire et des paramètres dans la propriété [ConnectionString](connectionstring-property-ado.md) ; c'est-à-dire, «**handler = * * * HandlerName, parm1, parm2,...;*».
+L’alternative à la définition de la propriété **Handler** consiste à spécifier un handler et des paramètres dans la [propriété ConnectionString](connectionstring-property-ado.md) ; autrement dit, « **Handler=***handlerName,parm1,parm2,...;*».
 

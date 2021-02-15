@@ -1,5 +1,5 @@
 ---
-title: Field2. expression, propriété (DAO)
+title: Field2.Expression, propriété (DAO)
 TOCTitle: Expression Property
 ms:assetid: 8ae9db2c-7460-5bfc-0dc4-3f87e5ab30ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
@@ -14,27 +14,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292817"
 ---
-# <a name="field2expression-property-dao"></a>Field2. expression, propriété (DAO)
+# <a name="field2expression-property-dao"></a>Field2.Expression, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Obtient ou définit une expression qui représente la formule d'un champ calculé. **String** en lecture/écriture.
+Obtient ou définit une expression qui représente la formule d’un champ calculé. **String** en lecture/écriture.
 
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée: Access 2010
+Version ajoutée : Access 2010
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Expression
+*.* Expression
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="remarks"></a>Remarques
 
-Dans Access 2013, vous pouvez créer des champs de table qui calculent des valeurs. Les calculs peuvent inclure des valeurs de champs dans la même table, ainsi que des fonctions Access intégrées.
+Dans Access 2013, vous pouvez créer des champs de table qui calculent des valeurs. Les calculs peuvent inclure des valeurs provenant de champs de la même table, ainsi que des fonctions Access intégrées.
 
-Le calcul ne peut pas inclure de champs provenant d'autres tables ou requêtes.
+Le calcul ne peut pas inclure de champs provenant d’autres tables ou requêtes.
 
 Les résultats du calcul sont en lecture seule.
 

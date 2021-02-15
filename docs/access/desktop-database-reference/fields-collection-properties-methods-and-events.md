@@ -21,7 +21,7 @@ ms.locfileid: "32292551"
 ## <a name="properties"></a>Propriétés
 
 - [Propriété Count](count-property-ado.md)
-- [Propriété Item](item-property-ado.md)
+- [Item, propriété](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes
 
@@ -32,7 +32,7 @@ ms.locfileid: "32292551"
 - [Resync, méthode](resync-method-ado.md)
 - [Update, méthode](update-method-ado.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

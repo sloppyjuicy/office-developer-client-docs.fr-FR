@@ -1,5 +1,5 @@
 ---
-title: Index. unique, propriété (DAO)
+title: Index.Unique, propriété (DAO)
 TOCTitle: Unique Property
 ms:assetid: a4486da5-8a1a-b4fc-0e07-e65cd2e726f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821087(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291691"
 ---
-# <a name="indexunique-property-dao"></a>Index. unique, propriété (DAO)
+# <a name="indexunique-property-dao"></a>Index.Unique, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Définit ou renvoie une valeur qui indique si un objet **[Index](index-object-da
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Exclusive
+*.* Unique
 
-*expression* Variable qui représente un objet **index** .
+*expression* Variable qui représente un objet **Index.**
 
 ## <a name="remarks"></a>Remarques
 
@@ -43,7 +43,7 @@ Si les propriétés **Unique** et **[Primary](index-primary-property-dao.md)** d
 > - Les enregistrements extraits de tables non indexées sont renvoyés sans ordre particulier.
 > - La propriété **[Attributes](field-attributes-property-dao.md)** de chaque objet **[Field](field-object-dao.md)** dans l'objet **Index** détermine l'ordre des enregistrements et donc les techniques d'accès à utiliser pour cet objet **Index**.
 > - Un index unique facilite la recherche des enregistrements.
-> - Les index n'ont pas d'incidence sur l'ordre physique d'une table de base; les index affectent uniquement la façon dont les enregistrements sont accessibles par l'objet **[Recordset](recordset-object-dao.md)** de type table lorsqu'un index particulier est choisi ou lorsque le moteur de base de données Microsoft Access crée des objets **Recordset** .
+> - Les index n’affectent pas l’ordre physique d’une table de base ; Les index affectent uniquement la façon dont les enregistrements sont accessibles par l’objet **[Recordset](recordset-object-dao.md)** de type table lorsqu’un index particulier est choisi ou lorsque le moteur de base de données Microsoft Access crée des objets **Recordset.**
 
 ## <a name="example"></a>Exemple
 

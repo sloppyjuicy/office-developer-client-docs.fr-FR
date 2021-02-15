@@ -1,5 +1,5 @@
 ---
-title: Field2. ForeignName, propriété (DAO)
+title: Field2.ForeignName, propriété (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 76da233a-efb4-63cd-a2a2-d18d9e2fb2fb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196027(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292810"
 ---
-# <a name="field2foreignname-property-dao"></a>Field2. ForeignName, propriété (DAO)
+# <a name="field2foreignname-property-dao"></a>Field2.ForeignName, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,9 +27,9 @@ Définit ou renvoie une valeur qui spécifie le nom de l'objet **Field2** d'une 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ForeignName
+*.* ForeignName
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="remarks"></a>Remarques
 

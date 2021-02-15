@@ -1,5 +1,5 @@
 ---
-title: Field2, méthodes (DAO)
+title: Field2 methods (DAO)
 TOCTitle: Methods
 ms:assetid: 2d382d0a-3d61-4321-b048-18e15ccf55e3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124187(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292768"
 ---
-# <a name="field2-methods-dao"></a>Field2, méthodes (DAO)
+# <a name="field2-methods-dao"></a>Field2 methods (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Field2. AppendChunk, méthode (DAO)](field2-appendchunk-method-dao.md)
-- [Field2. CreateProperty, méthode (DAO)](field2-createproperty-method-dao.md)
-- [Field2. GetChunk, méthode (DAO)](field2-getchunk-method-dao.md)
-- [Field2. LoadFromFile, méthode (DAO)](field2-loadfromfile-method-dao.md)
-- [Field2. SaveToFile, méthode (DAO)](field2-savetofile-method-dao.md)
+- [Field2.AppendChunk, méthode (DAO)](field2-appendchunk-method-dao.md)
+- [Field2.CreateProperty method (DAO)](field2-createproperty-method-dao.md)
+- [Field2.GetChunk, méthode (DAO)](field2-getchunk-method-dao.md)
+- [Méthode Field2.LoadFromFile (DAO)](field2-loadfromfile-method-dao.md)
+- [Méthode Field2.SaveToFile (DAO)](field2-savetofile-method-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété Field.Name (DAO)
+title: Field.Name, propriété (DAO)
 TOCTitle: Name Property
 ms:assetid: b7093c63-6d57-31c8-5845-d65250386d0f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822416(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293076"
 ---
-# <a name="fieldname-property-dao"></a>Propriété Field.Name (DAO)
+# <a name="fieldname-property-dao"></a>Field.Name, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie ou définit le nom de l'objet spécifié. Type **String** en lecture-éc
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Nom
+*.* Nom
 
-*expression* Variable qui représente un objet **Field** .
+*expression* Variable qui représente un objet **Field**.
 
 ## <a name="remarks"></a>Remarques
 

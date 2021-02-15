@@ -1,5 +1,5 @@
 ---
-title: Propriété Index.Name (DAO)
+title: Index.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 83cb72c8-068a-229d-c95d-ba16567505c5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196754(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291809"
 ---
-# <a name="indexname-property-dao"></a>Propriété Index.Name (DAO)
+# <a name="indexname-property-dao"></a>Index.Name property (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie ou définit le nom de l'objet spécifié. Type **String** en lecture-éc
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Nom
+*.* Nom
 
-*expression* Variable qui représente un objet **index** .
+*expression* Variable qui représente un objet **Index.**
 
 ## <a name="remarks"></a>Remarques
 

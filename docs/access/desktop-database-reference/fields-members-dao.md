@@ -36,8 +36,8 @@ Une collection Fields contient tous les objets Field stockés d'un objet Index, 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="fields-append-method-dao.md">Annexe</a></strong></p></td>
-<td><p>Ajoute un objet <strong><a href="field-object-dao.md">Field</a></strong> dans la collection <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
+<td><p><strong><a href="fields-append-method-dao.md">Append</a></strong></p></td>
+<td><p>Ajoute un nouveau <strong><a href="field-object-dao.md">champ</a></strong> à la collection de sites <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="fields-delete-method-dao.md">Delete</a></strong></p></td>

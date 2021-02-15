@@ -61,7 +61,7 @@ L’action **ImporterExporterDonnées** utilise les arguments suivants :
 <li><p>Sélectionnez une table dans la boîte de dialogue <strong>Attacher les tables</strong>, puis cliquez sur <strong>OK</strong>.</p></li>
 </ol>
 <p>Ouvrez la table attachée en mode Création et affichez les propriétés de la table en cliquant sur <strong>Feuille de propriétés</strong> sous l'onglet <strong>Créer</strong> du groupe <strong>Outils</strong>. Le texte affiché dans le paramètre de propriété <strong>Description</strong> est la chaîne de connexion de cette table.  </p>
-<p>Pour plus d'informations sur les chaînes de connexion ODBC, consultez le fichier d'aide ou une autre documentation pour le pilote ODBC de ce type de base de données ODBC.</p></td>
+<p>Pour plus d’informations sur les chaînes de connexion ODBC, voir le fichier d’aide ou toute autre documentation relative au pilote ODBC de ce type de base de données ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type d'objet</strong></p></td>

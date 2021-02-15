@@ -22,7 +22,7 @@ Renvoie les autorisations d'un groupe ou d'un utilisateur sur un objet ou un con
 
 ## <a name="syntax"></a>Syntaxe
 
-*ReturnValue* = *GroupOrUser*. GetPermissions (*Name*, *ObjectType* \[,*ObjectTypeId*\])
+*ReturnValue*  =  *GroupOrUser*. GetPermissions(*Name*, *ObjectType* \[ ,*ObjectTypeId* \] )
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,9 +30,9 @@ Renvoie une valeur de type **Long** qui spécifie un masque de bits contenant le
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
-|*Nom* |Valeur de type **Variant** qui spécifie le nom de l'objet dont il faut définir les autorisations. Attribuez une valeur Null au paramètre *Name* pour obtenir des autorisations pour le conteneur d'objets.|
+|*Name* |Valeur de type **Variant** qui spécifie le nom de l'objet dont il faut définir les autorisations. Attribuez une valeur Null au paramètre *Name* pour obtenir des autorisations pour le conteneur d'objets.|
 |*ObjectType* |Valeur de type **Long** qui peut être l'une des constantes [ObjectTypeEnum](objecttypeenum.md), spécifiant le type d'objet dont il faut obtenir les autorisations.|
 |*ObjectTypeId* |Facultatif. Valeur de type **Variant** qui spécifie le GUID d'un type d'objet fournisseur non défini par la spécification OLE DB. Ce paramètre est requis si *ObjectType* a la valeur **adPermObjProviderSpecific**. Sinon, il n'est pas utilisé.|
 

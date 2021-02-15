@@ -1,5 +1,5 @@
 ---
-title: Indexes, membres (DAO)
+title: Indexes members (DAO)
 TOCTitle: Indexes Members
 ms:assetid: 7b145a20-5cc9-57c3-7c6f-89cebdab7ea2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196191(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291537"
 ---
-# <a name="indexes-members-dao"></a>Indexes, membres (DAO)
+# <a name="indexes-members-dao"></a>Indexes members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -36,7 +36,7 @@ Une collection Indexes contient tous les objets Index stockés d'un objet TableD
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="indexes-append-method-dao.md">Annexe</a></strong></p></td>
+<td><p><strong><a href="indexes-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Ajoute un nouvel objet <strong>Index</strong> à la collection <strong>Indexes</strong>.</p></td>
 </tr>
 <tr class="even">

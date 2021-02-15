@@ -36,17 +36,17 @@ Un objet **Field2** contient les mêmes propriétés et méthodes que l'objet **
 
 Pour référencer un objet **Field2** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
 
-**Champs** 0
+**Fields**(0)
 
-**Champs** ("nom")
+**Fields**("nom")
 
-****\!\[Nom des champs\]
+**Fields**\!\[nom\]
 
 Avec les mêmes formes de syntaxe, vous pouvez également renvoyer à la propriété **Value** d'un objet **Field2** que vous créez et ajoutez à une collection **Fields**. Le contexte de la référence de champ détermine si vous faites référence à l'objet **Field2** ou à la propriété **Value** de l'objet **Field**.
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment naviguer dans un jeu d'enregistrements qui contient un champ à valeurs multiples.
+L’exemple suivant montre comment naviguer dans un Recordset contenant un champ à valeurs multiples.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
@@ -112,7 +112,7 @@ L'exemple suivant montre comment naviguer dans un jeu d'enregistrements qui cont
 
 <br/>
 
-L'exemple suivant montre comment naviguer dans les fichiers dans un champ pièce jointe. Le type de fichier et le nom de fichier de chaque pièce jointe sont imprimés dans la fenêtre exécution.
+L’exemple suivant montre comment naviguer dans les fichiers à l’intérieur d’un champ Pièce jointe. Le type et le nom de fichier de chaque pièce jointe figurent dans la fenêtre Exécution.
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ L'exemple suivant montre comment naviguer dans les fichiers dans un champ pièce
 
 <br/>
 
-L'exemple suivant montre comment ajouter des fichiers à partir d'un chemin d'accès de dossier spécifié à un champ pièce jointe.
+L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès de dossier spécifié à un champ Pièce jointe.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ L'exemple suivant montre comment ajouter des fichiers à partir d'un chemin d'ac
 
 <br/>
 
-L'exemple suivant montre comment enregistrer les fichiers stockés dans un champ pièce jointe dans le chemin d'accès au dossier spécifié.
+L’exemple suivant montre comment enregistrer les fichiers d’un champ Pièce jointe dans le chemin d’accès de dossier spécifié.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -275,7 +275,7 @@ L'exemple suivant montre comment enregistrer les fichiers stockés dans un champ
 
 <br/>
 
-L'exemple suivant montre comment supprimer un fichier stocké dans un champ pièce jointe.
+L’exemple suivant montre comment supprimer un fichier stocké dans un champ Pièce jointe.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

@@ -1,5 +1,5 @@
 ---
-title: Field2. OrdinalPosition, propriété (DAO)
+title: Field2.OrdinalPosition, propriété (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 55d89611-ad07-990d-fc33-f81d59472430
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194179(v=office.15)
@@ -18,19 +18,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292726"
 ---
-# <a name="field2ordinalposition-property-dao"></a>Field2. OrdinalPosition, propriété (DAO)
+# <a name="field2ordinalposition-property-dao"></a>Field2.OrdinalPosition, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
 
-Définit ou renvoie la position relative d'un objet **Field2** au sein d'une collection **[Fields](fields-collection-dao.md)** . .
+Définit ou renvoie la position relative d’un **objet Field2** dans une collection **[Fields.](fields-collection-dao.md)** .
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . OrdinalPosition
+*.* OrdinalPosition
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ La disponibilité de la propriété **OrdinalPosition** dépend de l'objet conte
 <tbody>
 <tr class="odd">
 <td><p>objet <strong>Index</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="even">
 <td><p>objet <strong>QueryDef</strong></p></td>
@@ -66,19 +66,19 @@ La disponibilité de la propriété **OrdinalPosition** dépend de l'objet conte
 </tr>
 <tr class="even">
 <td><p>objet <strong>Relation</strong></p></td>
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 </tr>
 <tr class="odd">
 <td><p>objet <strong>TableDef</strong></p></td>
-<td><p>En lecture-écriture.</p></td>
+<td><p>Lecture/écriture</p></td>
 </tr>
 </tbody>
 </table>
 
 
-En règle générale, la position ordinale d'un objet ajouté à une collection dépend de l'ordre dans lequel vous ajoutez l'objet. Le premier objet est ajouté a la première position (0), le second à la seconde position (1) et ainsi de suite. Le dernier objet ajouté est au nombre de positions ordinales – 1, où nombre est le nombre d'objets de la collection, comme spécifié par le paramètre de la propriété **[Count](containers-count-property-dao.md)** .
+En règle générale, la position ordinale d'un objet ajouté à une collection dépend de l'ordre dans lequel vous ajoutez l'objet. Le premier objet est ajouté a la première position (0), le second à la seconde position (1) et ainsi de suite. Le dernier objet ajouté se trouve à la position ordinale : 1, où nombre est le nombre d’objets dans la collection, tel que spécifié par le paramètre de propriété **[Count.](containers-count-property-dao.md)**
 
-La propriété **OrdinalPosition** vous permet de spécifier une position ordinale pour les nouveaux objets **Field2** qui diffère de l'ordre dans lequel vous les ajoutez à une collection. Ceci vous permet de spécifier un ordre de champs pour vos tables, requêtes et jeux d'enregistrements lorsque vous les utilisez dans une application. Par exemple, l'ordre dans lequel les champs sont renvoyés dans \* une requête sélection est déterminé par les valeurs actuelles de la propriété **OrdinalPosition** .
+La propriété **OrdinalPosition** vous permet de spécifier une position ordinale pour les nouveaux objets **Field2** qui diffère de l'ordre dans lequel vous les ajoutez à une collection. Ceci vous permet de spécifier un ordre de champs pour vos tables, requêtes et jeux d'enregistrements lorsque vous les utilisez dans une application. Par exemple, l’ordre dans lequel les champs sont renvoyés dans une requête SELECT est déterminé par les valeurs actuelles de la propriété \* **OrdinalPosition.**
 
 Vous pouvez à tout moment redéfinir l'ordre de renvoi des champs dans les jeux d'enregistrements en définissant la propriété **OrdinalPosition** sur tout entier positif.
 
@@ -88,7 +88,7 @@ Vous pouvez spécifier un nombre supérieur au nombre de champs moins 1. Le cham
 
 
 > [!NOTE]
-> Même si la **** collection Fields d'un objet **[TableDef](tabledef-object-dao.md)** n'a pas été actualisée, l'ordre des champs dans un objet **[Recordset](recordset-object-dao.md)** ouvert à partir de **TableDef** reflète les données **OrdinalPosition** de l'objet **TableDef** . Un objet **Recordset** de type table a les mêmes données **OrdinalPosition** en tant que table sous-jacente, mais tout autre type d'objet **Recordset** a des nouvelles données **OrdinalPosition** (commençant par 0) qui suivent l'ordre déterminé par les données **OrdinalPosition** de l'objet **TableDef**.
+> Même si la collection **Fields** d’un objet **[TableDef](tabledef-object-dao.md)** n’a **[](recordset-object-dao.md)** pas été actualisée, l’ordre des champs dans un jeu d’enregistrements ouvert à partir de l’objet **TableDef** reflète les données **OrdinalPosition** de l’objet **TableDef.** Un objet **Recordset** de type table a les mêmes données **OrdinalPosition** en tant que table sous-jacente, mais tout autre type d'objet **Recordset** a des nouvelles données **OrdinalPosition** (commençant par 0) qui suivent l'ordre déterminé par les données **OrdinalPosition** de l'objet **TableDef**.
 
 
 

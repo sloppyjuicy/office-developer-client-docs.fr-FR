@@ -35,7 +35,7 @@ L’action **AtteindrePage** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -62,7 +62,7 @@ L’action **AtteindrePage** possède les arguments suivants.
 
 Vous pouvez utiliser cette action pour sélectionner le premier contrôle (comme défini par l’ordre de tabulation du formulaire) sur la page spécifiée. Utilisez l’action **AtteindreContrôle** pour vous placer dans un contrôle particulier sur le formulaire.
 
-Vous pouvez utiliser les arguments **droite** et **bas** pour les formulaires dont la taille des pages est supérieure à celle de la fenêtre Access. Utilisez l'argument **Numéro de page** pour vous placer sur la page de votre choix, puis utilisez les arguments **Droite** et **Bas** pour afficher la partie de la page de votre choix. Access affiche la partie de la page dont l'angle supérieur gauche est décalé de la distance spécifiée de l'angle supérieur gauche de la page.
+Vous pouvez utiliser les **arguments** **Droit** et Bas pour les formulaires dont les pages sont plus grandes que la fenêtre Access. Utilisez l'argument **Numéro de page** pour vous placer sur la page de votre choix, puis utilisez les arguments **Droite** et **Bas** pour afficher la partie de la page de votre choix. Access affiche la partie de la page dont l'angle supérieur gauche est décalé de la distance spécifiée de l'angle supérieur gauche de la page.
 
 Vous pouvez utiliser l'action **AtteindrePage** dans les cas suivants :
 

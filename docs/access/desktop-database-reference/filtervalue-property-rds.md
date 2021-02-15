@@ -22,14 +22,14 @@ Indique la valeur selon laquelle filtrer les enregistrements.
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. FilterValue = *chaîne*
+*DataControl*. FilterValue = *Chaîne*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Valeur de **type String** qui représente une valeur de données à utiliser pour filtrer des enregistrements (par exemple, «programmeur» ou «125»).|
+|*String* |Valeur **de** chaîne qui représente une valeur de données avec laquelle filtrer les enregistrements (par exemple, « Programmeur » ou 125 ).|
 
 ## <a name="remarks"></a>Remarques
 

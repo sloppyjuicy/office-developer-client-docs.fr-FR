@@ -1,5 +1,5 @@
 ---
-title: Propriétés, méthodes et événements de champ (ADO)
+title: Field properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 41169853-7c6b-500e-df6b-cf7083a930a9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249186(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293048"
 ---
-# <a name="field-properties-methods-and-events-ado"></a>Propriétés, méthodes et événements de champ (ADO)
+# <a name="field-properties-methods-and-events-ado"></a>Field properties, methods, and events (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -39,7 +39,7 @@ ms.locfileid: "32293048"
 - [AppendChunk, méthode](appendchunk-method-ado.md)
 - [GetChunk, méthode](getchunk-method-ado.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

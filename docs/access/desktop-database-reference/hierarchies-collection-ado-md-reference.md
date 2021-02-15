@@ -19,5 +19,5 @@ ms.locfileid: "32291984"
 **S’applique à** : Access 2013, Office 2013
 
 - [Hierarchies, collection (ADO MD)](hierarchies-collection-ado-md.md)
-- [Hierarchies, collection-propriétés, méthodes et événements (ADO MD)](hierarchies-collection-properties-methods-and-events-ado-md.md)
+- [Hierarchies collection properties, methods, and events (ADO MD)](hierarchies-collection-properties-methods-and-events-ado-md.md)
 

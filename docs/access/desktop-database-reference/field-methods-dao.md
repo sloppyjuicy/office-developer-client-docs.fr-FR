@@ -1,5 +1,5 @@
 ---
-title: Méthodes de champ (DAO)
+title: Field Methods (DAO)
 TOCTitle: Methods
 ms:assetid: 9d8a78f6-876c-43d6-a76d-03673eaecfdd
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125509(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293083"
 ---
-# <a name="field-methods-dao"></a>Méthodes de champ (DAO)
+# <a name="field-methods-dao"></a>Field Methods (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Field. AppendChunk, méthode (DAO)](field-appendchunk-method-dao.md)
-- [Field. CreateProperty, méthode (DAO)](field-createproperty-method-dao.md)
-- [Field. GetChunk, méthode (DAO)](field-getchunk-method-dao.md)
+- [Field.AppendChunk, méthode (DAO)](field-appendchunk-method-dao.md)
+- [Field.CreateProperty method (DAO)](field-createproperty-method-dao.md)
+- [Field.GetChunk, méthode (DAO)](field-getchunk-method-dao.md)
 

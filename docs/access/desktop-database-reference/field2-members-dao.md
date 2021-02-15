@@ -1,5 +1,5 @@
 ---
-title: Field2, membres (DAO)
+title: Field2 members (DAO)
 TOCTitle: Field2 Members
 ms:assetid: 27829bbc-8b4e-c7eb-f29b-bcbef341f9fd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292796"
 ---
-# <a name="field2-members-dao"></a>Field2, membres (DAO)
+# <a name="field2-members-dao"></a>Field2 members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -45,7 +45,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-getchunk-method-dao.md">GetChunk</a></strong></p></td>
-<td><p>Renvoie la totalité ou une partie du contenu d'un objet <strong>MEMO</strong> ou <strong>long Binary</strong> dans la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
+<td><p>Renvoie l’ensemble ou une partie du contenu d’un objet <strong>Memo</strong> ou <strong>Long BinaryField2</strong> dans la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d’un <strong><a href="recordset-object-dao.md">objet Recordset.</a></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-loadfromfile-method-dao.md">LoadFromFile</a></strong></p></td>
@@ -75,7 +75,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="field2-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique si une chaîne de longueur nulle (&quot;&quot;) est un paramètre valide pour la propriété <strong><a href="field-value-property-dao.md">value</a></strong> de l'objet <strong>Field2</strong> avec un type de données texte ou Mémo (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Définit ou renvoie une valeur qui indique si une chaîne de longueur nulle () est un paramètre valide pour la propriété Value de l’objet Field2 avec un type de données Texte ou Mémo (espaces de travail &quot; &quot; Microsoft Access uniquement). <strong><a href="field-value-property-dao.md"></a></strong> <strong></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-appendonly-property-dao.md">AppendOnly</a></strong></p></td>
@@ -103,7 +103,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-expression-property-dao.md">Expression</a></strong></p></td>
-<td><p>En lecture-écriture.</p></td>
+<td><p>Lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-fieldsize-property-dao.md">FieldSize</a></strong></p></td>
@@ -123,24 +123,24 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-ordinalposition-property-dao.md">OrdinalPosition</a></strong></p></td>
-<td><p>Définit ou renvoie la position relative d'un objet <strong>Field2</strong> au sein d'une collection <strong><a href="fields-collection-dao.md">Fields</a></strong> . .</p></td>
+<td><p>Définit ou renvoie la position relative d’un <strong>objet Field2</strong> dans une collection <strong><a href="fields-collection-dao.md">Fields.</a></strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
-<td><p>L'une des valeurs <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Renvoie la valeur d'un objet <strong>Field2</strong> de la base de données qui existait au moment du lancement de la dernière mise à jour en lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-properties-property-dao.md">Propriétés</a></strong></p></td>
-<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. Valeur en lecture seule.</p></td>
+<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-required-property-dao.md">Obligatoire</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui indique si un objet <strong>Field2</strong> requiert une valeur non nulle.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-size-property-dao.md">Size</a></strong></p></td>
+<td><p><strong><a href="field2-size-property-dao.md">Taille</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui indique la taille maximale, en octets, d'un objet <strong>Field2</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -153,7 +153,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type de données <strong>Integer</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. <strong>Entier</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-validateonset-property-dao.md">ValidateOnSet</a></strong></p></td>
@@ -173,8 +173,8 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
-<td><p>L'une des valeurs <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Renvoie une valeur actuellement dans la base de données qui est plus récente que la propriété <strong>OriginalValue</strong> suite à un conflit de mise à jour en lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 </tbody>

@@ -48,7 +48,7 @@ Spécifie un ou plusieurs attributs d’un objet [Field](field-object-ado.md).
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIsChapter</strong></p></td>
-<td><p>0 x 2000</p></td>
+<td><p>0x2000</p></td>
 <td><p>Indique que le champ contient une valeur de chapitre, qui spécifie un recordset enfant lié à ce champ parent. En général, les champs de chapitre sont utilisés avec le service Data Shaping ou les filtres.</p></td>
 </tr>
 <tr class="even">
@@ -59,11 +59,11 @@ Spécifie un ou plusieurs attributs d’un objet [Field](field-object-ado.md).
 <tr class="odd">
 <td><p><strong>adFldIsDefaultStream</strong></p></td>
 <td><p>0x20000</p></td>
-<td><p>Indique que le champ contient la chaîne par défaut de la ressource représentée par l'enregistrement. Par exemple, le flux par défaut peut être le contenu HTML d'un dossier racine sur un site Web, qui est automatiquement desservi lorsque l'URL racine est spécifiée.</p></td>
+<td><p>Indique que le champ contient la chaîne par défaut de la ressource représentée par l'enregistrement. Par exemple, le flux par défaut peut être le contenu HTML d’un dossier racine sur un site web, qui est automatiquement servi lorsque l’URL racine est spécifiée.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsNullable</strong></p></td>
-<td><p>engendre</p></td>
+<td><p>0x20</p></td>
 <td><p>Indique que le champ accepte des valeurs nulles.</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ Spécifie un ou plusieurs attributs d’un objet [Field](field-object-ado.md).
 <td><p>Indique que le champ contient l'URL qui appelle la ressource à partir de l'emplacement des données représenté par l'enregistrement.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bit adFldLong</strong></p></td>
+<td><p><strong>adFldLong</strong></p></td>
 <td><p>0x80</p></td>
 <td><p>Indique que le champ est de type binaire long. Indique également que vous pouvez utiliser les méthodes <a href="appendchunk-method-ado.md">AppendChunk</a> et <a href="getchunk-method-ado.md">GetChunk</a>.</p></td>
 </tr>
@@ -109,7 +109,7 @@ Spécifie un ou plusieurs attributs d’un objet [Field](field-object-ado.md).
 <tr class="odd">
 <td><p><strong>adFldUnspecified</strong></p></td>
 <td><p>-1<br />
-Égale</p></td>
+0xFFFFFFFF</p></td>
 <td><p>Indique que le fournisseur ne spécifie pas d'attributs pour le champ.</p></td>
 </tr>
 <tr class="even">
@@ -136,40 +136,40 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. CACHEDEFERRED</p></td>
+<td><p>AdoEnums.FieldAttribute.CACHEDEFERRED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. FIXED</p></td>
+<td><p>AdoEnums.FieldAttribute.FIXED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. ISNULLABLE</p></td>
+<td><p>AdoEnums.FieldAttribute.ISNULLABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. LONG</p></td>
+<td><p>AdoEnums.FieldAttribute.LONG</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. MAYBENULL</p></td>
+<td><p>AdoEnums.FieldAttribute.MAYBENULL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. MAYDEFER</p></td>
+<td><p>AdoEnums.FieldAttribute.MAYDEFER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. NEGATIVESCALE</p></td>
+<td><p>AdoEnums.FieldAttribute.NEGATIVESCALE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. ROWID</p></td>
+<td><p>AdoEnums.FieldAttribute.ROWID</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. ROWVERSION</p></td>
+<td><p>AdoEnums.FieldAttribute.ROWVERSION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. UNKNOWNUPDATABLE</p></td>
+<td><p>AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. unSPÉCIFIÉ</p></td>
+<td><p>AdoEnums.FieldAttribute.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. Updatable</p></td>
+<td><p>AdoEnums.FieldAttribute.UPDATABLE</p></td>
 </tr>
 </tbody>
 </table>

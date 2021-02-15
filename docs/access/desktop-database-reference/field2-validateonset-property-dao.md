@@ -1,5 +1,5 @@
 ---
-title: Field2. ValidateOnSet, propriété (DAO)
+title: Field2.ValidateOnSet, propriété (DAO)
 TOCTitle: ValidateOnSet Property
 ms:assetid: 07612730-8dad-4ef0-b19b-f76845973fc3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844969(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292642"
 ---
-# <a name="field2validateonset-property-dao"></a>Field2. ValidateOnSet, propriété (DAO)
+# <a name="field2validateonset-property-dao"></a>Field2.ValidateOnSet, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -24,9 +24,9 @@ Définit ou renvoie une valeur qui spécifie si la valeur d'un objet **Field2** 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ValidateOnSet
+*.* ValidateOnSet
 
-*expression* Variable qui représente un objet **Field2** .
+*expression* une variable qui représente une **champ2** objet.
 
 ## <a name="remarks"></a>Remarques
 

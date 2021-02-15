@@ -1,5 +1,5 @@
 ---
-title: Membres de champ (DAO)
+title: Field members (DAO)
 TOCTitle: Field Members
 ms:assetid: 4b6a587f-1fd0-37fb-db7d-75b587a8dc60
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293090"
 ---
-# <a name="field-members-dao"></a>Membres de champ (DAO)
+# <a name="field-members-dao"></a>Field members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -45,7 +45,7 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-getchunk-method-dao.md">GetChunk</a></strong></p></td>
-<td><p>Renvoie la totalité ou une partie du contenu d'un objet <strong><a href="field-object-dao.md">Field</a></strong> de type <strong>Mémo</strong> ou <strong>binaire long</strong> de la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
+<td><p>Renvoie l’ensemble ou une partie du contenu d’un objet <strong>Memo</strong> ou <strong>Long Binary</strong> <strong><a href="field-object-dao.md">Field</a></strong> dans la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d’un <strong><a href="recordset-object-dao.md">objet Recordset.</a></strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -67,11 +67,11 @@ Un objet Field représente une colonne de données avec un type de données comm
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="field-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique si une chaîne de longueur nulle (&quot;&quot;) est un paramètre valide pour la propriété <strong><a href="field-value-property-dao.md">value</a></strong> de l'objet <strong><a href="field-object-dao.md">Field</a></strong> avec un type de données texte ou Mémo (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Définit ou renvoie une valeur qui indique si une chaîne de longueur nulle () est un paramètre valide pour la propriété Value de l’objet Field avec un type de données Texte ou Mémo (espaces de travail &quot; &quot; Microsoft Access uniquement). <strong><a href="field-value-property-dao.md"></a></strong> <strong><a href="field-object-dao.md"></a></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-attributes-property-dao.md">Attributs</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet <strong><a href="field-object-dao.md">Field</a></strong>. Valeur de type <strong>Long</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet <strong><a href="field-object-dao.md">Field</a></strong>. <strong>Long</strong> (en lecture/écriture).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-collatingorder-property-dao.md">CollatingOrder</a></strong></p></td>
@@ -99,12 +99,12 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-ordinalposition-property-dao.md">OrdinalPosition</a></strong></p></td>
-<td><p>Définit ou renvoie la position relative d'un objet <strong><a href="field-object-dao.md">Field</a></strong> au sein d'une collection <strong><a href="fields-collection-dao.md">Fields</a></strong> . .</p></td>
+<td><p>Définit ou renvoie la position relative d’un <strong><a href="field-object-dao.md">objet Field</a></strong> dans une collection <strong><a href="fields-collection-dao.md">Fields.</a></strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
-<td><p>L'une des valeurs <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Renvoie la valeur d'un objet <strong>Field</strong> de la base de données qui existait au moment du lancement de la dernière mise à jour en lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -116,7 +116,7 @@ Un objet Field représente une colonne de données avec un type de données comm
 <td><p>Définit ou renvoie une valeur qui indique si un objet <strong><a href="field-object-dao.md">Field</a></strong> requiert une valeur non Null.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-fieldsize-property-dao.md">Size</a></strong></p></td>
+<td><p><strong><a href="field-fieldsize-property-dao.md">Taille</a></strong></p></td>
 <td><p>Renvoie le nombre d'octets utilisés dans la base de données (plutôt que la mémoire) d'un objet <strong><a href="field-object-dao.md">Field</a></strong> de type Mémo ou Binaire long de la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">
@@ -129,7 +129,7 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type de données <strong>Integer</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. <strong>Entier</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-validateonset-property-dao.md">ValidateOnSet</a></strong></p></td>
@@ -149,8 +149,8 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
-<td><p>L'une des valeurs <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Renvoie une valeur actuellement dans la base de données qui est plus récente que la propriété <strong>OriginalValue</strong> suite à un conflit de mise à jour en lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 </tbody>

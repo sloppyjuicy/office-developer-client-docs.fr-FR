@@ -19,7 +19,7 @@ ms.locfileid: "32292047"
 
 **S’applique à** : Access 2013, Office 2013
 
-Il y a peu de différences entre les méthodes Visual Basic et VBScript. La principale différence réside dans le fait que VBScript ne prend pas en charge le concept de gestion des erreurs en continuant l'exécution au niveau d'une étiquette. En d'autres termes, vous ne pouvez pas utiliser On Error GoTo dans VBScript. À la place, utilisez-le dans VBScript. À la place, utilisez on Error Resume Next, puis vérifiez à la fois **Err. Number** et la propriété **Count** de la collection **Errors** , comme illustré dans l'exemple suivant:
+Il y a peu de différences entre les méthodes Visual Basic et VBScript. La principale différence réside dans le fait que VBScript ne prend pas en charge le concept de gestion des erreurs en continuant l'exécution au niveau d'une étiquette. En d'autres termes, vous ne pouvez pas utiliser On Error GoTo dans VBScript. À la place, utilisez-le dans VBScript. À la place, utilisez On Error Resume Next, puis vérifiez **Err.Number** et la propriété **Count** de la collection **Errors,** comme illustré dans l’exemple suivant :
 
 ```vb 
  
