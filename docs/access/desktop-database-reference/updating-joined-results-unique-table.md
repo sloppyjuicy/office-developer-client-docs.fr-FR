@@ -21,5 +21,5 @@ ms.locfileid: "32313383"
 
 ## <a name="updating-joined-results-unique-table"></a>Mise à jour des résultats joints : tableau unique
 
-ADO permet un contrôle précis des modifications apportées à une table de base de données dans un objet **Recordset** formé à la suite d'une opération JOIN sur plusieurs tables de bases de données à l'aide de la propriété dynamique **Unique Table**. Pour plus d'informations sur l'utilisation de la propriété **unique table**, reportez-vous aux rubriques de référence du programmeur ADO sur le **tableau unique** et **Update Resync** Dynamic Properties.
+ADO permet un contrôle précis des modifications apportées à une table de base de données dans un objet **Recordset** formé à la suite d'une opération JOIN sur plusieurs tables de bases de données à l'aide de la propriété dynamique **Unique Table**. Pour plus d’informations sur l’utilisation de **La table unique,** reportez-vous aux rubriques de référence du programmeur ADO sur les propriétés dynamiques **Unique Table** et **Update Resynch.**
 

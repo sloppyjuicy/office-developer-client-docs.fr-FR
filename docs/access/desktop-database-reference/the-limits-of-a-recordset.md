@@ -29,7 +29,7 @@ Utilisez les propriétés **BOF** et **EOF** pour déterminer si un objet **Reco
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Mentionnées</p></th>
+<th><p>ProductID</p></th>
 <th><p>ProductName</p></th>
 <th><p>UnitPrice</p></th>
 </tr>
@@ -43,29 +43,29 @@ Utilisez les propriétés **BOF** et **EOF** pour déterminer si un objet **Reco
 </p></td>
 </tr>
 <tr class="even">
-<td><p>7j/7</p></td>
+<td><p>7 </p></td>
 <td><p>Pêches séchées bio Oncle Bob</p></td>
-<td><p>30,0000</p></td>
+<td><p>30.0000</p></td>
 </tr>
 <tr class="odd">
-<td><p>13</p></td>
-<td><p>Longvi</p></td>
-<td><p>23,2500</p></td>
+<td><p>14 </p></td>
+<td><p>Tofu</p></td>
+<td><p>23.2500</p></td>
 </tr>
 <tr class="even">
-<td><p>vingt</p></td>
+<td><p>28</p></td>
 <td><p>Choucroute Frau Kraut</p></td>
-<td><p>45,6000</p></td>
+<td><p>45.6000</p></td>
 </tr>
 <tr class="odd">
 <td><p>51</p></td>
 <td><p>Pommes séchées Manjimup</p></td>
-<td><p>53,0000</p></td>
+<td><p>53.0000</p></td>
 </tr>
 <tr class="even">
 <td><p>74</p></td>
 <td><p>Tofu LongVi</p></td>
-<td><p>10,0000</p></td>
+<td><p>10.0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>EOF</p></td>
@@ -91,7 +91,7 @@ If oRs.BOF And oRs.EOF Then
 End If 
 ```
 
-Si vous ouvrez un objet **Recordset** ne contenant aucun enregistrement, les propriétés **BOF** et **EOF** ont toutes deux la valeur **True** et la valeur définie pour la propriété **RecordCount** de l'objet **Recordset** dépend du type de curseur. -1 sera renvoyé pour les curseurs dynamiques (**CursorType** = **adOpenDynamic**) et 0 sera renvoyé pour les autres curseurs.
+Si vous ouvrez un objet **Recordset** ne contenant aucun enregistrement, les propriétés **BOF** et **EOF** ont toutes deux la valeur **True** et la valeur définie pour la propriété **RecordCount** de l'objet **Recordset** dépend du type de curseur. -1 est renvoyé pour les curseurs dynamiques (**CursorType**  =  **adOpenDynamic**) et 0 pour les autres curseurs.
 
 Lorsque vous ouvrez un objet **Recordset** qui contient au moins un enregistrement, le premier enregistrement est l'enregistrement actif. Les propriétés **BOF** et **EOF** ont, dans ce cas, la valeur **False**.
 

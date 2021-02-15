@@ -1,5 +1,5 @@
 ---
-title: Propriétés, méthodes et événements de l'utilisateur (ADOX)
+title: User properties, methods, and events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 30789414-a207-6a80-69aa-bbcab55bd77d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249082(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312956"
 ---
-# <a name="user-properties-methods-and-events-adox"></a>Propriétés, méthodes et événements de l'utilisateur (ADOX)
+# <a name="user-properties-methods-and-events-adox"></a>User properties, methods, and events (ADOX)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -30,7 +30,7 @@ ms.locfileid: "32312956"
 - [GetPermissions, méthode](getpermissions-method-adox.md)
 - [SetPermissions, méthode](setpermissions-method-adox.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

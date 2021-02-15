@@ -1,5 +1,5 @@
 ---
-title: Propriété TableDef. ConflictTable, (DAO)
+title: TableDef.ConflictTable, propriété (DAO)
 TOCTitle: ConflictTable Property
 ms:assetid: 0db8b975-eb6d-19c6-cfb7-6ce01230ebe4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845218(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308427"
 ---
-# <a name="tabledefconflicttable-property-dao"></a>Propriété TableDef. ConflictTable, (DAO)
+# <a name="tabledefconflicttable-property-dao"></a>TableDef.ConflictTable, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,9 +27,9 @@ Renvoie le nom d'une table de conflits contenant les enregistrements de base de 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ConflictTable,
+*.* ConflictTable
 
-*expression* Expression qui renvoie un objet **TableDef** .
+*expression* Expression qui renvoie un **objet TableDef.**
 
 ## <a name="remarks"></a>Remarques
 
@@ -41,5 +41,5 @@ Les conflits se produisent au niveau des enregistrements et non entre des champs
 
 Le mécanisme de synchronisation gère les conflits d'enregistrements en créant des tables de conflits, qui contiennent les informations qui auraient été insérées dans la table si la modification avait réussi. Vous pouvez consulter ces tables de conflits et les parcourir ligne par ligne pour résoudre les conflits.
 
-Toutes les tables de conflits sont\_nommées conflit de table, où table est le nom d'origine de la table, tronqué à la longueur maximale du nom de table.
+Toutes les tables de conflit sont nommées conflit de table, où table est le nom d’origine de la table, tronquée à la longueur de nom de \_ table maximale.
 

@@ -18,26 +18,26 @@ ms.locfileid: "32306859"
 
 **S’applique à** : Access 2013, Office 2013
 
-Récupère ou définit un objet **RowPosition** OLE DB à partir de/sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez **put\_RowPosition** pour définir l'objet **RowPosition** , l'objet **Recordset** résultant utilise l'objet **RowPosition** pour déterminer la ligne active.
+Récupère ou définit un objet **RowPosition** OLE DB à partir de/sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez **la valeur \_ RowPosition** pour définir l’objet **RowPosition,** l’objet **Recordset** qui en résulte utilise l’objet **RowPosition** pour déterminer la ligne en cours.
 
 Lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-HRESULT get\_RowPosition (\[out, retval\] IUnknown\* \* ppRowPos);
+HRESULT get \_ RowPosition( \[ out, retval \] IUnknown \* \* ppRowPos);
 
-HRESULT put\_RowPosition (\[dans\] IUnknown\* pRowPos);
+HRESULT put \_ RowPosition( \[ in \] IUnknown \* pRowPos);
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*ppRowPos* |Pointeur vers un objet **RowPosition** OLE DB.|
 |*PRowPos* |Objet **RowPosition** OLE DB.|
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Cette méthode de propriété renvoie les valeurs HRESULT standard, y\_compris S OK\_et E Fail.
+Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S \_ OK et E \_ FAIL.
 
 ## <a name="remarks"></a>Remarques
 

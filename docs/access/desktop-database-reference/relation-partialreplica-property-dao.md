@@ -1,5 +1,5 @@
 ---
-title: Relation. PartialReplica, propriété (DAO)
+title: Relation.PartialReplica, propriété (DAO)
 TOCTitle: PartialReplica Property
 ms:assetid: 3cb15639-371e-06e3-e2ba-30466ce09a72
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192692(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307013"
 ---
-# <a name="relationpartialreplica-property-dao"></a>Relation. PartialReplica, propriété (DAO)
+# <a name="relationpartialreplica-property-dao"></a>Relation.PartialReplica, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Définit ou renvoie une valeur sur une **Relation** indiquant si cette relation 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . PartialReplica
+*.* PartialReplica
 
-*expression* Expression qui renvoie un objet **relation** .
+*expression* Expression qui renvoie un **objet Relation.**
 
 ## <a name="remarks"></a>Remarques
 
@@ -38,7 +38,7 @@ Cette propriété vous permet de répliquer des données d'un réplica complet d
 
 Pour répliquer toutes les commandes de la région Californie, vous devez indiquer que la relation entre les tables Orders et Customers sera active lors de la réplication. Une fois le réplica partiel créé, les étapes suivantes le renseignent avec toutes les commandes de la région Californie :
 
-1.  Définissez la propriété **ReplicaFilter** sur l'objet **TableDef** Customers sur "Region = 'ca'".
+1.  Définissez **la propriété ReplicaFilter** sur l’objet **Customers TableDef** sur « Region = 'CA' ».
 
 2.  Définissez la valeur de la propriété **PartialReplica** sur **True** au niveau de l'objet **Relation** correspondant à la relation entre les tables Orders et Customers.
 

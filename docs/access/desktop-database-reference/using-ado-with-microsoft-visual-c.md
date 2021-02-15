@@ -23,11 +23,11 @@ Pour plus d'informations sur l'utilisation d'ADO avec Visual C++, consultez les 
 - [Programmation ADO Visual C++](visual-c-ado-programming.md)
 - [Extensions Visual C++ pour ADO](visual-c-extensions-for-ado.md)
 - [Utilisation des extensions Visual C++](using-visual-c-extensions.md)
-- [En-tête d'extensions Visual C++](visual-c-extensions-header.md)
-- [Exemple d'extensions Visual C++](visual-c-extensions-example.md)
+- [En-tête des extensions Visual C++](visual-c-extensions-header.md)
+- [Exemple d’extensions Visual C++](visual-c-extensions-example.md)
 
 
 ## <a name="see-also"></a>Voir aussi
 
 - [Index de la syntaxe ADO for Visual C++ pour COM](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
-- [Index de la syntaxe ADO pour Visual \#C++ avec Import](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)
+- [Index de la syntaxe ADO pour Visual C++ avec \# import](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)

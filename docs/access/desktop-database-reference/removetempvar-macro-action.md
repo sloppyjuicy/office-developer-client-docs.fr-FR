@@ -44,7 +44,7 @@ L’action **SupprimerVarTemp** possède l’argument suivant.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Nom</strong></p></td>
+<td><p><strong>Name</strong></p></td>
 <td><p>Entrez le nom de la variable temporaire que vous souhaitez supprimer.</p></td>
 </tr>
 </tbody>
@@ -83,17 +83,17 @@ La macro suivante illustre comment créer une variable temporaire, l'utiliser da
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>DéfinirVarTemp</strong></p></td>
-<td><p><strong>Name</strong>: MyVar<strong>expression</strong>: InputBox (&quot;entrez un nombre différent de zéro)&quot;.</p></td>
+<td><p><strong>SetTempVar</strong></p></td>
+<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
 </tr>
 <tr class="even">
 <td><p>[TempVars]![MaVar] &lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: =&quot;vous avez &quot; &amp; entré [TempVars]! Mavar &amp; &quot;. &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>informations</strong></p></td>
+<td><p><strong>Message</strong>: = &quot; vous avez entré &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>SupprimerVarTemp</strong></p></td>
+<td><p><strong>RemoveTempVar</strong></p></td>
 <td><p><strong>Nom</strong>: MaVar</p></td>
 </tr>
 </tbody>

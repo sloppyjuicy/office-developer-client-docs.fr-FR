@@ -1,5 +1,5 @@
 ---
-title: ReplicaTypeEnum, énumération (DAO)
+title: ReplicaTypeEnum, éumération (DAO)
 TOCTitle: ReplicaTypeEnum Enumeration
 ms:assetid: 9c0aed9d-a617-bda1-bfb2-867d28ef2586
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198082(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306691"
 ---
-# <a name="replicatypeenum-enumeration-dao"></a>ReplicaTypeEnum, énumération (DAO)
+# <a name="replicatypeenum-enumeration-dao"></a>ReplicaTypeEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -37,12 +37,12 @@ Cette énumération est utilisée avec la méthode **MakeReplica** pour spécifi
 <tbody>
 <tr class="odd">
 <td><p>dbRepMakePartial</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Crée un réplica partiel.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbRepMakeReadOnly</p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Affecte l'attribut de lecture seule aux éléments réplicables de la nouvelle base de données.</p></td>
 </tr>
 </tbody>

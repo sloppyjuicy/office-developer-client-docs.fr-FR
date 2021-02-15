@@ -1,5 +1,5 @@
 ---
-title: TableDef. Fields, propriété (DAO)
+title: TableDef.Fields, propriété (DAO)
 TOCTitle: Fields Property
 ms:assetid: ca85be33-c872-309d-b1f0-d1ffb6951547
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834348(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308399"
 ---
-# <a name="tabledeffields-property-dao"></a>TableDef. Fields, propriété (DAO)
+# <a name="tabledeffields-property-dao"></a>TableDef.Fields, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,7 +27,7 @@ Renvoie une collection **Fields** qui représente tous les objets **Field** stoc
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Ceux
+*.* Champs
 
-*expression* Variable qui représente un objet **TableDef** .
+*expression* Variable représentant un objet **TableDef**.
 

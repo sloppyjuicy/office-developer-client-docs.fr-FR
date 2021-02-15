@@ -28,7 +28,7 @@ Vous pouvez définir la propriété **Server** à la conception dans les balises
 |:-------|:-----------------|
 |HTTP|`<PARAM NAME="Server" VALUE="https://awebsrvr:port">`|
 |HTTPS|`<PARAM NAME="Server" VALUE="https://awebsrvr:port">`|
-|APPELER|`<PARAM NAME="Server" VALUE="computername">`|
+|DCOM|`<PARAM NAME="Server" VALUE="computername">`|
 |In-process|`<PARAM NAME="Server" VALUE="">`|
 
 
@@ -36,13 +36,13 @@ Vous pouvez définir la propriété **Server** à la conception dans les balises
 |:-------|:--------------|
 |HTTP|`DataControl.Server="https://awebsrvr:port"`|
 |HTTPS|`DataControl.Server="https://awebsrvr:port"`|
-|APPELER|`DataControl.Server="computername"`|
+|DCOM|`DataControl.Server="computername"`|
 |In-process|`DataControl.Server=""`|
 
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*awebsrvr* ou *computername* |Une valeur **String** qui contient un chemin d'accès Internet ou intranet, un nom d'ordinateur (si le serveur se trouve sur un ordinateur distant) ou une chaîne vide si le serveur se trouve sur l'ordinateur local.|
 |*port* |Facultatif. Un port utilisé pour se connecter à un serveur IIS. Le numéro du port est défini dans Internet Explorer (dans le menu **Outils**, cliquez sur **Options Internet** et sélectionnez l'onglet **Connexion** ) ou dans IIS.|

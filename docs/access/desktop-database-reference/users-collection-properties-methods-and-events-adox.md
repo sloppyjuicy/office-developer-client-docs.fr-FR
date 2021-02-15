@@ -1,5 +1,5 @@
 ---
-title: Users, collection-propriétés, méthodes et événements (ADOX)
+title: Users collection properties, methods, and events (ADOX)
 TOCTitle: Users collection properties, methods, and events (ADOX)
 ms:assetid: b15b153c-6234-514e-29c5-831801b5259b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249845(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312760"
 ---
-# <a name="users-collection-properties-methods-and-events-adox"></a>Users, collection-propriétés, méthodes et événements (ADOX)
+# <a name="users-collection-properties-methods-and-events-adox"></a>Users collection properties, methods, and events (ADOX)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="properties"></a>Propriétés
 
 - [Propriété Count](count-property-ado.md)
-- [Propriété Item](item-property-ado.md)
+- [Item, propriété](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes
 
-- [Append, méthode (utilisateurs)](append-method-adox-users.md)
+- [Append, méthode (Utilisateurs)](append-method-adox-users.md)
 - [Delete, méthode (Collections)](delete-method-adox-collections.md)
 - [Refresh, méthode](refresh-method-ado.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

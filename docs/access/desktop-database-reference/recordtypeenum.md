@@ -43,7 +43,7 @@ Spécifie le type de l’objet [Record](record-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adCollectionRecord</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Indique un enregistrement à <em>collection</em> (contient des nœuds enfants).</p></td>
 </tr>
 <tr class="odd">
@@ -53,7 +53,7 @@ Spécifie le type de l’objet [Record](record-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adStructDoc</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Indique un enregistrement spécial à <em>collection</em>, qui représente des documents COM structurés.</p></td>
 </tr>
 </tbody>

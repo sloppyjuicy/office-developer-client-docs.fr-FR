@@ -39,9 +39,9 @@ L'action de macro **ActualiserEnregistrement** effectue les opérations suivante
 
 1.  Elle met à jour la source d'enregistrement pour la feuille de données ou le formulaire actif de façon à refléter les modifications apportées aux lignes dans le jeu actuel. Pour les tables liées ODBC, elle extrait de la source de données les modifications apportées aux enregistrements dans le jeu actuel.
 
-2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne de la source d'enregistrement a été supprimée, elle est remplacée \#pour afficher la suppression.
+2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne de la source d’enregistrement a été supprimée, elle est modifiée pour afficher \# Supprimé.
 
-3.  Actualise la feuille de données ou active pour afficher les enregistrements modifiés et \#les enregistrements supprimés dans le jeu actuel.
+3.  Actualise la feuille de données ou active pour afficher les enregistrements modifiés et les enregistrements \# supprimés, dans le jeu actif.
 
 4.  Elle actualise tous les sous-formulaires et sous-états dans la feuille de données ou le formulaire actif.
 
@@ -53,9 +53,9 @@ L'action de macro **ActualiserEnregistrement** effectue les opérations suivante
 
 1.  Elle extrait les modifications à partir du serveur pour les tables de base dans le jeu actuel. Pour les tables liées ODBC, elle extrait de la source de données les modifications apportées aux enregistrements dans le jeu actuel.
 
-2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne du jeu actuel a été supprimée, elle est remplacée pour afficher \#la suppression.
+2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne du jeu actuel a été supprimée, elle est modifiée pour afficher \# Supprimé.
 
-3.  Actualise la feuille de données ou le formulaire actif pour afficher les enregistrements modifiés \#et les enregistrements supprimés dans le jeu actuel.
+3.  Actualise le formulaire ou la feuille de données actif pour afficher les enregistrements modifiés et les enregistrements \# supprimés, dans le jeu actif.
 
 4.  Elle actualise tous les sous-formulaires et sous-états dans la feuille de données ou le formulaire actif.
 

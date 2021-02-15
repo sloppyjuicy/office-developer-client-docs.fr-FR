@@ -1,5 +1,5 @@
 ---
-title: Relation. Properties, propriété (DAO)
+title: Relation.Properties, propriété (DAO)
 TOCTitle: Properties Property
 ms:assetid: 315c0e3d-269b-c726-32a0-dd58056d8520
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192290(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306999"
 ---
-# <a name="relationproperties-property-dao"></a>Relation. Properties, propriété (DAO)
+# <a name="relationproperties-property-dao"></a>Relation.Properties, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Propriétés
+*.* Propriétés
 
-*expression* Variable qui représente un objet **relation** .
+*expression* Variable qui représente un objet **Relation.**
 

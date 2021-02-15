@@ -1,5 +1,5 @@
 ---
-title: UpdateTypeEnum, énumération (DAO)
+title: UpdateTypeEnum, éumération (DAO)
 TOCTitle: UpdateTypeEnum Enumeration
 ms:assetid: 7ac38bae-27fc-f3d0-5b75-569bce547954
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196186(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306187"
 ---
-# <a name="updatetypeenum-enumeration-dao"></a>UpdateTypeEnum, énumération (DAO)
+# <a name="updatetypeenum-enumeration-dao"></a>UpdateTypeEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -37,17 +37,17 @@ Cette énumération est utilisée avec la méthode **Update** pour spécifier le
 <tbody>
 <tr class="odd">
 <td><p>dbUpdateBatch</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Toutes les modifications en attente dans le cache de mise à jour sont écrites sur le disque.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbUpdateCurrentRecord</p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Seules les modifications en attente de l'enregistrement actif sont écrites sur le disque.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbUpdateRegular</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>(Valeur par défaut) Les modifications en attente ne sont pas mises en cache. Elles sont écrites immédiatement sur le disque.</p></td>
 </tr>
 </tbody>

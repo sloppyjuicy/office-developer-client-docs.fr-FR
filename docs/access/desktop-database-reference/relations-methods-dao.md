@@ -1,5 +1,5 @@
 ---
-title: Relations, méthodes (DAO)
+title: Relations methods (DAO)
 TOCTitle: Methods
 ms:assetid: 4581d01e-afa5-438b-847b-58ef8c8e7772
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124596(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306936"
 ---
-# <a name="relations-methods-dao"></a>Relations, méthodes (DAO)
+# <a name="relations-methods-dao"></a>Relations methods (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Relation. Append, méthode (DAO)](relations-append-method-dao.md)
-- [Relation. Delete, méthode (DAO)](relations-delete-method-dao.md)
-- [Relation. Refresh, méthode (DAO)](relations-refresh-method-dao.md)
+- [Relations.Append, méthode (DAO)](relations-append-method-dao.md)
+- [Relations.Delete, méthode (DAO)](relations-delete-method-dao.md)
+- [Relations.Refresh, méthode (DAO)](relations-refresh-method-dao.md)
 

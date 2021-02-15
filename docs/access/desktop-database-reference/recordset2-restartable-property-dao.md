@@ -1,5 +1,5 @@
 ---
-title: Recordset2. Restartable, propriété (DAO)
+title: Recordset2.Restartable, propriété (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 9b1c40f8-5a33-2527-a7b6-bef4cb991d7e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198019(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309085"
 ---
-# <a name="recordset2restartable-property-dao"></a>Recordset2. Restartable, propriété (DAO)
+# <a name="recordset2restartable-property-dao"></a>Recordset2.Restartable, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie une valeur indiquant si un objet **[Recordset](recordset-object-dao.md)*
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Restartable
+*.* Restartable
 
-*expression* Variable qui représente un objet **Recordset2** .
+*expression* Variable qui représente un **objet Recordset2.**
 
 ## <a name="remarks"></a>Remarques
 

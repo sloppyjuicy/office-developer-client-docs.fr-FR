@@ -33,7 +33,7 @@ L'opération de tri est d'une grande efficacité parce que les données ne sont 
 
 Le fait de donner une chaîne vide comme valeur à la propriété **Sort** réinitialise les lignes dans leur ordre d'origine et supprime les index temporaires. Les index existants ne sont pas supprimés.
 
-Supposons qu’un objet **Recordset** contienne trois champs nommés *firstName*, *middleInitial* et *lastName*. Définissez la propriété **sort** sur la chaîne «LastName DESC, FirstName ASC», qui va trier l' **objet Recordset** par nom de famille par ordre décroissant, puis par prénom dans l'ordre croissant. Le deuxième prénom (middle initial) est ignoré.
+Supposons qu’un objet **Recordset** contienne trois champs nommés *firstName*, *middleInitial* et *lastName*. Définissez la propriété **Sort** sur la chaîne « lastName DESC, firstName ASC », qui trie le jeu d’enregistrements par nom dans l’ordre décroit, puis par prénom dans l’ordre croissant.  Le deuxième prénom (middle initial) est ignoré.
 
 Les champs ne peuvent pas être nommés « ASC » ou « DESC » car ces noms génèrent des conflits avec les mots-clés **ASC** et **DESC**. Si le nom d'un champ génère un conflit, donnez-lui un alias en utilisant le mot-clé **AS** dans la requête qui renvoie le **Recordset**.
 

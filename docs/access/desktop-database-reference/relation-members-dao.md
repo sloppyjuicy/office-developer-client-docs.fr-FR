@@ -1,5 +1,5 @@
 ---
-title: Relation, membres (DAO)
+title: Relation members (DAO)
 TOCTitle: Relation Members
 ms:assetid: 9ee36e7d-3825-1de8-65fb-64bbcada847c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307036"
 ---
-# <a name="relation-members-dao"></a>Relation, membres (DAO)
+# <a name="relation-members-dao"></a>Relation members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -37,7 +37,7 @@ Un objet Relation représente une relation entre des champs de tables ou de requ
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="relation-createfield-method-dao.md">CreateField</a></strong></p></td>
-<td><p>Crée un objet <strong><a href="field-object-dao.md">Field</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Crée un objet <strong><a href="field-object-dao.md">Field</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,7 +82,7 @@ Un objet Relation représente une relation entre des champs de tables ou de requ
 <td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="relation-table-property-dao.md">Table</a></strong></p></td>
+<td><p><strong><a href="relation-table-property-dao.md">Tableau</a></strong></p></td>
 <td><p>Indique le nom d'une table primaire d'un objet <strong><a href="relation-object-dao.md">Relation</a></strong>. Ce nom doit correspondre à la valeur de la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> d'un objet <strong><a href="tabledef-object-dao.md">TableDef</a></strong> ou <strong><a href="querydef-object-dao.md">QueryDef</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 </tbody>

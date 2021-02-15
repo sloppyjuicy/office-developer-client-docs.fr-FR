@@ -29,11 +29,11 @@ L'appel de la méthode **CommitTrans** permet d'enregistrer les modifications ap
 
 En fonction de la propriété **Attributes** de l'objet [Connection](attributes-property-ado.md), l'appel des méthodes **CommitTrans** ou **RollbackTrans** permet de lancer automatiquement une nouvelle transaction. Si la propriété **Attributes** a la valeur **adXactCommitRetaining**, le fournisseur lance automatiquement une nouvelle transaction après un appel à **CommitTrans**. Si la propriété **Attributes** a la valeur **adXactAbortRetaining**, le fournisseur lance automatiquement une nouvelle transaction après un appel à **RollbackTrans**.
 
-## <a name="transaction-isolation-level"></a>Niveau d'isolation des transactions
+## <a name="transaction-isolation-level"></a>Niveau d’isolation des transactions
 
-La propriété **IsolationLevel** permet de définir le niveau d'isolation d'une transaction sur un objet **Connection**. Le paramètre ne prend effet qu'au prochain appel de la méthode [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si le niveau d'isolation demandé n'est pas disponible, le fournisseur peut renvoyer le niveau d'isolation le plus élevé suivant. Pour plus d'informations sur les valeurs valides, rePortez-vous à la propriété **IsolationLevel** dans le Guide de référence du programmeur ADO.
+La propriété **IsolationLevel** permet de définir le niveau d'isolation d'une transaction sur un objet **Connection**. Le paramètre ne prend effet qu'au prochain appel de la méthode [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si le niveau d'isolation demandé n'est pas disponible, le fournisseur peut renvoyer le niveau d'isolation le plus élevé suivant. Reportez-vous **à la propriété IsolationLevel** dans la référence du programmeur ADO pour plus d’informations sur les valeurs valides.
 
-## <a name="nested-transactions"></a>Transactions imbriquées
+## <a name="nested-transactions"></a>Transactions imbrmbrées
 
 Pour les fournisseurs qui prennent en charge les transactions imbriquées, l'appel de la méthode **BeginTrans** dans une transaction ouverte permet de lancer une nouvelle transaction imbriquée. La valeur de retour indique le niveau d'imbrication : une valeur de retour « 1 » indique que vous avez ouvert une transaction de niveau supérieur (la transaction n'est pas imbriquée dans une autre transaction) « 2 » indique que vous avez ouvert une transaction de second niveau (une transaction imbriquée dans une transaction de niveau supérieur) etc... L'appel de **CommitTrans** ou de **RollbackTrans** n'affecte que la dernière transaction ouverte. Vous devez fermer ou annuler la transaction active avant de pouvoir résoudre une transaction de niveau supérieur.
 

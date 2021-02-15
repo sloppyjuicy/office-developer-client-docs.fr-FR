@@ -19,7 +19,7 @@ ms.locfileid: "32314069"
 
 **S’applique à** : Access 2013, Office 2013
 
-Chaque en-tête de section dans le fichier de personnalisation se compose**\[** de crochets () contenant un type et un paramètre. Les quatre types de section sont signalés par les chaînes littérales **connect**, **sql**, **userlist** ou **logs**. Le paramètre est la chaîne littérale, la valeur par défaut, un identificateur spécifié par l'utilisateur ou rien.
+Chaque en-tête de section du fichier de personnalisation se compose de crochets ( ) contenant **\[\]** un type et un paramètre. Les quatre types de section sont signalés par les chaînes littérales **connect**, **sql**, **userlist** ou **logs**. Le paramètre est la chaîne littérale, la valeur par défaut, un identificateur spécifié par l'utilisateur ou rien.
 
 En conséquence, chaque section est marquée par l'un des en-têtes de section suivants :
 
@@ -48,19 +48,19 @@ Les en-têtes de section comportent les parties suivantes.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>connexions</strong></p></td>
+<td><p><strong>connect</strong></p></td>
 <td><p>Chaîne littérale qui modifie une chaîne de connexion.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>sql</strong></p></td>
 <td><p>Chaîne littérale qui modifie une chaîne de commande.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserList</strong></p></td>
+<td><p><strong>userlist</strong></p></td>
 <td><p>Chaîne littérale qui modifie les droits d'accès d'un utilisateur spécifique.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>composant</strong></p></td>
+<td><p><strong>logs</strong></p></td>
 <td><p>Chaîne littérale qui spécifie un fichier journal dans lequel les erreurs liées aux opérations sont consignées.</p></td>
 </tr>
 <tr class="odd">
@@ -68,7 +68,7 @@ Les en-têtes de section comportent les parties suivantes.
 <td><p>Chaîne littérale utilisée si aucun identificateur n'a été spécifié ou trouvé.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>identifiant</em></p></td>
+<td><p><em>identificateur</em></p></td>
 <td><p>Chaîne qui correspond à une chaîne de la chaîne <strong>connect</strong> ou <strong>command</strong>.</p>
 <p></p>
 <ul>
@@ -86,7 +86,7 @@ L'objet **DataFactory** appelle le gestionnaire et lui passe les paramètres cli
 
 Une section spécifique est utilisée dans les circonstances suivantes :
 
-  - Une section **Connect** est utilisée si la partie valeur du mot-clé de la chaîne de connexion client, «**Data source = * * * value*», correspond à un identificateur de section **Connect** *.*
+  - Une section **de** connexion est utilisée si la partie valeur du mot clé de chaîne de connexion du client, « **Data Source=***value*», correspond à un identificateur de section **de** *connexion.*
 
   - Une section **sql** est utilisée si la chaîne de commande cliente contient une chaîne qui correspond à un identificateur de section **sql**.
 

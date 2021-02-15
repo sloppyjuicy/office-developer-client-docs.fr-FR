@@ -1,5 +1,5 @@
 ---
-title: TableDefs. Count, propriété (DAO)
+title: TableDefs.Count, propriété (DAO)
 TOCTitle: Count Property
 ms:assetid: 6e2cf3e5-524f-a643-b1dc-99a4b2bb2e63
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195561(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314265"
 ---
-# <a name="tabledefscount-property-dao"></a>TableDefs. Count, propriété (DAO)
+# <a name="tabledefscount-property-dao"></a>TableDefs.Count, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Compte
+*.* Count
 
-*expression* Variable qui représente un objet **TableDefs** .
+*expression* Variable qui représente un **objet TableDefs.**
 
 ## <a name="remarks"></a>Remarques
 

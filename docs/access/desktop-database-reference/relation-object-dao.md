@@ -1,5 +1,5 @@
 ---
-title: Objet relation (DAO)
+title: Relation, objet (DAO)
 TOCTitle: Relation Object
 ms:assetid: 46d6dfaf-a97d-3abd-0b4b-396a41eb3be7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193195(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307041"
 ---
-# <a name="relation-object-dao"></a>Objet relation (DAO)
+# <a name="relation-object-dao"></a>Relation, objet (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -51,9 +51,9 @@ Pour créer un objet **Relation**, utilisez la méthode **CreateRelation**. Pour
 
 **Relations**(0)
 
-**Relations** ("nom")
+**Relations**(« nom »)
 
-****\!\[Nom des relations\]
+ \! Relations \[ name\]
 
 ## <a name="example"></a>Exemple
 
@@ -118,7 +118,7 @@ Cet exemple illustre la façon dont un objet **Relation** existant peut contrôl
 
 <br/>
 
-Cet exemple utilise la méthode **CreateRelation** pour créer une **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** appelé Departments. Il montre également comment la création d'une nouvelle **relation** entraîne la création de tous les **index** nécessaires dans la table étrangère (l'index DepartmentsEmployees de la table Employees).
+Cet exemple utilise la méthode **CreateRelation** pour créer une **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** appelé Departments. Elle montre également comment la création d’une **relation** crée également tous les **index** nécessaires dans la table étrangère (l’index DepartmentsEmployees dans la table Employees).
 
 ```vb
     Sub CreateRelationX() 

@@ -1,5 +1,5 @@
 ---
-title: TableDefs. Delete, méthode (DAO)
+title: TableDefs.Delete, méthode (DAO)
 TOCTitle: Delete Method
 ms:assetid: 130bb50d-17c3-b2ab-9360-0d91d0cee131
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845419(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313992"
 ---
-# <a name="tabledefsdelete-method-dao"></a>TableDefs. Delete, méthode (DAO)
+# <a name="tabledefsdelete-method-dao"></a>TableDefs.Delete, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Supprime l'objet **TableDef** spécifié de la collection **TableDefs**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Delete (***Name***)
+*.* Delete(***Name***)
 
-*expression* Variable qui représente un objet **TableDefs** .
+*expression* Variable qui représente un **objet TableDefs.**
 
 ## <a name="parameters"></a>Paramètres
 

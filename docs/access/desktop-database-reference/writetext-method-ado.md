@@ -22,11 +22,11 @@ ms.locfileid: "32308266"
 
 ## <a name="syntax"></a>Syntaxe
 
-*Stream*. *Données*WRITETEXT, *options*
+*Stream*. WriteText *Data*, *Options*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Data* |Valeur de type **String** contenant les caractères du texte à écrire.|
 |*Options* |Facultatif. Valeur [StreamWriteEnum](streamwriteenum.md) spécifiant si un séparateur de ligne doit être écrit à la fin de la chaîne spécifiée.|

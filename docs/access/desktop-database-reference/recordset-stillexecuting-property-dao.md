@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset. StillExecuting (DAO)
+title: Recordset.StillExecuting, propriété (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0e53c98f-17ac-3569-d780-540a6932013e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845245(v=office.15)
@@ -14,15 +14,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307566"
 ---
-# <a name="recordsetstillexecuting-property-dao"></a>Propriété Recordset. StillExecuting (DAO)
+# <a name="recordsetstillexecuting-property-dao"></a>Recordset.StillExecuting, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . StillExecuting
+*.* StillExecuting
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 

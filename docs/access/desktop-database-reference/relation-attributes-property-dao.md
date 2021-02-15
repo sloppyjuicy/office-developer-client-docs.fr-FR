@@ -1,5 +1,5 @@
 ---
-title: Relation. Attributes, propriété (DAO)
+title: Relation.Attributes, propriété (DAO)
 TOCTitle: Attributes Property
 ms:assetid: db19d2ad-5965-214c-211d-9a8eb9c3c522
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835337(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309113"
 ---
-# <a name="relationattributes-property-dao"></a>Relation. Attributes, propriété (DAO)
+# <a name="relationattributes-property-dao"></a>Relation.Attributes, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur spécifiant une ou plusieurs caractéristiques d'un objet **Relation**. Type de données **Long** en lecture-écriture.
+Définit ou renvoie une valeur spécifiant une ou plusieurs caractéristiques d'un objet **Relation**. **Long** (en lecture/écriture).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Ceux
+*expression* .Attributes
 
-*expression* Variable qui représente un objet **relation** .
+*expression* Variable qui représente un objet **Relation.**
 
 ## <a name="remarks"></a>Remarques
 

@@ -26,11 +26,11 @@ Les objets métier peuvent représenter des fichiers exécutables (.exe) ou des 
 
 
 > [!NOTE]
-> Lorsque les objets métier du niveau intermédiaire sont implémentés en tant que composants des services de composants (à l'aide de **GetObjectContext**, **SetComplete**et SetAbort), ils peuvent utiliser les objets de contexte services de composants (ou MTS, si vous utilisez Windows NT) pour **** Conservez leur état dans plusieurs appels client. Ce cas de figure, généralement implémenté entre des clients et des serveurs de confiance (dans un intranet), est possible grâce à DCOM. 
+> Lorsque les objets métier du niveau intermédiaire sont implémentés en tant que composants des services de composants (à l’aide de **GetObjectContext,** **SetComplete** et **SetAbort),** ils peuvent utiliser des objets de contexte des services de composants (ou MTS, si vous utilisez Windows NT) pour maintenir leur état dans plusieurs appels clients. Ce cas de figure, généralement implémenté entre des clients et des serveurs de confiance (dans un intranet), est possible grâce à DCOM. 
 >
 > L'objet [RDS.DataSpace](dataspace-object-rds.md) et la méthode [CreateObject](createobject-method-rds.md) sur le client sont remplacés par l'objet de contexte de transaction et la méthode **CreateInstance** (fournie par l'interface **ITransactionContext** ) est implémentée par les services de composants.
 
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Exécution d'objets métier dans les services de composants (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
+- [Exécution des objets métier dans les services de composants (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)

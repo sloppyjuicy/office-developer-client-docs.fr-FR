@@ -18,26 +18,26 @@ ms.locfileid: "32306740"
 
 **S’applique à** : Access 2013, Office 2013
 
-Récupère ou définit un objet **Rowset** OLE DB sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez l'\_ensemble de lignes, le jeu de lignes est transformé en objet **Recordset** ADO.
+Récupère ou définit un objet **Rowset** OLE DB sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez la mise en jeu de lignes, le jeu de \_ lignes est transformé en objet **Recordset** ADO.
 
 Lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-HRESULT get\_rowset\[(out,\] retval\* \* IUnknown ppRowset);
+HRESULT get \_ Rowset( \[ out, retval \] IUnknown \* \* ppRowset);
 
-HRESULT put\_rowset\[(\] dans\* IUnknown pRowset);
+HRESULT put \_ Rowset( \[ in \] IUnknown \* pRowset);
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*ppRowset* |Pointeur vers un objet **Rowset** OLE DB.|
 |*PRowset* |Objet **Rowset** OLE DB.|
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Cette méthode de propriété renvoie les valeurs HRESULT standard, y\_compris S OK\_et E Fail.
+Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S \_ OK et E \_ FAIL.
 
 ## <a name="applies-to"></a>S’applique à
 

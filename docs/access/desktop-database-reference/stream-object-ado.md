@@ -1,5 +1,5 @@
 ---
-title: Stream, objet (ADO)
+title: Objet Stream (ADO)
 TOCTitle: Stream object (ADO)
 ms:assetid: d49b1514-e0b4-0aca-d5c2-8266f3f4fe65
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308483"
 ---
-# <a name="stream-object-ado"></a>Stream, objet (ADO)
+# <a name="stream-object-ado"></a>Objet Stream (ADO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Représente un flux de données binaires ou de texte.
 
 ## <a name="remarks"></a>Remarques
 
-Dans les hiérarchies structurées en arborescence telles qu'un système de fichiers ou un système de messagerie, un flux binaire par défaut de bits peut être associé à un [enregistrement](record-object-ado.md) qui contient le contenu du fichier ou du courrier électronique. Un objet **Stream** peut être utilisé pour manipuler des champs ou des enregistrements contenant ces flux de données. Un objet **Stream** peut être obtenu de différentes façons :
+Dans les hiérarchies arborescences telles qu’un [](record-object-ado.md) système de fichiers ou un système de messagerie, un enregistrement peut être associé à un flux binaire par défaut de bits qui contient le contenu du fichier ou de l’e-mail. Un objet **Stream** peut être utilisé pour manipuler des champs ou des enregistrements contenant ces flux de données. Un objet **Stream** peut être obtenu de différentes façons :
 
   - À partir d'une URL pointant sur un objet (en général, un fichier) contenant des données binaires ou texte. Cet objet peut être un simple document, un objet **Record** représentant un document structuré ou un dossier.
 
@@ -66,6 +66,6 @@ Les méthodes et les propriétés d'un objet **Stream** vous permettent d'effect
   - spécifier le mode d'accès au **Stream** à l'aide de la propriété [Mode](mode-property-ado.md).
 
 > [!NOTE]
-> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
+> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [URL absolues et relatives.](absolute-and-relative-urls.md)
 
 

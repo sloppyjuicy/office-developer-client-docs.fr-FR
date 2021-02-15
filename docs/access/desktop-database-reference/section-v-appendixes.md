@@ -18,7 +18,7 @@ ms.locfileid: "32308763"
 
 **S’applique à** : Access 2013, Office 2013
 
-Le Guide du programmeur ADO contient les annexes suivantes:
+Le guide du programmeur ADO contient les annexes suivantes :
 
 - [Annexe A : Fournisseurs](appendix-a-providers.md)
 - [Annexe B : Erreurs ADO](appendix-b-ado-errors.md)

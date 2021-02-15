@@ -38,12 +38,12 @@ Spécifie la séquence de tri d'une colonne indexée.
 <tbody>
 <tr class="odd">
 <td><p><strong>adSortAscending</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Valeur par défaut. La colonne est triée par ordre croissant.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSortDescending</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>La colonne est triée par ordre décroissant.</p></td>
 </tr>
 </tbody>

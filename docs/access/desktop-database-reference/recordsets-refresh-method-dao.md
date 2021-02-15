@@ -1,5 +1,5 @@
 ---
-title: Recordsets. Refresh, méthode (DAO)
+title: Recordsets.Refresh, méthode (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e437bbe8-a30d-aab6-d54a-20f01b569bf0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835781(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309372"
 ---
-# <a name="recordsetsrefresh-method-dao"></a>Recordsets. Refresh, méthode (DAO)
+# <a name="recordsetsrefresh-method-dao"></a>Recordsets.Refresh, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Non prise en charge pour cet objet.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Intervalle
+*.* Actualiser
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordsets.**
 
 ## <a name="remarks"></a>Remarques
 

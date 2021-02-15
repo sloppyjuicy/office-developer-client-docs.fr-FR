@@ -1,5 +1,5 @@
 ---
-title: Reset, méthode (référence de la base de données Bureau à distance)
+title: Méthode Reset (RDS - Référence de base de données de bureau Access)
 TOCTitle: Reset method (RDS)
 ms:assetid: 169ebd1e-6071-613e-c065-3af060167456
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248924(v=office.15)
@@ -22,11 +22,11 @@ Applique un tri ou un filtre à un objet **Recordset** côté client en fonction
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. Reset (*valeur*)
+*DataControl*. Reset(*valeur*)
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 |*valeur* |Facultatif. Valeur de type **Boolean**. Si la valeur est **True** (par défaut), cela permet d'effectuer un filtrage sur l'ensemble de lignes « filtré » actuel. Si la valeur est **False**, le filtrage porte sur l'ensemble de lignes d'origine, supprimant toutes les options de filtre précédentes.|

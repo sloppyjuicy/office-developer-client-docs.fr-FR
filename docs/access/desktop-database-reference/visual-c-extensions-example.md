@@ -21,7 +21,7 @@ ms.locfileid: "32312067"
 
 Ce programme montre comment les valeurs sont extraites des champs, puis converties en variables C/C++.
 
-Cet exemple tire également parti des «pointeurs intelligents» qui gèrent automatiquement les détails spécifiques à COM de l'appel et du décompte des références pour l'interface **IADORecordBinding** .
+Cet exemple tire également parti des « pointeurs intelligents », qui gèrent automatiquement les détails spécifiques com de l’appel et du décompte de références pour l’interface **IADORecordBinding.**
 
 Sans pointeurs intelligents, le code se présenterait comme ceci :
 
@@ -35,7 +35,7 @@ TESTHR(pRs->QueryInterface(
 if (picRs) picRs->Release(); 
 ```
 
-Avec des pointeurs intelligents, vous dérivez le type IADORecordBindingPtr du type de l'interface IADORecordBinding à l'aide de l'instruction suivante:
+Avec des pointeurs intelligents, vous dérivez le type IADORecordBindingPtr du type de l’interface IADORecordBinding avec cette instruction :
 
 ```cpp 
  
@@ -49,7 +49,7 @@ Et vous instanciez le pointeur comme suit :
 IADORecordBindingPtr picRs(pRs); 
 ```
 
-Étant donné que les extensions Visual C++ sont implémentées par l'objet **Recordset** , le constructeur du pointeur intelligent, picRs, \_prend le pointeur RecordsetPtr, prs. Le constructeur appelle QueryInterface à l'aide de pRs pour trouver le \_, prend le pointeur RecordsetPtr, prs. Le constructeur appelle QueryInterface à l'aide de pRs pour trouver l'interface IADORecordBinding.
+Étant donné que les extensions Visual C++ sont implémentées par l’objet **Recordset,** le constructeur du pointeur intelligent, picRs , prend le \_ pointeur RecordsetPtr, pRs . Le constructeur appelle QueryInterface à l’aide de pRs pour trouver le , prend le \_ pointeur RecordsetPtr, pRs . Le constructeur appelle QueryInterface à l’aide de pRs pour trouver l’interface IADORecordBinding.
 
 ```cpp 
  

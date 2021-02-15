@@ -22,13 +22,13 @@ Indique l’objet **Recordset** retourné d’un objet métier personnalisé.
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. SourceRecordset = *Recordset*
+*DataControl*. SourceRecordset = *Jeu d’enregistrements*
 
-*Jeu d'enregistrements* = *DataControl*. Recordset
+*Recordset*  =  *DataControl*. Recordset
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 |*Recordset* |Variable objet représentant un objet **Recordset**.|

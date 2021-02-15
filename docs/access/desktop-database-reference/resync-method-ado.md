@@ -22,13 +22,13 @@ Cette méthode actualise les données de l’objet [Recordset](recordset-object-
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. Resync*AffectRecords*, *ResyncValues*
+*Recordset*. Resync *AffectRecords*, *ResyncValues*
 
-*Enregistrement*. *Champs*. Resync*ResyncValues*
+*Enregistrement*. *Champs*. Resync *ResyncValues*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*AffectRecords* |Facultatif. La valeur [AffectEnum](affectenum.md) détermine combien d'enregistrements sont affectés par la méthode **Resync**. La valeur **adAffectAll** est utilisée par défaut ; elles n'est pas disponible avec la méthode **Resync** de la collection **Fields** d'un objet **Record**.|
 |*ResyncValues* |Facultatif. La valeur [ResyncEnum](resyncenum.md) indique si les valeurs sous-jacentes sont remplacées. La valeur par défaut est **adResyncAllValues**.|
@@ -47,7 +47,7 @@ Si la tentative de resynchronisation échoue à cause d’un conflit avec les do
 
 Si les propriétés dynamiques [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) et [Resync Command](resync-command-property-dynamic-ado.md) sont définies et que l'objet **Recordset** obtenu provient de l'exécution d'une opération JOIN sur plusieurs tables, la méthode **Resync** exécute la commande fournie dans la propriété **Resync Command** uniquement au niveau de la table désignée dans la propriété **Unique Table**.
 
-### <a name="fields"></a>Fields
+### <a name="fields"></a>Champs
 
 Faites appel à la méthode **Resync** pour resynchroniser les valeurs de la collection **Fields** d’un objet **Record** sur la source de données sous-jacente. La propriété [Count](count-property-ado.md) n’est pas affectée par cette méthode.
 

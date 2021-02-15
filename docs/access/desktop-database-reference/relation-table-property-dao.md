@@ -1,5 +1,5 @@
 ---
-title: Relation. table, propriété (DAO)
+title: Relation.Table, propriété (DAO)
 TOCTitle: Table Property
 ms:assetid: cc4f64ef-c4e9-1a14-9263-5f8220d89840
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834423(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306992"
 ---
-# <a name="relationtable-property-dao"></a>Relation. table, propriété (DAO)
+# <a name="relationtable-property-dao"></a>Relation.Table, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,9 +27,9 @@ Indique le nom d'une table primaire d'un objet **[Relation](relation-object-dao.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Tabulaire
+*.* Table
 
-*expression* Variable qui représente un objet **relation** .
+*expression* Variable qui représente un objet **Relation.**
 
 ## <a name="remarks"></a>Remarques
 

@@ -1,5 +1,5 @@
 ---
-title: Recordset. type, propriété (DAO)
+title: Recordset.Type, propriété (DAO)
 TOCTitle: Type Property
 ms:assetid: d841b088-50bf-16d9-33e0-2140050e1ac6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835080(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307552"
 ---
-# <a name="recordsettype-property-dao"></a>Recordset. type, propriété (DAO)
+# <a name="recordsettype-property-dao"></a>Recordset.Type, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Définit ou renvoie une valeur qui indique le type opérationnel ou le type de d
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Entrer
+*expression* .Type
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -50,15 +50,15 @@ Pour un objet **Recordset**, les paramètres et valeurs de retour possibles sont
 <tr class="even">
 <td><p><strong>dbOpenDynamic</strong></p></td>
 <td><p>Dynamique (espaces de travail ODBCDirect uniquement)</p>
-<p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p></td>
+<p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenDynaset</strong></p></td>
-<td><p>Jeu</p></td>
+<td><p>Feuille deynaset</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbOpenSnapshot</strong></p></td>
-<td><p>Instantané</p></td>
+<td><p>Capture instantanée</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenForwardOnly</strong></p></td>

@@ -23,7 +23,7 @@ L'Assistant Bibliothèque de types Java est une fonctionnalité de Visual J++ 1.
 
 L'Assistant Bibliothèque de types Java produit des résultats similaires aux outils de ligne de commande inclus avec le [Kit de développement Microsoft pour Java SDK](using-the-microsoft-sdk-for-java.md). Cependant, vous n'avez pas accès aux wrappers de classes que l'Assistant génère, contrairement aux wrappers de classe générés par le Kit de développement Microsoft pour Java SDK.
 
-L'Assistant bibliothèque de types Java génère les classes à l'emplacement suivant \\ \<: Windows\>\\Directory\\trustlib\\msado15. Le fichier Summary.txt, situé dans le répertoire dans lequel les classes ont été générées, comporte les définitions de classes qu'il a générées.
+L Java’Assistant Bibliothèque de types génère les classes à l’emplacement suivant : répertoire \\ \< Windows Java \> \\ \\ trustlib \\ msado15. Le fichier Summary.txt, situé dans le répertoire dans lequel les classes ont été générées, comporte les définitions de classes qu'il a générées.
 
 L'Assistant Bibliothèque de types Java convertit les types énumérés, trouvés dans une bibliothèque de types donnée, en type INT (nombre entier). Il définit également une interface qui correspond à chaque type énuméré de la bibliothèque de types. Vous pouvez référencer les valeurs d'un type énuméré ADO au moyen de la syntaxe suivante :
 
@@ -43,11 +43,11 @@ Une autre solution consiste à hériter du wrapper de type énuméré généré 
 
 Pour obtenir un exemple de code, consultez [Wrappers de classe Java ADO](ado-java-class-wrappers.md).
 
-**Pour exécuter l'Assistant bibliothèque de types Java à partir de Visual J++ version 1. * x***
+**Pour exécuter l’Java de bibliothèque de types à partir de Visual J++ version 1.*x***
 
 1.  Depuis le menu **Outils**, sélectionnez **Assistant Bibliothèque de types Java**.
 
-2.  Sélectionnez « Bibliothèque Microsoft ActiveX Data Objects », puis cliquez sur **OK**. Ceci (re) génère des fichiers dans le \\répertoire TRUSTLIB pour ADO (par défaut à l'adresse\\c\\:\\Winnt Java trustlib\\msado15). Si vous avez utilisé le Kit de développement Microsoft pour Java pour générer des classes pour ADO, celles-ci seront remplacées par les classes de l'Assistant Bibliothèque de types Java.
+2.  Sélectionnez « Bibliothèque Microsoft ActiveX Data Objects », puis cliquez sur **OK**. This now (re)generates files in the \\ trustlib directory for ADO (by default at c: \\ winnt \\ java \\ trustlib \\ msado15). Si vous avez utilisé le Kit de développement Microsoft pour Java pour générer des classes pour ADO, celles-ci seront remplacées par les classes de l'Assistant Bibliothèque de types Java.
 
-3.  Pour utiliser ces fichiers, ouvrez votre projet dans Visual J++. Dans le menu **Projet**, choisissez **Ajouter au projet**. Sélectionnez **fichiers**, puis ajoutez tous les. Fichiers JAVA générés dans \\le répertoire Trustlib (par défaut à c\\:\\\\Winnt\\Java trustlib msado15) dans votre projet.
+3.  Pour utiliser ces fichiers, ouvrez votre projet dans Visual J++. Dans le menu **Projet**, choisissez **Ajouter au projet**. Sélectionnez **des** fichiers et ajoutez tous les fichiers. Fichiers JAVA générés dans le \\ répertoire trustlib (par défaut c: \\ winnt java \\ \\ trustlib \\ msado15) pour votre projet.
 

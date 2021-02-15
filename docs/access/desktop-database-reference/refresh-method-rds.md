@@ -22,11 +22,11 @@ Interroge à nouveau la source de données spécifiée dans la propriété [Conn
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. Intervalle
+*DataControl*. Actualiser
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 

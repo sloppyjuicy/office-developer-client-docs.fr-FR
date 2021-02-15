@@ -18,7 +18,7 @@ ms.locfileid: "32308469"
 
 **S’applique à** : Access 2013, Office 2013
 
-L' **** instruction submacro définit une macro distincte dans la fenêtre du concepteur de macros.
+**L’instruction Submacro** définit une macro distincte dans la fenêtre Concepteur de macros.
 
 ## <a name="setting"></a>Setting
 
@@ -49,7 +49,7 @@ L’instruction **Submacro** utilise les arguments suivants.
 
 ## <a name="example"></a>Exemple
 
-La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu'une erreur se produit, la sous-macro CatchErrors est appelée. Si le numéro de l'erreur est 2102, un message spécifique s'affiche et l'exécution de la macro est interrompue. Dans le cas contraire, un message décrivant l'erreur s'affiche et la macro est suspendue pour vous permettre d'effectuer des procédures de dépannage supplémentaires. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
+La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu’une erreur se produit, le sous-macro CatchErrors est appelé. Si le numéro d’erreur est 2102, un message spécifique s’affiche et l’exécution des macros est interrompue. Dans le cas contraire, un message décrivant l’erreur s’affiche et la macro est suspendue afin que vous pouvez effectuer un dépannage supplémentaire. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -66,7 +66,7 @@ Le schéma montre les déclarations des espaces de noms, la section des schémas
 
 Les définitions des schémas sont conformes à la spécification XML-Data et peuvent être entièrement validées (cette validation ne peut se faire avec Internet Explorer 5). Pour prendre connaissance de cette spécification, allez sur [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data est le seul format de schéma existant actuellement pour la persistance **Recordset**.
 
-La section des données possède trois lignes contenant des informations sur les messagers. Pour un jeu de lignes vide, la section des données peut être vide `<rs:data>` , mais les balises doivent être présentes. Sans données, vous pouvez écrire la balise sténographique en tant `<rs:data>`que simple. Les balises précédées du préfixe "rs" sont placées dans l'espace de nom défini par urn:schemas-microsoft-com:rowset. La définition complète de ce schéma est définie en annexe de ce document.
+La section des données possède trois lignes contenant des informations sur les messagers. Pour un ensemble de lignes vide, la section de données peut être vide, mais les `<rs:data>` balises doivent être présentes. Sans aucune donnée, vous pouvez simplement écrire le raccourci de la `<rs:data>` balise. Les balises précédées du préfixe "rs" sont placées dans l'espace de nom défini par urn:schemas-microsoft-com:rowset. La définition complète de ce schéma est définie en annexe de ce document.
 
 ## <a name="xml-persistence-format"></a>Format de persistance XML
 
@@ -116,5 +116,5 @@ Le schéma montre les déclarations des espaces de noms, la section des schémas
 
 Les définitions des schémas sont conformes à la spécification XML-Data et peuvent être entièrement validées (cette validation ne peut se faire avec Internet Explorer 5). Pour prendre connaissance de cette spécification, allez sur [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data est le seul format de schéma existant actuellement pour la persistance **Recordset**.
 
-La section des données possède trois lignes contenant des informations sur les messagers. Pour un jeu de lignes vide, la section des données peut être vide `<rs:data>` , mais les balises doivent être présentes. Sans données, vous pouvez écrire la balise sténographique en tant `<rs:data>`que simple. Les balises précédées du préfixe "rs" sont placées dans l'espace de nom défini par urn:schemas-microsoft-com:rowset. La définition complète de ce schéma est définie en annexe de ce document.
+La section des données possède trois lignes contenant des informations sur les messagers. Pour un ensemble de lignes vide, la section de données peut être vide, mais les `<rs:data>` balises doivent être présentes. Sans aucune donnée, vous pouvez simplement écrire le raccourci de la `<rs:data>` balise. Les balises précédées du préfixe "rs" sont placées dans l'espace de nom défini par urn:schemas-microsoft-com:rowset. La définition complète de ce schéma est définie en annexe de ce document.
 

@@ -1,5 +1,5 @@
 ---
-title: Workspaces, propriétés (DAO)
+title: Workspaces properties (DAO)
 TOCTitle: Properties
 ms:assetid: aa635361-13d8-40b9-ac10-b0cfe8271273
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142617(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308301"
 ---
-# <a name="workspaces-properties-dao"></a>Workspaces, propriétés (DAO)
+# <a name="workspaces-properties-dao"></a>Workspaces properties (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Workspaces. Count, propriété (DAO)](workspaces-count-property-dao.md)
+- [Workspaces.Count, propriété (DAO)](workspaces-count-property-dao.md)
 

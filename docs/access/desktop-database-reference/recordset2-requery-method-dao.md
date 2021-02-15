@@ -1,5 +1,5 @@
 ---
-title: Recordset2. Requery, méthode (DAO)
+title: Recordset2.Requery, méthode (DAO)
 TOCTitle: Requery Method
 ms:assetid: d063c1e0-2fb7-b5cf-4d98-6f77a5a13cec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834712(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307209"
 ---
-# <a name="recordset2requery-method-dao"></a>Recordset2. Requery, méthode (DAO)
+# <a name="recordset2requery-method-dao"></a>Recordset2.Requery, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Met à jour les données d'un objet **[Recordset](recordset-object-dao.md)** en réexécutant la requête sur laquelle l'objet est basé.
+Met à jour les données dans un objet **[Recordset](recordset-object-dao.md)** en exécutant de nouveau la requête sur laquelle l’objet est basé.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Requery (***défnouvellerequête***)
+*expression* .Requery(***NewQueryDef***)
 
-*expression* Variable qui représente un objet **Recordset2** .
+*expression* Variable qui représente un **objet Recordset2.**
 
 ## <a name="parameters"></a>Paramètres
 
@@ -49,10 +49,10 @@ Met à jour les données d'un objet **[Recordset](recordset-object-dao.md)** en 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Défnouvellerequête</em></p></td>
+<td><p><em>NewQueryDef</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Représente la valeur de la propriété <strong>Name</strong> d’un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong></p></td>
+<td><p>Représente la valeur de la propriété <strong>Name</strong> d’un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -60,23 +60,23 @@ Met à jour les données d'un objet **[Recordset](recordset-object-dao.md)** en 
 
 ## <a name="remarks"></a>Remarques
 
-Cette méthode s'avère utile pour s'assurer qu'un objet **Recordset** contient les données les plus récentes. Cette méthode remplit à nouveau l' **objet Recordset** actif à l'aide des paramètres de requête actuels ou (dans un espace de travail Microsoft Access) des nouveaux paramètres fournis par l'argument défnouvellerequête.
+Utilisez cette méthode pour vous assurer qu’un objet **Recordset** contient les données les plus récentes. Cette méthode renseigne à nouveau l’objet **Recordset** actif à partir des paramètres de la requête actuelle ou (dans un espace de travail Microsoft Access) de ceux, nouveaux, fournis par l’argument newquerydef.
 
-Si vous ne spécifiez pas d'argument défnouvellerequête, l' **objet Recordset** est rempli en fonction de la définition de requête et des paramètres utilisés pour remplir initialement l' **objet Recordset**. Any changes to the underlying data will be reflected during this re-population. If you didn't use a **QueryDef** to create the **Recordset**, the **Recordset** is re-created from scratch.
+Si vous ne spécifiez pas d’argument newquerydef, l’objet **Recordset** est de nouveau renseigné à partir de la définition et des paramètres de requête déjà utilisés pour renseigner l’objet **Recordset** à l’origine. Any changes to the underlying data will be reflected during this re-population. If you didn't use a **QueryDef** to create the **Recordset**, the **Recordset** is re-created from scratch.
 
-Si vous spécifiez l' **objet querydef** d'origine dans l'argument défnouvellerequête, l' **objet Recordset** est reinterrogé à l'aide des paramètres spécifiés par l' **objet querydef**. Les modifications apportées aux données sous-jacentes sont répercutées lors de ce nouveau remplissage. Pour répercuter les modifications apportées aux valeurs des paramètres de requête dans l' **objet Recordset**, vous devez spécifier l'argument défnouvellerequête.
+Si vous spécifiez l’objet **QueryDef** d’origine dans l’argument newquerydef, **Recordset** fait l’objet d’une nouvelle requête basée sur les paramètres spécifiés par **QueryDef**. Toute modification apportée aux données sous-jacentes sera prise en compte lorsque l’objet sera de nouveau renseigné. Pour répercuter les modifications effectuées au niveau de la valeur des paramètres de la requête dans l’objet **Recordset**, vous devez fournir l’argument newquerydef.
 
 If you specify a different **QueryDef** than what was originally used to create the **Recordset**, the **Recordset** is re-created from scratch.
 
 Lorsque vous utilisez la méthode **Requery**, le premier enregistrement de l'objet **Recordset** devient l'enregistrement actif.
 
-Vous ne pouvez pas appliquer la méthode **Requery** aux objets **Recordset** de type feuille de réponse dynamique ou instantané dont la propriété **[Restartable](recordset2-restartable-property-dao.md)** a la valeur **False**. Toutefois, si vous fournissez l'argument facultatif défnouvellerequête, **** la propriété Restartable est ignorée.
+Vous ne pouvez pas appliquer la méthode **Requery** aux objets **Recordset** de type feuille de réponse dynamique ou instantané dont la propriété **[Restartable](recordset2-restartable-property-dao.md)** a la valeur **False**. Toutefois, si vous fournissez l’argument facultatif newquerydef, la propriété **Restartable** est ignorée.
 
 Si les propriétés **[BOF](recordset2-bof-property-dao.md)** et **[EOF](recordset2-eof-property-dao.md)** de l'objet **Recordset** ont toutes deux la valeur **True** après que vous ayez utilisé la méthode **Requery**, la requête ne renvoie aucun enregistrement et l'objet **Recordset** ne contient pas de données.
 
 ## <a name="example"></a>Exemple
 
-Cet exemple de code montre comment la méthode **Requery** peut être utilisée pour actualiser une requête suite à la modification des données sous-jacentes.
+Cet exemple montre comment la méthode **Requery** peut être utilisée pour actualiser une requête après la modification des données sous-jacentes.
 
 ```vb
     Sub RequeryX() 

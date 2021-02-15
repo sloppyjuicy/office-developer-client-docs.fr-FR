@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset. ValidationRule (DAO)
+title: Recordset.ValidationRule, propriété (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: c9250c13-18fe-1ff7-7846-7872c49a1e3b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823208(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307503"
 ---
-# <a name="recordsetvalidationrule-property-dao"></a>Propriété Recordset. ValidationRule (DAO)
+# <a name="recordsetvalidationrule-property-dao"></a>Recordset.ValidationRule, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Définit ou renvoie une valeur qui valide les données dans un champ au moment d
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ValidationRule
+*.* ValidationRule
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -48,7 +48,7 @@ For a **Recordset** object, use of the **ValidationRule** property is read-only.
 <tbody>
 <tr class="odd">
 <td><p>Table de base</p></td>
-<td><p>En lecture-écriture.</p></td>
+<td><p>Lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p>Table liée</p></td>
@@ -67,4 +67,4 @@ La propriété **ValidationRule** d'un objet **Recordset** ou **TableDef** peut 
 Pour un objet **Recordset** de type table, la propriété **ValidationRule** hérite du paramètre de la propriété **ValidationRule** de l'objet **TableDef** utilisé pour créer l'objet **Recordset** de type table.
 
 > [!NOTE]
-> Si vous définissez la propriété sur une chaîne concaténée avec une valeur non entière et que les paramètres système spécifient un caractère non-U. S. Decimal tel qu'une virgule (par exemple, strRule = "Price &gt; " &amp; lngPrice et lngPrice = 125, 50), une erreur se produit lorsque votre code tente de valider des données. En effet, pendant la concaténation, le nombre est converti en une chaîne qui utilise le caractère décimal par défaut de votre système ; Microsoft Access SQL n'accepte que les caractères décimaux de l'anglais (États-Unis).
+> Si vous définissez la propriété sur une chaîne concatentée avec une valeur non-integer, et que les paramètres système spécifient une valeur non américaine. caractère décimal tel qu’une virgule (par exemple, strRule = « PRICE &gt; " &amp; lngPrice et lngPrice = 125,50), une erreur se résulte lorsque votre code tente de valider des données. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.

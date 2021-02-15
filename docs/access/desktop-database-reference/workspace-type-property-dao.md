@@ -1,5 +1,5 @@
 ---
-title: Workspace. type, propriété (DAO)
+title: Workspace.Type, propriété (DAO)
 TOCTitle: Type Property
 ms:assetid: 89e59280-d2cd-b6a2-16c5-9f14f42fdd99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197086(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311304"
 ---
-# <a name="workspacetype-property-dao"></a>Workspace. type, propriété (DAO)
+# <a name="workspacetype-property-dao"></a>Workspace.Type, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Définit ou renvoie une valeur qui indique le type opérationnel ou le type de d
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Entrer
+*expression* .Type
 
-*expression* Variable qui représente un objet **Workspace** .
+*expression* Variable qui représente un objet **Workspace**.
 
 ## <a name="remarks"></a>Remarques
 

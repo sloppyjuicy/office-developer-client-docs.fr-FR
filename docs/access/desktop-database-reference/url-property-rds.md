@@ -1,5 +1,5 @@
 ---
-title: URL, propriété (référencement de la base de données de bureau RDS)
+title: PROPRIÉTÉ URL (RDS - Référence de base de données de bureau Access)
 TOCTitle: URL property (RDS)
 ms:assetid: 722765dc-f89c-0131-73b1-69c56a795546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
@@ -24,20 +24,20 @@ Vous pouvez définir la propriété **URL** au moment de la création dans la ba
 
 ## <a name="syntax"></a>Syntaxe
 
-Moment de la \<conception: param Name = "URL" value = "Server"\>
+Moment de la conception \< : PARAM NAME="URL » VALUE="Server »\>
 
-Moment de l'exécution: DataControl. URL = "Server"
+Durée d’application : DataControl.URL="Server »
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Serveur* |Valeur **String** contenant une URL valide.|
 |*DataControl* |Variable d'objet représentant un objet **DataControl**.|
 
 ## <a name="remarks"></a>Remarques
 
-L'URL identifie généralement un fichier ASP (.asp) qui peut produire et renvoyer un [Recordset ](recordset-object-ado.md). L'utilisateur peut ainsi obtenir un **Recordset** sans avoir à appeler l'objet serveur [DataFactory](datafactory-object-rdsserver.md) ou programmer un objet métier personnalisé.
+L'URL identifie généralement un fichier ASP (.asp) qui peut produire et renvoyer un [Recordset](recordset-object-ado.md). L'utilisateur peut ainsi obtenir un **Recordset** sans avoir à appeler l'objet serveur [DataFactory](datafactory-object-rdsserver.md) ou programmer un objet métier personnalisé.
 
 Si la propriété **URL** a été définie, [SubmitChanges](submitchanges-method-rds.md) soumettra des modifications à l'emplacement spécifié par l'URL.
 

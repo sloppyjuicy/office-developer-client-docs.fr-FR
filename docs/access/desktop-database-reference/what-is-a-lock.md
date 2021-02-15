@@ -33,7 +33,7 @@ Le paramètre **adLockPessimistic** n'est pas pris en charge si la propriété [
 
 La propriété **LockType** est accessible en lecture/écriture lorsque l'objet **Recordset** est fermé, et en lecture seule lorsqu'il est ouvert.
 
-Cette section comprend les rubriques suivantes:
+Cette section inclut la rubrique suivante :
 
 - [Types de verrous](types-of-locks.md)
 

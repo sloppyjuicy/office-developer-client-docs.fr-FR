@@ -1,5 +1,5 @@
 ---
-title: Relation. ForeignTable, propriété (DAO)
+title: Relation.ForeignTable, propriété (DAO)
 TOCTitle: ForeignTable Property
 ms:assetid: 3f896433-2962-1c7c-f5a2-4e030ba8d4a0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192853(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307046"
 ---
-# <a name="relationforeigntable-property-dao"></a>Relation. ForeignTable, propriété (DAO)
+# <a name="relationforeigntable-property-dao"></a>Relation.ForeignTable, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,9 +27,9 @@ Définit ou renvoie le nom de la table étrangère dans une relation (espaces de
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . ForeignTable
+*.* ForeignTable
 
-*expression* Variable qui représente un objet **relation** .
+*expression* Variable qui représente un objet **Relation.**
 
 ## <a name="remarks"></a>Remarques
 

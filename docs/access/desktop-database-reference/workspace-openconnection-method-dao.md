@@ -1,5 +1,5 @@
 ---
-title: Méthode Workspace. OpenConnection (DAO)
+title: Workspace.OpenConnection, méthode (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 9d97f298-a2d5-3b91-2efd-57f06fbd4654
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
@@ -14,15 +14,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308336"
 ---
-# <a name="workspaceopenconnection-method-dao"></a>Méthode Workspace. OpenConnection (DAO)
+# <a name="workspaceopenconnection-method-dao"></a>Workspace.OpenConnection, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . OpenConnection (***nom***, ***options***, ***LectureSeule***, ***connexion***)
+*.* OpenConnection(***Name***, ***Options***, ***ReadOnly***, ***Connect***)
 
-*expression* Variable qui représente un objet **Workspace** .
+*expression* Variable qui représente un objet **Workspace**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -64,7 +64,7 @@ ms.locfileid: "32308336"
 <td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Chaîne de connexion ODBC. Voir la propriété <strong><a href="connection-connect-property-dao.md">Connect</a></strong> pour les éléments et la syntaxe spécifiques de cette chaîne. Un ODBC &quot;ajouté; &quot; est requis.</p></td>
+<td><p>Chaîne de connexion ODBC. Voir la <strong><a href="connection-connect-property-dao.md">propriété Connect</a></strong> pour connaître les éléments et la syntaxe spécifiques de cette chaîne. OdBC prédépendant &quot; &quot; est requis.</p></td>
 </tr>
 </tbody>
 </table>
@@ -78,9 +78,9 @@ Connection
 
 Utilisez la méthode **OpenConnection** pour définir une connexion à une source de données ODBC à partir d'un espace de travail ODBCDirect. La méthode **OpenConnection** est similaire à la méthode **OpenDatabase**, mais elle n'y est pas équivalente. La différence principale est que la méthode **OpenConnection** est disponible dans un espace de travail ODBCDirect.
 
-Si vous spécifiez un nom de source de données (DSN) ODBC enregistré dans l'argument connecter, l'argument nom peut être n'importe quelle chaîne valide et fournira également la propriété **Name** de l'objet **Connection** . Si un DSN valide n'est pas inclus dans l'argument Connect, le nom doit faire référence à un DSN ODBC valide, qui sera également la propriété **Name** . Si ni le nom ni la connexion ne contiennent un DSN valide, le gestionnaire de pilotes ODBC peut être défini (via l'argument options) pour inviter l'utilisateur à entrer les informations de connexion requises. Le nom DSN indiqué à l'invite fournit ensuite la propriété **Name**.
+Si vous spécifiez un nom de source de données ODBC enregistré dans l’argument de connexion, l’argument nom peut être n’importe quelle chaîne valide et fournit également la propriété **Name** de l’objet **Connection.** Si un nom DSN valide n’est pas inclus dans l’argument de connexion, le nom doit faire référence à un nom DSN ODBC valide, qui sera également la propriété **Name.** Si ni le nom ni la connexion ne contiennent un nom DSN valide, le gestionnaire de pilotes ODBC peut être définie (via l’argument Options) pour inviter l’utilisateur à fournir les informations de connexion requises. Le nom DSN indiqué à l'invite fournit ensuite la propriété **Name**.
 
-L'argument options détermine si et quand demander à l'utilisateur d'établir la connexion, et s'il faut ou non l'ouvrir de manière asynchrone. Vous pouvez utiliser l'une des constantes ci-après.
+L’argument Options détermine si et quand demander à l’utilisateur d’établir la connexion, et s’il faut ou non ouvrir la connexion de manière asynchrone. Vous pouvez utiliser l'une des constantes ci-après.
 
 <table>
 <colgroup>

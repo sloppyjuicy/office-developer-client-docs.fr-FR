@@ -77,5 +77,5 @@ End Sub
 ' EndEventExampleVB02 
 ```
 
-L'objet **Connection** est déclaré au niveau **Form** avec le mot-clé **WithEvents** pour activer la gestion de l'événement. Le gestionnaire\_d'événements Form Load crée en fait l'objet en affectant un nouvel objet **Connection** à *connEvent* , puis il ouvre la connexion. Bien entendu, une vraie application effectue un traitement plus long dans le\_gestionnaire d'événements Form Load que ce qui est indiqué ici.
+L'objet **Connection** est déclaré au niveau **Form** avec le mot-clé **WithEvents** pour activer la gestion de l'événement. Le handler d’événements Form Load crée l’objet en attribuant un nouvel objet Connection à \_ *connEvent,* puis ouvre la connexion.  Bien entendu, une application réelle ferait plus de traitement dans le handler d’événements de chargement de formulaire \_ qu’elle n’en montre ici.
 

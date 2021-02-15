@@ -19,7 +19,7 @@ ms.locfileid: "32312039"
 
 **S’applique à** : Access 2013, Office 2013
 
-Dans un environnement de script, ADO vous permet d'exposer des données via un script côté serveur. Dans ce scénario, ADO, le fournisseur de la base de données OLE sous-jacent qu'il utilise, ainsi que tous les autres composants requis pour référencer un magasin de données particulier sont installés sur un serveur exécutant IIS (Internet Information Services). Avec ASP (Active Server Pages), ADO est un composant référencé dans un script qui peut générer, par exemple, du contenu HTML. Ce contenu HTML peut être transmis via HTTP à un navigateur Web client. Grâce à l'utilisation de scripts, la page Web peut renvoyer des actions au script côté serveur, ce qui vous permet de mettre à jour, parcourir ou afficher des données spécifiques.
+Dans un environnement de script, ADO vous permet d'exposer des données via un script côté serveur. Dans ce scénario, ADO, le fournisseur de la base de données OLE sous-jacent qu'il utilise, ainsi que tous les autres composants requis pour référencer un magasin de données particulier sont installés sur un serveur exécutant IIS (Internet Information Services). Avec ASP (Active Server Pages), ADO est un composant référencé dans un script qui peut générer, par exemple, du contenu HTML. Ce contenu HTML peut être transmis via HTTP à un navigateur web client. Grâce à l’utilisation de scripts, la page web peut renvoyer des actions au script côté serveur, ce qui vous permet de mettre à jour, de parcourir ou d’afficher des données spécifiques.
 
 ## <a name="odbc-data-sources"></a>Sources de données ODBC
 

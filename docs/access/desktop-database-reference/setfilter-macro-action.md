@@ -42,11 +42,11 @@ L’action **AppliquerFiltre** utilise les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p>Nom du filtre</p></td>
-<td><p>Si spécifié, il s’agit du nom d’une requête ou d’un filtre enregistré en tant que requête. Cet argument ou l’argument Condition Where est obligatoire dans une base de données cliente. Dans une base de données Web, cet argument n'est pas disponible.</p></td>
+<td><p>Si spécifié, il s’agit du nom d’une requête ou d’un filtre enregistré en tant que requête. Cet argument ou l’argument Condition Where est obligatoire dans une base de données cliente. Dans une base de données web, cet argument n’est pas disponible.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condition Where</p></td>
-<td><p>S'il est fourni, une clause WHERE SQL qui limite les enregistrements d'une feuille de données, d'un formulaire, d'un état ou d'une table. Dans une base de données Web, cet argument est obligatoire.</p></td>
+<td><p>S'il est fourni, une clause WHERE SQL qui limite les enregistrements d'une feuille de données, d'un formulaire, d'un état ou d'une table. Dans une base de données web, cet argument est obligatoire.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nom du contrôle</p></td>
@@ -70,7 +70,7 @@ Dans une base de données Web, pour appliquer automatiquement un filtre lors de 
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment utiliser l'action SetFilter pour filtrer le formulaire dans lequel la macro est définie.
+L’exemple suivant montre comment utiliser l’action DéfinirFiltre pour filtrer le formulaire dans lequel la macro est définie.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

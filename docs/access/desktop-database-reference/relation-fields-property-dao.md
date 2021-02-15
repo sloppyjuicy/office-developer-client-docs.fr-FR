@@ -1,5 +1,5 @@
 ---
-title: Relation. Fields, propriété (DAO)
+title: Relation.Fields, propriété (DAO)
 TOCTitle: Fields Property
 ms:assetid: 6f0aafcc-3fc9-a5ef-2ffb-dea71c413128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195574(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307070"
 ---
-# <a name="relationfields-property-dao"></a>Relation. Fields, propriété (DAO)
+# <a name="relationfields-property-dao"></a>Relation.Fields, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Renvoie une collection **Fields** qui représente tous les objets **Field** stoc
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Ceux
+*.* Champs
 
-*expression* Variable qui représente un objet **relation** .
+*expression* Variable qui représente un objet **Relation.**
 

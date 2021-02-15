@@ -39,11 +39,11 @@ Un objet **Recordset** mis en forme peut se composer des types de colonnes suiva
 <td><p>Champs d’un objet <strong>Recordset</strong> retournés par une commande de requête à un fournisseur de données, une table ou un objet <strong>Recordset</strong> préalablement mis en forme.</p></td>
 </tr>
 <tr class="even">
-<td><p>ch</p></td>
+<td><p>chapter</p></td>
 <td><p>Référence à un autre objet <strong>Recordset</strong>, appelée <em>chapitre</em>. Les colonnes de chapitre permettent de définir une relation <em>parent-enfant</em> dans laquelle le <em>parent</em> est l'objet <strong>Recordset</strong> contenant la colonne de chapitre et l'<em>enfant</em> est l'objet <strong>Recordset</strong> représenté par le chapitre.</p></td>
 </tr>
 <tr class="odd">
-<td><p>agrégation</p></td>
+<td><p>aggregate</p></td>
 <td><p>La valeur de la colonne est obtenue par l’exécution d’une <em>fonction d’agrégation</em> sur toutes les lignes ou une colonne de toutes les lignes d’un objet <strong>Recordset</strong>.(Consultez la section relative aux fonctions d’agrégation dans la rubrique <a href="aggregate-functions-the-calc-function-and-the-new-keyword.md">Fonctions d’agrégation, fonction CALC et mot clé NEW</a>.)</p></td>
 </tr>
 <tr class="even">

@@ -30,7 +30,7 @@ ms.locfileid: "32312102"
 
 Aucun.
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

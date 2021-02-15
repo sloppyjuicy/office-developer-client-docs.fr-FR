@@ -1,5 +1,5 @@
 ---
-title: TableDef. LastUpdated, propriété (DAO)
+title: TableDef.LastUpdated, propriété (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: fafe54e2-2cf0-5874-92b9-6e20a65e77ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837164(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308413"
 ---
-# <a name="tabledeflastupdated-property-dao"></a>TableDef. LastUpdated, propriété (DAO)
+# <a name="tabledeflastupdated-property-dao"></a>TableDef.LastUpdated, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie la date et l'heure de la dernière modification apportée à un objet. T
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . LastUpdated
+*.* LastUpdated
 
-*expression* Variable qui représente un objet **TableDef** .
+*expression* Variable représentant un objet **TableDef**.
 
 ## <a name="remarks"></a>Remarques
 

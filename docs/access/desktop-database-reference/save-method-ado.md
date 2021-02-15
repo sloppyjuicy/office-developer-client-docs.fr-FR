@@ -1,5 +1,5 @@
 ---
-title: Save, méthode-ActiveX Data Objects (ADO)
+title: Save, méthode - ActiveX Data Objects (ADO)
 TOCTitle: Save method (ADO)
 ms:assetid: 02dab13b-f947-b96d-46ea-0def3ed8f28f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
@@ -22,11 +22,11 @@ Enregistre l’objet [Recordset](recordset-object-ado.md) dans un fichier ou un 
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. Enregistrer la*destination*, *PersistFormat*
+*recordset*. Save *Destination*, *PersistFormat*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Destination* |Facultatif. Valeur de type **Variant** qui représente le nom de chemin d'accès complet du fichier dans lequel l'objet **Recordset** doit être enregistré ou une référence à l'objet **Stream**.|
 |*PersistFormat* |Facultatif. Valeur [PersistFormatEnum](persistformatenum.md) qui spécifie le format d'enregistrement de l'objet **Recordset** (XML ou ADTG). La valeur par défaut est **adPersistADTG**.|
@@ -56,7 +56,7 @@ Lorsqu'un objet **Recordset** est conservé avec la propriété **CursorLocation
 > [!NOTE]
 > [!REMARQUE] L'enregistrement d'un objet **Recordset** avec des **champs** de type **adVariant**, **adIDispatch** ou **adIUnknown** n'est pas pris en charge par ADO et peut avoir des résultats imprévisibles.
 
-Seuls les **filtres** sous forme de chaînes de critères (par exemple \> , OrderDate' 12/31/1999 ') affectent le contenu d'un **jeu d'enregistrements**persistant. Les filtres créés avec un tableau **** de signets ou en utilisant une valeur de **FilterGroupEnum** n'ont pas d'incidence sur le contenu du **jeu d'enregistrements**persistant. Ces règles s'appliquent aux **jeux d'enregistrements** créés avec des curseurs côté client ou côté serveur.
+**Seuls** les filtres sous la forme de chaînes de critères (par exemple, OrderDate \> '31/12/1999') affectent le contenu d’un **recordset persistant.** Les filtres créés avec un tableau de **signets** ou à l’aide d’une valeur de **FilterGroupEnum** n’affectent pas le contenu du jeu **d’enregistrements persistant.** Ces règles s'appliquent aux **jeux d'enregistrements** créés avec des curseurs côté client ou côté serveur.
 
 Dans la mesure où le paramètre *Destination* peut accepter n’importe quel objet qui prend en charge l’interface OLE DB IStream, vous pouvez enregistrer un objet **Recordset** directement dans un objet de réponse ASP. Pour plus d’informations, consultez [Scénario de persistance des objets Recordset XML](xml-recordset-persistence-scenario.md).
 

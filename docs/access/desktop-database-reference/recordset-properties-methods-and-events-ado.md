@@ -1,5 +1,5 @@
 ---
-title: Recordset, propriétés, méthodes et événements (ADO)
+title: Recordset properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: aca81c6c-5b08-13e9-5bf5-3561a173f5bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307643"
 ---
-# <a name="recordset-properties-methods-and-events-ado"></a>Recordset, propriétés, méthodes et événements (ADO)
+# <a name="recordset-properties-methods-and-events-ado"></a>Recordset properties, methods, and events (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -75,7 +75,7 @@ ms.locfileid: "32307643"
 - [UpdateBatch, méthode](updatebatch-method-ado.md)
 
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 - [EndOfRecordset, événement](endofrecordset-event-ado.md)
 - [FetchComplete, événement](fetchcomplete-event-ado.md)

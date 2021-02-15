@@ -1,5 +1,5 @@
 ---
-title: Recordset2. MoveLast, méthode (DAO)
+title: Recordset2.MoveLast, méthode (DAO)
 TOCTitle: MoveLast Method
 ms:assetid: 32717786-c59c-ec22-666b-fc78e4265c5a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192306(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307258"
 ---
-# <a name="recordset2movelast-method-dao"></a>Recordset2. MoveLast, méthode (DAO)
+# <a name="recordset2movelast-method-dao"></a>Recordset2.MoveLast, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Atteint le dernier enregistrement d'un objet **Recordset** spécifié et en fait l'enregistrement actif.
+Atteint le dernier enregistrement d’un objet **Recordset** spécifié et en fait l’enregistrement actif.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . MoveLast (***options***)
+*.* MoveLast(***Options***)
 
-*expression* Variable qui représente un objet **Recordset2** .
+*expression* Variable qui représente un **objet Recordset2.**
 
 ## <a name="parameters"></a>Paramètres
 
@@ -47,7 +47,7 @@ Atteint le dernier enregistrement d'un objet **Recordset** spécifié et en fait
 <tr class="odd">
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Entier long</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Associez ce paramètre à la constante <strong>dbRunAsync</strong> pour obtenir une exécution asynchrone de l'appel de <strong>MoveLast</strong></p></td>
 </tr>
 </tbody>
@@ -58,13 +58,13 @@ Atteint le dernier enregistrement d'un objet **Recordset** spécifié et en fait
 
 La méthode **Move** permet de passer d’un enregistrement à un autre sans appliquer de condition.
 
-Si vous modifiez l'enregistrement actif, utilisez la méthode **Update** pour enregistrer les modifications avant de passer à un autre enregistrement. Si vous passez à un autre enregistrement sans procéder à la mise à jour, vos modifications seront perdues sans avertissement.
+Si vous modifiez l’enregistrement actif, utilisez la méthode **Update** pour enregistrer les modifications avant de passer à un autre enregistrement. Si vous passez à un autre enregistrement sans procéder à la mise à jour, vos modifications seront perdues sans avertissement.
 
-Lorsque vous ouvrez un objet **Recordset**, le premier enregistrement est actif et la propriété **BOF** a la valeur **False**. Si l'objet **Recordset** ne contient pas d'enregistrements, la propriété **BOF** a la valeur **True** et aucun enregistrement n'est actif.
+Lorsque vous ouvrez un objet **Recordset**, le premier enregistrement est actif et la propriété **BOF** a la valeur **False**. Si l’objet **Recordset** ne contient pas d’enregistrements, la propriété **BOF** a la valeur **True** et aucun enregistrement n’est actif.
 
-Si le premier ou le dernier enregistrement est déjà actif lorsque vous utilisez la méthode **MoveFirst** ou **MoveLast**, l'enregistrement actif ne change pas.
+Si le premier ou le dernier enregistrement est déjà actif lorsque vous utilisez la méthode **MoveFirst** ou **MoveLast**, l’enregistrement actif ne change pas.
 
-Si l'objet Recordset fait référence à un **objet Recordset** de type table (espaces de travail Microsoft Access uniquement), le déplacement suit l'index actif. Vous pouvez définir l'index actuel par le biais de la propriété **Index**. Si vous ne définissez pas l'index actuel, l'ordre des enregistrements renvoyés est indéfini.
+Si recordset fait référence à un objet **Recordset** de type table (espaces de travail Microsoft Access uniquement), le déplacement suit l’index actuel. Vous pouvez définir l'index actuel par le biais de la propriété **Index**. Si vous ne définissez pas l’index actuel, l’ordre des enregistrements renvoyés est indéfini.
 
 > [!NOTE]
 > [!REMARQUE] Vous pouvez utiliser la méthode **MoveLast** pour remplir entièrement un objet **Recordset** de type feuille de réponse dynamique ou instantané en vue de fournir le nombre actuel d'enregistrements présents dans l'objet **Recordset**. Toutefois, si vous utilisez **MoveLast** de cette manière, vous risquez de ralentir l'exécution de votre application. Il n'est conseillé d'utiliser la méthode **MoveLast** qu'en cas de nécessité absolue pour obtenir un décompte précis des enregistrements présents dans un objet **Recordset** récemment ouvert. 

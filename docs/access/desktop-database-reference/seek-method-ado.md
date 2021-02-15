@@ -1,5 +1,5 @@
 ---
-title: Seek, méthode-ActiveX Data Objects (ADO)
+title: Seek, méthode - ActiveX Data Objects (ADO)
 TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
@@ -22,11 +22,11 @@ Effectue une recherche dans l’index d’un objet [Recordset](recordset-object-
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. Rechercher des*valeurs*de KeyValues, *SeekOption*
+*recordset*. Seek *KeyValues*, *SeekOption*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*KeyValues* |Tableau de valeurs de type **Variant**. Un index se compose d'une ou plusieurs colonnes et le tableau contient une valeur à comparer à chaque colonne correspondante.|
 |*SeekOption* |Valeur [SeekEnum](seekenum.md) qui spécifie le type de comparaison à effectuer entre les colonnes de l’index et les *ValeursClés* correspondantes.|

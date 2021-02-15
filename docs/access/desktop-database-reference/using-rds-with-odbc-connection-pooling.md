@@ -23,7 +23,7 @@ Si vous utilisez une source de données ODBC, vous pouvez utiliser l'option de r
 
 Pour activer le regroupement de connexions, reportez-vous à la documentation IIS.
 
-Veuillez noter que l'activation du regroupement de connexions peut imposer au serveur Web d'autres restrictions, comme indiqué dans la documentation Microsoft Internet Information Services.
+Notez que l’activation de la mise en pool de connexions peut soumettre le serveur web à d’autres restrictions, comme indiqué dans Microsoft Internet Information Services documentation.
 
 Pour assurer la stabilité du regroupement de connexions et bénéficier de performances optimales, vous devez configurer Microsoft SQL Server afin qu'il utilise la bibliothèque réseau de sockets TCP/IP.
 
@@ -31,7 +31,7 @@ Pour ce faire, vous devez :
 
   - configurer l'ordinateur SQL Server pour une utilisation des sockets TCP/IP ;
 
-  - ConFigurez le serveur Web pour utiliser des sockets TCP/IP.
+  - Configurez le serveur web pour utiliser les sockets TCP/IP.
 
 ## <a name="configuring-the-sql-server-computer-to-use-tcpip-sockets"></a>Configuration de l'ordinateur SQL Server pour une utilisation des sockets TCP/IP
 
@@ -63,13 +63,13 @@ Sur l'ordinateur SQL Server, exécutez le programme d'installation de SQL Server
 
 5.  Cliquez sur **OK** pour terminer et quitter le programme d'installation.
 
-## <a name="configuring-the-web-server-to-use-tcpip-sockets"></a>Configuration du serveur Web pour utiliser des sockets TCP/IP
+## <a name="configuring-the-web-server-to-use-tcpip-sockets"></a>Configuration du serveur web pour utiliser des sockets TCP/IP
 
-Il existe deux options pour configurer le serveur Web de sorte qu'il utilise des sockets TCP/IP. Ce que vous devez faire dépend de l'accès à tous les serveurs SQL à partir du serveur Web, ou uniquement à partir du serveur Web.
+Deux options s’offrent à vous pour configurer le serveur web afin qu’il utilise des sockets TCP/IP. Ce que vous faites varie selon que tous les serveurs SQL sont accessibles à partir du serveur web ou que seule une SQL Server spécifique est accessible à partir du serveur web.
 
-Si tous les serveurs SQL sont accessibles à partir du serveur Web, vous devez exécuter l'utilitaire de configuration de client SQL Server sur l'ordinateur serveur Web. Les étapes suivantes modifient la bibliothèque réseau par défaut pour toutes les connexions SQL Server établies à partir de ce serveur Web IIS afin d'utiliser la bibliothèque réseau de sockets TCP/IP.
+Si tous SQL serveurs sont accessibles à partir du serveur web, vous devez exécuter l’utilitaire de configuration du client SQL Server sur l’ordinateur serveur web. Les étapes suivantes modifient la bibliothèque réseau par défaut pour toutes les connexions SQL Server de ce serveur web IIS afin d’utiliser la bibliothèque réseau de sockets TCP/IP.
 
-**Pour configurer le serveur Web (tous les serveurs SQL Server)**
+**Pour configurer le serveur web (tous les serveurs SQL)**
 
 **Pour Microsoft SQL Server 6.5 :**
 
@@ -91,9 +91,9 @@ Si tous les serveurs SQL sont accessibles à partir du serveur Web, vous devez e
 
 4.  Cliquez sur **OK** pour enregistrer les modifications et quitter l'utilitaire.
 
-Si vous accédez à un serveur SQL Server spécifique à partir d'un serveur Web, vous devez exécuter l'utilitaire de configuration de client SQL Server sur l'ordinateur serveur Web. Pour modifier la bibliothèque réseau pour une connexion SQL Server spécifique, configurez le logiciel client SQL Server sur l'ordinateur serveur Web comme suit.
+Si une SQL Server spécifique est accessible à partir d’un serveur web, vous devez exécuter l’utilitaire de configuration du client SQL Server sur l’ordinateur serveur web. Pour modifier la bibliothèque réseau pour une connexion SQL Server spécifique, configurez le logiciel client SQL Server sur l’ordinateur serveur web comme suit.
 
-**Pour configurer le serveur Web (SQL Server spécifique)**
+**Pour configurer le serveur web (une SQL Server)**
 
 **Pour Microsoft SQL Server 6.5 :**
 

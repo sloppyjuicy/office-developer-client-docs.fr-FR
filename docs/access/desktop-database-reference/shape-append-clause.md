@@ -100,7 +100,7 @@ Cette clause comporte les parties suivantes :
 
 
 > [!NOTE]
-> - La clause _«parent-Column to Child-Column»_ est en fait une liste, dans laquelle chaque relation définie est séparée par une virgule.
+> - La clause _« parent-column TO child-column »_ est en fait une liste, où chaque relation définie est séparée par une virgule.
 > - La clause suivant le mot-clé APPEND est en fait une liste, dans laquelle chaque clause est séparée par une virgule et définit une autre colonne à ajouter au parent.
 
 
@@ -114,14 +114,14 @@ Lorsque vous créez des commandes de fournisseur depuis une entrée utilisateur 
 SHAPE {select * from t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-SHAPE exécute deux commandes: SELECT \* from T1 et (Select \* from T2 relate K1 to K2). Si l'utilisateur fournit une commande composée de plusieurs commandes fournisseur séparées par des points-virgules, SHAPE ne sera pas capable de discerner les composantes de la commande. Ainsi, dans la commande SHAPE suivante,
+SHAPE exécute deux commandes : select \* from t1 et (select \* from t2 RELATE k1 TO k2). Si l'utilisateur fournit une commande composée de plusieurs commandes fournisseur séparées par des points-virgules, SHAPE ne sera pas capable de discerner les composantes de la commande. Ainsi, dans la commande SHAPE suivante,
 
 ```vb 
  
 SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-La forme exécute Select \* à partir de T1; drop table T1 et (Select \* from T2 relat K1 à K2), il n'est pas vrai que drop table T1 est un élément distinct et dans ce cas, une commande de fournisseur dangereuse. Les applications doivent toujours valider l'entrée utilisateur pour empêcher d'éventuelles attaques de pirates.
+SHAPE exécute select \* from t1; drop table t1 et (select from t2 RELATE k1 TO k2), sans se rendre compte que le tableau de drop t1 est une commande de fournisseur distincte et, dans ce \* cas, dangereuse. Les applications doivent toujours valider l'entrée utilisateur pour empêcher d'éventuelles attaques de pirates.
 
 Cette section contient les rubriques suivantes :
 

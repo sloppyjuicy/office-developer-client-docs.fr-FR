@@ -1,5 +1,5 @@
 ---
-title: Recordset2. Seek, méthode (DAO)
+title: Recordset2.Seek, méthode (DAO)
 TOCTitle: Seek Method
 ms:assetid: 9871619b-a303-c97d-54c0-defc8d9b87f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197940(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307188"
 ---
-# <a name="recordset2seek-method-dao"></a>Recordset2. Seek, méthode (DAO)
+# <a name="recordset2seek-method-dao"></a>Recordset2.Seek, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Seek (***Comparison***, ***key1***, ***touche2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)
+*expression* .Seek(***Comparison***, ***Key1***, ***Key2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)
 
-*expression* Variable qui représente un objet **Recordset2** .
+*expression* Variable qui représente un **objet Recordset2.**
 
 ## <a name="parameters"></a>Paramètres
 
@@ -45,7 +45,7 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Comparison</em></p></td>
+<td><p><em>Comparaison</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>L'une des expressions de chaîne suivantes : &lt;, &lt;=, =, &gt;= ou &gt;.</p></td>
@@ -54,7 +54,7 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 <td><p><em>Key1, Key2...Key13</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Une ou plusieurs valeurs correspondant aux champs dans l'index actuel de l'objet <strong>Recordset</strong>, comme indiqué par son paramètre de propriété <strong>Index</strong>. Vous pouvez utiliser jusqu’à 13 arguments key.</p></td>
+<td><p>Une ou plusieurs valeurs correspondant aux champs dans l'index actuel de l'objet <strong>Recordset</strong>, comme indiqué par son paramètre de propriété <strong>Index</strong>. Vous pouvez utiliser jusqu'à 13 arguments clés.</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,23 +64,23 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 
 Vous devez définir l’index actuel avec la propriété **Index** avant d’utiliser la méthode **Seek**. Si l’index identifie un champ de clé non unique, la méthode **Seek** localise le premier enregistrement qui correspond aux critères.
 
-La méthode **Seek** recherche dans les champs de clé spécifiés et localise le premier enregistrement qui correspond aux critères spécifiés par Comparison et key1. Une fois trouvé, cet enregistrement devient l’enregistrement actif et la propriété **NoMatch** est définie sur **False**. Si la méthode **Seek** ne trouve pas de correspondance, la propriété **NoMatch** est définie sur **True**, et l’enregistrement actif n’est pas défini.
+La méthode **Seek** effectue une recherche dans les champs de clé spécifiés et localise le premier enregistrement qui correspond aux critères spécifiés par comparaison et key1. Une fois trouvé, cet enregistrement devient l’enregistrement actif et la propriété **NoMatch** est définie sur **False**. Si la méthode **Seek** ne trouve pas de correspondance, la propriété **NoMatch** est définie sur **True**, et l’enregistrement actif n’est pas défini.
 
-Si comparaison est égal (=), supérieur ou égal (\>=) ou supérieur à (\>), la méthode **Seek** commence au début de l'index et effectue une recherche vers l'avant.
+Si le paramètre de comparaison est égal (=), supérieur ou égal (\>=) ou supérieur à (\>), la méthode **Seek** commence au début de l’index et effectue une recherche vers l’avant.
 
-Si comparaison est inférieur à (\<) ou inférieur ou égal (\<=), la méthode **Seek** commence à la fin de l'index et effectue une recherche vers l'arrière. Toutefois, s'il existe des doublons à la fin de l'index, la méthode **Seek** démarre arbitrairement à partir de l'un des doublons, puis effectue une recherche vers l'arrière.
+Si le paramètre de comparaison est inférieur (\<) ou inférieur ou égal à (\<=), la méthode **Seek** commence à la fin de l’index et effectue une recherche vers l’arrière. Toutefois, s'il existe des doublons à la fin de l'index, la méthode **Seek** démarre arbitrairement à partir de l'un des doublons, puis effectue une recherche vers l'arrière.
 
-Vous devez spécifier des valeurs pour tous les champs définis dans l'index. Si vous utilisez la méthode **Seek** avec un index à plusieurs colonnes et que vous ne spécifiez pas de valeur de comparaison pour chaque champ de l’index, vous ne pouvez pas utiliser l’opérateur égal (=) dans la comparaison. Ceci est dû au fait que certains champs de critères (key2, key3, etc.) seront définis par défaut sur Null, et ne correspondront probablement pas. Par conséquent, l’opérateur égal ne fonctionnera correctement que si vous disposez d’un enregistrement entièrement **null**, à l’exception de la clé que vous recherchez. Il est recommandé d'utiliser à la place l'opérateur supérieur ou\>égal (=).
+Vous devez spécifier des valeurs pour tous les champs définis dans l'index. Si vous utilisez la méthode **Seek** avec un index à plusieurs colonnes et que vous ne spécifiez pas de valeur de comparaison pour chaque champ de l’index, vous ne pouvez pas utiliser l’opérateur égal (=) dans la comparaison. C’est parce que certains champs de critères (key2, key3 et ainsi de suite) utilisent par défaut Null, ce qui ne correspondra pas. Par conséquent, pour que l’opérateur d’égalité (=) fonctionne correctement, vous devez avoir un enregistrement entièrement **null** à l’exception de la clé que vous recherchez. Nous vous recommandons d’utiliser l’opérateur supérieur ou égal (\>=) à la place.
 
-L’argument key1 doit être du même type de champ que le champ correspondant dans l’index actuel. Par exemple, si l’index actuel fait référence à un champ numérique (comme Employee ID), key1 doit être numérique. De même, si l’index actuel fait référence à un champ de texte (comme Last Name), key1 doit être une chaîne.
+L’argument key1 doit être identique à celui du champ de données correspondant dans l’index actuel. Par exemple, si l’index actuel fait référence à un champ numérique (par exemple, « ID employé »), key1 doit être numérique. De même, si l’index actuel fait référence à un champ de texte (par exemple, « Nom »), key1 doit être une chaîne.
 
-Il n'est pas nécessaire d'avoir un enregistrement actif pour utiliser **Seek**.
+Il n’est pas obligatoire qu’un enregistrement soit actif lorsque vous utilisez la méthode **Seek**.
 
-Vous pouvez utiliser la collection **[Indexes](indexes-collection-dao.md)** pour énumérer les index existants.
+Vous pouvez utiliser la collection d’**[index](indexes-collection-dao.md)** pour énumérer les index existants.
 
-Pour rechercher un enregistrement dans un objet **Recordset** de type feuille de réponse dynamique ou instantané qui satisfasse à une condition spécifique non représentée par les index existants, utilisez la méthode **[Find](recordset2-findfirst-method-dao.md)**. Pour inclure tous les enregistrements, et pas seulement ceux qui répondent à une condition spécifique, utilisez la méthode **[Move](recordset-movefirst-method-dao.md)** pour passer d'un enregistrement à un autre.
+Pour localiser un enregistrement dans un **Recordset** de type feuille de réponse dynamique ou capture instantanée qui répond à une condition spécifique non couverte pas les index existants, utilisez les méthodes **[Find](recordset2-findfirst-method-dao.md)**. Pour inclure tous les enregistrements, et pas uniquement ceux qui répondent à une condition spécifique, utilisez les méthodes **[Move](recordset-movefirst-method-dao.md)** pour passer d’un enregistrement à un autre.
 
-Vous ne pouvez pas appliquer la méthode **Seek** à une table liée, car les tables liées ne peuvent pas être ouvertes en tant qu'objets **Recordset** de type table. Cependant, si vous vous servez de la méthode **[OpenDatabase](dbengine-opendatabase-method-dao.md)** pour ouvrir directement une base de données ISAM installable (non ODBC), vous pouvez appliquer la méthode **Seek** aux tables de cette base de données.
+Vous ne pouvez pas utiliser la méthode **Seek** sur une table liée, car vous ne pouvez pas ouvrir des tables liées en tant qu’objets **Recordset** de type table. Toutefois, si vous utilisez la méthode **[OpenDatabase](dbengine-opendatabase-method-dao.md)** pour ouvrir directement une base de données ISAM (non ODBC) installable, vous pouvez utiliser **Seek** sur les tables de cette base de données.
 
 ## <a name="example"></a>Exemple
 

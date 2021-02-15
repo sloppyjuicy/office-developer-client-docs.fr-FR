@@ -22,7 +22,7 @@ Cette méthode met à jour les données d’un objet [Recordset](recordset-objec
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. *Options* d'actualiser
+*recordset*. Options de *requête*
 
 ## <a name="parameters"></a>Paramètres
 
@@ -31,7 +31,7 @@ Cette méthode met à jour les données d’un objet [Recordset](recordset-objec
 |*Options* |Facultatif. Masque de bits contenant des valeurs [ExecuteOptionEnum](executeoptionenum.md) et [CommandTypeEnum](commandtypeenum.md) affectant cette opération.|
 
 > [!NOTE]
-> Si *options* a la valeur **adAsyncExecute**, cette opération est exécutée de manière asynchrone et un événement [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) est déclenché lorsqu'elle est terminée.
+> Si *Options* est définie sur **adAsyncExecute,** cette opération s’exécute de manière asynchrone et un [événement RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) est émis lorsqu’elle se termine.
 
 Les valeurs **adExecuteNoRecords** ou **adExecuteStream** de l'énumération **ExecuteOpenEnum** ne doivent pas être utilisées avec **Requery**.
 

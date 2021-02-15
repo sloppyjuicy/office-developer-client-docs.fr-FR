@@ -1,5 +1,5 @@
 ---
-title: TableDef. Properties, propriété (DAO)
+title: TableDef.Properties, propriété (DAO)
 TOCTitle: Properties Property
 ms:assetid: e6eefc5f-498c-77c1-79e1-e4d0b8cc2133
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835993(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314272"
 ---
-# <a name="tabledefproperties-property-dao"></a>TableDef. Properties, propriété (DAO)
+# <a name="tabledefproperties-property-dao"></a>TableDef.Properties, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Propriétés
+*.* Propriétés
 
-*expression* Variable qui représente un objet **TableDef** .
+*expression* Variable représentant un objet **TableDef**.
 

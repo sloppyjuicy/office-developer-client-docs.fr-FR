@@ -22,11 +22,11 @@ ms.locfileid: "32313575"
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. UpdateBatch*AffectRecords*
+*recordset*. UpdateBatch *AffectRecords*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*AffectRecords* |Facultatif. Valeur [AffectEnum](affectenum.md) indiquant le nombre d'enregistrements affectés par la méthode **UpdateBatch**.|
 

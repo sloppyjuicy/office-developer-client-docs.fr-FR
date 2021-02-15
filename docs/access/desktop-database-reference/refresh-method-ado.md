@@ -22,7 +22,7 @@ Met à jour les objets d’une collection pour qu’ils reflètent les objets di
 
 ## <a name="syntax"></a>Syntaxe
 
-*collection*. Intervalle
+*.* Actualiser
 
 ## <a name="remarks"></a>Remarques
 
@@ -39,7 +39,7 @@ Si vous accédez à la collection **Parameters** avant d'appeler la méthode **R
 > [!NOTE]
 > [!REMARQUE] Si vous utilisez la méthode **Refresh** pour obtenir des paramètres du fournisseur et que cette méthode retourne un ou plusieurs objets [Parameter](parameter-object-ado.md) qui possèdent un type de données de longueur variable, ADO peut allouer de la mémoire à ces paramètres en fonction de leur taille maximale potentielle, ce qui entraîne une erreur lors de l'exécution. Pour éviter ces erreurs, vous devez définir explicitement la propriété [Size](size-property-ado.md) de ces paramètres avant d'appeler la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
 
-### <a name="fields"></a>Fields
+### <a name="fields"></a>Champs
 
 L'application de la méthode **Refresh** à la collection **Fields** ne produit aucun effet visible. Pour extraire des modifications de la structure de base de données sous-jacente , vous devez utiliser la méthode [Requery](requery-method-ado.md) ou, si l'objet [Recordset](recordset-object-ado.md) ne prend pas en charge les signets, la méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md).
 

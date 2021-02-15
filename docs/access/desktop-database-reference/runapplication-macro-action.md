@@ -40,7 +40,7 @@ Vous pouvez utiliser l'action **ExécuterApplication** pour exécuter une applic
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ExécuterApplication** utilise l’argument suivant :
 

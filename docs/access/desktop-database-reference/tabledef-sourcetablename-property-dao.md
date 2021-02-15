@@ -1,5 +1,5 @@
 ---
-title: TableDef. SourceTableName, propriété (DAO)
+title: TableDef.SourceTableName, propriété (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314258"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a>TableDef. SourceTableName, propriété (DAO)
+# <a name="tabledefsourcetablename-property-dao"></a>TableDef.SourceTableName, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013 
@@ -27,9 +27,9 @@ Définit ou renvoie un valeur spécifiant le nom d’une table liée ou celui d�
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . SourceTableName
+*.* SourceTableName
 
-*expression* Variable qui représente un objet **TableDef** .
+*expression* Variable représentant un objet **TableDef**.
 
 ## <a name="remarks"></a>Remarques
 

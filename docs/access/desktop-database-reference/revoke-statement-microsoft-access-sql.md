@@ -26,9 +26,9 @@ Révoque des privilèges spécifiques à un utilisateur ou à un groupe existant
 
 ## <a name="syntax"></a>Syntaxe
 
-Revoke {*privilège*\[, *privilège*,... \]} Sur {table *table* | Object, *objet*|
+REVOKE {*privilège* \[ , *privilège*, ... \] } ON {TABLE *|* OBJECT, *objet*|
 
-*Conteneur*de connomautorisation**\[, *nomautorisation*,... \]}
+CONTENEUR *CONTAINTER*} FROM {*authorizationname* \[ , *authorizationname*, ... \] }
 
 L'instruction REVOKE est composée des arguments suivants :
 
@@ -46,7 +46,7 @@ L'instruction REVOKE est composée des arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><em>privilège</em></p></td>
-<td><p>Le ou les privilèges à révoquer. Les privilèges sont spécifiés à l'aide des mots clés suivants: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATe, SELECTSCHEMA, SCHEMA et UPDATEOWNER.</p></td>
+<td><p>Le ou les privilèges à révoquer. Les privilèges sont spécifiés à l’aide des mots clés suivants : SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA et UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>table</em></p></td>
@@ -61,7 +61,7 @@ L'instruction REVOKE est composée des arguments suivants :
 <td><p>Nom d'un conteneur valide.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>nomautorisation</em></p></td>
+<td><p><em>authorizationname</em></p></td>
 <td><p>Nom d'utilisateur ou de groupe.</p></td>
 </tr>
 </tbody>

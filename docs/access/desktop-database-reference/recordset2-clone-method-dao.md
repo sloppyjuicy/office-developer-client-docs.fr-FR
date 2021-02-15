@@ -1,5 +1,5 @@
 ---
-title: Recordset2. Clone, méthode (DAO)
+title: Recordset2.Clone, méthode (DAO)
 TOCTitle: Clone Method
 ms:assetid: f0d32cb1-03f6-395d-2509-b2139a5fdc68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307391"
 ---
-# <a name="recordset2clone-method-dao"></a>Recordset2. Clone, méthode (DAO)
+# <a name="recordset2clone-method-dao"></a>Recordset2.Clone, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Crée un objet **[Recordset](recordset-object-dao.md)** en double qui fait réf�
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Cloné
+*expression* . Clone
 
-*expression* Variable qui représente un objet **Recordset2** .
+*expression* Variable qui représente un **objet Recordset2.**
 
 ## <a name="return-value"></a>Valeur renvoyée
 

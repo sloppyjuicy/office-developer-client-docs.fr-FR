@@ -22,11 +22,11 @@ Indique la colonne selon laquelle les enregistrements sont triés.
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. SortColumn = *chaîne*
+*DataControl*. SortColumn = *Chaîne*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 |*String* |Une valeur **String** qui représente le nom ou l'alias de la colonne selon laquelle les enregistrements sont triés.|
@@ -35,5 +35,5 @@ Indique la colonne selon laquelle les enregistrements sont triés.
 
 Les propriétés **SortColumn**, [SortDirection](sortdirection-property-rds.md), [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md) et [FilterColumn](filtercolumn-property-rds.md) fournissent les fonctionnalités de tri et filtrage sur le cache côté client. La fonctionnalité de tri organise les enregistrements par valeur dans une colonne. La fonctionnalité de filtrage affiche un sous-ensemble d’enregistrements basés sur des critères de recherche tandis que le [Recordset](recordset-object-ado.md) complet est conservé dans le cache. La méthode [Reset](reset-method-rds.md) exécute les critères et remplace le **Recordset** actuel par un **Recordset** actualisable.
 
-Pour trier un **Recordset**, vous devez tout d'abord enregistrer toutes les modifications effectuées. Si vous utilisez le **RDS.DataControl**, vous pouvez utiliser la méthode [SubmitChanges](submitchanges-method-rds.md). Par exemple, si votre **objet RDS. DataControl** est nommé ADC1, votre code doit être ADC1. SubmitChanges. Si vous utilisez un **Recordset** ADO, vous pouvez utiliser sa méthode [UpdateBatch](updatebatch-method-ado.md). La méthode recommandée pour les objets **Recordset** créés avec la méthode **CreateRecordset** est [UpdateBatch](createrecordset-method-rds.md). Par exemple, votre code peut être myRS. UpdateBatch ou. Si vous utilisez un **Recordset** ADO, vous pouvez utiliser sa méthode [UpdateBatch](updatebatch-method-ado.md). La méthode recommandée pour les objets **Recordset** créés avec la méthode **CreateRecordset** est [UpdateBatch](createrecordset-method-rds.md). Par exemple, votre code peut être myRS. UpdateBatch ou ADC1. Recordset. UpdateBatch.
+Pour trier un **Recordset**, vous devez tout d'abord enregistrer toutes les modifications effectuées. Si vous utilisez le **RDS.DataControl**, vous pouvez utiliser la méthode [SubmitChanges](submitchanges-method-rds.md). Par exemple, si votre **RDS. DataControl** est nommé ADC1, votre code serait ADC1. SubmitChanges . Si vous utilisez un **Recordset** ADO, vous pouvez utiliser sa méthode [UpdateBatch](updatebatch-method-ado.md). La méthode recommandée pour les objets **Recordset** créés avec la méthode **CreateRecordset** est [UpdateBatch](createrecordset-method-rds.md). Par exemple, votre code peut être myRS.UpdateBatch ou . Si vous utilisez un **Recordset** ADO, vous pouvez utiliser sa méthode [UpdateBatch](updatebatch-method-ado.md). La méthode recommandée pour les objets **Recordset** créés avec la méthode **CreateRecordset** est [UpdateBatch](createrecordset-method-rds.md). Par exemple, votre code peut être myRS.UpdateBatch ou ADC1. Recordset.UpdateBatch .
 

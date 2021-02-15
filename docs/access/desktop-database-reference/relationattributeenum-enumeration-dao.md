@@ -1,5 +1,5 @@
 ---
-title: RelationAttributeEnum, énumération (DAO)
+title: RelationAttributeEnum, éumération (DAO)
 TOCTitle: RelationAttributeEnum Enumeration
 ms:assetid: ce8d0696-66d7-052f-1313-64baee3442ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834499(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306978"
 ---
-# <a name="relationattributeenum-enumeration-dao"></a>RelationAttributeEnum, énumération (DAO)
+# <a name="relationattributeenum-enumeration-dao"></a>RelationAttributeEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -41,13 +41,13 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 <td><p>Suppressions en cascade</p></td>
 </tr>
 <tr class="even">
-<td><p>Valeur dbRelationDontEnforce</p></td>
-<td><p>n°2</p></td>
+<td><p>dbRelationDontEnforce</p></td>
+<td><p>2 </p></td>
 <td><p>Relation non appliquée (aucune intégrité référentielle)</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbRelationInherited</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Une relation existe dans la base de données qui contient les deux tables attachées</p></td>
 </tr>
 <tr class="even">
@@ -62,7 +62,7 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 </tr>
 <tr class="even">
 <td><p>dbRelationUnique</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Relation un-à-un</p></td>
 </tr>
 <tr class="odd">

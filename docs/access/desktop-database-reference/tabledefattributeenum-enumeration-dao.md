@@ -1,5 +1,5 @@
 ---
-title: TableDefAttributeEnum, énumération (DAO)
+title: TableDefAttributeEnum, éumération (DAO)
 TOCTitle: TableDefAttributeEnum Enumeration
 ms:assetid: 5a0dea24-9092-1642-a3d9-29f0de0a4ee4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194433(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314237"
 ---
-# <a name="tabledefattributeenum-enumeration-dao"></a>TableDefAttributeEnum, énumération (DAO)
+# <a name="tabledefattributeenum-enumeration-dao"></a>TableDefAttributeEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -57,7 +57,7 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 </tr>
 <tr class="odd">
 <td><p>dbHiddenObject</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Table masquée (pour une utilisation temporaire).</p></td>
 </tr>
 <tr class="even">

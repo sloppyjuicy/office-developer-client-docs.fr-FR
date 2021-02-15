@@ -48,7 +48,7 @@ Incluez le fichier suivant dans votre application pour pouvoir utiliser les exte
 
 1.  Créez une classe dérivée de la classe **CADORecordBinding**.
 
-2.  Spécifiez les entrées de liaison et les variables C/C++ correspondantes dans la classe dérivée. Mettez en fourchette les entrées de liaison entre les macros **Begin\_Binding ADO\_** et **End\_ADO\_Binding** . Les macros ne doivent pas se terminer par des virgules ou des points-virgules. Les délimiteurs appropriés sont spécifiés automatiquement par chaque macro. Spécifiez une entrée de liaison pour chaque champ à mapper à une variable C/C++. Utilisez un membre approprié à partir de l'entrée **ADO\_de longueur\_\_fixe**, d'une **entrée numérique\_\_ADO**ou d'une famille de macros d'entrée de **longueur\_\_\_variable ADO** .
+2.  Spécifiez les entrées de liaison et les variables C/C++ correspondantes dans la classe dérivée. Mettre entre crochets les entrées de liaison entre les macros **BEGIN \_ ADO \_ BINDING** et **END \_ ADO \_ BINDING.** Les macros ne doivent pas se terminer par des virgules ou des points-virgules. Les délimiteurs appropriés sont spécifiés automatiquement par chaque macro. Spécifiez une entrée de liaison pour chaque champ à mapper à une variable C/C++. Utilisez un membre approprié de la famille de macros ENTRÉE LONGUEUR FIXE **ADO, \_ \_ \_** ENTRÉE NUMÉRIQUE **ADO \_ \_** ou **LONGUEUR \_ VARIABLE \_ \_ ADO.**
 
 3.  Dans votre application, créez une instance de la classe dérivée de **CADORecordBinding**. Obtenez l'interface **IADORecordBinding** de l'objet **Recordset**, puis appelez la méthode **BindToRecordset** pour lier les champs de l'objet **Recordset** aux variables C/C++.
 
@@ -82,28 +82,28 @@ Pour plus d'informations, consultez le manuel *OLE DB Programmer's Reference*, A
 
 _**Début des entrées de liaison**_
 
-**DÉBUT\_de\_la liaison ADO**(*classe*)
+**BEGIN \_ ADO \_ BINDING**(*Class*)
 
 _**Données de longueur fixe**_
 
-**Entrée\_ADO\_de\_longueur fixe**(*ordinal, type de données, mémoire tampon, État, modifier*)  
-**ENTRY2\_de\_longueur\_fixe ADO**(*ordinal, type de données, mémoire tampon, modifier*)
+**ADO \_ FIXED \_ LENGTH \_ ENTRY**(*Ordinal, DataType, Buffer, Status, Modify*)  
+**ADO \_ FIXED \_ LENGTH \_ ENTRY2**(*Ordinal, DataType, Buffer, Modify*)
 
 _**Données numériques**_
 
-**Entrée\_numérique\_ADO**(*ordinal, type de données, mémoire tampon, précision, taille, État, modifier*)  
-**ENTRY2\_numérique\_ADO**(*ordinal, type de données, mémoire tampon, précision, homothétie, modifier*)
+**ADO \_ NUMERIC \_ ENTRY**(*Ordinal, DataType, Buffer, Precision, Scale, Status, Modify*)  
+**ADO \_ NUMERIC \_ ENTRY2**(*Ordinal, DataType, Buffer, Precision, Scale, Modify*)
 
 _**Données de longueur variable**_
 
-**Entrée\_de\_longueur\_variable ADO**(*ordinal, type de données, mémoire tampon, taille, État, longueur, modifier*)  
-**ENTRY2\_de\_longueur\_variable ADO**(*ordinal, type de données, mémoire tampon, taille, État, modifier*)  
-**ENTRY3\_de\_longueur\_variable ADO**(*ordinal, type de données, mémoire tampon, taille, longueur, modifier*)  
-**ENTRY4\_de\_longueur\_variable ADO**(*ordinal, type de données, mémoire tampon, taille, modifier*)
+**ADO \_ ENTRÉE \_ DE LONGUEUR \_ VARIABLE**(*Ordinal, Type de données, Mémoire tampon, Taille, État, Longueur, Modifier*)  
+**ADO \_ VARIABLE \_ LENGTH \_ ENTRY2**(*Ordinal, DataType, Buffer, Size, Status, Modify*)  
+**ADO \_ VARIABLE \_ LENGTH \_ ENTRY3**(*Ordinal, DataType, Buffer, Size, Length, Modify*)  
+**ADO \_ VARIABLE \_ LENGTH \_ ENTRY4**(*Ordinal, DataType, Buffer, Size, Modify*)
 
 _**Entrées de liaison de fin**_
 
-**Fin\_de\_la liaison ADO** ()
+**END \_ LIAISON \_ ADO**()
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ _**Entrées de liaison de fin**_
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -134,12 +134,12 @@ _**Entrées de liaison de fin**_
 <td><p>Nom de la variable C/C++ dans laquelle le champ de l'objet <strong>Recordset</strong> va être stocké.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Size</em></p></td>
+<td><p><em>Taille</em></p></td>
 <td><p>Taille maximale, en octets, du paramètre <em>Mémoire tampon</em>. Si le paramètre <em>Mémoire tampon</em> contient une chaîne de longueur variable, prévoyez de l'espace pour un zéro de fin.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Status</em></p></td>
-<td><p>Nom d'une variable qui indique si le contenu du paramètre <em>Mémoire tampon</em> est valide et si la conversion du champ en <em>Type de données</em> s'est correctement déroulée. Les deux valeurs les plus importantes de cette variable sont <strong>adFldOK</strong>, qui indique que la conversion s'est correctement déroulée, et <strong>adFldNull</strong>, qui indique que la valeur du champ est un VARIANT de type VT_NULL et que ce champ n'est pas simplement vide. Les valeurs possibles de l' <em>État</em> sont répertoriées dans le &quot;tableau suivant, Values Status.&quot;</p></td>
+<td><p><em>État</em></p></td>
+<td><p>Nom d'une variable qui indique si le contenu du paramètre <em>Mémoire tampon</em> est valide et si la conversion du champ en <em>Type de données</em> s'est correctement déroulée. Les deux valeurs les plus importantes de cette variable sont <strong>adFldOK</strong>, qui indique que la conversion s'est correctement déroulée, et <strong>adFldNull</strong>, qui indique que la valeur du champ est un VARIANT de type VT_NULL et que ce champ n'est pas simplement vide. Les valeurs possibles <em>pour l’état</em> sont répertoriées dans le tableau suivant, &quot; Valeurs d’état.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Modify</em></p></td>
@@ -147,11 +147,11 @@ _**Entrées de liaison de fin**_
  Affectez la valeur TRUE au paramètre <em>modifier</em> booléen pour permettre à ADO de mettre à jour le champ lié et la valeur FALSE si vous voulez examiner le champ sans le modifier.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Dell</em></p></td>
+<td><p><em>Précision</em></p></td>
 <td><p>Nombre de chiffres pouvant être représenté dans une variable numérique.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Scale</em></p></td>
+<td><p><em>´Mise à l’échelle</em></p></td>
 <td><p>Nombre de décimales dans une variable numérique.</p></td>
 </tr>
 <tr class="even">
@@ -189,67 +189,67 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="even">
 <td><p><strong>adFldBadAccessor</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Liaison non valide.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldCantConvertValue</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>La valeur n'a pas pu être convertie pour une raison autre qu'une non correspondance de signes ou un dépassement de capacité.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldNull</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Lors de l'obtention d'un champ, indique qu'une valeur null a été retournée. Lors de la définition d'un champ, indique que le champ doit être affecté de la valeur <strong>NULL</strong> lorsqu'il ne peut pas coder lui-même la valeur <strong>NULL</strong> (par exemple, un tableau de caractères ou un nombre entier).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldTruncated</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Des données de longueur variable ou des chiffres ont été tronqués.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldSignMismatch</strong></p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>La valeur est signée et le type de données de la variable ne l'est pas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldDataOverFlow</strong></p></td>
-<td><p>6.x</p></td>
+<td><p>6 </p></td>
 <td><p>La valeur est supérieure à la capacité de stockage du type de données de la variable.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldCantCreate</strong></p></td>
-<td><p>7j/7</p></td>
+<td><p>7 </p></td>
 <td><p>Type de colonne inconnu et champ déjà ouvert.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldUnavailable</strong></p></td>
-<td><p>8bits</p></td>
+<td><p>8 </p></td>
 <td><p>La valeur du champ n'a pas pu être déterminée, par exemple, sur un nouveau champ non assigné et ne comportant aucune valeur par défaut.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldPermissionDenied</strong></p></td>
-<td><p>4,9</p></td>
+<td><p>9 </p></td>
 <td><p>Lors d'une mise à jour, absence d'autorisation d'écriture des données.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIntegrityViolation</strong></p></td>
-<td><p>10</p></td>
+<td><p>10 </p></td>
 <td><p>Lors d'une mise à jour, la valeur du champ enfreint l'intégrité de la colonne.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldSchemaViolation</strong></p></td>
-<td><p>a4</p></td>
+<td><p>11</p></td>
 <td><p>Lors d'une mise à jour, la valeur du champ ne respecte pas le schéma de colonne.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldBadStatus</strong></p></td>
-<td><p>an</p></td>
+<td><p>12 </p></td>
 <td><p>Lors d'une mise à jour, paramètre d'état incorrect.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldDefault</strong></p></td>
-<td><p>kg</p></td>
+<td><p>13 </p></td>
 <td><p>Lors d'une mise à jour, une valeur par défaut a été utilisée.</p></td>
 </tr>
 </tbody>

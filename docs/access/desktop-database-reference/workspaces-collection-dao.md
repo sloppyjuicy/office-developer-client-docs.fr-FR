@@ -1,5 +1,5 @@
 ---
-title: Workspaces, collection (DAO)
+title: Workspaces collection (DAO)
 TOCTitle: Workspaces Collection
 ms:assetid: 88b851ce-4180-964f-582e-bc9571bf554c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197057(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308322"
 ---
-# <a name="workspaces-collection-dao"></a>Workspaces, collection (DAO)
+# <a name="workspaces-collection-dao"></a>Workspaces collection (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -25,27 +25,27 @@ Une collection **Workspaces** contient tous les objets **Workspace** actifs et n
 
 L'objet **Workspace** permet de gérer la session active ou de démarrer une session supplémentaire.
 
-Lorsque vous faites référence à un objet **Workspace** ou que vous l'utilisez, vous créez automatiquement l'espace de noms par défaut, DBEngine. Workspaces (0). Les paramètres des propriétés **Name** et **username** de l'objet Workspace par défaut sont\#«default\#Workspace» et «admin», respectivement. Si la sécurité est activée, le paramètre de propriété **UserName** correspond au nom de l'utilisateur connecté.
+Lorsque vous utilisez ou référencez un objet **Workspace** pour la première fois, vous créez automatiquement l’espace de travail par défaut DBEngine.Workspaces(0). Les paramètres des propriétés **Name** et **UserName** de l’espace de travail par défaut sont respectivement « \##Default Workspace#\# » et « Admin ». Si la sécurité est activée, la **nom d’utilisateur** paramètre de la propriété est le nom de l’utilisateur connecté.
 
 Vous pouvez créer de nouveaux objets **Workspace** à l'aide de la méthode **[CreateWorkspace](dbengine-createworkspace-method-dao.md)**. Une fois le nouvel objet **Workspace** créé, vous devez l'ajouter à la collection **Workspaces** si vous devez vous y référer à partir de la collection. **Workspaces** Toutefois, vous pouvez utiliser un objet **Workspace** nouvellement créé sans l'ajouter à la collection **Workspaces**.
 
-Pour faire référence à un objet **Workspace** d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
+Pour faire référence à un objet **TableDef** dans une collection par son nombre ordinal ou par son paramètre de propriété **Name**, utilisez l’une des formes de syntaxe suivantes :
 
-**DBEngine**. **Espaces de travail** 0
+**DBEngine**.**Workspaces**(0)
 
-**DBEngine**. **Espaces de travail** ("nom")
+**DBEngine**.**Workspaces**("name")
 
-**DBEngine**. **Espaces de travail** \! \[\]
+**DBEngine**.**Workspaces**\!\[name\]
 
 
 > [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
 
 
 
 ## <a name="example"></a>Exemple
 
-Cet exemple crée un nouvel objet Microsoft Access et l'ajoute aux collections **Workspaces**. Il énumère ensuite les collections **Workspaces** et la collection **Properties** de chaque objet **Workspace**.
+Cet exemple crée un objet espace de travail Microsoft Access et qu’il ajoute le **espaces de travail** collection de sites. Il énumère ensuite la **espaces de travail** collections de sites et le **propriétés** ensemble de la **espace de travail** objet.
 
 ```vb 
 Sub WorkspaceX() 

@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312025"
 ---
-# <a name="using-the-command-object-access"></a>Utilisation de l'objet Command (Access)
+# <a name="using-the-command-object-access"></a>Utilisation de l’objet Command (Access)
 
 
 **S’applique à** : Access 2013, Office 2013

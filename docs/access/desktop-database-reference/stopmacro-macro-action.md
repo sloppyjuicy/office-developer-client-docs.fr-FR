@@ -18,25 +18,25 @@ ms.locfileid: "32308497"
 
 **S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l'action **ArrêtMacro** pour arrêter la macro en cours d'exécution.
+Vous pouvez utiliser l’action **ArrêterMacro** pour arrêter la macro en cours d’exécution.
 
 ## <a name="setting"></a>Setting
 
-L'action **ArrêtMacro** ne possède aucun argument.
+**L’action StopMacro** ne comprend aucun argument.
 
 ## <a name="remarks"></a>Remarques
 
-Cette action est généralement utilisée lorsqu'une condition nécessite l'arrêt de la macro. Vous pouvez utiliser une expression conditionnelle dans la ligne d'action de la macro contenant cette action. Lorsque l'expression renvoie la **valeur true** (– 1), Microsoft Access arrête la macro.
+Cette action est généralement utilisée lorsqu’une condition rend nécessaire l’arrêt de la macro. Vous pouvez utiliser une expression conditionnelle dans la ligne d'action de la macro contenant cette action. Lorsque l’expression est évaluée à **True** (–1), Microsoft Access arrête la macro.
 
-Par exemple, vous pouvez créer une macro qui ouvre un formulaire affichant le nombre total quotidien de commandes pour la date entrée dans une boîte de dialogue personnalisée. Vous pouvez utiliser une expression conditionnelle pour vous assurer que le contrôle **Date commande** dans la boîte de dialogue contient une date valide. Si ce n'est pas le cas, l'action **MessageBox** peut afficher un message d'erreur et l'action **ArrêtMacro** peut arrêter la macro.
+Par exemple, vous pouvez créer une macro qui ouvre un formulaire affichant les totaux de commande quotidiens de la date entrée dans une boîte de dialogue personnalisée. Vous pouvez utiliser une expression conditionnelle  pour vous assurer que le contrôle Date de commande de la boîte de dialogue contient une date valide. Si ce n’est pas le cas, l’action **MessageBox** peut afficher un message d’erreur et l’action **ArrêterMacro** peut arrêter la macro.
 
-Si la macro a utilisé les actions **echo** ou **SetWarnings** pour désactiver l'écho ou l'affichage des messages système, l'action **ArrêtMacro** les réactive automatiquement.
+Si la macro a utilisé les actions **Écho** ou **SetWarnings** pour désactiver l’écho ou l’affichage des messages système, l’action **ArrêterMacro** les réensaie automatiquement.
 
 Cette action n'est pas disponible dans les modules Visual Basic pour Applications (VBA).
 
 ## <a name="example"></a>Exemple
 
-La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu'une erreur se produit, la sous-macro CatchErrors est appelée. Si le numéro de l'erreur est 2102, un message spécifique s'affiche et l'exécution de la macro est interrompue. Dans le cas contraire, un message décrivant l'erreur s'affiche et la macro est suspendue pour vous permettre d'effectuer des procédures de dépannage supplémentaires. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
+La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu’une erreur se produit, le sous-macro CatchErrors est appelé. Si le numéro d’erreur est 2102, un message spécifique s’affiche et l’exécution des macros est interrompue. Dans le cas contraire, un message décrivant l’erreur s’affiche et la macro est suspendue afin que vous pouvez effectuer un dépannage supplémentaire. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

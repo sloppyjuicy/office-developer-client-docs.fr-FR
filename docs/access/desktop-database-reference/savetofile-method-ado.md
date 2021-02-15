@@ -22,11 +22,11 @@ Enregistre le contenu binaire d’un objet [Stream](stream-object-ado.md) dans u
 
 ## <a name="syntax"></a>Syntaxe
 
-*Stream*. SaveToFile*filename*, *SaveOptions*
+*Stream*. SaveToFile *FileName*, *SaveOptions*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*FileName* |Valeur de type **String** qui contient le nom complet du fichier dans lequel le contenu de l'objet **Stream** sera enregistré. Vous pouvez enregistrer dans tout emplacement local valide ou tout emplacement auquel vous avez accès via une valeur UNC.|
 |*SaveOptions* |Valeur [SaveOptionsEnum](saveoptionsenum.md) qui spécifie si un nouveau fichier doit être créé par la méthode **SaveToFile**, s'il n'existe pas encore. La valeur par défaut est **adSaveCreateNotExists**. Avec ces options, vous pouvez déterminer qu'une erreur doit être générée lorsque le fichier spécifié n'existe pas. Vous pouvez également préciser que la méthode **SaveToFile** remplace le contenu actuel d'un fichier existant.|

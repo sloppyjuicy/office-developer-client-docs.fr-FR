@@ -27,7 +27,7 @@ L'action **ExécuterImportationExportationSauvegardée** vous permet d'exécuter
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ExécuterImportationExportationSauvegardée** possède l’argument suivant.
 
@@ -65,5 +65,5 @@ L’action **ExécuterImportationExportationSauvegardée** possède l’argument
 
 - Des liens vers davantage d'informations sur l'enregistrement et l'exécution de spécifications d'importation et d'exportation sont disponibles à la section **Voir aussi**.
 
-- Si la spécification d'importation ou d'exportation enregistrée choisie pour l'argument **Saved Import Export Name** est supprimée après la création de la macro, Access affiche le message d'erreur suivant lors de l'exécution de la macro: **la spécification portant l'index spécifié ne existe pas. Spécifiez un autre index. ' * * * * * nom de la spécification * * * * '.**
+- Si la spécification d’importation ou  d’exportation enregistrée que vous choisissez pour l’argument Importer le nom d’exportation enregistré est supprimée après la création de la macro, Access affiche le message d’erreur suivant lors de l’exécuter : la spécification avec l’index spécifié n’existe **pas. Spécifiez un index différent. ' *****specification name****'.**
 

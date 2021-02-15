@@ -1,5 +1,5 @@
 ---
-title: Recordset2. Delete, méthode (DAO)
+title: Recordset2.Delete, méthode (DAO)
 TOCTitle: Delete Method
 ms:assetid: 01fd8e20-d491-385e-2b6d-0d1423f66e51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844759(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307356"
 ---
-# <a name="recordset2delete-method-dao"></a>Recordset2. Delete, méthode (DAO)
+# <a name="recordset2delete-method-dao"></a>Recordset2.Delete, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Non prise en charge pour cet objet.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Supprimer
+*.* Supprimer
 
-*expression* Variable qui représente un objet **Recordset2** .
+*expression* Variable qui représente un **objet Recordset2.**
 

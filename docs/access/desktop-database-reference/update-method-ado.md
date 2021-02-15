@@ -22,13 +22,13 @@ Enregistre les modifications apportées à la ligne active d’un objet [Records
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. Mettre à jour les*champs*, les *valeurs*
+*recordset*. Mettre à *jour les champs,* *valeurs*
 
-*enregistrement*. *Champs*. Mise à jour
+*.* *Champs*. Mettre à jour
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Fields* |Facultatif. Valeur de type **Variant** représentant un nom unique ou tableau de valeurs **Variant** représentant les noms ou positions ordinales des champs à modifier.|
 |*Values* |Facultatif. Valeur de type **Variant** représentant une valeur unique ou un tableau de valeurs **Variant** représentant les valeurs du ou des champs du nouvel enregistrement.|

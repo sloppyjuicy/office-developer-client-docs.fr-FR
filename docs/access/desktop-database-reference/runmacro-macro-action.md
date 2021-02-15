@@ -50,7 +50,7 @@ L’action **ExécuterMacro** accepte les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom macro</strong></p></td>
-<td><p>Nom de la macro à exécuter. La zone nom de la <strong>macro</strong> dans la section arguments de l' <strong>action</strong> du volet générateur de macro affiche toutes les macros (et groupes de macros) dans la base de données active. Si la macro fait partir d'un groupe de macros, elle est répertoriée sous le nom du groupe de macros dans la liste en tant que <em>nomgroupemacro</em>. <em>nommacro</em>. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>ExécuterMacro</strong> dans une base de données bibliothèque, Microsoft Access recherche la macro portant ce nom dans la base de données bibliothèque, et non pas dans la base de données active.</p></td>
+<td><p>Nom de la macro à exécuter. La <strong>zone Nom de</strong> macro de la section Arguments de l’action du volet Générateur de macro affiche toutes les macros (et groupes de macros) de la base de données actuelle. <strong></strong> Si la macro se trouve dans un groupe de macros, elle est répertoriée sous le nom du groupe de macros dans la liste en tant que <em>nom de groupe de macros.</em> <em>nom_macro</em>. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>ExécuterMacro</strong> dans une base de données bibliothèque, Microsoft Access recherche la macro portant ce nom dans la base de données bibliothèque, et non pas dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre de répétitions</strong></p></td>

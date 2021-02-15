@@ -1,5 +1,5 @@
 ---
-title: Section de schéma (référence de base de données de bureau Access)
+title: Section Schéma (référence de base de données de bureau Access)
 TOCTitle: Schema Section
 ms:assetid: 59b42ffb-0524-adc3-8bcd-6e4cd2c505ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249304(v=office.15)
@@ -148,7 +148,7 @@ Les exemples suivants illustrent l'insertion d'informations de type dans un sch�
 <s:AttributeType name="title_id" dt:type="int"/> 
 ```
 
-Le deuxième exemple présente une utilisation subtile de l'attribut **rs:fixedlength**. Une colonne dont l'attribut **rs:fixedlength** a la valeur True signifie que les données doivent avoir la longueur définie dans le schéma. Dans ce cas, une valeur légale pour l'\_ID de titre est «123456», comme «123». Toutefois, « 123 » ne sera pas une valeur conforme car sa longueur est de trois caractères et non six. Pour plus d'informations sur la propriété **fixedlength**, consultez le manuel OLE DB Programmer's Guide (en anglais).
+Le deuxième exemple présente une utilisation subtile de l'attribut **rs:fixedlength**. Une colonne dont l'attribut **rs:fixedlength** a la valeur True signifie que les données doivent avoir la longueur définie dans le schéma. Dans ce cas, une valeur légale pour l’ID de titre est « \_ 123456 », tout comme « 123 ». Toutefois, « 123 » ne sera pas une valeur conforme car sa longueur est de trois caractères et non six. Pour plus d'informations sur la propriété **fixedlength**, consultez le manuel OLE DB Programmer's Guide (en anglais).
 
 ## <a name="handling-nulls"></a>Gestion des valeurs Null
 
@@ -164,14 +164,14 @@ Les valeurs NULL sont gérées par l'attribut **rs:maybenull**. Si cet attribut 
 </s:AttributeType> 
 ```
 
-D'après la définition, la valeur CompanyName peut être Null, mais le champ ShipperID ne peut contenir de valeur Null. Si la section données contient la ligne suivante, le fournisseur de persistance définit l'état des données de la colonne CompanyName sur la constante d'État OLE DB DBSTATUS\_S\_IsNull:
+D'après la définition, la valeur CompanyName peut être Null, mais le champ ShipperID ne peut contenir de valeur Null. Si la section de données contenait la ligne suivante, le fournisseur de persistance définirait l’état des données de la colonne CompanyName sur la constante d’état OLE DBSTATUS \_ S \_ ISNULL :
 
 ```xml 
  
 <z:row ShipperID="1"/> 
 ```
 
-Si la ligne était complètement vide, comme suit, le fournisseur de persistance renvoie un État OLE DB de DBSTATUS\_E\_indisponible pour la colonne ShipperID\_et\_DBSTATUS S IsNull pour CompanyName.
+Si la ligne était entièrement vide, comme suit, le fournisseur de persistance retournerait l’état OLE DBSTATUS E UNAVAILABLE pour ShipperID et \_ \_ DBSTATUS S ISNULL pour \_ \_ CompanyName.
 
 ```xml 
  
@@ -185,7 +185,7 @@ Notez qu'une chaîne vide (de longueur nulle) n'équivaut pas à une chaîne de 
 <z:row ShipperID="1" CompanyName=""/> 
 ```
 
-Pour la ligne précédente, le fournisseur de persistance renvoie un État OLE DB de DBSTATUS\_S\_pour les deux colonnes. Dans ce cas, la valeur de la colonne CompanyName est simplement "" (une chaîne vide).
+Pour la ligne précédente, le fournisseur de persistance retourne l’état OLE DB DB DBSTATUS S OK pour les \_ \_ deux colonnes. Dans ce cas, la valeur de la colonne CompanyName est simplement "" (une chaîne vide).
 
 Pour plus d'informations sur les constructions OLE DB utilisables dans le schéma d'un document XML pour OLE DB, reportez-vous à la définition de « "urn:schemas-microsoft-com:rowset » et au manuel OLE DB Programmer's Guide (en anglais).
 

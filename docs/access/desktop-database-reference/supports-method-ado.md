@@ -22,7 +22,7 @@ Détermine si un objet [Recordset](recordset-object-ado.md) spécifié prend en 
 
 ## <a name="syntax"></a>Syntaxe
 
-** = *objet Recordset*Boolean. Prend en charge (*CursorOptions*)
+*booléen*  =  *recordset*. Supports (*CursorOptions*)
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,7 +30,7 @@ Renvoie une valeur de type **Boolean** indiquant si toutes les fonctionnalités 
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*CursorOptions* |Expression de type **Long** comportant une ou plusieurs valeurs [CursorOptionEnum](cursoroptionenum.md).|
 

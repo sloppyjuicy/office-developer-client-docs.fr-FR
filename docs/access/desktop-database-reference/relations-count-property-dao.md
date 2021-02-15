@@ -1,5 +1,5 @@
 ---
-title: Relation. Count, propriété (DAO)
+title: Relations.Count, propriété (DAO)
 TOCTitle: Count Property
 ms:assetid: 7cb3885f-6896-8402-8b18-12769473f051
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196377(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306957"
 ---
-# <a name="relationscount-property-dao"></a>Relation. Count, propriété (DAO)
+# <a name="relationscount-property-dao"></a>Relations.Count, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Compte
+*.* Count
 
-*expression* Variable qui représente un objet **relations** .
+*expression* Variable qui représente un objet **Relations.**
 
 ## <a name="remarks"></a>Remarques
 

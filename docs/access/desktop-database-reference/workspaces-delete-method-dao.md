@@ -1,5 +1,5 @@
 ---
-title: Workspaces. Delete, méthode (DAO)
+title: Workspaces.Delete, méthode (DAO)
 TOCTitle: Delete Method
 ms:assetid: 0774a791-63da-a31a-552a-c5aa4d1f1b50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308308"
 ---
-# <a name="workspacesdelete-method-dao"></a>Workspaces. Delete, méthode (DAO)
+# <a name="workspacesdelete-method-dao"></a>Workspaces.Delete, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Supprime le formulaire **Workspace** dans la collection **Workspaces**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Delete (***Name***)
+*.* Delete(***Name***)
 
-*expression* Variable qui représente un objet **Workspaces** .
+*expression* Variable qui représente un objet **Workspaces.**
 
 ## <a name="parameters"></a>Paramètres
 

@@ -1,5 +1,5 @@
 ---
-title: Relations, membres (DAO)
+title: Relations members (DAO)
 TOCTitle: Relations Members
 ms:assetid: b885db68-cee2-c5d7-1f1b-1f53eeae8308
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822446(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306950"
 ---
-# <a name="relations-members-dao"></a>Relations, membres (DAO)
+# <a name="relations-members-dao"></a>Relations members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -36,7 +36,7 @@ Une collection Relations contient les objets Relation stockés d'un objet Databa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relations-append-method-dao.md">Annexe</a></strong></p></td>
+<td><p><strong><a href="relations-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Ajoute un nouvel objet <strong>Relation</strong> à la collection <strong>Relations</strong>.</p></td>
 </tr>
 <tr class="even">

@@ -1,5 +1,5 @@
 ---
-title: TableDef. RecordCount, propriété (DAO)
+title: TableDef.RecordCount, propriété (DAO)
 TOCTitle: RecordCount Property
 ms:assetid: f8804244-0134-fc1f-1f5f-4971afe17974
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836946(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314286"
 ---
-# <a name="tabledefrecordcount-property-dao"></a>TableDef. RecordCount, propriété (DAO)
+# <a name="tabledefrecordcount-property-dao"></a>TableDef.RecordCount, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,13 +23,13 @@ Renvoie le nombre total d'enregistrements dans un objet **[TableDef](tabledef-ob
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . RecordCount
+*expression* .RecordCount
 
-*expression* Variable qui représente un objet **TableDef** .
+*expression* Variable représentant un objet **TableDef**.
 
 ## <a name="remarks"></a>Remarques
 
-Un objet **Recordset** ou **TableDef** sans enregistrements a une valeur de propriété **RecordCount** égale à 0.
+A **jeu d’enregistrements** ou **TableDef** de l’objet sans enregistrement contient un **RecordCount** paramètre de la propriété de 0.
 
 Lorsque vous travaillez avec des objets **TableDef** liés, la valeur de la propriété **RecordCount** est toujours égale à –1.
 

@@ -1,5 +1,5 @@
 ---
-title: Recordset. transactions, propriété (DAO)
+title: Recordset.Transactions, propriété (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 7830c056-8d6a-7942-7993-aa04b29cd77f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196110(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307594"
 ---
-# <a name="recordsettransactions-property-dao"></a>Recordset. transactions, propriété (DAO)
+# <a name="recordsettransactions-property-dao"></a>Recordset.Transactions, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si un objet prend en charge les transactions. **Boolean** en lecture seule.
+Renvoie une valeur qui indique si un objet prend en charge les transactions. **Boolean** (en lecture seule).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Transactions
+*.* Transactions
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
-Dans un espace de travail Microsoft Access, vous pouvez également utiliser la propriété **Transactions** avec des objets **Recordset** de type table ou feuille de réponse dynamique. Les objets Recordset de type instantané et **[](recordset-object-dao.md)** avant uniquement renvoient toujours la **valeur false**.
+Dans un espace de travail Microsoft Access, vous pouvez également utiliser la propriété **Transactions** avec des objets **Recordset** de type table ou feuille de réponse dynamique. Les objets **[Recordset](recordset-object-dao.md)** de type capture instantanée et avant uniquement retournent toujours **la forme False**.
 
 Si un objet **Recordset** de type table ou feuille de réponse dynamique est basé sur une table de moteur de base de données Microsoft Access, la propriété **Transactions** a la valeur **True** et vous pouvez utiliser des transactions. Il se peut que d'autres moteurs de base de données ne prennent pas en charge les transactions. Ainsi, vous ne pouvez pas utiliser des transactions dans un objet **Recordset** de type feuille de réponse dynamique basé sur une table Paradox.
 

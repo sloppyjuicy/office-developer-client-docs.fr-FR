@@ -1,5 +1,5 @@
 ---
-title: Read, méthode-ActiveX Data Objects (ADO)
+title: Read, méthode - ActiveX Data Objects (ADO)
 TOCTitle: Read method (ADO)
 ms:assetid: 91c3ad34-f891-5be0-1fc1-c5c8a2ff07a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)
@@ -22,13 +22,13 @@ Lit un nombre spécifié d’octets dans un objet [Stream](stream-object-ado.md)
 
 ## <a name="syntax"></a>Syntaxe
 
-** = *Flux*de données de type Variant. Lecture (*nboctets* )
+*Variant*  =  *Stream*. Read (*NumBytes* )
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
-|*NbOctets* |Facultatif. Valeur de type **Long** qui spécifie le nombre d'octets à lire dans le fichier ou la valeur [StreamReadEnum ](streamreadenum.md) **adReadAll**, qui constitue la valeur par défaut.|
+|*NumBytes* |Facultatif. Valeur de type **Long** qui spécifie le nombre d'octets à lire dans le fichier ou la valeur [StreamReadEnum](streamreadenum.md) **adReadAll**, qui constitue la valeur par défaut.|
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -39,6 +39,6 @@ La méthode **Read** lit un nombre spécifié d'octets ou l'intégralité du flu
 Si la valeur de *NbOctets* est supérieure au nombre d'octets laissés dans l'objet **Stream**, seuls les octets restants sont retournés. Les données lues ne sont pas remplies afin de correspondre à la longueur spécifiée par *NbOctets*. S'il ne reste plus d'octet à lire, une valeur de type Variant NULL est retournée. La méthode **Read** ne peut pas être utilisée pour lire à l'envers.
 
 > [!NOTE]
-> *NbOctets* mesure toujours des octets. Pour les objets **Stream** contenant du texte ([Type ](type-property-ado-stream.md)**adTypeText**), utilisez [ReadText](readtext-method-ado.md).
+> *NbOctets* mesure toujours des octets. Pour les objets **Stream** contenant du texte ([Type](type-property-ado-stream.md)**adTypeText**), utilisez [ReadText](readtext-method-ado.md).
 
 

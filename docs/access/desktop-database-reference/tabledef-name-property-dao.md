@@ -1,5 +1,5 @@
 ---
-title: Propriété TableDef.Name (DAO)
+title: TableDef.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 66b751ee-cf8a-a1f2-c646-6124e5f18cd0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195226(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308392"
 ---
-# <a name="tabledefname-property-dao"></a>Propriété TableDef.Name (DAO)
+# <a name="tabledefname-property-dao"></a>TableDef.Name property (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cette propriété renvoie ou définit le nom de l'objet spécifié. Type **String** en lecture-écriture.
+Cette propriété renvoie ou définit le nom de l'objet spécifié. **String** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Nom
+*.* Nom
 
-*expression* Variable qui représente un objet **TableDef** .
+*expression* Variable représentant un objet **TableDef**.
 
 ## <a name="remarks"></a>Remarques
 

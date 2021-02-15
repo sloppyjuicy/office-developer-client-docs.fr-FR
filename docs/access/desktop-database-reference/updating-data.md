@@ -31,5 +31,5 @@ Cette section contient les rubriques suivantes :
 
 - [Mode immédiat](immediate-mode.md)
 - [Traitement de transactions](transaction-processing.md)
-- [Mode de traitement par lots (ADO)](batch-mode.md)
+- [Batch mode (ADO)](batch-mode.md)
 

@@ -45,8 +45,8 @@ L’action **SélectionnerObjet** accepte les arguments suivants.
 <td><p>Type d’objet de base de données à sélectionner. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Cet argument est obligatoire.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom objet</strong></p></td>
-<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p><p><strong>Remarque</strong>: les noms des objets <STRONG>vue serveur</STRONG>, <STRONG>diagramme</STRONG>ou <STRONG>procédure stockée</STRONG> ne sont pas affichés dans la zone nom de l' <STRONG>objet</STRONG> d'un projet Access (. ADP).</p></td>
+<td><p><strong>Nom de l’objet</strong></p></td>
+<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p><p><strong>REMARQUE</strong>: les noms d’objets <STRONG></STRONG> pour les objets <STRONG>d’affichage</STRONG> <STRONG>serveur,</STRONG>de diagramme ou de procédure stockée ne sont pas affichés dans la zone Nom de l’objet d’un projet Access (.adp). <STRONG></STRONG></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Dans le volet de navigation</strong></p></td>

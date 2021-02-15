@@ -83,7 +83,7 @@ End Sub
 
 <br/>
 
-À ce stade, vous êtes arrivé à destination. Accédez à la table ***Authors*** en tant qu’objet **Recordset** local, déconnecté. N'oubliez pas que vous devez avoir le fournisseur **MSPersist** sur l'ordinateur que vous utilisez pour accéder au fichier enregistré, a:\\pubs. Xml.
+À ce stade, vous êtes arrivé à destination. Accédez à la table ***Authors*** en tant qu’objet **Recordset** local, déconnecté. N’oubliez pas que vous devez avoir le fournisseur **MSPersist** sur l’ordinateur que vous utilisez pour accéder au fichier enregistré, a: \\Pubs.xml.
 
 ```vb 
  
@@ -133,7 +133,7 @@ End Sub
 
 <br/>
 
-Enfin, vous revenez à Home. Maintenant, mettez à jour la base de données avec vos modifications.
+Enfin, vous revenir chez vous. Maintenant, mettez à jour la base de données avec vos modifications.
 
 ```vb 
  

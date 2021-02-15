@@ -1,5 +1,5 @@
 ---
-title: Recordset2. FillCache, méthode (DAO)
+title: Recordset2.FillCache, méthode (DAO)
 TOCTitle: FillCache Method
 ms:assetid: 28a70997-a8d4-73e6-171a-61286e3d3485
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192007(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309701"
 ---
-# <a name="recordset2fillcache-method-dao"></a>Recordset2. FillCache, méthode (DAO)
+# <a name="recordset2fillcache-method-dao"></a>Recordset2.FillCache, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Remplit tout ou partie d'un cache local pour un objet **Recordset** contenant le
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . FillCache (***Rows***, ***signetdébut***)
+*.* FillCache(***Rows***, ***StartBookmark***)
 
-*expression* Variable qui représente un objet **Recordset2** .
+*expression* Variable qui représente un **objet Recordset2.**
 
 ## <a name="parameters"></a>Paramètres
 
@@ -52,13 +52,13 @@ Remplit tout ou partie d'un cache local pour un objet **Recordset** contenant le
 <td><p><em>Rows</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>Integer</strong>) qui spécifie le nombre de lignes à stocker dans le cache. Si vous omettez cet argument, la valeur est déterminée par le paramètre de la propriété <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong> .</p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>Integer</strong>) qui spécifie le nombre de lignes à stocker dans le cache. Si vous omettez cet argument, la valeur est déterminée par le paramètre de propriété <strong><a href="recordset2-cachesize-property-dao.md">CacheSize.</a></strong></p></td>
 </tr>
 <tr class="even">
-<td><p><em>Signetdébut</em></p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui spécifie un signet. Le cache est rempli à partir de l’enregistrement indiqué par ce signet. Si vous omettez cet argument, le cache est rempli à partir de l'enregistrement indiqué par la propriété <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong> .</p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui spécifie un signet. Le cache est rempli à partir de l’enregistrement indiqué par ce signet. Si vous omettez cet argument, le cache est rempli à partir de l’enregistrement indiqué par la <strong><a href="recordset2-cachestart-property-dao.md">propriété CacheStart.</a></strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -72,7 +72,7 @@ Au lieu d'attendre que le cache ne se remplisse d'enregistrements à mesure de l
 
 Les sources de données ODBC connectées au moteur de base de données Microsoft Access auxquelles vous accédez et qui comportent des objets **Recordset** peuvent disposer d'un cache local. Pour créer le cache, ouvrez un objet **Recordset** de la source de données distante, puis définissez les propriétés **CacheSize** et **CacheStart** de l'objet **Recordset**.
 
-Si les propriétés Rows et signetdébut créent une plage d'enregistrements entièrement ou partiellement en dehors de la plage d'enregistrements spécifiée par les propriétés **CacheSize** et **CacheStart** , la partie de l'objet Recordset en dehors de cette plage n'est pas prise en compte et ne sera pas chargée. dans le cache.
+Si des lignes et un startbookmark créent une plage d’enregistrements partiellement ou entièrement en dehors de la plage d’enregistrements spécifiée par les propriétés **CacheSize** et **CacheStart,** la partie du jeu d’enregistrements en dehors de cette plage est ignorée et ne sera pas chargée dans le cache.
 
 Si **FillCache** demande plus d'enregistrements qu'il n'en reste dans la source de données distante, le moteur de base de données Microsoft Access n'extrait que les enregistrements restants, et aucune erreur ne se produit.
 
@@ -82,7 +82,7 @@ Si **FillCache** demande plus d'enregistrements qu'il n'en reste dans la source 
 
 ## <a name="example"></a>Exemple
 
-Cet exemple de code montre comment utiliser les méthodes **CreateTableDef** et **FillCache** et les propriétés **CacheSize** **CacheStart** et **SourceTableName** pour énumérer deux fois les enregistrements d'une table liée. Les enregistrements sont ensuite énumérés deux fois avec un cache constitué de 50 enregistrements. Enfin, les statistiques de performance sont affichées pour les exécutions au niveau de la table liée, sans et avec cache.
+Cet exemple utilise les méthodes **CreateTableDef** et **FillCache** ainsi que les propriétés **CacheSize**, **CacheStart** et **SourceTableName** pour énumérer deux fois les enregistrements dans une table liée. Ensuite, il énumère également deux fois les enregistrements avec un cache de 50 enregistrements. Enfin, il affiche les statistiques de performance pour les deux exécutions, avec et sans mise en cache, dans la table liée.
 
 ```vb
     Sub ClientServerX3() 

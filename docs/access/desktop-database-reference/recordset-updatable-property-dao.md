@@ -1,5 +1,5 @@
 ---
-title: Recordset. Updatable, propriété (DAO)
+title: Recordset.Updatable, propriété (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 2d4bdcef-1b10-b542-ce0f-6172c271131b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192110(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307545"
 ---
-# <a name="recordsetupdatable-property-dao"></a>Recordset. Updatable, propriété (DAO)
+# <a name="recordsetupdatable-property-dao"></a>Recordset.Updatable, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données **Boolean** en lecture seule.
+Renvoie une valeur qui indique si vous pouvez changer un objet DAO. **Boolean** (en lecture seule).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Modifiable
+*.* Updatable
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 
-Les objets Recordset de type instantané et avant uniquement renvoient toujours la **valeur false**.
+Les objets Recordset de type capture instantanée et avant uniquement retournent toujours **la forme False**.
 
 De nombreux types d'objets peuvent contenir des champs non modifiables. Par exemple, vous pouvez créer un objet **Recordset** de type feuille de réponse dynamique dans lequel seuls certains champs peuvent être modifiés. Il peut s'agir de champs fixes ou contenant des données incrémentées automatiquement. Il est également possible que la feuille de réponse dynamique soit le résultat d'une requête qui combine des tables modifiables et non modifiables.
 

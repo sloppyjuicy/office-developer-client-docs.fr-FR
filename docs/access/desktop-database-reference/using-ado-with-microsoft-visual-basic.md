@@ -52,7 +52,7 @@ ADO s'utilise aussi facilement avec Visual Basic pour Applications, via Microsof
 
 4. Cliquez sur **OK**.
 
-## <a name="creating-ado-objects-in-visual-basic"></a>Création d'objets ADO dans Visual Basic
+## <a name="creating-ado-objects-in-visual-basic"></a>Création d’objets ADO dans Visual Basic
 
 Pour créer une variable Automation et une instance d'un objet pour cette variable, vous pouvez faire appel aux méthodes **Dim** ou **CreateObject**.
 
@@ -74,7 +74,7 @@ Set conn = New ADODB.Connection
 ```
 
 > [!NOTE]
-> Il n'est pas nécessaire d'utiliser explicitement le ProgID ADODB avec l'instruction **Dim** , en supposant que vous avez correctement référencé la bibliothèque ADO dans votre projet. Toutefois, son utilisation garantit l'absence de conflits de noms avec d'autres bibliothèques.
+> Il n’est pas nécessaire d’utiliser explicitement le progid ADODB avec l’instruction **Dim,** en supposant que vous avez correctement référencé la bibliothèque ADO dans votre projet. Toutefois, son utilisation garantit l'absence de conflits de noms avec d'autres bibliothèques.
 > 
 > Par exemple, si vous référencez à des objets ADO et DAO dans le même projet, vous devez inclure un qualificatif afin de spécifier quel modèle objet utiliser lors de l'instanciation d'objets **Recordset** comme dans le code suivant :  
 > 
@@ -105,9 +105,9 @@ L'instanciation d'objets à l'aide de la méthode **CreateObject** est général
 
 ## <a name="handling-events"></a>Gestion des événements
 
-Pour gérer les événements ADO en Microsoft Visual Basic, vous devez déclarer une variable de niveau module à l'aide du mot clé **WithEvents** . La variable ne peut être déclarée qu'au sein d'un module de classe et doit être déclarée au niveau du module. Pour plus d'informations sur la gestion des événements ADO, consultez le [chapitre 7: gestion des événements ADO](chapter-7-handling-ado-events.md).
+Pour gérer les événements ADO dans Microsoft Visual Basic, vous devez déclarer une variable de niveau module à l’aide du mot clé **WithEvents.** La variable ne peut être déclarée qu'au sein d'un module de classe et doit être déclarée au niveau du module. Pour une discussion plus complète sur la gestion des événements ADO, voir le chapitre 7 : Gestion des [événements ADO.](chapter-7-handling-ado-events.md)
 
-## <a name="visual-basic-examples"></a>Exemples Visual Basic
+## <a name="visual-basic-examples"></a>Visual Basic exemples
 
-De nombreux exemples Visual Basic sont inclus dans la documentation ADO. Pour plus d'informations, consultez la rubrique [exemples de code ADO en Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
+De nombreux exemples Visual Basic sont inclus dans la documentation ADO. Pour plus d’informations, voir [les exemples de code ADO dans Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
 

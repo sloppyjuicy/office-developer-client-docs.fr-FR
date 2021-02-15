@@ -43,7 +43,7 @@ L’action **DémarrerNouveauFluxTravail** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><strong>Numéro d’enregistrement</strong></p></td>
-<td><p>Position de l'élément dans la liste SharePoint Foundation, en commençant par <strong>1</strong> pour le premier élément de la liste, <strong>2</strong> pour le deuxième élément, et ainsi de suite. Vous pouvez également entrer une expression pour cet argument.</p></td>
+<td><p>Position de l’élément dans la liste SharePoint Foundation, en commençant par <strong>1</strong> pour le premier élément de la liste, <strong>2</strong> pour le deuxième élément, etc. Vous pouvez également entrer une expression pour cet argument.</p></td>
 </tr>
 </tbody>
 </table>

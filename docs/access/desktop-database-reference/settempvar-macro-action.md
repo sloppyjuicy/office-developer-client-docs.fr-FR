@@ -44,12 +44,12 @@ L’action **DéfinirVarTemp** utilise les arguments suivants :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Nom</strong></p></td>
+<td><p><strong>Name</strong></p></td>
 <td><p>Entrez le nom de la variable temporaire.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>Expression qui permet de définir la valeur de cette variable temporaire. Ne faites pas précéder l'expression du signe<strong>=</strong>égal (). Vous pouvez cliquer sur le bouton <strong>générer</strong> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> pour utiliser le générateur d'expression afin de définir cet argument.</p></td>
+<td><p>Expression qui permet de définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression du signe <strong>=</strong> égal (). Vous pouvez cliquer sur le <strong>bouton</strong> Créer <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> pour utiliser le Générateur d’expression pour définir cet argument.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ L’action **DéfinirVarTemp** utilise les arguments suivants :
 
 - Vous pouvez définir jusqu'à 255 variables temporaires simultanément. Si vous ne supprimez pas une variable temporaire, elle reste en mémoire jusqu'à la fermeture de la base de données. Il est conseillé de supprimer les variables temporaires lorsque vous n'en avez plus besoin. Pour supprimer une variable temporaire unique, utilisez l'action **[SupprimerVarTemp](removetempvar-macro-action.md)** et définissez son argument sur le nom de la variable temporaire à supprimer. Pour supprimer plusieurs variables temporaires en une opération, utilisez l'action **SupprimerToutesVarTemp**.
 
-- Les variables temporaires sont des variables globales. Après la création d'une variable temporaire, vous pouvez y faire référence dans une procédure événementielle, un module Visual Basic pour Applications (VBA), une requête ou une expression. Par exemple, si vous avez créé une variable temporaire nommée *MyVar*, vous pouvez utiliser la variable comme source de contrôle pour une zone de texte à l'aide de la syntaxe suivante:
+- Les variables temporaires sont des variables globales. Après la création d'une variable temporaire, vous pouvez y faire référence dans une procédure événementielle, un module Visual Basic pour Applications (VBA), une requête ou une expression. Par exemple, si vous avez créé une variable temporaire nommée *MyVar*, vous pouvez utiliser la variable comme source de contrôle pour une zone de texte à l’aide de la syntaxe suivante :
     
   `=[TempVars]![MyVar]`
     
@@ -90,17 +90,17 @@ La macro suivante explique comment créer une variable temporaire, en utilisant 
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>DéfinirVarTemp</strong></p></td>
-<td><p><strong>Name</strong>: MyVar<strong>expression</strong>: InputBox (&quot;entrez un nombre différent de zéro)&quot;.</p></td>
+<td><p><strong>SetTempVar</strong></p></td>
+<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
 </tr>
 <tr class="even">
 <td><p>[TempVars]![MaVar] &lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: =&quot;vous avez &quot; &amp; entré [TempVars]! Mavar &amp; &quot;. &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>informations</strong></p></td>
+<td><p><strong>Message</strong>: = &quot; vous avez entré &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>SupprimerVarTemp</strong></p></td>
+<td><p><strong>RemoveTempVar</strong></p></td>
 <td><p><strong>Nom</strong>: MaVar</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: SetEos, méthode (ADO)
+title: SetEOS, méthode (ADO)
 TOCTitle: SetEOS method (ADO)
 ms:assetid: d438eecf-7ab3-a07d-b6d5-8816db4aae7c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250063(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308707"
 ---
-# <a name="seteos-method-ado"></a>SetEos, méthode (ADO)
+# <a name="seteos-method-ado"></a>SetEOS, méthode (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 

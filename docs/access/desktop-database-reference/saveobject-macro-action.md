@@ -27,7 +27,7 @@ Vous pouvez utiliser l'action **EnregistrerObjet** pour enregistrer un objet Acc
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **EnregistrerObjet** utilise les arguments suivants :
 
@@ -48,7 +48,7 @@ L’action **EnregistrerObjet** utilise les arguments suivants :
 <td><p>Type d’objet à enregistrer. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> dans le volet Générateur de macro. Pour sélectionner l’objet actif, laissez cet argument vide. Si vous sélectionnez un type d’objet, vous devez sélectionner un nom d’objet existant dans l’argument <strong>Nom de l’objet</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom objet</strong></p></td>
+<td><p><strong>Nom de l’objet</strong></p></td>
 <td><p>Nom de l’objet à enregistrer. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Si vous ne spécifiez rien dans l’argument <strong>Type d’objet</strong>, vous pouvez laisser cet argument vide pour enregistrer l’objet actif ou, dans certains cas, entrer un nouveau nom dans cet argument pour enregistrer l’objet actif sous ce nom. Si vous entrez un nouveau nom, ce dernier doit respecter les conventions d’appellation des objets Microsoft Office Access.</p></td>
 </tr>
 </tbody>
@@ -63,14 +63,14 @@ En laissant l'argument **Type d'objet** vide et en spécifiant un nouveau nom da
 
 > [!NOTE]
 > [!REMARQUE] Vous ne pouvez pas utiliser l'action **EnregistrerObjet** pour enregistrer un des éléments suivants sous un nouveau nom :
-> - Un formulaire en mode formulaire ou en mode feuille de forme
-> - Un État en mode aperçu avant impression
+> - Formulaire en mode Formulaire ou en mode Feuille de données
+> - Un rapport en mode Aperçu avant impression
 > - Un module
-> - Une vue serveur en mode feuille de en mode feuille de feuille ou aperçu avant impression
-> - Page d'accès aux données en mode page
-> - Une table en mode feuille de table ou aperçu avant impression
-> - Une requête en mode feuille de demande ou aperçu avant impression
-> - Une procédure stockée en mode feuille de feuille ou aperçu avant impression
+> - Affichage serveur en mode Feuille de données ou Aperçu avant impression
+> - Page d’accès aux données en affichage Page
+> - Un tableau en mode Feuille de données ou Aperçu avant impression
+> - Requête en mode Feuille de données ou Aperçu avant impression
+> - Procédure stockée en mode Feuille de données ou Aperçu avant impression
 
 L'action **EnregistrerObjet** enregistre toujours l'objet spécifié ou l'objet actif dans la base de données qui a servi à créer l'objet, que cette action soit effectuée dans une macro exécutée dans la base de données active ou une base de données bibliothèque.
 

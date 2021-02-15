@@ -1,5 +1,5 @@
 ---
-title: Recordset2. noMatch, propriété (DAO)
+title: Recordset2.NoMatch, propriété (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 2d7a02ff-a2bf-5f0e-bd71-a6d42c25b13a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
@@ -14,28 +14,28 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309393"
 ---
-# <a name="recordset2nomatch-property-dao"></a>Recordset2. noMatch, propriété (DAO)
+# <a name="recordset2nomatch-property-dao"></a>Recordset2.NoMatch, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Indique si un enregistrement donné a été localisé à l'aide de la méthode **[Seek](recordset2-seek-method-dao.md)** ou de l'une des méthodes **[Find](recordset2-findfirst-method-dao.md)** (espaces de travail Microsoft Access uniquement).
+Indique si un enregistrement particulier a été trouvé à l’aide de la méthode **[Seek](recordset2-seek-method-dao.md)** ou de l’une des méthodes **[Find](recordset2-findfirst-method-dao.md)** (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . NoMatch
+*expression* .NoMatch
 
-*expression* Variable qui représente un objet **Recordset2** .
+*expression* Variable qui représente un **objet Recordset2.**
 
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous ouvrez ou que vous créez un objet **[Recordset](recordset-object-dao.md)**, sa propriété **NoMatch** a la valeur **False**.
+Lorsque vous ouvrez ou créez un **[jeu d’enregistrements](recordset-object-dao.md)** objet, son **NoMatch** propriété est définie sur **faux**.
 
-Pour rechercher un enregistrement, utilisez la méthode **Seek** sur un objet **Recordset** de type table ou l'une des méthodes **Find** sur un objet **Recordset** de type feuille de réponse dynamique ou instantané. Vérifiez le paramètre de la propriété **NoMatch** pour voir si l'enregistrement a pu être localisé.
+Pour localiser un enregistrement, utilisez la **recherche** méthode sur un type de table **jeu d’enregistrements** objet ou l’un de la **trouver** méthodes sur un type feuille de réponse dynamique ou instantané **jeu d’enregistrements** objet. Vérifier le **NoMatch** paramètres de propriété pour voir si l’enregistrement a été trouvé.
 
-Si la méthode **Seek** ou **Find** ne donne aucun résultat et que la propriété **NoMatch** a la valeur **True**, l'enregistrement actif ne sera plus valide. Veillez à obtenir le signet de l'enregistrement actif avant d'utiliser la méthode **Seek** ou l'une des méthodes **Find** si vous devez revenir à cet enregistrement.
+Si le **recherche** ou **trouver** méthode est échoué et le **NoMatch** propriété est **vrai**, l’enregistrement actif ne sera plus valide. N’oubliez pas d’obtenir le signet de l’enregistrement actif avant d’utiliser la **recherche** méthode ou d’un **trouver** méthode si vous devez revenir à cet enregistrement.
 
 > [!NOTE]
-> [!REMARQUE] L'appel de l'une des méthodes **[Move](recordset-movefirst-method-dao.md)** sur un objet **Recordset** n'a aucune incidence sur le paramètre de la propriété **NoMatch**.
+> À l’aide de la **[déplacer](recordset-movefirst-method-dao.md)** méthodes sur un **jeu d’enregistrements** objet n’affecte pas son **NoMatch** paramètre de la propriété.
 
 ## <a name="example"></a>Exemple
 

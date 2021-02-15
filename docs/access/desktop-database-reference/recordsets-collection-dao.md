@@ -28,16 +28,16 @@ Un objet **Recordset** est automatiquement ajouté à la collection **Recordsets
 
 Vous pouvez créer autant de variables d'objet **Recordset** que vous le souhaitez. Des objets **Recordset** différents peuvent accéder aux mêmes tables, requêtes et champs sans créer de conflits.
 
-Pour faire référence à un objet **Recordset** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
+Pour faire référence à un objet **Recordset** dans une collection par son nombre ordinal ou par son paramètre de propriété **Name**, utilisez l’une des formes de syntaxe suivantes :
 
 - **Recordsets**(0)
 
-- **Jeux d'enregistrements** ("nom")
+- **Recordsets**(«nom»)
 
-- **Nom des jeux d'enregistrements**\!\[\]
+- **Recordsets**\!\[nom\]
 
 > [!NOTE]
-> [!REMARQUE] Vous pouvez ouvrir plusieurs fois un objet **Recordset** à partir de la même source de données ou base de données en créant des noms en double dans la collection **Recordsets**. Vous devez attribuer des objets **Recordset** à des variables d'objet et y faire référence par nom de variable.
+> Vous pouvez ouvrir un objet **Recordset** plusieurs fois à partir de la même source de données ou base de données en créant des noms en double dans la collection **Recordsets**. Vous devez attribuer des objets **Recordset** aux variables d’objet et y faire référence par un nom de variable.
 
 ## <a name="example"></a>Exemple
 

@@ -18,7 +18,7 @@ ms.locfileid: "32314055"
 
 **S’applique à** : Access 2013, Office 2013
 
-Les objets ADO [Record](record-object-ado.md) et [Stream](stream-object-ado.md) peuvent être utilisés avec le fournisseur Microsoft OLE DB pour la publication Internet (fournisseur de publication Internet) pour accéder et manipuler des ressources, telles que des dossiers ou des fichiers Web pris en charge par Microsoft FrontPage. ADO permet de spécifier la source d'un objet **Record**, **Stream** ou [Recordset](recordset-object-ado.md) sous la forme d'une URL. Vous pouvez ensuite télécharger, déplacer, copier et supprimer les ressources ou manipuler directement leurs propriétés.
+Les objets Record et [Stream](stream-object-ado.md) [ADO](record-object-ado.md) peuvent être utilisés avec le fournisseur Microsoft OLE DB pour la publication Internet (fournisseur de publication Internet) pour accéder et manipuler des ressources, telles que des dossiers web ou des fichiers servis par Microsoft FrontPage. ADO permet de spécifier la source d'un objet **Record**, **Stream** ou [Recordset](recordset-object-ado.md) sous la forme d'une URL. Vous pouvez ensuite télécharger, déplacer, copier et supprimer les ressources ou manipuler directement leurs propriétés.
 
 Pour consulter des exemples de code utilisant des objets **Record** et **Stream** avec le fournisseur de publication Internet, consultez [Scénario de publication Internet](internet-publishing-scenario.md).
 
@@ -49,7 +49,7 @@ Il existe trois façons de connecter ADO au fournisseur de publication Internet 
   ```
 
 > [!NOTE]
-> Si msdaipp. DSO est explicitement spécifié comme valeur du fournisseur, à l'aide du mot clé de chaîne de connexion du *fournisseur* ou de la propriété **Provider** , vous ne pouvez pas utiliser «URL =» dans la chaîne de connexion. Cela générerait une erreur. Il vous suffit de spécifier l'URL comme indiqué précédemment dans cette rubrique.
+> Si Msdaipp.dso est explicitement spécifié en tant que  valeur du fournisseur, avec le mot clé de chaîne de connexion Provider ou la propriété **Provider,** vous ne pouvez pas utiliser « URL= » dans la chaîne de connexion. Cela générerait une erreur. Spécifiez simplement l’URL comme indiqué précédemment dans cette rubrique.
 
 Pour plus d'informations sur le fournisseur de publication Internet, consultez [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md) ou la documentation du composant accompagnant l'application source avec laquelle le fournisseur OLE DB pour la publication Internet a été installé : Windows 2000, Office 2000 ou Internet Explorer 5.0.
 

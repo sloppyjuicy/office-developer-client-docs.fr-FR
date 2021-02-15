@@ -24,7 +24,7 @@ Pour exécuter l'application Carnet d'adresses, procédez comme suit.
 
 1.  Vérifiez que Microsoft SQL Server est en cours d'exécution. Cliquez sur **Démarrer**, pointez sur **Programmes**, **Microsoft SQL Server 7.0**, puis cliquez sur **Service Manager**. La présence d'une flèche verte dans le cercle blanc indique que SQL Server est en cours d'exécution. Dans le cas contraire (présence d'un carré rouge dans le cercle blanc), cliquez sur **Démarrer/Continuer**.
 
-2.  Dans Microsoft Internet Explorer 4,0 ou version ultérieure, tapez l'adresse suivante **:****** https:///RDS/AddressBook/AddrBook.asp** où serveur ** Web est le nom du serveur Web sur lequel les composants serveur RDS sont installés.
+2.  Dans Microsoft Internet Explorer 4.0 ou ultérieur, tapez l’adresse suivante : **https://***webserver***/RDS/AddressBook/AddrBook.asp** où *webserver* est le nom du serveur web où les composants du serveur RDS sont installés.
 
-3.  Vous pouvez ensuite essayer différents scénarios dans l'application d'exemple de carnet d'adresses, par exemple, rechercher une personne en fonction de son nom de messagerie, en répertoriant toutes les personnes nommées «responsable de programme» ou en modifiant des enregistrements existants. Cliquez sur **Rechercher** pour remplir la grille de données avec tous les noms disponibles.
+3.  Vous pouvez ensuite essayer différents scénarios dans l’exemple d’application carnet d’adresses, par exemple rechercher une personne en fonction de son nom de messagerie, répertorier toutes les personnes ayant le titre « Gestionnaire de programme » ou modifier des enregistrements existants. Cliquez sur **Rechercher** pour remplir la grille de données avec tous les noms disponibles.
 

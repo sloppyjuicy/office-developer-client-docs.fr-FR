@@ -20,21 +20,21 @@ ms.locfileid: "32308644"
 **S’applique à** : Access 2013, Office 2013
 
 
-Vous pouvez utiliser l'action **AfficherTousEnreg** pour supprimer tout filtre appliqué de la table active, du jeu de résultats de la requête ou du formulaire, et afficher tous les enregistrements de la table ou du jeu de résultats, ou tous les enregistrements de la table ou de la requête sous-jacente du formulaire.
+Vous pouvez utiliser l’action **AfficherEnregistrements** pour supprimer tout filtre appliqué de la table active, du jeu de résultats de requête ou du formulaire, et afficher tous les enregistrements de la table ou du jeu de résultats ou tous les enregistrements de la table ou de la requête sous-jacente du formulaire.
 
 ## <a name="setting"></a>Setting
 
-L'action **AfficherTousEnreg** ne possède aucun argument.
+**L’action AfficherEnregistrements** n’a pas d’arguments.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser cette action pour vous assurer que tous les enregistrements (y compris les enregistrements modifiés ou nouveaux) sont affichés pour une table, un jeu de résultats de requête ou un formulaire. Cette action entraîne une rérogation des enregistrements d'un formulaire ou d'un sous-formulaire.
+Vous pouvez utiliser cette action pour vous assurer que tous les enregistrements (y compris les enregistrements modifiés ou nouveaux) sont affichés pour une table, un jeu de résultats de requête ou un formulaire. Cette action entraîne une nouvelle recherche des enregistrements d’un formulaire ou d’un sous-formulaire.
 
-Vous pouvez également utiliser cette action pour supprimer un filtre appliqué à l'aide de l'action **AppliquerFiltre** , de la commande **filtre** de l'onglet **Accueil** ou de l'argument **nom du filtre** ou **condition WHERE** de l'action **OuvrirFormulaire** .
+Vous pouvez également utiliser cette action pour supprimer tout filtre appliqué  avec l’action **AppliquerFiltre,** la commande Filtre sous l’onglet Accueil ou l’argument Nom du filtre ou Condition Where de l’action   **OuvrirFormulation.** 
 
-Cette action équivaut à cliquer sur basculer le **filtre** sous l'onglet **Accueil** , ou à cliquer avec le bouton droit sur le champ filtré, puis à cliquer sur **effacer le filtre de...** en mode formulaire, en mode page ou en mode feuille de type de base de type.
+Cette action a le même  effet que de  cliquer sur Le filtre bascule sous l’onglet Accueil, ou de cliquer avec le bouton droit sur le champ filtré et de cliquer sur Effacer le filtre à partir **de...** en mode Formulaire, Mode Page ou Feuille de données.
 
-Pour exécuter l'action **AfficherTousEnreg** dans un module Visual Basic pour applications (VBA), utilisez la méthode **ShowAllRecords** de l'objet **DoCmd** .
+Pour exécuter l’action **ShowAllRecords** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **ShowAllRecords** de l’objet **DoCmd.**
 
 ## <a name="example"></a>Exemple
 
@@ -59,21 +59,21 @@ La macro suivante contient un ensemble d'actions, chacune filtrant les enregistr
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[Filtres de nom de société] = 1</p></td>
+<td><p>[Filtres de noms de sociétés] =1</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Condition WHERE</strong>: [nom de la société &quot;] comme [AÀÁÂÃÄ] *&quot;</p></td>
+<td><p><strong>Condition Where</strong>: [Nom de la société] Comme &quot; [AÀÁÂÃÄ]*&quot;</p></td>
 <td><p>Filtre les noms de sociétés commençant par A, À, Á, Â, Ã ou Ä.</p></td>
 </tr>
 <tr class="even">
-<td><p>[Filtres de nom de société] = 2</p></td>
+<td><p>[Filtres de noms de sociétés] =2</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Condition WHERE</strong>: [nom de la société &quot;] comme B *&quot;</p></td>
+<td><p><strong>Condition Where</strong>: [Nom de la société] Comme &quot; b*&quot;</p></td>
 <td><p>Filtre les noms de sociétés commençant par B.</p></td>
 </tr>
 <tr class="odd">
-<td><p>[Filtres de nom de société] = 3</p></td>
+<td><p>[Filtres de noms de sociétés] =3</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Condition WHERE</strong>: [nom de la société &quot;] comme [CÇ] *&quot;</p></td>
+<td><p><strong>Condition Where</strong>: [Nom de la société] Comme &quot; [CÇ]*&quot;</p></td>
 <td><p>Filtre les noms de sociétés commençant par C ou Ç.</p></td>
 </tr>
 <tr class="even">
@@ -83,19 +83,19 @@ La macro suivante contient un ensemble d'actions, chacune filtrant les enregistr
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>[Filtres de nom de société] = 26</p></td>
+<td><p>[Filtres de noms de sociétés] =26</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Condition WHERE</strong>: [nom de la société &quot;] comme [ZÆØÅ] *&quot;</p></td>
+<td><p><strong>Condition Where</strong>: [Nom de la société] Like &quot; [ZÆØÅ]*&quot;</p></td>
 <td><p>Filtre les noms de sociétés commençant par Z, Æ, Ø ou Å.</p></td>
 </tr>
 <tr class="even">
-<td><p>[Filtres de nom de société] = 27</p></td>
+<td><p>[Filtres de noms de sociétés] =27</p></td>
 <td><p><strong>ShowAllRecords</strong></p></td>
 <td><p></p></td>
 <td><p>Affiche tous les enregistrements</p></td>
 </tr>
 <tr class="odd">
-<td><p>[RecordsetClone]. RecordCount &gt;0</p></td>
+<td><p>[RecordsetClone]. [RecordCount] &gt; 0</p></td>
 <td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nom du contrôle</strong>: NomSociété</p></td>
 <td><p>Si des enregistrements sont renvoyés pour la lettre sélectionnée, déplace le focus sur le contrôle NomSociété.</p></td>

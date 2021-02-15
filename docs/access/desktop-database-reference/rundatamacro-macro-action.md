@@ -50,17 +50,17 @@ L’action **ExécuterMacroDonnées** utilise l’argument suivant.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l'action **RunDataMacro** dans les macros, les macros de données nommées et les événements de macros suivants: **[après suppression](after-delete-macro-event.md)** de l'événement de macro, après l'événement macro **[Insérer](after-insert-macro-event.md)** un événement de macro et **[après Maj](after-update-macro-event.md)**.
+Vous pouvez utiliser l’action **ExécuterMacroDonnées** dans les macros, les macros de données nommées et les événements de macro suivants : Événement de **[macro](after-delete-macro-event.md)** Après **[Suppression,](after-insert-macro-event.md)** Après Insertion et Événement de macro Après Mise à **[jour.](after-update-macro-event.md)**
 
-Le nom de la macro de données doit inclure le tableau auquel elle est attachée (par exemple, **comments.** AddComment, pas simplement AddComment). ****
+Le nom de la macro de données doit inclure la table à laquelle elle est attachée (par exemple, **Comments.AddComment**, et pas seulement **AddComment**).
 
-Lorsque vous sélectionnez la macro de données à exécuter dans le concepteur de macros, Access détermine si elle requiert des paramètres. Si la macro de données nécessite des paramètres, des zones de texte s'affichent à l'endroit où vous pouvez taper les arguments.
+Lorsque vous sélectionnez la macro de données à exécuter dans le concepteur de macros, Access détermine si elle requiert des paramètres. Si la macro de données requiert des paramètres, les zones de texte s’affichent là où vous pouvez taper les arguments.
 
 Lorsque vous exécutez une macro qui contient l'action **ExécuterMacroDonnées** et qu'elle atteint l'action **ExécuterMacroDonnées**, Access exécute la macro de données appelée. Lorsque celle-ci a terminé de s'exécuter, Access retourne à la macro d'origine et exécute l'action suivante.
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment transmettre un paramètre à une macro de données nommée. La macro de données dmGetCurrentServiceRequest de la table tblServiceRequests est appelée à l'aide de l'action RunDataMacro. Lorsque l'dmGetCurrentServiceRequest est terminé, la variable CurrentServiceRequest renvoyée est écrite dans la zone de texte txtCurrentSR.
+L’exemple suivant montre comment passer un paramètre à une macro de données nommée. La macro de données dmGetCurrentServiceRequest de la table tblServiceRequests est appelée à l’aide de l’action ExécuterMacroDonnées. Lorsque l’examen dmGetCurrentServiceRequest est terminé, la variable CurrentServiceRequest retourne le formulaire dans la zone de texte txtCurrentSR.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

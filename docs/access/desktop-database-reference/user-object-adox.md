@@ -1,5 +1,5 @@
 ---
-title: User, objet (référence à la base de données de bureau Access)
+title: User Object (ADOX - Référence de base de données de bureau Access)
 TOCTitle: User object (ADOX)
 ms:assetid: e88b9a8a-e70f-c7ca-cb8c-bd274ff24948
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250178(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313159"
 ---
-# <a name="user-object-adox"></a>User, objet (ADOX)
+# <a name="user-object-adox"></a>Objet User (ADOX)
 
 
 **S’applique à** : Access 2013, Office 2013

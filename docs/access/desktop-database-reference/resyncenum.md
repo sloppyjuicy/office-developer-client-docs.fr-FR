@@ -38,12 +38,12 @@ Spécifie si les valeurs sous-jacentes sont remplacées par un appel à [Resync]
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAllValues</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Par défaut. Remplace les données, les mises à jour en attente sont annulées.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncUnderlyingValues</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Ne remplace pas les données, les mises à jour en attente ne sont pas annulées.</p></td>
 </tr>
 </tbody>
@@ -65,10 +65,10 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Resync. ALLVALUES</p></td>
+<td><p>AdoEnums.Resync.ALLVALUES</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Resync. UNDERLYINGVALUES</p></td>
+<td><p>AdoEnums.Resync.UNDERLYINGVALUES</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Recordset2. AddNew, méthode (DAO)
+title: Recordset2.AddNew, méthode (DAO)
 TOCTitle: AddNew Method
 ms:assetid: 25c7d207-185c-943b-405e-b138ffb8b3e2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191874(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307496"
 ---
-# <a name="recordset2addnew-method-dao"></a>Recordset2. AddNew, méthode (DAO)
+# <a name="recordset2addnew-method-dao"></a>Recordset2.AddNew, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
  
@@ -22,9 +22,9 @@ Crée un enregistrement pour un objet **Recordset2** modifiable.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . AddNew
+*expression* .AddNew
 
-*expression* Variable qui représente un objet **Recordset2** .
+*expression* Variable qui représente un **objet Recordset2.**
 
 ## <a name="remarks"></a>Remarques
 
@@ -36,7 +36,7 @@ Après avoir modifié le nouvel enregistrement, utilisez la méthode **[Update](
 > [!REMARQUE] Si vous émettez une méthode **AddNew** puis que vous effectuez une opération qui atteint un autre enregistrement, mais sans utiliser **Update**, vos modifications sont perdues sans avertissement. Par ailleurs, si vous fermez l'objet **Recordset2** ou que vous terminez la procédure qui déclare l'objet **Recordset2** ou son objet **[Database](database-object-dao.md)**, le nouvel enregistrement est ignoré sans avertissement.
 
 > [!NOTE]
-> [!REMARQUE] Lorsque vous utilisez **AddNew** dans un espace de travail Microsoft Access et que le moteur de base de données doit créer une page pour y stocker l'enregistrement actif, le verrouillage de page est pessimiste. Si le nouvel enregistrement peut être casé dans une page existante, le verrouillage de page est optimiste.
+> Lorsque vous utilisez **AddNew** dans un espace de travail Microsoft Access et que le moteur de base de données doit créer une nouvelle page pour conserver l'enregistrement actif, le verrouillage de page est de type pessimiste. Si le nouvel enregistrement est ajouté à une page existante, le verrouillage de page est de type optimiste.
 
 Si vous n'avez pas atteint le dernier enregistrement de votre objet **Recordset2**, les enregistrements ajoutés aux tables de base par d'autres processus peuvent être inclus s'ils se trouvent après l'enregistrement actif. Toutefois, si vous ajoutez un enregistrement à votre propre objet **Recordset2**, l'enregistrement est visible dans l'objet **Recordset2** et est inclus dans la table sous-jacente où il devient visible pour les nouveaux objets **Recordset2**.
 
@@ -46,10 +46,10 @@ La position du nouvel enregistrement dépend du type de l'objet **Recordset2**:
 
 - Dans un objet **Recordset2** de type table dont la propriété **[Index](recordset2-index-property-dao.md)** a été définie, les enregistrements sont renvoyés à leur propre emplacement en fonction de l'ordre de tri. Si vous n'avez pas défini la propriété **Index**, les nouveaux enregistrements sont renvoyés à la fin de l'objet **Recordset**.
 
-L'enregistrement qui était actif avant que vous n'utilisiez **AddNew** reste actif. Si vous voulez que le nouvel enregistrement devienne actif, vous pouvez définir la propriété **[Bookmark](recordset2-bookmark-property-dao.md)** de sorte qu'elle indique le signet identifié par la propriété **[LastModified](recordset2-lastmodified-property-dao.md)**.
+L'enregistrement qui était actif avant d'utiliser **AddNew** le reste. Si vous souhaitez faire du nouvel enregistrement l'enregistrement actif, vous pouvez affecter à la propriété **[Bookmark](recordset2-bookmark-property-dao.md)** la valeur du signet identifié par le paramètre de la propriété **[LastModified](recordset2-lastmodified-property-dao.md)**.
 
 > [!NOTE]
-> [!REMARQUE] Pour ajouter, modifier ou supprimer un enregistrement, ce dernier doit être affecté d'un index unique dans la source de données sous-jacente. Si ce n'est pas le cas, une erreur « Autorisation refusée » se produira lors d'un appel à la méthode **AddNew**, **Delete** ou **Edit** dans un espace de travail Microsoft Access.
+> Pour ajouter, modifier ou supprimer un enregistrement, ce dernier doit être affecté d'un index unique dans la source de données sous-jacente. Si ce n'est pas le cas, une erreur « Autorisation refusée » se produira lors d'un appel à la méthode **AddNew**, **Delete** ou **Edit** dans un espace de travail Microsoft Access.
 
 ## <a name="example"></a>Exemple
 

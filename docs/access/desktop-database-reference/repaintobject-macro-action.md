@@ -45,7 +45,7 @@ L’action **RedessinerObjet** accepte les arguments suivants.
 <td><p>Type d’objet à redessiner. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Laissez cet argument vide pour sélectionner l’objet actif.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom objet</strong></p></td>
+<td><p><strong>Nom de l’objet</strong></p></td>
 <td><p>Nom de l’objet à redessiner. La zone <strong>Nom de l’objet</strong> affiche tous les objets dans la base de données dont le type correspond à celui sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez cet argument également vide.</p></td>
 </tr>
 </tbody>

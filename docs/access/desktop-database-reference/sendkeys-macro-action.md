@@ -40,7 +40,7 @@ Vous pouvez utiliser l'action **EnvoiTouches** pour envoyer directement une séq
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **EnvoiTouches** accepte les arguments suivants.
 
@@ -57,7 +57,7 @@ L’action **EnvoiTouches** accepte les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Touches</strong></p></td>
+<td><p><strong>Frappes de touches</strong></p></td>
 <td><p>Séquence de touches qu’Access ou l’application doit traiter. Entrez la séquence de touches dans la zone <strong>Touches</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Cette zone peut contenir jusqu’à 255 caractères. Cet argument est obligatoire.</p></td>
 </tr>
 <tr class="even">

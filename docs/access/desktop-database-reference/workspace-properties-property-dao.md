@@ -1,5 +1,5 @@
 ---
-title: Workspace. Properties, propriété (DAO)
+title: Workspace.Properties, propriété (DAO)
 TOCTitle: Properties Property
 ms:assetid: fe2e8d83-5081-4a2c-d2bb-53fbcbd13210
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837262(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311319"
 ---
-# <a name="workspaceproperties-property-dao"></a>Workspace. Properties, propriété (DAO)
+# <a name="workspaceproperties-property-dao"></a>Workspace.Properties, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Propriétés
+*.* Propriétés
 
-*expression* Variable qui représente un objet **Workspace** .
+*expression* Variable qui représente un objet **Workspace**.
 

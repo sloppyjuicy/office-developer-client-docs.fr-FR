@@ -24,7 +24,7 @@ La famille ADO est constituée de trois bibliothèques principales : ADO (y co
 
 ADO permet à vos applications clientes d'accéder et de manipuler des données à partir d'un serveur de base de données par l'intermédiaire d'un fournisseur OLE DB. Il offre de nombreux avantages dont une grande facilité d'utilisation, une vitesse élevée, une charge de mémoire faible et un encombrement disque limité. ADO prend en charge les fonctionnalités clés de création d'applications client/serveur et Web.
 
-ADO dispose également de Remote Data Service (RDS), qui vous permet de déplacer des données d'un serveur vers une application cliente ou une page Web, de manipuler les données sur le client et de renvoyer des mises à jour sur le serveur en un seul aller-retour.
+ADO comprend également la fonctionnalité RDS (Remote Data Service), grâce à laquelle vous pouvez déplacer des données d'un serveur vers une application cliente ou une page Web, manipuler les données sur le client et retourner des mises à jour au serveur en une seule boucle.
 
 ## <a name="ado-md"></a>ADO MD
 

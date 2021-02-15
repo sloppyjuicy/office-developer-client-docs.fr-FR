@@ -1,5 +1,5 @@
 ---
-title: Méthodes TableDefs (DAO)
+title: TableDefs methods (DAO)
 TOCTitle: Methods
 ms:assetid: 9d641cb4-1053-4726-be6b-c3850cadf548
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125507(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314167"
 ---
-# <a name="tabledefs-methods-dao"></a>Méthodes TableDefs (DAO)
+# <a name="tabledefs-methods-dao"></a>TableDefs methods (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [TableDefs. Append, méthode (DAO)](tabledefs-append-method-dao.md)
-- [TableDefs. Delete, méthode (DAO)](tabledefs-delete-method-dao.md)
-- [TableDefs. Refresh, méthode (DAO)](tabledefs-refresh-method-dao.md)
+- [TableDefs.Append, méthode (DAO)](tabledefs-append-method-dao.md)
+- [TableDefs.Delete, méthode (DAO)](tabledefs-delete-method-dao.md)
+- [TableDefs.Refresh, méthode (DAO)](tabledefs-refresh-method-dao.md)
 

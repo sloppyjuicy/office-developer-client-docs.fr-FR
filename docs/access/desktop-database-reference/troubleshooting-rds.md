@@ -18,12 +18,12 @@ ms.locfileid: "32306278"
 
 **S’applique à** : Access 2013, Office 2013
 
-RePortez-vous à cette section pour obtenir des solutions à des erreurs spécifiques ou à des problèmes liés à RDS:
+Reportez-vous à cette section pour trouver des solutions à des erreurs ou des problèmes spécifiques avec RDS :
 
 - [Configuration de RDS sur Windows 2000](configuring-rds-on-windows-2000.md)
-- [Blocages avec niveau d'isolation extensible de lecture](deadlocks-with-read-repeatable-isolation-level.md)
+- [Blocages avec niveau d’isolation répétable de lecture](deadlocks-with-read-repeatable-isolation-level.md)
 - [Garantie d’espace TempDB suffisant](ensuring-sufficient-tempdb-space.md)
-- [Erreur du serveur Internet: accès refusé](internet-server-error-access-denied.md)
+- [Erreur du serveur Internet : accès refusé](internet-server-error-access-denied.md)
 - [Minimisation de l’espace occupé par le fichier journal](minimizing-log-file-space-usage.md)
 - [RDS renvoie l’erreur « Flux non lu »](rds-returns-stream-not-read-error.md)
 

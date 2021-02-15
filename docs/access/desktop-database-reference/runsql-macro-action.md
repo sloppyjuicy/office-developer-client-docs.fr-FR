@@ -27,7 +27,7 @@ Vous pouvez utiliser l'action **ExécuterSQL** pour exécuter une requête Actio
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ExécuterSQL** accepte les arguments suivants.
 
@@ -89,7 +89,7 @@ Les requêtes Access sont en fait des instructions SQL créées lorsque vous cr�
 </tr>
 <tr class="even">
 <td><p>Création de table</p></td>
-<td><p>Sélectionnez... VERS</p></td>
+<td><p>SELECT... INTO</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mise à jour</p></td>

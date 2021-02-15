@@ -19,7 +19,7 @@ ms.locfileid: "32308588"
 
 **S’applique à** : Access 2013, Office 2013
 
-Lors de l'utilisation de RDS avec Internet Information Services 4,0 ou une version ultérieure, le nombre de threads créés par processeur peut être contrôlé en manipulant le registre sur le serveur Web. Le nombre de threads par processeur peut avoir des répercussions négatives sur les performances en cas de trafic élevé ou lorsque le trafic est faible mais que les requêtes sont complexes et volumineuses. L'utilisateur est invité à tenter des expériences pour obtenir les meilleurs résultats possibles.
+Lorsque vous utilisez RDS avec Internet Information Services 4.0 ou une ultérieure, le nombre de threads créés par processeur peut être contrôlé en manipulant le Registre sur le serveur web. Le nombre de threads par processeur peut avoir des répercussions négatives sur les performances en cas de trafic élevé ou lorsque le trafic est faible mais que les requêtes sont complexes et volumineuses. L'utilisateur est invité à tenter des expériences pour obtenir les meilleurs résultats possibles.
 
 La méthode utilisée pour déterminer et modifier la valeur par défaut de ce paramètre dépend de la configuration du serveur IIS 4.0.
 
@@ -30,7 +30,7 @@ Dans la mesure où MDAC 2.1.2.4202.3 (GA) ou une version ultérieure est install
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\InetInfo\Parameters\MaxPoolThreads
 ```
 
-où *MaxPoolThreads* est un DWORD\_reg. La clé *MaxPoolThreads* n'apparaît pas dans le Registre à moins qu'elle ait été spécialement ajoutée. Les valeurs valides s'échelonnent de 5 à une valeur maximale recommandée de 20. Si la valeur spécifiée par la clé de Registre est supérieure à la valeur de la clé *PoolThreadLimit* (située dans le même chemin), la valeur de *PoolThreadLimit* est utilisée.
+où *MaxPoolThreads est* un \_ REG DWORD. La clé *MaxPoolThreads* n'apparaît pas dans le Registre à moins qu'elle ait été spécialement ajoutée. Les valeurs valides s'échelonnent de 5 à une valeur maximale recommandée de 20. Si la valeur spécifiée par la clé de Registre est supérieure à la valeur de la clé *PoolThreadLimit* (située dans le même chemin), la valeur de *PoolThreadLimit* est utilisée.
 
 Sinon, si MDAC 2.1 2.1.1.3711.11 (GA) ou une version antérieure est installé sur le serveur IIS, le nombre de threads par processeur est de 6, par défaut. Pour modifier cette valeur par défaut, vous devez ajouter la clé suivante au Registre du serveur IIS :
 
@@ -39,5 +39,5 @@ Sinon, si MDAC 2.1 2.1.1.3711.11 (GA) ou une version antérieure est installé s
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC\Parameters\ADCThreads
 ```
 
-où *ADCThreads* est un DWORD\_reg. La clé *ADCThreads* n'apparaît pas dans le Registre à moins qu'elle ait été spécialement ajoutée. Les valeurs valides s'échelonnent de 1 à 50. Si la valeur spécifiée par la clé de Registre est supérieure à 50, la valeur maximale est utilisée (50).
+où *ADCThreads est* un REG \_ DWORD. La clé *ADCThreads* n'apparaît pas dans le Registre à moins qu'elle ait été spécialement ajoutée. Les valeurs valides s'échelonnent de 1 à 50. Si la valeur spécifiée par la clé de Registre est supérieure à 50, la valeur maximale est utilisée (50).
 

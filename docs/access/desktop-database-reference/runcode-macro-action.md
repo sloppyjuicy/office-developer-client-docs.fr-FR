@@ -42,7 +42,7 @@ L’action **ExécuterCode** accepte l’argument suivant.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la fonction</strong></p></td>
-<td><p>Nom de la procédure Function VBA à appeler. Placez tous les arguments de la fonction entre parenthèses. Entrez le nom de la fonction dans la zone <strong>Nom fonction</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Cet argument est obligatoire.</p><p><strong>Remarque</strong>: dans une base de données Access (. mdb ou. accdb), cliquez sur le bouton <strong>générer</strong> pour utiliser le générateur d'expression afin de sélectionner une fonction pour cet argument. Cliquez sur la fonction de votre choix dans la liste proposée par le Générateur d’expression.</p></td>
+<td><p>Nom de la procédure Function VBA à appeler. Placez tous les arguments de la fonction entre parenthèses. Entrez le nom de la fonction dans la zone <strong>Nom fonction</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Cet argument est obligatoire.</p><p><strong>REMARQUE</strong>: dans une base de données Access (.mdb ou .accdb), cliquez sur le bouton Créer pour utiliser le Générateur d’expressions afin de sélectionner une fonction pour cet argument. <strong></strong> Cliquez sur la fonction de votre choix dans la liste proposée par le Générateur d’expression.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,7 +56,7 @@ Vous devez inclure des parenthèses, même si la procédure Function ne prend au
 
 `TestFunction()`
 
-Contrairement aux noms de fonctions définies par l'utilisateur utilisés pour les paramètres de propriété d'événement, le nom de la fonction dans l'argument **nom fonction** ne commence pas par le signe égal (**=**).
+Contrairement aux noms de fonction définis par l’utilisateur  utilisés pour les paramètres de propriété d’événement, le nom de la fonction dans l’argument Nom de la fonction ne commence pas par un signe égal ( **=** ).
 
 Access ignore la valeur renvoyée par la fonction.
 

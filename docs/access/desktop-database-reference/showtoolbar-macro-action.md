@@ -28,7 +28,7 @@ L'action **AfficherBarreOutils** permet d'afficher ou de masquer un groupe de co
 > - [!REMARQUE] L'action **AfficherBarreOutils** n'affecte pas les menus contextuels.
 > - Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **AfficherBarreOutils** utilise les arguments suivants :
 
@@ -50,7 +50,7 @@ L’action **AfficherBarreOutils** utilise les arguments suivants :
 </tr>
 <tr class="even">
 <td><p><strong>Show</strong></p></td>
-<td><p>Indique si le groupe doit être affiché ou masqué, et dans quel mode d’affichage. La valeur par défaut est <strong>Oui</strong> (afficher le groupe en permanence). Vous pouvez sélectionner <strong>Oui</strong> pour afficher le groupe en permanence, le <strong>cas échéant</strong> pour afficher le groupe uniquement lorsque le formulaire ou l'état approprié est actif, ou <strong>non</strong> pour masquer le groupe en permanence.</p></td>
+<td><p>Indique si le groupe doit être affiché ou masqué, et dans quel mode d’affichage. La valeur par défaut <strong>est Oui</strong> (afficher le groupe en permanence). Vous pouvez <strong></strong> sélectionner Oui pour afficher le groupe à tout <strong>moment,</strong> Le cas échéant <strong></strong> pour afficher le groupe uniquement lorsque le formulaire ou l’état approprié est actif, ou Non pour masquer le groupe à tout moment.</p></td>
 </tr>
 </tbody>
 </table>
