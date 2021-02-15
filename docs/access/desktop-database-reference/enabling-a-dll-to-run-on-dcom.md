@@ -19,7 +19,7 @@ ms.locfileid: "32293545"
 
 **S’applique à** : Access 2013, Office 2013
 
-Les étapes suivantes décrivent comment activer les bibliothèques de liens dynamiques d'un objet métier pour utiliser DCOM et Microsoft Internet Information Services (HTTP) via les services de composants.
+Les étapes suivantes décrivent comment permettre à des bibliothèques de liens dynamiques d’objet métier d’utiliser DCOM et Microsoft Internet Information Services (HTTP) via les services de composants.
 
 1.  Créez un package vide dans le composant logiciel enfichable MMC Services de composants. Vous devez utiliser le composant logiciel enfichable MMC Services de composants pour créer un package et pour y ajouter la DLL. Cette opération rend le fichier.dll accessible via DCOM mais supprime en revanche l'accessibilité via IIS. (Si vous recherchez la DLL dans le Registre, vous constaterez que la clé **Inproc** est vide. La définition de l'attribut Activation ajoute une valeur à la clé **Inproc**. Ce dernier point est expliqué plus loin dans cette rubrique.)
 

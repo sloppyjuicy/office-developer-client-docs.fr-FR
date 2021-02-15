@@ -38,19 +38,19 @@ RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS
 <tbody>
 <tr class="odd">
 <td><p>HTTP</p></td>
-<td><p>Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot; &quot; <em>https://awebsrvr</em>, &quot;)</p></td>
+<td><p>Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS</p></td>
-<td><p>Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot; &quot; <em>https://awebsrvr</em>, &quot;)</p></td>
+<td><p>Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
 </tr>
 <tr class="odd">
-<td><p>APPELER</p></td>
-<td><p>Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot;, &quot; <em>nomordinateur</em>&quot;)</p></td>
+<td><p>DCOM</p></td>
+<td><p>Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>computername</em> &quot; )</p></td>
 </tr>
 <tr class="even">
 <td><p>In-process</p></td>
-<td><p>Définir l'<em>objet</em> = <em>DataSpace</em>. CreateObject (&quot;<em>ProgID</em>&quot;, &quot; &quot;)</p></td>
+<td><p>Définir<em>l’objet</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; &quot; )</p></td>
 </tr>
 </tbody>
 </table>
@@ -58,14 +58,14 @@ RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Object* |Variable objet correspondant à un objet du type spécifié dans *ProgID*.|
 |*DataSpace* |Variable objet représentant un objet [RDS.DataSpace](dataspace-object-rds.md) utilisé pour créer une instance du nouvel objet.|
 |*ProgID* |Valeur de type **String** contenant l'identificateur programmatique spécifiant un objet métier côté serveur qui implémente les règles métier de votre application.|
-|*awebsrvr* ou *computername* |Valeur de **type String** qui représente une URL qui identifie le serveur Web IIS sur lequel une instance de l'objet métier du serveur est créée.|
+|*awebsrvr* ou *computername* |Valeur de type **String** qui représente une URL identifiant le serveur web IIS (Internet Information Services) où une instance de l’objet métier serveur est créée.|
 
 ## <a name="remarks"></a>Remarques
 
-Le *protocole http* est le protocole Web standard; *Https* est un protocole Web sécurisé. Utilisez le *protocole DCOM* en cas d'exécution sur un réseau local sans protocole HTTP. Le protocole *in-process* est une bibliothèque DLL locale et n'utilise pas de réseau.
+Le *protocole HTTP* est le protocole web standard ; *HTTPS* est un protocole web sécurisé. Utilisez le *protocole DCOM* en cas d'exécution sur un réseau local sans protocole HTTP. Le protocole *in-process* est une bibliothèque DLL locale et n'utilise pas de réseau.
 

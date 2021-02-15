@@ -49,7 +49,7 @@ Le tableau ci-après indique les fonctionnalités des fournisseurs (identifiées
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>none</p></td>
+<td><p>aucune</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenKeyset</strong></p></td>
@@ -72,5 +72,5 @@ Le tableau ci-après indique les fonctionnalités des fournisseurs (identifiées
 
 La propriété **CursorType** est en lecture/écriture lorsque l'objet **Recordset** est fermé et en lecture seule lorsqu'il est ouvert.
 
-**Utilisation des services de données à distance** Lorsqu'elle est utilisée sur un objet Recordset côté client, la propriété **CursorType** peut avoir uniquement la valeur **adOpenStatic**.
+**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet Recordset côté client, la propriété **CursorType** peut être définie uniquement sur **adOpenStatic**.
 

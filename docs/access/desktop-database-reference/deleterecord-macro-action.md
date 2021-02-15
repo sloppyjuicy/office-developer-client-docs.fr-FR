@@ -45,7 +45,7 @@ Le bloc de données **CréerEnregistrement** utilise les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**. Par exemple, utilisez la syntaxe suivante pour faire référence au dernier enregistrement créé:
+Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**. Par exemple, utilisez la syntaxe suivante pour faire référence au dernier enregistrement créé :
 
 `[LastCreateRecordIdentity]`
 

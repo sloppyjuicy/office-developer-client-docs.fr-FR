@@ -43,7 +43,7 @@ Spécifie la manière dont un fournisseur doit exécuter une commande.
 </tr>
 <tr class="even">
 <td><p><strong>adAsyncFetch</strong></p></td>
-<td><p>engendre</p></td>
+<td><p>0x20</p></td>
 <td><p>Indique que les lignes restantes après la quantité spécifiée dans la propriété <a href="cachesize-property-ado.md">CacheSize</a> doivent être extraites de manière asynchrone.</p></td>
 </tr>
 <tr class="odd">
@@ -54,12 +54,12 @@ Spécifie la manière dont un fournisseur doit exécuter une commande.
 <tr class="even">
 <td><p><strong>adExecuteNoRecords</strong></p></td>
 <td><p>0x80</p></td>
-<td><p>Indique que le texte de la commande est une commande ou une procédure stockée qui ne renvoie pas de lignes (par exemple, une commande qui ne fait qu'insérer des données). Si des lignes sont extraites, elles sont ignorées et non renvoyées. <strong>adExecuteNoRecords</strong> ne peut être passé comme paramètre facultatif que pour la méthode <strong>Command</strong> ou <strong>Connection</strong> <strong>Execute</strong> .</p></td>
+<td><p>Indique que le texte de la commande est une commande ou une procédure stockée qui ne renvoie pas de lignes (par exemple, une commande qui ne fait qu'insérer des données). Si des lignes sont extraites, elles sont ignorées et non renvoyées. <strong>adExecuteNoRecords peut</strong> uniquement être transmis en tant que paramètre facultatif à la <strong>méthode Command</strong> ou <strong>Connection</strong> <strong>Execute.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adExecuteStream</strong></p></td>
 <td><p>0x400</p></td>
-<td><p>Indique que le résultat de l'exécution d'une commande doit être renvoyé sous forme de chaîne. <strong>adExecuteStream</strong> peut uniquement être passé en tant que paramètre facultatif à <strong></strong> la méthode <strong>Execute</strong> .</p></td>
+<td><p>Indique que le résultat de l'exécution d'une commande doit être renvoyé sous forme de chaîne. <strong>adExecuteStream</strong> peut uniquement être transmis en tant que paramètre facultatif à la <strong>méthode Command</strong> <strong>Execute.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adExecuteRecord</strong></p></td>
@@ -91,19 +91,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ExecuteOption. ASYNCEXECUTE</p></td>
+<td><p>AdoEnums.ExecuteOption.ASYNCEXECUTE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ExecuteOption. ASYNCFETCH</p></td>
+<td><p>AdoEnums.ExecuteOption.ASYNCFETCH</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ExecuteOption. ASYNCFETCHNONBLOCKING</p></td>
+<td><p>AdoEnums.ExecuteOption.ASYNCFETCHNONBLOCKING</p></td>
 </tr>
 <tr class="even">
-<td><p>Énumération AdoEnums. ExecuteOption. noRECORDs</p></td>
+<td><p>AdoEnums.ExecuteOption.NORECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ExecuteOption. unSPÉCIFIÉ</p></td>
+<td><p>AdoEnums.ExecuteOption.UNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

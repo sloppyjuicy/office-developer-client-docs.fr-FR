@@ -1,5 +1,5 @@
 ---
-title: CubeDef, objet (ADO MD)
+title: Objet CubeDef (ADO MD)
 TOCTitle: CubeDef object (ADO MD)
 ms:assetid: 199235b7-3d98-f655-27bc-94f66e994e06
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248941(v=office.15)
@@ -48,11 +48,11 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nomcatalogue</p></td>
+<td><p>CatalogName</p></td>
 <td><p>Le nom du catalogue auquel ce cube appartient.</p></td>
 </tr>
 <tr class="even">
-<td><p>Created</p></td>
+<td><p>CreatedOn</p></td>
 <td><p>Date et heure de création du cube.</p></td>
 </tr>
 <tr class="odd">

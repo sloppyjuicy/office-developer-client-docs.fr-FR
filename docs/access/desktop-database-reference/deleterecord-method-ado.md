@@ -22,11 +22,11 @@ Supprime une entité représentée par un objet [Record](record-object-ado.md).
 
 ## <a name="syntax"></a>Syntaxe
 
-*Record*. **DeleteRecord * * * source*, *Async*
+*Record*.**DeleteRecord***Source*, *Async*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Source* |Facultatif. Valeur de type **String** contenant l’URL qui identifie l’entité (par exemple, le fichier ou le répertoire) à supprimer. Si le paramètre *Source* est omis ou spécifie une chaîne vide, l’entité représentée par l’objet [Record](record-object-ado.md) actif est supprimée. Si l’objet Record est un enregistrement de collection (propriété [RecordType](recordtype-property-ado.md) avec la valeur **adCollectionRecord**, tel qu’un répertoire) tous les enfants (par exemple les sous-répertoires) seront également supprimés.|
 |*Async* |Facultatif. Valeur de type **Boolean**. Si sa valeur est **True**, spécifie que l'opération de suppression est asynchrone.|
@@ -35,9 +35,9 @@ Supprime une entité représentée par un objet [Record](record-object-ado.md).
 
 Operations on the object represented by this **Record** may fail after this method completes. After calling **DeleteRecord**, the **Record** should be closed because the behavior of the **Record** may become unpredictable depending upon when the provider updates the **Record** with the data source.
 
-If this **Record** was obtained from a [Recordset](recordset-object-ado.md), then the results of this operation will not be reflected immediately in the **Recordset**. Actualisez **l'objet Recordset** en le fermant, puis en le réouvrant, ou en exécutant les méthodes Requery ou [Update](update-method-ado.md) et Resync de l' **objet Recordset** [](requery-method-ado.md). [](resync-method-ado.md)
+If this **Record** was obtained from a [Recordset](recordset-object-ado.md), then the results of this operation will not be reflected immediately in the **Recordset**. **Actualisez le recordset** en le fermant et en le ré ouvrant, ou en exécutant la méthode [Requery](requery-method-ado.md)ou [Update](update-method-ado.md) et [Resync.](resync-method-ado.md) 
 
 > [!NOTE]
-> Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
+> Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [URL absolues et relatives.](absolute-and-relative-urls.md)
 
 

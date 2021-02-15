@@ -1,5 +1,5 @@
 ---
-title: Propriété Database. Connection (DAO)
+title: Database.Connection, propriété (DAO)
 TOCTitle: Connection Property
 ms:assetid: 8b900ea4-9179-9ed1-bc0b-0576939bb2bd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197325(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294994"
 ---
-# <a name="databaseconnection-property-dao"></a>Propriété Database. Connection (DAO)
+# <a name="databaseconnection-property-dao"></a>Database.Connection, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Connexion
+*.* Connexion
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="remarks"></a>Remarques
 

@@ -19,7 +19,7 @@ ms.locfileid: "32295463"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [Count](count-property-ado.md) avec deux collections dans la base de données ***Employee***. La propriété obtient le nombre d’objets de chaque collection et définit la limite supérieure pour les boucles qui énumèrent ces collections. Une autre façon d'énumérer ces collections sans utiliser la propriété **Count** serait d'utiliser des instructions.
+Cet exemple illustre la propriété [Count](count-property-ado.md) avec deux collections dans la base de données ***Employee***. La propriété obtient le nombre d’objets de chaque collection et définit la limite supérieure pour les boucles qui énumèrent ces collections. Une autre façon d’éumérer ces collections sans utiliser la propriété **Count** serait d’utiliser des instructions.
 
 ```vb 
  

@@ -33,5 +33,5 @@ S'il existe une base de données par défaut, les chaînes SQL peuvent utiliser 
 
 Il se peut que certains fournisseurs et sources de données ne prennent pas en charge cette fonctionnalité et retournent une erreur ou une chaîne vide.
 
-**Utilisation des services de données à distance** Cette propriété n'est pas disponible pour un objet **Connection** côté client.
+**Utilisation du service de données à distance** Cette propriété n’est pas disponible sur un objet **Connection** côté client.
 

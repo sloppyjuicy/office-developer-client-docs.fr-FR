@@ -1,5 +1,5 @@
 ---
-title: Propriétés, méthodes et événements de dimension (ADO MD)
+title: Dimension properties, methods, and events (ADO MD)
 TOCTitle: Properties, methods, and events
 ms:assetid: 6aae3565-aeaf-582d-2a5a-c8202b788dfe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249419(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293888"
 ---
-# <a name="dimension-properties-methods-and-events-ado-md"></a>Propriétés, méthodes et événements de dimension (ADO MD)
+# <a name="dimension-properties-methods-and-events-ado-md"></a>Dimension properties, methods, and events (ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -30,7 +30,7 @@ ms.locfileid: "32293888"
 
 Aucun.
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

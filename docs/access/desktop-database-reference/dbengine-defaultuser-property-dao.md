@@ -1,5 +1,5 @@
 ---
-title: Propriété DBEngine. DefaultUser (DAO)
+title: DBEngine.DefaultUser, propriété (DAO)
 TOCTitle: DefaultUser Property
 ms:assetid: 41ee0211-0794-6026-7341-3698a0b2c588
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192905(v=office.15)
@@ -18,22 +18,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294344"
 ---
-# <a name="dbenginedefaultuser-property-dao"></a>Propriété DBEngine. DefaultUser (DAO)
+# <a name="dbenginedefaultuser-property-dao"></a>DBEngine.DefaultUser, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit le nom d'utilisateur servant à créer l'objet **Workspace** par défaut lors de son initialisation. Type de données **String** en lecture-écriture.
+Définit le nom d'utilisateur servant à créer l'objet **Workspace** par défaut lors de son initialisation. **String** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . DefaultUser
+*.* DefaultUser
 
-*expression* Expression qui renvoie un objet **DBEngine** .
+*expression* Expression renvoyant un objet **DBEngine**.
 
 ## <a name="remarks"></a>Remarques
 
-Le paramètre de **DefaultUser** est un type de données String. Il peut contenir entre 1 et 20 caractères dans les espaces de travail Microsoft Access, et peut inclure des caractères alphabétiques, des caractères accentués, des chiffres, des espaces et des symboles, à l'exception des suivants: "( \\ guillemets), \[ \] /(barre oblique), (barre oblique inverse), (crochets) ,: (deux-points), | (barre verticale) \< , (signe inférieur), \> (signe supérieur à), + (signe plus), = (signe égal),; (point-virgule),, (virgule),? (point d'interrogation \* ), (astérisque), espaces de début et caractères de contrôle (ASCII 00 à ASCII 31).
+Le paramètre **defaultUser est** un type de données String. Il peut comporter entre 1 et 20 caractères dans les espaces de travail Microsoft Access et peut inclure des caractères alphabétiques, des caractères accentués, des nombres, des espaces et des symboles à l’exception de : " (guillemets), / (barre oblique \\ inverse), \[ \] (barres obliques inverses), (crochets), : (deux-points), | (canal), \< (signe inférieur à), (signe supérieur \> à), + (signe plus), = (signe égal), ; (point-virgule), , ( virgule), ? (point d’interrogation), (astérisque), espaces de tête et caractères de contrôle \* (ASCII 00 à ASCII 31).
 
 
 > [!NOTE]

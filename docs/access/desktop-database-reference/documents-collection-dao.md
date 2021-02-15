@@ -29,9 +29,9 @@ Pour faire référence à un objet **Document** d'une collection par son numéro
 
   - **Documents**(0)
 
-  - **Documents** ("*nom*")
+  - **Documents**( »*name*« )
 
-  - ****\!\[*Nom* des documents\]
+  -  \! Documents \[ *name*\]
 
 ## <a name="example"></a>Exemple
 

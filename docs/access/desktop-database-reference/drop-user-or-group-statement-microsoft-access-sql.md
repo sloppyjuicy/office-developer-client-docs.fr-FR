@@ -18,17 +18,17 @@ ms.locfileid: "32293643"
 
 **S’applique à** : Access 2013, Office 2013
 
-Supprime un ou plusieurs *utilisateurs* ou *groupes*existants, ou supprime un ou plusieurs *utilisateurs* existants d'un *groupe*existant.
+Supprime un ou plusieurs utilisateurs *ou* groupes existants *ou* supprime un ou plusieurs utilisateurs existants d’un groupe  *existant.*
 
 ## <a name="syntax"></a>Syntaxe
 
-### <a name="delete-one-or-more-users-or-remove-one-or-more-users-from-a-group"></a>Supprimer un ou plusieurs utilisateurs ou supprimer un ou plusieurs utilisateurs d'un groupe
+### <a name="delete-one-or-more-users-or-remove-one-or-more-users-from-a-group"></a>Supprimer un ou plusieurs utilisateurs ou supprimer un ou plusieurs utilisateurs d’un groupe
 
-Drop user **\[User, *User*,... \] du *groupe* \[\]
+DROP USER *user,* \[ *user*, ... \] \[ Groupe *FROM*\]
 
 ### <a name="delete-one-or-more-groups"></a>Supprimer un ou plusieurs groupes
 
-Drop Group **\[Group, *Group*,...\]
+DROP GROUP *group,* \[ *group*, ...\]
 
 L'instruction DROP USER ou GROUP est composée des arguments suivants :
 
@@ -45,11 +45,11 @@ L'instruction DROP USER ou GROUP est composée des arguments suivants :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>utilisateur</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>Nom de l'utilisateur à supprimer du fichier d'informations du groupe de travail.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>groupe</em></p></td>
+<td><p><em>group</em></p></td>
 <td><p>Nom du groupe à supprimer du fichier d'informations du groupe de travail.</p></td>
 </tr>
 </tbody>
@@ -58,7 +58,7 @@ L'instruction DROP USER ou GROUP est composée des arguments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-Si le mot clé FROM est utilisé dans l'instruction DROP USER, chacun des *utilisateurs* figurant dans l'instruction est supprimé du *groupe* spécifié à la suite du mot clé from. Toutefois, les *utilisateurs* eux-mêmes ne seront pas supprimés.
+Si le mot clé FROM est utilisé dans  l’instruction DROP USER, chacun  des utilisateurs répertoriés dans l’instruction est supprimé du groupe spécifié à la suite du mot clé FROM. Toutefois, les *utilisateurs* eux-mêmes ne seront pas supprimés.
 
-L'instruction DROP GROUP supprime les *groupes* spécifiés. Les *utilisateurs* qui sont membres du ou des *groupes*ne seront pas affectés, mais ils ne seront plus membres du ou des *groupes*supprimés.
+L'instruction DROP GROUP supprime les *groupes* spécifiés. Les *utilisateurs* qui sont membres du *(s)* groupe(s) ne seront pas affectés, mais ils ne seront plus membres du *(s)* groupe(s) supprimé(s).
 

@@ -22,13 +22,13 @@ Copie le nombre de caractères ou d’octets spécifié (selon la propriété [T
 
 ## <a name="syntax"></a>Syntaxe
 
-*Stream*. CopyTo *DestStream*, *NUMCHARS*
+*Stream*. CopyTo *DestStream*, *NumChars*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
-|*DestStream* |Valeur de variable objet qui contient une référence à un objet **Stream** ouvert. Le **flux** actuel est copié dans le **flux** de destination spécifié par *DestStream*. Le **flux** de destination doit déjà être ouvert. Si ce n'est pas le cas, une erreur d'exécution se produit.<br/><br/>**Remarque**: le paramètre *DestStream* ne peut pas être un proxy de l'objet **Stream** car cela nécessite l'accès à une interface privée sur l'objet **Stream** qui ne peut pas être à distance vers le client.|
+|*DestStream* |Valeur de variable objet qui contient une référence à un objet **Stream** ouvert. Le **flux actuel** est copié dans le flux **de** destination spécifié par *DestStream*. Le **flux** de destination doit déjà être ouvert. Si ce n’est pas le cas, une erreur d’exécuter se produit.<br/><br/>**REMARQUE**: le *paramètre DestStream* peut ne pas être un proxy de l’objet **Stream,** car cela nécessite l’accès à une interface privée sur l’objet **Stream** qui ne peut pas être distante vers le client.|
 |*NumChars* |Facultatif. Valeur de type **Integer** qui spécifie le nombre d’octets ou de caractères à copier de la position actuelle dans l’objet **Stream** source vers l’objet **Stream** de destination. La valeur par défaut est –1, ce qui signifie que tous les caractères ou tous les octets sont copiés de la position actuelle vers [EOS](eos-property-ado.md).|
 
 ## <a name="remarks"></a>Remarques

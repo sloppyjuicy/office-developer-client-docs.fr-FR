@@ -33,9 +33,9 @@ Si la propriété dynamique **Unique Table** est définie et que l'objet **Recor
 
 La méthode **Delete** prend un argument facultatif qui permet de spécifier les enregistrements affectés par la méthode **Delete**. Les seules valeurs valides pour cet argument sont l'une des deux constantes énumérées **AffectEnum** ADO suivantes :
 
-  - **adAffectCurrent** Affecte uniquement l'enregistrement actif.
+  - **adAffectCurrent** Affecte uniquement l’enregistrement actuel.
 
-  - **adAffectGroup** Affecte uniquement les enregistrements qui satisfont au paramètre actuel de la propriété **Filter** . La propriété **Filter** doit avoir une valeur **FilterGroupEnum** ou un tableau de **signets** pour utiliser cette option.
+  - **adAffectGroup** Affecte uniquement les enregistrements qui répondent au paramètre actuel de **la propriété Filter.** La propriété **Filter** doit avoir une valeur **FilterGroupEnum** ou un tableau de **signets** pour utiliser cette option.
 
 Le code suivant illustre un exemple qui spécifie **adAffectGroup** lors de l'appel de la méthode **Delete**. Cet exemple ajoute quelques enregistrements à l'exemple d'objet **Recordset** et met à jour la base de données. Il filtre ensuite l'objet **Recordset** à l'aide de la constante énumérée de filtre **adFilterAffectedRecords**, qui permet de n'afficher que les enregistrements récemment ajoutés dans l'objet **Recordset**. Enfin, il appelle la méthode **Delete** et spécifie que tous les enregistrements correspondant au au paramètre actuel de la propriété **Filter** (les nouveaux enregistrements) doivent être supprimés.
 

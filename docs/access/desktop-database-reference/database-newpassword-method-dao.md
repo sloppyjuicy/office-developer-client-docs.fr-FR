@@ -1,5 +1,5 @@
 ---
-title: Database. NewPassword, méthode (DAO)
+title: Database.NewPassword, méthode (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844754(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294854"
 ---
-# <a name="databasenewpassword-method-dao"></a>Database. NewPassword, méthode (DAO)
+# <a name="databasenewpassword-method-dao"></a>Database.NewPassword, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Permet de modifier le mot de passe d’une base de données existante du moteur 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . NewPassword (***bstrAncien***, ***bstrNouveau***)
+*.* NewPassword(***bstrOld***, ***bstrNew***)
 
-*expression* Expression qui renvoie un objet **Database** .
+*expression* Expression qui renvoie un objet **Database.**
 
 ## <a name="parameters"></a>Paramètres
 
@@ -49,17 +49,17 @@ Permet de modifier le mot de passe d’une base de données existante du moteur 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>bstrAncien</em></p></td>
+<td><p><em>bstrOld</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Définition actuelle de la propriété <strong>Password</strong> de l'objet <strong>Database</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>bstrNouveau</em></p></td>
+<td><p><em>bstrNew</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Nouveau paramètre de la propriété <strong>Password</strong> de l'objet <strong>Database</strong> .</p>
-<p><strong>Remarque</strong>: utilisez des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des symboles. Les mots de passe faibles ne mélangent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : House27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
+<td><p>Nouveau paramètre de la propriété <strong>Password</strong> de l’objet <strong>Database.</strong></p>
+<p><strong>REMARQUE</strong>: utilisez des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ Permet de modifier le mot de passe d’une base de données existante du moteur 
 
 ## <a name="remarks"></a>Remarques
 
-Les chaînes bstrAncien et bstrNouveau peuvent contenir jusqu'à 20 caractères et peuvent contenir n'importe quel caractère, à l'exception du caractère ASCII 0 (null). Pour effacer le mot de passe, utilisez une chaîne de longueur nulle ("") pour bstrNouveau.
+Les chaînes bstrOld et bstrNew peuvent comporter jusqu’à 20 caractères et inclure n’importe quel caractère à l’exception du caractère ASCII 0 (null). Pour effacer le mot de passe, utilisez une chaîne nulle («  ») pour bstrNew.
 
 Les mots de passe respectent la casse.
 

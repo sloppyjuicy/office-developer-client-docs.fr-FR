@@ -1,5 +1,5 @@
 ---
-title: DataFactory, propriétés, méthodes et événements (RDS)
+title: DataFactory properties, methods, and events (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: d5df9160-2931-7773-f75a-8065881d9487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294511"
 ---
-# <a name="datafactory-properties-methods-and-events-rds"></a>DataFactory, propriétés, méthodes et événements (RDS)
+# <a name="datafactory-properties-methods-and-events-rds"></a>DataFactory properties, methods, and events (RDS)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32294511"
 
 ## <a name="properties"></a>Propriétés
 
-Aucun.
+Aucune.
 
 ## <a name="methods"></a>Méthodes
 
@@ -53,7 +53,7 @@ Aucun.
 </table>
 
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

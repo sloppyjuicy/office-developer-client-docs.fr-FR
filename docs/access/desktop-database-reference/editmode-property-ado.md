@@ -31,7 +31,7 @@ ADO gère un tampon d'édition associé à l'enregistrement actuel. Cette propri
 
 Consultez la méthode [AddNew](addnew-method-ado.md) pour une description plus détaillée de la propriété **EditMode** dans des conditions d'édition différentes.
 
-Lorsqu'un appel à [Delete](delete-method-ado-recordset.md) ne parvient pas à supprimer l'enregistrement ou les enregistrements de la source de données (en raison de violations d'intégrité référentielle, par exemple), l' [objet Recordset](recordset-object-ado.md) reste en mode édition (**EditMode** = **adEditInProgress **). Il faut donc appeler **CancelUpdate** avant de déplacer l'enregistrement actuel (avec [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) ou [Close](close-method-ado.md), par exemple).
+Lorsqu’un [](delete-method-ado-recordset.md) appel à la suppression ne supprime pas correctement l’enregistrement ou les enregistrements dans [](recordset-object-ado.md) la source de données (en raison de violations d’intégrité référence, par exemple), le jeu d’enregistrements reste en mode édition (**EditMode**  =  **adEditInProgress**). Il faut donc appeler **CancelUpdate** avant de déplacer l'enregistrement actuel (avec [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) ou [Close](close-method-ado.md), par exemple).
 
 
 > [!NOTE]

@@ -1,5 +1,5 @@
 ---
-title: Section données (référence de base de données de bureau Access)
+title: Section Données (référence de base de données de bureau Access)
 TOCTitle: Data section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
@@ -28,17 +28,17 @@ Les caractères XML réservés dans les données texte doivent être remplacés 
 <z:row CompanyName="Joe&apos;s Garage"/> 
 ```
 
-Les caractères suivants sont réservés dans XML et doivent être remplacés par les entités de caractères: {', ",\<&\>,,}.
+Les caractères suivants sont réservés au XML et doivent être remplacés par des entités de caractères : {', »,&, \< , \> }.
 
-## <a name="binary"></a>Binary
+## <a name="binary"></a>Binaire
 
 Les données binaires sont codées en type de données bin.hex (c'est-à-dire qu'un octet correspond à deux caractères, un caractère par quartet).
 
-## <a name="datetime"></a>DateTime
+## <a name="datetime"></a>Date/heure
 
-Le format de\_date variante VT n'est pas directement pris en charge par les types de données XML-Data. Le format correct des dates avec un composant de date et d'heure est : aaaa-mm-jj**T**hh:mm:ss.
+Le format variant VT DATE n’est pas directement pris en charge par \_ XML-Data types de données. Le format correct des dates avec un composant de date et d'heure est : aaaa-mm-jj **T** hh:mm:ss.
 
-Pour plus d'informations sur les formats de date spécifiés par XML, consultez la [note W3C XMLDATA](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
+Pour plus d’informations sur les formats de date spécifiés par XML, voir [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
 
 Lorsque la spécification XML-Data définit deux types de données équivalents (par exemple, i4 == int), ADO écrit le nom convivial mais lit les deux formats.
 

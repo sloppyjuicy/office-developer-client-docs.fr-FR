@@ -1,5 +1,5 @@
 ---
-title: Documents. Count, propriété (DAO)
+title: Documents.Count, propriété (DAO)
 TOCTitle: Count Property
 ms:assetid: 3fc0b1e6-f7be-cd43-711f-5cf5763fe7f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192858(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293741"
 ---
-# <a name="documentscount-property-dao"></a>Documents. Count, propriété (DAO)
+# <a name="documentscount-property-dao"></a>Documents.Count, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,9 +27,9 @@ Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Compte
+*.* Count
 
-*expression* Variable qui représente un objet **documents** .
+*expression* Variable qui représente un objet **Documents.**
 
 ## <a name="remarks"></a>Remarques
 

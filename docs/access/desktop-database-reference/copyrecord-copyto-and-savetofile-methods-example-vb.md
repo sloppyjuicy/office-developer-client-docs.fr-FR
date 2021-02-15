@@ -19,7 +19,7 @@ ms.locfileid: "32295534"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple montre comment créer des copies d'un fichier à l'aide d'objets [Stream](stream-object-ado.md) ou [Record](record-object-ado.md). Une copie est apportée à un dossier Web pour la publication Internet. Les autres propriétés et méthodes représentées sont : [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md) et [Record Open](open-method-ado-record.md).
+Cet exemple montre comment créer des copies d'un fichier à l'aide d'objets [Stream](stream-object-ado.md) ou [Record](record-object-ado.md). Une copie est réalisée dans un dossier web pour la publication Internet. Les autres propriétés et méthodes représentées sont : [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md) et [Record Open](open-method-ado-record.md).
 
 ```vb 
  

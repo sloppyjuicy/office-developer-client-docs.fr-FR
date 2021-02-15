@@ -20,7 +20,7 @@ ms.locfileid: "32293566"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EMailDatabaseObject, action de macro
 
-**S'applique à:** Access 2013 | Office 2013
+**S’applique à** : Access 2013 | Office 2013
 
 Vous pouvez utiliser l'action **EnvoyerObjetBaseDeDonnées** pour inclure une feuille de données, un formulaire, un état, un module ou une page d'accès aux données Microsoft Access spécifié dans un message électronique, dans lequel il peut être affiché ou transféré.
 
@@ -48,24 +48,24 @@ L’action **EnvoyerObjetBaseDeDonnées** utilise les arguments suivants :
 <td><p>Type d’objet à inclure dans le message électronique. Cliquez sur <strong>Table</strong> (pour une feuille de données de table), <strong>Requête</strong> (pour une feuille de données de requête), <strong>Formulaire</strong> (pour un formulaire ou une feuille de données de formulaire), <strong>État</strong>, <strong>Module</strong> ou <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Procédures stockées</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Vous ne pouvez pas envoyer de macro. Si vous voulez inclure l’objet actif, sélectionnez son type avec cet argument mais ne spécifiez aucun nom dans l’argument <strong>Nom de l’objet</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom objet</strong></p></td>
+<td><p><strong>Nom de l’objet</strong></p></td>
 <td><p>Nom de l’objet à inclure dans le message électronique. La zone <strong>Nom de l’objet</strong> affiche tous les objets de la base de données du type sélectionné dans l’argument <strong>Type d’objet</strong>. Si vous laissez les arguments <strong>Type d’objet</strong> et <strong>Nom d’objet</strong> vides, Access envoie un message à l’application de messagerie sans aucun objet de base de données. Si vous exécutez une macro contenant l’action <strong>EnvoyerObjetBaseDeDonnées</strong> dans une base de données bibliothèque, Access recherche d’abord l’objet enregistré sous ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Format de sortie</strong></p></td>
-<td><p>Type de format que vous souhaitez utiliser pour l'objet inclus. La liste des formats que vous pouvez sélectionner varie en fonction de ce que vous sélectionnez pour l'argument <strong>type d'objet</strong> . Les formats disponibles peuvent inclure le classeur Excel <strong>97-excel 2003 (*. xls)</strong>, le <strong>Classeur binaire Excel (*. xlsb)</strong>, le <strong>classeur Excel (*. xlsx)</strong>, le <strong>code html (*. htm, *. html)</strong>, le <strong>classeur Microsoft Excel 5.0/95 (*. xls)</strong>, le <strong>format PDF </strong>, <strong>Texte enrichi fomat (*. rtf)</strong>, <strong>fichiers texte (*. txt)</strong>ou <strong>format XPS (*. Xps)</strong>. dans la zone <strong>format de sortie</strong> . Les modules ne peuvent être envoyés qu'au format texte. Les pages d'accès aux données peuvent uniquement être envoyées au format HTML. Si vous laissez cet argument vide, Access vous demande de spécifier le format de sortie.</p></td>
+<td><p>Type de format que vous souhaitez utiliser pour l’objet inclus. La liste des formats que vous pouvez sélectionner change en fonction de ce que vous sélectionnez pour l’argument <strong>Type d’objet.</strong> Les formats disponibles peuvent inclure <strong>Excel 97 - Excel 2003 Workbook (*.xls),</strong> <strong>Excel Binary Workbook (*.xlsb),</strong> <strong>Excel Workbook (*.xlsx)</strong>, <strong>HTML (*.htm, *.html)</strong>, <strong>Microsoft Excel 5.0/95 Workbook (*.xls)</strong>, <strong>PDF Format</strong>, Rich <strong>Text Fomat (*.rtf)</strong>, <strong>Text Files (*.txt)</strong>ou <strong>XPS Format (*.xps)</strong>. dans la <strong>zone Format de</strong> sortie. Les modules ne peuvent être envoyés qu’au format texte. Les pages d’accès aux données peuvent uniquement être envoyées au format HTML. Si vous laissez cet argument vide, Access vous demande de spécifier le format de sortie.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>To</strong></p></td>
+<td><p><strong>Pour</strong></p></td>
 <td><p>Destinataires du message dont vous souhaitez spécifier les noms dans la ligne <strong>À</strong> du message électronique. Si cet argument est vide, Access vous demande de spécifier les noms des destinataires. Séparez les noms des destinataires spécifiés dans cet argument (et dans les arguments <strong>Cc</strong> et <strong>Cci</strong>) par un point-virgule (;) ou le séparateur de listes défini dans la boîte de dialogue <strong>Personnaliser les options régionales</strong> sous l’onglet <strong>Nombres</strong> dans le <strong>Panneau de configuration</strong> de Microsoft Windows. Si l’application de messagerie ne peut pas identifier les noms des destinataires, le message n’est pas envoyé et une erreur se produit.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Cc</strong></p></td>
-<td><p>Destinataires du message dont les noms doivent être placés sur <strong></strong> la ligne&quot;CC (&quot;copie carbone) dans le message électronique. Si vous laissez cet argument vide, la ligne <strong>Cc :</strong> du message électronique reste vide.</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>Cc</strong> (copie &quot; &quot; carbone) du message électronique. Si vous laissez cet argument vide, la ligne <strong>Cc :</strong> du message électronique reste vide.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Bcc</strong></p></td>
-<td><p>Destinataires du message dont les noms doivent être placés sur <strong></strong> la ligne&quot;CCI (copie&quot;carbone invisible) dans le message électronique. Si vous laissez cet argument vide, la ligne <strong>Cci :</strong> du message électronique reste vide.</p></td>
+<td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>Bcc</strong> (copie carbone non &quot; &quot; voyante) du message électronique. Si vous laissez cet argument vide, la ligne <strong>Cci :</strong> du message électronique reste vide.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Subject</strong></p></td>
@@ -80,7 +80,7 @@ L’action **EnvoyerObjetBaseDeDonnées** utilise les arguments suivants :
 <td><p>Spécifie si le message peut être modifié avant d’être envoyé. Si vous sélectionnez <strong>Oui</strong>, l’application de messagerie est automatiquement lancée et le message peut être modifié. Si vous sélectionnez <strong>Non</strong>, le message est envoyé sans offrir à l’utilisateur la possibilité de modifier le message. La valeur par défaut est <strong>Oui</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Fichier de modèle</strong></p></td>
+<td><p><strong>Fichier modèle</strong></p></td>
 <td><p>Chemin d’accès et nom d’un fichier à utiliser comme modèle pour un fichier HTML. Le fichier modèle est un fichier contenant des balises HTML.</p></td>
 </tr>
 </tbody>
@@ -111,9 +111,9 @@ Pour exécuter l'action **EnvoyerObjetBaseDeDonnées** dans un module Visual Bas
 
 ### <a name="about-the-contributor"></a>À propos du collaborateur
 
-**Lien fourni par** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), le fondateur et le Président de FMS, Inc., un des principaux fournisseurs de solutions de base de données et d'outils de développement personnalisés.
+**Lien fourni par** Luke Chung, [FMS, Inc.,](https://www.fmsinc.com/)fondateur et président de FMS, Inc., un fournisseur de solutions de base de données personnalisées et d’outils de développement.
 
-- [Fonctionnalités et limites de l'utilisation de la méthode SendObject pour envoyer](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
+- [Fonctionnalités et limites de l’utilisation de la méthode SendObject pour envoyer](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 
 
 

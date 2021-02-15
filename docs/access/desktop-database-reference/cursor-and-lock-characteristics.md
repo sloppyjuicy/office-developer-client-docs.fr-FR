@@ -52,7 +52,7 @@ S'il est vrai que les caractéristiques d'un curseur dépendent des fonctionnali
 <td><p><strong>adOpenStatic</strong></p></td>
 <td><p></p>
 <ul>
-<li><p>Défilement</p></li>
+<li><p>Scrollable</p></li>
 </ul>
 <p></p></td>
 <td><p></p>
@@ -66,7 +66,7 @@ S'il est vrai que les caractéristiques d'un curseur dépendent des fonctionnali
 <td><p></p>
 <ul>
 <li><p>Accès concurrentiel aux données possible mais limité</p></li>
-<li><p>Défilement</p></li>
+<li><p>Scrollable</p></li>
 </ul>
 <p></p></td>
 <td><p></p>
@@ -81,7 +81,7 @@ S'il est vrai que les caractéristiques d'un curseur dépendent des fonctionnali
 <td><p></p>
 <ul>
 <li><p>Accès concurrentiel aux données élevé</p></li>
-<li><p>Défilement</p></li>
+<li><p>Scrollable</p></li>
 </ul>
 <p></p></td>
 <td><p></p>

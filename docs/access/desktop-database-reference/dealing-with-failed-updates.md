@@ -22,7 +22,7 @@ ms.locfileid: "32294161"
 
 Lorsqu'une mise à jour se solde par un échec, la résolution des erreurs dépend de leur nature, de leur sévérité et de la logique de votre application. Toutefois, si la base de données est partagée avec d'autres utilisateurs, une erreur commune consiste à ce qu'une autre personne modifie le champ avant vous. Ce type d'erreur est appelé un *conflit*. ADO détecte cette situation et signale une erreur.
 
-Si des erreurs de mise à jour surviennent, elles sont dirigées dans un programme de gestion des erreurs. Pour que seules les lignes présentant des conflits soient visibles, filtrez le **jeu d'enregistrements** avec la constante **adFilterConflictingRecords**. Dans cet exemple, la stratégie de résolution des erreurs est simplement d'imprimer le prénom et le nom de famille de l'auteur (aux valeurs**\_fname** et au **\_lname**).
+Si des erreurs de mise à jour surviennent, elles sont dirigées dans un programme de gestion des erreurs. Pour que seules les lignes présentant des conflits soient visibles, filtrez le **jeu d'enregistrements** avec la constante **adFilterConflictingRecords**. Dans cet exemple, la stratégie de résolution des erreurs consiste simplement à imprimer le prénom et le nom de l’auteur (**au \_ fname** et **au \_ lname**).
 
 Le code permettant d'alerter l'utilisateur du conflit de mise à jour ressemble à ceci :
 

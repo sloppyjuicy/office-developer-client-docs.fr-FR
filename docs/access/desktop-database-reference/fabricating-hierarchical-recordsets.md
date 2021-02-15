@@ -48,5 +48,5 @@ Pour créer un **jeu d'enregistrements**, hiérarchique, vous devez spécifier l
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-Une fois que l' **objet Recordset** a été créé, il peut être rempli, manipulé ou conservé dans un fichier.
+Une fois **le recordset** fabriqué, il peut être rempli, manipulé ou persistant dans un fichier.
 

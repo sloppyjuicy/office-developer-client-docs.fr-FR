@@ -35,5 +35,5 @@ Les curseurs renvoyés par la méthode [Execute](https://docs.microsoft.com/offi
 
 Cette propriété est en lecture/écriture dans un objet [Connection](connection-object-ado.md) ou un objet [Recordset](recordset-object-ado.md) fermé, et en lecture seule dans un objet **Recordset** ouvert.
 
-**Utilisation des services de données à distance** Lorsqu'elle est utilisée sur un objet **Recordset** ou **Connection** côté client, la propriété **CursorLocation** peut uniquement être définie sur **adUseClient**.
+**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet **Recordset** ou **Connection** côté client, la propriété **CursorLocation** ne peut être définie que **sur adUseClient**.
 

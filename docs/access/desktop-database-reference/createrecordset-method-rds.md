@@ -22,11 +22,11 @@ Crée un objet [Recordset](recordset-object-ado.md) vide et déconnecté.
 
 ## <a name="syntax"></a>Syntaxe
 
-*objet*. CreateRecordset (*ColumnInfos*)
+*.* CreateRecordset(*ColumnInfos*)
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Object* |Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md) ou [RDS.DataControl](datacontrol-object-rds.md).|
 |*ColumnsInfos* |Tableau de type **Variant** qui contient des attributs et définit chaque colonne de l'objet **Recordset** créé. Chaque définition de colonne contient un tableau de quatre attributs obligatoires et un attribut facultatif. Le jeu de tableaux de colonnes est ensuite regroupé dans un tableau qui définit l'objet **Recordset**. Pour obtenir la liste des attributs, consultez le tableau suivant.|
@@ -37,9 +37,9 @@ Crée un objet [Recordset](recordset-object-ado.md) vide et déconnecté.
 |:--------|:----------|
 |Nom |Nom de l'en-tête de colonne.|
 |Type |Entier du type de données.|
-|Taille |Entier de la largeur en caractères, quel que soit le type de données.|
-|Possibilité de valeur null |Valeur de type Boolean.|
-|Homothétie (facultatif) |Cet attribut facultatif définit l'échelle des champs numériques. Si cette valeur n'est pas spécifiée, les valeurs numériques sont tronquées à une échelle de trois. La précision n'est pas affectée, mais le nombre de chiffres après la virgule est tronqué après trois.|
+|Size |Entier de la largeur en caractères, quel que soit le type de données.|
+|Nullabilité |Valeur de type Boolean.|
+|Échelle (facultatif) |Cet attribut facultatif définit l'échelle des champs numériques. Si cette valeur n'est pas spécifiée, les valeurs numériques sont tronquées à une échelle de trois. La précision n'est pas affectée, mais le nombre de chiffres après la virgule est tronqué après trois.|
 
 ## <a name="remarks"></a>Remarques
 
@@ -70,73 +70,73 @@ Pour certains types de données variables, il est possible de forcer une convers
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adTinyInt</strong></p></td>
-<td><p>Seiz</p></td>
+<td><p>16 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adBigInt</strong></p></td>
-<td><p>vingtaine</p></td>
+<td><p>20</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adUnsignedTinyInt</strong></p></td>
-<td><p>cm</p></td>
+<td><p>17 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adUnsignedSmallInt</strong></p></td>
-<td><p>18</p></td>
+<td><p>18 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adUnsignedInt</strong></p></td>
-<td><p>neuf</p></td>
+<td><p>19</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adUnsignedBigInt</strong></p></td>
-<td><p>21</p></td>
+<td><p> 21</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adSingle</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adDouble</strong></p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adCurrency</strong></p></td>
-<td><p>6.x</p></td>
+<td><p>6 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adDecimal</strong></p></td>
-<td><p>13</p></td>
+<td><p>14 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
@@ -148,13 +148,13 @@ Pour certains types de données variables, il est possible de forcer une convers
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adBoolean</strong></p></td>
-<td><p>a4</p></td>
+<td><p>11</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adError</strong></p></td>
-<td><p>10</p></td>
+<td><p>10 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -166,7 +166,7 @@ Pour certains types de données variables, il est possible de forcer une convers
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adDate</strong></p></td>
-<td><p>7j/7</p></td>
+<td><p>7 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -185,12 +185,12 @@ Pour certains types de données variables, il est possible de forcer une convers
 <td><p>Fixed</p></td>
 <td><p><strong>adDBTimestamp</strong></p></td>
 <td><p>135</p></td>
-<td><p>7j/7</p></td>
+<td><p>7 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Variable</p></td>
 <td><p><strong>adBSTR</strong></p></td>
-<td><p>8bits</p></td>
+<td><p>8 </p></td>
 <td><p>130</p></td>
 </tr>
 <tr class="even">

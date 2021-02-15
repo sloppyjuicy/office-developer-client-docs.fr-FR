@@ -1,5 +1,5 @@
 ---
-title: DataSpace, propriétés, méthodes et événements (RDS)
+title: DataSpace properties, methods, and events (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: 287a93af-891c-4f7b-11d2-506ba6f19155
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249043(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294434"
 ---
-# <a name="dataspace-properties-methods-and-events-rds"></a>DataSpace, propriétés, méthodes et événements (RDS)
+# <a name="dataspace-properties-methods-and-events-rds"></a>DataSpace properties, methods, and events (RDS)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32294434"
 
 - [CreateObject, méthode (RDS)](createobject-method-rds.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

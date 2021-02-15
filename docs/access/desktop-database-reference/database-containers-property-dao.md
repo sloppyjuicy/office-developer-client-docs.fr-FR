@@ -1,5 +1,5 @@
 ---
-title: Database. Containers, propriété (DAO)
+title: Database.Containers, propriété (DAO)
 TOCTitle: Containers Property
 ms:assetid: d6b13bae-461c-fe5e-692b-0e04fcd5df2a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835049(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294966"
 ---
-# <a name="databasecontainers-property-dao"></a>Database. Containers, propriété (DAO)
+# <a name="databasecontainers-property-dao"></a>Database.Containers, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,7 +27,7 @@ Renvoie une collection **Containers** qui représente tous les objets **Containe
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Renferm
+*.* Conteneurs
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 

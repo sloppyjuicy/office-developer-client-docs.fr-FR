@@ -22,11 +22,11 @@ Supprime l'enregistrement actif ou un groupe d'enregistrements.
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. Supprimer *AffectRecords*
+*recordset*. Supprimer *AffectRecords*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*AffectRecords* |Valeur [AffectEnum](affectenum.md) qui détermine le nombre d'enregistrements concernés par la méthode **Delete**. La valeur par défaut est **adAffectCurrent**.|
 

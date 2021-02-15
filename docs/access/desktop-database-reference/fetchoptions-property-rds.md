@@ -61,5 +61,5 @@ Définit ou renvoie l'une des valeurs suivantes.
 
 ## <a name="remarks"></a>Remarques
 
-Dans une application Web, vous souhaiterez généralement utiliser **adcFetchAsync** (valeur par défaut), car elle offre de meilleures performances. Dans une application cliente compilée, on utilise généralement **adcFetchBackground**.
+Dans une application web, vous souhaitez généralement utiliser **adcFetchAsync** (valeur par défaut), car elle offre de meilleures performances. Dans une application cliente compilée, on utilise généralement **adcFetchBackground**.
 

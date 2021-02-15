@@ -1,5 +1,5 @@
 ---
-title: Errors, collection (DAO)
+title: Errors collection (DAO)
 TOCTitle: Errors Collection
 ms:assetid: d42007b5-6410-14e9-baf9-9306fdef38f9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834805(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293412"
 ---
-# <a name="errors-collection-dao"></a>Errors, collection (DAO)
+# <a name="errors-collection-dao"></a>Errors collection (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Une collection **Errors** contient tous les objets **Error** stockés, chacun se
 
 ## <a name="remarks"></a>Remarques
 
-Toute opération impliquant des objets DAO peut générer une ou plusieurs erreurs. À mesure que les erreurs surviennent, un ou plusieurs objets **Error** sont stockés dans la collection **Errors** de l'objet **DBEngine**. Lorsqu'une autre opération DAO génère une erreur, la collection **Errors** est effacée et le nouveau jeu d'objets **Error** est stocké dans la collection **Errors**. L'objet au numéro le plus élevé dans la collection **Errors **(DBEngine.Errors.Count - 1) correspond à l'erreur signalée par l'objet **Err** de Microsoft Visual Basic for Applications (VBA).
+Toute opération impliquant des objets DAO peut générer une ou plusieurs erreurs. À mesure que les erreurs surviennent, un ou plusieurs objets **Error** sont stockés dans la collection **Errors** de l'objet **DBEngine**. Lorsqu'une autre opération DAO génère une erreur, la collection **Errors** est effacée et le nouveau jeu d'objets **Error** est stocké dans la collection **Errors**. L'objet au numéro le plus élevé dans la collection **Errors**(DBEngine.Errors.Count - 1) correspond à l'erreur signalée par l'objet **Err** de Microsoft Visual Basic for Applications (VBA).
 
 Les opérations DAO ne générant aucune erreur n'ont pas d'effets sur la collection **Errors**.
 

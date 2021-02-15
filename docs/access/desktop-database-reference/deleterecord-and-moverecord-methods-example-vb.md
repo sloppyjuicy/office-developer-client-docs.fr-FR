@@ -19,7 +19,7 @@ ms.locfileid: "32294021"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple montre comment copier, déplacer, modifier et supprimer le contenu d'un fichier texte publié dans un dossier Web. Les autres propriétés et méthodes utilisées sont [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) et [Flush](flush-method-ado.md).
+Cet exemple montre comment copier, déplacer, modifier et supprimer le contenu d’un fichier texte publié dans un dossier web. Les autres propriétés et méthodes utilisées sont [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) et [Flush](flush-method-ado.md).
 
 ```vb 
  

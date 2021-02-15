@@ -1,5 +1,5 @@
 ---
-title: Database. version, propriété (DAO)
+title: Database.Version, propriété (DAO)
 TOCTitle: Version Property
 ms:assetid: 40faaa0c-e764-e968-f606-7e06ded80c3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192887(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294651"
 ---
-# <a name="databaseversion-property-dao"></a>Database. version, propriété (DAO)
+# <a name="databaseversion-property-dao"></a>Database.Version, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Dans un espace de travail Microsoft Access, renvoie la version du moteur de base
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Version
+*.* Version
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -58,33 +58,33 @@ Le tableau suivant montre la version du moteur de base de données incluse dans 
 <td><p>Microsoft Jet</p></td>
 <td><p>1.0 (1992)</p></td>
 <td><p>1.0</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
 <td><p>1.1 (1993)</p></td>
 <td><p>1.1</p></td>
-<td><p>3,0</p></td>
-<td><p>N/D</p></td>
-<td><p>S/O</p></td>
+<td><p>3.0</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>
 <td><p>2.0 (1994)</p></td>
 <td><p>2.0</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
 <td><p>2.5 (1995)</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>4.0 (16 bits)</p></td>
-<td><p>N/D</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>
@@ -92,15 +92,15 @@ Le tableau suivant montre la version du moteur de base de données incluse dans 
 <td><p>‘95 (7.0)</p></td>
 <td><p>4.0 (32 bits)</p></td>
 <td><p>‘95 (7.0)</p></td>
-<td><p>Situé</p></td>
+<td><p>4.x</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
 <td><p>3.5 (1996)</p></td>
 <td><p>‘97 (8.0)</p></td>
-<td><p>5,0</p></td>
+<td><p>5.0</p></td>
 <td><p>‘97 (8.0)</p></td>
-<td><p>5,0</p></td>
+<td><p>5.0</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>

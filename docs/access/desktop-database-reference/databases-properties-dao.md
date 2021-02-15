@@ -1,5 +1,5 @@
 ---
-title: Propriétés des bases de données (DAO)
+title: Databases properties (DAO)
 TOCTitle: Properties
 ms:assetid: 724b5522-3cc5-4135-8d4f-23c254b44fe9
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160984(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294598"
 ---
-# <a name="databases-properties-dao"></a>Propriétés des bases de données (DAO)
+# <a name="databases-properties-dao"></a>Databases properties (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Databases. Count, propriété (DAO)](databases-count-property-dao.md)
+- [Databases.Count, propriété (DAO)](databases-count-property-dao.md)
 

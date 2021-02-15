@@ -1,5 +1,5 @@
 ---
-title: DBEngine. IniPath, propriété (DAO)
+title: DBEngine.IniPath, propriété (DAO)
 TOCTitle: IniPath Property
 ms:assetid: b18cace5-4e53-d011-6373-f4ac64556fd4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822009(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294294"
 ---
-# <a name="dbengineinipath-property-dao"></a>DBEngine. IniPath, propriété (DAO)
+# <a name="dbengineinipath-property-dao"></a>DBEngine.IniPath, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,9 +27,9 @@ Définit ou renvoie des informations sur la clé du Registre Windows contenant l
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . IniPath
+*.* IniPath
 
-*expression* Variable qui représente un objet **DBEngine** .
+*expression* Variable représentant un objet **DBEngine**.
 
 ## <a name="remarks"></a>Remarques
 
@@ -39,5 +39,5 @@ Pour que cette option soit efficace, vous devez définir la propriété **IniPat
 
 Le Registre permet de fournir des paramètres d'initialisation pour certains pilotes de base de données ISAM installables. Par exemple, pour utiliser Paradox version 4.0, définissez la propriété **IniPath** sur une partie du Registre qui contient les paramètres appropriés.
 
-Cette propriété reconnaît soit HKEY\_local\_machine, soit\_HKEY\_local User. Si aucune clé racine n'est fournie, la valeur par\_défaut\_est HKEY local machine.
+Cette propriété reconnaît HKEY \_ LOCAL \_ MACHINE ou HKEY LOCAL \_ \_ USER. Si aucune clé racine n’est fournie, la valeur par défaut est HKEY \_ LOCAL \_ MACHINE.
 

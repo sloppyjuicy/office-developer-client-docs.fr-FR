@@ -36,7 +36,7 @@ L’action **AfficherPointeurSablier** utilise l'argument suivant :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -51,7 +51,7 @@ L’action **AfficherPointeurSablier** utilise l'argument suivant :
 
 ## <a name="remarks"></a>Remarques
 
-Cette action est souvent utilisée lorsque l'écho est désactivé à l'aide de l'action **Écho**. Lorsque l'écho est désactivé, Access interrompt les mises à jour de l'écran jusqu'à la fin de la macro.
+Cette action est souvent utilisée lorsque l'écho est désactivé à l'aide de l'action **Écho**. Lorsque l’écho est éteint, Access suspend les mises à jour de l’écran jusqu’à ce que la macro soit terminée.
 
 Access réinitialise automatiquement l'argument **Sablier actif** sur la valeur **Non** une fois la macro terminée.
 

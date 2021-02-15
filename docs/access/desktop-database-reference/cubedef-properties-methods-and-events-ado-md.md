@@ -1,5 +1,5 @@
 ---
-title: CubeDef, propriétés, méthodes et événements (ADO MD)
+title: CubeDef properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: fa28ae46-e9e2-a542-224d-8217ca8e52af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250274(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295295"
 ---
-# <a name="cubedef-properties-methods-and-events-ado-md"></a>CubeDef, propriétés, méthodes et événements (ADO MD)
+# <a name="cubedef-properties-methods-and-events-ado-md"></a>CubeDef properties, methods, and events (ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -25,7 +25,7 @@ ms.locfileid: "32295295"
 - [Name, propriété](name-property-ado-md.md)
 - [Properties, collection](properties-collection-ado.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

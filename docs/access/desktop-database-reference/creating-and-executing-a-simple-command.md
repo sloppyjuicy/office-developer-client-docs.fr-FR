@@ -83,7 +83,7 @@ La commande à exécuter est spécifiée à l'aide de la propriété **CommandTe
 
 
 > [!NOTE]
-> Plusieurs exemples de cette section appellent une fonction utilitaire, **GetNewConnection**, pour établir une connexion avec le fournisseur de données. Pour éviter la redondance, il n'est affiché qu'une seule fois:
+> Plusieurs exemples de cette section appellent une fonction utilitaire, **GetNewConnection,** pour établir une connexion avec le fournisseur de données. Pour éviter la redondance, elle n’est répertoriée qu’une seule fois :
 
 ```vb 
  

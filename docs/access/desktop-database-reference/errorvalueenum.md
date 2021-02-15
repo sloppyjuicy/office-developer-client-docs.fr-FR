@@ -26,10 +26,10 @@ Trois formes d'erreur sont répertoriées :
 
 - Décimale négative  La conversion décimale du numéro d'erreur complet.
 
-- Hexadécimale  La représentation héxadécimale du numéro d'erreur complet. Le code de fonction Windows est dans le quatrième chiffre. Le code de fonction pour les numéros d'erreur ADO est *un*. Par exemple: 0x800***A***0E7B.
+- Hexadécimale  La représentation héxadécimale du numéro d'erreur complet. Le code de fonction Windows est dans le quatrième chiffre. Le code de la facilité pour les numéros d’erreur ADO est *A*. Par exemple : 0x800 ***A*** 0E7B.
 
 > [!NOTE]
-> Les erreurs OLE DB peuvent être transmises à votre application ADO. En général, elles peuvent être identifiées par un code de fonction Windows *4*. Par exemple, 0x800_**4**_.... Pour plus d'informations sur ces numéros, consultez le chapitre 16 du *Guide OLE DB Programmer's Reference* (en anglais).
+> Les erreurs OLE DB peuvent être transmises à votre application ADO. En général, elles peuvent être identifiées par un code de fonction Windows *4*. Par exemple, 0x800_ **4** _.... Pour plus d’informations sur ces numéros, voir le chapitre 16 du *OLE DB Programmer’s Reference.*
 
 <br/>
 
@@ -446,67 +446,67 @@ Seuls les sous-ensembles suivants d'équivalents ADO/WFC sont définis.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. BOUNDTOCOMMAND</p></td>
+<td><p>AdoEnums.ErrorValue.BOUNDTOCOMMAND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. DATACONVERSION</p></td>
+<td><p>AdoEnums.ErrorValue.DATACONVERSION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. FEATURENOTAVAILABLE</p></td>
+<td><p>AdoEnums.ErrorValue.FEATURENOTAVAILABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. ILLEGALOPERATION</p></td>
+<td><p>AdoEnums.ErrorValue.ILLEGALOPERATION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. inTRANSACTION</p></td>
+<td><p>AdoEnums.ErrorValue.INTRANSACTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. INVALIDARGUMENT</p></td>
+<td><p>AdoEnums.ErrorValue.INVALIDARGUMENT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. INVALIDCONNECTION</p></td>
+<td><p>AdoEnums.ErrorValue.INVALIDCONNECTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. INVALIDPARAMINFO</p></td>
+<td><p>AdoEnums.ErrorValue.INVALIDPARAMINFO</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. ITEMNOTFOUND</p></td>
+<td><p>AdoEnums.ErrorValue.ITEMNOTFOUND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. NOCURRENTRECORD</p></td>
+<td><p>AdoEnums.ErrorValue.NOCURRENTRECORD</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. NOTEXECUTING</p></td>
+<td><p>AdoEnums.ErrorValue.NOTEXECUTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. NOTREENTRANT</p></td>
+<td><p>AdoEnums.ErrorValue.NOTREENTRANT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. OBJECTCLOSED</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTCLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. OBJECTINCOLLECTION</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTINCOLLECTION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. OBJECTNOTSET</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTNOTSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. OBJETOPEN,</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTOPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. OPERATIONCANCELLED</p></td>
+<td><p>AdoEnums.ErrorValue.OPERATIONCANCELLED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. PROVIDERNOTFOUND</p></td>
+<td><p>AdoEnums.ErrorValue.PROVIDERNOTFOUND</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. STILLCONNECTING</p></td>
+<td><p>AdoEnums.ErrorValue.STILLCONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ErrorValue. STILLEXECUTING</p></td>
+<td><p>AdoEnums.ErrorValue.STILLEXECUTING</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ErrorValue. UNSAFEOPERATION</p></td>
+<td><p>AdoEnums.ErrorValue.UNSAFEOPERATION</p></td>
 </tr>
 </tbody>
 </table>

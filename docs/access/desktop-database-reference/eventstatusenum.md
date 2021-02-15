@@ -38,27 +38,27 @@ Spécifie l'état en cours de l'exécution d'un événement.
 <tbody>
 <tr class="odd">
 <td><p><strong>adStatusCancel</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Demande l'annulation de l'opération qui a provoqué l'événement.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStatusCantDeny</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indique que l'opération ne peut pas demander l'annulation de l'opération en attente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStatusErrorsOccurred</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Indique que l'opération qui a provoqué l'événement a échoué en raison d'une ou plusieurs erreurs.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStatusOK</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Indique que l'opération qui a provoqué l'événement a réussi.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStatusUnwantedEvent</strong></p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>Empêche l'affichage de nouvelles notifications avant la fin de l'exécution de la méthode de l'événement.</p></td>
 </tr>
 </tbody>
@@ -80,19 +80,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. EventStatus. CANCEL</p></td>
+<td><p>AdoEnums.EventStatus.CANCEL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. EventStatus. CANTDENY</p></td>
+<td><p>AdoEnums.EventStatus.CANTDENY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. EventStatus. ERRORSOCCURRED</p></td>
+<td><p>AdoEnums.EventStatus.ERRORSOCCURRED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. EventStatus. OK</p></td>
+<td><p>AdoEnums.EventStatus.OK</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. EventStatus. UNWANTEDEVENT</p></td>
+<td><p>AdoEnums.EventStatus.UNWANTEDEVENT</p></td>
 </tr>
 </tbody>
 </table>

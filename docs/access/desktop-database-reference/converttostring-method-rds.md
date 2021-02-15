@@ -22,11 +22,11 @@ Convertit un objet [Recordset](recordset-object-ado.md) en chaîne MIME qui repr
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataFactory*. ConvertToString (*Recordset*)
+*DataFactory*. ConvertToString(*Recordset*)
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataFactory* |Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md).|
 |*Recordset* |Variable objet représentant un objet **Recordset**.|

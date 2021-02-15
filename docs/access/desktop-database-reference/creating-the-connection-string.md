@@ -58,7 +58,7 @@ ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'
 
 
 > [!NOTE]
-> Dans les exemples suivants et tout au long du Guide du programmeur ADO, l'ID d'utilisateur «MyId» avec le mot de passe «123aBc» est utilisé pour l'authentification auprès du serveur. Remplacez ces valeurs par des informations d'identification valides pour votre serveur. Remplacez également le nom de votre serveur par « MySqlServer ».
+> Dans les exemples suivants et dans le guide du programmeur ADO, l’ID d’utilisateur « MyId » avec le mot de passe « 123aBc » est utilisé pour s’authentifier auprès du serveur. Remplacez ces valeurs par des informations d'identification valides pour votre serveur. Remplacez également le nom de votre serveur par « MySqlServer ».
 
 Dans le chapitre 1, l'application HelloData a utilisé la chaîne de connexion suivante :
 

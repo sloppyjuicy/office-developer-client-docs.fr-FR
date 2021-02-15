@@ -1,5 +1,5 @@
 ---
-title: Objet Error-objets d'accès aux données (DAO)
+title: Error Object - Data Access Objects (DAO)
 TOCTitle: Error Object
 ms:assetid: e2608bc9-bece-9b47-4562-7a2689601f75
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293475"
 ---
-# <a name="error-object-dao"></a>Objet Error (DAO)
+# <a name="error-object-dao"></a>Error, objet (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,7 +27,7 @@ Toute opération impliquant DAO peut générer une ou plusieurs erreurs. Par exe
 
 Lorsqu'une opération DAO suivante génère une erreur, la collection **Errors** est effacée, et un ou plusieurs nouveaux objets **Error** sont placés dans la collection **Errors**. Les opérations DAO qui ne génèrent pas d'erreur n'ont aucun effet sur la collection **Errors**.
 
-Le jeu d'objets **Error** de la collection **Errors** décrit une erreur. Le premier objet **Error** est l'erreur de niveau le plus bas (erreur d'origine), la deuxième erreur de niveau supérieur suivante, et ainsi de suite. Par exemple, si une erreur ODBC se produit lors de la tentative **[](recordset-object-dao.md)** d'ouverture d'un objet Recordset, le premier objet **Error** , **Errors**(0), contient l'erreur ODBC de niveau le plus bas; les erreurs suivantes contiennent les erreurs ODBC renvoyées par les différentes couches d'ODBC. Dans ce cas, le gestionnaire de pilote ODBC, voire le pilote lui-même, renvoient des objets **Error** séparés. Le dernier objet **Error** , **Errors. Count-** 1, contient l'erreur DAO indiquant que l'objet n'a pas pu être ouvert.
+Le jeu d'objets **Error** de la collection **Errors** décrit une erreur. Le premier **objet Error** est l’erreur de niveau le plus bas (l’erreur d’origine), le second l’erreur de niveau supérieur suivante, et ainsi de suite. Par exemple, si une erreur ODBC se produit lors de la tentative d’ouverture d’un objet **[Recordset,](recordset-object-dao.md)** le premier objet **Error** ( **Erreurs**(0)) contient l’erreur ODBC de niveau le plus bas ; les erreurs suivantes contiennent les erreurs ODBC renvoyées par les différentes couches d’ODBC. Dans ce cas, le gestionnaire de pilote ODBC, voire le pilote lui-même, renvoient des objets **Error** séparés. Le dernier **objet Error(** **Errors.Count-** 1) contient l’erreur DAO indiquant que l’objet n’a pas pu être ouvert.
 
 L'énumération des erreurs spécifiques dans la collection **Errors** permet à vos programmes de traitement des erreurs de déterminer plus précisément la cause et l'origine d'une erreur, et entreprend la procédure appropriée pour effectuer la récupération. Vous pouvez lire les propriétés de l'objet **Error** afin d'obtenir des détails spécifiques sur chaque erreur, notamment :
 
@@ -43,7 +43,7 @@ L'énumération des erreurs spécifiques dans la collection **Errors** permet à
     > [!NOTE]
     > [!REMARQUE] Lors de la programmation dans Microsoft Visual Basic pour Applications (VBA), si vous utilisez le mot clé **New** pour créer un objet qui entraîne consécutivement une erreur avant que cet objet soit ajouté à une collection, la collection **Errors** de l'objet **DBEngine** ne contient pas d'entrée pour l'erreur de cet objet, car le nouvel objet est associé à l'objet **DBEngine**. Cependant, les informations d'erreur sont disponibles dans l'objet VBA **Err**. Le code de traitement des erreurs VBA doit examiner la collection **Errors** chaque fois que vous anticipez une erreur d'accès aux données. 
     > 
-    > Si vous écrivez un gestionnaire d'erreur centralisé, testez l'objet VBA **Err** pour déterminer si les informations d'erreur dans la collection **Errors** sont valides. Si la propriété **Number** du dernier élément de la collection **Errors** (DBEngine. Errors. Count-1) et la valeur de l'objet **Err** correspondent, vous pouvez utiliser une série d'instructions **Select Case** pour identifier l'erreur DAO ou erreurs qui se sont produites. Si elles ne correspondent pas, utilisez la méthode [Refresh](errors-refresh-method-dao.md) dans la collection **Errors**.
+    > Si vous écrivez un gestionnaire d'erreur centralisé, testez l'objet VBA **Err** pour déterminer si les informations d'erreur dans la collection **Errors** sont valides. Si la propriété **Number** du dernier élément de la collection **Errors** (DBEngine.Errors.Count - 1) et la valeur de l’objet **Err** correspondent, vous pouvez ensuite utiliser une série d’instructions **Select Case** pour identifier l’erreur DAO ou les erreurs qui se sont produites. Si elles ne correspondent pas, utilisez la méthode [Refresh](errors-refresh-method-dao.md) dans la collection **Errors**.
 
 
 

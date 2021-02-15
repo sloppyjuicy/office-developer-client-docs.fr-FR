@@ -1,5 +1,5 @@
 ---
-title: EOS, propriété (référence de base de données de bureau ADO))
+title: Propriété EOS (ADO - Référence de base de données de bureau Access))
 TOCTitle: EOS property (ADO)
 ms:assetid: 97cd23ef-cca8-4dcc-2641-082a0e1b853c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249676(v=office.15)

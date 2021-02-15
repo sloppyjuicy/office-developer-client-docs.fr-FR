@@ -22,11 +22,11 @@ Crée un catalogue.
 
 ## <a name="syntax"></a>Syntaxe
 
-*Catalogue*. Créer*connectString*
+*Catalogue*. Créer *ConnectString*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*ConnectString* |Valeur de type **String** utilisée pour se connecter à la source de données.|
 

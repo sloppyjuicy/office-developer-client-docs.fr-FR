@@ -1,5 +1,5 @@
 ---
-title: Référence de l'objet Error (DAO)
+title: Error object reference (DAO)
 TOCTitle: Error Object
 ms:assetid: 96cff172-964e-49bf-b83c-d56226a4d81a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125405(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293468"
 ---
-# <a name="error-object-reference-dao"></a>Référence de l'objet Error (DAO)
+# <a name="error-object-reference-dao"></a>Error object reference (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Objet Error (DAO)](error-object-dao.md)
-- [Error, membres (DAO)](error-members-dao.md)
-- [Propriétés d'erreur (DAO)](error-properties-dao.md)
+- [Error, objet (DAO)](error-object-dao.md)
+- [Error members (DAO)](error-members-dao.md)
+- [Error properties (DAO)](error-properties-dao.md)
 

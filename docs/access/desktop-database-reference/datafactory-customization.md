@@ -37,4 +37,4 @@ Consultez les rubriques suivantes pour plus d'informations sur la personnalisati
 - [Section UserList du fichier de personnalisation](customization-file-userlist-section.md)
 - [Section des journaux du fichier de personnalisation](customization-file-logs-section.md)
 - [Paramètres clients obligatoires](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-- [Écriture de votre propre gestionnaire personnalisé](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [Écriture de votre propre handler personnalisé](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

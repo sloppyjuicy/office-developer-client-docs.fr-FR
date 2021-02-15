@@ -1,5 +1,5 @@
 ---
-title: Méthode Database. CreateRelation (DAO)
+title: Database.CreateRelation method (DAO)
 TOCTitle: CreateRelation Method
 ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835692(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294952"
 ---
-# <a name="databasecreaterelation-method-dao"></a>Méthode Database. CreateRelation (DAO)
+# <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation method (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Crée un nouvel objet **[relation](relation-object-dao.md)** (espaces de travail Microsoft Access uniquement). .
+Crée un objet **[Relation](relation-object-dao.md)** (espaces de travail Microsoft Access uniquement). .
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CreateRelation (***Name***, ***table***, ***ForeignTable***, ***attributes***)
+*.* CreateRelation(***Name***, ***Table***, ***ForeignTable***, ***Attributes***)
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -52,10 +52,10 @@ Crée un nouvel objet **[relation](relation-object-dao.md)** (espaces de travail
 <td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d'informations sur les noms de <strong>relations</strong> valides.</p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Voir la <strong><a href="connection-name-property-dao.md">propriété Name</a></strong> pour plus d’informations sur les noms de <strong>relation valides.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><em>Table</em></p></td>
+<td><p><em>Tableau</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table primaire dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</p></td>
@@ -67,10 +67,10 @@ Crée un nouvel objet **[relation](relation-object-dao.md)** (espaces de travail
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table étrangère dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Attributes</em></p></td>
+<td><p><em>Attributs</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante ou combinaison de constantes contenant des informations sur le type de relation. Pour plus <strong><a href="field-attributes-property-dao.md"></a></strong> d'informations, voir la propriété Attributes.</p></td>
+<td><p>Constante ou combinaison de constantes contenant des informations sur le type de relation. Pour plus <strong><a href="field-attributes-property-dao.md">d’informations,</a></strong> voir la propriété Attributes.</p></td>
 </tr>
 </tbody>
 </table>
@@ -88,7 +88,7 @@ Si vous omettez un ou plusieurs arguments facultatifs avec la méthode **CreateR
 
 Avant de pouvoir appeler la méthode **[Append](fields-append-method-dao.md)** sur un objet **Relation**, vous devez ajouter les objets **[Field](field-object-dao.md)** appropriés pour définir la relation des tables de clé primaire et étrangère.
 
-Si l'argument name fait référence à un objet qui est déjà membre de la collection ou si les noms d'objet de **champ** fournis dans la collection de **champs** subordonnés ne sont pas valides, une erreur d'exécution se produit lorsque vous utilisez la méthode **Append** .
+Si le nom fait référence à un objet qui est déjà membre de la collection ou si les noms d’objets **Field** fournis dans la collection **Fields** subordonnée ne sont pas valides, une erreur d’utilisation se produit lorsque vous utilisez la méthode **Append.**
 
 Vous ne pouvez ni établir ni conserver de relation entre une table répliquée et une table locale.
 

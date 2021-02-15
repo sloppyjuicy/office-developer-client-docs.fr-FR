@@ -1,5 +1,5 @@
 ---
-title: CubeDefs, collection (référence ADO MD)
+title: Collection CubeDefs (référence ADO MD)
 TOCTitle: CubeDefs collection (ADO MD)
 ms:assetid: ac77f45f-4e42-4d5c-9482-613188fe785b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249804(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295274"
 ---
-# <a name="cubedefs-collection-ado-md-reference"></a>CubeDefs, collection (référence ADO MD)
+# <a name="cubedefs-collection-ado-md-reference"></a>Collection CubeDefs (référence ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [CubeDefs, collection (ADO MD)](cubedefs-collection-ado-md.md)
-- [CubeDefs, collection-propriétés, méthodes et événements (ADO MD)](cubedefs-collection-properties-methods-and-events-ado-md.md)
+- [CubeDefs collection properties, methods, and events (ADO MD)](cubedefs-collection-properties-methods-and-events-ado-md.md)
 

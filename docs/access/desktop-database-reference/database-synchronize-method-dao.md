@@ -1,5 +1,5 @@
 ---
-title: Database. Synchronize, méthode (DAO)
+title: Database.Synchronize, méthode (DAO)
 TOCTitle: Synchronize Method
 ms:assetid: 5e716a4a-2430-8106-5c34-a02dd28bc4f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194659(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294707"
 ---
-# <a name="databasesynchronize-method-dao"></a>Database. Synchronize, méthode (DAO)
+# <a name="databasesynchronize-method-dao"></a>Database.Synchronize, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,9 +27,9 @@ Synchronise deux réplicas. (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Synchronize (***NomCheminBaseDeDonnées***, ***ExchangeType***)
+*.* Synchronize(***DbPathName***, ***ExchangeType***)
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -50,7 +50,7 @@ Synchronise deux réplicas. (espaces de travail Microsoft Access uniquement).
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>NomCheminBaseDeDonnées</em></p></td>
+<td><p><em>DbPathName</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Chemin d'accès au réplica cible, avec lequel la base de données est synchronisée.</p></td>
@@ -59,7 +59,7 @@ Synchronise deux réplicas. (espaces de travail Microsoft Access uniquement).
 <td><p><em>ExchangeType</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> indiquant la direction dans laquelle synchroniser les modifications entre les deux bases de données.</p></td>
+<td><p>Constante <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> indiquant le sens de synchronisation des modifications entre les deux bases de données.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,11 +67,11 @@ Synchronise deux réplicas. (espaces de travail Microsoft Access uniquement).
 
 ## <a name="remarks"></a>Remarques
 
-Vous utilisez **Synchronize** pour échanger des données et des modifications de conception entre deux bases de données. Les modifications de conception ont toujours lieu en premier. Les deux bases de données doivent se trouver au même niveau de conception avant de pouvoir échanger des données. Par exemple, un échange de type **dbRepExportChanges** peut entraîner des modifications de conception au niveau d'un réplica même si les modifications de données ne circulent qu'à partir de la base de données vers NomCheminBaseDeDonnées.
+Vous utilisez **Synchronize** pour échanger des données et des modifications de conception entre deux bases de données. Les modifications de conception ont toujours lieu en premier. Les deux bases de données doivent se trouver au même niveau de conception avant de pouvoir échanger des données. Par exemple, un échange de type **dbRepExportChanges** peut entraîner des modifications de conception au niveau d’un réplica, même si les modifications de données ne circulent que de la base de données vers DbPathName.
 
-Le réplica identifié dans NomCheminBaseDeDonnées doit faire partie du même jeu de réplicas. Si les deux réplicas possèdent le même paramètre de propriété **ReplicaID** ou sont des réplicas-maîtres pour deux ensembles de réplicas différents, la synchronisation échoue.
+Le réplica identifié dans DbPathName doit faire partie du même jeu de réplicas. Si les deux réplicas possèdent le même paramètre de propriété **ReplicaID** ou sont des réplicas-maîtres pour deux ensembles de réplicas différents, la synchronisation échoue.
 
-Lorsque vous synchronisez deux réplicas sur Internet, vous devez utiliser la constante **dbRepSyncInternet**. Dans ce cas, vous spécifiez une adresse URL (Uniform Resource Locator) pour l'argument NomCheminBaseDeDonnées au lieu de spécifier un chemin d'accès à un réseau local.
+Lorsque vous synchronisez deux réplicas sur Internet, vous devez utiliser la constante **dbRepSyncInternet**. Dans ce cas, vous spécifiez une adresse URL (Uniform Resource Locator) pour l’argument DbPathName au lieu de spécifier un chemin d’accès au réseau local.
 
 
 > [!NOTE]

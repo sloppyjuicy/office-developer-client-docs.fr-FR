@@ -1,5 +1,5 @@
 ---
-title: CubeDef, objet (référence ADO MD)
+title: Objet CubeDef (référence ADO MD)
 TOCTitle: CubeDef object (ADO MD)
 ms:assetid: 81513e39-a1b3-4af7-ba59-0446fafe51f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249552(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295323"
 ---
-# <a name="cubedef-object-ado-md-reference"></a>CubeDef, objet (référence ADO MD)
+# <a name="cubedef-object-ado-md-reference"></a>Objet CubeDef (référence ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [CubeDef, objet (ADO MD)](cubedef-object-ado-md.md)
-- [CubeDef, propriétés, méthodes et événements (ADO MD)](cubedef-properties-methods-and-events-ado-md.md)
+- [Objet CubeDef (ADO MD)](cubedef-object-ado-md.md)
+- [CubeDef properties, methods, and events (ADO MD)](cubedef-properties-methods-and-events-ado-md.md)
 

@@ -1,5 +1,5 @@
 ---
-title: DBEngine. Idle, méthode (DAO)
+title: DBEngine.Idle, méthode (DAO)
 TOCTitle: Idle Method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294329"
 ---
-# <a name="dbengineidle-method-dao"></a>DBEngine. Idle, méthode (DAO)
+# <a name="dbengineidle-method-dao"></a>DBEngine.Idle, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Suspend le traitement des données, ce qui permet au moteur de base de données 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . InActif (***action***)
+*.* Idle(***Action***)
 
-*expression* Variable qui représente un objet **DBEngine** .
+*expression* Variable représentant un objet **DBEngine**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -52,7 +52,7 @@ Suspend le traitement des données, ce qui permet au moteur de base de données 
 <td><p><em>Action</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Spécifie l’action à effectuer. Il peut s'agir de l'une des constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> .</p></td>
+<td><p>Spécifie l’action à effectuer. Il peut s’y trouver dans <strong><a href="idleenum-enumeration-dao.md">l’une des constantes IdleEnum.</a></strong></p></td>
 </tr>
 </tbody>
 </table>

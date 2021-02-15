@@ -23,11 +23,11 @@ Supprime un objet de la collection [Fields](fields-collection-ado.md).
 
 ## <a name="syntax"></a>Syntaxe
 
-*Champs*. Supprimer le*champ*
+*Champs*. Supprimer un *champ*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Field* |A **Variant** that designates the [Field](field-object-ado.md) object to delete. This parameter can be the name of the **Field** object or the ordinal position of the **Field** object itself.|
 

@@ -1,5 +1,5 @@
 ---
-title: Objet document (DAO)
+title: Document, objet (DAO)
 TOCTitle: Document Object
 ms:assetid: b51d4545-b157-4c7c-fdbe-16a25afffdb3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293776"
 ---
-# <a name="document-object-dao"></a>Objet document (DAO)
+# <a name="document-object-dao"></a>Document, objet (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -71,13 +71,13 @@ Avec un objet **Document**, vous pouvez :
 
 - Utiliser les propriétés **DateCreated** et **LastUpdated** pour renvoyer la date et l'heure auxquelles l'objet **Document** a été créé et modifié pour la dernière fois.
 
-Dans la mesure où un objet **Document** correspond à un objet existant, vous ne pouvez pas créer d'objet **Document** ou supprimer des objets existants. Pour faire référence à un objet **Document** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**Name, utilisez l'une formes de syntaxe suivantes :
+Dans la mesure où un objet **Document** correspond à un objet existant, vous ne pouvez pas créer d'objet **Document** ou supprimer des objets existants. Pour faire référence à un objet **Document** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name** Name, utilisez l'une formes de syntaxe suivantes :
 
 - **Documents**(0)
 
-- **Documents** ("*nom*")
+- **Documents**( »*name*« )
 
-- ****\!\[*Nom* des documents\]
+-  \! Documents \[ *name*\]
 
 ## <a name="example"></a>Exemple
 

@@ -1,5 +1,5 @@
 ---
-title: EditRecord, bloc de données
+title: Bloc de données EditRecord
 TOCTitle: EditRecord data block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293594"
 ---
-# <a name="editrecord-data-block"></a>EditRecord, bloc de données
+# <a name="editrecord-data-block"></a>Bloc de données EditRecord
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -66,7 +66,7 @@ Après l'instruction **ModifierEnregistrement**, vous pouvez insérer un bloc de
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">If... Then... Else, instruction de macro</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">Si... Ensuite... Instruction de macro Else</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">SetField, action de macro</a></p></td>
@@ -83,7 +83,7 @@ Vous pouvez utiliser une instruction **If... Then... Else** pour effectuer des o
 
 Pour annuler la modification d'un enregistrement, utilisez l'action **AnnulerModificationEnregistrement**. Cela empêche la validation des modifications et quitte le bloc de données **ModifierEnregistrement**.
 
-Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**. Par exemple, utilisez la syntaxe suivante pour faire référence au champ AffectéÀ du dernier enregistrement créé:
+Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**. Par exemple, utilisez la syntaxe suivante pour faire référence au champ AssignedTo du dernier enregistrement créé :
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

@@ -27,7 +27,7 @@ Utilisez l'action **CopierObjet** pour copier l'objet de base de données spéci
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **CopierObjet** possède les arguments suivants.
 
@@ -38,14 +38,14 @@ L’action **CopierObjet** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Base de données de destination</strong></p></td>
-<td><p>Chemin d’accès valide et nom de fichier de la base de données de destination. Entrez le chemin d’accès et le nom de fichier dans la zone <strong>Base de données de destination</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Laissez cet argument vide si vous souhaitez sélectionner la base de données active.</p><p><strong>Remarque</strong>: cet argument est uniquement disponible dans l'environnement de base de données Access. Si cette action est utilisée dans un environnement de projet Access (.adp), l’argument Base de données de destination doit être vide.</p>
+<td><p>Chemin d’accès valide et nom de fichier de la base de données de destination. Entrez le chemin d’accès et le nom de fichier dans la zone <strong>Base de données de destination</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Laissez cet argument vide si vous souhaitez sélectionner la base de données active.</p><p><strong>REMARQUE</strong>: cet argument est disponible uniquement dans l’environnement de base de données Access. Si cette action est utilisée dans un environnement de projet Access (.adp), l’argument Base de données de destination doit être vide.</p>
 <p>Si vous exécutez une macro contenant l’action <strong>CopierObjet</strong> dans une base de données bibliothèque et que vous laissez cet argument vide, Microsoft Office Access 2007 copie l’objet dans la base de données bibliothèque.</p></td>
 </tr>
 <tr class="even">

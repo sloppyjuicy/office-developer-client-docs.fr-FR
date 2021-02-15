@@ -1,5 +1,5 @@
 ---
-title: Database. PopulatePartial, méthode (DAO)
+title: Database.PopulatePartial method (DAO)
 TOCTitle: PopulatePartial Method
 ms:assetid: fa3227a2-c961-6a98-32b3-5b6e5329a21d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837034(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294798"
 ---
-# <a name="databasepopulatepartial-method-dao"></a>Database. PopulatePartial, méthode (DAO)
+# <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial method (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Synchronise les modifications d'un réplica partiel avec le réplica complet, ef
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . PopulatePartial (***NomCheminBaseDeDonnées***)
+*.* PopulatePartial(***DbPathName***)
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -49,7 +49,7 @@ Synchronise les modifications d'un réplica partiel avec le réplica complet, ef
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>NomCheminBaseDeDonnées</em></p></td>
+<td><p><em>DbPathName</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Chemin d'accès et nom du réplica complet à partir duquel les enregistrements sont remplis.</p></td>
@@ -60,7 +60,7 @@ Synchronise les modifications d'un réplica partiel avec le réplica complet, ef
 
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous synchronisez un réplica partiel avec un réplica complet, il est possible de créer des enregistrements « orphelins » dans le réplica partiel. Par exemple, supposons que vous avez une table Customers dont la valeur de l'élément **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** est «Region = «ca»». Si un utilisateur modifie la région d'un client en remplaçant CA par NY dans le réplica partiel, puis qu'une synchronisation est conduite via la méthode **[Synchronize](database-synchronize-method-dao.md)**, la modification est propagée dans le réplica complet, mais l'enregistrement contenant NY dans le réplica partiel devient orphelin, car il ne correspond plus aux critères du filtre de réplica.
+Lorsque vous synchronisez un réplica partiel avec un réplica complet, il est possible de créer des enregistrements « orphelins » dans le réplica partiel. Par exemple, supposons que vous avez une table Customers dont **[le replicaFilter](tabledef-replicafilter-property-dao.md)** a la valeur « Region = 'CA' ». Si un utilisateur modifie la région d'un client en remplaçant CA par NY dans le réplica partiel, puis qu'une synchronisation est conduite via la méthode **[Synchronize](database-synchronize-method-dao.md)**, la modification est propagée dans le réplica complet, mais l'enregistrement contenant NY dans le réplica partiel devient orphelin, car il ne correspond plus aux critères du filtre de réplica.
 
 Pour résoudre le problème des enregistrements orphelins, vous pouvez utiliser la méthode **PopulatePartial**. La méthode **PopulatePartial** est similaire à la méthode **Synchronize**, à ceci près qu'elle synchronise les modifications avec le réplica complet, qu'elle supprime tous les enregistrements dans le réplica partiel, puis qu'elle remplit à nouveau le réplica partiel en fonction des filtres de réplica actifs. Même si vos filtres de réplica n'ont pas changé, **PopulatePartial** efface invariablement l'ensemble des enregistrements du réplica partiel et le remplit à nouveau en fonction des filtres actifs.
 

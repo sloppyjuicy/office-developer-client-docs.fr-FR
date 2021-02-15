@@ -1,5 +1,5 @@
 ---
-title: Error. Number, propriété (DAO)
+title: Error.Number, propriété (DAO)
 TOCTitle: Number Property
 ms:assetid: 2fb94dca-f990-04f8-bbd2-9919d28de75a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192259(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293496"
 ---
-# <a name="errornumber-property-dao"></a>Error. Number, propriété (DAO)
+# <a name="errornumber-property-dao"></a>Error.Number, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -28,9 +28,9 @@ Renvoie une valeur numérique spécifiant une erreur.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Valeur
+*.* Number
 
-*expression* Variable qui représente un objet **Error** .
+*expression* Variable qui représente un objet **Error.**
 
 ## <a name="remarks"></a>Remarques
 

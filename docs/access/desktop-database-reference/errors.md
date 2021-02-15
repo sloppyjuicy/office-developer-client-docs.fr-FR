@@ -18,7 +18,7 @@ ms.locfileid: "32293356"
 
 **S’applique à** : Access 2013, Office 2013
 
-Toute opération impliquant des objets ADO peut générer une ou plusieurs erreurs de fournisseur. Lorsqu'une erreur survient, un ou plusieurs objets **Error** sont placés dans la collection **Errors** de l'objet **Connection**. Pour plus d'informations sur la gestion des avertissements et des erreurs dans votre application ADO, consultez le [chapitre 6: gestion des erreurs](chapter-6-error-handling.md).
+Toute opération impliquant des objets ADO peut générer une ou plusieurs erreurs de fournisseur. Lorsqu'une erreur survient, un ou plusieurs objets **Error** sont placés dans la collection **Errors** de l'objet **Connection**. Pour plus d’informations sur la gestion des avertissements et des erreurs dans votre application ADO, consultez le chapitre [6 : Gestion des erreurs.](chapter-6-error-handling.md)
 
 Des erreurs d'application peuvent être déclenchées par un mécanisme distinct. Par exemple, dans Visual Basic, l'objet **Err** contient des erreurs de niveau application.
 

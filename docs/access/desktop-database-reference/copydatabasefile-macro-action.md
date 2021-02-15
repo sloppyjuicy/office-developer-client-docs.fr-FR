@@ -18,13 +18,13 @@ ms.locfileid: "32295498"
 
 **S’applique à** : Access 2013, Office 2013
 
-Utilisez l’action **CopierFichierBaseDeDonnées** pour créer une copie de la base de données Microsoft SQL Server 7.0 (ou version supérieure) active attachée à votre projet Access. Access détache la base de données active, puis l'attache au serveur de destination. Pour plus d'informations sur les procédures permettant de détacher et d'attacher une base de données, voir la documentation de SQL Server.
+Utilisez l’action **CopierFichierBaseDeDonnées** pour créer une copie de la base de données Microsoft SQL Server 7.0 (ou version supérieure) active attachée à votre projet Access. Access détache la base de données actuelle, puis l’attache au serveur de destination. Pour plus d'informations sur les procédures permettant de détacher et d'attacher une base de données, voir la documentation de SQL Server.
 
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 
@@ -35,7 +35,7 @@ L’action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -50,7 +50,7 @@ L’action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 </tr>
 <tr class="odd">
 <td><p><strong>Déconnecter tous les utilisateurs</strong></p></td>
-<td><p>Spécifie si Access doit ou non forcer la déconnexion des utilisateurs de la base de données. Si cet argument est défini sur <strong>Oui</strong>, tout utilisateur connecté à la base de données active est déconnecté et l’opération de copie de la base de données peut se poursuivre. S’il est défini sur <strong>Non</strong> et si un ou plusieurs utilisateurs sont connectés à la base de données, l’opération de copie de la base de données échoue. La valeur par défaut est <strong>Non</strong>.</p><p><strong>Avertissement</strong>: la déconnexion des utilisateurs d'une base de données sans avertissement approprié peut entraîner une perte de données.</p></td>
+<td><p>Spécifie si Access doit ou non forcer la déconnexion des utilisateurs de la base de données. Si cet argument est défini sur <strong>Oui</strong>, tout utilisateur connecté à la base de données active est déconnecté et l’opération de copie de la base de données peut se poursuivre. S’il est défini sur <strong>Non</strong> et si un ou plusieurs utilisateurs sont connectés à la base de données, l’opération de copie de la base de données échoue. La valeur par défaut est <strong>Non</strong>.</p><p><strong>AVERTISSEMENT :</strong>la déconnexion des utilisateurs d’une base de données sans avertissement adéquat peut entraîner une perte de données.</p></td>
 </tr>
 </tbody>
 </table>

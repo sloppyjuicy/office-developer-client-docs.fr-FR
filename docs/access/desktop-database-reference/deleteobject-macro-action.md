@@ -27,7 +27,7 @@ Utilisez l'action **SupprimerObjet** pour supprimer un objet de base de données
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **SupprimerObjet** possède les arguments suivants.
 
@@ -38,7 +38,7 @@ L’action **SupprimerObjet** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -48,7 +48,7 @@ L’action **SupprimerObjet** possède les arguments suivants.
 <td><p>Type d’objet à supprimer. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Pour supprimer l’objet sélectionné dans le volet de navigation, laissez cet argument vide.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom objet</strong></p></td>
+<td><p><strong>Nom de l’objet</strong></p></td>
 <td><p>Nom de l’objet à supprimer. La zone <strong>Nom de l’objet</strong> affiche tous les objets de la base de données correspondant au type sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez la zone <strong>Type d’objet</strong> vide, laissez également celle-ci vide. Si vous exécutez une macro contenant l’action <strong>SupprimerObjet</strong> dans une base de données bibliothèque, Microsoft Office Access 2007 commence par rechercher un objet portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 </tbody>

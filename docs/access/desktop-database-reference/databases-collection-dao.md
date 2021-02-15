@@ -1,5 +1,5 @@
 ---
-title: Databases, collection (DAO)
+title: Databases collection (DAO)
 TOCTitle: Databases Collection
 ms:assetid: 988ae6f5-ec15-cd1c-191d-f295624425f4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197944(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294644"
 ---
-# <a name="databases-collection-dao"></a>Databases, collection (DAO)
+# <a name="databases-collection-dao"></a>Databases collection (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -28,18 +28,18 @@ Dans un espace de travail Microsoft Access, la propriété **Name** d'une base d
 
 Pour faire référence à un objet **Database** d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-- **Bases de données** 0
+- **Bases de données**(0)
 
-- **Bases de données** ("*nom*")
+- **Bases de données**( »*nom*« )
 
-- **Nom des bases de données**** \!\[\]
+- **Bases de données** \! \[ *name*\]
 
 > [!NOTE]
-> [!REMARQUE] Vous pouvez ouvrir la même source ou base de données plusieurs fois, ce qui crée des noms dupliqués dans la collection **Databases**. Il convient d'affecter des objets **Database** aux variables d'objet et de s'y référer par nom de variables.
+> Vous pouvez ouvrir la même source de données ou la même base de données plusieurs fois, en créant des noms dupliqués dans la collection **Databases**. Vous devez affecter des objets **Database** à des variables d’objet et les désigner par nom de variable.
 
 ## <a name="example"></a>Exemple
 
-Cet exemple crée un objet **Database** et ouvre un objet **Database** existant dans l'objet **Workspace** par défaut. Ensuite, il énumère la collection **Database** et la collection **Properties** de chaque objet **Database**.
+Cet exemple crée un objet **Database** et ouvre un objet **Database** existant dans l’objet **Workspace** par défaut. Ensuite, il énumère la collection **Database** et la collection **Properties** de chaque objet **Database**.
 
 ```vb 
 Sub DatabaseObjectX() 

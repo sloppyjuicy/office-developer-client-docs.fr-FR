@@ -1,5 +1,5 @@
 ---
-title: Propriétés DBEngine (DAO)
+title: DBEngine properties (DAO)
 TOCTitle: Properties
 ms:assetid: 0aca1067-759b-41f4-9c17-affc7315a625
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123648(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294231"
 ---
-# <a name="dbengine-properties-dao"></a>Propriétés DBEngine (DAO)
+# <a name="dbengine-properties-dao"></a>DBEngine properties (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Propriété DBEngine. DefaultPassword (DAO)](dbengine-defaultpassword-property-dao.md)
-- [DBEngine. DefaultType, propriété (DAO)](dbengine-defaulttype-property-dao.md)
-- [Propriété DBEngine. DefaultUser (DAO)](dbengine-defaultuser-property-dao.md)
-- [DBEngine. Errors, propriété (DAO)](dbengine-errors-property-dao.md)
-- [DBEngine. IniPath, propriété (DAO)](dbengine-inipath-property-dao.md)
-- [DBEngine. LoginTimeout, propriété (DAO)](dbengine-logintimeout-property-dao.md)
-- [DBEngine. Properties, propriété (DAO)](dbengine-properties-property-dao.md)
-- [DBEngine. version, propriété (DAO)](dbengine-version-property-dao.md)
-- [DBEngine. Workspaces, propriété (DAO)](dbengine-workspaces-property-dao.md)
+- [DBEngine.DefaultPassword, propriété (DAO)](dbengine-defaultpassword-property-dao.md)
+- [DBEngine.DefaultType, propriété (DAO)](dbengine-defaulttype-property-dao.md)
+- [DBEngine.DefaultUser, propriété (DAO)](dbengine-defaultuser-property-dao.md)
+- [DBEngine.Errors, propriété (DAO)](dbengine-errors-property-dao.md)
+- [DBEngine.IniPath, propriété (DAO)](dbengine-inipath-property-dao.md)
+- [DBEngine.LoginTimeout, propriété (DAO)](dbengine-logintimeout-property-dao.md)
+- [DBEngine.Properties, propriété (DAO)](dbengine-properties-property-dao.md)
+- [DBEngine.Version, propriété (DAO)](dbengine-version-property-dao.md)
+- [DBEngine.Workspaces, propriété (DAO)](dbengine-workspaces-property-dao.md)
 
 

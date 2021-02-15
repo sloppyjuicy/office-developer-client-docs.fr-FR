@@ -53,7 +53,7 @@ Une entrée de chaîne de connexion de remplacement a la forme suivante :
 <td><p>Chaîne littérale qui indique qu'il s'agit d'une entrée de chaîne de connexion.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>ChaîneConnexion</em></strong></p></td>
+<td><p><strong><em>connectionString</em></strong></p></td>
 <td><p>Chaîne qui remplace toute la chaîne de connexion cliente.</p></td>
 </tr>
 <tr class="odd">
@@ -75,5 +75,5 @@ Une entrée de chaîne de connexion de remplacement a la forme suivante :
 </table>
 
 
-Si vous voulez autoriser n'importe quelle connexion (et désactivant le comportement par défaut du gestionnaire), définissez l'entrée d'accès dans la section **Connect default** sur et supprimez ou commentez toute autre section d' *identificateur* **Connect** .
+Si vous souhaitez autoriser une connexion (désactivant en fait le comportement du responsable par défaut), définissez  l’entrée d’accès dans la section connect **par** défaut sur , puis supprimez ou commentez toute autre *section* d’identificateur de connexion.
 

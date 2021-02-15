@@ -1,5 +1,5 @@
 ---
-title: DBEngine. RegisterDatabase, méthode (DAO)
+title: DBEngine.RegisterDatabase, méthode (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294224"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a>DBEngine. RegisterDatabase, méthode (DAO)
+# <a name="dbengineregisterdatabase-method-dao"></a>DBEngine.RegisterDatabase, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . RegisterDatabase (***DSN***, ***pilote***, ***silencieux***, ***attributs***)
+*.* RegisterDatabase(***Dsn***, ***Driver***, ***Silent***, ***Attributes***)
 
-*expression* Variable qui représente un objet **DBEngine** .
+*expression* Variable représentant un objet **DBEngine**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -49,10 +49,10 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Source</em></p></td>
+<td><p><em>Dsn</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>nom utilisé dans la méthode <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> . Il désigne un bloc d’informations descriptives se rapportant à la source de données. Par exemple, si la source de données est une base de données distante ODBC, il peut s’agir du nom du serveur.</p></td>
+<td><p>nom utilisé dans la <strong><a href="dbengine-opendatabase-method-dao.md">méthode OpenDatabase.</a></strong> Il désigne un bloc d’informations descriptives se rapportant à la source de données. Par exemple, si la source de données est une base de données distante ODBC, il peut s’agir du nom du serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Driver</em></p></td>
@@ -61,10 +61,10 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 <td><p>Nom du pilote ODBC. Il ne s'agit pas du fichier DLL du pilote ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Manière</em></p></td>
+<td><p><em>Silencieux</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Booléen</strong></p></td>
-<td><p><strong>True</strong> si vous ne souhaitez pas afficher les boîtes de dialogue du pilote ODBC, qui invitent à saisir des informations spécifiques au pilote, ou <strong>False</strong> si vous souhaitez les afficher. Si Silent est <strong>true</strong>, les attributs doivent contenir toutes les informations propres au pilote requises ou les boîtes de dialogue s'affichent quand même.</p></td>
+<td><p><strong>True</strong> si vous ne souhaitez pas afficher les boîtes de dialogue du pilote ODBC, qui invitent à saisir des informations spécifiques au pilote, ou <strong>False</strong> si vous souhaitez les afficher. Si le mode silencieux <strong>est True,</strong>les attributs doivent contenir toutes les informations nécessaires spécifiques au pilote, sinon les boîtes de dialogue s’affichent quand même.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Attributs</em></p></td>

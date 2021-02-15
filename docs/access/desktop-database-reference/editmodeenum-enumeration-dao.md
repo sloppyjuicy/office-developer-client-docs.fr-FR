@@ -1,5 +1,5 @@
 ---
-title: EditModeEnum, énumération (DAO)
+title: EditModeEnum, éumération (DAO)
 TOCTitle: EditModeEnum Enumeration
 ms:assetid: 738ab5b7-75dc-2e45-45f2-eb64cc7e9527
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293601"
 ---
-# <a name="editmodeenum-enumeration-dao"></a>EditModeEnum, énumération (DAO)
+# <a name="editmodeenum-enumeration-dao"></a>EditModeEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -37,12 +37,12 @@ Indique l'état d'édition de l'enregistrement actif.
 <tbody>
 <tr class="odd">
 <td><p>dbEditAdd</p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>La méthode <strong>AddNew</strong> est appelée.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbEditInProgress</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>La méthode <strong>Edit</strong> est appelée.</p></td>
 </tr>
 <tr class="odd">

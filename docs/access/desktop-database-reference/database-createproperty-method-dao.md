@@ -1,5 +1,5 @@
 ---
-title: Database. CreateProperty, méthode (DAO)
+title: Database.CreateProperty method (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: f2039be9-5fd8-f673-dfbf-0a71540cdc98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836607(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294973"
 ---
-# <a name="databasecreateproperty-method-dao"></a>Database. CreateProperty, méthode (DAO)
+# <a name="databasecreateproperty-method-dao"></a>Database.CreateProperty method (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CreateProperty (***nom***, ***type***, ***valeur***, ***DDL***)
+*.* CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -60,13 +60,13 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 <td><p><em>Value</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> contenant la valeur initiale de la propriété. Pour plus d'informations, voir la propriété <strong><a href="field-value-property-dao.md">value</a></strong> .</p></td>
+<td><p><strong>Variant</strong> contenant la valeur initiale de la propriété. Pour plus <strong><a href="field-value-property-dao.md">d’informations,</a></strong> voir la propriété Value.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Definition</em></p></td>
+<td><p><em>DDL</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Valeur de type <strong>Variant</strong> (sous-type <strong>Boolean</strong>) indiquant si l'objet <strong>Property</strong> est ou non un objet DDL. La valeur par défaut est False. Si DDL a la valeur true, les utilisateurs ne peuvent pas modifier ou supprimer cet objet <strong>Property</strong> , sauf s'ils disposent de l'autorisation dbSecWriteDef.</p></td>
+<td><p>Valeur de type <strong>Variant</strong> (sous-type <strong>Boolean</strong>) indiquant si l'objet <strong>Property</strong> est ou non un objet DDL. La valeur par défaut est False. Si DDL a la valeur True, les utilisateurs ne peuvent pas modifier ou supprimer cet objet <strong>Property,</strong> sauf s’ils ont l’autorisation dbSecWriteDef.</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,12 +82,12 @@ Vous pouvez créer un objet utilisateur **Property** uniquement dans la collecti
 
 Si vous omettez une ou plusieurs parties facultatives lorsque vous utilisez **CreateProperty**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d'ajouter le nouvel objet à une collection. Une fois que vous ajoutez l'objet, vous pouvez modifier certains de ses paramètres de propriété mais pas tous. Pour plus d'informations, reportez-vous aux rubriques des propriétés **Name**, **Type** et **Value**.
 
-Si name fait référence à un objet qui est déjà membre de la collection, une erreur d'exécution se produit lorsque vous utilisez la méthode **[Append](fields-append-method-dao.md)** .
+Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**
 
-Pour supprimer un objet **Property** défini par l'utilisateur de la collection, utilisez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection **Properties** . Vous ne pouvez pas supprimer de propriétés intégrées.
+Pour supprimer un objet **Property** défini par l’utilisateur de la collection, utilisez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection **Properties.** Vous ne pouvez pas supprimer de propriétés intégrées.
 
 > [!NOTE]
-> Si vous omettez l'argument DDL, sa valeur par défaut est false (non DDL). Dans la mesure où la propriété DDL correspondante est exposée, vous devez supprimer et recréer l'objet **Property** pour passer de DDL à non DDL.
+> Si vous omettez l’argument DDL, sa valeur par défaut est False (non DDL). Dans la mesure où la propriété DDL correspondante est exposée, vous devez supprimer et recréer l'objet **Property** pour passer de DDL à non DDL.
 
 
 ## <a name="example"></a>Exemple

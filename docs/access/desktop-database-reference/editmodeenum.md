@@ -43,17 +43,17 @@ Spécifie l'état d'édition d'un enregistrement.
 </tr>
 <tr class="even">
 <td><p><strong>adEditInProgress</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Indique que les données de l'enregistrement en cours ont été modifiées, mais pas enregistrées.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adEditAdd</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Indique que la méthode <a href="addnew-method-ado.md">AddNew</a> a été appelée et que l’enregistrement en cours dans la zone tampon de copie est un nouvel enregistrement qui n’a pas été enregistré dans la base de données.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adEditDelete</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indique que l'enregistrement en cours a été supprimé.</p></td>
 </tr>
 </tbody>
@@ -75,16 +75,16 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. EditMode. NONE</p></td>
+<td><p>AdoEnums.EditMode.NONE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. EditMode. inPROGRESS</p></td>
+<td><p>AdoEnums.EditMode.INPROGRESS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. EditMode. ADD</p></td>
+<td><p>AdoEnums.EditMode.ADD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. EditMode. DELETE</p></td>
+<td><p>AdoEnums.EditMode.DELETE</p></td>
 </tr>
 </tbody>
 </table>

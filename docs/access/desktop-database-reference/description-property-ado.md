@@ -23,7 +23,7 @@ Décrit un objet [Error](error-object-ado.md).
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie une valeur de type **String ** qui contient une description de l'erreur.
+Renvoie une valeur de type **String** qui contient une description de l'erreur.
 
 ## <a name="remarks"></a>Remarques
 

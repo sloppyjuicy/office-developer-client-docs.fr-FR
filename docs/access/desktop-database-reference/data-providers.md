@@ -23,5 +23,5 @@ Les fournisseurs de données représentent diverses sources de données, telles 
 
 ADO est puissant et flexible car il peut se connecter à plusieurs fournisseurs de données tout en exposant le même modèle de programmation, quelles que soient les fonctionnalités propres à chaque fournisseur. Cependant, chaque fournisseur de données étant unique, le mode d'interaction de votre application avec ADO varie en fonction du fournisseur de données.
 
-Par exemple, les fonctionnalités du fournisseur OLE DB pour SQL Server, utilisé pour accéder aux bases de données Microsoft SQL Server, sont très différentes de celles du fournisseur Microsoft OLE DB pour la publication Internet, qui est utilisée pour accéder au fichier stocke sur un serveur Web.
+Par exemple, les fonctionnalités du fournisseur OLE DB pour SQL Server, qui est utilisé pour accéder aux bases de données Microsoft SQL Server, sont sensiblement différentes de celles du fournisseur Microsoft OLE DB pour la publication Internet, qui est utilisé pour accéder aux magasins de fichiers sur un serveur web.
 

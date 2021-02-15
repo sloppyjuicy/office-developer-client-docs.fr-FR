@@ -1,5 +1,5 @@
 ---
-title: CursorDriverEnum, énumération (DAO)
+title: CursorDriverEnum, éumération (DAO)
 TOCTitle: CursorDriverEnum enumeration
 ms:assetid: d0312ece-c30a-7d61-d5f3-75edf0d0afc8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834707(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295246"
 ---
-# <a name="cursordriverenum-enumeration-dao"></a>CursorDriverEnum, énumération (DAO)
+# <a name="cursordriverenum-enumeration-dao"></a>CursorDriverEnum, éumération (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -36,7 +36,7 @@ Spécifie le type de pilote de curseur.
 <tbody>
 <tr class="odd">
 <td><p>dbUseClientBatchCursor</p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Utilise toujours la bibliothèque de curseurs FoxPro. Cette option est obligatoire pour effectuer des mises à jour par lot.</p></td>
 </tr>
 <tr class="even">
@@ -46,17 +46,17 @@ Spécifie le type de pilote de curseur.
 </tr>
 <tr class="odd">
 <td><p>dbUseNoCursor</p></td>
-<td><p>4</p></td>
-<td><p>Ouvre tous les curseurs (c'est-à-dire, <strong></strong> les objets Recordset) en tant que type de transfert uniquement, en lecture seule, avec une taille de jeu de lignes de 1. Également appelée requêtes &quot;sans curseur.&quot;</p></td>
+<td><p>4 </p></td>
+<td><p>Ouvre tous les curseurs (c’est-à-dire, les objets <strong>Recordset)</strong> en tant que type avant uniquement, en lecture seule, avec une taille de jeu de lignes de 1. Également &quot; appelées requêtes sans curseur.&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p>dbUseODBCCursor</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Utilise toujours la bibliothèque de curseurs ODBC. Cette option permet d'améliorer les performances pour les jeux de résultats de petite taille. Les performances diminuent toutefois rapidement pour les jeux de résultats volumineux.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbUseServerCursor</p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Utilise toujours des curseurs du côté serveur. Cette option améliore les performances pour la plupart des opérations importantes. Elle risque toutefois d'augmenter le trafic réseau.</p></td>
 </tr>
 </tbody>

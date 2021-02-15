@@ -1,5 +1,5 @@
 ---
-title: Paramètres d'événement (référence de base de données de bureau Access)
+title: Paramètres d’événement (référence de base de données de bureau Access)
 TOCTitle: Event parameters
 ms:assetid: 626de9b1-4d45-d77e-ccf2-23f2ea31c043
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249371(v=office.15)

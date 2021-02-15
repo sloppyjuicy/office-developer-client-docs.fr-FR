@@ -26,7 +26,7 @@ Crée un objet [Parameter](parameter-object-ado.md) avec les propriétés spéci
 
 ## <a name="syntax"></a>Syntaxe
 
-**Définir** *paramètre*  =  *commande*. CreateParameter (*Name*, *type*, *direction*, *Size*, *value*)
+**Commande Définir** *un*  =  *paramètre.* CreateParameter (*Name*, *Type*, *Direction*, *Size*, *Value*)
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -34,7 +34,7 @@ Retourne un objet **Parameter**.
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Name* |Facultatif. Valeur de type **String** contenant le nom de l'objet **Parameter**.|
 |*Type* |Facultatif. Valeur [DataTypeEnum](datatypeenum.md) qui spécifie le type de données de l'objet **Parameter**.|

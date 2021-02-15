@@ -38,7 +38,7 @@ Spécifie le type de curseur utilisé dans un objet [Recordset](recordset-object
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenDynamic</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Utilise un curseur dynamique. Les ajouts, les modifications et les suppressions effectués par d’autres utilisateurs sont visibles, et tous les types de déplacement dans l’objet <strong>Recordset</strong> sont permis, à l’exception des signets, si le fournisseur ne les prend pas en charge.</p></td>
 </tr>
 <tr class="even">
@@ -48,12 +48,12 @@ Spécifie le type de curseur utilisé dans un objet [Recordset](recordset-object
 </tr>
 <tr class="odd">
 <td><p><strong>adOpenKeyset</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Utilise un curseur keyset. Identique à un curseur dynamique, sauf que vous ne pouvez pas voir les enregistrements ajoutés par d'autres utilisateurs, bien que les enregistrements supprimés par d'autres utilisateurs ne soient pas accessibles par votre <strong>Recordset</strong>. Les modifications apportées aux données par d'autres utilisateurs sont toujours visibles.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenStatic</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Utilise un curseur statique. Il s'agit d"une copie statique d'un ensemble d'enregistrements, que vous pouvez utiliser pour trouver des données ou générer des rapports. Les ajouts, les modifications et les suppressions effectués par d'autres utiisateurs ne sont pas visibles.</p></td>
 </tr>
 <tr class="odd">
@@ -80,19 +80,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. CursorType. DYNAMIC</p></td>
+<td><p>AdoEnums.CursorType.DYNAMIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorType. FORWARDONLY</p></td>
+<td><p>AdoEnums.CursorType.FORWARDONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorType. KEYSet</p></td>
+<td><p>AdoEnums.CursorType.KEYSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorType. STATIC</p></td>
+<td><p>AdoEnums.CursorType.STATIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorType. unSPÉCIFIÉ</p></td>
+<td><p>AdoEnums.CursorType.UNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

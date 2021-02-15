@@ -1,5 +1,5 @@
 ---
-title: Documents. Refresh, méthode (DAO)
+title: Documents.Refresh, méthode (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 33405192-f23c-e2a2-feb6-9d641439cbc5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192321(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293671"
 ---
-# <a name="documentsrefresh-method-dao"></a>Documents. Refresh, méthode (DAO)
+# <a name="documentsrefresh-method-dao"></a>Documents.Refresh, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Met à jour les objets dans la collection spécifiée pour refléter le schéma 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Intervalle
+*.* Actualiser
 
-*expression* Variable qui représente un objet **documents** .
+*expression* Variable qui représente un objet **Documents.**
 
 ## <a name="remarks"></a>Remarques
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété Database. RecordsAffected (DAO)
+title: Database.RecordsAffected, propriété (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 1c591231-21dd-f0b1-4ba6-87784c5890d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845732(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294741"
 ---
-# <a name="databaserecordsaffected-property-dao"></a>Propriété Database. RecordsAffected (DAO)
+# <a name="databaserecordsaffected-property-dao"></a>Database.RecordsAffected, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthod
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . RecordsAffected
+*.* RecordsAffected
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="example"></a>Exemple
 

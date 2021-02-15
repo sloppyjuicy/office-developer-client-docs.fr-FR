@@ -23,7 +23,7 @@ La section **sql** peut contenir une nouvelle chaîne SQL qui remplace la chaîn
 
 La nouvelle chaîne SQL peut être *paramétrée*. En d'autres termes, les paramètres dans la chaîne SQL de la section **sql** (signalée par le caractère '?') peuvent être remplacés par les arguments correspondants dans un *identificateur* de la chaîne de commande cliente (il s'agit d'une liste séparée par des virgules entre parenthèses). L'identificateur et la liste des arguments ont un comportement similaire à celui d'un appel de fonction.
 
-Par exemple, supposons que la chaîne de commande cliente est "CustomerByID (4)", l' \[en-\] tête de section SQL CustomerByID, et la nouvelle chaîne \* de section SQL est "SELECT FROM Customers WHERE CustomerID = ?". Le gestionnaire générera, l'en-tête de \[la section\] SQL est SQL CustomerByID et la nouvelle chaîne de section \* SQL est "SELECT FROM Customers WHERE CustomerID = ?". Le gestionnaire génère «SELECT \* from Customers WHERE CustomerID = 4» et utilise cette chaîne pour interroger la source de données.
+Par exemple, supposons que la chaîne de commande cliente est « CustomerByID(4) », l’en-tête de section SQL est SQL CustomerByID et la nouvelle chaîne de section SQL est « \[ SELECT FROM Customers WHERE \] \* CustomerID = ». Le handler génère , l’en-tête de section SQL est SQL CustomerByID et la nouvelle chaîne de section SQL est « \[ SELECT FROM Customers WHERE \] \* CustomerID = ». Le handler génère « SELECT FROM Customers WHERE CustomerID = 4 » et utilise cette chaîne pour interroger \* la source de données.
 
 Si la nouvelle instruction SQL est une chaîne vide (""), la section est ignorée.
 
@@ -39,7 +39,7 @@ SQL = " "
 
 Une chaîne d'entrée SQL de remplacement a la forme suivante :
 
-**SQL = * sqlString***
+**SQL=*sqlString***
 
 <table>
 <colgroup>
@@ -58,7 +58,7 @@ Une chaîne d'entrée SQL de remplacement a la forme suivante :
 <td><p>Chaîne littérale qui indique qu'il s'agit d'une entrée de section SQL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>Chaîne-</em></strong></p></td>
+<td><p><strong><em>sqlString</em></strong></p></td>
 <td><p>Chaîne SQL qui remplace la chaîne cliente.</p></td>
 </tr>
 </tbody>

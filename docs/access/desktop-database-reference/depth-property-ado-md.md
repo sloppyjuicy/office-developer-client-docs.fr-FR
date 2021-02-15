@@ -27,5 +27,5 @@ Retourne un entier et est en lecture seule.
 
 ## <a name="remarks"></a>Remarques
 
-Un objet **Level ** situé à la racine d'une hiérarchie a une **profondeur** de valeur zéro (0).
+Un objet **Level** situé à la racine d'une hiérarchie a une **profondeur** de valeur zéro (0).
 

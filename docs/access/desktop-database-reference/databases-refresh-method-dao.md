@@ -1,5 +1,5 @@
 ---
-title: Databases. Refresh, méthode (DAO)
+title: Databases.Refresh, méthode (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 4e928103-34ab-4651-6969-d427c2ddc376
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193648(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294581"
 ---
-# <a name="databasesrefresh-method-dao"></a>Databases. Refresh, méthode (DAO)
+# <a name="databasesrefresh-method-dao"></a>Databases.Refresh, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Non prise en charge pour cet objet.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Intervalle
+*.* Actualiser
 
-*expression* Variable qui représente un objet **databases** .
+*expression* Variable qui représente un objet **Databases.**
 
 ## <a name="remarks"></a>Remarques
 

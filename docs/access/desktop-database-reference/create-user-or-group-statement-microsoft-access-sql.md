@@ -1,5 +1,5 @@
 ---
-title: CREATe USER ou GROUP, instruction (Microsoft Access SQL)
+title: CREATE USER ou GROUP, instruction (Microsoft Access SQL)
 TOCTitle: CREATE USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295379"
 ---
-# <a name="create-user-or-group-statement-microsoft-access-sql"></a>CREATe USER ou GROUP, instruction (Microsoft Access SQL)
+# <a name="create-user-or-group-statement-microsoft-access-sql"></a>CREATE USER ou GROUP, instruction (Microsoft Access SQL)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -24,11 +24,11 @@ Crée un ou plusieurs nouveaux utilisateurs ou groupes.
 
 ### <a name="create-a-user"></a>Créer un utilisateur
 
-Create ** user *Password User PID* \[, *User* *Password PID*,...\]
+CREATE USER *password* *pid* \[ , *user* *password pid*, ...\]
 
 ### <a name="create-a-group"></a>Créer un groupe
 
-Create ** Group Group *PID*\[, *Group* *PID*,...\]
+CREATE GROUP *group* *pid* \[ , *group* *pid*, ...\]
 
 L'instruction CREATE USER ou GROUP est composée des arguments suivants :
 
@@ -45,11 +45,11 @@ L'instruction CREATE USER ou GROUP est composée des arguments suivants :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>utilisateur</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>Nom de l'utilisateur à ajouter au fichier d'informations du groupe de travail.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>groupe</em></p></td>
+<td><p><em>group</em></p></td>
 <td><p>Nom du groupe à ajouter au fichier d'informations du groupe de travail.</p></td>
 </tr>
 <tr class="odd">

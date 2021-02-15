@@ -1,5 +1,5 @@
 ---
-title: DBEngine. CreateDatabase, méthode (DAO)
+title: DBEngine.CreateDatabase, méthode (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: d5821a4b-483a-b8fa-e929-5f036057d8c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835033(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294364"
 ---
-# <a name="dbenginecreatedatabase-method-dao"></a>DBEngine. CreateDatabase, méthode (DAO)
+# <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CreateDatabase (***nom***, ***paramètres régionaux***, ***option***)
+*.* CreateDatabase(***Name***, ***Locale***, ***Option***)
 
-*expression* Variable qui représente un objet **DBEngine** .
+*expression* Variable représentant un objet **DBEngine**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -52,18 +52,18 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>String comportant jusqu’à 255 caractères formant le nom du fichier de base de données que vous créez. Il peut s’agir du nom de fichier et du chemin d’accès complets. Si votre réseau le permet, vous pouvez également spécifier un chemin d'accès réseau, &quot; \\tel&quot;que server1\share1\dir1\db1. Vous ne pouvez créer que des fichiers de base de données Microsoft Access avec cette méthode.</p></td>
+<td><p>String comportant jusqu’à 255 caractères formant le nom du fichier de base de données que vous créez. Il peut s’agir du nom de fichier et du chemin d’accès complets. Si votre réseau le prend en charge, vous pouvez également spécifier un chemin d’accès réseau, tel que &quot; \\ server1\share1\dir1\db1 &quot; . Vous ne pouvez créer que des fichiers de base de données Microsoft Access avec cette méthode.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Paramètres régionaux</em></p></td>
+<td><p><em>Locale</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Expression de chaîne qui spécifie un ordre de classement pour la création de la base de données, tel qu'il est spécifié dans la section Remarques. Vous devez indiquer cet argument sans quoi une erreur se produit.</p></li>
-<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concaténant la chaîne de mot &quot;de passe (&quot; en commençant par;p WD =) avec une constante dans l'argument <em>locale</em> , comme suit:</p></li>
-<li><p>dbLangSpanish &amp; &quot;;p wd = NewPassword&quot;</p></li>
+<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concassant la chaîne de mot de passe (en commençant par ;p wd= ) avec une constante dans &quot; l’argument &quot; <em>paramètres</em> régionaux, comme ceci :</p></li>
+<li><p>dbLangSpanish &amp; &quot; ;p wd=NewPassword&quot;</p></li>
 <li><p>Si vous souhaitez utiliser la valeur par défaut de <em>locale</em> mais spécifier un mot de passe, entrez simplement une chaîne de mot de passe pour l'argument <em>locale</em> :</p></li>
-<li><p>&quot;;p WD = NewPassword&quot;</p></li>
+<li><p>&quot;;p wd=NewPassword&quot;</p></li>
 <li><p>Utilisez des mots de passe forts qui associent des majuscules et des minuscules, des chiffres et des symboles. Les mots de passe faibles n'associent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : House27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p></li>
 </ul></td>
 </tr>
@@ -79,7 +79,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l'une des constantes suivantes pour l'argument paramètres régionaux afin de spécifier la propriété **[CollatingOrder](database-collatingorder-property-dao.md)** de texte pour les comparaisons de chaînes.
+Vous pouvez utiliser l’une des constantes suivantes pour l’argument paramètres régionaux afin de spécifier la propriété **[CollatingOrder](database-collatingorder-property-dao.md)** du texte pour les comparaisons de chaînes.
 
 <table>
 <colgroup>
@@ -99,7 +99,7 @@ Vous pouvez utiliser l'une des constantes suivantes pour l'argument paramètres 
 </tr>
 <tr class="even">
 <td><p><strong>dbLangArabic</strong></p></td>
-<td><p>Arabic</p></td>
+<td><p>Arabe</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbLangChineseSimplified</strong></p></td>

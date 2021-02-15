@@ -1,5 +1,5 @@
 ---
-title: Événements de macros de données (référence de base de données de bureau Access)
+title: Événements de macro de données (référence de base de données de bureau Access)
 TOCTitle: Data macro events
 ms:assetid: 4b36bcff-f733-442f-9098-cc5e4ee69ca3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124692(v=office.15)

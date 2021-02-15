@@ -1,5 +1,5 @@
 ---
-title: Méthodes de base de données (DAO)
+title: Databases methods (DAO)
 TOCTitle: Methods
 ms:assetid: 32dbdfb0-a80f-43a1-8f68-8a6ab040f602
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124273(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294616"
 ---
-# <a name="databases-methods-dao"></a>Méthodes de base de données (DAO)
+# <a name="databases-methods-dao"></a>Databases methods (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Databases. Refresh, méthode (DAO)](databases-refresh-method-dao.md)
+- [Databases.Refresh, méthode (DAO)](databases-refresh-method-dao.md)
 

@@ -37,17 +37,17 @@ Spécifie le fonctionnement de la méthode [CopyRecord](copyrecord-method-ado.md
 <tbody>
 <tr class="odd">
 <td><p><strong>adCopyAllowEmulation</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indique que le fournisseur <em>Source</em> essaye de simuler une copie à l’aide d’opérations de téléchargement et de chargement si cette méthode échoue parce que <em>Destination</em> se trouve sur un serveur différent ou si le fournisseur est différent de celui de la <em>Source</em>. Il est à noter que, selon les fonctions des fournisseurs, les performances peuvent varier, allant jusqu’à la perte de données.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCopyNonRecursive</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Copie le répertoire en cours, mais aucun de ses sous-répertoires, vers l'emplacement de destination. L'opération de copie n'est pas récursive.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCopyOverWrite</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Remplace le fichier ou le répertoire si la <em>Destination</em> pointe sur un fichier ou un répertoire existant.</p></td>
 </tr>
 <tr class="even">

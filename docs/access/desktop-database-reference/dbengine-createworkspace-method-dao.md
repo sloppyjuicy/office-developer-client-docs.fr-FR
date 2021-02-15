@@ -1,5 +1,5 @@
 ---
-title: DBEngine. CreateWorkspace, méthode (DAO)
+title: DBEngine.CreateWorkspace, méthode (DAO)
 TOCTitle: CreateWorkspace Method
 ms:assetid: a7d73771-9420-0448-99e6-d6c4aa78683a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821374(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294347"
 ---
-# <a name="dbenginecreateworkspace-method-dao"></a>DBEngine. CreateWorkspace, méthode (DAO)
+# <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CreateWorkspace (***nom***, ***nom d'utilisateur***, ***mot de passe***, ***UseType***)
+*.* CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)
 
-*expression* Variable qui représente un objet **DBEngine** .
+*expression* Variable représentant un objet **DBEngine**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -52,7 +52,7 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 <td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Type <strong>String</strong> qui identifie par un nom unique le nouvel objet <strong>Workspace</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d'informations sur les noms d' <strong>espace de travail</strong> valides.</p></td>
+<td><p>Type <strong>String</strong> qui identifie par un nom unique le nouvel objet <strong>Workspace</strong>. Voir la <strong><a href="connection-name-property-dao.md">propriété Name</a></strong> pour plus d’informations sur les noms <strong>d’espaces de travail</strong> valides.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>UserName</em></p></td>
@@ -64,16 +64,16 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 <td><p><em>Password</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p><strong>Valeur de type String</strong> contenant le mot de passe du nouvel objet <strong>Workspace</strong> . Le mot de passe peut contenir jusqu'à 20 caractères et peut contenir n'importe quel caractère, à l'exception du caractère ASCII 0 (null).</p>
-<p><strong>Remarque</strong>: utilisez des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des symboles. Les mots de passe faibles ne mélangent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : House27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
+<td><p>Chaîne <strong>contenant</strong> le mot de passe du nouvel <strong>objet Workspace.</strong> Le mot de passe peut comporter jusqu’à 20 caractères et peut inclure n’importe quel caractère à l’exception du caractère ASCII 0 (null).</p>
+<p><strong>REMARQUE</strong>: utilisez des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><em>UseType</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>L'une des valeurs <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></p>
+<p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 </td>
 </tr>
 </tbody>

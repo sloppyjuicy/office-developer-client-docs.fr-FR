@@ -1,5 +1,5 @@
 ---
-title: Databases. Count, propriété (DAO)
+title: Databases.Count, propriété (DAO)
 TOCTitle: Count Property
 ms:assetid: 7c542b17-9806-e00e-8cbd-58d6d17e98c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196364(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294623"
 ---
-# <a name="databasescount-property-dao"></a>Databases. Count, propriété (DAO)
+# <a name="databasescount-property-dao"></a>Databases.Count, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Compte
+*.* Count
 
-*expression* Variable qui représente un objet **databases** .
+*expression* Variable qui représente un objet **Databases.**
 
 ## <a name="remarks"></a>Remarques
 

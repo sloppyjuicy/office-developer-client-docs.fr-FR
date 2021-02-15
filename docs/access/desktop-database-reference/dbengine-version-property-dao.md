@@ -1,5 +1,5 @@
 ---
-title: DBEngine. version, propriété (DAO)
+title: DBEngine.Version, propriété (DAO)
 TOCTitle: Version Property
 ms:assetid: b2807dc1-604f-4423-289a-ff38a3d9f31b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822024(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294189"
 ---
-# <a name="dbengineversion-property-dao"></a>DBEngine. version, propriété (DAO)
+# <a name="dbengineversion-property-dao"></a>DBEngine.Version, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -27,9 +27,9 @@ Renvoie la version de DAO en cours d'utilisation. Type de données **String** en
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Version
+*.* Version
 
-*expression* Variable qui représente un objet **DBEngine** .
+*expression* Variable représentant un objet **DBEngine**.
 
 ## <a name="remarks"></a>Remarques
 

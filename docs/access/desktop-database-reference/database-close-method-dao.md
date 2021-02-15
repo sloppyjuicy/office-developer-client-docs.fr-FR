@@ -1,5 +1,5 @@
 ---
-title: Méthode Database. Close (DAO)
+title: Database.Close, méthode (DAO)
 TOCTitle: Close Method
 ms:assetid: b777ee92-172a-3342-31fc-76e7361c47fd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822418(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295022"
 ---
-# <a name="databaseclose-method-dao"></a>Méthode Database. Close (DAO)
+# <a name="databaseclose-method-dao"></a>Database.Close, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,13 +23,13 @@ Ferme un objet **Database** ouvert.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Proches
+*expression* .Close
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="remarks"></a>Remarques
 
 Si l'objet **Database** est déjà fermé lorsque vous utilisez **Close**, une erreur d'exécution se produit.
 
-Une autre solution consiste **** à définir la valeur d'une variable d'objet sur **Nothing** (Set dbsTemp = Nothing).
+Une alternative à l’utilisation de la méthode **Close** consiste à définir la valeur d’une variable d’objet sur **Nothing** (Set dbsTemp = Nothing).
 

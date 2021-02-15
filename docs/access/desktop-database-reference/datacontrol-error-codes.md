@@ -82,14 +82,14 @@ Le tableau suivant répertorie les codes d’erreur de l’objet [RDS.DataContro
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>Cette page utilise des données situées dans un autre domaine. Voulez-vous continuer ? Pour éviter ce message dans Internet Explorer, vous pouvez ajouter un site Web sécurisé à votre zone sites de confiance sous l'onglet <strong>sécurité</strong> de la boîte de dialogue <strong>Options Internet</strong> .</p></td>
+<td><p>Cette page utilise des données situées dans un autre domaine. Voulez-vous continuer ? Pour éviter ce message dans Internet Explorer, vous pouvez ajouter <strong></strong> un site web sécurisé à votre zone Sites de confiance sous l’onglet Sécurité de la boîte de dialogue <strong>Options Internet.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>
 <td><p>4106<br />
 -2146824176<br />
 0x800A1010</p></td>
-<td><p>Version du client RDS non valide — le client est plus récent que le serveur.</p></td>
+<td><p>Version du client RDS non valide — Le client est plus nouveau que le serveur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_INVALIDARG</strong></p></td>

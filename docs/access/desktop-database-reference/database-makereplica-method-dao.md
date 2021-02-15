@@ -1,5 +1,5 @@
 ---
-title: Méthode Database. MakeReplica (DAO)
+title: Méthode Database.MakeReplica (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294917"
 ---
-# <a name="databasemakereplica-method-dao"></a>Méthode Database. MakeReplica (DAO)
+# <a name="databasemakereplica-method-dao"></a>Database.MakeReplica, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Crée un nouveau réplica à partir d’un autre réplica de base de données (e
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . MakeReplica (***pathname***, ***Description***, ***options***)
+*.* MakeReplica(***PathName***, ***Description***, ***Options***)
 
-*expression* Variable qui représente un objet **Database** .
+*expression* Variable qui représente un objet **Database**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -76,7 +76,7 @@ Les propriétés **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** d'u
 
 ## <a name="example"></a>Exemple
 
-Cette fonction s'appuie sur la méthode **MakeReplica** pour créer un réplica supplémentaire d'un réplica-maître existant. L'argument Optionsint peut être une combinaison des constantes **dbRepMakeReadOnly** et **dbRepMakePartial**, ou il peut être égal à 0. Par exemple, pour créer un réplica partiel en lecture seule, vous devez transmettre la valeur **dbRepMakeReadOnly** + **dbRepMakePartial** comme valeur de Optionsint.
+Cette fonction s'appuie sur la méthode **MakeReplica** pour créer un réplica supplémentaire d'un réplica-maître existant. L’argument intOptions peut être une combinaison des constantes **dbRepMakeReadOnly** et **dbRepMakePartial,** ou il peut être 0. Par exemple, pour créer un réplica partiel en lecture seule, vous devez transmettre la valeur **dbRepMakeReadOnly**  +  **dbRepMakePartial** en tant que valeur d’intOptions.
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

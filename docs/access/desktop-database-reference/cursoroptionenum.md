@@ -48,7 +48,7 @@ Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) 
 </tr>
 <tr class="odd">
 <td><p><strong>adBookmark</strong></p></td>
-<td><p>0 x 2000</p></td>
+<td><p>0x2000</p></td>
 <td><p>Prendre en charge la propriété <a href="bookmark-property-ado.md">Bookmark</a> pour l’accès à des enregistrements spécifiques.</p></td>
 </tr>
 <tr class="even">
@@ -57,7 +57,7 @@ Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) 
 <td><p>Prend en charge la méthode <a href="delete-method-ado-recordset.md">Delete</a> pour la suppression d’enregistrements.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Find</strong></p></td>
+<td><p><strong>adFind</strong></p></td>
 <td><p>0x80000</p></td>
 <td><p>Prend en charge la méthode <a href="find-method-ado.md">Find</a> pour localiser une ligne dans un <a href="recordset-object-ado.md">Recordset</a>.</p></td>
 </tr>
@@ -68,7 +68,7 @@ Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) 
 </tr>
 <tr class="odd">
 <td><p><strong>adIndex</strong></p></td>
-<td><p>n.</p></td>
+<td><p>0x100000</p></td>
 <td><p>Prend en charge la propriété <a href="index-property-ado.md">Index</a> pour nommer un index.</p></td>
 </tr>
 <tr class="even">
@@ -120,43 +120,43 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. ADDNEW</p></td>
+<td><p>AdoEnums.CursorOption.ADDNEW</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. APPROXPOSITION</p></td>
+<td><p>AdoEnums.CursorOption.APPROXPOSITION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. BOOKMARK</p></td>
+<td><p>AdoEnums.CursorOption.BOOKMARK</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. DELETE</p></td>
+<td><p>AdoEnums.CursorOption.DELETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. FIND</p></td>
+<td><p>AdoEnums.CursorOption.FIND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. HOLDRECORDS</p></td>
+<td><p>AdoEnums.CursorOption.HOLDRECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. INDEX</p></td>
+<td><p>AdoEnums.CursorOption.INDEX</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. MOVEPREVIOUS</p></td>
+<td><p>AdoEnums.CursorOption.MOVEPREVIOUS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. NOTIFY</p></td>
+<td><p>AdoEnums.CursorOption.NOTIFY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. reSYNC</p></td>
+<td><p>AdoEnums.CursorOption.RESYNC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. SEEK</p></td>
+<td><p>AdoEnums.CursorOption.SEEK</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. UPDATE</p></td>
+<td><p>AdoEnums.CursorOption.UPDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. UPDATEBATCH</p></td>
+<td><p>AdoEnums.CursorOption.UPDATEBATCH</p></td>
 </tr>
 </tbody>
 </table>

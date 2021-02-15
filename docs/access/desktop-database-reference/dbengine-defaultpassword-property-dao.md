@@ -1,5 +1,5 @@
 ---
-title: Propriété DBEngine. DefaultPassword (DAO)
+title: DBEngine.DefaultPassword, propriété (DAO)
 TOCTitle: DefaultPassword Property
 ms:assetid: 189e34f3-d573-c75f-8be2-d98c50df8a52
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845616(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294357"
 ---
-# <a name="dbenginedefaultpassword-property-dao"></a>Propriété DBEngine. DefaultPassword (DAO)
+# <a name="dbenginedefaultpassword-property-dao"></a>DBEngine.DefaultPassword, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit le mot de passe servant à créer l'objet **Workspace** par défaut lors de son initialisation. Type de données **String** en lecture-écriture.
+Définit le mot de passe servant à créer l'objet **Workspace** par défaut lors de son initialisation. **String** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . DefaultPassword
+*.* DefaultPassword
 
-*expression* Variable qui représente un objet **DBEngine** .
+*expression* Variable représentant un objet **DBEngine**.
 
 ## <a name="remarks"></a>Remarques
 

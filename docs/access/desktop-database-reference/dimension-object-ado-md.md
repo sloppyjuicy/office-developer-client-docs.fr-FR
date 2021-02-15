@@ -48,7 +48,7 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nomcatalogue</p></td>
+<td><p>CatalogName</p></td>
 <td><p>Le nom du catalogue auquel ce cube appartient.</p></td>
 </tr>
 <tr class="even">

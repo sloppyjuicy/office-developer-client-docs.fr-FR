@@ -1,5 +1,5 @@
 ---
-title: 'Error, objet: ActiveX Data Objects (ADO)'
+title: Error Object - ActiveX Data Objects (ADO)
 TOCTitle: Error object (ADO)
 ms:assetid: 97e478bf-8b25-03a8-9358-abba5069cba3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)
@@ -40,7 +40,7 @@ Vous pouvez lire les propriétés d'un objet **Error** pour obtenir des détails
 
 Lorsqu'une erreur liée au fournisseur se produit, elle est placée dans la collection **Errors** de l'objet **Connection**. ADO prend en charge le renvoi de plusieurs erreurs par une seule opération ADO pour la prise en charge des informations d'erreur spécifiques au fournisseur. Pour obtenir ce niveau élevé de détail dans un gestionnaire d'erreurs, utilisez les fonctions d'interception appropriées de la langue ou de l'environnement dans lesquels vous travaillez, puis utilisez des boucles imbriquées pour énumérer les propriétés de chaque objet **Error** dans la collection **Errors**.
 
-**Utilisateurs de Microsoft Visual Basic et de VBScript** S'il n'existe pas d'objet **Connection** valide, vous devez récupérer les informations d'erreur à partir de l'objet **Error** .
+**Utilisateurs Microsoft Visual Basic et VBScript** S’il n’existe aucun objet **Connection** valide, vous devez récupérer les informations d’erreur de **l’objet Error.**
 
 Tout comme le font les fournisseurs, ADO efface l'objet **OLE Error Info** avant de lancer un appel susceptible de générer une nouvelle erreur spécifique du fournisseur. Toutefois, les objets présents dans la collection **Errors** sur l'objet **Connection** sont effacés et de nouveaux objets ne lui sont ajoutés que si le fournisseur génère une nouvelle erreur ou si la méthode [Clear](clear-method-ado.md) est appelée.
 

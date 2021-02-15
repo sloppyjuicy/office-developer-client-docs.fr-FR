@@ -1,5 +1,5 @@
 ---
-title: Membres DBEngine (DAO)
+title: DBEngine members (DAO)
 TOCTitle: DBEngine Members
 ms:assetid: 740b6a85-585f-0e1d-710b-84ba24825325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294280"
 ---
-# <a name="dbengine-members-dao"></a>Membres DBEngine (DAO)
+# <a name="dbengine-members-dao"></a>DBEngine members (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -45,10 +45,10 @@ L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></p></td>
-<td><p>Copie et compacte une base de données fermée, et vous offre la possibilité de modifier sa version, son ordre de tri et son chiffrement. (Espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Copie et compacte une base de données fermée, et vous donne la possibilité de changer sa version, son ordre de tri, et son chiffrement. (Espaces de travail Microsoft Access uniquement). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-createdatabase-method-dao.md">Database</a></strong></p></td>
+<td><p><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
 <td><p>Crée un objet <strong><a href="database-object-dao.md">Database</a></strong>, enregistre la base de données sur le disque, et renvoie un objet <strong>Database</strong> ouvert (espaces de travail Microsoft Access uniquement). .</p></td>
 </tr>
 <tr class="odd">
@@ -56,18 +56,18 @@ L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.
 <td><p>Crée un nouvel objet <strong><a href="workspace-object-dao.md">Workspace</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-idle-method-dao.md">Engrenage</a></strong></p></td>
+<td><p><strong><a href="dbengine-idle-method-dao.md">Inactif</a></strong></p></td>
 <td><p>Suspend le traitement des données, ce qui permet au moteur de base de données Microsoft Access de terminer les tâches en cours, telles que l'optimisation de la mémoire ou les expirations de délai des pages (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p>L'une des valeurs <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
+<td><p>Une des <strong><a href="workspacetypeenum-enumeration-dao.md">valeurs WorkspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Ouvre un objet <strong><a href="connection-object-dao.md">Connection</a></strong> dans une source de données ODBC (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong></p></td>
-<td><p>Ouvre une base de données spécifiée et renvoie une référence à l'objet <strong><a href="database-object-dao.md">Database</a></strong> qui la représente.</p></td>
+<td><p>Ouvre une base de données spécifiée et renvoie une référence à l’objet <strong><a href="database-object-dao.md">Database</a></strong> qui le représente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-registerdatabase-method-dao.md">RegisterDatabase</a></strong></p></td>
@@ -101,7 +101,7 @@ L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="dbengine-defaultpassword-property-dao.md">DefaultPassword</a></strong></p></td>
-<td><p>Définit le mot de passe servant à créer l'objet <strong>Workspace</strong> par défaut lors de son initialisation. <strong>String</strong> en lecture/écriture.</p></td>
+<td><p>Définit le mot de passe servant à créer l'objet <strong>Workspace</strong> par défaut lors de son initialisation. Valeur de type <strong>String</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-defaulttype-property-dao.md">DefaultType</a></strong></p></td>
@@ -113,7 +113,7 @@ L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-errors-property-dao.md">Erreurs</a></strong></p></td>
-<td><p>Renvoie une collection <strong>Errors</strong> qui contient tous les objets <strong>Error</strong> enregistrés pour l'objet spécifié. En lecture seule.</p></td>
+<td><p>Renvoie une collection <strong>Errors</strong> qui contient tous les objets <strong>Error</strong> enregistrés pour l'objet spécifié. Valeur en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-inipath-property-dao.md">IniPath</a></strong></p></td>

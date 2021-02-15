@@ -22,11 +22,11 @@ Supprime un objet d'une collection.
 
 ## <a name="syntax"></a>Syntaxe
 
-*Collection*. Supprimer le*nom*
+*Collection*. Supprimer un *nom*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Name* |Valeur de type **Variant** qui spécifie le nom ou la position ordinale (index) de l'objet à supprimer.|
 

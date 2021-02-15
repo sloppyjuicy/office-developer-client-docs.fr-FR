@@ -19,5 +19,5 @@ ms.locfileid: "32293846"
 **S’applique à** : Access 2013, Office 2013
 
 - [Dimensions, collection (ADO MD)](dimensions-collection-ado-md.md)
-- [Dimensions, collection-propriétés, méthodes et événements (ADO MD)](dimensions-collection-properties-methods-and-events-ado-md.md)
+- [Dimensions, collection - Propriétés, méthodes et événements (ADO MD)](dimensions-collection-properties-methods-and-events-ado-md.md)
 

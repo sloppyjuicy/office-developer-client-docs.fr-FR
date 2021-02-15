@@ -1,5 +1,5 @@
 ---
-title: Bloc de données CréerEnregistrement
+title: Bloc de données CreateRecord
 TOCTitle: CreateRecord data block
 ms:assetid: e18f47f8-2aad-9a14-ad63-ab603a4d5b07
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835671(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295351"
 ---
-# <a name="createrecord-data-block"></a>Bloc de données CréerEnregistrement
+# <a name="createrecord-data-block"></a>Bloc de données CreateRecord
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -58,9 +58,9 @@ Le bloc de données **CréerEnregistrement** utilise les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-L’enregistrement créé par **CréerEnregistrement ** devient automatiquement l’enregistrement actif.
+L’enregistrement créé par **CréerEnregistrement** devient automatiquement l’enregistrement actif.
 
-Après l'instruction **CréerEnregistrement** , vous pouvez insérer un bloc de commandes qui s'exécutera avant la validation du nouvel enregistrement. Les actions suivantes sont disponibles dans un bloc de données **CréerEnregistrement**.
+Après **l’instruction CreateRecord,** vous pouvez insérer un bloc de commandes qui s’exécute avant que le nouvel enregistrement ne soit engagé. Les actions suivantes sont disponibles dans un bloc de données **CréerEnregistrement**.
 
 <table>
 <colgroup>
@@ -77,7 +77,7 @@ Après l'instruction **CréerEnregistrement** , vous pouvez insérer un bloc de 
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">If... Then... Else, instruction de macro</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">Si... Ensuite... Instruction de macro Else</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">SetField, action de macro</a></p></td>
@@ -95,7 +95,7 @@ Vous pouvez utiliser une instruction **If... Then... Else** pour effectuer des o
 
 Pour annuler la création d'un enregistrement, utilisez l'action **AnnulerModificationEnregistrement**. Cela empêche la validation des modifications et quitte le bloc de données **CréerEnregistrement**.
 
-Une fois le nouvel enregistrement validé, vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec l’enregistrement. Par exemple, utilisez la syntaxe suivante pour faire référence au champ AffectéÀ du dernier enregistrement créé.
+Une fois le nouvel enregistrement validé, vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec l’enregistrement. Par exemple, utilisez la syntaxe suivante pour faire référence au champ AssignedTo du dernier enregistrement créé.
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

@@ -22,12 +22,12 @@ ms.locfileid: "32295120"
 
 **S’applique à** : Access 2013, Office 2013
 
-Si votre application ne fonctionne pas correctement avec la fonctionnalité par défaut du moteur de base de données Microsoft Access, il se peut que vous deviez modifier les paramètres dans le Registre Microsoft Windows en fonction de vos besoins. Le registre Windows peut aussi être utilisé pour ajuster le fonctionnement du pilote ISAM et ODBC pouvant être installé.
+Si votre application ne fonctionne pas correctement avec les fonctionnalités par défaut du moteur de base de données Microsoft Access, vous de devez peut-être modifier les paramètres du Registre Microsoft Windows en fonction de vos besoins. Le registre Windows peut aussi être utilisé pour ajuster le fonctionnement du pilote ISAM et ODBC pouvant être installé.
 
 Vous pouvez personnaliser les paramètres du registre Windows de quatre manières différentes :
 
-- [Utilisation de Regedit. exe pour remplacer les paramètres par défaut](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
-- [Création d'une partie dans l'arborescence du registre de votre application pour gérer les paramètres](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
+- [Utilisation Regedit.exe pour réécrire les paramètres par défaut](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
+- [Création d’une partie dans l’arborescence du Registre de votre application pour gérer les paramètres](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
 - [Utilisation de la méthode SetOption à partir de DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
-- [Utilisation des propriétés de connexion dans le fournisseur Microsoft OLE DB pour Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
+- [Utilisation des propriétés Connection dans le fournisseur Microsoft OLE DB pour Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
 

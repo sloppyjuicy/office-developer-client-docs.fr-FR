@@ -1,5 +1,5 @@
 ---
-title: Opérations d'entrée de données
+title: Opérations de saisie de données
 TOCTitle: Data Entry operations
 ms:assetid: fb8b4ffe-affa-432c-9ba4-a6b1bc42a58b
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180201(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295099"
 ---
-# <a name="data-entry-operations"></a>Opérations d'entrée de données
+# <a name="data-entry-operations"></a>Opérations de saisie de données
 
 **S’applique à** : Access 2013, Office 2013
 
