@@ -1,5 +1,5 @@
 ---
-title: Keys Append, méthode, Key type, RelatedColumn, propriétés-exemple (VC + +)
+title: Keys Append, méthode - Exemple de propriétés Key Type, RelatedColumn (VC++)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290637"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Keys Append, méthode-exemple de propriétés Key type, RelatedColumn, RelatedTable et UpdateRule (VC + +)
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Keys Append, méthode - Exemple de propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule (VC++)
 
 
 **S’applique à** : Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ---
-title: ParentSameAsPrev,, propriété (ADO MD)
+title: Propriété ParentSameAsPrev (ADO MD)
 TOCTitle: ParentSameAsPrev property (ADO MD)
 ms:assetid: 0f53a064-f63f-172e-d17f-1a3335c47ab5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248863(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287730"
 ---
-# <a name="parentsameasprev-property-ado-md"></a>ParentSameAsPrev,, propriété (ADO MD)
+# <a name="parentsameasprev-property-ado-md"></a>Propriété ParentSameAsPrev (ADO MD)
 
 
 **S’applique à** : Access 2013, Office 2013

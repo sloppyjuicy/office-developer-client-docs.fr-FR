@@ -43,7 +43,7 @@ Lorsque vous utilisez le fournisseur de données MSOLAP, définissez comme sourc
 
 `"Data Source=Servername;Initial Catalog=Bobs Video Store;Provider=msolap"`
 
-La chaîne suivante se connecte à un fichier de cube local situé à\\l'\\emplacement\\C\\:\\MSDASDK\\Samples OLEDB OLAP Data bobsvid. CUB:
+La chaîne suivante se connecte à un fichier de cube local à l’emplacement C : \\ Exemples MSDASDK \\ \\ oledb \\ olap \\ data \\ bobsvid.cub :
 
 `"Location=C:\MSDASDK\samples\oledb\olap\data\bobsvid.cub;Provider=msolap"`
 

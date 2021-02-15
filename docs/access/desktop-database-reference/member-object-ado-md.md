@@ -1,5 +1,5 @@
 ---
-title: Member, objet (ADO MD)
+title: Objet Member (ADO MD)
 TOCTitle: Member object (ADO MD)
 ms:assetid: d80c024a-07dc-7a35-f8f2-b4d5b19d89e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250088(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289421"
 ---
-# <a name="member-object-ado-md"></a>Member, objet (ADO MD)
+# <a name="member-object-ado-md"></a>Objet Member (ADO MD)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -43,7 +43,7 @@ Avec les collections et propriétés d'un objet **Member** d'un **niveau**, vous
 
   - Comptabiliser les enfants d’un **membre** à l’aide de la propriété [ChildCount](childcount-property-ado-md.md).
 
-  - Utiliser la collection ADO standard [Properties](properties-collection-ado.md) pour obtenir des informations supplémentaires à propos de l'objet **Level**.
+  - Utiliser la collection ADO standard [Properties](properties-collection-ado.md) pour obtenir des informations supplémentaires à propos de l’objet **Level**.
 
 Avec les collections et propriétés d’un **membre** d’une **position** le long d’un [axe](axis-object-ado-md.md), vous pouvez :
 
@@ -78,7 +78,7 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nomcatalogue</p></td>
+<td><p>CatalogName</p></td>
 <td><p>Le nom du catalogue auquel ce cube appartient.</p></td>
 </tr>
 <tr class="even">
@@ -118,7 +118,7 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 <td><p>Le GUID du membre.</p></td>
 </tr>
 <tr class="odd">
-<td><p>NomMembre</p></td>
+<td><p>MemberName</p></td>
 <td><p>Le nom du membre.</p></td>
 </tr>
 <tr class="even">

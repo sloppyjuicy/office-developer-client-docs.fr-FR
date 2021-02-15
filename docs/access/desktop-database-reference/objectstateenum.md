@@ -43,22 +43,22 @@ Spécifie l'état d'un objet : ouvert ou fermé, en cours de connexion à une so
 </tr>
 <tr class="even">
 <td><p><strong>adStateOpen</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Indique que l'objet est ouvert.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStateConnecting</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Indique que l'objet est en train de se connecter.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStateExecuting</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indique que l'objet est en train d'exécuter une commande.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStateFetching</strong></p></td>
-<td><p>8bits</p></td>
+<td><p>8 </p></td>
 <td><p>Indique que les lignes de l'objet sont en cours d'extraction.</p></td>
 </tr>
 </tbody>
@@ -80,19 +80,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ObjectState. CLOSEd</p></td>
+<td><p>AdoEnums.ObjectState.CLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ObjectState. OPEN</p></td>
+<td><p>AdoEnums.ObjectState.OPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ObjectState. CONNECTing</p></td>
+<td><p>AdoEnums.ObjectState.CONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ObjectState. Execution</p></td>
+<td><p>AdoEnums.ObjectState.EXECUTING</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ObjectState. FETCH</p></td>
+<td><p>AdoEnums.ObjectState.FETCHING</p></td>
 </tr>
 </tbody>
 </table>

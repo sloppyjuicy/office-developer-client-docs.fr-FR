@@ -21,7 +21,7 @@ ms.locfileid: "32289835"
 L'action **ConsignerÉvénement** écrit des informations dans la table système **USysApplicationLog**.
 
 > [!NOTE]
-> L’action **USysApplicationLog ** est disponible uniquement dans les macros de données.
+> L’action **USysApplicationLog** est disponible uniquement dans les macros de données.
 
 ## <a name="setting"></a>Setting
 

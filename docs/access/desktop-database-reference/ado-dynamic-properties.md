@@ -33,11 +33,11 @@ Les propriétés dynamiques suivantes sont destinées à un emploi particulier ;
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Dynamic, propriété</th>
+<th>Propriété dynamique</th>
 <th>Description</th>
 </tr>
 <tr class="odd">
-<td><p><a href="optimize-property-dynamic-ado.md">Vos</a></p></td>
+<td><p><a href="optimize-property-dynamic-ado.md">Optimiser</a></p></td>
 <td><p>Indique si un index doit être créé sur ce champ.</p></td>
 </tr>
 <tr class="even">
@@ -54,7 +54,7 @@ Les propriétés dynamiques suivantes sont destinées à un emploi particulier ;
 </tr>
 <tr class="odd">
 <td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Unique Table, Unique Schema, Unique Catalog</a></p></td>
-<td><p><strong>Unique table</strong> — spécifie le nom de la table de base dans laquelle les mises à jour, les insertions et les suppressions sont autorisées.<br/><br/><strong>Schéma unique</strong> : spécifie le schéma ou le nom du propriétaire de la table.<br/><br/><strong>Catalogue unique</strong> — spécifie le catalogue ou le nom de la base de données contenant la table.</p></td>
+<td><p><strong>Unique Table</strong> : spécifie le nom de la table de base sur laquelle les mises à jour, les insertions et les suppressions sont autorisées.<br/><br/><strong>Schéma unique :</strong> spécifie le schéma ou le nom du propriétaire de la table.<br/><br/><strong>Catalogue unique</strong> : spécifie le catalogue ou le nom de la base de données contenant la table.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="update-resync-property-dynamic-ado.md">Update Resync</a></p></td>

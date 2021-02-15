@@ -1,5 +1,5 @@
 ---
-title: Levels, collection-propriétés, méthodes et événements (ADO MD)
+title: Levels, collection - Propriétés, méthodes et événements (ADO MD)
 TOCTitle: Levels collection properties, methods, and events
 ms:assetid: fb407336-e5d3-4ddf-3597-0675be14e968
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250286(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290151"
 ---
-# <a name="levels-collection-properties-methods-and-events-ado-md"></a>Levels, collection-propriétés, méthodes et événements (ADO MD)
+# <a name="levels-collection-properties-methods-and-events-ado-md"></a>Levels, collection - Propriétés, méthodes et événements (ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="properties"></a>Propriétés
 
 - [Propriété Count](count-property-ado.md)
-- [Propriété Item](item-property-ado.md)
+- [Item, propriété](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes
 
 - [Refresh, méthode](refresh-method-ado.md)
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

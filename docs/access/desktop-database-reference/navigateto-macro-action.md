@@ -35,7 +35,7 @@ L’action **AccéderA** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -46,7 +46,7 @@ L’action **AccéderA** possède les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Groupe</strong></p></td>
-<td><p>Facultatif. L’argument <strong>Groupe</strong> limite les objets de la catégorie qui apparaissent dans le volet de navigation. Si vous laissez l'argument <strong>groupe</strong> vide, le volet de navigation affiche tous les objets de base de données, catégorisés par les critères que vous spécifiez dans l'argument <strong>catégorie</strong> . Des exemples d’arguments <strong>Groupe</strong> valides pour les différents arguments <strong>Catégorie</strong> sont répertoriés dans le tableau ci-après.</p></td>
+<td><p>Facultatif. L’argument <strong>Groupe</strong> limite les objets de la catégorie qui apparaissent dans le volet de navigation. Si vous laissez l’argument <strong>Groupe</strong> vide, le volet de navigation affiche tous les objets de base de données, classés selon les critères que vous spécifiez dans l’argument <strong>Catégorie.</strong> Des exemples d’arguments <strong>Groupe</strong> valides pour les différents arguments <strong>Catégorie</strong> sont répertoriés dans le tableau ci-après.</p></td>
 </tr>
 </tbody>
 </table>
@@ -54,7 +54,7 @@ L’action **AccéderA** possède les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-- Cette action équivaut à sélectionner des catégories et des groupes dans la barre de titre du volet de navigation.
+- Cette action est similaire à la sélection de catégories et de groupes dans la barre de titre du volet de navigation.
 
 - La validité des arguments **Groupe** dépend de l'argument **Catégorie** utilisé. Si vous entrez un argument **Groupe** non valide, un message d'erreur s'affiche.Le tableau ci-dessous contient des exemples d'arguments **Groupe** valides pour chaque argument **Catégorie**.
     

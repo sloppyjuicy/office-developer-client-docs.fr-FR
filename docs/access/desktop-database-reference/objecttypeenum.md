@@ -38,17 +38,17 @@ Indique le type d'objet de base de données dont il faut définir les autorisati
 <tbody>
 <tr class="odd">
 <td><p><strong>adPermObjColumn</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>L'objet est une colonne.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPermObjDatabase</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>L'objet est une base de données.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPermObjProcedure</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>L'objet est une procédure.</p></td>
 </tr>
 <tr class="even">
@@ -58,12 +58,12 @@ Indique le type d'objet de base de données dont il faut définir les autorisati
 </tr>
 <tr class="odd">
 <td><p><strong>adPermObjTable</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>L'objet est une table.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPermObjView</strong></p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>L'objet est une vue.</p></td>
 </tr>
 </tbody>

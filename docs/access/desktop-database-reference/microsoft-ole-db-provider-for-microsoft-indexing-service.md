@@ -19,7 +19,7 @@ ms.locfileid: "32288917"
 
 **S’applique à** : Access 2013, Office 2013
 
-Le fournisseur Microsoft OLE DB pour le service d'indexation Microsoft fournit un accès par programmation en lecture seule au système de fichiers et aux données Web indexées par le service d'indexation Microsoft. Les applications ADO peuvent émettre des requêtes SQL pour extraire du contenu et des informations sur les propriétés des fichiers.
+Le fournisseur Microsoft OLE DB pour le service d’indexation Microsoft fournit un accès en lecture seule par programme au système de fichiers et aux données web indexées par le service d’indexation Microsoft. Les applications ADO peuvent émettre des requêtes SQL pour extraire du contenu et des informations sur les propriétés des fichiers.
 
 Le fournisseur est libre de thread et utilise Unicode.
 
@@ -103,27 +103,27 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <tbody>
 <tr class="odd">
 <td><p><a href="absolutepage-property-ado.md">AbsolutePage</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="absoluteposition-property-ado.md">AbsolutePosition</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado.md">ActiveConnection</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">BOF</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="bookmark-property-ado.md">Signet</a>*</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cursorlocation-property-ado.md">CursorLocation</a></p></td>
@@ -139,53 +139,53 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">EOF</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p><a href="filter-property-ado.md">Filtre</a></p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="locktype-property-ado.md">LockType</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="marshaloptions-property-ado.md">MarshalOptions,</a></p></td>
+<td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
 <td><p>Non disponible</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="pagecount-property-ado.md">PageCount</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="pagesize-property-ado.md">PageSize</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="recordcount-property-ado.md">RecordCount</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="source-property-ado-recordset.md">Source</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p><a href="status-property-ado-recordset.md">État</a></p></td>
+<td><p>lecture seule</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\*Les signets doivent être activés sur le fournisseur pour que cette fonctionnalité existe sur le **Recordset**.
+\*Les signets doivent être activés sur le fournisseur pour que cette fonctionnalité existe sur le **recordset**.
 
 Disponibilité des méthodes ADO standard d'un **Recordset** :
 
@@ -197,7 +197,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <thead>
 <tr class="header">
 <th><p>Méthode</p></th>
-<th><p>Possibles?</p></th>
+<th><p>Disponible ?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -238,7 +238,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Méthodes</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a></p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
@@ -258,7 +258,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="supports-method-ado.md">Compatible</a></p></td>
+<td><p><a href="supports-method-ado.md">Prend en charge</a></p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">

@@ -40,7 +40,7 @@ Les tableaux suivants présentent et décrivent les événements.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete,</p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</p></td>
 <td><p><strong>Gestion des transactions</strong>  : notification signalant que la transaction active sur la connexion a été lancée, validée ou annulée.</p></td>
 </tr>
 <tr class="even">
@@ -48,11 +48,11 @@ Les tableaux suivants présentent et décrivent les événements.
 <td><p><strong>Gestion des connexions</strong>  : notification signalant que la connexion active va être établie, qu'elle est établie ou qu'elle est terminée.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="willexecute-event-ado.md">WillExecute,</a>, <a href="executecomplete-event-ado.md">ExecuteComplete</a></p></td>
+<td><p><a href="willexecute-event-ado.md">WillExecute</a>, <a href="executecomplete-event-ado.md">ExecuteComplete</a></p></td>
 <td><p><strong>Gestion de l'exécution des commandes</strong>  : notification signalant que l'exécution de la commande active sur la connexion va être effectuée ou qu'elle est terminée.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="infomessage-event-ado.md">InfoMessage,</a></p></td>
+<td><p><a href="infomessage-event-ado.md">InfoMessage</a></p></td>
 <td><p><strong>Informatif</strong>  : notification signalant que des informations supplémentaires sont disponibles concernant l'opération active.</p></td>
 </tr>
 </tbody>
@@ -72,7 +72,7 @@ Les tableaux suivants présentent et décrivent les événements.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="fetchprogress-event-ado.md">FetchProgress,</a>, <a href="fetchcomplete-event-ado.md">FetchComplete,</a></p></td>
+<td><p><a href="fetchprogress-event-ado.md">FetchProgress</a>, <a href="fetchcomplete-event-ado.md">FetchComplete</a></p></td>
 <td><p><strong>État d'extraction</strong>  : notification de la progression d'une opération d'extraction de données ou de la fin d'une opération d'extraction. Ces événements ne sont déclenchés que si l'objet <strong>Recordset</strong> a été ouvert à l'aide d'un curseur côté client.</p></td>
 </tr>
 <tr class="even">

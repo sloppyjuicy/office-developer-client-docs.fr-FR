@@ -1,5 +1,5 @@
 ---
-title: Propriétés ADO (ActiveX Data Objects) MD
+title: ActiveX data objects (ADO) MD
 TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
@@ -59,7 +59,7 @@ ms.locfileid: "32283288"
 <td><p>Renvoie une explication sur l'objet actif.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="dimensioncount-property-ado-md.md">DimensionCount,</a></p></td>
+<td><p><a href="dimensioncount-property-ado-md.md">DimensionCount</a></p></td>
 <td><p>Indique le nombre de dimensions d'un axe.</p></td>
 </tr>
 <tr class="odd">
@@ -71,11 +71,11 @@ ms.locfileid: "32283288"
 <td><p>Indique les informations de filtre pour l'ensemble de cellules actif.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado-md-cellset.md">Item</a></p></td>
+<td><p><a href="item-property-ado-md-cellset.md">Élément</a></p></td>
 <td><p>Extrait une cellule d'un ensemble de cellules à l'aide de ses coordonnées.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Élément</a></p></td>
 <td><p>Renvoie un membre spécifique d'une collection en fonction de son nom ou d'un nombre ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -87,7 +87,7 @@ ms.locfileid: "32283288"
 <td><p>Indique le nombre de niveaux entre la racine de la hiérarchie et un membre.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="levelname-property-ado-md.md">LevelName,</a></p></td>
+<td><p><a href="levelname-property-ado-md.md">LevelName</a></p></td>
 <td><p>Indique le nom du niveau d'un membre.</p></td>
 </tr>
 <tr class="even">
@@ -107,7 +107,7 @@ ms.locfileid: "32283288"
 <td><p>Indique le membre qui est le parent du membre actif dans une hiérarchie.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev,</a></p></td>
+<td><p><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></p></td>
 <td><p>Indique si le parent de ce membre de position est le même que le parent du membre qui le précède immédiatement.</p></td>
 </tr>
 <tr class="odd">
@@ -115,15 +115,15 @@ ms.locfileid: "32283288"
 <td><p>Indique la source des données de l'ensemble de cellules.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado-md.md">State</a></p></td>
+<td><p><a href="state-property-ado-md.md">État</a></p></td>
 <td><p>Indique l'état actuel de l'ensemble de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-md.md">Type</a></p></td>
+<td><p><a href="type-property-ado-md.md">Type (Type)</a></p></td>
 <td><p>Indique le type du membre actif.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="uniquename-property-ado-md.md">Unique</a></p></td>
+<td><p><a href="uniquename-property-ado-md.md">UniqueName</a></p></td>
 <td><p>Indique un nom non équivoque pour l'objet actif.</p></td>
 </tr>
 <tr class="odd">

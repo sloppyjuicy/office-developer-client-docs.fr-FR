@@ -1,5 +1,5 @@
 ---
-title: Move, méthode-ActiveX Data Objects (ADO)
+title: Move, méthode - ActiveX Data Objects (ADO)
 TOCTitle: Move method (ADO)
 ms:assetid: 1f858654-5fa3-273d-7cdc-574c5f09a420
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248982(v=office.15)
@@ -22,11 +22,11 @@ Déplace la position de l’enregistrement actif dans un objet [Recordset](recor
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. Déplacer *numRecords*, *Démarrer*
+*recordset*. Move *NumRecords*, *Start*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*NumRecords* |Expression de type **Long** signée qui spécifie le nombre d'enregistrements dont la position de l'enregistrement actif sera déplacée.|
 |*Début* |Facultatif. Valeur de type **String** ou **Variant** qui correspond à un signet. Vous pouvez également utiliser une valeur [BookmarkEnum](bookmarkenum.md).|
@@ -37,7 +37,7 @@ La méthode **Move** est prise en charge sur tous les objets **Recordset**.
 
 Si l'argument *NumRecords* est supérieur à zéro, la position de l'enregistrement actif est avancée (vers la fin du **jeu d'enregistrements**). Si l'argument *NumRecords* est inférieur à zéro, la position de l'enregistrement actif est déplacée vers l'arrière (vers le début du **jeu d'enregistrements**).
 
-Si l'appel de la fonction **Move** déplace la position de l'enregistrement actif vers un point qui précède le premier enregistrement, ADO définit l'enregistrement actif à la position précédant le premier enregistrement de l'objet Recordset (la propriété[BOF](bof-eof-properties-ado.md) a la **valeur true**). Une tentative de déplacement vers l’arrière lorsque la propriété **BOF** a déjà la valeur **True** génère une erreur.
+Si  l’appel de déplacement déplace la position de l’enregistrement actuel vers un point avant le premier enregistrement, ADO définit l’enregistrement actuel à la position avant le premier enregistrement du jeu d’enregistrements ([BOF](bof-eof-properties-ado.md) a la valeur **True**). Une tentative de déplacement vers l’arrière lorsque la propriété **BOF** a déjà la valeur **True** génère une erreur.
 
 Si l’appel de la méthode **Move** déplace la position de l’enregistrement vers un point situé après le dernier enregistrement, ADO définit la position de l’enregistrement actif après le dernier enregistrement du jeu d’enregistrements (la propriété [EOF](bof-eof-properties-ado.md) a la valeur **True**). Une tentative de déplacement vers l’avant lorsque la propriété **EOF** a déjà la valeur **True** génère une erreur.
 

@@ -27,7 +27,7 @@ Définit ou renvoie une valeur [MarshalOptions](marshaloptionsenum.md). La valeu
 
 ## <a name="remarks"></a>Remarques
 
-Lors de l'utilisation d'un [objet Recordset](recordset-object-ado.md)côté client, les enregistrements qui ont été modifiés sur le client sont réécrits sur le niveau intermédiaire ou le serveur Web via une technique appelée marshaling, le processus d'empaquetage et l'envoi de paramètres de méthode d'interface à travers le thread ou limites de processus. La définition de la propriété **MarshalOptions** peut améliorer les performances lorsque les données à distance modifiées sont marshalées pour être mises à jour vers le niveau intermédiaire ou le serveur Web.
+Lors de l’utilisation d’un jeu d’enregistrements côté [client,](recordset-object-ado.md)les enregistrements qui ont été modifiés sur le client sont écrits sur le niveau intermédiaire ou le serveur web via une technique appelée marshaling, le processus d’empaquetage et l’envoi de paramètres de méthode d’interface au-delà des limites de thread ou de processus. La définition **de la propriété MarshalOptions** peut améliorer les performances lorsque les données distantes modifiées sont marshalées pour une mise à jour vers le niveau intermédiaire ou le serveur web.
 
-**Utilisation des services de données à distance** Cette propriété est utilisée uniquement sur un **objet Recordset**côté client.
+**Utilisation du service de données à distance** Cette propriété est utilisée uniquement sur un **recordset** côté client.
 

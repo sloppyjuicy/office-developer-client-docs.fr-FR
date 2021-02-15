@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet (ADOX)
+title: Référence d’objet key (ADOX)
 TOCTitle: Key object (ADOX)
 ms:assetid: 7bb344df-182f-43fc-847e-1b40098bd1f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249514(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290778"
 ---
-# <a name="key-object-adox-reference"></a>Référence d'objet (ADOX)
+# <a name="key-object-adox-reference"></a>Référence d’objet key (ADOX)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Key, objet (ADOX)](key-object-adox.md)
-- [Key, propriétés, méthodes et événements (ADOX)](key-properties-methods-and-events-adox.md)
+- [Objet Key (ADOX)](key-object-adox.md)
+- [Key properties, methods, and events (ADOX)](key-properties-methods-and-events-adox.md)
 

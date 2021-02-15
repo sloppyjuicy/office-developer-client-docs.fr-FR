@@ -36,7 +36,7 @@ L’action **VerrouillerVoletNavigation** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

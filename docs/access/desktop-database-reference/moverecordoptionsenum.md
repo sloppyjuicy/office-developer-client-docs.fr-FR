@@ -42,17 +42,17 @@ Spécifie le fonctionnement de la méthode [MoveRecord](moverecord-method-ado.md
 </tr>
 <tr class="even">
 <td><p><strong>adMoveOverWrite</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Remplace le fichier ou répertoire de destination, même s'il existe déjà.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adMoveDontUpdateLinks</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Modifie le fonctionnement par défaut de la méthode <strong>MoveRecord</strong> en ne mettant pas à jour les liens hypertexte du <strong>Record</strong> source. Le fonctionnement par défaut dépend des capacités du fournisseur. L'opération Move met à jour les liens si le fournisseur en est capable. Si le fournisseur ne peut résoudre les liens ou si cette valeur n'est pas spécifiée, le déplacement réussit même si les liens n'ont pas été mis à jour.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMoveAllowEmulation</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Demande au fournisseur de simuler le déplacement (à l'aide d'opérations de téléchargement, de chargement et de suppression). Si la tentative de déplacement du <strong>Record</strong> échoue parce que l'URL de destination se trouve sur un autre serveur ou si elle est servie par un autre fournisseur que la source des données, il peut en résulter une latence accrue ou une perte de données, en raison des caractéristiques différentes des fournisseurs.</p></td>
 </tr>
 </tbody>

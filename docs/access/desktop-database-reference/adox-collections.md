@@ -37,7 +37,7 @@ ms.locfileid: "32270125"
 <td><p>Contient tous les objets <strong>Column</strong> d'une table, d'un index ou d'une clé.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="groups-collection-adox.md">Groups</a></p></td>
+<td><p><a href="groups-collection-adox.md">Groupes</a></p></td>
 <td><p>Contient tous les objets <strong>Group</strong> stockés d'un catalogue ou d'un utilisateur.</p></td>
 </tr>
 <tr class="odd">
@@ -49,7 +49,7 @@ ms.locfileid: "32270125"
 <td><p>Contient tous les objets <strong>Key</strong> d'une table.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="procedures-collection-adox.md">Procedures</a></p></td>
+<td><p><a href="procedures-collection-adox.md">Procédures</a></p></td>
 <td><p>Contient tous les objets <strong>Procedure</strong> d'un catalogue.</p></td>
 </tr>
 <tr class="even">

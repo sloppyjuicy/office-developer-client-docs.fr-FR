@@ -37,22 +37,22 @@ Précise si le [paramètre](parameter-object-ado.md) représente un paramètre d
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamInput</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Par défaut. Indique que le paramètre est un paramètre de saisie.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adParamInputOutput</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indique que le paramètre est un paramètre de saisie et de sortie.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adParamOutput</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Indique que le paramètre représente un paramètre de sortie.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adParamReturnValue</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indique que le paramètre représente une valeur de retour.</p></td>
 </tr>
 <tr class="odd">
@@ -79,19 +79,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ParameterDirection. INPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.INPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ParameterDirection. INPUTOUTPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.INPUTOUTPUT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ParameterDirection. OUTPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.OUTPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ParameterDirection. RETURNVALUE</p></td>
+<td><p>AdoEnums.ParameterDirection.RETURNVALUE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ParameterDirection. unKNOWn</p></td>
+<td><p>AdoEnums.ParameterDirection.UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

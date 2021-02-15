@@ -1,5 +1,5 @@
 ---
-title: ParentRow,, propriété (ADO)
+title: ParentRow, propriété (ADO)
 TOCTitle: ParentRow property (ADO)
 ms:assetid: c7520353-9428-9c8f-9d21-ff42e30e1193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249971(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287737"
 ---
-# <a name="parentrow-property-ado"></a>ParentRow,, propriété (ADO)
+# <a name="parentrow-property-ado"></a>ParentRow, propriété (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -24,17 +24,17 @@ En écriture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-HRESULT put\_parentRow, (\[dans\] IUnknown\* pParent);
+HRESULT put \_ ParentRow( \[ in \] IUnknown \* pParent);
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*pParent* |Le conteneur d'une ligne.|
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Cette méthode de propriété renvoie les valeurs HRESULT standard, y\_compris S OK\_et E Fail.
+Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S \_ OK et E \_ FAIL.
 
 ## <a name="applies-to"></a>S’applique à
 

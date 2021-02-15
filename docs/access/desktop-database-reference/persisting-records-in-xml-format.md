@@ -55,7 +55,7 @@ rs.Open "titles.sav",,,,adCmdFile
 rs2.open s 
 ```
 
-ADO always persists the entire **Recordset** object. If you wish to only persist a subset of rows of the **Recordset** object, use the **Filter** method to narrow down the rows or change your selection clause. Toutefois, vous devez ouvrir un **** objet Recordset avec un curseur côté client (**CursorLocation** = **adUseClient**) pour utiliser la méthode **Filter** pour enregistrer un sous-ensemble de lignes. For example, to retrieve titles that start with the letter "b," you can apply a filter to an open **Recordset** object:
+ADO always persists the entire **Recordset** object. If you wish to only persist a subset of rows of the **Recordset** object, use the **Filter** method to narrow down the rows or change your selection clause. Toutefois, vous devez ouvrir un objet **Recordset** avec un curseur côté client (**CursorLocation**  =  **adUseClient**) pour utiliser la méthode **Filter** pour enregistrer un sous-ensemble de lignes. For example, to retrieve titles that start with the letter "b," you can apply a filter to an open **Recordset** object:
 
 ```vb 
  

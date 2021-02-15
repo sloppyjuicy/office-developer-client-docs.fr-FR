@@ -22,7 +22,7 @@ Ajoute un ou plusieurs *utilisateurs* existants à un *groupe* existant.
 
 ## <a name="syntax"></a>Syntaxe
 
-Ajouter un **\[utilisateur utilisateur, *utilisateur*,... \] Pour *Grouper*
+AJOUTER un *utilisateur,* \[ un *utilisateur,*... \] Groupe  TO
 
 L'instruction ADD USER comporte trois parties :
 
@@ -39,11 +39,11 @@ L'instruction ADD USER comporte trois parties :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>utilisateur</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>Nom de l'utilisateur à ajouter au fichier d'informations du groupe de travail.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>groupe</em></p></td>
+<td><p><em>group</em></p></td>
 <td><p>Nom du groupe à ajouter au fichier d'informations du groupe de travail.</p></td>
 </tr>
 </tbody>
@@ -52,5 +52,5 @@ L'instruction ADD USER comporte trois parties :
 
 ## <a name="remarks"></a>Remarques
 
-Une fois qu'un *utilisateur* a été ajouté à un *groupe*, il dispose de toutes les autorisations qui ont été accordées au *groupe*. **
+Une fois *qu’un* utilisateur a  été ajouté à un *groupe,* il dispose de toutes les autorisations qui ont été accordées au *groupe.*
 

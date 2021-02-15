@@ -172,7 +172,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3717</strong></p></td>
 <td><p><strong>adWrnSecurityDialog</strong></p></td>
-<td><p>Utilisation interne uniquement. Ne pas utiliser. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
+<td><p>Utilisation interne uniquement. Utilisation interdite. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3718</strong></p></td>
@@ -222,7 +222,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3727</strong></p></td>
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
-<td><p>L’URL source ou le parent de l’URL de destination n’existent pas. Un erreur typographique figure dans l’URL source ou l’URL de destination. Vous pouvez avoir https://mysite/photo/myphoto.jpg à la https://mysite/photos/myphoto.jpg place si vous le souhaitez. L’erreur typographique dans l’URL parent (dans ce cas, il s’agit de <em>photo</em> au lieu de <em>photos</em>) est à l’origine de l’erreur.</p></td>
+<td><p>L’URL source ou le parent de l’URL de destination n’existent pas. Un erreur typographique figure dans l’URL source ou l’URL de destination. Vous https://mysite/photo/myphoto.jpg l’avez peut-être déjà https://mysite/photos/myphoto.jpg fait à la place. L’erreur typographique dans l’URL parent (dans ce cas, il s’agit de <em>photo</em> au lieu de <em>photos</em>) est à l’origine de l’erreur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3728</strong></p></td>

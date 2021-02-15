@@ -22,13 +22,13 @@ Permet d'extraire une cellule d'un ensemble de cellules à l'aide de ses coordon
 
 ## <a name="syntax"></a>Syntaxe
 
-Définir l'ensemble de cellules de*cellule* = **. Élément (*positions*)
+Définissez *Cell*  =  *Cellset*. Élément (*Positions*)
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
-|*Positions* |Tableau de valeurs de **type Variant** qui spécifie une cellule de manière unique. Les *positions* peuvent être :<br/><br/>-Tableau de numéros de poste<br/>-Tableau de noms de membres<br/>-Position ordinale |
+|*Positions* |Tableau **de valeurs** Variant qui spécifie une cellule de manière unique. Les *positions* peuvent être :<br/><br/>- Tableau des numéros de position<br/>- Tableau de noms de membres<br/>- Position ordinale |
 
 ## <a name="remarks"></a>Remarques
 
@@ -43,7 +43,7 @@ La propriété **Item** est la propriété par défaut de l'objet **Cellset**. L
 
 L'argument *Positions* spécifie la cellule à renvoyer. Vous pouvez spécifier la cellule par position ordinale ou par la position le long de chaque axe. Dans ce second cas, vous pouvez spécifier la valeur numérique de la position ou les noms des membres de chaque position.
 
-La position ordinale est un numéro qui identifie une cellule de manière unique dans un **ensemble de cellules**. En théorie, les cellules sont numérotées dans un **ensemble de cellules** comme si ce dernier**** était un tableau *p*-dimensionnel, où *p* correspond au nombre des axes. Les cellules sont classées par ordre ligne-majeur.
+La position ordinale est un numéro qui identifie une cellule de manière unique dans un **ensemble de cellules**. En théorie, les cellules sont numérotées dans un **ensemble de cellules** comme si ce dernierétait un tableau *p*-dimensionnel, où *p* correspond au nombre des axes. Les cellules sont classées par ordre ligne-majeur.
 
 Si les noms de membres sont transmis sous la forme de chaînes à la propriété **Item**, les membres doivent être répertoriés par ordre croissant d'identificateurs d'axe numériques. Sur un axe, les membres doivent être classés par ordre croissant d'imbrication des dimensions. En d'autres termes, le membre de la dimension externe arrive en premier, suivi par les membres des dimensions internes. Chaque dimension doit être représentée par une chaîne séparée et la liste des chaînes de membres doit être séparée par des virgules.
 

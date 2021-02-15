@@ -43,7 +43,7 @@ Spécifie le niveau d’isolement de transaction d’un objet [Connection](conne
 </tr>
 <tr class="even">
 <td><p><strong>adXactChaos</strong></p></td>
-<td><p>Seiz</p></td>
+<td><p>16 </p></td>
 <td><p>Indique que les modifications en attente de transactions mieux isolées ne peuvent être remplacées.</p></td>
 </tr>
 <tr class="odd">
@@ -100,31 +100,31 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. unSPÉCIFIÉ</p></td>
+<td><p>AdoEnums.IsolationLevel.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. IsolationLevel. CHAOS</p></td>
+<td><p>AdoEnums.IsolationLevel.CHAOS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. BROWSE</p></td>
+<td><p>AdoEnums.IsolationLevel.BROWSE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. IsolationLevel. READUNCOMMITTED</p></td>
+<td><p>AdoEnums.IsolationLevel.READUNCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. CURSORSTABILITY</p></td>
+<td><p>AdoEnums.IsolationLevel.CURSORSTABILITY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. IsolationLevel. READCOMMITTED</p></td>
+<td><p>AdoEnums.IsolationLevel.READCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. REPEATABLEREAD</p></td>
+<td><p>AdoEnums.IsolationLevel.REPEATABLEREAD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. IsolationLevel. ISOLATed</p></td>
+<td><p>AdoEnums.IsolationLevel.ISOLATED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. IsolationLevel. Serializable</p></td>
+<td><p>AdoEnums.IsolationLevel.SERIALIZABLE</p></td>
 </tr>
 </tbody>
 </table>

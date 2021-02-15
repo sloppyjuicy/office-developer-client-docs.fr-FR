@@ -38,7 +38,7 @@ Notez les numéros utilisés dans l'index croisé :
 
 (1) Cette propriété est un indicateur booléen indiquant si l'interface nommée doit être utilisée. Le nom de propriété OLE DB équivalent est répertorié s'il existe.
 
-(2) la propriété ADO «Bookmarkable» est générée en interne pour la compatibilité descendante et est mappée à la propriété OLE DB, DBPROP\_IROWSETLOCATE. Il s'agit de la même propriété que celle correspondant à la propriété ADO IRowsetLocate.
+(2) La propriété ADO « Bookmarkable » est générée en interne pour des raisons de compatibilité ascendante et mappée à la propriété OLE DB, DBPROP \_ IROWSETLOCATE. Il s'agit de la même propriété que celle correspondant à la propriété ADO IRowsetLocate.
 
 (3) Le nom de propriété ADO Hidden Columns est différent du nom utilisé pour la description du nom de propriété OLE DB (Hidden Columns Count).
 
@@ -338,7 +338,7 @@ Notez que les **propriétés dynamiques** de l'objet **Recordset** deviennent in
 </tr>
 <tr class="even">
 <td><p>IChapteredRowset</p></td>
-<td><p>0,1</p></td>
+<td><p>(1)</p></td>
 </tr>
 <tr class="odd">
 <td><p>IColumnsInfo</p></td>
@@ -349,12 +349,12 @@ Notez que les **propriétés dynamiques** de l'objet **Recordset** deviennent in
 <td><p>DBPROP_ICOLUMNSROWSET (1)</p></td>
 </tr>
 <tr class="odd">
-<td><p>Interfaces</p></td>
+<td><p>IConnectionPointContainer</p></td>
 <td><p>DBPROP_ICONNECTIONPOINTCONTAINER (1)</p></td>
 </tr>
 <tr class="even">
 <td><p>IConvertType</p></td>
-<td><p>0,1</p></td>
+<td><p>(1)</p></td>
 </tr>
 <tr class="odd">
 <td><p>ILockBytes</p></td>
@@ -370,7 +370,7 @@ Notez que les **propriétés dynamiques** de l'objet **Recordset** deviennent in
 </tr>
 <tr class="even">
 <td><p>IParentRowset</p></td>
-<td><p>0,1</p></td>
+<td><p>(1)</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetChange</p></td>
@@ -378,7 +378,7 @@ Notez que les **propriétés dynamiques** de l'objet **Recordset** deviennent in
 </tr>
 <tr class="even">
 <td><p>IRowsetExactScroll</p></td>
-<td><p>0,1</p></td>
+<td><p>(1)</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetFind</p></td>
@@ -402,7 +402,7 @@ Notez que les **propriétés dynamiques** de l'objet **Recordset** deviennent in
 </tr>
 <tr class="even">
 <td><p>IRowsetResynch</p></td>
-<td><p>0,1</p></td>
+<td><p>(1)</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetScroll</p></td>
@@ -614,7 +614,7 @@ Notez que les **propriétés dynamiques** de l'objet **Recordset** deviennent in
 </tr>
 <tr class="odd">
 <td><p>Private1</p></td>
-<td><p>disque</p></td>
+<td><p>(5)</p></td>
 </tr>
 <tr class="even">
 <td><p>Quick Restart</p></td>

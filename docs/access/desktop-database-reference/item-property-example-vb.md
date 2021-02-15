@@ -19,7 +19,7 @@ ms.locfileid: "32290914"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors*** de la base de données  ***Pubs *** avec une commande paramétrée.
+Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors*** de la base de données  ***Pubs*** avec une commande paramétrée.
 
 Le paramètre de la commande émise sur la base de données est accédé à partir de la collection [Parameters](parameters-collection-ado.md) de l’objet [Command](command-object-ado.md) par index et par nom. Les champs de l’objet [Recordset](recordset-object-ado.md) retourné sont ensuite accédés à partir de la collection [Fields](fields-collection-ado.md) de cet objet par index et par nom.
 

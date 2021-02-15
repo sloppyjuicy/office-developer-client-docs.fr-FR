@@ -22,18 +22,18 @@ Déplace l’entité représentée par un objet [Record](record-object-ado.md) v
 
 ## <a name="syntax"></a>Syntaxe
 
-*Enregistrement*. MoveRecord (*source*, *destination*, *nom d'utilisateur*, *mot de passe*, *options*, *Async*)
+*Enregistrement*. MoveRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Source* |Facultatif. Valeur de type **String** qui contient une URL identifiant l'objet **Record** à déplacer. Si *Source* est omis ou spécifie une chaîne vide, l'objet représenté par cet **enregistrement** est déplacé. Par exemple si l'objet **Record** représente un fichier, le contenu du fichier est déplacé vers l'emplacement spécifié par le paramètre *Destination*.|
-|*Destination* |Facultatif. Valeur de type **String ** qui contient une URL spécifiant l'emplacement vers lequel déplacer *Source *.|
+|*Destination* |Facultatif. Valeur de type **String** qui contient une URL spécifiant l'emplacement vers lequel déplacer *Source*.|
 |*UserName* |Facultatif. Valeur de type **String** contenant l'ID utilisateur, qui le cas échéant, autorise l'accès à *Destination*.|
 |*Password* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, vérifie le paramètre *NomUtilisateur*.|
 |*Options* |Facultatif. Valeur [MoveRecordOptionsEnum](moverecordoptionsenum.md) dont la valeur par défaut est **adMoveUnspecified**. Spécifie le comportement de cette méthode.|
-|*Async* |Facultatif. Valeur de **type Boolean** qui, lorsqu'elle est **true**, indique que cette opération doit être asynchrone.|
+|*Async* |Facultatif. Valeur **boolénaire** qui, lorsque la valeur **est True,** spécifie que cette opération doit être asynchrone.|
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -53,6 +53,6 @@ Certain attributes of the **Record** object, such as the [ParentURL](parenturl-p
 Si l’objet **Record** a été obtenu d’un objet [Recordset](recordset-object-ado.md), le nouvel emplacement du fichier ou répertoire déplacé n’est pas directement reflété dans l’objet **Recordset**. Actualisez l’objet **Recordset** en le fermant puis en le rouvrant.
 
 > [!NOTE]
-> Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
+> Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [URL absolues et relatives.](absolute-and-relative-urls.md)
 
 

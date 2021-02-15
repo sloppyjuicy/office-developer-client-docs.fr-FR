@@ -1,5 +1,5 @@
 ---
-title: Propriétés paraMeters (DAO)
+title: Parameters properties (DAO)
 TOCTitle: Properties
 ms:assetid: 5ab55b3c-f745-40a7-a31b-ebd46aadbb70
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124957(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287796"
 ---
-# <a name="parameters-properties-dao"></a>Propriétés paraMeters (DAO)
+# <a name="parameters-properties-dao"></a>Parameters properties (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-- [ParaMeters. Count, propriété (DAO)](parameters-count-property-dao.md)
+- [Parameters.Count, propriété (DAO)](parameters-count-property-dao.md)
 

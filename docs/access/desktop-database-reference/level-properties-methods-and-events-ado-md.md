@@ -1,5 +1,5 @@
 ---
-title: Level, propriétés, méthodes et événements (ADO MD)
+title: Level properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 68fd04d9-f0e7-4425-7388-802337a6c1da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249413(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290012"
 ---
-# <a name="level-properties-methods-and-events-ado-md"></a>Level, propriétés, méthodes et événements (ADO MD)
+# <a name="level-properties-methods-and-events-ado-md"></a>Level properties, methods, and events (ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -32,7 +32,7 @@ ms.locfileid: "32290012"
 
 Aucun.
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

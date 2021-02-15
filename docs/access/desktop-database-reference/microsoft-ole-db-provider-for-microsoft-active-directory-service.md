@@ -89,7 +89,7 @@ Dans la syntaxe suivante, une chaîne de texte de commande en quatre parties est
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Racine</em></p></td>
+<td><p><em>Root</em></p></td>
 <td><p>Indique l'objet <strong>ADsPath</strong> à partir duquel lancer la recherche (c'est-à-dire la racine de la recherche).</p></td>
 </tr>
 <tr class="even">
@@ -102,9 +102,9 @@ Dans la syntaxe suivante, une chaîne de texte de commande en quatre parties est
 </tr>
 <tr class="even">
 <td><p><em>Scope</em></p></td>
-<td><p>Facultatif. <strong>Chaîne</strong> spécifiant l'étendue de la recherche. Il peut s'agir de l'une des options suivantes: base — recherche uniquement l'objet de base (racine de la recherche).<br />
-OneLevel — Rechercher un seul niveau.<br />
-Subtree: recherche dans l'intégralité de la sous-arborescence.</p></td>
+<td><p>Facultatif. <strong>Chaîne</strong> spécifiant l'étendue de la recherche. Il peut s’agit de l’une des opérations suivantes : Base — Rechercher uniquement l’objet de base (racine de la recherche).<br />
+OneLevel : recherchez un seul niveau.<br />
+Sous-arbre : recherchez l’intégralité de la sous-arbre.</p></td>
 </tr>
 </tbody>
 </table>
@@ -149,27 +149,27 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <tbody>
 <tr class="odd">
 <td><p><a href="absolutepage-property-ado.md">AbsolutePage</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="absoluteposition-property-ado.md">AbsolutePosition</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado.md">ActiveConnection</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">BOF</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="bookmark-property-ado.md">Bookmark</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cursorlocation-property-ado.md">CursorLocation</a></p></td>
@@ -185,47 +185,47 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">EOF</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="filter-property-ado.md">Filtre</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="locktype-property-ado.md">LockType</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="marshaloptions-property-ado.md">MarshalOptions,</a></p></td>
+<td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
 <td><p>Non disponible</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="pagecount-property-ado.md">PageCount</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="pagesize-property-ado.md">PageSize</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="recordcount-property-ado.md">RecordCount</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="source-property-ado-recordset.md">Source</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
-<td><p>en lecture seule</p></td>
+<td><p><a href="status-property-ado-recordset.md">État</a></p></td>
+<td><p>lecture seule</p></td>
 </tr>
 </tbody>
 </table>
@@ -241,7 +241,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <thead>
 <tr class="header">
 <th><p>Méthode</p></th>
-<th><p>Possibles?</p></th>
+<th><p>Disponible ?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -270,7 +270,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Supprimer</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
@@ -282,7 +282,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Méthodes</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a></p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
@@ -314,7 +314,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Compatible</a></p></td>
+<td><p><a href="supports-method-ado.md">Prend en charge</a></p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">

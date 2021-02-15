@@ -33,7 +33,7 @@ SHAPE {SELECT * FROM customer}
  RELATE cust_id TO PARAMETER 0) 
 ```
 
-Les tables parent et enfant ont un nom de colonne en commun,\_ID client *.* La *commande Child* a un espace réservé «?» auquel la clause relate fait référence (c'est-à-dire, «... PARAMÈTRE 0).
+Les tables parent et enfant ont un nom de colonne en commun, \_ id cust *.* La *commande enfant a* un espace réservé « ? », auquel la clause RELATE fait référence (autrement dit, « ... PARAMÈTRE 0 « ).
 
 > [!NOTE]
 > [!REMARQUE] La clause PARAMETER appartient uniquement à la syntaxe de commande de mise en forme. Elle n'est associée ni à l'objet [Parameter](parameter-object-ado.md), ni à la collection [Parameters](parameters-collection-ado.md) ADO.
@@ -44,9 +44,9 @@ Lors de l'exécution de la commande de mise en forme paramétrée, l'opération 
 
 2.  Une colonne de chapitre est ajoutée au **jeu d'enregistrements** parent.
 
-3.  Lorsque vous accédez à la colonne de chapitre d'une ligne parente, la *commande Child-Command* est exécutée à l'aide\_de la valeur de l'ID Customer. cust comme valeur du paramètre.
+3.  Lorsque vous accédez à la colonne de chapitre d’une ligne parente, la *commande* enfant est exécutée à l’aide de la valeur de l’ID customer.cust comme valeur \_ du paramètre.
 
-4.  Toutes les lignes du jeu de lignes du fournisseur de données créées à l’étape 3 sont utilisées pour renseigner le **jeu d’enregistrements** enfant. Dans cet exemple, il s'agit de toutes les lignes de la table Orders dont\_l'ID cust est égal à la valeur de\_Customer. Customer ID. Par défaut, les **jeux d’enregistrements** enfant sont mis en cache sur le client jusqu’à ce que toutes les références au **jeu d’enregistrements** parent soient extraites. Pour modifier ce comportement, affectez la **valeur false**aux**lignes enfants du cache** de [propriétés dynamiques](ado-dynamic-property-index.md)du **jeu d'enregistrements** .
+4.  Toutes les lignes du jeu de lignes du fournisseur de données créées à l’étape 3 sont utilisées pour renseigner le **jeu d’enregistrements** enfant. Dans cet exemple, il s’agit de toutes les lignes de la table Orders dans lesquelles l’ID cust est égal à la valeur \_ de customer.cust \_ id. Par défaut, les **jeux d’enregistrements** enfant sont mis en cache sur le client jusqu’à ce que toutes les références au **jeu d’enregistrements** parent soient extraites. Pour modifier ce comportement, définissez la propriété dynamique **Recordset** [](ado-dynamic-property-index.md)**Cache Child Rows** sur **False**.
 
 5.  Une référence aux lignes enfant extraites (c'est-à-dire le chapitre du **jeu d'enregistrements** enfant) est placée dans la colonne de chapitre de la ligne active du **jeu d'enregistrements** parent.
 
@@ -69,11 +69,11 @@ Rst1.MovePrevious ' RstChild now holds cached rs, saving round trip.
 
 Dans une requête avec deux paramètres ou plus, un enfant mis en cache est utilisé uniquement si toutes les valeurs de paramètre correspondent aux valeurs mises en cache.
 
-## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Commandes paramétrées et relations enfants complexes
+## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Commandes paramétisées et relations enfants parent complexes
 
-Les commandes paramétrées permettent non seulement d'améliorer les performances en terme de hiérarchie de type équi-jointure, mais elles peuvent également être utilisées pour la prise en charge de relations parent-enfant plus complexes. Par exemple, considérez une base de données de la ligue avec deux tables: une qui se\_compose des équipes\_(ID d'équipe, nom de l'équipe) et\_l'autre des\_jeux (date, équipe d'accueil, équipe de visite).
+Les commandes paramétrées permettent non seulement d'améliorer les performances en terme de hiérarchie de type équi-jointure, mais elles peuvent également être utilisées pour la prise en charge de relations parent-enfant plus complexes. Par exemple, envisagez une base de données Little League avec deux tables : l’une constituée des équipes (ID d’équipe, nom de l’équipe) et l’autre des jeux (date, équipe à domicile, équipe de \_ \_ \_ \_ visite).
 
-Avec une hiérarchie non paramétrée, vous ne pouvez en aucun cas relier les deux tables de telle sorte que le **jeu d'enregistrements** enfant de chaque équipe contienne l'ensemble de son calendrier. Vous pouvez créer des chapitres contenant le calendrier à domicile ou le calendrier à l'extérieur, mais pas les deux. Ceci s'explique par le fait que la clause RELATE vous limite à des relations parent-enfant de type (pc1=cc1) AND (pc2=pc2). PAR conséquent, si votre commande inclut «associer\_l'ID d'\_équipe à l'\_équipe personnelle,\_l'ID d'équipe à l'équipe de visite», vous n'obtiendrez que les jeux dans lesquels une équipe s'était jouée. Ce que vous souhaitez est «(\_ID d'équipe\_= Accueil Team) ou\_(ID d'\_équipe = équipe de visite)», mais le fournisseur de formes ne prend pas en charge la clause or.
+Avec une hiérarchie non paramétrée, vous ne pouvez en aucun cas relier les deux tables de telle sorte que le **jeu d'enregistrements** enfant de chaque équipe contienne l'ensemble de son calendrier. Vous pouvez créer des chapitres contenant le calendrier à domicile ou le calendrier à l'extérieur, mais pas les deux. Ceci s'explique par le fait que la clause RELATE vous limite à des relations parent-enfant de type (pc1=cc1) AND (pc2=pc2). Ainsi, si votre commande incluait « RELATE \_ team id TO home team, team id TO visiting team », vous n’obtenez que les jeux où une équipe joue \_ elle-même. \_ \_ Ce que vous souhaitez, c’est « (team \_ id=home \_ team) OR (team \_ id=visiting team) », mais le fournisseur Shape ne prend pas en charge la \_ clause OR.
 
 Pour obtenir le résultat souhaité, vous pouvez utiliser une commande paramétrée. Par exemple :
 

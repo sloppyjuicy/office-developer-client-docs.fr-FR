@@ -1,5 +1,5 @@
 ---
-title: Propriétés ADO (ActiveX Data Objects)
+title: ActiveX data objects (ADO)
 TOCTitle: ADO properties
 ms:assetid: 04f08f22-6327-c603-229e-d06a9f1c0d83
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
@@ -39,7 +39,7 @@ ms.locfileid: "32283232"
 <td><p>Indique la position ordinale de l'enregistrement actif d'un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="activecommand-property-ado.md">ActiveCommand,</a></p></td>
+<td><p><a href="activecommand-property-ado.md">ActiveCommand</a></p></td>
 <td><p>Indique l'objet <strong>Command </strong> qui a créé l'objet <strong>Recordset </strong> associé.</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ ms.locfileid: "32283232"
 <td><p>Indique le nombre d'enregistrements d'un objet <strong>Recordset</strong> qui sont placés dans le cache local.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="chapter-property-ado.md">Ch</a></p></td>
+<td><p><a href="chapter-property-ado.md">Chapitre</a></p></td>
 <td><p>Obtient ou définit un objet <strong>Chapter</strong> OLE DB à partir de/sur un objet <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -135,7 +135,7 @@ ms.locfileid: "32283232"
 <td><p>Indique l'état de modification de l'enregistrement actif.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="eos-property-ado.md">ÉTHOXY</a></p></td>
+<td><p><a href="eos-property-ado.md">EOS</a></p></td>
 <td><p>Indique si la position actuelle est à la fin du flux.</p></td>
 </tr>
 <tr class="even">
@@ -155,7 +155,7 @@ ms.locfileid: "32283232"
 <td><p>Indique le niveau d'isolation d'un objet <strong>Connection</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Élément</a></p></td>
 <td><p>Spécifie un membre spécifique d'une collection, référencé par son nom ou un nombre ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -167,7 +167,7 @@ ms.locfileid: "32283232"
 <td><p>Indique le type de verrou appliqué aux enregistrements pendant leur modification.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="marshaloptions-property-ado.md">MarshalOptions,</a></p></td>
+<td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
 <td><p>Indique les enregistrements à remarshaler vers le serveur.</p></td>
 </tr>
 <tr class="even">
@@ -183,7 +183,7 @@ ms.locfileid: "32283232"
 <td><p>Indique le nom d'un objet.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="nativeerror-property-ado.md">Native</a></p></td>
+<td><p><a href="nativeerror-property-ado.md">NativeError</a></p></td>
 <td><p>Indique le code d'erreur spécifique au fournisseur pour un objet <strong>Error </strong> donné.</p></td>
 </tr>
 <tr class="even">
@@ -219,11 +219,11 @@ ms.locfileid: "32283232"
 <td><p>Indique la position actuelle d'un enregistrement dans un objet <strong>Stream </strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="precision-property-ado.md">Dell</a></p></td>
+<td><p><a href="precision-property-ado.md">Précision</a></p></td>
 <td><p>Indique le degré de précision des valeurs numériques dans un objet <strong>Parameter</strong> ou des objets <strong>Field</strong> numériques.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="prepared-property-ado.md">Préalable</a></p></td>
+<td><p><a href="prepared-property-ado.md">Préparé</a></p></td>
 <td><p>Indique si une version compilée d'une commande doit être enregistrée avant l'exécution de celle-ci.</p></td>
 </tr>
 <tr class="even">
@@ -247,11 +247,11 @@ ms.locfileid: "32283232"
 <td><p>Obtient ou définit un objet <strong>RowPosition</strong> OLE DB à partir de/sur un objet <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">DSO</a></p></td>
+<td><p><a href="rowset-property-ado.md">Rowset</a></p></td>
 <td><p>Obtient ou définit un objet <strong>Rowset</strong> OLE DB à partir de/sur un objet <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="size-property-ado.md">Size</a></p></td>
+<td><p><a href="size-property-ado.md">Taille</a></p></td>
 <td><p>Indique la taille maximale en octets ou en caractères d'un objet <strong>Parameter</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -275,11 +275,11 @@ ms.locfileid: "32283232"
 <td><p>Indique la source des données dans un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="sqlstate-property-ado.md">InstructionSQL</a></p></td>
+<td><p><a href="sqlstate-property-ado.md">SQLState</a></p></td>
 <td><p>Indique l'état SQL d'un objet <strong>Error</strong> donné.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
 <td><p>Indique, pour tous les objets applicables, si l'état de l'objet est ouvert ou fermé. Indique, pour tous les objets applicables exécutant une méthode asynchrone, si l'objet présente actuellement un état de connexion, d'exécution ou d'extraction.</p></td>
 </tr>
 <tr class="even">
@@ -291,11 +291,11 @@ ms.locfileid: "32283232"
 <td><p>Indique l'état de l'enregistrement actif concernant les mises à jour par lot ou les opérations en bloc.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="stayinsync-property-ado.md">StayInSync,</a></p></td>
+<td><p><a href="stayinsync-property-ado.md">StayInSync</a></p></td>
 <td><p>Indique, dans un objet <strong>Recordset</strong> hiérarchique, si la référence aux enregistrements enfants sous-jacents (c'est-à-dire, le <em>chapitre</em>) change en même temps que la position de la ligne parente.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado.md">Type</a></p></td>
+<td><p><a href="type-property-ado.md">Type (Type)</a></p></td>
 <td><p>Indique le type opérationnel ou le type de données d'un objet <strong>Parameter</strong>, <strong>Field</strong> ou <strong>Property</strong>.</p></td>
 </tr>
 <tr class="even">

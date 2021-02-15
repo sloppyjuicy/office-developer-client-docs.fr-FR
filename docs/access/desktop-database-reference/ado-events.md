@@ -1,5 +1,5 @@
 ---
-title: Événements ADO (ActiveX Data Objects)
+title: ActiveX Data Objects (ADO)
 TOCTitle: ADO events
 ms:assetid: 84ca9525-99cb-4ba6-2a4d-172414b8f0cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)
@@ -55,11 +55,11 @@ ms.locfileid: "32283337"
 <td><p>Appelé à la fin de l'exécution d'une commande.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="fetchcomplete-event-ado.md">FetchComplete,</a></p></td>
+<td><p><a href="fetchcomplete-event-ado.md">FetchComplete</a></p></td>
 <td><p>Appelé après que tous les enregistrements d'une opération asynchrone de longue durée ont été récupérés dans l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="fetchprogress-event-ado.md">FetchProgress,</a></p></td>
+<td><p><a href="fetchprogress-event-ado.md">FetchProgress</a></p></td>
 <td><p>Appelé régulièrement au cours d'une opération asynchrone de longue durée pour indiquer le nombre de lignes récupérées jusque là dans l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -67,7 +67,7 @@ ms.locfileid: "32283337"
 <td><p>Appelé après que la valeur d'un ou plusieurs objets <strong>Field</strong> a changé.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="infomessage-event-ado.md">InfoMessage,</a></p></td>
+<td><p><a href="infomessage-event-ado.md">InfoMessage</a></p></td>
 <td><p>Appelé lorsqu'un avertissement se produit au cours d'une opération <strong>ConnectionEvent</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -83,7 +83,7 @@ ms.locfileid: "32283337"
 <td><p>Appelé après la modification de l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">RollbackTransComplete,</a></p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">RollbackTransComplete</a></p></td>
 <td><p>Appelé après l'opération <strong>RollbackTrans</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -103,7 +103,7 @@ ms.locfileid: "32283337"
 <td><p>Appelé avant le début d'une connexion.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="willexecute-event-ado.md">WillExecute,</a></p></td>
+<td><p><a href="willexecute-event-ado.md">WillExecute</a></p></td>
 <td><p>Appelé juste avant qu'une commande en attente ne s'exécute sur cette connexion pour permettre à l'utilisateur d'examiner et de modifier les paramètres de la commande.</p></td>
 </tr>
 <tr class="even">

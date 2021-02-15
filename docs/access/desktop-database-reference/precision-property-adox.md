@@ -1,5 +1,5 @@
 ---
-title: PreCision, propriété (ADOX)
+title: Precision, propriété (ADOX)
 TOCTitle: Precision property (ADOX)
 ms:assetid: 5d8ca497-572a-52e0-18aa-f82deaea0813
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249330(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287481"
 ---
-# <a name="precision-property-adox"></a>PreCision, propriété (ADOX)
+# <a name="precision-property-adox"></a>Precision, propriété (ADOX)
 
 
 **S’applique à** : Access 2013, Office 2013

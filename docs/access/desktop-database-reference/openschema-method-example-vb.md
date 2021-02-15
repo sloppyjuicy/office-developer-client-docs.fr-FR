@@ -78,7 +78,7 @@ End Sub
 
 <br/>
 
-Cet exemple spécifie une\_contrainte de requête de type table dans l'argument ***critère*** de la méthode **OpenSchema** . Seules les informations de schéma des affichages spécifiés dans la base de données  ***Pubs *** sont affichées. L'exemple affiche ensuite le nom et le type des différentes tables.
+Cet exemple spécifie une contrainte de requête TABLE \_ TYPE  dans l’argument Critères de la méthode **OpenSchema.** Seules les informations de schéma des affichages spécifiés dans la base de données  ***Pubs*** sont affichées. L'exemple affiche ensuite le nom et le type des différentes tables.
 
 ```vb 
  

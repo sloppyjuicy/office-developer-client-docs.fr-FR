@@ -1,5 +1,5 @@
 ---
-title: MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes (RDS)
+title: Méthodes MoveFirst, MoveLast, MoveNext et MovePrevious (RDS)
 TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods (RDS)
 ms:assetid: 32ef8fa9-c096-b4e7-3396-b88a6a9bd1a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249101(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288685"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-rds"></a>MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes (RDS)
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-rds"></a>Méthodes MoveFirst, MoveLast, MoveNext et MovePrevious (RDS)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,17 +22,17 @@ Accède au premier ou dernier enregistrement, à l’enregistrement suivant ou p
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. Recordset. { MoveFirst | MoveLast | MoveNext | MovePrevious
+*DataControl*. Recordset. { MoveFirst | MoveLast | MoveNext | MovePrevious}
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser les méthodes **Move** avec l' **objet RDS. DataControl** pour parcourir les enregistrements de données dans les contrôles liés aux données d'une page Web. 
+Vous pouvez utiliser les **méthodes Move** avec **rdS. Objet DataControl** pour naviguer dans les enregistrements de données dans les contrôles liés aux données sur une page web. 
 
 Supposons, par exemple, que vous affichez un objet **Recordset** dans une grille en le liant à un objet **RDS.DataControl**. Vous pouvez ensuite inclure des boutons Premier, Dernier, Suivant et Précédent sur lesquels les utilisateurs peuvent cliquer pour accéder au premier ou dernier enregistrement, ou encore à l'enregistrement suivant ou précédent de l'objet **Recordset** affiché. Pour ce faire, appelez les méthodes **MoveFirst**, **MoveLast**, **MoveNext** et **MovePrevious** de l'objet **RDS.DataControl** dans les procédures onClick, respectivement pour les boutons Premier, Dernier, Suivant et Précédent. L' [exemple du Carnet d'adresses](address-book-navigation-buttons.md) illustre cette procédure.
 

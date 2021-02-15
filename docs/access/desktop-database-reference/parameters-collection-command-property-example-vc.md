@@ -1,5 +1,5 @@
 ---
-title: ParaMeters, collection-exemple de propriété Command (VC + +)
+title: Parameters, collection - Exemple de propriété Command (VC++)
 TOCTitle: Parameters Collection, Command property example (VC++)
 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287908"
 ---
-# <a name="parameters-collection-command-property-example-vc"></a>ParaMeters, collection-exemple de propriété Command (VC + +)
+# <a name="parameters-collection-command-property-example-vc"></a>Parameters, collection - Exemple de propriété Command (VC++)
 
 
 **S’applique à** : Access 2013, Office 2013

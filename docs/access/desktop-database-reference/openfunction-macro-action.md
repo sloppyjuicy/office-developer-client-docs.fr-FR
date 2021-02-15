@@ -27,7 +27,7 @@ Dans un projet Access, vous pouvez utiliser l'action **OuvrirFonction** pour ouv
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **OuvrirFonction** possède les arguments suivants.
 
@@ -45,7 +45,7 @@ L’action **OuvrirFonction** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la fonction</strong></p></td>
-<td><p>Nom de la fonction définie par l’utilisateur à ouvrir. La zone <strong>Nom de la fonction</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro affiche toutes les fonctions définies par l’utilisateur dans la base de données active. Il s'agit d'un argument obligatoire. Si vous exécutez une macro contenant l'action <strong>fonction</strong> dans une base de données bibliothèque, Microsoft Access recherche d'abord la fonction portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom de la fonction définie par l’utilisateur à ouvrir. La zone <strong>Nom de la fonction</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro affiche toutes les fonctions définies par l’utilisateur dans la base de données active. Il s’agit d’un argument obligatoire. Si vous exécutez <strong></strong> une macro contenant l’action Fonction dans une base de données bibliothèque, Microsoft Access recherche d’abord la fonction de ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

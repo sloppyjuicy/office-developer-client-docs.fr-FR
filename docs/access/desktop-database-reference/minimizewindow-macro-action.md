@@ -22,7 +22,7 @@ ms.locfileid: "32288882"
 
 **S’applique à** : Access 2013, Office 2013
 
-Si Access est configuré pour utiliser des fenêtres superposées au lieu des documents à onglets, vous pouvez utiliser l'action **réduirefenêtre** pour réduire la fenêtre active à la taille d'une petite barre de titre située en bas de la fenêtre Access.
+Si Access est configuré pour utiliser des fenêtres superposées au lieu de documents à onglets, vous pouvez utiliser l’action **RéduireWindow** pour réduire la fenêtre active à une petite barre de titre en bas de la fenêtre Access.
 
 > [!NOTE]
 > [!REMARQUE] Cette action ne peut pas être appliquée à des fenêtres Code de Visual Basic Editor. Pour plus d'informations sur la modification des fenêtres Code, consultez la rubrique de la propriété **WindowState**.

@@ -21,12 +21,12 @@ ms.locfileid: "32287887"
 ## <a name="properties"></a>Propriétés
 
 - [Propriété Count](count-property-ado.md)
-- [Propriété Item](item-property-ado.md)
+- [Item, propriété](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes
 
 - [Append, méthode](append-method-ado.md)
-- [Delete, méthode (collection paraMeters ADO)](delete-method-ado-parameters-collection.md)
+- [Delete, méthode (collection Parameters ADO)](delete-method-ado-parameters-collection.md)
 - [Refresh, méthode](refresh-method-ado.md)
 
 ## <a name="events"></a>Événements

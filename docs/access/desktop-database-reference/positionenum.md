@@ -70,13 +70,13 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. position. BOF</p></td>
+<td><p>AdoEnums.Position.BOF</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. position. EOF</p></td>
+<td><p>AdoEnums.Position.EOF</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. position. unKNOWn</p></td>
+<td><p>AdoEnums.Position.UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

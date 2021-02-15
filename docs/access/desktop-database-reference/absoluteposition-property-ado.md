@@ -26,7 +26,7 @@ Définit ou renvoie une valeur de type **Long** comprise entre 1 et le nombre d�
 
 ## <a name="remarks"></a>Remarques
 
-Pour définir la propriété **AbsolutePosition** , ADO requiert que le fournisseur OLE DB que vous utilisez implémente l'interface IRowsetLocate.
+Pour définir la **propriété AbsolutePosition,** ADO exige que le fournisseur OLE DB que vous utilisez implémente l’interface IRowsetLocate.
 
 L'accès à la propriété **AbsolutePosition** d'un objet **Recordset** ouvert avec un curseur dynamique ou avant uniquement génère une erreur **adErrFeatureNotAvailable**. Avec les autres types de curseur, la position correcte est retournée pour autant que le fournisseur prenne en charge l'interface IRowsetScroll. Si le fournisseur ne prend pas en charge l'interface *IRowsetScroll*, la propriété est définie sur **adPosUnknown**. Reportez-vous à la documentation pour déterminer si l'interface *IRowsetScroll* est prise en charge.
 
@@ -34,10 +34,10 @@ La propriété **AbsolutePosition** permet d'accéder à un enregistrement donn�
 
 Comme la propriété [AbsolutePage](absolutepage-property-ado.md), la propriété **AbsolutePosition** est en base 1 et est égale à 1 lorsque l'enregistrement actif est le premier enregistrement de l'objet **Recordset**. Vous pouvez obtenir le nombre total d'enregistrements dans l'objet **Recordset** à partir de la propriété [RecordCount](recordcount-property-ado.md).
 
-Lorsque vous définissez la propriété **AbsolutePosition** , même si elle correspond à un enregistrement dans le cache actuel, ADO recharge le cache avec un nouveau groupe d'enregistrements en commençant par l'enregistrement que vous avez spécifié. La propriété [CacheSize](cachesize-property-ado.md) détermine la taille de ce groupe.
+Lorsque vous définissez la propriété **AbsolutePosition,** même s’il s’agit d’un enregistrement dans le cache actuel, ADO recharge le cache avec un nouveau groupe d’enregistrements en commençant par l’enregistrement que vous avez spécifié. La propriété [CacheSize](cachesize-property-ado.md) détermine la taille de ce groupe.
 
 
 > [!NOTE]
-> [!REMARQUE] Vous ne pouvez pas utiliser la propriété **AbsolutePosition** en tant que numéro d'enregistrement de substitution. La position d'un enregistrement donné change lorsque vous supprimez un enregistrement précédent. Rien ne garantit qu'un enregistrement donné possédera la même valeur **AbsolutePosition** si l'objet **Recordset** est actualisé ou rouvert. Les signets sont toujours le moyen recommandé pour conserver et renvoyer à une position donnée, et sont le seul moyen de positionner tous les types d' **** objets Recordset.
+> [!REMARQUE] Vous ne pouvez pas utiliser la propriété **AbsolutePosition** en tant que numéro d'enregistrement de substitution. La position d'un enregistrement donné change lorsque vous supprimez un enregistrement précédent. Rien ne garantit qu'un enregistrement donné possédera la même valeur **AbsolutePosition** si l'objet **Recordset** est actualisé ou rouvert. Les signets sont toujours le moyen recommandé de conserver et de revenir à une position donnée, et sont le seul moyen de se positionner sur tous les types d’objets **Recordset.**
 
 

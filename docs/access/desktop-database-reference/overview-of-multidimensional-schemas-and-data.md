@@ -66,24 +66,24 @@ Chaque niveau est constitué de membres, comme suit :
 
   - Continents = {Amérique du Nord, Europe}
 
-  - Pays = {Canada, USA, UK, Germany}
+  - Pays = {Canada, États-Unis, Royaume-Uni, Allemagne}
 
-  - Régions = {Canada-East, Canada-West, USA-ne, USA-NW, USA-SE, USA-SW, Angleterre, Irlande, Écosse, pays de Galles, Allemagne-Nord, Allemagne-sud}
+  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Royaume-Uni, Irlande, Premier pays, Allemagne-Nord, Allemagne-Sud}
 
-  - Villes = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, Londres, Dover, Glasgow, Édimbourg, Cardiff, Pembroke, Belfast, Berlin, Hambourg, Munich, Stuttgart}
+  - Cities = {Ottawa, Toronto, Vancouver, Seattle, Seattle, Jeux, Los Seattle, Magasins, Shreveport, Centre d’actualités, États-Unis, États-Unis, New York, Londres, Dover, Jeux, Magasins, Magasins, Magasins, Beapa, Berlin, Centre d’actualités, États-Unis, États-Unis}
 
 ## <a name="members"></a>Members
 
 Les membres inférieurs d’une hiérarchie n’ont pas d’enfants et les membres supérieurs n’ont pas de parents. Tous les autres membres ont au moins un parent et un enfant. Par exemple, une coupure transversale de l’arborescence hiérarchique de la dimension Géographie donne les relations parent-enfant suivantes :
 
-- Tous les (parent de) {Europe, Amérique du Nord}
-- {Amérique du Nord} (parent de) {Canada, USA}
-- USA (parent de) {USA-NE, USA-NW, USA-SE, USA-SW}
-- {USA-NW} (parent de) {Boise, Seattle}
+- {All} (parent de) {Europe, Amérique du Nord}
+- {Amérique du Nord} (parent de) {Canada, États-Unis}
+- {USA} (parent de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA-NW} (parent de) {Bouse, Seattle}
 
 Les membres peuvent faire partie d'une ou plusieurs hiérachies par dimension.
 
-Cet exemple illustre également une autre caractéristique: certains membres du niveau semaine de la hiérarchie année-semaine n'apparaissent dans aucun niveau de la hiérarchie année-trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
+Cet exemple illustre également une autre caractéristique : certains membres du niveau Semaine de la hiérarchie Year-Week n’apparaissent dans aucun niveau de la Year-Quarter hiérarchique. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
 
 ## <a name="understanding-multidimensional-schemas"></a>Présentation des schémas multidimensionnels
 
@@ -133,25 +133,25 @@ Chaque niveau est constitué de membres, comme suit :
 
 - Continents = {Amérique du Nord, Europe}
 
-- Pays = {Canada, USA, UK, Germany}
+- Pays = {Canada, États-Unis, Royaume-Uni, Allemagne}
 
-- Régions = {Canada-East, Canada-West, USA-ne, USA-NW, USA-SE, USA-SW, Angleterre, Irlande, Écosse, pays de Galles, Allemagne-Nord, Allemagne-sud}
+- Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Royaume-Uni, Irlande, Premier pays, Allemagne-Nord, Allemagne-Sud}
 
-- Villes = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, Londres, Dover, Glasgow, Édimbourg, Cardiff, Pembroke, Belfast, Berlin, Hambourg, Munich, Stuttgart}
+- Cities = {Ottawa, Toronto, Vancouver, Seattle, Seattle, Jeux, Los Seattle, Cambridge, Shreveport, Centre d’actualités, États-Unis, États-Unis, New York, Londres, Dover, Jeux, Jeux, Magasins, Magasins, Beapa, Berlin, Centre d’actualités, États-Unis, États-Unis}
 
 ## <a name="members"></a>Members
 
 Les membres inférieurs d’une hiérarchie n’ont pas d’enfants et les membres supérieurs n’ont pas de parents. Tous les autres membres ont au moins un parent et un enfant. Par exemple, une coupure transversale de l’arborescence hiérarchique de la dimension Géographie donne les relations parent-enfant suivantes :
 
-- Tous les (parent de) {Europe, Amérique du Nord}
+- {All} (parent de) {Europe, Amérique du Nord}
 
-- {Amérique du Nord} (parent de) {Canada, USA}
+- {Amérique du Nord} (parent de) {Canada, États-Unis}
 
-- USA (parent de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA} (parent de) {USA-NE, USA-NW, USA-SE, USA-SW}
 
-- {USA-NW} (parent de) {Boise, Seattle}
+- {USA-NW} (parent de) {Bouse, Seattle}
 
 Les membres peuvent faire partie d'une ou plusieurs hiérachies par dimension.
 
-Cet exemple illustre également une autre caractéristique: certains membres du niveau semaine de la hiérarchie année-semaine n'apparaissent dans aucun niveau de la hiérarchie année-trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
+Cet exemple illustre également une autre caractéristique : certains membres du niveau Semaine de la hiérarchie Year-Week n’apparaissent dans aucun niveau de la Year-Quarter hiérarchique. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
 

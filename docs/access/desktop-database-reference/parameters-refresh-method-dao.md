@@ -1,5 +1,5 @@
 ---
-title: ParaMeters. Refresh, méthode (DAO)
+title: Parameters.Refresh, méthode (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 47db1602-e223-985d-881c-b73e2d26acb7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193228(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287775"
 ---
-# <a name="parametersrefresh-method-dao"></a>ParaMeters. Refresh, méthode (DAO)
+# <a name="parametersrefresh-method-dao"></a>Parameters.Refresh, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Met à jour les objets dans la collection spécifiée pour refléter le schéma 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Intervalle
+*.* Actualiser
 
-*expression* Variable qui représente un objet **** Parameters.
+*expression* Variable qui représente un **objet Parameters.**
 
 ## <a name="remarks"></a>Remarques
 

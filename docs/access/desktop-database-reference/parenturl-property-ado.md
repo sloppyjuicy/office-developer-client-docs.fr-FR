@@ -35,9 +35,9 @@ Supposons que « second » est un sous-dossier de « first ». Ouvrez l'objet **
     record.Open "second"
 ```
 
-À présent, la valeur de la propriété **ParentURL** est la propriété **ParentURL** est «https://first», à savoir **ActiveConnection**.
+À présent, la valeur de la **propriété ParentURL** est la **propriété ParentURL** est « " , identique https://first à **ActiveConnection**.
 
-La source peut également être une URL absolue telle que, "https://first/second". La propriété **ParentURL** est ensuite «https://first», le niveau ci-dessus. La propriété **ParentURL** est ensuite "https://first", le niveau au-dessus de "second".
+La source peut également être une URL absolue telle que « https://first/second ». La **propriété ParentURL** est alors " https://first , le niveau au-dessus. La **propriété ParentURL** est alors « https://first », le niveau au-dessus de « second ».
 
 La valeur de cette propriété peut être nulle si :
 

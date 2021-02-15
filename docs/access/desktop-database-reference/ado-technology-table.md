@@ -18,7 +18,7 @@ ms.locfileid: "32283218"
 
 **S’applique à** : Access 2013, Office 2013
 
-Le tableau suivant répertorie les produits, outils et technologies Microsoft présentés dans le *Guide du programmeUr ADO*. Il fournit également les liens disponibles vers les rubriques de ce guide traitant du sujet.
+Le tableau suivant répertorie les produits, outils et technologies Microsoft présentés dans le guide du *programmeur ADO.* Il fournit également les liens disponibles vers les rubriques de ce guide traitant du sujet.
 
 <table>
 <colgroup>
@@ -33,7 +33,7 @@ Le tableau suivant répertorie les produits, outils et technologies Microsoft pr
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Accès/jet</p></td>
+<td><p>Access/Jet</p></td>
 <td><p><a href="working-with-recordsets.md">Utilisation des jeux d’enregistrements</a><br/><br/><a href="chapter-15-adox-fundamentals.md">Chapitre 15 : Principes fondamentaux d'ADOX</a><br/><br/><a href="microsoft-ole-db-provider-for-microsoft-jet.md">Fournisseur OLE DB pour Microsoft Jet</a><br/><br/></p></td>
 </tr>
 <tr class="even">
@@ -45,7 +45,7 @@ Le tableau suivant répertorie les produits, outils et technologies Microsoft pr
 <td><p><a href="prerequisites-ado-introduction.md">Conditions préalables</a><br/><br/><a href="marking-business-objects-as-safe-for-scripting.md">Objets métier reconnus sûrs pour l'écriture de scripts</a><br/><br/><a href="registering-business-objects-on-the-client-for-use-with-dcom.md">Inscription côté client des objets métier à utiliser avec DCOM</a><br/><br/><a href="setting-dcom-stream-marshaling-format.md">Définition du format pour le marshaling de flux DCOM</a><br/><br/><a href="enabling-a-dll-to-run-on-dcom.md">Configuration d'une DLL pour son exécution sur DCOM</a><br/><br/><a href="running-business-objects-in-component-services.md">Exécution des objets métier dans les services de composants</a><br/><br/></p></td>
 </tr>
 <tr class="even">
-<td><p>Extensions</p></td>
+<td><p>FrontPage</p></td>
 <td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Fournisseur Microsoft OLE DB pour la publication Internet</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +58,7 @@ Le tableau suivant répertorie les produits, outils et technologies Microsoft pr
 </tr>
 <tr class="odd">
 <td><p>Internet Information Services</p></td>
-<td><p><a href="chapter-10-records-and-streams.md">Chapitre 10 : Enregistrements et flux</a><br/><br/><a href="streams-and-persistence.md">Flux et persistance</a><br/><br/><a href="using-ado-for-internet-publishing.md">Utilisation d’ADO pour la publication Internet</a><br/><br/><a href="solutions-for-remote-data-access.md">Solutions pour l'accès à distance aux données</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configuration des serveurs virtuels dans IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Définition du nombre de threads par processeur dans IIS</a><br/><br/><a href="securing-rds-applications.md">Sécurisation des applications RDS</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Erreur du serveur Internet: accès refusé&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">Fournisseur Microsoft OLE DB pour la publication Internet</a><br/><br/><a href="internet-information-services-error-codes.md">Codes d'erreur des services Internet (IIS)</a><br/><br/></p></td>
+<td><p><a href="chapter-10-records-and-streams.md">Chapitre 10 : Enregistrements et flux</a><br/><br/><a href="streams-and-persistence.md">Flux et persistance</a><br/><br/><a href="using-ado-for-internet-publishing.md">Utilisation d’ADO pour la publication Internet</a><br/><br/><a href="solutions-for-remote-data-access.md">Solutions pour l'accès à distance aux données</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configuration des serveurs virtuels dans IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Définition du nombre de threads par processeur dans IIS</a><br/><br/><a href="securing-rds-applications.md">Sécurisation des applications RDS</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Erreur du serveur Internet : accès refusé&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">Fournisseur Microsoft OLE DB pour la publication Internet</a><br/><br/><a href="internet-information-services-error-codes.md">Codes d'erreur des services Internet (IIS)</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>JScript</p></td>
@@ -66,7 +66,7 @@ Le tableau suivant répertorie les produits, outils et technologies Microsoft pr
 </tr>
 <tr class="odd">
 <td><p>ODBC</p></td>
-<td><p><a href="the-role-of-ado-in-microsoft-data-access.md">Rôle d'ADO dans Microsoft Data Access</a><br/><br/><a href="using-the-connection-object-access.md">Utilisation de l’objet Connection</a><br/><br/><a href="using-rds-with-odbc-connection-pooling.md">Utilisation du service RDS avec le regroupement de connexions ODBC</a><br/><br/><a href="microsoft-ole-db-provider-for-odbc.md">Fournisseur Microsoft OLE DB pour ODBC</a><br/><br/></p></td>
+<td><p><a href="the-role-of-ado-in-microsoft-data-access.md">Rôle d’ADO dans Microsoft Data Access </a><br/><br/><a href="using-the-connection-object-access.md">Utilisation de l’objet Connection</a><br/><br/><a href="using-rds-with-odbc-connection-pooling.md">Utilisation du service RDS avec le regroupement de connexions ODBC</a><br/><br/><a href="microsoft-ole-db-provider-for-odbc.md">Fournisseur Microsoft OLE DB pour ODBC</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>OLE DB</p></td>

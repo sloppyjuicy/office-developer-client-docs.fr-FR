@@ -1,5 +1,5 @@
 ---
-title: ParaMeters, collection (ADO)
+title: Parameters, collection (ADO)
 TOCTitle: Parameters collection (ADO)
 ms:assetid: 554387c3-3572-5391-3b24-c7d3443844cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249283(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287943"
 ---
-# <a name="parameters-collection-ado"></a>ParaMeters, collection (ADO)
+# <a name="parameters-collection-ado"></a>Parameters, collection (ADO)
 
 
 **S’applique à** : Access 2013, Office 2013

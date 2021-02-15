@@ -1,5 +1,5 @@
 ---
-title: PerSistance des données (référence de base de données de bureau Access)
+title: Données persistantes (référence de base de données de bureau Access)
 TOCTitle: Persisting data
 ms:assetid: cb8a32f7-2cdc-26ed-c6d4-dd93c1ac37ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)

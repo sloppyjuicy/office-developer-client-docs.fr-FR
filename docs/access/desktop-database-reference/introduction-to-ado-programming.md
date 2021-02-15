@@ -23,14 +23,14 @@ Pour une introduction au Guide du Programmeur Microsoft ActiveX Data Objects (AD
 - [Nouveautés dans ADO](what-s-new-in-ado.md)
 - [Prerequisites (ADO Introduction)](prerequisites-ado-introduction.md)
 - [Famille de bibliothèques ADO](the-ado-family-of-libraries.md)
-- [Rôle d'ADO dans Microsoft Data Access](the-role-of-ado-in-microsoft-data-access.md)
+- [Rôle d’ADO dans Microsoft Data Access](the-role-of-ado-in-microsoft-data-access.md)
 - [Tableau de tâches ADO](ado-task-table.md)
 - [Tableau de technologie ADO](ado-technology-table.md)
 - [Glossaire ADO](ado-glossary.md)
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Accédez à la [section I: objets de données Active X](section-i-activex-data-objects.md).
+Go to [Section I: Active X Data Objects](section-i-activex-data-objects.md).
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: ADO pour Windows Foundation classes (ADO/WFC)
+title: ADO pour Windows Foundation Classes (ADO/WFC)
 TOCTitle: ADO/WFC
 ms:assetid: 73206be8-6515-79e4-e904-cc2d0d59411d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249468(v=office.15)
@@ -64,7 +64,7 @@ ADO for Windows Foundation Classes (ADO/WFC) repose sur le modèle d'événement
     
     L'argument unique est une référence à la classe souhaitée (**this**) et à la méthode dans la classe (**onConnectComplete**).
 
-3.  Ajoutez votre gestionnaire d'événements à une liste de gestionnaires chargés de traiter un type particulier d'événement. Utilisez la méthode avec un nom tel que **addon * * * EventName*(*handler*).
+3.  Ajoutez votre gestionnaire d'événements à une liste de gestionnaires chargés de traiter un type particulier d'événement. Utilisez la méthode avec un nom tel que **addOn***EventName*(*handler*).
 
 4.  ADO/WFC implémente en interne tous les gestionnaires d'événements ADO. Par conséquent, un événement provoqué par une opération **Connection** ou **Recordset** est intercepté par un gestionnaire d'événements ADO/WFC. Le gestionnaire d'événements ADO/WFC transmet les paramètres **ConnectionEvent** ADO à une instance de la classe **ConnectionEvent** ADO/WFC, ou les paramètres **RecordsetEvent** ADO à une instance de la classe **RecordsetEvent** ADO/WFC. Ces classes ADO/WFC consolident les paramètres d'événement ADO ; autrement dit, chaque classe ADO/WFC contient un membre de données pour chaque paramètre de toutes les méthodes **ConnectionEvent** ou **RecordsetEvent** ADO.
 
@@ -79,5 +79,5 @@ ADO for Windows Foundation Classes (ADO/WFC) repose sur le modèle d'événement
 
 6.  À partir de votre gestionnaire d'événements, revenez au gestionnaire ADO/WFC pour l'événement ADO. ADO/WFC copie les membres de données d'événement ADO/WFC pertinents dans les paramètres d'événement ADO, puis le gestionnaire d'événements ADO revient.
 
-7.  Lorsque le traitement est terminé, supprimez votre gestionnaire de la liste des gestionnaires d'événements ADO/WFC. Utilisez la méthode avec un nom tel que **RemoveOn * * * EventName*(*handler*).
+7.  Lorsque le traitement est terminé, supprimez votre gestionnaire de la liste des gestionnaires d'événements ADO/WFC. Utilisez la méthode avec un nom tel que **removeOn***EventName*(*handler*).
 

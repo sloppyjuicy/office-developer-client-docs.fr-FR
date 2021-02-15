@@ -22,7 +22,7 @@ Obtient du fournisseur les informations du schéma de base de données.
 
 ## <a name="syntax"></a>Syntaxe
 
-**Set * ** = **connexion*Recordset. OpenSchema (* QueryType *, *Criteria*, *SchemaID*)
+**Jeu d’enregistrements*  =  Set*** *.* OpenSchema (* QueryType*, *Criteria*, *SchemaID*)
 
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -30,7 +30,7 @@ Retourne un objet [Recordset](recordset-object-ado.md) qui contient les informat
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*QueryType* |Valeur [SchemaEnum](schemaenum.md) qui représente le type de requête de schéma à exécuter.|
 |*Critères* |Facultatif. Tableau de contraintes de requête pour chaque option *TypeRequête*, répertoriée dans **SchemaEnum**.|
@@ -38,7 +38,7 @@ Retourne un objet [Recordset](recordset-object-ado.md) qui contient les informat
 
 ## <a name="remarks"></a>Remarques
 
-La méthode **OpenSchema ** renvoie des informations autodescriptives sur la source de données, telles que les tables figurant dans la source de données, les colonnes des tables et les type de données pris en charge.
+La méthode **OpenSchema** renvoie des informations autodescriptives sur la source de données, telles que les tables figurant dans la source de données, les colonnes des tables et les type de données pris en charge.
 
 L'argument *TypeRequête* est un GUID qui indique les colonnes (schémas) retournés. La spécification OLE DB comporte une liste complète de schémas.
 
@@ -48,7 +48,7 @@ La constante **adSchemaProviderSpecific** est utilisée comme argument *TypeRequ
 
 Les fournisseurs ne doivent pas obligatoirement prendre en charge toutes les requêtes de schéma standard OLE DB. En fait, seules les requêtes **adSchemaTables**, **adSchemaColumns** et **adSchemaProviderTypes** sont requises par la spécification OLE DB. Le fournisseur ne doit pas non plus nécessairement prendre en charge les contraintes de l'argument *Critères* répertoriées ci-dessus pour ces requêtes de schéma.
 
-**Utilisation des services de données à distance** La méthode **OpenSchema** n'est pas disponible pour un objet [Connection](connection-object-ado.md) côté client.
+**Utilisation du service de données à distance** La **méthode OpenSchema** n’est pas disponible sur un objet [Connection](connection-object-ado.md) côté client.
 
 > [!NOTE]
 > Dans Visual Basic, les colonnes qui possèdent un entier non signé de quatre octets (DBTYPE UI4) dans l'objet **Recordset** retourné par la méthode **OpenSchema** de l'objet **Connection** ne peuvent pas être comparées à d'autres variables. Pour plus d'informations sur les types de données OLE DB, consultez le chapitre 13 et l'Annexe A du *Guide de référence du programmeur Microsoft OLE DB*.

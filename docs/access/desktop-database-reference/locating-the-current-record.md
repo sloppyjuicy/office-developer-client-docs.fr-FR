@@ -23,4 +23,4 @@ La position actuelle du curseur dans le **jeu d'enregistrements** délimite la p
 Cette section contient les rubriques suivantes :
 
 - [Décompte des lignes](counting-rows.md)
-- [Limites d'un objet Recordset](the-limits-of-a-recordset.md)
+- [Limites d’un recordset](the-limits-of-a-recordset.md)

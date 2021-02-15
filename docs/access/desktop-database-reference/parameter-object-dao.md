@@ -1,5 +1,5 @@
 ---
-title: Objet Parameter (DAO)
+title: Parameter, objet (DAO)
 TOCTitle: Parameter Object
 ms:assetid: 194efd23-6086-13ac-beb9-c2aec101d6fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845640(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288083"
 ---
-# <a name="parameter-object-dao"></a>Objet Parameter (DAO)
+# <a name="parameter-object-dao"></a>Parameter, objet (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013

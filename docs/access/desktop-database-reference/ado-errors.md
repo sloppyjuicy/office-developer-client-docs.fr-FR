@@ -1,5 +1,5 @@
 ---
-title: Erreurs ADO (ActiveX Data Objects)
+title: ActiveX data objects (ADO)
 TOCTitle: ADO errors
 ms:assetid: 02fcf563-ce2d-9ef7-b8ae-2795f667335a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32283379"
 
 **S’applique à** : Access 2013, Office 2013
 
-Les erreurs ADO sont signalées à votre programme comme des erreurs d'exécution. Vous pouvez utiliser le mécanisme de récupération des erreurs associé à votre langage de programmation pour les récupérer et les gérer. Par exemple, dans Visual Basic, utilisez l'instruction **On Error**. Dans Visual J++, utilisez un bloc **try/catch**. Dans Visual C++, cela dépend de la méthode que vous utilisez pour accéder aux bibliothèques ADO. Avec \#Import, utilisez un bloc **try-catch** . Dans les autres cas, les programmateurs C++ doivent extraire l'objet Error explicitement en appelant **GetErrorInfo**. La procédure Sub Visual Basic suivante illustre la récupération d'une erreur ADO :
+Les erreurs ADO sont signalées à votre programme comme des erreurs d'exécution. Vous pouvez utiliser le mécanisme de récupération des erreurs associé à votre langage de programmation pour les récupérer et les gérer. Par exemple, dans Visual Basic, utilisez l'instruction **On Error**. Dans Visual J++, utilisez un bloc **try/catch**. Dans Visual C++, cela dépend de la méthode que vous utilisez pour accéder aux bibliothèques ADO. Avec \# l’importation, utilisez **un bloc try-catch.** Dans les autres cas, les programmateurs C++ doivent extraire l'objet Error explicitement en appelant **GetErrorInfo**. La procédure Sub Visual Basic suivante illustre la récupération d'une erreur ADO :
 
 ```vb 
  
@@ -77,7 +77,7 @@ End Sub
 ' EndErrorHandlingVB01 
 ```
 
-Cette procédure événementielle **Load de formulaire\_** crée intentionnellement une erreur en tentant d'ouvrir le même objet **Connection** à deux reprises. Lors du deuxième appel de la méthode **Open**, le gestionnaire d'erreurs est activé. Dans ce cas, l'erreur est de type **adErrObjectOpen** et le gestionnaire d'erreurs affiche alors le message suivant avant de reprendre l'exécution du programme :
+Cette **procédure événement de \_ chargement** de formulaire crée intentionnellement une erreur en essayant d’ouvrir le même **objet Connection** deux fois. Lors du deuxième appel de la méthode **Open**, le gestionnaire d'erreurs est activé. Dans ce cas, l'erreur est de type **adErrObjectOpen** et le gestionnaire d'erreurs affiche alors le message suivant avant de reprendre l'exécution du programme :
 
 ```vb 
 Error #3705: Operation is not allowed when the object is open. 

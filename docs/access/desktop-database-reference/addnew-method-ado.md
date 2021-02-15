@@ -22,11 +22,11 @@ Crée un enregistrement pour un objet [Recordset](recordset-object-ado.md) actua
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. AddNew **, *valeurs*
+*recordset*. AddNew *FieldList*, *Values*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*recordset* |Objet **Recordset**.|
 |*FieldList* |Facultatif. Nom unique ou tableau de noms ou de positions ordinales des champs dans le nouvel enregistrement.|

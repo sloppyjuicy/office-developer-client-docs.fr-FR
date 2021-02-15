@@ -1,5 +1,5 @@
 ---
-title: Parameter. direction, propriété (DAO)
+title: Parameter.Direction, propriété (DAO)
 TOCTitle: Direction Property
 ms:assetid: b78c87ff-1181-21ef-7126-92d309751005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822422(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288090"
 ---
-# <a name="parameterdirection-property-dao"></a>Parameter. direction, propriété (DAO)
+# <a name="parameterdirection-property-dao"></a>Parameter.Direction, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -26,9 +26,9 @@ ms.locfileid: "32288090"
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Directionnel
+*.* Direction
 
-*expression* Variable qui représente un objet **Parameter** .
+*expression* Variable qui représente un objet **Parameter.**
 
 ## <a name="remarks"></a>Remarques
 
@@ -36,9 +36,9 @@ Le paramètre ou la valeur de retour est une valeur longue pouvant être défini
 
 La propriété **Direction** permet de déterminer si le paramètre est un paramètre d'entrée, de sortie, ou les deux, ou la valeur de retour de la procédure. Certains pilotes ODBC ne fournissent aucune information sur la direction des paramètres vers une instruction SELECT ou une invocation de procédure. Dans ce cas, il convient de définir la direction avant d'exécuter la requête.
 
-Par exemple, la procédure suivante renvoie une valeur à partir d'une procédure stockée\_appelée «Get Employees»:
+Par exemple, la procédure suivante renvoie une valeur à partir d’une procédure stockée nommée « obtenir \_ des employés » :
 
-{? = appeler get\_employés}
+{? = appeler obtenir des \_ employés}
 
 Cet appel produit un paramètre : la valeur de retour. Vous devez définir la direction de ce paramètre sur **dbParamOutput** ou **dbParamReturnValue** avant d'exécuter l'objet **[QueryDef](querydef-object-dao.md)**.
 

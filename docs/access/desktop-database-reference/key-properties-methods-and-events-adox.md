@@ -1,5 +1,5 @@
 ---
-title: Key, propriétés, méthodes et événements (ADOX)
+title: Key properties, methods, and events (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 35639116-c8ec-103d-88f6-c0560efef2c0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290307"
 ---
-# <a name="key-properties-methods-and-events-adox"></a>Key, propriétés, méthodes et événements (ADOX)
+# <a name="key-properties-methods-and-events-adox"></a>Key properties, methods, and events (ADOX)
 
 **S’applique à** : Access 2013, Office 2013 
 
@@ -24,14 +24,14 @@ ms.locfileid: "32290307"
 - [DeleteRule, propriété](deleterule-property-adox.md)
 - [Name, propriété](name-property-adox.md)
 - [RelatedTable, propriété](relatedtable-property-adox.md)
-- [Type, propriété (clé)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
+- [Type, propriété (Key)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
 - [UpdateRule, propriété](updaterule-property-adox.md)
 
 ## <a name="methods"></a>Méthodes
 
 Aucun.
 
-## <a name="events"></a>Events
+## <a name="events"></a>Événements
 
 Aucun.
 

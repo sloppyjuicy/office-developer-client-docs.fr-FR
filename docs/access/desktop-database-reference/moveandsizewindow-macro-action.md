@@ -18,11 +18,11 @@ ms.locfileid: "32288805"
 
 **S’applique à** : Access 2013, Office 2013
 
-Si vous avez défini les options de la fenêtre de document de manière à utiliser des fenêtres superposées au lieu des documents à onglets, vous pouvez utiliser l'action **déplaceretdimensionnerfenêtre** pour déplacer ou redimensionner la fenêtre active. Pour plus d'informations sur la définition des options de la fenêtre de document, voir la section Notes.
+Si vous avez choisi d’utiliser des fenêtres superposées plutôt que des documents à onglets, vous pouvez utiliser l’action **MoveAndSizeWindow** pour déplacer ou resize la fenêtre active. Pour plus d’informations sur la façon de définir les options de fenêtre de document, voir la section Remarques.
 
 ## <a name="setting"></a>Setting
 
-L'action **déplaceretdimensionnerfenêtre** utilise les arguments suivants.
+**L’action MoveAndSizeWindow a** les arguments suivants.
 
 <table>
 <colgroup>
@@ -38,7 +38,7 @@ L'action **déplaceretdimensionnerfenêtre** utilise les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Right</strong></p></td>
-<td><p>Nouvelle position horizontale de l'angle supérieur gauche de la fenêtre mesurée depuis le bord gauche de cette fenêtre. Entrez la position dans la zone de <strong>droite</strong> dans la section arguments de l' <strong>action</strong> du volet générateur de macro.</p></td>
+<td><p>Nouvelle position horizontale de l'angle supérieur gauche de la fenêtre mesurée depuis le bord gauche de cette fenêtre. Entrez la position dans la <strong>zone</strong> droite de la section <strong>Arguments de l’action</strong> du volet Générateur de macro.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Down</strong></p></td>
@@ -61,29 +61,29 @@ Si vous laissez un argument vide, Microsoft Access utilise le paramètre actuel 
 Vous devez entrer une valeur pour au moins un argument.
 
 > [!NOTE]
-> Chaque mesure est exprimée en pouces ou en centimètres, selon les paramètres régionaux définis dans le panneau de configuration de Windows.
+> Chaque mesure est en pouces ou en centimètres, selon les paramètres régionaux du Panneau de configuration Windows.
 
 ## <a name="remarks"></a>Remarques
 
-Pour configurer une application de sorte qu'elle utilise des fenêtres superposées au lieu des documents à onglets, procédez comme suit:
+Pour configurer une application afin qu’elle utilise des fenêtres superposées au lieu de documents à onglets, utilisez la procédure suivante :
 
-1.  Cliquez sur **options**
+1.  Options de **clic**
 
-2.  Cliquez sur **base de données active**.
+2.  Cliquez sur **Base de données actuelle.**
 
 3.  Dans la section **Options de l'application**, sous **Options de la fenêtre Document**, cliquez sur **Fenêtres superposées**.
 
-4.  Cliquez sur **OK**, puis fermez et rouvrez la base de données.
+4.  Cliquez **sur OK,** puis fermez et rouvrez la base de données.
 
-Cette action équivaut à cliquer sur **déplacer** ou sur **taille** dans le menu **contrôle** de la fenêtre. Les commandes de menu permettent de déplacer ou de redimensionner la fenêtre à l'aide des touches fléchées du clavier. À l'aide de l'action **déplaceretdimensionnerfenêtre** , vous entrez directement les mesures de position et de taille. Vous pouvez également utiliser la souris pour déplacer et dimensionner des fenêtres.
+Cette action est similaire à celle qui consiste à cliquer sur **Déplacer** ou **Dimensionr** dans le menu Contrôle de **la** fenêtre. Avec les commandes de menu, vous utilisez les touches de direction du clavier pour déplacer ou re resserr la fenêtre. Avec **l’action MoveAndSizeWindow,** vous entrez directement les mesures de position et de taille. Vous pouvez également utiliser la souris pour déplacer et dimensioner des fenêtres.
 
-Vous pouvez utiliser cette action dans n'importe quelle fenêtre, quel que soit l'affichage.
+Vous pouvez utiliser cette action sur n’importe quelle fenêtre, dans n’importe quel affichage.
 
 > [!TIP]
-> - Pour déplacer une fenêtre sans la redimensionner, entrez des valeurs pour les arguments **droite** et **bas** , mais laissez les arguments **largeur** et **hauteur** vides.
-> - Pour redimensionner une fenêtre sans la déplacer, entrez des valeurs pour les arguments **largeur** et **hauteur** , mais laissez les arguments **droite** et **bas** vides.
+> - Pour déplacer une fenêtre sans la resserriser, entrez  des valeurs pour les **arguments** Droite et Bas, mais laissez les **arguments** Largeur et Hauteur vides. 
+> - Pour re tailler une fenêtre sans la déplacer, entrez des  valeurs pour les **arguments** **Largeur** et Hauteur, mais laissez les **arguments** Droite et Bas vides.
 
-Pour exécuter l'action **déplaceretdimensionnerfenêtre** dans un module Visual Basic pour applications (VBA), utilisez la méthode **MoveSize** de l'objet **DoCmd** .
+Pour exécuter **l’action MoveAndSizeWindow** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **MoveSize** de l’objet **DoCmd.**
 
 ## <a name="example"></a>Exemple
 
@@ -109,14 +109,14 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Écho</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Écho sur</strong>: <strong>Non</strong></p></td>
-<td><p>Arrêter l'actualisation de l'écran pendant l'exécution de la macro.</p></td>
+<td><p>Arrêter l’actualisation de l’écran pendant l’exécution de la macro.</p></td>
 </tr>
 <tr class="even">
-<td><p>IsNull ([ID fournisseur])</p></td>
+<td><p>IsNull([ID fournisseur])</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: Passez à l'enregistrement du fournisseur dont vous voulez voir les produits, puis cliquez à nouveau sur le bouton Consulter les produits. <strong>Bip</strong>: <strong>YesType</strong>: <strong>aucuntitre</strong>: sélectionnez un fournisseur</p></td>
+<td><p><strong>Message</strong>: Passez à l'enregistrement du fournisseur dont vous voulez voir les produits, puis cliquez à nouveau sur le bouton Consulter les produits. <strong>Bip</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: sélectionner un fournisseur</p></td>
 <td><p>S'il n'existe aucun fournisseur actif dans le formulaire Fournisseurs, afficher un message.</p></td>
 </tr>
 <tr class="odd">
@@ -134,13 +134,13 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nom du formulaire</strong>: liste des produits <strong>affichage</strong>: <strong>nom donnéesnom du filtre</strong>: <strong>condition WHERE</strong>: [Réf fournisseur] = [Forms]! [Fournisseurs]! Fournisseur <strong>Mode données</strong>: <strong>mode lecture seulemode fenêtre</strong>: <strong>normal</strong></p></td>
+<td><p><strong>Nom du formulaire</strong>: Affichage <strong>de</strong>la liste des produits : Nom <strong>de DatasheetFilter</strong>: <strong>Condition where</strong>: [ID fournisseur] = [Formulaires]! [Fournisseurs]! [SupplierID] <strong>Mode données</strong>: <strong>mode Lecture seule :</strong> <strong>Normal</strong></p></td>
 <td><p>Ouvrir le formulaire Liste de produits et afficher les produits du fournisseur actuel.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>Déplaceretdimensionnerfenêtre</strong></p></td>
-<td><p><strong>droite</strong>: 0,7799&quot; <strong>bas</strong>: 1,8&quot;</p></td>
+<td><p><strong>MoveAndSizeWindow</strong></p></td>
+<td><p><strong>Droite</strong>: 0,7799 &quot; <strong>Bas</strong>: 1,8&quot;</p></td>
 <td><p>Positionnez le formulaire Liste de produits dans le coin inférieur droit du formulaire Fournisseurs.</p></td>
 </tr>
 </tbody>

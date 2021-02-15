@@ -1,5 +1,5 @@
 ---
-title: Parameter. Properties, propriété (DAO)
+title: Parameter.Properties, propriété (DAO)
 TOCTitle: Properties Property
 ms:assetid: 5281e1a3-c717-e7b9-1a0a-2e430125b747
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193941(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288013"
 ---
-# <a name="parameterproperties-property-dao"></a>Parameter. Properties, propriété (DAO)
+# <a name="parameterproperties-property-dao"></a>Parameter.Properties, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,7 +23,7 @@ Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Propriétés
+*.* Propriétés
 
-*expression* Variable qui représente un objet **Parameter** .
+*expression* Variable qui représente un objet **Parameter.**
 

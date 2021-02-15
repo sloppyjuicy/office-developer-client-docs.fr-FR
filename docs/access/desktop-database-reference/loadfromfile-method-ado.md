@@ -22,7 +22,7 @@ Charge le contenu d’un fichier existant dans un objet [Stream](stream-object-a
 
 ## <a name="syntax"></a>Syntaxe
 
-*Stream*. LoadFromFile *nom de fichier*
+*Stream*. LoadFromFile *FileName*
 
 ## <a name="parameters"></a>Paramètres
 

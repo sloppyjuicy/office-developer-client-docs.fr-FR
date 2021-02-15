@@ -27,7 +27,7 @@ Dans tous les cas, le service de curseur prend en charge la mise à jour en lot.
 
 ## <a name="keyword"></a>Mot clé
 
-Pour appeler ce composant de service, définissez la propriété [CursorLocation](cursorlocation-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) ou [Connection](connection-object-ado.md) sur **adUseClient **.
+Pour appeler ce composant de service, définissez la propriété [CursorLocation](cursorlocation-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) ou [Connection](connection-object-ado.md) sur **adUseClient**.
 
 `connection.CursorLocation=adUseClientrecordset.CursorLocation=adUseClient`
 
@@ -94,7 +94,7 @@ Si votre application nécessite le service de curseur et que vous avez besoin de
 <td><p>Indique le texte de la commande à utiliser pour resynchroniser une ou plusieurs lignes dans une jointure de plusieurs tables.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="optimize-property-dynamic-ado.md">Vos</a></p></td>
+<td><p><a href="optimize-property-dynamic-ado.md">Optimiser</a></p></td>
 <td><p>Indique s'il faut créer un index. Si cette propriété est définie sur <strong>True</strong>, la création temporaire d'index est autorisée pour améliorer l'exécution de certaines opérations.</p></td>
 </tr>
 <tr class="odd">

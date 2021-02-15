@@ -64,11 +64,11 @@ La chaîne est composée des mots clé suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>
-<td><p>Spécifie le nom de l'utilisateur. Si ce mot clé n'est pas spécifié, la &quot;chaîne&quot;, admin, est utilisée par défaut.</p></td>
+<td><p>Spécifie le nom de l'utilisateur. Si ce mot clé n’est pas spécifié, la chaîne, &quot; &quot; admin, est utilisée par défaut.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Password</strong></p></td>
-<td><p>Spécifie le mot de passe de l'utilisateur. Si ce mot clé n'est pas spécifié, la chaîne&quot;&quot;vide () est utilisée par défaut.</p></td>
+<td><p>Spécifie le mot de passe de l'utilisateur. Si ce mot clé n’est pas spécifié, la chaîne vide ( &quot; &quot; ), est utilisée par défaut.</p></td>
 </tr>
 </tbody>
 </table>
@@ -87,28 +87,28 @@ Le tableau suivant répertorie ces propriétés en indiquant entre parenthèses 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Jet OLEDB: taille d'espace redemandé compact<br />
+<td><p>Jet OLEDB:Compact Reclaimed Space Amount<br />
 (DBPROP_JETOLEDB_COMPACTFREESPACESIZE)</p></td>
 <td><p>Donne une estimation en octets de l'espace qui peut être récupéré si la base de données est compactée. Cette valeur n'est valide qu'une fois établie la connexion à la base de données.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: Connection Control<br />
+<td><p>Jet OLEDB:Connection Control<br />
 (DBPROP_JETOLEDB_CONNECTIONCONTROL)</p></td>
 <td><p>Indique si les utilisateurs peuvent se connecter à la base de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: créer une base de données système<br />
+<td><p>Jet OLEDB:Create System Database<br />
 (DBPROP_JETOLEDB_CREATESYSTEMDATABASE)</p></td>
 <td><p>Indique si une base de données système doit être créée lorsqu'une nouvelle source de données est créée.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: mode de verrouillage de base de données<br />
+<td><p>Jet OLEDB:Database Locking Mode<br />
 (DBPROP_JETOLEDB_DATABASELOCKMODE)</p></td>
 <td><p>Indique le mode de verrouillage pour cette base de données. Le premier utilisateur ouvrant la base de données détermine le mode utilisé lorsque la base de données est ouverte.</p></td>
 </tr>
@@ -143,12 +143,12 @@ Le tableau suivant répertorie ces propriétés en indiquant entre parenthèses 
 <td><p>Indique le délai d'attente nécessaire pour que les données stockées en cache en vue d'une écriture asynchrone soient effectivement écrites sur le disque. Ce paramètre remplace les valeurs définies pour <strong>Jet OLEDB:Shared Async Delay</strong> et <strong>Jet OLEDB:Exclusive Async Delay</strong>.  </p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: Global Bulk transactions<br />
+<td><p>Jet OLEDB:Global Bulk Transactions<br />
 (DBPROP_JETOLEDB_GLOBALBULKNOTRANSACTIONS)</p></td>
 <td><p>Indique si les transactions SQL en bloc sont traitées.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: global des opérations en bloc partielles<br />
+<td><p>Jet OLEDB:Global Partial Bulk Ops<br />
 (DBPROP_JETOLEDB_GLOBALBULKPARTIAL)</p></td>
 <td><p>Indique le mot de passe utilisé pour ouvrir la base de données.</p></td>
 </tr>
@@ -178,17 +178,17 @@ Le tableau suivant répertorie ces propriétés en indiquant entre parenthèses 
 <td><p>Indique le nombre maximum de verrous que Jet peut placer sur une base de données. La valeur par défaut est 9500.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: nouveau mot de passe de base de données<br />
+<td><p>Jet OLEDB:New Database Password<br />
 (DBPROP_JETOLEDB_NEWDATABASEPASSWORD)</p></td>
 <td><p>Indique le nouveau mot de passe à définir pour cette base de données. L'ancien mot de passe est enregistré dans <strong>Jet OLEDB:Database Password</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: délai d'expiration de la commande ODBC<br />
+<td><p>Jet OLEDB:ODBC Command Time Out<br />
 (DBPROP_JETOLEDB_ODBCCOMMANDTIMEOUT)</p></td>
 <td><p>Indique le délai d'expiration en millisecondes d'une requête ODBC distante en provenance de Jet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: verrous de pages en verrou de table<br />
+<td><p>Jet OLEDB:Page Locks to Table Lock<br />
 (DBPROP_JETOLEDB_PAGELOCKSTOTABLELOCK)</p></td>
 <td><p>Indique combien de pages doivent être verrouillées dans une transaction avant que Jet tente de promouvoir le verrouillage d'une table. Si cette valeur est égale à 0, le verrouillage n'est jamais promu.</p></td>
 </tr>
@@ -208,7 +208,7 @@ Le tableau suivant répertorie ces propriétés en indiquant entre parenthèses 
 <td><p>Indique la clé de Registre Windows qui contient des valeurs pour le moteur de base de données Jet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: réinitialiser les statistiques ISAM<br />
+<td><p>Jet OLEDB:Reset ISAM Stats<br />
 (DBPROP_JETOLEDB_RESETISAMSTATS)</p></td>
 <td><p>Indique si le schéma <strong>Recordset</strong> DBSCHEMA_JETOLEDB_ISAMSTATS doit réinitialiser ses compteurs de performance après le renvoi des informations de performance.</p></td>
 </tr>
@@ -223,7 +223,7 @@ Le tableau suivant répertorie ces propriétés en indiquant entre parenthèses 
 <td><p>Indique le chemin d'accès et le nom de fichier pour le fichier d'information de groupe de travail (base de données système).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: mode de validation de transaction<br />
+<td><p>Jet OLEDB:Transaction Commit Mode<br />
 (DBPROP_JETOLEDB_TXNCOMMITMODE)</p></td>
 <td><p>Indique si Jet écrit les données sur le disque en mode synchrone ou en mode asynchrone lorsqu'une transaction est validée.</p></td>
 </tr>
@@ -253,57 +253,57 @@ Le fournisseur Jet prend aussi en charge plusieurs propriétés spécifiques au 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Jet OLEDB: transactions en bloc<br />
+<td><p>Jet OLEDB:Bulk Transactions<br />
 (DBPROP_JETOLEDB_BULKNOTRANSACTIONS)</p></td>
 <td><p>Indique si les opérations SQL en bloc sont traitées. Le traitement des opérations en bloc volumineuses peut échouer en raison de retards dans la gestion des ressources.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: activer les curseurs FAT<br />
+<td><p>Jet OLEDB:Enable Fat Cursors<br />
 (DBPROP_JETOLEDB_ENABLEFATCURSOR)</p></td>
 <td><p>Indique si Jet doit mettre en cache plusieurs lignes lors du remplissage d'un jeu d'enregistrements pour une source de lignes distante.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: taille du cache de curseurs FAT<br />
+<td><p>Jet OLEDB:Fat Cursor Cache Size<br />
 (DBPROP_JETOLEDB_FATCURSORMAXROWS)</p></td>
 <td><p>Indique le nombre de lignes concernées par la mise en cache des lignes du magasin de données distant. Cette valeur est ignorée sauf si <strong>Jet OLEDB:Enable Fat Cursors</strong> a la valeur True.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: incohérent<br />
+<td><p>Jet OLEDB:Inconsistent<br />
 (DBPROP_JETOLEDB_INCONSISTENT)</p></td>
 <td><p>Indique si les résultats des requêtes autorisent les mises à jour incohérentes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: blocage du verrouillage<br />
+<td><p>Jet OLEDB:Locking Granularity<br />
 (DBPROP_JETOLEDB_LOCKGRANULARITY)</p></td>
 <td><p>Indique si le verrouillage des lignes est utilisé à l'ouverture d'une table.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: ODBC directe Statement<br />
+<td><p>Jet OLEDB:ODBC Pass-Through Statement<br />
 (DBPROP_JETOLEDB_ODBCPASSTHROUGH)</p></td>
 <td><p>Indique que Jet doit transmettre à la base de données principale le texte SQL dans un objet <strong>Command</strong> sans le modifier.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: opérations en bloc partielles<br />
+<td><p>Jet OLEDB:Partial Bulk Ops<br />
 (DBPROP_JETOLEDB_BULKPARTIAL)</p></td>
 <td><p>Spécifie le comportement de Jet en cas d'échec des opérations DML SQL.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: passer en mode bulk de la requête<br />
+<td><p>Jet OLEDB:Pass Through Query Bulk-Op<br />
 (DBPROP_JETOLEDB_PASSTHROUGHBULKOP)</p></td>
 <td><p>Indique si les requêtes qui ne renvoient pas de <strong>Recordset</strong> sont transmises sans modification à la source de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: transmission de la chaîne de connexion de requête<br />
+<td><p>Jet OLEDB:Pass Through Query Connect String<br />
 (DBPROP_JETOLEDB_ODBCPASSTHROUGHCONNECTSTRING)</p></td>
 <td><p>Spécifie la chaîne Jet utilisée pour la connexion à un magasin de données distant. Cette valeur est ignorée sauf si <strong>Jet OLEDB:ODBC Pass-Through Statement</strong> a la valeur True.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: requête stockée<br />
+<td><p>Jet OLEDB:Stored Query<br />
 (DBPROP_JETOLEDB_STOREDQUERY)</p></td>
 <td><p>Indique si le texte de commande doit être interprété comme une requête stockée au lieu d'une commande SQL.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: valider les règles sur l'ensemble<br />
+<td><p>Jet OLEDB:Validate Rules On Set<br />
 (DBPROP_JETOLEDB_VALIDATEONSET)</p></td>
 <td><p>Indique si les règles de validation Jet sont évaluées lorsque les données des colonnes sont définies ou quand les modifications sont validées dans la base de données.</p></td>
 </tr>
@@ -319,7 +319,7 @@ Le texte de commande de l’objet [Command](command-object-ado.md) utilise le di
 
 ## <a name="recordset-behavior"></a>Comportement des jeux d'enregistrements
 
-Le moteur de base de données Microsoft Jet ne prend pas en charge les curseurs dynamiques. Par conséquent, le fournisseur OLE DB pour Microsoft Jet ne prend pas en charge le type de curseur **adLockDynamic**. Lorsqu’un curseur dynamique est demandé, le fournisseur renvoie un curseur keyset et réinitialise la propriété [CursorType](cursortype-property-ado.md) pour indiquer le type de [Recordset](recordset-object-ado.md) renvoyé. Ensuite, si un **Recordset ** actualisable est demandé ( **LockType ** indique **adLockOptimistic**, **adLockBatchOptimistic** ou **adLockPessimistic**), le fournisseur renverra également un curseur keyset et réinitialisera la propriété **CursorType**.
+Le moteur de base de données Microsoft Jet ne prend pas en charge les curseurs dynamiques. Par conséquent, le fournisseur OLE DB pour Microsoft Jet ne prend pas en charge le type de curseur **adLockDynamic**. Lorsqu’un curseur dynamique est demandé, le fournisseur renvoie un curseur keyset et réinitialise la propriété [CursorType](cursortype-property-ado.md) pour indiquer le type de [Recordset](recordset-object-ado.md) renvoyé. Ensuite, si un **Recordset** actualisable est demandé ( **LockType** indique **adLockOptimistic**, **adLockBatchOptimistic** ou **adLockPessimistic**), le fournisseur renverra également un curseur keyset et réinitialisera la propriété **CursorType**.
 
 ## <a name="dynamic-properties"></a>Propriétés dynamiques
 
@@ -664,7 +664,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>DBPROP_IColumnsRowset</p></td>
 </tr>
 <tr class="odd">
-<td><p>Interfaces</p></td>
+<td><p>IConnectionPointContainer</p></td>
 <td><p>DBPROP_IConnectionPointContainer</p></td>
 </tr>
 <tr class="even">
@@ -960,7 +960,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>DBPROP_IColumnsRowset</p></td>
 </tr>
 <tr class="even">
-<td><p>Interfaces</p></td>
+<td><p>IConnectionPointContainer</p></td>
 <td><p>DBPROP_IConnectionPointContainer</p></td>
 </tr>
 <tr class="odd">

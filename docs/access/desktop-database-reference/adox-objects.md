@@ -18,7 +18,7 @@ ms.locfileid: "32280300"
 
 **S’applique à** : Access 2013, Office 2013
 
-Chaque objet peut être contenu dans sa collection correspondante. Par exemple, un objet **Table** peut être contenu dans une collection [Tables](tables-collection-adox.md). Pour plus d'informations, consultez la rubrique [Collections ADOX](adox-collections.md) ou une rubrique de collection spécifique.
+Chaque objet peut être contenu dans sa collection correspondante. Par exemple, un objet **Table** peut être contenu dans une collection [Tables](tables-collection-adox.md). Pour plus d’informations, voir [collections ADOX](adox-collections.md) ou une rubrique de collection spécifique.
 
 <br/>
 
@@ -51,7 +51,7 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 <td><p>Représente un index dans une table de base de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="key-object-adox.md">Key</a></p></td>
+<td><p><a href="key-object-adox.md">Clé</a></p></td>
 <td><p>Représente un champ de clé primaire, étrangère ou unique dans une table de base de données.</p></td>
 </tr>
 <tr class="even">
@@ -59,11 +59,11 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 <td><p>Représente une procédure stockée.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="table-object-adox.md">Table</a></p></td>
+<td><p><a href="table-object-adox.md">Tableau</a></p></td>
 <td><p>Représente une table de base de données, comprenant des colonnes, des index et des clés.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="user-object-adox.md">User</a></p></td>
+<td><p><a href="user-object-adox.md">Utilisateur</a></p></td>
 <td><p>Représente un compte d'utilisateur qui dispose d'autorisations d'accès dans une base de données sécurisée.</p></td>
 </tr>
 <tr class="odd">

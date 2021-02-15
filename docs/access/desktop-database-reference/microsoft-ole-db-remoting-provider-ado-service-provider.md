@@ -74,10 +74,10 @@ Lorsque ce fournisseur de services est appelé, les propriétés dynamiques suiv
 <td><p>Indique le mode DataFactory. Chaîne qui spécifie la version souhaitée de l’objet <a href="datafactory-object-rdsserver.md">DataFactory</a> sur le serveur. Définissez cette propriété avant d’ouvrir une connexion pour demander une version particulière du <strong>DataFactory</strong>. Si la version souhaitée n’est pas disponible, une tentative d’utilisation d’une version précédente est effectuée. S’il n’existe pas de version précédente, une erreur est générée. Si la valeur de <strong>DFMode</strong> est inférieure à la version disponible, une erreur est générée. Cette propriété passe en lecture seule une fois la connexion établie. Les valeurs valides sont les valeurs de chaîne suivantes :</p>
 <p></p>
 <ul>
-<li><p>&quot;25&quot; — version 2,5 (par défaut)</p></li>
-<li><p>&quot;21&quot; — version 2,1</p></li>
-<li><p>&quot;20&quot; — version 2,0</p></li>
-<li><p>&quot;15&quot; — version 1,5</p></li>
+<li><p>&quot;25 &quot; — Version 2.5 (par défaut)</p></li>
+<li><p>&quot;21 &quot; — Version 2.1</p></li>
+<li><p>&quot;20 &quot; — Version 2.0</p></li>
+<li><p>&quot;15 &quot; — Version 1.5</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -98,7 +98,7 @@ La valeur par défaut pour cette chaîne est vt_empty.</p></td>
 <li><p>15 — Version 1.5</p></li>
 </ul>
 <p></p>
-<p>Ajout &quot;de DFMode = 20; &quot; à votre chaîne de connexion lorsque vous utilisez le fournisseur <strong>MSRemote</strong> peut améliorer les performances de votre serveur lors de la mise à jour des données. Avec ce paramètre, l'objet <strong>RDSServer.DataFactory</strong> utilise moins de ressources au niveau du serveur. Toutefois, les fonctions suivantes ne sont pas disponibles dans cette configuration :</p>
+<p>L’ajout de DFMode=20; à votre chaîne de connexion lors de l’utilisation du fournisseur &quot; &quot; <strong>MSRemote</strong> peut améliorer les performances de votre serveur lors de la mise à jour des données. Avec ce paramètre, l'objet <strong>RDSServer.DataFactory</strong> utilise moins de ressources au niveau du serveur. Toutefois, les fonctions suivantes ne sont pas disponibles dans cette configuration :</p>
 <p></p>
 <ul>
 <li><p>utilisation de requêtes paramétrées ;</p></li>
@@ -113,8 +113,8 @@ La valeur par défaut pour cette chaîne est vt_empty.</p></td>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>D</strong></p></td>
-<td><p>Indique le nom d'un programme de personnalisation (ou gestionnaire) côté serveur qui étend la fonctionnalité de <a href="datafactory-object-rdsserver.md">RDSServer. DataFactory</a>et tous les paramètres utilisés par le gestionnaire<em>,</em> tous séparés par des virgules (&quot;,&quot;). Valeur <strong>String</strong>.</p></td>
+<td><p><strong>Handler</strong></p></td>
+<td><p>Indique le nom d’un programme (ou d’un handler) de personnalisation côté serveur qui étend les fonctionnalités de <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a>et tous les paramètres utilisés par le<em>handler,</em> séparés par des virgules ( &quot; , &quot; ). Valeur <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Internet Timeout</strong></p></td>

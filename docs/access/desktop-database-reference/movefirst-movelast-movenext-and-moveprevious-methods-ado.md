@@ -23,7 +23,7 @@ Accède au premier, au dernier ou à l’enregistrement suivant d’un objet [Re
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. { MoveFirst | MoveLast | MoveNext | MovePrevious
+*recordset*. { MoveFirst | MoveLast | MoveNext | MovePrevious}
 
 ## <a name="remarks"></a>Remarques
 
@@ -35,7 +35,7 @@ Un appel à **MoveFirst** ou **MoveLast** lorsque l'objet **Recordset** est vide
 
 Utilisez la méthode **MoveNext** pour faire avancer la position de l’enregistrement actif d’un enregistrement (vers la fin de l’objet **Recordset**). Si l’enregistrement actif est le dernier enregistrement et que vous appelez la méthode **MoveNext**, ADO définit l’enregistrement actif à la position qui suit le dernier enregistrement de l’objet **Recordset** (la propriété [EOF](bof-eof-properties-ado.md) a la valeur **True**). Une tentative de déplacement avant lorsque la propriété **EOF** a déjà la valeur **True** génère une erreur.
 
-Dans les cas où l' **objet Recordset** a été filtré ou trié et que les données de l'enregistrement actif sont modifiées, la position peut également changer. Dans ce cas, la méthode **MoveNext** fonctionne normalement, mais vous devez savoir que la position est déplacée d'un enregistrement vers l'avant à partir de la nouvelle position, et non de l'ancienne position. Par exemple, si vous modifiez les données de l'enregistrement actif, de sorte que l'enregistrement est déplacé à la fin de l' **objet Recordset trié,** cela signifie que l'appel de **MoveNext** entraîne la définition par ADO de l'enregistrement actif à la position qui suit le dernier enregistrement de la ** Recordset** (**EOF** = **true**).
+Dans les cas où le **jeu d’enregistrements** a été filtré ou trié et que les données de l’enregistrement actuel sont modifiées, la position peut également changer. Dans ce cas, la **méthode MoveNext** fonctionne normalement, mais sachez que la position est déplacée d’un enregistrement vers l’avant de la nouvelle position, et non de l’ancienne position. Par exemple, la modification des données dans l’enregistrement actuel, de sorte que l’enregistrement soit déplacé à la fin du jeu d’enregistrements **trié,** signifie que l’appel de **MoveNext** entraîne la définition par ADO de l’enregistrement actuel à la position après le dernier enregistrement du jeu d’enregistrements **(** **EOF**  =  **True**).
 
 Utilisez la méthode **MovePrevious** pour faire reculer la position de l’enregistrement actif d’un enregistrement (vers le début de l’objet **Recordset**). L’objet **Recordset** doit prendre en charge les signets ou le déplacement du curseur arrière ; sinon, la méthod génère une erreur. Si le premier enregistrement est l’enregistrement actif et que vous appelez la méthode **MovePrevious**, ADO définit l’enregistrement actif à la position précédant le premier enregistrement de l’objet **Recordset** (la propriété [BOF](bof-eof-properties-ado.md) a la valeur **True**). Une tentative de déplacement arrière lorsque la propriété **BOF** a déjà la valeur **True** génère une erreur. Si l’objet **Recordset** ne prend pas en charge les signets ou le déplacement du curseur arrière, la méthode **MovePrevious** génère une erreur.
 

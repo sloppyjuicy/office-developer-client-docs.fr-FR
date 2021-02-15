@@ -56,14 +56,14 @@ ms.locfileid: "32283295"
 </tr>
 <tr class="odd">
 <td><p><a href="hierarchy-object-ado-md.md">Hierarchy</a></p></td>
-<td><p>Représente une façon dont les membres d'une dimension peuvent être regroupés ou &quot;reportés. &quot; Une dimension peut être regroupée dans une ou plusieurs hiérarchies.</p></td>
+<td><p>Représente un moyen d’agréger ou de cumuler les membres &quot; d’une dimension. &quot; Une dimension peut être agrégée le long d’une ou plusieurs hiérarchies.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="level-object-ado-md.md">Level</a></p></td>
 <td><p>Contient un ensemble de membres, chacun occupant le même rang dans une hiérarchie.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="member-object-ado-md.md">Member</a></p></td>
+<td><p><a href="member-object-ado-md.md">Membre</a></p></td>
 <td><p>Représente un membre d'un niveau dans un cube, les enfants d'un membre d'un niveau ou un membre d'une position le long d'un axe d'un ensemble de cellules.</p></td>
 </tr>
 <tr class="even">

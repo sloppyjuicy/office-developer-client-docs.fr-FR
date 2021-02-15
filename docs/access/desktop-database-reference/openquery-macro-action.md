@@ -45,7 +45,7 @@ L’action **OuvrirRequête** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la requête</strong></p></td>
-<td><p>Nom de la requête à ouvrir. La zone nom de la <strong>requête</strong> dans la section arguments de l' <strong>action</strong> du volet générateur de macro affiche toutes les requêtes de la base de données active. Il s'agit d'un argument obligatoire. Si vous exécutez une macro contenant l'action <strong>OuvrirRequête</strong> dans une base de données bibliothèque, Microsoft Access recherche d'abord la requête portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom de la requête à ouvrir. La <strong>zone Nom de la</strong> requête dans la section Arguments de l’action du volet Générateur de macro affiche toutes les requêtes de la base de données actuelle. <strong></strong> Il s’agit d’un argument obligatoire. Si vous exécutez <strong></strong> une macro contenant l’action OuvrirRequête dans une base de données bibliothèque, Microsoft Access recherche d’abord la requête de ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

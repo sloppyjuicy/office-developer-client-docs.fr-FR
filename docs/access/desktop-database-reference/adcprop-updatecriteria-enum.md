@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282851"
 ---
-# <a name="adcpropupdatecriteriaenum"></a>ADCPROP\_UPDATECRITERIA\_de l'énumération
+# <a name="adcprop_updatecriteria_enum"></a>ADCPROP \_ UPDATECRITERIA \_ ENUM
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -40,7 +40,7 @@ Utilisez ces constantes avec la propriété dynamique "**Update Criteria**" du *
 <tbody>
 <tr class="odd">
 <td><p><strong>adCriteriaAllCols</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Détecte des conflits en cas de modification d'une ligne de la source de données.</p></td>
 </tr>
 <tr class="even">
@@ -50,12 +50,12 @@ Utilisez ces constantes avec la propriété dynamique "**Update Criteria**" du *
 </tr>
 <tr class="odd">
 <td><p><strong>adCriteriaTimeStamp</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Détecte des conflits si l'horodatage de la ligne de source de données a été modifié, signifiant qu'il y a eu un accès après obtention du <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCriteriaUpdCols</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Détecte des conflits si une des colonnes de la ligne de source de données correspondant aux champs mis à jour du <strong>Recordset</strong> a été modifiée.</p></td>
 </tr>
 </tbody>
@@ -77,16 +77,16 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. AdcPropUpdateCriteria. ALLCOLS</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.ALLCOLS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. AdcPropUpdateCriteria. KEY</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.KEY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. AdcPropUpdateCriteria. TIMESTAMP</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.TIMESTAMP</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. AdcPropUpdateCriteria. UPDCOLS</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.UPDCOLS</p></td>
 </tr>
 </tbody>
 </table>

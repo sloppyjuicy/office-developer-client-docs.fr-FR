@@ -80,7 +80,7 @@ La chaîne est composée des mots clé suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
-<td><p>Spécifie l'URL d'un fichier ou d'un répertoire publié dans un dossier Web.</p></td>
+<td><p>Spécifie l’URL d’un fichier ou d’un répertoire publié dans un dossier web.</p></td>
 </tr>
 </tbody>
 </table>
@@ -106,7 +106,7 @@ Plutôt que de définir un **DSN**, vous pouvez choisir de spécifier le pilote 
 
 Vous pouvez aussi spécifier un nom de compte utilisateur (**UID=**) et le mot de passe de ce compte (**PWD=**) dans les paramètres spécifiques à ODBC ou dans les paramètres ADO standard *utilisateur* et *mot de passe*.
 
-Bien qu'une définition **DSN** spécifie déjà une base de données, vous pouvez spécifier *un* paramètre *de base de données* en plus d'un **DSN** pour vous connecter à une autre base de données. Il est recommandé de toujours inclure le paramètre ** *Database* lorsque vous utilisez un **DSN**. Vous serez ainsi certain de vous connecter à la bonne base de données même si un autre utilisateur a modifié le paramètre de base de données par défaut depuis votre dernière vérification de la définition du **DSN**.
+Bien **qu’une définition de DSN** spécifie   déjà une base de données, vous pouvez spécifier un paramètre de base de données en plus d’un **DSN** pour se connecter à une autre base de données. Il est bon de toujours inclure le *paramètre* de base *de* données lorsque vous utilisez un **DSN**. Vous serez ainsi certain de vous connecter à la bonne base de données même si un autre utilisateur a modifié le paramètre de base de données par défaut depuis votre dernière vérification de la définition du **DSN**.
 
 ## <a name="provider-specific-connection-properties"></a>Propriétés de connexion spécifiques au fournisseur
 
@@ -155,32 +155,32 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection [
 <td><p>Indique le mode utilisé par le pilote pour traiter un fichier dans une source de données : table ou catalogue.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Like, clause Escape<br />
+<td><p>Like Escape, clause<br />
 (KAGPROP_LIKEESCAPECLAUSE)</p></td>
 <td><p>Indique si le pilote prend en charge la définition et l'utilisation du caractère d'échappement pour le caractère de pourcentage (%) et le caractère de soulignement (_) dans le prédicat LIKE d'une clause WHERE.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre maximal de colonnes dans le groupe par<br />
+<td><p>Colonnes max dans Group By<br />
 (KAGPROP_MAXCOLUMNSINGROUPBY)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la clause GROUP BY d'une instruction SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre maximal de colonnes dans l'index<br />
+<td><p>Nombre de colonnes max dans l’index<br />
 (KAGPROP_MAXCOLUMNSININDEX)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être incluses dans un index.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre maximal de colonnes par ordre<br />
+<td><p>Nombre de colonnes max dans l’ordre par<br />
 (KAGPROP_MAXCOLUMNSINORDERBY)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la clause ORDER BY d'une instruction SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre maximal de colonnes dans une sélection<br />
+<td><p>Nombre de colonnes max dans Select<br />
 (KAGPROP_MAXCOLUMNSINSELECT)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la partie SELECT d'une instruction SELECT.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre maximal de colonnes dans une table<br />
+<td><p>Nombre de colonnes max dans le tableau<br />
 (KAGPROP_MAXCOLUMNSINTABLE)</p></td>
 <td><p>Indique le nombre maximal de colonnes autorisé dans une table.</p></td>
 </tr>
@@ -192,12 +192,12 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection [
 Pour obtenir le listing des noms de fonctions et des valeurs associées utilisés dans ce masque de bits, consultez la rubrique sur les fonctions scalaires dans l'Annexe E de la documentation ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Fonctionnalités de jointure externe<br />
+<td><p>Fonctionnalités de joints externes<br />
 (KAGPROP_OJCAPABILITY)</p></td>
 <td><p>Indique les types de jointures externes (OUTER JOIN) prises en charge par le fournisseur.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jointures externes<br />
+<td><p>Jointeurs externes<br />
 (KAGPROP_OUTERJOINS)</p></td>
 <td><p>Indique si le fournisseur prend en charge les jointures externes (OUTER JOIN).</p></td>
 </tr>
@@ -222,12 +222,12 @@ Pour obtenir le listing des noms de fonctions et des valeurs associées utilisé
 <td><p>Indique les fonctions système prises en charge par le pilote ODBC. Pour obtenir le listing des noms de fonctions et des valeurs associées utilisés dans ce masque de bits, consultez la rubrique sur les fonctions scalaires dans l'Annexe E de la documentation ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Fonctions de date/heure<br />
+<td><p>Fonctions Heure/Date<br />
 (KAGPROP_TIMEDATEFUNCTIONS)</p></td>
 <td><p>Indique les fonctions de date et heure prises en charge par le pilote ODBC. Pour obtenir le listing des noms de fonctions et des valeurs associées utilisés dans ce masque de bits, consultez la rubrique sur les fonctions scalaires dans l'Annexe E de la documentation ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Prise en charge de la grammaire SQL<br />
+<td><p>SQL de grammaire<br />
 (KAGPROP_ODBCSQLCONFORMANCE)</p></td>
 <td><p>Indique la grammaire SQL prise en charge par le pilote ODBC.</p></td>
 </tr>
@@ -252,22 +252,22 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection *
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Mises à jour/suppressions basées sur une requête<br />
+<td><p>Mises à jour/suppressions/insertions basées sur des requêtes<br />
 (KAGPROP_QUERYBASEDUPDATES)</p></td>
 <td><p>Indique s'il est possible d'utiliser des requêtes SQL pour effectuer des mises à jour, des suppressions ou des insertions.</p></td>
 </tr>
 <tr class="even">
-<td><p>Type d'accès concurrentiel ODBC<br />
+<td><p>Type de récurrence ODBC<br />
 (KAGPROP_CONCURRENCY)</p></td>
 <td><p>Indique la méthode utilisée pour réduire les problèmes susceptibles de se produire si deux utilisateurs tentent d'accéder simultanément aux mêmes données de la source de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Accessibilité des objets BLOB sur le curseur de transfert uniquement<br />
+<td><p>Accessibilité BLOB sur Forward-Only curseur<br />
 (KAGPROP_BLOBSONFOCURSOR)</p></td>
 <td><p>Indique si les <strong>champs</strong> BLOB sont accessibles avec un curseur de type avant uniquement.</p></td>
 </tr>
 <tr class="even">
-<td><p>Inclure SQL_FLOAT, SQL_DOUBLE et SQL_REAL dans QBU clauses WHERE<br />
+<td><p>Inclure SQL_FLOAT, SQL_DOUBLE et SQL_REAL dans les clauses WHERE QBU<br />
 (KAGPROP_INCLUDENONEXACT)</p></td>
 <td><p>Indique si les valeurs SQL_FLOAT, SQL_DOUBLE et SQL_REAL peuvent être incluses dans une clause QBU WHERE.</p></td>
 </tr>
@@ -287,7 +287,7 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection *
 <td><p>Indique le type de curseur utilisé par le <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Générer un jeu de lignes pouvant être marshalé<br />
+<td><p>Générer un rowset qui peut être marshalé<br />
 (KAGPROP_MARSHALLABLE)</p></td>
 <td><p>Indique que le pilote ODBC génère un jeu d'enregistrements qui peut être marshalé.</p></td>
 </tr>
@@ -303,7 +303,7 @@ ODBC fournit une syntaxe spécifique pour appeler les procédures stockées. Pou
 
 `"{ [ ? = ] call procedure [ ( ? [, ? [ ,  ]] ) ] }"`
 
-Chaque **?** fait référence à un objet de la collection [Parameters](parameters-collection-ado.md). Le premier **?** référence les **paramètres**(0), le suivant **?** référence les **paramètres**(1), etc.
+Chaque **?** fait référence à un objet de la collection [Parameters](parameters-collection-ado.md). Le premier **?** references **Parameters**(0), the next **?** fait référence **aux paramètres**(1), etc.
 
 Les références aux paramètres sont facultatives et dépendent de la structure de la procédure stockée. Si vous voulez appeler une procédure stockée qui ne définisse aucun paramètre, votre chaîne doit présenter la syntaxe suivante :
 
@@ -342,8 +342,8 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <th><p>Propriété</p></th>
 <th><p>ForwardOnly</p></th>
 <th><p>Dynamique</p></th>
-<th><p>Commandé</p></th>
-<th><p>Static</p></th>
+<th><p>Keyset</p></th>
+<th><p>Statique</p></th>
 </tr>
 </thead>
 <tbody>
@@ -351,134 +351,134 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p><a href="absolutepage-property-ado.md">AbsolutePage</a></p></td>
 <td><p>non disponible</p></td>
 <td><p>non disponible</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="absoluteposition-property-ado.md">AbsolutePosition</a></p></td>
 <td><p>non disponible</p></td>
 <td><p>non disponible</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado.md">ActiveConnection</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">BOF</a></p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="bookmark-property-ado.md">Bookmark</a></p></td>
 <td><p>non disponible</p></td>
 <td><p>non disponible</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cursorlocation-property-ado.md">CursorLocation</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cursortype-property-ado.md">CursorType</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="editmode-property-ado.md">EditMode</a></p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="filter-property-ado.md">Filtre</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="locktype-property-ado.md">LockType</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="marshaloptions-property-ado.md">MarshalOptions,</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="pagecount-property-ado.md">PageCount</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 <td><p>Non disponible</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="pagesize-property-ado.md">PageSize</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="recordcount-property-ado.md">RecordCount</a></p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 <td><p>Non disponible</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="source-property-ado-recordset.md">Source</a></p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
-<td><p>en lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
+<td><p>lecture/écriture</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">State</a></p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
-<td><p>en lecture seule</p></td>
+<td><p><a href="status-property-ado-recordset.md">État</a></p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
+<td><p>lecture seule</p></td>
 </tr>
 </tbody>
 </table>
@@ -501,8 +501,8 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <th><p>Méthode</p></th>
 <th><p>ForwardOnly</p></th>
 <th><p>Dynamique</p></th>
-<th><p>Commandé</p></th>
-<th><p>Static</p></th>
+<th><p>Keyset</p></th>
+<th><p>Statique</p></th>
 </tr>
 </thead>
 <tbody>
@@ -570,7 +570,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Méthodes</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a></p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
@@ -626,14 +626,14 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Compatible</a></p></td>
+<td><p><a href="supports-method-ado.md">Prend en charge</a></p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Update</a></p></td>
+<td><p><a href="update-method-ado.md">Mettre à jour</a></p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
@@ -999,7 +999,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>DBPROP_IColumnsRowset</p></td>
 </tr>
 <tr class="even">
-<td><p>Interfaces</p></td>
+<td><p>IConnectionPointContainer</p></td>
 <td><p>DBPROP_IConnectionPointContainer</p></td>
 </tr>
 <tr class="odd">
@@ -1259,7 +1259,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>DBPROP_IColumnsRowset</p></td>
 </tr>
 <tr class="even">
-<td><p>Interfaces</p></td>
+<td><p>IConnectionPointContainer</p></td>
 <td><p>DBPROP_IConnectionPointContainer</p></td>
 </tr>
 <tr class="odd">
@@ -1448,5 +1448,5 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d'informations sur l'implémentation et des informations fonctionnelles spécifiques au fournisseur Microsoft OLE DB pour ODBC, consultez le [Guide du programmeUr OLE DB](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) ou consultez le centre de développement de la [plateforme de données](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
+Pour plus [d’informations sur l’implémentation](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) spécifique et des informations fonctionnelles sur le fournisseur Microsoft OLE DB pour ODBC, consultez le Guide du programmeur OLE DB ou visitez le Centre de développement de plateforme de [données.](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)
 

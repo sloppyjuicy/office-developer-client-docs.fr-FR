@@ -35,5 +35,5 @@ Le paramètre **adLockPessimistic** n'est pas pris en charge si la valeur de la 
 
 La propriété **LockType** est accessible en lecture et en écriture lorsque le **Recordset** est fermé et en lecture seule lorsqu' il est ouvert.
 
-**Utilisation des services de données à distance** Lorsqu'elle est utilisée sur un objet Recordset côté client, la propriété **LockType** ne peut prendre qu'une seule valeur: **adLockBatchOptimistic**.
+**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet Recordset côté client, la propriété **LockType** ne peut être définie que sur **adLockBatchOptimistic**.
 

@@ -40,7 +40,7 @@ Voici une chaîne de connexion classique pour ce fournisseur :
 "Provider=MSDAIPP.DSO;Data Source=ResourceURL;User ID=userName;Password=userPassword;" 
 ```
 
-\-des
+\-or-
 
 ```vb 
  
@@ -67,7 +67,7 @@ La chaîne est composée des mots clé suivants :
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong> -or- <strong>URL</strong></p></td>
-<td><p>Spécifie l'URL d'un fichier ou d'un répertoire publié dans un dossier Web.</p></td>
+<td><p>Spécifie l’URL d’un fichier ou d’un répertoire publié dans un dossier web.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>

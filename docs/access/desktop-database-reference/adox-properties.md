@@ -73,7 +73,7 @@ ms.locfileid: "32285250"
 <td><p>Indique si des enregistrements comprenant des valeurs Null dans leurs champs d'index ont des entrées d'index.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Élément</a></p></td>
 <td><p>Indique un membre spécifique d'une collection, par son nom ou nombre ordinal.</p></td>
 </tr>
 <tr class="even">
@@ -85,15 +85,15 @@ ms.locfileid: "32285250"
 <td><p>Indique l'échelle d'une valeur numérique de la colonne.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="parentcatalog-property-adox.md">ParentCatalog,</a></p></td>
+<td><p><a href="parentcatalog-property-adox.md">ParentCatalog</a></p></td>
 <td><p>Spécifie le catalogue parent d'une table ou colonne permettant d'octroyer l'accès à des propriétés spécifiques au fournisseur.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="precision-property-adox.md">Dell</a></p></td>
+<td><p><a href="precision-property-adox.md">Précision</a></p></td>
 <td><p>Indique la précision maximale de valeurs de données de la colonne.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="primarykey-property-adox.md">Primaire</a></p></td>
+<td><p><a href="primarykey-property-adox.md">PrimaryKey</a></p></td>
 <td><p>Indique si l'index représente la clé primaire de la table.</p></td>
 </tr>
 <tr class="odd">

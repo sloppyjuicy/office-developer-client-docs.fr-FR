@@ -21,7 +21,7 @@ ms.locfileid: "32291254"
 
 Si vous obtenez cette erreur, elle signifie généralement que Microsoft Internet Information Services (IIS) a retourné l'état suivant :
 
-État\_\_http refusé 401
+HTTP \_ STATUS \_ DENIED 401
 
-Assurez-vous dans ce cas que les répertoires accédés par IIS disposent des autorisations appropriées. RDS peut communiquer avec un serveur Web IIS s'exécutant dans l'un des trois modes d'authentification de mot de passe: Anonymous, Basic ou NT Challenge/Response (appelé authentification Windows intégrée dans Windows 2000). De plus, le serveur Web doit disposer d'autorisations sur l'ordinateur de source de données s'il s'agit d'un ordinateur Windows NT/Windows 2000.
+Assurez-vous dans ce cas que les répertoires accédés par IIS disposent des autorisations appropriées. RDS peut communiquer avec un serveur web IIS s’exécutant dans l’un des trois modes d’authentification par mot de passe : anonyme, de base ou NT Challenge/Response (appelé authentification Windows intégrée dans Windows 2000). En outre, le serveur web doit avoir des autorisations sur l’ordinateur source de données s’il s’agit d’un ordinateur Windows NT/Windows 2000.
 

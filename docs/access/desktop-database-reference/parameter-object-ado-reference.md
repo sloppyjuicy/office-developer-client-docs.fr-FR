@@ -1,5 +1,5 @@
 ---
-title: Référence d'objet de paramètre (ADO)
+title: Référence de l’objet Parameter (ADO)
 TOCTitle: Parameter object (ADO)
 ms:assetid: dab4b726-04e6-4441-968b-a7491d8d3311
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250101(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288104"
 ---
-# <a name="parameter-object-ado-reference"></a>Référence d'objet de paramètre (ADO)
+# <a name="parameter-object-ado-reference"></a>Référence de l’objet Parameter (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Parameter, objet (ADO)](parameter-object-ado.md)
-- [Propriétés, méthodes et événements de paramètre (ADO)](parameter-properties-methods-and-events-ado.md)
+- [Parameter properties, methods, and events (ADO)](parameter-properties-methods-and-events-ado.md)
 

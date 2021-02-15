@@ -29,7 +29,7 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Constante énumérée</th>
+<th>Constante éumée</th>
 <th>Description</th>
 </tr>
 <tr class="odd">

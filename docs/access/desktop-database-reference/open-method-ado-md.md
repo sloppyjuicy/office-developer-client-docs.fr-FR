@@ -22,11 +22,11 @@ Récupère les résultats d'une requête multidimensionnelle et renvoie les rés
 
 ## <a name="syntax"></a>Syntaxe
 
-Ensemble de *cellules*. Open*source*, *ActiveConnection*
+*Cellset*. Open *Source*, *ActiveConnection*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Source* |Facultatif. Valeur de type **Variant** qui correspond à une requête multidimensionnelle valide, telle que la requête MDX (Multidimensional Expression). L’argument *Source* correspond à la propriété [Source](source-property-ado-md.md). Pour plus d’informations sur MDX, voir la documentation relative à OLE DB pour OLAP dans le kit de développement logiciel Microsoft Data Access Components SDK.|
 |*ActiveConnection* |Facultatif. Valeur de type **Variant** qui correspond à une chaîne spécifiant soit un nom de variable objet [Connection](connection-object-ado.md) ADO valide, soit une définition d’une connexion. L’argument *ActiveConnection* spécifie la connexion avec laquelle l’objet [Cellset](cellset-object-ado-md.md) doit être ouvert. Si vous passez une définition de connexion pour cet argument, ADO ouvre une nouvelle connexion à l’aide des paramètres spécifiés. L’argument *ActiveConnection* correspond à la propriété [ActiveConnection](activeconnection-property-ado-md.md).|

@@ -35,5 +35,5 @@ Pour un objet **Field**, **Name** est généralement en lecture seule. Toutefois
 
 Pour les objets **Parameter** qui n'ont pas encore été ajoutés à la collection [Parameters](parameters-collection-ado.md), la propriété **Name** est accessible en lecture/écriture. Pour les objets **Parameter** ajoutés et tous les autres objets, la propriété **Name** est en lecture seule. Les noms peuvent exister en double au sein de la même collection.
 
-Vous pouvez retrouver la propriété **Nom** d'un objet par une référence ordinale, après laquelle il est possible de référencer directement le nom de l'objet. Par exemple, si rstMain. Properties (20). Name produit une possibilité de mise à jour, vous pouvez ensuite faire référence à cette propriété comme yield Retention, vous pouvez ensuite faire référence à cette propriété en tant que rstMain. Properties ("Updatable").
+Vous pouvez retrouver la propriété **Nom** d'un objet par une référence ordinale, après laquelle il est possible de référencer directement le nom de l'objet. Par exemple, si rstMain.Properties(20). Le nom produit updatability , vous pouvez par la suite faire référence à cette propriété comme produit Updatability , vous pouvez par la suite faire référence à cette propriété en tant que rstMain.Properties(« Updatability ») .
 

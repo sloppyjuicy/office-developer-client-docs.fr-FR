@@ -22,11 +22,11 @@ Ouvre un curseur.
 
 ## <a name="syntax"></a>Syntaxe
 
-*Recordset*. Open*source*, *ActiveConnection*, *CursorType*, *LockType*, *options*
+*recordset*. Open *Source*, *ActiveConnection*, *CursorType*, *LockType*, *Options*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Source* |Facultatif. Valeur de type **Variant** qui représente un objet [Command](command-object-ado.md), une instruction SQL, un nom de table, un appel de procédure stockée, une URL ou le nom d'un fichier ou objet [Stream](stream-object-ado.md) contenant un objet [Recordset](recordset-object-ado.md) stocké de façon permanente.|
 |*ActiveConnection* |Facultatif. Valeur de type **Variant** qui représente un nom de variable objet [Connection](connection-object-ado.md) valide ou valeur de type **String** qui contient les paramètres de la propriété [ConnectionString](connectionstring-property-ado.md).|
@@ -41,15 +41,15 @@ Les valeurs **adExecuteNoRecords** ou **adExecuteStream** de **ExecuteOpenEnum**
 
 ## <a name="remarks"></a>Remarques
 
-Le curseur par défaut d'un objet **Recordset ** ADO est un curseur en lecture seule, avant uniquement et situé sur le serveur.
+Le curseur par défaut d'un objet **Recordset** ADO est un curseur en lecture seule, avant uniquement et situé sur le serveur.
 
 L'utilisation de la méthode **Open** sur un objet **Recordset** ouvre un curseur qui représente des enregistrements d'une table de base, les résultats d'une requête ou un objet **Recordset** précédemment enregistré.
 
-Utilisez l'argument *Source* facultatif pour spécifier une source de données à l'aide d'un des éléments suivants : variable objet **Command**, instruction SQL, procédure stockée, nom de table, URL ou nom de chemin d'accès complet d'un fichier. Si *source* est un nom de chemin d'accès de fichier, il peut s'agir d'un\\chemin\\d'accès complet («c: dir. RST»), d'un chemin d'accès relatif («.. \\file. RST ") ou une URL ("https://files/file.rst").
+Utilisez l'argument *Source* facultatif pour spécifier une source de données à l'aide d'un des éléments suivants : variable objet **Command**, instruction SQL, procédure stockée, nom de table, URL ou nom de chemin d'accès complet d'un fichier. Si *source* est un nom de chemin d’accès de fichier, il peut s’agit d’un chemin d’accès complet (« c: \\ dir \\ file.rst »), \\ d’un chemin d’accès relatif (« . file.rst »), ou une URL ( » https://files/file.rst « ).
 
 Il est déconseillé d’utiliser l’argument *Source* de la méthode **Open** pour exécuter une requête Action qui ne retourne pas d’enregistrement car il est toujours difficile de déterminer si l’appel a réussi ou échoué. L’objet **Recordset** retourné par ce type de requête sera fermé. Appelez plutôt la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) d’un objet **Command** ou la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) d’un objet **Connection** pour exécuter une requête qui ne retourne pas d’enregistrement, comme une instruction INSERT SQL.
 
-L’argument *ConnexionActive* correspond à la propriété [ActiveConnection](activeconnection-property-ado.md) et spécifie la connexion dans laquelle ouvrir l’objet **Recordset**. Si vous transférez une définition de connexion pour cet argument, ADO ouvre une nouvelle connexion à l'aide des paramètres spécifiés. Après l'ouverture de l' **objet Recordset** avec un curseur côté client (**CursorLocation** = **adUseClient**), vous pouvez modifier la valeur de cette propriété pour envoyer des mises à jour à un autre fournisseur. Vous pouvez également attribuer la valeur **Nothing** (en Microsoft Visual Basic) ou NULL à cette propriété pour déconnecter l'objet **Recordset** de tous les fournisseurs. La modification de **ConnexionActive** pour un curseur côté serveur génère, en revanche, une erreur.
+L’argument *ConnexionActive* correspond à la propriété [ActiveConnection](activeconnection-property-ado.md) et spécifie la connexion dans laquelle ouvrir l’objet **Recordset**. Si vous transférez une définition de connexion pour cet argument, ADO ouvre une nouvelle connexion à l'aide des paramètres spécifiés. Après avoir ouvert le **recordset** avec un curseur côté client (**CursorLocation**  =  **adUseClient**), vous pouvez modifier la valeur de cette propriété pour envoyer des mises à jour à un autre fournisseur. Vous pouvez également attribuer la valeur **Nothing** (en Microsoft Visual Basic) ou NULL à cette propriété pour déconnecter l'objet **Recordset** de tous les fournisseurs. La modification de **ConnexionActive** pour un curseur côté serveur génère, en revanche, une erreur.
 
 En ce qui concerne les autres arguments correspondant directement aux propriétés d'un objet **Recordset** (*Source*, *TypeCurseur* et *TypeVerrou*), la relation entre les arguments et les propriétés est la suivante :
 
@@ -74,7 +74,7 @@ Si la source de données ne retourne aucun enregistrement, le fournisseur affect
 
 Lorsque vous avez terminé les opérations relatives à un objet **Recordset** ouvert, utilisez la méthode [Close](close-method-ado.md) pour libérer les ressources système associées. La fermeture d’un objet ne le supprime pas de la mémoire ; vous pouvez modifier les paramètres de ses propriétés et utiliser la méthode **Open** pour le rouvrir ultérieurement. Pour éliminer définitivement un objet de la mémoire, attribuez à la variable objet la valeur *Nothing*.
 
-Avant de définir la propriété **ActiveConnection** , appelez la méthode **Open** sans opérande pour créer une instance d'un **objet Recordset** créée par l'ajout de champs à la collection Fields de l' **objet Recordset** [](fields-collection-ado.md) .
+Avant de **définir la propriété ActiveConnection,** appelez **Open** sans opérande pour créer une instance d’un jeu **d’enregistrements** créée en axant des champs à la collection **Recordset** [Fields.](fields-collection-ado.md)
 
 Si vous avez attribué à la propriété [CursorLocation](cursorlocation-property-ado.md) la valeur **adUseClient**, vous disposez de deux possibilités pour récupérer des lignes de façon asynchrone. La méthode recommandée consiste à attribuer à *Options* la valeur **adAsyncFetch**. Vous pouvez, par ailleurs, utiliser la propriété dynamique « Asynchronous Rowset Processing » dans la collection [Properties](properties-collection-ado.md) mais il se peut que vous perdiez des événements récupérés si vous n'attribuez pas au paramètre **Options** la valeur **adAsyncFetch**.
 
@@ -82,6 +82,6 @@ Si vous avez attribué à la propriété [CursorLocation](cursorlocation-propert
 > L'extraction en arrière-plan dans le fournisseur distant Microsoft est pris en charge uniquement par le paramètre *Options* de la méthode **Open**.
 
 > [!NOTE]
-> Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
+> Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [URL absolues et relatives.](absolute-and-relative-urls.md)
 
 

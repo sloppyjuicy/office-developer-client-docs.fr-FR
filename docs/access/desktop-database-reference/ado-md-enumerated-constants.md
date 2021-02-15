@@ -20,7 +20,7 @@ ms.locfileid: "32283302"
 
 Pour faciliter le débogage, les constantes énumérées ADO MD répertorient une valeur pour chaque constante. Cependant, cette valeur est purement indicative et peut changer d'une version d'ADO MD à l'autre. Votre code doit uniquement dépendre du nom, et non de la valeur réelle, des constantes énumérées.
 
-L'énumération suivante est définie:
+L’éumération suivante est définie :
 
 - [MemberTypeEnum](membertypeenum.md)
 

@@ -1,5 +1,5 @@
 ---
-title: PermissionEnum, énumération (DAO)
+title: PermissionEnum, éumération (DAO)
 TOCTitle: PermissionEnum Enumeration
 ms:assetid: dcce9940-f8a7-e915-1b69-05c341bea8cd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835373(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287709"
 ---
-# <a name="permissionenum-enumeration-dao"></a>PermissionEnum, énumération (DAO)
+# <a name="permissionenum-enumeration-dao"></a>PermissionEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -37,27 +37,27 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 <tbody>
 <tr class="odd">
 <td><p>dbSecCreate</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>L'utilisateur peut créer des documents (non valide pour les objets Document).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbSecDBAdmin</p></td>
-<td><p>8bits</p></td>
+<td><p>8 </p></td>
 <td><p>L'utilisateur peut répliquer une base de données et modifier le mot de passe de la base de données (non valide pour les objets Document).</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecDBCreate</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>L'utilisateur peut créer des bases de données. Cette option est valide uniquement sur le conteneur de bases de données du fichier de groupe de travail (Systen.mdw). Cette constante n'est pas valide pour les objets Document.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbSecDBExclusive</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>L'utilisateur dispose d'un accès en mode exclusif à la base de données.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecDBOpen</p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>L'utilisateur peut ouvrir la base de données.</p></td>
 </tr>
 <tr class="even">
@@ -87,7 +87,7 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 </tr>
 <tr class="odd">
 <td><p>dbSecReadDef</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>L'utilisateur peut lire la définition de table, notamment les informations d'index et de colonne.</p></td>
 </tr>
 <tr class="even">
@@ -102,7 +102,7 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 </tr>
 <tr class="even">
 <td><p>dbSecRetrieveData</p></td>
-<td><p>vingtaine</p></td>
+<td><p>20</p></td>
 <td><p>L'utilisateur peut récupérer des données de l'objet Document.</p></td>
 </tr>
 <tr class="odd">

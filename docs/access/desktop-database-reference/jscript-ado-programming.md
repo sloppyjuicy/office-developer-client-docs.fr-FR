@@ -26,11 +26,11 @@ Microsoft JScript ne prend pas en charge les bibliothèque de types ; vous n'ave
 
 En revanche, ADO comporte deux fichiers contenant les définitions suivantes à utiliser avec JScript :
 
-- Pour les scripts côté serveur, utilisez Adojavas. Inc, qui est installé par défaut dans le\\dossier ADO\\\\\\\\ du système de fichiers communs c: Program Files.
+- Pour les scripts côté serveur, utilisez Adojavas.inc, qui est installé dans le dossier c: \\ Program Files Common Files System \\ \\ \\ ado par \\ défaut.
 
-- Pour les scripts côté client, utilisez Adcjavas. Inc, qui est installé par défaut dans le\\dossier du\\système\\\\de fichiers communs\\ c: Program Files MSDAC.
+- Pour les scripts côté client, utilisez Adcjavas.inc, qui est installé par défaut dans le dossier \\ \\ \\ \\ msdac du système de fichiers communs program \\ files.
 
-Vous pouvez copier et coller les définitions des constantes de ces fichiers dans vos pages ASP ou, si vous effectuez un script côté serveur, copiez le fichier Adojavas. Inc dans un dossier de votre site Web et référencez-le à partir de votre page ASP comme suit:
+Vous pouvez copier et coller des définitions de constantes de ces fichiers dans vos pages ASP ou, si vous faites des scripts côté serveur, copiez le fichier Adojavas.inc dans un dossier de votre site web et référencez-le à partir de votre page ASP comme ceci :
 
 ```javascript  
  

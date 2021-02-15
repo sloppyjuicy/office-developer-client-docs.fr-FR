@@ -1,5 +1,5 @@
 ---
-title: ParameterDirectionEnum, énumération (DAO)
+title: ParameterDirectionEnum, éumération (DAO)
 TOCTitle: ParameterDirectionEnum Enumeration
 ms:assetid: 3f2b91f4-a932-aca5-34a0-4002c27d6b3b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192844(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287987"
 ---
-# <a name="parameterdirectionenum-enumeration-dao"></a>ParameterDirectionEnum, énumération (DAO)
+# <a name="parameterdirectionenum-enumeration-dao"></a>ParameterDirectionEnum, éumération (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -37,22 +37,22 @@ Cette énumération est utilisée avec la propriété **Direction** pour spécif
 <tbody>
 <tr class="odd">
 <td><p>dbParamInput</p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>(Valeur par défaut) Transmet des informations à la procédure.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbParamInputOutput</p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Transmet des informations de la procédure et à la procédure.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Plutôt dbParamOutput</p></td>
-<td><p>n°2</p></td>
+<td><p>dbParamOutput</p></td>
+<td><p>2 </p></td>
 <td><p>Renvoie des informations de la procédure en tant que paramètre de sortie dans SQL.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbParamReturnValue</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Transmet la valeur de retour d'une procédure.</p></td>
 </tr>
 </tbody>

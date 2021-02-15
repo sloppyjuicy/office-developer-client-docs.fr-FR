@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280521"
 ---
-# <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_de l'énumération
+# <a name="adcprop_autorecalc_enum"></a>ADCPROP \_ AUTORECALC \_ ENUM
 
 **S’applique à** : Access 2013, Office 2013
 
 Indique si le fournisseur [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) recalcule les colonnes regroupées et calculées dans un Recordset hiérarchique.
 
-Ces constantes sont utilisées uniquement avec le fournisseur **MSDataShape** et la propriété dynamique «**auto Recalc**» du **Recordset** , qui est référencée dans l'index des [propriétés dynamiques ADO](ado-dynamic-property-index.md) et expliquée dans le [service de curseur Microsoft pour OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) ou [Microsoft Data Shaping Service pour la documentation OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) .
+Ces constantes sont utilisées uniquement avec le fournisseur **MSDataShape** et la propriété dynamique **Recordset** «**Auto Recalc**», qui est référencé dans l’index des propriétés dynamiques [ADO](ado-dynamic-property-index.md) et documenté dans la documentation du service de curseur Microsoft pour [OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) ou Microsoft Data Shaping Service pour la documentation [OLE DB.](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
 
 <br/>
 
@@ -40,7 +40,7 @@ Ces constantes sont utilisées uniquement avec le fournisseur **MSDataShape** et
 <tbody>
 <tr class="odd">
 <td><p><strong>adRecalcAlways</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Par défaut. Effectue un nouveau calcul à chaque fois que le fournisseur <strong>MSDataShape</strong> détermine des valeurs modifiées dont dépendent les colonnes calculées.</p></td>
 </tr>
 <tr class="even">

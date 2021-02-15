@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281900"
 ---
-# <a name="adcpropasyncthreadpriorityenum"></a>ADCPROP\_ASYNCTHREADPRIORITY\_de l'énumération
+# <a name="adcprop_asyncthreadpriority_enum"></a>ADCPROP \_ ASYNCTHREADPRIORITY, \_ ÉUM
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -40,27 +40,27 @@ Utilisez ces constantes avec la propriété dynamique « **Background Thread Pri
 <tbody>
 <tr class="odd">
 <td><p><strong>adPriorityAboveNormal</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Définit le niveau de priorité, normal ou maximum.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPriorityBelowNormal</strong></p></td>
-<td><p>n°2</p></td>
+<td><p>2 </p></td>
 <td><p>Définit le niveau de priorité, minimum ou normal.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityHighest</strong></p></td>
-<td><p>disque</p></td>
+<td><p>5 </p></td>
 <td><p>Définit le niveau de priorité le plus élevé possible.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AdPriorityLowest</strong></p></td>
-<td><p>0,1</p></td>
+<td><p>1 </p></td>
 <td><p>Définit le niveau de priorité le plus bas possible.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityNormal</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Définit le niveau de priorité normal.</p></td>
 </tr>
 </tbody>
@@ -81,19 +81,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. AdcPropAsyncThreadPriority. ABOVENORMAL</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.ABOVENORMAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. AdcPropAsyncThreadPriority. BELOWNORMAL</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.BELOWNORMAL</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. AdcPropAsyncThreadPriority. HIGHEST</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.HIGHEST</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. AdcPropAsyncThreadPriority. minimum</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.LOWEST</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. AdcPropAsyncThreadPriority. NORMAL</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.NORMAL</p></td>
 </tr>
 </tbody>
 </table>

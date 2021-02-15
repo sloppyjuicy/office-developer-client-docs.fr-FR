@@ -1,5 +1,5 @@
 ---
-title: Ajout d'enregistrements (référence de base de données de bureau Access)
+title: Ajout d’enregistrements (référence de base de données de bureau Access)
 TOCTitle: Adding records
 ms:assetid: 7a5b27bc-7b28-4f43-b55e-a21edfb9e1b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
@@ -27,6 +27,6 @@ Si vous appelez **AddNew** alors que vous modifiez l'enregistrement actif ou que
 Cette section contient les rubriques suivantes :
 
 - [Ajout de plusieurs champs](adding-multiple-fields.md)
-- [Détermination du mode d'édition](determining-edit-mode.md)
-- [Utilisation de AddNew dans les modes immédiat et batch](using-addnew-in-immediate-and-batch-modes.md)
+- [Détermination du mode Édition](determining-edit-mode.md)
+- [Utilisation de AddNew en mode Immédiat et Batch](using-addnew-in-immediate-and-batch-modes.md)
 

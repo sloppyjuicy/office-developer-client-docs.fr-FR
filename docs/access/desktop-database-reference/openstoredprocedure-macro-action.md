@@ -27,7 +27,7 @@ Dans un projet Access, vous pouvez utiliser l’action **OuvrirProcédureStocké
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **OuvrirProcédureStockée** possède les arguments suivants.
 
@@ -45,7 +45,7 @@ L’action **OuvrirProcédureStockée** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la procédure</strong></p></td>
-<td><p>Nom de la procédure stockée à ouvrir. La zone nom de la <strong>procédure</strong> de la section arguments de l' <strong>action</strong> du volet générateur de macro affiche toutes les procédures stockées dans la base de données active. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirProcédureStockée</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la procédure stockée portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom de la procédure stockée à ouvrir. La <strong>zone Nom de</strong> la procédure de la section Arguments de l’action du volet Générateur de macro affiche toutes les procédures stockées dans la base de données actuelle. <strong></strong> Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirProcédureStockée</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la procédure stockée portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
@@ -65,7 +65,7 @@ Cette action équivaut à double-cliquer sur la procédure stockée dans le vole
 Basculer en mode Création lorsque la procédure stockée est ouverte supprime le paramètre de l’argument **Mode Données** de la procédure stockée. Ce paramètre n’est pas actif, même si l’utilisateur revient en mode Feuille de données.
 
 > [!TIP]
-> - Vous pouvez faire glisser une procédure stockée depuis le volet de navigation vers une ligne d'action de macro. Ceci crée automatiquement une action **OuvrirProcédureStockée** qui ouvre la procédure stockée en mode Feuille de données.
+> - Vous pouvez faire glisser une procédure stockée du volet de navigation vers une ligne d’action de macro. Ceci crée automatiquement une action **OuvrirProcédureStockée** qui ouvre la procédure stockée en mode Feuille de données.
 > - Si vous ne voulez pas afficher les messages système qui s’affichent normalement lorsqu’une procédure stockée est exécutée (indiquant qu’il s’agit d’une procédure stockée et affichant le nombre d’enregistrements concernés), vous pouvez faire appel à l’action **Avertissements** pour supprimer l’affichage de ces messages.
 
 Pour exécuter l’action **OuvrirProcédureStockée** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **OpenStoredProcedure** de l’objet **DoCmd**.

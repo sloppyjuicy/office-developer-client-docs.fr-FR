@@ -1,5 +1,5 @@
 ---
-title: ADORecordsetConstruction interface (ADO)
+title: Interface ADORecordsetConstruction (ADO)
 TOCTitle: ADORecordsetConstruction interface (ADO)
 ms:assetid: 2b53aa6e-3b6f-a996-3967-534215fd586c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281632"
 ---
-# <a name="adorecordsetconstruction-interface-ado"></a>ADORecordsetConstruction interface (ADO)
+# <a name="adorecordsetconstruction-interface-ado"></a>Interface ADORecordsetConstruction (ADO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -32,7 +32,7 @@ Cette interface prend en charge les propriétés ci-après :
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="chapter-property-ado.md">Ch</a></p></td>
+<td><p><a href="chapter-property-ado.md">Chapitre</a></p></td>
 <td><p>Lecture/écriture.<br />
  Extrait/définit un objet <strong>Chapter</strong> OLE DB de/sur cet objet <strong>Recordset</strong> ADO.</p></td>
 </tr>
@@ -42,7 +42,7 @@ Cette interface prend en charge les propriétés ci-après :
  Extrait/définit un objet <strong>RowPosition</strong> OLE DB de/sur cet objet <strong>Recordset</strong> ADO.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">DSO</a></p></td>
+<td><p><a href="rowset-property-ado.md">Rowset</a></p></td>
 <td><p>Lecture/écriture.<br />
  Extrait/définit un objet <strong>Rowset</strong> OLE DB de/sur cet objet <strong>Recordset</strong> ADO.</p></td>
 </tr>
@@ -60,7 +60,7 @@ Aucun.
 
 ## <a name="remarks"></a>Remarques
 
-Étant donné un objet **rowsET** OLE DB (pRowset), la construction d' **** un objet Recordset ADO (), la construction d'un objet **Recordset** ADO (adoRS) se résume aux trois opérations de base suivantes:
+Étant donné un objet **Rowset** OLE DB (pRowset ), la construction d’un objet **Recordset** ADO (), la construction d’un objet **Recordset** ADO (adoRs) revient aux trois opérations de base suivantes :
 
 1. Créez un objet **Recordset** ADO :
     
@@ -76,18 +76,18 @@ Aucun.
          (void**)&adoRsConstruct);
    ```
 
-3. Appelez la méthode de propriété IADORecordsetConstruction\_::p ut pour définir l'objet Rowset OLE DB sur l'objet Recordset ADO:
+3. Appelez la méthode de propriété IADORecordsetConstruction::p ut Rowset pour définir l’objet Rowset OLE DB sur l’objet \_ Recordset ADO :
 
    ```vb     
     IUnknown *pUnk=NULL;
     pRowset->QueryInterface(IID_IUnknown, (void**)&pUnk);
     adoRsConstruct->put_Rowset(pUnk);
    ```
-L'objet qui en résulte représente maintenant **** l'objet Recordset ADO construit à partir de l'objet **rowset** OLE DB.
+L’objet résultant représente désormais l’objet **Recordset** ADO construit à partir de l’objet **Rowset** OLE DB.
 
 Vous pouvez également créer un objet **Recordset** ADO à partir d'un objet **Chapter** ou **RowPosition** OLE DB.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 - **Version :** ADO 2.0 et supérieure
 

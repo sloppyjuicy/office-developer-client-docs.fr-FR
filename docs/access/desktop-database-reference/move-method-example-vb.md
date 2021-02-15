@@ -19,7 +19,7 @@ ms.locfileid: "32288854"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple de code montre comment utiliser la méthode [Move](move-method-ado.md) pour positionner le pointeur d'enregistrement en fonction de l'entrée de l'utilisateur.
+Cet exemple de code montre comment utiliser la méthode [Move](move-method-ado.md) pour positionner le pointeur d’enregistrement en fonction de l’entrée de l’utilisateur.
 
 ```vb 
  

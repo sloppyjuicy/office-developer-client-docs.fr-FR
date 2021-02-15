@@ -31,7 +31,7 @@ Utilisez la propriété **IsolationLevel** pour définir le niveau d'isolation d
 
 La propriété **IsolationLevel** est en accessible lecture et en écriture.
 
-**Utilisation des services de données à distance** Lorsqu'elle est utilisée sur un objet Connection côté client, la propriété **IsolationLevel** ne peut être définie que sur **adXactUnspecified**.
+**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet Connection côté client, la propriété **IsolationLevel** peut être définie uniquement sur **adXactUnspecified**.
 
 Parce que les utilisateurs travaillent avec des objets **Recordset** déconnectés, stockés dans un cache client, il peut y avoir des problèmes liés à la multiplicité des utilisateurs. Par exemple lorsque deux utilisateurs différents tentent de mettre à jour le même enregistrement, Remote Data Service exécute la mise à jour de l'utilisateur dont la requête lui parvient en premier. La demande de mise à jour du second utilisateur échoue et une erreur est générée.
 

@@ -1,5 +1,5 @@
 ---
-title: Interentre les clauses de forme Compute
+title: Clauses COMPUTE de forme intermédiaires
 TOCTitle: Intervening Shape COMPUTE clauses
 ms:assetid: 3e9dcef2-776c-0365-4a92-68e325f7dbb5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249174(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291247"
 ---
-# <a name="intervening-shape-compute-clauses"></a>Interentre les clauses de forme Compute
+# <a name="intervening-shape-compute-clauses"></a>Clauses COMPUTE de forme intermédiaires
 
 
 **S’applique à** : Access 2013, Office 2013

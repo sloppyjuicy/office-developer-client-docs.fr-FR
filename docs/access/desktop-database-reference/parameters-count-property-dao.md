@@ -1,5 +1,5 @@
 ---
-title: ParaMeters. Count, propriété (DAO)
+title: Parameters.Count, propriété (DAO)
 TOCTitle: Count Property
 ms:assetid: bc8c814b-da55-22b7-431f-a0f7e6cac994
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822720(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287873"
 ---
-# <a name="parameterscount-property-dao"></a>ParaMeters. Count, propriété (DAO)
+# <a name="parameterscount-property-dao"></a>Parameters.Count, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
@@ -23,9 +23,9 @@ Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Compte
+*.* Count
 
-*expression* Variable qui représente un objet **** Parameters.
+*expression* Variable qui représente un **objet Parameters.**
 
 ## <a name="remarks"></a>Remarques
 

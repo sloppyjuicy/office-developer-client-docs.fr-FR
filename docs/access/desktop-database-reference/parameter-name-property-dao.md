@@ -1,5 +1,5 @@
 ---
-title: Propriété Parameter.Name (DAO)
+title: Parameter.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 5ad1d2be-de1a-81e8-9d97-959f4cc577ba
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194497(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288097"
 ---
-# <a name="parametername-property-dao"></a>Propriété Parameter.Name (DAO)
+# <a name="parametername-property-dao"></a>Parameter.Name property (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie le nom de l'objet spécifié. Type de données **String** en lecture seule.
+Renvoie le nom de l'objet spécifié. **String** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Nom
+*.* Nom
 
-*expression* Variable qui représente un objet **Parameter** .
+*expression* Variable qui représente un objet **Parameter.**
 

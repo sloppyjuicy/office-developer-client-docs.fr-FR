@@ -1,5 +1,5 @@
 ---
-title: Propriétés de position, méthodes et événements (ADO MD)
+title: Position des propriétés, méthodes et événements (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: b1d770c4-82ae-1536-ff60-638c11882087
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249848(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287551"
 ---
-# <a name="position-properties-methods-and-events-ado-md"></a>Propriétés de position, méthodes et événements (ADO MD)
+# <a name="position-properties-methods-and-events-ado-md"></a>Position des propriétés, méthodes et événements (ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propriétés/Collections
 
 - [Members, collection](members-collection-ado-md.md)
-- [Ordinal, propriété (position)](ordinal-property-ado-md-position.md)
+- [Propriété Ordinal (Position)](ordinal-property-ado-md-position.md)
 
 ## <a name="methods"></a>Méthodes
 

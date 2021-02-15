@@ -25,11 +25,11 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes 
 
 ## <a name="methods"></a>Méthodes
 
-- [AddNew, méthode-exemple](addnew-method-example-vbscript.md)
-- [Clone, méthode-exemple](clone-method-example-vbscript.md)
-- [Delete, méthode-exemple](delete-method-example-vbscript.md)
-- [Execute, Requery et Clear, méthodes-exemple](execute-requery-and-clear-methods-example-vbscript.md)
+- [AddNew, méthode - Exemple](addnew-method-example-vbscript.md)
+- [Clone, méthode - Exemple](clone-method-example-vbscript.md)
+- [Delete, méthode - Exemple](delete-method-example-vbscript.md)
+- [Execute, Requery et Clear, méthodes - Exemple](execute-requery-and-clear-methods-example-vbscript.md)
 - [Move (méthode) – Exemple](move-method-example-vbscript.md)
-- [MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes-exemple](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
-- [Open et Close, méthodes-exemple](open-and-close-methods-example-vbscript.md)
+- [MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes - Exemple](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
+- [Open et Close, méthodes - Exemple](open-and-close-methods-example-vbscript.md)
 

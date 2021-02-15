@@ -1,5 +1,5 @@
 ---
-title: Recordset. LastUpdated, propriété (DAO)
+title: Recordset.LastUpdated, propriété (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 091a8e10-01c0-20af-7230-cd7103c243a1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845045(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32284812"
 ---
-# <a name="recordsetlastupdated-property-dao"></a>Recordset. LastUpdated, propriété (DAO)
+# <a name="recordsetlastupdated-property-dao"></a>Recordset.LastUpdated, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie la date et l'heure de la dernière modification apportée à une table de base. Type **Variant** en lecture seule.
+Renvoie la date et l'heure de la dernière modification apportée à une table de base. **Variant** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . LastUpdated
+*.* LastUpdated
 
-*expression* Variable qui représente un objet **Recordset** .
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="remarks"></a>Remarques
 

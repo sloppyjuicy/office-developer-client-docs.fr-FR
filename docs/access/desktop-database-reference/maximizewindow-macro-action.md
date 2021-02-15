@@ -22,7 +22,7 @@ ms.locfileid: "32289748"
 
 **S’applique à** : Access 2013, Office 2013
 
-Si Access est configuré pour utiliser des fenêtres superposées au lieu des documents à onglets, vous pouvez utiliser l'action **agrandirfenêtre** pour agrandir la fenêtre active afin qu'elle remplisse la fenêtre Access. Cette action vous permet de voir la plus grande partie possible de l'objet dans la fenêtre active.
+Si Access est configuré pour utiliser des fenêtres superposées au  lieu de documents à onglets, vous pouvez utiliser l’action AgrandirVente pour agrandir la fenêtre active afin qu’elle remplisse la fenêtre Access. Cette action vous permet de voir la plus grande partie possible de l'objet dans la fenêtre active.
 
 > [!NOTE]
 > [!REMARQUE] Cette action ne peut pas être appliquée à des fenêtres Code de Visual Basic Editor. Pour plus d'informations sur la modification des fenêtres Code, consultez la rubrique de la propriété **WindowState**.

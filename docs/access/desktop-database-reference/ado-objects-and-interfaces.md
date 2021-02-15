@@ -18,9 +18,9 @@ ms.locfileid: "32283260"
 
 **S’applique à** : Access 2013, Office 2013
 
-Les relations entre ces objets sont représentées dans le modèle objet ADO (ActiveX Data Objects).
+Les relations entre ces objets sont représentées dans le ActiveX objet Data Objects (ADO).
 
-Chaque objet peut être contenu dans sa collection correspondante. Un objet [Error](error-object-ado.md) peut, par exemple, être contenu dans une collection [Errors](errors-collection-ado.md). Pour plus d'informations, reportez-vous à [Collections ADO](ado-collections.md) ou à une rubrique de collection spécifique.
+Chaque objet peut être contenu dans sa collection correspondante. Un objet [Error](error-object-ado.md) peut, par exemple, être contenu dans une collection [Errors](errors-collection-ado.md). Pour plus d’informations, voir [les collections ADO](ado-collections.md) ou une rubrique de collection spécifique.
 
 <br/>
 
@@ -59,11 +59,11 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 <td><p>Représente une colonne de données avec un type de données commun.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parameter-object-ado.md">Parameter</a></p></td>
+<td><p><a href="parameter-object-ado.md">Paramètre</a></p></td>
 <td><p>Représente un paramètre ou un argument associé à un objet <strong>Command </strong> basé sur une requête paramétrée ou une procédure stockée.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="property-object-ado.md">Property</a></p></td>
+<td><p><a href="property-object-ado.md">Propriété</a></p></td>
 <td><p>Représente une caractéristique dynamique d'un objet ADO qui est définie par le fournisseur.</p></td>
 </tr>
 <tr class="odd">

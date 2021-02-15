@@ -30,13 +30,13 @@ Categories\{7DD95801-9882-11CF-9FA9-00AA006C42C4}]
 Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}] 
 ```
 
-où \< *MyActiveXGUID* \> est le numéro de GUID hexadécimal de votre objet métier. Save it and merge it into your registry by using the Registry Editor or double-clicking the .reg file in Windows Explorer.
+où \< *MyActiveXGUID* est le numéro \> GUID hexadécimal de votre objet métier. Save it and merge it into your registry by using the Registry Editor or double-clicking the .reg file in Windows Explorer.
 
-Les objets métier créés dans Microsoft Visual Basic peuvent être automatiquement marqués comme étant «sûrs pour l'écriture de scripts» dans l'Assistant emPaquetage et déploiement. Lorsque l'Assistant vous demande de spécifier les paramètres de sécurité, sélectionnez **Initialisation sécurisée** et **Scripts sécurisés**.
+Les objets métier créés dans Microsoft Visual Basic peuvent être automatiquement marqués comme « sécurisés pour l’écriture de scripts » à l’aide de l’Assistant Package et Déploiement. Lorsque l'Assistant vous demande de spécifier les paramètres de sécurité, sélectionnez **Initialisation sécurisée** et **Scripts sécurisés**.
 
 En dernier lieu, l'Assistant Configuration de l'application crée un fichier .htm et un fichier .cab. Vous pouvez copier ces deux fichiers sur l'ordinateur cible et double-cliquer sur le fichier .htm pour charger la page et enregistrer correctement le serveur.
 
-Étant donné que l'objet métier est installé par défaut\\dans\\le répertoire Windows system32 occache, déplacez-le vers\\le répertoire Windows system32 et modifiez le **CLSID\\\\ racine de la classe\_\_HKEY** . \<Clé de Registre *MyActiveXGUID*\>\\**InprocServer32** correspondant au chemin d'accès correct.
+Étant donné que l’objet métier sera installé dans le répertoire Windows System32 Occache par défaut, déplacez-le dans le répertoire Windows System32 et modifiez la clé de Registre \\ \\ \\ **\_ HKEY CLASSES \_ ROOT \\ CLSID \\** \< *MyActiveXGUID* \> \\ **InprocServer32** pour qu’elle corresponde au chemin d’accès correct.
 
 
 > [!NOTE]

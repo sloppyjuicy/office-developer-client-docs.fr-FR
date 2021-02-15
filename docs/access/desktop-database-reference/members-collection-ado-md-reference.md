@@ -1,5 +1,5 @@
 ---
-title: Members, collection (référence ADO MD)
+title: Collection Members (référence ADO MD)
 TOCTitle: Members collection (ADO MD)
 ms:assetid: 7365afa6-2b59-404c-a6f7-ca2104303d3a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249470(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289387"
 ---
-# <a name="members-collection-ado-md-reference"></a>Members, collection (référence ADO MD)
+# <a name="members-collection-ado-md-reference"></a>Collection Members (référence ADO MD)
 
 **S’applique à** : Access 2013, Office 2013
 
 - [Members, collection (ADO MD)](members-collection-ado-md.md)
-- [Members, collection-propriétés, méthodes et événements (ADO MD)](members-collection-properties-methods-and-events-ado-md.md)
+- [Members collection properties, methods, and events (ADO MD)](members-collection-properties-methods-and-events-ado-md.md)
 

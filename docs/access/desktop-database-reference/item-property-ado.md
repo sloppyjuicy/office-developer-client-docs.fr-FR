@@ -22,7 +22,7 @@ Indique membre spécifique d'une collection, par son nom ou son nombre ordinal.
 
 ## <a name="syntax"></a>Syntaxe
 
-Définir la*collection*d'*objets* = . Item (index)
+Définir la collection  =  *d’objets*. Item ( Index )
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,7 +30,7 @@ Renvoie une référence à un objet.
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*Index* |Une expression **Variant** qui correspond soit au nom, soit au nombre ordinal d'un objet dans une collection.|
 

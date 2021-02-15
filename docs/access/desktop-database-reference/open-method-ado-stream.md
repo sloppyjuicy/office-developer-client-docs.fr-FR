@@ -24,13 +24,13 @@ Ouvre un objet [Stream](stream-object-ado.md) pour manipuler des flux de donnée
 
 ## <a name="syntax"></a>Syntaxe
 
-*Stream*. Open *source*, *mode*, *OpenOptions*, *username*, *Password*
+*Stream*. Open *Source*, *Mode*, *OpenOptions*, *UserName*, *Password*
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
-|*Source* |Facultatif. Valeur de type **Variant** qui spécifie la source de données de l'objet **Stream**. La *source* peut contenir une chaîne d'URL absolue qui pointe vers un nœud existant dans une arborescence connue, comme un système de fichiers ou de messagerie. Une URL doit être spécifiée à l'aide du mot clé URL (**«URL = Scheme://*Server*/*Folder*»). *Source* peut également contenir une référence à un objet [Record](record-object-ado.md) déjà ouvert, qui ouvre le flux par défaut associé à l’objet **Record**. Si *Source* n’est pas spécifié, un objet **Stream** est instancié et ouvert, sans association par défaut à une source sous-jacente. Pour plus d'informations sur les schémas d'URL et leurs fournisseurs associés, voir [URL absolues et relatives](absolute-and-relative-urls.md).|
+|*Source* |Facultatif. Valeur de type **Variant** qui spécifie la source de données de l'objet **Stream**. *La source* peut contenir une chaîne d’URL absolue qui pointe vers un nœud existant dans une arborescence connue, comme un système de messagerie ou de fichiers. Une URL doit être spécifiée à l’aide du mot clé URL (« URL=*scheme*://*server* / *folder*« ). *Source* peut également contenir une référence à un objet [Record](record-object-ado.md) déjà ouvert, qui ouvre le flux par défaut associé à l’objet **Record**. Si *Source* n’est pas spécifié, un objet **Stream** est instancié et ouvert, sans association par défaut à une source sous-jacente. Pour plus d’informations sur les schémas d’URL et leurs fournisseurs associés, voir [URL absolues et relatives.](absolute-and-relative-urls.md)|
 |*Mode* |Facultatif. Valeur [ConnectModeEnum](connectmodeenum.md) qui spécifie le mode d’accès de l’objet **Stream** résultant (par exemple, lecture/écriture ou en lecture seule). La valeur par défaut est **adModeUnknown**. Pour plus d’informations sur les modes d’accès, consultez la propriété [Mode](mode-property-ado.md). Si *Mode* n’est pas spécifié, il est hérité de l’objet source. Par exemple, si l’objet **Record** source est ouvert en lecture seule, l’objet **Stream** sera également ouvert en lecture seule par défaut.|
 |*OpenOptions* |Facultatif. Valeur [StreamOpenOptionsEnum](streamopenoptionsenum.md). La valeur par défaut est **adOpenStreamUnspecified**.|
 |*UserName* |Facultatif. Valeur de type **String** contenant l'ID utilisateur qui, le cas échéant, accède à l'objet **Stream**.|
@@ -38,7 +38,7 @@ Ouvre un objet [Stream](stream-object-ado.md) pour manipuler des flux de donnée
 
 ## <a name="remarks"></a>Remarques
 
-Lorsqu'un objet **Record** est transmis en tant que paramètre source, les paramètres *userid* et *Password* ne sont pas utilisés car l'accès à l'objet **Record** est déjà disponible. De même, le [mode](mode-property-ado.md) de l'objet **Record** est transféré à l'objet **Stream** . Lorsque *source* n'est pas spécifié, le **flux** ouvert ne contient pas de données et a une [taille](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) égale à zéro (0). To avoid losing any data that is written to this **Stream** when the **Stream** is closed, save the **Stream** with the [CopyTo](copyto-method-ado.md) or [SaveToFile](savetofile-method-ado.md) methods, or save it to another memory location.
+**Lorsqu’un objet Record** est transmis en tant que paramètre source, les paramètres *UserID* et *Password* ne sont pas utilisés car l’accès à l’objet **Record** est déjà disponible. De même, le [mode de](mode-property-ado.md) l’objet **Record** est transféré vers **l’objet Stream.** Lorsque *la source* n’est pas spécifiée, le **flux** ouvert ne contient aucune donnée et a la [taille](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) zéro (0). To avoid losing any data that is written to this **Stream** when the **Stream** is closed, save the **Stream** with the [CopyTo](copyto-method-ado.md) or [SaveToFile](savetofile-method-ado.md) methods, or save it to another memory location.
 
 Si *OptionsOuverture* a la valeur **adOpenStreamFromRecord**, le contenu du paramètre *Source* est identifié comme un objet **Record** déjà ouvert. Le comportement par défaut consiste à traiter *Source* comme une URL qui pointe directement vers un nœud d’une arborescence, par exemple un fichier. Le flux par défaut associé à ce nœud est ouvert.
 

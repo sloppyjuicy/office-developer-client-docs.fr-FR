@@ -27,7 +27,7 @@ Utilisez l'action **OuvrirModuleVisualBasic** pour ouvrir un module Visual Basic
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **OuvrirModuleVisualBasic** utilise les arguments suivants :
 
@@ -60,7 +60,7 @@ L’action **OuvrirModuleVisualBasic** utilise les arguments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser cette action pour ouvrir une procédure événementielle en spécifiant les arguments **Nom du module** et **Nom de la procédure**. Par exemple, pour ouvrir la procédure événementielle **Click** du bouton PrintInvoice du formulaire commandes, définissez l'argument **nom du module** sur **formulaire. Orders** et définissez l'argument nom de la **procédure** sur **PrintInvoice\_**. Pour afficher la procédure événementielle d'un formulaire ou d'un état, celui-ci doit être ouvert.
+Vous pouvez utiliser cette action pour ouvrir une procédure événementielle en spécifiant les arguments **Nom du module** et **Nom de la procédure**. Par exemple, pour  ouvrir la procédure événement de clic du bouton ImprimerInvoice dans le formulaire Commandes, définissez l’argument Nom du **module** sur **Form.Orders** et définissez l’argument  Nom de procédure sur **ImprimerInvoice \_** Clic . Pour afficher la procédure événementielle d'un formulaire ou d'un état, celui-ci doit être ouvert.
 
 De même, pour ouvrir une procédure dans un module de classe, vous devez spécifier le nom du module, bien que celui-ci ne doit pas être ouvert.
 

@@ -92,7 +92,7 @@ Le fournisseur prend en charge plusieurs paramètres de connexion qui lui sont s
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -115,7 +115,7 @@ La langue doit être installée sur le serveur SQL ; sinon, la tentative de con
 </tr>
 <tr class="even">
 <td><p>Network Library</p></td>
-<td><p>Indique le nom de la bibliothèque réseau (bibliothèques de liens dynamiques) utilisée pour communiquer avec le serveur SQL. Le nom ne doit pas inclure le chemin d’accès ni l’extension de nom de fichier .dll. La valeur par défaut est fournie par la configuration du client SQL Server.</p></td>
+<td><p>Indique le nom de la bibliothèque réseau (bibliothèques de liens dynamiques) utilisée pour communiquer avec le serveur SQL. Le nom ne doit pas inclure le chemin d’accès ni l’extension de nom de fichier .dll. La valeur par défaut est fournie par la configuration SQL Server client.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Use Procedure for Prepare</p></td>
@@ -530,7 +530,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>DBPROP_IColumnsRowset</p></td>
 </tr>
 <tr class="even">
-<td><p>Interfaces</p></td>
+<td><p>IConnectionPointContainer</p></td>
 <td><p>DBPROP_IConnectionPointContainer</p></td>
 </tr>
 <tr class="odd">
@@ -826,7 +826,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>DBPROP_IColumnsRowset</p></td>
 </tr>
 <tr class="odd">
-<td><p>Interfaces</p></td>
+<td><p>IConnectionPointContainer</p></td>
 <td><p>DBPROP_IConnectionPointContainer</p></td>
 </tr>
 <tr class="even">
@@ -1046,7 +1046,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>SSPROP_STREAM_XMLROOT</p></td>
 </tr>
 <tr class="even">
-<td><p>XSLT</p></td>
+<td><p>XSL</p></td>
 <td><p>SSPROP_STREAM_XSL</p></td>
 </tr>
 </tbody>

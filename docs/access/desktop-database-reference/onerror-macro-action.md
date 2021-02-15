@@ -35,7 +35,7 @@ L’action **SurErreur** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument d’action</p></th>
+<th><p>Argument de l’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -51,7 +51,7 @@ L’action **SurErreur** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Setting</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -65,7 +65,7 @@ L’action **SurErreur** possède les arguments suivants.
 <td><p>Access arrête l’exécution de la macro active et exécute la macro dont le nom figure dans l’argument <strong>Nom de la macro</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Fonctionner</strong></p></td>
+<td><p><strong>Échec</strong></p></td>
 <td><p>Access arrête l'exécution de la macro active et affiche un message d'erreur.</p></td>
 </tr>
 </tbody>
@@ -75,7 +75,7 @@ L’action **SurErreur** possède les arguments suivants.
 </tr>
 <tr class="even">
 <td><p>Nom macro</p></td>
-<td><p>Si l'argument atteindre est défini sur nom de la macro, tapez le nom de la macro à utiliser pour la gestion des erreurs. Le nom que vous tapez doit correspondre à un nom dans la colonne nom de la <strong>macro</strong> de la macro active; vous ne pouvez pas entrer le nom d'un autre objet de macro. Dans l'exemple ci-dessous, la macro <strong>ErrorHandler</strong> est contenue dans le même objet macro que l'action SurErreur. <strong></strong> Cet argument doit rester vide si l’argument Atteindre est défini sur <strong>Suivant</strong> ou sur <strong>Échec</strong>.</p></td>
+<td><p>Si l’argument Aller à est définie sur Nom de macro, tapez le nom de la macro à utiliser pour la gestion des erreurs. Le nom que vous tapez doit correspondre à un nom dans la <strong>colonne Nom</strong> de macro de la macro en cours ; vous ne pouvez pas entrer le nom d’un autre objet macro. Dans l’exemple ci-dessous, la macro <strong>ErrorHandler</strong> est contenue dans le même objet macro que l’action <strong>OnError.</strong> Cet argument doit rester vide si l’argument Atteindre est défini sur <strong>Suivant</strong> ou sur <strong>Échec</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +89,7 @@ L’action **SurErreur** possède les arguments suivants.
 
 ## <a name="example"></a>Exemple
 
-La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu'une erreur se produit, la sous-macro CatchErrors est appelée. Si le numéro de l'erreur est 2102, un message spécifique s'affiche et l'exécution de la macro est interrompue. Dans le cas contraire, un message décrivant l'erreur s'affiche et la macro est suspendue pour vous permettre d'effectuer des procédures de dépannage supplémentaires. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
+La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu’une erreur se produit, le sous-macro CatchErrors est appelé. Si le numéro d’erreur est 2102, un message spécifique s’affiche et l’exécution des macros est interrompue. Dans le cas contraire, un message décrivant l’erreur s’affiche et la macro est suspendue afin que vous pouvez effectuer un dépannage supplémentaire. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

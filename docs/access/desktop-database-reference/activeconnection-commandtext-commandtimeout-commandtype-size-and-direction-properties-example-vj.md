@@ -1,5 +1,5 @@
 ---
-title: ActiveConnection, CommandText, CommandTimeout, propriétés-exemple (VJ + +)
+title: ActiveConnection, CommandText, CommandTimeout, propriétés - Exemple (VJ++)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)
 ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15)

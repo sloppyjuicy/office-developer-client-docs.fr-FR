@@ -37,7 +37,7 @@ Spécifie les attributs d’un objet [Parameter](parameter-object-ado.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamSigned</strong></p></td>
-<td><p>Seiz</p></td>
+<td><p>16 </p></td>
 <td><p>Indique que le paramètre accepte les valeurs signées.</p></td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ Spécifie les attributs d’un objet [Parameter](parameter-object-ado.md).
 <td><p>Indique que le paramètre accepte les valeurs nulles.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Bit adParamLong</strong></p></td>
+<td><p><strong>adParamLong</strong></p></td>
 <td><p>128</p></td>
 <td><p>Indique que le paramètre accepte les données binaires longues.</p></td>
 </tr>
@@ -69,13 +69,13 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ParameterAttributes. SIGNEd</p></td>
+<td><p>AdoEnums.ParameterAttributes.SIGNED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ParameterAttributes. NULLABLE</p></td>
+<td><p>AdoEnums.ParameterAttributes.NULLABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ParameterAttributes. LONG</p></td>
+<td><p>AdoEnums.ParameterAttributes.LONG</p></td>
 </tr>
 </tbody>
 </table>

@@ -18,13 +18,13 @@ ms.locfileid: "32282463"
 
 **S’applique à** : Access 2013, Office 2013
 
-L'application Carnet d'adresses affiche les boutons de navigation en bas de la page Web. Vous pouvez utiliser ces boutons pour parcourir les données dans la grille HTML en sélectionnant la première ou la dernière ligne de données, ou les lignes adjacentes à la sélection actuelle.
+L’application carnet d’adresses affiche les boutons de navigation en bas de la page web. Vous pouvez utiliser ces boutons pour parcourir les données dans la grille HTML en sélectionnant la première ou la dernière ligne de données, ou les lignes adjacentes à la sélection actuelle.
 
 ## <a name="navigation-sub-procedures"></a>Sous-procédures de navigation
 
 L'application Carnet d'adresses intègre plusieurs procédures qui permettent aux utilisateurs de parcourir les données en cliquant sur les boutons **Première**, **Suivante**, **Précédente** et **Dernière**.
 
-Par exemple, un clic sur le **premier** bouton active la première\_procédure de la sous-routine OnClick de VBScript. Cette procédure exécute une méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), qui fait de la première ligne de données la sélection actuelle. Le fait de cliquer sur le **dernier** bouton\_active la dernière procédure OnClick Sub, qui appelle la méthode [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) , qui fait de la dernière ligne de données la sélection actuelle. Les autres boutons de navigation fonctionnent de la même façon.
+Par exemple, le fait de cliquer sur **le premier** bouton active la procédure VBScript First \_ OnClick Sub. Cette procédure exécute une méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), qui fait de la première ligne de données la sélection actuelle. Le fait **de** cliquer sur le bouton Dernier active la procédure Last OnClick Sub, qui appelle la méthode \_ [MoveLast,](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) faisant de la dernière ligne de données la sélection actuelle. Les autres boutons de navigation fonctionnent de la même façon.
 
 ```vb 
  

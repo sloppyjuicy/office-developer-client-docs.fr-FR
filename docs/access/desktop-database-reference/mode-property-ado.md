@@ -33,5 +33,5 @@ For a **Stream** object, if the access mode is not specified, it is inherited fr
 
 Cette propriété est accessible en lecture/écriture lorsque l'objet est fermé, mais en lecture seule alors qu'il est ouvert.
 
-**Utilisation des services de données à distance** Lorsqu'elle est utilisée sur un objet Connection côté client, la propriété **mode** peut uniquement être définie sur **adModeUnknown**.
+**Utilisation du service de données à distance** Lorsqu’elle est utilisée sur un objet Connection côté client, la propriété **Mode** ne peut être définie que sur **adModeUnknown**.
 

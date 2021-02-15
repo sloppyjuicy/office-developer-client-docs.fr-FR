@@ -1,5 +1,5 @@
 ---
-title: ActiveConnection, CommandText, CommandTimeout, propriétés-exemple (VB)
+title: ActiveConnection, CommandText, CommandTimeout, propriétés - Exemple (VB)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB)
 ms:assetid: dc869f6b-3c48-9fc8-ae3a-5850ed5d3274
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15)

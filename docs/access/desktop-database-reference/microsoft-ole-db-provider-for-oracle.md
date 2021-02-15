@@ -89,7 +89,7 @@ Ces paramètres sont décrits en détail dans le guide OLE DB Programmer's Refer
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

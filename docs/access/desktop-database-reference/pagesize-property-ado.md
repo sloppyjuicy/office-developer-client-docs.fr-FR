@@ -27,7 +27,7 @@ Définit ou retourne une valeur de type **Long** qui indique le nombre d'enregis
 
 ## <a name="remarks"></a>Remarques
 
-La propriété **PageSize** permet de déterminer le nombre d'enregistrements constituant une page logique de données. La définition d'une taille de page vous permet d'utiliser la propriété [AbsolutePage](absolutepage-property-ado.md) pour accéder au premier enregistrement d'une page donnée. Cela est utile dans les scénarios de serveur Web lorsque vous souhaitez autoriser l'utilisateur à parcourir les données en affichant un certain nombre d'enregistrements à la fois.
+La propriété **PageSize** permet de déterminer le nombre d'enregistrements constituant une page logique de données. La définition d'une taille de page vous permet d'utiliser la propriété [AbsolutePage](absolutepage-property-ado.md) pour accéder au premier enregistrement d'une page donnée. Cela est utile dans les scénarios de serveur web lorsque vous souhaitez autoriser l’utilisateur à paginer des données, en visualant un certain nombre d’enregistrements à la fois.
 
 Cette propriété peut être définie à tout moment et sa valeur sera utilisée pour calculer l'emplacement du premier enregistrement d'une page donnée.
 

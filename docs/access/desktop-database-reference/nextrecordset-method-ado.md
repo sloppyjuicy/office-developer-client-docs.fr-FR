@@ -22,7 +22,7 @@ Efface l’objet [Recordset](recordset-object-ado.md) actif et retourne l’obje
 
 ## <a name="syntax"></a>Syntaxe
 
-Définissez *Recordset2* = *JeuEnregistrements1*. NextRecordset (*RecordsAffected* )
+Définir *recordset2*  =  *jeu d’enregistrements1*. NextRecordset(*RecordsAffected* )
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -30,7 +30,7 @@ Retourne un objet **Recordset**. Dans le modèle de syntaxe, *JeuEnregistrements
 
 ## <a name="parameters"></a>Paramètres
 
-|Parameter|Description|
+|Paramètre|Description|
 |:--------|:----------|
 |*RecordsAffected* |Facultatif. Variable de type **Long** dans laquelle le fournisseur retourne le nombre d'enregistrements concernés par l'opération actuelle.|
 
@@ -39,9 +39,9 @@ Retourne un objet **Recordset**. Dans le modèle de syntaxe, *JeuEnregistrements
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **NextRecordset** pour retourner les résultats de la commande suivante dans une instruction de commandes composée ou les résultats d’une procédure stockée qui retourne plusieurs résultats. Si vous ouvrez un **** objet Recordset à partir d'une instruction de commande composée (par exemple, \* «SELECT FROM table1; SÉLECTIONNER \* à partir de Table2 ") [](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) à l'aide de la méthode Execute sur une [commande](command-object-ado.md) ou la méthode [Open](open-method-ado-recordset.md) sur un **objet Recordset**, ADO exécute uniquement la première commande et renvoie les résultats à l' *objet Recordset*. Pour accéder aux résultats des commandes suivantes de l'instruction, appelez la méthode **NextRecordset**.
+Utilisez la méthode **NextRecordset** pour retourner les résultats de la commande suivante dans une instruction de commandes composée ou les résultats d’une procédure stockée qui retourne plusieurs résultats. Si vous ouvrez un **objet Recordset** basé sur une instruction de commande composée (par exemple, « SELECT \* FROM table1 ; SELECT \* FROM table2 ») using the [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method on a [Command](command-object-ado.md) or the [Open](open-method-ado-recordset.md) method on a **Recordset**, ADO executes only the first command and returns the results to *recordset*. Pour accéder aux résultats des commandes suivantes de l'instruction, appelez la méthode **NextRecordset**.
 
-Tant qu'il y a des résultats supplémentaires et que l' **objet Recordset** contenant les instructions composées n'est pas déconnecté ni marshalé au sein des limites de processus, la méthode **NextRecordset** continue de renvoyer les objets **Recordset** . Si une commande de retour de ligne s'exécute correctement mais ne renvoie aucun enregistrement, **** l'objet Recordset renvoyé est ouvert mais vide. Testez ce cas en vérifiant que les propriétés [BOF](bof-eof-properties-ado.md) et [EOF](bof-eof-properties-ado.md) ont toutes deux la **valeur true**. Si une commande non retournant des lignes s'exécute correctement, l'objet **Recordset** retourné est fermé, que vous pouvez vérifier en testant la propriété [State](state-property-ado.md) sur l'objet **Recordset**. Lorsqu'il n'y a plus de ** résultats, Recordset prend la valeur *Nothing*.
+Tant que des résultats supplémentaires  sont obtenus et que le jeu d’enregistrements contenant les instructions composées n’est pas déconnecté ou marshalé au-delà des limites du processus, la méthode **NextRecordset** continue de renvoyer des objets **Recordset.** Si une commande de renvoi de ligne s’exécute correctement mais ne renvoie aucun enregistrement, l’objet **Recordset** renvoyé est ouvert mais vide. Testez ce cas en vérifiant que les propriétés [BOF](bof-eof-properties-ado.md) et [EOF](bof-eof-properties-ado.md) sont toutes deux **vraies.** Si une commande qui ne retourne pas de ligne s’exécute correctement, l’objet **Recordset** renvoyé est fermé, ce que vous pouvez vérifier en testant la propriété [State](state-property-ado.md) sur le **recordset**. Lorsqu’il n’y a plus de résultats, *le jeu* d’enregistrements est définie sur *Nothing*.
 
 La méthode **NextRecordset** n’est pas disponible sur un objet **Recordset** déconnecté, dont la propriété [ActiveConnection](activeconnection-property-ado.md) a la valeur **Nothing** (en Microsoft Visual Basic) ou NULL (dans les autres langages).
 

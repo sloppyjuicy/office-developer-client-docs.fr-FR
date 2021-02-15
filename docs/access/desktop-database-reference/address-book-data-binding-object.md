@@ -54,17 +54,17 @@ Le tableau suivant décrit les paramètres associés à la balise OBJECT.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><em>DHCPv6</em></strong></p></td>
+<td><p><strong><em>CLASSID</em></strong></p></td>
 <td><p>Nombre 128 bits unique qui permet au système d’identifier le type d’objet incorporé. Cet identificateur est conservé dans le Registre système de l’ordinateur local. (Pour en savoir plus sur les ID de classe de l’objet <strong>RDS.DataControl</strong>, consultez <a href="datacontrol-object-rds.md">RDS.DataControl, objet</a>).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>Réf</em></strong></p></td>
+<td><p><strong><em>ID</em></strong></p></td>
 <td><p>Définit un identificateur de niveau document permettant d'identifier l'objet incorporé dans le code.</p></td>
 </tr>
 </tbody>
@@ -82,17 +82,17 @@ Le tableau suivant décrit les paramètres spécifiques à l’objet **RDS.DataC
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">SERVEURS</a></p></td>
-<td><p>Si vous utilisez le protocole HTTP, la valeur est le nom de l'ordinateur serveur précédé par https://.</p></td>
+<td><p><a href="server-property-rds.md">SERVEUR</a></p></td>
+<td><p>Si vous utilisez HTTP, la valeur est le nom de l’ordinateur serveur précédé de https:// .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-property-rds.md">CONNEXIONS</a></p></td>
+<td><p><a href="connect-property-rds.md">CONNECT</a></p></td>
 <td><p>Fournit les informations de connexion nécessaires pour la connexion de l'objet <strong>RDS.DataControl</strong> à SQL Server.</p></td>
 </tr>
 <tr class="odd">

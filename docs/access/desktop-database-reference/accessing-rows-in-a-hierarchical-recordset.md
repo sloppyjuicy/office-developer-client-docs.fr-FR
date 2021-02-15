@@ -29,7 +29,7 @@ L’exemple suivant illustre les étapes nécessaires pour accéder aux lignes d
 4. La boucle interne affiche quatre champs de chaque ligne dans l'objet **Recordset** ajouté.
 
 > [!NOTE] 
-> La propriété [StayInSync](stayinsync-property-ado.md) est définie sur false à des fins d'illustration, afin que vous puissiez voir le changement de chapitre de manière explicite dans chaque itération de la boucle externe. Toutefois, l'exemple sera plus efficace si l'affectation à l'étape 3 est déplacée avant la première ligne de l'étape 2, afin que l'affectation ne soit effectuée qu'une seule fois. Affectez à la propriété **StayInSync** la valeur true, afin que *rstTitleAuthor* passe implicitement et automatiquement le chapitre correspondant dès que *RST* se déplace vers une nouvelle ligne.
+> La [propriété StayInSync](stayinsync-property-ado.md) est définie sur FALSE à des fins d’illustration, afin que vous pouvez voir le changement de chapitre explicitement dans chaque itération de la boucle externe. Toutefois, l’exemple sera plus efficace si l’affectation à l’étape 3 est déplacée avant la première ligne de l’étape 2, afin que l’affectation ne soit effectuée qu’une seule fois. Définissez **la propriété StayInSync** sur TRUE, afin que *rstTitleAuthor* passe implicitement et automatiquement au chapitre correspondant chaque fois que *rst* passe à une nouvelle ligne.
 
 **Exemple**
 

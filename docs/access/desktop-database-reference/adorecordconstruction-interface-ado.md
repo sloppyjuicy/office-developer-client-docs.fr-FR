@@ -56,7 +56,7 @@ Aucun.
 
 ## <a name="remarks"></a>Remarques
 
-Étant donné un objet **Row** OLE DB (Prow), la construction d'un objet ADO **Record** (), la construction d'un objet **Record** ADO (Ador), se résume aux trois opérations de base suivantes:
+Étant donné un objet row OLE **DB** (pRow), la construction d’un objet **Record** ADO (), la construction d’un objet **Record** ADO (adoR), revient aux trois opérations de base suivantes :
 
 1.  Créez un objet ADO **Record**:
     
@@ -73,7 +73,7 @@ Aucun.
                             (void**)&adoRConstruct);
     ```
 
-3.  Appelez la méthode de propriété **IADORecordConstruction\_::p ut** pour définir l'objet **Row** OLE DB sur l'objet **Record** ADO:
+3.  Appelez la méthode de propriété **IADORecordConstruction::p ut \_ Row** pour définir l’objet row OLE **DB** sur l’objet **Record** ADO :
     
     ```vb
         IUnknown *pUnk=NULL;
@@ -85,7 +85,7 @@ L'objet **adoR** qui en résulte représente maintenant l'objet **Record** ADO c
 
 Un objet **Record** ADO peut également être créé à partir du conteneur d'un objet **Row** OLE DB.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 **Version :** ADO 2.0 et supérieure
 
