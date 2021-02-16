@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - ConvertXLRef12ToXLRef
 keywords:
-- fonction ConvertXLRef12ToXLRef [Excel 2007]
+- fonction convertxlref12toxlref [excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -18,35 +18,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432652"
 ---
-# <a name="convertxlref12toxlref"></a><span data-ttu-id="f997c-104">ConvertXLRef12ToXLRef</span><span class="sxs-lookup"><span data-stu-id="f997c-104">ConvertXLRef12ToXLRef</span></span>
+# <a name="convertxlref12toxlref"></a><span data-ttu-id="13d57-104">ConvertXLRef12ToXLRef</span><span class="sxs-lookup"><span data-stu-id="13d57-104">ConvertXLRef12ToXLRef</span></span>
 
-<span data-ttu-id="f997c-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="f997c-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="13d57-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="13d57-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="f997c-106">Tente de convertir un **XLREF12** en **XLREF**.</span><span class="sxs-lookup"><span data-stu-id="f997c-106">Tries to convert an **XLREF12** into an **XLREF**.</span></span>
+<span data-ttu-id="13d57-106">Tente de convertir un **xlREF12** en **xlREF**.</span><span class="sxs-lookup"><span data-stu-id="13d57-106">Tries to convert an **XLREF12** into an **XLREF**.</span></span>
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f997c-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="f997c-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="13d57-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="13d57-107">Parameters</span></span>
 
- <span data-ttu-id="f997c-108">_pxRef12_ (**LPXLREF12**)</span><span class="sxs-lookup"><span data-stu-id="f997c-108">_pxRef12_ (**LPXLREF12**)</span></span>
+ <span data-ttu-id="13d57-108">_pxRef12_ (**LPXLREF12**)</span><span class="sxs-lookup"><span data-stu-id="13d57-108">_pxRef12_ (**LPXLREF12**)</span></span>
   
-<span data-ttu-id="f997c-109">Pointeur vers la structure de référence source.</span><span class="sxs-lookup"><span data-stu-id="f997c-109">Pointer to the source reference structure.</span></span>
+<span data-ttu-id="13d57-109">Pointeur vers la structure de référence source.</span><span class="sxs-lookup"><span data-stu-id="13d57-109">Pointer to the source reference structure.</span></span>
   
- <span data-ttu-id="f997c-110">_pxRef_ (**LPXLREF**)</span><span class="sxs-lookup"><span data-stu-id="f997c-110">_pxRef_ (**LPXLREF**)</span></span>
+ <span data-ttu-id="13d57-110">_pxRef_ (**LPXLREF**)</span><span class="sxs-lookup"><span data-stu-id="13d57-110">_pxRef_ (**LPXLREF**)</span></span>
   
-<span data-ttu-id="f997c-111">Pointeur vers la structure de référence cible dans laquelle la valeur convertie doit être placée.</span><span class="sxs-lookup"><span data-stu-id="f997c-111">Pointer to the target reference structure into which the converted value is to be placed.</span></span>
+<span data-ttu-id="13d57-111">Pointeur vers la structure de référence cible dans laquelle la valeur convertie doit être placée.</span><span class="sxs-lookup"><span data-stu-id="13d57-111">Pointer to the target reference structure into which the converted value is to be placed.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="f997c-112">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="f997c-112">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="13d57-112">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="13d57-112">Property value/Return value</span></span>
 
- <span data-ttu-id="f997c-113">**True** si la conversion a réussi \*\*\*\* , false dans le cas contraire.</span><span class="sxs-lookup"><span data-stu-id="f997c-113">**TRUE** if the conversion succeeded, **FALSE** otherwise.</span></span> 
+ <span data-ttu-id="13d57-113">**TRUE** si la conversion a réussi, FALSE dans **le** cas contraire.</span><span class="sxs-lookup"><span data-stu-id="13d57-113">**TRUE** if the conversion succeeded, **FALSE** otherwise.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="f997c-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="f997c-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="13d57-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="13d57-114">Remarks</span></span>
 
-<span data-ttu-id="f997c-115">La conversion de **XLREF12** vers **XLREF** échoue si la référence fournie fait référence à une partie d'une feuille de calcul Excel 2007 qui n'est pas prise en charge dans les versions antérieures.</span><span class="sxs-lookup"><span data-stu-id="f997c-115">The conversion from **XLREF12** to **XLREF** fails if the supplied reference refers to part of a Excel 2007 worksheet that is not supported in earlier versions.</span></span> 
+<span data-ttu-id="13d57-115">La conversion de **XLREF12** en **XLREF** échoue si la référence fournie fait référence à une partie d’une feuille de calcul Excel 2007 qui n’est pas prise en charge dans les versions antérieures.</span><span class="sxs-lookup"><span data-stu-id="13d57-115">The conversion from **XLREF12** to **XLREF** fails if the supplied reference refers to part of a Excel 2007 worksheet that is not supported in earlier versions.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="f997c-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="f997c-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="13d57-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="13d57-116">Example</span></span>
 
  `\SAMPLES\FRAMEWRK\FRAMEWRK.C`
   
@@ -71,9 +71,9 @@ BOOL ConvertXLRef12ToXLRef(LPXLREF12 pxref12, LPXLREF pxref)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="f997c-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f997c-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="13d57-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="13d57-117">See also</span></span>
 
 
 
-[<span data-ttu-id="f997c-118">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="f997c-118">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="13d57-118">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="13d57-118">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

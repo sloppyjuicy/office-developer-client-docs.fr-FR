@@ -19,35 +19,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405526"
 ---
-# <a name="cbnewentryid"></a><span data-ttu-id="913c0-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="913c0-103">CbNewENTRYID</span></span>
+# <a name="cbnewentryid"></a><span data-ttu-id="cdb87-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="cdb87-103">CbNewENTRYID</span></span>
 
   
   
-<span data-ttu-id="913c0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="913c0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cdb87-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cdb87-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="913c0-105">Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [EntryID](entryid.md) d'une taille spécifiée.</span><span class="sxs-lookup"><span data-stu-id="913c0-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
+<span data-ttu-id="cdb87-105">Calcule le nombre d’octets qui doivent être alloués à une nouvelle structure [ENTRYID](entryid.md) d’une taille spécifiée.</span><span class="sxs-lookup"><span data-stu-id="cdb87-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="913c0-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="913c0-106">Header file:</span></span>  <br/> |<span data-ttu-id="913c0-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="913c0-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="913c0-108">Structure associée:</span><span class="sxs-lookup"><span data-stu-id="913c0-108">Related structure:</span></span>  <br/> |<span data-ttu-id="913c0-109">**ENTRYID**</span><span class="sxs-lookup"><span data-stu-id="913c0-109">**ENTRYID**</span></span> <br/> |
+|<span data-ttu-id="cdb87-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="cdb87-106">Header file:</span></span>  <br/> |<span data-ttu-id="cdb87-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cdb87-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="cdb87-108">Structure connexe :</span><span class="sxs-lookup"><span data-stu-id="cdb87-108">Related structure:</span></span>  <br/> |<span data-ttu-id="cdb87-109">**ENTRYID**</span><span class="sxs-lookup"><span data-stu-id="cdb87-109">**ENTRYID**</span></span> <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="913c0-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="913c0-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="cdb87-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="cdb87-110">Parameters</span></span>
 
- <span data-ttu-id="913c0-111">__CB_</span><span class="sxs-lookup"><span data-stu-id="913c0-111">__cb_</span></span>
+ <span data-ttu-id="cdb87-111">_ _cb_</span><span class="sxs-lookup"><span data-stu-id="cdb87-111">_ _cb_</span></span>
   
-> <span data-ttu-id="913c0-112">Nombre d'octets dans l'identificateur d'entrée à stocker dans la nouvelle structure **EntryID** .</span><span class="sxs-lookup"><span data-stu-id="913c0-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
+> <span data-ttu-id="cdb87-112">Nombre d’octets dans l’identificateur d’entrée à stocker dans la nouvelle structure **ENTRYID.**</span><span class="sxs-lookup"><span data-stu-id="cdb87-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="913c0-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="913c0-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cdb87-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cdb87-113">See also</span></span>
 
 
 
-[<span data-ttu-id="913c0-114">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="913c0-114">ENTRYID</span></span>](entryid.md)
+[<span data-ttu-id="cdb87-114">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="cdb87-114">ENTRYID</span></span>](entryid.md)
 
 
-[<span data-ttu-id="913c0-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="913c0-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="cdb87-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="cdb87-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

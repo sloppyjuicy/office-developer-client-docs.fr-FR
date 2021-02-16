@@ -19,46 +19,46 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407927"
 ---
-# <a name="pidtagmessagedownloadtime-canonical-property"></a><span data-ttu-id="fdb3b-103">Propriété canonique PidTagMessageDownloadTime</span><span class="sxs-lookup"><span data-stu-id="fdb3b-103">PidTagMessageDownloadTime Canonical Property</span></span>
+# <a name="pidtagmessagedownloadtime-canonical-property"></a><span data-ttu-id="ed738-103">Propriété canonique PidTagMessageDownloadTime</span><span class="sxs-lookup"><span data-stu-id="ed738-103">PidTagMessageDownloadTime Canonical Property</span></span>
 
   
   
-<span data-ttu-id="fdb3b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fdb3b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ed738-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ed738-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="fdb3b-105">Contient la durée estimée de téléchargement d'un message à partir d'un serveur distant vers une banque de messages locale.</span><span class="sxs-lookup"><span data-stu-id="fdb3b-105">Contains the estimated time to download a message from a remote server to a local message store.</span></span> 
+<span data-ttu-id="ed738-105">Contient la durée estimée de téléchargement d’un message à partir d’un serveur distant vers un magasin de messages local.</span><span class="sxs-lookup"><span data-stu-id="ed738-105">Contains the estimated time to download a message from a remote server to a local message store.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="fdb3b-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="fdb3b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="fdb3b-107">PR_MESSAGE_DOWNLOAD_TIME</span><span class="sxs-lookup"><span data-stu-id="fdb3b-107">PR_MESSAGE_DOWNLOAD_TIME</span></span>  <br/> |
-|<span data-ttu-id="fdb3b-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="fdb3b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="fdb3b-109">0x0E18</span><span class="sxs-lookup"><span data-stu-id="fdb3b-109">0x0E18</span></span>  <br/> |
-|<span data-ttu-id="fdb3b-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="fdb3b-110">Data type:</span></span>  <br/> |<span data-ttu-id="fdb3b-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="fdb3b-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="fdb3b-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="fdb3b-112">Area:</span></span>  <br/> |<span data-ttu-id="fdb3b-113">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="fdb3b-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="ed738-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="ed738-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ed738-107">PR_MESSAGE_DOWNLOAD_TIME</span><span class="sxs-lookup"><span data-stu-id="ed738-107">PR_MESSAGE_DOWNLOAD_TIME</span></span>  <br/> |
+|<span data-ttu-id="ed738-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="ed738-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ed738-109">0x0E18</span><span class="sxs-lookup"><span data-stu-id="ed738-109">0x0E18</span></span>  <br/> |
+|<span data-ttu-id="ed738-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="ed738-110">Data type:</span></span>  <br/> |<span data-ttu-id="ed738-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="ed738-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="ed738-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="ed738-112">Area:</span></span>  <br/> |<span data-ttu-id="ed738-113">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="ed738-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="fdb3b-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="fdb3b-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ed738-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="ed738-114">Remarks</span></span>
 
-<span data-ttu-id="fdb3b-115">Cette propriété est exprimée en secondes et représente la meilleure estimation du temps qu'un fournisseur de transport distant doit prendre pour télécharger un message donné à partir de son emplacement actuel vers un magasin de messages local sur le client en affichant le dossier d'en-tête.</span><span class="sxs-lookup"><span data-stu-id="fdb3b-115">This property is expressed in seconds and represents the best estimate of the time it would take a remote transport provider to download a given message from its current location to a message store local to the client viewing the header folder.</span></span> <span data-ttu-id="fdb3b-116">Le fournisseur de transport distant calcule généralement la valeur de cette propriété en divisant la valeur de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) par la vitesse du lien de communication en octets par seconde.</span><span class="sxs-lookup"><span data-stu-id="fdb3b-116">The remote transport provider typically calculates the value for this property by dividing the value of the **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) property by the speed of the communications link in bytes per second.</span></span> <span data-ttu-id="fdb3b-117">Si le fournisseur ne peut pas calculer le temps de téléchargement, par exemple s'il ne connaît pas la vitesse de la liaison, il doit fournir une valeur **PT_ERROR** telle que **MAPI_E_NO_SUPPORT** pour cette colonne dans le tableau des matières du dossier d'en-tête.</span><span class="sxs-lookup"><span data-stu-id="fdb3b-117">If the provider cannot calculate the download time, for example if it does not know the link speed, it should furnish a **PT_ERROR** value such as **MAPI_E_NO_SUPPORT** for this column in the header folder contents table.</span></span> 
+<span data-ttu-id="ed738-115">Cette propriété est exprimée en secondes et représente la meilleure estimation du temps qu’un fournisseur de transport distant doit prendre pour télécharger un message donné à partir de son emplacement actuel vers une boutique de messages locale pour le client qui affiche le dossier d’en-tête.</span><span class="sxs-lookup"><span data-stu-id="ed738-115">This property is expressed in seconds and represents the best estimate of the time it would take a remote transport provider to download a given message from its current location to a message store local to the client viewing the header folder.</span></span> <span data-ttu-id="ed738-116">Le fournisseur de transport distant calcule généralement la valeur de cette propriété en divisant la valeur de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) par la vitesse de la liaison de communication en octets par seconde.</span><span class="sxs-lookup"><span data-stu-id="ed738-116">The remote transport provider typically calculates the value for this property by dividing the value of the **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) property by the speed of the communications link in bytes per second.</span></span> <span data-ttu-id="ed738-117">Si le fournisseur ne peut pas calculer la durée de téléchargement, par exemple s’il ne connaît pas la vitesse de liaison, il doit fournir une valeur **PT_ERROR** telle que **MAPI_E_NO_SUPPORT** pour cette colonne dans la table de contenu du dossier d’en-tête.</span><span class="sxs-lookup"><span data-stu-id="ed738-117">If the provider cannot calculate the download time, for example if it does not know the link speed, it should furnish a **PT_ERROR** value such as **MAPI_E_NO_SUPPORT** for this column in the header folder contents table.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="fdb3b-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="fdb3b-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ed738-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="ed738-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="fdb3b-119">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="fdb3b-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ed738-119">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="ed738-119">Header files</span></span>
 
-<span data-ttu-id="fdb3b-120">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="fdb3b-120">Mapidefs.h</span></span>
+<span data-ttu-id="ed738-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ed738-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="fdb3b-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="fdb3b-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="ed738-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="ed738-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="fdb3b-122">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="fdb3b-122">Mapitags.h</span></span>
+<span data-ttu-id="ed738-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="ed738-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="fdb3b-123">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="fdb3b-123">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="ed738-123">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="ed738-123">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="fdb3b-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fdb3b-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ed738-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ed738-124">See also</span></span>
 
 
 
-[<span data-ttu-id="fdb3b-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="fdb3b-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ed738-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="ed738-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="fdb3b-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="fdb3b-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ed738-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="ed738-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="fdb3b-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="fdb3b-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ed738-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="ed738-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="fdb3b-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="fdb3b-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ed738-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="ed738-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -15,30 +15,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420296"
 ---
-# <a name="mapi-service-provider-samples"></a><span data-ttu-id="d5121-103">Exemples de fournisseurs de services MAPI</span><span class="sxs-lookup"><span data-stu-id="d5121-103">MAPI Service Provider Samples</span></span>
+# <a name="mapi-service-provider-samples"></a><span data-ttu-id="19b2c-103">Exemples de fournisseurs de services MAPI</span><span class="sxs-lookup"><span data-stu-id="19b2c-103">MAPI Service Provider Samples</span></span>
 
   
   
-<span data-ttu-id="d5121-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d5121-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="19b2c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="19b2c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d5121-105">Cette section contient des exemples de code de trois fournisseurs de services MAPI:</span><span class="sxs-lookup"><span data-stu-id="d5121-105">This section contains code samples of three MAPI service providers:</span></span>
+<span data-ttu-id="19b2c-105">Cette section contient des exemples de code de trois fournisseurs de services MAPI :</span><span class="sxs-lookup"><span data-stu-id="19b2c-105">This section contains code samples of three MAPI service providers:</span></span>
   
-- [<span data-ttu-id="d5121-106">Téléchargement des exemples MAPI Outlook</span><span class="sxs-lookup"><span data-stu-id="d5121-106">Downloading the Outlook MAPI Samples</span></span>](downloading-the-outlook-mapi-samples.md)
+- [<span data-ttu-id="19b2c-106">Téléchargement des exemples MAPI Outlook</span><span class="sxs-lookup"><span data-stu-id="19b2c-106">Downloading the Outlook MAPI Samples</span></span>](downloading-the-outlook-mapi-samples.md)
     
-    <span data-ttu-id="d5121-107">Cette rubrique décrit comment télécharger les exemples.</span><span class="sxs-lookup"><span data-stu-id="d5121-107">This topic describes how to download the samples.</span></span>
+    <span data-ttu-id="19b2c-107">Cette rubrique décrit comment télécharger les exemples.</span><span class="sxs-lookup"><span data-stu-id="19b2c-107">This topic describes how to download the samples.</span></span>
     
-- [<span data-ttu-id="d5121-108">Exemple de fournisseur de carnet d'adresses</span><span class="sxs-lookup"><span data-stu-id="d5121-108">Address Book Provider Sample</span></span>](address-book-provider-sample.md)
+- [<span data-ttu-id="19b2c-108">Exemple de fournisseur de carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="19b2c-108">Address Book Provider Sample</span></span>](address-book-provider-sample.md)
     
-    <span data-ttu-id="d5121-109">Cet exemple prend en charge un seul conteneur en lecture seule pour les noms d'affichage et les adresses de messagerie, qui sont lus à partir d'un fichier binaire plat.</span><span class="sxs-lookup"><span data-stu-id="d5121-109">This sample supports a single read-only container for display names and email addresses, which are read from a flat binary file.</span></span>
+    <span data-ttu-id="19b2c-109">Cet exemple prend en charge un conteneur en lecture seule unique pour les noms complets et les adresses e-mail, qui sont lus à partir d’un fichier binaire plat.</span><span class="sxs-lookup"><span data-stu-id="19b2c-109">This sample supports a single read-only container for display names and email addresses, which are read from a flat binary file.</span></span>
     
-- [<span data-ttu-id="d5121-110">Exemple de fournisseur de banque de messages</span><span class="sxs-lookup"><span data-stu-id="d5121-110">Message Store Provider Sample</span></span>](message-store-provider-sample.md)
+- [<span data-ttu-id="19b2c-110">Exemple de fournisseur de magasin de messages</span><span class="sxs-lookup"><span data-stu-id="19b2c-110">Message Store Provider Sample</span></span>](message-store-provider-sample.md)
     
-    <span data-ttu-id="d5121-111">Cet exemple utilise des annuaires en tant que dossiers et fichiers de documents OLE 2,0 en tant que messages.</span><span class="sxs-lookup"><span data-stu-id="d5121-111">This sample uses directories as folders and OLE 2.0 document files as messages.</span></span> <span data-ttu-id="d5121-112">L'exemple prend en charge toutes les fonctionnalités requises pour une banque de messages par défaut.</span><span class="sxs-lookup"><span data-stu-id="d5121-112">The sample supports all required features for a default message store.</span></span>
+    <span data-ttu-id="19b2c-111">Cet exemple utilise des répertoires comme dossiers et des fichiers de documents OLE 2.0 en tant que messages.</span><span class="sxs-lookup"><span data-stu-id="19b2c-111">This sample uses directories as folders and OLE 2.0 document files as messages.</span></span> <span data-ttu-id="19b2c-112">L’exemple prend en charge toutes les fonctionnalités requises pour une magasin de messages par défaut.</span><span class="sxs-lookup"><span data-stu-id="19b2c-112">The sample supports all required features for a default message store.</span></span>
     
-- [<span data-ttu-id="d5121-113">Exemple de fournisseur de transport</span><span class="sxs-lookup"><span data-stu-id="d5121-113">Transport Provider Sample</span></span>](transport-provider-sample.md)
+- [<span data-ttu-id="19b2c-113">Exemple de fournisseur de transport</span><span class="sxs-lookup"><span data-stu-id="19b2c-113">Transport Provider Sample</span></span>](transport-provider-sample.md)
     
-    <span data-ttu-id="d5121-114">Cet exemple utilise des fichiers et des répertoires pour transmettre et recevoir des messages.</span><span class="sxs-lookup"><span data-stu-id="d5121-114">This sample uses files and directories to transmit and receive messages.</span></span>
+    <span data-ttu-id="19b2c-114">Cet exemple utilise des fichiers et des répertoires pour transmettre et recevoir des messages.</span><span class="sxs-lookup"><span data-stu-id="19b2c-114">This sample uses files and directories to transmit and receive messages.</span></span>
     
-<span data-ttu-id="d5121-115">Pour exécuter l'un de ces exemples sur les systèmes d'exploitation Windows 7, Windows Vista, Windows Server 2008, Windows XP ou Windows Server 2003, vous devez d'abord configurer le système d'exécution MAPI.</span><span class="sxs-lookup"><span data-stu-id="d5121-115">To run any of these samples on the Windows 7, Windows Vista, Windows Server 2008, Windows XP, or Windows Server 2003 operating systems, you must first set up the MAPI runtime system.</span></span> <span data-ttu-id="d5121-116">Pour plus d’informations, consultez l’article relatif à la [vue d’ensemble de la programmation MAPI](mapi-programming-overview.md).</span><span class="sxs-lookup"><span data-stu-id="d5121-116">For more information, see [MAPI Programming Overview](mapi-programming-overview.md).</span></span>
+<span data-ttu-id="19b2c-115">Pour exécuter l’un de ces exemples sur les systèmes d’exploitation Windows 7, Windows Vista, Windows Server 2008, Windows XP ou Windows Server 2003, vous devez d’abord configurer le système d’exploitation MAPI.</span><span class="sxs-lookup"><span data-stu-id="19b2c-115">To run any of these samples on the Windows 7, Windows Vista, Windows Server 2008, Windows XP, or Windows Server 2003 operating systems, you must first set up the MAPI runtime system.</span></span> <span data-ttu-id="19b2c-116">Pour plus d’informations, consultez l’article relatif à la [vue d’ensemble de la programmation MAPI](mapi-programming-overview.md).</span><span class="sxs-lookup"><span data-stu-id="19b2c-116">For more information, see [MAPI Programming Overview](mapi-programming-overview.md).</span></span>
   
 

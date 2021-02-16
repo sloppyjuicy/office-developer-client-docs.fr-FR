@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalité requise pour les fournisseurs de transport
+title: Fonctionnalités requises pour les fournisseurs de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404441"
 ---
-# <a name="required-functionality-for-transport-providers"></a><span data-ttu-id="fbbb1-103">Fonctionnalité requise pour les fournisseurs de transport</span><span class="sxs-lookup"><span data-stu-id="fbbb1-103">Required Functionality for Transport Providers</span></span>
+# <a name="required-functionality-for-transport-providers"></a><span data-ttu-id="cb755-103">Fonctionnalités requises pour les fournisseurs de transport</span><span class="sxs-lookup"><span data-stu-id="cb755-103">Required Functionality for Transport Providers</span></span>
 
   
   
-<span data-ttu-id="fbbb1-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fbbb1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cb755-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cb755-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="fbbb1-105">Chaque fournisseur de transport MAPI doit:</span><span class="sxs-lookup"><span data-stu-id="fbbb1-105">Every MAPI transport provider must:</span></span>
+<span data-ttu-id="cb755-105">Chaque fournisseur de transport MAPI doit :</span><span class="sxs-lookup"><span data-stu-id="cb755-105">Every MAPI transport provider must:</span></span>
   
-- <span data-ttu-id="fbbb1-106">Suivez les instructions générales relatives à l'utilisation de MAPI et d'autres fournisseurs de services.</span><span class="sxs-lookup"><span data-stu-id="fbbb1-106">Follow the general guidelines for working with MAPI and other service providers.</span></span> <span data-ttu-id="fbbb1-107">Pour plus d'informations, consultez la rubrique [MAPI Application Development](mapi-application-development.md) and [MAPI service](mapi-service-providers.md)Providers.</span><span class="sxs-lookup"><span data-stu-id="fbbb1-107">For more information, see [MAPI Application Development](mapi-application-development.md) and [MAPI Service Providers](mapi-service-providers.md).</span></span>
+- <span data-ttu-id="cb755-106">Suivez les instructions générales pour travailler avec MAPI et d’autres fournisseurs de services.</span><span class="sxs-lookup"><span data-stu-id="cb755-106">Follow the general guidelines for working with MAPI and other service providers.</span></span> <span data-ttu-id="cb755-107">Pour plus d’informations, voir [Développement d’applications MAPI](mapi-application-development.md) et Fournisseurs de [services MAPI.](mapi-service-providers.md)</span><span class="sxs-lookup"><span data-stu-id="cb755-107">For more information, see [MAPI Application Development](mapi-application-development.md) and [MAPI Service Providers](mapi-service-providers.md).</span></span>
     
-- <span data-ttu-id="fbbb1-108">Sa DLL de fournisseur de transport expose à MAPI sa fonction d'initialisation [XPProviderInit](xpproviderinit.md) .</span><span class="sxs-lookup"><span data-stu-id="fbbb1-108">Have its transport provider DLL expose to MAPI its [XPProviderInit](xpproviderinit.md) initialization function.</span></span> 
+- <span data-ttu-id="cb755-108">Exposer la DLL de son fournisseur de transport à MAPI avec sa fonction d’initialisation [XPProviderInit.](xpproviderinit.md)</span><span class="sxs-lookup"><span data-stu-id="cb755-108">Have its transport provider DLL expose to MAPI its [XPProviderInit](xpproviderinit.md) initialization function.</span></span> 
     
-- <span data-ttu-id="fbbb1-109">Exposer à l'interface MAPI son implémentation des interfaces [IXPProvider: IUnknown](ixpprovideriunknown.md) et [IXPLogon: IUnknown](ixplogoniunknown.md) .</span><span class="sxs-lookup"><span data-stu-id="fbbb1-109">Expose to MAPI its implementation of the [IXPProvider : IUnknown](ixpprovideriunknown.md) and [IXPLogon : IUnknown](ixplogoniunknown.md) interfaces.</span></span> 
+- <span data-ttu-id="cb755-109">Exposez à MAPI son implémentation des interfaces [IXPProvider : IUnknown](ixpprovideriunknown.md) et [IXPLogon : IUnknown.](ixplogoniunknown.md)</span><span class="sxs-lookup"><span data-stu-id="cb755-109">Expose to MAPI its implementation of the [IXPProvider : IUnknown](ixpprovideriunknown.md) and [IXPLogon : IUnknown](ixplogoniunknown.md) interfaces.</span></span> 
     
-- <span data-ttu-id="fbbb1-110">Exposer aux applications MAPI et client son implémentation de l'interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) .</span><span class="sxs-lookup"><span data-stu-id="fbbb1-110">Expose to MAPI and client applications its implementation of the [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface.</span></span> <span data-ttu-id="fbbb1-111">Pour plus d'informations sur l'implémentation de **IMAPIStatus**, voir [Status implémentation Object](status-object-implementation.md).</span><span class="sxs-lookup"><span data-stu-id="fbbb1-111">For more information about implementing **IMAPIStatus**, see [Status Object Implementation](status-object-implementation.md).</span></span> 
+- <span data-ttu-id="cb755-110">Exposer à MAPI et aux applications clientes son implémentation de l’interface [IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md)</span><span class="sxs-lookup"><span data-stu-id="cb755-110">Expose to MAPI and client applications its implementation of the [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface.</span></span> <span data-ttu-id="cb755-111">Pour plus d’informations sur l’implémentation **d’IMAPIStatus,** voir [Status Object Implementation](status-object-implementation.md).</span><span class="sxs-lookup"><span data-stu-id="cb755-111">For more information about implementing **IMAPIStatus**, see [Status Object Implementation](status-object-implementation.md).</span></span> 
     
-- <span data-ttu-id="fbbb1-112">Implémentez une boîte de dialogue de feuille de propriétés pour la configuration.</span><span class="sxs-lookup"><span data-stu-id="fbbb1-112">Implement a property sheet dialog box for configuration.</span></span> <span data-ttu-id="fbbb1-113">Pour plus d'informations sur l'implémentation des feuilles de propriétés, voir implémentation de la [feuille de propriétés](property-sheet-implementation.md).</span><span class="sxs-lookup"><span data-stu-id="fbbb1-113">For more information about implementing property sheets, see [Property Sheet Implementation](property-sheet-implementation.md).</span></span>
+- <span data-ttu-id="cb755-112">Implémenter une boîte de dialogue feuille de propriétés pour la configuration.</span><span class="sxs-lookup"><span data-stu-id="cb755-112">Implement a property sheet dialog box for configuration.</span></span> <span data-ttu-id="cb755-113">Pour plus d’informations sur l’implémentation des feuilles de propriétés, voir [Implémentation de la feuille de propriétés.](property-sheet-implementation.md)</span><span class="sxs-lookup"><span data-stu-id="cb755-113">For more information about implementing property sheets, see [Property Sheet Implementation](property-sheet-implementation.md).</span></span>
     
 

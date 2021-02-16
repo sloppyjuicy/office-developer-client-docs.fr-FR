@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1f31f7f4-fbda-4337-95e5-5474dd1bf84a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 22d3e649641dbe688912ecece7fde73a555f4a88
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,62 +19,62 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32361095"
 ---
-# <a name="pidtagattachrendering-canonical-property"></a><span data-ttu-id="6a68d-103">Propriété canonique PidTagAttachRendering</span><span class="sxs-lookup"><span data-stu-id="6a68d-103">PidTagAttachRendering Canonical Property</span></span>
+# <a name="pidtagattachrendering-canonical-property"></a><span data-ttu-id="dbeb3-103">Propriété canonique PidTagAttachRendering</span><span class="sxs-lookup"><span data-stu-id="dbeb3-103">PidTagAttachRendering Canonical Property</span></span>
 
   
   
-<span data-ttu-id="6a68d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6a68d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="dbeb3-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dbeb3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6a68d-105">Contient un métafichier Microsoft Windows avec des informations de rendu pour une pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="6a68d-105">Contains a Microsoft Windows metafile with rendering information for an attachment.</span></span> 
+<span data-ttu-id="dbeb3-105">Contient un métafichier Microsoft Windows avec les informations de rendu d’une pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-105">Contains a Microsoft Windows metafile with rendering information for an attachment.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6a68d-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="6a68d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6a68d-107">PR_ATTACH_RENDERING</span><span class="sxs-lookup"><span data-stu-id="6a68d-107">PR_ATTACH_RENDERING</span></span>  <br/> |
-|<span data-ttu-id="6a68d-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="6a68d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6a68d-109">0x3709</span><span class="sxs-lookup"><span data-stu-id="6a68d-109">0x3709</span></span>  <br/> |
-|<span data-ttu-id="6a68d-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="6a68d-110">Data type:</span></span>  <br/> |<span data-ttu-id="6a68d-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="6a68d-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="6a68d-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="6a68d-112">Area:</span></span>  <br/> |<span data-ttu-id="6a68d-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="6a68d-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="dbeb3-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="dbeb3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="dbeb3-107">PR_ATTACH_RENDERING</span><span class="sxs-lookup"><span data-stu-id="dbeb3-107">PR_ATTACH_RENDERING</span></span>  <br/> |
+|<span data-ttu-id="dbeb3-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="dbeb3-108">Identifier:</span></span>  <br/> |<span data-ttu-id="dbeb3-109">0x3709</span><span class="sxs-lookup"><span data-stu-id="dbeb3-109">0x3709</span></span>  <br/> |
+|<span data-ttu-id="dbeb3-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="dbeb3-110">Data type:</span></span>  <br/> |<span data-ttu-id="dbeb3-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="dbeb3-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="dbeb3-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="dbeb3-112">Area:</span></span>  <br/> |<span data-ttu-id="dbeb3-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="dbeb3-113">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6a68d-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="6a68d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dbeb3-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="dbeb3-114">Remarks</span></span>
 
-<span data-ttu-id="6a68d-115">L'objectif de cette propriété est de fournir une icône ou une autre représentation graphique qui peut être affichée dans le message parent au point de rattachement.</span><span class="sxs-lookup"><span data-stu-id="6a68d-115">The purpose of this property is to provide an icon or other pictorial representation that can be displayed within the parent message at the point of attachment.</span></span> <span data-ttu-id="6a68d-116">Cette représentation inclut généralement le nom de la pièce jointe, le cas échéant, ainsi que la nature de la pièce jointe, telle qu'un document Microsoft Office Word.</span><span class="sxs-lookup"><span data-stu-id="6a68d-116">Such representation typically includes the name of the attachment, if any, and the nature of the attachment, such as a Microsoft Office Word document.</span></span> <span data-ttu-id="6a68d-117">Une application cliente peut utiliser cette représentation dans l'affichage du message.</span><span class="sxs-lookup"><span data-stu-id="6a68d-117">A client application can use this representation in the display of the message.</span></span> 
+<span data-ttu-id="dbeb3-115">L’objectif de cette propriété est de fournir une icône ou une autre représentation de l’icône qui peut être affichée dans le message parent au point de la pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-115">The purpose of this property is to provide an icon or other pictorial representation that can be displayed within the parent message at the point of attachment.</span></span> <span data-ttu-id="dbeb3-116">Cette représentation inclut généralement le nom de la pièce jointe, le cas besoin, et la nature de la pièce jointe, telle qu’Microsoft Office document Word.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-116">Such representation typically includes the name of the attachment, if any, and the nature of the attachment, such as a Microsoft Office Word document.</span></span> <span data-ttu-id="dbeb3-117">Une application cliente peut utiliser cette représentation dans l’affichage du message.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-117">A client application can use this representation in the display of the message.</span></span> 
   
-<span data-ttu-id="6a68d-118">Pour un fichier joint, cette propriété illustre généralement une icône pour le fichier.</span><span class="sxs-lookup"><span data-stu-id="6a68d-118">For an attached file, this property usually portrays an icon for the file.</span></span> 
+<span data-ttu-id="dbeb3-118">Pour un fichier joint, cette propriété offre généralement une icône pour le fichier.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-118">For an attached file, this property usually portrays an icon for the file.</span></span> 
   
-<span data-ttu-id="6a68d-119">Pour un message joint, cette propriété n'est généralement pas définie.</span><span class="sxs-lookup"><span data-stu-id="6a68d-119">For an attached message, this property is typically not set.</span></span> <span data-ttu-id="6a68d-120">Une application cliente qui A besoin de restituer un message joint doit obtenir sa propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), appeler [IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md) pour un pointeur vers l'objet d'informations de formulaire correspondant, Ouvrez l'interface [IMAPIFormInfo](imapiforminfoimapiprop.md) sur cet objet et utilisez **GetProps** pour récupérer la propriété **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) ou **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="6a68d-120">A client application needing to render an attached message should obtain its **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, call [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) for a pointer to the corresponding form information object, open the [IMAPIFormInfo](imapiforminfoimapiprop.md) interface on that object, and use **GetProps** to retrieve the **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) or **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) property.</span></span> 
+<span data-ttu-id="dbeb3-119">Pour un message joint, cette propriété n’est généralement pas définie.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-119">For an attached message, this property is typically not set.</span></span> <span data-ttu-id="dbeb3-120">Une application cliente qui doit restituer un message joint doit obtenir sa propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), appeler [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) pour un pointeur vers l’objet d’informations de formulaire correspondant, ouvrir l’interface [IMAPIFormInfo](imapiforminfoimapiprop.md) sur cet objet et utiliser **GetProps** pour récupérer la propriété **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) ou **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="dbeb3-120">A client application needing to render an attached message should obtain its **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property, call [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) for a pointer to the corresponding form information object, open the [IMAPIFormInfo](imapiforminfoimapiprop.md) interface on that object, and use **GetProps** to retrieve the **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) or **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) property.</span></span> 
   
-<span data-ttu-id="6a68d-121">Pour un objet OLE statique incorporé, cette propriété contient un métafichier Microsoft Windows qui peut être utilisé pour dessiner la représentation des pièces jointes dans une fenêtre.</span><span class="sxs-lookup"><span data-stu-id="6a68d-121">For an embedded static OLE object, this property contains a Microsoft Windows metafile that can be used to draw the attachment representation in a window.</span></span> 
+<span data-ttu-id="dbeb3-121">Pour un objet OLE statique incorporé, cette propriété contient un métafichier Microsoft Windows qui peut être utilisé pour dessiner la représentation des pièces jointes dans une fenêtre.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-121">For an embedded static OLE object, this property contains a Microsoft Windows metafile that can be used to draw the attachment representation in a window.</span></span> 
   
-<span data-ttu-id="6a68d-122">Pour un objet OLE OLE incorporé, le client doit utiliser les données OLE pour générer les informations de rendu.</span><span class="sxs-lookup"><span data-stu-id="6a68d-122">For an embedded dynamic OLE object, the client should use the OLE data to generate the rendering information.</span></span> 
+<span data-ttu-id="dbeb3-122">Pour un objet OLE dynamique incorporé, le client doit utiliser les données OLE pour générer les informations de rendu.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-122">For an embedded dynamic OLE object, the client should use the OLE data to generate the rendering information.</span></span> 
   
-<span data-ttu-id="6a68d-123">Dans tous les cas, l'application cliente doit savoir que la taille de cette propriété est généralement de plusieurs centaines d'octets et est susceptible d'être tronquée dans la table des pièces jointes.</span><span class="sxs-lookup"><span data-stu-id="6a68d-123">In all cases, the client application should be aware that this property is usually several hundred bytes in size and is subject to truncation in the attachment table.</span></span> <span data-ttu-id="6a68d-124">Si un client souhaite afficher la pièce jointe à partir de cette propriété sans ouvrir la pièce jointe elle-même, elle doit fonctionner dans la règle de troncation de table.</span><span class="sxs-lookup"><span data-stu-id="6a68d-124">If a client wishes to render the attachment from this property without opening the attachment itself, it must work within the table truncation rule.</span></span> <span data-ttu-id="6a68d-125">Pour plus d'informations, voir [Working with large Columns](working-with-large-columns.md).</span><span class="sxs-lookup"><span data-stu-id="6a68d-125">For more information, see [Working with Large Columns](working-with-large-columns.md).</span></span> 
+<span data-ttu-id="dbeb3-123">Dans tous les cas, l’application cliente doit savoir que cette propriété a généralement une taille de plusieurs centaines d’octets et est soumise à la troncation dans la table des pièces jointes.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-123">In all cases, the client application should be aware that this property is usually several hundred bytes in size and is subject to truncation in the attachment table.</span></span> <span data-ttu-id="dbeb3-124">Si un client souhaite restituer la pièce jointe à partir de cette propriété sans ouvrir la pièce jointe elle-même, elle doit fonctionner dans la règle de troncation de table.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-124">If a client wishes to render the attachment from this property without opening the attachment itself, it must work within the table truncation rule.</span></span> <span data-ttu-id="dbeb3-125">Pour plus d’informations, [voir Working with Large Columns](working-with-large-columns.md).</span><span class="sxs-lookup"><span data-stu-id="dbeb3-125">For more information, see [Working with Large Columns](working-with-large-columns.md).</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="6a68d-126">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="6a68d-126">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="dbeb3-126">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="dbeb3-126">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="6a68d-127">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="6a68d-127">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="dbeb3-127">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="dbeb3-127">Protocol specifications</span></span>
 
-<span data-ttu-id="6a68d-128">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6a68d-128">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="dbeb3-128">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="dbeb3-128">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="6a68d-129">Gère les objets message et Attachment.</span><span class="sxs-lookup"><span data-stu-id="6a68d-129">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="dbeb3-129">Gère les objets message et pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-129">Handles message and attachment objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="6a68d-130">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="6a68d-130">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="dbeb3-130">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="dbeb3-130">Header files</span></span>
 
-<span data-ttu-id="6a68d-131">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="6a68d-131">Mapidefs.h</span></span>
+<span data-ttu-id="dbeb3-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="dbeb3-131">Mapidefs.h</span></span>
   
-> <span data-ttu-id="6a68d-132">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="6a68d-132">Provides data type definitions.</span></span>
+> <span data-ttu-id="dbeb3-132">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-132">Provides data type definitions.</span></span>
     
-<span data-ttu-id="6a68d-133">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="6a68d-133">Mapitags.h</span></span>
+<span data-ttu-id="dbeb3-133">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="dbeb3-133">Mapitags.h</span></span>
   
-> <span data-ttu-id="6a68d-134">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="6a68d-134">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="dbeb3-134">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="dbeb3-134">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="6a68d-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6a68d-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dbeb3-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="dbeb3-135">See also</span></span>
 
 
 
-[<span data-ttu-id="6a68d-136">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="6a68d-136">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="dbeb3-136">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="dbeb3-136">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="6a68d-137">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="6a68d-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="dbeb3-137">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="dbeb3-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="6a68d-138">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="6a68d-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="dbeb3-138">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="dbeb3-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="6a68d-139">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="6a68d-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="dbeb3-139">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="dbeb3-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

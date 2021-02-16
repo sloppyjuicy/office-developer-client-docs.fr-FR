@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1665774f-4049-4eda-ba7a-62314286699e
-description: Détermine la couleur de la profondeur du biseau, sous la forme d'une valeur RVB ou de celle déterminée par le thème actif.
+description: Détermine la couleur de la profondeur du biseau, en tant que valeur RVB ou déterminée par le thème actif.
 ms.openlocfilehash: 027b7b8675666b82d0ae26259fe77470708628c2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,24 +14,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419169"
 ---
-# <a name="beveldepthcolor-cell-bevel-properties-section"></a><span data-ttu-id="0be53-103">BevelDepthColor Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="0be53-103">BevelDepthColor Cell (Bevel Properties Section)</span></span>
+# <a name="beveldepthcolor-cell-bevel-properties-section"></a><span data-ttu-id="2f542-103">BevelDepthColor Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="2f542-103">BevelDepthColor Cell (Bevel Properties Section)</span></span>
 
-<span data-ttu-id="0be53-104">Détermine la couleur de la profondeur du biseau, sous la forme d'une valeur RVB ou de celle déterminée par le thème actif.</span><span class="sxs-lookup"><span data-stu-id="0be53-104">Determines the color of the bevel's depth, as an RGB value or as determined by the active theme.</span></span>
+<span data-ttu-id="2f542-104">Détermine la couleur de la profondeur du biseau, en tant que valeur RVB ou déterminée par le thème actif.</span><span class="sxs-lookup"><span data-stu-id="2f542-104">Determines the color of the bevel's depth, as an RGB value or as determined by the active theme.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0be53-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="0be53-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2f542-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="2f542-105">Remarks</span></span>
 
-<span data-ttu-id="0be53-106">Pour obtenir une référence à la cellule **BevelDepthColor** par un nom à partir d'une autre formule, par valeur de l'attribut **N** d'un élément de **cellule** ou d'un programme en faisant appel à la propriété **CellsU** , utilisez:</span><span class="sxs-lookup"><span data-stu-id="0be53-106">To get a reference to the **BevelDepthColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="2f542-106">Pour obtenir une référence à la cellule **BevelDepthColor** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="2f542-106">To get a reference to the **BevelDepthColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0be53-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="0be53-107">Cell name:</span></span>  <br/> | <span data-ttu-id="0be53-108">BevelDepthColor</span><span class="sxs-lookup"><span data-stu-id="0be53-108">BevelDepthColor</span></span>  <br/> |
+| <span data-ttu-id="2f542-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="2f542-107">Cell name:</span></span>  <br/> | <span data-ttu-id="2f542-108">BevelDepthColor</span><span class="sxs-lookup"><span data-stu-id="2f542-108">BevelDepthColor</span></span>  <br/> |
    
-<span data-ttu-id="0be53-109">Pour obtenir une référence à la cellule **BevelDepthColor** à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants:</span><span class="sxs-lookup"><span data-stu-id="0be53-109">To get a reference to the **BevelDepthColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="2f542-109">Pour obtenir une référence à la cellule **BevelDepthColor** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="2f542-109">To get a reference to the **BevelDepthColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0be53-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="0be53-110">Section index:</span></span>  <br/> |<span data-ttu-id="0be53-111">**Définis**</span><span class="sxs-lookup"><span data-stu-id="0be53-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="0be53-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="0be53-112">Row index:</span></span>  <br/> |<span data-ttu-id="0be53-113">**visRowBevelProperties**</span><span class="sxs-lookup"><span data-stu-id="0be53-113">**visRowBevelProperties**</span></span> <br/> |
-| <span data-ttu-id="0be53-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="0be53-114">Cell index:</span></span>  <br/> |<span data-ttu-id="0be53-115">**visBevelDepthColor**</span><span class="sxs-lookup"><span data-stu-id="0be53-115">**visBevelDepthColor**</span></span> <br/> |
+| <span data-ttu-id="2f542-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="2f542-110">Section index:</span></span>  <br/> |<span data-ttu-id="2f542-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="2f542-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="2f542-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="2f542-112">Row index:</span></span>  <br/> |<span data-ttu-id="2f542-113">**visRowBevelProperties**</span><span class="sxs-lookup"><span data-stu-id="2f542-113">**visRowBevelProperties**</span></span> <br/> |
+| <span data-ttu-id="2f542-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="2f542-114">Cell index:</span></span>  <br/> |<span data-ttu-id="2f542-115">**visBevelDepthColor**</span><span class="sxs-lookup"><span data-stu-id="2f542-115">**visBevelDepthColor**</span></span> <br/> |
    
 
