@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436439"
 ---
-# <a name="fbadrglpszw"></a><span data-ttu-id="b3524-103">FBadRglpszW</span><span class="sxs-lookup"><span data-stu-id="b3524-103">FBadRglpszW</span></span>
+# <a name="fbadrglpszw"></a><span data-ttu-id="2ebe7-103">FBadRglpszW</span><span class="sxs-lookup"><span data-stu-id="2ebe7-103">FBadRglpszW</span></span>
 
   
   
-<span data-ttu-id="b3524-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b3524-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2ebe7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2ebe7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b3524-105">Valide toutes les chaînes dans un tableau de chaînes Unicode.</span><span class="sxs-lookup"><span data-stu-id="b3524-105">Validates all strings in an array of Unicode strings.</span></span> 
+<span data-ttu-id="2ebe7-105">Valide toutes les chaînes d’un tableau de chaînes Unicode.</span><span class="sxs-lookup"><span data-stu-id="2ebe7-105">Validates all strings in an array of Unicode strings.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b3524-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="b3524-106">Header file:</span></span>  <br/> |<span data-ttu-id="b3524-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="b3524-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="b3524-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="b3524-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="b3524-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="b3524-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="b3524-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="b3524-110">Called by:</span></span>  <br/> |<span data-ttu-id="b3524-111">Fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="b3524-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="2ebe7-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="2ebe7-106">Header file:</span></span>  <br/> |<span data-ttu-id="2ebe7-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="2ebe7-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="2ebe7-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="2ebe7-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="2ebe7-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="2ebe7-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="2ebe7-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="2ebe7-110">Called by:</span></span>  <br/> |<span data-ttu-id="2ebe7-111">Fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="2ebe7-111">Service providers</span></span>  <br/> |
    
 ```cpp
 BOOL FBadRglpszW(
@@ -40,24 +40,24 @@ BOOL FBadRglpszW(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b3524-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="b3524-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2ebe7-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="2ebe7-112">Parameters</span></span>
 
- <span data-ttu-id="b3524-113">_lppszW_</span><span class="sxs-lookup"><span data-stu-id="b3524-113">_lppszW_</span></span>
+ <span data-ttu-id="2ebe7-113">_lppszW_</span><span class="sxs-lookup"><span data-stu-id="2ebe7-113">_lppszW_</span></span>
   
-> <span data-ttu-id="b3524-114">dans Pointeur vers un tableau de chaînes Unicode terminées par un caractère null.</span><span class="sxs-lookup"><span data-stu-id="b3524-114">[in] Pointer to an array of null-terminated Unicode strings.</span></span> 
+> <span data-ttu-id="2ebe7-114">[in] Pointeur vers un tableau de chaînes Unicode terminées par null.</span><span class="sxs-lookup"><span data-stu-id="2ebe7-114">[in] Pointer to an array of null-terminated Unicode strings.</span></span> 
     
- <span data-ttu-id="b3524-115">_cStrings_</span><span class="sxs-lookup"><span data-stu-id="b3524-115">_cStrings_</span></span>
+ <span data-ttu-id="2ebe7-115">_cStrings_</span><span class="sxs-lookup"><span data-stu-id="2ebe7-115">_cStrings_</span></span>
   
-> <span data-ttu-id="b3524-116">dans Nombre de chaînes dans le tableau vers lequel pointe le paramètre _lppszW_ .</span><span class="sxs-lookup"><span data-stu-id="b3524-116">[in] Count of strings in the array pointed to by the  _lppszW_ parameter.</span></span> 
+> <span data-ttu-id="2ebe7-116">[in] Nombre de chaînes dans le tableau pointées par _le paramètre lppszW._</span><span class="sxs-lookup"><span data-stu-id="2ebe7-116">[in] Count of strings in the array pointed to by the  _lppszW_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="b3524-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="b3524-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2ebe7-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="2ebe7-117">Return value</span></span>
 
-<span data-ttu-id="b3524-118">TRUE</span><span class="sxs-lookup"><span data-stu-id="b3524-118">TRUE</span></span> 
+<span data-ttu-id="2ebe7-118">TRUE</span><span class="sxs-lookup"><span data-stu-id="2ebe7-118">TRUE</span></span> 
   
-> <span data-ttu-id="b3524-119">Une ou plusieurs des chaînes du tableau spécifié ne sont pas valides.</span><span class="sxs-lookup"><span data-stu-id="b3524-119">One or more of the strings in the specified array are invalid.</span></span> 
+> <span data-ttu-id="2ebe7-119">Une ou plusieurs des chaînes du tableau spécifié ne sont pas valides.</span><span class="sxs-lookup"><span data-stu-id="2ebe7-119">One or more of the strings in the specified array are invalid.</span></span> 
     
-<span data-ttu-id="b3524-120">FALSE</span><span class="sxs-lookup"><span data-stu-id="b3524-120">FALSE</span></span> 
+<span data-ttu-id="2ebe7-120">FALSE</span><span class="sxs-lookup"><span data-stu-id="2ebe7-120">FALSE</span></span> 
   
-> <span data-ttu-id="b3524-121">Les chaînes du tableau spécifié sont valides.</span><span class="sxs-lookup"><span data-stu-id="b3524-121">The strings in the specified array are valid.</span></span>
+> <span data-ttu-id="2ebe7-121">Les chaînes du tableau spécifié sont valides.</span><span class="sxs-lookup"><span data-stu-id="2ebe7-121">The strings in the specified array are valid.</span></span>
     
 

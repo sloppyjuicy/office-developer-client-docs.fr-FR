@@ -16,8 +16,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436516"
 ---
-# <a name="alignment-section"></a><span data-ttu-id="33691-104">Alignment,section</span><span class="sxs-lookup"><span data-stu-id="33691-104">Alignment Section</span></span>
+# <a name="alignment-section"></a><span data-ttu-id="d11b9-104">Alignment,section</span><span class="sxs-lookup"><span data-stu-id="d11b9-104">Alignment Section</span></span>
 
-<span data-ttu-id="33691-105">Indique l'alignement d'une forme par rapport au repère ou au point de repère auquel la forme est collée.</span><span class="sxs-lookup"><span data-stu-id="33691-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="33691-106">La section **alignement** s'affiche uniquement pour les formes collées aux repères.</span><span class="sxs-lookup"><span data-stu-id="33691-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
+<span data-ttu-id="d11b9-105">Indique l'alignement d'une forme par rapport au repère ou au point de repère auquel la forme est collée.</span><span class="sxs-lookup"><span data-stu-id="d11b9-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="d11b9-106">La section **Alignement** apparaît uniquement pour les formes collées aux repères.</span><span class="sxs-lookup"><span data-stu-id="d11b9-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
   
 

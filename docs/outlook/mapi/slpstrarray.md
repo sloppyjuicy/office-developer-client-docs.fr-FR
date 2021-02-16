@@ -19,17 +19,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435907"
 ---
-# <a name="slpstrarray"></a><span data-ttu-id="7c8a9-103">SLPSTRArray</span><span class="sxs-lookup"><span data-stu-id="7c8a9-103">SLPSTRArray</span></span>
+# <a name="slpstrarray"></a><span data-ttu-id="40fbd-103">SLPSTRArray</span><span class="sxs-lookup"><span data-stu-id="40fbd-103">SLPSTRArray</span></span>
 
   
   
-<span data-ttu-id="7c8a9-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7c8a9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="40fbd-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="40fbd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7c8a9-105">Contient un tableau de valeurs de chaîne utilisées pour décrire une propriété de type PT_MV_STRING8.</span><span class="sxs-lookup"><span data-stu-id="7c8a9-105">Contains an array of string values that are used to describe a property of type PT_MV_STRING8.</span></span>
+<span data-ttu-id="40fbd-105">Contient un tableau de valeurs de chaîne qui sont utilisées pour décrire une propriété de type PT_MV_STRING8.</span><span class="sxs-lookup"><span data-stu-id="40fbd-105">Contains an array of string values that are used to describe a property of type PT_MV_STRING8.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7c8a9-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="7c8a9-106">Header file:</span></span>  <br/> |<span data-ttu-id="7c8a9-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="7c8a9-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="40fbd-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="40fbd-106">Header file:</span></span>  <br/> |<span data-ttu-id="40fbd-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="40fbd-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SLPSTRArray
@@ -40,26 +40,26 @@ typedef struct _SLPSTRArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="7c8a9-108">Members</span><span class="sxs-lookup"><span data-stu-id="7c8a9-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="40fbd-108">Members</span><span class="sxs-lookup"><span data-stu-id="40fbd-108">Members</span></span>
 
- <span data-ttu-id="7c8a9-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="7c8a9-109">**cValues**</span></span>
+ <span data-ttu-id="40fbd-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="40fbd-109">**cValues**</span></span>
   
-> <span data-ttu-id="7c8a9-110">Nombre de valeurs dans le tableau vers lequel pointe le membre **lppszA** .</span><span class="sxs-lookup"><span data-stu-id="7c8a9-110">Count of values in the array pointed to by the **lppszA** member.</span></span> 
+> <span data-ttu-id="40fbd-110">Nombre de valeurs dans le tableau pointées par le **membre lppszA.**</span><span class="sxs-lookup"><span data-stu-id="40fbd-110">Count of values in the array pointed to by the **lppszA** member.</span></span> 
     
- <span data-ttu-id="7c8a9-111">**lppszA**</span><span class="sxs-lookup"><span data-stu-id="7c8a9-111">**lppszA**</span></span>
+ <span data-ttu-id="40fbd-111">**lppszA**</span><span class="sxs-lookup"><span data-stu-id="40fbd-111">**lppszA**</span></span>
   
-> <span data-ttu-id="7c8a9-112">Pointeur vers un tableau de chaînes de caractères 8 bits terminées par null.</span><span class="sxs-lookup"><span data-stu-id="7c8a9-112">Pointer to an array of null-ended 8-bit character strings.</span></span>
+> <span data-ttu-id="40fbd-112">Pointeur vers un tableau de chaînes de caractères de 8 bits de fin null.</span><span class="sxs-lookup"><span data-stu-id="40fbd-112">Pointer to an array of null-ended 8-bit character strings.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="7c8a9-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="7c8a9-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="40fbd-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="40fbd-113">Remarks</span></span>
 
-<span data-ttu-id="7c8a9-114">Pour plus d'informations sur PT_MV_STRING8, consultez la rubrique [liste des types de propriétés](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="7c8a9-114">For more information about PT_MV_STRING8, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="40fbd-114">Pour plus d’informations sur PT_MV_STRING8, voir [Liste des types de propriétés.](property-types.md)</span><span class="sxs-lookup"><span data-stu-id="40fbd-114">For more information about PT_MV_STRING8, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="7c8a9-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7c8a9-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="40fbd-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="40fbd-115">See also</span></span>
 
 
 
-[<span data-ttu-id="7c8a9-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="7c8a9-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="40fbd-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="40fbd-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="7c8a9-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="7c8a9-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="40fbd-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="40fbd-117">MAPI Structures</span></span>](mapi-structures.md)
 

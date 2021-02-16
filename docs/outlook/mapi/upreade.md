@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434143"
 ---
-# <a name="upreade"></a><span data-ttu-id="b98ab-103">UPREADE</span><span class="sxs-lookup"><span data-stu-id="b98ab-103">UPREADE</span></span>
+# <a name="upreade"></a><span data-ttu-id="f467c-103">UPREADE</span><span class="sxs-lookup"><span data-stu-id="f467c-103">UPREADE</span></span>
 
-<span data-ttu-id="b98ab-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b98ab-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f467c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f467c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b98ab-105">Informations étendues pour le téléchargement de l'état de lecture d'un élément pendant l'état de [lecture de téléchargement](upload-read-status-state.md).</span><span class="sxs-lookup"><span data-stu-id="b98ab-105">Extended information for uploading the read state of an item during the [upload read status state](upload-read-status-state.md).</span></span>
+<span data-ttu-id="f467c-105">Informations étendues pour le chargement de l’état de lecture d’un élément pendant l’état de [lecture du chargement.](upload-read-status-state.md)</span><span class="sxs-lookup"><span data-stu-id="f467c-105">Extended information for uploading the read state of an item during the [upload read status state](upload-read-status-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="b98ab-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="b98ab-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="f467c-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="f467c-106">Quick info</span></span>
 
 ```cpp
 struct UPREADE 
@@ -31,36 +31,36 @@ struct UPREADE
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="b98ab-107">Membres</span><span class="sxs-lookup"><span data-stu-id="b98ab-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="f467c-107">Membres</span><span class="sxs-lookup"><span data-stu-id="f467c-107">Members</span></span>
 
-<span data-ttu-id="b98ab-108">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="b98ab-108">_ulFlags_</span></span>
+<span data-ttu-id="f467c-108">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="f467c-108">_ulFlags_</span></span>
   
->  <span data-ttu-id="b98ab-109">[out]/[in] indicateurs pour déterminer le comportement approprié pendant le chargement.</span><span class="sxs-lookup"><span data-stu-id="b98ab-109">[out]/[in] Flags to determine the appropriate behavior during the upload.</span></span> 
+>  <span data-ttu-id="f467c-109">[out]/[in] Indicateurs pour déterminer le comportement approprié pendant le chargement.</span><span class="sxs-lookup"><span data-stu-id="f467c-109">[out]/[in] Flags to determine the appropriate behavior during the upload.</span></span> 
     
-  - <span data-ttu-id="b98ab-110">UPR_ASSOC</span><span class="sxs-lookup"><span data-stu-id="b98ab-110">UPR_ASSOC</span></span>
+  - <span data-ttu-id="f467c-110">UPR_ASSOC</span><span class="sxs-lookup"><span data-stu-id="f467c-110">UPR_ASSOC</span></span>
     
-    - <span data-ttu-id="b98ab-111">remarquer L'élément est masqué.</span><span class="sxs-lookup"><span data-stu-id="b98ab-111">[out] Item is hidden.</span></span>
+    - <span data-ttu-id="f467c-111">[out] L’élément est masqué.</span><span class="sxs-lookup"><span data-stu-id="f467c-111">[out] Item is hidden.</span></span>
     
-  - <span data-ttu-id="b98ab-112">UPR_READ</span><span class="sxs-lookup"><span data-stu-id="b98ab-112">UPR_READ</span></span>
+  - <span data-ttu-id="f467c-112">UPR_READ</span><span class="sxs-lookup"><span data-stu-id="f467c-112">UPR_READ</span></span>
     
-    - <span data-ttu-id="b98ab-113">remarquer L'état de lecture de l'élément a été modifié.</span><span class="sxs-lookup"><span data-stu-id="b98ab-113">[out] The read status of the item has been changed.</span></span>
+    - <span data-ttu-id="f467c-113">[out] L’état de lecture de l’élément a été modifié.</span><span class="sxs-lookup"><span data-stu-id="f467c-113">[out] The read status of the item has been changed.</span></span>
     
-  - <span data-ttu-id="b98ab-114">UPR_OK</span><span class="sxs-lookup"><span data-stu-id="b98ab-114">UPR_OK</span></span>
+  - <span data-ttu-id="f467c-114">UPR_OK</span><span class="sxs-lookup"><span data-stu-id="f467c-114">UPR_OK</span></span>
     
-    - <span data-ttu-id="b98ab-115">dans Le chargement a réussi.</span><span class="sxs-lookup"><span data-stu-id="b98ab-115">[in] Upload was successful.</span></span> <span data-ttu-id="b98ab-116">Le client le définit après avoir téléchargé des informations sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="b98ab-116">The client sets this after uploading information to the server.</span></span>
+    - <span data-ttu-id="f467c-115">[in] Le chargement a réussi.</span><span class="sxs-lookup"><span data-stu-id="f467c-115">[in] Upload was successful.</span></span> <span data-ttu-id="f467c-116">Le client définit cette information après le téléchargement d’informations sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="f467c-116">The client sets this after uploading information to the server.</span></span>
     
-  - <span data-ttu-id="b98ab-117">UPR_COMMIT</span><span class="sxs-lookup"><span data-stu-id="b98ab-117">UPR_COMMIT</span></span>
+  - <span data-ttu-id="f467c-117">UPR_COMMIT</span><span class="sxs-lookup"><span data-stu-id="f467c-117">UPR_COMMIT</span></span>
     
-    - <span data-ttu-id="b98ab-118">dans Télécharger l'état de lecture de l'élément maintenant, au lieu d'attendre la fin de l'état de la [table de chargement](upload-table-state.md) pour traiter plus d'un élément.</span><span class="sxs-lookup"><span data-stu-id="b98ab-118">[in] Upload the read status of the item now, instead of waiting to the end of the [upload table state](upload-table-state.md) to batch-process more than one item.</span></span> 
+    - <span data-ttu-id="f467c-118">[in] Téléchargez l’état de lecture de l’élément maintenant, au lieu d’attendre la fin de l’état de [la table](upload-table-state.md) de chargement pour traiter par lots plusieurs éléments.</span><span class="sxs-lookup"><span data-stu-id="f467c-118">[in] Upload the read status of the item now, instead of waiting to the end of the [upload table state](upload-table-state.md) to batch-process more than one item.</span></span> 
     
-<span data-ttu-id="b98ab-119">_skey_</span><span class="sxs-lookup"><span data-stu-id="b98ab-119">_skey_</span></span>
+<span data-ttu-id="f467c-119">_skey_</span><span class="sxs-lookup"><span data-stu-id="f467c-119">_skey_</span></span>
   
-> <span data-ttu-id="b98ab-120">remarquer Clé source de l'élément.</span><span class="sxs-lookup"><span data-stu-id="b98ab-120">[out] Source key of the item.</span></span>
+> <span data-ttu-id="f467c-120">[out] Clé source de l’élément.</span><span class="sxs-lookup"><span data-stu-id="f467c-120">[out] Source key of the item.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b98ab-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b98ab-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f467c-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f467c-121">See also</span></span>
 
-- [<span data-ttu-id="b98ab-122">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="b98ab-122">About the Replication API</span></span>](about-the-replication-api.md)
-- [<span data-ttu-id="b98ab-123">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="b98ab-123">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="b98ab-124">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="b98ab-124">MAPI Constants</span></span>](mapi-constants.md)
-- [<span data-ttu-id="b98ab-125">UPREAD</span><span class="sxs-lookup"><span data-stu-id="b98ab-125">UPREAD</span></span>](upread.md)
+- [<span data-ttu-id="f467c-122">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="f467c-122">About the Replication API</span></span>](about-the-replication-api.md)
+- [<span data-ttu-id="f467c-123">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="f467c-123">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="f467c-124">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="f467c-124">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="f467c-125">UPREAD</span><span class="sxs-lookup"><span data-stu-id="f467c-125">UPREAD</span></span>](upread.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Opérateurs logiques (application Web personnalisée Access)
+title: Logical Operators (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437664"
 ---
-# <a name="logical-operators-access-custom-web-app"></a><span data-ttu-id="093d2-102">Opérateurs logiques (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="093d2-102">Logical Operators (Access custom web app)</span></span>
+# <a name="logical-operators-access-custom-web-app"></a><span data-ttu-id="66627-102">Logical Operators (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="66627-102">Logical Operators (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="093d2-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="093d2-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="66627-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="66627-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="093d2-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="093d2-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="66627-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="66627-105">In this section</span></span>
 
-- [<span data-ttu-id="093d2-106">ET (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="093d2-106">AND (Access custom web app)</span></span>](and-access-custom-web-app.md)
+- [<span data-ttu-id="66627-106">AND (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="66627-106">AND (Access custom web app)</span></span>](and-access-custom-web-app.md)
     
-- [<span data-ttu-id="093d2-107">NOT (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="093d2-107">NOT (Access custom web app)</span></span>](not-access-custom-web-app.md)
+- [<span data-ttu-id="66627-107">NOT (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="66627-107">NOT (Access custom web app)</span></span>](not-access-custom-web-app.md)
     
-- [<span data-ttu-id="093d2-108">OU (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="093d2-108">OR (Access custom web app)</span></span>](or-access-custom-web-app.md)
+- [<span data-ttu-id="66627-108">OR (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="66627-108">OR (Access custom web app)</span></span>](or-access-custom-web-app.md)
     
-- <span data-ttu-id="093d2-109">[IS [NOT] NULL (application web personnalisée Access)](is-not-null-access-custom-web-app.md)</span><span class="sxs-lookup"><span data-stu-id="093d2-109">[IS [NOT] NULL (Access custom web app)](is-not-null-access-custom-web-app.md)</span></span>
+- <span data-ttu-id="66627-109">[IS [NOT] NULL (application web personnalisée Access)](is-not-null-access-custom-web-app.md)</span><span class="sxs-lookup"><span data-stu-id="66627-109">[IS [NOT] NULL (Access custom web app)](is-not-null-access-custom-web-app.md)</span></span>
     
 

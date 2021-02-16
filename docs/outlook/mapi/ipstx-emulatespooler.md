@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438952"
 ---
-# <a name="ipstxemulatespooler"></a><span data-ttu-id="abd61-103">IPSTX::EmulateSpooler</span><span class="sxs-lookup"><span data-stu-id="abd61-103">IPSTX::EmulateSpooler</span></span>
+# <a name="ipstxemulatespooler"></a><span data-ttu-id="14f47-103">IPSTX::EmulateSpooler</span><span class="sxs-lookup"><span data-stu-id="14f47-103">IPSTX::EmulateSpooler</span></span>
 
   
   
-<span data-ttu-id="abd61-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="abd61-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="14f47-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="14f47-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="abd61-105">Définit une banque locale pour émuler le gestionnaire de protocoles Outlook afin de spouler les messages sortants vers un serveur.</span><span class="sxs-lookup"><span data-stu-id="abd61-105">Sets a local store to emulate the Outlook Protocol Manager to spool outgoing messages to a server.</span></span>
+<span data-ttu-id="14f47-105">Définit un magasin local pour émuler le Gestionnaire de protocole Outlook afin de mettre en file d’ensemble les messages sortants sur un serveur.</span><span class="sxs-lookup"><span data-stu-id="14f47-105">Sets a local store to emulate the Outlook Protocol Manager to spool outgoing messages to a server.</span></span>
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -33,26 +33,26 @@ HRESULT EmulateSpooler(
 );
 ```
 
- <span data-ttu-id="abd61-106">_fEmulate_</span><span class="sxs-lookup"><span data-stu-id="abd61-106">_fEmulate_</span></span>
+ <span data-ttu-id="14f47-106">_fEmulate_</span><span class="sxs-lookup"><span data-stu-id="14f47-106">_fEmulate_</span></span>
   
->  <span data-ttu-id="abd61-107">dans Définissez ce paramètre sur true si le magasin local doit émuler le spouleur; Définissez-la sur false dans le cas contraire.</span><span class="sxs-lookup"><span data-stu-id="abd61-107">[in] Set this parameter to True if the local store should emulate the spooler; set it to False if not.</span></span> 
+>  <span data-ttu-id="14f47-107">[in] Définissez ce paramètre sur True si le magasin local doit émuler lepooler ; si ce n’est pas le cas.</span><span class="sxs-lookup"><span data-stu-id="14f47-107">[in] Set this parameter to True if the local store should emulate the spooler; set it to False if not.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="abd61-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="abd61-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="14f47-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="14f47-108">Remarks</span></span>
 
-<span data-ttu-id="abd61-109">Un magasin local appelle **IPSTX:: EmulateSpooler** pour agir en tant que gestionnaire de protocoles Outlook, en spoule les messages de la file d'attente sortante vers le serveur principal (par exemple, le serveur MSN ou le serveur AOL) pour traitement.</span><span class="sxs-lookup"><span data-stu-id="abd61-109">A local store calls **IPSTX::EmulateSpooler** to act as an Outlook Protocol Manager, spooling messages in the outgoing queue to the back-end server (for example, MSN server or AOL server) for processing.</span></span> <span data-ttu-id="abd61-110">Émulation d'un spouleur pendant la synchronisation, le magasin appelle les deux méthodes suivantes:</span><span class="sxs-lookup"><span data-stu-id="abd61-110">Emulating a spooler during synchronization, the store then calls these two methods:</span></span> 
+<span data-ttu-id="14f47-109">Un magasin local appelle **IPSTX::EmulateSpooler** pour agir en tant que gestionnaire de protocole Outlook, en stockant les messages dans la file d’attente sortante vers le serveur principal (par exemple, le serveur MSN ou le serveur AOL) pour le traitement.</span><span class="sxs-lookup"><span data-stu-id="14f47-109">A local store calls **IPSTX::EmulateSpooler** to act as an Outlook Protocol Manager, spooling messages in the outgoing queue to the back-end server (for example, MSN server or AOL server) for processing.</span></span> <span data-ttu-id="14f47-110">Lors de l’émulation d’unpooler lors de la synchronisation, le magasin appelle ensuite les deux méthodes ci-après :</span><span class="sxs-lookup"><span data-stu-id="14f47-110">Emulating a spooler during synchronization, the store then calls these two methods:</span></span> 
   
-1. <span data-ttu-id="abd61-111">**[IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** pour obtenir la file d'attente de messages sortante dans la Banque.</span><span class="sxs-lookup"><span data-stu-id="abd61-111">**[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** to get the outgoing queue of messages in the store.</span></span> <span data-ttu-id="abd61-112">Cette méthode ne réussit que si la Banque émule le gestionnaire de protocoles Outlook.</span><span class="sxs-lookup"><span data-stu-id="abd61-112">This method succeeds only if the store is emulating the Outlook Protocol Manager.</span></span> 
+1. <span data-ttu-id="14f47-111">**[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** to get the outgoing queue of messages in the store.</span><span class="sxs-lookup"><span data-stu-id="14f47-111">**[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** to get the outgoing queue of messages in the store.</span></span> <span data-ttu-id="14f47-112">Cette méthode réussit uniquement si le magasin émule le Gestionnaire de protocole Outlook.</span><span class="sxs-lookup"><span data-stu-id="14f47-112">This method succeeds only if the store is emulating the Outlook Protocol Manager.</span></span> 
     
-2. <span data-ttu-id="abd61-113">**[IMsgStore:: SetLockState](imsgstore-setlockstate.md)** pour sécuriser l'accès exclusif à un message dans la file d'attente sortante juste avant de l'envoyer au serveur.</span><span class="sxs-lookup"><span data-stu-id="abd61-113">**[IMsgStore::SetLockState](imsgstore-setlockstate.md)** to secure sole access to a message in the outgoing queue just before sending it to the server.</span></span> <span data-ttu-id="abd61-114">Cette méthode ne réussit que si la Banque émule le gestionnaire de protocoles Outlook.</span><span class="sxs-lookup"><span data-stu-id="abd61-114">This method succeeds only if the store is emulating the Outlook Protocol Manager.</span></span> <span data-ttu-id="abd61-115">Après l'envoi du message, le magasin appelle de nouveau cette méthode pour lui libérer un accès exclusif.</span><span class="sxs-lookup"><span data-stu-id="abd61-115">After sending the message, the store calls this method again to release sole access to it.</span></span> 
+2. <span data-ttu-id="14f47-113">**[IMsgStore::SetLockState](imsgstore-setlockstate.md)** pour sécuriser l’accès unique à un message dans la file d’attente sortante juste avant de l’envoyer au serveur.</span><span class="sxs-lookup"><span data-stu-id="14f47-113">**[IMsgStore::SetLockState](imsgstore-setlockstate.md)** to secure sole access to a message in the outgoing queue just before sending it to the server.</span></span> <span data-ttu-id="14f47-114">Cette méthode réussit uniquement si le magasin émule le Gestionnaire de protocole Outlook.</span><span class="sxs-lookup"><span data-stu-id="14f47-114">This method succeeds only if the store is emulating the Outlook Protocol Manager.</span></span> <span data-ttu-id="14f47-115">Après l’envoi du message, la boutique appelle à nouveau cette méthode pour libérer l’accès unique à celui-ci.</span><span class="sxs-lookup"><span data-stu-id="14f47-115">After sending the message, the store calls this method again to release sole access to it.</span></span> 
     
 > [!NOTE]
-> <span data-ttu-id="abd61-116">Depuis Outlook 2002, le gestionnaire de protocoles Outlook remplace le spouleur MAPI et est devenu responsable de la mise en file d'attente des messages sortants vers les serveurs principaux.</span><span class="sxs-lookup"><span data-stu-id="abd61-116">Since Outlook 2002, the Outlook Protocol Manager replaced the MAPI spooler and became responsible for spooling outgoing messages to back-end servers.</span></span> 
+> <span data-ttu-id="14f47-116">Depuis Outlook 2002, le Gestionnaire de protocole Outlook a remplacé lepooler MAPI et est devenu responsable dupooling des messages sortants sur les serveurs back-end.</span><span class="sxs-lookup"><span data-stu-id="14f47-116">Since Outlook 2002, the Outlook Protocol Manager replaced the MAPI spooler and became responsible for spooling outgoing messages to back-end servers.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="abd61-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="abd61-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="14f47-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="14f47-117">See also</span></span>
 
 
 
-[<span data-ttu-id="abd61-118">IPSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="abd61-118">IPSTX::GetLastError</span></span>](ipstx-getlasterror.md)
+[<span data-ttu-id="14f47-118">IPSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="14f47-118">IPSTX::GetLastError</span></span>](ipstx-getlasterror.md)
   
-[<span data-ttu-id="abd61-119">IPSTX::GetSyncObject</span><span class="sxs-lookup"><span data-stu-id="abd61-119">IPSTX::GetSyncObject</span></span>](ipstx-getsyncobject.md)
+[<span data-ttu-id="14f47-119">IPSTX::GetSyncObject</span><span class="sxs-lookup"><span data-stu-id="14f47-119">IPSTX::GetSyncObject</span></span>](ipstx-getsyncobject.md)
 

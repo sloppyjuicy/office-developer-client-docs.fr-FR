@@ -19,46 +19,46 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435851"
 ---
-# <a name="pidtagcontactaddressbookstoreentryids-canonical-property"></a><span data-ttu-id="8e678-103">Propriété canonique PidTagContactAddressBookStoreEntryIds</span><span class="sxs-lookup"><span data-stu-id="8e678-103">PidTagContactAddressBookStoreEntryIds Canonical Property</span></span>
+# <a name="pidtagcontactaddressbookstoreentryids-canonical-property"></a><span data-ttu-id="1eddd-103">Propriété canonique PidTagContactAddressBookStoreEntryIds</span><span class="sxs-lookup"><span data-stu-id="1eddd-103">PidTagContactAddressBookStoreEntryIds Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8e678-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8e678-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1eddd-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1eddd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8e678-105">Contient les ID d'entrée des magasins dans lesquels les dossiers qui agissent comme des entrées de carnet d'adresses de contact sont trouvés.</span><span class="sxs-lookup"><span data-stu-id="8e678-105">Contains the Entry IDs of the stores in which folders that act as contact address book entries are found.</span></span>
+<span data-ttu-id="1eddd-105">Contient les ID d’entrée des magasins dans lesquels les dossiers qui agissent en tant qu’entrées de carnet d’adresses de contact sont trouvés.</span><span class="sxs-lookup"><span data-stu-id="1eddd-105">Contains the Entry IDs of the stores in which folders that act as contact address book entries are found.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8e678-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="8e678-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8e678-107">PR_CONTAB_STORE_ENTRYIDS</span><span class="sxs-lookup"><span data-stu-id="8e678-107">PR_CONTAB_STORE_ENTRYIDS</span></span>  <br/> |
-|<span data-ttu-id="8e678-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="8e678-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8e678-109">0x6626</span><span class="sxs-lookup"><span data-stu-id="8e678-109">0x6626</span></span>  <br/> |
-|<span data-ttu-id="8e678-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="8e678-110">Data type:</span></span>  <br/> |<span data-ttu-id="8e678-111">PT_MV_BINARY</span><span class="sxs-lookup"><span data-stu-id="8e678-111">PT_MV_BINARY</span></span>  <br/> |
-|<span data-ttu-id="8e678-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="8e678-112">Area:</span></span>  <br/> |<span data-ttu-id="8e678-113">Carnet d'adresses des contacts</span><span class="sxs-lookup"><span data-stu-id="8e678-113">Contact address book</span></span>  <br/> |
+|<span data-ttu-id="1eddd-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="1eddd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1eddd-107">PR_CONTAB_STORE_ENTRYIDS</span><span class="sxs-lookup"><span data-stu-id="1eddd-107">PR_CONTAB_STORE_ENTRYIDS</span></span>  <br/> |
+|<span data-ttu-id="1eddd-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="1eddd-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1eddd-109">0x6626</span><span class="sxs-lookup"><span data-stu-id="1eddd-109">0x6626</span></span>  <br/> |
+|<span data-ttu-id="1eddd-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="1eddd-110">Data type:</span></span>  <br/> |<span data-ttu-id="1eddd-111">PT_MV_BINARY</span><span class="sxs-lookup"><span data-stu-id="1eddd-111">PT_MV_BINARY</span></span>  <br/> |
+|<span data-ttu-id="1eddd-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="1eddd-112">Area:</span></span>  <br/> |<span data-ttu-id="1eddd-113">Carnet d’adresses de contact</span><span class="sxs-lookup"><span data-stu-id="1eddd-113">Contact address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8e678-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="8e678-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1eddd-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="1eddd-114">Remarks</span></span>
 
-<span data-ttu-id="8e678-115">Il s'agit d'une propriété dans la section profil de carnet d'adresses de contacts.</span><span class="sxs-lookup"><span data-stu-id="8e678-115">This is a property on a Contact Address Book profile section.</span></span>
+<span data-ttu-id="1eddd-115">Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact.</span><span class="sxs-lookup"><span data-stu-id="1eddd-115">This is a property on a Contact Address Book profile section.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="8e678-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="8e678-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="1eddd-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="1eddd-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="8e678-117">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="8e678-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="1eddd-117">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="1eddd-117">Header files</span></span>
 
-<span data-ttu-id="8e678-118">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="8e678-118">Mapidefs.h</span></span>
+<span data-ttu-id="1eddd-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1eddd-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8e678-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="8e678-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="1eddd-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="1eddd-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="8e678-120">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="8e678-120">Mapitags.h</span></span>
+<span data-ttu-id="1eddd-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="1eddd-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="8e678-121">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="8e678-121">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="1eddd-121">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="1eddd-121">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8e678-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8e678-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1eddd-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1eddd-122">See also</span></span>
 
 
 
-[<span data-ttu-id="8e678-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="8e678-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="1eddd-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="1eddd-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8e678-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="8e678-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="1eddd-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="1eddd-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8e678-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="8e678-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="1eddd-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="1eddd-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8e678-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="8e678-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="1eddd-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="1eddd-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251577
 localization_priority: Normal
 ms.assetid: 12e45f46-e773-9445-4c7f-c726ab648671
-description: Renvoie le nom de la page sous la forme d'une chaîne.
+description: Renvoie le nom de la page sous la mesure d’une chaîne.
 ms.openlocfilehash: d5527bde58a68c96bd75773f3a0a8c30f64fa20d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,26 +16,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438651"
 ---
-# <a name="pagename-function"></a><span data-ttu-id="459cb-103">Fonction PAGENAME</span><span class="sxs-lookup"><span data-stu-id="459cb-103">PAGENAME Function</span></span>
+# <a name="pagename-function"></a><span data-ttu-id="4c683-103">Fonction PAGENAME</span><span class="sxs-lookup"><span data-stu-id="4c683-103">PAGENAME Function</span></span>
 
-<span data-ttu-id="459cb-104">Renvoie le nom de la page sous la forme d'une chaîne.</span><span class="sxs-lookup"><span data-stu-id="459cb-104">Returns the page name as a string.</span></span>
+<span data-ttu-id="4c683-104">Renvoie le nom de la page sous la mesure d’une chaîne.</span><span class="sxs-lookup"><span data-stu-id="4c683-104">Returns the page name as a string.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="459cb-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="459cb-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4c683-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4c683-105">Syntax</span></span>
 
-<span data-ttu-id="459cb-106">PAGENAME (\* \* *langID_opt* \* \*)</span><span class="sxs-lookup"><span data-stu-id="459cb-106">PAGENAME (\*\* *langID_opt* \*\* )</span></span> 
+<span data-ttu-id="4c683-106">PAGENAME (\*\* *langID_opt* \*\* )</span><span class="sxs-lookup"><span data-stu-id="4c683-106">PAGENAME (\*\* *langID_opt* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="459cb-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="459cb-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="4c683-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4c683-107">Parameters</span></span>
 
-|<span data-ttu-id="459cb-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="459cb-108">**Name**</span></span>|<span data-ttu-id="459cb-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="459cb-109">**Required/Optional**</span></span>|<span data-ttu-id="459cb-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="459cb-110">**Data Type**</span></span>|<span data-ttu-id="459cb-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="459cb-111">**Description**</span></span>|
+|<span data-ttu-id="4c683-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="4c683-108">**Name**</span></span>|<span data-ttu-id="4c683-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="4c683-109">**Required/Optional**</span></span>|<span data-ttu-id="4c683-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="4c683-110">**Data Type**</span></span>|<span data-ttu-id="4c683-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="4c683-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="459cb-112">_langID_opt_</span><span class="sxs-lookup"><span data-stu-id="459cb-112">_langID_opt_</span></span> <br/> |<span data-ttu-id="459cb-113">Facultatif</span><span class="sxs-lookup"><span data-stu-id="459cb-113">Optional</span></span>  <br/> |<span data-ttu-id="459cb-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="459cb-114">**Number**</span></span> <br/> |<span data-ttu-id="459cb-p101">Permet de spécifier une langue pour la chaîne à laquelle la fonction renvoie. Utilisez 0 (valeur par défaut) pour spécifier la langue locale et 750 pour la langue universelle.</span><span class="sxs-lookup"><span data-stu-id="459cb-p101">Use to specify a language for the string the function returns. Use 0 (default value) to specify the local language. Use 750 to specify universal language.</span></span>  <br/> |
+| <span data-ttu-id="4c683-112">_langID_opt_</span><span class="sxs-lookup"><span data-stu-id="4c683-112">_langID_opt_</span></span> <br/> |<span data-ttu-id="4c683-113">Facultatif</span><span class="sxs-lookup"><span data-stu-id="4c683-113">Optional</span></span>  <br/> |<span data-ttu-id="4c683-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="4c683-114">**Number**</span></span> <br/> |<span data-ttu-id="4c683-p101">Permet de spécifier une langue pour la chaîne à laquelle la fonction renvoie. Utilisez 0 (valeur par défaut) pour spécifier la langue locale et 750 pour la langue universelle.</span><span class="sxs-lookup"><span data-stu-id="4c683-p101">Use to specify a language for the string the function returns. Use 0 (default value) to specify the local language. Use 750 to specify universal language.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="459cb-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="459cb-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="4c683-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="4c683-118">Return value</span></span>
 
-<span data-ttu-id="459cb-119">Chaîne</span><span class="sxs-lookup"><span data-stu-id="459cb-119">String</span></span>
+<span data-ttu-id="4c683-119">Chaîne</span><span class="sxs-lookup"><span data-stu-id="4c683-119">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="459cb-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="459cb-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4c683-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="4c683-120">Remarks</span></span>
 
-<span data-ttu-id="459cb-121">Si vous utilisez un code de langue interdit, la langue locale est utilisée.</span><span class="sxs-lookup"><span data-stu-id="459cb-121">If you pass an illegal language code, the local language is used.</span></span>
+<span data-ttu-id="4c683-121">Si vous utilisez un code de langue interdit, la langue locale est utilisée.</span><span class="sxs-lookup"><span data-stu-id="4c683-121">If you pass an illegal language code, the local language is used.</span></span>
   
 

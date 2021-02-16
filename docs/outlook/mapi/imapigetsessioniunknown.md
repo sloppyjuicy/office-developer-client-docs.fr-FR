@@ -19,36 +19,36 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436649"
 ---
-# <a name="imapigetsession--iunknown"></a><span data-ttu-id="9b730-103">IMAPIGetSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9b730-103">IMAPIGetSession : IUnknown</span></span>
+# <a name="imapigetsession--iunknown"></a><span data-ttu-id="d21d0-103">IMAPIGetSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d21d0-103">IMAPIGetSession : IUnknown</span></span>
 
   
   
-<span data-ttu-id="9b730-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9b730-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d21d0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d21d0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9b730-105">Permet d'accéder à la session MAPI actuelle associée à l'objet support.</span><span class="sxs-lookup"><span data-stu-id="9b730-105">Provides access to the current MAPI session associated with the support object.</span></span> <span data-ttu-id="9b730-106">Les fournisseurs MAPI peuvent interroger leur objet de prise en charge MAPI pour cette interface.</span><span class="sxs-lookup"><span data-stu-id="9b730-106">MAPI Providers can query their MAPI Support Object for this interface.</span></span> <span data-ttu-id="9b730-107">Pour plus d'informations sur les objets de prise en charge, voir [support Object Overview](support-object-overview.md).</span><span class="sxs-lookup"><span data-stu-id="9b730-107">For more information on support objects, see [Support Object Overview](support-object-overview.md).</span></span>
+<span data-ttu-id="d21d0-105">Permet d’accéder à la session MAPI actuelle associée à l’objet de support.</span><span class="sxs-lookup"><span data-stu-id="d21d0-105">Provides access to the current MAPI session associated with the support object.</span></span> <span data-ttu-id="d21d0-106">Les fournisseurs MAPI peuvent interroger leur objet de support MAPI pour cette interface.</span><span class="sxs-lookup"><span data-stu-id="d21d0-106">MAPI Providers can query their MAPI Support Object for this interface.</span></span> <span data-ttu-id="d21d0-107">Pour plus d’informations sur les objets de prise en charge, voir [Vue d’ensemble de l’objet support.](support-object-overview.md)</span><span class="sxs-lookup"><span data-stu-id="d21d0-107">For more information on support objects, see [Support Object Overview](support-object-overview.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9b730-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="9b730-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="9b730-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="9b730-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="9b730-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="9b730-110">Called by:</span></span>  <br/> |<span data-ttu-id="9b730-111">Fournisseurs MAPI</span><span class="sxs-lookup"><span data-stu-id="9b730-111">MAPI Providers</span></span>  <br/> |
-|<span data-ttu-id="9b730-112">Identificateur de l'interface:</span><span class="sxs-lookup"><span data-stu-id="9b730-112">Interface identifier:</span></span>  <br/> |<span data-ttu-id="9b730-113">IID_IMAPIGetSession</span><span class="sxs-lookup"><span data-stu-id="9b730-113">IID_IMAPIGetSession</span></span>  <br/> |
+|<span data-ttu-id="d21d0-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="d21d0-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="d21d0-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="d21d0-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="d21d0-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="d21d0-110">Called by:</span></span>  <br/> |<span data-ttu-id="d21d0-111">Fournisseurs MAPI</span><span class="sxs-lookup"><span data-stu-id="d21d0-111">MAPI Providers</span></span>  <br/> |
+|<span data-ttu-id="d21d0-112">Identificateur d’interface :</span><span class="sxs-lookup"><span data-stu-id="d21d0-112">Interface identifier:</span></span>  <br/> |<span data-ttu-id="d21d0-113">IID_IMAPIGetSession</span><span class="sxs-lookup"><span data-stu-id="d21d0-113">IID_IMAPIGetSession</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="9b730-114">Ordre vtable</span><span class="sxs-lookup"><span data-stu-id="9b730-114">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="d21d0-114">Ordre des vtables</span><span class="sxs-lookup"><span data-stu-id="d21d0-114">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="9b730-115">GetMAPISession</span><span class="sxs-lookup"><span data-stu-id="9b730-115">GetMAPISession</span></span>](imapigetsession-getmapisession.md) <br/> |<span data-ttu-id="9b730-116">Appelé pour obtenir un pointeur vers la session MAPI actuelle.</span><span class="sxs-lookup"><span data-stu-id="9b730-116">Called to obtain a pointer to the current MAPI session.</span></span>  <br/> |
+|[<span data-ttu-id="d21d0-115">GetMAPISession</span><span class="sxs-lookup"><span data-stu-id="d21d0-115">GetMAPISession</span></span>](imapigetsession-getmapisession.md) <br/> |<span data-ttu-id="d21d0-116">Appelé pour obtenir un pointeur vers la session MAPI en cours.</span><span class="sxs-lookup"><span data-stu-id="d21d0-116">Called to obtain a pointer to the current MAPI session.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="9b730-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9b730-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d21d0-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d21d0-117">See also</span></span>
 
 
 
-[<span data-ttu-id="9b730-118">GetMAPISession</span><span class="sxs-lookup"><span data-stu-id="9b730-118">GetMAPISession</span></span>](imapigetsession-getmapisession.md)
+[<span data-ttu-id="d21d0-118">GetMAPISession</span><span class="sxs-lookup"><span data-stu-id="d21d0-118">GetMAPISession</span></span>](imapigetsession-getmapisession.md)
   
-[<span data-ttu-id="9b730-119">IMAPISupport</span><span class="sxs-lookup"><span data-stu-id="9b730-119">IMAPISupport</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="d21d0-119">IMAPISupport</span><span class="sxs-lookup"><span data-stu-id="d21d0-119">IMAPISupport</span></span>](imapisupportiunknown.md)
 
 
-[<span data-ttu-id="9b730-120">Interfaces MAPI</span><span class="sxs-lookup"><span data-stu-id="9b730-120">MAPI Interfaces</span></span>](mapi-interfaces.md)
+[<span data-ttu-id="d21d0-120">Interfaces MAPI</span><span class="sxs-lookup"><span data-stu-id="d21d0-120">MAPI Interfaces</span></span>](mapi-interfaces.md)
   
-[<span data-ttu-id="9b730-121">Vue d'ensemble de l'objet support</span><span class="sxs-lookup"><span data-stu-id="9b730-121">Support Object Overview</span></span>](support-object-overview.md)
+[<span data-ttu-id="d21d0-121">Vue d’ensemble de l’objet support</span><span class="sxs-lookup"><span data-stu-id="d21d0-121">Support Object Overview</span></span>](support-object-overview.md)
 

@@ -15,19 +15,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439106"
 ---
-# <a name="hrgetgalfromemsmdbuid"></a><span data-ttu-id="b5cb5-103">HrGetGALFromEmsmdbUID</span><span class="sxs-lookup"><span data-stu-id="b5cb5-103">HrGetGALFromEmsmdbUID</span></span>
+# <a name="hrgetgalfromemsmdbuid"></a><span data-ttu-id="e3d1b-103">HrGetGALFromEmsmdbUID</span><span class="sxs-lookup"><span data-stu-id="e3d1b-103">HrGetGALFromEmsmdbUID</span></span>
 
   
   
-<span data-ttu-id="b5cb5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b5cb5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e3d1b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e3d1b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b5cb5-105">Renvoie l'identificateur d'entrée du carnet d'adresses global pour le service Exchange identifié par _pEmsmdbUID_.</span><span class="sxs-lookup"><span data-stu-id="b5cb5-105">Returns the entry identifier of the global address book for the Exchange service identified by  _pEmsmdbUID_.</span></span> <span data-ttu-id="b5cb5-106">L'identificateur d'entrée retourné doit être libéré à l'aide de [MAPIFreeBuffer](mapifreebuffer.md).</span><span class="sxs-lookup"><span data-stu-id="b5cb5-106">The returned entry identifier should be freed using [MAPIFreeBuffer](mapifreebuffer.md).</span></span>
+<span data-ttu-id="e3d1b-105">Renvoie l’identificateur d’entrée du carnet d’adresses global pour le service Exchange identifié par  _pEmsmdbUID_.</span><span class="sxs-lookup"><span data-stu-id="e3d1b-105">Returns the entry identifier of the global address book for the Exchange service identified by  _pEmsmdbUID_.</span></span> <span data-ttu-id="e3d1b-106">L’identificateur d’entrée renvoyé doit être libéré à l’aide [de MAPIFreeBuffer](mapifreebuffer.md).</span><span class="sxs-lookup"><span data-stu-id="e3d1b-106">The returned entry identifier should be freed using [MAPIFreeBuffer](mapifreebuffer.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b5cb5-107">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="b5cb5-107">Header file:</span></span>  <br/> |<span data-ttu-id="b5cb5-108">abhelp. h</span><span class="sxs-lookup"><span data-stu-id="b5cb5-108">abhelp.h</span></span>  <br/> |
-|<span data-ttu-id="b5cb5-109">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="b5cb5-109">Implemented by:</span></span>  <br/> |<span data-ttu-id="b5cb5-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="b5cb5-110">MAPI</span></span>  <br/> |
-|<span data-ttu-id="b5cb5-111">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="b5cb5-111">Called by:</span></span>  <br/> |<span data-ttu-id="b5cb5-112">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="b5cb5-112">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="e3d1b-107">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="e3d1b-107">Header file:</span></span>  <br/> |<span data-ttu-id="e3d1b-108">abhelp.h</span><span class="sxs-lookup"><span data-stu-id="e3d1b-108">abhelp.h</span></span>  <br/> |
+|<span data-ttu-id="e3d1b-109">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="e3d1b-109">Implemented by:</span></span>  <br/> |<span data-ttu-id="e3d1b-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="e3d1b-110">MAPI</span></span>  <br/> |
+|<span data-ttu-id="e3d1b-111">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="e3d1b-111">Called by:</span></span>  <br/> |<span data-ttu-id="e3d1b-112">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="e3d1b-112">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT HrGetGALFromEmsmdbUID(
@@ -39,26 +39,26 @@ HRESULT HrGetGALFromEmsmdbUID(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b5cb5-113">Paramètres</span><span class="sxs-lookup"><span data-stu-id="b5cb5-113">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e3d1b-113">Paramètres</span><span class="sxs-lookup"><span data-stu-id="e3d1b-113">Parameters</span></span>
 
- <span data-ttu-id="b5cb5-114">_pSess_</span><span class="sxs-lookup"><span data-stu-id="b5cb5-114">_pSess_</span></span>
+ <span data-ttu-id="e3d1b-114">_pSess_</span><span class="sxs-lookup"><span data-stu-id="e3d1b-114">_pSess_</span></span>
   
-> <span data-ttu-id="b5cb5-115">dans Le IMAPISession connecté.</span><span class="sxs-lookup"><span data-stu-id="b5cb5-115">[in] The logged on IMAPISession.</span></span> <span data-ttu-id="b5cb5-116">Il ne peut pas être NULL.</span><span class="sxs-lookup"><span data-stu-id="b5cb5-116">It cannot be NULL.</span></span>
+> <span data-ttu-id="e3d1b-115">[in] IMAPISession connecté.</span><span class="sxs-lookup"><span data-stu-id="e3d1b-115">[in] The logged on IMAPISession.</span></span> <span data-ttu-id="e3d1b-116">Elle ne peut pas être NULL.</span><span class="sxs-lookup"><span data-stu-id="e3d1b-116">It cannot be NULL.</span></span>
     
- <span data-ttu-id="b5cb5-117">_pAddrBook_</span><span class="sxs-lookup"><span data-stu-id="b5cb5-117">_pAddrBook_</span></span>
+ <span data-ttu-id="e3d1b-117">_pAddrBook_</span><span class="sxs-lookup"><span data-stu-id="e3d1b-117">_pAddrBook_</span></span>
   
-> <span data-ttu-id="b5cb5-118">dans Carnet d'adresses utilisé pour ouvrir l'identificateur d'entrée.</span><span class="sxs-lookup"><span data-stu-id="b5cb5-118">[in] The address book used to open the entry identifier.</span></span> <span data-ttu-id="b5cb5-119">Il ne peut pas être NULL.</span><span class="sxs-lookup"><span data-stu-id="b5cb5-119">It cannot be NULL.</span></span>
+> <span data-ttu-id="e3d1b-118">[in] Carnet d’adresses utilisé pour ouvrir l’identificateur d’entrée.</span><span class="sxs-lookup"><span data-stu-id="e3d1b-118">[in] The address book used to open the entry identifier.</span></span> <span data-ttu-id="e3d1b-119">Elle ne peut pas être NULL.</span><span class="sxs-lookup"><span data-stu-id="e3d1b-119">It cannot be NULL.</span></span>
     
- <span data-ttu-id="b5cb5-120">_pEmsmdbUID_</span><span class="sxs-lookup"><span data-stu-id="b5cb5-120">_pEmsmdbUID_</span></span>
+ <span data-ttu-id="e3d1b-120">_pEmsmdbUID_</span><span class="sxs-lookup"><span data-stu-id="e3d1b-120">_pEmsmdbUID_</span></span>
   
-> <span data-ttu-id="b5cb5-121">dans Pointeur vers un **emsmdbUID** qui identifie la liste d'adresses globale du service Exchange à récupérer.</span><span class="sxs-lookup"><span data-stu-id="b5cb5-121">[in] A pointer to an **emsmdbUID** that identifies the GAL of the Exchange Service to be retrieved.</span></span> <span data-ttu-id="b5cb5-122">Si _pEmsmdbUID_ est null ou zéro uid, cette fonction obtient la lag héritée du service Exchange.</span><span class="sxs-lookup"><span data-stu-id="b5cb5-122">If  _pEmsmdbUID_ is NULL or the zero UID, this function gets the legacy GAL of the Exchange Service.</span></span> 
+> <span data-ttu-id="e3d1b-121">[in] Pointeur vers **un emsmdbUID** qui identifie la LA GAL du service Exchange à récupérer.</span><span class="sxs-lookup"><span data-stu-id="e3d1b-121">[in] A pointer to an **emsmdbUID** that identifies the GAL of the Exchange Service to be retrieved.</span></span> <span data-ttu-id="e3d1b-122">Si  _pEmsmdbUID_ a la valeur NULL ou l’UID zéro, cette fonction obtient la LAL héritée du service Exchange.</span><span class="sxs-lookup"><span data-stu-id="e3d1b-122">If  _pEmsmdbUID_ is NULL or the zero UID, this function gets the legacy GAL of the Exchange Service.</span></span> 
     
- <span data-ttu-id="b5cb5-123">_lpcbeid_</span><span class="sxs-lookup"><span data-stu-id="b5cb5-123">_lpcbeid_</span></span>
+ <span data-ttu-id="e3d1b-123">_lpcbeid_</span><span class="sxs-lookup"><span data-stu-id="e3d1b-123">_lpcbeid_</span></span>
   
-> <span data-ttu-id="b5cb5-124">remarquer Pointeur vers le nombre d'octets de l'identificateur d'entrée de la liste d'adresses globale.</span><span class="sxs-lookup"><span data-stu-id="b5cb5-124">[out] A pointer to the byte count of the entry identifier of the global address list.</span></span>
+> <span data-ttu-id="e3d1b-124">[out] Pointeur vers le nombre d’byte de l’identificateur d’entrée de la liste d’adresses globale.</span><span class="sxs-lookup"><span data-stu-id="e3d1b-124">[out] A pointer to the byte count of the entry identifier of the global address list.</span></span>
     
- <span data-ttu-id="b5cb5-125">_lppeid_</span><span class="sxs-lookup"><span data-stu-id="b5cb5-125">_lppeid_</span></span>
+ <span data-ttu-id="e3d1b-125">_lppeid_</span><span class="sxs-lookup"><span data-stu-id="e3d1b-125">_lppeid_</span></span>
   
-> <span data-ttu-id="b5cb5-126">remarquer Pointeur vers l'identificateur d'entrée de la liste d'adresses globale.</span><span class="sxs-lookup"><span data-stu-id="b5cb5-126">[out] A pointer to the entry identifier of the global address list.</span></span> <span data-ttu-id="b5cb5-127">Cela doit être libéré à l'aide de [MAPIFreeBuffer](mapifreebuffer.md).</span><span class="sxs-lookup"><span data-stu-id="b5cb5-127">This should be freed using [MAPIFreeBuffer](mapifreebuffer.md).</span></span>
+> <span data-ttu-id="e3d1b-126">[out] Pointeur vers l’identificateur d’entrée de la liste d’adresses globale.</span><span class="sxs-lookup"><span data-stu-id="e3d1b-126">[out] A pointer to the entry identifier of the global address list.</span></span> <span data-ttu-id="e3d1b-127">Cela doit être libéré à [l’aide de MAPIFreeBuffer](mapifreebuffer.md).</span><span class="sxs-lookup"><span data-stu-id="e3d1b-127">This should be freed using [MAPIFreeBuffer](mapifreebuffer.md).</span></span>
     
 

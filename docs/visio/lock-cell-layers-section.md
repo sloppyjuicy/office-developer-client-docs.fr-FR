@@ -16,31 +16,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438826"
 ---
-# <a name="lock-cell-layers-section"></a><span data-ttu-id="5f886-103">Lock, cellule (section Layers)</span><span class="sxs-lookup"><span data-stu-id="5f886-103">Lock Cell (Layers Section)</span></span>
+# <a name="lock-cell-layers-section"></a><span data-ttu-id="ec083-103">Lock, cellule (section Layers)</span><span class="sxs-lookup"><span data-stu-id="ec083-103">Lock Cell (Layers Section)</span></span>
 
-<span data-ttu-id="5f886-104">Indique si les formes appartenant au calque sont verrouillées en sélection ou en modification.</span><span class="sxs-lookup"><span data-stu-id="5f886-104">Specifies whether shapes belonging to the layer are locked against being selected or edited.</span></span>
+<span data-ttu-id="ec083-104">Indique si les formes appartenant au calque sont verrouillées en sélection ou en modification.</span><span class="sxs-lookup"><span data-stu-id="ec083-104">Specifies whether shapes belonging to the layer are locked against being selected or edited.</span></span>
   
-|<span data-ttu-id="5f886-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="5f886-105">**Value**</span></span>|<span data-ttu-id="5f886-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="5f886-106">**Description**</span></span>|
+|<span data-ttu-id="ec083-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="ec083-105">**Value**</span></span>|<span data-ttu-id="ec083-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="ec083-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="5f886-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="5f886-107">TRUE</span></span>  <br/> |<span data-ttu-id="5f886-108">Les formes sont verrouillées.</span><span class="sxs-lookup"><span data-stu-id="5f886-108">Shapes are locked.</span></span>  <br/> |
-|<span data-ttu-id="5f886-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="5f886-109">FALSE</span></span>  <br/> |<span data-ttu-id="5f886-110">Aucune forme n'est verrouillée.</span><span class="sxs-lookup"><span data-stu-id="5f886-110">Shapes are not locked.</span></span>  <br/> |
+|<span data-ttu-id="ec083-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="ec083-107">TRUE</span></span>  <br/> |<span data-ttu-id="ec083-108">Les formes sont verrouillées.</span><span class="sxs-lookup"><span data-stu-id="ec083-108">Shapes are locked.</span></span>  <br/> |
+|<span data-ttu-id="ec083-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="ec083-109">FALSE</span></span>  <br/> |<span data-ttu-id="ec083-110">Aucune forme n'est verrouillée.</span><span class="sxs-lookup"><span data-stu-id="ec083-110">Shapes are not locked.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5f886-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="5f886-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ec083-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="ec083-111">Remarks</span></span>
 
-<span data-ttu-id="5f886-112">Vous pouvez également définir cette valeur en activant la case à cocher **Verrouiller** dans la boîte de dialogue **Propriétés des calques**(sous l’onglet **Accueil**, dans le groupe **Modification**, cliquez sur **Calques**, puis cliquez sur **Propriétés des calques**).</span><span class="sxs-lookup"><span data-stu-id="5f886-112">You can also set this value by selecting **Lock** in the **Layer Properties** dialog box (on the **Home** tab, in the **Editing** group, click **Layers**, and then click **Layer Properties**).</span></span>
+<span data-ttu-id="ec083-112">Vous pouvez également définir cette valeur en activant la case à cocher **Verrouiller** dans la boîte de dialogue **Propriétés des calques**(sous l’onglet **Accueil**, dans le groupe **Modification**, cliquez sur **Calques**, puis cliquez sur **Propriétés des calques**).</span><span class="sxs-lookup"><span data-stu-id="ec083-112">You can also set this value by selecting **Lock** in the **Layer Properties** dialog box (on the **Home** tab, in the **Editing** group, click **Layers**, and then click **Layer Properties**).</span></span>
   
-<span data-ttu-id="5f886-113">Pour obtenir une référence à la cellule Lock par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="5f886-113">To get a reference to the Lock cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="ec083-113">Pour obtenir une référence à la cellule Lock par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="ec083-113">To get a reference to the Lock cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5f886-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="5f886-114">Cell name:</span></span>  <br/> |<span data-ttu-id="5f886-115">Layers. Locked [ *i* ] où *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="5f886-115">Layers.Locked[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="ec083-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="ec083-114">Cell name:</span></span>  <br/> |<span data-ttu-id="ec083-115">Layers.Locked[ *i*  ] où  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="ec083-115">Layers.Locked[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="5f886-116">Pour obtenir une référence à la cellule Lock à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="5f886-116">To get a reference to the Lock cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="ec083-116">Pour obtenir une référence à la cellule Lock à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="ec083-116">To get a reference to the Lock cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5f886-117">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="5f886-117">Section index:</span></span>  <br/> |<span data-ttu-id="5f886-118">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="5f886-118">**visSectionLayer**</span></span> <br/> |
-|<span data-ttu-id="5f886-119">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="5f886-119">Row index:</span></span>  <br/> |<span data-ttu-id="5f886-120">**visRowLayer** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="5f886-120">**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="5f886-121">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="5f886-121">Cell index:</span></span>  <br/> |<span data-ttu-id="5f886-122">**visLayerLock**</span><span class="sxs-lookup"><span data-stu-id="5f886-122">**visLayerLock**</span></span> <br/> |
+|<span data-ttu-id="ec083-117">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="ec083-117">Section index:</span></span>  <br/> |<span data-ttu-id="ec083-118">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="ec083-118">**visSectionLayer**</span></span> <br/> |
+|<span data-ttu-id="ec083-119">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="ec083-119">Row index:</span></span>  <br/> |<span data-ttu-id="ec083-120">**visRowLayer**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="ec083-120">**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="ec083-121">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="ec083-121">Cell index:</span></span>  <br/> |<span data-ttu-id="ec083-122">**visLayerLock**</span><span class="sxs-lookup"><span data-stu-id="ec083-122">**visLayerLock**</span></span> <br/> |
    
 

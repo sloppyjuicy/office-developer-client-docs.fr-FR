@@ -19,17 +19,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435179"
 ---
-# <a name="stnefproblem"></a><span data-ttu-id="e9c63-103">STnefProblem</span><span class="sxs-lookup"><span data-stu-id="e9c63-103">STnefProblem</span></span>
+# <a name="stnefproblem"></a><span data-ttu-id="12b30-103">STnefProblem</span><span class="sxs-lookup"><span data-stu-id="12b30-103">STnefProblem</span></span>
 
   
   
-<span data-ttu-id="e9c63-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e9c63-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="12b30-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="12b30-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e9c63-105">Contient des informations sur un problème de traitement de propriété ou d'attribut qui s'est produit pendant le codage ou le décodage d'un flux TNEF (Transport Neutral Encapsulation Format).</span><span class="sxs-lookup"><span data-stu-id="e9c63-105">Contains information about a property or attribute processing problem that occurred during the encoding or decoding of a Transport Neutral Encapsulation Format (TNEF) stream.</span></span>
+<span data-ttu-id="12b30-105">Contient des informations sur un problème de traitement de propriété ou d’attribut qui s’est produit lors du codage ou du décodage d’un flux TNEF (Transport Neutral Encapsulation Format).</span><span class="sxs-lookup"><span data-stu-id="12b30-105">Contains information about a property or attribute processing problem that occurred during the encoding or decoding of a Transport Neutral Encapsulation Format (TNEF) stream.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e9c63-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="e9c63-106">Header file:</span></span>  <br/> |<span data-ttu-id="e9c63-107">TNEF. h</span><span class="sxs-lookup"><span data-stu-id="e9c63-107">Tnef.h</span></span>  <br/> |
+|<span data-ttu-id="12b30-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="12b30-106">Header file:</span></span>  <br/> |<span data-ttu-id="12b30-107">Tnef.h</span><span class="sxs-lookup"><span data-stu-id="12b30-107">Tnef.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _STnefProblem
@@ -42,44 +42,44 @@ typedef struct _STnefProblem
 
 ```
 
-## <a name="members"></a><span data-ttu-id="e9c63-108">Members</span><span class="sxs-lookup"><span data-stu-id="e9c63-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="12b30-108">Members</span><span class="sxs-lookup"><span data-stu-id="12b30-108">Members</span></span>
 
- <span data-ttu-id="e9c63-109">**ulComponent**</span><span class="sxs-lookup"><span data-stu-id="e9c63-109">**ulComponent**</span></span>
+ <span data-ttu-id="12b30-109">**ulComponent**</span><span class="sxs-lookup"><span data-stu-id="12b30-109">**ulComponent**</span></span>
   
-> <span data-ttu-id="e9c63-110">Type de traitement au cours duquel le problème s'est produit.</span><span class="sxs-lookup"><span data-stu-id="e9c63-110">The type of processing during which the problem occurred.</span></span> <span data-ttu-id="e9c63-111">Si le problème s'est produit pendant le traitement des messages, le membre **ulComponent** est défini sur zéro.</span><span class="sxs-lookup"><span data-stu-id="e9c63-111">If the problem occurred during message processing, the **ulComponent** member is set to zero.</span></span> <span data-ttu-id="e9c63-112">Si le problème s'est produit pendant le traitement des pièces jointes, **ulComponent** est égal à la valeur **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de la pièce jointe correspondante.</span><span class="sxs-lookup"><span data-stu-id="e9c63-112">If the problem occurred during attachment processing, **ulComponent** is set equal to the corresponding attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) value.</span></span>
+> <span data-ttu-id="12b30-110">Type de traitement au cours duquel le problème s’est produit.</span><span class="sxs-lookup"><span data-stu-id="12b30-110">The type of processing during which the problem occurred.</span></span> <span data-ttu-id="12b30-111">Si le problème s’est produit pendant le traitement des messages, le membre **ulComponent** est définie sur zéro.</span><span class="sxs-lookup"><span data-stu-id="12b30-111">If the problem occurred during message processing, the **ulComponent** member is set to zero.</span></span> <span data-ttu-id="12b30-112">Si le problème s’est produit lors du traitement des pièces jointes, **ulComponent** est égal à la valeur de la pièce jointe **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="12b30-112">If the problem occurred during attachment processing, **ulComponent** is set equal to the corresponding attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) value.</span></span>
     
- <span data-ttu-id="e9c63-113">**ulAttribute**</span><span class="sxs-lookup"><span data-stu-id="e9c63-113">**ulAttribute**</span></span>
+ <span data-ttu-id="12b30-113">**ulAttribute**</span><span class="sxs-lookup"><span data-stu-id="12b30-113">**ulAttribute**</span></span>
   
-> <span data-ttu-id="e9c63-114">Attribut associé à la propriété indiquée par le membre **ulPropTag** ou, lorsque le problème de traitement TNEF se produit lors du décodage d'un bloc d'encapsulation, l'une des valeurs suivantes:</span><span class="sxs-lookup"><span data-stu-id="e9c63-114">Attribute associated with the property indicated by the **ulPropTag** member or, when the TNEF processing problem occurs when decoding an encapsulation block, one of the following values:</span></span> 
+> <span data-ttu-id="12b30-114">Attribut associé à la propriété indiquée par le membre **ulPropTag** ou, lorsque le problème de traitement TNEF se produit lors du décodage d’un bloc d’encapsulation, l’une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="12b30-114">Attribute associated with the property indicated by the **ulPropTag** member or, when the TNEF processing problem occurs when decoding an encapsulation block, one of the following values:</span></span> 
     
- <span data-ttu-id="e9c63-115">_attMAPIProps_</span><span class="sxs-lookup"><span data-stu-id="e9c63-115">_attMAPIProps_</span></span>
+ <span data-ttu-id="12b30-115">_attMAPIProps_</span><span class="sxs-lookup"><span data-stu-id="12b30-115">_attMAPIProps_</span></span>
   
-> <span data-ttu-id="e9c63-116">Niveau du message</span><span class="sxs-lookup"><span data-stu-id="e9c63-116">Message level</span></span>
+> <span data-ttu-id="12b30-116">Niveau du message</span><span class="sxs-lookup"><span data-stu-id="12b30-116">Message level</span></span>
     
- <span data-ttu-id="e9c63-117">_attAttachment_</span><span class="sxs-lookup"><span data-stu-id="e9c63-117">_attAttachment_</span></span>
+ <span data-ttu-id="12b30-117">_attAttachment_</span><span class="sxs-lookup"><span data-stu-id="12b30-117">_attAttachment_</span></span>
   
-> <span data-ttu-id="e9c63-118">Niveau de pièce jointe</span><span class="sxs-lookup"><span data-stu-id="e9c63-118">Attachment level</span></span>
+> <span data-ttu-id="12b30-118">Niveau de pièce jointe</span><span class="sxs-lookup"><span data-stu-id="12b30-118">Attachment level</span></span>
     
- <span data-ttu-id="e9c63-119">**ulPropTag**</span><span class="sxs-lookup"><span data-stu-id="e9c63-119">**ulPropTag**</span></span>
+ <span data-ttu-id="12b30-119">**ulPropTag**</span><span class="sxs-lookup"><span data-stu-id="12b30-119">**ulPropTag**</span></span>
   
-> <span data-ttu-id="e9c63-120">Balise de propriété de la propriété à l'origine du problème de traitement TNEF, sauf lorsque le problème se produit lors du décodage d'un bloc d'encapsulation, auquel cas **ulPropTag** est défini sur zéro.</span><span class="sxs-lookup"><span data-stu-id="e9c63-120">Property tag of the property that caused the TNEF processing problem, except when the problem occurs when decoding an encapsulation block, in which case **ulPropTag** is set to zero.</span></span> 
+> <span data-ttu-id="12b30-120">Balise de propriété de la propriété à l’origine du problème de traitement TNEF, sauf lorsque le problème se produit lors du décodage d’un bloc d’encapsulation, auquel cas **ulPropTag** est définie sur zéro.</span><span class="sxs-lookup"><span data-stu-id="12b30-120">Property tag of the property that caused the TNEF processing problem, except when the problem occurs when decoding an encapsulation block, in which case **ulPropTag** is set to zero.</span></span> 
     
- <span data-ttu-id="e9c63-121">**SCODE**</span><span class="sxs-lookup"><span data-stu-id="e9c63-121">**scode**</span></span>
+ <span data-ttu-id="12b30-121">**scode**</span><span class="sxs-lookup"><span data-stu-id="12b30-121">**scode**</span></span>
   
-> <span data-ttu-id="e9c63-122">Valeur d'erreur indiquant le problème rencontré lors du traitement.</span><span class="sxs-lookup"><span data-stu-id="e9c63-122">Error value indicating the problem encountered during processing.</span></span>
+> <span data-ttu-id="12b30-122">Valeur d’erreur indiquant le problème rencontré lors du traitement.</span><span class="sxs-lookup"><span data-stu-id="12b30-122">Error value indicating the problem encountered during processing.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="e9c63-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="e9c63-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="12b30-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="12b30-123">Remarks</span></span>
 
-<span data-ttu-id="e9c63-124">Si aucune structure **STnefProblem** n'est générée pendant le traitement d'un attribut ou d'une propriété, l'application peut continuer en supposant que le traitement de cet attribut ou de cette propriété a réussi.</span><span class="sxs-lookup"><span data-stu-id="e9c63-124">If an **STnefProblem** structure is not generated during the processing of an attribute or property, the application can continue under the assumption that the processing of that attribute or property succeeded.</span></span> <span data-ttu-id="e9c63-125">La seule exception se produit lors du décodage d'un bloc d'encapsulation.</span><span class="sxs-lookup"><span data-stu-id="e9c63-125">The only exception occurs when the problem arose during decoding of an encapsulation block.</span></span> <span data-ttu-id="e9c63-126">Dans ce cas, le décodage du composant correspondant au bloc est arrêté et le décodage se poursuit dans un autre composant.</span><span class="sxs-lookup"><span data-stu-id="e9c63-126">In this case, the decoding of the component corresponding to the block is stopped and decoding is continued in another component.</span></span> 
+<span data-ttu-id="12b30-124">Si une structure **STnefProblem** n’est pas générée pendant le traitement d’un attribut ou d’une propriété, l’application peut continuer en présumant que le traitement de cet attribut ou propriété a réussi.</span><span class="sxs-lookup"><span data-stu-id="12b30-124">If an **STnefProblem** structure is not generated during the processing of an attribute or property, the application can continue under the assumption that the processing of that attribute or property succeeded.</span></span> <span data-ttu-id="12b30-125">La seule exception se produit lorsque le problème survient lors du décodage d’un bloc d’encapsulation.</span><span class="sxs-lookup"><span data-stu-id="12b30-125">The only exception occurs when the problem arose during decoding of an encapsulation block.</span></span> <span data-ttu-id="12b30-126">Dans ce cas, le décodage du composant correspondant au bloc est arrêté et le décodage se poursuit dans un autre composant.</span><span class="sxs-lookup"><span data-stu-id="12b30-126">In this case, the decoding of the component corresponding to the block is stopped and decoding is continued in another component.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="e9c63-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e9c63-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12b30-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="12b30-127">See also</span></span>
 
 
 
-[<span data-ttu-id="e9c63-128">STnefProblemArray</span><span class="sxs-lookup"><span data-stu-id="e9c63-128">STnefProblemArray</span></span>](stnefproblemarray.md)
+[<span data-ttu-id="12b30-128">STnefProblemArray</span><span class="sxs-lookup"><span data-stu-id="12b30-128">STnefProblemArray</span></span>](stnefproblemarray.md)
   
-[<span data-ttu-id="e9c63-129">Propriété canonique PidTagAttachNumber</span><span class="sxs-lookup"><span data-stu-id="e9c63-129">PidTagAttachNumber Canonical Property</span></span>](pidtagattachnumber-canonical-property.md)
+[<span data-ttu-id="12b30-129">Propriété canonique PidTagAttachNumber</span><span class="sxs-lookup"><span data-stu-id="12b30-129">PidTagAttachNumber Canonical Property</span></span>](pidtagattachnumber-canonical-property.md)
 
 
-[<span data-ttu-id="e9c63-130">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="e9c63-130">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="12b30-130">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="12b30-130">MAPI Structures</span></span>](mapi-structures.md)
 

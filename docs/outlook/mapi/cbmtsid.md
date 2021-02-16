@@ -19,35 +19,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438994"
 ---
-# <a name="cbmtsid"></a><span data-ttu-id="a6acf-103">CbMTSID</span><span class="sxs-lookup"><span data-stu-id="a6acf-103">CbMTSID</span></span>
+# <a name="cbmtsid"></a><span data-ttu-id="8c5fd-103">CbMTSID</span><span class="sxs-lookup"><span data-stu-id="8c5fd-103">CbMTSID</span></span>
 
   
   
-<span data-ttu-id="a6acf-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a6acf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8c5fd-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8c5fd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a6acf-105">Calcule le nombre d'octets dans une structure [MTSID](mtsid.md) existante.</span><span class="sxs-lookup"><span data-stu-id="a6acf-105">Computes the number of bytes in an existing [MTSID](mtsid.md) structure.</span></span> 
+<span data-ttu-id="8c5fd-105">Calcule le nombre d’octets dans une structure [MTSID](mtsid.md) existante.</span><span class="sxs-lookup"><span data-stu-id="8c5fd-105">Computes the number of bytes in an existing [MTSID](mtsid.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a6acf-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="a6acf-106">Header file:</span></span>  <br/> |<span data-ttu-id="a6acf-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="a6acf-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="a6acf-108">Structure associée:</span><span class="sxs-lookup"><span data-stu-id="a6acf-108">Related structure:</span></span>  <br/> |<span data-ttu-id="a6acf-109">**MTSID**</span><span class="sxs-lookup"><span data-stu-id="a6acf-109">**MTSID**</span></span> <br/> |
+|<span data-ttu-id="8c5fd-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="8c5fd-106">Header file:</span></span>  <br/> |<span data-ttu-id="8c5fd-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8c5fd-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="8c5fd-108">Structure connexe :</span><span class="sxs-lookup"><span data-stu-id="8c5fd-108">Related structure:</span></span>  <br/> |<span data-ttu-id="8c5fd-109">**MTSID**</span><span class="sxs-lookup"><span data-stu-id="8c5fd-109">**MTSID**</span></span> <br/> |
    
 ```cpp
 CbMTSID (_lpentry)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a6acf-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a6acf-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8c5fd-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="8c5fd-110">Parameters</span></span>
 
- <span data-ttu-id="a6acf-111">__lpentry_</span><span class="sxs-lookup"><span data-stu-id="a6acf-111">__lpentry_</span></span>
+ <span data-ttu-id="8c5fd-111">_ _lpentry_</span><span class="sxs-lookup"><span data-stu-id="8c5fd-111">_ _lpentry_</span></span>
   
-> <span data-ttu-id="a6acf-112">Pointeur vers la structure **MTSID** existante.</span><span class="sxs-lookup"><span data-stu-id="a6acf-112">Pointer to the existing **MTSID** structure.</span></span> 
+> <span data-ttu-id="8c5fd-112">Pointeur vers la structure **MTSID** existante.</span><span class="sxs-lookup"><span data-stu-id="8c5fd-112">Pointer to the existing **MTSID** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="a6acf-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a6acf-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8c5fd-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8c5fd-113">See also</span></span>
 
 
 
-[<span data-ttu-id="a6acf-114">MTSID</span><span class="sxs-lookup"><span data-stu-id="a6acf-114">MTSID</span></span>](mtsid.md)
+[<span data-ttu-id="8c5fd-114">MTSID</span><span class="sxs-lookup"><span data-stu-id="8c5fd-114">MTSID</span></span>](mtsid.md)
 
 
-[<span data-ttu-id="a6acf-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="a6acf-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="8c5fd-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="8c5fd-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

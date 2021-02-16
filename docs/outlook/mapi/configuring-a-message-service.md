@@ -1,5 +1,5 @@
 ---
-title: Configuration d'un service de messagerie
+title: Configuration d’un service de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434507"
 ---
-# <a name="configuring-a-message-service"></a><span data-ttu-id="6213e-103">Configuration d'un service de messagerie</span><span class="sxs-lookup"><span data-stu-id="6213e-103">Configuring a Message Service</span></span>
+# <a name="configuring-a-message-service"></a><span data-ttu-id="eaa52-103">Configuration d’un service de message</span><span class="sxs-lookup"><span data-stu-id="eaa52-103">Configuring a Message Service</span></span>
 
   
   
-<span data-ttu-id="6213e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6213e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="eaa52-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="eaa52-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="6213e-105">**Pour configurer tous les fournisseurs de services dans un service de messagerie**</span><span class="sxs-lookup"><span data-stu-id="6213e-105">**To configure all the service providers in a message service**</span></span>
+ <span data-ttu-id="eaa52-105">**Pour configurer tous les fournisseurs de services dans un service de messagerie**</span><span class="sxs-lookup"><span data-stu-id="eaa52-105">**To configure all the service providers in a message service**</span></span>
   
-- <span data-ttu-id="6213e-106">Appelez [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md).</span><span class="sxs-lookup"><span data-stu-id="6213e-106">Call [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md).</span></span> <span data-ttu-id="6213e-107">Si toutes les données nécessaires pour la configuration sont disponibles par programme, vous pouvez choisir d'afficher ou non une interface utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6213e-107">If all of the data necessary for configuration is available programmatically, you can choose whether or not to display a user interface.</span></span> <span data-ttu-id="6213e-108">Toutefois, si certaines informations pour un ou plusieurs fournisseurs ne sont pas disponibles, veillez à définir l'indicateur SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS.</span><span class="sxs-lookup"><span data-stu-id="6213e-108">However, if some of the information for one or more providers is not available, make sure that you set the SERVICE_UI_ALLOWED or SERVICE_UI_ALWAYS flag.</span></span> <span data-ttu-id="6213e-109">Suppression d'une interface utilisateur lorsque les données de configuration requises ne sont pas disponibles, les résultats sont indisponibles dans un service de messagerie non configuré.</span><span class="sxs-lookup"><span data-stu-id="6213e-109">Suppressing a user interface when required configuration data is unavailable results in an unconfigured message service.</span></span>
+- <span data-ttu-id="eaa52-106">Appelez [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md).</span><span class="sxs-lookup"><span data-stu-id="eaa52-106">Call [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md).</span></span> <span data-ttu-id="eaa52-107">Si toutes les données nécessaires à la configuration sont disponibles par programme, vous pouvez choisir d’afficher ou non une interface utilisateur.</span><span class="sxs-lookup"><span data-stu-id="eaa52-107">If all of the data necessary for configuration is available programmatically, you can choose whether or not to display a user interface.</span></span> <span data-ttu-id="eaa52-108">Toutefois, si certaines informations d’un ou plusieurs fournisseurs ne sont pas disponibles, veillez à définir l’indicateur SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS’indicateur.</span><span class="sxs-lookup"><span data-stu-id="eaa52-108">However, if some of the information for one or more providers is not available, make sure that you set the SERVICE_UI_ALLOWED or SERVICE_UI_ALWAYS flag.</span></span> <span data-ttu-id="eaa52-109">La suppression d’une interface utilisateur lorsque les données de configuration requises ne sont pas disponibles entraîne un service de message non configuré.</span><span class="sxs-lookup"><span data-stu-id="eaa52-109">Suppressing a user interface when required configuration data is unavailable results in an unconfigured message service.</span></span>
     
- <span data-ttu-id="6213e-110">**Pour configurer un fournisseur de services unique dans un service de messagerie**</span><span class="sxs-lookup"><span data-stu-id="6213e-110">**To configure a single service provider in a message service**</span></span>
+ <span data-ttu-id="eaa52-110">**Pour configurer un fournisseur de services unique dans un service de messagerie**</span><span class="sxs-lookup"><span data-stu-id="eaa52-110">**To configure a single service provider in a message service**</span></span>
   
-1. <span data-ttu-id="6213e-111">Appelez [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) pour accéder à l'objet d'État du fournisseur de services.</span><span class="sxs-lookup"><span data-stu-id="6213e-111">Call [IMAPISession::GetStatusTable](imapisession-getstatustable.md) to access the service provider's status object.</span></span> 
+1. <span data-ttu-id="eaa52-111">Appelez [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour accéder à l’objet d’état du fournisseur de services.</span><span class="sxs-lookup"><span data-stu-id="eaa52-111">Call [IMAPISession::GetStatusTable](imapisession-getstatustable.md) to access the service provider's status object.</span></span> 
     
-2. <span data-ttu-id="6213e-112">Appelez [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) pour afficher la feuille des propriétés du fournisseur de services.</span><span class="sxs-lookup"><span data-stu-id="6213e-112">Call [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) to display the service provider's property sheet.</span></span> 
+2. <span data-ttu-id="eaa52-112">Appelez [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) pour afficher la feuille des propriétés du fournisseur de services.</span><span class="sxs-lookup"><span data-stu-id="eaa52-112">Call [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) to display the service provider's property sheet.</span></span> 
     
-<span data-ttu-id="6213e-113">Pour plus d'informations sur l'utilisation des objets d'État, voir [table d'État et objets d'État](status-table-and-status-objects.md).</span><span class="sxs-lookup"><span data-stu-id="6213e-113">For more information about using status objects, see [Status Table and Status Objects](status-table-and-status-objects.md).</span></span>
+<span data-ttu-id="eaa52-113">Pour plus d’informations sur l’utilisation des objets d’état, voir [Tableau d’état et Objets d’état.](status-table-and-status-objects.md)</span><span class="sxs-lookup"><span data-stu-id="eaa52-113">For more information about using status objects, see [Status Table and Status Objects](status-table-and-status-objects.md).</span></span>
   
 
