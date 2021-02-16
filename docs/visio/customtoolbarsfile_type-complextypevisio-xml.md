@@ -1,5 +1,5 @@
 ---
-title: ComplexType CustomToolbarsFile_Type (Visio XML)
+title: CustomToolbarsFile_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539202"
 ---
-# <a name="customtoolbarsfiletype-complextype-visio-xml"></a><span data-ttu-id="8a168-102">ComplexType CustomToolbarsFile_Type (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="8a168-102">CustomToolbarsFile_Type complexType (Visio XML)</span></span>
+# <a name="customtoolbarsfile_type-complextype-visio-xml"></a><span data-ttu-id="4393d-102">CustomToolbarsFile_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="4393d-102">CustomToolbarsFile_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="8a168-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="8a168-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="4393d-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="4393d-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8a168-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="8a168-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="8a168-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="8a168-105">**Schema file**</span></span> <br/> |<span data-ttu-id="8a168-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="8a168-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="8a168-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="8a168-107">**Extension base**</span></span> <br/> |<span data-ttu-id="8a168-108">xsd: String</span><span class="sxs-lookup"><span data-stu-id="8a168-108">xsd:string</span></span>  <br/> |
+|<span data-ttu-id="4393d-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="4393d-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="4393d-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="4393d-105">**Schema file**</span></span> <br/> |<span data-ttu-id="4393d-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="4393d-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="4393d-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="4393d-107">**Extension base**</span></span> <br/> |<span data-ttu-id="4393d-108">xsd:string</span><span class="sxs-lookup"><span data-stu-id="4393d-108">xsd:string</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="8a168-109">Définition</span><span class="sxs-lookup"><span data-stu-id="8a168-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="4393d-109">Définition</span><span class="sxs-lookup"><span data-stu-id="4393d-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="CustomToolbarsFile_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34539202"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="8a168-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="8a168-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="4393d-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="4393d-110">Elements and attributes</span></span>
 
-<span data-ttu-id="8a168-111">Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition.</span><span class="sxs-lookup"><span data-stu-id="8a168-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="4393d-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="4393d-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="8a168-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="8a168-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="4393d-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="4393d-112">Child elements</span></span>
 
-<span data-ttu-id="8a168-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="8a168-113">None.</span></span>
+<span data-ttu-id="4393d-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="4393d-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8a168-114">Attributs</span><span class="sxs-lookup"><span data-stu-id="8a168-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="4393d-114">Attributs</span><span class="sxs-lookup"><span data-stu-id="4393d-114">Attributes</span></span>
 
-<span data-ttu-id="8a168-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="8a168-115">None.</span></span>
+<span data-ttu-id="4393d-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="4393d-115">None.</span></span>
   
 

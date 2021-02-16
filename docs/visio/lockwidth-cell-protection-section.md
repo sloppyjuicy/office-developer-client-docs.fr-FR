@@ -16,29 +16,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439806"
 ---
-# <a name="lockwidth-cell-protection-section"></a><span data-ttu-id="48f31-103">LockWidth, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="48f31-103">LockWidth Cell (Protection Section)</span></span>
+# <a name="lockwidth-cell-protection-section"></a><span data-ttu-id="78495-103">LockWidth, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="78495-103">LockWidth Cell (Protection Section)</span></span>
 
-<span data-ttu-id="48f31-104">Verrouille la largeur d'une forme afin qu'elle demeure intacte lorsque la forme est dimensionnée.</span><span class="sxs-lookup"><span data-stu-id="48f31-104">Locks the width of the shape so that its width remains unchanged when the shape is sized.</span></span>
+<span data-ttu-id="78495-104">Verrouille la largeur d'une forme afin qu'elle demeure intacte lorsque la forme est dimensionnée.</span><span class="sxs-lookup"><span data-stu-id="78495-104">Locks the width of the shape so that its width remains unchanged when the shape is sized.</span></span>
   
-|<span data-ttu-id="48f31-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="48f31-105">**Value**</span></span>|<span data-ttu-id="48f31-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="48f31-106">**Description**</span></span>|
+|<span data-ttu-id="78495-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="78495-105">**Value**</span></span>|<span data-ttu-id="78495-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="78495-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="48f31-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="48f31-107">TRUE</span></span>  <br/> | <span data-ttu-id="48f31-108">La largeur est verrouillée.</span><span class="sxs-lookup"><span data-stu-id="48f31-108">Width is locked.</span></span>  <br/> |
-| <span data-ttu-id="48f31-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="48f31-109">FALSE</span></span>  <br/> | <span data-ttu-id="48f31-110">La largeur n'est pas verrouillée.</span><span class="sxs-lookup"><span data-stu-id="48f31-110">Width is not locked.</span></span>  <br/> |
+| <span data-ttu-id="78495-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="78495-107">TRUE</span></span>  <br/> | <span data-ttu-id="78495-108">La largeur est verrouillée.</span><span class="sxs-lookup"><span data-stu-id="78495-108">Width is locked.</span></span>  <br/> |
+| <span data-ttu-id="78495-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="78495-109">FALSE</span></span>  <br/> | <span data-ttu-id="78495-110">La largeur n'est pas verrouillée.</span><span class="sxs-lookup"><span data-stu-id="78495-110">Width is not locked.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="48f31-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="48f31-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="78495-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="78495-111">Remarks</span></span>
 
-<span data-ttu-id="48f31-112">Pour obtenir une référence à la cellule LockWidth par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="48f31-112">To get a reference to the LockWidth cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="78495-112">Pour obtenir une référence à la cellule LockWidth par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="78495-112">To get a reference to the LockWidth cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="48f31-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="48f31-113">Cell name:</span></span>  <br/> | <span data-ttu-id="48f31-114">LockWidth</span><span class="sxs-lookup"><span data-stu-id="48f31-114">LockWidth</span></span>  <br/> |
+| <span data-ttu-id="78495-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="78495-113">Cell name:</span></span>  <br/> | <span data-ttu-id="78495-114">LockWidth</span><span class="sxs-lookup"><span data-stu-id="78495-114">LockWidth</span></span>  <br/> |
    
-<span data-ttu-id="48f31-115">Pour obtenir une référence à la cellule LockWidth à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="48f31-115">To get a reference to the LockWidth cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="78495-115">Pour obtenir une référence à la cellule LockWidth à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="78495-115">To get a reference to the LockWidth cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="48f31-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="48f31-116">Section index:</span></span>  <br/> |<span data-ttu-id="48f31-117">**Définis**</span><span class="sxs-lookup"><span data-stu-id="48f31-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="48f31-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="48f31-118">Row index:</span></span>  <br/> |<span data-ttu-id="48f31-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="48f31-119">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="48f31-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="48f31-120">Cell index:</span></span>  <br/> |<span data-ttu-id="48f31-121">**visLockWidth**</span><span class="sxs-lookup"><span data-stu-id="48f31-121">**visLockWidth**</span></span> <br/> |
+| <span data-ttu-id="78495-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="78495-116">Section index:</span></span>  <br/> |<span data-ttu-id="78495-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="78495-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="78495-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="78495-118">Row index:</span></span>  <br/> |<span data-ttu-id="78495-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="78495-119">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="78495-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="78495-120">Cell index:</span></span>  <br/> |<span data-ttu-id="78495-121">**visLockWidth**</span><span class="sxs-lookup"><span data-stu-id="78495-121">**visLockWidth**</span></span> <br/> |
    
 

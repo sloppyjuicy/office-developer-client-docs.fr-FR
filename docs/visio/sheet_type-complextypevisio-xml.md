@@ -1,5 +1,5 @@
 ---
-title: ComplexType Sheet_Type (Visio XML)
+title: Sheet_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540405"
 ---
-# <a name="sheettype-complextype-visio-xml"></a><span data-ttu-id="ec98c-102">ComplexType Sheet_Type (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="ec98c-102">Sheet_Type complexType (Visio XML)</span></span>
+# <a name="sheet_type-complextype-visio-xml"></a><span data-ttu-id="210ca-102">Sheet_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="210ca-102">Sheet_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="ec98c-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="ec98c-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="210ca-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="210ca-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ec98c-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="ec98c-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="ec98c-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="ec98c-105">**Schema file**</span></span> <br/> |<span data-ttu-id="ec98c-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="ec98c-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="ec98c-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="ec98c-107">**Extension base**</span></span> <br/> |<span data-ttu-id="ec98c-108">Aucun</span><span class="sxs-lookup"><span data-stu-id="ec98c-108">None</span></span>  <br/> |
+|<span data-ttu-id="210ca-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="210ca-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="210ca-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="210ca-105">**Schema file**</span></span> <br/> |<span data-ttu-id="210ca-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="210ca-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="210ca-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="210ca-107">**Extension base**</span></span> <br/> |<span data-ttu-id="210ca-108">Aucun</span><span class="sxs-lookup"><span data-stu-id="210ca-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="ec98c-109">Définition</span><span class="sxs-lookup"><span data-stu-id="ec98c-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="210ca-109">Définition</span><span class="sxs-lookup"><span data-stu-id="210ca-109">Definition</span></span>
 
 ```XML
         <xs:complexType name="Sheet_Type" abstract="true">
@@ -64,24 +64,24 @@ ms.locfileid: "34540405"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="ec98c-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="ec98c-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="210ca-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="210ca-110">Elements and attributes</span></span>
 
-<span data-ttu-id="ec98c-111">Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition.</span><span class="sxs-lookup"><span data-stu-id="ec98c-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="210ca-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="210ca-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="ec98c-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="ec98c-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="210ca-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="210ca-112">Child elements</span></span>
 
-|<span data-ttu-id="ec98c-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="ec98c-113">**Element**</span></span>|<span data-ttu-id="ec98c-114">**Type**</span><span class="sxs-lookup"><span data-stu-id="ec98c-114">**Type**</span></span>|<span data-ttu-id="ec98c-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="ec98c-115">**Description**</span></span>|
+|<span data-ttu-id="210ca-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="210ca-113">**Element**</span></span>|<span data-ttu-id="210ca-114">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="210ca-114">**Type**</span></span>|<span data-ttu-id="210ca-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="210ca-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="ec98c-116">Cell</span><span class="sxs-lookup"><span data-stu-id="ec98c-116">Cell</span></span>](cell-elementvisio-xml.md) <br/> |[<span data-ttu-id="ec98c-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="ec98c-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="ec98c-118">Section</span><span class="sxs-lookup"><span data-stu-id="ec98c-118">Section</span></span>](section-element-sheet_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="ec98c-119">Section_Type</span><span class="sxs-lookup"><span data-stu-id="ec98c-119">Section_Type</span></span>](section_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="ec98c-120">Trigger</span><span class="sxs-lookup"><span data-stu-id="ec98c-120">Trigger</span></span>](trigger-elementvisio-xml.md) <br/> |[<span data-ttu-id="ec98c-121">Trigger_Type</span><span class="sxs-lookup"><span data-stu-id="ec98c-121">Trigger_Type</span></span>](trigger_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="210ca-116">Cell</span><span class="sxs-lookup"><span data-stu-id="210ca-116">Cell</span></span>](cell-elementvisio-xml.md) <br/> |[<span data-ttu-id="210ca-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="210ca-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="210ca-118">Section</span><span class="sxs-lookup"><span data-stu-id="210ca-118">Section</span></span>](section-element-sheet_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="210ca-119">Section_Type</span><span class="sxs-lookup"><span data-stu-id="210ca-119">Section_Type</span></span>](section_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="210ca-120">Trigger</span><span class="sxs-lookup"><span data-stu-id="210ca-120">Trigger</span></span>](trigger-elementvisio-xml.md) <br/> |[<span data-ttu-id="210ca-121">Trigger_Type</span><span class="sxs-lookup"><span data-stu-id="210ca-121">Trigger_Type</span></span>](trigger_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="ec98c-122">Attributs</span><span class="sxs-lookup"><span data-stu-id="ec98c-122">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="210ca-122">Attributs</span><span class="sxs-lookup"><span data-stu-id="210ca-122">Attributes</span></span>
 
-|<span data-ttu-id="ec98c-123">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="ec98c-123">**Attribute**</span></span>|<span data-ttu-id="ec98c-124">**Type**</span><span class="sxs-lookup"><span data-stu-id="ec98c-124">**Type**</span></span>|<span data-ttu-id="ec98c-125">**Obligatoire**</span><span class="sxs-lookup"><span data-stu-id="ec98c-125">**Required**</span></span>|<span data-ttu-id="ec98c-126">**Description**</span><span class="sxs-lookup"><span data-stu-id="ec98c-126">**Description**</span></span>|<span data-ttu-id="ec98c-127">**Valeurs possibles**</span><span class="sxs-lookup"><span data-stu-id="ec98c-127">**Possible values**</span></span>|
+|<span data-ttu-id="210ca-123">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="210ca-123">**Attribute**</span></span>|<span data-ttu-id="210ca-124">**Type**</span><span class="sxs-lookup"><span data-stu-id="210ca-124">**Type**</span></span>|<span data-ttu-id="210ca-125">**Obligatoire**</span><span class="sxs-lookup"><span data-stu-id="210ca-125">**Required**</span></span>|<span data-ttu-id="210ca-126">**Description**</span><span class="sxs-lookup"><span data-stu-id="210ca-126">**Description**</span></span>|<span data-ttu-id="210ca-127">**Valeurs possibles**</span><span class="sxs-lookup"><span data-stu-id="210ca-127">**Possible values**</span></span>|
 |:-----|:-----|:-----|:-----|:-----|
-|<span data-ttu-id="ec98c-128">FillStyle</span><span class="sxs-lookup"><span data-stu-id="ec98c-128">FillStyle</span></span>  <br/> |<span data-ttu-id="ec98c-129">xsd: unsignedInt</span><span class="sxs-lookup"><span data-stu-id="ec98c-129">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="ec98c-130">facultatif</span><span class="sxs-lookup"><span data-stu-id="ec98c-130">optional</span></span>  <br/> ||<span data-ttu-id="ec98c-131">Valeurs du type xsd: unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="ec98c-131">Values of the xsd:unsignedInt type.</span></span>  <br/> |
-|<span data-ttu-id="ec98c-132">LineStyle</span><span class="sxs-lookup"><span data-stu-id="ec98c-132">LineStyle</span></span>  <br/> |<span data-ttu-id="ec98c-133">xsd: unsignedInt</span><span class="sxs-lookup"><span data-stu-id="ec98c-133">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="ec98c-134">facultatif</span><span class="sxs-lookup"><span data-stu-id="ec98c-134">optional</span></span>  <br/> ||<span data-ttu-id="ec98c-135">Valeurs du type xsd: unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="ec98c-135">Values of the xsd:unsignedInt type.</span></span>  <br/> |
-|<span data-ttu-id="ec98c-136">TextStyle</span><span class="sxs-lookup"><span data-stu-id="ec98c-136">TextStyle</span></span>  <br/> |<span data-ttu-id="ec98c-137">xsd: unsignedInt</span><span class="sxs-lookup"><span data-stu-id="ec98c-137">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="ec98c-138">facultatif</span><span class="sxs-lookup"><span data-stu-id="ec98c-138">optional</span></span>  <br/> ||<span data-ttu-id="ec98c-139">Valeurs du type xsd: unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="ec98c-139">Values of the xsd:unsignedInt type.</span></span>  <br/> |
+|<span data-ttu-id="210ca-128">FillStyle</span><span class="sxs-lookup"><span data-stu-id="210ca-128">FillStyle</span></span>  <br/> |<span data-ttu-id="210ca-129">xsd:unsignedInt</span><span class="sxs-lookup"><span data-stu-id="210ca-129">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="210ca-130">facultatif</span><span class="sxs-lookup"><span data-stu-id="210ca-130">optional</span></span>  <br/> ||<span data-ttu-id="210ca-131">Valeurs du type xsd:unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="210ca-131">Values of the xsd:unsignedInt type.</span></span>  <br/> |
+|<span data-ttu-id="210ca-132">LineStyle</span><span class="sxs-lookup"><span data-stu-id="210ca-132">LineStyle</span></span>  <br/> |<span data-ttu-id="210ca-133">xsd:unsignedInt</span><span class="sxs-lookup"><span data-stu-id="210ca-133">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="210ca-134">facultatif</span><span class="sxs-lookup"><span data-stu-id="210ca-134">optional</span></span>  <br/> ||<span data-ttu-id="210ca-135">Valeurs du type xsd:unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="210ca-135">Values of the xsd:unsignedInt type.</span></span>  <br/> |
+|<span data-ttu-id="210ca-136">TextStyle</span><span class="sxs-lookup"><span data-stu-id="210ca-136">TextStyle</span></span>  <br/> |<span data-ttu-id="210ca-137">xsd:unsignedInt</span><span class="sxs-lookup"><span data-stu-id="210ca-137">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="210ca-138">facultatif</span><span class="sxs-lookup"><span data-stu-id="210ca-138">optional</span></span>  <br/> ||<span data-ttu-id="210ca-139">Valeurs du type xsd:unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="210ca-139">Values of the xsd:unsignedInt type.</span></span>  <br/> |
    
 

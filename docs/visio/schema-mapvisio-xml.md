@@ -1,5 +1,5 @@
 ---
-title: Mappage de schéma (Visio XML)
+title: Plan de schéma (Visio XML)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539081"
 ---
-# <a name="schema-map-visio-xml"></a><span data-ttu-id="5f533-103">Mappage de schéma (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="5f533-103">Schema map (Visio XML)</span></span>
+# <a name="schema-map-visio-xml"></a><span data-ttu-id="89cd5-103">Plan de schéma (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="89cd5-103">Schema map (Visio XML)</span></span>
 
-<span data-ttu-id="5f533-104">Cette rubrique présente la définition de schéma XML pour le format de fichier Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="5f533-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
+<span data-ttu-id="89cd5-104">Cette rubrique présente la définition de schéma XML pour le format de fichier Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="89cd5-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

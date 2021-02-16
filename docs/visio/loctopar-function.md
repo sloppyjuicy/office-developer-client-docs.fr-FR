@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251585
 localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
-description: Renvoie un point transformé en coordonnées parent dans le système de coordonnées de destination.
+description: Renvoie un point transformé dans les coordonnées parent dans le système de coordonnées de destination.
 ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,40 +16,40 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439981"
 ---
-# <a name="loctopar-function"></a><span data-ttu-id="9c656-103">Fonction LOCTOPAR</span><span class="sxs-lookup"><span data-stu-id="9c656-103">LOCTOPAR Function</span></span>
+# <a name="loctopar-function"></a><span data-ttu-id="18d1d-103">Fonction LOCTOPAR</span><span class="sxs-lookup"><span data-stu-id="18d1d-103">LOCTOPAR Function</span></span>
 
-<span data-ttu-id="9c656-104">Renvoie un point transformé en coordonnées parent dans le système de coordonnées de destination.</span><span class="sxs-lookup"><span data-stu-id="9c656-104">Returns a transformed point in parent coordinates in the destination coordinate system.</span></span>
+<span data-ttu-id="18d1d-104">Renvoie un point transformé dans les coordonnées parent dans le système de coordonnées de destination.</span><span class="sxs-lookup"><span data-stu-id="18d1d-104">Returns a transformed point in parent coordinates in the destination coordinate system.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="9c656-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="9c656-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="18d1d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="18d1d-105">Syntax</span></span>
 
-<span data-ttu-id="9c656-106">LOCTOPAR (\* \* *srcPoint* \* \*, \* \* *srcRef* \* \*, \* \* *dstRef* \* \*)</span><span class="sxs-lookup"><span data-stu-id="9c656-106">LOCTOPAR(\*\* *srcPoint* \*\*, \*\* *srcRef* \*\*, \*\* *dstRef* \*\* )</span></span> 
+<span data-ttu-id="18d1d-106">LOCTOPAR(\*\* *srcPoint* \*\*, \*\* *srcRef* \*\*, \*\* *dstRef* \*\* )</span><span class="sxs-lookup"><span data-stu-id="18d1d-106">LOCTOPAR(\*\* *srcPoint* \*\*, \*\* *srcRef* \*\*, \*\* *dstRef* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="9c656-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="9c656-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="18d1d-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="18d1d-107">Parameters</span></span>
 
-|<span data-ttu-id="9c656-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="9c656-108">**Name**</span></span>|<span data-ttu-id="9c656-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="9c656-109">**Required/Optional**</span></span>|<span data-ttu-id="9c656-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="9c656-110">**Data Type**</span></span>|<span data-ttu-id="9c656-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="9c656-111">**Description**</span></span>|
+|<span data-ttu-id="18d1d-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="18d1d-108">**Name**</span></span>|<span data-ttu-id="18d1d-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="18d1d-109">**Required/Optional**</span></span>|<span data-ttu-id="18d1d-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="18d1d-110">**Data Type**</span></span>|<span data-ttu-id="18d1d-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="18d1d-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="9c656-112">_srcPoint_</span><span class="sxs-lookup"><span data-stu-id="9c656-112">_srcPoint_</span></span> <br/> |<span data-ttu-id="9c656-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="9c656-113">Required</span></span>  <br/> |<span data-ttu-id="9c656-114">**String**</span><span class="sxs-lookup"><span data-stu-id="9c656-114">**String**</span></span> <br/> | <span data-ttu-id="9c656-115">Point en coordonnées locales du système de coordonnées source</span><span class="sxs-lookup"><span data-stu-id="9c656-115">A point in local coordinates in the source coordinate system.</span></span>  <br/> |
-| <span data-ttu-id="9c656-116">_srcRef_</span><span class="sxs-lookup"><span data-stu-id="9c656-116">_srcRef_</span></span> <br/> |<span data-ttu-id="9c656-117">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="9c656-117">Required</span></span>  <br/> |<span data-ttu-id="9c656-118">**String**</span><span class="sxs-lookup"><span data-stu-id="9c656-118">**String**</span></span> <br/> | <span data-ttu-id="9c656-119">Référence à une cellule de l’objet source</span><span class="sxs-lookup"><span data-stu-id="9c656-119">A reference to a cell in the source object.</span></span>  <br/> |
-| <span data-ttu-id="9c656-120">_dstRef_</span><span class="sxs-lookup"><span data-stu-id="9c656-120">_dstRef_</span></span> <br/> |<span data-ttu-id="9c656-121">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="9c656-121">Required</span></span>  <br/> |<span data-ttu-id="9c656-122">**String**</span><span class="sxs-lookup"><span data-stu-id="9c656-122">**String**</span></span> <br/> | <span data-ttu-id="9c656-123">Référence à une cellule de l’objet cible</span><span class="sxs-lookup"><span data-stu-id="9c656-123">A reference to a cell in the destination object.</span></span>  <br/> |
+| <span data-ttu-id="18d1d-112">_srcPoint_</span><span class="sxs-lookup"><span data-stu-id="18d1d-112">_srcPoint_</span></span> <br/> |<span data-ttu-id="18d1d-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="18d1d-113">Required</span></span>  <br/> |<span data-ttu-id="18d1d-114">**String**</span><span class="sxs-lookup"><span data-stu-id="18d1d-114">**String**</span></span> <br/> | <span data-ttu-id="18d1d-115">Point en coordonnées locales du système de coordonnées source</span><span class="sxs-lookup"><span data-stu-id="18d1d-115">A point in local coordinates in the source coordinate system.</span></span>  <br/> |
+| <span data-ttu-id="18d1d-116">_srcRef_</span><span class="sxs-lookup"><span data-stu-id="18d1d-116">_srcRef_</span></span> <br/> |<span data-ttu-id="18d1d-117">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="18d1d-117">Required</span></span>  <br/> |<span data-ttu-id="18d1d-118">**String**</span><span class="sxs-lookup"><span data-stu-id="18d1d-118">**String**</span></span> <br/> | <span data-ttu-id="18d1d-119">Référence à une cellule de l’objet source</span><span class="sxs-lookup"><span data-stu-id="18d1d-119">A reference to a cell in the source object.</span></span>  <br/> |
+| <span data-ttu-id="18d1d-120">_dstRef_</span><span class="sxs-lookup"><span data-stu-id="18d1d-120">_dstRef_</span></span> <br/> |<span data-ttu-id="18d1d-121">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="18d1d-121">Required</span></span>  <br/> |<span data-ttu-id="18d1d-122">**String**</span><span class="sxs-lookup"><span data-stu-id="18d1d-122">**String**</span></span> <br/> | <span data-ttu-id="18d1d-123">Référence à une cellule de l’objet cible</span><span class="sxs-lookup"><span data-stu-id="18d1d-123">A reference to a cell in the destination object.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="9c656-124">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="9c656-124">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="18d1d-124">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="18d1d-124">Return value</span></span>
 
-<span data-ttu-id="9c656-125">Chaîne</span><span class="sxs-lookup"><span data-stu-id="9c656-125">String</span></span>
+<span data-ttu-id="18d1d-125">Chaîne</span><span class="sxs-lookup"><span data-stu-id="18d1d-125">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9c656-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="9c656-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="18d1d-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="18d1d-126">Remarks</span></span>
 
-<span data-ttu-id="9c656-p101">La fonction LOCTOPAR convertit un point des coordonnées locales dans une forme source en coordonnées parent de la forme de destination. Vous pouvez utiliser la fonction LOCTOPAR pour définir des coordonnées parent dans les cellules d’une forme, comme PinX, PinY, BeginX et BeginY, en utilisant un point d’un autre système de coordonnées.</span><span class="sxs-lookup"><span data-stu-id="9c656-p101">Converts a point from local coordinates in a source shape to parent coordinates in a destination shape. You can use the LOCTOPAR function to set parent coordinates in cells, such as PinX, PinY, BeginX, and BeginY in a shape using another point from another coordinate system.</span></span> 
+<span data-ttu-id="18d1d-p101">La fonction LOCTOPAR convertit un point des coordonnées locales dans une forme source en coordonnées parent de la forme de destination. Vous pouvez utiliser la fonction LOCTOPAR pour définir des coordonnées parent dans les cellules d’une forme, comme PinX, PinY, BeginX et BeginY, en utilisant un point d’un autre système de coordonnées.</span><span class="sxs-lookup"><span data-stu-id="18d1d-p101">Converts a point from local coordinates in a source shape to parent coordinates in a destination shape. You can use the LOCTOPAR function to set parent coordinates in cells, such as PinX, PinY, BeginX, and BeginY in a shape using another point from another coordinate system.</span></span> 
   
-<span data-ttu-id="9c656-p102">Cette fonction peut être utilisée même si les formes source et cible sont contenues dans des groupes. Elle effectue également des ajustements de rotation et de retournement dans la transformation intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="9c656-p102">This function works even when the source and destination shapes are within groups. It also adjusts for rotation and flips in the intermediate transformation.</span></span> 
+<span data-ttu-id="18d1d-p102">Cette fonction peut être utilisée même si les formes source et cible sont contenues dans des groupes. Elle effectue également des ajustements de rotation et de retournement dans la transformation intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="18d1d-p102">This function works even when the source and destination shapes are within groups. It also adjusts for rotation and flips in the intermediate transformation.</span></span> 
   
-<span data-ttu-id="9c656-131">Les coordonnées source et cible doivent se trouver sur la même page.</span><span class="sxs-lookup"><span data-stu-id="9c656-131">The source and destination coordinates must be on the same page.</span></span> 
+<span data-ttu-id="18d1d-131">Les coordonnées source et cible doivent se trouver sur la même page.</span><span class="sxs-lookup"><span data-stu-id="18d1d-131">The source and destination coordinates must be on the same page.</span></span> 
   
-<span data-ttu-id="9c656-132">Si la destination est une page qui n’a pas de parent, le résultat est exprimé dans les coordonnées locales de la page.</span><span class="sxs-lookup"><span data-stu-id="9c656-132">If the destination is a page, which has no parent, the result is expressed in the page's local coordinates.</span></span> 
+<span data-ttu-id="18d1d-132">Si la destination est une page qui n’a pas de parent, le résultat est exprimé dans les coordonnées locales de la page.</span><span class="sxs-lookup"><span data-stu-id="18d1d-132">If the destination is a page, which has no parent, the result is expressed in the page's local coordinates.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="9c656-133">Exemple</span><span class="sxs-lookup"><span data-stu-id="9c656-133">Example</span></span>
+## <a name="example"></a><span data-ttu-id="18d1d-133">Exemple</span><span class="sxs-lookup"><span data-stu-id="18d1d-133">Example</span></span>
 
-<span data-ttu-id="9c656-134">LOCTOPAR(PNT(LocPinX, LocPinY), Width; Feuille.4!Width)</span><span class="sxs-lookup"><span data-stu-id="9c656-134">LOCTOPAR(PNT(LocPinX, LocPinY), Width, Sheet.4!Width)</span></span> 
+<span data-ttu-id="18d1d-134">LOCTOPAR(PNT(LocPinX, LocPinY), Width; Feuille.4!Width)</span><span class="sxs-lookup"><span data-stu-id="18d1d-134">LOCTOPAR(PNT(LocPinX, LocPinY), Width, Sheet.4!Width)</span></span> 
   
-<span data-ttu-id="9c656-135">Convertit les coordonnées de l’axe local de la forme associée à la formule en coordonnées parent de Feuille.4.</span><span class="sxs-lookup"><span data-stu-id="9c656-135">Converts the local pin of the shape associated with the formula to parent coordinates of Sheet.4.</span></span> 
+<span data-ttu-id="18d1d-135">Convertit les coordonnées de l’axe local de la forme associée à la formule en coordonnées parent de Feuille.4.</span><span class="sxs-lookup"><span data-stu-id="18d1d-135">Converts the local pin of the shape associated with the formula to parent coordinates of Sheet.4.</span></span> 
   
 

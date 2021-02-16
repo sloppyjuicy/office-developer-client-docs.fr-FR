@@ -1,5 +1,5 @@
 ---
-title: ComplexType Paragraph_Type (Visio XML)
+title: Paragraph_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540594"
 ---
-# <a name="paragraphtype-complextype-visio-xml"></a><span data-ttu-id="d4dac-102">ComplexType Paragraph_Type (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="d4dac-102">Paragraph_Type complexType (Visio XML)</span></span>
+# <a name="paragraph_type-complextype-visio-xml"></a><span data-ttu-id="61d7c-102">Paragraph_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="61d7c-102">Paragraph_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="d4dac-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="d4dac-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="61d7c-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="61d7c-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d4dac-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="d4dac-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="d4dac-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="d4dac-105">**Schema file**</span></span> <br/> |<span data-ttu-id="d4dac-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="d4dac-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="d4dac-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="d4dac-107">**Extension base**</span></span> <br/> |<span data-ttu-id="d4dac-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="d4dac-108">Section_Type</span></span>  <br/> |
+|<span data-ttu-id="61d7c-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="61d7c-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="61d7c-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="61d7c-105">**Schema file**</span></span> <br/> |<span data-ttu-id="61d7c-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="61d7c-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="61d7c-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="61d7c-107">**Extension base**</span></span> <br/> |<span data-ttu-id="61d7c-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="61d7c-108">Section_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="d4dac-109">Définition</span><span class="sxs-lookup"><span data-stu-id="d4dac-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="61d7c-109">Définition</span><span class="sxs-lookup"><span data-stu-id="61d7c-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="Paragraph_Type">
@@ -42,18 +42,18 @@ ms.locfileid: "34540594"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="d4dac-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="d4dac-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="61d7c-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="61d7c-110">Elements and attributes</span></span>
 
-<span data-ttu-id="d4dac-111">Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition.</span><span class="sxs-lookup"><span data-stu-id="d4dac-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="61d7c-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="61d7c-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="d4dac-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="d4dac-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="61d7c-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="61d7c-112">Child elements</span></span>
 
-|<span data-ttu-id="d4dac-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="d4dac-113">**Element**</span></span>|<span data-ttu-id="d4dac-114">**Type**</span><span class="sxs-lookup"><span data-stu-id="d4dac-114">**Type**</span></span>|<span data-ttu-id="d4dac-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="d4dac-115">**Description**</span></span>|
+|<span data-ttu-id="61d7c-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="61d7c-113">**Element**</span></span>|<span data-ttu-id="61d7c-114">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="61d7c-114">**Type**</span></span>|<span data-ttu-id="61d7c-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="61d7c-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="d4dac-116">Row</span><span class="sxs-lookup"><span data-stu-id="d4dac-116">Row</span></span>](row-element-paragraph-sectionvisio-xml.md) <br/> |[<span data-ttu-id="d4dac-117">ParagraphRow_Type</span><span class="sxs-lookup"><span data-stu-id="d4dac-117">ParagraphRow_Type</span></span>](paragraphrow_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="61d7c-116">Row</span><span class="sxs-lookup"><span data-stu-id="61d7c-116">Row</span></span>](row-element-paragraph-sectionvisio-xml.md) <br/> |[<span data-ttu-id="61d7c-117">ParagraphRow_Type</span><span class="sxs-lookup"><span data-stu-id="61d7c-117">ParagraphRow_Type</span></span>](paragraphrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="d4dac-118">Attributs</span><span class="sxs-lookup"><span data-stu-id="d4dac-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="61d7c-118">Attributs</span><span class="sxs-lookup"><span data-stu-id="61d7c-118">Attributes</span></span>
 
-<span data-ttu-id="d4dac-119">Aucun.</span><span class="sxs-lookup"><span data-stu-id="d4dac-119">None.</span></span>
+<span data-ttu-id="61d7c-119">Aucun.</span><span class="sxs-lookup"><span data-stu-id="61d7c-119">None.</span></span>
   
 
