@@ -16,30 +16,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418287"
 ---
-# <a name="xlrunningoncluster"></a><span data-ttu-id="2f60e-104">xlRunningOnCluster</span><span class="sxs-lookup"><span data-stu-id="2f60e-104">xlRunningOnCluster</span></span>
+# <a name="xlrunningoncluster"></a><span data-ttu-id="2d777-104">xlRunningOnCluster</span><span class="sxs-lookup"><span data-stu-id="2d777-104">xlRunningOnCluster</span></span>
 
-<span data-ttu-id="2f60e-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2f60e-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="2d777-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2d777-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="2f60e-106">Renvoie une valeur qui indique si la fonction définie par l'utilisateur est exécutée sur un cluster.</span><span class="sxs-lookup"><span data-stu-id="2f60e-106">Returns a value that indicates whether the user-defined function is running on a cluster.</span></span> 
+<span data-ttu-id="2d777-106">Renvoie une valeur qui indique si la fonction définie par l’utilisateur est en cours d’exécution sur un cluster.</span><span class="sxs-lookup"><span data-stu-id="2d777-106">Returns a value that indicates whether the user-defined function is running on a cluster.</span></span> 
   
 ```cpp
 Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2f60e-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="2f60e-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2d777-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="2d777-107">Parameters</span></span>
 
-<span data-ttu-id="2f60e-108">Cette fonction n'a pas d'argument.</span><span class="sxs-lookup"><span data-stu-id="2f60e-108">This function has no arguments.</span></span>
+<span data-ttu-id="2d777-108">Cette fonction n’a pas d’arguments.</span><span class="sxs-lookup"><span data-stu-id="2d777-108">This function has no arguments.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="2f60e-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="2f60e-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2d777-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="2d777-109">Return value</span></span>
 
-<span data-ttu-id="2f60e-110">Si la fonction est exécutée dans un processus Excel, renvoie 0 dans un **XLOPER12** de type **xltypeInt**.</span><span class="sxs-lookup"><span data-stu-id="2f60e-110">If the function is running in an Excel process, returns 0 in an **XLOPER12** of type **xlTypeInt**.</span></span> <span data-ttu-id="2f60e-111">Si la fonction est exécutée sur un cluster, le type de retour et la valeur sont déterminés par le fournisseur de connecteur de cluster.</span><span class="sxs-lookup"><span data-stu-id="2f60e-111">If the function is running on a cluster, the return type and value is determined by the cluster connector provider.</span></span>
+<span data-ttu-id="2d777-110">Si la fonction est en cours d’exécution dans un processus Excel, renvoie 0 dans une **XLOPER12** de type **xlTypeInt**.</span><span class="sxs-lookup"><span data-stu-id="2d777-110">If the function is running in an Excel process, returns 0 in an **XLOPER12** of type **xlTypeInt**.</span></span> <span data-ttu-id="2d777-111">Si la fonction est en cours d’exécution sur un cluster, le type de retour et la valeur sont déterminés par le fournisseur de connecteur de cluster.</span><span class="sxs-lookup"><span data-stu-id="2d777-111">If the function is running on a cluster, the return type and value is determined by the cluster connector provider.</span></span>
   
-## <a name="requirements"></a><span data-ttu-id="2f60e-112">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="2f60e-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2d777-112">Conditions requises</span><span class="sxs-lookup"><span data-stu-id="2d777-112">Requirements</span></span>
 
-<span data-ttu-id="2f60e-113">Cette fonction est définie dans le fichier d'en-tête xlcall. h.</span><span class="sxs-lookup"><span data-stu-id="2f60e-113">This function is defined in the Xlcall.h header file.</span></span>
+<span data-ttu-id="2d777-113">Cette fonction est définie dans le fichier d’en-tête Xlcall.h.</span><span class="sxs-lookup"><span data-stu-id="2d777-113">This function is defined in the Xlcall.h header file.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="2f60e-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2f60e-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2d777-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2d777-114">See also</span></span>
 
-- [<span data-ttu-id="2f60e-115">Fonctions sécurisées pour le cluster</span><span class="sxs-lookup"><span data-stu-id="2f60e-115">Cluster Safe Functions</span></span>](cluster-safe-functions.md)
-- [<span data-ttu-id="2f60e-116">Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="2f60e-116">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="2d777-115">Fonctions sécurisées pour le cluster</span><span class="sxs-lookup"><span data-stu-id="2d777-115">Cluster Safe Functions</span></span>](cluster-safe-functions.md)
+- [<span data-ttu-id="2d777-116">Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="2d777-116">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

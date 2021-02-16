@@ -19,46 +19,46 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418308"
 ---
-# <a name="pidtagcontactaddressbookuid-canonical-property"></a><span data-ttu-id="f2439-103">Propriété canonique PidTagContactAddressBookUid</span><span class="sxs-lookup"><span data-stu-id="f2439-103">PidTagContactAddressBookUid Canonical Property</span></span>
+# <a name="pidtagcontactaddressbookuid-canonical-property"></a><span data-ttu-id="e4110-103">Propriété canonique PidTagContactAddressBookUid</span><span class="sxs-lookup"><span data-stu-id="e4110-103">PidTagContactAddressBookUid Canonical Property</span></span>
 
   
   
-<span data-ttu-id="f2439-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f2439-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e4110-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e4110-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f2439-105">Contient l'UID qui identifie cette session du carnet d'adresses des contacts.</span><span class="sxs-lookup"><span data-stu-id="f2439-105">Contains the UID that identifies this session of the Contact Address Book.</span></span>
+<span data-ttu-id="e4110-105">Contient l’UID qui identifie cette session du carnet d’adresses du contact.</span><span class="sxs-lookup"><span data-stu-id="e4110-105">Contains the UID that identifies this session of the Contact Address Book.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f2439-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="f2439-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f2439-107">PR_CONTAB_UID</span><span class="sxs-lookup"><span data-stu-id="f2439-107">PR_CONTAB_UID</span></span>  <br/> |
-|<span data-ttu-id="f2439-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="f2439-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f2439-109">0x6601</span><span class="sxs-lookup"><span data-stu-id="f2439-109">0x6601</span></span>  <br/> |
-|<span data-ttu-id="f2439-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="f2439-110">Data type:</span></span>  <br/> |<span data-ttu-id="f2439-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="f2439-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="f2439-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="f2439-112">Area:</span></span>  <br/> |<span data-ttu-id="f2439-113">Carnet d'adresses des contacts</span><span class="sxs-lookup"><span data-stu-id="f2439-113">Contact address book</span></span>  <br/> |
+|<span data-ttu-id="e4110-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="e4110-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e4110-107">PR_CONTAB_UID</span><span class="sxs-lookup"><span data-stu-id="e4110-107">PR_CONTAB_UID</span></span>  <br/> |
+|<span data-ttu-id="e4110-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="e4110-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e4110-109">0x6601</span><span class="sxs-lookup"><span data-stu-id="e4110-109">0x6601</span></span>  <br/> |
+|<span data-ttu-id="e4110-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="e4110-110">Data type:</span></span>  <br/> |<span data-ttu-id="e4110-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="e4110-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="e4110-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="e4110-112">Area:</span></span>  <br/> |<span data-ttu-id="e4110-113">Carnet d’adresses de contact</span><span class="sxs-lookup"><span data-stu-id="e4110-113">Contact address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f2439-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="f2439-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e4110-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="e4110-114">Remarks</span></span>
 
-<span data-ttu-id="f2439-115">Si plusieurs carnets d'adresses de contacts sont configurés, cette propriété doit être définie pour chacun d'eux.</span><span class="sxs-lookup"><span data-stu-id="f2439-115">If you have multiple Contact Address Books configured, this property must be set for each one.</span></span> 
+<span data-ttu-id="e4110-115">Si plusieurs carnets d’adresses de contact sont configurés, cette propriété doit être définie pour chacun d’eux.</span><span class="sxs-lookup"><span data-stu-id="e4110-115">If you have multiple Contact Address Books configured, this property must be set for each one.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="f2439-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="f2439-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e4110-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="e4110-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="f2439-117">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="f2439-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e4110-117">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="e4110-117">Header files</span></span>
 
-<span data-ttu-id="f2439-118">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="f2439-118">Mapidefs.h</span></span>
+<span data-ttu-id="e4110-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e4110-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="f2439-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="f2439-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="e4110-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="e4110-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="f2439-120">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="f2439-120">Mapitags.h</span></span>
+<span data-ttu-id="e4110-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="e4110-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="f2439-121">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="f2439-121">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="e4110-121">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="e4110-121">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f2439-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f2439-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e4110-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e4110-122">See also</span></span>
 
 
 
-[<span data-ttu-id="f2439-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="f2439-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e4110-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="e4110-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="f2439-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="f2439-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e4110-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="e4110-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="f2439-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="f2439-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e4110-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="e4110-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="f2439-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="f2439-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e4110-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="e4110-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

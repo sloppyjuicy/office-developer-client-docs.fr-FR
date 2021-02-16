@@ -14,26 +14,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420800"
 ---
-# <a name="placestyle-cell-page-layout-section"></a><span data-ttu-id="9399e-103">PlaceStyle, cellule (section Page Layout)</span><span class="sxs-lookup"><span data-stu-id="9399e-103">PlaceStyle Cell (Page Layout Section)</span></span>
+# <a name="placestyle-cell-page-layout-section"></a><span data-ttu-id="8c932-103">PlaceStyle, cellule (section Page Layout)</span><span class="sxs-lookup"><span data-stu-id="8c932-103">PlaceStyle Cell (Page Layout Section)</span></span>
 
-<span data-ttu-id="9399e-104">Détermine la manière dont sont placées les formes sur la page lorsque vous les disposez à l’aide de la boîte de dialogue **Configurer la disposition** (sous l’onglet **Création**, dans le groupe **Disposition**, cliquez sur **Nouvelle disposition de page**, puis sur **Autres options de disposition**).</span><span class="sxs-lookup"><span data-stu-id="9399e-104">Determines how shapes are placed on the page when you are laying out shapes by using the **Configure Layout** dialog box (on the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click **More Layout Options**).</span></span>
+<span data-ttu-id="8c932-104">Détermine la manière dont sont placées les formes sur la page lorsque vous les disposez à l’aide de la boîte de dialogue **Configurer la disposition** (sous l’onglet **Création**, dans le groupe **Disposition**, cliquez sur **Nouvelle disposition de page**, puis sur **Autres options de disposition**).</span><span class="sxs-lookup"><span data-stu-id="8c932-104">Determines how shapes are placed on the page when you are laying out shapes by using the **Configure Layout** dialog box (on the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click **More Layout Options**).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9399e-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="9399e-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8c932-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="8c932-105">Remarks</span></span>
 
-<span data-ttu-id="9399e-106">Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Configurer la disposition**.</span><span class="sxs-lookup"><span data-stu-id="9399e-106">You can also set the value of this cell in the **Configure Layout** dialog box.</span></span> 
+<span data-ttu-id="8c932-106">Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Configurer la disposition**.</span><span class="sxs-lookup"><span data-stu-id="8c932-106">You can also set the value of this cell in the **Configure Layout** dialog box.</span></span> 
   
-<span data-ttu-id="9399e-107">Pour obtenir une référence à la cellule PlaceStyle par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="9399e-107">To get a reference to the PlaceStyle cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="8c932-107">Pour obtenir une référence à la cellule PlaceStyle par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="8c932-107">To get a reference to the PlaceStyle cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9399e-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="9399e-108">Cell name:</span></span>  <br/> |<span data-ttu-id="9399e-109">PlaceStyle</span><span class="sxs-lookup"><span data-stu-id="9399e-109">PlaceStyle</span></span>  <br/> |
+|<span data-ttu-id="8c932-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="8c932-108">Cell name:</span></span>  <br/> |<span data-ttu-id="8c932-109">PlaceStyle</span><span class="sxs-lookup"><span data-stu-id="8c932-109">PlaceStyle</span></span>  <br/> |
    
-<span data-ttu-id="9399e-110">Pour obtenir une référence à la cellule PlaceStyle à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="9399e-110">To get a reference to the PlaceStyle cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="8c932-110">Pour obtenir une référence à la cellule PlaceStyle à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="8c932-110">To get a reference to the PlaceStyle cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9399e-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="9399e-111">Section index:</span></span>  <br/> |<span data-ttu-id="9399e-112">**Définis**</span><span class="sxs-lookup"><span data-stu-id="9399e-112">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="9399e-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="9399e-113">Row index:</span></span>  <br/> |<span data-ttu-id="9399e-114">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="9399e-114">**visRowPageLayout**</span></span> <br/> |
-|<span data-ttu-id="9399e-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="9399e-115">Cell index:</span></span>  <br/> |<span data-ttu-id="9399e-116">**visPLOPlaceStyle**</span><span class="sxs-lookup"><span data-stu-id="9399e-116">**visPLOPlaceStyle**</span></span> <br/> |
+|<span data-ttu-id="8c932-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="8c932-111">Section index:</span></span>  <br/> |<span data-ttu-id="8c932-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="8c932-112">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="8c932-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="8c932-113">Row index:</span></span>  <br/> |<span data-ttu-id="8c932-114">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="8c932-114">**visRowPageLayout**</span></span> <br/> |
+|<span data-ttu-id="8c932-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="8c932-115">Cell index:</span></span>  <br/> |<span data-ttu-id="8c932-116">**visPLOPlaceStyle**</span><span class="sxs-lookup"><span data-stu-id="8c932-116">**visPLOPlaceStyle**</span></span> <br/> |
    
 

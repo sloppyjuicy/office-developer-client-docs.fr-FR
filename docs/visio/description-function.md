@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251596
 localization_priority: Normal
 ms.assetid: ecc79998-b207-edb0-cbcb-2b91e3ff825f
-description: Renvoie le texte du champ Description des propriétés d'un document.
+description: Renvoie le texte à partir du champ Description des propriétés d’un document.
 ms.openlocfilehash: 6d172680e50714bbc2493ae527df918f80498cef
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,12 +16,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422284"
 ---
-# <a name="description-function"></a><span data-ttu-id="fbf5f-103">Fonction DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="fbf5f-103">DESCRIPTION Function</span></span>
+# <a name="description-function"></a><span data-ttu-id="873e0-103">Fonction DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="873e0-103">DESCRIPTION Function</span></span>
 
-<span data-ttu-id="fbf5f-104">Renvoie le texte du champ **Description** des propriétés d'un document.</span><span class="sxs-lookup"><span data-stu-id="fbf5f-104">Returns the text from the **Description** field of a document's properties.</span></span> 
+<span data-ttu-id="873e0-104">Renvoie le texte à partir du **champ Description** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="873e0-104">Returns the text from the **Description** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="fbf5f-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="fbf5f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="873e0-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="873e0-105">Syntax</span></span>
 
-<span data-ttu-id="fbf5f-106">DESCRIPTION ()</span><span class="sxs-lookup"><span data-stu-id="fbf5f-106">DESCRIPTION ()</span></span>
+<span data-ttu-id="873e0-106">DESCRIPTION ()</span><span class="sxs-lookup"><span data-stu-id="873e0-106">DESCRIPTION ()</span></span>
   
 

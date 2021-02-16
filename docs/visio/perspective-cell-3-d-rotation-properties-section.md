@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e07d97a4-9896-4b88-9e76-5a1b3f133094
-description: Détermine l'angle de perspective d'une rotation en perspective, en degrés (de 0 à 359,9)
+description: Détermine l’angle de perspective d’une rotation de perspective, en degrés (de 0 à 359,9)
 ms.openlocfilehash: 4cbefc2fa147a418fa792542e1dc57c39ab2490c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,24 +14,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422529"
 ---
-# <a name="perspective-cell-3-d-rotation-properties-section"></a><span data-ttu-id="fdd0f-103">Perspective Cell (3-D Rotation Properties Section)</span><span class="sxs-lookup"><span data-stu-id="fdd0f-103">Perspective Cell (3-D Rotation Properties Section)</span></span>
+# <a name="perspective-cell-3-d-rotation-properties-section"></a><span data-ttu-id="e636f-103">Perspective Cell (3-D Rotation Properties Section)</span><span class="sxs-lookup"><span data-stu-id="e636f-103">Perspective Cell (3-D Rotation Properties Section)</span></span>
 
-<span data-ttu-id="fdd0f-104">Détermine l'angle de perspective d'une rotation en perspective, en degrés (de 0 à 359,9)</span><span class="sxs-lookup"><span data-stu-id="fdd0f-104">Determines the perspective angle for a perspective rotation, in degrees (0 to 359.9)</span></span>
+<span data-ttu-id="e636f-104">Détermine l’angle de perspective d’une rotation de perspective, en degrés (de 0 à 359,9)</span><span class="sxs-lookup"><span data-stu-id="e636f-104">Determines the perspective angle for a perspective rotation, in degrees (0 to 359.9)</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="fdd0f-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="fdd0f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e636f-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="e636f-105">Remarks</span></span>
 
-<span data-ttu-id="fdd0f-106">Pour obtenir une référence à la cellule **perspective** par un nom à partir d'une autre formule, par valeur de l'attribut **N** d'un élément de **cellule** ou d'un programme en faisant appel à la propriété **CellsU** , utilisez:</span><span class="sxs-lookup"><span data-stu-id="fdd0f-106">To get a reference to the **Perspective** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="e636f-106">Pour obtenir une référence à la cellule **Perspective** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="e636f-106">To get a reference to the **Perspective** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="fdd0f-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="fdd0f-107">Cell name:</span></span>  <br/> |<span data-ttu-id="fdd0f-108">Perspective</span><span class="sxs-lookup"><span data-stu-id="fdd0f-108">Perspective</span></span>  <br/> |
+|<span data-ttu-id="e636f-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="e636f-107">Cell name:</span></span>  <br/> |<span data-ttu-id="e636f-108">Perspective</span><span class="sxs-lookup"><span data-stu-id="e636f-108">Perspective</span></span>  <br/> |
    
-<span data-ttu-id="fdd0f-109">Pour obtenir une référence à la cellule **perspective** à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants:</span><span class="sxs-lookup"><span data-stu-id="fdd0f-109">To get a reference to the **Perspective** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="e636f-109">Pour obtenir une référence à la cellule **Perspective** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="e636f-109">To get a reference to the **Perspective** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="fdd0f-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="fdd0f-110">Section index:</span></span>  <br/> |<span data-ttu-id="fdd0f-111">**Définis**</span><span class="sxs-lookup"><span data-stu-id="fdd0f-111">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="fdd0f-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="fdd0f-112">Row index:</span></span>  <br/> |<span data-ttu-id="fdd0f-113">**visRow3DRotationProperties**</span><span class="sxs-lookup"><span data-stu-id="fdd0f-113">**visRow3DRotationProperties**</span></span> <br/> |
-|<span data-ttu-id="fdd0f-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="fdd0f-114">Cell index:</span></span>  <br/> |<span data-ttu-id="fdd0f-115">**visPerspective**</span><span class="sxs-lookup"><span data-stu-id="fdd0f-115">**visPerspective**</span></span> <br/> |
+|<span data-ttu-id="e636f-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="e636f-110">Section index:</span></span>  <br/> |<span data-ttu-id="e636f-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="e636f-111">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="e636f-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="e636f-112">Row index:</span></span>  <br/> |<span data-ttu-id="e636f-113">**visRow3DRotationProperties**</span><span class="sxs-lookup"><span data-stu-id="e636f-113">**visRow3DRotationProperties**</span></span> <br/> |
+|<span data-ttu-id="e636f-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="e636f-114">Cell index:</span></span>  <br/> |<span data-ttu-id="e636f-115">**visPerspective**</span><span class="sxs-lookup"><span data-stu-id="e636f-115">**visPerspective**</span></span> <br/> |
    
 

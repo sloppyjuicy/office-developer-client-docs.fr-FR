@@ -8,7 +8,7 @@ f1_keywords:
 - FreeXLOper12T
 - FreeXLOperT
 keywords:
-- fonction FreeXLOperT [Excel 2007], fonction FreeXLOper12T [Excel 2007]
+- fonction freexlopert [excel 2007],Fonction FreeXLOper12T [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -19,26 +19,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421521"
 ---
-# <a name="freexlopertfreexloper12t"></a><span data-ttu-id="7ed25-104">FreeXLOperT/FreeXLOper12T</span><span class="sxs-lookup"><span data-stu-id="7ed25-104">FreeXLOperT/FreeXLOper12T</span></span>
+# <a name="freexlopertfreexloper12t"></a><span data-ttu-id="72256-104">FreeXLOperT/FreeXLOper12T</span><span class="sxs-lookup"><span data-stu-id="72256-104">FreeXLOperT/FreeXLOper12T</span></span>
 
- <span data-ttu-id="7ed25-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="7ed25-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="72256-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="72256-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="7ed25-106">Fonction d'infrastructure qui libère la mémoire associée à une expression **XLOPER**/ \*\*\*\*.</span><span class="sxs-lookup"><span data-stu-id="7ed25-106">Framework function that frees memory associated with an **XLOPER**/ **XLOPER12**.</span></span> <span data-ttu-id="7ed25-107">La fonction suppose que la mémoire ait été allouée avec des appels à malloc au sein de la DLL.</span><span class="sxs-lookup"><span data-stu-id="7ed25-107">The function assumes that the memory was allocated with calls to malloc within the DLL.</span></span> <span data-ttu-id="7ed25-108">Si la mémoire a été allouée par Microsoft Excel, d'une autre manière ou par un autre processus, cette fonction ne doit pas être utilisée pour libérer de la mémoire.</span><span class="sxs-lookup"><span data-stu-id="7ed25-108">If the memory was allocated by Microsoft Excel or in some other way or by some other process, this function should not be used to free the memory.</span></span> <span data-ttu-id="7ed25-109">Utilisez [xlFree](xlfree.md) pour libérer de la mémoire allouée par Excel pour **XLOPER**/ **XLOPER12**s.</span><span class="sxs-lookup"><span data-stu-id="7ed25-109">Use [xlFree](xlfree.md) to free memory allocated by Excel for **XLOPER**/ **XLOPER12**s.</span></span> 
+<span data-ttu-id="72256-106">Fonction Framework qui libère la mémoire associée à **une structure** /  **XLOPER XLOPER12**.</span><span class="sxs-lookup"><span data-stu-id="72256-106">Framework function that frees memory associated with an **XLOPER**/ **XLOPER12**.</span></span> <span data-ttu-id="72256-107">La fonction suppose que la mémoire a été allouée avec des appels à malloc dans la DLL.</span><span class="sxs-lookup"><span data-stu-id="72256-107">The function assumes that the memory was allocated with calls to malloc within the DLL.</span></span> <span data-ttu-id="72256-108">Si la mémoire a été allouée par Microsoft Excel ou d’une autre manière ou par un autre processus, cette fonction ne doit pas être utilisée pour libérer la mémoire.</span><span class="sxs-lookup"><span data-stu-id="72256-108">If the memory was allocated by Microsoft Excel or in some other way or by some other process, this function should not be used to free the memory.</span></span> <span data-ttu-id="72256-109">Utilisez [xlFree pour](xlfree.md) libérer de la mémoire allouée par Excel pour  /  **XLOPER XLOPER12** s.</span><span class="sxs-lookup"><span data-stu-id="72256-109">Use [xlFree](xlfree.md) to free memory allocated by Excel for **XLOPER**/ **XLOPER12** s.</span></span> 
   
 ```cs
 void FreeXLOperT(LPXLOPER pxloper);
 void FreeXLOper12T(LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7ed25-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="7ed25-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="72256-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="72256-110">Parameters</span></span>
 
- <span data-ttu-id="7ed25-111">_pxloper_ (**LPXLOPER**)</span><span class="sxs-lookup"><span data-stu-id="7ed25-111">_pxloper_ (**LPXLOPER**)</span></span>
+ <span data-ttu-id="72256-111">_pxloper_ (**LPXLOPER**)</span><span class="sxs-lookup"><span data-stu-id="72256-111">_pxloper_ (**LPXLOPER**)</span></span>
   
- <span data-ttu-id="7ed25-112">_pxloper12_ (**LPXLOPER12**)</span><span class="sxs-lookup"><span data-stu-id="7ed25-112">_pxloper12_ (**LPXLOPER12**)</span></span>
+ <span data-ttu-id="72256-112">_pxloper12_ (**LPXLOPER12**)</span><span class="sxs-lookup"><span data-stu-id="72256-112">_pxloper12_ (**LPXLOPER12**)</span></span>
   
-<span data-ttu-id="7ed25-113">Pointeur vers la \*\*\*\*/ **XLOPER12** de l'XLOPER à libérer.</span><span class="sxs-lookup"><span data-stu-id="7ed25-113">Pointer to the **XLOPER**/ **XLOPER12** to be freed.</span></span> 
+<span data-ttu-id="72256-113">Pointeur vers **la XLOPER** /  **XLOPER12** à libérer.</span><span class="sxs-lookup"><span data-stu-id="72256-113">Pointer to the **XLOPER**/ **XLOPER12** to be freed.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="7ed25-114">Exemple</span><span class="sxs-lookup"><span data-stu-id="7ed25-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="72256-114">Exemple</span><span class="sxs-lookup"><span data-stu-id="72256-114">Example</span></span>
 
  `\SAMPLES\FRAMEWRK\FRAMEWRK.C`
   
@@ -81,9 +81,9 @@ void FreeXLOper12T(LPXLOPER12 pxloper12)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="7ed25-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7ed25-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="72256-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="72256-115">See also</span></span>
 
 
 
-[<span data-ttu-id="7ed25-116">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="7ed25-116">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="72256-116">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="72256-116">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

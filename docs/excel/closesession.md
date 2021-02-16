@@ -14,28 +14,28 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422536"
 ---
-# <a name="closesession"></a><span data-ttu-id="0ff71-103">CloseSession</span><span class="sxs-lookup"><span data-stu-id="0ff71-103">CloseSession</span></span>
+# <a name="closesession"></a><span data-ttu-id="a4ae8-103">CloseSession</span><span class="sxs-lookup"><span data-stu-id="a4ae8-103">CloseSession</span></span>
 
-<span data-ttu-id="0ff71-104">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="0ff71-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="a4ae8-104">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a4ae8-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="0ff71-105">Met fin à une session avec un cluster.</span><span class="sxs-lookup"><span data-stu-id="0ff71-105">Ends a session with a cluster.</span></span>
+<span data-ttu-id="a4ae8-105">Met fin à une session avec un cluster.</span><span class="sxs-lookup"><span data-stu-id="a4ae8-105">Ends a session with a cluster.</span></span>
   
 ```cpp
 int CloseSession(int SessionId)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0ff71-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="0ff71-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a4ae8-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a4ae8-106">Parameters</span></span>
 
-<span data-ttu-id="0ff71-107">_Session_</span><span class="sxs-lookup"><span data-stu-id="0ff71-107">_SessionId_</span></span>
+<span data-ttu-id="a4ae8-107">_SessionId_</span><span class="sxs-lookup"><span data-stu-id="a4ae8-107">_SessionId_</span></span>
   
-> <span data-ttu-id="0ff71-108">ID de la session à fermer.</span><span class="sxs-lookup"><span data-stu-id="0ff71-108">The ID of the session to close.</span></span> <span data-ttu-id="0ff71-109">Cette valeur doit correspondre à la valeur retournée par [OpenSession](opensession.md).</span><span class="sxs-lookup"><span data-stu-id="0ff71-109">This value must match the value returned by [OpenSession](opensession.md).</span></span>
+> <span data-ttu-id="a4ae8-108">ID de la session à fermer.</span><span class="sxs-lookup"><span data-stu-id="a4ae8-108">The ID of the session to close.</span></span> <span data-ttu-id="a4ae8-109">Cette valeur doit correspondre à la valeur renvoyée [par OpenSession](opensession.md).</span><span class="sxs-lookup"><span data-stu-id="a4ae8-109">This value must match the value returned by [OpenSession](opensession.md).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="0ff71-110">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="0ff71-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a4ae8-110">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="a4ae8-110">Return value</span></span>
 
-<span data-ttu-id="0ff71-111">**xlHpcRetSuccess** si la session a été fermée; **xlHpcRetInvalidSessionId** si l'argument _SessionID_ n'est pas valide; **xlHpcRetCallFailed** sur d'autres défaillances.</span><span class="sxs-lookup"><span data-stu-id="0ff71-111">**xlHpcRetSuccess** if the session closed; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures.</span></span> 
+<span data-ttu-id="a4ae8-111">**xlHpcRetSuccess si** la session s’est fermée ; **xlHpcRetInvalidSessionId** si l’argument  _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs.</span><span class="sxs-lookup"><span data-stu-id="a4ae8-111">**xlHpcRetSuccess** if the session closed; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="0ff71-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0ff71-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a4ae8-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a4ae8-112">See also</span></span>
 
-- [<span data-ttu-id="0ff71-113">OpenSession</span><span class="sxs-lookup"><span data-stu-id="0ff71-113">OpenSession</span></span>](opensession.md)
-- [<span data-ttu-id="0ff71-114">Fonctions du connecteur de cluster Excel</span><span class="sxs-lookup"><span data-stu-id="0ff71-114">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
+- [<span data-ttu-id="a4ae8-113">OpenSession</span><span class="sxs-lookup"><span data-stu-id="a4ae8-113">OpenSession</span></span>](opensession.md)
+- [<span data-ttu-id="a4ae8-114">Fonctions du connecteur de cluster Excel</span><span class="sxs-lookup"><span data-stu-id="a4ae8-114">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
 
