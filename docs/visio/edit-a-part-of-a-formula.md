@@ -35,6 +35,6 @@ ms.locfileid: "33439827"
 | Sélectionner jusqu'à la fin  <br/> | Appuyez sur Ctrl+Fin.  <br/> |
 | Sélectionner jusqu'au début  <br/> | Appuyez sur Ctrl+Orig.  <br/> |
 | Remplacer le texte sélectionné  <br/> | Tapez le nouveau texte.  <br/> |
-| Supprimer le texte sélectionné  <br/> | Appuyez sur SUPPR. Ou, sous l'onglet **Accueil** , cliquez sur **couper**.  <br/> |
+| Supprimer le texte sélectionné  <br/> | Appuyez sur SUPPR. Ou sous **l’onglet Accueil,** cliquez sur **Couper.**  <br/> |
    
 

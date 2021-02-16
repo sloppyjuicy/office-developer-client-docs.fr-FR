@@ -25,26 +25,26 @@ ms.locfileid: "33439890"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d'affichage d'une liste de distribution dans laquelle le système de messagerie remet un rapport.
+Contient le nom complet d’une liste de distribution dans laquelle le système de messagerie fournit un rapport.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORTING_DL_NAME  <br/> |
 |Identificateur :  <br/> |0x1003  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Message MAPI  <br/> |
+|Domaine :  <br/> |MAPI Message  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

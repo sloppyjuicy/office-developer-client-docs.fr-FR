@@ -25,13 +25,13 @@ ms.locfileid: "34540902"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur de message qui identifie et marque les messages susceptibles d’être du hameçonnage.
+Contient la valeur du message qui identifie et marque les messages susceptibles d’être du hameçonnage.
   
 |||
 |:-----|:-----|
-|Noms conviviaux:  <br/> |Aucun  <br/> |
-|Jeu de propriétés:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété:  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|Noms convivial :  <br/> |Aucun  <br/> |
+|Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|Nom de la propriété :  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Messagerie sécurisée  <br/> |
    
@@ -41,15 +41,15 @@ Contient la valeur de message qui identifie et marque les messages susceptibles 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifie et marque les messages électroniques conçus pour inciter les destinataires à divulguer des informations sensibles (telles que des mots de passe et d’autres informations personnelles) à une source non fiable.
+> Identifie et marque les messages électroniques conçus pour duplicher les destinataires afin de divulguer des informations sensibles (telles que des mots de passe et d’autres informations personnelles) à une source non fiable.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

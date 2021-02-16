@@ -1,5 +1,5 @@
 ---
-title: Connects, élément (PageContents_Type complexType) (Visio XML)
+title: Élément Connects (PageContents_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538710"
 ---
-# <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Connects, élément (PageContents_Type complexType) (Visio XML)
+# <a name="connects-element-pagecontents_type-complextype-visio-xml"></a>Élément Connects (PageContents_Type complexType) (Visio XML)
 
-Contient un élément **Connect** pour chaque connexion entre deux formes dans un dessin. 
+Contient un **élément Connect** pour chaque connexion entre deux formes dans un dessin. 
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -24,8 +24,8 @@ Contient un élément **Connect** pour chaque connexion entre deux formes dans u
 |:-----|:-----|
 |**Type d’élément** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |page #. xml, Master #. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,18 +36,18 @@ Contient un élément **Connect** pour chaque connexion entre deux formes dans u
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Cette énumération spécifie les informations relatives aux formes d’une forme de base ou d’une page de dessin d’un dessin.  <br/> |
-|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Cette énumération spécifie les informations relatives aux formes d’une forme de base ou d’une page de dessin d’un dessin.  <br/> |
+|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Spécifie les informations sur les formes d’une forme de base ou d’une page de dessin d’un dessin.  <br/> |
+|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Spécifie les informations sur les formes d’une forme de base ou d’une page de dessin d’un dessin.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme.  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Élément comments (Comments_Type XML)
+title: Élément Comments (Comments_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539219"
 ---
-# <a name="comments-element-commentstype-complextype-visio-xml"></a>Élément comments (Comments_Type XML)
+# <a name="comments-element-comments_type-complextype-visio-xml"></a>Élément Comments (Comments_Type complexType) (Visio XML)
 
 Spécifie les propriétés utilisées pour identifier les auteurs et les commentaires dans un dessin.
   
@@ -24,8 +24,8 @@ Spécifie les propriétés utilisées pour identifier les auteurs et les comment
 |:-----|:-----|
 |**Type d’élément** <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |Comments. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |comments.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,7 +36,7 @@ Spécifie les propriétés utilisées pour identifier les auteurs et les comment
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -44,10 +44,10 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[AuthorList](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |Spécifie les auteurs d’un dessin.  <br/> |
-|[CommentList](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |Cette énumération spécifie les commentaires dans un dessin.  <br/> |
+|[CommentList](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |Spécifie les commentaires d’un dessin.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

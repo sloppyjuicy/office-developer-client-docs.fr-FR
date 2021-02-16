@@ -25,22 +25,22 @@ ms.locfileid: "33439876"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 lors de l'envoi de rappels de notification à un client.
+Prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 dans l’envoi de rappels de notification à un client.
   
 |||
 |:-----|:-----|
 |Fourni par :  <br/> |Client  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIOfflineNotify  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIOfflineNotify  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Avertir](imapiofflinenotify-notify.md) <br/> |Envoie des notifications à un client sur les modifications apportées à l'état de connexion.  <br/> |
+|[Notification](imapiofflinenotify-notify.md) <br/> |Envoie des notifications à un client concernant les modifications apportées à l’état de connexion.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le client doit implémenter cette interface et lui transmettre un pointeur en tant que membre dans **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** lors de la configuration des rappels à l'aide de **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Par la suite, Outlook 2010 ou Outlook 2013 seront en mesure d'utiliser cette interface pour envoyer des rappels de notification au client. 
+Le client doit implémenter cette interface et lui transmettre un pointeur en tant que membre dans **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** lors de la configuration des rappels à l’aide **[d’IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Par la suite, Outlook 2010 ou Outlook 2013 pourra utiliser cette interface pour envoyer des rappels de notification au client. 
   
 ## <a name="see-also"></a>Voir aussi
 

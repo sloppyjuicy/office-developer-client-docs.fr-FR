@@ -24,7 +24,7 @@ Détermine la couleur utilisée pour le texte de la forme.
 
 Pour définir la couleur, tapez un nombre compris entre 0 et 23.
   
-Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL. La valeur d'une couleur personnalisée est sa couleur RVB et la valeur RVB ( *r, v, b*), au lieu d'un nombre, est affichée dans la fenêtre feuille ShapeSheet. Dans les opérations numériques, les couleurs personnalisées ont des valeurs supérieures ou égales à 24. 
+Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL. La valeur d’une couleur personnalisée est sa couleur RVB, et RVB( *r, g, b*), plutôt qu’un nombre, s’affiche dans la fenêtre Feuille ShapeSheet. Dans les opérations numériques, les couleurs personnalisées ont des valeurs supérieures ou égales à 24. 
   
 Vous pouvez définir une transparence pour la couleur du texte dans la cellule Transparency.
   
@@ -32,14 +32,14 @@ Pour obtenir une référence à la cellule Color par un nom à partir d'une autr
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Char. Color [ *i* ] où *i* = <1>, 2, 3,...  <br/> |
+|Nom de la cellule :  <br/> |Char.Color[ *i*  ] où  *i*  = <1>, 2, 3, ...  <br/> |
    
 Pour obtenir une référence à la cellule Color à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter** +  *i* où *i* = 0, 1, 2,...  <br/> |
+|Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2, ...  <br/> |
 |Index de la cellule :  <br/> |**visCharacterColor** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: élément FLD (complexType Text_Type) (XML Visio)
+title: élément fld (Text_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539613"
 ---
-# <a name="fld-element-texttype-complextype-visio-xml"></a>élément FLD (complexType Text_Type) (XML Visio)
+# <a name="fld-element-text_type-complextype-visio-xml"></a>élément fld (Text_Type complexType) (Visio XML)
 
 Indique un point d’insertion de champ de texte pour l’élément **Field** correspondant. 
   
@@ -24,8 +24,8 @@ Indique un point d’insertion de champ de texte pour l’élément **Field** co
 |:-----|:-----|
 |**Type d’élément** <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |page #. xml, Master #. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,11 +36,11 @@ Indique un point d’insertion de champ de texte pour l’élément **Field** co
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Contient le texte d’une forme.  <br/> |
    
@@ -52,6 +52,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Index de base zéro de l’élément au sein de son élément parent.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Index de base 0 de l’élément au sein de son élément parent.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
    
 

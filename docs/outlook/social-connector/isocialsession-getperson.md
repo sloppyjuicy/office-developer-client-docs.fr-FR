@@ -17,7 +17,7 @@ ms.locfileid: "33439820"
 ---
 # <a name="isocialsessiongetperson"></a>ISocialSession::GetPerson
 
-Obtient une interface [ISocialPerson](isocialpersoniunknown.md) basée sur le paramètre _userid_ . 
+Obtient une interface [ISocialPerson](isocialpersoniunknown.md) basée sur le _paramètre userID._ 
   
 ```cpp
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
@@ -25,17 +25,17 @@ HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** resul
 
 ## <a name="parameters"></a>Paramètres
 
-_Identifi_
+_userId_
   
-> dans Chaîne qui contient un ID d'utilisateur ou une adresse SMTP d'une personne.
+> [in] Chaîne qui contient l’ID d’utilisateur ou l’adresse SMTP d’une personne.
     
 _result_
   
-> remarquer Une interface **ISocialPerson** . 
+> [out] Interface **ISocialPerson.** 
     
 ## <a name="remarks"></a>Remarques
 
-Le paramètre _userid_ doit être un ID d'utilisateur ou une adresse SMTP. 
+Le  _paramètre userID_ doit être un ID d’utilisateur ou une adresse SMTP. 
   
 ## <a name="see-also"></a>Voir aussi
 

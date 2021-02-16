@@ -1,5 +1,5 @@
 ---
-title: Accès aux données d’une solution stockée sous forme de message masqué dans un dossier
+title: Accéder aux données propres à une solution stockées dans un message masqué dans un dossier
 TOCTitle: Access solution-specific data stored as a hidden message in a folder
 ms:assetid: bacf0562-1026-4c3b-87b0-4eaad5033592
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb623414(v=office.15)
@@ -26,7 +26,7 @@ L'exemple de code suivant récupère les données XML qui sont stockées sous fo
 
 L'objet [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) retourne le XML sous forme d'objet qui contient un flux d'octets et non comme une représentation sous forme de chaîne du XML. L'exemple de code utilise **System.Text.Encoding.Ascii.GetString** pour convertir le flux d'octets en chaîne.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

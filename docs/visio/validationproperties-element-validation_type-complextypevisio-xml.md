@@ -1,5 +1,5 @@
 ---
-title: Élément ValidationProperties (complexType Validation_Type) (XML Visio)
+title: Élément ValidationProperties (Validation_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538521"
 ---
-# <a name="validationproperties-element-validationtype-complextype-visio-xml"></a>Élément ValidationProperties (complexType Validation_Type) (XML Visio)
+# <a name="validationproperties-element-validation_type-complextype-visio-xml"></a>Élément ValidationProperties (Validation_Type complexType) (Visio XML)
 
 Encapsule les propriétés liées à la validation du document.
   
@@ -24,8 +24,8 @@ Encapsule les propriétés liées à la validation du document.
 |:-----|:-----|
 |**Type d’élément** <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |validation. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,11 +36,11 @@ Encapsule les propriétés liées à la validation du document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Valider](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stocke les informations relatives à la validation du diagramme pour le document.  <br/> |
    
@@ -52,7 +52,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|LastValidated  <br/> |xsd: dateTime  <br/> |obligatoire  <br/> |Date et heure de la dernière validation du document.  <br/> |Valeurs du type xsd: dateTime.  <br/> |
-|ShowIgnored  <br/> |xsd: Boolean  <br/> |obligatoire  <br/> |Spécifie s’il faut afficher les problèmes de validation ignorés dans la fenêtre problèmes.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
+|LastValidated  <br/> |xsd:dateTime  <br/> |obligatoire  <br/> |Date et heure de la dernière validation du document.  <br/> |Valeurs du type xsd:dateTime.  <br/> |
+|ShowIgnored  <br/> |xsd:boolean  <br/> |obligatoire  <br/> |Spécifie s’il faut afficher les problèmes de validation ignorés dans la fenêtre Problèmes.  <br/> |Valeurs du type xsd:boolean.  <br/> |
    
 

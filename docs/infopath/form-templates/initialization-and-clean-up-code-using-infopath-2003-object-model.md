@@ -81,7 +81,7 @@ Namespace Template1
 End Namespace
 ```
 
-## <a name="the-startup-method"></a>Méthode _Startup
+## <a name="the-_startup-method"></a>Méthode _Startup
 
 Outre la fourniture d'un emplacement pour le code d'initialisation des composants supplémentaires, la méthode  `_Startup` initialise les variables  `thisXDocument` et  `thisApplication` qui peuvent être utilisées dans le code du formulaire pour accéder aux membres des classes [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) et [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) dans le modèle objet InfoPath. Le code nécessaire à l'initialisation de ces deux variables est généré automatiquement par le modèle de projet. 
   
@@ -126,9 +126,9 @@ Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
 End Sub
 ```
 
-Pour plus d’informations sur la création d’un gestionnaire d’événements, voir [Ajouter un gestionnaire d’événements à l’aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Pour plus d’informations sur la création d’un handler d’événements, voir [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
-## <a name="the-shutdown-method"></a>Méthode _ShutDown
+## <a name="the-_shutdown-method"></a>Méthode _ShutDown
 
 La méthode  `_Shutdown` est la dernière méthode appelée à la fermeture du formulaire. Vous pouvez écrire dans cette méthode du code nécessaire au nettoyage ou à la finalisation des composants utilisés dans le formulaire. 
   
@@ -148,7 +148,7 @@ La méthode  `_Shutdown` est la dernière méthode appelée à la fermeture du f
 L'exemple ci-dessous présente l'initialisation d'une connexion à une base de données Microsoft SQL Server dans la méthode  `_Startup` et la fermeture de cette connexion dans la méthode  `_Shutdown`. Pour que cet exemple fonctionne correctement, vous devez d'abord définir une référence à l'assembly System.Data de .NET Framework. Pour cela, cliquez sur **Ajouter une référence** dans le menu **Projet**, puis sélectionnez le composant System.Data.dll sous l'onglet **.NET**. Notez également que la directive  `using System.Data.SqlClient` (ou  `Imports System.Data.SqlClient)` a été ajoutée au début du fichier de code du formulaire pour réduire le nombre de frappes au clavier. 
   
 > [!NOTE]
-> [!REMARQUE] Les utilisateurs de formulaires InfoPath contenant un code de formulaire qui se connecte à une base de données SQL Server peuvent avoir besoin d'autorisations de sécurité en fonction des conditions de déploiement du formulaire et de la manière dont la stratégie de sécurité est définie. Pour plus d’informations sur la sécurité, consultez [la rubrique relative au modèle de sécurité pour les modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md) et à la [Configuration des paramètres de sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md). 
+> [!REMARQUE] Les utilisateurs de formulaires InfoPath contenant un code de formulaire qui se connecte à une base de données SQL Server peuvent avoir besoin d'autorisations de sécurité en fonction des conditions de déploiement du formulaire et de la manière dont la stratégie de sécurité est définie. Pour plus d’informations sur la sécurité, voir À propos du modèle de sécurité pour les [modèles](about-the-security-model-for-form-templates-with-code.md) de formulaires avec code et configurer les paramètres de sécurité pour les modèles de [formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md). 
   
 ```cs
 using System;
@@ -221,5 +221,5 @@ End Namespace
 
 
 
-[Ajout d’un gestionnaire d’événements à l’aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Ajouter un handler d’événements à l’aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

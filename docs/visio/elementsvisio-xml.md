@@ -1,12 +1,12 @@
 ---
-title: Éléments (XML Visio)
+title: Éléments (Visio XML)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cffc4005-e260-38ab-7142-47f949cc7494
-description: Cette rubrique répertorie les éléments du schéma XML de format de fichier Visio 2013.
+description: Cette rubrique répertorie les éléments du schéma XML du format de fichier Visio 2013.
 ms.openlocfilehash: 8efa50eeac8f236e6879915d920fdb0f38e1f4f2
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539918"
 ---
-# <a name="elements-visio-xml"></a>Éléments (XML Visio)
+# <a name="elements-visio-xml"></a>Éléments (Visio XML)
 
-Cette rubrique répertorie les éléments du schéma XML de format de fichier Visio 2013.
+Cette rubrique répertorie les éléments du schéma XML du format de fichier Visio 2013.
   
 - [Élément AttachedToolbars](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md)
     
@@ -28,13 +28,13 @@ Cette rubrique répertorie les éléments du schéma XML de format de fichier Vi
     
 - [Élément de cellule](cell-elementvisio-xml.md)
     
-- [Élément de cellule (section balise d’action)](cell-element-action-tag-sectionvisio-xml.md)
+- [Élément de cellule (section Action Tag)](cell-element-action-tag-sectionvisio-xml.md)
     
 - [Élément de cellule (ligne Actions)](cell-element-actions-rowvisio-xml.md)
     
 - [Élément de cellule (ligne ArcTo)](cell-element-arcto-rowvisio-xml.md)
     
-- [Élément de cellule (section caractères)](cell-element-character-sectionvisio-xml.md)
+- [Élément de cellule (section Character)](cell-element-character-sectionvisio-xml.md)
     
 - [Élément de cellule (ligne Connection)](cell-element-connection-rowvisio-xml.md)
     
@@ -44,19 +44,19 @@ Cette rubrique répertorie les éléments du schéma XML de format de fichier Vi
     
 - [Élément de cellule (ligne EllipticalArcTo)](cell-element-ellipticalarcto-rowvisio-xml.md)
     
-- [Élément de cellule (section champ)](cell-element-field-sectionvisio-xml.md)
+- [Élément de cellule (section Field)](cell-element-field-sectionvisio-xml.md)
     
-- [Élément de cellule (section remplissage dégradé)](cell-element-fill-gradient-sectionvisio-xml.md)
+- [Élément de cellule (section Fill Gradient)](cell-element-fill-gradient-sectionvisio-xml.md)
     
-- [Élément de cellule (section géométrie)](cell-element-geometry-sectionvisio-xml.md)
+- [Élément de cellule (section Geometry)](cell-element-geometry-sectionvisio-xml.md)
     
 - [Élément de cellule (ligne Hyperlink)](cell-element-hyperlink-rowvisio-xml.md)
     
 - [Élément de cellule (ligne InfiniteLine)](cell-element-infiniteline-rowvisio-xml.md)
     
-- [Élément de cellule (section calque)](cell-element-layer-sectionvisio-xml.md)
+- [Élément de cellule (section Layer)](cell-element-layer-sectionvisio-xml.md)
     
-- [Élément de cellule (section dégradé de lignes)](cell-element-line-gradient-sectionvisio-xml.md)
+- [Élément de cellule (section Line Gradient)](cell-element-line-gradient-sectionvisio-xml.md)
     
 - [Élément de cellule (ligne LineTo)](cell-element-lineto-rowvisio-xml.md)
     
@@ -64,7 +64,7 @@ Cette rubrique répertorie les éléments du schéma XML de format de fichier Vi
     
 - [Élément de cellule (ligne NURBSTo)](cell-element-nurbsto-rowvisio-xml.md)
     
-- [Élément de cellule (section paragraphe)](cell-element-paragraph-sectionvisio-xml.md)
+- [Élément de cellule (section Paragraph)](cell-element-paragraph-sectionvisio-xml.md)
     
 - [Élément de cellule (ligne PolyLineTo)](cell-element-polylineto-rowvisio-xml.md)
     
@@ -80,15 +80,15 @@ Cette rubrique répertorie les éléments du schéma XML de format de fichier Vi
     
 - [Élément de cellule (section Scratch)](cell-element-scratch-sectionvisio-xml.md)
     
-- [Élément de cellule (section données de forme)](cell-element-shape-data-sectionvisio-xml.md)
+- [Élément de cellule (section Shape Data)](cell-element-shape-data-sectionvisio-xml.md)
     
 - [Élément de cellule (ligne SplineKnot)](cell-element-splineknot-rowvisio-xml.md)
     
 - [Élément de cellule (ligne SplineStart)](cell-element-splinestart-rowvisio-xml.md)
     
-- [Élément de cellule (section onglets)](cell-element-tabs-sectionvisio-xml.md)
+- [Élément de cellule (section Tabs)](cell-element-tabs-sectionvisio-xml.md)
     
-- [Élément de cellule (section cellules définies par l’utilisateur)](cell-element-user-defined-cells-sectionvisio-xml.md)
+- [Élément de cellule (section User-defined Cells)](cell-element-user-defined-cells-sectionvisio-xml.md)
     
 - [Élément ColorEntry](colorentry-element-colors_type-complextypevisio-xml.md)
     
@@ -234,37 +234,37 @@ Cette rubrique répertorie les éléments du schéma XML de format de fichier Vi
     
 - [Élément Rel (Solution_Type complexType)](rel-element-solution_type-complextypevisio-xml.md)
     
-- [Élément de ligne (section actions)](row-element-actions-sectionvisio-xml.md)
+- [Row, élément (actions, section)](row-element-actions-sectionvisio-xml.md)
     
-- [Élément de ligne (section balise d’action)](row-element-action-tag-sectionvisio-xml.md)
+- [Row, élément (Action Tag Section)](row-element-action-tag-sectionvisio-xml.md)
     
-- [Élément de ligne (section caractères)](row-element-character-sectionvisio-xml.md)
+- [Élément Row (Character Section)](row-element-character-sectionvisio-xml.md)
     
-- [Élément de ligne (section connexion)](row-element-connection-sectionvisio-xml.md)
+- [Row, élément (Connection Section)](row-element-connection-sectionvisio-xml.md)
     
-- [Élément de ligne (section contrôles)](row-element-controls-sectionvisio-xml.md)
+- [Row, élément (section Controls)](row-element-controls-sectionvisio-xml.md)
     
-- [Élément de ligne (section champ)](row-element-field-sectionvisio-xml.md)
+- [Row, élément (Field Section)](row-element-field-sectionvisio-xml.md)
     
-- [Élément de ligne (section dégradé de remplissage)](row-element-fill-gradient-sectionvisio-xml.md)
+- [Élément Row (Fill Gradient Section)](row-element-fill-gradient-sectionvisio-xml.md)
     
-- [Élément de ligne (section géométrie)](row-element-geometry-sectionvisio-xml.md)
+- [Row, élément (Geometry Section)](row-element-geometry-sectionvisio-xml.md)
     
-- [Élément de ligne (section lien hypertexte)](row-element-hyperlink-sectionvisio-xml.md)
+- [Élément Row (Hyperlink Section)](row-element-hyperlink-sectionvisio-xml.md)
     
-- [Élément de ligne (section calque)](row-element-layer-sectionvisio-xml.md)
+- [Row, élément (Layer Section)](row-element-layer-sectionvisio-xml.md)
     
-- [Élément de ligne (section dégradé de ligne)](row-element-line-gradient-sectionvisio-xml.md)
+- [Élément Row (line gradient section)](row-element-line-gradient-sectionvisio-xml.md)
     
-- [Élément de ligne (section paragraphe)](row-element-paragraph-sectionvisio-xml.md)
+- [Élément Row (section Paragraph)](row-element-paragraph-sectionvisio-xml.md)
     
-- [Élément de ligne (section Scratch)](row-element-scratch-sectionvisio-xml.md)
+- [Élément Row (section Scratch)](row-element-scratch-sectionvisio-xml.md)
     
-- [Élément de ligne (section données de forme)](row-element-shape-data-sectionvisio-xml.md)
+- [Row, élément (shape data section)](row-element-shape-data-sectionvisio-xml.md)
     
-- [Élément de ligne (section onglets)](row-element-tabs-sectionvisio-xml.md)
+- [Row, élément (tabs, section)](row-element-tabs-sectionvisio-xml.md)
     
-- [Élément de ligne (section cellules définies par l’utilisateur)](row-element-user-defined-cells-sectionvisio-xml.md)
+- [Row, élément (section User-defined Cells)](row-element-user-defined-cells-sectionvisio-xml.md)
     
 - [Élément RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md)
     

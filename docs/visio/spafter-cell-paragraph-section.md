@@ -28,14 +28,14 @@ Pour obtenir une référence à la cellule SpAfter par un nom dans une autre for
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Para. SpAfter [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Para.SpAfter[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule SpAfter par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionParagraph** <br/> |
-| Index de la ligne :  <br/> |**visRowParagraph** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowParagraph**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visSpaceAfter** <br/> |
    
 

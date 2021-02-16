@@ -1,5 +1,5 @@
 ---
-title: ComplexType Sheet_Type (Visio XML)
+title: Sheet_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,14 +13,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540405"
 ---
-# <a name="sheettype-complextype-visio-xml"></a>ComplexType Sheet_Type (Visio XML)
+# <a name="sheet_type-complextype-visio-xml"></a>Sheet_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base d’extension** <br/> |Aucun  <br/> |
    
 ## <a name="definition"></a>Définition
@@ -66,11 +66,11 @@ ms.locfileid: "34540405"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
 |[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> ||
@@ -80,8 +80,8 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
-|LineStyle  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
-|TextStyle  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|FillStyle  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
+|LineStyle  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
+|TextStyle  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Programmation de la suppression des pièces jointes de niveau de sécurité 2 des messages pour les enregistrer sur disque
+title: Supprimer par programmation des pièces jointes de niveau 2 de sécurité des messages et les enregistrer sur disque
 TOCTitle: Programmatically remove security level 2 attachments from messages and save them to disk
 ms:assetid: fb63e505-a243-40a5-919d-e4fe914af3f9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184657(v=office.15)

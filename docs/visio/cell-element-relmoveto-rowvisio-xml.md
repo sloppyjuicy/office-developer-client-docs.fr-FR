@@ -1,12 +1,12 @@
 ---
-title: Élément de cellule (ligne RelMoveTo) (XML Visio)
+title: Élément de cellule (ligne RelMoveTo) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8e91497c-0aa1-2021-9317-cf989e5b84a3
-description: Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après la rupture d’un chemin, par rapport à la hauteur et à la largeur de la forme.
+description: Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après une coupure dans un chemin d’accès, par rapport à la hauteur et à la largeur de la forme.
 ms.openlocfilehash: 6ec7990887ed59ae229e88b6ad02a7759c770700
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539403"
 ---
-# <a name="cell-element-relmoveto-row-visio-xml"></a>Élément de cellule (ligne RelMoveTo) (XML Visio)
+# <a name="cell-element-relmoveto-row-visio-xml"></a>Élément de cellule (ligne RelMoveTo) (Visio XML)
 
-Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après la rupture d’un chemin, par rapport à la hauteur et à la largeur de la forme.
+Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après un rupture de chemin d’accès, par rapport à la hauteur et à la largeur de la forme.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -24,8 +24,8 @@ Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordon
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |Master #. xml, page #. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,17 +36,17 @@ Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordon
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Élément de ligne (géométrie)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelMoveTo_Type](relmoveto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après la rupture d’un chemin, par rapport à la hauteur et à la largeur de la forme.  <br/> |
+|[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelMoveTo_Type](relmoveto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après un rupture de chemin d’accès, par rapport à la hauteur et à la largeur de la forme.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page.  <br/> |
    
@@ -54,19 +54,19 @@ Si le schéma définit des exigences spécifiques, telles que **Sequence**, **mi
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd: String  <br/> |facultatif  <br/> |Indique que la formule génère une erreur. La valeur **E** est la valeur actuelle (chaîne de message d’erreur); la valeur de l’attribut **V** est la dernière valeur valide.  <br/> |Chaîne de message d’erreur.  <br/> |
-|F  <br/> |xsd: String  <br/> |facultatif  <br/> | Représente la formule de l’élément. Cet attribut peut contenir l’une des chaînes suivantes:  <br/>  ' (une formule) 'si la formule existe localement  <br/>  `No Formula`Si la formule est supprimée ou bloquée localement  <br/>  `Inh`Si la formule est héritée.  <br/> |Une formule.  <br/> |
-|N  <br/> |xsd: String  <br/> |obligatoire  <br/> |Représente le nom de la cellule ShapeSheet.  <br/> |Nom de la cellule ShapeSheet.  <br/> Consultez la section Remarques ci-dessous.  <br/> |
-|U  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente une unité de mesure la valeur par défaut est DL.  <br/> |Unités de la cellule.  <br/> |
-|V  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |Valeur de la cellule ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |facultatif  <br/> |Indique que la formule est évaluée à une erreur. La valeur de **E** est la valeur actuelle (chaîne de message d’erreur) ; la valeur de **l’attribut V** est la dernière valeur valide.  <br/> |Chaîne de message d’erreur.  <br/> |
+|F  <br/> |xsd:string  <br/> |facultatif  <br/> | Représente la formule de l’élément. Cet attribut peut contenir l’une des chaînes suivantes :  <br/>  '(une formule)' si la formule existe localement  <br/>  `No Formula` si la formule est supprimée ou bloquée localement  <br/>  `Inh` si la formule est héritée.  <br/> |Formule.  <br/> |
+|N  <br/> |xsd:string  <br/> |obligatoire  <br/> |Représente le nom de la cellule ShapeSheet.  <br/> |Nom de la cellule ShapeSheet.  <br/> Voir la section Remarques ci-dessous.  <br/> |
+|U  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente une unité de mesure La valeur par défaut est DL.  <br/> |Unités de la cellule.  <br/> |
+|V  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |Valeur de la cellule ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’attribut **N** de cet élément de **cellule** doit correspondre à l’un des jeux de valeurs limités qui correspondent aux cellules de la feuille ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet élément de **cellule** . 
+**L’attribut N** de cet **élément Cell** doit faire partie d’un ensemble limité de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X  <br/> |Si la ligne **RelMoveTo** est la première ligne de la section, la cellule **X** représente la coordonnée x du premier sommet d’une forme par rapport à la largeur de la forme. Si la ligne **RelMoveTo** apparaît entre deux lignes, la cellule **X** représente la coordonnée x du premier sommet après la rupture du chemin.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
-|v  <br/> |Si la ligne **RelMoveTo** est la première ligne de la section, la cellule **Y** représente la coordonnée y du premier sommet d’une forme par rapport à la hauteur de la forme. Si la ligne **RelMoveTo** apparaît entre deux lignes, la cellule **y** représente la coordonnée y du premier sommet après la rupture du chemin.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
+|X  <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule X représente la coordonnée **x** du premier sommet d’une forme par rapport à la largeur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée **x** du premier sommet après la coupure du chemin d’accès.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
+|v  <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule Y représente la coordonnée **y** du premier sommet d’une forme par rapport à la hauteur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée **y** du premier sommet après la rupture du chemin d’accès.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
    
 

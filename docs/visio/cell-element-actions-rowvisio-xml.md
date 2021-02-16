@@ -1,12 +1,12 @@
 ---
-title: Élément de cellule (ligne actions) (XML Visio)
+title: Élément de cellule (ligne Actions) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ae2b4db-03f4-1b8a-1274-7eb1521f2f59
-description: Spécifie une propriété d’une action associée à une commande personnalisée dans un menu contextuel ou de balise d’action.
+description: Spécifie une propriété d’une action associée à une commande personnalisée dans un menu de raccourci ou de balise d’action.
 ms.openlocfilehash: 8cce85bdfb7d0ce54d968e00cda56e4e6c2455bc
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538780"
 ---
-# <a name="cell-element-actions-row-visio-xml"></a>Élément de cellule (ligne actions) (XML Visio)
+# <a name="cell-element-actions-row-visio-xml"></a>Élément de cellule (ligne Actions) (Visio XML)
 
-Spécifie une propriété d’une action associée à une commande personnalisée dans un menu contextuel ou de balise d’action.
+Spécifie une propriété d’une action associée à une commande personnalisée dans un menu de raccourci ou de balise d’action.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -24,8 +24,8 @@ Spécifie une propriété d’une action associée à une commande personnalisé
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |Masters. xml, Master #. xml, pages. xml, page #. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,33 +36,33 @@ Spécifie une propriété d’une action associée à une commande personnalisé
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Élément de ligne (section actions)](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété d’une action associée à une commande personnalisée dans un menu contextuel ou de balise d’action.  <br/> |
+|[Row, élément (actions, section)](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété d’une action associée à une commande personnalisée dans un menu de raccourci ou de balise d’action.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Cette énumération spécifie une référence à une page de dessin.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd: String  <br/> |facultatif  <br/> |Indique que la formule génère une erreur. La valeur **E** est la valeur actuelle (chaîne de message d’erreur); la valeur de l’attribut **V** est la dernière valeur valide.  <br/> |Chaîne de message d’erreur.  <br/> |
-|F  <br/> |xsd: String  <br/> |facultatif  <br/> | Représente la formule de l’élément. Cet attribut peut contenir l’une des chaînes suivantes:  <br/>  ' (une formule) 'si la formule existe localement  <br/>  `No Formula`Si la formule est supprimée ou bloquée localement  <br/>  `Inh`Si la formule est héritée.  <br/> |Une formule.  <br/> |
-|N  <br/> |xsd: String  <br/> |obligatoire  <br/> |Représente le nom de la cellule ShapeSheet.  <br/> |Nom de la cellule ShapeSheet.  <br/> Consultez la section Remarques ci-dessous.  <br/> |
-|U  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente une unité de mesure la valeur par défaut est DL.  <br/> |Unités de la cellule.  <br/> |
-|V  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |Valeur de la cellule ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |facultatif  <br/> |Indique que la formule est évaluée à une erreur. La valeur de **E** est la valeur actuelle (chaîne de message d’erreur) ; la valeur de **l’attribut V** est la dernière valeur valide.  <br/> |Chaîne de message d’erreur.  <br/> |
+|F  <br/> |xsd:string  <br/> |facultatif  <br/> | Représente la formule de l’élément. Cet attribut peut contenir l’une des chaînes suivantes :  <br/>  '(une formule)' si la formule existe localement  <br/>  `No Formula` si la formule est supprimée ou bloquée localement  <br/>  `Inh` si la formule est héritée.  <br/> |Formule.  <br/> |
+|N  <br/> |xsd:string  <br/> |obligatoire  <br/> |Représente le nom de la cellule ShapeSheet.  <br/> |Nom de la cellule ShapeSheet.  <br/> Voir la section Remarques ci-dessous.  <br/> |
+|U  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente une unité de mesure La valeur par défaut est DL.  <br/> |Unités de la cellule.  <br/> |
+|V  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |Valeur de la cellule ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’attribut **N** de cet élément de **cellule** doit correspondre à l’un des jeux de valeurs limités qui correspondent aux cellules de la feuille ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet élément de **cellule** . 
+**L’attribut N** de cet **élément Cell** doit être l’un des ensembles limités de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
@@ -72,10 +72,10 @@ L’attribut **N** de cet élément de **cellule** doit correspondre à l’un d
 |Checked  <br/> |Indique si une option est cochée dans le menu contextuel ou de balise d’action.  <br/> |[Checked, cellule (section Actions)](checked-cell-actions-section.md) <br/> |
 |Désactivé  <br/> |Indique si une option d’un menu contextuel ou de balise d’action est désactivée.  <br/> |[Disabled, cellule (section Actions)](disabled-cell-actions-section.md) <br/> |
 |FlyoutChild  <br/> |Détermine si la ligne est un menu flottant enfant de la dernière ligne se trouvant au-dessus d’elle si cette dernière n’est pas un menu flottant enfant.  <br/> |[FlyoutChild Cell (Actions Section)](flyoutchild-cell-actions-section.md) <br/> |
-|Visibilité  <br/> |Indique si l’action est visible dans le menu contextuel ou de balise d’action.  <br/> |[Invisible, cellule (section Actions)](invisible-cell-actions-section.md) <br/> |
+|Invisible  <br/> |Indique si l’action est visible dans le menu contextuel ou de balise d’action.  <br/> |[Invisible, cellule (section Actions)](invisible-cell-actions-section.md) <br/> |
 |Menu  <br/> |Définit le nom d’une option de menu qui s’affiche dans un menu contextuel ou de balise d’action pour une forme ou une page.  <br/> |[Menu, cellule (section Actions)](menu-cell-actions-section.md) <br/> |
 |ReadOnly  <br/> |Contrôle si l’action d’un menu contextuel ou de balise d’action est en lecture seule.  <br/> |[ReadOnly, cellule (section Actions)](readonly-cell-actions-section.md) <br/> |
-|SortKey  <br/> |Numéro qui détermine l’ordre des actions qui apparaissent dans un menu contextuel ou de balise d’action.  <br/> |[SortKey, cellule (section actions) SortKey, cellule (section actions)](sortkey-cell-actions-section.md) <br/> |
-|Nombalise  <br/> |Contient le nom de la balise d’action à laquelle cette action est associée.  <br/> |[TagName, cellule (section Actions)](tagname-cell-actions-section.md) <br/> |
+|SortKey  <br/> |Numéro qui détermine l’ordre des actions qui apparaissent dans un menu contextuel ou de balise d’action.  <br/> |[SortKey, cellule (section Actions) SortKey, cellule (section Actions)](sortkey-cell-actions-section.md) <br/> |
+|TagName  <br/> |Contient le nom de la balise d’action à laquelle cette action est associée.  <br/> |[TagName, cellule (section Actions)](tagname-cell-actions-section.md) <br/> |
    
 

@@ -19,17 +19,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439855"
 ---
-# <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
+# <a name="newmail_notification"></a>NEWMAIL_NOTIFICATION
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit les informations relatives à l'arrivée d'un nouveau message. 
+Décrit les informations liées à l’arrivée d’un nouveau message. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _NEWMAIL_NOTIFICATION
@@ -49,27 +49,27 @@ typedef struct _NEWMAIL_NOTIFICATION
 
  **cbEntryID**
   
-> Nombre d'octets dans l'identificateur d'entrée vers lequel pointe le membre **lpEntryID** . 
+> Nombre d’octets dans l’identificateur d’entrée pointé par le membre **lpEntryID.** 
     
  **lpEntryID**
   
-> Pointeur vers l'identificateur d'entrée du message nouvellement arrivé.
+> Pointeur vers l’identificateur d’entrée du message nouvellement arrivé.
     
  **cbParentID**
   
-> Nombre d'octets dans l'identificateur d'entrée vers lequel pointe le membre **lpParentID** . 
+> Nombre d’octets dans l’identificateur d’entrée pointé par le membre **lpParentID.** 
     
  **lpParentID**
   
-> Pointeur vers l'identificateur d'entrée du dossier de réception pour le message nouvellement arrivé.
+> Pointeur vers l’identificateur d’entrée du dossier de réception du message nouvellement arrivé.
     
  **ulFlags**
   
-> Masque de des indicateurs utilisé pour décrire le format des propriétés de chaîne incluses dans le message. L'indicateur suivant peut être défini:
+> Masque de bits d’indicateurs utilisé pour décrire le format des propriétés de chaîne incluses dans le message. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les chaînes transmises sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
+> Les chaînes transmises sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
  **lpszMessageClass**
   
@@ -77,21 +77,21 @@ MAPI_UNICODE
     
  **ulMessageFlags**
   
-> Masque de des indicateurs qui décrit l'état actuel du message nouvellement arrivé. Le membre **ulMessageFlags** est une copie de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message.
+> Masque de bits d’indicateurs décrivent l’état actuel du message nouvellement arrivé. Le **membre ulMessageFlags est** une copie de la propriété PR_MESSAGE_FLAGS ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **NEWMAIL_NOTIFICATION** est l'un des membres de l'Union des structures incluses dans le membre **info** de la structure de [notification](notification.md) . Lorsque le membre **info** d'une structure de **notification** contient une structure **NEWMAIL_NOTIFICATION** , le membre **ulEventType** de la structure de **notification** est défini sur _fnevNewMail._
+La **NEWMAIL_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Lorsque le **membre d’informations** d’une structure **NOTIFICATION** contient une structure **NEWMAIL_NOTIFICATION,** le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevNewMail._
   
-MAPI utilise la structure **NEWMAIL_NOTIFICATION** uniquement en tant que membre de la structure de **notification** , qui contient des informations sur un événement de notification pour le récepteur de notifications. 
+MAPI utilise la structure **NEWMAIL_NOTIFICATION** uniquement en tant que membre de la structure **notification,** qui contient des informations sur un événement de notification pour le réception de notification. 
   
-Pour plus d'informations sur la notification, reportez-vous aux rubriques décrites dans le tableau suivant.
+Pour plus d’informations sur la notification, voir les rubriques décrites dans le tableau suivant.
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d'événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d'ensemble générale des événements de notification et de notification.  <br/> |
-|[Gestion des notifications](handling-notifications.md) <br/> |Présentation de la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Notification d'événement de prise en charge](supporting-event-notification.md) <br/> |Présentation de la façon dont les fournisseurs de services peuvent utiliser la méthode [IMAPISupport](imapisupportiunknown.md) pour générer des notifications.  <br/> |
+|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des événements de notification et de notification.  <br/> |
+|[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications.  <br/> |
+|[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser la méthode [IMAPISupport](imapisupportiunknown.md) pour générer des notifications.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

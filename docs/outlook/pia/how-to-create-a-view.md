@@ -1,5 +1,5 @@
 ---
-title: Création d’un affichage
+title: Créer un affichage
 TOCTitle: Create a view
 ms:assetid: 2f8ad187-1030-420a-bc74-c327e3521550
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424468(v=office.15)

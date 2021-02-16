@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251585
 localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
-description: Renvoie un point transformé en coordonnées parent dans le système de coordonnées de destination.
+description: Renvoie un point transformé dans les coordonnées parent dans le système de coordonnées de destination.
 ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33439981"
 ---
 # <a name="loctopar-function"></a>Fonction LOCTOPAR
 
-Renvoie un point transformé en coordonnées parent dans le système de coordonnées de destination.
+Renvoie un point transformé dans les coordonnées parent dans le système de coordonnées de destination.
   
 ## <a name="syntax"></a>Syntaxe
 
-LOCTOPAR (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *) 
+LOCTOPAR(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

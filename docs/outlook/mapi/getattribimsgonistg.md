@@ -25,13 +25,13 @@ ms.locfileid: "33439995"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère les attributs des propriétés sur un objet [IMessage](imessageimapiprop.md) fourni par la fonction [OpenIMsgOnIStg](openimsgonistg.md) . 
+Récupère les attributs des propriétés d’un objet [IMessage](imessageimapiprop.md) fourni par la [fonction OpenIMsgOnIStg.](openimsgonistg.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |IMessage. h  <br/> |
+|Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Applications clientes et fournisseurs de banques de messages  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de magasins de messages  <br/> |
    
 ```cpp
 HRESULT GetAttribIMsgOnIStg(
@@ -45,15 +45,15 @@ HRESULT GetAttribIMsgOnIStg(
 
  _lpObject_
   
-> dans Pointeur vers un objet **IMessage** obtenu à partir de la fonction [OpenIMsgOnIStg](openimsgonistg.md) . 
+> [in] Pointeur vers un **objet IMessage** obtenu à partir de la [fonction OpenIMsgOnIStg.](openimsgonistg.md) 
     
  _lpPropTagArray_
   
-> dans Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant les propriétés pour lesquelles les attributs doivent être récupérés. 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant les propriétés pour lesquelles les attributs doivent être récupérés. 
     
  _lppPropAttrArray_
   
-> remarquer Pointeur vers un pointeur vers la structure [SPropAttrArray](spropattrarray.md) renvoyée qui contient les attributs de propriété récupérés. 
+> [out] Pointeur vers un pointeur vers la structure [SPropAttrArray](spropattrarray.md) renvoyée qui contient les attributs de propriété récupérés. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -63,15 +63,15 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> L'appel a réussi globalement, mais une ou plusieurs propriétés n'ont pas été accessibles et ont été renvoyées avec un type de propriété PT_ERROR.
+> L’appel a réussi globalement, mais une ou plusieurs propriétés n’ont pas pu être accessibles et ont été renvoyées avec un type de propriété PT_ERROR.
     
 ## <a name="remarks"></a>Remarques
 
-Les attributs de propriété ne sont accessibles que sur les objets Property, c'est-à-dire les objets qui implémentent l'interface [IMAPIProp: IUnknown](imapipropiunknown.md) . Pour que les propriétés MAPI soient disponibles sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) crée un objet [IMessage: IMAPIProp](imessageimapiprop.md) en haut de l'objet OLE **IStorage** . Les attributs de propriété sur ces objets peuvent être définis ou modifiés avec [SetAttribIMsgOnIStg](setattribimsgonistg.md) et récupérés avec **GetAttribIMsgOnIStg**. 
+Les attributs de propriété sont accessibles uniquement sur les objets de propriété, c’est-à-dire les objets implémentant l’interface [IMAPIProp : IUnknown.](imapipropiunknown.md) Pour rendre les propriétés MAPI disponibles sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) crée un objet [IMessage : IMAPIProp](imessageimapiprop.md) au-dessus de l’objet **OLE IStorage.** Les attributs de propriété de ces objets peuvent être définies ou modifiées avec [SetAttribIMsgOnIStg](setattribimsgonistg.md) et récupérées avec **GetAttribIMsgOnIStg**. 
   
 > [!NOTE]
-> **GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous les objets **IMessage** . Elles ne sont valides que pour les objets **IMessage**sur le **IStorage** renvoyés par **OpenIMsgOnIStg**. 
+> **GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous les objets **IMessage.** Ils sont uniquement valides pour les objets **IMessage**-on- **IStorage** renvoyés par **OpenIMsgOnIStg**. 
   
-Le nombre et les positions des attributs dans le paramètre _lppPropAttrArray_ correspondent au nombre et aux positions des balises de propriété dans le paramètre _lpPropTagArray_ . 
+Le nombre et les positions des attributs dans le paramètre _lppPropAttrArray_ correspondent au nombre et aux positions des balises de propriété dans le paramètre _lpPropTagArray._ 
   
 

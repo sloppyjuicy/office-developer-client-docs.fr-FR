@@ -1,12 +1,12 @@
 ---
-title: Élément FooterMargin (complexType HeaderFooter_Type) (XML Visio)
+title: Élément FooterMargin (HeaderFooter_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 047f42cf-4202-50bd-40b4-a71052e2dfb3
-description: Spécifie la marge du pied de page d’un document.
+description: Spécifie la marge du pied de document.
 ms.openlocfilehash: 5a147dbb8b94d9077836cb2269dd2ff72dae3b3a
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538661"
 ---
-# <a name="footermargin-element-headerfootertype-complextype-visio-xml"></a>Élément FooterMargin (complexType HeaderFooter_Type) (XML Visio)
+# <a name="footermargin-element-headerfooter_type-complextype-visio-xml"></a>Élément FooterMargin (HeaderFooter_Type complexType) (Visio XML)
 
-Spécifie la marge du pied de page d’un document.
+Spécifie la marge du pied de document.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -24,8 +24,8 @@ Spécifie la marge du pied de page d’un document.
 |:-----|:-----|
 |**Type d’élément** <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |document. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,13 +36,13 @@ Spécifie la marge du pied de page d’un document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de page d’un document.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,6 +52,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Unit  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente une unité de mesure. La valeur par défaut est dans.  <br/> |Valeurs du type xsd: String.  <br/> |
+|Unit  <br/> |xsd:string  <br/> |facultatif  <br/> |Représente une unité de mesure. La valeur par défaut est IN.  <br/> |Valeurs du type xsd:string.  <br/> |
    
 
