@@ -27,20 +27,20 @@ Identifie l’icône qui s’affiche en regard d’une option de menu contextuel
 
 La chaîne contenue dans la cellule ButtonFace représente l'ID d'une image de bouton Microsoft Office. Une valeur de zéro (0) ou vide indique qu'aucune icône ne s'affiche. 
   
-Les ID utilisables dans la cellule ButtonFace sont les mêmes que ceux utilisés avec la propriété **FaceID** d'un objet **CommandBarButton**. Pour plus d'informations sur ces ID, recherchez «utilisation des images de boutons de la barre de commandes» sur MSDN. 
+Les ID utilisables dans la cellule ButtonFace sont les mêmes que ceux utilisés avec la propriété **FaceID** d'un objet **CommandBarButton**. Pour plus d’informations sur ces ID, recherchez « Working with command bar button images » sur MSDN. 
   
 Pour obtenir une référence à la cellule ButtonFace à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |**Actions**.  *nom* . **ButtonFace** où **actions**.  *Name* est le nom de la ligne d'actions  <br/> |
+|Nom de cellule :  <br/> |**Actions**.  *nom*  . **ButtonFace où** **Actions**.  *name*  est le nom de la ligne actions  <br/> |
    
 Pour obtenir une référence à la cellule ButtonFace par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction** +  *i* où **i** = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction**  +   *i* où **i** = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visActionButtonFace** <br/> |
    
 

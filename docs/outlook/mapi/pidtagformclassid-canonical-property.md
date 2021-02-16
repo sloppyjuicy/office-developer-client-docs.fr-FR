@@ -25,30 +25,30 @@ ms.locfileid: "33404756"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur global unique (GUID, globally unique identifier) d'un formulaire 128-bit Object Linking and Embedding (OLE). 
+Contient l’identificateur global unique (GUID) OLE (Object Linking and Embedding) 128 bits d’un formulaire. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_CLSID  <br/> |
 |Identificateur :  <br/> |0x3302  <br/> |
 |Type de données :  <br/> |PT_CLSID  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La structure [MAPIUID](mapiuid.md) contient la définition de l'identificateur unique. 
+La structure [MAPIUID](mapiuid.md) contient la définition de l’identificateur unique. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

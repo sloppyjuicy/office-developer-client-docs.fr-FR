@@ -25,7 +25,7 @@ ms.locfileid: "33424615"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Désigne un conteneur particulier comme carnet d'adresses personnel (PAB).
+Désigne un conteneur particulier en tant que carnet d’adresses personnel (PAB).
   
 ```cpp
 HRESULT SetPAB(
@@ -38,25 +38,25 @@ HRESULT SetPAB(
 
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée du conteneur à désigner comme PAB. Le paramètre _lpEntryID_ ne peut pas être null. 
+> [in] Pointeur vers l’identificateur d’entrée du conteneur à désigner en tant que PAB. Le  _paramètre lpEntryID_ ne peut pas être NULL. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le conteneur spécifié a été défini en tant que PAB.
+> Le conteneur spécifié a été établi en tant que PAB.
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent la méthode **SetPAB** pour désigner un conteneur particulier comme PAB. Le PAB est un conteneur qui se compose d'entrées copiées à partir d'autres conteneurs, ainsi que de nouvelles entrées. 
+Les clients et les fournisseurs de services appellent la **méthode SetPAB** pour désigner un conteneur particulier en tant que PAB. Le PAB est un conteneur qui se compose d’entrées copiées à partir d’autres conteneurs, ainsi que de nouvelles entrées. 
   
-Un appel à **SetPAB** établit un conteneur en tant que PAB jusqu'à ce que ce conteneur soit rendu indisponible ou qu'un nouveau conteneur devienne le PAB via un appel ultérieur à **SetPAB**. 
+Un appel à **SetPAB** établit un conteneur en tant que PAB jusqu’à ce que ce conteneur soit rendu indisponible ou qu’un nouveau conteneur devienne le PAB via un appel ultérieur à **SetPAB**. 
   
-Les clients et les fournisseurs n'ont pas besoin d'appeler la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) pour que le carnet d'un PAB change de façon permanente. 
+Les clients et fournisseurs n’ont pas besoin d’appeler la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour rendre la modification du PAB permanente. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -64,7 +64,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|AbContDlg. cpp  <br/> |CAbContDlg:: OnSetPAB  <br/> |MFCMAPI utilise la méthode **SetPAB** pour définir le conteneur spécifié comme PAB.  <br/> |
+|AbContDlg.cpp  <br/> |CAbContDlg::OnSetPAB  <br/> |MFCMAPI utilise la **méthode SetPAB** pour faire du conteneur spécifié le PAB.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

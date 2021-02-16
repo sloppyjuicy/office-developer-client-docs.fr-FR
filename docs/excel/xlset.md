@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSet
 keywords:
-- fonction xlSet [Excel 2007]
+- fonction xlset [excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33404602"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Place les valeurs constantes dans des cellules ou des plages très rapidement. Pour plus d'informations, voir «xlSet et classeurs avec des formules matricielles» dans [problèmes connus dans le développement XLL Excel](known-issues-in-excel-xll-development.md).
+Place très rapidement des valeurs constantes dans des cellules ou des plages. Pour plus d’informations, voir « xlSet et workbooks with Array Formulas » dans [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
@@ -32,35 +32,35 @@ Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 
 _pxReference_ (**xltypeRef** ou **xltypeSRef**)
   
-Référence rectangulaire décrivant la ou les cellules cibles. La référence doit décrire les cellules adjacentes, de sorte que dans un **xltypeRef** `val.mref.lpmref->count` doit être défini sur 1. 
+Référence rectangulaire décrivant la ou les cellules cibles. La référence doit décrire les cellules adjacentes, de sorte que dans un **xltypeRef** `val.mref.lpmref->count` doit être définie sur 1. 
   
 _pxValue_
   
-Valeur ou valeurs à placer dans la ou les cellules. Pour plus d'informations, reportez-vous à la section «Remarques».
+Valeur ou valeur à placer dans la ou les cellules. Pour plus d’informations, voir la section « Remarques ».
   
 ## <a name="remarks"></a>Remarques
 
-### <a name="pxvalue-argument"></a>argument pxValue
+### <a name="pxvalue-argument"></a>Argument pxValue
 
-_pxValue_ peut être une valeur ou un tableau. S'il s'agit d'une valeur, la plage de destination entière est remplie avec cette valeur. S'il s'agit d'un tableau (**xltypeMulti**), les éléments du tableau sont placés dans les emplacements correspondants dans le rectangle.
+_pxValue peut_ être une valeur ou un tableau. S’il s’agit d’une valeur, la plage de destination entière est remplie avec cette valeur. S’il s’agit d’un tableau (**xltypeMulti**), les éléments du tableau sont placés aux emplacements correspondants dans le rectangle.
   
-Si vous utilisez une matrice horizontale pour le deuxième argument, celle-ci est dupliquée pour remplir le rectangle entier. Si vous utilisez un tableau vertical, il est dupliqué de façon à ce qu'il remplisse tout le rectangle. Si vous utilisez un tableau rectangulaire et qu'il est trop petit pour la plage rectangulaire dans laquelle vous souhaitez l'insérer, cette plage est remplie avec **#N/a**s.
+Si vous utilisez un tableau horizontal pour le deuxième argument, il est dupliqué vers le bas pour remplir tout le rectangle. Si vous utilisez un tableau vertical, il est dupliqué à droite pour remplir le rectangle entier. Si vous utilisez un tableau rectangulaire et qu’il est trop petit pour la plage rectangulaire que vous souhaitez y placer, cette plage est ajoutée avec des **#N/A.**
   
-Si la plage cible est plus petite que la matrice source, les valeurs sont copiées dans les limites maximales de la plage cible et les données supplémentaires sont ignorées.
+Si la plage cible est plus petite que le tableau source, les valeurs sont copiées dans les limites de la plage cible et les données supplémentaires sont ignorées.
   
-Pour effacer un élément du rectangle de destination, utilisez un élément de tableau de types **xltypeNil** dans le tableau source. Pour effacer tout le rectangle de destination, omettez le deuxième argument. 
+Pour effacer un élément du rectangle de destination, utilisez un élément de tableau de type **xltypeNil** dans le tableau source. Pour effacer l’intégralité du rectangle de destination, omettez le deuxième argument. 
   
 ### <a name="restrictions"></a>Restrictions
 
-**xlSet** ne peut pas être annuler. En outre, il détruit toutes les informations d'annulation qui ont pu être disponibles. 
+**XlSet ne** peut pas être annulé. En outre, il détruit toutes les informations d’annuler qui auraient pu être disponibles auparavant. 
   
-**xlSet** ne peut placer que des constantes, et non des formules, dans des cellules. 
+**XlSet peut** placer uniquement des constantes, et non des formules, dans les cellules. 
   
-**xlSet** se comporte comme une fonction équivalente à une commande de classe 3; autrement dit, il est disponible uniquement à l'intérieur d'une DLL lorsque la DLL est appelée à partir d'un objet, d'une macro, d'un menu, d'une barre d'outils, d'une touche de raccourci ou du bouton **exécuter** dans la boîte de dialogue **macro** (accessible à partir de l'onglet **affichage** du ruban à partir d'Excel 2007, ainsi que les **Outils **menu dans les versions antérieures). 
+**xlSet se** comporte comme une fonction équivalente à une commande de classe 3 ; autrement dit, elle est disponible uniquement à l’intérieur d’une DLL lorsque la DLL  est appelée à partir d’un  objet, d’une macro, d’un menu, d’une barre d’outils, d’une touche de raccourci ou du bouton Exécuter dans la boîte de dialogue **Macro** (accessible à partir de l’onglet Affichage du ruban à partir d’Excel 2007 et du **menu** Outils dans les versions antérieures). 
   
 ## <a name="example"></a>Exemple
 
-L'exemple suivant remplit B205: B206 avec la valeur qui a été transmise à partir d'une macro. Cet exemple de fonction Command requiert un argument et ne fonctionnera que s'il est appelé à partir d'une feuille macro XLM ou à partir d'un module VBA à l'aide de la méthode **application. Run** . 
+L’exemple suivant remplit B205:B206 avec la valeur transmise à partir d’une macro. Cet exemple de fonction de commande nécessite un argument et fonctionne uniquement s’il est appelé à partir d’une feuille macro XLM ou d’un module VBA à l’aide de la méthode **Application.Run.** 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

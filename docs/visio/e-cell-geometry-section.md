@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule E par un nom à partir d'une autre fo
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Géométrie *i* . E *j* où *i* et *j* = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Geometry  *i*  . E  *j*            où  *i*  et  *j*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule E à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionFirstComponent** +  *i* où *i* = 0, 1, 2...  <br/> |
-| Index de la ligne :  <br/> |**visRowVertex** +  *j* où *j* = 0, 1, 2...  <br/> |
+| Index de la section :  <br/> |**visSectionFirstComponent**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowVertex**  +   *j* où *j* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visNURBSData** <br/> |
    
 

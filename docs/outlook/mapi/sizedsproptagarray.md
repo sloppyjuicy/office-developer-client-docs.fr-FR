@@ -23,12 +23,12 @@ ms.locfileid: "33429347"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure [SPropTagArray](sproptagarray.md) nommée qui inclut un nombre spécifié de balises de propriété. 
+Crée une structure [nommée SPropTagArray](sproptagarray.md) qui inclut un nombre spécifié de balises de propriété. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SPropTagArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 SizedSPropTagArray (_ctag, _name)
@@ -36,19 +36,19 @@ SizedSPropTagArray (_ctag, _name)
 
 ## <a name="parameters"></a>Paramètres
 
-__CTAG_
+_ _ctag_
   
 > Nombre de balises de propriété à inclure dans la nouvelle structure.
     
-__nom_
+_ _name_
   
 > Nom de la nouvelle structure.
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la macro **SizedSPropTagArray** pour créer un tableau de balises de propriété avec des limites explicites. 
+Utilisez la macro **SizedSPropTagArray pour créer** un tableau de balises de propriétés avec des limites explicites. 
   
-Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropTagArray** en tant que pointeur vers une structure **SPropTagArray** , effectuez la conversion suivante: 
+Pour utiliser la nouvelle structure qui résulte de la macro **SizedSPropTagArray** comme pointeur vers une structure **SPropTagArray,** effectuez la distribution suivante : 
   
 ```cpp
 lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;

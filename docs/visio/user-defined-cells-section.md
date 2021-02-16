@@ -22,9 +22,9 @@ Zone de travail pour l'entrée de formules dans des cellules spéciales, suscept
   
 ## <a name="remarks"></a>Remarques
 
-Comme la section [Scratch](scratch-section.md) , la section **User-Defined Cells** peut être utilisée par votre solution de différentes manières. L'avantage de la section **cellules définies par l'utilisateur** est que les cellules peuvent être nommées; les cellules de la section **Scratch** ne peuvent pas être nommées. 
+Comme la section [Scratch,](scratch-section.md) la section **Cellules** définies par l’utilisateur peut être utilisée par votre solution de différentes manières. L’avantage de la section **Cellules définies par** l’utilisateur est que les cellules peuvent être nommées ; les cellules de la section **Scratch** ne peuvent pas être nommées. 
   
-Si votre solution a un objectif bien défini, il est recommandé d'utiliser les cellules de la section **cellules définies** par l'utilisateur pour des raisons de clarté, car il est possible de nommer les cellules utilisateur. La section **Scratch** est généralement utilisée pour isoler les calculs complexes répétés. 
+Si votre solution a un objectif bien défini, il est suggéré d’utiliser des cellules dans la section **Cellules** définies par l’utilisateur pour plus de clarté, car les cellules Utilisateur peuvent être nommées. La section **Scratch** est généralement utilisée pour isoler les calculs complexes répétés. 
   
 Pour ajouter cette section, utilisez la boîte de dialogue **Insérer une section** (cliquez avec le bouton droit dans la fenêtre Feuille ShapeSheet et cliquez sur **Insérer une section**).
   

@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule PageScale à l'aide d'un index à par
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPage** <br/> |
 |Index de la cellule :  <br/> |**visPageScale** <br/> |
    

@@ -19,73 +19,73 @@ ms.locfileid: "33408025"
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour afficher un indicateur de progression, appelez [méthode imapiprogress:: GetFlags](imapiprogress-getflags.md) pour extraire le paramètre Current Flags. 
+Pour afficher un indicateur de progression, appelez [IMAPIProgress::GetFlags](imapiprogress-getflags.md) pour récupérer le paramètre d’indicateurs actuel. 
   
-Si l'indicateur MAPI_TOP_LEVEL est défini, procédez comme suit:
+Si l’MAPI_TOP_LEVEL est définie, complétez les étapes suivantes :
   
-1. Définissez une variable égale au nombre total d'éléments à traiter dans l'opération. Par exemple, si vous copiez le contenu d'un dossier, cette valeur est égale au nombre de sous-dossiers dans le dossier, suivi du nombre de messages. 
+1. Définir une variable égale au nombre total d’éléments à traiter dans l’opération. Par exemple, si vous copiez le contenu d’un dossier, cette valeur est égale au nombre de sous-dossiers du dossier plus le nombre de messages. 
     
-2. Définissez une variable égale à 1000 divisée par le nombre d'éléments. 
+2. Définissez une variable sur 1 000 divisé par le nombre d’éléments. 
     
-3. Si vous affichez la progression des sous-objets, appelez la méthode [méthode imapiprogress:: SetLimits](imapiprogress-setlimits.md) de l'objet Progress et transmettez les valeurs suivantes pour les trois paramètres: 
+3. Si vous indiquez la progression des sous-objets, appelez la méthode [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) de l’objet de progression et passez les valeurs suivantes pour les trois paramètres : 
     
-   - Définissez le paramètre _lpulMin_ sur 0. 
+   - Définissez  _le paramètre lpulMin_ sur 0. 
     
-   - Définissez le paramètre _lpulMax_ sur 1000. 
+   - Définissez  _le paramètre lpulMax_ sur 1000. 
     
-   - Définissez le paramètre _lpulFlags_ sur MAPI_TOP_LEVEL. 
+   - Définissez  _le paramètre lpulFlags_ sur MAPI_TOP_LEVEL. 
     
-4. Pour chaque objet à traiter, procédez comme suit:
+4. Pour chaque objet à traiter, effectuer les étapes suivantes :
     
-   1. Appelez **méthode imapiprogress:: SetLimits** et transmettez les valeurs suivantes pour les trois paramètres: 
+   1. Appelez **IMAPIProgress::SetLimits** et passez les valeurs suivantes pour les trois paramètres : 
       
-     - Définissez le paramètre _lpulMin_ sur la variable définie à l'étape 2 multipliée par l'élément actuel moins 1. 
+     - Définissez  _le paramètre lpulMin_ sur la variable définie à l’étape 2 multipliée par l’élément actuel moins 1. 
       
-     - Définissez le paramètre _lpulMax_ sur la variable définie à l'étape 2 multipliée par l'objet actif. 
+     - Définissez  _le paramètre lpulMax_ sur la variable définie à l’étape 2 multipliée par l’objet actuel. 
       
-     - Définissez le paramètre _lpulFlags_ sur 0. 
+     - Définissez  _le paramètre lpulFlags_ sur 0. 
       
-   2. Exécutez le traitement qui doit être effectué sur cet objet. S'il s'agit d'un sous-objet et que vous souhaitez afficher la progression des sous-objets, transférez un pointeur vers l'objet Progress dans le paramètre _lpProgress_ vers la méthode. 
+   2. Effectuez tout traitement à effectuer sur cet objet. S’il s’agit d’un sous-objet et que vous souhaitez afficher la progression sur les sous-objets, passez un pointeur vers l’objet de progression dans le paramètre  _lpProgress_ à la méthode. 
       
-   3. Appelez [méthode imapiprogress::P rogress](imapiprogress-progress.md) et transmettez les valeurs suivantes pour les trois paramètres: 
+   3. Appelez [IMAPIProgress::P rogress](imapiprogress-progress.md) et passez les valeurs suivantes pour les trois paramètres : 
       
-     - Définissez le paramètre _ulValue_ sur la variable définie à l'étape 2 multipliée par l'objet actif. 
+     - Définissez  _le paramètre ulValue_ sur la variable définie à l’étape 2 multipliée par l’objet actuel. 
       
-     - Définissez le paramètre _ulCount_ sur l'objet actif. 
+     - Définissez  _le paramètre ulCount_ sur l’objet actuel. 
       
-     - Définissez le paramètre _ulTotal_ sur la variable définie à l'étape 1, le nombre total d'objets. 
+     - Définissez  _le paramètre ulTotal_ sur la variable définie à l’étape 1, le nombre total d’objets. 
     
-Si l'indicateur MAPI_TOP_LEVEL n'est pas défini, procédez comme suit:
+Si l’MAPI_TOP_LEVEL n’est pas définie, complétez les étapes suivantes :
   
-1. Appelez la méthode [méthode imapiprogress:: GetMin](imapiprogress-getmin.md) de l'objet de progression pour extraire la valeur minimale pour l'affichage. 
+1. Appelez la méthode [IMAPIProgress::GetMin](imapiprogress-getmin.md) de l’objet de progression pour récupérer la valeur minimale de l’affichage. 
     
-2. Appelez [méthode imapiprogress:: GetMax](imapiprogress-getmax.md) pour récupérer la valeur maximale de l'affichage. 
+2. Appelez [IMAPIProgress::GetMax](imapiprogress-getmax.md) pour récupérer la valeur maximale de l’affichage. 
     
-3. Définissez une variable égale au nombre total d'objets à traiter. 
+3. Définissez une variable sur le nombre total d’objets à traiter. 
     
-4. Définissez une variable égale au résultat obtenu en soustrayant la valeur minimale de la valeur maximale, puis en divisant le nombre total d'objets.
+4. Définissez une variable sur le résultat de la soustraction de la valeur minimale de la valeur maximale, puis de la division par le nombre total d’objets.
     
-5. Pour chaque objet à traiter, procédez comme suit:
+5. Pour chaque objet à traiter, effectuer les étapes suivantes :
     
-   1. Si votre fournisseur affiche la progression des sous-objets, appelez **méthode imapiprogress:: SetLimits** et transmettez les valeurs suivantes pour les trois paramètres: 
+   1. Si votre fournisseur affiche la progression des sous-objets, appelez **IMAPIProgress::SetLimits** et passez les valeurs suivantes pour les trois paramètres : 
       
-     - Définissez le paramètre _lpulMin_ sur la valeur minimale plus l'élément actif moins 1 multiplié par la variable définie à l'étape 4. 
+     - Définissez  _le paramètre lpulMin_ sur la valeur minimale plus l’élément actuel moins 1 multiplié par la variable définie à l’étape 4. 
       
-     - Définissez le paramètre _lpulMax_ sur la valeur minimale plus l'unité actuelle multipliée par la variable définie à l'étape 4. 
+     - Définissez  _le paramètre lpulMax_ sur la valeur minimale plus l’unité actuelle multipliée par la variable définie à l’étape 4. 
       
-     - Définissez le paramètre _lpulFlags_ sur 0. 
+     - Définissez  _le paramètre lpulFlags_ sur 0. 
       
-   2. Exécutez le traitement qui doit être effectué sur cet objet. Si l'objet est un sous-objet et que votre fournisseur affiche la progression des sous-objets, transmettez un pointeur vers l'objet Progress dans le paramètre _lpProgress_ à la méthode. 
+   2. Effectuez tout traitement à effectuer sur cet objet. Si l’objet est un sous-objet et que votre fournisseur affiche la progression des sous-objets, passez un pointeur vers l’objet de progression dans le paramètre  _lpProgress_ à la méthode. 
       
-   3. Appelez [méthode imapiprogress::P rogress](imapiprogress-progress.md) et transmettez les valeurs suivantes pour les trois paramètres: 
+   3. Appelez [IMAPIProgress::P rogress](imapiprogress-progress.md) et passez les valeurs suivantes pour les trois paramètres : 
       
-     - Définissez le paramètre _ulValue_ sur variable définie à l'étape 2 multipliée par l'objet actif. 
+     - Définissez  _le paramètre ulValue_ sur un jeu de variables à l’étape 2 multiplié par l’objet actuel. 
       
-     - Définissez le paramètre _ulCount_ sur 0. 
+     - Définissez  _le paramètre ulCount_ sur 0. 
       
-     - Définissez le paramètre _ulTotal_ sur 0. 
+     - Définissez  _le paramètre ulTotal_ sur 0. 
     
-L'exemple de code suivant illustre la logique requise pour afficher la progression à tous les niveaux d'une opération qui copie le contenu d'un dossier contenant cinq sous-dossiers. 
+L’exemple de code suivant illustre la logique requise pour afficher la progression à tous les niveaux d’une opération qui copie le contenu d’un dossier qui contient cinq sous-dossiers. 
   
 ```cpp
 lpProgress->GetFlags (lpulFlags);

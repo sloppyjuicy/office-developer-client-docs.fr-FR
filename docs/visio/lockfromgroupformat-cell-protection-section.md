@@ -15,7 +15,7 @@ ms.locfileid: "33426057"
 ---
 # <a name="lockfromgroupformat-cell-protection-section"></a>LockFromGroupFormat, cellule (section Protection)
 
-Bloque la propagation des modifications apportées à une forme de groupe à ses formes subordonnées, tout en permettant aux utilisateurs de mettre directement en forme les sous-formes sélectionnées. 
+Bloque la propagation des modifications de format d’une forme de groupe à ses sous-formes, tout en permettant aux utilisateurs de mettre en forme les sous-formes sélectionnées directement. 
   
 La valeur de la cellule LockFromGroupFormat correspond au paramétrage de la case à cocher **Contre la mise en forme de groupe** de la boîte de dialogue **Protection**. 
   
@@ -31,7 +31,7 @@ Pour faire référence à la cellule LockFromGroupFormat par index dans un progr
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowLock** <br/> |
 |Index de la cellule :  <br/> |**visLockFromGroupFormat** <br/> |
    

@@ -25,22 +25,22 @@ ms.locfileid: "33404413"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette interface fournit des fonctionnalités d'assistance lors de l'exécution de la réplication via l'interface IOSTX.
+Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface IOSTX.
   
 |||
 |:-----|:-----|
 |Fourni par  <br/> |Requête sur [IMsgStore](imsgstoreimapiprop.md) <br/> |
-|Identificateur de l'interface:  <br/> |IID_IPSTX6  <br/> |
+|Identificateur d’interface :  <br/> |IID_IPSTX6  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 |**[DisconnectStore](ipstx6-disconnectstore.md)** <br/> |Déconnecte le magasin local.  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

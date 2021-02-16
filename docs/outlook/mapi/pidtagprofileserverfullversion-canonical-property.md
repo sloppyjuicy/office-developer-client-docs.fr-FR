@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9456178e9426d7a5fe17382d876f507daa0251f4
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "32341600"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la version complète et les informations de création relatives au serveur Microsoft Exchange auquel les comptes d'un profil sont connectés.
+Spécifie la version complète et les informations de build sur les Microsoft Exchange Server les comptes d’un profil sont connectés.
   
 ## 
 
@@ -29,22 +29,22 @@ Spécifie la version complète et les informations de création relatives au ser
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROFILE_SERVER_FULL_VERSION  <br/> |
 |Identificateur :  <br/> |0x663B  <br/> |
-|Type de propriété:  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Configuration du profil MAPI  <br/> |
+|Type de propriété :  <br/> |PT_BINARY  <br/> |
+|Domaine :  <br/> |Configuration de profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un profil peut spécifier un ou plusieurs comptes qui se connectent à un serveur Exchange, mais ils doivent être connectés au même serveur Exchange.
+Un profil peut spécifier un ou plusieurs comptes qui se connectent à un Exchange Server, mais ils doivent être connectés au même Exchange Server.
   
-Les versions d'Outlook antérieures à Microsoft Office Outlook 2007 ne prennent pas en charge cette propriété. Pour ces versions d'Outlook, vérifiez l'existence de **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** dans le profil. 
+Les versions d’Outlook antérieures Microsoft Office Outlook 2007 ne la prise en charge. Pour ces versions d’Outlook, vérifiez l’existence de **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** dans le profil. 
   
-En règle générale, si la boîte aux lettres active est connectée à un serveur Exchange, Outlook 2007 stocke les informations de version d'Exchange Server dans la propriété **PR_PROFILE_SERVER_FULL_VERSION** du profil actif. Outlook stocke les informations dans une structure **EXCHANGE_STORE_VERSION_NUM** qui contient les numéros de version principale et secondaire, ainsi que les numéros de build principaux et secondaires. Par exemple, pour stocker l'identificateur de version d'Exchange Server **8.0.685.24**, le numéro de version majeure est 8 et le numéro de version mineure est 0 et le numéro de build majeur est 685 et le numéro de build mineur est 24.
+En règle générale, si la boîte aux lettres active est connectée à un Exchange Server, Outlook 2007 stocke des informations complètes sur la version Exchange Server la propriété **PR_PROFILE_SERVER_FULL_VERSION** dans le profil actif. Outlook stocke les informations dans une structure **EXCHANGE_STORE_VERSION_NUM** qui contient les numéros de version principaux et mineurs, ainsi que les numéros de build principaux et mineurs. Par exemple, pour stocker l’identificateur de version Exchange Server de **8.0.685.24,** le numéro de version principal est 8 et le numéro de version mineure est 0, et le numéro de build principal est 685 et le numéro de build mineure est 24.
   
-Seul un des **PR_PROFILE_SERVER_VERSION** ou **PR_PROFILE_SERVER_FULL_VERSION** est susceptible d'exister dans un profil, mais il n'existe aucune garantie qui existe toujours dans un profil. Outlook ne peut pas écrire dans l'une ou l'autre des propriétés tant qu'il n'a pas réussi à se connecter au serveur Exchange. 
+Une seule **des** PR_PROFILE_SERVER_VERSION ou **PR_PROFILE_SERVER_FULL_VERSION** est susceptible d’exister dans un profil, mais il n’existe aucune garantie qu’il existe toujours dans un profil. Outlook n’écrit dans aucune des propriétés tant qu’il ne s’est pas connecté au Exchange Server. 
   
-Dans le modèle objet Outlook, vous pouvez utiliser la propriété **ExchangeMailboxServerVersion** de l'objet **namespace** pour rechercher la version d'Exchange Server sur laquelle la boîte aux lettres active est hébergée. 
+Dans le modèle objet Outlook, vous pouvez utiliser la propriété **ExchangeMailboxServerVersion** de l’objet **NameSpace** pour rechercher la version de Exchange Server sur laquelle la boîte aux lettres active est hébergée. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
@@ -52,15 +52,15 @@ Dans le modèle objet Outlook, vous pouvez utiliser la propriété **ExchangeMai
   
 > Fournit des définitions de jeu de propriétés.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

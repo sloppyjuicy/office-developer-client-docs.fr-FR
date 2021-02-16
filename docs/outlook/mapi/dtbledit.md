@@ -25,12 +25,12 @@ ms.locfileid: "33404679"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit un contrôle d'édition qui sera utilisé dans une boîte de dialogue construite à partir d'une table d'affichage.
+Décrit un contrôle d’édition qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Macro connexe:  <br/> |[SizedDtblEdit](sizeddtbledit.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Macro associée :  <br/> |[SizedDtblEdit](sizeddtbledit.md) <br/> |
    
 ```cpp
 typedef struct _DTBLEDIT
@@ -47,39 +47,39 @@ typedef struct _DTBLEDIT
 
  **ulbLpszCharsAllowed**
   
-> Offset entre le début de la structure **DTBLEDIT** et un filtre de chaîne de caractères qui décrit les restrictions, le cas échéant, des caractères pouvant être entrés dans le contrôle d'édition. Le filtre n'est pas interprété comme une expression régulière et le même filtre est appliqué à tous les caractères entrés. Le format du filtre est le suivant: 
+> Décalage entre le début de la structure **DTBLEDIT** et un filtre de chaîne de caractères qui décrit les restrictions, le casque, et les caractères qui peuvent être entrés dans le contrôle d’édition. Le filtre n’est pas interprété comme une expression régulière et le même filtre est appliqué à chaque caractère entré. Le format du filtre est le suivant : 
     
 |**Caractère**|**Description**|
 |:-----|:-----|
-| `*` <br/> |N'importe quel caractère est autorisé (par `"*"`exemple,).  <br/> |
-| `[ ]` <br/> |Définit un jeu de caractères (par exemple, `"[0123456789]".`)  <br/> |
-| `-` <br/> |Indique une plage de caractères (par exemple, `"[a-z]"`).  <br/> |
-| `~` <br/> |Indique que ces caractères ne sont pas autorisés (par exemple `"[~0-9]"`,).  <br/> |
-| `\` <br/> |Utilisé pour citer tous les symboles précédents (par exemple, `"[\-\\\[\]]"` les caractères «, \, » et «») sont autorisés.  <br/> |
+| `*` <br/> |Tout caractère est autorisé (par exemple,  `"*"` ).  <br/> |
+| `[ ]` <br/> |Définit un ensemble de caractères (par exemple,  `"[0123456789]".` )  <br/> |
+| `-` <br/> |Indique une plage de caractères (par exemple,  `"[a-z]"` ).  <br/> |
+| `~` <br/> |Indique que ces caractères ne sont pas autorisés (par exemple,  `"[~0-9]"` ).  <br/> |
+| `\` <br/> |Utilisé pour guillemets l’un des symboles précédents (par exemple, les caractères  `"[\-\\\[\]]"` -, \, [et ] sont autorisés).  <br/> |
    
  **ulFlags**
   
-> Masque de des indicateurs utilisé pour désigner le format du filtre de caractères. L'indicateur suivant peut être défini:
+> Masque de bits d’indicateurs utilisés pour désigner le format du filtre de caractères. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE
   
-> Le filtre est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, le filtre est au format ANSI.
+> Le filtre est au format Unicode. Si l MAPI_UNICODE n’est pas définie, le filtre est au format ANSI.
     
  **ulNumCharsAllowed**
   
-> Nombre maximal de caractères que l'utilisateur peut entrer dans la zone de texte.
+> Nombre maximal de caractères que l’utilisateur peut taper dans la zone de texte.
     
  **ulPropTag**
   
-> Balise de propriété pour une propriété de type PT_TSTRING. Le membre **ulPropTag** identifie la propriété de chaîne dont les données sont affichées et modifiées dans le contrôle d'édition. 
+> Balise de propriété pour une propriété de type PT_TSTRING. Le **membre ulPropTag** identifie la propriété de chaîne dont les données sont affichées et modifiées dans le contrôle d’édition. 
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLEDIT** décrit un contrôle d'édition d'une zone dans une boîte de dialogue qui contient des informations alphanumériques. Presque toutes les boîtes de dialogue possèdent au moins un contrôle d'édition. Les contrôles d'édition peuvent être modifiables par un utilisateur ou en lecture seule. 
+Une structure **DTBLEDIT décrit** un contrôle d’édition d’une zone dans une boîte de dialogue qui contient des informations alphanumériques. Presque toutes les boîtes de dialogue ont au moins un contrôle d’édition. Les contrôles d’édition peuvent être modifiables par un utilisateur ou en lecture seule. 
   
-Les contrôles d'édition peuvent également être à ligne unique ou multiligne. Les contrôles d'édition multiligne ont généralement une barre de défilement associée. 
+Les contrôles d’édition peuvent également être de ligne unique ou multiligne. Les contrôles d’édition multiligne sont généralement associés à une barre de défilement. 
   
-Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
+Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

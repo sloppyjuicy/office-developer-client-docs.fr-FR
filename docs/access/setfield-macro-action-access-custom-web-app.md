@@ -1,5 +1,5 @@
 ---
-title: SetField, action de macro (application Web personnalisée Access)
+title: SetField Macro Action (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432925"
 ---
-# <a name="setfield-macro-action-access-custom-web-app"></a>SetField, action de macro (application Web personnalisée Access)
+# <a name="setfield-macro-action-access-custom-web-app"></a>SetField Macro Action (Access custom web app)
 
 L'action **DéfinirChamp** peut être utilisée pour assigner une valeur à un champ. 
   
@@ -31,10 +31,10 @@ L’action **DéfinirChamp** utilise les arguments répertoriés dans le tableau
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
 |**Nom** <br/> |Chaîne qui identifie le champ.  <br/> |
-|**Valeur** <br/> |Expression qui spécifie la valeur à assigner au champ.  <br/> |
+|**Valeur** <br/> |Expression qui spécifie la valeur à affecter au champ.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L'action **SetField** ne peut pas être utilisée en dehors d'un bloc de données **[CréerEnregistrement](createrecord-data-block-access-custom-web-app.md)** ou **[EditRecord](editrecord-data-block-access-custom-web-app.md)** . 
+**L’action DéfinirField** ne peut pas être utilisée en dehors d’un bloc de données **[CreateRecord](createrecord-data-block-access-custom-web-app.md)** ou **[EditRecord.](editrecord-data-block-access-custom-web-app.md)** 
   
 

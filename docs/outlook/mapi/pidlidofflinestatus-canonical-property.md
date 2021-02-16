@@ -25,13 +25,13 @@ ms.locfileid: "33418833"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine l'état d'un fichier de document sur un serveur qui implémente [MS-LISTSWS].
+Détermine l’état d’un fichier de document sur un serveur qui implémente [MS-LISTSWS].
   
 |||
 |:-----|:-----|
 |Propriétés associées  <br/> |dispidOfflineStatus  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x000085B9  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x000085B9  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Messagerie générale  <br/> |
    
@@ -41,11 +41,11 @@ Le tableau suivant indique les valeurs possibles de cette propriété.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0  <br/> |Le document n'est pas extrait.  <br/> |
-|0,1  <br/> |Le document est extrait pour l'utilisateur actuel.  <br/> |
-|n°2  <br/> |Le document n'est pas extrait, mais l'utilisateur actuel dispose d'une copie du fichier enregistré pour modification sur l'ordinateur actuel.  <br/> |
+|0  <br/> |Le document n’est pas extrait.  <br/> |
+|1   <br/> |Le document est extrait pour l’utilisateur actuel.  <br/> |
+|2   <br/> |Le document n’est pas extrait, mais l’utilisateur actuel dispose d’une copie du fichier enregistrée pour modification sur l’ordinateur actuel.  <br/> |
    
-Cette propriété est calculée localement et n'est pas envoyée à un serveur à tout moment, sauf si l'utilisateur fait glisser l'élément vers un autre compte. Dans ce cas, elle est traitée comme une propriété personnalisée définie par l'utilisateur.
+Cette propriété est calculée localement et n’est pas envoyée à un serveur à tout moment, sauf si un utilisateur fait glisser l’élément vers un autre compte. Dans ce cas, il est traité comme une propriété personnalisée définie par l’utilisateur.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -53,11 +53,11 @@ Cette propriété est calculée localement et n'est pas envoyée à un serveur �
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

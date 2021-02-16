@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408123"
 ---
-# <a name="acctbin"></a>ACCT_BIN
+# <a name="acct_bin"></a>ACCT_BIN
 
 Une variable de ce type de données contient une valeur binaire.
   
@@ -32,10 +32,10 @@ typedef struct {
 
 _cb_
   
-> Nombre d'octets vers lesquels pointe _PB_ . 
+> Nombre d’octets vers _qui pointe le pb._ 
     
 _pb_
   
-> Pointeur vers des informations binaires.
+> Pointeur vers les informations binaires.
     
 

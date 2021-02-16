@@ -25,12 +25,12 @@ ms.locfileid: "33420254"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [SMAPIFormPropArray](smapiformproparray.md) existante qui contient un nombre spécifié de structures [SMAPIFormProp](smapiformprop.md) . 
+Calcule le nombre d’octets dans une structure [SMAPIFormPropArray](smapiformproparray.md) existante qui contient un nombre spécifié de structures [SMAPIFormProp.](smapiformprop.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Structure associée:  <br/> |**SMAPIFormPropArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Structure connexe :  <br/> |**SMAPIFormPropArray** <br/> |
    
 ```cpp
 CbMAPIFormPropArray (_c)
@@ -38,7 +38,7 @@ CbMAPIFormPropArray (_c)
 
 ## <a name="parameters"></a>Paramètres
 
- __c_
+ _ _c_
   
 > Nombre de structures **SMAPIFormProp** dans la structure **SMAPIFormPropArray** en question. 
     

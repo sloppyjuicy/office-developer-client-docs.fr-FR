@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251407
 localization_priority: Normal
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
-description: Renvoie le cosinus d'un angle.
+description: Renvoie le cosine d’un angle.
 ms.openlocfilehash: ee8e2f4a256617c37c4aac7876aa33ae04ab2f97
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33432736"
 ---
 # <a name="cos-function-visioshapesheet"></a>COS Function (VisioShapeSheet)
 
-Renvoie le cosinus d'un angle. 
+Renvoie le cosine d’un angle. 
   
 ## <a name="syntax"></a>Syntaxe
 
-COS ( *angle*) 
+COS( *angle*) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,7 +32,7 @@ COS ( *angle*)
    
 ## <a name="remarks"></a>Remarques
 
-La fonction COS utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *angle* . 
+La fonction COS utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *l’angle.* 
   
 ## <a name="example"></a>Exemple
 

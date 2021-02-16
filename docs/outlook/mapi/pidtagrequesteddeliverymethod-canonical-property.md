@@ -25,7 +25,7 @@ ms.locfileid: "33434073"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient un tableau binaire des méthodes de remise (fournisseurs de services), dans l'ordre de préférence de l'expéditeur d'un message.
+Cette propriété contient un tableau binaire de méthodes de remise (fournisseurs de services), dans l’ordre des préférences de l’expéditeur d’un message.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Cette propriété contient un tableau binaire des méthodes de remise (fournisse
    
 ## <a name="remarks"></a>Remarques
 
-Le tableau contenu dans cette propriété est composé des identificateurs ASN. 1 pour chacun des fournisseurs de services.
+Le tableau contenu dans cette propriété se compose d’identificateurs ASN.1 pour chacun des fournisseurs de services.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

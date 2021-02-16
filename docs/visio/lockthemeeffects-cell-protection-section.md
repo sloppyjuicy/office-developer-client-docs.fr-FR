@@ -17,9 +17,9 @@ ms.locfileid: "33426330"
 ---
 # <a name="lockthemeeffects-cell-protection-section"></a>LockThemeEffects, cellule (section Protection)
 
-Empêche l'application d'effets de thème à la forme. 
+Empêche l’application d’effets de thème à la forme. 
   
-Correspond au paramètre de la case à cocher **à partir des effets du thème** de la boîte de dialogue **protection** . 
+Correspond au paramètre De la case à **cocher Effets** de thème dans la **boîte de dialogue Protection.** 
   
 Pour faire référence à la cellule LockThemeEffects par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -31,7 +31,7 @@ Pour faire référence à la cellule LockThemeEffects par index dans un programm
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowLock** <br/> |
 |Index de la cellule :  <br/> |**visLockThemeEffects** <br/> |
    

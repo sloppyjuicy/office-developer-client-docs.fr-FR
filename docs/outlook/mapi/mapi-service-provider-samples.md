@@ -21,24 +21,24 @@ ms.locfileid: "33420296"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette section contient des exemples de code de trois fournisseurs de services MAPI:
+Cette section contient des exemples de code de trois fournisseurs de services MAPI :
   
 - [Téléchargement des exemples MAPI Outlook](downloading-the-outlook-mapi-samples.md)
     
     Cette rubrique décrit comment télécharger les exemples.
     
-- [Exemple de fournisseur de carnet d'adresses](address-book-provider-sample.md)
+- [Exemple de fournisseur de carnet d’adresses](address-book-provider-sample.md)
     
-    Cet exemple prend en charge un seul conteneur en lecture seule pour les noms d'affichage et les adresses de messagerie, qui sont lus à partir d'un fichier binaire plat.
+    Cet exemple prend en charge un conteneur en lecture seule unique pour les noms complets et les adresses e-mail, qui sont lus à partir d’un fichier binaire plat.
     
-- [Exemple de fournisseur de banque de messages](message-store-provider-sample.md)
+- [Exemple de fournisseur de magasin de messages](message-store-provider-sample.md)
     
-    Cet exemple utilise des annuaires en tant que dossiers et fichiers de documents OLE 2,0 en tant que messages. L'exemple prend en charge toutes les fonctionnalités requises pour une banque de messages par défaut.
+    Cet exemple utilise des répertoires comme dossiers et des fichiers de documents OLE 2.0 en tant que messages. L’exemple prend en charge toutes les fonctionnalités requises pour une magasin de messages par défaut.
     
 - [Exemple de fournisseur de transport](transport-provider-sample.md)
     
     Cet exemple utilise des fichiers et des répertoires pour transmettre et recevoir des messages.
     
-Pour exécuter l'un de ces exemples sur les systèmes d'exploitation Windows 7, Windows Vista, Windows Server 2008, Windows XP ou Windows Server 2003, vous devez d'abord configurer le système d'exécution MAPI. Pour plus d’informations, consultez l’article relatif à la [vue d’ensemble de la programmation MAPI](mapi-programming-overview.md).
+Pour exécuter l’un de ces exemples sur les systèmes d’exploitation Windows 7, Windows Vista, Windows Server 2008, Windows XP ou Windows Server 2003, vous devez d’abord configurer le système d’exploitation MAPI. Pour plus d’informations, consultez l’article relatif à la [vue d’ensemble de la programmation MAPI](mapi-programming-overview.md).
   
 

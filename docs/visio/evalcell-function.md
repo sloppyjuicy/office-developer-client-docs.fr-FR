@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4aa3a1c9-dec9-5eb0-5743-0534c0b3bb5f
-description: Prend une référence à une cellule qui contient une fonction personnalisée, ainsi qu'une ou plusieurs paires nom-valeur à transmettre à la fonction personnalisée en tant qu'arguments (facultatif). Renvoie le résultat calculé de la fonction personnalisée selon les arguments et les valeurs spécifiés.
+description: Prend une référence à une cellule qui contient une fonction personnalisée, ainsi qu’une ou plusieurs paires nom-valeur à transmettre à la fonction personnalisée en tant qu’arguments (facultatif). Renvoie le résultat calculé de la fonction personnalisée en fonction des arguments et valeurs spécifiés.
 ms.openlocfilehash: 4ad6645862d620a36b90e4f46d09588d7e83fcc1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33418903"
 ---
 # <a name="evalcell-function"></a>Fonction EVALCELL
 
-Prend une référence à une cellule qui contient une fonction personnalisée, ainsi qu'une ou plusieurs paires nom-valeur à transmettre à la fonction personnalisée en tant qu'arguments (facultatif). Renvoie le résultat calculé de la fonction personnalisée selon les arguments et les valeurs spécifiés.
+Prend une référence à une cellule qui contient une fonction personnalisée, ainsi qu’une ou plusieurs paires nom-valeur à transmettre à la fonction personnalisée en tant qu’arguments (facultatif). Renvoie le résultat calculé de la fonction personnalisée en fonction des arguments et valeurs spécifiés.
   
 ## <a name="syntax"></a>Syntaxe
 
-EVALCELL (* * *cellRef* * *, [* * *arg1Name, arg1* * *], [* * *arg2Name, arg2* * *],...) 
+EVALCELL(** *cellRef* **,[ ** *arg1Name,arg1* ** ],[ ** *arg2Name,arg2* ** ],...) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -28,9 +28,9 @@ EVALCELL (* * *cellRef* * *, [* * *arg1Name, arg1* * *], [* * *arg2Name, arg2* *
 |:-----|:-----|:-----|:-----|
 | _cellRef_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à la cellule contenant la fonction personnalisée. Les références inter-feuilles sont acceptées.  <br/> |
 | _arg1Name_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom du premier argument à transmettre à la fonction personnalisée. Les espaces sont acceptés.  <br/> |
-| _Arg1_ <br/> |Facultatif  <br/> |**Réelle** <br/> |Valeur du paramètre _Arg1_ .  <br/> |
-| _arg2Name_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom du deuxième argument à transmettre à la fonction personnalisée. Les espaces sont acceptés.  <br/> |
-| _Arg2_ <br/> |Facultatif  <br/> |**Réelle** <br/> |Valeur du paramètre _Arg2_ .  <br/> |
+| _arg1_ <br/> |Facultatif  <br/> |**Varie** <br/> |Valeur du _paramètre arg1._  <br/> |
+| _arg2Name_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom du deuxième argument à passer à la fonction personnalisée. Les espaces sont acceptés.  <br/> |
+| _arg2_ <br/> |Facultatif  <br/> |**Varie** <br/> |Valeur du _paramètre arg2._  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

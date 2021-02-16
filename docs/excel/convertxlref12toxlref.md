@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - ConvertXLRef12ToXLRef
 keywords:
-- fonction ConvertXLRef12ToXLRef [Excel 2007]
+- fonction convertxlref12toxlref [excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33432652"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Tente de convertir un **XLREF12** en **XLREF**.
+Tente de convertir un **xlREF12** en **xlREF**.
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
@@ -40,11 +40,11 @@ Pointeur vers la structure de référence cible dans laquelle la valeur converti
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
- **True** si la conversion a réussi **** , false dans le cas contraire. 
+ **TRUE** si la conversion a réussi, FALSE dans **le** cas contraire. 
   
 ## <a name="remarks"></a>Remarques
 
-La conversion de **XLREF12** vers **XLREF** échoue si la référence fournie fait référence à une partie d'une feuille de calcul Excel 2007 qui n'est pas prise en charge dans les versions antérieures. 
+La conversion de **XLREF12** en **XLREF** échoue si la référence fournie fait référence à une partie d’une feuille de calcul Excel 2007 qui n’est pas prise en charge dans les versions antérieures. 
   
 ## <a name="example"></a>Exemple
 

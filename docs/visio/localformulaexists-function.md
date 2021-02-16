@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60105
 localization_priority: Normal
 ms.assetid: 2b757c8d-7732-0f9b-c836-ef755dd1c673
-description: Indique si la cellule référencée contient une formule locale.
+description: Indique si la cellule référencé contient une formule locale.
 ms.openlocfilehash: bd0a5dafecf1bd8dca1567392d880ecaaa3e0374
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33433289"
 ---
 # <a name="localformulaexists-function"></a>Fonction LOCALFORMULAEXISTS
 
-Indique si la cellule référencée contient une formule locale. 
+Indique si la cellule référencé contient une formule locale. 
   
 ## <a name="syntax"></a>Syntaxe
 
-LOCALFORMULAEXISTS (* * *CellRef* * *) 
+LOCALFORMULAEXISTS (** *cellref* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _CellRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Cellule dans laquelle vous voulez vérifier la présence d’une formule.  <br/> |
+| _cellref_ <br/> |Obligatoire  <br/> |**String** <br/> | Cellule dans laquelle vous voulez vérifier la présence d’une formule.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

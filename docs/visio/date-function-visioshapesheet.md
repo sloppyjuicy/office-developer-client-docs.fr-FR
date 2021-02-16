@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251412
 localization_priority: Normal
 ms.assetid: 2b6c5375-c543-ff2f-f20a-6d92fd65717a
-description: Renvoie la date représentée par l'année, le mois et le jour mis en forme selon le format de date abrégée dans les paramètres régionaux du système. Les valeurs pour l'année, le mois et le jour reflètent le calendrier grégorien.
+description: Renvoie la date représentée par l’année, le mois et le jour formatés en fonction du style de date courte dans les paramètres régionaux du système. Les valeurs de l’année, du mois et du jour reflètent le calendrier grégorien.
 ms.openlocfilehash: 0175c1f06ec3dbdf89774759546c65994d38105e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "32360332"
 ---
 # <a name="date-function-visioshapesheet"></a>DATE Function (VisioShapeSheet)
 
-Renvoie la date représentée par l' *année, le mois* et le *jour* mis en forme selon le format de date abrégée dans les paramètres régionaux du système. Les valeurs pour l' *année*, le *mois* et le *jour* reflètent le calendrier grégorien. 
+Renvoie la date représentée par l’année, le *mois* et le jour formatés en fonction du style de date courte dans les paramètres régionaux du système.  Les valeurs  *de l’année,* *du mois*  et du  *jour*  reflètent le calendrier grégorien. 
   
 ## <a name="syntax"></a>Syntaxe
 
-DATE (* * *année* * *, * * *mois* * *, * * *jour* * *) 
+DATE(** *year* **, ** *month* **, ** *day* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -34,7 +34,7 @@ DATE (* * *année* * *, * * *mois* * *, * * *jour* * *)
    
 ## <a name="example-1"></a>Exemple 1
 
-DATE (1999, 6, 7)
+DATE(1999,6,7)
   
 Renvoie la valeur représentant le 07/06/99.
   
@@ -46,7 +46,7 @@ Renvoie la valeur représentant 11/06/99.
   
 ## <a name="example-3"></a>Exemple 3
 
-FORMAT (DATE (1999, 10, 14), «C»)
+FORMAT(DATE(1999,10,14),"C »)
   
 Renvoie la valeur représentant le mardi 14 octobre 1999.
   

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251495
 localization_priority: Normal
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
-description: Renvoie un entier compris entre 0 et 59, qui représente le composant secondes de DateTime ou expression.
+description: Renvoie un nombre integer, de 0 à 59, qui représente le composant de secondes de date/heure ou d’expression.
 ms.openlocfilehash: c23bbded12a3886fe3bd4dd2a3c3ba1bd6d11619
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,19 +18,19 @@ ms.locfileid: "33404875"
 ---
 # <a name="second-function-visioshapesheet"></a>SECOND Function (VisioShapeSheet)
 
-Renvoie un entier compris entre 0 et 59, qui représente le composant secondes de _DateTime_ ou _expression_.
+Renvoie un nombre integer, de 0 à 59, qui représente le composant de secondes de  _date/heure_ ou  _d’expression_.
   
 ## <a name="syntax"></a>Syntaxe
 
-SECOND ("* * *DateTime* * *" | * * *expression* * * [, * * *LCID* * *]) 
+SECOND( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _structure_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
+| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
 | _expression_ <br/> |Obligatoire  <br/> |**String** <br/> | Toute expression qui génère une date et une heure.  <br/> |
-| _lcid_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Identificateur de paramètres régionaux à utiliser lors de l'évaluation d'un _DateTime_non local. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
+| _lcid_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une  _date/heure_ non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -38,15 +38,15 @@ Entier
   
 ## <a name="remarks"></a>Remarques
 
-Le composant date dans _DateTime_ ou _expression_ est ignoré. 
+Le composant date dans  _l’heure de date_  _ou l’expression_ est ignoré. 
   
-Aucun arrondissement n’est effectué. Si l'argument _DateHeure_ est introuvable ou ne peut pas être converti en un résultat valide, une erreur est renvoyée. 
+Aucun arrondissement n’est effectué. Si  _la date/heure_ est manquante ou ne peut pas être convertie en un résultat valide, cette fonction renvoie une erreur. 
   
-La fonction SECOND accepte également une valeur numérique simple pour _expression_ où la partie décimale du résultat représente la fraction du jour depuis minuit. 
+La fonction SECOND accepte également une valeur de nombre unique pour  _l’expression_ où la partie décimale du résultat représente la fraction d’un jour depuis minuit. 
   
 ## <a name="example-1"></a>Exemple 1
 
-SECONDE ("05/30/1997 13:45:32")
+SECOND(« 30/05/1997 13:45:32 »)
   
 Renvoie 32.
   
@@ -58,7 +58,7 @@ Renvoie 52.
   
 ## <a name="example-3"></a>Exemple 3
 
-SECONDE (0.6337)
+SECOND(0,6337)
   
 Renvoie 32.
   

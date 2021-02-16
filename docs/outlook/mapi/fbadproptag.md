@@ -43,13 +43,13 @@ ULONG FBadPropTag(
 
  _ulPropTag_
   
-> dans Balise de propriété à valider.
+> [in] Balise de propriété à valider.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> La balise de propriété spécifiée n'est pas une balise de propriété MAPI valide. 
+> La balise de propriété spécifiée n’est pas une balise de propriété MAPI valide. 
     
 FALSE 
   
@@ -57,7 +57,7 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FBadPropTag** valide la balise de propriété spécifiée en fonction des définitions MAPI. Elle permet de s'assurer que le type de propriété est l'un des types définis par MAPI et que l'identificateur de la propriété est défini comme étant de ce type. 
+La **fonction FBadPropTag** valide la balise de propriété spécifiée en fonction des définitions MAPI. Il s’assure que le type de propriété est l’un des types définis par MAPI et que l’identificateur de propriété est défini comme étant de ce type. 
   
 ## <a name="see-also"></a>Voir aussi
 

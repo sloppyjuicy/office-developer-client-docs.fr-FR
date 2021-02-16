@@ -18,7 +18,7 @@ ms.locfileid: "33405281"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Renvoie le descripteur d'instance de l'instance de Microsoft Excel qui appelle actuellement une DLL.
+Renvoie le handle d’instance de l’instance de Microsoft Excel qui appelle actuellement une DLL.
   
 ```cs
 Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 0);
@@ -26,23 +26,23 @@ Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 
 
 ## <a name="parameters"></a>Paramètres
 
-Cette fonction n'a pas d'argument.
+Cette fonction n’a pas d’arguments.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Le handle d'instance (**xltypeBigData**) se trouve dans le champ **Val. bigdata. h. hdata** . 
+Le handle d’instance (**xltypeBigData**) sera dans le champ **val.bigdata.h.hdata.** 
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances d'Excel en cours d'exécution qui appellent la DLL.
+Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances d’Excel en cours d’exécution qui appellent la DLL.
   
-Cette fonction renvoie une valeur correcte avec les versions 32 bits et 64 bits d'Excel. Elle a été introduite dans Excel 2010 en tant qu'extension de la fonction [xlGetInst](xlgetinst.md) , qui fonctionne correctement uniquement avec les versions 32 bits d'Excel. 
+Cette fonction renvoie une valeur correcte avec les versions 32 bits et 64 bits d’Excel. Il a été introduit dans Excel 2010 en tant qu’extension de la fonction [xlGetInst,](xlgetinst.md) qui fonctionne correctement uniquement avec les versions 32 bits d’Excel. 
   
-Cette fonction fonctionne correctement lorsqu'elle est appelée à l'aide des variétés [Excel4 et Excel12](excel4-excel12.md) des fonctions de rappel de l'API, car **XLOPER** et **XLOPER12** ont la même structure qui prend en charge la valeur **xltypeBigData** entrer. 
+Cette fonction fonctionne correctement lorsqu’elle est appelée à l’aide des variétés Excel4 et [Excel12](excel4-excel12.md) des fonctions de rappel d’API, car **XLOPER** et **XLOPER12** ont la même structure qui prend en charge le type de valeur **xltypeBigData.** 
   
 ## <a name="example"></a>Exemple
 
-L'exemple suivant compare l'instance de la dernière copie d'Excel qui a été appelée à la copie actuelle d'Excel qui l'a appelée. Si elles sont identiques, elle renvoie 1; Si ce n'est pas le cas, il renvoie 0; Si la fonction échoue, elle renvoie-1. Cet exemple fonctionne avec les versions 32 bits et 64 bits d'Excel.
+L’exemple suivant compare l’instance de la dernière copie d’Excel qui l’a appelée à la copie actuelle d’Excel qui l’a appelée. Si elles sont identiques, elle renvoie 1 ; si ce n’est pas le cas, elle renvoie 0 ; Si la fonction échoue, elle renvoie -1. Cet exemple fonctionne avec les versions 32 bits et 64 bits d’Excel.
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

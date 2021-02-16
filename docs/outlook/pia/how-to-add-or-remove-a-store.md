@@ -1,5 +1,5 @@
 ---
-title: Ajout ou suppression d’une banque
+title: Ajouter ou supprimer un magasin
 TOCTitle: Add or remove a store
 ms:assetid: db2930ec-ef99-4e31-86c5-820e8368e05f
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb612380(v=office.15)
@@ -26,7 +26,7 @@ Dans Outlook, vous pouvez ajouter ou supprimer un magasin PST uniquement par pro
 
 **RemoveStore** supprime uniquement le magasin à partir du profil actif. Il ne supprime pas le fichier .pst du système de fichiers.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

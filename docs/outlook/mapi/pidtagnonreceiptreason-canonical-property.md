@@ -25,7 +25,7 @@ ms.locfileid: "33405428"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les raisons pour lesquelles un message n'a pas été reçu qui fait partie d'une notification d'échec de remise.
+Contient les raisons pour lesquelles un message n’a pas été reçu et qui fait partie d’une non-remise.
   
 |||
 |:-----|:-----|
@@ -40,15 +40,15 @@ Les raisons peuvent inclure, par exemple, que le message a été ignoré.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

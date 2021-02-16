@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f3e4f19ab43a3da7c4840d762d5131813c83d996
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32361088"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la somme, en octets, des tailles de toutes les propriétés d'une pièce jointe. 
+Contient la somme, en octets, de la taille de toutes les propriétés d’une pièce jointe. 
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Contient la somme, en octets, des tailles de toutes les propriétés d'une pièc
    
 ## <a name="remarks"></a>Remarques
 
-Il est recommandé que les sous-objets des pièces jointes exposent la propriété **PR_ATTACH_SIZE** . La somme contenue dans **PR_ATTACH_SIZE** inclut la taille de la propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Par conséquent, **PR_ATTACH_SIZE** est généralement plus volumineux que le contenu de la pièce jointe seule. 
+Il est recommandé que les sous-objets de pièce jointe exposent **PR_ATTACH_SIZE** propriété. La somme contenue dans **PR_ATTACH_SIZE** inclut la taille de la propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Par conséquent, **PR_ATTACH_SIZE** est généralement plus grand que le contenu de la pièce jointe uniquement. 
   
-Cette propriété peut être utilisée pour vérifier la taille approximative de la pièce jointe avant d'effectuer un transfert distant par modem et d'afficher des indicateurs de progression lors de l'enregistrement de la pièce jointe sur le disque. Elle est particulièrement utile avec les objets OLE attachés. 
+Cette propriété permet de vérifier la taille approximative de la pièce jointe avant d’effectuer un transfert à distance par modem et d’afficher des indicateurs de progression lors de l’enregistrement de la pièce jointe sur le disque. Il est particulièrement utile avec les objets OLE attachés. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets message et pièce jointe.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-mapitags. h
+mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

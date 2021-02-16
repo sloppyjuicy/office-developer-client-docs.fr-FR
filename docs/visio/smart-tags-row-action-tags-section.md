@@ -23,15 +23,15 @@ Contient les informations relative à une seule balise d’action associée à u
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-Les lignes Smart Tags sont nommées SmartTags. *nom* et contient les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules. 
+Les lignes Smart Tags sont nommées SmartTags. *et*  contiennent les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules. 
   
-|**Cellule**|**Description**|
+|**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-action-tags-section.md) <br/> |Position de la coordonnée *x* d'un point dans les coordonnées locales de la forme et entourant laquelle est positionné le bouton de balise d'action.  <br/> |
-|[Y](y-cell-action-tags-section.md) <br/> |Position de la coordonnée *y* d'un point dans les coordonnées locales de la forme et entourant laquelle est positionné le bouton de balise d'action.  <br/> |
-|[Nombalise](tagname-cell-action-tags-section.md) <br/> |Nom logique de la balise d’action.  <br/> |
-|[X Justify](x-justify-cell-action-tags-section.md) <br/> |Décalage *x* du bouton de balise d'action par rapport au point défini par les cellules X et Y.  <br/> |
-|[Y Justify](y-justify-cell-action-tags-section.md) <br/> |Offset *y* du bouton de balise d'action par rapport au point défini par les cellules X et y.  <br/> |
+|[X](x-cell-action-tags-section.md) <br/> |Position  *de coordonnée x*  d’un point dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé.  <br/> |
+|[Y](y-cell-action-tags-section.md) <br/> |Position  *de*  coordonnée y d’un point dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé.  <br/> |
+|[TagName](tagname-cell-action-tags-section.md) <br/> |Nom logique de la balise d’action.  <br/> |
+|[X Justify](x-justify-cell-action-tags-section.md) <br/> |Décalage  *x*  du bouton de balise d’action par rapport au point défini par les cellules X et Y.  <br/> |
+|[Y Justify](y-justify-cell-action-tags-section.md) <br/> |Décalage  *y*  du bouton de balise d’action par rapport au point défini par les cellules X et Y.  <br/> |
 |[DisplayMode](displaymode-cell-action-tags-section.md) <br/> |Détermine quand la balise d’action apparaît.  <br/> |
 |[ButtonFace](buttonface-cell-action-tags-section.md) <br/> |ID de l’image qui apparaît sur la face du bouton de la balise d’action.  <br/> |
 |[Description](description-cell-action-tags-section.md) <br/> |Chaîne descriptive de la balise d’action.  <br/> |
@@ -39,9 +39,9 @@ Les lignes Smart Tags sont nommées SmartTags. *nom* et contient les cellules su
    
 ## <a name="remarks"></a>Remarques
 
- Vous pouvez ajouter autant de lignes SmartTags.  *Nommez* les lignes selon vos besoins, assignez des noms parlants aux lignes et définissez des valeurs de cellule. Pour ajouter une balise d’action à une section Smart Tags existante, cliquez avec le bouton droit sur une ligne, puis cliquez sur **Insérer une ligne** dans le menu contextuel. 
+ Vous pouvez ajouter autant de lignes SmartTags.  *nommez*  les lignes selon vos besoins, attribuez des noms significatifs aux lignes et définissez des valeurs de cellule. Pour ajouter une balise d’action à une section Smart Tags existante, cliquez avec le bouton droit sur une ligne, puis cliquez sur **Insérer une ligne** dans le menu contextuel. 
   
-Vous pouvez désigner ces cellules à l'aide de leur nom de ligne, qui apparaît en rouge dans la fenêtre Feuille ShapeSheet. Pour assigner des noms parlants aux lignes Smart Tags. *Nommez* les lignes, cliquez sur la ligne, puis tapez un nom tel que *taille* , par exemple, pour créer le nom de ligne Smart Tags. Size. Vous pouvez alors faire référence à la cellule Description en utilisant Smart Tags.Taille.Description. 
+Vous pouvez désigner ces cellules à l'aide de leur nom de ligne, qui apparaît en rouge dans la fenêtre Feuille ShapeSheet. Pour assigner des noms parlants aux lignes Smart Tags. *name*  rows, click the row, and then type a name such as  *Size*  , for example, to create the row name Smart Tags.Size. Vous pouvez alors faire référence à la cellule Description en utilisant Smart Tags.Taille.Description. 
   
 Le nom de ligne que vous entrez doit être unique dans la section.
   

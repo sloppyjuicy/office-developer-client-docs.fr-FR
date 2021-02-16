@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
-description: Microsoft InfoPath est un outil hybride qui allie le meilleur de l'expérience d'édition de documents traditionnelle, comme une application de traitement de texte ou de messagerie, aux fonctionnalités rigoureuses de capture de données d'un package de formulaires. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
+description: Microsoft InfoPath est un outil hybride qui combine le meilleur d’une expérience d’édition de documents traditionnelle, telle qu’un traitement de texte ou une application de messagerie, avec les fonctionnalités rigoureuses de capture de données d’un package de formulaires. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
 ms.openlocfilehash: 20831635fba8d76b9d6b45f42a5308ab7236db20
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "33407227"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>À propos de la prise en charge InfoPath pour les technologies XML
 
-Microsoft InfoPath est un outil hybride qui allie le meilleur de l'expérience d'édition de documents traditionnelle, comme une application de traitement de texte ou de messagerie, aux fonctionnalités rigoureuses de capture de données d'un package de formulaires. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
+Microsoft InfoPath est un outil hybride qui combine le meilleur d’une expérience d’édition de documents traditionnelle, telle qu’un traitement de texte ou une application de messagerie, avec les fonctionnalités rigoureuses de capture de données d’un package de formulaires. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
   
 ## <a name="introduction"></a>Introduction
 
@@ -162,7 +162,7 @@ InfoPath s'intègre parfaitement à la souplesse du modèle des services Web, da
 |||
 |:-----|:-----|
 |**Groupe de champs :** <br/> |Section, section extensible, section facultative ou tableau extensible. Les sections et les tableaux extensibles sont des contrôles de formulaire contenant d’autres contrôles et qui s’étendent en fonction des besoins. Les utilisateurs peuvent insérer plusieurs sections ou lignes lorsqu’ils remplissent le formulaire.  <br/> |
-|**Arborescence DOM :** <br/> |Structure de la source de données du formulaire. En particulier, la collection de champs et de groupes qui définissent et stockent les données d'un formulaire InfoPath.  <br/> |
+|**Arborescence DOM :** <br/> |Structure de la source de données du formulaire. En particulier, la collection de champs et de groupes qui définissent et stockent les données d’un formulaire InfoPath.  <br/> |
    
 ## <a name="conclusion"></a>Conclusion
 

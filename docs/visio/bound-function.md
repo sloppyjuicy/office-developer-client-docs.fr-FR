@@ -22,7 +22,7 @@ Limite la valeur d’une cellule à une plage ou à un ensemble de plages.
   
 ## <a name="syntax"></a>Syntaxe
 
-BOUND (* * *value* * *, * * *type* * *, * * *ignore* * *, * * *value1* * *, * * *value2* * * * * * [, ignore (n), value1 (n), valeur2 (n),...] * * *) 
+BOUND (** *value* **, ** *type* **, ** *ignore* **, ** *value1* **, ** *value2* ** ** * [,ignore(n), value1(n), value2(n),...] * ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -30,25 +30,25 @@ BOUND (* * *value* * *, * * *type* * *, * * *ignore* * *, * * *value1* * *, * * 
 |:-----|:-----|:-----|:-----|
 | _value_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Valeur actuelle limitée.  <br/> |
 | _type_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Indique si la contrainte est inclusive (0), exclusive (1) ou désactivée (2).  <br/> |
-| _Passez_ <br/> |Obligatoire  <br/> |**Booléen** <br/> | TRUE pour ignorer la plage; FALSe pour limiter la valeur de la cellule à la plage.  <br/> |
-| _valeur1,valeur2_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Première valeur d’une plage.  <br/> |
-| _valeur2_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Deuxième valeur d’une plage.  <br/> |
+| _ignore_ <br/> |Obligatoire  <br/> |**Booléen** <br/> | TRUE pour ignorer la plage ; FALSE pour limiter la valeur de la cellule à la plage.  <br/> |
+| _value1_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Première valeur d’une plage.  <br/> |
+| _value2_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Deuxième valeur d’une plage.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Utilisez la fonction BOUND pour restreindre la valeur d’une cellule à une limite supérieure et inférieure, par exemple, pour contrôler des objets qui ne devraient pas être étirés au delà ou en deçà d’une hauteur minimale ou maximale. La contrainte peut être inclusive ou exclusive par rapport aux plages. Si la valeur actuelle ne doit pas être restreinte, définissez le paramètre _type_ sur 2 (Disabled). 
+Utilisez la fonction BOUND pour restreindre la valeur d’une cellule à une limite supérieure et inférieure, par exemple, pour contrôler des objets qui ne devraient pas être étirés au delà ou en deçà d’une hauteur minimale ou maximale. La contrainte peut être inclusive ou exclusive par rapport aux plages. Si la valeur actuelle ne doit pas être contrainte, définissez le  _paramètre de type_ sur 2 (désactivé). 
   
-Vous pouvez définir plusieurs plages en fournissant plusieurs occurrences des paramètres _ignore_, _value1_et _value2_ . Utilisez le __ paramètre ignore pour désactiver les contraintes d'une plage particulière. 
+Vous pouvez définir plusieurs plages en fournissant plusieurs occurrences des paramètres _ignore,_ _value1_ et _value2._ Utilisez le  _paramètre Ignore_ pour désactiver les contraintes d’une plage particulière. 
   
-La formule contenant la fonction BOUND n'est pas remplacée lorsque sa valeur change; au lieu de cela, la formule est conservée et la nouvelle valeur est placée dans le paramètre _value_ . 
+La formule contenant la fonction BOUND n’est pas écrasée lorsque sa valeur change ; au lieu de cela, la formule est conservée et la nouvelle valeur est placée dans le  _paramètre de_ valeur. 
   
 ## <a name="example-1"></a>Exemple1
 
 Cet exemple utilise la fonction BOUND pour obliger une poignée de contrôle à rester à l’intérieur du rectangle de délimitation d’une forme. 
   
-Controls. X1 = BOUND (\*largeur 0,5, 0, faux,\*largeur 0,\*largeur 1)
+Controls.X1 = BOUND(Width \* 0.5, 0, FALSE, Width \* 0, Width \* 1)
   
-Controls. Y1 = BOUND (\*hauteur 0,5, 0, false\*, hauteur 0\*, hauteur 1)
+Controls.Y1 = BOUND(Height \* 0.5, 0, FALSE, Height \* 0, Height \* 1)
   
 ## <a name="example-2"></a>Exemple2
 

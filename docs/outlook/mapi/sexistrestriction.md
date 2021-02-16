@@ -25,11 +25,11 @@ ms.locfileid: "33418938"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction existante qui est utilisée pour tester si une propriété particulière existe sous forme de colonne dans le tableau. 
+Décrit une restriction existante utilisée pour tester si une propriété particulière existe en tant que colonne dans le tableau. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SExistRestriction
@@ -45,23 +45,23 @@ typedef struct _SExistRestriction
 
  **ulReserved1**
   
-> MSR doit être égal à zéro. 
+> Réservé ; doit être zéro. 
     
  **ulPropTag**
   
-> Balise de propriété identifiant la colonne devant être testée pour chaque ligne.
+> Balise de propriété identifiant la colonne à tester pour l’existence dans chaque ligne.
     
  **ulReserved2**
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
 ## <a name="remarks"></a>Remarques
 
-La restriction EXISTS est utilisée pour garantir des résultats significatifs pour d'autres types de restrictions qui impliquent des propriétés, telles que les restrictions de propriété et de contenu. Lorsqu'une restriction impliquant une propriété est transmise à une propriété [IMAPITable:: Restrict](imapitable-restrict.md) ou [IMAPITable:: FindRow](imapitable-findrow.md) et que la propriété n'existe pas, les résultats de la restriction ne sont pas définis. En créant une restriction **et** qui rejoint la restriction de propriété avec une restriction existante, un appelant peut être assuré de résultats précis. 
+La restriction existante est utilisée pour garantir des résultats significatifs pour d’autres types de restrictions qui impliquent des propriétés, telles que les restrictions de propriété et de contenu. Lorsqu’une restriction qui implique une propriété est transmise à [IMAPITable::Restrict](imapitable-restrict.md) ou [IMAPITable::FindRow](imapitable-findrow.md) et que la propriété n’existe pas, les résultats de la restriction ne sont pas indéfinis. En créant une restriction **AND** qui joint la restriction de propriété à une restriction existante, un appelant peut obtenir des résultats précis. 
   
-Les restrictions d'existence ne peuvent pas être utilisées avec des propriétés de sous-objet de type PT_OBJECT. 
+Les restrictions existantes ne peuvent pas être utilisées avec les propriétés de sous-objet qui ont des PT_OBJECT. 
   
-Pour plus d'informations sur la structure **SExistRestriction** , consultez la rubrique [à propos des restrictions](about-restrictions.md). 
+Pour plus d’informations sur la structure **SExistRestriction,** voir [À propos des restrictions.](about-restrictions.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

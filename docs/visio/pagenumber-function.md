@@ -22,7 +22,7 @@ Renvoie le numéro de la page qui contient la forme.
   
 ## <a name="syntax"></a>Syntaxe
 
-PAGENUMBER ()
+PAGENUMBER()
   
 ### <a name="return-value"></a>Valeur renvoyée
 

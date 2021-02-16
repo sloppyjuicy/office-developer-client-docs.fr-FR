@@ -39,19 +39,19 @@ HRESULT SyncHdrBeg(
 
  _cbeid_
   
-> dans Nombre d'octets dans l'ID d'entrée du message.
+> [in] Nombre d’octets dans l’ID d’entrée du message.
     
  _lpeid_
   
-> dans ID d'entrée du message.
+> [in] ID d’entrée du message.
     
- _PPV_
+ _ppv_
   
->  [in]/[out] pointeur vers la structure **[HDRSYNC](hdrsync.md)** pour l'en-tête de message. 
+>  [in]/[out] Pointeur vers la structure **[HDRSYNC](hdrsync.md)** de l’en-tête de message. 
     
 ## <a name="remarks"></a>Remarques
 
-Sur **IOSTX:: SyncHdrBeg**, le magasin local passe à l' [État d'en-tête du message de téléchargement](download-message-header-state.md). Outlook initialise pour le client la structure **HDRSYNC** avec la représentation actuelle de l'en-tête du message dans le magasin et le dossier parent. Le client doit ensuite télécharger un élément de message complet (en tant que *pmsgFull* dans **HDRSYNC** ). Si cette opération réussit, le client définit également *ulFlags* dans **HDRSYNC** en tant que **HSF_OK**. Sur **[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)**, Outlook vérifie le résultat dans **HDRSYNC** et utilise les informations de **HDRSYNC** pour mettre à jour l'en-tête de message local. 
+Sur **IOSTX::SyncHdrBeg**, le magasin local passe à l’état d’en-tête [du message de téléchargement.](download-message-header-state.md) Outlook initialise pour le client la structure **HDRSYNC** avec la représentation actuelle de l’en-tête de message dans la boutique et le dossier parent. Le client doit ensuite télécharger un élément de message complet (comme *pmsgFull* dans **HDRSYNC).** Si cela a réussi, le client définit  *également ulFlags*  dans **HDRSYNC** comme **HSF_OK**. Sur **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)**, Outlook vérifie le résultat dans **HDRSYNC** et utilise les informations dans **HDRSYNC** pour mettre à jour l’en-tête du message local. 
   
 ## <a name="see-also"></a>Voir aussi
 

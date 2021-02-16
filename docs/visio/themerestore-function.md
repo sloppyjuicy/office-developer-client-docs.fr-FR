@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ca7e6621-f39b-64dd-3594-41d74da21a94
-description: Stocke la valeur de la mise en forme locale d'une forme lorsque vous appliquez un thème de sorte que vous puissiez restaurer la mise en forme locale si l'utilisateur supprime par la suite le thème.
+description: Stocke la valeur de mise en forme locale d’une forme lorsque vous appliquez un thème afin de pouvoir restaurer la mise en forme locale si l’utilisateur supprime ensuite le thème.
 ms.openlocfilehash: 628e246f91172f136dd1a70807fca2abc1ff5bdd
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33404287"
 ---
 # <a name="themerestore-function"></a>Fonction THEMERESTORE
 
-Stocke la valeur de la mise en forme locale d'une forme lorsque vous appliquez un thème de sorte que vous puissiez restaurer la mise en forme locale si l'utilisateur supprime par la suite le thème.
+Stocke la valeur de mise en forme locale d’une forme lorsque vous appliquez un thème afin que vous pouvez restaurer la mise en forme locale si l’utilisateur supprime ensuite le thème.
   
 ## <a name="syntax"></a>Syntaxe
 
-THEMERESTORE ()
+THEMERESTORE()
   
 ## <a name="example"></a>Exemple
 

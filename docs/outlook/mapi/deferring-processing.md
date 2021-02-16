@@ -1,5 +1,5 @@
 ---
-title: Report de traitement
+title: Report du traitement
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,18 +15,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430930"
 ---
-# <a name="deferring-processing"></a>Report de traitement
+# <a name="deferring-processing"></a>Report du traitement
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-TransMettez l'indicateur MAPI_DEFERRED_ERRORS aux appels de méthode autant que possible. De nombreux appels de méthode MAPI ont été optimisés pour accepter cet indicateur, ce qui a pour effet de reporter la tâche demandée jusqu'à ce que plusieurs tâches puissent être exécutées en même temps ou que vous ne puissiez plus attendre les résultats.
+Passez l’MAPI_DEFERRED_ERRORS aux appels de méthode autant que possible. De nombreux appels de méthode MAPI ont été optimisés pour accepter cet indicateur, ce qui a pour effet que le fournisseur ajournait la tâche demandée jusqu’à ce que plusieurs tâches soient effectuées en même temps ou que vous ne pouvez plus attendre les résultats.
   
-Par exemple, si vous transmettez MAPI_DEFERRED_ERRORS à [IMsgStore:: OpenEntry](imsgstore-openentry.md) pour ouvrir un dossier, l'ouverture du dossier et un éventuel appel distant peut être repoussé jusqu'à ce que vous appeliez un autre appel au **GetHierarchyTable** du dossier ou ** Méthodes GetProps** . **GetHierarchyTable** et **GetProps** requièrent le retour de données du fournisseur de services, une tâche qui doit être exécutée immédiatement. 
+Par exemple, si vous passez MAPI_DEFERRED_ERRORS à [IMsgStore::OpenEntry](imsgstore-openentry.md) pour ouvrir un dossier, l’ouverture du dossier et un appel distant possible peuvent être reportés jusqu’à ce que vous appelez à nouveau les méthodes **GetHierarchyTable** ou **GetProps** du dossier. **GetHierarchyTable** et **GetProps** nécessitent le retour des données du fournisseur de services, une tâche qui doit être effectuée immédiatement. 
   
-Un autre moyen de différer le traitement est simplement de ne pas passer un appel. En étant conscient de l'utilisateur et lorsque l'utilisateur peut percevoir une décharge sur les ressources ou le temps de traitement, vous pouvez déterminer quand il est judicieux d'effectuer des appels. Il est possible d'améliorer les performances en effectuant des appels à la fois lorsque l'utilisateur ne les remarquera pas ou en ne les apportant pas du tout.
+Une autre façon de différer le traitement consiste simplement à ne pas effectuer d’appel. En étant conscient de l’utilisateur et du moment où il peut percevoir un drainage des ressources ou du temps de traitement, vous pouvez déterminer à quel moment il est logique d’effectuer des appels. Il est possible d’améliorer les performances en faisant des appels à un moment où l’utilisateur ne le remarque pas ou en ne les rendant pas du tout.
   
-Par exemple, considérez la situation lorsque vous recevez plusieurs notifications par seconde d'une banque de messages qui déplace un grand nombre de messages. Un indicateur de progression s'affiche pour indiquer le pourcentage d'achèvement de l'opération. En règle générale, les utilisateurs ne considèrent pas que cette opération est lente avant que quelques secondes ne se soient écoulées. Par conséquent, si vous mettez à jour l'indicateur de progression, n'effectuez aucune modification pendant au moins quatre secondes après l'initialisation de l'opération de déplacement. Cela permet de gagner du temps dans les cas courants où l'opération est rapide et d'informer les utilisateurs en temps opportun lorsque l'opération est lente.
+Par exemple, prenons la situation dans laquelle vous recevez plus d’une notification par seconde à partir d’une boutique de messages qui déplace un grand nombre de messages. Un indicateur de progression s’affiche pour indiquer le pourcentage d’achèvement de l’opération. En règle générale, les utilisateurs ne percevoiraient pas cette opération comme lente tant que quelques secondes n’ont pas été écoulées. Par conséquent, si vous met à jour l’indicateur de progression, n’a lieu aucune modification avant au moins quatre secondes après le lancement de l’opération de déplacement. Cela permet de gagner du temps dans les cas courants où l’opération est rapide et d’informer les utilisateurs en temps voulu lorsque l’opération est lente.
   
 

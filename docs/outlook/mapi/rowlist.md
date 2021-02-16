@@ -25,7 +25,7 @@ ms.locfileid: "33419183"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de structures [ROWENTRY](rowentry.md) représentant les lignes et les opérations effectuées sur les lignes d'une table via l'interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
+Contient un tableau de structures [ROWENTRY](rowentry.md) représentant des lignes et les opérations effectuées sur ces lignes dans un tableau via l’interface [IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
   
 ```cpp
 typedef struct
@@ -40,9 +40,9 @@ typedef struct
 
  **cEntries**
   
-> Nombre d'entrées dans le tableau spécifié par le membre **aEntries** . 
+> Nombre d’entrées dans le tableau spécifié par **le membre aEntries.** 
     
- **aEntries [MAPI_DIM]**
+ **aEntries[MAPI_DIM]**
   
 > Tableau de structures **ROWENTRY** qui contient les lignes et les opérations effectuées sur ces lignes dans le tableau. 
     
@@ -52,7 +52,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|RulesDlg. cpp  <br/> |CRulesDlg:: GetSelectedItems  <br/> |Permet de créer une liste de règles sélectionnées pour les actions **ModifyTable** suivantes.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Utilisé pour créer une liste de règles sélectionnées pour les actions **ModifyTable suivantes.**  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

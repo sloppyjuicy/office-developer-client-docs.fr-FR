@@ -25,11 +25,11 @@ ms.locfileid: "33404763"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajoute un entier non signé 64 bits à un autre.
+Ajoute un integer 64 bits non signé à un autre.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -44,14 +44,14 @@ FILETIME FtAddFt(
 
  _Addend1_
   
-> dans Une structure [fileTime](filetime.md) qui contient le premier entier non signé 64 bits à ajouter. 
+> [in] Structure [FILETIME](filetime.md) qui contient le premier entière 64 bits non signé à ajouter. 
     
  _Addend2_
   
-> dans Une structure **fileTime** qui contient le deuxième entier non signé 64 bits à ajouter. 
+> [in] Structure **FILETIME** qui contient le deuxième integer 64 bits non signé à ajouter. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **FtAddFt** renvoie une structure **fileTime** qui contient la somme des deux entiers. Les deux paramètres d'entrée restent inchangés. 
+La **fonction FtAddFt** renvoie une structure **FILETIME** qui contient la somme des deux nombres entières. Les deux paramètres d’entrée restent inchangés. 
   
 

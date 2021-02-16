@@ -1,5 +1,5 @@
 ---
-title: Enregistrement d'un message dans la boîte de réception
+title: Enregistrement d’un message dans la boîte de réception
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407892"
 ---
-# <a name="saving-a-message-in-the-inbox"></a>Enregistrement d'un message dans la boîte de réception
+# <a name="saving-a-message-in-the-inbox"></a>Enregistrement d’un message dans la boîte de réception
 
   
   
@@ -23,18 +23,18 @@ ms.locfileid: "33407892"
   
  **Pour stocker un message dans la boîte de réception sans destinataire**
   
-1. Appelez [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md) pour récupérer l'identificateur d'entrée de la boîte de réception. 
+1. Appelez [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) pour récupérer l’identificateur d’entrée de la boîte de réception. 
     
-2. Appelez [IMsgStore:: OpenEntry](imsgstore-openentry.md) pour ouvrir la boîte de réception et y récupérer un pointeur. 
+2. Appelez [IMsgStore::OpenEntry](imsgstore-openentry.md) pour ouvrir la boîte de réception et récupérer un pointeur vers celui-ci. 
     
-3. Appelez la méthode [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) pour créer le message. 
+3. Appelez la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) de la boîte de réception pour créer le message. 
     
-4. Appelez la méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) du message pour ajouter les **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) ou **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) et **PR_SUBJECT** ([ PidTagSubject](pidtagsubject-canonical-property.md)). 
+4. Appelez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) du message pour ajouter les propriétés **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) ou **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) et **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). 
     
-5. Créez chaque pièce jointe, définissez ses propriétés et enregistrez-la. Pour plus d'informations sur l'ajout de pièces jointes aux messages, consultez [la rubrique Création d'une pièce jointe](creating-a-message-attachment.md).
+5. Créez chaque pièce jointe, définissez ses propriétés et enregistrez-la. Pour plus d’informations sur l’ajout de pièces jointes à des messages, voir [Création d’une pièce jointe de message.](creating-a-message-attachment.md)
     
-6. Appelez **IMessage:: SaveChanges** pour enregistrer le message. À ce stade, il apparaîtra dans le tableau des matières de la boîte de réception. 
+6. Appelez **IMessage::SaveChanges** pour enregistrer le message. À ce stade, elle apparaît dans la table des matières de la Boîte de réception. 
     
-Si vous souhaitez enregistrer un message intermittantly avant de l'afficher dans le tableau des matières de la boîte de réception, créez-le à la place dans un dossier masqué, tel que le dossier racine de la sous-arborescence IPM, puis déplacez-le vers la boîte de réception. 
+Si vous souhaitez enregistrer un message entremettants avant de le faire apparaître dans la table des matières de la boîte de réception, créez-le dans un dossier masqué tel que le dossier racine de la sous-arbre IPM, puis déplacez-le dans la boîte de réception. 
   
 

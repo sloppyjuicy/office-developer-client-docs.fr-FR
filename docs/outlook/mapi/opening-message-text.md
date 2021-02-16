@@ -19,36 +19,36 @@ ms.locfileid: "33407535"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le texte d'un message est stocké dans sa **propriété\_PR Body** ou sa propriété **\_\_Compressed PR** . Pour plus d'informations, reportez-vous à la rubrique **\_PR Body** ([PidTagBody](pidtagbody-canonical-property.md)), **PR\_html** ([PidTagHtml](pidtaghtml-canonical-property.md)) et **PR\_Rich RTF\_compressé** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
+Le texte d’un message est stocké dans sa propriété **\_ PR BODY** ou PR **\_ RTF \_ COMPRESSED.** Pour plus d’informations, voir **PR \_ BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR \_ HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) et **PR \_ RTF \_ COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 
-Si vous prenez en charge le format RTF (Rich Text Format), ouvrez **PR\_RTF_COMPRESSED**. Si vous ne prenez pas en charge le format RTF, ouvrez le **\_corps du message**. Étant donné que le texte d'un message peut être volumineux, qu'il soit ou non mis en forme, utilisez **IMAPIProp:: OpenProperty** pour ouvrir ces propriétés. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
+Si vous ouvrez le format RTF (Rich Text Format), ouvrez **la \_ RTF_COMPRESSED**. Si vous ne le faites pas, ouvrez **PR \_ BODY.** Étant donné que le texte d’un message peut être grand, qu’il soit formaté ou non, utilisez **IMAPIProp::OpenProperty** pour ouvrir ces propriétés. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
   
-### <a name="to-display-formatted-message-text"></a>Pour afficher le texte du message mis en forme
+### <a name="to-display-formatted-message-text"></a>Pour afficher le texte d’un message formaté
   
-1. Si vous utilisez une banque de messages non compatible avec le format RTF, comme indiqué par l'absence de l'indicateur STORE_RTF_OK dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de la Banque:
+1. Si vous utilisez une magasin de messages non RTF, comme indiqué par l’absence de l’indicateur STORE_RTF_OK dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)de la boutique :
     
-    1. Appelez la méthode **IMAPIProp:: GetProps** pour récupérer la propriété **PR_RTF_IN_SYNC** . Pour plus d'informations, voir [IMAPIProp:: GetProps](imapiprop-getprops.md) et **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)).
+    1. Appelez la méthode **IMAPIProp::GetProps** du message pour récupérer **PR_RTF_IN_SYNC** propriété. Pour plus d’informations, voir [IMAPIProp::GetProps](imapiprop-getprops.md) et **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)).
         
-    2. Appelez RTFSync pour synchroniser la propriété PR_BODY du message avec la propriété **PR_RTF_COMPRESSED** . Pour plus d'informations, voir [RTFSync](rtfsync.md), **PR_BODY**et **PR_RTF_COMPRESSED**. TransMettez l'indicateur RTF_SYNC_BODY_CHANGED si l'appel de récupération de **PR_RTF_IN_SYNC** a échoué car la propriété n'existe pas ou est définie sur false. 
+    2. Appelez RTFSync pour synchroniser la propriété PR_BODY message avec la **PR_RTF_COMPRESSED** de message. Pour plus d’informations, [voir RTFSync,](rtfsync.md) **PR_BODY** et **PR_RTF_COMPRESSED**. Passez l’RTF_SYNC_BODY_CHANGED si l’appel de  récupération PR_RTF_IN_SYNC échoué parce que la propriété n’existe pas ou qu’elle est définie sur FALSE. 
         
-    3. Si **RTFSync** a renvoyé la valeur true, ce qui indique que des modifications ont été apportées, appelez la méthode **IMAPIProp:: SaveChanges** pour les stocker définitivement. Pour plus d'informations, voir [IMAPIProp:: SaveChanges](imapiprop-savechanges.md).
+    3. Si **RTFSync** a renvoyé TRUE, indiquant que des modifications ont été apportées, appelez la méthode **IMAPIProp::SaveChanges** du message pour les stocker définitivement. Pour plus d’informations, [voir IMAPIProp::SaveChanges](imapiprop-savechanges.md).
     
-2. Que vous utilisiez ou non une banque de messages prenant en charge le format RTF:
+2. Que vous utilisiez ou non une magasin de messages rtF :
     
-    1. Appelez **IMAPIProp:: OpenProperty** pour ouvrir la propriété **PR_RTF_COMPRESSED** . Pour plus d'informations, voir [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) et **PR_RTF_COMPRESSED**.
+    1. Appelez **IMAPIProp::OpenProperty** pour ouvrir **PR_RTF_COMPRESSED** propriété. Pour plus d’informations, [voir IMAPIProp::OpenProperty](imapiprop-openproperty.md) et **PR_RTF_COMPRESSED**.
         
-    2. Si **PR_RTF_COMPRESSED** n'est pas disponible, appelez **OpenProperty** pour ouvrir la propriété **PR_BODY** . 
+    2. Si **PR_RTF_COMPRESSED** n’est pas disponible, appelez **OpenProperty** pour ouvrir **PR_BODY** propriété. 
         
-    3. Appelez la fonction **WrapCompressedRTFStream** pour créer une version non compressée des données RTF compressées, le cas échéant. Pour plus d'informations, consultez la rubrique [WrapCompressedRTFStream](wrapcompressedrtfstream.md).
+    3. Appelez la **fonction WrapCompressedRTFStream** pour créer une version non compressée des données RTF compressées, si disponible. Pour plus d’informations, [voir WrapCompressedRTFStream](wrapcompressedrtfstream.md).
         
-    4. Copiez le texte mis en forme à partir du flux vers l'emplacement approprié dans le formulaire de message. 
+    4. Copiez le texte formaté du flux à l’endroit approprié dans le formulaire de message. 
     
-### <a name="to-display-plain-message-text"></a>Pour afficher le texte d'un message brut
+### <a name="to-display-plain-message-text"></a>Pour afficher du texte de message simple
   
-1. Appelez la méthode **IMAPIProp:: GetProps** pour récupérer la propriété **PR_BODY** . Pour plus d'informations, voir [IMAPIProp:: GetProps](imapiprop-getprops.md).
+1. Appelez la méthode **IMAPIProp::GetProps** du message pour récupérer PR_BODY **propriété.** Pour plus d’informations, [voir IMAPIProp::GetProps](imapiprop-getprops.md).
     
-2. Si **GetProps** renvoie soit PT_ERROR pour le type de propriété dans la structure de la valeur de la propriété, soit MAPI_E_NOT_ENOUGH_MEMORY, appelez la méthode **IMAPIProp:: OpenProperty** du message. TransMettez **PR_BODY** comme balise de propriété et IID_IStream comme identificateur d'interface. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
+2. Si **GetProps** renvoie une PT_ERROR pour le type de propriété dans la structure de valeurs de propriété ou MAPI_E_NOT_ENOUGH_MEMORY, appelez la méthode **IMAPIProp::OpenProperty** du message. Passez **PR_BODY** en tant que balise de propriété et IID_IStream comme identificateur d’interface. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
     
-3. Copiez le texte brut du flux vers l'emplacement approprié dans le formulaire de message. 
+3. Copiez le texte simple du flux à l’endroit approprié dans le formulaire de message. 
     
 

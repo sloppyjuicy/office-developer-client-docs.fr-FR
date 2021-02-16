@@ -25,12 +25,12 @@ Contient une ligne pour chaque balise d’action définie pour une forme ou une 
   
 ## <a name="remarks"></a>Remarques
 
-La section balise d' **action** contrôle l'apparence et la position des balises d'action dans le dessin. À l'aide de la cellule **tagname** , vous pouvez associer chaque balise d'action à une ou plusieurs lignes dans la section actions, dans laquelle les éléments de menu qui apparaissent dans un menu de balise d'action sont définis. 
+La **section Balise d’action** contrôle l’apparence et la position des balises d’action dans le dessin. À l’aide de la cellule **TagName,** vous pouvez associer chaque balise d’action à une ou plusieurs lignes de la section Actions, où les éléments de menu qui apparaissent dans un menu de balise d’action sont définis. 
   
  Une seule forme ou page peut contenir plusieurs balises d’action. 
   
 Si aucune action ne correspond à une balise d’action, le bouton de cette dernière apparaît et disparaît tel que défini, mais son menu est vide.
   
-Vous pouvez uniquement insérer une section balise d' **action** dans la fenêtre feuille ShapeSheet (cliquez avec le bouton droit dans la fenêtre feuille ShapeSheet, cliquez sur **Insérer une section**, puis activez la case à coCher balises d' **action** ). Pour ajouter une balise d'action à une section de balise d' **action** existante, cliquez avec le bouton droit sur une ligne, puis cliquez sur **Insérer une ligne** dans le menu contextuel. 
+Vous pouvez uniquement insérer une section **Balise d’action** dans la fenêtre Feuille ShapeSheet (cliquez avec le bouton droit dans la fenêtre Feuille ShapeSheet, cliquez sur Insérer une **section,** puis cochez la case Balises d’action).  Pour ajouter une balise d’action à une section **Action Tag** existante, cliquez avec le bouton droit sur une ligne, puis cliquez sur **Insérer** une ligne dans le menu raccourci. 
   
 

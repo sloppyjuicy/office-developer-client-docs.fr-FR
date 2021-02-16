@@ -25,7 +25,7 @@ ms.locfileid: "33423642"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie les paramètres d'indicateur à partir de l'objet de progression pour le niveau d'opération sur lequel les informations de progression sont calculées.
+Renvoie les paramètres d’indicateur de l’objet de progression pour le niveau d’opération sur lequel les informations de progression sont calculées.
   
 ```cpp
 HRESULT GetFlags(
@@ -37,31 +37,31 @@ HRESULT GetFlags(
 
  _lpulFlags_
   
-> remarquer Masque de des indicateurs qui contrôle le niveau d'opération sur lequel les informations de progression sont calculées. L'indicateur suivant peut être renvoyé:
+> [out] Masque de bits d’indicateurs qui contrôle le niveau de fonctionnement sur lequel les informations de progression sont calculées. L’indicateur suivant peut être renvoyé :
     
 MAPI_TOP_LEVEL 
   
-> La progression est calculée pour l'objet de niveau supérieur, l'objet qui est appelé par le client pour commencer l'opération. Par exemple, l'objet de niveau supérieur dans une opération de copie de dossier est le dossier en cours de copie. Lorsque MAPI_TOP_LEVEL n'est pas défini, Progress est calculé pour un objet de niveau inférieur ou un sous-objet. Dans l'opération de copie de dossier, un objet de niveau inférieur est l'un des sous-dossiers dans le dossier en cours de copie.
+> La progression est calculée pour l’objet de niveau supérieur, l’objet qui est appelé par le client pour commencer l’opération. Par exemple, l’objet de niveau supérieur dans une opération de copie de dossier est le dossier en cours de copie. Lorsque MAPI_TOP_LEVEL n’est pas définie, la progression est calculée pour un objet de niveau inférieur ou un sous-objet. Dans l’opération de copie de dossier, un objet de niveau inférieur est l’un des sous-dossiers du dossier en cours de copie.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La valeur flags a été renvoyée.
+> La valeur des indicateurs a été renvoyée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI permet aux fournisseurs de services de différencier les objets de niveau supérieur et les sous-objets à l'aide de l'indicateur MAPI_TOP_LEVEL afin que tous les objets impliqués dans une opération puissent utiliser la même implémentation [méthode imapiprogress](imapiprogressiunknown.md) pour afficher la progression. Ainsi, l'indicateur s'affiche en douceur dans une seule direction positive. La définition de l'indicateur MAPI_TOP_LEVEL détermine la façon dont les fournisseurs de services définissent les autres paramètres dans les appels ultérieurs à l'objet Progress. 
+MAPI permet aux fournisseurs de services de différencier les objets de niveau supérieur des sous-objets avec l’indicateur MAPI_TOP_LEVEL afin que tous les objets impliqués dans une opération peuvent utiliser la même implémentation [IMAPIProgress](imapiprogressiunknown.md) pour afficher la progression. Ainsi, l’affichage de l’indicateur se déroule sans problèmes dans une seule direction positive. Si l’MAPI_TOP_LEVEL est définie détermine comment les fournisseurs de services définissent les autres paramètres dans les appels ultérieurs à l’objet de progression. 
   
-La valeur renvoyée par **GetFlags** est initialement définie par l'implémenteur et par la suite par le fournisseur de services par le biais d'un appel à la méthode [méthode imapiprogress:: SetLimits](imapiprogress-setlimits.md) . 
+La valeur renvoyée par **GetFlags** est définie initialement par l’implémenteur, puis par le fournisseur de services via un appel à la méthode [IMAPIProgress::SetLimits.](imapiprogress-setlimits.md) 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Initialisez toujours l'indicateur sur MAPI_TOP_LEVEL, puis faites en sorte que les fournisseurs de services l'efface lorsque cela est nécessaire. Les fournisseurs de services peuvent effacer et réinitialiser l'indicateur en appelant la méthode **méthode imapiprogress:: SetLimits** . Pour plus d'informations sur la façon d'implémenter **GetFlags** et les autres méthodes **méthode imapiprogress** , consultez la rubrique [implémentation d'un indicateur de progression](implementing-a-progress-indicator.md).
+Initialisez toujours l’indicateur MAPI_TOP_LEVEL puis comptez sur les fournisseurs de services pour l’effacer le cas échéant. Les fournisseurs de services peuvent effacer et réinitialiser l’indicateur en appelant la méthode **IMAPIProgress::SetLimits.** Pour plus d’informations sur l’implémentation de **GetFlags** et des autres méthodes **IMAPIProgress,** voir [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque vous affichez un indicateur de progression, appelez d'abord un appel à **méthode imapiprogress:: GetFlags**. La valeur renvoyée doit être MAPI_TOP_LEVEL, car toutes les implémentations initialisent le contenu du paramètre _lpulFlags_ à cette valeur. Pour plus d'informations sur la séquence d'appels à un objet Progress, voir [afficher un indicateur de progression](how-to-display-a-progress-indicator.md).
+Lorsque vous affichez un indicateur de progression, faites votre premier appel à **IMAPIProgress::GetFlags**. La valeur renvoyée doit être MAPI_TOP_LEVEL, car toutes les implémentations initialisent le contenu du paramètre  _lpulFlags_ à cette valeur. Pour plus d’informations sur la séquence d’appels à un objet de progression, voir [Afficher un indicateur de progression.](how-to-display-a-progress-indicator.md)
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -69,7 +69,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress:: GetFlags  <br/> |MFCMAPI utilise la méthode **méthode imapiprogress:: GetFlags** pour déterminer les indicateurs définis. Renvoie MAPI_TOP_LEVEL sauf si les indicateurs ont été définis à l'aide de la méthode **méthode imapiprogress:: SetLimits** .  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::GetFlags  <br/> |MFCMAPI utilise la **méthode IMAPIProgress::GetFlags** pour déterminer les indicateurs qui sont définies. Renvoie MAPI_TOP_LEVEL sauf si des indicateurs ont été définies à l’aide de la méthode **IMAPIProgress::SetLimits.**  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

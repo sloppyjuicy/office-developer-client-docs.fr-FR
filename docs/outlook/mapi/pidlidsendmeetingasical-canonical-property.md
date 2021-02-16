@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d643bf62-62e5-41c7-ab88-5c4c358e5460
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2189275855b54d9e3cba40d27ee0684cf95e2241
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,17 +25,17 @@ ms.locfileid: "32358876"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si une demande de réunion doit être envoyée sous forme de message iCal.
+Spécifie si une demande de réunion doit être envoyée en tant que message iCal.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSendMtgAsICAL  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
-|ID long (couvercle):  <br/> |0x00008200  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
+|ID long (LID) :  <br/> |0x00008200  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Vidéoconférence  <br/> |
+|Domaine :  <br/> |Conférence  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
@@ -45,11 +45,11 @@ Indique si une demande de réunion doit être envoyée sous forme de message iCa
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Effectue une conversion entre l'IETF RFC2445, RFC2446 et RFC2447, et les objets de rendez-vous et de réunion.
+> Convertit les objets RFC2445, RFC2446 et RFC2447 de l’IETF, ainsi que les objets de rendez-vous et de réunion.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

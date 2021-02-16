@@ -1,5 +1,5 @@
 ---
-title: Fonctions d'inspection (application Web personnalisée Access)
+title: Fonctions d’inspection (application web personnalisée Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426533"
 ---
-# <a name="inspection-functions-access-custom-web-app"></a>Fonctions d'inspection (application Web personnalisée Access)
+# <a name="inspection-functions-access-custom-web-app"></a>Fonctions d’inspection (application web personnalisée Access)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Fonction Try_Convert (application Web personnalisée Access)](try_convert-function-access-custom-web-app.md)
+- [Try_Convert Function (Application web personnalisée Access)](try_convert-function-access-custom-web-app.md)
     
 

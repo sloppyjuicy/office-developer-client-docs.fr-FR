@@ -25,7 +25,7 @@ ms.locfileid: "33407381"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime un service de messagerie d'un profil.
+Supprime un service de message d’un profil.
   
 ```cpp
 HRESULT DeleteMsgService(
@@ -37,35 +37,35 @@ HRESULT DeleteMsgService(
 
  _lpuid_
   
-> dans Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l'identificateur unique pour le service de messagerie à supprimer. 
+> [in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique du service de message à supprimer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le service de messagerie a été supprimé.
+> Le service de message a été supprimé.
     
 MAPI_E_NOT_FOUND 
   
-> Le **MAPIUID** pointé par _lpuid_ ne correspond pas à un service de messagerie existant. 
+> Le **MAPIUID pointé** par  _lpuid_ ne correspond pas à un service de message existant. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin::D eletemsgservice** supprime un service de messagerie d'un profil. **DeleteMsgService** supprime toutes les sections de profil liées au service de messagerie. 
+La **méthode IMsgServiceAdmin::D eleteMsgService** supprime un service de message d’un profil. **DeleteMsgService** supprime toutes les sections de profil liées au service de message. 
   
- **DeleteMsgService** effectue les étapes suivantes pour supprimer le service de messagerie: 
+ **DeleteMsgService** effectue les étapes suivantes pour supprimer le service de message : 
   
-1. Appelle la fonction de point d'entrée du service de messagerie avec le paramètre _ulContext_ défini sur MSG_SERVICE_DELETE avant la suppression des sections de profil. Cela permet au service d'effectuer des tâches spécifiques aux services. 
+1. Appelle la fonction de point d’entrée du service de message avec le paramètre  _ulContext_ MSG_SERVICE_DELETE avant la suppression des sections de profil. Cela permet au service d’effectuer des tâches spécifiques au service. 
     
-2. Supprime le service de messagerie.
+2. Supprime le service de message.
     
-3. Supprime la section de profil du service de messagerie.
+3. Supprime la section de profil du service de message.
     
-La fonction de point d'entrée du service de messagerie n'est pas rappelée une fois que le service a été supprimé.
+La fonction de point d’entrée du service de message n’est pas appelée une fois le service supprimé.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour récupérer la structure **MAPIUID** pour le service de messagerie à supprimer, récupérez la colonne de propriété **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) à partir de la ligne du service de messagerie dans la table de service de message. Pour plus d'informations, reportez-vous à la procédure décrite dans la méthode [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Pour récupérer la structure **MAPIUID** du service de message à supprimer, récupérez la colonne de propriété **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) à partir de la ligne du service de message dans la table de service de message. Pour plus d’informations, voir la procédure décrite dans la méthode [IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -73,7 +73,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin::D eletemsgservice** pour supprimer le service sélectionné.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin::D eleteMsgService pour** supprimer le service sélectionné.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -23,27 +23,27 @@ Indique un type de données pour la valeur du champ de texte.
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Chaîne.  <br/> |
-|n°2  <br/> |Nombre. Inclut les valeurs de date, d'heure, de durée ainsi que les valeurs monétaires, les échelles, les cotes et les angles. Entrez un modèle de format dans la cellule Format.  <br/> |
-|disque  <br/> |Valeur de date ou d'heure. Affiche les jours, les mois et les années ou les secondes, les minutes et les heures ou encore une date et une heure en même temps. Entrez un modèle de format dans la cellule Format.  <br/> |
-|6.x  <br/> |Valeur de durée. Affiche le temps écoulé. Entrez un modèle de format dans la cellule Format.  <br/> |
-|7j/7  <br/> |Valeur monétaire. Utilise les paramètres régionaux actuels de votre système d'exploitation. Entrez un modèle de format dans la cellule Format.  <br/> |
+|2   <br/> |Nombre. Inclut les valeurs de date, d'heure, de durée ainsi que les valeurs monétaires, les échelles, les cotes et les angles. Entrez un modèle de format dans la cellule Format.  <br/> |
+|5   <br/> |Valeur de date ou d'heure. Affiche les jours, les mois et les années ou les secondes, les minutes et les heures ou encore une date et une heure en même temps. Entrez un modèle de format dans la cellule Format.  <br/> |
+|6   <br/> |Valeur de durée. Affiche le temps écoulé. Entrez un modèle de format dans la cellule Format.  <br/> |
+|7   <br/> |Valeur monétaire. Utilise les paramètres régionaux actuels de votre système d'exploitation. Entrez un modèle de format dans la cellule Format.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule à l'aide de la boîte de dialogue **champ** (avec une forme sélectionnée, sous l'onglet **insertion** , dans le groupe **texte** , cliquez sur **champ** ). 
+Vous pouvez également définir la valeur de cette cellule à l’aide  de la  boîte de dialogue Champ (avec une forme sélectionnée, sous l’onglet Insertion, dans le groupe Texte, cliquez sur **Champ** ).  
   
 Pour obtenir une référence à la cellule Type par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Fields. type [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Fields.Type[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Type par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionTextField** <br/> |
-|Index de la ligne :  <br/> |**visRowField** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowField**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visFieldType** <br/> |
    
 

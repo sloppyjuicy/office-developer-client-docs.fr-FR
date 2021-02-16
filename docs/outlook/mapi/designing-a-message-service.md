@@ -19,27 +19,27 @@ ms.locfileid: "33404294"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avant de commencer à écrire du code pour prendre en charge votre service de messagerie, il est important de créer une conception. Résolvez les problèmes suivants dans votre processus de conception:
+Avant de commencer à écrire du code pour prendre en charge votre service de message, il est important de créer une conception. Résolvez les problèmes suivants dans votre processus de conception :
   
-1. Déterminez le nombre de fournisseurs de services à inclure dans le service de messagerie. Incluez uniquement les fournisseurs de services associés (c'est-à-dire, les fournisseurs qui fonctionnent avec le même système de messagerie) dans votre service. Les fournisseurs de services non liés n'appartiennent pas au même service de messagerie. Utiliser le profil pour intégrer des services de messagerie et des fournisseurs de services non liés.
+1. Déterminez le nombre de fournisseurs de services à inclure dans le service de messagerie. Incluez uniquement les fournisseurs de services associés (c’est-à-dire, les fournisseurs qui fonctionnent avec le même système de messagerie) dans votre service. Les fournisseurs de services non liés n’appartiennent pas au même service de messagerie. Utilisez le profil pour l’intégration de fournisseurs de services et de services de messagerie non liés.
     
-2. Déterminez le type de fournisseurs de services à inclure dans le service de messagerie. La plupart des services messge incluent un fournisseur de chacun des types courants. Autrement dit, le service de messagerie type dispose d'un fournisseur de carnet d'adresses, d'un fournisseur de banque de messages et d'un fournisseur de transport.
+2. Déterminez le type de fournisseur de services à inclure dans le service de messagerie. La plupart des services de messge incluent un fournisseur de chacun des types courants. Autrement dit, le service de messagerie classique dispose d’un fournisseur de carnet d’adresses, d’un fournisseur de magasins de messages et d’un fournisseur de transport.
     
-3. Déterminez le nombre de dll qui doivent contenir le service de messagerie. Le nombre de dll qu'un service de messagerie utilise dépend des éléments suivants:
+3. Déterminez le nombre de DLLs qui doivent contenir le service de message. Le nombre de DLL qu’un service de message utilise dépend des facteurs suivants :
     
-   - Le degré de complexité que vous êtes prêt à prendre en charge par le service de messagerie.
+   - Degré de complexité que vous êtes prêt à gérer en tant qu’auteur du service de message.
     
-   - Le type de fournisseurs de services dans le service de messagerie.
+   - Type de fournisseurs de services dans le service de messagerie.
     
-   - Relation que le service de messagerie peut avoir avec un autre service de messagerie.
+   - Relation que le service de message peut avoir avec un autre service de message.
     
-   Étant donné que MAPI ne stocke qu'un seul point d'entrée pour chaque type de fournisseur, n'incluez pas plusieurs fournisseurs du même type dans une seule DLL. S'il est logique d'inclure plusieurs fournisseurs d'un même type, vous devez les implémenter dans des dll distinctes ou les faire partager une fonction de point d'entrée. Une autre option consiste à implémenter des services de message associés ou des services de messagerie qui peuvent utiliser les mêmes code d'installation et de configuration et la même fonction de point d'entrée de DLL dans une DLL.
+   Étant donné que MAPI stocke un seul point d’entrée pour chaque type de fournisseur, n’incluez pas plusieurs fournisseurs du même type dans une seule DLL. S’il est logique d’inclure plusieurs fournisseurs d’un type, implémentez-les dans des DLL distinctes ou leur faire partager une fonction de point d’entrée. Une autre option consiste à implémenter des services de message associés, ou des services de message qui peuvent utiliser le même code d’installation et de configuration et la même fonction de point d’entrée DLL, dans une DLL.
     
-   Si possible, simplifiez-la et utilisez une DLL qui contient l'implémentation de tous les fournisseurs de services dans le service de messagerie et tout le code pour installer et configurer le service de messagerie. Si cela n'est pas possible, vous pouvez implémenter une DLL pour le code d'installation et de configuration et une DLL unique pour tous les fournisseurs de services ou une DLL pour chaque fournisseur.
+   Si possible, restez simple et utilisez une DLL qui contient l’implémentation de tous les fournisseurs de services dans le service de messagerie et tout le code pour installer et configurer le service de messagerie. Si cela n’est pas possible, vous pouvez implémenter une DLL pour le code d’installation et de configuration et une seule DLL pour tous les fournisseurs de services ou une DLL pour chaque fournisseur.
     
-4. Déterminez un nom pour la DLL ou les dll du service de messagerie. 
+4. Déterminez un nom pour la DLL ou les DLL du service de message. 
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Implémentation du service de messagerie](message-service-implementation.md)
+- [Implémentation du service de message](message-service-implementation.md)
 

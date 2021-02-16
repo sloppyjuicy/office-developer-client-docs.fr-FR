@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a9eaacc9-bade-472a-9932-4dccec2471ae
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: bb6e082e4ef284c2e269cd587102995f75f7e344
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32358497"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Nombre associé à un élément dans une banque de messages.
+Nombre associé à un élément dans une magasin de messages.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Nombre associé à un élément dans une banque de messages.
    
 ## <a name="remarks"></a>Remarques
 
-Dans les banques de messages IMAPi, cette propriété correspond à l'UID IMAPi.
+Dans les magasins de messages IMAPI, cette propriété correspond à l’UID IMAPI.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Définit les structures de données de base qui sont utilisées dans les opérations distantes.
+> Définit les structures de données de base utilisées dans les opérations distantes.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

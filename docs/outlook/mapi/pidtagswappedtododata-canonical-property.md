@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d2a82fc8-de5d-4819-906e-b8314fd06ea0
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3ecfa1e89688ae525a28e221424fb4a8194fc217
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,48 +25,48 @@ ms.locfileid: "32359135"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère un deuxième ensemble de valeurs de propriétés qui n'affectent pas l'État indicateur de l'objet message.
+Conserve un deuxième ensemble de valeurs de propriété qui n’affectent pas l’état marqué de l’objet Message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SWAPPED_TODO_DATA  <br/> |
 |Identificateur :  <br/> |0x0E2D  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Se comporter comme emplacement de stockage secondaire de l'indicateur si les indicateurs des expéditeurs ou les rappels de l'expéditeur sont pris en charge, cette structure fournit un emplacement où stocker toutes les propriétés relatives au protocole d'indicateur d'information pris en charge dans les indicateurs des expéditeurs et tous les propriétés relatives au protocole des paramètres de rappel qui sont prises en charge dans les rappels de l'expéditeur sans exposer les informations de rappel de l'expéditeur ou du rappel aux destinataires d'un message.
+Agissant en tant qu’emplacement de stockage d’indicateur secondaire si les indicateurs de l’expéditeur ou les rappels d’expéditeur sont pris en charge, cette structure fournit un emplacement dans lequel stocker toutes les propriétés relatives au protocole Informational Flagging qui sont pris en charge dans les indicateurs d’expéditeur, ainsi que toutes les propriétés relatives au protocole de paramètres de rappel qui sont pris en charge dans les rappels des expéditeurs sans exposer les informations de rappel de l’expéditeur ou de l’expéditeur aux destinataires d’un message.
   
-De même, cette structure fournit un emplacement dans lequel stocker toutes les propriétés relatives au protocole de signalisation d'information prises en charge dans les indicateurs de destinataires et les propriétés relatives au protocole des paramètres de rappel pris en charge dans le destinataire rappels sur un message envoyé précédemment.
+De même, cette structure fournit un emplacement dans lequel stocker toutes les propriétés relatives au protocole Informational Flagging qui sont pris en charge dans les indicateurs de destinataire et les propriétés relatives au protocole de paramètres de rappel qui sont pris en charge dans les rappels de destinataire sur un message précédemment envoyé.
   
-Pour plus d'informations sur cette propriété, voir [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
+Pour plus d’informations sur cette propriété, [voir [MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations relatives au marquage.
+> Spécifie les propriétés et les opérations liées au marquage.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Spécifie les propriétés et le modèle d'interaction pour les rappels de messagerie et d'objet.
+> Spécifie les propriétés et le modèle d’interaction pour les messages électroniques et autres rappels d’objets.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

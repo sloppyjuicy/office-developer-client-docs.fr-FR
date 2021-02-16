@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251413
 localization_priority: Normal
 ms.assetid: 0bf7f757-0b7f-dec1-9709-6612c9ad0d53
-description: Renvoie la valeur de date et d'heure représentée par dateheure ou expression.
+description: Renvoie la valeur de date et d’heure représentée par date/heure ou expression.
 ms.openlocfilehash: 2da084f685c044d48495b04f727a877140b51004
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,31 +18,31 @@ ms.locfileid: "32360318"
 ---
 # <a name="datetime-function"></a>Fonction DATETIME
 
-Renvoie la valeur de date et d'heure représentée par _DateHeure_ ou _expression_.
+Renvoie la valeur de date et d’heure représentée par  _datetime_ ou  _expression_.
   
 ## <a name="syntax"></a>Syntaxe
 
-DATETIME ("* * *DateTime* * *" | * * *expression* * * [, * * *LCID* * *]) 
+DATETIME( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _structure_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
+| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
 | _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute expression qui génère une date et une heure.  <br/> |
 | _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Spécifie l’identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
-Structure
+Datetime
   
 ## <a name="remarks"></a>Remarques
 
-Si l'argument *DateHeure* est introuvable ou ne peut pas être interprété comme une date ou une heure valide, DateTime renvoie une #VALUE! «. 
+Si  *datetime*  est manquante ou ne peut pas être interprétée comme une date ou une heure valide, DATETIME renvoie une #VALUE! erreur. 
   
 La valeur renvoyée est formatée selon les formats d’heure et de date abrégés définis dans les paramètres régionaux actuels de votre système d’exploitation. 
   
-La fonction DATETIME accepte également une valeur numérique simple pour *expression* où la partie entière du résultat représente le nombre de jours écoulés depuis le 30 décembre 1899 et la partie décimale la fraction du jour depuis minuit. 
+La fonction DATETIME accepte également une valeur de nombre unique pour  *l’expression*  où la partie nombre inte du résultat représente le nombre de jours depuis le 30 décembre 1899, et la partie décimale représente la fraction d’un jour depuis minuit. 
   
 ## <a name="example-1"></a>Exemple 1
 
@@ -64,7 +64,7 @@ Renvoie la valeur représentant 19/07/01 13:30 (en supposant que l’année actu
   
 ## <a name="example-4"></a>Exemple 4
 
-DATE ET HEURE (35580.6337)
+DATETIME(35580.6337)
   
 Renvoie la valeur représentant 30/05/97 15:12:32.
   

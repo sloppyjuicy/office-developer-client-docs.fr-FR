@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1033808
 localization_priority: Normal
 ms.assetid: c20842cd-86b1-83fa-49ba-118936013b6f
-description: ConVertit une formule produisant des codes de caractères 16 bits qui sont des codes de jeu de caractères codés sur un octet ou sur plusieurs octets élargis en une chaîne de codes de caractères Unicode 16 bits, à l'aide des jeux de caractères spécifiés.
+description: Convertit une formule qui produit des codes de caractères 16 bits qui sont élargis de codes de jeu de caractères codés sur un octet ou sur plusieurs octets en une chaîne de codes de caractères Unicode 16 bits, à l’aide des jeux de caractères spécifiés.
 ms.openlocfilehash: c885487f91e541027b7ba09812e7321a9deb00ac
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33405211"
 ---
 # <a name="rewiden-function"></a>Fonction REWIDEN
 
-ConVertit une formule produisant des codes de caractères 16 bits qui sont des codes de jeu de caractères codés sur un octet ou sur plusieurs octets élargis en une chaîne de codes de caractères Unicode 16 bits, à l'aide des jeux de caractères spécifiés. 
+Convertit une formule qui produit des codes de caractères 16 bits qui sont élargis de codes de jeu de caractères codés sur un octet ou sur plusieurs octets en une chaîne de codes de caractères Unicode 16 bits, à l’aide des jeux de caractères spécifiés. 
   
 ## <a name="syntax"></a>Syntaxe
 
-ReLARGESn (* * *srcCharSet* * *, * * *dstCharSet* * *, * * *Text* * *) 
+REWIDEN(** *srcCharSet* **, ** *dstCharSet* **, ** *text* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

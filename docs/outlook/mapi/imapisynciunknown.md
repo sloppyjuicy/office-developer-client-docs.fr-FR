@@ -25,22 +25,22 @@ ms.locfileid: "33405590"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit un mécanisme de synchronisation des messages électroniques au lieu d'utiliser l'API de transport. Cette interface est exposée sur un objet Store. En utilisant cette interface et [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), un fournisseur de transport peut fournir de meilleurs messages d'erreur et de progression que ceux qui apparaissent dans la boîte de dialogue d'envoi/réception dans Microsoft Outlook.
+Fournit un mécanisme de synchronisation du courrier électronique au lieu d’utiliser l’API de transport. Cette interface est exposée sur un objet store. À l’aide de cette interface et [de IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), un fournisseur de transport peut fournir des messages d’erreur et de progression meilleurs que ceux qui apparaissent dans la boîte de dialogue d’envoi/réception dans Microsoft Outlook.
   
-La boîte d'envoi se trouve toujours dans la Banque par défaut. Outlook continuera à utiliser les API de transport pour envoyer des messages, car le message sortant ne peut pas se trouver dans le magasin externe.
+La boîte d’envoi se trouve toujours dans le magasin par défaut. Outlook continuera à utiliser les API de transport pour envoyer des messages, car le message sortant ne peut pas se trouver dans le magasin externe.
   
 |||
 |:-----|:-----|
-|Exposé par:  <br/> |Banques et fournisseurs de transport  <br/> |
+|Exposé par :  <br/> |Fournisseurs de transport et de magasin  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
-|Appelé par :  <br/> |Banques et fournisseurs de transport  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPISync  <br/> |
+|Appelé par :  <br/> |Fournisseurs de magasins et de transports  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPISync  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implémenté par les fournisseurs de banque de messages. Cette méthode est appelée par Outlook 2010 et Outlook 2013 pour démarrer la synchronisation.  <br/> |
+|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implémenté par les fournisseurs de magasins de messages. Cette méthode est appelée par Outlook 2010 et Outlook 2013 pour démarrer la synchronisation.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

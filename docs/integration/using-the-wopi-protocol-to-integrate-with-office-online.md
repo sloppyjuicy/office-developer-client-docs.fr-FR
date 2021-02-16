@@ -1,5 +1,5 @@
 ---
-title: Utilisation du protocole WOPI pour l’intégration à Office Online
+title: Utilisation du protocole WOPI pour l'intégration à Office Online
 manager: soliver
 ms.date: 05/20/2015
 ms.audience: Developer

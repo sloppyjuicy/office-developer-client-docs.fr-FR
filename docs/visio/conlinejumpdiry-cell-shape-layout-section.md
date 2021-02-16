@@ -23,24 +23,24 @@ Détermine la direction de la déviation de trait dans le cas d'un connecteur dy
 |**Valeur**|**Direction de la déviation**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valeur par défaut de la page  <br/> |**visLOJumpDirYDefault** <br/> |
-| 0,1  <br/> | À gauche  <br/> |**visLOJumpDirYLeft** <br/> |
-| n°2  <br/> | À droite  <br/> |**visLOJumpDirYRight** <br/> |
+| 1   <br/> | À gauche  <br/> |**visLOJumpDirYLeft** <br/> |
+| 2   <br/> | À droite  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour définir la direction verticale par défaut de *toutes les* déviations de connecteur d'une page, utilisez la cellule PageLineJumpDirY de la section Page Layout. 
+Pour définir le sens  vertical par défaut de tous les sauts de connecteur sur une page, utilisez la cellule PageLineJumpDirY dans la section Mise en page. 
   
 Pour obtenir une référence à la cellule ConLineJumpDirY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | ConLineJumpDirY  <br/> |
+| Nom de la cellule :  <br/> | ConLineJumpDiry  <br/> |
    
 Pour obtenir une référence à la cellule ConLineJumpDirY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 | Index de la cellule :  <br/> |**visSLOJumpDirY** <br/> |
    

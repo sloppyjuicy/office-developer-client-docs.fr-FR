@@ -1,5 +1,5 @@
 ---
-title: Tables de banque de messages
+title: Tables de la boutique de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405351"
 ---
-# <a name="message-store-tables"></a>Tables de banque de messages
+# <a name="message-store-tables"></a>Tables de la boutique de messages
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La table de banque de messages contient des informations sur les fournisseurs de banques de messages dans le profil actuel. Il existe une table de banque de messages pour chaque session MAPI, implémentée par MAPI et utilisée par les clients. Les clients peuvent utiliser cette table, par exemple, pour rechercher toutes les instances d'un fournisseur particulier ou pour localiser une banque de messages spécifique. 
+La table de la boutique de messages contient des informations sur les fournisseurs de magasins de messages dans le profil actuel. Il existe une table de magasin de messages pour chaque session MAPI, implémentée par MAPI et utilisée par les clients. Les clients peuvent utiliser cette table, par exemple, pour localiser toutes les instances d’un fournisseur particulier ou pour localiser une magasin de messages spécifique. 
   
-La table de banque de messages est dynamique. Si l'utilisateur d'une application cliente modifie le profil, en modifiant la Banque de messages par défaut, par exemple, les valeurs des propriétés **PR_DEFAULT_STORE** pour les banques de messages affectées sont immédiatement mises à jour. 
+La table de la boutique de messages est dynamique. Si l’utilisateur d’une application cliente modifie le profil, en modifiant la boutique de messages par défaut, par exemple, les valeurs des propriétés **PR_DEFAULT_STORE** des magasins de messages affectés sont immédiatement mises à jour. 
   
-Les clients accèdent à la table de banque de messages en appelant la méthode [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) . 
+Les clients accèdent à la table de la boutique de messages en appelant la méthode [IMAPISession::GetMsgStoresTable.](imapisession-getmsgstorestable.md) 
   
-Les propriétés suivantes constituent le jeu de colonnes obligatoire dans la table de banque de messages:
+Les propriétés suivantes définissent la colonne requise dans la table de la boutique de messages :
   
 |||
 |:-----|:-----|
@@ -41,5 +41,5 @@ Les propriétés suivantes constituent le jeu de colonnes obligatoire dans la ta
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

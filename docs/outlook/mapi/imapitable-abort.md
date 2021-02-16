@@ -47,15 +47,15 @@ MAPI_E_UNABLE_TO_ABORT
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable:: Abort** arrête toute opération asynchrone en cours. 
+La **méthode IMAPITable::Abort** arrête toute opération asynchrone en cours. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour savoir si une opération asynchrone est en cours, appelez la méthode [IMAPITable:: GetStatus](imapitable-getstatus.md) . 
+Pour savoir si une opération asynchrone est en cours, appelez la méthode [IMAPITable::GetStatus.](imapitable-getstatus.md) 
   
-Si **Abort** interrompt le traitement d'un appel à la méthode [IMAPITable:: Restrict](imapitable-restrict.md) , l'état de la table sera tel qu'il était lors du traitement de l'appel **Abort** . 
+Si **Abort** interrompt le traitement d’un appel à la méthode [IMAPITable::Restrict,](imapitable-restrict.md) l’état de la table sera tel qu’il était au moment du traitement de l’appel d’abandon.  
   
-Si **Abort** interrompt le traitement d'un appel à la méthode [IMAPITable:: SortTable](imapitable-sorttable.md) , l'ordre de tri de la table n'est pas affecté et reste tel qu'il était avant l'appel **SortTable** . 
+Si **Abort** interrompt le traitement d’un appel à la méthode [IMAPITable::SortTable,](imapitable-sorttable.md) l’ordre de tri de la table n’est pas affecté et reste tel qu’il était avant l’appel **sortTable.** 
   
 ## <a name="see-also"></a>Voir aussi
 

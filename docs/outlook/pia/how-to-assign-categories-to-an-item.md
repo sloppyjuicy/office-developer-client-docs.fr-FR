@@ -1,5 +1,5 @@
 ---
-title: Affectation des catégories à un élément
+title: Affecter des catégories à un élément
 TOCTitle: Assign categories to an item
 ms:assetid: 4070801b-994a-46df-91fe-4efca834886e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424469(v=office.15)

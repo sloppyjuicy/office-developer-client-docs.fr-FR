@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm60027
 localization_priority: Normal
 ms.assetid: f5dcc6d9-474a-9ecb-21f5-56415d934890
-description: Détermine le calendrier utilisé pour les données de forme lorsque le type de données est date.
+description: Détermine le calendrier utilisé pour les données de forme lorsque le type de données est Date.
 ms.openlocfilehash: 2ddbd578053e2ae37514194450bd95dc9cdf441d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33432757"
 ---
 # <a name="calendar-cell-shape-data-section"></a>Calendar, cellule (section Custom Properties)
 
-Détermine le calendrier utilisé pour les données de forme lorsque le type de données est date.
+Détermine le calendrier utilisé pour les données de forme lorsque le type de données est Date.
   
 ## <a name="remarks"></a>Remarques
 
@@ -28,14 +28,14 @@ Pour obtenir une référence à la cellule Calendar par un nom à partir d'une a
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Hélice.  *nom* . Calendrier où prop.  *Name* est le nom de la ligne  <br/> |
+| Nom de la cellule :  <br/> | Prop.  *nom*  . Calendrier où Prop.  *nom est*  le nom de ligne  <br/> |
    
 Pour obtenir une référence à la cellule Calendar à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visCustPropsCalendar** <br/> |
    
 

@@ -20,20 +20,20 @@ ms.locfileid: "33426379"
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-- [Blocs de données (application Web personnalisée Access)](data-blocksaccess-custom-web-app.md)
+- [Blocs de données (application web personnalisée Access)](data-blocksaccess-custom-web-app.md)
     
-- [Actions de données (application Web personnalisée Access)](data-actions-access-custom-web-app.md)
+- [Actions de données (application web personnalisée Access)](data-actions-access-custom-web-app.md)
     
-- [Opérations d'entrée de données (application Web personnalisée Access)](data-entry-operations-access-custom-web-app.md)
+- [Opérations d’entrée de données (application web personnalisée Access)](data-entry-operations-access-custom-web-app.md)
     
-- [Objets de base de données (application Web personnalisée Access)](database-objects-access-custom-web-app.md)
+- [Objets de base de données (application web personnalisée Access)](database-objects-access-custom-web-app.md)
     
-- [Filtre/requête/recherche (application Web personnalisée Access)](filter-query-search-access-custom-web-app.md)
+- [Filtre/requête/recherche (application web personnalisée Access)](filter-query-search-access-custom-web-app.md)
     
-- [Commandes de macro (application Web personnalisée Access)](macro-commands-access-custom-web-app.md)
+- [Macro commands (Access custom web app)](macro-commands-access-custom-web-app.md)
     
-- [Flux de programme (application Web personnalisée Access)](program-flow-access-custom-web-app.md)
+- [Flux de programme (application web personnalisée Access)](program-flow-access-custom-web-app.md)
     
-- [Commandes de l'interface utilisateur (application Web personnalisée Access)](user-interface-commands-access-custom-web-app.md)
+- [Commandes d’interface utilisateur (application web personnalisée Access)](user-interface-commands-access-custom-web-app.md)
     
 

@@ -25,12 +25,12 @@ ms.locfileid: "33405526"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [EntryID](entryid.md) d'une taille spécifiée. 
+Calcule le nombre d’octets qui doivent être alloués à une nouvelle structure [ENTRYID](entryid.md) d’une taille spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**ENTRYID** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
@@ -38,9 +38,9 @@ CbNewENTRYID (_cb)
 
 ## <a name="parameters"></a>Paramètres
 
- __CB_
+ _ _cb_
   
-> Nombre d'octets dans l'identificateur d'entrée à stocker dans la nouvelle structure **EntryID** . 
+> Nombre d’octets dans l’identificateur d’entrée à stocker dans la nouvelle structure **ENTRYID.** 
     
 ## <a name="see-also"></a>Voir aussi
 

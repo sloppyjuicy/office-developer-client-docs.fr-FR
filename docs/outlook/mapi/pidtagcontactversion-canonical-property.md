@@ -25,7 +25,7 @@ ms.locfileid: "33407766"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la version des informations de contact d'un destinataire.
+Contient la version des informations de contact d’un destinataire.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la version des informations de contact d'un destinataire.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l'une des propriétés qui fournit des informations d'identification et d'accès à un destinataire. Ces propriétés sont définies par le destinataire et l'organisation du destinataire.
+Cette propriété est l’une des propriétés qui fournit des informations d’identification et d’accès sur un destinataire. Ces propriétés sont définies par le destinataire et l’organisation du destinataire.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

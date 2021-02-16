@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1a418c76-ebc7-47f2-ac91-797162e6e099
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 96bcd15606771bd112568ad94133507ab14b2bcd
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32358820"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), exprimé sous la forme d'un format d'ID d'entrée permanent.
+Contient le **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), exprimé sous la forme d’un format d’ID d’entrée permanent.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient le **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)
    
 ## <a name="remarks"></a>Remarques
 
-Cette valeur doit être présente pour tous les objets de carnet d'adresses sur un serveur NSPI (Name Service Provider Interface), son nom unique doit correspondre à la valeur de **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) et son DN doit suivre le format DN spécification propre au type d'objet. 
+Cette valeur doit être présente pour tous les objets de carnet d’adresses sur un serveur NSPI (Name Service Provider Interface), son nom unique (DN) doit correspondre à la valeur de **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), et son nom unique doit respecter la spécification de format DN spécifique au type d’objet. 
   
-Cette propriété n'est pas présente sur les objets dans un carnet d'adresses en mode hors connexion.
+Cette propriété n’est pas présente sur les objets d’un carnet d’adresses en mode hors connexion.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

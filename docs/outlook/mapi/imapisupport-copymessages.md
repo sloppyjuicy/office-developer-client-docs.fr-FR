@@ -25,7 +25,7 @@ ms.locfileid: "33405155"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Copie ou déplace les messages d'un dossier vers un autre dossier.
+Copie ou déplace des messages d’un dossier vers un autre dossier.
   
 ```cpp
 HRESULT CopyMessages(
@@ -44,57 +44,57 @@ HRESULT CopyMessages(
 
  _lpSrcInterface_
   
-> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder au dossier qui contient les messages à copier ou déplacer.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au dossier qui contient les messages à copier ou à déplacer.
     
  _lpSrcFolder_
   
-> dans Pointeur vers le dossier qui contient les messages à copier ou déplacer.
+> [in] Pointeur vers le dossier qui contient les messages à copier ou à déplacer.
     
  _lpMsgList_
   
-> dans Pointeur vers un tableau d'identificateurs d'entrée qui identifient les messages à copier ou déplacer. 
+> [in] Pointeur vers un tableau d’identificateurs d’entrée qui identifient les messages à copier ou à déplacer. 
     
  _lpDestInterface_
   
-> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder au dossier de destination pour les messages copiés ou déplacés.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au dossier de destination pour les messages copiés ou déplacés.
     
  _lpDestFolder_
   
-> dans Pointeur vers le dossier de destination pour les messages copiés ou déplacés. Ce dossier doit être ouvert.
+> [in] Pointeur vers le dossier de destination pour les messages copiés ou déplacés. Ce dossier doit être ouvert.
     
  _ulUIParam_
   
-> dans Pointeur vers un objet de progression qui affiche un indicateur de progression. Si la valeur NULL est transmise dans _lpProgress_, le fournisseur de banque de messages affiche un indicateur de progression à l'aide de l'implémentation de l'objet de progression MAPI. Le paramètre _lpProgress_ est ignoré sauf si l'indicateur MESSAGE_DIALOG est défini dans _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans  _ulFlags_.
     
  _lpProgress_
   
-> dans Pointeur vers un objet de progression qui affiche un indicateur de progression. Si la valeur NULL est transmise dans _lpProgress_, le fournisseur de banque de messages affiche un indicateur de progression à l'aide de l'implémentation de l'objet de progression MAPI. Le paramètre _lpProgress_ est ignoré sauf si l'indicateur MESSAGE_DIALOG est défini dans _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans  _ulFlags_.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le mode d'exécution de l'opération de copie ou de déplacement. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’opération de copie ou de déplacement est accomplie. Les indicateurs suivants peuvent être définies :
     
 MESSAGE_DIALOG 
   
-> Demande l'affichage d'un indicateur de progression.
+> Demande l’affichage d’un indicateur de progression.
     
 MESSAGE_MOVE 
   
-> Les messages doivent être déplacés au lieu d'être copiés. Si MESSAGE_MOVE n'est pas défini, les messages sont copiés.
+> Les messages doivent être déplacés au lieu d’être copiés. Si MESSAGE_MOVE n’est pas définie, les messages sont copiés.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'opération de copie ou de déplacement a réussi.
+> L’opération de copie ou de déplacement a réussi.
     
 MAPI_E_USER_CANCEL 
   
-> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** d'une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: CopyMessages** est implémentée pour les objets de prise en charge du fournisseur de banque de messages. Les fournisseurs de banques de messages peuvent appeler **IMAPISupport:: CopyMessages** dans leur implémentation de [IMAPIFolder:: CopyMessages](imapifolder-copymessages.md) pour copier ou déplacer un ou plusieurs messages d'un dossier à un autre. Dans le cadre de l'appel **IMAPISupport:: CopyMessages** , le fournisseur de banque de messages peut spécifier que MAPI doit afficher un indicateur de progression. 
+La **méthode IMAPISupport::CopyMessages** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages peuvent appeler **IMAPISupport::CopyMessages** dans leur implémentation [d’IMAPIFolder::CopyMessages](imapifolder-copymessages.md) pour copier ou déplacer un ou plusieurs messages d’un dossier vers un autre. Dans le cadre de l’appel **IMAPISupport::CopyMessages,** le fournisseur de magasin de messages peut spécifier que MAPI doit afficher un indicateur de progression. 
   
 ## <a name="see-also"></a>Voir aussi
 

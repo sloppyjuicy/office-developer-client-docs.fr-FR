@@ -25,11 +25,11 @@ ms.locfileid: "33406016"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Duplique un tableau de valeurs de propriété dans un bloc unique de mémoire MAPI qui combine les opérations des fonctions [ScCopyProps](sccopyprops.md) et [ScCountProps](sccountprops.md) . 
+Duplique un tableau de valeurs de propriétés dans un seul bloc de mémoire MAPI combinant les opérations des fonctions [ScCopyProps](sccopyprops.md) et [ScCountProps.](sccountprops.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -46,19 +46,19 @@ SCODE ScDupPropset(
 
  _cprop_
   
-> dans Nombre de valeurs de propriété dans le tableau indiqué par le paramètre _rgprop_ . 
+> [in] Nombre de valeurs de propriété dans le tableau indiqué par le _paramètre rgprop._ 
     
  _rgprop_
   
-> dans Pointeur vers un tableau de structures [SPropValue](spropvalue.md) définissant les valeurs de propriété à dupliquer. 
+> [in] Pointeur vers un tableau de structures [SPropValue](spropvalue.md) définissant les valeurs de propriété à dupliquer. 
     
  _lpAllocateBuffer_
   
-> dans Pointeur vers la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire pour le tableau dupliqué. 
+> [in] Pointeur vers la [fonction MAPIAllocateBuffer,](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire pour le tableau dupliqué. 
     
  _prgprop_
   
-> remarquer Pointeur vers la position initiale dans la mémoire où le tableau de structures **SPropValue** en double renvoyé est stocké. 
+> [out] Pointeur vers la position initiale dans la mémoire où le tableau dupliqué renvoyé des structures **SPropValue** est stocké. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

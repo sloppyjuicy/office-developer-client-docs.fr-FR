@@ -21,43 +21,43 @@ ms.locfileid: "33424902"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un client peut s'inscrire pour les notifications de carnet d'adresses ou de banque de messages dans le cadre de son processus d'initialisation.
+Un client peut s’inscrire aux notifications de carnet d’adresses ou de magasin de messages dans le cadre de son processus d’initialisation.
   
-MAPI prend en charge la notification dans le carnet d'adresses, quel que soit le fournisseur de carnet d'adresses qui le prend en charge. La prise en charge de la notification sur les banques de messages dépend du fournisseur de banque de messages particulier. Pour déterminer si un fournisseur de banque de messages particulier prend en charge les notifications, vérifiez sa propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). Si le magasin de messages prend en charge les notifications, le bit STORE_NOTIFY_OK est défini. 
+MAPI prend en charge les notifications sur le carnet d’adresses, que l’un des fournisseurs de carnets d’adresses la prend en charge ou non. La prise en charge des notifications sur les magasins de messages dépend du fournisseur de magasins de messages particulier. Pour déterminer si un fournisseur de magasin de messages particulier prend en charge les notifications, vérifiez sa propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). Si la boutique de messages prend en charge les notifications, STORE_NOTIFY_OK bits seront définies. 
   
-Inscrivez-vous pour les notifications en appelant la **** méthode Advise de l'objet source Advise. De nombreux objets **** implémentEnt Advise et les clients peuvent s'enregistrer avec ces objets de différentes façons. 
+Inscrivez-vous aux notifications en appelant la méthode Advise d’un objet source **de** conseil. De nombreux objets **implémentent Advise** et les clients peuvent s’inscrire avec ces objets de différentes manières. 
   
- **Pour vous inscrire pour une notification**
+ **Pour vous inscrire à une notification**
   
-1. Créer un objet récepteur MAPI Advise et incrémenter son décompte de références.
+1. Créez un objet de sink MAPI advise et incrémentez son nombre de références.
     
-2. Si nécessaire, appelez [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour créer un objet de récepteur de notification qui encapsule votre récepteur de notification d'origine, puis relâchez le récepteur de Conseil d'origine.. 
+2. Le cas échéant, appelez [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour créer un objet de sink de conseil qui enveloppe votre sink de conseil d’origine, puis relâchez le sink de conseil d’origine. 
     
-3. Appelez l'une des méthodes **Advise** suivantes pour terminer l'inscription: 
+3. Appelez l’une des méthodes **Advise** suivantes pour terminer l’inscription : 
     
-  - Appelez [IMAPISession:: Advise](imapisession-advise.md) pour enregistrer les notifications de session ou les notifications sur un objet de carnet d'adresses ou de banque de messages. 
+  - Appelez [IMAPISession::Advise](imapisession-advise.md) to register for session notifications or for notifications on an address book or message store object. 
     
-  - Appelez [IAddrBook:: Advise](iaddrbook-advise.md) pour inscrire les notifications de carnet d'adresses ou les notifications sur un utilisateur de messagerie, un conteneur ou une liste de distribution. 
+  - Appelez [IAddrBook::Advise](iaddrbook-advise.md) to register for address book notifications or for notifications on a messaging user, container, or distribution list. 
     
-  - Appelez [IABLogon:: Advise](iablogon-advise.md) pour enregistrer directement auprès d'un fournisseur de carnets d'adresses pour les notifications sur un utilisateur de messagerie, un conteneur ou une liste de distribution. 
+  - Appelez [IABLogon::Advise](iablogon-advise.md) to register directly with an address book provider for notifications on a messaging user, container, or distribution list. 
     
-  - Appelez [IMsgStore:: Advise](imsgstore-advise.md) pour inscrire les notifications de banque de messages ou pour les notifications d'un dossier ou d'un message. 
+  - Appelez [IMsgStore::Advise](imsgstore-advise.md) to register for message store notifications or for notifications on a folder or message. 
     
-  - Appelez [IMSLogon:: Advise](imslogon-advise.md) pour enregistrer directement auprès d'un fournisseur de banque de messages pour les notifications d'un dossier ou d'un message. 
+  - Appelez [IMSLogon::Advise](imslogon-advise.md) pour vous inscrire directement auprès d’un fournisseur de magasins de messages pour les notifications sur un dossier ou un message. 
     
-  - Appeler [IMAPITable:: conseille](imapitable-advise.md) de s'inscrire aux notifications de table. 
+  - Appelez [IMAPITable::Advise](imapitable-advise.md) pour vous inscrire aux notifications de table. 
     
-4. Mettre en cache le numéro de **** connexion renvoyé par Advise.
+4. Mettre en cache le numéro de connexion renvoyé par **Advise**.
     
-5. Si vous utilisez un récepteur de notifications encapsulées, libérez-le. Une fois que le récepteur de notifications a été inscrit, vous n'en avez plus besoin.
+5. Si vous utilisez un sink de conseil wrapped, relâchez-le. Une fois que le sink de conseil wrapped est inscrit, vous n’en avez plus besoin.
     
-L'appel de * * IMAPISession:: adVise * * vous permet d'enregistrer les notifications d'erreur critique sur la session globale ou pour diverses notifications sur des objets individuels. Les sessions envoient des notifications d'erreur critiques aux clients connectés à des sessions partagées lorsqu'un autre client utilisant la session partagée appelle la méthode [IMAPISession:: Logoff](imapisession-logoff.md) . Pour vous inscrire aux notifications de session, transmettez la valeur NULL pour le paramètre d'identificateur d'entrée. Pour vous inscrire aux notifications sur un objet individuel, transmettez l'identificateur d'entrée de l'objet. La méthode **IMAPISession** transfère l'appel au fournisseur de services approprié, tel que déterminé par la partie **MAPIUID** de l'identificateur d'entrée. L'appel de **IMAPISession:: Advise** to Register for Object notifications est plus simple que l'appel de la méthode Advise d'un fournisseur de services. **** 
+L’appel de ** IMAPISession::Advise ** vous permet de vous inscrire aux notifications d’erreur critiques sur la session globale ou pour diverses notifications sur des objets individuels. Les sessions envoient des notifications d’erreur critiques aux clients connectés à des sessions partagées lorsqu’un autre client utilisant la session partagée appelle la méthode [IMAPISession::Logoff.](imapisession-logoff.md) Pour vous inscrire aux notifications de session, passez null pour le paramètre d’identificateur d’entrée. Pour vous inscrire aux notifications sur un objet individuel, passez l’identificateur d’entrée de l’objet. La **méthode IMAPISession** permet de forwarder l’appel au fournisseur de services approprié, tel que déterminé par la partie **MAPIUID** de l’identificateur d’entrée. Appeler **IMAPISession::Advise** pour s’inscrire aux notifications d’objet est plus simple que d’appeler la méthode Advise d’un fournisseur **de** services. 
   
-L'enregistrement avec le carnet d'adresses est similaire à celui de la session. Pour vous inscrire à une notification d'erreur critique à partir du carnet d'adresses, transmettez la valeur NULL pour l'identificateur d'entrée. Pour vous inscrire aux notifications sur un objet de carnet d'adresses particulier, spécifiez l'identificateur d'entrée et l'événement ou les événements intéressants appropriés. N'oubliez pas que de nombreux fournisseurs de carnets d'adresses ne prennent pas en charge les notifications sur les objets individuels. Elles prennent en charge les notifications de table sur leurs tables de contenu et de hiérarchie. 
+L’inscription avec le carnet d’adresses est similaire à l’inscription à la session. Pour vous inscrire à la notification d’erreur critique à partir du carnet d’adresses, passez NULL pour l’identificateur d’entrée. Pour vous inscrire aux notifications sur un objet de carnet d’adresses particulier, spécifiez l’identificateur d’entrée et les événements d’intérêt appropriés. N’ignorez pas que de nombreux fournisseurs de carnet d’adresses ne peuvent pas prendre en charge les notifications sur des objets individuels. Au lieu de cela, ils supportent les notifications de tableau sur leur contenu et leurs tables hiérarchiques. 
   
-Il est recommandé de libérer le récepteur de notification que vous implémentez ou créez avec [HrAllocAdviseSink](hrallocadvisesink.md) immédiatement après un retour réussi d'un appel de **notification** . En effet, il est possible pour les fournisseurs de services de libérer votre récepteur de notifications après l'appel de la **notification** , mais avant qu'un appel Unadvise ne soit effectué. **** Une fois que vous avez attribué à la source de notification un pointeur vers votre récepteur de notification et que le nombre de références a été incrémenté sur ce récepteur de notifications, il est recommandé de le libérer à moins que vous n'utilisiez à long terme. 
+Il est conseillé de libérer le reçu de conseil que vous implémentez ou créez avec [HrAllocAdviseSink](hrallocadvisesink.md) immédiatement après un retour réussi **d’un appel de** conseil. En effet, il est possible pour les fournisseurs de services de libérer votre sink de conseil après l’appel **Advise,** mais avant qu’un appel **Unadvise** ne soit effectué. Une fois que vous avez donné à la source de conseil un pointeur vers votre sink de conseil et que le nombre de références a été incrémenté sur ce sink de conseil, il est judicieux de le libérer, sauf si vous avez une utilisation à long terme pour celui-ci. 
   
 > [!NOTE]
-> Tous les numéros de connexion qui représentent des enregistrements d'avis valides ne seront **** pas libérés tant que l'appel Unadvise n'est pas effectué. 
+> Tous les numéros de connexion qui représentent des inscriptions d’avis valides ne seront pas publiés tant que l’appel **Unadvise** n’aura pas été effectué. 
   
 

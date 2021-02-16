@@ -25,11 +25,11 @@ ms.locfileid: "33434598"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une case d'option qui fera partie d'un groupe de cases d'option. Le groupe de cases d'option est utilisé dans une boîte de dialogue qui est générée à partir d'une table d'affichage.
+Décrit une seule bouton d’radio qui fera partie d’un groupe de boutons d’radio. Le groupe de case d’affichage sera utilisé dans une boîte de dialogue qui est conçue à partir d’une table d’affichage.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLRADIOBUTTON
@@ -47,23 +47,23 @@ typedef struct _DTBLRADIOBUTTON
 
  **ulbLpszLabel**
   
-> Position en mémoire de l'étiquette de la chaîne de caractères pour la case d'option.
+> Position en mémoire de l’étiquette de chaîne de caractères de la bouton d’radio.
     
  **ulFlags**
   
-> Masque de des indicateurs utilisé pour désigner le format de l'étiquette désignée par le membre **ulbLpszLabel** . L'indicateur suivant peut être défini: 
+> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel.** L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
-> L'étiquette est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, l'étiquette est au format ANSI.
+> L’étiquette est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, l’étiquette est au format ANSI.
     
  **ulcButtons**
   
-> Nombre de boutons dans le groupe de cases d'option. Les structures **DTBLRADIOBUTTON** pour les autres boutons du groupe doivent être contenues dans des lignes successives de la table d'affichage. Chacune de ces lignes doit contenir la même valeur pour le membre **ulcButtons** . 
+> Nombre de boutons dans le groupe de boutons d’radio. Les structures **DTBLRADIOBUTTON pour** les autres boutons du groupe doivent être contenues dans des lignes successives du tableau d’affichage. Chacune de ces lignes doit contenir la même valeur pour le **membre ulcButtons.** 
     
  **ulPropTag**
   
-> Balise de propriété pour une propriété de type PT_LONG. La sélection initiale dans le groupe de cases d'option est basée sur la valeur initiale de cette propriété. Chaque bouton dans le groupe doit avoir **ulPropTag** défini sur la même propriété. 
+> Balise de propriété pour une propriété de type PT_LONG. La sélection initiale dans le groupe de boutons d’radio est basée sur la valeur initiale de cette propriété. Chaque bouton du groupe doit avoir **ulPropTag** définie sur la même propriété. 
     
  **lReturnValue**
   
@@ -71,11 +71,11 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLRADIOBUTTON** décrit un bouton radio qui est associé à un groupe de boutons. Un seul bouton du groupe peut être vérifié; le fait de définir un bouton entraîne l'annulation des autres boutons du groupe. 
+Une structure **DTBLRADIOBUTTON** décrit une bouton d’radio un contrôle de bouton associé à un groupe de boutons. Un seul bouton du groupe peut être vérifié . la définition d’un bouton entraîne l’insé« unset » des autres boutons du groupe. 
   
-Nombre de boutons indique le nombre de cases d'option dans le groupe. Les structures des autres cases d'option du groupe doivent se trouver dans les lignes suivantes de la table d'affichage. Chacune de ces structures doit avoir la même valeur pour le nombre de boutons.
+Le nombre de boutons est le nombre de boutons d’radio dans le groupe. Les structures des autres boutons d’radio du groupe doivent se trouver dans les lignes suivantes du tableau d’affichage. Chacune de ces structures doit avoir la même valeur pour son nombre de boutons.
   
-Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
+Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

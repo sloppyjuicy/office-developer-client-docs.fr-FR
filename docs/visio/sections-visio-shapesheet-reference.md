@@ -1,5 +1,5 @@
 ---
-title: Sections (référence Visio ShapeSheet)
+title: Sections (Visio ShapeSheet Reference)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419225"
 ---
-# <a name="sections-visio-shapesheet-reference"></a>Sections (référence Visio ShapeSheet)
+# <a name="sections-visio-shapesheet-reference"></a>Sections (Visio ShapeSheet Reference)
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [1-D Endpoints, section](1-d-endpoints-section.md)
     
@@ -87,7 +87,7 @@ ms.locfileid: "33419225"
     
 - [Reviewer, section](reviewer-section.md)
     
-- [Section &amp; grille de règle](rulergrid-section.md)
+- [Ruler &amp; Grid, section](rulergrid-section.md)
     
 - [Scratch, section](scratch-section.md)
     

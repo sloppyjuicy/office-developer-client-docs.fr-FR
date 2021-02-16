@@ -25,7 +25,7 @@ ms.locfileid: "33419253"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un objet table d'affichage incorporé.
+Contient un objet de tableau d’affichage incorporé.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient un objet table d'affichage incorporé.
    
 ## <a name="remarks"></a>Remarques
 
-Le passage de cette propriété à la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) pour l'objet renvoie une interface [IMAPITable](imapitableiunknown.md) qui permet la création de la table d'affichage. MAPI utilise ce tableau pour afficher les feuilles de propriétés d'un objet de carnet d'adresses en réponse à un appel [IAddrBook::D etails](iaddrbook-details.md) . 
+La transmission de cette propriété à la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) pour l’objet renvoie une interface [IMAPITable](imapitableiunknown.md) qui permet la création du tableau d’affichage. MAPI utilise ce tableau pour afficher les feuilles de propriétés d’un objet de carnet d’adresses en réponse à un appel [IAddrBook::D etails.](iaddrbook-details.md) 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

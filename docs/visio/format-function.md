@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251424
 localization_priority: Normal
 ms.assetid: 52f5ef4d-07c6-ab36-bf74-b30b50eea221
-description: Renvoie le résultat d'expression sous la forme d'une chaîne mise en forme conformément à formatPicture.
+description: Renvoie le résultat de l’expression sous la forme d’une chaîne mise en forme en fonction de formatpicture.
 ms.openlocfilehash: 5eb2195c2bc52e9cc8e7aa8bc4068826a5cd14c5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,18 +18,18 @@ ms.locfileid: "33404651"
 ---
 # <a name="format-function"></a>Fonction FORMAT
 
-Renvoie le résultat d' _expression_ sous la forme d'une chaîne mise en forme conformément à _formatPicture_.
+Renvoie le résultat de  _l’expression_ sous la forme d’une chaîne mise en forme en fonction de  _formatpicture_.
   
 ## <a name="syntax"></a>Syntaxe
 
-FORMAT (* * *expression* * *, "* * *formatPicture* * *) 
+FORMAT(** *expression* **, » ** *formatpicture* ** « ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur.  <br/> |
-| _formatPicture_ <br/> |Obligatoire  <br/> |**String** <br/> |Modèle de format utilisé pour la mise en forme de la chaîne.  <br/> |
+| _formatpicture_ <br/> |Obligatoire  <br/> |**String** <br/> |Modèle de format utilisé pour la mise en forme de la chaîne.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -37,9 +37,9 @@ Chaîne
   
 ## <a name="remarks"></a>Remarques
 
-Le type de l’expression et celui indiqué dans le modèle de format régissent le comportement de la chaîne renvoyée. Le _formatPicture_ doit être approprié pour le type d'expression. Pour plus d'informations sur la spécification des images de format, voir [à propos de la mise en forme des images](about-format-pictures.md).
+Le type de l’expression et celui indiqué dans le modèle de format régissent le comportement de la chaîne renvoyée. La  _mise en forme doit_ être appropriée pour le type d’expression. Pour plus d’informations sur la spécification d’images de format, voir [à propos des images de format.](about-format-pictures.md)
   
-Renvoie une erreur si le résultat d' _expression_ et le type attendu dans _formatPicture_ sont de même nature ou s'il existe des erreurs de syntaxe dans _formatPicture_.
+Renvoie une erreur si le résultat de  _l’expression_ et le type attendu dans  _formatpicture_ sont d’un type différent ou s’il existe des erreurs de syntaxe dans  _formatpicture_.
   
 ## <a name="example-1"></a>Exemple 1
 

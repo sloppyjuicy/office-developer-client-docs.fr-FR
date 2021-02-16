@@ -25,11 +25,11 @@ ms.locfileid: "33404973"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine la taille, en octets, d'un tableau de valeurs de propriété et valide la mémoire associée au tableau. 
+Détermine la taille, en octets, d’un tableau de valeurs de propriétés et valide la mémoire associée au tableau. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -45,15 +45,15 @@ SCODE ScCountProps(
 
  _cprop_
   
-> dans Nombre de propriétés dans le tableau indiqué par le paramètre _rgprop_ . 
+> [in] Nombre de propriétés dans le tableau indiqué par le _paramètre rgprop._ 
     
  _rgprop_
   
-> dans Pointeur vers une plage dans un tableau de structures [SPropValue](spropvalue.md) qui définit les propriétés dont la taille doit être déterminée. Cette plage ne commence pas nécessairement au début du tableau. 
+> [in] Pointeur vers une plage dans un tableau de structures [SPropValue](spropvalue.md) qui définit les propriétés dont la taille doit être déterminée. Cette plage ne commence pas nécessairement au début du tableau. 
     
- _circuits_
+ _pcb_
   
-> remarquer Pointeur facultatif vers la taille, en octets, du tableau de propriétés.
+> [out] Pointeur facultatif vers la taille, en octets, du tableau de propriétés.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -63,13 +63,13 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER 
   
-> Au moins une propriété dans le tableau de valeurs de propriété a un identificateur de PROP_ID_NULL ou PROP_ID_INVALID, ou le tableau de propriétés contient une propriété à valeurs multiples sans valeur de propriété.
+> Au moins une propriété du tableau de valeurs de propriétés possède un identificateur PROP_ID_NULL ou PROP_ID_INVALID, ou le tableau de propriétés contient une propriété à valeurs multiples sans valeur de propriété.
     
 ## <a name="remarks"></a>Remarques
 
-Si NULL est transmis dans le paramètre _PCB_ , la fonction **ScCountProps** valide le tableau de notifications, mais aucun décompte n'est réalisé. Si une valeur non null est transmise dans _PCB_, la fonction **ScCountNotifications** détermine la taille du tableau et stocke la cause de la _PCB_. Le paramètre _PCB_ doit être assez grand pour contenir l'intégralité du tableau. 
+Si NULL est transmis dans le  _paramètre pcb,_ la **fonction ScCountProps** valide le tableau de notifications, mais aucun décompte n’est effectué. Si une valeur non null est passée dans  _pcb,_ la **fonction ScCountNotifications** détermine la taille du tableau et stocke la  _cause pcb_. Le  _paramètre pcb_ doit être suffisamment grand pour contenir la totalité du tableau. 
   
-Comme il est compté, **ScCountProps** valide la mémoire associée au tableau. **ScCountProps** fonctionne uniquement avec les propriétés relatives à l'interface MAPI qui contient des informations. 
+Au cours de son comptage, **ScCountProps** valide la mémoire associée au tableau. **ScCountProps fonctionne** uniquement avec les propriétés sur lesquelles MAPI dispose d’informations. 
   
 ## <a name="see-also"></a>Voir aussi
 

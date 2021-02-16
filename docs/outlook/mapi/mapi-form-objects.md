@@ -21,11 +21,11 @@ ms.locfileid: "33404784"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les objets de formulaire sont créés dynamiquement par les serveurs de formulaires afin d'afficher des messages spécifiques et d'autoriser les utilisateurs à interagir avec eux. Un objet Form est, par conséquent, une instanciation de la classe dérivée de [IMAPIForm](imapiformiunknown.md) qui est implémentée par le serveur de formulaire. Lorsqu'une application cliente ouvre un message, le serveur de formulaire pour cette classe de message crée un objet Form pour gérer le message. L'objet Form crée ensuite son interface et affiche les propriétés du message qu'elle contient. L'objet Form et son interface persistent jusqu'à ce que l'utilisateur le ferme. L'objet Form gère toutes les modifications apportées aux valeurs des propriétés du message. 
+Les objets de formulaire sont créés dynamiquement par les serveurs de formulaires afin d’afficher des messages spécifiques et permettre aux utilisateurs d’interagir avec eux. Un objet de formulaire est, par conséquent, une ins instantiation de la classe dérivée [d’IMAPIForm](imapiformiunknown.md) qui est implémentée par le serveur de formulaires. Lorsqu’une application cliente ouvre un message, le serveur de formulaires de cette classe de message crée un objet de formulaire pour gérer le message. L’objet formulaire crée ensuite son interface et y affiche les propriétés du message. L’objet de formulaire et son interface persistent jusqu’à ce que l’utilisateur le ferme. L’objet de formulaire gère les modifications apportées aux valeurs des propriétés du message. 
   
-En outre, les interfaces de formulaire MAPI définissent un mécanisme par lequel un objet Form peut charger et afficher une série de messages. Il s'agit d'un mécanisme efficace, car il évite la destruction et la création d'objets message et de leurs interfaces inutiles. Lorsque le client de messagerie le demande de charger un autre message, l'objet Form doit enregistrer les modifications apportées aux propriétés du message actif.
+En outre, les interfaces de formulaire MAPI définissent un mécanisme par lequel un objet de formulaire peut charger et afficher une série de messages. Il s’agit d’un mécanisme d’efficacité, car il évite la destruction inutile et la création d’objets de message et de leurs interfaces. Lorsque le client de messagerie demande le chargement d’un autre message, l’objet formulaire doit enregistrer les modifications apportées aux propriétés du message actuel.
   
-Pour plus d'informations sur la perspective d'un objet de formulaire dans une application cliente, consultez la rubrique [MAPI Custom Form Objects](mapi-custom-form-objects.md).
+Pour plus d’informations sur la perspective des objets de formulaire d’une application cliente, voir [MAPI Custom Form Objects](mapi-custom-form-objects.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -23,7 +23,7 @@ Détermine si les formes sont localisées lors de leur copie d'un document à l'
 |**Valeur**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Localise une forme dans la langue du document de destination.  <br/> |
-| FALSE  <br/> | Ne localise pas une forme en fonction de la langue du document de destination (valeur par défaut).  <br/> |
+| FALSE  <br/> | Ne localisez pas une forme en fonction de la langue du document de destination (valeur par défaut).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -37,7 +37,7 @@ Pour obtenir une référence à la cellule LocalizeMerge à l'aide d'un index à
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
 | Index de la cellule :  <br/> |**visObjLocalizeMerge** <br/> |
    

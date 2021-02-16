@@ -23,8 +23,8 @@ Modifie l'aspect que prend un connecteur lorsqu'il est glissé sur la page de de
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Reste droit (aucune branche)  <br/> |**visDynFBDefault** <br/> |
-| 0,1  <br/> | Affiche trois branches lors du déplacement.  <br/> |**visDynFBUCon3Leg** <br/> |
-| n°2  <br/> | Affiche cinq branches lors du déplacement.  <br/> |**visDynFBUCon5Leg** <br/> |
+| 1   <br/> | Affiche trois branches lors du déplacement.  <br/> |**visDynFBUCon3Leg** <br/> |
+| 2   <br/> | Affiche cinq branches lors du déplacement.  <br/> |**visDynFBUCon5Leg** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule DynFeedback à l'aide d'un index à p
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
 | Index de la cellule :  <br/> |**visDynFeedback** <br/> |
    

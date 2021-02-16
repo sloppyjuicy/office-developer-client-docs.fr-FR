@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule Prompt par un nom à partir d'une aut
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Hélice.  *Nom* . Invite où *nom* est le nom de la ligne  <br/> |
+| Nom de la cellule :  <br/> | Prop.  *Nom*  . Invite où  *Name est*  le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule Prompt à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp +** *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowProp +** *i*  où  *i*  = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visCustPropsPrompt** <br/> |
    
 

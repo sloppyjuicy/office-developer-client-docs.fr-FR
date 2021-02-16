@@ -25,34 +25,34 @@ ms.locfileid: "33404840"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un rapport de non-remise s'applique uniquement aux membres discrets d'une liste de distribution plutôt qu'à la liste entière. 
+Contient TRUE si un rapport non distribué s’applique uniquement aux membres discrets d’une liste de distribution plutôt qu’à la liste entière. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DISCRETE_VALUES  <br/> |
 |Identificateur :  <br/> |0x0E0E  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée dans un rapport de non-remise lorsque le message n'a pas pu être remis à un ou plusieurs membres d'une liste de distribution. Son objectif est de limiter les tentatives de retransmission aux seuls membres individuels et non à la liste de distribution dans son ensemble. 
+Cette propriété est utilisée dans un rapport non remis lorsque le message n’a pas pu être remis à un ou plusieurs membres d’une liste de distribution. Son objectif est de limiter les tentatives de retransmission à ces membres individuels et non à la liste de distribution dans son ensemble. 
   
-Le tableau de destinataires d'un rapport de non-remise contient les entrées de tous les destinataires auxquels le message n'a pas pu être remis, ainsi que les listes de distribution, le cas échéant, auxquelles ils appartiennent. Le fournisseur de transport doit affecter la valeur TRUE à cette propriété pour chaque entrée de liste de distribution, et il doit copier **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) et **PR_SEARCH_KEY** ([ PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de la liste de distribution vers **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) et **PR_ORIGINAL_SEARCH_KEY** ([ PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) pour chaque membre de cette liste de distribution. 
+La table des destinataires d’un rapport non remis contient des entrées pour tous les destinataires auxquels le message n’a pas pu être remis, ainsi que pour les listes de distribution, le cas contraire, à laquelle ils appartiennent. Le fournisseur de transport doit définir cette propriété sur TRUE pour chaque entrée de liste de distribution. elle doit copier les propriétés **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) et **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de la liste de distribution vers les propriétés **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) et **PR_ORIGINAL_SEARCH_KEY** ([PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) pour chaque membre de cette liste de distribution. 
   
- **PR_DISCRETE_VALUES** ne doit pas être défini pour toute entrée de destinataire de rapport de non-remise autre qu'une liste de distribution. 
+ **PR_DISCRETE_VALUES** ne doivent pas être définies pour toute entrée de destinataire de rapport nondelivery autre qu’une liste de distribution. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

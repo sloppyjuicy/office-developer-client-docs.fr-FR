@@ -21,9 +21,9 @@ ms.locfileid: "33419302"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les clients MAPI peuvent établir des liens vers les dll MAPI de manière implicite ou explicitement à l'aide des fonctions Windows **LoadLibrary** et **GetProcAddress**. Pour plus d'informations sur la liaison explicite des dll MAPI, voir [lien vers des fonctions MAPI](how-to-link-to-mapi-functions.md).
+Les clients MAPI peuvent établir un lien vers les DLL MAPI implicitement ou explicitement à l’aide des fonctions Windows **LoadLibrary** et **GetProcAddress**. Pour plus d’informations sur la liaison explicite des DLL MAPI, voir [Lien vers les fonctions MAPI.](how-to-link-to-mapi-functions.md)
   
-MAPI fournit des instructions de définition de type dans le MAPIX. H pour chacune des fonctions suivantes:
+MAPI fournit des instructions de définition de type dans MAPIX. Fichier d’en-tête H pour chacune des fonctions suivantes :
   
 [MAPILogonEx](mapilogonex.md)
   
@@ -39,8 +39,8 @@ MAPI fournit des instructions de définition de type dans le MAPIX. H pour chacu
   
 [MAPIAdminProfiles](mapiadminprofiles.md)
   
-Utilisez ces définitions de types pour appeler correctement les points d'entrée correspondants si vous liez explicitement les dll MAPI.
+Utilisez ces définitions de type pour appeler correctement les points d’entrée correspondants si vous liez explicitement aux DLL MAPI.
   
-Les fournisseurs de services peuvent contenir des fonctionnalités non MAPI (fonctionnalités totalement non liées à MAPI) dans leur DLL. Si vous devez utiliser ces fonctionnalités, appelez **LoadLibrary** avant d'utiliser la dll et **FreeLibrary** pour supprimer la dll de la mémoire après son utilisation. Comme MAPI n'est pas conscient des utilisations non-MAPI d'un fournisseur de services DLL, il n'existe aucune garantie que la DLL sera disponible si nécessaire. MAPI publie une DLL de fournisseur de services lorsqu'il n'y a plus de client avec des sessions actives qui nécessitent ses services. 
+Les fournisseurs de services peuvent contenir des fonctionnalités non MAPI (fonctionnalités totalement non liées à MAPI) dans leur DLL. Si vous devez utiliser ces fonctionnalités, appelez **LoadLibrary** avant d’utiliser la DLL et **FreeLibrary** pour supprimer la DLL de la mémoire après son utilisation. Étant donné que MAPI ignore les utilisations non MAPI d’une DLL de fournisseur de services, il n’existe aucune garantie que la DLL sera disponible si nécessaire. MAPI publie une DLL de fournisseur de services lorsqu’il n’y a plus de clients avec des sessions actives qui nécessitent ses services. 
   
 

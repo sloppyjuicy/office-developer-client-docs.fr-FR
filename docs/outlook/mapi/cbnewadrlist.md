@@ -25,12 +25,12 @@ ms.locfileid: "33404315"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [ADRLIST](adrlist.md) qui contient un nombre spécifié de destinataires représentés par des structures [ADRENTRY](adrentry.md) . 
+Calcule le nombre d’octets qui doivent être alloués à une nouvelle structure [ADRLIST](adrlist.md) qui contient un nombre spécifié de destinataires représentés par des structures [ADRENTRY.](adrentry.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**ADRLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 CbNewADRLIST (_centries)
@@ -38,9 +38,9 @@ CbNewADRLIST (_centries)
 
 ## <a name="parameters"></a>Paramètres
 
- __centries_
+ _ _centries_
   
-> Nombre de structures **ADRENTRY** à inclure dans la nouvelle structure **ADRLIST** . 
+> Nombre de structures **ADRENTRY** à inclure dans la nouvelle structure **ADRLIST.** 
     
 ## <a name="see-also"></a>Voir aussi
 

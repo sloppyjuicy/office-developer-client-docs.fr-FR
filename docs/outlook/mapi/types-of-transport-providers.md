@@ -21,25 +21,25 @@ ms.locfileid: "33406163"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Tous les fournisseurs de transport prennent en charge une gamme de fonctionnalités standard, telles que:
+Tous les fournisseurs de transport supportent une gamme de fonctionnalités standard, telles que :
   
 - Assurer une sécurité appropriée pour le système de messagerie sous-jacent.
     
 - Envoi et réception de messages à partir du système de messagerie sous-jacent.
     
-- En exposant les types d'adresses pris en charge par les fournisseurs de transport, le spouleur MAPI et les applications clientes peuvent les utiliser correctement.
+- Exposition des types d’adresses que les fournisseurs de transport prendre en charge afin que lepooler MAPI et les applications clientes peuvent les utiliser correctement.
     
-- Acceptation de la remise de destinataires spécifiques.
+- Accepter la remise pour des destinataires spécifiques.
     
-De plus, MAPI prend en charge deux types de fournisseurs spécialisés pour des systèmes de messagerie spécifiques.
+En outre, MAPI prend en charge deux types spécialisés de fournisseurs pour des systèmes de messagerie spécifiques.
   
 |**Type de transport**|**Fonctionnalités ajoutées**|
 |:-----|:-----|
-|Transport à distance  <br/> |Permet l'interopérabilité avec les clients connectés à distance.  <br/> |
-|Transport TNEF  <br/> |Permet de conserver les propriétés MAPI sur les systèmes de messagerie qui ne les prennent pas en charge.  <br/> |
+|Transport à distance  <br/> |Active l’interopérabilité avec les clients connectés à distance.  <br/> |
+|TNEF Transport  <br/> |Permet de conserver les propriétés MAPI sur les systèmes de messagerie qui ne les prisent pas en charge.  <br/> |
    
-Les transports TNEF sont utilisés pour traduire les messages entre les systèmes de messagerie qui prennent en charge différents ensembles de propriétés MAPI. Les transports TNEF utilisent l'interface MAPI [ITnef: IUnknown](itnefiunknown.md) pour convertir les propriétés que le système de destination ne peut pas représenter directement dans un flux de données binaire qui peut être attaché au message. Par la suite, un autre transport TNEF peut utiliser **ITnef** pour décoder le flux de données et mettre les propriétés MAPI d'origine à la disposition des applications clientes. En outre, la prise en charge de TNEF est requise si votre transport doit prendre en charge des classes de message personnalisées. Pour plus d'informations sur l'implémentation des transports TNEF, consultez [la rubrique développement d'un fournisseur de transport compatible TNEF](developing-a-tnef-enabled-transport-provider.md).
+Les transports TNEF sont utilisés pour traduire des messages entre des systèmes de messagerie qui utilisent différents ensembles de propriétés MAPI. Les transports TNEF utilisent l’interface MAPI [ITnef : IUnknown](itnefiunknown.md) pour convertir les propriétés que le système de destination ne peut pas représenter directement en un flux de données binaires qui peut être joint au message. Par la suite, un autre transport TNEF peut utiliser **ITnef** pour décoder le flux de données et rendre les propriétés MAPI d’origine disponibles pour les applications clientes. En outre, la prise en charge du TNEF est requise si votre transport doit prendre en charge des classes de message personnalisées. Pour plus d’informations sur l’implémentation des transports TNEF, voir [Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md).
   
-Si votre fournisseur de transport n'est pas l'un de ces types, vous devrez l'implémenter avec les fonctions MAPI de base et les fonctions réseau disponibles sur votre plateforme cible.
+Si votre fournisseur de transport n’est pas de ce type, vous devez l’implémenter avec les fonctions MAPI de base et les fonctions réseau disponibles sur votre plateforme cible.
   
 

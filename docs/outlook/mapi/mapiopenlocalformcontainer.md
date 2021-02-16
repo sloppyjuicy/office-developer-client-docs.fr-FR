@@ -25,11 +25,11 @@ ms.locfileid: "33427737"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un pointeur d'interface vers la bibliothèque de formulaires locale. 
+Renvoie un pointeur d’interface vers la bibliothèque de formulaires locale. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -43,7 +43,7 @@ MAPIOpenLocalFormContainer(
 
  _ppfcnt_
   
-> remarquer Pointeur vers un pointeur vers l'interface de la bibliothèque de formulaires locale.
+> [out] Pointeur vers un pointeur vers l’interface de bibliothèque de formulaires locale.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -51,7 +51,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-L'interface à laquelle un pointeur est renvoyé peut être utilisée par des programmes d'installation tiers pour installer des formulaires spécifiques aux applications dans la bibliothèque sans que le programme doive d'abord se connecter à MAPI. 
+L’interface à laquelle un pointeur est renvoyé peut être utilisée par des programmes d’installation tiers pour installer des formulaires propres à l’application dans la bibliothèque sans que le programme n’a d’abord à se connecter à MAPI. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -59,7 +59,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI utilise la méthode **MAPIOpenLocalFormContainer** pour ouvrir le conteneur de formulaire local afin de le rendre dans une nouvelle fenêtre.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI utilise la **méthode MAPIOpenLocalFormContainer** pour ouvrir le conteneur de formulaire local à restituer dans une nouvelle fenêtre.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

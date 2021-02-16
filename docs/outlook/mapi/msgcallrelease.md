@@ -25,13 +25,13 @@ ms.locfileid: "33405911"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel qui peut libérer une interface **IStorage** après la publication de la version finale d'un objet **IMessage** basée dessus avec la fonction [OpenIMsgOnIStg](openimsgonistg.md) . 
+Définit une fonction de rappel qui peut libérer une interface **IStorage** après la version finale d’un objet **IMessage** créé au-dessus avec la fonction [OpenIMsgOnIStg.](openimsgonistg.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |IMessage. h  <br/> |
-|Fonction définie implémentée par:  <br/> |Applications clientes et fournisseurs de services  <br/> |
-|Fonction définie appelée par:  <br/> |MAPI  <br/> |
+|Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
+|Fonction définie implémentée par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
+|Fonction définie appelée par :  <br/> |MAPI  <br/> |
    
 ```cpp
 typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
@@ -43,11 +43,11 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
 
  _ulCallerData_
   
-> dans Contient des informations sur l'application appelante à propos de l'interface **IMessage** . 
+> [in] Contient des informations d’application d’appel sur **l’interface IMessage.** 
     
  _lpMessage_
   
-> dans Pointeur vers le message de niveau supérieur et pièces jointes qui ont été publiées.
+> [in] Pointeur vers le message de niveau supérieur et les pièces jointes qui ont été libérées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -25,7 +25,7 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-IS1D ()
+IS1D()
   
 ### <a name="return-value"></a>Valeur renvoyée
 

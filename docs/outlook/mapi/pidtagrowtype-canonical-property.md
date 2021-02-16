@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d57ce5c8-1f60-4709-b86a-4468c4208dfe
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 962e8c92ae61e8b60862a3ae26a7cdfbf5034e89
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,24 +25,24 @@ ms.locfileid: "32359513"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur qui indique le type d'une ligne dans un tableau.
+Contient une valeur qui indique le type d’une ligne dans un tableau.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ROW_TYPE  <br/> |
 |Identificateur :  <br/> |0x0FF5  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété s'affiche uniquement sur les tables de contenu. Une catégorie n'existe que lorsqu'elle a des éléments.
+Cette propriété apparaît uniquement dans les tables des matières. Une catégorie n’existe que lorsqu’elle possède des éléments.
   
-Cette propriété peut avoir exactement l'une des valeurs suivantes:
+Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
 TBL_LEAF_ROW 
   
-> Représente les données réelles, plutôt qu'une ligne de catégorie.
+> Représente les données réelles, plutôt qu’une ligne de catégorie.
     
 TBL_EMPTY_CATEGORY 
   
@@ -50,29 +50,29 @@ TBL_EMPTY_CATEGORY
     
 TBL_EXPANDED_CATEGORY 
   
-> La catégorie est développée; en règle générale, l'interface utilisateur affiche le signe moins (-) à côté.
+> La catégorie est étendue . L’interface utilisateur l’affiche généralement avec le signe moins ( - ) en face de celle-ci.
     
 TBL_COLLAPSED_CATEGORY 
   
-> La catégorie est réduite; en règle générale, l'interface utilisateur affiche le signe plus (+) en regard de celle-ci.
+> La catégorie est réduire . L’interface utilisateur l’affiche généralement avec le signe plus (+) à côté de celle-ci.
     
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Inclut les opérations admissibles pour les objets de la table principale.
+> Inclut les opérations autorisées pour les objets de table principale.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,12 +25,12 @@ ms.locfileid: "33405512"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d'attributs pour les propriétés d'un objet. 
+Contient une liste d’attributs pour les propriétés d’un objet. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |IMessage. h  <br/> |
-|Macros connexes:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
+|Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
+|Macros associées :  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,11 +45,11 @@ typedef struct
 
  **cValues**
   
-> Nombre d'attributs de propriété dans le membre **aPropAttr** . 
+> Nombre d’attributs de propriété dans le **membre aPropAttr.** 
     
  **aPropAttr**
   
-> Tableau d'attributs de propriété. Les valeurs valides pour les attributs sont les suivantes:
+> Tableau d’attributs de propriété. Les valeurs valides pour les attributs sont les suivantes :
     
     - PROPATTR_MANDATORY
     
@@ -61,7 +61,7 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SPropAttrArray** est utilisée par les objets de données de propriété qui implémentent l'interface [IPropData: IMAPIProp](ipropdataimapiprop.md) . Il est également utilisé par l'implémentation de MAPI de [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) basé sur le stockage structuré. 
+La structure **SPropAttrArray** est utilisée par les objets de données de propriété qui implémentent l’interface [IPropData : IMAPIProp.](ipropdataimapiprop.md) Il est également utilisé par l’implémentation MAPI de [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) basé sur un stockage structuré. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407164"
 ---
-# <a name="propacctid"></a>PROP_ACCT_ID
+# <a name="prop_acct_id"></a>PROP_ACCT_ID
 
 Renvoie un identificateur qui identifie de manière unique un compte dans le profil dans lequel le compte est créé.
   
@@ -25,15 +25,15 @@ Voir [IOlkAccount](iolkaccount.md).
 |||
 |:-----|:-----|
 |Identificateur :  <br/> |0x0001  <br/> |
-|Type de propriété:  <br/> |PT_LONG  <br/> |
-|Balise de propriété:  <br/> |0x00010003  <br/> |
-|Access  <br/> |Lecture seule  <br/> |
+|Type de propriété :  <br/> |PT_LONG  <br/> |
+|Balise de propriété :  <br/> |0x00010003  <br/> |
+|Accès :  <br/> |Lecture seule  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Obtenez cette propriété à l'aide de [IOlkAccount:: getprop](iolkaccount-getprop.md). Si le client tente de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**. 
+Obtenez cette propriété à [l’aide de IOlkAccount::GetProp](iolkaccount-getprop.md). Si le client tente de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**. 
   
-Cette propriété est différente de [PROP_ACCT_MINI_UID](prop_acct_mini_uid.md) en ce sens que sa valeur n'est unique que pour tous les comptes de ce profil dans lequel le compte a été créé, tandis que **prop\_ACCT_MINI_UID** identifie de manière unique le compte au sein de et en dehors du profil dans lequel le compte a été créé. Lorsqu'un message avec ces propriétés se déplace sur un deuxième ordinateur avec un profil Outlook différent et un autre ensemble de comptes, **PROP_ACCT_ID** peut éventuellement entrer en conflit avec un compte dans le profil du deuxième ordinateur et **PROP_ACCT_MINI_UID** peut identifier de manière unique le compte d'origine dans le profil d'origine. 
+Cette propriété est différente de [PROP_ACCT_MINI_UID](prop_acct_mini_uid.md) en ce que sa valeur est unique uniquement parmi tous les comptes au sein de ce profil dans lesquels le compte a été créé, tandis que PROP ACCT_MINI_UID identifie de manière unique le compte à l’intérieur et à l’extérieur du profil dans lequel le compte **\_ a** été créé. Lorsqu’un message avec ces propriétés se déplace sur un deuxième ordinateur avec un profil Outlook différent et un ensemble de comptes différent, **PROP_ACCT_ID** peut être en conflit avec un compte dans le profil du deuxième ordinateur, et **PROP_ACCT_MINI_UID** peut identifier de manière unique le compte d’origine dans le profil d’origine. 
   
 ## <a name="see-also"></a>Voir aussi
 

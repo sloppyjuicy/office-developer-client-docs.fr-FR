@@ -23,13 +23,13 @@ ms.locfileid: "33407213"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La fonction **MAPICrashRecovery** vérifie l'état du fichier de dossiers personnels (PST) ou de la mémoire partagée du fichier de dossiers en mode hors connexion (OST). Si la mémoire est dans un état cohérent, la fonction **MAPICrashRecovery** déplace les données sur le disque et empêche l'accès en lecture ou en écriture tant que le processus n'est pas terminé. 
+La **fonction MAPICrashRecovery** vérifie l’état de la mémoire partagée du fichier de dossiers personnels (PST) ou du fichier de dossiers en mode hors connexion (OST). Si la mémoire est dans un état cohérent, la fonction **MAPICrashRecovery** déplace les données sur le disque et empêche tout accès en lecture ou en écriture jusqu’à ce que le processus soit terminé. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Exporté par:  <br/> |olmapi32. dll  <br/> |
+|Exporté par :  <br/> |olmapi32.dll  <br/> |
 |Appelé par :  <br/> |Client  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
    
@@ -41,19 +41,19 @@ void MAPICrashRecovery(ULONG ulFlags);
 
 _ulFlags_
   
-> dans Indicateurs utilisés pour contrôler la manière dont la récupération d'urgence MAPI est effectuée. Les indicateurs suivants peuvent être définis:
+> [in] Indicateurs utilisés pour contrôler la façon dont la récupération d’incident MAPI est effectuée. Les indicateurs suivants peuvent être définies :
     
-   - **MAPICRASH\_Recover**: si les fichiers PST ou OSTs sont dans un état cohérent, déplacez les données sur le disque et verrouillez les fichiers PST ou OSTs pour empêcher l'accès en lecture ou en écriture.
+   - **MAPICRASH \_ RECOVER**: si les PST ou osts sont dans un état cohérent, déplacez les données sur le disque et verrouillez les PST ou osts pour empêcher l’accès en lecture ou en écriture.
     
-   - **MAPICRASH\_continue**: Déverrouillez les fichiers PST ou OSTs pour le débogage. Après un appel réussi à **MAPICrashRecovery** avec l'indicateur **MAPICRASH_RECOVER** , appelez **MAPICrashRecovery** avec l' **indicateur\_MAPICRASH continue** pour autoriser le débogage. 
+   - **MAPICRASH \_ CONTINUE**: Déverrouillez les PST ou osts pour le débogage. Après un appel réussi à **MAPICrashRecovery** avec l’indicateur **MAPICRASH_RECOVER,** appelez **MAPICrashRecovery** avec l’indicateur **MAPICRASH \_ CONTINUE** pour autoriser le débogage. 
     
-   - **MAPICRASH\_SYSTEM_SHUTDOWN**: si les fichiers PST ou OSTs sont dans un état cohérent, déplacez les données sur le disque et verrouillez les fichiers PST ou OSTs pour empêcher l'accès en lecture ou en écriture. Les fichiers PST ou OSTs ne peuvent pas être déverrouillés à l'aide de **MAPICRASH\_continuer**. Doit être utilisé en combinaison avec **MAPICRASH\_Recover**. 
+   - **MAPICRASH \_ SYSTEM_SHUTDOWN**: si les PST ou osts sont dans un état cohérent, déplacez les données sur le disque et verrouillez les PST ou osts pour empêcher l’accès en lecture ou en écriture. Les PST ou osts ne peuvent pas être déverrouillés à l’aide **de MAPICRASH \_ CONTINUE**. Doit être utilisé en combinaison avec **MAPICRASH \_ RECOVER**. 
     
 ## <a name="remarks"></a>Remarques
 
-L'octet supérieur (0xFF000000) est réservé aux indicateurs de récupération d'incidents spécifiques au fournisseur.
+L’byte supérieur (0xFF000000) est réservé aux indicateurs de récupération d’incident spécifiques au fournisseur.
   
-Appelez **MAPICrashRecovery** avec les **indicateurs\_MAPICRASH Recover** et **MAPICRASH_SYSTEM_SHUTDOWN** en réponse au message **WM_ENDSESSION** . 
+Appelez **MAPICrashRecovery** avec les indicateurs **MAPICRASH \_ RECOVER** et **MAPICRASH_SYSTEM_SHUTDOWN** en réponse au message **WM_ENDSESSION** message. 
   
 ## <a name="see-also"></a>Voir aussi
 

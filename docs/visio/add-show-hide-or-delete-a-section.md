@@ -21,7 +21,7 @@ ms.locfileid: "32341676"
 Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille ShapeSheet.
   
 > [!NOTE]
-> Si vous souhaitez ajouter votre propre section personnalisée à la feuille ShapeSheet, utilisez les [cellules définies par l'utilisateur](user-defined-cells-section.md) ou les sections [Scratch](scratch-section.md) pour définir la logique de votre feuille ShapeSheet. 
+> Si vous souhaitez ajouter votre propre section personnalisée à la feuille ShapeSheet, utilisez les sections [Cells](user-defined-cells-section.md) ou [Scratch](scratch-section.md) définies par l’utilisateur pour définir votre logique ShapeSheet. 
   
 ### <a name="to-add-a-section"></a>Pour ajouter une section
 
@@ -29,7 +29,7 @@ Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille
     
 2. Effectuez l'une des opérations suivantes :
     
-  - Sous **Outils ShapeSheet** sous l'onglet **création** , dans le groupe **sections** , cliquez sur **Insérer**.
+  - Sous **Outils Feuille ShapeSheet** sous **l’onglet** Création, dans le groupe **Sections,** cliquez sur **Insérer.**
     
   - Vous pouvez également cliquer avec le bouton droit de la souris dans la fenêtre Feuille ShapeSheet, puis choisir **Insérer une section** dans le menu contextuel. 
     
@@ -42,7 +42,7 @@ Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille
 
 - Sélectionnez une cellule de la section à supprimer puis, dans le groupe **Sections** sous l’onglet **Outils Feuille ShapeSheet**, cliquez sur **Supprimer**.
     
-- Vous pouvez également cliquer avec le bouton droit sur une cellule, puis cliquer sur **Supprimer la section** dans le menu contextuel. 
+- Vous pouvez également cliquer avec le bouton droit sur une cellule, puis cliquer sur **Supprimer la section** dans le menu raccourci. 
     
     > [!NOTE]
     >  Certaines sections ne peuvent pas être supprimées. Ainsi, vous ne pourrez pas supprimer la section **Shape Transform** car elle permet de spécifier la position d’une forme. Lorsque vous ne pouvez pas supprimer une section, l’option **Supprimer la section** est indisponible. 
@@ -51,21 +51,21 @@ Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille
 
 1. Cliquez dans la fenêtre Feuille ShapeSheet pour l'activer.
     
-2. Pointez sur le titre de la section.
+2. Pointer vers le titre de la section.
     
-    Si le pointeur prend la forme d'un signe moins ![Si le pointeur prend la forme d'un signe moins, réduisez la section](media/IC_SSMinus_ZA07645855.gif), vous pouvez réduire la section.
+    Si le pointeur est changé en signe moins ![Si le pointeur est changé en signe moins, réduire la section](media/IC_SSMinus_ZA07645855.gif), vous pouvez réduire la section.
     
-    Si le pointeur prend la forme d'un signe plus ![Si le pointeur prend la forme d'un signe plus, développez la section](media/IC_SSPlus_ZA07645856.gif), vous pouvez développer la section.
+    Si le pointeur est changé en signe plus ![Si le pointeur est changé en signe plus, développez la section](media/IC_SSPlus_ZA07645856.gif), vous pouvez développer la section.
     
 3. Cliquez sur le titre de la section.
     
-    L'affichage est modifié pour masquer ou afficher les cellules de la section.
+    L’affichage change pour masquer ou afficher les cellules de la section.
     
 ### <a name="to-delete-a-section"></a>Pour supprimer une section
 
 1. Cliquez dans la fenêtre Feuille ShapeSheet pour l'activer.
     
-2. Sous **Outils ShapeSheet** sous l'onglet **création** , dans la section **affichage** , cliquez sur **sections**. Vous pouvez également cliquer avec le bouton droit de la souris dans la fenêtre Feuille ShapeSheet, puis choisir **Afficher les sections**.
+2. Sous **Outils Feuille ShapeSheet** sous **l’onglet** Création, dans la section **Affichage,** cliquez sur **Sections.** Vous pouvez également cliquer avec le bouton droit de la souris dans la fenêtre Feuille ShapeSheet, puis choisir **Afficher les sections**.
     
 3. Sélectionnez les sections que vous voulez afficher ou supprimez les sections que vous voulez masquer.
     

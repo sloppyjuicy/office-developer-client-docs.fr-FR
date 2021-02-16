@@ -25,12 +25,12 @@ ms.locfileid: "33419407"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [FLATENTRY](flatentry.md) qui contient un identificateur d'entrée d'une taille d'octet spécifiée. 
+Calcule le nombre d’octets qui doivent être alloués à une nouvelle structure [FLATENTRY](flatentry.md) qui contient un identificateur d’entrée d’une taille d’octet spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**FLATENTRY** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**FLATENTRY** <br/> |
    
 ```cpp
 CbNewFLATENTRY (_cb)
@@ -38,9 +38,9 @@ CbNewFLATENTRY (_cb)
 
 ## <a name="parameters"></a>Paramètres
 
- __CB_
+ _ _cb_
   
-> Nombre d'octets dans l'identificateur d'entrée à inclure dans la nouvelle structure **FLATENTRY** . 
+> Nombre d’octets dans l’identificateur d’entrée à inclure dans la nouvelle structure **FLATENTRY.** 
     
 ## <a name="see-also"></a>Voir aussi
 

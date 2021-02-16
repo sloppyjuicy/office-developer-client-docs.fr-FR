@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlFree
 keywords:
-- fonction xlFree [Excel 2007]
+- fonction xlfree [excel 2007]
 localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33424713"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Utilisé pour libérer de la mémoire les ressources allouées par Microsoft Excel lors de la création de la valeur de retour **XLOPER**/ **XLOPER12** dans un appel à [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md)ou [Excel12v](excel4v-excel12v.md). La **fonction xlFree** libère la mémoire auxiliaire et réinitialise le pointeur sur **null** , mais ne détruit pas les autres parties de la ****/ **** définition d'éléments de la structure de la définition.
+Utilisé pour libérer des ressources mémoire allouées par Microsoft Excel lors de la création de la valeur de retour **XLOPER** XLOPER12 dans un appel à /   [Excel4,](excel4-excel12.md) [Excel4v,](excel4v-excel12v.md) [Excel12](excel4-excel12.md)ou [Excel12v](excel4v-excel12v.md). La **fonction xlFree** libère la mémoire auxiliaire et réinitialise le pointeur sur **NULL,** mais ne détruit pas les autres parties de la  /  **XLOPER XLOPER12**.
   
 ```cs
 Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
@@ -31,23 +31,23 @@ Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 
 ## <a name="parameters"></a>Paramètres
 
- _px_1,..., px_n_
+ _px_1, ..., px_n_
   
-Un ou plusieurs objets **XLOPER**/ **XLOPER12**doivent être libérés. Dans les versions d'Excel allant jusqu'à 2003, le nombre maximal de pointeurs pouvant être transmis est de 30. À partir d'Excel 2007, cette progression est augmentée à 255.
+Une ou plusieurs **XLOPER** /  **XLOPER12** à libérer. Dans les versions d’Excel jusqu’en 2003, le nombre maximal de pointeurs qui peuvent être transmis est de 30. À compter d’Excel 2007, ce nombre est passé à 255.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Cette fonction ne renvoie pas de valeur.
+Cette fonction ne retourne pas de valeur.
   
 ## <a name="remarks"></a>Remarques
 
-Vous devez libérer tous les éléments **XLOPER** que vous obtenez sous forme de valeur de retour de **Excel4** ou **Excel4v** et chaque **XLOPER12** que vous obtenez sous forme de valeur de retour de **Excel12** ou **Excel12v** s'il s'agit de l'un des types suivants: **xltypeStr **, **XltypeMulti**ou **xltypeRef**. Il est toujours sûr de ne pas utiliser d'autres types même s'ils n'utilisent pas de mémoire auxiliaire, à condition que vous les obteniez de **Excel4** ou **Excel12**.
+Vous devez libérer chaque **XLOPER** que vous obtenez en tant que valeur de retour à partir **d’Excel4** ou **Excel4v** et de chaque **XLOPER12** que vous obtenez en tant que valeur de retour d’Excel12 ou **Excel12v** s’ils sont de l’un des types suivants : **xltypeStr,** **xltypeMulti** ou **xltypeRef**.  Il est toujours sûr de libérer d’autres types même s’ils n’utilisent pas de mémoire auxiliaire, tant que vous les avez obtenus à partir **d’Excel4** ou **Excel12**.
   
-Où vous retournez dans Excel un pointeur vers une expression **XLOPER**/ **** qui contient toujours de la mémoire allouée à Excel à libérer, vous devez définir la **xlbitXLFree** pour vous assurer que Excel libère la mémoire. 
+Lorsque vous retournez à Excel un pointeur vers une /  **XLOPER XLOPER12** qui contient encore la mémoire allouée par Excel à libérer, vous devez définir **xlbitXLFree** pour vous assurer qu’Excel libère la mémoire. 
   
 ## <a name="example"></a>Exemple
 
-Cet exemple appelle **Get. WORKSPACE (1)** pour renvoyer la plateforme sur laquelle Excel est en cours d'exécution en tant que chaîne. Le code copie cette chaîne renvoyée dans un buffer pour une utilisation ultérieure. Le code place la mémoire tampon dans le **XLOPER12** pour une utilisation ultérieure avec la fonction Excel. Enfin, le code affiche la chaîne dans un message d'alerte. 
+Cet exemple appelle **GET. WORKSPACE(1)** pour renvoyer la plateforme sur laquelle Excel est actuellement en cours d’exécution sous forme de chaîne. Le code copie cette chaîne renvoyée dans une mémoire tampon pour une utilisation ultérieure. Le code place la mémoire tampon dans **xlOPER12** pour une utilisation ultérieure avec la fonction Excel. Enfin, le code affiche la chaîne dans une zone d’alerte. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

@@ -25,7 +25,7 @@ ms.locfileid: "33407927"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la durée estimée de téléchargement d'un message à partir d'un serveur distant vers une banque de messages locale. 
+Contient la durée estimée de téléchargement d’un message à partir d’un serveur distant vers un magasin de messages local. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la durée estimée de téléchargement d'un message à partir d'un serv
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est exprimée en secondes et représente la meilleure estimation du temps qu'un fournisseur de transport distant doit prendre pour télécharger un message donné à partir de son emplacement actuel vers un magasin de messages local sur le client en affichant le dossier d'en-tête. Le fournisseur de transport distant calcule généralement la valeur de cette propriété en divisant la valeur de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) par la vitesse du lien de communication en octets par seconde. Si le fournisseur ne peut pas calculer le temps de téléchargement, par exemple s'il ne connaît pas la vitesse de la liaison, il doit fournir une valeur **PT_ERROR** telle que **MAPI_E_NO_SUPPORT** pour cette colonne dans le tableau des matières du dossier d'en-tête. 
+Cette propriété est exprimée en secondes et représente la meilleure estimation du temps qu’un fournisseur de transport distant doit prendre pour télécharger un message donné à partir de son emplacement actuel vers une boutique de messages locale pour le client qui affiche le dossier d’en-tête. Le fournisseur de transport distant calcule généralement la valeur de cette propriété en divisant la valeur de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) par la vitesse de la liaison de communication en octets par seconde. Si le fournisseur ne peut pas calculer la durée de téléchargement, par exemple s’il ne connaît pas la vitesse de liaison, il doit fournir une valeur **PT_ERROR** telle que **MAPI_E_NO_SUPPORT** pour cette colonne dans la table de contenu du dossier d’en-tête. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

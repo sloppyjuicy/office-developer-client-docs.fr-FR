@@ -25,7 +25,7 @@ ms.locfileid: "33433037"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée d'objet d'annuaire d'un membre de la liste de contrôle d'accès système (SACL).
+Contient l’identificateur d’entrée d’objet d’annuaire d’un membre de la table liste de contrôle d’accès système (SACL).
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient l'identificateur d'entrée d'objet d'annuaire d'un membre de la liste d
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée par l'interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) pour identifier de manière unique une personne ou un rôle auxquels s'applique la liste SACL. Après la création d'un membre dans la table SACL, la propriété **EntryID** ne peut pas être modifiée. Pour le modifier, vous devez supprimer le membre de la table et le recréer avec un **EntryID**différent.
+Cette propriété est utilisée par l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) pour identifier de manière unique une personne ou un rôle auquel la SACL s’applique. Une fois qu’un membre est créé dans la table SACL, **l’ENTRYID** ne peut pas être modifié. Pour le modifier, vous devez supprimer le membre de la table et le créer à nouveau avec un **autre ENTRYID**.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,18 +25,18 @@ ms.locfileid: "33404693"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Initialise un objet de fournisseur de transport et arrête l'objet lorsqu'il n'est plus nécessaire.
+Initialise un objet fournisseur de transport et arrête l’objet lorsqu’il n’est plus nécessaire.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
-|Exposé par:  <br/> |Objets du fournisseur de transport  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
+|Exposé par :  <br/> |Objets du fournisseur de transport  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de transport  <br/> |
-|Appelé par :  <br/> |Spouleur MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IXPProvider  <br/> |
-|Type de pointeur:  <br/> |LPXPROVIDER  <br/> |
+|Appelé par :  <br/> |Lepooler MAPI  <br/> |
+|Identificateur d’interface :  <br/> |IID_IXPProvider  <br/> |
+|Type de pointeur :  <br/> |LPXPROVIDER  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|

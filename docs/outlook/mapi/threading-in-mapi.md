@@ -21,26 +21,26 @@ ms.locfileid: "33405540"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un thread est l'entité de base à laquelle un système d'exploitation alloue du temps processeur. Un thread a ses propres registres, pile, priorité et stockage, mais il partage un espace d'adressage et des ressources de processus telles que des jetons d'accès. Les threads partagent également la mémoire, avec un thread lisant ce qu'un autre thread a écrit.
+Un thread est l’entité de base à laquelle un système d’exploitation alloue du temps processeur. Un thread possède ses propres registres, pile, priorité et stockage, mais partage un espace d’adressaton et des ressources de processus telles que les jetons d’accès. Les threads partagent également la mémoire, avec un thread lisant ce qu’un autre thread a écrit.
   
 Les clients MAPI utilisent les modèles de thread génériques suivants.
   
 |**Modèle de thread**|**Description**|
 |:-----|:-----|
-|Modèle de thread unique  <br/> |Tous les objets sont utilisés sur le seul thread.  <br/> |
-|Modèle de thread cloisonné  <br/> |Un objet ne peut être utilisé que sur le thread qui l'a créé.  <br/> |
-|Modèle de thread libre, ou modèle de thread, modèle  <br/> |Un objet peut être utilisé sur n'importe quel thread.  <br/> |
+|Modèle de thread unique  <br/> |Tous les objets sont utilisés sur le thread unique.  <br/> |
+|Modèle de threads de threads d’appart  <br/> |Un objet ne peut être utilisé que sur le thread qui l’a créé.  <br/> |
+|Modèle de thread gratuit ou de thread-party  <br/> |Un objet peut être utilisé sur n’importe quel thread.  <br/> |
    
-MAPI utilise le modèle de thread libre, qui prend en charge les objets thread-safe qui peuvent être utilisés sur n'importe quel thread à tout moment. OLE utilise le modèle de thread cloisonné. Le modèle de thread cloisonné prend en charge les objets qui doivent être transférés explicitement lorsqu'un thread autre que celui qui a créé l'objet a besoin d'utiliser cet objet.
+MAPI utilise le modèle de thread gratuit, qui prend en charge les objets thread-safe qui peuvent être utilisés sur n’importe quel thread à tout moment. OLE utilise le modèle de threads de threads de threads. Le modèle de threads en mode apartment prend en charge les objets qui doivent être explicitement transférés lorsqu’un thread autre que celui qui a créé l’objet doit utiliser cet objet.
   
-Le mécanisme utilisé par OLE pour transférer des objets d'un thread à un autre est appelé marshaling. Le marshaling implique un objet stub et un objet proxy. Ces objets spéciaux empaquetent les paramètres de l'interface dans l'objet à marshaler, transfèrent ces paramètres à l'autre thread et les décompressent lors de leur arrivée. Un conflit entre les deux modèles multithread se produit lorsqu'un objet MAPI libre de thread est envoyé à un autre processus à l'aide d'un appel de procédure disTante «léger» ou de LRPC. Les appels LRPC modifient la sémantique de l'objet de Threading libre en thread cloisonné en interposant les interfaces de proxy et de stub avec le comportement de Threading cloisonné entre l'objet et son appelant. La connaissance des situations dans MAPI qui mènent à ce conflit peut aider les clients et les fournisseurs de services à empêcher les problèmes de se produire.
+Le mécanisme utilisé par OLE pour transférer des objets d’un thread à un autre est appelé marshaling. Le marshaling implique un objet stub et un objet proxy. Ces objets spéciaux packagent les paramètres de l’interface dans l’objet à marshaler, transfèrent ces paramètres à l’autre thread et les déballent à l’arrivée. Un conflit entre les deux modèles multithread survient lorsqu’un objet MAPI de thread libre est envoyé à un autre processus à l’aide de l’appel de procédure distante OLE « léger » ou LRPC. LRPC modifie la sémantique de l’objet de threads libres en threads de threads en threads de threads en interposant les interfaces stub et proxy avec le comportement de thread de thread entre l’objet et son appelant. La prise en compte des situations dans MAPI qui entraînent ce conflit peut aider les clients et les fournisseurs de services à éviter les problèmes.
   
-Un objet MAPI est accessible:
+Un objet MAPI est accessible :
   
-- Par le biais d'appels directs à ses méthodes à l'aide d'un pointeur d'interface renvoyé par un fournisseur de services ou MAPI lié au processus du client, tel que l'objet session renvoyé à partir de [MAPILogonEx](mapilogonex.md).
+- Via des appels directs à ses méthodes à l’aide d’un pointeur d’interface renvoyé par un fournisseur de services ou MAPI lié au processus du client, tel que l’objet de session renvoyé par [MAPILogonEx](mapilogonex.md).
     
-- Par le biais d'appels indirects à ses méthodes à l'aide d'un pointeur d'interface retourné par un fournisseur de services, tel que l'objet Folder copié à partir d'un autre dossier dans [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md).
+- Via des appels indirects à ses méthodes à l’aide d’un pointeur d’interface renvoyé par n’importe quel fournisseur de services, tel que l’objet dossier copié à partir d’un autre dossier dans [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md).
     
-- Par le biais d'une fonction de rappel, telle que la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) transmise à un fournisseur de services ou à MAPI dans un appel de **notification** ou les méthodes qui peuvent afficher l'avancement sur une longue opération. 
+- Par le biais d’une fonction de rappel, telle que la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) transmise à un fournisseur de services ou à MAPI dans un appel de conseil ou aux méthodes qui peuvent indiquer la progression d’une longue opération.  
     
 

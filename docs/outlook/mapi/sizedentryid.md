@@ -23,12 +23,12 @@ ms.locfileid: "33405708"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure [EntryID](entryid.md) nommée qui contient un membre **AB** d'une taille spécifiée. 
+Crée une structure [ENTRYID](entryid.md) nommée qui contient un membre **ab** d’une taille spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**ENTRYID** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 SizedENTRYID (_cb, _name)
@@ -36,19 +36,19 @@ SizedENTRYID (_cb, _name)
 
 ## <a name="parameters"></a>Paramètres
 
-__CB_
+_ _cb_
   
-> Nombre d'octets dans le membre **AB** de la nouvelle structure. 
+> Nombre d’octets dans le **membre ab** de la nouvelle structure. 
     
-__nom_
+_ _name_
   
 > Nom de la nouvelle structure.
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedENTRYID** vous permet de définir un identificateur d'entrée après des exigences de longueur de tableau connues. Utilisez cette macro pour créer un identificateur d'entrée avec des limites explicites. 
+La macro **SizedENTRYID** vous permet de définir un identificateur d’entrée une fois que les exigences de longueur du tableau sont connues. Utilisez cette macro pour créer un identificateur d’entrée avec des limites explicites. 
   
-Pour utiliser la nouvelle structure qui résulte de la macro **SizedENTRYID** en tant que pointeur vers une structure **EntryID** , effectuez la conversion suivante: 
+Pour utiliser la nouvelle structure qui résulte de la macro **SizedENTRYID** comme pointeur vers une structure **ENTRYID,** effectuez la distribution suivante : 
   
 ```cpp
 lpENTRYID = (LPENTRYID) &SizedENTRYID;

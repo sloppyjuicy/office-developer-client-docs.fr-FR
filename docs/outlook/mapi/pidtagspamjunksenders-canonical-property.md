@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3c5182a7-7d7a-48e8-b9cb-5abd7739f0fd
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2aae68634778f787c02d76c371a52f83516ac00e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -21,36 +21,36 @@ ms.locfileid: "32359457"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d'adresses de messagerie et de domaines séparées par des points-virgules, qui comprennent les expéditeurs bloqués.
+Contient une liste délimitée par des points-virgules d’adresses e-mail et de domaines qui comprennent des expéditeurs bloqués.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SPAM_JUNK_SENDERS_W  <br/> |
-|ID long (couvercle):  <br/> |0x041A  <br/> |
+|ID long (LID) :  <br/> |0x041A  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Courrier indésirable  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Microsoft Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Microsoft Exchange Server protocole.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Active la gestion des listes d'autorisation/de blocage et la détermination des messages électroniques indésirables.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
- Mapitags. h 
+ Mapitags.h 
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,11 +1,11 @@
 ---
-title: Gestionnaire de compléments et fonctions d'interface XLL
+title: Fonctions du Gestionnaire de modules et de l’interface XLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- fonctions [Excel 2007], gestionnaire de compléments, fonctions [Excel 2007], interface XLL
+- functions [excel 2007], add-in manager,functions [Excel 2007], XLL interface
 localization_priority: Normal
 ms.assetid: e22d425a-75b2-412c-a07f-fb1915d08615
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -16,13 +16,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404210"
 ---
-# <a name="add-in-manager-and-xll-interface-functions"></a>Gestionnaire de compléments et fonctions d'interface XLL
+# <a name="add-in-manager-and-xll-interface-functions"></a>Fonctions du Gestionnaire de modules et de l’interface XLL
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Cette section contient la documentation de référence relative aux fonctions que Microsoft Excel et le gestionnaire de compléments cherchent dans une XLL.
+Cette section contient la documentation de référence pour les fonctions que Microsoft Excel et le Gestionnaire de modules de développement recherchent dans une XLL.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 [xlAddInManagerInfo/xlAddInManagerInfo12](xladdinmanagerinfo-xladdinmanagerinfo12.md)
   

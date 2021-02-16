@@ -25,7 +25,7 @@ ms.locfileid: "33407514"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit l'état suspendu sur le spouleur.
+Définit l’état suspendu sur lepooler.
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -37,7 +37,7 @@ void SetSpoolSuspendState(
 
  _ulState_
   
-> dans État auquel définir le spouleur. Il doit prendre la valeur de l'une des valeurs suivantes:
+> [in] État sur lepooler. Elle doit avoir l’une des valeurs suivantes :
     
  **SS_ACTIVE**
   

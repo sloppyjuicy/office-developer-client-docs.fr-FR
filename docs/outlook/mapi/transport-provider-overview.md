@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble du fournisseur de transport
+title: Vue d’ensemble du fournisseur de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,26 +15,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433156"
 ---
-# <a name="transport-provider-overview"></a>Vue d'ensemble du fournisseur de transport
+# <a name="transport-provider-overview"></a>Vue d’ensemble du fournisseur de transport
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un fournisseur de transport est une bibliothèque de liens dynamiques (DLL) qui se comporte comme un intermédiaire entre le sous-système MAPI et un ou plusieurs systèmes de messagerie sous-jacents. Un système de messagerie est un mécanisme spécifique par lequel les messages sont envoyés et reçus. Voici quelques exemples de systèmes de messagerie:
+Un fournisseur de transport est une bibliothèque de liens dynamiques (DLL) qui agit comme un intermédiaire entre le sous-système MAPI et un ou plusieurs systèmes de messagerie sous-jacents. Un système de messagerie est un mécanisme spécifique par lequel les messages sont envoyés et reçus. Voici quelques exemples de systèmes de messagerie :
   
-- Système de fichiers réseau partagé que le fournisseur de transport écrit les messages directement.
+- Un système de fichiers réseau partagé dans qui le fournisseur de transport écrit directement des messages.
     
-- Une interface réseau TCP/IP que le fournisseur de transport utilise pour se connecter à un serveur de messagerie.
+- Interface réseau TCP/IP que le fournisseur de transport utilise pour se connecter à un serveur de messagerie.
     
-- Service en ligne auquel se connectent les utilisateurs.
+- Service en ligne à qui les utilisateurs se connectent.
     
-- Un système de messagerie ou d'automatisation Office basé sur l'hôte.
+- Une messagerie basée sur l’hôte ou un système d’automatisation Office.
     
-- Un ensemble d'appels de procédure distante à un serveur de messagerie.
+- Ensemble d’appels de procédure distante vers un serveur de messagerie.
     
-- Tout élément pouvant être utilisé pour transférer des données d'un ordinateur à un autre.
+- Tout ce qui peut être utilisé pour transférer des données d’un ordinateur à un autre.
     
-Une DLL de fournisseur de transport doit être conforme à l'interface spécifiée par MAPI. En tant que développeur de fournisseurs de transport, vous implémenterez cette interface en termes de fonctionnalités présentes dans le système de messagerie.
+Une DLL de fournisseur de transport doit être conforme à l’interface spécifiée par MAPI. En tant que développeur de fournisseurs de transport, vous implémentez cette interface en termes de fonctionnalités présentes dans le système de messagerie.
   
 

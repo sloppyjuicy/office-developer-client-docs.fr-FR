@@ -21,15 +21,15 @@ ms.locfileid: "33424349"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La table de profils répertorie les informations sur tous les profils associés à une application cliente particulière. Il existe une table de profils pour chaque session, implémentée par MAPI pour une utilisation par les clients. 
+Le tableau de profils répertorie les informations sur tous les profils associés à une application cliente particulière. Il existe une table de profil pour chaque session, implémentée par MAPI pour une utilisation par les clients. 
   
-Les clients accèdent à la table de profils en appelant la méthode [IProfAdmin:: GetProfileTable](iprofadmin-getprofiletable.md) . 
+Les clients accèdent à la table de profil en appelant la [méthode IProfAdmin::GetProfileTable.](iprofadmin-getprofiletable.md) 
   
-La table de profils est une table statique. Les profils qui ont été marqués pour suppression ne sont pas inclus dans la table de profils.
+La table de profil est une table statique. Les profils qui ont été marqués pour suppression ne sont pas inclus dans la table de profils.
   
-Comme avec la plupart des implémentations de table, si **GetProfileTable** est appelé et qu'aucun profil n'est disponible pour le client, la table est créée sans aucune ligne. 
+Comme pour la plupart des implémentations de tableau, si **GetProfileTable** est appelé et qu’aucun profil n’est disponible pour le client, la table est créée avec zéro ligne. 
   
-Les propriétés suivantes constituent le jeu de colonnes requis dans les tables de profil:
+Les propriétés suivantes définissent le jeu de colonnes requis dans les tables de profils :
   
  **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
   
@@ -39,5 +39,5 @@ Les propriétés suivantes constituent le jeu de colonnes requis dans les tables
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

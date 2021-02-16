@@ -25,7 +25,7 @@ ms.locfileid: "33426589"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d'identificateurs d'entrée pour les conteneurs du carnet d'adresses configurés de manière explicite par l'utilisateur. 
+Contient une liste d’identificateurs d’entrée pour les conteneurs de carnet d’adresses configurés explicitement par l’utilisateur. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contient une liste d'identificateurs d'entrée pour les conteneurs du carnet d'a
    
 ## <a name="remarks"></a>Remarques
 
-N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
+N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

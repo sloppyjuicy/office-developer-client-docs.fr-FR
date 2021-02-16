@@ -19,42 +19,42 @@ ms.locfileid: "33424055"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les bibliothèques de liens dynamiques (dll) du fournisseur de transport fournissent l'interface entre le spouleur MAPI et la partie d'un système de messagerie responsable de l'envoi et de la réception des messages. Le spouleur MAPI et le fournisseur de transport collaborent pour gérer les responsabilités liées à l'envoi ou à la réception d'un message. Le spouleur MAPI charge la DLL du fournisseur de transport lorsqu'il est utilisé pour la première fois et le libère lorsqu'il n'est plus nécessaire. Plusieurs fournisseurs de transport peuvent être installés sur le même système, mais MAPI fournit le spouleur requis.
+Les bibliothèques de liens dynamiques (DLL) du fournisseur de transport fournissent l’interface entre lepooler MAPI et la partie d’un système de messagerie responsable de l’envoi et de la réception des messages. Lepooler MAPI et le fournisseur de transport fonctionnent ensemble pour gérer les responsabilités d’envoi ou de réception d’un message. Lepooler MAPI charge la DLL du fournisseur de transport lorsqu’elle est utilisée pour la première fois et la libère lorsqu’elle n’est plus nécessaire. Plusieurs fournisseurs de transport peuvent être installés sur le même système, mais MAPI fournit le seul spooler requis.
   
-Les applications clientes ne communiquent généralement pas directement avec le fournisseur de transport. Au lieu de cela, les clients envoient des messages via un fournisseur de banque et le spouleur MAPI envoie des messages sortants au fournisseur de transport approprié et remet les messages entrants à la Banque de messages appropriée. Le spouleur MAPI travaille et effectue ses appels aux fournisseurs de transport lorsque les applications de premier plan sont inactives. Après avoir éventuellement affiché des boîtes de dialogue lors de la première connexion du fournisseur de transport, les fournisseurs de transport fonctionnent en arrière-plan, sauf s'ils sont appelés par le client pour vider les files d'attente d'envoi et de réception. 
+En règle générale, les applications clientes ne communiquent pas directement avec le fournisseur de transport. Au lieu de cela, les clients envoient des messages par le biais d’un fournisseur de magasins et lepooler MAPI envoie les messages sortants au fournisseur de transport approprié et envoie les messages entrants à la magasin de messages appropriée. Lepooler MAPI effectue son travail et effectue ses appels aux fournisseurs de transport lorsque les applications au premier plan sont inactives. Après avoir éventuellement affiché des boîtes de dialogue lorsque le fournisseur de transport est connecté pour la première fois, les fournisseurs de transport fonctionnent en arrière-plan, sauf si le client les appelle pour vider les files d’attente d’envoi et de réception. 
   
-Les fournisseurs de transport ont les responsabilités suivantes dans un système de messagerie MAPI:
+Les fournisseurs de transport ont les responsabilités suivantes dans un système de messagerie MAPI :
   
-- Enregistrer les types d'adresses qu'ils peuvent accepter avec le spouleur MAPI afin que le spouleur MAPI puisse envoyer des messages au fournisseur de transport approprié en fonction de l'adresse de destination des messages. Un fournisseur de transport peut inscrire plusieurs types d'adresses. Les fournisseurs de transport peuvent également enregistrer des adresses de destinataire spécifiques dans le spouleur MAPI. Les messages adressés à l'une de ces adresses seront envoyés au fournisseur de transport qui a inscrit l'adresse auprès du spouleur MAPI. Pour plus d'informations, consultez la rubrique [fournisseur de transport et modèle opérationnel du spouleUR MAPI](transport-provider-and-mapi-spooler-operational-model.md).
+- Inscrivez les types d’adresses qu’ils peuvent accepter avec lepooler MAPI afin que lepooler MAPI puisse envoyer des messages au fournisseur de transport approprié en fonction de l’adresse de destination des messages. Un fournisseur de transport peut inscrire plusieurs types d’adresses. Les fournisseurs de transport peuvent également inscrire des adresses de destinataires spécifiques auprès dupooler MAPI. Les messages adressés à l’une de ces adresses sont envoyés au fournisseur de transport qui a enregistré l’adresse auprès dupooler MAPI. Pour plus d’informations, voir Fournisseur de transport et Modèle opérationnel [dupooler MAPI.](transport-provider-and-mapi-spooler-operational-model.md)
     
-- Remise de messages entrants au spouleur MAPI. En fonction de la nature du système de messagerie, un fournisseur de transport peut avertir directement le spouleur MAPI lorsqu'un nouveau message arrive ou demander que le spouleur MAPI interroge régulièrement le fournisseur de transport pour vérifier l'arrivée de nouveaux messages.
+- Remettre les messages entrants aupooler MAPI. Selon la nature du système de messagerie, un fournisseur de transport peut avertir directement lepooler MAPI à l’arrivée d’un nouveau message ou demander aupooler MAPI d’informer régulièrement le fournisseur de transport de la recherche de nouveaux messages.
     
-- Convertir les propriétés de message MAPI en et à partir des propriétés de message natives dans le système de messagerie. Par exemple, il se peut que le fournisseur de transport convertisse les adresses de l'expéditeur et du destinataire dans un message sortant vers un formulaire acceptable pour le système de messagerie. Certains systèmes de messagerie ne prennent pas en charge toutes les propriétés de message MAPI. Pour plus d'informations sur la préservation des propriétés de message MAPI lors de la remise de messages à un système de messagerie, consultez [la rubrique développement d'un fournisseur de transport avec TNEF](developing-a-tnef-enabled-transport-provider.md).
+- Convertissez les propriétés de message MAPI en propriétés de message natives dans le système de messagerie. Par exemple, le fournisseur de transport peut avoir à convertir les adresses de l’expéditeur et du destinataire dans un message sortant en un formulaire acceptable pour le système de messagerie. Certains systèmes de messagerie ne supportent pas toutes les propriétés de message MAPI. Pour plus d’informations sur la conservation des propriétés de message MAPI lors de la livraison de messages à un système de messagerie, voir [Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md).
     
-- Enregistrer les options de message et de destinataire spécifiques au fournisseur de transport.
+- Inscrire les options de message et de destinataire spécifiques au fournisseur de transport.
     
-- Effectuer la vérification des informations d'identification requises par le système de messagerie.
+- Effectuer toute vérification des informations d’identification requises par le système de messagerie.
     
-- Accéder aux messages sortants à l'aide de l'objet message qui lui a été transmis par le spouleur MAPI.
+- Accéder aux messages sortants à l’aide de l’objet message qui lui a été transmis par lepooler MAPI.
     
-- Traduire le format de message comme requis par le système de messagerie sous-jacent.
+- Traduire le format des messages selon les besoins du système de messagerie sous-jacent.
     
-- Informer le spouleur MAPI des destinataires d'un message sortant que le fournisseur de transport a accepté de gérer en définissant la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) pour ces destinataires.
+- Indiquez **aupooler** MAPI quels destinataires d’un message sortant le fournisseur de transport a accepté la responsabilité de la gestion en fixant la propriété PR_RESPONSIBILITY ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) pour ces destinataires.
     
-- Informer le spouleur MAPI lorsqu'un message entrant doit être géré.
+- Informez lepooler MAPI lorsqu’un message entrant doit être géré.
     
-- Transmettre les données des messages entrants au spouleur MAPI à l'aide d'objets message.
+- Transmettre les données de message entrant aupooler MAPI à l’aide d’objets de message.
     
-- Affectez des valeurs à toutes les propriétés de message MAPI requises dans les messages entrants.
+- Affectez des valeurs à toutes les propriétés de message MAPI requises sur les messages entrants.
     
 - Supprimez le message du système de messagerie sous-jacent après la remise, si nécessaire.
     
-- Fournir des informations d'État pour le spouleur MAPI et les applications clientes.
+- Fournir des informations d’état pour lepooler MAPI et les applications clientes.
     
-L'illustration suivante montre le rôle d'un fournisseur de transport par rapport aux autres composants de l'architecture MAPI.
+L’illustration suivante illustre le rôle d’un fournisseur de transport par rapport aux autres composants de l’architecture MAPI.
   
 **Rôle du fournisseur de transport dans un système de messagerie**
   
-![Rôle de fournisseur de transport dans un système de messagerie] (media/xp01.gif "Rôle de fournisseur de transport dans un système de messagerie")
+![Rôle du fournisseur de transport dans un rôle de fournisseur]de transport de système de messagerie dans un système de(media/xp01.gif "messagerie")
   
 

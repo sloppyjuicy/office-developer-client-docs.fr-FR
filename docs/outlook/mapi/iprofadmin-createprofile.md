@@ -25,7 +25,7 @@ ms.locfileid: "33404399"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée un nouveau profil.
+Crée un profil.
   
 ```cpp
 HRESULT CreateProfile(
@@ -40,27 +40,27 @@ HRESULT CreateProfile(
 
  _lpszProfileName_
   
-> dans Pointeur vers le nom du nouveau profil.
+> [in] Pointeur vers le nom du nouveau profil.
     
  _lpszPassword_
   
-> dans Pointeur vers le mot de passe du nouveau profil. 
+> [in] Pointeur vers le mot de passe du nouveau profil. 
     
  _ulUIParam_
   
-> dans Handle de la fenêtre parente des boîtes de dialogue ou des fenêtres que cette méthode affiche.
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont le profil est créé. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont le profil est créé. Les indicateurs suivants peuvent être définies :
     
 MAPI_DEFAULT_SERVICES 
   
-> MAPI doit remplir le nouveau profil avec les services de messagerie inclus dans la section [services par défaut] du fichier MAPISVC. inf.
+> MAPI doit remplir le nouveau profil avec les services de message inclus dans la section [Default Services] du fichier Mapisvc.inf.
     
 MAPI_DIALOG 
   
-> Les feuilles de propriétés de configuration de chacun des fournisseurs des services de messagerie à ajouter peuvent être affichées. 
+> Les feuilles de propriétés de configuration de chacun des fournisseurs dans les services de messagerie à ajouter peuvent être affichées. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -74,23 +74,23 @@ MAPI_E_NO_ACCESS
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProfAdmin:: CreateProfile** crée un nouveau profil. 
+La **méthode IProfAdmin::CreateProfile** crée un profil. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez appeler **CreateProfile** au moment de l'installation de l'application ou à tout moment au cours d'une session. Lorsque cette méthode est appelée au moment de l'installation, la plupart des paramètres de configuration proviennent du fichier de configuration MAPISVC. inf. Lorsque cette méthode est appelée pendant une session active, les paramètres proviennent de l'utilisateur qui est invité via une série de feuilles de propriétés. 
+Vous pouvez appeler **CreateProfile au** moment de l’installation de l’application ou à tout moment pendant une session. Lorsque cette méthode est appelée au moment de l’installation, la plupart des paramètres de configuration proviennent du fichier de configuration Mapisvc.inf. Lorsque cette méthode est appelée au cours d’une session active, les paramètres proviennent de l’utilisateur qui est invité par le biais d’une série de feuilles de propriétés. 
   
-Si l'indicateur MAPI_DEFAULT_SERVICES est défini dans le paramètre _ulFlags_ , **CreateProfile** appelle la fonction de point d'entrée du service de messagerie pour chaque service de messagerie dans la section [services par défaut] du fichier MAPISVC. inf. Chaque fonction de point d'entrée de service de messagerie est appelée avec le paramètre _ulContext_ défini sur MSG_SERVICE_CREATE. 
+Si l’indicateur MAPI_DEFAULT_SERVICES est définie dans le paramètre  _ulFlags,_ **CreateProfile** appelle la fonction de point d’entrée de service de message pour chaque service de message dans la section [Default Services] du fichier Mapisvc.inf. Chaque fonction de point d’entrée de service de message est appelée avec le paramètre  _ulContext_ MSG_SERVICE_CREATE. 
   
-Si les deux indicateurs MAPI_DIALOG et MAPI_DEFAULT_SERVICES sont définis, les valeurs des paramètres _ulUIParam_ et _ulFlags_ sont également transmises à la fonction de point d'entrée du service de message. Les fonctions de point d'entrée du service de messagerie sont appelées uniquement après que toutes les informations disponibles du fichier MAPISVC. inf ont été ajoutées au profil. 
+Si les indicateurs MAPI_DIALOG et MAPI_DEFAULT_SERVICES sont tous deux définies, les valeurs des paramètres  _ulUIParam_ et  _ulFlags_ sont également transmises à la fonction de point d’entrée du service de message. Les fonctions de point d’entrée du service de message sont appelées uniquement une fois que toutes les informations disponibles du fichier Mapisvc.inf ont été ajoutées au profil. 
   
-Le nom du nouveau profil et son mot de passe peuvent contenir jusqu'à 64 caractères et peuvent inclure les caractères suivants:
+Le nom du nouveau profil et son mot de passe peuvent comporter jusqu’à 64 caractères et inclure les caractères suivants :
   
-- Tous les caractères alphanumériques, y compris les caractères d'accentuation et le trait de soulignement.
+- Tous les caractères alphanumériques, y compris les caractères d’accentuateur et le caractère de soulignement.
     
-- Espaces incorporés, mais pas d'espaces de début ou de fin.
+- Espaces incorporés, mais pas espaces de début ou de fin.
     
-Le paramètre _lpszPassword_ doit être null ou un pointeur vers une chaîne de longueur nulle. 
+Le  _paramètre lpszPassword_ doit être NULL ou pointeur vers une chaîne de longueur nulle. 
   
 ## <a name="see-also"></a>Voir aussi
 

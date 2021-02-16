@@ -25,30 +25,30 @@ ms.locfileid: "33408186"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un jeton de sécurité ASN. 1 pour un message.
+Contient un jeton de sécurité ASN.1 pour un message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_TOKEN  <br/> |
 |Identificateur :  <br/> |0x0C03  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Propriétés de la messagerie sécurisée  <br/> |
+|Domaine :  <br/> |Propriétés de messagerie sécurisée  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété transmet les informations de sécurité protégées de son expéditeur à son destinataire. En association avec la propriété **PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)), elle garantit l'Association de l'étiquette au contenu du message. En combinaison avec la propriété **PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)), il vérifie que le contenu du message n'est pas modifié.
+Cette propriété transmet à son destinataire des informations de sécurité protégées de son auteur. Conjointement avec la **propriété PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)), elle garantit l’association de l’étiquette avec le contenu du message. Conjointement avec la **propriété PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)), il vérifie que le contenu du message est inchangé.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

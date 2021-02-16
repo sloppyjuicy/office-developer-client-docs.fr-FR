@@ -1,5 +1,5 @@
 ---
-title: Création d’une classe d’assistance pour accéder aux membres courants d’un élément Outlook
+title: Créer une classe d’assistance pour accéder aux membres d’un élément courant Outlook
 TOCTitle: Create a Helper class to access common Outlook item members
 ms:assetid: 344ff07d-e448-4418-910d-930e60f7381f
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn292518(v=office.15)
@@ -30,7 +30,7 @@ Par exemple, la propriété [CurrentItem](https://msdn.microsoft.com/library/bb6
 
 La classe d’assistance OutlookItem utilise la réflexion pour exposer les propriétés et les méthodes qui sont communes à tous les éléments. La classe vous permet de caster l’objet en type exact et offre l’avantage d’utiliser directement les propriétés ou méthodes communes des éléments sur l’objet **OutlookItem**. Il s’agit d’une technique très utile, et plusieurs autres rubriques d’explications pas-à-pas répertoriées dans la section **Voir aussi** utilisent cette classe d’assistance.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

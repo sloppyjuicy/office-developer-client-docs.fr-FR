@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlCoerce
 keywords:
-- fonction xlCoerce [Excel 2007]
+- fonction xièreerce [excel 2007]
 localization_priority: Normal
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33424832"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Convertit un type de**XLOPER12** de type **XLOPER**/ en un autre, ou recherche des valeurs de cellule dans une feuille. 
+Convertit un type de **XLOPER** /  **XLOPER12** en un autre ou recherche des valeurs de cellule sur une feuille. 
   
 ```cs
 Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestType);
@@ -32,28 +32,28 @@ Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestTyp
 
  _pxSource_
   
-La source **XLOPER**/ **** source doit être convertie. 
+ /  **XlOPER12** source à convertir. 
   
  _pxDestType_ (**xltypeInt**)
   
-(Facultatif). Masque de bits des types résultants que vous êtes prêt à accepter. Vous devez utiliser l'opérateur **** or au niveau du bit (|) pour spécifier plusieurs types possibles. Si vous ne spécifiez pas cet argument, les références à des cellules uniques sont converties en l'un des types de valeur **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (si la cellule référencée est vide) et des références à des blocs de cellules sont converties en **xltypeMulti**. Cela rend **xlCoerce** le moyen le plus commode de rechercher des valeurs de cellule. 
+(Facultatif). Masque de bits des types résultants que vous êtes prêt à accepter. Vous devez utiliser l’opérateur **OR** au niveau du bit ( | ) pour spécifier plusieurs types possibles. Si cet argument est omis, les références à des cellules individuelles sont converties en un des types de valeur **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (si la cellule référencé est vide) et les références aux blocs de cellules sont converties en **xltypeMulti**. Cela rend **xlCoerce** le moyen le plus pratique de rechercher des valeurs de cellule. 
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Renvoie la valeur forcée (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil**ou **xltypeMulti**).
+Renvoie la valeur contrainte (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** ou **xltypeMulti**).
   
 ## <a name="remarks"></a>Remarques
 
- **xlCoerce** ne peut pas convertir vers ou à partir de **xltypeBigData** ou **xltypeFlow**. Le passage d'un type **xltypeMissing** ou **xltypeNil** en tant que _pxDestType_ revient à omettre l'argument. Dans certains cas, la conversion peut échouer. Par exemple, certaines chaînes ne peuvent pas être converties en nombres, contrairement à d'autres. 
+ **xlCoerce ne peut** pas convertir vers ou à partir **de xltypeBigData ou** **xltypeFlow**. Passer un type **xltypeMissing** ou **xltypeNil** en tant que  _pxDestType_ équivaut à omettre l’argument. La conversion peut échouer dans certains cas. Par exemple, certaines chaînes ne peuvent pas être converties en nombres, tandis que d’autres le peuvent. 
   
-Si un tableau ou une référence à plusieurs cellules est convertie en un seul type valeur, le résultat est la valeur de la cellule supérieure gauche ou du tableau.
+Si un tableau ou une référence à plusieurs cellules est converti en un seul type de valeur, le résultat est la valeur de la cellule supérieure gauche ou de l’élément de tableau.
   
 ## <a name="example"></a>Exemple
 
-Le code suivant est disponible dans `\SAMPLES\EXAMPLE\EXAMPLE.C`. 
+Le code suivant se trouve dans  `\SAMPLES\EXAMPLE\EXAMPLE.C` . 
   
 > [!NOTE]
-> La fonction **xlcAlert** tente implicitement de convertir son argument en une chaîne de façon à ce que l'étape de forçage indiquée ici puisse être supprimée et **xInt** puisse être passé directement à **xlcAlert**. Comme **xlcAlert** est une macro de commande, ce code fonctionne uniquement lorsqu'il est appelé à partir d'une feuille macro. 
+> La fonction **xlcAlert** tente implicitement de convertir son argument en chaîne afin que l’étape de contrainte indiquée ici puisse en fait être supprimée et **que xInt** puisse être transmis directement à **xlcAlert**. Comme **xlcAlert est** une macro de commande, ce code fonctionne correctement uniquement lorsqu’il est appelé à partir d’une feuille macro. 
   
 ```cs
 short WINAPI xlCoerceExample(short iVal)

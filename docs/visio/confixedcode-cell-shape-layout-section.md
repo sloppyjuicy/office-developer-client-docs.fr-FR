@@ -23,16 +23,16 @@ Détermine le repositionnement d'un connecteur.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Repositionner librement  <br/> |**visSLOConFixedRerouteFreely** <br/> |
-|0,1  <br/> |Repositionner selon les besoins (repositionnement manuel)  <br/> |**visSLOConFixedRerouteAsNeeded** <br/> |
-|n°2  <br/> |Ne jamais repositionner  <br/> |**visSLOConFixedRerouteNever** <br/> |
-|3  <br/> |Repositionner en cas de croisement  <br/> |**visSLOConFixedRerouteOnCrossover** <br/> |
-|4  <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgFrom** <br/> |
-|disque  <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgTo** <br/> |
-|6.x  <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgFromTo** <br/> |
+|1   <br/> |Repositionner selon les besoins (repositionnement manuel)  <br/> |**visSLOConFixedRerouteAsNeeded** <br/> |
+|2   <br/> |Ne jamais repositionner  <br/> |**visSLOConFixedRerouteNever** <br/> |
+|3   <br/> |Repositionner en cas de croisement  <br/> |**visSLOConFixedRerouteOnCrossover** <br/> |
+|4   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgFrom** <br/> |
+|5   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgTo** <br/> |
+|6   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgFromTo** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule en sélectionnant un connecteur dynamique, en cliquant sur **comportement** dans le groupe **création de forme** de l'onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , puis en cliquant sur l'onglet **connecteur** . 
+Vous pouvez également définir la valeur de cette cellule  en sélectionnant un connecteur [](run-in-developer-mode-display-the-developer-tab.md) dynamique, en cliquant sur Comportement dans le groupe Création de forme sous l’onglet Développeur, puis sur l’onglet **Connecteur.**  
   
 Pour obtenir une référence à la cellule ConFixedCode par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -44,7 +44,7 @@ Pour obtenir une référence à la cellule ConFixedCode à l'aide d'un index à 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 |Index de la cellule :  <br/> |**visSLOConFixedCode** <br/> |
    

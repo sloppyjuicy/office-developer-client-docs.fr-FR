@@ -33,22 +33,22 @@ HRESULT IOlkAccount::SetProp(
 
 _dwProp_
   
-> dans Balise de propriété de la propriété Account à définir.
+> [in] Balise de propriété de la propriété de compte à définir.
     
 _pVar_
   
-> dans Valeur de la propriété spécifiée.
+> [in] Valeur de la propriété spécifiée.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L'appel de la méthode a réussi.  <br/> |
+|S_OK  <br/> |L’appel de méthode a réussi.  <br/> |
 |E_INVALIDARG  <br/> |Une balise de propriété non valide a été spécifiée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Utilisez [IOlkAccount:: SaveChanges](iolkaccount-savechanges.md) pour enregistrer les modifications apportées à la valeur des propriétés du compte. 
+Utilisez [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) pour enregistrer les modifications apportées à la valeur des propriétés du compte. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,11 +25,11 @@ ms.locfileid: "33404469"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Copie une valeur de propriété unique d'un emplacement source vers un emplacement de destination. 
+Copie une valeur de propriété unique d’un emplacement source vers un emplacement de destination. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -46,25 +46,25 @@ SCODE PropCopyMore(
 
  _lpSPropValueDest_
   
-> remarquer Pointeur vers l'emplacement où cette fonction écrit une structure [SPropValue](spropvalue.md) définissant la valeur de la propriété copiée. 
+> [out] Pointeur vers l’emplacement auquel cette fonction écrit une structure [SPropValue](spropvalue.md) définissant la valeur de la propriété copiée. 
     
  _lpSPropValueSrc_
   
-> dans Pointeur vers la structure [SPropValue](spropvalue.md) qui contient la valeur de propriété à copier. 
+> [in] Pointeur vers la structure [SPropValue](spropvalue.md) qui contient la valeur de propriété à copier. 
     
  _lpfAllocMore_
   
-> dans Pointeur vers la fonction [MAPIAllocateMore](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire si l'emplacement de destination n'est pas assez grand pour contenir la propriété à copier. 
+> [in] Pointeur vers la [fonction MAPIAllocateMore](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire si l’emplacement de destination n’est pas assez grand pour contenir la propriété à copier. 
     
  _lpvObject_
   
-> dans Pointeur vers un objet pour lequel **MAPIAllocateMore** alloue de l'espace, si nécessaire. 
+> [in] Pointeur vers un objet pour lequel **MAPIAllocateMore alloue** de l’espace si nécessaire. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> La valeur de la propriété unique a été copiée.
+> La valeur de propriété unique a été correctement copiée.
     
 MAPI_E_NO_SUPPORT
   
@@ -72,10 +72,10 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-Une application cliente ou un fournisseur de services peut utiliser la fonction **PropCopyMore** pour copier une propriété à partir d'une table qui est sur le présent libérée afin de l'utiliser ailleurs. 
+Une application cliente ou un fournisseur de services peut utiliser la fonction **PropCopyMore** pour copier une propriété d’une table qui est sur le point d’être libérée afin de l’utiliser ailleurs. 
   
- **PropCopyMore** n'a pas besoin d'allouer de la mémoire, sauf si la valeur de la propriété copiée est d'un type tel que PT_STRING8, qui ne rentre pas dans une structure [SPropValue](spropvalue.md) . Pour ces propriétés volumineuses, la fonction alloue de la mémoire à l'aide de la fonction [MAPIAllocateMore](mapiallocatemore.md) à laquelle un pointeur est transmis dans le paramètre _lpfAllocMore_ . 
+ **PropCopyMore** n’a pas besoin d’allouer de mémoire, sauf si la valeur de propriété copiée est d’un type, tel que PT_STRING8, qui ne correspond pas à une structure [SPropValue.](spropvalue.md) Pour ces propriétés de grande taille, la fonction alloue de la mémoire à l’aide de la [fonction MAPIAllocateMore](mapiallocatemore.md) à laquelle un pointeur est transmis dans le paramètre _lpfAllocMore._ 
   
-Utilisation injudicieuse de la mémoire de fragments **PropCopyMore** ; envisagez d'utiliser la fonction [ScCopyProps](sccopyprops.md) à la place. 
+Utilisationjudicious de la mémoire des fragments **PropCopyMore** ; envisagez plutôt d’utiliser la fonction [ScCopyProps.](sccopyprops.md) 
   
 

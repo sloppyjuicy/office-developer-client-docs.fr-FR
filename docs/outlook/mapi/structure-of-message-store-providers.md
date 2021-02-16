@@ -19,15 +19,15 @@ ms.locfileid: "33426421"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un fournisseur de banque de messages, lorsqu'il est exécuté en mémoire, est une interface [IMSProvider: IUnknown](imsprovideriunknown.md) . L'interface **IMSProvider** permet aux applications clientes et au SPOULEur MAPI de se connecter à la Banque de messages et de s'en déconnecter. Les interfaces que les applications clientes et le spouleur MAPI utilisent pour accéder aux dossiers et aux messages dans la Banque de messages sont des interfaces [IMSLogon](imslogoniunknown.md) et [IMsgStore](imsgstoreimapiprop.md) . Ces interfaces sont généralement créées lors de la première ouverture de session de la Banque de messages, bien que le point d'entrée [MSProviderInit](msproviderinit.md) de la dll de la Banque de messages puisse également les créer. 
+Un fournisseur de magasin de messages, lorsqu’il est en cours d’exécution en mémoire, est une interface [IMSProvider : IUnknown.](imsprovideriunknown.md) **L’interface IMSProvider** permet aux applications clientes et aupooler MAPI de se connecter et de se déconnecter de la boutique de messages. Les interfaces que les applications clientes et lepooler MAPI utilisent pour accéder aux dossiers et aux messages dans la boutique de messages sont les interfaces [IMSLogon](imslogoniunknown.md) et [IMsgStore.](imsgstoreimapiprop.md) Ces interfaces sont généralement créées lors de la première ouverture de session de la magasin de messages, bien que le point d’entrée [MSProviderInit](msproviderinit.md) de la DLL de la magasin de messages puisse également les créer. 
   
-Étant donné que les interfaces **IMSLogon** et **IMsgStore** partagent certaines méthodes, il peut être plus facile de créer un objet de classe qui hérite de ces deux interfaces. Vous pouvez également implémenter ces interfaces dans des objets distincts et écrire des fonctions d'assistance internes à votre DLL qui implémentent les méthodes partagées qui peuvent être appelées à partir des méthodes des interfaces **IMSLogon** et **IMsgStore** . 
+Étant donné que les interfaces **IMSLogon** et **IMsgStore** partagent certaines méthodes, il peut être plus facile de créer un objet de classe qui hérite de ces deux interfaces. Vous pouvez également implémenter ces interfaces dans des objets distincts et écrire des fonctions d’aide internes à votre DLL qui implémentent les méthodes partagées qui peuvent ensuite être appelées à partir des méthodes des interfaces **IMSLogon** et **IMsgStore.** 
   
-L'illustration suivante montre un plan de haut niveau de la hiérarchie des objets au sein d'une banque de messages en cours d'exécution.
+L’illustration suivante montre un plan de haut niveau de la hiérarchie d’objets au sein d’une magasin de messages en cours d’exécution.
   
 **Hiérarchie d’objets de banque de messages**
   
-![Hiérarchie des objets] de la Banque de messages (media/storeobj.gif "Hiérarchie des objets") de la Banque de messages
+![Hiérarchie d’objets de magasin de messages Hiérarchie](media/storeobj.gif "d’objets de magasin de messages")
   
 ## <a name="see-also"></a>Voir aussi
 

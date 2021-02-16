@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 80273b50-bc16-4be2-8471-1a127b6786bb
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: aef4a932da35f3c4955bc2f4b265b146775c6d87
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "32341593"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Active l'authentification Kerberos d'une configuration de profil.
+Active l’authentification Kerberos d’une configuration de profil.
   
 ****
 
@@ -30,36 +30,36 @@ Active l'authentification Kerberos d'une configuration de profil.
 |Propriétés associées :  <br/> |PR_PROFILE_HOME_SERVER_FQDN  <br/> |
 |Identificateur :  <br/> |0x662A001F  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Configuration du profil MAPI  <br/> |
+|Domaine :  <br/> |Configuration de profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La définition de cette propriété sur le nom de domaine du serveur d'annuaire de l'utilisateur autorise une connexion directe au contrôleur de domaine (DC), nécessaire pour un profil qui a été configuré pour utiliser l'authentification Kerberos avec Microsoft Exchange Server 2007 et versions antérieures, en définissant **RPC_C_AUTHN_GSS_KERBEROS** dans **PR_PROFILE_AUTH_PACKAGE**.
+La définition de cette propriété sur le nom de domaine du serveur d’annuaire de l’utilisateur permet une connexion directe au contrôleur de domaine (DC), ce qui est nécessaire pour un profil configuré pour utiliser l’authentification Kerberos par rapport à Microsoft Exchange Server 2007 et versions antérieures, en configurant **RPC_C_AUTHN_GSS_KERBEROS** dans **PR_PROFILE_AUTH_PACKAGE**.
   
 > [!NOTE]
-> Microsoft Exchange Server 2010 et Exchange Server 2013 gèrent les appels de carnet d'adresses effectués sur le serveur d'accès au client différemment de la façon dont Exchange Server 2007 et les versions antérieures les gèrent. Le processus DSProxy n'est plus utilisé, de sorte que l'authentification Kerberos peut réussir. Toutefois, le client communique toujours avec le serveur Exchange au lieu d'être directement avec le contrôleur de contexte, ce qui n'est peut-être pas souhaité: la définition de **PR_PROFILE_HOME_SERVER_FQDN** évite cela. 
+> Microsoft Exchange Server 2010 et Exchange Server 2013 gèrent les appels de carnet d’adresses effectués vers le serveur d’accès au client différemment de la manière dont Exchange Server 2007 et les versions antérieures les gèrent. Le processus DSProxy n’est plus utilisé, donc l’authentification Kerberos peut réussir. Toutefois, le client communiquerait toujours avec le serveur Exchange au lieu de communiquer directement avec le dc, ce qui n’est peut-être pas souhaité : la configuration PR_PROFILE_HOME_SERVER_FQDN **évite** cela. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Spécifie les opérations admissibles pour les objets principaux de la Banque de messages.
+> Spécifie les opérations autorisées pour les objets principaux de la boutique de messages.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

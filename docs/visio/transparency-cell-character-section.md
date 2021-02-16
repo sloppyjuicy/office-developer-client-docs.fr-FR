@@ -28,7 +28,7 @@ Détermine le niveau de transparence d'une plage de la couleur de texte d'une fo
 
 Les valeurs sont arrondies au pourcentage le plus proche. Une valeur de 100 % correspond à une transparence totale. Même si une forme dont le texte est entièrement transparent apparaît identique sur la page de dessin à une forme dépourvue de texte, elle interagit avec les autres objets de la page de la même façon que si elle avait une transparence de 0 %.
   
-Vous pouvez également définir cette valeur à l'aide du curseur sous l'onglet **police** de la boîte de dialogue **texte** (sous l'onglet **Accueil** , cliquez sur la flèche **police** ). 
+Vous pouvez également définir cette valeur à  l’aide du curseur sous  l’onglet Police de la boîte de dialogue Texte (sous l’onglet Accueil, cliquez sur la **flèche Police).**  
   
 Si la section Characters contient plusieurs lignes, la cellule Transparency contient des informations de mise en forme qui sont appliquées à une sous-plage du texte d’une forme. Dans le cas contraire, elle contient des informations de mise en forme pour la totalité du texte de la forme.
   
@@ -36,14 +36,14 @@ Pour obtenir une référence à la cellule Transparency par un nom dans une autr
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Char. ColorTrans [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Char.ColorTrans[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Transparency par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visCharacterColorTrans** <br/> |
    
 

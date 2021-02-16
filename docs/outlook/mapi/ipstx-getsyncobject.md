@@ -25,7 +25,7 @@ ms.locfileid: "33407108"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Démarre une session de synchronisation et obtient l'interface **[IOSTX](iostxiunknown.md)** associée. 
+Démarre une session de synchronisation et obtient l’interface **[IOSTX](iostxiunknown.md)** associée. 
   
 ```cpp
 HRESULT GetSyncObject( 
@@ -37,11 +37,11 @@ HRESULT GetSyncObject(
 
  _ppostx_
   
->  remarquer Pointeur vers l'interface **IOSTX** à obtenir. 
+>  [out] Pointeur vers **l’interface IOSTX** à obtenir. 
     
 ## <a name="remarks"></a>Remarques
 
-L'appelant doit s'assurer que le même dossier n'est pas synchronisé en même temps sur plusieurs threads.
+L’appelant doit s’assurer que le même dossier n’est pas synchronisé en même temps sur plusieurs threads.
   
 ## <a name="see-also"></a>Voir aussi
 

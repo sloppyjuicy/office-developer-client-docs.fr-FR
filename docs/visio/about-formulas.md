@@ -30,7 +30,7 @@ Une formule commence toujours par un signe égal qui est inséré automatiquemen
   
 - Nombres
     
-- Coordinate
+- Coordonnées
     
 - Valeurs booléennes
     

@@ -1,5 +1,5 @@
 ---
-title: Cellule YGridOrigin (section &amp; règle et grille)
+title: YGridOrigin, cellule (section Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404490"
 ---
-# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Cellule YGridOrigin (section &amp; règle et grille)
+# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>YGridOrigin, cellule (section Ruler &amp; Grid)
 
 Indique l'origine verticale de la grille.
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l'option **origine** de la grille verticale dans la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l’option d’origine de la  grille verticale dans la boîte de dialogue **Grille &amp;** de règle (sous l’onglet Affichage, cliquez sur **Afficher** la flèche).  
   
 Pour obtenir une référence à la cellule YGridOrigin par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule YGridOrigin par index dans un program
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visYGridOrigin** <br/> |
    

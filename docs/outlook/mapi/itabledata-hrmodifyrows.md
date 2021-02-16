@@ -25,7 +25,7 @@ ms.locfileid: "33405358"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Insère plusieurs lignes de tableau, susceptibles de remplacer des lignes existantes.
+Insère plusieurs lignes de tableau, en remplaçant éventuellement les lignes existantes.
   
 ```cpp
 HRESULT HrModifyRows(
@@ -42,27 +42,27 @@ HRESULT HrModifyRows(
     
  _lpSRowSet_
   
-> dans Pointeur vers une structure [SRowSet](srowset.md) qui contient l'ensemble de lignes à ajouter, en remplaçant les lignes existantes si nécessaire. L'une des structures de valeur de propriété auxquelles pointe le membre **lpProps** de chaque structure [SRow](srow.md) dans l'ensemble de lignes doit contenir la colonne d'index, la valeur qui a été spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l'appel à la [ Fonction CreateTable](createtable.md) . 
+> [in] Pointeur vers une structure [SRowSet](srowset.md) qui contient l’ensemble de lignes à ajouter, en remplaçant les lignes existantes si nécessaire. L’une des structures de valeurs de propriétés pointées par le membre **lpProps** de chaque structure [SRow](srow.md) dans le jeu de lignes doit contenir la colonne d’index, la même valeur spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la fonction [CreateTable.](createtable.md) 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les lignes ont été correctement insérées ou modifiées.
+> Les lignes ont été insérées ou modifiées avec succès.
     
 MAPI_E_INVALID_PARAMETER 
   
-> Une ou plusieurs lignes transmises ne possèdent pas de colonne d'index. Si cette erreur est renvoyée, aucune ligne n'est modifiée.
+> Une ou plusieurs lignes transmises n’ont pas de colonne d’index. Si cette erreur est renvoyée, aucune ligne n’est modifiée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData:: HrModifyRows** insère les lignes décrites par la structure [SRowSet](srowset.md) vers laquelle pointe le paramètre _lpSRowSet_ . Si la valeur de la colonne d'index d'une ligne dans l'ensemble de lignes correspond à la valeur d'une ligne existante dans le tableau, la ligne existante est remplacée. S'il n'existe aucune ligne correspondant à celle incluse dans la structure **SRowSet** , **HrModifyRows** ajoute la ligne à la fin du tableau. 
+La **méthode ITableData::HrModifyRows insère** les lignes décrites par la structure [SRowSet](srowset.md) pointée par _le paramètre lpSRowSet._ Si la valeur de colonne d’index d’une ligne du jeu de lignes correspond à la valeur d’une ligne existante du tableau, la ligne existante est remplacée. S’il n’existe aucune ligne qui corresponde à celle incluse dans la structure **SRowSet,** **HrModifyRows** ajoute la ligne à la fin du tableau. 
   
-Toutes les vues de la table sont modifiées de façon à inclure les lignes vers lesquelles pointe _lpSRowSet_. Toutefois, si une vue a une restriction en place qui exclut une ligne, elle peut ne pas être visible par l'utilisateur. 
+Tous les affichages de la table sont modifiés pour inclure les lignes pointées par  _lpSRowSet_. Toutefois, si une restriction est en place dans un affichage qui exclut une ligne, il se peut qu’elle ne soit pas visible pour l’utilisateur. 
   
-Les colonnes des lignes vers lesquelles pointe _lpSRowSet_ n'ont pas besoin d'être dans le même ordre que les colonnes du tableau. L'appelant peut également inclure en tant que propriétés de colonnes qui ne se trouvent pas actuellement dans le tableau. Pour les affichages existants, **HrModifyRows** rend ces nouvelles colonnes disponibles, mais ne les inclut pas dans le jeu de colonnes actuel. Pour les futures vues, **HrModifyRows** inclut les nouvelles colonnes dans l'ensemble de colonnes. 
+Les colonnes des lignes pointées par  _lpSRowSet_ ne doivent pas être dans le même ordre que les colonnes du tableau. L’appelant peut également inclure en tant que propriétés de colonnes qui ne figurent pas actuellement dans le tableau. Pour les affichages **existants, HrModifyRows** rend ces nouvelles colonnes disponibles, mais ne les inclut pas dans le jeu de colonnes actuel. Pour les affichages futurs, **HrModifyRows** inclut les nouvelles colonnes dans le jeu de colonnes. 
   
-Une fois que **HrModifyRows** a ajouté les lignes, des notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable:: Advise](imapitable-advise.md) pour s'inscrire aux notifications. MAPI envoie des notifications TABLE_ROW_ADDED ou TABLE_ROW_MODIFIED pour chaque ligne, jusqu'à huit lignes. Si plus de huit lignes sont affectées par l'appel **HrModifyRows** , MAPI envoie à la place une seule notification TABLE_CHANGED. 
+Une fois **que HrModifyRows** a ajouté les lignes, des notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable::Advise](imapitable-advise.md) de la table pour s’inscrire aux notifications. MAPI envoie TABLE_ROW_ADDED ou TABLE_ROW_MODIFIED notifications pour chaque ligne, jusqu’à huit lignes. Si plus de huit lignes sont affectées par l’appel **HrModifyRows,** MAPI envoie une seule notification TABLE_CHANGED à la place. 
   
 ## <a name="see-also"></a>Voir aussi
 

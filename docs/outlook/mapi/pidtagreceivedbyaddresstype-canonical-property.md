@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0eef299d-6923-4dae-9a18-91ea82ea0f3e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 00c07069ed174fe55556dfe48398d65b4e64100e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32359226"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le type d'adresse de messagerie, par exemple SMTP, pour l'utilisateur de messagerie qui reçoit le message.
+Contient le type d’adresse de messagerie, tel que SMTP, pour l’utilisateur de messagerie qui reçoit réellement le message.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient le type d'adresse de messagerie, par exemple SMTP, pour l'utilisateur d
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d'adresse pour l'utilisateur de messagerie qui reçoit réellement le message. Elles doivent être définies par le fournisseur de transport entrant.
+Ces propriétés sont des exemples de propriétés d’adresse pour l’utilisateur de messagerie qui reçoit réellement le message. Elles doivent être définies par le fournisseur de transport entrant.
   
-La chaîne de type d'adresse peut contenir uniquement les caractères alphabétiques de A à Z et les chiffres 0 à 9. Ces propriétés qualifient la propriété **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) en spécifiant un type d'adresse, par exemple SMTP, indiquant la façon dont l'adresse doit être construite.
+La chaîne de type d’adresse ne peut contenir que les caractères alphabétiques en minuscules A à Z et les nombres de zéro à neuf. Ces propriétés qualifient la propriété **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) en spécifiant un type d’adresse, tel que SMTP, indiquant ainsi comment l’adresse doit être construite.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
+> Spécifie les propriétés et opérations autorisées sur les messages électroniques.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

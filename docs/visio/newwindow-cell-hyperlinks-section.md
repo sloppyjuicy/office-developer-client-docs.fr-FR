@@ -20,9 +20,9 @@ ms.locfileid: "32342230"
 
 Définit si le lien hypertexte doit être ouvert dans une nouvelle fenêtre.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Ouvrez la page, le document ou le site Web lié dans une nouvelle fenêtre.  <br/> |
+| TRUE  <br/> | Ouvrez la page liée, le document ou le site web dans une nouvelle fenêtre.  <br/> |
 | FALSE  <br/> | Valeur par défaut. Le lien hypertexte n'est pas ouvert dans une nouvelle fenêtre.  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -31,14 +31,14 @@ Pour obtenir une référence à la cellule NewWindow par un nom à partir d'une 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Lien hypertexte.  *Nom* . NewWindow où hyperLink.  *Name* est le nom de la ligne  <br/> |
+| Nom de la cellule :  <br/> | Lien hypertexte.  *Nom*  . NewWindow où Lien hypertexte.  *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule NewWindow à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionHyperlink** <br/> |
-| Index de la ligne :  <br/> |**visRow1stHyperlink** +  *i* où *i* = 0, 1, 2,...  <br/> |
+| Index de la ligne :  <br/> |**visRow1stHyperlink**  +   *i* où *i* = 0, 1, 2, ...  <br/> |
 | Index de la cellule :  <br/> |**visHLinkNewWin** <br/> |
    
 

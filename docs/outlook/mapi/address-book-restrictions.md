@@ -1,5 +1,5 @@
 ---
-title: Restrictions du carnet d'adresses
+title: Restrictions du carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432799"
 ---
-# <a name="address-book-restrictions"></a>Restrictions du carnet d'adresses
+# <a name="address-book-restrictions"></a>Restrictions du carnet d’adresses
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fournisseurs de carnets d'adresses sont requis pour prendre en charge trois types de restrictions sur les tables de contenu de leurs conteneurs:
+Les fournisseurs de carnets d’adresses sont requis pour prendre en charge trois types de restrictions sur les tables de contenu de leurs conteneurs :
   
 - Restrictions de propriété de nom ambigu
     
-- Restrictions de propriété de clé d'instance
+- Restrictions de propriété clé d’instance
     
-- Restrictions de contenu de nom d'affichage préfixé
+- Restrictions de contenu de nom d’affichage préfixées
     
-Les restrictions de nom ambigus sont des restrictions de propriété utilisant la propriété **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) pour faire correspondre les noms des destinataires aux entrées dans les conteneurs du carnet d'adresses. La restriction de propriété **PR_ANR** est un type de recherche qui permet aux fournisseurs de carnet d'adresses de choisir la propriété correspondante la mieux adaptée à leur conteneur. Par exemple, un fournisseur de carnet d'adresses peut implémenter la restriction **PR_ANR** en faisant correspondre les noms des destinataires à la propriété **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) de chaque entrée de conteneur tandis qu'un autre fournisseur peut utiliser **PR_DISPLAY _NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
+Les restrictions de nom ambigu sont des restrictions de propriété qui utilisent **la propriété PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) pour faire correspondre les noms des destinataires aux entrées dans les conteneurs de carnet d’adresses. La restriction **PR_ANR** de propriété est un type de recherche de « meilleure estimation » qui permet aux fournisseurs de carnets d’adresses de choisir la propriété correspondante qui fonctionne le mieux pour leur conteneur. Par exemple, un fournisseur de carnet d’adresses peut implémenter la restriction **PR_ANR** en mettant en correspondance les noms des destinataires avec la propriété **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) de chaque entrée de conteneur, alors qu’un autre fournisseur peut utiliser **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
-MAPI recommande que les implémentations de la restriction **PR_ANR** soient équilibrées entre les performances et la satisfaction des utilisateurs. La satisfaction des utilisateurs peut être compromise quand un fournisseur de carnet d'adresses implémente la restriction de telle sorte qu'il n'existe pas trop peu ou trop de correspondances. Certains fournisseurs de carnets d'adresses prennent en charge ce qui est connu sous le nom de nom unique ou courant qui n'est pas affichable dans une boîte de dialogue, mais peut correspondre à une restriction de nom ambigu. 
+MAPI recommande que les implémentations de la restriction **PR_ANR** équilibrent entre performances adéquates et satisfaction de l’utilisateur. La satisfaction des utilisateurs peut être compromise lorsqu’un fournisseur de carnet d’adresses implémente la restriction de telle sorte qu’un nombre de correspondances trop petit ou trop élevé soit trouvé. Certains fournisseurs de carnets d’adresses peuvent prendre en charge ce que l’on appelle un nom commun ou reconnu qui n’est pas affichable dans une boîte de dialogue, mais qui peut correspondre à une restriction de nom ambigu. 
   
-Une implémentation classique peut consister à analyser le nom d'affichage du destinataire en mots, ce qui correspond à n'importe quelle entrée contenant tous les mots. Attention aux détails, tels que la sensibilité de la position de Word, la correspondance entre les mots non consécutifs et le choix des caractères de séparation. Par exemple, si le nom à résoudre est «Bill L», une restriction **PR_ANR** classique sélectionnera les entrées suivantes, comme suit: 
+Une implémentation classique peut être d’afficher le nom complet du destinataire en mots, en correspondant à toute entrée contenant tous les mots. Les détails tels que la sensibilité à la position du mot, la correspondance des mots non conconsecutifs et le choix des caractères de séparation peuvent varier. Par exemple, si le nom à résoudre est « Bill L », une **restriction** PR_ANR type sélectionne les entrées suivantes en tant que correspondance : 
   
 - Billy Larson
     
@@ -43,13 +43,13 @@ Une implémentation classique peut consister à analyser le nom d'affichage du d
     
 - Sam Bill Lee
     
-Les restrictions de clé d'instance, ou **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), sont utilisées dans l'implémentation des zones de liste utilisées dans les applications clientes pour l'affichage des tables MAPI. Certaines implémentations de zone de liste permettent aux utilisateurs de sélectionner plusieurs sélections, de faire défiler vers le haut ou vers le bas et de revenir au premier élément sélectionné. Pour implémenter ce comportement, les clients appellent [IMAPITable:: FindRow](imapitable-findrow.md), en transmettant une restriction de propriété sur la propriété **PR_INSTANCE_KEY** à la méthode. Les fournisseurs de carnets d'adresses sont requis pour prendre en charge cette restriction. 
+Les restrictions de clé d’instance, ou restrictions de propriété **PR_INSTANCE_KEY** ([PidTagInstanceKey),](pidtaginstancekey-canonical-property.md)sont utilisées dans l’implémentation des zones de liste utilisées dans les applications clientes pour afficher les tables MAPI. Certaines implémentations de zone de liste permettent aux utilisateurs d’effectuer plusieurs sélections, de faire défiler vers le haut ou vers le bas et de revenir au premier élément sélectionné. Pour implémenter ce comportement, les clients appellent [IMAPITable::FindRow](imapitable-findrow.md), en passant une restriction de propriété **PR_INSTANCE_KEY** propriété à la méthode. Les fournisseurs de carnets d’adresses sont requis pour prendre en charge cette restriction. 
   
-Une autre fonctionnalité des zones de liste utilisées pour l'affichage des tableaux est la possibilité de positionner le curseur en fonction d'un ensemble de caractères de préfixe. Lorsque l'utilisateur commence à taper des caractères de préfixe, le client place le curseur sur le premier élément qui commence par ces caractères. Les clients implémentent cette fonctionnalité avec une restriction de contenu basée sur la propriété **PR_DISPLAY_NAME** et le niveau de fuzzing FL_PREFIX. 
+Une autre fonctionnalité des zones de liste utilisées pour l’affichage de tableau est la possibilité de positionner le curseur en fonction d’un ensemble de caractères de préfixe. Lorsque l’utilisateur commence à taper des caractères de préfixe, le client déplace le curseur vers le premier élément qui commence par ces caractères. Les clients implémentent cette fonctionnalité avec une restriction de contenu basée sur **la propriété PR_DISPLAY_NAME** et le niveau FL_PREFIX données. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

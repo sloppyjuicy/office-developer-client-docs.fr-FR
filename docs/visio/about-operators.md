@@ -26,9 +26,9 @@ Le tableau ci-dessous montre des exemples d’expressions avec leurs résultats.
   
 |**Expression**|**Résultat**|**Description**|
 |:-----|:-----|:-----|
-| 2 \* 5 &amp; «cents»  <br/> | "10 cents"  <br/> | L' &amp; opérateur (concaténation de chaîne) requiert des arguments de type chaîne, de sorte \* que le résultat numérique de 2 5 est automatiquement converti en chaîne «10».  <br/> |
-| 5 \* "2"  <br/> | 10   <br/> | L' \* opérateur (multiplication) nécessite des arguments numériques, de sorte que la chaîne «2» est automatiquement convertie en un nombre équivalent 2.  <br/> |
-| 5 \* "mouton"  <br/> | 0  <br/> | L' \* opérateur (multiplication) nécessite des arguments numériques, car la chaîne «mouton» ne peut pas être convertie en un nombre, zéro est utilisé comme son équivalent numérique.  <br/> |
+| 2 \* 5 &amp; »  <br/> | "10 cents"  <br/> | L’opérateur (concatenation de chaîne) requiert des arguments de chaîne, de sorte que le résultat numérique de 2 5 est automatiquement converti en chaîne &amp; \* « 10 ».  <br/> |
+| 5 \* « 2 »  <br/> | 10   <br/> | L’opérateur (multiplication) requiert des arguments numériques, de sorte que la chaîne « 2 » est automatiquement convertie en nombre \* équivalent 2.  <br/> |
+| 5 \* « sous »  <br/> | 0  <br/> | L’opérateur (multiplication) requiert des arguments numériques, donc, étant donné que la chaîne « er » ne peut pas être convertie en nombre, zéro est utilisé comme équivalent \* numérique.  <br/> |
    
 ## <a name="arithmetic-operators"></a>Opérateurs arithmétiques
 
@@ -36,14 +36,14 @@ Les opérateurs arithmétiques réalisent des opérations sur des nombres. Les o
   
 |**Opérateur**|**Action**|**Exemple**|**Résultat**|
 |:-----|:-----|:-----|:-----|
-| +  <br/> | Positif  <br/> | + 37  <br/> | 37  <br/> |
+| +  <br/> | Positif  <br/> | +37  <br/> | 37  <br/> |
 | -  <br/> | Négatif  <br/> | -37  <br/> | -37  <br/> |
-| %  <br/> | Pourcentage  <br/> | 37%  <br/> | .37  <br/> |
-| ^  <br/> | Elévation  <br/> | 5 ^ 2  <br/> | 25  <br/> |
-| \*  <br/> | Multiplication  <br/> | 5 \* 2  <br/> | 10   <br/> |
+| %  <br/> | Pourcentage  <br/> | 37 %  <br/> | .37  <br/> |
+| ^  <br/> | Exponentiation  <br/> | 5 ^ 2  <br/> | 25  <br/> |
+| \*  <br/> | Multiplication  <br/> | 5 \* 2  <br/> | 10   <br/> |
 | /  <br/> | Division  <br/> | 5/2  <br/> | 2,5  <br/> |
-| +  <br/> | Ajout  <br/> | 5 + 2  <br/> | 7j/7  <br/> |
-| -  <br/> | Soustraction  <br/> | 5 - 2  <br/> | 3  <br/> |
+| +  <br/> | Ajout  <br/> | 5 + 2  <br/> | 7   <br/> |
+| -  <br/> | Soustraction  <br/> | 5 - 2  <br/> | 3   <br/> |
    
 ## <a name="comparison-operators"></a>Opérateurs de comparaison
 
@@ -51,14 +51,14 @@ Les opérateurs de comparaison sont utilisés pour construire des expressions lo
   
 |**Opérateur**|**Solution alternative**|**Action**|**Exemple**|**Résultat**|
 |:-----|:-----|:-----|:-----|:-----|
-| \>  <br/> | _BRUT_  <br/> | Supérieur à  <br/> | 5 \> 2  <br/> | TRUE  <br/> |
+| \>  <br/> | _GT_  <br/> | Supérieur à  <br/> | 5 \> 2  <br/> | TRUE  <br/> |
 | \<  <br/> | _LT_  <br/> | Inférieur à  <br/> | 5 \< 2  <br/> | FALSE  <br/> |
-| \>=  <br/> | _FIER_  <br/> | Supérieur ou égal à  <br/> | 5 \>= 2  <br/> | TRUE  <br/> |
-| \<=  <br/> | _6150_  <br/> | Inférieur ou égal à  <br/> | 5 \<= 2  <br/> | FALSE  <br/> |
-| =  <br/> | _Egalis_  <br/> | Égal à  <br/> | 5 = 2  <br/> | FALSE  <br/> |
-| \<\>  <br/> | _HIRAGANA_  <br/> | Différent de  <br/> | 5 \< \> 2  <br/> | TRUE  <br/> |
+| \>=  <br/> | _GE_  <br/> | Supérieur ou égal à  <br/> | 5 \> = 2  <br/> | TRUE  <br/> |
+| \<=  <br/> | _LE_  <br/> | Inférieur ou égal à  <br/> | 5 \< = 2  <br/> | FALSE  <br/> |
+| =  <br/> | _EQ_  <br/> | Égal à  <br/> | 5 = 2  <br/> | FALSE  <br/> |
+| \<\>  <br/> | _NE_  <br/> | Différent de  <br/> | 5 \< \> 2  <br/> | TRUE  <br/> |
    
-Les opérateurs de comparaison symbolique\>( \<,, et ainsi de suite) représentent le meilleur choix pour la plupart des comparaisons. Les autres opérateurs (_gt_, _lt_et ainsi de suite) effectuent une comparaison exacte avec les 15 chiffres de précision utilisés par Visio pour stocker des valeurs en interne.
+Les opérateurs de comparaison symboliques ( et ainsi de suite) sont le meilleur choix \> pour la plupart des \< comparaisons. Les opérateurs alternatifs _(GT,_ _LT,_ etc.) effectuent une comparaison exacte avec les 15 chiffres complets de précision que Visio utilise pour stocker des valeurs en interne.
   
 Lorsque vous comparez des valeurs arrondies ou calculées à l’aide de ces opérateurs de remplacement, la valeur FALSE peut être renvoyée, alors que dans la pratique, l’expression devrait renvoyer TRUE.
   
@@ -70,21 +70,21 @@ Lorsqu’une formule contient plusieurs expressions, elles sont évaluées dans 
   
 |**Order**|**Action**|**Opérateur**|
 |:-----|:-----|:-----|
-|Premier  <br/> |Zéro  <br/> |+ (unaire)  <br/> |
+|Premier  <br/> |Positif  <br/> |+ (unaire)  <br/> |
 ||Negative  <br/> |- (unaire)  <br/> |
 ||Pourcentage  <br/> |% (unaire)  <br/> |
-|Deuxième  <br/> |Elévation  <br/> |^  <br/> |
+|Deuxième  <br/> |Exponentiation  <br/> |^  <br/> |
 |Troisième  <br/> |Multiplication  <br/> |\*  <br/> |
 ||Division  <br/> |/  <br/> |
 |Quatrième  <br/> |Addition  <br/> |+  <br/> |
 ||Soustraction  <br/> |-  <br/> |
 |Cinquième  <br/> |Concaténation de chaînes  <br/> |&amp;  <br/> |
-|Sixième  <br/> |Supérieur à  <br/> |\>ou GT  <br/> |
+|Sixième  <br/> |Supérieur à  <br/> |\> ou GT  <br/> |
 ||Supérieur ou égal à  <br/> |\>= ou GE  <br/> |
-||Inférieur à  <br/> |\<ou LT  <br/> |
+||Inférieur à  <br/> |\< ou LT  <br/> |
 ||Inférieur ou égal à  <br/> |\<= ou LE  <br/> |
 |Septième  <br/> |Égal  <br/> |= ou EQ  <br/> |
-||Différent de  <br/> |\<\>ou ne  <br/> |
+||Différent de  <br/> |\<\> ou NE  <br/> |
    
 Vous pouvez modifier l’ordre d’évaluation en mettant des expressions entre parenthèses. Visio évalue d’abord les expressions entre parenthèses, de la gauche vers la droite. Exemple :
   
@@ -98,10 +98,10 @@ Si les expressions entre parenthèses sont imbriquées, Visio évalue en premier
 
 L’opérateur & renvoie une nouvelle chaîne de caractères. Vous pouvez créer des mots ou des locutions composés à l’aide de cet opérateur. Utilisez la syntaxe suivante :
   
-"chaîne1" &amp; "chaîne2"
+« string1 » &amp; « string2 »
   
  **Exemple**
   
-«chien &amp; » «maison» renvoie «portefeuille»
+« dog " &amp; « house » renvoie « doghouse »
   
 

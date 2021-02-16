@@ -25,14 +25,14 @@ ms.locfileid: "33424706"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un formulaire doit être supprimé de l'affichage par les menus de composition et les boîtes de dialogue. 
+Contient TRUE si un formulaire doit être supprimé de l’affichage par les menus de composition et les boîtes de dialogue. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_HIDDEN  <br/> |
 |Identificateur :  <br/> |0x3307  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -40,15 +40,15 @@ Les propriétés liées aux formulaires sont en lecture seule.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

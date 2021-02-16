@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d347c949-d0c3-4a36-8447-3fa01111cdc1
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 1db41bc5c7ea71d65d892da520d4258354eb53cf
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32358813"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur du jeu de caractères d'une pièce jointe de message.
+Contient la valeur du jeu de caractères d’une pièce jointe de message.
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contient la valeur du jeu de caractères d'une pièce jointe de message.
    
 ## <a name="remarks"></a>Remarques
 
-Les données de cette propriété proviennent d'un champ d'en-tête MIME Content-type qui commence par «Text/», si un paramètre «charset» est présent.
+Les données de cette propriété sont dérivées d’un champ d’en-tête MIME content-type qui commence par « text/ », si un paramètre « charset » est présent.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> ConVertit des conventions de messagerie standard Internet en objets message.
+> Convertit des conventions de messagerie standard Internet en objets de message.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

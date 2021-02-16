@@ -1,5 +1,5 @@
 ---
-title: Ajout d’options de vote à un élément de courrier électronique
+title: Ajouter des options de vote à un élément de courrier
 TOCTitle: Add voting options to a mail item
 ms:assetid: 0fb209a8-178d-411e-9551-0a72e041fd65
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424466(v=office.15)
@@ -28,7 +28,7 @@ Les options de vote dans des messages servent à proposer aux destinataires d'un
 
 Dans l’exemple suivant, OrderPizza crée des options de vote dans un nouveau message électronique. OrderPizza crée d’abord un objet **MailItem**, puis définit la propriété sur **VotingOptions** sur « Cheese; Mushroom; Sausage; Combo; Veg Combo », puis la propriété [Subject](https://msdn.microsoft.com/library/bb611353\(v=office.15\)) sur « Pizza Order ». Lorsque le message « Pizza Order » est envoyé, les options de vote apparaissent aux destinataires. Pour chaque réponse reçue, le choix du destinataire sera reporté dans la page **Suivi** du message dans le dossier Éléments envoyés de l’expéditeur.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

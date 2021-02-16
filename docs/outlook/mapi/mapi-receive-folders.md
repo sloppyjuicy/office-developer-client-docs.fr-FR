@@ -55,10 +55,10 @@ Le tableau suivant montre comment les messages avec plusieurs classes doivent ï¿
   
 |**Classe de message entrant**|**Dossier de rï¿½ception**|
 |:-----|:-----|
-|**Mn. Note. Sample. simple** <br/> |Dossier d'exemples  <br/> |
-|**Mn. Note** <br/> |Dossier boï¿½te de rï¿½ception  <br/> |
-|**Mn. PrÃ©sence** <br/> |Dossier boï¿½te de rï¿½ception  <br/> |
-|**Mn. Note. Sample. simple. totalement** <br/> |Dossier d'exemples  <br/> |
+|**IPM. Note.Sample.Simple** <br/> |Dossier d'exemples  <br/> |
+|**IPM. Remarque** <br/> |Dossier boï¿½te de rï¿½ception  <br/> |
+|**IPM. Timecard** <br/> |Dossier boï¿½te de rï¿½ception  <br/> |
+|**IPM. Note.Sample.Simple.Totally** <br/> |Dossier d'exemples  <br/> |
    
 Clients appellent la mï¿½thode **SetReceiveFolder** pour ï¿½mettre une association entre une classe de message particuliï¿½re explicite et recevoir des dossiers. Lorsqu'un message est remis ï¿½ une classe de message vide, MAPI place le message dans le dossier de rï¿½ception n'est dï¿½fini pour un prï¿½fixe de la classe vide. Par exemple, si votre client dispose d'un dossier de rï¿½ception ï¿½tabli pour les messages avec la classe **IPM** et la remise d'un message avec la classe **IPM.Note.Test**, ce message sera placï¿½ dans le dossier de rï¿½ception pour la classe de message **IPM**. 
   

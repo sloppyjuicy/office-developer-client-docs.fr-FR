@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble du fournisseur de transport MAPI
+title: Vue d’ensemble du fournisseur de transport MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,18 +15,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404574"
 ---
-# <a name="mapi-transport-provider-overview"></a>Vue d'ensemble du fournisseur de transport MAPI
+# <a name="mapi-transport-provider-overview"></a>Vue d’ensemble du fournisseur de transport MAPI
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fournisseurs de transport gèrent la transmission et la réception des messages et implémentent la sécurité, le cas échéant. Elles prennent également en charge les tâches de prétraitement et de post-traitement nécessaires. Il existe généralement un fournisseur de transport pour chaque système de messagerie actif.
+Les fournisseurs de transport gèrent la transmission et la réception des messages et implémentent la sécurité, si nécessaire. Ils s’occupent également de toutes les tâches de prétraitage et de post-traitement nécessaires. Il existe généralement un fournisseur de transport pour chaque système de messagerie actif.
   
-Les applications clientes communiquent avec le fournisseur de transport via un fournisseur de banque de messages. 
+Les applications clientes communiquent avec le fournisseur de transport via un fournisseur de magasins de messages. 
   
-Les fournisseurs de transport s'inscrivent à MAPI pour gérer un ou plusieurs types d'entrées de destinataires spécifiques. Lorsqu'un message est prêt à être envoyé, MAPI doit déterminer quel fournisseur de transport doit gérer la transmission. Selon le type de destinataire, MAPI peut même appeler sur plusieurs fournisseurs de transport. Si un fournisseur de transport non disponible est le seul à pouvoir gérer le destinataire, la transmission des messages est différée jusqu'à ce qu'une connexion avec ce fournisseur puisse être rétablie.
+Les fournisseurs de transport s’inscrivent auprès de MAPI pour gérer un ou plusieurs types particuliers d’entrées de destinataire. Lorsqu’un message est prêt à être envoyé, MAPI doit déterminer le fournisseur de transport qui doit gérer la transmission. Selon le type de destinataire, MAPI peut même appeler plusieurs fournisseurs de transport. Si un fournisseur de transport indisponible est le seul à pouvoir gérer le destinataire, la transmission du message est différée jusqu’à ce qu’une connexion avec ce fournisseur puisse être rétablie.
   
-Certains systèmes de messagerie sont des systèmes sécurisés; tous les utilisateurs potentiels doivent entrer un ensemble d'informations d'identification valides avant d'autoriser l'accès. MAPI empêche l'accès non autorisé à ce type de système de messagerie sécurisée en faisant en sorte que le fournisseur de transport valide les informations d'identification au moment de l'ouverture de session. 
+Certains systèmes de messagerie sont des systèmes sécurisés ; Tous les utilisateurs potentiels doivent entrer un ensemble d’informations d’identification valides avant d’autoriser l’accès. MAPI empêche l’accès non autorisé à ces systèmes de messagerie sécurisés en faisant valider les informations d’identification par le fournisseur de transport au moment de l’connexion. 
   
 

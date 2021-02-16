@@ -21,7 +21,7 @@ ms.locfileid: "33433807"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le démarrage de la synchronisation entre un magasin local et un serveur. Ces informations sont utilisées lors de l' [État Synchronize](synchronize-state.md).
+Informations de démarrage de la synchronisation entre un magasin local et un serveur. Ces informations sont utilisées pendant [l’état de synchronisation.](synchronize-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -41,48 +41,48 @@ struct SYNC
 
  _ulFlags_
   
-- [out]/[in] masque de masque des indicateurs suivants qui modifie le comportement lors de la synchronisation:
+- [out]/[in] Masque de bits des indicateurs suivants qui modifie le comportement lors de la synchronisation :
     
 - UPS_UPLOAD_ONLY
     
-  - dans Le client effectuera uniquement le chargement. Outlook retourne uniquement les dossiers modifiés localement.
+  - [in] Le client effectue uniquement le chargement. Outlook renvoie uniquement les dossiers modifiés localement.
     
 - UPS_DNLOAD_ONLY
     
-  - dans Le client effectue uniquement un téléchargement. Outlook ne doit pas effacer les bits de téléchargement pour les dossiers.
+  - [in] Le client effectue uniquement le téléchargement. Outlook ne doit pas effacer les bits de chargement pour les dossiers.
     
 - UPS_THESE_FOLDERS
     
-  - dans Le client synchronise un ensemble spécifié de dossiers avec les ID d'entrée fournis. Cet indicateur peut être combiné avec l'indicateur **UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY** . 
+  - [in] Le client synchronisera un ensemble spécifié de dossiers avec les ID d’entrée fournis. Cet indicateur peut être combiné avec **l’UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY’indicateur.** 
     
 - UPS_OK
     
-  - remarquer La synchronisation a réussi. Le client définit ceci après le téléchargement ou une synchronisation complète.
+  - [out] La synchronisation a réussi. Le client définit cela une fois le téléchargement ou une synchronisation complète terminée.
     
 - 
     
     > [!NOTE]
-    > Même si le client peut télécharger des dossiers et des éléments avec l'API de réPlication ou les synchroniser entièrement (télécharger et télécharger), le client spécifie *ulFlags* avec une seule direction de la réplication à la fois, à savoir le **UPS_UPLOAD_ONLY** ou Indicateur **UPS_DNLOAD_ONLY** . Dans le cas d'une synchronisation complète, le client effectue d'abord un chargement avec l'indicateur **UPS_UPLOAD_ONLY** , puis un téléchargement avec l'indicateur **UPS_DNLOAD_ONLY** . 
+    > Même si le client peut charger ou synchroniser entièrement (télécharger puis télécharger) des dossiers et des éléments avec l’API de réplication, le client spécifie les *ulFlags* avec un seul sens de la réplication à la fois ( l’indicateur **UPS_UPLOAD_ONLY** ou **UPS_DNLOAD_ONLY).** Dans le cas d’une synchronisation complète, le client fait d’abord un chargement avec l’indicateur **UPS_UPLOAD_ONLY,** puis un téléchargement avec **l’indicateur UPS_DNLOAD_ONLY.** 
   
  _pwzPath_
   
-- remarquer Chemin d'accès au magasin local.
+- [out] Chemin d’accès au magasin local.
     
  _Reserved1_
   
-- Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.
+- Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge.
     
  _Reserved2_
   
-- Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.
+- Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge.
     
- *PEL* 
+ *pel* 
   
-- dans Il s'agit de la liste des identificateurs d'entrée des dossiers à synchroniser si **UPS_THESE_FOLDERS** a été défini. Voir mapidefs. h pour la définition de type de **LPENTRYLIST**. 
+- [in] Il s’agit de la liste des ID d’entrée des dossiers à synchroniser si **UPS_THESE_FOLDERS** a été définie. Voir mapidefs.h pour la définition de type **de LPENTRYLIST**. 
     
- _pulFolderOptions_
+ _ErrsFolderOptions_
   
-- dans Il s'agit d'un tableau d'options de dossier pour les dossiers correspondants dans *PEL* si **UPS_THESE_FOLDERS** a été défini. Ces options de dossiers sont utilisées lors du téléchargement de chaque dossier répertorié dans *PEL* lors de l' [État du dossier de chargement](upload-folder-state.md). Pour plus d'informations sur les options des dossiers, voir **[UPFLD](upfld.md)**. 
+- [in] Il s’agit d’un tableau d’options de dossier pour les dossiers correspondants dans  *pel* **si UPS_THESE_FOLDERS** a été définie. Ces options de dossier sont utilisées lors du téléchargement de chacun des dossiers répertoriés dans *pel* pendant l’état [de chargement du dossier.](upload-folder-state.md) Pour plus d’informations sur les options de dossier, **[voir UPFLD](upfld.md)**. 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -21,18 +21,18 @@ ms.locfileid: "33404301"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fonctionnalités facultatives les fournisseurs de transport peuvent implémenter les éléments suivants:
+Les fonctionnalités facultatives que les fournisseurs de transport peuvent implémenter sont les suivantes :
   
-- Enregistrement des options de message et de destinataire spécifiques au fournisseur de transport.
+- Inscription des options de message et de destinataire spécifiques au fournisseur de transport.
     
-- La maintenance d'un profil, si nécessaire, pour stocker les informations de configuration et les informations d'identification dans le système de messagerie.
+- Maintenance d’un profil, si nécessaire, pour stocker les informations de configuration et les informations d’identification dans le système de messagerie.
     
-- Effectuer la vérification des informations d'identification requises par le système de messagerie.
+- Effectuer toute vérification des informations d’identification requises par le système de messagerie.
     
-- Prise en charge de la notification d'événement pour les applications clientes intéressées à l'aide de la méthode [IMAPISupport:: Notify](imapisupport-notify.md) . 
+- Prise en charge de la notification d’événement pour les applications clientes intéressées avec la méthode [IMAPISupport::Notify.](imapisupport-notify.md) 
     
-- Affichage des feuilles de propriétés de configuration et des boîtes de dialogue de l'Assistant pour permettre aux utilisateurs de configurer les paramètres du fournisseur de transport.
+- Affichage des feuilles de propriétés de configuration et des boîtes de dialogue de l’Assistant pour permettre aux utilisateurs de configurer les paramètres du fournisseur de transport.
     
-- Fourniture de rapports de remise des messages aux applications clientes.
+- Fourniture de rapports de remise de messages aux applications clientes.
     
 

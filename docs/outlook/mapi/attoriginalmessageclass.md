@@ -19,6 +19,6 @@ ms.locfileid: "33404231"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une classe de message est stockée sous forme de chaîne. La chaîne codée contient généralement le nom spécifié par MAPI de la classe de message.
+Une classe de message est stockée en tant que chaîne. La chaîne codée contient généralement le nom spécifié MAPI de la classe de message.
   
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 315165f3c46058424986aa8abba16b0df75baaf9
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,31 +25,31 @@ ms.locfileid: "32331772"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le numéro de séquence d'un objet de réunion.
+Spécifie le numéro de séquence d’un objet Meeting.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptSequence  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
-|ID long (couvercle):  <br/> |0x00008201  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
+|ID long (LID) :  <br/> |0x00008201  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Réunions  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

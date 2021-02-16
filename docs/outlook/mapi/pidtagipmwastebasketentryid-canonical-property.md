@@ -25,7 +25,7 @@ ms.locfileid: "33426351"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée du dossier éléments supprimés de message de messagerie interpersonne (IPM) standard. 
+Contient l’identificateur d’entrée du dossier Éléments supprimés du message interpersonnel standard (IPM). 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient l'identificateur d'entrée du dossier éléments supprimés de message 
    
 ## <a name="remarks"></a>Remarques
 
-Une application cliente doit déplacer les messages interpersonnels supprimés vers le dossier éléments supprimés. Si le message est déjà dans ce dossier, ou si cette propriété n'est pas prise en charge, le client doit supprimer le message. 
+Une application cliente doit déplacer les messages interpersonnels supprimés vers le dossier Éléments supprimés. Si le message se trouve déjà dans ce dossier ou si cette propriété n’est pas prise en charge, le client doit supprimer le message. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

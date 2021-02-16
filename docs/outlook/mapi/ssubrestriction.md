@@ -25,11 +25,11 @@ ms.locfileid: "33406324"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction de sous-objet qui est utilisée pour filtrer les lignes de la table de destinataires ou de la table de destinataires d'un message.
+Décrit une restriction de sous-objet utilisée pour filtrer les lignes de la table des destinataires ou des pièces jointes d’un message.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSubRestriction
@@ -44,27 +44,27 @@ typedef struct _SSubRestriction
 
  **ulSubObject**
   
-> Type de sous-objet servant de cible pour la restriction. Les valeurs possibles sont les suivantes: 
+> Type de sous-objet à cibler pour la restriction. Les valeurs possibles sont les suivantes : 
     
 PR_MESSAGE_RECIPIENTS 
   
-> Appliquer la restriction à la table de destinataires d'un message. 
+> Appliquez la restriction à la table des destinataires d’un message. 
     
 PR_MESSAGE_ATTACHMENTS 
   
->  Appliquer la restriction à la table des pièces jointes d'un message. 
+>  Appliquez la restriction à la table des pièces jointes d’un message. 
     
  **lpRes**
   
-> Pointeur vers une structure [SRestriction](srestriction.md) . 
+> Pointeur vers une structure [SRestriction.](srestriction.md) 
     
 ## <a name="remarks"></a>Remarques
 
-Les restrictions de sous-objet ne sont pas prises en charge par toutes les tables. En règle générale, seules les tables de contenu de dossier et les dossiers de résultats de recherche les prennent en charge. Par exemple, des restrictions de sous-objet sont utilisées pour rechercher un message comportant un type particulier de pièce jointe ou de destinataire. 
+Les restrictions de sous-objet ne sont pas pris en charge par toutes les tables. En règle générale, seuls les tableaux de contenu de dossier et les dossiers de résultats de recherche les prend en charge. Par exemple, les restrictions de sous-objet sont utilisées pour rechercher un message qui a un type particulier de pièce jointe ou de destinataire. 
   
-Si une implémentation ne prend pas en charge les restrictions de sous-objet, elle renvoie MAPI_E_TOO_COMPLEX à partir de ses méthodes [IMAPITable](imapitable-restrict.md) :: restrict ou [IMAPITable:: FindRow](imapitable-findrow.md) . 
+Si une implémentation ne prend pas en charge les restrictions de sous-objet, elle renvoie MAPI_E_TOO_COMPLEX à partir de ses méthodes [IMAPITable::Restrict](imapitable-restrict.md) ou [IMAPITable::FindRow.](imapitable-findrow.md) 
   
-Pour plus d'informations sur le fonctionnement des restrictions, consultez la rubrique [à propos des restrictions](about-restrictions.md). 
+Pour une discussion générale sur le fonctionnement des restrictions, voir [à propos des restrictions.](about-restrictions.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,7 +25,7 @@ ms.locfileid: "33405218"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si l'expéditeur d'un message demande la fonctionnalité de corrélation du système de messagerie.
+Contient TRUE si l’expéditeur d’un message demande la fonctionnalité de corrélation du système de messagerie.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient la valeur TRUE si l'expéditeur d'un message demande la fonctionnalité
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour demander la corrélation des rapports entrants avec le message d'origine envoyé. Lorsqu'un fournisseur de transport rencontre un message envoyé avec **PR_CORRELATE** défini sur true, il définit la propriété **PR_CORRELATE_MTSID** ([PIDTAGCORRELATEMTSID](pidtagcorrelatemtsid-canonical-property.md)) sur l'identificateur MTS (Message Transfer System) pour ce message.
+Cette propriété est utilisée pour demander la corrélation des rapports entrants avec le message envoyé d’origine. Lorsqu’un fournisseur de transport rencontre un message envoyé avec **PR_CORRELATE** définie sur TRUE, il définit la propriété **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) sur l’identificateur MTS (Message Transfer System) pour ce message.
   
- **PR_CORRELATE** doit être utilisé avec les systèmes de messagerie qui prennent en charge la corrélation par identificateur MTS, tel que X. 400. 
+ **PR_CORRELATE** doit être utilisé avec les systèmes de messagerie qui supportent la corrélation par l’identificateur MTS, tel que X.400. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

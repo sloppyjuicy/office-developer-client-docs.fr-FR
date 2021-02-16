@@ -21,8 +21,8 @@ ms.locfileid: "33424552"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Améliorer les performances en stockant les données qui prennent du temps et des ressources à récupérer et auxquelles il est fréquemment accédé. L'utilisation de la mémoire supplémentaire peut parfois être une meilleure option pour les extractions répétées. Soyez prudent lors de la création d'un cache pour le stockage de ces données. N'oubliez pas qu'un cache mal conçu peut avoir un impact négatif sur les performances.
+Améliorez les performances en stockant les données qui prennent du temps et des ressources à récupérer et sont fréquemment accessibles. L’utilisation d’une mémoire supplémentaire peut parfois être une meilleure option pour les récupérations répétées. Lors de la création d’un cache pour le stockage de ces données, il est prudent et prudent. N’oubliez pas qu’un cache mal conçu peut avoir un impact négatif sur les performances.
   
-Par exemple, la plupart des clients de message interpersonnes (IPM) doivent afficher et ouvrir la sous-arborescence IPM de dossiers plusieurs fois au cours d'une session standard. Vous pouvez améliorer les performances en stockant les identificateurs d'entrée pour chacun de ces dossiers. 
+Par exemple, la plupart des clients de message interpersonnel (IPM) doivent afficher et ouvrir la sous-arbre IPM de dossiers plusieurs fois au cours d’une session classique. Vous pouvez améliorer les performances en stockant les identificateurs d’entrée pour chacun de ces dossiers. 
   
 

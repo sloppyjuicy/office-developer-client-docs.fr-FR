@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3ab01f189734ac30b4c027f4e5596c88031b5f99
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32341698"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Établit le conteneur spécifié en tant que conteneur de carnet d'adresses par défaut.
+Établit le conteneur spécifié en tant que conteneur de carnet d’adresses par défaut.
   
 ```cpp
 HRESULT SetDefaultDir(
@@ -38,24 +38,24 @@ HRESULT SetDefaultDir(
 
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée du conteneur de carnet d'adresses par défaut.
+> [in] Pointeur vers l’identificateur d’entrée du conteneur de carnet d’adresses par défaut.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le conteneur de carnet d'adresses par défaut a été correctement défini.
+> Le conteneur de carnet d’adresses par défaut a été correctement définie.
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent la méthode **SetDefaultDir** pour établir un nouveau conteneur de carnet d'adresses par défaut. Le conteneur par défaut est le conteneur que l'utilisateur voit apparaître dans le carnet d'adresses lors de la première ouverture du carnet d'adresses. **SetDefaultDir** enregistre le conteneur par défaut sous la forme d'une entrée dans le profil. Le conteneur reste par défaut jusqu'à ce qu'un autre appel à **SetDefaultDir** soit effectué dans la même session ou dans une autre session, ou que le conteneur soit supprimé. 
+Les clients et les fournisseurs de services appellent la **méthode SetDefaultDir** pour établir un nouveau conteneur de carnet d’adresses par défaut. Le conteneur par défaut est celui que l’utilisateur voit s’afficher dans le carnet d’adresses lors de sa première ouverture. **SetDefaultDir enregistre** le conteneur par défaut en tant qu’entrée dans le profil. Le conteneur reste le conteneur par défaut jusqu’à ce qu’un autre appel à **SetDefaultDir** soit effectué dans la même session ou dans une autre session, ou que le conteneur soit supprimé. 
   
 > [!NOTE]
-> La propriété [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) correspond au paramètre **choisir automatiquement** dans la boîte de dialogue Options du carnet d'adresses. Lorsque cette propriété existe dans la section de profil [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) et qu'elle est définie sur **true**, la boîte de dialogue Carnet d'adresses ne prend plus par défaut le conteneur spécifié par **SetDefaultDir**, mais choisit un carnet d'adresses que Microsoft Outlook considère comme indiqué. approprié pour le contexte dans lequel la boîte de dialogue s'affichait. Notez que cela peut entraîner une mauvaise expérience des fournisseurs de carnets d'adresses tiers. 
+> La [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) correspond au paramètre **Choisir** automatiquement dans la boîte de dialogue Options du carnet d’adresses. Lorsque cette propriété existe dans la section profil [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) et est définie sur **true**, la boîte de dialogue carnet d’adresses n’est plus définie par défaut sur le conteneur spécifié par **SetDefaultDir**, mais choisit un carnet d’adresses que Microsoft Outlook considère approprié pour le contexte dans lequel la boîte de dialogue a été affichée. Notez que cela peut entraîner une expérience médiocre pour les fournisseurs de carnets d’adresses tiers. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -63,7 +63,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|Abcontdlg. cpp  <br/> |CAbContDlg:: OnSetDefaultDir  <br/> |MFCMAPI utilise la méthode **SetDefaultDir** pour définir le conteneur de carnet d'adresses par défaut.  <br/> |
+|Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI utilise la **méthode SetDefaultDir** pour définir le conteneur de carnet d’adresses spécifié comme conteneur par défaut.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

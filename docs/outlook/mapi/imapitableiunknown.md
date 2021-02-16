@@ -25,44 +25,44 @@ ms.locfileid: "33420114"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit une vue en lecture seule d'un tableau. La méthode **IMAPITable** est utilisée par les clients et les fournisseurs de services pour manipuler le mode d'affichage d'un tableau. 
+Fournit une vue en lecture seule d’un tableau. **IMAPITable est utilisé** par les clients et les fournisseurs de services pour manipuler la façon dont une table apparaît. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Exposé par:  <br/> |Objets de tableau  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Exposé par :  <br/> |Objets Table  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de services et MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes, fournisseurs de services  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPITable  <br/> |
-|Type de pointeur:  <br/> |LPMAPITABLE  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPITable  <br/> |
+|Type de pointeur :  <br/> |LPMAPITABLE  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Généré](imapitable-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) contenant des informations sur l'erreur précédente sur le tableau.  <br/> |
-|[Recommander](imapitable-advise.md) <br/> |S'inscrit pour recevoir des notifications d'événements spécifiques affectant la table.  <br/> |
-|[Unadvise](imapitable-unadvise.md) <br/> |Annule l'envoi des notifications précédemment configurées avec un appel à la méthode **IMAPITable:: Advise** .  <br/> |
-|[GetStatus](imapitable-getstatus.md) <br/> |Renvoie l'État et le type de la table.  <br/> |
-|[SetColumns](imapitable-setcolumns.md) <br/> |Définit les propriétés et l'ordre des propriétés spécifiques à afficher sous la forme de colonnes dans le tableau.  <br/> |
+|[GetLastError](imapitable-getlasterror.md) <br/> |Renvoie une [structure MAPIERROR](mapierror.md) contenant des informations sur l’erreur précédente sur le tableau.  <br/> |
+|[Conseiller](imapitable-advise.md) <br/> |S’inscrit pour recevoir une notification des événements spécifiés affectant la table.  <br/> |
+|[Unadvise](imapitable-unadvise.md) <br/> |Annule l’envoi de notifications précédemment définies avec un appel à la **méthode IMAPITable::Advise.**  <br/> |
+|[GetStatus](imapitable-getstatus.md) <br/> |Renvoie l’état et le type du tableau.  <br/> |
+|[SetColumns](imapitable-setcolumns.md) <br/> |Définit les propriétés et l’ordre particuliers des propriétés à voir apparaître sous la valeur de colonnes dans le tableau.  <br/> |
 |[QueryColumns](imapitable-querycolumns.md) <br/> |Renvoie une liste de colonnes pour le tableau.  <br/> |
 |[GetRowCount](imapitable-getrowcount.md) <br/> |Renvoie le nombre total de lignes dans le tableau.  <br/> |
 |[SeekRow](imapitable-seekrow.md) <br/> |Déplace le curseur à une position spécifique dans le tableau.  <br/> |
-|[SeekRowApprox](imapitable-seekrowapprox.md) <br/> |Place le curseur sur une position fractionnaire approximative dans le tableau.  <br/> |
-|[QueryPosition](imapitable-queryposition.md) <br/> |Récupère la position de ligne de tableau actuelle du curseur, en fonction d'une valeur fractionnaire.  <br/> |
-|[FindRow](imapitable-findrow.md) <br/> |Recherche la ligne suivante dans un tableau qui correspond aux critères de recherche spécifiques.  <br/> |
-|[Restrict](imapitable-restrict.md) <br/> |Applique un filtre à un tableau, réduisant ainsi la valeur de la ligne sur les lignes correspondant aux critères spécifiés.  <br/> |
+|[SeekRowApprox](imapitable-seekrowapprox.md) <br/> |Déplace le curseur vers une position fractionnaire approximative dans le tableau.  <br/> |
+|[QueryPosition](imapitable-queryposition.md) <br/> |Extrait la position de ligne de tableau actuelle du curseur, en fonction d’une valeur fractionnaire.  <br/> |
+|[FindRow](imapitable-findrow.md) <br/> |Recherche la ligne suivante dans un tableau qui correspond à des critères de recherche spécifiques.  <br/> |
+|[Restrict](imapitable-restrict.md) <br/> |Applique un filtre à un tableau, en réduisant le jeu de lignes uniquement aux lignes correspondant aux critères spécifiés.  <br/> |
 |[CreateBookmark](imapitable-createbookmark.md) <br/> |Marque la position actuelle du tableau.  <br/> |
 |[FreeBookmark](imapitable-freebookmark.md) <br/> |Libère la mémoire associée à un signet.  <br/> |
-|[SortTable](imapitable-sorttable.md) <br/> |Trie les lignes de la table en fonction des critères de tri.  <br/> |
-|[QuerySortOrder](imapitable-querysortorder.md) <br/> |Récupère l'ordre de tri actuel d'une table.  <br/> |
-|[QueryRows](imapitable-queryrows.md) <br/> |Renvoie une ou plusieurs lignes d'un tableau, en commençant à la position actuelle du curseur.  <br/> |
+|[SortTable](imapitable-sorttable.md) <br/> |Trie les lignes du tableau en fonction des critères de tri.  <br/> |
+|[QuerySortOrder](imapitable-querysortorder.md) <br/> |Extrait l’ordre de tri actuel d’un tableau.  <br/> |
+|[QueryRows](imapitable-queryrows.md) <br/> |Renvoie une ou plusieurs lignes d’un tableau, en commençant à la position actuelle du curseur.  <br/> |
 |[Abandonner](imapitable-abort.md) <br/> |Arrête toutes les opérations asynchrones en cours pour la table.  <br/> |
-|[ExpandRow](imapitable-expandrow.md) <br/> |Développe une catégorie de table réduite, ajoutant les lignes de feuille appartenant à la catégorie à l'affichage tableau.  <br/> |
-|[CollapseRow](imapitable-collapserow.md) <br/> |Réduit une catégorie de tableau étendue, en supprimant les lignes de feuille appartenant à la catégorie à partir de la vue de table.  <br/> |
-|[WaitForCompletion](imapitable-waitforcompletion.md) <br/> |Interrompt le traitement jusqu'à ce qu'une ou plusieurs opérations asynchrones en cours sur la table soient terminées.  <br/> |
-|[GetCollapseState](imapitable-getcollapsestate.md) <br/> |Renvoie les données nécessaires pour régénérer l'État réduit ou développé actuel d'une table catégorisée.  <br/> |
-|[SetCollapseState](imapitable-setcollapsestate.md) <br/> |Reconstruit l'état développé ou réduit actuel d'une table catégorisée à l'aide des données qui ont été enregistrées par un appel antérieur à la méthode **IMAPITable:: GetCollapseState** .  <br/> |
+|[ExpandRow](imapitable-expandrow.md) <br/> |Développe une catégorie de tableaux réduire, en ajoutant les lignes de feuille appartenant à la catégorie à l’affichage tableau.  <br/> |
+|[CollapseRow](imapitable-collapserow.md) <br/> |Cette propriété permet de réduire une catégorie de tableaux développés, en supprimant les lignes de feuille appartenant à la catégorie de l’affichage Tableau.  <br/> |
+|[WaitForCompletion](imapitable-waitforcompletion.md) <br/> |Suspend le traitement jusqu’à ce qu’une ou plusieurs opérations asynchrones en cours sur la table soient terminées.  <br/> |
+|[GetCollapseState](imapitable-getcollapsestate.md) <br/> |Renvoie les données nécessaires pour reconstruire l’état actuel, réduire ou développé, d’une table classée.  <br/> |
+|[SetCollapseState](imapitable-setcollapsestate.md) <br/> |Reconstruit l’état étendu ou réduire actuel d’une table classée à l’aide de données enregistrées par un appel précédent à la méthode **IMAPITable::GetCollapseState.**  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

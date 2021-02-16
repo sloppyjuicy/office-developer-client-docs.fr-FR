@@ -19,20 +19,20 @@ ms.locfileid: "33405134"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-À partir de Microsoft Outlook 2010 et y compris Microsoft Outlook 2013, les clients MAPI peuvent s'arrêter de la même manière qu'avant ou ils peuvent utiliser l'arrêt rapide. Pour que l'arrêt rapide se produise correctement, le client MAPI, le fournisseur MAPI et l'administrateur de l'ordinateur client doivent prendre en charge la mise à l'arrêt rapide. 
+À partir de Microsoft Outlook 2010 et maintenant, y compris Microsoft Outlook 2013, les clients MAPI peuvent s’arrêter de la même manière qu’auparavant, ou ils peuvent utiliser l’arrêt rapide. Pour que l’arrêt rapide se produise correctement, le client MAPI, le fournisseur MAPI et l’administrateur de l’ordinateur client doivent prendre en charge l’arrêt rapide. 
   
-Les rubriques de cette section décrivent la prise en charge de MAPI pour un client afin d'effectuer un arrêt rapide.
+Les rubriques de cette section décrivent la prise en charge mapi pour un client pour effectuer un arrêt rapide.
   
 [Présentation de l’arrêt rapide](fast-shutdown-overview.md)
   
-> Cette rubrique présente le mécanisme de base de l'arrêt rapide.
+> Cette rubrique présente le mécanisme de base de l’arrêt rapide.
     
-[Options de l'utilisateur à arrêt rapide](fast-shutdown-user-options.md)
+[Options utilisateur d’arrêt rapide](fast-shutdown-user-options.md)
   
-> Cette rubrique décrit les options disponibles pour que les administrateurs adoptent l'arrêt rapide au niveau de l'utilisateur pour les clients MAPI de l'utilisateur.
+> Cette rubrique décrit les choix disponibles pour que les administrateurs adoptent un arrêt rapide au niveau de l’utilisateur pour les clients MAPI de l’utilisateur.
     
 [Meilleures pratiques en cas d’arrêt rapide](best-practices-for-fast-shutdown.md)
   
-> Cette rubrique recommande les meilleures pratiques pour utiliser les interfaces d'arrêt rapide afin d'éviter toute perte de données lors de l'arrêt d'un client MAPI.
+> Cette rubrique recommande les meilleures pratiques pour utiliser les interfaces d’arrêt rapide afin d’éviter la perte de données pendant un arrêt du client MAPI.
     
 

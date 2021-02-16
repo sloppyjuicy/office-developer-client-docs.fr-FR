@@ -25,7 +25,7 @@ ms.locfileid: "33428227"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Inscrit l'appelant pour recevoir une notification des événements spécifiés qui affectent un conteneur, un utilisateur de messagerie ou une liste de distribution.
+Inscrit l’appelant pour recevoir une notification des événements spécifiés qui affectent un conteneur, un utilisateur de messagerie ou une liste de distribution.
   
 ```cpp
 HRESULT Advise(
@@ -41,17 +41,17 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’octets dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée de l'objet sur lequel les notifications doivent être générées.
+> [in] Pointeur vers l’identificateur d’entrée de l’objet sur lequel les notifications doivent être générées.
     
  _ulEventMask_
   
-> dans Masque de valeurs qui indique les types d'événements de notification qui intéressent l'appelant et qui doit être inclus dans l'inscription. Il existe une structure de [notification](notification.md) correspondante associée à chaque type d'événement qui contient des informations sur l'événement. Le tableau suivant répertorie les valeurs valides pour le paramètre _ulEventMask_ et les structures associées à chaque valeur. 
+> [in] Masque de bits de valeurs qui indiquent les types d’événements de notification qui intéressent l’appelant et qui doivent être inclus dans l’inscription. Il existe une structure [de NOTIFICATION](notification.md) correspondante associée à chaque type d’événement qui contient des informations sur l’événement. Le tableau suivant répertorie les valeurs valides pour le  _paramètre ulEventMask_ et les structures associées à chaque valeur. 
     
-|**Type d'événement de notification**|**Structure de **notification** correspondante**|
+|**Type d’événement de notification**|**Structure **de NOTIFICATION** correspondante**|
 |:-----|:-----|
 |**fnevCriticalError** <br/> |[ERROR_NOTIFICATION](error_notification.md) <br/> |
 |**fnevObjectCreated** <br/> |[OBJECT_NOTIFICATION](object_notification.md) <br/> |
@@ -62,41 +62,41 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> dans Pointeur vers un objet de récepteur de notification pour recevoir les notifications suivantes.
+> [in] Pointeur vers un objet de réception de notification pour recevoir les notifications suivantes.
     
  _lpulConnection_
   
-> remarquer Pointeur vers une valeur différente de zéro qui représente l'enregistrement de la notification.
+> [out] Pointeur vers une valeur autre que zéro qui représente l’inscription de la notification.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'enregistrement de la notification a réussi.
+> L’inscription de la notification a réussi.
     
 MAPI_E_INVALID_ENTRYID 
   
-> L'identificateur d'entrée passé dans le paramètre _lpEntryID_ n'est pas au format approprié. 
+> L’identificateur d’entrée transmis  _dans le paramètre lpEntryID_ n’est pas dans le format approprié. 
     
 MAPI_E_NO_SUPPORT 
   
-> Le fournisseur de carnet d'adresses ne prend pas en charge la notification, probablement parce qu'il ne permet pas de modifier les objets.
+> Le fournisseur de carnet d’adresses ne prend pas en charge la notification, éventuellement parce qu’il n’autorise pas les modifications apportées à ses objets.
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Le fournisseur de carnet d'adresses ne peut pas gérer l'identificateur d'entrée transmis dans _lpEntryID_.
+> Le fournisseur de carnet d’adresses ne peut pas gérer l’identificateur d’entrée transmis  _dans lpEntryID_.
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de carnets d'adresses implémentent la méthode **IABLogon:: Advise** pour enregistrer l'appelant lorsqu'une modification est apportée à un objet dans l'un de ses conteneurs. Les appelants peuvent s'inscrire pour les notifications relatives aux utilisateurs de messagerie, aux listes de distribution ou aux conteneurs entiers. 
+Les fournisseurs de carnets d’adresses implémentent la méthode **IABLogon::Advise** pour inscrire l’appelant afin qu’il soit averti lorsqu’une modification est appliquée à un objet dans l’un de ses conteneurs. Les appelants peuvent s’inscrire aux notifications concernant les utilisateurs de messagerie, les listes de distribution ou les conteneurs entiers. 
   
-Les clients appellent généralement la méthode [IAddrBook:: Advise](iaddrbook-advise.md) pour s'inscrire aux notifications de carnet d'adresses. MAPI appelle ensuite la **** méthode Advise du fournisseur de carnet d'adresses qui est responsable de l'objet représenté par l'identificateur d'entrée dans _lpEntryID_.
+Les clients appellent généralement [la méthode IAddrBook::Advise](iaddrbook-advise.md) pour s’inscrire aux notifications de carnet d’adresses. MAPI appelle ensuite la méthode **Advise** du fournisseur de carnet d’adresses responsable de l’objet représenté par l’identificateur d’entrée dans  _lpEntryID_.
   
-Lorsqu'une modification est apportée à l'objet indiqué du type représenté dans _ulEventMask_, un appel est passé à la méthode **OnNotify** du récepteur conseillers vers lequel pointe _lpAdviseSink_. Les données transmises dans la structure de **notification** à la routine **OnNotify** décrivent l'événement. 
+Lorsqu’une modification a lieu sur l’objet indiqué du type représenté dans  _ulEventMask_, un appel est effectué à la méthode **OnNotify** du sink de conseil pointé par  _lpAdviseSink_. Les données transmises dans la structure **NOTIFICATION** à la routine **OnNotify** décrivent l’événement. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous pouvez prendre en charge les notifications avec ou sans l'aide de MAPI. MAPI dispose de trois méthodes d'objet de prise en charge pour aider les fournisseurs de services à mettre en œuvre la notification:
+Vous pouvez prendre en charge les notifications avec ou sans l’aide de MAPI. MAPI dispose de trois méthodes objet de support pour aider les fournisseurs de services à implémenter la notification :
   
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)
     
@@ -104,19 +104,19 @@ Vous pouvez prendre en charge les notifications avec ou sans l'aide de MAPI. MAP
     
 - [IMAPISupport::Notify](imapisupport-notify.md)
     
-Si vous choisissez d'utiliser les méthodes de prise en charge MAPI, appelez **subscribe** lorsque votre méthode Advise est appelée et relâchez le pointeur _lpAdviseSink_ . **** 
+Si vous utilisez les méthodes de support MAPI, appelez **Subscribe** lorsque votre méthode **Advise** est appelée et relâchez le pointeur _lpAdviseSink._ 
   
-Si vous choisissez de prendre en charge la notification vous-même, appelez la méthode **AddRef** du récepteur de notifications représenté par le paramètre _lpAdviseSink_ pour conserver une copie de ce pointeur. Conservez cette copie jusqu'à ce que la méthode [IABLogon::](iablogon-unadvise.md) Unadvise soit appelée pour annuler l'inscription. 
+Si vous avez choisi de prendre en charge la notification vous-même, appelez la méthode **AddRef** du sink de notification représenté par le paramètre  _lpAdviseSink_ pour conserver une copie de ce pointeur. Conservez cette copie jusqu’à ce que votre [méthode IABLogon::Unadvise](iablogon-unadvise.md) soit appelée pour annuler l’inscription. 
   
-Quelle que soit la façon dont vous prenez en charge la notification, attribuez un numéro de connexion différent de zéro à l'enregistrement des notifications et renvoyez-le dans le paramètre _lpulConnection_ . Ne libérez pas ce numéro de connexion **** tant que la méthode Unadvise n'a pas été appelée. 
+Quelle que soit la façon dont vous supportez la notification, affectez un numéro de connexion autre que zéro à l’inscription de notification et renvoyez-le dans _le paramètre lpulConnection._ Ne relâchez pas ce numéro de connexion tant que la méthode **Unadvise** n’a pas été appelée. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Le pointeur de récepteur de notifications transmis dans le paramètre _lpAdviseSink_ à Advise peut pointer vers un objet que vous avez créé ou que MAPI a créé par le biais de la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . **** Vous pouvez utiliser **HrThisThreadAdviseSink** si vous prenez en charge plusieurs threads d'exécution et que vous souhaitez vous assurer que les appels suivants à votre méthode **OnNotify** se produisent à un moment approprié sur un thread approprié. 
+Le pointeur de sink de conseil que vous passez au paramètre _lpAdviseSink_ à **Advise** peut pointer vers un objet que vous avez créé ou que MAPI a créé via la fonction [HrThisThreadAdviseSink.](hrthisthreadadvisesink.md) Vous pouvez utiliser **HrThisThreadAdviseSink** si vous prisez en charge plusieurs threads d’exécution et que vous souhaitez vous assurer que les appels ultérieurs à votre méthode **OnNotify** se produisent à un moment approprié sur un thread approprié. 
   
-Préparez-vous à ce que votre objet de récepteur de notifications soit libéré à tout moment après votre appel à **conseiller** et avant l'appel à Unadvise. **** Par conséquent, vous devez libérer votre objet de récepteur **** d'avertissement une fois qu'il a été renvoyé, sauf si vous disposez d'une utilisation de longue durée spécifique. 
+Soyez prêt à ce que votre objet de sink de conseil soit libéré à tout moment après votre appel à **Advise** et avant votre appel à **Unadvise**. Par conséquent, vous devez libérer votre objet de sink de conseil après le retour de **Advise,** sauf si vous avez une utilisation spécifique à long terme pour lui. 
   
-Pour plus d'informations sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md). Pour plus d'informations sur l'utilisation des méthodes **IMAPISupport** pour prendre en charge la notification, consultez la rubrique [prise en](supporting-event-notification.md)charge des notifications d'événements. Pour plus d'informations sur le multithreading et MAPI, voir [Threading in MAPI](threading-in-mapi.md).
+Pour plus d’informations sur le processus de notification, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). Pour plus d’informations sur l’utilisation des méthodes **IMAPISupport** pour prendre en charge la notification, voir [Notification d’événement de prise en charge.](supporting-event-notification.md) Pour plus d’informations sur le multithreading et MAPI, voir [Threading dans MAPI](threading-in-mapi.md).
   
 ## <a name="see-also"></a>Voir aussi
 

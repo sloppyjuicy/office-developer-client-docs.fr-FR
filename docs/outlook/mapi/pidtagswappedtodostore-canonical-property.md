@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1edae9ac-fc9a-4bfe-b053-99de848c5144
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 41aa97a52176cf68775d6fd507d3d042888092cc
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,46 +25,46 @@ ms.locfileid: "32358904"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine le besoin de traitement post-transmission d'un message électronique.
+Détermine la nécessité de post-transmission du traitement d’un e-mail.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SWAPPED_TODO_STORE  <br/> |
 |Identificateur :  <br/> |0x0E2C  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Si cette propriété est définie sur un brouillon de message, sa valeur doit être définie sur la valeur de la propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) du message.
   
-Pour plus d'informations, consultez la section [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx) «post-transmission Processing of a indicateurd message». 
+Pour plus d’informations, voir la section [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx) « Post-Transmit Processing of a Flagged Message ». 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations relatives au marquage.
+> Spécifie les propriétés et les opérations liées au marquage.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Spécifie les propriétés et le modèle d'interaction pour les rappels de messagerie et d'objet.
+> Spécifie les propriétés et le modèle d’interaction pour les messages électroniques et autres rappels d’objets.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 
