@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
-description: 'Dernière modification : septembre 06, 2019'
+description: 'Last modified: September 06, 2019'
 ms.openlocfilehash: c9fcffa8ad4dc982e869f4ccd449e1377fb1ea57
 ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
@@ -40,31 +40,31 @@ HRESULT IConverterSession:: MIMEToMAPI (
 
  _pstm_
   
-> dans Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) à un flux MIME. 
+> [in] [Interface IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) vers un flux MIME. 
     
  _pmsg_
   
-> dans Pointeur vers le message à charger. L’appelant doit fournir un message pour que l’API le remplisse, afin que l’objet soit placé [in]. Voir mapidefs. h pour la définition de type de **LPMESSAGE**.
+> [in] Pointeur vers le message à charger. L’appelant doit fournir un message à remplir par l’API, de sorte que l’objet doit y aller. Voir mapidefs.h pour la définition de type **de LPMESSAGE**.
     
  _pszSrcSrv_
   
-> dans Cette valeur doit être **null**.
+> [in] Cette valeur doit être **null**.
     
  _ulFlags_
   
-> dans Ce paramètre identifie toute action spéciale à effectuer lors de la conversion. Elle doit être égale à zéro (0) si aucune action spécifique n’est effectuée, ou une combinaison des valeurs suivantes :
+> [in] Ce paramètre identifie toute action spéciale à prendre pendant la conversion. Elle doit être zéro (0) si aucune action spécifique n’est à prendre, ou une combinaison des valeurs suivantes :
     
 CCSF_EMBEDDED_MESSAGE
   
-> Les informations envoyées/non envoyées sont conservées dans X-non envoyés.
+> Les informations envoyées/non envoyées sont persistantes dans X-Unsent.
     
 CCSF_SMTP
   
-> Le flux MIME est destiné à un message SMTP (Simple Mail Transfer Protocol).
+> Le flux MIME est pour un message SMTP (Simple Mail Transfer Protocol).
     
 CCSF_INCLUDE_BCC
   
-> Les destinataires en copie carbone invisible du flux MIME doivent être inclus dans le message MAPI.
+> Les destinataires BcC du flux MIME doivent être inclus dans le message MAPI.
     
 CCSF_USE_RTF
   
@@ -77,11 +77,11 @@ CCSF_GLOBAL_MESSAGE
 
 E_INVALIDARG
   
-> Indique que _pstm_ est **null**, _PMSG_ est **null**ou _ulFlags_ n’est pas valide. 
+> Indique que  _pstm est_ **null,**  _pmsg_ est **null** ou  _ulFlags_ n’est pas valide. 
     
 ## <a name="remarks"></a>Remarques
 
-Si vous avez spécifié **CCSF_USE_RTF** dans le cadre de _ulFlags_ et que la Banque de messages de destination prend en charge à la fois le format HTML et le format RTF, le message MAPI est converti au format HTML ou RTF. Si le message est converti au format RTF, le format converti sera au format RTF compressé, tous les éléments HTML seront incorporés dans la chaîne RTF compressée, et la chaîne sera contenue dans la [propriété canonique PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
+Si vous avez spécifié **CCSF_USE_RTF** dans le cadre de  _ulFlags_ et que la boutique de messages de destination prend en charge html et RTF, le message MAPI est converti au format HTML ou RTF. Si le message est converti au format RTF, le format converti sera compressé RTF, tout html sera incorporé dans la chaîne RTF compressée et la chaîne sera contenue dans la propriété canonique [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -89,10 +89,10 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
    
-## <a name="see-also"></a>Consultez également
+## <a name="see-also"></a>Voir aussi
 
 
 

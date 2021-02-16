@@ -1,5 +1,5 @@
 ---
-title: Élément EventItem (complexType EventList_Type) (XML Visio)
+title: Élément EventItem (EventList_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541840"
 ---
-# <a name="eventitem-element-eventlisttype-complextype-visio-xml"></a>Élément EventItem (complexType EventList_Type) (XML Visio)
+# <a name="eventitem-element-eventlist_type-complextype-visio-xml"></a>Élément EventItem (EventList_Type complexType) (Visio XML)
 
 Encapsule un code d’événement.
   
@@ -24,8 +24,8 @@ Encapsule un code d’événement.
 |:-----|:-----|
 |**Type d’élément** <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |document. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,13 +36,13 @@ Encapsule un code d’événement.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Contient un élément **EventItem** pour chaque événement auquel un objet doit répondre.  <br/> |
+|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Contient un **élément EventItem** pour chaque événement auquel un objet doit répondre.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,11 +52,11 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Action  <br/> |xsd: unsignedShort  <br/> |obligatoire  <br/> |Spécifie le code d’action de l’élément **EventItem** parent.  <br/> |Valeurs du type xsd: unsignedShort.  <br/> |
-|Activé  <br/> |xsd: Boolean  <br/> |facultatif  <br/> |Représente un indicateur qui indique si l’événement est activé ou désactivé.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
-|CodeÉvénement  <br/> |xsd: unsignedShort  <br/> |obligatoire  <br/> |Code indiquant l’événement qui déclenche le module complémentaire.  <br/> |Valeurs du type xsd: unsignedShort.  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |ID de l’événement.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
-|Target  <br/> |xsd: String  <br/> |obligatoire  <br/> |Spécifie la cible d’un événement.  <br/> |Valeurs du type xsd: String.  <br/> |
-|TargetArgs  <br/> |xsd: String  <br/> |obligatoire  <br/> |Spécifie une chaîne contenant des arguments à envoyer à la cible d’un événement.  <br/> |Valeurs du type xsd: String.  <br/> |
+|Action  <br/> |xsd:unsignedShort  <br/> |obligatoire  <br/> |Spécifie le code d’action de **l’élément EventItem** parent.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
+|Activé  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Représente un indicateur indiquant si l’événement est activé ou désactivé.  <br/> |Valeurs du type xsd:boolean.  <br/> |
+|EventCode  <br/> |xsd:unsignedShort  <br/> |obligatoire  <br/> |Code indiquant l’événement qui déclenche l’module.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de l’événement.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|Target  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie la cible d’un événement.  <br/> |Valeurs du type xsd:string.  <br/> |
+|TargetArgs  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie une chaîne contenant des arguments à envoyer à la cible d’un événement.  <br/> |Valeurs du type xsd:string.  <br/> |
    
 

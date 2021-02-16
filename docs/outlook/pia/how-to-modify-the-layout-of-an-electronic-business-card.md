@@ -1,5 +1,5 @@
 ---
-title: Modification de la mise en page d’une carte de visite électronique
+title: Modification de la présentation d’une carte de visite électronique
 TOCTitle: Modify the layout of an electronic business card
 ms:assetid: f387c4a7-59c5-4b6a-b33a-1bfa7d499bbf
 ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card?redirectedfrom=MSDN

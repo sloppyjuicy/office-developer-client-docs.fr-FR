@@ -24,7 +24,7 @@ L’exemple de code spécifie la propriété **PR\_HASATTACH** avec l’espace d
 
 La méthode **Columns.Add** est ensuite appelée une nouvelle fois pour ajouter la propriété **ReceiveTime** en spécifiant son espace de noms MAPI afin que cette colonne stocke la valeur en tant que valeur de date et heure UTC (Universal Coordinated Time). Enfin, l’exemple énumère chaque élément dans l’objet Table, en affichant la valeur des quatre propriétés spécifiées en tant que colonnes du tableau.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

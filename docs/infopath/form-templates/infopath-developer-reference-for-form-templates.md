@@ -7,7 +7,7 @@ ms.date: 11/16/2019
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- modèles de formulaire [InfoPath 2007], modèles de formulaires avec code managé [InfoPath 2007], référence [InfoPath 2007], code managé [InfoPath 2007], InfoPath 2007, référence
+- form templates [infopath 2007],managed code form templates [InfoPath 2007],reference [InfoPath 2007],managed code [InfoPath 2007],InfoPath 2007, reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
@@ -25,9 +25,9 @@ Bienvenue dans la référence du développeur InfoPath 15 pour les modèles de 
   
 Date de publication de cette référence : octobre 2012
   
-## <a name="related-links"></a>Liens connexes
+## <a name="related-links"></a>Liens associés
 
-[Centre pour développeurs Microsoft Office : docs](https://developer.microsoft.com/en-us/office/docs)
+[Microsoft Office développeur : Documents](https://developer.microsoft.com/en-us/office/docs)
   
 
 [Accessibilité Microsoft](https://www.microsoft.com/en-us/accessibility/)

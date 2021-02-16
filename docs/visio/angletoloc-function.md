@@ -22,7 +22,7 @@ Renvoie un angle transformé dans le système de coordonnées locales de la form
   
 ## <a name="syntax"></a>Syntaxe
 
-ANGLETOLOC (***srcAngle***, ***srcRef***, ***dstRef*** ) 
+ANGLETOLOC(***srcAngle***, ***srcRef***, ***dstRef*** ) 
   
 ### <a name="parameters"></a>Paramètres
 

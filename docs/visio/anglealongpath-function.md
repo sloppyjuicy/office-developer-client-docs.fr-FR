@@ -25,14 +25,14 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-ANGLEALONGPATH (***section***, ***voyages*** ***[, segment]*** ) 
+ANGLEALONGPATH(***section***, ***travel*** ***[,segment]*** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Obligatoire  <br/> |**String** <br/> |Section Geometry qui représente le chemin, spécifiée par une référence à sa cellule Path (par exemple Geometry1.Path).  <br/> |
-| _poche_ <br/> |Obligatoire  <br/> |**Double** <br/> |Pourcentage le long du chemin du point de début au point de fin. La valeur doit être comprise entre 0 et 1.  <br/> |
+| _travel_ <br/> |Obligatoire  <br/> |**Double** <br/> |Pourcentage le long du chemin du point de début au point de fin. La valeur doit être comprise entre 0 et 1.  <br/> |
 | _segment_ <br/> |Facultatif  <br/> |**Integer** <br/> |Segment de base 1 du chemin sur lequel calculer l’angle de la tangente.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
@@ -41,10 +41,10 @@ ANGLEALONGPATH (***section***, ***voyages*** ***[, segment]*** )
   
 ## <a name="remarks"></a>Remarques
 
-Si vous incluez une valeur de _segment_ , ANGLEALONGPATH renvoie la valeur de ce segment uniquement. 
+Si vous incluez une valeur  _de segment,_ ANGLEALONGPATH renvoie la valeur de ce segment uniquement. 
   
-Si vous incluez une valeur de _segment_ , ANGLEALONGPATH détermine le point de la tangente à l’aide de _voyages_ pour calculer le pourcentage de percertification le long du _segment_.
+Si vous incluez une valeur  _de segment,_ ANGLEALONGPATH détermine le point de la tangente à l’aide de  _travel_ pour calculer la séquence le long du  _segment_.
   
-Si l’une des _sections_ ou le _segment_ n’existe pas, Microsoft Visio renvoie #REF !. 
+Si  _l’une ou_  _l’autre section_ ou segment n’existe pas, Microsoft Visio renvoie #REF!. 
   
 

@@ -18,7 +18,7 @@ ms.locfileid: "45160278"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Permet d’enregistrer un gestionnaire d’événements. Introduit dans Excel 2010.
+Utilisé pour inscrire un handler d’événements. Introduit dans Excel 2010.
   
 ```vb
 Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12 pxEvent);
@@ -28,24 +28,24 @@ Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12
 
  _pxProcedure_ (**xltypeStr**)
   
-Nom de la fonction de gestionnaire d’événements telle qu’elle apparaît dans le code de la DLL.
+Nom de la fonction de handler d’événement telle qu’elle apparaît dans le code DLL.
   
  _pxEvent_ (**xltypeInt**)
   
-Événement géré par la fonction désignée dans le paramètre _pxProcedure_ . 
+Événement géré par la fonction désignée dans le _paramètre pxProcedure._ 
   
-À partir d’Excel 2010, Excel prend en charge les événements suivants :
+À compter d’Excel 2010, Excel prend en charge les événements suivants :
   
-|**Event**|**Description**|
+|**Événement**|**Description**|
 |:-----|:-----|
-|**xleventCalculationEnded** <br/> |Déclenché lorsqu’Excel termine un calcul. Vous pouvez libérer toutes les ressources allouées pendant le calcul après cet événement.  <br/> |
-|**xleventCalculationCanceled** <br/> |Déclenché lorsque l’utilisateur interrompt le calcul. Le XLL doit arrêter les activités asynchrones. L’événement CalculationEnded est déclenché immédiatement après cet événement.  <br/> |
+|**xleventCalculationEnded** <br/> |Élevé lorsque Excel termine un calcul. Vous pouvez libérer toutes les ressources allouées pendant le calcul après cet événement.  <br/> |
+|**xleventCalculationCanceled** <br/> |Élevé lorsque l’utilisateur interrompt le calcul. Le XLL doit arrêter toutes les activités asynchrones. L’événement CalculationEnded est lancé immédiatement après cet événement.  <br/> |
    
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Si elle réussit, pxRes (**xltypeInt**) a une valeur > 0. En cas d’échec, pxRes = = 0.
+Si elle réussit, pxRes (**xltypeInt**) a une valeur > 0. En cas d’échec, pxRes ==0.
   
-## <a name="see-also"></a>Consultez également
+## <a name="see-also"></a>Voir aussi
 
 
 

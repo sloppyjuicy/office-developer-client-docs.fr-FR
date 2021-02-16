@@ -1,12 +1,12 @@
 ---
-title: Élément ShowConnectionPoints (complexType Window_Type) (XML Visio)
+title: Élément ShowConnectionPoints (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1f71dece-9b55-c36b-4424-f130c8d8916c
-description: Indique si les points de connexion sont affichés dans une fenêtre.
+description: Spécifie si les points de connexion sont affichés dans une fenêtre.
 ms.openlocfilehash: 61dc32c0933a09118f95f8871419dd5a120468d0
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34543009"
 ---
-# <a name="showconnectionpoints-element-windowtype-complextype-visio-xml"></a>Élément ShowConnectionPoints (complexType Window_Type) (XML Visio)
+# <a name="showconnectionpoints-element-window_type-complextype-visio-xml"></a>Élément ShowConnectionPoints (Window_Type complexType) (Visio XML)
 
-Indique si les points de connexion sont affichés dans une fenêtre.
+Spécifie si les points de connexion sont affichés dans une fenêtre.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -24,8 +24,8 @@ Indique si les points de connexion sont affichés dans une fenêtre.
 |:-----|:-----|
 |**Type d’élément** <br/> |[ShowConnectionPoints_Type](showconnectionpoints_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |Windows. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,11 +36,11 @@ Indique si les points de connexion sont affichés dans une fenêtre.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.  <br/> |
    

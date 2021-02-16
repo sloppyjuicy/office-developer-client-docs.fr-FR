@@ -1,5 +1,5 @@
 ---
-title: Text, élément (ShapeSheet_Type complexType) (Visio XML)
+title: Élément Text (ShapeSheet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541924"
 ---
-# <a name="text-element-shapesheettype-complextype-visio-xml"></a>Text, élément (ShapeSheet_Type complexType) (Visio XML)
+# <a name="text-element-shapesheet_type-complextype-visio-xml"></a>Élément Text (ShapeSheet_Type complexType) (Visio XML)
 
 Contient le texte d’une forme.
   
@@ -24,8 +24,8 @@ Contient le texte d’une forme.
 |:-----|:-----|
 |**Type d’élément** <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |page #. xml, Master #. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,22 +36,22 @@ Contient le texte d’une forme.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une forme dans un élément de forme de forme de **base**, de **page**ou de groupe.  <br/> |
+|[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une forme dans un **élément de forme de** groupe, page ou maître.   <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[revendications](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Marque le début d’une exécution de propriétés de caractère qui est mise en forme en fonction de l’élément char correspondant.  <br/> |
-|[FLD](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indique un point d’insertion de champ de texte pour l’élément Field correspondant.  <br/> |
-|[po](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |Indique le début des propriétés de paragraphe exécutées.  <br/> |
-|[partenaire](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Indique le début d’une propriété Tabs.  <br/> |
+|[cp](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Marque le début d’une exécute de propriétés de caractères mise en forme en fonction de l’élément Char correspondant.  <br/> |
+|[fld](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indique un point d’insertion de champ de texte pour l’élément Field correspondant.  <br/> |
+|[pp](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |Spécifie le début d’une exécute de propriétés de paragraphe.  <br/> |
+|[tp](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Spécifie le début d’une exécuter les propriétés d’onglets.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

@@ -1,5 +1,5 @@
 ---
-title: Élément issue (Issues_Type complexType) (XML Visio)
+title: Élément Issue (Issues_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541126"
 ---
-# <a name="issue-element-issuestype-complextype-visio-xml"></a>Élément issue (Issues_Type complexType) (XML Visio)
+# <a name="issue-element-issues_type-complextype-visio-xml"></a>Élément Issue (Issues_Type complexType) (Visio XML)
 
 Représente un problème de validation unique dans le document.
   
@@ -24,8 +24,8 @@ Représente un problème de validation unique dans le document.
 |:-----|:-----|
 |**Type d’élément** <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |validation. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,26 +36,26 @@ Représente un problème de validation unique dans le document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contient tous les éléments de **problème** pour le document.  <br/> |
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contient tous les **éléments Issue** du document.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |En fonction de la cible du problème de validation parent, spécifie soit la page, soit la page et la forme, associées au problème de validation parent.  <br/> |
-|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Fournit des informations sur la règle de validation à laquelle appartient le problème de validation parent.  <br/> |
+|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |Selon la cible du problème de validation parent, spécifie la page, ou la page et la forme, associées au problème de validation parent.  <br/> |
+|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Spécifie les informations relatives à la règle de validation à qui appartient le problème de validation parent.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Spécifie l’identificateur unique du problème de validation.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
-|Ignoré  <br/> |xsd: Boolean  <br/> |facultatif  <br/> |Fournit des informations sur la règle de validation à laquelle appartient le problème de validation parent.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Spécifie l’identificateur unique du problème de validation.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|Ignoré  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Spécifie les informations relatives à la règle de validation à qui appartient le problème de validation parent.  <br/> |Valeurs du type xsd:boolean.  <br/> |
    
 

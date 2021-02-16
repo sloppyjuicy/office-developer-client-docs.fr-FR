@@ -1,12 +1,12 @@
 ---
-title: Data1, élément (ShapeSheet_Type complexType) (Visio XML)
+title: Élément Data1 (ShapeSheet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d72dc0e4-4e0f-dd3f-a51a-8486f9ec548e
-description: Contient une valeur de chaîne arbitraire qui est utilisée pour fournir des informations supplémentaires sur une forme.
+description: Contient une valeur de chaîne arbitraire utilisée pour fournir des informations supplémentaires sur une forme.
 ms.openlocfilehash: e4ff724eee51e3a7efe8bc4f270568da066901a5
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542484"
 ---
-# <a name="data1-element-shapesheettype-complextype-visio-xml"></a>Data1, élément (ShapeSheet_Type complexType) (Visio XML)
+# <a name="data1-element-shapesheet_type-complextype-visio-xml"></a>Élément Data1 (ShapeSheet_Type complexType) (Visio XML)
 
-Contient une valeur de chaîne arbitraire qui est utilisée pour fournir des informations supplémentaires sur une forme.
+Contient une valeur de chaîne arbitraire utilisée pour fournir des informations supplémentaires sur une forme.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
-|**Type d’élément** <br/> |[Type_de_données](data_type-complextypevisio-xml.md) <br/> |
+|**Type d’élément** <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |page #. xml, Master #. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,13 +36,13 @@ Contient une valeur de chaîne arbitraire qui est utilisée pour fournir des inf
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une forme dans un élément de forme de forme de **base**, de **page**ou de groupe.  <br/> |
+|[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une forme dans un **élément de forme de** groupe, page ou maître.   <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

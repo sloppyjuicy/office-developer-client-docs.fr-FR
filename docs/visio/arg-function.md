@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 781369e1-fade-ec10-7c51-0f921b5c3b76
-description: Spécifie un argument que la cellule d’appel peut transmettre à une fonction personnalisée, ainsi que la valeur par défaut renvoyée par la fonction personnalisée si la cellule d’appel ne transmet pas de valeur pour l’argument. Renvoie la valeur spécifiée par la cellule Calling et le paramètre argName correspondant.
+description: Spécifie un argument que la cellule d’appel peut transmettre à une fonction personnalisée, ainsi que la valeur par défaut renvoyée par la fonction personnalisée si la cellule d’appel ne passe pas de valeur pour l’argument. Renvoie la valeur spécifiée par la cellule d’appel et le paramètre argName correspondant.
 ms.openlocfilehash: 3cde7fe55d7bc60d15f32d7ad954443e545af914
 ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
@@ -16,18 +16,18 @@ ms.locfileid: "48293484"
 ---
 # <a name="arg-function"></a>Fonction ARG
 
-Spécifie un argument que la cellule d’appel peut transmettre à une fonction personnalisée, ainsi que la valeur par défaut renvoyée par la fonction personnalisée si la cellule d’appel ne transmet pas de valeur pour l’argument. Renvoie la valeur spécifiée par la cellule Calling et le paramètre argName correspondant.
+Spécifie un argument que la cellule d’appel peut transmettre à une fonction personnalisée, ainsi que la valeur par défaut renvoyée par la fonction personnalisée si la cellule d’appel ne passe pas de valeur pour l’argument. Renvoie la valeur spécifiée par la cellule d’appel et le paramètre argName correspondant.
   
 ## <a name="syntax"></a>Syntaxe
 
-ARG (***argName***, [ ***DefaultValue*** ]) 
+ARG(***argName***,[ ***defaultValue*** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _argName_ <br/> |Obligatoire  <br/> |**String** <br/> |Le nom d’un argument que peut transmettre la cellule d’appel à la fonction.  <br/> |
-| _Valeur par défaut_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Valeur renvoyée par ARG si la cellule d’appel n’a pas transmis de valeur pour le paramètre  _argName_ .  <br/> |
+| _valeur par défaut_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Valeur renvoyée par ARG si la cellule d’appel n’a pas passé de valeur pour le _paramètre argName._  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

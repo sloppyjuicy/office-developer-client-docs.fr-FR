@@ -1,5 +1,5 @@
 ---
-title: Filtrage et affichage des propriétés calculées pendant l’énumération des éléments d’un dossier
+title: Filtrer et afficher des propriétés calculées lors de l’énumération d’éléments dans un dossier
 TOCTitle: Filter and display computed properties when enumerating items in a folder
 ms:assetid: b068e625-ff12-444d-a30d-51a3acba3043
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184632(v=office.15)
@@ -52,8 +52,8 @@ L'objet [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) repr
 </tr>
 <tr class="odd">
 <td><p>Propriétés de l’ordinateur, telles que <b>AutoResolvedWinner</b> et <b>BodyFormat</b>.</p></td>
-<td><p>Non prises en charge.</p></td>
-<td><p>Non prises en charge.</p></td>
+<td><p>Non prise en charge.</p></td>
+<td><p>Non prise en charge.</p></td>
 </tr>
 <tr class="even">
 <td><p>Propriétés à valeurs multiples, telles que <b>Categories</b>, <b>Children</b>, <b>Companies</b>, et <b>VotingOptions</b>.</p></td>

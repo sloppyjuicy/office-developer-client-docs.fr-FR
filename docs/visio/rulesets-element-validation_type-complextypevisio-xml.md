@@ -1,5 +1,5 @@
 ---
-title: Élément de la Validation_Type (complexType XML)
+title: Élément RuleSets (Validation_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541574"
 ---
-# <a name="rulesets-element-validationtype-complextype-visio-xml"></a>Élément de la Validation_Type (complexType XML)
+# <a name="rulesets-element-validation_type-complextype-visio-xml"></a>Élément RuleSets (Validation_Type complexType) (Visio XML)
 
-Inclut un élément **RuleSet** pour chaque ensemble de règles de validation dans le document. 
+Inclut **un élément RuleSet** pour chaque ensemble de règles de validation dans le document. 
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -24,8 +24,8 @@ Inclut un élément **RuleSet** pour chaque ensemble de règles de validation da
 |:-----|:-----|
 |**Type d’élément** <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |validation. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,17 +36,17 @@ Inclut un élément **RuleSet** pour chaque ensemble de règles de validation da
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Valider](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stocke les informations relatives à la validation du diagramme pour le document.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Représente un ensemble de règles de validation de diagramme.  <br/> |
    

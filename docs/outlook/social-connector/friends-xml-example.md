@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
-description: 'L’exemple XML de cette rubrique est une chaîne XML Friend renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode ISocialPerson:: GetFriendsAndColleagues. L’exemple montre le code XML Friends de deux amis, chacun étant délimité par l’élément person. Chaque ami spécifie une valeur unique pour l’élément userID sur le réseau social.'
+description: L’exemple XML de cette rubrique est une chaîne XML d’ami renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode ISocialPerson::GetFriendsAndColleagues. L’exemple montre le XML des amis pour deux amis, chacun délimité par l’élément person. Chaque ami spécifie une valeur unique pour l’élément userID sur le réseau social.
 ms.openlocfilehash: 593019ec4dcd1b9b578bfe275fb8e6664bbd11a9
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -17,13 +17,13 @@ ms.locfileid: "34542225"
 ---
 # <a name="friends-xml-example"></a>Exemple de code XML sur les amis
 
-L’exemple XML de cette rubrique est une chaîne XML Friend renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode [ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) . L’exemple montre le **** code XML Friends de deux amis, chacun étant délimité par l’élément **Person** . Chaque ami spécifie une valeur unique pour l’élément **userid** sur le réseau social. 
+L’exemple XML de cette rubrique est une chaîne XML d’ami renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode [ISocialPerson::GetFriendsAndColleagues.](isocialperson-getfriendsandcolleagues.md) L’exemple montre le XML **des** amis pour deux amis, chacun délimité par l’élément **person.** Chaque ami spécifie une valeur unique pour **l’élément userID** sur le réseau social. 
   
-Les éléments restants **** du XML Friends ont des noms explicites. Pour obtenir une description détaillée de ces éléments, consultez la rubrique [XML pour les amis](xml-for-friends.md). 
+Les autres éléments du XML **amis** ont des noms explicites. Pour obtenir une description détaillée de ces éléments, voir [XML for Friends](xml-for-friends.md). 
   
-## <a name="xml-example"></a>Exemple XML
+## <a name="xml-example"></a>Exemple de XML
 
-L’exemple suivant montre les **amis** XML de deux personnes sur le réseau social. 
+L’exemple suivant montre le XML **des** amis de deux personnes sur le réseau social. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,8 +80,8 @@ L’exemple suivant montre les **amis** XML de deux personnes sur le réseau soc
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Exemples de fournisseurs XML OSC](osc-provider-xml-examples.md)  
-- [Exemple de XML de fonctionnalités](capabilities-xml-example.md) 
-- [Exemple de XML d’informations sur les activités](activity-feed-xml-example.md) 
+- [Exemples XML de fournisseur OSC](osc-provider-xml-examples.md)  
+- [Exemple XML de fonctionnalités](capabilities-xml-example.md) 
+- [Exemple de XML de flux d’activités](activity-feed-xml-example.md) 
 - [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
 

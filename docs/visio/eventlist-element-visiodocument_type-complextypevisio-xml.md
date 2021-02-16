@@ -1,5 +1,5 @@
 ---
-title: Élément EventList (VisioDocument_Type complexType) (XML Visio)
+title: Élément EventList (VisioDocument_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541798"
 ---
-# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Élément EventList (VisioDocument_Type complexType) (XML Visio)
+# <a name="eventlist-element-visiodocument_type-complextype-visio-xml"></a>Élément EventList (VisioDocument_Type complexType) (Visio XML)
 
-Contient un élément **EventItem** pour chaque événement auquel un objet doit répondre. 
+Contient un **élément EventItem** pour chaque événement auquel un objet doit répondre. 
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -24,8 +24,8 @@ Contient un élément **EventItem** pour chaque événement auquel un objet doit
 |:-----|:-----|
 |**Type d’élément** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
-|**Parties de document** <br/> |document. Xml  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Composants de document** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,17 +36,17 @@ Contient un élément **EventItem** pour chaque événement auquel un objet doit
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Élément racine d’un document Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[EventItem](eventitem-element-eventlist_type-complextypevisio-xml.md) <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |Encapsule un code d’événement.  <br/> |
    

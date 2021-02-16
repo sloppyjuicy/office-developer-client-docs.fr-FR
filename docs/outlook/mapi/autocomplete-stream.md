@@ -85,7 +85,7 @@ De manière générale, la mise en page du flux de saisie semi-automatique est c
 |Ensemble de lignes  <br/> |Variable  <br/> |
 |Nombre d’octets des infos supplémentaires EI  <br/> |4   <br/> |
 |Informations supplémentaires  <br/> |EI   <br/> |
-|Métadonnées  <br/> |8   <br/> |
+|Métadonnées  <br/> |8   <br/> |
    
 Lors de la lecture de ce flux, si la version majeure n’est pas la 12, alors ce flux de données ne doit pas être lu ou écrit. La version mineure actuelle du flux de saisie semi-automatique est la 0, pour laquelle le nombre d’octets d’informations supplémentaire est égal à 0. Si la version mineure est différente de 0, il y aura alors des informations supplémentaires qui doivent être lues lors de la lecture du flux de données et conservées lors de la rédaction du flux d’informations. La version mineure doit également être conservée lors de la rédaction du flux de données. Si ces deux éléments ne sont pas conservés, les instances d’Outlook écrites par les informations supplémentaires perdent des données. 
   

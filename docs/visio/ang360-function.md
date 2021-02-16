@@ -18,11 +18,11 @@ ms.locfileid: "45160299"
 ---
 # <a name="ang360-function"></a>Fonction ANG360
 
-Normalise la plage d’un angle sur 0 \< = résultat \< 2pi radians (0 \< = résultat \< 360 degrés).
+Normalise la plage d’un angle à 0 = résultat \< \< radians 2PI (0 = résultat \< \< 360 degrés).
   
 ## <a name="syntax"></a>Syntaxe
 
-ANG360 (***angle*** ) 
+ANG360(***angle*** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,7 +32,7 @@ ANG360 (***angle*** )
    
 ## <a name="remarks"></a>Remarques
 
-Si *angle* n’est pas spécifié à l’aide d’unités angulaires, il est interprété comme des radians. Si *angle* ne peut pas être converti en valeur, une #VALUE ! est renvoyée. 
+Si  *l’angle*  n’est pas spécifié à l’aide d’unités angulaires, il est interprété comme des radians. Si  *l’angle*  ne peut pas être converti en valeur, un #VALUE! est renvoyée. 
   
 ## <a name="example-1"></a>Exemple 1
 
@@ -48,7 +48,7 @@ Renvoie 2,7664 rad
   
 ## <a name="example-3"></a>Exemple 3
 
-ANG360 (45)
+ANG360(45)
   
 Renvoie 58,31 deg (1,0177 rad)
   

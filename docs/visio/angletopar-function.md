@@ -22,7 +22,7 @@ Renvoie un angle transformé dans le système de coordonnées parent de la forme
   
 ## <a name="syntax"></a>Syntaxe
 
-ANGLETOPAR (***srcAngle***, ***srcRef***, ***dstRef*** ) 
+ANGLETOPAR(***srcAngle***, ***srcRef***, ***dstRef*** ) 
   
 ### <a name="parameters"></a>Paramètres
 

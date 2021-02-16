@@ -343,7 +343,7 @@ Microsoft Office 2013 utilise le modèle d’URI ms-access pour appeler Micros
   
 ### <a name="e-6-interoperability-considerations"></a>E-6. Considérations relatives à l’interopérabilité
 
-Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. Dans \<command-argument\> les segments, les caractères réservés de la norme RFC 3986 «  : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
+Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. Dans les segments, les caractères réservés \<command-argument\> RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteur, et sont donc inclus sans séquence d’paysage.
   
 ### <a name="e-7-security-considerations"></a>E-7. Considérations relatives à la sécurité
 
@@ -427,7 +427,7 @@ Microsoft Office 2013 utilise le modèle d’URI ms-publisher pour appeler Mic
   
 ### <a name="g-6-interoperability-considerations"></a>G-6. Considérations relatives à l’interopérabilité
 
-Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. Dans \<command-argument\> les segments, les caractères réservés de la norme RFC 3986 «  : » et « / » font partie des données d’argument, et non des délimiteurs, et sont donc inclus sans séquence d’échappement.
+Notez que la barre verticale utilisée comme délimiteur dans cette spécification ne fait pas partie des caractères identifiés à la section 2.2 du RFC 3986 qui sont réservés à un usage éventuel comme délimiteurs. Cette opération vise à optimiser le jeu de caractères que l’argument de commande de l’URI peut prendre en charge sans avoir à coder ces caractères en pourcentage. Dans les segments, les caractères réservés \<command-argument\> RFC 3986 « : » et « / » font partie des données d’argument, et non des délimiteur, et sont donc inclus sans séquence d’paysage.
   
 ### <a name="g-7-security-considerations"></a>G-7. Considérations relatives à la sécurité
 
@@ -485,7 +485,7 @@ RFC 3987 – International Resource Identifiers (IRIs)  
     
 ### <a name="i-4-uri-scheme-semantics"></a>I-4. Sémantique du modèle d’URI
 
-Le modèle ms-infopath définit une syntaxe d’URI pour l’ouverture ou la création d’un document Microsoft Infopath. Le modèle définit deux commandes qui font office d’instructions concernant les actions à effectuer avec le document référencé. Les commandes sont 1) Open-for-Edit-cmd (OFE), qui indique à InfoPath d’ouvrir le document à l’URI spécifié en vue de sa modification ; et 2) Open-for-View-cmd (complément validation de fichier), qui indique à InfoPath d’ouvrir le document à l’URI spécifié en mode lecture seule.
+Le modèle ms-infopath définit une syntaxe d’URI pour l’ouverture ou la création d’un document Microsoft Infopath. Le modèle définit deux commandes qui font office d’instructions concernant les actions à effectuer avec le document référencé. Les commandes sont 1) open-for-edit-cmd (ofe), ce qui indique à InfoPath d’ouvrir le document à l’URI spécifié pour modification ; et 2) commande-ouvrir-pour-affichage (ofv), qui demande à InfoPath d’ouvrir le document à l’URI spécifié en mode lecture seule.
   
 ### <a name="i-5-applicationsprotocols-that-use-the-ms-infopath-uri-scheme"></a>I-5. Applications/Protocoles qui utilisent le modèle d’URI ms-infopath
 

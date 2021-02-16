@@ -25,18 +25,18 @@ ms.locfileid: "49734202"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur qui indique un type de contrôle pour un contrôle utilisé dans une boîte de dialogue. 
+Contient une valeur indiquant un type de contrôle pour un contrôle utilisé dans une boîte de dialogue. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTROL_TYPE  <br/> |
 |Identificateur :  <br/> |0x3F02  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Table d’affichage MAPI  <br/> |
+|Domaine :  <br/> |Tableau d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement l’une des valeurs suivantes :
+Cette propriété peut avoir exactement l’une des valeurs suivantes :
     
 DTCT_LABEL (0x00000000)
   
@@ -44,11 +44,11 @@ DTCT_LABEL (0x00000000)
    
 DTCT_EDIT (0x00000001)
   
-> Zone de texte d’édition d’une boîte de dialogue.
+> Boîte de dialogue de modification de texte.
 
 DTCT_LBX (0x00000002)
   
-> Une zone de liste de boîte de dialogue.
+> Boîte de dialogue.
     
 DTCT_COMBOBOX (0x00000003)
   
@@ -56,15 +56,15 @@ DTCT_COMBOBOX (0x00000003)
 
 DTCT_DDLBX (0x00000004)
   
-> Zone de liste déroulante de dialogue.
+> Boîte de dialogue de liste.
 
 DTCT_CHECKBOX (0x00000005)
   
-> Case à cocher de boîte de dialogue.
+> Une case à cocher de boîte de dialogue.
 
 DTCT_GROUPBOX (0x00000006)
   
-> Une boîte de dialogue.
+> Boîte de dialogue de groupe.
   
 DTCT_BUTTON (0x00000007)
   
@@ -76,27 +76,27 @@ DTCT_PAGE (0x00000008)
     
 DTCT_RADIOBUTTON (0x00000009)
   
-> Case d’option de boîte de dialogue.
+> Une boîte de dialogue.
     
 DTCT_MVLISTBOX (0x0000000B)
   
-> Zone de liste à plusieurs valeurs remplie par une propriété à valeurs multiples de type String.
+> Zone de liste à valeurs multiples remplie par une propriété à valeurs multiples de type chaîne.
     
 DTCT_MVDDLBX (0x0000000C)
   
-> Zone de liste déroulante à valeurs multiples complétée par une propriété à valeurs multiples de type String.
+> Zone de listes listes à valeurs multiples remplie par une propriété à valeurs multiples de type chaîne.
     
 ## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-mapitags. h
+mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 
