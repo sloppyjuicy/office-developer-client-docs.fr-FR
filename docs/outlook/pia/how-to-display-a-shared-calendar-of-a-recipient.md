@@ -1,5 +1,5 @@
 ---
-title: Affichage du calendrier partagé d’un destinataire
+title: Afficher un calendrier partagé d’un destinataire
 TOCTitle: Display a shared calendar of a recipient
 ms:assetid: 3dcfec17-c836-4bd0-a177-33c911a94b1f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184606(v=office.15)
@@ -34,7 +34,7 @@ Dans l’exemple de code suivant, DisplayManagerCalendar ouvre et afficher le do
 > - Alias
 > - Adresse SMTP (Simple Mail Transfer Protocol)
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

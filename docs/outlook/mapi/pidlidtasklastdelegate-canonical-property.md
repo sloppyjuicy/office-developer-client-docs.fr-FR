@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5eb8c1ce-063f-4273-acba-e6f9c994e7d3
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ddf4b81ed35f500dad0029ea6375e9a75a996186
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32355670"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Nom de l'utilisateur auquel la tâche a été affectée la plus récemment. 
+ Nomme l’utilisateur qui a été le plus récemment affecté ou qui a été affecté à la tâche. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskLastDelegate  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Task  <br/> |
-|ID long (couvercle):  <br/> |0x00008125  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
+|ID long (LID) :  <br/> |0x00008125  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Tâche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Avant d'envoyer une demande de tâche, le client définit cette propriété sur le nom de l'attribution de tâches. Avant d'envoyer une réponse à une tâche, le client définit cette propriété sur le nom de la tâche assignée.
+Avant d’envoyer une demande de tâche, le client définit cette propriété sur le nom de l’assigneur de tâche. Avant d’envoyer une réponse de tâche, le client définit cette propriété sur le nom de la personne assignée à la tâche.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit la définition des jeux de propriétés et les références aux spécifications du protocole Exchange Server associé.
+> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui modélisent l'équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
+> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

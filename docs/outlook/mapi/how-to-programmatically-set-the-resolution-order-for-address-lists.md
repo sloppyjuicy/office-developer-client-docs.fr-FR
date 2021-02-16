@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-description: 'Dernière modification: juillet 06, 2012'
+description: 'Last modified: July 06, 2012'
 ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,41 +17,41 @@ ms.locfileid: "32345961"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique contient un exemple de code en C++ qui définit par programme l'ordre des listes d'adresses à l'aide desquelles les destinataires des messages électroniques et des participants dans les demandes de réunion sont résolus.
+Cette rubrique contient un exemple de code en C++ qui définit par programme l’ordre des listes d’adresses selon laquelle les destinataires des messages électroniques et les participants aux demandes de réunion sont résolus.
   
-Dans MAPI, chaque profil peut prendre en charge plusieurs listes d'adresses, et chaque liste d'adresses réside dans son propre conteneur. MAPI prend en charge la méthode **[SetSearchPath](https://support.microsoft.com/kb/292590)** dans l'interface qui vous permet de définir un nouveau chemin de recherche dans le profil utilisé pour la résolution de noms. Pour utiliser la méthode **IAddrBook:: SetSearchPath** , vous devez définir l'ordre de résolution souhaité dans un tableau **[SRowSet](srowset.md)** qui contient les conteneurs des carnets d'adresses appropriés dans l'ordre souhaité, puis spécifier le tableau en tant que *lpSearchPath*  paramétré. La première propriété de chaque entrée dans le tableau **SRowSet** doit être la propriété **[PR_ENTRYID](pidtagentryid-canonical-property.md)** du carnet d'adresses correspondant. 
+Dans MAPI, chaque profil peut prendre en charge plusieurs listes d’adresses et chaque liste d’adresses réside dans son propre conteneur. MAPI prend en charge **[la méthode SetSearchPath](https://support.microsoft.com/kb/292590)** dans l’interface qui vous permet de définir un nouveau chemin de recherche dans le profil utilisé pour la résolution de noms. Pour utiliser la méthode **IAddrBook::SetSearchPath,** vous devez définir l’ordre de résolution souhaité dans un tableau **[SRowSet](srowset.md)** qui contient les conteneurs des carnets d’adresses appropriés dans l’ordre souhaité, puis spécifier le tableau comme paramètre *lpSearchPath.* La première propriété de chaque entrée dans le tableau **SRowSet** doit être la propriété PR_ENTRYID **[du](pidtagentryid-canonical-property.md)** carnet d’adresses correspondant. 
   
-L'exemple de code définit l'ordre de résolution des opérations suivantes:
+L’exemple de code définit l’ordre de résolution dans les étapes suivantes :
   
-1. `numANR` Initialise le nombre de conteneurs à faire correspondre et spécifie les noms et l'ordre de résolution des listes d'adresses souhaitées `ANROrder` dans un tableau. 
+1. Initialise le nombre de conteneurs à mettre en correspondance et spécifie les noms et l’ordre de résolution des listes d’adresses  `numANR` souhaitées dans un  `ANROrder` tableau. 
     
-2. Initialise MAPI à l'aide de la fonction **MAPIInitialize** . 
+2. Initialise MAPI à l’aide de la **fonction MAPIInitialize.** 
     
-3.  Se connecte à MAPI et permet à l'utilisateur de choisir un profil. 
+3.  Se connecte à MAPI et permet à l’utilisateur de choisir un profil. 
     
-4.  Obtient un pointeur vers le carnet d'adresses à partir de la session en cours. 
+4.  Obtient un pointeur vers le carnet d’adresses de la session en cours. 
     
-5. Ouvre le carnet d'adresses.
+5. Ouvre le carnet d’adresses.
     
-6. Ouvre le conteneur du carnet d'adresses racine.
+6. Ouvre le conteneur du carnet d’adresses racine.
     
-7. Ouvre la table de hiérarchie du conteneur de carnet d'adresses racine.
+7. Ouvre la table hiérarchique du conteneur de carnet d’adresses racine.
     
-8. Obtient la liste des conteneurs de carnet d'adresses dans la hiérarchie.
+8. Obtient la liste des conteneurs de carnet d’adresses dans la hiérarchie.
     
-9. Recherche les ID d'entrée des listes d'adresses souhaitées en comparant les noms des listes d'adresses `ANROrder` souhaitées aux noms existants dans la hiérarchie des carnets d'adresses. 
+9. Recherche les ID d’entrée des listes d’adresses souhaitées en comparant les noms des listes d’adresses souhaitées aux noms existants dans la hiérarchie du carnet  `ANROrder` d’adresses. 
     
-10. Définit les ID d'entrée appropriés pour **** le tableau SRowSet `pNewRows`.
+10. Définit les ID d’entrée appropriés sur **le tableau SRowSet,**  `pNewRows` .
     
-11. Appelle et passe `pNewRows` en tant que paramètre *lpSearchPath* à **IAddrBook:: SetSearchPath** pour définir le chemin de recherche. 
+11. Appelle et transmet le paramètre  `pNewRows`  *lpSearchPath*  à **IAddrBook::SetSearchPath** pour définir le chemin de recherche. 
     
 12. Nettoie les mémoires tampons internes et les pointeurs.
     
-13. Se déConnecte de MAPI.
+13. Se déconnecte de MAPI.
     
 14. Uninitalizes MAPI.
     
-Cet exemple de code utilise des listes d'adresses disponibles dans l'installation par défaut de Microsoft Office Outlook: **tous les contacts**, **tous les groupes**et **contacts**. Vous devez exécuter l'exemple après le démarrage d'Outlook et s'exécuter sur un profil initialisé. L'exemple fonctionne correctement avec des noms qui sont dans une langue (par exemple, tous les noms sont en anglais). Il n'est pas conçu pour fonctionner dans les déploiements multilingues, par exemple le dossier **contacts** localisé pour un utilisateur qui exécute une version non anglaise d'Outlook. 
+Cet exemple de code utilise des listes d’adresses disponibles dans l’installation par défaut de Microsoft Office Outlook : Tous les **contacts,** Tous les groupes **et** **Contacts**. Vous devez exécuter l’exemple une fois Outlook démarré et exécuté sur un profil initialisé. L’exemple fonctionne bien avec les noms qui sont dans une langue (par exemple, tous les noms sont en anglais). Il n’est pas conçu pour fonctionner dans des déploiements multilingues, par exemple le dossier **Contacts** localisé pour un utilisateur exécutant un build Outlook non anglais. 
   
 ```cpp
 #include "stdafx.h" 
@@ -266,5 +266,5 @@ STDMETHODIMP CopySBinary(
 
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de la définition de l'ordre de résolution des listes d'adresses dans Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
+- [À propos de la définition de l’ordre de résolution des listes d’adresses dans Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

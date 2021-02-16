@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 3456d81935a0a94bc2158eefd321da968dda9983
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32335209"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le chemin d'accès au fichier Mapi32. dll privé.
+Renvoie le chemin d’accès au Mapi32.dll.
   
 ```cpp
 BOOL FGetComponentPath(
@@ -41,37 +41,37 @@ BOOL FGetComponentPath(
 
  _szComponent_
   
-> dans La clé Reg MSIComponentID décrite dans les [paramètres du Registre stub Mapi32. dll](https://msdn.microsoft.com/library/dd162409.aspx).
+> [in] La clé de registre MSIComponentID décrite [ dansMapi32.dll paramètres](https://msdn.microsoft.com/library/dd162409.aspx)de Registre Stub .
     
  _szQualifier_
   
-> dans La sous-clé MSIApplicationLCID ou MSIOfficeLCID décrite dans [Choose a specific version of MAPI to load](how-to-choose-a-specific-version-of-mapi-to-load.md). Les appelants peuvent transmettre la **valeur null** s'il n'y a aucun qualificateur. 
+> [in] La sous-clé MSIApplicationLCID ou MSIOfficeLCID décrite dans [Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md). Les appelants peuvent passer la **valeur null** s’il n’existe aucun qualificateur. 
     
  _szDllPath_
   
-> dans Chemin d'accès au fichier Mapi32. dll privé, qui dispose de la fonctionnalité MAPI complète (les mêmes exportations que Mapi32. dll).
+> [in] Chemin d’accès au Mapi32.dll privé, qui dispose de toutes les fonctionnalités MAPI (les mêmes exportations que le Mapi32.dll).
     
  _cchBufferSize_
   
-> dans Taille de _szDllPath_, en caractères.
+> [in] Taille de  _szDllPath,_ en caractères.
     
  _fInstall_
   
-> dans Indique à MAPI d'installer le composant privé Mapi32. dll s'il est absent.
+> [in] Indique à MAPI d’installer le Mapi32.dll privé s’il est absent.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
  **true**
   
-> Le chemin d'accès a été trouvé.
+> Le chemin d’accès a été trouvé.
     
- **true**
+ **false**
   
-> Le chemin d'accès est introuvable.
+> Le chemin d’accès est in trouvé.
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la fonction **FGetComponentPath** lorsque vous devez obtenir le chemin d'accès au fichier Mapi32. dll privé. 
+Utilisez la **fonction FGetComponentPath** lorsque vous avez besoin d’obtenir le chemin d’accès au Mapi32.dll. 
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -80,5 +80,5 @@ Utilisez la fonction **FGetComponentPath** lorsque vous devez obtenir le chemin 
 [Choisir une version spécifique de MAPI à charger](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Paramètres de Registre stub Mapi32. dll](https://msdn.microsoft.com/library/dd162409.aspx)
+[Mapi32.dll de Registre Stub](https://msdn.microsoft.com/library/dd162409.aspx)
 

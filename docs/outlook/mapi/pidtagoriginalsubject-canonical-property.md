@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8668ba4f-3236-4a87-a5aa-9cf7eea3d87b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: de957c33165cc96eec82bf95c8f292c5b323676a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32331142"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'objet d'un message d'origine à utiliser dans un rapport sur le message.
+Contient l’objet d’un message d’origine à utiliser dans un rapport sur le message.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contient l'objet d'un message d'origine à utiliser dans un rapport sur le messa
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont initialement définies sur la même valeur que la propriété **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
+Ces propriétés sont initialement définies sur la même valeur que la **propriété PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
   
-Les propriétés Subject sont généralement des petites chaînes de moins de 256 caractères et un fournisseur de banque de messages n'est pas tenu de prendre en charge l'interface OLE (Object Linking and Embedding) **IStream** . Le client doit toujours tenter d'accéder d'abord à travers l'interface **IMAPIProp** et ne recourir à **IStream** que si **MAPI_E_NOT_ENOUGH_MEMORY** est renvoyé. 
+Les propriétés de l’objet sont généralement de petites chaînes de moins de 256 caractères, et un fournisseur de magasins de messages n’est pas obligé de prendre en charge l’interface **IStream** OLE (Object Linking and Embedding) sur ces derniers. Le client doit toujours essayer d’accéder en premier via l’interface **IMAPIProp** et recourir à **IStream** uniquement si MAPI_E_NOT_ENOUGH_MEMORY **est** renvoyé. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère la synchronisation des données d'objet de messagerie entre un serveur et un client.
+> Gère la synchronisation des données d’objet de messagerie entre un serveur et un client.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées sur les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

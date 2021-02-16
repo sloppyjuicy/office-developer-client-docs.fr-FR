@@ -1,5 +1,5 @@
 ---
-title: Obtention des informations des collaborateurs directs du manager de l’utilisateur actuel
+title: Obtention des informations des collaborateurs directs du responsable de l’utilisateur actuel
 TOCTitle: Get information about direct reports of the current user's manager
 ms:assetid: 768bf573-1b10-4776-8947-a7f8dc3ebde0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184617(v=office.15)

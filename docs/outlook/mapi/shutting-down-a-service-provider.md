@@ -1,5 +1,5 @@
 ---
-title: Arrêt d'un fournisseur de services
+title: Arrêt d’un fournisseur de services
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,57 +15,57 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32339206"
 ---
-# <a name="shutting-down-a-service-provider"></a>Arrêt d'un fournisseur de services
+# <a name="shutting-down-a-service-provider"></a>Arrêt d’un fournisseur de services
 
  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsqu'un client appelle la méthode [IMAPISession:: Logoff](imapisession-logoff.md) pour mettre fin à la session et arrêter tous les fournisseurs de services actifs, MAPI à son tour appelle les méthodes suivantes: 
+Lorsqu’un client appelle la méthode [IMAPISession::Logoff](imapisession-logoff.md) pour mettre fin à la session et arrêter tous les fournisseurs de services actifs, MAPI appelle à son tour les méthodes suivantes : 
   
-- [IABLogon:: Logoff](iablogon-logoff.md) pour les fournisseurs de carnet d'adresses. 
+- [IABLogon::Logoff](iablogon-logoff.md) pour les fournisseurs de carnet d’adresses. 
     
-- [IMSLogon:: Logoff](imslogon-logoff.md) pour les fournisseurs de banque de messages. 
+- [IMSLogon::Logoff](imslogon-logoff.md) pour les fournisseurs de magasins de messages. 
     
-- [IXPLogon:: TransportLogoff](ixplogon-transportlogoff.md) pour les fournisseurs de transport. 
+- [IXPLogon::TransportLogoff pour](ixplogon-transportlogoff.md) les fournisseurs de transport. 
     
-Ces méthodes ont des implémentations similaires. Les principales tâches qu'une méthode de fermeture de session effectue sont les suivantes:
+Ces méthodes ont des implémentations similaires. Les principales tâches effectuées par une méthode de ff de logo sont les suivantes :
   
-- La publication de tous les objets ouverts, y compris les objets de sous-objets et d'État.
+- Libération de tous les objets ouverts, y compris les sous-objets et les objets d’état.
     
-- Appel de la méthode [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) de l'objet de prise en charge pour décrémenter son décompte de références. 
+- Appel de la méthode [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) de l’objet de support pour décrémenter son nombre de références. 
     
-- Suppression de toutes les structures [MAPIUID](mapiuid.md) enregistrées du fournisseur. 
+- Suppression de toutes les structures [MAPIUID](mapiuid.md) inscrites de votre fournisseur. 
     
-- Suppression de la ligne de votre fournisseur dans le tableau d'État.
+- Suppression de la ligne de votre fournisseur dans la table d’état.
     
-- Effectuer toutes les tâches liées au nettoyage des ressources, telles que les suivantes:
+- Effectuer toutes les tâches liées au nettoyage des ressources, telles que les suivantes :
     
-  - Arrêt d'une connexion à un serveur distant.
+  - Arrêt d’une connexion avec un serveur distant.
     
-  - Décrémentation du décompte de références sur l'objet d'ouverture de session.
+  - Décrémentation du nombre de références sur l’objet d’logon.
     
-  - Suppression de l'objet Logon de la liste des objets d'ouverture de session que votre fournisseur stocke.
+  - Suppression de l’objet d' logon dans la liste des objets d' logo que votre fournisseur stocke.
     
-  - En mode de débogage, l'émission de traces pour localiser des objets ayant divulgué de la mémoire.
+  - En mode débogage, émission de suivis pour localiser les objets dont la mémoire a été divulguée.
     
-Lorsque votre méthode de fermeture de session est renvoyée, MAPI appelle les éléments suivants:
+Lorsque votre méthode de ff de logo renvoie, MAPI appelle les appels suivants :
   
-- La méthode **IUnknown:: Release** de votre objet d'ouverture de session. 
+- Méthode **IUnknown::Release** de votre objet d’logo. 
     
-- La méthode d' **arrêt** de votre objet fournisseur pour effectuer les tâches de nettoyage finales. Selon le type de votre fournisseur, l'une des méthodes suivantes est appelée: 
+- Méthode d’arrêt **de** votre objet fournisseur pour effectuer les tâches de nettoyage finales. Selon le type de votre fournisseur, l’une des méthodes suivantes est appelée : 
     
-  - [IABProvider:: Shutdown](iabprovider-shutdown.md) pour les fournisseurs de carnets d'adresses 
+  - [IABProvider::Shutdown](iabprovider-shutdown.md) pour les fournisseurs de carnets d’adresses 
     
-  - [IMSProvider:: Shutdown](imsprovider-shutdown.md) pour les fournisseurs de banque de messages 
+  - [IMSProvider::Shutdown](imsprovider-shutdown.md) pour les fournisseurs de magasins de messages 
     
-  - [IXPProvider:: arrêt](ixpprovider-shutdown.md) pour les fournisseurs de transport 
+  - [IXPProvider::Shutdown](ixpprovider-shutdown.md) pour les fournisseurs de transport 
     
-- La méthode **IUnknown:: Release** de votre objet fournisseur. 
+- Méthode **IUnknown::Release** de votre objet fournisseur. 
     
-Si votre fournisseur est une banque de messages, un appel client à [IMsgStore:: StoreLogoff](imsgstore-storelogoff.md) lancera également le processus d'arrêt. **StoreLogoff** ferme un fournisseur de banque de messages particulier et n'a aucun effet sur la session. Seul un fournisseur de banque de messages peut être arrêté avec cette méthode; Il n'existe pas de méthode explicite pour arrêter un carnet d'adresses ou un fournisseur de transport particulier. Pour plus d'informations sur la façon de répondre à un appel **StoreLogoff** , consultez la rubrique [arrêt d'un fournisseur de banque de messages](shutting-down-a-message-store-provider.md).
+Si votre fournisseur est un magasin de messages, un appel client à [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) lancera également le processus d’arrêt. **StoreLogoff** arrête un fournisseur de magasin de messages particulier et n’a aucun effet sur la session. Seul un fournisseur de magasin de messages peut être arrêté avec cette méthode ; il n’existe aucun moyen explicite d’arrêter un carnet d’adresses ou un fournisseur de transport particulier. Pour plus d’informations sur la réponse à un appel **StoreLogoff,** voir [Shutting Down a Message Store Provider](shutting-down-a-message-store-provider.md).
   
-La DLL de votre fournisseur est déchargée lorsque MAPI appelle la fonction de l'API Win32 **FreeLibrary**, un appel passé après le dernier client actif a appelé [MAPIUninitialize](mapiuninitialize.md). À ce stade, votre fournisseur de services aura terminé l'arrêt. 
+La DLL de votre fournisseur sera déchargée lorsque MAPI appelle la fonction API Win32 **FreeLibrary**, un appel effectué après que le dernier client actif a appelé [MAPIUninitialize](mapiuninitialize.md). À ce moment-là, votre fournisseur de services aura fini de s’arrêter. 
   
 ## <a name="see-also"></a>Voir aussi
 

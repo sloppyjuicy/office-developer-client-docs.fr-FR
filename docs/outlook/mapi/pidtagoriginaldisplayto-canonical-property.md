@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c1cf14c-0339-4ced-8f68-4bfaa1e4d3e9
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5a2f60051e5cb0717926a5c3e2f878a49919b04c
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32342700"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les noms d'affichage des destinataires principaux (to) du message d'origine.
+Contient les noms d’affichage des destinataires principaux (À) du message d’origine.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contient les noms d'affichage des destinataires principaux (to) du message d'ori
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent une liste ASCII séparées par des points-virgules. Il est fourni par MAPI et est copié directement à partir de **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) lorsqu'un rapport de remise ou de non-remise ou un rapport de lecture ou de non-lecture est généré. Cette propriété peut être présente sur d'autres messages, comme défini par leurs classes de message.
+Ces propriétés contiennent une liste ASCII séparée par des points-virgules. Il est fourni par MAPI et est copié directement à partir de **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) lorsqu’un rapport de remise ou non remise ou un rapport lu ou non lu est généré. Cette propriété peut être présente sur d’autres messages tels que définis par leurs classes de messages.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées sur les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

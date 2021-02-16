@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea2bcc06-0089-4999-b115-06a14de4a0f1
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3b4432650d5c9fc77c4db0bc9aed4234d85e7fdf
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32346318"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée pour le destinataire qui doit recevoir des rapports pour ce message.
+Contient l’identificateur d’entrée du destinataire qui doit recevoir des rapports pour ce message.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient l'identificateur d'entrée pour le destinataire qui doit recevoir des r
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l'une des propriétés d'adresse pour le destinataire auquel l'expéditeur a délégué la réception des rapports générés pour ce message.
+Cette propriété est l’une des propriétés d’adresse du destinataire que l’expéditeur a délégué pour recevoir les rapports générés pour ce message.
   
-Une application cliente qui doit acheminer des rapports à un autre utilisateur doit définir cette propriété lors de l'envoi du message. S'il n'est pas défini, les rapports sont envoyés à l'expéditeur du message.
+Une application cliente qui doit router des rapports vers un autre utilisateur doit définir cette propriété au moment de l’envoi du message. S’il n’est pas définie, les rapports sont envoyés à l’expéditeur du message.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
+> Spécifie les propriétés et opérations autorisées sur les messages électroniques.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

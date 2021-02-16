@@ -1,5 +1,5 @@
 ---
-title: Accounts
+title: Comptes
 TOCTitle: Accounts
 ms:assetid: 28df6dbd-4d24-42f3-91c1-fd8b3a4ea722
 ms:mtpsurl: https://msdn.microsoft.com/library/office/ff184597(v=office.15)
@@ -29,7 +29,7 @@ Cette section fournit des exemples de tâches qui impliquent des comptes de mess
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisateurs Exchange](exchange-users.md)
+- [Utilisateurs Exchange](exchange-users.md)
 - [Courrier](mail.md)
 - [Destinataires](recipients.md)
 - [Procédure (Référence PIA Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)

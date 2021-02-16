@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a66d1c64-5c5a-4980-9acd-72448108fd2c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 90a873174b5b990f165d0b2173efa38fc7df2d9d
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32350938"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur d'un champ d'en-tête Content-Location MIME.
+Contient la valeur d’un champ d’en-tête d’emplacement de contenu MIME.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient la valeur d'un champ d'en-tête Content-Location MIME.
    
 ## <a name="remarks"></a>Remarques
 
-Pour définir la valeur de ces propriétés, les clients MIME doivent écrire la valeur souhaitée dans un champ d'en-tête Content-Location sur une entité MIME qui mappe à un corps de message.
+Pour définir la valeur de ces propriétés, les clients MIME doivent écrire la valeur souhaitée dans un champ d’en-tête Content-Location sur une entité MIME mig r e un corps de message.
   
-Les lecteurs MIME doivent copier la valeur d'un champ d'en-tête Content-Location sur une entité MIME de ce type vers la valeur de ces propriétés.
+Les lecteurs MIME doivent copier la valeur d’un champ d’en-tête Content-Location sur une entité MIME de ce type vers la valeur de ces propriétés.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> ConVertit des conventions de messagerie standard Internet en objets message.
+> Convertit des conventions de messagerie standard Internet en objets de message.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

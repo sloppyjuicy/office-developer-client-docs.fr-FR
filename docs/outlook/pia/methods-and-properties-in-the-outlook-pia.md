@@ -1,5 +1,5 @@
 ---
-title: Méthodes et propriétés de l’assembly PIA Outlook
+title: Méthodes et propriétés dans l'assembly PIA Outlook
 TOCTitle: Methods and properties in the Outlook PIA
 ms:assetid: ec7742de-ead6-41dd-90a3-1280fdf09d54
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb612528(v=office.15)
@@ -38,7 +38,7 @@ L'outil TLBIMP importe l'interface principale et l'interface d'événement pour 
 
 En continuant à utiliser l’objet **FormRegion** comme exemple, la liste suivante examine ce que contient chaque interface et classe répertoriées précédemment.
 
-- L'interface \_FormRegion définit toutes les méthodes et propriétés de l'objet FormRegion. En général, vous n'utilisez pas cette interface dans le code, sauf dans un cas décrit plus loin.
+- L'interface \_FormRegion définit toutes les méthodes et propriétés de l'objet FormRegion. Vous n’utiliserez généralement pas cette interface dans le code, à l’exception d’une des conditions décrite ci-dessous.
 
 - L'interface **FormRegionEvents** définit des méthodes qui sont mappées à des événements de FormRegion. Vous n’utiliserez pas cette interface dans le code.
 

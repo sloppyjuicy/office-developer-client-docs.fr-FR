@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7eb51396f4575a8f8f9ce15aff84eb894773e979
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32331170"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le nombre de minutes pendant lesquelles l'utilisateur a effectué une tâche.
+Indique le nombre de minutes pendantées par l’utilisateur pour effectuer une tâche.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskActualEffort  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Task  <br/> |
-|ID long (couvercle):  <br/> |0x00008110  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
+|ID long (LID) :  <br/> |0x00008110  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Tâche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur doit être supérieure ou égale à 0 et inférieure à 0x5AE980DF (1 525 252 319), où 480 minutes correspondent à un jour et 2400 minutes à une semaine (huit heures dans un jour de travail et cinq jours dans une semaine de travail).
+La valeur doit être supérieure ou égale à 0 et inférieure à 0x5AE980DF (1 525 252 319), où 480 minutes sont égales à un jour et 2 400 minutes à une semaine (huit heures dans une journée de travail et cinq jours dans une semaine de travail).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets de liste de distribution personnelle et de contact.
+> Spécifie les propriétés et opérations autorisées pour les objets de liste de distribution personnelle et de contact.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

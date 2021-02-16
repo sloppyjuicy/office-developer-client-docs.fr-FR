@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: de942619-2507-8fe0-bc81-f9da9ef7266f
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: fba49b052a51bd498f61fc115f630d08fc6c8926
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32335797"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le chemin d'accès d'un conteneur de carnet d'adresses dans un scénario hors connexion ou le nom de domaine complet du serveur de catalogue global où le conteneur de carnet d'adresses réside dans un scénario en ligne.
+Spécifie le chemin d’accès d’un conteneur de carnet d’adresses dans un scénario hors connexion ou le nom de domaine complet du serveur de catalogue global où réside le conteneur de carnet d’adresses dans un scénario en ligne.
   
 ## 
 
@@ -38,9 +38,9 @@ Spécifie le chemin d'accès d'un conteneur de carnet d'adresses dans un scénar
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété a le type de propriété Reset à **PT_UNICODE** lorsqu'elle est compilée `UNICODE` avec le symbole sur une plateforme Unicode, et à **PT_STRING8** lorsqu'elle n'est pas `UNICODE` compilée avec le symbole. 
+Cette propriété a le type de propriété réinitialisé à **PT_UNICODE** lorsqu’elle est compilée avec le symbole sur une plateforme Unicode et à PT_STRING8 lorsqu’elle n’est pas compilée avec le `UNICODE`  `UNICODE` symbole. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
@@ -48,15 +48,15 @@ Cette propriété a le type de propriété Reset à **PT_UNICODE** lorsqu'elle e
   
 > Fournit des définitions de jeu de propriétés.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

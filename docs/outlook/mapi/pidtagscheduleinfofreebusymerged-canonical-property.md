@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ebfccb6-967a-4f8e-9d94-94c50ba65438
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8d15c6cb256fb1e80e3c94bdfe7e71bd8625aa35
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,40 +25,40 @@ ms.locfileid: "32338716"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les heures pour lesquelles l'état de disponibilité est défini sur occupé ou OOF.
+Contient les heures pendant lesquelles l’état de la période de libre/occupé est occupé ou d’absence du travail.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_FREEBUSY_MERGED  <br/> |
 |Identificateur :  <br/> |0x6850  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Domaine :  <br/> |Disponibilité  <br/> |
+|Domaine :  <br/> |Libre/Occupé  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les événements de type de disponibilité provisoire ne sont pas inclus dans cette propriété. Le format, le calcul et les restrictions de cette propriété sont les mêmes que ceux de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mais font référence à des rendez-vous marqués comme absent (e) ou occupé (e) sur le calendrier associé.
+Les événements de type de libre/occupé provisoire ne sont pas inclus dans cette propriété. Le format, le calcul et les restrictions de cette propriété sont identiques à ceux de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mais font référence aux rendez-vous marqués comme étant des absences du calendrier ou occupés sur le calendrier associé.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
-> Publie la disponibilité d'un utilisateur ou d'une ressource.
+> Publie la disponibilité d’un utilisateur ou d’une ressource.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

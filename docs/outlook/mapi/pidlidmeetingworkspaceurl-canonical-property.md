@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidMeetingWorkspaceUrl
+title: Propri t canonique PidLidMeetingWorkspaceUrl
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30d7b5e5-be59-4c04-b4dc-4fb59abac2b6
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 478992c006fd1154fe7b12c07b3439cf740cb6ac
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,41 +19,41 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32349202"
 ---
-# <a name="pidlidmeetingworkspaceurl-canonical-property"></a>Propriété canonique PidLidMeetingWorkspaceUrl
+# <a name="pidlidmeetingworkspaceurl-canonical-property"></a>Propri t canonique PidLidMeetingWorkspaceUrl
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l'URL de l'espace de travail de réunion qui est associé à un objet Calendar.
+Spécifie l’URL de l’espace de travail de réunion associé à un objet calendrier.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidMWSURL  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
-|ID long (couvercle):  <br/> |0x00008209  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
+|ID long (LID) :  <br/> |0x00008209  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n'est pas obligatoire.
+Cette propriété n’est pas obligatoire.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

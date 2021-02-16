@@ -19,7 +19,7 @@ ms.locfileid: "32339185"
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations de téléchargement des éléments qui ont été déplacés. Ces informations sont utilisées lors de l'état de la [suppression du chargement](upload-delete-status-state.md) et de l'état de la [table de chargement](upload-table-state.md).
+Informations pour le chargement d’éléments qui ont été déplacés. Ces informations sont utilisées pendant l’état de suppression de [téléchargement et](upload-delete-status-state.md) [l’état de la table de chargement.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -43,21 +43,21 @@ struct UPMOV
 
 _ulFlags_
   
-> dans Indicateurs permettant de déterminer le comportement approprié pendant le chargement.
+> [in] Indicateurs pour déterminer le comportement approprié pendant le chargement.
     
   - UPV_ERROR
     
-    - dans Problème lors de l'ouverture du dossier du serveur.
+    - [in] Problème d’ouverture du dossier serveur.
     
   - UPV_DIRTY
     
-    - dans L'état du chargement a changé. Cette option est utilisée par le client pour effectuer le suivi de la modification de l'État pour le magasin local.
+    - [in] L’état de chargement a changé. Il est utilisé par le client pour suivre la modification de l’état du magasin local.
     
   - UPV_COMMIT
     
-    - dans Valider l'état du chargement.
+    - [in] Valider l’état de chargement.
     
-_Disparition_
+_pReserved_
   
 >  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
@@ -67,34 +67,34 @@ _pstmReserved_
     
 _pszName_
   
->  remarquer Nom du dossier de destination. 
+>  [out] Nom du dossier de destination. 
     
   > [!NOTE]
   > Ce membre ne prend pas en charge UNICODE. 
   
 _feid_
   
->  remarquer ID d'entrée du dossier de destination. 
+>  [out] ID d’entrée du dossier de destination. 
     
 _pfld_
   
->  dans Pointeur vers le dossier du serveur. 
+>  [in] Pointeur vers le dossier du serveur. 
     
 _pxicc_
   
->  dans Pointeur vers l'interface de contenu **IExchangeImportContentsChanges** qui prend en charge le téléchargement de modifications de contenu lors de l'utilisation de la synchronisation des modifications incrémentielles (ICS). Pour plus d'informations sur **IExchangeImportContentsChanges** et ICS, consultez la rubrique [critères d'évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [in] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** qui prend en charge le chargement des modifications de contenu lors de l’utilisation de la synchronisation incrémentielle des modifications (ICS). Pour plus d’informations **sur IExchangeImportContentsChanges** et ICS, voir critères d’évaluation [ICS.](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)
     
 _dwReserved_
   
 >  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
-_pupmovNext_
+_movNext_
   
->  remarquer Contexte de déplacement suivant. 
+>  [out] Contexte de déplacement suivant. 
     
 _cEntMov_
   
->  dans Nombre d'éléments déplacés ici. 
+>  [in] Nombre d’éléments déplacés ici. 
     
 ## <a name="see-also"></a>Voir aussi
 

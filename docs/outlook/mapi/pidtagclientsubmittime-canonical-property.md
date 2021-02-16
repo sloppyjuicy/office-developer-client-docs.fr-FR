@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 851441e419c17d8f5fef27c785ea4b829a4ae443
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32345716"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l'heure auxquelles l'expéditeur du message a envoyé un message. 
+Contient la date et l’heure à laquelle l’expéditeur du message a envoyé un message. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contient la date et l'heure auxquelles l'expéditeur du message a envoyé un mes
    
 ## <a name="remarks"></a>Remarques
 
-Le fournisseur de banque d' **PR_CLIENT_SUBMIT_TIME** définit l'heure à laquelle l'application cliente a appelé [IMessage:: SubmitMessage](imessage-submitmessage.md). 
+Le fournisseur de la **PR_CLIENT_SUBMIT_TIME** définit l’heure à l’heure à PR_CLIENT_SUBMIT_TIME’application cliente appelée [IMessage::SubmitMessage](imessage-submitmessage.md). 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets message et pièce jointe.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

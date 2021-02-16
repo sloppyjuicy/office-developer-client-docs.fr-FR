@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70a87cf8-2011-4669-90fd-2711c3352e30
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e712a4cc49541ee4330f479d7a03af323bdbc887
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32341229"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur de critère de diffusion attribuée par l'expéditeur de la première version d'un message qui est le message avant d'être transféré ou renvoyé.
+Contient la valeur de sensibilité attribuée par l’expéditeur de la première version d’un message, c’est-à-dire, le message avant d’être transmis ou de répondre.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient la valeur de critère de diffusion attribuée par l'expéditeur de la p
    
 ## <a name="remarks"></a>Remarques
 
-Une application cliente doit définir cette propriété sur la même valeur que la propriété **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) lorsque le message est soumis pour la première fois. Il ne doit jamais être modifié par la suite.
+Une application cliente doit définir cette propriété sur la même valeur que la propriété **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) lorsque le message est envoyé pour la première fois. Elle ne doit jamais être modifiée par la suite.
   
-Cette propriété est utilisée par le fournisseur de transport pour protéger la sensibilité des entrées copiées. Il l'active, par exemple, pour bloquer la modification du texte du message d'origine dans une action de transfert ou de réponse à un message qui a été initialement marqué comme **SENSITIVITY_PRIVATE**.
+Cette propriété est utilisée par le fournisseur de transport pour protéger la sensibilité sur les entrées copiées. Elle permet, par exemple, de bloquer la modification du texte du message d’origine dans un avant ou une réponse à un message qui a été marqué à l’origine **SENSITIVITY_PRIVATE**.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées sur les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

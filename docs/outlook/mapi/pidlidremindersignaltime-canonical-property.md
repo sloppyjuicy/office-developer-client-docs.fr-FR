@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3fcfd00f71a308dce625e6636edbe647f3d7258a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32350854"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique le moment où un rappel passe d'attente à en retard.
+Spécifie le moment où un rappel passe de l’attente à l’attente.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReminderNextTime  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008560  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008560  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie si la propriété **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) a la valeur true. Les clients doivent définir la valeur au format UTC (Coordinated Universal Time).
+Cette propriété doit être définie si la propriété **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) a la valeur TRUE. Les clients doivent définir la valeur en temps universel coordonné (UTC).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Spécifie les propriétés et le modèle d'interaction pour les rappels de messagerie et d'objet.
+> Spécifie les propriétés et le modèle d’interaction pour les messages électroniques et autres rappels d’objets.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

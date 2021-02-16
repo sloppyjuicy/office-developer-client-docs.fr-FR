@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b76312c6-7682-4ded-be25-55e21b0b091b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3961330476cad8947f94152e49c90adb1e8f8b21
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32339283"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un objet Attachment généralement accédé via l'interface **ISTORAGE** OLE (Object Linking and Embedding). 
+Contient un objet de pièce jointe généralement accessible via l’interface **IStorage** OLE (Object Linking and Embedding). 
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient un objet Attachment généralement accédé via l'interface **ISTORAGE*
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient la pièce jointe lorsque la valeur de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) est **ATTACH_EMBEDDED_MSG** ou **ATTACH_OLE**. Le type de codage OLE peut être déterminé à partir de **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+Cette propriété contient la pièce jointe lorsque la valeur de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) **est** ATTACH_EMBEDDED_MSG ou **ATTACH_OLE**. Le type de codage OLE peut être déterminé à partir **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
-Pour une pièce jointe associée à la valeur **ATTACH_EMBEDDED_MSG** , l'interface [IMessage: IMAPIProp](imessageimapiprop.md) peut être utilisée pour un accès plus rapide. 
+Pour une pièce jointe associée à **la ATTACH_EMBEDDED_MSG,** l’interface [IMessage:IMAPIProp](imessageimapiprop.md) peut être utilisée pour un accès plus rapide. 
   
-Pour un objet OLE OLE incorporé, la propriété **PR_ATTACH_DATA_OBJ** contient ses propres informations de rendu et la propriété **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) doit être vide ou non existant. 
+Pour un objet OLE dynamique incorporé, la propriété **PR_ATTACH_DATA_OBJ** contient ses propres informations de rendu et la propriété **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) doit être inexistante ou vide. 
   
-Pour une pièce jointe de fichier de document OLE, le fournisseur de banque de messages doit répondre à un appel [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) sur **PR_ATTACH_DATA_OBJ** et éventuellement répondre à un appel sur **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md) ). Les propriétés **PR_ATTACH_DATA_BIN** et **PR_ATTACH_DATA_OBJ** partagent le même identificateur de propriété et sont donc deux rendus de la même propriété. 
+Pour une pièce jointe de document OLE, le fournisseur de magasin de messages doit répondre à un appel [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur **PR_ATTACH_DATA_OBJ** et peut éventuellement répondre à un appel sur **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)). Les **PR_ATTACH_DATA_BIN** et **PR_ATTACH_DATA_OBJ** partagent le même identificateur de propriété et sont donc deux rendus de la même propriété. 
   
-Pour un objet de stockage, tel qu'un fichier composé au format DOCFILE OLE 2,0, certains fournisseurs de services l'autorisent à être ouverts avec l'interface MAPI **IStreamDocfile** , une sous-classe d' **IStream** sans membres supplémentaires, conçue pour optimiser les performances. L'enregistrement potentiel est suffisant pour justifier la tentative d'ouverture de **PR_ATTACH_DATA_OBJ** via **IStreamDocfile**. Si **MAPI_E_INTERFACE_NOT_SUPPORTED** est renvoyé, le client peut ensuite ouvrir **PR_ATTACH_DATA_BIN** avec **IStream**. 
+Pour un objet de stockage, tel qu’un fichier composé au format docfile OLE 2.0, certains fournisseurs de services lui permettent d’être ouvert avec l’interface MAPI **IStreamDocfile,** une sous-classe **d’IStream** sans membres supplémentaires, conçue pour optimiser les performances. L’enregistrement potentiel est suffisant pour justifier la tentative **d’ouverture** PR_ATTACH_DATA_OBJ via **IStreamDocfile**. Si **MAPI_E_INTERFACE_NOT_SUPPORTED** est renvoyé, le client peut ensuite ouvrir **PR_ATTACH_DATA_BIN** avec **IStream**. 
   
-Si l'application cliente ou le fournisseur de services ne peut pas ouvrir un sous-objet de pièce jointe à l'aide de **PR_ATTACH_DATA_OBJ** à l'aide de **PR_ATTACH_METHOD**, il doit utiliser **PR_ATTACH_DATA_BIN**. 
+Si l’application cliente ou le fournisseur de services ne peut pas ouvrir un sous-objet de pièce jointe à l’aide de PR_ATTACH_DATA_OBJ à l’aide de **PR_ATTACH_METHOD,** il doit utiliser **PR_ATTACH_DATA_BIN**.  
   
-Pour plus d'informations sur les interfaces et les formats OLE, consultez la rubrique [OLE and Data Transfer](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).
+Pour plus d’informations sur les interfaces et les formats OLE, voir [OLE et Transfert de données.](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx)
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets de message et de pièce jointe.
     
-## <a name="header-files"></a>Fichiers d'en-tête
+## <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

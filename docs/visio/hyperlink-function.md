@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251441
 localization_priority: Normal
 ms.assetid: 943636a6-e135-a626-7924-11e238156548
-description: Accède à l'adresse spécifiée, qui peut être un chemin d'accès de fichier, UNC ou URL.
+description: Permet d’accéder à l’adresse spécifiée, qui peut être un fichier, un unc ou un chemin d’URL.
 ms.openlocfilehash: 5e4952c3d56eff0cb1e6518928a7b8259f645046
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "32329945"
 ---
 # <a name="hyperlink-function"></a>Fonction HYPERLINK
 
-Accède à l'adresse spécifiée, qui peut être un chemin d'accès de fichier, UNC ou URL.
+Permet d’accéder à l’adresse spécifiée, qui peut être un fichier, un unc ou un chemin d’URL.
   
 ## <a name="syntax"></a>Syntaxe
 
-HYPERLINK ("* * *Address* * *" [, "* ** * SubAddress * *", "* ** * ExtraInfo * *", * * *Window* * *, "* * *Frame* * *"]) 
+HYPERLINK( » ** *address* ** « [, » ** *subaddress* ** « , » ** *extrainfo* ** « , ** *window* **, » ** *frame* ** « ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _adresse_ <br/> |Obligatoire  <br/> |**String** <br/> |Chemin d’accès complet ou relatif.  <br/> |
-| _SubAddress_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Spécifie un emplacement dans l'adresse à laquelle établir un lien. Par exemple, si l'adresse est un fichier Microsoft Visio, SubAddress peut être un nom de page; s'il s'agit d'un fichier Microsoft Excel, SubAddress peut être une feuille de calcul ou une plage dans une feuille de calcul; Si une URL pour une page HTML, SubAddress peut être une ancre.  <br/> |
-| _InfosSupplémentaires_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Transmet les informations utilisées pour la résolution de l’URL, comme les coordonnées d’une image interactive.  <br/> |
-| _Window_ <br/> |Facultatif  <br/> |**Booléen** <br/> |Indique si le lien hypertexte s’ouvre dans une nouvelle fenêtre. La valeur par défaut est FALSE.  <br/> |
-| _fréquence_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Spécifie le nom d’un cadre à cibler lorsque Visio est ouvert comme document ActiveX dans un navigateur ActiveX, tel que Microsoft Internet Explorer 3.0 ou ultérieur. Par défaut, cette chaîne est vide.  <br/> |
+| _sous-adresse_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Spécifie un emplacement dans l’adresse à lier. Par exemple, si l’adresse est un fichier Microsoft Visio, la sous-adresse peut être un nom de page ; si un fichier Microsoft Excel, sous-adresse peut être une feuille de calcul ou une plage dans une feuille de calcul ; Si une URL pour une page HTML, sous-adresse peut être un ancrage.  <br/> |
+| _extrainfo_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Transmet les informations utilisées pour la résolution de l’URL, comme les coordonnées d’une image interactive.  <br/> |
+| _window_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Indique si le lien hypertexte s’ouvre dans une nouvelle fenêtre. La valeur par défaut est FALSE.  <br/> |
+| _frame_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Spécifie le nom d’un cadre à cibler lorsque Visio est ouvert comme document ActiveX dans un navigateur ActiveX, tel que Microsoft Internet Explorer 3.0 ou ultérieur. Par défaut, cette chaîne est vide.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

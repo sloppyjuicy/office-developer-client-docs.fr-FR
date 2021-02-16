@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: c226fe79fd002cda3c557fc8416c25f98ad33626
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,27 +19,27 @@ ms.locfileid: "32345926"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI peut être utilisé pour lire et analyser un modèle de récurrence pour un rendez-vous.
+MAPI peut être utilisé pour lire et consulter une récurrence pour un rendez-vous.
   
-Pour plus d'informations sur le téléchargement, l'affichage et l'exécution du code à partir du projet d'application MFCMAPI référencé dans cette rubrique, voir [installer les exemples utilisés dans cette section](how-to-install-the-samples-used-in-this-section.md).
+Pour plus d’informations sur la façon de télécharger, d’afficher et d’exécuter le code à partir du projet d’application MFCMAPI référencé dans cette rubrique, voir Installer les exemples utilisés dans [cette section.](how-to-install-the-samples-used-in-this-section.md)
 
-### <a name="to-parse-a-recurrence-blob"></a>Pour analyser un blob de récurrence
+### <a name="to-parse-a-recurrence-blob"></a>Pour parer un blob de récurrence
 
-1. Ouvrez un élément de rendez-vous. Pour plus d'informations sur l'ouverture d'un message, consultez [la rubrique ouverture d'un message](opening-a-message.md).
+1. Ouvrez un élément de rendez-vous. Pour plus d’informations sur l’ouverture d’un message, voir [Ouverture d’un message.](opening-a-message.md)
     
-2. Récupérez le **dispidApptRecur** de propriété nommée ([propriété canonique PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)). Pour plus d'informations sur la récupération des propriétés nommées, voir [MAPI named Properties](mapi-named-properties.md).
+2. Récupérer la propriété nommée **dispidApptRecur** ( Propriété canonique [PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)). Pour plus d’informations sur la récupération des propriétés nommées, voir [MAPI Named Properties](mapi-named-properties.md).
     
-3. Suivez les instructions de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) pour lire la structure de périodicité du rendez-vous. 
+3. Suivez les instructions de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) pour lire la structure de la récurrence des rendez-vous. 
     
-L'application de référence MFCMAPI illustre la dernière étape de `BinToAppointmentRecurrencePatternStruct` la fonction dans le fichier source InterpretProp2. cpp du projet MFCMAPI. La `BinToAppointmentRecurrencePatternStruct` fonction prend un pointeur vers une mémoire tampon en mémoire comme paramètre. L'application MFCMAPI obtient cette mémoire tampon en mappant d'abord la propriété nommée **dispidApptRecur** à une balise de propriété, puis en demandant la valeur de la propriété à l'aide de la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) . Si la propriété est trop grande pour être récupérée à l'aide de la méthode **GetProps** , MFCMAPI ouvre une interface Stream pour récupérer la propriété à l'aide de la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) . L'application MFCMAPI lit ensuite les données du flux pour générer la mémoire tampon. 
+L’application de référence MFCMAPI illustre la dernière étape avec la fonction dans le fichier  `BinToAppointmentRecurrencePatternStruct` source InterpretProp2.cpp du projet MFCMapi. La  `BinToAppointmentRecurrencePatternStruct` fonction prend un pointeur vers une mémoire tampon en mémoire en tant que paramètre. L’application MFCMAPI obtient cette mémoire tampon en mappant d’abord la propriété nommée **dispidApptRecur** à une balise de propriété, puis en demandant la valeur de la propriété à l’aide de la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md) Si la propriété est trop grande pour être récupérée à l’aide de la méthode **GetProps,** MFCMAPI ouvre une interface de flux pour récupérer la propriété à l’aide de la méthode [IMAPIProp::OpenProperty.](imapiprop-openproperty.md) L’application MFCMAPI lit ensuite les données hors du flux pour créer la mémoire tampon. 
   
-Pour plus d'informations sur le format de la mémoire tampon, voir la [propriété canonique PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). L'ensemble des données de la mémoire tampon se compose de champs d'un nombre fixe d'octets, qui doivent être lus l'un après l'autre. Certains champs sont présents uniquement si d'autres champs contiennent certaines valeurs et que la taille de certains champs peut dépendre de la valeur d'autres champs. L'analyse de la mémoire tampon pour lire les différents champs implique un grand nombre de la comptabilité. MFCMAPI utilise une classe d'assistance interne nommée `CBinaryParser` pour encapsuler cette comptabilité. Par exemple, la `CBinaryParser::GetDWORD` fonction vérifie si un nombre d'octets suffisant reste dans la mémoire tampon pour lire une valeur DWORD, puis lit la valeur et met à jour les pointeurs. 
+Pour plus d’informations sur le format de la mémoire tampon, voir la propriété canonique [PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). La majeure partie des données dans la mémoire tampon se compose de champs d’un nombre fixe d’octets, qui doivent être lus l’un après l’autre. Certains champs sont présents uniquement si d’autres champs contiennent certaines valeurs, et la taille de certains champs peut dépendre de la valeur d’autres champs. L’étude de la mémoire tampon pour lire les différents champs implique un grand nombre de comptabilité. MFCMAPI utilise une classe d’aide interne nommée  `CBinaryParser` pour encapsuler ce manuel. Par exemple, la fonction vérifie si suffisamment d’octets restent dans la mémoire tampon pour lire un DWORD, puis lit la valeur et met à jour  `CBinaryParser::GetDWORD` les pointeurs. 
   
-Une fois que la mémoire tampon a été analysée dans une structure, l'application `AppointmentRecurrencePatternStructToString` MFCMAPI utilise la fonction pour convertir la structure en chaîne à afficher à l'utilisateur. Il ne s'agit pas de la chaîne que Outlook affiche, mais qui est une vue brute des données sur lesquelles Outlook génère sa logique. 
+Une fois la mémoire tampon en structure, l’application MFCMAPI utilise la fonction pour convertir la structure en chaîne à afficher à  `AppointmentRecurrencePatternStructToString` l’utilisateur. Ce n’est pas la même chaîne qu’Outlook afficherait, mais il s’agit à la place d’une vue brute des données sur lesquelles Outlook crée sa logique. 
   
-Il est possible de rencontrer une mémoire tampon qui contient des données endommagées ou plus de données que ce qui est nécessaire pour coder une périodicité. Pour faciliter l'identification de ces scénarios, l'application MFCMAPI effectue le suivi du nombre de données analysées avec succès et de la taille de la mémoire tampon. Si les données restent dans la mémoire tampon une fois l'analyse terminée, MFCMAPI inclut ce «courrier indésirable» dans la structure afin qu'il puisse être examiné.
+Il est possible de rencontrer une mémoire tampon qui contient des données endommagées ou plus de données que nécessaire pour encoder une récurrence. Pour vous aider à identifier ces scénarios, l’application MFCMAPI assure le suivi de la quantité de données qui a été correctement analyse et de la quantité qui reste dans la mémoire tampon. Si les données restent dans la mémoire tampon une fois l’analyse terminée, MFCMAPI inclut ces « données indésirables » dans la structure afin qu’elles soient examinées.
   
-Voici la liste complète de la `BinToAppointmentRecurrencePatternStruct` fonction. 
+Voici la liste complète de la  `BinToAppointmentRecurrencePatternStruct` fonction. 
   
 ```cpp
 AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULONG cbBin, LPBYTE lpBin)

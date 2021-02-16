@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e85fc766-197a-484f-b600-68cd28a052a2
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a7ad27d757d4ed6df58c597bf17d9e5412f83457
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,65 +25,65 @@ ms.locfileid: "32342517"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si le destinataire peut recevoir tout le contenu du message, y compris le format RTF (Rich Text Format) et les objets OLE (Object Linking and Embedding). 
+Contient TRUE si le destinataire peut recevoir tout le contenu du message, y compris les objets RTF (Rich Text Format) et OLE (Object Linking and Embedding). 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEND_RICH_INFO  <br/> |
 |Identificateur :  <br/> |0x3A40  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Adresse  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Il est recommandé que les objets utilisateur de liste de distribution et de messagerie exposent cette propriété. 
   
-Cette propriété indique si l'expéditeur considère que le destinataire est activé pour MAPI. 
+Cette propriété indique si l’expéditeur considère que le destinataire est activé pour MAPI. 
   
-Lorsque cette propriété est définie sur TRUE, le transport et la passerelle peuvent transmettre le contenu complet du message, y compris les objets RTF et OLE. Le fournisseur de transport et la passerelle doivent utiliser le format TNEF (Transport Neutral Encapsulation Format) pour encapsuler les propriétés qui ne sont pas natives pour tous les systèmes de messagerie impliqués. 
+Lorsque cette propriété est définie sur TRUE, le transport et la passerelle peuvent transmettre le contenu complet du message, y compris les objets RTF et OLE. Le fournisseur de transport et la passerelle doivent utiliser le format TNEF (Transport Neutral Encapsulation Format) pour encapsuler toutes les propriétés qui ne sont pas natives pour tous les systèmes de messagerie impliqués. 
   
-Lorsque cette propriété est définie sur FALSe, le fournisseur de transport et la passerelle sont libres de rejeter le contenu du message que leurs clients natifs ne peuvent pas utiliser. Par exemple, lorsque les clients ne prennent pas en charge le format RTF, le fournisseur de transport ne peut envoyer que du texte brut. 
+Lorsque cette propriété est définie sur FALSE, le fournisseur de transport et la passerelle sont libres d’ignorer le contenu des messages que leurs clients natifs ne peuvent pas utiliser. Par exemple, lorsque les clients ne le font pas, le fournisseur de transport ne peut envoyer que du texte simple. 
   
-Lorsque cette propriété n'est pas définie, le comportement par défaut est déterminé par l'implémentation du fournisseur de transport, de l'agent de transfert des messages (MTA) ou de la passerelle. Les fournisseurs de carnets d'adresses ne sont pas requis pour prendre en charge cette propriété. Par exemple, un carnet d'adresses et un fournisseur de transport étroitement couplés peuvent choisir d'envoyer le format TNEF mais jamais utiliser le format RTF. 
+Lorsque cette propriété n’est pas définie, le comportement par défaut est déterminé par l’implémentation du fournisseur de transport, de l’agent de transfert de messages (MTA) ou de la passerelle. Les fournisseurs de carnet d’adresses ne sont pas requis pour prendre en charge cette propriété. Par exemple, un fournisseur de transport et de carnet d’adresses étroitement couplé peut choisir d’envoyer le TNEF, mais ne jamais utiliser rtf. 
   
-Le client ne doit pas supposer que le fournisseur de transport et la passerelle utiliseront le format TNEF de sa propre initiative. Certains fournisseurs et passerelles de transport qui prennent en charge le format TNEF le transmettent sans tenir compte de la valeur de cette propriété, mais d'autres refusent de construire ou d'envoyer le format TNEF s'il n'est pas défini sur TRUE. 
+Le client ne doit pas supposer que le fournisseur de transport et la passerelle utiliseront le TNEF de leur propre initiative. Certains fournisseurs de transport et passerelles qui la transmettent au TNEF sans prendre en compte la valeur de cette propriété, mais d’autres refusent de construire ou d’envoyer le TNEF s’il n’est pas définie sur TRUE. 
   
 > [!NOTE]
-> Le paramètre de cette propriété, ainsi que les décisions basées sur sa valeur, sont au niveau de chaque destinataire. 
+> La définition de cette propriété et les décisions basées sur sa valeur sont basées sur chaque destinataire. 
   
-Par défaut, MAPI définit la valeur sur TRUE. Un client appelant [IAddrBook:: CreateOneOff](iaddrbook-createoneoff.md) ou un fournisseur qui appelle [IMAPISupport:: CreateOneOff](imapisupport-createoneoff.md) peut définir le bit **MAPI_SEND_NO_RICH_INFO** dans le paramètre _ulFlags_ , ce qui force MAPI à définir cette propriété sur false. Les inversions créées par l'interface utilisateur utilisent la valeur spécifiée par le modèle de création. 
+Par défaut, MAPI définit la valeur sur TRUE. Un client appelant [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md) ou un fournisseur appelant [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) peut définir le bit **MAPI_SEND_NO_RICH_INFO** dans le paramètre  _ulFlags,_ ce qui entraîne mapI à définir cette propriété sur FALSE. Les one-offs créés par l’interface utilisateur utilisent la valeur spécifiée par le modèle de création. 
   
-Lors des appels à la méthode [IAddrBook:: ResolveName](iaddrbook-resolvename.md) lorsque le nom ne peut pas être résolu, mais qu'il peut être interprété comme une adresse Internet (SMTP), cette propriété est définie sur false. Pour être interprétée comme une adresse Internet, le nom d'affichage de l'entrée non résolue doit être au format X @ Y. Z, par exemple «pete@pinecone.com». 
+Lors des appels à la méthode [IAddrBook::ResolveName](iaddrbook-resolvename.md) lorsque le nom ne peut pas être résolu mais peut être interprété comme une adresse Internet (SMTP), cette propriété est définie sur FALSE. Pour être interprété comme une adresse Internet, le nom complet de l’entrée non résolue doit être au format X@Y. Z, par exemple « pete@pinecone.com ». 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> des conventions de messagerie standard Internet aux objets message.
+> des conventions de messagerie standard Internet aux objets de message.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Obtention des informations de disponibilité du manager d’un utilisateur Exchange
+title: Obtention des informations de disponibilité du responsable d’un utilisateur Exchange
 TOCTitle: Get availability information for an Exchange user's manager
 ms:assetid: b59dd875-50c2-4f24-ba91-24429abf1b72
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb646996(v=office.15)

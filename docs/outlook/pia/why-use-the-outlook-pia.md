@@ -1,5 +1,5 @@
 ---
-title: Pourquoi utiliser l’assembly PIA Outlook
+title: Pourquoi utiliser Outlook PIA
 TOCTitle: Why use the Outlook PIA
 ms:assetid: 5cc9085e-7c97-4698-8cb9-e33e427c02e7
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb645534(v=office.15)

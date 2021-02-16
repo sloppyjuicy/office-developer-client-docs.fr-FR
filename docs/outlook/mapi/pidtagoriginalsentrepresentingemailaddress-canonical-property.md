@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e2c3d2c3-5451-45cb-b0ec-bdbf5b39a0ba
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2530e27993163505b28fa7d08fd5caf4cc9b03be
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "32341187"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'adresse de messagerie de l'utilisateur de messagerie au nom duquel le message d'origine a été envoyé.
+Contient l’adresse e-mail de l’utilisateur de messagerie au nom de qui le message d’origine a été envoyé.
   
 |||
 |:-----|:-----|
@@ -34,31 +34,31 @@ Contient l'adresse de messagerie de l'utilisateur de messagerie au nom duquel le
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d'adresse pour l'expéditeur d'origine d'un message. Il est utilisé dans un thread de conversation.
+Ces propriétés sont des exemples des propriétés d’adresse de l’expéditeur représenté d’origine d’un message. Il est utilisé dans un thread de conversation.
   
-Une application client qui envoie un message au nom d'un autre client doit définir ces propriétés sur la valeur de la propriété **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) lors du premier envoi du message. Une fois défini, il ne doit jamais être modifié.
+Une application cliente envoyant un message pour le compte d’un autre client doit définir ces propriétés sur la valeur de la propriété **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) lors de la première soumission du message. Une fois définie, elle ne doit jamais être modifiée.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées sur les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -29,7 +29,7 @@ Cette section présente des exemples de tâches qui impliquent des carnets d'adr
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisateurs Exchange](exchange-users.md)
+- [Utilisateurs Exchange](exchange-users.md)
 - [Courrier](mail.md)
 - [Destinataires](recipients.md)
 - [Procédure (Référence PIA Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)

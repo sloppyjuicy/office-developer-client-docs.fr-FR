@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5ae6124-3e44-400f-95c2-24b19f3085b5
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 02dcbcccd003fb0b53356da11a3b90b38e632c2a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32355173"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de noms d'affichage pour les destinataires qui doivent recevoir une réponse.
+Contient une liste de noms d’affichage pour les destinataires devant obtenir une réponse.
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient une liste de noms d'affichage pour les destinataires qui doivent recevo
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent les noms complets séparés par des points-virgules.
+Ces propriétés contiennent les noms d’affichage séparés par des points-virgules.
   
-Lorsque cette propriété n'est pas présente, une réponse est envoyée uniquement à l'utilisateur identifié par la propriété **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Lorsque **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) et ces propriétés sont définies, la réponse est envoyée à tous les destinataires identifiés par ces deux propriétés. Un fournisseur de transport utilise ces propriétés pour remplacer la logique de réponse habituelle.
+Lorsque cette propriété n’est pas présente, une réponse est envoyée uniquement à l’utilisateur identifié par la **propriété PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Lorsque **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) et que ces propriétés sont définies, la réponse est envoyée à tous les destinataires identifiés par ces deux propriétés. Un fournisseur de transport utilise ces propriétés pour remplacer la logique de réponse habituelle.
   
-Si **PR_REPLY_RECIPIENT_ENTRIES** ou ces propriétés sont définies, l'autre propriété doit être définie également. Ces propriétés doivent contenir le même nombre de destinataires, et elles doivent les contenir dans le même ordre. Si vous ne respectez pas ces exigences, les résultats sont imprévisibles. 
+Si **l PR_REPLY_RECIPIENT_ENTRIES** ou ces propriétés sont définies, l’autre propriété doit également être définie. Ces propriétés doivent contenir le même nombre de destinataires et elles doivent les contenir dans le même ordre. Le non-respect de ces exigences peut entraîner des résultats imprévisibles. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
+> Spécifie les propriétés et opérations autorisées sur les messages électroniques.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> ConVertit des conventions de messagerie standard Internet en objets message.
+> Convertit des conventions de messagerie standard Internet en objets de message.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

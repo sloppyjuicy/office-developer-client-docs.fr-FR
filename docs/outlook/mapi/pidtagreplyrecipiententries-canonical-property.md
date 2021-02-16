@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 000132f052abb666ae844ec7d21b59c85ab43613
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32355054"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau dimensionné d'identificateurs d'entrée pour les destinataires qui doivent recevoir une réponse.
+Contient un tableau de tailles d’identificateurs d’entrée pour les destinataires qui sont à obtenir une réponse.
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient un tableau dimensionné d'identificateurs d'entrée pour les destinatai
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient une structure [FLATENTRYLIST](flatentrylist.md) et n'est pas une propriété à valeurs multiples. 
+Cette propriété contient une structure [FLATENTRYLIST](flatentrylist.md) et n’est pas une propriété à valeurs multiples. 
   
-Lorsque cette propriété n'est pas présente, une réponse est envoyée uniquement à l'utilisateur identifié par la propriété **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Lorsque les propriétés this et **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) sont définies, la réponse est envoyée à tous les destinataires identifiés par ces deux propriétés. Un fournisseur de transport utilise ces propriétés pour remplacer la logique de réponse habituelle.
+Lorsque cette propriété n’est pas présente, une réponse est envoyée uniquement à l’utilisateur identifié par la **propriété PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Lorsque les propriétés **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) sont définies, la réponse est envoyée à tous les destinataires identifiés par ces deux propriétés. Un fournisseur de transport utilise ces propriétés pour remplacer la logique de réponse habituelle.
   
-Si cette propriété ou la propriété **PR_REPLY_RECIPIENT_NAMES** est définie, l'autre propriété doit être définie également. Ces propriétés doivent contenir le même nombre de destinataires, et elles doivent les contenir dans le même ordre. Si vous ne respectez pas ces exigences, les résultats sont imprévisibles. 
+Si cette propriété ou la **propriété PR_REPLY_RECIPIENT_NAMES** est définie, l’autre propriété doit également être définie. Ces propriétés doivent contenir le même nombre de destinataires et elles doivent les contenir dans le même ordre. Le non-respect de ces exigences peut entraîner des résultats imprévisibles. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
+> Spécifie les propriétés et opérations autorisées sur les messages électroniques.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> ConVertit des conventions de messagerie standard Internet en objets message.
+> Convertit des conventions de messagerie standard Internet en objets de message.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

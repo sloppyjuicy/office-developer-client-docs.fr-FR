@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 14b2904e57852c564395f4b27c9d5270afd1454a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32336658"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un jeu de caractères facultatif que le convertisseur MAPI à MIME utilise lors de la conversion d'un message MAPI en un flux MIME.
+Spécifie un jeu de caractères facultatif que le convertisseur MAPI en MIME utilise lors de la conversion d’un message MAPI en flux MIME.
   
 ```cpp
 HRESULT SetCharset( 
@@ -38,21 +38,21 @@ HRESULT SetCharset(
 
  _fApply_
   
-> dans Indique s'il faut utiliser un jeu de caractères spécifique pour la conversion. Définissez ce paramètre sur **true** pour appliquer le jeu de caractères dans les conversions suivantes. Définissez ce paramètre sur **false** si vous ne souhaitez plus appliquer un jeu de caractères spécifique et revenir aux valeurs par défaut pour les messages suivants. 
+> [in] Indique s’il faut utiliser un jeu de caractères spécifique pour la conversion. Définissez ce paramètre sur **true** pour appliquer le jeu de caractères dans les conversions suivantes. Définissez ce paramètre sur **false** si vous ne souhaitez plus appliquer de jeu de caractères spécifique et revenir aux valeurs par défaut pour les messages suivants. 
     
  _hcharset_
   
-> dans Un handle vers un jeu de caractères tel qu'il est défini dans MimeOLE. h de Windows Mail. Spécifiez **null** pour spécifier que vous ne souhaitez pas appliquer un jeu de caractères spécifique. Pour les valeurs **** non nulles, utilisez une fonction telle que [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) pour obtenir un descripteur du jeu de caractères. 
+> [in] Handle vers un jeu de caractères défini dans mimeole.h de Windows Mail. Spécifiez **null** pour spécifier que vous ne souhaitez pas appliquer de jeu de caractères spécifique. Pour les valeurs **non null,** utilisez une fonction telle que [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) pour obtenir un handle pour le jeu de caractères. 
     
  _csetapplytype_
   
-> dans Indique comment appliquer un jeu de caractères pour convertir un message, tel qu'il est défini dans MimeOLE. h de Windows Mail.
+> [in] Indique comment appliquer un jeu de caractères pour convertir un message, tel que défini dans mimeole.h de Windows Mail.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> L'appel de fonction est réussi.
+> L’appel de fonction a réussi.
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -60,8 +60,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

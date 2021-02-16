@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2acf0036-2f3e-4f90-8614-7aa667860f74
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b9c2a1bbf519379c1735c489c2dcd3fcfb395a60
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,21 +25,21 @@ ms.locfileid: "32346374"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un flux qui correspond au format persistant d'une structure [TZREG](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx) , qui décrit le fuseau horaire à utiliser pour l'heure de début et de fin d'une demande de réunion ou de rendez-vous périodique. 
+Contient un flux qui ma visite le format persistant d’une structure [TZREG,](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx) qui décrit le fuseau horaire à utiliser pour l’heure de début et de fin d’un rendez-vous périodique ou d’une demande de réunion. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTimeZoneStruct  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
-|ID long (couvercle):  <br/> |0x00008233  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
+|ID long (LID) :  <br/> |0x00008233  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Microsoft Office Outlook 2003, versions antérieures d'Outlook et applications basées sur des objets CDO (Collaboration Data Objects) 1,21 dont les utilisateurs n'ont pas exécuté l'outil de mise à jour de calendrier fourni par Outlook ou Exchange Server stockent l'heure de début et l'heure de fin d'une rendez-vous périodique ou une demande de réunion en tant que heure relative, et stockez le fuseau horaire dans lequel la demande de rendez-vous ou de réunion est créée dans **dispidTimeZoneStruct**. Toutefois, ce modèle ignore que, dans le temps, les règles de fuseau horaire peuvent varier, ce qui entraîne des rendez-vous et des réunions que les utilisateurs ont planifiés avant la modification des règles et qui se produisent à des moments incorrects. Les utilisateurs et administrateurs qui n'exécutent pas Windows Vista ou qui n'ont pas de mises à jour automatiques activées doivent utiliser les outils de relocalisation de calendrier fournis par Outlook ou Exchange Server pour ajuster le temps de ces rendez-vous et demandes de réunion. Pour plus d'informations sur ces outils de relocalisation de calendrier et les API qui rebasent les calendriers, voir [à propos de la relocalisation des calendriers par programmation pour l'heure d'été](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx) .
+Microsoft Office Outlook 2003, les versions antérieures d’Outlook et les applications basées sur CDO (Collaboration Data Objects) 1.21 dont les utilisateurs n’ont pas exécuté l’outil de mise à jour du calendrier fourni par Outlook ou Exchange Server stockent l’heure de début et l’heure de fin d’un rendez-vous périodique ou d’une demande de réunion en tant qu’heure relative, et stockent le fuseau horaire où le rendez-vous ou la demande de réunion est créé dans **dispidTimeZoneStruct**. Toutefois, ce schéma ignore qu’au fil du temps, les règles de fuseau horaire peuvent changer, ce qui entraîne certains rendez-vous et réunions que les utilisateurs ont programmés avant que les règles ne changent et se produisent à des moments incorrects. Les utilisateurs et les administrateurs qui n’exécutent pas Windows Vista ou qui n’ont pas de mises à jour automatiques doivent utiliser les outils de rebasing de calendrier fournis par Outlook ou Exchange Server pour ajuster l’heure de ces rendez-vous et demandes de réunion. Pour plus d’informations sur ces outils de rebasing de calendrier et les API qui rebasent les calendriers, voir à propos de la rebase des calendriers par programme pour l’heure [d’été](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx)
   
-Utilisez le format Little-endian suivant lors de l'analyse d'un flux de flux obtenu à partir de **dispidTimeZoneStruct**ou lors de la persistance de la structure **TZREG** dans un flux pour la validation de la propriété binaire **dispidTimeZoneStruct** . 
+Utilisez le format little-endian suivant lors de l’utilisation d’un flux obtenu à partir de **dispidTimeZoneStruct** ou lors de la persistance de la structure **TZREG** dans un flux à valider dans la propriété binaire **dispidTimeZoneStruct.** 
   
 ```cpp
 long        lBias;           // offset from GMT
@@ -51,23 +51,23 @@ WORD        wDaylightYear;      // matches the stDaylightDate's wYear field
 SYSTEMTIME  stDaylightDate;  // time to switch to daylight time
 ```
 
-Cette propriété est définie sur une série périodique pour spécifier les informations de fuseau horaire, et indique comment convertir les champs d'heure entre l'heure locale et l'heure UTC (Coordinated Universal Time).
+Cette propriété est définie sur une série périodique pour spécifier des informations de fuseau horaire et indique comment convertir des champs horaires entre l’heure locale et le temps universel coordonné (UTC).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

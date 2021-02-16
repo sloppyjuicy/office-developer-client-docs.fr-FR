@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e724af6-5b56-4eb3-a94c-1015ebce197c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0918c15d87219c1ee20b177ae21e718e0289cf04
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -30,36 +30,36 @@ Spécifie les options utilisées dans le traitement automatique des messages él
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSniffState  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x0000851A  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x0000851A  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La propriété peut être absente, auquel cas la valeur par défaut «0x00000000» est utilisée. S'il est défini, cette propriété doit être définie sur l'une des valeurs du tableau suivant.
+La propriété peut être absente, auquel cas la valeur par défaut de « 0x00000000 » est utilisée. Si elle est définie, cette propriété doit être définie sur l’une des valeurs du tableau suivant.
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0x00000000  <br/> |Ne pas traiter automatiquement le message.  <br/> |
 |0x00000001  <br/> |Traiter le message automatiquement ou lorsque le message est ouvert.  <br/> |
 |0x00000002  <br/> |Traiter le message uniquement lorsque le message est ouvert.  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

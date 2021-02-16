@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c27b1239-3612-4bb3-9f22-4b89ee9900cd
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 34e8a3c73715a75b8007646e5ba3b0dc3e1ae919
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,41 +25,41 @@ ms.locfileid: "32331191"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le type de réponse à laquelle le destinataire de la demande de partage a répondu. Il s'agit d'une propriété d'un message de partage.
+Spécifie le type de réponse auquel le destinataire de la demande de partage a répondu. Il s’agit d’une propriété d’un message de partage.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingResponseType  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Sharing  <br/> |
-|ID long (couvercle):  <br/> |0x00008A27  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
+|ID long (LID) :  <br/> |0x00008A27  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Partage  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété doit être définie sur l'une des valeurs suivantes:
+La valeur de cette propriété doit être définie sur l’une des valeurs suivantes :
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |0x00000000  <br/> |Aucune réponse  <br/> |
 |0x00000001  <br/> |Accepted  <br/> |
-|0x00000002  <br/> |Verr  <br/> |
+|0x00000002  <br/> |Refusé  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîtes aux lettres entre les clients.
+> Partage des dossiers de boîte aux lettres entre clients.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

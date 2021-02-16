@@ -25,22 +25,22 @@ Contient l’ID de l’image de la face de bouton qui s’affiche sur le bouton 
   
 ## <a name="remarks"></a>Remarques
 
-La chaîne contenue dans la cellule ButtonFace représente l'ID d'une image de bouton Microsoft Office. La valeur 0 (zéro) ou vide est définie par défaut sur le bouton d'information «i» de la balise d'action standard. ![Bouton d'information «i» de balise d'action standard](media/InfoPS_ZA10180114.gif).
+La chaîne contenue dans la cellule ButtonFace représente l'ID d'une image de bouton Microsoft Office. Une valeur de 0 (zéro) ou vide par défaut pour le bouton d’informations « i » de la balise d’action standard ![Bouton d’informations « i » de la balise d’action standard](media/InfoPS_ZA10180114.gif).
   
-Les ID utilisables dans la cellule ButtonFace sont les mêmes que ceux utilisés avec la propriété **FaceID** d'un objet **CommandBarButton**. Pour plus d'informations sur ces ID, recherchez «utilisation des images de boutons de la barre de commandes» sur MSDN. 
+Les ID utilisables dans la cellule ButtonFace sont les mêmes que ceux utilisés avec la propriété **FaceID** d'un objet **CommandBarButton**. Pour plus d’informations sur ces ID, recherchez « Working with command bar button images » sur MSDN. 
   
 Pour obtenir une référence à la cellule ButtonFace par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | SmartTag.  *nom* . ButtonFace où SmartTags. *Name* est le nom de la ligne de balise d'action  <br/> |
+| Nom de cellule :  <br/> | SmartTags.  *nom*  . ButtonFace où SmartTags. *name est*  le nom de la ligne de balise d’action  <br/> |
    
 Pour obtenir une référence à la cellule ButtonFace par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visSmartTagButtonFace** <br/> |
    
 

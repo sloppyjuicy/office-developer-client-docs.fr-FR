@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b04a277c-b483-4f54-b360-311034b9a7ee
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e4d209c4f185ff253476beb04913e6a64884f9b6
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32335419"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Propriété opaque définie par le client pour l'utilisation exclusive du client. 
+Propriété opaque que le client définit pour l’utilisation exclusive du client. 
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Propriété opaque définie par le client pour l'utilisation exclusive du client
    
 ## <a name="remarks"></a>Remarques
 
-Le serveur doit conserver la valeur de cette propriété si elle a été définie par le client mais doit ignorer son contenu pendant l'évaluation et le traitement de la règle.
+Le serveur doit conserver la valeur de cette propriété si elle a été définie par le client, mais doit ignorer son contenu pendant l’évaluation et le traitement de la règle.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipule les messages électroniques entrants sur un serveur.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées. 
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées. 
     
 ## <a name="see-also"></a>Voir aussi
 

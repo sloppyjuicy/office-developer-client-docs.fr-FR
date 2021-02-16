@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b364fb91bda7e895b546f9a281ef14ce33b073f9
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,21 +25,21 @@ ms.locfileid: "32337981"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la date et l'heure de la périodicité que l'exception doit remplacer.
+Spécifie la date et l’heure dans la modèle de récurrence que l’exception remplacera.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidExceptionReplaceTime  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
-|ID long (couvercle):  <br/> |0x00008228  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
+|ID long (LID) :  <br/> |0x00008228  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur doit être spécifiée au format UTC (Coordinated Universal Time). Cette propriété permet de trouver l'objet de pièce jointe d'exception pour une instance particulière.
+La valeur doit être spécifiée en temps universel coordonné (UTC). Cette propriété permet de trouver l’objet pièce jointe d’exception pour une instance particulière.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
@@ -51,9 +51,9 @@ La valeur doit être spécifiée au format UTC (Coordinated Universal Time). Cet
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7bf66f0c-3095-4b4a-a32e-db278e1adc5a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3fbd7205901616695bcdcd012601afd252ac05f3
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32355642"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les noms d'affichage de tous les destinataires en copie carbone invisible (CCI) du message d'origine.
+Contient les noms d’affichage des destinataires en copie carbone non voyante (Bc) du message d’origine.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contient les noms d'affichage de tous les destinataires en copie carbone invisib
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent une liste séparée par des points-virgules. Elles sont fournies par MAPI et sont copiées directement à partir de **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) lorsqu'un rapport de remise ou de non-remise ou un rapport de lecture ou de non-lecture est généré. Ces propriétés peuvent être présentes sur d'autres messages, comme défini par leurs classes de message.
+Ces propriétés contiennent une liste séparée par des points-virgules. Ils sont fournis par MAPI et sont copiés directement à partir de **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) lorsqu’un rapport de remise ou non remise ou un rapport lu ou non lu est généré. Ces propriétés peuvent être présentes sur d’autres messages tels que définis par leurs classes de messages.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées sur les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

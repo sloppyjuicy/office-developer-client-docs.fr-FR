@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e52bb48c-7107-4ac4-b030-885409759ee7
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 77c724affd2057ca6347d752323c5ba0a3094ecf
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32330155"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si l'expéditeur du message souhaite une réponse à une demande de réunion.
+Contient TRUE si l’expéditeur du message souhaite une réponse à une demande de réunion.
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient la valeur TRUE si l'expéditeur du message souhaite une réponse à une
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour les demandes de réunion. L'application cliente de réception doit inviter l'utilisateur à accepter ou à refuser la demande, puis renvoyer cette réponse à l'expéditeur.
+Cette propriété est utilisée pour les demandes de réunion. L’application cliente de réception doit demander à l’utilisateur d’accepter ou de refuser la demande, puis de renvoyer cette réponse à l’expéditeur.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
+> Spécifie les propriétés et opérations autorisées sur les messages électroniques.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations relatives au marquage.
+> Spécifie les propriétés et les opérations liées au marquage.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c64e23-4a99-4f80-ba06-dfae2a5fe961
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4414ae866dece0654131d1575fe699676892709f
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,47 +25,47 @@ ms.locfileid: "32345429"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un champ de bits qui décrit l'État auxiliaire de l'objet.
+Spécifie un champ de bits qui décrit l’état auxiliaire de l’objet.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptAuxFlags  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
-|ID long (couvercle):  <br/> |0x00008207  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
+|ID long (LID) :  <br/> |0x00008207  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n'est pas obligatoire. Vous trouverez ci-dessous les indicateurs individuels qui peuvent être définis.
+Cette propriété n’est pas obligatoire. Vous trouverez ci-dessous les indicateurs individuels qui peuvent être définies.
   
 C (auxApptFlagCopied, 0x00000001)
   
-> Cet indicateur indique que l'objet de calendrier a été copié à partir d'un autre dossier de calendrier.
+> Cet indicateur indique que l’objet calendrier a été copié à partir d’un autre dossier de calendrier.
     
 R (auxApptFlagForceMtgResponse, 0x00000002)
   
-> Cet indicateur sur une demande de réunion indique que le client ou le serveur doit renvoyer une réponse à la réunion à l'organisateur lorsqu'une réponse est sélectionnée.
+> Cet indicateur sur une demande de réunion indique que le client ou le serveur doit renvoyer une réponse à la réunion à l’organisateur lorsqu’une réponse est choisie.
     
 F (auxApptFlagForwarded, 0x00000004)
   
-> Cet indicateur sur une demande de réunion indique qu'il a été transféré (y compris en cours de transfert par l'organisateur), au lieu d'être une invitation de l'organisateur.
+> Cet indicateur sur une demande de réunion indique qu’il a été transmis (y compris par l’organisateur), au lieu d’être une invitation de l’organisateur.
     
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

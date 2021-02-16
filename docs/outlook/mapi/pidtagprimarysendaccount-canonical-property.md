@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f268b3b-2e4c-4aea-8879-bdd0ac1df35c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2c32cc61fea63cd38215c30e04e8a467d4901cc9
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -36,29 +36,29 @@ Contient une chaîne qui nomme le premier serveur utilisé pour envoyer le messa
    
 ## <a name="remarks"></a>Remarques
 
-Spécifie le premier serveur qu'un client doit utiliser pour envoyer le courrier. Le format de ces propriétés dépend de l'implémentation. Ces propriétés peuvent être utilisées par le client pour déterminer le serveur sur lequel diriger les messages, mais elle est facultative et la valeur n'a aucune signification pour le serveur.
+Spécifie le premier serveur qu’un client doit utiliser pour envoyer le message. Le format de ces propriétés dépend de l’implémentation. Ces propriétés peuvent être utilisées par le client pour déterminer le serveur vers lequel diriger le courrier, mais elles sont facultatives et la valeur n’a aucune signification pour le serveur.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

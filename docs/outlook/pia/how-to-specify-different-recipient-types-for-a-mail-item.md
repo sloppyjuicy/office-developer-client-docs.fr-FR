@@ -1,5 +1,5 @@
 ---
-title: Indication de plusieurs types de destinataires d’un élément de courrier
+title: Spécifier différents types de destinataires pour un élément de messagerie
 TOCTitle: Specify different recipient types for a mail item
 ms:assetid: 2a3ace9f-627c-4fdd-b182-afc1b53af85b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184598(v=office.15)
@@ -29,7 +29,7 @@ L’exemple de code suivant illustre comment spécifier si un destinataire d’u
 > [!NOTE]
 > La propriété **Type** de l’objet **Recipient** est un type int et n’est en corrélation avec aucune énumération de type de destinataire spécifique.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

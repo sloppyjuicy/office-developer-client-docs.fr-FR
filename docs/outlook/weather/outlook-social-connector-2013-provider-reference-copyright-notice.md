@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
-description: Ce document est fourni en l'état. Les informations et les opinions exprimées dans ce document, y compris les URL et autres références de site Web Internet, peuvent être modifiées sans préavis. Vous assumez tous les risques liés à son utilisation.
+description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
 ms.openlocfilehash: fd6df19d3a63ebad43c2f1a25b419723b0a8fd61
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "32355187"
 ---
 # <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Informations de copyright-référence du fournisseur Outlook Social Connector 2013
 
-Ce document est fourni en l'état. Les informations et les opinions exprimées dans ce document, y compris les URL et autres références de site Web Internet, peuvent être modifiées sans préavis. Vous assumez tous les risques d’utilisation.
+Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation.
   
 Certains exemples décrits dans ce document sont fournis à titre d'illustration uniquement et sont fictifs. Aucune association ou connexion réelle n'est voulue ni ne doit être inférée.
   

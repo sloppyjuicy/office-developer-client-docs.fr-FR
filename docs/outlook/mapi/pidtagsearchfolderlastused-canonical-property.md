@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e4071307-6205-4079-ab65-7499d14f145c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7ff6df6eddc8e610341cb09ccb152f4ad748a984
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,40 +25,40 @@ ms.locfileid: "32336532"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente la date de la dernière accès au dossier.
+Représente la dernière fois que le dossier a été accédé.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WB_SF_LAST_USED  <br/> |
 |Identificateur :  <br/> |0x6834  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Rechercher  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être mise en forme en tant que nombre de minutes écoulées depuis minuit UTC (temps universel coordonné) le 1er janvier 1601.
+Cette propriété doit être mise en forme comme le nombre de minutes depuis le 1er janvier 1601 à minuit ( UTC).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour la manipulation d'une configuration de liste des dossiers de recherche.
+> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

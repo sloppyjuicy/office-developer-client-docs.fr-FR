@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f3fa392a-c3b1-46dd-bf9b-5ce310719542
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e69bcde35bcfec7746893ee18423aca3a24a6c4a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32338072"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le troisième nom complet correspondant à l'adresse de messagerie spécifiée pour le contact.
+Spécifie le troisième nom complet qui correspond à l’adresse de messagerie spécifiée pour le contact.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidEmail3OriginalDisplayName  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Address  <br/> |
-|ID long (couvercle):  <br/> |0x000080A4  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
+|ID long (LID) :  <br/> |0x000080A4  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si la valeur de la propriété **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) est «SMTP», la valeur de la propriété **dispidEmail3OriginalDisplayName** respective doit être égale à la valeur du ** dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). L'objectif de cette propriété est d'afficher une autre adresse utilisateur conviviale équivalente à celle du **dispidEmail3EmailAddress**.
+Si la valeur de la propriété **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) est « SMTP », la valeur de la propriété **dispidEmail3OriginalDisplayName** respective doit être égale à la valeur de la propriété **dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). L’objectif de cette propriété est d’afficher une adresse conviviale de remplacement équivalente à celle de **dispidEmail3EmailAddress**.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
+> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

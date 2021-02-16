@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 621459ea-adf5-4420-9f0f-6f31b9b95508
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: bed1692a4860d59ba7a6c297ab8e88645b023a86
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32336924"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente la date et l'heure de fin du message de journal.
+Représente la date et l’heure de fin du message de journal.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidLogEnd  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Log  <br/> |
-|ID long (couvercle):  <br/> |0x00008708  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Log  <br/> |
+|ID long (LID) :  <br/> |0x00008708  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Journal  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Heure à laquelle l'activité s'est terminée au format UTC (Coordinated Universal Time), qui doit être égale à la propriété **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) et supérieure ou égale à la propriété **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)).
+Heure à laquelle l’activité s’est terminée en temps universel coordonné (UTC), qui doit être égal à la propriété **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) et supérieur ou égal à la propriété **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les journaux.
+> Spécifie les propriétés et opérations autorisées pour les journaux.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

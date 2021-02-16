@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27978a09-daf7-4a50-927a-96d9c4a97d02
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5ead258c056ec2204ddab92e9b99e1b17fe98092
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,26 +25,26 @@ ms.locfileid: "32330085"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si les rendez-vous qui se chevauchent ne sont pas autorisés.
+Contient TRUE si les rendez-vous qui se chevauchent ne sont pasallés.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS  <br/> |
 |Identificateur :  <br/> |0x686F  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Disponibilité  <br/> |
+|Domaine :  <br/> |Libre/Occupé  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n'a de sens que si la valeur de la propriété **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PIDTAGSCHEDULEINFOAUTOACCEPTAPPOINTMENTS](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) est true. La valeur TRUE indique que lors de la réponse automatique aux demandes de réunion, un client ou un serveur doit refuser les instances qui chevauchent les événements planifiés précédemment. La valeur FALSe ou l'absence de cette propriété indique que les instances qui se chevauchent doivent être acceptées. Cette propriété n'est pas obligatoire.
+Cette propriété n’est significative que lorsque la valeur de la **propriété PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) est TRUE. La valeur TRUE indique que lorsque vous répondez automatiquement aux demandes de réunion, un client ou un serveur doit refuser les instances qui chevauchent les événements précédemment programmés. La valeur FALSE ou l’absence de cette propriété indique que les instances qui se chevauchent doivent être acceptées. Il ne s’agit pas d’une propriété obligatoire.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -52,17 +52,17 @@ Cette propriété n'a de sens que si la valeur de la propriété **PR_SCHDINFO_A
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
-> Publie la disponibilité d'un utilisateur ou d'une ressource.
+> Publie la disponibilité d’un utilisateur ou d’une ressource.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

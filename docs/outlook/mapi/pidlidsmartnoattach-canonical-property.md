@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60299c1b-1b46-4c3a-8fb9-a2b4d3383aac
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7dddca6a17b07047d1447a57347fbe47a04471e0
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,37 +25,37 @@ ms.locfileid: "32331317"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si les pièces jointes d'un message sont considérées comme masquées.
+Représente si les pièces jointes d’un message sont considérées comme masquées.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSmartNoAttach  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008514  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008514  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Configuration de l'exécution  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Cette propriété a la valeur TRUE si les pièces jointes du message sont considérées comme masquées.
   
-Il indique si l'objet message n'a pas de pièces jointes visibles par l'utilisateur final. Cette propriété peut être désdésactivée; Si c'est le cas, la valeur par défaut FALSe est supposée.
+Il indique si l’objet message ne possède pas de pièces jointes visibles par l’utilisateur final. Cette propriété peut être non jeu ; si c’est le cas, une valeur par défaut de FALSE est supposée.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit la définition des jeux de propriétés et les références aux spécifications du protocole Exchange Server associé.
+> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets message et pièce jointe.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

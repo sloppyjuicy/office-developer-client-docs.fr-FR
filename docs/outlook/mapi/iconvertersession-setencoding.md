@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5a81e04d112e0adf201dcacf03673daac77a04ab
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> Valeur [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Seules les valeurs suivantes sont prises en charge: 
+> Valeur [ENCODINGTYPE.](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) Seules les valeurs suivantes sont pris en charge : 
     
    - IET_BASE64
    - IET_UUENCODE
@@ -47,13 +47,13 @@ _et_
 
 E_INVALIDARG
   
-> Le type de codage transmis n'était pas valide.
+> Le type d’encodage transmis n’était pas valide.
     
 ## <a name="remarks"></a>Remarques
 
-Appelez **SetEncoding** avant d'utiliser [IConverterSession:: MAPItoMIMEStm](iconvertersession-mapitomimestm.md) pour effectuer la conversion. 
+Appelez **SetEncoding** avant [d’utiliser IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) pour effectuer la conversion. 
   
-Utilisez **SetEncoding** pour définir le codage uniquement pour le corps de message le plus à l'extérieur d'un élément de courrier. Microsoft Outlook 2010 et Microsoft Outlook 2013 choisissez le codage de toutes les pièces jointes individuelles. 
+Utilisez **SetEncoding pour** définir le codage uniquement pour le corps de message le plus à l’extérieur d’un élément de courrier. Microsoft Outlook 2010 et Microsoft Outlook 2013 choisissent le codage des pièces jointes individuelles. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -61,8 +61,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

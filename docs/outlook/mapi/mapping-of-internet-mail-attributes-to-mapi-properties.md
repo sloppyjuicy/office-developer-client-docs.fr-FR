@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: c0a71cbd3b6cdbef091e75ade5d190369a4626a4
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -21,18 +21,18 @@ ms.locfileid: "32355817"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette annexe décrit comment un fournisseur de transport MAPI ou une passerelle MAPI qui se connecte à Internet doit effectuer une conversion entre les propriétés de message MAPI et les attributs de message SMTP (simple mail transport Protocol). SMTP est le protocole de messagerie utilisé sur une grande partie d'Internet. SMTP définit un ensemble d'en-têtes de message, à savoir l'enveloppe de message et un format de contenu de message. SMTP est entièrement documenté dans un ensemble de deux documents, RFC 821 et RFC 822, qui peuvent être trouvés sur un certain nombre de sites FTP et WWW sur Internet.
+Cette annexe décrit comment un fournisseur de transport MAPI ou une passerelle MAPI qui se connecte à Internet doit se traduire entre les propriétés de message MAPI et les attributs de message SMTP (Simple Mail Transport Protocol). SMTP est le protocole de messagerie utilisé sur une grande partie d’Internet. SMTP définit un ensemble d’en-têtes de message (enveloppe de message) et un format de contenu de message. SMTP est entièrement documenté dans un ensemble de deux documents, RFC 821 et RFC 822, disponibles sur un certain nombre de sites FTP et WWW sur Internet.
   
-Pour plus d'informations sur le protocole SMTP utilisé pour communiquer avec des agents de messagerie SMTP, consultez le document RFC 821, «simple Mail Transfer [https://www.rfc-editor.org](https://www.rfc-editor.org)Protocol», à l'adresse.
+Pour plus d’informations sur le protocole SMTP utilisé pour communiquer avec des agents de messagerie SMTP, voir RFC 821, « Simple Mail Transfer Protocol », à [https://www.rfc-editor.org](https://www.rfc-editor.org) l’adresse .
   
-Pour les en-têtes d'adressage et de message standard, consultez la rubrique RFC 822, «Standard for the format of ARPA [https://www.rfc-editor.org](https://www.rfc-editor.org)Internet Text messages» à l'adresse.
+Pour les en-têtes d’adresse et de message standard, voir RFC 822, « Standard for the Format of ARPA Internet Text Messages », à [https://www.rfc-editor.org](https://www.rfc-editor.org) l’adresse .
   
-Pour MIME, reportez-vous à la rubrique RFC 1521, «MIME (Multipurpose Internet Mail Extensions) part one: mécanismes permettant de spécifier et de [https://www.rfc-editor.org](https://www.rfc-editor.org)décrire le format des corps de message Internet» à l'adresse.
+Pour MIME, voir RFC 1521, « MIME (Multipurpose Internet Mail Extensions) Part One: Mechanisms for Specifying and Describing the Format of Internet Message Bodies », à [https://www.rfc-editor.org](https://www.rfc-editor.org) l’adresse .
   
-L'objectif du mappage des attributs de message SMTP aux propriétés MAPI (et inversement) est de s'assurer que le contenu complet des messages MAPI, plus ou plus, qui peuvent être codés à l'aide d'attributs de message SMTP natifs, peut être échangé en toute fiabilité entre différents MAPI composants qui doivent communiquer sur Internet. Ce document est basé sur le travail déjà réalisé sur les composants de ce type chez Microsoft. 
+L’objectif du mappage des attributs de message SMTP aux propriétés MAPI (et vice versa) est de s’assurer que le contenu complet des messages MAPI, au-delà de celui qui peut être codé à l’aide d’attributs de message SMTP natifs, peut être échangé de manière fiable entre différents composants MAPI qui doivent communiquer sur Internet. Ce document est basé sur le travail déjà effectué sur ces composants chez Microsoft. 
   
-Ce document suppose une connaissance des transports MAPI, TNEF et SMTP mail. Elle s'efforce d'être concise et non très claire.
+Ce document suppose une connaissance des transports MAPI, du TNEF et du courrier SMTP. Il s’efforce d’être concis plutôt que d’être clairement clair.
   
-En guise de Convention, «sortant» fait référence au courrier circulant à partir d'un agent client ou MTA conforme à la norme MAPI sur Internet, et «entrant» fait référence au courrier circulant depuis Internet vers un composant MAPI.
+En tant que convention, « sortant » fait référence au courrier circulant d’une UC ou d’un MTA compatible MAPI vers Internet, et « entrant » désigne le courrier qui se déplace d’Internet vers un composant MAPI.
   
 

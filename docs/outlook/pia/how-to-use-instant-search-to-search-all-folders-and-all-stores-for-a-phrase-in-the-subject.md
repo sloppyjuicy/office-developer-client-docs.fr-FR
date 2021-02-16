@@ -1,5 +1,5 @@
 ---
-title: Utilisation de la recherche instantanée pour rechercher une expression employée dans l’objet dans tous les dossiers et toutes les banques
+title: Utiliser la recherche instantanée pour effectuer une recherche dans tous les dossiers et tous les magasins pour une expression dans l’objet
 TOCTitle: Use instant search to search all folders and all stores for a phrase in the subject
 ms:assetid: d3152bfa-6e7d-4b68-8c7e-e2e155a92b49
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424478(v=office.15)
@@ -55,7 +55,7 @@ La recherche instantanée est une fonctionnalité de Microsoft Outlook qui perm
 
 Dans l’exemple de code suivant, DemoInstantSearch obtient tous les dossiers de messagerie électronique de tous les magasins où l’indexation est activée à l’aide de la propriété [IsInstantSearchEnabled](https://msdn.microsoft.com/library/bb609793\(v=office.15\)) de l’objet [Store](https://msdn.microsoft.com/library/bb609139\(v=office.15\)). Il utilise ensuite la méthode **Search** de l’objet **Explorer** pour filtrer tous les éléments qui contiennent la phrase exacte « Office 2007 » dans l’objet et qui ont été reçus au cours du mois dernier. Enfin, les résultats de la recherche sont affichés dans une fenêtre distincte de l’explorateur.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

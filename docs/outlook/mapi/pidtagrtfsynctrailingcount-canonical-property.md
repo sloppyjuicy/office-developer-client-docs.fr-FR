@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f0e5b24-767e-46f5-bb3d-e9cb82cb935b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 67093cf456db9df5f9e939bdda9d2e44f248dadc
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32331233"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nombre de caractères pouvant être ignorés qui apparaissent après les caractères significatifs du message.
+Contient le nombre de caractères ignorés qui apparaissent après les caractères significatifs du message.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contient le nombre de caractères pouvant être ignorés qui apparaissent après
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une propriété auxiliaire RFT (Rich Text Format). Ces propriétés sont utilisées par la fonction [RTFSync](rtfsync.md) et ne sont pas destinées à être utilisées directement par les applications clientes. 
+Cette propriété est une propriété auxiliaire du format RTF (Rich Text Format). Ces propriétés sont utilisées par [la fonction RTFSync](rtfsync.md) et ne sont pas destinées à être utilisées directement par les applications clientes. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets message et Attachment en une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

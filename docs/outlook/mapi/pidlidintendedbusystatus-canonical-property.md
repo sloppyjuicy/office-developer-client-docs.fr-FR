@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84221dd3-de71-4c10-abd7-9f15aefd02ed
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f64ff019212065efd651fd2562c48519b0c7c2d0
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32332969"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la valeur de la propriété **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) sur la réunion dans le calendrier de l'organisateur lors de l'envoi de la demande de réunion ou de la mise à jour de réunion.
+Spécifie la valeur de la propriété **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) sur la réunion dans le calendrier de l’organisateur lorsque la demande de réunion ou la mise à jour de réunion a été envoyée.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidIntendedBusyStatus  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
-|ID long (couvercle):  <br/> |0x00008224  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
+|ID long (LID) :  <br/> |0x00008224  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs autorisées de cette propriété sont les mêmes que pour la propriété **dispidBusyStatus**.
+Les valeurs permises de cette propriété sont les mêmes que celles de la propriété **dispidBusyStatus**.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

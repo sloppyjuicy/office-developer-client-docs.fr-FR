@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 008cadb1-4c8e-4ef7-a072-aa1d75a448cf
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 62b58a271f8c1b230131cebdc9166e149245dc60
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,31 +25,31 @@ ms.locfileid: "32356321"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur de champ d'en-tête Content-Transfer-Encoding [RFC3282].
+Contient une valeur de champ d’en-tête Content-Transfer-Encoding [RFC3282].
   
 |||
 |:-----|:-----|
-|Noms conviviaux:  <br/> |Aucun  <br/> |
-|Jeu de propriétés:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Nom de la propriété:  <br/> |Content-Transfer-Encoding  <br/> |
+|Noms convivial :  <br/> |Aucun  <br/> |
+|Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
+|Nom de la propriété :  <br/> |Content-Transfer-Encoding  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |E-mail  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Effectue une conversion entre l'IETF RFC2445, RFC2446 et RFC2447, et les objets de rendez-vous et de réunion.
+> Convertit les objets RFC2445, RFC2446 et RFC2447 de l’IETF, ainsi que les objets de rendez-vous et de réunion.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

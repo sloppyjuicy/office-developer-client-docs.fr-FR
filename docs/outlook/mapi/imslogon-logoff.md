@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b0d1b52-6651-4de3-9381-86772d9d52a1
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 66ba27d1d333be3217f2a22ca5d53449372c1f31
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32348873"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-DéConnecte un fournisseur de banque de messages. 
+Déconnecte un fournisseur de magasins de messages. 
   
 ```cpp
 HRESULT Logoff(
@@ -37,7 +37,7 @@ HRESULT Logoff(
 
  _lpulFlags_
   
-> dans MSR doit être un pointeur vers zéro.
+> [in] Réservé ; doit être un pointeur vers zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,11 +47,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de banque de messages implémentent la méthode **IMSLogon:: Logoff** pour forcer l'arrêt d'un fournisseur de banque de messages. **IMSLogon:: Logoff** est appelé dans les situations suivantes: 
+Les fournisseurs de magasins de messages implémentent la méthode **IMSLogon::Logoff** pour forcer l’arrêt d’un fournisseur de magasins de messages. **IMSLogon::Logoff** est appelé dans les situations suivantes : 
   
-- MAPI se déconnecte d'un client après un appel à la méthode [IMAPISession:: Logoff](imapisession-logoff.md) . 
+- Pendant que MAPI se dé connecte à un client après un appel à la méthode [IMAPISession::Logoff.](imapisession-logoff.md) 
     
-- MAPI se déconnecte d'un fournisseur de banque de messages. Dans ce cas, **IMSLogon:: Logoff** est appelé dans le cadre du traitement MAPI de la méthode [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de l'objet de prise en charge créé par le fournisseur de banque de messages pendant qu'il traite une [IMsgStore:: StoreLogoff](imsgstore-storelogoff.md) ou **IUnknown:: **Appel de la méthode Release sur un objet de banque de messages. 
+- Pendant que MAPI se dé connecte à un fournisseur de magasins de messages. Dans ce cas, **IMSLogon::Logoff** est appelé dans le cadre du traitement MAPI de la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de l’objet de support que le fournisseur de magasin de messages crée pendant qu’il traite un appel de méthode [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) **ou IUnknown::Release** sur un objet de magasin de messages. 
     
 ## <a name="see-also"></a>Voir aussi
 

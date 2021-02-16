@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3b30cec6-da1e-4ef1-8c17-24b66f31cf0a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4bda4783012a3a5cd50d9c0aea6a37ccd238b660
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32345492"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur d'objet ASN. 1 qui spécifie le codage d'une pièce jointe. 
+Contient un identificateur d’objet ASN.1 qui spécifie le codage d’une pièce jointe. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contient un identificateur d'objet ASN. 1 qui spécifie le codage d'une pièce j
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété identifie l'algorithme utilisé pour transformer les données dans une pièce jointe.
+Cette propriété identifie l’algorithme utilisé pour transformer les données dans une pièce jointe.
   
- **Note** Les propriétés **PR_ATTACH_ENCODING** et **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) ne doivent pas être confondues. Elles ne sont pas couplées ni associées. **PR_ATTACH_TAG** identifie l'application qui a initialement généré la pièce jointe. «Object» a une signification bien plus générale dans le terme identificateur d'objet et dans X. 400, que dans la programmation orientée objet. 
+ **Remarque** Les **propriétés PR_ATTACH_ENCODING** et **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) ne doivent pas être confondues. Elles ne sont ni associées ni associées. **PR_ATTACH_TAG** identifie l’application qui a généré la pièce jointe à l’origine. « Object » a une signification beaucoup plus générale dans l’identificateur d’objet de terme et dans X.400 que dans la programmation orientée objet. 
   
-La syntaxe de l'identificateur d'objet et des exemples d'identificateurs d'objet sont définis dans le MAPIOID. Fichier d'en-tête H. Les valeurs de **PR_ATTACH_ENCODING** ne sont pas limitées à celles définies dans MAPIOID. H. Par exemple, les fichiers Macintosh attachés peuvent utiliser un identificateur tel que MacBinary. 
+La syntaxe de l’identificateur d’objet et les exemples d’identificateurs d’objet sont définis dans MAPIOID. Fichier d’en-tête H. Les **valeurs PR_ATTACH_ENCODING** ne sont pas limitées à celles définies dans MAPIOID.H. Par exemple, les fichiers Macintosh joints peuvent utiliser un identificateur tel que MacBinary. 
   
-Pour plus d'informations sur ces identificateurs d'objet, reportez-vous à la documentation sur ASN. 1, X. 208 et X. 209. L'identificateur de l'objet est disponible dans l'élément de référence de l'application de l'environnement FTBP (partie du corps du transfert de fichiers). 
+Pour plus d’informations sur ces identificateurs d’objets, voir la documentation sur ASN.1, X.208 et X.209. L’identificateur d’objet se trouve dans l’élément de référence d’application de l’environnement FTBP (File Transfer Body Part). 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets message et pièce jointe.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d8ca0e1-6849-4e27-a26f-e77d0df608fd
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 71813db684ce1307522c81222d37674ca50cfdac
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -30,30 +30,30 @@ Spécifie la hauteur de la fenêtre de message visible en pixels.
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidNoteHeight  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Note  <br/> |
-|ID long (couvercle):  <br/> |0x00008B03  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Note  <br/> |
+|ID long (LID) :  <br/> |0x00008B03  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Note du pense-bête  <br/> |
+|Domaine :  <br/> |Sticky Note  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Cette valeur doit être supérieure à zéro.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations autorisées sur les notes.
+> Spécifie les propriétés et opérations autorisées sur les notes.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

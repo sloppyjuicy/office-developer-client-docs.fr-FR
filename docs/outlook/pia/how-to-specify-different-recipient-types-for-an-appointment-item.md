@@ -1,5 +1,5 @@
 ---
-title: Indication de plusieurs types de destinataires d’un élément de rendez-vous
+title: Spécifier les différents types de destinataires d’un élément de rendez-vous
 TOCTitle: Specify different recipient types for an appointment item
 ms:assetid: 83aedc8f-adc0-453d-8e71-1bb9aacc7993
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184622(v=office.15)
@@ -27,7 +27,7 @@ Pour ajouter des destinataires à un objet [AppointmentItem](https://msdn.micros
 
 Dans l’exemple de code suivant, SetRecipientTypeForAppt crée un objet **AppointmentItem**, définit les propriétés de cet objet et ajoute les participants obligatoires et facultatifs. Cette propriété ajoute également une salle de conférence pour la réunion. La propriété [MeetingStatus](https://msdn.microsoft.com/library/bb611417\(v=office.15\)) est définie sur [olMeeting](https://msdn.microsoft.com/library/bb644590\(v=office.15\)) pour indiquer que le rendez-vous est une demande de réunion.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

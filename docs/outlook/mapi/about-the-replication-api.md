@@ -19,38 +19,38 @@ ms.locfileid: "32329518"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'API de réPlication fournit les fonctionnalités d'un fournisseur de banque de messages MAPI pour synchroniser les éléments Microsoft Outlook 2013 ou Microsoft Outlook 2010 entre un serveur et un magasin local. pst privé créé pour ce fournisseur. 
+L’API de réplication fournit la fonctionnalité permettant à un fournisseur de banque de messages MAPI de synchroniser les éléments Microsoft Outlook 2013 ou Microsoft Outlook 2010 entre un serveur et un magasin local .pst privé créé pour ce fournisseur. 
   
 > [!NOTE]
-> Un fournisseur de banque de messages MAPI doit implémenter l'API de réPlication conformément aux instructions de [la rubrique à propos de la machine à États](about-the-replication-state-machine.md)de réplication. Le fournisseur doit utiliser l'API uniquement sur un magasin personnel créé pour lui-même, et non sur des magasins personnels créés pour d'autres fournisseurs, car des magasins personnels créés pour d'autres fournisseurs ont déjà configuré leurs propres mécanismes de réplication avec le serveur respectif. Par exemple, un fichier de dossiers en mode hors connexion (. ost) conserve sa propre relation de réplication avec un serveur Microsoft Exchange. 
+> Un fournisseur de magasin de messages MAPI doit implémenter l’API de réplication conformément aux instructions de la machine à états de [réplication.](about-the-replication-state-machine.md) Le fournisseur doit utiliser l’API uniquement sur un magasin personnel créé pour lui-même, et non sur les magasins personnels créés pour d’autres fournisseurs, car les magasins personnels créés pour d’autres fournisseurs ont peut-être déjà mis en place leurs propres mécanismes de réplication avec le serveur respectif. Par exemple, un fichier de dossier hors connexion (.ost) conserve sa propre relation de réplication avec un serveur Microsoft Exchange. 
   
-Pour utiliser l'API de réPlication, un fournisseur de banque de messages MAPI doit d'abord ouvrir et encapsuler un magasin local basé sur un fichier. pst en appelant **[NSTServiceEntry](nstserviceentry.md)**. Le fournisseur peut ensuite utiliser les principales interfaces de l'API **[IOSTX](iostxiunknown.md)** et **[IPSTX](ipstxiunknown.md)** pour effectuer la réplication. **IPSTX** est fourni par l'interrogation sur [IMsgStore: IMAPIProp](imsgstoreimapiprop.md)et **IOSTX** est fourni par **[IPSTX:: GetSyncObject](ipstx-getsyncobject.md)**. 
+Pour utiliser l’API de réplication, un fournisseur de magasin de messages MAPI doit d’abord ouvrir et encapsuler un magasin local .pst en appelant **[NSTServiceEntry](nstserviceentry.md)**. Le fournisseur peut ensuite utiliser les interfaces principales de l’API, **[IOSTX](iostxiunknown.md)** et **[IPSTX](ipstxiunknown.md)**, pour effectuer la réplication. **IPSTX est** fourni par l’interrogation sur [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)et **IOSTX** est fourni par **[IPSTX::GetSyncObject](ipstx-getsyncobject.md)**. 
   
-## <a name="the-iostx-interface"></a>Interface IOSTX
+## <a name="the-iostx-interface"></a>The IOSTX Interface
 
-L'interface **IOSTX** est l'interface principale qui effectue la synchronisation dans l'API de réplication. **IOSTX** déplace le magasin local par le biais d'une série d'États, en récupérant des informations dans chaque État sur les modifications apportées à la banque locale, ainsi qu'en informant le magasin local des modifications apportées sur le serveur. L'API de réPlication spécifie également de nombreuses structures de données qui prennent en charge la synchronisation. 
+**L’interface IOSTX** est l’interface principale qui effectue la synchronisation dans l’API de réplication. **IOSTX** déplace le magasin local par le biais d’une série d’états, en récupérant des informations dans chaque état sur les modifications apportées au magasin local, ainsi qu’en informant le magasin local des modifications sur le serveur. L’API de réplication spécifie également de nombreuses structures de données qui la prise en charge de la synchronisation. 
   
-Un fournisseur de banque, en tant que client pour cette API, utilise l'API de réPlication pour encapsuler le magasin local et parcourir ces États, en envoyant les modifications sur le magasin local (telles que les modifications apportées à la hiérarchie de dossiers ou l'ajout de nouveaux éléments) au serveur et en extrayant également informations sur les modifications sur le serveur et la fourniture de ces informations à l'interface **IOSTX** . L'interface **IOSTX** adopte une synchronisation des modifications incrémentielles fournie par Microsoft Exchange Server. Pour plus d'informations sur le partage de connexion Internet, consultez la rubrique [critères d'évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx). Via **IOSTX**, le client utilise ICS pour surveiller et synchroniser les modifications incrémentielles apportées à la hiérarchie ou au contenu d'un magasin local. 
+Un fournisseur de magasin, en tant que client de cette API, utilise l’API de réplication pour encapsuler le magasin local et passer par ces états, en pushant les modifications sur le magasin local (telles que les modifications apportées à la hiérarchie de dossiers ou l’ajout de nouveaux éléments) au serveur, et en récupérant également des informations sur les modifications apportées au serveur et en fournissant ces informations à l’interface **IOSTX.** **L’interface IOSTX** adopte la synchronisation des changements incrémentielles (ICS) fournie par Microsoft Exchange Server. Pour plus d’informations sur ICS, voir [critères d’évaluation ICS.](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx) Via **IOSTX,** le client utilise ICS pour surveiller et synchroniser les modifications incrémentielles apportées à la hiérarchie ou au contenu sur un magasin local. 
   
-## <a name="the-ipstx-interface"></a>Interface IPSTX
+## <a name="the-ipstx-interface"></a>The IPSTX Interface
 
- **IPSTX** et cinq autres * * IPSTX *n* * * les interfaces qui héritent de **IPSTX** fournissent une fonctionnalité d'assistance qui peut être utilisée lors de l'exécution de la réplication via l'interface **IOSTX** . Par exemple, **[IPSTX:: EmulateSpooler](ipstx-emulatespooler.md)** vous permet de faire en sorte que le magasin local émule le gestionnaire de protocoles Outlook pour mettre en file d'attente les messages sortants vers un serveur. 
+ **IPSTX** et cinq autres interfaces **IPSTX *n* ** qui héritent **d’IPSTX** fournissent des fonctionnalités d’aide qui peuvent être utilisées lors de la réplication via l’interface **IOSTX.** Par exemple, **[IPSTX::EmulateSpooler](ipstx-emulatespooler.md)** vous permet de faire en sorte que le magasin local émule le Gestionnaire de protocole Outlook pour qu’il stocke des messages sortants sur un serveur. 
   
-Pour plus d'informations sur les transitions d'état lors de la réplication, voir [à propos de la machine à États](about-the-replication-state-machine.md)de réplication.
+Pour plus d’informations sur les transitions d’état pendant la réplication, voir À propos de [la machine à états de réplication.](about-the-replication-state-machine.md)
   
-## <a name="the-replication-api"></a>API de réPlication
+## <a name="the-replication-api"></a>API de réplication
 
-L'API de réPlication fournit les defintions, les types de données et les interfaces suivants. Pour un exemple d'implémentation d'un fournisseur de magasin pour les fichiers de dossiers personnels (PST) encapsulés, voir [à propos de l'exemple de fournisseur de magasins PST encapsulé](about-the-sample-wrapped-pst-store-provider.md).
+L’API de réplication fournit les définitions, les types de données et les interfaces suivants. Pour un exemple d’implémentation d’un fournisseur de magasin pour les fichiers de dossiers personnels wrapped (PST), voir à propos de l’exemple de fournisseur de magasin [PST Wrapped](about-the-sample-wrapped-pst-store-provider.md).
   
-Définitions :
+Définitions :
   
-- [Constantes pour l'API de réPlication](mapi-constants.md)
+- [Constantes de l’API de réplication](mapi-constants.md)
     
 Fonctions :
   
 - **[NSTServiceEntry](nstserviceentry.md)**
     
-Types de données:
+Types de données :
   
 - **[DNHIER](dnhier.md)**
     
@@ -70,7 +70,7 @@ Types de données:
     
 - **[SKEY](skey.md)**
     
-- **[SYNCHRONI](sync.md)**
+- **[SYNC](sync.md)**
     
 - **[SYNCCONT](synccont.md)**
     

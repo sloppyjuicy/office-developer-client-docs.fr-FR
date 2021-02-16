@@ -17,9 +17,9 @@ ms.locfileid: "32345884"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cet exemple de code en C++ montre comment utiliser l'interface [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) pour déterminer si une pièce jointe est bloquée par microsoft Outlook 2010 ou par microsoft Outlook 2013 pour l'affichage et l'indexation. 
+Cet exemple de code en C++ montre comment utiliser l’interface [IAttachmentSecurity : IUnknown](iattachmentsecurityiunknown.md) pour savoir si une pièce jointe est bloquée par Microsoft Outlook 2010 ou Microsoft Outlook 2013 pour l’affichage et l’indexation. 
   
-[IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) est dérivé de l'interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) . Vous pouvez obtenir l'interface [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) en appelant [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) sur l'objet session MAPI, en demandant **IID_IAttachmentSecurity**. [IAttachmentSecurity:: IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) renvoie la **valeur true** dans _pfBlocked_ si la pièce jointe est considérée comme non fiable par Outlook 2010 ou Outlook 2013 et est bloquée pour l'affichage et l'indexation dans Outlook 2010 ou Outlook 2013. 
+[IAttachmentSecurity : IUnknown](iattachmentsecurityiunknown.md) est dérivé de [l’interface IUnknown.](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) Vous pouvez obtenir l’interface [IAttachmentSecurity : IUnknown](iattachmentsecurityiunknown.md) en appelant [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) sur l’objet de session MAPI, en demandant **IID_IAttachmentSecurity**. [IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) renvoie **true** dans  _pfBlocked_ si la pièce jointe est considérée comme non sûre par Outlook 2010 ou Outlook 2013 et est bloquée pour l’affichage et l’indexation dans Outlook 2010 ou Outlook 2013. 
   
 ```cpp
 HRESULT IsAttachmentBlocked(LPMAPISESSION lpMAPISession, LPCWSTR pwszFileName, BOOL* pfBlocked) 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8197d2c7-8665-41b8-bd3a-e9c1c2e642e9
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f3f4f42d91c4091943d6183508e2bc76c17197fa
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32342720"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée d'origine d'une entrée copiée à partir d'un carnet d'adresses dans un carnet d'adresses personnel ou dans un autre carnet d'adresses accessible en écriture.
+Contient l’identificateur d’entrée d’origine d’une entrée copiée à partir d’un carnet d’adresses vers un carnet d’adresses personnel ou un autre carnet d’adresses accessible en écriture.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contient l'identificateur d'entrée d'origine d'une entrée copiée à partir d'
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une des propriétés qui contiennent des informations sur la source d'origine d'une entrée copiée.
+Cette propriété est l’une des propriétés qui contiennent des informations sur la source d’origine d’une entrée copiée.
   
-Pour un rapport non lu, cette propriété contient une copie de l'identificateur d'entrée du destinataire du message d'origine pour lequel le rapport est généré. Lorsque le destinataire d'origine fait partie d'une liste de distribution, l'identificateur d'entrée de la liste de distribution est conservé pour le rapport.
+Pour un état non lu, cette propriété contient une copie de l’identificateur d’entrée du destinataire du message d’origine pour lequel le rapport est généré. Lorsque le destinataire d’origine fait partie d’une liste de distribution, l’identificateur d’entrée de la liste de distribution est conservé pour le rapport.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère la synchronisation des données d'objet de messagerie entre un serveur et un client.
+> Gère la synchronisation des données d’objet de messagerie entre un serveur et un client.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

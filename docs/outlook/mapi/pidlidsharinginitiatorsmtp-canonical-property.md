@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4fb7d91d-4c51-41c1-9cb6-7b837dd12f11
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: eb699b2312064f8ed330238962dd86992c046139
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32337120"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l'adresse SMTP de l'utilisateur qui a initié le message de partage. Il s'agit d'une propriété d'un message de partage. 
+Spécifie l’adresse SMTP de l’utilisateur qui a initié le message de partage. Il s’agit d’une propriété d’un message de partage. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingInitiatorSmtp  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Sharing  <br/> |
-|ID long (couvercle):  <br/> |0x00008A08  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
+|ID long (LID) :  <br/> |0x00008A08  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Partage  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie sur la valeur de la propriété **PR_SMTP_ADDRESS** ([PidTagSmtpAddress](pidtagsmtpaddress-canonical-property.md)) à partir du carnet d'adresses identifié par la propriété **dispidSharingInitiatorEid** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) et doit être ignoré.
+Cette propriété doit être définie sur la valeur de la propriété **PR_SMTP_ADDRESS** ([PidTagSmtpAddress](pidtagsmtpaddress-canonical-property.md)) à partir du carnet d’adresses identifié par la propriété **dispidSharingInitiatorEid** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) et doit être ignorée.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîtes aux lettres entre les clients.
+> Partage des dossiers de boîte aux lettres entre clients.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

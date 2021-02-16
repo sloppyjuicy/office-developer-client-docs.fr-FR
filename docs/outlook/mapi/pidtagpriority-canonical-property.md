@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0f3a628f-5f8e-4716-98cc-868bd3400ba9
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b9c0f5ebeae21d6d683bbb5def727d29a34bcdb6
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32339430"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la priorité relative d'un message.
+Contient la priorité relative d’un message.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contient la priorité relative d'un message.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété et la propriété **PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md)) ne doivent pas être confondues. Importance indique une valeur pour les utilisateurs, tandis que la priorité indique l'ordre ou la vitesse à laquelle le message doit être envoyé par le logiciel du système de messagerie. Une priorité élevée indique généralement un coût supérieur. Une importance plus élevée est généralement associée à un affichage différent par l'interface utilisateur.
+Cette propriété et la **propriété PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md)) ne doivent pas être confondues. Importance indique une valeur pour les utilisateurs, tandis que la priorité indique l’ordre ou la vitesse d’envoi du message par le logiciel système de messagerie. Une priorité plus élevée indique généralement un coût plus élevé. Une importance plus élevée est généralement associée à un affichage différent par l’interface utilisateur.
   
-La priorité d'un message de rapport doit être la même que celle du message d'origine signalé.
+La priorité d’un message de rapport doit être identique à la priorité du message d’origine signalé.
   
-Cette propriété peut avoir exactement l'une des valeurs suivantes:
+Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
 PRIO_NONURGENT 
   
-> Le message n'est pas urgent.
+> Le message n’est pas urgent.
     
 PRIO_NORMAL 
   
@@ -54,27 +54,27 @@ PRIO_URGENT
   
 > Le message est urgent.
     
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées sur les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: efccd75cce04e4e392a7fbd9feecc7c8b49ab57e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32339332"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de masque des indicateurs d'une pièce jointe. 
+Contient un masque de bits d’indicateurs pour une pièce jointe. 
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient un masque de masque des indicateurs d'une pièce jointe.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour la prise en charge de MHTML. 
+Cette propriété est utilisée pour la prise en charge MHTML. 
   
-Un ou plusieurs des indicateurs suivants peuvent être définis pour le masque de masque **PR_ATTACH_FLAGS** : 
+Un ou plusieurs des indicateurs suivants peuvent être définies pour PR_ATTACH_FLAGS **masque** de bits : 
   
 ATT_INVISIBLE_IN_HTML 
   
-> Indique que cette pièce jointe n'est pas disponible pour les applications de rendu HTML et qu'elle doit être ignorée dans le traitement MIME (Multipurpose Internet Mail Extensions). 
+> Indique que cette pièce jointe n’est pas disponible pour les applications de rendu HTML et qu’elle doit être ignorée dans le traitement MIME (Multipurpose Internet Mail Extensions). 
     
 ATT_INVISIBLE_IN_RTF 
   
-> Indique que cette pièce jointe n'est pas disponible pour le rendu des applications au format RTF (Rich Text Format) et qu'elle doit être ignorée par MAPI.
+> Indique que cette pièce jointe n’est pas disponible pour les applications de rendu au format RTF (Rich Text Format) et qu’elle doit être ignorée par MAPI.
     
-Si la propriété **PR_ATTACH_FLAGS** est nulle ou absente, la pièce jointe doit être traitée par toutes les applications. 
+Si la **PR_ATTACH_FLAGS** est zéro ou absente, la pièce jointe doit être traitée par toutes les applications. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets message et pièce jointe.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

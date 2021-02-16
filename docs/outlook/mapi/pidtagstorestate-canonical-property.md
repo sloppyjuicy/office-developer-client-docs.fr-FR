@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 36e49cf5-1411-42c5-9112-09958243996d
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8f00addf7abdd765d97c54350e46979f788f06ba
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,46 +25,46 @@ ms.locfileid: "32341152"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un indicateur qui décrit l'état de la Banque de messages. 
+Contient un indicateur qui décrit l’état de la boutique de messages. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_STORE_STATE  <br/> |
 |Identificateur :  <br/> |0x340E  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Banque de messages MAPI  <br/> |
+|Domaine :  <br/> |Magasin de messages MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est dynamique et peut changer en fonction des actions de l'utilisateur, à la différence de la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Cette propriété est dynamique et peut changer en fonction des actions de l’utilisateur, contrairement à la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
-La valeur suivante peut être définie:
+La valeur suivante peut être définie :
   
 STORE_HAS_SEARCHES 
   
-> L'utilisateur a créé une ou plusieurs recherches actives dans la Banque.
+> L’utilisateur a créé une ou plusieurs recherches actives dans le Store.
     
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Spécifie les opérations admissibles pour les objets principaux de la Banque de messages.
+> Spécifie les opérations autorisées pour les objets principaux de la boutique de messages.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

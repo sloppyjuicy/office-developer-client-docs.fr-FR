@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f62f3055-b855-4203-aa5c-6ba28b58c6f7
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a0e15462cd3dc14c93155e34e47b7caac2c04087
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32338611"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valeur interprétée comme une combinaison de masques binaires d'indicateurs qui spécifient l'état de la règle.
+Valeur interprétée comme une combinaison de masque de bits d’indicateurs spécifiant l’état de la règle.
   
 |||
 |:-----|:-----|
@@ -38,71 +38,71 @@ Valeur interprétée comme une combinaison de masques binaires d'indicateurs qui
 
 Le tableau suivant définit les valeurs possibles de cette propriété.
   
-En (ST_ENABLED, masque de masque 0x00000001)
+EN (ST_ENABLED, masque de bits 0x00000001)
   
-> La règle est activée pour l'exécution. Si cet indicateur n'est pas défini, le serveur doit ignorer cette règle lors de l'évaluation des règles.
+> La règle est activée pour l’exécution. Si cet indicateur n’est pas définie, le serveur doit ignorer cette règle lors de l’évaluation des règles.
     
-ER (ST_ERROR, masque binaire 0x00000002)
+ER (ST_ERROR, masque de bits 0x00000002)
   
-> Le serveur a rencontré une erreur lors du traitement de la règle.
+> Le serveur a rencontré une erreur de traitement de la règle.
     
-DE (ST_ONLY_WHEN_OOF, masque de binaire 0x00000004)
+OF (ST_ONLY_WHEN_OOF, masque de bits 0x00000004)
   
-> La règle est exécutée uniquement lorsque l'utilisateur définit l'état de l'absence du bureau dans la boîte aux lettres. Cet indicateur ne doit pas être défini dans une règle de dossiers publics.
+> La règle est exécutée uniquement lorsque l’utilisateur définit l’état d’absence du bureau sur la boîte aux lettres. Cet indicateur ne doit pas être définie dans une règle de dossier public.
     
-Bonjour (ST_KEEP_OOF_HIST, masque de masque)
+HI (ST_KEEP_OOF_HIST, masque de bits 0x00000008)
   
-> Cet indicateur ne doit pas être défini dans une règle de dossiers publics.
+> Cet indicateur ne doit pas être définie dans une règle de dossier public.
     
-EL (ST_EXIT_LEVEL, masque de binaire 0x00000010)
+EL (ST_EXIT_LEVEL, masque de bits 0x00000010)
   
-> L'évaluation de la règle se terminera après l'exécution de cette règle, sauf pour l'évaluation des règles d'absence du bureau.
+> L’évaluation de la règle se termine après l’exécution de cette règle, à l’exception de l’évaluation des règles d’int office.
     
-SCL (ST_SKIP_IF_SCL_IS_SAFE, masque de binaire 0x00000020)
+SCL (ST_SKIP_IF_SCL_IS_SAFE, masque de bits 0x00000020)
   
-> L'évaluation de cette règle peut être ignorée.
+> L’évaluation de cette règle peut être ignorée.
     
-PE (ST_RULE_PARSE_ERROR, masque de binaire 0x00000040)
+PE (ST_RULE_PARSE_ERROR, masque de bits 0x00000040)
   
-> Le serveur a rencontré une erreur lors de l'analyse des données de règle fournies par le client.
+> Le serveur a rencontré une erreur lors de l’analyse des données de règle fournies par le client.
     
 X
   
-> Non utilisé par ce protocole. Ce bit ne doit pas être modifié par le client.
+> Inutilisé par ce protocole. Ce bit ne doit pas être modifié par le client.
     
-Remarque sur l'interaction entre ST_ONLY_WHEN_OOF et ST_EXIT_LEVEL Flags: 
+Notez l’interaction entre ST_ONLY_WHEN_OOF et ST_EXIT_LEVEL indicateurs : 
   
-Lorsque l'État «absent (e) du Bureau» est défini sur la boîte aux lettres et qu'une condition de règle donne la valeur TRUE, 
+Lorsque l’état « Out of Office » est définie sur la boîte aux lettres et qu’une condition de règle est évaluée à TRUE, 
   
-LES
+ET :
   
-- L'indicateur ST_EXIT_LEVEL est défini pour la règle et l'indicateur ST_ONLY_WHEN_OOF n'est pas défini. Ensuite, le serveur ne doit pas évaluer les règles suivantes qui n'ont pas d'indicateur ST_ONLY_WHEN_OOF défini, et doit évaluer les règles suivantes qui ont un indicateur ST_ONLY_WHEN_OOF défini.
+- La règle possède l’indicateur ST_EXIT_LEVEL et n’a pas d’indicateur ST_ONLY_WHEN_OOF définie. Ensuite, le serveur ne doit pas évaluer les règles suivantes qui n’ont pas d’indicateur ST_ONLY_WHEN_OOF, et doit évaluer les règles suivantes qui ont ST_ONLY_WHEN_OOF d’indicateur.
     
-DES
+OU :
   
-- Les indicateurs ST_EXIT_LEVEL et ST_ONLY_WHEN_OOF sont définis pour la règle. Ensuite, le serveur ne doit pas évaluer les règles suivantes.
+- Les indicateurs ST_EXIT_LEVEL et ST_ONLY_WHEN_OOF règle sont tous deux définies. Ensuite, le serveur ne doit pas évaluer les règles suivantes.
     
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipule les messages électroniques entrants sur un serveur.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 
