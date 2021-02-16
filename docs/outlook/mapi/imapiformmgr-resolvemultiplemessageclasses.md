@@ -25,7 +25,7 @@ ms.locfileid: "33428017"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Résout un groupe de classes de message à leurs formulaires dans un conteneur de formulaires et renvoie un tableau d'objets d'informations de formulaire pour ces formulaires.
+Résout un groupe de classes de message dans leurs formulaires dans un conteneur de formulaires et renvoie un tableau d’objets d’informations de formulaire pour ces formulaires.
   
 ```cpp
 HRESULT ResolveMultipleMessageClasses(
@@ -40,27 +40,27 @@ HRESULT ResolveMultipleMessageClasses(
 
  _pMsgClasses_
   
-> dans Pointeur vers un tableau qui contient les noms des classes de message à résoudre.
+> [in] Pointeur vers un tableau qui contient les noms des classes de message à résoudre.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont les classes de message sont résolues. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont les classes de message sont résolues. L’indicateur suivant peut être définie :
     
 MAPIFORM_EXACTMATCH 
   
-> Seules les chaînes de classe de message correspondant à une correspondance exacte doivent être résolues.
+> Seules les chaînes de classe de message qui correspondent exactement doivent être résolues.
     
 MAPIFORM_LOCALONLY
   
-> Ne pas inclure les formulaires mis en cache.
+> N’incluez pas les formulaires mis en cache.
     
  _pFolderFocus_
   
-> dans Pointeur vers le dossier qui contient le formulaire dont la classe de message est résolue. Le paramètre _pFolderFocus_ peut être null. 
+> [in] Pointeur vers le dossier qui contient le formulaire dont la classe de message est en cours de résolution. Le  _paramètre pFolderFocus_ peut être NULL. 
     
  _ppfrminfoarray_
   
-> remarquer Pointeur vers un pointeur vers un tableau d'objets d'informations de formulaire. Si une visionneuse de formulaires transmet NULL dans le paramètre _pMsgClasses_ , le paramètre _ppfrminfoarray_ contient les objets d'informations de formulaire pour tous les formulaires dans le conteneur. 
+> [out] Pointeur vers un pointeur vers un tableau d’objets d’informations de formulaire. Si une visionneuse de formulaire transmet la valeur NULL dans le paramètre  _pMsgClasses,_ le paramètre  _ppfrminfoarray_ contient des objets d’informations de formulaire pour tous les formulaires dans le conteneur. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -70,15 +70,15 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr:: ResolveMultipleMessageClasses** pour résoudre un groupe de classes de message en formulaires dans un conteneur de formulaire. Le tableau des objets d'informations de formulaire renvoyés dans _ppfrminfoarray_ fournit un accès supplémentaire à chacune des propriétés des formulaires. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::ResolveMultipleMessageClasses** pour résoudre un groupe de classes de message en formulaires dans un conteneur de formulaires. Le tableau des objets d’informations de formulaire renvoyés dans  _ppfrminfoarray_ fournit un accès supplémentaire à chacune des propriétés des formulaires. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour résoudre un groupe de classes de message en formulaires, une visionneuse de formulaires transmet un tableau de noms de classe de message à résoudre. Pour forcer l'exactitude de la résolution (autrement dit, pour empêcher la résolution d'une classe de base de la classe de message lorsqu'un serveur de formulaires exactement correspondant n'est pas disponible), l'indicateur MAPIFORM_EXACTMATCH peut être passé dans le paramètre _ulFlags_ . 
+Pour résoudre un groupe de classes de message en formulaires, une visionneuse de formulaires transmet un tableau de noms de classes de messages à résoudre. Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message lorsqu’un serveur de formulaires correspondant exactement n’est pas disponible), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags._ 
   
 Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
   
-Si une classe de message ne peut pas être résolue en un formulaire, la valeur NULL est renvoyée pour cette classe de message dans le tableau d'informations sur le formulaire. Par conséquent, même si la méthode renvoie S_OK, les visionneuses de formulaire ne doivent pas travailler en supposant que toutes les classes de message ont été résolues avec succès. Au lieu de cela, les visionneuses de formulaire doivent vérifier les valeurs du tableau renvoyé.
+Si une classe de message ne peut pas être résolue en formulaire, la valeur NULL est renvoyée pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, les visionneuses de formulaires ne doivent pas fonctionner sur l’hypothèse que toutes les classes de message ont été correctement résolues. Au lieu de cela, les visionneuses de formulaire doivent vérifier les valeurs dans le tableau renvoyé.
   
 ## <a name="see-also"></a>Voir aussi
 

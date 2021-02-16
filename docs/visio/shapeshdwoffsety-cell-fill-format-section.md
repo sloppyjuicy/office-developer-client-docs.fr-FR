@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule ShapeShdwOffsetY à l'aide d'un index
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowFill** <br/> |
 | Index de la cellule :  <br/> |**visFillShdwOffsetY** <br/> |
    

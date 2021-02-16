@@ -25,7 +25,7 @@ ms.locfileid: "33423838"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient la valeur de la preuve de livraison du APE. 1.
+Cette propriété contient une preuve ASN.1 de la valeur de remise.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Cette propriété contient la valeur de la preuve de livraison du APE. 1.
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Fournisseur de transport et modèle opérationnel de spouleur MAPI
+title: Fournisseur de transport et modèle opérationnel du spooler MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,30 +15,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426624"
 ---
-# <a name="transport-provider-and-mapi-spooler-operational-model"></a>Fournisseur de transport et modèle opérationnel de spouleur MAPI
+# <a name="transport-provider-and-mapi-spooler-operational-model"></a>Fournisseur de transport et modèle opérationnel du spooler MAPI
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'initialisation, le démarrage, le traitement, l'arrêt et la désinitialisation des fournisseurs de transport sont effectués par une série d'appels depuis le spouleur MAPI vers le fournisseur de transport. Les appels sont séquencés comme suit:
+L’initialisation, le démarrage, le traitement, l’arrêt et la désinitialisation du fournisseur de transport sont effectués par une série d’appels dupooler MAPI au fournisseur de transport. Les appels sont séquencés comme suit :
   
-1. Le spouleur MAPI appelle la fonction [XPProviderInit](xpproviderinit.md) , transmet un objet de prise en charge, obtient l'objet fournisseur et vérifie que le fournisseur de transport et le spouleur MAPI prennent en charge une plage de numéros de version MAPI compatible. 
+1. Lepooler MAPI appelle la fonction [XPProviderInit,](xpproviderinit.md) transmet un objet de support, obtient l’objet fournisseur et vérifie que le fournisseur de transport et lepooler MAPI prend en charge une plage compatible de numéros de version MAPI. 
     
-2. Le spouleur MAPI appelle la méthode [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) de l'interface [IXPProvider: IUnknown](ixpprovideriunknown.md) . Une session est établie entre le spouleur MAPI et le fournisseur de transport avec les informations d'identification dans la section actuelle du profil. Le fournisseur de transport renvoie un objet Logon. 
+2. Lepooler MAPI appelle la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) de l’interface [IXPProvider : IUnknown.](ixpprovideriunknown.md) Une session est établie entre lepooler MAPI et le fournisseur de transport avec les informations d’identification dans la section actuelle du profil. Le fournisseur de transport renvoie un objet d’accès. 
     
-3. Le spouleur MAPI appelle la méthode [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) . Le fournisseur de transport renvoie une liste des identificateurs uniques (UID) et des types d'adresses de messagerie qu'il accepte. 
+3. Lepooler MAPI appelle la [méthode IXPLogon::AddressTypes.](ixplogon-addresstypes.md) Le fournisseur de transport renvoie une liste des identificateurs uniques (IUD) et des types d’adresse de messagerie qu’il acceptera. 
     
-4. Le fournisseur de transport appelle la méthode [IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md) pour créer sa ligne dans la table d'État MAPI. 
+4. Le fournisseur de transport appelle la méthode [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) pour créer sa ligne dans la table d’état MAPI. 
     
-5. Le spouleur MAPI appelle la méthode [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) pour activer la transmission et la réception des messages. 
+5. Lepooler MAPI appelle la méthode [IXPLogon::TransportNotify](ixplogon-transportnotify.md) pour activer la transmission et la réception des messages. 
     
-6. Si le fournisseur de transport le demande, le spouleur **** MAPI appelle régulièrement la méthode [IXPLogon:: Idle](ixplogon-idle.md) . Le traitement inActif est utile si le fournisseur de transport doit interroger le système de messagerie sous-jacent pour les nouveaux messages ou effectuer d'autres tâches de faible priorité. 
+6. Si le fournisseur de transport le demande dans son retour pour l’appel **TransportLogon,** lepooler MAPI appelle régulièrement la méthode [IXPLogon::Idle.](ixplogon-idle.md) Le traitement inactif est utile si le fournisseur de transport doit sondé le système de messagerie sous-jacent à la recherche de nouveaux messages ou effectuer d’autres tâches de faible priorité. 
     
-7. Le fournisseur de transport et le spouleur MAPI envoient et reçoivent les messages. Pour plus d'informations, voir modèle d' [envoi de messages](message-submission-model.md) et modèle de [réception des messages](message-reception-model.md). Les services de spouleur MAPI transportent les demandes et les appels sur les objets de support, de message et de pièce jointe.
+7. Lepooler MAPI et le fournisseur de transport envoient et reçoivent des messages. Pour plus d’informations, [voir modèle de dépôt de message](message-submission-model.md) et modèle de réception de [message.](message-reception-model.md) Lepooler MAPI traite les demandes de transport et les appels sur les objets de support, de message et de pièce jointe.
     
-8. Le spouleur MAPI appelle la méthode **TransportNotify** pour désactiver la transmission et la réception des messages. 
+8. Lepooler MAPI appelle la **méthode TransportNotify** pour désactiver la transmission et la réception des messages. 
     
-9. Le spouleur MAPI libère les objets Logon et Provider. Pour plus d'informations, reportez-vous à la méthode [IXPProvider:: Shutdown](ixpprovider-shutdown.md) . 
+9. Lepooler MAPI libère les objets d’accès et de fournisseur. Pour plus d’informations, voir la [méthode IXPProvider::Shutdown.](ixpprovider-shutdown.md) 
     
 

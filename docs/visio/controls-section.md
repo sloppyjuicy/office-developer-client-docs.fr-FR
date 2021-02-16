@@ -22,6 +22,6 @@ Contient une ligne et des cellules pour chaque poignée de contrôle définie po
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir des poignées de contrôle dans la section **contrôles** de la fenêtre ShapeSheet. Si votre forme n'a pas de section **contrôles** , vous pouvez en insérer une dans la fenêtre ShapeSheet. Cliquez avec le bouton droit dans la fenêtre Feuille ShapeSheet, cliquez sur **Insérer une section**, puis activez la case à cocher **Contrôles**. Pour ajouter des poignées de contrôle à une section **contrôles** existants, cliquez avec le bouton droit sur une ligne, puis cliquez sur **Insérer une ligne** dans le menu contextuel. 
+Vous pouvez définir des poignées de contrôle dans la section **Contrôles** de la fenêtre Feuille ShapeSheet. Si votre forme ne possède pas de section **Controls,** vous pouvez en insérer une dans la fenêtre Feuille ShapeSheet. Cliquez avec le bouton droit dans la fenêtre Feuille ShapeSheet, cliquez sur **Insérer une section**, puis activez la case à cocher **Contrôles**. Pour ajouter des poignées de contrôle à une section **Controls** existante, cliquez avec le bouton droit sur une ligne et cliquez sur **Insérer** une ligne dans le menu raccourci. 
   
 

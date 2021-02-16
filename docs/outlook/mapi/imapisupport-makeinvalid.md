@@ -40,39 +40,39 @@ ULONG cMethods
 
  _ulFlags_
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
  _lpObject_
   
-> dans Pointeur vers l'objet à invalider. L'interface de l'objet doit être dérivée de **IUnknown**.
+> [in] Pointeur vers l’objet à invalider. L’interface de l’objet doit être dérivée **d’IUnknown**.
     
  _ulRefCount_
   
-> dans Le compte de référence actuel de l'objet.
+> [in] Nombre de références présentes de l’objet.
     
  _cMethods_
   
-> dans Nombre de méthodes dans la vtable de l'objet.
+> [in] Nombre de méthodes dans la table vtable de l’objet.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'objet a été marqué comme étant inutilisable.
+> L’objet a été marqué comme inutilisable.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: MakeInvalid** est implémentée pour tous les objets de prise en charge. L'objet à invalider doit être dérivé de l'interface **IUnknown** ou d'une interface dérivée de **IUnknown**.
+La **méthode IMAPISupport::MakeInvalid** est implémentée pour tous les objets de prise en charge. L’objet à invalider doit être dérivé de l’interface **IUnknown** ou d’une interface dérivée de **IUnknown**.
   
- **MakeInvalid** marque un objet comme inutilisable en remplaçant le vtable de l'objet par un vtable de taille similaire dans lequel les méthodes **IUnknown:: AddRef** et **IUnknown:: Release** fonctionnent comme prévu. Toutefois, toutes les autres méthodes échouent, renvoyant la valeur MAPI_E_INVALID_OBJECT. 
+ **MakeInvalid** marque un objet comme inutilisable en remplaçant le vtable de l’objet par un vtable stub de taille similaire dans lequel les méthodes **IUnknown::AddRef** **et IUnknown::Release** s’exécutent comme prévu. Toutefois, toutes les autres méthodes échouent, renvoyant la valeur MAPI_E_INVALID_OBJECT. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Les fournisseurs de services et les services de messagerie appellent généralement **MakeInvalid** au moment de l'arrêt. Toutefois, **MakeInvalid** peut être appelé à tout moment. Par exemple, si un client libère un objet sans libérer certains de ses sous-objets, vous pouvez appeler **MakeInvalid** immédiatement pour libérer ces sous-objets. 
+Les fournisseurs de services et les services de messagerie **appellent généralement MakeInvalid** au moment de l’arrêt. Toutefois, **MakeInvalid** peut être appelé à tout moment. Par exemple, si un client libère un objet sans libérer certains de ses sous-objets, vous pouvez appeler **MakeInvalid** immédiatement pour libérer ces sous-objets. 
   
-Vous devez être propriétaire de l'objet que vous essayez d'invalider. Elle doit être d'au moins 16 octets et avoir au moins trois méthodes dans sa vtable. 
+Vous devez posséder l’objet que vous tentez d’invalider. Elle doit avoir une longueur d’au moins 16 octets et avoir au moins trois méthodes dans sa table vtable. 
   
-Vous pouvez appeler **MakeInvalid** , puis effectuer les opérations d'arrêt, telles que le rejet des structures de données associées, qui sont généralement effectuées lors de la publication d'un objet. Le code permettant de prendre en charge l'objet ne doit pas nécessairement être conservé en mémoire, car MAPI libère la mémoire en appelant [MAPIFreeBuffer](mapifreebuffer.md) , puis libère l'objet. Vous pouvez publier des ressources, appeler **MakeInvalid**, puis ignorer l'objet invalidé. 
+Vous pouvez appeler **MakeInvalid,** puis effectuer n’importe quel travail d’arrêt, par exemple ignorer les structures de données associées, généralement effectué lors de la libération d’un objet. Le code de prise en charge de l’objet n’a pas besoin d’être conservé en mémoire, car MAPI libère la mémoire en appelant [MAPIFreeBuffer,](mapifreebuffer.md) puis libère l’objet. Vous pouvez libérer des ressources, **appeler MakeInvalid,** puis ignorer l’objet invalidé. 
   
 ## <a name="see-also"></a>Voir aussi
 

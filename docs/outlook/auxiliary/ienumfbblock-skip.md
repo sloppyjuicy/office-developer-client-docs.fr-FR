@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
-description: Ignore un nombre spécifié de blocs de données de disponibilité.
+description: Ignore un nombre spécifié de blocs de données de libre/occupé.
 ms.openlocfilehash: cf8ae18b5ed2c24a48d44d9e8d461da7d95054d2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33425721"
 ---
 # <a name="ienumfbblockskip"></a>IEnumFBBlock::Skip
 
-Ignore un nombre spécifié de blocs de données de disponibilité.
+Ignore un nombre spécifié de blocs de données de libre/occupé.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -32,7 +32,7 @@ HRESULT Skip(
 
 _celt_
   
->  dans Nombre de blocs de disponibilité à ignorer. 
+>  [in] Nombre de blocs de libre/occupé à ignorer. 
     
 ## <a name="return-values"></a>Valeurs de retour
 

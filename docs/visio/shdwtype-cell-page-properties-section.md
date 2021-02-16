@@ -22,13 +22,13 @@ Indique le type d'ombre par défaut d'une page.
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-| 0,1  <br/> | Simple  <br/> |**visFSTSimple** <br/> |
-| n°2  <br/> | Italique  <br/> |**visFSTOblique** <br/> |
-|3  <br/> |Intérieur  <br/> |**visFSTInner** <br/> |
+| 1   <br/> | Simple  <br/> |**visFSTSimple** <br/> |
+| 2   <br/> | Oblique  <br/> |**visFSTOblique** <br/> |
+|3   <br/> |Interne  <br/> |**visFSTInner** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
- Le type d'ombre décrit dans cette cellule est utilisé chaque fois que la cellule ShapeShdwType (le type d'ombre d'une forme individuelle sur la page) est définie sur page default (**visFSTPageDefault** ). 
+ Le type d’ombre décrit dans cette cellule est utilisé chaque fois que la cellule ShapeShdwType (le type d’ombre d’une forme individuelle sur la page) est définie sur Page Default (**visFSTPageDefault** ). 
   
 Les ombres simples sont décrites comme des ombres de décalage dans l'interface utilisateur. Une ombre simple donne l'impression que la forme a son ombre portée sur un plan parallèle situé à une certaine distance derrière elle. Les ombres obliques sont décrites comme telles dans l'interface utilisateur et donnent l'impression d'une ombre portée sur un plan perpendiculaire à la forme. 
   
@@ -44,7 +44,7 @@ Pour obtenir une référence à la cellule ShdwType par index dans un programme,
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPage** <br/> |
 | Index de la cellule :  <br/> |**visPageShdwType** <br/> |
    

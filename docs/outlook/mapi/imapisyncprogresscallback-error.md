@@ -25,7 +25,7 @@ ms.locfileid: "33424930"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit les détails affichés dans la boîte de dialogue d'envoi/réception. Si des erreurs sont rencontrées lors de la synchronisation, le fournisseur Store appelle cette fonction.
+Fournit des détails affichés dans la boîte de dialogue d’envoi/réception. Si des erreurs se sont rencontrées lors de la synchronisation, le fournisseur de magasins appelle cette fonction.
   
 ```cpp
 HRESULT Error(
@@ -38,11 +38,11 @@ HRESULT Error(
 
  **hResult**
   
-> HRESULT de l'erreur ou de l'avertissement.
+> HRESULT de l’erreur ou de l’avertissement.
     
  **pwcszErrorStr**
   
-> Pointeur vers la chaîne associée à l'erreur à afficher.
+> Pointeur vers la chaîne associée à l’erreur à afficher.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

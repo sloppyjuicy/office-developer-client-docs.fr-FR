@@ -23,12 +23,12 @@ ms.locfileid: "33423460"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une structure [ADRLIST](adrlist.md) avec le nom spécifié qui contient un nombre spécifié de structures [ADRENTRY](adrentry.md) . 
+Définit une structure [ADRLIST](adrlist.md) avec le nom spécifié qui contient un nombre spécifié de structures [ADRENTRY.](adrentry.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**ADRLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 SizedADRLIST (_centries,_name)
@@ -36,17 +36,17 @@ SizedADRLIST (_centries,_name)
 
 ## <a name="parameters"></a>Paramètres
 
-__centries_
+_ _centries_
   
-> Nombre de structures **ADRENTRY** à inclure dans la nouvelle structure **ADRLIST** . 
+> Nombre de structures **ADRENTRY** à inclure dans la nouvelle structure **ADRLIST.** 
     
-__nom_
+_ _name_
   
-> Nom de la nouvelle structure **ADRLIST** . 
+> Nom de la nouvelle structure **ADRLIST.** 
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedADRLIST** vous permet de définir une liste de destinataires qui contient des limites explicites lorsque les exigences de longueur de tableau sont connues. Le code suivant montre comment convertir le résultat de la macro **SizedADRLIST** en pointeur de structure **ADRLIST** : 
+La macro **SizedADRLIST** vous permet de définir une liste de destinataires qui a des limites explicites lorsque des exigences de longueur de tableau sont connues. Le code suivant montre comment caster le résultat de la macro **SizedADRLIST** vers un pointeur de structure **ADRLIST** : 
   
 ```cpp
 lpADRList = (LPADRLIST) &SizedADRList;

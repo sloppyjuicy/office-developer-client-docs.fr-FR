@@ -1,5 +1,5 @@
 ---
-title: Cellule XGridOrigin (section &amp; règle et grille)
+title: XGridOrigin, cellule (section Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428619"
 ---
-# <a name="xgridorigin-cell-ruler-amp-grid-section"></a>Cellule XGridOrigin (section &amp; règle et grille)
+# <a name="xgridorigin-cell-ruler-amp-grid-section"></a>XGridOrigin, cellule (section Ruler &amp; Grid)
 
 Définit la coordonnée horizontale de l'origine de la grille.
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l'option **origine** de la grille horizontale dans la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** . 
+Cette cellule correspond à l’option Origine de la grille  horizontale dans la boîte de dialogue **Grille &amp;** de règle (sous l’onglet Affichage, cliquez sur **Afficher** la flèche.  
   
 Pour obtenir une référence à la cellule XGridOrigin par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule XGridOrigin par index dans un program
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visXGridOrigin** <br/> |
    

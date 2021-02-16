@@ -25,26 +25,26 @@ ms.locfileid: "33427590"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l'ID d'entrée du dossier **NON_IPM_SUBTREE** dans une banque de dossiers publics Exchange. 
+Affiche l’ID d’entrée **du dossier NON_IPM_SUBTREE** dans une magasin de dossiers publics Exchange. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_NON_IPM_SUBTREE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x6620  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Banque de messages  <br/> |
+|Domaine :  <br/> |Magasin de messages  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

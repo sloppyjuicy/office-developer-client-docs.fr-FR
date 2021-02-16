@@ -28,13 +28,13 @@ Pour obtenir une référence à la cellule LineToLineY par un nom à partir d'un
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |LineToLineY  <br/> |
+|Nom de la cellule :  <br/> |LineToLiney  <br/> |
    
 Pour obtenir une référence à la cellule LineToLineY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOLineToLineY** <br/> |
    

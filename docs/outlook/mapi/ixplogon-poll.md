@@ -37,7 +37,7 @@ HRESULT Poll(
 
  _lpulIncoming_
   
-> remarquer Valeur qui indique l'existence de messages entrants. Une valeur non nulle indique qu'il existe des messages entrants.
+> [out] Valeur qui indique l’existence de messages entrants. Une valeur autre que zéro indique qu’il existe des messages entrants.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle régulièrement la méthode **IXPLogon::P oll** si le fournisseur de transport indique qu'il doit être interrogé pour de nouveaux messages, ce que fait le fournisseur en transmettant l'indicateur LOGON_SP_POLL à l'appel à l' [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) méthode au début d'une session. Si le fournisseur de transport indique en réponse à l'appel de **sondage** qu'il existe un ou plusieurs messages entrants qu'il est possible de traiter, le spouleur MAPI appelle la méthode [IXPLogon:: StartMessage](ixplogon-startmessage.md) pour permettre au fournisseur de traiter le premier Message. Le fournisseur de transport indique les messages entrants en définissant la valeur du paramètre _lpulIncoming_ sur une valeur différente de zéro. 
+Lepooler MAPI appelle régulièrement la méthode **IXPLogon::P élément** si le fournisseur de transport indique qu’il doit être interrogé pour de nouveaux messages, ce que le fournisseur fait en passant l’indicateur LOGON_SP_POLL à l’appel à la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) au début d’une session. Si le fournisseur de transport  indique en réponse à l’appel de sondage qu’un ou plusieurs messages entrants sont disponibles pour le traitement, lepooler MAPI appelle la méthode [IXPLogon::StartMessage](ixplogon-startmessage.md) pour permettre au fournisseur de traiter le premier message entrant. Le fournisseur de transport indique les messages entrants en fixant la valeur du paramètre  _lpulIncoming_ sur une valeur autre que zéro. 
   
 ## <a name="see-also"></a>Voir aussi
 

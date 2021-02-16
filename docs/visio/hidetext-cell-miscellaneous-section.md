@@ -27,17 +27,17 @@ Masque le texte d'une forme. Vous pouvez visualiser le texte, modifier ses propr
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule HideText par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
+Pour obtenir une référence à la cellule HideText par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de cellule :  <br/> | HideText  <br/> |
    
-Pour obtenir une référence à la cellule HideText à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants: 
+Pour obtenir une référence à la cellule HideText à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
 | Index de la cellule :  <br/> |**visHideText** <br/> |
    

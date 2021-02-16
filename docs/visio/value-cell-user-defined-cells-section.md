@@ -28,14 +28,14 @@ Pour obtenir une référence à la cellule Value par un nom dans une autre formu
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Guide.  *Nom* . Valeur où User.  *Name* est le nom de la ligne  <br/> |
+| Nom de la cellule :  <br/> | Utilisateur.  *Nom*  . Valeur où User.  *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule Value par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionUser** <br/> |
-| Index de la ligne :  <br/> |**visRowUser** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowUser**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visUserValue** <br/> |
    
 

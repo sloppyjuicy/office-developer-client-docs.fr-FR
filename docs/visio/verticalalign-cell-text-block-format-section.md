@@ -23,8 +23,8 @@ Détermine l'alignement vertical du texte dans le bloc de texte.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Haut  <br/> |**visVertTop** <br/> |
-| 0,1  <br/> | Centre  <br/> |**visVertMiddle** <br/> |
-| n°2  <br/> | Inférieures  <br/> |**visVertBottom** <br/> |
+| 1   <br/> | Milieu  <br/> |**visVertMiddle** <br/> |
+| 2   <br/> | Bas  <br/> |**visVertBottom** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule VerticalAlign par index dans un progr
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowText** <br/> |
 | Index de la cellule :  <br/> |**visTxtBlkVerticalAlign** <br/> |
    

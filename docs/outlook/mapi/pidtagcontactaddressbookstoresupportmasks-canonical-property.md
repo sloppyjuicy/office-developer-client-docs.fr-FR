@@ -25,30 +25,30 @@ ms.locfileid: "33427800"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des indicateurs indiquant les fonctionnalités prises en charge par la Banque.
+Contient des indicateurs indiquant les fonctionnalités du magasin pris en charge.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_SUPPORT_MASKS  <br/> |
 |Identificateur :  <br/> |0x6621  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est obtenue à partir des magasins qui contient les dossiers de contacts. Le fournisseur de carnets d'adresses des contacts l'utilise pour évaluer l'adéquation des fonctionnalités prises en charge par la Banque. Il s'agit d'une propriété sur une section de profil de carnet d'adresses de contacts. 
+Cette propriété est obtenue à partir des magasins qui contiennent les dossiers Contacts. Le fournisseur de carnet d’adresses de contact l’utilise pour évaluer l’adéquation des fonctionnalités du magasin pris en charge. Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

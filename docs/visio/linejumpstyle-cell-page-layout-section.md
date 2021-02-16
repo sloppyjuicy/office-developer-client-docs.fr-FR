@@ -23,15 +23,15 @@ Détermine le style de déviation de tous les connecteurs de la page de dessin n
 |**Valeur**|**Style de déviation de trait**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Arc  <br/> |**visLOJumpStyleDefault** <br/> |
-|0,1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
-|n°2  <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
-|3  <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
-|4  <br/> |2 côtés  <br/> |**visLOJumpStyleTriangle** <br/> |
-|disque  <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
-|6.x  <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |
-|7j/7  <br/> |5 côtés  <br/> |**visLOJumpStyle4Point** <br/> |
-|8bits  <br/> |6 côtés  <br/> |**visLOJumpStyle5Point** <br/> |
-|4,9  <br/> |7 côtés  <br/> |**visLOJumpStyle6Point** <br/> |
+|1   <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
+|2   <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
+|3   <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
+|4   <br/> |2 côtés  <br/> |**visLOJumpStyleTriangle** <br/> |
+|5   <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
+|6   <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |
+|7   <br/> |5 côtés  <br/> |**visLOJumpStyle4Point** <br/> |
+|8   <br/> |6 côtés  <br/> |**visLOJumpStyle5Point** <br/> |
+|9   <br/> |7 côtés  <br/> |**visLOJumpStyle6Point** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -47,7 +47,7 @@ Pour obtenir une référence à la cellule LineJumpStyle à l’aide d’un inde
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOJumpStyle** <br/> |
    

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSheetId
 keywords:
-- fonction xlSheetId [Excel 2007]
+- fonction xlsheetid [excel 2007]
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33428430"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Recherche l'ID de feuille d'une feuille nommée afin de construire des références externes.
+Recherche l’ID de feuille d’une feuille nommée afin de construire des références externes.
   
 ```cs
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
@@ -32,18 +32,18 @@ Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 
 _pxSheetName_ (**xltypeStr**)
   
-(Facultatif). Nom du livre et de la feuille à rechercher. Si cet argument est omis, la fonction **xlSheetId** renvoie l'ID de feuille de la feuille (avant) active. 
+(Facultatif). Nom du livre et de la feuille que vous souhaitez connaître. Si elle est omise, **la fonction xlSheetId** renvoie l’ID de feuille de la feuille active (avant). 
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie l'ID de la feuille dans _pxRes-\>Val. mref. idSheet_. 
+Renvoie l’ID de feuille  _dans pxRes- \> val.mref.idSheet_. 
   
 > [!NOTE]
-> Le pointeur de tableau _pxRes-\>Val. mref. lpmref_ est défini sur null après cet appel de sorte qu'il n'est pas nécessaire d'appeler **xlFree** pour libérer la mémoire que ce type contient normalement, bien qu'il soit entièrement sûr de le faire. 
+> Le pointeur du tableau  _pxRes- \> val.mref.lpmref_ est définie sur NULL après cet appel, de sorte qu’il n’est pas nécessaire d’appeler **xlFree** pour libérer la mémoire que ce type contient normalement, bien qu’il soit totalement sûr de le faire. 
   
 ## <a name="remarks"></a>Remarques
 
-Le classeur contenant la feuille spécifiée doit être ouvert pour utiliser cette fonction. Il n'existe aucun moyen de créer une référence à un classeur non ouvert à partir d'une DLL. Pour plus d'informations sur l'utilisation de **xlSheetId** pour construire des références, consultez la rubrique gestion de la [mémoire dans Excel](memory-management-in-excel.md) pour obtenir des exemples de construction de **xltypeRef** . 
+Le workbook contenant la feuille spécifiée doit être ouvert pour utiliser cette fonction. Il n’existe aucun moyen de construire une référence à un livre de travail non ouvert à partir d’une DLL. Pour plus d’informations sur l’utilisation de **xlSheetId** pour construire des références, voir Gestion de la mémoire dans [Excel](memory-management-in-excel.md) pour obtenir des exemples de construction **xltypeRef.** 
   
 ## <a name="example"></a>Exemple
 

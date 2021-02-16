@@ -25,9 +25,9 @@ Dans les deux cas suivants, Visio met à l'échelle les formes pour qu'elles app
   
 - lorsque des formes non mesurées sont glissées sur des dessins mis à l'échelle ;
     
-- Lorsque des formes mesurées sont insérées sur des dessins non ajustés.
+- Lorsque les formes mesurées sont déposés sur des dessins non retentés.
     
-Le pourcentage dans la cellule DropOnPageScale indique le facteur par lequel Visio a ajusté la forme, soit vers le\>haut (100),\<soit vers le bas (100). Vous pouvez utiliser ce nombre comme facteur lorsque vous calculez des valeurs préprogrammées. 
+Le pourcentage dans la cellule DropOnPageScale indique le facteur selon lequel Visio a mis la forme à l’échelle, soit vers le haut (100) soit vers le \> bas ( \< 100). Vous pouvez utiliser ce nombre comme facteur lorsque vous calculez des valeurs préprogrammées. 
   
 Cette valeur est de 100 % pour les formes mesurées sur des dessins mis à l'échelle ou les formes non mesurées sur des dessins non mis à l'échelle. 
   
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule DropOnPageScale à l'aide d'un index 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
 | Index de la cellule :  <br/> |**visObjDropOnPageScale** <br/> |
    

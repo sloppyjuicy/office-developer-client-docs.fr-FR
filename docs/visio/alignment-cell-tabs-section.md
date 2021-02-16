@@ -23,10 +23,10 @@ Détermine l'alignement des tabulations.
 |**Valeur**|**Alignment**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Gauche  <br/> |**visTabStopLeft** <br/> |
-| 0,1  <br/> | Centre  <br/> |**visTabStopCenter** <br/> |
-| n°2  <br/> | À droite  <br/> |**visTabStopRight** <br/> |
-| 3  <br/> | Décimal  <br/> |**visTabStopDecimal** <br/> |
-| 4  <br/> | Virgule  <br/> |**visTabStopComma** <br/> |
+| 1   <br/> | Centre  <br/> |**visTabStopCenter** <br/> |
+| 2   <br/> | À droite  <br/> |**visTabStopRight** <br/> |
+| 3   <br/> | Décimal  <br/> |**visTabStopDecimal** <br/> |
+| 4   <br/> | Virgule  <br/> |**visTabStopComma** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -34,14 +34,14 @@ Pour obtenir une référence à la cellule Alignment par un nom à partir d'une 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Taquet.  *IJ* où *i et j =* <1>, 2, 3  <br/> |
+| Nom de la cellule :  <br/> | Onglets.  *ij*            où  *i et j =*  <1>, 2, 3  <br/> |
    
 Pour obtenir une référence à la cellule Alignment à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionTab** <br/> |
-| Index de la ligne :  <br/> |**visRowTab +** *i* où *i* = 0, 1, 2...  <br/> |
-| Index de la cellule :  <br/> | (*j* * 3) **+ visTabAlign** <br/> |
+| Index de la ligne :  <br/> |**visRowTab +** *i*            où  *i*  = 0, 1, 2...  <br/> |
+| Index de la cellule :  <br/> | (*j*  *3) **+ visTabAlign** <br/> |
    
 

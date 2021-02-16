@@ -22,7 +22,7 @@ Renvoie un point transformé en coordonnées locales dans le système de coordon
   
 ## <a name="syntax"></a>Syntaxe
 
-LOCTOLOC (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *) 
+LOCTOLOC(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

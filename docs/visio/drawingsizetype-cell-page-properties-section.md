@@ -23,13 +23,13 @@ Détermine la taille du dessin.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Identique au papier de l’imprimante  <br/> |**visPrintSetup** <br/> |
-|0,1  <br/> |Ajuster la page au contenu du dessin  <br/> |**visTight** <br/> |
-|n°2  <br/> |Standard  <br/> |**visStandard** <br/> |
-|3  <br/> |Taille de page personnalisée  <br/> |**visCustom** <br/> |
-|4  <br/> |Taille de dessin à l’échelle personnalisée  <br/> |**visLogical** <br/> |
-|disque  <br/> |Métrique (ISO)  <br/> |**visDSMetric** <br/> |
-|6.x  <br/> |Ingénierie ANSI  <br/> |**visDSEngr** <br/> |
-|7j/7  <br/> |Architecturale ANSI  <br/> |**visDSArch** <br/> |
+|1   <br/> |Ajuster la page au contenu du dessin  <br/> |**visTight** <br/> |
+|2   <br/> |Standard  <br/> |**visStandard** <br/> |
+|3   <br/> |Taille de page personnalisée  <br/> |**visCustom** <br/> |
+|4   <br/> |Taille de dessin à l’échelle personnalisée  <br/> |**visLogical** <br/> |
+|5   <br/> |Métrique (ISO)  <br/> |**visDSMetric** <br/> |
+|6   <br/> |Ingénierie ANSI  <br/> |**visDSEngr** <br/> |
+|7   <br/> |Architecturale ANSI  <br/> |**visDSArch** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -45,7 +45,7 @@ Pour obtenir une référence à la cellule DrawingSizeType à l’aide d’un in
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPage** <br/> |
 |Index de la cellule :  <br/> |**visPageDrawSizeType** <br/> |
    

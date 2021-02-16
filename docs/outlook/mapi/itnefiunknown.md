@@ -25,28 +25,28 @@ ms.locfileid: "33428514"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des méthodes pour encapsuler des propriétés MAPI qui ne sont pas prises en charge par un système de messagerie dans des flux binaires qui peuvent être attachés à des messages. Le format utilisé pour cette encapsulation est le format TNEF (Transport-Neutral Encapsulation Format). Le fournisseur de transport cible ou l'application cliente basée sur MAPI peut ensuite, lors de la réception d'un message incluant une pièce jointe TNEF, récupérer les propriétés à partir de la pièce jointe.
+Fournit des méthodes pour encapsuler les propriétés MAPI qui ne sont pas pris en charge par un système de messagerie dans des flux binaires qui peuvent être joints à des messages. Le format utilisé pour cette encapsulation est Transport-Neutral format TNEF (Encapsulation Format). Le fournisseur de transport cible ou l’application cliente MAPI peut ensuite, lors de la réception d’un message incluant une pièce jointe TNEF, récupérer les propriétés de la pièce jointe.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |TNEF. h  <br/> |
-|Exposé par:  <br/> |Objets TNEF  <br/> |
+|Fichier d’en-tête :  <br/> |Tnef.h  <br/> |
+|Exposé par :  <br/> |Objets TNEF  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Fournisseurs de transport, fournisseurs de banques de messages et passerelles  <br/> |
-|Identificateur de l'interface:  <br/> |IID_ITNEF  <br/> |
-|Type de pointeur:  <br/> |LPTNEF  <br/> |
+|Appelé par :  <br/> |Fournisseurs de transport, fournisseurs de magasins de messages et passerelles  <br/> |
+|Identificateur d’interface :  <br/> |IID_ITNEF  <br/> |
+|Type de pointeur :  <br/> |LPTNEF  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[AddProps](itnef-addprops.md) <br/> |Permet au fournisseur de services d'appel ou à la passerelle d'ajouter des propriétés à l'encapsulation d'un message ou d'une pièce jointe.  <br/> |
-|[ExtractProps](itnef-extractprops.md) <br/> |Extrait les propriétés d'une encapsulation TNEF.  <br/> |
-|[Finish](itnef-finish.md) <br/> |Termine le traitement de toutes les opérations TNEF mises en file d'attente et en attente.  <br/> |
-|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Ouvre une interface de flux sur le texte d'un message encapsulé.  <br/> |
-|[SetProps](itnef-setprops.md) <br/> |Définit la valeur d'une ou plusieurs propriétés pour un message encapsulé ou une pièce jointe sans modifier le message ou la pièce jointe d'origine.  <br/> |
-|[EncodeRecips](itnef-encoderecips.md) <br/> |Encode une vue pour la table de destinataires d'un message dans le flux de données TNEF pour le message.  <br/> |
-|[FinishComponent](itnef-finishcomponent.md) <br/> |Traite les composants individuels d'un message un à la fois dans un flux TNEF.  <br/> |
+|[AddProps](itnef-addprops.md) <br/> |Permet au fournisseur de services d’appel ou à la passerelle d’ajouter des propriétés à l’encapsulation d’un message ou d’une pièce jointe.  <br/> |
+|[ExtractProps](itnef-extractprops.md) <br/> |Extrait les propriétés d’une encapsulation TNEF.  <br/> |
+|[Finish](itnef-finish.md) <br/> |Termine le traitement de toutes les opérations TNEF en file d’attente.  <br/> |
+|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Ouvre une interface de flux sur le texte d’un message encapsulé.  <br/> |
+|[SetProps](itnef-setprops.md) <br/> |Définit la valeur d’une ou de plusieurs propriétés d’un message ou d’une pièce jointe encapsulé sans modifier le message ou la pièce jointe d’origine.  <br/> |
+|[EncodeRecips](itnef-encoderecips.md) <br/> |Code une vue de la table des destinataires d’un message dans le flux de données TNEF du message.  <br/> |
+|[FinishComponent](itnef-finishcomponent.md) <br/> |Traite les composants individuels d’un message un par un dans un flux TNEF.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

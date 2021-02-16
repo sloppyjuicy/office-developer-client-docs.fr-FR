@@ -21,7 +21,7 @@ ms.locfileid: "33426806"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Clé source pour un élément Outlook.
+Clé source d’un élément Outlook.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,9 +35,9 @@ struct SKEY
 
 ## <a name="members"></a>Membres
 
- _directeurs_
+ _guid_
   
-> GUID du serveur qui crée l'objet.
+> GUID du serveur qui crée l’objet.
     
 ## <a name="see-also"></a>Voir aussi
 

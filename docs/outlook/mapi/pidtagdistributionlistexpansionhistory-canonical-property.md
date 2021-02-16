@@ -25,7 +25,7 @@ ms.locfileid: "33422956"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un historique illustrant la façon dont une liste de distribution a été développée lors de la transmission des messages. 
+Contient un historique montrant comment une liste de distribution a été étendue lors de la transmission du message. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient un historique illustrant la façon dont une liste de distribution a ét
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est disponible pour recevoir des applications clientes si le fournisseur de transport l'a définie. Il est également disponible pour le client expéditeur si le contenu du message est renvoyé avec un rapport. 
+Cette propriété est disponible pour les applications clientes de réception si le fournisseur de transport l’a définie. Il est également disponible pour le client d’envoi si le contenu du message est renvoyé avec un rapport. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

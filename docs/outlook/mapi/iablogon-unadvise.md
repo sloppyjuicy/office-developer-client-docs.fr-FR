@@ -25,7 +25,7 @@ ms.locfileid: "33424076"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Annule les notifications précédemment configurées avec un appel à la méthode [IABLogon:: Advise](iablogon-advise.md) . 
+Annule les notifications précédemment définies avec un appel à la [méthode IABLogon::Advise.](iablogon-advise.md) 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,23 +37,23 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> dans Numéro de connexion associé à l'enregistrement de notifications actif. Un appel précédent à **Advise** doit avoir renvoyé la valeur de _ulConnection_.
+> [in] Numéro de connexion associé à un enregistrement de notification actif. Un appel précédent à **Advise** doit avoir renvoyé la valeur  _de ulConnection_.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'inscription de la notification a été annulée.
+> L’inscription de la notification a été annulée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la **** méthode Unadvise pour annuler une inscription de notification pour un conteneur, un utilisateur de messagerie ou un objet de liste de distribution. 
+MAPI appelle la **méthode Unadvise** pour annuler l’inscription d’une notification pour un objet conteneur, utilisateur de messagerie ou liste de distribution. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L'implémentation de **** Unadvise varie selon que vous prenez en charge la notification avec l'aide de MAPI ou manuellement. Si MAPI fournit votre prise en charge, appelez la méthode [IMAPISupport:: unsubscribe](imapisupport-unsubscribe.md) pour annuler l'inscription. Si un autre thread appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) du récepteur de notification, il peut être retardé jusqu'à ce que **OnNotify** ait renvoyé. 
+Votre implémentation **d’Unadvise** dépend de la prise en charge de la notification avec l’aide de MAPI ou manuellement. Si MAPI fournit votre prise en charge, appelez la méthode [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) pour annuler l’inscription. Si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) du sink de conseil, il peut être retardé jusqu’à ce que **OnNotify** soit renvoyé. 
   
-Pour plus d'informations sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md). Pour plus d'informations sur l'utilisation des méthodes [IMAPISupport: IUnknown](imapisupportiunknown.md) pour prendre en charge la notification, consultez la rubrique [notification d'événement de prise en](supporting-event-notification.md)charge.
+Pour plus d’informations sur le processus de notification, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). Pour plus d’informations sur l’utilisation des méthodes [IMAPISupport : IUnknown](imapisupportiunknown.md) pour prendre en charge la notification, voir [Notification d’événement de prise en charge.](supporting-event-notification.md)
   
 ## <a name="see-also"></a>Voir aussi
 

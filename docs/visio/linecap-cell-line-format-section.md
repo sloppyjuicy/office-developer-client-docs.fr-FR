@@ -22,9 +22,9 @@ Indique si l'extrémité du trait est arrondie, carrée ou étendue.
   
 |**Valeur**|**Style de l'extrémité du trait**|
 |:-----|:-----|
-|0  <br/> |Métro  <br/> |
-|0,1  <br/> |Square  <br/> |
-|n°2  <br/> |Étendue  <br/> |
+|0  <br/> |Arrondi  <br/> |
+|1   <br/> |Square  <br/> |
+|2   <br/> |Étendue  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule LineCap à l'aide d'un index à parti
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowLine** <br/> |
 |Index de la cellule :  <br/> |**visLineEndCap** <br/> |
    

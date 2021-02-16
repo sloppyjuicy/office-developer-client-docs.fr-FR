@@ -21,7 +21,7 @@ ms.locfileid: "33425952"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la chaîne Unicode à afficher dans la barre d'État avec cette propriété.
+Spécifie la chaîne Unicode à afficher dans la barre d’état avec cette propriété.
   
 |||
 |:-----|:-----|

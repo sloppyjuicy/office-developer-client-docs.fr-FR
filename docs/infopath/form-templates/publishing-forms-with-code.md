@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: caafab24-6413-4731-813d-cba3ae9ea97e
-description: Tout administrateur de collection de sites peut publier des formulaires avec du code directement à partir de l'Assistant Publication de Concepteur InfoPath vers une bibliothèque de formulaires sur SharePoint. Le code est exécuté dans un environnement « bac à sable » (sandbox) afin d'éviter que du code malveillant puisse nuire au serveur. On désigne cela par publication d'une solution en bac à sable (sandbox) ou publication sur l'infrastructure sandbox SharePoint.
+description: Tout administrateur de collection de sites peut publier des formulaires avec du code directement à partir de l’Assistant Publication InfoPath Designer vers une bibliothèque de formulaires sur SharePoint. Le code est exécuté dans un environnement « bac à sable » (sandbox) afin d'éviter que du code malveillant puisse nuire au serveur. On désigne cela par publication d'une solution en bac à sable (sandbox) ou publication sur l'infrastructure sandbox SharePoint.
 ms.openlocfilehash: f8f8a48ea6810b5331198f6ddc112b3bd38ab886
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.locfileid: "33428325"
 ---
 # <a name="publishing-forms-with-code"></a>Publication de formulaires avec code
 
-Tout administrateur de collection de sites peut publier des formulaires avec du code directement à partir de l'Assistant Publication de Concepteur InfoPath vers une bibliothèque de formulaires sur SharePoint. Le code est exécuté dans un environnement « bac à sable » (sandbox) afin d'éviter que du code malveillant puisse nuire au serveur. On désigne cela par publication d'une solution en bac à sable (sandbox) ou publication sur l'infrastructure sandbox SharePoint.
+Tout administrateur de collection de sites peut publier des formulaires avec du code directement à partir de l’Assistant Publication InfoPath Designer vers une bibliothèque de formulaires sur SharePoint. Le code est exécuté dans un environnement « bac à sable » (sandbox) afin d'éviter que du code malveillant puisse nuire au serveur. On désigne cela par publication d'une solution en bac à sable (sandbox) ou publication sur l'infrastructure sandbox SharePoint.
   
-InfoPath 2010 et SharePoint Server 2010 prennent également en charge les solutions déployées par l'administrateur. Un concepteur de formulaires publie des formulaires avec du code dans un magasin local, qui sont ensuite révisés et chargés par un administrateur de batterie SharePoint. La confiance totale est octroyée à ce code, qui peut incorporer des fonctionnalités nécessitant des privilèges élevés tels que E/S fichier.
+InfoPath 2010 et SharePoint Server 2010 permettent également la prise en charge des solutions déployées par l’administrateur. Un concepteur de formulaires publie des formulaires avec du code dans un magasin local, qui sont ensuite révisés et chargés par un administrateur de batterie SharePoint. La confiance totale est octroyée à ce code, qui peut incorporer des fonctionnalités nécessitant des privilèges élevés tels que E/S fichier.
   
 ## <a name="comparing-sandboxed-and-administrator-approved-solutions"></a>Comparaison entre les solutions en bac à sable (sandbox) et celles approuvées par l’administrateur
 
@@ -26,7 +26,7 @@ Le tableau suivant récapitule les différences de la publication pour ces deux 
 ||**Solutions bac à sable**|**Solutions approuvées par l’administrateur**|
 |:-----|:-----|:-----|
 |**Autorisations requises** <br/> |Publiables par tout administrateur de collection de sites.  <br/> |Déployables par un administrateur de batterie.  <br/> |
-|**Publishing** <br/> |Peuvent être publiés directement à partir d'InfoPath.  <br/> |Déployables en utilisant l’Administration centrale ou l’outil de ligne de commande stsadm.  <br/> |
+|**Publishing** <br/> |Peut être publié directement à partir d’InfoPath.  <br/> |Déployables en utilisant l’Administration centrale ou l’outil de ligne de commande stsadm.  <br/> |
 |**Protection** <br/> |Le code est exécuté dans un environnement « bac à sable » (sandbox) afin de protéger le serveur contre du code malveillant.  <br/> |Le code peut s’exécuter avec autorisation totale et accéder à toutes les ressources sur le serveur.  <br/> |
 |**Utilisation recommandée** <br/> |Formulaires nécessitant une petite quantité de code seulement.  <br/> |Formulaires contenant de nombreuses lignes de code.  <br/> |
    
@@ -40,7 +40,7 @@ Notez que le déploiement de votre formulaire en tant que solution bac à sable 
     
 - Il doit utiliser C# ou Visual Basic comme langage de programmation.
     
-- Envoi impossible à des connexions de données de messagerie.
+- Impossible d’envoyer des données aux connexions de données par courrier électronique.
     
 - Il ne peut pas avoir des propriétés promues pour des connexions partie-à-partie.
     

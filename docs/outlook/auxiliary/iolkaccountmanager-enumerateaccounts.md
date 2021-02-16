@@ -77,7 +77,7 @@ _ppEnum_
 
 Spécification de valeur NULL pour la catégorie renvoie un énumérateur de tous les comptes du type spécifié. De même, la spécification NULL pour le type renvoie un énumérateur de tous les comptes de la catégorie spécifiée.
   
- **IOlkAccountManager::EnumerateAccounts** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange. Si le compte est un compte Exchange (*pclsidType* est **CLSID_OlkMAPIAccount** ) et que vous essayez d'énumérer les comptes qui implémentent le carnet d'adresses (*prgclsidCategory* est **CLSID_OlkAddressBook** ), l'appel ** IOlkAccountManager:: EnumerateAccounts** ne renvoie pas le compte Exchange dans l'énumérateur de comptes *ppEnum* . 
+ **IOlkAccountManager::EnumerateAccounts** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange. Si le compte est un compte Exchange *(pclsidType*  est **CLSID_OlkMAPIAccount** ), et que vous essayez d’éumerer les comptes qui implémentent le carnet d’adresses (*prgclsidCategory*  est **CLSID_OlkAddressBook** ), l’appel de **IOlkAccountManager::EnumerateAccounts** ne retournera pas le compte Exchange dans l’éumérateur de comptes  *ppEnum*  . 
   
 ## <a name="see-also"></a>Voir aussi
 

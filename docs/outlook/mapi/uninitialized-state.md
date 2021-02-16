@@ -1,5 +1,5 @@
 ---
-title: État non initialisé
+title: État nonnitialisé
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425560"
 ---
-# <a name="uninitialized-state"></a>État non initialisé
+# <a name="uninitialized-state"></a>État nonnitialisé
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'état non initialisé est les objets de formulaire d'état initial doivent se trouver lors de leur création initiale. Les objets Form sont initialisés avec les données de message lorsqu'une application cliente appelle la méthode [IPersistMessage:: InitNew](ipersistmessage-initnew.md) ou [IPersistMessage:: Load](ipersistmessage-load.md) sur l'objet Form. Le tableau suivant décrit les transitions autorisées à partir de l'État unitialized. 
+L’état Non initialisé est l’état initial dans les objets de formulaire d’état qui doivent se trouve lors de leur première création. Les objets de formulaire sont initialisés avec les données de message lorsqu’une application cliente appelle la méthode [IPersistMessage::InitNew](ipersistmessage-initnew.md) or [IPersistMessage::Load](ipersistmessage-load.md) sur l’objet de formulaire. Le tableau suivant décrit les transitions autorisées à partir de l’état Unitialized. 
   
-|**Méthode IPersistMessage**|**Action**|**Nouvel État**|
+|**Méthode IPersistMessage**|**Action**|**Nouvel état**|
 |:-----|:-----|:-----|
-|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Charge l'objet Form avec les données par défaut.  <br/> |[Normal](normal-state.md) <br/> |
-|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Charge l'objet Form avec les données du message cible.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Renvoyer la valeur Success ou définir la dernière erreur sur et renvoyer E_UNEXPECTED.  <br/> |Non initialisée  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Renvoyer la dernière erreur.  <br/> |Non initialisée  <br/> |
-|Autres [IPersistMessage:](ipersistmessageiunknown.md) méthodes ou méthodes IUnknown à partir d'autres interfaces  <br/> |Définissez la dernière erreur sur et renvoyez E_UNEXPECTED.  <br/> |Non initialisée  <br/> |
+|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Chargez l’objet de formulaire avec les données par défaut.  <br/> |[Normal](normal-state.md) <br/> |
+|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Chargez l’objet de formulaire avec les données du message cible.  <br/> |Normal  <br/> |
+|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Renvoyer la réussite ou définir la dernière erreur sur et renvoyer E_UNEXPECTED.  <br/> |Nonnitialisé  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Renvoyer la dernière erreur.  <br/> |Nonnitialisé  <br/> |
+|Autres [méthodes IPersistMessage : méthodes ou méthodes IUnknown](ipersistmessageiunknown.md) à partir d’autres interfaces  <br/> |Définissez la dernière erreur sur et renvoyez E_UNEXPECTED.  <br/> |Nonnitialisé  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

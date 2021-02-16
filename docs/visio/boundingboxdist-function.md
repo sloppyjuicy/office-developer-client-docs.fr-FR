@@ -25,13 +25,13 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-BOUNDINGBOXDIST (* * *index* * *) 
+BOUNDINGBOXDIST(** *Index* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Index_ <br/> |Obligatoire  <br/> |**Number** <br/> |Partie de la zone de délimitation de la forme à mesurer et à renvoyer. Les valeurs possibles, reportez-vous à la section Remarques.  <br/> |
+| _Index_ <br/> |Obligatoire  <br/> |**Number** <br/> |Partie du cadre de limite de la forme à mesurer et à renvoyer. Les valeurs possibles, reportez-vous à la section Remarques.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -39,17 +39,17 @@ BOUNDINGBOXDIST (* * *index* * *)
   
 ## <a name="remarks"></a>Remarques
 
- *Index* peut prendre l'une des valeurs suivantes. 
+ *Index*  peut être l’une des valeurs suivantes. 
   
 |**Élément**|**Valeur**|
 |:-----|:-----|
 |Largeur  <br/> |0  <br/> |
-|Hauteur  <br/> |0,1  <br/> |
-|Bord gauche à l’axe de la forme  <br/> |n°2  <br/> |
-|Axe de la forme au bord droit  <br/> |3  <br/> |
-|Axe de la forme au bord supérieur  <br/> |4  <br/> |
-|Bord inférieur à l’axe de la forme  <br/> |disque  <br/> |
-|Centre du cadre englobant à AxeX  <br/> |6.x  <br/> |
-|Centre du cadre englobant à AxeY  <br/> |7j/7  <br/> |
+|Hauteur  <br/> |1   <br/> |
+|Bord gauche à l’axe de la forme  <br/> |2   <br/> |
+|Axe de la forme au bord droit  <br/> |3   <br/> |
+|Axe de la forme au bord supérieur  <br/> |4   <br/> |
+|Bord inférieur à l’axe de la forme  <br/> |5   <br/> |
+|Centre du cadre englobant à AxeX  <br/> |6   <br/> |
+|Centre du cadre englobant à AxeY  <br/> |7   <br/> |
    
 

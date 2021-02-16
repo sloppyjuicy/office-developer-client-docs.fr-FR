@@ -20,7 +20,7 @@ Renvoie la date et l’heure de la dernière modification d’un document sous f
   
 ## <a name="syntax"></a>Syntaxe
 
-DOCLASTEDIT ()
+DOCLASTEDIT()
   
 ## <a name="remarks"></a>Remarques
 

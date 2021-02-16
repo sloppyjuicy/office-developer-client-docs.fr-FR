@@ -25,7 +25,7 @@ ms.locfileid: "33426204"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit un nouveau chemin de recherche dans le profil qui est utilisé pour le processus de résolution de noms. 
+Définit un nouveau chemin de recherche dans le profil utilisé pour le processus de résolution de noms. 
   
 ```cpp
 HRESULT SetSearchPath(
@@ -42,23 +42,23 @@ HRESULT SetSearchPath(
     
  _lpSearchPath_
   
-> dans Pointeur vers la structure [SRowSet](srowset.md) utilisée pour conserver le chemin de recherche. La première propriété pour chaque membre du **aRow** dans **SRowSet** doit être **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+> [in] Pointeur vers la structure [SRowSet](srowset.md) utilisée pour contenir le chemin de recherche. La première propriété de chaque **membre aRow** dans **SRowSet** doit être PR_ENTRYID **(** [PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le chemin de recherche a été correctement défini.
+> Le chemin d’accès de recherche a été correctement définie.
     
 MAPI_E_MISSING_REQUIRED_COLUMN 
   
-> L'un des conteneurs décrits dans la structure **SRowSet** n'inclut pas sa propriété **PR_ENTRYID** . 
+> L’un des conteneurs décrits dans la structure **SRowSet** n’inclut pas **sa PR_ENTRYID** propriété. 
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent la méthode **SetSearchPath** pour enregistrer les modifications apportées à l'ordre de recherche de conteneur utilisé pour résoudre les noms à l'aide de la méthode [IAddrBook:: ResolveName](iaddrbook-resolvename.md) . Le chemin de recherche est enregistré entre les instances d'une session. 
+Les clients et les fournisseurs de services appellent la méthode **SetSearchPath** pour enregistrer les modifications qui ont été apportées à l’ordre de recherche de conteneur utilisé pour résoudre les noms avec la méthode [IAddrBook::ResolveName.](iaddrbook-resolvename.md) Le chemin de recherche est enregistré entre les instances d’une session. 
   
-Les clients et les fournisseurs n'ont pas besoin d'appeler la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) pour faire en sorte que le chemin de recherche change définitivement. 
+Les clients et fournisseurs n’ont pas besoin d’appeler la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour rendre permanentes les modifications apportées au chemin de recherche. 
   
 ## <a name="see-also"></a>Voir aussi
 

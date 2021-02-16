@@ -1,5 +1,5 @@
 ---
-title: DeleteRecord Data, action de macro (application Web personnalisée Access)
+title: SupprimerEnregistrement, action de macro de données (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423152"
 ---
-# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>DeleteRecord Data, action de macro (application Web personnalisée Access)
+# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>SupprimerEnregistrement, action de macro de données (application web personnalisée Access)
 
 Vous pouvez utiliser l'action **SupprimerEnregistrement** pour supprimer un enregistrement. 
   
@@ -22,15 +22,15 @@ Vous pouvez utiliser l'action **SupprimerEnregistrement** pour supprimer un enre
   
 ## <a name="setting"></a>Paramètre
 
-L'action **DeleteRecord** possède les arguments suivants. 
+**L’action SupprimerEnregistrement** a les arguments suivants. 
   
 |**Argument**|**Description**|
 |:-----|:-----|
-|**Alias d’enregistrement** <br/> |Chaîne qui identifie l’enregistrement à supprimer. Si l'argument *alias* n'est pas spécifié, l'enregistrement actif est supprimé.  <br/> |
+|**Alias d’enregistrement** <br/> |Chaîne qui identifie l’enregistrement à supprimer. Si  *l’argument Alias*  n’est pas spécifié, l’enregistrement actuel est supprimé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**. Par exemple, utilisez la syntaxe suivante pour faire référence au dernier enregistrement créé: 
+Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**. Par exemple, utilisez la syntaxe suivante pour faire référence au dernier enregistrement créé : 
   
 `[LastCreateRecordIdentity]`
 

@@ -25,30 +25,30 @@ ms.locfileid: "33427373"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée d'une banque de messages étroitement couplée d'un transport.
+Contient l’identificateur d’entrée de la magasin de messages fortement couplé d’un transport.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OWN_STORE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x3E06  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Propriétés de la Banque de messages  <br/> |
+|Domaine :  <br/> |Propriétés de la boutique de messages  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie l'identificateur d'entrée pour le magasin étroitement couplé, le cas échéant. Par exemple, un fournisseur de transport peut spécifier l'identificateur de l'entrée de la Banque de dossiers privés afin que le spouleur MAPI puisse connecter le fournisseur de transport au magasin.
+Cette propriété spécifie l’identificateur d’entrée pour le magasin étroitement couplé, s’il en existe un. Par exemple, un fournisseur de transport peut spécifier l’identificateur d’entrée du magasin de dossiers privés afin que lepooler MAPI puisse connecter le fournisseur de transport à la banque.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

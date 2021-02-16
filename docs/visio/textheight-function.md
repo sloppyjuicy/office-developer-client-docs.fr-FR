@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251504
 localization_priority: Normal
 ms.assetid: 5a10892f-c8fa-c127-2f5a-564009ce5411
-description: Renvoie la hauteur du texte composé dans une forme où aucune ligne de texte ne dépasse MaximumWidth.
+description: Renvoie la hauteur du texte composé dans une forme où aucune ligne de texte ne dépasse le maximumwidth.
 ms.openlocfilehash: 7455f58f14f9a4a0ae1fcd5375dba5d5860d3852
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,18 +18,18 @@ ms.locfileid: "33427408"
 ---
 # <a name="textheight-function"></a>Fonction TEXTHEIGHT
 
-Renvoie la hauteur du texte composé dans une forme où aucune ligne de texte ne dépasse _MaximumWidth_. 
+Renvoie la hauteur du texte composé dans une forme où aucune ligne de texte ne dépasse  _maximumwidth_. 
   
 ## <a name="syntax"></a>Syntaxe
 
-TEXTHEIGHT (* * *ShapeName! TheText* * * * * *[, MaximumWidth]* * *) 
+TEXTHEIGHT(** *shapename! TheText* ** ** *[,maximumwidth]* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _ShapeName! theText_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à la cellule nommée TheText dans la forme cible.  _ShapeName!_ est le nom de la forme à partir de laquelle vous souhaitez récupérer le texte.  <br/> |
-| _MaximumWidth_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Largeur maximale du bloc de texte.  <br/> |
+| _shapename!theText_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à la cellule nommée TheText dans la forme cible.  _shapename!_ est le nom de la forme à partir de laquelle vous souhaitez récupérer le texte.  <br/> |
+| _maximumwidth_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Largeur maximale du bloc de texte.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

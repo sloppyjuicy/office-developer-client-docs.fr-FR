@@ -22,7 +22,7 @@ Renvoie le nombre de caractères dans une chaîne de texte.
   
 ## <a name="syntax"></a>Syntaxe
 
-LEN (* * *texte* * *) 
+LEN (** *text* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

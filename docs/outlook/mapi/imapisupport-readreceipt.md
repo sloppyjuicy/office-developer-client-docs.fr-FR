@@ -25,7 +25,7 @@ ms.locfileid: "33425322"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Génère un rapport de lecture ou de non-lecture pour un message.
+Génère un rapport en lecture ou non lu pour un message.
   
 ```cpp
 HRESULT ReadReceipt(
@@ -39,19 +39,19 @@ LPMESSAGE FAR * lppEmptyMessage
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont le rapport de lecture ou de non-lecture est généré. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont le rapport en lecture ou non lu est généré. L’indicateur suivant peut être définie :
     
 MAPI_NON_READ 
   
-> Un rapport non lu est généré. Si MAPI_NON_READ n'est pas défini, un rapport de lecture est généré.
+> Un rapport non lu est généré. Si MAPI_NON_READ n’est pas définie, un rapport de lecture est généré.
     
  _lpReadMessage_
   
-> dans Pointeur vers le message à propos duquel le rapport doit être généré.
+> [in] Pointeur vers le message à propos duquel le rapport doit être généré.
     
  _lppEmptyMessage_
   
-> [in, out] Lors de l'entrée, _lppEmptyMessage_ pointe vers un pointeur vers un message vide. En sortie, _lppEmptyMessage_ pointe vers un pointeur vers le message de rapport. 
+> [in, out] Lors de  _l’entrée, lppEmptyMessage_ pointe vers un pointeur vers un message vide. En sortie,  _lppEmptyMessage_ pointe vers un pointeur vers le message de rapport. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,11 +61,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: ReadReceipt** est implémentée uniquement pour les objets de prise en charge du fournisseur de banque de messages. Les fournisseurs de banques de messages appellent **ReadReceipt** pour indiquer à MAPI de générer un rapport de lecture ou de non-lecture pour le message pointé par le paramètre _lpReadMessage_ . 
+La **méthode IMAPISupport::ReadReceipt** est implémentée uniquement pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages appellent **ReadReceipt** pour demander à MAPI de générer un rapport lu ou non lu pour le message pointé par le paramètre _lpReadMessage._ 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **ReadReceipt** lorsque la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) est définie et que l'une des conditions suivantes est vraie:
+Appelez **ReadReceipt** lorsque la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) est définie et que l’une des conditions suivantes est vraie :
   
 - Le message a été lu.
     
@@ -73,17 +73,17 @@ Appelez **ReadReceipt** lorsque la propriété **PR_READ_RECEIPT_REQUESTED** ([P
     
 - Le message a été copié.
     
-- La méthode [IMessage:: SetReadFlag](imessage-setreadflag.md) du message a été appelée. 
+- La méthode [IMessage::SetReadFlag](imessage-setreadflag.md) du message a été appelée. 
     
-N'appelez pas **ReadReceipt** lorsqu'un message est supprimé. 
+N’appelez **pas ReadReceipt** lorsqu’un message est supprimé. 
   
-Un rapport de lecture ou de non-lecture ne doit être envoyé qu'une seule fois pour un message. Assurer le suivi de l'état de lecture d'un message et ne pas envoyer plusieurs rapports pour un seul message.
+Un rapport lu ou non lu ne doit être envoyé qu’une seule fois pour un message. Suivez l’état de lecture d’un message et n’envoyez pas plusieurs rapports pour un seul message.
   
-Si le paramètre _lppEmptyMessage_ pointe vers un message de rapport valide lorsque MAPI revient de **ReadReceipt**, appelez la méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) pour envoyer le message, puis libérez le pointeur en appelant sa propriété **IUnknown: s: Release. **méthode. 
+Si le paramètre _lppEmptyMessage_ pointe vers un message de rapport valide lorsque MAPI revient de **ReadReceipt,** appelez la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer le message, puis relâchez le pointeur en appelant sa méthode **IUnknown:s:Release.** 
   
-Si **ReadReceipt** échoue, le message doit être libéré sans être soumis. Si vous stockez l'état de lecture du message, vous pouvez essayer de générer le rapport de lecture ou de non-lecture ultérieurement. 
+En **cas d’échec de ReadReceipt,** le message doit être libéré sans être envoyé. Si vous stockez l’état de lecture du message, vous pouvez tenter de générer le rapport lu ou non lu ultérieurement. 
   
-Vous pouvez masquer ou afficher les rapports lus et non lus générés par les banques dans vos dossiers. Le stockage des rapports lus et non lus dans des dossiers cachés vous permet d'implémenter une sécurité plus étroite.
+Vous pouvez masquer ou afficher des rapports de lecture et non lus générés par les magasins dans vos dossiers. Le stockage de rapports lus et non lus dans des dossiers masqués vous permet d’implémenter une sécurité plus étroite.
   
 ## <a name="see-also"></a>Voir aussi
 

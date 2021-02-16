@@ -17,7 +17,7 @@ ms.locfileid: "33428150"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique présente un exemple de code en Visual C++ qui utilise la [propriété canonique PidLidHeaderItem](pidlidheaderitem-canonical-property.md) nommée pour déterminer si Microsoft Outlook 2013 a téléchargé uniquement l'en-tête d'un message ou l'en-tête et le corps d'un message. 
+Cette rubrique présente un exemple de code en Visual C++ qui utilise la propriété canonique [PidLidHeaderItem](pidlidheaderitem-canonical-property.md) nommée pour déterminer si Microsoft Outlook 2013 a téléchargé uniquement l’en-tête d’un message ou l’en-tête et le corps d’un message. 
   
 ```cpp
 BOOL bIsHeader(LPMESSAGE lpMessage) 

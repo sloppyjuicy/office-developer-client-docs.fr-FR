@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a409c49b-b390-021e-2ec1-7a5932a0c8de
-description: Représente l'ID d'entrée du dossier de remise par défaut pour le compte.
+description: Représente l’ID d’entrée du dossier de remise par défaut du compte.
 ms.openlocfilehash: 1bac4890791edfe661599d383e2cb048bf4c42fb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427149"
 ---
-# <a name="propacctdeliveryfolder"></a>PROP_ACCT_DELIVERY_FOLDER
+# <a name="prop_acct_delivery_folder"></a>PROP_ACCT_DELIVERY_FOLDER
 
-Représente l'ID d'entrée du dossier de remise par défaut pour le compte.
+Représente l’ID d’entrée du dossier de remise par défaut du compte.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -25,15 +25,15 @@ Voir [IOlkAccount](iolkaccount.md).
 |||
 |:-----|:-----|
 |Identificateur :  <br/> |0x0019  <br/> |
-|Type de propriété:  <br/> |PT_BINARY  <br/> |
-|Balise de propriété:  <br/> |0x00190102  <br/> |
-|Access  <br/> |Lecture/écriture  <br/> |
+|Type de propriété :  <br/> |PT_BINARY  <br/> |
+|Balise de propriété :  <br/> |0x00190102  <br/> |
+|Accès :  <br/> |Lecture/écriture  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Obtenir ou définir cette propriété à l'aide de [IOlkAccount:: getprop](iolkaccount-getprop.md) ou [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivement.
+Obtenez ou définissez cette propriété à l’aide de [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivement.
   
-Le dossier de remise par défaut est **boîte de réception**.
+Le dossier de remise par défaut est **Boîte de réception**.
   
 ## <a name="see-also"></a>Voir aussi
 

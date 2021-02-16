@@ -1,5 +1,5 @@
 ---
-title: Section [extensions] du fichier de configuration de formulaire
+title: Section Fichier de configuration de formulaire [Extensions]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,31 +15,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423754"
 ---
-# <a name="form-configuration-file-extensions-section"></a>Section [extensions] du fichier de configuration de formulaire
+# <a name="form-configuration-file-extensions-section"></a>Section Fichier de configuration de formulaire [Extensions]
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[extensions]** répertorie les attributs étendus du formulaire, généralement un jeu de propriétés nommé, qui sont des attributs autres que ceux de base répertoriés dans la section **[Description]** du fichier de configuration de formulaire. Les attributs étendus sont des propriétés retournées à partir d'appels à la méthode **GetProps** de l'objet **IMAPIFormInfo** avec le bit supérieur défini dans la balise property. Les applications clientes peuvent déterminer les attributs étendus d'un formulaire, le cas échéant, en extrayant ces balises. Pour ce faire, les clients appellent la méthode [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) , en transmettant les noms des propriétés du formulaire et appellent la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) pour obtenir les propriétés. 
+La section **[Extensions]** répertorie les attributs étendus du formulaire, généralement un jeu de propriétés nommé, qui sont des attributs autres que les attributs de base répertoriés dans la section **[Description]** du fichier de configuration du formulaire. Les attributs étendus sont des propriétés renvoyées par les appels à la méthode **GetProps** de l’objet **IMAPIFormInfo** avec le bit élevé de la balise de propriété. Les applications clientes peuvent déterminer les attributs étendus d’un formulaire, s’il y en a, en récupérant ces balises. Pour ce faire, les clients appellent la méthode [IMAPIProp::GetIDsFromNames,](imapiprop-getidsfromnames.md) en passant les noms des propriétés du formulaire et en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir les propriétés. 
   
- **Long**
+ **[Extensions]**
   
- **Long.** _chaîne1_ =  _Chaîne2_
+ **Extension.** _string1_  =   _string2_
   
-Chaque section de propriété extension définit un attribut extension à l'aide de la syntaxe de propriété nommée MAPI. Le type de propriété doit être PT_LONG ou PT_STRING8. Les jeux de propriétés qui contiennent des chaînes nommées ne sont pas pris en charge. Le format de la section **[extension]** est le suivant: 
+Chaque section de propriété d’extension définit un attribut d’extension à l’aide de la syntaxe de propriété nommée MAPI. Le type de propriété doit être PT_LONG ou PT_STRING8. Les jeux de propriétés qui contiennent des chaînes nommées ne sont pas pris en charge. Le format de la section **[Extension]** est le suivante : 
   
- **Long.** _Chaîne2_ **]**
+ **[Extension.** _string2_ **]**
   
- **Type** =  _entier_
+ **Type**  =   _integer_
   
- **** =  _GUID_ NmidPropset
+ **NmidPropset**  =   _guid_
   
- **** =  _Entier_ NmidInteger
+ **NmidInteger**  =   _integer_
   
- **** =  __ Chaîne |  de valeur_entière_
+ **Valeur**  =   _string_  |   _integer_
   
-Vous trouverez ci-dessous un exemple de section **[extensions]** et une section associée ultérieure. 
+Voici un exemple de section **[Extensions]** et une section connexe suivante. 
   
 ```
 [Extensions]

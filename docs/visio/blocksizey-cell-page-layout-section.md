@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm110
 localization_priority: Normal
 ms.assetid: be51e18e-ea49-0788-1a17-866090afb9f4
-description: Détermine la taille du bloc vertical, la zone dans laquelle vos formes doivent entrer sur la page de dessin lorsque vous les disposez à l'aide de la boîte de dialogue Configurer la disposition (sous l'onglet création, dans le groupe disposition, cliquez sur nouvelle disposition de page, puis cliquez sur autres options de disposition).
+description: Détermine la taille du bloc vertical, la zone dans laquelle chacune de vos formes doit tenir sur la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition).
 ms.openlocfilehash: 08f2012bb027267810c21ef253a0073bb42d3a96
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33427401"
 ---
 # <a name="blocksizey-cell-page-layout-section"></a>BlockSizeY, cellule (section Page Layout)
 
-Détermine la taille du bloc vertical, la zone dans laquelle vos formes doivent entrer sur la page de dessin lorsque vous les disposez à l'aide de la boîte de dialogue **configurer la disposition** (sous l'onglet **création** , dans le groupe **disposition** , cliquez sur **nouvelle disposition de page**, puis cliquez sur **autres options de disposition**.
+Détermine la taille du bloc vertical, la zone dans laquelle chacune de vos formes doit tenir sur la  page de dessin  lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de **page,** puis cliquez sur Autres  **options** de disposition).
   
 ## <a name="remarks"></a>Remarques
 
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule BlockSizeY à l'aide d'un index à pa
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 | Index de la cellule :  <br/> |**visPLOBlockSizeY** <br/> |
    

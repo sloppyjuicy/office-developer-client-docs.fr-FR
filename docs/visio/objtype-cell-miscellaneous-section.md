@@ -32,19 +32,19 @@ Détermine si les objets sont positionnables ou repositionnables dans les diagra
 
 Par défaut, la cellule ObjType est définie sur No Formula, ce qui renvoie la valeur 0 ; c’est donc l’application qui détermine si la forme peut être positionnée selon son contexte. Par exemple, si vous dessinez un rectangle, la valeur de la cellule ObjType associée est 0. Si vous utilisez ensuite l’outil **Connecteur** pour relier le rectangle à une autre forme, Visio rétablit la cellule ObjType du rectangle sur la valeur 1 (positionnable). 
   
-La valeur de la cellule ObjType peut être une combinaison de plusieurs valeurs. En revanche, si le bit non positionnable est défini&amp;(H4), il prend la priorité sur les autres valeurs à l'exception de&amp;la valeur de groupe (H8).
+La valeur de la cellule ObjType peut être une combinaison de plusieurs valeurs. Toutefois, si le bit non positionnable est définie (H4), il est prioritaire sur les autres valeurs à l’exception de la valeur de groupe &amp; ( &amp; H8).
   
 Pour obtenir une référence à la cellule ObjType par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Déclaré  <br/> |
+|Nom de la cellule :  <br/> |ObjType  <br/> |
    
 Pour obtenir une référence à la cellule ObjType à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowMisc** <br/> |
 |Index de la cellule :  <br/> |**visLOFlags** <br/> |
    

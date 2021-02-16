@@ -25,13 +25,13 @@ ms.locfileid: "33428332"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si l'élément est un élément de télécopie Internet.
+Indique si l’élément est un élément de télécopie Internet.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidIsIPFax  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x0000859B  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x0000859B  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Messagerie générale  <br/> |
    
@@ -41,11 +41,11 @@ Indique si l'élément est un élément de télécopie Internet.
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

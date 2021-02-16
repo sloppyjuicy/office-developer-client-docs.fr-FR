@@ -25,9 +25,9 @@ Contient une ligne pour chaque élément de données de forme et les cellules po
 Vous pouvez définir des éléments de données de forme en utilisant la fenêtre **Données de forme** ou les cellules de la section Shape Data. 
   
 > [!NOTE]
-> Dans les versions précédentes de Visio, la section **données de forme** était appelée **propriétés personnalisées**. 
+> Dans les versions précédentes de Visio, la section **Données de** forme était appelée **Propriétés personnalisées.** 
   
-- Dans la fenêtre ShapeSheet, vous pouvez définir des données de forme dans la section **données de forme** . Cliquez avec le bouton droit dans la fenêtre Feuille ShapeSheet, cliquez sur **Insérer une section**, puis activez la case à cocher **Données de forme**. Vous pouvez ajouter autant de prop.  *Nommez* les lignes selon vos besoins, assignez des noms parlants aux lignes et définissez des valeurs de cellule. 
+- Dans la fenêtre Feuille ShapeSheet, vous pouvez définir des données de forme dans la section **Données de** forme. Cliquez avec le bouton droit dans la fenêtre Feuille ShapeSheet, cliquez sur **Insérer une section**, puis activez la case à cocher **Données de forme**. Vous pouvez ajouter autant de prop.  *nommez*  les lignes selon vos besoins, attribuez des noms significatifs aux lignes et définissez des valeurs de cellule. 
     
 - Dans la fenêtre de dessin, vous pouvez définir des éléments de données de forme dans la fenêtre **Données de forme**. Sous l’onglet **Affichage**, dans le groupe **Afficher/Masquer**, cliquez sur **Volet de tâches**, puis cliquez sur **Données de forme**. Pour accéder à la boîte de dialogue **Définir les données de forme**, cliquez avec le bouton droit de la souris sur la fenêtre **Données de forme**, puis choisissez **Définir les données de forme**.
     

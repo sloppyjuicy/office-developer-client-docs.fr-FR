@@ -25,30 +25,30 @@ ms.locfileid: "33424461"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient la valeur TRUE si l'Assistant Profil doit supprimer la page Carnet d'adresses personnel (Cap).
+Cette propriété contient TRUE si l’Assistant Profil doit supprimer la page du carnet d’adresses personnel.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_WIZARD_NO_PAB_PAGE  <br/> |
 |Identificateur :  <br/> |0x6701  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Administration d'Exchange  <br/> |
+|Domaine :  <br/> |Administration Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de services peuvent définir cette propriété lors de l'appel d'une fonction basée sur le prototype de fonction [LAUNCHWIZARDENTRY](launchwizardentry.md) . Cette propriété indique à l'Assistant Profil que le fournisseur ne veut pas que la page PAB s'affiche pendant la boîte de dialogue de l'utilisateur. 
+Les fournisseurs de services peuvent définir cette propriété lors de l’appel d’une fonction basée sur le prototype de fonction [LAUNCHWIZARDENTRY.](launchwizardentry.md) Cette propriété indique à l’Assistant Profil que le fournisseur ne souhaite pas que la page du PAB s’affiche pendant la boîte de dialogue utilisateur. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

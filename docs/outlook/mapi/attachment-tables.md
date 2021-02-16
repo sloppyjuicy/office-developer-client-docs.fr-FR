@@ -19,23 +19,23 @@ ms.locfileid: "33427442"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une table Attachment contient des informations sur tous les objets Attachment associés à un message envoyé ou à un message en cours de composition. 
+Une table de pièces jointes contient des informations sur tous les objets de pièce jointe associés à un message envoyé ou à un message en cours de composition. 
   
-Seules les pièces jointes qui ont été enregistrées via un appel à la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) du message sont incluses dans le tableau. Les tables de pièces jointes sont implémentées par les fournisseurs de banques de messages et utilisées par les fournisseurs de transport et les applications clientes. 
+Seules les pièces jointes qui ont été enregistrées par le biais d’un appel à la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) du message sont incluses dans le tableau. Les tables de pièces jointes sont implémentées par les fournisseurs de magasins de messages et utilisées par les applications clientes et les fournisseurs de transport. 
   
-Vous pouvez accéder à une table de pièces jointes en appelant l'une des méthodes suivantes:
+Une table de pièces jointes est accessible en appelant l’une des opérations suivantes :
   
 - [IMessage::GetAttachmentTable](imessage-getattachmenttable.md)
     
-- [IMAPIProp:: OpenProperty](imapiprop-openproperty.md), qui demande la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)).
+- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), demandant la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)).
     
 Les tables de pièces jointes sont dynamiques.
   
-Les fournisseurs de banques de messages ne sont pas tenus de prendre en charge le tri sur leurs tables de pièces jointes. Si le tri n'est pas pris en charge, le tableau doit être présenté dans l'ordre en fonction de la position de rendu, la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
+Les fournisseurs de magasins de messages ne sont pas tenus de prendre en charge le tri sur leurs tables de pièces jointes. Si le tri n’est pas pris en charge, le tableau doit être présenté dans l’ordre en fonction de la position de rendu ( **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
   
-Les fournisseurs de banques de messages ne sont également pas tenus de prendre en charge les restrictions sur leurs tables de pièces jointes. Les fournisseurs qui ne prennent pas en charge les restrictions retournent MAPI_E_NO_SUPPORT à partir de leurs implémentations de [IMAPITable:: Restrict](imapitable-restrict.md) et [IMAPITable:: FindRow](imapitable-findrow.md).
+Les fournisseurs de magasins de messages ne sont pas non plus tenus de prendre en charge les restrictions sur leurs tables de pièces jointes. Les fournisseurs qui ne viennent pas en charge les restrictions MAPI_E_NO_SUPPORT à partir de leurs implémentations [d’IMAPITable::Restrict](imapitable-restrict.md) et [IMAPITable::FindRow](imapitable-findrow.md).
   
-Les tables de pièces jointes peuvent être petites; Il n'y a que quatre colonnes dans le jeu de colonnes requis:
+Les tables de pièces jointes peuvent être petites ; il n’y a que quatre colonnes dans l’ensemble de colonnes requis :
   
 - **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 
     
@@ -45,21 +45,21 @@ Les tables de pièces jointes peuvent être petites; Il n'y a que quatre colonne
     
 - **PR_RENDERING_POSITION**
     
- **PR_ATTACH_NUM** n'est pas transmissible et contient une valeur permettant d'identifier de manière unique une pièce jointe dans un message. Cette propriété est souvent utilisée comme index dans les lignes du tableau. **PR_ATTACH_NUM** a une courte durée de vie; elle n'est valide que lorsque le message contenant la pièce jointe est ouvert. Sa valeur reste constante tant que la table des pièces jointes est ouverte. 
+ **PR_ATTACH_NUM** est nontransmitable et contient une valeur permettant d’identifier de manière unique une pièce jointe dans un message. Cette propriété est souvent utilisée comme index dans les lignes du tableau. **PR_ATTACH_NUM** a une courte durée de vie ; il n’est valide que lorsque le message contenant la pièce jointe est ouvert. Sa valeur reste constante tant que la table des pièces jointes est ouverte. 
   
- **PR_INSTANCE_KEY** est requis dans presque toutes les tables. Elle est utilisée pour identifier une ligne particulière de manière unique. 
+ **PR_INSTANCE_KEY** est requis dans presque tous les tableaux. Il est utilisé pour identifier de manière unique une ligne particulière. 
   
- **PR_RECORD_KEY** est couramment utilisé pour identifier un objet de manière unique à des fins de comparaison. Contrairement à **PR_ATTACH_NUM**, **PR_RECORD_KEY** a la même étendue qu'un identificateur d'entrée à long terme; Il reste disponible et valide même après la fermeture et la réouverture du message. Pour plus d'informations sur l'utilisation des clés d'enregistrement dans MAPI, voir [enregistrement MAPI et clés de recherche](mapi-record-and-search-keys.md).
+ **PR_RECORD_KEY** est généralement utilisé pour identifier de manière unique un objet à des fins de comparaison. Contrairement **PR_ATTACH_NUM**, **PR_RECORD_KEY** a la même étendue qu’un identificateur d’entrée à long terme ; Il reste disponible et valide même après la fermeture et la réouverture du message. Pour plus d’informations sur l’utilisation des clés d’enregistrement dans MAPI, voir [MapI Record and Search Keys](mapi-record-and-search-keys.md).
   
- **PR_RENDERING_POSITION** indique le mode d'affichage d'une pièce jointe dans un message texte enrichi. Elle peut être définie sur un décalage en caractères, le premier caractère du contenu du message tel qu'il est stocké dans la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) étant offset 0 ou-1 (0xFFFFFFFF), indiquant que la pièce jointe ne doit pas être affichée dans le message texte du tout. Il est également possible de ne pas définir **PR_RENDERING_POSITION** . 
+ **PR_RENDERING_POSITION** indique comment une pièce jointe doit être affichée dans un message texte enrichi. Il peut être décalé en caractères, le premier caractère du contenu du message étant stocké dans la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) étant décalé de 0 ou de -1 (0xFFFFFFFF), indiquant que la pièce jointe ne doit pas être rendue du tout dans le texte du message. Ne pas **définir PR_RENDERING_POSITION** est également une option. 
   
-Lorsqu'une table de pièces jointes est triée en fonction de la position de rendu, le fournisseur de banque de messages la traite comme une valeur signée (PT_LONG). Par conséquent, les pièces jointes avec des positions de rendu de-1 sont triées avant les pièces jointes avec des positions de rendu qui reflètent des décalages valides. 
+Lorsqu’une table de pièces jointes est triée par position de rendu, le fournisseur de la boutique de messages la traite comme une valeur signée (PT_LONG). Par conséquent, les pièces jointes dont les positions de rendu sont de -1 sont triées avant les pièces jointes dont les positions de rendu reflètent des décalages valides. 
   
-Pour plus d'informations sur le rendu d'une pièce jointe dans un message en texte brut, voir [rendu d'une pièce jointe en texte brut](rendering-an-attachment-in-plain-text.md). 
+Pour plus d’informations sur le rendu d’une pièce jointe dans un message en texte simple, voir [Rendu d’une pièce jointe en texte simple.](rendering-an-attachment-in-plain-text.md) 
   
-Pour plus d'informations sur le rendu d'une pièce jointe dans du texte mis en forme comme le format RTF, consultez la rubrique [rendu d'une pièce jointe au format RTF](rendering-an-attachment-in-rtf-text.md).
+Pour plus d’informations sur le rendu d’une pièce jointe dans du texte formaté tel que RTF (Rich Text Format), voir [Rendering an Attachment in RTF Text](rendering-an-attachment-in-rtf-text.md).
   
-Certains des fournisseurs de banque de messages de propriétés incluent généralement dans un tableau de pièces jointes, car ils sont faciles à calculer ou à récupérer:
+Voici quelques-unes des propriétés que les fournisseurs de magasins de messages incluent généralement dans une table de pièces jointes, car elles sont faciles à calculer ou à récupérer :
   
 |||
 |:-----|:-----|
@@ -72,5 +72,5 @@ Certains des fournisseurs de banque de messages de propriétés incluent génér
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Tables MAPI](mapi-tables.md)
+- [MAPI Tables](mapi-tables.md)
 

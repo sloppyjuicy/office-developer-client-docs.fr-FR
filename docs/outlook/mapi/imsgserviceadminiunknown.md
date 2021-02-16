@@ -25,37 +25,37 @@ ms.locfileid: "33426134"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Apporte des modifications à un service de messagerie dans un profil.
+Modifie un service de message dans un profil.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MapiX. h  <br/> |
-|Exposé par:  <br/> |Objets d'administration du service de messagerie  <br/> |
+|Fichier d’en-tête :  <br/> |MapiX.h  <br/> |
+|Exposé par :  <br/> |Objets d’administration de service de message  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMsgServiceAdmin  <br/> |
-|Type de pointeur:  <br/> |LPSERVICEADMIN  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMsgServiceAdmin  <br/> |
+|Type de pointeur :  <br/> |LPSERVICEADMIN  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Généré](imsgserviceadmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur générée par un objet d'administration de service de messagerie.  <br/> |
-|[GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) <br/> |Fournit l'accès à la table de service de messagerie, une liste des services de messagerie dans le profil.  <br/> |
-|[CreateMsgService](imsgserviceadmin-createmsgservice.md) <br/> |Ajoute un service de messagerie au profil actif.  <br/> <br/>**Remarque**: cette méthode est déconseillée. Utilisez [IMsgServiceAdmin2:: CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) à la place.           |
-|[DeleteMsgService](imsgserviceadmin-deletemsgservice.md) <br/> |Supprime un service de messagerie d'un profil.  <br/> |
-|[CopyMsgService](imsgserviceadmin-copymsgservice.md) <br/> |Copie un service de messagerie dans un profil.  <br/> |
-|[RenameMsgService](imsgserviceadmin-renamemsgservice.md) <br/> |Déconseillé. Affecte un nouveau nom à un service de messagerie.  <br/> |
-|[ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) <br/> |Reconfigure un service de messagerie.  <br/> |
-|[OpenProfileSection](imsgserviceadmin-openprofilesection.md) <br/> |Ouvre une section du profil actif et renvoie un pointeur [IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire.  <br/> |
-|[MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md) <br/> |Définit l'ordre dans lequel les fournisseurs de transport sont appelés pour la remise d'un message.  <br/> |
-|[AdminProviders](imsgserviceadmin-adminproviders.md) <br/> |Renvoie un pointeur qui fournit l'accès à un objet d'administration de fournisseur.  <br/> |
-|[SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) <br/> |Désigne un service de messagerie en tant que fournisseur de l'identité principale pour le profil.  <br/> |
-|[GetProviderTable](imsgserviceadmin-getprovidertable.md) <br/> |Fournit l'accès à la table du fournisseur, une liste des fournisseurs de services dans le profil.  <br/> |
+|[GetLastError](imsgserviceadmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur générée par un objet d’administration de service de message.  <br/> |
+|[GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) <br/> |Permet d’accéder à la table des services de message, liste des services de message dans le profil.  <br/> |
+|[CreateMsgService](imsgserviceadmin-createmsgservice.md) <br/> |Ajoute un service de message au profil actuel.  <br/> <br/>**REMARQUE**: cette méthode est dépréciée. Utilisez [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) à la place.           |
+|[DeleteMsgService](imsgserviceadmin-deletemsgservice.md) <br/> |Supprime un service de message d’un profil.  <br/> |
+|[CopyMsgService](imsgserviceadmin-copymsgservice.md) <br/> |Copie un service de message dans un profil.  <br/> |
+|[RenameMsgService](imsgserviceadmin-renamemsgservice.md) <br/> |Déconseillé. Attribue un nouveau nom à un service de message.  <br/> |
+|[ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) <br/> |Reconfigure un service de message.  <br/> |
+|[OpenProfileSection](imsgserviceadmin-openprofilesection.md) <br/> |Ouvre une section du profil actuel et renvoie un [pointeur IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire.  <br/> |
+|[MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md) <br/> |Définit l’ordre dans lequel les fournisseurs de transport sont appelés pour remettre un message.  <br/> |
+|[AdminProviders](imsgserviceadmin-adminproviders.md) <br/> |Renvoie un pointeur qui donne accès à un objet d’administration de fournisseur.  <br/> |
+|[SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) <br/> |Désigne un service de message comme fournisseur de l’identité principale du profil.  <br/> |
+|[GetProviderTable](imsgserviceadmin-getprovidertable.md) <br/> |Permet d’accéder à la table des fournisseurs, qui répertorie les fournisseurs de services dans le profil.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Une implémentation peut obtenir un pointeur vers une interface **IMsgServiceAdmin** de deux manières: en appelant la méthode [IMAPISession:: AdminServices](imapisession-adminservices.md) ou en appelant la méthode [IProfAdmin:: AdminServices](iprofadmin-adminservices.md) . Pour les clients qui concernent principalement la configuration de profil, **IProfAdmin:: AdminServices** est le meilleur moyen d'obtenir l'interface **IMsgServiceAdmin** , car il ne se connecte pas aux fournisseurs dans la session MAPI. Si un client a besoin de pouvoir apporter des modifications au profil actif, **IMAPISession:: AdminServices** doit être appelé pour obtenir le pointeur **IMsgServiceAdmin** . N'oubliez pas que, bien que MAPI n'autorise pas la suppression d'un profil en cours d'utilisation, il n'existe aucune protection pour empêcher un client de supprimer tous les services de messagerie dans le profil. 
+Une implémentation peut obtenir un pointeur vers une interface **IMsgServiceAdmin** de deux manières : en appelant la méthode [IMAPISession::AdminServices](imapisession-adminservices.md) ou en appelant la méthode [IProfAdmin::AdminServices.](iprofadmin-adminservices.md) Pour les clients principalement concernés par la configuration de profil, **IProfAdmin::AdminServices** est le moyen préféré pour obtenir l’interface **IMsgServiceAdmin,** car il ne se connecte pas aux fournisseurs à la session MAPI. Si un client nécessite la possibilité d’apporter des modifications au profil actif, **IMAPISession::AdminServices** doit être appelé pour obtenir le pointeur **IMsgServiceAdmin.** Notez que même si MAPI n’autorise pas la suppression d’un profil en cours d’utilisation, il n’existe aucune protection pour empêcher un client de supprimer tous les services de message du profil. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1021757
 localization_priority: Normal
 ms.assetid: 0c2f6e06-b772-2006-ec7b-8695d097f146
-description: Renvoie le ou les caractères les plus à gauche d'une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
+description: Renvoie le ou les caractères les plus à gauche dans une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
 ms.openlocfilehash: aa4141cfc53bd41a6d58e8bc666b18a06fc80245
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33427520"
 ---
 # <a name="left-function-visioshapesheet"></a>LEFT Function (VisioShapeSheet)
 
-Renvoie le ou les caractères les plus à gauche d'une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
+Renvoie le ou les caractères les plus à gauche dans une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
   
 ## <a name="syntax"></a>Syntaxe
 
-Gauche (* * *texte* * *, [, * * *num_chars_opt* * *]) 
+LEFT(** *text* **, [, ** *num_chars_opt* ** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -37,9 +37,9 @@ Chaîne
   
 ## <a name="remarks"></a>Remarques
 
-La valeur de _num_chars_opt_ doit être supérieure ou égale à zéro (0). 
+La valeur de  _num_chars_opt_ doit être supérieure ou égale à zéro (0). 
   
-Si _num_chars_opt_ est supérieur à la longueur du texte, Left renvoie tout le texte. Si _num_chars_opt_ est omis, il est considéré comme étant égal à 1. 
+Si  _num_chars_opt_ est supérieure à la longueur du texte, left renvoie tout le texte. Si  _num_chars_opt_ est omis, il est supposé être 1. 
   
 ## <a name="example"></a>Exemple
 

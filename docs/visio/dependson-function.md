@@ -22,13 +22,13 @@ Crée une dépendance de référence de cellule.
   
 ## <a name="syntax"></a>Syntaxe
 
-DEPENDSON (* * *cellref* * * [, * * *cellref2* * *,...]) 
+DEPENDSON(** *cellref* ** [, ** *cellref2* **,...]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _CellRef_ <br/> |Obligatoire  <br/> |**String** <br/> |Première référence de cellule.  <br/> |
+| _cellref_ <br/> |Obligatoire  <br/> |**String** <br/> |Première référence de cellule.  <br/> |
 | _cellref2_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Deuxième référence de cellule.  <br/> |
    
 ## <a name="remarks"></a>Remarques

@@ -29,7 +29,7 @@ Contient un tableau de structures [GUID](guid.md) utilisées pour décrire une p
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SGuidArray
@@ -44,15 +44,15 @@ typedef struct _SGuidArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpguid** . 
+> Nombre de valeurs dans le tableau pointées par **le membre lpguid.** 
     
  **lpguid**
   
-> Pointeur vers un tableau de structures **GUID** qui contient les valeurs d'identificateurs de classe. 
+> Pointeur vers un tableau de structures **GUID** qui contient les valeurs d’identificateur de classe. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur PT_MV_CLSID, consultez la rubrique [liste des types de propriétés](property-types.md).
+Pour plus d’informations PT_MV_CLSID, voir [Liste des types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

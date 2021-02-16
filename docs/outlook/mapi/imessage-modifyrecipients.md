@@ -50,7 +50,7 @@ MODRECIP_MODIFY
     
 MODRECIP_REMOVE 
   
-> Les destinataires existants doivent être supprimés de la liste des destinataires en tant qu'index la propriété **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) incluse dans le tableau de valeurs de propriété de chaque entrée de destinataire dans le paramètre _lpMods_ . 
+> Les destinataires existants doivent être supprimés de la liste des destinataires en utilisant comme index la propriété **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) incluse dans le tableau des valeurs de propriété de chaque entrée de destinataire dans le paramètre _lpMods._ 
     
  _lpMods_
   
@@ -68,7 +68,7 @@ La m�thode **IMessage::ModifyRecipients** modifie la liste des destinataires d
   
 La structure **ADRLIST** contient une structure [ADRENTRY](adrentry.md) pour chaque destinataire et chaque structure **ADRENTRY** contient un tableau de valeurs de propri�t�s d�crivant les propri�t�s du destinataire. 
   
-Destinataires de la structure **ADRLIST** peuvent �tre r�solus ou non r�solues. La diff�rence r�side dans le nombre et le type des propri�t�s qui sont inclus. Un destinataire non résolu contient uniquement les propriétés **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) et **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) tandis qu'un destinataire résolu contient ces deux propriétés plus **PR_ADDRTYPE **([PidTagAddressType](pidtagaddresstype-canonical-property.md)) et **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Si **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) est disponible, il peut également être inclus.
+Destinataires de la structure **ADRLIST** peuvent �tre r�solus ou non r�solues. La diff�rence r�side dans le nombre et le type des propri�t�s qui sont inclus. Un destinataire non résolu contient uniquement les propriétés **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) et **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) tandis qu’un destinataire résolu contient ces deux propriétés plus **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) et **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Si **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) est disponible, il peut également être inclus.
   
 Au moment o� qu'un message est envoy�, il doit inclure uniquement les destinataires r�solus dans sa liste des destinataires. Destinataires non r�solus provoquent des rapports de non-remise � �tre cr�� et envoy� � l'exp�diteur d'origine du message. Pour plus d'informations sur le processus de r�solution de nom � partir du point de vue du client, consultez la rubrique [r�solution d'un nom](resolving-a-recipient-name.md). Pour plus d'informations � partir du point de vue du fournisseur de carnet d'adresses, voir [Impl�mentation de la r�solution de noms](implementing-name-resolution.md).
   
@@ -112,7 +112,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIABFunctions. cpp  <br/> |AddRecipient  <br/> |MFCMAPI utilise la m�thode **IMessage::ModifyRecipients** pour ajouter un destinataire � un message.  <br/> |
+|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utilise la m�thode **IMessage::ModifyRecipients** pour ajouter un destinataire � un message.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

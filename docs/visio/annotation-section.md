@@ -21,14 +21,14 @@ ms.locfileid: "33427422"
 Contient des informations sur les commentaires insérés sur une page de document. 
   
 > [!NOTE]
-> Cette section est utilisée pour le suivi des commentaires uniquement lors de l'ouverture d'un fichier. VSD dans Microsoft Visio 2013 ou lors de l'enregistrement d'un fichier. vsdx au format de fichier. VSD. Il n'est pas utilisé pour le suivi des commentaires dans les nouveaux documents. vsdx dans Visio 2013. 
+> Cette section est utilisée pour suivre les commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd. Il n’est pas utilisé pour le suivi des commentaires dans les nouveaux documents .vsdx dans Visio 2013. 
   
 ## <a name="remarks"></a>Remarques
 
-La section **annotation** de la feuille ShapeSheet d'une page contient une ligne pour chaque Commentaire ajouté à une page dans le dessin, qu'il s'agisse d'une page de dessin d'origine ou d'une page de superposition de marques de révision (une page contenant un balisage qui a été ajouté au dessin par un relecteur). Les informations sur les balises qui ont été ajoutées à l'aide d'une entrée manuscrite ou d'autres formes, plutôt que des commentaires, ne sont pas incluses dans la section **annotation** . 
+La section **Annotation** de la feuille ShapeSheet d’une page contient une ligne pour chaque commentaire ajouté à une page du dessin, qu’il s’agit d’une page de dessin d’origine ou d’une page de superposition de marques de calcul (page contenant des marques de style ajoutées au dessin par un relecteur). Les informations sur le markup qui a été ajouté à l’aide d’entrées manuscrites ou d’autres formes, plutôt que des commentaires, ne sont pas incluses dans la section **Annotation.** 
   
 Pour afficher la feuille ShapeSheet d’une page, assurez-vous que rien n’est sélectionné sur la page, cliquez avec le bouton droit sur la page, puis cliquez sur **Afficher la feuille ShapeSheet**.
   
-Pour plus d'informations sur des relecteurs spécifiques **** , reportez-vous à la section réviseur dans la feuille ShapeSheet du document. 
+Pour plus d’informations sur des relecteurs particuliers, voir la section **Relecteur** dans la feuille ShapeSheet du document. 
   
 

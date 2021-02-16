@@ -31,14 +31,14 @@ Pour obtenir une référence à la cellule Can Glue par un nom à partir d'une a
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Vérifie.  *nom* . Contrôles CanGluewhere.  *Name* est le nom de la ligne Controls.  <br/> |
+| Nom de la cellule :  <br/> | Contrôles.  *nom*  . Contrôles CanGluewhere.  *nom*  est le nom de la ligne des contrôles.  <br/> |
    
 Pour obtenir une référence à la cellule Can Glue à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionControls** <br/> |
-| Index de la ligne :  <br/> |**visRowControl** +  *i* où *i* = 0, 1, 2,...  <br/> |
+| Index de la ligne :  <br/> |**visRowControl**  +   *i* où *i* = 0, 1, 2, ...  <br/> |
 | Index de la cellule :  <br/> |**visCtlGlue** <br/> |
    
 

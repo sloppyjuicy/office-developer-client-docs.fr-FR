@@ -25,11 +25,11 @@ ms.locfileid: "33422893"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère toutes les lignes d'un tableau. 
+Récupère toutes les lignes d’un tableau. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -46,46 +46,46 @@ HRESULT HrQueryAllRows(
 
 ## <a name="parameters"></a>Paramètres
 
- _pTable_
+ _ptable_
   
-> dans Pointeur vers la table MAPI à partir de laquelle les lignes sont extraites. 
+> [in] Pointeur vers la table MAPI à partir de laquelle les lignes sont récupérées. 
     
  _ptaga_
   
-> dans Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant des colonnes de tableau. Ces balises sont utilisées pour sélectionner les colonnes spécifiques à récupérer. Si le paramètre _ptaga_ est null, **HrQueryAllRows** récupère le jeu de colonnes entier de la vue de table actuelle passée dans le paramètre _pTable_ . 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant des colonnes de tableau. Ces balises sont utilisées pour sélectionner les colonnes spécifiques à récupérer. Si le _paramètre ptaga_ est NULL, **HrQueryAllRows** récupère l’ensemble de colonnes entier de la vue de table actuelle transmise dans le _paramètre ptable._ 
     
- _avance_
+ _pres_
   
-> dans Pointeur vers une structure [SRestriction](srestriction.md) qui contient des restrictions de récupération. Si le paramètre _pres_ est null, **HrQueryAllRows** n'impose aucune restriction. 
+> [in] Pointeur vers une structure [SRestriction](srestriction.md) qui contient des restrictions de récupération. Si le  _paramètre pres_ est NULL, **HrQueryAllRows ne** fait aucune restriction. 
     
- _PSOS_
+ _psos_
   
-> dans Pointeur vers une structure [SSortOrderSet](ssortorderset.md) identifiant l'ordre de tri des colonnes à récupérer. Si le paramètre _PSOS_ est null, l'ordre de tri par défaut de la table est utilisé. 
+> [in] Pointeur vers une structure [SSortOrderSet](ssortorderset.md) identifiant l’ordre de tri des colonnes à récupérer. Si le  _paramètre psos_ est NULL, l’ordre de tri par défaut du tableau est utilisé. 
     
- _crowsMax_
+ _maxsMax_
   
-> dans Nombre maximal de lignes à récupérer. Si la valeur du paramètre _crowsMax_ est égale à zéro, aucune limite n'est définie pour le nombre de lignes extraites. 
+> [in] Nombre maximal de lignes à récupérer. Si la valeur du paramètre  _« zero_ » est zéro, aucune limite n’est définie sur le nombre de lignes récupérées. 
     
- _ppRows_
+ _pprows_
   
-> remarquer Pointeur vers un pointeur vers la structure [SRowSet](srowset.md) renvoyée qui contient un tableau de pointeurs vers les lignes de tableau récupérées. 
+> [out] Pointeur vers un pointeur vers la structure [SRowSet](srowset.md) renvoyée qui contient un tableau de pointeurs vers les lignes de tableau récupérées. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a extrait les lignes attendues d'un tableau. 
+> L’appel a récupéré les lignes attendues d’un tableau. 
     
 MAPI_E_TABLE_TOO_BIG 
   
-> Le nombre de lignes dans le tableau est supérieur au nombre passé pour le paramètre _crowsMax_ . 
+> Le nombre de lignes du tableau est supérieur au nombre passé pour le _paramètremax._ 
     
 ## <a name="remarks"></a>Remarques
 
-Une application cliente ou un fournisseur de services ne contrôle pas le nombre de lignes **HrQueryAllRows** tente de récupérer, à l'exception du fait qu'il impose une restriction vers laquelle pointe le paramètre _pres_ . Le paramètre _crowsMax_ ne limite pas la récupération à un certain nombre de lignes de tableau, mais définit plutôt une quantité maximale de mémoire disponible pour contenir toutes les lignes extraites. La seule protection contre le débordement de mémoire massive est la fonctionnalité stopgap fournie par la définition de _crowsMax_. L'erreur Return MAPI_E_TABLE_TOO_BIG signifie que le tableau contient trop de lignes à conserver en une seule fois dans la mémoire. 
+Une application cliente ou un fournisseur de services n’a aucun contrôle sur le nombre de lignes que **HrQueryAllRows** tente d’extraire, autrement qu’en élisant une restriction pointée par le paramètre _pres._ Le  _paramètre parcsMax_ ne limite pas la récupération à un certain nombre de lignes de tableau, mais définit plutôt une quantité maximale de mémoire disponible pour contenir toutes les lignes récupérées. La seule protection contre le dépassement de mémoire massive est la fonctionnalité stopgap fournie par la définition de _la fonctionmax._ Le retour d’MAPI_E_TABLE_TOO_BIG signifie que le tableau contient trop de lignes pour être maintenues en mémoire en même temps. 
   
-Les tables généralement petites, comme une table de banque de messages ou une table de fournisseurs, peuvent généralement être récupérées en toute sécurité avec **HrQueryAllRows**. Les tables susceptibles d'être très volumineuses, telles qu'une table des matières ou même une table de destinataires, doivent être parcourues dans des sous-sections à l'aide de la méthode [IMAPITable:: QueryRows](imapitable-queryrows.md) . 
+Les tables généralement de petite taille, telles qu’une table de magasins de messages ou une table de fournisseurs, peuvent généralement être récupérées en toute sécurité avec **HrQueryAllRows**. Les tables à risque d’être très grandes, telles qu’une table des matières ou même une table des destinataires, doivent être parcourues dans des sous-sections à l’aide de la méthode [IMAPITable::QueryRows.](imapitable-queryrows.md) 
   
-Si les propriétés d'une table ne sont pas définies lors de l'appel de **HrQueryAllRows** , elles sont renvoyées avec le type de propriété PT_NULL et l'identificateur de propriété PROP_ID_NULL 
+Si des propriétés de table ne sont pas définies lors de l’appel de **HrQueryAllRows,** elles sont renvoyées avec le type de propriété PT_NULL et l’identificateur de PROP_ID_NULL 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33428521"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avertit la visionneuse de formulaires qu'un formulaire est en cours de fermeture.
+Avertit la visionneuse de formulaires qu’un formulaire est en cours de fermeture.
   
 ```cpp
 HRESULT OnShutdown( void );
@@ -43,7 +43,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur les notifications de formulaire, consultez la rubrique [envoi et réception de notifications de formulaire](sending-and-receiving-form-notifications.md).
+Pour plus d’informations sur les notifications de formulaire, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Voir aussi
 

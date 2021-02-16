@@ -25,12 +25,12 @@ ms.locfileid: "33423999"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une page à onglets qui sera utilisée dans une boîte de dialogue construite à partir d'une table d'affichage. 
+Décrit une page à onglets qui sera utilisée dans une boîte de dialogue qui est conçue à partir d’un tableau d’affichage. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Macro connexe:  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Macro associée :  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
    
 ```cpp
 typedef struct _DTBLPAGE
@@ -47,31 +47,31 @@ typedef struct _DTBLPAGE
 
  **ulbLpszLabel**
   
-> Position en mémoire de l'étiquette de la chaîne de caractères pour l'onglet page.
+> Position en mémoire de l’étiquette de chaîne de caractères de l’onglet de page.
     
  **ulFlags**
   
-> Masque de des indicateurs utilisé pour désigner le format de l'étiquette désignée par le membre **ulbLpszLabelName** . L'indicateur suivant peut être défini: 
+> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabelName.** L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
-> L'étiquette est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, l'étiquette est au format ANSI.
+> L’étiquette est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, l’étiquette est au format ANSI.
     
  **ulbLpszComponent**
   
-> Position en mémoire d'une chaîne de caractères identifiant la section **[Help file Mappings] du fichier** MAPISVC. Fichier de configuration INF ou 0. Nom de fichier apparaissant dans le fichier MAPISVC. INF peut être utilisée par un utilisateur pour accéder à une aide étendue pour la page à onglets en cliquant sur le bouton **aide** dans la boîte de dialogue. Pour plus d'informations sur les entrées dans MAPISVC. INF, consultez le [format de fichier MAPISVC. INF](file-format-of-mapisvc-inf.md).
+> Position en mémoire d’une chaîne de caractères identifiant la section [Mappages des fichiers **d’aide]** dans MAPISVC. Fichier de configuration INF ou 0. Nom du fichier qui apparaît dans MAPISVC. La section INF peut être utilisée par un utilisateur pour accéder  à l’aide étendue de la page à onglets en cliquant sur le bouton Aide de la boîte de dialogue. Pour plus d’informations sur les entrées dans MAPISVC. INF, voir [Format de fichier de MAPISVC. INF](file-format-of-mapisvc-inf.md).
     
  **ulContext**
   
-> Identificateur unique de la page à onglets dans la chaîne définie par le membre **ulbLpszComponent** . Le membre **ulbLpszComponent** et le membre **ulContext** doivent avoir une valeur différente de zéro pour que le bouton **aide** fonctionne. Si cet identificateur est égal à zéro et que la chaîne du composant est NULL, aucune aide n'est associée à la page. 
+> Identificateur unique de la page à onglets dans la chaîne définie par le membre **ulbLpszComponent.** Le **membre ulbLpszComponent** et le membre **ulContext** doivent  tous deux être non zéro pour que le bouton Aide fonctionne. Si cet identificateur est zéro et que la chaîne du composant est NULL, aucune aide n’est associée à la page. 
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLPAGE** décrit une page à onglets qui est un contrôle utilisé pour séparer plusieurs boîtes de dialogue associées. En règle générale, ces boîtes de dialogue sont des feuilles de propriétés permettant d'afficher les options de configuration, de message ou de destinataire. En cliquant sur l'onglet, l'utilisateur peut passer d'une feuille à une autre. 
+Une structure **DTBLPAGE** décrit une page à onglets, un contrôle utilisé pour séparer plusieurs boîtes de dialogue associées. En règle générale, ces boîtes de dialogue sont des feuilles de propriétés pour l’affichage des options de configuration, de message ou de destinataire. En cliquant sur l’onglet, l’utilisateur peut passer d’une feuille à une autre. 
   
-La chaîne de composant et l'identificateur de contexte fournissent des informations indiquant si l'aide étendue est disponible pour la page à onglets. Si l'aide étendue est disponible, la chaîne de composant et l'identificateur de contexte fournissent des informations sur la façon d'y accéder. La chaîne de composant est mappée sur le fichier d'aide; l'identificateur de contexte correspond à la rubrique d'aide initiale. Si l'identificateur de contexte est zéro et que la chaîne de composant est NULL, l'aide étendue n'est pas disponible.
+La chaîne de composant et l’identificateur de contexte fournissent des informations pour savoir si l’aide étendue est disponible pour la page à onglets. Si une aide étendue est disponible, la chaîne de composant et l’identificateur de contexte fournissent des informations sur la façon d’y accéder. La chaîne de composant est m m filée vers le fichier d’aide . l’identificateur de contexte est map pour la rubrique d’aide initiale. Si l’identificateur de contexte est zéro et que la chaîne du composant est NULL, l’aide étendue n’est pas disponible.
   
-Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
+Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

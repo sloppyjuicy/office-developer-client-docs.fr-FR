@@ -25,7 +25,7 @@ ms.locfileid: "33427772"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide une liste d'identificateurs d'entrée MAPI. 
+Valide une liste d’identificateurs d’entrée MAPI. 
   
 |||
 |:-----|:-----|
@@ -43,20 +43,20 @@ BOOL FBadEntryList(
 
  _lpEntryList_
   
-> dans Pointeur vers une structure [ENTRYLIST](entrylist.md) qui contient un tableau d'identificateurs d'entrée à valider. 
+> [in] Pointeur vers une structure [ENTRYLIST](entrylist.md) qui contient un tableau d’identificateurs d’entrée à valider. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Un ou plusieurs des identificateurs d'entrée répertoriés ne sont pas valides. 
+> Un ou plusieurs identificateurs d’entrée répertoriés ne sont pas valides. 
     
 FALSE 
   
-> Tous les identificateurs d'entrée répertoriés sont valides.
+> Tous les identificateurs d’entrée répertoriés sont valides.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FBadEntryList** détermine si la liste d'identificateurs d'entrée a été correctement générée. Un exemple d'identificateur non valide est celui pour lequel la mémoire a été incorrectement allouée ou un identificateur de taille incorrecte. 
+La **fonction FBadEntryList** détermine si la liste d’identificateurs d’entrée a été correctement générée. Un exemple d’identificateur non valide est un identificateur pour lequel la mémoire a été allouée de manière incorrecte ou un identificateur de taille incorrecte. 
   
 

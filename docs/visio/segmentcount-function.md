@@ -20,7 +20,7 @@ Renvoie le nombre de segments qui constituent le chemin.
   
 ## <a name="syntax"></a>Syntaxe
 
-SEGMENTCOUNT (* * *pathRef* * *) 
+SEGMENTCOUNT(** *pathRef* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

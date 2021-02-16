@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: f2d6a11e-847d-6bbe-cd77-e78ee961cb12
-description: Une énumération pour l'état de disponibilité des blocs de disponibilité.
+description: Une éumération pour l’état de libre/occupé des blocs de libre/occupé.
 ms.openlocfilehash: 2a08ef142f9baddd453166c0ebcb989e69a51ceb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33424090"
 ---
 # <a name="fbstatus"></a>FBStatus
 
-Une énumération pour l'état de disponibilité des blocs de disponibilité.
+Une éumération pour l’état de libre/occupé des blocs de libre/occupé.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,7 +33,7 @@ enum
 
 ## <a name="remarks"></a>Remarques
 
-L'état de disponibilité d'un bloc de temps détermine la façon dont il est affiché dans un calendrier: **libre**, occupé, **provisoire**ou absent ( **e**) **du Bureau**. 
+L’état de libre/occupé d’un bloc de temps détermine la façon dont il s’affiche dans un calendrier **:** **Libre,** Occupé, **Provisoire** ou En **dehors du bureau**. 
   
 ## <a name="see-also"></a>Voir aussi
 

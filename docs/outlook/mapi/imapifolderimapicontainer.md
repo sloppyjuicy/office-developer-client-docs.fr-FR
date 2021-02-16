@@ -25,35 +25,35 @@ ms.locfileid: "33424237"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Effectue des opérations sur les messages et les sous-dossiers d'un dossier.
+Effectue des opérations sur les messages et sous-dossiers d’un dossier.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Exposé par:  <br/> |Objets Folder  <br/> |
-|Implémenté par :  <br/> |Fournisseurs de banques de messages  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Exposé par :  <br/> |Objets Folder  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de magasins de messages  <br/> |
 |Appelé par :  <br/> |Applications clientes et MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIFolder  <br/> |
-|Type de pointeur:  <br/> |LPMAPIFOLDER  <br/> |
-|Modèle de transaction:  <br/> |Pas de transaction  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIFolder  <br/> |
+|Type de pointeur :  <br/> |LPMAPIFOLDER  <br/> |
+|Modèle de transaction :  <br/> |Non traduit  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
 |[CreateMessage](imapifolder-createmessage.md) <br/> |Crée un message.  <br/> |
 |[CopyMessages](imapifolder-copymessages.md) <br/> |Copie ou déplace un ou plusieurs messages.  <br/> |
 |[DeleteMessages](imapifolder-deletemessages.md) <br/> |Supprime un ou plusieurs messages.  <br/> |
-|[CreateFolder](imapifolder-createfolder.md) <br/> |Crée un sous-dossier.  <br/> |
-|[CopyFolder](imapifolder-copyfolder.md) <br/> |Copie ou déplace un sous-dossier.  <br/> |
-|[DeleteFolder](imapifolder-deletefolder.md) <br/> |Supprime un sous-dossier.  <br/> |
-|[SetReadFlags](imapifolder-setreadflags.md) <br/> |Définit ou efface l'indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d'un ou plusieurs des messages du dossier, et gère l'envoi des rapports de lecture.  <br/> |
-|[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |Obtient l'état associé à un message dans un dossier particulier.  <br/> |
-|[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |Définit l'état associé à un message.  <br/> |
-|[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Définit l'ordre de tri par défaut pour la table des matières d'un dossier.  <br/> |
-|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Supprime tous les messages et sous-dossiers d'un dossier sans supprimer le dossier lui-même.  <br/> |
+|[CreateFolder](imapifolder-createfolder.md) <br/> |Crée un sous-ensemble.  <br/> |
+|[CopyFolder](imapifolder-copyfolder.md) <br/> |Copie ou déplace un sous-folder.  <br/> |
+|[DeleteFolder](imapifolder-deletefolder.md) <br/> |Supprime un sous-folder.  <br/> |
+|[SetReadFlags](imapifolder-setreadflags.md) <br/> |Définit ou désine l’indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d’un ou plusieurs messages du dossier et gère l’envoi de rapports de lecture.  <br/> |
+|[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |Obtient l’état associé à un message dans un dossier particulier.  <br/> |
+|[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |Définit l’état associé à un message.  <br/> |
+|[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Définit l’ordre de tri par défaut pour la table des matières d’un dossier.  <br/> |
+|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Supprime tous les messages et sous-dossiers d’un dossier sans supprimer le dossier lui-même.  <br/> |
    
-|**Propriétés requises**|**Accès**|
+|**Propriétés requises**|**Access**|
 |:-----|:-----|
 |**PR_DISPLAY_NAME** ([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |Lecture/écriture  <br/> |
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Lecture seule  <br/> |

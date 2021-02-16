@@ -25,7 +25,7 @@ ms.locfileid: "33427814"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet. 
+Compare deux identificateurs d’entrée pour déterminer s’ils font référence au même objet. 
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,19 +42,19 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID1._ 
     
  _lpEntryID1_
   
-> dans Pointeur vers le premier identificateur d'entrée à comparer.
+> [in] Pointeur vers le premier identificateur d’entrée à comparer.
     
  _cbEntryID2_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID2._ 
     
  _lpEntryID2_
   
-> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
+> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> remarquer Pointeur vers le résultat de la comparaison. TRUE si les deux identificateurs d'entrée font référence au même objet; Sinon, FALSe.
+> [out] Pointeur vers le résultat de la comparaison. TRUE si les deux identificateurs d’entrée font référence au même objet ; sinon, FALSE.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,17 +72,17 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L'un des identificateurs d'entrée spécifiés comme paramètres ne fait pas référence à des objets, probablement parce que ces objets ne sont pas ouverts et ne sont pas disponibles actuellement.
+> L’un ou les deux identificateurs d’entrée spécifiés en tant que paramètres ne font pas référence à des objets, car ces objets sont actuellement non ouvert et indisponibles.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession:: CompareEntryIDs** compare deux identificateurs d'entrée qui appartiennent à un seul fournisseur de services pour déterminer s'ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d'entrée afin de déterminer le fournisseur de services responsable des objets, puis appelle la méthode **CompareEntryIDs** de l'objet Logon pour effectuer la comparaison. 
+La **méthode IMAPISession::CompareEntryIDs** compare deux identificateurs d’entrée appartenant à un seul fournisseur de services pour déterminer s’ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d’entrée pour déterminer le fournisseur de services responsable des objets, puis appelle la méthode **CompareEntryIDs** de son objet d’inscription pour effectuer la comparaison. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La méthode **CompareEntryIDs** est utile, car un objet peut avoir plusieurs identificateurs d'entrée valides. Cette situation peut se produire, par exemple, après l'installation d'une nouvelle version d'un fournisseur de services. 
+La **méthode CompareEntryIDs est** utile car un objet peut avoir plusieurs identificateurs d’entrée valides. Cette situation peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de services. 
   
-Si **CompareEntryIDs** renvoie une erreur, n'effectuez aucune action en fonction du résultat de la comparaison. Au lieu de cela, adoptez l'approche la plus conservatrice possible. **CompareEntryIDs** peut échouer si, par exemple, un ou les deux identificateurs d'entrée contiennent un **MAPIUID**non valide. 
+Si **CompareEntryIDs** renvoie une erreur, ne pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, prenez l’approche la plus prudent possible. **CompareEntryIDs peut** échouer si, par exemple, l’un des identificateurs d’entrée ou les deux contiennent un **MAPIUID non valide**. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|BaseDialog. cpp  <br/> |CbaseDialog:: OnCompareEntryIDs  <br/> |MFCMAPI utilise la méthode **IMAPISession:: CompareEntryIDs** pour comparer deux ID d'entrée entrés par un utilisateur.  <br/> |
+|BaseDialog.cpp  <br/> |CbaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI utilise la méthode **IMAPISession::CompareEntryIDs** pour comparer deux ID d’entrée qu’un utilisateur entre.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

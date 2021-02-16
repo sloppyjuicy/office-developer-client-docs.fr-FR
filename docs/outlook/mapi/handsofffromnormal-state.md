@@ -1,5 +1,5 @@
 ---
-title: État HandsOffFromNormal
+title: HandsOffFromNormal State
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426470"
 ---
-# <a name="handsofffromnormal-state"></a>État HandsOffFromNormal
+# <a name="handsofffromnormal-state"></a>HandsOffFromNormal State
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'État HandsOffFromNormal est très semblable à l'état [HandsOffAfterSave](handsoffaftersave-state.md) . Il fait partie du processus d'enregistrement du contenu d'un formulaire dans un emplacement de stockage permanent. Dans cet État, l'objet Form ne doit pas apporter de modifications aux copies en mémoire des propriétés du message, car il se peut qu'il n'y ait pas une autre opportunité d'enregistrer ces modifications. Le tableau suivant décrit les transitions autorisées à partir de l'État HandsOffFromNormal. 
+L’état HandsOffFromNormal est très similaire à [l’état HandsOffAfterSave.](handsoffaftersave-state.md) Il fait partie du processus d’enregistrement du contenu d’un formulaire dans un stockage permanent. Dans cet état, l’objet de formulaire doit s’empêcher d’apporter des modifications aux copies en mémoire des valeurs des propriétés du message, car il est possible qu’il n’y a pas d’autre opportunité d’enregistrer ces modifications. Le tableau suivant décrit les transitions autorisées à partir de l’état HandsOffFromNormal. 
   
-|IPersistMessage * * méthode * *|**Action**|**Nouvel État**|
+|Méthode IPersistMessage** **|**Action**|**Nouvel état**|
 |:-----|:-----|:-----|
-|[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) (_pMessage! =_ null)  <br/> |Remplacez le message de l'objet message par _pMessage_, qui remplace le message révoqué par l'appel précédent à [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md). Il est garanti que les données du nouveau message sont les mêmes que dans le message révoqué. Le message ne doit pas être marqué comme Clean et [IMAPIViewAdviseSink:: OnSaved](imapiviewadvisesink-onsaved.md) être appelé après cet appel. Si l'appel **SaveCompleted** réussit, entrez l'état [normal](normal-state.md) . Sinon, restez dans l'État HandsOffFromNormal.  <br/> |Normal ou HandsOffFromNormal  <br/> |
-|**IPersistMessage:: SaveCompleted** (_pMessage = =_ null)  <br/> |Définissez la dernière erreur sur E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
-|**HandsOffMessage**, [IPersistMessage:: Save](ipersistmessage-save.md), [IPersistMessage:: InitNew](ipersistmessage-initnew.md)ou [IPersistMessage:: Load](ipersistmessage-load.md) <br/> |Définissez la dernière erreur sur E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)(_pMessage !=_ NULL)  <br/> |Remplacez le message de l’objet de message par  _pMessage,_ qui remplace le message révoqué par l’appel précédent à [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md). Les données du nouveau message sont garanties d’être identiques à dans le message révoqué. Le message ne doit pas être marqué comme propre, et [IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) ne doit pas être appelé après cet appel. Si **l’appel SaveCompleted** réussit, entrez [l’état Normal.](normal-state.md) Dans le cas contraire, restez dans l’état HandsOffFromNormal.  <br/> |Normal ou HandsOffFromNormal  <br/> |
+|**IPersistMessage::SaveCompleted**(_pMessage ==_ NULL)  <br/> |Définissez la dernière erreur sur E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|**HandsOffMessage**, [IPersistMessage::Save](ipersistmessage-save.md), [IPersistMessage::InitNew](ipersistmessage-initnew.md), or [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Définissez la dernière erreur sur E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
 |[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Renvoyer la dernière erreur.  <br/> |HandsOffFromNormal  <br/> |
-|Autres [IPersistMessage:](ipersistmessageiunknown.md) méthodes ou méthodes IUnknown à partir d'autres interfaces  <br/> |Définissez la dernière erreur sur E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|Autres [méthodes IPersistMessage : méthodes ou méthodes IUnknown](ipersistmessageiunknown.md) à partir d’autres interfaces  <br/> |Définissez la dernière erreur sur E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

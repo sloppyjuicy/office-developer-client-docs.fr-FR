@@ -1,5 +1,5 @@
 ---
-title: DéfinirVarLocale, action de macro (application Web personnalisée Access)
+title: SetLocalVar Macro Action (Application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428115"
 ---
-# <a name="setlocalvar-macro-action-access-custom-web-app"></a>DéfinirVarLocale, action de macro (application Web personnalisée Access)
+# <a name="setlocalvar-macro-action-access-custom-web-app"></a>SetLocalVar Macro Action (Application web personnalisée Access)
 
 Le **DéfinirVarLocale** action crée une variable temporaire et définissez-la sur une valeur spécifique. 
   
@@ -22,7 +22,7 @@ Le **DéfinirVarLocale** action crée une variable temporaire et définissez-la 
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 > [!NOTE]
-> L'action **DéfinirVarLocale** est disponible uniquement dans les macros de données. 
+> **L’action DéfinirVarLocal** est disponible uniquement dans les macros de données. 
   
 ## <a name="setting"></a>Paramètre
 
@@ -30,7 +30,7 @@ L’action **DéfinirVarTemp** utilise les arguments suivants :
   
 |**Nom de l’argument**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
-|**Nom** <br/> |Oui  <br/> |Chaîne qui spécifie le nom de la variable.  <br/> |
+|**Name** <br/> |Oui  <br/> |Chaîne qui spécifie le nom de la variable.  <br/> |
 |**Expression** <br/> |Oui  <br/> |Expression destiné à être utilisé pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression d’un signe égal (=). Vous pouvez cliquer sur le bouton **Générer** afin d’utiliser le **Générateur d’expressions** pour définir cet argument.  <br/> |
    
 

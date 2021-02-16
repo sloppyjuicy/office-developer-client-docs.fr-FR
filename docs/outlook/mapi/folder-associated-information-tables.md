@@ -1,5 +1,5 @@
 ---
-title: Tables d'informations associées aux dossiers
+title: Folder-Associated d’informations sur les données
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,31 +15,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426414"
 ---
-# <a name="folder-associated-information-tables"></a>Tables d'informations associées aux dossiers
+# <a name="folder-associated-information-tables"></a>Folder-Associated d’informations sur les données
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI définit l'indicateur MAPI_ASSOCIATED pour divers composants MAPI à utiliser lors du traitement des tables d'informations associées. Chaque dossier dans une banque de messages doit être associé à une table de contenu associée à la table de contenu standard. Les applications clientes stockent des messages spéciaux dans le tableau de contenu associé d'un dossier pour contenir des formulaires et des vues. En fait, pour prendre en charge les formulaires et les vues, votre fournisseur de banque de messages doit implémenter les tables de contenu associées.
+MAPI définit l’indicateur MAPI_ASSOCIATED pour différents composants MAPI à utiliser lors du traitement des tables d’informations associées. Chaque dossier d’une magasin de messages doit être associé à une table des matières associée avec sa table des matières standard. Les applications clientes stockent des messages spéciaux dans la table des matières associée d’un dossier pour contenir des formulaires et des affichages. En fait, pour prendre en charge les formulaires et les affichages, votre fournisseur de magasins de messages doit implémenter des tables de contenu associées.
   
-Pour implémenter les tables de contenu associées, votre fournisseur de banque doit effectuer les opérations suivantes:
+Pour implémenter les tables des matières associées, votre fournisseur de magasins doit :
   
-- Prendre en charge l'indicateur MAPI_ASSOCIATED dans la méthode [IMAPIContainer:: GetContentsTable](imapicontainer-getcontentstable.md) afin que les applications clientes puissent obtenir la table des matières associée du dossier au lieu de la table des matières standard. 
+- Prendre en charge l’indicateur MAPI_ASSOCIATED dans la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) afin que les applications clientes peuvent obtenir la table des matières associée au dossier au lieu de la table des matières standard. 
     
-- Prendre en charge l'indicateur MAPI_ASSOCIATED dans la méthode [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) afin que les applications clientes puissent ajouter des messages à la table des matières associée d'un dossier. 
+- Prise en charge MAPI_ASSOCIATED’indicateur dans la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) afin que les applications clientes peuvent ajouter des messages à la table des matières associée d’un dossier. 
     
-- Définissez le bit MAPI_ACCESS_CREATE_ASSOCIATED dans la propriété **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) sur les objets Folder.
+- Définissez MAPI_ACCESS_CREATE_ASSOCIATED bit dans la **propriété PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) sur les objets de dossier.
     
-- Prendre en charge l'indicateur DEL_ASSOCIATED dans la méthode [IMAPIFolder:: EmptyFolder](imapifolder-emptyfolder.md) . 
+- Prise en charge DEL_ASSOCIATED’indicateur dans la [méthode IMAPIFolder::EmptyFolder.](imapifolder-emptyfolder.md) 
     
-- Définissez le bit MSGFLAG_ASSOCIATED dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) pour les messages dans le tableau des contenus associés.
+- Définissez MSGFLAG_ASSOCIATED bit dans la **propriété PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) pour les messages dans la table des matières associée.
     
-- ExPosez et répondez à la propriété **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) sur les dossiers.
+- Exposer et répondre à la **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) sur les dossiers.
     
-- Conservez la propriété **PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md)) sur les dossiers.
+- Conservez **la PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md)) sur les dossiers.
     
-Il n'y a pas de bit dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) pour indiquer si votre fournisseur de banque de messages prend en charge les tables de contenu associées. Si votre fournisseur de banque de messages ne les prend pas en charge, il doit renvoyer MAPI_E_NO_SUPPORT lorsque les applications clientes appellent l'une des méthodes ci-dessus avec l'indicateur MAPI_ASSOCIATED.
+La propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)ne contient aucun bit pour indiquer si votre fournisseur de magasins de messages prend en charge les tables de contenu associées. Si votre fournisseur de magasins de messages ne les prend pas en charge, il doit renvoyer MAPI_E_NO_SUPPORT lorsque les applications clientes appellent l’une des méthodes ci-dessus avec l’indicateur MAPI_ASSOCIATED message.
   
 ## <a name="see-also"></a>Voir aussi
 

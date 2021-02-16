@@ -19,7 +19,7 @@ ms.locfileid: "33424881"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations étendues pour les éléments qui ont été supprimés dans un magasin local. Ces informations sont utilisées lors de l' [État de suppression de chargement](upload-delete-status-state.md).
+Informations étendues pour les éléments qui ont été supprimés dans un magasin local. Ces informations sont utilisées pendant [l’état de suppression de téléchargement.](upload-delete-status-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -40,35 +40,35 @@ struct UPDELE
 
 _ulFlags_
   
-> [out]/[in] indicateurs pour déterminer le comportement approprié pendant le téléchargement.
+> [out]/[in] Indicateurs pour déterminer le comportement approprié lors du téléchargement.
     
   - UPD_ASSOC
     
-    - remarquer L'élément est associé.
+    - [out] L’élément est associé.
     
   - UPD_MOV
     
-    - remarquer L'élément a été déplacé vers l'extérieur.
+    - [out] L’élément a été déplacé vers l’avant.
     
   - UPD_OK 
     
-    - dans Le chargement a réussi. Le client le définit après avoir téléchargé des informations sur le serveur.
+    - [in] Le chargement a réussi. Le client définit cette information après le téléchargement d’informations sur le serveur.
     
   - UPD_MOVED
     
-    - dans L'élément a été déplacé.
+    - [in] L’élément a été déplacé avec succès.
     
   - UPD_UPDATE
     
-    - dans Marquer l'élément source comme modifié.
+    - [in] Marquez l’élément source comme modifié.
     
   - UPD_COMMIT
     
-    - dans Valider l'état de chargement maintenant (entrée 0).
+    - [in] Valider l’état de chargement maintenant (entrée 0).
     
 _skey_
   
-> remarquer Clé source de l'élément.
+> [out] Clé source de l’élément.
     
 _dwReserved_
   
@@ -76,19 +76,19 @@ _dwReserved_
     
 _binChg_
   
-> remarquer Modifier la clé de l'élément de destination si l'élément a été déplacé.
+> [out] Modifier la clé de l’élément de destination si l’élément a été déplacé.
     
 _binPcl_
   
-> remarquer Modifier la liste des éléments de destination si l'élément a été déplacé.
+> [out] Modifier la liste de l’élément de destination si l’élément a été déplacé.
     
 _skeyDst_
   
-> remarquer Clé source de l'élément de destination si l'élément a été déplacé.
+> [out] Clé source de l’élément de destination si l’élément a été déplacé.
     
-_pupmov_
+_mov_
   
-> remarquer Informations sur le dossier de destination si l'élément a été déplacé.
+> [out] Informations sur le dossier de destination si l’élément a été déplacé.
     
 ## <a name="see-also"></a>Voir aussi
 

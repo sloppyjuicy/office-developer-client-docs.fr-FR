@@ -22,8 +22,8 @@ Contient les cellules qui contrôlent les paramètres de disposition des formes 
   
 ## <a name="remarks"></a>Remarques
 
-Pour remplacer les valeurs par défaut de la page d'une forme spécifique, utilisez les cellules de la section format de la **forme** . 
+Pour remplacer les valeurs par défaut d’une forme spécifique, utilisez les cellules de la section **Mise en** forme. 
   
-Vous pouvez également définir les valeurs des cellules de cette section sous l'onglet **disposition et positionnement** de la boîte de dialogue mise en **page** (sous l'onglet **création** , cliquez sur lanceur de boîte de dialogue dans le groupe **mise en page** ). 
+Vous pouvez également définir les valeurs des  cellules de cette section sous l’onglet  Mise en page et routage de la boîte de dialogue Mise en **page** (sous l’onglet Création, cliquez sur le lanceur de boîte de dialogue dans le groupe Mise en **page).** 
   
 

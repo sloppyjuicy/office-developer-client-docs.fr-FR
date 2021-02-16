@@ -1,5 +1,5 @@
 ---
-title: Prise en charge des recherches dans les fournisseurs de banques de messages
+title: Prise en charge des recherches dans les fournisseurs de magasins de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425385"
 ---
-# <a name="supporting-searches-in-message-store-providers"></a>Prise en charge des recherches dans les fournisseurs de banques de messages
+# <a name="supporting-searches-in-message-store-providers"></a>Prise en charge des recherches dans les fournisseurs de magasins de messages
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les applications clientes disposent souvent de composants d'interface utilisateur dédiés à la recherche de messages dans une banque de messages. Les critères de recherche sont spécifiés dans l'interface [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) au moyen des méthodes [IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md) et [IMAPIContainer:: GetSearchCriteria](imapicontainer-getsearchcriteria.md) . 
+Les applications clientes ont souvent des composants d’interface utilisateur dédiés à la recherche de messages dans une magasin de messages. Les critères de recherche sont spécifiés dans l’interface [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) au moyen des méthodes [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) et [IMAPIContainer::GetSearchCriteria.](imapicontainer-getsearchcriteria.md) 
   
-Les clients utilisent la propriété **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)) de l'objet Banque de messages pour identifier le dossier racine dans la Banque de messages qui contient des dossiers pour les résultats de la recherche. Le dossier Search-Results est souvent un dossier au niveau supérieur de la Banque de messages qui ne fait pas partie de l'arborescence de dossiers IPM et, par conséquent, est masqué.
+Les clients utilisent la propriété **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)) de l’objet de la boutique de messages pour identifier le dossier racine dans la magasin de messages qui contient des dossiers pour les résultats de la recherche. Le dossier de résultats de recherche est souvent un dossier au niveau supérieur de la magasin de messages qui ne fait pas partie de l’arborescence des dossiers IPM et qui est donc masqué.
   
-Que votre fournisseur de banque de messages utilise un dossier de résultats de recherche permanent ou en crée un lorsqu'un client ouvre l'identificateur d'entrée stocké dans la propriété **PR_FINDER_ENTRYID** est un détail d'implémentation. Il est plus facile pour votre fournisseur de banque de messages d'utiliser un dossier permanent créé lors de la création de la Banque de messages, car cela évite la complication de l'identificateur d'entrée chaque fois qu'un dossier est ouvert pour voir s'il faut créer un dossier Search-results. Toutefois, les fournisseurs de banques de messages ne peuvent pas tous le faire; en particulier, les banques de messages en lecture seule qui fournissent une interface MAPI à une base de données héritée ne sont souvent pas autorisées ou ne peuvent pas créer de dossier de résultats de recherche permanent dans le mécanisme de stockage sous-jacent. 
+Si votre fournisseur de magasin de messages utilise un dossier de résultats de recherche permanent ou en crée un lorsqu’un client ouvre l’identificateur d’entrée stocké dans la **propriété PR_FINDER_ENTRYID** est un détail d’implémentation. Il est un peu plus facile pour votre fournisseur de magasin de messages d’utiliser un dossier permanent créé lors de la création de la magasin de messages, car cela évite la complication de la vérification de l’identificateur d’entrée chaque fois qu’un dossier est ouvert pour déterminer s’il faut créer un dossier de résultats de recherche. Toutefois, tous les fournisseurs de magasins de messages ne peuvent pas le faire . notamment, les banques de messages en lecture seule qui fournissent une interface MAPI à une base de données héritée ne sont souvent pas autorisées ou ne peuvent pas créer un dossier de résultats de recherche permanent dans le mécanisme de stockage sous-jacent. 
   
 ## <a name="see-also"></a>Voir aussi
 

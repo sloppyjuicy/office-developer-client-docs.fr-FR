@@ -25,36 +25,36 @@ ms.locfileid: "33425637"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une chaîne Unicode qui spécifie une icône personnalisée ou des icônes à afficher pour un fournisseur MAPI dans la barre d'état Microsoft Office Outlook dans les États en ligne et hors connexion.
+Contient une chaîne Unicode qui spécifie une ou plusieurs icônes personnalisées à afficher pour un fournisseur MAPI dans la barre d’état Microsoft Office Outlook dans les états en ligne et hors connexion.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_ICON, PR_PROVIDER_ICON_W  <br/> |
 |Identificateur :  <br/> |0x3417  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Banque de messages MAPI  <br/> |
+|Domaine :  <br/> |Magasin de messages MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés spécifient le fichier de ressources qui contient une icône personnalisée qui représente un fournisseur MAPI dans un État en ligne et, éventuellement, une autre icône personnalisée dans l'état hors connexion. Outlook demande toujours ces propriétés dans la représentation Unicode. 
+Ces propriétés spécifient le fichier de ressources qui contient une icône personnalisée qui représente un fournisseur MAPI dans un état en ligne, et éventuellement une autre icône personnalisée en mode hors connexion. Outlook demande toujours ces propriétés dans la représentation Unicode. 
   
-Par exemple, la valeur de la propriété suivante demande à Outlook de charger l'ID d'icône 1001 à partir du module mymod32. dll et d'utiliser cette `mymod32.dll,#1001`icône pour l'État en ligne:. Étant donné qu'il n'existe pas d'icône spécifique au fournisseur pour l'état hors connexion, dans ce cas, l'icône Outlook hors connexion standard est utilisée dans la barre d'État. 
+Par exemple, la valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir du module mymod32.dll et d’utiliser cette icône pour l’état en ligne  `mymod32.dll,#1001` : Étant donné qu’il n’existe aucune icône spécifique au fournisseur pour l’état hors connexion, dans ce cas, l’icône Outlook hors connexion standard est utilisée dans la barre d’état. 
   
-La valeur de la propriété suivante indique à Outlook de charger l'ID d'icône 1001 à partir du module mymod32. dll et d'utiliser cette icône pour l'État en ligne et de charger également l'ID d'icône 1002 à partir de ce `mymod32.dll,#1001,#1002`même module pour être utilisé pour l'état hors connexion:. Aucune icône Outlook n'est utilisée dans la barre d'État. 
+La valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir du module mymod32.dll et d’utiliser cette icône pour l’état en ligne, ainsi que de charger l’ID d’icône 1002 à partir de ce même module à utiliser pour l’état hors connexion : `mymod32.dll,#1001,#1002` Aucune icône Outlook n’est utilisée dans la barre d’état. 
   
-Par défaut, si aucune icône personnalisée n'est spécifiée, le fournisseur est représenté par les icônes Outlook par défaut pour l'État en ligne et l'état hors connexion. Le fournisseur peut éventuellement spécifier un nom complet à afficher en regard de l'icône dans la barre d'État. Pour plus d'informations, voir **PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
+Par défaut, si aucune icône personnalisée n’est spécifiée, le fournisseur est représenté par les icônes Par défaut d’Outlook pour l’état en ligne et l’état hors connexion. Le fournisseur peut éventuellement spécifier un nom d’affichage à afficher en adjacent à l’icône dans la barre d’état. Pour plus d’informations, **PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

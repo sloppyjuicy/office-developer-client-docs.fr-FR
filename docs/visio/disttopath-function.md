@@ -25,15 +25,15 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-DISTTOPATH (* * *section* * *, * * *x* * *, * * *y* * *) 
+DISTTOPATH(** *section* **, ** *x* **, ** *y* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Obligatoire  <br/> |**String** <br/> |Section Geometry qui représente le chemin, spécifiée par une référence à sa cellule Path (par exemple Geometry1.Path).  <br/> |
-| _x_ <br/> |Obligatoire  <br/> |**Double** <br/> |Coordonnée _x_du point.  <br/> |
-| _y_ <br/> |Obligatoire  <br/> |**Double** <br/> |Coordonnée _y_du point.  <br/> |
+| _x_ <br/> |Obligatoire  <br/> |**Double** <br/> |Coordonnée  _x_ du point.  <br/> |
+| _y_ <br/> |Obligatoire  <br/> |**Double** <br/> |Coordonnée  _y_ du point.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -41,7 +41,7 @@ DISTTOPATH (* * *section* * *, * * *x* * *, * * *y* * *)
   
 ## <a name="remarks"></a>Remarques
 
-Microsoft Visio renvoie #REF! Si la _section_ n'existe pas. 
+Microsoft Visio renvoie #REF! si  _la section_ n’existe pas. 
   
 La valeur renvoyée est positive si le point se situe à gauche par rapport au sens de déplacement, et négative s’il se situe à droite.
   

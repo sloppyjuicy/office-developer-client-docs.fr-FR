@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251500
 localization_priority: Normal
 ms.assetid: 513302d3-3be8-882f-5258-95529098f95d
-description: Renvoie la racine carrée d'un nombre.
+description: Renvoie la racine carrée d’un nombre.
 ms.openlocfilehash: f9f31b9360248f002cac74dfb87ac3b292d34620
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33425021"
 ---
 # <a name="sqrt-function"></a>Fonction SQRT
 
-Renvoie la racine carrée d'un nombre. 
+Renvoie la racine carrée d’un nombre. 
   
 ## <a name="syntax"></a>Syntaxe
 
-SQRT (* * *nombre* * *) 
+SQRT(** *number* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -36,11 +36,11 @@ Numérique
   
 ## <a name="remarks"></a>Remarques
 
-Si le _nombre_ est négatif, la fonction SQRT renvoie la valeur d'erreur #NUM!. 
+Si  _le nombre_ est négatif, la fonction SQRT renvoie la valeur d’erreur #NUM!. 
   
 ## <a name="example"></a>Exemple
 
-SQRT (2) 
+SQRT(2) 
   
 Renvoie 1,4142. 
   

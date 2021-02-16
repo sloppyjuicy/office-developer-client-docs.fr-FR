@@ -23,7 +23,7 @@ Détermine le motif de remplissage de l'ombre d'une forme.
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun (remplissage transparent).  <br/> |
-|0,1  <br/> |Couleur de premier plan unie  <br/> |
+|1   <br/> |Couleur de premier plan unie  <br/> |
 |2 - 40  <br/> |Motifs assortis  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule ShdwPattern dans un programme, utilis
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowFill** <br/> |
 |Index de la cellule :  <br/> |**visFillShdwPattern** <br/> |
    

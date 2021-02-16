@@ -25,11 +25,11 @@ ms.locfileid: "33427345"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Publie des fonctions utilitaires appelées explicitement par la fonction [ScInitMapiUtil](scinitmapiutil.md) ou implicitement par la fonction [MAPIInitialize](mapiinitialize.md) . 
+Libère les fonctions utilitaires appelées explicitement par la [fonction ScInitMapiUtil](scinitmapiutil.md) ou implicitement par la [fonction MAPIInitialize.](mapiinitialize.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -47,8 +47,8 @@ Aucun
   
 ## <a name="remarks"></a>Remarques
 
-Fonctions de libération de fonction **DeinitMapiUtil** initialisées avec [ScInitMapiUtil](scinitmapiutil.md) ou [MAPIInitialize](mapiinitialize.md). 
+Fonctions de publication de la fonction **DeinitMapiUtil** initialisées avec [ScInitMapiUtil](scinitmapiutil.md) ou [MAPIInitialize](mapiinitialize.md). 
   
-Lorsque l'utilisation des fonctions appelées par **ScInitMapiUtil** est terminée, **DeinitMapiUtil** doit être appelé explicitement pour les libérer. En revanche, [MAPIUninitialize](mapiuninitialize.md) appelle implicitement **DeinitMapiUtil**. 
+Lorsque l’utilisation des fonctions appelées par **ScInitMapiUtil** est terminée, **DeinitMapiUtil** doit être explicitement appelée pour les libérer. En revanche, [MAPIUninitialize](mapiuninitialize.md) appelle implicitement **DeinitMapiUtil**. 
   
 

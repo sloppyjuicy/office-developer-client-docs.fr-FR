@@ -25,11 +25,11 @@ ms.locfileid: "33425693"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Alloue une mémoire tampon de mémoire. 
+Alloue une mémoire tampon. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -44,23 +44,23 @@ SCODE MAPIAllocateBuffer(
 
  _cbSize_
   
-> dans Taille, en octets, de la mémoire tampon à allouer. 
+> [in] Taille, en octets, de la mémoire tampon à allouer. 
     
  _lppBuffer_
   
-> remarquer Pointeur vers la mémoire tampon allouée renvoyée.
+> [out] Pointeur vers la mémoire tampon allouée renvoyée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la mémoire tampon demandée.
+> L’appel a réussi et a renvoyé la mémoire tampon demandée.
     
 ## <a name="remarks"></a>Remarques
 
-Pendant le traitement des appels **MAPIAllocateBuffer** , l'implémentation de l'appel acquiert un bloc de mémoire à partir du système d'exploitation. La mémoire tampon est allouée sur une adresse d'octet portant un numéro pair. Sur les plateformes où l'accès entier long est plus efficace, le système d'exploitation alloue la mémoire tampon sur une adresse dont la taille en octets est un multiple de quatre. 
+Pendant le traitement des appels **MAPIAllocateBuffer,** l’implémentation d’appel acquiert un bloc de mémoire du système d’exploitation. La mémoire tampon est allouée sur une adresse d’byte numérot e. Sur les plateformes où l’accès aux nombres longs est plus efficace, le système d’exploitation alloue la mémoire tampon à une adresse dont la taille en octets est un multiple de quatre. 
   
-L'appel de la fonction [MAPIFreeBuffer](mapifreebuffer.md) libère la mémoire tampon allouée par **MAPIAllocateBuffer**, en appelant la fonction [MAPIAllocateMore](mapiallocatemore.md) et les mémoires tampon qui y sont liées, lorsque la mémoire n'est plus nécessaire. 
+L’appel de la fonction [MAPIFreeBuffer](mapifreebuffer.md) libère la mémoire tampon allouée par **MAPIAllocateBuffer**, en appelant la fonction [MAPIAllocateMore](mapiallocatemore.md) et toutes les mémoires tampons qui lui sont liées, lorsque la mémoire n’est plus nécessaire. 
   
 ## <a name="see-also"></a>Voir aussi
 

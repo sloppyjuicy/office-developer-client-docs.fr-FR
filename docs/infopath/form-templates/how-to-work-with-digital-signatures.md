@@ -1,5 +1,5 @@
 ---
-title: Utiliser des signatures numériques
+title: Travailler avec des signatures numériques
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425574"
 ---
-# <a name="work-with-digital-signatures"></a>Utiliser des signatures numériques
+# <a name="work-with-digital-signatures"></a>Travailler avec des signatures numériques
 
 Le modèle objet de l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) fournit les fonctionnalités d'utilisation des signatures numériques par programmation. 
   
@@ -41,7 +41,7 @@ Les fonctionnalités de signature numérique fournies par InfoPath vous permette
 
 Le modèle objet des signatures numériques fournit l'événement qui suit.
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |[Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) <br/> |Se produit une fois qu'un ensemble de données a été sélectionné pour la signature.  <br/> Vous pouvez utiliser cet événement pour manipuler les données stockées dans la signature numérique. Par exemple, vous pouvez ajouter les données d'un serveur d'horodatage fiable ou une contre-signature côté serveur de la transaction. Vous pouvez également utiliser cet événement pour bloquer la signature si l'utilisateur actuel n'est pas membre d'un groupe spécifique.  <br/> |
    
@@ -49,9 +49,9 @@ Le modèle objet des signatures numériques fournit l'événement qui suit.
 
 Un gestionnaire d'événements pour l'événement [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) peut fonctionner avec l'objet d'événement [SignEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.aspx) qui offre les propriétés suivantes. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignedDataBlock.aspx) <br/> |Obtient l'ensemble de données qui a déclenché l'événement [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) .  <br/> |
+|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignedDataBlock.aspx) <br/> |Obtient l’ensemble des données qui ont créé [l’événement Sign.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx)  <br/> |
 |[SignatureWizard](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |Obtient ou définit l'affichage de la boîte de dialogue **Signatures numériques**.  <br/> |
    
 > [!NOTE]
@@ -61,18 +61,18 @@ Un gestionnaire d'événements pour l'événement [Sign](https://msdn.microsoft.
 
 Le modèle objet des signatures numériques fournit les collections suivantes.
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|[SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) <br/> |Collection des objets [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) du modèle de formulaire définis au moment de la conception dans InfoPath en mode création.  <br/> La collection [SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) implémente des propriétés qui peuvent être utilisées pour accéder aux objets [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) associés à un formulaire. L'objet [SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) associé à un formulaire est accessible via la propriété [SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SignedDataBlocks.aspx) de la classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx)  <br/> |
-|[SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) <br/> |Contient une collection d'objets [signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) pour chaque objet [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) du formulaire.  <br/> La classe [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) implémente des propriétés et une méthode qui peut être utilisée pour accéder aux objets [signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) associés à un formulaire et pour créer une signature. L'objet [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) associé à [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) est accessible à l'aide de la propriété [signatures](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Signatures.aspx) .  <br/> Lorsque vous utilisez la méthode [CreateSignature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.CreateSignature.aspx) de la classe [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) , gardez à l'esprit que la signature n'est pas écrite tant que la méthode [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) n'est pas appelée sur l'objet [signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) . Ces méthodes peuvent être appelées uniquement depuis le gestionnaire d'événements **Sign** d'un modèle de formulaire entièrement fiable.  <br/> |
+|[SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) <br/> |Collection des objets [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) dans le modèle de formulaire tel que défini au moment de la conception en mode Création d’InfoPath.  <br/> La collection [SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) implémente des propriétés qui peuvent être utilisées pour accéder aux objets [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) associés à un formulaire. [L’objet SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) associé à un formulaire est accessible via la propriété [SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SignedDataBlocks.aspx) de la [classe XmlForm.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx)  <br/> |
+|[SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) <br/> |Contient une collection [d’objets Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) pour [chaque objet SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) du formulaire.  <br/> La [classe SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) implémente des propriétés et une méthode qui peuvent être utilisées pour accéder aux objets [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) associés d’un formulaire et pour créer une signature. [L’objet SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) associé à [un SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) est accessible à l’aide de la [propriété Signatures.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Signatures.aspx)  <br/> Lorsque vous utilisez la méthode [CreateSignature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.CreateSignature.aspx) de la [classe SignatureCollection,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) n’oubliez pas que la signature n’est pas écrite tant que la méthode [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) n’est pas appelée sur l’objet [Signature.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) Ces méthodes peuvent être appelées uniquement depuis le gestionnaire d'événements **Sign** d'un modèle de formulaire entièrement fiable.  <br/> |
    
 Le modèle objet des signatures numériques fournit les objets suivants.
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |Représente un ensemble de données à signer dans un formulaire. L'objet [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) fournit une méthode et un certain nombre de propriétés qui peuvent être utilisées pour interagir par programme avec un ensemble de données à signer.  <br/> |
-|[Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Représente une signature numérique qui a été ajoutée à un formulaire ou à un ensemble de données signables dans un formulaire. L'objet [signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) implémente des propriétés qui peuvent être utilisées pour récupérer des informations sur la signature numérique, ainsi que la méthode [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) pour écrire le bloc de signature numérique XML et calculer sa valeur de hachage de chiffrement.  <br/> |
-|[Certificate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Certificate.aspx) <br/> |Représente le certificat numérique X.509 utilisé pour créer la signature.  <br/> |
+|[Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Représente une signature numérique qui a été ajoutée à un formulaire ou à un ensemble de données signables dans un formulaire. L’objet [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) implémente des propriétés qui peuvent être utilisées pour récupérer des informations sur la signature numérique et la méthode [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) pour écrire le bloc de signature numérique XML et calculer sa valeur de hachage de chiffrement.  <br/> |
+|[Certificat](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Certificate.aspx) <br/> |Représente le certificat numérique X.509 utilisé pour créer la signature.  <br/> |
    
 ## <a name="working-with-digital-signatures-programmatically"></a>Utilisation de signatures numériques par programme
 

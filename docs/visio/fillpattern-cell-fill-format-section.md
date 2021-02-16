@@ -23,7 +23,7 @@ Détermine le motif de remplissage de la forme. Pour définir un motif de rempli
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun (remplissage transparent).  <br/> |
-|0,1  <br/> |Couleur d'arrière-plan unie.  <br/> |
+|1   <br/> |Couleur d'arrière-plan unie.  <br/> |
 |2 - 40  <br/> |Motifs de remplissage correspondant aux entrées indexées de la boîte de dialogue **Remplir**.  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule FillPattern à l'aide d'un index à p
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowFill** <br/> |
 |Index de la cellule :  <br/> |**visFillPattern** <br/> |
    

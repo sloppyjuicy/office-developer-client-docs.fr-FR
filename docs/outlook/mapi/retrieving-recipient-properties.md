@@ -19,14 +19,14 @@ ms.locfileid: "33426673"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Pour accéder à une ou plusieurs propriétés d'une entrée de carnet d'adresses
+### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Pour accéder à une ou plusieurs propriétés d’une entrée de carnet d’adresses
   
-1. Pour chaque entrée de carnet d'adresses qui vous intéresse, appelez [IAddrBook:: OpenEntry](iaddrbook-openentry.md), en transmettant l'identificateur d'entrée de l'utilisateur de messagerie cible ou de la liste de distribution.
+1. Pour chaque entrée de carnet d’adresses qui vous intéresse, appelez [IAddrBook::OpenEntry](iaddrbook-openentry.md), en passant l’identificateur d’entrée de l’utilisateur de messagerie cible ou de la liste de distribution.
     
-2. Effectuez ensuite l'une des opérations suivantes:
+2. Ensuite, faites l’une des choses suivantes :
     
-   - Appelez la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) de la liste de distribution ou de l'utilisateur de messagerie pour chaque entrée de carnet d'adresses présentant un intérêt, avec une liste d'une ou plusieurs propriétés à récupérer. 
+   - Appelez la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de l’utilisateur de messagerie ou de la liste de distribution pour chaque entrée de carnet d’adresses qui vous intéresse, avec une liste des propriétés à récupérer. 
     
-   - Appelez [IAddrBook::P reparerecips](iaddrbook-preparerecips.md), en transmettant une structure [ADRLIST](adrlist.md) qui contient toutes les propriétés de toutes les entrées de carnet d'adresses souhaitées. Étant donné qu'un appel à **PrepareRecips** peut retourner des informations pour plusieurs entrées de carnet d'adresses, il s'agit de la stratégie préférable lorsque vous vous intéressez à plusieurs destinataires. 
+   - Appelez [IAddrBook::P repareRecips](iaddrbook-preparerecips.md), en passant une structure [ADRLIST](adrlist.md) qui contient toutes les propriétés de toutes les entrées de carnet d’adresses souhaitées. Étant donné qu’un appel à **PrepareRecips** peut renvoyer des informations pour plusieurs entrées de carnet d’adresses, il est préférable de mettre en place une stratégie lorsque plusieurs destinataires vous intéressent. 
     
 

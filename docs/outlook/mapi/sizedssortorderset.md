@@ -23,12 +23,12 @@ ms.locfileid: "33428605"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure [SSortOrderSet](ssortorderset.md) nommée qui contient un nombre spécifié d'ordres de tri. 
+Crée une structure [SSortOrderSet nommée](ssortorderset.md) qui contient un nombre spécifié d’ordres de tri. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SSortOrderSet** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 SizedSSortOrderSet (_csort,_name)
@@ -36,19 +36,19 @@ SizedSSortOrderSet (_csort,_name)
 
 ## <a name="parameters"></a>Paramètres
 
-__csort_
+_ _csort_
   
-> Nombre d'ordres de tri à inclure dans la nouvelle structure.
+> Nombre d’ordres de tri à inclure dans la nouvelle structure.
     
-__nom_
+_ _name_
   
 > Nom de la nouvelle structure.
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la macro **SizedSSortOrderSet** pour créer un ensemble d'ordres de tri avec des limites explicites. 
+Utilisez la macro **SizedSSortOrderSet** pour créer un ordre de tri avec des limites explicites. 
   
-Pour utiliser la nouvelle structure qui résulte de la macro **SizedSSortOrderSet** en tant que pointeur vers une structure **SSortOrderSet** , effectuez la conversion suivante: 
+Pour utiliser la nouvelle structure qui résulte de la macro **SizedSSortOrderSet** comme pointeur vers une structure **SSortOrderSet,** effectuez la distribution suivante : 
   
 ```cpp
 lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;

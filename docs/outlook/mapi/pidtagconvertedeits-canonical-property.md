@@ -25,7 +25,7 @@ ms.locfileid: "33423453"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur pour les types de texte dans un message après conversion.
+Contient un identificateur pour les types de texte dans un message après la conversion.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient un identificateur pour les types de texte dans un message après conver
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété indique les types d'informations encodées (EITs) qui ont été utilisés pour convertir les composants de texte du message.
+Cette propriété indique les types d’informations codés (EIT) utilisés pour convertir les composants de texte du message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,7 +25,7 @@ ms.locfileid: "33424258"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux identificateurs d'entrée qui appartiennent à un fournisseur de carnets d'adresses particulier pour déterminer s'ils font référence au même objet de carnet d'adresses. 
+Compare deux identificateurs d’entrée appartenant à un fournisseur de carnet d’adresses particulier pour déterminer s’ils font référence au même objet de carnet d’adresses. 
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,19 +42,19 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID1._ 
     
  _lpEntryID1_
   
-> dans Pointeur vers le premier identificateur d'entrée à comparer.
+> [in] Pointeur vers le premier identificateur d’entrée à comparer.
     
  _cbEntryID2_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID2._ 
     
  _lpEntryID2_
   
-> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
+> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> remarquer Pointeur vers le résultat de la comparaison. Le contenu de _lpulResult_ est défini sur true si les deux identificateurs d'entrée font référence au même objet; dans le cas contraire, le contenu est défini sur FALSe. 
+> [out] Pointeur vers le résultat de la comparaison. Le contenu de  _lpulResult_ est définie sur TRUE si les deux identificateurs d’entrée font référence au même objet ; Dans le cas contraire, le contenu est définie sur FALSE. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,15 +72,15 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Un ou les deux identificateurs d'entrée passés avec les paramètres _lpEntryID1_ ou _lpEntryID2_ ne sont pas reconnus par les fournisseurs de carnets d'adresses. 
+> L’un ou les deux identificateurs d’entrée transmis avec les paramètres  _lpEntryID1_ ou  _lpEntryID2_ ne sont reconnus par aucun fournisseur de carnet d’adresses. 
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes et les fournisseurs de services appellent la méthode **CompareEntryIDs** pour comparer deux identificateurs d'entrée appartenant à un fournisseur de carnets d'adresses unique afin de déterminer s'ils font référence au même objet. **CompareEntryIDs** est utile, car un objet peut avoir plus d'un identificateur d'entrée valide. Cette situation peut se produire, par exemple, après l'installation d'une nouvelle version d'un fournisseur de carnet d'adresses. 
+Les applications clientes et les fournisseurs de services appellent la méthode **CompareEntryIDs** pour comparer deux identificateurs d’entrée appartenant à un seul fournisseur de carnet d’adresses afin de déterminer s’ils font référence au même objet. **CompareEntryIDs est utile** car un objet peut avoir plusieurs identificateurs d’entrée valides. Cette situation peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de carnet d’adresses. 
   
-MAPI transmet cet appel au fournisseur de carnets d'adresses qui est responsable des identificateurs d'entrée, en déterminant le fournisseur approprié en faisant correspondre la structure [MAPIUID](mapiuid.md) dans les identificateurs d'entrée à la structure **MAPIUID** inscrite par le moteur. 
+MAPI transmet cet appel au fournisseur de carnet d’adresses responsable des identificateurs d’entrée, en déterminant le fournisseur approprié en faisant correspondre la structure [MAPIUID](mapiuid.md) dans les identificateurs d’entrée avec la structure **MAPIUID** inscrite par le fournisseur. 
   
-Si les deux identificateurs d'entrée font référence au même objet, **CompareEntryIDs** définit le contenu du paramètre _lpulResult_ sur true; s'ils font référence à des objets différents, **CompareEntryIDs** définit le contenu sur false. Dans les deux cas, **CompareEntryIDs** renvoie S_OK. Si **CompareEntryIDs** renvoie une erreur, ce qui peut se produire si aucun fournisseur de carnet d'adresses n'a inscrit une structure **MAPIUID** qui correspond à celle des identificateurs d'entrée, les clients et les fournisseurs ne doivent effectuer aucune action en fonction du résultat de la COMP. Elles doivent plutôt adopter l'approche la plus conservatrice de l'action en cours d'exécution. 
+Si les deux identificateurs d’entrée font référence au même objet, **CompareEntryIDs** définit le contenu du paramètre  _lpulResult_ sur TRUE ; s’ils font référence à différents objets, **CompareEntryIDs** définit le contenu sur FALSE. Dans les deux cas, **CompareEntryIDs** renvoie S_OK. Si **CompareEntryIDs** renvoie une erreur, qui peut se produire si aucun fournisseur de carnet d’adresses n’a inscrit une structure **MAPIUID** qui correspond à celle des identificateurs d’entrée, les clients et les fournisseurs ne doivent pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, ils doivent prendre l’approche la plus prudent de l’action en cours. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dfb3bca5-5f51-9868-e4f6-e4a94006585d
-description: Ce membre est un espace réservé et n'est pas pris en charge.
+description: Ce membre est un espace réservé et n’est pas pris en charge.
 ms.openlocfilehash: ef07ea8d01c34fe9c1454cee3baa4dbb7d5adc71
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33422921"
 ---
 # <a name="ifreebusysupportplaceholder1"></a>IFreeBusySupport::Placeholder1
 
-Ce membre est un espace réservé et n'est pas pris en charge.
+Ce membre est un espace réservé et n’est pas pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -37,6 +37,6 @@ S_OK
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (API de disponibilité)](constants-free-busy-api.md)
+- [Constantes (API de libre/occupé)](constants-free-busy-api.md)
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

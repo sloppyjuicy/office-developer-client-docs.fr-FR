@@ -25,30 +25,30 @@ ms.locfileid: "33427310"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée du dossier vues définies par l'utilisateur.
+Contient l’identificateur d’entrée du dossier Affichages définis par l’utilisateur.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_VIEWS_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E5  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Banque de messages MAPI  <br/> |
+|Domaine :  <br/> |Magasin de messages MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le dossier d'affichage commun contient un ensemble prédéfini de spécificateurs d'affichage standard, tandis que le dossier d'affichage contient des spécificateurs définis par un utilisateur de messagerie. Ces dossiers, qui ne sont pas visibles dans la hiérarchie des messages interpersonnels (IPM), peuvent contenir de nombreux spécificateurs d'affichage, chacun étant stocké sous forme de message. L'application cliente peut choisir de fusionner les deux jeux de spécificateurs et les rendre disponibles.
+Le dossier d’affichage commun contient un ensemble prédéféré de specifieurs d’affichage standard, tandis que le dossier d’affichage contient des specifieurs définis par un utilisateur de messagerie. Ces dossiers, qui ne sont pas visibles dans la hiérarchie des messages interpersonnels (IPM), peuvent contenir de nombreux spécifiés d’affichage, chacun étant stocké sous la mesure d’un message. L’application cliente peut choisir de fusionner les deux ensembles de specifiers et de les rendre disponibles.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

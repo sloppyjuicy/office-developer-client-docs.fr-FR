@@ -23,32 +23,32 @@ Détermine le style et la direction du positionnement de tous les connecteurs de
 |**Valeur**|**Style de positionnement**|**Direction**|**Constante d'automation**|
 |:-----|:-----|:-----|:-----|
 |0  <br/> |Valeur par défaut ; angle droit  <br/> |Aucun  <br/> |**visLORouteDefault** <br/> |
-|0,1  <br/> |Angle droit  <br/> |Aucun  <br/> |**visLORouteRightAngle** <br/> |
-|n°2  <br/> |Tirant  <br/> |Aucun  <br/> |**visLORouteStraight** <br/> |
-|3  <br/> |Organigramme  <br/> |De haut en bas  <br/> |**visLORouteOrgChartNS** <br/> |
-|4  <br/> |Organigramme  <br/> |De gauche à droite  <br/> |**visLORouteOrgChartWE** <br/> |
-|disque  <br/> |Diagramme de flux  <br/> |De haut en bas  <br/> |**visLORouteFlowchartNS** <br/> |
-|6.x  <br/> |Diagramme de flux  <br/> |De gauche à droite  <br/> |**visLORouteFlowchartWE** <br/> |
-|7j/7  <br/> |TreeView  <br/> |De haut en bas  <br/> |**visLORouteTreeNS** <br/> |
-|8bits  <br/> |TreeView  <br/> |De gauche à droite  <br/> |**visLORouteTreeWE** <br/> |
-|4,9  <br/> |Réseau  <br/> |Aucun  <br/> |**visLORouteNetwork** <br/> |
-|10   <br/> |Organigramme  <br/> |De bas en haut  <br/> |**visLORouteOrgChartSN** <br/> |
-|11   <br/> |Organigramme  <br/> |De droite à gauche  <br/> |**visLORouteOrgChartEW** <br/> |
-|12   <br/> |Diagramme de flux  <br/> |De bas en haut  <br/> |**visLORouteFlowchartSN** <br/> |
+|1   <br/> |Angle droit  <br/> |Aucun  <br/> |**visLORouteRightAngle** <br/> |
+|2   <br/> |Droite  <br/> |Aucun  <br/> |**visLORouteStraight** <br/> |
+|3   <br/> |Organigramme  <br/> |De haut en bas  <br/> |**visLORouteOrgChartNS** <br/> |
+|4   <br/> |Organigramme  <br/> |De gauche à droite  <br/> |**visLORouteOrgChartWE** <br/> |
+|5   <br/> |Diagramme de flux  <br/> |De haut en bas  <br/> |**visLORouteFlowchartNS** <br/> |
+|6   <br/> |Diagramme de flux  <br/> |De gauche à droite  <br/> |**visLORouteFlowchartWE** <br/> |
+|7   <br/> |Arborescence  <br/> |De haut en bas  <br/> |**visLORouteTreeNS** <br/> |
+|8   <br/> |Arborescence  <br/> |De gauche à droite  <br/> |**visLORouteTreeWE** <br/> |
+|9   <br/> |Réseau  <br/> |Aucun  <br/> |**visLORouteNetwork** <br/> |
+|10   <br/> |Organigramme  <br/> |De bas en haut  <br/> |**visLORouteOrgChartSN** <br/> |
+|11  <br/> |Organigramme  <br/> |De droite à gauche  <br/> |**visLORouteOrgChartEW** <br/> |
+|12   <br/> |Diagramme de flux  <br/> |De bas en haut  <br/> |**visLORouteFlowchartSN** <br/> |
 |13   <br/> |Diagramme de flux  <br/> |De droite à gauche  <br/> |**visLORouteFlowchartEW** <br/> |
-|14   <br/> |TreeView  <br/> |De bas en haut  <br/> |**visLORouteTreeSN** <br/> |
-|15   <br/> |TreeView  <br/> |De droite à gauche  <br/> |**visLORouteTreeEW** <br/> |
-|16   <br/> |Centre vers centre  <br/> |Aucun  <br/> |**visLORouteCenterToCenter** <br/> |
+|14   <br/> |Arborescence  <br/> |De bas en haut  <br/> |**visLORouteTreeSN** <br/> |
+|15   <br/> |Arborescence  <br/> |De droite à gauche  <br/> |**visLORouteTreeEW** <br/> |
+|16   <br/> |Centre vers centre  <br/> |Aucun  <br/> |**visLORouteCenterToCenter** <br/> |
 |17   <br/> |Simple  <br/> |De haut en bas  <br/> |**visLORouteSimpleNS** <br/> |
-|18   <br/> |Simple  <br/> |De gauche à droite  <br/> |**visLORouteSimpleWE** <br/> |
-|neuf  <br/> |Simple  <br/> |De bas en haut  <br/> |**visLORouteSimpleSN** <br/> |
-|vingtaine  <br/> |Simple  <br/> |De droite à gauche  <br/> |**visLORouteSimpleEW** <br/> |
-|21  <br/> |Horizontal-vertical simple  <br/> |Aucun  <br/> |**visLORouteSimpleHV** <br/> |
-|22,5  <br/> |Vertical-horizontal simple  <br/> |Aucun  <br/> |**visLORouteSimpleVH** <br/> |
+|18   <br/> |Simple  <br/> |De gauche à droite  <br/> |**visLORouteSimpleWE** <br/> |
+|19  <br/> |Simple  <br/> |De bas en haut  <br/> |**visLORouteSimpleSN** <br/> |
+|20  <br/> |Simple  <br/> |De droite à gauche  <br/> |**visLORouteSimpleEW** <br/> |
+| 21  <br/> |Horizontal-vertical simple  <br/> |Aucun  <br/> |**visLORouteSimpleHV** <br/> |
+|22  <br/> |Vertical-horizontal simple  <br/> |Aucun  <br/> |**visLORouteSimpleVH** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule sous l'onglet **disposition et positionnement** de la boîte de dialogue mise en **page** (sous l'onglet **création** , cliquez sur la flèche **mise en page** , cliquez sur **disposition et positionnement**, puis cliquez sur **espacement** ). 
+Vous pouvez également définir la valeur  de cette cellule sous l’onglet Mise  en page et routage dans la boîte de dialogue Mise en **page** (sous l’onglet Création, cliquez sur la flèche Mise en **page,** cliquez sur Mise en page et routage, puis sur Espacement).  
   
 Vous pouvez définir le style de positionnement d'un connecteur dans la cellule ShapeRouteStyle de la section Shape Layout. 
   
@@ -62,7 +62,7 @@ Pour obtenir une référence à la cellule RouteStyle à l’aide d’un index �
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLORouteStyle** <br/> |
    

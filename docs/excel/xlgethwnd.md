@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlGetHwnd
 keywords:
-- fonction xlGetHwnd [Excel 2007]
+- fonction xlgethwnd [excel 2007]
 localization_priority: Normal
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -31,21 +31,21 @@ Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 
 ## <a name="parameters"></a>Paramètres
 
-Cette fonction n'a pas d'argument.
+Cette fonction n’a pas d’arguments.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Contient le handle de fenêtre (**xltypeInt**) dans le champ **Val. w** . 
+Contient le handle de fenêtre (**xltypeInt**) dans le **champ val.w.** 
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction est utile pour écrire du code d'API Windows.
+Cette fonction est utile pour écrire du code d’API Windows.
   
-Lorsque vous appelez cette fonction à l'aide de [Excel4](excel4-excel12.md) ou [Excel4v](excel4v-excel12v.md), la variable de type entier XLOPER renvoyée est un nombre entier court 16 bits signé. Il ne peut contenir que les 16 bits de poids faible du handle Windows 32 bits. Pour trouver la partie haute, votre code doit parcourir toutes les fenêtres ouvertes à la recherche d'une correspondance avec la partie basse. À partir d'Excel 2007, la variable de type Integer de **XLOPER12** est un entier signé 32 bits et, par conséquent, le handle entier, ce qui supprime la nécessité d'itérer toutes les fenêtres ouvertes. 
+Lorsque vous appelez cette fonction à l’aide [d’Excel4](excel4-excel12.md) ou [d’Excel4v,](excel4v-excel12v.md)la variable d’integer XLOPER renvoyée est un int court signé 16 bits. Cette capacité ne peut contenir que les 16 bits faibles du handle Windows 32 bits. Pour trouver la partie la plus élevée, votre code doit itérer dans toutes les fenêtres ouvertes à la recherche d’une correspondance avec la partie basse. À compter d’Excel 2007, la variable entière de la **xlOPER12** est un entier signé 32 bits et contient donc la poignée entière, ce qui supprime la nécessité d’itérer toutes les fenêtres ouvertes. 
   
 ### <a name="example"></a>Exemple
 
-Voir le code de la [fonction fShowDialog](fshowdialog.md) dans `SAMPLES\GENERIC\GENERIC.C`.
+Consultez le code de la [fonction fShowDialog dans](fshowdialog.md)  `SAMPLES\GENERIC\GENERIC.C` .
   
 ## <a name="see-also"></a>Voir aussi
 

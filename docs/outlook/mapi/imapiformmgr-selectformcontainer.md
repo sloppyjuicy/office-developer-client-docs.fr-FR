@@ -25,7 +25,7 @@ ms.locfileid: "33428591"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche une boîte de dialogue qui permet à l'utilisateur de sélectionner un conteneur de formulaires et renvoie une interface pour l'objet conteneur sélectionné par l'utilisateur.
+Présente une boîte de dialogue qui permet à l’utilisateur de sélectionner un conteneur de formulaires et renvoie une interface pour l’objet conteneur sélectionné par l’utilisateur.
   
 ```cpp
 HRESULT SelectFormContainer(
@@ -39,27 +39,27 @@ HRESULT SelectFormContainer(
 
  _ulUIParam_
   
-> dans Handle de la fenêtre parent de la boîte de dialogue affichée. 
+> [in] Poignée vers la fenêtre parente de la boîte de dialogue affichée. 
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont la bibliothèque de formulaires est sélectionnée (autrement dit, mode de sélection du conteneur de formulaire). Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont la bibliothèque de formulaires est sélectionnée (autrement dit, la façon dont le conteneur de formulaire est sélectionné). Les indicateurs suivants peuvent être définies :
     
 MAPIFORM_SELECT_ALL_REGISTRIES 
   
-> La sélection peut être effectuée à partir de tous les conteneurs. Il s'agit du type de sélection par défaut. 
+> La sélection peut être réalisée à partir de tous les conteneurs. Il s’agit du type de sélection par défaut. 
     
 MAPIFORM_SELECT_FOLDER_REGISTRY_ONLY 
   
-> La sélection peut uniquement être effectuée à partir de conteneurs de dossiers.
+> La sélection ne peut être réalisée qu’à partir de conteneurs de dossiers.
     
 MAPIFORM_SELECT_NON_FOLDER_REGISTRY_ONLY 
   
-> La sélection peut uniquement être effectuée à partir de conteneurs qui ne sont pas associés à des dossiers.
+> La sélection ne peut être réalisée qu’à partir de conteneurs qui ne sont pas associés à des dossiers.
     
  _lppfcnt_
   
-> remarquer Pointeur vers un pointeur vers l'interface renvoyée. Cette interface est destinée à l'objet conteneur sélectionné par l'utilisateur.
+> [out] Pointeur vers un pointeur vers l’interface renvoyée. Cette interface est pour l’objet conteneur sélectionné par l’utilisateur.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -69,7 +69,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent généralement la méthode **IMAPIFormMgr:: SelectFormContainer** pour sélectionner un conteneur de formulaires dans lequel un formulaire est installé. **SelectFormContainer** ne peut pas être utilisé pour sélectionner le conteneur de formulaire local, qui a la valeur HFRMREG_LOCAL. 
+Les visionneuses de formulaire appellent généralement la méthode **IMAPIFormMgr::SelectFormContainer** pour sélectionner un conteneur de formulaire dans lequel un formulaire est installé. **SelectFormContainer ne peut** pas être utilisé pour sélectionner le conteneur de formulaire local, dont la valeur est HFRMREG_LOCAL. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -77,7 +77,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnSelectFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr:: SelectFormContainer** pour sélectionner un conteneur de formulaire avant de restituer son contenu.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnSelectFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::SelectFormContainer** pour sélectionner un conteneur de formulaire avant d’en rendre le contenu.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

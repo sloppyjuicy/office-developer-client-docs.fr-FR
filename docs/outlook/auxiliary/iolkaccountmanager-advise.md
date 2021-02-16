@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
-description: Inscrit un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.
+description: Enregistre un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.
 ms.openlocfilehash: 5460d55d906d382ce40ecd3fd9277cf370295680
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33427709"
 ---
 # <a name="iolkaccountmanageradvise"></a>IOlkAccountManager::Advise
 
-Inscrit un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.
+Enregistre un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,11 +33,11 @@ HRESULT IOlkAccountManager::Advise (
 
 _pNotify_
   
-> dans Interface [IOlkAccountNotify](iolkaccountnotify.md) qui sera utilisée par le gestionnaire de comptes pour envoyer des notifications au client. 
+> [in] Interface [IOlkAccountNotify](iolkaccountnotify.md) que le gestionnaire de comptes utilisera pour envoyer des notifications au client. 
     
 _pdwCookie_
   
-> remarquer Un cookie que [IOlkAccountManager::](iolkaccountmanager-unadvise.md) Unadvise utilisera lors de la suppression de l'inscription pour le compte. 
+> [out] Un cookie que [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md) utilisera lors de la suppression de l’inscription pour le compte. 
     
 ## <a name="return-values"></a>Valeurs de retour
 

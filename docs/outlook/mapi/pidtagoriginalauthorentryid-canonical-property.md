@@ -25,7 +25,7 @@ ms.locfileid: "33425588"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée de l'auteur de la première version d'un message, c'est-à-dire le message avant son transfert ou sa réponse.
+Contient l’identificateur d’entrée de l’auteur de la première version d’un message, c’est-à-dire le message avant d’être transmis ou de répondre.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient l'identificateur d'entrée de l'auteur de la première version d'un mes
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l'une des propriétés d'adresse de l'auteur d'un message. Lors de la première soumission du message, l'application cliente doit définir cette propriété sur la valeur de **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Il n'est jamais modifié lorsque le message est transféré ou renvoyé. 
+Cette propriété est l’une des propriétés d’adresse de l’auteur d’un message. Lors de la première soumission du message, l’application cliente doit définir cette propriété sur la valeur **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Elle n’est jamais modifiée lorsque le message est transmis ou à qui une réponse est répondue. 
   
-La propriété auteur d'origine permet de conserver des informations en dehors du domaine de messagerie local. Lorsqu'un message arrive à partir d'un autre domaine de messagerie, tel qu'Internet, cette propriété permet de s'assurer que les informations d'origine ne sont pas perdues.
+La propriété d’auteur d’origine permet la conservation des informations en dehors du domaine de messagerie local. Lorsqu’un message arrive à partir d’un autre domaine de messagerie, tel qu’Internet, cette propriété permet de s’assurer que les informations d’origine ne sont pas perdues.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

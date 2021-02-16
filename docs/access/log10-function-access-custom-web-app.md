@@ -1,5 +1,5 @@
 ---
-title: Fonction log10 (application Web personnalisée Access)
+title: Log10 Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424867"
 ---
-# <a name="log10-function-access-custom-web-app"></a>Fonction log10 (application Web personnalisée Access)
+# <a name="log10-function-access-custom-web-app"></a>Log10 Function (Access custom web app)
 
 Calcule le logarithme d'un nombre en base 10.
   
@@ -25,14 +25,14 @@ Calcule le logarithme d'un nombre en base 10.
 
  **Log10** (*NumericExpression*) 
   
-La fonction **log10** contient l'argument suivant. 
+La **fonction Log10** contient l’argument suivant. 
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Nombre positif pour lequel vous souhaitez obtenir le logarithme en base 10.  <br/> |
+| *NumericExpression*  <br/> |Nombre positif pour lequel vous souhaitez obtenir le logarithme de base 10.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La fonction **log** vous permet de modifier la base du logarithme au lieu d'utiliser la base 10. 
+La **fonction Log** vous permet de modifier la base du logarithme au lieu d’utiliser la base 10. 
   
 

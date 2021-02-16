@@ -21,17 +21,17 @@ ms.locfileid: "33426491"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'ID de processus du processus qui envoie des notifications à l'indexeur à propos des objets prêts pour l'indexation.
+Contient l’ID de processus du processus qui envoie des notifications à l’indexeur sur les objets prêts pour l’indexation.
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEARCH_OWNER_ID  <br/> |
-|Exposé par:  <br/> |Objet de banque de messages  <br/> |
+|Exposé par :  <br/> |Objet de la boutique de messages  <br/> |
 |Identificateur :  <br/> |0x3419  <br/> |
-|Type de propriété:  <br/> |PT_LONG  <br/> |
-|Balise de propriété:  <br/> |0x34190003  <br/> |
-|Access  <br/> |Lecture seule  <br/> |
+|Type de propriété :  <br/> |PT_LONG  <br/> |
+|Balise de propriété :  <br/> |0x34190003  <br/> |
+|Accès :  <br/> |Lecture seule  <br/> |
    
 

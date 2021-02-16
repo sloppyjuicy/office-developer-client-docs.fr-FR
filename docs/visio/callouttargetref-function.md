@@ -25,7 +25,7 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-CALLOUTTARGETREF ()!
+CALLOUTTARGETREF()!
   
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -33,11 +33,11 @@ Référence ShapeSheet
   
 ## <a name="remarks"></a>Remarques
 
-Si la forme n'est pas une forme de légende, ou si elle n'est pas associée à une forme cible, CALLOUTTARGETREF renvoie #REF.
+Si la forme n’est pas une forme de fin ou si elle n’est pas associée à une forme cible, callOUTTARGETREF renvoie #REF.
   
 ## <a name="example"></a>Exemple
 
-CALLOUTTARGETREF ()! Standard 
+CALLOUTTARGETREF()! Height 
   
 Renvoie la valeur de la cellule Height de la forme associée à la légende. 
   

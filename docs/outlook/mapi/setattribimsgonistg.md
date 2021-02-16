@@ -25,13 +25,13 @@ ms.locfileid: "33428829"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit ou modifie les attributs des propriétés sur un objet [IMessage](imessageimapiprop.md) fourni par la fonction [OpenIMsgOnIStg](openimsgonistg.md) . 
+Définit ou modifie les attributs des propriétés d’un objet [IMessage](imessageimapiprop.md) fourni par la fonction [OpenIMsgOnIStg.](openimsgonistg.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |IMessage. h  <br/> |
+|Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Applications clientes et fournisseurs de banques de messages  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de magasins de messages  <br/> |
    
 ```cpp
 HRESULT SetAttribIMsgOnIStg(
@@ -46,19 +46,19 @@ HRESULT SetAttribIMsgOnIStg(
 
  _lpObject_
   
-> dans Pointeur vers l'objet pour lequel les attributs de propriété sont définis. 
+> [in] Pointeur vers l’objet pour lequel les attributs de propriété sont définies. 
     
  _lpPropTags_
   
-> dans Pointeur vers une structure [SPropTagArray](sproptagarray.md) contenant un tableau de balises de propriété indiquant les propriétés pour lesquelles les attributs de propriété sont définis. 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) contenant un tableau de balises de propriété indiquant les propriétés pour lesquelles les attributs de propriété sont définies. 
     
  _lpPropAttrs_
   
-> dans Pointeur vers une structure [SPropAttrArray](spropattrarray.md) répertoriant les attributs de propriété à définir. 
+> [in] Pointeur vers une structure [SPropAttrArray](spropattrarray.md) répertoriant les attributs de propriété à définir. 
     
  _lppPropProblems_
   
-> remarquer Pointeur vers la structure [SPropProblemArray](spropproblemarray.md) renvoyée contenant un ensemble de problèmes de propriété. Cette structure identifie les problèmes rencontrés si **SetAttribIMsgOnIStg** a pu définir certaines propriétés, mais pas toutes. Si un pointeur vers NULL est transmis dans le paramètre _lppPropProblems_ , aucun tableau de problèmes de propriété n'est renvoyé, même si certaines propriétés n'ont pas été définies. 
+> [out] Pointeur vers la structure [SPropProblemArray](spropproblemarray.md) renvoyée contenant un ensemble de problèmes de propriété. Cette structure identifie les problèmes rencontrés si **SetAttribIMsgOnIStg** a pu définir certaines propriétés, mais pas toutes. Si un pointeur vers NULL est transmis dans le paramètre  _lppPropProblems,_ aucun tableau de problèmes de propriété n’est renvoyé, même si certaines propriétés n’ont pas été définies. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -68,16 +68,16 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> L'appel a réussi globalement, mais une ou plusieurs propriétés n'ont pas été accessibles et ont été renvoyées avec un type de propriété PT_ERROR.
+> L’appel a réussi globalement, mais une ou plusieurs propriétés n’ont pas pu être accessibles et ont été renvoyées avec un type de propriété PT_ERROR.
     
 ## <a name="remarks"></a>Remarques
 
-Les attributs de propriété ne sont accessibles que sur les objets Property, c'est-à-dire les objets qui implémentent l'interface [IMAPIProp: IUnknown](imapipropiunknown.md) . Pour que les propriétés MAPI soient disponibles sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) crée un objet [IMessage: IMAPIProp](imessageimapiprop.md) en haut de l'objet OLE **IStorage** . Les attributs de propriété sur ces objets peuvent être définis ou modifiés avec **SetAttribIMsgOnIStg** et récupérés avec [GetAttribIMsgOnIStg](getattribimsgonistg.md). 
+Les attributs de propriété sont accessibles uniquement sur les objets de propriété, c’est-à-dire les objets implémentant l’interface [IMAPIProp : IUnknown.](imapipropiunknown.md) Pour rendre les propriétés MAPI disponibles sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) crée un objet [IMessage : IMAPIProp](imessageimapiprop.md) au-dessus de l’objet **OLE IStorage.** Les attributs de propriété de ces objets peuvent être définies ou modifiées avec **SetAttribIMsgOnIStg** et récupérées avec [GetAttribIMsgOnIStg](getattribimsgonistg.md). 
   
- **Note** **GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous les objets **IMessage** . Elles ne sont valides que pour les objets **IMessage**sur le **IStorage** renvoyés par **OpenIMsgOnIStg**. 
+ **Remarque** **: GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous les objets **IMessage.** Ils sont uniquement valides pour les objets **IMessage**-on- **IStorage** renvoyés par **OpenIMsgOnIStg**. 
   
-Dans le paramètre _lpPropAttrs_ , le nombre et la position des attributs doivent correspondre au nombre et à la position des balises de propriété transmises dans le paramètre _lpPropTags_ . 
+Dans le _paramètre lpPropAttrs,_ le numéro et la position des attributs doivent correspondre au numéro et à la position des balises de propriété transmises dans le paramètre _lpPropTags._ 
   
-La fonction **SetAttribIMsgOnIStg** permet de définir des propriétés de message en lecture seule lorsque cela est requis par le schéma **IMessage** . L'exemple de fournisseur de banque d'messages l'utilise à cette fin. Pour plus d'informations, consultez la rubrique [messages](mapi-messages.md). 
+La **fonction SetAttribIMsgOnIStg** permet de rendre les propriétés de message en lecture seule lorsqu’elles sont requises par le **schéma IMessage.** L’exemple de fournisseur de magasins de messages l’utilise à cet effet. Pour plus d’informations, voir [Messages](mapi-messages.md). 
   
 

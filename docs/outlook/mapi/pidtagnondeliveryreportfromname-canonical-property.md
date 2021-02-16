@@ -25,7 +25,7 @@ ms.locfileid: "33428402"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-S'il est défini sur un rapport de non-remise, indique le nom de l'utilisateur ayant échoué envoyer en tant que.
+S’il est définie sur un rapport nondelivery, indique le nom de l’utilisateur Send-As échec.
   
 |||
 |:-----|:-----|
@@ -40,17 +40,17 @@ S'il est défini sur un rapport de non-remise, indique le nom de l'utilisateur a
 
 [[MS-OXPROPS]] 
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

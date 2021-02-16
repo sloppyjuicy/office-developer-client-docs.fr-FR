@@ -33,14 +33,14 @@ Pour obtenir une référence à la cellule Ask par un nom à partir d’une autr
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Hélice. *nom* . Vérifiez où prop.  *Name* est le nom de la ligne de propriété personnalisée.  <br/> |
+|Nom de cellule :  <br/> |Prop. *nom*  . Vérifiez où Prop.  *nom*  est le nom de la ligne de propriété personnalisée.  <br/> |
    
 Pour obtenir une référence référence à la cellule Ask à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionProp** <br/> |
-|Index de la ligne :  <br/> |**visRowProp** +  *i* où *i* = 0, 1, 2,...  <br/> |
+|Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2,...  <br/> |
 |Index de la cellule :  <br/> |**visCustPropsAsk** <br/> |
    
 

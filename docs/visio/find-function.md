@@ -22,15 +22,15 @@ Recherche une chaîne de texte contenue dans une autre chaîne de texte et renvo
   
 ## <a name="syntax"></a>Syntaxe
 
-Find (* * *texte_cherché* * *, * * *dans_texte* * *, [* * *no_départ* * *], [* * *ignore_case* * *]) 
+FIND (** *find_text* **, ** *within_text* **,[ ** *start_num* ** ], [ ** *ignore_case* ** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _accepte_ <br/> |Obligatoire  <br/> |**String** <br/> |Chaîne de texte à rechercher.  <br/> |
+| _find_text_ <br/> |Obligatoire  <br/> |**String** <br/> |Chaîne de texte à rechercher.  <br/> |
 | _format_ <br/> |Obligatoire  <br/> |**String** <br/> |Chaîne de texte qui contient le texte à rechercher.  <br/> |
-| _no_départ_ <br/> |Facultatif  <br/> |**Number** <br/> |Caractère auquel débute la recherche. Le premier caractère dans _dans_texte_ est 1. Si _no_départ_ est manquant, il est supposé égal à 1.  <br/> |
+| _start_num_ <br/> |Facultatif  <br/> |**Number** <br/> |Caractère auquel débute la recherche. Le premier caractère de  _within_text_ est 1. Si  _start_num_ est manquant, il est supposé être 1.  <br/> |
 | _ignore_case_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Par défaut, la fonction FIND respecte la casse. Si vous souhaitez qu’elle ignore la casse, attribuez à cet argument la valeur TRUE.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
@@ -39,19 +39,19 @@ Nombre
   
 ## <a name="remarks"></a>Remarques
 
-Si la fonction FIND détecte plusieurs correspondances, elle renvoie la position de début de la première chaîne. L'argument _texte_cherché_ ne tient pas compte des caractères génériques. 
+Si la fonction FIND détecte plusieurs correspondances, elle renvoie la position de début de la première chaîne. _L find_text_ argument ne considère pas les caractères comme des caractères génériques. 
   
-Si _texte_cherché_:
+Si  _find_text_:
   
--  Est vide (""), FIND correspond au premier caractère de la chaîne de recherche (c'est-à-dire, le caractère numéroté _no_départ_ ou 1). 
+-  Est vide («  »), FIND correspond au premier caractère de la chaîne de recherche (autrement dit, le caractère numéro  _start_num_ ou 1). 
     
-- N'apparaît pas dans _dans_texte_, Find renvoie la #VALUE! Autrement, la méthode INDEX renvoie la valeur d'erreur #REF!. 
+- N’apparaît pas  _dans within_text_, FIND renvoie la #VALUE! Autrement, la méthode INDEX renvoie la valeur d'erreur #REF!. 
     
-Si _no_départ_:
+Si  _start_num_:
   
 - n’est pas supérieur à zéro (0), FIND renvoie la valeur d’erreur #VALEUR! ; 
     
-- Est supérieur à la longueur de _dans_texte_, FINDreturns le #VALUE! Autrement, la méthode INDEX renvoie la valeur d'erreur #REF!. 
+- Est supérieur à la longueur de  _within_text_, FINDreturns le #VALUE! Autrement, la méthode INDEX renvoie la valeur d'erreur #REF!. 
     
 ## <a name="example"></a>Exemple
 

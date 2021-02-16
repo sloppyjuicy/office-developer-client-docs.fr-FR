@@ -38,21 +38,21 @@ ULONG FAR * lpulCount
 
  _ulFlags_
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
  _lpulCount_
   
-> remarquer Pointeur vers le nombre de lignes dans le tableau.
+> [out] Pointeur vers le nombre de lignes du tableau.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le nombre de lignes a été correctement renvoyé.
+> Le nombre de lignes a été renvoyé avec succès.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours, ce qui empêche le démarrage de l'opération de récupération du nombre de lignes. L'opération en cours doit être autorisée ou elle doit être arrêtée.
+> Une autre opération est en cours qui empêche le démarrage de l’opération de récupération du nombre de lignes. L’opération en cours doit être autorisée ou arrêtée.
     
 MAPI_E_NO_SUPPORT 
   
@@ -60,23 +60,23 @@ MAPI_E_NO_SUPPORT
     
 MAPI_W_APPROX_COUNT 
   
-> L'appel a réussi, mais un nombre approximatif de lignes a été renvoyé, car le nombre exact de lignes n'a pas pu être déterminé en raison de contraintes de mémoire. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Consultez la rubrique [utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md).
+> L’appel a réussi, mais un nombre approximatif de lignes a été renvoyé, car le nombre exact de lignes n’a pas pu être déterminé en raison de contraintes de mémoire. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable:: GetRowCount** récupère le nombre total de lignes dans un tableau. 
+La **méthode IMAPITable::GetRowCount** récupère le nombre total de lignes dans un tableau. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si vous ne pouvez pas déterminer le nombre exact de lignes de la table, renvoyez MAPI_W_APPROX_COUNT et un nombre approximatif de lignes dans le contenu du paramètre _lpulCount_ . 
+Si vous ne pouvez pas déterminer le nombre exact de lignes du tableau, renvoyez MAPI_W_APPROX_COUNT nombre de lignes et un nombre approximatif de lignes dans le contenu du _paramètre lpulCount._ 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Utilisez **GetRowCount** pour déterminer le nombre de lignes qu'une table contient avant d'appeler la méthode [IMAPITable:: QueryRows](imapitable-queryrows.md) pour extraire les données. S'il y a moins de vingt lignes dans le tableau, il est possible d'appeler **QueryPosition** pour récupérer le tableau entier. S'il y a plus de vingt lignes dans le tableau, envisagez d'effectuer plusieurs appels à **QueryPosition** et limitez le nombre de lignes extraites dans chaque appel. 
+Utilisez **GetRowCount pour** connaître le nombre de lignes qu’une table contient avant d’appeler la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer les données. S’il y a moins de vingt lignes dans la table, il est sûr d’appeler **QueryPosition** pour récupérer la table entière. Si la table compte plus de vingt lignes, envisagez d’effectuer plusieurs appels à **QueryPosition** et limitez le nombre de lignes récupérées dans chaque appel. 
   
-Certaines tables ne prennent pas en charge **GetRowCount** et renvoient MAPI_E_NO_SUPPORT. Si **GetRowCount** n'est pas pris en charge, vous pouvez également appeler la méthode [IMAPITable:: QueryPosition](imapitable-queryposition.md). Avec les résultats d' **QueryPosition**, vous pouvez déterminer la relation entre la ligne active et la dernière ligne. 
+Certaines tables ne peuvent pas prendre **en charge GetRowCount** et renvoyer des MAPI_E_NO_SUPPORT. Si **GetRowCount n’est** pas pris en charge, une alternative peut être d’appeler [IMAPITable::QueryPosition](imapitable-queryposition.md). Avec les résultats **de QueryPosition,** vous pouvez déterminer la relation entre la ligne actuelle et la dernière ligne. 
   
-Lorsque **GetRowCount** renvoie MAPI_E_BUSY parce qu'il est temporairement incapable de récupérer un nombre de lignes, appelez la méthode [IMAPITable:: WaitForCompletion](imapitable-waitforcompletion.md) . Lorsque **WaitForCompletion** renvoie, essayez à nouveau l'appel à **GetRowCount**. Pour détecter si une opération asynchrone est en cours, vous pouvez également appeler la méthode [IMAPITable:: GetStatus](imapitable-getstatus.md) et vérifier le contenu du paramètre _lpulTableState_ . 
+Lorsque **GetRowCount renvoie** MAPI_E_BUSY car il est temporairement incapable de récupérer un nombre de lignes, appelez la méthode [IMAPITable::WaitForCompletion.](imapitable-waitforcompletion.md) Lorsque **WaitForCompletion est** de retour, réessayez l’appel **à GetRowCount**. Une autre façon de détecter si une opération asynchrone est en cours consiste à appeler la méthode [IMAPITable::GetStatus](imapitable-getstatus.md) et à vérifier le contenu du paramètre _lpulTableState._ 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -84,7 +84,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions. cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI utilise la méthode **IMAPITable:: GetRowCount** pour déterminer le nombre de lignes contenues dans la table source de sorte que la mémoire puisse être allouée à l'exécution de la copie.  <br/> |
+|MAPIFunctions.cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI utilise la méthode **IMAPITable::GetRowCount** pour déterminer le nombre de lignes dans la table source afin que la mémoire puisse être allouée pour effectuer la copie.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

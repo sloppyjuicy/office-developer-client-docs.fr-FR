@@ -1,5 +1,5 @@
 ---
-title: Fonction concat (application Web personnalisée Access)
+title: Fonction Concat (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423271"
 ---
-# <a name="concat-function-access-custom-web-app"></a>Fonction concat (application Web personnalisée Access)
+# <a name="concat-function-access-custom-web-app"></a>Fonction Concat (application web personnalisée Access)
 
 Renvoie une chaîne qui est le résultat de la combinaison de deux ou plusieurs valeurs de chaîne.
   
@@ -22,23 +22,23 @@ Renvoie une chaîne qui est le résultat de la combinaison de deux ou plusieurs 
   
 ## <a name="syntax"></a>Syntaxe
 
-**Concat** (*Valeur1*, *valeur2*,... [*ValueN*]) 
+**Concat** (*Valeur1*, *Valeur2*, ... [*ValueN*]) 
   
-La **** fonction concat contient les arguments suivants. 
+La **fonction Concat** contient les arguments suivants. 
   
-|**Nom de l'argument**|**Description**|
+|**Nom de l’argument**|**Description**|
 |:-----|:-----|
-|Valeur  <br/> |Valeur de type String à concaténer aux autres valeurs.  <br/> |
+|Valeur  <br/> |Valeur de chaîne à concaténer aux autres valeurs.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-**Concat** prend un nombre variable d'arguments de chaîne et les concatène en une seule chaîne. Un minimum de deux arguments de chaîne sont requis; Sinon, une erreur est générée. 
+**Concat** prend un nombre variable d’arguments de chaîne et les concatène en une seule chaîne. Un minimum de deux arguments de chaîne est requis ; Dans le cas contraire, une erreur est produite. 
   
-Tous les arguments sont implicitement convertis en types de données String, puis concaténés.
+Tous les arguments sont implicitement convertis en types de données de chaîne, puis concatés.
   
 ## <a name="example"></a>Exemple
 
-L'expression suivante peut être utilisée pour afficher le nom complet d'une personne dans laquelle le tableau contient les champs FirstName, MiddleInitial et LastName. Si le champ MiddleInitial est vide, seuls les champs FirstName et LastName sont combinés pour afficher le nom complet.
+L’expression suivante peut être utilisée pour afficher le nom complet d’une personne où la table contient les champs FirstName, MiddleInitial et LastName. Si le champ MiddleInitial est vide, seuls les champs FirstName et LastName sont combinés pour afficher le nom complet.
   
 ```vb
 IIf([MiddleInitial] Is Null,Concat([FirstName]," ",[LastName]),Concat([FirstName]," ",[MiddleInitial]," ",[LastName]))

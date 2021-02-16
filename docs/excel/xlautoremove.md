@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAutoRemove
 keywords:
-- fonction xlAutoRemove [Excel 2007]
+- fonction xlautoremove [excel 2007]
 localization_priority: Normal
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,11 +22,11 @@ ms.locfileid: "33425476"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Appelé par Microsoft Excel chaque fois que l'utilisateur désactive le XLL au cours d'une session Excel à l'aide du gestionnaire de compléments. Cette fonction n’est pas appelée lors de la fermeture normale ou anormale d’une session Excel lorsque le complément est installé.
+Appelé par Microsoft Excel chaque fois que l’utilisateur désactive le XLL pendant une session Excel à l’aide du Add-In Manager. Cette fonction n’est pas appelée lors de la fermeture normale ou anormale d’une session Excel lorsque le complément est installé.
   
-Cette fonction permet d'afficher une boîte de dialogue personnalisée indiquant à l'utilisateur que le complément a été désactivé ou de lire ou d'écrire dans le registre, par exemple.
+Cette fonction peut être utilisée pour afficher une boîte de dialogue personnalisée qui dit à l’utilisateur que le module a été désactivé, ou pour lire ou écrire dans le Registre, par exemple.
   
-Excel ne requiert pas de XLL pour implémenter et exporter cette fonction. 
+Excel ne nécessite pas de XLL pour implémenter et exporter cette fonction. 
   
 ```cs
 int WINAPI xlAutoRemove(void);
@@ -42,7 +42,7 @@ Votre exécution de cette fonction doit renvoyer 1 (**ent**).
   
 ## <a name="remarks"></a>Remarques
 
-Utilisez cette fonction si votre XLL doit effectuer une tâche lorsqu'elle est supprimée par le gestionnaire de compléments.
+Utilisez cette fonction si votre XLL doit effectuer une tâche lorsqu’elle est supprimée par Add-In manager.
   
 ## <a name="example"></a>Exemple
 

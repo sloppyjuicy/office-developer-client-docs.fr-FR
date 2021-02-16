@@ -21,17 +21,17 @@ ms.locfileid: "33425889"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-De nombreux objets prennent en charge un modèle de transaction de traitement dans lequel les modifications apportées aux propriétés ne sont pas permanentes tant qu'elles n'ont pas été validées ultérieurement. Tandis que les modifications apportées aux propriétés sont gérées par les méthodes [IMAPIProp:: SetProps](imapiprop-setprops.md) et [IMAPIProp::D eleteprops](imapiprop-deleteprops.md) , l'étape de validation est gérée par [IMAPIProp:: SaveChanges](imapiprop-savechanges.md). Il n'est pas possible d'accéder à la version la plus récente des propriétés d'un objet après un appel réussi à **SaveChanges** . 
+De nombreux objets sont pris en charge par un modèle de traitement de transaction dans lequel les modifications apportées aux propriétés ne sont pas définitives tant qu’elles n’ont pas été apportées ultérieurement. Alors que les modifications apportées aux propriétés sont gérées par les méthodes [IMAPIProp::SetProps](imapiprop-setprops.md) et [IMAPIProp::D eleteProps,](imapiprop-deleteprops.md) l’étape de validation est gérée par [IMAPIProp::SaveChanges](imapiprop-savechanges.md). Ce n’est qu’après un appel réussi à **SaveChanges** que la version la plus récente des propriétés d’un objet est accessible. 
   
-Lorsque **SaveChanges** renvoie la valeur d'erreur MAPI_E_OBJECT_CHANGED, il s'agit d'un avertissement indiquant qu'un autre client valide simultanément les modifications apportées à l'objet. Selon le fournisseur qui implémente l'objet, il est possible que plusieurs clients ouvrent correctement un objet en appelant sa méthode **OpenEntry** avec l'indicateur MAPI_MODIFY défini, en leur donnant accès en lecture/écriture. L'objet renvoyé par un appel **OpenEntry** est une capture instantanée des données de stockage. Chaque tentative ultérieure de modification de ces données peut remplacer la tentative précédente. 
+Lorsque **SaveChanges renvoie** la valeur d’MAPI_E_OBJECT_CHANGED, il s’agit d’un avertissement signalant qu’un autre client validation simultanément les modifications apportées à l’objet. Selon le fournisseur qui implémente l’objet, plusieurs clients peuvent ouvrir un objet en appelant sa méthode **OpenEntry** avec l’indicateur MAPI_MODIFY, ce qui leur donne un accès en lecture/écriture. L’objet renvoyé par un appel **OpenEntry** de ce type est un instantané des données de stockage. Chaque tentative ultérieure de modification de ces données peut modifier la tentative précédente. 
   
-Lors de la réception de MAPI_E_OBJECT_CHANGED à partir d' **SaveChanges**, un client a la possibilité de: 
+Lors de la MAPI_E_OBJECT_CHANGED de **SaveChanges,** un client a la possibilité de : 
   
-- Effectuez une copie de l'objet pour conserver les modifications.
+- Faites une copie de l’objet pour contenir les modifications.
     
-- Appeler **SaveChanges**en spécifiant FORCE_SAVE. 
+- Effectuer un autre appel **à SaveChanges,** en spécifiant FORCE_SAVE. 
     
-L'appel de **SaveChanges** avec l'indicateur FORCE_SAVE remplace l'enregistrement précédent et rend les modifications d'un client permanentes. 
+**L’appel de SaveChanges** FORCE_SAVE l’indicateur précédent a la place de l’enregistrer précédent et rend permanentes les modifications d’un client. 
   
 ## <a name="see-also"></a>Voir aussi
 

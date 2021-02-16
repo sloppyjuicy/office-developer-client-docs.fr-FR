@@ -25,26 +25,26 @@ ms.locfileid: "33426064"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si ce message est une copie incomplète d'un autre message.
+Contient TRUE si ce message est une copie incomplète d’un autre message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INCOMPLETE_COPY  <br/> |
 |Identificateur :  <br/> |0x0035  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Propriétés générales des messages  <br/> |
+|Domaine :  <br/> |Propriétés de message générales  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

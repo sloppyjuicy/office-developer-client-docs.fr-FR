@@ -23,12 +23,12 @@ ms.locfileid: "33428283"
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Initialise un fournisseur de carnets d'adresses pour l'opération. 
+Initialise un fournisseur de carnet d’adresses pour l’opération. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
-|Implémenté par :  <br/> |Fournisseurs de carnets d'adresses  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de carnets d’adresses  <br/> |
 |Appelé par :  <br/> |MAPI  <br/> |
    
 ```cpp
@@ -49,43 +49,43 @@ HRESULT ABProviderInit(
 
  _hInstance_
   
-> dans Instance de la bibliothèque de liens dynamiques (DLL) du fournisseur de carnet d'adresses utilisée par MAPI lors de sa liaison. 
+> [in] Instance de la bibliothèque de liens dynamiques (DLL) du fournisseur de carnet d’adresses que MAPI a utilisée lors de sa liaison. 
     
  _lpMalloc_
   
-> dans Pointeur vers un objet de l'allocation de mémoire qui expose **** l'interface OLE imalloc. Il se peut que le fournisseur de carnets d'adresses doive utiliser cette méthode d'allocation lorsque vous travaillez avec certaines interfaces telles que **IStream**. 
+> [in] Pointeur vers un objet d’allocation de mémoire exposant l’interface OLE **IMalloc.** Le fournisseur de carnet d’adresses peut avoir besoin d’utiliser cette méthode d’allocation lors de l’utilisation de certaines interfaces telles que **IStream**. 
     
  _lpAllocateBuffer_
   
-> dans Pointeur vers la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) à utiliser, le cas échéant par MAPI pour allouer de la mémoire. 
+> [in] Pointeur vers la [fonction MAPIAllocateBuffer,](mapiallocatebuffer.md) à utiliser lorsque MAPI l’exige pour allouer de la mémoire. 
     
  _lpAllocateMore_
   
-> dans Pointeur vers la fonction [MAPIAllocateMore](mapiallocatemore.md) à utiliser, le cas échéant par MAPI pour allouer de la mémoire supplémentaire. 
+> [in] Pointeur vers la [fonction MAPIAllocateMore,](mapiallocatemore.md) à utiliser lorsque MAPI l’exige pour allouer de la mémoire supplémentaire. 
     
  _lpFreeBuffer_
   
-> dans Pointeur vers la fonction [MAPIFreeBuffer](mapifreebuffer.md) à utiliser, le cas échéant par MAPI pour libérer de la mémoire. 
+> [in] Pointeur vers la [fonction MAPIFreeBuffer,](mapifreebuffer.md) à utiliser lorsque MAPI l’exige pour libérer de la mémoire. 
     
  _ulFlags_
   
-> dans Masque de réindicateur des indicateurs. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs. L’indicateur suivant peut être définie :
     
 MAPI_NT_SERVICE 
   
-> Le fournisseur est en cours de chargement dans le contexte d'un service Windows, un type spécial de processus sans accès à une interface utilisateur. 
+> Le fournisseur est chargé dans le contexte d’un service Windows, un type spécial de processus sans accès à une interface utilisateur. 
     
  _ulMAPIVer_
   
-> dans Numéro de version de l'interface du fournisseur de services (SPI) MAPI. DLL utilise. Pour le numéro de version actuel, consultez le MAPISPI. Fichier d'en-tête H. 
+> [in] Numéro de version de l’interface du fournisseur de services (SPI) que MAPI.DLL utilise. Pour le numéro de version actuel, voir MAPISPI. Fichier d’en-tête H. 
     
  _lpulProviderVer_
   
-> remarquer Pointeur vers le numéro de version du SPI que ce fournisseur de carnet d'adresses utilise. 
+> [out] Pointeur vers le numéro de version du spi utilisé par ce fournisseur de carnet d’adresses. 
     
  _lppABProvider_
   
-> remarquer Pointeur vers un pointeur vers l'objet fournisseur de carnet d'adresses initialisé.
+> [out] Pointeur vers un pointeur vers l’objet fournisseur de carnet d’adresses initialisé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -95,21 +95,21 @@ S_OK
     
 MAPI_E_VERSION 
   
-> La version SPI utilisée par MAPI n'est pas compatible avec le SPI utilisé par ce fournisseur.
+> La version SPI utilisée par MAPI n’est pas compatible avec la spi utilisée par ce fournisseur.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la fonction de point d'entrée **ABProviderInit** pour initialiser un fournisseur de carnets d'adresses à la suite d'une ouverture de session client. 
+MAPI appelle la fonction de point d’entrée **ABProviderInit** pour initialiser un fournisseur de carnet d’adresses à la suite d’une inscription client. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Un fournisseur de carnets d'adresses doit implémenter **ABProviderInit** en tant que fonction de point d'entrée dans la dll du fournisseur. L'implémentation doit être basée sur le prototype de fonction **ABPROVIDERINIT** , également spécifié dans MAPISPI. H. MAPI définit **ABPROVIDERINIT** pour utiliser le type d'appel d'initialisation MAPI standard, STDMAPIINITCALLTYPE, qui force **ABPROVIDERINIT** à suivre la Convention d'appel CDECL. 
+Un fournisseur de carnet d’adresses doit implémenter **ABProviderInit** en tant que fonction de point d’entrée dans la DLL du fournisseur. L’implémentation doit être basée sur le prototype de fonction **ABPROVIDERINIT,** également spécifié dans MAPISPI.H. MAPI définit **ABPROVIDERINIT** pour utiliser le type d’appel d’initialisation MAPI standard, STDMAPIINITCALLTYPE, ce qui entraîne **ABProviderInit** à respecter la convention d’appel CDECL. 
   
-Un fournisseur peut être initialisé plusieurs fois, en raison de son affichage simultané dans plusieurs profils, ou de plusieurs fois dans le même profil. Étant donné que l'objet fournisseur contient le contexte, **ABProviderInit** doit renvoyer un objet fournisseur différent dans _lppABProvider_ pour chaque initialisation, même pour plusieurs initialisations dans le même processus. 
+Un fournisseur peut être initialisé plusieurs fois, suite à l’apparition de plusieurs profils dans une utilisation simultanée ou de l’apparition de plusieurs fois dans le même profil. Étant donné que l’objet fournisseur contient du contexte, **ABProviderInit** doit retourner un autre objet fournisseur dans  _lppABProvider_ pour chaque initialisation, même pour plusieurs initialisations dans le même processus. 
   
-Le fournisseur de carnets d'adresses doit utiliser les fonctions pointées par _lpAllocateBuffer_, _lpAllocateMore_et _lpFreeBuffer_ pour la plupart de l'allocation et de la libération de mémoire. En particulier, le fournisseur doit utiliser ces fonctions pour allouer de la mémoire à utiliser par les applications clientes lors de l'appel d'interfaces d'objets telles que [IMAPIProp:: GetProps](imapiprop-getprops.md) et [IMAPITable:: QueryRows](imapitable-queryrows.md). Si le fournisseur s'attend également à utiliser l'allocateur de mémoire OLE, il doit appeler la méthode **IUnknown:: AddRef** de l'objet allocater pointé par le paramètre _lpMalloc_ . 
+Le fournisseur de carnet d’adresses doit utiliser les fonctions pointées par  _lpAllocateBuffer,_  _lpAllocateMore_ et  _lpFreeBuffer_ pour la plupart des allocations de mémoire et de la déallocation. En particulier, le fournisseur doit utiliser ces fonctions pour allouer de la mémoire aux applications clientes lors de l’appel d’interfaces d’objets telles que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). Si le fournisseur s’attend également à utiliser l’allocation de mémoire OLE, il doit appeler la méthode **IUnknown::AddRef** de l’objet allocateur pointé par le paramètre _lpMalloc._ 
   
-Pour plus d'informations sur l'écriture de **ABProviderInit**, consultez la rubrique [implémentation d'une fonction de point d'entrée de fournisseur de carnet d'adresses](implementing-an-address-book-provider-entry-point-function.md). Pour plus d'informations sur les fonctions de point d'entrée, consultez [la rubrique implémentation d'une fonction de point d'entrée du fournisseur de services](implementing-a-service-provider-entry-point-function.md). 
+Pour plus d’informations sur l’écriture **d’ABProviderInit,** voir [Implementing an Address Book Provider Entry Point Function](implementing-an-address-book-provider-entry-point-function.md). Pour plus d’informations sur les fonctions de point d’entrée, voir [Implementing a Service Provider Entry Point Function](implementing-a-service-provider-entry-point-function.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

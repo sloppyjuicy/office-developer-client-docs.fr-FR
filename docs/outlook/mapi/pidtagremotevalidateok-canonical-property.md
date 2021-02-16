@@ -25,7 +25,7 @@ ms.locfileid: "33424223"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient la valeur TRUE si la visionneuse à distance est autorisée à appeler la méthode [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . 
+Cette propriété contient TRUE si la visionneuse distante est autorisée à appeler la méthode [IMAPIStatus::ValidateState.](imapistatus-validatestate.md) 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Cette propriété contient la valeur TRUE si la visionneuse à distance est auto
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété apparaît dans le tableau d'État et offre un contrôle sur les performances de transport. Il peut être considéré comme une autre façon de diriger la visionneuse à distance vers inactif. Lorsqu'il est défini sur TRUE, l'afficheur à distance peut appeler **IMAPIStatus:: ValidateState** aussi souvent que vous le souhaitez. La valeur FALSe indique que l'afficheur à distance ne peut plus passer d'appels. 
+Cette propriété apparaît dans le tableau d’état et offre un certain contrôle sur les performances de transport. Il peut être considéré comme un autre moyen de diriger la visionneuse à distance vers l’inactivité. Lorsqu’elle est définie sur TRUE, la visionneuse distante peut appeler **IMAPIStatus::ValidateState** aussi souvent que vous le souhaitez. La valeur FALSE indique que la visionneuse distante ne peut plus effectuer d’appels. 
   
-Le fournisseur de transport définit généralement cette propriété de manière dynamique, en définissant la valeur sur FALSe pour désactiver les appels supplémentaires lorsque le fournisseur de transport dispose d'une quantité suffisante de traitement à effectuer. Lorsque le fournisseur de transport est effectué, il définit la valeur sur TRUE pour permettre à l'application cliente d'effectuer d'autres **IMAPIStatus:: ValidateState** . 
+En règle générale, le fournisseur de transport définit cette propriété dynamiquement, en lui activant la valeur FALSE pour désactiver les appels supplémentaires lorsque le fournisseur de transport dispose d’un volume de traitement suffisant. Une fois le fournisseur de transport terminé, il définit la valeur sur TRUE pour permettre à l’application cliente d’effectuer d’autres **appels IMAPIStatus::ValidateState.** 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

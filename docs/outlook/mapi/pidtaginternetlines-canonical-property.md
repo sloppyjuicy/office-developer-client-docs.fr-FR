@@ -25,7 +25,7 @@ ms.locfileid: "33425546"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Correspond à l'en-tête de lignes MIME.
+Maillons vers l’en-tête des lignes MIME.
   
 |||
 |:-----|:-----|
@@ -40,17 +40,17 @@ Correspond à l'en-tête de lignes MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

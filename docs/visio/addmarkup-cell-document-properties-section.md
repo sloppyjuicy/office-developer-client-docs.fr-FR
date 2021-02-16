@@ -30,7 +30,7 @@ Indique si le document est en révision pour marque de révision.
 Lorsque la cellule AddMarkup est définie sur TRUE, le réviseur ajoute une marque de révision et des modifications sont apportées pour marquer les pages qui se superposent, pas les pages de dessin d'origine. Lorsque la cellule AddMarkup est définie sur FALSE, le suivi des révisions est désactivé et les modifications sont appliquées aux pages de dessin d'origine.
   
 > [!NOTE]
-> Vous pouvez empêcher le balisage de vos documents à l'aide de la fonction GUARD. Si la cellule AddMarkup contient la formule = GUARD (FALSe), la commande **suivi** des révisions est désactivée. 
+> Vous pouvez empêcher le markup sur vos documents à l’aide de la fonction GUARD. Si la cellule AddMarkup contient la formule =GUARD(FALSE), la commande **De** suivi est désactivée. 
   
 Ce paramètre correspond à la commande **Suivi des révisions** dans le groupe **Marque de révision** de l’onglet **Révision**. 
   
@@ -44,7 +44,7 @@ Pour obtenir une référence à la cellule AddMarkup à l'aide d'un index à par
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowDoc** <br/> |
 |Index de la cellule :  <br/> |**visDocAddMarkup** <br/> |
    

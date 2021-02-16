@@ -23,7 +23,7 @@ ms.locfileid: "33428500"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau avec toutes les règles appliquées à un dossier.
+Contient une table avec toutes les règles appliquées à un dossier.
   
 |||
 |:-----|:-----|
@@ -34,19 +34,19 @@ Contient un tableau avec toutes les règles appliquées à un dossier.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est présente sur tous les objets Folder sur un serveur Exchange qui possèdent des règles. Les valeurs comprises dans cette propriété sont utilisées pour la lecture et la modification des règles. Vous pouvez utiliser la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) avec l'identificateur d'interface **IID_IExchangeModifyTable** pour obtenir une interface [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) dans la table Rules d'un dossier. Vous pouvez utiliser cette interface pour lire et modifier ces règles. 
+Cette propriété est présente sur tous les objets de dossier sur une Exchange Server qui ont des règles. Les valeurs incluses dans cette propriété sont utilisées pour lire et modifier des règles. Vous pouvez utiliser la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) avec l’identificateur d’interface **IID_IExchangeModifyTable** pour obtenir une interface [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) dans la table de règles d’un dossier. Vous pouvez utiliser cette interface pour lire et modifier ces règles. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées. 
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées. 
     
 ## <a name="see-also"></a>Voir aussi
 

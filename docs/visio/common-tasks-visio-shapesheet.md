@@ -22,28 +22,28 @@ Cette page de navigation contient des liens vers des présentations de rubrique 
     
 - [Ajouter, afficher, masquer ou supprimer une Section](add-show-hide-or-delete-a-section.md)
     
-- [Modifier le nom et afficher l'ID d'une forme](change-the-name-and-view-the-id-of-a-shape.md)
+- [Modifier le nom et afficher l’ID d’une forme](change-the-name-and-view-the-id-of-a-shape.md)
     
-- [Copier et coller une formule d'une cellule à une autre](copy-and-paste-a-formula-from-one-cell-into-another.md)
+- [Copier et coller une formule d’une cellule vers une autre](copy-and-paste-a-formula-from-one-cell-into-another.md)
     
-- [Affichage des formules ou des valeurs dans les cellules](display-formulas-or-values-in-cells.md)
+- [Afficher des formules ou des valeurs dans les cellules](display-formulas-or-values-in-cells.md)
     
-- [Modifier une partie d'une formule](edit-a-part-of-a-formula.md)
+- [Modifier une partie d’une formule](edit-a-part-of-a-formula.md)
     
-- [Saisie d'une formule vide](enter-an-empty-formula.md)
+- [Entrer une formule vide](enter-an-empty-formula.md)
     
-- [Se déplacer dans une fenêtre feuille ShapeSheet](move-around-a-shapesheet-window.md)
+- [Se déplacer autour d’une fenêtre ShapeSheet](move-around-a-shapesheet-window.md)
     
 - [Ouvrez toutes les feuilles ShapeSheet dans la même fenêtre](open-each-shapesheet-in-the-same-window.md)
     
-- [Ouvrir la feuille ShapeSheet d'une forme, d'une page ou d'un document](open-the-shapesheet-for-a-shape-page-or-document.md)
+- [Ouvrir la feuille ShapeSheet pour une forme, une page ou un document](open-the-shapesheet-for-a-shape-page-or-document.md)
     
-- [Faire référence à une cellule dans une formule](reference-a-cell-in-a-formula.md)
+- [Référencer une cellule dans une formule](reference-a-cell-in-a-formula.md)
     
-- [Exécution en mode développeur (affichage de l'onglet Développeur)](run-in-developer-mode-display-the-developer-tab.md)
+- [Exécuter en mode développeur (afficher l’onglet Développeur)](run-in-developer-mode-display-the-developer-tab.md)
     
-- [Afficher un objet dans la fenêtre ShapeSheet](show-an-object-in-the-shapesheet-window.md)
+- [Afficher un objet dans la fenêtre Feuille ShapeSheet](show-an-object-in-the-shapesheet-window.md)
     
-- [Saisie d'une nouvelle formule pour une cellule](type-a-new-formula-for-a-cell.md)
+- [Taper une nouvelle formule pour une cellule](type-a-new-formula-for-a-cell.md)
     
 

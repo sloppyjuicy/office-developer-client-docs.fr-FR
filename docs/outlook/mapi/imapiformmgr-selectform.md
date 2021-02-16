@@ -25,7 +25,7 @@ ms.locfileid: "33423579"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche une boîte de dialogue qui permet à l'utilisateur de sélectionner un formulaire et renvoie un objet d'informations de formulaire qui décrit ce formulaire.
+Présente une boîte de dialogue qui permet à l’utilisateur de sélectionner un formulaire et renvoie un objet d’informations sur le formulaire qui décrit ce formulaire.
   
 ```cpp
 HRESULT SelectForm(
@@ -41,27 +41,27 @@ HRESULT SelectForm(
 
  _ulUIParam_
   
-> dans Handle de la fenêtre parent de la boîte de dialogue affichée. 
+> [in] Poignée vers la fenêtre parente de la boîte de dialogue affichée. 
     
  _ulFlags_
   
-> dans Masque de bits des indicateurs qui contrôle le type des chaînes transmises. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le type des chaînes transmises. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les chaînes transmises sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
+> Les chaînes transmises sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
  _pszTitle_
   
-> dans Pointeur vers une chaîne qui contient la légende de la boîte de dialogue. Si le paramètre _pszTitle_ est null, le fournisseur de bibliothèque de formulaires fournit une légende par défaut. 
+> [in] Pointeur vers une chaîne qui contient la légende de la boîte de dialogue. Si le  _paramètre pszTitle_ est NULL, le fournisseur de bibliothèque de formulaires fournit une légende par défaut. 
     
  _pfld_
   
-> dans Pointeur vers le dossier à partir duquel sélectionner le formulaire. Si le paramètre _pfld_ est null, le formulaire peut être sélectionné dans le conteneur de formulaire local, personnel ou organisation. 
+> [in] Pointeur vers le dossier à partir duquel sélectionner le formulaire. Si le  _paramètre pfld_ est NULL, le formulaire peut être sélectionné dans le conteneur de formulaire local, personnel ou d’organisation. 
     
  _ppfrminfoReturned_
   
-> remarquer Pointeur vers un pointeur vers l'objet d'informations de formulaire renvoyé.
+> [out] Pointeur vers un pointeur vers l’objet d’informations du formulaire renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -71,19 +71,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L'indicateur MAPI_UNICODE a été défini et l'implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et l'implémentation prend en charge uniquement Unicode.
+> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
     
 MAPI_E_USER_CANCEL 
   
-> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr:: SelectForm** pour commencer par présenter une boîte de dialogue permettant à l'utilisateur de sélectionner un formulaire, puis de récupérer un objet d'informations de formulaire qui décrit le formulaire sélectionné. La boîte de dialogue contraint l'utilisateur à sélectionner un seul formulaire. 
+Les visionneuses de formulaire appellent la méthode **IMAPIFormMgr::SelectForm** pour présenter d’abord une boîte de dialogue qui permet à l’utilisateur de sélectionner un formulaire, puis de récupérer un objet d’informations sur le formulaire qui décrit le formulaire sélectionné. La boîte de dialogue contraint l’utilisateur à sélectionner un seul formulaire. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La boîte de dialogue **SelectForm** affiche uniquement les formulaires qui ne sont pas masqués (c'est-à-dire, les formulaires dont les propriétés masquées sont désactivées). Si une visionneuse de formulaires transmet l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes sont au format Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prennent pas en charge les chaînes Unicode doivent renvoyer MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est transmis. 
+La **boîte de dialogue SelectForm** affiche uniquement les formulaires qui ne sont pas masqués (c’est-à-dire, les formulaires dont les propriétés masquées sont claires). Si une visionneuse de formulaire passe l’MAPI_UNICODE dans le paramètre  _ulFlags,_ toutes les chaînes sont Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prisent pas en charge les chaînes Unicode doivent MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -91,7 +91,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FolderDlg. cpp  <br/> |CFolderDlg:: OnSelectForm  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr:: SelectForm** pour sélectionner un formulaire et envoyer des informations sur le formulaire à un ou plusieurs journaux.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnSelectForm  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::SelectForm** pour sélectionner un formulaire et envoyer des informations sur le formulaire à un ou plusieurs journaux.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

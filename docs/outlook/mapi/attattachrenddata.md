@@ -21,6 +21,6 @@ ms.locfileid: "33427135"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'attribut **attAttachRenddata** est encodé sous la forme d'une structure **RENDDATA** qui décrit comment et où la pièce jointe est affichée dans le texte du message. La structure **RENDDATA** est simplement codée dans le flux TNEF en tant qu'octets **sizeof (RENDDATA)** en commençant par le premier membre de la structure **RENDDATA** . Si la valeur du membre **dwFlags** de la structure **RENDDATA** est définie sur **MAC_BINARY**, les données de la pièce jointe suivante sont stockées dans le format MacBinary; dans le cas contraire, les données de la pièce jointe sont codées comme d'habitude.
+**L’attribut attAttachRenddata** est codé en tant que structure **RENDDATA** qui décrit comment et où la pièce jointe est restituer dans le texte du message. La structure **RENDDATA** est simplement codée dans le flux TNEF en tant qu’octets **sizeof(RENDDATA)** commençant par le premier membre de la structure **RENDDATA.** Si la valeur du membre **dwFlags** de la structure **RENDDATA** est définie sur **MAC_BINARY**, les données de la pièce jointe suivante sont stockées au format MacBinary ; Dans le cas contraire, les données de pièce jointe sont codées comme d’habitude.
   
 

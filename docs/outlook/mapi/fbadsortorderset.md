@@ -25,7 +25,7 @@ ms.locfileid: "33428458"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide un ordre de tri défini en vérifiant son allocation de mémoire. 
+Valide un ordre de tri en vérifiant son allocation de mémoire. 
   
 |||
 |:-----|:-----|
@@ -43,20 +43,20 @@ ULONG FBadSortOrderSet(
 
  _lpsos_
   
-> dans Pointeur vers une structure [SSortOrderSet](ssortorderset.md) identifiant l'ordre de tri défini pour être validé. 
+> [in] Pointeur vers une structure [SSortOrderSet](ssortorderset.md) identifiant l’ordre de tri à valider. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> L'ensemble d'ordre de tri spécifié n'est pas valide. 
+> Le jeu d’ordre de tri spécifié n’est pas valide. 
     
 FALSE 
   
-> L'ensemble d'ordres de tri spécifié est valide.
+> Le jeu d’ordre de tri spécifié est valide.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FBadSortOrderSet** peut être utilisée pour préparer un appel à une méthode sort telle que la méthode [IMAPITable:: SortTable](imapitable-sorttable.md) . 
+La **fonction FBadSortOrderSet** peut être utilisée pour préparer un appel à une méthode de tri telle que la méthode [IMAPITable::SortTable.](imapitable-sorttable.md) 
   
 

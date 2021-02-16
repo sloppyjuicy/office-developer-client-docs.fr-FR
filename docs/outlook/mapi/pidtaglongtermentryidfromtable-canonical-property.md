@@ -25,30 +25,30 @@ ms.locfileid: "33425665"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Obtient l'identificateur d'entrée à long terme d'un élément.
+Obtient l’identificateur d’entrée à long terme d’un élément.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_LONGTERM_ENTRYID_FROM_TABLE  <br/> |
 |Identificateur :  <br/> |0x6670  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Propriétés de tableau  <br/> |
+|Domaine :  <br/> |Propriétés du tableau  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut être utilisée dans une table des matières pour obtenir l'identificateur d'entrée d'un élément en tant qu'identificateur d'entrée à long terme au lieu d'un identificateur d'entrée à court terme. Pour plus d'informations sur les identificateurs à long terme et à court terme, voir **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Cette propriété peut être utilisée dans une table des matières pour obtenir l’identificateur d’entrée d’un élément en tant qu’identificateur d’entrée à long terme au lieu d’un identificateur d’entrée à court terme. Pour plus d’informations sur les identificateurs à long et court terme, voir **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

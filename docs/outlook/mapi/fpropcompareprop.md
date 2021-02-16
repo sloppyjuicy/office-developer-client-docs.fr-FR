@@ -23,11 +23,11 @@ ms.locfileid: "33427156"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux valeurs de propriété à l'aide d'un opérateur relationnel spécifié. 
+Compare deux valeurs de propriété à l’aide d’un opérateur relationnel spécifié. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,15 +43,15 @@ BOOL FPropCompareProp(
 
 _lpSPropValue1_
   
-> dans Pointeur vers une structure [SPropValue](spropvalue.md) définissant la première valeur de la propriété à comparer. 
+> [in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant la première valeur de propriété à comparer. 
     
 _ulRelOp_
   
-> dans Opérateur relationnel à utiliser dans la comparaison. Pour les valeurs autorisées, consultez la structure [SComparePropsRestriction](scomparepropsrestriction.md) . 
+> [in] Opérateur relationnel à utiliser dans la comparaison. Pour les valeurs permises, voir la structure [SComparePropsRestriction.](scomparepropsrestriction.md) 
     
 _lpSPropValue2_
   
-> dans Pointeur vers une structure **SPropValue** définissant la deuxième valeur de la propriété à comparer. 
+> [in] Pointeur vers une structure **SPropValue** définissant la deuxième valeur de propriété à comparer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,12 +61,12 @@ TRUE
     
 FALSE 
   
-> Les valeurs de propriété ne satisfont pas la relation spécifiée.
+> Les valeurs de propriété ne répondent pas à la relation spécifiée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode de comparaison dépend des types de propriétés spécifiés dans les définitions de propriété [SPropValue](spropvalue.md) . Les fonctions **FPropCompareProp** et [FPropContainsProp](fpropcontainsprop.md) peuvent être utilisées pour préparer les restrictions de génération d'une table. 
+La méthode de comparaison dépend des types de propriétés spécifiés dans les définitions de [propriétéSPropValue.](spropvalue.md) Les **fonctions FPropCompareProp** et [FPropContainsProp](fpropcontainsprop.md) peuvent être utilisées pour préparer les restrictions de génération d’une table. 
   
-L'ordre de comparaison est _lpSPropValue1_, _ ulRelOp _, _ lpSPropValue2 _. Si les types de propriétés des valeurs de propriété à comparer ne correspondent pas, la fonction **FPropCompareProp** renvoie false. 
+L’ordre de comparaison est  _lpSPropValue1_, _ ulRelOp _, _ lpSPropValue2 _. Si les types de propriété des valeurs de propriété à comparer ne correspondent pas, la **fonction FPropCompareProp** renvoie false. 
   
 

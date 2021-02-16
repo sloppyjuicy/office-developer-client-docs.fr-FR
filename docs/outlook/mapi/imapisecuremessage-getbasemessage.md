@@ -25,7 +25,7 @@ ms.locfileid: "33428577"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère le [IMessage: IMAPIProp](imessageimapiprop.md) sous-jacent que cette [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) est en encapsulation. 
+Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que ce [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule. 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -37,7 +37,7 @@ HRESULT GetBaseMessage(
 
  _ppmsg_
   
-> remarquer Objet de message sécurisé.
+> [out] Objet de message sécurisé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

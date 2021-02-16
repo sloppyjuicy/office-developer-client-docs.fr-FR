@@ -19,7 +19,7 @@ ms.locfileid: "33427268"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le téléchargement d'un élément Outlook lors de l' [État du message de chargement](upload-message-state.md).
+Informations pour le chargement d’un élément Outlook pendant [l’état de chargement du message.](upload-message-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -42,79 +42,79 @@ struct UPMSG
 
  _ulFlags_
   
-> [out]/[in] indicateurs pour déterminer le comportement approprié pendant le chargement. 
+> [out]/[in] Indicateurs pour déterminer le comportement approprié pendant le chargement. 
     
   - UPM_ASSOC
     
-    - remarquer L'élément est associé.
+    - [out] L’élément est associé.
     
   - UPM_NEW
     
-    - remarquer Nouvel élément. 
+    - [out] Nouvel élément. 
     
   - UPM_MOV
     
-    - remarquer L'élément a été déplacé ici.
+    - [out] L’élément a été déplacé ici.
     
   - UPM_MOD_PROPS
     
-    - remarquer Les propriétés de l'élément ont été modifiées.
+    - [out] Les propriétés d’élément ont été modifiées.
     
   - UPM_HEADER
     
-    - remarquer L'élément est un en-tête de message.
+    - [out] L’élément est un en-tête de message.
     
   - UPM_OK
     
-    - dans Le chargement a réussi. Le client le définit après avoir téléchargé des informations sur le serveur.
+    - [in] Le chargement a réussi. Le client définit cette information après le téléchargement d’informations sur le serveur.
     
   - UPM_MOVED
     
-    - dans L'élément a été déplacé.
+    - [in] L’élément a été déplacé avec succès.
     
   - UPM_COMMIT
     
-    - dans Valider l'état du chargement maintenant.
+    - [in] Valider l’état de chargement maintenant.
     
   - UPM_DELETE
     
-    - dans Supprimez l'élément maintenant.
+    - [in] Supprimez l’élément maintenant.
     
   - UPM_SAVE
     
-    - dans Enregistrer les modifications apportées à l'élément.
+    - [in] Enregistrez les modifications apportées à l’élément.
     
-_PMSG_
+_pmsg_
   
-> remarquer Ouvrir un objet d'élément. Voir mapidefs. h pour la définition de type de **LPMESSAGE**. 
+> [out] Ouvrir l’objet d’élément. Voir mapidefs.h pour la définition de type **de LPMESSAGE**. 
     
-_MEID_
+_meid_
   
-> remarquer ID d'entrée de l'élément.
+> [out] ID d’entrée de l’élément.
     
 _binReserved1_
   
-> dans Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
+> [in] Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
     
 _binReserved2_
   
-> dans Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
+> [in] Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
     
 _feid_
   
-> remarquer ID d'entrée du dossier source, si l'élément a été déplacé.
+> [out] ID d’entrée du dossier source, si l’élément a été déplacé.
     
 _binChg_
   
-> remarquer Modifier la clé de l'élément de destination, si l'élément a été déplacé. Voir mapidefs. h pour la définition de type de **SBinary**. 
+> [out] Modifier la clé de l’élément de destination, si l’élément a été déplacé. Voir mapidefs.h pour la définition de type **de SBinary**. 
     
 _binPcl_
   
-> remarquer Modifier la liste de l'élément de destination, si l'élément a été déplacé. Voir mapidefs. h pour la définition de type de **SBinary**. 
+> [out] Modifier la liste de l’élément de destination, si l’élément a été déplacé. Voir mapidefs.h pour la définition de type **de SBinary**. 
     
 _skeySrc_
   
-> remarquer Clé source de l'élément source, si l'élément a été déplacé.
+> [out] Clé source de l’élément source, si l’élément a été déplacé.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - debugPrintf
 keywords:
-- fonction debugPrintf [Excel 2007]
+- fonction debugprintf [excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,9 +22,9 @@ ms.locfileid: "33424797"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d'infrastructure qui écrit une chaîne d'octets terminée par un caractère null vers le débogueur actif via la fonction **OutputDebugStringA**du kit de développement logiciel (SDK) Windows. Si l'application n'a pas de débogueur, le débogueur système affiche la chaîne. Si l'application n'a pas de débogueur et que le débogueur système n'est pas actif, **debugPrintf** n'a aucun effet. 
+Fonction de bibliothèque d’infrastructure qui écrit une chaîne d’byte terminée par null dans le déboguer actif via la fonction SDK Windows **OutputDebugStringA**. Si l’application n’a pas de débompeur, le débogger système affiche la chaîne. Si l’application n’a pas de déboguer et que le déboguer système n’est pas actif, **debugPrintf ne** fait rien. 
   
-Cette fonction ne renvoie pas de valeur.
+Cette fonction ne retourne pas de valeur.
   
 ```cs
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
@@ -34,15 +34,15 @@ void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 
  _lpFormat (LPSTR)_
   
-La chaîne de mise en forme, qui suit la syntaxe et les règles pour celles utilisées avec la fonction **sprintf** . 
+Chaîne de format, qui suit la syntaxe et les règles de celle utilisée avec la **fonction sprintf.** 
   
  _arguments_
   
-Zéro ou plusieurs arguments correspondant à la chaîne de mise en forme.
+Zéro ou plusieurs arguments pour correspondre à la chaîne de format.
   
 ## <a name="example"></a>Exemple
 
-Cette fonction imprime une chaîne pour indiquer que le contrôle lui a été passé. L'indicateur _ DEBUG doit être défini avant la compilation, sinon cette fonction n'a aucun effet.
+Cette fonction imprime une chaîne pour montrer que le contrôle lui a été passé. L_DEBUG de base doit être défini avant la compilation, sinon cette fonction ne fait rien.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

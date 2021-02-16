@@ -21,16 +21,16 @@ ms.locfileid: "33426323"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lors de la préparation de l'envoi d'un message avec du texte mis en forme, définissez la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) du message sur texte compressé ou non compressé. L'écriture de texte compressé dans la propriété **PR_RTF_COMPRESSED** est une opération gourmande en ressources processeur qui peut avoir un impact considérable sur les performances. 
+Lors de la préparation à l’envoi d’un message avec du texte mis en forme, définissez la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) du message sur du texte compressé ou non compressé. L’écriture de texte compressé **dans la propriété PR_RTF_COMPRESSED** est une opération très intensive du processeur et peut affecter considérablement les performances. 
   
-Pour améliorer les performances de l'envoi des messages mis en forme, procédez comme suit:
+Pour améliorer les performances d’envoi de messages formatés, vous pouvez :
   
-- Mettez à niveau l'UC, une solution qui n'est pas toujours plausible.
+- Mettre à niveau l’UC, une solution qui n’est pas toujours simple.
     
-    - Des
+    - Ou -
     
-- Écrire du texte non compressé dans la propriété **PR_RTF_COMPRESSED** . 
+- Écrivez du texte non compressé dans **PR_RTF_COMPRESSED** propriété. 
     
-La procédure de définition d' **PR_RTF_COMPRESSED** avec du texte non compressé est identique à celle de la définition avec du texte compressé, à une exception près. Lors de l'appel de [WrapCompressedRTFStream](wrapcompressedrtfstream.md), définissez l'indicateur STORE_UNCOMPRESSED_RTF dans le paramètre _ulFlags_ . Le fait de définir le texte non compressé présente un inconvénient: il augmente la taille des messages. 
+La procédure de définition **d PR_RTF_COMPRESSED** texte non compressé est la même que pour la définition avec du texte compressé, à une exception près. Lorsque vous [appelez WrapCompressedRTFStream,](wrapcompressedrtfstream.md)définissez l’STORE_UNCOMPRESSED_RTF dans le _paramètre ulFlags._ La définition de texte non compressé présente l’inconvénient d’augmenter la taille des messages. 
   
 

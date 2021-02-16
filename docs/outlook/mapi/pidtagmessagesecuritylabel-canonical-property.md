@@ -32,23 +32,23 @@ Contient une étiquette de sécurité pour un message.
 |Propriétés associées :  <br/> |PR_MESSAGE_SECURITY_LABEL  <br/> |
 |Identificateur :  <br/> |0x001E  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Server  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété indique la base sur laquelle la propriété **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) protège un message. Son association avec le contenu du message est garantie par le jeton.
+Cette propriété fournit la base sur laquelle la **propriété PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) protège un message. Son association avec le contenu du message est garantie par le jeton.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

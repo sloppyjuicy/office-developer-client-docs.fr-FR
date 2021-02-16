@@ -25,19 +25,19 @@ Every message to be transmitted has one or more recipients, or a set of properti
   
 Clients acc�dent � un destinataire de message par le biais de sa table des destinataires. Chaque message poss�de une table de destinataires qui contient des informations r�capitulatives sur chacun de ses destinataires. Les colonnes incluses dans le tableau d�pendent de l'�tat du message. Lorsqu'un message est en cours de composition, ses destinataires peuvent avoir uniquement trois colonnes dans la table :
   
-- Nom d'affichage, ou **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+- Nom d’affichage **ou PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-- Type de destinataire, ou **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
+- Type de destinataire ou **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
     
-- Identificateur de ligne, ou **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md))
+- Identificateur **de ligne ou PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md))
     
-Une fois que le message a subi le processus de résolution de noms, chaque destinataire aura également un identificateur d'entrée, ou une colonne **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Et lorsque le message a �t� envoy�, les lignes dans la table de destinataires ajoute deux colonnes :
+Une fois que le message a subi le processus de résolution de noms, chaque destinataire possède également un identificateur d’entrée ou **une PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Et lorsque le message a �t� envoy�, les lignes dans la table de destinataires ajoute deux colonnes :
   
-- Type d'adresse ou **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
+- Type d’adresse **ou PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
 - Responsabilité de transport ou **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md))
     
-Clients can retrieve a message's recipient table by calling its **IMessage::GetRecipientTable** method or its **IMAPIProp::OpenProperty** method. For more information, see [IMessage::GetRecipientTable](imessage-getrecipienttable.md) and [IMAPIProp::OpenProperty](imapiprop-openproperty.md). Message store providers are expected to support both of these approaches. The **OpenProperty** approach requires that the client specify IID_IMAPITable as the interface identifier and **PR_MESSAGE_RECIPIENTS** as the property tag. **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) est une propriété d'objet table qui représente la table de destinataires d'un message. Message store providers are required to set **PR_MESSAGE_RECIPIENTS** for each message and include it in the array of property tags returned from the **IMAPIProp::GetPropList** method. For more information, see [IMAPIProp::GetPropList](imapiprop-getproplist.md).
+Clients can retrieve a message's recipient table by calling its **IMessage::GetRecipientTable** method or its **IMAPIProp::OpenProperty** method. For more information, see [IMessage::GetRecipientTable](imessage-getrecipienttable.md) and [IMAPIProp::OpenProperty](imapiprop-openproperty.md). Message store providers are expected to support both of these approaches. The **OpenProperty** approach requires that the client specify IID_IMAPITable as the interface identifier and **PR_MESSAGE_RECIPIENTS** as the property tag. **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) est une propriété d’objet table qui représente la table des destinataires d’un message. Message store providers are required to set **PR_MESSAGE_RECIPIENTS** for each message and include it in the array of property tags returned from the **IMAPIProp::GetPropList** method. For more information, see [IMAPIProp::GetPropList](imapiprop-getproplist.md).
   
 For more information about how to work with a recipient table, see [Tables de destinataires](recipient-tables.md).
   

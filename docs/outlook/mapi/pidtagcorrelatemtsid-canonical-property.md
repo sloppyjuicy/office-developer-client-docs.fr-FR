@@ -25,7 +25,7 @@ ms.locfileid: "33426834"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur MTS (Message Transfer System) utilisé pour la corrélation des rapports avec des messages envoyés.
+Contient l’identificateur du système de transfert de messages (MTS) utilisé dans la corrélation de rapports avec des messages envoyés.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contient l'identificateur MTS (Message Transfer System) utilisé pour la corrél
    
 ## <a name="remarks"></a>Remarques
 
-Lorsqu'un fournisseur de transport rencontre un message envoyé lorsque cette propriété a la valeur TRUE, il définit cette propriété sur l'identificateur MTS pour ce message. Après la transmission, cette propriété est stockée avec le message dans le dossier éléments envoyés de message.
+Lorsqu’un fournisseur de transport rencontre un message envoyé avec cette propriété définie sur TRUE, il définit cette propriété sur l’identificateur MTS pour ce message. Après la transmission, cette propriété est stockée avec le message dans le dossier Éléments envoyés du message interpersonnel (IPM).
   
-Les systèmes de messagerie qui prennent en charge la corrélation par l'identificateur MTS, tel que X. 400, conservent l'identificateur dans le cadre de l'enveloppe de transport du message d'origine et des rapports éventuellement générés en réponse à ce dernier. Lorsqu'un rapport est remis à partir d'un tel système de messagerie, le fournisseur de transport affecte à cette propriété l'identificateur MTS d'origine à partir de l'enveloppe de transport de l'État. Cette propriété est ensuite stockée avec le rapport.
+Les systèmes de messagerie qui supportent la corrélation par l’identificateur MTS, comme X.400, conservent l’identificateur dans l’enveloppe de transport du message d’origine, ainsi que dans tous les rapports générés en réponse à celui-ci. Lorsqu’un état est remis à partir d’un tel système de messagerie, le fournisseur de transport définit cette propriété sur l’identificateur MTS d’origine à partir de l’enveloppe de transport de l’état. Cette propriété est ensuite stockée avec l’état.
   
-Une application cliente peut gérer un dossier de résultats de recherche de tous les messages ayant cette propriété. Lorsqu'un rapport est fourni pour un tel message, le client peut appliquer des restrictions au dossier de résultats de recherche, trouver la version d'origine du message et corréler les informations du message d'origine avec les nouvelles informations.
+Une application cliente peut gérer un dossier de résultats de recherche de tous les messages ayant cette propriété. Lorsqu’un rapport intervient pour un tel message, le client peut appliquer des restrictions au dossier de résultats de recherche, trouver la version d’origine du message et mettre en corrélation les informations du message d’origine avec les nouvelles informations.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

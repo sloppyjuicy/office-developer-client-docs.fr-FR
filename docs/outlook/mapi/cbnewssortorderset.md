@@ -25,12 +25,12 @@ ms.locfileid: "33423712"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets à allouer pour une nouvelle structure [SizedSSortOrderSet](sizedssortorderset.md) qui contient un nombre spécifié d'ordres de tri représentés par des structures [SSortOrder](ssortorder.md) . 
+Calcule le nombre d’octets à allouer pour une nouvelle structure [SizedSSortOrderSet](sizedssortorderset.md) qui contient un nombre spécifié d’ordres de tri représentés par les structures [SSortOrder.](ssortorder.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SSortOrderSet** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 CbNewSSortOrderSet (_csort)
@@ -38,9 +38,9 @@ CbNewSSortOrderSet (_csort)
 
 ## <a name="parameters"></a>Paramètres
 
- __csort_
+ _ _csort_
   
-> Nombre de structures **SSortOrder** à inclure dans la structure **SSortOrderSet** . 
+> Nombre de structures **SSortOrder** à inclure dans la structure **SSortOrderSet.** 
     
 ## <a name="see-also"></a>Voir aussi
 

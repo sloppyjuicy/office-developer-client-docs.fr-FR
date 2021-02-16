@@ -25,11 +25,11 @@ ms.locfileid: "33424062"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une chaîne ASCII représentant un identificateur d'entrée composée pour un objet, généralement un message dans une banque de messages. 
+Crée une chaîne ASCII représentant un identificateur d’entrée composé pour un objet, généralement un message dans une magasin de messages. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -46,29 +46,29 @@ HrComposeMsgID(
 
 ## <a name="parameters"></a>Paramètres
 
- _pSession_
+ _psession_
   
-> dans Pointeur vers la session en cours d'utilisation par l'application cliente. 
+> [in] Pointeur vers la session en cours d’utilisation par l’application cliente. 
     
  _cbStoreRecordKey_
   
-> dans Taille, en octets, de la clé d'enregistrement de la Banque de messages qui contient le message ou un autre objet. Si la valeur zéro est transmise au paramètre _cbStoreRecordKey_ , le paramètre _pszMsgID_ pointe vers une copie de l'identificateur d'entrée converti en texte. 
+> [in] Taille, en octets, de la clé d’enregistrement de la boutique de messages qui contient le message ou un autre objet. Si zéro est transmis dans le paramètre  _cbStoreRecordKey,_ le paramètre  _pszMsgID_ pointe vers une copie de l’identificateur d’entrée converti en texte. 
     
  _pStoreRecordKey_
   
-> dans Pointeur vers la clé d'enregistrement de la Banque de messages qui contient le message ou un autre objet. 
+> [in] Pointeur vers la clé d’enregistrement de la magasin de messages qui contient le message ou un autre objet. 
     
  _cbMsgEID_
   
-> dans Taille, en octets, de l'identificateur d'entrée du message ou d'un autre objet. 
+> [in] Taille, en octets, de l’identificateur d’entrée du message ou d’un autre objet. 
     
  _pMsgEID_
   
-> dans Pointeur vers l'identificateur d'entrée de l'objet. 
+> [in] Pointeur vers l’identificateur d’entrée de l’objet. 
     
  _pszMsgID_
   
-> remarquer Pointeur vers la chaîne ASCII renvoyée. Si le paramètre _cbStoreRecordKey_ est supérieur à zéro, le paramètre _pszMsgID_ pointe vers un identificateur d'entrée composé converti en texte. Si _cbStoreRecordKey_ est égal à zéro, _pszMsgID_ pointe vers un identificateur d'entrée non composé converti en texte. 
+> [out] Pointeur vers la chaîne ASCII renvoyée. Si le  _paramètre cbStoreRecordKey_ est supérieur à zéro, le paramètre  _pszMsgID_ pointe vers un identificateur d’entrée composé converti en texte. Si  _cbStoreRecordKey_ a la valeur zéro,  _pszMsgID_ pointe vers un identificateur d’entrée non complet converti en texte. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -76,10 +76,10 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si le message ou un autre objet pour lequel l'identificateur d'entrée composé est créé réside dans une banque de messages, la chaîne de l'identificateur est créée à partir de l'identificateur d'entrée de l'objet et de la clé d'enregistrement de la Banque. Si l'objet n'est pas dans un magasin, autrement dit, si le nombre d'octets pour la clé d'enregistrement passée dans le paramètre _cbStoreRecordKey_ est égal à zéro, l'identificateur d'entrée de l'objet est simplement copié et converti en chaîne. 
+Si le message ou un autre objet pour lequel l’identificateur d’entrée composé est créé réside dans une magasin de messages, la chaîne d’identificateur est créée à partir de l’identificateur d’entrée de l’objet et de la clé d’enregistrement de la boutique. Si l’objet ne se trouve pas dans une banque, c’est-à-dire, si le nombre d’caractères de la clé d’enregistrement de la banque transmise dans le paramètre  _cbStoreRecordKey_ est zéro, l’identificateur d’entrée de l’objet est simplement copié et converti en chaîne. 
   
-L'appel de la fonction **HrComposeMsgID** équivaut à l'appel de la fonction [HrComposeEID](hrcomposeeid.md) , puis à la fonction [HrSzFromEntryID](hrszfromentryid.md) . 
+Appeler la **fonction HrComposeMsgID** équivaut à appeler la fonction [HrComposeEID,](hrcomposeeid.md) puis la [fonction HrSzFromEntryID.](hrszfromentryid.md) 
   
- **HrComposeMsgID** permet aux applications clientes de fonctionner avec des objets dans plusieurs magasins par le biais de l'utilisation d'identificateurs d'entrée composés. Une application peut appeler la fonction [HrDecomposeMsgID](hrdecomposemsgid.md) pour fractionner l'identificateur d'entrée composée en ses composants d'origine. 
+ **HrComposeMsgID** permet aux applications clientes de travailler avec des objets dans plusieurs magasins via l’utilisation d’identificateurs d’entrée composés. Une application peut appeler la [fonction HrDecomposeMsgID](hrdecomposemsgid.md) pour fractionner l’identificateur d’entrée composé en ses constituants d’origine. 
   
 

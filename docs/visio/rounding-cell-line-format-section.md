@@ -22,7 +22,7 @@ Indique le rayon de l'arrondi qui est appliqué lorsque deux segments contigus d
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir cette valeur dans la boîte de dialogue **trait** (sous l'onglet **Accueil** , dans le groupe **forme** , cliquez sur **trait**, pointez sur **poids**, puis cliquez sur **autres traits**).
+Vous pouvez également définir  cette valeur dans  la boîte de  dialogue Trait (sous l’onglet Accueil, dans le groupe Formes, cliquez sur **Trait,** pointez sur **Poids,** puis cliquez sur **Autres** lignes).
   
 Pour obtenir une référence à la cellule Rounding par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule Rounding à l'aide d'un index à part
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowLine** <br/> |
 |Index de la cellule :  <br/> |**visLineRounding** <br/> |
    

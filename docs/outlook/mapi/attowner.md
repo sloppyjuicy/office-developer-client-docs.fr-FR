@@ -21,18 +21,18 @@ ms.locfileid: "33427653"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'attribut **attOwner** est encodé sous la forme de chaînes comptées, de bout en bout. Le format de **attOwner** est le suivant: 
+**L’attribut attOwner** est codé en tant que chaînes comptées mises de bout en bout. Le format de **attOwner est** le suivant : 
   
  **attOwner**: 
   
-> Display-Name-longueur nom d'affichage-adresse de _messagerie_ -longueur adresse
+> display-name-length display-name address-length  _email-address_
     
- _adresse de messagerie_
+ _email-address_
   
-> type **:** adresse 
+> type **:** address 
     
-Contrairement à d'autres valeurs de longueur, la longueur de nom d'affichage et la longueur d'adresse sont des valeurs 16 bits non signées au lieu d'entiers longs non signés. Toutefois, ils incluent toujours des caractères nuls de fin. Les chaînes de type et d'adresse dans l'entrée _email-address_ sont séparées par un signe deux-points (:) caractère, tel que «SMTP:Joe@nowhere.com». Seul le type combiné **:** la chaîne d'adresse est terminée par un caractère null.
+Contrairement aux autres valeurs de longueur, les longueurs de nom d’affichage et d’adresse sont des valeurs 16 bits non signées au lieu des nombres longs non signés. Toutefois, elles incluent toujours des caractères null de fin. Les chaînes de type et d’adresse dans l’entrée d’adresse de messagerie sont séparées par un  _deux-points_ littéral (:) par exemple« smtp:joe@nowhere.com ». Seul le type combiné : **chaîne** d’adresse est terminée par null.
   
-Le mappage des propriétés MAPI sur l'attribut **attOwner** dépend de la classe de message du message en cours de codage. 
+Le mappage des propriétés MAPI à **l’attribut attOwner** dépend de la classe de message du message en cours d’encodage. 
   
 

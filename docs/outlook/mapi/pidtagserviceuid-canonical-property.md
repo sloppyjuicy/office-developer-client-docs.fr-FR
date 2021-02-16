@@ -25,7 +25,7 @@ ms.locfileid: "33426526"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la structure [MAPIUID](mapiuid.md) pour un service de messagerie. 
+Contient la structure [MAPIUID](mapiuid.md) pour un service de message. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la structure [MAPIUID](mapiuid.md) pour un service de messagerie.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est calculée par MAPI sur les objets de section de profil. MAPI l'utilise pour regrouper tous les fournisseurs qui appartiennent au même service de messagerie. Cette propriété est fournie en tant que paramètre à la plupart des méthodes [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Il ne doit pas apparaître dans MAPISVC. inf. 
+Cette propriété est calculée par MAPI sur les objets de section de profil. MAPI l’utilise pour grouper tous les fournisseurs qui appartiennent au même service de messagerie. Cette propriété est fournie en tant que paramètre pour la plupart des méthodes [IMsgServiceAdmin.](imsgserviceadminiunknown.md) Elle ne doit pas apparaître dans Mapisvc.inf. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -31,7 +31,7 @@ Si une formule fait référence à une cellule qui contient une valeur d'erreur,
 | #VALUE!  <br/> | Un argument ou un opérande de type incorrect  <br/> | 5 + "Maison"  <br/> |
 | #REF!  <br/> | Une référence à une cellule qui n'existe pas  <br/> | Une cellule faisant référence à une cellule qui n'existe plus  <br/> |
 | #NUM!  <br/> | Un nombre incorrect  <br/> | La racine carrée d'un nombre négatif  <br/> |
-| #N/A!  <br/> | Pas une valeur disponible  <br/> | Fonction NA( )  <br/> |
-| #DIM!  <br/> | Une valeur dimensionnelle qui dépasse la plage de dimensions (les puissances valides sont des \<entiers \<-128 = n = 127)  <br/> Une valeur de cote utilisée dans une opération non appropriée  <br/> |1Dans ^ 100 \* cm ^ 100 (le résultat est 1 cm ^ 200, qui se trouve au-delà de la plage de dimensions)  <br/> 5,2 cm^1,5 (la puissance n'est pas un entier)  <br/> |
+| #N/A!  <br/> | Valeur non disponible  <br/> | Fonction NA( )  <br/> |
+| #DIM !  <br/> | Valeur dimensionnelle qui dépasse la plage de dimensions (les puissances valides sont des nombres -128 \< = n \< = 127)  <br/> Une valeur de cote utilisée dans une opération non appropriée  <br/> |1in^100 1in^100 (le résultat est 1in^200, ce qui se trouve au-delà de la \* plage de dimensions)  <br/> 5,2 cm^1,5 (la puissance n'est pas un entier)  <br/> |
    
 

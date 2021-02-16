@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: eb6b921d-ecf8-3ce5-87ba-ac1632416b05
-description: "L'API de gestion des comptes fournit l'accès aux informations de compte et prend en charge les notifications des modifications de compte. En tant que clients de cette API, les fournisseurs de messagerie effectuent les opérations suivantes:"
+description: 'L’API de gestion des comptes permet d’accéder aux informations de compte et prend en charge les notifications de modifications de compte. En tant que clients de cette API, les fournisseurs de messagerie font les choses suivantes :'
 ms.openlocfilehash: 76520b7cc7f28ede28257729e4e4fbe2d5096290
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,23 +16,23 @@ ms.locfileid: "33426248"
 ---
 # <a name="about-the-account-management-api"></a>À propos de l’API de gestion des comptes
 
-L'API de gestion des comptes fournit l'accès aux informations de compte et prend en charge les notifications des modifications de compte. En tant que clients de cette API, les fournisseurs de messagerie effectuent les opérations suivantes:
+L’API de gestion des comptes permet d’accéder aux informations de compte et prend en charge les notifications de modifications de compte. En tant que clients de cette API, les fournisseurs de messagerie font les choses suivantes :
   
-1. Utilisez [IOlkAccountManager](iolkaccountmanager.md) pour gérer l'accès aux comptes et configurer des notifications sur les modifications de compte. 
+1. Utilisez [IOlkAccountManager pour](iolkaccountmanager.md) gérer l’accès aux comptes et configurer des notifications concernant les modifications de compte. 
     
-2. Implémenter et utiliser [IOlkAccountNotify](iolkaccountnotify.md) pour envoyer des notifications sur les modifications de compte. 
+2. Implémentez [et utilisez IOlkAccountNotify](iolkaccountnotify.md) pour envoyer des notifications concernant les modifications de compte. 
     
-3. Utilisez [IOlkEnum](iolkenum.md) pour énumérer les comptes. 
+3. Utilisez [IOlkEnum pour](iolkenum.md) éumer les comptes. 
     
-4. Utilisez [IOlkAccount](iolkaccount.md) pour obtenir et définir des propriétés et d'autres informations sur un compte. Les clients obtiennent cette interface via [IOlkAccountManager:: FindAccount](iolkaccountmanager-findaccount.md) ou [IOlkEnum:: GetNext](iolkenum-getnext.md) pour accéder à un compte individuel. 
+4. Utilisez [IOlkAccount pour](iolkaccount.md) obtenir et définir des propriétés et d’autres informations sur un compte. Les clients obtiennent cette interface via [IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md) ou [IOlkEnum::GetNext](iolkenum-getnext.md) pour accéder à un compte individuel. 
     
-5. Implémentez et utilisez [IOlkAccountHelper](iolkaccounthelper.md) pour fournir la fonctionnalité d'assistance du gestionnaire de comptes, notamment en obtenant le nom de profil d'un compte et la session MAPI actuelle. 
+5. Implémentez et utilisez [IOlkAccountHelper](iolkaccounthelper.md) pour fournir la fonctionnalité d’aide du gestionnaire de comptes, y compris l’obtention du nom de profil d’un compte et de la session MAPI actuelle. 
     
-6. Implémentez et utilisez [IOlkErrorUnknown](iolkerrorunknown.md) pour fournir des informations supplémentaires sur une erreur dans **IOlkAccountManager**, **IOlkAccountNotify**et **IOlkAccount**. 
+6. Implémentez et utilisez [IOlkErrorUnknown](iolkerrorunknown.md) pour fournir des informations supplémentaires sur une erreur dans **IOlkAccountManager,** **IOlkAccountNotify** et **IOlkAccount**. 
 
-##  <a name="account-management-api-components"></a>Composants de l'API de gestion des comptes
+##  <a name="account-management-api-components"></a>Composants de l’API de gestion des comptes
 
-L'API de gestion des comptes fournit les définitions, les types de données, les interfaces, les propriétés nommées et les propriétés suivantes.
+L’API de gestion des comptes fournit les définitions, les types de données, les interfaces, les propriétés nommées et les propriétés suivantes.
   
 ### <a name="definitions"></a>Définitions
   

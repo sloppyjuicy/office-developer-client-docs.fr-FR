@@ -8,7 +8,7 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- fonction tempnum12 [Excel 2007], fonction TempNum [Excel 2007]
+- fonction tempnum12 [excel 2007],fonction TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33426631"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d'infrastructure qui crée une expression **XLOPER**/ **** temporaire contenant un numéro de feuille de calcul Microsoft Excel (un type IEEE de 8 octets). 
+Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** XLOPER12 temporaire contenant un numéro de feuille de calcul /   Microsoft Excel (un double de 8 sur 8 d’IEEE). 
   
 ```cs
 LPXLOPER TempNum(double d);
@@ -34,15 +34,15 @@ LPXLOPER12 TempNum12(double d);
 
  _d_ (**double**)
   
-Valeur prévue. Notez que les numéros IEEE sous-normaux ne sont actuellement pas pris en charge et arrondis à zéro. L'infini négatif est pris en charge.
+Valeur prévue. Notez que les nombres sous-normaux de l’IEEE ne sont actuellement pas pris en charge et sont arrondis à zéro. L’infini négatif est pris en charge.
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie un **xltypeNum** numérique contenant la valeur transmise ou zéro si la valeur passée est Sub-normal. 
+Renvoie une valeur **xltypeNum** numérique contenant la valeur transmise dans ou zéro si la valeur transmise était sous-normale. 
   
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la fonction **TempNum12** pour transmettre un argument à **xlfGetWorkspace**.
+Cet exemple utilise la **fonction TempNum12** pour passer un argument à **xlfGetWorkspace**.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

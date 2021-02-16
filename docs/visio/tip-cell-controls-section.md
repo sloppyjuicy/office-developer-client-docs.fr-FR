@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule Tip par un nom dans une autre formule
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Vérifie.  *nom* . Contrôles Tipwhere.  *Name* est le nom de la ligne Controls.  <br/> |
+| Nom de la cellule :  <br/> | Contrôles.  *nom*  . Tipwhere Controls.  *nom*  est le nom de la ligne des contrôles.  <br/> |
    
 Pour obtenir une référence à la cellule Tip par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionControls** <br/> |
-| Index de la ligne :  <br/> |**visRowControl** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowControl**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visCtlTip** <br/> |
    
 

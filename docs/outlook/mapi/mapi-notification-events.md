@@ -21,21 +21,21 @@ ms.locfileid: "33427954"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsque les applications clientes s'inscrivent pour la notification d'événement, elles doivent spécifier un ou plusieurs événements. Les événements qu'ils peuvent spécifier dépendent de l'ensemble d'événements pris en charge par la source de notification prévue. Il existe dix types de notifications que les clients et les fournisseurs de services peuvent inscrire, chacun étant représenté par une constante. La notification d'objet d'État est une exception. La notification d'objet d'État est une notification MAPI interne; les clients ne peuvent pas s'inscrire pour le service informatique et les fournisseurs de services ne peuvent pas le générer. Le tableau suivant décrit les types d'événements et les objets de source de notification qui peuvent les prendre en charge. La constante d'événement est incluse dans le type d'événement.
+Lorsque les applications clientes s’inscrivent pour la notification d’événement, elles doivent spécifier un ou plusieurs événements. Les événements qu’ils peuvent spécifier dépendent de l’ensemble d’événements que la source de conseil prévue prend en charge. Les clients et les fournisseurs de services peuvent s’inscrire pour dix types de notifications, chacun représenté par une constante. La notification d’objet d’état est une exception. La notification d’objet d’état est une notification MAPI interne ; les clients ne peuvent pas s’y inscrire et les fournisseurs de services ne peuvent pas le générer. Le tableau suivant décrit les types d’événements et les objets source de conseil qui peuvent les prendre en charge. La constante d’événement est incluse dans le type d’événement.
   
-|**Type d’événement**|**Description**|**Informer les objets sources**|
+|**Type d’événement**|**Description**|**Conseiller les objets source**|
 |:-----|:-----|:-----|
-|Erreur critique ( _fnevCriticalError_)  <br/> |Une erreur ou un événement global s'est produit, tel qu'un arrêt de session en cours.  <br/> |Session, tous les types d'objets de banque de messages et de carnet d'adresses, table, état  <br/> |
-|Objet modifié ( _fnevObjectModified_)  <br/> |Un objet MAPI a été modifié.  <br/> |Dossiers, messages, tous les types d'objets de carnet d'adresses  <br/> |
-|Objet créé ( _fnevObjectCreated_)  <br/> |Un objet MAPI a été créé.  <br/> |Dossiers, messages, tous les types d'objets de carnet d'adresses  <br/> |
-|Objet déplacé ( _fnevObjectMoved_)  <br/> |Un objet MAPI a été déplacé.  <br/> |Dossiers, messages, tous les types d'objets de carnet d'adresses  <br/> |
-|Objet supprimé ( _fnevObjectDeleted_)  <br/> |Un objet MAPI a été supprimé.  <br/> |Dossiers, messages, tous les types d'objets de carnet d'adresses  <br/> |
-|Objet copié ( _fnevObjectCopied_)  <br/> |Un objet MAPI a été copié.  <br/> |Dossiers, messages, tous les types d'objets de carnet d'adresses  <br/> |
-|Événement étendu ( _fnevExtended_)  <br/> |Un événement interne défini par un fournisseur de services particulier s'est produit.  <br/> |Tout objet de source de notification  <br/> |
+|Erreur critique ( _fnevCriticalError_)  <br/> |Une erreur globale ou un événement s’est produit, tel qu’un arrêt de session en cours.  <br/> |Session, tous les types d’objets de magasin de messages et de carnet d’adresses, tableau, état  <br/> |
+|Objet modifié ( _fnevObjectModified_)  <br/> |Un objet MAPI a changé.  <br/> |Dossiers, messages, tous types d’objets de carnet d’adresses  <br/> |
+|Objet créé ( _fnevObjectCreated_)  <br/> |Un objet MAPI a été créé.  <br/> |Dossiers, messages, tous types d’objets de carnet d’adresses  <br/> |
+|Objet déplacé ( _fnevObjectMoved_)  <br/> |Un objet MAPI a été déplacé.  <br/> |Dossiers, messages, tous types d’objets de carnet d’adresses  <br/> |
+|Objet supprimé ( _fnevObjectDeleted_)  <br/> |Un objet MAPI a été supprimé.  <br/> |Dossiers, messages, tous types d’objets de carnet d’adresses  <br/> |
+|Objet copié ( _fnevObjectCopied_)  <br/> |Un objet MAPI a été copié.  <br/> |Dossiers, messages, tous types d’objets de carnet d’adresses  <br/> |
+|Événement étendu ( _fnevExtended_)  <br/> |Un événement interne défini par un fournisseur de services particulier s’est produit.  <br/> |Tout objet source de conseil  <br/> |
 |Recherche terminée ( _fnevSearchComplete_)  <br/> |Une opération de recherche est terminée et les résultats de la recherche sont disponibles.  <br/> |Folders  <br/> |
-|Table modifiée ( _fnevTableModified_)  <br/> |Les informations contenues dans un objet table MAPI ont été modifiées.  <br/> |Tableaux  <br/> |
-|Nouveau message ( _fnevNewMail_)  <br/> |Un message a été remis et est en attente de traitement.  <br/> |Banque de messages, dossiers  <br/> |
+|Table modified ( _fnevTableModified_)  <br/> |Les informations d’un objet table MAPI ont changé.  <br/> |Tables  <br/> |
+|Nouveau courrier ( _fnevNewMail_)  <br/> |Un message a été remis et attend d’être traitée.  <br/> |Magasin de messages, dossiers  <br/> |
    
-L'événement étendu est défini par un fournisseur de services pour représenter un événement qui ne peut pas être couvert par les autres événements prédéfinis. Seuls les clients qui connaissent qu'un fournisseur de services prend en charge un événement étendu peuvent s'inscrire à cet événement. Les clients ne peuvent pas déterminer sans savoir si un fournisseur de services prend en charge un événement étendu et, si c'est le cas, comment gérer ce type d'événement lors de sa réception.
+L’événement étendu est défini par un fournisseur de services pour représenter un événement qui ne peut être couvert par aucun des autres événements prédéfin définis. Seuls les clients qui savent avant qu’ils s’inscrivent qu’un fournisseur de services prend en charge un événement étendu peuvent s’inscrire à cet événement. Il n’est pas possible pour les clients de déterminer à l’avance si un fournisseur de services prend en charge un événement étendu et, si tel est le cas, comment gérer un tel événement lorsqu’il est reçu.
   
 

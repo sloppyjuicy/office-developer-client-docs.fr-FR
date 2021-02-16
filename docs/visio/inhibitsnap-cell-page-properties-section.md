@@ -37,7 +37,7 @@ Pour obtenir une référence à la cellule InhibitSnap à l'aide d'un index à p
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPage** <br/> |
 | Index de la cellule :  <br/> |**visPageInhibitSnap** <br/> |
    

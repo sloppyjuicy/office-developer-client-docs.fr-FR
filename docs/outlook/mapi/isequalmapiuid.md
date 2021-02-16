@@ -29,8 +29,8 @@ Teste deux structures [MAPIUID](mapiuid.md) pour déterminer si elles contiennen
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**MAPIUID** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**MAPIUID** <br/> |
    
 ```cpp
 IsEqualMAPIUID(lpuid1, lpuid2)
@@ -48,9 +48,9 @@ IsEqualMAPIUID(lpuid1, lpuid2)
     
 ## <a name="remarks"></a>Remarques
 
-La macro **IsEqualMAPIUID** renvoie true si les deux structures **MAPIUID** contiennent le même identificateur et false dans le cas contraire. 
+La macro **IsEqualMAPIUID** renvoie true si les deux structures **MAPIUID** contiennent le même identificateur et FALSE si ce n’est pas le cas. 
   
-La macro **IsEqualMAPIUID** nécessite que le fichier d'en-tête Memory. h soit inclus. 
+La macro **IsEqualMAPIUID nécessite** que le fichier d’en-tête Memory.h soit inclus. 
   
 ## <a name="see-also"></a>Voir aussi
 

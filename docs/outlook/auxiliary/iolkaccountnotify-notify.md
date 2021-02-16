@@ -35,7 +35,7 @@ HRESULT IOlkAccount::Notify(
 
 _dwNotify_
   
-> dans Type de notification. La valeur doit être l’une des suivantes :
+> [in] Type de notification. La valeur doit être l’une des suivantes :
     
    - NOTIFY_ACCT_CHANGED 
     
@@ -49,11 +49,11 @@ _dwNotify_
     
  _dwAcctID_
   
-> dans ID de compte qui a été créé, modifié, supprimé ou préalablement supprimé.
+> [in] ID de compte du compte qui a été créé, modifié, supprimé ou pré-supprimé.
     
  _dwFlags_
   
->  dans Non utilisé. OLK_ACCOUNT_NO_FLAGS est la seule valeur prise en charge. 
+>  [in] Non utilisé. OLK_ACCOUNT_NO_FLAGS est la seule valeur prise en charge. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
