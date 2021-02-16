@@ -19,35 +19,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408438"
 ---
-# <a name="cbflatentrylist"></a><span data-ttu-id="4d2dc-103">CbFLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="4d2dc-103">CbFLATENTRYLIST</span></span>
+# <a name="cbflatentrylist"></a><span data-ttu-id="ef45e-103">CbFLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="ef45e-103">CbFLATENTRYLIST</span></span>
 
   
   
-<span data-ttu-id="4d2dc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4d2dc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ef45e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ef45e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4d2dc-105">Calcule le nombre d'octets dans une structure [FLATENTRYLIST](flatentrylist.md) existante.</span><span class="sxs-lookup"><span data-stu-id="4d2dc-105">Computes the number of bytes in an existing [FLATENTRYLIST](flatentrylist.md) structure.</span></span> 
+<span data-ttu-id="ef45e-105">Calcule le nombre d’octets dans une structure [FLATENTRYLIST](flatentrylist.md) existante.</span><span class="sxs-lookup"><span data-stu-id="ef45e-105">Computes the number of bytes in an existing [FLATENTRYLIST](flatentrylist.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4d2dc-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="4d2dc-106">Header file:</span></span>  <br/> |<span data-ttu-id="4d2dc-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="4d2dc-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="4d2dc-108">Structure associée:</span><span class="sxs-lookup"><span data-stu-id="4d2dc-108">Related structure:</span></span>  <br/> |<span data-ttu-id="4d2dc-109">**FLATENTRYLIST**</span><span class="sxs-lookup"><span data-stu-id="4d2dc-109">**FLATENTRYLIST**</span></span> <br/> |
+|<span data-ttu-id="ef45e-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="ef45e-106">Header file:</span></span>  <br/> |<span data-ttu-id="ef45e-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ef45e-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="ef45e-108">Structure connexe :</span><span class="sxs-lookup"><span data-stu-id="ef45e-108">Related structure:</span></span>  <br/> |<span data-ttu-id="ef45e-109">**FLATENTRYLIST**</span><span class="sxs-lookup"><span data-stu-id="ef45e-109">**FLATENTRYLIST**</span></span> <br/> |
    
 ```cpp
 CbFLATENTRYLIST(_lplist)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4d2dc-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4d2dc-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ef45e-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="ef45e-110">Parameters</span></span>
 
- <span data-ttu-id="4d2dc-111">__lplist_</span><span class="sxs-lookup"><span data-stu-id="4d2dc-111">__lplist_</span></span>
+ <span data-ttu-id="ef45e-111">_ _lplist_</span><span class="sxs-lookup"><span data-stu-id="ef45e-111">_ _lplist_</span></span>
   
-> <span data-ttu-id="4d2dc-112">Pointeur vers la structure **FLATENTRYLIST** en question.</span><span class="sxs-lookup"><span data-stu-id="4d2dc-112">Pointer to the **FLATENTRYLIST** structure in question.</span></span> 
+> <span data-ttu-id="ef45e-112">Pointeur vers la structure **FLATENTRYLIST** en question.</span><span class="sxs-lookup"><span data-stu-id="ef45e-112">Pointer to the **FLATENTRYLIST** structure in question.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="4d2dc-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4d2dc-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ef45e-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ef45e-113">See also</span></span>
 
 
 
-[<span data-ttu-id="4d2dc-114">FLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="4d2dc-114">FLATENTRYLIST</span></span>](flatentrylist.md)
+[<span data-ttu-id="ef45e-114">FLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="ef45e-114">FLATENTRYLIST</span></span>](flatentrylist.md)
 
 
-[<span data-ttu-id="4d2dc-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="4d2dc-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="ef45e-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="ef45e-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

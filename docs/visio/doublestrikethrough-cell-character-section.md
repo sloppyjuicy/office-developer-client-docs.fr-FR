@@ -16,24 +16,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32360591"
 ---
-# <a name="doublestrikethrough-cell-character-section"></a><span data-ttu-id="392b1-103">DoubleStrikethrough, cellule (section Character)</span><span class="sxs-lookup"><span data-stu-id="392b1-103">DoubleStrikethrough Cell (Character Section)</span></span>
+# <a name="doublestrikethrough-cell-character-section"></a><span data-ttu-id="cbc8d-103">DoubleStrikethrough, cellule (section Character)</span><span class="sxs-lookup"><span data-stu-id="cbc8d-103">DoubleStrikethrough Cell (Character Section)</span></span>
 
-<span data-ttu-id="392b1-104">Détermine si du texte est barré double.</span><span class="sxs-lookup"><span data-stu-id="392b1-104">Determines whether text is formatted as double strikethrough.</span></span>
+<span data-ttu-id="cbc8d-104">Détermine si du texte est barré double.</span><span class="sxs-lookup"><span data-stu-id="cbc8d-104">Determines whether text is formatted as double strikethrough.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="392b1-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="392b1-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cbc8d-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="cbc8d-105">Remarks</span></span>
 
-<span data-ttu-id="392b1-106">Pour obtenir une référence à la cellule DoubleStrikethrough par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="392b1-106">To get a reference to the DoubleStrikethrough cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="cbc8d-106">Pour obtenir une référence à la cellule DoubleStrikethrough par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="cbc8d-106">To get a reference to the DoubleStrikethrough cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="392b1-107">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="392b1-107">Cell name:</span></span>  <br/> | <span data-ttu-id="392b1-108">Char. DoubleStrikethrough [ *i* ] où *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="392b1-108">Char.DoubleStrikethrough[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="cbc8d-107">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="cbc8d-107">Cell name:</span></span>  <br/> | <span data-ttu-id="cbc8d-108">Char.DoubleStrikethrough[  *i*  ] où  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="cbc8d-108">Char.DoubleStrikethrough[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="392b1-109">Pour obtenir une référence à la cellule DoubleStrikethrough à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="392b1-109">To get a reference to the DoubleStrikethrough cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="cbc8d-109">Pour obtenir une référence à la cellule DoubleStrikethrough à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="cbc8d-109">To get a reference to the DoubleStrikethrough cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="392b1-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="392b1-110">Section index:</span></span>  <br/> |<span data-ttu-id="392b1-111">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="392b1-111">**visSectionCharacter**</span></span> <br/> |
-| <span data-ttu-id="392b1-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="392b1-112">Row index:</span></span>  <br/> |<span data-ttu-id="392b1-113">**visRowCharacter** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="392b1-113">**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="392b1-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="392b1-114">Cell index:</span></span>  <br/> |<span data-ttu-id="392b1-115">**visCharacterDoubleStrikethrough**</span><span class="sxs-lookup"><span data-stu-id="392b1-115">**visCharacterDoubleStrikethrough**</span></span> <br/> |
+| <span data-ttu-id="cbc8d-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="cbc8d-110">Section index:</span></span>  <br/> |<span data-ttu-id="cbc8d-111">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="cbc8d-111">**visSectionCharacter**</span></span> <br/> |
+| <span data-ttu-id="cbc8d-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="cbc8d-112">Row index:</span></span>  <br/> |<span data-ttu-id="cbc8d-113">**visRowCharacter**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="cbc8d-113">**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="cbc8d-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="cbc8d-114">Cell index:</span></span>  <br/> |<span data-ttu-id="cbc8d-115">**visCharacterDoubleStrikethrough**</span><span class="sxs-lookup"><span data-stu-id="cbc8d-115">**visCharacterDoubleStrikethrough**</span></span> <br/> |
    
 

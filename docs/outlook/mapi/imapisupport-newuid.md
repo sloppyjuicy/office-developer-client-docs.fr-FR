@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406996"
 ---
-# <a name="imapisupportnewuid"></a><span data-ttu-id="1ac6b-103">IMAPISupport::NewUID</span><span class="sxs-lookup"><span data-stu-id="1ac6b-103">IMAPISupport::NewUID</span></span>
+# <a name="imapisupportnewuid"></a><span data-ttu-id="c7491-103">IMAPISupport::NewUID</span><span class="sxs-lookup"><span data-stu-id="c7491-103">IMAPISupport::NewUID</span></span>
 
   
   
-<span data-ttu-id="1ac6b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1ac6b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c7491-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c7491-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1ac6b-105">Crée une nouvelle structure [MAPIUID](mapiuid.md) à utiliser comme identificateur unique.</span><span class="sxs-lookup"><span data-stu-id="1ac6b-105">Creates a new [MAPIUID](mapiuid.md) structure to be used as a unique identifier.</span></span> 
+<span data-ttu-id="c7491-105">Crée une structure [MAPIUID](mapiuid.md) à utiliser comme identificateur unique.</span><span class="sxs-lookup"><span data-stu-id="c7491-105">Creates a new [MAPIUID](mapiuid.md) structure to be used as a unique identifier.</span></span> 
   
 ```cpp
 HRESULT NewUID(
@@ -33,31 +33,31 @@ LPMAPIUID lpMuid
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1ac6b-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="1ac6b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c7491-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c7491-106">Parameters</span></span>
 
- <span data-ttu-id="1ac6b-107">_lpMuid_</span><span class="sxs-lookup"><span data-stu-id="1ac6b-107">_lpMuid_</span></span>
+ <span data-ttu-id="c7491-107">_lpMuid_</span><span class="sxs-lookup"><span data-stu-id="c7491-107">_lpMuid_</span></span>
   
-> <span data-ttu-id="1ac6b-108">Pointeur vers la nouvelle structure **MAPIUID** .</span><span class="sxs-lookup"><span data-stu-id="1ac6b-108">A pointer to the new **MAPIUID** structure.</span></span> 
+> <span data-ttu-id="c7491-108">Pointeur vers la nouvelle structure **MAPIUID.**</span><span class="sxs-lookup"><span data-stu-id="c7491-108">A pointer to the new **MAPIUID** structure.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="1ac6b-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="1ac6b-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c7491-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c7491-109">Return value</span></span>
 
-<span data-ttu-id="1ac6b-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="1ac6b-110">S_OK</span></span> 
+<span data-ttu-id="c7491-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="c7491-110">S_OK</span></span> 
   
-> <span data-ttu-id="1ac6b-111">La nouvelle structure **MAPIUID** a été créée.</span><span class="sxs-lookup"><span data-stu-id="1ac6b-111">The new **MAPIUID** structure was created.</span></span> 
+> <span data-ttu-id="c7491-111">La nouvelle structure **MAPIUID** a été créée.</span><span class="sxs-lookup"><span data-stu-id="c7491-111">The new **MAPIUID** structure was created.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="1ac6b-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="1ac6b-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c7491-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="c7491-112">Remarks</span></span>
 
-<span data-ttu-id="1ac6b-113">La méthode **IMAPISupport:: NewUID** est implémentée pour tous les objets de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="1ac6b-113">The **IMAPISupport::NewUID** method is implemented for all support objects.</span></span> <span data-ttu-id="1ac6b-114">Les fournisseurs de services et les services de messagerie appellent **NewUID** chaque fois qu'ils ont besoin de générer un identificateur unique à long terme.</span><span class="sxs-lookup"><span data-stu-id="1ac6b-114">Service providers and message services call **NewUID** whenever they need to generate a long-term unique identifier.</span></span> <span data-ttu-id="1ac6b-115">Un fournisseur de banque de messages, par exemple, peut appeler **NewUID** pour obtenir un **MAPIUID** à placer dans la propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) d'un message nouvellement créé.</span><span class="sxs-lookup"><span data-stu-id="1ac6b-115">A message store provider, for example, might call **NewUID** to obtain a **MAPIUID** to put in the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of a newly created message.</span></span>
+<span data-ttu-id="c7491-113">La **méthode IMAPISupport::NewUID** est implémentée pour tous les objets de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="c7491-113">The **IMAPISupport::NewUID** method is implemented for all support objects.</span></span> <span data-ttu-id="c7491-114">Les fournisseurs de services et les services de messagerie **appellent NewUID** chaque fois qu’ils ont besoin de générer un identificateur unique à long terme.</span><span class="sxs-lookup"><span data-stu-id="c7491-114">Service providers and message services call **NewUID** whenever they need to generate a long-term unique identifier.</span></span> <span data-ttu-id="c7491-115">Un fournisseur de magasin de messages, par exemple, peut appeler **NewUID** pour obtenir un **MAPIUID** à placer dans la propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) d’un message nouvellement créé.</span><span class="sxs-lookup"><span data-stu-id="c7491-115">A message store provider, for example, might call **NewUID** to obtain a **MAPIUID** to put in the **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) property of a newly created message.</span></span>
   
-## <a name="notes-to-callers"></a><span data-ttu-id="1ac6b-116">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="1ac6b-116">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="c7491-116">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="c7491-116">Notes to callers</span></span>
 
-<span data-ttu-id="1ac6b-117">Ne confondez pas la structure **MAPIUID** que vous enregistrez à l'ouverture de session avec les structures **MAPIUID** créées par la méthode **NewUID** .</span><span class="sxs-lookup"><span data-stu-id="1ac6b-117">Do not confuse the **MAPIUID** structure that you register at logon time with the **MAPIUID** structures that the **NewUID** method creates.</span></span> <span data-ttu-id="1ac6b-118">La structure **MAPIUID** que vous enregistrez lorsque vous appelez la méthode [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) représente votre carnet d'adresses ou votre fournisseur de banque de messages dans MAPI et est utilisé pour distinguer les identificateurs d'entrée créés par différents fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="1ac6b-118">The **MAPIUID** structure that you register when you call the [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) method represents your address book or message store provider to MAPI and is used to distinguish entry identifiers that different providers create.</span></span> <span data-ttu-id="1ac6b-119">Cette structure **MAPIUID** doit être codée en dur et non obtenue via un appel à **NewUID**.</span><span class="sxs-lookup"><span data-stu-id="1ac6b-119">This **MAPIUID** structure should be hard-coded and not obtained through a call to **NewUID**.</span></span>
+<span data-ttu-id="c7491-117">Ne confondez pas la structure **MAPIUID** que vous inscrivez au moment de l’inscription avec les structures **MAPIUID** créées par la méthode **NewUID.**</span><span class="sxs-lookup"><span data-stu-id="c7491-117">Do not confuse the **MAPIUID** structure that you register at logon time with the **MAPIUID** structures that the **NewUID** method creates.</span></span> <span data-ttu-id="c7491-118">La structure **MAPIUID** que vous inscrivez lorsque vous appelez la méthode [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) représente votre carnet d’adresses ou fournisseur de magasin de messages mapi et est utilisée pour distinguer les identificateurs d’entrée créés par différents fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="c7491-118">The **MAPIUID** structure that you register when you call the [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) method represents your address book or message store provider to MAPI and is used to distinguish entry identifiers that different providers create.</span></span> <span data-ttu-id="c7491-119">Cette structure **MAPIUID** doit être codée en dur et ne doit pas être obtenue via un appel à **NewUID**.</span><span class="sxs-lookup"><span data-stu-id="c7491-119">This **MAPIUID** structure should be hard-coded and not obtained through a call to **NewUID**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1ac6b-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1ac6b-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c7491-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c7491-120">See also</span></span>
 
 
 
-[<span data-ttu-id="1ac6b-121">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="1ac6b-121">MAPIUID</span></span>](mapiuid.md)
+[<span data-ttu-id="c7491-121">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="c7491-121">MAPIUID</span></span>](mapiuid.md)
   
-[<span data-ttu-id="1ac6b-122">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1ac6b-122">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="c7491-122">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c7491-122">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

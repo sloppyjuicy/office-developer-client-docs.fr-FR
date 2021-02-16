@@ -19,42 +19,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410930"
 ---
-# <a name="sizedsrowset"></a><span data-ttu-id="1e2d6-103">SizedSRowSet</span><span class="sxs-lookup"><span data-stu-id="1e2d6-103">SizedSRowSet</span></span>
+# <a name="sizedsrowset"></a><span data-ttu-id="12b3f-103">SizedSRowSet</span><span class="sxs-lookup"><span data-stu-id="12b3f-103">SizedSRowSet</span></span>
 
-<span data-ttu-id="1e2d6-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1e2d6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="12b3f-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="12b3f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1e2d6-105">Crée une structure [SRowSet](srowset.md) nommée qui contient un nombre spécifié de lignes.</span><span class="sxs-lookup"><span data-stu-id="1e2d6-105">Creates a named [SRowSet](srowset.md) structure that contains a specified number of rows.</span></span> 
+<span data-ttu-id="12b3f-105">Crée une structure [SRowSet nommée](srowset.md) qui contient un nombre spécifié de lignes.</span><span class="sxs-lookup"><span data-stu-id="12b3f-105">Creates a named [SRowSet](srowset.md) structure that contains a specified number of rows.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1e2d6-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="1e2d6-106">Header file:</span></span>  <br/> |<span data-ttu-id="1e2d6-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="1e2d6-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="1e2d6-108">Structure associée:</span><span class="sxs-lookup"><span data-stu-id="1e2d6-108">Related structure:</span></span>  <br/> |<span data-ttu-id="1e2d6-109">**SRowSet**</span><span class="sxs-lookup"><span data-stu-id="1e2d6-109">**SRowSet**</span></span> <br/> |
+|<span data-ttu-id="12b3f-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="12b3f-106">Header file:</span></span>  <br/> |<span data-ttu-id="12b3f-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="12b3f-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="12b3f-108">Structure connexe :</span><span class="sxs-lookup"><span data-stu-id="12b3f-108">Related structure:</span></span>  <br/> |<span data-ttu-id="12b3f-109">**SRowSet**</span><span class="sxs-lookup"><span data-stu-id="12b3f-109">**SRowSet**</span></span> <br/> |
    
 ```cpp
 SizedSRowSet (_crow, _name)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1e2d6-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="1e2d6-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="12b3f-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="12b3f-110">Parameters</span></span>
 
-<span data-ttu-id="1e2d6-111">__Crow_</span><span class="sxs-lookup"><span data-stu-id="1e2d6-111">__crow_</span></span>
+<span data-ttu-id="12b3f-111">_</span><span class="sxs-lookup"><span data-stu-id="12b3f-111">_ _crow_</span></span>
   
-> <span data-ttu-id="1e2d6-112">Nombre de lignes à inclure dans la nouvelle structure.</span><span class="sxs-lookup"><span data-stu-id="1e2d6-112">Count of the number of rows to be included in the new structure.</span></span>
+> <span data-ttu-id="12b3f-112">Nombre de lignes à inclure dans la nouvelle structure.</span><span class="sxs-lookup"><span data-stu-id="12b3f-112">Count of the number of rows to be included in the new structure.</span></span>
     
-<span data-ttu-id="1e2d6-113">__nom_</span><span class="sxs-lookup"><span data-stu-id="1e2d6-113">__name_</span></span>
+<span data-ttu-id="12b3f-113">_ _name_</span><span class="sxs-lookup"><span data-stu-id="12b3f-113">_ _name_</span></span>
   
-> <span data-ttu-id="1e2d6-114">Nom de la nouvelle structure.</span><span class="sxs-lookup"><span data-stu-id="1e2d6-114">Name for the new structure.</span></span>
+> <span data-ttu-id="12b3f-114">Nom de la nouvelle structure.</span><span class="sxs-lookup"><span data-stu-id="12b3f-114">Name for the new structure.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="1e2d6-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="1e2d6-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="12b3f-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="12b3f-115">Remarks</span></span>
 
-<span data-ttu-id="1e2d6-116">Pour utiliser la nouvelle structure qui résulte de la macro **SizedSRowSet** en tant que pointeur vers une structure **SRowSet** , effectuez la conversion suivante:</span><span class="sxs-lookup"><span data-stu-id="1e2d6-116">To use the new structure that results from the **SizedSRowSet** macro as a pointer to an **SRowSet** structure, perform the following cast:</span></span> 
+<span data-ttu-id="12b3f-116">Pour utiliser la nouvelle structure qui résulte de la macro **SizedSRowSet** comme pointeur vers une structure **SRowSet,** effectuez la distribution suivante :</span><span class="sxs-lookup"><span data-stu-id="12b3f-116">To use the new structure that results from the **SizedSRowSet** macro as a pointer to an **SRowSet** structure, perform the following cast:</span></span> 
   
 ```cpp
 lpSRowSet = (LPSRowSet) &SizedSRowSet;
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="1e2d6-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1e2d6-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12b3f-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="12b3f-117">See also</span></span>
 
-- [<span data-ttu-id="1e2d6-118">SRowSet</span><span class="sxs-lookup"><span data-stu-id="1e2d6-118">SRowSet</span></span>](srowset.md)
-- [<span data-ttu-id="1e2d6-119">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="1e2d6-119">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+- [<span data-ttu-id="12b3f-118">SRowSet</span><span class="sxs-lookup"><span data-stu-id="12b3f-118">SRowSet</span></span>](srowset.md)
+- [<span data-ttu-id="12b3f-119">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="12b3f-119">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

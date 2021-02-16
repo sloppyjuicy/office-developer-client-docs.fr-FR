@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408417"
 ---
-# <a name="ftsubft"></a><span data-ttu-id="76823-103">FtSubFt</span><span class="sxs-lookup"><span data-stu-id="76823-103">FtSubFt</span></span>
+# <a name="ftsubft"></a><span data-ttu-id="f72b1-103">FtSubFt</span><span class="sxs-lookup"><span data-stu-id="f72b1-103">FtSubFt</span></span>
 
   
   
-<span data-ttu-id="76823-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="76823-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f72b1-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f72b1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="76823-105">Soustrait un entier non signé 64 bits d'un autre.</span><span class="sxs-lookup"><span data-stu-id="76823-105">Subtracts one unsigned 64-bit integer from another.</span></span> 
+<span data-ttu-id="f72b1-105">Soustrait un integer 64 bits non signé d’un autre.</span><span class="sxs-lookup"><span data-stu-id="f72b1-105">Subtracts one unsigned 64-bit integer from another.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="76823-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="76823-106">Header file:</span></span>  <br/> |<span data-ttu-id="76823-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="76823-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="76823-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="76823-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="76823-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="76823-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="76823-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="76823-110">Called by:</span></span>  <br/> |<span data-ttu-id="76823-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="76823-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="f72b1-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="f72b1-106">Header file:</span></span>  <br/> |<span data-ttu-id="f72b1-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="f72b1-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="f72b1-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="f72b1-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="f72b1-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="f72b1-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="f72b1-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="f72b1-110">Called by:</span></span>  <br/> |<span data-ttu-id="f72b1-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="f72b1-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 FILETIME FtSubFt(
@@ -40,18 +40,18 @@ FILETIME FtSubFt(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="76823-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="76823-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f72b1-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="f72b1-112">Parameters</span></span>
 
- <span data-ttu-id="76823-113">_Minuend_</span><span class="sxs-lookup"><span data-stu-id="76823-113">_Minuend_</span></span>
+ <span data-ttu-id="f72b1-113">_Minuend_</span><span class="sxs-lookup"><span data-stu-id="f72b1-113">_Minuend_</span></span>
   
-> <span data-ttu-id="76823-114">dans Une structure [fileTime](filetime.md) qui contient l'entier non signé 64 bits à partir duquel la valeur du paramètre _subtrahend_ doit être soustraite.</span><span class="sxs-lookup"><span data-stu-id="76823-114">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer from which the value in the  _Subtrahend_ parameter is to be subtracted.</span></span> 
+> <span data-ttu-id="f72b1-114">[in] Structure [FILETIME](filetime.md) qui contient l’entier 64 bits non signé à partir duquel la valeur du paramètre  _Subtrahend_ doit être soustraite.</span><span class="sxs-lookup"><span data-stu-id="f72b1-114">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer from which the value in the  _Subtrahend_ parameter is to be subtracted.</span></span> 
     
- <span data-ttu-id="76823-115">_Subtrahend_</span><span class="sxs-lookup"><span data-stu-id="76823-115">_Subtrahend_</span></span>
+ <span data-ttu-id="f72b1-115">_Subtrahend_</span><span class="sxs-lookup"><span data-stu-id="f72b1-115">_Subtrahend_</span></span>
   
-> <span data-ttu-id="76823-116">dans Une structure **fileTime** qui contient l'entier non signé 64 bits qui est soustrait de la valeur indiquée par le paramètre _minuend_ .</span><span class="sxs-lookup"><span data-stu-id="76823-116">[in] A **FILETIME** structure that contains the unsigned 64-bit integer that is subtracted from the value indicated by the  _Minuend_ parameter.</span></span> 
+> <span data-ttu-id="f72b1-116">[in] Structure **FILETIME** qui contient l’entier 64 bits non signé qui est soustrait de la valeur indiquée par le _paramètre Minuend._</span><span class="sxs-lookup"><span data-stu-id="f72b1-116">[in] A **FILETIME** structure that contains the unsigned 64-bit integer that is subtracted from the value indicated by the  _Minuend_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="76823-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="76823-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f72b1-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="f72b1-117">Return value</span></span>
 
-<span data-ttu-id="76823-118">La fonction **FtSubFt** renvoie une structure **fileTime** qui contient le résultat de la soustraction.</span><span class="sxs-lookup"><span data-stu-id="76823-118">The **FtSubFt** function returns a **FILETIME** structure that contains the result of the subtraction.</span></span> <span data-ttu-id="76823-119">Les deux paramètres d'entrée restent inchangés.</span><span class="sxs-lookup"><span data-stu-id="76823-119">The two input parameters remain unchanged.</span></span> 
+<span data-ttu-id="f72b1-118">La **fonction FtSubFt** renvoie une structure **FILETIME** qui contient le résultat de la soustraction.</span><span class="sxs-lookup"><span data-stu-id="f72b1-118">The **FtSubFt** function returns a **FILETIME** structure that contains the result of the subtraction.</span></span> <span data-ttu-id="f72b1-119">Les deux paramètres d’entrée restent inchangés.</span><span class="sxs-lookup"><span data-stu-id="f72b1-119">The two input parameters remain unchanged.</span></span> 
   
 

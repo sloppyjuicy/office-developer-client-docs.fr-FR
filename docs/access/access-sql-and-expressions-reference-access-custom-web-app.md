@@ -12,27 +12,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408179"
 ---
-# <a name="access-sql-and-expressions-reference-access-custom-web-app"></a><span data-ttu-id="463ac-102">Référence SQL et les expressions Access (application web personnalisé de l'accès)</span><span class="sxs-lookup"><span data-stu-id="463ac-102">Access SQL and expressions reference (Access custom web app)</span></span>
+# <a name="access-sql-and-expressions-reference-access-custom-web-app"></a><span data-ttu-id="13434-102">Référence SQL et les expressions Access (application web personnalisé de l'accès)</span><span class="sxs-lookup"><span data-stu-id="13434-102">Access SQL and expressions reference (Access custom web app)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="463ac-103">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="463ac-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="13434-103">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="13434-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="463ac-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="463ac-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="13434-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="13434-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-- [<span data-ttu-id="463ac-106">Fonctions de conversion (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="463ac-106">Conversion functions (Access custom web app)</span></span>](conversion-functions-access-custom-web-app.md)
+- [<span data-ttu-id="13434-106">Fonctions de conversion (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="13434-106">Conversion functions (Access custom web app)</span></span>](conversion-functions-access-custom-web-app.md)
     
-- [<span data-ttu-id="463ac-107">Fonctions de base de données (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="463ac-107">Database functions (Access custom web app)</span></span>](database-functions-access-custom-web-app.md)
+- [<span data-ttu-id="13434-107">Fonctions de base de données (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="13434-107">Database functions (Access custom web app)</span></span>](database-functions-access-custom-web-app.md)
     
-- [<span data-ttu-id="463ac-108">Fonctions de date/heure (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="463ac-108">Date/time functions (Access custom web app)</span></span>](date-time-functionsaccess-custom-web-app.md)
+- [<span data-ttu-id="13434-108">Fonctions de date/heure (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="13434-108">Date/time functions (Access custom web app)</span></span>](date-time-functionsaccess-custom-web-app.md)
     
-- [<span data-ttu-id="463ac-109">Fonctions d'inspection (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="463ac-109">Inspection functions (Access custom web app)</span></span>](inspection-functions-access-custom-web-app.md)
+- [<span data-ttu-id="13434-109">Fonctions d’inspection (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="13434-109">Inspection functions (Access custom web app)</span></span>](inspection-functions-access-custom-web-app.md)
     
-- [<span data-ttu-id="463ac-110">Fonctions mathématiques (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="463ac-110">Math functions (Access custom web app)</span></span>](math-functions-access-custom-web-app.md)
+- [<span data-ttu-id="13434-110">Fonctions mathématiques (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="13434-110">Math functions (Access custom web app)</span></span>](math-functions-access-custom-web-app.md)
     
-- [<span data-ttu-id="463ac-111">Fonctions de flux de programme (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="463ac-111">Program flow functions (Access custom web app)</span></span>](program-flow-functions-access-custom-web-app.md)
+- [<span data-ttu-id="13434-111">Program flow functions (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="13434-111">Program flow functions (Access custom web app)</span></span>](program-flow-functions-access-custom-web-app.md)
     
-- [<span data-ttu-id="463ac-112">Fonctions de texte (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="463ac-112">Text functions (Access custom web app)</span></span>](text-functions-access-custom-web-app.md)
+- [<span data-ttu-id="13434-112">Fonctions de texte (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="13434-112">Text functions (Access custom web app)</span></span>](text-functions-access-custom-web-app.md)
     
-- [<span data-ttu-id="463ac-113">Opérateurs (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="463ac-113">Operators (Access custom web app)</span></span>](operators-access-custom-web-app.md)
+- [<span data-ttu-id="13434-113">Operators (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="13434-113">Operators (Access custom web app)</span></span>](operators-access-custom-web-app.md)
     
 

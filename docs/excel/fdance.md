@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - fDance
 keywords:
-- fonction fdance [Excel 2007]
+- fonction fdance [excel 2007]
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -18,35 +18,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409047"
 ---
-# <a name="fdance"></a><span data-ttu-id="d3780-104">fDance</span><span class="sxs-lookup"><span data-stu-id="d3780-104">fDance</span></span>
+# <a name="fdance"></a><span data-ttu-id="80dc5-104">fDance</span><span class="sxs-lookup"><span data-stu-id="80dc5-104">fDance</span></span>
 
- <span data-ttu-id="d3780-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d3780-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="80dc5-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="80dc5-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="d3780-106">Exemple de commande définie par l'utilisateur qui modifie les cellules sélectionnées de la feuille de calcul active jusqu'à ce que l'utilisateur appuie sur **Échap**.</span><span class="sxs-lookup"><span data-stu-id="d3780-106">Example user-defined command that changes the selected cells on the active worksheet around until the user presses **ESC**.</span></span> <span data-ttu-id="d3780-107">Lorsque GENERIC. xll est chargé, il crée un menu défini par l'utilisateur, générique, par le biais duquel cette commande est accédée.</span><span class="sxs-lookup"><span data-stu-id="d3780-107">When GENERIC.xll is loaded, it creates a user-defined menu, Generic, through which this command is accessed.</span></span>
+<span data-ttu-id="80dc5-106">Exemple de commande définie par l’utilisateur qui modifie les cellules sélectionnées dans la feuille de calcul active jusqu’à ce que l’utilisateur appuie sur **ÉCHAP**.</span><span class="sxs-lookup"><span data-stu-id="80dc5-106">Example user-defined command that changes the selected cells on the active worksheet around until the user presses **ESC**.</span></span> <span data-ttu-id="80dc5-107">Lorsque GENERIC.xll est chargé, il crée un menu défini par l’utilisateur, Generic, via lequel cette commande est accessible.</span><span class="sxs-lookup"><span data-stu-id="80dc5-107">When GENERIC.xll is loaded, it creates a user-defined menu, Generic, through which this command is accessed.</span></span>
   
 ```cs
 int WINAPI fDance(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d3780-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="d3780-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="80dc5-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="80dc5-108">Parameters</span></span>
 
-<span data-ttu-id="d3780-109">La fonction ne prend aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="d3780-109">The function takes no parameters.</span></span>
+<span data-ttu-id="80dc5-109">La fonction ne prend aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="80dc5-109">The function takes no parameters.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="d3780-110">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="d3780-110">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="80dc5-110">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="80dc5-110">Property value/Return value</span></span>
 
-<span data-ttu-id="d3780-111">La fonction renvoie toujours 1.</span><span class="sxs-lookup"><span data-stu-id="d3780-111">The function always returns 1.</span></span>
+<span data-ttu-id="80dc5-111">La fonction renvoie toujours 1.</span><span class="sxs-lookup"><span data-stu-id="80dc5-111">The function always returns 1.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d3780-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="d3780-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="80dc5-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="80dc5-112">Remarks</span></span>
 
-<span data-ttu-id="d3780-113">Il s'agit d'un exemple de longue opération.</span><span class="sxs-lookup"><span data-stu-id="d3780-113">This is an example of a lengthy operation.</span></span> <span data-ttu-id="d3780-114">Il appelle de manière occasionnelle la fonction [xlAbort](xlabort.md) .</span><span class="sxs-lookup"><span data-stu-id="d3780-114">It calls the function [xlAbort](xlabort.md) occasionally.</span></span> <span data-ttu-id="d3780-115">Cela génère le processeur (aide au multitâche coopératif) et vérifie si l'utilisateur a appuyé sur **Échap** pour annuler l'opération.</span><span class="sxs-lookup"><span data-stu-id="d3780-115">This yields the processor (helping with cooperative multitasking), and checks whether the user has pressed **ESC** to cancel the operation.</span></span> <span data-ttu-id="d3780-116">Si c'est le cas, il offre à l'utilisateur la possibilité d'annuler l'abandon.</span><span class="sxs-lookup"><span data-stu-id="d3780-116">If so, it offers the user a chance to cancel the abort.</span></span> 
+<span data-ttu-id="80dc5-113">Il s’agit d’un exemple d’une opération longue.</span><span class="sxs-lookup"><span data-stu-id="80dc5-113">This is an example of a lengthy operation.</span></span> <span data-ttu-id="80dc5-114">Il appelle parfois la fonction [xlAbort.](xlabort.md)</span><span class="sxs-lookup"><span data-stu-id="80dc5-114">It calls the function [xlAbort](xlabort.md) occasionally.</span></span> <span data-ttu-id="80dc5-115">Cela permet au processeur (d’aider à la multitâche multinationale) et de vérifier si l’utilisateur a appuyer sur **ÉCHAP** pour annuler l’opération.</span><span class="sxs-lookup"><span data-stu-id="80dc5-115">This yields the processor (helping with cooperative multitasking), and checks whether the user has pressed **ESC** to cancel the operation.</span></span> <span data-ttu-id="80dc5-116">Si c’est le cas, il offre à l’utilisateur la possibilité d’annuler l’abandon.</span><span class="sxs-lookup"><span data-stu-id="80dc5-116">If so, it offers the user a chance to cancel the abort.</span></span> 
   
-### <a name="example"></a><span data-ttu-id="d3780-117">Exemple</span><span class="sxs-lookup"><span data-stu-id="d3780-117">Example</span></span>
+### <a name="example"></a><span data-ttu-id="80dc5-117">Exemple</span><span class="sxs-lookup"><span data-stu-id="80dc5-117">Example</span></span>
 
-<span data-ttu-id="d3780-118">Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction.</span><span class="sxs-lookup"><span data-stu-id="d3780-118">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
+<span data-ttu-id="80dc5-118">Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction.</span><span class="sxs-lookup"><span data-stu-id="80dc5-118">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="d3780-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d3780-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="80dc5-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="80dc5-119">See also</span></span>
 
 
 
-[<span data-ttu-id="d3780-120">Fonctions dans le fichier DLL générique</span><span class="sxs-lookup"><span data-stu-id="d3780-120">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
+[<span data-ttu-id="80dc5-120">Fonctions dans le fichier DLL générique</span><span class="sxs-lookup"><span data-stu-id="80dc5-120">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
 

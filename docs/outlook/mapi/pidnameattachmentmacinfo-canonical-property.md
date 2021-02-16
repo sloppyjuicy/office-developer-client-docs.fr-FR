@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c46656d5-2cb1-45eb-9f66-9c2b6e3315cf
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: d2a7fcf06c4e09f46c0d50f9e5f8897874c5f9a2
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32360927"
 ---
-# <a name="pidnameattachmentmacinfo-canonical-property"></a><span data-ttu-id="f7448-103">Propriété canonique PidNameAttachmentMacInfo</span><span class="sxs-lookup"><span data-stu-id="f7448-103">PidNameAttachmentMacInfo Canonical Property</span></span>
+# <a name="pidnameattachmentmacinfo-canonical-property"></a><span data-ttu-id="6eff8-103">Propriété canonique PidNameAttachmentMacInfo</span><span class="sxs-lookup"><span data-stu-id="6eff8-103">PidNameAttachmentMacInfo Canonical Property</span></span>
 
   
   
-<span data-ttu-id="f7448-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f7448-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6eff8-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6eff8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f7448-105">Contient une valeur de pièce jointe [RFC3282] comprenant des données de branches d'en-tête et de ressource appropriées utilisées par les clients de messagerie Macintosh.</span><span class="sxs-lookup"><span data-stu-id="f7448-105">Contains an [RFC3282] attachment value that is comprised of appropriate header and resource fork data used by Macintosh-based email clients.</span></span>
+<span data-ttu-id="6eff8-105">Contient une valeur de pièce jointe [RFC3282] composée des données d’en-tête et de bifurcation de ressources appropriées utilisées par les clients de messagerie Macintosh.</span><span class="sxs-lookup"><span data-stu-id="6eff8-105">Contains an [RFC3282] attachment value that is comprised of appropriate header and resource fork data used by Macintosh-based email clients.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f7448-106">Noms conviviaux:</span><span class="sxs-lookup"><span data-stu-id="f7448-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="f7448-107">Aucun</span><span class="sxs-lookup"><span data-stu-id="f7448-107">None</span></span>  <br/> |
-|<span data-ttu-id="f7448-108">Jeu de propriétés:</span><span class="sxs-lookup"><span data-stu-id="f7448-108">Property set:</span></span>  <br/> |<span data-ttu-id="f7448-109">PSETID_Attachment</span><span class="sxs-lookup"><span data-stu-id="f7448-109">PSETID_Attachment</span></span>  <br/> |
-|<span data-ttu-id="f7448-110">Nom de la propriété:</span><span class="sxs-lookup"><span data-stu-id="f7448-110">Property name:</span></span>  <br/> |<span data-ttu-id="f7448-111">AttachmentMacInfo</span><span class="sxs-lookup"><span data-stu-id="f7448-111">AttachmentMacInfo</span></span>  <br/> |
-|<span data-ttu-id="f7448-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="f7448-112">Data type:</span></span>  <br/> |<span data-ttu-id="f7448-113">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="f7448-113">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="f7448-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="f7448-114">Area:</span></span>  <br/> |<span data-ttu-id="f7448-115">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="f7448-115">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="6eff8-106">Noms convivial :</span><span class="sxs-lookup"><span data-stu-id="6eff8-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="6eff8-107">Aucun</span><span class="sxs-lookup"><span data-stu-id="6eff8-107">None</span></span>  <br/> |
+|<span data-ttu-id="6eff8-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="6eff8-108">Property set:</span></span>  <br/> |<span data-ttu-id="6eff8-109">PSETID_Attachment</span><span class="sxs-lookup"><span data-stu-id="6eff8-109">PSETID_Attachment</span></span>  <br/> |
+|<span data-ttu-id="6eff8-110">Nom de la propriété :</span><span class="sxs-lookup"><span data-stu-id="6eff8-110">Property name:</span></span>  <br/> |<span data-ttu-id="6eff8-111">AttachmentMacInfo</span><span class="sxs-lookup"><span data-stu-id="6eff8-111">AttachmentMacInfo</span></span>  <br/> |
+|<span data-ttu-id="6eff8-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="6eff8-112">Data type:</span></span>  <br/> |<span data-ttu-id="6eff8-113">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="6eff8-113">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="6eff8-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="6eff8-114">Area:</span></span>  <br/> |<span data-ttu-id="6eff8-115">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="6eff8-115">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f7448-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="f7448-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6eff8-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="6eff8-116">Remarks</span></span>
 
-<span data-ttu-id="f7448-117">Pour plus d'informations, reportez-vous à la section MS-OXCMAIL section 2.2.4.2 les formats de fichiers Apple.</span><span class="sxs-lookup"><span data-stu-id="f7448-117">For more information, see MS-OXCMAIL section 2.2.4.2 Apple File Formats.</span></span>
+<span data-ttu-id="6eff8-117">Pour plus d’informations, consultez la section MS-OXCMAIL 2.2.4.2 Formats de fichier Apple.</span><span class="sxs-lookup"><span data-stu-id="6eff8-117">For more information, see MS-OXCMAIL section 2.2.4.2 Apple File Formats.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="f7448-118">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="f7448-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="6eff8-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="6eff8-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="f7448-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="f7448-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="6eff8-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="6eff8-119">Protocol specifications</span></span>
 
-<span data-ttu-id="f7448-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f7448-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="6eff8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6eff8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="f7448-121">Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="f7448-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="6eff8-121">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="6eff8-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="f7448-122">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f7448-122">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="6eff8-122">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6eff8-122">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="f7448-123">ConVertit des conventions de messagerie standard Internet en objets message.</span><span class="sxs-lookup"><span data-stu-id="f7448-123">Converts from Internet standard email conventions to message objects.</span></span>
+> <span data-ttu-id="6eff8-123">Convertit des conventions de messagerie standard Internet en objets de message.</span><span class="sxs-lookup"><span data-stu-id="6eff8-123">Converts from Internet standard email conventions to message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="f7448-124">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="f7448-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="6eff8-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="6eff8-124">Header files</span></span>
 
-<span data-ttu-id="f7448-125">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="f7448-125">Mapidefs.h</span></span>
+<span data-ttu-id="6eff8-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="6eff8-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="f7448-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="f7448-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="6eff8-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="6eff8-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f7448-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f7448-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6eff8-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6eff8-127">See also</span></span>
 
 
 
-[<span data-ttu-id="f7448-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="f7448-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="6eff8-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="6eff8-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="f7448-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="f7448-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="6eff8-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="6eff8-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="f7448-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="f7448-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="6eff8-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="6eff8-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="f7448-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="f7448-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="6eff8-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="6eff8-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
