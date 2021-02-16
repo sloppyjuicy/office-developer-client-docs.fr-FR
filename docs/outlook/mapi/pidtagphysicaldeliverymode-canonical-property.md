@@ -19,42 +19,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412302"
 ---
-# <a name="pidtagphysicaldeliverymode-canonical-property"></a><span data-ttu-id="842ad-103">Propriété canonique PidTagPhysicalDeliveryMode</span><span class="sxs-lookup"><span data-stu-id="842ad-103">PidTagPhysicalDeliveryMode Canonical Property</span></span>
+# <a name="pidtagphysicaldeliverymode-canonical-property"></a><span data-ttu-id="1217a-103">Propriété canonique PidTagPhysicalDeliveryMode</span><span class="sxs-lookup"><span data-stu-id="1217a-103">PidTagPhysicalDeliveryMode Canonical Property</span></span>
 
   
   
-<span data-ttu-id="842ad-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="842ad-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1217a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1217a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="842ad-105">Contient un masque de réindicateur des indicateurs qui définissent le mode de remise physique (par exemple, une remise spéciale) pour un message désigné pour un destinataire spécifique.</span><span class="sxs-lookup"><span data-stu-id="842ad-105">Contains a bitmask of flags that define the physical delivery mode (for example, special delivery) for a message designated for a specific recipient.</span></span>
+<span data-ttu-id="1217a-105">Contient un masque de bits d’indicateurs qui définissent le mode de remise physique (par exemple, remise spéciale) d’un message désigné pour un destinataire spécifique.</span><span class="sxs-lookup"><span data-stu-id="1217a-105">Contains a bitmask of flags that define the physical delivery mode (for example, special delivery) for a message designated for a specific recipient.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="842ad-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="842ad-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="842ad-107">PR_PHYSICAL_DELIVERY_MODE</span><span class="sxs-lookup"><span data-stu-id="842ad-107">PR_PHYSICAL_DELIVERY_MODE</span></span>  <br/> |
-|<span data-ttu-id="842ad-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="842ad-108">Identifier:</span></span>  <br/> |<span data-ttu-id="842ad-109">0x0C0B</span><span class="sxs-lookup"><span data-stu-id="842ad-109">0x0C0B</span></span>  <br/> |
-|<span data-ttu-id="842ad-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="842ad-110">Data type:</span></span>  <br/> |<span data-ttu-id="842ad-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="842ad-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="842ad-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="842ad-112">Area:</span></span>  <br/> |<span data-ttu-id="842ad-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="842ad-113">MAPI recipient</span></span>  <br/> |
+|<span data-ttu-id="1217a-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="1217a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1217a-107">PR_PHYSICAL_DELIVERY_MODE</span><span class="sxs-lookup"><span data-stu-id="1217a-107">PR_PHYSICAL_DELIVERY_MODE</span></span>  <br/> |
+|<span data-ttu-id="1217a-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="1217a-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1217a-109">0x0C0B</span><span class="sxs-lookup"><span data-stu-id="1217a-109">0x0C0B</span></span>  <br/> |
+|<span data-ttu-id="1217a-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="1217a-110">Data type:</span></span>  <br/> |<span data-ttu-id="1217a-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="1217a-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="1217a-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="1217a-112">Area:</span></span>  <br/> |<span data-ttu-id="1217a-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="1217a-113">MAPI recipient</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="842ad-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="842ad-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="1217a-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="1217a-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="842ad-115">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="842ad-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="1217a-115">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="1217a-115">Header files</span></span>
 
-<span data-ttu-id="842ad-116">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="842ad-116">Mapidefs.h</span></span>
+<span data-ttu-id="1217a-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1217a-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="842ad-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="842ad-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="1217a-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="1217a-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="842ad-118">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="842ad-118">Mapitags.h</span></span>
+<span data-ttu-id="1217a-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="1217a-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="842ad-119">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="842ad-119">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="1217a-119">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="1217a-119">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="842ad-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="842ad-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1217a-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1217a-120">See also</span></span>
 
 
 
-[<span data-ttu-id="842ad-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="842ad-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="1217a-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="1217a-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="842ad-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="842ad-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="1217a-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="1217a-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="842ad-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="842ad-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="1217a-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="1217a-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="842ad-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="842ad-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="1217a-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="1217a-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

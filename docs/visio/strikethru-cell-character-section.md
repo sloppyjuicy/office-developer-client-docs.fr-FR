@@ -16,31 +16,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412428"
 ---
-# <a name="strikethru-cell-character-section"></a><span data-ttu-id="9c368-103">Strikethru, cellule (section Character)</span><span class="sxs-lookup"><span data-stu-id="9c368-103">Strikethru Cell (Character Section)</span></span>
+# <a name="strikethru-cell-character-section"></a><span data-ttu-id="8a7b2-103">Strikethru, cellule (section Character)</span><span class="sxs-lookup"><span data-stu-id="8a7b2-103">Strikethru Cell (Character Section)</span></span>
 
-<span data-ttu-id="9c368-104">Détermine si le texte est barré.</span><span class="sxs-lookup"><span data-stu-id="9c368-104">Determines whether the text is formatted as strikethrough.</span></span>
+<span data-ttu-id="8a7b2-104">Détermine si le texte est barré.</span><span class="sxs-lookup"><span data-stu-id="8a7b2-104">Determines whether the text is formatted as strikethrough.</span></span>
   
-|<span data-ttu-id="9c368-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="9c368-105">**Value**</span></span>|<span data-ttu-id="9c368-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="9c368-106">**Description**</span></span>|
+|<span data-ttu-id="8a7b2-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="8a7b2-105">**Value**</span></span>|<span data-ttu-id="8a7b2-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="8a7b2-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="9c368-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="9c368-107">TRUE</span></span>  <br/> |<span data-ttu-id="9c368-108">Le texte est barré.</span><span class="sxs-lookup"><span data-stu-id="9c368-108">Text is formatted as strikethrough.</span></span>  <br/> |
-|<span data-ttu-id="9c368-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="9c368-109">FALSE</span></span>  <br/> |<span data-ttu-id="9c368-110">Le texte n'est pas barré.</span><span class="sxs-lookup"><span data-stu-id="9c368-110">Text is not formatted as strikethrough.</span></span>  <br/> |
+|<span data-ttu-id="8a7b2-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="8a7b2-107">TRUE</span></span>  <br/> |<span data-ttu-id="8a7b2-108">Le texte est barré.</span><span class="sxs-lookup"><span data-stu-id="8a7b2-108">Text is formatted as strikethrough.</span></span>  <br/> |
+|<span data-ttu-id="8a7b2-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="8a7b2-109">FALSE</span></span>  <br/> |<span data-ttu-id="8a7b2-110">Le texte n'est pas barré.</span><span class="sxs-lookup"><span data-stu-id="8a7b2-110">Text is not formatted as strikethrough.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="9c368-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="9c368-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8a7b2-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="8a7b2-111">Remarks</span></span>
 
-<span data-ttu-id="9c368-112">Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Texte** (sous l’onglet **Accueil**, cliquez sur la flèche **Police**).</span><span class="sxs-lookup"><span data-stu-id="9c368-112">You can also set the value of this cell by using the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
+<span data-ttu-id="8a7b2-112">Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Texte** (sous l’onglet **Accueil**, cliquez sur la flèche **Police**).</span><span class="sxs-lookup"><span data-stu-id="8a7b2-112">You can also set the value of this cell by using the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
   
-<span data-ttu-id="9c368-113">Pour obtenir une référence à la cellule Strikethru par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="9c368-113">To get a reference to the Strikethru cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="8a7b2-113">Pour obtenir une référence à la cellule Strikethru par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="8a7b2-113">To get a reference to the Strikethru cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9c368-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="9c368-114">Cell name:</span></span>  <br/> |<span data-ttu-id="9c368-115">Char. Strikethru [ *i* ] où *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="9c368-115">Char.Strikethru[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="8a7b2-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="8a7b2-114">Cell name:</span></span>  <br/> |<span data-ttu-id="8a7b2-115">Char.Strikethru[ *i*  ] où  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="8a7b2-115">Char.Strikethru[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="9c368-116">Pour obtenir une référence à la cellule Strikethru par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="9c368-116">To get a reference to the Strikethru cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="8a7b2-116">Pour obtenir une référence à la cellule Strikethru par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="8a7b2-116">To get a reference to the Strikethru cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9c368-117">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="9c368-117">Section index:</span></span>  <br/> |<span data-ttu-id="9c368-118">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="9c368-118">**visSectionCharacter**</span></span> <br/> |
-|<span data-ttu-id="9c368-119">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="9c368-119">Row index:</span></span>  <br/> |<span data-ttu-id="9c368-120">**visRowCharacter** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="9c368-120">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="9c368-121">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="9c368-121">Cell index:</span></span>  <br/> |<span data-ttu-id="9c368-122">**visCharacterStrikethru**</span><span class="sxs-lookup"><span data-stu-id="9c368-122">**visCharacterStrikethru**</span></span> <br/> |
+|<span data-ttu-id="8a7b2-117">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="8a7b2-117">Section index:</span></span>  <br/> |<span data-ttu-id="8a7b2-118">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="8a7b2-118">**visSectionCharacter**</span></span> <br/> |
+|<span data-ttu-id="8a7b2-119">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="8a7b2-119">Row index:</span></span>  <br/> |<span data-ttu-id="8a7b2-120">**visRowCharacter**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="8a7b2-120">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="8a7b2-121">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="8a7b2-121">Cell index:</span></span>  <br/> |<span data-ttu-id="8a7b2-122">**visCharacterStrikethru**</span><span class="sxs-lookup"><span data-stu-id="8a7b2-122">**visCharacterStrikethru**</span></span> <br/> |
    
 

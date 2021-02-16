@@ -1,5 +1,5 @@
 ---
-title: Fonction rePlicate (application Web personnalisée Access)
+title: Replicate Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411063"
 ---
-# <a name="replicate-function-access-custom-web-app"></a><span data-ttu-id="e6322-103">Fonction rePlicate (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="e6322-103">Replicate Function (Access custom web app)</span></span>
+# <a name="replicate-function-access-custom-web-app"></a><span data-ttu-id="f7ce8-103">Replicate Function (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="f7ce8-103">Replicate Function (Access custom web app)</span></span>
 
-<span data-ttu-id="e6322-104">Répète une valeur de texte un nombre de fois spécifié.</span><span class="sxs-lookup"><span data-stu-id="e6322-104">Repeats a text value a specified number of times.</span></span>
+<span data-ttu-id="f7ce8-104">Répète une valeur de texte un nombre de fois spécifié.</span><span class="sxs-lookup"><span data-stu-id="f7ce8-104">Repeats a text value a specified number of times.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="e6322-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="e6322-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="f7ce8-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="f7ce8-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="e6322-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e6322-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f7ce8-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f7ce8-107">Syntax</span></span>
 
- <span data-ttu-id="e6322-108">**Répliquer** (*TextExpression*, *NumberOfTimes*)</span><span class="sxs-lookup"><span data-stu-id="e6322-108">**Replicate** (*TextExpression*, *NumberOfTimes*)</span></span> 
+ <span data-ttu-id="f7ce8-108">**Replicate** (*TextExpression*, *NumberOfTimes*)</span><span class="sxs-lookup"><span data-stu-id="f7ce8-108">**Replicate** (*TextExpression*, *NumberOfTimes*)</span></span> 
   
-<span data-ttu-id="e6322-109">La \*\*\*\* fonction REPLICATE contient les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="e6322-109">The **Replicate** function contains the following arguments.</span></span> 
+<span data-ttu-id="f7ce8-109">La **fonction Replicate** contient les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="f7ce8-109">The **Replicate** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="e6322-110">**Nom de l’argument**</span><span class="sxs-lookup"><span data-stu-id="e6322-110">**Argument name**</span></span>|<span data-ttu-id="e6322-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="e6322-111">**Description**</span></span>|
+|<span data-ttu-id="f7ce8-110">**Nom de l’argument**</span><span class="sxs-lookup"><span data-stu-id="f7ce8-110">**Argument name**</span></span>|<span data-ttu-id="f7ce8-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="f7ce8-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="e6322-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="e6322-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="e6322-113">Expression de texte.</span><span class="sxs-lookup"><span data-stu-id="e6322-113">A text expression.</span></span>  <br/> |
-| <span data-ttu-id="e6322-114">*NumberOfTimes*</span><span class="sxs-lookup"><span data-stu-id="e6322-114">*NumberOfTimes*</span></span>  <br/> |<span data-ttu-id="e6322-115">Entier qui spécifie le nombre de répétitions de l' *TextExpression* .</span><span class="sxs-lookup"><span data-stu-id="e6322-115">An integer that specifies the number of times to repeat the  *TextExpression*  .</span></span>  <br/> |
+| <span data-ttu-id="f7ce8-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="f7ce8-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="f7ce8-113">Expression de texte.</span><span class="sxs-lookup"><span data-stu-id="f7ce8-113">A text expression.</span></span>  <br/> |
+| <span data-ttu-id="f7ce8-114">*NumberOfTimes*</span><span class="sxs-lookup"><span data-stu-id="f7ce8-114">*NumberOfTimes*</span></span>  <br/> |<span data-ttu-id="f7ce8-115">Nombre total qui spécifie le nombre de répétitions de *l’expression textuelle.*</span><span class="sxs-lookup"><span data-stu-id="f7ce8-115">An integer that specifies the number of times to repeat the  *TextExpression*  .</span></span>  <br/> |
    
 

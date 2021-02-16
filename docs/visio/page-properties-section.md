@@ -16,12 +16,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411651"
 ---
-# <a name="page-properties-section"></a><span data-ttu-id="a0bdb-103">Page Properties, section</span><span class="sxs-lookup"><span data-stu-id="a0bdb-103">Page Properties Section</span></span>
+# <a name="page-properties-section"></a><span data-ttu-id="651e6-103">Page Properties, section</span><span class="sxs-lookup"><span data-stu-id="651e6-103">Page Properties Section</span></span>
 
-<span data-ttu-id="a0bdb-104">Contient les cellules qui contrôlent les attributs de page, comme la largeur, la hauteur et l'échelle de la page.</span><span class="sxs-lookup"><span data-stu-id="a0bdb-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
+<span data-ttu-id="651e6-104">Contient les cellules qui contrôlent les attributs de page, comme la largeur, la hauteur et l'échelle de la page.</span><span class="sxs-lookup"><span data-stu-id="651e6-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a0bdb-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="a0bdb-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="651e6-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="651e6-105">Remarks</span></span>
 
-<span data-ttu-id="a0bdb-106">Vous pouvez définir les valeurs des propriétés d'une page en y apportant une entrée dans la cellule de la section Propriétés de la **page** ou à l'aide de la boîte de dialogue **mise en page** (sous l'onglet **création** , cliquez sur lanceur de boîte de dialogue dans le groupe mise en **page** ).</span><span class="sxs-lookup"><span data-stu-id="a0bdb-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
+<span data-ttu-id="651e6-106">Vous pouvez définir les valeurs des propriétés de page en faisant une entrée dans  la cellule de **section** Propriétés  de page ou à l’aide de la boîte de dialogue Mise en **page** (sous l’onglet Création, cliquez sur le lanceur de boîte de dialogue dans le groupe Mise en page).</span><span class="sxs-lookup"><span data-stu-id="651e6-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
   
 
