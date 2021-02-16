@@ -43,11 +43,11 @@ HRESULT CompleteMsg(
     
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée du message à traiter.
+> [in] Pointeur vers l’identificateur d’entrée du message à traiter.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -57,15 +57,15 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: CompleteMsg** est implémentée pour les objets de prise en charge du fournisseur de banque de messages et est appelée uniquement par les fournisseurs de banques de messages étroitement couplés avec les fournisseurs de transport. Les fournisseurs de magasins étroitement couplés appellent **IMAPISupport:: CompleteMsg** pour indiquer au spouleur MAPI d'postprocess un message. 
+La **méthode IMAPISupport::CompleteMsg** est implémentée pour les objets de prise en charge des fournisseurs de magasins de messages et est appelée uniquement par les fournisseurs de magasins de messages étroitement associés aux fournisseurs de transport. Les fournisseurs de magasins étroitement couplés appellent **IMAPISupport::CompleteMsg** pour demander aupooler MAPI de postprocesser un message. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appeler **CompleteMsg** uniquement lorsque vous êtes fermement couplé à un fournisseur de transport, vous pouvez gérer tous les destinataires du message, et l'une des conditions suivantes existe: 
+Appelez **CompleteMsg** uniquement lorsque vous êtes étroitement associé à un fournisseur de transport, vous pouvez gérer tous les destinataires du message et l’une des conditions suivantes existe : 
   
 - Le message a été prétraité.
     
-- Le message nécessite un post-traitement par le spouleur MAPI.
+- Le message nécessite un post-traitement par lepooler MAPI.
     
 ## <a name="see-also"></a>Voir aussi
 

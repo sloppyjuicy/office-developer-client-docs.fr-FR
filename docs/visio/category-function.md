@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82253220
 localization_priority: Normal
 ms.assetid: 0a64808d-448d-4121-ba60-e191762f2ab1
-description: Renvoie le texte du champ catégorie des propriétés d'un document.
+description: Renvoie le texte du champ Catégorie des propriétés d’un document.
 ms.openlocfilehash: b066064bcf1e3d0e3cb3b0d7fda7034c6d562858
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33412708"
 ---
 # <a name="category-function"></a>Fonction CATEGORY
 
-Renvoie le texte du champ **catégorie** des propriétés d'un document. 
+Renvoie le texte du **champ Catégorie** des propriétés d’un document. 
   
 ## <a name="syntax"></a>Syntaxe
 

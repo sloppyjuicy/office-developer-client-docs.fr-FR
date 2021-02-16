@@ -19,9 +19,9 @@ ms.locfileid: "33411014"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'exemple de code suivant montre comment créer une restriction qui filtre tous les messages qui ne contiennent pas le mot «Volleyball» dans la ligne d'objet et qui n'ont pas été envoyés à Sue à partir de Sam. Une arborescence de structures [SRestriction](srestriction.md) est requise, dont le nœud supérieur est une restriction **et** est implémentée avec une structure [SAndRestriction](sandrestriction.md) . Les trois restrictions qui sont jointes par l'opération **and** sont une restriction de sous-objet qui recherche des messages envoyés à Sue, une restriction de contenu qui recherche des messages à partir de Sam et une autre **et** une restriction qui recherche les messages. dont l'objet contient «volleyball». Étant donné que **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) n'est pas une propriété requise, une restriction **Exists** doit être incluse. 
+L’exemple de code suivant montre comment créer une restriction qui filtre tous les messages qui ne contiennent pas le mot « domaine » dans la ligne d’objet et qui n’ont pas été envoyés à Sue à partir de Sam. Une arborescence de structures [SRestriction](srestriction.md) est requise, le nœud supérieur étant une restriction **AND** implémentée avec une structure [SAndRestriction.](sandrestriction.md) Les trois restrictions qui sont jointes par l’opération **AND** sont une restriction de sous-objet qui recherche les messages envoyés à Sue, une restriction de contenu qui recherche des messages de Sam et une autre restriction **AND** qui recherche les messages dont l’objet contient « ya ». Étant **donné PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) n’est pas une propriété obligatoire, une restriction **Exist** doit être incluse. 
   
-Ce code utilise l'allocation et l'initialisation dynamiques; Il est possible de les allouer et de les initialiser de façon statique. Dans un souci de concision, la vérification des erreurs qui doit avoir lieu après les appels d'allocation n'est pas incluse dans l'exemple. 
+Ce code utilise l’allocation et l’initialisation dynamiques ; il est également possible d’allouer et d’initialiser de manière statique. Par souci de concision, la vérification des erreurs qui doit se produire après les appels d’allocation n’est pas incluse dans l’exemple. 
   
 ```cpp
 HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,
@@ -98,5 +98,5 @@ HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Tables MAPI](mapi-tables.md)
+- [MAPI Tables](mapi-tables.md)
 

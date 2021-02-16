@@ -25,7 +25,7 @@ ms.locfileid: "33411875"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie une table des modèles uniques permettant de créer des destinataires à ajouter à la liste des destinataires d'un message sortant.
+Renvoie une table de modèles unique pour la création de destinataires à ajouter à la liste des destinataires d’un message sortant.
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -38,37 +38,37 @@ HRESULT GetOneOffTable(
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le type de colonnes de chaîne incluses dans le tableau. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le type de colonnes de chaîne incluses dans le tableau. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les colonnes de chaîne sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les colonnes de la chaîne sont au format ANSI.
+> Les colonnes de chaîne sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les colonnes de chaîne sont au format ANSI.
     
  _lppTable_
   
-> remarquer Pointeur vers un pointeur vers la table ponctuelle.
+> [out] Pointeur vers un pointeur vers le tableau one-off.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La table ponctuelle a été récupérée avec succès.
+> La table a été récupérée avec succès.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L'indicateur MAPI_UNICODE a été défini et le fournisseur de carnet d'adresses ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et le fournisseur de carnet d'adresses prend en charge uniquement Unicode.
+> L’indicateur MAPI_UNICODE a été définie et le fournisseur de carnet d’adresses ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et le fournisseur de carnet d’adresses prend uniquement en charge Unicode.
     
 MAPI_E_NO_SUPPORT 
   
-> Le fournisseur de carnet d'adresses ne fournit pas de modèles uniques.
+> Le fournisseur de carnet d’adresses ne fournit aucun modèle unique.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la méthode **GetOneOffTable** pour mettre à disposition des modèles uniques pour créer des destinataires. Les nouveaux destinataires sont ajoutés à la liste des destinataires d'un message sortant. Les fournisseurs de carnets d'adresses doivent prendre en charge la notification sur leur table ponctuelle pour informer MAPI des modifications de modèle. MAPI conserve la table ponctuelle ouverte pour activer la mise à jour dynamique. 
+MAPI appelle la **méthode GetOneOffTable** pour mettre à disposition des modèles one-off pour créer des destinataires. Les nouveaux destinataires sont ajoutés à la liste des destinataires d’un message sortant. Les fournisseurs de carnets d’adresses doivent prendre en charge les notifications sur leur tableau unique pour informer MAPI des modifications apportées aux modèles. MAPI maintient la table ouverte pour activer la mise à jour dynamique. 
   
-Les fournisseurs de carnets d'adresses peuvent également prendre en charge une table ponctuelle pour chacun de leurs conteneurs. Les appelants extraient cette table ponctuelle en appelant la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) du conteneur et en demandant la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Les modèles disponibles dans ce tableau permettent d'ajouter des destinataires au conteneur. Pour plus d'informations sur les différences entre les deux types de tables ponctuelles, reportez-vous à la rubrique [implementIng One-Off tables](implementing-one-off-tables.md).
+Les fournisseurs de carnets d’adresses peuvent également prendre en charge une table one-off pour chacun de leurs conteneurs. Les appelants récupèrent cette table en appelant la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur et en demandant la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Les modèles disponibles dans ce tableau sont utilisés pour ajouter des destinataires au conteneur. Pour obtenir une discussion sur les différences entre les deux types de tableaux one-off, voir [Implementing One-Off Tables](implementing-one-off-tables.md).
   
-Pour obtenir la liste des colonnes requises dans la table ponctuelle d'un fournisseur de carnet d'adresses, consultez la rubrique [tables One-Off](one-off-tables.md).
+Pour obtenir la liste des colonnes requises dans la table un-off d’un fournisseur de carnet d’adresses, voir [Tables one-off.](one-off-tables.md)
   
 ## <a name="see-also"></a>Voir aussi
 

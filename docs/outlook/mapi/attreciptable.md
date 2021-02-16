@@ -19,12 +19,12 @@ ms.locfileid: "33412155"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsqu'une table de destinataires est codée, chaque destinataire est encodé sous forme de ligne de propriétés MAPI. Le format est le suivant: 
+Lorsqu’une table de destinataires est codée, chaque destinataire est codé en tant que ligne de propriétés MAPI. Le format est le suivant : 
   
-_Row_Seq:_
+_Row_Seq :_
   
->  _nombre de lignes_ _Property_Sequence,_... 
+>  _row-count_ _Property_Sequence,_... 
     
-Le format de _Property_Seq_ est le même que dans l'attribut [attMAPIProps](attmapiprops.md) . 
+Le format de _Property_Seq_ est identique à celui de l’attribut [attMAPIProps.](attmapiprops.md) 
     
 

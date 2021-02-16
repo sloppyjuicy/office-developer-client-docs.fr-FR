@@ -25,7 +25,7 @@ ms.locfileid: "33412141"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur survenue pour un objet d'administration de service de messagerie. 
+Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur qui s’est produite pour un objet d’administration de service de message. 
   
 ```cpp
 HRESULT GetLastError(
@@ -39,19 +39,19 @@ HRESULT GetLastError(
 
  _hResult_
   
-> dans Un type de données HRESULT qui contient la valeur d'erreur générée par l'appel de méthode précédent.
+> [in] Type de données HRESULT qui contient la valeur d’erreur générée par l’appel de méthode précédent.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le type de chaînes renvoyées. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le type de chaînes renvoyées. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les chaînes de la structure **MAPIERROR** renvoyées dans le paramètre _lppMAPIError_ sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI. 
+> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre  _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
  _lppMAPIError_
   
-> remarquer Pointeur vers un pointeur vers la structure **MAPIERROR** renvoyée qui contient les informations de version, de composant et de contexte pour l'erreur. Le paramètre _lppMAPIError_ peut être défini sur null s'il n'existe aucune structure **MAPIERROR** à renvoyer. 
+> [out] Pointeur vers un pointeur vers la structure **MAPIERROR** renvoyée qui contient les informations de version, de composant et de contexte de l’erreur. Le  _paramètre lppMAPIError_ peut avoir la valeur NULL s’il n’existe aucune structure **MAPIERROR** à renvoyer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,17 +61,17 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L'indicateur MAPI_UNICODE a été défini et l'objet d'administration du service de messagerie ne prend pas en charge Unicode.
+> L MAPI_UNICODE a été définie et l’objet d’administration du service de message ne prend pas en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin:: GetLastError** extrait des informations sur la dernière erreur renvoyée par un appel de la méthode [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Les clients peuvent fournir à leurs utilisateurs des informations détaillées sur l'erreur en incluant ces informations dans une boîte de dialogue. 
+La **méthode IMsgServiceAdmin::GetLastError** récupère des informations sur la dernière erreur renvoyée par un appel de méthode [IMsgServiceAdmin.](imsgserviceadminiunknown.md) Les clients peuvent fournir à leurs utilisateurs des informations détaillées sur l’erreur en incluant ces informations dans une boîte de dialogue. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser la structure **MAPIERROR** , si la fonction MAPI en fournit une, pointée par le paramètre _LppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer quelle est la dernière erreur ou n'a rien d'autre pour signaler l'erreur. Dans ce cas, **GetLastError** renvoie un pointeur vers une valeur null dans _lppMAPIError_ à la place. 
+Vous pouvez utiliser la structure **MAPIERROR,** si MAPI en fournit une, pointée par le paramètre  _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler sur l’erreur. Dans ce cas, **GetLastError** renvoie un pointeur vers NULL dans  _lppMAPIError_ à la place. 
   
-Pour plus d'informations sur la méthode **GetLastError** , consultez la rubrique [utilisation d'erreurs étendues](mapi-extended-errors.md).
+Pour plus d’informations **sur la méthode GetLastError,** voir [Using Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -22,6 +22,6 @@ Contient les cellules qui contrôlent les attributs de page, comme la largeur, l
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir les valeurs des propriétés d'une page en y apportant une entrée dans la cellule de la section Propriétés de la **page** ou à l'aide de la boîte de dialogue **mise en page** (sous l'onglet **création** , cliquez sur lanceur de boîte de dialogue dans le groupe mise en **page** ). 
+Vous pouvez définir les valeurs des propriétés de page en faisant une entrée dans  la cellule de **section** Propriétés  de page ou à l’aide de la boîte de dialogue Mise en **page** (sous l’onglet Création, cliquez sur le lanceur de boîte de dialogue dans le groupe Mise en page). 
   
 

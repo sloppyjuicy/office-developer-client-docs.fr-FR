@@ -25,32 +25,32 @@ ms.locfileid: "33412050"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une structure [MAPIUID](mapiuid.md) définie par le fournisseur qui indique le type de la Banque de messages. 
+Contient une structure [MAPIUID](mapiuid.md) définie par un fournisseur qui indique le type de la magasin de messages. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MDB_PROVIDER  <br/> |
 |Identificateur :  <br/> |0x3414  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Propriétés ID  <br/> |
+|Domaine :  <br/> |Propriétés de l’ID  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La structure [MAPIUID](mapiuid.md) identifie le type de banque de messages. La valeur est calculée par les fournisseurs de banque de messages sur les objets de banque de messages et est unique pour chaque fournisseur. Il est généralement utilisé pour parcourir la table de banque de messages afin de trouver une banque du type souhaité, comme des dossiers publics. 
+La structure [MAPIUID](mapiuid.md) identifie le type de magasin de messages. La valeur est calculée par les fournisseurs de magasins de messages sur les objets de la boutique de messages et est propre à chaque fournisseur. Il est généralement utilisé pour parcourir la table de la boutique de messages afin de trouver une boutique du type souhaité, par exemple des dossiers publics. 
   
-Cette propriété est analogue à la propriété **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) pour les carnets d'adresses. 
+Cette propriété est analogue à la propriété **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) pour les carnets d’adresses. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

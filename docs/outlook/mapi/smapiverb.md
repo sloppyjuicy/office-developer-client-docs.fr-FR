@@ -29,7 +29,7 @@ Décrit un verbe MAPI.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct
@@ -47,15 +47,15 @@ typedef struct
 
  **lVerb**
   
-> Code représentant le verbe passé à [IMAPIForm::D overb](imapiform-doverb.md). Les verbes standard sont définis dans le fichier d'en-tête Exchform. h.
+> Code représentant le verbe transmis à [IMAPIForm::D oVerb](imapiform-doverb.md). Les verbes standard sont définis dans le fichier d’en-tête Exchform.h.
     
  **szVerbname**
   
-> Nom complet du verbe tel qu'il apparaît dans le menu formulaire.
+> Nom complet du verbe tel qu’il apparaît dans le menu du formulaire.
     
  **fuFlags**
   
-> Indicateurs pour le verbe.
+> Indicateurs du verbe.
     
  **grfAttribs**
   
@@ -63,15 +63,15 @@ typedef struct
     
  **ulFlags**
   
-> Indicateur qui indique le format du nom d'affichage du verbe. L'indicateur suivant peut être défini:
+> Indicateur indiquant le format du nom complet du verbe. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Le nom complet est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, le nom d'affichage est au format ANSI.
+> Le nom complet est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, le nom complet est au format ANSI.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMAPIVerb** est transmise en tant que paramètre dans les méthodes suivantes: 
+La structure **SMAPIVerb** est transmise en tant que paramètre dans les méthodes suivantes : 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     

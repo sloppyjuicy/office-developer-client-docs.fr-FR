@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble des applications clientes MAPI
+title: Vue d’ensemble de l’application cliente MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411280"
 ---
-# <a name="mapi-client-application-overview"></a>Vue d'ensemble des applications clientes MAPI
+# <a name="mapi-client-application-overview"></a>Vue d’ensemble de l’application cliente MAPI
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une application cliente MAPI est une application qui utilise l'interface de programmation MAPI. Les applications clientes implémentent les tâches de messagerie en tant que sélection principale ou secondaire. Les applications clientes de messagerie, telles que les applications qui envoient et reçoivent des courriers électroniques, implémentent la messagerie comme principal objectif. Pour les applications clientes non de messagerie, telles que l'inventaire ou les applications de configuration, la messagerie est une fonctionnalité secondaire.
+Une application cliente MAPI est toute application qui utilise l’interface de programmation MAPI. Les applications clientes implémentent les tâches de messagerie en tant que focus principal ou secondaire. Les applications clientes de messagerie, telles que les applications qui envoient et reçoivent des messages électroniques, implémentent la messagerie comme objectif principal. Pour les applications clientes autres que la messagerie, telles que les applications d’inventaire ou de configuration, la messagerie est une fonctionnalité secondaire.
   
-Les activités de messagerie peuvent inclure, par exemple, une application de traitement de texte disposant d'une commande **Envoyer** dans son menu **fichier** pour permettre l'envoi de documents, de messages électroniques Microsoft Office Outlook, de programmes d'automatisation de flux de travail et de services télématiques. 
+Les activités de messagerie peuvent inclure, par exemple,  une application de traitement de texte qui possède une commande Envoyer dans son **menu** Fichier pour permettre l’envoi de documents, la messagerie Microsoft Office Outlook, les programmes d’automatisation du flux de travail et les services de tableaux d’affichage. 
   
-Les applications clientes peuvent soit inclure l'utilisateur pour créer un environnement interactif, soit opérer sans un utilisateur dans un environnement automatisé. Bien que MAPI fournisse un ensemble de boîtes de dialogue communes avec son interface utilisateur standard, les applications clientes ne sont pas requises pour présenter une interface utilisateur. En fait, tout le traitement peut être géré dans l'application, si vous le souhaitez. Un exemple d'application cliente automatisée serait une application de gestion des stocks programmée pour acheminer régulièrement les éléments d'un type particulier vers les destinataires standard.
+Les applications clientes peuvent inclure l’utilisateur pour créer un environnement interactif ou fonctionner sans utilisateur dans un environnement automatisé. Bien que MAPI fournit un ensemble de boîtes de dialogue communes avec son interface utilisateur standard, les applications clientes ne sont pas requises pour présenter une interface utilisateur. En fait, tout le traitement peut être géré dans l’application, si vous le souhaitez. Par exemple, une application cliente automatisée serait une application de gestion des stocks programmée pour router régulièrement des éléments d’un type particulier vers des destinataires standard.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Architecture et fonctionnalités MAPI](mapi-features-and-architecture.md)
+[Fonctionnalités et architecture MAPI](mapi-features-and-architecture.md)
 

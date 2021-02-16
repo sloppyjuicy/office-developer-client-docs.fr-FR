@@ -1,5 +1,5 @@
 ---
-title: Fonction rePlicate (application Web personnalisée Access)
+title: Replicate Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411063"
 ---
-# <a name="replicate-function-access-custom-web-app"></a>Fonction rePlicate (application Web personnalisée Access)
+# <a name="replicate-function-access-custom-web-app"></a>Replicate Function (Access custom web app)
 
 Répète une valeur de texte un nombre de fois spécifié.
   
@@ -23,13 +23,13 @@ Répète une valeur de texte un nombre de fois spécifié.
   
 ## <a name="syntax"></a>Syntaxe
 
- **Répliquer** (*TextExpression*, *NumberOfTimes*) 
+ **Replicate** (*TextExpression*, *NumberOfTimes*) 
   
-La **** fonction REPLICATE contient les arguments suivants. 
+La **fonction Replicate** contient les arguments suivants. 
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Expression de texte.  <br/> |
-| *NumberOfTimes*  <br/> |Entier qui spécifie le nombre de répétitions de l' *TextExpression* .  <br/> |
+| *NumberOfTimes*  <br/> |Nombre total qui spécifie le nombre de répétitions de *l’expression textuelle.*  <br/> |
    
 

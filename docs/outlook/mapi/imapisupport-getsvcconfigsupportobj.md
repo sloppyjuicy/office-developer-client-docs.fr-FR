@@ -25,7 +25,7 @@ ms.locfileid: "33411308"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée un objet de prise en charge du service de messagerie.
+Crée un objet de support de service de message.
   
 ```cpp
 HRESULT GetSvcConfigSupportObj(
@@ -42,19 +42,19 @@ HRESULT GetSvcConfigSupportObj(
     
  _lppSvcSupport_
   
-> remarquer Pointeur vers un pointeur vers le nouvel objet de prise en charge du service de messagerie.
+> [out] Pointeur vers un pointeur vers le nouvel objet de support du service de message.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'objet de prise en charge de la configuration a été correctement créé.
+> L’objet de prise en charge de la configuration a été créé avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: GetSvcConfigSupportObj** est implémentée pour tous les objets de prise en charge. Les fournisseurs de services appellent **GetSvcConfigSupportObj** pour créer un objet de prise en charge de configuration à transmettre à une fonction de point d'entrée de service de messagerie. 
+La **méthode IMAPISupport::GetSvcConfigSupportObj** est implémentée pour tous les objets de prise en charge. Les fournisseurs de services **appellent GetSvcConfigSupportObj** pour créer un objet de prise en charge de configuration à transmettre à une fonction de point d’entrée de service de message. 
   
-Une fonction de point d'entrée de service de messagerie est basée sur le prototype [MSGSERVICEENTRY](msgserviceentry.md) et est appelée par les méthodes de l'interface [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Une fonction de point d'entrée de service de messagerie permet aux services de message de se configurer eux-mêmes ou d'effectuer d'autres actions lorsque le profil est modifié. Les fonctions de point d'entrée de service de messagerie peuvent prendre en charge les modifications de configuration en affichant une feuille de propriétés ou via un tableau de valeurs de propriété passé à la méthode [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
+Une fonction de point d’entrée de service de message est basée sur le prototype [MSGSERVICEENTRY](msgserviceentry.md) et est appelée par les méthodes de l’interface [IMsgServiceAdmin.](imsgserviceadminiunknown.md) Une fonction de point d’entrée de service de message permet aux services de message de se configurer eux-mêmes ou d’effectuer d’autres actions lorsque le profil est modifié. Les fonctions de point d’entrée de service de message peuvent prendre en charge les modifications de configuration en affichant une feuille de propriétés ou via un tableau de valeurs de propriétés transmis à la méthode [IMsgServiceAdmin::ConfigureMsgService.](imsgserviceadmin-configuremsgservice.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

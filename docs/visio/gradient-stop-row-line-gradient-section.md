@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1236a59e-2a25-449f-8e20-8553518d79ec
-description: Contient la couleur, la transparence et la position d'un point de dégradé pour un dégradé de ligne.
+description: Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de trait.
 ms.openlocfilehash: 1a6d9c60bc83160067123007cf873c5681e9bc85
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,14 +16,14 @@ ms.locfileid: "33411406"
 ---
 # <a name="gradient-stop-row-line-gradient-section"></a>Gradient Stop Row (Line Gradient Section)
 
-Contient la couleur, la transparence et la position d'un point de dégradé pour un dégradé de ligne.
+Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de trait.
   
-Une ligne de **point de dégradé** contient les cellules suivantes. 
+Une **ligne Gradient Stop** contient les cellules suivantes. 
   
-|**Cellule**|**Description**|
+|**Cell**|**Description**|
 |:-----|:-----|
-|**Color** <br/> |Valeur de couleur du point de dégradé. Cette valeur peut être exprimée sous la forme d'un numéro d'index d'une couleur dans la palette de document ou à l'aide des fonctions [RGB](rgb-function-visioshapesheet.md), [THEMEVAL](themeval-function.md)ou [TSL](hsl-function.md) (par exemple).  <br/> |
-|**ColorTrans** <br/> |Quantité de transparence de la couleur de dégradé, sous la forme d'un pourcentage.  <br/> |
-|**Position** <br/> |Position du point de dégradé le long de la direction du dégradé de ligne, sous la forme d'un pourcentage entre le point d'origine du dégradé et le bord externe de la ligne.  <br/> |
+|**Color** <br/> |Valeur de couleur du dégradé. Cette valeur peut être exprimée en tant que numéro d’index d’une couleur dans la palette de documents ou à l’aide des fonctions [RVB,](rgb-function-visioshapesheet.md) [THEMEVAL](themeval-function.md)ou [HSL](hsl-function.md) (par exemple).  <br/> |
+|**ColorTrans** <br/> |La quantité de transparence de la couleur de dégradé, sous la mesure d’un pourcentage.  <br/> |
+|**Position** <br/> |Position du point de dégradé le long de la direction du dégradé de trait, sous la mesure d’un pourcentage entre le point d’origine du dégradé et le bord externe de la ligne.  <br/> |
    
 

@@ -27,15 +27,15 @@ HRESULT _stdcall AreFriendsOrColleagues(SAFEARRAY(BSTR) userIds, [out, retval] S
 
 _userIds_
   
-> dans Structure qui spécifie un tableau de valeurs d'ID utilisateur qui correspondent à un ensemble de personnes sur le réseau social.
+> [in] Structure qui spécifie un tableau de valeurs d’ID d’utilisateur qui correspondent à un ensemble de personnes sur le réseau social.
     
-_résultats_
+_results_
   
-> remarquer Pointeur vers la structure qui spécifie un tableau de valeurs booléennes, indiquant si la personne correspondante __ dans le tableau userIds est une amie. 
+> [out] Pointeur vers une structure qui spécifie un tableau de valeurs Boolean, indiquant si la personne correspondante dans le tableau  _userIds_ est un ami. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour chaque personne représentée dans le tableau d'entrée du __ paramètre userids, cette méthode définit l'élément correspondant dans le tableau de sortie du __ paramètre results. la **valeur true** indique que la personne est un ami et la **valeur false** indique que la personne n'est pas un ami. 
+Pour chaque personne représentée dans le tableau d’entrée du paramètre  _userIds,_ cette méthode définit l’élément correspondant dans le tableau de sortie du  _paramètre de_ résultats. **true** indique que la personne est un ami et **false** indique que la personne n’est pas un ami. 
   
 ## <a name="see-also"></a>Voir aussi
 

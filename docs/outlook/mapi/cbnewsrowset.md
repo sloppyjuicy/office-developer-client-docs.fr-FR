@@ -25,12 +25,12 @@ ms.locfileid: "33411889"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets à allouer pour une nouvelle structure [SRowSet](srowset.md) qui contient un nombre spécifié de lignes représentées par des structures [SRow](srow.md) . 
+Calcule le nombre d’octets à allouer pour une nouvelle structure [SRowSet](srowset.md) qui contient un nombre spécifié de lignes représentées par les structures [SRow.](srow.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SRowSet** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SRowSet** <br/> |
    
 ```cpp
 CbNewSRowSet (_crow)
@@ -38,9 +38,9 @@ CbNewSRowSet (_crow)
 
 ## <a name="parameters"></a>Paramètres
 
- __Crow_
+ _
   
-> Nombre de structures **SRow** indiquant le nombre de lignes à inclure dans la nouvelle structure **SRowSet** . 
+> Nombre de structures **SRow** indiquant le nombre de lignes à inclure dans la nouvelle structure **SRowSet.** 
     
 ## <a name="see-also"></a>Voir aussi
 

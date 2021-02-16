@@ -29,7 +29,7 @@ Copie les propriétés définies par un tableau de structures [SPropValue](sprop
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -46,25 +46,25 @@ SCODE ScCopyProps(
 
  _cprop_
   
-> dans Nombre de propriétés à copier. 
+> [in] Nombre de propriétés à copier. 
     
  _rgprop_
   
-> dans Pointeur vers un tableau de structures [SPropValue](spropvalue.md) qui définissent les propriétés à copier. Le paramètre _rgprop_ n'a pas besoin de pointer vers le début du tableau, mais il doit pointer vers le début de l'une des structures **SPropValue** dans le tableau. 
+> [in] Pointeur vers un tableau de structures [SPropValue](spropvalue.md) qui définissent les propriétés à copier. Le  _paramètre rgprop_ ne doit pas pointer vers le début du tableau, mais il doit pointer vers le début de l’une des structures **SPropValue** dans le tableau. 
     
  _pvDst_
   
-> dans Pointeur vers la position initiale dans la mémoire à laquelle cette fonction copie les propriétés. 
+> [in] Pointeur vers la position initiale de la mémoire vers laquelle cette fonction copie les propriétés. 
     
- _circuits_
+ _pcb_
   
-> remarquer Pointeur facultatif vers la taille, en octets, du bloc de mémoire pointé par le paramètre _pvDst_ . 
+> [out] Pointeur facultatif vers la taille, en octets, du bloc de mémoire pointé par le _paramètre pvDst._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Les propriétés ont été correctement copiées.
+> Les propriétés ont été copiées avec succès.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -72,11 +72,11 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Remarques
 
-Le nouveau tableau et ses données résident dans une mémoire tampon créée avec une seule allocation, et la fonction [ScRelocProps](screlocprops.md) peut être utilisée pour ajuster les pointeurs dans les structures [SPropValue](spropvalue.md) individuelles. Avant ce réglage, les pointeurs sont valides. 
+Le nouveau tableau et ses données résident dans une mémoire tampon créée avec une allocation unique, et la fonction [ScRelocProps](screlocprops.md) peut être utilisée pour ajuster les pointeurs dans les structures [SPropValue](spropvalue.md) individuelles. Avant cet ajustement, les pointeurs sont valides. 
   
- **ScCopyProps** conserve l'ordre des propriétés d'origine pour le tableau de propriétés copié. 
+ **ScCopyProps** conserve l’ordre des propriétés d’origine pour le tableau de propriétés copiées. 
   
-Le paramètre _PCB_ est facultatif; Si ce n'est pas le cas, la valeur est définie sur le nombre d'octets stockés dans le paramètre _pvDst_ . 
+Le _paramètre pcb_ est facultatif ; si elle n’est pas NULL, elle est définie sur le nombre d’octets stockés dans le _paramètre pvDst._ 
   
 ## <a name="see-also"></a>Voir aussi
 

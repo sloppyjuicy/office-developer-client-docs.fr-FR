@@ -1,5 +1,5 @@
 ---
-title: Opérateurs de chaîne (application Web personnalisée Access)
+title: String Operators (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411609"
 ---
-# <a name="string-operators-access-custom-web-app"></a>Opérateurs de chaîne (application Web personnalisée Access)
+# <a name="string-operators-access-custom-web-app"></a>String Operators (Access custom web app)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [+ (Opérateur de concaténation de chaînes) (application Web personnalisée Access)](plusstring-concatenation-operatoraccess-custom-web-app.md)
+- [+ (Opérateur de concatenation de chaîne) (application web personnalisée Access)](plusstring-concatenation-operatoraccess-custom-web-app.md)
     
 

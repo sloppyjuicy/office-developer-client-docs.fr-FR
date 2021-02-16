@@ -21,19 +21,19 @@ Fournit un rappel au client pour les modifications apportées à un compte.
 
 |||
 |:-----|:-----|
-|Hérite de:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
+|Hérite de :  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Fourni par :  <br/> | Client  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IOlkAccountNotify  <br/> |
+|Identificateur d’interface :  <br/> |IID_IOlkAccountNotify  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Avertir](iolkaccountnotify-notify.md) <br/> |Avertit le client des modifications apportées au compte spécifié.  <br/> |
+|[Notification](iolkaccountnotify-notify.md) <br/> |Avertit le client des modifications apportées au compte spécifié.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette interface est transmise à [IOlkAccountManager:: Advise](iolkaccountmanager-advise.md) lors de la configuration des notifications. 
+Cette interface est transmise à [IOlkAccountManager::Advise](iolkaccountmanager-advise.md) lors de la configuration des notifications. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,7 +25,7 @@ ms.locfileid: "33412729"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée de la racine de la sous-arborescence du dossier des messages interpersonnels dans l'arborescence des dossiers de la Banque de messages. 
+Contient l’identificateur d’entrée de la racine de la sous-arborescence du dossier de message interpersonnel (IPM) dans l’arborescence de dossiers de la magasin de messages. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient l'identificateur d'entrée de la racine de la sous-arborescence du doss
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété représente la racine de la hiérarchie IPM. Les clients IPM ne doivent pas afficher de dossiers qui ne sont pas des sous-dossiers du dossier représenté par cette propriété.
+Cette propriété représente la racine de la hiérarchie IPM. Les clients IPM ne doivent pas afficher les dossiers qui ne sont pas des sous-dossiers du dossier représenté par cette propriété.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

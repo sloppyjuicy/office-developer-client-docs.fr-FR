@@ -25,11 +25,11 @@ ms.locfileid: "33412575"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-ConVertit un nombre binaire en une représentation sous forme de chaîne d'un nombre hexadécimal. 
+Convertit un nombre binaire en une représentation sous forme de chaîne d’un nombre hexadécimal. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -45,15 +45,15 @@ void HexFromBin(
 
  _pb_
   
-> dans Pointeur vers les données binaires à convertir. 
+> [in] Pointeur vers les données binaires à convertir. 
     
  _cb_
   
-> dans Taille, en octets, des données binaires auxquelles pointe le paramètre _PB_ . 
+> [in] Taille, en octets, des données binaires pointées par le _paramètre pb._ 
     
- _t_
+ _sz_
   
-> remarquer Pointeur vers une chaîne ASCII terminée par un caractère null qui représente les données binaires dans des chiffres hexadécimaux.
+> [out] Pointeur vers une chaîne ASCII terminée par null représentant les données binaires en chiffres hexadécimals.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,6 +61,6 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **HexFromBin** prend un pointeur vers une unité de données binaires dont la taille est indiquée par le paramètre _CB_ . Elle retourne dans la chaîne _SZ_ , dans (2 * _CB_) + 1 octets de mémoire, une représentation de ces informations binaires dans des nombres hexadécimaux. Si la valeur Byte est de 10 décimal, par exemple, la chaîne hexadécimale sera 0A, un octet convertit en deux octets dans la chaîne. 
+La **fonction HexFromBin** prend un pointeur vers une unité de données binaires dont la taille est indiquée par le _paramètre cb._ Elle renvoie dans la chaîne  _sz,_ dans (2*  _cb_)+1 octets de mémoire, une représentation de ces informations binaires en nombres hexadécimals. Si la valeur d’octet est décimale 10, par exemple, la chaîne hexadécimale sera 0A, de sorte qu’un octet est converti en deux octets dans la chaîne. 
   
 

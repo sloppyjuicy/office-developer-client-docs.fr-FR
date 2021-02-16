@@ -1,5 +1,5 @@
 ---
-title: Multiply (application Web personnalisée Access)
+title: Multiplier (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412162"
 ---
-# <a name="multiply-access-custom-web-app"></a>Multiply (application Web personnalisée Access)
+# <a name="multiply-access-custom-web-app"></a>Multiplier (application web personnalisée Access)
 
 Multiplie deux expressions.
   
@@ -27,10 +27,10 @@ Multiplie deux expressions.
 
 *expression*  \*  *expression* 
   
-*expression*  Toute expression valide de l'un des types de données dans la catégorie numérique. 
+*expression*  Toute expression valide d’un des types de données de la catégorie numérique. 
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie le type de données de l'argument dont la priorité est la plus élevée.
+Renvoie le type de données de l’argument avec la priorité la plus élevée.
   
 

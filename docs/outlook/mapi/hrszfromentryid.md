@@ -25,11 +25,11 @@ ms.locfileid: "33411553"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Encode un identificateur d'entrée dans une chaîne ASCII. 
+Encode un identificateur d’entrée dans une chaîne ASCII. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -45,15 +45,15 @@ HrSzFromEntryID(
 
  _cb_
   
-> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _pENTRY_ . 
+> [in] Taille, en octets, de l’identificateur d’entrée pointé par le paramètre _pentry._ 
     
- _pENTRY_
+ _pentry_
   
-> dans Pointeur vers une structure [EntryID](entryid.md) qui contient l'identificateur d'entrée à coder. 
+> [in] Pointeur vers une structure [ENTRYID](entryid.md) qui contient l’identificateur d’entrée à coder. 
     
- _PSZ_
+ _psz_
   
-> remarquer Pointeur vers la chaîne ASCII renvoyée.
+> [out] Pointeur vers la chaîne ASCII renvoyée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,10 +61,10 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Les fonctions [HrEntryIDFromSz](hrentryidfromsz.md) et **HrSzFromEntryID** fournissent une conversion entre les formats de chaîne et binaires des identificateurs d'entrée. Avec MAPI, vous devez utiliser des structures avec des données binaires. 
+Les [fonctions HrEntryIDFromSz](hrentryidfromsz.md) et **HrSzFromEntryID** permettent de convertir les formats de chaîne et binaires des identificateurs d’entrée. Avec MAPI, vous devez utiliser des structures avec des données binaires. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La fonction **HrSzFromEntryID** alloue de la mémoire pour la chaîne ASCII à l'aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+La **fonction HrSzFromEntryID** alloue de la mémoire pour la chaîne ASCII à l’aide de la [fonction MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 

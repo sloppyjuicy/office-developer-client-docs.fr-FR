@@ -25,7 +25,7 @@ ms.locfileid: "33412470"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le numéro de séquence MIME d'une pièce jointe de message MIME.
+Contient le numéro de séquence MIME d’une pièce jointe de message MIME.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient le numéro de séquence MIME d'une pièce jointe de message MIME.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour la prise en charge de MHTML. Il représente le numéro de séquence de la pièce jointe dans la partie de corps MIME parent du message MIME.
+Cette propriété est utilisée pour la prise en charge MHTML. Il représente le numéro de séquence de la pièce jointe dans la partie du corps en plusieurs parties MIME parent du message MIME.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

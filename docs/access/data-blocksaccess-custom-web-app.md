@@ -1,5 +1,5 @@
 ---
-title: Blocs de données (application Web personnalisée Access)
+title: Blocs de données (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,19 +13,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411329"
 ---
-# <a name="data-blocks-access-custom-web-app"></a>Blocs de données (application Web personnalisée Access)
+# <a name="data-blocks-access-custom-web-app"></a>Blocs de données (application web personnalisée Access)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Bloc de données CréerEnregistrement (application Web personnalisée Access)](createrecord-data-block-access-custom-web-app.md)
+- [CreateRecord Data Block (Access custom web app)](createrecord-data-block-access-custom-web-app.md)
     
-- [Bloc de données ModifierEnregistrement (application Web personnalisée Access)](editrecord-data-block-access-custom-web-app.md)
+- [EditRecord Data Block (Access custom web app)](editrecord-data-block-access-custom-web-app.md)
     
-- [PourChaqueEnregistrement, bloc de données (application Web personnalisée Access)](foreachrecord-data-block-access-custom-web-app.md)
+- [ForEachRecord Data Block (Access custom web app)](foreachrecord-data-block-access-custom-web-app.md)
     
-- [Bloc de données RechercherEnregistrement (application Web personnalisée Access)](lookuprecord-data-block-access-custom-web-app.md)
+- [LookupRecord Data Block (Access custom web app)](lookuprecord-data-block-access-custom-web-app.md)
     
 

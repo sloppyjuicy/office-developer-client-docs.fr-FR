@@ -22,20 +22,20 @@ Contient les initiales du réviseur d’un document.
   
 ## <a name="remarks"></a>Remarques
 
-Cette valeur est définie par défaut sur les initiales figurant dans la zone **initiales** de l'onglet **général** de la boîte de dialogue **options Visio** (cliquez sur l'onglet **fichier** , sur **options**, puis sur **général** ). 
+Cette valeur est par défaut les initiales  de la zone **Initiales** de l’onglet Général de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, cliquez sur  **Options,** puis sur **Général).** 
   
 Pour obtenir une référence à la cellule Initials par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | Reviewer. Initials [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+| Nom de cellule :  <br/> | Reviewer.Initials [  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Initials à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionReviewer** <br/> |
-| Index de la ligne :  <br/> |**visRowReviewer** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowReviewer**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visReviewerInitials** <br/> |
    
 

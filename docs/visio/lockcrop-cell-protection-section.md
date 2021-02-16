@@ -37,7 +37,7 @@ Pour obtenir une référence à la cellule LockCrop à l'aide d'un index à part
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowLock** <br/> |
 | Index de la cellule :  <br/> |**visLockCrop** <br/> |
    

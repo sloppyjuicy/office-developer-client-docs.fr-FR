@@ -19,32 +19,32 @@ ms.locfileid: "33412407"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les applications clientes de messagerie standard implémentent un seul objet, un récepteur de Conseil. Les récepteurs de notification héritent de l'interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) et sont utilisés par MAPI et les fournisseurs de services pour la notification d'événement. Certains clients implémentent également des objets de progression pour prendre en charge l'affichage des boîtes de dialogue de progression. 
+Les applications clientes de messagerie standard implémentent un seul objet : un sink de conseil. Les réceptions de conseil héritent de l’interface [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) et sont utilisées par MAPI et les fournisseurs de services pour la notification d’événement. Certains clients implémentent également des objets de progression pour prendre en charge l’affichage des boîtes de dialogue de progression. 
   
-Les clients plus complexes qui prennent en charge les formulaires personnalisés implémentent un autre objet de récepteur de notification et quelques autres objets, tels que l'objet de site de messagerie qui hérite de l'interface [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) et l'objet de contexte d'affichage qui hérite de la [IMAPIViewContext: interface IUnknown](imapiviewcontextiunknown.md) . L'objet de récepteur de Conseil supplémentaire hérite de l'interface [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) . 
+Les clients plus complexes qui la prise en charge des formulaires personnalisés implémentent un autre objet de sink de conseil et quelques autres objets, tels que l’objet de site de message qui hérite de l’interface [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) et l’objet de contexte d’affichage qui hérite de l’interface [IMAPIViewContext : IUnknown.](imapiviewcontextiunknown.md) L’objet de sink advise supplémentaire hérite de l’interface [IMAPIViewAdviseSink : IUnknown.](imapiviewadvisesinkiunknown.md) 
   
-Le tableau suivant récapitule les objets MAPI implémentés par les clients de messagerie standard et par les clients qui prennent en charge l'affichage des formulaires personnalisés.
+Le tableau suivant récapitule les objets MAPI implémentés par les clients de messagerie standard et les clients qui supportent l’affichage de formulaires personnalisés.
   
 |**Objet client**|**Description**|
 |:-----|:-----|
-|Récepteur de notifications  <br/> |Fournit une fonction de rappel pour les événements qui se produisent dans la Banque de messages, le carnet d'adresses ou la session.  <br/> |
-|Site de messagerie  <br/> |Gère la manipulation des objets Form.  <br/> |
-|Progression  <br/> |Affiche une boîte de dialogue qui indique la progression d'une opération.  <br/> |
-|Afficher le récepteur de notifications  <br/> |Fournit des fonctions de rappel pour les événements qui se produisent dans un formulaire.  <br/> |
-|Contexte d'affichage  <br/> |Prend en charge les commandes pour l'impression et l'enregistrement des formulaires et pour la navigation entre les formulaires.  <br/> |
+|Conseiller le sink  <br/> |Fournit une fonction de rappel pour les événements qui se produisent dans le magasin de messages, le carnet d’adresses ou la session.  <br/> |
+|Site de message  <br/> |Gère la manipulation des objets de formulaire.  <br/> |
+|Progression  <br/> |Affiche une boîte de dialogue pour afficher la progression d’une opération.  <br/> |
+|Afficher le dos à l’avis  <br/> |Fournit des fonctions de rappel pour les événements qui se produisent dans un formulaire.  <br/> |
+|Contexte d’affichage  <br/> |Prend en charge les commandes d’impression et d’enregistrement des formulaires et de navigation entre les formulaires.  <br/> |
    
-L'illustration suivante montre la relation entre ces différents objets client, les interfaces dont ils héritent et les composants MAPI qui les utilisent. 
+L’illustration suivante montre la relation entre ces différents objets clients, les interfaces dont ils héritent et les composants MAPI qui les utilisent. 
   
-![Objets clients et interfaces correspondantes] (media/amapi_65.gif "Objets clients et interfaces correspondantes")
+![Objets clients et interfaces correspondantes](media/amapi_65.gif "Objets clients et interfaces correspondantes")
   
-Les clients utilisent beaucoup plus d'objets qu'ils ne l'implémentent. Tous les clients utilisent un objet session pour accéder à un grand nombre d'objets fournisseurs de services et d'objets implémentés par MAPI. Les clients interagissent avec les fournisseurs de services indirectement, via la session, le carnet d'adresses ou les objets d'état fournis par MAPI, ou directement par le biais d'un éventail d'objets implémentés par des fournisseurs de services particuliers. Pour effectuer un contact direct avec des fournisseurs de carnet d'adresses, les clients utilisent des conteneurs de carnet d'adresses, des utilisateurs de messagerie et des listes de distribution. Pour accéder directement à un fournisseur de banque de messages, les clients utilisent l'objet de banque de messages, les dossiers, les messages et les pièces jointes. Lorsque les fournisseurs de services prennent en charge un objet d'État, les clients peuvent utiliser l'objet d'État pour surveiller l'état du fournisseur de services.
+Les clients utilisent beaucoup plus d’objets qu’ils n’implémentent. Tous les clients utilisent un objet de session pour accéder à un large éventail d’objets et d’objets fournisseur de services implémentés par MAPI. Les clients interagissent avec les fournisseurs de services indirectement, via la session, le carnet d’adresses ou les objets d’état que MAPI fournit, ou directement via une variété d’objets implémentés par des fournisseurs de services particuliers. Pour effectuer un contact direct avec des fournisseurs de carnets d’adresses, les clients utilisent des conteneurs de carnet d’adresses, des utilisateurs de messagerie et des listes de distribution. Pour accéder directement à un fournisseur de magasins de messages, les clients utilisent l’objet, les dossiers, les messages et les pièces jointes de la boutique de messages. Lorsque les fournisseurs de services supportent un objet d’état, les clients peuvent utiliser l’objet d’état pour surveiller l’état du fournisseur de services.
   
-Les clients qui prennent en charge la configuration du fournisseur de services et du service de messagerie utilisent trois objets implémentés par MAPI: l'objet d'administration du service de messagerie, l'objet d'administration des profils et l'objet d'administration du fournisseur. Les clients qui affichent des formulaires personnalisés utilisent plusieurs objets de formulaire implémentés par un fournisseur de bibliothèque de formulaires ou un serveur de formulaire.
+Les clients qui supportent la configuration du fournisseur de services et du service de messagerie utilisent trois objets implémentés par MAPI : l’objet d’administration du service de messagerie, l’objet d’administration de profil et l’objet d’administration du fournisseur. Les clients qui affichent des formulaires personnalisés utilisent plusieurs objets de formulaire qu’un fournisseur de bibliothèque de formulaires ou un serveur de formulaires implémente.
   
 ## <a name="see-also"></a>Voir aussi
 
 - [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) 
 - [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)  
 - [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
-- [Vue d'ensemble de l'objet et de l'interface MAPI](mapi-object-and-interface-overview.md)
+- [Vue d’ensemble de l’interface et de l’objet MAPI](mapi-object-and-interface-overview.md)
 

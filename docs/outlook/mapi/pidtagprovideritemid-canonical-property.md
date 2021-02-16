@@ -25,7 +25,7 @@ ms.locfileid: "33412120"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un identificateur pour un dossier ou un élément dans un magasin.
+Spécifie un identificateur pour un dossier ou un élément dans une boutique.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Spécifie un identificateur pour un dossier ou un élément dans un magasin.
    
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de magasins peuvent spécifier une valeur pour cette propriété pour un dossier ou un élément, mais doivent conserver la même valeur entre les sessions. Les fournisseurs de magasin utilisent cette propriété pour identifier les résultats de recherche renvoyés par un moteur de recherche.
+Les fournisseurs de magasins peuvent spécifier une valeur pour cette propriété pour un dossier ou un élément, mais doivent conserver la même valeur entre les sessions. Les fournisseurs du Store utilisent cette propriété pour identifier les résultats de recherche renvoyés par un moteur de recherche.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

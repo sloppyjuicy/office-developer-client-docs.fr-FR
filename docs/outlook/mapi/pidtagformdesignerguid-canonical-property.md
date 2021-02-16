@@ -25,32 +25,32 @@ ms.locfileid: "33412239"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur unique de l'objet utilisé pour créer un formulaire.
+Contient l’identificateur unique de l’objet utilisé pour concevoir un formulaire.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_DESIGNER_GUID  <br/> |
 |Identificateur :  <br/> |0x3309  <br/> |
 |Type de données :  <br/> |PT_GUID  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient généralement l'identificateur global unique (GUID) du programme de conception utilisé pour créer le formulaire. Cette propriété peut être vide. 
+Cette propriété contient généralement l’identificateur global unique (GUID) du programme de conception utilisé pour créer le formulaire. Cette propriété peut être vide. 
   
-La structure [MAPIUID](mapiuid.md) contient la définition de l'identificateur unique. 
+La structure [MAPIUID](mapiuid.md) contient la définition de l’identificateur unique. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

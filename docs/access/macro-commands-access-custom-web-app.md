@@ -1,5 +1,5 @@
 ---
-title: Commandes de macro (application Web personnalisée Access)
+title: Macro commands (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,17 +14,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411686"
 ---
-# <a name="macro-commands-access-custom-web-app"></a>Commandes de macro (application Web personnalisée Access)
+# <a name="macro-commands-access-custom-web-app"></a>Macro commands (Access custom web app)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [RunDataMacro, action de macro (application Web personnalisée Access)](rundatamacro-macro-action-access-custom-web-app.md)
+- [RunDataMacro Macro Action (Application web personnalisée Access)](rundatamacro-macro-action-access-custom-web-app.md)
     
-- [RunMacro, action de macro (application Web personnalisée Access)](runmacro-macro-action-access-custom-web-app.md)
+- [RunMacro Macro Action (Application web personnalisée Access)](runmacro-macro-action-access-custom-web-app.md)
     
-- [SetVariable, action de macro (application Web personnalisée Access)](setvariable-macro-action-access-custom-web-app.md)
+- [SetVariable Macro Action (Access custom web app)](setvariable-macro-action-access-custom-web-app.md)
     
 

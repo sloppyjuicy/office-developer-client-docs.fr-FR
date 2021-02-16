@@ -25,11 +25,11 @@ ms.locfileid: "33412351"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée un objet d'administration de profil. 
+Crée un objet d’administration de profil. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -44,11 +44,11 @@ HRESULT MAPIAdminProfiles(
 
  _ulFlags_
   
-> dans Masque de réindicateur des indicateurs indiquant les options de la fonction d'entrée de service. 
+> [in] Masque de bits d’indicateurs indiquant les options de la fonction d’entrée de service. 
     
  _lppProfAdmin_
   
-> remarquer Pointeur vers un pointeur vers le nouvel objet d'administration de profil.
+> [out] Pointeur vers un pointeur vers le nouvel objet d’administration de profil.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -62,7 +62,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIObjects. cpp  <br/> |CMapiObjects:: GetProfAdmin  <br/> |MFCMAPI utilise la méthode **MAPIAdminProfiles** pour obtenir l'objet d'administration des profils.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI utilise la **méthode MAPIAdminProfiles** pour obtenir l’objet d’administration de profil.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1027314
 localization_priority: Normal
 ms.assetid: 910f0297-d588-2048-f308-03f3c2389bba
-description: Renvoie le ou les derniers caractères d'une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
+description: Renvoie le ou les derniers caractères d’une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
 ms.openlocfilehash: faf14ef55b34e51bac11129d6857e381d07357c7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33411455"
 ---
 # <a name="right-function-visioshapesheet"></a>RIGHT Function (VisioShapeSheet)
 
-Renvoie le ou les derniers caractères d'une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
+Renvoie le ou les derniers caractères d’une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
   
 ## <a name="syntax"></a>Syntaxe
 
-Right (* * *texte* * * [, * * *num_chars_opt* * *]) 
+RIGHT(** *text* ** [, ** *num_chars_opt* ** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -37,9 +37,9 @@ Chaîne
   
 ## <a name="remarks"></a>Remarques
 
-La valeur de _num_chars_opt_ doit être supérieure ou égale à zéro (0). 
+La valeur de  _num_chars_opt_ doit être supérieure ou égale à zéro (0). 
   
-Si _num_chars_opt_ est supérieur à la longueur du texte, Right renvoie tout le texte. Si _num_chars_opt_ est omis, il est considéré comme étant égal à 1. 
+Si  _num_chars_opt_ est supérieure à la longueur du texte, right renvoie tout le texte. Si  _num_chars_opt_ est omis, il est supposé être 1. 
   
 ## <a name="example"></a>Exemple
 

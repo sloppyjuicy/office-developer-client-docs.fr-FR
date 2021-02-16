@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule ImgHeight à l'aide d'un index à par
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowForeign** <br/> |
 | Index de la cellule :  <br/> |**visFrgnImgHeight** <br/> |
    

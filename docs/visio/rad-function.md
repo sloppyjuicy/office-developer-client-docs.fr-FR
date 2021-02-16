@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251484
 localization_priority: Normal
 ms.assetid: f6bf2db7-c570-918d-e83e-7a6c8eb64544
-description: ConVertit la valeur d'un angle de degrés en radians.
+description: Convertit en radians la valeur d’un angle en degrés.
 ms.openlocfilehash: 256e62890384791f7540c159e74a0ce75063fbc4
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33412204"
 ---
 # <a name="rad-function"></a>Fonction RAD
 
-ConVertit la valeur d'un angle de degrés en radians.
+Convertit en radians la valeur d’un angle en degrés.
   
 ## <a name="syntax"></a>Syntaxe
 
-RAD (* * *angle* * *) 
+RAD(** *angle* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,7 +32,7 @@ RAD (* * *angle* * *)
    
 ## <a name="example"></a>Exemple
 
-RAD (45) 
+RAD(45) 
   
 Renvoie 0,7854. 
   

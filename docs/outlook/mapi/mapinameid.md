@@ -29,7 +29,7 @@ Décrit une propriété nommée.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _MAPINAMEID
@@ -49,7 +49,7 @@ typedef struct _MAPINAMEID
 
  **lpguid**
   
-> Pointeur vers une structure de [GUID](guid.md) définissant un jeu de propriétés particulier; ce membre ne peut pas être NULL. Les valeurs valides sont les suivantes : 
+> Pointeur vers une structure [GUID](guid.md) définissant un jeu de propriétés particulier ; ce membre ne peut pas être NULL. Les valeurs valides sont les suivantes : 
     
 PS_PUBLIC_STRINGS
   
@@ -59,33 +59,33 @@ PS_MAPI
   
 > 
     
-Valeur définie par le client
+Une valeur définie par le client
   
 > 
     
  **ulKind**
   
-> Valeur décrivant le type de valeur dans le membre **Kind** . Les valeurs valides sont les suivantes : 
+> Valeur décrivant le type de valeur dans le **membre Kind.** Les valeurs valides sont les suivantes : 
     
 MNID_ID 
   
-> Le membre **Kind** contient une valeur entière qui représente le nom de la propriété. 
+> Le **membre Kind** contient une valeur entière qui représente le nom de la propriété. 
     
 MNID_STRING 
   
-> Le membre **Kind** contient une chaîne de caractères Unicode représentant le nom de la propriété. 
+> Le **membre Kind** contient une chaîne de caractères Unicode représentant le nom de la propriété. 
     
  **Kind**
   
-> Union décrivant le nom de la propriété nommée. Le nom peut être soit une valeur entière, stockée sur un **couvercle**, soit une chaîne de caractères Unicode, stockée dans **lpwstrName**.
+> Union décrivant le nom de la propriété nommée. Le nom peut être une valeur d’un chiffre, stockée dans **lID** ou une chaîne de caractères Unicode, stockée dans **lpwstrName**.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **MAPINAMEID** est utilisée pour décrire les propriétés de propriétés nommées qui comportent des identificateurs sur 0x8000. Un jeu de propriétés est une partie importante d'une propriété nommée. Par exemple PS_PUBLIC_STRINGS ou PS_ROUTING_ADDRTYPE sont des jeux de propriétés définis par MAPI. 
+La structure **MAPINAMEID** est utilisée pour décrire les propriétés nommées qui ont des identificateurs sur 0x8000. Un jeu de propriétés est une partie importante d’une propriété nommée. Par exemple, PS_PUBLIC_STRINGS ou PS_ROUTING_ADDRTYPE sont des jeux de propriétés définis par MAPI. 
   
-Les propriétés nommées permettent aux clients de définir des propriétés personnalisées dans un espace de noms plus grand que ce qui est disponible dans la plage d'identificateurs de propriété définie par MAPI. Les noms de propriétés ne peuvent pas être utilisés pour obtenir directement des valeurs de propriété; elles doivent d'abord être mappées aux identificateurs de propriétés via la méthode [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Pour des objets particuliers comme les messages, MAPI se réserve une plage d'identificateurs de propriétés pour les propriétés personnalisées. Par conséquent, pour ces objets, les clients n'ont pas besoin d'utiliser les propriétés nommées et peuvent enregistrer la charge de travail associée. 
+Les propriétés nommées permettent aux clients de définir des propriétés personnalisées dans un espace de noms plus grand que celui disponible dans la plage d’identificateurs de propriétés définie par MAPI. Les noms de propriété ne peuvent pas être utilisés pour obtenir des valeurs de propriété directement ; Ils doivent d’abord être mappés aux identificateurs de propriété via la méthode [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Pour des objets particuliers tels que des messages, MAPI réserve une plage d’identificateurs de propriété pour les propriétés personnalisées. Par conséquent, pour ces objets, les clients n’ont pas besoin d’utiliser les propriétés nommées et peuvent économiser la surcharge associée. 
   
-Pour plus d'informations sur les propriétés nommées, voir [named Properties](mapi-named-properties.md).
+Pour plus d’informations sur les propriétés nommées, voir [Propriétés nommées.](mapi-named-properties.md)
   
 ## <a name="see-also"></a>Voir aussi
 

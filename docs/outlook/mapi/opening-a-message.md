@@ -21,15 +21,15 @@ ms.locfileid: "33411091"
   
 ### <a name="to-open-a-message"></a>Pour ouvrir un message
   
-1. Récupérez l'identificateur d'entrée du message à partir de l'une des sources suivantes:
+1. Récupérez l’identificateur d’entrée du message à partir de l’une des sources suivantes :
     
-   - La ligne qui représente le message dans la table des matières de son dossier parent. Pour plus d'informations sur l'utilisation d'une table de contenu de dossier, voir [content tables](contents-tables.md).
+   - Ligne qui représente le message dans la table des matières de son dossier parent. Pour plus d’informations sur l’working with a folder contents table, see [Contents Tables](contents-tables.md).
     
-   - Membre **lpEntryID** de la structure [NEWMAIL_NOTIFICATION](newmail_notification.md) qui est envoyé avec un nouveau message de notification. Pour plus d'informations sur la réception et la gestion des notifications, consultez la rubrique [gestion](handling-notifications.md)des notifications.
+   - Membre **lpEntryID** de la structure [NEWMAIL_NOTIFICATION](newmail_notification.md) envoyée avec une nouvelle notification par courrier électronique. Pour plus d’informations sur la réception et la gestion des notifications, voir [Gestion des notifications.](handling-notifications.md)
     
-   - Un appel à la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) du message qui demande la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
+   - Appel à la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) du message demandant la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
     
-2. Appelez l'une des méthodes **OpenEntry** suivantes pour ouvrir le message, en définissant _lpEntryID_ sur l'identificateur d'entrée du message: 
+2. Appelez l’une des méthodes **OpenEntry** suivantes pour ouvrir le message, en fixant  _lpEntryID_ sur l’identificateur d’entrée du message : 
     
    - [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
     
@@ -37,14 +37,14 @@ ms.locfileid: "33411091"
     
    - [IMAPISession::OpenEntry](imapisession-openentry.md)
     
-  La méthode la plus rapide est utilisable uniquement pour les messages entrants et implique l'appel de la méthode **IMAPIFolder:: OpenEntry** du dossier de réception. La méthode la plus rapide, qui appelle la méthode **IMsgStore:: OpenEntry** de la Banque de messages, peut être utilisée pour tous les messages comme la méthode la plus lente, en appelant **IMAPISession:: OpenEntry**.
+  La méthode la plus rapide est utilisable uniquement pour les messages entrants et implique l’appel de la méthode **IMAPIFolder::OpenEntry** du dossier de réception. La méthode la plus rapide suivante, en appelant la méthode **IMsgStore::OpenEntry** de la boutique de messages, est utilisable pour tous les messages, tout comme la méthode la plus lente, en appelant **IMAPISession::OpenEntry**.
     
 > [!NOTE]
-> Les dossiers et leurs tables de contenu peuvent être fermés à tout moment sans affecter de façon négative les messages qui ont été ouverts à partir de ces derniers. 
+> Les dossiers et leurs tables de contenu peuvent être fermés à tout moment sans affecter les messages qui ont été ouverts à partir de ces derniers. 
   
-### <a name="to-open-a-message-that-has-been-saved-on-disk"></a>Pour ouvrir un message qui a été enregistré sur le disque
+### <a name="to-open-a-message-that-has-been-saved-on-disk"></a>Pour ouvrir un message qui a été enregistré sur disque
   
-1. Appelez **StgOpenStorage** pour récupérer un pointeur d'interface **IStorage** , en transmettant le nom du fichier de message pour le paramètre _pwcsName_ . 
+1. Appelez **StgOpenStorage** pour récupérer un pointeur d’interface **IStorage,** en passant le nom du fichier de message pour le paramètre _pwcsName._ 
     
    ```cpp
     LPSTORAGE pStorage = NULL;
@@ -56,7 +56,7 @@ ms.locfileid: "33411091"
     
    ```
 
-2. Appelez **OpenIMsgOnIStg** pour récupérer un pointeur d'interface **IMessage** permettant d'accéder au message. 
+2. Appelez **OpenIMsgOnIStg pour** récupérer un pointeur d’interface **IMessage** pour accéder au message. 
     
    ```cpp
     LPMESSAGE pMessage = NULL;

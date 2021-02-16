@@ -25,7 +25,7 @@ ms.locfileid: "33412302"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de réindicateur des indicateurs qui définissent le mode de remise physique (par exemple, une remise spéciale) pour un message désigné pour un destinataire spécifique.
+Contient un masque de bits d’indicateurs qui définissent le mode de remise physique (par exemple, remise spéciale) d’un message désigné pour un destinataire spécifique.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contient un masque de réindicateur des indicateurs qui définissent le mode de 
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

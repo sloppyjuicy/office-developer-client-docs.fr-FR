@@ -22,6 +22,6 @@ Contient la largeur et la hauteur d’un objet provenant d’un autre programme 
   
 ## <a name="remarks"></a>Remarques
 
-Dans les versions des produits Visio antérieures à la version 2000, cette section s'appelait **infos image**.
+Dans les versions des produits Visio antérieures à la version 2000, cette section était nommée **Image Info**.
   
 

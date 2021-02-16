@@ -25,7 +25,7 @@ ms.locfileid: "33411791"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide toutes les lignes de tableau comprises dans un ensemble de lignes de tableau.
+Valide toutes les lignes de tableau incluses dans un ensemble de lignes de tableau.
   
 |||
 |:-----|:-----|
@@ -43,17 +43,17 @@ BOOL FBadRowSet(
 
  _lpRowSet_
   
-> dans Pointeur vers une structure [SRowSet](srowset.md) identifiant le jeu de lignes à valider. Si le pointeur est NULL, la structure n'est pas valide. 
+> [in] Pointeur vers une structure [SRowSet](srowset.md) identifiant le jeu de lignes à valider. Si le pointeur est NULL, la structure n’est pas valide. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Une ligne du jeu de lignes spécifié n'est pas valide ou le jeu de lignes lui-même n'est pas valide. 
+> Une ligne du jeu de lignes spécifié n’est pas valide ou le jeu de lignes lui-même n’est pas valide. 
     
 FALSE 
   
-> Les lignes du jeu de lignes spécifié et l'ensemble de lignes lui-même sont toutes valides.
+> Les lignes du jeu de lignes spécifié et du jeu de lignes lui-même sont toutes valides.
     
 ## <a name="see-also"></a>Voir aussi
 

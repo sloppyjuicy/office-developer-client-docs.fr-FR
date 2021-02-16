@@ -25,7 +25,7 @@ ms.locfileid: "33411616"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit l'ordre de tri par défaut pour la table des matières d'un dossier.
+Définit l’ordre de tri par défaut pour la table des matières d’un dossier.
   
 ```cpp
 HRESULT SaveContentsSort(
@@ -38,31 +38,31 @@ HRESULT SaveContentsSort(
 
  _lpSortCriteria_
   
-> dans Pointeur vers une structure [SSortOrderSet](ssortorderset.md) qui contient l'ordre de tri par défaut. 
+> [in] Pointeur vers une structure [SSortOrderSet](ssortorderset.md) qui contient l’ordre de tri par défaut. 
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont l'ordre de tri par défaut est défini. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’ordre de tri par défaut est définie. L’indicateur suivant peut être définie :
     
 RECURSIVE_SORT 
   
-> Le jeu d'ordre de tri par défaut s'applique au dossier indiqué et à tous ses sous-dossiers.
+> Le jeu d’ordre de tri par défaut s’applique au dossier indiqué et à tous ses sous-dossiers.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'ordre de tri a été enregistré avec succès.
+> L’ordre de tri a été enregistré.
     
 MAPI_E_NO_SUPPORT 
   
-> Le fournisseur de banque de messages ne prend pas en charge l'enregistrement d'un ordre de tri pour ses tables de contenu de dossier.
+> Le fournisseur de magasins de messages ne prend pas en charge l’enregistrement d’un ordre de tri pour ses tables de contenu de dossiers.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIFolder:: SaveContentsSort** établit un ordre de tri par défaut pour la table des matières d'un dossier. Autrement dit, lorsqu'un client appelle la méthode [IMAPIContainer:: GetContentsTable](imapicontainer-getcontentstable.md) du dossier après que le code a appelé **SaveContentsSort**, les lignes de la table des contenus renvoyés apparaîtront dans l'ordre établi par **SaveContentsSort**.
+La **méthode IMAPIFolder::SaveContentsSort** établit un ordre de tri par défaut pour la table des matières d’un dossier. Autrement dit, lorsqu’un client appelle la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) du dossier après que le code a appelé **SaveContentsSort,** les lignes de la table des matières retournée apparaissent dans l’ordre établi par **SaveContentsSort**.
   
-Tous les fournisseurs de banques de messages ne prennent pas en charge **SaveContentsSort**; Il est acceptable pour les fournisseurs de banques de messages de renvoyer MAPI_E_NO_SUPPORT à partir de la méthode **SaveContentsSort** . 
+Tous les fournisseurs de magasins de messages ne sont pas en charge **SaveContentsSort**; Il est acceptable que les fournisseurs de magasins de messages MAPI_E_NO_SUPPORT à partir de la **méthode SaveContentsSort.** 
   
 ## <a name="see-also"></a>Voir aussi
 

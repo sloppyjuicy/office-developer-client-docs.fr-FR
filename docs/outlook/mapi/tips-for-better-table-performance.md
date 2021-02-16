@@ -19,33 +19,33 @@ ms.locfileid: "33412512"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Étant donné que de nombreuses opérations de table peuvent prendre du temps et qu'il n'existe aucun moyen d'indiquer la progression, il est utile d'utiliser les techniques suivantes pour améliorer les performances:
+Étant donné que de nombreuses opérations de table peuvent prendre du temps et qu’il n’existe aucun moyen d’indiquer la progression, il est utile d’utiliser les techniques suivantes pour améliorer les performances :
   
-- **Créer une fonction [IMAPITable: appels IUnknown](imapitableiunknown.md) dans le bon ordre**
+- **Effectuer [des appels IMAPITable : IUnknown](imapitableiunknown.md) dans l’ordre correct**
     
-   Les clients et les fournisseurs de services peuvent travailler avec des tableaux de différentes façons. Ils peuvent ouvrir le tableau et extraire les données de toutes les lignes à l'aide du jeu de colonnes et de l'ordre de tri par défaut. Ils peuvent également modifier cette vue par défaut du tableau en modifiant le jeu de colonnes, en modifiant l'ordre de tri ou en établissant une restriction pour limiter l'étendue de la table. Les utilisateurs de tableau qui envisagent d'effectuer une ou plusieurs de ces opérations avant de récupérer des données doivent les exécuter dans l'ordre suivant:
+   Les clients et les fournisseurs de services peuvent utiliser des tableaux de différentes manières. Ils peuvent ouvrir la table et récupérer les données de toutes les lignes à l’aide de l’ordre de tri et du jeu de colonnes par défaut. Ils peuvent également modifier cet affichage par défaut du tableau en modifiant le jeu de colonnes, en modifiant l’ordre de tri ou en établissant une restriction pour affiner l’étendue du tableau. Les utilisateurs de tableau qui ont l’intention d’effectuer une ou plusieurs de ces opérations avant de récupérer des données doivent les effectuer dans l’ordre suivant :
     
-    1. Définissez un jeu de colonnes avec l'aide de la fonction [IMAPITable:: SetColumns](imapitable-setcolumns.md).
+    1. Définissez un ensemble de colonnes [avec IMAPITable::SetColumns](imapitable-setcolumns.md).
         
-    2. Établissez une restriction avec la fonction [IMAPITable:: Restrict](imapitable-restrict.md).
+    2. Établir une restriction avec [IMAPITable::Restrict](imapitable-restrict.md).
         
-    3. Définissez un ordre de tri à l'aide de la fonction [IMAPITable:: SortTable](imapitable-sorttable.md).
+    3. Définissez un ordre de tri [avec IMAPITable::SortTable](imapitable-sorttable.md).
     
-    L'exécution de ces tâches dans cet ordre limite le nombre de lignes et de colonnes qui seront triées, ce qui améliore les performances.
+    L’exécution de ces tâches dans cet ordre limite le nombre de lignes et de colonnes qui seront triées, améliorant ainsi les performances.
     
-- **ReTarder une opération à l'aide de l'indicateur TBL_BATCH dans la mesure du possible**
+- **Retarder une opération à l’aide de l’TBL_BATCH si possible**
     
-    La définition de\_l'indicateur de lot de tbl sur une méthode permet à l'implémenteur de table de collecter plusieurs appels avant d'agir sur l'un d'eux. Au lieu de passer un grand nombre d'appels à un serveur distant; un implémenteur de tableau peut en créer un, ce qui effectue toutes les opérations à la fois. Les résultats des opérations ne sont pas évalués tant qu'ils ne sont pas nécessaires. 
+    La définition de l’indicateur BATCH TBL sur une méthode permet à l’implémenteur de table de collecter plusieurs appels avant d’agir \_ sur l’un d’eux. Au lieu d’effectuer potentiellement de nombreux appels vers un serveur distant ; un implémenteur de table peut en effectuer un, en effectuer toutes les opérations en même temps. Les résultats des opérations ne sont pas évalués tant qu’ils ne sont pas nécessaires. 
     
-    Par exemple, lorsqu'un client appelle [IMAPITable:: Restrict](imapitable-restrict.md) pour spécifier une restriction avec l'\_indicateur de lot tbl défini, la restriction n'a pas besoin de prendre effet tant que le client n'appelle pas [IMAPITable:: QueryRows](imapitable-queryrows.md) pour récupérer les données. Cela permet à l'implémenteur de tableau de combiner le travail de deux appels en un seul. Les utilisateurs de tableau qui tirent parti\_de l'indicateur de lot tbl doivent savoir que la gestion des erreurs dans ces conditions peut être plus complexe. 
+    Par exemple, lorsqu’un client appelle [IMAPITable::Restrict](imapitable-restrict.md) pour spécifier une restriction avec l’indicateur BATCH TBL, la restriction n’a pas besoin d’entrer en vigueur tant que le client n’appelle \_ [pas IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer les données. Cela permet à l’implémenteur de table de combiner le travail de deux appels en un seul. Les utilisateurs de tableau qui tirez parti de l’indicateur BATCH TBL doivent savoir que la gestion des erreurs dans ces \_ conditions peut être plus complexe. 
     
-    Étant donné que la gestion des erreurs à partir d'une opération différée est similaire à\_la gestion des erreurs lors de la définition de l'indicateur MAPI DEFERRED_ERRORS, reportez-vous à la rubrique [Report des erreurs MAPI](deferring-mapi-errors.md) pour plus d'informations. 
+    Étant donné que la gestion des erreurs à partir d’une opération différée est similaire à la gestion des erreurs lorsque l’indicateur DEFERRED_ERRORS MAPI est définie, voir Différer les erreurs MAPI pour plus \_ d’informations. [](deferring-mapi-errors.md) 
     
 - **Conserver un cache des propriétés couramment utilisées**
     
-    Les fournisseurs de services qui implémentent des tables peuvent réduire le temps nécessaire pour créer une vue en mettant en cache des copies des propriétés d'objets couramment utilisées. Conserver une copie de ces propriétés dans la mémoire permet aux utilisateurs de les récupérer à chaque régénération de l'affichage.
+    Les fournisseurs de services qui implémentent des tables peuvent réduire le temps qu’il faut pour créer un affichage en mettant en cache des copies des propriétés d’objet couramment utilisées. Conserver une copie de ces propriétés en mémoire permet d’éviter de devoir les récupérer à partir de l’objet chaque fois que l’affichage doit être reconstruit.
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Tables MAPI](mapi-tables.md)
+- [MAPI Tables](mapi-tables.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "33411245"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Complète la liste de destinataires d'un message, en développant des listes de distribution particulières.
+Complète la liste des destinataires d’un message, en développe des listes de distribution particulières.
   
 ```cpp
 HRESULT ExpandRecips(
@@ -38,19 +38,19 @@ HRESULT ExpandRecips(
 
  _lpMessage_
   
-> dans Pointeur vers le message dont la liste de destinataires doit être traitée.
+> [in] Pointeur vers le message dont la liste des destinataires doit être traitée.
     
  _lpulFlags_
   
-> remarquer Pointeur vers un masque de des indicateurs qui contrôle le type de traitement qui se produit. Les indicateurs suivants peuvent être définis:
+> [out] Pointeur vers un masque de bits d’indicateurs qui contrôle le type de traitement qui se produit. Les indicateurs suivants peuvent être définies :
     
 NEEDS_PREPROCESSING 
   
-> Le message doit être prétraité avant d'être envoyé.
+> Le message doit être prétraité avant d’être envoyé.
     
 NEEDS_SPOOLER 
   
-> Le spouleur MAPI (plutôt que le fournisseur de transport auquel l'appelant est étroitement couplé) doit envoyer le message.
+> Lepooler MAPI (plutôt que le fournisseur de transport auquel l’appelant est étroitement associé) doit envoyer le message.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -60,23 +60,23 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: ExpandRecips** est implémentée pour les objets de prise en charge du fournisseur de banque de messages. Les fournisseurs de banques de messages appellent **ExpandRecips** pour inviter MAPI à effectuer les tâches suivantes: 
+La **méthode IMAPISupport::ExpandRecips est** implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages **appellent ExpandRecips** pour demander à MAPI d’effectuer les tâches suivantes : 
   
-- Développez certaines listes de distribution personnelle vers leurs destinataires de composants.
+- Développez certaines listes de distribution personnelles pour les destinataires de leurs composants.
     
-- Remplacez tous les noms d'affichage qui ont été modifiés par les noms d'origine.
+- Remplacez tous les noms d’affichage qui ont été modifiés par les noms d’origine.
     
-- Marquez toutes les entrées en double.
+- Marquez les entrées en double.
     
-- Résoudre toutes les adresses ponctuelles. 
+- Résolvez toutes les adresses à une seule adresse. 
     
-- Vérifiez si le message doit être prétraité et, si c'est le cas, définissez l'indicateur désigné par _lpulFlags_ sur NEEDS_PREPROCESSING. 
+- Vérifiez si le message doit être prétraité et, si c’est le cas, définissez l’indicateur pointé par  _lpulFlags_ sur NEEDS_PREPROCESSING. 
     
- **ExpandRecips** développe toutes les listes de distribution dont le type d'adresse de messagerie est MAPIPDL. 
+ **ExpandRecips développe toutes** les listes de distribution qui ont le type d’adresse de messagerie MAPIPDL. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez toujours **ExpandRecips** dans le cadre de votre traitement de message. Appelez **ExpandRecips** l'un des premiers appels dans votre implémentation de la méthode [IMessage: SubmitMessage](imessage-submitmessage.md) . 
+Appelez **toujours ExpandRecips dans le** cadre du traitement de vos messages. Appelez **ExpandRecips l’un** des premiers appels dans l’implémentation de votre méthode [IMessage::SubmitMessage.](imessage-submitmessage.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

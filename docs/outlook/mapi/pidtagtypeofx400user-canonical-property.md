@@ -25,7 +25,7 @@ ms.locfileid: "33410860"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient le type d'un destinataire de message à utiliser dans un rapport.
+Cette propriété contient le type d’un destinataire de message à utiliser dans un état.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Cette propriété contient le type d'un destinataire de message à utiliser dans
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

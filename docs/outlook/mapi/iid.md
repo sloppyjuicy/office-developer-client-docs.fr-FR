@@ -40,13 +40,13 @@ typedef struct _GUID
 
 ## <a name="members"></a>Members
 
-Voir la structure du **GUID** . 
+Voir la structure **guid.** 
   
 ## <a name="remarks"></a>Remarques
 
-Une structure d' **IID** est utilisée pour identifier une interface MAPI de manière unique et associer une interface particulière à un objet. Par exemple, lorsqu'un client appelle [IMAPISession:: OpenEntry](imapisession-openentry.md) pour ouvrir un dossier, le client définit le paramètre _lpInterface_ de sorte qu'il pointe vers un **IID** représentant l'interface [IMAPIFolder](imapifolderimapicontainer.md) . MAPI définit le **IMAPIFolderIID** à IID_IMAPIFolder. Les structures **IID** sont également utilisées pour identifier les interfaces OLE de manière unique. 
+Une **structure IID** permet d’identifier de manière unique une interface MAPI et d’associer une interface particulière à un objet. Par exemple, lorsqu’un client appelle [IMAPISession::OpenEntry](imapisession-openentry.md) pour ouvrir un dossier, le client définit le paramètre _lpInterface_ pour qu’il pointe vers un **IID** représentant l’interface [IMAPIFolder.](imapifolderimapicontainer.md) MAPI définit **L’IMAPIFolderIID** à IID_IMAPIFolder. Les structures **IID** sont également utilisées pour identifier de manière unique les interfaces OLE. 
   
-Toutes les structures d' **IID** spécifiques pour les interfaces MAPI sont définies dans le fichier d'en-tête Mapiguid. h. 
+Toutes les structures **IID** spécifiques pour les interfaces MAPI sont définies dans le fichier d’en-tête Mapiguid.h. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm65
 localization_priority: Normal
 ms.assetid: 86fe25ed-590d-b2f0-5dfe-9746a19c6b04
-description: Détermine la distance horizontale entre les formes sur la page de dessin lorsque vous les disposez à l'aide de la boîte de dialogue Configurer la disposition (sous l'onglet création, dans le groupe disposition, cliquez sur nouvelle disposition de page, puis cliquez sur autres options de disposition).
+description: Détermine la quantité d’espace horizontal entre les formes de la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition).
 ms.openlocfilehash: 28eea2589e34c7793e89e01495eb519b987553a9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33411644"
 ---
 # <a name="avenuesizex-cell-page-layout-section"></a>AvenueSizeX, cellule (section Page Layout)
 
-Détermine la distance horizontale entre les formes sur la page de dessin lorsque vous les disposez à l'aide de la boîte de dialogue **configurer la disposition** (sous l'onglet **création** , dans le groupe **disposition** , cliquez sur **nouvelle disposition de page**, puis cliquez sur * * plus Options de disposition * *).
+Détermine la quantité d’espace horizontal entre les formes sur la page de dessin lorsque  vous les  avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition **de page,** puis cliquez sur ** Autres options de disposition **). 
   
 ## <a name="remarks"></a>Remarques
 
@@ -36,7 +36,7 @@ Pour obtenir une référence à la cellule AvenueSizeX à l'aide d'un index à p
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 | Index de la cellule :  <br/> |**visPLOAvenueSizeX** <br/> |
    

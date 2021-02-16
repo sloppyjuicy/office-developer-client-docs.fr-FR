@@ -1,5 +1,5 @@
 ---
-title: Aperçu et déBogage des modèles de formulaire qui nécessitent une confiance totale
+title: Aperçu et débogage des modèles de formulaires qui nécessitent une confiance totale
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411259"
 ---
-# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Aperçu et déBogage des modèles de formulaire qui nécessitent une confiance totale
+# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Aperçu et débogage des modèles de formulaires qui nécessitent une confiance totale
 
 Par défaut, si vous tentez de déboguer ou d'afficher un projet avec du code managé dont le code appelle un membre de modèle objet qui nécessite une confiance totale, comme la propriété **LoginName** qui doit accéder aux informations sur le domaine de connexion de l'utilisateur, Microsoft InfoPath affiche les messages d'erreurs suivants. 
   
@@ -43,10 +43,10 @@ Pour permettre à la logique métier d'appeler ce membre lorsqu'il est en cours 
     
 5. Sélectionnez **Confiance totale**, puis cliquez sur **OK**.
     
-Une fois cette procédure effectuée, vous pouvez déboguer votre projet comme décrit dans [Aperçu et débogage des modèles de formulaire InfoPath avec code](how-to-preview-and-debug-infopath-form-templates-with-code.md).
+Une fois cette procédure effectuée, vous pouvez déboguer votre projet comme décrit dans l’aperçu et déboguer les modèles de formulaire [InfoPath avec code.](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
 > [!NOTE]
-> [!REMARQUE] Pour réussir le déploiement d'un modèle de formulaire avec code managé qui requiert une confiance totale, vous devez effectuer quelques étapes supplémentaires, notamment la signature numérique, ou l'installation et l'enregistrement du modèle de formulaire. Pour plus d'informations sur le déploiement d'un modèle de formulaire avec code managé après débogage, reportez-vous à la rubrique [déployer des modèles de formulaire InfoPath avec code](how-to-deploy-infopath-form-templates-with-code.md). 
+> [!REMARQUE] Pour réussir le déploiement d'un modèle de formulaire avec code managé qui requiert une confiance totale, vous devez effectuer quelques étapes supplémentaires, notamment la signature numérique, ou l'installation et l'enregistrement du modèle de formulaire. Pour plus d’informations sur le déploiement d’un modèle de formulaire avec code géré après avoir été déboché, voir Déployer des modèles de formulaire [InfoPath avec code.](how-to-deploy-infopath-form-templates-with-code.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

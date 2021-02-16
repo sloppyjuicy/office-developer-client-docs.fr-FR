@@ -25,7 +25,7 @@ ms.locfileid: "33412540"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Résout un groupe de classes de message dans leurs formulaires dans un conteneur de formulaire et renvoie un tableau d'objets d'informations de formulaire pour ces formulaires.
+Résout un groupe de classes de message dans leurs formulaires dans un conteneur de formulaires et renvoie un tableau d’objets d’informations de formulaire pour ces formulaires.
   
 ```cpp
 HRESULT ResolveMultipleMessageClasses(
@@ -39,19 +39,19 @@ HRESULT ResolveMultipleMessageClasses(
 
  _pMsgClassArray_
   
-> dans Pointeur vers un tableau qui contient les noms des classes de message à résoudre. Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
+> [in] Pointeur vers un tableau qui contient les noms des classes de message à résoudre. Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont les classes de message sont résolues. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont les classes de message sont résolues. L’indicateur suivant peut être définie :
     
 MAPIFORM_EXACTMATCH 
   
-> Seules les chaînes de classe de message correspondant à une correspondance exacte doivent être résolues.
+> Seules les chaînes de classe de message qui correspondent exactement doivent être résolues.
     
  _ppfrminfoarray_
   
-> remarquer Pointeur vers un pointeur vers un tableau d'objets d'informations de formulaire. Si une application cliente transmet NULL dans le paramètre _pMsgClassArray_ , le paramètre _ppfrminfoarray_ contient les objets d'informations de formulaire pour tous les formulaires dans le conteneur. 
+> [out] Pointeur vers un pointeur vers un tableau d’objets d’informations de formulaire. Si une application cliente transmet la valeur NULL dans le paramètre  _pMsgClassArray,_ le paramètre  _ppfrminfoarray_ contient des objets d’informations de formulaire pour tous les formulaires dans le conteneur. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,13 +61,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes appellent la méthode **IMAPIFormContainer:: ResolveMultipleMessageClasses** pour résoudre un groupe de classes de messages en formulaires dans un conteneur de formulaire. Le tableau des objets d'informations de formulaire renvoyés dans le paramètre _ppfrminfoarray_ fournit un accès supplémentaire à chacune des propriétés des formulaires. 
+Les applications clientes appellent la méthode **IMAPIFormContainer::ResolveMultipleMessageClasses** pour résoudre un groupe de classes de message en formulaires dans un conteneur de formulaires. Le tableau des objets d’informations de formulaire renvoyés dans le paramètre  _ppfrminfoarray_ fournit un accès supplémentaire à chacune des propriétés des formulaires. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour résoudre un groupe de classes de message en formulaires, transmettez un tableau de noms de classes de message à résoudre. Pour forcer la résolution de façon exacte (autrement dit, pour empêcher la résolution d'une classe de base de la classe de message), l'indicateur MAPIFORM_EXACTMATCH peut être passé dans le paramètre _ulFlags_ . 
+Pour résoudre un groupe de classes de message en formulaires, passez un tableau de noms de classes de messages à résoudre. Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags._ 
   
-Si une classe de message ne peut pas être résolue en un formulaire, la valeur NULL est renvoyée pour cette classe de message dans le tableau d'informations sur le formulaire. Par conséquent, même si la méthode renvoie S_OK, ne partez pas du principe que toutes les classes de message ont été résolues avec succès. Au lieu de cela, vérifiez les valeurs du tableau renvoyé.
+Si une classe de message ne peut pas être résolue en formulaire, la valeur NULL est renvoyée pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, ne supposez pas que toutes les classes de message ont été correctement résolues. Vérifiez plutôt les valeurs dans le tableau renvoyé.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -75,7 +75,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: OnResolveMultipleMessageClasses  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer:: ResolveMultipleMessageClasses** pour localiser un formulaire associé à un ensemble de classes de message.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMultipleMessageClasses  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::ResolveMultipleMessageClasses** pour localiser un formulaire associé à un ensemble de classes de messages.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
