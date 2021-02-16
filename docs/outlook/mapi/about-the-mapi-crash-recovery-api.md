@@ -19,13 +19,13 @@ ms.locfileid: "33420261"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'API de récupération d'urgence MAPI vérifie l'état de la mémoire partagée du fichier de dossiers personnels (PST) ou du fichier de dossiers en mode hors connexion (OST) pour vérifier que les données sont dans un état cohérent. Si elle est dans un état cohérent, la fonction [MAPICrashRecovery](mapicrashrecovery.md) déplace les données des fichiers PST ou OSTs ouverts vers le disque et verrouille les fichiers PST ou OSTs et n'autorise pas l'accès aux données en lecture ou en écriture. Cela garantit que les données demeurent dans un état cohérent jusqu'à ce que le processus soit terminé. En vous assurant que les fichiers PST ou OSTs sont dans un état cohérent avant la fin du processus, vous pouvez empêcher Microsoft Outlook 2013 et Microsoft Outlook 2010 d'afficher le message d'erreur suivant et éviter les problèmes de performances. 
+L’API MAPI Crash Recovery vérifie l’état de la mémoire partagée du fichier de dossiers personnels (PST) ou du fichier de dossiers en mode hors connexion (OST) pour vérifier que les données sont dans un état cohérent. Si elle est dans un état cohérent, la fonction [MAPICrashRecovery](mapicrashrecovery.md) déplace les données des PST ou des osts ouverts vers le disque, verrouille les PST ou les osts et n’autorise pas l’accès en lecture ou en écriture aux données. Cela garantit que les données restent dans un état cohérent jusqu’à ce que le processus soit terminé. En vous assurant que les PST ou les systèmes d’exploitation sont dans un état cohérent avant la fin du processus, vous pouvez empêcher Microsoft Outlook 2013 et Microsoft Outlook 2010 d’afficher le message d’erreur suivant et d’éviter les problèmes de performances. 
   
- **Un fichier de données ne s'est pas fermé correctement lors de sa dernière utilisation et est en cours de vérification des problèmes. Les performances peuvent être affectées lorsque la vérification est en cours.**
+ **Un fichier de données n’a pas été fermé correctement la dernière fois qu’il a été utilisé et des problèmes ont été vérifiés. Les performances peuvent être affectées pendant la vérification.**
   
-Cette API fournit les éléments suivants:
+Cette API fournit les informations suivantes :
   
-Constantes
+Constantes :
   
 - [Constantes MAPI](mapi-constants.md)
     

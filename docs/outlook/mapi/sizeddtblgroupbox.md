@@ -23,12 +23,12 @@ ms.locfileid: "33419316"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLGROUPBOX](dtblgroupbox.md) pour la description d'un contrôle de zone de groupe et une étiquette d'une longueur spécifiée. 
+Crée une structure nommée qui inclut une structure [DTBLGROUPBOX](dtblgroupbox.md) pour décrire un contrôle de zone de groupe et une étiquette d’une longueur spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**DTBLGROUPBOX** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**DTBLGROUPBOX** <br/> |
    
 ```cpp
 SizedDtblGroupBox (n, u)
@@ -38,7 +38,7 @@ SizedDtblGroupBox (n, u)
 
 _n_
   
-> Longueur de l'étiquette de la zone de groupe. 
+> Longueur de l’étiquette de la zone de groupe. 
     
 _u_
   
@@ -46,7 +46,7 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblGroupBox** vous permet de définir un contrôle de zone de groupe lorsque la longueur de l'étiquette est connue. La nouvelle structure est créée avec les membres suivants: 
+La macro **SizedDtblGroupBox** vous permet de définir un contrôle de zone de groupe lorsque la longueur de l’étiquette est connue. La nouvelle structure est créée avec les membres suivants : 
   
 ```cpp
 DTBLGROUPBOX dtblgroupbox;
@@ -54,7 +54,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblGroupBox** en tant que pointeur de structure **DTBLGROUPBOX** , effectuez la conversion suivante: 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblGroupBox** en tant que pointeur de structure **DTBLGROUPBOX,** effectuez la distribution suivante : 
   
 ```cpp
 lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;

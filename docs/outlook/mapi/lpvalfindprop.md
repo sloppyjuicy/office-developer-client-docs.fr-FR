@@ -25,7 +25,7 @@ Recherche une propriété spécifiée dans un jeu de propriétés.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services.  <br/> |
    
@@ -41,23 +41,23 @@ LPSPropValue LpValFindProp(
 
  _ulPropTag_
   
-> dans Pour la propriété à rechercher dans le jeu de propriétés, indiqué par le paramètre _lpPropArray_ . 
+> [in] Balise de la propriété à rechercher dans le jeu de propriétés, indiquée par le _paramètre lpPropArray._ 
     
  _cValues_
   
-> dans Nombre de propriétés dans le jeu de propriétés, indiqué par le paramètre _lpPropArray_ . 
+> [in] Nombre de propriétés dans le jeu de propriétés, indiqué par _le paramètre lpPropArray._ 
     
  _lpPropArray_
   
-> dans Tableau de structures **SPropValue** qui définit les propriétés à rechercher. 
+> [in] Tableau de **structures SPropValue** qui définit les propriétés à rechercher. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **LpValFindProp** renvoie une structure **SPropValue** qui définit la propriété correspondant à la balise de la propriété Input ou null s'il n'y a aucune correspondance. 
+La **fonction LpValFindProp** renvoie une structure **SPropValue** qui définit la propriété qui correspond à la balise de propriété d’entrée, ou NULL en l’absence de correspondance. 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **LpValFindProp** est identique à **PpropFindProp**.
+La **fonction LpValFindProp** est identique à **PpropFindProp**.
   
 ## <a name="see-also"></a>Voir aussi
 

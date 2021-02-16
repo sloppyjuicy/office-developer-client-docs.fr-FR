@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - TempStr
 keywords:
-- fonction TempStr [Excel 2007]
+- fonction tempstr [excel 2007]
 localization_priority: Normal
 ms.assetid: b21b4868-babe-4255-9093-503172efa045
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33418042"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d'infrastructure déConseillée qui crée un **XLOPER** temporaire contenant une chaîne d'octets **xltypeStr** . Elle prend une chaîne source se terminant par null comme entrée. Elle tente de remplacer le premier caractère de la chaîne fournie par la longueur de la chaîne suivante. Cette opération n'est pas toujours sûre: Microsoft Excel peut se bloquer si une chaîne en lecture seule a été transmise. 
+Fonction de bibliothèque Deprecated Framework qui crée une **structure XLOPER** temporaire contenant une chaîne d’byte **xltypeStr.** Il prend une chaîne source terminée par null comme entrée. Il tente de faire en quoi le premier caractère de la chaîne fournie est réécrit par la longueur de la chaîne suivante. Ce n’est pas toujours une chose sûre : Microsoft Excel peut se crasher si une chaîne en lecture seule est passée. 
   
 ```cs
 LPXLOPER TempStr(LPSTR str);
@@ -32,15 +32,15 @@ LPXLOPER TempStr(LPSTR str);
 
  _str_
   
-Pointeur vers la chaîne source se terminant par null. **TempStr** tronque les chaînes dont la taille est supérieure à 255 octets. 
+Pointeur vers la chaîne source terminée par null. **TempStr** tronque les chaînes dont la durée est de plus de 255 octets. 
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie une chaîne **xltypeStr** contenant un pointeur vers la mémoire tampon de chaîne passée. 
+Renvoie une **chaîne xltypeStr** contenant un pointeur vers la mémoire tampon de chaîne transmise. 
   
 ## <a name="remarks"></a>Remarques
 
-Cette méthode de création de chaînes temporaires est désormais déconseillée en faveur de la façon dont [TempStrConst et TempStr12](tempstrconst-tempstr12.md) fonctionnent. Ces fonctions allouent une nouvelle mémoire tampon et y copie la chaîne passée. Les chaînes d'entrée pour **TempStrConst** et **TempStr12** ne sont pas modifiées et sont déclarées comme **const**. En revanche, la chaîne d'entrée vers **TempStr** est modifiée et ne peut donc pas être déclarée comme **const**. Le premier caractère de la chaîne d'entrée est traité comme un espace pour un caractère de longueur et est remplacé par cette fonction.
+Cette façon de créer des chaînes temporaires est désormais dépréciée au profit de la façon dont [TempStrConst et TempStr12](tempstrconst-tempstr12.md) fonctionnent. Ces fonctions allouent une nouvelle mémoire tampon et y copient la chaîne transmise. Les chaînes d’entrée **pour TempStrConst** et **TempStr12** ne sont pas modifiées et sont donc déclarées comme **const**. En revanche, la chaîne d’entrée **à TempStr** est modifiée et ne peut donc pas être déclarée comme **const**. Le premier caractère de la chaîne d’entrée est traité comme un espace pour un caractère de longueur et est remplacé par cette fonction.
   
 ## <a name="see-also"></a>Voir aussi
 

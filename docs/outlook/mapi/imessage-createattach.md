@@ -25,7 +25,7 @@ ms.locfileid: "33417670"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une nouvelle pièce jointe.
+Crée une pièce jointe.
   
 ```cpp
 HRESULT CreateAttach(
@@ -40,35 +40,35 @@ LPATTACH FAR * lppAttach
 
  _lpInterface_
   
-> dans Pointeur vers l'identificateur d'interface (IID) représentant l'interface à utiliser pour accéder au message. Le fait de transmettre des résultats NULL dans l'interface standard du message, ou **IMessage**, est retourné. 
+> [in] Pointeur vers l’identificateur d’interface (IID) représentant l’interface à utiliser pour accéder au message. La transmission DE NULL entraîne le retour de l’interface standard du message, **ou IMessage.** 
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont la pièce jointe est créée. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont la pièce jointe est créée. L’indicateur suivant peut être définie :
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **CreateAttach** de renvoyer correctement, éventuellement avant que la pièce jointe soit totalement accessible au client appelant. Si la pièce jointe n'est pas accessible, un appel ultérieur de celle-ci peut entraîner une erreur. 
+> Permet à **CreateAttach de** renvoyer correctement, éventuellement avant que la pièce jointe soit entièrement accessible au client appelant. Si la pièce jointe n’est pas accessible, un appel ultérieur peut entraîner une erreur. 
     
  _lpulAttachmentNum_
   
-> remarquer Pointeur vers un numéro d'index identifiant la pièce jointe nouvellement créée. Ce nombre est valide uniquement lorsque le message est ouvert et constitue la base de la propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de la pièce jointe.
+> [out] Pointeur vers un numéro d’index identifiant la pièce jointe nouvellement créée. Ce numéro n’est valide que lorsque le message est ouvert et constitue la base de la propriété PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
     
  _lppAttach_
   
-> remarquer Pointeur vers un pointeur vers l'objet Attachment ouvert.
+> [out] Pointeur vers un pointeur vers l’objet pièce jointe ouvert.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La pièce jointe a été créée.
+> La pièce jointe a été créée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMessage:: CreateAttach** crée une nouvelle pièce jointe dans un message. La nouvelle pièce jointe et toutes les propriétés qui y sont définies ne sont pas disponibles tant qu'un client n'a pas appelé la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) de la pièce jointe et la méthode **IMAPIProp:: SaveChanges** du message. 
+La **méthode IMessage::CreateAttach** crée une pièce jointe sur un message. La nouvelle pièce jointe et les propriétés qui lui sont définies ne sont pas disponibles tant qu’un client n’a pas appelé la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de la pièce jointe et la méthode **IMAPIProp::SaveChanges** du message. 
   
-Le numéro de pièce jointe désigné par _lpulAttachmentNum_ est unique et valide uniquement dans le contexte du message. Autrement dit, deux pièces jointes dans deux messages différents peuvent avoir le même nombre tandis que deux pièces jointes dans le même message ne le peuvent pas. 
+Le numéro de pièce jointe pointé par  _lpulAttachmentNum_ est unique et valide uniquement dans le contexte du message. Autrement dit, deux pièces jointes dans deux messages différents peuvent avoir le même nombre, alors que deux pièces jointes dans le même message ne le peuvent pas. 
   
 ## <a name="see-also"></a>Voir aussi
 

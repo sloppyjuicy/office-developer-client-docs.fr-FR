@@ -1,5 +1,5 @@
 ---
-title: À propos des notifications de table
+title: À propos des notifications de tableau
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,31 +15,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417951"
 ---
-# <a name="about-table-notifications"></a>À propos des notifications de table
+# <a name="about-table-notifications"></a>À propos des notifications de tableau
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les clients s'appuient souvent sur des notifications de table pour découvrir les modifications apportées aux objets au lieu de s'inscrire pour recevoir des notifications directement à partir des objets. Les modifications classiques qui provoquent l'envoi de notifications incluent l'ajout, la suppression ou la modification d'une ligne et d'une erreur critique. Lorsque les notifications arrivent, les clients peuvent déterminer s'il faut effectuer un autre appel pour recharger la table. 
+Les clients s’appuient souvent sur les notifications de tableau pour découvrir les modifications apportées aux objets au lieu de s’inscrire pour recevoir des notifications directement à partir des objets. Les modifications types qui entraînent l’envoi de notifications incluent l’ajout, la suppression ou la modification d’une ligne et toute erreur critique. Lorsque les notifications arrivent, les clients peuvent déterminer s’il faut effectuer un autre appel pour recharger la table. 
   
-Étant donné que les notifications de table sont asynchrones, il existe quelques problèmes qui permettent de gérer les notifications de manière moins directe:
+Étant donné que les notifications de tableau sont asynchrones, il existe quelques problèmes qui peuvent rendre la gestion des notifications moins simple :
   
-- Les données transmises dans la structure [TABLE_NOTIFICATION](table_notification.md) ne représentent pas nécessairement l'état le plus récent de la table. Par exemple, un client peut modifier un message, puis décider de le supprimer. Le fournisseur de banque de messages implémentant la table de contenu qui inclut le message envoie deux notifications: un événement TABLE_ROW_MODIFIED suivi d'un événement TABLE_ROW_DELETED. En fonction de la fréquence de notification du fournisseur de banque de messages, le client peut recevoir la notification TABLE_ROW_MODIFIED après la suppression de la ligne. 
+- Les données transmises dans la structure [TABLE_NOTIFICATION](table_notification.md) peuvent ne pas représenter l’état le plus actuel de la table. Par exemple, un client peut apporter une modification à un message, puis décider de le supprimer. Le fournisseur de magasins de messages qui implémente la table des matières qui incluait le message envoie deux notifications : un événement TABLE_ROW_MODIFIED suivi d’un TABLE_ROW_DELETED de messagerie. Selon la façon dont le fournisseur de la boutique de messages times les notifications, le client peut recevoir la notification TABLE_ROW_MODIFIED après la suppression de la ligne. 
     
-- Le jeu de colonnes inclus avec une notification peut être différent de l'ensemble de colonnes actuel de la table. MAPI exige que le jeu de colonnes de notification corresponde au jeu de colonnes qui était en vigueur lors de la génération de la notification. Dans la mesure où un client peut appeler [IMAPITable:: SetColumns](imapitable-setcolumns.md) pour modifier le jeu de colonnes à tout moment, y compris après une notification, les deux jeux de colonnes peuvent ne pas être synchronisés. 
+- Le jeu de colonnes inclus dans une notification peut être différent du jeu de colonnes actuel du tableau. MAPI exige que le jeu de colonnes de notification corresponde à l’ensemble de colonnes en vigueur au moment où la notification a été générée. Étant donné qu’il est possible pour un client d’appeler [IMAPITable::SetColumns](imapitable-setcolumns.md) pour modifier le jeu de colonnes à tout moment, y compris après une notification, les deux ensembles de colonnes peuvent ne pas être synchronisés. 
     
-- Les notifications de table sont envoyées uniquement pour les lignes qui font partie de l'affichage. Autrement dit, si une ligne est exclue de la vue en raison d'une restriction ou parce que le tableau est réduit, aucune notification n'est envoyée si cette ligne est modifiée. Par ailleurs, aucune notification n'est envoyée pour informer un client de la modification de l'état de la catégorie.
+- Les notifications de tableau sont envoyées uniquement pour les lignes qui font partie de l’affichage. Autrement dit, si une ligne est exclue de l’affichage en raison d’une restriction ou parce que le tableau est dans un état de réduire, aucune notification n’est envoyée si cette ligne change. En outre, aucune notification n’est envoyée pour informer un client d’un changement d’état de catégorie.
     
-Les clients doivent savoir que toutes les tables ne prennent pas en charge la notification TABLE_SORT_DONE et doivent être prêtes à gérer cette condition en procédant comme suit:
+Les clients doivent savoir que toutes les tables ne gèrent pas la notification TABLE_SORT_DONE et doivent être prêts à gérer cette condition en :
   
-1. Forcer le tri en mode synchrone.
+1. Forcer le tri à être synchrone.
     
-2. Rechargement des lignes de la table lorsque la méthode [IMAPITable:: SortTable](imapitable-sorttable.md) renvoie. 
+2. Rechargez les lignes du tableau lorsque la table [IMAPITable::SortTable est](imapitable-sorttable.md) de retour. 
     
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "33437538"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Inscrit une structure [MAPIUID](mapiuid.md) qui représente le fournisseur de services de manière unique. 
+Inscrit une structure [MAPIUID](mapiuid.md) qui représente de manière unique le fournisseur de services. 
   
 ```cpp
 HRESULT SetProviderUID(
@@ -38,27 +38,27 @@ ULONG ulFlags
 
  _lpProviderID_
   
-> dans Pointeur vers la structure **MAPIUID** qui identifie le carnet d'adresses ou le fournisseur de banque de messages. 
+> [in] Pointeur vers la structure **MAPIUID** qui identifie le carnet d’adresses ou le fournisseur de magasin de messages. 
     
  _ulFlags_
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La structure **MAPIUID** a été correctement inscrite. 
+> La structure **MAPIUID** a été inscrite avec succès. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: SetProviderUID** est implémentée pour les objets de prise en charge du carnet d'adresses et du fournisseur de banque de messages. Ces fournisseurs appellent **SetProviderUID** pour enregistrer un identificateur unique décrit dans la structure **MAPIUID** pointée par _lpProviderID_. Les fournisseurs incluent cet identificateur dans tous les identificateurs d'entrée qu'ils créent. 
+La **méthode IMAPISupport::SetProviderUID** est implémentée pour les objets de prise en charge du carnet d’adresses et du fournisseur de magasins de messages. Ces fournisseurs **appellent SetProviderUID** pour inscrire un identificateur unique décrit dans la structure **MAPIUID** pointée par  _lpProviderID_. Les fournisseurs incluent cet identificateur dans tous les identificateurs d’entrée qu’ils créent. 
   
-MAPI utilise la structure **MAPIUID** lorsqu'il envoie des messages sortants vers le spouleur MAPI et détermine le fournisseur approprié pour la gestion des demandes des clients. Par exemple, lorsqu'un client appelle la méthode [IMAPISession:: OpenEntry](imapisession-openentry.md) , MAPI examine la partie **MAPIUID** de l'identificateur d'entrée, la mappe au fournisseur qui l'a passée à **SetProviderUID**et appelle le **OpenEntry** de ce fournisseur. . 
+MAPI utilise la structure **MAPIUID** lorsqu’il envoie des messages sortants au spouleur MAPI et pour déterminer le fournisseur approprié pour la gestion des demandes client. Par exemple, lorsqu’un client appelle la méthode [IMAPISession::OpenEntry,](imapisession-openentry.md) MAPI examine la partie **MAPIUID** de l’identificateur d’entrée, la maie au fournisseur qui l’a passée à **SetProviderUID** et appelle l’OpenEntry de ce fournisseur.  
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **SetProviderUID** au moment de l'ouverture de session pour enregistrer votre structure **MAPIUID** . MAPI permet aux fournisseurs de carnets d'adresses et de banques de messages d'enregistrer plusieurs identificateurs. Lorsque vous effectuez plusieurs appels à **SetProviderUID**, il ajoute toujours la structure **MAPIUID** au jeu de structures **MAPIUID** du fournisseur, même si le **MAPIUID** est un doublon. **SetProviderUID** ne peut pas supprimer un **MAPIUID**. 
+Appelez **SetProviderUID** au moment de l’inscription pour inscrire votre structure **MAPIUID.** MAPI permet aux fournisseurs de carnet d’adresses et de magasin de messages d’inscrire plusieurs identificateurs. Lorsque vous faites plusieurs appels à **SetProviderUID,** il ajoute toujours la structure **MAPIUID** à l’ensemble de structures **MAPIUID** du fournisseur, même si **mapIUID** est un doublon. **SetProviderUID ne** peut pas supprimer **un MAPIUID**. 
   
 ## <a name="see-also"></a>Voir aussi
 

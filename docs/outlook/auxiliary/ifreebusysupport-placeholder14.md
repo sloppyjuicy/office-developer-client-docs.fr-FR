@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d21aba9d-71a2-f090-d930-05fc6d84b673
-description: Ce membre est un espace réservé et n'est pas pris en charge.
+description: Ce membre est un espace réservé et n’est pas pris en charge.
 ms.openlocfilehash: 06d52f43d585529c1cb7ecf65ea961e6e40d683b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33425105"
 ---
 # <a name="ifreebusysupportplaceholder14"></a>IFreeBusySupport::Placeholder14
 
-Ce membre est un espace réservé et n'est pas pris en charge.
+Ce membre est un espace réservé et n’est pas pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -31,7 +31,7 @@ HRESULT Placeholder14(
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Toujours E_NOTIMPL, car ce membre est un espace réservé et n'est pas pris en charge.
+Toujours E_NOTIMPL, car ce membre est un espace réservé et n’est pas pris en charge.
   
 ## <a name="remarks"></a>Remarques
 

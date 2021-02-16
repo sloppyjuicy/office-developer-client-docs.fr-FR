@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 09bd3bdf-28d6-432c-9213-562a9a271adc
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7173caa7a31bc3ad11a4785b6a1498aba139de7c
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -36,29 +36,29 @@ Contient du texte facultatif pour un rapport généré par le système de messag
    
 ## <a name="remarks"></a>Remarques
 
-En règle générale, le texte contenu dans ces propriétés est généré en réponse à un rapport de remise ou de non-remise, ou un rapport de lecture ou de non-lecture a été reçu du système de messagerie sous-jacent, mais il ne s'agit pas d'un texte transféré via ce système. 
+En règle générale, le texte contenu dans ces propriétés est généré en réponse à un rapport de remise ou non remis, ou à un rapport de lecture ou non lu reçu du système de messagerie sous-jacent, mais n’est pas lui-même un texte transféré via ce système. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
+> Spécifie les propriétés et opérations autorisées sur les messages électroniques.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

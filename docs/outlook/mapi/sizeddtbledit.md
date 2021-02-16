@@ -23,12 +23,12 @@ ms.locfileid: "33437643"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLEDIT](dtbledit.md) pour la description d'un contrôle d'édition et le nombre maximal de caractères pouvant être entrés dans le contrôle. 
+Crée une structure nommée qui inclut une structure [DTBLEDIT](dtbledit.md) pour décrire un contrôle d’édition et le nombre maximal de caractères qui peuvent être entrés dans le contrôle. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**DTBLEDIT** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**DTBLEDIT** <br/> |
    
 ```cpp
 SizedDtblEdit (n, u)
@@ -38,7 +38,7 @@ SizedDtblEdit (n, u)
 
 _n_
   
-> Nombre maximal de caractères pouvant être entrés dans le contrôle d'édition.
+> Nombre maximal de caractères qui peuvent être entrés dans le contrôle d’édition.
     
 _u_
   
@@ -46,7 +46,7 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblEdit** vous permet de définir un contrôle d'édition lorsque le nombre de caractères activés est connu. La nouvelle structure est créée avec les membres suivants: 
+La macro **SizedDtblEdit** vous permet de définir un contrôle d’édition lorsque le nombre de caractères activés est connu. La nouvelle structure est créée avec les membres suivants : 
   
 ```cpp
 DTBLEDIT dtbledit;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblEdit** en tant que pointeur de structure **DTBLEDIT** , effectuez la conversion suivante: 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblEdit** en tant que pointeur de structure **DTBLEDIT,** effectuez la distribution suivante : 
   
 ```cpp
 lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;

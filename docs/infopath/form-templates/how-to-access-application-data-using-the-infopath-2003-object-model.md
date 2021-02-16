@@ -1,5 +1,5 @@
 ---
-title: Accès aux données d'application à l'aide du modèle objet InfoPath 2003
+title: Accéder aux données d’application à l’aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437440"
 ---
-# <a name="access-application-data-using-the-infopath-2003-object-model"></a>Accès aux données d'application à l'aide du modèle objet InfoPath 2003
+# <a name="access-application-data-using-the-infopath-2003-object-model"></a>Accéder aux données d’application à l’aide du modèle objet InfoPath 2003
 
 Le modèle objet compatible avec InfoPath 2003 fournit des objets et des collections permettant d'accéder aux informations sur l'application InfoPath, notamment des informations relatives au document XML sous-jacent d'un formulaire et au fichier de définition du formulaire (.xsf). Ces données sont accessibles via l'objet de niveau supérieur dans la hiérarchie du modèle objet d'InfoPath, qui est instancié via l'interface [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) . 
   

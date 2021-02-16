@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- Kit de développement logiciel Excel 2007 XLL, mise en route
+- Kit de développement logiciel excel 2007 xll, mise en place
 localization_priority: Normal
 ms.assetid: ba7b5817-f22f-4187-8a5f-316f0fbcb9d2
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -20,18 +20,18 @@ ms.locfileid: "33417188"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Le kit de développement logiciel (SDK) XLL Microsoft Excel 2013 fournit des informations pour vous aider à commencer à créer des compléments DLL pour Excel 2013 qui utilisent l'API C. Cette section fournit des informations sur l'API C ainsi que des liens vers une documentation de référence pour vous aider à démarrer le développement XLL Excel 2013.
+Le Kit de développement logiciel (SDK) XLL Microsoft Excel 2013 fournit des informations pour vous aider à commencer à créer des add-ins DLL pour Excel 2013 qui utilisent l’API C. Cette section fournit des informations sur l’API C et des liens vers de la documentation de référence pour vous aider à démarrer avec le développement XLL Excel 2013.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Programmation à l'aide de l'API c dans Excel](programming-with-the-c-api-in-excel.md): présente l'API c et explique comment elle est comparée à d'autres options de programmation dans Excel 2013.
+- [Programmation avec l’API C](programming-with-the-c-api-in-excel.md)dans Excel : présente l’API C et explique comment elle se compare à d’autres options de programmation dans Excel 2013.
     
-- [Nouveautés de l'API c pour Excel](what-s-new-in-the-c-api-for-excel.md): décrit les mises à jour de l'API c pour Excel 2013.
+- [Nouveautés de l’API C pour Excel](what-s-new-in-the-c-api-for-excel.md): décrit les mises à jour de l’API C pour Excel 2013.
     
-- [Problèmes connus dans Excel XLL Development](known-issues-in-excel-xll-development.md): aborde les problèmes rencontrés dans la programmation XLL Excel.
+- [Problèmes connus dans le développement XLL Excel](known-issues-in-excel-xll-development.md): traite des problèmes rencontrés dans la programmation XLL Excel.
     
 ## <a name="related-sections"></a>Sections connexes
 
-- [Référence des fonctions de l'API du kit de développement logiciel (SDK) Excel XLL](excel-xll-sdk-api-function-reference.md): fournit une référence pour les rappels Excel que le XLL peut appeler, les rappels XLL qu'Excel recherche, ainsi que les fonctions clés dans les projets d'exemple et d'infrastructure.
+- Référence des fonctions api [du SDK XLL Excel](excel-xll-sdk-api-function-reference.md): fournit une référence pour les rappels Excel que le XLL peut appeler, les rappels XLL qu’Excel recherche et les fonctions clés dans les projets d’exemple et d’infrastructure.
     
 

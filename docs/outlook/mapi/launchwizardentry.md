@@ -25,13 +25,13 @@ ms.locfileid: "33437384"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction qui démarre l'application Assistant Profil pour l'ajout d'un ou plusieurs services de messagerie à un profil. 
+Définit une fonction qui démarre l’application De l’Assistant Profil dans le but d’ajouter un ou plusieurs services de message à un profil. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiwz. h  <br/> |
-|Fonction définie implémentée par:  <br/> |MAPI  <br/> |
-|Fonction définie appelée par:  <br/> |Applications clientes  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiwz.h  <br/> |
+|Fonction définie implémentée par :  <br/> |MAPI  <br/> |
+|Fonction définie appelée par :  <br/> |Applications clientes  <br/> |
    
 ```cpp
 HRESULT LAUNCHWIZARDENTRY(
@@ -47,43 +47,43 @@ HRESULT LAUNCHWIZARDENTRY(
 
  _hParentWnd_
   
-> dans Handle de la fenêtre parente de l'appelant. Si l'appelant n'a pas de fenêtre parente, le paramètre _hParentWnd_ doit être null. 
+> [in] Handle vers la fenêtre parente de l’appelant. Si l’appelant n’a pas de fenêtre parent, le  _paramètre hParentWnd_ doit être NULL. 
     
  _ulFlags_
   
-> dans Masque de réindicateur des indicateurs indiquant les options de l'Assistant Profil. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs indiquant les options de l’Assistant Profil. Les indicateurs suivants peuvent être définies :
     
 MAPI_PW_ADD_SERVICE_ONLY 
   
-> L'Assistant Profil est d'ajouter uniquement les services de messagerie à l'aide du paramètre _lppszServiceNameToAdd_ et de ne pas afficher sa page de sélection des services de messagerie. 
+> L’Assistant Profil consiste à ajouter uniquement les services de message répertoriés via le paramètre  _lppszServiceNameToAdd_ et à ne pas afficher sa page pour la sélection des services de message. 
     
 MAPI_PW_FIRST_PROFILE 
   
-> Le profil à créer est le premier de cette station de travail. 
+> Le profil à créer est le premier pour cette station de travail. 
     
 MAPI_PW_HIDE_SERVICES_LIST 
   
-> La page de l'Assistant Profil pour la sélection des services de message ne doit pas être affichée. 
+> La page de l’Assistant Profil pour la sélection des services de message ne doit pas être affichée. 
     
 MAPI_PW_LAUNCHED_BY_CONFIG 
   
-> L'Assistant Profil a été lancé par l'application de configuration du panneau de configuration. 
+> L’Assistant Profil a été lancé par l’application de configuration du Panneau de configuration. 
     
 MAPI_PW_PROVIDER_UI_ONLY 
   
-> Seuls les boîtes de dialogue de configuration des fournisseurs de services doivent s'afficher et les pages de l'Assistant Profil ne doivent pas apparaître. Cet indicateur ne peut être défini que si l'indicateur MAPI_PW_ADD_SERVICE_ONLY est défini. 
+> Seules les boîtes de dialogue de configuration des fournisseurs de services doivent être affichées et les pages de l’Assistant Profil ne doivent pas apparaître. Cet indicateur ne peut être définie que si l’MAPI_PW_ADD_SERVICE_ONLY est définie. 
     
  _lppszServiceNameToAdd_
   
-> dans Pointeur vers un tableau de chaînes contenant les noms des services de message à ajouter au profil. Le tableau doit se terminer par une valeur NULL. 
+> [in] Pointeur vers un tableau de chaînes qui contient les noms des services de message à ajouter au profil. Le tableau doit se terminer par une valeur NULL. 
     
  _cbBufferMax_
   
-> dans Taille de la mémoire tampon vers laquelle pointe le paramètre _lpszNewProfileName_ . 
+> [in] Taille de la mémoire tampon pointée par _le paramètre lpszNewProfileName._ 
     
  _lpszNewProfileName_
   
-> remarquer Pointeur vers une mémoire tampon de chaîne où la fonction basée sur **LAUNCHWIZARDENTRY** renvoie le nom du profil créé. 
+> [out] Pointeur vers une mémoire tampon de chaînes où la fonction basée sur **LAUNCHWIZARDENTRY** renvoie le nom du profil créé. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -93,24 +93,24 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur d'origine inattendue ou inconnue a empêché l'opération de s'exécuter. Les possibilités incluent l'échec de l'initialisation du sous-système MAPI pour l'Assistant Profil, l'impossibilité d'accéder au profil par défaut et une erreur de retour dans la boîte de dialogue.
+> Une erreur d’origine inattendue ou inconnue a empêché l’exécution de l’opération. Les possibilités incluent l’échec de l’initialisation du sous-système MAPI pour l’Assistant Profil, l’impossibilité d’accéder au profil par défaut et un retour d’erreur à partir de la boîte de dialogue.
     
 ## <a name="remarks"></a>Remarques
 
-L'implémentation MAPI du prototype de fonction **LAUNCHWIZARDENTRY** est le point d'entrée dans l'application Assistant Profil MAPI. MAPI nomme ce point d'entrée **LaunchWizard**. 
+L’implémentation MAPI du prototype de fonction **LAUNCHWIZARDENTRY** est le point d’entrée dans l’application de l’Assistant Profil MAPI. MAPI nomme ce point d’entrée **LaunchWizard**. 
   
-Lorsque l'indicateur MAPI_PW_ADD_SERVICE_ONLY est défini dans le paramètre _ulFlags_ , les règles suivantes s'appliquent: 
+Lorsque l MAPI_PW_ADD_SERVICE_ONLY est définie dans le  _paramètre ulFlags,_ les règles suivantes s’appliquent : 
   
-- L'indicateur MAPI_PW_LAUNCHED_BY_CONFIG empêche l'affichage de la page d'accueil. 
+- L MAPI_PW_LAUNCHED_BY_CONFIG empêche l’affichage de la page d’accueil. 
     
-- Les indicateurs MAPI_PW_HIDE_SERVICES_LIST et MAPI_PW_PROVIDER_UI_ONLY ne sont utiles que s'il n'y a pas de profil par défaut. Dans ce cas, ces indicateurs déterminent la page de l'Assistant Profil qui doit être affichée. 
+- Les indicateurs MAPI_PW_HIDE_SERVICES_LIST et MAPI_PW_PROVIDER_UI_ONLY ne sont utiles que s’il n’existe aucun profil par défaut. Dans ce cas, ces indicateurs déterminent la page de l’Assistant Profil à afficher. 
     
-- Si un profil par défaut existe, aucune des pages de l'Assistant Profil n'est affichée. 
+- S’il existe un profil par défaut, aucune des pages de l’Assistant Profil ne doit être affichée. 
     
-- S'il existe un profil par défaut, un seul service de messagerie est répertorié via le paramètre _lppszServiceNameToAdd_ , et ce service de messagerie se trouve déjà dans le profil par défaut, l'Assistant Profil renvoie S_OK sans rien ajouter au profil. 
+- S’il existe un profil par défaut, un seul service de message est répertorié via le paramètre  _lppszServiceNameToAdd_ et ce service de message se trouve déjà dans le profil par défaut, l’Assistant Profil renvoie S_OK sans rien ajouter au profil. 
     
-Pour que chaque service de messagerie soit ajouté au profil, l'Assistant Profil appelle la fonction de point d'entrée du service en fonction du prototype [MSGSERVICEENTRY](msgserviceentry.md) . Pour chaque fournisseur de services sélectionné dans un service de messagerie à ajouter au profil, l'Assistant Profil appelle la fonction de point d'entrée du fournisseur en fonction du prototype [WIZARDENTRY](wizardentry.md) . Lors de la configuration interactive, chaque événement utilisateur dans les pages de propriétés fait en sorte que l'Assistant Profil appelle la fonction de rappel du fournisseur en fonction du prototype [SERVICEWIZARDDLGPROC](servicewizarddlgproc.md) . 
+Pour chaque service de message à ajouter au profil, l’Assistant Profil appelle la fonction de point d’entrée du service basée sur le prototype [MSGSERVICEENTRY.](msgserviceentry.md) Pour chaque fournisseur de services sélectionné dans un service de messagerie à ajouter au profil, l’Assistant Profil appelle la fonction de point d’entrée du fournisseur basée sur le prototype [WIZARDENTRY.](wizardentry.md) Pendant la configuration interactive, chaque événement utilisateur dans les pages de propriétés entraîne l’appel par l’Assistant Profil de la fonction de rappel du fournisseur basée sur le prototype [SERVICEWIZARDDLGPROC.](servicewizarddlgproc.md) 
   
-Si un fournisseur de services ajouté au profil prend en charge les pages de l'Assistant Profil, il doit autoriser la configuration par programme du profil.
+Si un fournisseur de services ajouté au profil prend en charge les pages de l’Assistant Profil, il doit autoriser la configuration par programme du profil.
   
 

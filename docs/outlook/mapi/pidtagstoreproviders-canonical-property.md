@@ -25,7 +25,7 @@ ms.locfileid: "33415837"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d'identificateurs de fournisseurs de banques de messages dans le profil actif.
+Contient une liste d’identificateurs de fournisseurs de magasins de messages dans le profil actuel.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une liste d'identificateurs de fournisseurs de banques de messages dans
    
 ## <a name="remarks"></a>Remarques
 
-N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
+N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

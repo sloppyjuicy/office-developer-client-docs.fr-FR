@@ -24,7 +24,7 @@ Détermine la couleur du premier plan (traits) du motif de remplissage de la for
 
 Pour définir la couleur, tapez un nombre compris entre 0 et 23.
   
-Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL. La valeur d'une couleur personnalisée est sa couleur RVB et la valeur RVB ( *r, v, b*), au lieu d'un nombre, est affichée dans la fenêtre feuille ShapeSheet. Dans les opérations numériques, les couleurs personnalisées ont des valeurs supérieures ou égales à 24. 
+Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL. La valeur d’une couleur personnalisée est sa couleur RVB, et RVB( *r, g, b*), plutôt qu’un nombre, s’affiche dans la fenêtre Feuille ShapeSheet. Dans les opérations numériques, les couleurs personnalisées ont des valeurs supérieures ou égales à 24. 
   
 Vous pouvez définir la transparence de remplissage de premier plan dans la cellule TransPremPlanRempl.
   
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule FillForegnd à l'aide d'un index à p
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowFill** <br/> |
 |Index de la cellule :  <br/> |**visFillForegnd** <br/> |
    

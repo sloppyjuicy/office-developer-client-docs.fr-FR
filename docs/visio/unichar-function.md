@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60117
 localization_priority: Normal
 ms.assetid: 371a475d-50f7-6b4c-4b47-581cd778dcba
-description: Renvoie le caractère Unicode d'un nombre.
+description: Renvoie le caractère Unicode d’un nombre.
 ms.openlocfilehash: 81e76b72da35f79dee9ad6afbde51bc2e228483c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33417580"
 ---
 # <a name="unichar-function"></a>Fonction UNICHAR
 
-Renvoie le caractère Unicode d'un nombre. 
+Renvoie le caractère Unicode d’un nombre. 
   
 ## <a name="syntax"></a>Syntaxe
 
-UNICHAR (* * *nombre* * *) 
+UNICHAR (** *nombre* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -36,7 +36,7 @@ La chaîne obtenue présente une longueur d’un caractère unicode (deux caract
   
 ## <a name="example"></a>Exemple
 
-UNICHAR (65) 
+UNICHAR(65) 
   
 Renvoie A (lettre majuscule latine A) 
   

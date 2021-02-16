@@ -40,59 +40,59 @@ HRESULT DeleteMessages(
 
  _lpMsgList_
   
-> dans Pointeur vers une structure [ENTRYLIST](entrylist.md) qui contient le nombre de messages à supprimer et un tableau de structures [EntryID](entryid.md) qui identifient les messages. 
+> [in] Pointeur vers une structure [ENTRYLIST](entrylist.md) qui contient le nombre de messages à supprimer et un tableau de structures [ENTRYID](entryid.md) qui identifient les messages. 
     
  _ulUIParam_
   
-> dans Handle de la fenêtre parent de l'indicateur de progression. Le paramètre _ulUIParam_ est ignoré sauf si l'indicateur MESSAGE_DIALOG est défini dans le paramètre _ulFlags_ . 
+> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le _paramètre ulUIParam_ est ignoré, sauf si l’MESSAGE_DIALOG est définie dans _le paramètre ulFlags._ 
     
  _lpProgress_
   
-> dans Pointeur vers un objet de progression qui affiche un indicateur de progression. Si la valeur NULL est transmise dans _lpProgress_, le fournisseur de banque de messages affiche un indicateur de progression à l'aide de l'implémentation de l'objet de progression MAPI. Le paramètre _lpProgress_ est ignoré sauf si l'indicateur MESSAGE_DIALOG est défini dans le paramètre _ulFlags_ . 
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans le paramètre _ulFlags._ 
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont les messages sont supprimés. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont les messages sont supprimés. Les indicateurs suivants peuvent être définies :
     
 DELETE_HARD_DELETE
   
-> Supprime définitivement tous les messages, y compris ceux qui sont supprimés de manière récupérable.
+> Supprime définitivement tous les messages, y compris les messages supprimés (supprimés de manière temporaire).
     
 MESSAGE_DIALOG 
   
-> Affiche un indicateur de progression pendant l'exécution de l'opération.
+> Affiche un indicateur de progression au cours de l’opération.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le ou les messages spécifiés ont été supprimés.
+> Le ou les messages spécifiés ont été supprimés avec succès.
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> L'appel a réussi, mais tous les messages n'ont pas été supprimés. Lorsque cet avertissement est renvoyé, l'appel doit être géré comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d'informations, consultez la rubrique [utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md).
+> L’appel a réussi, mais tous les messages n’ont pas été supprimés avec succès. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIFolder::D eletemessages** supprime les messages d'un dossier. Les messages qui n'existent pas, qui ont été déplacés ailleurs, qui sont ouverts avec une autorisation en lecture/écriture ou qui sont actuellement soumis, ne peuvent pas être supprimés. 
+La **méthode IMAPIFolder::D eleteMessages** supprime les messages d’un dossier. Les messages qui n’existent pas, qui ont été déplacés ailleurs, qui sont ouverts avec une autorisation de lecture/écriture ou qui sont actuellement envoyés ne peuvent pas être supprimés. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Lorsque l'opération de suppression implique plusieurs messages, effectuez l'opération aussi complètement que possible pour chaque dossier, même si un ou plusieurs messages ne peuvent pas être supprimés. N'arrêtez pas l'opération prématurément à moins qu'une défaillance ne se produise au-delà de votre contrôle, telle qu'une mémoire insuffisante, un manque d'espace disque ou une corruption de la Banque de messages.
+Lorsque l’opération de suppression implique plusieurs messages, effectuez l’opération aussi complètement que possible pour chaque dossier, même si un ou plusieurs des messages ne peuvent pas être supprimés. N’arrêtez pas l’opération prématurément, sauf si une défaillance dépasse votre contrôle, par exemple un manque de mémoire, un manque d’espace disque ou une altération de la magasin de messages.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Attendez-vous à ces valeurs de retour dans les conditions suivantes.
+Attendez-vous à ce que ces valeurs de retour se placent dans les conditions suivantes.
   
 |**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
-|**DeleteMessages** a correctement supprimé tous les messages.  <br/> |S_OK  <br/> |
-|**DeleteMessages** n'a pas pu supprimer tous les messages et sous-dossiers.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
-|**DeleteMessages** n'a pas pu être exécuté.  <br/> |Toute valeur d'erreur à l'exception de MAPI_E_NOT_FOUND  <br/> |
+|**DeleteMessages a** correctement supprimé chaque message.  <br/> |S_OK  <br/> |
+|**DeleteMessages n’a** pas pu supprimer correctement tous les messages et sous-fichiers.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**DeleteMessages** n’a pas pu se terminer.  <br/> |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
    
-Lorsque **DeleteMessages** ne parvient pas à terminer, ne partez pas du principe qu'aucun travail n'a été effectué. **DeleteMessages** a peut-être pu supprimer un ou plusieurs messages avant de rencontrer l'erreur. 
+Lorsque **DeleteMessages n’est** pas en mesure de se terminer, ne supposez pas qu’aucun travail n’a été effectué. **DeleteMessages a** peut-être pu supprimer un ou plusieurs des messages avant de rencontrer l’erreur. 
   
- **DeleteMessages** renvoie MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, en fonction de l'implémentation de la Banque de messages. 
+ **DeleteMessages** renvoie MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, en fonction de l’implémentation de la boutique de messages. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -100,7 +100,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FolderDlg. cpp  <br/> |CFolderDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI utilise la méthode **IMAPIFolder::D eletemessages** pour supprimer les messages spécifiés.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise **la méthode IMAPIFolder::D eleteMessages** pour supprimer les messages spécifiés.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -20,7 +20,7 @@ ms.locfileid: "33415977"
 
 Une fonction effectue une tâche unique et bien précise. La plupart des fonctions acceptent plusieurs arguments comme entrées. Le type et le nombre d'arguments dépendent des fonctions, mais toutes utilisent la même syntaxe générale :
   
- **Function (** _argument1_, _argument2_,...  _argumentN_ [, _argument_ |  -_argument_ **])**
+ **FUNCTION(** _argument1_,  _argument2_, ...  _argumentN_ [, _argumentA_  |   _argument_ **])**
   
 |**Élément syntaxique**|**Description**|
 |:-----|:-----|
@@ -28,13 +28,13 @@ Une fonction effectue une tâche unique et bien précise. La plupart des fonctio
 | ,  <br/> | Les arguments sont séparés par une virgule.  <br/> |
 | ...  <br/> | Utilisé pour la notation uniquement ; ne pas inclure dans une fonction.  <br/> |
 | [ ]  <br/> | Argument facultatif. Utilisé pour la notation uniquement ; ne pas inclure dans une fonction.  <br/> |
-| |  <br/> | Choix; vous pouvez inclure __ l'argumenta ou l' _argument_. Utilisé pour la notation uniquement ; ne pas inclure dans une fonction.  <br/> |
+| |  <br/> | Un choix ; vous pouvez inclure  _argumentA_ ou  _argument_. Utilisé pour la notation uniquement ; ne pas inclure dans une fonction.  <br/> |
    
 De nombreuses fonctions utilisables dans les formules ressemblent à celles que vous avez l'habitude de rencontrer dans les tableurs : fonctions mathématiques, comme SUM ou SQRT ; trigonométriques, comme SIN ou COS, ou logiques, comme IF ou NOT. Beaucoup d'autres fonctions sont toutefois propres à Microsoft Office Visio, par exemple GUARD, GRAVITY et RUNADDON.
   
 Pour plus d'informations sur des fonctions spécifiques, reportez-vous à l'aide Référence ShapeSheet.
   
 > [!NOTE]
->  Certaines fonctions apparaissent dans les formules générées par Visio, mais elles ne sont pas affichées dans la boîte de dialogue **modifier la formule** ou décrites dans cette référence car elles sont réservées à un usage interne et ne doivent pas être utilisées dans d'autres formules. Voici quelques exemples : ELLIPSE_THETA, _ELLIPSE_ECC, _UCON_C1 et _SHAPEMIN. 
+>  Certaines fonctions apparaissent dans les formules générées par  Visio, mais ne sont pas affichées dans la boîte de dialogue Modifier la formule ou décrites dans cette référence, car elles sont réservées à un usage interne et ne doivent pas être utilisées dans d’autres formules. Voici quelques exemples : ELLIPSE_THETA, _ELLIPSE_ECC, _UCON_C1 et _SHAPEMIN. 
   
 

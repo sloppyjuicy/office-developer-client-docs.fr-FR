@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f5de77c3-5912-f7bc-8e8c-3a053545c359
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: d254df132db5542ce5235c1c3ab42ea768399f0a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "32358918"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une chaîne Unicode interrogée dans la liste des adresses de messagerie ou des noms d'affichage des destinataires qui sont traités dans la ligne **à** des messages de la Banque. 
+Contient une chaîne Unicode en cours d’interrogation dans la liste des adresses de messagerie ou affiche les noms des destinataires adressés dans la ligne **À** des messages de la banque. 
   
 ## 
 
@@ -29,33 +29,33 @@ Contient une chaîne Unicode interrogée dans la liste des adresses de messageri
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEARCH_RECIP_EMAIL_TO_W  <br/> |
 |Identificateur :  <br/> |0x0EA6  <br/> |
-|Type de propriété:  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Rechercher  <br/> |
+|Type de propriété :  <br/> |PT_UNICODE  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 > [!NOTE]
-> Cette balise de restriction MAPI, utilisée lorsque vous recherchez des adresses de messagerie ou des noms d'affichage auxquels le message est envoyé, ne peut pas être définie dans le fichier d'en-tête téléchargeable dont vous disposez actuellement. Vous pouvez l'ajouter à votre code à l'aide de la valeur suivante: >`#define PR_SEARCH_RECIP_EMAIL_TO_W PROP_TAG(PT_UNICODE, 0x0EA6)`
+> Cette balise de restriction MAPI, utilisée lorsque vous recherchez des adresses e-mail ou des noms complets à laquelle le message est envoyé, peut ne pas être définie dans le fichier d’en-tête téléchargeable dont vous disposez actuellement. Vous pouvez l’ajouter à votre code en utilisant la valeur suivante : >  `#define PR_SEARCH_RECIP_EMAIL_TO_W PROP_TAG(PT_UNICODE, 0x0EA6)`
   
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications de protocole Microsoft Exchange Server connexes.
+> Fournit des références aux spécifications Microsoft Exchange Server de protocole associées.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour la manipulation d'une configuration de liste des dossiers de recherche.
+> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés qui sont répertoriées en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

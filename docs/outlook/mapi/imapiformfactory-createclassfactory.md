@@ -25,7 +25,7 @@ ms.locfileid: "33416075"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un objet de fabrique de classe pour le formulaire.
+Renvoie un objet fabrique de classes pour le formulaire.
   
 ```cpp
 HRESULT CreateClassFactory(
@@ -39,7 +39,7 @@ HRESULT CreateClassFactory(
 
  _clsidForm_
   
-> dans Identificateur de classe du formulaire à créer par la fabrique de classes.
+> [in] Identificateur de classe pour le formulaire à créer par la fabrique de classes.
     
  _ulFlags_
   
@@ -47,25 +47,25 @@ HRESULT CreateClassFactory(
     
  _lppClassFactory_
   
-> remarquer Pointeur vers l'objet de fabrique de classes.
+> [out] Pointeur vers l’objet fabrique de classes.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'objet de fabrique de classe a été renvoyé.
+> L’objet fabrique de classe a été renvoyé.
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormFactory:: CreateClassFactory** pour obtenir une fabrique de classe pour un formulaire spécifique. La fabrique de classe est utilisée pour créer des instances d'un formulaire qui gère les messages d'une classe spécifique et pour contrôler l'accès à ces instances. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormFactory::CreateClassFactory** pour obtenir une fabrique de classes pour un formulaire spécifique. La fabrique de classes permet de créer des instances d’un formulaire qui gère les messages d’une classe spécifique et de contrôler l’accès à ces instances. 
   
-La méthode **CreateClassFactory** est appelée par les visionneuses de formulaire pour obtenir un objet de fabrique de classe pour les serveurs de formulaires qui implémentent plusieurs classes de message. Cette méthode reçoit un identificateur de classe (CLSID) en tant que paramètre. En fonction de ce paramètre, cette méthode peut déterminer le type spécifique de l'objet Factory de classe à renvoyer. 
+La **méthode CreateClassFactory est** appelée par les visionneuses de formulaires pour obtenir un objet fabrique de classes pour les serveurs de formulaires qui implémentent plusieurs classes de message. Cette méthode reçoit un identificateur de classe (CLSID) en tant que paramètre. En fonction de ce paramètre, cette méthode peut déterminer le type spécifique d’objet usine de classe à renvoyer. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous pouvez revenir de votre implémentation **CreateClassFactory** le même objet de fabrique de classes sur plusieurs appels pour le même identificateur de classe. La création d'une nouvelle instance de fabrique de classes n'est pas obligatoire. 
+Vous pouvez retourner à partir de votre **implémentation CreateClassFactory** le même objet de fabrique de classe sur plusieurs appels pour le même identificateur de classe. La création d’une instance d’usine de classe n’est pas obligatoire. 
   
-Vous pouvez avoir une seule implémentation de fabrique de classe qui crée des instances de fabrique de classe appropriées sur demande ou plusieurs implémentations de fabrique de classe, une pour chaque classe de message.
+Vous pouvez avoir une implémentation d’usine de classe unique qui crée des instances d’usine de classe appropriées à la demande, ou plusieurs implémentations d’usine de classe, une pour chaque classe de message.
   
 ## <a name="see-also"></a>Voir aussi
 

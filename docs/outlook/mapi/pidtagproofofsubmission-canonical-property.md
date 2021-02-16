@@ -25,26 +25,26 @@ ms.locfileid: "33425329"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient la valeur TRUE si un expéditeur de message demande la preuve que le système de transfert de messages a soumis un message pour remise au destinataire initialement prévu.
+Cette propriété contient TRUE si un expéditeur de message demande la preuve que le système de transfert de messages a envoyé un message pour remise au destinataire initialement prévu.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROOF_OF_SUBMISSION  <br/> |
 |Identificateur :  <br/> |0x0E26  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

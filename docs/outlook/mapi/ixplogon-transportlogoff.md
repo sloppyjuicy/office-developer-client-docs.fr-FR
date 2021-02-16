@@ -25,7 +25,7 @@ ms.locfileid: "33417860"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lance le processus de fermeture de session. 
+Lance le processus de ffage de logo. 
   
 ```cpp
 HRESULT TransportLogoff(
@@ -43,19 +43,19 @@ HRESULT TransportLogoff(
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la ou les valeurs attendues. Si un élément autre que S_OK est renvoyé, le fournisseur est déconnecté.
+> L’appel a réussi et a renvoyé la ou les valeurs attendues. Si une autre S_OK est renvoyée, le fournisseur est déconnecté.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle la méthode **IXPLogon:: TransportLogoff** pour mettre fin à une session de fournisseur de transport pour un utilisateur particulier. Avant d'appeler **TransportLogoff**, le spouleur MAPI ignore les données relatives aux types d'adresses de messagerie pris en charge pour cette session passée dans la méthode [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) . 
+Lepooler MAPI appelle la méthode **IXPLogon::TransportLogoff** pour mettre fin à une session de fournisseur de transport pour un utilisateur particulier. Avant **d’appeler TransportLogoff,** lepooler MAPI rejette toutes les données sur les types d’adresses de messagerie pris en charge pour cette session transmises dans la méthode [IXPLogon::AddressTypes.](ixplogon-addresstypes.md) 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Le fournisseur de transport doit être prêt à accepter un appel à **TransportLogoff** à tout moment. Si un message est en cours d'opération, le fournisseur doit arrêter le processus d'envoi. 
+Le fournisseur de transport doit être prêt à accepter un appel à **TransportLogoff** à tout moment. Si un message est en cours, le fournisseur doit arrêter le processus d’envoi. 
   
-Le fournisseur de transport doit libérer toutes les ressources allouées pour sa session actuelle. Si elle a alloué de la mémoire pour cette session à l'aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) , elle doit libérer la mémoire à l'aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) . Toute mémoire allouée par le fournisseur de transport pour satisfaire les appels à la méthode [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) peut être publiée en toute sécurité. 
+Le fournisseur de transport doit libérer toutes les ressources allouées pour sa session actuelle. Si elle a alloué de la mémoire pour cette session avec la fonction [MAPIAllocateBuffer,](mapiallocatebuffer.md) elle doit libérer de la mémoire à l’aide de la fonction [MAPIFreeBuffer.](mapifreebuffer.md) Toute mémoire allouée par le fournisseur de transport pour satisfaire les appels à la méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) peut être libérée en toute sécurité pour le moment. 
   
-En règle générale, lors de l'exécution d'un appel **TransportLogoff** , un fournisseur doit d'abord invalider son objet Logon en appelant la méthode [IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md) , puis libérer son objet support. L'implémentation du fournisseur de **TransportLogoff** doit libérer le dernier objet de prise en charge, car lorsque l'objet de support est publié, le spouleur MAPI peut également libérer l'objet fournisseur lui-même. 
+En règle générale, lors de l’exécution d’un appel **TransportLogoff,** un fournisseur doit d’abord invalider son objet d’accès en appelant la méthode [IMAPISupport::MakeInvalid,](imapisupport-makeinvalid.md) puis libérer son objet de support. L’implémentation du fournisseur de **TransportLogoff** doit libérer l’objet de support en dernier, car lorsque l’objet de support est libéré, lepooler MAPI peut également libérer l’objet fournisseur lui-même. 
   
 ## <a name="see-also"></a>Voir aussi
 

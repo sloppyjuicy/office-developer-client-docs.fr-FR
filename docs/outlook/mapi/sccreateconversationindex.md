@@ -25,11 +25,11 @@ ms.locfileid: "33415655"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l'emplacement dans un thread de message auquel un message appartient. 
+Indique où appartient un message dans un thread de message. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -46,19 +46,19 @@ SCODE ScCreateConversationIndex(
 
  _cbParent_
   
-> dans Nombre d'octets dans l'index de conversation parente.
+> [in] Nombre d’octets dans l’index de conversation parent.
     
  _lpbParent_
   
-> dans Pointeur vers des octets dans l'index de conversation parente. Cette valeur peut être NULL si _cbParent_ est égal à zéro. 
+> [in] Pointeur vers des octets dans l’index de conversation parent. Cette valeur peut être NULL si  _cbParent_ a la valeur zéro. 
     
  _lpcbIndex_
   
-> remarquer Pointeur vers le nombre d'octets dans le nouvel index de conversation renvoyé par l'appel. 
+> [out] Pointeur vers le nombre d’octets dans le nouvel index de conversation renvoyé par l’appel. 
     
  _lppbIndex_
   
-> remarquer Pointeur vers un pointeur vers le nouvel index de conversation renvoyé par l'appel.
+> [out] Pointeur vers un pointeur vers le nouvel index de conversation renvoyé par l’appel.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

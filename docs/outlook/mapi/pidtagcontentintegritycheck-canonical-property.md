@@ -25,7 +25,7 @@ ms.locfileid: "33415725"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur de vérification de l'intégrité du contenu ASN. 1 qui permet à un expéditeur de message de protéger le contenu d'un message contre toute divulgation à des destinataires non autorisés.
+Contient une valeur de vérification de l’intégrité du contenu ASN.1 qui permet à un expéditeur de message de protéger le contenu du message contre la divulgation à des destinataires non autorisés.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une valeur de vérification de l'intégrité du contenu ASN. 1 qui perm
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété permet la non-répudiation du contenu des messages. En association avec **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), il garantit que le contenu d'un message arrive à sa destination inchangée.
+Cette propriété permet de ne pas répudier le contenu des messages. Conjointement **avec PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), il garantit que le contenu d’un message arrive à sa destination inchangée.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

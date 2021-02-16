@@ -25,7 +25,7 @@ ms.locfileid: "33419456"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie une interface du gestionnaire de formulaires, qu'un serveur de formulaires peut utiliser pour ouvrir un autre serveur de formulaires.
+Renvoie une interface de gestionnaire de formulaires, qu’un serveur de formulaires peut utiliser pour ouvrir un autre serveur de formulaires.
   
 ```cpp
 HRESULT GetFormManager(
@@ -37,7 +37,7 @@ HRESULT GetFormManager(
 
  _ppFormMgr_
   
-> remarquer Pointeur vers un pointeur vers l'interface du gestionnaire de formulaires renvoyée.
+> [out] Pointeur vers un pointeur vers l’interface du gestionnaire de formulaires renvoyée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -55,7 +55,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetFormManager  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite:: GetFormManager** pour appeler [MAPIOpenFormMgr](mapiopenformmgr.md) et renvoyer les résultats de cet appel.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetFormManager** pour appeler [MAPIOpenFormMgr](mapiopenformmgr.md) et renvoyer les résultats de cet appel.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

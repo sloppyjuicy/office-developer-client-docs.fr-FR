@@ -33,13 +33,13 @@ Pour obtenir une référence à la cellule CenterX par un nom à partir d'une au
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Center  <br/> |
+| Nom de la cellule :  <br/> | CenterX  <br/> |
    
 Pour obtenir une référence à la cellule CenterX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPrintProperties** <br/> |
 | Index de la cellule :  <br/> |**visPrintPropertiesCenterX** <br/> |
    

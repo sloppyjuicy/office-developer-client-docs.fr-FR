@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f311dd2-853e-46f7-966a-c2ab7a1fb6c5
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0bc8b8bd76d553cc4e12e331e9fe7047ef7aaf4e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,32 +25,32 @@ ms.locfileid: "32358911"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée de l'expéditeur du message.
+Contient l’identificateur d’entrée de l’expéditeur du message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SENDER_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0C19  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Adresse  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l'une des propriétés d'adresse de l'expéditeur du message. Il doit être défini par le fournisseur de transport sortant, qui ne doit jamais propager de valeurs précédemment existantes.
+Cette propriété est l’une des propriétés d’adresse de l’expéditeur du message. Elle doit être définie par le fournisseur de transport sortant, qui ne doit jamais propager les valeurs existantes.
   
-Si aucun fournisseur de transport n'a fourni de propriétés d'adresse d'expéditeur, le spouleur MAPI tente de les remplir en appelant la méthode [IMAPISession:: QueryIdentity](imapisession-queryidentity.md) pour un identificateur d'entrée. Si aucun identificateur d'entrée n'a été fourni, le spouleur MAPI identificateur correspondant à la chaîne «unKnown» dans cette propriété. 
+Si aucun fournisseur de transport n’a fourni de propriétés d’adresse d’expéditeur, lepooler MAPI tente de les remplir en appelant la méthode [IMAPISession::QueryIdentity](imapisession-queryidentity.md) pour un identificateur d’entrée. Si aucun identificateur d’entrée n’a été fourni, lepooler MAPI est un identificateur correspondant à la chaîne « Unknown » dans cette propriété. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
@@ -58,11 +58,11 @@ Si aucun fournisseur de transport n'a fourni de propriétés d'adresse d'expédi
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère l'ordre et le flux de transfert de données entre un client et un serveur.
+> Gère l’ordre et le flux des transferts de données entre un client et un serveur.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Effectue une conversion entre l'IETF RFC2445, RFC2446 et RFC2447, et les objets de rendez-vous et de réunion.
+> Convertit les objets RFC2445, RFC2446 et RFC2447 de l’IETF, ainsi que les objets de rendez-vous et de réunion.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
@@ -70,17 +70,17 @@ Si aucun fournisseur de transport n'a fourni de propriétés d'adresse d'expédi
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets post.
+> Spécifie les propriétés et opérations autorisées pour les objets de publication.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

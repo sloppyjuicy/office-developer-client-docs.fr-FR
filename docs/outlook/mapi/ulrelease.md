@@ -25,11 +25,11 @@ ms.locfileid: "33415844"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Offre un autre moyen d'appeler la méthode OLE **IUnknown:: Release**. 
+Fournit une autre méthode pour appeler la méthode OLE **IUnknown::Release**. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -41,9 +41,9 @@ ULONG UlRelease(
 
 ## <a name="parameters"></a>Paramètres
 
- _Punk_
+ _sous-président_
   
-> dans Pointeur vers une interface dérivée de l'interface **IUnknown** , en d'autres termes, toute interface MAPI. 
+> [in] Pointeur vers une interface dérivée de l’interface **IUnknown,** en d’autres termes toute interface MAPI. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -53,16 +53,16 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur d'origine inattendue ou inconnue a empêché l'opération de s'exécuter.
+> Une erreur d’origine inattendue ou inconnue a empêché l’exécution de l’opération.
     
 ## <a name="remarks"></a>Remarques
 
-Le nombre de références est le nombre de pointeurs existants vers l'objet à libérer. 
+Le nombre de références est le nombre de pointeurs existants vers l’objet à libérer. 
   
-Si le paramètre _punk_ est null, la fonction renvoie immédiatement sans appeler **IUnknown:: Release**
+Si le  _paramètre de contrôle_ est NULL, la fonction renvoie immédiatement sans appeler **IUnknown::Release**
   
- **UlRelease** renvoie la valeur retournée par la méthode **IUnknown:: Release** , qui peut être égale au nombre de références pour l'objet à libérer. 
+ **UlRelease renvoie** la valeur renvoyée par la méthode **IUnknown::Release,** qui peut être égale au nombre de références de l’objet à libérer. 
   
-Pour plus d'informations sur **IUnknown:: Release**, consultez [la rubrique Implementing the IUnknown interface](implementing-the-iunknown-interface.md). 
+Pour plus d’informations **sur IUnknown::Release,** voir [Implementing the IUnknown Interface](implementing-the-iunknown-interface.md). 
   
 

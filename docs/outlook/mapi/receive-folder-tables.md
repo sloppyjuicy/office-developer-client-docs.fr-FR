@@ -1,5 +1,5 @@
 ---
-title: Tables de dossiers de réception
+title: Tables des dossiers de réception
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417349"
 ---
-# <a name="receive-folder-tables"></a>Tables de dossiers de réception
+# <a name="receive-folder-tables"></a>Tables des dossiers de réception
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une table de dossiers de réception contient des informations pour tous les dossiers désignés comme dossiers de réception pour une banque de messages. Un dossier de réception est un dossier où les messages entrants d'une classe de message particulière sont placés. Les fournisseurs de banque de messages implémentent les tables de dossiers de réception et les applications clientes les utilisent en appelant la méthode [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . 
+Une table de dossiers de réception contient des informations pour tous les dossiers désignés comme dossiers de réception pour une magasin de messages. Un dossier de réception est un dossier dans lequel les messages entrants d’une classe de message particulière sont placés. Les fournisseurs de magasins de messages implémentent les tables de dossiers de réception et les applications clientes les utilisent en appelant la méthode [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
   
-Les propriétés suivantes constituent le jeu de colonnes requis dans les tables de dossiers de réception:
+Les propriétés suivantes définissent le jeu de colonnes requis dans les tables des dossiers de réception :
   
  **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 
   
@@ -35,5 +35,5 @@ Les propriétés suivantes constituent le jeu de colonnes requis dans les tables
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

@@ -25,12 +25,12 @@ ms.locfileid: "33417776"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets à allouer pour une nouvelle structure [SPropTagArray](sproptagarray.md) qui contient un nombre spécifié de balises de propriété. 
+Calcule le nombre d’octets à allouer pour une nouvelle structure [SPropTagArray](sproptagarray.md) qui contient un nombre spécifié de balises de propriété. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SPropTagArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 CbNewSPropTagArray (_ctag)
@@ -38,9 +38,9 @@ CbNewSPropTagArray (_ctag)
 
 ## <a name="parameters"></a>Paramètres
 
- __CTAG_
+ _ _ctag_
   
-> Nombre de balises de propriété à inclure dans la nouvelle structure **SPropTagArray** . 
+> Nombre de balises de propriété à inclure dans la nouvelle structure **SPropTagArray.** 
     
 ## <a name="see-also"></a>Voir aussi
 

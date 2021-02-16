@@ -57,5 +57,5 @@ Les formulaires InfoPath signés et les signatures numériques créées par Info
 
 
 
-[Utiliser des signatures numériques](how-to-work-with-digital-signatures.md)
+[Travailler avec des signatures numériques](how-to-work-with-digital-signatures.md)
 

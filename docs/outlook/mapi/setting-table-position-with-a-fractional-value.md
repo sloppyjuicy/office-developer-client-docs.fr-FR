@@ -1,5 +1,5 @@
 ---
-title: Définition de la position de la table avec une valeur fractionnaire
+title: Définition de la position du tableau avec une valeur fractionnaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437335"
 ---
-# <a name="setting-table-position-with-a-fractional-value"></a>Définition de la position de la table avec une valeur fractionnaire
+# <a name="setting-table-position-with-a-fractional-value"></a>Définition de la position du tableau avec une valeur fractionnaire
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Tableau les utilisateurs peuvent passer à une position qui représente un pourcentage approximatif de lignes par rapport au total. Au lieu de passer à une ligne exacte, cette méthode de positionnement divise le tableau en portions en fonction de fractions. Tableau les utilisateurs peuvent déplacer, par exemple, vers le point de la moitié d'un tableau ou vers la ligne 7/8 du tableau. 
+Les utilisateurs de tableau peuvent se déplacer vers une position qui représente un pourcentage approximatif de lignes par rapport au total. Plutôt que de passer à une ligne exacte, cette méthode de positionnement divise le tableau en parties en fractions. Les utilisateurs de tableau peuvent, par exemple, se déplacer vers le point à mi-chemin d’un tableau ou vers la ligne qui se trouve à 7/8 du chemin du tableau. 
   
- **Pour déplacer le curseur d'un nombre approximatif de lignes**
+ **Pour déplacer le curseur un nombre approximatif de lignes**
   
-- Appeler [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** passe à la ligne qui représente un pourcentage particulier de lignes par rapport au début de la table. Ce pourcentage est spécifié dans les paramètres _ulNumerator_ et _ulDenominator_ . **SeekRowApprox** est fréquemment utilisé pour implémenter des barres de défilement. 
+- Appelez [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** se déplace vers la ligne qui représente un pourcentage particulier de lignes par rapport au début du tableau. Ce pourcentage est spécifié dans les _paramètres ulNumerator_ et _ulDenominator._ **SeekRowApprox est fréquemment utilisé** pour implémenter des barres de défilement. 
     
- **Pour déterminer la position approximative d'une table**
+ **Pour déterminer la position approximative d’un tableau**
   
-- Appeler [IMAPITable:: QueryPosition](imapitable-queryposition.md). **QueryPosition** peut être utilisé pour informer l'utilisateur de la position actuelle. Il définit une valeur fractionnaire basée sur le nombre de lignes du tableau et le numéro de la ligne active. Attendez que cette valeur représente une approximation. Les implémenteurs de tableaux sont encouragés à ne pas calculer la position exacte, car les implémentations précises peuvent être coûteuses à appeler, en particulier dans les tables catégorisées. 
+- Appelez [IMAPITable::QueryPosition](imapitable-queryposition.md). **QueryPosition peut** être utilisé pour informer l’utilisateur de la position actuelle. Il définit une valeur fractionnaire en fonction du nombre de lignes du tableau et du numéro de la ligne actuelle. Attendez-vous à ce que cette valeur représente une estimation. Les implémenteurs de tableau sont encouragés à ne pas calculer la position exacte, car les implémentations précises peuvent être coûteuses à appeler, en particulier sur les tableaux catégorisés. 
     
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

@@ -22,13 +22,13 @@ Renvoie le sinus hyperbolique d’un angle.
   
 ## <a name="syntax"></a>Syntaxe
 
-SINH (* * *angle* * *) 
+SINH(** *angle* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle d'obtention du sinus hyperbolique.  <br/> |
+| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle pour lequel obtenir le sinus hyperbolique.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -36,7 +36,7 @@ Nombre
   
 ## <a name="remarks"></a>Remarques
 
-La fonction SINH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans _angle_.
+La fonction SINH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans _l’angle._
   
 ## <a name="example"></a>Exemple
 

@@ -1,5 +1,5 @@
 ---
-title: Recherche de messages envoyés ou enregistrés
+title: Recherche des messages envoyés ou enregistrés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,23 +15,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437419"
 ---
-# <a name="finding-sent-or-saved-messages"></a>Recherche de messages envoyés ou enregistrés
+# <a name="finding-sent-or-saved-messages"></a>Recherche des messages envoyés ou enregistrés
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- **Pour localiser tous les messages sortants enregistrés ou envoyés**
+ **Pour localiser tous les messages sortants que vous avez enregistrés ou envoyés**
   
-1. Appelez [IMsgStore:: CompareEntryIDs](imsgstore-compareentryids.md) pour comparer le dossier qui contient les messages envoyés avec le dossier qui contient vos messages entrants. 
+1. Appelez [IMsgStore::CompareEntryIDs](imsgstore-compareentryids.md) pour comparer le dossier qui contient vos messages envoyés avec le dossier qui contient vos messages entrants. 
     
-2. Définissez le paramètre _lpEntryID1_ de sorte qu'il pointe vers **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) et le paramètre _lpEntryID2_ de pointer vers **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
+2. Définissez le paramètre  _lpEntryID1_ pour qu’il pointe vers **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) et le paramètre  _lpEntryID2_ pour pointer vers **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
-N'oubliez pas que si vous supprimez des messages après les avoir envoyés ou si vous les avez déplacés vers un autre dossier, cette stratégie ne fonctionnera pas. 
+N’ignorez pas que si vous supprimez des messages après leur envoi ou que vous les avez déplacés vers un autre dossier, cette stratégie ne fonctionne pas. 
   
-Si, lors de l'examen d'un message entrant, vous remarquez que les propriétés qui sont généralement définies par un fournisseur de transport sont manquantes, vous pouvez supposer que le message n'a jamais été géré par un fournisseur de transport. Ces propriétés sont les suivantes :
+Si, lors de l’examen d’un message entrant, vous remarquez que les propriétés généralement définies par un fournisseur de transport sont manquantes, vous pouvez supposer que le message n’a jamais été géré par un fournisseur de transport. Ces propriétés sont les suivantes :
   
-- Propriétés **PR_RECEIVED_BY** 
+- **PR_RECEIVED_BY** propriétés 
     
 - **PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
     

@@ -25,7 +25,7 @@ ms.locfileid: "33417839"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste ASCII des langues qui sont incorporées dans un message. 
+Contient une liste ASCII des langues incorporées dans un message. 
   
 |||
 |:-----|:-----|
@@ -40,15 +40,15 @@ Ces propriétés contiennent une séquence de codes de pays/région à deux cara
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

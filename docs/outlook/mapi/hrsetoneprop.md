@@ -25,11 +25,11 @@ ms.locfileid: "33417657"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit ou modifie la valeur d'une propriété unique sur une interface de propriété, c'est-à-dire une interface dérivée de [IMAPIProp](imapipropiunknown.md). 
+Définit ou modifie la valeur d’une propriété unique sur une interface de propriétés, c’est-à-dire une interface dérivée [d’IMAPIProp](imapipropiunknown.md). 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -42,13 +42,13 @@ HrSetOneProp(
 
 ## <a name="parameters"></a>Paramètres
 
- _PMP_
+ _pmp_
   
-> dans Pointeur vers une interface [IMAPIProp](imapipropiunknown.md) sur laquelle la valeur de propriété doit être définie ou modifiée. 
+> [in] Pointeur vers une interface [IMAPIProp](imapipropiunknown.md) sur laquelle la valeur de la propriété doit être définie ou modifiée. 
     
  _pprop_
   
-> dans Pointeur vers la structure [SPropValue](spropvalue.md) définissant la valeur à définir sur la propriété _PMP_ . 
+> [in] Pointeur vers la structure [SPropValue](spropvalue.md) définissant la valeur à définir sur la _propriété pmp._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -56,8 +56,8 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Contrairement à la méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) , la fonction **HrSetOneProp** ne renvoie jamais aucun avertissement. Étant donné qu'elle définit une seule propriété, elle réussit ou échoue. Pour définir ou modifier plusieurs propriétés, **SetProps** est plus rapide. 
+Contrairement à [la méthode IMAPIProp::SetProps,](imapiprop-setprops.md) la fonction **HrSetOneProp** ne renvoie jamais d’avertissement. Étant donné qu’elle ne définit qu’une seule propriété, elle réussit ou échoue simplement. Pour définir ou modifier plusieurs propriétés, **SetProps** est plus rapide. 
   
-Vous pouvez récupérer une seule propriété à l'aide de la fonction [HrGetOneProp](hrgetoneprop.md) . 
+Vous pouvez récupérer une propriété unique avec [la fonction HrGetOneProp.](hrgetoneprop.md) 
   
 

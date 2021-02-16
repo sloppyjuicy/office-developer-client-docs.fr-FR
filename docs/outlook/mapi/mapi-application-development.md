@@ -21,6 +21,6 @@ ms.locfileid: "33417608"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les rubriques de cette section s'appliquent aux développeurs d'applications clientes et de fournisseurs de services. Ces rubriques sont classées par ordre d'importance. Autrement dit, les rubriques qui sont essentielles à tous les programmeurs apparaissent en premier et les rubriques qui sont d'une importance minime ou qui ne s'appliquent pas à tous les programmeurs apparaissent en dernier.
+Les rubriques de cette section s’appliquent aux développeurs d’applications clientes et de fournisseurs de services. Ces rubriques sont organisées par ordre d’importance. Autrement dit, les rubriques qui sont essentielles pour tous les programmeurs apparaissent en premier et les rubriques d’importance minimale ou qui ne s’appliquent pas à tous les programmeurs apparaissent en dernier.
   
 
