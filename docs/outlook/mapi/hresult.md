@@ -33,24 +33,24 @@ typedef LONG HRESULT;
 
 ## <a name="remarks"></a>Remarques
 
-Le type de données **HRESULT** est le même que le type de données [SCODE](scode.md) . 
+Le type de données **HRESULT** est identique au type de données [SCODE.](scode.md) 
   
-Une valeur **HRESULT** se compose des champs suivants: 
+Une **valeur HRESULT** se compose des champs suivants : 
   
-- Code à 1 bit indiquant la gravité, où zéro représente la réussite et 1 représente échec.
+- Code 1 bit indiquant la gravité, où zéro représente la réussite et 1 représente l’échec.
     
 - Valeur réservée 4 bits.
     
-- Code 11 bits indiquant la responsabilité de l'erreur ou de l'avertissement, également appelé code de fonction.
+- Code 11 bits indiquant la responsabilité de l’erreur ou de l’avertissement, également appelé code d’installation.
     
-- Code 16 bits décrivant l'erreur ou l'avertissement.
+- Code 16 bits décrivant l’erreur ou l’avertissement.
     
-La plupart des méthodes et fonctions de l'interface MAPI renvoient des valeurs **HRESULT** pour fournir des causes détaillées. Les valeurs **HRESULT** sont également largement utilisées dans les méthodes d'interface OLE. OLE fournit plusieurs macros pour la conversion entre des valeurs **HRESULT** et des valeurs **SCODE** , un autre type de données commun pour la gestion des erreurs. 
+La plupart des méthodes et fonctions d’interface MAPI retournent **des valeurs HRESULT** pour fournir une formation de cause détaillée. **Les valeurs HRESULT** sont également largement utilisées dans les méthodes d’interface OLE. OLE fournit plusieurs macros pour la conversion entre les valeurs **HRESULT** et les valeurs **SCODE,** un autre type de données courant pour la gestion des erreurs. 
   
 > [!NOTE]
 > Dans MAPI 64 bits, **HRESULT** est toujours une valeur 32 bits. 
   
-Pour plus d'informations sur l'utilisation OLE des valeurs **HRESULT** , consultez le *Guide de référence du programmeur OLE* . Pour plus d'informations sur l'utilisation de ces valeurs dans MAPI, consultez la rubrique [gestion des erreurs](error-handling-in-mapi.md) et l'une des méthodes d'interface suivantes: 
+Pour plus d’informations sur l’utilisation OLE des valeurs **HRESULT,** voir la *référence du programmeur OLE.* Pour plus d’informations sur l’utilisation de ces valeurs dans MAPI, voir [Gestion](error-handling-in-mapi.md) des erreurs et l’une des méthodes d’interface suivantes : 
   
 [IABLogon::GetLastError](iablogon-getlasterror.md)
   

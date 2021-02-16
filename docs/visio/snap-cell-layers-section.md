@@ -33,14 +33,14 @@ Pour obtenir une référence à la cellule Snap par un nom dans une autre formul
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers. Snap [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Layers.Snap[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Snap par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowLayer**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visLayerSnap** <br/> |
    
 

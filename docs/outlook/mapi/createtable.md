@@ -25,11 +25,11 @@ ms.locfileid: "33435011"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée des structures et un descripteur d'objet pour un objet [ITableData](itabledataiunknown.md) qui peut être utilisé pour créer le contenu du tableau. 
+Crée des structures et un handle d’objet pour un objet [ITableData](itabledataiunknown.md) qui peut être utilisé pour créer le contenu d’une table. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -51,19 +51,19 @@ SCODE CreateTable(
 
  _lpInterface_
   
-> dans Pointeur vers un identificateur d'interface (IID) pour l'objet de données de table. L'identificateur d'interface valide est IID_IMAPITableData. Le fait de transmettre NULL dans le paramètre _lpInterface_ entraîne également le cast de l'objet de données de tableau renvoyé dans le paramètre _lppTableData_ en interface standard pour un objet de données de tableau. 
+> [in] Pointeur vers un identificateur d’interface (IID) pour l’objet de données de table. L’identificateur d’interface valide est IID_IMAPITableData. La transmission de la valeur NULL dans le paramètre  _lpInterface_ entraîne également le cast de l’objet de données de table renvoyé dans le paramètre  _lppTableData_ vers l’interface standard d’un objet de données de table. 
     
  _lpAllocateBuffer_
   
-> dans Pointeur vers la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire. 
+> [in] Pointeur vers la [fonction MAPIAllocateBuffer,](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire. 
     
  _lpAllocateMore_
   
-> dans Pointeur vers la fonction [MAPIAllocateMore](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire. 
+> [in] Pointeur vers la [fonction MAPIAllocateMore,](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire. 
     
  _lpFreeBuffer_
   
-> dans Pointeur vers la fonction [MAPIFreeBuffer](mapifreebuffer.md) à utiliser pour libérer de la mémoire. 
+> [in] Pointeur vers la [fonction MAPIFreeBuffer,](mapifreebuffer.md) à utiliser pour libérer de la mémoire. 
     
  _lpvReserved_
   
@@ -71,31 +71,31 @@ SCODE CreateTable(
     
  _ulTableType_
   
-> dans Un type de table disponible pour une application cliente ou un fournisseur de services dans le cadre de la fonction [IMAPITable:: GetStatus](imapitable-getstatus.md) renvoie des données dans ses vues de tableau. Les valeurs possibles sont les suivantes : 
+> [in] Un type de table qui est disponible pour une application cliente ou un fournisseur de services dans le cadre de [l’IMAPITable::GetStatus](imapitable-getstatus.md) retourne des données sur ses vues de table. Les valeurs possibles sont les suivantes : 
     
 TBLTYPE_DYNAMIC 
   
-> Le contenu de la table est dynamique et peut changer lorsque les données sous-jacentes sont modifiées. 
+> Le contenu de la table est dynamique et peut changer à mesure que les données sous-jacentes changent. 
     
 TBLTYPE_KEYSET 
   
-> Les lignes du tableau sont fixes, mais les valeurs de ces lignes sont dynamiques et peuvent changer à mesure que les données sous-jacentes sont modifiées. 
+> Les lignes du tableau sont fixes, mais les valeurs de ces lignes sont dynamiques et peuvent changer à mesure que les données sous-jacentes changent. 
     
 TBLTYPE_SNAPSHOT 
   
-> Le tableau est statique et le contenu ne change pas lorsque les données sous-jacentes sont modifiées. 
+> La table est statique et le contenu ne change pas lorsque les données sous-jacentes changent. 
     
  _ulPropTagIndexColumn_
   
-> dans Numéro d'index de la colonne à utiliser lors de la modification des données de la table. 
+> [in] Numéro d’index de la colonne à utiliser lors de la modification des données de table. 
     
  _lpSPropTagArrayColumns_
   
-> dans Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant les propriétés requises dans la table pour laquelle l'objet contient des données. 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant les propriétés requises dans la table pour laquelle l’objet contient des données. 
     
  _lppTableData_
   
-> remarquer Pointeur vers un pointeur vers l'objet de données de tableau renvoyé.
+> [out] Pointeur vers un pointeur vers l’objet de données de table renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -105,7 +105,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les paramètres d'entrée _lpAllocateBuffer_, _lpAllocateMore_et _lpFreeBuffer_ pointent vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md) , respectivement. Une application cliente qui appelle **CreateTable** passe des pointeurs vers les fonctions MAPI que vous venez de nommer; un fournisseur de services transmet les pointeurs vers ces fonctions qu'il a reçues dans son appel d'initialisation ou qui a été récupéré avec un appel à la méthode [IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
+Les paramètres d’entrée _lpAllocateBuffer,_ _lpAllocateMore_ et _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer.](mapifreebuffer.md) Une application cliente appelant **CreateTable** transmet des pointeurs vers les fonctions MAPI nommées ; un fournisseur de services transmet les pointeurs vers ces fonctions qu’il a reçues dans son appel d’initialisation ou récupérées avec un appel à la méthode [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

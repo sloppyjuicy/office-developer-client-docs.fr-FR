@@ -1,5 +1,5 @@
 ---
-title: Ajout d’une action personnalisée sous forme de réponse à un élément de courrier
+title: Ajouter une action personnalisée en guise de réponse à un élément de courrier
 TOCTitle: Add a custom action as a response to a mail item
 ms:assetid: 99e8ba6b-9c47-4b10-968b-436b08d199ec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424474(v=office.15)
@@ -31,7 +31,7 @@ Vous pouvez créer des actions personnalisées par programmation de façon à ce
 > Vous pouvez également ajouter des actions personnalisées au moment de la conception à l’aide du concepteur Forms d’Outlook.
 
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

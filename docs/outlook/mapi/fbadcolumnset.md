@@ -25,7 +25,7 @@ ms.locfileid: "33434717"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Teste la validité d'un jeu de colonnes de table en vue d'une utilisation par un fournisseur de services lors d'un appel ultérieur à la méthode [IMAPITable:: SetColumns](imapitable-setcolumns.md) . 
+Teste la validité d’un ensemble de colonnes de tableau à utiliser par un fournisseur de services dans un appel ultérieur à la méthode [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
   
 |||
 |:-----|:-----|
@@ -43,13 +43,13 @@ ULONG FBadColumnSet(
 
  _lpptaCols_
   
-> dans Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété qui définissent les colonnes de tableau à valider. 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété définissant les colonnes de tableau à valider. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Le jeu de colonnes spécifié n'est pas valide. 
+> Le jeu de colonnes spécifié n’est pas valide. 
     
 FALSE 
   
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FBadColumnSet** traite les colonnes de type PT_ERROR comme non valides et les colonnes de type PT_NULL comme valides. 
+La **fonction FBadColumnSet** traite les colonnes de type PT_ERROR comme non valides et les colonnes de type PT_NULL comme valides. 
   
 

@@ -23,7 +23,7 @@ Détermine la distance séparant une ligne de texte de la suivante, exprimée en
 |**Valeur**|**Description**|
 |:-----|:-----|
 | \>0  <br/> | Espacement absolu, quelle que soit la taille en points des caractères  <br/> |
-| = 0  <br/> | Total (espacement = 100 % de la taille des caractères)  <br/> |
+| =0  <br/> | Total (espacement = 100 % de la taille des caractères)  <br/> |
 | \<0  <br/> | Un pourcentage de la taille des caractères (par exemple, -120 % donne un espacement de 120 %)  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -32,14 +32,14 @@ Pour obtenir une référence à la cellule SpLine par un nom dans une autre form
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | &. Spline [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Para. SpLine [  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule SpLine dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionParagraph** <br/> |
-| Index de la ligne :  <br/> |**visRowParagraph** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowParagraph**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visSpaceLine** <br/> |
    
 

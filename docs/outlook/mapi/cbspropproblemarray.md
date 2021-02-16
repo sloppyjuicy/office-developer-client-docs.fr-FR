@@ -25,12 +25,12 @@ ms.locfileid: "33434906"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [SPropProblemArray](spropproblemarray.md) existante. 
+Calcule le nombre d’octets dans une structure [SPropProblemArray](spropproblemarray.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SPropProblemArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbSPropProblemArray (_lparray)
@@ -38,7 +38,7 @@ CbSPropProblemArray (_lparray)
 
 ## <a name="parameters"></a>Paramètres
 
- __LPArray_
+ _ _lparray_
   
 > Pointeur vers la structure **SPropProblemArray** existante. 
     

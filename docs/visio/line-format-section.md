@@ -22,6 +22,6 @@ Contient les cellules qui contrôlent les attributs de traits d'une forme, tels 
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir les formats de ligne à l'aide du volet **format** de la forme (sous l'onglet **Accueil** , dans le groupe **styles de formes** , cliquez sur **trait**, sur options de **trait**), en appliquant un style de trait ou en saisissant une formule dans une cellule de format de ligne.
+Vous pouvez définir des formats de lignes à  l’aide du volet Format de forme (sous l’onglet Accueil, dans le groupe **Styles** de forme, cliquez sur **Trait,** Cliquez sur **Options** de trait), en appliquant un style de trait ou en entrant une formule dans une cellule de format de ligne. 
   
 

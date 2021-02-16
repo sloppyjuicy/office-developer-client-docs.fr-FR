@@ -32,23 +32,23 @@ Contient une carte hôte des formulaires disponibles.
 |Propriétés associées :  <br/> |PR_FORM_HOST_MAP  <br/> |
 |Identificateur :  <br/> |0x3306  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Une application cliente doit mettre à jour cette propriété, ainsi que la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), lors de la modification de la structure sous-jacente dans l'interface **IMAPIFormProp** . 
+Une application cliente doit mettre à jour cette propriété, ainsi que la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), lors de la modification de la structure sous-jacente dans l’interface **IMAPIFormProp.** 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

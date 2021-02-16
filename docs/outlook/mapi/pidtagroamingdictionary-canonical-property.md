@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40b50181-f88c-40ee-b3d0-a36dd36c158e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4b2aa12b1b81dfd218781a839f5f84881763ef06
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "32359548"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un document XML qui décrit le dictionnaire d'itinérance.
+Contient un document XML qui décrit le dictionnaire itinérant.
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Contient un document XML qui décrit le dictionnaire d'itinérance.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient un document XML UNICODE qui utilise le codage UTF8. Un message avec un flux de dictionnaire doit définir cette propriété avec le schéma suivant:
+Cette propriété contient un document XML UNICODE qui utilise le codage UTF8. Un message avec un flux de dictionnaire doit définir cette propriété avec le schéma suivant :
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
@@ -50,7 +50,7 @@ Cette propriété contient un document XML UNICODE qui utilise le codage UTF8. U
    </xs:complexType>
 ```
 
-Voici un exemple de document XML stocké dans cette propriété sur un message de données de configuration: 
+Voici un exemple de document XML stocké dans cette propriété dans un message de données de configuration : 
   
 ```xml
 <?xml version="1.0"?> 
@@ -64,27 +64,27 @@ Voici un exemple de document XML stocké dans cette propriété sur un message d
 </UserConfiguration>
 ```
 
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l'emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

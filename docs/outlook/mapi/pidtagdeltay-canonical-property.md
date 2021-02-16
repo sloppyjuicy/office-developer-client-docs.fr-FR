@@ -25,30 +25,30 @@ ms.locfileid: "33434787"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la hauteur d'un contrôle de boîte de dialogue dans les unités de boîte de dialogue Windows standard. 
+Contient la hauteur d’un contrôle de boîte de dialogue dans les unités de boîte de dialogue Windows standard. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_DELTAY  <br/> |
 |Identificateur :  <br/> |0x3F04  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Table d'affichage MAPI  <br/> |
+|Domaine :  <br/> |Tableau d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) et cette propriété contrôle la position et la taille du contrôle de la boîte de dialogue. 
+Le **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)), et cette propriété contrôle la position et la taille du contrôle de boîte de dialogue. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

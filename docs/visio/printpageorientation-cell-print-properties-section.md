@@ -23,12 +23,12 @@ Détermine si la page est imprimée en orientation portrait ou paysage.
 |**Valeur**|**Orientation**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Identique au papier de l'imprimante  <br/> |**visPPOSameAsPrinter** <br/> |
-| 0,1  <br/> | Photo  <br/> |**visPPOPortrait** <br/> |
-|n°2  <br/> |Pose  <br/> |**visPPOLandscape** <br/> |
+| 1   <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
+|2   <br/> |Paysage  <br/> |**visPPOLandscape** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous insérez de nouvelles pages dans un document, ce paramètre est défini par défaut sur la page active.
+Lorsque vous insérez de nouvelles pages dans un document, ce paramètre est par défaut le paramètre de la page active.
   
 Pour obtenir une référence à la cellule PrintPageOrientation par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule PrintPageOrientation à l'aide d'un i
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPrintProperties** <br/> |
 | Index de la cellule :  <br/> |**visPrintPropertiesPageOrientation** <br/> |
    

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ead7c9c33c92240ba5e458b68635b766caaa9760
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "32359562"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un flux de message associé à une sous-classe de la **IPM. **Classe de configuration. 
+Contient un flux de message associé à une sous-classe de la **classeIPM.Config'uration.** 
   
 |||
 |:-----|:-----|
@@ -32,29 +32,29 @@ Contient un flux de message associé à une sous-classe de la **IPM. **Classe de
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient le flux de données associé à un **IPM. **Message de la classe du message de configuration. Le format du flux dépend de la classe de message. Par exemple, un message de type de classe **IPM. La configuration de la saisie semi-automatique** sera formatée en tant que [flux de saisie semi-automatique](autocomplete-stream.md).
+Cette propriété contient le flux de données associé à un messageIPM.Configmessage de classe de message **d’uration.** Le format du flux dépend de la classe de message. Par exemple, un message de type classe **IPM.Config'uration. La mise encomplet automatique** serait mise en forme en tant que [flux de mise encomplet automatique.](autocomplete-stream.md)
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications de protocole Microsoft Exchange Server connexes.
+> Fournit des références aux spécifications Microsoft Exchange Server de protocole associées.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l'emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
