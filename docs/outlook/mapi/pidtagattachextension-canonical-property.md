@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 26efa868de29bc8a6a180b717230951b76da26a3
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32319760"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une extension de nom de fichier qui indique le type de document d'une pièce jointe. 
+Contient une extension de nom de fichier qui indique le type de document d’une pièce jointe. 
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Contient une extension de nom de fichier qui indique le type de document d'une p
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont définies par l'application cliente au moment de l'envoi. 
+Ces propriétés sont définies par l’application cliente au moment de la soumission. 
   
-Le système de messagerie utilise **PR_ATTACH_EXTENSION** pour convertir les pièces jointes des messages (conversion en cours) ou lancer des applications en fonction des pièces jointes dans les messages reçus. Si le client d'envoi ne fournit pas de valeur pour ces propriétés, la Banque de messages qui gère la pièce jointe n'est pas obligée de la générer. Le client destinataire doit d'abord vérifier la **PR_ATTACH_EXTENSION**et, si elle n'est pas fournie, analyser l'extension de nom de fichier à partir de l' **PR_ATTACH_FILENAME** de la pièce jointe ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) ou **PR_ATTACH_LONG_FILENAME **([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)). 
+Le système de messagerie utilise **PR_ATTACH_EXTENSION** lors de la conversion de pièces jointes de messages (conversion sur route) ou du lancement d’applications basées sur des pièces jointes dans les messages reçus. Si le client d’envoi ne fournit pas de valeur pour ces propriétés, la boutique de messages qui gère la pièce jointe n’est pas tenue de la générer. Le client de réception doit d’abord vérifier la PR_ATTACH_EXTENSION et, si elle n’est pas fournie, doit l’parer à partir de la propriété **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) ou **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) de la pièce jointe. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets message et pièce jointe.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

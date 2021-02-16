@@ -1,5 +1,5 @@
 ---
-title: Exemples de tâches utilisant des événements Outlook
+title: Exemples de tâches utilisant des événements Outlook
 TOCTitle: Sample tasks using Outlook events
 ms:assetid: efa18d44-43f3-4dd2-8390-fe228ed88971
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184651(v=office.15)

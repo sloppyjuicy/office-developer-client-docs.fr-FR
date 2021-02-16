@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3b4abef731541e308b2c2ebc6f4aaddf4458e257
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32317324"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-S'inscrire pour recevoir une notification des événements spécifiés qui affectent la Banque de messages.
+S’inscrit pour recevoir une notification des événements spécifiés qui affectent la boutique de messages.
   
 ```cpp
 HRESULT Advise(
@@ -41,101 +41,101 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée du dossier ou du message sur les notifications à générer, ou sur **null**. Si _lpEntryID_ est défini sur null, **Advise** les registres des notifications sur l'intégralité de la Banque de messages. 
+> [in] Pointeur vers l’identificateur d’entrée du dossier ou du message concernant les notifications à générer, ou **null**. Si  _lpEntryID_ est définie sur NULL, **Advise** s’inscrit pour les notifications sur l’ensemble de la boutique de messages. 
     
  _ulEventMask_
   
-> dans Masque de valeurs qui indiquent les types d'événements de notification qui intéressent l'appelant et qui doit être inclus dans l'inscription. Il existe une structure de [notification](notification.md) correspondante associée à chaque type d'événement qui contient des informations sur l'événement. Les valeurs valides pour le paramètre _ulEventMask_ sont les suivantes: 
+> [in] Masque de valeurs qui indiquent les types d’événements de notification qui intéressent l’appelant et qui doivent être inclus dans l’inscription. Il existe une structure [de NOTIFICATION](notification.md) correspondante associée à chaque type d’événement qui contient des informations sur l’événement. Les valeurs suivantes sont valides pour  _le paramètre ulEventMask_ : 
     
  _fnevCriticalError_
   
-> Enregistre les notifications concernant les erreurs graves, telles que la mémoire insuffisante.
+> S’inscrit aux notifications concernant les erreurs graves, telles que la mémoire insuffisante.
     
  _fnevExtended_
   
-> Enregistre les notifications relatives aux événements spécifiques au fournisseur de banque de messages particulier.
+> S’inscrit pour les notifications sur les événements spécifiques au fournisseur de magasin de messages particulier.
     
  _fnevNewMail_
   
-> Enregistre les notifications relatives à l'arrivée de nouveaux messages. 
+> S’inscrit aux notifications concernant l’arrivée de nouveaux messages. 
     
  _fnevObjectCreated_
   
-> Enregistre les notifications relatives à la création d'un nouveau dossier ou d'un nouveau message.
+> S’inscrit aux notifications concernant la création d’un dossier ou d’un message.
     
  _fnevObjectCopied_
   
-> Enregistre les notifications relatives à la copie d'un dossier ou d'un message.
+> S’inscrit aux notifications concernant un dossier ou un message en cours de copie.
     
  _fnevObjectDeleted_
   
-> Enregistre les notifications relatives à la suppression d'un dossier ou d'un message.
+> S’inscrit aux notifications concernant la suppression d’un dossier ou d’un message.
     
  _fnevObjectModified_
   
-> Enregistre les notifications relatives à la modification d'un dossier ou d'un message.
+> S’inscrit aux notifications concernant la modification d’un dossier ou d’un message.
     
  _fnevObjectMoved_
   
-> Enregistre les notifications relatives à un dossier ou à un message déplacé.
+> S’inscrit aux notifications concernant un dossier ou un message déplacé.
     
  _fnevSearchComplete_
   
-> Enregistre les notifications relatives à l'exécution d'une opération de recherche.
+> S’inscrit aux notifications concernant la fin d’une opération de recherche.
     
  _lpAdviseSink_
   
-> dans Pointeur vers un objet de récepteur de notification pour recevoir les notifications suivantes. Cet objet de récepteur de notifications doit déjà avoir été alloué.
+> [in] Pointeur vers un objet de réception de notification pour recevoir les notifications suivantes. Cet objet de sink de conseil doit avoir déjà été alloué.
     
  _lpulConnection_
   
-> remarquer Pointeur vers un nombre différent de zéro qui représente la connexion entre l'objet de récepteur d'avertissement de l'appelant et la session. 
+> [out] Pointeur vers un numéro autre que zéro qui représente la connexion entre l’objet de l’objet de conseiller de l’appelant et la session. 
     
  _lpAdviseSink_
   
-> dans Pointeur vers un objet de récepteur de notification pour recevoir les notifications suivantes. Cet objet de récepteur de notifications doit déjà avoir été alloué. 
+> [in] Pointeur vers un objet de réception de notification pour recevoir les notifications suivantes. Cet objet de sink de conseil doit avoir déjà été alloué. 
     
  _lpulConnection_
   
-> remarquer Pointeur vers un numéro de connexion différent de zéro qui représente la connexion entre l'objet de récepteur de notification de l'appelant et la Banque de messages.
+> [out] Pointeur vers un numéro de connexion autre que zéro qui représente la connexion entre l’objet de l’objet de conseiller de l’appelant et la magasin de messages.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'inscription a réussi.
+> L’inscription a réussi.
     
 MAPI_E_NO_SUPPORT 
   
-> Le fournisseur de banque de messages ne prend pas en charge l'enregistrement des notifications par le biais de la Banque de messages.
+> Le fournisseur de la boutique de messages ne prend pas en charge l’inscription pour la notification via la boutique de messages.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgStore:: Advise** établit une connexion entre l'objet récepteur de notification de l'appelant et la Banque de messages ou un objet dans la Banque de messages. Cette connexion est utilisée pour envoyer des notifications au récepteur de notifications lorsqu'un ou plusieurs événements, tels que spécifiés dans le paramètre _ulEventMask_ , ont lieu dans l'objet de source Advise. Lorsque le paramètre _lpEntryID_ pointe vers un identificateur d'entrée valide, la source de notification est l'objet identifié par cet identificateur d'entrée. Lorsque _lpEntryID_ est null, la source de notification est la Banque de messages. 
+La **méthode IMsgStore::Advise** établit une connexion entre l’objet de l’objet de l’appelant qui le conseille et la magasin de messages ou un objet dans la magasin de messages. Cette connexion est utilisée pour envoyer des notifications au réception de notification lorsqu’un ou plusieurs événements, comme spécifié dans le paramètre  _ulEventMask,_ se produisent à l’objet source de notification. Lorsque le  _paramètre lpEntryID_ pointe vers un identificateur d’entrée valide, la source de conseil est l’objet identifié par cet identificateur d’entrée. Lorsque  _lpEntryID_ est NULL, la source de conseil est la magasin de messages. 
   
-Pour envoyer une notification, le fournisseur de banque de messages ou MAPI appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) du récepteur de notification enregistré. L'un des paramètres de **OnNotify**, une structure de notification, contient des informations qui décrivent l'événement spécifique.
+Pour envoyer une notification, le fournisseur de magasin de messages ou MAPI appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) du sink de notification inscrit. L’un des paramètres **de OnNotify**, une structure de notification, contient des informations qui décrivent l’événement spécifique.
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous pouvez prendre en charge les notifications avec ou sans l'aide de MAPI. MAPI dispose de trois méthodes d'objet de prise en charge pour aider les fournisseurs de services à implémenter la notification: [IMAPISupport:: subscribe](imapisupport-subscribe.md), [IMAPISupport:: unsubscribe](imapisupport-unsubscribe.md)et [IMAPISupport:: Notify](imapisupport-notify.md). Si vous choisissez d'utiliser les méthodes de prise en charge MAPI, appelez **subscribe** lorsque votre méthode Advise est appelée et relâchez le pointeur _lpAdviseSink_ . **** 
+Vous pouvez prendre en charge les notifications avec ou sans l’aide de MAPI. MAPI dispose de trois méthodes objet de support pour aider les fournisseurs de services à implémenter la notification : [IMAPISupport::Subscribe](imapisupport-subscribe.md), [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)et [IMAPISupport::Notify](imapisupport-notify.md). Si vous utilisez les méthodes de support MAPI, appelez **Subscribe** lorsque votre méthode **Advise** est appelée et relâchez le pointeur _lpAdviseSink._ 
   
-Si vous choisissez de prendre en charge la notification vous-même, appelez la méthode [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) du récepteur de notifications représenté par le paramètre _lpAdviseSink_ pour conserver une copie de ce pointeur. Conservez cette copie jusqu'à ce que la méthode [IMsgStore::](imsgstore-unadvise.md) Unadvise soit appelée pour annuler l'inscription. 
+Si vous avez choisi de prendre en charge la notification vous-même, appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) du sink de notification représenté par le paramètre  _lpAdviseSink_ pour conserver une copie de ce pointeur. Conservez cette copie jusqu’à ce que [votre méthode IMsgStore::Unadvise](imsgstore-unadvise.md) soit appelée pour annuler l’inscription. 
   
-Quelle que soit la façon dont vous prenez en charge la notification, attribuez un numéro de connexion différent de zéro à l'enregistrement des notifications et renvoyez-le dans le paramètre _lpulConnection_ . Ne libérez pas ce numéro de **** connexion tant que Unadvise n'a pas été appelé et qu'il est terminé. 
+Quelle que soit la prise en charge de la notification, affectez un numéro de connexion non zéro à l’inscription de la notification et renvoyez-le dans _le paramètre lpulConnection._ Ne relâchez pas ce numéro de connexion tant **qu’Unadvise n’a** pas été appelé et n’est pas terminé. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Sur les systèmes qui prennent en charge plusieurs threads d'exécution, l'appel à **OnNotify** peut également se produire sur n'importe quel thread à tout moment. Si vous devez être sûr que les notifications ne se produisent qu'à un moment donné sur un thread particulier, appelez la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour générer l'objet de récepteur de notifications que vous transmettez à l' **avis**. 
+Sur les systèmes qui prendre en charge plusieurs threads d’exécution, l’appel à **OnNotify** peut également se produire sur n’importe quel thread à tout moment. Si vous devez être certain que les notifications se produisent uniquement à un moment particulier sur un thread particulier, appelez la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour générer l’objet de réception de notification que vous passez à **Advise**. 
   
-Une fois qu'un **** appel à Advise a réussi et avant que Unadvise ait été appelé pour annuler l'inscription, soyez prêt à libérer l'objet de récepteur de notifications. **** Vous devez libérer votre objet de récepteur d' **** avertissement après le renvoi de la fonction Advise, sauf si vous disposez d'une utilisation de longue durée spécifique. 
+Une fois qu’un appel à **Advise** a réussi et avant **qu’Unadvise** ait été appelé pour annuler l’inscription, soyez prêt à libérer l’objet du reçu de conseil. Vous devez libérer votre objet de sink de conseil après le retour **de Advise,** sauf si vous avez une utilisation spécifique à long terme pour lui. 
   
-Pour plus d'informations sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md). 
+Pour plus d’informations sur le processus de notification, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). 
   
-Pour plus d'informations sur la gestion des notifications, consultez la rubrique [gestion](handling-notifications.md)des notifications. 
+Pour plus d’informations sur la gestion des notifications, voir [Gestion des notifications.](handling-notifications.md) 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -143,7 +143,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|BaseDialog. cpp  <br/> |CBaseDialog:: OnNotificationsOn  <br/> |MFCMAPI utilise la méthode **IMsgStore:: Advise** pour s'inscrire aux notifications sur l'intégralité de la Banque de messages.  <br/> |
+|BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI utilise la **méthode IMsgStore::Advise** pour s’inscrire aux notifications sur l’ensemble de la boutique de messages.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

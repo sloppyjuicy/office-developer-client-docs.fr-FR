@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4f9d44f2-4faa-4f16-9e33-22f80c17db85
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8ebaea7fb6888e51ee1ef658db53dcf3050644da
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32325612"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l'heure auxquelles un message a été remis. 
+Contient la date et l’heure de livraison d’un message. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contient la date et l'heure auxquelles un message a été remis.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété décrit l'heure à laquelle le message a été stocké sur le serveur, et non le temps de téléchargement lorsque le fournisseur de transport a copié le message du serveur vers le magasin local.
+Cette propriété décrit l’heure à partir de quel moment le message a été stocké sur le serveur, plutôt que l’heure de téléchargement où le fournisseur de transport a copié le message du serveur vers le magasin local.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

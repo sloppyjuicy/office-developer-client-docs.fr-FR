@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
-description: Ce document est fourni en l'état. Les informations et les opinions exprimées dans ce document, y compris les URL et autres références de site Web Internet, peuvent être modifiées sans préavis. Vous assumez tous les risques liés à son utilisation.
+description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
 ms.openlocfilehash: a5f838c353b072bd9bc786f1bb88a312d7c35eb0
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32322140"
 ---
 # <a name="office-2013-documentation-copyright-notice"></a>Notice de copyright de la documentation de 2013 Office
 
-Ce document est fourni en l'état. Les informations et les opinions exprimées dans ce document, y compris les URL et autres références de site Web Internet, peuvent être modifiées sans préavis. Vous assumez tous les risques d’utilisation. 
+Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   
 Certains exemples décrits dans ce document sont fournis uniquement à titre d'illustration et sont fictifs. Aucune association ou connexion réelle n'est voulue ni ne doit être inférée.
   

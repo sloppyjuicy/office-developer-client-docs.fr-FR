@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7a7134a037aa4845ae22ab18899d27f1e50d6b7e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,58 +25,58 @@ ms.locfileid: "32321321"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de blocs de données qui représentent des réunions refusées.
+Contient une liste de blocs de données qui représentent les réunions qui ont été refusées.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_APPT_TOMBSTONE  <br/> |
 |Identificateur :  <br/> |0x686A  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Disponibilité  <br/> |
+|Domaine :  <br/> |Libre/Occupé  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les blocs de données commencent par un en-tête de valeurs de bit 32 défini comme suit:
+Les blocs de données commencent par un en-tête de valeurs de 32 bits définies comme :
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
 |Identifier  <br/> |Ce champ doit être la valeur 0xBEDEAFCD.  <br/> |
 |HeaderSize  <br/> |Ce champ doit avoir la valeur 0x00000014.  <br/> |
 |Version  <br/> |Ce champ doit avoir la valeur 3.  <br/> |
-|RecordsCount  <br/> |Nombre d'enregistrements qui suivent.  <br/> |
+|RecordsCount  <br/> |Nombre d’enregistrements qui suivent.  <br/> |
 |RecordsSize  <br/> |Ce champ doit avoir la valeur 0x00000014.  <br/> |
    
-L'en-tête est suivi par des entrées de **RecordsCount** de 32 bits définies comme suit: 
+L’en-tête est suivi des **entrées RecordsCount** de valeurs 32 bits définies comme suit : 
   
-|**Value**|**Description**|
+|**Valeur**|**Description**|
 |:-----|:-----|
-|StartTime  <br/> |Heure de début de l'objet de réunion, en minutes, depuis minuit, le 1er janvier 1601, UTC.  <br/> |
-|EndTime  <br/> |Heure de fin de l'objet de réunion, en minutes, depuis minuit, le 1er janvier 1601, UTC.  <br/> |
+|StartTime  <br/> |Heure de début de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC).  <br/> |
+|EndTime  <br/> |Heure de fin de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC).  <br/> |
 |GlobalObjectIdSize  <br/> |Taille, en octets, du champ GlobalObjectId.  <br/> |
-|GlobalObjectId  <br/> |Valeur de la propriété **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion représentée par cet enregistrement.  <br/> |
-|UserName  <br/> |Les deux premiers octets correspondent à la longueur de la chaîne PT_STRING8 qui suit.  <br/> |
+|GlobalObjectId  <br/> |Valeur de la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion que cet enregistrement représente.  <br/> |
+|UserName  <br/> |Les deux premiers octets sont la longueur de la chaîne PT_STRING8 suivante.  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

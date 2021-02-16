@@ -1,5 +1,5 @@
 ---
-title: Filtrage et affichage des éléments de boîte de réception modifiés le mois dernier
+title: Filtrer et afficher les éléments de boîte de réception modifiés le mois dernier
 TOCTitle: Filter and display Inbox items modified in the last month
 ms:assetid: ef6004dc-0b5a-4d1f-8937-1384d1dfc1ca
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424482(v=office.15)
@@ -33,7 +33,7 @@ La ligne de code suivante montre comment utiliser la méthode **LocalTimeToUTC**
 DateTime modified = nextRow.LocalTimeUTC(“LastModificationTime”);
 ```
 
-Le tableau suivant répertorie les macros **DateTime** que vous pouvez utiliser pour retourner des chaînes filtrées qui comparent la valeur d'une propriété **DateTime** donnée avec une date relative ou une plage de dates spécifiées en temps UTC. La valeur de la propriété SchemaName représente toute propriété**DateTime**valide référencée par espace de noms.
+Le tableau suivant répertorie les macros **DateTime** que vous pouvez utiliser pour retourner des chaînes filtrées qui comparent la valeur d'une propriété **DateTime** donnée avec une date relative ou une plage de dates spécifiées en temps UTC. La valeur de la propriété SchemaName représente toute propriété **DateTime** valide référencée par espace de noms.
 
 <table>
 <colgroup>
@@ -108,9 +108,9 @@ Le tableau suivant répertorie les macros **DateTime** que vous pouvez utiliser 
 </table>
 
 
-Dans l'exemple suivant, DemoDASLDateMacro crée une requête DASL qui utilise la macro** DateTime lastmonth**pour filtrer des éléments de la boîte de réception (Inbox) de l'utilisateur qui ont été modifiés au cours du dernier mois. Il crée ensuite un**objet**du tableau avec ce filtre et énumère et affiche les lignes dans l’**objet**du tableau restreint.
+Dans l'exemple suivant, DemoDASLDateMacro crée une requête DASL qui utilise la macro **DateTime lastmonth** pour filtrer des éléments de la boîte de réception (Inbox) de l'utilisateur qui ont été modifiés au cours du dernier mois. Il crée ensuite un **objet** du tableau avec ce filtre et énumère et affiche les lignes dans l’**objet** du tableau restreint.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

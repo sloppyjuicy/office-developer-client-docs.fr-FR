@@ -20,7 +20,7 @@ Cette rubrique fait la synthèse des recommandations sur l'arrêt des complémen
 
 ## <a name="add-in-shutdown-changes-in-outlook"></a>L’application shutdown change dans Outlook
 
-En commençant dans Outlook 2010, Outlook, par défaut, ne signale pas de compléments qu’il arrête. Plus précisément, Outlook n'appelle plus les méthodes** OnBeginShutdown(Matrice)** et**OnDisconnectionn(ext\_DisconnectMode, Matrice)** méthodes de l'interface**IDTExtensibility2**lors des arrêts rapides. De façon similaire, un complément Outlook écrit avec des outils de développement Microsoft Office dans Microsoft Visual Studio 2010 ou une version plus récente, n'appelle plus la méthode ThisAddin\_Shutdown lorsqu’Outlook s'arrête. 
+En commençant dans Outlook 2010, Outlook, par défaut, ne signale pas de compléments qu’il arrête. Plus précisément, Outlook n'appelle plus les méthodes **OnBeginShutdown(Matrice)** et **OnDisconnectionn(ext\_DisconnectMode, Matrice)** méthodes de l'interface **IDTExtensibility2** lors des arrêts rapides. De façon similaire, un complément Outlook écrit avec des outils de développement Microsoft Office dans Microsoft Visual Studio 2010 ou une version plus récente, n'appelle plus la méthode ThisAddin\_Shutdown lorsqu’Outlook s'arrête. 
 
 La raison pour laquelle ces méthodes ne sont plus appelées est que, alors qu'une majorité de compléments effectuent des tâches simples telles que libérer des références, certains compléments effectuent des appels de services Web ou d'autres opérations de longue durée en même temps que ces événements, ce qui retarde l'arrêt d'Outlook de façon significative. Suite à cette modification, Outlook fonctionne mieux que dans le passé lorsque vous l’arrêtez.
 

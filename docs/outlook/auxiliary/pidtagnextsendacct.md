@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1cf5b314-39fa-996f-fd88-00380ffbc4de
-description: Spécifie le accountsendstamp secondaire pour le message.
+description: Spécifie l’endstamp de compte secondaire pour le message.
 ms.openlocfilehash: 3aa88a1fd5a73cc4ae2e990e6dad0697083bb694
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32327712"
 ---
 # <a name="pidtagnextsendacct"></a>PidTagNextSendAcct
 
-Spécifie le cachet de compte secondaire «envoyer» pour le message.
+Spécifie le cachet « envoyer » du compte secondaire pour le message.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -29,7 +29,7 @@ Spécifie le cachet de compte secondaire «envoyer» pour le message.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété s'applique à un objet message MAPI. Pour un message reçu, le cachet «envoyer» du compte secondaire indique le compte vers lequel un envoi ou une réponse doit être envoyé, si le transfert ou la réponse ne peut pas être envoyé avec le compte principal. S'il s'agit d'un message sortant, le cachet «envoyer» du compte secondaire détermine le compte à utiliser pour envoyer le message, si le message ne peut pas être envoyé avec le compte principal. Sa valeur est la valeur [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) de l'interface [IOlkAccount](iolkaccount.md) du compte avec lequel le message est envoyé. 
+Cette propriété s’applique à un objet message MAPI. Pour un message reçu, le cachet « envoyer » du compte secondaire indique avec quel compte un avant ou une réponse doit être envoyé, si le forward ou la réponse ne peut pas être envoyé avec le compte principal. Pour un message sortant, le cachet « envoyer » du compte secondaire détermine avec quel compte envoyer le message, si le message ne peut pas être envoyé avec le compte principal. Sa valeur est la [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) de l’interface [IOlkAccount](iolkaccount.md) du compte avec lequel le message est envoyé. 
   
 ## <a name="see-also"></a>Voir aussi
 

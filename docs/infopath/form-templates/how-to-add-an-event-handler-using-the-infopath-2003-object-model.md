@@ -1,5 +1,5 @@
 ---
-title: Ajout d'un gestionnaire d'événements à l'aide du modèle objet InfoPath
+title: Ajouter un handler d’événements à l’aide du modèle objet InfoPath
 manager: soliver
 ms.date: 01/20/2015
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303667"
 ---
-# <a name="add-an-event-handler-using-the-infopath-object-model"></a>Ajout d'un gestionnaire d'événements à l'aide du modèle objet InfoPath
+# <a name="add-an-event-handler-using-the-infopath-object-model"></a>Ajouter un handler d’événements à l’aide du modèle objet InfoPath
 
 Les commandes de menu qui permettent d'ajouter des fonctions de gestionnaire d'événements dans un projet de modèle de formulaire compatible avec le modèle objet InfoPath 2003 sont quasiment les mêmes que pour les autres types de modèle de formulaire. Par exemple, pour ajouter un gestionnaire d'événements **OnLoad** avec le modèle de formulaire dans le Concepteur InfoPath, sélectionnez la commande **Événement Sur chargement (OnLoad)** sous l'onglet **Développeur**. Le code du formulaire est activé automatiquement pour le gestionnaire d'événements **OnLoad** dans l'éditeur de code Visual Studio 2012. 
   
 Dans les projets de modèle avec code managé compatibles avec InfoPath 2003, la classe qui contient les fonctions du gestionnaire d'événements et les gestionnaires d'événements eux-mêmes sont identifiés par des attributs spécifiques à InfoPath dans le module de code.
 
-## <a name="adding-event-handlers"></a>Ajout de gestionnaires d'événements
+## <a name="adding-event-handlers"></a>Ajout de handlers d’événements
 
 Toutes les procédures suivantes partent du principe que vous avez ouvert un projet de modèle de formulaire dans Microsoft InfoPath avec Visual Studio 2012.
   
@@ -39,13 +39,13 @@ Toutes les procédures suivantes partent du principe que vous avez ouvert un pro
     
 2. Pointez sur **Programmation**, puis cliquez sur l'une des commande, comme **Événement Sur validation (OnValidate)**.
     
-   Le focus bascule vers le stub du gestionnaire d'événements pour l'un des événements suivants dans l'éditeur de code: [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx), [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx)ou [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx). 
+   Le stub du handler d’événements est alors mis au point pour l’un des événements suivants dans l’éditeur de code : [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx), [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx)ou [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx). 
     
 ### <a name="add-an-event-handler-for-the-onload-onswitchview-oncontextchange-or-onsign-event-of-a-form"></a>Ajout d'un gestionnaire d'événements pour l'événement OnLoad, OnSwitchView, OnContextChange ou OnSign d'un formulaire
 
 - Dans le menu **Outils**, pointez sur **Programmation**, puis cliquez sur l'événement de formulaire pour lequel vous souhaitez écrire un gestionnaire d'événements.
     
-    Le focus bascule vers le stub du gestionnaire d'événements pour l'un des éléments suivants dans l'éditeur de code: [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx), [OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx), [OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx)ou [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx). 
+    Le stub du handler d’événements est alors mis au point pour l’un des événements suivants dans l’éditeur de code : [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx), [OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx), [OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx)ou [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx). 
     
 ### <a name="add-an-event-handler-for-the-onsubmitrequest-event-of-a-form"></a>Ajout d'un gestionnaire d'événements pour l'événement OnSubmitRequest d'un formulaire
 
@@ -59,7 +59,7 @@ Toutes les procédures suivantes partent du principe que vous avez ouvert un pro
     
 ### <a name="add-an-event-handler-for-the-onsaverequest-event-of-a-form"></a>Ajout d'un gestionnaire d'événements pour l'événement OnSaveRequest d'un formulaire
 
-1. Cliquez sur l'onglet **Fichier**, puis cliquez sur **Options de formulaire**.
+1. Cliquez sur l'onglet **Fichiers**, cliquez sur **Options de formulaire**.
     
 2. Dans la catégorie **Enregistrer**, cliquez sur **Enregistrer au moyen d'un code personnalisé**, sur **Modifier**, puis sur **OK**.
     
@@ -81,11 +81,11 @@ Toutes les procédures suivantes partent du principe que vous avez ouvert un pro
     
     L'affichage bascule vers le stub du gestionnaire d'événements de l'événement [OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) dans l'éditeur de code. 
     
-## <a name="adding-an-event-handler-for-the-onafterimport-event"></a>Ajout d'un gestionnaire d'événements pour l'événement OnAfterImport
+## <a name="adding-an-event-handler-for-the-onafterimport-event"></a>Ajout d’un handler d’événements pour l’événement OnAfterImport
 
 Pour ajouter des gestionnaires d'événements pour l'événement [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) , vous devez ouvrir le code de formulaire de votre modèle de formulaire avec code managé et ajouter manuellement la fonction de gestionnaire d'événements. Pour plus d'informations sur la création d'un gestionnaire d'événements pour cet événement, cliquez sur le lien correspondant à l'événement **OnAfterImport**. 
   
-## <a name="adding-an-event-handler-for-a-secondary-data-source"></a>Ajout d'un gestionnaire d'événements pour une source de données secondaire
+## <a name="adding-an-event-handler-for-a-secondary-data-source"></a>Ajout d’un handler d’événements pour une source de données secondaire
 
 L'exemple qui suit illustre l'ajout d'un gestionnaire d'événements pour une source de données secondaire. Cet exemple part du principe qu'il existe une source de données secondaire basée sur un fichier de ressource, books.xml, qui présente le schéma suivant :
   
@@ -220,7 +220,7 @@ namespace AuxDom
 
 ```
 
-## <a name="how-the-class-that-contains-event-handlers-is-identified"></a>Identification de la classe qui contient les gestionnaires d'événements
+## <a name="how-the-class-that-contains-event-handlers-is-identified"></a>Comment la classe qui contient les handlers d’événements est identifiée
 
 Lorsque vous créez un nouveau projet de modèle de formulaire InfoPath compatible avec le modèle objet avec code managé InfoPath 2003, un attribut **System.ComponentModel.Description** de niveau assembly est appliqué à la classe au début du module du code du formulaire pour identifier la classe contenant tous les gestionnaires d'événements du modèle de formulaire. 
   
@@ -241,7 +241,7 @@ Imports Microsoft.Office.Interop.InfoPath.SemiTrust
 <Assembly: System.ComponentModel.DescriptionAttribute( _    "InfoPathStartupClass, Version=1.0, Class=Template1.FormCode")>
 ```
 
-## <a name="how-event-handlers-are-identified"></a>Identification des gestionnaires d'événements
+## <a name="how-event-handlers-are-identified"></a>Comment les handlers d’événements sont identifiés
 
 Lorsque vous ajoutez un nouveau gestionnaire d'événements à l'aide des commandes ou boutons de menu de l'interface utilisateur du mode Création d'InfoPath, le stub de la fonction du gestionnaire d'événements est écrit dans le formulaire. L'exemple qui suit présente le stub du gestionnaire d'événements créé pour un événement [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) ajouté à un champ appelé « total ». 
   
@@ -277,11 +277,11 @@ L'attribut **InfoPathEventHandler** (tel que défini par la classe [InfoPathEven
   
 Lorsqu'il est requis par l'événement, le paramètre **MatchPath** (tel que défini par la propriété [MatchPath](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.MatchPath.aspx) de la classe **InfoPathEventHandlerAttribute**) spécifie une expression XPath qui identifie la source de l'événement. Le paramètre **EventType** (tel que défini par la propriété [EventType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.EventType.aspx) de la classe **InfoPathEventHandlerAttribute**) spécifie le type de l'événement. Ne modifiez pas la valeur de ces paramètres. Si leur valeur est modifiée, le gestionnaire d'événements peut ne pas être correctement compilé ou la notification d'événement peut ne pas se produire comme prévu. 
   
-## <a name="obfuscating-code-in-event-handlers"></a>Masquage du code dans les gestionnaires d'événements
+## <a name="obfuscating-code-in-event-handlers"></a>Obfuscating code in event handlers
 
 Si vous lancez un utilitaire d'obscurcissement sur l'assembly généré lors de la compilation d'un modèle de formulaire avec code managé ( *nomprojet*  .dll), InfoPath ne peut pas charger l'assembly lorsque l'utilisateur ouvre le formulaire. Si vous voulez obscurcir le code des gestionnaires d'événements ou tout autre code de formulaire, vous devez le placer dans une assembly distincte, puis référencer cette assembly dans votre projet et appeler les membres de l'assembly référencée depuis FormCode.cs ou FormCode.vb. Il est important de lancer l'utilitaire d'obscurcissement uniquement sur l'assembly référencée. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Répondre aux événements de formulaire à l'aide du modèle objet InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Répondre aux événements de formulaire à l’aide du modèle objet InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

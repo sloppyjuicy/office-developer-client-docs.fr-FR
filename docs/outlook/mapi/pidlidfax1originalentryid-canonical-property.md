@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e02dfcd-918e-4d0c-b701-505dee1b32d4
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 096d1c785c220b7507e2a178e654b6d54ffea7da
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32328748"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l'ID d'origine de l'adresse de télécopie professionnelle du contact.
+Spécifie l’EntryID d’origine de l’adresse de télécopie professionnelle du contact.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFax1OriginalEntryID  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Address  <br/> |
-|ID long (couvercle):  <br/> |0x000080B5  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
+|ID long (LID) :  <br/> |0x000080B5  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, si elle est présente, doit spécifier l'ID unique correspondant à cette adresse de télécopie.
+Cette propriété, si elle est présente, doit spécifier l’entryid one-off qui correspond à cette adresse de télécopie.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit la définition des jeux de propriétés et les références aux spécifications du protocole Exchange Server associé.
+> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
+> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

@@ -1,11 +1,11 @@
 ---
-title: Créer, récupérer, mettre à jour et supprimer des projets à l'aide de JavaScript Project Server
+title: Créer, récupérer, mettre à jour et supprimer des projets à l’aide de Project Server JavaScript
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
-description: Obtenir l'instance ProjectContext actuelle; récupérer et parcourir la collection de projets publiés sur le serveur; créer, récupérer, extraire et supprimer un projet à l'aide du modèle objet JavaScript Project Server; et modifier les propriétés d'un projet.
+description: Obtenir l’instance ProjectContext actuelle ; récupérer et itérer dans la collection de projets publiés sur le serveur ; créer, récupérer, extraire et supprimer un projet à l’aide du modèle objet JavaScript Project Server ; et modifier les propriétés d’un projet.
 ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -13,57 +13,57 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32322665"
 ---
-# <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Créer, récupérer, mettre à jour et supprimer des projets à l'aide de JavaScript Project Server
+# <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Créer, récupérer, mettre à jour et supprimer des projets à l’aide de Project Server JavaScript
 
-Les scénarios décrits dans cet article montrent comment obtenir l'instance **ProjectContext** actuelle; récupérer et parcourir la collection de projets publiés sur le serveur; créer, récupérer, extraire et supprimer un projet à l'aide du modèle objet JavaScript Project Server; et modifier les propriétés d'un projet. 
+Les scénarios de cet article montrent comment obtenir l’instance **ProjectContext** actuelle ; récupérer et itérer dans la collection de projets publiés sur le serveur ; créer, récupérer, extraire et supprimer un projet à l’aide du modèle objet JavaScript Project Server ; et modifier les propriétés d’un projet. 
   
 > [!NOTE]
-> Ces scénarios définissent le code personnalisé dans le balisage d'une page d'application SharePoint, mais n'utilisez pas le fichier code-behind que Visual Studio 2012 crée pour la page. 
+> Ces scénarios définissent du code personnalisé dans le code d’une page d’application SharePoint, mais n’utilisent pas le fichier code-behind créé par Visual Studio 2012 pour la page. 
   
-## <a name="prerequisites-for-working-with-project-server-2013-projects-in-the-javascript-object-model"></a>Conditions préalables à l'utilisation de projets Project Server 2013 dans le modèle objet JavaScript
+## <a name="prerequisites-for-working-with-project-server-2013-projects-in-the-javascript-object-model"></a>Conditions préalables à l’emploi de projets Project Server 2013 dans le modèle objet JavaScript
 
-Pour effectuer les scénarios décrits dans cet article, vous devez installer et configurer les produits suivants:
+Pour effectuer les scénarios décrits dans cet article, vous devez installer et configurer les produits suivants :
   
 - SharePoint Server 2013
 - Project Server 2013
 - Visual Studio 2012
 - Outils de développement Office pour Visual Studio 2012
     
-Vous devez également disposer des autorisations nécessaires pour déployer l'extension vers SharePoint Server 2013 et contribuer aux projets.
+Vous devez également avoir les autorisations pour déployer l’extension sur SharePoint Server 2013 et contribuer à des projets.
   
 > [!NOTE]
-> Ces instructions supposent que vous développez sur l'ordinateur qui exécute Project Server 2013. 
+> Ces instructions supposent que vous développez sur l’ordinateur qui exécute Project Server 2013. 
   
-## <a name="create-the-visual-studio-solution"></a>Création de la solution Visual Studio
+## <a name="create-the-visual-studio-solution"></a>Créer la Visual Studio solution
 <a name="pj15_CRUDProjectsJSOM_Setup"> </a>
 
-Les étapes suivantes créent une solution Visual Studio 2012 qui contient un projet SharePoint et une page d'application. La page contient la logique pour l'utilisation de projets.
+Les étapes suivantes créent une solution Visual Studio 2012 contenant un projet SharePoint et une page d’application. La page contient la logique pour travailler avec des projets.
   
 ### <a name="to-create-the-sharepoint-project-in-visual-studio"></a>Pour créer le projet SharePoint dans Visual Studio
 
-1. Sur l'ordinateur qui exécute Project Server 2013, exécutez Visual Studio 2012 en tant qu'administrateur.
+1. Sur l’ordinateur qui exécute Project Server 2013, exécutez Visual Studio 2012 en tant qu’administrateur.
     
 2. On the menu bar, choose **File**, **New**, **Project**.
     
 3. Dans la boîte de dialogue **Nouveau projet**, sélectionnez **.NET Framework 4.5** dans la liste déroulante située en haut de la boîte de dialogue. 
     
-4. Dans la catégorie modèle **Office/SharePoint** , choisissez **solutions SharePoint**, puis choisissez le modèle de **projet SharePoint 2013** . 
+4. Dans la catégorie des modèles **Office/SharePoint,** choisissez **Solutions SharePoint,** puis le modèle **Projet SharePoint 2013.** 
     
-5. Nommez le projet ProjectsJSOM, puis cliquez sur le bouton **OK** . 
+5. Nommez le projet ProjectsJSOM, puis choisissez le **bouton OK.** 
     
 6. Dans la boîte de dialogue **Assistant Personnalisation de SharePoint**, sélectionnez **déployer en tant qu'une solution de batterie de serveurs**, puis cliquez sur le bouton **Terminer**. 
     
-7. Modifiez la valeur de la propriété de l' **URL du site** pour le projet **ProjectsJSOM** afin qu'elle corresponde à l'URL de l'instance `https://ServerName/PWA`Project Web App (par exemple,).
+7. Modifiez la valeur de la propriété URL du **site** pour le **projet ProjectsJSOM** afin qu’elle corresponde à l’URL de l’instance de Project Web App (par exemple,  `https://ServerName/PWA` ).
     
-### <a name="to-create-the-application-page-in-visual-studio"></a>Pour créer la page d'application dans Visual Studio
+### <a name="to-create-the-application-page-in-visual-studio"></a>Pour créer la page d’application dans Visual Studio
 
-1. Dans l' **Explorateur de solutions**, ouvrez le menu contextuel du projet **ProjectsJSOM** , puis ajoutez un dossier mappé SharePoint «mises en page». 
+1. Dans **l’Explorateur** de solutions, ouvrez le menu raccourci du **projet ProjectsJSOM,** puis ajoutez un dossier « Dispositions » SharePoint. 
     
-2. Dans le dossier **dispositions** , ouvrez le menu contextuel du dossier **ProjectsJSOM** , puis ajoutez une nouvelle page d'application SharePoint nommée ProjectsList. aspx.
+2. Dans le **dossier Layouts,** ouvrez le menu raccourci du dossier **ProjectsJSOM,** puis ajoutez une nouvelle page d’application SharePoint nommée ProjectsList.aspx.
     
 3. Ouvrez le menu contextuel de la page **ProjectsList.aspx** et choisissez **Définir comme élément de démarrage**.
     
-4. Dans le balisage de la page **ProjectsList. aspx** , définissez les contrôles d'interface utilisateur dans les balises **asp: content** «main», comme suit. 
+4. Dans le code de la page **ProjectsList.aspx,** définissez les contrôles d’interface utilisateur à l’intérieur des balises **asp:Content** « Main », comme suit. 
     
    ```HTML
     <table width="100%" id="tblProjects">
@@ -80,9 +80,9 @@ Les étapes suivantes créent une solution Visual Studio 2012 qui contient un pr
    ```
 
    > [!NOTE]
-   > [!REMARQUE] Ces contrôles ne peuvent pas être utilisés dans tous les scénarios. Par exemple, le scénario «créer des projets» n'utilise pas les contrôles **textarea** et **Button** . 
+   > [!REMARQUE] Ces contrôles ne peuvent pas être utilisés dans tous les scénarios. Par exemple, le scénario « Créer des projets » n’utilise pas les contrôles de zone **de texte** **et de** bouton. 
   
-5. Après la balise **span** de clôture, ajoutez une balise **SharePoint: ScriptLink** , une balise **SharePoint: FormDigest** et des balises de **script** , comme suit. 
+5. Après la balise **span** de fermeture, ajoutez une **balise SharePoint:ScriptLink,** une **balise SharePoint:FormDigest** et des balises **de script,** comme suit. 
     
    ```HTML
     <SharePoint:ScriptLink id="ScriptLink" name="PS.js" runat="server" ondemand="false" localizable="false" loadafterui="true" />
@@ -92,34 +92,34 @@ Les étapes suivantes créent une solution Visual Studio 2012 qui contient un pr
     </script>
    ```
 
-   La balise **SharePoint: ScriptLink** fait référence au fichier PS. js, qui définit le modèle objet JavaScript pour Project Server 2013. La balise **SharePoint:FormDigest** génère un résumé du message de validation de la sécurité lorsque cela est nécessaire par les opérations qui mettent à jour le contenu du serveur. 
+   La **balise SharePoint:ScriptLink** fait référence au fichier PS.js, qui définit le modèle objet JavaScript pour Project Server 2013. La balise **SharePoint:FormDigest** génère un résumé du message de validation de la sécurité lorsque cela est nécessaire par les opérations qui mettent à jour le contenu du serveur. 
     
-6. Remplacez le commentaire de l'espace réservé par le code de l'une des procédures suivantes:
+6. Remplacez le commentaire de l’espace réservé par le code de l’une des procédures suivantes :
     
-   - [Créer des projets Project Server 2013 à l'aide du modèle objet JavaScript](#pj15_CRUDProjectsJSOM_CreateProjects)
+   - [Créer des projets Project Server 2013 à l’aide du modèle objet JavaScript](#pj15_CRUDProjectsJSOM_CreateProjects)
     
-   - [Mettre à jour les projets Project Server 2013 à l'aide du modèle objet JavaScript](#pj15_CRUDProjectsJSOM_UpdateProjects)
+   - [Mettre à jour les projets Project Server 2013 à l’aide du modèle objet JavaScript](#pj15_CRUDProjectsJSOM_UpdateProjects)
     
-   - [Supprimer des projets Project Server 2013 à l'aide du modèle objet JavaScript](#pj15_CRUDProjectsJSOM_DeleteProjects)
+   - [Supprimer des projets Project Server 2013 à l’aide du modèle objet JavaScript](#pj15_CRUDProjectsJSOM_DeleteProjects)
     
 7. Pour tester la page d’application, dans la barre de menus, sélectionnez **Déboguer**, puis **Démarrer le débogage**. Si vous êtes invité à modifier le fichier web.config, cliquez sur **OK**.
     
-## <a name="create-project-server-2013-projects-by-using-the-javascript-object-model"></a>Créer des projets Project Server 2013 à l'aide du modèle objet JavaScript
+## <a name="create-project-server-2013-projects-by-using-the-javascript-object-model"></a>Créer des projets Project Server 2013 à l’aide du modèle objet JavaScript
 <a name="pj15_CRUDProjectsJSOM_CreateProjects"> </a>
 
-La procédure de cette section crée des projets à l'aide du modèle objet JavaScript. La procédure inclut les étapes de haut niveau suivantes:
+La procédure de cette section crée des projets à l’aide du modèle objet JavaScript. La procédure comprend les étapes de haut niveau suivantes :
   
-1. Obtenir l'instance **ProjectContext** actuelle. 
+1. Obtenir l’instance **ProjectContext** actuelle. 
     
-2. Créez un objet **ProjectCreationInformation** pour spécifier les propriétés initiales de votre projet. Spécifiez la propriété de **nom** requise à l'aide de la fonction **ProjectCreationInformation. Set _name** . 
+2. Créez **un objet ProjectCreationInformation** pour spécifier les propriétés initiales de votre projet. Spécifiez la propriété **de nom** requise à l’aide ProjectCreationInformation.set_name fonction.  
     
-3. Récupérez les projets publiés à partir du serveur à l'aide de la fonction **ProjectContext. Get _projects** . La fonction **get_projects** renvoie un objet **ProjectCollection** . 
+3. Récupérez les projets publiés à partir du serveur à l’aide **ProjectContext.get_projects** fonction. La **get_projects** renvoie un **objet ProjectCollection.** 
     
-4. Ajoutez le nouveau projet à la collection à l'aide de la fonction **ProjectCollection. Add** et en transmettant l'objet **ProjectCreationInformation** 
+4. Ajoutez le nouveau projet à la collection à l’aide de la fonction **ProjectCollection.add** et en passant l’objet **ProjectCreationInformation.** 
     
-5. Mettez à jour la collection à l'aide de la fonction **ProjectCollection. Update** et de la fonction **ProjectContext. waitForQueueAsync** . La fonction **Update** renvoie un objet **QueueJob** que vous transmettez à **waitForQueueAsync**. Cet appel publie également le projet.
+5. Mettez à jour la collection à l’aide de la fonction **ProjectCollection.update** et de la fonction **ProjectContext.waitForQueueAsync.** La **fonction de** mise à jour renvoie un objet **QueueJob** que vous passez à **waitForQueueAsync**. Cet appel publie également le projet.
     
-Collez le code suivant entre les balises de **script** que vous avez ajoutées dans la procédure **pour créer la page d'application dans Visual Studio** . 
+Collez le code suivant entre les **balises de script** que vous avez ajoutées dans la page Pour créer l’application dans **Visual Studio** procédure. 
   
 ```js
     // Declare a global variable to store the project collection.
@@ -187,26 +187,26 @@ Collez le code suivant entre les balises de **script** que vous avez ajoutées d
     }
 ```
 
-## <a name="update-project-server-2013-projects-by-using-the-javascript-object-model"></a>Mettre à jour les projets Project Server 2013 à l'aide du modèle objet JavaScript
+## <a name="update-project-server-2013-projects-by-using-the-javascript-object-model"></a>Mettre à jour les projets Project Server 2013 à l’aide du modèle objet JavaScript
 <a name="pj15_CRUDProjectsJSOM_UpdateProjects"> </a>
 
-La procédure de cette section met à jour la propriété **StartDate** d'un projet à l'aide du modèle objet JavaScript. La procédure inclut les étapes de haut niveau suivantes: 
+La procédure de cette section met à jour la **propriété startDate** d’un projet à l’aide du modèle objet JavaScript. La procédure comprend les étapes de haut niveau suivantes : 
   
-1. Obtenir l'instance **ProjectContext** actuelle. 
+1. Obtenir l’instance **ProjectContext** actuelle. 
     
-2. Récupérez les projets publiés à partir du serveur à l'aide de la fonction **ProjectContext. Get _projects** . La fonction **get_projects** renvoie un objet **ProjectCollection** . 
+2. Récupérez les projets publiés à partir du serveur à l’aide **ProjectContext.get_projects** fonction. La **get_projects** renvoie un **objet ProjectCollection.** 
     
-3. Exécutez la demande sur le serveur à l'aide de la fonction **ProjectContext. Load** et de la fonction **ProjectContext. ExecuteQueryAsync** . 
+3. Exécutez la demande sur le serveur à l’aide de la fonction **ProjectContext.load** et **de laProjectContext.executeQueryAsync.** 
     
-4. Récupérez un objet **PublishedProject** à l'aide de la fonction **ProjectContext. GetById** . 
+4. Récupérez **un objet PublishedProject** à l’aide de **la fonction ProjectContext.getById.** 
     
-5. ExTrayez le projet cible à l'aide de la fonction **Project. checkOut** . La fonction **checkOut** renvoie la version brouillon du projet publié. 
+5. Consultez le projet cible à l’aide **de la fonction Project.checkOut.** La **fonction CheckOut** renvoie la version brouillon du projet publié. 
     
-6. Modifier la date de début du projet à l'aide de la fonction **DraftProject. Set _startdate** . 
+6. Modifiez la date de début du projet à l’aide **DraftProject.set_startDate** fonction. 
     
-7. Publiez le projet à l'aide de la fonction **DraftProject. Publish** et de la fonction **ProjectContext. waitForQueueAsync** . La fonction **Publish** renvoie un objet **QueueJob** que vous transmettez à **waitForQueueAsync**.
+7. Publiez le projet à l’aide de la fonction **DraftProject.publish** et de la fonction **ProjectContext.waitForQueueAsync.** La **fonction** de publication renvoie un **objet QueueJob** que vous passez à **waitForQueueAsync**.
     
-Collez le code suivant entre les balises de **script** que vous avez ajoutées dans la procédure **pour créer la page d'application dans Visual Studio** . 
+Collez le code suivant entre les **balises de script** que vous avez ajoutées dans la page Pour créer l’application dans **Visual Studio** procédure. 
   
 ```js
     // Declare global variables.
@@ -270,24 +270,24 @@ Collez le code suivant entre les balises de **script** que vous avez ajoutées d
     }
 ```
 
-## <a name="delete-project-server-2013-projects-by-using-the-javascript-object-model"></a>Supprimer des projets Project Server 2013 à l'aide du modèle objet JavaScript
+## <a name="delete-project-server-2013-projects-by-using-the-javascript-object-model"></a>Supprimer des projets Project Server 2013 à l’aide du modèle objet JavaScript
 <a name="pj15_CRUDProjectsJSOM_DeleteProjects"> </a>
 
-La procédure de cette section supprime un projet à l'aide du modèle objet JavaScript. La procédure inclut les étapes de haut niveau suivantes:
+La procédure de cette section supprime un projet à l’aide du modèle objet JavaScript. La procédure comprend les étapes de haut niveau suivantes :
   
-1. Obtenir l'instance **ProjectContext** actuelle. 
+1. Obtenir l’instance **ProjectContext** actuelle. 
     
-2. Récupérez les projets publiés à partir du serveur à l'aide de la fonction **ProjectContext. Get _projects** . La fonction **get_projects** renvoie un objet **ProjectCollection** . 
+2. Récupérez les projets publiés à partir du serveur à l’aide **ProjectContext.get_projects** fonction. La **get_projects** renvoie un **objet ProjectCollection.** 
     
-3. Exécutez la demande sur le serveur à l'aide de la fonction **ProjectContext. Load** et de la fonction **ProjectContext. ExecuteQueryAsync** . 
+3. Exécutez la demande sur le serveur à l’aide de la fonction **ProjectContext.load** et **de laProjectContext.executeQueryAsync.** 
     
-4. Récupérez un objet **PublishedProject** à l'aide de la fonction **ProjectCollection. GetById** . 
+4. Récupérez **un objet PublishedProject** à l’aide de **la fonction ProjectCollection.getById.** 
     
-5. Supprimez le projet en le transmettant à la fonction **ProjectCollection. Remove** . 
+5. Supprimez le projet en le passant à **la fonction ProjectCollection.remove.** 
     
-6. Mettez à jour la collection à l'aide de la fonction **ProjectCollection. Update** et de la fonction **ProjectContext. waitForQueueAsync** . La fonction **Update** renvoie un objet **QueueJob** que vous transmettez à **waitForQueueAsync**.
+6. Mettez à jour la collection à l’aide de la fonction **ProjectCollection.update** et de la fonction **ProjectContext.waitForQueueAsync.** La **fonction de** mise à jour renvoie un objet **QueueJob** que vous passez à **waitForQueueAsync**.
     
-Collez le code suivant entre les balises de **script** que vous avez ajoutées dans la procédure **pour créer la page d'application dans Visual Studio** . 
+Collez le code suivant entre les **balises de script** que vous avez ajoutées dans la page Pour créer l’application dans **Visual Studio** procédure. 
   
 ```js
     // Declare global variables.

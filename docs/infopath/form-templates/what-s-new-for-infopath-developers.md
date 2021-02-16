@@ -35,7 +35,7 @@ Les sections suivantes décrivent brièvement les fonctionnalités et améliorat
     
 - Héberger des formulaires sur des pages de portail à l'aide du composant WebPart Formulaire InfoPath
     
-- Formulaires web plus riches
+- Formulaires Web riches en fonctionnalités
     
 - Formulaires de navigateur compatibles avec les normes
     

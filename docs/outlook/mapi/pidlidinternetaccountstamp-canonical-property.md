@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 819179fe-e58e-415c-abc7-1949036745ee
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ebd64392d24cd170a7babf77865aa00c7be24802
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32315455"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l'ID de compte de messagerie par lequel le message électronique est envoyé.
+Spécifie l’ID de compte de messagerie via lequel le message électronique est envoyé.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidInetAcctStamp  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008581  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008581  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le format de cette chaîne est dépendant de l'implémentation. Cette propriété peut être utilisée par le client pour déterminer à quel serveur diriger le courrier, mais elle est facultative et la valeur n'a aucune signification pour le serveur.
+Le format de cette chaîne dépend de l’implémentation. Cette propriété peut être utilisée par le client pour déterminer le serveur vers lequel diriger le courrier, mais elle est facultative et la valeur n’a aucune signification pour le serveur.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit la définition des jeux de propriétés et les références aux spécifications du protocole Exchange Server associé.
+> Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

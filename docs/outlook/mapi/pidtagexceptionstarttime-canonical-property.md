@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2ed498295de6748dfa50f1f4a8ba2710c8be64f7
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,21 +25,21 @@ ms.locfileid: "32316379"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la date et l'heure de début de l'exception dans le fuseau horaire local de l'ordinateur lors de la création de l'exception.
+Indique la date et l’heure de début de l’exception dans le fuseau horaire local de l’ordinateur lors de la création de l’exception.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXCEPTION_STARTTIME  <br/> |
 |Identificateur :  <br/> |0x7FFB  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Domaine :  <br/> |Non transférable défini par la classe de message  <br/> |
+|Domaine :  <br/> |Message non transmissable par une classe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 > [!NOTE]
-> Cette propriété est informatif et ne doit pas être fiable pour les informations importantes. 
+> Cette propriété est informationnelle et ne doit pas être invoquée pour des informations critiques. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
@@ -47,15 +47,15 @@ Indique la date et l'heure de début de l'exception dans le fuseau horaire local
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

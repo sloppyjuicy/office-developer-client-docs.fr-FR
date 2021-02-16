@@ -1,5 +1,5 @@
 ---
-title: Recherche d’un rendez-vous spécifique dans une série de rendez-vous périodiques
+title: Trouver un rendez-vous spécifique dans une série de rendez-vous périodiques
 TOCTitle: Find a specific appointment in a recurring appointment series
 ms:assetid: 01f55f04-7245-4325-a354-50a6eb270a31
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184586(v=office.15)
@@ -31,7 +31,7 @@ Notez que même après la libération de votre référence et la tentative d'obt
 
 Dans l’exemple de code suivant, CheckOccurrenceExample utilise le rendez-vous périodique qui a été créé dans l’exemple de code dans [Créer un rendez-vous périodique ayant un modèle hebdomadaire](how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md). Il appelle ensuite la méthode GetOccurrence pour déterminer si le rendez-vous périodique commence à la date et à l’heure spécifiées. Pour s’assurer que la procédure continue même si les informations fournies ne correspondent pas à la date et à l’heure de début d’une instance du rendez-vous périodique, l’exemple utilise un bloc try…catch. Après l’appel de la méthode GetOccurrence sur chaque rendez-vous de la série de rendez-vous périodiques, CheckOccurrenceExample teste la variable singleAppt pour déterminer si elle est définie comme référence nulle, ce qui indiquerait que la méthode a échoué et n’a pas renvoyé d’objet **AppointmentItem**.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

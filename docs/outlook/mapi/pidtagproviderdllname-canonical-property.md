@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ddb38eb-9a32-4dbe-b42c-6ea9db98acd2
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 57fdc754ed4be29dbdd50a198707d8f39a14b3d4
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -32,25 +32,25 @@ Contient le nom de fichier de base de la bibliothèque de liens dynamiques (DLL)
 |Propriétés associées :  <br/> |PR_PROVIDER_DLL_NAME, PR_PROVIDER_DLL_NAME_A, PR_PROVIDER_DLL_NAME_W  <br/> |
 |Identificateur :  <br/> |0x300A  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-MAPI utilise une convention d'affectation de noms de fichiers DLL. Il ajoute la chaîne 32 au nom de la DLL de base pour identifier la version qui s'exécute sur les plateformes 32 bits. Par exemple, lorsque le nom MAPI. DLL est spécifié, MAPI construit le nom MAPI32. DLL pour représenter la version 32 bits correspondante de la DLL.
+MAPI utilise une convention d’attribution de noms de fichiers DLL. Il a ajouté la chaîne 32 au nom de la DLL de base pour identifier la version qui s’exécute sur les plateformes 32 bits. Par exemple, lorsque le nom MAPI.DLL est spécifié, MAPI construit le nom MAPI32.DLL pour représenter la version 32 bits correspondante de la DLL.
   
-Ces propriétés doivent spécifier le nom de base. MAPI ajoute la chaîne 32 comme il convient. L'inclusion de la chaîne 32 dans cette propriété génère une erreur.
+Ces propriétés doivent spécifier le nom de base. MAPI a ajouté la chaîne 32 selon le cas. L’utilisation de la chaîne 32 dans le cadre de cette propriété entraîne une erreur.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

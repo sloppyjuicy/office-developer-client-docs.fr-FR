@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7e9c3340dfad47a811b56c86e8e6104fb6aac7c2
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32329266"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente une valeur null ou un paramètre d'une propriété ou réserve un espace de tableau.
+Représente une valeur null ou un paramètre d’une propriété ou réserve de l’espace de tableau.
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Représente une valeur null ou un paramètre d'une propriété ou réserve un es
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour réserver de l'espace dans les tableaux de structures [SPropValue](spropvalue.md) . Elle est utilisée dans un tableau de structures [SPropTagArray](sproptagarray.md) pour indiquer à la méthode de réserver de l'espace dans le tableau retourné de structures **SPropValue** . Cela permet de remplir les propriétés calculées de manière peu coûteuse. 
+Cette propriété permet de réserver de l’espace dans des tableaux de structures [SPropValue.](spropvalue.md) Il est utilisé dans un tableau de structures [SPropTagArray](sproptagarray.md) pour indiquer à la méthode de réserver de l’espace dans le tableau renvoyé de structures **SPropValue.** Cela permet de remplir les propriétés calculées de manière peu coûteuse. 
   
-Pour plus d'informations, voir [MAPI Property type Overview](mapi-property-type-overview.md).
+Pour plus d’informations, voir [Vue d’ensemble du type de propriété MAPI.](mapi-property-type-overview.md)
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées sur les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et opérations autorisées sur les contacts et les listes de distribution personnelles.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

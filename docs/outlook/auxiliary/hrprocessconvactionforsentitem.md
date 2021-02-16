@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 08121e33-7820-4a31-b6da-06a4a54ec43f
-description: Effectue une catégorisation post-envoi sur un élément de courrier en fonction de son PidTagConversationId.
+description: Effectue la catégorisation post-envoi sur un élément de courrier en fonction de son PidTagConversationId.
 ms.openlocfilehash: 675f308093eea30084271abc66c1fa66e2ad6828
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,13 +16,13 @@ ms.locfileid: "32318899"
 ---
 # <a name="hrprocessconvactionforsentitem"></a>HrProcessConvActionForSentItem
 
-Effectue une catégorisation post-envoi sur un élément de courrier en fonction de son [PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).
+Effectue la catégorisation post-envoi sur un élément de courrier en fonction de [son PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Exporté par:  <br/> |Outlook. exe  <br/> |
+|Exporté par :  <br/> |Outlook.exe  <br/> |
 |Appelé par :  <br/> |Client  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
    
@@ -38,35 +38,35 @@ HRESULT WINAPI HrProcessConvActionForSentItem(
 
 _pmbinStoreEid_
   
-> dans [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) du magasin ou [PidTagStoreEntryId](https://msdn.microsoft.com/library/0d705667-19f4-4eda-a068-e65ea8f00d9b%28Office.15%29.aspx) de l'élément de courrier. Ne peut pas être NULL ou non valide. 
+> [in] [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) de la boutique ou [PidTagStoreEntryId](https://msdn.microsoft.com/library/0d705667-19f4-4eda-a068-e65ea8f00d9b%28Office.15%29.aspx) de l’élément de courrier. Ne peut pas être NULL ou non valide. 
     
 _pmbinMsgEid_
   
-> dans [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) de l'élément de courrier. Ne peut pas être NULL ou non valide. 
+> [in] [PidTagEntryId de](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) l’élément de courrier. Ne peut pas être NULL ou non valide. 
     
 _pmbinConvID_
   
-> dans [PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx) de l'élément de courrier. Ne peut pas être NULL ou non valide. 
+> [in] [PidTagConversationId de](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx) l’élément de courrier. Ne peut pas être NULL ou non valide. 
     
 _dwFlags_
   
-> dans Masque de qui spécifie des informations supplémentaires sur l'appel de la méthode.
+> [in] Masque de bits qui spécifie des informations supplémentaires sur l’appel de méthode.
     
-   - 0 — aucune option supplémentaire n'est utilisée dans cet appel de méthode. Il s'agit de la valeur recommandée. 
+   - 0 — Aucune option supplémentaire n’est utilisée dans cet appel de méthode. Il s’agit de la valeur recommandée. 
     
-   - **PCAFSIF_MSGEID_IS_SEARCH_KEY**— _pmbinMsgEid_ est en fait le [PidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) du message. L'utilisation d'un **PidTagSearchKey** est gourmande en ressources et doit être évitée si un [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) est disponible. 
+   - **PCAFSIF_MSGEID_IS_SEARCH_KEY**— _pmbinMsgEid_ est en fait [la clé PidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) du message. **L’utilisation d’une clé PidTagSearchKey** est intensive en ressources et doit être évitée si [un pidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) est disponible. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L'appel a réussi.  <br/> |
+|S_OK  <br/> |L’appel a réussi.  <br/> |
 |E_INVALIDARG  <br/> | _dwFlags_ contient un indicateur inconnu.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les catégories sont considérées comme des informations personnelles et ne doivent pas être transmises en dehors de la boîte aux lettres de l'utilisateur. Par conséquent, n'appelez pas **HrProcessConvActionForSentItem** sur un élément de courrier non envoyé. À la place, envoyez l'élément, puis appelez **HrProcessConvActionForSentItem** sur la copie archivée. La copie archivée peut être stockée dans le dossier éléments envoyés ou dans un emplacement équivalent. 
+Les catégories sont considérées comme des informations personnelles et ne doivent pas être transmises en dehors de la boîte aux lettres de l’utilisateur. Par conséquent, n’appelez **pas HrProcessConvActionForSentItem** sur un élément de courrier non envoyé. Envoyez plutôt l’élément, puis appelez **HrProcessConvActionForSentItem** sur la copie archivée. La copie archivée peut être stockée dans le dossier Éléments envoyés ou dans un emplacement équivalent. 
   
-Votre application doit être en cours d'opération avec Outlook. exe, par exemple à partir d'un complément COM, pour appeler **HrProcessConvActionForSentItem**. Si vous essayez d'appeler **HrProcessConvActionForSentItem** out-of-process, **HrProcessConvActionForSentItem** génère une exception de violation d'accès. 
+Votre application doit être en cours de Outlook.exe, par exemple à partir d’un compl?ment COM, pour appeler **HrProcessConvActionForSentItem**. Si vous essayez d’appeler **HrProcessConvActionForSentItem** hors processus, **HrProcessConvActionForSentItem** va lancer une exception de violation d’accès. 
   
 

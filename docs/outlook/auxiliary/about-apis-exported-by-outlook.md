@@ -44,7 +44,7 @@ Outlook exporte des définitions, des structures de données, les fonctions suiv
   
 - [IOlkApptRebaser](iolkapptrebaser.md)
     
-### <a name="events"></a>Events
+### <a name="events"></a>Événements
   
 - [Événements disponibles et leur DISPID (Outlook des API exportées)](available-events-and-their-dispids-outlook-exported-apis.md)
     

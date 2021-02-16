@@ -1,5 +1,5 @@
 ---
-title: Développement de modèles de formulaire à l'aide du modèle objet InfoPath 2003
+title: Développement de modèles de formulaires à l’aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300363"
 ---
-# <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>Développement de modèles de formulaire à l'aide du modèle objet InfoPath 2003
+# <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>Développement de modèles de formulaires à l’aide du modèle objet InfoPath 2003
 
 Microsoft InfoPath prend toujours en charge les projets de modèle de formulaires créés avec Microsoft Office InfoPath 2003 Toolkit pour Visual Studio .NET ou Visual Studio 2005 Tools pour Microsoft Office et dont la logique métier a été écrite en fonction des membres de l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . Les rubriques de cette section désignent les types et les membres de cet espace de nom par modèle objet compatible InfoPath 2003 ou simplement par modèle objet InfoPath 2003. InfoPath prend également en charge les projets de modèle de formulaire créés avec Microsoft Office InfoPath 2007, qui utilisent le modèle objet compatible avec InfoPath 2003. Par ailleurs, à l'aide de InfoPath, vous pouvez créer des projets de modèle de formulaire intégrant un modèle objet compatible avec InfoPath 2003 afin de préserver la rétrocompatibilité pour les utilisateurs de Office InfoPath 2007. Toutes les rubriques de cette section traitent de la création et du développement de modèles de formulaires utilisant le modèle objet compatible avec InfoPath 2003 fourni par l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
   
@@ -24,11 +24,11 @@ Microsoft InfoPath prend toujours en charge les projets de modèle de formulaire
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-[Prise en main du développement de modèles de formulaires à l'aide du modèle objet InfoPath 2003](get-started-developing-form-templates-using-infopath-object-model.md)
+[Mise en place du développement de modèles de formulaires à l’aide du modèle objet InfoPath 2003](get-started-developing-form-templates-using-infopath-object-model.md)
   
 > Fournit des informations sur la marche à suivre pour se lancer dans la création de modèles de formulaires avec code managé fonctionnant avec le modèle objet compatible avec InfoPath 2003.
     
-[Création de modèles de formulaire à l'aide du modèle objet InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
+[Création de modèles de formulaires à l’aide du modèle objet InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
   
 > Cette section présente le code d'initialisation et de nettoyage, l'ajout de gestionnaires d'événements, le débogage et le déploiement des modèles de formulaires InfoPath avec code managé, la gestion des threads et l'utilisation de MSXML à partir de solutions InfoPath avec code managé.
     
@@ -40,7 +40,7 @@ Microsoft InfoPath prend toujours en charge les projets de modèle de formulaire
   
 > Présente le modèle objet compatible avec InfoPath 2003, ainsi que les tâches de programmation courantes dans le cas des modèles de formulaires avec code managé fonctionnant avec ce modèle objet.
     
-[Résolution des problèmes liés aux modèles de formulaires qui utilisent le modèle objet InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model.md)
+[Dépannage des modèles de formulaire qui utilisent le modèle objet InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model.md)
   
 > Cette section contient des astuces permettant de résoudre des problèmes que vous pouvez rencontrer lors de la création de modèles de formulaires avec code managé fonctionnant avec le modèle objet compatible avec InfoPath 2003.
     

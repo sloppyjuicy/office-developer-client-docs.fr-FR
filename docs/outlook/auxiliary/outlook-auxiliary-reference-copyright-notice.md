@@ -1,5 +1,5 @@
 ---
-title: Copyright de référence auxiliaire Outlook
+title: Notice de copyright de référence auxiliaire d’Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
-description: Ce document est fourni en l'état. Les informations et les opinions exprimées dans ce document, y compris les URL et autres références de site Web Internet, peuvent être modifiées sans préavis. Vous assumez tous les risques liés à son utilisation.
+description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
 ms.openlocfilehash: 7f72ed0fc580fa62baaeb88d4366c68a3b7ac279
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32327789"
 ---
-# <a name="outlook-auxiliary-reference-copyright-notice"></a>Copyright de référence auxiliaire Outlook
+# <a name="outlook-auxiliary-reference-copyright-notice"></a>Notice de copyright de référence auxiliaire d’Outlook
 
-Ce document est fourni en l'état. Les informations et les opinions exprimées dans ce document, y compris les URL et autres références de site Web Internet, peuvent être modifiées sans préavis. Vous assumez tous les risques d’utilisation.
+Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation.
   
 Certains exemples décrits dans ce document sont fournis à titre d'illustration uniquement et sont fictifs. Aucune association ou connexion réelle n'est voulue ni ne doit être inférée.
   

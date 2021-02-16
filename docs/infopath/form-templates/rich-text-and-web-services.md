@@ -83,7 +83,7 @@ public XmlNode getXhtml()
 
 La méthode  `setXhtml` de service Web accepte le code XHTML d'un contrôle **Zone de texte mis en forme** sur un formulaire InfoPath. Comme les services Web ne prennent pas en charge de liste de nœuds, lorsqu'un champ de texte enrichi contenant plusieurs lignes est envoyé à un service Web, ce dernier n'accepte que la première ligne et ignore le reste. 
   
-La méthode  `setXhtml` en exemple suppose qu'elle recevra un nœud XML de niveau supérieur, qui dans la plupart des cas sera incorporé dans un élément **DIV**. Si le code XML reçu ne contient pas d'élément englobant, par exemple lorsque le texte à l'intérieur du contrôle **Zone de texte mis en forme** n'est pas formaté, cette méthode le détectera en vérifiant si la propriété **NodeType** indique que le code XML transmis est un nœud de texte, auquel cas elle crée un élément **DIV** et copie le contenu du nœud de texte dans l'élément **DIV** afin que le **DIV**contienne un nœud de texte enfant avec le texte qui avait été envoyé au service Web. Le code XML reçu par cette méthode est écrit dans le fichier out.xml situé dans le dossier Data sur le lecteur C. 
+La méthode  `setXhtml` en exemple suppose qu'elle recevra un nœud XML de niveau supérieur, qui dans la plupart des cas sera incorporé dans un élément **DIV**. Si le code XML reçu ne contient pas d'élément englobant, par exemple lorsque le texte à l'intérieur du contrôle **Zone de texte mis en forme** n'est pas formaté, cette méthode le détectera en vérifiant si la propriété **NodeType** indique que le code XML transmis est un nœud de texte, auquel cas elle crée un élément **DIV** et copie le contenu du nœud de texte dans l'élément **DIV** afin que le **DIV** contienne un nœud de texte enfant avec le texte qui avait été envoyé au service Web. Le code XML reçu par cette méthode est écrit dans le fichier out.xml situé dans le dossier Data sur le lecteur C. 
   
 > [!NOTE]
 > [!REMARQUE] La méthode  `setXhtml` en exemple a été conçue pour accepter des données XHTML de toutes tailles. Dans la pratique, vérifiez systématiquement la quantité de données envoyées et fixez une limite supérieure pour celle-ci. 
@@ -136,7 +136,7 @@ Pour créer un formulaire afin de tester le service Web en exemple, procédez co
     
 3. Dans la boîte de dialogue **Assistant Connexion de données**, cliquez sur **Réception des données**, puis sur **Suivant**.
     
-4. Tapez l’adresse du service Web qui contient les méthodes du service Web en exemple, puis cliquez sur **Suivant**.  
+4. Tapez l'adresse du service Web qui contient les méthodes du service Web en exemple, puis cliquez sur **Suivant**. 
     
 5. Pour la méthode de réception, sélectionnez **getXhtml** comme opération, puis cliquez sur **Suivant**.
     

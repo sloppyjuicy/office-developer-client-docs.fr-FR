@@ -19,22 +19,22 @@ ms.locfileid: "32281003"
 
 Cette rubrique décrit comment télécharger les exemples de code qui accompagnent cette documentation.
   
-### <a name="to-download-the-sample-code-installation-package"></a>Pour télécharger le package d'installation de l'exemple de code
+### <a name="to-download-the-sample-code-installation-package"></a>Pour télécharger l’exemple de package d’installation de code
 
-1. Téléchargez le fichier OSCProviderSamples. zip à partir d' [Outlook Social Connector 2013: modèles de fournisseur](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+1. Téléchargez le OSCProviderSamples.zip à partir [d’Outlook Social Connector 2013 : modèles de fournisseur.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
     
-2. ExTrayez le fichier. zip dans le dossier de votre choix. Dans Windows 7, le chemin d'accès par défaut de Visual Studio 2010 est C:\Users\ _User_\Documents\Visual Studio 2010 \ Projects.
+2. Extrayez le fichier .zip dans le dossier de votre choix. Dans Windows 7, le chemin d’accès par Visual Studio 2010 est C:\Users\ _user_\Documents\Visual Studio 2010\Projects.
     
-3. Après avoir extrait le fichier. zip, vous trouverez les projets suivants dans votre dossier projects:
+3. Après avoir extrait le fichier .zip, vous trouverez les projets suivants dans votre dossier de projets :
     
-   - OSCProvider_CPP — contient le modèle de fournisseur C++.
+   - OSCProvider_CPP : contient le modèle de fournisseur C++.
     
-   - OSCProvider_CS — contient le modèle de fournisseur C#.
+   - OSCProvider_CS — Contient le modèle de fournisseur C#.
     
-   - OSCProvider_VB — contient le modèle de fournisseur Visual Basic.
+   - OSCProvider_VB contient le modèle Visual Basic fournisseur.
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Application d'un exemple de modèle de fournisseur](applying-a-sample-provider-template.md)
+- [Application d’un exemple de modèle de fournisseur](applying-a-sample-provider-template.md)
 - [Exemples de modèles de OSC](osc-sample-templates.md)
 

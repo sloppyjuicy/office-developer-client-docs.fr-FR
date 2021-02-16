@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8dbfb22d-93db-468c-b2a4-eaa2b545bd61
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c1d03ab8a1381609784862e7c7cf3576bc90527e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,40 +25,40 @@ ms.locfileid: "32280563"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un mot clé qui identifie le destinataire auprès de l'administrateur système du destinataire.
+Contient un mot clé qui identifie le destinataire à l’administrateur système du destinataire.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_KEYWORD, PR_KEYWORD_A, PR_KEYWORD_W  <br/> |
 |Identificateur :  <br/> |0x3A0B  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Domaine :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Adresse  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés fournissent des informations d'identification et d'accès pour un destinataire. Elles sont définies par le destinataire et leur organisation.
+Ces propriétés fournissent des informations d’identification et d’accès pour un destinataire. Elles sont définies par le destinataire et leur organisation.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

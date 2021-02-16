@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2de5c77c-3fac-cfb6-3719-68df4013cf11
-description: Signale la fin de la relocalisation des rendez-vous.
+description: Signale l’achèvement du rebasage des rendez-vous.
 ms.openlocfilehash: 9fab0d06bf0b9856b9a968f5c0db1bb15b0fe0bd
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.locfileid: "32328321"
 ---
 # <a name="rebasetaskcomplete"></a>RebaseTaskComplete
 
-Signale la fin de la relocalisation des rendez-vous.
+Signale l’achèvement du rebasage des rendez-vous.
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |tzmovelib. h  <br/> |
+|Fichier d’en-tête :  <br/> |tzmovelib.h  <br/> |
 |Implémenté par :  <br/> |Applications clientes MAPI  <br/> |
-|Appelé par :  <br/> |Objet de relocalisation Outlook  <br/> |
-|Type de pointeur:  <br/> |**PFNREBASETASKCOMPLETE** tel que défini dans tzmovelib. h  <br/> |
+|Appelé par :  <br/> |Objet rebasing Outlook  <br/> |
+|Type de pointeur :  <br/> |**PFNREBASETASKCOMPLETE** tel que défini dans tzmovelib.h  <br/> |
    
 ```cpp
 void STDAPICALLTYPE RebaseTaskComplete(  
@@ -42,27 +42,27 @@ void STDAPICALLTYPE RebaseTaskComplete(
 
 _ulRowIndex_
   
-> dans Ligne traitée. Cet index fait référence à la structure **[SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** passée à [IOlkApptRebaser:: BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
+> [in] Ligne qui a été traitée. Cet index fait référence à la structure **[SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** transmise à [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
     
 _pRowCur_
   
-> in] pointeur vers une structure **[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** décrivant l'élément qui a été traité. 
+> in] Pointeur vers une structure **[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** décrivant l’élément qui a été traitée. 
     
 _hrResult_
   
-> dans **HRESULT** indiquant le résultat de l'opération de relocalisation. 
+> [in] **HRESULT** indiquant le résultat de l’opération de rebasing. 
     
 _fModified_
   
-> dans Indique si l'élément a été modifié.
+> [in] Spécifie si l’élément a été modifié.
     
 _fSentUpdate_
   
-> dans Indique si un message de mise à jour de réunion a été envoyé. 
+> [in] Spécifie si un message de mise à jour de réunion a été envoyé. 
     
 _pError_
   
-> dans Pointeur vers une structure **MAPIERROR** avec des informations d'erreur étendues. 
+> [in] Pointeur vers une structure **MAPIERROR** avec des informations d’erreur étendues. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -70,7 +70,7 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes MAPI qui utilisent l'interface [IOlkApptRebaser](iolkapptrebaser.md) implémentent cette fonction pour effectuer le suivi des mises à jour des éléments. 
+Les applications clientes MAPI qui utilisent l’interface [IOlkApptRebaser](iolkapptrebaser.md) implémentent cette fonction pour suivre la fin des mises à jour des éléments. 
   
 ## <a name="see-also"></a>Voir aussi
 

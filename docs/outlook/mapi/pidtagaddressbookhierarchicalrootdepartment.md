@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c611640b-1a70-4a76-b7ff-c8ad8d320892
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 22a1a62f4ee6ff492f36eb18e2d92c8d70febd72
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,43 +25,43 @@ ms.locfileid: "32326123"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Contient le nom unique (DN) de la racine de l'adresse hiérarchique (HAB). 
+ Contient le nom (DN) de la racine d’adresse hiérarchique (HAB). 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EMS_AB_HAB_ROOT_DEPARTMENT, PR_EMS_AB_HAB_ROOT_DEPARTMENT_A  <br/> |
-|Jeu de propriétés:  <br/> |Carnet d’adresses  <br/> |
-|ID long (couvercle):  <br/> |0x8C98  <br/> |
+|Jeu de propriétés :  <br/> |Carnet d’adresses  <br/> |
+|ID long (LID) :  <br/> |0x8C98  <br/> |
 |Type de données :  <br/> |PT_STRING8  <br/> |
-|Domaine :  <br/> |Carnet d'adresses Exchange  <br/> |
+|Domaine :  <br/> |Carnet d’adresses Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Il s'agit d'une propriété du conteneur de liste d'adresses globale (LAG) et représente le nom unique de la racine de l'adresse hiérarchique. Cette propriété est présente uniquement dans le carnet d'adresses en mode hors connexion et jamais dans les services de domaine Active Directory (AD DS). Les appelants doivent transmettre MAPI_CACHE_ONLY à l'appel GetProps pour éviter un appel de procédure distante. Si ce n'est pas le cas, les appelants doivent utiliser PR_EMS_AB_HAB_ROOT_DEPARTMENT, qui est de type PT_OBJECT, pour trouver le service racine. 
+Il s’agit d’une propriété dans le conteneur de liste d’adresses globale (LAL) et représente le nom de la racine d’adresse hiérarchique. Cette propriété est uniquement présente dans le carnet d’adresses en mode hors connexion et jamais dans les services de domaine Active Directory (AD DS). Les appelants doivent transmettre MAPI_CACHE_ONLY l’appel GetProps pour éviter un appel de procédure distante. Si ce n’est pas le cas, les appelants doivent utiliser PR_EMS_AB_HAB_ROOT_DEPARTMENT, qui est de type PT_OBJECT, pour rechercher le service racine. 
   
-Une fois que le service racine est obtenu, il peut avoir un type d'objet MAPI_MAILUSER ou MAPI_DISTLIST. Si le type d'objet est MAPI_DISTLIST, le nouveau schéma est employé. Si le type d'objet est MAPI_MAILUSER, le schéma précédent est utilisé. 
+Une fois le service racine obtenu, il peut avoir un type d’objet MAPI_MAILUSER ou MAPI_DISTLIST. Si le type d’objet MAPI_DISTLIST, le nouveau schéma est utilisé. Si le type d’objet MAPI_MAILUSER, le schéma précédent est utilisé. 
   
 - Microsoft Office Outlook 2007 Service Pack 2 prend en charge les deux schémas. 
     
-- Microsoft Outlook 2010 et Microsoft Outlook 2013 prennent en charge le nouveau schéma.
+- Microsoft Outlook 2010 et Microsoft Outlook 2013 supportent le nouveau schéma.
     
-Dans le nouveau schéma, tous les groupes de services sont également des listes de distribution et sont de type MAPI_DISTLIST. Les membres des groupes de services et les services au sein des groupes de services sont obtenus à l'aide de PR_EMS_AB_MEMBER, comme les membres de liste de distribution.
+Dans le nouveau schéma, tous les groupes de service sont également des listes de distribution et sont de type MAPI_DISTLIST. Les membres des groupes de service et les services au sein de groupes de service sont obtenus à l’aide de PR_EMS_AB_MEMBER, exactement comme les membres de liste de distribution.
   
-Une fois que le service racine est obtenu, il peut avoir un type d'objet MAPI_MAILUSER ou MAPI_DISTLIST. Si le type d'objet est MAPI_DISTLIST, le nouveau schéma est utilisé. Si le type d'objet est MAPI_MAILUSER, l'ancien schéma est utilisé. 
+Une fois le service racine obtenu, il peut avoir un type d’objet MAPI_MAILUSER ou MAPI_DISTLIST. Si le type d’objet MAPI_DISTLIST, le nouveau schéma est utilisé. Si le type d’objet MAPI_MAILUSER, l’ancien schéma est utilisé. 
   
-Dans le nouveau schéma, tous les groupes de services sont également des listes de distribution et sont de type MAPI_DISTLIST.
+Dans le nouveau schéma, tous les groupes de service sont également des DL et sont de type MAPI_DISTLIST.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Microsoft Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Microsoft Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

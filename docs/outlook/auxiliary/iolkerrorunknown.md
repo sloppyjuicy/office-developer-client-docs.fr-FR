@@ -21,19 +21,19 @@ Fournit des informations supplémentaires sur la dernière erreur.
 
 |||
 |:-----|:-----|
-|Hérite de:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Hérite de :  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Fourni par :  <br/> |Client  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IOlkErrorUnknown  <br/> |
+|Identificateur d’interface :  <br/> |IID_IOlkErrorUnknown  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Généré](iolkerrorunknown-getlasterror.md) <br/> |Obtient une chaîne de message pour l'erreur spécifiée.  <br/> |
+|[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Obtient une chaîne de message pour l’erreur spécifiée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette interface fournit des informations supplémentaires sur une erreur dans [IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md)et [IOlkAccount](iolkaccount.md). Il s'agit également de l'interface de base pour **IOlkAccountManager**, **IOlkAccountNotify**et **IOlkAccount**. 
+Cette interface fournit des informations supplémentaires sur une erreur dans [IOlkAccountManager,](iolkaccountmanager.md) [IOlkAccountNotify](iolkaccountnotify.md)et [IOlkAccount](iolkaccount.md). Il s’agit également de l’interface de base pour **IOlkAccountManager,** **IOlkAccountNotify** et **IOlkAccount**. 
   
 ## <a name="see-also"></a>Voir aussi
 

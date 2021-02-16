@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4984055d370f3f8ab617b11b2d834ba277ef105a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32282360"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les identificateurs d'entrée de certains dossiers spéciaux. 
+Contient les ID d’entrée de certains dossiers spéciaux. 
   
 |||
 |:-----|:-----|
@@ -36,45 +36,45 @@ Contient les identificateurs d'entrée de certains dossiers spéciaux.
    
 ## <a name="remarks"></a>Remarques
 
-Les cinq premières entrées de cette propriété à valeurs multiples s'appliquent aux dossiers spéciaux suivants, s'ils existent dans la Banque:
+Les cinq premières entrées de cette propriété à valeurs multiples s’appliquent aux dossiers spéciaux suivants, s’ils existent dans la boutique :
   
-0-dossier de conflits
+0 - dossier conflicts
   
-1-dossier problèmes de synchronisation
+1 : dossier problèmes de synchronisation
   
-2-dossier pannes locales
+2 : dossier d’échecs local
   
-dossier de défaillances de 3 serveurs
+3 - Dossier des défaillances du serveur
   
-4-dossier courrier indésirable
+4 - Dossier courrier indésirable
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations de création et de localisation des dossiers spéciaux dans une boîte aux lettres.
+> Spécifie les propriétés et opérations permettant de créer et de localiser les dossiers spéciaux dans une boîte aux lettres.
     
 [[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifie et marque les messages électroniques conçus pour inciter les destinataires à divulguer des informations sensibles (telles que des mots de passe et d'autres informations personnelles) à une source non fiable.
+> Identifie et marque les messages électroniques conçus pour duplicher les destinataires afin de divulguer des informations sensibles (telles que des mots de passe et d’autres informations personnelles) à une source non fiable.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Active la gestion des listes d'autorisation/de blocage et la détermination des messages électroniques indésirables.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

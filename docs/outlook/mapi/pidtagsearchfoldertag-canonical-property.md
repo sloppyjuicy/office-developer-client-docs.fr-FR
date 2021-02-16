@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b7a88387-72ff-49e5-b73a-8bafab635658
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a4ad72c147abebfe9863d19690bc9f27f00544a2
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -30,33 +30,33 @@ Contient la valeur utilisée pour synchroniser ce message de définition avec le
 |Propriétés associées :  <br/> |PR_WB_SF_TAG  <br/> |
 |Identificateur :  <br/> |0x6847  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Rechercher  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est modifiée lorsque le message de définition est modifié. Il doit modifier chaque itération, mais il peut ne pas être unique.
+Cette propriété est modifiée lorsque le message de définition est modifié. Elle doit modifier chaque itération, mais elle peut ne pas être unique.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour la manipulation d'une configuration de liste des dossiers de recherche.
+> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

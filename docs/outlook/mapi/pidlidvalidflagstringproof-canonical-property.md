@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5a94968-7e84-4faf-8104-9ea36d35fa1a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: dfe3b57c246e247eda365bed46af2e0f35f0e54b
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,37 +25,37 @@ ms.locfileid: "32315385"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Vérifie si la valeur de la propriété **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) a été définie par un agent qui savait la valeur de la propriété **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
+Valide si la valeur de la propriété **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) a été définie par un agent qui connaît la valeur de la propriété **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidValidFlagStringProof  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x000085BF  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x000085BF  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Tâche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour les objets qui ne sont pas des expéditeurs (messages reçus et objets autres que des objets de messagerie), les clients doivent définir cette valeur sur la valeur de **PR_MESSAGE_DELIVERY_TIME** lors de la modification de **dispidRequest**.
+Sur les objets non sendables (objets de courrier et non-courrier reçus), les clients doivent définir cette valeur sur la valeur **de PR_MESSAGE_DELIVERY_TIME** lors de la modification **de dispidRequest**.
   
-Étant donné que la valeur de **PR_MESSAGE_DELIVERY_TIME** ne peut pas être prévisible par l'expéditeur, si la valeur de cette propriété est égale à la valeur de **PR_MESSAGE_DELIVERY_TIME**, il est raisonnablement certain que la valeur de **dispidRequest** n'a pas proviennent de l'expéditeur du message. Un client peut décider comment présenter la valeur de **dispidRequest** à l'utilisateur final en fonction du résultat de cette comparaison conformément à la stratégie de sécurité spécifique du client. Si la valeur de **dispidRequest** est ignorée en raison de la présence d'une valeur pour **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), cette propriété doit être ignorée.
+Étant donné que la valeur de **PR_MESSAGE_DELIVERY_TIME** ne peut pas être prévue par l’expéditeur, si la valeur de cette propriété est égale à la valeur de **PR_MESSAGE_DELIVERY_TIME,** il est raisonnablement certain que la valeur de **dispidRequest** n’a pas été issue de l’expéditeur du message. Un client peut décider comment présenter la valeur de **dispidRequest** à l’utilisateur final en fonction du résultat de cette comparaison conformément à la stratégie de sécurité spécifique du client. Si la valeur de **dispidRequest** est ignorée en raison de la présence d’une valeur pour **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), cette propriété doit être ignorée.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations relatives au marquage.
+> Spécifie les propriétés et les opérations liées au marquage.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

@@ -23,7 +23,7 @@ Le CLR (Common Language Runtime) utilisé par InfoPath recherche un groupe de co
   
 Pour que la stratégie de sécurité personnalisée définie à l'aide du composant logiciel enfichable Configuration .NET soit appliquée, elle doit être déployée sur tous les ordinateurs clients sur lesquels le modèle de formulaire sera exécuté.
   
-Pour plus d'informations sur le modèle de sécurité pour les modèles de formulaire InfoPath avec code managé, voir [modèle de sécurité pour les modèles de formulaire avec code](about-the-security-model-for-form-templates-with-code.md)
+Pour plus d’informations sur le modèle de sécurité pour les modèles de formulaire InfoPath avec code géré, voir À propos du modèle de sécurité pour les modèles de [formulaires avec code](about-the-security-model-for-form-templates-with-code.md)
   
 ## <a name="creating-a-code-group-for-infopath-form-templates"></a>Création d'un groupe de codes pour les modèles de formulaire InfoPath
 
@@ -34,7 +34,7 @@ La procédure suivante crée un groupe de codes qui n'octroie aucune autorisatio
   
 ### <a name="to-create-a-custom-security-code-group-for-infopath-managed-code-forms"></a>Pour créer un groupe de codes de sécurité personnalisé pour les formulaires InfoPath avec code managé
 
-1. Dans le menu **Démarrer**, pointez sur **Outils d'administration**, puis cliquez sur **Configuration Microsoft .NET Framework 2.0**.
+1. Dans le menu **Démarrer**, pointez sur **Outils d'administration**, puis cliquez sur **Configuration Microsoft .NET Framework 2.0**.
     
     Si l'option **Outils d'administration** ne se trouve pas dans le menu **Démarrer**, ouvrez **Outils d'administration** depuis le **Panneau de configuration** et double-cliquez sur **Configuration Microsoft .NET Framework 2,0**.
     
@@ -57,7 +57,7 @@ Si vous le souhaitez, vous pouvez gérer le jeu d'autorisations pour tous les mo
 Vous pouvez créer des groupes de codes sous le groupe **Modèles de formulaires InfoPath** pour accorder une autorisation totale à des modèles de formulaires provenant d’une URL ou d’un emplacement UNC spécifique. Ainsi, tous les modèles de formulaires publiés à l’emplacement spécifié s’exécuteront avec une autorisation totale. 
   
 > [!NOTE]
-> [!REMARQUE] Un modèle de formulaire chargé depuis l'ordinateur local (groupe de codes de la zone MyComputer) est chargé par InfoPath à l'aide d'une URL aléatoire. De ce fait, vous ne pouvez pas utiliser la procédure qui suit pour accorder le jeu d'autorisations Autorisation totale à un tel modèle de formulaire. Pour accorder à un modèle de formulaire installé localement le jeu d'autorisations FullTrust, utilisez l'une des procédures décrites dans la section «déploiement de modèles de formulaires qui nécessitent une confiance totale» de la rubrique [déployer des modèles de formulaires InfoPath avec code](how-to-deploy-infopath-form-templates-with-code.md) . 
+> [!REMARQUE] Un modèle de formulaire chargé depuis l'ordinateur local (groupe de codes de la zone MyComputer) est chargé par InfoPath à l'aide d'une URL aléatoire. De ce fait, vous ne pouvez pas utiliser la procédure qui suit pour accorder le jeu d'autorisations Autorisation totale à un tel modèle de formulaire. Pour accorder à un modèle de formulaire installé localement le jeu d’autorisations Autorisation totale, utilisez l’une des procédures décrites dans la section « Déploiement de modèles de formulaires qui nécessitent une confiance totale » de la rubrique Déployer des modèles de formulaire InfoPath avec [code.](how-to-deploy-infopath-form-templates-with-code.md) 
   
 ### <a name="to-assign-fulltrust-to-infopath-forms-at-a-specific-url-or-unc-location"></a>Pour affecter une autorisation totale aux formulaires InfoPath situés à un emplacement URL ou UNC spécifique
 
@@ -108,11 +108,11 @@ Après avoir défini une stratégie de sécurité personnalisée pour les modèl
     
 4. Cliquez sur **Terminer** pour créer le package de déploiement. 
     
-5. Pour plus d'informations sur l'utilisation de l'outil .NET Framework Configuration, consultez l'aide de Visual Studio ou le site Web MSDN «outil .NET Framework Configuration Tool (Mscorcfg. msc)».
+5. Pour plus d’informations sur l’utilisation de l’outil de configuration .NET Framework, recherchez « .NET Framework Configuration Tool (Mscorcfg.msc) » sur le site web MSDN ou l’aide de Visual Studio.
     
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[À propos du modèle de sécurité pour les modèles de formulaire avec code](about-the-security-model-for-form-templates-with-code.md)
+[À propos du modèle de sécurité pour les modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md)
 

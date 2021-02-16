@@ -104,7 +104,7 @@ Le mode Création d'InfoPath prend en charge de telles constructions XSD sans re
   
 ## <a name="optional-sibling-with-same-qualified-name"></a>Frère facultatif avec le même nom qualifié
 
-Le fragment de schéma suivant montre un frère facultatif avec le même nom`QName`qualifié ():
+Le fragment de schéma suivant montre un frère facultatif avec le même nom qualifié ( `QName` :
   
 ```xml
 <xsd:sequence> 
@@ -358,7 +358,7 @@ Voici un exemple plus complexe :
 
 Pour comprendre pourquoi cet exemple est non valide, vous devez comprendre comment le type **xsd:NMTOKEN** est défini. La spécification des types de données W3C définit le type **NMTOKEN** comme suit : « Un jeton de nom (NMTOKEN) est tout ensemble de caractères de nom ». 
   
-Si vous examinez davantage, vous constatez que «&» n'est pas un caractère de nom valide, et par conséquent «M&Ms» n'est pas validé en tant que type **NMTOKEN** . 
+Si vous examinez plus en détail, vous constatez que « & » n’est pas un caractère de nom valide et, par conséquent, « M&Ms » ne valide pas en tant que type **NMTOKEN.** 
   
 ## <a name="empty-sequence-or-choice-elements"></a>Éléments sequence ou choice vides
 
@@ -377,7 +377,7 @@ La suppression de la balise  `<xsd:choice />` vide doit résoudre ce problème.
   
 ## <a name="regular-expressions"></a>Expressions régulières
 
-MSXML 5.0 peut avoir des problèmes pour valider des modèles d'expressions régulières lors du chargement. Les expressions régulières peuvent être compliquées, et vous devez être attentif lorsque vous les utilisez. Chaque analyseur syntaxique XSD semble avoir des langages flexibles pour les expressions régulières : ils implémentent le langage d'expressions régulières XSD officiel ainsi que des éléments provenant d'autres langages d'expressions régulières. Si le concepteur de formulaires d'InfoPath a des problèmes pour analyser une expression régulière, les exemples de données générés par InfoPath peuvent être non valides ou ne pas être générées du tout. Ceci est acceptable lors de la conception, car InfoPath utilise les exemples de données seulement pour la mise en forme. Cependant, si vous utilisez une expression régulière qui n'est pas prise en charge par MSXML, InfoPath ne peut pas valider une valeur par rapport à cette expression lorsqu'un utilisateur remplit un formulaire. [XML Schema Part 0: Primer Second Edition](https://www.w3.org/TR/xmlschema-0/)décrit ce qui est pris en charge dans les expressions régulières XSD. Pour plus d'informations sur les expressions régulières XSD et les expressions régulières Unicode de niveau 1, voir [Unicode Regular Expressions](https://www.unicode.org/reports/tr18/) . 
+MSXML 5.0 peut avoir des problèmes pour valider des modèles d'expressions régulières lors du chargement. Les expressions régulières peuvent être compliquées, et vous devez être attentif lorsque vous les utilisez. Chaque analyseur syntaxique XSD semble avoir des langages flexibles pour les expressions régulières : ils implémentent le langage d'expressions régulières XSD officiel ainsi que des éléments provenant d'autres langages d'expressions régulières. Si le concepteur de formulaires d'InfoPath a des problèmes pour analyser une expression régulière, les exemples de données générés par InfoPath peuvent être non valides ou ne pas être générées du tout. Ceci est acceptable lors de la conception, car InfoPath utilise les exemples de données seulement pour la mise en forme. Cependant, si vous utilisez une expression régulière qui n'est pas prise en charge par MSXML, InfoPath ne peut pas valider une valeur par rapport à cette expression lorsqu'un utilisateur remplit un formulaire. [Schéma XML, partie 0](https://www.w3.org/TR/xmlschema-0/): La deuxième édition principale décrit ce qui est pris en charge dans les expressions régulières XSD. Pour plus d’informations sur les expressions régulières XSD et les expressions régulières Unicode de niveau 1, voir [Expressions régulières Unicode.](https://www.unicode.org/reports/tr18/) 
   
 ## <a name="targetnamespace-attribute-issues"></a>Problèmes liés à l’attribut targetNamespace
 

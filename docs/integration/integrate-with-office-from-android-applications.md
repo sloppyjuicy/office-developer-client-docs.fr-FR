@@ -55,7 +55,7 @@ Lorsque l'application Office est installée, votre application référente peut 
   
 - Protocole Office
     
-- Mode d’ouverture
+- Mode d'ouverture
     
 - URL
     

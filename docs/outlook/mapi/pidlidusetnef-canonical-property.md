@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 954048d6-e2eb-43e7-b52c-c2f047bb84a4
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 56f6e2355ee2e64cc766bafe27cd59454e210ab6
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,47 +25,47 @@ ms.locfileid: "32315420"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si le format TNEF (Transport Neutral Encapsulation Format) doit être inclus dans un message lors de la conversion de MAPI en format MIME (Multipurpose Internet Mail Extensions) ou SMTP (Simple Mail Transfer Protocol).
+Spécifie si le format TNEF (Transport Neutral Encapsulation Format) doit être inclus dans un message lorsque ce message est converti du format MAPI au format MIME (Multipurpose Internet Mail Extensions) ou SMTP (Simple Mail Transfer Protocol).
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidUseTNEF  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008582  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008582  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Configuration de l'exécution  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie si TNEF doit être inclus dans un message lors de la conversion du format TNEF au format MIME ou SMTP. Cette propriété peut être absente et, si tel est le cas, TNEF ne doit pas être inclus dans le message.
+Cette propriété spécifie si le format TNEF doit être inclus dans un message lorsque ce message est converti du format TNEF au format MIME ou SMTP. Cette propriété peut être absente et, si tel est le cas, le TNEF ne doit pas être inclus dans le message.
   
-Cette propriété s'applique uniquement lorsque le message est envoyé à partir d'un compte de messagerie POP3/SMTP et ne s'applique pas lorsque le message est envoyé par d'autres fournisseurs, tels que Microsoft Exchange Server.
+Cette propriété s’applique uniquement lorsque le message est envoyé à partir d’un compte de messagerie POP3/SMTP et ne s’applique pas lorsque le message est envoyé par d’autres fournisseurs, tels que Microsoft Exchange Server.
   
-Dans certaines circonstances, par exemple lorsque les boutons de vote sont activés ou qu'un objet incorporé OLE est attaché à un message, Outlook peut définir cette propriété afin de forcer l'utilisation de TNEF.
+Dans certaines circonstances, par exemple lorsque les boutons de vote sont activés ou qu’un objet OLE incorporé est joint à un message, Outlook peut définir cette propriété pour forcer l’utilisation du TNEF.
   
-La propriété **PR_MSG_EDITOR_FORMAT** ([PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)) peut être utilisée pour appliquer uniquement du texte brut, et non au format TNEF, lors de l'envoi d'un message. Étant donné que **PidLidUseTNEF** remplace le paramètre dans **PR_MSG_EDITOR_FORMAT**, une application qui souhaite forcer le texte brut sur un message sortant doit également rechercher **PIDLIDUSETNEF** et la réinitialiser sur false. En outre, le complément doit supprimer les fonctionnalités de message qui nécessitaient le format TNEF pour éviter que les pièces jointes inutilisables du message soient finalement envoyées. 
+La **PR_MSG_EDITOR_FORMAT** ([PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)) peut être utilisée pour appliquer uniquement le texte simple, et non le TNEF, lors de l’envoi d’un message. Étant donné que **PidLidUseTNEF** remplace le paramètre dans **PR_MSG_EDITOR_FORMAT**, une application qui souhaite forcer le texte simple sur un message sortant doit également rechercher **PidLidUseTNEF** et le redéfinir sur FALSE. En outre, le complément doit supprimer les fonctionnalités de message qui nécessitaient le TNEF pour éviter les pièces jointes inutilisables sur le message qui est finalement envoyé. 
   
-Utilisez l'indicateur **CCSF_USE_TNEF** lors de l'appel de [IConverterSession:: MAPItoMIMEStm](iconvertersession-mapitomimestm.md) pour convertir un message MAPI sortant en flux MIME peut également appliquer le format TNEF. Cela s'applique même si **PidLidUseTNEF** n'est pas défini. 
+Utilisez **l’indicateur CCSF_USE_TNEF** lors de l’appel de [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) pour convertir un message MAPI sortant en flux MIME peut également appliquer le TNEF. Cela s’applique même **si PidLidUseTNEF n’est** pas définie. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets message et Attachment en une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

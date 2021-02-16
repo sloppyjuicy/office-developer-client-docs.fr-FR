@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dfe66d5d-7b82-46c6-871b-2ce809bbca7e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2a19554926620d324601d18f9f0b1ae2631d35b0
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,31 +25,31 @@ ms.locfileid: "32316540"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si l'utilisateur de la tâche a été invité à envoyer une mise à jour de message électronique lorsqu'il a terminé la tâche affectée.
+Indique si la personne affectée à la tâche a été demandée pour envoyer une mise à jour de message électronique lorsqu’elle termine la tâche affectée.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskSOC  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Task  <br/> |
-|ID long (couvercle):  <br/> |0x00008119  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
+|ID long (LID) :  <br/> |0x00008119  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Tâche  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui modélisent l'équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
+> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

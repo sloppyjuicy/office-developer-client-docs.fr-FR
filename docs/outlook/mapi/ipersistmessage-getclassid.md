@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 77eeb468-3432-4ccd-9c1e-1df9ce605193
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 3f0d98b8ffa13fe238fc0fcf8ff0ec76a3a284eb
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -37,19 +37,19 @@ HRESULT GetClassID(
 
  _lpClassID_
   
-> [in, out] Pointeur vers l'identificateur de classe (CLSID) du formulaire.
+> [in, out] Pointeur vers l’identificateur de classe (CLSID) du formulaire.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'identificateur de classe a été renvoyé.
+> L’identificateur de classe a été renvoyé avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IPersistMessge:: GetClassID** définit le contenu du paramètre _lpClassID_ sur l'identificateur de classe du serveur de formulaire et renvoie S_OK. Lorsqu'une visionneuse de formulaires appelle **GetClassID** et qu'elle renvoie correctement, le formulaire est placé en état [non initialisé](uninitialized-state.md) . 
+La **méthode IPersistMessge::GetClassID** définit le contenu du paramètre  _lpClassID_ sur l’identificateur de classe du serveur de formulaire et renvoie S_OK. Lorsqu’une visionneuse de formulaire appelle **GetClassID** et qu’elle renvoie correctement, le formulaire est placé dans [l’état Nonnitialisé.](uninitialized-state.md) 
   
-Pour plus d'informations sur l'utilisation des identificateurs de classe avec des objets de stockage structurés, consultez la documentation de la méthode [IPersist:: GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) . 
+Pour plus d’informations sur l’utilisation des identificateurs de classe avec des objets de stockage structuré, voir la documentation de la méthode [IPersist::GetClassID.](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) 
   
 ## <a name="see-also"></a>Voir aussi
 

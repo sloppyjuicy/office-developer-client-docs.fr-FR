@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a64e5300-6865-4588-8e1b-158cfd9c60c2
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: dea709b457e28efef62718fc388621e01c4eb5bf
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32279708"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l'heure de la dernière modification de l'objet ou sous-objet. 
+Contient la date et l’heure de la dernière modification de l’objet ou du sous-objet. 
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Contient la date et l'heure de la dernière modification de l'objet ou sous-obje
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est initialement définie sur la même valeur que la propriété **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Les sous-objets de pièce jointe peuvent le mettre à jour si nécessaire en copiant l'heure de la dernière modification gérée par le système de fichiers natif. Une application cliente peut définir cette propriété jusqu'au premier appel à la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . À partir de là, le fournisseur doit mettre à jour **PR_LAST_MODIFICATION_TIME** pendant tous les appels **IMAPIProp:: SaveChanges** . 
+Cette propriété est initialement définie sur la même valeur que la **propriété PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Les sous-objets de pièce jointe peuvent le mettre à jour si nécessaire en copiant l’heure de la dernière modification conservée par le système de fichiers natif. Une application cliente peut définir cette propriété jusqu’au premier appel de la méthode [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) À partir de là, le fournisseur doit mettre PR_LAST_MODIFICATION_TIME **jour** pendant chaque **appel IMAPIProp::SaveChanges.** 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère la synchronisation des données d'objet de messagerie entre un serveur et un client.
+> Gère la synchronisation des données d’objet de messagerie entre un serveur et un client.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

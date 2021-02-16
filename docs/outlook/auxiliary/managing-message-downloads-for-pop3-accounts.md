@@ -24,9 +24,9 @@ Le protocole POP (Post Office) spécifie un protocole de couche d'application po
   
 Pour un compte POP, les messages sont identifiées par des identificateurs uniques (UID). Client de messagerie électronique qui conserve les messages sur le serveur utilise la commande UIDL pour récupérer la carte UIDL qui associe chaque message a été remis à la boîte aux lettres à son UID. Le client obtient également l'historique de la commande UIDL pour les messages qui ont été téléchargés ou supprimés de la boîte de réception sur ce client. En fonction de l'historique de la commande UIDL, le client peut déterminer quels messages sont nouveaux et qu'il doivent être téléchargés.
 
-- [Recherche de l'historique de téléchargement des messages pour un compte POP3](locating-the-message-download-history-for-a-pop3-account.md): cette rubrique décrit comment un client de messagerie accède à la propriété [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) pour obtenir l'historique de la commande UIDL pour les messages dans la boîte de réception du client d'un compte POP3. 
+- Localisation de l’historique de téléchargement des messages pour un compte [POP3](locating-the-message-download-history-for-a-pop3-account.md): cette rubrique décrit comment un client de messagerie accède à la propriété [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) pour obtenir l’historique UIDL des messages dans la boîte de réception du client d’un compte POP3. 
     
-- [Analyse de l'historique de téléchargement des messages pour un compte POP3](parsing-the-message-download-history-for-a-pop3-account.md): cette rubrique décrit comment analyser le BLOB POP3 qui représente l'historique de la commande UIDL pour les messages dans la boîte de réception du client d'un compte POP3, pour identifier les messages qui ont été téléchargés ou supprimés sur comptes.
+- L’historique de téléchargement des messages pour un compte [POP3](parsing-the-message-download-history-for-a-pop3-account.md): cette rubrique décrit comment l’objet BLOB POP3 qui représente l’historique UIDL des messages dans la boîte de réception du client d’un compte POP3, afin d’identifier les messages qui ont été téléchargés ou supprimés sur ce compte.
     
 ## <a name="see-also"></a>Voir aussi
 

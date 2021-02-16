@@ -19,7 +19,7 @@ ms.locfileid: "32310142"
 
 Bienvenue dans la référence du développeur InfoPath 15 pour l’automatisation externe. Cette documentation fournit des vues d’ensemble, des tâches de programmation et des informations de référence sur les bibliothèques de classes pour vous aider à créer des solutions de code managé qui automatisent InfoPath à partir d’applications ou de compléments externes.
   
-Pour plus d'informations sur l'utilisation de modèles de formulaire InfoPath qui contiennent une logique métier écrite en code managé, voir la [Référence du développeur infopath 2013 pour les modèles de formulaires](https://go.microsoft.com/fwlink/?LinkId=159764).
+Pour plus d’informations sur l’working with InfoPath form templates that contain business logic written in managed code, see the [InfoPath 2013 developer reference for form templates](https://go.microsoft.com/fwlink/?LinkId=159764).
   
 Date de publication de cette référence : octobre 2012
   

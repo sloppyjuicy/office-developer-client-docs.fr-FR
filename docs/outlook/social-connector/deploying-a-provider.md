@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c5e816b5-2ff2-4f59-ba54-c3ed291f8bba
-description: La méthode recommandée pour le déploiement d'un fournisseur Outlook Social Connector (OSC) consiste à utiliser un package Windows Installer (. msi).
+description: La méthode recommandée pour déployer un fournisseur Outlook Social Connector (OSC) consiste à utiliser un package Windows Installer (.msi).
 ms.openlocfilehash: f606d39bd368609464cdd0ea5b9a56243ec4e27d
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,13 +17,13 @@ ms.locfileid: "32281060"
 ---
 # <a name="deploying-a-provider"></a>Déploiement d’un fournisseur
 
-La méthode recommandée pour le déploiement d'un fournisseur Outlook Social Connector (OSC) consiste à utiliser un package Windows Installer (. msi). Après avoir téléchargé le package d'installation sur un disque dur local, l'utilisateur final Office installe le fournisseur OSC. Une fois l'installation du fournisseur terminée, l'utilisateur peut se connecter au fournisseur OSC et fournir des informations d'identification d'ouverture de session au compte de réseau social. Si l'utilisateur décide de désinstaller le fournisseur OSC, l'utilisateur peut utiliser des **programmes et des fonctionnalités** dans le panneau de configuration pour le désinstaller. 
+La méthode recommandée pour déployer un fournisseur Outlook Social Connector (OSC) consiste à utiliser un package Windows Installer (.msi). Après avoir téléchargé le package d’installation sur un disque dur local, l’utilisateur final d’Office installe le fournisseur OSC. Une fois l’installation du fournisseur terminée, l’utilisateur peut se connecter au fournisseur OSC et fournir des informations d’identification de connexion au compte de réseau social. Si l’utilisateur décide de désinstaller le fournisseur  OSC, il peut utiliser programmes et fonctionnalités dans le Panneau de contrôle pour désinstaller. 
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Inscription d'un fournisseur](registering-a-provider.md): décrit les exigences d'inscription pour un fournisseur OSC.
+- [Inscription d’un fournisseur](registering-a-provider.md): décrit les conditions d’inscription requises pour un fournisseur OSC.
     
-- [Liste de vérification de l'installation](installation-checklist.md): fournit une liste de vérification pour s'assurer qu'un fournisseur OSC s'installe correctement.
+- [Liste de contrôle d’installation](installation-checklist.md): fournit une liste de contrôle pour s’assurer qu’un fournisseur OSC s’installe correctement.
     
 ## <a name="reference"></a>Référence
 
@@ -41,9 +41,9 @@ La méthode recommandée pour le déploiement d'un fournisseur Outlook Social Co
   
 - [Débogage d'un fournisseur](debugging-a-provider.md)
   
-- [Meilleures pratiques pour le développement d'un fournisseur](best-practices-for-developing-a-provider.md)
+- [Meilleures pratiques pour le développement d’un fournisseur](best-practices-for-developing-a-provider.md)
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Comment gérer Outlook Social Connector à l'aide de la stratégie de groupe](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [Comment gérer Outlook Social Connector à l’aide de la stratégie de groupe](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

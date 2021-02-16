@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ffbab371-1a1d-4aa4-ad31-17549a74513c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b62779567a7dbd298fdd313e90b13fb223e4e47e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32319270"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des informations sur le fuseau horaire d'une réunion périodique.
+Spécifie des informations sur le fuseau horaire d’une réunion périodique.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_TIME_ZONE  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Meeting  <br/> |
-|ID long (couvercle):  <br/> |0x0000000C  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
+|ID long (LID) :  <br/> |0x0000000C  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est uniquement lue si la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) n'est pas définie, mais si la propriété **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) a la valeur true et la **LID_IS_EXCEPTION** ([ PidLidIsException](pidlidisexception-canonical-property.md)) a la valeur false. Le mot de bas indique un index dans une table qui contient des informations sur le fuseau horaire. À partir du mot supérieur, seul le bit le plus élevé est lu. Si ce bit est défini, le fuseau horaire référencé n'observera pas l'heure d'été (DST), sinon les dates d'heure d'été détaillées dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) seront suivies. 
+Cette propriété est lue uniquement si la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) n’est pas définie, mais si la propriété **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) est TRUE et la propriété **LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) est FALSE. Word inférieur spécifie un index dans un tableau qui contient des informations de fuseau horaire. Dans la partie supérieure de WORD, seul le bit le plus élevé est lu. Si ce bit est définie, le fuseau horaire référencé n’observera pas l’heure d’été , sinon les dates d’été détaillées dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) seront suivies. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

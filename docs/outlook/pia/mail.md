@@ -1,5 +1,5 @@
 ---
-title: Courrier Outlook
+title: Courrier
 TOCTitle: Mail
 ms:assetid: 7eddd53c-a598-4dc1-b555-fd3af1236402
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184619(v=office.15)

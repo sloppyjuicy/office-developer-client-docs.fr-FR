@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb5936a2-6f78-428e-8900-dc7f2f1d67b0
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 33c4fffb5c74124c8089268f723e0aa9ffa338f2
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,39 +25,39 @@ ms.locfileid: "32278826"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la valeur TRUE si l'élément n'est pas archivé automatiquement.
+Spécifie la valeur TRUE si l’élément n’est pas automatiquement archivé.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidAgingDontAgeMe  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x0000850E  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x0000850E  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Courant  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère l'ordre et le flux de transfert de données entre un client et un serveur.
+> Gère l’ordre et le flux des transferts de données entre un client et un serveur.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Effectue une conversion entre l'IETF RFC2445, RFC2446 et RFC2447, ainsi que les rendez-vous et les réunions.
+> Convertit entre RFC2445 IETF, RFC2446 et RFC2447, et rendez-vous et réunions.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Encode et décode les objets message et Attachment en une représentation de flux efficace.
+> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

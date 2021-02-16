@@ -28,7 +28,7 @@ Cette section fournit des exemples de tâches qui utilisent des cartes de visite
 ## <a name="see-also"></a>Voir aussi
 
 - [Contacts](contacts.md)
-- [Courrier](mail.md)
+- [Application de messagerie](mail.md)
 - [Utilisateurs Exchange](exchange-users.md)
 - [Procédure (Référence PIA Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)
 

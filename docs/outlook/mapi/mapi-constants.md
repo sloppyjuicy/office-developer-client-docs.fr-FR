@@ -34,13 +34,13 @@ Cette section contient les définitions des constantes et les identificateurs d�
 DEFINE_GUID(IID_IAttachmentSecurity, 0xb2533636, 0xc3f3, 0x416f, 0xbf, 0x04, 0xae, 0xfe, 0x41, 0xab, 0xaa, 0xe2);
 ```
 
-Utilisez la macro MAPIMETHOD définie dans le fichier d’en-tête mapidefs.h du SDK Windows pour définir la fonction virtuelle pure ** [IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md)**. 
+Utilisez la macro MAPIMETHOD définie dans le fichier d’en-tête mapidefs.h du SDK Windows pour définir la fonction virtuelle pure **[IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md)**. 
   
 ```cpp
 #define MAPI_IATTACHMENTSECURITY_METHODS(IPURE)         MAPIMETHOD(IsAttachmentBlocked)         (LPCWSTR pwszFileName, BOOL *pfBlocked) IPURE;
 ```
 
-Utilisez la macro DECLARE_MAPI_INTERFACE_ définie dans le fichier d’en-tête mapidefs.h du SDK Windows pour définir le tableau de méthode virtuelle pour ** [IAttachmentSecurity](iattachmentsecurityiunknown.md)**. 
+Utilisez la macro DECLARE_MAPI_INTERFACE_ définie dans le fichier d’en-tête mapidefs.h du SDK Windows pour définir le tableau de méthode virtuelle pour **[IAttachmentSecurity](iattachmentsecurityiunknown.md)**. 
   
 ```cpp
 DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown) 
@@ -96,7 +96,7 @@ Cette section contient les définitions des constantes et les identificateurs de
 |E_NOINTERFACE  <br/> | *Comme définie dans le fichier d’en-tête winerror.h du kit de développement logiciel Windows (Kit SDK Windows)*  <br/> |
 |MAPIOFFLINE_ADVISE_DEFAULT  <br/> |(ULONG)0  <br/> |
 |MAPIOFFLINE_UNADVISE_DEFAULT  <br/> |(ULONG)0  <br/> |
-|MAPIOFFLINE_ADVISE_TYPE_STATECHANGE  <br/> |0,1  <br/> |
+|MAPIOFFLINE_ADVISE_TYPE_STATECHANGE  <br/> |1   <br/> |
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |0x1  <br/> |
 |MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |0x2  <br/> |
 |MAPIOFFLINE_FLAG_BLOCK  <br/> |0x00002000  <br/> |
@@ -267,7 +267,7 @@ const MAPIUID g_muidProvPrvNST =
 |MDB_OST_LOGON_ANSI  <br/> |((ULONG) 0x00001000)  <br/> |
 |SHOW_SOFT_DELETES  <br/> |((ULONG) 0x00000002)  <br/> |
 |SS_ACTIVE  <br/> |0  <br/> |
-|SS_SUSPENDED  <br/> |0,1  <br/> |
+|SS_SUSPENDED  <br/> |1   <br/> |
 |SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |
 |SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |
 |SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |
@@ -383,8 +383,8 @@ Cette section contient les définitions des constantes et les identificateurs d�
 
 ||||
 |:-----|:-----|:-----|
-|fnevIndexing  <br/> |((ULONG) 0x00010000)  <br/> |Un fournisseur de banques peut indiquer **fnevIndexing** dans le membre **ulEventType** de la structure ** [NOTIFICATION](notification.md) ** pour informer l’indexeur qu’un objet est prêt pour l’indexation. Le membre **info** de la structure **NOTIFICATION** contient une structure **[EXTENDED_NOTIFICATION](extended_notification.md)**.  <br/> |
-|FS_NONE  <br/> |0x00  <br/> |Un client peut appeler ** [IFolderSupport::GetSupportMask](ifoldersupport-getsupportmask.md) ** et rechercher le masque de bits renvoyé. **FS_NONE** indique que le dossier ne prend pas en charge le partage.  <br/> |
+|fnevIndexing  <br/> |((ULONG) 0x00010000)  <br/> |Un fournisseur de banques peut indiquer **fnevIndexing** dans le membre **ulEventType** de la structure **[NOTIFICATION](notification.md)** pour informer l’indexeur qu’un objet est prêt pour l’indexation. Le membre **info** de la structure **NOTIFICATION** contient une structure **[EXTENDED_NOTIFICATION](extended_notification.md)**.  <br/> |
+|FS_NONE  <br/> |0x00  <br/> |Un client peut appeler **[IFolderSupport::GetSupportMask](ifoldersupport-getsupportmask.md)** et rechercher le masque de bits renvoyé. **FS_NONE** indique que le dossier ne prend pas en charge le partage.  <br/> |
 |FS_SUPPORTS_SHARING  <br/> |0x01  <br/> |Un client peut appeler **IFolderSupport::GetSupportMask** et rechercher le masque de bits renvoyé. **FS_SUPPORTS_SHARING** indique que le dossier prend en charge le partage.  <br/> |
 |INDEXING_SEARCH_OWNER  <br/> |((ULONG) 0x00000001)  <br/> |Identifie le processus qui émet une notification à un indexeur indiquant qu’un objet est prêt pour l’indexation.  <br/> |
 |MNID_ID  <br/> |Comme définie dans le fichier d’en-tête mapidefs.h du kit de développement logiciel Windows (Kit SDK Windows) de Microsoft  <br/> |Valeur pour le champ **ulKind** de la structure **[MAPINAMEID](mapinameid.md)**.  <br/> |
@@ -411,7 +411,7 @@ const GUID PSETID_Meeting       = {0x6ED8DA90, 0x450B, 0x101B, {0x98, 0xDA, 0x00
 const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 ```
 
-#### <a name="mnidid-properties"></a>Propriétés MNID_ID
+#### <a name="mnid_id-properties"></a>Propriétés MNID_ID
   
 ```cpp
 // In PSETID_Address
@@ -465,7 +465,7 @@ const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00
 #define dispidTaskFRecur 0x8126
 ```
 
-#### <a name="mnidstring-properties"></a>Propriétés MNID_STRING
+#### <a name="mnid_string-properties"></a>Propriétés MNID_STRING
   
 ```cpp
 // In PS_PUBLIC_STRINGS 
@@ -639,7 +639,7 @@ DEFINE_GUID(IID_IMAPISync, 0x5024a385, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0
 DEFINE_GUID(IID_IMAPISyncProgressCallback, 0x5024a386, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0xcb, 0x60, 0x71, 0xdd);
 ```
 
-#### <a name="iidicontabadmin"></a>IID_IContabAdmin
+#### <a name="iid_icontabadmin"></a>IID_IContabAdmin
   
 ```cpp
 // {CC6A3BA9-E7F5-4769-887B-34E190817BFC}
@@ -647,14 +647,14 @@ DEFINE_GUID(IID_IContabAdmin, 0xcc6a3ba9, 0xe7f5, 0x4769, 0x88, 0x7b, 0x34, 0xe1
 
 ```
 
-#### <a name="iidimapisecuremessage"></a>IID_IMAPISECUREMESSAGE
+#### <a name="iid_imapisecuremessage"></a>IID_IMAPISECUREMESSAGE
   
 ```cpp
 DEFINE_GUID(IID_IMAPISecureMessage, 0x253cc320, 0xeab6, 0x11d0, 0x82, 0x22, 0, 0x60, 0x97, 0x93, 0x87, 0xea);
 
 ```
 
-#### <a name="iidimapigetsession"></a>IID_IMAPIGetSession
+#### <a name="iid_imapigetsession"></a>IID_IMAPIGetSession
   
 ```cpp
 DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0xeb, 0x3, 0x10, 0x30, 0xc6);
@@ -663,14 +663,14 @@ DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0
 
 ### <a name="pst-override-handler-interface-identifiers"></a>Identificateurs d’interface de remplacement du gestionnaire PST
 
-#### <a name="iidipstoverridereq"></a>IID_IPSTOVERRIDEREQ
+#### <a name="iid_ipstoverridereq"></a>IID_IPSTOVERRIDEREQ
   
 ```cpp
 // {892EBC6D-24DC-4d90-BA48-C6CBEC14A86A}
 DEFINE_GUID(IID_IPSTOVERRIDEREQ, 0x892ebc6d, 0x24dc, 0x4d90, 0xba, 0x48, 0xc6, 0xcb, 0xec, 0x14, 0xa8, 0x6a);
 ```
 
-#### <a name="iidipstoverride1"></a>IID_IPSTOVERRIDE1
+#### <a name="iid_ipstoverride1"></a>IID_IPSTOVERRIDE1
   
 ```cpp
 // {FBB68D34-F561-44fb-A8CA-AE36696342CA}

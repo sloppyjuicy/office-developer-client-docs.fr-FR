@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: effc738a-30f4-4a5e-b21d-04b50dad1f45
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5dd0d4c19f30e189218b1aeddd333df58e42102a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32316288"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la date et l'heure au format UTC (Coordinated Universal Time) auxquelles l'objet message a été marqué comme étant terminé.
+Spécifie la date et l’heure en temps universel coordonné (UTC) à laquelle l’objet de message a été marqué comme étant terminé.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Spécifie la date et l'heure au format UTC (Coordinated Universal Time) auxquell
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est supprimée si l'objet message n'est pas marqué comme terminé. La plus petite résolution du temps doit être de minutes (la valeur doit être un multiple de 600 millions). Cette propriété ne doit pas exister si l'objet est un objet lié à la réunion et qu'il ne doit pas exister sur un objet Task.
+Cette propriété est supprimée si l’objet message n’est pas marqué comme terminé. La résolution la plus petite de l’heure doit être de minutes (la valeur doit être un multiple de 600 000 000). Cette propriété ne doit pas exister si l’objet est un objet lié à la réunion et qu’il ne doit pas exister sur un objet de tâche.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations relatives au marquage.
+> Spécifie les propriétés et les opérations liées au marquage.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

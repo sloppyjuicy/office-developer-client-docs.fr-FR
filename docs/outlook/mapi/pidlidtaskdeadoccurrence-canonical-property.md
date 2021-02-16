@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e78287ff-f8cc-45ea-8da8-e7a7359e651c
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0b740368aae43549e81cf3f4f6de40526c505b6b
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -30,30 +30,30 @@ Indique si de nouvelles occurrences doivent être générées.
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskDeadOccur  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Task  <br/> |
-|ID long (couvercle):  <br/> |0x00008109  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
+|ID long (LID) :  <br/> |0x00008109  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Tâche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Une périodicité n'est plus appliquée lorsque son instance finale est passée ou que son nombre d'instances spécifié a été généré. Le client affecte à cette propriété la valeur FALSe pour une nouvelle tâche ou la valeur TRUE lorsqu'il génère la dernière instance d'une tâche périodique. Lorsque vous copiez une tâche pour générer une nouvelle instance, cette propriété est définie sur TRUE sur la copie, qui est l'instance terminée.
+Une récurrence n’est plus en vigueur lorsque sa dernière instance se trouve dans le passé ou que son nombre spécifié d’instances a été généré. Le client définit cette propriété sur FALSE pour une nouvelle tâche ou sur TRUE lorsqu’il génère la dernière instance d’une tâche périodique. Lorsque vous copiez une tâche pour générer une nouvelle instance, cette propriété est définie sur TRUE sur la copie, qui est l’instance terminée.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui modélisent l'équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches. 
+> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches. 
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

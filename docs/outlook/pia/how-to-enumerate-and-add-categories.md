@@ -1,5 +1,5 @@
 ---
-title: Énumération et ajout des catégories
+title: Énumérer et ajouter des catégories
 TOCTitle: Enumerate and add categories
 ms:assetid: 17a94a01-c463-4332-851e-7d280c66d8c2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424467(v=office.15)

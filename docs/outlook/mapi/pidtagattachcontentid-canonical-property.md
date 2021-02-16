@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 46f31089-3b66-41a2-8094-e3db52464b9f
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5fc7360e3070ed4d20be7ac0155ebdcb04cf2048
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32319207"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'en-tête d'identification de contenu d'une pièce jointe de message MIME (Multipurpose Internet Mail Extensions). 
+Contient l’en-tête d’identification de contenu d’une pièce jointe MIME (Multipurpose Internet Mail Extensions). 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contient l'en-tête d'identification de contenu d'une pièce jointe de message M
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont utilisées pour la prise en charge de MHTML. Elles représentent l'en-tête d'identification de contenu pour la partie MIME appropriée. 
+Ces propriétés sont utilisées pour la prise en charge MHTML. Ils représentent l’en-tête d’identification de contenu pour le corps MIME approprié. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets de message et de pièce jointe.
     
-## <a name="header-files"></a>Fichiers d'en-tête
+## <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

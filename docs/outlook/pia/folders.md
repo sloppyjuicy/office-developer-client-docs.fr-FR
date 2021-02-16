@@ -1,5 +1,5 @@
 ---
-title: Folders
+title: Dossiers
 TOCTitle: Folders
 ms:assetid: b72b5705-d77a-4cad-873d-457b9fb6553e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184634(v=office.15)
@@ -35,6 +35,6 @@ Cette section fournit des exemples de tâches qui mettent en œuvre des dossiers
 
 - [Calendar](calendar.md)
 - [Contacts](contacts.md)
-- [Courrier](mail.md)
+- [Application de messagerie](mail.md)
 - [Procédure (Référence PIA Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)
 

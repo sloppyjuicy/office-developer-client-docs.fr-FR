@@ -30,11 +30,11 @@ La liste suivante indique les modes de quatre affichage que vous pouvez utiliser
     
 - Ancrer sur le bureau  affiche une fenêtre OneNote que vous pouvez ancrer à n'importe quel côté du bureau (similaire à la barre des tâches). Cet affichage réduit la taille du bureau pour s'adapter à la fenêtre. Vous pouvez ancrer qu'une seule fenêtre à tout moment, et la fenêtre est toujours visible sans le blocage du bureau. 
     
-La figure suivante montre l'affichage complet de la page, l'ancrage à l'affichage du bureau et les notes rapides ressemblent à votre bureau.
+La figure suivante montre l’apparence de l’affichage Page complète, De la station d’accueil au bureau et des notes rapides sur votre bureau.
   
 **Affichages OneNote**
 
-![Affichages de fenêtre OneNote] (media/ON15Con_views.jpg "Affichages de fenêtre OneNote")
+![Affichages de fenêtre OneNote affichages](media/ON15Con_views.jpg "de fenêtre OneNote")
   
 ## <a name="interfaces"></a>Interfaces
 
@@ -52,7 +52,7 @@ L'interface **Windows** permet à l'utilisateur d'accéder à l'ensemble des fen
 |**CurrentWindow** <br/> |**Window** <br/> |Obtient l'objet **Window** de la fenêtre OneNote active.  <br/> |
 |**Items** <br/> |**Window** <br/> |Renvoie l'objet **Window** qui correspond à la valeur d'index transmise. Cette propriété n'est pas accessible directement. Pour renvoyer un objet **Window**, utilisez **Windows [(uint) index]**. <br/> |
    
-### <a name="window-interface"></a>Interface de la fenêtre
+### <a name="window-interface"></a>Interface de fenêtre
 
 L'interface **Window** permet à l'utilisateur d'accéder à certaines propriétés de chaque fenêtre. Chaque fenêtre OneNote est accessible par l'énumération par le biais de la propriété **Windows** de la classe **Application**. 
   
@@ -87,7 +87,7 @@ Vous pouvez utiliser les méthodes suivantes de l'interface **Window** pour navi
 
 |||
 |:-----|:-----|
-|**Description** <br/> |Si passé un lien OneNote (onenote: / /), ouvre la fenêtre OneNote à l'emplacement correspondant dans OneNote. Toutefois, si le lien est un lien externe, tel que https://ou file://, une boîte de dialogue de sécurité s'affiche. Après le renvoi, OneNote essaie d'ouvrir la liaison et une erreur HResult.hrObjectDoesNotExist est renvoyée.  <br/> |
+|**Description** <br/> |Si un lien OneNote est transmis (onenote://), cette méthode ouvre la fenêtre OneNote à l’emplacement correspondant dans OneNote. Toutefois, si le lien est un lien externe, tel https:// ou file://, une boîte de dialogue de sécurité s’affiche. Après le renvoi, OneNote essaie d'ouvrir la liaison et une erreur HResult.hrObjectDoesNotExist est renvoyée.  <br/> |
 |**Syntaxe** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
 |**Paramètres** <br/> | _bstrUrl_ l'URL à atteindre.  <br/> |
    

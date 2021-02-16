@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bd4d1311-15e4-4275-a967-c6d11d2e48d2
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f255b91cbd428a2ceaa51140519b02d3f8a3b1ff
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,20 +25,20 @@ ms.locfileid: "32316386"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la date et l'heure d'origine de l'instance de la périodicité s'il s'agissait d'une exception.
+Indique la date et l’heure d’origine où l’instance dans la récurrence se serait produite s’il ne s’agit pas d’une exception.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXCEPTION_REPLACETIME  <br/> |
 |Identificateur :  <br/> |0x7FF9  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Domaine :  <br/> |Non transférable défini par la classe de message  <br/> |
+|Domaine :  <br/> |Message non transmissable par une classe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette valeur doit être spécifiée au format UTC (Coordinated Universal Time).
+Cette valeur doit être spécifiée en temps universel coordonné (UTC).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
@@ -46,15 +46,15 @@ Cette valeur doit être spécifiée au format UTC (Coordinated Universal Time).
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

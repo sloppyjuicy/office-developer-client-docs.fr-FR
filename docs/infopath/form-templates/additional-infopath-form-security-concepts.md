@@ -67,7 +67,7 @@ Si un modèle de formulaire nécessitant un accès aux données d’autres domai
   
 ## <a name="forms-without-a-publishurl-attribute"></a>Formulaires sans attribut publishURL
 
-Si InfoPath charge un modèle de formulaire à partir de l'ordinateur local et qu'il a un attribut **publishUrl** vide ou si cet attribut est absent, le formulaire est placé dans une zone de sécurité plus restrictive. Cette opération permet de réduire la menace d'un modèle de formulaire malveillant distribué par courrier électronique. Par conséquent, si l’utilisateur enregistre ce modèle de formulaire sur le disque, ce modèle ne pourra pas s’exécuter avec les autorisations d’un formulaire situé dans la zone **Ordinateur local**. 
+Si InfoPath charge un modèle de formulaire à partir de l'ordinateur local et qu'il a un attribut **publishUrl** vide ou si cet attribut est absent, le formulaire est placé dans une zone de sécurité plus restrictive. Cela permet de réduire la menace de distribution par courrier électronique d’un modèle de formulaire malveillant. Par conséquent, si l’utilisateur enregistre ce modèle de formulaire sur le disque, ce modèle ne pourra pas s’exécuter avec les autorisations d’un formulaire situé dans la zone **Ordinateur local**. 
   
 ## <a name="unsafe-activex-controls"></a>Contrôles ActiveX non sécurisés
 
@@ -106,17 +106,17 @@ Le tableau suivant récapitule les autorisations par défaut pour chaque méthod
   
 |**Zone de sécurité**|**Déploiement**|**Autorisations par défaut**|
 |:-----|:-----|:-----|
-||**Basé sur une URL** <br/> |**Basé sur un URN** <br/> |**ActiveX marqués comme non sécurisés pour les scripts** <br/> |**Accès aux données d’autres domaines** <br/> |**Niveau de sécurité du modèle objet** <br/> |
-|Sites sensibles  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |S/O  <br/> |
-|Internet  <br/> |X  <br/> ||Désactiver  <br/> |Désactiver  <br/> |n°2  <br/> |
-|Intranet local  <br/> |X  <br/> ||Désactiver  <br/> |Invite  <br/> |n°2  <br/> |
-|Sites approuvés  <br/> |X  <br/> ||Invite  <br/> |Activer  <br/> |n°2  <br/> |
-|Ordinateur local  <br/> |X  <br/> |X  <br/> |Désactiver  <br/> |Invite  <br/> |n°2  <br/> |
-|Formulaire entièrement fiable  <br/> |X (signé par un éditeur approuvé)  <br/> |X  <br/> |Activer  <br/> |Activer  <br/> |3  <br/> |
-|Formulaire entièrement fiable  <br/> ||X  <br/> |Activer  <br/> |Activer  <br/> |3  <br/> |
-|Restreint  <br/> ||X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |n°2  <br/> |
-|Restreint  <br/> |X  <br/> ||Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |n°2  <br/> |
-|Restreint  <br/> |X  <br/> |X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |n°2  <br/> |
+||**Basé sur l’URL** <br/> |**Basé sur l’URN** <br/> |**ActiveX marqués comme non sécurisés pour les scripts** <br/> |**Accès aux données d’autres domaines** <br/> |**Niveau de sécurité du modèle objet** <br/> |
+|Sites sensibles  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |
+|Internet  <br/> |X  <br/> ||Désactiver  <br/> |Désactiver  <br/> |2   <br/> |
+|Intranet local  <br/> |X  <br/> ||Désactiver  <br/> |Invite  <br/> |2   <br/> |
+|Sites approuvés  <br/> |X  <br/> ||Invite  <br/> |Activer  <br/> |2   <br/> |
+|Ordinateur local  <br/> |X  <br/> |X  <br/> |Désactiver  <br/> |Invite  <br/> |2   <br/> |
+|Formulaire entièrement fiable  <br/> |X (signé par un éditeur approuvé)  <br/> |X  <br/> |Activer  <br/> |Activer  <br/> |3   <br/> |
+|Formulaire entièrement fiable  <br/> ||X  <br/> |Activer  <br/> |Activer  <br/> |3   <br/> |
+|Restreint  <br/> ||X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2   <br/> |
+|Restreint  <br/> |X  <br/> ||Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2   <br/> |
+|Restreint  <br/> |X  <br/> |X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2   <br/> |
    
 Pour plus d'informations sur les consignes générales de sécurité lors du développement de formulaires, voir [Consignes de sécurité pour développer des formulaires InfoPath](security-guidelines-for-developing-infopath-forms.md).
   
@@ -144,17 +144,17 @@ Vous configurez un formulaire pour qu'il utilise des signatures numériques en s
     
 - La signature numérique contient également un instantané de la vue proposée au signataire à la signature du formulaire. Cet instantané est stocké en tant qu'image base64 au format PNG standard. 
     
-## <a name="email-deployment"></a>Déploiement de messagerie
+## <a name="email-deployment"></a>Déploiement de la messagerie
 
-Vous pouvez déployer vos modèles de formulaire en tant que pièce jointe dans un message électronique et déplacer les modèles de formulaire d'un emplacement à un autre. Ce mode de déploiement est un moyen simple et efficace de distribuer des formulaires à vos collègues de bureau et de déployer des formulaires auprès d'utilisateurs distants.
+Vous pouvez déployer vos modèles de formulaire en tant que pièces jointes à un message électronique et les déplacer d’un emplacement à un autre. Ce mode de déploiement est un moyen simple et efficace de distribuer des formulaires à vos collègues de bureau et de déployer des formulaires auprès d'utilisateurs distants.
   
-Vous pouvez signer numériquement un modèle de formulaire que vous créez, puis lui définir le niveau de sécurité Confiance totale. En outre, les formulaires entièrement fiables signés, lorsqu'ils sont déployés en tant que pièces jointes, peuvent être mis à jour plus facilement et plus efficacement.
+Vous pouvez signer numériquement un modèle de formulaire que vous créez, puis lui définir le niveau de sécurité Confiance totale. En outre, les formulaires entièrement fiables signés, lorsqu’ils sont déployés en tant que pièces jointes, peuvent être mis à jour plus facilement et plus efficacement.
   
-Tous les formulaires du module de création d'InfoPath sont créés avec une identité. Ces informations permettent à InfoPath d'associer des formulaires à des modèles de formulaire dans le cache et de récupérer des mises à jour pour ces formulaires quand elles sont publiées dans un emplacement partagé. Par défaut, InfoPath crée deux identités pour les modèles de formulaire : un ID de formulaire et un chemin d'accès (connu également en tant qu'attribut **publishURL**). Vous trouverez plus d'informations sur le déploiement de la messagerie dans la rubrique [niveaux de sécurité, déploiement de courrier électronique et modèles de formulaire](security-levels-email-deployment-and-remote-form-templates.md)distants.
+Tous les formulaires du module de création d'InfoPath sont créés avec une identité. Ces informations permettent à InfoPath d'associer des formulaires à des modèles de formulaire dans le cache et de récupérer des mises à jour pour ces formulaires quand elles sont publiées dans un emplacement partagé. Par défaut, InfoPath crée deux identités pour les modèles de formulaire : un ID de formulaire et un chemin d'accès (connu également en tant qu'attribut **publishURL**). Vous trouverez plus d’informations sur le déploiement du courrier électronique dans la rubrique Niveaux de sécurité, Déploiement de messagerie électronique et [Modèles de formulaires distants.](security-levels-email-deployment-and-remote-form-templates.md)
   
 ## <a name="activex-controls"></a>Contrôles ActiveX
 
-InfoPath prend en charge l'hébergement des contrôles ActiveX dans les formulaires qui sont ouverts dans l'éditeur InfoPath. Les contrôles ActiveX peuvent être préexistants (avec certaines contraintes) ou être écrits spécifiquement pour être utilisés avec InfoPath. Les contrôles ActiveX utilisés dans les formulaires InfoPath ne sont pas téléchargés automatiquement à partir des sites Web. Au lieu de ça, les fichiers CAB des contrôles ActiveX qui ne sont pas déjà présents sur l'ordinateur de l'utilisateur doivent être ajoutés dans le fichier du modèle de formulaire.
+InfoPath prend en charge l'hébergement des contrôles ActiveX dans les formulaires qui sont ouverts dans l'éditeur InfoPath. Les contrôles ActiveX peuvent être préexistants (avec certaines contraintes) ou être écrits spécifiquement pour être utilisés avec InfoPath. ActiveX contrôles utilisés dans les formulaires InfoPath ne sont pas téléchargés automatiquement à partir de sites web. Au lieu de ça, les fichiers CAB des contrôles ActiveX qui ne sont pas déjà présents sur l'ordinateur de l'utilisateur doivent être ajoutés dans le fichier du modèle de formulaire.
   
 Quand un contrôle ActiveX est utilisé dans un formulaire alors qu'il n'est pas inscrit sur l'ordinateur de l'utilisateur, le comportement à l'ouverture du formulaire dépend des paramètres de ce contrôle ActiveX dans le formulaire. Si aucun fichier CAB n'est inclus dans le fichier du modèle de formulaire, InfoPath n'ouvre pas le formulaire. Si le fichier CAB est présent dans le fichier du modèle de formulaire, InfoPath démarre un processus d'installation. Pour qu'InfoPath installe un fichier CAB, le fichier doit être signé et la signature doit émaner d'un éditeur approuvé. Si l'éditeur ne figure pas déjà dans la liste des éditeurs approuvés de l'utilisateur qui dispose d'un certificat (avec une chaîne d'approbation menant à une racine de certification approuvée), l'utilisateur sera invité à accepter ou refuser l'approbation de l'éditeur. Si l'utilisateur décide de ne pas approuver l'éditeur, le fichier CAB du contrôle ne sera pas installé et InfoPath n'ouvrira pas le formulaire.
   

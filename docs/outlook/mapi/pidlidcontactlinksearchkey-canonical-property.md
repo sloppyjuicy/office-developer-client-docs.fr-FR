@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ea815631f63b5585a3f2705cfbd2639b8c655e6e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -23,13 +23,13 @@ ms.locfileid: "32319774"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la liste des **SearchKeys** pour le contact lié à cet objet message. 
+Contient la liste **de SearchKeys pour** le contact lié par cet objet de message. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidContactLinkSearchKey  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008584  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008584  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
@@ -37,24 +37,24 @@ Contient la liste des **SearchKeys** pour le contact lié à cet objet message.
 
 |**Longueur en octets**|**Description**|**Notes**|
 |:-----|:-----|:-----|
-|n°2  <br/> |ContactEntryCount  <br/> |Aucun  <br/> |
-|variable  <br/> |Données SearchKey  <br/> |Répète les ContactEntryCount heures  <br/> |
+|2   <br/> |ContactEntryCount  <br/> |Aucun  <br/> |
+|variable  <br/> |Données SearchKey  <br/> |Répète les heures ContactEntryCount  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets de message et de pièce jointe.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

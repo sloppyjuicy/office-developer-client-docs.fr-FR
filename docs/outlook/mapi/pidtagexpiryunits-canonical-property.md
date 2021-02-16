@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f6a1ca22-cf4c-4e59-8846-6bd937fa8f6e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8e8deb67990ce25b10a3b0fc1d373f635f958013
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32316407"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit l'unité de temps à laquelle la propriété **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) multiplie.
+Décrit l’unité de temps pendant **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) multiplie la propriété.
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Décrit l'unité de temps à laquelle la propriété **PR_EXPIRY_NUMBER** ([PidT
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, si elle est définie, doit avoir l'une des valeurs suivantes:
+Si elle est définie, cette propriété doit avoir l’une des valeurs suivantes :
   
 |||
 |:-----|:-----|
 |PidTagExpiryUnits  <br/> |Description (TimeOf)  <br/> |
 |0x00000000  <br/> |Minutes, par exemple 60 secondes  <br/> |
-|0x00000001  <br/> |Heures, par exemple 60x60 secondes  <br/> |
-|0x00000002  <br/> |Jour, par exemple 24x60x60 secondes  <br/> |
-|0x00000003  <br/> |Semaine, par exemple 7x24x60x60 secondes  <br/> |
+|0x00000001  <br/> |Heures, par exemple 60 x 60 secondes  <br/> |
+|0x00000002  <br/> |Jour, par exemple 24 x 60 x 60 secondes  <br/> |
+|0x00000003  <br/> |Semaine, par exemple 7 x 24 x 60 x 60 secondes  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

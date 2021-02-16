@@ -1,5 +1,5 @@
 ---
-title: Exécution d’une règle sur un ordinateur local
+title: Exécuter une règle sur un ordinateur local
 TOCTitle: Execute a rule on a local computer
 ms:assetid: 65e91010-3e4c-4921-a0fb-ad90a7b841b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424471(v=office.15)
@@ -31,7 +31,7 @@ Si la condition **OnLocalMachine** d’une règle s’active, la condition [OnOt
 
 Dans l’exemple de code suivant, DemoOnMachineOnly crée une règle et active la condition [OnlyToMe](https://msdn.microsoft.com/library/bb609250\(v=office.15\)) et l’action [Forward](https://msdn.microsoft.com/library/bb652908\(v=office.15\)) en définissant les propriétés **Enabled** sur **true**. La condition **OnLocalMachine** s’active, forçant l’exécution en local d’une règle côté serveur. Puis le système enregistre les règles. Par défaut, une action **Forward** et une condition **OnlyToMe** fonctionneront sur le serveur. Une fois la condition **OnLocalMachine** activée, les règles fonctionnent comme des règles côté client.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

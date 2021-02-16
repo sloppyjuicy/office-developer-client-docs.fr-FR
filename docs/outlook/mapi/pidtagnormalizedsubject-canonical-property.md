@@ -25,7 +25,7 @@ ms.locfileid: "32329273"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'objet du message avec le préfixe supprimé.
+Contient l’objet du message avec un préfixe supprimé.
   
 |||
 |:-----|:-----|
@@ -36,47 +36,47 @@ Contient l'objet du message avec le préfixe supprimé.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont calculées par le magasin de messages ou les fournisseurs de transport à partir des propriétés **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) de la manière suivante.
+Ces propriétés sont calculées par la boutique de messages ou les fournisseurs de transport à partir des propriétés **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) de la manière suivante.
   
-- Si **PR_SUBJECT_PREFIX** est présent et qu'il s'agit d'une sous-chaîne initiale de **PR_SUBJECT**, **PR_NORMALIZED_SUBJECT** et les propriétés associées sont définies sur le contenu de **PR_SUBJECT** avec le préfixe supprimé. 
+- Si le **PR_SUBJECT_PREFIX** est présent et qu’il s’agit d’une **sous-propriété** initiale de PR_SUBJECT , **PR_NORMALIZED_SUBJECT** et les propriétés associées sont définies sur le contenu de **PR_SUBJECT** avec le préfixe supprimé. 
     
-- Si **PR_SUBJECT_PREFIX** est présent, mais qu'il ne s'agit pas d'une sous-chaîne initiale de **PR_SUBJECT**, **PR_SUBJECT_PREFIX** est supprimé et recalculé à partir de **PR_SUBJECT** à l'aide de la règle suivante: si la chaîne contenue dans **PR_SUBJECT** commence par un à trois caractères non numériques suivi d'un signe deux-points et d'un espace, puis la chaîne avec le signe deux-points et l'espace devient le préfixe. Les nombres, les espaces et les caractères de ponctuation ne sont pas des caractères de préfixe valides. 
+- Si **PR_SUBJECT_PREFIX** est présent, mais qu’il ne s’agit pas d’une sous-chaîne initiale de **PR_SUBJECT**, **PR_SUBJECT_PREFIX** est supprimé et recalculé à partir de **PR_SUBJECT** à l’aide de la règle suivante : si la chaîne contenue dans **PR_SUBJECT** commence par un à trois caractères non numériques suivis d’un signe deux-points et d’un espace, la chaîne avec le signe deux-points et le vide devient le préfixe. Les nombres, les espaces vides et les caractères de ponctuation ne sont pas des caractères de préfixe valides. 
     
-- Si **PR_SUBJECT_PREFIX** n'est pas présent, il est calculé à partir de **PR_SUBJECT** à l'aide de la règle décrite à l'étape précédente. Cette propriété est ensuite définie sur le contenu de **PR_SUBJECT** avec le préfixe supprimé. 
+- Si **PR_SUBJECT_PREFIX** n’est pas présent, il est calculé à partir **PR_SUBJECT** à l’aide de la règle décrite à l’étape précédente. Cette propriété est ensuite définie sur le contenu du **PR_SUBJECT** avec le préfixe supprimé. 
     
- **Note** Lorsque **PR_SUBJECT_PREFIX** est une chaîne vide, **PR_SUBJECT** et cette propriété sont les mêmes. 
+ **Remarque** Lorsque **PR_SUBJECT_PREFIX** est une chaîne vide, **PR_SUBJECT** et cette propriété sont identiques. 
   
-Enfin, cette propriété doit être la partie de **PR_SUBJECT** qui suit le préfixe. S'il n'y a pas de préfixe, cette propriété devient la même que **PR_SUBJECT**.
+En fin de compte, cette propriété doit être la partie **de** PR_SUBJECT suivant le préfixe. S’il n’existe aucun préfixe, cette propriété devient la même que **PR_SUBJECT**.
   
- **PR_SUBJECT_PREFIX** et cette propriété doivent être calculées dans le cadre de l'implémentation de [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Une application cliente ne doit pas demander à la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) pour leurs valeurs tant qu'elles n'ont pas été validées par un appel **IMAPIProp:: SaveChanges** . 
+ **PR_SUBJECT_PREFIX** et cette propriété doivent être calculées dans le cadre de l’implémentation [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Une application cliente ne doit pas demander à la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) leurs valeurs tant qu’elles n’ont pas été engagés par un appel **IMAPIProp::SaveChanges.** 
   
-Les propriétés Subject sont généralement des petites chaînes de moins de 256 caractères et un fournisseur de banque de messages n'est pas tenu de prendre en charge l'interface OLE (Object Linking and Embedding) **IStream** . Le client doit toujours tenter d'accéder d'abord à travers l'interface **IMAPIProp** et ne recourir à **ISTREAM** que si MAPI_E_NOT_ENOUGH_MEMORY est renvoyé. 
+Les propriétés de l’objet sont généralement de petites chaînes de moins de 256 caractères, et un fournisseur de magasins de messages n’est pas obligé de prendre en charge l’interface **IStream** OLE (Object Linking and Embedding) sur ces derniers. Le client doit toujours essayer d’accéder en premier via l’interface **IMAPIProp** et recourir à **IStream** uniquement si MAPI_E_NOT_ENOUGH_MEMORY est renvoyé. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
+> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

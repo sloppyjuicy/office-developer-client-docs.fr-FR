@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 82ef37e6c41c88cdd58cb05c97ff2e4e41537a64
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "32319277"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l'URL liée au fournisseur de partage et identifiée par la propriété **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). Il s'agit d'une propriété d'un message de partage.
+Spécifie l’URL liée au fournisseur de partage et identifiée par la propriété **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). Il s’agit d’une propriété d’un message de partage.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingProviderUrl  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Sharing  <br/> |
-|ID long (couvercle):  <br/> |0x00008A03  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
+|ID long (LID) :  <br/> |0x00008A03  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Partage  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est généralement utilisée pour fournir plus d'informations sur le fournisseur de partage, mais doit être ignorée.
+Cette propriété est généralement utilisée pour fournir plus d’informations sur le fournisseur de partage, mais elle doit être ignorée.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîtes aux lettres entre les clients.
+> Partage des dossiers de boîte aux lettres entre clients.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

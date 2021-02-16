@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: da90347f5aacdb2fcac8547eddd5b89a0a44820d
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32316365"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit l'heure d'envoi en conjonction avec la propriété **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
+Définit l’heure d’envoi d’expiration conjointement avec **la propriété PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Définit l'heure d'envoi en conjonction avec la propriété **PR_EXPIRY_UNITS** 
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété doit être comprise entre 0 et 999 inclus, si elle est présente.
+La valeur de cette propriété doit être définie entre 0 et 999 inclus, si elle est présente.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

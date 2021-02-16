@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: eca3d4ff-2e92-4d20-a498-98e0773c1962
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ce08ba971662b7f5060e6b24a6d2c5ee1a921d5b
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32327964"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur de chaîne à utiliser dans une restriction de propriété sur une table des matières du conteneur de carnet d'adresses. 
+Contient une valeur de chaîne à utiliser dans une restriction de propriété sur une table de contenu de conteneur de carnet d’adresses. 
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Contient une valeur de chaîne à utiliser dans une restriction de propriété s
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés n'appartiennent à aucun objet; Il est fourni par les fournisseurs de carnets d'adresses dans les structures [SPropertyRestriction](spropertyrestriction.md) . Cette propriété contient une chaîne de résolution de noms ambiguë (ANR) pouvant être testée par rapport à la table des matières d'un conteneur de carnet d'adresses pour rechercher les destinataires de messages correspondants. 
+Ces propriétés n’appartiennent à aucun objet ; Il est fourni par les fournisseurs de carnet d’adresses dans les structures [SPropertyRestriction.](spropertyrestriction.md) Cette propriété contient une chaîne de résolution de nom ambigu (ANR) qui peut être testée par rapport à la table de contenu d’un conteneur de carnet d’adresses pour rechercher les destinataires de message correspondants. 
   
-Les fournisseurs de carnet d'adresses correspondent à la valeur de **PR_ANR** et des propriétés associées par rapport à chaque entrée de la table de contenu, à l'aide d'un algorithme de correspondance défini par le fournisseur. La ou les colonnes utilisées dans cette correspondance sont choisies par le fournisseur dans le cadre de l'algorithme. La colonne **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est la plus couramment utilisée; la colonne **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) est également utile lorsqu'elle contient le nom de messagerie de l'utilisateur. 
+Les fournisseurs de carnets d’adresses correspondent à la valeur de **PR_ANR** propriétés associées par rapport à chaque entrée de la table des matières, à l’aide d’un algorithme de correspondance défini par le fournisseur. La ou les colonnes utilisées dans cette correspondance sont choisies par le fournisseur dans le cadre de l’algorithme. La **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est la colonne la plus couramment utilisée ; la **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) est également utile lorsqu’elle contient le nom de messagerie de l’utilisateur. 
   
-Pour plus d'informations sur la résolution de noms ambiguës, consultez la rubrique [restrictions du carnet d'adresses](address-book-restrictions.md). 
+Pour plus d’informations sur la résolution de noms ambigus, voir [Restrictions du carnet d’adresses.](address-book-restrictions.md) 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

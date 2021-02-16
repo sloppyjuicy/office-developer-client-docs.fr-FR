@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 403324b8-c992-4823-aa0f-0414b283debc
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 588747205ee3922fef7b107dc024f074a6ee527e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32279628"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur d'un champ d'en-tête d'aide sur la liste des messages MIME (Multipurpose Internet Mail Extensions).
+Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extensions) List-Help'en-tête.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contient la valeur d'un champ d'en-tête d'aide sur la liste des messages MIME (
    
 ## <a name="remarks"></a>Remarques
 
-Pour générer un champ d'en-tête d'aide sur la liste, les clients doivent définir la valeur de **PR_LIST_HELP** ou une propriété associée sur la valeur souhaitée. Les enregistreurs MIME doivent copier cette valeur dans le champ d'en-tête de liste d'aide. 
+Pour générer un champ List-Help'en-tête, les  clients doivent définir la valeur de PR_LIST_HELP ou une propriété associée sur la valeur souhaitée. Les rédacteurs MIME doivent copier cette valeur dans le champ List-Help'en-tête. 
   
-Pour définir la valeur de ces propriétés liées au serveur de liste, les clients MIME doivent écrire les champs d'en-tête comme indiqué dans le tableau suivant:
+Pour définir la valeur de ces propriétés liées au serveur de liste, les clients MIME doivent écrire les champs d’en-tête comme indiqué dans le tableau suivant :
   
-|**Property**|**Nom de champ d'en-tête préféré**|**Nom de champ d'en-tête secondaire**|
+|**Propriété**|**Nom de champ d’en-tête préféré**|**Autre nom de champ d’en-tête**|
 |:-----|:-----|:-----|
-|**PR_LIST_HELP** <br/> |Liste-aide  <br/> |X-List-aide  <br/> |
+|**PR_LIST_HELP** <br/> |List-Help  <br/> |X-List-Help  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> ConVertit des conventions de messagerie standard Internet en objets message.
+> Convertit des conventions de messagerie standard Internet en objets de message.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

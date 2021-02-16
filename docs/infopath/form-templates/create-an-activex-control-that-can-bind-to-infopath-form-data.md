@@ -35,13 +35,13 @@ De même que les autres contrôles de InfoPath, les contrôles ActiveX doivent p
     
 - **IViewObject**
     
-- **Objet IOleObject**
+- **IOleObject**
     
 - **IOleInPlaceObject**
     
 Afin que InfoPath mette à jour des propriétés du modèle objet de document (DOM, Document Object Model) au moment où ils changent dans le contrôle, le contrôle doit implémenter les interfaces ci-après.
   
-- **Interfaces**
+- **IConnectionPointContainer**
     
 - **IEnumConnectionPoints**
     

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: de2342ef4d3e9d06f198e06dc19c65b7b144624f
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32278791"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de bits 32 bits des indicateurs qui définissent l'état du dossier.
+Contient un masque de bits 32 bits d’indicateurs qui définissent l’état du dossier.
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contient un masque de bits 32 bits des indicateurs qui définissent l'état du d
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété pour les dossiers est analogue à la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) pour les messages. Ses indicateurs sont fournis uniquement pour l'application cliente et n'affectent pas la Banque de messages. Les clients peuvent utiliser ou ignorer ces paramètres. Le client peut également définir ses propres valeurs pour les bits définissables par le client de cette propriété.
+Cette propriété pour les dossiers est analogue à la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) pour les messages. Ses indicateurs sont fournis pour l’application cliente uniquement et n’affectent pas la magasin de messages. Les clients peuvent utiliser ou ignorer ces paramètres. Le client peut également définir ses propres valeurs pour les bits définissables par le client de cette propriété.
   
-Un ou plusieurs des indicateurs suivants peuvent être définis pour le masque de masques:
+Un ou plusieurs des indicateurs suivants peuvent être définies pour le masque de bits :
   
 FLDSTATUS_DELMARKED 
   
-> Le dossier est marqué pour suppression. L'application cliente définit cet indicateur.
+> Le dossier est marqué pour suppression. L’application cliente définit cet indicateur.
     
 FLDSTATUS_HIDDEN 
   
@@ -50,37 +50,37 @@ FLDSTATUS_HIDDEN
     
 FLDSTATUS_HIGHLIGHTED 
   
-> Le dossier est mis en surbrillance, par exemple, affiché dans la vidéo inversée.
+> Le dossier est mis en surbrillant, par exemple, affiché dans la vidéo inversée.
     
 FLDSTATUS_TAGGED 
   
 > Le dossier est balisé.
     
-Les fournisseurs de banque de messages définissent cette propriété d'un dossier sur une ou plusieurs de ces valeurs et les clients interprètent l'État comme approprié pour leurs applications. Par exemple, un client peut utiliser l'état du dossier pour faire la distinction visuelle entre les dossiers d'une table de hiérarchie, en affichant les dossiers présentant le même état de la même façon. Les dossiers en surBrillance peuvent être affichés dans la vidéo inversée, les dossiers et les dossiers balisés marqués pour suppression peuvent être affichés avec une icône significative, et les dossiers masqués peuvent être masqués.
+Les fournisseurs de magasins de messages définissent cette propriété sur un dossier sur une ou plusieurs de ces valeurs et les clients interprètent l’état comme approprié pour leurs applications. Par exemple, un client peut utiliser l’état du dossier pour différencier visuellement les dossiers d’une table hiérarchique, en affichant les dossiers ayant le même état de la même manière. Les dossiers mis en surbrill plan peuvent être affichés dans la vidéo inversée, les dossiers balisés et les dossiers marqués pour suppression peuvent être affichés avec une icône significative et les dossiers masqués peuvent être masqués.
   
-Les bits 16 à 31 («0x10000» à «0x80000000») de cette propriété peuvent être utilisés par l'application cliente IPM. Tous les autres bits sont réservés à l'usage de MAPI; ceux qui ne sont pas définis dans la liste précédente doivent être initialement définis sur zéro et ne sont pas modifiés.
+Les bits 16 à 31 (« 0x10000 » à « 0x80000000 ») de cette propriété peuvent être utilisés par l’application cliente IPM. Tous les autres bits sont réservés à l’utilisation par MAPI ; Celles qui ne sont pas définies dans la liste précédente doivent être initialement définies sur zéro et ne pas être modifiées.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets de message et de pièce jointe.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

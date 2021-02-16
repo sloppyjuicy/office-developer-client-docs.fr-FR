@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 37da4ff5-300d-479f-a8b4-6fc36df997d9
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b433db7cb157afbf8c3b506f2ed95b04b7b88564
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32329224"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le type d'un objet. 
+Contient le type d’un objet. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient le type d'un objet.
    
 ## <a name="remarks"></a>Remarques
 
-Le type d'objet contenu dans cette propriété correspond à l'interface principale disponible pour un objet accessible via l'interface **OpenEntry** . Elle est généralement obtenue en consultant le paramètre _lpulObjType_ renvoyé par la méthode **OpenEntry** appropriée. Lorsque l'interface est obtenue d'autres façons, appelez [IMAPIProp:: GetProps](imapiprop-getprops.md) pour obtenir la valeur de cette propriété. 
+Le type d’objet contenu dans cette propriété correspond à l’interface principale disponible pour un objet accessible via l’interface **OpenEntry.** Elle est généralement obtenue en consultant le  _paramètre lpulObjType_ renvoyé par la méthode **OpenEntry** appropriée. Lorsque l’interface est obtenue d’autres manières, appelez [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur de cette propriété. 
   
-Cette propriété peut avoir exactement l'une des valeurs suivantes:
+Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
 MAPI_ABCONT 
   
-> Objet conteneur de carnet d'adresses 
+> Objet conteneur de carnet d’adresses 
     
 MAPI_ADDRBOOK 
   
-> Objet de carnet d'adresses 
+> Objet carnet d’adresses 
     
 MAPI_ATTACH 
   
-> Objet de pièce jointe 
+> Objet de pièce jointe de message 
     
 MAPI_DISTLIST 
   
@@ -74,11 +74,11 @@ MAPI_MESSAGE
     
 MAPI_PROFSECT 
   
-> Objet de section de profil 
+> Objet section profil 
     
 MAPI_SESSION 
   
-> Session, objet 
+> Objet Session 
     
 MAPI_STATUS 
   
@@ -86,23 +86,23 @@ MAPI_STATUS
     
 MAPI_STORE 
   
-> Objet de banque de messages
+> Objet de la boutique de messages
     
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
+> Spécifie les propriétés et les opérations des listes d’utilisateurs, de contacts, de groupes et de ressources.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> Gère les communications d'un client avec un serveur NSPI (Name Service Provider Interface).
+> Gère les communications d’un client avec un serveur NSPI (Name Service Provider Interface).
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -110,37 +110,37 @@ MAPI_STORE
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Gère l'ordre et le flux de transfert de données entre un client et un serveur.
+> Gère l’ordre et le flux des transferts de données entre un client et un serveur.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> ConVertit des conventions de messagerie standard Internet en objets message.
+> Convertit des conventions de messagerie standard Internet en objets de message.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXOAB]](https://msdn.microsoft.com/library/b4750386-66ec-4e69-abb6-208dd131c7de%28Office.15%29.aspx)
   
-> Spécifie les formats de fichier de carnet d'adresses en mode hors connexion pour le cache des objets du carnet d'adresses local.
+> Spécifie les formats de fichier de carnet d’adresses en mode hors connexion pour le cache d’objets du carnet d’adresses local.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
+> Spécifie les propriétés et opérations autorisées pour les objets de message électronique.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations pour la manipulation d'une configuration de liste des dossiers de recherche.
+> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

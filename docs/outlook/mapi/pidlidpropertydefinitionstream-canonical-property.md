@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b5ddb87111cfb0039cb1150338945615bbd5afc5
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,33 +25,33 @@ ms.locfileid: "32315938"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente les définitions des champs définis par l'utilisateur et les paramètres de liaison de données des champs prédéfinis d'un message.
+Représente les définitions des champs définis par l’utilisateur et les paramètres de liaison de données des champs intégrés d’un message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidPropDefStream  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008540  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008540  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Configuration de l'exécution  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de la propriété **PidLidPropertyDefinitionStream** est enregistrée dans le cadre de la définition de formulaire personnalisé pour le message. 
+La valeur de la **propriété PidLidPropertyDefinitionStream** est enregistrée dans le cadre de la définition de formulaire personnalisée du message. 
   
-La valeur de cette propriété est un flux binaire. Pour plus d'informations sur la structure de ce flux, reportez-vous à la rubrique [PropertyDefinition Stream structure](propertydefinition-stream-structure.md). 
+La valeur de cette propriété est un flux binaire. Pour plus d’informations sur la structure de ce flux, voir [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md). 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
@@ -61,7 +61,7 @@ Mapidefs. h
 
 [Éléments et champs Outlook](outlook-items-and-fields.md)
   
-[Ajouter une définition pour un nouveau champ défini par l'utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Ajouter une définition pour un nouveau champ User-Defined de recherche](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
   

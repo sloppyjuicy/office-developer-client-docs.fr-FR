@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidYomiFirstName
+title: Propri t canonique PidLidYomiFirstName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 383906b9-4471-456e-9de1-c3d898051627
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4ec0edd5dd00fd03af5554a336af4d862392fc60
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280314"
 ---
-# <a name="pidlidyomifirstname-canonical-property"></a>Propriété canonique PidLidYomiFirstName
+# <a name="pidlidyomifirstname-canonical-property"></a>Propri t canonique PidLidYomiFirstName
 
   
   
@@ -30,26 +30,26 @@ Spécifie la prononciation phonétique du nom donné du contact.
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidYomiFirstName  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Address  <br/> |
-|ID long (couvercle):  <br/> |0x0000802C  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
+|ID long (LID) :  <br/> |0x0000802C  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
+> Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

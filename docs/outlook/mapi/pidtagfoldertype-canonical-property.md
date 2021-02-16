@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2ab4681e-0013-4ba0-ba26-50517bbf3f5b
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7cca884eae2111a94d87cc24a6d30542148ab845
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -36,47 +36,47 @@ Contient une constante qui indique le type de dossier.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement l'une des valeurs suivantes:
+Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
 FOLDER_GENERIC 
   
-> Dossier générique contenant des messages et d'autres dossiers.
+> Dossier générique qui contient des messages et d’autres dossiers.
     
 FOLDER_ROOT 
   
-> Dossier racine de la table de hiérarchie des dossiers, c'est-à-dire un dossier qui n'a pas de dossier parent.
+> Dossier racine de la table de hiérarchie de dossiers, c’est-à-dire un dossier qui n’a pas de dossier parent.
     
 FOLDER_SEARCH 
   
-> Dossier contenant les résultats d'une recherche, sous la forme de liens vers des messages qui répondent aux critères de recherche.
+> Dossier qui contient les résultats d’une recherche, sous la forme de liens vers des messages qui répondent aux critères de recherche.
     
-La racine d'un magasin de messages ne doit pas être confondue avec la racine de la sous-arborescence message interpersonne (IPM) dans cette banque. Le dossier racine de la Banque, qui n'a pas de parent, est obtenu en appelant la méthode [IMsgStore:: OpenEntry](imsgstore-openentry.md) avec un identificateur d'entrée null. Le dossier racine de la sous-arborescence IPM, qui a un parent, est obtenu à l'aide de la valeur de la propriété **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) pour l'appel **OpenEntry** . 
+La racine d’une magasin de messages ne doit pas être confondue avec la racine de la sous-arbre de message interpersonnel (IPM) de ce magasin. Le dossier racine de la boutique, qui n’a aucun parent, est obtenu en appelant la méthode [IMsgStore::OpenEntry](imsgstore-openentry.md) avec un identificateur d’entrée null. Le dossier racine de la sous-arbre IPM, qui a un parent, est obtenu à l’aide de la valeur de la propriété **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) pour l’appel **OpenEntry.** 
   
-MAPI n'autorise qu'un seul dossier racine par Banque de messages. Ce dossier contient des messages et d'autres dossiers. La propriété **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) du dossier racine contient l'identificateur d'entrée propre au dossier.
+MAPI n’autorise qu’un dossier racine par magasin de messages. Ce dossier contient des messages et d’autres dossiers. La propriété PR_PARENT_ENTRYID **du** dossier racine ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) contient le propre identificateur d’entrée du dossier.
   
-Les informations contenues dans un dossier de résultats de recherche sont principalement stockées dans sa table des matières, qui contient les mêmes colonnes qu'une table de contenu classique, ainsi que deux colonnes supplémentaires identifiant le dossier dans lequel chaque message a été trouvé: **PR_PARENT_DISPLAY** ([ PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (nom complet, obligatoire) et cette propriété (identificateur d'entrée, facultatif).
+Les informations d’un dossier de résultats de recherche sont principalement stockées dans sa table des matières, qui contient les mêmes colonnes qu’une table de contenu classique, ainsi que deux colonnes supplémentaires identifiant le dossier dans lequel chaque message a été trouvé : **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (nom complet, obligatoire) et cette propriété (identificateur d’entrée, facultatif).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > Gère les opérations de dossier.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

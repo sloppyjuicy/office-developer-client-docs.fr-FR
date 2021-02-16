@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e56b21d-0a2e-4fe6-83f4-c9daab2f3055
-description: 'Dernière modification : 23 juillet 2011'
+description: 'Derniére modification : samedi 23 juillet 2011'
 ms.openlocfilehash: 84f0ca88403980ff9ea1c91821a8a3d7edae74fa
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32309715"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Entraîne la libération du message actuel par le formulaire.
+Fait en sorte que le formulaire libère son message actuel.
   
 ```cpp
 HRESULT HandsOffMessage( void );
@@ -39,25 +39,25 @@ Aucun
 
 S_OK 
   
-> Le message a été libéré avec succès.
+> Le message a été correctement libéré.
     
 ## <a name="remarks"></a>Remarques
 
-Transition de formulaires vers deux États HandsOff:
+Les formulaires se transforment en deux états HandsOff :
   
 - [HandsOffAfterSave](handsoffaftersave-state.md)
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-Lorsqu'un formulaire est dans l'un de ces États, il est en cours de stockage permanent. 
+Lorsqu’un formulaire se trouve dans l’un de ces états, il est en cours de stock permanent. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Lorsqu'une visionneuse de formulaires appelle la méthode **IPersistMessage:: HandsOffMessage** alors que votre formulaire est dans l'état [normal](normal-state.md) ou noscribble, appelez **HandsOffMessage** sur chaque message incorporé dans le message actif et [](noscribble-state.md) le [ IPersistStorage:: HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) méthode sur chaque objet OLE incorporé dans le message actif. Ensuite, relâchez le message en cours, ainsi que tous les messages incorporés et les objets OLE. Si votre formulaire était dans un état normal, passez à l'État HandsOffFromNormal. Si votre formulaire était dans l'État noScribble, passez à l'État HandsOffAfterSave. Après une transition réussie, appelez la méthode [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) de message et renvoyez S_OK. 
+Lorsqu’une visionneuse de formulaire appelle la méthode **IPersistMessage::HandsOffMessage** alors que votre formulaire est à l’état [Normal](normal-state.md) ou [NoScribble,](noscribble-state.md) appelez de manière récursive **HandsOffMessage** sur chaque message incorporé dans le message actuel et la méthode [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) sur chaque objet OLE incorporé dans le message actuel. Ensuite, relâchez le message actuel, ainsi que tous les messages incorporés et les objets OLE. Si votre formulaire était dans l’état Normal, transition vers l’état HandsOffFromNormal. Si votre formulaire était dans l’état NoScribble, transition vers l’état HandsOffAfterSave. Après une transition réussie, appelez la méthode [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) du message et renvoyez S_OK. 
   
-Lorsqu'une visionneuse de formulaires appelle **HandsOffMessage** alors que votre formulaire se trouve dans l'un des États HandsOff, renvoie E_UNEXPECTED. 
+Lorsqu’une visionneuse de formulaire appelle **HandsOffMessage** alors que votre formulaire est dans l’un des états HandsOff, renvoyez E_UNEXPECTED. 
   
-Pour plus d'informations sur les différents États d'un formulaire, consultez la rubrique [États de formulaire](form-states.md). Pour plus d'informations sur l'utilisation de l'État HandsOff des objets de stockage, voir la méthode [IPersistStorage:: HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) . 
+Pour plus d’informations sur les différents états d’un formulaire, voir [États de formulaire.](form-states.md) Pour plus d’informations sur l’utilisation de l’état HandsOff des objets de stockage, voir la méthode [IPersistStorage::HandsOffStorage.](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) 
   
 ## <a name="see-also"></a>Voir aussi
 

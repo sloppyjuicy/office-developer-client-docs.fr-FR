@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 70932e703511235e9f5e32efd95b18d1b66494e2
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32316309"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'URL de la page d'accueil d'un dossier dans Microsoft Outlook. Cette propriété contient un flux binaire appelé **WebViewPersistenceObject**.
+Contient l’URL de la page d’accueil d’un dossier dans Microsoft Outlook. Cette propriété contient un flux binaire appelé **WebViewPersistenceObject**.
   
 |||
 |:-----|:-----|
@@ -36,26 +36,26 @@ Contient l'URL de la page d'accueil d'un dossier dans Microsoft Outlook. Cette p
    
 ## <a name="remarks"></a>Remarques
 
-Une URL de page d'accueil peut être spécifiée pour n'importe quel dossier Outlook. Ces informations sont accessibles dans Outlook à partir de l'onglet **page d'accueil** de la boîte de dialogue Propriétés d'un dossier. 
+Une URL de page d’accueil peut être spécifiée pour n’importe quel dossier Outlook. Ces informations sont accessibles dans Outlook à partir de l’onglet **Page** d’accueil de la boîte de dialogue Propriétés d’un dossier. 
   
-En fonction de certains paramètres de stratégie, la page d'accueil peut être ignorée par Outlook si le magasin MAPI qui contient ce dossier ne rapporte pas MSCAP_SECURE_FOLDER_HOMEPAGES dans son implémentation [IMSCapabilities:: GetCapabilities](pidtagfolderwebviewinfo-cannonical-property.md) . 
+Selon certains paramètres de stratégie, la page d’accueil peut être ignorée par Outlook si le magasin MAPI qui contient ce dossier ne signale pas MSCAP_SECURE_FOLDER_HOMEPAGES dans son implémentation [IMSCapabilities::GetCapabilities.](pidtagfolderwebviewinfo-cannonical-property.md) 
   
-Le dossier **Outlook aujourd'hui** et un dossier public peuvent avoir des URL de page d'accueil. Toutefois, le dossier **Outlook aujourd'hui** utilise un autre mécanisme pour gérer l'URL de sa page d'accueil; ce mécanisme n'est pas abordé dans cette rubrique. Un dossier public peut également comporter une URL de page d'accueil qui est spécifique à un utilisateur. Toutefois, cette fonctionnalité n'est pas décrite dans cette rubrique. 
+Le dossier **Outlook Today** et un dossier public peuvent avoir des URL de page d’accueil. Toutefois, **le dossier Outlook Today** utilise un mécanisme différent pour gérer l’URL de sa page d’accueil . ce mécanisme n’est pas abordé dans cette rubrique. Une URL de page d’accueil spécifique à un utilisateur peut également être définie dans un dossier public. Toutefois, cette fonctionnalité n’est pas décrite dans cette rubrique. 
   
 La valeur de cette propriété est un flux binaire appelé **WebViewPersistenceObject**.
   
 ### <a name="webviewpersistenceobject-stream-structure"></a>Structure de flux WebViewPersistenceObject
 
-La structure de flux **WebViewPersistenceObject** contient des informations sur l'URL d'une page d'accueil pour un dossier. 
+La structure **de flux WebViewPersistenceObject** contient des informations sur une URL de page d’accueil pour un dossier. 
   
-Les éléments de données dans cette structure sont stockés dans l'ordre d'octet Little-endian, immédiatement suivant l'ordre spécifié. 
+Les éléments de données de cette structure sont stockés dans l’ordre des petits bouts, immédiatement après les autres dans l’ordre spécifié suivant. 
   
 > [!NOTE]
-> La description suivante peut ne pas répertorier toutes les valeurs de champ prises en charge par Outlook; par conséquent, lorsque votre code lit un flux existant, certains indicateurs qui ne sont pas répertoriés ici peuvent également être trouvés. Toutefois, vous pouvez utiliser cette description pour créer par programme des valeurs pour la propriété **PidTagFolderWebViewInfo** qu'Outlook va comprendre. 
+> La description suivante peut ne pas lister toutes les valeurs de champ pris en charge par Outlook ; par conséquent, lorsque votre code lit un flux existant, certains indicateurs qui ne sont pas répertoriés ici peuvent également être trouvés. Toutefois, vous pouvez utiliser cette description pour créer par programme des valeurs pour la **propriété PidTagFolderWebViewInfo** qu’Outlook comprendra. 
   
  _dwVersion_
   
-> DWORD (4 octets). Version du format de la structure. À partir de Microsoft Office Outlook 2007, la seule valeur prise en charge pour ce champ est la suivante.
+> DWORD (4 octets). Version du format de la structure. À partir Microsoft Office Outlook 2007, la seule valeur prise en charge pour ce champ est la suivante.
     
 |**Nom de la valeur**|**Valeur**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ Les éléments de données dans cette structure sont stockés dans l'ordre d'oct
    
  _dwType_
   
-> DWORD (4 octets). Type des informations de la page d'accueil. À partir de Microsoft Office Outlook 2007, la seule valeur prise en charge pour ce champ est la suivante.
+> DWORD (4 octets). Type des informations de la page d’accueil. À partir Microsoft Office Outlook 2007, la seule valeur prise en charge pour ce champ est la suivante.
     
 |**Nom de la valeur**|**Valeur**|
 |:-----|:-----|
@@ -71,31 +71,31 @@ Les éléments de données dans cette structure sont stockés dans l'ordre d'oct
    
  _dwFlags_
   
-> DWORD (4 octets). Une combinaison de zéro ou plusieurs indicateurs dont les valeurs et significations sont répertoriées dans le tableau suivant.
+> DWORD (4 octets). Combinaison de zéro ou plus d’indicateurs dont les valeurs et les significations sont répertoriées dans le tableau suivant.
     
-|Nom de l'indicateur * * * *|****Valeur****|****Description****|
+|Nom de l’indicateur****|****Valeur****|****Description****|
 |:-----|:-----|:-----|
-|WEBVIEW_FLAGS_SHOWBYDEFAULT  <br/> |0x00000001  <br/> |La case à cocher **afficher la page d'accueil par défaut pour ce dossier** a été activée dans l'onglet **page d'accueil** de la boîte de dialogue Propriétés d'un dossier.  <br/> |
+|WEBVIEW_FLAGS_SHOWBYDEFAULT  <br/> |0x00000001  <br/> |La case à cocher Afficher **la page** d’accueil par défaut pour ce dossier a été cochée dans l’onglet **Page** d’accueil de la boîte de dialogue Propriétés d’un dossier.  <br/> |
    
- _dwUnused [7]_
+ _dwUnused[7]_
   
-> Tableau de 7 éléments DWORD (28 octets au total). Inutilisés.
+> Tableau de 7 éléments DWORD (28 octets au total). Inutilisé.
     
 cbData
   
-> ULONG (4 octets). Taille, en octets, de l'élément de données _wzURL_ . 
+> ULONG (4 octets). Taille, en octets, de l’élément _de données wzURL._ 
     
  _wzURL_
   
-> Tableau d'éléments WCHAR. La représentation UTF-16 de la chaîne d'URL de la page d'accueil se terminant par un zéro.
+> Tableau d’éléments WCHAR. Représentation UTF-16 de la chaîne d’URL de page d’accueil sans fin.
     
 ### <a name="webviewpersistenceobject-stream-sample"></a>Exemple de flux WebViewPersistenceObject
 
-Cette section décrit un exemple de flux **WebViewPersistenceObject** . Le flux spécifie l'URL de lahttps://www.microsoft.compage d'accueil «». 
+Cette section décrit un exemple de **flux WebViewPersistenceObject.** Le flux spécifie l’URL de la page d’accueil « https://www.microsoft.com ». 
   
- **Vidage des données**
+ **Vidage de données**
   
-Voici un dump des données du flux tel qu'il s'afficherait dans un éditeur binaire.
+Voici un vidage de données du flux tel qu’il serait affiché dans un éditeur binaire.
   
 |**Décalage de flux**|**Octets de données**|**Données ASCII**|
 |:-----|:-----|:-----|
@@ -106,30 +106,30 @@ Voici un dump des données du flux tel qu'il s'afficherait dans un éditeur bina
 |0000000040  <br/> | `2E 00 6D 00 69 00 63 00 72 00 6F 00 73 00 6F 00` <br/> | `..m.i.c.r.o.s.o.` <br/> |
 |0000000050  <br/> | `66 00 74 00 2E 00 63 00 6F 00 6D 00 00 00` <br/> | `f.t...c.o.m...` <br/> |
    
-Voici une analyse des exemples de données pour le flux **WebViewPersistenceObject** . 
+Voici une analyse des exemples de données pour le **flux WebViewPersistenceObject.** 
   
  _dwVersion_
   
-> Offset 0x0, 4 octets: 0x00000002 (WEBVIEW_PERSISTENCE_VERSION).
+> Décalage 0x0, 4 octets : 0x00000002 (WEBVIEW_PERSISTENCE_VERSION).
     
  _dwType_
   
-> Offset 0x4, 4 octets: 0x00000001 (WEBVIEWURL).
+> Décalage 0x4, 4 octets : 0x00000001 (WEBVIEWURL).
     
  _dwFlags_
   
-> Décalage 0x8, 4 octets: 0x00000001 (WEBVIEW_FLAGS_SHOWBYDEFAULT).
+> Décalage 0x8, 4 octets : 0x00000001 (WEBVIEW_FLAGS_SHOWBYDEFAULT).
     
- _dwUnused [7]_
+ _dwUnused[7]_
   
-> Offset 0xC, 28 octets: tous les zéros.
+> Décalage 0xC, 28 octets : tous les zéros.
     
  _cbData_
   
-> Décalage 0x28, 4 octets: 0x00000032.
+> Décalage 0x28, 4 octets : 0x00000032.
     
  _wzURL_
   
-> Offset 0x2C, 0x32 octets: tableau de 25 WCHARs. Valeur de chaîne se terminant par zéro Unicode:https://www.microsoft.com"".
+> Décalage 0x2C, 0x32 octets : tableau de 25 WCHAR. Valeur de chaîne Unicode sans fin : " https://www.microsoft.com « .
     
 

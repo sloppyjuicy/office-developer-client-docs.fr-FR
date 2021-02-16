@@ -21,17 +21,17 @@ Microsoft InfoPath est conçu comme une application COM (Component Object Model)
   
 Les fichiers des trois assemblys d'interopérabilité installés par InfoPath sont les suivants :
   
-- Microsoft. Office. Interop. InfoPath. dll
+- Microsoft.Office.Interop.InfoPath.dll
     
-- Microsoft. Office. Interop. InfoPath. SemiTrust. dll
+- Microsoft.Office.Interop.InfoPath.SemiTrust.dll
     
-- Microsoft. Office. Interop. InfoPath. Xml. dll
+- Microsoft.Office.Interop.InfoPath.Xml.dll
     
 Cette rubrique présente le modèle objet exposé dans l'assembly d'interopérabilité Microsoft.Office.Interop.InfoPath.SemiTrust, utilisé exclusivement pour la création et l'exécution d'une logique métier avec code managé depuis les modèles de formulaires InfoPath (.xsn). 
   
-Pour plus d'informations sur les assemblys Microsoft. Office. Interop. InfoPath et Microsoft. Office. Interop. InfoPath. xml, reportez-vous à la documentation de [Microsoft. Office. Interop. InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) et [Microsoft. Office. Interop. InfoPath. xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) espaces. 
+Pour plus d’informations sur les assemblys Microsoft.Office.Interop.InfoPath et Microsoft.Office.Interop.InfoPath.Xml, voir la documentation relative aux espaces de noms [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) [ etMicrosoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) de noms. 
   
-## <a name="important-installation-information"></a>Informations importantes sur l'installation
+## <a name="important-installation-information"></a>Informations d’installation importantes
 
 Par défaut, l'option **Installation par défaut** du programme d'installation d'InfoPath installe des copies des assemblys Microsoft.Office.Interop.InfoPath.SemiTrust et Microsoft.Office.Interop.InfoPath.Xml dans le dossier C:\Program Files\Microsoft Office\Office14. Les assemblys Microsoft.Office.Interop.InfoPath et Microsoft.Office.Interop.InfoPath.Xml sont également installés dans le Global Assembly Cache (GAC) dont vous pouvez consulter le contenu dans le dossier C:\Windows\Assembly. 
   
@@ -39,11 +39,11 @@ Si ces assemblys ne sont pas installés, vérifiez que Microsoft InfoPath a ét�
   
 Pour des informations sur le téléchargement de .NET Framework 2.0 Redistributable, voir [.NET Framework 2.0 Redistributable](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5).
   
-## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>L'espace de noms Microsoft. Office. Interop. InfoPath. SemiTrust
+## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>Espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust
 
 Avant la sortie de Microsoft Office InfoPath 2003 Service Pack 1 et du kit de ressources Microsoft Office InfoPath 2003 pour Visual Studio® .NET, toute la logique de programmation pour les modèles de formulaires InfoPath était créée à l'aide de Microsoft JScript ou Microsoft VBScript écrit dans l'environnement de développement Microsoft Script Editor (MSE). Les scripts créés dans MSE sont interprétés à l'exécution et accèdent au modèle objet COM de la bibliothèque de liens dynamiques IPEDITOR.dll .
   
-Pour prendre en charge la création de modèles de formulaires qui utilisent des langages avec code managé tels que Visual C# et Visual Basic pour la logique de programmation, une fonctionnalité a été ajoutée pour permettre à InfoPath d'accueillir le CLR (Common Language Runtime) et l'assembly d'interopérabilité Microsoft.Office.Interop.InfoPath.SemiTrust a été créé pour permettre au code managé d'interagir de manière sécurisée avec le modèle objet COM d'InfoPath. Pour plus d'informations sur le modèle de sécurité qui s'applique aux modèles de formulaires InfoPath avec code managé, voir [modèle de sécurité pour les modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md). 
+Pour prendre en charge la création de modèles de formulaires qui utilisent des langages avec code managé tels que Visual C# et Visual Basic pour la logique de programmation, une fonctionnalité a été ajoutée pour permettre à InfoPath d'accueillir le CLR (Common Language Runtime) et l'assembly d'interopérabilité Microsoft.Office.Interop.InfoPath.SemiTrust a été créé pour permettre au code managé d'interagir de manière sécurisée avec le modèle objet COM d'InfoPath. Pour plus d’informations sur le modèle de sécurité qui s’applique aux modèles de formulaire InfoPath avec code géré, voir à propos du modèle de sécurité pour les modèles de [formulaires avec code.](about-the-security-model-for-form-templates-with-code.md) 
   
 Bien que le processus de création de code managé pour une tâche donnée dans un modèle de formulaire InfoPath reste très similaire à la tâche de programmation équivalente avec un script, le modèle objet compatible InfoPath 2003 exposé lors de l'affichage de l'espace de noms **Microsoft.Office.Interop.InfoPath.SemiTrust** dans l' **Explorateur d'objets** de Visual Studio 2012 paraît plus complexe. Ceci est dû au fait que la technologie d'interopérabilité .NET Framework utilisée pour prendre en charge le modèle objet compatible InfoPath 2003 nécessite un serveur COM pour exposer toutes ses interfaces publiques, ainsi que quelques constructions supplémentaires requises par .NET Framework. 
   
@@ -71,7 +71,7 @@ Ce même modèle s'applique aux interfaces des collections, excepté que « Coll
   
 Ce modèle présente trois exceptions. Le nom des interfaces de coclasse des objets COM **Application** et **XDocument** ne comporte pas la mention « Object ». Leur nom est identique à celui des objets COM correspondants : [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) et **XDocument**. En outre, le nom des interfaces implémentées par les interfaces de coclasse **Application** et **XDocument** débute par un trait de soulignement (_) : [_Application2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.aspx) et [_XDocument2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.aspx) . La troisième exception est l'objet COM **DataObject**. L'interface de coclasse de cet objet porte le nom [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , mais comme n'importe quel autre objet COM d'InfoPath, l'interface qu'il implémente est l'interface [DataObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.aspx) . 
   
-### <a name="how-microsoft-xml-core-services-msxml-50-for-microsoft-office-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>Comment les objets MSXML (Microsoft XML Core Services) 5,0 pour Microsoft Office sont exposés au modèle objet compatible InfoPath 2003
+### <a name="how-microsoft-xml-core-services-msxml-50-for-microsoft-office-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>Comment Microsoft XML Core Services® (MSXML) 5.0 pour les objets Microsoft Office sont exposés au modèle objet compatible InfoPath 2003
 
 Un sous-ensemble des objets et membres du modèle objet fourni par les services MSXML (Microsoft XML Core Services), qui est également un serveur COM, sont incorporés dans les interfaces exposées par l'assembly d'interopérabilité Microsoft.Office.Interop.InfoPath.SemiTrust. La raison pour laquelle ceci est nécessaire est que certains des membres du modèle objet COM d'InfoPath s'appuient sur MSXML et doivent être en mesure d'accéder à ces membres de manière sécurisée. Les noms des interfaces de l'espace de noms **Microsoft.Office.Interop.InfoPath.SemiTrust** qui incorpore les objets et les membres du modèle objet MSXML sont les mêmes que ceux exposés par le serveur COM MSXML. Dans la plupart des cas, ces noms sont précédés de « IXMLDOM » car ils sont utilisés avec le modèle DOM XML. Par exemple, la propriété [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) de l'interface **XDocument**, qui est utilisée pour renvoyer une référence au document XML sous-jacent d'un formulaire, renvoie l'interface [IXMLDOMDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument.aspx) qui est incorporée dans l'assembly d'interopérabilité Microsoft.Office.Interop.InfoPath.SemiTrust. Vous pouvez appeler et utiliser les membres de l'interface **IXMLDOMDocument** pratiquement de la même manière que lorsque vous utilisez un script dans un modèle de formulaire sans code managé. 
   
@@ -101,7 +101,7 @@ Toutefois, le lien vers les membres de l'interface de coclasse qui suit la descr
   
 Lorsque vous appuyez sur la touche F1 dans l'Éditeur de code, le comportement est similaire, excepté que le membre pour lequel vous invoquez l'aide est affiché directement car vous travaillez le plus souvent avec des membres d'une interface. Cependant, le fait qu'un membre puisse être implémenté depuis une interface avec version peut paraître confus la première fois que vous y êtes confronté. Par exemple, si vous tapez  `thisXDocument.UI.Alert` puis que vous placez le curseur sur  `Alert` et que vous appuyez sur F1, une rubrique intitulée « UI2.Alert Method » s'affiche. Ceci est dû au fait que la méthode **Alert** est une implémentation d'un membre de l'interface **UI2**. 
   
-### <a name="passing-optional-parameters-to-infopath-object-model-members"></a>Transmission de paramètres facultatifs à des membres du modèle objet InfoPath
+### <a name="passing-optional-parameters-to-infopath-object-model-members"></a>Passage de paramètres facultatifs aux membres du modèle objet InfoPath
 
 Si un membre du modèle objet compatible InfoPath 2003 contient un paramètre facultatif et que vous ne spécifiez pas de valeur pour ce paramètre, vous devez transmettre le champ **Type.Missing** de ce paramètre. Si vous ne transmettez pas le champ **Type.Missing** alors que la valeur est omise, cela provoque une erreur de compilation. Ceci se produit aussi bien pour le code écrit en Visual C# qu'en Visual Basic. Par exemple, la méthode [SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx) de l'interface [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) comprend deux paramètres facultatifs :  _varEndNode_ et  _varViewContext_. Une ligne de code dans laquelle les valeurs de ces deux paramètres ne sont pas spécifiées doit ressembler aux exemples suivants.
   
@@ -117,14 +117,14 @@ Dim group1 As IXMLDOMNode = _
 thisXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 ```
 
-### <a name="about-common-language-specification-compliance"></a>À propos de la conformité CLS (Common Language Specification)
+### <a name="about-common-language-specification-compliance"></a>À propos de la conformité des spécifications linguistiques communes
 
 En interne, l'attribut **CLSCompliant** de toutes les interfaces et tous les membres de l'assembly Microsoft.Office.Interop.InfoPath.SemiTrust est défini sur **false**. Du fait que la documentation de référence est générée en partie à l'aide de **System.Reflection**, la chaîne « Interface/méthode/propriété non conforme CLS » est ajoutée à la description de chaque interface et de chaque membre. Cependant, la plupart des interfaces et des membres de l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) sont en réalité conformes CLS. 
   
 ## <a name="see-also"></a>Voir aussi
 
 - [Tâches courantes en matière de développement de modèles de formulaires utilisant le modèle objet InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md)
-- [À propos du modèle de sécurité pour les modèles de formulaire avec code](about-the-security-model-for-form-templates-with-code.md)
-- [Création de modèles de formulaire à l'aide du modèle objet InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
+- [À propos du modèle de sécurité pour les modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md)
+- [Création de modèles de formulaires à l’aide du modèle objet InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
 - [Présentation du modèle objet InfoPath 2003](understanding-the-infopath-2003-object-model.md)
 

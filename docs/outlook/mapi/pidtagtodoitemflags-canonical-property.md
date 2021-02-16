@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6ddc7231afef0a224b92be7fe86216e56200ab70
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,49 +25,49 @@ ms.locfileid: "32284482"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente une condition marquée par un indicateur de tâche.
+Représente la condition To-Do d’un élément.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_TODO_ITEM_FLAGS  <br/> |
 |Identificateur :  <br/> |0x0E2B  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est un champ de bits dans lequel chaque bit doit être défini sur 1 si la condition associée dans le tableau suivant s'applique, sinon 0.
+Cette propriété est un champ de bits dans lequel chaque bit doit être définie sur 1 si la condition associée dans le tableau suivant s’applique, sinon 0.
   
 ||||
 |:-----|:-----|:-----|
 |Valeur numérique  <br/> |Nom  <br/> |Description  <br/> |
-|Non présent  <br/> |S/O  <br/> |Unindicateur  <br/> |
-|0,1  <br/> |todoTimeFlagged  <br/> |L'objet est doté d'un indicateur d'heure  <br/> |
-|8bits  <br/> |todoRecipientFlagged  <br/> |Ne doit être défini que sur un objet de message brouillon et signifie que l'objet est marqué pour les destinataires.  <br/> |
+|Non présent  <br/> |N/A  <br/> |Non survolé  <br/> |
+|1   <br/> |todoTimeFlagged  <br/> |L’objet est marqué au moment de l’heure  <br/> |
+|8   <br/> |todoRecipientFlagged  <br/> |Ne doit être définie que sur un objet de brouillon de message, ce qui signifie que l’objet est marqué pour les destinataires.  <br/> |
    
-Tous les bits qui ne sont pas spécifiés dans la table sont réservés. Elles doivent être ignorées, mais doivent être conservées si elles sont définies.
+Tous les bits qui ne sont pas spécifiés dans le tableau sont réservés. Elles doivent être ignorées, mais doivent être conservées si elles sont définies.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations relatives au marquage.
+> Spécifie les propriétés et les opérations liées au marquage.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

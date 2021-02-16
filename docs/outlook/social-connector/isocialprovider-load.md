@@ -27,15 +27,15 @@ HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR langua
 
 _socialProviderInterfaceVersion_
   
-> dans La version des interfaces de fournisseur OSC attendues par OSC.
+> [in] Version des interfaces du fournisseur OSC attendues par l’OSC.
     
 _languageTag_
   
-> dans Balise de langue IETF (Internet Engineering Task Force), définie par [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) et [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt), qui représente la langue actuelle de l'interface utilisateur Outlook.
+> [in] Balise de langue IETF (Internet Engineering Task Force), définie par [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) et [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt)qui représente la langue actuelle de l’interface utilisateur Outlook.
     
 ## <a name="remarks"></a>Remarques
 
-Le format de version du paramètre _socialProviderInterfaceVersion_ est _X_. _xxxx_, où _X_ est la version principale et _xxxx_ la version mineure du OSC. Pour Office 2013, vérifiez que la version majeure est 15. 
+Le format de version du  _paramètre socialProviderInterfaceVersion_ est  _X_. _xxxx_, où  _X_ est la version principale et  _xxxx_ la version mineure de l’OSC. Pour Office 2013, vérifiez que la version principale est 15. 
   
 ## <a name="see-also"></a>Voir aussi
 

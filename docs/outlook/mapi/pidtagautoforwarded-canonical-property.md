@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 25d1bb121df6470f5038a2106587e3f5b37f6bb7
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32326613"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si le client demande un champ d'en-tête autoForwarded X-MS-Exchange-Organization.
+Contient TRUE si le client demande un champ d’en-tête X-MS-Exchange-Organization-AutoForwarded.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contient la valeur TRUE si le client demande un champ d'en-tête autoForwarded X
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété a la valeur FALSe ou n'est pas utilisée, aucun champ X-MS-Exchange-Organization-en-tête autoForwarded n'est créé.
+Si cette propriété est définie sur FALSE ou n’est pas utilisée, aucun champ d’en-tête X-MS-Exchange-Organization-AutoForwarded n’est créé.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Définit chaque propriété utilisée dans les objets décrits par les documents MS-OXO-prefixes.
+> Définit chaque propriété utilisée dans les objets décrits par les documents préfixés MS-OXO.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> ConVertit des conventions de messagerie standard Internet en objets message.
+> Convertit des conventions de messagerie standard Internet en objets de message.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

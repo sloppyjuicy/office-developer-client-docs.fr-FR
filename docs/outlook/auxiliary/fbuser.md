@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal649b5400-8dc5-cc5c-3455-f462e2d31689
 ms.assetid: ''
-description: Identifie un utilisateur dont les données de disponibilité sont disponibles ou non.
+description: Identifie un utilisateur qui peut ou non avoir des données de libre/occupé disponibles.
 ms.openlocfilehash: 2511a94678f9ef8f2cb6be868db4f718d92ecb6d
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32317660"
 ---
 # <a name="fbuser"></a>FBUser
 
-Identifie un utilisateur dont les données de disponibilité sont disponibles ou non.
+Identifie un utilisateur qui peut ou non avoir des données de libre/occupé disponibles.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,22 +35,22 @@ typedef struct tagFBUser
 
 _m_cbEid_
   
-> Longueur de l'ID d'entrée de l'utilisateur de messagerie tel qu'il est représenté par l'interface [IMailUser](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
+> Longueur de l’ID d’entrée de l’utilisateur de messagerie tel que représenté par l’interface [IMailUser.](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) 
     
 _m_lpEid_
   
-> ID d'entrée de l'utilisateur de messagerie tel qu'il est représenté par l'interface **IMailUser** . 
+> ID d’entrée de l’utilisateur de messagerie tel que représenté par l’interface **IMailUser.** 
     
 _m_ulReserved_
   
-> Ce paramètre est réservé à un usage interne d'Outlook et n'est pas pris en charge.
+> Ce paramètre est réservé à un usage interne à Outlook et n’est pas pris en charge.
     
 _m_pwszReserved_
   
-> Ce paramètre est réservé à un usage interne d'Outlook et n'est pas pris en charge.
+> Ce paramètre est réservé à un usage interne à Outlook et n’est pas pris en charge.
     
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l'API de type disponible/occupé](about-the-free-busy-api.md)  
+- [À propos de l’API Disponibilité](about-the-free-busy-api.md)  
 - [IFreeBusySupport](ifreebusysupport.md)
 

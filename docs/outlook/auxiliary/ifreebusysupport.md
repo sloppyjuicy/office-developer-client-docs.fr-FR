@@ -15,51 +15,51 @@ ms.locfileid: "32319326"
 ---
 # <a name="ifreebusysupport"></a>IFreeBusySupport
 
-Prend en charge la spécification des interfaces qui accèdent aux données de disponibilité pour les utilisateurs spécifiés. 
+Prend en charge la spécification des interfaces qui accèdent aux données de libre/occupé pour les utilisateurs spécifiés. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Hérite de:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
-|Fourni par :  <br/> |Fournisseur de disponibilité  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IFreeBusySupport  <br/> |
+|Hérite de :  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Fourni par :  <br/> |Fournisseur de services de libre-service  <br/> |
+|Identificateur d’interface :  <br/> |IID_IFreeBusySupport  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Placeholder1](ifreebusysupport-placeholder1.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder2](ifreebusysupport-placeholder2.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md) <br/> |Renvoie, pour chaque utilisateur spécifié, une interface permettant d'énumérer les blocs de données de disponibilité au sein d'un intervalle de temps.  <br/> |
-|[Placeholder23](ifreebusysupport-placeholder23.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder3](ifreebusysupport-placeholder3.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder4](ifreebusysupport-placeholder4.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder5](ifreebusysupport-placeholder5.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder6](ifreebusysupport-placeholder6.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder7](ifreebusysupport-placeholder7.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder8](ifreebusysupport-placeholder8.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder9](ifreebusysupport-placeholder9.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder10](ifreebusysupport-placeholder10.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder11](ifreebusysupport-placeholder11.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder12](ifreebusysupport-placeholder12.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder13](ifreebusysupport-placeholder13.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder14](ifreebusysupport-placeholder14.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder15](ifreebusysupport-placeholder15.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder16](ifreebusysupport-placeholder16.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder17](ifreebusysupport-placeholder17.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder18](ifreebusysupport-placeholder18.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder19](ifreebusysupport-placeholder19.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder20](ifreebusysupport-placeholder20.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder21](ifreebusysupport-placeholder21.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
-|[Placeholder22](ifreebusysupport-placeholder22.md) <br/> | *Ce membre est un espace réservé et n'est pas pris en charge.*  <br/> |
+|[Placeholder1](ifreebusysupport-placeholder1.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder2](ifreebusysupport-placeholder2.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md) <br/> |Renvoie, pour chaque utilisateur spécifié, une interface pour l’éumation des blocs de données de libre/occupé dans un délai.  <br/> |
+|[Placeholder23](ifreebusysupport-placeholder23.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder3](ifreebusysupport-placeholder3.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder4](ifreebusysupport-placeholder4.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder5](ifreebusysupport-placeholder5.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder6](ifreebusysupport-placeholder6.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder7](ifreebusysupport-placeholder7.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder8](ifreebusysupport-placeholder8.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder9](ifreebusysupport-placeholder9.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder10](ifreebusysupport-placeholder10.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder11](ifreebusysupport-placeholder11.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder12](ifreebusysupport-placeholder12.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder13](ifreebusysupport-placeholder13.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder14](ifreebusysupport-placeholder14.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder15](ifreebusysupport-placeholder15.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder16](ifreebusysupport-placeholder16.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder17](ifreebusysupport-placeholder17.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder18](ifreebusysupport-placeholder18.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder19](ifreebusysupport-placeholder19.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder20](ifreebusysupport-placeholder20.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder21](ifreebusysupport-placeholder21.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
+|[Placeholder22](ifreebusysupport-placeholder22.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La plupart des membres de cette interface sont des espaces réservés réservés à l'usage interne d'Outlook et peuvent faire l'objet de modifications. Les fournisseurs de disponibilité doivent les implémenter uniquement comme spécifié, en renvoyant uniquement les valeurs de retour spécifiées.
+La plupart des membres de cette interface sont des espaces réservés réservés à l’utilisation interne d’Outlook et peuvent faire l’objet de changements. Les fournisseurs de libre/occupé doivent les implémenter uniquement comme spécifié, en renvoyant uniquement les valeurs de retour spécifiées.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l'API de type disponible/occupé](about-the-free-busy-api.md)
+- [À propos de l’API Disponibilité](about-the-free-busy-api.md)
 - [FBUser](fbuser.md)
 

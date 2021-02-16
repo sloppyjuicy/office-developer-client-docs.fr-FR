@@ -1,5 +1,5 @@
 ---
-title: Obtention d’un dossier à partir de son chemin d’accès
+title: Obtenir un dossier à partir de son chemin d’accès
 TOCTitle: Get a folder based on its folder path
 ms:assetid: 613f2209-667c-48f0-82cf-86e3c9a24cb4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184612(v=office.15)
@@ -25,7 +25,7 @@ Cet exemple illustre un chemin d’accès à un dossier et obtient le dossier as
 
 Dans l’exemple de code suivant, la méthode GetKeyContacts utilise la propriété [GetRootFolder()](https://msdn.microsoft.com/library/bb645807\(v=office.15\)) pour obtenir le chemin d’accès du dossier Contacts\\Key Contacts. La méthode GetFolder est ensuite appelée en utilisant la propriété [FolderPath](https://msdn.microsoft.com/library/bb647409\(v=office.15\)) comme argument. Si GetFolder renvoie un dossier, un message s’affiche indiquant que le dossier Key Contacts a été trouvé. La méthode GetFolder prend un chemin d’accès à un dossier et renvoie l’objet [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) correct. Pour ce faire, la propriété **FolderPath** est tout d'abord divisée en tableau de type string, puis ce tableau est utilisé pour trouver l'objet **Folder** correct en commençant par le haut de la propriété **FolderPath**. Si le dossier spécifié est introuvable, GetFolder renvoie une référence NULL.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

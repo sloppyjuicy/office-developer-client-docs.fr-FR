@@ -1,5 +1,5 @@
 ---
-title: Fonctions (API exportées Outlook)
+title: Functions (API exportées outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,15 +14,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32317675"
 ---
-# <a name="functions-outlook-exported-apis"></a>Fonctions (API exportées Outlook)
+# <a name="functions-outlook-exported-apis"></a>Functions (API exportées outlook)
 
 Cette section décrit les fonctions exportées par Outlook.
   
 |**Fonction**|**Description**|
 |:-----|:-----|
-|[HrCreateApptRebaser](hrcreateapptrebaser.md) <br/> |Initialise un objet [IOlkApptRebaser](iolkapptrebaser.md) à utiliser lors de la relocalisation des rendez-vous dans les calendriers Outlook.  <br/> |
-|[HrProcessConvActionForSentItem](hrprocessconvactionforsentitem.md) <br/> |Effectue une catégorisation post-envoi sur un élément de courrier en fonction de son [PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).  <br/> |
-|[RebaseTaskComplete](rebasetaskcomplete.md) <br/> |Signale la fin de la relocalisation des rendez-vous.  <br/> |
-|[RebaseTaskProgress](rebasetaskprogress.md) <br/> |Signale la progression de l'énumération et de la relocalisation des rendez-vous.  <br/> |
+|[HrCreateApptRebaser](hrcreateapptrebaser.md) <br/> |Initialise un objet [IOlkApptRebaser](iolkapptrebaser.md) pour une utilisation dans le rebasing de rendez-vous dans les calendriers Outlook.  <br/> |
+|[HrProcessConvActionForSentItem](hrprocessconvactionforsentitem.md) <br/> |Effectue la catégorisation post-envoi sur un élément de courrier en fonction de [son PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).  <br/> |
+|[RebaseTaskComplete](rebasetaskcomplete.md) <br/> |Signale l’achèvement du rebasage des rendez-vous.  <br/> |
+|[RebaseTaskProgress](rebasetaskprogress.md) <br/> |Signale l’avancement de l’éumération et de la rebasation des rendez-vous.  <br/> |
    
 

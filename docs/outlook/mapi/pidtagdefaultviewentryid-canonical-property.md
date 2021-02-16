@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1b4e82ed-c207-4828-8a5b-0ef312962355
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6d284782de86b603e6bbe190931a85cd9196c88b
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32270013"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée de l'affichage par défaut d'un dossier.
+Contient l’identificateur d’entrée de l’affichage par défaut d’un dossier.
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contient l'identificateur d'entrée de l'affichage par défaut d'un dossier.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l'identificateur d'entrée de l'affichage des dossiers qui doit être défini en tant que vue initiale. La propriété ne doit pas être définie si la vue «normal» doit être utilisée comme vue initiale.
+Cette propriété est l’identificateur d’entrée de l’affichage dossier qui doit être définie en tant qu’affichage initial. La propriété ne doit pas être définie si l’affichage « Normal » doit être utilisé comme affichage initial.
   
-Une application cliente peut obtenir cette propriété au moment où elle ouvre le dossier et réalise des gains de performances significatifs. Cette propriété peut être utilisée comme un raccourci pour obtenir la vue par défaut, au lieu d'ouvrir la table de contenu associée et de soumettre une restriction.
+Une application cliente peut obtenir cette propriété au moment où elle ouvre le dossier et réalise des gains de performances significatifs. Cette propriété peut servir de raccourci pour obtenir l’affichage par défaut, au lieu d’ouvrir la table des matières associée et d’envoyer une restriction.
   
-L'implémentation d'un fournisseur de services de la méthode [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md) peut copier cette propriété lorsqu'elle copie des dossiers. 
+Une implémentation de fournisseur de services de la méthode [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) peut copier cette propriété lorsqu’elle copie des dossiers. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
@@ -50,15 +50,15 @@ L'implémentation d'un fournisseur de services de la méthode [IMAPIFolder:: Cop
   
 > Gère les opérations de dossier.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

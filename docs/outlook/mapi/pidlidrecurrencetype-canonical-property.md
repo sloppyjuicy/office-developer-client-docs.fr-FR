@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 81ad2e8a-661f-4fc7-bee4-848db3285e31
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7a0ea0dfe236341815fe94fb570908d7034fc83e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,43 +25,43 @@ ms.locfileid: "32315910"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le type de périodicité de la série périodique.
+Spécifie le type de récurrence de la série périodique.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRecurType  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
-|ID long (couvercle):  <br/> |0x00008231  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
+|ID long (LID) :  <br/> |0x00008231  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie le type de périodicité de la série périodique à l'aide de l'une des valeurs indiquées ci-dessous.
+Cette propriété spécifie le type de récurrence de la série périodique à l’aide de l’une des valeurs répertoriées ci-dessous.
   
-|**Status**|**Value**|**Description**|
+|**État**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|rectypeNone  <br/> |0  <br/> |Une seule instance de rendez-vous.  <br/> |
-|rectypeDaily  <br/> |0,1  <br/> |Périodicité quotidienne.  <br/> |
-|rectypeWeekly  <br/> |n°2  <br/> |Périodicité hebdomadaire.  <br/> |
-|rectypeMonthly  <br/> |3  <br/> |Périodicité mensuelle.  <br/> |
-|rectypeYearly  <br/> |4  <br/> |Périodicité annuelle.  <br/> |
+|rectypeNone  <br/> |0  <br/> |Rendez-vous d’instance unique.  <br/> |
+|rectypeDaily  <br/> |1   <br/> |Une récurrence quotidienne.  <br/> |
+|rectypeWeekly  <br/> |2   <br/> |Une récurrence hebdomadaire.  <br/> |
+|rectypeMonthly  <br/> |3   <br/> |Une récurrence mensuelle.  <br/> |
+|rectypeYearly  <br/> |4   <br/> |Une récurrence annuel.  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

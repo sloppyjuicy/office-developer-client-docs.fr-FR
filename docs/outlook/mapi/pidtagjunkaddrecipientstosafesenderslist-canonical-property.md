@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 78543caa-e6ec-4ac7-bfdd-70c56f8fd955
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3a87beaa3873b5ccb449e5b1497262bad5bf1497
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32282367"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si les destinataires de messagerie doivent être ajoutés à la liste des expéditeurs approuvés.
+Indique si les destinataires de messagerie doivent être ajoutés à la liste des expéditeurs sûrs.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Indique si les destinataires de messagerie doivent être ajoutés à la liste de
    
 ## <a name="remarks"></a>Remarques
 
-S'il est présent, cette propriété doit être définie sur 0 ou 1. La valeur 1 indique que les destinataires de courrier doivent être ajoutés à la liste des expéditeurs approuvés. La valeur 0 indique que les destinataires ne doivent pas être ajoutés à la liste des expéditeurs approuvés.
+Si elle est présente, cette propriété doit être définie sur 0 ou 1. La valeur 1 indique que les destinataires de courrier doivent être ajoutés à la liste des expéditeurs sûrs. La valeur 0 indique que les destinataires de courrier ne doivent pas être ajoutés à la liste des expéditeurs sûrs.
   
-Si cette propriété est présente avec une valeur de 1, les adresses SMTP des destinataires du courrier électronique doivent être ajoutées à la clause des expéditeurs approuvés de la condition de règle de courrier inDésirable. Si cette propriété a la valeur 0, aucune action n'est requise.
+Si cette propriété est présente avec la valeur 1, les adresses SMTP des destinataires du courrier électronique doivent être ajoutées à la clause des expéditeurs fiables de la condition de règle de courrier indésirable. Si cette propriété a la valeur 0, aucune action n’est requise.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Active la gestion des listes d'autorisation/de blocage et la détermination des messages électroniques indésirables.
+> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

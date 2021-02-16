@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a431787c-6e9a-9be1-165f-98c778d12e3e
-description: Ouvre une session MAPI et gère une référence à la session pour le gestionnaire de comptes.
+description: Ouvre une session MAPI et maintient une référence à la session pour le gestionnaire de comptes.
 ms.openlocfilehash: 5886ac1ae1bb8f3b43e09f49e48434d9a73656ce
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32322175"
 ---
 # <a name="iolkaccounthelpergetmapisession"></a>IOlkAccountHelper::GetMapiSession
 
-Ouvre une session MAPI et gère une référence à la session pour le gestionnaire de comptes.
+Ouvre une session MAPI et maintient une référence à la session pour le gestionnaire de comptes.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -32,7 +32,7 @@ HRESULT IOlkAccountHelper::GetMapiSession(
 
 _ppmsess_
   
-> remarquer Session MAPI actuelle.
+> [out] Session MAPI en cours.
     
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -40,7 +40,7 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
 ## <a name="remarks"></a>Remarques
 
-En raison de problèmes de référence circulaires, le gestionnaire de comptes lui-même ne peut pas conserver la référence de la session MAPI.
+En raison de problèmes de référence circulaire, le gestionnaire de comptes lui-même ne peut pas conserver la référence pour la session MAPI.
   
 ## <a name="see-also"></a>Voir aussi
 

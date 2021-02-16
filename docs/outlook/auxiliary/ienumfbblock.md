@@ -15,35 +15,35 @@ ms.locfileid: "32317625"
 ---
 # <a name="ienumfbblock"></a>IEnumFBBlock
 
-Prend en charge l'accès et l'énumération des blocs de données de disponibilité d'un utilisateur dans un intervalle de temps.
+Prend en charge l’accès et l’éumation des blocs de données de libre/occupé pour un utilisateur dans un délai.
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Hérite de:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
-|Fourni par :  <br/> |Fournisseur de disponibilité  <br/> |
-|Identificateur de l'interface:  <br/> |**IEnumFBBlock** <br/> |
+|Hérite de :  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Fourni par :  <br/> |Fournisseur de services de libre-service  <br/> |
+|Identificateur d’interface :  <br/> |**IEnumFBBlock** <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Next](ienumfbblock-next.md) <br/> |Obtient le prochain nombre spécifié de blocs de données de disponibilité dans une énumération.  <br/> |
-|[Skip](ienumfbblock-skip.md) <br/> |Ignore un nombre spécifié de blocs de données de disponibilité.  <br/> |
-|[Reset](ienumfbblock-reset.md) <br/> |Réinitialise l'énumérateur en définissant le curseur au début.  <br/> |
-|[Clone](ienumfbblock-clone.md) <br/> |Crée une copie de l'énumérateur à l'aide de la même restriction temporelle, mais en définissant le curseur au début de l'énumérateur.  <br/> |
-|[Restrict](ienumfbblock-restrict.md) <br/> |Limite l'énumération à une période spécifiée.  <br/> |
+|[Next](ienumfbblock-next.md) <br/> |Obtient le nombre spécifié suivant de blocs de données de libre/occupé dans une éumération.  <br/> |
+|[Skip](ienumfbblock-skip.md) <br/> |Ignore un nombre spécifié de blocs de données de libre/occupé.  <br/> |
+|[Reset](ienumfbblock-reset.md) <br/> |Réinitialise l’éumérateur en redéfinissant le curseur au début.  <br/> |
+|[Clone](ienumfbblock-clone.md) <br/> |Crée une copie de l’éumérateur, en utilisant la même restriction de temps, mais en lui fixant le début de l’éumérateur.  <br/> |
+|[Restrict](ienumfbblock-restrict.md) <br/> |Limite l’éumération à une période spécifiée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Une énumération contient des blocs de données de disponibilité qui ne se chevauchent pas dans le temps. Lorsqu'il y a des éléments qui se chevauchent dans un calendrier, Outlook fusionne ces éléments pour créer des blocs de disponibilité qui ne se chevauchent pas dans l'énumération en fonction de cet ordre de priorité: absent (e) du bureau, occupé (e).
+Une éumération contient des blocs de données de libre/occupé qui ne se chevauchent pas dans le temps. Lorsqu’un calendrier se chevauche, Outlook fusionne ces éléments pour former des blocs de libre/occupé non superposés dans l’éumération en fonction de cet ordre de priorité : absence du bureau, occupé, provisoire.
   
-Un fournisseur de disponibilité obtient cette interface et l'énumération pour un intervalle de temps pour un utilisateur via [IFreeBusyData](ifreebusydata.md).
+Un fournisseur de libre/occupé obtient cette interface et l’éumération pour un délai d’un utilisateur via [IFreeBusyData](ifreebusydata.md).
   
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l'API de type disponible/occupé](about-the-free-busy-api.md)  
-- [Constantes (API de disponibilité)](constants-free-busy-api.md)  
+- [À propos de l’API Disponibilité](about-the-free-busy-api.md)  
+- [Constantes (API de libre/occupé)](constants-free-busy-api.md)  
 - [IFreeBusyData](ifreebusydata.md)
 

@@ -10,7 +10,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
-description: 'Dernière modification: 20 septembre 2017'
+description: 'Last modified: September 20, 2017'
 ms.openlocfilehash: 55c547c4dae1acc3e9874edc7778f53a5d34f957
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "32326943"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-ConVertit un message MAPI en un flux MIME.
+Convertit un message MAPI en flux MIME.
   
 ```cpp
 HRESULT IConverterSession::MAPIToMIMEStm( 
@@ -35,17 +35,17 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 
 ## <a name="parameters"></a>Paramètres
 
- _PMSG_
+ _pmsg_
   
-> dans Pointeur vers le message à convertir. Voir mapidefs. h pour la définition de type de **LPMESSAGE**.
+> [in] Pointeur vers le message à convertir. Voir mapidefs.h pour la définition de type **de LPMESSAGE**.
     
  _pstm_
   
-> remarquer Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) pour générer le flux. 
+> [out] [Interface IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) pour la sortie du flux. 
     
  _ulFlags_
   
->  dans Indicateurs qui indiquent des actions spécifiques pour le convertisseur: 
+>  [in] Indicateurs qui indiquent des actions spécifiques pour le convertisseur : 
     
 CCSF_8BITHEADERS
   
@@ -53,7 +53,7 @@ CCSF_8BITHEADERS
     
 CCSF_EMBEDDED_MESSAGE
   
-> Les informations envoyées/non envoyées sont conservées dans X-non envoyés.
+> Les informations envoyées/non envoyées sont persistantes dans X-Unsent.
     
 CCSF_GLOBAL_MESSAGE
   
@@ -61,27 +61,27 @@ CCSF_GLOBAL_MESSAGE
     
 CCSF_INCLUDE_BCC
   
-> Les destinataires en copie carbone invisible du message MAPI doivent être inclus dans le flux MIME.
+> Les destinataires Bc du message MAPI doivent être inclus dans le flux MIME.
     
 CCSF_NO_MSGID
   
-> N'incluez pas le champ Message-ID dans les messages sortants.
+> N’incluez pas Message-Id champ dans les messages sortants.
     
 CCSF_NOHEADERS
   
-> Le convertisseur doit ignorer les en-têtes du message extérieur.
+> Le convertisseur doit ignorer les en-têtes du message externe.
     
 CCSF_PLAIN_TEXT_ONLY
   
-> Le convertisseur doit simplement envoyer du texte brut.
+> Le convertisseur doit simplement envoyer du texte simple.
     
 CCSF_SMTP
   
-> Un message SMTP est transmis au convertisseur. Cet indicateur doit toujours être défini.
+> Un message SMTP est transmis au convertisseur. Cet indicateur doit toujours être définie.
     
 CCSF_USE_RTF
   
-> Le convertisseur doit convertir le format HTML au format RTF dans le message MIME.
+> Le convertisseur doit convertir du format HTML au format RTF dans le message MIME.
     
 CCSF_USE_TNEF
   
@@ -91,11 +91,11 @@ CCSF_USE_TNEF
 
 E_INVALIDARG
   
-> Des indicateurs non valides ont été passés, ou *PMSG* ou *pstm* est null. 
+> Des indicateurs non valides ont été passés ou  *pmsg*  ou  *pstm*  a la valeur NULL. 
     
 ## <a name="remarks"></a>Remarques
 
-Pris en charge uniquement pour les types de message Outlook standard.
+Pris en charge uniquement pour les types de messages Outlook standard.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -103,8 +103,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
