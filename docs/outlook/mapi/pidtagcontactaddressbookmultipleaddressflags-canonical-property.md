@@ -19,46 +19,46 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429249"
 ---
-# <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a><span data-ttu-id="6bf93-103">Propriété canonique PidTagContactAddressBookMultipleAddressFlags</span><span class="sxs-lookup"><span data-stu-id="6bf93-103">PidTagContactAddressBookMultipleAddressFlags Canonical Property</span></span>
+# <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a><span data-ttu-id="ce65a-103">Propriété canonique PidTagContactAddressBookMultipleAddressFlags</span><span class="sxs-lookup"><span data-stu-id="ce65a-103">PidTagContactAddressBookMultipleAddressFlags Canonical Property</span></span>
 
   
   
-<span data-ttu-id="6bf93-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6bf93-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ce65a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ce65a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6bf93-105">Contient des indicateurs qui indiquent si les fournisseurs prendront en charge plusieurs adresses de messagerie par élément de contact.</span><span class="sxs-lookup"><span data-stu-id="6bf93-105">Contains flags that indicating whether the providers will support multiple email addresses per contact item.</span></span>
+<span data-ttu-id="ce65a-105">Contient des indicateurs qui indiquent si les fournisseurs vont prendre en charge plusieurs adresses de messagerie par élément de contact.</span><span class="sxs-lookup"><span data-stu-id="ce65a-105">Contains flags that indicating whether the providers will support multiple email addresses per contact item.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6bf93-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="6bf93-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6bf93-107">PR_CONTAB_MULTI_ADDR_FLAGS</span><span class="sxs-lookup"><span data-stu-id="6bf93-107">PR_CONTAB_MULTI_ADDR_FLAGS</span></span>  <br/> |
-|<span data-ttu-id="6bf93-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="6bf93-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6bf93-109">0x6625</span><span class="sxs-lookup"><span data-stu-id="6bf93-109">0x6625</span></span>  <br/> |
-|<span data-ttu-id="6bf93-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="6bf93-110">Data type:</span></span>  <br/> |<span data-ttu-id="6bf93-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="6bf93-111">PT_MV_LONG</span></span>  <br/> |
-|<span data-ttu-id="6bf93-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="6bf93-112">Area:</span></span>  <br/> |<span data-ttu-id="6bf93-113">Carnet d'adresses des contacts</span><span class="sxs-lookup"><span data-stu-id="6bf93-113">Contact address book</span></span>  <br/> |
+|<span data-ttu-id="ce65a-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="ce65a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ce65a-107">PR_CONTAB_MULTI_ADDR_FLAGS</span><span class="sxs-lookup"><span data-stu-id="ce65a-107">PR_CONTAB_MULTI_ADDR_FLAGS</span></span>  <br/> |
+|<span data-ttu-id="ce65a-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="ce65a-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ce65a-109">0x6625</span><span class="sxs-lookup"><span data-stu-id="ce65a-109">0x6625</span></span>  <br/> |
+|<span data-ttu-id="ce65a-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="ce65a-110">Data type:</span></span>  <br/> |<span data-ttu-id="ce65a-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="ce65a-111">PT_MV_LONG</span></span>  <br/> |
+|<span data-ttu-id="ce65a-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="ce65a-112">Area:</span></span>  <br/> |<span data-ttu-id="ce65a-113">Carnet d’adresses de contact</span><span class="sxs-lookup"><span data-stu-id="ce65a-113">Contact address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6bf93-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="6bf93-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ce65a-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="ce65a-114">Remarks</span></span>
 
-<span data-ttu-id="6bf93-115">Si les indicateurs de cette propriété ont la valeur TRUE, le fournisseur n'inclut pas de contacts sans adresse de messagerie.</span><span class="sxs-lookup"><span data-stu-id="6bf93-115">If the flags in this property are TRUE, the provider does not include contacts without email addresses.</span></span> <span data-ttu-id="6bf93-116">Seule l'adresse de messagerie principale sera honorée.</span><span class="sxs-lookup"><span data-stu-id="6bf93-116">Only the primary email address will be honored.</span></span> <span data-ttu-id="6bf93-117">Il s'agit d'une propriété dans la section profil de carnet d'adresses de contacts.</span><span class="sxs-lookup"><span data-stu-id="6bf93-117">This is a property on a Contact Address Book profile section.</span></span>
+<span data-ttu-id="ce65a-115">Si les indicateurs de cette propriété sont TRUE, le fournisseur n’inclut pas les contacts sans adresses e-mail.</span><span class="sxs-lookup"><span data-stu-id="ce65a-115">If the flags in this property are TRUE, the provider does not include contacts without email addresses.</span></span> <span data-ttu-id="ce65a-116">Seule l’adresse de messagerie principale sera honorée.</span><span class="sxs-lookup"><span data-stu-id="ce65a-116">Only the primary email address will be honored.</span></span> <span data-ttu-id="ce65a-117">Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact.</span><span class="sxs-lookup"><span data-stu-id="ce65a-117">This is a property on a Contact Address Book profile section.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="6bf93-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="6bf93-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ce65a-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="ce65a-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="6bf93-119">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="6bf93-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ce65a-119">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="ce65a-119">Header files</span></span>
 
-<span data-ttu-id="6bf93-120">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="6bf93-120">Mapidefs.h</span></span>
+<span data-ttu-id="ce65a-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ce65a-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="6bf93-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="6bf93-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="ce65a-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="ce65a-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="6bf93-122">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="6bf93-122">Mapitags.h</span></span>
+<span data-ttu-id="ce65a-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="ce65a-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="6bf93-123">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="6bf93-123">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="ce65a-123">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="ce65a-123">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="6bf93-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6bf93-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ce65a-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ce65a-124">See also</span></span>
 
 
 
-[<span data-ttu-id="6bf93-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="6bf93-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ce65a-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="ce65a-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="6bf93-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="6bf93-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ce65a-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="ce65a-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="6bf93-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="6bf93-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ce65a-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="ce65a-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="6bf93-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="6bf93-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ce65a-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="ce65a-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

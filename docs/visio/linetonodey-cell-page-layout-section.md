@@ -16,26 +16,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432330"
 ---
-# <a name="linetonodey-cell-page-layout-section"></a><span data-ttu-id="a3b45-103">LineToNodeY, cellule (section Page Layout)</span><span class="sxs-lookup"><span data-stu-id="a3b45-103">LineToNodeY Cell (Page Layout Section)</span></span>
+# <a name="linetonodey-cell-page-layout-section"></a><span data-ttu-id="3bc15-103">LineToNodeY, cellule (section Page Layout)</span><span class="sxs-lookup"><span data-stu-id="3bc15-103">LineToNodeY Cell (Page Layout Section)</span></span>
 
-<span data-ttu-id="a3b45-104">Définit l'écart vertical entre tous les connecteurs et les formes de la page de dessin.</span><span class="sxs-lookup"><span data-stu-id="a3b45-104">Determines the vertical clearance between all connectors and shapes on the drawing page.</span></span>
+<span data-ttu-id="3bc15-104">Définit l'écart vertical entre tous les connecteurs et les formes de la page de dessin.</span><span class="sxs-lookup"><span data-stu-id="3bc15-104">Determines the vertical clearance between all connectors and shapes on the drawing page.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a3b45-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="a3b45-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3bc15-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="3bc15-105">Remarks</span></span>
 
-<span data-ttu-id="a3b45-p101">Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Disposition et positionnement** (sous l’onglet **Création**, cliquez sur la flèche **Mise en page**, cliquez sur **Disposition et positionnement**, puis sur **Espacement**).</span><span class="sxs-lookup"><span data-stu-id="a3b45-p101">You can also set the value of this cell in the **Layout and Routing Spacing** dialog box. (On the **Design** tab, click the **Page Setup** arrow, click **Layout and Routing**, and then click **Spacing**.)</span></span>
+<span data-ttu-id="3bc15-p101">Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Disposition et positionnement** (sous l’onglet **Création**, cliquez sur la flèche **Mise en page**, cliquez sur **Disposition et positionnement**, puis sur **Espacement**).</span><span class="sxs-lookup"><span data-stu-id="3bc15-p101">You can also set the value of this cell in the **Layout and Routing Spacing** dialog box. (On the **Design** tab, click the **Page Setup** arrow, click **Layout and Routing**, and then click **Spacing**.)</span></span>
   
-<span data-ttu-id="a3b45-108">Pour obtenir une référence à la cellule LineToNodeY par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="a3b45-108">To get a reference to the LineToNodeY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="3bc15-108">Pour obtenir une référence à la cellule LineToNodeY par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="3bc15-108">To get a reference to the LineToNodeY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a3b45-109">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="a3b45-109">Cell name:</span></span>  <br/> | <span data-ttu-id="a3b45-110">LineToNodeY</span><span class="sxs-lookup"><span data-stu-id="a3b45-110">LineToNodeY</span></span>  <br/> |
+| <span data-ttu-id="3bc15-109">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="3bc15-109">Cell name:</span></span>  <br/> | <span data-ttu-id="3bc15-110">LineToNodeY</span><span class="sxs-lookup"><span data-stu-id="3bc15-110">LineToNodeY</span></span>  <br/> |
    
-<span data-ttu-id="a3b45-111">Pour obtenir une référence à la cellule LineToNodeY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="a3b45-111">To get a reference to the LineToNodeY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="3bc15-111">Pour obtenir une référence à la cellule LineToNodeY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="3bc15-111">To get a reference to the LineToNodeY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a3b45-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="a3b45-112">Section index:</span></span>  <br/> |<span data-ttu-id="a3b45-113">**Définis**</span><span class="sxs-lookup"><span data-stu-id="a3b45-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="a3b45-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="a3b45-114">Row index:</span></span>  <br/> |<span data-ttu-id="a3b45-115">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="a3b45-115">**visRowPageLayout**</span></span> <br/> |
-| <span data-ttu-id="a3b45-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="a3b45-116">Cell index:</span></span>  <br/> |<span data-ttu-id="a3b45-117">**visPLOLineToNodeY**</span><span class="sxs-lookup"><span data-stu-id="a3b45-117">**visPLOLineToNodeY**</span></span> <br/> |
+| <span data-ttu-id="3bc15-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="3bc15-112">Section index:</span></span>  <br/> |<span data-ttu-id="3bc15-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3bc15-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="3bc15-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="3bc15-114">Row index:</span></span>  <br/> |<span data-ttu-id="3bc15-115">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="3bc15-115">**visRowPageLayout**</span></span> <br/> |
+| <span data-ttu-id="3bc15-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="3bc15-116">Cell index:</span></span>  <br/> |<span data-ttu-id="3bc15-117">**visPLOLineToNodeY**</span><span class="sxs-lookup"><span data-stu-id="3bc15-117">**visPLOLineToNodeY**</span></span> <br/> |
    
 

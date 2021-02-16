@@ -19,32 +19,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430874"
 ---
-# <a name="ipstx2--ipstx"></a><span data-ttu-id="aa66e-103">IPSTX2 : IPSTX</span><span class="sxs-lookup"><span data-stu-id="aa66e-103">IPSTX2 : IPSTX</span></span>
+# <a name="ipstx2--ipstx"></a><span data-ttu-id="eac99-103">IPSTX2 : IPSTX</span><span class="sxs-lookup"><span data-stu-id="eac99-103">IPSTX2 : IPSTX</span></span>
 
   
   
-<span data-ttu-id="aa66e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="aa66e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="eac99-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="eac99-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="aa66e-105">Cette interface fournit des fonctionnalités d'assistance lors de l'exécution de la réplication via l'interface **[IOSTX](iostxiunknown.md)** .</span><span class="sxs-lookup"><span data-stu-id="aa66e-105">This interface provides helper functionality when performing replication through the **[IOSTX](iostxiunknown.md)** interface.</span></span> 
+<span data-ttu-id="eac99-105">Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface **[IOSTX.](iostxiunknown.md)**</span><span class="sxs-lookup"><span data-stu-id="eac99-105">This interface provides helper functionality when performing replication through the **[IOSTX](iostxiunknown.md)** interface.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="aa66e-106">Fourni par</span><span class="sxs-lookup"><span data-stu-id="aa66e-106">Provided by</span></span>  <br/> |<span data-ttu-id="aa66e-107">Requête sur [IMsgStore](imsgstoreimapiprop.md)</span><span class="sxs-lookup"><span data-stu-id="aa66e-107">Query on [IMsgStore](imsgstoreimapiprop.md)</span></span> <br/> |
-|<span data-ttu-id="aa66e-108">Identificateur de l'interface:</span><span class="sxs-lookup"><span data-stu-id="aa66e-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="aa66e-109">IID_IPSTX2</span><span class="sxs-lookup"><span data-stu-id="aa66e-109">IID_IPSTX2</span></span>  <br/> |
+|<span data-ttu-id="eac99-106">Fourni par</span><span class="sxs-lookup"><span data-stu-id="eac99-106">Provided by</span></span>  <br/> |<span data-ttu-id="eac99-107">Requête sur [IMsgStore](imsgstoreimapiprop.md)</span><span class="sxs-lookup"><span data-stu-id="eac99-107">Query on [IMsgStore](imsgstoreimapiprop.md)</span></span> <br/> |
+|<span data-ttu-id="eac99-108">Identificateur d’interface :</span><span class="sxs-lookup"><span data-stu-id="eac99-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="eac99-109">IID_IPSTX2</span><span class="sxs-lookup"><span data-stu-id="eac99-109">IID_IPSTX2</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="aa66e-110">Ordre vtable</span><span class="sxs-lookup"><span data-stu-id="aa66e-110">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="eac99-110">Ordre des vtables</span><span class="sxs-lookup"><span data-stu-id="eac99-110">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-| <span data-ttu-id="aa66e-111">*Membre de l'espace réservé*</span><span class="sxs-lookup"><span data-stu-id="aa66e-111">*Placeholder member*</span></span>  <br/> | <span data-ttu-id="aa66e-112">*Non pris en charge ou documenté.*</span><span class="sxs-lookup"><span data-stu-id="aa66e-112">*Not supported or documented.*</span></span>  <br/> |
-| <span data-ttu-id="aa66e-113">*Membre de l'espace réservé*</span><span class="sxs-lookup"><span data-stu-id="aa66e-113">*Placeholder member*</span></span>  <br/> | <span data-ttu-id="aa66e-114">*Non pris en charge ou documenté.*</span><span class="sxs-lookup"><span data-stu-id="aa66e-114">*Not supported or documented.*</span></span>  <br/> |
-|<span data-ttu-id="aa66e-115">**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)**</span><span class="sxs-lookup"><span data-stu-id="aa66e-115">**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)**</span></span> <br/> |<span data-ttu-id="aa66e-116">Définit l'état suspendu sur le spouleur.</span><span class="sxs-lookup"><span data-stu-id="aa66e-116">Sets the suspended state on the spooler.</span></span>  <br/> |
+| <span data-ttu-id="eac99-111">*Membre d’espace réservé*</span><span class="sxs-lookup"><span data-stu-id="eac99-111">*Placeholder member*</span></span>  <br/> | <span data-ttu-id="eac99-112">*Non pris en charge ou documenté.*</span><span class="sxs-lookup"><span data-stu-id="eac99-112">*Not supported or documented.*</span></span>  <br/> |
+| <span data-ttu-id="eac99-113">*Membre d’espace réservé*</span><span class="sxs-lookup"><span data-stu-id="eac99-113">*Placeholder member*</span></span>  <br/> | <span data-ttu-id="eac99-114">*Non pris en charge ou documenté.*</span><span class="sxs-lookup"><span data-stu-id="eac99-114">*Not supported or documented.*</span></span>  <br/> |
+|<span data-ttu-id="eac99-115">**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)**</span><span class="sxs-lookup"><span data-stu-id="eac99-115">**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)**</span></span> <br/> |<span data-ttu-id="eac99-116">Définit l’état suspendu sur lepooler.</span><span class="sxs-lookup"><span data-stu-id="eac99-116">Sets the suspended state on the spooler.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="aa66e-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="aa66e-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eac99-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="eac99-117">See also</span></span>
 
 
 
-[<span data-ttu-id="aa66e-118">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="aa66e-118">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="eac99-118">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="eac99-118">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="aa66e-119">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="aa66e-119">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="eac99-119">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="eac99-119">MAPI Constants</span></span>](mapi-constants.md)
 

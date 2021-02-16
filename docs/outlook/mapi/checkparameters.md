@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433394"
 ---
-# <a name="checkparameters"></a><span data-ttu-id="07dd1-103">CheckParameters</span><span class="sxs-lookup"><span data-stu-id="07dd1-103">CheckParameters</span></span>
+# <a name="checkparameters"></a><span data-ttu-id="c98a4-103">CheckParameters</span><span class="sxs-lookup"><span data-stu-id="c98a4-103">CheckParameters</span></span>
 
   
   
-<span data-ttu-id="07dd1-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="07dd1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c98a4-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c98a4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="07dd1-105">Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes du fournisseur de services appelées par MAPI.</span><span class="sxs-lookup"><span data-stu-id="07dd1-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
+<span data-ttu-id="c98a4-105">Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes de fournisseur de services appelées par MAPI.</span><span class="sxs-lookup"><span data-stu-id="c98a4-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="07dd1-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="07dd1-106">Header file:</span></span>  <br/> |<span data-ttu-id="07dd1-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="07dd1-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="07dd1-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="07dd1-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="07dd1-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="07dd1-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="07dd1-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="07dd1-110">Called by:</span></span>  <br/> |<span data-ttu-id="07dd1-111">Fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="07dd1-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="c98a4-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="c98a4-106">Header file:</span></span>  <br/> |<span data-ttu-id="c98a4-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="c98a4-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="c98a4-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="c98a4-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="c98a4-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="c98a4-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="c98a4-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="c98a4-110">Called by:</span></span>  <br/> |<span data-ttu-id="c98a4-111">Fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="c98a4-111">Service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT CheckParameters(
@@ -40,24 +40,24 @@ HRESULT CheckParameters(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="07dd1-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="07dd1-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c98a4-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c98a4-112">Parameters</span></span>
 
- <span data-ttu-id="07dd1-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="07dd1-113">_eMethod_</span></span>
+ <span data-ttu-id="c98a4-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="c98a4-113">_eMethod_</span></span>
   
-> <span data-ttu-id="07dd1-114">dans Spécifie, par énumération, la méthode à valider.</span><span class="sxs-lookup"><span data-stu-id="07dd1-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
+> <span data-ttu-id="c98a4-114">[in] Spécifie, par l’éumération, la méthode à valider.</span><span class="sxs-lookup"><span data-stu-id="c98a4-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
     
- <span data-ttu-id="07dd1-115">_First_</span><span class="sxs-lookup"><span data-stu-id="07dd1-115">_First_</span></span>
+ <span data-ttu-id="c98a4-115">_First_</span><span class="sxs-lookup"><span data-stu-id="c98a4-115">_First_</span></span>
   
-> <span data-ttu-id="07dd1-116">dans Pointeur vers le premier argument de la pile.</span><span class="sxs-lookup"><span data-stu-id="07dd1-116">[in] Pointer to the first argument on the stack.</span></span>
+> <span data-ttu-id="c98a4-116">[in] Pointeur vers le premier argument de la pile.</span><span class="sxs-lookup"><span data-stu-id="c98a4-116">[in] Pointer to the first argument on the stack.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="07dd1-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="07dd1-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c98a4-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c98a4-117">Return value</span></span>
 
-<span data-ttu-id="07dd1-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="07dd1-118">S_OK</span></span> 
+<span data-ttu-id="c98a4-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="c98a4-118">S_OK</span></span> 
   
-> <span data-ttu-id="07dd1-119">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="07dd1-119">The call succeeded.</span></span>
+> <span data-ttu-id="c98a4-119">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="c98a4-119">The call succeeded.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="07dd1-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="07dd1-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c98a4-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="c98a4-120">Remarks</span></span>
 
-<span data-ttu-id="07dd1-121">La macro **CheckParameters** a été remplacée par la macro [CheckParms](checkparms.md) .</span><span class="sxs-lookup"><span data-stu-id="07dd1-121">The **CheckParameters** macro has been superseded by the [CheckParms](checkparms.md) macro.</span></span> <span data-ttu-id="07dd1-122">**CheckParms** est recommandé sur toutes les plateformes.</span><span class="sxs-lookup"><span data-stu-id="07dd1-122">**CheckParms** is recommended on all platforms.</span></span> 
+<span data-ttu-id="c98a4-121">La macro **CheckParameters** a été recalée par la macro [CheckParms.](checkparms.md)</span><span class="sxs-lookup"><span data-stu-id="c98a4-121">The **CheckParameters** macro has been superseded by the [CheckParms](checkparms.md) macro.</span></span> <span data-ttu-id="c98a4-122">**CheckParms est** recommandé sur toutes les plateformes.</span><span class="sxs-lookup"><span data-stu-id="c98a4-122">**CheckParms** is recommended on all platforms.</span></span> 
   
 

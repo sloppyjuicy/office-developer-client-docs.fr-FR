@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432239"
 ---
-# <a name="fbadrestriction"></a><span data-ttu-id="1128c-103">FBadRestriction</span><span class="sxs-lookup"><span data-stu-id="1128c-103">FBadRestriction</span></span>
+# <a name="fbadrestriction"></a><span data-ttu-id="00f2c-103">FBadRestriction</span><span class="sxs-lookup"><span data-stu-id="00f2c-103">FBadRestriction</span></span>
 
   
   
-<span data-ttu-id="1128c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1128c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="00f2c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="00f2c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1128c-105">Valide une restriction utilisée pour limiter un affichage de tableau.</span><span class="sxs-lookup"><span data-stu-id="1128c-105">Validates a restriction used to limit a table view.</span></span> 
+<span data-ttu-id="00f2c-105">Valide une restriction utilisée pour limiter un affichage tableau.</span><span class="sxs-lookup"><span data-stu-id="00f2c-105">Validates a restriction used to limit a table view.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1128c-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="1128c-106">Header file:</span></span>  <br/> |<span data-ttu-id="1128c-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="1128c-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="1128c-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="1128c-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="1128c-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="1128c-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="1128c-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="1128c-110">Called by:</span></span>  <br/> |<span data-ttu-id="1128c-111">Fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="1128c-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="00f2c-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="00f2c-106">Header file:</span></span>  <br/> |<span data-ttu-id="00f2c-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="00f2c-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="00f2c-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="00f2c-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="00f2c-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="00f2c-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="00f2c-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="00f2c-110">Called by:</span></span>  <br/> |<span data-ttu-id="00f2c-111">Fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="00f2c-111">Service providers</span></span>  <br/> |
    
 ```cpp
 ULONG FBadRestriction(
@@ -39,24 +39,24 @@ ULONG FBadRestriction(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1128c-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="1128c-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="00f2c-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="00f2c-112">Parameters</span></span>
 
- <span data-ttu-id="1128c-113">_lpres_</span><span class="sxs-lookup"><span data-stu-id="1128c-113">_lpres_</span></span>
+ <span data-ttu-id="00f2c-113">_lpres_</span><span class="sxs-lookup"><span data-stu-id="00f2c-113">_lpres_</span></span>
   
-> <span data-ttu-id="1128c-114">dans Structure [SRestriction](srestriction.md) définissant la restriction à valider.</span><span class="sxs-lookup"><span data-stu-id="1128c-114">[in] An [SRestriction](srestriction.md) structure defining the restriction to be validated.</span></span> 
+> <span data-ttu-id="00f2c-114">[in] Structure [SRestriction](srestriction.md) définissant la restriction à valider.</span><span class="sxs-lookup"><span data-stu-id="00f2c-114">[in] An [SRestriction](srestriction.md) structure defining the restriction to be validated.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="1128c-115">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="1128c-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="00f2c-115">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="00f2c-115">Return value</span></span>
 
-<span data-ttu-id="1128c-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="1128c-116">TRUE</span></span> 
+<span data-ttu-id="00f2c-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="00f2c-116">TRUE</span></span> 
   
-> <span data-ttu-id="1128c-117">La restriction spécifiée, ou une ou plusieurs de ses sous-restrictions, n'est pas valide.</span><span class="sxs-lookup"><span data-stu-id="1128c-117">The specified restriction, or one or more of its subrestrictions, is invalid.</span></span> 
+> <span data-ttu-id="00f2c-117">La restriction spécifiée, ou une ou plusieurs de ses sous-sections, n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="00f2c-117">The specified restriction, or one or more of its subrestrictions, is invalid.</span></span> 
     
-<span data-ttu-id="1128c-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="1128c-118">FALSE</span></span> 
+<span data-ttu-id="00f2c-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="00f2c-118">FALSE</span></span> 
   
-> <span data-ttu-id="1128c-119">La restriction spécifiée et toutes ses sous-restrictions sont valides.</span><span class="sxs-lookup"><span data-stu-id="1128c-119">The specified restriction and all its subrestrictions are valid.</span></span>
+> <span data-ttu-id="00f2c-119">La restriction spécifiée et toutes ses sous-sections sont valides.</span><span class="sxs-lookup"><span data-stu-id="00f2c-119">The specified restriction and all its subrestrictions are valid.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="1128c-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="1128c-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="00f2c-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="00f2c-120">Remarks</span></span>
 
-<span data-ttu-id="1128c-121">Une fois qu'une restriction est validée, elle peut être transmise dans les appels à la méthode [IMAPITable:: Restrict](imapitable-restrict.md) pour limiter la table à certaines lignes, jusqu'à la méthode [IMAPITable:: FindRow](imapitable-findrow.md) pour localiser une ligne de table et aux méthodes de [IMAPIContainer](imapicontainerimapiprop.md) interface permettant d'effectuer une restriction sur un objet Container.</span><span class="sxs-lookup"><span data-stu-id="1128c-121">Once a restriction is validated, it can be passed in calls to the [IMAPITable::Restrict](imapitable-restrict.md) method to restrict the table to certain rows, to the [IMAPITable::FindRow](imapitable-findrow.md) method to locate a table row, and to methods of the [IMAPIContainer](imapicontainerimapiprop.md) interface to perform a restriction on a container object.</span></span> 
+<span data-ttu-id="00f2c-121">Une fois qu’une restriction est validée, elle peut être transmise dans des appels à la méthode [IMAPITable::Restrict](imapitable-restrict.md) pour limiter le tableau à certaines lignes, à la méthode [IMAPITable::FindRow](imapitable-findrow.md) pour localiser une ligne de tableau et aux méthodes de l’interface [IMAPIContainer](imapicontainerimapiprop.md) pour effectuer une restriction sur un objet conteneur.</span><span class="sxs-lookup"><span data-stu-id="00f2c-121">Once a restriction is validated, it can be passed in calls to the [IMAPITable::Restrict](imapitable-restrict.md) method to restrict the table to certain rows, to the [IMAPITable::FindRow](imapitable-findrow.md) method to locate a table row, and to methods of the [IMAPIContainer](imapicontainerimapiprop.md) interface to perform a restriction on a container object.</span></span> 
   
 

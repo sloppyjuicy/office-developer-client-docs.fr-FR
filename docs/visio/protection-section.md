@@ -16,14 +16,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429396"
 ---
-# <a name="protection-section"></a><span data-ttu-id="ba15a-103">Protection, section</span><span class="sxs-lookup"><span data-stu-id="ba15a-103">Protection Section</span></span>
+# <a name="protection-section"></a><span data-ttu-id="015b6-103">Protection, section</span><span class="sxs-lookup"><span data-stu-id="015b6-103">Protection Section</span></span>
 
-<span data-ttu-id="ba15a-104">Affiche les paramètres de verrouillage actuels définis à l'aide de la commande **protection** (onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) ), ainsi que quelques verrous supplémentaires qui ne peuvent être définis que dans une fenêtre ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="ba15a-104">Shows the current lock settings set with the **Protection** command ( [Developer](run-in-developer-mode-display-the-developer-tab.md) tab) plus a few additional locks that can be set only in a ShapeSheet window.</span></span> 
+<span data-ttu-id="015b6-104">Affiche les paramètres de verrouillage actuels, qui sont définies avec la **commande Protection** [(onglet](run-in-developer-mode-display-the-developer-tab.md) Développeur), ainsi que quelques verrous supplémentaires qui ne peuvent être définies que dans une fenêtre ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="015b6-104">Shows the current lock settings set with the **Protection** command ( [Developer](run-in-developer-mode-display-the-developer-tab.md) tab) plus a few additional locks that can be set only in a ShapeSheet window.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="ba15a-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="ba15a-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="015b6-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="015b6-105">Remarks</span></span>
 
-<span data-ttu-id="ba15a-p101">Le verrouillage empêche toute modification fortuite de la forme, mais ne permet pas d'éviter la redéfinition de certaines valeurs en d'autres circonstances. Le verrouillage ne protège pas non plus la forme contre les modifications apportées dans la fenêtre Feuille ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="ba15a-p101">Locking helps prevent inadvertent changes to the shape but does not prevent values from being reset in other circumstances. It also does not protect against changes made in the ShapeSheet window.</span></span>
+<span data-ttu-id="015b6-p101">Le verrouillage empêche toute modification fortuite de la forme, mais ne permet pas d'éviter la redéfinition de certaines valeurs en d'autres circonstances. Le verrouillage ne protège pas non plus la forme contre les modifications apportées dans la fenêtre Feuille ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="015b6-p101">Locking helps prevent inadvertent changes to the shape but does not prevent values from being reset in other circumstances. It also does not protect against changes made in the ShapeSheet window.</span></span>
   
-<span data-ttu-id="ba15a-108">Pour empêcher la modification d'une formule, utilisez la fonction **Guard** .</span><span class="sxs-lookup"><span data-stu-id="ba15a-108">To protect a formula from being changed, use the **GUARD** function.</span></span> 
+<span data-ttu-id="015b6-108">Pour protéger une formule de la modifier, utilisez la **fonction GUARD.**</span><span class="sxs-lookup"><span data-stu-id="015b6-108">To protect a formula from being changed, use the **GUARD** function.</span></span> 
   
 

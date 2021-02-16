@@ -19,46 +19,46 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428787"
 ---
-# <a name="pidtagformcategorysub-canonical-property"></a><span data-ttu-id="95806-103">Propriété canonique PidTagFormCategorySub</span><span class="sxs-lookup"><span data-stu-id="95806-103">PidTagFormCategorySub Canonical Property</span></span>
+# <a name="pidtagformcategorysub-canonical-property"></a><span data-ttu-id="f75e6-103">Propriété canonique PidTagFormCategorySub</span><span class="sxs-lookup"><span data-stu-id="f75e6-103">PidTagFormCategorySub Canonical Property</span></span>
 
   
   
-<span data-ttu-id="95806-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="95806-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f75e6-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f75e6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="95806-105">Contient la sous-catégorie d'un formulaire, telle qu'elle est définie par une application cliente.</span><span class="sxs-lookup"><span data-stu-id="95806-105">Contains the subcategory of a form, as defined by a client application.</span></span> 
+<span data-ttu-id="f75e6-105">Contient la sous-catégorie d’un formulaire, telle que définie par une application cliente.</span><span class="sxs-lookup"><span data-stu-id="f75e6-105">Contains the subcategory of a form, as defined by a client application.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="95806-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="95806-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="95806-107">PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W</span><span class="sxs-lookup"><span data-stu-id="95806-107">PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W</span></span>  <br/> |
-|<span data-ttu-id="95806-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="95806-108">Identifier:</span></span>  <br/> |<span data-ttu-id="95806-109">0x3305</span><span class="sxs-lookup"><span data-stu-id="95806-109">0x3305</span></span>  <br/> |
-|<span data-ttu-id="95806-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="95806-110">Data type:</span></span>  <br/> |<span data-ttu-id="95806-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="95806-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="95806-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="95806-112">Area:</span></span>  <br/> |<span data-ttu-id="95806-113">MAPI commun</span><span class="sxs-lookup"><span data-stu-id="95806-113">MAPI common</span></span>  <br/> |
+|<span data-ttu-id="f75e6-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="f75e6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f75e6-107">PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W</span><span class="sxs-lookup"><span data-stu-id="f75e6-107">PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W</span></span>  <br/> |
+|<span data-ttu-id="f75e6-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="f75e6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f75e6-109">0x3305</span><span class="sxs-lookup"><span data-stu-id="f75e6-109">0x3305</span></span>  <br/> |
+|<span data-ttu-id="f75e6-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="f75e6-110">Data type:</span></span>  <br/> |<span data-ttu-id="f75e6-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f75e6-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="f75e6-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="f75e6-112">Area:</span></span>  <br/> |<span data-ttu-id="f75e6-113">MAPI courant</span><span class="sxs-lookup"><span data-stu-id="f75e6-113">MAPI common</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="95806-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="95806-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f75e6-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="f75e6-114">Remarks</span></span>
 
-<span data-ttu-id="95806-115">Ces propriétés sont subordonnées à la catégorie de formulaire principale fournie dans la propriété **PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="95806-115">These properties are subordinate to the main form category that is provided in the **PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)) property.</span></span> 
+<span data-ttu-id="f75e6-115">Ces propriétés sont subordonnées à la catégorie de formulaire principale fournie dans la **propriété PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="f75e6-115">These properties are subordinate to the main form category that is provided in the **PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)) property.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="95806-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="95806-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="f75e6-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="f75e6-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="95806-117">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="95806-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="f75e6-117">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="f75e6-117">Header files</span></span>
 
-<span data-ttu-id="95806-118">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="95806-118">Mapidefs.h</span></span>
+<span data-ttu-id="f75e6-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f75e6-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="95806-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="95806-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="f75e6-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="f75e6-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="95806-120">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="95806-120">Mapitags.h</span></span>
+<span data-ttu-id="f75e6-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="f75e6-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="95806-121">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="95806-121">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="f75e6-121">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="f75e6-121">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="95806-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="95806-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f75e6-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f75e6-122">See also</span></span>
 
 
 
-[<span data-ttu-id="95806-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="95806-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="f75e6-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="f75e6-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="95806-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="95806-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="f75e6-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="f75e6-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="95806-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="95806-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="f75e6-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="f75e6-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="95806-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="95806-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="f75e6-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="f75e6-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,18 +19,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433912"
 ---
-# <a name="smapiverbarray"></a><span data-ttu-id="4982c-103">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="4982c-103">SMAPIVerbArray</span></span>
+# <a name="smapiverbarray"></a><span data-ttu-id="8cb62-103">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="8cb62-103">SMAPIVerbArray</span></span>
 
   
   
-<span data-ttu-id="4982c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4982c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8cb62-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8cb62-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4982c-105">Contient un tableau de structures [SMAPIVerb](smapiverb.md) qui décrivent les verbes MAPI.</span><span class="sxs-lookup"><span data-stu-id="4982c-105">Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI verbs.</span></span> 
+<span data-ttu-id="8cb62-105">Contient un tableau de structures [SMAPIVerb](smapiverb.md) qui décrivent les verbes MAPI.</span><span class="sxs-lookup"><span data-stu-id="8cb62-105">Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI verbs.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4982c-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="4982c-106">Header file:</span></span>  <br/> |<span data-ttu-id="4982c-107">MAPIForm. h</span><span class="sxs-lookup"><span data-stu-id="4982c-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="4982c-108">Macro connexe:</span><span class="sxs-lookup"><span data-stu-id="4982c-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="4982c-109">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="4982c-109">CbMAPIVerbArray</span></span>](cbmapiverbarray.md) <br/> |
+|<span data-ttu-id="8cb62-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="8cb62-106">Header file:</span></span>  <br/> |<span data-ttu-id="8cb62-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="8cb62-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="8cb62-108">Macro associée :</span><span class="sxs-lookup"><span data-stu-id="8cb62-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="8cb62-109">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="8cb62-109">CbMAPIVerbArray</span></span>](cbmapiverbarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -41,26 +41,26 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="4982c-110">Members</span><span class="sxs-lookup"><span data-stu-id="4982c-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="8cb62-110">Members</span><span class="sxs-lookup"><span data-stu-id="8cb62-110">Members</span></span>
 
- <span data-ttu-id="4982c-111">**cForms**</span><span class="sxs-lookup"><span data-stu-id="4982c-111">**cForms**</span></span>
+ <span data-ttu-id="8cb62-111">**cForms**</span><span class="sxs-lookup"><span data-stu-id="8cb62-111">**cForms**</span></span>
   
-> <span data-ttu-id="4982c-112">Nombre de verbes dans le tableau.</span><span class="sxs-lookup"><span data-stu-id="4982c-112">Count of verbs in the array.</span></span>
+> <span data-ttu-id="8cb62-112">Nombre de verbes dans le tableau.</span><span class="sxs-lookup"><span data-stu-id="8cb62-112">Count of verbs in the array.</span></span>
     
- <span data-ttu-id="4982c-113">**aFormInfo**</span><span class="sxs-lookup"><span data-stu-id="4982c-113">**aFormInfo**</span></span>
+ <span data-ttu-id="8cb62-113">**aFormInfo**</span><span class="sxs-lookup"><span data-stu-id="8cb62-113">**aFormInfo**</span></span>
   
-> <span data-ttu-id="4982c-114">Tableau de verbes MAPI.</span><span class="sxs-lookup"><span data-stu-id="4982c-114">Array of MAPI verbs.</span></span>
+> <span data-ttu-id="8cb62-114">Tableau de verbes MAPI.</span><span class="sxs-lookup"><span data-stu-id="8cb62-114">Array of MAPI verbs.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4982c-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="4982c-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8cb62-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="8cb62-115">Remarks</span></span>
 
-<span data-ttu-id="4982c-116">La structure **SMAPIVerbArray** est transmise sous la forme d'un paramètre dans la méthode [IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md) .</span><span class="sxs-lookup"><span data-stu-id="4982c-116">The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) method.</span></span> 
+<span data-ttu-id="8cb62-116">La structure **SMAPIVerbArray** est transmise en tant que paramètre dans la méthode [IMAPIFormInfo::CalcVerbSet.](imapiforminfo-calcverbset.md)</span><span class="sxs-lookup"><span data-stu-id="8cb62-116">The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) method.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="4982c-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4982c-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8cb62-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8cb62-117">See also</span></span>
 
 
 
-[<span data-ttu-id="4982c-118">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="4982c-118">SMAPIVerb</span></span>](smapiverb.md)
+[<span data-ttu-id="8cb62-118">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="8cb62-118">SMAPIVerb</span></span>](smapiverb.md)
 
 
-[<span data-ttu-id="4982c-119">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="4982c-119">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="8cb62-119">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="8cb62-119">MAPI Structures</span></span>](mapi-structures.md)
 

@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431000"
 ---
-# <a name="iolkapptrebaserendrebaseappointments"></a><span data-ttu-id="0e30e-103">IOlkApptRebaser::EndRebaseAppointments</span><span class="sxs-lookup"><span data-stu-id="0e30e-103">IOlkApptRebaser::EndRebaseAppointments</span></span>
+# <a name="iolkapptrebaserendrebaseappointments"></a><span data-ttu-id="9277b-103">IOlkApptRebaser::EndRebaseAppointments</span><span class="sxs-lookup"><span data-stu-id="9277b-103">IOlkApptRebaser::EndRebaseAppointments</span></span>
 
-<span data-ttu-id="0e30e-104">Attend des rendez-vous pour terminer la relocalisation et récupère les résultats.</span><span class="sxs-lookup"><span data-stu-id="0e30e-104">Waits for appointment rebasing to complete and retrieves the results.</span></span>
+<span data-ttu-id="9277b-104">Attend des rendez-vous pour terminer la relocalisation et récupère les résultats.</span><span class="sxs-lookup"><span data-stu-id="9277b-104">Waits for appointment rebasing to complete and retrieves the results.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="0e30e-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="0e30e-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="9277b-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="9277b-105">Quick info</span></span>
 
-<span data-ttu-id="0e30e-106">Voir [IOlkApptRebaser](iolkapptrebaser.md).</span><span class="sxs-lookup"><span data-stu-id="0e30e-106">See [IOlkApptRebaser](iolkapptrebaser.md).</span></span>
+<span data-ttu-id="9277b-106">Voir [IOlkApptRebaser](iolkapptrebaser.md).</span><span class="sxs-lookup"><span data-stu-id="9277b-106">See [IOlkApptRebaser](iolkapptrebaser.md).</span></span>
   
 ```cpp
 HRESULT EndRebaseAppointments( 
@@ -28,21 +28,21 @@ HRESULT EndRebaseAppointments(
     HRESULT *phResult);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0e30e-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="0e30e-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9277b-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="9277b-107">Parameters</span></span>
 
-<span data-ttu-id="0e30e-108">_pContext_</span><span class="sxs-lookup"><span data-stu-id="0e30e-108">_pContext_</span></span>
+<span data-ttu-id="9277b-108">_pContext_</span><span class="sxs-lookup"><span data-stu-id="9277b-108">_pContext_</span></span>
   
-> <span data-ttu-id="0e30e-p101">[in] Obligatoire. Pointeur vers le contexte obtenu par un appel à [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span><span class="sxs-lookup"><span data-stu-id="0e30e-p101">[in] Required. A pointer to the context obtained from a call to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span></span>
+> <span data-ttu-id="9277b-p101">[in] Obligatoire. Pointeur vers le contexte obtenu par un appel à [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span><span class="sxs-lookup"><span data-stu-id="9277b-p101">[in] Required. A pointer to the context obtained from a call to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span></span>
     
-<span data-ttu-id="0e30e-111">_phResult_</span><span class="sxs-lookup"><span data-stu-id="0e30e-111">_phResult_</span></span>
+<span data-ttu-id="9277b-111">_phResult_</span><span class="sxs-lookup"><span data-stu-id="9277b-111">_phResult_</span></span>
   
-> <span data-ttu-id="0e30e-p102">[out] Obligatoire. Pointeur vers **HRESULT** pour extraire le résultat de l'opération de relocalisation.</span><span class="sxs-lookup"><span data-stu-id="0e30e-p102">[out] Required. A pointer to an **HRESULT** to retrieve the result of the rebasing operation.</span></span> 
+> <span data-ttu-id="9277b-p102">[out] Obligatoire. Pointeur vers **HRESULT** pour extraire le résultat de l'opération de relocalisation.</span><span class="sxs-lookup"><span data-stu-id="9277b-p102">[out] Required. A pointer to an **HRESULT** to retrieve the result of the rebasing operation.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="0e30e-114">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="0e30e-114">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9277b-114">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="9277b-114">Return values</span></span>
 
-<span data-ttu-id="0e30e-115">S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.</span><span class="sxs-lookup"><span data-stu-id="0e30e-115">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="9277b-115">S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.</span><span class="sxs-lookup"><span data-stu-id="9277b-115">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="0e30e-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0e30e-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9277b-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9277b-116">See also</span></span>
 
-- [<span data-ttu-id="0e30e-117">À propos de la relocalisation des calendriers par programme à l'heure</span><span class="sxs-lookup"><span data-stu-id="0e30e-117">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [<span data-ttu-id="9277b-117">À propos de la relocalisation des calendriers par programme à l'heure</span><span class="sxs-lookup"><span data-stu-id="9277b-117">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

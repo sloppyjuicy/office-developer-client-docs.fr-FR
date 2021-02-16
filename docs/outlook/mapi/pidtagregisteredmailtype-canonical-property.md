@@ -19,42 +19,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429522"
 ---
-# <a name="pidtagregisteredmailtype-canonical-property"></a><span data-ttu-id="78d96-103">Propriété canonique PidTagRegisteredMailType</span><span class="sxs-lookup"><span data-stu-id="78d96-103">PidTagRegisteredMailType Canonical Property</span></span>
+# <a name="pidtagregisteredmailtype-canonical-property"></a><span data-ttu-id="be419-103">Propriété canonique PidTagRegisteredMailType</span><span class="sxs-lookup"><span data-stu-id="be419-103">PidTagRegisteredMailType Canonical Property</span></span>
 
   
   
-<span data-ttu-id="78d96-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="78d96-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="be419-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="be419-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="78d96-105">Cette propriété contient le type d'inscription utilisé pour la remise physique d'un message.</span><span class="sxs-lookup"><span data-stu-id="78d96-105">This property contains the type of registration used for physical delivery of a message.</span></span>
+<span data-ttu-id="be419-105">Cette propriété contient le type d’inscription utilisé pour la remise physique d’un message.</span><span class="sxs-lookup"><span data-stu-id="be419-105">This property contains the type of registration used for physical delivery of a message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="78d96-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="78d96-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="78d96-107">PR_REGISTERED_MAIL_TYPE</span><span class="sxs-lookup"><span data-stu-id="78d96-107">PR_REGISTERED_MAIL_TYPE</span></span>  <br/> |
-|<span data-ttu-id="78d96-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="78d96-108">Identifier:</span></span>  <br/> |<span data-ttu-id="78d96-109">0x0C16</span><span class="sxs-lookup"><span data-stu-id="78d96-109">0x0C16</span></span>  <br/> |
-|<span data-ttu-id="78d96-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="78d96-110">Data type:</span></span>  <br/> |<span data-ttu-id="78d96-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="78d96-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="78d96-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="78d96-112">Area:</span></span>  <br/> |<span data-ttu-id="78d96-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="78d96-113">MAPI Recipient</span></span>  <br/> |
+|<span data-ttu-id="be419-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="be419-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="be419-107">PR_REGISTERED_MAIL_TYPE</span><span class="sxs-lookup"><span data-stu-id="be419-107">PR_REGISTERED_MAIL_TYPE</span></span>  <br/> |
+|<span data-ttu-id="be419-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="be419-108">Identifier:</span></span>  <br/> |<span data-ttu-id="be419-109">0x0C16</span><span class="sxs-lookup"><span data-stu-id="be419-109">0x0C16</span></span>  <br/> |
+|<span data-ttu-id="be419-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="be419-110">Data type:</span></span>  <br/> |<span data-ttu-id="be419-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="be419-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="be419-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="be419-112">Area:</span></span>  <br/> |<span data-ttu-id="be419-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="be419-113">MAPI Recipient</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="78d96-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="78d96-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="be419-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="be419-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="78d96-115">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="78d96-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="be419-115">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="be419-115">Header files</span></span>
 
-<span data-ttu-id="78d96-116">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="78d96-116">Mapidefs.h</span></span>
+<span data-ttu-id="be419-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="be419-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="78d96-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="78d96-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="be419-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="be419-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="78d96-118">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="78d96-118">Mapitags.h</span></span>
+<span data-ttu-id="be419-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="be419-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="78d96-119">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="78d96-119">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="be419-119">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="be419-119">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="78d96-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="78d96-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="be419-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="be419-120">See also</span></span>
 
 
 
-[<span data-ttu-id="78d96-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="78d96-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="be419-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="be419-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="78d96-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="78d96-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="be419-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="be419-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="78d96-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="78d96-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="be419-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="be419-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="78d96-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="78d96-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="be419-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="be419-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,42 +19,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428864"
 ---
-# <a name="pidtagphysicalforwardingprohibited-canonical-property"></a><span data-ttu-id="21dbf-103">Propriété canonique PidTagPhysicalForwardingProhibited</span><span class="sxs-lookup"><span data-stu-id="21dbf-103">PidTagPhysicalForwardingProhibited Canonical Property</span></span>
+# <a name="pidtagphysicalforwardingprohibited-canonical-property"></a><span data-ttu-id="77939-103">Propriété canonique PidTagPhysicalForwardingProhibited</span><span class="sxs-lookup"><span data-stu-id="77939-103">PidTagPhysicalForwardingProhibited Canonical Property</span></span>
 
   
   
-<span data-ttu-id="21dbf-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="21dbf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="77939-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="77939-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="21dbf-105">Contient la valeur TRUE si un expéditeur de message interdit le transfert de messages physiques pour un destinataire spécifique.</span><span class="sxs-lookup"><span data-stu-id="21dbf-105">Contains TRUE if a message sender prohibits physical message forwarding for a specific recipient.</span></span>
+<span data-ttu-id="77939-105">Contient TRUE si un expéditeur de message interdit le forwarding de messages physiques pour un destinataire spécifique.</span><span class="sxs-lookup"><span data-stu-id="77939-105">Contains TRUE if a message sender prohibits physical message forwarding for a specific recipient.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="21dbf-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="21dbf-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="21dbf-107">PR_PHYSICAL_FORWARDING_PROHIBITED</span><span class="sxs-lookup"><span data-stu-id="21dbf-107">PR_PHYSICAL_FORWARDING_PROHIBITED</span></span>  <br/> |
-|<span data-ttu-id="21dbf-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="21dbf-108">Identifier:</span></span>  <br/> |<span data-ttu-id="21dbf-109">0x0C0F</span><span class="sxs-lookup"><span data-stu-id="21dbf-109">0x0C0F</span></span>  <br/> |
-|<span data-ttu-id="21dbf-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="21dbf-110">Data type:</span></span>  <br/> |<span data-ttu-id="21dbf-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="21dbf-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="21dbf-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="21dbf-112">Area:</span></span>  <br/> |<span data-ttu-id="21dbf-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="21dbf-113">MAPI Recipient</span></span>  <br/> |
+|<span data-ttu-id="77939-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="77939-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="77939-107">PR_PHYSICAL_FORWARDING_PROHIBITED</span><span class="sxs-lookup"><span data-stu-id="77939-107">PR_PHYSICAL_FORWARDING_PROHIBITED</span></span>  <br/> |
+|<span data-ttu-id="77939-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="77939-108">Identifier:</span></span>  <br/> |<span data-ttu-id="77939-109">0x0C0F</span><span class="sxs-lookup"><span data-stu-id="77939-109">0x0C0F</span></span>  <br/> |
+|<span data-ttu-id="77939-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="77939-110">Data type:</span></span>  <br/> |<span data-ttu-id="77939-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="77939-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="77939-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="77939-112">Area:</span></span>  <br/> |<span data-ttu-id="77939-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="77939-113">MAPI Recipient</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="21dbf-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="21dbf-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="77939-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="77939-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="21dbf-115">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="21dbf-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="77939-115">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="77939-115">Header files</span></span>
 
-<span data-ttu-id="21dbf-116">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="21dbf-116">Mapidefs.h</span></span>
+<span data-ttu-id="77939-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="77939-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="21dbf-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="21dbf-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="77939-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="77939-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="21dbf-118">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="21dbf-118">Mapitags.h</span></span>
+<span data-ttu-id="77939-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="77939-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="21dbf-119">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="21dbf-119">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="77939-119">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="77939-119">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="21dbf-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="21dbf-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="77939-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="77939-120">See also</span></span>
 
 
 
-[<span data-ttu-id="21dbf-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="21dbf-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="77939-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="77939-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="21dbf-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="21dbf-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="77939-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="77939-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="21dbf-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="21dbf-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="77939-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="77939-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="21dbf-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="21dbf-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="77939-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="77939-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

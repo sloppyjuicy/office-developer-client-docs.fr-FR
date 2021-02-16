@@ -19,42 +19,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431126"
 ---
-# <a name="pidtagphysicaldeliveryreportrequest-canonical-property"></a><span data-ttu-id="1331b-103">Propriété canonique PidTagPhysicalDeliveryReportRequest</span><span class="sxs-lookup"><span data-stu-id="1331b-103">PidTagPhysicalDeliveryReportRequest Canonical Property</span></span>
+# <a name="pidtagphysicaldeliveryreportrequest-canonical-property"></a><span data-ttu-id="97406-103">Propriété canonique PidTagPhysicalDeliveryReportRequest</span><span class="sxs-lookup"><span data-stu-id="97406-103">PidTagPhysicalDeliveryReportRequest Canonical Property</span></span>
 
   
   
-<span data-ttu-id="1331b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1331b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="97406-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="97406-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1331b-105">Contient le mode d'un rapport à remettre à un destinataire de message donné à la fin de la remise ou de la remise d'un message physique par le système de gestion des messages.</span><span class="sxs-lookup"><span data-stu-id="1331b-105">Contains the mode of a report to be delivered to a particular message recipient upon completion of physical message delivery or delivery by the message handling system.</span></span>
+<span data-ttu-id="97406-105">Contient le mode d’un état à remettre à un destinataire de message particulier à la fin de la remise ou de la remise des messages physiques par le système de gestion des messages.</span><span class="sxs-lookup"><span data-stu-id="97406-105">Contains the mode of a report to be delivered to a particular message recipient upon completion of physical message delivery or delivery by the message handling system.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1331b-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="1331b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1331b-107">PR_PHYSICAL_DELIVERY_REPORT_REQUEST</span><span class="sxs-lookup"><span data-stu-id="1331b-107">PR_PHYSICAL_DELIVERY_REPORT_REQUEST</span></span>  <br/> |
-|<span data-ttu-id="1331b-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="1331b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1331b-109">0x0C0C</span><span class="sxs-lookup"><span data-stu-id="1331b-109">0x0C0C</span></span>  <br/> |
-|<span data-ttu-id="1331b-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="1331b-110">Data type:</span></span>  <br/> |<span data-ttu-id="1331b-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="1331b-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="1331b-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="1331b-112">Area:</span></span>  <br/> |<span data-ttu-id="1331b-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="1331b-113">MAPI recipient</span></span>  <br/> |
+|<span data-ttu-id="97406-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="97406-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="97406-107">PR_PHYSICAL_DELIVERY_REPORT_REQUEST</span><span class="sxs-lookup"><span data-stu-id="97406-107">PR_PHYSICAL_DELIVERY_REPORT_REQUEST</span></span>  <br/> |
+|<span data-ttu-id="97406-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="97406-108">Identifier:</span></span>  <br/> |<span data-ttu-id="97406-109">0x0C0C</span><span class="sxs-lookup"><span data-stu-id="97406-109">0x0C0C</span></span>  <br/> |
+|<span data-ttu-id="97406-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="97406-110">Data type:</span></span>  <br/> |<span data-ttu-id="97406-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="97406-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="97406-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="97406-112">Area:</span></span>  <br/> |<span data-ttu-id="97406-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="97406-113">MAPI recipient</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="1331b-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="1331b-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="97406-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="97406-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="1331b-115">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="1331b-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="97406-115">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="97406-115">Header files</span></span>
 
-<span data-ttu-id="1331b-116">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="1331b-116">Mapidefs.h</span></span>
+<span data-ttu-id="97406-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="97406-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="1331b-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="1331b-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="97406-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="97406-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="1331b-118">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="1331b-118">Mapitags.h</span></span>
+<span data-ttu-id="97406-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="97406-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="1331b-119">Contient les définitions des propriétés indiquées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="1331b-119">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="97406-119">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="97406-119">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="1331b-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1331b-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="97406-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="97406-120">See also</span></span>
 
 
 
-[<span data-ttu-id="1331b-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="1331b-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="97406-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="97406-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="1331b-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="1331b-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="97406-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="97406-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="1331b-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="1331b-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="97406-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="97406-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="1331b-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="1331b-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="97406-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="97406-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

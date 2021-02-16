@@ -1,5 +1,5 @@
 ---
-title: DANS (application Web personnalisée Access)
+title: IN (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,21 +14,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430209"
 ---
-# <a name="in-access-custom-web-app"></a><span data-ttu-id="4d1d3-103">DANS (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="4d1d3-103">IN (Access custom web app)</span></span>
+# <a name="in-access-custom-web-app"></a><span data-ttu-id="00ee0-103">IN (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="00ee0-103">IN (Access custom web app)</span></span>
 
-<span data-ttu-id="4d1d3-104">Détermine si une valeur spécifiée correspond à une valeur dans une liste.</span><span class="sxs-lookup"><span data-stu-id="4d1d3-104">Determines whether a specified value matches any value in a list.</span></span>
+<span data-ttu-id="00ee0-104">Détermine si une valeur spécifiée correspond à une valeur dans une liste.</span><span class="sxs-lookup"><span data-stu-id="00ee0-104">Determines whether a specified value matches any value in a list.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="4d1d3-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="4d1d3-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="00ee0-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="00ee0-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="4d1d3-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4d1d3-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="00ee0-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="00ee0-107">Syntax</span></span>
 
- <span data-ttu-id="4d1d3-108">*expression* **Dans** le (*expression* [,... n])</span><span class="sxs-lookup"><span data-stu-id="4d1d3-108">*expression* **IN** (*expression*  [ ,...n ])</span></span> 
+ <span data-ttu-id="00ee0-108">*expression* **IN** (*expression*  [ ,... n ])</span><span class="sxs-lookup"><span data-stu-id="00ee0-108">*expression* **IN** (*expression*  [ ,...n ])</span></span> 
   
- <span data-ttu-id="4d1d3-109">*expression*  représente toute expression valide.</span><span class="sxs-lookup"><span data-stu-id="4d1d3-109">*expression*  Is any valid expression.</span></span> <span data-ttu-id="4d1d3-110">Les deux expressions doivent avoir des types de données implicitement convertibles.</span><span class="sxs-lookup"><span data-stu-id="4d1d3-110">Both expressions must have implicitly convertible data types.</span></span> <span data-ttu-id="4d1d3-111">La conversion varie en fonction des règles de priorité des types de données.</span><span class="sxs-lookup"><span data-stu-id="4d1d3-111">The conversion depends on the rules of data type precedence.</span></span> 
+ <span data-ttu-id="00ee0-109">*expression*  représente toute expression valide.</span><span class="sxs-lookup"><span data-stu-id="00ee0-109">*expression*  Is any valid expression.</span></span> <span data-ttu-id="00ee0-110">Les deux expressions doivent avoir des types de données implicitement convertibles.</span><span class="sxs-lookup"><span data-stu-id="00ee0-110">Both expressions must have implicitly convertible data types.</span></span> <span data-ttu-id="00ee0-111">La conversion varie en fonction des règles de priorité des types de données.</span><span class="sxs-lookup"><span data-stu-id="00ee0-111">The conversion depends on the rules of data type precedence.</span></span> 
   
-## <a name="return-type"></a><span data-ttu-id="4d1d3-112">Type renvoyé</span><span class="sxs-lookup"><span data-stu-id="4d1d3-112">Return Type</span></span>
+## <a name="return-type"></a><span data-ttu-id="00ee0-112">Type renvoyé</span><span class="sxs-lookup"><span data-stu-id="00ee0-112">Return Type</span></span>
 
- <span data-ttu-id="4d1d3-113">**Booléen**</span><span class="sxs-lookup"><span data-stu-id="4d1d3-113">**Boolean**</span></span>
+ <span data-ttu-id="00ee0-113">**Booléen**</span><span class="sxs-lookup"><span data-stu-id="00ee0-113">**Boolean**</span></span>
   
 
