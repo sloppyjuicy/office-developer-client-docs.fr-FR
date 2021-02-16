@@ -25,7 +25,7 @@ ms.locfileid: "33421738"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit l'état actuel d'un objet hors connexion sur en ligne ou hors connexion.
+Définit l’état actuel d’un objet hors connexion sur en ligne ou hors connexion.
   
 ```cpp
 HRESULT SetCurrentState( 
@@ -40,23 +40,23 @@ HRESULT SetCurrentState(
 
  _ulFlags_
   
-> dans Modifie le comportement de cet appel. Les valeurs prises en charge sont les suivantes :
+> [in] Modifie le comportement de cet appel. Les valeurs prises en charge sont les suivantes :
     
 MAPIOFFLINE_FLAG_BLOCK
   
-> Le fait de définir _ulFlags_ sur cette valeur bloque l'appel **SetCurrentState** jusqu'à ce que le changement d'État soit terminé. Par défaut, la transition a lieu de manière asynchrone. Lorsque la transition se produit de manière asynchrone, tous les appels **SetCurrentState** renvoient **E_PENDING** jusqu'à la fin de la modification. 
+> Si  _vous définissez ulFlags_ sur cette valeur, l’appel **SetCurrentState** est bloqué jusqu’à ce que le changement d’état soit terminé. Par défaut, la transition a lieu de manière asynchrone. Lorsque la transition se produit de manière asynchrone,  tous les appels **SetCurrentState** sont E_PENDING jusqu’à ce que la modification soit terminée. 
     
 MAPIOFFLINE_FLAG_DEFAULT
   
-> Définit l'état actuel sans blocage.
+> Définit l’état actuel sans blocage.
     
  _ulMask_
   
-> dans Partie de l'État à modifier. La seule valeur prise en charge est MAPIOFFLINE_STATE_OFFLINE_MASK.
+> [in] Partie de l’état à modifier. La seule valeur prise en charge est MAPIOFFLINE_STATE_OFFLINE_MASK.
     
  _ulState_
   
-> dans État à modifier. Il doit s'agir de l'une des deux valeurs suivantes:
+> [in] État à modifier. Elle doit être l’une des deux valeurs ci-après :
     
 MAPIOFFLINE_STATE_ONLINE
   
@@ -66,19 +66,19 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > 
     
- _Disparition_
+ _pReserved_
   
-> Ce paramètre est réservé à un usage interne d'Outlook et n'est pas pris en charge. 
+> Ce paramètre est réservé à un usage interne à Outlook et n’est pas pris en charge. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> L'état de l'objet hors connexion a été modifié.
+> L’état de l’objet hors connexion a été modifié avec succès.
     
 E_PENDING
   
-> Cela indique que l'état de l'objet hors connexion est modifié de manière asynchrone. Cela se produit lorsque _ulFlags_ est défini sur MAPIOFFLINE_FLAG_BLOCK dans un appel de **SetCurrentState** précédent et que tout appel ultérieur de **SetCurrentState** renverra cette valeur jusqu'à ce que le changement d'état asynchrone soit terminé. 
+> Cela indique que l’état de l’objet hors connexion change de manière asynchrone. Cela se produit lorsque  _ulFlags_ est définie sur MAPIOFFLINE_FLAG_BLOCK dans un appel **SetCurrentState** précédent et que tout appel **SetCurrentState** ultérieur retourne cette valeur jusqu’à ce que la modification de l’état asynchrone soit terminée. 
     
 ## <a name="see-also"></a>Voir aussi
 

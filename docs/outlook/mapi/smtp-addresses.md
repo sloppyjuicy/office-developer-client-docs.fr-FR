@@ -21,28 +21,28 @@ ms.locfileid: "33419624"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le format des adresses de messagerie SMTP est défini dans la norme RFC 822. Les composants MAPI doivent gérer toute adresse conforme à cette norme. Toutefois, il existe une forme particulière d'adresse RFC 822 qui code le mieux pour les adresses MAPI:
+Le format des adresses de messagerie SMTP est défini dans la RFC 822. Les composants MAPI doivent gérer n’importe quelle adresse conforme à cette norme. Toutefois, il existe une forme particulière d’adresse RFC 822 qui code le mieux les adresses MAPI :
   
- _nom d'affichage_ **\<** _adresse de messagerie_**\>**
+ _display-name_ **\<** _email-address_**\>**
   
-Les chevrons sont inclus sous forme de littéraux. Les espaces sont courants dans les noms d'affichage; ils n'ont pas besoin d'être cités. Une adresse classique peut ressembler à celle-ci, qui appartient à l'un des coauteurs de la norme RFC 1521:
+Les crochets sont inclus en tant que littéraux. Les espaces vides sont courants dans les noms d’affichage ; Ils n’ont pas besoin d’être entre eux. Une adresse type peut ressembler à celle-ci, qui appartient à l’un des co-auteurs de la RFC 1521 :
   
-Nathaniel Borenstein \<NSB@bellcore.com\>
+Nsb@bellcore.com \<\>
   
-Si le nom d'affichage contient des caractères qui ont une signification particulière dans des adresses \< SMTP, par exemple, ou @, l'intégralité du nom complet doit être placée entre guillemets doubles. Pour le courrier sortant, si la longueur totale de l'adresse de messagerie et du nom d'affichage dépasse 255 caractères, le nom d'affichage doit être supprimé.
+Si le nom complet contient des caractères qui ont une signification spéciale dans les adresses SMTP, telles que @, le nom complet doit être entre \< guillemets doubles. Sur le courrier sortant, si la longueur totale de l’adresse de messagerie et du nom complet dépasse 255 caractères, le nom complet doit être supprimé.
   
-Les parties d'une adresse SMTP sont mappées aux propriétés MAPI de la manière suivante:
+Les composants d’une adresse SMTP sont mappés dans les propriétés MAPI comme suit :
   
-|**Composant d'adresse SMTP**|**Propriété MAPI**|
+|**Composant d’adresse SMTP**|**Propriété MAPI**|
 |:-----|:-----|
-| _nom d'affichage_ de tous les destinataires  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
-| _nom d'affichage_ du champ de  <br/> |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
-| _nom d'affichage_ du champ sender  <br/> |**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |
-| _adresse de messagerie_ <br/> |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |
-|implicite, Always "SMTP"  <br/> |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |
+| _nom complet de_ tous les destinataires  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
+| _nom complet du_ champ De  <br/> |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
+| _nom complet du_ champ Expéditeur  <br/> |**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |
+| _email-address_ <br/> |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |
+|implicite, toujours « SMTP »  <br/> |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |
    
-S'il n'existe pas de nom d'affichage pour une adresse sur le courrier entrant, l'adresse de messagerie complète doit être utilisée à la place. Le type d'adresse est toujours SMTP.
+S’il n’existe pas de nom complet pour une adresse sur le courrier entrant, l’adresse e-mail entière doit être utilisée à la place. Le type d’adresse est toujours SMTP.
   
-Les propriétés de destinataire sont extraites de la table de destinataires du message MAPI; les propriétés des expéditeurs sont extraites du message lui-même.
+Les propriétés du destinataire sont tirées de la table des destinataires du message MAPI . les propriétés de l’expéditeur sont tirées du message lui-même.
   
 

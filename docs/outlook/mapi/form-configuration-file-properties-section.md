@@ -1,5 +1,5 @@
 ---
-title: Section [propriétés] du fichier de configuration de formulaire
+title: Section Fichier de configuration de formulaire [Propriétés]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,45 +15,45 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421290"
 ---
-# <a name="form-configuration-file-properties-section"></a>Section [propriétés] du fichier de configuration de formulaire
+# <a name="form-configuration-file-properties-section"></a>Section Fichier de configuration de formulaire [Propriétés]
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[Properties]** répertorie l'ensemble complet des propriétés que le formulaire utilise et publie; autrement dit, les propriétés qu'il crée dans ses messages personnalisés que les applications clientes MAPI peuvent utiliser lors de l'affichage des colonnes, du filtrage des tables de contenu, de la configuration des dossiers de résultats de recherche, etc. Chaque entrée de cette liste de propriétés fait référence à une **propriété suivante.** _String (chaîne_ ) **]** , comme illustré ci-dessous. 
+La section **[Propriétés]** répertorie l’ensemble complet des propriétés que le formulaire utilise et publie ; autrement dit, les propriétés qu’elle crée dans ses messages personnalisés que les applications clientes MAPI peuvent utiliser lors de l’affichage des colonnes, du filtrage des tables des matières, de la configuration de dossiers de résultats de recherche, etc. Chaque entrée de cette liste de propriétés fait référence à une **autre [Propriété.** _section_ **de chaîne ]** comme illustré ci-après. 
   
- **Propriétés**
+ **[Propriétés]**
   
- **Inspecteur.** __ =  _chaîne_ de chaîne
+ **Propriété.** _string_  =   _string_
   
-Format d'une propriété [ **.** _chaîne_] la section est la suivante: 
+Format d’un [ **Propriété.** _string_] est la suivante : 
   
- **Inspecteur.** _String (chaîne_ ) **]**
+ **[Propriété.** _string_ **]**
   
- **Type** =  _entier_
+ **Type**  =   _integer_
   
- **** =  _GUID_ NmidPropset
+ **NmidPropset**  =   _guid_
   
- **** =  _Chaîne_ NmidString
+ **NmidString**  =   _string_
   
- **** =  _Entier_ NmidInteger
+ **NmidInteger**  =   _integer_
   
- **** =  _Chaîne_ DisplayName
+ **DisplayName**  =   _string_
   
- **Indicateurs** =  de_nombre entier_
+ **Indicateurs**  =   _integer_
   
- **SpecialType** = 0 | 1 
+ **SpecialType** = 0|1 
   
- **** =  _Chaîne_ Enum1
+ **Enum1**  =   _string_
   
-Each **[Property.** _String (chaîne_ ) **]** décrit une propriété unique. L'entrée **type** spécifie le type de propriété MAPI, par exemple 3 (PT_I4), de la propriété. L'entrée **NmidPropset** est facultative; avec l'entrée **NmidString** ou l'entrée **NmidInteger** , l'entrée **NmidPropset** indique le nom de la propriété. **NmidString** indique le nom de la propriété, tandis que **NmidInteger** renvoie l'identificateur de la propriété. **NmidString** et **NmidInteger** s'excluent mutuellement. 
+Chaque **[Propriété.** _section_ **]** décrit une seule propriété. **L’entrée** Type spécifie le type de propriété MAPI, par exemple 3 (PT_I4), de la propriété. **L’entrée NmidPropset** est facultative . avec l’entrée **NmidString** ou **NmidInteger,** l’entrée **NmidPropset** donne le nom de la propriété. **NmidString** donne le nom de la propriété, tandis que **NmidInteger** donne l’identificateur de la propriété. **NmidString et** **NmidInteger** s’excluent mutuellement. 
   
-S'il est défini, **NmidPropset** doit contenir le nom du jeu de propriétés; Si elle est absente, **NmidPropset** est défini sur une valeur par défaut basée sur la règle suivante: si **NmidInteger** est présent et que sa valeur est inférieure à 0x8000, **NmidPropset** est défini sur PS_MAPI. Si la valeur de **NmidInteger** est définie sur un entier supérieur à 0x8000 ou si elle est absente, **NmidPropset** est défini sur PS_PUBLIC_STRINGS. 
+S’il est définie, **NmidPropset** doit contenir le nom du jeu de propriétés ; En cas d’absence, **NmidPropset** est définie sur une valeur par défaut basée sur la règle suivante : si **NmidInteger** est présent et que sa valeur est inférieure à 0x8000, **NmidPropset** est définie sur PS_MAPI. Si la valeur de **NmidInteger** est définie sur un nombre inférieur à 0x8000 ou si elle est absente, **NmidPropset** est définie sur PS_PUBLIC_STRINGS. 
   
-L'entrée **DisplayName** contient l'étiquette de la propriété. L'entrée **SpecialType** , si elle est présente et différente de zéro, indique que cette propriété est une propriété spéciale. Actuellement, le seul type de propriété spéciale défini est **SpecialType** = 1, qui indique les propriétés énumérées de la chaîne. Si **SpecialType** est défini sur 1, l'entrée **Enum1** fait référence à **[Enum1.** _String (chaîne_ ) **]** . 
+**L’entrée DisplayName** contient l’étiquette de la propriété. **L’entrée SpecialType,** si elle est présente et non zéro, indique que cette propriété est une propriété spéciale. Pour l’instant, le seul type de propriété spécial défini est **SpecialType** = 1, qui indique les propriétés d’une chaîne. Si **SpecialType** est définie sur 1, l’entrée **Enum1** fait référence à **[Enum1.** _string_ **]** section. 
   
-Voici un exemple de section **[Properties]** et a **[Properties].** _String (chaîne_ ) **]** . 
+Voici un exemple de section **[Propriétés]** et **de [Propriétés.** _string_ **]** section. 
   
 ```cpp
 [Properties]
@@ -69,23 +69,23 @@ Enum1 = HazardEnum
 
 ```
 
-L'entrée **Enum1** dans l'exemple précédent fait référence à une nouvelle **[Enum1.** _String (chaîne_ ) **]** section décrivant une énumération d'un type particulier. Une telle énumération associe la première propriété de la **propriété [Property.** _String (chaîne_ ) **]** avec une propriété de type Integer, appelée index. Une telle énumération contient également une liste des valeurs possibles que la paire d'index d'affichage peut supposer. La spécification d'un type de propriété pour l'énumération n'est pas nécessaire, car par définition une entrée **Enum1** a toujours le type PT_I4. Format du **[Enum1.** _String (chaîne_ ) **]** est la suivante: 
+**L’entrée Enum1** dans l’exemple de précédation fait référence à une **autre [Enum1.** _section_ **de chaîne ]** décrivant une éumération d’un type particulier. Une telle éumération associe la première propriété de **[Property.** _section_ **de chaîne ]** avec une propriété de l’ensemble, appelée index. Cette énumération contient également une liste des valeurs possibles que la paire d’index d’affichage peut supposer. Il n’est pas nécessaire de spécifier un type de propriété pour l’PT_I4 car, par définition, une entrée **Enum1** a toujours le type PT_I4. Format de **[Enum1.** _la_ section **string ]** est la suivante : 
   
- **[Enum1.** _String (chaîne_ ) **]**
+ **[Enum1.** _string_ **]**
   
- **** =  _GUID_ NmidPropset
+ **NmidPropset**  =   _guid_
   
- **** =  _Chaîne_ NmidString
+ **NmidString**  =   _string_
   
- **** =  _Entier_ NmidInteger
+ **NmidInteger**  =   _integer_
   
- **** =  _Entier_ EnumCount
+ **EnumCount**  =   _integer_
   
- **Val.** _nombre entier_ **. ** =  _Chaîne_ d'affichage
+ **Val.** _integer_ **. Chaîne d’affichage**  =   
   
- **Val.** _nombre entier_ **. ** =  _Entier_ de l'index
+ **Val.** _integer_ **.**  =   _Integer d’index_
   
-Vous trouverez ci-dessous un exemple de définition de propriété pour une propriété énumérée nommée risque d'incendie, avec les valeurs possibles: faible, moyen et élevé.
+Voici un exemple de définition de propriété pour une propriété éumée nommée Fire Danger avec des valeurs possibles de Low, Medium et High.
   
 ```cpp
 [Properties]
@@ -103,6 +103,6 @@ Val.3.Index = 3
 
 ```
 
- **[Enum1.** _String (chaîne_ ) **]** les sections peuvent être utilisées par les applications à deux fins: accélérer le filtrage des propriétés à l'aide de l'index au lieu de la chaîne et trier selon un ordre différent de l'ordre alphanumérique des valeurs de la chaîne. Par exemple, le tri peut être réalisé en fonction de la commande à faible-moyen-haut au lieu de la commande haut-moyen-bas. 
+ **[Enum1.**  les sections de chaîne **]** peuvent être utilisées par les applications à deux fins : pour accélérer le filtrage des propriétés à l’aide de l’index au lieu de la chaîne et pour trier dans un ordre différent de l’ordre alphanumérique des valeurs de chaîne. Par exemple, le tri peut être effectué en fonction de l’ordre faible-moyen-élevé au lieu de l’ordre Élevé-Moyen-Bas. 
   
 

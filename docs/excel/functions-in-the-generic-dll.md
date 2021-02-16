@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- dll générique [Excel 2007], fonctions, fonctions [Excel 2007], DLL générique
+- generic dll [excel 2007], functions,functions [Excel 2007], Generic DLL
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -20,23 +20,23 @@ ms.locfileid: "33420597"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Le dossier `\EXAMPLES\GENERIC\` contient les fichiers de projet Microsoft Visual Studio et les fichiers de code source nécessaires à la compilation de l'exemple de dll Generic. XLL. Vous pouvez utiliser ce projet comme modèle pour écrire vos propres XLL Microsoft Excel. Le code source de ce projet illustre de nombreuses fonctionnalités de l'API C Excel. 
+Le dossier contient les fichiers Visual Studio projet Microsoft et les fichiers de code source nécessaires pour compiler l’exemple  `\EXAMPLES\GENERIC\` DLL GENERIC.xll. Vous pouvez utiliser ce projet comme modèle pour écrire vos propres XL Microsoft Excel. Le code source de ce projet illustre de nombreuses fonctionnalités de l’API C Excel. 
   
-Lorsque vous chargez GENERIC. xll, il crée un menu **générique** avec quatre commandes: 
+Lorsque vous chargez GENERIC.xll, il crée un menu **générique** avec quatre commandes : 
   
-- **Boîte de dialogue** -affiche une boîte de dialogue Microsoft Excel. 
+- **Boîte de** dialogue : affiche une boîte de dialogue Microsoft Excel. 
     
-- **Danse** : déplace la sélection jusqu'à ce que vous appuyiez sur la touche **Échap** . 
+- **Dépôt** : déplace la sélection jusqu’à ce que vous appuyiez sur la **touche ÉCHAP.** 
     
-- **Boîte de dialogue Native** : affiche une boîte de dialogue Windows. 
+- **Boîte de dialogue native** : affiche une boîte de dialogue Windows. 
     
-- **Exit** -décharge Generic. XLL et supprime le menu **générique** . 
+- **Exit** : décharge GENERIC.xll et supprime le menu **générique.** 
     
-GENERIC. xll fournit également trois fonctions de feuille de calcul, func1, FuncSum et FuncFib, qui peuvent être utilisées chaque fois que GENERIC. xll est chargé. GENERIC. xll peut être chargé à l'aide du gestionnaire de compléments ou il est chargé s'il était actif à l'extrémité normale de la dernière session Excel.
+GENERIC.xll fournit également trois fonctions de feuille de calcul, Func1, FuncSum et FuncFib, qui peuvent être utilisées chaque fois que GENERIC.xll est chargé. GENERIC.xll peut être chargé à l’aide du Gestionnaire de modules, ou il est chargé s’il était actif à la fin normale de la dernière session Excel.
   
-Ce projet utilise la bibliothèque d'infrastructure (FRMWRK32. lib).
+Ce projet utilise la bibliothèque d’infrastructure (FRMWRK32.lib).
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 [DIALOGMsgProc](dialogmsgproc.md)
   

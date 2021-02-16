@@ -25,7 +25,7 @@ ms.locfileid: "33422186"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Reconfigure un service de messagerie.
+Reconfigure un service de message.
   
 ```cpp
 HRESULT ConfigureMsgService(
@@ -41,75 +41,75 @@ HRESULT ConfigureMsgService(
 
  _lpUID_
   
-> dans Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l'identificateur unique pour le service de messagerie à configurer. 
+> [in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique du service de message à configurer. 
     
  _ulUIParam_
   
-> dans Handle de la fenêtre parente de la feuille de propriétés de configuration.
+> [in] Poignée vers la fenêtre parente de la feuille des propriétés de configuration.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle l'affichage de la feuille de propriétés. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle l’affichage de la feuille des propriétés. Les indicateurs suivants peuvent être définies :
     
 MAPI_UNICODE 
   
-> Les chaînes transmises sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
+> Les chaînes transmises sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
 MSG_SERVICE_UI_READ_ONLY 
   
-> Le service de messagerie doit afficher sa feuille de propriétés de configuration mais ne pas permettre à l'utilisateur de le modifier. La plupart des services de messagerie ignorent cet indicateur.
+> Le service de message doit afficher sa feuille de propriétés de configuration, mais ne pas permettre à l’utilisateur de la modifier. La plupart des services de message ignorent cet indicateur.
     
 SERVICE_UI_ALLOWED 
   
-> Le service de messagerie doit afficher sa feuille de propriétés de configuration uniquement si le service n'est pas entièrement configuré.
+> Le service de message doit afficher sa feuille de propriétés de configuration uniquement si le service n’est pas entièrement configuré.
     
 SERVICE_UI_ALWAYS 
   
-> Le service de messagerie doit toujours afficher sa feuille de propriétés de configuration. Si SERVICE_UI_ALWAYS n'est pas défini, une feuille de propriétés de configuration peut toujours être affichée si SERVICE_UI_ALLOWED est défini et que des informations de configuration valides ne sont pas disponibles à partir du tableau de valeurs de propriété dans le paramètre _lpProps_ . SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS doit être défini pour qu'une feuille de propriétés s'affiche. 
+> Le service de message doit toujours afficher sa feuille de propriétés de configuration. Si SERVICE_UI_ALWAYS n’est pas définie, une feuille des propriétés de configuration peut toujours être affichée si SERVICE_UI_ALLOWED est définie et que les informations de configuration valides ne sont pas disponibles à partir du tableau des valeurs de propriété dans le paramètre _lpProps._ Les SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS doivent être définies pour qu’une feuille de propriétés s’affiche. 
     
  _cValues_
   
-> dans Nombre de valeurs de propriété dans la structure [SPropValue](spropvalue.md) vers laquelle pointe le _lpProps_. 
+> [in] Nombre de valeurs de propriété dans la structure [SPropValue](spropvalue.md) pointée par  _lpProps_. 
     
  _lpProps_
   
-> dans Pointeur vers un tableau de valeurs de propriété qui décrivent les propriétés à afficher dans la feuille des propriétés. Le paramètre _lpProps_ ne doit pas être null si le service de messagerie doit être configuré sans interface utilisateur. 
+> [in] Pointeur vers un tableau de valeurs de propriété qui décrivent les propriétés à afficher dans la feuille des propriétés. Le  _paramètre lpProps_ ne doit pas être NULL si le service de message doit être configuré sans interface utilisateur. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le service de messagerie a été correctement configuré.
+> Le service de message a été configuré avec succès.
     
 MAPI_E_EXTENDED_ERROR 
   
-> Erreur spécifique à un service de messagerie. Pour obtenir la structure [MAPIERROR](mapierror.md) qui décrit l'erreur, l'application cliente doit appeler la méthode [IMsgServiceAdmin:: GetLastError](imsgserviceadmin-getlasterror.md) . 
+> Erreur spécifique à un service de message. Pour obtenir la structure [MAPIERROR](mapierror.md) qui décrit l’erreur, l’application cliente doit appeler la méthode [IMsgServiceAdmin::GetLastError.](imsgserviceadmin-getlasterror.md) 
     
 MAPI_E_NOT_FOUND 
   
-> Le **MAPIUID** pointé par _lpUID_ ne correspond pas à celui d'un service de messagerie existant. 
+> Le **MAPIUID pointé** par  _lpUID_ ne correspond pas à celui d’un service de message existant. 
     
 MAPI_E_NOT_INITIALIZED 
   
-> Le service de messagerie n'a pas de fonction de point d'entrée.
+> Le service de message n’a pas de fonction de point d’entrée.
     
 MAPI_E_USER_CANCEL 
   
-> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** dans la feuille des propriétés. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler** dans la feuille des propriétés. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin:: ConfigureMsgService** permet de configurer un service de messagerie, avec ou sans feuille de propriétés de configuration. 
+La **méthode IMsgServiceAdmin::ConfigureMsgService** permet de configurer un service de message, avec ou sans feuille de propriétés de configuration. 
   
-Pour autoriser la configuration sans affichage de feuille de propriétés, les services de messagerie préparent généralement un fichier d'en-tête qui inclut des constantes pour toutes les propriétés obligatoires et facultatives, ainsi que leurs valeurs.
+Pour autoriser la configuration sans affichage de feuille de propriétés, les services de message préparent généralement un fichier d’en-tête qui inclut des constantes pour toutes les propriétés obligatoires et facultatives et leurs valeurs.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour récupérer la structure **MAPIUID** du service de messagerie à configurer, récupérez la colonne **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) à partir de la ligne du service de messagerie dans la table de service de messagerie. Pour plus d'informations, reportez-vous à la procédure décrite dans la méthode [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Pour récupérer la structure **MAPIUID** pour le service de message à configurer, récupérez la colonne **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) à partir de la ligne du service de message dans la table de service de message. Pour plus d’informations, voir la procédure décrite dans la méthode [IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
-Vous pouvez configurer un service de messagerie sans afficher de feuille de propriétés à un utilisateur uniquement si vous avez avancé des informations sur les valeurs de propriété à définir. Si vous configurez un service de messagerie sans afficher de feuille de propriétés, transmettez les valeurs de propriété valides dans le paramètre _lpProps_ et ne définissez pas les indicateurs MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS. 
+Vous pouvez configurer un service de message sans afficher de feuille de propriétés à un utilisateur uniquement si vous avez des informations préalables sur les valeurs de propriété à définir. Si vous configurez un service de message sans afficher de feuille de propriétés, passez des valeurs de propriété valides dans le paramètre  _lpProps_ et ne définissez pas les indicateurs MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS. 
   
-Si vous recevez tout ou partie des informations de configuration de l'utilisateur par le biais d'une feuille de propriétés, définissez SERVICE_UI_ALLOWED dans _ulFlags_. Si vous utilisez des informations de propriété existantes uniquement pour établir les paramètres par défaut et que l'utilisateur est en mesure de modifier les paramètres, définissez SERVICE_UI_ALWAYS dans _ulFlags_.
+Si vous recevez l’ensemble ou une partie des informations de configuration de l’utilisateur au moyen d’une feuille de propriétés, SERVICE_UI_ALLOWED dans  _ulFlags_. Si vous utilisez des informations de propriété existantes uniquement pour établir des paramètres par défaut et que l’utilisateur est en mesure de modifier les paramètres, définissez SERVICE_UI_ALWAYS dans  _ulFlags_.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -117,7 +117,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions. cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin:: ConfigureMsgService** pour configurer un service qui a été ajouté à un profil.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin::ConfigureMsgService** pour configurer un service qui a été ajouté à un profil.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

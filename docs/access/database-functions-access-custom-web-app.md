@@ -1,5 +1,5 @@
 ---
-title: Fonctions de base de données (application Web personnalisée Access)
+title: Fonctions de base de données (application web personnalisée Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -13,16 +13,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418910"
 ---
-# <a name="database-functions-access-custom-web-app"></a>Fonctions de base de données (application Web personnalisée Access)
+# <a name="database-functions-access-custom-web-app"></a>Fonctions de base de données (application web personnalisée Access)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 
-- [Fonction UserDisplayName (application Web personnalisée Access)](userdisplayname-function-access-custom-web-app.md)
+- [Fonction UserDisplayName (application web personnalisée Access)](userdisplayname-function-access-custom-web-app.md)
     
-- [Fonction UserEmailAddress (application Web personnalisée Access)](useremailaddress-function-access-custom-web-app.md)
+- [Fonction UserEmailAddress (application web personnalisée Access)](useremailaddress-function-access-custom-web-app.md)
     
-- [Fonction Update (application Web personnalisée Access)](update-function-access-custom-web-app.md)
+- [Fonction Update (application web personnalisée Access)](update-function-access-custom-web-app.md)
     
 

@@ -20,11 +20,11 @@ ms.locfileid: "33418644"
 
 1. Sélectionnez la cellule contenant la formule à copier.
     
-2. Appuyez sur CTRL + C.
+2. Appuyez sur Ctrl+C.
     
     Pour remplacer la formule entière, sélectionnez la cellule dont vous souhaitez remplacer la formule.
     
-    Pour coller la formule dans une formule existante, double-cliquez sur la cellule, puis cliquez sur le point d'insertion à l'endroit où vous souhaitez coller la formule.
+    Pour coller la formule dans une formule existante, double-cliquez sur la cellule, puis cliquez sur un point d’insertion où vous souhaitez coller la formule.
     
 3. Appuyez sur Ctrl+V
     

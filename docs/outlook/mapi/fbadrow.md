@@ -43,17 +43,17 @@ ULONG FBadRow(
 
  _lprow_
   
-> dans Pointeur vers une structure [SRow](srow.md) identifiant la ligne à valider. 
+> [in] Pointeur vers une structure [SRow](srow.md) identifiant la ligne à valider. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> La ligne spécifiée n'est pas valide.
+> La ligne spécifiée n’est pas valide.
     
 FALSE 
   
-> La ligne spécifiée est valide.
+> Ligne spécifiée valide.
     
 ## <a name="see-also"></a>Voir aussi
 

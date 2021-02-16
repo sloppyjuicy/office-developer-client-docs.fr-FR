@@ -25,7 +25,7 @@ ms.locfileid: "33421353"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit l'accès à la table de dossiers de réception, un tableau qui contient des informations sur tous les dossiers de réception pour la Banque de messages.
+Permet d’accéder à la table des dossiers de réception, une table qui inclut des informations sur tous les dossiers de réception de la boutique de messages.
   
 ```cpp
 HRESULT GetReceiveFolderTable(
@@ -37,39 +37,39 @@ HRESULT GetReceiveFolderTable(
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle l'accès aux tableaux. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle l’accès à la table. Les indicateurs suivants peuvent être définies :
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **GetReceiveFolderTable** de renvoyer correctement, éventuellement avant que la table soit entièrement disponible pour l'appelant. Si la table n'est pas entièrement disponible, un appel de tableau ultérieur peut déclencher une erreur. 
+> Permet à **GetReceiveFolderTable** de renvoyer correctement, éventuellement avant que la table soit entièrement disponible pour l’appelant. Si la table n’est pas entièrement disponible, la réalisation d’un appel de table ultérieur peut occasioner une erreur. 
     
 MAPI_UNICODE 
   
-> Les chaînes renvoyées sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
+> Les chaînes renvoyées sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
  _lppTable_
   
-> remarquer Pointeur vers un pointeur vers le tableau de dossiers de réception.
+> [out] Pointeur vers un pointeur vers le tableau du dossier de réception.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La table de dossiers de réception a été renvoyée avec succès.
+> La table des dossiers de réception a été renvoyée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgStore:: GetReceiveFolderTable** fournit l'accès à un tableau qui présente les paramètres de propriété de tous les dossiers de réception de la Banque de messages. 
+La **méthode IMsgStore::GetReceiveFolderTable** permet d’accéder à une table qui indique les paramètres de propriété pour tous les dossiers de réception de la boutique de messages. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Pour obtenir la liste des colonnes requises dans une table de dossiers de réception, consultez la rubrique [Receive Folder tables](receive-folder-tables.md). 
+Pour obtenir la liste des colonnes requises dans une table de dossiers de réception, voir [Tables des dossiers de réception.](receive-folder-tables.md) 
   
-Implémentez vos tables de dossiers de réception pour prendre en charge la définition de restrictions de propriété sur la propriété **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)). Cela permet d'accéder facilement à des dossiers de réception spécifiques.
+Implémentez vos tables de dossiers de réception pour prendre en charge la définition de restrictions de propriété sur **la PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)). Cela permet d’accéder facilement à des dossiers de réception particuliers.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La définition de l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable:: QueryColumns](imapitable-querycolumns.md) et [IMAPITable:: QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l'ordre de tri retourné par la méthode [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) . 
+La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows.](imapitable-queryrows.md) Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -77,7 +77,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnDisplayReceiveFolderTable  <br/> |MFCMAPI utilise la méthode **IMsgStore:: GetReceiveFolderTable** pour obtenir la table de dossiers de réception à afficher.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDisplayReceiveFolderTable  <br/> |MFCMAPI utilise la méthode **IMsgStore::GetReceiveFolderTable** pour obtenir la table des dossiers de réception à afficher.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

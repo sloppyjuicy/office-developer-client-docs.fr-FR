@@ -22,9 +22,9 @@ Contient une ligne et des cellules pour chaque point de connexion défini pour u
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir des points de connexion dans la section **points de connexion** de la fenêtre ShapeSheet ou en cliquant sur l'outil **point de connexion** sous l'onglet **Accueil** . 
+Vous pouvez définir des points de connexion dans la section  **Points** de connexion dans la fenêtre Feuille ShapeSheet ou en cliquant sur l’outil Point de connexion sous **l’onglet Accueil.** 
   
-Si la forme ne possède pas de section **points de connexion** , vous pouvez insérer une section **points de connexion** dans la fenêtre ShapeSheet. Cliquez avec le bouton droit dans la fenêtre ShapeSheet, cliquez sur **Insérer une section**, puis cliquez sur **Connection points**. Pour ajouter des points de connexion à une section **points de connexion** existants, cliquez avec le bouton droit sur une ligne, puis cliquez sur **Insérer une ligne** dans le menu contextuel. 
+Si votre forme ne possède pas de section **Connection Points,** vous pouvez insérer une section **Connection Points** dans la fenêtre ShapeSheet. Cliquez avec le bouton droit dans la fenêtre ShapeSheet, cliquez sur **Insérer une section**, puis cliquez sur **Connection points**. Pour ajouter des points de connexion à une section **Connection Points** existante, cliquez avec le bouton droit sur une ligne et cliquez sur **Insérer** une ligne dans le menu raccourci. 
   
 Vous pouvez changer le type de ligne d'un point de connexion dans cette section afin d'afficher des cellules supplémentaires que vous pourrez utiliser pour les calculs de montage. Pour ce faire, cliquez avec le bouton droit de la souris sur la ligne, puis choisissez **Modifier le type de ligne** dans le menu contextuel. 
   

@@ -1,5 +1,5 @@
 ---
-title: Commandes de l'interface utilisateur (application Web personnalisée Access)
+title: Commandes d’interface utilisateur (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421689"
 ---
-# <a name="user-interface-commands-access-custom-web-app"></a>Commandes de l'interface utilisateur (application Web personnalisée Access)
+# <a name="user-interface-commands-access-custom-web-app"></a>Commandes d’interface utilisateur (application web personnalisée Access)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [ChangeView, action de macro (application Web personnalisée Access)](changeview-macro-action-access-custom-web-app.md)
+- [ChangeView Macro Action (Application web personnalisée Access)](changeview-macro-action-access-custom-web-app.md)
     
-- [ClosePopup, action de macro (application Web personnalisée Access)](closepopup-macro-action-access-custom-web-app.md)
+- [ClosePopup Macro Action (Application web personnalisée Access)](closepopup-macro-action-access-custom-web-app.md)
     
-- [Action de macro MessageBox (application Web personnalisée Access)](messagebox-macro-action-access-custom-web-app.md)
+- [MessageBox Macro Action (Access custom web app)](messagebox-macro-action-access-custom-web-app.md)
     
-- [OpenPopup, action de macro (application Web personnalisée Access)](openpopup-macro-action-access-custom-web-app.md)
+- [OpenPopup Macro Action (Application web personnalisée Access)](openpopup-macro-action-access-custom-web-app.md)
     
 

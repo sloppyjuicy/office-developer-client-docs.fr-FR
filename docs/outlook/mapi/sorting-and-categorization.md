@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
-description: 'Dernière modification: 08 08, 2011'
+description: 'Last modified: November 08, 2011'
 ms.openlocfilehash: 8a5a07cdeb7f000c9a7da24dbea1a42a6f9fc185
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -21,17 +21,17 @@ ms.locfileid: "33418483"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Trier un tableau place les lignes dans un ordre approprié pour la visionneuse. Par exemple, une visionneuse peut préférer consulter la table des matières d'un dossier triée par objet de message de sorte que tous les threads d'une conversation soient réunis tandis qu'une autre peut souhaiter que les messages soient triés en fonction du nom de l'expéditeur. Une table nouvellement instanciée n'est pas nécessairement triée dans un ordre particulier. 
+Le tri d’un tableau place les lignes dans un ordre logique pour sa visionneuse. Par exemple, une visionneuse peut préférer voir la table des matières d’un dossier trié par objet du message afin que tous les threads d’une conversation soient ensemble, tandis qu’une autre visionneuse souhaite peut-être trier les messages par le nom de l’expéditeur. Une table nouvellement ins instantiée n’est pas nécessairement triée dans un ordre particulier. 
   
-Il existe deux types de tri:
+Il existe deux types de tri :
   
 - Tri standard
     
-- Tri par catégorie 
+- Tri catégorisé 
     
-Avec le tri standard, toutes les lignes s'affichent dans une liste plate à l'aide d'une ou de plusieurs colonnes en tant que clé de tri. Avec le tri par catégorie, les lignes sont affichées hiérarchiquement avec une ou plusieurs colonnes en tant que clé de tri. Dans chaque catégorie, il existe une ligne d'en-tête spéciale qui contient les colonnes suivantes.
+Avec le tri standard, toutes les lignes sont affichées dans une liste plate en utilisant une ou plusieurs colonnes comme clé de tri. Avec le tri catégorisé, les lignes sont affichées hiérarchiquement avec une ou plusieurs colonnes comme clé de tri. Dans chaque catégorie, il existe une ligne de titre spéciale qui contient les colonnes suivantes.
   
-- La ou les colonnes qui composent la clé de tri
+- Colonne ou colonnes qui font la clé de tri
     
 - **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))
     
@@ -43,17 +43,17 @@ Avec le tri standard, toutes les lignes s'affichent dans une liste plate à l'ai
     
 - **PR_ROW_TYPE** ([PidTagRowType](pidtagrowtype-canonical-property.md)) 
     
-Le retrait sous la ligne d'en-tête contient toutes les lignes de la table qui contiennent des colonnes avec des valeurs qui correspondent à la clé de tri. Ces lignes sont appelées lignes feuille. Les lignes de feuille contiennent toutes les colonnes de l'ensemble de colonnes moins les colonnes de clés de tri. 
+Le retrait sous la ligne de titre correspond à toutes les lignes du tableau qui contiennent des colonnes dont les valeurs correspondent à la clé de tri. Ces lignes sont appelées lignes feuilles. Les lignes de feuille contiennent toutes les colonnes du jeu de colonnes moins les colonnes de clé de tri. 
   
-Les tables de contenu des dossiers prennent généralement en charge le tri par catégorie en plus du tri standard. Les tables de contenu des conteneurs du carnet d'adresses prennent généralement en charge uniquement le tri standard. 
+Les tables des matières des dossiers peuvent souvent prendre en charge le tri par catégories en plus du tri standard. Les tables de contenu des conteneurs de carnet d’adresses ne prend généralement en charge que le tri standard. 
   
-Une catégorie peut avoir deux États: réduite et développée. Lorsqu'une catégorie est réduite, seule la ligne d'en-tête est renvoyée à partir de l'état [IMAPITable:: QueryRows](imapitable-queryrows.md). Lorsqu'une catégorie est dans l'état développé, toutes les lignes associées à la catégorie sont renvoyées. Cela inclut la ligne d'en-tête et les lignes de feuille. 
+Une catégorie peut avoir deux états : collapsed et expanded. Lorsqu’une catégorie est dans l’état collapsed, seule la ligne de titre est renvoyée à partir [d’IMAPITable::QueryRows](imapitable-queryrows.md). Lorsqu’une catégorie est dans l’état développé, toutes les lignes associées à la catégorie sont renvoyées. Cela inclut la ligne de titre et les lignes de feuille. 
   
-Chaque catégorie dans un affichage tableau peut être développée ou réduite indépendamment. Autrement dit, toutes les catégories ne doivent pas être dans le même État en même temps; certaines catégories peuvent être réduites, tandis que d'autres sont développées. 
+Chaque catégorie d’un affichage Tableau peut être étendue ou réduire indépendamment. Autrement dit, toutes les catégories ne doivent pas être dans le même état en même temps ; Certaines catégories peuvent être réduire tandis que d’autres sont étendues. 
   
-L'utilisateur d'un tableau classé détermine son mode d'affichage. Une option commune consiste à utiliser un contrôle fourni dans le kit de développement logiciel (SDK) Windows appelé contrôle TreeView. Les contrôles TreeView sont des zones de liste qui prennent en charge les informations dans une structure arborescente. Les lignes d'en-tête pour les catégories dans l'état développé sont signalées par un signe moins tandis que les lignes de titre pour les catégories dans l'État réduit sont signalées par un signe plus. Les catégories développées sont affichées avec les lignes de feuille mises en retrait sous les lignes d'en-tête. 
+L’utilisateur d’un tableau catégorisé décide de son affichage. Une option courante consiste à utiliser un contrôle fourni dans le SDK Windows appelé contrôle Treeview. Les contrôles Treeview sont des zones de liste qui gèrent les informations dans une structure arborescence. Les lignes de titre pour les catégories dans l’état développé sont marquées avec un signe moins, tandis que les lignes de titre pour les catégories dans l’état collapsed sont marquées avec un signe plus. Les catégories étendues sont affichées avec les lignes de feuille en retrait sous les lignes de titre. 
   
-Pour réduire et développer une catégorie, une application cliente ou un fournisseur de services utilise la méthode [IMAPITable suivante: méthodes IUnknown](imapitableiunknown.md) : 
+Pour réduire et développer une catégorie, une application cliente ou un fournisseur de services utilise les méthodes [IMAPITable : IUnknown](imapitableiunknown.md) suivantes : 
   
 - [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md)
     
@@ -63,7 +63,7 @@ Pour réduire et développer une catégorie, une application cliente ou un fourn
     
 - [IMAPITable::CollapseRow](imapitable-collapserow.md)
     
-Pour plus d'informations sur le tri des threads d'une conversation, consultez les rubriques suivantes:
+Pour plus d’informations sur le tri des threads d’une conversation, consultez les rubriques suivantes :
   
 - [SSortOrder](ssortorder.md)
     
@@ -79,11 +79,11 @@ Pour plus d'informations sur le tri des threads d'une conversation, consultez le
     
 - [ScCreateConversationIndex](sccreateconversationindex.md)
     
-- [Tri des tables après la définition des colonnes et des restrictions](sorting-tables-after-setting-columns-and-restrictions.md)
+- [Tri des tableaux après la définition de colonnes et de restrictions](sorting-tables-after-setting-columns-and-restrictions.md)
     
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

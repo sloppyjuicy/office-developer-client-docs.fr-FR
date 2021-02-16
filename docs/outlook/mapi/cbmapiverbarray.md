@@ -25,12 +25,12 @@ ms.locfileid: "33418693"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [SMAPIVerbArray](smapiverbarray.md) existante qui contient un nombre spécifié de structures [SMAPIVerb](smapiverb.md) . 
+Calcule le nombre d’octets dans une structure [SMAPIVerbArray](smapiverbarray.md) existante qui contient un nombre spécifié de structures [SMAPIVerb.](smapiverb.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Structure associée:  <br/> |**SMAPIVerbArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Structure connexe :  <br/> |**SMAPIVerbArray** <br/> |
    
 ```cpp
 int CbMAPIVerbArray (_c)
@@ -38,7 +38,7 @@ int CbMAPIVerbArray (_c)
 
 ## <a name="parameters"></a>Paramètres
 
- __c_
+ _ _c_
   
 > Nombre de structures **SMAPIVerb** dans la structure **SMAPIVerbArray** existante. 
     

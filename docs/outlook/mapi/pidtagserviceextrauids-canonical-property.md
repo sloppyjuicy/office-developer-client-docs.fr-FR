@@ -25,7 +25,7 @@ ms.locfileid: "33422305"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de structures [MAPIUID](mapiuid.md) qui identifient des sections de profil supplémentaires pour le service de messagerie. 
+Contient une liste de structures [MAPIUID](mapiuid.md) qui identifient des sections de profil supplémentaires pour le service de message. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une liste de structures [MAPIUID](mapiuid.md) qui identifient des secti
    
 ## <a name="remarks"></a>Remarques
 
-De nouvelles sections de profil peuvent être créées pour chaque filtre de messages. Lorsque les informations sur le service de messagerie doivent être copiées dans un autre profil, il est important de copier également les sections de profil supplémentaires pour les filtres. Un fournisseur de services qui utilise des sections de profil supplémentaires peut stocker les structures **MAPIUID** de ces sections de profil dans **PR_SERVICE_EXTRA_UIDS**, ce qui permet à MAPI de copier les informations de service de messagerie supplémentaires.
+De nouvelles sections de profil peuvent être créées pour chaque filtre de message. Lorsque les informations sur le service de message doivent être copiées dans un autre profil, il est important de copier également les sections de profil supplémentaires pour les filtres. Un fournisseur de services qui utilise des sections de profil supplémentaires peut stocker les structures **MAPIUID** de ces sections de profil dans **PR_SERVICE_EXTRA_UIDS**, ce qui permet à MAPI de copier les informations de service de message supplémentaires.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

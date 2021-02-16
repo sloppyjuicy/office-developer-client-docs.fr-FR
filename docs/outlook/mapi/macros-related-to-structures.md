@@ -1,5 +1,5 @@
 ---
-title: Macros associées aux structures
+title: Macros liées aux structures
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -17,15 +17,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420583"
 ---
-# <a name="macros-related-to-structures"></a>Macros associées aux structures
+# <a name="macros-related-to-structures"></a>Macros liées aux structures
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les rubriques de cette section décrivent les macros relatives aux structures MAPI. Pour plus d'informations, des renvois à d'autres publications ou à d'autres rubriques de cette documentation sont également inclus. 
+Les rubriques de cette section décrivent les macros liées aux structures MAPI. Pour plus d’informations, des références croisées à d’autres publications ou à d’autres rubriques de cette documentation sont également incluses. 
   
-Le tableau suivant répertorie les macros associées aux structures MAPI:
+Le tableau suivant répertorie les macros liées aux structures MAPI :
   
 |||
 |:-----|:-----|

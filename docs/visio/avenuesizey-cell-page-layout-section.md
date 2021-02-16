@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm70
 localization_priority: Normal
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
-description: Détermine la distance verticale entre les formes sur la page de dessin lorsque vous les disposez à l'aide de la boîte de dialogue Configurer la disposition (sous l'onglet création, dans le groupe disposition, cliquez sur nouvelle disposition de page, puis cliquez sur autres options de disposition).
+description: Détermine la quantité d’espace vertical entre les formes sur la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition).
 ms.openlocfilehash: 283de8925e34c470fd1f9e78b8ae58882be8b7fc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33420205"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>AvenueSizeY, cellule (section Page Layout)
 
-Détermine la quantité d'espace verticale entre les formes sur la page de dessin lorsque vous les disposez à l'aide de la boîte de dialogue **configurer la disposition** (sous l'onglet **création** , dans le groupe **disposition** , cliquez sur **nouvelle disposition** de page, puis cliquez sur **plus Options de disposition**).
+Détermine la quantité d’espace vertical entre les formes de la page de dessin lorsque  vous les  avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur **Re-disposition** de la page, puis cliquez sur Autres  **options** de disposition).
   
 ## <a name="remarks"></a>Remarques
 
@@ -36,7 +36,7 @@ Pour obtenir une référence à la cellule AvenueSizeY à l'aide d'un index à p
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 | Index de la cellule :  <br/> |**visPLOAvenueSizeY** <br/> |
    

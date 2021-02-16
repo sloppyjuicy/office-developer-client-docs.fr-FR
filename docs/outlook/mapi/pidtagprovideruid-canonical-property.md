@@ -32,25 +32,25 @@ Contient une structure **MAPIUID** du fournisseur de services qui gère un messa
 |Propriétés associées :  <br/> |PR_PROVIDER_UID  <br/> |
 |Identificateur :  <br/> |0x300C  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est calculée par tous les fournisseurs de services. Elle contient une structure [MAPIUID](mapiuid.md) associée à, généralement codée en dur par le fournisseur. Elle est généralement utilisée par une application cliente qui est intéressée uniquement par les conteneurs de carnet d'adresses fournis par un fournisseur particulier. 
+Cette propriété est calculée par tous les fournisseurs de services. Il contient une structure [MAPIUID](mapiuid.md) associée au fournisseur et généralement codée en dur. Il est généralement utilisé par une application cliente qui s’intéresse uniquement aux conteneurs de carnet d’adresses fournis par un fournisseur particulier. 
   
-Cette propriété apparaît uniquement sous la forme d'une entrée de colonne dans la table des fournisseurs.
+Cette propriété apparaît uniquement en tant qu’entrée de colonne dans la table fournisseur.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

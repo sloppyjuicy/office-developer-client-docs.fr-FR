@@ -1,5 +1,5 @@
 ---
-title: Bloc de macros de commentaire (application Web personnalisée Access)
+title: Comment Macro Block (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418924"
 ---
-# <a name="comment-macro-block-access-custom-web-app"></a>Bloc de macros de commentaire (application Web personnalisée Access)
+# <a name="comment-macro-block-access-custom-web-app"></a>Comment Macro Block (Access custom web app)
 
 L'instruction **Comment** peut être utilisée pour fournir des notes explicatives dans une macro. 
   

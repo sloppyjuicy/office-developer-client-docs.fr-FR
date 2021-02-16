@@ -25,7 +25,7 @@ ms.locfileid: "33421318"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nombre d'éléments dans le tableau des contenus associés du dossier.
+Contient le nombre d’éléments dans la table des matières associée du dossier.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient le nombre d'éléments dans le tableau des contenus associés du dossie
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient le nombre d'entrées dans la table contents du dossier. 
+Cette propriété contient le nombre d’entrées dans la table des matières du dossier. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

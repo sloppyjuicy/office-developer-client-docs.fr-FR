@@ -25,7 +25,7 @@ ms.locfileid: "33421563"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un message qui indique l'état actuel d'une ressource de session. 
+Contient un message qui indique l’état actuel d’une ressource de session. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient un message qui indique l'état actuel d'une ressource de session.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés permettent aux fournisseurs de services et à l'interface MAPI de fournir des informations spécifiques sur l'état d'une ressource de session, comme le carnet d'adresses intégré ou un fournisseur de services particulier. Cette propriété explique et fournit des informations supplémentaires sur un code d'État ou la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Tandis que **PR_STATUS_CODE** est requis pour tous les objets d'État, **PR_STATUS_STRING** et les propriétés associées sont facultatifs. Lorsque le fournisseur de transport ne fournit pas de valeur, le spouleur MAPI fournit une valeur par défaut. 
+Ces propriétés donnent aux fournisseurs de services et à MAPI la possibilité de fournir des informations spécifiques sur l’état d’une ressource de session, telles que le carnet d’adresses intégré ou un fournisseur de services particulier. Cette propriété explique et fournit des informations supplémentaires sur un code d’état ou la **propriété PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Alors **PR_STATUS_CODE** est requise pour tous les objets d’état,  les PR_STATUS_STRING et les propriétés associées sont facultatives. Lorsque le fournisseur de transport ne fournit pas de valeur, lepooler MAPI fournit une valeur par défaut. 
   
-La chaîne est générée sur le même côté de l'appel de procédure distante que le spouleur MAPI; il transite par le biais de la mémoire partagée au lieu d'être marshalé dans une limite de processus.
+La chaîne est générée du même côté de l’appel de procédure distante que lepooler MAPI ; Il parcourt la mémoire partagée au lieu d’être marshalé à travers une limite de processus.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

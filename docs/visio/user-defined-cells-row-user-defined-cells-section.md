@@ -20,9 +20,9 @@ ms.locfileid: "33420688"
 
 Contient la valeur et le message descriptif de toutes les cellules définies par l'utilisateur de votre solution. Une forme contient une ligne User-defined Cells pour chaque paire de cellules Value/Prompt.
   
-Les lignes User-defined Cells sont nommées User. *nom* et contient les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules. 
+Les lignes User-defined Cells sont nommées User. *et*  contiennent les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules. 
   
-|**Cellule**|**Description**|
+|**Cell**|**Description**|
 |:-----|:-----|
 |[Valeur](value-cell-user-defined-cells-section.md) <br/> |Indique une valeur pour la cellule définie par l'utilisateur correspondante.  <br/> |
 |[Prompt](prompt-cell-user-defined-cells-section.md) <br/> |Indique un message descriptif ou commentaire pour la cellule définie par l'utilisateur.  <br/> |
@@ -31,9 +31,9 @@ Les lignes User-defined Cells sont nommées User. *nom* et contient les cellules
 
 Les cellules définies par l'utilisateur servent à entrer des formules ou constantes auxquelles d'autres cellules ou modules complémentaires font référence. Les valeurs des cellules définies par l'utilisateur sont portables. Cela signifie que, si une forme qui fait référence à une cellule définie par l'utilisateur dans une forme est copiée dans une autre forme ne possédant pas la même cellule définie par l'utilisateur, la cellule est ajoutée à la forme.
   
- Vous pouvez ajouter autant de lignes User.  *Nommez* les lignes selon vos besoins, assignez des noms parlants aux lignes et définissez des valeurs de cellule. Pour ajouter une ligne à une section User-defined Cells existante, cliquez avec le bouton droit de la souris, puis cliquez sur **Insérer une ligne** dans le menu contextuel. 
+ Vous pouvez ajouter autant de lignes User.  *nommez*  les lignes selon vos besoins, attribuez des noms significatifs aux lignes et définissez des valeurs de cellule. Pour ajouter une ligne à une section User-defined Cells existante, cliquez avec le bouton droit de la souris, puis cliquez sur **Insérer une ligne** dans le menu contextuel. 
   
-Vous pouvez désigner ces cellules à l'aide de leur nom de ligne, qui apparaît en rouge dans la fenêtre Feuille ShapeSheet. Pour assigner des noms parlants aux lignes User. *nommer* des lignes, cliquez sur la ligne, puis tapez un nom tel que *décalage* , par exemple, pour créer le nom de ligne User. offset. Vous pouvez alors faire référence à la cellule Prompt en utilisant User.Décalage.Prompt. 
+Vous pouvez désigner ces cellules à l'aide de leur nom de ligne, qui apparaît en rouge dans la fenêtre Feuille ShapeSheet. Pour assigner des noms parlants aux lignes User. *name*  rows, click the row, and then type a name such as  *Offset*  , for example, to create the row name User.Offset. Vous pouvez alors faire référence à la cellule Prompt en utilisant User.Décalage.Prompt. 
   
 Le nom de ligne que vous entrez doit être unique dans la section.
   

@@ -25,11 +25,11 @@ ms.locfileid: "33418049"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre une interface [IMAPIFormMgr](imapiformmgriunknown.md) sur un objet fournisseur de bibliothèque de formulaires dans le contexte d'une session existante. 
+Ouvre une interface [IMAPIFormMgr](imapiformmgriunknown.md) sur un objet fournisseur de bibliothèque de formulaires dans le contexte d’une session existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -44,11 +44,11 @@ MAPIOpenFormMgr(
 
  _pSession_
   
-> dans Pointeur vers la session en cours d'utilisation par l'application cliente.
+> [in] Pointeur vers la session en cours d’utilisation par l’application cliente.
     
  _ppmgr_
   
-> remarquer Pointeur vers l'interface **IMAPIFormMgr** renvoyée. 
+> [out] Pointeur vers l’interface **IMAPIFormMgr** renvoyée. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -56,7 +56,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Une fois qu'une application cliente appelle la fonction **MAPIOpenFormMgr** , la plupart des interactions liées aux formulaires ont lieu via le fournisseur de bibliothèque de formulaires ou une interface renvoyée par le fournisseur de la bibliothèque de formulaires. L'interface **IMAPIFormMgr** permet au client de travailler avec les gestionnaires de messages et d'effectuer des résolutions entre les classes de message et les bibliothèques de formulaires. 
+Après qu’une application cliente a appelé la fonction **MAPIOpenFormMgr,** la plupart des interactions ultérieures liées aux formulaires ont lieu via le fournisseur de bibliothèque de formulaires ou une interface renvoyée par le fournisseur de bibliothèque de formulaires. **L’interface IMAPIFormMgr** permet au client d’utiliser des handlers de messages et d’effectuer des résolutions entre les classes de messages et les bibliothèques de formulaires. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -64,7 +64,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg. cpp ouvre le gestionnaire de formulaires afin qu'un formulaire puisse être sélectionné.  <br/> |CMainDlg:: OnSelectForm  <br/> |MFCMAPI utilise la méthode **MAPIOpenFormMgr** pour ouvrir le gestionnaire de formulaires afin qu'un formulaire puisse être sélectionné.  <br/> |
+|MainDlg.cpp ouvre le gestionnaire de formulaires afin qu’un formulaire puisse être sélectionné.  <br/> |CMainDlg::OnSelectForm  <br/> |MFCMAPI utilise la **méthode MAPIOpenFormMgr** pour ouvrir le gestionnaire de formulaire afin qu’un formulaire puisse être sélectionné.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251460
 localization_priority: Normal
 ms.assetid: 38e6bba7-1bf2-3d31-0912-707002454f5d
-description: Renvoie la valeur du composant de luminosité d'une couleur.
+description: Renvoie la valeur du composant de luminosité d’une couleur.
 ms.openlocfilehash: 17fa43f8e2cd7422428f92724e351436233c2d62
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33419337"
 ---
 # <a name="lum-function"></a>Fonction LUM
 
-Renvoie la valeur du composant de luminosité d'une couleur.
+Renvoie la valeur du composant de luminosité d’une couleur.
   
 ## <a name="syntax"></a>Syntaxe
 
-LUM (* * *expression* * *) 
+LUM(** *expression* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -40,13 +40,13 @@ La valeur renvoyée est un nombre compris entre 0 et 240 inclus. La fonction ren
   
 ## <a name="example-1"></a>Exemple 1
 
-LUM (feuille. 4! FillForegnd
+LUM(Sheet.4! FillForegnd)
   
 Renvoie la composante luminosité de la couleur de remplissage de premier plan de Feuille.4.
   
 ## <a name="example-2"></a>Exemple 2
 
-LUM (6)
+LUM(6)
   
 Renvoie 120 si le document utilise la palette de couleurs par défaut de Visio où magenta est la couleur correspondant à l’index 6.
   

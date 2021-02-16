@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5db43e9-687b-d467-1be1-3737e3f91c27
-description: Représente l'ID d'entrée de la Banque de remise par défaut pour le compte.
+description: Représente l’ID d’entrée de la banque de remise par défaut pour le compte.
 ms.openlocfilehash: d803c539ec99da4d7fb31063f48237788f3ac3d9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418896"
 ---
-# <a name="propacctdeliverystore"></a>PROP_ACCT_DELIVERY_STORE
+# <a name="prop_acct_delivery_store"></a>PROP_ACCT_DELIVERY_STORE
 
-Représente l'ID d'entrée de la Banque de remise par défaut pour le compte.
+Représente l’ID d’entrée de la banque de remise par défaut pour le compte.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -25,15 +25,15 @@ Voir [IOlkAccount](iolkaccount.md).
 |||
 |:-----|:-----|
 |Identificateur :  <br/> |0x0018  <br/> |
-|Type de propriété:  <br/> |PT_BINARY  <br/> |
-|Balise de propriété:  <br/> |0x00180102  <br/> |
-|Access  <br/> |Lecture/écriture  <br/> |
+|Type de propriété :  <br/> |PT_BINARY  <br/> |
+|Balise de propriété :  <br/> |0x00180102  <br/> |
+|Accès :  <br/> |Lecture/écriture  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Obtenir ou définir cette propriété à l'aide de [IOlkAccount:: getprop](iolkaccount-getprop.md) ou [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivement.
+Obtenez ou définissez cette propriété à l’aide de [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivement.
   
-L'un des effets secondaires de la définition d'une banque comme banque de remise par défaut pour un compte est que lors du démarrage d'Outlook, Outlook crée des dossiers de recherche pour ce magasin s'ils n'existent pas déjà, et répertorie le magasin dans la barre des tâches.
+L’un des effets secondaires de la définition d’une banque comme magasin de remise par défaut pour un compte est que lors du démarrage d’Outlook, Outlook crée des dossiers de recherche pour cette banque s’ils n’existent pas déjà et liste la banque dans la barre To-Do.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
-description: 'Dernière modification: 03 juillet 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: b7c651044ab7f4cad7032db69e157c9a3589bde9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,19 +17,19 @@ ms.locfileid: "33420821"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avant de pouvoir utiliser un fournisseur de magasins de fichiers de dossiers personnels (PST), vous devez initialiser et configurer le fournisseur de magasins PST encapsulé. Une fois le fournisseur de banque de fichiers PST encapsulé configuré, vous devez implémenter des fonctions afin que MAPI et le spouleur MAPI puissent se connecter au fournisseur de banque de messages. Pour plus d'informations sur l'initialisation et la connexion à un fournisseur de magasins de dossiers personnels (PST) encapsulé, consultez [la rubrique initialisation d'un fournisseur de magasins](initializing-a-wrapped-pst-store-provider.md) de fichiers PST encapsulés et [connexion à un fournisseur de magasins de dossiers personnels](logging-on-to-a-wrapped-pst-store-provider.md).
+Avant de pouvoir utiliser un fournisseur de magasin de dossiers personnels (PST) wrapped, vous devez initialiser et configurer le fournisseur de magasin PST wrapped. Une fois que le fournisseur de magasin PST wrapped est configuré, vous devez implémenter des fonctions afin que MAPI et lepooler MAPI peuvent se connecter au fournisseur de magasin de messages. Pour plus d’informations sur l’initialisation et la connexion à un fournisseur de magasins PST [wrapped, voir Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md) and Logging On to a [Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md).
   
-L'interface **[IMAPISupport:: IUnknown](imapisupportiunknown.md)** fournit des implémentations pour les tâches couramment effectuées par les fournisseurs de banque de messages. Cette interface doit être incluse dans un wrapper pour que l'exemple de fournisseur de magasins PST encapsulé fonctionne. La fonction **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** nécessite une implémentation spéciale. Toutes les autres fonctions peuvent transmettre leurs paramètres à l'objet encapsulé sous-jacent. 
+**[L’interface IMAPISupport::IUnknown](imapisupportiunknown.md)** fournit des implémentations pour les tâches couramment effectuées par les fournisseurs de magasins de messages. Cette interface doit être wrapped pour que le fournisseur de magasin PST Wrapped exemple fonctionne. La **[fonction IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** nécessite une implémentation spéciale. Toutes les autres fonctions peuvent transmettre leurs paramètres à l’objet wrapped sous-jacent. 
   
-Dans cette rubrique, la fonction **IMAPISupport:: OpenProfileSection** est illustrée à l'aide d'un exemple de code à partir de l'exemple de fournisseur de magasins PST encapsulé. L'exemple implémente un fournisseur PST encapsulé destiné à être utilisé conjointement avec l'API de réPlication. Pour plus d'informations sur le téléchargement et l'installation de l'exemple de fournisseur de magasins PST encapsulé, consultez [la rubrique installation de l'exemple de fournisseur de magasins PST encapsulé](installing-the-sample-wrapped-pst-store-provider.md). Pour plus d'informations sur l'API de réPlication, voir [à propos de l'API](about-the-replication-api.md)de réplication.
+Dans cette rubrique, la fonction **IMAPISupport::OpenProfileSection** est démontrée à l’aide d’un exemple de code du fournisseur de magasin PST Wrapped sample. L’exemple implémente un fournisseur PST wrapped qui est destiné à être utilisé conjointement avec l’API de réplication. Pour plus d’informations sur le téléchargement et l’installation de l’exemple de fournisseur de magasin PST [Wrapped, voir Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md). Pour plus d’informations sur l’API de réplication, voir [à propos de l’API de réplication.](about-the-replication-api.md)
   
-Une fois que vous avez terminé d'utiliser un fournisseur de magasins PST encapsulé, vous devez arrêter correctement le fournisseur de magasins PST encapsulé. Pour plus d'informations, consultez la rubrique [arrêt d'un fournisseur de magasins PST encapsulé](shutting-down-a-wrapped-pst-store-provider.md).
+Lorsque vous avez terminé d’utiliser un fournisseur de magasin PST wrapped, vous devez arrêter correctement le fournisseur de magasin PST wrapped. Pour plus d’informations, [voir Shutting Down a Wrapped PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md).
   
-## <a name="open-profile-section-routine"></a>Ouvrir la routine de section de profil
+## <a name="open-profile-section-routine"></a>Routine Ouvrir une section de profil
 
-La fonction **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** ouvre une section du profil actif. La fonction nécessite un traitement spécial dans l'implémentation du fournisseur de magasins PST encapsulé. Lorsque le `pgNSTGlobalProfileSectionGuid` est demandé, la fonction renvoie la section de profil mise en cache. 
+La **[fonction IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** ouvre une section du profil actuel. La fonction nécessite une gestion spéciale dans l’implémentation du fournisseur de magasin PST wrapped. Lorsque la  `pgNSTGlobalProfileSectionGuid` fonction est demandée, elle renvoie la section de profil mise en cache. 
   
-### <a name="csupportopenprofilesection-example"></a>CSupport:: OpenProfileSection () exemple
+### <a name="csupportopenprofilesection-example"></a>Exemple CSupport::OpenProfileSection()
 
 ```cpp
 STDMETHODIMP CSupport::OpenProfileSection( 
@@ -56,9 +56,9 @@ STDMETHODIMP CSupport::OpenProfileSection(
 
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l'exemple de fournisseur de banque d'informations PST encapsulé](about-the-sample-wrapped-pst-store-provider.md)
-- [Installation de l'exemple de fournisseur de magasins PST encapsulé](installing-the-sample-wrapped-pst-store-provider.md)
-- [Initialisation d'un fournisseur de magasins PST encapsulé](initializing-a-wrapped-pst-store-provider.md)
-- [Connexion à un fournisseur de magasins PST encapsulé](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Arrêt d'un fournisseur de magasins PST encapsulé](shutting-down-a-wrapped-pst-store-provider.md)
+- [À propos de l’exemple de fournisseur de magasins PST wrapped](about-the-sample-wrapped-pst-store-provider.md)
+- [Installation de l’exemple de fournisseur de magasin PST Wrapped](installing-the-sample-wrapped-pst-store-provider.md)
+- [Initialisation d’un fournisseur de magasin PST wrapped](initializing-a-wrapped-pst-store-provider.md)
+- [Connexion à un fournisseur de magasin PST wrapped](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Arrêt d’un fournisseur de magasin PST wrapped](shutting-down-a-wrapped-pst-store-provider.md)
 

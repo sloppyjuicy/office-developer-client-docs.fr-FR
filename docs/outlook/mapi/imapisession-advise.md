@@ -25,7 +25,7 @@ ms.locfileid: "33419834"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-S'inscrit pour recevoir des notifications d'événements spécifiques affectant la session.
+S’inscrit pour recevoir une notification des événements spécifiés qui affectent la session.
   
 ```cpp
 HRESULT Advise(
@@ -41,97 +41,97 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée du carnet d'adresses ou de l'objet de banque de messages sur les notifications à générer, ou valeur NULL, qui indique que le client s'inscrit pour recevoir des notifications sur les événements qui affectent uniquement la session. 
+> [in] Pointeur vers l’identificateur d’entrée du carnet d’adresses ou de l’objet de magasin de messages sur les notifications à générer, ou NULL, qui indique que le client s’inscrit pour recevoir des notifications sur les événements qui affectent uniquement la session. 
     
  _ulEventMask_
   
-> dans Masque de valeurs qui indiquent les types d'événements de notification qui intéressent le client et qui doivent être inclus dans l'inscription. Si _lpEntryID_ est null, MAPI inscrit automatiquement le client pour les événements d'erreur critique qui affectent uniquement la session. Lorsque _lpEntryID_ pointe vers un identificateur d'entrée, les valeurs suivantes sont valides pour le paramètre _ulEventMask_ : 
+> [in] Masque de valeurs qui indiquent les types d’événements de notification qui intéressent le client et qui doivent être inclus dans l’inscription. Si  _lpEntryID_ est NULL, MAPI inscrit automatiquement le client pour les événements d’erreur critiques qui affectent uniquement la session. Lorsque  _lpEntryID_ pointe vers un identificateur d’entrée, les valeurs suivantes sont valides pour le  _paramètre ulEventMask_ : 
     
 fnevCriticalError 
   
-> Enregistre les notifications concernant les erreurs graves, telles que la mémoire insuffisante.
+> S’inscrit aux notifications concernant les erreurs graves, telles que la mémoire insuffisante.
     
 fnevExtended 
   
-> S'inscrit pour les notifications concernant des événements spécifiques à un carnet d'adresses ou un fournisseur de banque de messages particulier et sur la fermeture de session.
+> S’inscrit aux notifications sur les événements spécifiques à un fournisseur de carnet d’adresses ou de magasin de messages particulier et sur l’arrêt de la session.
     
 fnevNewMail 
   
-> Enregistre les notifications relatives à l'arrivée de nouveaux messages. 
+> S’inscrit aux notifications concernant l’arrivée de nouveaux messages. 
     
 fnevObjectCreated 
   
-> Enregistre les notifications relatives à la création d'un nouvel objet.
+> S’inscrit aux notifications concernant la création d’un nouvel objet.
     
 fnevObjectCopied
   
-> Enregistre les notifications relatives à un objet en cours de copie.
+> S’inscrit aux notifications concernant un objet en cours de copie.
     
 fnevObjectDeleted
   
-> Enregistre les notifications relatives à la suppression d'un objet.
+> S’inscrit aux notifications concernant un objet en cours de suppression.
     
 fnevObjectModified
   
-> Enregistre les notifications relatives à un objet modifié.
+> S’inscrit aux notifications concernant un objet modifié.
     
 fnevObjectMoved
   
-> Enregistre les notifications relatives à un objet déplacé.
+> S’inscrit aux notifications concernant un objet déplacé.
     
 fnevSearchComplete
   
-> Enregistre les notifications relatives à l'exécution d'une opération de recherche.
+> S’inscrit aux notifications concernant la fin d’une opération de recherche.
     
  _lpAdviseSink_
   
-> dans Pointeur vers un objet de récepteur de notification pour recevoir les notifications suivantes. Cet objet de récepteur de notifications doit déjà avoir été alloué.
+> [in] Pointeur vers un objet de réception de notification pour recevoir les notifications suivantes. Cet objet de sink de conseil doit avoir déjà été alloué.
     
  _lpulConnection_
   
-> remarquer Pointeur vers un nombre différent de zéro qui représente la connexion entre l'objet de récepteur d'avertissement de l'appelant et la session.
+> [out] Pointeur vers un numéro autre que zéro qui représente la connexion entre l’objet de l’objet de conseiller de l’appelant et la session.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'inscription a réussi.
+> L’inscription a réussi.
     
 MAPI_E_INVALID_ENTRYID 
   
-> L'identificateur d'entrée pointé par _lpEntryID_ ne représente pas un identificateur d'entrée valide. 
+> L’identificateur d’entrée pointé  _par lpEntryID_ ne représente pas un identificateur d’entrée valide. 
     
 MAPI_E_NO_SUPPORT 
   
-> Le fournisseur de services responsable de l'identificateur d'entrée désigné par _lpEntryID_ ne prend pas en charge le type d'événements spécifiés dans le paramètre _ulEventMask_ ou ne prend pas en charge la notification. 
+> Le fournisseur de services responsable de l’identificateur d’entrée pointé par  _lpEntryID_ ne prend pas en charge le type d’événements spécifié dans le paramètre  _ulEventMask_ ou ne prend pas en charge la notification. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L'identificateur d'entrée pointé par _lpEntryID_ ne peut pas être géré par les fournisseurs de services dans le profil. 
+> L’identificateur d’entrée pointé par  _lpEntryID_ ne peut être géré par aucun des fournisseurs de services dans le profil. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession:: Advise** établit une connexion entre l'objet récepteur de notification de l'appelant, la session et, éventuellement, un fournisseur de services. Cette connexion est utilisée pour envoyer des notifications au récepteur de notifications lorsqu'un ou plusieurs événements spécifiés dans le paramètre _ulEventMask_ se produisent dans l'objet désigné par _lpEntryID_. Lorsque _lpEntryID_ est null, l'objet cible est la session et les notifications sont envoyées uniquement pour les erreurs critiques et les événements étendus. 
+La **méthode IMAPISession::Advise** établit une connexion entre l’objet de l’objet de conseiller de l’appelant, la session et éventuellement un fournisseur de services. Cette connexion est utilisée pour envoyer des notifications au réception de notification lorsqu’un ou plusieurs événements spécifiés dans le paramètre  _ulEventMask_ se produisent à l’objet pointé par  _lpEntryID_. Lorsque  _lpEntryID_ est NULL, l’objet cible est la session et les notifications sont envoyées uniquement pour les erreurs critiques et les événements étendus. 
   
-Lorsque _lpEntryID_ pointe vers un identificateur d'entrée valide, MAPI appelle la **** méthode Advise de l'objet Logon qui appartient au fournisseur de services responsable. Par exemple, si _lpEntryID_ pointe sur l'identificateur d'entrée d'une liste de distribution, MAPI appelle la méthode [IABLogon:: Advise](iablogon-advise.md) du fournisseur de carnet d'adresses approprié. 
+Lorsque  _lpEntryID_ pointe vers un identificateur d’entrée valide, MAPI appelle la méthode **Advise** de l’objet d’inscription qui appartient au fournisseur de services responsable. Par exemple, si  _lpEntryID_ pointe vers l’identificateur d’entrée d’une liste de distribution, MAPI appelle la méthode [IABLogon::Advise](iablogon-advise.md) du fournisseur de carnet d’adresses approprié. 
   
-Pour envoyer une notification, le fournisseur de services ou MAPI appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) du récepteur de notification enregistré. L'un des paramètres de **OnNotify**, une structure de notification, contient des informations qui décrivent l'événement spécifique.
+Pour envoyer une notification, le fournisseur de services ou MAPI appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) du sink de notification inscrit. L’un des paramètres **de OnNotify**, une structure de notification, contient des informations qui décrivent l’événement spécifique.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Sur les systèmes qui prennent en charge plusieurs threads d'exécution, l'appel à **OnNotify** peut également se produire sur n'importe quel thread à tout moment. Si vous avez besoin d'assurance que les notifications ne se produiront qu'à un moment donné sur un thread particulier, appelez la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour générer l'objet de récepteur de notifications que vous transmettez à la méthode Advise. **** 
+Sur les systèmes qui prendre en charge plusieurs threads d’exécution, l’appel à **OnNotify** peut également se produire sur n’importe quel thread à tout moment. Si vous avez besoin d’assurance que les notifications ne se produisent qu’à un moment particulier sur un thread particulier, appelez la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour générer l’objet de réception de notification que vous passez à la méthode **Advise.** 
   
-Pour déterminer quand un client a fermé une session, inscrivez-vous aux notifications dans votre **** fournisseur de services en appelant Advise avec _LPENTRYID_ défini sur null et _cbEntryID_ défini sur 0. Lorsque la déconnexion se produit, vous recevez une notification fnevExtended. 
+Pour déterminer quand un client s’est déconnecté, inscrivez-vous aux notifications dans votre fournisseur de services en appelant **Advise** avec  _lpEntryID_ sur NULL et  _cbEntryID_ sur 0. Lorsque la logoff se produit, vous recevez une notification fnevExtended. 
   
-Une fois qu'un **** appel à Advise a réussi et avant [IMAPISession::](imapisession-unadvise.md) Unadvise a été appelé pour annuler l'inscription, libérer votre objet de récepteur de Conseil, sauf si vous disposez d'une utilisation de longue durée spécifique. 
+Une fois qu’un appel à **Advise** a réussi et avant que [IMAPISession::Unadvise](imapisession-unadvise.md) ait été appelé pour annuler l’inscription, relâchez votre objet de sink de conseil, sauf si vous avez une utilisation spécifique à long terme pour celui-ci. 
   
-Pour obtenir une vue d'ensemble du processus de notification, consultez la rubrique notifications d' [événements dans MAPI](event-notification-in-mapi.md). 
+Pour une vue d’ensemble du processus de notification, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). 
   
-Pour plus d'informations sur la gestion des notifications, consultez la rubrique [gestion](handling-notifications.md)des notifications. 
+Pour plus d’informations sur la gestion des notifications, voir [Gestion des notifications.](handling-notifications.md) 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -139,7 +139,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|BaseDialog. cpp  <br/> |CBaseDialog:: OnNotificationsOn  <br/> |MFCMAPI utilise la méthode **IMAPISession:: Advise** pour s'inscrire aux notifications par rapport à la session.  <br/> |
+|BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI utilise la **méthode IMAPISession::Advise** pour s’inscrire aux notifications par rapport à la session.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -158,5 +158,5 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Notification d'événement dans MAPI](event-notification-in-mapi.md)
+[Notification d’événement dans MAPI](event-notification-in-mapi.md)
 

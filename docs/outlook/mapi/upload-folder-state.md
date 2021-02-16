@@ -1,5 +1,5 @@
 ---
-title: Télécharger l'état du dossier
+title: Charger l’état du dossier
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,36 +13,36 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419568"
 ---
-# <a name="upload-folder-state"></a>Télécharger l'état du dossier
+# <a name="upload-folder-state"></a>Charger l’état du dossier
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se passe lors de l'état du dossier de chargement de la machine à États de réplication. 
+ Cette rubrique décrit ce qui se produit pendant l’état du dossier de chargement de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d'État:  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |
-|Structure de données associée:  <br/> |**[UPFLD](upfld.md)** <br/> |
-|À partir de cet État:  <br/> |[Charger l'état de la hiérarchie](upload-hierarchy-state.md) <br/> |
-|À cet État:  <br/> |Charger l'état de la hiérarchie  <br/> |
+|Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |
+|Structure de données associée :  <br/> |**[UPFLD](upfld.md)** <br/> |
+|À partir de cet état :  <br/> |[Télécharger l’état de la hiérarchie](upload-hierarchy-state.md) <br/> |
+|À cet état :  <br/> |Télécharger l’état de la hiérarchie  <br/> |
    
 > [!NOTE]
-> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
+> La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
   
 ## <a name="description"></a>Description
 
-Cet État lance le téléchargement d'un dossier dans une hiérarchie qui a été spécifiée dans un état de hiérarchie de téléchargement précédent. Dans cet État, Outlook fournit l'objet Folder (s'il n'a pas été supprimé) et les indicateurs indiquant l'état du dossier (nouveau, déplacé, modifié ou supprimé) dans le cadre de la structure de données **UPFLD** correspondante. Le client télécharge ensuite ces informations sur le serveur. 
+Cet état lance le téléchargement d’un dossier dans une hiérarchie qui a été spécifiée dans un état de hiérarchie de téléchargement précédent. Pendant cet état, Outlook fournit l’objet dossier (s’il n’a pas été supprimé) et les indicateurs indiquant l’état du dossier (nouveau, déplacé, modifié ou supprimé) dans le cadre de la structure de données **UPFLD** correspondante. Le client charge ensuite ces informations sur le serveur. 
   
-Si le chargement réussit, le client définit *ulFlags* dans **UPFLD** sur **UPF_OK**. Outlook efface ensuite ses informations internes sur la demande de téléchargement du dossier. 
+Si le chargement réussit, le client définit  *ulFlags*  dans **UPFLD** sur **UPF_OK**. Outlook effacera ensuite ses informations internes sur la demande de téléchargement du dossier. 
   
-Une fois le téléchargement du dossier terminé, le magasin local revient à l'état de la hiérarchie de téléchargement. En fonction de **[](uphier.md)** la structure de la mise à niveau automatique correspondant à l'état de la hiérarchie de téléchargement précédente, Outlook détermine s'il faut continuer à télécharger le dossier suivant et à préparer l'état du dossier de chargement suivant. 
+Lorsque le chargement du dossier se termine, la boutique locale revient à l’état de hiérarchie de chargement. En fonction de la structure **[UPHIER](uphier.md)** correspondant à l’état de hiérarchie de chargement précédent, Outlook détermine s’il faut poursuivre le chargement du dossier suivant et préparer l’état du dossier de chargement suivant. 
   
 > [!NOTE]
-> Si le client a besoin de télécharger un seul dossier, le client peut lancer la réplication via l' [État Synchronize](synchronize-state.md) sans entrer l'état de la hiérarchie de chargement. Le client définit certains membres de la **[synchronisation](sync.md)** ( *ulFlags* à **UPS_UPLOAD_ONLY** et **UPS_ONE_FOLDER** et *FEID* à l'ID du dossier) pour indiquer à Outlook qu'un seul dossier sera chargé. 
+> Si le client n’a besoin de télécharger qu’un seul dossier, il peut lancer la réplication via l’état de synchronisation sans passer par l’état de hiérarchie de téléchargement. [](synchronize-state.md) Le client définit certains membres de **[SYNC](sync.md)**  *(ulFlags*  sur **UPS_UPLOAD_ONLY** et **UPS_ONE_FOLDER** et  *sur*  l’ID du dossier) pour indiquer à Outlook qu’un seul dossier sera téléchargé. 
   
 ## <a name="see-also"></a>Voir aussi
 

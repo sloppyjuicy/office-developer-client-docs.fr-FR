@@ -25,32 +25,32 @@ ms.locfileid: "33419246"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un nom de dossier utilisé pour les entrées de carnet d'adresses.
+Contient un nom de dossier utilisé pour les entrées de carnet d’adresses.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_FOLDER_NAME, PR_CONTAB_FOLDER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x6613  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les caractères suivants ne peuvent pas être utilisés dans les noms de dossiers:
+Les caractères suivants ne peuvent pas être utilisés dans les noms de dossiers :
   
 [ ] / \ &amp; ~ ? \* | \<\> " ; : +
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

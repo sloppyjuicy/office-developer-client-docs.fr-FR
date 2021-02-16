@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251313
 localization_priority: Normal
 ms.assetid: b88588a2-c651-7eab-9c7a-ed78f20d1ba3
-description: Cellule Event qui est évaluée lorsque la position ou l'orientation d'une forme sur la page est modifiée (XF).
+description: Cellule d’événement évaluée lors de la transformation de la position ou de l’orientation d’une forme sur la page (XF).
 ms.openlocfilehash: c4ed4ddd9b255a9a52fc81349b514dbd25772c98
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule Event XFMod à l'aide d'un index à p
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowEvent** <br/> |
 | Index de la cellule :  <br/> |**visEvtCellXFMod** <br/> |
    

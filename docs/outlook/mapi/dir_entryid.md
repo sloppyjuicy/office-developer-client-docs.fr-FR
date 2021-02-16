@@ -15,17 +15,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421234"
 ---
-# <a name="direntryid"></a>DIR_ENTRYID
+# <a name="dir_entryid"></a>DIR_ENTRYID
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit les propriétés d'un ID d'entrée d'annuaire.
+Décrit les propriétés d’un ID d’entrée d’annuaire.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |EntryID. h  <br/> |
+|Fichier d’en-tête :  <br/> |entryid.h  <br/> |
    
 ```cpp
 #pragma pack(4)
@@ -44,33 +44,33 @@ typedef struct _dir_entryid
 
  **abFlags**
   
-> Masque de des indicateurs qui fournit des informations décrivant l'objet. Pour plus d'informations, reportez-vous à la description du champ **abFlags** d'une structure [EntryID](entryid.md) . 
+> Masque de bits d’indicateurs qui fournit des informations décrivant l’objet. Pour plus d’informations, voir la description du champ **abFlags** d’une structure [ENTRYID.](entryid.md) 
     
  **muid**
   
-> GUID qui identifie le fournisseur de banque.
+> GUID qui identifie le fournisseur du magasin.
     
  **ulVersion**
   
-> Numéro de version de la structure **DIR_ENTRYID** . Doit être défini sur CONTAB_VERSION. 
+> Numéro de version de la structure **DIR_ENTRYID** de base. Doit être définie sur CONTAB_VERSION. 
     
  **ulType**
   
-> Entier représentant le type d'ID d'entrée d'annuaire. Il doit prendre la valeur de l'une des valeurs suivantes:
+> Un integer représentant le type d’ID d’entrée d’annuaire. Elle doit avoir l’une des valeurs suivantes :
     
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|CONTAB_ROOT  <br/> |Dossier racine d'un carnet d'adresses MAPI.  <br/> |
+|CONTAB_ROOT  <br/> |Dossier racine d’un carnet d’adresses MAPI.  <br/> |
 |CONTAB_SUBROOT  <br/> |Sous-dossier inclus dans le dossier racine de l’objet de carnet d’adresses MAPI.  <br/> |
 |CONTAB_CONTAINER  <br/> |Un objet conteneur de carnet d'adresses.  <br/> |
    
  **muidID**
   
-> GUID qui identifie l'objet d'ouverture de session.
+> GUID qui identifie l’objet d’identification.
     
 ## <a name="remarks"></a>Remarques
 
-Les structures **DIR_ENTRYID** et [CONTAB_ENTRYID](contab_entryid.md) sont identiques, à l'exception du membre **ulType** . Le contenu du membre **ulType** détermine la structure appropriée pour les champs restants. 
+Les structures **DIR_ENTRYID** et [CONTAB_ENTRYID](contab_entryid.md) sont identiques, à l’exception du **membre ulType.** Le contenu du membre **ulType** détermine la structure appropriée pour les champs restants. 
   
 ## <a name="see-also"></a>Voir aussi
 

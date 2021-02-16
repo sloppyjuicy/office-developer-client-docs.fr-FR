@@ -25,7 +25,7 @@ ms.locfileid: "33418721"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Copie une valeur d'une propriété à valeurs multiples dans une propriété à valeur unique du même type. 
+Copie une valeur dans une propriété à valeurs multiples dans une propriété à valeur unique du même type. 
   
 |||
 |:-----|:-----|
@@ -45,15 +45,15 @@ VOID GetInstance(
 
  _pvalMv_
   
-> dans Pointeur vers une structure [SPropValue](spropvalue.md) définissant une propriété à valeurs multiples. 
+> [in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant une propriété à valeurs multiples. 
     
  _pvalSv_
   
-> dans Pointeur vers une propriété à valeur unique qui doit recevoir des données. 
+> [in] Pointeur vers une propriété à valeur unique pour recevoir des données. 
     
  _uliInst_
   
-> dans Le numéro d'instance, autrement dit, l'élément de tableau, de la valeur copiée à partir de la structure indiquée par le paramètre _pvalMv_ . 
+> [in] Numéro d’instance, c’est-à-dire, l’élément de tableau, de la valeur copiée à partir de la structure indiquée par le _paramètre pvalMv._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,6 +61,6 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si la valeur copiée est trop grande pour la mémoire allouée, la fonction **GetInstance** copie uniquement les pointeurs au lieu d'allouer de la mémoire. 
+Si la valeur copiée est trop importante pour la mémoire allouée, la fonction **GetInstance** copie uniquement les pointeurs au lieu d’allouer une nouvelle mémoire. 
   
 

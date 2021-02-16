@@ -23,12 +23,12 @@ ms.locfileid: "33420807"
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLCHECKBOX](dtblcheckbox.md) pour la description d'un contrôle case à cocher et une étiquette d'une longueur spécifiée. 
+Crée une structure nommée qui inclut une structure [DTBLCHECKBOX](dtblcheckbox.md) pour décrire un contrôle case à cocher et une étiquette d’une longueur spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**DTBLCHECKBOX** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**DTBLCHECKBOX** <br/> |
    
 ```cpp
 SizedDtblCheckBox (n, u)
@@ -38,7 +38,7 @@ SizedDtblCheckBox (n, u)
 
 _n_
   
-> Longueur de l'étiquette à inclure dans la nouvelle structure.
+> Longueur de l’étiquette à inclure dans la nouvelle structure.
     
 _u_
   
@@ -46,14 +46,14 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblCheckBox** vous permet de définir une case à cocher lorsque le nombre de caractères d'étiquette est connu. La nouvelle structure est créée avec les membres suivants: 
+La macro **SizedDtblCheckBox** vous permet de définir une case à cocher lorsque le nombre de caractères d’étiquette est connu. La nouvelle structure est créée avec les membres suivants : 
   
 ```cpp
 DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblCheckBox** en tant que pointeur de structure **DTBLCHECKBOX** , effectuez la conversion suivante: 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblCheckBox** en tant que pointeur de structure **DTBLCHECKBOX,** effectuez la distribution suivante : 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;

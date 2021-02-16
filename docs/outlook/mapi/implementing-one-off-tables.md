@@ -1,5 +1,5 @@
 ---
-title: Implémentation de tables ponctuelles
+title: Mise en œuvre One-Off tables
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,26 +15,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421640"
 ---
-# <a name="implementing-one-off-tables"></a>Implémentation de tables ponctuelles
+# <a name="implementing-one-off-tables"></a>Mise en œuvre One-Off tables
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Votre fournisseur peut implémenter une ou plusieurs tables ponctuelles. Une table ponctuelle est une liste récapitulative des modèles uniques utilisés pour créer des destinataires, directement dans un conteneur ou dans la liste des destinataires d'un message sortant. Un modèle isolé est un formulaire que les utilisateurs emploient pour entrer des données relatives à un type d'adresse particulier. Lorsque l'utilisateur a terminé d'utiliser le modèle, le fournisseur crée le nouveau destinataire et l'ajoute au message. En règle générale, chaque modèle gère un seul type d'adresse. Toutefois, il est possible qu'un modèle gère plusieurs types ou que plusieurs modèles gèrent le même type. 
+Votre fournisseur peut implémenter une ou plusieurs tables one-off. Un tableau unique est une liste récapitulatif des modèles unique utilisés pour créer des destinataires, soit directement dans un conteneur, soit dans la liste des destinataires d’un message sortant. Un modèle unique est un formulaire que les utilisateurs utilisent pour entrer des données relatives à un type particulier d’adresse. Lorsque l’utilisateur a terminé de travailler avec le modèle, votre fournisseur crée le nouveau destinataire et l’ajoute au message. En règle générale, chaque modèle gère un type d’adresse unique. Toutefois, il est possible pour un modèle de gérer plusieurs types ou pour plusieurs modèles de gérer le même type. 
   
-Votre fournisseur doit prendre en charge la méthode **OpenEntry** pour chaque modèle qu'il inclut dans la table ponctuelle. L'implémentation de **OpenEntry** doit récupérer une table d'affichage pour le modèle. MAPI utilise la table d'affichage pour faire en sorte que le modèle soit visible par l'utilisateur. 
+Votre fournisseur doit prendre en charge **la méthode OpenEntry** pour chaque modèle qu’il inclut dans la table unique. L’implémentation **d’OpenEntry** doit récupérer une table d’affichage pour le modèle. MAPI utilise le tableau d’affichage pour rendre le modèle visible par l’utilisateur. 
   
-Bien que la plupart des lignes des tables ponctuelles représentent des modèles, certaines lignes peuvent être utilisées pour catégoriser ou regrouper des modèles. Si une ligne d'une table ponctuelle représente un modèle est indiquée par la valeur de sa colonne **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)). Les lignes qui représentent des modèles ont la colonne PR_SELECTABLE définie sur TRUE; les lignes qui ne représentent pas de modèles ont la valeur FALSe.
+Bien que la plupart des lignes dans des tableaux non personnalisés représentent des modèles, certaines de ces lignes peuvent être utilisées pour catégoriser ou grouper des modèles. Si une ligne dans un tableau unique représente un modèle est indiquée par la valeur de sa colonne **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)). Les lignes qui représentent des modèles ont la PR_SELECTABLE colonne définie sur TRUE ; pour les lignes qui ne représentent pas les modèles, la mise en page est définie sur FALSE.
   
-MAPI définit trois types de tables ponctuelles:
+MAPI définit trois types de tables one-off :
   
-- Table ponctuelle reflétant les modèles pris en charge par un conteneur individuel
+- Tableau unique qui reflète les modèles qu’un conteneur individuel prend en charge
     
-- Table ponctuelle reflétant tous les modèles pris en charge par votre fournisseur 
+- Tableau unique qui reflète tous les modèles que votre fournisseur prend en charge 
     
-- Une table ponctuelle reflétant tous les modèles pris en charge par tous les fournisseurs du profil, ainsi que ceux pris en charge par MAPI
+- Tableau unique qui reflète tous les modèles que tous les fournisseurs du profil prend en charge, ainsi que certains modèles que MAPI prend en charge
     
-Les deux premiers types sont implémentés par les fournisseurs qui prennent en charge les destinataires de la création, soit sur un message, soit dans un conteneur. Votre fournisseur peut inclure le même ensemble ou un ensemble de modèles différent dans ses tables ponctuelles. La principale différence entre ces deux types est que votre table de fournisseurs doit inclure des modèles pour la création de destinataires qui peuvent être utilisés sur les messages sortants et que votre table de conteneurs doit inclure des modèles pour la création de destinataires à ajouter à votre conteneur. Un conteneur ne peut prendre en charge qu'un ensemble restreint de modèles, mais la table ponctuelle du fournisseur doit inclure tous les modèles pris en charge par le fournisseur.
+Les deux premiers types sont implémentés par des fournisseurs qui prendre en charge les destinataires de création, soit dans un message, soit dans un conteneur. Votre fournisseur peut inclure le même ensemble ou un autre ensemble de modèles dans ses tables unique. La principale différence entre les deux types est que votre table de fournisseurs doit inclure des modèles de création de destinataires qui peuvent être utilisés sur les messages sortants et que votre table de conteneur doit inclure des modèles pour la création de destinataires à ajouter à votre conteneur. Un conteneur peut uniquement prendre en charge un ensemble restreint de modèles, mais le tableau unique fournisseur doit inclure chaque modèle que le fournisseur prend en charge.
   
-Le troisième type de table ponctuelle est implémenté par MAPI; les fournisseurs y accèdent en appelant [IMAPISupport:: GetOneOffTable](imapisupport-getoneofftable.md). La table ponctuelle MAPI est l'Union de toutes les tables des fournisseurs; Elle inclut tous les modèles pris en charge par tous les fournisseurs dans le profil. Il inclut également des modèles pris en charge par MAPI. Votre fournisseur peut utiliser ce tableau à la place de la table demandée pour un conteneur. Toutefois, les modèles de ce tableau peuvent également être utilisés pour créer des destinataires pour les messages sortants.
+Le troisième type de table one-off est implémenté par MAPI ; les fournisseurs y accèdent en appelant [IMAPISupport::GetOneOffTable](imapisupport-getoneofftable.md). La table MAPI est l’union de toutes les tables de fournisseurs ; il inclut tous les modèles pris en charge par chaque fournisseur dans le profil. Il inclut également les modèles pris en charge par MAPI. Votre fournisseur peut utiliser cette table à la place de la table demandée pour un conteneur. Toutefois, les modèles de ce tableau peuvent également être utilisés pour créer des destinataires pour les messages sortants.
   
 

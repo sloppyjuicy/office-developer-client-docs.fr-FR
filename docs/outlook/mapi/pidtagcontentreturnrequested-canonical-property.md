@@ -25,7 +25,7 @@ ms.locfileid: "33419771"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un message doit être renvoyé avec une notification d'échec de remise. 
+Contient TRUE si un message doit être renvoyé avec un rapport non remis. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la valeur TRUE si un message doit être renvoyé avec une notification 
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété n'est pas définie, MAPI la traite comme ayant une valeur TRUE. 
+Si cette propriété n’est pas définie, MAPI la traite comme ayant une valeur TRUE. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -22,13 +22,13 @@ Renvoie une chaîne convertie en minuscules.
   
 ## <a name="syntax"></a>Syntaxe
 
-LOWER (* * *expression* * *) 
+LOWER(** *expression* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**Réelle** <br/> | Chaîne, référence de cellule ou expression ; le résultat est converti en une chaîne à son tour convertie en minuscules.  <br/> |
+| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> | Chaîne, référence de cellule ou expression ; le résultat est converti en une chaîne à son tour convertie en minuscules.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

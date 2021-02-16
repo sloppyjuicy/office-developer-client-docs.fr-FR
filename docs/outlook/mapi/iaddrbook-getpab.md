@@ -25,7 +25,7 @@ ms.locfileid: "33419897"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie l'identificateur d'entrée du conteneur désigné comme carnet d'adresses personnel (PAB).
+Renvoie l’identificateur d’entrée du conteneur désigné comme carnet d’adresses personnel.
   
 ```cpp
 HRESULT GetPAB(
@@ -38,21 +38,21 @@ HRESULT GetPAB(
 
  _lpcbEntryID_
   
-> remarquer Pointeur vers le nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lppEntryID_ . 
+> [out] Pointeur vers le nombre d’byte dans l’identificateur d’entrée pointé par _le paramètre lppEntryID._ 
     
  _lppEntryID_
   
-> remarquer Pointeur vers un pointeur vers l'identificateur d'entrée du PAB. Le paramètre _lppEntryID_ contient la valeur zéro si aucun conteneur n'a été désigné comme PAB. 
+> [out] Pointeur vers un pointeur vers l’identificateur d’entrée du PAB. Le  _paramètre lppEntryID_ contient zéro si aucun conteneur n’a été désigné comme PAB. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'identificateur d'entrée du PAB a été renvoyé.
+> L’identificateur d’entrée du PAB a été renvoyé avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-Les clients appellent la méthode **GetPAB** pour récupérer l'identificateur d'entrée du conteneur désigné en tant que PAB. Si un PAB n'a pas été établi dans le profil, MAPI sélectionne comme PAB le premier conteneur de la hiérarchie des carnets d'adresses qui autorise les modifications. 
+Les clients appellent **la méthode GetPAB** pour récupérer l’identificateur d’entrée du conteneur désigné comme PAB. Si un carnet d’adresses en mode page n’a pas été établi dans le profil, MAPI sélectionne comme carnet d’adresses en mode page le premier conteneur dans la hiérarchie de carnet d’adresses qui autorise les modifications. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -60,7 +60,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnOpenPAB  <br/> |MFCMAPI utilise la méthode **GetPAB** pour obtenir l'ID du carnet d'adresses personnel de l'utilisateur.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI utilise la **méthode GetPAB** pour obtenir l’ID du carnet d’adresses personnel de l’utilisateur.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

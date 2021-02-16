@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule EndTrigger à l'aide d'un index à pa
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
 | Index de la cellule :  <br/> |**visEndTrigger** <br/> |
    

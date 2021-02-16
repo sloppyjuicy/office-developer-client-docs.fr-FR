@@ -1,5 +1,5 @@
 ---
-title: Réception de messages à l'aide de fournisseurs de banques de messages
+title: Réception de messages à l’aide de fournisseurs de magasins de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,35 +15,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418728"
 ---
-# <a name="receiving-messages-by-using-message-store-providers"></a>Réception de messages à l'aide de fournisseurs de banques de messages
+# <a name="receiving-messages-by-using-message-store-providers"></a>Réception de messages à l’aide de fournisseurs de magasins de messages
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fournisseurs de banques de messages ne doivent pas prendre en charge les envois de messages entrants (autrement dit, prendre en charge la possibilité pour les fournisseurs de transport et le spouleur MAPI d'utiliser le fournisseur de banques de messages comme point de remise pour les messages). Toutefois, si votre fournisseur de banque de messages ne prend pas en charge les envois de messages entrants, il ne peut pas être utilisé comme banque de messages par défaut.
+Les fournisseurs de magasins de messages n’ont pas besoin de prendre en charge les envois de messages entrants (autrement dit, la prise en charge de la possibilité pour les fournisseurs de transport et lepooler MAPI d’utiliser le fournisseur de magasin de messages comme point de remise pour les messages). Toutefois, si votre fournisseur de magasin de messages ne prend pas en charge les envois de messages entrants, il ne peut pas être utilisé comme magasin de messages par défaut.
   
-Pour prendre en charge les envois de messages entrants, votre fournisseur de banque de messages doit effectuer les opérations suivantes:
+Pour prendre en charge les envois de messages entrants, votre fournisseur de magasins de messages doit :
   
-- Prendre en charge les méthodes [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) et [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md) afin que les applications clientes puissent trouver les messages entrants. 
+- Prendre en charge les méthodes [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) et [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) pour que les applications clientes trouvent les messages entrants. 
     
-- Prendre en charge la méthode [IMsgStore:: NotifyNewMail](imsgstore-notifynewmail.md) afin que le spouleur MAPI puisse informer le fournisseur de banque de messages qu'un nouveau message est arrivé. 
+- Prise en charge de la méthode [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md) afin que lepooler MAPI puisse informer le fournisseur de la boutique de messages qu’un nouveau message est arrivé. 
     
-- Implémenter des notifications afin que les clients puissent s'inscrire pour recevoir des notifications de nouveau message. Les notifications sont facultatives, mais votre fournisseur doit les implémenter.
+- Implémentez des notifications afin que les clients peuvent s’inscrire à la nouvelle notification de message. Les notifications sont facultatives, mais votre fournisseur doit les implémenter.
     
-La séquence des appels de méthode qui se produit lorsqu'un message entrant est remis à une banque de messages est la suivante:
+La séquence d’appels de méthode qui se produit lorsqu’un message entrant est remis à une magasin de messages est la suivante :
   
-1. Le spouleur MAPI appelle [IMsgStore:: OpenEntry](imsgstore-openentry.md) avec l' [EntryID](entryid.md) de la boîte de réception pour obtenir une interface [IMAPIFolder](imapifolderimapicontainer.md) . 
+1. Lepooler MAPI appelle [IMsgStore::OpenEntry](imsgstore-openentry.md) avec [l’ID](entryid.md) d’entrée de boîte de réception pour obtenir une interface [IMAPIFolder.](imapifolderimapicontainer.md) 
     
-2. Le spouleur MAPI appelle [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) pour obtenir un nouvel objet message. 
+2. Lepooler MAPI appelle [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour obtenir un nouvel objet message. 
     
-3. Le spouleur MAPI transmet l'objet message au fournisseur de transport.
+3. Lepooler MAPI transmet l’objet message au fournisseur de transport.
     
-4. Le fournisseur de transport remplit les propriétés du message avec des données du système de messagerie sous-jacent et appelle la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) de l'objet message. 
+4. Le fournisseur de transport remplit les propriétés du message avec les données du système de messagerie sous-jacent et appelle la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de l’objet message. 
     
-5. Le fournisseur de banque de messages utilise sa méthode de notification pour informer les clients inscrits qu'un nouveau message est arrivé.
+5. Le fournisseur de magasins de messages utilise sa méthode de notification pour informer les clients inscrits qu’un nouveau message est arrivé.
     
-6. Le spouleur MAPI appelle la méthode [IMsgStore:: NotifyNewMail](imsgstore-notifynewmail.md) de la Banque de messages. 
+6. Lepooler MAPI appelle la méthode [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md) de la boutique de messages. 
     
 ## <a name="see-also"></a>Voir aussi
 

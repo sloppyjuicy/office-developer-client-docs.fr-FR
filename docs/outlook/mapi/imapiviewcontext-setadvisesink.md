@@ -25,7 +25,7 @@ ms.locfileid: "33419393"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère l'inscription d'un formulaire pour recevoir des notifications sur les modifications apportées à la visionneuse. 
+Gère l’inscription d’un formulaire pour recevoir des notifications sur les modifications apportées à la visionneuse. 
   
 ```cpp
 HRESULT SetAdviseSink(
@@ -37,23 +37,23 @@ LPMAPIFORMADVISESINK pmvns
 
  _pmvns_
   
-> dans Pointeur vers un objet récepteur Form Advise ou NULL.
+> [in] Pointeur vers un objet de type sink ou NULL de conseil de formulaire.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'enregistrement ou l'annulation de la notification de formulaire a réussi.
+> L’inscription ou l’annulation de la notification de formulaire a réussi.
     
 ## <a name="remarks"></a>Remarques
 
-Objets de formulaire appelez la méthode **IMAPIViewContext:: SetAdviseSink** pour vous inscrire afin d'en savoir plus sur les modifications apportées à la visionneuse de formulaires ou annuler une inscription précédente. Lorsque _pmvns_ est défini sur null, le formulaire veut annuler une inscription. Lorsque _pmvns_ pointe vers un récepteur de formulaire Advise valide, le formulaire veut s'inscrire aux notifications futures. 
+Les objets form appellent la méthode **IMAPIViewContext::SetAdviseSink** pour s’inscrire afin d’en savoir plus sur les modifications apportées à la visionneuse de formulaires ou annuler une inscription préalable. Lorsque  _pmvns est_ définie sur NULL, le formulaire souhaite annuler une inscription. Lorsque  _pmvns_ pointe vers un formulaire de notification valide, le formulaire souhaite s’inscrire pour les notifications futures. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Lorsque **SetAdviseSink** inclut un pointeur de récepteur de formulaire, conservez une référence à celui-ci jusqu'à ce qu'un autre appel **SetAdviseSink** soit effectué pour annuler la notification. Envoyer une notification lorsqu'une modification survient dans votre visionneuse et lorsque vous chargez un nouveau message. 
+Lorsque **SetAdviseSink** inclut un pointeur de réception de notification de formulaire, conservez une référence à ce dernier jusqu’à ce qu’un autre appel **SetAdviseSink** soit effectué pour annuler la notification. Envoyez une notification lorsqu’une modification se produit dans votre visionneuse et lorsque vous chargez un nouveau message. 
   
-Pour plus d'informations, consultez la rubrique [envoi et réception](sending-and-receiving-form-notifications.md)de notifications de formulaire.
+Pour plus d’informations, voir [Envoyer et recevoir des notifications de formulaire.](sending-and-receiving-form-notifications.md)
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -61,7 +61,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SetAdviseSink  <br/> |MFCMAPI implémente la méthode **IMAPIViewContext:: SetAdviseSink** dans cette fonction.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SetAdviseSink  <br/> |MFCMAPI implémente la **méthode IMAPIViewContext::SetAdviseSink** dans cette fonction.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

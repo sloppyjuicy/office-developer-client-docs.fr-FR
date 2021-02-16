@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251461
 localization_priority: Normal
 ms.assetid: 9f443687-9861-5f51-94c4-f056805f736b
-description: Renvoie l'amplitude du vecteur dont la hauteur est A et dont l'exécution est B, multipliée par les constantes constanteA et constanteB.
+description: Renvoie la magnitude du vecteur dont la montée est A et dont la run est B, multipliée par les constantes respectives constantA et constantB.
 ms.openlocfilehash: 6393c7827e2553ca4948c8b9c51075ca8e4783bd
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,26 +18,26 @@ ms.locfileid: "33420457"
 ---
 # <a name="magnitude-function"></a>Fonction MAGNITUDE
 
-Renvoie l'amplitude du vecteur dont la hauteur est _a_ et dont l'exécution est _B_, multipliée par les constantes _constanteA_ et _constanteB_. 
+Renvoie la magnitude du vecteur dont la montée est  _A_ et dont la run est  _B_, multipliée par les constantes respectives  _constantA_ et  _constantB_. 
   
 ## <a name="syntax"></a>Syntaxe
 
-AMPLITUDE (* * *constanteA* * *, * * *A* * *, * * *constanteB* * *, * * *B* * *) 
+MAGNITUDE(** *constantA* **, ** *A* **, ** *constantB* **, ** *B* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _constanteA_ <br/> |Obligatoire  <br/> |**Number** <br/> |Constante par laquelle multiplier la hauteur  <br/> |
+| _constantA_ <br/> |Obligatoire  <br/> |**Number** <br/> |Constante par laquelle multiplier la hauteur  <br/> |
 | _A_ <br/> |Obligatoire  <br/> |**Number** <br/> |Hauteur  <br/> |
-| _constanteB_ <br/> |Obligatoire  <br/> |**Number** <br/> |Constante par laquelle multiplier la longueur  <br/> |
-| _Point_ <br/> |Obligatoire  <br/> |**Number** <br/> |Longueur  <br/> |
+| _constantB_ <br/> |Obligatoire  <br/> |**Number** <br/> |Constante par laquelle multiplier la longueur  <br/> |
+| _B_ <br/> |Obligatoire  <br/> |**Number** <br/> |Longueur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 La fonction MAGNITUDE est calculée selon la formule suivante :
   
-SQRT ((constanteA \* A) ^ 2 + (constanteB \* B) ^ 2)
+SQRT((constantA \* A)^2 + (constantB \* B)^2)
   
 ## <a name="example"></a>Exemple
 

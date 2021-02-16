@@ -1,5 +1,5 @@
 ---
-title: Détermination de la fin d'une table
+title: Détermination de la fin d’une table
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420086"
 ---
-# <a name="determining-a-tables-end"></a>Détermination de la fin d'une table
+# <a name="determining-a-tables-end"></a>Détermination de la fin d’une table
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Une erreur courante consiste à supposer que la fin de la table a été atteinte dans les cas suivants: 
+ Une erreur courante consiste à supposer que la fin du tableau a été atteinte dans les cas suivants : 
   
-- [IMAPITable:: QueryRows](imapitable-queryrows.md) a été appelé dans une boucle, avec la fin de la boucle déterminée par le nombre de lignes renvoyé par la méthode [IMAPITable:: GetRowCount](imapitable-getrowcount.md). Le nombre renvoyé par **GetRowCount** ne représente pas toujours le nombre exact de lignes dans le tableau; Il s'agit d'un nombre approximatif. 
+- [IMAPITable::QueryRows](imapitable-queryrows.md) a été appelé dans une boucle, avec la fin de la boucle déterminée par le nombre de lignes renvoyé par [IMAPITable::GetRowCount](imapitable-getrowcount.md). Le nombre que **GetRowCount renvoie** ne représente pas toujours le nombre exact de lignes dans le tableau ; il s’agit d’un nombre approximatif. 
     
-- **QueryRows** a été appelé avec un nombre fixe de lignes et moins de lignes sont renvoyées. Il n'est pas jusqu'à ce que **QueryRows** renvoie un jeu de lignes dont le nombre de lignes est égal à zéro, il n'y a plus de lignes à récupérer. 
+- **QueryRows a** été appelé avec un nombre fixe de lignes et moins de lignes sont renvoyées. Ce n’est qu’après que **QueryRows** renvoie un jeu de lignes avec un nombre de lignes égal à zéro qu’il n’y a plus de lignes à récupérer. 
     
 > [!IMPORTANT]
-> Le seul moment où un appelant peut supposer que le curseur est positionné à la fin de la table pour un nombre positif de lignes ou au début de la table pour un nombre de lignes négatif est lorsque la valeur S_OK et zéro ligne sont renvoyées. La valeur MAPI_E_NOT_FOUND n'est jamais renvoyée. 
+> La seule fois qu’un appelant peut supposer que le curseur est positionné à la fin du tableau pour un nombre de lignes positif ou au début du tableau pour un nombre de lignes négatif, c’est lorsque la valeur S_OK et zéro lignes sont renvoyées. La valeur MAPI_E_NOT_FOUND n’est jamais renvoyée. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

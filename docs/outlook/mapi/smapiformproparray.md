@@ -25,12 +25,12 @@ ms.locfileid: "33420065"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de structures [SMAPIFormProp](smapiformprop.md) . 
+Contient un tableau de structures [SMAPIFormProp.](smapiformprop.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Macro connexe:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Macro associée :  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -46,7 +46,7 @@ typedef struct
 
  **cProps**
   
-> Nombre de propriétés nommées dans le tableau dans le membre **aFormProp** . 
+> Nombre de propriétés nommées dans le tableau dans le **membre aFormProp.** 
     
  **ulPad**
   
@@ -58,7 +58,7 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMAPIFormPropArray** est transmise en tant que paramètre aux méthodes suivantes: 
+La structure **SMAPIFormPropArray** est transmise en tant que paramètre aux méthodes suivantes : 
   
 - [IMAPIFormInfo::CalcFormPropSet](imapiforminfo-calcformpropset.md)
     

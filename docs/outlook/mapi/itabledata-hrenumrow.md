@@ -25,7 +25,7 @@ ms.locfileid: "33418371"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère une ligne en fonction de sa position dans le tableau. 
+Extrait une ligne en fonction de sa position dans le tableau. 
   
 ```cpp
 HRESULT HrEnumRow(
@@ -38,27 +38,27 @@ HRESULT HrEnumRow(
 
  _ulRowNumber_
   
-> dans Numéro de la ligne dont les propriétés doivent être renvoyées. La valeur du paramètre _ulRowNumber_ peut être n'importe quelle valeur comprise entre 0, qui indique la première ligne du tableau, à n-1, qui indique la dernière ligne du tableau. 
+> [in] Numéro de la ligne pour laquelle renvoyer les propriétés. La valeur dans le paramètre  _ulRowNumber_ peut être n’importe quelle valeur de 0, ce qui indique la première ligne du tableau, à n - 1, ce qui indique la dernière ligne du tableau. 
     
  _lppSRow_
   
-> remarquer Pointeur vers un pointeur vers une structure [SRow](srow.md) qui décrit la ligne cible. 
+> [out] Pointeur vers un pointeur vers une structure [SRow](srow.md) qui décrit la ligne cible. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La ligne a été récupérée correctement ou une ligne pour le numéro de ligne spécifié par le paramètre _ulRowNumber_ n'existe pas. 
+> La ligne a été récupérée correctement ou une ligne pour le numéro de ligne spécifié par le paramètre  _ulRowNumber_ n’existe pas. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData:: HrEnumRow** extrait une ligne en fonction d'un numéro séquentiel. Ce nombre représente l'ordre d'insertion (0 indique la première ligne et le nombre de lignes moins 1 indique la dernière ligne). MAPI conserve cet ordre chronologique d'insertion de ligne pendant la durée de vie de l'objet de données de tableau. 
+La **méthode ITableData::HrEnumRow** récupère une ligne basée sur un numéro séquentiel. Ce nombre représente l’ordre d’insertion (0 indique la première ligne et le nombre de lignes moins 1 indique la dernière ligne). MAPI conserve cet ordre chronologique d’insertion de ligne pour la durée de vie de l’objet de données de table. 
   
-Si le nombre spécifié dans _ulRowNumber_ ne correspond pas à une ligne de la table, **HrEnumRow** renvoie S_OK et définit le paramètre _lppSRow_ sur null. 
+Si le nombre spécifié dans  _ulRowNumber_ ne correspond à aucune ligne du tableau, **HrEnumRow** renvoie S_OK et définit le paramètre  _lppSRow_ sur NULL. 
   
-MAPI alloue de la mémoire pour la structure **SRow** renvoyée à l'aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) lors de la création de l'objet de données de table. L'appelant doit libérer cette mémoire en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
+MAPI alloue de la mémoire pour la structure **SRow** renvoyée à l’aide de la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) lors de la création de l’objet de données de table. L’appelant doit libérer cette mémoire en appelant la [fonction MAPIFreeBuffer.](mapifreebuffer.md) 
   
-Pour récupérer des lignes d'un tableau dans l'ordre dans lequel elles ont été insérées, les utilisateurs de données de tableau appellent la méthode **HrEnumRow** . 
+Pour extraire des lignes d’une table dans l’ordre dans l’ordre où elles ont été insérées, les utilisateurs d’objets de données de table appellent la **méthode HrEnumRow.** 
   
 ## <a name="see-also"></a>Voir aussi
 

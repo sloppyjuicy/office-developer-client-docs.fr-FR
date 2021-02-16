@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251478
 localization_priority: Normal
 ms.assetid: 14d4e6bf-0961-7041-cf4a-9132ffbceb37
-description: Renvoie la constante mathématique pi, qui est approximativement 3.1415926535898.
+description: Renvoie la constante mathématique pi , qui est d’environ 3,1415926535898.
 ms.openlocfilehash: fccde47df34f3be92201427e46a2084f001e3cd1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33418378"
 ---
 # <a name="pi-function"></a>Fonction PI
 
-Renvoie la constante mathématique *pi* , qui est approximativement 3.1415926535898. 
+Renvoie la constante  *mathématique pi*  , qui est d’environ 3,1415926535898. 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -30,7 +30,7 @@ Nombre
   
 ## <a name="example"></a>Exemple
 
-(14 pouces/2) ^ 2 \* pi () 
+(14 in / 2)^2 \* PI( ) 
   
 Renvoie 3910 millimètres, l’aire d’un cercle dont le diamètre est de 355,6 millimètres. 
   

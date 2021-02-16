@@ -1,5 +1,5 @@
 ---
-title: État inActif
+title: État inactif
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,29 +13,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419477"
 ---
-# <a name="idle-state"></a>État inActif
+# <a name="idle-state"></a>État inactif
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se passe lors de l'état d'inactivité de la machine à États de réplication. 
+ Cette rubrique décrit ce qui se produit pendant l’état inactif de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d'État:  <br/> |**LR_SYNC_IDLE** <br/> |
-|Structure de données associée:  <br/> | *None*  <br/> |
-|À partir de cet État:  <br/> | *Non applicable*  <br/> |
-|À cet État:  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
+|Identificateur d’état :  <br/> |**LR_SYNC_IDLE** <br/> |
+|Structure de données associée :  <br/> | *Aucune*  <br/> |
+|À partir de cet état :  <br/> | *Non applicable*  <br/> |
+|À cet état :  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
    
 > [!NOTE]
-> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
+> La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
   
 ## <a name="description"></a>Description
 
-Rien ne se produit dans cet État. Un magasin local est dans cet état avant l'initialisation de la réplication et une fois la réplication terminée.
+Rien ne se passe dans cet état. Un magasin local est dans cet état avant le début de la réplication et une fois la réplication terminée.
   
 ## <a name="see-also"></a>Voir aussi
 

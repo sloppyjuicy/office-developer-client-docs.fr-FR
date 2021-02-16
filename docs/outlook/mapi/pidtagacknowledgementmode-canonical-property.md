@@ -25,7 +25,7 @@ ms.locfileid: "33418917"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur du mode pour l'accusé de réception des messages.
+Contient l’identificateur du mode pour l’accusé de réception du message.
   
 |||
 |:-----|:-----|
@@ -36,24 +36,24 @@ Contient l'identificateur du mode pour l'accusé de réception des messages.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement l'une des valeurs suivantes:
+Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Accusé de réception manuel.  <br/> |
-|0,1  <br/> |Accusé de réception automatique.  <br/> |
+|1   <br/> |Accusé de réception automatique.  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

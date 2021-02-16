@@ -23,15 +23,15 @@ Indique si les formes de la page peuvent être fractionnées automatiquement.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Ne pas autoriser le fractionnement automatique des formes.  <br/> |**visPLOSplitNone** <br/> |
-|0,1  <br/> |Autoriser le fractionnement automatique des formes (valeur par défaut).  <br/> |**visPLOSplitAllow** <br/> |
+|1   <br/> |Autoriser le fractionnement automatique des formes (valeur par défaut).  <br/> |**visPLOSplitAllow** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Le fractionnement automatique des formes est activé et désactivé à trois niveaux différents : application, page et forme. Par défaut, le fractionnement est activé aux niveaux application et page. Le paramètre par défaut pour les formes varie en fonction du type de dessin. 
   
-Pour activer ou désactiver le fractionnement au niveau de l'application, utilisez le paramètre autoriser le fractionnement des **liens** sous l'onglet **avancé** de la boîte de dialogue **options Visio** (cliquez sur le bouton **Office** , cliquez sur **options** dans **Visio** , puis cliquez sur **avancé** . 
+Pour activer ou désactiver le fractionnement  au niveau de  l’application, utilisez le paramètre Activer le fractionnement de connecteur sous l’onglet Avancé de la boîte de dialogue **Options Visio** (cliquez sur le bouton **Office,** cliquez sur **Options** sous l’onglet **Visio,** puis cliquez sur **Options** avancées). 
   
-Pour activer ou désactiver le fractionnement au niveau de la forme, reportez-vous aux cellules ShapeSplit et ShapeSplittable. 
+Pour activer ou désactiver le fractionnement au niveau de la forme, voir les cellules ShapeSplit et ShapeSplittable. 
   
 Pour obtenir une référence à la cellule PageShapeSplit par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -43,7 +43,7 @@ Pour obtenir une référence à la cellule PageShapeSplit à l'aide d'un index �
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOSplit** <br/> |
    

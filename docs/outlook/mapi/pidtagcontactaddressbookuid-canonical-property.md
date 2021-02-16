@@ -25,30 +25,30 @@ ms.locfileid: "33418308"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'UID qui identifie cette session du carnet d'adresses des contacts.
+Contient l’UID qui identifie cette session du carnet d’adresses du contact.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_UID  <br/> |
 |Identificateur :  <br/> |0x6601  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si plusieurs carnets d'adresses de contacts sont configurés, cette propriété doit être définie pour chacun d'eux. 
+Si plusieurs carnets d’adresses de contact sont configurés, cette propriété doit être définie pour chacun d’eux. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

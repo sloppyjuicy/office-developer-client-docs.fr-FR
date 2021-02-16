@@ -36,21 +36,21 @@ Contient le nom complet du destinataire qui doit obtenir des rapports pour ce me
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d'adresse pour le destinataire auquel l'expéditeur a délégué la réception des rapports générés pour ce message.
+Ces propriétés sont des exemples de propriétés d’adresse pour le destinataire que l’expéditeur a délégué pour recevoir tous les rapports générés pour ce message.
   
-Une application cliente qui doit acheminer des rapports à un autre utilisateur doit définir ces propriétés lors de l'envoi du message. Si elles ne sont pas définies, les rapports sont envoyés à l'expéditeur du message.
+Une application cliente qui doit router les rapports vers un autre utilisateur doit définir ces propriétés au moment de l’envoi du message. S’ils ne sont pas définies, les rapports sont envoyés à l’expéditeur du message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

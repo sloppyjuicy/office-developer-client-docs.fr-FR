@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251391
 localization_priority: Normal
 ms.assetid: 434d7ceb-1050-c667-fb3d-b6634440c18e
-description: Renvoie la valeur TRUE (1) si toutes les expressions logiques fournies sont vraies. Si l'une des expressions logiques est FALSe ou 0, la fonction et renvoie la valeur FALSe (0).
+description: Renvoie TRUE (1) si toutes les expressions logiques fournies sont TRUE. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
 ms.openlocfilehash: 74e8301718e69a2ab61f6bf9992d0d6855bbc6f1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33422011"
 ---
 # <a name="and-function"></a>Fonction AND
 
-Renvoie la valeur TRUE (1) si toutes les expressions logiques fournies sont vraies. Si l'une des expressions logiques est FALSe ou 0, la fonction et renvoie la valeur FALSe (0).
+Renvoie TRUE (1) si toutes les expressions logiques fournies sont TRUE. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
   
 ## <a name="syntax"></a>Syntaxe
 
-et (* * *opérateur logique expression1* * *, * * caractères *logiques expression2* * *,..., * * *logical expression* * *) 
+AND(** *logical expression1* **, ** *logical expression2* **,..., ** *logical expressionN* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,7 +32,7 @@ et (* * *opérateur logique expression1* * *, * * caractères *logiques expressi
    
 ## <a name="example"></a>Exemple
 
-ET (hauteur \> 1, PinX \> 1)
+AND(Height \> 1, PinX \> 1)
   
 Renvoie TRUE si les deux expressions sont vraies. Renvoie FALSE si l’une des expressions est fausse.
   

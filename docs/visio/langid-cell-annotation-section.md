@@ -21,7 +21,7 @@ ms.locfileid: "33422256"
 Indique la langue dans laquelle le commentaire a été entré.
   
 > [!NOTE]
-> Cette cellule est utilisée pour le suivi des commentaires uniquement lors de l'ouverture d'un fichier. VSD dans Microsoft Visio 2013 ou lors de l'enregistrement d'un fichier. vsdx au format de fichier. VSD. Il n'est pas utilisé pour suivre les commentaires dans les documents. vsdx dans Visio 2013. 
+> Cette cellule est utilisée pour suivre les commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd. Il n’est pas utilisé pour le suivi des commentaires dans les documents .vsdx dans Visio 2013. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -31,14 +31,14 @@ Pour obtenir une référence à la cellule LangID par un nom à partir d'une aut
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Annotation. LangID [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Annotation.LangID[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule LangID à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionAnnotation** <br/> |
-| Index de la ligne :  <br/> |**visRowAnnotation** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowAnnotation**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visAnnotationLangID** <br/> |
    
 

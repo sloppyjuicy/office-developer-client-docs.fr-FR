@@ -23,14 +23,14 @@ Détermine la déviation des traits de connecteurs.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Défini pour la page ; sous l’onglet **Création**, cliquez sur la flèche dans le groupe **Mise en page**, puis cliquez sur sur l’onglet **Disposition et positionnement** pour afficher les spécifications de la page  <br/> |**visSLOJumpDefault** <br/> |
-|0,1  <br/> |Jamais  <br/> |**visSLOJumpNever** <br/> |
-|n°2  <br/> |Toujours  <br/> |**visSLOJumpAlways** <br/> |
-|3  <br/> |L'autre connecteur est dévié  <br/> |**visSLOJumpOther** <br/> |
-|4  <br/> |Aucun connecteur n'est dévié  <br/> |**visSLOJumpNeither** <br/> |
+|1   <br/> |Jamais  <br/> |**visSLOJumpNever** <br/> |
+|2   <br/> |Toujours  <br/> |**visSLOJumpAlways** <br/> |
+|3   <br/> |L'autre connecteur est dévié  <br/> |**visSLOJumpOther** <br/> |
+|4   <br/> |Aucun connecteur n'est dévié  <br/> |**visSLOJumpNeither** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule en sélectionnant un connecteur dynamique, en cliquant sur **comportement** dans le groupe **création de forme** de l'onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , puis en cliquant sur l'onglet **connecteur** . 
+Vous pouvez également définir la valeur de cette cellule  en sélectionnant un connecteur [](run-in-developer-mode-display-the-developer-tab.md) dynamique, en cliquant sur Comportement dans le groupe Création de forme sous l’onglet Développeur, puis sur l’onglet **Connecteur.**  
   
 Pour obtenir une référence à la cellule ConLineJumpCode par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -42,7 +42,7 @@ Pour obtenir une référence à la cellule ConLineJumpCode à l'aide d'un index 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 |Index de la cellule :  <br/> |**visSLOJumpCode** <br/> |
    

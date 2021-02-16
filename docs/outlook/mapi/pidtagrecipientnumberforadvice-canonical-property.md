@@ -25,7 +25,7 @@ ms.locfileid: "33420639"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient le numéro de téléphone du destinataire du message à appeler pour informer de la remise physique d'un message.
+Cette propriété contient le numéro de téléphone d’un destinataire du message à appeler pour informer de la remise physique d’un message.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Cette propriété contient le numéro de téléphone du destinataire du message 
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont destinées à être utilisées conjointement avec la remise à une destination physique, plutôt qu'une boîte aux lettres électronique, lorsque le destinataire humain n'est pas censé être présent à la remise. Par exemple, le numéro de téléphone d'une page de garde de télécopie.
+Ces propriétés sont destinées à être utilisées conjointement avec la remise à une destination physique, plutôt qu’à une boîte aux lettres électronique, lorsque le destinataire humain n’est pas censé être présent lors de la remise. Par exemple, le numéro de téléphone d’une feuille de couverture de télécopie.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

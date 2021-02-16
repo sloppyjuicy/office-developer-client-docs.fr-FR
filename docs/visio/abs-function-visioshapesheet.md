@@ -22,7 +22,7 @@ Renvoie la valeur absolue d’un nombre.
   
 ## <a name="syntax"></a>Syntaxe
 
-ABS ( *nombre*) 
+ABS( *nombre*) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,7 +32,7 @@ ABS ( *nombre*)
    
 ## <a name="example"></a>Exemple
 
-ABS (-1,24) 
+ABS(-1,24) 
   
 Renvoie 1,24.
   

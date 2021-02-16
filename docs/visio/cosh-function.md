@@ -22,7 +22,7 @@ Renvoie le cosinus hyperbolique d’un angle.
   
 ## <a name="syntax"></a>Syntaxe
 
-COSH ( *angle*) 
+COSH( *angle*) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,7 +32,7 @@ COSH ( *angle*)
    
 ## <a name="remarks"></a>Remarques
 
-La fonction COSH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *angle* . 
+La fonction COSH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *l’angle.* 
   
 ## <a name="example"></a>Exemple
 

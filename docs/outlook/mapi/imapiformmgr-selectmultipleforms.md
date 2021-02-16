@@ -25,7 +25,7 @@ ms.locfileid: "33420310"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche une boîte de dialogue qui permet à l'utilisateur de sélectionner plusieurs formulaires et renvoie un tableau d'objets d'informations de formulaire qui décrivent ces formulaires.
+Présente une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires et renvoie un tableau d’objets d’informations sur les formulaires qui décrivent ces formulaires.
   
 ```cpp
 HRESULT SelectMultipleForms(
@@ -42,53 +42,53 @@ HRESULT SelectMultipleForms(
 
  _ulUIParam_
   
-> dans Handle de la fenêtre parent de la boîte de dialogue affichée. 
+> [in] Poignée vers la fenêtre parente de la boîte de dialogue affichée. 
     
  _ulFlags_
   
-> dans Masque de bits des indicateurs qui contrôle le type des chaînes transmises. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le type des chaînes transmises. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les chaînes transmises sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
+> Les chaînes transmises sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
  _pszTitle_
   
-> dans Pointeur vers une chaîne qui contient la légende de la boîte de dialogue. Si le paramètre _pszTitle_ est null, le fournisseur de bibliothèque de formulaires qui fournit les formulaires fournit une légende par défaut. 
+> [in] Pointeur vers une chaîne qui contient la légende de la boîte de dialogue. Si le  _paramètre pszTitle_ est NULL, le fournisseur de bibliothèque de formulaires qui fournit les formulaires fournit une légende par défaut. 
     
  _pfld_
   
-> dans Pointeur vers le dossier à partir duquel sélectionner les formulaires. Si le paramètre _pfld_ est null, les formulaires sont sélectionnés à partir du conteneur de formulaire local, personnel ou organisation. 
+> [in] Pointeur vers le dossier à partir duquel sélectionner les formulaires. Si le  _paramètre pfld_ est NULL, les formulaires sont sélectionnés dans le conteneur de formulaires local, personnel ou d’organisation. 
     
  _pfrminfoarray_
   
-> dans Pointeur vers un tableau d'objets d'informations de formulaire présélectionnés pour l'utilisateur.
+> [in] Pointeur vers un tableau d’objets d’informations de formulaire pré-sélectionnés pour l’utilisateur.
     
  _ppfrminfoarray_
   
-> remarquer Pointeur vers un pointeur vers le tableau renvoyé d'objets d'informations de formulaire.
+> [out] Pointeur vers un pointeur vers le tableau renvoyé d’objets d’informations de formulaire.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la ou les valeurs attendues.
+> L’appel a réussi et a renvoyé la ou les valeurs attendues.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L'indicateur MAPI_UNICODE a été défini et l'implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et l'implémentation prend en charge uniquement Unicode.
+> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
     
 MAPI_E_USER_CANCEL 
   
-> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr:: SelectMultipleForms** pour commencer par présenter une boîte de dialogue qui permet à l'utilisateur de sélectionner plusieurs formulaires, puis de récupérer un tableau d'objets d'informations de formulaire qui décrivent les formulaires sélectionnés. La boîte de dialogue **SelectMultipleForms** affiche tous les formulaires, qu'ils soient ou non masqués (c'est-à-dire, si leurs propriétés masquées sont claires ou non). 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::SelectMultipleForms** pour présenter d’abord une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires, puis de récupérer un tableau d’objets d’informations sur les formulaires qui décrivent les formulaires sélectionnés. La boîte de dialogue **SelectMultipleForms** affiche tous les formulaires, qu’ils soient masqués ou non (c’est-à-dire, si leurs propriétés masquées sont claires ou non). 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si une visionneuse de formulaires transmet l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes sont au format Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prennent pas en charge les chaînes Unicode doivent renvoyer MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est transmis. 
+Si une visionneuse de formulaire passe l’MAPI_UNICODE dans le paramètre  _ulFlags,_ toutes les chaînes sont Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prisent pas en charge les chaînes Unicode doivent MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
   
 ## <a name="see-also"></a>Voir aussi
 

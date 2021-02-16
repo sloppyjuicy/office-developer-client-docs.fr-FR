@@ -38,29 +38,29 @@ HRESULT DeleteProfile(
 
  _lpszProfileName_
   
-> dans Pointeur vers le nom du profil à supprimer.
+> [in] Pointeur vers le nom du profil à supprimer.
     
  _ulFlags_
   
-> dans Toujours NULL. 
+> [in] Toujours NULL. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le profil a été supprimé.
+> Le profil a été supprimé avec succès.
     
 MAPI_E_NOT_FOUND 
   
-> Le profil spécifié n'existe pas.
+> Le profil spécifié n’existe pas.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **eleteprofile::D** supprime un profil. Si le profil à supprimer est en cours d'utilisation lors de l'appel de **DeleteProfile** , **DeleteProfile** retourne S_OK mais ne supprime pas le profil immédiatement. Au lieu de cela, **DeleteProfile** marque le profil pour suppression et le supprime une fois qu'il n'est plus utilisé, lorsque toutes ses sessions actives sont terminées. 
+La **méthode IProfAdmin::D eleteProfile** supprime un profil. Si le profil à supprimer est en cours d’utilisation lorsque **DeleteProfile** est appelé, **DeleteProfile** renvoie S_OK mais ne supprime pas immédiatement le profil. Au lieu de cela, **DeleteProfile** marque le profil à supprimer et le supprime une fois qu’il n’est plus utilisé, une fois toutes ses sessions actives terminées. 
   
-La fonction de point d'entrée pour chaque service de messagerie dans le profil est appelée avec la valeur MSG_SERVICE_DELETE définie dans le paramètre _ulContext_ . Tout d'abord, la fonction supprime le service, puis supprime la section de profil du service. La fonction de point d'entrée du service de messagerie n'est pas rappelée une fois que le service a été supprimé. 
+La fonction de point d’entrée pour chaque service de message dans le profil est appelée avec la valeur MSG_SERVICE_DELETE définie dans le _paramètre ulContext._ Tout d’abord, la fonction supprime le service, puis supprime la section de profil du service. La fonction de point d’entrée du service de message n’est pas rappelée après la suppression du service. 
   
-Aucun mot de passe n'est requis pour supprimer un profil.
+Aucun mot de passe n’est requis pour supprimer un profil.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -68,7 +68,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions. cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI utilise la méthode **IProfAdmin::D eleteprofile** pour supprimer le profil sélectionné.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI utilise **la méthode IProfAdmin::D eleteProfile** pour supprimer le profil sélectionné.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

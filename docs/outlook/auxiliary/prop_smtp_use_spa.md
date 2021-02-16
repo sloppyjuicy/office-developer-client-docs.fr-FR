@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: d82986c1-3a1e-48de-b6c9-b4bc64a88ee2
-description: Indique s'il faut utiliser l'authentification par mot de passe sécurisé (SPA) pour le compte SMTP.
+description: Spécifie s’il faut utiliser l’authentification par mot de passe sécurisé (SPA) pour le compte SMTP.
 ms.openlocfilehash: b1f2ba9b7568361ad25147a94966bf42b98eda40
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418553"
 ---
-# <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
+# <a name="prop_smtp_use_spa"></a>PROP_SMTP_USE_SPA
 
-Indique s'il faut utiliser l'authentification par mot de passe sécurisé (SPA) pour le compte SMTP.
+Spécifie s’il faut utiliser l’authentification par mot de passe sécurisé (SPA) pour le compte SMTP.
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
 |Identificateur :  <br/> |0x0207  <br/> |
-|Type de propriété:  <br/> |PT_DWORD  <br/> |
-|Balise de propriété:  <br/> |0x02070003  <br/> |
-|Access  <br/> |Lecture seule  <br/> |
+|Type de propriété :  <br/> |PT_DWORD  <br/> |
+|Balise de propriété :  <br/> |0x02070003  <br/> |
+|Accès :  <br/> |Lecture seule  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Une valeur nulle signifie ne pas utiliser SPA, sinon utiliser SPA.
+Une valeur zéro signifie que vous n’utilisez pas SPA, sinon utilisez SPA.
   
 ## <a name="see-also"></a>Voir aussi
 

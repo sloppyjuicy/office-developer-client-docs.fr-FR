@@ -15,15 +15,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420023"
 ---
-# <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
+# <a name="mapioffline_adviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des informations à **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)** pour inscrire le rappel pour un objet hors connexion. 
+Fournit des informations **[à IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** to register callback for an offline object. 
   
 ## <a name="quick-info"></a>Informations rapides
 
-Voir **IMAPIOfflineMgr:: Advise**. 
+Voir **IMAPIOfflineMgr::Advise**. 
   
 ```cpp
 typedef struct 
@@ -39,21 +39,21 @@ typedef struct
 
 ## <a name="members"></a>Members
 
-_ulSize_: taille de **MAPIOFFLINE_ADVISEINFO**. 
+_ulSize_: taille de **la MAPIOFFLINE_ADVISEINFO**. 
     
-_ulClientToken_: jeton défini par le client à propos d'un rappel. Il s'agit du membre *ulClientToken* de la structure **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** transmis à **[IMAPIOfflineNotify:: Notify](imapiofflinenotify-notify.md)**. 
+_ulClientToken_: jeton défini par le client à propos d’un rappel. Il s’agit *du membre ulClientToken* de la structure **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** transmise à **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)**. 
     
 _CallbackType_: type de rappel à effectuer.
     
    -  MAPIOFFLINE_CALLBACK_TYPE_NOTIFY 
     
-   - Le type de rappel est par notification. Il s'agit du seul type de rappel pris en charge.  *pCallback* doit indiquer l'interface **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+   - Le type de rappel est par notification. Il s’agit du seul type de rappel pris en charge.  *pCallback doit*  indiquer l’interface **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
-_pCallback_: interface à utiliser pour le rappel. Il s'agit de l'implémentation du client de **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+_pCallback :_ interface à utiliser pour le rappel. Il s’agit de l’implémentation du client **[d’IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
-_ulAdviseTypes_: type de notification, tel qu'identifié par la condition pour conseiller. Le seul type pris en charge est MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
+_ulAdviseTypes_: types de conseils, comme identifié par la condition de conseil. Le seul type pris en charge est MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
     
-_ulStateMask_: le seul État pris en charge est MAPIOFFLINE_STATE_ALL.
+_ulStateMask_: le seul état pris en charge est MAPIOFFLINE_STATE_ALL.
     
 ## <a name="see-also"></a>Voir aussi
 

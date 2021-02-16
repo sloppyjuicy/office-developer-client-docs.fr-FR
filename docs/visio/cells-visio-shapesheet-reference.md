@@ -1,5 +1,5 @@
 ---
-title: Cells (référence Visio ShapeSheet)
+title: Cells (Visio ShapeSheet Reference)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420226"
 ---
-# <a name="cells-visio-shapesheet-reference"></a>Cells (référence Visio ShapeSheet)
+# <a name="cells-visio-shapesheet-reference"></a>Cells (Visio ShapeSheet Reference)
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [A, cellule (section Geometry)](a-cell-geometry-section.md)
     
@@ -821,15 +821,15 @@ ms.locfileid: "33420226"
     
 - [X Justify, cellule (section Action Tags)](x-justify-cell-action-tags-section.md)
     
-- [Cellule XGridDensity (section &amp; règle et grille)](xgriddensity-cell-rulergrid-section.md)
+- [XGridDensity, cellule (section Ruler &amp; Grid)](xgriddensity-cell-rulergrid-section.md)
     
-- [Cellule XGridOrigin (section &amp; règle et grille)](xgridorigin-cell-rulergrid-section.md)
+- [XGridOrigin, cellule (section Ruler &amp; Grid)](xgridorigin-cell-rulergrid-section.md)
     
-- [Cellule XGridSpacing (section &amp; règle et grille)](xgridspacing-cell-rulergrid-section.md)
+- [XGridSpacing, cellule (section Ruler &amp; Grid)](xgridspacing-cell-rulergrid-section.md)
     
-- [Cellule XRulerDensity (section &amp; règle et grille)](xrulerdensity-cell-rulergrid-section.md)
+- [XRulerDensity, cellule (section Ruler &amp; Grid)](xrulerdensity-cell-rulergrid-section.md)
     
-- [Cellule XRulerOrigin (section &amp; règle et grille)](xrulerorigin-cell-rulergrid-section.md)
+- [XRulerOrigin, cellule (section Ruler &amp; Grid)](xrulerorigin-cell-rulergrid-section.md)
     
 - [Y Behavior, cellule (section Controls)](y-behavior-cell-controls-section.md)
     
@@ -847,14 +847,14 @@ ms.locfileid: "33420226"
     
 - [Y Justify, cellule (section Action Tags)](y-justify-cell-action-tags-section.md)
     
-- [Cellule YGridDensity (section &amp; règle et grille)](ygriddensity-cell-rulergrid-section.md)
+- [YGridDensity, cellule (section Ruler &amp; Grid)](ygriddensity-cell-rulergrid-section.md)
     
-- [Cellule YGridOrigin (section &amp; règle et grille)](ygridorigin-cell-rulergrid-section.md)
+- [YGridOrigin, cellule (section Ruler &amp; Grid)](ygridorigin-cell-rulergrid-section.md)
     
-- [Cellule YGridSpacing (section &amp; règle et grille)](ygridspacing-cell-rulergrid-section.md)
+- [YGridSpacing, cellule (section Ruler &amp; Grid)](ygridspacing-cell-rulergrid-section.md)
     
-- [Cellule YRulerDensity (section &amp; règle et grille)](yrulerdensity-cell-rulergrid-section.md)
+- [YRulerDensity, cellule (section Ruler &amp; Grid)](yrulerdensity-cell-rulergrid-section.md)
     
-- [Cellule YRulerOrigin (section &amp; règle et grille)](yrulerorigin-cell-rulergrid-section.md)
+- [YRulerOrigin, cellule (section Ruler &amp; Grid)](yrulerorigin-cell-rulergrid-section.md)
     
 

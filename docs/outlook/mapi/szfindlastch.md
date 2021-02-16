@@ -25,11 +25,11 @@ ms.locfileid: "33421255"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recherche la dernière occurrence d'un caractère dans une chaîne terminée par un caractère null. 
+Recherche la dernière occurrence d’un caractère dans une chaîne terminée par null. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -44,18 +44,18 @@ LPSTR SzFindLastCh(
 
  _lpsz_
   
-> dans Pointeur vers la chaîne terminée par un caractère null à rechercher. 
+> [in] Pointeur vers la chaîne terminée par null à rechercher. 
     
  _ch_
   
-> dans Caractère à rechercher.
+> [in] Caractère à rechercher.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
- **SzFindLastCh** renvoie un pointeur vers la dernière occurrence du caractère dans la chaîne. Si le caractère ne se produit nulle part dans la chaîne, ou si le paramètre _lpsz_ est null, la valeur null est renvoyée. 
+ **SzFindLastCh** renvoie un pointeur vers la dernière occurrence du caractère dans la chaîne. Si le caractère ne se produit nulle part dans la chaîne, ou si le paramètre  _lpsz_ est NULL, une valeur NULL est renvoyée. 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **SzFindLastCh** recherche une correspondance exacte uniquement; elle est sensible à la casse et aux différences diacritiques. Les recherches dans les formats Unicode et DBCS sont prises en charge. 
+La **fonction SzFindLastCh** recherche uniquement une correspondance exacte . il est sensible aux différences diacritiques et de cas. Les recherches dans les formats Unicode et DBCS sont pris en charge. 
   
 

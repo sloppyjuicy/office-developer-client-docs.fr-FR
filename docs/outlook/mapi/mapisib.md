@@ -21,7 +21,7 @@ ms.locfileid: "33418707"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette structure est utilisée avec [IMAPISync:: SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
+Cette structure est utilisée [avec IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
   
 ```cpp
 typedef struct _MAPISIB
@@ -42,29 +42,29 @@ HANDLE          *phSyncDoneEvent;
     
  **ulFlags**
   
-> Indicateur qui indique le type de synchronisation. Il doit prendre la valeur de l'une des valeurs suivantes:
+> Indicateur qui indique le type de synchronisation. Elle doit avoir l’une des valeurs suivantes :
     
 ||||
 |:-----|:-----|:-----|
-|SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Envoyez le message au serveur (qui n'est pas en cours d'utilisation).  <br/> |
-|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Modifications apportées à la hiérarchie sur le serveur.  <br/> |
-|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Modifications de la hiérarchie d'extraction du serveur.  <br/> |
-|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Envoyer les modifications de message vers le serveur.  <br/> |
-|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Extraire les modifications de message du serveur.  <br/> |
-|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |La synchronisation a été lancée par l'utilisateur et doit avoir une priorité plus élevée.  <br/> |
-|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Ne doit synchroniser que les en-têtes et pas les corps complets.  <br/> |
+|SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Envoyez le message au serveur (non utilisé actuellement).  <br/> |
+|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Modification de la hiérarchie push sur le serveur.  <br/> |
+|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Tirez les modifications de hiérarchie à partir du serveur.  <br/> |
+|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Envoyer les modifications de message au serveur.  <br/> |
+|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Retirez les modifications de message à partir du serveur.  <br/> |
+|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |La synchronisation a été initiée par l’utilisateur et doit être une priorité plus élevée.  <br/> |
+|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Doit synchroniser uniquement les en-têtes et non les corps complets.  <br/> |
    
  **psesSync**
   
-> DANS Pointeur vers la session MAPI.
+> [IN] Pointeur vers la session MAPI.
     
- **punkCallBack**
+ **callBack**
   
-> DANS Pointeur vers l'interface sur laquelle fournir la progression. Elle peut être utilisée pour interroger l'interface de [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md).
+> [IN] Pointeur vers l’interface sur laquelle fournir la progression. Il peut être utilisé pour interroger l’interface pour [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md).
     
  **\*phSyncDoneEvent**
   
-> REMARQUER Événement qui se produit lorsque le thread qui vient d'être créé est complet. Le pointeur doit être valide, car il contiendra l'événement.
+> [OUT] Événement qui se produit lorsque le thread qui vient d’être créé est terminé. Le pointeur doit être valide car il contiendra l’événement.
     
 ## <a name="see-also"></a>Voir aussi
 

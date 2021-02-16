@@ -1,5 +1,5 @@
 ---
-title: Utilisation de colonnes de grande taille
+title: Travailler avec des colonnes de grande taille
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420422"
 ---
-# <a name="working-with-large-columns"></a>Utilisation de colonnes de grande taille
+# <a name="working-with-large-columns"></a>Travailler avec des colonnes de grande taille
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les colonnes avec des données de propriété binaire ou de chaîne peuvent être volumineuses, voire plusieurs milliers d'octets. Étant donné que l'inclusion d'une ou plusieurs colonnes avec des centaines d'octets dans une vue est souvent peu pratique, MAPI permet aux implémenteurs de tableau de tronquer la valeur, le plus souvent à 255 octets et moins souvent à 510 octets. Dans la mesure du possible, les implémenteurs de tableaux doivent inclure la valeur complète d'une propriété dans une colonne de tableau. L'alternative recommandée consiste à inclure uniquement les premiers 255 octets.
+Les colonnes avec des données de chaîne ou de propriété binaire peuvent être de grande taille, voire plusieurs milliers d’octets. Étant donné que l’utilisation d’une ou de plusieurs colonnes avec des centaines d’octets dans un affichage est souvent peu pratique, MAPI permet aux implémenteurs de table de tronque la valeur, le plus souvent à 255 octets et moins souvent à 510 octets. Dans la mesure du possible, les implémenteurs de table doivent inclure la valeur complète d’une propriété dans une colonne de tableau. L’alternative recommandée consiste à inclure uniquement les 255 premiers octets.
   
-Les clients ne peuvent pas savoir à l'avance si une table qu'ils utilisent tronque des colonnes de grande taille. Elles doivent supposer qu'une colonne représente une propriété tronquée si la longueur de la colonne est de 255 ou 510 octets. Si nécessaire, les clients peuvent récupérer directement la valeur complète d'une colonne tronquée à partir de l'objet en appelant la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) de l'objet. 
+Les clients ne peuvent pas savoir à l’avance si une table qu’ils utilisent tronque des colonnes de grande taille. Ils doivent supposer qu’une colonne représente une propriété tronquée si la longueur de la colonne est de 255 ou 510 octets. Si nécessaire, les clients peuvent récupérer directement la valeur complète d’une colonne tronquée à partir de l’objet en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de l’objet. 
   
-Les clients qui créent des restrictions avec des propriétés importantes doivent être conscients du fait que la mise en œuvre de la table est la manière dont ces restrictions fonctionnent. Certains implémenteurs de tableau permettent à des restrictions créées à l'aide d'une colonne tronquée de se fonder sur la taille tronquée, tandis que d'autres le basent sur la valeur entière. 
+Les clients qui imposent des restrictions de construction avec des propriétés de grande taille doivent savoir que c’est à l’implémenteur de la table de se rendre compte du fonctionnement de ces restrictions. Certains implémenteurs de tableau permettent aux restrictions qui sont construites avec une colonne tronquée d’être basées sur la taille tronquée, tandis que d’autres la basent sur la valeur entière. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

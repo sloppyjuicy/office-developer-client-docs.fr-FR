@@ -22,14 +22,14 @@ Renvoie la largeur du texte composé dans une forme.
   
 ## <a name="syntax"></a>Syntaxe
 
-TEXTWIDTH (* * *ShapeName! TheText* * * * * *[, MaximumWidth]* * *) 
+TEXTWIDTH(** *shapename! TheText* ** ** *[,maximumwidth]* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _ShapeName! theText_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à la cellule nommée TheText dans la forme cible.  _ShapeName!_ est le nom de la forme à partir de laquelle vous souhaitez récupérer le texte.  <br/> |
-| _MaximumWidth_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Largeur maximale du bloc de texte.  <br/> |
+| _shapename!theText_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à la cellule nommée TheText dans la forme cible.  _shapename!_ est le nom de la forme à partir de laquelle vous souhaitez récupérer le texte.  <br/> |
+| _maximumwidth_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Largeur maximale du bloc de texte.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -39,14 +39,14 @@ Chaîne
 
 La fonction TEXTWIDTH est couramment utilisée pour ajuster la largeur d’une forme au texte qu’elle contient.
   
-Si _Sheetn!_ est omis, la forme par défaut est la forme active. 
+If  _sheetN!_ est omis, la forme par défaut est la forme actuelle. 
   
-Si _MaximumWidth_ est spécifié, le résultat est la plus longue ligne de texte qui correspond à _MaximumWidth_. Si _MaximumWidth_ est omis, le résultat est la largeur totale du texte. 
+Si  _maximumwidth est_ spécifié, le résultat est la ligne de texte la plus longue qui s’adapte  _à maximumwidth_. Si  _la valeur maximumwidth_ est omise, le résultat est la largeur totale du texte. 
   
 ## <a name="example"></a>Exemple
 
-TEXTWIDTH (TheText) 
+TEXTWIDTH(TheText) 
   
-Renvoie la longueur totale du texte de la forme active. 
+Renvoie la longueur totale du texte dans la forme actuelle. 
   
 

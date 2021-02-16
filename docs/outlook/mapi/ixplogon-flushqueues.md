@@ -25,7 +25,7 @@ ms.locfileid: "33421969"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Demande que le fournisseur de transport remet immédiatement tous les messages entrants ou sortants en attente.
+Demande au fournisseur de transport de remettre immédiatement tous les messages entrants ou sortants en attente.
   
 ```cpp
 HRESULT FlushQueues(
@@ -40,7 +40,7 @@ HRESULT FlushQueues(
 
  _ulUIParam_
   
-> dans Handle de la fenêtre parente des boîtes de dialogue ou des fenêtres que cette méthode affiche.
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode.
     
  _cbTargetTransport_
   
@@ -48,39 +48,39 @@ HRESULT FlushQueues(
     
  _lpTargetTransport_
   
-> dans MSR doit être NULL.
+> [in] Réservé ; doit être NULL.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le vidage de la file d'attente de messages. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont le purgement de file d’attente de messages est effectué. Les indicateurs suivants peuvent être définies :
     
 FLUSH_DOWNLOAD 
   
-> La file d'attente de messages entrants ou les files d'attente doivent être vidées.
+> La ou les files d’attente de messages entrants doivent être vidées.
     
 FLUSH_FORCE 
   
-> Le fournisseur de transport doit traiter cette demande, si possible, même si cela prend du temps. 
+> Le fournisseur de transport doit traiter cette demande, si possible, même si cela prend beaucoup de temps. 
     
 FLUSH_NO_UI 
   
-> Le fournisseur de transport ne doit pas afficher une interface utilisateur.
+> Le fournisseur de transport ne doit pas afficher d’interface utilisateur.
     
 FLUSH_UPLOAD 
   
-> La file d'attente de messages sortants ou les files d'attente doivent être vidées.
+> La ou les files d’attente de messages sortants doivent être vidées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la ou les valeurs attendues.
+> L’appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle la méthode **IXPLogon:: FlushQueues** pour conseiller au fournisseur de transport que le spouleur MAPI est sur le le traitement des messages. Le fournisseur de transport doit appeler la méthode [IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md) pour définir un bit approprié pour son état dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de sa ligne d'État. Après la mise à jour de sa ligne d'État, le fournisseur de transport doit retourner S_OK pour l'appel **FlushQueues** . Le spouleur MAPI commence alors à envoyer des messages, l'opération étant synchrone vers le spouleur MAPI. 
+Lepooler MAPI appelle la méthode **IXPLogon::FlushQueues** pour informer le fournisseur de transport que lepooler MAPI est sur le point de commencer le traitement des messages. Le fournisseur de transport doit appeler la méthode [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) pour définir un bit approprié pour son état dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de sa ligne d’état. Après avoir mis à jour sa ligne d’état, le fournisseur de transport doit S_OK pour **l’appel FlushQueues.** Lepooler MAPI commence ensuite à envoyer des messages, l’opération étant synchrone avec lepooler MAPI. 
   
-Pour prendre en charge son implémentation de la méthode [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) , le spouleur MAPI appelle **IXPLogon:: FlushQueues** pour tous les objets d'ouverture de session des fournisseurs de transport actifs en cours d'exécution dans une session de profil. Lorsque la méthode **FlushQueues** d'un fournisseur de transport est appelée suite à l'appel d'une application cliente à **IMAPIStatus:: FlushQueues**, le traitement du message a lieu de manière asynchrone au client.
+Pour prendre en charge son implémentation de la méthode [IMAPIStatus::FlushQueues,](imapistatus-flushqueues.md) lepooler MAPI appelle **IXPLogon::FlushQueues** pour tous les objets d’ouverture de session pour les fournisseurs de transport actifs qui s’exécutent dans une session de profil. Lorsque la méthode **FlushQueues** d’un fournisseur de transport est appelée à la suite d’un appel d’application cliente à **IMAPIStatus::FlushQueues**, le traitement des messages se produit de manière asynchrone pour le client.
   
 ## <a name="see-also"></a>Voir aussi
 

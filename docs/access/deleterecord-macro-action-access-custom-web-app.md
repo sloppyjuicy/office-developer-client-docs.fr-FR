@@ -1,5 +1,5 @@
 ---
-title: DeleteRecord, action de macro (application Web personnalisée Access)
+title: SupprimerEnregistrement, action de macro (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420989"
 ---
-# <a name="deleterecord-macro-action-access-custom-web-app"></a>DeleteRecord, action de macro (application Web personnalisée Access)
+# <a name="deleterecord-macro-action-access-custom-web-app"></a>SupprimerEnregistrement, action de macro (application web personnalisée Access)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
@@ -22,6 +22,6 @@ Vous pouvez utiliser l’action **SupprimerEnregistrement** pour supprimer un en
   
 ## <a name="setting"></a>Setting
 
-L'action **DeleteRecord** ne contient pas d'arguments lorsqu'elle est utilisée dans une macro d'interface utilisateur (IU). 
+**L’action SupprimerEnregistrement** ne contient aucun argument lorsqu’elle est utilisée dans une macro d’interface utilisateur. 
   
 

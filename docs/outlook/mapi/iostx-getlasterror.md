@@ -39,15 +39,15 @@ HRESULT GetLastError(
 
  _hResult_
   
->  dans Code d'erreur. 
+>  [in] Code d’erreur. 
     
  _ulFlags_
   
->  [in] Indicateurs pour modifier le comportement. Cela doit être égal à 0. 
+>  [in] Indicateurs pour modifier le comportement. Ce doit être 0. 
     
  _lppMAPIError_
   
->  remarquer Pointeur vers la structure **MAPIERROR** qui contient les informations étendues pour l'erreur. Voir mapidefs. h pour la définition de type de **LPMAPIERROR**. 
+>  [out] Pointeur vers la structure **MAPIERROR** qui contient les informations étendues de l’erreur. Voir mapidefs.h pour la définition de type **de LPMAPIERROR**. 
     
 ## <a name="see-also"></a>Voir aussi
 

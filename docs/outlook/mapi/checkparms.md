@@ -25,7 +25,7 @@ ms.locfileid: "33422277"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes du fournisseur de services appelées par MAPI. 
+Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes de fournisseur de services appelées par MAPI. 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ HRESULT CheckParms(
 
  _eMethod_
   
-> dans Spécifie, par énumération, la méthode à valider. 
+> [in] Spécifie, par l’éumération, la méthode à valider. 
     
  _First_
   
-> dans Pointeur vers le premier argument de la pile.
+> [in] Pointeur vers le premier argument de la pile.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -58,6 +58,6 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Contrairement aux macros [ValidateParms](validateparms.md) et [UlValidateParms](ulvalidateparms.md) , la macro **CheckParms** n'effectue pas de validation de paramètre complète. Les paramètres transmis entre MAPI et les fournisseurs de services sont supposés corrects, de sorte que **CheckParms** effectue uniquement une validation de débogage. 
+Contrairement aux [macros ValidateParms](validateparms.md) et [UlValidateParms,](ulvalidateparms.md) la macro **CheckParms** n’effectue pas de validation de paramètre complète. Les paramètres transmis entre MAPI et les fournisseurs de services sont supposés être corrects, de sorte que **CheckParms** effectue une validation de débogage uniquement. 
   
 

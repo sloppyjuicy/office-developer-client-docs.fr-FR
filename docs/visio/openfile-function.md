@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251471
 localization_priority: Normal
 ms.assetid: ff59ab04-a589-cf9e-db3b-20658a7dffdc
-description: Ouvre un document Microsoft Visio, s'il n'est pas déjà ouvert, et active la fenêtre de document.
+description: Ouvre un document Microsoft Visio, s’il n’est pas déjà ouvert, et active la fenêtre de document.
 ms.openlocfilehash: 5a89a658e560d144007ec19796de82b9949bea82
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33419575"
 ---
 # <a name="openfile-function"></a>Fonction OPENFILE
 
-Ouvre un document Microsoft Visio, s'il n'est pas déjà ouvert, et active la fenêtre de document.
+Ouvre un document Microsoft Visio, s’il n’est pas déjà ouvert, et active la fenêtre de document.
   
 ## <a name="syntax"></a>Syntaxe
 
- **OpenFile** ( _"filename"_)
+ **OPENFILE**( _« filename »_)
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _nomdefichier_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom du fichier, y compris le chemin d'accès du fichier, que vous voulez ouvrir.  <br/> |
+| _filename_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom du fichier, y compris le chemin d’accès au fichier, que vous souhaitez ouvrir.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -42,6 +42,6 @@ Dans les versions précédentes de Visio, cette fonction s’appelait _OPENFILE.
 
  `OPENFILE("C:/MyFile.vsdx")`
   
-Ouvre le fichier spécifié «MyFile. vsdx» dans une nouvelle fenêtre, ou active la fenêtre si le fichier est déjà ouvert. 
+Ouvre le fichier spécifié « MyFile.vsdx » dans une nouvelle fenêtre ou active la fenêtre si le fichier est déjà ouvert. 
   
 

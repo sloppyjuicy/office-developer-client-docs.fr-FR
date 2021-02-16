@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421283"
 ---
-# <a name="propsmtpsecureconnection"></a>PROP_SMTP_SECURE_CONNECTION
+# <a name="prop_smtp_secure_connection"></a>PROP_SMTP_SECURE_CONNECTION
 
 Spécifie le type de connexion chiffrée à utiliser pour un compte SMTP.
   
@@ -23,20 +23,20 @@ Spécifie le type de connexion chiffrée à utiliser pour un compte SMTP.
 |||
 |:-----|:-----|
 |Identificateur :  <br/> |0x020A  <br/> |
-|Type de propriété:  <br/> |PT_DWORD  <br/> |
-|Balise de propriété:  <br/> |0x020A0003  <br/> |
-|Access  <br/> |Lecture seule  <br/> |
+|Type de propriété :  <br/> |PT_DWORD  <br/> |
+|Balise de propriété :  <br/> |0x020A0003  <br/> |
+|Accès :  <br/> |Lecture seule  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur peut être l'une des constantes suivantes. Voir [constants (API de gestion des comptes)](constants-account-management-api.md) pour leurs valeurs. 
+La valeur peut être l’une des constantes suivantes. Voir [constantes (API de gestion des comptes)](constants-account-management-api.md) pour leurs valeurs. 
   
 |**Constants**|**Description**|
 |:-----|:-----|
-|**ENCRYPT_CONN_NO_SECURITY** <br/> |N'utilisez pas de chiffrement.  <br/> |
-|**ENCRYPT_CONN_SSL** <br/> |Utilisez le chiffrement SSL (Secure Socket Layer).  <br/> |
-|**ENCRYPT_CONN_TLS** <br/> |Utilisez le protocole de chiffrement TLS (Transport Layer Security) et le protocole d'authentification.  <br/> |
-|**ENCRYPT_CONN_AUTO** <br/> |Détecte et utilise automatiquement la méthode de chiffrement prise en charge par le serveur de messagerie.  <br/> |
+|**ENCRYPT_CONN_NO_SECURITY** <br/> |N’utilisez aucun chiffrement.  <br/> |
+|**ENCRYPT_CONN_SSL** <br/> |Utiliser le chiffrement SSL (Secure Socket Layer).  <br/> |
+|**ENCRYPT_CONN_TLS** <br/> |Utiliser le protocole de chiffrement et d’authentification TLS (Transport Layer Security).  <br/> |
+|**ENCRYPT_CONN_AUTO** <br/> |Détectez et utilisez automatiquement la méthode de chiffrement prise en charge par le serveur de messagerie.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm1045
 localization_priority: Normal
 ms.assetid: 88ddf4b5-8248-8c1a-c387-09a607639d26
-description: "Détermine la coordonnée y du centre de la rotation du bloc de texte par rapport à l'origine de la forme. La formule par défaut est la suivante :"
+description: 'Détermine la coordonnée y du centre de rotation du bloc de texte par rapport à l’origine de la forme. La formule par défaut est la suivante :'
 ms.openlocfilehash: fc62ac76aa24a698d956690df6e5d1e7cff3fb5f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33418490"
 ---
 # <a name="txtpiny-cell-text-transform-section"></a>TxtPinY, cellule (section Text Transform)
 
-Détermine la coordonnée *y* du centre de la rotation du bloc de texte par rapport à l'origine de la forme. La formule par défaut est la suivante : 
+Détermine la coordonnée  *y*  du centre de rotation du bloc de texte par rapport à l’origine de la forme. La formule par défaut est la suivante : 
   
 = Hauteur \* 0,5
   
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule TxtPinY par index dans un programme, 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowTextXForm** <br/> |
 | Index de la cellule :  <br/> |**visXFormPinY** <br/> |
    

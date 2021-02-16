@@ -25,7 +25,7 @@ ms.locfileid: "33419610"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Appelle une fonction interne pour vérifier les paramètres que les applications clientes ont transmises aux fournisseurs de services et MAPI. 
+Appelle une fonction interne pour vérifier les paramètres que les applications clientes ont transmis aux fournisseurs de services et MAPI. 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ HRESULT UlValidateParms(
 
  _eMethod_
   
-> dans Spécifie, par énumération, la méthode à valider. 
+> [in] Spécifie, par l’éumération, la méthode à valider. 
     
  _First_
   
-> dans Pointeur vers le premier argument de la pile.
+> [in] Pointeur vers le premier argument de la pile.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -58,12 +58,12 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur a empêché l'exécution de l'opération.
+> Une erreur a empêché l’exécution de l’opération.
     
 ## <a name="remarks"></a>Remarques
 
-Les paramètres transmis entre MAPI et les fournisseurs de services sont supposés être corrects et soumis à la validation de débogage uniquement avec la macro [CheckParms](checkparms.md) . Les fournisseurs doivent vérifier tous les paramètres transmis par les applications clientes, mais les clients doivent supposer que les paramètres MAPI et de fournisseur sont corrects. Utilisez la macro **HR_FAILED** pour tester les valeurs renvoyées. 
+Les paramètres transmis entre MAPI et les fournisseurs de services sont supposés être corrects et ne subissent une validation de débogage qu’avec la macro [CheckParms.](checkparms.md) Les fournisseurs doivent vérifier tous les paramètres transmis par les applications clientes, mais les clients doivent supposer que les paramètres MAPI et fournisseur sont corrects. Utilisez la macro **HR_FAILED** pour tester les valeurs de retour. 
   
-La macro **UlValidateParms** est appelée différemment selon que le code appelant est C ou C++. Cette macro permet de valider les paramètres pour les méthodes **IUnknown** et MAPI qui renvoient ulong au lieu de valeurs HRESULT; la macro [ValidateParms](validateparms.md) fonctionne pour tous les autres. 
+La macro **UlValidateParms est** appelée différemment selon que le code appelant est C ou C++. Cette macro est utilisée pour valider les paramètres des quelques méthodes **IUnknown** et MAPI qui retournent ULONG au lieu de valeurs HRESULT ; La macro [ValidateParms fonctionne](validateparms.md) pour tous les autres. 
   
 

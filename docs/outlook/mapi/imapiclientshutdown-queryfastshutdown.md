@@ -25,7 +25,7 @@ ms.locfileid: "33418147"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Interroge le sous-système MAPI pour la prise en charge de l'arrêt rapide fourni par les fournisseurs MAPI chargés.
+Interroge le sous-système MAPI pour obtenir la prise en charge de l’arrêt rapide fourni par les fournisseurs MAPI chargés.
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,15 +35,15 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> Le sous-système MAPI prend en charge le client MAPI pour l'arrêt rapide.
+> Le sous-système MAPI prend en charge le client MAPI pour un arrêt rapide.
     
 MAPI_E_NO_SUPPORT
   
-> Le fournisseur MAPI ne prend pas en charge le client MAPI pour l'arrêt rapide.
+> Le fournisseur MAPI ne prend pas en charge le client MAPI pour un arrêt rapide.
     
 ## <a name="remarks"></a>Remarques
 
-Le fait que le sous-système MAPI prenne en charge le client MAPI pour l'arrêt rapide dépend du paramètre de Registre Windows de l'utilisateur ou du comportement par défaut du client MAPI pour l'arrêt rapide. Cela dépend également de la capacité des fournisseurs MAPI chargés à prendre en charge la mise à l'arrêt rapide. Pour plus d'informations, consultez la rubrique options de l' [utilisateur à arrêt rapide](fast-shutdown-user-options.md).
+Le fait que le sous-système MAPI prend en charge le client MAPI pour un arrêt rapide dépend du paramètre de Registre Windows de l’utilisateur ou du comportement par défaut du client MAPI pour l’arrêt rapide. Cela dépend également de la capacité des fournisseurs MAPI chargés à prendre en charge l’arrêt rapide. Pour plus d’informations, voir [Options utilisateur d’arrêt rapide.](fast-shutdown-user-options.md)
   
 ## <a name="see-also"></a>Voir aussi
 

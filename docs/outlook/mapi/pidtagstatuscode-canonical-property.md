@@ -25,7 +25,7 @@ ms.locfileid: "33418513"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de réindicateur des indicateurs qui indiquent l'état actuel d'une ressource de session. Tous les fournisseurs de services définissent les codes d'État comme le fait MAPI pour indiquer l'état du sous-système, le spouleur MAPI et le carnet d'adresses intégré.
+Contient un masque de bits d’indicateurs qui indiquent l’état actuel d’une ressource de session. Tous les fournisseurs de services définissent des codes d’état, de même que MAPI pour signaler l’état du sous-système, dupooler MAPI et du carnet d’adresses intégré.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contient un masque de réindicateur des indicateurs qui indiquent l'état actuel
    
 ## <a name="remarks"></a>Remarques
 
-Le code d'État doit apparaître dans le fichier MAPISVC. inf pour tous les fournisseurs. 
+Le code d’état doit apparaître dans le fichier Mapisvc.inf pour tous les fournisseurs. 
   
-Les objets d'État sont implémentés par MAPI et par tous les fournisseurs de services. Il existe deux ensembles de valeurs valides pour les codes d'État, un ensemble pour tous les objets d'État et un autre ensemble pour les fournisseurs de transport uniquement. Tous les objets d'État peuvent définir cette propriété avec les valeurs suivantes:
+Les objets d’état sont implémentés par MAPI et par tous les fournisseurs de services. Il existe deux ensembles de valeurs valides pour les codes d’état, l’un pour tous les objets d’état et l’autre pour les fournisseurs de transport uniquement. Tous les objets d’état peuvent définir cette propriété sur les valeurs suivantes :
   
 STATUS_AVAILABLE 
   
@@ -50,9 +50,9 @@ STATUS_FAILURE
     
 STATUS_OFFLINE 
   
-> Indique que seules les données locales ou les services sont disponibles.
+> Indique que seuls les services ou données locaux sont disponibles.
     
-Les fournisseurs de transport peuvent également définir les propriétés **PR_STATUS_CODE** de leurs objets d'État sur les valeurs suivantes: 
+Les fournisseurs de transport peuvent également définir les propriétés d’PR_STATUS_CODE **de** leurs objets d’état sur les valeurs suivantes : 
   
 STATUS_INBOUND_ACTIVE 
   
@@ -64,7 +64,7 @@ STATUS_INBOUND_ENABLED
     
 STATUS_INBOUND_FLUSH 
   
-> Indique que le fournisseur de transport télécharge les messages à partir de la file d'attente entrante.
+> Indique que le fournisseur de transport télécharge des messages à partir de la file d’attente entrante.
     
 STATUS_OUTBOUND_ACTIVE 
   
@@ -76,23 +76,23 @@ STATUS_OUTBOUND_ENABLED
     
 STATUS_OUTBOUND_FLUSH 
   
-> Indique que le fournisseur de transport télécharge les messages à partir de sa file d'attente sortante.
+> Indique que le fournisseur de transport télécharge des messages à partir de sa file d’attente sortante.
     
 STATUS_REMOTE_ACCESS 
   
-> Indique que le fournisseur de transport prend en charge l'accès à distance.
+> Indique que le fournisseur de transport prend en charge l’accès à distance.
     
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

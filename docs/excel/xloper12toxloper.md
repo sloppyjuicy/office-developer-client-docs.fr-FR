@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - XLOper12ToXLOper
 keywords:
-- fonction XLOper12ToXLOper [Excel 2007]
+- fonction xloper12toxloper [excel 2007]
 localization_priority: Normal
 ms.assetid: b46f87c4-778b-4502-be57-c3725f73a644
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33422907"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Routine de conversion utilisée pour convertir la nouvelle **XLOPER12** en l'ancien **XLOPER**.
+Routine de conversion utilisée pour convertir à partir de la **nouvelle XLOPER12** vers l’ancienne **XLOPER**.
   
 ```cs
 BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
@@ -36,27 +36,27 @@ Pointeur vers la source **XLOPER12** à convertir.
   
 _pxloper_ (**LPXLOPER**)
   
-Pointeur vers le **XLOPER** cible pour contenir la valeur convertie. 
+Pointeur vers la **XLOPER cible** pour contenir la valeur convertie. 
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-**True** si la conversion a réussi **** , false dans le cas contraire. 
+**TRUE** si la conversion a réussi, FALSE dans **le** cas contraire. 
   
 ## <a name="remarks"></a>Remarques
 
-Selon le type de **XLOPER12**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties, qui sont pointées dans le **XLOPER**cible. L'appelant est chargé de libérer de la mémoire associée à la copie si la conversion a réussi; **FreeXLOperT** peut être utilisé ou peut être réalisé directement à l'aide de la version **gratuite**.
+Selon le type de **XLOPER12**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties, qui sont pointées vers la **XLOPER cible**. L’appelant est chargé de libérer la mémoire associée à la copie si la conversion est réussie . **FreeXLOperT peut être** utilisé, ou vous pouvez le faire directement à l’aide de **la gratuité.**
   
-Si la conversion échoue, l'appelant n'a pas besoin de libérer de la mémoire.
+Si la conversion échoue, l’appelant n’a pas besoin de libérer de mémoire.
   
-La conversion d'un **XLOPER12** en une structure **XLOPER** peut échouer lorsque la variable **XLOPER12** contient un tableau ou une référence trop grande ou une chaîne trop longue pour l' **XLOPER** à contenir. 
+La conversion d’une **xlOPER12** en **XLOPER** peut échouer lorsque la **XLOPER12** contient un tableau ou une référence trop grand ou une chaîne trop longue pour que la **XLOPER** contienne. 
   
-**XLOPER12** Les chaînes de caractères larges Unicode sont converties en chaînes d'octets **XLOPER** ASCII d'une façon qui dépend des paramètres régionaux. 
+**XLOPER12** Les chaînes unicode à caractères larges sont converties en chaînes d’byte **XLOPER** ASCII d’une manière qui dépend des paramètres régionaux. 
   
-La **** **xltypeInt** XLOPER12 est un entier signé de 32 bits, tandis que le **XLOPER** **xltypeInt** est un entier signé 16 bits. Lorsqu'un entier **XLOPER12** fourni dépasse la limite d'un entier **XLOPER** , l'entier est converti en double de 8 octets et renvoyé dans un **XLOPER** de type **xltypeNum**. Il s'agit du seul cas où cette fonction modifie le type de l' **XLOPER**converti.
+**XlOPER12** **xltypeInt** est un integer signé 32 bits, tandis que **xlOPER** **xltypeInt** est un integer signé 16 bits. Lorsqu’un nombre integer **XLOPER12** fourni dépasse la limite d’un nombre integer **XLOPER,** l’integer est converti en un double de 8 caractères et renvoyé dans une **XLOPER** de type **xltypeNum**. Il s’agit du seul cas dans lequel cette fonction modifie le type de la **XLOPER convertie**.
   
 ### <a name="example"></a>Exemple
 
-Consultez le fichier `\SAMPLES\FRAMEWRK\FRAMEWRK.C` pour le code de cette fonction. 
+Consultez le  `\SAMPLES\FRAMEWRK\FRAMEWRK.C` fichier pour le code de cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

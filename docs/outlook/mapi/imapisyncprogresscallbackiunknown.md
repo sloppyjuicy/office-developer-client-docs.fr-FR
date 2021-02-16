@@ -25,23 +25,23 @@ ms.locfileid: "33418336"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Transmet le fournisseur Store en tant que champ sur la structure MAPISIB lors d'un appel à [IMAPISync: SynchronizeInBackground](imapisyncsynchronizeinbackground.md). Le fournisseur de banque d'informations utilise cette interface pour envoyer des commentaires à Microsoft Outlook sur l'état de la synchronisation.
+Transmet le fournisseur de magasin en tant que champ sur la structure MAPISIB pendant un appel à [IMAPISync : SynchronizeInBackground](imapisyncsynchronizeinbackground.md). Le fournisseur de magasin utilise cette interface pour fournir des commentaires à Microsoft Outlook sur l’état de la synchronisation.
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> ||
-|Exposé par:  <br/> |Outlook  <br/> |
+|Exposé par :  <br/> |Outlook  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
-|Appelé par :  <br/> |Fournisseurs de magasin  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPISyncProgressCallback  <br/> |
+|Appelé par :  <br/> |Fournisseurs du Store  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPISyncProgressCallback  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Progress](imapisyncprogresscallback-progress.md) <br/> |Le fournisseur Store appelle régulièrement cette fonction pour mettre à jour l'État dans la boîte de dialogue d'envoi/réception.  <br/> |
-|[Error](imapisyncprogresscallback-error.md) <br/> |Si des erreurs se produisent lors de la synchronisation, le fournisseur de banque d'informations appelle cette fonction pour fournir les détails affichés dans la boîte de dialogue d'envoi/réception.  <br/> |
-|[Terminé](imapisyncprogresscallback-done.md) <br/> |Le fournisseur Store appelle cette fonction pour informer Outlook que la synchronisation est terminée.  <br/> |
+|[Progress](imapisyncprogresscallback-progress.md) <br/> |Le fournisseur de magasins appelle régulièrement cette fonction pour mettre à jour l’état dans la boîte de dialogue d’envoi/réception.  <br/> |
+|[Error](imapisyncprogresscallback-error.md) <br/> |Si des erreurs se sont rencontrées lors de la synchronisation, le fournisseur de magasins appelle cette fonction pour fournir des détails affichés dans la boîte de dialogue d’envoi/réception.  <br/> |
+|[Terminé](imapisyncprogresscallback-done.md) <br/> |Le fournisseur de magasin appelle cette fonction pour informer Outlook que la synchronisation est terminée.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

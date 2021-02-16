@@ -1,11 +1,11 @@
 ---
-title: Gérer les messages dans OST sans appeler de synchronisation en mode Exchange mis en cache
+title: Gérer les messages dans OST sans l’voquer en mode Exchange mis en cache
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
-description: "Contient un exemple de code C++ qui montre comment utiliser IID_IMessageRaw dans IMsgStore:: OpenEntry pour obtenir une interface IMessage qui gère un message dans un fichier de dossiers en mode hors connexion (OST) sans forcer le téléchargement de l'ensemble du message lorsque le client est en cache Exchange. Modes."
+description: Contient un exemple de code en C++ qui montre comment utiliser IID_IMessageRaw dans IMsgStore::OpenEntry pour obtenir une interface IMessage qui gère un message dans un fichier de dossiers hors connexion (OST) sans forcer le téléchargement de l’intégralité du message lorsque le client est en mode Exchange mis en cache.
 ms.openlocfilehash: e50637b496ff43daedad2df27d027d8a6d0dc743
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -13,23 +13,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418756"
 ---
-# <a name="manage-messages-in-ost-without-invoking-a-synchronization-in-cached-exchange-mode"></a>Gérer les messages dans OST sans appeler de synchronisation en mode Exchange mis en cache
+# <a name="manage-messages-in-ost-without-invoking-a-synchronization-in-cached-exchange-mode"></a>Gérer les messages dans OST sans l’voquer en mode Exchange mis en cache
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique contient un exemple de code en C++ qui montre comment utiliser `IID_IMessageRaw` dans **[IMsgStore:: OpenEntry](imsgstore-openentry.md)** pour obtenir une interface **[IMessage](imessageimapiprop.md)** qui gère un message dans un fichier de dossiers en mode hors connexion (OST) sans forcer le téléchargement de l'ensemble du message lorsque le client est en mode Exchange mis en cache. 
+Cette rubrique contient un exemple de code en C++ qui montre comment utiliser `IID_IMessageRaw` **[IMsgStore::OpenEntry](imsgstore-openentry.md)** pour obtenir une interface **[IMessage](imessageimapiprop.md)** qui gère un message dans un fichier de dossiers hors connexion (OST) sans forcer le téléchargement de l’intégralité du message lorsque le client est en mode Exchange mis en cache. 
   
-Lorsqu'un client est en mode Exchange mis en cache, les messages dans le fichier OST peuvent être dans l'un des deux États suivants:
+Lorsqu’un client est en mode Exchange mis en cache, les messages en mode OST peuvent être dans l’un des deux états :
   
-- Le message entier qui contient l'en-tête et le corps est téléchargé.
+- Le message entier qui contient l’en-tête et le corps est téléchargé.
     
 - Le message avec uniquement son en-tête est téléchargé.
     
-Lorsque vous demandez une interface **IMessage** pour un message dans un fichier OST et que le client est en mode Exchange mis en `IID_IMessageRaw`cache, utilisez. Si vous utilisez `IID_IMessage` pour demander une interface **IMessage** et si seul son en-tête est téléchargé dans le fichier OST, vous appelez une synchronisation qui tente de télécharger l'intégralité du message. 
+Lorsque vous demandez une interface **IMessage** pour un message dans un OST et que le client est en mode Exchange mis en cache, utilisez  `IID_IMessageRaw` . Si vous demandez une  `IID_IMessage` interface **IMessage** et que seul son en-tête est téléchargé dans le système OST, vous devez appeler une synchronisation qui tente de télécharger l’intégralité du message. 
   
-Si vous utilisez `IID_IMessageRaw` ou `IID_IMessage` pour demander une interface **IMessage** , les interfaces qui sont retournées sont identiques en cours d'utilisation. L'interface **IMessage** demandée à l'aide `IID_IMessageRaw` de renvoie un message électronique tel qu'il existe dans le fichier OST et la synchronisation n'est pas forcée. 
+Si vous utilisez  `IID_IMessageRaw` ou demandez une interface  `IID_IMessage` **IMessage,** les interfaces renvoyées sont en cours d’utilisation identiques. **L’interface IMessage** qui a été demandée à l’aide renvoie un message électronique tel qu’il existe dans le OST, et la `IID_IMessageRaw` synchronisation n’est pas forcée. 
   
-L'exemple suivant montre comment appeler la méthode **OpenEntry** en passant `IID_IMessageRaw` au lieu de `IID_IMessage`.
+L’exemple suivant montre comment appeler la **méthode OpenEntry,** en passant  `IID_IMessageRaw` au lieu de  `IID_IMessage` .
   
 ```cpp
 HRESULT HrOpenRawMessage ( 
@@ -54,10 +54,10 @@ HRESULT HrOpenRawMessage (
 
 ```
 
-Si la méthode **OpenEntry** renvoie le code d'erreur **MAPI_E_INTERFACE_NOT_SUPPORTED** , cela indique que la Banque de messages ne prend pas en charge l'accès au message en mode brut. Dans ce cas, essayez à nouveau la méthode **OpenEntry** en `IID_IMessage`transmettant.
+Si la **méthode OpenEntry** renvoie le code **d’MAPI_E_INTERFACE_NOT_SUPPORTED** de message, elle indique que la boutique de messages ne prend pas en charge l’accès au message en mode brut. Dans ce cas, essayez à nouveau **la méthode OpenEntry** en passant  `IID_IMessage` .
 
 > [!IMPORTANT]
->  `IID_IMessageRaw`peut ne pas être défini dans le fichier d'en-tête téléchargeable dont vous disposez actuellement. Dans ce cas, vous pouvez l'ajouter à votre code à l'aide de la définition suivante. Utilisez la macro DEFINE_OLEGUID définie dans le fichier d'en-tête du kit de développement logiciel (SDK) de Microsoft Windows guiddef. h pour associer le nom symbolique du GUID à sa valeur. >  `#if !defined(INITGUID) || defined(USES_IID_IMessageRaw)`>  `DEFINE_OLEGUID(IID_IMessageRaw,0x0002038A, 0, 0);`>  `#endif`
+>  `IID_IMessageRaw` peut ne pas être défini dans le fichier d’en-tête téléchargeable dont vous disposez actuellement. Dans ce cas, vous pouvez l’ajouter à votre code à l’aide de la définition suivante. Utilisez la macro DEFINE_OLEGUID définie dans le fichier d’en-tête guiddef.h du Kit de développement logiciel (SDK) Microsoft Windows pour associer le nom symbolique GUID à sa valeur. >  `#if !defined(INITGUID) || defined(USES_IID_IMessageRaw)`>  `DEFINE_OLEGUID(IID_IMessageRaw,0x0002038A, 0, 0);`>  `#endif`
   
 ## <a name="see-also"></a>Voir aussi
 

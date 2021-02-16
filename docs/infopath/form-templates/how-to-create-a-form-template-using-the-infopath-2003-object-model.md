@@ -1,5 +1,5 @@
 ---
-title: Créer un modèle de formulaire à l'aide du modèle objet InfoPath 2003
+title: Créer un modèle de formulaire à l’aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418182"
 ---
-# <a name="create-a-form-template-using-the-infopath-2003-object-model"></a>Créer un modèle de formulaire à l'aide du modèle objet InfoPath 2003
+# <a name="create-a-form-template-using-the-infopath-2003-object-model"></a>Créer un modèle de formulaire à l’aide du modèle objet InfoPath 2003
 
 Les procédures de cette rubrique expliquent comment créer un modèle de formulaire qui fonctionne avec le modèle objet compatible InfoPath 2003.
   
@@ -34,7 +34,7 @@ Les procédures de cette rubrique expliquent comment créer un modèle de formul
     
 5. Cliquez sur **OK**.
     
-6. Concevez votre modèle de formulaire, puis ajoutez des gestionnaires d'événements dans Visual Studio 2012, comme décrit dans la rubrique relative [à l'ajout d'un gestionnaire d'événements à l'aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+6. Concevez votre modèle de formulaire, puis ajoutez des handlers d’événements dans Visual Studio 2012, comme décrit dans Ajouter un handler d’événements à l’aide du modèle objet [InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -42,5 +42,5 @@ Les procédures de cette rubrique expliquent comment créer un modèle de formul
 
 [Procédure pas à pas : Création et débogage d'un modèle de formulaire basique à l'aide du modèle objet InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
   
-[Création de modèles de formulaire à l'aide du modèle objet InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
+[Création de modèles de formulaires à l’aide du modèle objet InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
 

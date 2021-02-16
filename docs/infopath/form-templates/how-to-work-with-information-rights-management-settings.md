@@ -1,5 +1,5 @@
 ---
-title: Utiliser les paramètres de gestion des droits relatifs à l'information
+title: Travailler avec les paramètres de gestion des droits de l’information
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420009"
 ---
-# <a name="work-with-information-rights-management-settings"></a>Utiliser les paramètres de gestion des droits relatifs à l'information
+# <a name="work-with-information-rights-management-settings"></a>Travailler avec les paramètres de gestion des droits de l’information
 
 Il existe deux types de paramètres de Gestion des droits relatifs à l'information (IRM) dans Microsoft InfoPath : l'un protège l'accès aux modèles de formulaires InfoPath et l'autre permet de contrôler l'accès aux données contenues dans les formulaires complétés et les actions sur ces données.
   
@@ -70,56 +70,56 @@ Un objet **UserPermission** associe un jeu d'autorisations du formulaire actuel 
 
 La classe **UserPermissionCollection** fournit les propriétés suivantes et une méthode. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|[ApplyPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.ApplyPolicy.aspx) , méthode  <br/> |Applique une stratégie au formulaire en utilisant un fichier de modèle de stratégie.  <br/> |
-|[DocumentAuthor](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.DocumentAuthor.aspx) , propriété  <br/> |Obtient ou définit l'auteur du formulaire actuel sous la forme d'une adresse de messagerie.  <br/> |
-|[Enabled](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.Enabled.aspx) , propriété  <br/> |Obtient ou définit l'information indiquant que les paramètres d'autorisation représentés par l'objet **Permission** sont activés pour le formulaire actif.  <br/> |
-|[PermissionFromPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PermissionFromPolicy.aspx) , propriété  <br/> |Obtient ou définit l'application d'une stratégie d'autorisation pour le formulaire actif.  <br/> |
-|[PolicyDescription](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyDescription.aspx) , propriété  <br/> |Obtient une description de la stratégie appliquée au formulaire actif.  <br/> |
-|[PolicyName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyName.aspx) , propriété  <br/> |Obtient le nom de la stratégie appliquée au formulaire actif.  <br/> |
-|[RequestPermissionURL](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.RequestPermissionUrl.aspx) , propriété  <br/> |Obtient ou définit le fichier, l'URL ou l'adresse de messagerie à contacter pour les utilisateurs qui ont besoin d'autorisations supplémentaires sur le formulaire actif.  <br/> |
-|[StoreLicenses](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.StoreLicenses.aspx) , propriété  <br/> |Obtient ou définit l'information indiquant que la licence permettant à l'utilisateur d'afficher le formulaire actif doit être mise en cache pour permettre son affichage en mode hors connexion lorsque l'utilisateur ne peut pas se connecter à un serveur de gestion des droits.  <br/> |
-|[Autorisationsdes utilisateurs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.UserPermissions.aspx) , propriété  <br/> |Obtient un objet **UserPermissionCollection** pour le formulaire actuel.  <br/> |
+|[Méthode ApplyPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.ApplyPolicy.aspx)  <br/> |Applique une stratégie au formulaire en utilisant un fichier de modèle de stratégie.  <br/> |
+|[DocumentAuthor,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.DocumentAuthor.aspx) propriété  <br/> |Obtient ou définit l’auteur du formulaire actuel en tant qu’adresse de messagerie.  <br/> |
+|[Enabled,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.Enabled.aspx) propriété  <br/> |Obtient ou définit l'information indiquant que les paramètres d'autorisation représentés par l'objet **Permission** sont activés pour le formulaire actif.  <br/> |
+|[Propriété PermissionFromPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PermissionFromPolicy.aspx)  <br/> |Obtient ou définit l'application d'une stratégie d'autorisation pour le formulaire actif.  <br/> |
+|[Propriété PolicyDescription](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyDescription.aspx)  <br/> |Obtient une description de la stratégie appliquée au formulaire actif.  <br/> |
+|[PolicyName,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyName.aspx) propriété  <br/> |Obtient le nom de la stratégie appliquée au formulaire actif.  <br/> |
+|[RequestPermissionUrl,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.RequestPermissionUrl.aspx) propriété  <br/> |Obtient ou définit le fichier, l’URL ou l’adresse e-mail à contacter pour les utilisateurs qui ont besoin d’autorisations supplémentaires sur le formulaire actuel.  <br/> |
+|[StoreLicenses,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.StoreLicenses.aspx) propriété  <br/> |Obtient ou définit l'information indiquant que la licence permettant à l'utilisateur d'afficher le formulaire actif doit être mise en cache pour permettre son affichage en mode hors connexion lorsque l'utilisateur ne peut pas se connecter à un serveur de gestion des droits.  <br/> |
+|[UserPermissions,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.UserPermissions.aspx) propriété  <br/> |Obtient un objet **UserPermissionCollection** pour le formulaire actuel.  <br/> |
    
 ### <a name="overview-of-the-userpermissioncollection-class"></a>Vue d'ensemble de la classe UserPermissionCollection
 
 La classe **UserPermissionCollection** fournit les propriétés et les méthodes suivantes. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|[Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) , méthode (+ 3 Overloads)  <br/> |Ajoute un nouvel utilisateur au formulaire actuel, en spécifiant éventuellement des autorisations et une date d'expiration.  <br/> |
+|[Méthode Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) (+3 surcharges)  <br/> |Ajoute un nouvel utilisateur au formulaire actuel, en spécifiant éventuellement des autorisations et une date d'expiration.  <br/> |
 |Méthode [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Remove.aspx)  <br/> |Supprime l'objet **UserPermission** comportant l'ID **UserId** spécifié à partir de la collection.  <br/> |
-|[RemoveAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.RemoveAll.aspx) , méthode  <br/> |Supprime tous les objets **UserPermission** de la collection.  <br/> |
+|[Méthode RemoveAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.RemoveAll.aspx)  <br/> |Supprime tous les objets **UserPermission** de la collection.  <br/> |
 |Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Count.aspx)  <br/> |Obtient le nombre d'objets **UserPermission** dans la collection.  <br/> |
-|[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Item.aspx) , propriété (+ 1 Overload)  <br/> |Obtient un objet **UserPermission**.  <br/> |
+|[Propriété Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Item.aspx) (+1 surcharge)  <br/> |Obtient un objet **UserPermission**.  <br/> |
    
 ### <a name="overview-of-the-userpermission-class"></a>Vue d'ensemble de la classe UserPermission
 
 La classe **UserPermission** fournit les propriétés suivantes et une méthode. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |Méthode [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Remove.aspx)  <br/> |Supprime l'objet **UserPermission** actuel des autorisations du formulaire.  <br/> |
-|[ExpirationDate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.ExpirationDate.aspx) , propriété  <br/> |Obtient ou définit la date d'expiration facultative pour les autorisations du formulaire actif affectées à l'utilisateur associé à une instance de la classe **UserPermission**.  <br/> |
-|[Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Permission.aspx) , propriété  <br/> |Obtient ou définit une valeur représentant les autorisations du formulaire actif affectées à l'utilisateur associé à une instance de la classe **UserPermission**.  <br/> |
-|[Userid](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.UserId.aspx) , propriété  <br/> |Obtient l'adresse de messagerie de l'utilisateur dont les autorisations sur le formulaire actif sont déterminées par l'objet **UserPermission** spécifié.  <br/> |
+|[ExpirationDate,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.ExpirationDate.aspx) propriété  <br/> |Obtient ou définit la date d'expiration facultative pour les autorisations du formulaire actif affectées à l'utilisateur associé à une instance de la classe **UserPermission**.  <br/> |
+|[Propriété Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Permission.aspx)  <br/> |Obtient ou définit une valeur représentant les autorisations du formulaire actif affectées à l'utilisateur associé à une instance de la classe **UserPermission**.  <br/> |
+|[UserId,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.UserId.aspx) propriété  <br/> |Obtient l’adresse de messagerie de l’utilisateur dont les autorisations sur le formulaire actuel sont déterminées par l’objet **UserPermission** spécifié.  <br/> |
    
 ### <a name="the-permissiontype-enumeration"></a>Énumération PermissionType
 
 Les autorisations d'un utilisateur sont définies ou lues à l'aide des valeurs d'énumération [PermissionType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.aspx) . 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|**PermissionType. change** <br/> |Permet aux utilisateurs d'afficher, de copier et d'enregistrer un formulaire mais pas de l'imprimer. Elle correspond à la combinaison des autorisations **Read**, **Edit**, **Save** et **Extract**.  <br/> |
-|**PermissionType. Edit** <br/> |Permet à l'utilisateur de modifier le formulaire.  <br/> |
-|**PermissionType. Extract** <br/> |Permet à un utilisateur disposant de l'autorisation **Read** de copier un contenu dans le formulaire.  <br/> |
-|**PermissionType. contrôle total** <br/> |Permet à l'utilisateur d'ajouter, de modifier et de supprimer les autorisations d'autres utilisateurs d'un formulaire.  <br/> |
-|**PermissionType. ObjectModel** <br/> |Permet à un utilisateur d'accéder au document du formulaire par programme via son modèle objet. Les utilisateurs qui ne disposent pas de l'autorisation **ObjectModel** ne peuvent pas avoir recours au modèle objet pour déterminer leurs propres autorisations.  <br/> |
-|**PermissionType. Print** <br/> |Permet à l'utilisateur d'imprimer le formulaire.  <br/> |
-|**PermissionType. Read** <br/> |Permet à l'utilisateur de lire (d'afficher) le formulaire. (Les autorisations **Read** et **View** sont équivalentes.)  <br/> |
-|**PermissionType. Save** <br/> |Permet à l'utilisateur d'enregistrer le formulaire.  <br/> |
-|**PermissionType. View** <br/> |Permet à l'utilisateur d'afficher (de lire) le formulaire. (Les autorisations **Read** et **View** sont équivalentes.)  <br/> |
+|**PermissionType.Change** <br/> |Permet aux utilisateurs d'afficher, de copier et d'enregistrer un formulaire mais pas de l'imprimer. Elle correspond à la combinaison des autorisations **Read**, **Edit**, **Save** et **Extract**.  <br/> |
+|**PermissionType.Edit** <br/> |Permet à l'utilisateur de modifier le formulaire.  <br/> |
+|**PermissionType.Extract** <br/> |Permet à un utilisateur disposant de l'autorisation **Read** de copier un contenu dans le formulaire.  <br/> |
+|**PermissionType.FullControl** <br/> |Permet à l'utilisateur d'ajouter, de modifier et de supprimer les autorisations d'autres utilisateurs d'un formulaire.  <br/> |
+|**PermissionType.ObjectModel** <br/> |Permet à un utilisateur d'accéder au document du formulaire par programme via son modèle objet. Les utilisateurs qui ne disposent pas de l'autorisation **ObjectModel** ne peuvent pas avoir recours au modèle objet pour déterminer leurs propres autorisations.  <br/> |
+|**PermissionType.Print** <br/> |Permet à l'utilisateur d'imprimer le formulaire.  <br/> |
+|**PermissionType.Read** <br/> |Permet à l'utilisateur de lire (d'afficher) le formulaire. (Les autorisations **Read** et **View** sont équivalentes.)  <br/> |
+|**PermissionType.Save** <br/> |Permet à l'utilisateur d'enregistrer le formulaire.  <br/> |
+|**PermissionType.View** <br/> |Permet à l'utilisateur d'afficher (de lire) le formulaire. (Les autorisations **Read** et **View** sont équivalentes.)  <br/> |
    
 ### <a name="example"></a>Exemple
 

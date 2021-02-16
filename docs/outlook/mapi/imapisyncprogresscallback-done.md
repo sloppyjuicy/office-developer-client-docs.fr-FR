@@ -38,11 +38,11 @@ HRESULT Done(
 
  **hThreadDoneEvent**
   
-> Un événement qui est renvoyé pour permettre à Microsoft Outlook de fermer le descripteur. Elle peut être NULL.
+> Événement transmis pour permettre à Microsoft Outlook de fermer le handle. Elle peut être NULL.
     
  **hResult**
   
-> HRESULT indiquant l'état final de la progression.
+> HRESULT indiquant l’état final de la progression.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

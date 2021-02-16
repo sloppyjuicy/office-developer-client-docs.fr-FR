@@ -25,30 +25,30 @@ ms.locfileid: "33421591"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d'affichage défini par le fournisseur pour un fournisseur de services.
+Contient le nom complet défini par le fournisseur pour un fournisseur de services.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_DISPLAY, PR_PROVIDER_DISPLAY_A, PR_PROVIDER_DISPLAY_W  <br/> |
 |Identificateur :  <br/> |0x3006  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés et **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) sont définis uniquement sur les sections de profil appartenant aux fournisseurs de services. Ils doivent être présents dans MAPISVC. INF.
+Ces propriétés **et PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) sont définies uniquement sur les sections de profil appartenant aux fournisseurs de services. Ils doivent être présents dans MAPISVC.INF.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

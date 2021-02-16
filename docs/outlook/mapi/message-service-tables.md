@@ -1,5 +1,5 @@
 ---
-title: Tables des services de messagerie
+title: Tables des services de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422494"
 ---
-# <a name="message-service-tables"></a>Tables des services de messagerie
+# <a name="message-service-tables"></a>Tables des services de messages
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La table service de messagerie contient des informations sur les services de messagerie dans le profil actif. Il existe une table de service de messagerie pour chaque session MAPI, implémentée par MAPI et utilisée par des applications clientes à vocation spéciale qui fournissent la prise en charge de la configuration. 
+Le tableau des services de message contient des informations sur les services de message dans le profil actuel. Il existe une table de service de message pour chaque session MAPI, implémentée par MAPI et utilisée par des applications clientes à usage spécifique qui fournissent la prise en charge de la configuration. 
   
-La table des services de messagerie est une table statique.
+La table de service de message est une table statique.
   
-Les clients accèdent à la table de service de message en appelant la méthode [IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) . 
+Les clients accèdent à la table de service de message en appelant la méthode [IMsgServiceAdmin::GetMsgServiceTable.](imsgserviceadmin-getmsgservicetable.md) 
   
-Les propriétés suivantes constituent le jeu de colonnes obligatoire dans le tableau service de message:
+Les propriétés suivantes définissent la colonne requise dans la table de service de message :
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Les propriétés suivantes constituent le jeu de colonnes obligatoire dans le ta
 |**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
 |**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
    
- **PR_DISPLAY_NAME** est le nom affichable pour le service de messagerie et la colonne clé de tri par défaut. 
+ **PR_DISPLAY_NAME** est le nom affichable pour le service de message et la colonne de clé de tri par défaut. 
   
- **PR_INSTANCE_KEY** sert de colonne d'index pour la table et identifie de manière unique une ligne. 
+ **PR_INSTANCE_KEY** sert de colonne d’index pour la table, identifiant de manière unique une ligne. 
   
- **PR_RESOURCE_FLAGS** décrit les fonctionnalités du service de messagerie. 
+ **PR_RESOURCE_FLAGS** décrit les fonctionnalités du service de message. 
   
- **PR_SERVICE_DLL_NAME** est le nom de la dll qui contient l'implémentation du service de messagerie. 
+ **PR_SERVICE_DLL_NAME** est le nom de la DLL qui contient l’implémentation du service de message. 
   
- **PR_SERVICE_ENTRY_NAME** est le nom de la fonction de point d'entrée du service de messagerie conforme au prototype [MSGSERVICEENTRY](msgserviceentry.md) . 
+ **PR_SERVICE_ENTRY_NAME** est le nom de la fonction de point d’entrée du service de message conforme au prototype [MSGSERVICEENTRY.](msgserviceentry.md) 
   
- **PR_SERVICE_NAME** est une entrée obligatoire dans la section **[services]** du fichier MAPISVC. inf. La valeur de cette propriété ne sera jamais changée ou localisée. **PR_SERVICE_NAME** peut être utilisé pour identifier le service de messagerie par programme. 
+ **PR_SERVICE_NAME** est une entrée obligatoire dans la section **[Services]** de MAPISVC.INF. La valeur de cette propriété ne sera jamais modifiée ni localisée. **PR_SERVICE_NAME** permet d’identifier par programme le service de message. 
   
- **PR_SERVICE_SUPPORT_FILES** est une liste de fichiers qui doit être installée avec le service de messagerie. 
+ **PR_SERVICE_SUPPORT_FILES** liste des fichiers qui doivent être installés avec le service de message. 
   
- **PR_SERVICE_UID** est un identificateur unique pour le service de messagerie. 
+ **PR_SERVICE_UID** est un identificateur unique pour le service de message. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

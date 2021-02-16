@@ -21,28 +21,28 @@ ms.locfileid: "33422690"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Il existe de nombreux types de contrôles, aucun n'est unique pour MAPI. Toutefois, MAPI définit ses propres structures qui sont utilisées conjointement avec [BuildDisplayTable](builddisplaytable.md) pour décrire l'ensemble unique de données impliquées dans chaque contrôle. 
+Il existe de nombreux types de contrôles différents, aucun propre à MAPI. Toutefois, MAPI définit ses propres structures utilisées conjointement avec [BuildDisplayTable](builddisplaytable.md) pour décrire l’ensemble unique de données impliquées dans chaque contrôle. 
   
 Le tableau suivant répertorie les structures qui décrivent chaque type de contrôle. 
   
-|**Structure de contrôle**|**Description**|
+|**Structure des contrôles**|**Description**|
 |:-----|:-----|
 |[DTBLBUTTON](dtblbutton.md) <br/> |Décrit un contrôle de bouton.  <br/> |
 |[DTBLCHECKBOX](dtblcheckbox.md) <br/> |Décrit un contrôle case à cocher.  <br/> |
 |[DTBLCOMBOBOX](dtblcombobox.md) <br/> |Décrit un contrôle de zone de liste déroulante.  <br/> |
-|[DTBLDDLBX](dtblddlbx.md) <br/> |Décrit un contrôle de zone de liste déroulante.  <br/> |
-|[DTBLEDIT](dtbledit.md) <br/> |Décrit un contrôle d'édition.  <br/> |
+|[DTBLDDLBX](dtblddlbx.md) <br/> |Décrit un contrôle de zone de liste liste.  <br/> |
+|[DTBLEDIT](dtbledit.md) <br/> |Décrit un contrôle d’édition.  <br/> |
 |[DTBLGROUPBOX](dtblgroupbox.md) <br/> |Décrit un contrôle de zone de groupe.  <br/> |
-|[DTBLLABEL](dtbllabel.md) <br/> |Décrit un contrôle Label.  <br/> |
+|[DTBLLABEL](dtbllabel.md) <br/> |Décrit un contrôle d’étiquette.  <br/> |
 |[DTBLLBX](dtbllbx.md) <br/> |Décrit un contrôle de zone de liste.  <br/> |
-|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |Décrit un contrôle de zone de liste déroulante à valeurs multiples.  <br/> |
+|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |Décrit un contrôle de zone de liste rouge à valeurs multiples.  <br/> |
 |[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |Décrit un contrôle de zone de liste à valeurs multiples.  <br/> |
 |[DTBLPAGE](dtblpage.md) <br/> |Décrit un contrôle de page à onglets.  <br/> |
-|[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Décrit un contrôle case d'option.  <br/> |
+|[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Décrit un contrôle de bouton d’option.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Implémentation des tables d'affichage](display-table-implementation.md)
+[Implémentation du tableau d’affichage](display-table-implementation.md)
 

@@ -29,7 +29,7 @@ Décrit un identificateur global unique (GUID).
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiguid. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiguid.h  <br/> |
    
 ```cpp
 typedef struct _GUID
@@ -46,15 +46,15 @@ typedef struct _GUID
 
  **Data1**
   
-> Valeur de type long Integer non signée.
+> Valeur de données long et non signée.
     
  **Data2**
   
-> Valeur de type Integer courte non signée.
+> Valeur de données d’unteger court non signé.
     
  **Data3**
   
-> Valeur de type Integer courte non signée.
+> Valeur de données d’unteger court non signé.
     
  **Data4**
   
@@ -62,19 +62,19 @@ typedef struct _GUID
     
 ## <a name="remarks"></a>Remarques
 
- Les structures de **GUID** sont utilisées dans MAPI de la manière suivante: 
+ **Les** structures GUID sont utilisées dans MAPI comme suit : 
   
-- Dans les structures [MAPIUID](mapiuid.md) qui identifient les fournisseurs de services de manière unique. 
+- Dans les structures [MAPIUID](mapiuid.md) qui identifient de manière unique les fournisseurs de services. 
     
-- Pour les identificateurs d'interface.
+- Pour les identificateurs d’interface.
     
-- Dans le jeu de propriétés, définissez les noms des propriétés nommées. 
+- Dans le jeu de propriétés, les noms des propriétés nommées. 
     
-Banque de messages et fournisseurs de carnet d'adresses génèrent une structure de **GUID** à utiliser dans leur structure **MAPIUID** . En transmettant le **MAPIUID** résultant à [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md), ces fournisseurs de services informent MAPI de leur identificateur unique.
+Les fournisseurs de magasins de messages et de carnets d’adresses génèrent une structure **GUID** à utiliser dans leur structure **MAPIUID.** En passant le **MAPIUID** résultant à [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), ces fournisseurs de services informent MAPI de leur identificateur unique.
   
-En outre, elles sont utilisées dans l'implémentation de l'appel de procédure disTante (RPC) Microsoft et du langage ODL (Object Description Language). Pour plus d'informations sur ces utilisations ** , reportez-vous au *Guide de référence du programmeur RPC Microsoft et*à l' *intérieur OLE*, *deuxième édition* . 
+En outre, ils sont utilisés dans l’implémentation de Microsoft Remote Procedure Call (RPC) et de l’ODL (Object Description Language). Pour plus d’informations sur ces utilisations, voir le Guide du programmeur  *Microsoft RPC* et la référence, *OLE Programmer’s Reference*  et Inside  *OLE*, *Second Edition*  . 
   
-La structure du **GUID** est définie dans le *Guide de référence du programmeur Win32* . Les valeurs spécifiques des structures de **GUID** utilisées dans MAPI sont définies dans le fichier d'en-tête MAPI Mapiguid. h. 
+La structure **GUID** est définie dans le Guide de référence du *programmeur Win32.* Des valeurs spécifiques pour les structures **GUID** utilisées dans MAPI sont définies dans le fichier d’en-tête MAPI Mapiguid.h. 
   
 ## <a name="see-also"></a>Voir aussi
 

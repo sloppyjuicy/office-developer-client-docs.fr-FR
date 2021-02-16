@@ -26,13 +26,13 @@ int CloseSession(int SessionId)
 
 ## <a name="parameters"></a>Paramètres
 
-_Session_
+_SessionId_
   
-> ID de la session à fermer. Cette valeur doit correspondre à la valeur retournée par [OpenSession](opensession.md).
+> ID de la session à fermer. Cette valeur doit correspondre à la valeur renvoyée [par OpenSession](opensession.md).
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess** si la session a été fermée; **xlHpcRetInvalidSessionId** si l'argument _SessionID_ n'est pas valide; **xlHpcRetCallFailed** sur d'autres défaillances. 
+**xlHpcRetSuccess si** la session s’est fermée ; **xlHpcRetInvalidSessionId** si l’argument  _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418231"
 ---
-# <a name="propacctisexch"></a>PROP_ACCT_IS_EXCH
+# <a name="prop_acct_is_exch"></a>PROP_ACCT_IS_EXCH
 
 True si le compte est un compte Exchange.
   
@@ -25,13 +25,13 @@ Voir [IOlkAccount](iolkaccount.md).
 |||
 |:-----|:-----|
 |Identificateur :  <br/> |0x0014  <br/> |
-|Type de propriété:  <br/> |PT_LONG  <br/> |
-|Balise de propriété:  <br/> |0x00140003  <br/> |
-|Access  <br/> |Lecture seule  <br/> |
+|Type de propriété :  <br/> |PT_LONG  <br/> |
+|Balise de propriété :  <br/> |0x00140003  <br/> |
+|Accès :  <br/> |Lecture seule  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Obtenez cette propriété à l'aide de [IOlkAccount:: getprop](iolkaccount-getprop.md). Si le client tente de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**. 
+Obtenez cette propriété à [l’aide de IOlkAccount::GetProp](iolkaccount-getprop.md). Si le client tente de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**. 
   
 ## <a name="see-also"></a>Voir aussi
 

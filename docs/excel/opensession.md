@@ -18,7 +18,7 @@ ms.locfileid: "33421836"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Crée une session dans laquelle des fonctions définies par l'utilisateur peuvent être exécutées.
+Crée une session dans laquelle les fonctions définies par l’utilisateur peuvent être exécutées.
   
 ```cpp
 int OpenSession(WCHAR *Params)
@@ -28,11 +28,11 @@ int OpenSession(WCHAR *Params)
 
 _Paramètres_
   
-> Pointeur vers une chaîne UNICODE délimitée par des points-virgules de paramètres pour la session. Excel n'utilise pas cet argument.
+> Pointeur vers une chaîne de paramètres UNICODE délimitée par des points-virgules pour la session. Excel n’utilise pas cet argument.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-Un ID de session à utiliser dans d'autres appels vers le connecteur de cluster, si la session a été correctement créée; sinon **xlHpcRetCallFailed**.
+ID de session à utiliser dans d’autres appels au connecteur de cluster, si la session a été correctement créée ; sinon **xlHpcRetCallFailed**.
   
 ## <a name="see-also"></a>Voir aussi
 

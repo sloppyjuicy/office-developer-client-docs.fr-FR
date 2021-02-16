@@ -1,5 +1,5 @@
 ---
-title: Algorithme de codage des ID d'entrée et des ID de pièces jointes
+title: Algorithme permettant de coder les ID d’entrée et les ID de pièce jointe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,13 +13,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420135"
 ---
-# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algorithme de codage des ID d'entrée et des ID de pièces jointes
+# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algorithme permettant de coder les ID d’entrée et les ID de pièce jointe
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un fournisseur de banque d'identité peut envoyer un ID d'entrée et un ID de pièce jointe au gestionnaire de protocole MAPI dans le cadre d'une URL (Uniform Resource Locator) MAPI afin d'identifier un objet qui est prêt à être indexé. Le fournisseur de magasin code l'ID d'entrée et l'ID de pièce jointe en tant que chaînes Unicode. Cette rubrique présente un algorithme qui génère une représentation compacte de l'ID d'entrée ou de l'ID de pièce jointe.
+Un fournisseur de magasin peut envoyer dans le cadre d’une URL MAPI un ID d’entrée et un ID de pièce jointe au responsable du protocole MAPI pour identifier un objet prêt pour l’indexation. Le fournisseur de banque d’informations encode l’ID d’entrée et l’ID de pièce jointe en tant que chaînes Unicode. Cette rubrique présente un algorithme qui génère une représentation compacte de l’ID d’entrée ou de l’ID de pièce jointe.
   
 ```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[À propos de l'indexation du magasin basé sur les notifications](about-notification-based-store-indexing.md)
+[À propos Notification-Based'indexation dans le Store](about-notification-based-store-indexing.md)
   
-[À propos des URL MAPI pour l'indexation basée sur les notifications](about-mapi-urls-for-notification-based-indexing.md)
+[À propos des URL MAPI pour lNotification-Based indexation](about-mapi-urls-for-notification-based-indexing.md)
 

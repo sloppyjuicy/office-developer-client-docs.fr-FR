@@ -25,7 +25,7 @@ ms.locfileid: "33419750"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si l'expéditeur d'un message souhaite être averti de la non-réception d'un destinataire spécifié.
+Contient TRUE si un expéditeur de message souhaite recevoir une notification de non-réception pour un destinataire spécifié.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la valeur TRUE si l'expéditeur d'un message souhaite être averti de l
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété contient la valeur FALSe et que la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) contient la valeur true, le fournisseur de services peut remplacer la propriété **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** et générer une notification d'échec de remise. 
+Si cette propriété contient FALSE et que la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) contient TRUE, le fournisseur de services peut remplacer la propriété **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** et générer une non-remise. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

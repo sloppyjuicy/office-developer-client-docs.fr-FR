@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420198"
 ---
-# <a name="sending-messages-mapi-spooler-tasks"></a>Envoi de messages: tâches du spouleur MAPI
+# <a name="sending-messages-mapi-spooler-tasks"></a>Envoi de messages : tâches dupooler MAPI
 
   
   
@@ -27,14 +27,14 @@ Le spouleur MAPI est impliqu� dans le processus de transmission de message lor
   
 1. If the message is not locked, locks the message by using the [IMsgStore::SetLockState](imsgstore-setlockstate.md) method. 
     
-2. Le fournisseur de transport envoie le message à tous les destinataires dont la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) a la valeur false. 
+2. Le fournisseur de transport envoie le message à tous les destinataires dont la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) est définie sur FALSE. 
     
-3. Appelle la fonction appropriée ([RemovePreprocessInfo](removepreprocessinfo.md)) pour nettoyer les informations supplémentaires qui ont été ajoutées au message afin de les utiliser lors du prétraitement si la propriété **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)) a été définie. This function is specified when the transport provider registers its preprocessor function. 
+3. Appelle la fonction appropriée ([RemovePreprocessInfo](removepreprocessinfo.md)) pour le nettoyage des informations supplémentaires qui ont été ajoutées au message pour une utilisation pendant le prétraitage si la propriété **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)) a été définie. This function is specified when the transport provider registers its preprocessor function. 
     
 4. Calls [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) method. In **FinishedMsg**, the message store provider:
     
   - D�verrouille le message.
     
-  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. Il copie ensuite le message dans le dossier identifié par l'identificateur d'entrée dans la propriété **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), s'il n'est pas remplacé par un traitement de message envoyé par un fournisseur de hook de messagerie. Enfin, il supprime le message si la propriété **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) a été définie sur true. 
+  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. Il copie ensuite le message dans le dossier identifié par l’identificateur d’entrée dans la propriété **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), s’il n’est pas mis en avant par le traitement des messages envoyés par un fournisseur de hooks de messagerie. Enfin, il supprime le message si la propriété **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) a été définie sur TRUE. 
     
 

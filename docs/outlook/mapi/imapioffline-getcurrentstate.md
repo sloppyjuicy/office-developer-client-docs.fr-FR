@@ -25,7 +25,7 @@ ms.locfileid: "33419869"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Obtient l'État en ligne ou hors connexion actuel d'un objet hors connexion.
+Obtient l’état actuel en ligne ou hors connexion d’un objet hors connexion.
   
 ```cpp
 HRESULT GetCurrentState( 
@@ -35,9 +35,9 @@ HRESULT GetCurrentState(
 
 ## <a name="parameters"></a>Paramètres
 
- _pulState_
+ _l’état de l’état de_
   
-> remarquer État en ligne ou hors connexion actuel d'un objet hors connexion. Il doit s'agir de l'une des deux valeurs suivantes:
+> [out] État actuel en ligne ou hors connexion d’un objet hors connexion. Elle doit être l’une des deux valeurs ci-après :
     
 MAPIOFFLINE_STATE_ONLINE
   

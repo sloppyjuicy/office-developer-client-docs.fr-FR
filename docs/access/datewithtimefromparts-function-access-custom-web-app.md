@@ -1,5 +1,5 @@
 ---
-title: Fonction DateWithTimeFromParts (application Web personnalisée Access)
+title: Fonction DateWithTimeFromParts (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422088"
 ---
-# <a name="datewithtimefromparts-function-access-custom-web-app"></a>Fonction DateWithTimeFromParts (application Web personnalisée Access)
+# <a name="datewithtimefromparts-function-access-custom-web-app"></a>Fonction DateWithTimeFromParts (application web personnalisée Access)
 
 Renvoie une date et une heure basées sur une année, un mois, un jour et une heure spécifiés.
   
@@ -22,21 +22,21 @@ Renvoie une date et une heure basées sur une année, un mois, un jour et une he
   
 ## <a name="syntax"></a>Syntaxe
 
-**DateWithTimeFromParts** (*Année*, *mois*, *jour*, *heure*, *minute*, *seconde*) 
+**DateWithTimeFromParts** (*Year*, *Month*, *Day*, *Hour*, *Minute*, *Second*) 
   
-La fonction **DateWithTimeFromParts** contient les arguments suivants. 
+La **fonction DateWithTimeFromParts** contient les arguments suivants. 
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Année*  <br/> |Expression de nombre entier spécifiant une année.  <br/> |
-| *Month*  <br/> |Expression de nombre entier spécifiant un mois.  <br/> |
-| *Day*  <br/> |Expression de nombre entier spécifiant un jour.  <br/> |
-| *Hour*  <br/> |Expression de type Integer qui spécifie les heures.  <br/> |
-| *Minute*  <br/> |Expression de nombre entier spécifiant des minutes.  <br/> |
-| *Second*  <br/> |Expression de type Integer qui spécifie les secondes.  <br/> |
+| *Année*  <br/> |Expression de nombres integer spécifiant une année.  <br/> |
+| *Month*  <br/> |Expression de nombres integer spécifiant un mois.  <br/> |
+| *Day*  <br/> |Expression de nombres integer spécifiant un jour.  <br/> |
+| *Hour*  <br/> |Expression de nombres integer spécifiant les heures.  <br/> |
+| *Minute*  <br/> |Expression de nombres integer spécifiant les minutes.  <br/> |
+| *Second*  <br/> |Expression de nombres integer spécifiant les secondes.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-**DateWithTimeFromParts** renvoie une valeur date/heure entièrement initialisée. Si les arguments ne sont pas valides, une erreur est générée. Si les arguments requis sont NULL, NULL est renvoyé. 
+**DateWithTimeFromParts** renvoie une valeur Date/Heure entièrement initialisée. Si les arguments ne sont pas valides, une erreur se produit. Si les arguments obligatoires sont Null, null est renvoyé. 
   
 

@@ -19,37 +19,37 @@ ms.locfileid: "33418847"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Votre méthode d'ouverture de session ([IABProvider:: Logon](iabprovider-logon.md), [IMSProvider:: Logon](imsprovider-logon.md), ou [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md)) doit vérifier la configuration de votre fournisseur. Cela implique de vérifier que toutes les propriétés nécessaires pour une opération complète sont correctement définies. Chaque fournisseur requiert un nombre de propriétés différent; la configuration dépend de votre fournisseur et du degré d'interaction des utilisateurs que vous autorisez. Certains fournisseurs de services conservent toutes les propriétés nécessaires dans le profil. 
+Votre méthode d’logon ([IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)ou [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)) doit vérifier la configuration de votre fournisseur. Cela implique de vérifier que toutes les propriétés requises pour un fonctionnement complet sont définies correctement. Chaque fournisseur nécessite un nombre différent de propriétés ; dépend de votre fournisseur et du degré d’interaction utilisateur que vous autorisez. Certains fournisseurs de services conservent toutes les propriétés nécessaires dans le profil. 
 
-Les autres fournisseurs de services conservent un ensemble partiel de propriétés dans le profil et invitent l'utilisateur à indiquer les valeurs manquantes. D'autres fournisseurs ne stockent pas les propriétés dans le profil, en s'appuyant sur l'utilisateur pour fournir toutes les informations nécessaires à la configuration.
+D’autres fournisseurs de services conservent un ensemble partiel de propriétés dans le profil et invitent l’utilisateur à lui faire part de l’absence de valeurs. D’autres fournisseurs ne stockent pas du tout les propriétés dans le profil, en s’appuyant sur l’utilisateur pour fournir toutes les informations nécessaires à la configuration.
   
 ### <a name="to-retrieve-properties-stored-in-the-profile"></a>Pour récupérer les propriétés stockées dans le profil
   
-1. Appelez [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md), en transmettant l' [MAPIUID](mapiuid.md) de votre fournisseur en tant que paramètre d'entrée. 
+1. Appelez [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md), en passant le [MAPIUID](mapiuid.md) de votre fournisseur comme paramètre d’entrée. 
     
-2. Appelez les méthodes [IMAPIProp:: GetProps](imapiprop-getprops.md) ou IMAPIProp:: [GetPropList](imapiprop-getproplist.md) de la section Profil pour récupérer des propriétés individuelles ou une liste de propriétés. 
+2. Appelez les méthodes [IMAPIProp::GetProps](imapiprop-getprops.md) ou [IMAPIProp::GetPropList](imapiprop-getproplist.md) de la section de profil pour récupérer des propriétés individuelles ou une liste de propriétés. 
     
 ### <a name="to-set-properties-from-user-information"></a>Pour définir des propriétés à partir des informations utilisateur
   
-Afficher une feuille de propriétés, si MAPI n'a pas défini un indicateur qui interdit l'affichage. Les indicateurs suivants indiquent qu'une interface utilisateur ne peut pas être présentée.
+Afficher une feuille de propriétés, si MAPI n’a pas définie d’indicateur qui interdit l’affichage. Les indicateurs suivants indiquent qu’une interface utilisateur ne peut pas être présentée.
   
 |**Indicateur**|**Fournisseur de services**|
 |:-----|:-----|
-|AB_NO_DIALOG  <br/> |Fournisseur de carnets d'adresses  <br/> |
+|AB_NO_DIALOG  <br/> |Fournisseur de carnet d’adresses  <br/> |
 |LOGON_NO_DIALOG  <br/> |Fournisseur de transport  <br/> |
-|MDB_NO_DIALOG  <br/> |Fournisseur de banque de messages  <br/> |
+|MDB_NO_DIALOG  <br/> |Fournisseur de magasin de messages  <br/> |
    
-Si votre fournisseur ne stocke pas toutes ses propriétés de configuration dans le profil, nécessite une intervention de l'utilisateur et MAPI transmet l'un des indicateurs de suppression de la boîte de dialogue à votre méthode d'ouverture de session, renvoie MAPI_E_UNCONFIGURED. Renvoie également cette erreur lorsque l'indicateur de suppression de boîte de dialogue n'est pas défini, mais que l'utilisateur ne fournit pas toutes les informations requises.
+Si votre fournisseur ne stocke pas toutes ses propriétés de configuration dans le profil, ce qui nécessite une interaction de l’utilisateur et que MAPI transmet l’un des indicateurs de suppression de la boîte de dialogue à votre méthode d’ouverture de MAPI_E_UNCONFIGURED. Renvoyer également cette erreur lorsque l’indicateur de suppression de boîte de dialogue n’est pas définie, mais que l’utilisateur ne fournit pas toutes les informations requises.
   
-Lorsque votre fournisseur de services échoue à sa méthode d'ouverture de session avec MAPI_E_UNCONFIGURED, MAPI appelle à nouveau votre fonction de point d'entrée. Si les informations ne peuvent pas être localisées avec le deuxième appel, la session peut se terminer, en fonction de l'importance de votre fournisseur de services. 
+Lorsque votre fournisseur de services échoue à sa méthode d’MAPI_E_UNCONFIGURED, MAPI appelle à nouveau votre fonction de point d’entrée. Si les informations ne peuvent pas être localisées avec le deuxième appel, la session peut s’interrompre, selon l’importance de votre fournisseur de services. 
   
-L'illustration suivante montre la logique requise pour la configuration dans votre méthode de connexion au fournisseur de services. 
+L’illustration suivante illustre la logique requise pour la configuration dans votre méthode d’accès au fournisseur de services. 
   
 **Diagramme de flux de vérification de la configuration**
   
-![Organigramme de vérification] de la configuration (media/amapi_62.gif "Organigramme de vérification") de la configuration
+![Flowchart de vérification de l’écran de]configuration de la vérification(media/amapi_62.gif "de la configuration")
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Implémentation de la connexion au fournisseur de services](implementing-service-provider-logon.md)
+- [Mise en œuvre de l’logo du fournisseur de services](implementing-service-provider-logon.md)
 

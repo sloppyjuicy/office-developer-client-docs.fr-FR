@@ -37,7 +37,7 @@ Pour obtenir une référence à la cellule LockPreview à l'aide d'un index à p
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowDoc** <br/> |
 | Index de la cellule :  <br/> |**visDocLockPreview** <br/> |
    

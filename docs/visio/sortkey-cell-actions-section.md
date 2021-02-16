@@ -31,14 +31,14 @@ Pour obtenir une référence à la cellule SortKey à partir du nom d’une autr
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Mesures. *nom* . Actions Sortkeyoù.  *Name* est le nom de la ligne d'actions  <br/> |
+|Nom de cellule :  <br/> |Actions. *nom*  . SortKeywhere Actions.  *name*  est le nom de la ligne Actions  <br/> |
    
 Pour obtenir une référence à la cellule SortKey par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visActionSortKey** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33419603"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avertit la visionneuse de formulaires qu'un nouveau message ou un message existant a été chargé dans un formulaire.
+Avertit la visionneuse de formulaire qu’un nouveau message ou un message existant a été chargé dans un formulaire.
   
 ```cpp
 HRESULT OnNewMessage( void );
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les objets de formulaire appellent la méthode **IMAPIViewAdviseSink:: OnNewMessage** chaque fois qu'un message est chargé dans un formulaire à l'aide de la méthode [IPersistMessage:: InitNew](ipersistmessage-initnew.md) ou [IPersistMessage:: Load](ipersistmessage-load.md) . 
+Les objets form appellent la méthode **IMAPIViewAdviseSink::OnNewMessage** chaque fois qu’un message est chargé dans un formulaire à l’aide de la méthode [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load.](ipersistmessage-load.md) 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Libérez votre pointeur actif sur l'objet de formulaire, car il ne pointe plus vers le message que votre visionneuse était précédemment en train d'afficher. 
+Relâchez votre pointeur actif vers l’objet formulaire, car il ne pointe plus vers le message que votre visionneuse visionnait auparavant. 
   
-Pour plus d'informations sur les notifications de formulaire, consultez la rubrique [envoi et réception de notifications de formulaire](sending-and-receiving-form-notifications.md).
+Pour plus d’informations sur les notifications de formulaire, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Voir aussi
 

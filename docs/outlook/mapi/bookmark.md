@@ -25,12 +25,12 @@ ms.locfileid: "33418133"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit les données de signets pour la mémorisation d'une position dans un tableau. 
+Définit les données de signets pour la mémoire d’une position dans un tableau. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Méthodes connexes:  <br/> |[IMAPITable:: CreateBookmark](imapitable-createbookmark.md) [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Méthodes associées :  <br/> |[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;
@@ -38,21 +38,21 @@ typedef ULONG_PTR BOOKMARK;
 
 ## <a name="remarks"></a>Remarques
 
-MAPI définit trois signets, comme suit:
+MAPI définit trois signets, répertoriés comme suit :
   
 BOOKMARK_BEGINNING 
   
-> Mémorise la position de départ de la table. 
+> Mémoriser la position de départ du tableau. 
     
 BOOKMARK_CURRENT 
   
-> Mémorise la position actuelle de la table.
+> Se souvenir de la position actuelle du tableau.
     
 BOOKMARK_END 
   
-> Mémorise la position de fin de la table.
+> Mémoriser la position de fin du tableau.
     
-Les clients peuvent créer d'autres signets pour mémoriser les autres positions des tables. Les signets ne sont valides que lorsque le tableau est ouvert. Les clients doivent libérer tous les signets qu'ils ont créés avant de fermer le tableau associé. 
+Les clients peuvent créer d’autres signets pour mémoriser d’autres positions de tableau. Les signets ne sont valides que lorsque la table est ouverte. Les clients doivent libérer les signets qu’ils ont créés avant de fermer la table associée. 
   
 ## <a name="see-also"></a>Voir aussi
 

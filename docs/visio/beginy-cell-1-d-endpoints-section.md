@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm95
 localization_priority: Normal
 ms.assetid: b2518a70-5755-a15a-a238-bac2ae64a75a
-description: Représente la coordonnée y du point de début de la forme 1D, par rapport à l'origine de son parent.
+description: Représente la coordonnée y du point de début de la forme 1D, par rapport à l’origine de son parent.
 ms.openlocfilehash: dbe1cca3a3b969b14b62cb613359d014c7933bd9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33419211"
 ---
 # <a name="beginy-cell-1-d-endpoints-section"></a>BeginY, cellule (section 1-D Endpoints)
 
-Représente la coordonnée *y* du point de début de la forme 1D, par rapport à l'origine de son parent. 
+Représente la  *coordonnée y*  du point de début de la forme 1D, par rapport à l’origine de son parent. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -32,7 +32,7 @@ Pour obtenir une référence à la cellule BeginY à l'aide d'un index à partir
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowXForm1D** <br/> |
 | Index de la cellule :  <br/> |**vis1DBeginY** <br/> |
    

@@ -25,7 +25,7 @@ ms.locfileid: "33422242"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la structure [MAPIUID](mapiuid.md) d'un fournisseur de carnets d'adresses. 
+Contient la structure [MAPIUID](mapiuid.md) d’un fournisseur de carnet d’adresses. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient la structure [MAPIUID](mapiuid.md) d'un fournisseur de carnets d'adress
    
 ## <a name="remarks"></a>Remarques
 
-La structure **MAPIUID** identifie le fournisseur de carnet d'adresses qui fournit ce conteneur particulier dans la hiérarchie de conteneurs. La valeur est unique pour chaque fournisseur. 
+La structure **MAPIUID** identifie le fournisseur de carnet d’adresses qui fournit ce conteneur particulier dans la hiérarchie de conteneurs. La valeur est propre à chaque fournisseur. 
   
-Un fournisseur de carnets d'adresses peut fournir plusieurs identificateurs. Par exemple, un fournisseur qui fournit deux conteneurs différents peut publier dans **PR_AB_PROVIDER_ID** identificateurs uniques pour chaque conteneur. 
+Un fournisseur de carnet d’adresses peut fournir plusieurs identificateurs. Par exemple, un fournisseur qui fournit  deux conteneurs différents peut publier dans PR_AB_PROVIDER_ID identificateurs uniques pour chaque conteneur. 
   
- **PR_AB_PROVIDER_ID** est analogue à la propriété **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) pour les banques de messages. Les applications clientes peuvent utiliser **PR_AB_PROVIDER_ID** pour rechercher des lignes associées dans une table de hiérarchie de carnets d'adresses. 
+ **PR_AB_PROVIDER_ID** est analogue à la propriété **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) pour les magasins de messages. Les applications clientes peuvent **utiliser PR_AB_PROVIDER_ID** pour rechercher des lignes associées dans une table de hiérarchie de carnet d’adresses. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

@@ -25,7 +25,7 @@ ms.locfileid: "33421213"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Annule la responsabilité pour l'envoi de notifications précédemment établies avec un appel à la méthode [IMAPISupport:: subscribe](imapisupport-subscribe.md) . 
+Annule la responsabilité de l’envoi de notifications précédemment établies avec un appel à la méthode [IMAPISupport::Subscribe.](imapisupport-subscribe.md) 
   
 ```cpp
 HRESULT Unsubscribe(
@@ -37,23 +37,23 @@ ULONG ulConnection
 
  _ulConnection_
   
-> dans Numéro de connexion différent de zéro qui représente l'inscription de notification précédemment établie via **IMAPISupport:: subscribe**.
+> [in] Numéro de connexion autre que zéro qui représente l’inscription de notification précédemment établie via **IMAPISupport::Subscribe**.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'enregistrement de la notification a été annulé.
+> L’inscription de la notification a été annulée.
     
 MAPI_E_NOT_FOUND 
   
-> Le numéro de connexion transmis dans le paramètre _ulConnection_ n'existe pas. 
+> Le numéro de connexion transmis dans le  _paramètre ulConnection_ n’existe pas. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: unsubscribe** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de **** services appellent unsubscribe pour annuler une inscription aux notifications précédemment configurée par **subscribe**. **Unsubscribe** annule l'inscription en publiant le pointeur de récepteur de notifications transmis à l'appel **subscribe** . 
+La **méthode IMAPISupport::Unsubscribe** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services **appellent Unsubscribe** pour annuler une inscription de notification précédemment définie par **Subscribe**. **Annuler l’abonnement annule** l’inscription en libérant le pointeur de sink de conseil transmis dans **l’appel d’abonnement.** 
   
-En règle générale, la méthode **IUnknown:: Release** du récepteur de notification est appelée pendant l'appel de **désinscription** . Toutefois, si un autre thread appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) pour l'objet de récepteur de notifications, l'appel de **libération** est retardé jusqu'à ce que la méthode **OnNotify** soit renvoyée. 
+En règle générale, la méthode **IUnknown::Release** du sink de conseil est appelée pendant l’appel **de désabonnement.** Toutefois, si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de sink de conseil, l’appel de publication est différé jusqu’à ce que la méthode **OnNotify** renvoie.  
   
 ## <a name="see-also"></a>Voir aussi
 

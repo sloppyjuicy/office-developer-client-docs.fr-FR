@@ -23,11 +23,11 @@ Détermine si les formes positionnables se déplacent lorsque vous déposez une 
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Ne pas déplacer les formes  <br/> |**visPLOPlowNone** <br/> |
-|0,1  <br/> |Déplacer les formes  <br/> |**visPLOPlowAll** <br/> |
+|1   <br/> |Déplacer les formes  <br/> |**visPLOPlowAll** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule sous l'onglet **disposition et positionnement** de la boîte de dialogue mise en **page** (sous l'onglet **création** , cliquez sur la flèche **mise en page** ) à l'aide de la case à cocher déplacer les **autres formes lors de l'insertion** . 
+Vous pouvez également définir la valeur  de cette cellule sous l’onglet Mise en page et routage dans  la boîte de dialogue Mise en **page** (sous l’onglet Création, cliquez sur la flèche Mise en **page)** à l’aide de la case à cocher Déplacer d’autres formes dans la zone de dépôt.  
   
 Pour obtenir une référence à la cellule PlowCode par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -39,7 +39,7 @@ Pour obtenir une référence à la cellule PlowCode à l'aide d'un index à part
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOPlowCode** <br/> |
    

@@ -37,25 +37,25 @@ HRESULT HrDeleteRow(
 
  _lpSPropValue_
   
-> dans Pointeur vers une structure de valeur de propriété qui décrit la colonne d'index de la ligne à supprimer. Le membre **ulPropTag** de la structure de la valeur de la propriété doit contenir la même balise property que le paramètre _ulPropTagIndexColumn_ de l'appel à la fonction [CreateTable](createtable.md) . 
+> [in] Pointeur vers une structure de valeurs de propriété qui décrit la colonne d’index de la ligne à supprimer. Le **membre ulPropTag** de la structure de valeurs de propriété doit contenir la même balise de propriété que le paramètre _ulPropTagIndexColumn_ de l’appel à la [fonction CreateTable.](createtable.md) 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La ligne a été supprimée.
+> La ligne a été supprimée avec succès.
     
 MAPI_E_NOT_FOUND 
   
-> La propriété désignée par le paramètre _lpSPropValue_ n'identifie pas une ligne dans le tableau. 
+> La propriété pointée par  _le paramètre lpSPropValue_ n’identifie pas une ligne dans le tableau. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData:: HrDeleteRow** supprime la ligne de tableau qui contient la colonne qui correspond à la propriété désignée par le paramètre _lpSPropValue_ . Les données de la ligne sont supprimées et la ligne est supprimée de toutes les vues ouvertes. 
+La **méthode ITableData::HrDeleteRow** supprime la ligne de tableau qui contient la colonne qui correspond à la propriété pointée par le paramètre _lpSPropValue._ Les données de la ligne sont supprimées et la ligne est supprimée de tous les affichages ouverts. 
   
-Une fois la ligne supprimée, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable:: Advise](imapitable-advise.md) pour s'inscrire aux notifications. 
+Une fois la ligne supprimée, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable::Advise](imapitable-advise.md) de la table pour s’inscrire aux notifications. 
   
-La suppression d'une ligne ne réduit pas le jeu de colonnes disponible pour les affichages existants ou les vues ouvertes par la suite, même si la ligne supprimée est la dernière ligne contenant une valeur pour une colonne spécifique.
+La suppression d’une ligne ne réduit pas le jeu de colonnes disponible pour les affichages existants ou les affichages ouverts par la suite, même si la ligne supprimée est la dernière ligne qui a une valeur pour une colonne spécifique.
   
 ## <a name="see-also"></a>Voir aussi
 

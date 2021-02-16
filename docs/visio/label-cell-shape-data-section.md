@@ -30,14 +30,14 @@ Pour obtenir une référence à la cellule Label par un nom à partir d'une autr
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Hélice. *Nom* . Étiquette où prop.  *Name* est le nom de la ligne  <br/> |
+|Nom de cellule :  <br/> |Prop. *Nom*  . Étiquette où Prop.  *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule Label à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionProp** <br/> |
-|Index de la ligne :  <br/> |**visRowProp** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visCustPropsLabel** <br/> |
    
 

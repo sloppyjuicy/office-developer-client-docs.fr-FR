@@ -23,18 +23,18 @@ Détermine le style de puce.
 |**Valeur**|**Style de puce**|
 |:-----|:-----|
 |0  <br/> |Aucun  <br/> |
-|0,1  <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
-|n°2  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
-|3  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
-|4  <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
-|disque  <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
-|6.x  <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
-|7j/7  <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
+|1   <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
+|2   <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
+|3   <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
+|4   <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
+|5   <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
+|6   <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
+|7   <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
    
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionParagraph** <br/> |
-|Index de la ligne :  <br/> |**visRowParagraph** +  *i* où *i* = 0, 1, 2,...  <br/> |
+|Index de la ligne :  <br/> |**visRowParagraph**  +   *i* où *i* = 0, 1, 2, ...  <br/> |
 |Index de la cellule :  <br/> |**visBulletIndex** <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -45,7 +45,7 @@ Pour obtenir une référence à la cellule Bullet par un nom dans une autre form
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Para. Bullet [ *i* ] où *i* = <1>, 2, 3,...  <br/> |
+|Nom de cellule :  <br/> |Para.Bullet[ *i*  ] où  *i*  = <1>, 2, 3, ...  <br/> |
    
 Pour obtenir une référence à la cellule Bullet par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

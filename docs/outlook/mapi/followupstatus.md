@@ -21,7 +21,7 @@ ms.locfileid: "33418329"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les différents statuts de suivi d'un message.
+Spécifie les différents statuts de suivi d’un message.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -38,7 +38,7 @@ enum FollowUpStatus {
 
  _flwupNone_
   
-> Aucun suivi n'a été spécifié.
+> Aucun suivi n’a été spécifié.
     
  _flwupComplete_
   
@@ -50,7 +50,7 @@ enum FollowUpStatus {
     
  _flwupMAX_
   
-> Nombre d'États différents pris en charge pour le suivi.
+> Nombre d’états différents pris en charge pour le suivi.
     
 ## <a name="see-also"></a>Voir aussi
 

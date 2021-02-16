@@ -25,7 +25,7 @@ ms.locfileid: "33419988"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Apporte des modifications permanentes à une section de profil de banque de messages.
+Modifie définitivement une section de profil de magasin de messages.
   
 ```cpp
 HRESULT ModifyProfile(
@@ -37,25 +37,25 @@ ULONG ulFlags
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui indique le type de banque de messages. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui indique le type de magasin de messages. L’indicateur suivant peut être définie :
     
 MDB_TEMPORARY 
   
-> La Banque de messages est temporaire et ne doit pas être ajoutée à la table de banque de messages. Lorsque MDB_TEMPORARY est défini, **ModifyProfile** renvoie S_OK immédiatement. 
+> La magasin de messages est temporaire et ne doit pas être ajoutée à la table de la boutique de messages. Lorsque MDB_TEMPORARY est définie, **ModifyProfile** S_OK immédiatement. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les modifications apportées à la section Profil ont réussi.
+> Les modifications apportées à la section de profil ont réussi.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: ModifyProfile** est implémentée pour les objets de prise en charge du fournisseur de banque de messages. Les fournisseurs de banques de messages appellent **ModifyProfile** pour inviter MAPI à modifier les informations de leur profil. 
+La **méthode IMAPISupport::ModifyProfile** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages **appellent ModifyProfile** pour demander à MAPI de modifier leurs informations de profil. 
   
- **ModifyProfile** ajoute la section de profil associée au fournisseur appelant à la liste des ressources du fournisseur de banque de messages installé. Cela entraîne l'affichage de la Banque de messages dans la table de banque de messages, accessible aux clients par le biais de la méthode [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) , et à ouvrir sans l'affichage d'une boîte de dialogue. 
+ **ModifyProfile ajoute la** section de profil associée au fournisseur appelant à la liste des ressources de fournisseur de magasins de messages installées. Cela entraîne la liste de la magasin de messages dans la table de la boutique de messages, accessible aux clients via la méthode [IMAPISession::GetMsgStoresTable,](imapisession-getmsgstorestable.md) et ouverte sans l’affichage d’une boîte de dialogue. 
   
-Si l'indicateur MDB_TEMPORARY est défini, MAPI ne fait rien et la méthode est renvoyée immédiatement avec S_OK.
+Si l MDB_TEMPORARY est définie, MAPI ne fait rien et la méthode est immédiatement S_OK.
   
 ## <a name="see-also"></a>Voir aussi
 

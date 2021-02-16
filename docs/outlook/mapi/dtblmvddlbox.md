@@ -25,11 +25,11 @@ ms.locfileid: "33420744"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une liste déroulante qui sera utilisée dans une boîte de dialogue créée à partir d'une table d'affichage.
+Décrit une liste liste liste qui sera utilisée dans une boîte de dialogue qui est conçue à partir d’un tableau d’affichage.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVDDLBX
@@ -44,21 +44,21 @@ typedef struct _DTBLMVDDLBX
 
  **ulFlags**
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
  **ulMVPropTag**
   
-> Balise de propriété pour une propriété à valeurs multiples de type PT_MV_TSTRING. Les différentes valeurs de cette propriété sont affichées sous forme d'entrées distinctes dans la liste déroulante.
+> Balise de propriété pour une propriété à valeurs multiples de type PT_MV_TSTRING. Les différentes valeurs de cette propriété sont affichées sous forme d’entrées distinctes dans la liste liste.
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLMVDDLBOX** décrit une liste déroulante à valeurs multiples, une liste d'éléments en lecture seule. À l'aide d'une liste déroulante à valeurs multiples, les valeurs s'affichent lorsqu'un utilisateur clique sur une barre de défilement. 
+Une structure **DTBLMVDDLBOX** décrit une liste de listes à valeurs multiples, une liste d’éléments en lecture seule. À l’aide d’une liste de listes à valeurs multiples, les valeurs sont affichées lorsqu’un utilisateur clique sur une barre de défilement. 
   
-Les données affichées proviennent de la propriété identifiée dans le membre **ulMVPropTag** . Il n'existe aucun besoin de lire à partir de l'interface de propriétés associée à la table d'affichage. En outre, étant donné que les utilisateurs ne peuvent pas effectuer des sélections à partir de ces types de zones de liste, les données ne sont pas écrites dans l'interface de propriété. 
+Les données affichées proviennent de la propriété identifiée dans le **membre ulMVPropTag.** Il n’est pas nécessaire de lire l’interface de propriétés associée au tableau d’affichage. En outre, étant donné que les utilisateurs ne sont pas en mesure d’effectuer des sélections à partir de ces types de zones de liste, les données ne sont pas écrites dans l’interface des propriétés. 
   
-Seules les propriétés de chaîne à valeurs multiples sont prises en charge pour la liste déroulante à valeurs multiples; les autres types de propriétés à valeurs multiples ne sont pas pris en charge. 
+Seules les propriétés de chaîne à valeurs multiples sont pris en charge pour la liste de listes listes à valeurs multiples ; les autres types de propriétés à valeurs multiples ne sont pas pris en charge. 
   
-Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
+Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

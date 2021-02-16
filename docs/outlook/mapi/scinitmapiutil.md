@@ -25,11 +25,11 @@ ms.locfileid: "33420590"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Remplace [MAPIInitialize](mapiinitialize.md) lorsque seules les fonctions utilitaires Select sont utilisées. 
+Remplace [MAPIInitialize lorsque](mapiinitialize.md) seules certaines fonctions utilitaires sont utilisées. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -53,9 +53,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fonctions **ScInitMapiUtil** et [DeinitMapiUtil](deinitmapiutil.md) coopèrent pour appeler et libérer des fonctions utilitaires Select, par opposition à [MAPIInitialize](mapiinitialize.md), qui appelle Core ainsi que des fonctions utilitaires. Lorsque **ScInitMapiUtil** appelle les fonctions utilitaires, il initialise également la mémoire nécessaire. 
+Les **fonctions ScInitMapiUtil** et [DeinitMapiUtil](deinitmapiutil.md) collaborent pour appeler et libérer des fonctions utilitaires sélectionnées, par opposition à [MAPIInitialize](mapiinitialize.md), qui appelle core ainsi que des fonctions utilitaires. Lorsque **ScInitMapiUtil** appelle des fonctions utilitaires, il initialise également la mémoire nécessaire. 
   
-Lorsque l'utilisation des fonctions appelées par **ScInitMapiUtil** est terminée, **DeinitMapiUtil** doit être appelé explicitement pour les libérer. En revanche, **MAPIInitialize** appelle implicitement **DeinitMapiUtil**. 
+Lorsque l’utilisation des fonctions appelées par **ScInitMapiUtil** est terminée, **DeinitMapiUtil** doit être explicitement appelée pour les libérer. En revanche, **MAPIInitialize** appelle implicitement **DeinitMapiUtil**. 
   
 ## <a name="see-also"></a>Voir aussi
 

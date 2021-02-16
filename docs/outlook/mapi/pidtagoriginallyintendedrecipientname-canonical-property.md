@@ -25,30 +25,30 @@ ms.locfileid: "33419841"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom encodé du destinataire initial d'un message autoforwarded.
+Contient le nom codé du destinataire initialement prévu d’un message auto-envoyé.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINALLY_INTENDED_RECIPIENT_NAME  <br/> |
 |Identificateur :  <br/> |0x0020  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Server  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La propriété **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** doit être définie par l'agent automatique qui a transféré le message. 
+La **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** doit être définie par l’agent automatique qui a transmis le message. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

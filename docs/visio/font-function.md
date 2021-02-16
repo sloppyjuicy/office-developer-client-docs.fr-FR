@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 20b587ee-87bf-4648-99ec-ddedd703d9fd
-description: Renvoie la valeur entière de l'identificateur unique d'une police, spécifiée par son nom.
+description: Renvoie la valeur de type integer de l’identificateur unique d’une police, spécifié par son nom.
 ms.openlocfilehash: 7ae6fe6dc8bb9c718a358d11d4a6a0227eaf18df
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,10 +16,10 @@ ms.locfileid: "33422172"
 ---
 # <a name="font-function"></a>Fonction FONT
 
-Renvoie la valeur entière de l'identificateur unique d'une police, spécifiée par son nom.
+Renvoie la valeur de type integer de l’identificateur unique d’une police, spécifié par son nom.
   
 > [!NOTE]
-> Dans la plupart des cas, l'identificateur de police est propre au système. Bien que la police reste créée une fois utilisée dans un fichier, la fonction **font** offre un accès cohérent à une police particulière entre les systèmes et les versions de Visio. Il est recommandé d'utiliser la fonction **font** pour affecter des polices au lieu de faire référence à des identificateurs de police directement. 
+> Dans la plupart des cas, l’identificateur de police est propre au système. Bien que la police reste établie une fois utilisée dans un fichier, la **fonction FONT** fournit un accès cohérent à une police particulière entre les systèmes et les versions de Visio. Il est recommandé d’utiliser la **fonction FONT** pour affecter des polices au lieu de faire référence directement aux identificateurs de police. 
   
 ## <a name="version-information"></a>Informations de version
 
@@ -28,7 +28,7 @@ Version ajoutée : Visio 2013
   
 ## <a name="syntax"></a>Syntaxe
 
- **Police** ( _«font_name_string»_)
+ **FONT**( _« font_name_string »_)
   
 ### <a name="parameters"></a>Paramètres
 
@@ -42,12 +42,12 @@ Entier
   
 ## <a name="remarks"></a>Remarques
 
-Si la chaîne fournie pour *font_name_string* ne correspond pas à une police connue, cette fonction renvoie une #VALUE! «. 
+Si la chaîne fournie pour  *font_name_string*  ne correspond pas à une police connue, cette fonction renvoie une #VALUE! erreur. 
   
 ## <a name="example"></a>Exemple
 
  `FONT("Calibri")`
   
-Renvoie la valeur de type Integer (4) représentant l'ID unique de la police «Calibri».
+Renvoie la valeur de type integer (4) qui représente l’ID unique de la police « Calibri ».
   
 

@@ -21,11 +21,11 @@ ms.locfileid: "33422473"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajoute ou déplace des colonnes au début d'une table existante.
+Ajoute ou déplace des colonnes au début d’un tableau existant.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services.  <br/> |
    
@@ -42,29 +42,29 @@ HRESULT HrAddColumns(
 
  _lptbl_
   
-> dans Pointeur vers le tableau MAPI affecté.
+> [in] Pointeur vers la table MAPI affectée.
     
  _lpproptagColumnsNew_
   
-> dans Pointeur vers une structure **SPropTagArray** qui contient un tableau de balises de propriété pour les propriétés à ajouter ou déplacer au début du tableau. 
+> [in] Pointeur vers une structure **SPropTagArray** qui contient un tableau de balises de propriétés pour les propriétés à ajouter ou déplacer au début du tableau. 
     
  _lpAllocateBuffer_
   
-> dans Pointeur vers la fonction **MAPIAllocateBuffer** . Permet d'allouer de la mémoire. 
+> [in] Pointeur vers la **fonction MAPIAllocateBuffer.** Utilisé pour allouer de la mémoire. 
     
  _lpFreeBuffer_
   
-> dans Pointeur vers la fonction **MAPIFreeBuffer** . Permet de libérer de la mémoire. 
+> [in] Pointeur vers la **fonction MAPIFreeBuffer.** Utilisé pour libérer de la mémoire. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
  **S_OK**
   
-> L'appel a réussi et les colonnes spécifiées ont été déplacées ou ajoutées.
+> L’appel a réussi et les colonnes spécifiées ont été déplacées ou ajoutées.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **HrAddColumns** est équivalente à l'utilisation de **HrAddColumnsEx** avec _lpfnFilterColumns_ définie sur null. 
+La **fonction HrAddColumns équivaut** à utiliser **HrAddColumnsEx** avec  _lpfnFilterColumns_ définie sur NULL. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251406
 localization_priority: Normal
 ms.assetid: 0803d5d3-d804-5ffe-604d-661b35d1fc01
-description: Renvoie le caractère ANSI d'un nombre.
+description: Renvoie le caractère ANSI d’un nombre.
 ms.openlocfilehash: 6f1c459892331ec30ad93bbc860fcd038e8f4732
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33418189"
 ---
 # <a name="char-function"></a>Fonction CHAR
 
-Renvoie le caractère ANSI d'un nombre.
+Renvoie le caractère ANSI d’un nombre.
   
 ## <a name="syntax"></a>Syntaxe
 
-CHAR (* * *nombre* * *) 
+CHAR(** *number* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,11 +32,11 @@ CHAR (* * *nombre* * *)
    
 ## <a name="remarks"></a>Remarques
 
-La chaîne renvoyée comporte un seul caractère. Le paramètre _Number_ doit être un entier compris entre 1 et 255 (inclus), sinon la fonction renvoie une erreur. 
+La chaîne renvoyée comporte un seul caractère. Le  _paramètre_ number doit être un nombre compris entre 1 et 255 (inclus), sinon la fonction renvoie une erreur. 
   
 ## <a name="example"></a>Exemple
 
-CHAR (9) 
+CHAR(9) 
   
 Renvoie le caractère de tabulation. 
   

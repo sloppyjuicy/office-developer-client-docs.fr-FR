@@ -25,7 +25,7 @@ ms.locfileid: "33421381"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Demande le lancement ordonné d'une banque de messages.
+Demande la publication ordonnée d’une magasin de messages.
   
 ```cpp
 HRESULT StoreLogoffTransports(
@@ -37,67 +37,67 @@ ULONG FAR * lpulFlags
 
  _lpulFlags_
   
-> [in, out] Masque de des indicateurs qui contrôle la manière dont la déconnexion du magasin de messages se produit. Lors de l'entrée, tous les indicateurs de ce paramètre s'excluent mutuellement; un seul des indicateurs suivants peut être défini par appel:
+> [in, out] Masque de bits d’indicateurs qui contrôle la façon dont la ouverture de logo de la boutique de messages se produit. Lors de l’entrée, tous les indicateurs pour ce paramètre s’excluent mutuellement ; Un seul des indicateurs suivants peut être définie par appel :
     
 LOGOFF_ABORT 
   
-> Toute activité de fournisseur de transport pour cette banque doit être arrêtée avant la fermeture de session. Le contrôle est renvoyé au client après l'arrêt de l'activité et le spouleur MAPI s'est déconnecté de la Banque. Si une activité de transport a lieu, la déconnexion n'a pas lieu et aucune modification n'est apportée au comportement du spouleur MAPI ou du fournisseur de transport. S'il n'y a actuellement aucune activité, le spouleur MAPI libère la Banque. 
+> Toute activité de fournisseur de transport pour ce magasin doit être arrêtée avant la ff. Le contrôle est renvoyé au client une fois l’activité arrêtée et lepooler MAPI a ouvert une session hors du magasin. Si une activité de transport est en cours, la logoff ne se produit pas et aucun changement n’a lieu dans le comportement du fournisseur de transport ou dupooler MAPI. S’il n’y a actuellement aucune activité, lepooler MAPI libère le magasin. 
     
 LOGOFF_NO_WAIT 
   
-> Le spouleur MAPI doit libérer le magasin et renvoyer le contrôle au client immédiatement après l'envoi de tous les messages sortants prêts à être envoyés. Si la Banque de messages est dotée de la boîte de réception par défaut, tout message en cours de traitement est reçu, puis la réception supplémentaire est désactivée. 
+> Lepooler MAPI doit libérer le magasin et retourner le contrôle au client immédiatement après l’envoi de tous les messages sortants prêts à être envoyés. Si la boîte de réception par défaut est stockée dans la boutique de messages, tout message in-process est reçu, puis la réception est désactivée. 
     
 LOGOFF_ORDERLY 
   
-> Le spouleur MAPI doit libérer le magasin et renvoyer le contrôle au client immédiatement après la fin du traitement des messages en attente. Aucun nouveau message ne doit être traité. 
+> Lepooler MAPI doit libérer la boutique et retourner le contrôle au client immédiatement après la fin du traitement des messages en attente. Aucun nouveau message ne doit être traitée. 
     
 LOGOFF_PURGE 
   
-> Fonctionne de la même manière que l'indicateur LOGOFF_NO_WAIT. L'indicateur LOGOFF_PURGE renvoie le contrôle à l'appelant une fois l'opération terminée. 
+> Fonctionne de la même manière que l’LOGOFF_NO_WAIT’indicateur. L LOGOFF_PURGE de commande renvoie le contrôle à l’appelant une fois l’exécution terminée. 
     
 LOGOFF_QUIET 
   
-> La déconnexion ne doit pas se produire si l'activité d'un fournisseur de transport a lieu. Le type d'activité qui a lieu est renvoyé sous la forme d'un indicateur sur la sortie.
+> La logoff ne doit pas se produire si une activité de fournisseur de transport a lieu. Le type d’activité en cours est renvoyé sous forme d’indicateur sur la sortie.
     
     On output, MAPI spooler can return one or more of the following flags:
     
 LOGOFF_COMPLETE 
   
-> La déconnexion peut être terminée. Toutes les ressources associées à la Banque ont été libérées, et l'objet a été invalidé. Le spouleur MAPI a effectué ou exécutera toutes les demandes. Seule la méthode **IUnknown:: Release** de la Banque de messages doit être appelée à ce stade. 
+> La ff de logo peut se terminer. Toutes les ressources associées au magasin ont été libérées et l’objet a été invalidé. Lepooler MAPI a effectué ou effectuera toutes les demandes. Seule la méthode **IUnknown::Release** de la boutique de messages doit être appelée à ce stade. 
     
 LOGOFF_INBOUND 
   
-> Un message arrive actuellement dans le magasin à partir d'un ou plusieurs fournisseurs de transport. 
+> Un message provenant d’un ou de plusieurs fournisseurs de transport arrive actuellement dans la boutique. 
     
 LOGOFF_OUTBOUND 
   
-> Un message est actuellement envoyé à partir de la Banque par un ou plusieurs fournisseurs de transport. 
+> Un message est actuellement envoyé à partir du magasin par un ou plusieurs fournisseurs de transport. 
     
 LOGOFF_OUTBOUND_QUEUE 
   
-> Il y a actuellement des messages dans la file d'attente des messages sortants pour le magasin.
+> Il existe actuellement des messages dans la file d’attente sortante pour la boutique.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La procédure de fermeture de session a réussi.
+> La procédure de création d’une logoff a réussi.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: StoreLogoffTransports** est implémentée pour les objets de prise en charge du fournisseur de banque de messages. Les fournisseurs de banques de messages appellent **StoreLogoffTransports** pour donner aux applications clientes un contrôle sur la façon dont MAPI gère l'activité du fournisseur de transport lorsqu'une banque de messages se ferme. 
+La **méthode IMAPISupport::StoreLogoffTransports** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages appellent **StoreLogoffTransports** pour donner aux applications clientes un certain contrôle sur la façon dont MAPI gère l’activité des fournisseurs de transport lors de la fermeture d’une magasin de messages. 
   
-Si le magasin doit être déconnecté pour un autre processus, MAPI ignore un appel vers **StoreLogoffTransports** et renvoie l'indicateur LOGOFF_COMPLETE dans le paramètre _lpulFlags_ . 
+Si un autre processus a le magasin à ouvrir pour le même profil, MAPI ignore un appel à **StoreLogoffTransports** et renvoie l’indicateur LOGOFF_COMPLETE dans le paramètre _lpulFlags._ 
   
-Le comportement du fournisseur de banque suivant le retour de **StoreLogoffTransports** doit être basé sur la valeur de _lpulFlags_, qui indique l'état du système et transmet les instructions du client pour le comportement de fermeture de session. 
+Le comportement du fournisseur de magasin qui suit le retour de **StoreLogoffTransports** doit être basé sur la valeur de  _lpulFlags_, qui indique l’état du système et transmet les instructions client pour le comportement de la logoff. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **StoreLogoffTransports** est généralement appelé à partir de la méthode [IMsgStore:: StoreLogoff](imsgstore-storelogoff.md) d'un fournisseur de magasins. Toutefois, elle peut également être appelée à partir de la méthode **IUnknown:: Release** de la Banque de messages. Implémentez la méthode **Release** de votre banque de messages pour vérifier si un appel à **StoreLogoffTransports** s'est produit. Si un appel n'a pas été effectué, appelez **StoreLogoffTransports** avec l'indicateur LOGOFF_ABORT défini. 
+ **StoreLogoffTransports est** généralement appelé à partir de la méthode [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) d’un fournisseur de magasins. Toutefois, il peut également être appelé à partir de la **méthode IUnknown::Release** de la magasin de messages. **Implémentez la** méthode Release de votre magasin de messages pour vérifier si un appel **à StoreLogoffTransports** s’est produit. Si un appel ne s’est pas produit, appelez **StoreLogoffTransports** avec l’LOGOFF_ABORT d’appel. 
   
-Le paramètre _lpulFlags_ est défini sur un indicateur qui indique la façon dont le client nécessite l'arrêt de la Banque de messages. Déterminez le paramètre approprié pour _ulFlags_ en fonction de la valeur du paramètre correspondant dans l'appel à **StoreLogoff**. Autrement dit, si un client a appelé votre méthode **StoreLogoff** avec _ULFLAGS_ défini sur LOGOFF_ORDERLY, vous devez appeler **STORELOGOFFTRANSPORTS** avec _ulFlags_ défini sur LOGOFF_ORDERLY. 
+Le  _paramètre lpulFlags_ est paramétré sur un indicateur qui indique comment le client requiert l’arrêt de la magasin de messages. Déterminez le paramètre approprié pour  _ulFlags_ en fonction du paramètre correspondant dans l’appel **à StoreLogoff**. Autrement dit, si un client a appelé votre méthode **StoreLogoff** avec  _ulFlags_ définie sur LOGOFF_ORDERLY, vous devez appeler **StoreLogoffTransports** avec  _ulFlags_ définie sur LOGOFF_ORDERLY. 
   
-Pour plus d'informations sur le processus de fermeture de la Banque de messages, consultez la rubrique [arrêt d'un fournisseur de banque de messages](shutting-down-a-message-store-provider.md).
+Pour plus d’informations sur le processus de fermeture de la boutique de messages, voir [Shutting Down a Message Store Provider](shutting-down-a-message-store-provider.md).
   
 ## <a name="see-also"></a>Voir aussi
 

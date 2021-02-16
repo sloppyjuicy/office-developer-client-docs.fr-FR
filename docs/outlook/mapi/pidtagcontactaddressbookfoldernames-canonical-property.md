@@ -25,30 +25,30 @@ ms.locfileid: "33420121"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les noms des dossiers de contacts où les utilisateurs de messagerie sont conservés.
+Contient les noms des dossiers Contacts dans lequel les utilisateurs de messagerie sont conservés.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_FOLDER_NAMES  <br/> |
 |Identificateur :  <br/> |0x6623  <br/> |
 |Type de données :  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
-|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Il s'agit de propriétés d'une section profil de carnet d'adresses de contacts.
+Il s’agit des propriétés d’une section de profil de carnet d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidef. h
+Mapidef.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

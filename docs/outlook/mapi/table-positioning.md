@@ -21,12 +21,12 @@ ms.locfileid: "33418588"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La position actuelle dans un tableau est toujours indiquée par un curseur. Il y a un curseur pour chaque vue d'un tableau; sa valeur est définie par l'implémenteur de la table. Lorsqu'un client ou un fournisseur de services utilisant la table effectue un appel pour modifier la position de la table, la valeur du curseur est réinitialisée. La position d'une table peut être modifiée de la façon suivante:
+La position actuelle dans un tableau est toujours indiquée par un curseur. Il existe un curseur pour chaque affichage d’un tableau . sa valeur est définie par l’implémenteur de la table. Lorsqu’un client ou un fournisseur de services utilisant la table effectue un appel pour modifier la position de la table, la valeur du curseur est réinitialisée. La position d’un tableau peut être modifiée avec :
   
 - Signet.
     
-- Fraction.
+- Valeur fractionnaire.
     
-- Un filtre.
+- Filtre.
     
 
