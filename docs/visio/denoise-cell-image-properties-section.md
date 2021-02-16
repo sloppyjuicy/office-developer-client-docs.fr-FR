@@ -16,24 +16,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415802"
 ---
-# <a name="denoise-cell-image-properties-section"></a><span data-ttu-id="6ae30-104">Denoise, cellule (section Image Properties)</span><span class="sxs-lookup"><span data-stu-id="6ae30-104">Denoise Cell (Image Properties Section)</span></span>
+# <a name="denoise-cell-image-properties-section"></a><span data-ttu-id="acd87-104">Denoise, cellule (section Image Properties)</span><span class="sxs-lookup"><span data-stu-id="acd87-104">Denoise Cell (Image Properties Section)</span></span>
 
-<span data-ttu-id="6ae30-105">Supprime le bruit (pixels comportant des niveaux de couleur répartis de façon aléatoire) d'une image en mode point.</span><span class="sxs-lookup"><span data-stu-id="6ae30-105">Removes noise (pixels with randomly distributed color levels) from a bitmap image.</span></span> <span data-ttu-id="6ae30-106">La valeur par défaut est 0 %.</span><span class="sxs-lookup"><span data-stu-id="6ae30-106">The default value is 0%.</span></span>
+<span data-ttu-id="acd87-105">Supprime le bruit (pixels comportant des niveaux de couleur répartis de façon aléatoire) d'une image en mode point.</span><span class="sxs-lookup"><span data-stu-id="acd87-105">Removes noise (pixels with randomly distributed color levels) from a bitmap image.</span></span> <span data-ttu-id="acd87-106">La valeur par défaut est 0 %.</span><span class="sxs-lookup"><span data-stu-id="acd87-106">The default value is 0%.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="6ae30-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="6ae30-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="acd87-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="acd87-107">Remarks</span></span>
 
-<span data-ttu-id="6ae30-108">Pour obtenir une référence à la cellule Denoise par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="6ae30-108">To get a reference to the Denoise cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="acd87-108">Pour obtenir une référence à la cellule Denoise par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="acd87-108">To get a reference to the Denoise cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6ae30-109">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="6ae30-109">Cell name:</span></span>  <br/> | <span data-ttu-id="6ae30-110">Noise</span><span class="sxs-lookup"><span data-stu-id="6ae30-110">Denoise</span></span>  <br/> |
+| <span data-ttu-id="acd87-109">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="acd87-109">Cell name:</span></span>  <br/> | <span data-ttu-id="acd87-110">Denoise</span><span class="sxs-lookup"><span data-stu-id="acd87-110">Denoise</span></span>  <br/> |
    
-<span data-ttu-id="6ae30-111">Pour obtenir une référence à la cellule Denoise à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="6ae30-111">To get a reference to the Denoise cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="acd87-111">Pour obtenir une référence à la cellule Denoise à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="acd87-111">To get a reference to the Denoise cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6ae30-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="6ae30-112">Section index:</span></span>  <br/> |<span data-ttu-id="6ae30-113">**Définis**</span><span class="sxs-lookup"><span data-stu-id="6ae30-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="6ae30-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="6ae30-114">Row index:</span></span>  <br/> |<span data-ttu-id="6ae30-115">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="6ae30-115">**visRowImage**</span></span> <br/> |
-| <span data-ttu-id="6ae30-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="6ae30-116">Cell index:</span></span>  <br/> |<span data-ttu-id="6ae30-117">**visImageDenoise**</span><span class="sxs-lookup"><span data-stu-id="6ae30-117">**visImageDenoise**</span></span> <br/> |
+| <span data-ttu-id="acd87-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="acd87-112">Section index:</span></span>  <br/> |<span data-ttu-id="acd87-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="acd87-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="acd87-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="acd87-114">Row index:</span></span>  <br/> |<span data-ttu-id="acd87-115">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="acd87-115">**visRowImage**</span></span> <br/> |
+| <span data-ttu-id="acd87-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="acd87-116">Cell index:</span></span>  <br/> |<span data-ttu-id="acd87-117">**visImageDenimageDenimage**</span><span class="sxs-lookup"><span data-stu-id="acd87-117">**visImageDenoise**</span></span> <br/> |
    
 

@@ -16,24 +16,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415760"
 ---
-# <a name="description-cell-action-tags-section"></a><span data-ttu-id="380da-103">Description Cell (Action Tags Section)</span><span class="sxs-lookup"><span data-stu-id="380da-103">Description Cell (Action Tags Section)</span></span>
+# <a name="description-cell-action-tags-section"></a><span data-ttu-id="62161-103">Description Cell (Action Tags Section)</span><span class="sxs-lookup"><span data-stu-id="62161-103">Description Cell (Action Tags Section)</span></span>
 
-<span data-ttu-id="380da-104">Contient une chaîne qui décrit la balise d’action, qui s’affiche sous forme d’info-bulle lorsque l’utilisateur place le pointeur sur la balise.</span><span class="sxs-lookup"><span data-stu-id="380da-104">Contains a string that describes the action tag, which appears as a tool tip when users place their pointer over the tag.</span></span>
+<span data-ttu-id="62161-104">Contient une chaîne qui décrit la balise d’action, qui s’affiche sous forme d’info-bulle lorsque l’utilisateur place le pointeur sur la balise.</span><span class="sxs-lookup"><span data-stu-id="62161-104">Contains a string that describes the action tag, which appears as a tool tip when users place their pointer over the tag.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="380da-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="380da-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="62161-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="62161-105">Remarks</span></span>
 
-<span data-ttu-id="380da-106">Pour faire référence à la cellule Description par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="380da-106">To get a reference to the Description cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="62161-106">Pour faire référence à la cellule Description par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="62161-106">To get a reference to the Description cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="380da-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="380da-107">Cell name:</span></span>  <br/> | <span data-ttu-id="380da-108">SmartTag.</span><span class="sxs-lookup"><span data-stu-id="380da-108">SmartTags.</span></span>  <span data-ttu-id="380da-109">*nom* . Description où SmartTags.</span><span class="sxs-lookup"><span data-stu-id="380da-109">*name*  .Description           where SmartTags.</span></span> <span data-ttu-id="380da-110">*Name* est le nom de la ligne de balise d'action</span><span class="sxs-lookup"><span data-stu-id="380da-110">*name*  is the name of the action tag row</span></span>  <br/> |
+| <span data-ttu-id="62161-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="62161-107">Cell name:</span></span>  <br/> | <span data-ttu-id="62161-108">SmartTags.</span><span class="sxs-lookup"><span data-stu-id="62161-108">SmartTags.</span></span>  <span data-ttu-id="62161-109">*nom*  . Description où SmartTags.</span><span class="sxs-lookup"><span data-stu-id="62161-109">*name*  .Description           where SmartTags.</span></span> <span data-ttu-id="62161-110">*name est*  le nom de la ligne de balise d’action</span><span class="sxs-lookup"><span data-stu-id="62161-110">*name*  is the name of the action tag row</span></span>  <br/> |
    
-<span data-ttu-id="380da-111">Pour faire référence à la cellule Description à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="380da-111">To get a reference to the Description cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="62161-111">Pour faire référence à la cellule Description à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="62161-111">To get a reference to the Description cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="380da-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="380da-112">Section index:</span></span>  <br/> |<span data-ttu-id="380da-113">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="380da-113">**visSectionSmartTag**</span></span> <br/> |
-| <span data-ttu-id="380da-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="380da-114">Row index:</span></span>  <br/> |<span data-ttu-id="380da-115">**visRowSmartTag** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="380da-115">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="380da-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="380da-116">Cell index:</span></span>  <br/> |<span data-ttu-id="380da-117">**visSmartTagDescription**</span><span class="sxs-lookup"><span data-stu-id="380da-117">**visSmartTagDescription**</span></span> <br/> |
+| <span data-ttu-id="62161-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="62161-112">Section index:</span></span>  <br/> |<span data-ttu-id="62161-113">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="62161-113">**visSectionSmartTag**</span></span> <br/> |
+| <span data-ttu-id="62161-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="62161-114">Row index:</span></span>  <br/> |<span data-ttu-id="62161-115">**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="62161-115">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="62161-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="62161-116">Cell index:</span></span>  <br/> |<span data-ttu-id="62161-117">**visSmartTagDescription**</span><span class="sxs-lookup"><span data-stu-id="62161-117">**visSmartTagDescription**</span></span> <br/> |
    
 

@@ -16,26 +16,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416579"
 ---
-# <a name="pagetopmargin-cell-print-properties-section"></a><span data-ttu-id="812d6-103">PageTopMargin, cellule (section Print Properties)</span><span class="sxs-lookup"><span data-stu-id="812d6-103">PageTopMargin Cell (Print Properties Section)</span></span>
+# <a name="pagetopmargin-cell-print-properties-section"></a><span data-ttu-id="ff64e-103">PageTopMargin, cellule (section Print Properties)</span><span class="sxs-lookup"><span data-stu-id="ff64e-103">PageTopMargin Cell (Print Properties Section)</span></span>
 
-<span data-ttu-id="812d6-104">Indique la marge en haut de la page d'impression.</span><span class="sxs-lookup"><span data-stu-id="812d6-104">Specifies the margin at the top of the printer page.</span></span>
+<span data-ttu-id="ff64e-104">Indique la marge en haut de la page d'impression.</span><span class="sxs-lookup"><span data-stu-id="ff64e-104">Specifies the margin at the top of the printer page.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="812d6-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="812d6-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ff64e-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="ff64e-105">Remarks</span></span>
 
-<span data-ttu-id="812d6-p101">Cette valeur représente des unités physiques et n'est pas affectée par les unités d'échelle ou de dessin. Par exemple, si cette cellule a une valeur de 6,35 mm, la marge est de 6,35 mm, même si les unités de page sont des cm. Si les unités ne sont pas explicitement mentionnées, cette valeur s'exprime par défaut en unités de page.</span><span class="sxs-lookup"><span data-stu-id="812d6-p101">This value represents physical units and is unaffected by scale or drawing units. For example, if this cell has a value of 0.25 in., this margin is 0.25 inch even if page units are feet. If units are not explicitly stated, this value defaults to page units.</span></span> 
+<span data-ttu-id="ff64e-p101">Cette valeur représente des unités physiques et n'est pas affectée par les unités d'échelle ou de dessin. Par exemple, si cette cellule a une valeur de 6,35 mm, la marge est de 6,35 mm, même si les unités de page sont des cm. Si les unités ne sont pas explicitement mentionnées, cette valeur s'exprime par défaut en unités de page.</span><span class="sxs-lookup"><span data-stu-id="ff64e-p101">This value represents physical units and is unaffected by scale or drawing units. For example, if this cell has a value of 0.25 in., this margin is 0.25 inch even if page units are feet. If units are not explicitly stated, this value defaults to page units.</span></span> 
   
-<span data-ttu-id="812d6-109">Pour obtenir une référence à la cellule PageTopMargin par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="812d6-109">To get a reference to the PageTopMargin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="ff64e-109">Pour obtenir une référence à la cellule PageTopMargin par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="ff64e-109">To get a reference to the PageTopMargin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="812d6-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="812d6-110">Cell name:</span></span>  <br/> | <span data-ttu-id="812d6-111">PageTopMargin</span><span class="sxs-lookup"><span data-stu-id="812d6-111">PageTopMargin</span></span>  <br/> |
+| <span data-ttu-id="ff64e-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="ff64e-110">Cell name:</span></span>  <br/> | <span data-ttu-id="ff64e-111">PageTopMargin</span><span class="sxs-lookup"><span data-stu-id="ff64e-111">PageTopMargin</span></span>  <br/> |
    
-<span data-ttu-id="812d6-112">Pour obtenir une référence à la cellule PageTopMargin à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="812d6-112">To get a reference to the PageTopMargin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="ff64e-112">Pour obtenir une référence à la cellule PageTopMargin à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="ff64e-112">To get a reference to the PageTopMargin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="812d6-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="812d6-113">Section index:</span></span>  <br/> |<span data-ttu-id="812d6-114">**Définis**</span><span class="sxs-lookup"><span data-stu-id="812d6-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="812d6-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="812d6-115">Row index:</span></span>  <br/> |<span data-ttu-id="812d6-116">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="812d6-116">**visRowPrintProperties**</span></span> <br/> |
-| <span data-ttu-id="812d6-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="812d6-117">Cell index:</span></span>  <br/> |<span data-ttu-id="812d6-118">**visPrintPropertiesTopMargin**</span><span class="sxs-lookup"><span data-stu-id="812d6-118">**visPrintPropertiesTopMargin**</span></span> <br/> |
+| <span data-ttu-id="ff64e-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="ff64e-113">Section index:</span></span>  <br/> |<span data-ttu-id="ff64e-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="ff64e-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="ff64e-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="ff64e-115">Row index:</span></span>  <br/> |<span data-ttu-id="ff64e-116">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="ff64e-116">**visRowPrintProperties**</span></span> <br/> |
+| <span data-ttu-id="ff64e-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="ff64e-117">Cell index:</span></span>  <br/> |<span data-ttu-id="ff64e-118">**visPrintPropertiesTopMargin**</span><span class="sxs-lookup"><span data-stu-id="ff64e-118">**visPrintPropertiesTopMargin**</span></span> <br/> |
    
 

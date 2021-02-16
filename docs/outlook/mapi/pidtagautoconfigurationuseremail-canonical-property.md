@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413135"
 ---
-# <a name="pidtagautoconfigurationuseremail-canonical-property"></a><span data-ttu-id="f870e-103">Propriété canonique PidTagAutoConfigurationUserEmail</span><span class="sxs-lookup"><span data-stu-id="f870e-103">PidTagAutoConfigurationUserEmail Canonical Property</span></span>
+# <a name="pidtagautoconfigurationuseremail-canonical-property"></a><span data-ttu-id="c04a5-103">Propriété canonique PidTagAutoConfigurationUserEmail</span><span class="sxs-lookup"><span data-stu-id="c04a5-103">PidTagAutoConfigurationUserEmail Canonical Property</span></span>
 
   
   
-<span data-ttu-id="f870e-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f870e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c04a5-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c04a5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f870e-105">Représente l’adresse e-mail de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f870e-105">Represents the user's email address.</span></span>
+<span data-ttu-id="c04a5-105">Représente l’adresse e-mail de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="c04a5-105">Represents the user's email address.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f870e-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="f870e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f870e-107">PR_AUTOCFG_USER_EMAIL_W</span><span class="sxs-lookup"><span data-stu-id="f870e-107">PR_AUTOCFG_USER_EMAIL_W</span></span>  <br/> |
-|<span data-ttu-id="f870e-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="f870e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f870e-109">0x67FD</span><span class="sxs-lookup"><span data-stu-id="f870e-109">0x67FD</span></span>  <br/> |
-|<span data-ttu-id="f870e-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="f870e-110">Data type:</span></span>  <br/> |<span data-ttu-id="f870e-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f870e-111">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="f870e-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="f870e-112">Area:</span></span>  <br/> |<span data-ttu-id="f870e-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="f870e-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="c04a5-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c04a5-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c04a5-107">PR_AUTOCFG_USER_EMAIL_W</span><span class="sxs-lookup"><span data-stu-id="c04a5-107">PR_AUTOCFG_USER_EMAIL_W</span></span>  <br/> |
+|<span data-ttu-id="c04a5-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="c04a5-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c04a5-109">0x67FD</span><span class="sxs-lookup"><span data-stu-id="c04a5-109">0x67FD</span></span>  <br/> |
+|<span data-ttu-id="c04a5-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c04a5-110">Data type:</span></span>  <br/> |<span data-ttu-id="c04a5-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="c04a5-111">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="c04a5-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c04a5-112">Area:</span></span>  <br/> |<span data-ttu-id="c04a5-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="c04a5-113">Message attachment</span></span>  <br/> |
    
 

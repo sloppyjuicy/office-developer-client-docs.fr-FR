@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415102"
 ---
-# <a name="form-server-interactions"></a><span data-ttu-id="21237-103">Interactions avec le serveur de formulaire</span><span class="sxs-lookup"><span data-stu-id="21237-103">Form server interactions</span></span>
+# <a name="form-server-interactions"></a><span data-ttu-id="39cf7-103">Interactions avec le serveur de formulaire</span><span class="sxs-lookup"><span data-stu-id="39cf7-103">Form server interactions</span></span>
 
-<span data-ttu-id="21237-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="21237-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="39cf7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="39cf7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="21237-105">Les rubriques de cette section décrivent les interactions entre les applications clientes, le gestionnaire de formulaires MAPI, les serveurs de formulaires et les objets de formulaire pour une série d'actions courantes telles que l'ouverture d'un message et la composition d'un nouveau message.</span><span class="sxs-lookup"><span data-stu-id="21237-105">The topics in this section describe interactions between client applications, the MAPI form manager, form servers, and form objects for a variety of common actions such as opening a message and composing a new message.</span></span>
+<span data-ttu-id="39cf7-105">Les rubriques de cette section décrivent les interactions entre les applications clientes, le gestionnaire de formulaire MAPI, les serveurs de formulaires et les objets de formulaire pour diverses actions courantes telles que l’ouverture d’un message et la composition d’un nouveau message.</span><span class="sxs-lookup"><span data-stu-id="39cf7-105">The topics in this section describe interactions between client applications, the MAPI form manager, form servers, and form objects for a variety of common actions such as opening a message and composing a new message.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="21237-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="21237-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="39cf7-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="39cf7-106">See also</span></span>
 
-- [<span data-ttu-id="21237-107">Développement de serveurs de formulaires MAPI</span><span class="sxs-lookup"><span data-stu-id="21237-107">Developing MAPI Form Servers</span></span>](developing-mapi-form-servers.md)
+- [<span data-ttu-id="39cf7-107">Développement de serveurs de formulaire MAPI</span><span class="sxs-lookup"><span data-stu-id="39cf7-107">Developing MAPI Form Servers</span></span>](developing-mapi-form-servers.md)
 

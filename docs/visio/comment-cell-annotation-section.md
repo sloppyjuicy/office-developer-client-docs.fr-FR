@@ -16,27 +16,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415529"
 ---
-# <a name="comment-cell-annotation-section"></a><span data-ttu-id="71488-103">Comment, cellule (section Annotation)</span><span class="sxs-lookup"><span data-stu-id="71488-103">Comment Cell (Annotation Section)</span></span>
+# <a name="comment-cell-annotation-section"></a><span data-ttu-id="6f590-103">Comment, cellule (section Annotation)</span><span class="sxs-lookup"><span data-stu-id="6f590-103">Comment Cell (Annotation Section)</span></span>
 
-<span data-ttu-id="71488-104">Contient le texte qui apparaît dans un commentaire.</span><span class="sxs-lookup"><span data-stu-id="71488-104">Contains the text that appears in a comment.</span></span>
+<span data-ttu-id="6f590-104">Contient le texte qui apparaît dans un commentaire.</span><span class="sxs-lookup"><span data-stu-id="6f590-104">Contains the text that appears in a comment.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="71488-105">Cette cellule est utilisée pour le suivi des commentaires uniquement lors de l'ouverture d'un fichier. VSD dans Microsoft Visio 2013 ou lors de l'enregistrement d'un fichier. vsdx au format de fichier. VSD.</span><span class="sxs-lookup"><span data-stu-id="71488-105">This cell is used for tracking comments only when opening a .vsd file in Microsoft Visio 2013 or when saving a .vsdx file in the .vsd file format.</span></span> <span data-ttu-id="71488-106">Il n'est pas utilisé pour suivre les commentaires dans les documents. vsdx dans Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="71488-106">It is not used for tracking comments in .vsdx documents in Visio 2013.</span></span> 
+> <span data-ttu-id="6f590-105">Cette cellule est utilisée pour suivre les commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd.</span><span class="sxs-lookup"><span data-stu-id="6f590-105">This cell is used for tracking comments only when opening a .vsd file in Microsoft Visio 2013 or when saving a .vsdx file in the .vsd file format.</span></span> <span data-ttu-id="6f590-106">Il n’est pas utilisé pour le suivi des commentaires dans les documents .vsdx dans Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="6f590-106">It is not used for tracking comments in .vsdx documents in Visio 2013.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="71488-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="71488-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6f590-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="6f590-107">Remarks</span></span>
 
-<span data-ttu-id="71488-108">Pour obtenir une référence à la cellule Comment par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="71488-108">To get a reference to the Comment cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="6f590-108">Pour obtenir une référence à la cellule Comment par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="6f590-108">To get a reference to the Comment cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="71488-109">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="71488-109">Cell name:</span></span>  <br/> | <span data-ttu-id="71488-110">Annotation. Comment [ *i* ] où *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="71488-110">Annotation.Comment[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="6f590-109">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="6f590-109">Cell name:</span></span>  <br/> | <span data-ttu-id="6f590-110">Annotation.Comment[  *i*  ] où  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="6f590-110">Annotation.Comment[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="71488-111">Pour obtenir une référence à la cellule Comment à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="71488-111">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="6f590-111">Pour obtenir une référence à la cellule Comment à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="6f590-111">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="71488-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="71488-112">Section index:</span></span>  <br/> |<span data-ttu-id="71488-113">**visSectionAnnotation**</span><span class="sxs-lookup"><span data-stu-id="71488-113">**visSectionAnnotation**</span></span> <br/> |
-| <span data-ttu-id="71488-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="71488-114">Row index:</span></span>  <br/> |<span data-ttu-id="71488-115">**visRowAnnotation** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="71488-115">**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="71488-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="71488-116">Cell index:</span></span>  <br/> |<span data-ttu-id="71488-117">**visAnnotationComment**</span><span class="sxs-lookup"><span data-stu-id="71488-117">**visAnnotationComment**</span></span> <br/> |
+| <span data-ttu-id="6f590-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="6f590-112">Section index:</span></span>  <br/> |<span data-ttu-id="6f590-113">**visSectionAnnotation**</span><span class="sxs-lookup"><span data-stu-id="6f590-113">**visSectionAnnotation**</span></span> <br/> |
+| <span data-ttu-id="6f590-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="6f590-114">Row index:</span></span>  <br/> |<span data-ttu-id="6f590-115">**visRowAnnotation**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="6f590-115">**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="6f590-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="6f590-116">Cell index:</span></span>  <br/> |<span data-ttu-id="6f590-117">**visAnnotationComment**</span><span class="sxs-lookup"><span data-stu-id="6f590-117">**visAnnotationComment**</span></span> <br/> |
    
 

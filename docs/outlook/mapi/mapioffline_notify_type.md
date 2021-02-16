@@ -15,17 +15,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413429"
 ---
-# <a name="mapiofflinenotifytype"></a><span data-ttu-id="84c38-103">MAPIOFFLINE_NOTIFY_TYPE</span><span class="sxs-lookup"><span data-stu-id="84c38-103">MAPIOFFLINE_NOTIFY_TYPE</span></span>
+# <a name="mapioffline_notify_type"></a><span data-ttu-id="a4844-103">MAPIOFFLINE_NOTIFY_TYPE</span><span class="sxs-lookup"><span data-stu-id="a4844-103">MAPIOFFLINE_NOTIFY_TYPE</span></span>
 
   
   
-<span data-ttu-id="84c38-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="84c38-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a4844-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a4844-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="84c38-105">Le MAPIOFFLINE_NOTIFY_TYPE d'une notification indique si une modification apportée à l'état de connexion doit avoir lieu, a lieu ou s'est terminée.</span><span class="sxs-lookup"><span data-stu-id="84c38-105">The MAPIOFFLINE_NOTIFY_TYPE of a notification identifies if a change in the connection state is going to take place, is taking place, or has completed.</span></span> 
+<span data-ttu-id="a4844-105">La MAPIOFFLINE_NOTIFY_TYPE d’une notification indique si un changement d’état de connexion va avoir lieu, est en cours ou est terminé.</span><span class="sxs-lookup"><span data-stu-id="a4844-105">The MAPIOFFLINE_NOTIFY_TYPE of a notification identifies if a change in the connection state is going to take place, is taking place, or has completed.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="84c38-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="84c38-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="a4844-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="a4844-106">Quick info</span></span>
 
-<span data-ttu-id="84c38-107">Voir **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**.</span><span class="sxs-lookup"><span data-stu-id="84c38-107">See **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**.</span></span> 
+<span data-ttu-id="a4844-107">Voir **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**.</span><span class="sxs-lookup"><span data-stu-id="a4844-107">See **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**.</span></span> 
   
 ```cpp
 typedef enum { 
@@ -35,13 +35,13 @@ typedef enum {
 } MAPIOFFLINE_NOTIFY_TYPE;
 ```
 
-## <a name="see-also"></a><span data-ttu-id="84c38-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="84c38-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a4844-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a4844-108">See also</span></span>
 
 
 
-[<span data-ttu-id="84c38-109">À propos de l’API d’état hors connexion</span><span class="sxs-lookup"><span data-stu-id="84c38-109">About the Offline State API</span></span>](about-the-offline-state-api.md)
+[<span data-ttu-id="a4844-109">À propos de l’API d’état hors connexion</span><span class="sxs-lookup"><span data-stu-id="a4844-109">About the Offline State API</span></span>](about-the-offline-state-api.md)
   
-[<span data-ttu-id="84c38-110">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="84c38-110">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="a4844-110">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="a4844-110">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="84c38-111">MAPIOFFLINE_NOTIFY</span><span class="sxs-lookup"><span data-stu-id="84c38-111">MAPIOFFLINE_NOTIFY</span></span>](mapioffline_notify.md)
+[<span data-ttu-id="a4844-111">MAPIOFFLINE_NOTIFY</span><span class="sxs-lookup"><span data-stu-id="a4844-111">MAPIOFFLINE_NOTIFY</span></span>](mapioffline_notify.md)
 

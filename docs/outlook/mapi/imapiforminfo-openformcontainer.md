@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414003"
 ---
-# <a name="imapiforminfoopenformcontainer"></a><span data-ttu-id="3a574-103">IMAPIFormInfo::OpenFormContainer</span><span class="sxs-lookup"><span data-stu-id="3a574-103">IMAPIFormInfo::OpenFormContainer</span></span>
+# <a name="imapiforminfoopenformcontainer"></a><span data-ttu-id="a4277-103">IMAPIFormInfo::OpenFormContainer</span><span class="sxs-lookup"><span data-stu-id="a4277-103">IMAPIFormInfo::OpenFormContainer</span></span>
 
   
   
-<span data-ttu-id="3a574-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3a574-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a4277-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a4277-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3a574-105">Renvoie un pointeur vers le conteneur de formulaires dans lequel un formulaire particulier est installé.</span><span class="sxs-lookup"><span data-stu-id="3a574-105">Returns a pointer to the form container in which a particular form is installed.</span></span>
+<span data-ttu-id="a4277-105">Renvoie un pointeur vers le conteneur de formulaire dans lequel un formulaire particulier est installé.</span><span class="sxs-lookup"><span data-stu-id="a4277-105">Returns a pointer to the form container in which a particular form is installed.</span></span>
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -33,21 +33,21 @@ HRESULT OpenFormContainer(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3a574-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="3a574-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a4277-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a4277-106">Parameters</span></span>
 
- <span data-ttu-id="3a574-107">_ppformcontainer_</span><span class="sxs-lookup"><span data-stu-id="3a574-107">_ppformcontainer_</span></span>
+ <span data-ttu-id="a4277-107">_ppformcontainer_</span><span class="sxs-lookup"><span data-stu-id="a4277-107">_ppformcontainer_</span></span>
   
-> <span data-ttu-id="3a574-108">remarquer Pointeur vers un pointeur vers l'objet conteneur de formulaire renvoyé.</span><span class="sxs-lookup"><span data-stu-id="3a574-108">[out] A pointer to a pointer to the returned form container object.</span></span>
+> <span data-ttu-id="a4277-108">[out] Pointeur vers un pointeur vers l’objet conteneur de formulaire renvoyé.</span><span class="sxs-lookup"><span data-stu-id="a4277-108">[out] A pointer to a pointer to the returned form container object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="3a574-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="3a574-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a4277-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="a4277-109">Return value</span></span>
 
-<span data-ttu-id="3a574-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="3a574-110">S_OK</span></span> 
+<span data-ttu-id="a4277-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="a4277-110">S_OK</span></span> 
   
-> <span data-ttu-id="3a574-111">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="3a574-111">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="a4277-111">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="a4277-111">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3a574-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3a574-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a4277-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a4277-112">See also</span></span>
 
 
 
-[<span data-ttu-id="3a574-113">IMAPIFormInfo : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="3a574-113">IMAPIFormInfo : IMAPIProp</span></span>](imapiforminfoimapiprop.md)
+[<span data-ttu-id="a4277-113">IMAPIFormInfo : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="a4277-113">IMAPIFormInfo : IMAPIProp</span></span>](imapiforminfoimapiprop.md)
 

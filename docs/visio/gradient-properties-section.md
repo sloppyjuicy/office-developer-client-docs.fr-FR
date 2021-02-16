@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 99380333-9bb2-4aad-87ef-4f7f5f594dcd
-description: Affiche les propriétés des effets de dégradé ou de couleur de trait appliqués à la forme. Cette section comprend également les cellules qui contrôlent si le dégradé d'une forme pivote avec la forme ou si la forme utilise un dégradé appliqué lorsqu'elle est regroupée avec d'autres formes.
+description: Indique les propriétés des effets de dégradé de remplissage ou de trait appliqués à la forme. Cette section inclut également les cellules qui contrôlent si le dégradé d’une forme pivote avec la forme ou si la forme suppose un dégradé appliqué lorsqu’elle est groupée avec d’autres formes.
 ms.openlocfilehash: e0eed4508a366c772cb9830e0fe53b57faa84c43
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417314"
 ---
-# <a name="gradient-properties-section"></a><span data-ttu-id="bd831-104">Gradient Properties Section</span><span class="sxs-lookup"><span data-stu-id="bd831-104">Gradient Properties Section</span></span>
+# <a name="gradient-properties-section"></a><span data-ttu-id="2356d-104">Gradient Properties Section</span><span class="sxs-lookup"><span data-stu-id="2356d-104">Gradient Properties Section</span></span>
 
-<span data-ttu-id="bd831-105">Affiche les propriétés des effets de dégradé ou de couleur de trait appliqués à la forme.</span><span class="sxs-lookup"><span data-stu-id="bd831-105">Shows the properties for any gradient fill or line color effects applied to the shape.</span></span> <span data-ttu-id="bd831-106">Cette section comprend également les cellules qui contrôlent si le dégradé d'une forme pivote avec la forme ou si la forme utilise un dégradé appliqué lorsqu'elle est regroupée avec d'autres formes.</span><span class="sxs-lookup"><span data-stu-id="bd831-106">This section also includes cells that control whether a shape's gradient rotates with the shape or whether the shape assumes an applied gradient when grouped with other shapes.</span></span> 
+<span data-ttu-id="2356d-105">Indique les propriétés des effets de dégradé de remplissage ou de trait appliqués à la forme.</span><span class="sxs-lookup"><span data-stu-id="2356d-105">Shows the properties for any gradient fill or line color effects applied to the shape.</span></span> <span data-ttu-id="2356d-106">Cette section inclut également les cellules qui contrôlent si le dégradé d’une forme pivote avec la forme ou si la forme suppose un dégradé appliqué lorsqu’elle est groupée avec d’autres formes.</span><span class="sxs-lookup"><span data-stu-id="2356d-106">This section also includes cells that control whether a shape's gradient rotates with the shape or whether the shape assumes an applied gradient when grouped with other shapes.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="bd831-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="bd831-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2356d-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="2356d-107">Remarks</span></span>
 
-<span data-ttu-id="bd831-108">Vous pouvez définir les paramètres de dégradé dans la boîte de dialogue Format de\*\*\*\* > la **forme** (**Home** > **Shape styles** > \*\*\*\* > Fill Fill**options** > Fill Fill**Fill**).</span><span class="sxs-lookup"><span data-stu-id="bd831-108">You can set gradient settings in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Fill** > **Fill Options** > **Fill** > **Gradient fill**).</span></span> 
+<span data-ttu-id="2356d-108">Vous pouvez définir les paramètres de dégradé dans la boîte de **dialogue Format de** forme ( Options de remplissage remplissage des  >  **styles** de forme de la page d’accueil Remplissage  >    >    >    >  **Remplissage remplissage dégradé).**</span><span class="sxs-lookup"><span data-stu-id="2356d-108">You can set gradient settings in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Fill** > **Fill Options** > **Fill** > **Gradient fill**).</span></span> 
   
 

@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414157"
 ---
-# <a name="ixplogonendmessage"></a><span data-ttu-id="a5e6b-103">IXPLogon::EndMessage</span><span class="sxs-lookup"><span data-stu-id="a5e6b-103">IXPLogon::EndMessage</span></span>
+# <a name="ixplogonendmessage"></a><span data-ttu-id="721b2-103">IXPLogon::EndMessage</span><span class="sxs-lookup"><span data-stu-id="721b2-103">IXPLogon::EndMessage</span></span>
 
   
   
-<span data-ttu-id="a5e6b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a5e6b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="721b2-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="721b2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a5e6b-105">Informe le fournisseur de transport que le spouleur MAPI a terminé son traitement sur un message sortant.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-105">Informs the transport provider that the MAPI spooler completed its processing on an outbound message.</span></span>
+<span data-ttu-id="721b2-105">Informe le fournisseur de transport que lepooler MAPI a terminé son traitement sur un message sortant.</span><span class="sxs-lookup"><span data-stu-id="721b2-105">Informs the transport provider that the MAPI spooler completed its processing on an outbound message.</span></span>
   
 ```cpp
 HRESULT EndMessage(
@@ -34,51 +34,51 @@ HRESULT EndMessage(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a5e6b-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a5e6b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="721b2-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="721b2-106">Parameters</span></span>
 
- <span data-ttu-id="a5e6b-107">_ulMsgRef_</span><span class="sxs-lookup"><span data-stu-id="a5e6b-107">_ulMsgRef_</span></span>
+ <span data-ttu-id="721b2-107">_ulMsgRef_</span><span class="sxs-lookup"><span data-stu-id="721b2-107">_ulMsgRef_</span></span>
   
-> <span data-ttu-id="a5e6b-108">dans Une valeur de référence spécifique à un message qui a été obtenue lors d'un appel précédent à la méthode [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="a5e6b-108">[in] A message-specific reference value that was obtained in an earlier call to the [IXPLogon::SubmitMessage](ixplogon-submitmessage.md) method.</span></span> 
+> <span data-ttu-id="721b2-108">[in] Valeur de référence spécifique au message obtenue lors d’un appel précédent à la méthode [IXPLogon::SubmitMessage.](ixplogon-submitmessage.md)</span><span class="sxs-lookup"><span data-stu-id="721b2-108">[in] A message-specific reference value that was obtained in an earlier call to the [IXPLogon::SubmitMessage](ixplogon-submitmessage.md) method.</span></span> 
     
- <span data-ttu-id="a5e6b-109">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="a5e6b-109">_lpulFlags_</span></span>
+ <span data-ttu-id="721b2-109">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="721b2-109">_lpulFlags_</span></span>
   
-> <span data-ttu-id="a5e6b-110">remarquer Masque de réindicateur des indicateurs qui indique au spouleur MAPI ce qu'il doit faire avec le message.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-110">[out] A bitmask of flags that indicates to the MAPI spooler what it should do with the message.</span></span> <span data-ttu-id="a5e6b-111">Si aucun indicateur n'est défini, le message a été envoyé.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-111">If no flags are set, the message has been sent.</span></span> <span data-ttu-id="a5e6b-112">Les indicateurs suivants peuvent être définis:</span><span class="sxs-lookup"><span data-stu-id="a5e6b-112">The following flags can be set:</span></span>
+> <span data-ttu-id="721b2-110">[out] Masque de bits d’indicateurs qui indique aupooler MAPI ce qu’il doit faire avec le message.</span><span class="sxs-lookup"><span data-stu-id="721b2-110">[out] A bitmask of flags that indicates to the MAPI spooler what it should do with the message.</span></span> <span data-ttu-id="721b2-111">Si aucun indicateur n’est définie, le message a été envoyé.</span><span class="sxs-lookup"><span data-stu-id="721b2-111">If no flags are set, the message has been sent.</span></span> <span data-ttu-id="721b2-112">Les indicateurs suivants peuvent être définies :</span><span class="sxs-lookup"><span data-stu-id="721b2-112">The following flags can be set:</span></span>
     
-<span data-ttu-id="a5e6b-113">END_DONT_RESEND</span><span class="sxs-lookup"><span data-stu-id="a5e6b-113">END_DONT_RESEND</span></span> 
+<span data-ttu-id="721b2-113">END_DONT_RESEND</span><span class="sxs-lookup"><span data-stu-id="721b2-113">END_DONT_RESEND</span></span> 
   
-> <span data-ttu-id="a5e6b-114">Le fournisseur de transport dispose de toutes les informations nécessaires sur ce message pour le moment.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-114">The transport provider has all the information it needs about this message for now.</span></span> <span data-ttu-id="a5e6b-115">Lorsque le fournisseur de transport demande davantage d'informations ou lorsqu'il a envoyé le message, il avertit le spouleur MAPI en appelant la méthode [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) avec l'indicateur NOTIFY_SENTDEFERRED et en transmettant l'identificateur d'entrée du message.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-115">When the transport provider requires more information or when it has sent the message, it notifies the MAPI spooler by calling the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method with the NOTIFY_SENTDEFERRED flag and by passing the message's entry identifier.</span></span> 
+> <span data-ttu-id="721b2-114">Pour l’instant, le fournisseur de transport dispose de toutes les informations nécessaires sur ce message.</span><span class="sxs-lookup"><span data-stu-id="721b2-114">The transport provider has all the information it needs about this message for now.</span></span> <span data-ttu-id="721b2-115">Lorsque le fournisseur de transport requiert plus d’informations ou lorsqu’il a envoyé le message, il avertit lepooler MAPI en appelant la méthode [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) avec l’indicateur NOTIFY_SENTDEFERRED et en passant l’identificateur d’entrée du message.</span><span class="sxs-lookup"><span data-stu-id="721b2-115">When the transport provider requires more information or when it has sent the message, it notifies the MAPI spooler by calling the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method with the NOTIFY_SENTDEFERRED flag and by passing the message's entry identifier.</span></span> 
     
-<span data-ttu-id="a5e6b-116">END_RESEND_LATER</span><span class="sxs-lookup"><span data-stu-id="a5e6b-116">END_RESEND_LATER</span></span> 
+<span data-ttu-id="721b2-116">END_RESEND_LATER</span><span class="sxs-lookup"><span data-stu-id="721b2-116">END_RESEND_LATER</span></span> 
   
-> <span data-ttu-id="a5e6b-117">Le fournisseur de transport n'envoie pas le message à l'heure actuelle pour les raisons qui ne sont pas des erreurs.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-117">The transport provider is not sending the message at the current time for reasons that are not error conditions.</span></span> <span data-ttu-id="a5e6b-118">Le fournisseur de transport doit être appelé à nouveau ultérieurement pour envoyer le message.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-118">The transport provider should be called again later to send the message.</span></span>
+> <span data-ttu-id="721b2-117">Le fournisseur de transport n’envoie pas le message pour le moment pour des raisons qui ne sont pas des conditions d’erreur.</span><span class="sxs-lookup"><span data-stu-id="721b2-117">The transport provider is not sending the message at the current time for reasons that are not error conditions.</span></span> <span data-ttu-id="721b2-118">Le fournisseur de transport doit être appelé à nouveau ultérieurement pour envoyer le message.</span><span class="sxs-lookup"><span data-stu-id="721b2-118">The transport provider should be called again later to send the message.</span></span>
     
-<span data-ttu-id="a5e6b-119">END_RESEND_NOW</span><span class="sxs-lookup"><span data-stu-id="a5e6b-119">END_RESEND_NOW</span></span> 
+<span data-ttu-id="721b2-119">END_RESEND_NOW</span><span class="sxs-lookup"><span data-stu-id="721b2-119">END_RESEND_NOW</span></span> 
   
-> <span data-ttu-id="a5e6b-120">Le fournisseur de transport doit redémarrer le message qui lui a été transmis dans un appel de méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="a5e6b-120">The transport provider needs to restart the message passed to it in an [IMessage::SubmitMessage](imessage-submitmessage.md) method call.</span></span> 
+> <span data-ttu-id="721b2-120">Le fournisseur de transport doit redémarrer le message qui lui a été transmis dans un appel de méthode [IMessage::SubmitMessage.](imessage-submitmessage.md)</span><span class="sxs-lookup"><span data-stu-id="721b2-120">The transport provider needs to restart the message passed to it in an [IMessage::SubmitMessage](imessage-submitmessage.md) method call.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="a5e6b-121">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="a5e6b-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="721b2-121">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="721b2-121">Return value</span></span>
 
-<span data-ttu-id="a5e6b-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="a5e6b-122">S_OK</span></span> 
+<span data-ttu-id="721b2-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="721b2-122">S_OK</span></span> 
   
-> <span data-ttu-id="a5e6b-123">L'appel a réussi et a renvoyé la ou les valeurs attendues.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-123">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="721b2-123">L’appel a réussi et a renvoyé la ou les valeurs attendues.</span><span class="sxs-lookup"><span data-stu-id="721b2-123">The call succeeded and returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="a5e6b-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="a5e6b-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="721b2-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="721b2-124">Remarks</span></span>
 
-<span data-ttu-id="a5e6b-125">Le spouleur MAPI appelle la méthode **IXPLogon:: EndMessage** une fois qu'il a terminé le traitement impliqué dans la fourniture d'informations de remise étendue ou de non-remise.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-125">The MAPI spooler calls the **IXPLogon::EndMessage** method after it completes the processing involved in providing extended delivery or nondelivery information.</span></span> 
+<span data-ttu-id="721b2-125">Lepooler MAPI appelle la méthode **IXPLogon::EndMessage** après avoir terminé le traitement impliqué dans la fourniture d’informations de remise étendues ou de non remise.</span><span class="sxs-lookup"><span data-stu-id="721b2-125">The MAPI spooler calls the **IXPLogon::EndMessage** method after it completes the processing involved in providing extended delivery or nondelivery information.</span></span> 
   
-<span data-ttu-id="a5e6b-126">Une fois cet appel retourné, la valeur du paramètre _ulMsgRef_ n'est plus valide pour ce message.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-126">Once this call returns, the value in the  _ulMsgRef_ parameter is no longer valid for this message.</span></span> <span data-ttu-id="a5e6b-127">Le fournisseur de transport peut réutiliser la même valeur sur un message ultérieur.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-127">The transport provider can reuse the same value on a future message.</span></span> 
+<span data-ttu-id="721b2-126">Une fois que cet appel est revenu, la valeur dans le  _paramètre ulMsgRef_ n’est plus valide pour ce message.</span><span class="sxs-lookup"><span data-stu-id="721b2-126">Once this call returns, the value in the  _ulMsgRef_ parameter is no longer valid for this message.</span></span> <span data-ttu-id="721b2-127">Le fournisseur de transport peut réutiliser la même valeur sur un message futur.</span><span class="sxs-lookup"><span data-stu-id="721b2-127">The transport provider can reuse the same value on a future message.</span></span> 
   
-<span data-ttu-id="a5e6b-128">Tous les objets que le fournisseur de transport ouvre pendant le transfert d'un message doivent être libérés avant le renvoi de l'appel **EndMessage** , à l'exception de l'objet message que le spouleur MAPI transmet au fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="a5e6b-128">All objects that the transport provider opens during the transfer of a message should be released before the **EndMessage** call returns, with the exception of the message object that the MAPI spooler passes to the transport provider.</span></span> <span data-ttu-id="a5e6b-129">L'objet message transmis par le spouleur MAPI n'est pas valide après l'appel **EndMessage** .</span><span class="sxs-lookup"><span data-stu-id="a5e6b-129">The message object passed by the MAPI spooler is invalid after the **EndMessage** call.</span></span> 
+<span data-ttu-id="721b2-128">Tous les objets que le fournisseur de transport ouvre lors du transfert d’un message doivent être libérés avant le retour de l’appel **EndMessage,** à l’exception de l’objet message que lepooler MAPI transmet au fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="721b2-128">All objects that the transport provider opens during the transfer of a message should be released before the **EndMessage** call returns, with the exception of the message object that the MAPI spooler passes to the transport provider.</span></span> <span data-ttu-id="721b2-129">L’objet message transmis par lepooler MAPI n’est pas valide après **l’appel EndMessage.**</span><span class="sxs-lookup"><span data-stu-id="721b2-129">The message object passed by the MAPI spooler is invalid after the **EndMessage** call.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="a5e6b-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a5e6b-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="721b2-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="721b2-130">See also</span></span>
 
 
 
-[<span data-ttu-id="a5e6b-131">IMAPISupport::SpoolerNotify</span><span class="sxs-lookup"><span data-stu-id="a5e6b-131">IMAPISupport::SpoolerNotify</span></span>](imapisupport-spoolernotify.md)
+[<span data-ttu-id="721b2-131">IMAPISupport::SpoolerNotify</span><span class="sxs-lookup"><span data-stu-id="721b2-131">IMAPISupport::SpoolerNotify</span></span>](imapisupport-spoolernotify.md)
   
-[<span data-ttu-id="a5e6b-132">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="a5e6b-132">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
+[<span data-ttu-id="721b2-132">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="721b2-132">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
   
-[<span data-ttu-id="a5e6b-133">IXPLogon::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="a5e6b-133">IXPLogon::SubmitMessage</span></span>](ixplogon-submitmessage.md)
+[<span data-ttu-id="721b2-133">IXPLogon::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="721b2-133">IXPLogon::SubmitMessage</span></span>](ixplogon-submitmessage.md)
   
-[<span data-ttu-id="a5e6b-134">IXPLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a5e6b-134">IXPLogon : IUnknown</span></span>](ixplogoniunknown.md)
+[<span data-ttu-id="721b2-134">IXPLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="721b2-134">IXPLogon : IUnknown</span></span>](ixplogoniunknown.md)
 

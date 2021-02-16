@@ -15,15 +15,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414766"
 ---
-# <a name="mapiofflinenotify"></a><span data-ttu-id="355dc-103">MAPIOFFLINE_NOTIFY</span><span class="sxs-lookup"><span data-stu-id="355dc-103">MAPIOFFLINE_NOTIFY</span></span>
+# <a name="mapioffline_notify"></a><span data-ttu-id="3e82c-103">MAPIOFFLINE_NOTIFY</span><span class="sxs-lookup"><span data-stu-id="3e82c-103">MAPIOFFLINE_NOTIFY</span></span>
 
-<span data-ttu-id="355dc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="355dc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3e82c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3e82c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="355dc-105">Il s'agit de la notification de modification de l'état de connexion.</span><span class="sxs-lookup"><span data-stu-id="355dc-105">This is the notification for a change in the connection state.</span></span> <span data-ttu-id="355dc-106">Il indique la partie de l'état de connexion qui a été modifiée, l'ancien état de connexion et le nouvel état de connexion.</span><span class="sxs-lookup"><span data-stu-id="355dc-106">It indicates the part of the connection state that has changed, the old connection state, and the new connection state.</span></span>
+<span data-ttu-id="3e82c-105">Il s’agit de la notification d’une modification de l’état de connexion.</span><span class="sxs-lookup"><span data-stu-id="3e82c-105">This is the notification for a change in the connection state.</span></span> <span data-ttu-id="3e82c-106">Il indique la partie de l’état de connexion qui a changé, l’ancien état de connexion et le nouvel état de connexion.</span><span class="sxs-lookup"><span data-stu-id="3e82c-106">It indicates the part of the connection state that has changed, the old connection state, and the new connection state.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="355dc-107">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="355dc-107">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="3e82c-107">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="3e82c-107">Quick info</span></span>
 
-<span data-ttu-id="355dc-108">Voir **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**.</span><span class="sxs-lookup"><span data-stu-id="355dc-108">See **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**.</span></span> 
+<span data-ttu-id="3e82c-108">Voir **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**.</span><span class="sxs-lookup"><span data-stu-id="3e82c-108">See **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**.</span></span> 
   
 ```cpp
 typedef struct  
@@ -42,59 +42,59 @@ typedef struct
 } MAPIOFFLINE_NOTIFY;
 ```
 
-## <a name="members"></a><span data-ttu-id="355dc-109">Members</span><span class="sxs-lookup"><span data-stu-id="355dc-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="3e82c-109">Members</span><span class="sxs-lookup"><span data-stu-id="3e82c-109">Members</span></span>
 
- <span data-ttu-id="355dc-110">_ulSize_</span><span class="sxs-lookup"><span data-stu-id="355dc-110">_ulSize_</span></span>
+ <span data-ttu-id="3e82c-110">_ulSize_</span><span class="sxs-lookup"><span data-stu-id="3e82c-110">_ulSize_</span></span>
   
-> <span data-ttu-id="355dc-111">Taille de la structure **MAPIOFFLINE_NOTIFY** .</span><span class="sxs-lookup"><span data-stu-id="355dc-111">Size of the **MAPIOFFLINE_NOTIFY** structure.</span></span> 
+> <span data-ttu-id="3e82c-111">Taille de la **MAPIOFFLINE_NOTIFY** structure.</span><span class="sxs-lookup"><span data-stu-id="3e82c-111">Size of the **MAPIOFFLINE_NOTIFY** structure.</span></span> 
     
- <span data-ttu-id="355dc-112">_NotifyType_</span><span class="sxs-lookup"><span data-stu-id="355dc-112">_NotifyType_</span></span>
+ <span data-ttu-id="3e82c-112">_NotifyType_</span><span class="sxs-lookup"><span data-stu-id="3e82c-112">_NotifyType_</span></span>
   
-> <span data-ttu-id="355dc-113">Type de notification.</span><span class="sxs-lookup"><span data-stu-id="355dc-113">Type of notification.</span></span> <span data-ttu-id="355dc-114">Notez que seule une notification sur la modification de l'état de connexion est prise en charge; les seules valeurs prises en charge sont les suivantes:</span><span class="sxs-lookup"><span data-stu-id="355dc-114">Note that only notification on change of the connection state is supported; the only supported values are:</span></span>
+> <span data-ttu-id="3e82c-113">Type de notification.</span><span class="sxs-lookup"><span data-stu-id="3e82c-113">Type of notification.</span></span> <span data-ttu-id="3e82c-114">Notez que seule la notification de modification de l’état de connexion est prise en charge ; Les seules valeurs prise en charge sont les :</span><span class="sxs-lookup"><span data-stu-id="3e82c-114">Note that only notification on change of the connection state is supported; the only supported values are:</span></span>
     
-   - <span data-ttu-id="355dc-115">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START</span><span class="sxs-lookup"><span data-stu-id="355dc-115">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START</span></span>
+   - <span data-ttu-id="3e82c-115">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START</span><span class="sxs-lookup"><span data-stu-id="3e82c-115">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START</span></span>
     
-   - <span data-ttu-id="355dc-116">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE</span><span class="sxs-lookup"><span data-stu-id="355dc-116">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE</span></span>
+   - <span data-ttu-id="3e82c-116">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE</span><span class="sxs-lookup"><span data-stu-id="3e82c-116">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE</span></span>
     
-   - <span data-ttu-id="355dc-117">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE</span><span class="sxs-lookup"><span data-stu-id="355dc-117">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE</span></span>
+   - <span data-ttu-id="3e82c-117">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE</span><span class="sxs-lookup"><span data-stu-id="3e82c-117">MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE</span></span>
     
- <span data-ttu-id="355dc-118">_ulClientToken_</span><span class="sxs-lookup"><span data-stu-id="355dc-118">_ulClientToken_</span></span>
+ <span data-ttu-id="3e82c-118">_ulClientToken_</span><span class="sxs-lookup"><span data-stu-id="3e82c-118">_ulClientToken_</span></span>
   
-> <span data-ttu-id="355dc-119">Un jeton défini par le client dans la structure **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** dans **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**.</span><span class="sxs-lookup"><span data-stu-id="355dc-119">A token defined by the client in the **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** structure in **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**.</span></span> 
+> <span data-ttu-id="3e82c-119">Jeton défini par le client dans la structure **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** dans **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**.</span><span class="sxs-lookup"><span data-stu-id="3e82c-119">A token defined by the client in the **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** structure in **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**.</span></span> 
     
- <span data-ttu-id="355dc-120">_ulMask_</span><span class="sxs-lookup"><span data-stu-id="355dc-120">_ulMask_</span></span>
+ <span data-ttu-id="3e82c-120">_ulMask_</span><span class="sxs-lookup"><span data-stu-id="3e82c-120">_ulMask_</span></span>
   
-> <span data-ttu-id="355dc-121">Partie de l'état de connexion qui a été modifiée.</span><span class="sxs-lookup"><span data-stu-id="355dc-121">The part of the connection state that has changed.</span></span> <span data-ttu-id="355dc-122">La seule valeur prise en charge est MAPIOFFLINE_STATE_OFFLINE_MASK.</span><span class="sxs-lookup"><span data-stu-id="355dc-122">The only supported value is MAPIOFFLINE_STATE_OFFLINE_MASK.</span></span>
+> <span data-ttu-id="3e82c-121">Partie de l’état de connexion qui a changé.</span><span class="sxs-lookup"><span data-stu-id="3e82c-121">The part of the connection state that has changed.</span></span> <span data-ttu-id="3e82c-122">La seule valeur prise en charge est MAPIOFFLINE_STATE_OFFLINE_MASK.</span><span class="sxs-lookup"><span data-stu-id="3e82c-122">The only supported value is MAPIOFFLINE_STATE_OFFLINE_MASK.</span></span>
     
- <span data-ttu-id="355dc-123">_ulStateOld_</span><span class="sxs-lookup"><span data-stu-id="355dc-123">_ulStateOld_</span></span>
+ <span data-ttu-id="3e82c-123">_ulStateOld_</span><span class="sxs-lookup"><span data-stu-id="3e82c-123">_ulStateOld_</span></span>
   
-> <span data-ttu-id="355dc-124">L'ancien état de connexion.</span><span class="sxs-lookup"><span data-stu-id="355dc-124">The old connection state.</span></span> <span data-ttu-id="355dc-125">Les seules valeurs prises en charge sont les suivantes:</span><span class="sxs-lookup"><span data-stu-id="355dc-125">The only supported values are:</span></span>
+> <span data-ttu-id="3e82c-124">Ancien état de connexion.</span><span class="sxs-lookup"><span data-stu-id="3e82c-124">The old connection state.</span></span> <span data-ttu-id="3e82c-125">Les seules valeurs prise en charge sont :</span><span class="sxs-lookup"><span data-stu-id="3e82c-125">The only supported values are:</span></span>
     
-   - <span data-ttu-id="355dc-126">MAPIOFFLINE_STATE_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="355dc-126">MAPIOFFLINE_STATE_OFFLINE</span></span>
+   - <span data-ttu-id="3e82c-126">MAPIOFFLINE_STATE_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="3e82c-126">MAPIOFFLINE_STATE_OFFLINE</span></span>
     
-   - <span data-ttu-id="355dc-127">MAPIOFFLINE_STATE_ONLINE</span><span class="sxs-lookup"><span data-stu-id="355dc-127">MAPIOFFLINE_STATE_ONLINE</span></span>
+   - <span data-ttu-id="3e82c-127">MAPIOFFLINE_STATE_ONLINE</span><span class="sxs-lookup"><span data-stu-id="3e82c-127">MAPIOFFLINE_STATE_ONLINE</span></span>
     
- <span data-ttu-id="355dc-128">_ulStateNew_</span><span class="sxs-lookup"><span data-stu-id="355dc-128">_ulStateNew_</span></span>
+ <span data-ttu-id="3e82c-128">_ulStateNew_</span><span class="sxs-lookup"><span data-stu-id="3e82c-128">_ulStateNew_</span></span>
   
-> <span data-ttu-id="355dc-129">Nouvel état de connexion.</span><span class="sxs-lookup"><span data-stu-id="355dc-129">The new connection state.</span></span> <span data-ttu-id="355dc-130">Les seules valeurs prises en charge sont les suivantes:</span><span class="sxs-lookup"><span data-stu-id="355dc-130">The only supported values are:</span></span>
+> <span data-ttu-id="3e82c-129">Nouvel état de connexion.</span><span class="sxs-lookup"><span data-stu-id="3e82c-129">The new connection state.</span></span> <span data-ttu-id="3e82c-130">Les seules valeurs prise en charge sont :</span><span class="sxs-lookup"><span data-stu-id="3e82c-130">The only supported values are:</span></span>
     
-   - <span data-ttu-id="355dc-131">MAPIOFFLINE_STATE_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="355dc-131">MAPIOFFLINE_STATE_OFFLINE</span></span>
+   - <span data-ttu-id="3e82c-131">MAPIOFFLINE_STATE_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="3e82c-131">MAPIOFFLINE_STATE_OFFLINE</span></span>
     
-   - <span data-ttu-id="355dc-132">MAPIOFFLINE_STATE_ONLINE</span><span class="sxs-lookup"><span data-stu-id="355dc-132">MAPIOFFLINE_STATE_ONLINE</span></span>
+   - <span data-ttu-id="3e82c-132">MAPIOFFLINE_STATE_ONLINE</span><span class="sxs-lookup"><span data-stu-id="3e82c-132">MAPIOFFLINE_STATE_ONLINE</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="355dc-133">Remarques</span><span class="sxs-lookup"><span data-stu-id="355dc-133">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3e82c-133">Remarques</span><span class="sxs-lookup"><span data-stu-id="3e82c-133">Remarks</span></span>
 
-<span data-ttu-id="355dc-134">L'API d'État hors connexion prend en charge uniquement les notifications pour les modifications en ligne et hors connexion.</span><span class="sxs-lookup"><span data-stu-id="355dc-134">The Offline State API supports only notifications for online/offline changes.</span></span> <span data-ttu-id="355dc-135">Un client doit vérifier qu'Outlook renvoie les valeurs suivantes avant d'examiner le changement réel:</span><span class="sxs-lookup"><span data-stu-id="355dc-135">A client must check that Outlook returns the following values before examining the actual change:</span></span>
+<span data-ttu-id="3e82c-134">L’API d’état hors connexion prend uniquement en charge les notifications pour les modifications en ligne/hors connexion.</span><span class="sxs-lookup"><span data-stu-id="3e82c-134">The Offline State API supports only notifications for online/offline changes.</span></span> <span data-ttu-id="3e82c-135">Un client doit vérifier qu’Outlook renvoie les valeurs suivantes avant d’examiner la modification réelle :</span><span class="sxs-lookup"><span data-stu-id="3e82c-135">A client must check that Outlook returns the following values before examining the actual change:</span></span>
   
-1.  <span data-ttu-id="355dc-136">*NotifyType* a la valeur MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE ou MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE.</span><span class="sxs-lookup"><span data-stu-id="355dc-136">*NotifyType*  has the value MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE, or MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE.</span></span> <span data-ttu-id="355dc-137">Dans ce cas, le client peut supposer que la modification est une modification de l'état de connexion et que les *informations* sont de la structure *StateChange* .</span><span class="sxs-lookup"><span data-stu-id="355dc-137">In this case, the client can assume that the change is a connection state change, and  *Info*  is of the structure  *StateChange*  .</span></span> 
+1.  <span data-ttu-id="3e82c-136">*NotifyType*  a la valeur MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE ou MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE.</span><span class="sxs-lookup"><span data-stu-id="3e82c-136">*NotifyType*  has the value MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE, or MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE.</span></span> <span data-ttu-id="3e82c-137">Dans ce cas, le client peut supposer que la modification est un changement d’état de connexion et que  *Info*  est de la structure  *StateChange*  .</span><span class="sxs-lookup"><span data-stu-id="3e82c-137">In this case, the client can assume that the change is a connection state change, and  *Info*  is of the structure  *StateChange*  .</span></span> 
     
-2.  <span data-ttu-id="355dc-138">*ulMask* a la valeur MAPIOFFLINE_STATE_OFFLINE_MASK.</span><span class="sxs-lookup"><span data-stu-id="355dc-138">*ulMask*  has the value MAPIOFFLINE_STATE_OFFLINE_MASK.</span></span> <span data-ttu-id="355dc-139">Dans ce cas, le client peut supposer qu'il s'agit d'une modification de l'état de connexion en ligne/hors connexion, et vous pouvez passer à l'examen des *ulStateOld* et *ulStateNew* .</span><span class="sxs-lookup"><span data-stu-id="355dc-139">In this case, the client can assume that the change is an online/offline connection state change, and can proceed with examining  *ulStateOld*  and  *ulStateNew*  .</span></span> 
+2.  <span data-ttu-id="3e82c-138">*ulMask a*  la valeur MAPIOFFLINE_STATE_OFFLINE_MASK.</span><span class="sxs-lookup"><span data-stu-id="3e82c-138">*ulMask*  has the value MAPIOFFLINE_STATE_OFFLINE_MASK.</span></span> <span data-ttu-id="3e82c-139">Dans ce cas, le client peut supposer que la modification est un changement d’état de connexion en ligne/hors connexion et peut passer à l’examen de  *ulStateOld*  et  *ulStateNew*  .</span><span class="sxs-lookup"><span data-stu-id="3e82c-139">In this case, the client can assume that the change is an online/offline connection state change, and can proceed with examining  *ulStateOld*  and  *ulStateNew*  .</span></span> 
     
-<span data-ttu-id="355dc-140">Il est possible qu'Outlook indique à un client d'autres modifications qui ne sont pas prises en charge.</span><span class="sxs-lookup"><span data-stu-id="355dc-140">It is possible that Outlook notifies a client of other changes that are not supported.</span></span> <span data-ttu-id="355dc-141">Dans ce cas, *NotifyType* n'est pas l'une des trois valeurs indiquées précédemment, ou *ulMask* n'est pas MAPIOFFLINE_STATE_OFFLINE_MASK, et le client doit ignorer le reste des données dans *info* .</span><span class="sxs-lookup"><span data-stu-id="355dc-141">In such cases,  *NotifyType*  would not be any one of the three values stated previously, or  *ulMask*  would not be MAPIOFFLINE_STATE_OFFLINE_MASK, and the client must ignore the rest of the data in  *Info*  .</span></span> 
+<span data-ttu-id="3e82c-140">Il est possible qu’Outlook avertisse un client d’autres modifications qui ne sont pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="3e82c-140">It is possible that Outlook notifies a client of other changes that are not supported.</span></span> <span data-ttu-id="3e82c-141">Dans ce cas,  *NotifyType*  ne serait pas l’une des trois valeurs précédemment énoncés, ou  *ulMask*  ne serait pas MAPIOFFLINE_STATE_OFFLINE_MASK, et le client doit ignorer le reste des données dans  *Info*  .</span><span class="sxs-lookup"><span data-stu-id="3e82c-141">In such cases,  *NotifyType*  would not be any one of the three values stated previously, or  *ulMask*  would not be MAPIOFFLINE_STATE_OFFLINE_MASK, and the client must ignore the rest of the data in  *Info*  .</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="355dc-142">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="355dc-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3e82c-142">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3e82c-142">See also</span></span>
 
-- [<span data-ttu-id="355dc-143">À propos de l’API d’état hors connexion</span><span class="sxs-lookup"><span data-stu-id="355dc-143">About the Offline State API</span></span>](about-the-offline-state-api.md)  
-- [<span data-ttu-id="355dc-144">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="355dc-144">MAPI Constants</span></span>](mapi-constants.md)  
-- [<span data-ttu-id="355dc-145">MAPIOFFLINE_NOTIFY_TYPE</span><span class="sxs-lookup"><span data-stu-id="355dc-145">MAPIOFFLINE_NOTIFY_TYPE</span></span>](mapioffline_notify_type.md)
+- [<span data-ttu-id="3e82c-143">À propos de l’API d’état hors connexion</span><span class="sxs-lookup"><span data-stu-id="3e82c-143">About the Offline State API</span></span>](about-the-offline-state-api.md)  
+- [<span data-ttu-id="3e82c-144">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="3e82c-144">MAPI Constants</span></span>](mapi-constants.md)  
+- [<span data-ttu-id="3e82c-145">MAPIOFFLINE_NOTIFY_TYPE</span><span class="sxs-lookup"><span data-stu-id="3e82c-145">MAPIOFFLINE_NOTIFY_TYPE</span></span>](mapioffline_notify_type.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Développement de listes de distribution
+title: Développement des listes de distribution
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414136"
 ---
-# <a name="expanding-distribution-lists"></a><span data-ttu-id="a3e2e-103">Développement de listes de distribution</span><span class="sxs-lookup"><span data-stu-id="a3e2e-103">Expanding Distribution Lists</span></span>
+# <a name="expanding-distribution-lists"></a><span data-ttu-id="020b7-103">Développement des listes de distribution</span><span class="sxs-lookup"><span data-stu-id="020b7-103">Expanding Distribution Lists</span></span>
 
   
   
-<span data-ttu-id="a3e2e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a3e2e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="020b7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="020b7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="a3e2e-105">**Pour inviter MAPI à développer une liste de distribution**</span><span class="sxs-lookup"><span data-stu-id="a3e2e-105">**To prompt MAPI to expand a distribution list**</span></span>
+ <span data-ttu-id="020b7-105">**Pour inciter MAPI à développer une liste de distribution**</span><span class="sxs-lookup"><span data-stu-id="020b7-105">**To prompt MAPI to expand a distribution list**</span></span>
   
-- <span data-ttu-id="a3e2e-106">Définissez sa propriété **PR_ADDRTYPE** ([PIDTAGADDRESSTYPE](pidtagaddresstype-canonical-property.md)) sur MAPIPDL.</span><span class="sxs-lookup"><span data-stu-id="a3e2e-106">Set its **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) property to MAPIPDL.</span></span>
+- <span data-ttu-id="020b7-106">Définissez **sa PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) sur MAPIPDL.</span><span class="sxs-lookup"><span data-stu-id="020b7-106">Set its **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) property to MAPIPDL.</span></span>
     
-    <span data-ttu-id="a3e2e-107">MAPI étend les adresses de ce type avant d'envoyer le message au fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="a3e2e-107">MAPI expands addresses with this type before sending the message to the transport provider.</span></span>
+    <span data-ttu-id="020b7-107">MAPI développe les adresses de ce type avant d’envoyer le message au fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="020b7-107">MAPI expands addresses with this type before sending the message to the transport provider.</span></span>
     
 
