@@ -1,5 +1,5 @@
 ---
-title: Bloc de données RechercherEnregistrement (application Web personnalisée Access)
+title: LookupRecord Data Block (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434360"
 ---
-# <a name="lookuprecord-data-block-access-custom-web-app"></a>Bloc de données RechercherEnregistrement (application Web personnalisée Access)
+# <a name="lookuprecord-data-block-access-custom-web-app"></a>LookupRecord Data Block (Access custom web app)
 
 Un bloc de données **RechercherEnregistrement** effectue un ensemble d'actions sur un enregistrement spécifique. 
   
@@ -30,14 +30,14 @@ L’action **DéfinirChamp** utilise les arguments suivants.
   
 |**Argument**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
-| _Dans_ <br/> |Oui  <br/> |Chaîne qui identifie l’enregistrement sur lequel opérer. L'argument *dans* peut contenir le nom de la table, une requête sélection ou une instruction SQL.  <br/> |
-| _Condition Where_ <br/> |Non  <br/> |Expression de type Chaîne qui permet de restreindre la plage de données sur laquelle opère le bloc de données **RechercherEnregistrement**. Par exemple, les critères sont souvent équivalents à la clause WHERE dans une expression SQL, sans le mot WHERE. En cas d'omission de critère, le bloc de données **RechercherEnregistrement** opère sur tout le domaine spécifié par l'argument *dans* . Tout champ inclus dans le critère doit également être un champ dans. **  <br/> |
-| _Alias_ <br/> |Non  <br/> |Chaîne qui fournit un autre nom pour l'enregistrement spécifié par l'argument *dans* . On l’utilise souvent pour raccourcir le nom de la table pour les références ultérieures, afin d’éviter d’éventuelles références ambiguës. Si *alias* n'est pas spécifié, le nom de la table ou de la requête sera utilisé comme alias.  <br/> |
+| _In_ <br/> |Oui  <br/> |Chaîne qui identifie l’enregistrement sur lequel opérer. *L’argument In* peut contenir le nom de la table, une requête Select ou une SQL instruction.  <br/> |
+| _Condition Where_ <br/> |Non  <br/> |Expression de type Chaîne qui permet de restreindre la plage de données sur laquelle opère le bloc de données **RechercherEnregistrement**. Par exemple, les critères sont souvent équivalents à la clause WHERE dans une expression SQL, sans le mot WHERE. Si des critères sont omis, le bloc de données **LookupRecord** fonctionne sur l’intégralité du domaine spécifié par l’argument *In.* Tout champ inclus dans les critères doit également être un champ *dans .*  <br/> |
+| _Alias_ <br/> |Non  <br/> |Chaîne qui fournit un autre nom pour l’enregistrement spécifié par l’argument *In.* On l’utilise souvent pour raccourcir le nom de la table pour les références ultérieures, afin d’éviter d’éventuelles références ambiguës. Si  *l’alias*  n’est pas spécifié, le nom de la table ou de la requête sera utilisé comme alias.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Si les critères spécifiés par les arguments  *In*  et  *Condition WHERE*  spécifient plusieurs enregistrements, le bloc de données **RechercherEnregistrement** n'opère que sur le premier enregistrement. 
   
-Si aucun enregistrement ne satisfait à la *condition WHERE* ou si *in* ne contient aucun enregistrement, **RechercherEnregistrement** crée un enregistrement vide dans lequel tous les champs contiennent une valeur **null** . 
+Si aucun enregistrement ne satisfait à la *condition Where* ou si *In* ne contient aucun enregistrement, **LookupRecord** crée un enregistrement vide dans lequel tous les champs contiennent une **valeur Null.** 
   
 

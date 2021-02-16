@@ -33,13 +33,13 @@ Pour obtenir une référence à la cellule DynamcOff par un nom à partir d'une 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | DynamcOff  <br/> |
+| Nom de la cellule :  <br/> | DynamicsOff  <br/> |
    
 Pour obtenir une référence à la cellule DynamcOff à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 | Index de la cellule :  <br/> |**visPLODynamicsOff** <br/> |
    

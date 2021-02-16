@@ -18,6 +18,6 @@ ms.locfileid: "33436516"
 ---
 # <a name="alignment-section"></a>Alignment,section
 
-Indique l'alignement d'une forme par rapport au repère ou au point de repère auquel la forme est collée. La section **alignement** s'affiche uniquement pour les formes collées aux repères. 
+Indique l'alignement d'une forme par rapport au repère ou au point de repère auquel la forme est collée. La section **Alignement** apparaît uniquement pour les formes collées aux repères. 
   
 

@@ -21,9 +21,9 @@ ms.locfileid: "33435564"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Il existe plusieurs macros permettant de faciliter l'utilisation des valeurs HRESULT.
+Il existe plusieurs macros qui facilitent l’emploi des valeurs HRESULT.
   
-Il existe deux jeux de macros qui testent les échecs ou les réussites: HR_SUCCEEDED et HR_FAILED et FAILed et FAILed. SUCCEEDED est identique à HR_SUCCEEDED et FAILed est identique à HR_FAILED.
+Il existe deux ensembles de macros qui testent l’échec ou la réussite : HR_SUCCEEDED et HR_FAILED et SUCCEEDED et FAILED. SUCCEEDED est identique à HR_SUCCEEDED et FAILED est identique à HR_FAILED.
   
 Dans ce cas, utilisez la macro **ResultFromScode** pour définir la variable HRESULT sur la valeur HRESULT correspondante pour S_OK. 
   
@@ -32,12 +32,12 @@ Les macros couramment utilisées sont brièvement décrites dans le tableau suiv
 |**Macro**|**Description**|
 |:-----|:-----|
 |**MAKE_HRESULT** <br/> |Construit un HRESULT à partir de ses composants.  <br/> |
-|**HR_SUCCEEDED** <br/> |Teste un HRESULT pour une condition de réussite ou d'avertissement.  <br/> |
-|**HR_FAILED** <br/> |Teste un HRESULT pour une condition d'erreur.  <br/> |
-|**HRESULT_CODE** <br/> |Extrait la partie de code d'erreur du HRESULT.  <br/> |
-|**HRESULT_FACILITY** <br/> |Extrait l'installation du HRESULT.  <br/> |
-|**HRESULT_SEVERITY** <br/> |Extrait le bit de gravité de la gravité.  <br/> |
-|**TERMINÉ** <br/> |Teste un HRESULT pour une condition de réussite ou d'avertissement.  <br/> |
-|**Echec** <br/> |Teste un HRESULT pour une condition d'erreur.  <br/> |
+|**HR_SUCCEEDED** <br/> |Teste un HRESULT pour une condition de réussite ou d’avertissement.  <br/> |
+|**HR_FAILED** <br/> |Teste une condition d’erreur HRESULT.  <br/> |
+|**HRESULT_CODE** <br/> |Extrait la partie code d’erreur du HRESULT.  <br/> |
+|**HRESULT_FACILITY** <br/> |Extrait la fonction du HRESULT.  <br/> |
+|**HRESULT_SEVERITY** <br/> |Extrait le bit de gravité de la GRAVITÉ.  <br/> |
+|**SUCCEEDED** <br/> |Teste un HRESULT pour une condition de réussite ou d’avertissement.  <br/> |
+|**FAILED** <br/> |Teste une condition d’erreur HRESULT.  <br/> |
    
 

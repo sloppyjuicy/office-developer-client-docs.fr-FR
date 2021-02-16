@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule ShdwOffsetY par index dans un program
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPage** <br/> |
 | Index de la cellule :  <br/> |**visPageShdwOffsetY** <br/> |
    

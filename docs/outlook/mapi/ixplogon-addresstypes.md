@@ -25,7 +25,7 @@ ms.locfileid: "33435375"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie les types de destinataire gérés par le fournisseur de transport.
+Renvoie les types de destinataires gérés par le fournisseur de transport.
   
 ```cpp
 HRESULT AddressTypes(
@@ -41,51 +41,51 @@ HRESULT AddressTypes(
 
  _lpulFlags_
   
-> remarquer Masque de des indicateurs qui contrôle le type de chaînes renvoyées. L'indicateur suivant peut être défini:
+> [out] Masque de bits d’indicateurs qui contrôle le type de chaînes renvoyées. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les chaînes renvoyées sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
+> Les chaînes renvoyées sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
  _lpcAdrType_
   
-> remarquer Pointeur vers le nombre d'entrées dans le tableau vers lequel pointe le paramètre _lpppszAdrTypeArray_ . 
+> [out] Pointeur vers le nombre d’entrées du tableau pointées par le _paramètre lpppszAdrTypeArray._ 
     
  _lpppszAdrTypeArray_
   
-> remarquer Pointeur vers un pointeur vers un tableau de chaînes qui identifient les types de destinataires.
+> [out] Pointeur vers un pointeur vers un tableau de chaînes qui identifient les types de destinataires.
     
  _lpcMAPIUID_
   
-> remarquer Pointeur vers le nombre d'entrées dans le tableau vers lequel pointe le paramètre _lpppUIDArray_ . 
+> [out] Pointeur vers le nombre d’entrées du tableau pointées par le _paramètre lpppUIDArray._ 
     
  _lpppUIDArray_
   
-> remarquer Pointeur vers un pointeur vers un tableau de pointeurs vers des structures [MAPIUID](mapiuid.md) qui identifient les types de destinataires. 
+> [out] Pointeur vers un pointeur vers un tableau de pointeurs vers des structures [MAPIUID](mapiuid.md) qui identifient les types de destinataires. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le fournisseur de transport indiquait les types de destinataires qu'il peut gérer.
+> Le fournisseur de transport a indiqué avec succès les types de destinataires qu’il peut gérer.
     
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Le spouleur MAPI appelle la méthode **IXPLogon:: AddressTypes** immédiatement après le retour d'un fournisseur de transport d'un appel à la méthode [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) afin que le fournisseur de transport puisse indiquer les types de destinataires qu'il gère. Pour cela, le fournisseur de transport doit renvoyer dans le paramètre _lpppszAdrTypeArray_ un pointeur vers un tableau de pointeurs vers des chaînes, ou renvoyer le pointeur vers un tableau de pointeurs vers **MAPIUID** à partir du paramètre _lpppUIDArray_ les structures, ou transmettre les valeurs des deux paramètres. 
+Lepooler MAPI appelle la méthode **IXPLogon::AddressTypes** immédiatement après le retour d’un fournisseur de transport à partir d’un appel à la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) afin que le fournisseur de transport puisse indiquer les types de destinataires qu’il gère. Pour indiquer cela, le fournisseur de transport doit transmettre dans le paramètre  _lpppszAdrTypeArray_ un pointeur vers un tableau de pointeurs vers des chaînes, ou revenir dans le paramètre  _lpppUIDArray_ un pointeur vers un tableau de pointeurs vers des structures **MAPIUID,** ou transmettre des valeurs dans les deux paramètres. 
   
-Ces deux tableaux sont utilisés pour différents processus d'identification. MAPI et le spouleur MAPI utilisent les structures [MAPIUID](mapiuid.md) dans le tableau _lpppUIDArray_ pour identifier les identificateurs d'entrée de destinataire qui sont directement gérés par le fournisseur de transport ou par le système de messagerie auquel se connecte le fournisseur de transport. . Ni MAPI ni le spouleur MAPI n'étend les adresses à l'aide d'identificateurs d'entrée contenus dans l'une de ces structures **MAPIUID** ; ces structures sont utilisées uniquement pour l'identification du type de destinataire. 
+Ces deux tableaux sont utilisés pour différents processus d’identification. MAPI et le spouleur MAPI utilisent les structures [MAPIUID](mapiuid.md) dans le tableau  _lpppUIDArray_ pour identifier les identificateurs d’entrée de destinataire qui sont directement gérés par le fournisseur de transport ou par le système de messagerie auquel le fournisseur de transport se connecte. Ni MAPI, ni le spouleur MAPI ne développe les adresses à l’aide des identificateurs d’entrée contenus dans l’une de ces structures **MAPIUID** ; Ces structures sont utilisées uniquement pour l’identification du type de destinataire. 
   
-Le spouleur MAPI utilise chacune des chaînes du paramètre _lpppszAdrTypeArray_ pour un test de comparaison lorsqu'il détermine quel fournisseur de transport doit gérer les destinataires d'un message sortant. Si la propriété **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) d'un destinataire de message correspond exactement à une chaîne qui identifie l'un des types d'adresse de messagerie fournis par le fournisseur de transport, le fournisseur peut livrer le message à ce destinataire.
+Lepooler MAPI utilise chacune des chaînes du paramètre  _lpppszAdrTypeArray_ pour un test de comparaison lorsqu’il détermine le fournisseur de transport qui doit gérer les destinataires d’un message sortant. Si la propriété **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) d’un destinataire de message correspond exactement à une chaîne qui identifie l’un des types d’adresse de messagerie que le fournisseur de transport fournit, le fournisseur peut remettre le message à ce destinataire.
   
-Si plusieurs fournisseurs de transport peuvent gérer le même type de destinataire, MAPI sélectionne un fournisseur de transport en fonction de l'ordre de priorité de transport indiqué dans le profil de l'application cliente. Pour déterminer le fournisseur de transport à utiliser, le spouleur MAPI analyse toutes les structures **MAPIUID** spécifiées par le fournisseur par ordre de priorité, puis toutes les valeurs de type d'adresse spécifiées par le fournisseur par ordre de priorité. Le premier fournisseur de transport correspondant à un destinataire particulier de cette analyse obtient la première opportunité de gérer ce destinataire. Si ce fournisseur ne gère pas le destinataire, le spouleur MAPI continue l'analyse pour trouver un fournisseur de transport pour un destinataire qui n'est pas encore géré. L'analyse se poursuit jusqu'à ce qu'il n'existe plus de correspondances, auquel cas un rapport de non-remise est généré pour tout destinataire qui n'a pas été géré. 
+Si plusieurs fournisseurs de transport peuvent gérer le même type de destinataire, MAPI sélectionne un fournisseur de transport en fonction de l’ordre de priorité de transport indiqué dans le profil de l’application cliente. Pour déterminer le fournisseur de transport à utiliser, le spouleur MAPI analyse toutes les structures **MAPIUID** spécifiées par le fournisseur dans l’ordre de priorité, puis toutes les valeurs de type d’adresse spécifiées par le fournisseur dans l’ordre de priorité. Le premier fournisseur de transport à faire correspondre un destinataire particulier dans cette analyse obtient la première opportunité de gérer ce destinataire. Si ce fournisseur ne gère pas le destinataire, lepooler MAPI poursuit l’analyse pour rechercher un fournisseur de transport pour un destinataire qui n’a pas encore été géré. L’analyse se poursuit jusqu’à ce qu’aucune autre correspondance ne soit trouvée, auquel moment un rapport de non-découverte est généré pour tout destinataire qui n’a pas été géré. 
   
-Si le fournisseur prend toujours en charge un ensemble particulier de types de destinataires, le type d'adresse et les tableaux **MAPIUID** que le fournisseur de transport a transmis peuvent être statiques. Si le fournisseur de transport construit ces tableaux de manière dynamique, il peut allouer de la mémoire à l'aide de l'objet de prise en charge précédemment transmis dans l'appel à **TransportLogon**, bien que cela ne soit pas nécessaire.
+Si le fournisseur prend toujours en charge un ensemble particulier de types de destinataires, le type d’adresse et les tableaux **MAPIUID** transmis par le fournisseur de transport peuvent être statiques. Si le fournisseur de transport construit dynamiquement ces tableaux, il peut allouer de la mémoire à l’aide de l’objet de support qui a été passé précédemment dans l’appel à **TransportLogon,** bien que cela ne soit pas nécessaire.
   
-La mémoire utilisée pour le type d'adresse et les tableaux **MAPIUID** doit rester allouée jusqu'au dernier appel à la méthode [IXPLogon:: TransportLogoff](ixplogon-transportlogoff.md) , auquel cas le fournisseur de transport peut libérer de la mémoire, si nécessaire. Le fournisseur de transport ne doit pas modifier le contenu de ces tableaux après qu'il a été renvoyé de l'appel **TransportLogoff** . 
+La mémoire utilisée pour le type d’adresse et les tableaux **MAPIUID** doit rester allouée jusqu’à l’appel final à la méthode [IXPLogon::TransportLogoff,](ixplogon-transportlogoff.md) à laquelle le fournisseur de transport peut libérer de la mémoire, si nécessaire. Le fournisseur de transport ne doit pas modifier le contenu de ces tableaux après son retour de **l’appel TransportLogoff.** 
   
-Un fournisseur de transport pouvant gérer tout type de destinataire peut renvoyer une valeur NULL dans le paramètre _lpppszAdrTypeArray_ . Les fournisseurs de transport pour les systèmes de messagerie LAN qui utilisent un serveur central pour transmettre les messages sortants à divers systèmes de messagerie étrangers le font généralement. Ce type de fournisseur de transport doit être installé en dernier dans l'ordre de priorité des spouleurs MAPI et MAPI du profil. 
+Un fournisseur de transport qui peut gérer n’importe quel type de destinataire peut renvoyer la valeur NULL dans le paramètre _lpppszAdrTypeArray._ Les fournisseurs de transport pour les systèmes de messagerie laN qui utilisent un serveur central pour remettre des messages sortants à différents systèmes de messages étrangers le font généralement. Ce type de fournisseur de transport doit être installé en dernier dans l’ordre de priorité dupooler MAPI et MAPI des fournisseurs de transport dans le profil. 
   
-Un fournisseur de transport qui ne prend pas en charge les messages sortants qui lui sont envoyés en fonction du type d'adresse doit renvoyer une seule chaîne de longueur nulle dans _lpppszAdrTypeArray_. Si un fournisseur de transport ne prend en charge aucun type de destinataire, il doit transmettre NULL pour la structure **MAPIUID** et une chaîne vide pour le type d'adresse. Les fournisseurs de transport de ce type sont généralement utilisés pour installer un préprocesseur de messages. 
+Un fournisseur de transport qui ne prend pas en charge les messages sortants qui lui sont envoyés en fonction du type d’adresse doit renvoyer une seule chaîne de longueur nulle dans  _lpppszAdrTypeArray_. Si un fournisseur de transport ne prend en charge aucun type de destinataire, il doit transmettre null pour la structure **MAPIUID** et une chaîne vide pour le type d’adresse. Les fournisseurs de transport de ce type sont le plus couramment utilisés pour installer un préprocesseur de message. 
   
 ## <a name="see-also"></a>Voir aussi
 

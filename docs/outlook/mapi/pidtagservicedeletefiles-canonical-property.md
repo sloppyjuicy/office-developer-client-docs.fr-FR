@@ -25,7 +25,7 @@ ms.locfileid: "33436824"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de noms de fichier à supprimer lors de la désinstallation du service de messagerie.
+Contient une liste de noms de fichiers qui doivent être supprimés lorsque le service de message est désinstallé.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient une liste de noms de fichier à supprimer lors de la désinstallation d
    
 ## <a name="remarks"></a>Remarques
 
-Les noms de fichier de la liste contenus dans ces propriétés sont supprimés de l'ordinateur lorsque vous utilisez le panneau de configuration pour désinstaller le service de messagerie. N'incluez pas dans la liste toute DLL qui prend en charge plusieurs services de messagerie ou les services de messages supplémentaires peuvent être supprimés par inadvertance.
+Les noms de fichiers de la liste contenue dans ces propriétés sont supprimés de l’ordinateur lors de l’utilisation du panneau de contrôle pour désinstaller le service de message. N’incluez dans la liste aucune DLL qui prend en charge plusieurs services de message, ou des services de message supplémentaires peuvent être supprimés par inadvertance.
   
-MAPI fonctionne uniquement avec les noms de fichier et les autres chaînes qui lui sont transmises, dans le jeu de caractères ANSI. Les applications qui utilisent des noms de fichier dans un jeu de caractères OEM doivent les convertir en ANSI avant d'appeler MAPI.
+MAPI fonctionne uniquement avec les noms de fichiers et les autres chaînes qui lui sont passées, dans le jeu de caractères ANSI. Les applications qui utilisent des noms de fichiers dans un jeu de caractères OEM doivent les convertir en ANSI avant d’appeler MAPI.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

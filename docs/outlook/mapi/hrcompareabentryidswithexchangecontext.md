@@ -21,11 +21,11 @@ ms.locfileid: "33436432"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux **EntryID** de carnet d'adresses en toute sécurité dans un profil Exchange multiple. Cette fonction est une fonction de remplacement pour [IAddrBook:: CompareEntryIDs](iaddrbook-compareentryids.md).
+Compare deux entrées de carnet **d’adresses** en toute sécurité dans un profil Exchange multiple. Cette fonction est une fonction de remplacement [pour IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |abhelp. h  <br/> |
+|Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -47,31 +47,31 @@ HRESULT HrCompareABEntryIDsWithExchangeContext(
 
  _pmsess_
   
-> dans Le **IMAPISession**connecté. Il ne peut pas être NULL.
+> [in] **L’IMAPISession** connecté. Elle ne peut pas être NULL.
     
  _pEmsmdbUID_
   
-> dans Pointeur vers un **emsmdbUID** qui identifie le service Exchange qui contient le fournisseur de carnets d'adresses Exchange que cette fonction doit utiliser pour afficher les détails sur l'identificateur d'entrée. Si l'identificateur d'entrée entrante n'est pas un identificateur d'entrée de fournisseur de carnet d'adresses Exchange, ce paramètre est ignoré et l'appel de fonction se comporte comme [IAddrBook::D etails](iaddrbook-details.md). Si ce paramètre est NULL ou un zéro MAPIUID, cette fonction se comporte comme [IAddrBook::D etails](iaddrbook-details.md).
+> [in] Pointeur vers **un emsmdbUID** qui identifie le service Exchange qui contient le fournisseur de carnet d’adresses Exchange que cette fonction doit utiliser pour afficher des détails sur l’identificateur d’entrée. Si l’identificateur d’entrée entrante n’est pas un identificateur d’entrée du fournisseur de carnet d’adresses Exchange, ce paramètre est ignoré et l’appel de fonction se comporte comme [IAddrBook::D etails](iaddrbook-details.md). Si ce paramètre est NULL ou un MAPIUID zéro, cette fonction se comporte comme [IAddrBook::D etails](iaddrbook-details.md).
     
  _pAddrBook_
   
-> dans Carnet d'adresses utilisé pour ouvrir l'identificateur d'entrée. Il ne peut pas être NULL.
+> [in] Carnet d’adresses utilisé pour ouvrir l’identificateur d’entrée. Elle ne peut pas être NULL.
     
  _cbEntryID1_
   
-> dans Nombre d'octets du premier identificateur d'entrée spécifié par le paramètre _lpEntryID1_ . 
+> [in] Nombre d’bytes du premier identificateur d’entrée spécifié par _le paramètre lpEntryID1._ 
     
  _lpEntryID1_
   
-> dans Pointeur vers le premier identificateur d'entrée qui représente l'entrée de carnet d'adresses à comparer.
+> [in] Pointeur vers le premier identificateur d’entrée qui représente l’entrée de carnet d’adresses à comparer.
     
  _cbEntryID2_
   
-> dans Nombre d'octets du deuxième identificateur d'entrée spécifié par le paramètre _lpEntryID2_ . 
+> [in] Nombre d’bytes du deuxième identificateur d’entrée spécifié par _le paramètre lpEntryID2._ 
     
  _lpEntryID2_
   
-> dans Pointeur vers le deuxième identificateur d'entrée utilisé dans la comparaison qui représente l'entrée de carnet d'adresses à comparer.
+> [in] Pointeur vers le deuxième identificateur d’entrée utilisé dans la comparaison qui représente l’entrée de carnet d’adresses à comparer.
     
  _ulFlags_
   
@@ -79,6 +79,6 @@ HRESULT HrCompareABEntryIDsWithExchangeContext(
     
  _lpulResult_
   
-> remarquer Pointeur vers l'emplacement qui contient les résultats de la comparaison. 
+> [out] Pointeur vers l’emplacement qui contient les résultats de la comparaison. 
     
 

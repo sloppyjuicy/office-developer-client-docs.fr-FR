@@ -25,11 +25,11 @@ ms.locfileid: "33438882"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction **et** , utilisée pour joindre un groupe de restrictions à l'aide d'une opération **and** logique. 
+Décrit une restriction **AND,** qui est utilisée pour joindre un groupe de restrictions à l’aide d’une **opération LOGIQUE AND.** 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SAndRestriction
@@ -44,17 +44,17 @@ typedef struct _SAndRestriction
 
  **cRes**
   
-> Nombre de restrictions de recherche dans le tableau vers lequel pointe le membre **lpRes** . 
+> Nombre de restrictions de recherche dans le tableau pointés par le membre **lpRes.** 
     
  **lpRes**
   
-> Pointeur vers un tableau de structures [SRestriction](srestriction.md) qui seront combinées avec une opération **and** logique. 
+> Pointeur vers un tableau de structures [SRestriction](srestriction.md) qui seront combinées avec une opération **LOGIQUE AND.** 
     
 ## <a name="remarks"></a>Remarques
 
-Le résultat de l' **SAndRestriction** est true si toutes ses restrictions enfants ont la valeur true. Elle a la valeur FALSe si une restriction enfant prend la valeur FALSe. 
+Le résultat de **la SAndRestriction** est TRUE si toutes ses restrictions enfants sont évaluées à TRUE. Elle est FALSE si une restriction enfant est évaluée à FALSE. 
   
-Pour obtenir une description des types de restrictions, de leur création et de l'exemple de code, reportez-vous à la rubrique [à propos des restrictions](about-restrictions.md).
+Pour obtenir une description des types de restrictions, comment les créer et un exemple de code, voir [à propos des restrictions.](about-restrictions.md)
   
 ## <a name="see-also"></a>Voir aussi
 

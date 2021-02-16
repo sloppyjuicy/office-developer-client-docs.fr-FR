@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c0e7b788-3198-499c-ae21-b2032f929ed9
-description: Renvoie une valeur de type String qui représente le nom d'utilisateur utilisé lors de l'ouverture de session.
+description: Renvoie une chaîne qui représente le nom d’utilisateur utilisé lors de la connexion.
 ms.openlocfilehash: 6f0d2c68b1af9e7c96f2cd86dc798518e432c7cf
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33437293"
 ---
 # <a name="isocialsessionloggedonusername"></a>ISocialSession::LoggedOnUserName
 
-Renvoie une valeur de type String qui représente le nom d'utilisateur utilisé lors de l'ouverture de session.
+Renvoie une chaîne qui représente le nom d’utilisateur utilisé lors de la connexion.
   
 ```cpp
 [propget] HRESULT _stdcall LoggedOnUserName([out, retval] BSTR* result);
@@ -25,7 +25,7 @@ Renvoie une valeur de type String qui représente le nom d'utilisateur utilisé 
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Chaîne qui représente le nom d'utilisateur de l'utilisateur connecté.
+Chaîne qui représente le nom d’utilisateur de l’utilisateur connecté.
   
 ## <a name="see-also"></a>Voir aussi
 

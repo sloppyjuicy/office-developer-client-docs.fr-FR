@@ -25,7 +25,7 @@ ms.locfileid: "33437111"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre une section du profil actif et renvoie un pointeur [IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire. 
+Ouvre une section du profil actuel et renvoie un [pointeur IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire. 
   
 ```cpp
 HRESULT OpenProfileSection(
@@ -44,55 +44,55 @@ HRESULT OpenProfileSection(
     
  _lpInterface_
   
-> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder à la section de profil. Le fait de transmettre NULL génère un pointeur vers son interface standard renvoyée dans le paramètre _lppProfSect_ . L'interface standard d'une section de profil est **IProfSect**.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil. Le passage de NULL entraîne le retour d’un pointeur vers son interface standard dans le paramètre _lppProfSect._ L’interface standard pour une section de profil est **IProfSect**.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle l'accès à la section profil. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle l’accès à la section de profil. Les indicateurs suivants peuvent être définies :
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **OpenProfileSection** de retourner correctement, éventuellement avant que la section de profil soit entièrement disponible pour le client appelant. Si la section profil n'est pas disponible, un appel ultérieur de celle-ci peut déclencher une erreur. 
+> Permet à **OpenProfileSection** de renvoyer correctement, éventuellement avant que la section de profil soit entièrement disponible pour le client appelant. Si la section de profil n’est pas disponible, un appel ultérieur à celui-ci peut occasioner une erreur. 
     
 MAPI_MODIFY 
   
-> Demande une autorisation en lecture/écriture. Par défaut, les sections de profil sont ouvertes avec une autorisation en lecture seule, et les clients ne doivent pas travailler en supposant que l'autorisation de lecture/écriture a été octroyée. 
+> Demande une autorisation de lecture/écriture. Par défaut, les sections de profil sont ouvertes avec une autorisation en lecture seule et les clients ne doivent pas travailler sur l’hypothèse que l’autorisation lecture/écriture a été accordée. 
     
 MAPI_FORCE_ACCESS
   
-> Autorise l'accès à toutes les sections de profil, même celles appartenant à des fournisseurs de services individuels.
+> Permet d’accéder à toutes les sections de profil, même celles qui sont propriétés de fournisseurs de services individuels.
     
  _lppProfSect_
   
-> remarquer Pointeur vers un pointeur vers la section profil.
+> [out] Pointeur vers un pointeur vers la section de profil.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La section profil a été ouverte avec succès.
+> La section de profil a été ouverte avec succès.
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative d'accès à une section de profil pour laquelle l'appelant ne dispose pas des autorisations suffisantes a été effectuée.
+> Une tentative d’accès à une section de profil pour laquelle l’appelant dispose d’autorisations insuffisantes a été tentée.
     
 MAPI_E_NOT_FOUND 
   
-> La section de profil demandée n'existe pas.
+> La section de profil demandée n’existe pas.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin:: OpenProfileSection** ouvre une section de profil, un objet qui prend en charge l'interface [IProfSect](iprofsectimapiprop.md) . Les sections de profil sont utilisées pour lire des informations et écrire des informations dans le profil de session. 
+La **méthode IMsgServiceAdmin::OpenProfileSection** ouvre une section de profil, un objet qui prend en charge l’interface [IProfSect.](iprofsectimapiprop.md) Les sections de profil sont utilisées pour lire et écrire des informations dans le profil de session. 
   
- **OpenProfileSection** ne peut pas être utilisé pour ouvrir des sections de profil appartenant à des fournisseurs de services individuels, sauf si MAPI_FORCE_ACCESS est utilisé. 
+ **OpenProfileSection** ne peut pas être utilisé pour ouvrir des sections de profils propriétés par des fournisseurs de services individuels, sauf si MAPI_FORCE_ACCESS est utilisé. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Plusieurs clients peuvent ouvrir une section de profil avec une autorisation en lecture seule, mais un seul client peut ouvrir une section de profil avec une autorisation en lecture/écriture. Si un autre client a une section de profil ouverte que vous tentez d'ouvrir en appelant **OpenProfileSection** avec l'indicateur MAPI_MODIFY défini, l'appel échouera, renvoyant MAPI_E_NO_ACCESS. 
+Plusieurs clients peuvent ouvrir une section de profil avec une autorisation en lecture seule, mais un seul client peut ouvrir une section de profil avec une autorisation de lecture/écriture. Si une section de profil est ouverte sur un autre client que vous essayez d’ouvrir en appelant **OpenProfileSection** avec l’indicateur MAPI_MODIFY, l’appel échoue et retourne MAPI_E_NO_ACCESS. 
   
-Une opération d'ouverture en lecture seule échoue si la section est ouverte en écriture. 
+Une opération d’ouverture en lecture seule échoue si la section est ouverte pour écriture. 
   
-Vous pouvez créer une section de profil en appelant **OpenProfileSection** avec l'indicateur MAPI_MODIFY et une structure [MAPIUID](mapiuid.md) inexistante dans le paramètre _lpUID_ . Veillez à spécifier MAPI_MODIFY. Si vous définissez _lpUID_ de sorte qu'elle pointe vers un **MAPIUID** inexistant et que **OpenProfileSection** soit configuré pour utiliser le mode d'accès par défaut en lecture seule, l'appel échouera avec MAPI_E_NOT_FOUND. 
+Vous pouvez créer une section de profil en appelant **OpenProfileSection** avec l’indicateur MAPI_MODIFY et une structure [MAPIUID](mapiuid.md) inexistante dans le paramètre _lpUID._ Assurez-vous de spécifier MAPI_MODIFY. Si vous définissez _lpUID_ de façon à pointer vers un **MAPIUID** inexistant et qu’OpenProfileSection est définie pour utiliser le mode d’accès par défaut en lecture seule, l’appel échouera avec MAPI_E_NOT_FOUND.  
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -100,7 +100,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions. cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin:: OpenProfileSection** pour ouvrir une section de profil.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI utilise la **méthode IMsgServiceAdmin::OpenProfileSection** pour ouvrir une section de profil.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

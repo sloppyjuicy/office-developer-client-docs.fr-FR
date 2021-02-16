@@ -19,17 +19,17 @@ ms.locfileid: "33435046"
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI fournit une fonctionnalité permettant d'affecter des noms aux propriétés, de mapper ces noms à des identificateurs uniques et de rendre ce mappage persistant. Le mappage de nom permanent au identificateur garantit que les noms de propriété restent valides entre les sessions.
+MAPI fournit une fonction permettant d’affecter des noms à des propriétés, de ma mappage de ces noms à des identificateurs uniques et de rendre ce mappage persistant. Le mappage de nom persistant à identificateur garantit que les noms de propriété restent valides entre les sessions.
   
-Pour définir une propriété nommée, un client ou un fournisseur de services compose un nom et le stocke dans une structure [MAPINAMEID](mapinameid.md) . Étant donné que les noms sont composés d'un identificateur global unique (GUID) 32 bits, et soit d'une chaîne de caractères Unicode, soit d'une valeur numérique, les créateurs de propriétés nommées peuvent créer des noms significatifs sans crainte de duplication. Les noms sont uniques et peuvent être utilisés indépendamment de la valeur de leurs identificateurs. 
+Pour définir une propriété nommée, un client ou un fournisseur de services constitue un nom et le stocke dans une structure [MAPINAMEID.](mapinameid.md) Étant donné que les noms sont composés d’un identificateur global unique (GUID) 32 bits et d’une chaîne de caractères Unicode ou d’une valeur numérique, les créateurs de propriétés nommées peuvent créer des noms significatifs sans craindre de duplication. Les noms sont uniques et peuvent être utilisés sans prendre en compte la valeur de leurs identificateurs. 
   
-Pour prendre en charge les propriétés nommées, un fournisseur de services implémente deux méthodes ( [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) ) pour effectuer une traduction entre les noms et les identificateurs et pour autoriser les [IMAPIProp:: GetProps](imapiprop-getprops.md) [ IMAPIProp:: SetProps](imapiprop-setprops.md) méthodes permettant de récupérer et de modifier les propriétés avec des identificateurs dans la plage de propriétés nommées. La plage pour les identificateurs de la propriété nommée est comprise entre 0x8000 et 0xFFFE. 
+Pour prendre en charge les propriétés nommées, un fournisseur de services implémente deux méthodes : [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp::GetNamesFromIDs,](imapiprop-getnamesfromids.md) pour traduire entre les noms et les identificateurs et pour autoriser ses méthodes [IMAPIProp::GetProps](imapiprop-getprops.md)[IMAPIProp::SetProps](imapiprop-setprops.md) à récupérer et modifier des propriétés avec des identificateurs dans la plage de propriétés nommée. La plage des identificateurs de propriété nommée est 0x8000 et 0xFFFE. 
   
-Tout objet qui implémente l'interface **IMAPIProp** peut prendre en charge des propriétés nommées. Les fournisseurs de carnets d'adresses qui permettent de copier des entrées d'autres fournisseurs dans leurs conteneurs et fournisseurs de banques de messages qui peuvent être utilisés pour créer des types de message arbitraires sont nécessaires pour fournir cette prise en charge. Il s'agit d'une option pour tous les autres fournisseurs de services. Les fournisseurs qui ne prennent pas en charge les propriétés nommées retournent MAPI_E_NO_SUPPORT à partir des méthodes **GetIDsFromNames** et **GetNamesFromIDs** et refusent de définir des propriétés avec des identificateurs de 0x8000 ou supérieur, en renvoyant MAPI_E_UNEXPECTED dans le ** SPropProblemarray**.
+Tout objet qui implémente l’interface **IMAPIProp** peut prendre en charge les propriétés nommées. Les fournisseurs de carnet d’adresses qui permettent la copie d’entrées d’autres fournisseurs dans leurs conteneurs et fournisseurs de magasins de messages qui peuvent être utilisés pour créer des types de messages arbitraires sont requis pour fournir cette prise en charge. Il s’agit d’une option pour tous les autres fournisseurs de services. Les fournisseurs qui ne prisent pas en charge les propriétés nommées retournent des MAPI_E_NO_SUPPORT à partir des méthodes **GetIDsFromNames** et **GetNamesFromIDs** et refusent de définir des propriétés avec des identificateurs de 0x8000 ou supérieur, renvoyant les MAPI_E_UNEXPECTED dans **le SPropProblemarray**.
   
-La création de noms pour les propriétés est un moyen pour les clients de définir de nouvelles propriétés pour les classes de message existantes ou personnalisées. Les fournisseurs de services peuvent utiliser des propriétés nommées pour exposer les fonctionnalités uniques de leurs systèmes de messagerie. Une autre utilisation pour les propriétés nommées est de fournir un autre moyen de faire référence à des propriétés avec des identificateurs sous 0x8000. 
+La création de noms pour les propriétés est un moyen pour les clients de définir de nouvelles propriétés pour des classes de message existantes ou personnalisées. Les fournisseurs de services peuvent utiliser des propriétés nommées pour exposer des fonctionnalités uniques de leurs systèmes de messagerie. Une autre utilisation des propriétés nommées consiste à fournir une autre façon de faire référence aux propriétés avec des identificateurs sous 0x8000. 
   
-Par exemple, un client peut utiliser un code similaire au code suivant pour récupérer les noms de toutes les propriétés nommées d'un objet:
+Par exemple, un client peut utiliser du code semblable au code suivant pour récupérer les noms de toutes les propriétés nommées d’un objet :
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;
@@ -44,7 +44,7 @@ lpMAPIProp->GetNamesFromIDs (lppPropTags,
  
 ```
 
-Pour demander tous les noms à partir du jeu de propriétés PS_PUBLIC_STRINGS, un client remplace la valeur NULL dans le paramètre SET de la propriété par PS_PUBLIC_STRINGS comme suit: 
+Pour demander tous les noms du jeu PS_PUBLIC_STRINGS propriétés, un client remplace la valeur NULL dans le paramètre du jeu de propriétés PS_PUBLIC_STRINGS comme suit : 
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;

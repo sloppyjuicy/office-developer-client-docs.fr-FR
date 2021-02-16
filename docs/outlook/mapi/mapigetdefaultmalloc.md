@@ -25,11 +25,11 @@ ms.locfileid: "33438203"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère l'adresse de la fonction d'allocation de mémoire MAPI par défaut.
+Récupère l’adresse de la fonction d’allocation de mémoire MAPI par défaut.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,6 +43,6 @@ Aucun.
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **MAPIGetDefaultMalloc** renvoie un pointeur vers la fonction d'allocation de mémoire MAPI par défaut. 
+La **fonction MAPIGetDefaultMalloc** renvoie un pointeur vers la fonction d’allocation de mémoire MAPI par défaut. 
   
 

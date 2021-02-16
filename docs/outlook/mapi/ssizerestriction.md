@@ -25,11 +25,11 @@ ms.locfileid: "33439085"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction de taille qui est utilisée pour tester la taille d'une valeur de propriété. 
+Décrit une restriction de taille utilisée pour tester la taille d’une valeur de propriété. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSizeRestriction
@@ -43,37 +43,37 @@ typedef struct _SSizeRestriction
 
 ## <a name="members"></a>Members
 
- **RelOp**
+ **relop**
   
-> Opérateur relationnel utilisé dans la comparaison de taille. Les valeurs possibles sont les suivantes: 
+> Opérateur relationnel utilisé dans la comparaison de tailles. Les valeurs possibles sont les suivantes : 
     
 RELOP_GE 
   
-> La comparaison est effectuée en fonction d'une valeur supérieure ou égale à la première valeur.
+> La comparaison est réalisée en fonction d’une première valeur supérieure ou égale.
     
 RELOP_GT 
   
-> La comparaison est effectuée en fonction d'une valeur supérieure.
+> La comparaison est réalisée en fonction d’une première valeur supérieure.
     
 RELOP_LE 
   
-> La comparaison est effectuée en fonction d'une valeur inférieure ou égale à la première valeur.
+> La comparaison est réalisée sur la base d’une première valeur inférieure ou égale.
     
 RELOP_LT 
   
-> La comparaison est effectuée en fonction d'une valeur inférieure.
+> La comparaison est réalisée en fonction d’une première valeur inférieure.
     
 RELOP_NE 
   
-> La comparaison est effectuée en fonction de valeurs inégales.
+> La comparaison est basée sur des valeurs différentes.
     
 RELOP_RE 
   
-> La comparaison est effectuée en fonction des valeurs LIKE (expression régulière).
+> La comparaison est réalisée en fonction des valeurs LIKE (expression régulière).
     
 RELOP_EQ 
   
-> La comparaison est effectuée en fonction de valeurs égales.
+> La comparaison est réalisée sur la base de valeurs égales.
     
  **ulPropTag**
   
@@ -81,11 +81,11 @@ RELOP_EQ
     
  **cb**
   
-> Nombre d'octets dans la valeur de la propriété.
+> Nombre d’octets dans la valeur de la propriété.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur le fonctionnement des restrictions, consultez la rubrique [à propos des restrictions](about-restrictions.md). 
+Pour une discussion générale sur le fonctionnement des restrictions, voir [à propos des restrictions.](about-restrictions.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

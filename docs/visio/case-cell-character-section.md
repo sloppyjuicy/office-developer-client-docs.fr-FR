@@ -23,8 +23,8 @@ Détermine la casse du texte de la forme. Toutes les lettres capitales (majuscul
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Casse normale  <br/> |**visCaseNormal** <br/> |
-| 0,1  <br/> | Toutes les lettres en capitales (majuscules)  <br/> |**visCaseAllCaps** <br/> |
-| n°2  <br/> | Capitales initiales uniquement  <br/> |**visCaseInitialCaps** <br/> |
+| 1   <br/> | Toutes les lettres en capitales (majuscules)  <br/> |**visCaseAllCaps** <br/> |
+| 2   <br/> | Capitales initiales uniquement  <br/> |**visCaseInitialCaps** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -32,14 +32,14 @@ Pour obtenir une référence à la cellule Case par un nom à partir d'une autre
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Char. case [ *i* ] où *i* = <1>, 2, 3,...  <br/> |
+| Nom de la cellule :  <br/> | Char.Case[  *i*  ] où  *i*  = <1>, 2, 3, ...  <br/> |
    
 Pour obtenir une référence à la cellule Case à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionCharacter** <br/> |
-| Index de la ligne :  <br/> |**visRowCharacter** +  *i* où *i* = 0, 1, 2,...  <br/> |
+| Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2, ...  <br/> |
 | Index de la cellule :  <br/> |**visCharacterCase** <br/> |
    
 

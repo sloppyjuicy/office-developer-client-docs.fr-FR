@@ -16,11 +16,11 @@ ms.locfileid: "33439379"
 ---
 # <a name="satdiff-function"></a>Fonction SATDIFF
 
-Renvoie la différence de saturation entre _color1_ et _color2_.
+Renvoie la différence de saturation entre  _color1_ et  _color2_.
   
 ## <a name="syntax"></a>Syntaxe
 
-SATDIFF (* * *color1* * *, * * *color2* * *) 
+SATDIFF(** *color1* **, ** *color2* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

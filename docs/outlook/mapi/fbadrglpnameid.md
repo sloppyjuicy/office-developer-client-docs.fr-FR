@@ -44,24 +44,24 @@ BOOL FBadRglpNameID(
 
  _lppNameId_
   
-> dans Pointeur vers un tableau de structures [MAPINAMEID](mapinameid.md) décrivant les propriétés nommées. 
+> [in] Pointeur vers un tableau de structures [MAPINAMEID](mapinameid.md) décrivant les propriétés nommées. 
     
- _Enregistrements CNAME_
+ _cNames_
   
-> dans Nombre de structures de propriété nommées dans le tableau vers lequel pointe le paramètre _lppNameId_ . 
+> [in] Nombre de structures de propriétés nommées dans le tableau pointés par _le paramètre lppNameId._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Une ou plusieurs des structures de nom de propriété spécifiées ne sont pas valides. 
+> Une ou plusieurs des structures de noms de propriété spécifiées ne sont pas valides. 
     
 FALSE 
   
-> Les structures de nom de propriété spécifiées sont toutes valides.
+> Les structures de noms de propriété spécifiées sont toutes valides.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FBadRglpNameID** peut être utilisée lors de la configuration d'un appel à [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) ou [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md). 
+La **fonction FBadRglpNameID** peut être utilisée lors de la configuration d’un appel à [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) ou [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). 
   
 

@@ -22,8 +22,8 @@ Contient les cellules qui contrôlent la manière dont la page de dessin est mis
   
 ## <a name="remarks"></a>Remarques
 
-Utilisez la section **propriétés d'impression** pour contrôler l'impression au niveau de la page. Ces paramètres s'appliquent par page et sont indépendants des paramètres de la page de dessin, par exemple, une page de dessin disposée en orientation paysage peut être imprimée en orientation portrait. Les documents peuvent également être imprimés en utilisant une combinaison d'orientations. 
+Utilisez la section **Propriétés d’impression** pour contrôler l’impression au niveau de la page. Ces paramètres s'appliquent par page et sont indépendants des paramètres de la page de dessin, par exemple, une page de dessin disposée en orientation paysage peut être imprimée en orientation portrait. Les documents peuvent également être imprimés en utilisant une combinaison d'orientations. 
   
-Les paramètres de la **section Propriétés d'impression** correspondent aux valeurs définies sous l'onglet Configuration de l' **impression** de la boîte de dialogue **mise en page** (sous l'onglet **création** , cliquez sur le lanceur de boîte de dialogue dans le groupe **mise en page** ). Voir la section Propriétés de la **page** pour les paramètres qui s'appliquent à la page de dessin. 
+Les paramètres de la section Propriétés d’impression correspondent aux valeurs définies  sous l’onglet Configuration de l’impression dans la boîte de dialogue Mise en **page** (sous l’onglet Création, cliquez sur le lanceur de boîte de dialogue dans le groupe Mise en **page).**   Consultez la section **Propriétés de** page pour les paramètres qui s’appliquent à la page de dessin. 
   
 

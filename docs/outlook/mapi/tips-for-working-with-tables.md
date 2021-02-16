@@ -1,5 +1,5 @@
 ---
-title: Conseils pour utiliser des tableaux
+title: Conseils pour travailler avec des tableaux
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,27 +15,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439736"
 ---
-# <a name="tips-for-working-with-tables"></a>Conseils pour utiliser des tableaux
+# <a name="tips-for-working-with-tables"></a>Conseils pour travailler avec des tableaux
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Travailler avec une table MAPI est un peu semblable à travailler avec une table de base de données relationnelle. Un utilisateur peut limiter le nombre de lignes et de colonnes dans l'affichage et spécifier son ordre. Les lignes peuvent être récupérées une par une ou dans des groupes. Un curseur qui effectue le suivi de la position actuelle peut être déplacé vers un emplacement spécifique dans le tableau. 
+Travailler avec une table MAPI est un peu comme une table de base de données relationnelle. Un utilisateur peut limiter le nombre de lignes et de colonnes dans l’affichage et spécifier son ordre. Les lignes peuvent être récupérées une par une ou par groupes. Un curseur qui assure le suivi de la position actuelle peut être déplacé vers un endroit spécifique du tableau. 
   
-Pour travailler avec des tables, les clients utilisent l'interface en lecture seule, [IMAPITable: IUnknown](imapitableiunknown.md), tandis que les fournisseurs de services, selon qu'ils possèdent ou non les données sur lesquelles la table est basée, peuvent utiliser la fonction **IMAPITable** ou [ITableData: IUnknown](itabledataiunknown.md). Les opérations définies dans ces interfaces peuvent être catégorisées comme des opérations que tous les utilisateurs de tables effectuent ou peuvent appeler et des opérations qui ne sont pas aussi largement utilisées car elles sont plus avancées. Certaines des opérations avancées sont plus complexes à mettre en œuvre; d'autres ne sont pas plus complexes, mais présentent un intérêt pour une petite minorité de composants MAPI. 
+Pour travailler avec des tables, les clients utilisent l’interface en lecture [seule, IMAPITable : IUnknown](imapitableiunknown.md), tandis que les fournisseurs de services, selon qu’ils possèdent ou non les données sur la table, peuvent utiliser **IMAPITable** ou [ITableData : IUnknown](itabledataiunknown.md). Les opérations définies dans ces interfaces peuvent être classées en tant qu’opérations que tous les utilisateurs de tables font ou peuvent appeler et les opérations qui ne sont pas aussi largement utilisées, car elles sont plus avancées. Certaines opérations avancées sont plus complexes à implémenter . d’autres ne sont pas plus complexes, mais sont d’un intérêt pour une petite majorité de composants MAPI. 
   
-Les opérations les plus courantes sont les suivantes:
+Les opérations les plus courantes sont :
   
-- Les opérations sur les colonnes, qui affectent des colonnes uniques. Il s'agit notamment de spécifier les propriétés à inclure dans le jeu de colonnes et l'ordre dans lequel elles doivent être incluses.
+- Opérations de colonne, qui affectent des colonnes individuelles. Il s’agit notamment de spécifier les propriétés à inclure dans le jeu de colonnes et l’ordre dans lequel elles doivent être incluses.
     
-- Les opérations de ligne, qui affectent des lignes uniques. Il s'agit notamment des opérations de récupération des données et de maintenance: ajout, suppression et modification d'une ou de plusieurs lignes.
+- Opérations de ligne, qui affectent des lignes individuelles. Il s’agit notamment de la récupération des données et des opérations de maintenance : ajout, suppression et modification d’une ou plusieurs lignes.
     
-- Les opérations globales, qui affectent l'intégralité du tableau. Cela inclut la notification d'événement, la recherche et le tri.
+- Opérations globales, qui affectent la table entière. Il s’agit notamment de la notification d’événement, de la recherche et du tri.
     
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

@@ -20,15 +20,15 @@ ms.locfileid: "33438077"
 
 Détermine la taille de la pointe de flèche à la fin du trait.
   
-|**Valeur**|**Size**|**Constante d'automation**|
+|**Valeur**|**Taille**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Très petite  <br/> |**visArrowSizeVerySmall** <br/> |
-|0,1  <br/> |Petite  <br/> |**visArrowSizeSmall** <br/> |
-|n°2  <br/> |Moyen  <br/> |**visArrowSizeMedium** <br/> |
-|3  <br/> |Grande  <br/> |**visArrowSizeLarge** <br/> |
-|4  <br/> |Très grande  <br/> |**visArrowSizeVeryLarge** <br/> |
-|disque  <br/> |Tram  <br/> |**visArrowSizeJumbo** <br/> |
-|6.x  <br/> |Colossal  <br/> |**visArrowSizeColossal** <br/> |
+|1   <br/> |Petite  <br/> |**visArrowSizeSmall** <br/> |
+|2   <br/> |Moyen  <br/> |**visArrowSizeMedium** <br/> |
+|3   <br/> |Grande  <br/> |**visArrowSizeLarge** <br/> |
+|4   <br/> |Très grande  <br/> |**visArrowSizeVeryLarge** <br/> |
+|5   <br/> |Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
+|6   <br/> |Premier  <br/> |**visArrowSizeColossal** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -44,7 +44,7 @@ Pour obtenir une référence à la cellule EndArrowSize à l’aide d’un index
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowLine** <br/> |
 |Index de la cellule :  <br/> |**visLineEndArrowSize** <br/> |
    

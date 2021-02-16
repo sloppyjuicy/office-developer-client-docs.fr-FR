@@ -21,11 +21,11 @@ ms.locfileid: "33435284"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Réaffecte une mémoire tampon. Elle est utilisée avec la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+Réaffecte une mémoire tampon. Il est utilisé avec la [fonction MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |omapix. h  <br/> |
+|Fichier d’en-tête :  <br/> |omapix.h  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
@@ -39,9 +39,9 @@ LPVOID * lppv
 
 ## <a name="parameters"></a>Paramètres
 
- _LPV_
+ _lpv_
   
-> Pointeur vers la mémoire à réallouer.
+> Pointeur vers la mémoire à réaffecter.
     
  _ulSize_
   
@@ -53,7 +53,7 @@ LPVOID * lppv
     
 ## <a name="remarks"></a>Remarques
 
- **MAPIReallocateBuffer** alloue un nouveau bloc de mémoire de la taille demandée et copie le contenu de la mémoire tampon qui est transmise à ce nouveau bloc de mémoire. Si le bloc de mémoire transmis contient des pointeurs internes, les pointeurs ne changent pas pour correspondre au nouvel emplacement. 
+ **MAPIReallocateBuffer** alloue un nouveau bloc de mémoire de la taille demandée et copie le contenu de la mémoire tampon qui est passée dans ce nouveau bloc de mémoire. Si le bloc de mémoire transmis contient des pointeurs internes, les pointeurs ne changent pas pour correspondre au nouvel emplacement. 
   
 ## <a name="see-also"></a>Voir aussi
 

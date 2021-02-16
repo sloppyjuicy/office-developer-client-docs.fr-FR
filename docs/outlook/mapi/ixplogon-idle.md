@@ -25,7 +25,7 @@ ms.locfileid: "33436047"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique que le système est inactif, ce qui permet au fournisseur de transport d'effectuer des opérations de faible priorité.
+Indique que le système est inactif, ce qui permet au fournisseur de transport d’effectuer des opérations de faible priorité.
   
 ```cpp
 HRESULT Idle(
@@ -43,11 +43,11 @@ HRESULT Idle(
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la ou les valeurs attendues.
+> L’appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle régulièrement la méthode **IXPLogon:: Idle** , si elle est demandée, lorsque le système est inactif en transmettant l'indicateur XP_LOGON_SP dans l'appel à la méthode [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) qui a ouvert la session en cours. Lorsque le système est inactif, le fournisseur de transport peut effectuer des opérations d'arrière-plan qui ne sont pas appropriées pendant les autres appels ou qui doivent se produire à intervalles réguliers. 
+Lepooler MAPI appelle régulièrement la méthode **IXPLogon::Idle,** si nécessaire, lorsque le système est inactif en passant l’indicateur XP_LOGON_SP dans l’appel à la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) qui a ouvert la session en cours. Lorsque le système est inactif, le fournisseur de transport peut effectuer des opérations en arrière-plan qui ne sont pas appropriées pendant d’autres appels ou qui doivent se produire régulièrement. 
   
 ## <a name="see-also"></a>Voir aussi
 

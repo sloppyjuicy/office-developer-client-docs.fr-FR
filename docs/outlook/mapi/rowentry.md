@@ -23,7 +23,7 @@ ms.locfileid: "33436033"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une ligne et l'opération exécutée sur cette ligne dans un tableau via l'interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
+Contient une ligne et l’opération effectuée sur cette ligne dans un tableau via l’interface [IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
   
 ```cpp
 typedef struct
@@ -38,15 +38,15 @@ typedef struct
 
 **ulRowFlags**
   
-> Une des opérations suivantes à effectuer sur les données: 
+> L’une des opérations suivantes à effectuer sur les données : 
     
-  - ROW_ADD: ajouter les données à la table en tant que nouvelle ligne.
+  - ROW_ADD : ajoutez les données au tableau en tant que nouvelle ligne.
       
-  - ROW_MODIFY: modifiez cette ligne dans le tableau.
+  - ROW_MODIFY : modifiez cette ligne dans le tableau.
       
-  - ROW_REMOVE: supprimez cette ligne du tableau.
+  - ROW_REMOVE : supprimez cette ligne du tableau.
       
-  - ROW_EMPTY: n'ajoutez pas les données de ligne à la table. (La ligne est vide.)
+  - ROW_EMPTY : n’ajoutez pas les données de ligne au tableau. (La ligne est vide.)
     
 **cValues**
   
@@ -62,7 +62,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|RulesDlg. cpp  <br/> |CRulesDlg:: GetSelectedItems  <br/> |Permet de créer une liste de règles sélectionnées pour les actions **ModifyTable** suivantes.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Utilisé pour créer une liste de règles sélectionnées pour les actions **ModifyTable suivantes.**  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
   

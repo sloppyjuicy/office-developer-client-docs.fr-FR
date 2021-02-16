@@ -1,5 +1,5 @@
 ---
-title: Interaction des composants et des fournisseurs MAPI
+title: Interaction des fournisseurs et composants MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,32 +15,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434661"
 ---
-# <a name="interaction-of-mapi-providers-and-components"></a>Interaction des composants et des fournisseurs MAPI
+# <a name="interaction-of-mapi-providers-and-components"></a>Interaction des fournisseurs et composants MAPI
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fournisseurs de services MAPI de tout type doivent respecter certaines recommandations pour fonctionner avec d'autres composants MAPI. Chaque fournisseur de services doit:
+Les fournisseurs de services MAPI de tout type doivent suivre certaines instructions pour travailler avec d’autres composants MAPI. Chaque fournisseur de services doit :
   
-- Utilisez le fournisseur et les objets d'ouverture de session appropriés pour l'initialisation.
+- Utilisez le fournisseur et les objets d’personnalisation appropriés pour l’initialisation.
     
-- Renvoyer une table de répartition des points d'entrée de fournisseur vers le système de messagerie lors de l'initialisation.
+- Renvoyer une table de répartition des points d’entrée du fournisseur au système de messagerie lors de l’initialisation.
     
-- Enregistrez une ligne de table d'État MAPI pour chaque ressource appartenant au fournisseur et appelez la méthode [IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md) à des moments appropriés. 
+- Inscrivez une ligne de table d’état MAPI pour chaque ressource propriétaire du fournisseur et appelez la méthode [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) au moment approprié. 
     
-- Utilisez la méthode [IMAPISupport:: NewUID](imapisupport-newuid.md) pour obtenir des identificateurs uniques valides (UID). 
+- Utilisez la [méthode IMAPISupport::NewUID](imapisupport-newuid.md) pour obtenir des identificateurs uniques (IUD) valides. 
     
-- Prendre en charge les interfaces MAPI communes sur les objets qu'elle renvoie.
+- Prise en charge des interfaces MAPI courantes sur les objets qu’elle renvoie.
     
-- Utilisez les fonctions d'allocation de mémoire MAPI pour allouer de la mémoire renvoyée aux applications clientes et libérer la mémoire allouée par les autres composants du sous-système MAPI.
+- Utilisez les fonctions d’allocation de mémoire MAPI pour allouer la mémoire renvoyée aux applications clientes et libérer la mémoire allouée par d’autres parties du sous-système MAPI.
     
-- Gérer une section de profil, si nécessaire, pour stocker les informations d'identification dans le système de messagerie sous-jacent.
+- Conservez une section de profil, si nécessaire, pour stocker les informations d’identification dans le système de messagerie sous-jacent.
     
-- Utilisez la méthode [IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md) pour enregistrer les fonctions de prétraitement des messages. 
+- Utilisez la [méthode IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) pour enregistrer toutes les fonctions de prétraitment des messages. 
     
-- Incluez les fichiers d'en-tête corrects (y compris mapispi. h) qui définissent les constantes, les structures, les interfaces et les valeurs de retour communes.
+- Incluez les fichiers d’en-tête appropriés (y compris mapispi.h) qui définissent des constantes, des structures, des interfaces et des valeurs de retour communes.
     
-- Respectez les conventions de format d'adresse pour les types d'adresse courants.
+- Respecter les conventions de format d’adresse pour les types d’adresses courants.
     
 

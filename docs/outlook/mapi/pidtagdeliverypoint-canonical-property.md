@@ -25,7 +25,7 @@ ms.locfileid: "33439421"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la nature de l'entité fonctionnelle par le biais de laquelle un message a été ou aurait été remis au destinataire. 
+Spécifie la nature de l’entité fonctionnelle au moyen de laquelle un message a été ou aurait été remis au destinataire. 
   
 |||
 |:-----|:-----|
@@ -36,49 +36,49 @@ Spécifie la nature de l'entité fonctionnelle par le biais de laquelle un messa
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement l'une des valeurs suivantes: 
+Cette propriété peut avoir exactement l’une des valeurs suivantes : 
   
 MAPI_MH_DP_ML 
   
-> Remis à une liste de distribution, un point de remise qui, à son tour, peut distribuer le message à de nombreux destinataires.
+> Remis à une liste de distribution, un point de remise qui à son tour peut distribuer le message à de nombreux destinataires.
     
 MAPI_MH_DP_MS 
   
-> Remis à une banque de messages plutôt qu'directement à un destinataire.
+> Remis à une magasin de messages au lieu d’être directement remis à un destinataire.
     
 MAPI_MH_DP_OTHER_AU 
   
-> Remis à une unité d'accès (au) autre qu'une unité de remise (PDAU), telle qu'un système de télécopie.
+> Remis à une unité d’accès (AU) autre qu’une unité d’accès de remise physique (PDAU), telle qu’un système de télécopie.
     
 MAPI_MH_DP_PDAU 
   
-> Remis à une unité de remise physique, telle qu'un transporteur postal humain.
+> Remis à une unité d’accès de remise physique, telle qu’un opérateur postal humain.
     
 MAPI_MH_DP_PDS_PATRON 
   
-> Remis à un système de remise physique, tel qu'une boîte aux lettres postale conventionnelle.
+> Remis à un protecteur de système de remise physique, tel qu’une boîte aux lettres postale conventionnelle.
     
 MAPI_MH_DP_PRIVATE_UA 
   
-> Remis à un agent utilisateur privé, tel qu'un client dans un système de messagerie interne.
+> Remis à un agent utilisateur privé (UA), tel qu’un client dans un système de messagerie interne.
     
 MAPI_MH_DP_PUBLIC_UA 
   
-> Remis à un agent utilisateur public ou un fournisseur de services publics.
+> Remis à un agent utilisateur public ou à un fournisseur de services publics.
     
-La valeur par défaut est MAPI_MH_DP_PRIVATE_UA, c'est-à-dire, un client MAPI. 
+La valeur par défaut est MAPI_MH_DP_PRIVATE_UA, c’est-à-dire, un client MAPI. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,30 +25,30 @@ ms.locfileid: "33435760"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur de vérification binaire qui permet à un destinataire de rapport de remise de vérifier l'origine du message d'origine.
+Contient une valeur de vérification binaire qui permet à un destinataire de rapport de remise de vérifier l’origine du message d’origine.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGIN_CHECK  <br/> |
 |Identificateur :  <br/> |0x0027  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Server  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété permet à un tiers, tel qu'un agent de transfert des messages (MTA) ou un utilisateur de messagerie qui reçoit un rapport de remise, de vérifier l'origine du message soumis. S'il est présent sur un message reçu, cette propriété doit être copiée dans n'importe quel rapport de remise généré en réponse au message.
+Cette propriété permet à un tiers, tel qu’un agent de transfert de messages (MTA) ou un utilisateur de messagerie recevant un rapport de remise, de vérifier l’origine du message envoyé. Si elle est présente sur un message reçu, cette propriété doit être copiée dans n’importe quel rapport de remise généré en réponse au message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

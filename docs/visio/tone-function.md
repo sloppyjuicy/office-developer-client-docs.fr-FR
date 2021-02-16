@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c2d6a7dd-9f15-27bd-9623-2a047683ff98
-description: Modifie la couleur en diminuant sa saturation de la valeur spécifiée dans le paramètre int.
+description: Modifie la couleur en réduisant sa saturation par la quantité spécifiée dans le paramètre int.
 ms.openlocfilehash: c3352d4c15671244d0fc4701f2c26b4e0c2ea54d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33434374"
 ---
 # <a name="tone-function"></a>Fonction TONE
 
-Modifie la couleur en diminuant sa saturation de la valeur spécifiée dans le paramètre _int_ . 
+Modifie la couleur en réduisant sa saturation par la quantité spécifiée dans le _paramètre int._ 
   
 ## <a name="syntax"></a>Syntaxe
 
-TON (* * *couleur* * *, * * *int* * *) 
+TONE(** *color* **, ** *int* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -35,6 +35,6 @@ TON (* * *couleur* * *, * * *int* * *)
   
 ## <a name="remarks"></a>Remarques
 
-Les limites basse et haute de saturation sont respectivement 0 et 240. Il n'y a pas de limite quant à la taille de l'entier que vous pouvez transmettre pour le paramètre _int_ , mais la saturation ne dépasse jamais ces limites. 
+Les limites basse et haute de saturation sont respectivement 0 et 240. Il n’y a aucune limite sur la taille de l’nombre integer que vous pouvez transmettre pour le paramètre  _int,_ mais la saturation ne dépasse jamais ces limites. 
   
 

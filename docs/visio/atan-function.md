@@ -18,11 +18,11 @@ ms.locfileid: "33434542"
 ---
 # <a name="atan-function"></a>Fonction ATAN
 
-Renvoie l'arctangente d'un nombre, par exemple, l'angle dont la tangente a la _valeur nombre_. L’angle obtenu se situe dans la limite -PI/2 <= angle <= PI/2 radians (soit -90 <= angle <= 90 degrés). 
+Renvoie l’arc tangente d’un nombre, par exemple, l’angle dont la tangente est  _le nombre_. L’angle obtenu se situe dans la limite -PI/2 <= angle <= PI/2 radians (soit -90 <= angle <= 90 degrés). 
   
 ## <a name="syntax"></a>Syntaxe
 
-ATAN (* * *nombre* * *) 
+ATAN(** *number* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,7 +32,7 @@ ATAN (* * *nombre* * *)
    
 ## <a name="example"></a>Exemple
 
-ATAN (1) 
+ATAN(1) 
   
 Renvoie 45 deg 
   

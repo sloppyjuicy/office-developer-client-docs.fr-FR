@@ -22,17 +22,17 @@ Lit un fichier audio ou un son système.
   
 ## <a name="syntax"></a>Syntaxe
 
-PlaySound ("* * *filename* * *" | "* * *alias* * *", * * *isAlias* * *, * * *Beep* * *, * * *synch* * *) 
+PLAYSOUND( » ** *filename* ** « | » ** *alias* ** « , ** *isAlias* **, ** *beep* **, ** *synch* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _nomdefichier_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom du fichier audio à lire.  <br/> |
+| _filename_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom du fichier audio à lire.  <br/> |
 | _alias_ <br/> |Obligatoire  <br/> |**String** <br/> | Son système représenté par un alias.  <br/> |
 | _isAlias_ <br/> |Obligatoire  <br/> |**Booléen** <br/> | Indique si l’expression précédente est un alias ou un nom de fichier ; une valeur non nulle est un alias.  <br/> |
-| _klaxon_ <br/> |Obligatoire  <br/> |**Booléen** <br/> |Microsoft Visio émet un signal sonore s’il n’arrive pas à lire le son ; une valeur non nulle active le signal sonore.  <br/> |
-| _synchrone_ <br/> |Obligatoire  <br/> |**Booléen** <br/> |Détermine si les sons sont lus de manière asynchrone (0) ou synchrone (1).  <br/> |
+| _beep_ <br/> |Obligatoire  <br/> |**Booléen** <br/> |Microsoft Visio émet un signal sonore s’il n’arrive pas à lire le son ; une valeur non nulle active le signal sonore.  <br/> |
+| _synch_ <br/> |Obligatoire  <br/> |**Booléen** <br/> |Détermine si les sons sont lus de manière asynchrone (0) ou synchrone (1).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

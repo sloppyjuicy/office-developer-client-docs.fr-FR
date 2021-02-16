@@ -8,7 +8,7 @@ f1_keywords:
 - TempInt
 - TempInt12
 keywords:
-- fonction tempint12 [Excel 2007], fonction TempInt [Excel 2007]
+- tempint12 function [excel 2007],TempInt function [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33438749"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d'infrastructure qui crée une expression **XLOPER**/ **** temporaire contenant un entier. 
+Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire contenant unger. 
   
 ```cs
 LPXLOPER TempInt(short int i);
@@ -34,15 +34,15 @@ LPXLOPER12 TempInt12(int i);
 
  _i_
   
-Valeur entière prévue. Notez que l'entier **XLOPER** est un entier 16 bits signé (short int), tandis que l'entier **XLOPER12** est un entier 32 bits signé ([long] int). 
+Valeur de l’objet integer prévu. Notez que l’integer **XLOPER** est un integer 16 bits signé (int court), tandis que l’integer **XLOPER12** est un integer 32 bits signé ([long] int). 
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie un entier **xltypeInt** contenant la valeur passée. 
+Renvoie un **integer xltypeInt** contenant la valeur transmise. 
   
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la fonction **TempInt12** pour transmettre un argument à **xlfGetWorkspace**.
+Cet exemple utilise la **fonction TempInt12** pour passer un argument à **xlfGetWorkspace**.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

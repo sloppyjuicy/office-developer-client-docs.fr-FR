@@ -25,11 +25,11 @@ ms.locfileid: "33435921"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Copie un groupe de notifications d'événements dans un seul bloc de mémoire. 
+Copie un groupe de notifications d’événements dans un seul bloc de mémoire. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -44,34 +44,34 @@ SCODE ScCopyNotifications(
 
 ## <a name="parameters"></a>Paramètres
 
- _CNTF_
+ _cntf_
   
-> dans Nombre de structures de [notification](notification.md) dans le tableau indiqué par le paramètre _rgntf_ . 
+> [in] Nombre de structures [DE NOTIFICATION](notification.md) dans le tableau indiqué par le _paramètre rgntf._ 
     
  _rgntf_
   
-> dans Pointeur vers un tableau de structures de **notification** définissant les notifications d'événement à copier. 
+> [in] Pointeur vers un tableau de structures **DE NOTIFICATION** définissant les notifications d’événement à copier. 
     
  _pvDst_
   
-> remarquer Pointeur vers les notifications renvoyées. 
+> [out] Pointeur vers les notifications renvoyées. 
     
- _circuits_
+ _pcb_
   
-> remarquer Pointeur facultatif vers une variable où la taille, en octets, du tableau désigné par le paramètre _rgntf_ est stockée. Si la valeur n'est pas NULL, le paramètre _PCB_ est défini sur le nombre d'octets stockés dans le paramètre _pvDst_ . 
+> [out] Pointeur facultatif vers une variable où la taille, en octets, du tableau pointé par le paramètre  _rgntf_ est stockée. Si la valeur n’est pas NULL, le _paramètre pcb_ est définie sur le nombre d’octets stockés dans le _paramètre pvDst._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Les notifications d'événement ont été correctement copiées.
+> Les notifications d’événement ont été correctement copiées.
     
 E_INVALIDARG
   
-> Une notification incorrecte a été rencontrée.
+> Une notification non valide a été rencontrée.
     
 ## <a name="remarks"></a>Remarques
 
-Si NULL est transmis dans le paramètre _PCB_ , aucune copie n'est effectuée; Si une valeur non null est transmise dans _PCB_, la fonction **ScCopyNotifications** copie la taille du tableau et le tableau lui-même dans un bloc de mémoire unique. Si _PCB_ n'est pas null, il est défini sur le nombre d'octets stockés dans le paramètre _pvDst_ . Le paramètre _pvDst_ doit être suffisamment grand pour contenir l'intégralité du tableau. 
+Si null est transmis dans le  _paramètre pcb,_ aucune copie n’est effectuée ; Si une valeur non null est passée dans  _pcb,_ la fonction **ScCopyNotifications** copie la taille du tableau et du tableau lui-même dans un seul bloc de mémoire. Si _pcb n’est_ pas NULL, il est fixé au nombre d’octets stockés dans le _paramètre pvDst._ Le  _paramètre pvDst_ doit être suffisamment grand pour contenir la totalité du tableau. 
   
 

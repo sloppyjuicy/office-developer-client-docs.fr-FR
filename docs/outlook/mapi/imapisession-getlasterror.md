@@ -25,7 +25,7 @@ ms.locfileid: "33435578"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur de session précédente. 
+Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de session précédente. 
   
 ```cpp
 HRESULT GetLastError(
@@ -39,19 +39,19 @@ HRESULT GetLastError(
 
  _hResult_
   
-> dans Handle de la valeur d'erreur générée lors de l'appel de méthode précédent.
+> [in] Handle vers la valeur d’erreur générée dans l’appel de méthode précédent.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le type de chaînes renvoyées. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le type de chaînes renvoyées. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les chaînes de la structure **MAPIERROR** renvoyées dans le paramètre _lppMAPIError_ sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI. 
+> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre  _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
  _lppMAPIError_
   
-> remarquer Pointeur vers un pointeur vers une structure **MAPIERROR** qui contient les informations de version, de composant et de contexte pour l'erreur. Le paramètre _lppMAPIError_ peut être défini sur null si MAPI ne peut pas fournir d'informations appropriées pour une structure **MAPIERROR** . 
+> [out] Pointeur vers un pointeur vers une structure **MAPIERROR** qui contient les informations de version, de composant et de contexte de l’erreur. Le _paramètre lppMAPIError_ peut avoir la valeur NULL si MAPI ne peut pas fournir les informations appropriées pour une structure **MAPIERROR.** 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,17 +61,17 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L'indicateur MAPI_UNICODE a été défini et la session ne prend pas en charge Unicode.
+> L’MAPI_UNICODE a été définie et la session ne prend pas en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession:: GetLastError** extrait des informations sur la dernière erreur renvoyée par un appel de la méthode **IMAPISession** . Les clients peuvent fournir à leurs utilisateurs des informations détaillées sur l'erreur en incluant ces informations dans une boîte de dialogue. 
+La **méthode IMAPISession::GetLastError** récupère des informations sur la dernière erreur renvoyée par un appel de méthode **IMAPISession.** Les clients peuvent fournir à leurs utilisateurs des informations détaillées sur l’erreur en incluant ces informations dans une boîte de dialogue. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser la structure **MAPIERROR** , si la fonction MAPI fournit un, pointée par le paramètre _LppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer quelle est la dernière erreur, ou il n'a rien d'autre à signaler l'erreur. Dans ce cas, **GetLastError** renvoie un pointeur vers une valeur null dans _lppMAPIError_ à la place. 
+Vous pouvez utiliser la structure **MAPIERROR,** si MAPI en fournit un, pointée par le paramètre  _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur, ou il n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas, **GetLastError** renvoie un pointeur vers NULL dans  _lppMAPIError_ à la place. 
   
-Pour plus d'informations sur la méthode **GetLastError** , consultez la rubrique [erreurs étendues MAPI](mapi-extended-errors.md).
+Pour plus d’informations **sur la méthode GetLastError,** voir [MAPI Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

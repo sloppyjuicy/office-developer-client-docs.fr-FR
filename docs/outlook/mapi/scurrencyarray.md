@@ -25,11 +25,11 @@ ms.locfileid: "33439400"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de valeurs monétaires qui sont utilisées pour décrire une propriété de type PT_MV_CURRENCY. 
+Contient un tableau de valeurs monétaires utilisées pour décrire une propriété de type PT_MV_CURRENCY. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SCurrencyArray
@@ -44,15 +44,15 @@ typedef struct _SCurrencyArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpcur** . 
+> Nombre de valeurs dans le tableau pointées par **le membre lpcur.** 
     
  **lpcur**
   
-> Pointeur vers un tableau de [](currency.md) structures monétaires qui contiennent les valeurs monétaires. 
+> Pointeur vers un tableau de structures [CURRENCY](currency.md) qui contiennent les valeurs monétaires. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur PT_MV_CURRENCY, consultez la [liste des types de propriétés](property-types.md). 
+Pour plus d’informations PT_MV_CURRENCY, voir [Liste des types de propriétés.](property-types.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

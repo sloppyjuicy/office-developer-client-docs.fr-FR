@@ -25,7 +25,7 @@ ms.locfileid: "33435417"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime le carnet d'adresses des contacts spécifié par l'ID d'entrée donné de la hiérarchie de carnet d'adresses.
+Supprime le carnet d’adresses de contact spécifié par l’ID d’entrée donné de la hiérarchie du carnet d’adresses.
   
 ```cpp
 HRESULT RemoveStore(
@@ -38,10 +38,10 @@ LPENTRYID lpEntryID
 
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée de l'objet à ouvrir.
+> [in] Pointeur vers l’identificateur d’entrée de l’objet à ouvrir.
     
 

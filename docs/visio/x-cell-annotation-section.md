@@ -18,10 +18,10 @@ ms.locfileid: "33434479"
 ---
 # <a name="x-cell-annotation-section"></a>X, cellule (section Annotation)
 
-Coordonnée *x* de la marque de commentaire en coordonnées de page. 
+Coordonnée  *x*  de la marque de commentaire en coordonnées de page. 
   
 > [!NOTE]
-> Cette cellule est utilisée pour le suivi des commentaires uniquement lors de l'ouverture d'un fichier. VSD dans Microsoft Visio 2013 ou lors de l'enregistrement d'un fichier. vsdx au format de fichier. VSD. Il n'est pas utilisé pour suivre les commentaires dans les documents. vsdx dans Visio 2013. 
+> Cette cellule est utilisée pour suivre les commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd. Il n’est pas utilisé pour le suivi des commentaires dans les documents .vsdx dans Visio 2013. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -29,14 +29,14 @@ Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une 
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | Annotation. X [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+| Nom de cellule :  <br/> | Annotation.X[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionAnnotation** <br/> |
-| Index de la ligne :  <br/> |**visRowAnnotation** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowAnnotation**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visAnnotationX** <br/> |
    
 

@@ -8,7 +8,7 @@ f1_keywords:
 - TempMissing
 - TempMissing12
 keywords:
-- fonction tempmissing [Excel 2007], fonction TempMissing12 [Excel 2007]
+- fonction tempmissing [excel 2007],TempMissing12 function [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33435956"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d'infrastructure qui crée une**XLOPER12** **XLOPER**/ temporaire de type **xltypeMissing**.
+Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire de type **xltypeMissing**.
   
 ```cs
 LPXLOPER TempMissing(void);
@@ -36,11 +36,11 @@ Cette fonction n’utilise aucun paramètre.
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie un pointeur vers une expression **XLOPER**/ **** **xltypeMissing** .
+Renvoie un pointeur vers un **xltypeMissing** **XLOPER** /  **XLOPER12**.
   
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise **TempMissing12** pour fournir trois arguments manquants à **xlcWorkspace** suivi d'une valeur **booléenne** **false** pour supprimer l'affichage des barres de défilement de feuille de calcul. Les trois premiers arguments correspondent à d'autres paramètres d'espace de travail qui ne sont pas affectés. 
+Cet exemple utilise **TempMissing12** pour fournir trois arguments manquants à **xlcWorkspace** suivis d’un **booléen** **FALSE** pour supprimer l’affichage des barres de défilement de feuille de calcul. Les trois premiers arguments correspondent à d’autres paramètres d’espace de travail qui ne sont pas affectés. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

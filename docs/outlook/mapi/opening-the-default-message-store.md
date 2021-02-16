@@ -19,23 +19,23 @@ ms.locfileid: "33436026"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Dans une session particulière, un magasin de messages agit comme la Banque de messages par défaut. Une banque de messages par défaut présente les caractéristiques suivantes:
+Dans une session particulière, une magasin de messages fait office de magasin de messages par défaut. Une magasin de messages par défaut présente les caractéristiques suivantes :
   
-- La propriété **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) est définie sur true.
+- La **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) est définie sur TRUE.
     
-- L'indicateur STATUS_DEFAULT_STORE est défini dans la propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+- L STATUS_DEFAULT_STORE est définie dans la **propriété PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
-- MAPI crée automatiquement la sous-arborescence IPM et les dossiers racine pour les résultats de recherche, les affichages courants et les vues personnelles lors de l'ouverture de la Banque de messages. Pour plus d'informations sur ces dossiers, consultez la rubrique [IPM subtree](ipm-subtree.md) and [MAPI Special Folders](mapi-special-folders.md). 
+- MAPI crée automatiquement la sous-arbre IPM et les dossiers racine pour les résultats de recherche, les affichages communs et les affichages personnels lorsque la magasin de messages est ouverte. Pour plus d’informations sur ces dossiers, voir [Sous-arbre IPM](ipm-subtree.md) et [Dossiers spéciaux MAPI.](mapi-special-folders.md) 
     
-Pour récupérer l'identificateur d'entrée pour la Banque de messages par défaut, vous devez appeler [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) pour ouvrir la table de banque de messages et appliquer une restriction appropriée dans un appel à [HrQueryAllRows](hrqueryallrows.md). **HrQueryAllRows** renverra un jeu de lignes avec la ligne qui représente la Banque de messages par défaut. La restriction que vous transmettez à **HrQueryAllRows** peut prendre l'une des formes suivantes: 
+Pour récupérer l’identificateur d’entrée pour la magasin de messages par défaut, vous devez appeler [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) pour ouvrir la table de la boutique de messages et appliquer une restriction appropriée dans un appel à [HrQueryAllRows](hrqueryallrows.md). **HrQueryAllRows** retourne un ensemble de lignes avec la seule ligne qui représente la magasin de messages par défaut. La restriction que vous passez à **HrQueryAllRows** peut prendre l’une des formes suivantes : 
   
-1. Une restriction **et** qui utilise une structure **SAndRestriction** pour combiner: 
+1. Restriction **AND** qui utilise une structure **SAndRestriction** pour combiner : 
     
-   - Une restriction Exists qui utilise une structure **SExistRestriction** pour tester l'existence de la propriété **PR_DEFAULT_STORE** . 
+   - Il existe une restriction qui utilise une structure **SExistRestriction** pour tester l’existence de **la propriété PR_DEFAULT_STORE.** 
     
-   - Une restriction de propriété qui utilise une structure [SPropertyRestriction](spropertyrestriction.md) pour vérifier la valeur true dans la propriété **PR_DEFAULT_STORE** . 
+   - Restriction de propriété qui utilise une structure [SPropertyRestriction](spropertyrestriction.md) pour vérifier la valeur TRUE dans la **propriété PR_DEFAULT_STORE.** 
     
-2. Une restriction de masque de masque qui utilise une structure [SBitMaskRestriction](sbitmaskrestriction.md) pour l'application de STATUS_DEFAULT_STORE en tant que masque à la propriété **PR_RESOURCE_FLAGS** . 
+2. Restriction de masque de bits qui utilise une structure [SBitMaskRestriction](sbitmaskrestriction.md) pour appliquer des STATUS_DEFAULT_STORE en tant que masque à la **propriété PR_RESOURCE_FLAGS.** 
     
 ## <a name="see-also"></a>Voir aussi
 

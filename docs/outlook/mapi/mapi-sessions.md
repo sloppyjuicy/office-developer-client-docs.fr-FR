@@ -37,7 +37,7 @@ L'illustration suivante montre comment ces param�tres et des indicateurs diff�
   
 **Diagramme de flux de session�MAPI**
   
-![Organigramme de session MAPI] (media/amapi_47.gif "Organigramme de session MAPI")
+![Flowchart de session MAPI]de l’itinéraire de(media/amapi_47.gif "session MAPI")
   
 For information about handling sessions from within a client application, see [Gestion de Session MAPI](mapi-session-handling.md)
   

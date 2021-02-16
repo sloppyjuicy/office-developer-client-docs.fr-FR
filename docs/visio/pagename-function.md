@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251577
 localization_priority: Normal
 ms.assetid: 12e45f46-e773-9445-4c7f-c726ab648671
-description: Renvoie le nom de la page sous la forme d'une chaîne.
+description: Renvoie le nom de la page sous la mesure d’une chaîne.
 ms.openlocfilehash: d5527bde58a68c96bd75773f3a0a8c30f64fa20d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33438651"
 ---
 # <a name="pagename-function"></a>Fonction PAGENAME
 
-Renvoie le nom de la page sous la forme d'une chaîne.
+Renvoie le nom de la page sous la mesure d’une chaîne.
   
 ## <a name="syntax"></a>Syntaxe
 
-PAGENAME (* * *langID_opt* * *) 
+PAGENAME (** *langID_opt* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

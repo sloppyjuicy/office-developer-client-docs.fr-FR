@@ -1,5 +1,5 @@
 ---
-title: Envoi de messages à l'aide de MAPI
+title: Envoi de messages à l’aide de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,27 +15,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438721"
 ---
-# <a name="sending-messages-by-using-mapi"></a>Envoi de messages à l'aide de MAPI
+# <a name="sending-messages-by-using-mapi"></a>Envoi de messages à l’aide de MAPI
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les applications clientes appellent la méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) pour envoyer un message. **SubmitMessage** appelle [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) pour enregistrer le message avant de transférer le contrôle vers le spouleur MAPI ou directement vers un fournisseur de transport. 
+Les applications clientes [appellent la méthode IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer un message. **SubmitMessage** appelle [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour enregistrer le message avant de transférer le contrôle vers lepooler MAPI ou directement vers un fournisseur de transport. 
   
-Le spouleur MAPI reçoit le message si l'un des éléments suivants se produit:
+Lepooler MAPI reçoit le message si l’une des erreurs suivantes se produit :
   
-- Le fournisseur de banque de messages et le fournisseur de transport ne sont pas étroitement couplés.
+- Le fournisseur de magasins de messages et le fournisseur de transport ne sont pas étroitement associés.
     
-- Le message doit être prétraité.
+- Le message nécessite un prétraitment.
     
-- La Banque de messages et le transport étroitement couplés ne peuvent pas gérer tous les destinataires auxquels le message est adressé.
+- La boutique de messages et le transport étroitement couplés ne peuvent pas gérer tous les destinataires auxquels le message est adressé.
     
-Un magasin de messages étroitement couplé doit prendre en compte l'état d'un message avant de le présenter au spouleur MAPI afin d'être téléchargé vers un fournisseur de transport. Il existe des situations dans lesquelles un message peut sembler exiger le spouleur MAPI, mais le spouleur MAPI ne doit pas être impliqué.
+Une banque de messages étroitement couplée doit prendre en compte l’état d’un message avant de le présenter aupooler MAPI à télécharger vers un fournisseur de transport. Il existe des situations dans lesquelles un message peut sembler nécessiter lepooler MAPI, mais lepooler MAPI ne doit vraiment pas être impliqué.
   
-Par exemple, considérez la situation dans laquelle un utilisateur envoie un message à partir de la boîte de réception. Le client utilise un magasin et un transport étroitement couplés. Si la Banque de messages étroitement couplée utilise l'emplacement du message comme critère unique pour décider d'autoriser ou non le spouleur MAPI à gérer le message, le spouleur MAPI reçoit toujours le message. Pour éviter ce type de problème, un magasin de messages étroitement couplé doit vérifier l'état du message en plus de l'emplacement du message. Plus précisément, le fournisseur de transport ne doit pas demander au spouleur MAPI de télécharger les messages soumis activement.
+Par exemple, prenons la situation dans laquelle un utilisateur envoie un message à partir de la boîte de réception. Le client utilise un magasin et un transport étroitement couplés. Si la magasin de messages étroitement couplé utilise l’emplacement du message comme seul critère pour décider si lepooler MAPI peut ou non gérer le message, lepooler MAPI reçoit toujours le message. Pour éviter ce type de problème, une magasin de messages étroitement couplé doit vérifier l’état du message en plus de l’emplacement du message. Plus précisément, le fournisseur de transport ne doit pas demander aupooler MAPI de télécharger les messages soumis activement.
   
-Le processus de transmission de messages implique le fournisseur de banque de messages, un ou plusieurs fournisseurs de transport et MAPI. Les rubriques de cette section fournissent des informations détaillées sur des rôles spécifiques dans le processus de transmission des messages.
+Le processus de transmission de message implique le fournisseur de magasins de messages, un ou plusieurs fournisseurs de transport et MAPI. Les rubriques de cette section fournissent des informations détaillées sur des rôles spécifiques dans le processus de transmission de message.
   
 ## <a name="see-also"></a>Voir aussi
 

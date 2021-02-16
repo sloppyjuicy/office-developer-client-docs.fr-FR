@@ -22,7 +22,7 @@ Détermine la largeur de la page imprimée en unités de dessin.
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la largeur de la page sous l'onglet taille de la **page** de la boîte de dialogue **mise en page** (sous l'onglet **création** , cliquez sur la flèche mise en **page** ) ou en redimensionnant manuellement la page à l'aide de la souris. Pour ce faire, faites glisser le bord de la page en maintenant la touche Ctrl enfoncée. 
+Vous pouvez également définir la largeur de  page sous l’onglet  Taille de page de la boîte de dialogue Mise en page (sous l’onglet Création, cliquez sur la flèche Mise en **page)** ou en re dimensionner manuellement la page avec la souris.  Pour ce faire, faites glisser le bord de la page en maintenant la touche Ctrl enfoncée. 
   
 Pour obtenir une référence à la cellule PageWidth par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule PageWidth à l'aide d'un index à par
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPage** <br/> |
 |Index de la cellule :  <br/> |**visPageWidth** <br/> |
    

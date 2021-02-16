@@ -1,5 +1,5 @@
 ---
-title: Ouvrir toutes les feuilles ShapeSheet dans la même fenêtre
+title: Ouvrir chaque feuille ShapeSheet dans la même fenêtre
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,9 +16,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436635"
 ---
-# <a name="open-each-shapesheet-in-the-same-window"></a>Ouvrir toutes les feuilles ShapeSheet dans la même fenêtre
+# <a name="open-each-shapesheet-in-the-same-window"></a>Ouvrir chaque feuille ShapeSheet dans la même fenêtre
 
-1. Cliquez sur l'onglet **fichier** , sur **options**, puis sur **avancé**.
+1. Cliquez sur **l’onglet** Fichier, **sur Options,** puis sur **Avancé**.
     
 2. Sous **Général**, sélectionnez **Ouvrir toutes les feuilles Shapesheet dans la même fenêtre**.
     

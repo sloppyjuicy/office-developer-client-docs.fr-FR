@@ -25,30 +25,30 @@ ms.locfileid: "33435641"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d'un contact pour obtenir des informations sur un formulaire. 
+Contient le nom d’un contact pour obtenir des informations sur un formulaire. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_CONTACT_NAME, PR_FORM_CONTACT_NAME_A, PR_FORM_CONTACT_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3303  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-En règle générale, le contact contient le nom d'une personne ou d'un alias responsable de la gestion du formulaire. 
+Le contact contient généralement le nom d’une personne ou un alias responsable de la maintenance du formulaire. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

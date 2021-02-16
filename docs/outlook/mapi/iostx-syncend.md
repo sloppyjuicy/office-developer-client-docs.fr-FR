@@ -25,7 +25,7 @@ ms.locfileid: "33439575"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Termine la synchronisation à l'état actuel et quitte cet État.
+Met fin à la synchronisation dans l’état actuel et quitte cet état.
   
 ```cpp
 HRESULT SyncEnd();
@@ -33,7 +33,7 @@ HRESULT SyncEnd();
 
 ## <a name="remarks"></a>Remarques
 
-Le client doit appeler **IOSTX:: SyncEnd,** pour chaque appel à [IOSTX:: SyncBeg](iostx-syncbeg.md). La structure de données correspondante contient des informations qui indiquent si le client a réussi l'état actuel afin qu'Outlook puisse nettoyer son état interne.
+Le client doit appeler **IOSTX::SyncEnd** pour chaque appel [à IOSTX::SyncBeg](iostx-syncbeg.md). La structure de données correspondante contient des informations pour indiquer si le client a correctement terminé l’état actuel afin qu’Outlook puisse nettoyer son état interne.
   
 ## <a name="see-also"></a>Voir aussi
 

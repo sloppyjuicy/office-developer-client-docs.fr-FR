@@ -23,8 +23,8 @@ Détermine l'aspect d'un connecteur.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valeur par défaut ; utilise le paramètre de la page  <br/> |**visLORouteExtDefault** <br/> |
-| 0,1  <br/> | Tirant  <br/> |**visLORouteExtStraight** <br/> |
-| n°2  <br/> | Courbé  <br/> |**visLORouteExtNURBS** <br/> |
+| 1   <br/> | Droite  <br/> |**visLORouteExtStraight** <br/> |
+| 2   <br/> | Courbe  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule ConLineRouteExt à l'aide d'un index 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 | Index de la cellule :  <br/> |**visSLOLineRouteExt** <br/> |
    

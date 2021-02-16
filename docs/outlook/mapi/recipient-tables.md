@@ -1,5 +1,5 @@
 ---
-title: Tables de destinataires
+title: Tables des destinataires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437286"
 ---
-# <a name="recipient-tables"></a>Tables de destinataires
+# <a name="recipient-tables"></a>Tables des destinataires
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La table de destinataires contient des informations sur tous les destinataires d'un message. Les fournisseurs de banque de messages implémentent les tables de destinataires et les applications clientes les utilisent. Les clients accèdent à une table de destinataires en appelant la méthode [IMessage:: GetRecipientTable](imessage-getrecipienttable.md) ou, si le fournisseur de banque de messages le prend en charge, à la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) . Les clients accèdent aux tables de destinataires avec **OpenProperty** en spécifiant **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) pour la balise de propriété et IID_IMAPITable pour l'identificateur d'interface. Les modifications apportées à une table de destinataires peuvent être effectuées en appelant la méthode [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . 
+La table des destinataires contient des informations sur tous les destinataires d’un message. Les fournisseurs de magasins de messages implémentent les tables des destinataires et les applications clientes les utilisent. Les clients accèdent à une table des destinataires en appelant la méthode [IMessage::GetRecipientTable,](imessage-getrecipienttable.md) ou si le fournisseur de magasin de messages la prend en charge, à la méthode [IMAPIProp::OpenProperty.](imapiprop-openproperty.md) Clients access recipient tables with **OpenProperty** by specifying **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) for the property tag and IID_IMAPITable for the interface identifier. Les modifications apportées à une table des destinataires peuvent être apportées en appelant la méthode [IMessage::ModifyRecipients.](imessage-modifyrecipients.md) 
   
-Les tables de destinataires ont un jeu de colonnes différent selon que le message a été envoyé ou non. Les propriétés suivantes constituent le jeu de colonnes obligatoire dans les tables de destinataires:
+Les tables des destinataires ont un ensemble de colonnes différent selon que le message a été envoyé ou non. Les propriétés suivantes définissent la colonne requise dans les tables des destinataires :
   
 - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
@@ -31,7 +31,7 @@ Les tables de destinataires ont un jeu de colonnes différent selon que le messa
     
 - **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md))
     
-Les propriétés facultatives sont les suivantes:
+Les propriétés facultatives sont :
   
 - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
@@ -41,15 +41,15 @@ Les propriétés facultatives sont les suivantes:
     
 - **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))
     
-Les messages envoyés doivent inclure ces propriétés supplémentaires dans leur jeu de colonnes obligatoire:
+Les messages envoyés doivent inclure ces propriétés supplémentaires dans l’ensemble de colonnes requis :
   
 - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
 - **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md))
     
-En fonction de l'implémentation d'un fournisseur, des colonnes supplémentaires, telles que **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) et [EntryID](entryid.md), peuvent se trouver dans le tableau.
+Selon l’implémentation d’un fournisseur, des colonnes supplémentaires, telles que **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) et [ENTRYID](entryid.md), peuvent être dans le tableau.
   
-Tout fournisseur de banque de messages qui prend en charge la transmission des messages, comme indiqué par le bit STORE_SUBMIT_OK défini dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) du fournisseur, doit proposer une prise en charge pour un ensemble particulier de restrictions dans l'implémentation d'une table de destinataires. Les restrictions **and**, **or**, EXISTS et Property figurent parmi les types de restrictions qui doivent être disponibles pour les utilisateurs de la table de destinataires. Seuls les opérateurs égales et non égales doivent être pris en charge sur la restriction de propriété. Ces restrictions doivent fonctionner avec les propriétés suivantes:
+Tout fournisseur de magasins de messages qui prend en charge la transmission de messages, comme indiqué par le bit STORE_SUBMIT_OK en cours de paralocalisation dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)du fournisseur, doit prendre en charge un ensemble particulier de restrictions dans l’implémentation d’une table des destinataires. Les restrictions **and**, **OR**, existent et les restrictions de propriété font partie des types de restrictions qui doivent être disponibles pour les utilisateurs de la table des destinataires. Seuls les opérateurs égal et non égal doivent être pris en charge dans la restriction de propriété. Ces restrictions doivent fonctionner avec les propriétés suivantes :
   
 - **PR_ADDRTYPE**
     
@@ -65,5 +65,5 @@ Tout fournisseur de banque de messages qui prend en charge la transmission des m
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

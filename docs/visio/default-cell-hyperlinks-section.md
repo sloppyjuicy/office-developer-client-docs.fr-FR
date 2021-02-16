@@ -28,14 +28,14 @@ Pour obtenir une référence à la cellule Default par un nom à partir d'une au
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Lien hypertexte. *Nom* . Valeur par défaut où hyperLink. *Name* est le nom de la ligne  <br/> |
+|Nom de cellule :  <br/> |Lien hypertexte. *Nom*  . Par défaut où Lien hypertexte. *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule Default à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionHyperlink** <br/> |
-|Index de la ligne :  <br/> |**visRow1stHyperlink** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRow1stHyperlink**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visHLinkDefault** <br/> |
    
 

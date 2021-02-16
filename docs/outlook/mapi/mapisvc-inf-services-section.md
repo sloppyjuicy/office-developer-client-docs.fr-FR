@@ -1,5 +1,5 @@
 ---
-title: Section [services] MapiSvc. inf
+title: MapiSvc.inf [Services] Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434780"
 ---
-# <a name="mapisvcinf-services-section"></a>Section [services] MapiSvc. inf
+# <a name="mapisvcinf-services-section"></a>MapiSvc.inf [Services] Section
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[services]** répertorie les services de messagerie installés sur un ordinateur. Les entrées de cette section utilisent le format suivant: 
+La section **[Services]** répertorie les services de message installés sur un ordinateur. Les entrées de cette section utilisent le format suivant : 
   
- **Services**
+ **[Services]**
   
- _message-nom_ =  de la section du service de_messagerie nom du service_
+ _nom de la section_  =   message-service _nom du service de message_
   
-Le nom de section du service de message est une chaîne définie par le service de messagerie qui lie cette entrée à une section correspondante pour le service ailleurs dans MAPISVC. inf. Le nom du service de messagerie est le nom du service installé. La section suivante présente trois services de messagerie: le carnet d'adresses par défaut, mon propre service et le service de banque de messages. Ces services sont fictifs, à des fins d'illustration uniquement. Chaque implémenteur de service de messagerie substitue l'entrée appropriée pour son service de messagerie dans cette section.
+Le nom de la section de service de message est une chaîne définie par le service de message qui lie cette entrée à une section correspondante pour le service ailleurs dans mapisvc.inf. Le nom du service de message est le nom du service installé. La section suivante présente trois services de message : le carnet d’adresses par défaut, mon propre service et le service de magasin de messages. Ces services sont fictifs, à des fins d’illustration uniquement. Chaque implémenteur de service de message remplacerait l’entrée appropriée pour son service de message dans cette section.
   
 ```cpp
 [Services]
@@ -37,6 +37,6 @@ MS=Message Store Service
 
 ```
 
-Chaque entrée de cette section a une section correspondante de son propre emplacement de stockage des informations sur le service de messagerie. Par exemple, la section correspondante pour le carnet d'adresses par défaut est appelée [AB].
+Chaque entrée de cette section possède une section correspondante dans laquelle les informations du service de message sont stockées. Par exemple, la section correspondante du carnet d’adresses par défaut est appelée [AB].
   
 

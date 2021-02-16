@@ -25,7 +25,7 @@ ms.locfileid: "33436152"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Annule une inscription aux notifications précédemment établie pour une entrée de carnet d'adresses.
+Annule l’inscription d’une notification précédemment établie pour une entrée de carnet d’adresses.
   
 ```cpp
 HRESULT Unadvise(
@@ -37,17 +37,17 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> dans Numéro de connexion qui représente l'inscription à annuler. Le paramètre _ulConnection_ doit contenir une valeur renvoyée par un appel antérieur à la méthode [IAddrBook:: Advise](iaddrbook-advise.md) . 
+> [in] Numéro de connexion qui représente l’inscription à annuler. Le _paramètre ulConnection_ doit contenir une valeur renvoyée par un appel préalable à la [méthode IAddrBook::Advise.](iaddrbook-advise.md) 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'inscription a été annulée.
+> L’inscription a été annulée.
     
 ## <a name="remarks"></a>Remarques
 
-Les clients appellent **** la méthode Unadvise pour cesser de recevoir des notifications sur les modifications apportées à une entrée de carnet d'adresses particulière. Lorsqu'une inscription aux notifications est annulée, le fournisseur de carnet d'adresses libère son pointeur vers le récepteur de notifications de l'appelant. Toutefois, la publication peut se produire pendant **** l'appel Unadvise ou ultérieurement, si un autre thread appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) . Lorsqu'une notification est en cours, la publication est retardée jusqu'à ce que la méthode **OnNotify** renvoie. 
+Les clients appellent **la méthode Unadvise** pour arrêter de recevoir des notifications concernant les modifications apportées à une entrée de carnet d’adresses particulière. Lorsqu’une inscription de notification est annulée, le fournisseur de carnet d’adresses relâche son pointeur vers le sink de notification de l’appelant. Toutefois, la publication peut se produire pendant l’appel **Unadvise** ou à un moment ultérieur, si un autre thread est en cours d’appel de la méthode [IMAPIAdviseSink::OnNotify.](imapiadvisesink-onnotify.md) Lorsqu’une notification est en cours, la publication est retardée jusqu’au retour de la méthode **OnNotify.** 
   
 ## <a name="see-also"></a>Voir aussi
 

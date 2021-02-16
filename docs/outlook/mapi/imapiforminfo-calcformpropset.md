@@ -25,7 +25,7 @@ ms.locfileid: "33438070"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un pointeur vers l'ensemble complet des propriétés utilisées par un formulaire.
+Renvoie un pointeur vers l’ensemble complet des propriétés qu’un formulaire utilise.
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -38,15 +38,15 @@ HRESULT CalcFormPropSet(
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le type de chaînes renvoyées. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le type de chaînes renvoyées. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les chaînes renvoyées sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
+> Les chaînes renvoyées sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
  _ppFormPropArray_
   
-> remarquer Pointeur vers un pointeur vers la structure [SMAPIFormPropArray](smapiformproparray.md) renvoyée. 
+> [out] Pointeur vers un pointeur vers la structure [SMAPIFormPropArray](smapiformproparray.md) renvoyée. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -56,7 +56,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L'indicateur MAPI_UNICODE a été défini et l'implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et l'implémentation prend en charge uniquement Unicode.
+> L’indicateur MAPI_UNICODE a été définie et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et l’implémentation prend uniquement en charge Unicode.
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -64,7 +64,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MFCOutput. cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI utilise la méthode **IMAPIFormInfo:: CalcFormPropSet** lors de l'écriture de la sortie de débogage pour les objets d'informations de formulaire.  <br/> |
+|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI utilise la méthode **IMAPIFormInfo::CalcFormPropSet** lors de l’écriture de la sortie de débogage pour les objets d’informations de formulaire.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

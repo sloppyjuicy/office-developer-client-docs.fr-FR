@@ -18,7 +18,7 @@ ms.locfileid: "33438091"
 ---
 # <a name="resizepage-cell-page-layout-section"></a>ResizePage, cellule (section Page Layout)
 
-Détermine si la page doit être agrandie pour encadrer le dessin après la disposition des formes à l'aide de la boîte de dialogue **configurer la disposition** (sous l'onglet **création** , dans le groupe **disposition** , cliquez sur **nouvelle disposition** de page, puis cliquez sur **autres dispositions Options**).
+Détermine s’il faut agrandir la page pour entourer le  dessin après la disposition  des formes  à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition **de** page, puis cliquez sur Autres **options** de disposition).
   
 |**Valeur**|**Description**|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Pour obtenir une référence à la cellule ResizePage à l'aide d'un index à pa
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 | Index de la cellule :  <br/> |**visPLOResizePage** <br/> |
    

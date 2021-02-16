@@ -23,7 +23,7 @@ ms.locfileid: "33435627"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si le message d'origine est renvoyé avec un rapport non lu.
+Contient TRUE si le message d’origine est renvoyé avec un rapport non lu.
   
 |||
 |:-----|:-----|
@@ -34,19 +34,19 @@ Contient la valeur TRUE si le message d'origine est renvoyé avec un rapport non
    
 ## <a name="remarks"></a>Remarques
 
-Un fournisseur de transport X. 400 définit cette propriété dans le rapport non lu.
+Un fournisseur de transport X.400 définit cette propriété dans le rapport non lu.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -23,7 +23,7 @@ ms.locfileid: "33435935"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Envoie une notification d'un événement spécifié à une source de notification qui a été initialement inscrite pour la notification par le biais de la méthode [IMAPISupport:: subscribe](imapisupport-subscribe.md) . 
+Envoie une notification d’un événement spécifié à une source de conseil qui s’est inscrite à l’origine pour la notification via la méthode [IMAPISupport::Subscribe.](imapisupport-subscribe.md) 
   
 ```cpp
 HRESULT Notify(
@@ -38,25 +38,25 @@ ULONG FAR * lpulFlags
 
 _lpKey_
   
-> dans Pointeur vers la clé de notification pour l'objet de source Advise. Le paramètre _lpKey_ ne peut pas être null. 
+> [in] Pointeur vers la clé de notification pour l’objet source de notification. Le  _paramètre lpKey_ ne peut pas être NULL. 
     
 _cNotification_
   
-> dans Nombre de structures de notification pointées par le paramètre _lpNotifications_ . 
+> [in] Nombre de structures de notifications pointées par _le paramètre lpNotifications._ 
     
 _lpNotifications_
   
-> dans Pointeur vers un tableau de structures de [notification](notification.md) qui décrivent des notifications en attente. 
+> [in] Pointeur vers un tableau de structures [de NOTIFICATION](notification.md) qui décrivent les notifications en attente. 
     
 _lpulFlags_
   
-> [in, out] Masque de des indicateurs qui contrôle le processus de notification. Lors de l'entrée, l'indicateur suivant peut être défini:
+> [in, out] Masque de bits d’indicateurs qui contrôle le processus de notification. Lors de l’entrée, l’indicateur suivant peut être définie :
     
   - MAPI_UNICODE 
     
-    > Les chaînes dans les structures de notification pointées par _lpNotifications_ sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI. 
+    > Les chaînes dans les structures de notification pointées par  _lpNotifications_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
 
-    Lors de la sortie, MAPI peut définir l'indicateur suivant:
+    Lors de la sortie, MAPI peut définir l’indicateur suivant :
         
   - NOTIFY_CANCELED 
     
@@ -70,23 +70,23 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: Notify** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services appellent **Notify** pour demander à ce qu'MAPI génère une notification pour un récepteur de notifications qui a déjà été inscrit pour la notification via la méthode **IMAPISupport:: subscribe** . 
+La **méthode IMAPISupport::Notify** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services appellent **Notify** pour demander à MAPI de générer une notification pour un recevoir de notification qui s’est précédemment inscrit pour la notification via la méthode **IMAPISupport::Subscribe.** 
   
-**Notify** copie les structures pointées par le paramètre _lpNotifications_ en mémoire et appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) du récepteur approprié. Lorsque **OnNotify** est terminé avec la notification, il libère la mémoire concernée. L'appelant n'a pas besoin d'allouer de la mémoire; MAPI effectue toute l'allocation de mémoire nécessaire. 
+**Notify** copie les structures pointées vers le paramètre  _lpNotifications_ dans la mémoire et appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) du sink de notification approprié. Une fois la notification terminée, **OnNotify** libère la mémoire impliquée. L’appelant n’a pas besoin d’allouer de mémoire . MAPI effectue toutes les allocations de mémoire nécessaires. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La clé de notification passée dans le paramètre _lpKey_ doit être identique à la clé passée dans _lpKey_ à la méthode **IMAPISupport:: subscribe** . De nombreux fournisseurs utilisent l'identificateur d'entrée de la source de notification comme clé, mais d'autres données, telles qu'un chemin d'accès de fichier, peuvent être utilisées. MAPI utilise cette clé pour rechercher toutes les inscriptions des notifications sur la source de notification identifiée. 
+La clé de notification transmise dans le paramètre _lpKey_ doit être identique à la clé transmise dans _lpKey_ à la méthode **IMAPISupport::Subscribe.** De nombreux fournisseurs utilisent l’identificateur d’entrée de la source de conseil comme clé, mais d’autres données, telles qu’un chemin d’accès au fichier, peuvent être utilisées. MAPI utilise cette clé pour rechercher toutes les inscriptions pour les notifications sur la source de notification identifiée. 
   
-Veillez à définir le membre **lpEntryID** de la structure de notification sur un identificateur d'entrée à long terme. 
+Assurez-vous de définir le membre **lpEntryID** de la structure de notification sur un identificateur d’entrée à long terme. 
   
-Si vous définissez l'indicateur NOTIFY_SYNC sur l'appel **subscribe** pour l'une des notifications en attente, **Notify** appelle les fonctions de rappel de méthode **IMAPIAdviseSink:: OnNotify** avant de renvoyer. Un récepteur de notifications peut être créé manuellement ou en appelant [HrAllocAdviseSink](hrallocadvisesink.md). La fonction **HrAllocAdviseSink** permet à son appelant de spécifier une fonction de rappel qui **avertit** les appels dans le cadre de la notification. La fonction de rappel est conforme au prototype [NOTIFCALLBACK](notifcallback.md) . Les fonctions de rappel implémentées par les clients renvoient toujours S_OK; les fonctions de rappel implémentées par les fournisseurs de services peuvent renvoyer CALLBACK_DISCONTINUE. 
+Si vous définissez l’indicateur  NOTIFY_SYNC sur l’appel d’abonnement pour l’une des notifications en attente, **Notify** appelle les fonctions de rappel de méthode **IMAPIAdviseSink::OnNotify** avant de renvoyer. Un sink de conseil peut être créé manuellement ou en appelant [HrAllocAdviseSink](hrallocadvisesink.md). La **fonction HrAllocAdviseSink** permet à son appelant de  spécifier une fonction de rappel qui notifie les appels dans le cadre de la notification. La fonction de rappel est conforme au prototype [NOTIFCALLBACK.](notifcallback.md) Les fonctions de rappel implémentées par les clients retournent toujours S_OK ; les fonctions de rappel implémentées par les fournisseurs de services peuvent renvoyer CALLBACK_DISCONTINUE. 
   
-Si une fonction de rappel renvoie CALLBACK_DISCONTINUE, MAPI cesse d'envoyer des notifications et renvoie NOTIFY_CANCELED dans le paramètre _lpulFlags_ de la méthode **Notify** . Vous pouvez supposer que le processus est inactif et arrêter la génération de notifications pour ce processus. Si **Notify** renvoie 0 dans _lpulFlags_, le processus est toujours actif et vous devez continuer à envoyer des notifications, selon le cas.
+Si une fonction de rappel renvoie CALLBACK_DISCONTINUE, MAPI cesse d’envoyer des notifications et renvoie NOTIFY_CANCELED dans le paramètre _lpulFlags_ de la méthode **Notify.** Vous pouvez supposer que le processus est inactif et arrêter de générer des notifications pour ce processus. Si **Notify** renvoie 0 dans  _lpulFlags,_ le processus est toujours actif et vous devez continuer à envoyer des notifications, le cas échéant.
   
-Lorsque vous utilisez des notifications synchrones, veillez à éviter les situations de blocage.
+Lorsque vous utilisez des notifications synchrones, évitez les blocages.
   
-Pour plus d'informations sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md). 
+Pour plus d’informations sur le processus de notification, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

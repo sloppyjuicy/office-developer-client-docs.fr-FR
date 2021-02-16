@@ -25,19 +25,19 @@ ms.locfileid: "33436649"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d'accéder à la session MAPI actuelle associée à l'objet support. Les fournisseurs MAPI peuvent interroger leur objet de prise en charge MAPI pour cette interface. Pour plus d'informations sur les objets de prise en charge, voir [support Object Overview](support-object-overview.md).
+Permet d’accéder à la session MAPI actuelle associée à l’objet de support. Les fournisseurs MAPI peuvent interroger leur objet de support MAPI pour cette interface. Pour plus d’informations sur les objets de prise en charge, voir [Vue d’ensemble de l’objet support.](support-object-overview.md)
   
 |||
 |:-----|:-----|
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Fournisseurs MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIGetSession  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIGetSession  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Appelé pour obtenir un pointeur vers la session MAPI actuelle.  <br/> |
+|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Appelé pour obtenir un pointeur vers la session MAPI en cours.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -50,5 +50,5 @@ Permet d'accéder à la session MAPI actuelle associée à l'objet support. Les 
 
 [Interfaces MAPI](mapi-interfaces.md)
   
-[Vue d'ensemble de l'objet support](support-object-overview.md)
+[Vue d’ensemble de l’objet support](support-object-overview.md)
 

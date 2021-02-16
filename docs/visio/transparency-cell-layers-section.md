@@ -32,14 +32,14 @@ Pour obtenir une référence à la cellule Transparency par un nom dans une autr
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers. ColorTrans [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Layers.ColorTrans[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Transparency par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowLayer**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visLayerColorTrans** <br/> |
    
 

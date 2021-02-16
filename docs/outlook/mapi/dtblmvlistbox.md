@@ -25,11 +25,11 @@ ms.locfileid: "33439701"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une liste à plusieurs valeurs qui s'affiche dans une boîte de dialogue créée à partir d'une table d'affichage.
+Décrit une liste à valeurs multiples qui sera affichée dans une boîte de dialogue qui est conçue à partir d’un tableau d’affichage.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVLISTBOX
@@ -44,7 +44,7 @@ typedef struct _DTBLMVLISTBOX
 
  **ulFlags**
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
  **ulMVPropTag**
   
@@ -52,13 +52,13 @@ typedef struct _DTBLMVLISTBOX
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLMVLISTBOX** décrit une liste à plusieurs valeurs standard qui contient une liste d'éléments en lecture seule. À l'aide d'une liste à plusieurs valeurs standard, les valeurs s'affichent immédiatement. 
+Une structure **DTBLMVLISTBOX** décrit une liste à valeurs multiples standard avec une liste d’éléments en lecture seule. À l’aide d’une liste à valeurs multiples standard, les valeurs sont affichées immédiatement. 
   
-Les données affichées proviennent de la propriété identifiée dans le membre **ulMVPropTag** . Il n'existe aucun besoin de lire à partir de l'interface de propriétés associée à la table d'affichage. En outre, étant donné que les utilisateurs ne peuvent pas effectuer des sélections à partir de ces types de listes, les données ne sont pas écrites dans l'interface de propriété. 
+Les données affichées proviennent de la propriété identifiée dans le **membre ulMVPropTag.** Il n’est pas nécessaire de lire l’interface de propriétés associée au tableau d’affichage. En outre, étant donné que les utilisateurs ne sont pas en mesure d’effectuer des sélections à partir de ces types de listes, les données ne sont pas écrites dans l’interface des propriétés. 
   
-Seules les propriétés de chaîne à valeurs multiples sont prises en charge pour la liste à valeurs multiples; les autres types de propriétés à valeurs multiples ne sont pas pris en charge. 
+Seules les propriétés de chaîne à valeurs multiples sont pris en charge pour la liste à valeurs multiples ; les autres types de propriétés à valeurs multiples ne sont pas pris en charge. 
   
-Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
+Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

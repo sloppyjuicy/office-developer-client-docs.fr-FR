@@ -25,11 +25,11 @@ ms.locfileid: "33435221"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recherche la première occurrence d'une sous-chaîne terminée par un caractère NULL dans une chaîne terminée par un caractère null. 
+Recherche la première occurrence d’une sous-chaîne terminée par null dans une chaîne terminée par null. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -44,18 +44,18 @@ LPSTR SzFindCh(
 
  _lpsz_
   
-> dans Pointeur vers la chaîne terminée par un caractère null à rechercher. Le paramètre _lpsz_ ne doit pas dépasser 65536 caractères. 
+> [in] Pointeur vers la chaîne terminée par null à rechercher. Le  _paramètre lpsz_ ne doit pas dépasser 65 536 caractères. 
     
  _lpszKey_
   
-> dans Pointeur vers la sous-chaîne terminée par un caractère null à rechercher. Le paramètre _lpszKey_ ne doit pas dépasser 65536 caractères. 
+> [in] Pointeur vers la sous-stration terminée par null à rechercher. Le  _paramètre lpszKey_ ne doit pas dépasser 65 536 caractères. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
- **SzFindSz** renvoie un pointeur vers le premier caractère de la première occurrence de la sous-chaîne dans la chaîne. Si la sous-chaîne ne se produit nulle part dans la chaîne, si _lpszKey_ est supérieur à _lpsz_, ou si l'un des paramètres est NULL, la valeur null est renvoyée. 
+ **SzFindSz** renvoie un pointeur vers le premier caractère de la première occurrence de la sous-chaîne dans la chaîne. Si la sous-chaîne ne se produit pas dans la chaîne, si  _lpszKey_ est supérieur à  _lpsz_ ou si l’un des paramètres est NULL, une valeur NULL est renvoyée. 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **SzFindSz** recherche une correspondance exacte uniquement; elle est sensible à la casse et aux différences diacritiques. Les recherches dans les formats Unicode et DBCS sont prises en charge. La limite de longueur sur les deux paramètres est exprimée en caractères, pas nécessairement en octets. 
+La **fonction SzFindSz** recherche uniquement une correspondance exacte . il est sensible aux différences diacritiques et de cas. Les recherches au format Unicode et DBCS sont pris en charge. La limite de longueur pour les deux paramètres est en caractères, pas nécessairement en octets. 
   
 

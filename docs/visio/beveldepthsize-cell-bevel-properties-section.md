@@ -20,17 +20,17 @@ Détermine la taille de la profondeur du biseau en points.
   
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **BevelDepthSize** par un nom à partir d'une autre formule, par valeur de l'attribut **N** d'un élément de **cellule** ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
+Pour obtenir une référence à la cellule **BevelDepthSize** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de cellule :  <br/> | BevelDepthSize  <br/> |
    
-Pour obtenir une référence à la cellule **BevelDepthSize** à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants: 
+Pour obtenir une référence à la cellule **BevelDepthSize** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowBevelProperties** <br/> |
 | Index de la cellule :  <br/> |**visBevelDepthSize** <br/> |
    

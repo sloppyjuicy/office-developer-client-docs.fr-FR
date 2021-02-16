@@ -29,7 +29,7 @@ Contient un tableau de valeurs binaires.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SBinaryArray
@@ -44,7 +44,7 @@ typedef struct _SBinaryArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpbin** . 
+> Nombre de valeurs dans le tableau pointées par **le membre lpbin.** 
     
  **lpbin**
   
@@ -52,9 +52,9 @@ typedef struct _SBinaryArray
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SBinaryArray** est utilisée pour décrire les propriétés de type PT_MV_BINARY. 
+La structure **SBinaryArray est** utilisée pour décrire les propriétés de type PT_MV_BINARY. 
   
-Pour plus d'informations sur PT_MV_BINARY, consultez la rubrique [liste des types de propriétés](property-types.md).
+Pour plus d’informations sur PT_MV_BINARY, voir [Liste des types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

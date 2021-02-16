@@ -1,5 +1,5 @@
 ---
-title: Synchroniser l'état du contenu
+title: Synchroniser l’état du contenu
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,35 +13,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438469"
 ---
-# <a name="synchronize-contents-state"></a>Synchroniser l'état du contenu
+# <a name="synchronize-contents-state"></a>Synchroniser l’état du contenu
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se passe lors de l'État synchroniser le contenu de la machine à États de réplication. 
+ Cette rubrique décrit ce qui se produit lors de la synchronisation de l’état du contenu de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d'État:  <br/> |**LR_SYNC_CONTENTS** <br/> |
-|Structure de données associée:  <br/> |**[SYNCCONT](synccont.md)** <br/> |
-|À partir de cet État:  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
-|À cet État:  <br/> |[Télécharger](download-table-state.md)l'état de la table, charger l'état de la [table](upload-table-state.md)ou synchroniser l'État  <br/> |
+|Identificateur d’état :  <br/> |**LR_SYNC_CONTENTS** <br/> |
+|Structure de données associée :  <br/> |**[SYNCCONT](synccont.md)** <br/> |
+|À partir de cet état :  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
+|À cet état :  <br/> |[Télécharger l’état de la table,](download-table-state.md) [télécharger l’état de la table](upload-table-state.md)ou synchroniser l’état  <br/> |
    
 > [!NOTE]
-> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
+> La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
   
 ## <a name="description"></a>Description
 
-Cet État lance l'un des deux processus de réplication suivants: le téléchargement du contenu de dossiers spécifiés dans un magasin local ou une synchronisation complète. Dans une synchronisation complète, le contenu des dossiers spécifiés est chargé en premier, puis téléchargé. Selon le *ulFlags* défini dans la structure de **[synchronisation](sync.md)** correspondante dans l'état de synchronisation précédent, Outlook initialise les membres [out] dans la structure **SYNCCONT** pour fournir des informations sur le contenu. 
+Cet état initie l’un des deux processus de réplication : le téléchargement du contenu des dossiers spécifiés sur un magasin local ou une synchronisation complète. Dans une synchronisation complète, pour chacun des dossiers spécifiés, le contenu est d’abord chargé, puis téléchargé. Selon les  *ulFlags définies*  dans la structure **[SYNC](sync.md)** correspondante dans l’état de synchronisation précédent, Outlook initialise les membres [out] dans la structure **SYNCCONT** pour fournir des informations sur le contenu. 
   
-Par le biais de la même structure **SYNCCONT** , le client obtient le nombre de dossiers dont le contenu doit être chargé ou téléchargé. Le client parcourt chacun de ces dossiers en déplacant le magasin local vers l'état de la table de chargement pour télécharger un dossier ou en déplacant le magasin local vers l'état de téléchargement de la table pour télécharger le dossier. 
+Par le biais de la même structure **SYNCCONT,** le client obtient le nombre de dossiers dont le contenu doit être téléchargé ou téléchargé. Le client parse en boucle dans chacun de ces dossiers en déplaçant la boutique locale vers l’état de la table de téléchargement pour télécharger un dossier, ou en déplaçant la boutique locale vers l’état de la table de téléchargement pour télécharger le dossier. 
   
-En outre, le client obtient des ID d'entrée pour les dossiers qui nécessitent une réplication.
+En outre, le client obtient les ID d’entrée pour les dossiers nécessitant une réplication.
   
-Lorsque cet État prend fin, Outlook nettoie ses informations internes. Le magasin local revient à l'État Synchronize.
+Lorsque cet état se termine, Outlook nettoie ses informations internes. Le magasin local revient à l’état de synchronisation.
   
 ## <a name="see-also"></a>Voir aussi
 

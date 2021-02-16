@@ -1,11 +1,11 @@
 ---
-title: Fonctions XLM essentielles et utiles de l'API C
+title: Fonctions XLM d’API C essentielles et utiles
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- fonctions [Excel 2007], c API XLM
+- functions [excel 2007], c api xlm
 localization_priority: Normal
 ms.assetid: dc80cb3d-0d7e-4cb9-9870-3acc84eeca82
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -16,15 +16,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434514"
 ---
-# <a name="essential-and-useful-c-api-xlm-functions"></a>Fonctions XLM essentielles et utiles de l'API C
+# <a name="essential-and-useful-c-api-xlm-functions"></a>Fonctions XLM de l’API C essentielles et utiles
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Les fonctions décrites dans cette section sont des fonctions de rappel Microsoft Excel qui sont particulièrement utiles pour les développeurs DLL et XLL. La fonction **xlfRegister** est, quant à elle, essentielle pour les XLL et les dll qui souhaitent enregistrer leurs fonctions et leurs commandes de sorte qu'elles puissent être appelées directement à partir d'Excel. Les fonctions **xlfUnregister** et **xlfSetName** sont utilisées conjointement pour annuler l'inscription des fonctions et commandes de dll et XLL. 
+Les fonctions décrites dans cette section sont des fonctions de rappel Microsoft Excel particulièrement utiles pour les développeurs DLL et XLL. Parmi celles-ci, la fonction **xlfRegister** est essentielle pour les XL et les DLL qui souhaitent inscrire leurs fonctions et commandes afin qu’elles soient appelées directement à partir d’Excel. Les fonctions **xlfUnregister** et **xlfSetName** sont utilisées en combinaison pour désinsser les fonctions et commandes DLL et XLL. 
   
-De nombreuses fonctions supplémentaires sont exposées par Excel via l'API C, qui sont utiles lorsque vous développez des XLL. Elles correspondent aux fonctions et fonctions de feuille de calcul Excel qui sont disponibles à partir de feuilles macro XLM.
+De nombreuses autres fonctions sont exposées par Excel via l’API C qui sont utiles lorsque vous développez des XL. Ils correspondent aux fonctions de feuille de calcul Excel, aux fonctions et commandes disponibles dans les feuilles macro XLM.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 [xlfCaller](xlfcaller.md)
   

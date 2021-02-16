@@ -25,21 +25,21 @@ ms.locfileid: "33439330"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime les dossiers de contacts du carnet d'adresses Microsoft Outlook 2010 et Microsoft Outlook 2013.
+Supprime les dossiers de contacts du carnet d’adresses Microsoft Outlook 2010 et Microsoft Outlook 2013.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |cabadmin. h  <br/> |
-|Exposé par:  <br/> ||
+|Fichier d’en-tête :  <br/> |caminemin.h  <br/> |
+|Exposé par :  <br/> ||
 |Implémenté par :  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |Appelé par :  <br/> |CRM  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IContabAdmin  <br/> |
-|Type de pointeur:  <br/> ||
+|Identificateur d’interface :  <br/> |IID_IContabAdmin  <br/> |
+|Type de pointeur :  <br/> ||
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Supprime le carnet d'adresses des contacts spécifié par l'ID d'entrée donné de la hiérarchie de carnet d'adresses.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Supprime le carnet d’adresses de contact spécifié par l’ID d’entrée donné de la hiérarchie du carnet d’adresses.  <br/> |
    
 

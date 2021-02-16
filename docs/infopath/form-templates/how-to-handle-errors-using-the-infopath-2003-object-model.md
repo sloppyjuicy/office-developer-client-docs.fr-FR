@@ -1,5 +1,5 @@
 ---
-title: Gérer les erreurs à l'aide du modèle objet InfoPath 2003
+title: Gérer les erreurs à l’aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439477"
 ---
-# <a name="handle-errors-using-the-infopath-2003-object-model"></a>Gérer les erreurs à l'aide du modèle objet InfoPath 2003
+# <a name="handle-errors-using-the-infopath-2003-object-model"></a>Gérer les erreurs à l’aide du modèle objet InfoPath 2003
 
 Lors de la création d'applications personnalisées, les développeurs doivent mettre en place une gestion des erreurs impliquant l'écriture de code de programmation qui leur permette de déceler les erreurs générées par l'application ou de créer et de générer des erreurs personnalisées. Le modèle objet compatible avec InfoPath 2003 prend en charge la gestion des erreurs à travers l'utilisation de l'objet [ErrorObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorObject.aspx) en association avec la collection [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) . 
   
@@ -25,11 +25,11 @@ Dans InfoPath, une erreur se produit lorsque des données entrées dans un formu
 
 La collection **ErrorsCollection** fournit aux développeurs les méthodes et les propriétés suivantes pour gérer les objets **ErrorObject** que contient la collection. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |Méthode[Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx)  <br/> |Crée un objet **ErrorObject** et l'ajoute à la collection.  <br/> |
 |Méthode [Delete](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Delete.aspx)  <br/> |Supprime tous les objets **ErrorObject** associés au nœud XML et au nom de la condition spécifiés, sauf pour les erreurs personnalisées ajoutées à l'aide de la méthode **ReportError**.  <br/> |
-|[DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.DeleteAll.aspx) , méthode  <br/> |Supprime tous les objets **ErrorObject** contenus dans la collection.  <br/> |
+|[DeleteAll,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.DeleteAll.aspx) méthode  <br/> |Supprime tous les objets **ErrorObject** contenus dans la collection.  <br/> |
 |Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Count.aspx)  <br/> |Récupère le nombre d'objets **ErrorObject** contenus dans la collection.  <br/> |
 |Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Item.aspx)  <br/> |Récupère une référence à un objet **ErrorObject** en fonction du numéro d'index spécifié.  <br/> |
    
@@ -37,14 +37,14 @@ La collection **ErrorsCollection** fournit aux développeurs les méthodes et le
 
 L'objet **ErrorObject** fournit les propriétés suivantes, que les développeurs de formulaires peuvent utiliser pour accéder aux informations relatives à l'erreur qui vient de se produire. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|Propriété [ConditionName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ConditionName.aspx)  <br/> |Récupère le nom de l'erreur ou renvoie **null**, en fonction du type de l'objet **ErrorObject**.  <br/> |
-|[DetailedErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.DetailedErrorMessage.aspx) , propriété  <br/> |Récupère ou définit le message d'erreur détaillé de l'objet **ErrorObject**.  <br/> |
-|[ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorCode.aspx) , propriété  <br/> |Récupère ou définit le code d'erreur de l'objet **ErrorObject**.  <br/> |
-|[Node](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.Node.aspx) , propriété  <br/> |Récupère une référence au nœud XML associé à l'objet **ErrorObject**.  <br/> |
-|[ShortErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ShortErrorMessage.aspx) , propriété  <br/> |Récupère ou définit le message d'erreur court de l'objet **ErrorObject**.  <br/> |
-|[ErrorType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorType.aspx) , propriété  <br/> |Récupère le type de l'objet **ErrorObject**.  <br/> |
+|[ConditionName,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ConditionName.aspx) propriété  <br/> |Récupère le nom de l'erreur ou renvoie **null**, en fonction du type de l'objet **ErrorObject**.  <br/> |
+|[Propriété DetailedErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.DetailedErrorMessage.aspx)  <br/> |Récupère ou définit le message d'erreur détaillé de l'objet **ErrorObject**.  <br/> |
+|[ErrorCode,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorCode.aspx) propriété  <br/> |Récupère ou définit le code d'erreur de l'objet **ErrorObject**.  <br/> |
+|[Node,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.Node.aspx) propriété  <br/> |Récupère une référence au nœud XML associé à l'objet **ErrorObject**.  <br/> |
+|[Propriété ShortErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ShortErrorMessage.aspx)  <br/> |Récupère ou définit le message d'erreur court de l'objet **ErrorObject**.  <br/> |
+|[ErrorType,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorType.aspx) propriété  <br/> |Récupère le type de l'objet **ErrorObject**.  <br/> |
    
 ## <a name="using-the-errorscollection-and-errorobject"></a>Utilisation de ErrorsCollection et ErrorObject
 

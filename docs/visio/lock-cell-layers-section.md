@@ -33,14 +33,14 @@ Pour obtenir une référence à la cellule Lock par un nom à partir d'une autre
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers. Locked [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Layers.Locked[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Lock à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowLayer**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visLayerLock** <br/> |
    
 

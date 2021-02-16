@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251468
 localization_priority: Normal
 ms.assetid: 14268877-d791-91d1-cff6-657c01e63e0f
-description: "Renvoie la valeur d'erreur #NA!."
+description: 'Renvoie la valeur d’erreur #NA!.'
 ms.openlocfilehash: 25e7f8450b2aa379629f55e59d53e93c5f29bb51
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33436061"
 ---
 # <a name="na-function"></a>Fonction NA
 
-Renvoie la valeur d'erreur #NA!. 
+Renvoie la valeur d’erreur #NA!. 
   
 Utilisez cette fonction dans une cellule de feuille ShapeSheet dans laquelle manquent des informations pour que la valeur par défaut de la cellule ne soit pas utilisée dans les calculs.
   

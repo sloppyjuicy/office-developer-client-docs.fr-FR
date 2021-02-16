@@ -25,12 +25,12 @@ ms.locfileid: "33438994"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [MTSID](mtsid.md) existante. 
+Calcule le nombre d’octets dans une structure [MTSID](mtsid.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**MTSID** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**MTSID** <br/> |
    
 ```cpp
 CbMTSID (_lpentry)
@@ -38,7 +38,7 @@ CbMTSID (_lpentry)
 
 ## <a name="parameters"></a>Paramètres
 
- __lpentry_
+ _ _lpentry_
   
 > Pointeur vers la structure **MTSID** existante. 
     

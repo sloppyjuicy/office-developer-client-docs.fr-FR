@@ -1,5 +1,5 @@
 ---
-title: Propriétés nommées de prise en charge
+title: Prise en charge des propriétés nommées
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434325"
 ---
-# <a name="supporting-named-properties"></a>Propriétés nommées de prise en charge
+# <a name="supporting-named-properties"></a>Prise en charge des propriétés nommées
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Any object that implements the [IMAPIProp : IUnknown](imapipropiunknown.md) interface can support named properties. La prise en charge des propriétés nommées est requise pour: 
+Any object that implements the [IMAPIProp : IUnknown](imapipropiunknown.md) interface can support named properties. La prise en charge des propriétés nommées est requise pour : 
   
-- Fournisseurs de carnet d'adresses qui permettent de copier des entrées d'autres fournisseurs dans leurs conteneurs.
+- Fournisseurs de carnets d’adresses qui permettent la copie d’entrées d’autres fournisseurs dans leurs conteneurs.
     
-- Fournisseurs de banques de messages pouvant être utilisés pour créer des types de message arbitraires.
+- Fournisseurs de magasins de messages qui peuvent être utilisés pour créer des types de messages arbitraires.
     
-La prise en charge des propriétés nommées est facultative pour tous les autres fournisseurs de services. Les fournisseurs de services qui prennent en charge les propriétés nommées doivent implémenter le mappage de nom à identificateur dans les méthodes [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) et [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Les clients appellent **GetNamesFromIDs** pour récupérer les noms correspondants pour un ou plusieurs identificateurs de propriété dans la plage sur 0X8000 et **GetIDsFromNames** pour créer ou récupérer les identificateurs d'un ou de plusieurs noms. 
+La prise en charge des propriétés nommées est facultative pour tous les autres fournisseurs de services. Les fournisseurs de services qui ne supportent pas les propriétés nommées doivent implémenter le mappage nom à identificateur dans les méthodes [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) et [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Les clients appellent **GetNamesFromIDs** pour récupérer les noms correspondants pour un ou plusieurs identificateurs de propriété dans la plage de 0x8000 et **GetIDsFromNames** pour créer ou récupérer les identificateurs pour un ou plusieurs noms. 
   
-Les fournisseurs de services qui ne prennent pas en charge les propriétés nommées doivent:
+Les fournisseurs de services qui ne peuvent pas prendre en charge les propriétés nommées doivent :
   
-- Échec des appels à [IMAPIProp:: SetProps](imapiprop-setprops.md) pour définir les propriétés avec des identificateurs de 0x8000 ou supérieur en renvoyant MAPI_E_UNEXPECTED_ID dans le tableau [SPropProblem](spropproblem.md) . 
+- Échouez les appels [à IMAPIProp::SetProps](imapiprop-setprops.md) pour définir des propriétés avec des identificateurs de 0x8000 ou supérieur en renvoyant les MAPI_E_UNEXPECTED_ID dans le tableau [SPropProblem.](spropproblem.md) 
     
-- Renvoyer MAPI_E_NO_SUPPORT à partir des méthodes [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) et [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+- Renvoyer MAPI_E_NO_SUPPORT à partir des méthodes [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) et [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
     
 

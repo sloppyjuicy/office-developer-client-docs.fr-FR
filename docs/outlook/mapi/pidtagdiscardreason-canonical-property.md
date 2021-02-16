@@ -25,7 +25,7 @@ ms.locfileid: "33434801"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique pourquoi un agent de transfert des messages (MTA) a ignoré un message. 
+Contient une raison pour laquelle un agent de transfert de messages (MTA) a ignoré un message. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Indique pourquoi un agent de transfert des messages (MTA) a ignoré un message.
    
 ## <a name="remarks"></a>Remarques
 
-La raison contenue dans cette propriété est utilisée dans un rapport de non-remise pour le message.
+La raison contenue dans cette propriété est utilisée dans un rapport de non-delivery pour le message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

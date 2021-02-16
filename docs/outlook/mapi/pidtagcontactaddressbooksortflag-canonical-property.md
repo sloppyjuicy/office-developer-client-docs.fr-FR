@@ -25,30 +25,30 @@ ms.locfileid: "33437230"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un indicateur qui est vrai lorsque les contacts doivent être triés par fichier sous et FALSe lorsqu'ils doivent être triés par nom d'affichage. 
+Contient un indicateur true lorsque les contacts doivent être triés par Fichier sous et FALSE lorsqu’ils doivent être triés par nom d’affichage. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_SORT_FLAG  <br/> |
 |Identificateur :  <br/> |0x6602  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Il s'agit d'une propriété dans la section profil de carnet d'adresses de contacts.
+Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

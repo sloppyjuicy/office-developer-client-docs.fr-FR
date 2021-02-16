@@ -26,7 +26,7 @@ Détermine le niveau de transparence de la couleur utilisée pour le premier pla
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs sont arrondies au demi-point le plus proche. Une valeur de 100 % est complètement transparente. Bien qu'une ombre avec un remplissage complètement transparent apparaisse sur la page de dessin comme une ombre sans remplissage, elle interagit avec les autres objets de la page de la même façon que si elle était 0%.
+Les valeurs sont arrondies au demi-point le plus proche. Une valeur de 100 % est complètement transparente. Bien qu’une ombre dont le remplissage est entièrement transparent soit identique sur la page de dessin à une ombre sans remplissage, elle interagit avec les autres objets de la page de la même manière que si elle avait une transparence de 0 %.
   
 Vous pouvez également définir cette valeur à l’aide du curseur dans la boîte de dialogue **Ombre** (sous l’onglet **Accueil**, dans le groupe **Forme**, cliquez sur **Remplissage**, puis cliquez sur **Options d’ombre**). Cette valeur contrôle à la fois les transparences de l’ombre de l’arrière-plan et du premier plan. Pour les définir de façon indépendante, vous devez les entrer dans la fenêtre Feuille ShapeSheet.
   
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule ShdwForegndTrans par index dans un pr
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowFill** <br/> |
 |Index de la cellule :  <br/> |**visFillShdwForegndTrans** <br/> |
    

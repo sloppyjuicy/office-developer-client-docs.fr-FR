@@ -1,5 +1,5 @@
 ---
-title: Configuration d'un service de messagerie
+title: Configuration d’un service de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434507"
 ---
-# <a name="configuring-a-message-service"></a>Configuration d'un service de messagerie
+# <a name="configuring-a-message-service"></a>Configuration d’un service de message
 
   
   
@@ -23,14 +23,14 @@ ms.locfileid: "33434507"
   
  **Pour configurer tous les fournisseurs de services dans un service de messagerie**
   
-- Appelez [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). Si toutes les données nécessaires pour la configuration sont disponibles par programme, vous pouvez choisir d'afficher ou non une interface utilisateur. Toutefois, si certaines informations pour un ou plusieurs fournisseurs ne sont pas disponibles, veillez à définir l'indicateur SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS. Suppression d'une interface utilisateur lorsque les données de configuration requises ne sont pas disponibles, les résultats sont indisponibles dans un service de messagerie non configuré.
+- Appelez [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). Si toutes les données nécessaires à la configuration sont disponibles par programme, vous pouvez choisir d’afficher ou non une interface utilisateur. Toutefois, si certaines informations d’un ou plusieurs fournisseurs ne sont pas disponibles, veillez à définir l’indicateur SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS’indicateur. La suppression d’une interface utilisateur lorsque les données de configuration requises ne sont pas disponibles entraîne un service de message non configuré.
     
  **Pour configurer un fournisseur de services unique dans un service de messagerie**
   
-1. Appelez [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) pour accéder à l'objet d'État du fournisseur de services. 
+1. Appelez [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour accéder à l’objet d’état du fournisseur de services. 
     
-2. Appelez [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) pour afficher la feuille des propriétés du fournisseur de services. 
+2. Appelez [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) pour afficher la feuille des propriétés du fournisseur de services. 
     
-Pour plus d'informations sur l'utilisation des objets d'État, voir [table d'État et objets d'État](status-table-and-status-objects.md).
+Pour plus d’informations sur l’utilisation des objets d’état, voir [Tableau d’état et Objets d’état.](status-table-and-status-objects.md)
   
 

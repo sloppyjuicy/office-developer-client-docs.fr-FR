@@ -22,7 +22,7 @@ Décode une chaîne encodée base64 et la stocke sous la forme de données binai
   
 ## <a name="syntax"></a>Syntaxe
 
-BLOB (* * *bintext* * *) 
+BLOB (** *bintext* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

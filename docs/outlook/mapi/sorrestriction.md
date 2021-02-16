@@ -25,11 +25,11 @@ ms.locfileid: "33437930"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction **ou** qui est utilisée pour appliquer une opération **or** logique à une restriction. 
+Décrit une restriction **OR** qui est utilisée pour appliquer une opération **LOGIQUE OR** à une restriction. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SOrRestriction
@@ -44,15 +44,15 @@ typedef struct _SOrRestriction
 
  **cRes**
   
-> Nombre de structures dans le tableau vers lequel pointe le membre **lpRes** . 
+> Nombre de structures dans le tableau pointées par **le membre lpRes.** 
     
  **lpRes**
   
-> Pointeur vers la structure [SRestriction](srestriction.md) décrivant la restriction à joindre à l'aide de l'opération **or** logique. 
+> Pointeur vers la structure [SRestriction](srestriction.md) décrivant la restriction à joindre à l’aide de l’opération **logique OR.** 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur la structure **SOrRestriction** , consultez la rubrique [à propos des restrictions](about-restrictions.md). 
+Pour plus d’informations sur la structure **SOrRestriction,** voir [À propos des restrictions.](about-restrictions.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

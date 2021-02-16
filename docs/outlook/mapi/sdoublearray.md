@@ -25,11 +25,11 @@ ms.locfileid: "33439267"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de doubles utilisés pour décrire une propriété de type PT_MV_DOUBLE.
+Contient un tableau de doubles utilisé pour décrire une propriété de type PT_MV_DOUBLE.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SDoubleArray
@@ -44,15 +44,15 @@ typedef struct _SDoubleArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpdbl** . 
+> Nombre de valeurs dans le tableau pointées par **le membre lpdbl.** 
     
  **lpdbl**
   
-> Pointeur vers un tableau de valeurs de type double.
+> Pointeur vers un tableau de valeurs doubles.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur PT_MV_DOUBLE, consultez la rubrique [liste des types de propriétés](property-types.md).
+Pour plus d’informations PT_MV_DOUBLE, voir [Liste des types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

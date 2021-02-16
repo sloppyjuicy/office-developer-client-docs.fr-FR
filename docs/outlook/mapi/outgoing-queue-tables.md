@@ -1,5 +1,5 @@
 ---
-title: Tables de file d'attente sortantes
+title: Tables des files d’attente sortantes
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,23 +15,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437573"
 ---
-# <a name="outgoing-queue-tables"></a>Tables de file d'attente sortantes
+# <a name="outgoing-queue-tables"></a>Tables des files d’attente sortantes
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une table de file d'attente sortante contient des informations sur tous les messages sortants d'une banque de messages. Les fournisseurs de banque de messages implémentent des tables de file d'attente sortantes que le spouleur MAPI doit utiliser. Les banques qui ne prennent pas en charge l'envoi ou la réception de messages n'ont pas besoin d'implémenter ce tableau. 
+Une table de file d’attente sortante contient des informations sur tous les messages sortants d’une boutique de messages. Les fournisseurs de magasins de messages implémentent des tables de files d’attente sortantes pour lepooler MAPI à utiliser. Les magasins qui ne peuvent pas prendre en charge l’envoi ou la réception de messages n’ont pas besoin d’implémenter cette table. 
   
-Pour accéder à une table de file d'attente de messages sortants, le spouleur MAPI appelle la méthode [IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md) . 
+Pour accéder à une table de files d’attente sortantes, lepooler MAPI appelle la méthode [IMsgStore::GetOutgoingQueue.](imsgstore-getoutgoingqueue.md) 
   
-Il est nécessaire que les messages soient prétraités et envoyés au fournisseur de transport dans l'ordre dans lequel ils ont été envoyés par l'application cliente. Le spouleur MAPI est conçu pour accepter les messages de la Banque de messages dans l'ordre croissant de la durée de dépôt. En raison de cette exigence, un certain délai peut s'écouler avant que certains messages apparaissent dans la table de file d'attente sortante. 
+Il est obligatoire que les messages soient prétraités et envoyés au fournisseur de transport dans le même ordre qu’ils ont été envoyés par l’application cliente. Lepooler MAPI est conçu pour accepter les messages de la boutique de messages dans l’ordre croissant du temps d’envoi. En raison de cette exigence, il peut y avoir un certain délai avant que certains messages apparaissent dans la table des files d’attente sortantes. 
   
-Les banques de messages doivent autoriser le tri sur la table de file d'attente sortante afin que le spouleur MAPI puisse trier les messages par heure de dépôt ou que l'ordre de tri par défaut soit défini par ordre croissant. 
+Les magasins de messages doivent autoriser le tri dans la table des files d’attente sortantes afin que lepooler MAPI puisse trier les messages par heure d’envoi, ou l’ordre de tri par défaut doit être croissant. 
   
-La table de file d'attente sortante doit envoyer des notifications lorsque le contenu de la file d'attente est modifié.
+La table des files d’attente sortantes doit envoyer des notifications lorsque le contenu de la file d’attente change.
   
-Les propriétés suivantes constituent le jeu de colonnes obligatoire dans les tables de file d'attente sortantes:
+Les propriétés suivantes définissent la colonne requise dans les tables de files d’attente sortantes :
   
 |||
 |:-----|:-----|
@@ -42,11 +42,11 @@ Les propriétés suivantes constituent le jeu de colonnes obligatoire dans les t
 |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
 |**PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md))  <br/> | <br/> |
    
-Pour plus d'informations sur l'utilisation de la table de file d'attente de messages sortants, consultez la rubrique [envoi de messages à l'aide de fournisseurs de banques de messages](sending-messages-by-using-message-store-providers.md).
+Pour plus d’informations sur l’utilisation de la table des files d’attente sortantes, voir [Sending Messages by Using Message Store Providers](sending-messages-by-using-message-store-providers.md).
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

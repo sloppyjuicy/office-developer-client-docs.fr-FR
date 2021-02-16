@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSheetNm
 keywords:
-- fonction xlSheetNm [Excel 2007]
+- fonction xlsheetnm [excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33437412"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Renvoie le nom d'une feuille de calcul ou d'une feuille macro à partir de son ID de feuille interne contenu dans une référence externe ou du nom de la feuille active si une référence interne lui a été transmise.
+Renvoie le nom d’une feuille de calcul ou d’une feuille macro à partir de son ID de feuille interne contenu dans une référence externe, ou le nom de la feuille actuelle si une référence interne est passée.
   
 ```cs
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
@@ -32,19 +32,19 @@ Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 
 _pxExtref_ (**xltypeRef** ou **xltypeSRef**)
   
-Référence à la feuille dont vous souhaitez obtenir le nom.
+Référence à la feuille dont vous souhaitez le nom.
   
-Si vous transférez une référence externe (**xltypeRef**), elle doit uniquement contenir l'ID de la feuille. Les structures de données qui décrivent les cellules de la feuille de calcul sont ignorées et n'ont pas besoin d'être fournies. Si la valeur de l'ID est définie sur zéro, **xlSheetNm** renvoie le nom de la feuille actuelle. 
+Si vous transmettre une référence externe (**xltypeRef**), il ne doit contenir que l’ID de la feuille. Les structures de données qui décrivent les cellules de la feuille de calcul sont ignorées et n’ont pas besoin d’être fournies. Si l’ID est définie sur zéro, **xlSheetNm** renvoie le nom de la feuille actuelle. 
   
-Si vous transférez une référence interne (**xltypeSef**), **xlSheetNm** renvoie le nom de la feuille actuelle. 
+Si vous transmettre une référence interne (**xltypeSef**), **xlSheetNm** renvoie le nom de la feuille actuelle. 
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Renvoie le nom de la feuille (**xltypeStr**) dans le formulaire `[Book1]Sheet1`.
+Renvoie le nom de la feuille (**xltypeStr**) au formulaire  `[Book1]Sheet1` .
   
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment afficher le nom de la feuille à partir de laquelle la fonction a été appelée. La fonction fonctionne correctement uniquement si elle est appelée à partir d'une feuille macro lors de l'exécution d'une macro de commande XLM. Cela est dû au fait qu'il appelle **xlcAlert**, que seules les commandes peuvent faire, et qu'il doit être appelé à partir d'une feuille plutôt que d'une boîte de dialogue, d'un menu ou d'une barre de commandes afin que **xlfCaller** renvoie une référence. 
+L’exemple suivant affiche le nom de la feuille à partir de laquelle la fonction a été appelée. La fonction fonctionne correctement uniquement si elle est appelée à partir d’une feuille macro lors de l’exécution d’une macro de commande XLM. En effet, il appelle **xlcAlert,** ce que seules les commandes peuvent faire, et il doit être appelé à partir d’une feuille plutôt que d’une boîte de dialogue, d’un menu ou d’une barre de commandes pour que **xlfCaller** retourne une référence. 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

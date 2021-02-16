@@ -23,7 +23,7 @@ Indique le type de champ de texte.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Standard  <br/> |**visTFOKStandard** <br/> |
-| 0,1  <br/> |Horizontal en vertical  <br/> |**visTFOKHorizontaInVertical** <br/> |
+| 1   <br/> |Horizontal en vertical  <br/> |**visTFOKHorizontaInVertical** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -37,14 +37,14 @@ Pour obtenir une référence à la cellule ObjectKind par un nom à partir d'une
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Fields. ObjectKind [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Fields.ObjectKind[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule ObjectKind à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionTextField** <br/> |
-| Index de la ligne :  <br/> |**visRowField** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowField**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visFieldObjectKind** <br/> |
    
 

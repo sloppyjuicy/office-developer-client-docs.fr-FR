@@ -31,7 +31,7 @@ InfoPath aide à protéger les utilisateurs contre les menaces potentielles suiv
     
 ## <a name="disclosure-of-sensitive-information"></a>Divulgation d’informations sensibles
 
-Le scénario le plus courant de divulgation d'informations sensibles peut se produire si un créateur de formulaires malveillant crée un formulaire qui utilise les informations d'identification de l'utilisateur actuel pour accéder à une source de données sur un domaine autre que celui sur lequel le formulaire lui-même a été déployé. Par exemple, un utilisateur malveillant peut envoyer un formulaire par message électronique ou à l'aide d'une URL vers un formulaire sur un partage privé ou un serveur Web. Le formulaire peut contenir un script qui effectue une demande d'accès aux données à l'aide des informations d'identification de l'utilisateur actuel, pour récupérer des données d'une source de données dans un autre domaine auquel sans cela l'utilisateur malveillant n'a pas accès, telle qu'une base de données des salaires ou d'autres informations sensibles. Cette classe de scénarios de risques de sécurité est connue sous le nom d'accès aux données d'autres domaines.
+Le scénario le plus courant de divulgation d'informations sensibles peut se produire si un créateur de formulaires malveillant crée un formulaire qui utilise les informations d'identification de l'utilisateur actuel pour accéder à une source de données sur un domaine autre que celui sur lequel le formulaire lui-même a été déployé. Par exemple, un utilisateur malveillant peut envoyer un formulaire par courrier électronique ou à l’aide d’une URL vers un formulaire sur un partage privé ou un serveur Web. Le formulaire peut contenir un script qui effectue une demande d'accès aux données à l'aide des informations d'identification de l'utilisateur actuel, pour récupérer des données d'une source de données dans un autre domaine auquel sans cela l'utilisateur malveillant n'a pas accès, telle qu'une base de données des salaires ou d'autres informations sensibles. Cette classe de scénarios de risques de sécurité est connue sous le nom d'accès aux données d'autres domaines.
   
 Le modèle de sécurité Internet Explorer sur lequel est basé InfoPath fournit un paramètre nommé **Accès aux sources de données sur plusieurs domaines**, qui désactive par défaut l'accès à d'autres domaines pour les formulaires InfoPath qui se trouvent dans les zones de sécurité **Internet** et **Sites sensibles**. Ce paramètre demande aussi à l'utilisateur d'autoriser ou d'interdire l'accès à d'autres domaines pour les formulaires InfoPath qui se trouvent dans la zone de sécurité **Intranet local**, et il permet l'accès à d'autres domaines pour les formulaires InfoPath qui se trouvent dans les zones **Sites de confiance** ou **Ordinateur local**. 
   
@@ -45,7 +45,7 @@ En outre, vous ne pouvez pas insérer un contrôle ActiveX qui est marqué comme
   
 ## <a name="malicious-use-of-infopath-object-model-code"></a>Utilisation malveillante de code du modèle objet InfoPath
 
-De la même façon, des méthodes et des propriétés InfoPath appelées depuis du code peuvent présenter différents niveaux de risques. Par exemple, la méthode [SaveAs(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx) de la classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) peut être utilisée pour écrire des données n'importe où dans le système de fichiers. Pour aider à la protection contre l'utilisation malveillante de ces membres du modèle objet, le modèle objet InfoPath implémente trois niveaux de sécurité qui déterminent comment et où un membre particulier du modèle objet peut être utilisé. Pour plus d'informations sur cette fonctionnalité, reportez-vous [à la rubrique à propos du modèle de sécurité pour les modèles de formulaire avec code](about-the-security-model-for-form-templates-with-code.md).
+De la même façon, des méthodes et des propriétés InfoPath appelées depuis du code peuvent présenter différents niveaux de risques. Par exemple, la méthode [SaveAs(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx) de la classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) peut être utilisée pour écrire des données n'importe où dans le système de fichiers. Pour aider à la protection contre l'utilisation malveillante de ces membres du modèle objet, le modèle objet InfoPath implémente trois niveaux de sécurité qui déterminent comment et où un membre particulier du modèle objet peut être utilisé. Pour plus d’informations sur cette fonctionnalité, voir à propos du modèle de sécurité pour les [modèles de formulaires avec code.](about-the-security-model-for-form-templates-with-code.md)
   
 ## <a name="best-practices-for-developers-of-infopath-forms"></a>Meilleures pratiques pour les développeurs de formulaires InfoPath
 
@@ -57,11 +57,11 @@ Les développeurs créant des formulaires InfoPath doivent savoir comment implé
     
 - Comment signer les fichiers CAB des contrôles ActiveX.
     
-- Comment signer les modèles de formulaire envoyés en tant que pièce jointe à un message électronique.
+- Comment signer des modèles de formulaire envoyés en tant que pièces jointes à un message électronique.
     
 ## <a name="best-practices-for-xml-data-associated-with-a-form"></a>Meilleures pratiques pour les données XML associées à un formulaire
 
-Notez que les formulaires InfoPath peuvent être alimentés en données XML depuis n'importe quelle source, y compris celles que l'utilisateur ne contrôle pas nécessairement ou auxquelles il ne fait pas nécessairement confiance. Par exemple, InfoPath peut obtenir des données XML à partir d'un lien vers une page Web ou à partir d'une pièce jointe XML envoyée à l'utilisateur dans un message électronique. Pour réduire ces risques, tenez compte des meilleures pratiques suivantes :
+Notez que les formulaires InfoPath peuvent être alimentés en données XML depuis n'importe quelle source, y compris celles que l'utilisateur ne contrôle pas nécessairement ou auxquelles il ne fait pas nécessairement confiance. Par exemple, InfoPath peut obtenir des données XML à partir d’un lien vers une page Web ou d’une pièce jointe XML envoyée à l’utilisateur dans un message électronique. Pour réduire ces risques, tenez compte des meilleures pratiques suivantes :
   
 - Ne passez pas des données non approuvées qui sont lues depuis le code XML à la fonction Microsoft JScript **eval()** ou la propriété **innerHTML** du volet Office. Ces deux appels peuvent être utilisés pour exécuter des scripts malveillants. Dans un volet Office, utilisez à la place la propriété **innerText**. Notez que les vues InfoPath ne peuvent pas exécuter de scripts. 
     
@@ -87,15 +87,15 @@ Les contrôles ActiveX peuvent être hébergés dans des modèles de formulaire 
   
 Pour faire en sorte que la signature numérique sur le fichier CAB puisse être vérifiée, le fichier doit être signé avec un certificat qui a une chaîne d'approbation conduisant à une racine de certificat déjà approuvée. Sinon, la signature ne peut pas être authentifiée, la vérification de la signature échoue et le fichier CAB n'est pas installé.
   
-## <a name="best-practices-for-form-templates-sent-as-an-attachment-to-an-email-message"></a>Meilleures pratiques pour les modèles de formulaire envoyés sous forme de pièce jointe à un message électronique
+## <a name="best-practices-for-form-templates-sent-as-an-attachment-to-an-email-message"></a>Meilleures pratiques pour les modèles de formulaire envoyés en tant que pièces jointes à un message électronique
 
-InfoPath prend en charge le déploiement des modèles de formulaires en tant que pièce jointe d'un message électronique et le déplacement des modèles de formulaire d'un emplacement à un autre. Il est recommandé de signer numériquement un modèle de formulaire que vous concevez et que vous souhaitez déployer en tant que pièce jointe à un message électronique. Une signature numérique d'un modèle de formulaire déployé par un message électronique non seulement garantit l'authenticité du modèle. Elle présente également l'avantage d'autoriser la mise à jour automatique du modèle de formulaire.
+InfoPath prend en charge le déploiement de modèles de formulaire en tant que pièces jointes à un message électronique et le déplacement de modèles de formulaire d’un emplacement à un autre. Il est de bonne pratique en matière de sécurité de signer numériquement un modèle de formulaire que vous concevez et que vous envisagez de déployer en tant que pièce jointe à un message électronique. Une signature numérique sur un modèle de formulaire déployé par message électronique garantit non seulement l’authenticité du modèle. Il présente également l’avantage de permettre la mise à jour automatique du modèle de formulaire.
   
 Le modèle de formulaire doit être signé avec un certificat qui a une chaîne d'approbation conduisant à une racine de certificat déjà approuvée. S'il n'est pas signé avec un tel certificat, la vérification de la signature échoue car elle ne peut pas être authentifiée.
   
 > [!NOTE]
 > [!REMARQUE] Si un modèle de formulaire signé demande un accès au domaine ou un accès restreint, InfoPath ne vérifie pas la signature, sauf pour déterminer si InfoPath peut mettre à jour le modèle automatiquement. 
   
-Vous trouverez plus d'informations sur le déploiement de la messagerie dans [les niveaux de sécurité, le déploiement de courrier électronique et les modèles de formulaire](security-levels-email-deployment-and-remote-form-templates.md)distants.
+Vous trouverez plus d’informations sur le déploiement du courrier électronique dans les niveaux de sécurité, le déploiement de messagerie électronique [et les modèles de formulaires distants.](security-levels-email-deployment-and-remote-form-templates.md)
   
 

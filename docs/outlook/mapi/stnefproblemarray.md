@@ -25,11 +25,11 @@ ms.locfileid: "33434262"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de structures **STnefProblem** décrivant un ou plusieurs problèmes de traitement qui se sont produits pendant le codage ou le décodage d'un flux TNEF (Transport Neutral Encapsulation Format). 
+Contient un tableau de structures **STnefProblem** décrivant un ou plusieurs problèmes de traitement qui se sont produits lors du codage ou du décodage d’un flux TNEF (Transport Neutral Encapsulation Format). 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |TNEF. h  <br/> |
+|Fichier d’en-tête :  <br/> |Tnef.h  <br/> |
    
 ```cpp
 typedef struct _STnefProblemArray
@@ -44,17 +44,17 @@ typedef struct _STnefProblemArray
 
  **cProblem**
   
-> Nombre d'éléments dans le tableau spécifié dans le membre **aProblem** . 
+> Nombre d’éléments dans le tableau spécifié dans le **membre aProblem.** 
     
  **aProblem**
   
-> Tableau de structures [STnefProblem](stnefproblem.md) . Chaque structure contient des informations sur un problème de traitement de propriété ou d'attribut. 
+> Tableau de structures [STnefProblem.](stnefproblem.md) Chaque structure contient des informations sur un problème de traitement de propriété ou d’attribut. 
     
 ## <a name="remarks"></a>Remarques
 
-Si un problème se produit pendant le traitement des attributs ou des propriétés, un paramètre de sortie dans la méthode [ITnef:: ExtractProps](itnef-extractprops.md) et dans la méthode [ITnef:: Finish](itnef-finish.md) reçoit un pointeur vers une structure **STnefProblemArray** et **ExtractProps **et **finally** renvoient la valeur MAPI_W_ERRORS_RETURNED. Cette valeur d'erreur indique qu'un problème est survenu pendant le traitement et qu'une structure **STnefProblemArray** a été générée. 
+Si un problème se produit lors du traitement des attributs ou des propriétés, un paramètre de sortie dans la méthode [ITnef::ExtractProps](itnef-extractprops.md) et dans la méthode [ITnef::Finish](itnef-finish.md) reçoivent chacun un pointeur vers une structure **STnefProblemArray** et **ExtractProps** et **Finish** retournent chacun la valeur MAPI_W_ERRORS_RETURNED. Cette valeur d’erreur indique qu’un problème s’est produit lors du traitement et qu’une structure **STnefProblemArray** a été générée. 
   
-Si une structure **STnefProblem** n'est pas générée pendant le traitement d'un attribut ou d'une propriété, l'application cliente peut continuer en supposant que le traitement de cet attribut ou de cette propriété a réussi. La seule exception se produit lors du décodage d'un bloc d'encapsulation. Si l'erreur s'est produite pendant ce décodage, MAPI_E_UNABLE_TO_COMPLETE peut être renvoyé comme [SCODE](scode.md) dans la structure. Dans ce cas, le décodage du composant correspondant au bloc est arrêté et le décodage se poursuit dans un autre composant. 
+Si une structure **STnefProblem** n’est pas générée pendant le traitement d’un attribut ou d’une propriété, l’application cliente peut continuer en présumant que le traitement de cet attribut ou propriété a réussi. La seule exception se produit lorsque le problème survient lors du décodage d’un bloc d’encapsulation. Si l’erreur s’est produite pendant ce décodage, MAPI_E_UNABLE_TO_COMPLETE peut être renvoyé en tant que [code SCODE](scode.md) dans la structure. Dans ce cas, le décodage du composant correspondant au bloc est arrêté et le décodage se poursuit dans un autre composant. 
   
 ## <a name="see-also"></a>Voir aussi
 

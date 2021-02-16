@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 keywords:
-- xlfGetName
+- xlfgetname
 localization_priority: Normal
 ms.assetid: 65780435-aaa2-47af-b44f-07be7aa769ee
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -20,7 +20,7 @@ ms.locfileid: "33436628"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Renvoie la définition d'un nom tel qu'il apparaît dans la colonne **fait référence à** de la boîte de dialogue **Gestionnaire de noms** , qui s'affiche lorsque vous cliquez sur **Gestionnaire de noms** dans la section **noms définis** sous l'onglet **formules** . Si la définition contient des références, celles-ci sont indiquées sous forme de références de style R1C1. Utilisez **xlfGetName** pour vérifier la valeur définie par un nom. Pour obtenir le nom qui correspond à une définition, utilisez [xlfGetDef](xlfgetdef.md).
+Renvoie la définition d’un nom tel qu’il  apparaît dans la colonne **Références**  de la boîte de dialogue Gestionnaire de noms, qui s’affiche lorsque vous cliquez sur Gestionnaire de noms dans la **section** Noms définis sous l’onglet **Formules.** Si la définition contient des références, elles sont données en tant que références de style R1C1. Utilisez **xlfGetName pour vérifier** la valeur définie par un nom. Pour obtenir le nom qui correspond à une définition, utilisez [xlfGetDef](xlfgetdef.md).
   
 ```cpp
 Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInfoType);
@@ -30,29 +30,29 @@ Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInf
 
 _pxNameText_ (**xltypeStr**)
   
-Peut être un nom défini sur la feuille; référence externe à un nom défini dans le classeur actif, par exemple, `"!Sales"`; ou une référence externe à un nom défini sur un classeur ouvert particulier, par exemple `"[Book1]SHEET1!Sales"`.  _pxNameText_ peut également être un nom masqué. 
+Il peut s’agit d’un nom défini dans la feuille . une référence externe à un nom défini dans le livre de travail actif, par exemple, ou une référence externe à un nom défini sur un workbook ouvert  `"!Sales"` particulier, par exemple,  `"[Book1]SHEET1!Sales"` .  _pxNameText_ peut également être un nom masqué. 
   
 _pxInfoType_ (**xltypeBool**)
   
-Spécifie le type d'informations à renvoyer sur le nom. Si la **valeur** est false ou omise, la définition est renvoyée. Si la **valeur est true**, renvoie **true** si le nom est défini pour la seule feuille, **false** si le nom est défini pour l'intégralité du classeur. 
+Spécifie le type d’informations à renvoyer sur le nom. Si **false** ou omis, la définition est renvoyée. Si **true**, renvoie **TRUE** si le nom est défini uniquement pour la feuille, **FALSE** si le nom est défini pour l’ensemble du workbook. 
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-_pxRes_ (**xltypeStr**, **xltypeBool**ou **xltypeErr**)
+_pxRes_ (**xltypeStr,** **xltypeBool** ou **xltypeErr**)
   
-En fonction de la valeur transmise pour _pxInfoType_, renvoie la définition du nom spécifié (**XltypeStr**) ou **true** ou **false** (**xltypeBool**).
+Selon la valeur passée pour  _pxInfoType_, renvoie la définition du nom spécifié (**xltypeStr**), ou **TRUE** ou **FALSE** (**xltypeBool**).
   
 ## <a name="remarks"></a>Remarques
 
-Si la case à cocher **protéger la feuille de calcul et le contenu des cellules verrouillées** a été activée dans la boîte de dialogue **protéger la feuille** pour protéger le classeur contenant le nom, **xlfGetName** renvoie la `#N/A` valeur d'erreur. Pour afficher la boîte de dialogue **protéger la feuille** , cliquez sur **protéger la feuille** dans la section **modifications** de l'onglet **révision** . 
+Si  la case à cocher Protéger la feuille de  calcul et le contenu des cellules verrouillées a été sélectionnée dans la boîte de dialogue Protéger la feuille pour protéger le workbook contenant le nom, **xlfGetName** renvoie la valeur `#N/A` d’erreur. Pour voir la boîte **de dialogue Protéger la feuille,** cliquez sur Protéger la **feuille** dans la section **Modifications** de **l’onglet** Révision. 
   
-Le tableau suivant répertorie trois exemples de valeurs renvoyées par un appel à **xlfGetDef** avec l'argument _pxNameText_ spécifié. 
+Le tableau suivant répertorie trois exemples de valeurs renvoyées par un appel à **xlfGetDef** avec l’argument  _pxNameText_ spécifié. 
   
 |**Définition dans Excel**|**_pxNameText_**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
-|Le nom ventes sur une feuille est défini comme le numéro 523.  <br/> |Ventes  <br/> |«= 523»  <br/> |
-|La marge de la feuille active est définie en tant que formule = ventes-coûts.  <br/> |"! Bénéficier  <br/> |«= Ventes-coûts»  <br/> |
-|La base de données de noms de la feuille active est définie en tant que plage a1: F500.  <br/> |"! Database  <br/> |"= L1C1: R500C6"  <br/> |
+|Le nom Ventes sur une feuille est défini comme le numéro 523.  <br/> |« Ventes »  <br/> |« =523 »  <br/> |
+|Le nom Profit de la feuille active est défini comme la formule =Sales-Costs.  <br/> |"! Profit »  <br/> |« =Sales-Costs »  <br/> |
+|Le nom Base de données de la feuille active est défini comme la plage A1:F500.  <br/> |"! Base de données »  <br/> |« =R1C1:R500C6 »  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -35,7 +35,7 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 _pclsidType_
   
-> remarquer Identificateur de classe du type de compte. La valeur doit être une des opérations suivantes :
+> [out] Identificateur de classe pour le type de compte. La valeur doit être une des opérations suivantes :
     
    - CLSID_OlkPOP3Account 
     
@@ -49,11 +49,11 @@ _pclsidType_
     
 _pcCategories_
   
-> remarquer Nombre de catégories dans _prgclsidCategory_.
+> [out] Nombre de catégories dans  _prgclsidCategory_.
     
 _prgclsidCategory_
   
-> remarquer Tableau de catégories auquel ce compte est associé. Le tableau est de taille * _pcCategories_. La valeur de chaque catégorie dans le tableau doit être l'une des valeurs suivantes:
+> [out] Tableau des catégories associées à ce compte. Le tableau est de taille * _pcCategories_. La valeur de chaque catégorie du tableau doit être l’une des suivantes :
     
    - CLSID_OlkMail
     
@@ -67,9 +67,9 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
 ## <a name="remarks"></a>Remarques
 
-Une fois cette méthode retournée, vous devez libérer *prgclsidCategory* à l'aide de [IOlkAccount:: FreeMemory](iolkaccount-freememory.md).
+Après le retour de cette méthode, vous devez libérer  *prgclsidCategory*  à l’aide de [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
-**IOlkAccount:: GetAccountInfo** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange. Si le compte est un compte Exchange (*pclsidType* est **CLSID_OlkMAPIAccount** ) et que le compte implémente le carnet d'adresses, l'appel de **IOlkAccount:: GetAccountInfo** ne renverra pas **CLSID_OlkAddressBook** sous forme de catégorie dans * prgclsidCategory* . 
+**IOlkAccount::GetAccountInfo** ne prend pas en charge la catégorie de carnet d’adresses pour un compte Exchange. Si le compte est un compte Exchange *(pclsidType*  est **CLSID_OlkMAPIAccount** ), et que le compte implémente le carnet d’adresses, l’appel de **IOlkAccount::GetAccountInfo** ne retournera pas **CLSID_OlkAddressBook** en tant que catégorie dans  *prgclsidCategory*  . 
   
 ## <a name="see-also"></a>Voir aussi
 

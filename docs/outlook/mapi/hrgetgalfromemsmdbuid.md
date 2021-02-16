@@ -21,11 +21,11 @@ ms.locfileid: "33439106"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie l'identificateur d'entrée du carnet d'adresses global pour le service Exchange identifié par _pEmsmdbUID_. L'identificateur d'entrée retourné doit être libéré à l'aide de [MAPIFreeBuffer](mapifreebuffer.md).
+Renvoie l’identificateur d’entrée du carnet d’adresses global pour le service Exchange identifié par  _pEmsmdbUID_. L’identificateur d’entrée renvoyé doit être libéré à l’aide [de MAPIFreeBuffer](mapifreebuffer.md).
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |abhelp. h  <br/> |
+|Fichier d’en-tête :  <br/> |abhelp.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,22 +43,22 @@ HRESULT HrGetGALFromEmsmdbUID(
 
  _pSess_
   
-> dans Le IMAPISession connecté. Il ne peut pas être NULL.
+> [in] IMAPISession connecté. Elle ne peut pas être NULL.
     
  _pAddrBook_
   
-> dans Carnet d'adresses utilisé pour ouvrir l'identificateur d'entrée. Il ne peut pas être NULL.
+> [in] Carnet d’adresses utilisé pour ouvrir l’identificateur d’entrée. Elle ne peut pas être NULL.
     
  _pEmsmdbUID_
   
-> dans Pointeur vers un **emsmdbUID** qui identifie la liste d'adresses globale du service Exchange à récupérer. Si _pEmsmdbUID_ est null ou zéro uid, cette fonction obtient la lag héritée du service Exchange. 
+> [in] Pointeur vers **un emsmdbUID** qui identifie la LA GAL du service Exchange à récupérer. Si  _pEmsmdbUID_ a la valeur NULL ou l’UID zéro, cette fonction obtient la LAL héritée du service Exchange. 
     
  _lpcbeid_
   
-> remarquer Pointeur vers le nombre d'octets de l'identificateur d'entrée de la liste d'adresses globale.
+> [out] Pointeur vers le nombre d’byte de l’identificateur d’entrée de la liste d’adresses globale.
     
  _lppeid_
   
-> remarquer Pointeur vers l'identificateur d'entrée de la liste d'adresses globale. Cela doit être libéré à l'aide de [MAPIFreeBuffer](mapifreebuffer.md).
+> [out] Pointeur vers l’identificateur d’entrée de la liste d’adresses globale. Cela doit être libéré à [l’aide de MAPIFreeBuffer](mapifreebuffer.md).
     
 

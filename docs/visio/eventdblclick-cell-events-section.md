@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule EventDblClick à l'aide d'un index à
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowEvent** <br/> |
 | Index de la cellule :  <br/> |**visEvtCellDblClick** <br/> |
    

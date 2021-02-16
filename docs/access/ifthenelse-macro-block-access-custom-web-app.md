@@ -1,5 +1,5 @@
 ---
-title: If... Then... Sinon, bloc de macros (application Web personnalisée Access)
+title: Si... Ensuite... Else Macro Block (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434493"
 ---
-# <a name="ifthenelse-macro-block-access-custom-web-app"></a>If... Then... Sinon, bloc de macros (application Web personnalisée Access)
+# <a name="ifthenelse-macro-block-access-custom-web-app"></a>Si... Ensuite... Else Macro Block (Access custom web app)
 
 Vous pouvez utiliser le bloc de macro **If** pour exécuter de façon conditionnelle un groupe d’actions, selon la valeur d’une expression. 
   

@@ -34,14 +34,14 @@ Pour obtenir une référence à la cellule Checked à partir du nom d’une autr
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Mesures. *nom* . Checked WHERE actions. *Name* est le nom de la ligne d'actions  <br/> |
+|Nom de cellule :  <br/> |Actions. *nom*  . Checked where Actions. *name*  est le nom de la ligne Actions  <br/> |
    
 Pour obtenir une référence à la cellule Checked à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction** +  *i* où *i* = 0, 1, 2,...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2, ...  <br/> |
 |Index de la cellule :  <br/> |**visActionChecked** <br/> |
    
 

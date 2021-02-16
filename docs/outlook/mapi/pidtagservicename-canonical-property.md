@@ -25,7 +25,7 @@ ms.locfileid: "33438959"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d'un service de messagerie tel que défini par l'utilisateur dans le fichier MapiSvc. inf.
+Contient le nom d’un service de message tel que définie par l’utilisateur dans le fichier MapiSvc.inf.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient le nom d'un service de messagerie tel que défini par l'utilisateur dan
    
 ## <a name="remarks"></a>Remarques
 
-Le nom contenu dans ces propriétés est propre au service de messagerie. Elle provient de la section [services] du fichier MapiSvc. inf.
+Le nom contenu dans ces propriétés est spécifique au service de message. Il provient de la section [Services] dans MapiSvc.inf.
   
-Ces propriétés apparaissent sous la forme d'une colonne dans le tableau service de messagerie et peuvent être utilisées pour filtrer les services. Étant donné qu'il est utilisé pour identifier et filtrer des services, la valeur ne doit pas être localisée.
+Ces propriétés apparaissent en tant que colonnes dans la table des services de message et peuvent être utilisées pour filtrer les services. Étant donné qu’elle est utilisée pour identifier et filtrer les services, la valeur ne doit pas être localisée.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

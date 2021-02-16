@@ -25,11 +25,11 @@ ms.locfileid: "33439358"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit un filtre permettant de limiter l'affichage d'un tableau à des lignes spécifiques. 
+Décrit un filtre pour limiter l’affichage d’un tableau à des lignes particulières. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SRestriction
@@ -55,17 +55,17 @@ typedef struct _SRestriction
 
 ## <a name="members"></a>Members
 
- **transcriptase**
+ **rt**
   
-> Type de restriction. Les valeurs possibles sont les suivantes: 
+> Type de restriction. Les valeurs possibles sont les suivantes : 
     
 RES_AND 
   
-> Une restriction **and** , qui applique une opération **** and au niveau du bit à une restriction. 
+> Une restriction **AND,** qui applique une opération **AND** au bit à une restriction. 
     
 RES_BITMASK 
   
-> Une restriction de masque de masques, qui applique un masque de à une valeur de propriété.
+> Restriction de masque de bits, qui applique un masque de bits à une valeur de propriété.
     
 RES_COMMENT 
   
@@ -73,43 +73,43 @@ RES_COMMENT
     
 RES_COMPAREPROPS 
   
-> Une restriction de comparaison de propriétés, qui compare deux valeurs de propriété.
+> Restriction de comparaison de propriété, qui compare deux valeurs de propriété.
     
 RES_CONTENT 
   
-> Une restriction de contenu, qui recherche une valeur de propriété pour un contenu spécifique.
+> Restriction de contenu qui recherche une valeur de propriété pour un contenu spécifique.
     
 RES_EXIST 
   
-> Une restriction Exists, qui détermine si une propriété est prise en charge.
+> Restriction existante, qui détermine si une propriété est prise en charge.
     
 RES_NOT 
   
-> Aucune **** restriction, qui applique une opération **not** logique à une restriction. 
+> Restriction **NOT,** qui applique une opération **LOGIQUE NOT** à une restriction. 
     
 RES_OR 
   
-> Une restriction **or** , qui applique une opération **or** logique à une restriction. 
+> Une restriction **OR,** qui applique une opération **LOGIQUE OR** à une restriction. 
     
 RES_PROPERTY 
   
-> Une restriction de propriété, qui détermine si une valeur de propriété correspond à une valeur spécifique.
+> Restriction de propriété, qui détermine si une valeur de propriété correspond à une valeur particulière.
     
 RES_SIZE 
   
-> Une restriction de taille, qui détermine si une valeur de propriété correspond à une taille particulière.
+> Restriction de taille, qui détermine si une valeur de propriété est une taille particulière.
     
 RES_SUBRESTRICTION 
   
-> Une restriction de sous-objet, qui applique une restriction aux pièces jointes ou aux destinataires d'un message.
+> Restriction de sous-objet, qui applique une restriction aux pièces jointes ou aux destinataires d’un message.
     
- **serv**
+ **res**
   
-> Union des structures de restriction décrivant le filtre à appliquer. La structure spécifique incluse dans le membre **res** dépend de la valeur du membre **RT** . Le mappage entre le type de restriction et la structure est illustré dans le tableau suivant. 
+> Union des structures de restriction décrivant le filtre à appliquer. La structure spécifique incluse dans le **membre res** dépend de la valeur du membre **rt.** Le mappage entre le type de restriction et la structure est répertorié dans le tableau suivant. 
     
 |||
 |:-----|:-----|
-|**Type de restriction** <br/> |**Structure de restriction** <br/> |
+|**Type de restriction** <br/> |**Structure des restrictions** <br/> |
 |RES_AND  <br/> |[SAndRestriction](sandrestriction.md) <br/> |
 |RES_BITMASK  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |
 |RES_COMMENT  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |
@@ -124,9 +124,9 @@ RES_SUBRESTRICTION
    
 ## <a name="remarks"></a>Remarques
 
-Les clients utilisent une structure **SRestriction** pour limiter le nombre et le type de lignes dans leur affichage d'un tableau et Rechercher des messages spécifiques dans un dossier. Pour imposer la limitation sur une table, les clients appellent soit une fonction [IMAPITable:: Restrict](imapitable-restrict.md) ou [IMAPITable:: FindRow](imapitable-findrow.md). Pour imposer la limitation sur un dossier, les clients appellent la méthode [IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md) du dossier. 
+Les clients utilisent une structure **SRestriction** pour limiter le nombre et le type de lignes dans leur vue d’une table et pour rechercher des messages spécifiques dans un dossier. Pour imposer la limitation à une table, les clients appellent [IMAPITable::Restrict](imapitable-restrict.md) ou [IMAPITable::FindRow](imapitable-findrow.md). Pour imposer la limitation à un dossier, les clients appellent la méthode [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) du dossier. 
   
-Pour plus d'informations sur l'utilisation des restrictions avec des tableaux, voir [about restrictions](about-restrictions.md). 
+Pour plus d’informations sur l’utilisation des restrictions avec des tableaux, voir [À propos des restrictions.](about-restrictions.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

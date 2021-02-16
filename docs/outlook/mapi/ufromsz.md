@@ -25,11 +25,11 @@ ms.locfileid: "33439008"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-ConVertit une chaîne terminée par un caractère null de chiffres décimaux en un entier non signé. 
+Convertit une chaîne de chiffres décimales terminée par null en un nombre non signé. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,16 +43,16 @@ UINT UFromSz(
 
  _lpsz_
   
-> dans Pointeur vers la chaîne terminée par un caractère null à convertir. Le paramètre _lpsz_ ne doit pas dépasser 65536 caractères. 
+> [in] Pointeur vers la chaîne terminée par null à convertir. Le  _paramètre lpsz_ ne doit pas dépasser 65 536 caractères. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
- **UFromSz** renvoie un entier non signé. Si la chaîne ne commence pas par au moins un chiffre décimal, zéro est renvoyé. 
+ **UFromSz** renvoie un integer non signé. Si la chaîne ne commence pas par au moins un chiffre décimal, zéro est renvoyé. 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **UFromSz** arrête la conversion lorsqu'elle atteint le premier caractère de la chaîne qui n'est pas un chiffre décimal. Par exemple, en fonction de la chaîne «55», **UFromSz** renvoie la valeur entière 55. Étant donné la chaîne «5a5b», la fonction renvoie la valeur entière 5. Étant donné la chaîne «A5B5», **UFromSz** renvoie zéro. 
+La **fonction UFromSz** cesse de se convertir lorsqu’elle atteint le premier caractère de la chaîne qui n’est pas un chiffre décimal. Par exemple, étant donné la chaîne « 55 », **UFromSz** renvoie la valeur d’ensemble 55. Étant donné la chaîne « 5a5b », la fonction renvoie la valeur d’ensemble 5. Étant donné la chaîne « a5b5 », **UFromSz** renvoie zéro. 
   
- **UFromSz** est sensible aux différences diacritiques. Les chaînes au format Unicode et DBCS sont prises en charge. La limite de longueur sur _lpsz_ est exprimée en caractères, pas nécessairement en octets. 
+ **UFromSz est** sensible aux différences diacritiques. Les chaînes aux formats Unicode et DBCS sont pris en charge. La limite de longueur sur  _lpsz est_ en caractères, pas nécessairement en octets. 
   
 

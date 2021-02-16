@@ -25,11 +25,11 @@ ms.locfileid: "33435389"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Alloue une mémoire tampon liée à une autre mémoire tampon précédemment allouée à l'aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+Alloue une mémoire tampon liée à une autre mémoire tampon précédemment allouée avec la [fonction MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -45,26 +45,26 @@ SCODE MAPIAllocateMore(
 
  _cbSize_
   
-> dans Taille, en octets, de la nouvelle mémoire tampon à allouer. 
+> [in] Taille, en octets, de la nouvelle mémoire tampon à allouer. 
     
  _lpObject_
   
-> dans Pointeur vers un tampon MAPI existant alloué à l'aide de **MAPIAllocateBuffer**.
+> [in] Pointeur vers une mémoire tampon MAPI existante allouée à l’aide **de MAPIAllocateBuffer**.
     
  _lppBuffer_
   
-> remarquer Pointeur vers la mémoire tampon renvoyée qui vient d'être allouée.
+> [out] Pointeur vers la mémoire tampon nouvellement allouée renvoyée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et a renvoyé un pointeur vers la mémoire demandée.
+> L’appel a réussi et a renvoyé un pointeur vers la mémoire demandée.
     
 ## <a name="remarks"></a>Remarques
 
-Pendant le traitement des appels **MAPIAllocateMore** , l'implémentation de l'appel acquiert un bloc de mémoire à partir du système d'exploitation. La mémoire tampon est allouée sur une adresse d'octet portant un numéro pair. Sur les plateformes où l'accès entier long est plus efficace, le système d'exploitation alloue la mémoire tampon sur une adresse dont la taille en octets est un multiple de quatre. 
+Pendant **le traitement des appels MAPIAllocateMore,** l’implémentation d’appel acquiert un bloc de mémoire du système d’exploitation. La mémoire tampon est allouée sur une adresse d’byte numérot e. Sur les plateformes où l’accès aux nombres longs est plus efficace, le système d’exploitation alloue la mémoire tampon à une adresse dont la taille en octets est un multiple de quatre. 
   
-La seule façon de libérer un tampon alloué avec **MAPIAllocateMore** est de transmettre le pointeur de mémoire tampon spécifié dans le paramètre _lpObject_ à la fonction [MAPIFreeBuffer](mapifreebuffer.md) . Le lien entre les mémoires tampons de mémoire allouées avec [MAPIAllocateBuffer](mapiallocatebuffer.md) et **MAPIAllocateMore** permet à **MAPIFreeBuffer** de libérer les deux tampons à l'aide d'un seul appel. 
+La seule façon de libérer une mémoire tampon allouée avec **MAPIAllocateMore** consiste à transmettre le pointeur de mémoire tampon spécifié dans le paramètre _lpObject_ à la fonction [MAPIFreeBuffer.](mapifreebuffer.md) Le lien entre les mémoires tampons de mémoire allouées avec [MAPIAllocateBuffer](mapiallocatebuffer.md) et **MAPIAllocateMore** permet à **MAPIFreeBuffer** de libérer les deux mémoires tampons avec un seul appel. 
   
 

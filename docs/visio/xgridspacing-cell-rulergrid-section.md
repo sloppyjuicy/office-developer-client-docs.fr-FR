@@ -1,5 +1,5 @@
 ---
-title: Cellule XGridSpacing (section &amp; règle et grille)
+title: XGridSpacing, cellule (section Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435074"
 ---
-# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>Cellule XGridSpacing (section &amp; règle et grille)
+# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>XGridSpacing, cellule (section Ruler &amp; Grid)
 
 Précise la distance entre les lignes horizontales dans une grille fixe (XGridDensity = 0).
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l'option **espaceMent minimal** horizontal de la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l’option d’espacement **minimal** horizontal  dans la boîte de dialogue Grille de règle (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). **&amp;** 
   
 Pour obtenir une référence à la cellule XGridSpacing par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule XGridSpacing par index dans un progra
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visXGridSpacing** <br/> |
    

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 48ab98bd-2966-443c-b3db-befeb271550f
-description: Détermine le modèle de connecteur d'un thème qui est appliqué à la forme, sous la forme d'un entier.
+description: Détermine le schéma de connecteur d’un thème qui est appliqué à la forme, sous la forme d’un nombre integer.
 ms.openlocfilehash: 77d16632db63d187477ba62a1a6f4b9319e156fc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,22 +16,22 @@ ms.locfileid: "33437202"
 ---
 # <a name="connectorschemeindex-cell-theme-properties-section"></a>ConnectorSchemeIndex Cell (Theme Properties Section)
 
-Détermine le modèle de connecteur d'un thème qui est appliqué à la forme, sous la forme d'un entier. 
+Détermine le schéma de connecteur d’un thème qui est appliqué à la forme, sous la forme d’un nombre integer. 
   
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **ConnectorSchemeIndex** par un nom à partir d'une autre formule, par valeur de l'attribut **N** d'un élément de **cellule** ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
+Pour obtenir une référence à la cellule **ConnectorSchemeIndex** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de cellule :  <br/> | ConnectorSchemeIndex  <br/> |
    
-Pour obtenir une référence à la cellule **ConnectorSchemeIndex** à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants: 
+Pour obtenir une référence à la cellule **ConnectorSchemeIndex** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowThemeProperties** <br/> |
-| Index de la cellule :  <br/> |* * visConnectorSchemeIndex * * <br/> |
+| Index de la cellule :  <br/> |**visConnectorSchemeIndex ** <br/> |
    
 

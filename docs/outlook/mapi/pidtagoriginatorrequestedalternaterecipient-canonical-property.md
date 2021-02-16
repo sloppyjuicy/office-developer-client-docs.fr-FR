@@ -25,7 +25,7 @@ ms.locfileid: "33437860"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur d'entrée pour un autre destinataire désigné par l'expéditeur.
+Contient un identificateur d’entrée pour un autre destinataire désigné par l’expéditeur.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient un identificateur d'entrée pour un autre destinataire désigné par l'
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée dans les messages autoforwarded. Si le transfert d'autodirection n'est pas autorisé ou si aucun autre destinataire n'a été désigné, un rapport de non-remise doit être généré.
+Cette propriété est utilisée dans les messages autoforwarded. Si laforwarding automatique n’est pas autorisée ou si aucun autre destinataire n’a été désigné, un rapport de non-demande doit être généré.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,19 +25,19 @@ ms.locfileid: "33438966"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique s'il faut coder un élément avec le format TNEF (Transport Neutral Encapsulation Format). 
+Indique s’il faut encoder un élément au format TNEF (Transport Neutral Encapsulation Format). 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidFShouldTNEF  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x000085A5  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x000085A5  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Configuration de l'exécution  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est définie lorsque Microsoft Word est défini comme éditeur de courrier électronique, et il envoie un objet OLE incorporé dans un flux RTF (Rich Text Format).
+Cette propriété est définie lorsque Microsoft Word est définie en tant qu’éditeur de courrier électronique et envoie un objet OLE incorporé dans un flux RTF (Rich Text Format).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Cette propriété est définie lorsque Microsoft Word est défini comme éditeur
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

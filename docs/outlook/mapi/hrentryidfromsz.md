@@ -25,11 +25,11 @@ ms.locfileid: "33437727"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recrée un identificateur d'entrée à partir de son codage ASCII. 
+Recrée un identificateur d’entrée à partir de son codage ASCII. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -43,34 +43,34 @@ HRESULT HrEntryIDFromSz(
 
 ## <a name="parameters"></a>Paramètres
 
- _t_
+ _sz_
   
-> dans Pointeur vers la chaîne ASCII à partir de laquelle créer un identificateur d'entrée. 
+> [in] Pointeur vers la chaîne ASCII à partir de laquelle créer un identificateur d’entrée. 
     
- _circuits_
+ _pcb_
   
-> remarquer Pointeur vers la taille, en octets, de l'identificateur d'entrée pointé par le paramètre _ppentry_ . 
+> [out] Pointeur vers la taille, en octets, de l’identificateur d’entrée pointé par le _paramètre ppentry._ 
     
  _ppentry_
   
-> remarquer Pointeur vers un pointeur vers la structure [EntryID](entryid.md) renvoyée qui contient le nouvel identificateur d'entrée. 
+> [out] Pointeur vers un pointeur vers la structure [ENTRYID](entryid.md) renvoyée qui contient le nouvel identificateur d’entrée. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> La loisirs a réussi.
+> La recréation a réussi.
     
 MAPI_E_INVALID_ENTRYID
   
-> L'ID d'entrée n'est pas valide.
+> L’ID d’entrée n’était pas valide.
     
 ## <a name="remarks"></a>Remarques
 
-Les fonctions **HrEntryIDFromSz** et [HrSzFromEntryID](hrszfromentryid.md) fournissent une conversion entre les formats de chaîne et binaires des identificateurs d'entrée. 
+Les **fonctions HrEntryIDFromSz** et [HrSzFromEntryID](hrszfromentryid.md) permettent de convertir les formats de chaîne et binaires des identificateurs d’entrée. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La fonction **HrEntryIDFromSz** alloue de la mémoire pour la chaîne ASCII à l'aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+La **fonction HrEntryIDFromSz** alloue de la mémoire pour la chaîne ASCII à l’aide de la [fonction MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 

@@ -35,14 +35,14 @@ Pour obtenir une référence à la cellule DoubleULine par un nom à partir d'un
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Char. DblUnderline [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Char.DblUnderline[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule DoubleULine à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visCharacterDblUnderline** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33439288"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Déconseillé. Renvoie les types d'adresses qui peuvent être gérées par tous les fournisseurs de transport dans la session. 
+Déconseillé. Renvoie les types d’adresses qui peuvent être gérés par tous les fournisseurs de transport dans la session. 
   
 ```cpp
 HRESULT EnumAdrTypes(
@@ -39,33 +39,33 @@ HRESULT EnumAdrTypes(
 
  _ulFlags_
   
-> dans Masque de réindicateur qui indique le format des types d'adresses renvoyées. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui indique le format des types d’adresses renvoyés. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les types d'adresses sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les types d'adresses sont au format ANSI.
+> Les types d’adresses sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les types d’adresses sont au format ANSI.
     
  _lpcAdrTypes_
   
-> remarquer Pointeur vers le nombre de types d'adresses vers lequel pointe le paramètre _lpppszAdrTypes_ . 
+> [out] Pointeur vers un nombre de types d’adresses pointés par le _paramètre lpppszAdrTypes._ 
     
  _lpppszAdrTypes_
   
-> remarquer Pointeur vers un tableau de pointeurs vers des types d'adresses.
+> [out] Pointeur vers un tableau de pointeurs vers des types d’adresses.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les types d'adresses ont été récupérés avec succès.
+> Les types d’adresses ont été récupérés avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession:: EnumAdrTypes** renvoie la liste des types d'adresses qui peuvent être gérées par tous les fournisseurs de transport actifs dans la session. Les types d'adresses pour les fournisseurs de transport qui ne sont pas actuellement chargés ne sont pas inclus dans la liste. Les fournisseurs de transport s'inscrivent pour gérer un ou plusieurs types d'adresses lorsque MAPI appelle la méthode [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) . 
+La **méthode IMAPISession::EnumAdrTypes** renvoie une liste des types d’adresses qui peuvent être gérés par tous les fournisseurs de transport actifs dans la session. Les types d’adresses pour les fournisseurs de transport qui ne sont pas actuellement chargés ne sont pas inclus dans la liste. Les fournisseurs de transport s’inscrivent pour gérer un ou plusieurs types d’adresses lorsque MAPI appelle leur [méthode IXPLogon::AddressTypes.](ixplogon-addresstypes.md) 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez [MAPIFreeBuffer](mapifreebuffer.md) pour libérer le tableau de chaînes désigné par le paramètre _lpppszAdrTypes_ . 
+Appelez [MAPIFreeBuffer pour](mapifreebuffer.md) libérer le tableau de chaînes pointé par _le paramètre lpppszAdrTypes._ 
   
 ## <a name="see-also"></a>Voir aussi
 

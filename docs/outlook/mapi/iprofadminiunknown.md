@@ -1,5 +1,5 @@
 ---
-title: /IUnknown IProfAdmin
+title: IProfAdmin IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,30 +25,30 @@ ms.locfileid: "33434115"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Prend en charge l'administration des profils. 
+Prend en charge l’administration des profils. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
-|Exposé par:  <br/> |Objet d'administration des profils  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
+|Exposé par :  <br/> |Objet d’administration de profil  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IProfAdmin  <br/> |
-|Type de pointeur:  <br/> |LPPROFADMIN  <br/> |
+|Identificateur d’interface :  <br/> |IID_IProfAdmin  <br/> |
+|Type de pointeur :  <br/> |LPPROFADMIN  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Généré](iprofadmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente qui s'est produite sur un objet d'administration de profil.  <br/> |
-|[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |Fournit l'accès à la table de profils, une table qui contient des informations sur tous les profils disponibles.  <br/> |
-|[CreateProfile](iprofadmin-createprofile.md) <br/> |Crée un nouveau profil.  <br/> |
+|[GetLastError](iprofadmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur un objet d’administration de profil.  <br/> |
+|[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |Permet d’accéder à la table de profils, qui contient des informations sur tous les profils disponibles.  <br/> |
+|[CreateProfile](iprofadmin-createprofile.md) <br/> |Crée un profil.  <br/> |
 |[DeleteProfile](iprofadmin-deleteprofile.md) <br/> |Supprime un profil.  <br/> |
-|[ChangeProfilePassword](iprofadmin-changeprofilepassword.md) <br/> |Déconseillé. Modifie le mot de passe d'un profil.  <br/> |
+|[ChangeProfilePassword](iprofadmin-changeprofilepassword.md) <br/> |Déconseillé. Modifie le mot de passe d’un profil.  <br/> |
 |[CopyProfile](iprofadmin-copyprofile.md) <br/> |Copie un profil.  <br/> |
-|[RenameProfile](iprofadmin-renameprofile.md) <br/> |Affecte un nouveau nom à un profil.  <br/> |
-|[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |Définit ou efface le profil par défaut d'un client.  <br/> |
-|[AdminServices](iprofadmin-adminservices.md) <br/> |Permet d'accéder à un objet d'administration de service de messagerie pour apporter des modifications aux services de messagerie dans un profil.  <br/> |
+|[RenameProfile](iprofadmin-renameprofile.md) <br/> |Attribue un nouveau nom à un profil.  <br/> |
+|[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |Définit ou définit le profil par défaut d’un client.  <br/> |
+|[AdminServices](iprofadmin-adminservices.md) <br/> |Permet d’accéder à un objet d’administration de service de message pour apporter des modifications aux services de message dans un profil.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -19,23 +19,23 @@ ms.locfileid: "33436859"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un problème important lié à la récupération des données d'une table est l'utilisation de la mémoire. L'absence de mémoire disponible peut entraîner l'échec d'une erreur [IMAPITable:: QueryRows](imapitable-queryrows.md) et [HrQueryAllRows](hrqueryallrows.md) , ce qui renvoie moins de lignes que le nombre souhaité. Le choix de la méthode ou de la fonction à utiliser pour récupérer les données de tableau dépend du fait que la table peut être ajustée en mémoire et, si elle ne l'est pas, si la défaillance est acceptable. 
+Un problème important lié à la récupération des données d’une table est l’utilisation de la mémoire. Le manque de mémoire disponible peut entraîner l’échec [d’IMAPITable::QueryRows](imapitable-queryrows.md) et [HrQueryAllRows,](hrqueryallrows.md) en renvoyant moins de lignes que le nombre souhaité. Le choix de la méthode ou de la fonction à utiliser pour récupérer les données d’un tableau varie selon que la table doit tenir dans la mémoire et, si elle ne l’est pas, si l’échec est acceptable. 
   
-Étant donné qu'il n'est pas toujours facile de déterminer la quantité de données pouvant être insérées dans la mémoire, MAPI fournit quelques instructions de base pour qu'une application client ou un fournisseur de services soit suivi. N'oubliez pas qu'il existe toujours des exceptions, en fonction de l'implémentation de table particulière et de la façon dont les données sous-jacentes sont stockées.
+Étant donné qu’il n’est pas toujours facile de déterminer la quantité de données qui s’intégrera dans la mémoire à la fois, MAPI fournit des instructions de base pour qu’une application cliente ou un fournisseur de services suive. N’oubliez pas qu’il existe toujours des exceptions, en fonction de l’implémentation de la table particulière et de la façon dont les données sous-jacentes sont stockées.
   
-Les instructions suivantes peuvent être utilisées pour évaluer l'utilisation de la mémoire des tableaux:
+Les instructions suivantes peuvent être utilisées pour évaluer l’utilisation de la mémoire des tableaux :
   
-- Les clients qui peuvent tolérer une utilisation occasionnelle de la mémoire du jeu de travail dans la plage de mégaoctets et peuvent supposer qu'ils n'auront aucun problème à lire une table entière dans la mémoire. 
+- Les clients qui peuvent tolérer un travail occasionnel définissent l’utilisation de la mémoire dans la plage de mégaoctets et peuvent supposer qu’ils n’auront aucun problème à lire un tableau entier en mémoire. 
     
-- Les restrictions ont un impact sur l'utilisation de la mémoire d'une table. Un tableau fortement restreint avec un nombre important de lignes, telles qu'une table des matières, peut être susceptible de s'adapter à la mémoire pendant qu'une table de grande taille non restreinte ne l'est généralement pas. 
+- Les restrictions ont une incidence sur l’utilisation de la mémoire par une table. Une table très restreinte avec un grand nombre de lignes, telles qu’une table des matières, peut être attendue pour tenir dans la mémoire, alors qu’une grande table non restreinte ne le peut généralement pas. 
     
-- Plusieurs des tables appartenant à MAPI, telles que l'État, le profil, le service de messagerie, le fournisseur et les tables de banque de messages, sont généralement contenues dans la mémoire. Il s'agit généralement de petites tables. Toutefois, il existe des exceptions. Par exemple, un fournisseur de profils serveur peut générer une table de profil plus grande qui ne pourra pas être ajustée.
+- Plusieurs tables de MAPI, telles que les tables d’état, de profil, de service de message, de fournisseur et de magasin de messages, sont généralement stockées en mémoire. Il s’agit généralement de petites tables. Toutefois, il existe des exceptions. Par exemple, un fournisseur de profils basé sur un serveur peut générer une table de profils plus grande qui ne pourra pas tenir.
     
-Pour récupérer toutes les lignes d'une table qui tiendront dans la mémoire sans problème, appelez [HrQueryAllRows](hrqueryallrows.md), en définissant le nombre maximal de lignes sur zéro.
+Pour récupérer toutes les lignes d’un tableau qui s’intègrera dans la mémoire sans problème, appelez [HrQueryAllRows](hrqueryallrows.md), en fixant le nombre maximal de lignes sur zéro.
   
-Pour récupérer toutes les lignes d'une table qui peuvent être dans la mémoire ou non, générant une erreur, appelez **HrQueryAllRows** en spécifiant un nombre maximal de lignes. Le nombre maximal de lignes doit être défini sur un nombre supérieur au nombre minimal de lignes nécessaires. Si un client doit accéder au moins à 50 lignes à partir d'une table de 300 lignes, le nombre maximal de lignes doit être défini sur au moins 51. 
+Pour récupérer toutes les lignes d’un tableau qui peuvent ou non tenir dans la mémoire, générant une erreur, appelez **HrQueryAllRows** en spécifiant un nombre maximal de lignes. Le nombre maximal de lignes doit être supérieur au nombre minimal de lignes nécessaires. Si un client doit accéder à au moins 50 lignes à partir d’un tableau de 300 lignes, le nombre maximal de lignes doit être d’au moins 51. 
   
-Pour récupérer toutes les lignes d'une table qui ne sont pas censées tenir dans la mémoire, appelez la fonction [IMAPITable:: QueryRows](imapitable-queryrows.md) dans une boucle avec un nombre de lignes relativement faible, comme l'illustre l'exemple de code suivant: 
+Pour récupérer toutes les lignes d’un tableau qui n’est pas censé tenir dans la mémoire, appelez [IMAPITable::QueryRows](imapitable-queryrows.md) dans une boucle avec un nombre de lignes relativement faible, comme l’illustre l’exemple de code suivant : 
   
 ```cpp
 HRESULT     hr;
@@ -59,9 +59,9 @@ if (hr)
  
 ```
 
-Lorsque cette boucle est terminée et que toutes les lignes de la table ont été traitées __ et que l'argument Crows a la valeur zéro, la position du curseur se trouve généralement en bas du tableau. 
+Lorsque cette boucle est terminée et que toutes les lignes du tableau ont été traitées et  _que cRows_ est zéro, la position du curseur est généralement en bas du tableau. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Tables MAPI](mapi-tables.md)
+- [MAPI Tables](mapi-tables.md)
 

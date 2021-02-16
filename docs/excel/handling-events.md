@@ -18,15 +18,15 @@ ms.locfileid: "33438266"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-À partir d'Excel 2010, les XLL peuvent recevoir des événements conçus pour gérer le cycle de vie des fonctions asynchrones. Les événements sont les suivants:
+À partir d’Excel 2010, les XL peuvent recevoir des événements conçus pour gérer le cycle de vie de la fonction asynchrone. Les événements sont les suivants :
   
-- **CalculationEnded**: déclenché une fois que le calcul d'Excel est terminé. Après cet événement, vous pouvez libérer les ressources allouées pendant le calcul.
+- **CalculationEnded :** élevé lorsque Excel a terminé le calcul. Après cet événement, vous pouvez libérer les ressources allouées pendant le calcul.
     
-- **CalculationCanceled**: déclenché lorsque l'utilisateur interrompt le calcul. Le XLL arrête toutes les activités asynchrones. Immédiatement après cet événement, l'événement **CalculationEnded** est déclenché. 
+- **CalculationCanceled :** élevé lorsque l’utilisateur interrompt le calcul. Le XLL arrête toutes les activités asynchrones. Immédiatement après cet événement, **l’événement CalculationEnded** est lancé. 
     
-Pour gérer ces événements, la XLL utilise la fonction API C [xlEventRegister](xleventregister.md). 
+Pour gérer ces événements, le XLL utilise la fonction API C [xlEventRegister](xleventregister.md). 
   
 > [!NOTE]
-> **CalculationEnded** et **CalculationCanceled** ne sont pas déclenchés lors du recalcul de programmation. 
+> **CalculationEnded et** **CalculationCanceled** ne sont pas élevés lors du recalcul par programme. 
   
 

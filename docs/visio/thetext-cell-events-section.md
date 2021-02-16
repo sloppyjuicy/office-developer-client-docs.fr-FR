@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule TheText par index dans un programme, 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowEvent** <br/> |
 | Index de la cellule :  <br/> |**visEvtCellTheText** <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Implémentation d'une visionneuse de formulaires
+title: Mise en œuvre d’une visionneuse de formulaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,42 +15,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435816"
 ---
-# <a name="implementing-a-form-viewer"></a>Implémentation d'une visionneuse de formulaires
+# <a name="implementing-a-form-viewer"></a>Mise en œuvre d’une visionneuse de formulaires
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une visionneuse de formulaires comprend trois objets: un site de messagerie, un récepteur de notification d'affichage et un contexte d'affichage. Chacun de ces objets vous permet d'interagir avec un serveur de formulaires et ses formulaires.
+Une visionneuse de formulaires comprend trois objets : un site de message, un sink de conseil d’affichage et un contexte d’affichage. Chacun de ces objets vous permet d’interagir avec un serveur de formulaires et ses formulaires.
   
-Un site de messagerie est un objet qui implémente l'interface [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) et qui assiste les serveurs de formulaire avec des tâches telles que le mouvement, l'enregistrement ou la suppression de messages, la création de nouveaux messages ou le lancement de nouveaux serveurs de formulaires. Les sites de messagerie sont utilisés par les formulaires pour obtenir des informations sur l'état de votre client par rapport à différents fournisseurs de services. Par exemple, un formulaire peut utiliser votre site de messagerie pour obtenir un pointeur vers votre banque de messages actuelle, un message ou un dossier. 
+Un site de message est un objet qui implémente l’interface [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) et aide les serveurs de formulaires à effectuer des tâches telles que le déplacement, l’enregistrement ou la suppression de messages, la création de nouveaux messages ou le lancement de serveurs de formulaires. Les sites de messages sont utilisés par des formulaires pour obtenir des informations sur l’état de votre client par rapport à différents fournisseurs de services. Par exemple, un formulaire peut utiliser votre site de message pour obtenir un pointeur vers votre magasin de messages actuel, un message ou un dossier. 
   
-Il existe deux types de méthodes dans l'interface **IMAPIMessageSite** : 
+Il existe deux types de méthodes dans l’interface **IMAPIMessageSite** : 
   
-- Méthodes qui fournissent des informations pour former des objets.
+- Méthodes qui fournissent des informations aux objets de formulaire.
     
-- Méthodes qui manipulent les messages.
+- Méthodes qui manipulent des messages.
     
-Les méthodes qui fournissent des informations aux objets de formulaire sont faciles à mettre en œuvre. Dans tous les cas, à l'exception de [IMAPIMessageSite:: GetSiteStatus](imapimessagesite-getsitestatus.md), vous devez déjà disposer des informations requises par chaque méthode.
+Les méthodes qui fournissent des informations aux objets de formulaire sont simples à implémenter. Dans tous les cas, à l’exception de [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md), vous devez déjà avoir les informations requises par chaque méthode.
   
-Les méthodes qui manipulent les messages doivent agir comme si elles avaient été déclenchées via votre interface utilisateur normale. Par exemple, si un objet Form appelle votre méthode [IMAPIMessageSite:: newMessage,](imapimessagesite-newmessage.md) , se comporte comme si l'utilisateur avait choisi de composer un nouveau message personnalisé avec votre interface utilisateur normale. Les commandes qui génèrent généralement ce comportement sont **composer**, **ouvrir**, **répondre**, **répondre à tous les destinataires**et **transférer**. 
+Les méthodes qui manipulent les messages doivent agir comme si elles avaient été déclenchées via votre interface utilisateur normale. Par exemple, si un objet de formulaire appelle votre méthode [IMAPIMessageSite::NewMessage,](imapimessagesite-newmessage.md) se comporte comme si l’utilisateur avait choisi de composer un nouveau message personnalisé avec votre interface utilisateur normale. Les commandes qui génèrent généralement ce comportement sont **Composer,** **Ouvrir,** **Répondre,** Répondre à tous les **destinataires** et **Forward**. 
   
-Un contexte de vue est un objet qui implémente l'interface [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md) et fournit aux serveurs de formulaires un contexte pour le message en cours, ce qui permet aux serveurs de basculer facilement vers le message suivant ou précédent dans le dossier. Un formulaire utilise un contexte d'affichage pour partager des informations. Avec un objet Context View, un formulaire peut: 
+Un contexte d’affichage est un objet qui implémente l’interface [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md) et fournit aux serveurs de formulaires un contexte pour le message actuel, ce qui permet aux serveurs de passer facilement au message suivant ou précédent dans le dossier. Un formulaire utilise un contexte d’affichage pour le partage d’informations. Avec un objet de contexte d’affichage, un formulaire peut : 
   
-- Inscrivez-vous avec votre client pour les notifications.
+- Inscrivez-vous auprès de votre client pour recevoir des notifications.
     
-- Activer le message suivant ou précédent dans le dossier.
+- Activez le message suivant ou précédent dans le dossier.
     
-- Obtenir des informations sur l'impression.
+- Obtenir des informations d’impression.
     
-- Obtenir l'état de votre client.
+- Obtenir l’état de votre client.
     
-- Obtenir un flux qui peut être utilisé pour enregistrer la version texte d'un message.
+- Obtenez un flux qui peut être utilisé pour enregistrer la version texte d’un message.
     
-À l'inStar des méthodes de l'interface [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) , les méthodes de **IMAPIViewContext** correspondent aux actions de l'utilisateur et aux fonctionnalités clientes qui sont liées au contexte d'affichage. Par exemple, un contexte d'affichage implique l'activation du message suivant ou précédent, le tri du contenu du dossier et le filtrage du contenu du dossier. 
+Similaires aux méthodes de l’interface [IMAPIMessageSite : IUnknown,](imapimessagesiteiunknown.md) les méthodes dans **IMAPIViewContext** correspondent aux actions utilisateur et aux fonctionnalités clientes liées au contexte d’affichage. Par exemple, un contexte d’affichage est impliqué dans l’activation du message suivant ou précédent, le tri du contenu du dossier et le filtrage du contenu du dossier. 
   
-Il n'est pas important de déterminer le mécanisme que vous fournissez aux utilisateurs pour activer ces fonctionnalités, il est uniquement important que la sémantique de ces fonctionnalités mappe bien aux méthodes de l'interface **IMAPIViewContext** . 
+Il n’est pas important de savoir quel mécanisme vous fournissez aux utilisateurs pour activer ces fonctionnalités, mais il est important que la sémantique de ces fonctionnalités soit bien m mappérée avec les méthodes de l’interface **IMAPIViewContext.** 
   
-Un récepteur de notification d'affichage est un objet qui implémente l'interface [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) et gère les notifications à partir de serveurs de formulaires qui affectent votre visionneuse et les formulaires d'aide et les visionneuses de formulaire pour fonctionner ensemble. Pour plus d'informations, consultez la rubrique [envoi et réception](sending-and-receiving-form-notifications.md)de notifications de formulaire. 
+Un réception de conseil d’affichage est un objet qui implémente l’interface [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) et gère les notifications provenant de serveurs de formulaires qui affectent votre visionneuse et aident les utilisateurs à travailler ensemble. Pour plus d’informations, voir [Envoyer et recevoir des notifications de formulaire.](sending-and-receiving-form-notifications.md) 
   
 

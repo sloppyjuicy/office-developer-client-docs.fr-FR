@@ -1,5 +1,5 @@
 ---
-title: Problèmes liés à l'environnement d'exploitation
+title: Problèmes de l’environnement d’exploitation
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434465"
 ---
-# <a name="operating-environment-issues"></a>Problèmes liés à l'environnement d'exploitation
+# <a name="operating-environment-issues"></a>Problèmes de l’environnement d’exploitation
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les problèmes liés au système d'exploitation et à l'environnement d'exploitation sont importants lorsque les développeurs MAPI choisissent un environnement de développement et un environnement pour l'installation du kit de développement logiciel (SDK) Windows.
+Les problèmes de système d’exploitation et d’environnement d’exploitation sont importants lorsque les développeurs MAPI choisissent un environnement de développement et un environnement pour l’installation du SDK Windows.
   
-Les développeurs MAPI doivent savoir que ces choix affectent le système d'exploitation sur lequel leur composant s'exécutera et la gamme de composants qu'ils seront en mesure de cibler.
+Les développeurs MAPI doivent savoir que ces choix affectent le système d’exploitation sur qui leur composant s’exécutera et la plage de composants qu’ils pourront cibler.
   
 ## <a name="see-also"></a>Voir aussi
 

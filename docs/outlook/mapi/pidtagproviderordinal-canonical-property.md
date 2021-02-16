@@ -25,32 +25,32 @@ ms.locfileid: "33438350"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'index de base zéro de la position d'un fournisseur de services dans la table des fournisseurs.
+Contient l’index de base zéro de la position d’un fournisseur de services dans la table fournisseur.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_ORDINAL  <br/> |
 |Identificateur :  <br/> |0x300D  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Cette propriété est calculée par MAPI.
   
-Obtenez la table du fournisseur en appelant la méthode [IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md) . Triez la table des fournisseurs sur cette propriété pour afficher l'ordre de transport. 
+Obtenez la table fournisseur en appelant la [méthode IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Tez la table des fournisseurs sur cette propriété pour afficher l’ordre de transport. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -19,10 +19,10 @@ ms.locfileid: "33435893"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-En guise d'alternative à l'inscription directe avec un objet de source de notification, tel qu'un dossier ou un utilisateur de messagerie, un client peut s'inscrire pour des notifications sur une table des matières ou une table de hiérarchie. Le suivi des modifications apportées aux entrées de carnet d'adresses, aux dossiers et aux messages via un tableau de contenu ou de hiérarchie peut être plus simple et plus simple qu'avec des objets individuels. 
+Au lieu de s’inscrire directement avec un objet source de conseil, tel qu’un dossier ou un utilisateur de messagerie, un client peut s’inscrire pour les notifications dans un contenu ou une table hiérarchique. Le suivi des modifications apportées aux entrées, dossiers et messages du carnet d’adresses par le biais d’un contenu ou d’une table hiérarchique peut être plus simple et plus simple que par le biais d’objets individuels. 
 
-Par exemple, vous pouvez appeler la fonction [IMAPITable:: Advise](imapitable-advise.md) sur la table de hiérarchie d'un dossier pour détecter les modifications apportées à l'un de ses sous-dossiers. Si vous prenez en charge l'affichage des messages distants, inscrivez-vous à l'aide de la table d'État pour observer l'activité par les fournisseurs de transport et le spouleur MAPI. 
+Par exemple, vous pouvez appeler [IMAPITable::Advise](imapitable-advise.md) on a folder’s hierarchy table to discover when changes occur to one of its subfolders. Si vous prendre en charge l’affichage des messages distants, inscrivez-vous dans la table d’état pour observer l’activité des fournisseurs de transport et dupooler MAPI. 
   
-Toutefois, il n'est pas toujours préférable d'utiliser des notifications de table au lieu de notifications d'objet. Le suivi des modifications apportées au nombre de messages dans un dossier est un exemple de la nécessité pour votre client d'inscrire des notifications d'objet sur un dossier plutôt que sur une table implémentée par le dossier.
+Toutefois, il n’est pas toujours préférable d’utiliser des notifications de tableau plutôt que des notifications d’objet. La surveillance des modifications apportées au nombre de messages dans un dossier est un exemple de cas où votre client peut avoir besoin de s’inscrire aux notifications d’objet sur un dossier plutôt que sur une table implémentée par le dossier.
   
 

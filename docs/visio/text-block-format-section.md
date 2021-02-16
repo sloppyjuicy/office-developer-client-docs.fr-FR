@@ -22,6 +22,6 @@ Contient les cellules qui définissent l'alignement, les marges et la position d
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir ces attributs de texte à l'aide de la boîte de dialogue **texte** (sous l'onglet **Accueil** , cliquez sur le lanceur de boîte de dialogue dans le groupe **police** ). 
+Vous pouvez également définir ces attributs de texte  à l’aide de la boîte de dialogue Texte (sous l’onglet Accueil, cliquez sur le lanceur de boîte de dialogue dans le groupe **Police).**  
   
 

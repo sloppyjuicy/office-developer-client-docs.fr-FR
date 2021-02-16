@@ -22,6 +22,6 @@ Décrit les attributs de remplissage de la forme et de son ombre portée (motif,
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir des formats de remplissage dans le volet **format** de la forme (sous l'onglet **Accueil** , dans le groupe **styles de formes** , cliquez sur **remplissage**, puis sur **options de remplissage**), en appliquant un style de remplissage ou en y apportant une entrée dans une cellule dans le format de **remplissage** . section. 
+Vous pouvez définir des  formats de remplissage  dans le volet Format de forme (sous l’onglet Accueil, dans le groupe **Styles** de forme, cliquez sur **Remplissage,** puis sur **Options** de remplissage) en appliquant un style de remplissage ou en faisant une entrée dans une cellule de la section **Format** de remplissage. 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33438371"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet.
+Compare deux identificateurs d’entrée pour déterminer s’ils font référence au même objet.
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,19 +42,19 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID1._ 
     
  _lpEntryID1_
   
-> dans Pointeur vers le premier identificateur d'entrée à comparer.
+> [in] Pointeur vers le premier identificateur d’entrée à comparer.
     
  _cbEntryID2_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID2._ 
     
  _lpEntryID2_
   
-> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
+> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
     
  _ulFlags_
   
@@ -62,25 +62,25 @@ HRESULT CompareEntryIDs(
     
  _lpulRet_
   
-> remarquer Pointeur vers le résultat de la comparaison. TRUE pour indiquer que les deux identificateurs d'entrée font référence au même objet; Sinon, FALSe.
+> [out] Pointeur vers le résultat de la comparaison. TRUE pour indiquer que les deux identificateurs d’entrée font référence au même objet ; sinon, FALSE.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les identificateurs d'entrée ont été comparés avec succès.
+> Les identificateurs d’entrée ont été comparés.
     
 MAPI_E_INVALID_ENTRYID 
   
-> L'un des identificateurs d'entrée (ou les deux) n'appartient pas au fournisseur de carnet d'adresses.
+> L’un des identificateurs d’entrée ou les deux n’appartiennent pas au fournisseur de carnet d’adresses.
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de carnets d'adresses implémentent la méthode **CompareEntryIDs** pour comparer deux identificateurs d'entrée afin de déterminer s'ils font référence au même objet. 
+Les fournisseurs de carnet d’adresses implémentent la méthode **CompareEntryIDs** pour comparer deux identificateurs d’entrée afin de déterminer s’ils font référence au même objet. 
   
- **CompareEntryIDs** est utile, car un objet peut avoir plus d'un identificateur d'entrée valide; une telle situation peut se produire, par exemple, lorsque vous comparez un identificateur d'entrée à court terme à un identificateur d'entrée à long terme. 
+ **CompareEntryIDs est utile** car un objet peut avoir plusieurs identificateurs d’entrée valides ; Une telle situation peut se produire, par exemple, lorsque vous comparez un identificateur d’entrée à court terme à un identificateur d’entrée à long terme. 
   
-Pour plus d'informations sur la création d'identificateurs d'entrée, consultez la rubrique [MAPI Entry Identifiers](mapi-entry-identifiers.md).
+Pour plus d’informations sur la création d’identificateurs d’entrée, voir identificateurs d’entrée [MAPI.](mapi-entry-identifiers.md)
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm680
 localization_priority: Normal
 ms.assetid: b82feade-5793-8a6e-3ff4-69a4cbdd2cf9
-description: "Représente la coordonnée x de l'axe de la forme (Centre de rotation) par rapport à l'origine de la forme. La formule par défaut permettant de déterminer LocPinX est la suivante :"
+description: 'Représente la coordonnée x de l’axe de la forme (centre de rotation) par rapport à l’origine de la forme. La formule par défaut permettant de déterminer LocPinX est la suivante :'
 ms.openlocfilehash: 2eb5c328eed3c97652173670c426b83b8c358833
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33439239"
 ---
 # <a name="locpinx-cell-shape-transform-section"></a>LocPinX, cellule (section Shape Transform)
 
-Représente la coordonnée *x* de l'axe de la forme (Centre de rotation) par rapport à l'origine de la forme. La formule par défaut permettant de déterminer LocPinX est la suivante : 
+Représente la  *coordonnée x*  de l’axe de la forme (centre de rotation) par rapport à l’origine de la forme. La formule par défaut permettant de déterminer LocPinX est la suivante : 
   
 = Largeur \* 0,5
   
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule LocPinX à l'aide d'un index à parti
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowXFormOut** <br/> |
 | Index de la cellule :  <br/> |**visXFormLocPinX** <br/> |
    

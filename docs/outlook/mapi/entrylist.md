@@ -25,11 +25,11 @@ ms.locfileid: "33436971"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Tableau d'identificateurs d'entrée représentant un objet MAPI qui utilise la même implémentation que la structure [SBinaryArray](sbinaryarray.md) . 
+Tableau d’identificateurs d’entrée représentant un objet MAPI qui utilise la même implémentation que la structure [SBinaryArray.](sbinaryarray.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;

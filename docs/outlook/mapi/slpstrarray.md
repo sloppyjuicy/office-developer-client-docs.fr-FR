@@ -25,11 +25,11 @@ ms.locfileid: "33435907"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de valeurs de chaîne utilisées pour décrire une propriété de type PT_MV_STRING8.
+Contient un tableau de valeurs de chaîne qui sont utilisées pour décrire une propriété de type PT_MV_STRING8.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SLPSTRArray
@@ -44,15 +44,15 @@ typedef struct _SLPSTRArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **lppszA** . 
+> Nombre de valeurs dans le tableau pointées par le **membre lppszA.** 
     
  **lppszA**
   
-> Pointeur vers un tableau de chaînes de caractères 8 bits terminées par null.
+> Pointeur vers un tableau de chaînes de caractères de 8 bits de fin null.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur PT_MV_STRING8, consultez la rubrique [liste des types de propriétés](property-types.md).
+Pour plus d’informations sur PT_MV_STRING8, voir [Liste des types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

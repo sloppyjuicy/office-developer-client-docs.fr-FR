@@ -25,7 +25,7 @@ ms.locfileid: "33436446"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur pour l'algorithme utilisé pour confirmer la confidentialité du contenu du message.
+Contient un identificateur pour l’algorithme utilisé pour confirmer la confidentialité du contenu des messages.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contient un identificateur pour l'algorithme utilisé pour confirmer la confiden
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

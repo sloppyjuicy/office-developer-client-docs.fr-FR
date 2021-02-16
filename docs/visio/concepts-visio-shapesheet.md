@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 245166ce-1cb6-634b-c763-bb717a940eec
-description: 'Cette page de navigation contient des liens vers des présentations de rubrique sur le programmabilité dans Visio. Cliquez sur les liens ci-dessous ou utilisez le sommaire pour accéder aux rubriques suivantes :'
+description: 'Cette page de navigation contient des liens vers des rubriques de vue d’ensemble sur les possibilités de programmation dans Visio. Cliquez sur les liens ci-dessous ou utilisez le sommaire pour accéder aux rubriques suivantes :'
 ms.openlocfilehash: fef26adf718b883ef2dbc75fc1f3b9cf1b143386
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33438896"
 ---
 # <a name="concepts-visio-shapesheet"></a>Concepts (Visio ShapeSheet)
 
-Cette page de navigation contient des liens vers des présentations de rubrique sur le programmabilité dans Visio. Cliquez sur les liens ci-dessous ou utilisez le sommaire pour accéder aux rubriques suivantes :
+Cette page de navigation contient des liens vers des rubriques de vue d’ensemble sur les possibilités de programmation dans Visio. Cliquez sur les liens ci-dessous ou utilisez le sommaire pour accéder aux rubriques suivantes :
   
 - [À propos des références de cellule](about-cell-references.md)
     

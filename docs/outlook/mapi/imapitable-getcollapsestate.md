@@ -25,7 +25,7 @@ ms.locfileid: "33436075"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie les données nécessaires pour recréer l'État réduit ou développé actuel d'une table catégorisée.
+Renvoie les données nécessaires pour reconstruire l’état actuel, réduire ou développé, d’une table classée.
   
 ```cpp
 HRESULT GetCollapseState(
@@ -41,57 +41,57 @@ LPBYTE FAR * lppbCollapseState
 
  _ulFlags_
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
  _cbInstanceKey_
   
-> dans Nombre d'octets dans la clé d'instance vers laquelle pointe le paramètre _lpbInstanceKey_ . 
+> [in] Nombre d’octets dans la clé d’instance pointée par le _paramètre lpbInstanceKey._ 
     
  _lpbInstanceKey_
   
-> dans Pointeur vers la propriété **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la ligne à laquelle l'État réduit ou développé actuel doit être reconstruit. Le paramètre _lpbInstanceKey_ ne peut pas être null. 
+> [in] Pointeur vers la **propriété PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la ligne à laquelle l’état actuellement réduire ou développé doit être reconstruit. Le  _paramètre lpbInstanceKey ne_ peut pas être NULL. 
     
  _lpcbCollapseState_
   
-> remarquer Pointeur vers le nombre de structures vers lesquelles pointe le paramètre _lppbCollapseState_ . 
+> [out] Pointeur vers le nombre de structures pointées par _le paramètre lppbCollapseState._ 
     
  _lppbCollapseState_
   
-> remarquer Pointeur vers un pointeur vers des structures qui contiennent des données qui décrivent la vue de tableau actuelle.
+> [out] Pointeur vers un pointeur vers des structures qui contiennent des données décrivent l’affichage tableau actuel.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'état de la table catégorisée a été enregistré avec succès.
+> L’état de la table classée a été enregistré avec succès.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours, ce qui empêche le démarrage de l'opération. L'opération en cours doit être autorisée ou elle doit être arrêtée.
+> Une autre opération est en cours qui empêche le démarrage de l’opération. L’opération en cours doit être autorisée ou arrêtée.
     
 MAPI_E_NO_SUPPORT 
   
-> Le tableau ne prend pas en charge la catégorisation, ni les vues développées et réduites.
+> Le tableau ne prend pas en charge la catégorisation et les affichages développés et réduire.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable:: GetCollapseState** fonctionne avec la méthode [IMAPITable:: SetCollapseState](imapitable-setcollapsestate.md) pour modifier l'affichage de l'utilisateur d'une table catégorisée. **GetCollapseState** enregistre les données nécessaires à **SetCollapseState** pour recréer les vues appropriées des catégories d'une table classée. Les fournisseurs de services déterminent les données à enregistrer. Toutefois, la plupart des fournisseurs de services qui implémentent **GetCollapseState** enregistrent les éléments suivants: 
+La **méthode IMAPITable::GetCollapseState** fonctionne avec la méthode [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md) pour modifier l’affichage d’une table classée par l’utilisateur. **GetCollapseState** enregistre les données nécessaires à l’utilisation de **SetCollapseState** pour reconstruire les affichages appropriés des catégories d’une table classée. Les fournisseurs de services déterminent les données à enregistrées. Toutefois, la plupart des fournisseurs de services implémentant **GetCollapseState** enregistrent les données suivantes : 
   
-- Les clés de tri (colonnes standard et colonnes de catégorie).
+- Clés de tri (colonnes standard et colonnes de catégorie).
     
-- Informations sur la ligne représentée par la clé d'instance.
+- Informations sur la ligne représentée par la clé d’instance.
     
-- Informations permettant de restaurer les catégories réduites et développées du tableau.
+- Informations pour restaurer les catégories collapsed et expanded du tableau.
     
-Pour plus d'informations sur les tables classées, reportez-vous à la rubrique [Tri et catégorisation](sorting-and-categorization.md).
+Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation.](sorting-and-categorization.md)
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Stockez l'état actuel de tous les nœuds d'une table dans le paramètre _lppbCollapseState_ . 
+Stockez l’état actuel de tous les nodes d’une table dans le _paramètre lppbCollapseState._ 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez toujours **GetCollapseState** avant d'appeler **SetCollapseState**. 
+Toujours appeler **GetCollapseState avant** d’appeler **SetCollapseState**. 
   
 ## <a name="see-also"></a>Voir aussi
 

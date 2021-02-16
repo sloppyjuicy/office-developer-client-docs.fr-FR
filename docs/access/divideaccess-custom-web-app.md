@@ -1,5 +1,5 @@
 ---
-title: /(Diviser) (application Web personnalisée Access)
+title: / (Divide) (Application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435186"
 ---
-# <a name="-divide-access-custom-web-app"></a>/(Diviser) (application Web personnalisée Access)
+# <a name="-divide-access-custom-web-app"></a>/ (Divide) (Application web personnalisée Access)
 
 Divise un nombre par un autre.
   
@@ -22,20 +22,20 @@ Divise un nombre par un autre.
   
 ## <a name="syntax"></a>Syntaxe
 
- **  /  ** diviseur de dividendes 
+ *2016*   /   *diviseur* 
   
- *dividende*  Est l'expression numérique à diviser. Peut être toute expression valide de n'importe quel type de données de la catégorie numérique, à l'exception du type de données DateTime. 
+ *2016*  Est l’expression numérique à diviser. Peut être n’importe quelle expression valide de l’un des types de données de la catégorie de type de données numériques, à l’exception du type de données date/heure. 
   
- ** Diviseur  Est l'expression numérique qui permet de diviser le dividende. Peut être toute expression valide de n'importe quel type de données de la catégorie numérique, à l'exception du type de données DateTime. 
+ *Diviseur*  Est l’expression numérique par laquelle diviser le versement. Peut être n’importe quelle expression valide de l’un des types de données de la catégorie de type de données numériques, à l’exception du type de données date/heure. 
   
 ## <a name="return-type"></a>Type renvoyé
 
-Renvoie le type de données de l'argument dont la priorité est la plus élevée. 
+Renvoie le type de données de l’argument avec la priorité la plus élevée. 
   
-Si un nombre ** entier dividende est divisé par un diviseur entier, le résultat est un entier dont la partie fractionnaire du résultat est tronquée. ** 
+Si un nombre integer  *est*  divisé par un  *diviseur d’un*  nombre integer, le résultat est un nombre integer qui a une partie fractionnaire du résultat tronqué. 
   
 ## <a name="remarks"></a>Remarques
 
-La valeur réelle renvoyée par l'opérateur/est le quotient de la première expression divisée par la deuxième expression.
+La valeur réelle renvoyée par l’opérateur / est le quotient de la première expression divisée par la deuxième expression.
   
 

@@ -17,7 +17,7 @@ ms.locfileid: "33436845"
 ---
 # <a name="lockthemecolors-cell-protection-section"></a>LockThemeColors, cellule (section Protection)
 
-Empêche l'application de couleurs de thème à la forme. 
+Empêche l’application de couleurs de thème à la forme. 
   
 La valeur de la cellule LockThemeColors correspond au paramétrage de la case à cocher **Contre les couleurs du thème** de la boîte de dialogue **Protection**. 
   
@@ -33,7 +33,7 @@ Pour faire référence à la cellule LockThemeColors par index dans un programme
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowLock** <br/> |
 |Index de la cellule :  <br/> |**visLockThemeColors** <br/> |
    

@@ -32,7 +32,7 @@ Pour faire référence à la cellule AlignLeft à l'aide d'un index à partir d'
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowAlign** <br/> |
 | Index de la cellule :  <br/> |**visAlignLeft** <br/> |
    

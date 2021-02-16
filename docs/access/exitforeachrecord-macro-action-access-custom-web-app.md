@@ -1,5 +1,5 @@
 ---
-title: QuitterPourChaqueEnregistrement, action de macro (application Web personnalisée Access)
+title: ExitForEachRecord Macro Action (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438043"
 ---
-# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a>QuitterPourChaqueEnregistrement, action de macro (application Web personnalisée Access)
+# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a>ExitForEachRecord Macro Action (Access custom web app)
 
 Utilisez l'action **QuitterPourChaqueEnregistrement** pour quitter immédiatement un bloc de données **[PourChaqueEnregistrement](foreachrecord-data-block-access-custom-web-app.md)**. 
   

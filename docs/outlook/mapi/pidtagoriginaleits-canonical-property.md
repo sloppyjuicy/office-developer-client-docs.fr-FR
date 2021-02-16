@@ -25,26 +25,26 @@ ms.locfileid: "33434710"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une copie des types d'informations codées d'origine (EITs) pour le texte du message.
+Contient une copie des types d’informations codés d’origine (EIT) pour le texte du message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINAL_EITS  <br/> |
 |Identificateur :  <br/> |0x0021  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Server  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

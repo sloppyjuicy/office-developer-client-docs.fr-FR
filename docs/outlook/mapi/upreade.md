@@ -19,7 +19,7 @@ ms.locfileid: "33434143"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations étendues pour le téléchargement de l'état de lecture d'un élément pendant l'état de [lecture de téléchargement](upload-read-status-state.md).
+Informations étendues pour le chargement de l’état de lecture d’un élément pendant l’état de [lecture du chargement.](upload-read-status-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,27 +35,27 @@ struct UPREADE
 
 _ulFlags_
   
->  [out]/[in] indicateurs pour déterminer le comportement approprié pendant le chargement. 
+>  [out]/[in] Indicateurs pour déterminer le comportement approprié pendant le chargement. 
     
   - UPR_ASSOC
     
-    - remarquer L'élément est masqué.
+    - [out] L’élément est masqué.
     
   - UPR_READ
     
-    - remarquer L'état de lecture de l'élément a été modifié.
+    - [out] L’état de lecture de l’élément a été modifié.
     
   - UPR_OK
     
-    - dans Le chargement a réussi. Le client le définit après avoir téléchargé des informations sur le serveur.
+    - [in] Le chargement a réussi. Le client définit cette information après le téléchargement d’informations sur le serveur.
     
   - UPR_COMMIT
     
-    - dans Télécharger l'état de lecture de l'élément maintenant, au lieu d'attendre la fin de l'état de la [table de chargement](upload-table-state.md) pour traiter plus d'un élément. 
+    - [in] Téléchargez l’état de lecture de l’élément maintenant, au lieu d’attendre la fin de l’état de [la table](upload-table-state.md) de chargement pour traiter par lots plusieurs éléments. 
     
 _skey_
   
-> remarquer Clé source de l'élément.
+> [out] Clé source de l’élément.
     
 ## <a name="see-also"></a>Voir aussi
 

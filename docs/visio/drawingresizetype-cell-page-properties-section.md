@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm80002
 localization_priority: Normal
 ms.assetid: 99a5ca0e-5cb4-64cc-8af5-15ac6d02c77f
-description: Détermine si la page de dessin se redimensionne automatiquement pour s'ajuster au diagramme.
+description: Détermine si la page de dessin se re resserra automatiquement pour s’adapter au diagramme.
 ms.openlocfilehash: 6956c1e021ffffdb54f3dfa36270b9df04e892b0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33437006"
 ---
 # <a name="drawingresizetype-cell-page-properties-section"></a>DrawingResizeType, cellule (section Page Properties)
 
-Détermine si la page de dessin se redimensionne automatiquement pour s'ajuster au diagramme. 
+Détermine si la page de dessin se re resserra automatiquement pour s’adapter au diagramme. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -32,7 +32,7 @@ Pour obtenir une référence à la cellule DrawingResizeType à l’aide d’un 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPage** <br/> |
 |Index de la cellule :  <br/> |**visPageDrawResizeType** <br/> |
    

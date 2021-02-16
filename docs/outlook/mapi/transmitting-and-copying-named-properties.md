@@ -1,5 +1,5 @@
 ---
-title: Transmission et copie des propriétés nommées
+title: Transmission et copie de propriétés nommées
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437776"
 ---
-# <a name="transmitting-and-copying-named-properties"></a>Transmission et copie des propriétés nommées
+# <a name="transmitting-and-copying-named-properties"></a>Transmission et copie de propriétés nommées
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Chaque fois qu'une propriété nommée est envoyée, déplacée ou copiée, le nom reste constant, mais l'identificateur doit être modifié pour adhérer au mappage de l'objet de destination. La seule exception à cette règle est lorsque la source et la destination ont la même signature de mappage, ce qui rend superflu le remappage.
+Chaque fois qu’une propriété nommée est envoyée, déplacée ou copiée, le nom reste constant, mais l’identificateur doit changer pour adhérer au mappage de l’objet de destination. La seule exception à cette règle est lorsque la source et la destination ont la même signature de mappage, ce qui rend inutile le remappage.
   
-Il incombe au fournisseur de transport de remapper les noms des propriétés nommées transmises à des identificateurs appropriés qui fonctionnent à la destination. Le fournisseur de transport d'envoi ne peut pas savoir quel mappage correct se trouve à la destination; il doit transmettre les noms et s'appuyer sur le fournisseur de transport de réception pour les mapper aux identificateurs qui fonctionnent. L'implémentation MAPI de TNEF gère le remappage des propriétés nommées pour les fournisseurs de transport. Les fournisseurs de transport peuvent gérer manuellement le remappage ou utiliser l'implémentation TNEF. 
+Il incombe au fournisseur de transport de rema propres aux identificateurs appropriés qui fonctionnent à destination les noms des propriétés nommées transmises. Le fournisseur de transport d’envoi ne peut pas savoir quel est le mappage correct à la destination ; Il doit transmettre les noms et s’appuyer sur le fournisseur de transport de réception pour les matre aux identificateurs qui fonctionnent. L’implémentation MAPI de TNEF gère le remappage des propriétés nommées pour les fournisseurs de transport. Les fournisseurs de transport peuvent gérer le remappage manuellement ou utiliser l’implémentation TNEF. 
   
-Un remappage similaire des propriétés nommées doit se produire lorsque ces propriétés sont copiées entre des magasins de messages. Toutefois, étant donné que les fournisseurs de banques de messages peuvent récupérer le mappage du nom au identificateur de la destination, ils peuvent remapper les propriétés immédiatement et ne pas avoir à se reposer sur la Banque de messages de destination. 
+Un remappage similaire des propriétés nommées doit se produire lorsque ces propriétés sont copiées entre les magasins de messages. Toutefois, étant donné que les fournisseurs de magasins de messages peuvent récupérer le nom au mappage d’identificateur de la destination, ils peuvent remamailler les propriétés immédiatement et ne pas avoir à dépendre de la magasin de messages de destination. 
   
 ## <a name="see-also"></a>Voir aussi
 

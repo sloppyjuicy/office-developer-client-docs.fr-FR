@@ -19,7 +19,7 @@ ms.locfileid: "33438112"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le téléchargement du contenu d'un dossier lors de l' [État](upload-table-state.md)de la table de chargement.
+Informations pour le chargement du contenu d’un dossier pendant [l’état de la table de téléchargement.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -43,11 +43,11 @@ struct UPTBL
 
 _ulFlags_
   
-> dans Indicateurs permettant de déterminer le comportement approprié pendant le chargement.
+> [in] Indicateurs pour déterminer le comportement approprié pendant le chargement.
     
   - UPT_OK
     
-    - dans Le chargement a réussi. Le client définit cette valeur après avoir téléchargé le contenu du dossier sur le serveur.
+    - [in] Le chargement a réussi. Le client le définit après avoir chargé le contenu du dossier sur le serveur.
     
 _pstmReserved_
   
@@ -67,25 +67,25 @@ _uintReserved_
     
 _rgte_
   
-> remarquer Structure pour contenir les informations suivantes pour les éléments normaux (ou non masqués) et les éléments associés (ou masqués) dans le dossier: _rgte [0]_ correspond aux éléments normaux et _rgte [1]_ correspond aux éléments associés. 
+> [out] Structure qui contient les informations suivantes pour les éléments normaux (ou non masqués) et les éléments associés (ou masqués) dans le dossier :  _rgte[0]_ est pour les éléments normaux et  _rgte[1]_ pour les éléments associés. 
     
-   - nombre d'éléments nouveaux ou modifiés
-   - nombre d'éléments lus 
-   - nombre d'éléments supprimés
+   - nombre d’éléments nouveaux ou modifiés ;
+   - nombre d’éléments lus ; 
+   - nombre d’éléments supprimés ;
     
  _iEnt_
   
-> remarquer Index permettant de suivre le téléchargement du nombre de modifications spécifiées par _cEnt_.
+> [out] Index pour suivre le téléchargement du nombre de modifications spécifié par  _cEnt_.
     
-_Motivé_
+_cEnt_
   
-> remarquer Nombre de modifications apportées au dossier.
+> [out] Nombre de modifications apportées au dossier.
     
-_pupmovHead_
+_movHead_
   
-> remarquer Chaîne de structures [UPMOV](upmov.md) . 
+> [out] Chaîne de structures [UPMOV.](upmov.md) 
     
-_Disparition_
+_pReserved_
   
 > [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
     

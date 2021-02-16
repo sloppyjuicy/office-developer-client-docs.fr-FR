@@ -25,7 +25,7 @@ ms.locfileid: "33436439"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide toutes les chaînes dans un tableau de chaînes Unicode. 
+Valide toutes les chaînes d’un tableau de chaînes Unicode. 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ BOOL FBadRglpszW(
 
  _lppszW_
   
-> dans Pointeur vers un tableau de chaînes Unicode terminées par un caractère null. 
+> [in] Pointeur vers un tableau de chaînes Unicode terminées par null. 
     
  _cStrings_
   
-> dans Nombre de chaînes dans le tableau vers lequel pointe le paramètre _lppszW_ . 
+> [in] Nombre de chaînes dans le tableau pointées par _le paramètre lppszW._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

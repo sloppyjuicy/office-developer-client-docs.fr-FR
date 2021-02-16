@@ -36,7 +36,7 @@ Contient une valeur qui indique le type de fournisseur de services.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement l'une des valeurs suivantes:
+Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
 MAPI_AB 
   
@@ -44,11 +44,11 @@ MAPI_AB
     
 MAPI_AB_PROVIDER 
   
-> Fournisseur de carnets d'adresses
+> Fournisseur de carnet d’adresses
     
 MAPI_HOOK_PROVIDER 
   
-> Fournisseur de hook de spouleur
+> Fournisseur de crochets Spooler
     
 MAPI_PROFILE_PROVIDER 
   
@@ -56,11 +56,11 @@ MAPI_PROFILE_PROVIDER
     
 MAPI_SPOOLER 
   
-> Spouleur de messages
+> Spooler de message
     
 MAPI_STORE_PROVIDER 
   
-> Fournisseur de banque de messages
+> Fournisseur de magasin de messages
     
 MAPI_SUBSYSTEM 
   
@@ -72,15 +72,15 @@ MAPI_TRANSPORT_PROVIDER
     
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -36,14 +36,14 @@ Pour obtenir une référence à la cellule Disabled à partir du nom d’une aut
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | SmartTag.  *nom* . Désactivé où SmartTags. *Name* est le nom de la ligne de balise d'action  <br/> |
+| Nom de cellule :  <br/> | SmartTags.  *nom*  . Désactivé lorsque SmartTags. *name est*  le nom de la ligne de balise d’action  <br/> |
    
 Pour obtenir une référence à la cellule Disabled à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visSmartTagDisabled** <br/> |
    
 

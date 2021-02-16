@@ -25,29 +25,29 @@ ms.locfileid: "33436222"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette interface fournit des fonctionnalités d'assistance lors de l'exécution de la réplication via l'interface **[IOSTX](iostxiunknown.md)** . 
+Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface **[IOSTX.](iostxiunknown.md)** 
   
 |||
 |:-----|:-----|
 |Fourni par  <br/> |Requête sur [IMsgStore](imsgstoreimapiprop.md) <br/> |
-|Identificateur de l'interface:  <br/> |IID_IPSTX  <br/> |
+|Identificateur d’interface :  <br/> |IID_IPSTX  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|**[Généré](ipstx-getlasterror.md)** <br/> |Obtient des informations étendues sur la dernière erreur.  <br/> |
-|**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Obtient l'interface **[IOSTX](iostxiunknown.md)** associée.  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Définit une banque locale pour émuler le gestionnaire de protocoles Outlook afin de spouler les messages sortants vers un serveur.  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+|**[GetLastError](ipstx-getlasterror.md)** <br/> |Obtient des informations étendues sur la dernière erreur.  <br/> |
+|**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Obtient l’interface **[IOSTX](iostxiunknown.md)** associée.  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Définit un magasin local pour émuler le Gestionnaire de protocole Outlook afin de mettre en file d’ensemble les messages sortants sur un serveur.  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

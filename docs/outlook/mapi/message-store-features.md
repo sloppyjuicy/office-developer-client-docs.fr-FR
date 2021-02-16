@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités de banque de messages
+title: Fonctionnalités de la boutique de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,33 +15,33 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439519"
 ---
-# <a name="message-store-features"></a>Fonctionnalités de banque de messages
+# <a name="message-store-features"></a>Fonctionnalités de la boutique de messages
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fournisseurs de banque de messages sont plus complexes que d'autres fournisseurs de services MAPI dans ce dernier les fournisseurs de banques de messages disposent d'un large éventail de fonctionnalités facultatives qu'ils peuvent implémenter. La liste des fonctionnalités requises pour un fournisseur de banque de messages est relativement courte. Toutefois, un fournisseur de banque de messages classique prend en charge un certain nombre de fonctionnalités facultatives, car de nombreuses fonctionnalités facultatives sont très utiles ou requises par la plupart des clients MAPI. Le tableau suivant répertorie les principales fonctionnalités que les fournisseurs de banques de messages peuvent implémenter et indique si chaque fonctionnalité est requise ou facultative pour tous les fournisseurs de banques de messages et pour les fournisseurs de banques de messages par défaut.
+Les fournisseurs de magasins de messages sont plus complexes que les autres fournisseurs de services MAPI, car ils disposent d’un plus large éventail de fonctionnalités facultatives qu’ils peuvent implémenter. La liste des fonctionnalités requises pour un fournisseur de magasins de messages est relativement courte. Toutefois, un fournisseur de magasin de messages classique prendra en charge un certain nombre de fonctionnalités facultatives, car la plupart des fonctionnalités facultatives sont très utiles ou requises par la plupart des clients MAPI. Le tableau suivant répertorie les principales fonctionnalités que les fournisseurs de magasins de messages peuvent implémenter et indique si chaque fonctionnalité est requise ou facultative pour tous les fournisseurs de magasins de messages et pour les fournisseurs de magasins de messages par défaut.
   
 |**Fonctionnalité**|**All**|**Par défaut**|
 |:-----|:-----|:-----|
-|Fourniture de l'état avec la table d'État MAPI.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Implémentation des objets de dossier.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Implémentation d'objets message.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
+|Fourniture de l’état avec la table d’état MAPI.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
+|Mise en œuvre d’objets de dossier.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
+|Mise en œuvre d’objets de message.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
 |Fournir des rapports de lecture et nonread.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Fourniture d'une interface de progression.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Fourniture d'une interface de configuration.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Prise en charge des tables de contenu associées pour la prise en charge des formulaires et des vues.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Envoi de messages à l'aide du fournisseur de banque de messages.  <br/> |Facultatif  <br/> |Obligatoire  <br/> |
-|Réception de messages avec le fournisseur de banque de messages.  <br/> |Facultatif  <br/> |Obligatoire  <br/> |
-|Prise en charge des pièces jointes.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Prise en charge du format RTF pour les messages.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
+|Fourniture d’une interface de progression.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
+|Fourniture d’une interface de configuration.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
+|Prise en charge des tables de contenu associées pour la prise en charge des formulaires et des affichages.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
+|Envoi de messages avec le fournisseur de la boutique de messages.  <br/> |Facultatif  <br/> |Obligatoire  <br/> |
+|Réception de messages avec le fournisseur de la boutique de messages.  <br/> |Facultatif  <br/> |Obligatoire  <br/> |
+|Prise en charge des pièces jointes de message.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
+|Prise en charge du format texte enrichi pour les messages.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
 |Fourniture de notifications.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Les recherches de prise en charge.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Prise en charge de fournisseurs de transport et de banques de messages étroitement couplés.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Prise en charge de la non-réutilisation des identificateurs d'entrée.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
+|Prise en charge des recherches.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
+|Prise en charge de fournisseurs de transport/magasin de messages étroitement couplés.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
+|Prise en charge de la non-réutilisation des identificateurs d’entrée.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
    
-De nombreuses fonctionnalités facultatives peuvent être annoncées dans les applications MAPI et clientes en définissant différents indicateurs dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de l'objet Banque de messages. Les fonctionnalités requises ne sont pas associées à des indicateurs. **PR_STORE_SUPPORT_MASK** est requis sur les objets de banque de messages, de dossier et de message. 
+Bon nombre des fonctionnalités facultatives peuvent être publiées dans MAPI et les applications clientes en paraxant différents indicateurs dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de l’objet de la boutique de messages. Les fonctionnalités requises ne sont pas associées à des indicateurs. **PR_STORE_SUPPORT_MASK** est nécessaire sur les objets de message, de dossier et de message. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,11 +25,11 @@ ms.locfileid: "33437993"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine la taille, en octets, d'un tableau de notifications d'événements et valide la mémoire associée au tableau.
+Détermine la taille, en octets, d’un tableau de notifications d’événements et valide la mémoire associée au tableau.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,17 +43,17 @@ SCODE ScCountNotifications(
 
 ## <a name="parameters"></a>Paramètres
 
- _CNTF_
+ _cntf_
   
-> dans Nombre de structures de [notification](notification.md) dans le tableau indiqué par le paramètre _rgntf_ . 
+> [in] Nombre de structures [DE NOTIFICATION](notification.md) dans le tableau indiqué par le _paramètre rgntf._ 
     
  _rgntf_
   
-> dans Pointeur vers le tableau de structures de **notification** dont la taille doit être déterminée. 
+> [in] Pointeur vers le tableau des structures **DE NOTIFICATION** dont la taille doit être déterminée. 
     
- _circuits_
+ _pcb_
   
-> remarquer Pointeur facultatif vers la taille, en octets, du tableau désigné par le paramètre _rgntf_ . Si la valeur est NULL, **ScCountNotifications** valide le tableau de notifications. 
+> [out] Pointeur facultatif vers la taille, en octets, du tableau pointé par le _paramètre rgntf._ Si la valeur est NULL, **ScCountNotifications** valide le tableau des notifications. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -63,10 +63,10 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER
   
-> Une notification incorrecte a été rencontrée.
+> Une notification non valide a été rencontrée.
     
 ## <a name="remarks"></a>Remarques
 
-Si NULL est transmis dans le paramètre _PCB_ , la fonction **ScCountNotifications** valide uniquement le tableau des notifications, mais aucun décompte n'est réalisé; Si une valeur non null est transmise dans _PCB_, **ScCountNotifications** détermine la taille du tableau et stocke la cause de la _PCB_. Le paramètre _PCB_ doit être assez grand pour contenir l'intégralité du tableau. 
+Si NULL est transmis dans le  _paramètre pcb,_ la **fonction ScCountNotifications** valide uniquement le tableau de notifications, mais aucun décompte n’est effectué . si une valeur non null est passée dans  _pcb_, **ScCountNotifications** détermine la taille du tableau et stocke la  _cause pcb_. Le  _paramètre pcb_ doit être suffisamment grand pour contenir la totalité du tableau. 
   
 

@@ -41,27 +41,27 @@ HRESULTCopyProfile(
 
  _lpszOldProfileName_
   
-> dans Pointeur vers le nom du profil à copier.
+> [in] Pointeur vers le nom du profil à copier.
     
  _lpszOldPassword_
   
-> dans Pointeur vers le mot de passe du profil à copier.
+> [in] Pointeur vers le mot de passe du profil à copier.
     
  _lpszNewProfileName_
   
-> dans Pointeur vers le nouveau nom du profil copié.
+> [in] Pointeur vers le nouveau nom du profil copié.
     
  _ulUIParam_
   
-> dans Handle de la fenêtre parente des boîtes de dialogue ou des fenêtres que cette méthode affiche.
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont le profil est copié. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont le profil est copié. Les indicateurs suivants peuvent être définies :
     
 MAPI_DIALOG 
   
-> Affiche une boîte de dialogue qui invite l'utilisateur à indiquer le mot de passe correct du profil à copier. Si cet indicateur n'est pas défini, aucune boîte de dialogue ne s'affiche.
+> Affiche une boîte de dialogue qui demande à l’utilisateur le mot de passe correct du profil à copier. Si cet indicateur n’est pas définie, aucune boîte de dialogue n’est affichée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -71,33 +71,33 @@ S_OK
     
 MAPI_E_ACCESS_DENIED 
   
-> Le nouveau nom de profil est identique à celui d'un profil existant.
+> Le nouveau nom de profil est identique à celui d’un profil existant.
     
 MAPI_E_LOGON_FAILED 
   
-> Le mot de passe du profil à copier est incorrect et une boîte de dialogue n'a pas pu être affichée à l'utilisateur pour demander le mot de passe correct car MAPI_DIALOG n'a pas été défini dans le paramètre _ulFlags_ . 
+> Le mot de passe du profil à copier est incorrect et une boîte de dialogue n’a pas pu être affichée pour demander le mot de passe correct, car MAPI_DIALOG n’a pas été définie dans le paramètre _ulFlags._ 
     
 MAPI_E_NOT_FOUND 
   
-> Le profil spécifié n'existe pas.
+> Le profil spécifié n’existe pas.
     
 MAPI_E_USER_CANCEL 
   
-> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** d'une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProfAdmin:: CopyProfile** effectue une copie du profil désigné par _lpszOldProfileName_, lui donnant le nom indiqué par _lpszNewProfileName_. La copie d'un profil laisse la copie avec le même mot de passe que l'original.
+La **méthode IProfAdmin::CopyProfile** effectue une copie du profil pointé par  _lpszOldProfileName_, en lui donnant le nom pointé par  _lpszNewProfileName_. La copie d’un profil laisse la copie avec le même mot de passe que l’original.
   
-Le nom du profil d'origine, son mot de passe et la copie peuvent contenir jusqu'à 64 caractères et peuvent inclure les caractères suivants:
+Le nom du profil d’origine, son mot de passe et la copie peuvent comporter jusqu’à 64 caractères et peuvent inclure les caractères suivants :
   
-- Tous les caractères alphanumériques, y compris les caractères d'accentuation et le trait de soulignement.
+- Tous les caractères alphanumériques, y compris les caractères d’accentuateur et le caractère de soulignement.
     
-- Espaces incorporés, mais pas d'espaces de début ou de fin.
+- Espaces incorporés, mais pas espaces de début ou de fin.
     
-Les mots de passe de profil ne sont pas pris en charge sur tous les systèmes d'exploitation. Sur les systèmes d'exploitation qui ne prennent pas en charge les mots de passe de profil, _lpszOldPassword_ peut être null ou un pointeur vers une chaîne de longueur nulle. 
+Les mots de passe de profil ne sont pas pris en charge sur tous les systèmes d’exploitation. Sur les systèmes d’exploitation qui ne supportent pas les mots de passe de profil,  _lpszOldPassword_ peut être NULL ou un pointeur vers une chaîne nulle. 
   
-Si _lpszOldPassword_ est défini sur null, le profil à copier requiert un mot de passe et l'indicateur MAPI_DIALOG est défini; une boîte de dialogue invitant l'utilisateur à indiquer le mot de passe est affichée. Si un mot de passe est requis, mais que _lpszOldPassword_ est défini sur null et que l'indicateur MAPI_DIALOG n'est pas défini, **CopyProfile** renvoie MAPI_E_LOGON_FAILED. 
+Si  _lpszOldPassword_ est définie sur NULL, le profil à copier nécessite un mot de passe et l’indicateur MAPI_DIALOG est définie ; Une boîte de dialogue qui invite l’utilisateur à fournir le mot de passe s’affiche. Si un mot de passe est requis, mais  _que lpszOldPassword_ est définie sur NULL et que l’indicateur MAPI_DIALOG n’est pas définie, **CopyProfile** renvoie MAPI_E_LOGON_FAILED. 
   
 ## <a name="see-also"></a>Voir aussi
 

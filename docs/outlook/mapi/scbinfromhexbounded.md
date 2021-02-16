@@ -25,11 +25,11 @@ ms.locfileid: "33439757"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-ConVertit la partie spécifiée d'une représentation sous forme de chaîne d'un nombre hexadécimal en nombre binaire. 
+Convertit la partie spécifiée d’une représentation de chaîne d’un nombre hexadécimal en nombre binaire. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,17 +43,17 @@ SCODE ScBinFromHexBounded(
 
 ## <a name="parameters"></a>Paramètres
 
- _t_
+ _sz_
   
-> dans Pointeur vers la chaîne terminée par un caractère null à convertir. Les caractères valides incluent les caractères hexadécimaux compris entre 0 et 9, ainsi que les caractères majuscules et minuscules a à f.
+> [in] Pointeur vers la chaîne terminée par null à convertir. Les caractères valides incluent les caractères hexadécimals 0 à 9, ainsi que les caractères en minuscules et en minuscules a à f.
     
  _pb_
   
-> remarquer Pointeur vers le nombre binaire renvoyé.
+> [out] Pointeur vers le nombre binaire renvoyé.
     
  _cb_
   
-> dans Taille, en octets, du paramètre _PB_ . 
+> [in] Taille, en octets, du _paramètre pb._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -63,7 +63,7 @@ S_OK
     
 MAPI_E_CALL_FAILED
   
-> Des caractères non valides ont été détectés.
+> Des caractères non valides ont été rencontrés.
     
 ## <a name="see-also"></a>Voir aussi
 

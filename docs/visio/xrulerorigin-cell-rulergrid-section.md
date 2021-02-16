@@ -1,5 +1,5 @@
 ---
-title: Cellule XRulerOrigin (section &amp; règle et grille)
+title: XRulerOrigin, cellule (section Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435326"
 ---
-# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>Cellule XRulerOrigin (section &amp; règle et grille)
+# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>XRulerOrigin, cellule (section Ruler &amp; Grid)
 
 Indique le point zéro sur l'axe x de la règle de la page.
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l'option **zéro** de la règle horizontale dans la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l’option **Règle** zéro horizontale dans  la boîte de dialogue **Grille &amp;** de règles (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
   
 Pour obtenir une référence à la cellule XRulerOrigin par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule XRulerOrigin par index dans un progra
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visXRulerOrigin** <br/> |
    

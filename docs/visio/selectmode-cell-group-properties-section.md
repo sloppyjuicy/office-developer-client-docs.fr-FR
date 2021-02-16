@@ -23,12 +23,12 @@ Détermine le mode de sélection d'une forme de groupe et de ses membres.
 |**Valeur**|**Mode de sélection**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Sélectionner uniquement la forme de groupe.  <br/> |**visGrpSelModeGroupOnly** <br/> |
-|0,1  <br/> |Sélectionner la forme de groupe en premier.  <br/> |**visGrpSelModeGroup1st** <br/> |
-|n°2  <br/> |Sélectionner les membres du groupe en premier.  <br/> |**visGrpSelModeMembers1st** <br/> |
+|1   <br/> |Sélectionner la forme de groupe en premier.  <br/> |**visGrpSelModeGroup1st** <br/> |
+|2   <br/> |Sélectionner les membres du groupe en premier.  <br/> |**visGrpSelModeMembers1st** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir cette valeur dans la boîte de dialogue **comportement** (avec la forme groupe sélectionnée, sous l'onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , dans le groupe création de la **forme** , cliquez sur **comportement**, puis sur un mode dans la liste **sélection** sous **groupe. Comportement** ). 
+Vous pouvez également définir  cette valeur dans la boîte de dialogue [](run-in-developer-mode-display-the-developer-tab.md) Comportement (avec la forme de groupe sélectionnée, sous  l’onglet Développeur, dans le groupe Création de formes, cliquez sur **Comportement,** puis cliquez sur un mode dans la liste Sélection sous Comportement du  **groupe).** 
   
 Pour obtenir une référence à la cellule SelectMode par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule SelectMode à l'aide d'un index à pa
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowGroup** <br/> |
 |Index de la cellule :  <br/> |**visGroupSelectMode** <br/> |
    

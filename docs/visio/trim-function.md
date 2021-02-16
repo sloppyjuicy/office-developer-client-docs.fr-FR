@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1027318
 localization_priority: Normal
 ms.assetid: 6f2d84fd-27eb-4c2f-a2e1-43d20e0c78be
-description: Supprime tout l'espace du texte, à l'exception des espaces simples entre les mots.
+description: Supprime tout l’espace du texte, à l’exception des espaces simples entre les mots.
 ms.openlocfilehash: b947c9500012d0ceefe3e8044be387f7b810dda9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33435718"
 ---
 # <a name="trim-function"></a>Fonction TRIM
 
-Supprime tout l'espace du texte, à l'exception des espaces simples entre les mots. 
+Supprime tout l’espace du texte, à l’exception des espaces simples entre les mots. 
   
 ## <a name="syntax"></a>Syntaxe
 
-TRIM (* * *Text* * *) 
+TRIM (** *texte* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -40,7 +40,7 @@ Vous pouvez utiliser la fonction TRIM sur du texte provenant d’une autre appli
   
 ## <a name="example"></a>Exemple
 
-TRIM ("janvier 1, 2003") 
+TRIM (« 1er janvier 2003 « ) 
   
 Renvoie "2 janvier 2003". 
   

@@ -21,7 +21,7 @@ ms.locfileid: "33436798"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour les éléments qui ont été supprimés dans un magasin local. Ces informations sont utilisées lors de l' [État de suppression de chargement](upload-delete-status-state.md).
+Informations sur les éléments qui ont été supprimés dans un magasin local. Ces informations sont utilisées pendant [l’état de suppression de téléchargement.](upload-delete-status-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,13 +35,13 @@ struct UPDEL
 
 ## <a name="members"></a>Membres
 
- _pupde_
+ _édéde_
   
->  remarquer Vecteur des [](updele.md) entrées de la préversion. 
+>  [out] Vecteur des [entrées UPDELE.](updele.md) 
     
- _Motivé_
+ _cEnt_
   
-> remarquer Nombre d'entrées dans *pupde* . 
+> [out] Nombre d’entrées  *dans le nœud*  . 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidRemoteTransport
+title: Propri t canonique PidLidRemoteTransport
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,25 +19,25 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439442"
 ---
-# <a name="pidlidremotetransport-canonical-property"></a>Propriété canonique PidLidRemoteTransport
+# <a name="pidlidremotetransport-canonical-property"></a>Propri t canonique PidLidRemoteTransport
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Identifie le compte auquel l'élément d'en-tête est associé, principalement pour implémenter la fonctionnalité laisser le POP sur le serveur. 
+Identifie le compte à quel compte l’élément d’en-tête est associé, principalement pour implémenter la fonctionnalité POP Leave on Server. 
   
 |||
 |:-----|:-----|
 |Propriétés associées  <br/> |dispidRemoteXP  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Remote  <br/> |
-|ID long (couvercle):  <br/> |0x00008F03  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |
+|ID long (LID) :  <br/> |0x00008F03  <br/> |
 |Type de données :  <br/> |PT_STRING8  <br/> |
 |Domaine :  <br/> |Message distant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété s'applique uniquement aux messages dont la classe de message est IPM. À. Microsoft Outlook conserve un mappage des différents comptes qui sont téléchargés vers un magasin donné dans un message d'informations sur le dossier (FAI), mais il peut également conserver ces informations dans le registre.
+Cette propriété n’est pertinente que pour les messages qui ont une classe de message IPM. Distant. Microsoft Outlook conserve un mappage de différents comptes qui sont téléchargés vers une banque donnée dans un message FAI (Folder Associated Information), mais il peut également conserver ces informations dans le Registre.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Cette propriété s'applique uniquement aux messages dont la classe de message e
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

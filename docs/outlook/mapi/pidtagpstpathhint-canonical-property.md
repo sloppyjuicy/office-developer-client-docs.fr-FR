@@ -23,18 +23,18 @@ ms.locfileid: "33437307"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit le nom de la table de stockage personnel (fichier. pst), que l'utilisateur peut modifier, pour la boîte de dialogue de configuration. 
+Fournit le nom de la table de stockage personnel (fichier .pst), que l’utilisateur peut modifier, pour la boîte de dialogue de configuration. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PST_PATH_HINT, PR_PST_PATH_HINT_A, PR_PST_PATH_HINT_W  <br/> |
 |Identificateur :  <br/> |0x6771  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Table de stockage personnel (. pst) interne  <br/> |
+|Domaine :  <br/> |Table de stockage personnel (.pst) interne  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si la propriété **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) est utilisée à la place, la boîte de dialogue de configuration s'ouvre, mais l'utilisateur n'est pas autorisé à modifier le chemin d'accès et de nombreuses autres propriétés.
+Si la **propriété PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) est utilisée à la place, la boîte de dialogue de configuration s’ouvre, mais l’utilisateur n’est pas autorisé à modifier le chemin d’accès et de nombreuses autres propriétés.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -42,17 +42,17 @@ Si la propriété **PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-prope
 
 [[MS-OXPROPS]] 
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

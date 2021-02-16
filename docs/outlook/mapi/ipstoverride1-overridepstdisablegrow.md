@@ -25,7 +25,7 @@ ms.locfileid: "33438924"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Déverrouille un fichier de dossiers personnels (. pst) pour une session, en remplaçant la stratégie PSTDisableGrow.
+Déverrouille un fichier de dossiers personnels (.pst) pour une session, en remplacement de la stratégie PSTDisableGrow.
   
 ```cpp
 HRESULT OverridePSTDisableGrow();
@@ -35,7 +35,7 @@ HRESULT OverridePSTDisableGrow();
 
 S_OK
   
-> L'appel de la fonction a réussi.
+> L’appel de fonction a réussi.
     
 ## <a name="see-also"></a>Voir aussi
 

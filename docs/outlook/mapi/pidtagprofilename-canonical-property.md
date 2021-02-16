@@ -32,27 +32,27 @@ Contient le nom du profil.
 |Propriétés associées :  <br/> |PR_PROFILE_NAME, PR_PROFILE_NAME_A, PR_PROFILE_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3D12  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Configuration du profil MAPI  <br/> |
+|Domaine :  <br/> |Configuration de profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont calculées par les fournisseurs de services. L'implémentation d'un fournisseur de la fonction **ServiceEntry** peut utiliser ces propriétés pour découvrir le nom du profil. 
+Ces propriétés sont calculées par les fournisseurs de services. L’implémentation d’un fournisseur de **la fonction ServiceEntry** peut utiliser ces propriétés pour découvrir le nom du profil. 
   
-Les applications clientes peuvent utiliser ces propriétés comme alternative pratique pour obtenir le nom de profil en examinant la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) dans la ligne table Status du sous-système MAPI.
+Les applications clientes peuvent utiliser ces propriétés comme alternative pratique à l’obtention du nom du profil en examinant la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) dans la ligne de table d’état du sous-système MAPI.
   
-Ces propriétés peuvent ne pas être uniques dans le temps, par exemple lorsqu'un profil est supprimé, puis recréé avec le même nom. MAPI fournit une propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) totalement unique dans une section de profil codé en dur appelée **MUID_PROFILE_INSTANCE.**
+Ces propriétés peuvent ne pas être uniques dans le temps, par exemple lorsqu’un profil est supprimé et recréé ultérieurement avec le même nom. MAPI fournit une propriété PR_SEARCH_KEY **unique** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) dans une section de profil codée en dur appelée **MUID_PROFILE_INSTANCE.**
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

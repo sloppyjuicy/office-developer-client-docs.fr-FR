@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfEvaluate
 keywords:
-- fonction xlfEvaluate [Excel 2007]
+- fonction xlfevaluate [excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33439183"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Utilise l'évaluateur de fonction et l'analyseur Microsoft Excel pour évaluer les expressions pouvant être entrées dans une cellule de feuille de calcul.
+Utilise l’analyseur et l’évaluateur de fonction Microsoft Excel pour évaluer toute expression qui pourrait être entrée dans une cellule de feuille de calcul.
   
 ```cs
 Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
@@ -32,25 +32,25 @@ Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 
  _pxFormulaText (xltypeStr)_
   
-Chaîne à évaluer. Un signe égal à gauche (=) est facultatif. La chaîne peut être tout texte pouvant être légalement saisi dans une cellule de feuille de calcul ou de feuille macro.
+Chaîne à évaluer. Un signe égal de premier plan (=) est facultatif. La chaîne peut être n’importe quel texte qui peut légalement être entré dans une feuille de calcul ou une cellule de feuille de macro.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Renvoie le résultat de l'évaluation de la chaîne qui peut être l'un des types **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeNil**, **xltypeMulti**.
+Renvoie le résultat de l’évaluation de la chaîne qui peut être l’un des types **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeNil**, **xltypeMulti**.
   
 ## <a name="remarks"></a>Remarques
 
-La chaîne peut contenir uniquement des fonctions, et non des équivalents de commande. Cela équivaut à appuyer sur **F9** à partir de la barre de formule. Si **xlfEvaluate** est appelé à partir d'une fonction de feuille de calcul XLL enregistrée en tant que thread-safe, l'expression doit contenir uniquement des fonctions thread-safe. 
+La chaîne peut contenir uniquement des fonctions, et non des équivalents de commande. Cela équivaut à appuyer sur **F9 à** partir de la barre de formule. Si **xlfEvaluate** est appelé à partir d’une fonction de feuille de calcul XLL inscrite comme thread-safe, l’expression ne doit contenir que des fonctions thread-safe. 
   
-La première utilisation de la fonction **xlfEvaluate** est de permettre aux dll de déterminer la valeur affectée à un nom défini qui se trouve soit sur une feuille, soit sur un nom masqué défini dans la dll. Notez que dans un DLL/XLL, un nom de feuille de calcul doit être préfixé avec au moins un point d'exclamation (!) pour s'assurer qu'il est interprété comme étant externe à la DLL. Pour plus d'informations, consultez la rubrique [évaluation des noms et autres expressions de formule de feuille de calcul](evaluating-names-and-other-worksheet-formula-expressions.md).
+L’utilisation principale de la fonction **xlfEvaluate** consiste à autoriser les DLL à rechercher la valeur affectée à un nom défini qui se trouve sur une feuille ou un nom masqué défini dans la DLL. Notez qu’au sein d’une DLL/XLL, un nom de feuille de calcul doit être précédé d’au moins un point d’exclamation (!) pour garantir qu’il est interprété comme externe à la DLL. Pour plus d’informations, voir [l’évaluation des noms et d’autres expressions de](evaluating-names-and-other-worksheet-formula-expressions.md)formule de feuille de calcul.
   
- **xlfEvaluate** ne peut pas être utilisé pour évaluer des références à une feuille externe qui n'est pas ouverte. 
+ **xlfEvaluate ne peut** pas être utilisé pour évaluer les références à une feuille externe qui n’est pas ouverte. 
   
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise **xlfEvaluate** pour forcer le texte «! B38 "vers le contenu de la cellule B38. 
+Cet exemple utilise **xlfEvaluate** pour forcer le texte « ! B38 " au contenu de la cellule B38. 
   
- `\SAMPLES\EXAMPLE\EXAMPLE.C`. Cette fonction appelle une macro de commande (**xlcAlert**) et fonctionne correctement uniquement lorsqu'elle est appelée à partir d'une feuille macro ou d'une commande macro.
+ `\SAMPLES\EXAMPLE\EXAMPLE.C`. Cette fonction appelle une macro de commande (**xlcAlert**) et ne fonctionne correctement qu’en cas d’appel à partir d’une feuille macro ou d’une commande macro.
   
 ```cs
 short WINAPI EvaluateExample(void)

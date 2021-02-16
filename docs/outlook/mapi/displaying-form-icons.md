@@ -21,19 +21,19 @@ ms.locfileid: "33438630"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lors de l'affichage d'une liste de messages dans un dossier, il est utile pour vos utilisateurs de distinguer les messages avec des classes de message personnalisées du IPM standard. Notez les messages. Les classes de message personnalisées correspondent aux serveurs de formulaires et les serveurs de formulaires fournissent des icônes pour se représenter eux-mêmes. Vous pouvez afficher ces icônes dans la liste des messages pour alerter les utilisateurs de la classe de message de chaque message avant que l'utilisateur n'ouvre les messages. En règle générale, l'icône dans la propriété **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) du formulaire est celle qui doit être affichée dans la liste des messages. Les formulaires ont également une propriété **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) qui peut être affichée lorsque le formulaire est réduit dans une feuille de propriétés.
+Lors de l’affichage d’une liste de messages dans un dossier, il est utile pour vos utilisateurs si vous distinguez les messages avec des classes de messages personnalisées de l’IPM standard. Messages de note. Les classes de message personnalisées correspondent aux serveurs de formulaires et les serveurs de formulaire fournissent des icônes pour se représenter eux-mêmes. Vous pouvez afficher ces icônes dans la liste des messages pour alerter les utilisateurs de la classe de message de chaque message avant que l’utilisateur n’ouvre les messages. En règle générale, l’icône de la propriété **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) du formulaire est celle qui doit être affichée dans la liste des messages. Les formulaires ont **également une PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) qui peut être affichée lorsque le formulaire est réduit dans une feuille de propriétés.
   
  **Pour obtenir une icône pour une classe de message sans activer le serveur de formulaires pour cette classe de message**
   
-1. Appelez la méthode [IMAPIFormMgr:: OpenFormContainer](imapiformmgr-openformcontainer.md) pour obtenir un pointeur vers une interface [IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md) . 
+1. Appelez [la méthode IMAPIFormMgr::OpenFormContainer](imapiformmgr-openformcontainer.md) pour obtenir un pointeur vers une interface [IMAPIFormContainer : IUnknown.](imapiformcontaineriunknown.md) 
     
-2. Appelez la méthode [IMAPIFormContainer:: ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) pour obtenir un pointeur vers une interface [IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md) . 
+2. Appelez [la méthode IMAPIFormContainer::ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) pour obtenir un pointeur vers une interface [IMAPIFormInfo : IMAPIProp.](imapiforminfoimapiprop.md) 
     
-3. Appelez la méthode [IMAPIFormInfo:: MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) pour obtenir un descripteur d'icône. 
+3. Appelez [la méthode IMAPIFormInfo::MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) pour obtenir un handle d’icône. 
     
-L'icône peut ensuite être affichée à l'aide des API Win32 standard.
+L’icône peut ensuite être affichée à l’aide des API Win32 standard.
   
 > [!IMPORTANT]
-> Une fois que vous avez l'icône d'une classe de message, efforcez-vous de mettre en cache cette icône. Aucune icône de mise en cache n'affecte gravement les performances des applications clientes. Lors de la mise en cache des icônes, soyez attentifs aux relations entre les classes de message et leurs sous-classes. Par exemple, si le IPM. Note. Meeting. Cancel la classe de message se trouve à nouveau résolu en IPM. Notez que vous ne devez pas supposer que toutes les sous-classes de IPM. Remarque doit utiliser l'icône de IPM. Note. 
+> Une fois que vous avez l’icône d’une classe de message, veillez à mettre en cache cette icône. Le fait de ne pas mettre en cache les icônes affecte gravement les performances des applications clientes. Lors de la mise en cache des icônes, faites attention aux relations entre les classes de message et leurs sous-classes. Par exemple, si le IPM. Note.Meeting.Cancel message class happens to resolve back to IPM. Notez que ne supposez pas que toutes les sous-classes d’IPM. Notez que vous devez utiliser l’icône pour IPM. Remarque. 
   
 

@@ -25,12 +25,12 @@ ms.locfileid: "33438392"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit un contrôle de zone de groupe qui sera utilisé dans une boîte de dialogue construite à partir d'une table d'affichage.
+Décrit un contrôle de zone de groupe qui sera utilisé dans une boîte de dialogue conçue à partir d’un tableau d’affichage.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Macro connexe:  <br/> |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Macro associée :  <br/> |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |
    
 ```cpp
 typedef struct _DTBLGROUPBOX
@@ -45,21 +45,21 @@ typedef struct _DTBLGROUPBOX
 
  **ulbLpszLabel**
   
-> Position en mémoire de la chaîne de caractères qui accompagne la zone de groupe. Si elle est affichée, l'étiquette apparaît en haut à gauche de la zone.
+> Position en mémoire de la chaîne de caractères qui accompagne la zone de groupe. S’il est affiché, l’étiquette apparaît en haut, à gauche de la zone.
     
  **ulFlags**
   
-> Masque de des indicateurs utilisé pour désigner le format de l'étiquette désignée par le membre **ulbLpszLabel** . L'indicateur suivant peut être défini: 
+> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabel.** L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
-> L'étiquette est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, l'étiquette est au format ANSI.
+> L’étiquette est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, l’étiquette est au format ANSI.
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLGROUPBOX** décrit un contrôle de zone de groupe qui est utilisé pour associer visuellement d'autres contrôles dans la boîte de dialogue. La technique de mise en surbrillance implique d'entourer les autres contrôles d'un cadre. 
+Une structure **DTBLGROUPBOX** décrit un contrôle de zone de groupe utilisé pour associer visuellement d’autres contrôles dans la boîte de dialogue. La technique de mise en surbrillance implique d’entourer les autres contrôles d’une zone. 
   
-Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
+Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

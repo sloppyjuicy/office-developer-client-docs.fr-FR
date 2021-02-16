@@ -1,11 +1,11 @@
 ---
-title: Fonctions de rappel de l'API C Excel4, Excel12
+title: Fonctions de rappel d’API C Excel4, Excel12
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- fonctions [Excel 2007], rappel de l'API c
+- functions [excel 2007], c api callback
 localization_priority: Normal
 ms.assetid: 0f3ae86d-329a-4177-a65b-6288c248297e
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -16,19 +16,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434430"
 ---
-# <a name="c-api-callback-functions-excel4-excel12"></a>Fonctions de rappel de l'API C Excel4, Excel12
+# <a name="c-api-callback-functions-excel4-excel12"></a>Fonctions de rappel d’API C Excel4, Excel12
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Les fonctions **Excel4** et **Excel12** sont fournies pour permettre aux DLL d'appeler une fonction de feuille de calcul Microsoft Excel interne, une fonction de feuille de macro ou une commande, ou une fonction ou une commande spéciale XLL uniquement. Toutes les versions récentes d'Excel prennent en charge la fonction **Excel4** . À partir d'Excel 2007, la fonction **Excel12** est prise en charge. Ces deux fonctions sont fournies sous deux formes: 
+Les fonctions **Excel4** et **Excel12** sont fournies pour permettre aux DLL d’appeler une fonction de feuille de calcul Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une fonction ou commande spéciale XLL uniquement. Toutes les versions récentes d’Excel la prise en charge **de la fonction Excel4.** À compter d’Excel 2007, la **fonction Excel12** est prise en charge. Les deux fonctions sont fournies sous deux formes : 
   
-- Formulaire de liste d'arguments de longueur variable (**Excel4/Excel12**)
+- Un formulaire de liste d’arguments de longueur variable (**Excel4/Excel12**)
     
-- Formulaire de tableau d'arguments (**Excel4v/Excel12v**)
+- Une forme de tableau d’arguments (**Excel4v/Excel12v**)
     
-À l'exception de la façon dont les arguments sont transmis à ces rappels, les deux formulaires sont équivalents. Les concepts de base des deux formulaires sont décrits en détail dans [Excel4/Excel12](excel4-excel12.md). [Excel4v/Excel12v](excel4v-excel12v.md) aborde d'autres problèmes liés à ce formulaire. 
+À l’exception de la manière dont les arguments sont transmis à ces rappels, les deux formulaires sont équivalents sur le plan fonctionnel. Les concepts de base des deux formulaires sont entièrement décrits [dans Excel4/Excel12.](excel4-excel12.md) [Excel4v/Excel12v traite](excel4v-excel12v.md) d’autres problèmes concernant ce formulaire. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 [Excel4/Excel12](excel4-excel12.md)
   

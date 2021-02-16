@@ -25,7 +25,7 @@ ms.locfileid: "33437461"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d'identificateurs d'entrée pour les utilisateurs qui ont autorisé l'envoi d'un message.
+Contient une liste d’identificateurs d’entrée pour les utilisateurs qui ont autorisé l’envoi d’un message.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une liste d'identificateurs d'entrée pour les utilisateurs qui ont aut
    
 ## <a name="remarks"></a>Remarques
 
-La Banque de messages ne gère pas cette propriété.
+La magasin de messages ne conserve pas cette propriété.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

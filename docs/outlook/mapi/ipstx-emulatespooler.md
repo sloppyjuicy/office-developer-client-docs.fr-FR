@@ -25,7 +25,7 @@ ms.locfileid: "33438952"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une banque locale pour émuler le gestionnaire de protocoles Outlook afin de spouler les messages sortants vers un serveur.
+Définit un magasin local pour émuler le Gestionnaire de protocole Outlook afin de mettre en file d’ensemble les messages sortants sur un serveur.
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -35,18 +35,18 @@ HRESULT EmulateSpooler(
 
  _fEmulate_
   
->  dans Définissez ce paramètre sur true si le magasin local doit émuler le spouleur; Définissez-la sur false dans le cas contraire. 
+>  [in] Définissez ce paramètre sur True si le magasin local doit émuler lepooler ; si ce n’est pas le cas. 
     
 ## <a name="remarks"></a>Remarques
 
-Un magasin local appelle **IPSTX:: EmulateSpooler** pour agir en tant que gestionnaire de protocoles Outlook, en spoule les messages de la file d'attente sortante vers le serveur principal (par exemple, le serveur MSN ou le serveur AOL) pour traitement. Émulation d'un spouleur pendant la synchronisation, le magasin appelle les deux méthodes suivantes: 
+Un magasin local appelle **IPSTX::EmulateSpooler** pour agir en tant que gestionnaire de protocole Outlook, en stockant les messages dans la file d’attente sortante vers le serveur principal (par exemple, le serveur MSN ou le serveur AOL) pour le traitement. Lors de l’émulation d’unpooler lors de la synchronisation, le magasin appelle ensuite les deux méthodes ci-après : 
   
-1. **[IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** pour obtenir la file d'attente de messages sortante dans la Banque. Cette méthode ne réussit que si la Banque émule le gestionnaire de protocoles Outlook. 
+1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** to get the outgoing queue of messages in the store. Cette méthode réussit uniquement si le magasin émule le Gestionnaire de protocole Outlook. 
     
-2. **[IMsgStore:: SetLockState](imsgstore-setlockstate.md)** pour sécuriser l'accès exclusif à un message dans la file d'attente sortante juste avant de l'envoyer au serveur. Cette méthode ne réussit que si la Banque émule le gestionnaire de protocoles Outlook. Après l'envoi du message, le magasin appelle de nouveau cette méthode pour lui libérer un accès exclusif. 
+2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** pour sécuriser l’accès unique à un message dans la file d’attente sortante juste avant de l’envoyer au serveur. Cette méthode réussit uniquement si le magasin émule le Gestionnaire de protocole Outlook. Après l’envoi du message, la boutique appelle à nouveau cette méthode pour libérer l’accès unique à celui-ci. 
     
 > [!NOTE]
-> Depuis Outlook 2002, le gestionnaire de protocoles Outlook remplace le spouleur MAPI et est devenu responsable de la mise en file d'attente des messages sortants vers les serveurs principaux. 
+> Depuis Outlook 2002, le Gestionnaire de protocole Outlook a remplacé lepooler MAPI et est devenu responsable dupooling des messages sortants sur les serveurs back-end. 
   
 ## <a name="see-also"></a>Voir aussi
 

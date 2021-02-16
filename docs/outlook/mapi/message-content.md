@@ -21,24 +21,24 @@ ms.locfileid: "33435459"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Il existe deux codages possibles pour le contenu du message: l'un avec MIME, l'autre avec UUEncode. MIME est le codage par défaut. De plus, MAPI définit une propriété par destinataire, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), qui régit si les informations TNEF doivent être incluses ou non dans un message sortant. Il y a quatre façons de coder le contenu des messages:
+Il existe deux codages possibles pour le contenu du message : l’un utilisant MIME, l’autre utilisant uuencode. MIME est le codage préféré. En outre, MAPI définit une propriété par destinataire, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), qui détermine si les informations TNEF doivent être incluses ou non dans un message sortant. Il existe donc un total de quatre façons d’encodage du contenu des messages :
   
 - MIME avec TNEF
     
 - MIME sans TNEF
     
-- UUEncode avec TNEF
+- uuencode avec TNEF
     
-- UUEncode sans TNEF
+- uuencode sans TNEF
     
-Le choix entre MIME ou uuencode pour les messages sortants n'est pas spécifié.
+La manière de choisir MIME ou uuencode pour les messages sortants n’est pas spécifiée.
   
-Les propriétés suivantes sont exclues de TNEF **:\*PR_SENDER_**, **PR_ATTACH_DATA_\***, **PR_BODY**. Toutes les autres propriétés de message transmissibles sont incluses dans le flux TNEF.
+Les propriétés suivantes sont exclues du TNEF **: \* PR_SENDER_**, **PR_ATTACH_DATA_ \***, **PR_BODY**. Toutes les autres propriétés de message transmises sont incluses dans le flux TNEF.
   
-Les suggestions suivantes sont destinées à fournir une liste des paramètres que l'implémentation peut prendre en charge:
+Les suggestions suivantes sont destinées à fournir une liste de paramètres que l’implémentation peut prendre en charge :
   
-- Codage MIME ou uuencode pour les messages sortants: Boolean.
+- S’il faut coder à l’aide de MIME ou uuencode pour les messages sortants : booléen.
     
-- Jeu de caractères à utiliser pour les messages sortants: chaîne (copié directement vers le paramètre charset) ou énumération (traduite en interne en chaîne charset).
+- Jeu de caractères à utiliser pour les messages sortants : chaîne (copiée directement dans le paramètre charset) ou enumeration (traduite en chaîne de caractères en interne).
     
 

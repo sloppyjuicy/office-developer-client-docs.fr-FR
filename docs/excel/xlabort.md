@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAbort
 keywords:
-- fonction xlAbort [Excel 2007]
+- fonction xlabort [excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33436656"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Permet au processeur d'effectuer d'autres tâches dans le système et vérifie si l'utilisateur a appuyé sur **Échap** pour annuler une macro. Si l'utilisateur a appuyé sur **Échap** pendant le recalcul d'un classeur, il est également possible de le détecter à partir d'une fonction de feuille de calcul en appelant cette fonction. 
+Permet au processeur d’effectuer d’autres tâches dans le système et de vérifier si l’utilisateur a appuyer sur **ÉCHAP** pour annuler une macro. Si l’utilisateur a appuyer sur **ÉCHAP** pendant le recalcul d’un workbook, il peut également être détecté à partir d’une fonction de feuille de calcul en appelant cette fonction. 
   
 ```cs
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
@@ -32,11 +32,11 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
  _pxRetain_ (**xltypeBool**)
   
-(Facultatif). Si la **valeur**est false, cette fonction vérifie la condition d'arrêt et efface tout arrêt en attente. Cela permet à l'utilisateur de continuer malgré la condition d'arrêt. Si cet argument est omis ou s'il a la **valeur true**, la fonction vérifie l'abandon de l'utilisateur sans l'effacer.
+(Facultatif). Si elle a la forme **FALSE,** cette fonction vérifie la condition de rupture et permet d’effacer les coupures en attente. Cela permet à l’utilisateur de continuer malgré la condition d’coupure. Si cet argument est omis ou a la valeur **TRUE,** la fonction vérifie si un utilisateur abandonne sans l’effacer.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Renvoie la **valeur true** (**xltypeBool**) si l'utilisateur a appuyé sur **Échap**.
+Renvoie **TRUE** (**xltypeBool**) si l’utilisateur a appuyer sur **ÉCHAP**.
   
 ## <a name="remarks"></a>Remarques
 
@@ -44,15 +44,15 @@ Renvoie la **valeur true** (**xltypeBool**) si l'utilisateur a appuyé sur **Éc
 
 #### <a name="frequent-calls-may-be-needed"></a>Des appels fréquents peuvent être nécessaires
 
-Les fonctions et les commandes pouvant prendre beaucoup de temps doivent appeler cette fonction fréquemment pour transmettre le processeur à d'autres tâches du système.
+Les fonctions et commandes qui peuvent prendre beaucoup de temps doivent appeler cette fonction fréquemment pour donner au processeur d’autres tâches dans le système.
   
-#### <a name="avoid-sensitive-language"></a>Éviter les langues sensibles
+#### <a name="avoid-sensitive-language"></a>Éviter les langages sensibles
 
-Évitez d'utiliser le terme «Abort» dans votre interface utilisateur. EnVisagez d'utiliser à la place «annuler», «arrêter», «arrêter» ou «arrêter».
+Évitez d’utiliser le terme « Abandonner » dans votre interface utilisateur. Envisagez plutôt d’utiliser « Annuler », « Arrêter », « Arrêter » ou « Arrêter ».
   
 ## <a name="example"></a>Exemple
 
-Le code suivant déplace de manière répétée la cellule active dans une feuille jusqu'à ce que l'utilisateur appuie sur **Échap**. Il appelle de manière occasionnelle la fonction **xlAbort** . Cela permet au processeur de simplifier le multitâche coopératif. 
+Le code suivant déplace à plusieurs reprises la cellule active d’une feuille jusqu’à ce qu’une minute soit écoulée ou jusqu’à ce que l’utilisateur appuie sur **ÉCHAP.** Il appelle parfois la fonction **xlAbort.** Cela produit le processeur, ce qui facilite la multitâche multinationale. 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   

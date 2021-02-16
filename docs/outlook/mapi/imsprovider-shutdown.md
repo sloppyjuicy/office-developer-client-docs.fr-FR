@@ -25,7 +25,7 @@ ms.locfileid: "33438623"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ferme un fournisseur de banque de messages de manière ordonnée.
+Ferme un fournisseur de magasins de messages de manière ordonnée.
   
 ```cpp
 HRESULT Shutdown(
@@ -37,17 +37,17 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> dans MSR doit être un pointeur vers zéro.
+> [in] Réservé ; doit être un pointeur vers zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la ou les valeurs attendues.
+> L’appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la méthode **IMSProvider:: Shutdown** juste avant de libérer l'objet fournisseur de la Banque de messages. MAPI libère tous les objets d'ouverture de session pour un fournisseur avant d'appeler l' **arrêt** pour ce fournisseur. 
+MAPI appelle la **méthode IMSProvider::Shutdown** juste avant de libérer l’objet fournisseur de la boutique de messages. MAPI libère tous les objets d’accès pour un fournisseur avant d’appeler **l’arrêt** pour ce fournisseur. 
   
 ## <a name="see-also"></a>Voir aussi
 

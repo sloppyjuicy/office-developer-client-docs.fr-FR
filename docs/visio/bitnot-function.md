@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251399
 localization_priority: Normal
 ms.assetid: 7b6486bb-3618-3747-4b00-93bd55767c1c
-description: Renvoie un nombre binaire de 16 bits dans lequel chaque bit est défini sur 1 uniquement si le bit correspondant en nombre binaire est égal à 0. Dans le cas contraire, le bit prend la valeur 0.
+description: Renvoie un nombre binaire 16 bits dans lequel chaque bit est définie sur 1 uniquement si le bit correspondant dans le nombre binaire est 0. Dans le cas contraire, le bit est définie sur 0.
 ms.openlocfilehash: 34ea6fd614feae8e3c8e97e34b7ff6c531f4c123
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33438833"
 ---
 # <a name="bitnot-function"></a>Fonction BITNOT
 
-Renvoie un nombre binaire de 16 bits dans lequel chaque bit est défini sur 1 uniquement si le bit correspondant en nombre binaire est égal à 0. Dans le cas contraire, le bit prend la valeur 0.
+Renvoie un nombre binaire 16 bits dans lequel chaque bit est définie sur 1 uniquement si le bit correspondant dans le nombre binaire est 0. Dans le cas contraire, le bit est définie sur 0.
   
 ## <a name="syntax"></a>Syntaxe
 
-BITNOT (* * *nombre binaire* * *) 
+BITNOT(** *binary number* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -36,7 +36,7 @@ Binaire de 16 bits
   
 ## <a name="example"></a>Exemple
 
-BITNOT (6)
+BITNOT(6)
   
 Renvoie 65529. Le 6 = 0...00110. Donc, BITNOT(6) = 1...11001.
   

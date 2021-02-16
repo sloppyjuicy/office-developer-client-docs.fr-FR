@@ -25,11 +25,11 @@ ms.locfileid: "33435410"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Mappe une valeur entière énumérée à un nom complet pour cette valeur. 
+Cette propriété m’indique si une valeur d’un nom complet est un nom complet. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormPropEnumVal
@@ -44,15 +44,15 @@ typedef struct _SMAPIFormPropEnumVal
 
  **pszDisplayName**
   
-> Chaîne qui contient le nom complet de la valeur spécifiée dans le membre **nVal** . 
+> Chaîne qui contient le nom complet de la valeur spécifiée dans le membre **nVal.** 
     
  **nVal**
   
-> Valeur d'énumération pour le nom complet désigné par le membre **pszDisplayName** . 
+> Valeur d’éumération pour le nom complet pointé par le membre **pszDisplayName.** 
     
 ## <a name="remarks"></a>Remarques
 
-Lorsqu'un utilisateur sélectionne un nom d'affichage dans un formulaire, la valeur d'énumération correspondante du nom est stockée à l'aide de l'implémentation de l'interface [IMAPIProp](imapipropiunknown.md) associée au formulaire. 
+Lorsqu’un utilisateur sélectionne un nom complet dans un formulaire, la valeur d’éumération correspondante du nom est stockée à l’aide de l’implémentation de l’interface [IMAPIProp](imapipropiunknown.md) associée au formulaire. 
   
 ## <a name="see-also"></a>Voir aussi
 

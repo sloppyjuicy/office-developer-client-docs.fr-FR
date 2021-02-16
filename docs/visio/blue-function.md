@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251402
 localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
-description: Renvoie la composante bleu d'une couleur. La valeur renvoyée est un entier compris entre 0 et 255 (inclus). La fonction renvoie 0 si l’entrée n’est pas valide.
+description: Renvoie le composant bleu d’une couleur. La valeur de retour est un nombre complet compris entre 0 et 255 inclus. La fonction renvoie 0 si l’entrée n’est pas valide.
 ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33439036"
 ---
 # <a name="blue-function"></a>Fonction BLUE
 
-Renvoie la composante bleu d'une couleur. La valeur renvoyée est un entier compris entre 0 et 255 (inclus). La fonction renvoie 0 si l’entrée n’est pas valide.
+Renvoie le composant bleu d’une couleur. La valeur de retour est un nombre complet compris entre 0 et 255 inclus. La fonction renvoie 0 si l’entrée n’est pas valide.
   
 ## <a name="syntax"></a>Syntaxe
 
-BLEU (* * *expression* * *) 
+BLUE(** *expression* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -36,13 +36,13 @@ Entier
   
 ## <a name="example-1"></a>Exemple 1
 
-BLEU (feuille. 4! FillForegnd
+BLUE(Sheet.4! FillForegnd)
   
 Renvoie la composante bleu de la couleur de remplissage de premier plan de Feuille.4.
   
 ## <a name="example-2"></a>Exemple 2
 
-BLEU (13)
+BLUE(13)
   
 Renvoie 128 si le document utilise la palette de couleurs par défaut de Visio, où cyan est la couleur dont l’index est 13.
   

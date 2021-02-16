@@ -1,5 +1,5 @@
 ---
-title: Entrées de liste dans les sections de service de messagerie MapiSvc. inf
+title: Entrées de liste dans les sections du service de message MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435928"
 ---
-# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>Entrées de liste dans les sections de service de messagerie MapiSvc. inf
+# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>Entrées de liste dans les sections du service de message MapiSvc.inf
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Il existe deux types d'entrées de liste de sections: une qui répertorie les sections des fournisseurs de services et une qui répertorie les différentes sections spécifiques aux services de messagerie. Ces deux types d'entrées apparaissent dans MAPISVC. inf à l'aide des formats suivants:
+Il existe deux types d’entrées de liste de sections : une qui répertorie les sections du fournisseur de services et une autre qui répertorie diverses sections spécifiques au service de messagerie. Ces deux types d’entrées apparaissent dans mapisvc.inf en utilisant les formats suivants :
   
 ```cpp
 Providersprovider section1, provider section2, ...... provider sectionX
@@ -29,9 +29,9 @@ Sectionssection name1, section name2, ......section nameX
 
 ```
 
-Chaque section de l'entrée **fournisseurs** mappe à une section individuelle fournissant des informations de configuration pour un fournisseur de services qui appartient au service de messagerie. Chaque section de l'entrée **sections** est mappée vers une section qui contient des informations de configuration supplémentaires requises par le service de messagerie. Les implémenteurs de service de messagerie définissent des sections supplémentaires lorsqu'ils souhaitent inclure des informations spéciales qui ne rentrent pas dans les sections standard. Les services de messagerie qui ont des configurations complexes utilisent généralement l'entrée **sections** pour ajouter des informations supplémentaires. Chaque section services de message possède une entrée **fournisseurs** contenant au moins une section dans la liste; toutes les sections de service de messagerie n'ont pas d'entrée **sections** . 
+Chaque section de **l’entrée Fournisseurs** est m moir une section individuelle fournissant des informations de configuration pour un fournisseur de services qui appartient au service de messagerie. Chaque section de l’entrée **Sections** est m mapée à une section qui contient des informations de configuration supplémentaires requises par le service de message. Les implémenteurs de service de message définissent des sections supplémentaires lorsqu’ils souhaitent inclure des informations spéciales qui ne s’intègrent pas dans les sections standard. Les services de messages qui ont des configurations complexes utilisent généralement l’entrée **Sections** pour ajouter des informations supplémentaires. Chaque section des services de messagerie possède une entrée **Fournisseurs** avec au moins une section dans la liste ; Toutes les sections de service de message n’ont pas **d’entrée Sections.** 
   
-Deux exemples de sections de service de messagerie suivent. La première section concerne le service de carnet d'adresses par défaut de l'illustration précédente, un service de messagerie simple avec un seul fournisseur de services. La deuxième section concerne le service MsgService, un exemple plus complexe de service de messagerie avec trois fournisseurs de services. 
+Deux exemples de sections de service de message suivent. La première section est pour le service de carnet d’adresses par défaut de l’illustration précédente, un service de messagerie simple avec un fournisseur de services unique. La deuxième section est pour le service MsgService, un exemple de service de messagerie plus complexe avec trois fournisseurs de services. 
   
 ```cpp
 [AB]
@@ -53,7 +53,7 @@ PR_RESOURCE_FLAGS=SERVICE_SINGLE_COPY
 
 ```
 
-L'entrée **sections** de la section **[MsgService]** répertorie deux sections supplémentaires, l'une appelée **[First_Special_Section]** et l'autre appelée **[Second_Special_Section]**. Les données qui peuvent apparaître dans des sections supplémentaires sont significatives pour le service de messagerie spécifique. Ces sections apparaissent ci-dessous pour illustrer des sections supplémentaires. 
+**L’entrée Sections** de la section **[MsgService]** répertorie deux sections supplémentaires, l’une appelée **[First_Special_Section]** et l’autre appelée **[Second_Special_Section]**. Les données qui peuvent apparaître dans des sections supplémentaires sont significatives pour le service de message spécifique. Ces sections s’affichent ci-dessous pour illustrer des sections supplémentaires. 
   
 ```cpp
 [First_Special_Section]

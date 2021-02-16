@@ -25,7 +25,7 @@ ms.locfileid: "33435900"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre l'objet d'État du fournisseur de transport.
+Ouvre l’objet d’état du fournisseur de transport.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,33 +40,33 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> dans Pointeur vers un identificateur d'interface (IID) pour l'objet de connexion de transport. Le passage de NULL renvoie l'interface [IMAPIStatus](imapistatusimapiprop.md) . Le paramètre _lpInterface_ peut également être défini sur un identificateur pour une interface pour l'objet. 
+> [in] Pointeur vers un identificateur d’interface (IID) pour l’objet d’identification de transport. La transmission null renvoie [l’interface IMAPIStatus.](imapistatusimapiprop.md) Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface pour l’objet. 
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le mode d'ouverture de l'objet d'État. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet d’état est ouvert. L’indicateur suivant peut être définie :
     
 MAPI_MODIFY 
   
-> Demande une autorisation en lecture/écriture. L'interface par défaut est en lecture seule. 
+> Demande une autorisation de lecture/écriture. L’interface par défaut est en lecture seule. 
     
  _lpulObjType_
   
-> remarquer Pointeur vers le type de l'objet ouvert.
+> [out] Pointeur vers le type de l’objet ouvert.
     
  _lppEntry_
   
-> remarquer Pointeur vers le pointeur vers l'objet d'état ouvert.
+> [out] Pointeur vers le pointeur vers l’objet d’état ouvert.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la ou les valeurs attendues.
+> L’appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle la méthode **IXPLogon:: OpenStatusEntry** lorsqu'une application cliente appelle une méthode **OpenEntry** pour l'identificateur d'entrée dans la ligne de la table d'État du fournisseur de transport. **OpenStatusEntry** ouvre un objet avec l'interface **IMAPIStatus** associée à cette ouverture de session de fournisseur de transport particulier. Cet objet est ensuite utilisé pour permettre aux applications clientes d'appeler des méthodes **IMAPIStatus** (par exemple, pour reconfigurer la session de connexion à l'aide de la méthode [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) , ou pour valider l'état de la session de connexion à l'aide du [ IMAPIStatus:: ValidateState](imapistatus-validatestate.md) , méthode). 
+Lepooler MAPI appelle la méthode **IXPLogon::OpenStatusEntry** lorsqu’une application cliente appelle une méthode **OpenEntry** pour l’identificateur d’entrée dans la ligne de table d’état du fournisseur de transport. **OpenStatusEntry ouvre** un objet avec l’interface **IMAPIStatus** associée à ce fournisseur de transport particulier. Cet objet est ensuite utilisé pour permettre aux applications clientes d’appeler des méthodes **IMAPIStatus** (par exemple, pour reconfigurer la session d’ouverture de session à l’aide de la méthode [IMAPIStatus::SettingsDialog,](imapistatus-settingsdialog.md) ou pour valider l’état de la session d’ouverture de session à l’aide de la méthode [IMAPIStatus::ValidateState).](imapistatus-validatestate.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

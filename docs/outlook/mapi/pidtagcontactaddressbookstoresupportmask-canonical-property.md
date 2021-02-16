@@ -25,30 +25,30 @@ ms.locfileid: "33434437"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtenue à partir de la Banque qui contient le dossier contacts.
+Contient la **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtenue à partir de la boutique qui contient le dossier Contacts.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_SUPPORT_MASK  <br/> |
 |Identificateur :  <br/> |0x6611  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le fournisseur de carnet d'adresses des contacts utilise cette propriété pour évaluer la pertinence des fonctionnalités prises en charge par la Banque. Il s'agit d'une propriété sur un conteneur de carnet d'adresses de contacts et d'une colonne dans la table des conteneurs du carnet d'adresses des contacts.
+Le fournisseur de carnet d’adresses de contact utilise cette propriété pour évaluer l’adéquation des fonctionnalités du magasin pris en charge. Il s’agit d’une propriété d’un conteneur de carnet d’adresses de contact et d’une colonne dans la table des conteneurs de carnet d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

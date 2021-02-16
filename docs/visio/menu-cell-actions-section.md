@@ -27,18 +27,18 @@ Définit le nom d’une option de menu qui s’affiche dans un menu contextuel o
 
 Pour insérer un séparateur dans le menu au-dessus de cette option, utilisez la cellule BeginGroup. Pour faire apparaître la commande au bas du menu, faites précéder son nom d'un caractère de pourcentage (%) .
   
-Pour obtenir une référence à la cellule menu par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
+Pour obtenir une référence à la cellule Menu par un nom à partir d’une autre formule ou d’un programme en faisant appel à la **propriété CellsU,** utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Mesures. *nom* . Actions Menuoù.  *Name* est le nom de la ligne d'actions  <br/> |
+|Nom de cellule :  <br/> |Actions. *nom*  . Menu où actions.  *name*  est le nom de la ligne Actions  <br/> |
    
 Pour obtenir une référence à la cellule Menu à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction** +  *i* où i = 0, 1, 2,...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction**  +   *i* où i = 0, 1, 2, ...  <br/> |
 |Index de la cellule :  <br/> |**visActionMenu** <br/> |
    
 

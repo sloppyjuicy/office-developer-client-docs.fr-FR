@@ -25,7 +25,7 @@ ms.locfileid: "33436201"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le nombre maximal d'éléments dans l'opération pour afficher les informations d'avancement.
+Renvoie le nombre maximal d’éléments dans l’opération pour lesquels les informations de progression sont affichées.
   
 ```cpp
 HRESULT GetMax(
@@ -37,25 +37,25 @@ HRESULT GetMax(
 
  _lpulMax_
   
-> remarquer Pointeur vers le nombre maximal d'éléments dans l'opération.
+> [out] Pointeur vers le nombre maximal d’éléments dans l’opération.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le nombre maximal d'éléments dans l'opération a été récupéré.
+> Le nombre maximal d’éléments de l’opération a été récupéré.
     
 ## <a name="remarks"></a>Remarques
 
-La valeur maximale représente la fin de l'opération sous forme numérique. La valeur peut être une valeur maximale globale, utilisée pour représenter l’étendue de l’intégralité de l’affichage de la progression, ou une valeur locale, utilisée pour représenter uniquement une partie de l’affichage. 
+La valeur maximale représente la fin de l’opération sous forme numérique. La valeur peut être une valeur maximale globale, utilisée pour représenter l’étendue de l’intégralité de l’affichage de la progression, ou une valeur locale, utilisée pour représenter uniquement une partie de l’affichage. 
   
-La valeur du paramètre flag détermine si l'objet Progress reconnaît la valeur maximale comme étant locale ou globale. Lorsque l'indicateur MAPI_TOP_LEVEL est défini, la valeur maximale est considérée comme étant globale et utilisée pour calculer l'avancement de l'opération entière. Lorsque MAPI_TOP_LEVEL n'est pas défini, la valeur maximale est considérée comme étant locale, et les fournisseurs l'utilisent en interne pour afficher la progression des sous-objets de niveau inférieur. Les objets Progress enregistrent la valeur maximale locale uniquement pour le renvoyer à un fournisseur par le biais d'un appel **GetMax** . 
+La valeur du paramètre d’indicateur a une incidence sur le fait que l’objet de progression comprenne la valeur maximale à être locale ou globale. Lorsque l MAPI_TOP_LEVEL est définie, la valeur maximale est considérée comme globale et est utilisée pour calculer la progression de l’ensemble de l’opération. Lorsque MAPI_TOP_LEVEL n’est pas définie, la valeur maximale est considérée comme locale et les fournisseurs l’utilisent en interne pour afficher la progression des sous-objets de niveau inférieur. Les objets de progression enregistrent la valeur maximale locale uniquement pour la renvoyer à un fournisseur via un **appel GetMax.** 
   
 Pour plus d’informations sur la méthode et le moment opportun pour appeler un objet de progression, reportez-vous à [Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md).
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Initialisez la valeur maximale sur 1000. Les fournisseurs de services peuvent réinitialiser cette valeur en appelant la méthode [IMAPIProgress::SetLimits](imapiprogress-setlimits.md). Pour plus d'informations sur la façon d'implémenter **GetMax** et les autres méthodes [méthode imapiprogress](imapiprogressiunknown.md) , consultez la rubrique [implémentation d'un indicateur de progression](implementing-a-progress-indicator.md).
+Initialise la valeur maximale à 1 000. Les fournisseurs de services peuvent réinitialiser cette valeur en appelant la méthode [IMAPIProgress::SetLimits](imapiprogress-setlimits.md). Pour plus d’informations sur l’implémentation de **GetMax** et des autres méthodes [IMAPIProgress,](imapiprogressiunknown.md) voir [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -63,7 +63,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress:: GetMax  <br/> |MFCMAPI utilise la méthode **méthode imapiprogress:: GetMax** pour obtenir la valeur maximale de l'objet Progress. Renvoie 1000 sauf si les limites ont été définies précédemment à l'aide de la méthode **méthode imapiprogress:: SetLimits** .  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMax  <br/> |MFCMAPI utilise la **méthode IMAPIProgress::GetMax** pour obtenir la valeur maximale de l’objet de progression. Renvoie 1000, sauf si des limites ont été précédemment définies avec la méthode **IMAPIProgress::SetLimits.**  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -17,9 +17,9 @@ ms.locfileid: "33438791"
 ---
 # <a name="run-in-developer-mode-display-the-developer-tab"></a>Exécuter en mode développeur (afficher l’onglet Développeur)
 
-- Cliquez sur l'onglet **fichier** , puis sur **options**.
+- Cliquez sur **l’onglet** Fichier, puis sur **Options.**
     
-- Dans la boîte de dialogue **options Visio** , cliquez sur **avancé**, puis sous **général**, sélectionnez **exécuter en mode développeur**.
+- Dans la **boîte de dialogue Options Visio,** cliquez sur **Avancé,** puis sous **Général,** sélectionnez Exécuter **en mode développeur.**
     
 Vous pouvez ensuite sélectionner un objet et cliquer sur **Afficher la feuille ShapeSheet** pour accéder plus rapidement à la fenêtre de feuille ShapeSheet. 
   
